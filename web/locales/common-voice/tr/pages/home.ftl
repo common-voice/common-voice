@@ -46,6 +46,7 @@ x-years-short =
     }
 help-make-dataset = Kaliteli, herkese açık bir veri kümesi oluşturmamıza yardım edin
 sign-up-account = Hesap açın
+email-subscription-title-v3 = Common Voice ve Mozilla Foundation haberlerine kaydolun
 
 ## Account Benefits
 
