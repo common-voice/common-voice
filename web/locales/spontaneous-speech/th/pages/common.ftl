@@ -37,8 +37,5 @@ not-found-page-header = ไม่พบ
 not-found-page-content = ไม่พบหน้าเว็บที่คุณกำลังค้นหา
 # Privacy and Terms checkbox
 accept-privacy-and-terms = ฉันยอมรับ<termsLink>เงื่อนไข</termsLink>และ<privacyLink>ประกาศความเป็นส่วนตัว</privacyLink>ของ Common Voice
-# Locales (not yet fully resolved in Pontoon)
-meh = มิซเท็กทลาเซียโกตะวันตกเฉียงใต้
-mel = เมลานาอูตอนกลาง
 # Locales-Variants
 ms-MY = มลายูมาตรฐาน

@@ -31,8 +31,5 @@ not-found-page-header = לא נמצא
 not-found-page-content = הדף שחיפשתם לא נמצא
 # Privacy and Terms checkbox
 accept-privacy-and-terms = אני מסכימ\ה ל<termsLink>תנאים</termsLink> ול<privacyLink>מדיניות הפרטיות</privacyLink> של Common Voice
-# Locales (not yet fully resolved in Pontoon)
-meh = מישטק של דרום־מערב טלקסיאקו
-mel = מלנאו מרכזית
 # Locales-Variants
 ms-MY = מלאית

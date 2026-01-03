@@ -32,9 +32,6 @@ not-found-page-header = Var İdziru
 not-found-page-content = Gorumt butka var madzires
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Common Voiceşi <termsLink>Terimepe</termsLink> do <privacyLink>Privacy Notice</privacyLink>
-# Locales (not yet fully resolved in Pontoon)
-meh = Omjoretişi Yulva Tlaxiaco Mixtec
-mel = Oşkenani Malanau
 # Locales-Variants
 ms-MY = Bahasa Malay
 el-CY = Kibrisuri Xorumuri

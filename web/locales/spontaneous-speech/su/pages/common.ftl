@@ -43,9 +43,6 @@ not-found-page-header = Henteu kapendak
 not-found-page-content = Kaca nu ditéang teu bisa kapanggih
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Abdi satuju kana <termsLink>Syarat</termsLink> sareng <privacyLink>Bewara Privasi</privacyLink> Common Voice
-# Locales (not yet fully resolved in Pontoon)
-meh = Kulon Tlaxiaco Mixtec
-mel = Melanau Tengah
 # Locales-Variants
 ms-MY = Basa Melayu
 el-CY = Siprus Yunani

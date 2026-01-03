@@ -40,9 +40,6 @@ not-found-page-header = نهِين لڀَي
 not-found-page-content = تمهِين جڪو صِفحا سوڌا ڇَوا پلي اوهچ نهِين لڀَي ڇَي
 # Privacy and Terms checkbox
 accept-privacy-and-terms = مين ڪامن وائِيسا چِيا <termsLink> شرطا </termsLink> ائُون <privacyLink> پرائِيوسِي نوٽسا سُون راضِي ڇَين </privacyLink>
-# Locales (not yet fully resolved in Pontoon)
-meh = ڏکڻ آنٿوڻي ٽلاگزِيڪو مِگزٽيڪ
-mel = بِچا هاڙِي ميلانو
 # Locales-Variants
 ms-MY = بَهاسا ملائي
 

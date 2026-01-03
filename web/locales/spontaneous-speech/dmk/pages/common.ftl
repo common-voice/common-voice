@@ -31,8 +31,5 @@ not-found-page-header = نݵ لݵݸم
 not-found-page-content = وَرَق کونݸشُݸ تُݸ دݵکھݺ چھݳئتݳ نݵ لݵئ شکَم چھݸم
 # Privacy and Terms checkbox
 accept-privacy-and-terms = اُݸ کݳمَن وݳئسݵئ<termsLink> شَرطݸݣ</termsLink> نݸ <privacyLink>پرݳئݸݵسݵ نݸٹِسَس</privacyLink> رݳضݵ چھݵس
-# Locales (not yet fully resolved in Pontoon)
-meh = سݳݸتھوݵسٹرن تلݳزݵݳکݸ مکسٹݵک
-mel = سݵنٹرل مݵلݳنݳݸ
 # Locales-Variants
 ms-MY = بَھَݳسݳ مݳلݺ

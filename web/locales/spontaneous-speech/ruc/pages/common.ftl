@@ -31,8 +31,5 @@ not-found-page-header = tekisangibwe
 not-found-page-content = byokuswagana tebikusoboka kufunika
 # Privacy and Terms checkbox
 accept-privacy-and-terms = nkwikiriziganya namaloboozi gaamwe
-# Locales (not yet fully resolved in Pontoon)
-meh = omumaserengata gabugwa isana ga Tlaxiaco Mixtec
-mel = Akati wa Melanau
 # Locales-Variants
 ms-MY = Bahasa Malay

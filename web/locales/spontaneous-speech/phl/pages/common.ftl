@@ -31,8 +31,5 @@ not-found-page-header = ملاؤ نہ بھلو
 not-found-page-content = تو کھئیو صفحہ کی تلاش تھانو ایسو ملاؤ نہ بھلو
 # Privacy and Terms checkbox
 accept-privacy-and-terms = مہ Common Voice کی <termsLink>شرائط</termsLink> او <privacyLink>پرائیویسی نوٹس</privacyLink> نسگی اتفاق تھانو ہنو
-# Locales (not yet fully resolved in Pontoon)
-meh = جنوب مغربی Tlaxiaco Mixtec
-mel = وسطی میلانو
 # Locales-Variants
 ms-MY = بہاسا مالے
