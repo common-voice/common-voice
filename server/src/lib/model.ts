@@ -351,7 +351,7 @@ export default class Model {
     12 * TimeUnits.HOUR,
     120 * TimeUnits.MINUTE,
     true, // allow stale data
-    { prefetch: true, prefetchBefore: 1 * TimeUnits.HOUR } // Enable prefetch 1 hour before expiry
+    { prefetch: true, prefetchBefore: 4 * TimeUnits.HOUR } // Prefetch 4h before expiry (33% of TTL)
   )
 
   getClipsStats = lazyCache(
