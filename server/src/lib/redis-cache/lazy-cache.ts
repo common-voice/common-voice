@@ -214,15 +214,8 @@ async function checkAndTriggerPrefetch(entry: PrefetchEntry): Promise<void> {
       return
     }
 
-    // Time to prefetch!
+    // Time to prefetch! Try to acquire lock first (no logging until we get it)
     const cacheKey = key.replace(/\{.*$/, '') // Extract base key name for logging
-    console.log(
-      `[LazyCache] Proactive prefetch triggered for ${cacheKey}: age=${(
-        age / TimeUnits.MINUTE
-      ).toFixed(1)}min, threshold=${(
-        refreshThreshold / TimeUnits.MINUTE
-      ).toFixed(1)}min`
-    )
 
     // Trigger async refresh in background (non-blocking)
     setImmediate(() => {
@@ -242,6 +235,15 @@ async function checkAndTriggerPrefetch(entry: PrefetchEntry): Promise<void> {
             }
             return // Silent skip - this is expected and normal
           }
+
+          // We got the lock! NOW log that we're actually doing work
+          console.log(
+            `[LazyCache] Proactive prefetch triggered for ${cacheKey}: age=${(
+              age / TimeUnits.MINUTE
+            ).toFixed(1)}min, threshold=${(
+              refreshThreshold / TimeUnits.MINUTE
+            ).toFixed(1)}min`
+          )
 
           // We got the lock! Double-check if still needed
           const current = await redis.get(key)
