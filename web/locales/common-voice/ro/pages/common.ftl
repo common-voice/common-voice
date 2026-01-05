@@ -218,7 +218,6 @@ nan-tw = Taiwaneză (Minnan)
 nb-NO = Norvegiană Bokmål
 nd = Ndebele de nord
 ne-NP = Nepaleză
-nhe = Huasteca Nahuatl de Est
 nl = Olandeză
 nlv = Orizaba Nahuatl
 nmg = Kwasio
