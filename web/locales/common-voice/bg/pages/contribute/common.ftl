@@ -1,6 +1,6 @@
 action-click = Изберете
 action-tap = Докоснете
-contribute = Помогнете
+contribute = Принос
 review = Преглед
 skip = Пропускане
 shortcuts = Бързи клавиши
@@ -30,6 +30,12 @@ target-segment-generic-card = Допринасяте за създаването
 target-segment-first-banner = Помогнете за създаването на първия целеви сегмент на Common Voice на { $locale }
 target-segment-add-voice = Добавете своя глас
 target-segment-learn-more = Научете повече
+vote-yes = Да
+vote-no = Не
+datasets = Набори от данни
+languages = Езици
+about = Относно
+submit-form-action = Изпращане
 
 ## Reporting
 
@@ -95,6 +101,7 @@ contribution-for-example = например
 contribution-misreadings-title = Неправилни разчитания
 contribution-misreadings-description = Когато слушате, проверете много внимателно дали записаното е точно това, което е написано; отхвърлете, ако има дори незначителни грешки. <br />Много често срещаните грешки включват:
 contribution-misreadings-description-extended-list-1 = Липсват <strong>думи</strong>  в началото на записа.
+contribution-misreadings-example-5-title = Излизаме да пием кафе.
 contribution-misreadings-example-8-explanation = [Несъответстващо съдържание]
 contribution-varying-pronunciations-title = Различни произношения
 contribution-varying-pronunciations-description = Бъдете внимателни, преди да отхвърлите клип на основание, че читателят е произнесъл погрешно дума, поставил е ударението на грешното място или очевидно е пренебрегнал въпросителен знак. Има голямо разнообразие от произношения, използвани по целия свят, някои от които може да не сте чували в местната общност. Моля, предоставете свобода на преценка за тези, които може да говорят различно от вас.
