@@ -26,3 +26,4 @@ review-transcriptions-menu-item-tooltip = Dzro nuŋɔŋlɔ siwo zãla tsɔ ɖo �
 
 listen-contribute-menu-aria-label = Se tiatiawɔblɔɖe ƒe menu
 validate-readings-menu-item-aria-label = Da asi ɖe nuxexlẽ siwo nutoa me tɔwo tsɔ ɖo ɖa dzi
+review-transcriptions-menu-item-aria-label = Dzro nyagbe siwo woŋlɔ ɖi ƒe nuŋɔŋlɔwo me be wosɔ pɛpɛpɛ
