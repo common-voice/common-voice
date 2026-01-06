@@ -133,7 +133,6 @@ add-text = نبشتانک ءَ ھوار کن
 
 ## Community section
 
-community-section-title = گلوبل کمیونٹیز ءِ نیمگ ءَ چہ طاقتور کنگ بوتگ، پہ گلوبل کمیونٹیز ءَ — 130 زبان ءُ دیمروئی کنگ ءَ اِنت!
 join-discord-community = ڈسکارڈ کمیونٹی ئا ہوار بی
 # label for button
 join-discord-community-action = ڈسکارڈ سرا مارا ہوار بئے

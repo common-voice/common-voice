@@ -123,7 +123,6 @@ add-text = نیویشیرو شامل کو
 
 ## Community section
 
-community-section-title = دنیو کمیونیٹیان ، دنیوکمیونیٹیان پیچین  طاقت دیرو — 130وار وا زیاد بونیان
 join-discord-community = پیڅیروا کمیونیٹیا شامل بوس
 # label for button
 join-discord-community-action = اسپہ سون پیڅیروا شامل بوس

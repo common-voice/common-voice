@@ -134,7 +134,6 @@ answer = Wótegroniś
 
 ## Community section
 
-community-section-title = Pódprěte wót globalnych zgromaźeństwow za globalne zgromaźeństwa – 130 rěcow a pśiběrajuce!
 join-discord-community = Pśizamkniśo se zgromaźeństwoju Discord
 # label for button
 join-discord-community-action = &nbsp;Pśizamkniśo se nam na Discord

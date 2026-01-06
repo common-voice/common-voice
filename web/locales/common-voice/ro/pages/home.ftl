@@ -130,7 +130,6 @@ answer = Vorbește liber
 
 ## Community section
 
-community-section-title = Suntem susținuți de și lucrăm pentru comunități de pretutindeni — am ajuns deja la 130 de limbi și nu ne oprim aici!
 join-discord-community = Intră în comunitatea noastră de pe Discord
 # label for button
 join-discord-community-action = Contactează-ne pe Discord

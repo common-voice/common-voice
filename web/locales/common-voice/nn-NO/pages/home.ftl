@@ -128,7 +128,6 @@ answer = Svar
 
 ## Community section
 
-community-section-title = Driven av globale samfunn, for globale samfunn - 130 språk, og det vert stadig fleire!
 join-discord-community = Ver med i Discord-fellesskapet
 # label for button
 join-discord-community-action = Ver med oss på Discord

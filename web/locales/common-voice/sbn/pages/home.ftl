@@ -126,7 +126,6 @@ add-text = لکت شآمل ڪرو
 
 ## Community section
 
-community-section-title = آلميٚ برآدريآنٚ پآرآنٚ تآنٚڪتور، آلميٚ برآدريآنٚ لآ۔ 130 ٻولينٚ ائيٚنٚ وڌتينٚ
 join-discord-community = ڊيس ڪورڊ ڪميٚونٽيٚ ميݩ شآمل ٿيو
 # label for button
 join-discord-community-action = اسآݩ سآݩ شآمل ٿيو ڊيس ڪورڊ تي

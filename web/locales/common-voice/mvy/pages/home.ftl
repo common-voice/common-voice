@@ -118,7 +118,6 @@ add-text = لِکیلیۡ ٹل کرہ
 
 ## Community section
 
-community-section-title = تام دُنیں یاں خلکہ وَیں کِھن٘گی نہ تام دُنَیں خلکہ واں کریا — 130 ژِبہۡ آں مِٹُھویں چئ ہوں بېں تھی!
 join-discord-community = ڈسکارڈ کمیُونٹی مہ ٹل ہو
 # label for button
 join-discord-community-action = ڈسکارڈ لا زَیں مِلہ

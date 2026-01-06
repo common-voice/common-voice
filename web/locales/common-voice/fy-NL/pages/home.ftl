@@ -138,7 +138,6 @@ answer = Beäntwurdzje
 
 ## Community section
 
-community-section-title = Mooglik makke troch wrâldwide mienskippen, foar wrâldwide mienskippen – 130 talen en groeiende!
 join-discord-community = Doch mei mei de Discord-mienskip
 # label for button
 join-discord-community-action = Doch mei ús mei op Discord

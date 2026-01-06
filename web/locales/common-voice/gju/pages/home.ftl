@@ -131,7 +131,6 @@ answer = جواب
 
 ## Community section
 
-community-section-title = عالمی برادری وسطے  عالمی برادری کی طرف تے تعاون(طاقت)
 join-discord-community = بکھ بکھ کنبہ(ڈسکارڈ) ما شامل ہو جاو
 # label for button
 join-discord-community-action = ڈسکارڈ اپر مہارے نال شامل ہو جاو

@@ -124,7 +124,6 @@ add-text = Shtoni Tekst
 
 ## Community section
 
-community-section-title = Bazuar në bashkësitë globale, për bashkësi globale — 130 gjuhë dhe që shtohen!
 join-discord-community = Bëhuni Pjesë e Bashkësisë në Discord
 # label for button
 join-discord-community-action = Ejani te ne në Discord

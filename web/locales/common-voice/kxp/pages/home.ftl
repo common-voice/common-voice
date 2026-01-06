@@ -126,7 +126,6 @@ answer = جواب
 
 ## Community section
 
-community-section-title = برادري ني طاقت ٿي، گلوبل برادري ني ٻولي هارو ترقي
 join-discord-community = نا موافق برادري مان شامل ٿاوون
 # label for button
 join-discord-community-action = ناموافق مان شامل
