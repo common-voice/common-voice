@@ -142,6 +142,7 @@ answer = Odpovedajte
 
 ## Community section
 
+community-section-title-202601 = Poháňaný globálnymi komunitami pre globálne komunity – už 290 jazykov a ďalšie pribúdajú!
 join-discord-community = Pripojte sa ku komunite Discord
 # label for button
 join-discord-community-action = Pridajte sa k nám na Discorde
