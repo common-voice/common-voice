@@ -134,6 +134,7 @@ answer = Wotmołwić
 
 ## Community section
 
+community-section-title-202601 = Podpěrane wot globalnych zhromadźenstwow za globalne zhromadźenstwa – 290 rěčow a přiběrace!
 join-discord-community = Přidružće so zhromadźenstwu Discord
 # label for button
 join-discord-community-action = &nbsp;Přidružće so nam na Discord
