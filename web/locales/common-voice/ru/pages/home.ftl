@@ -131,6 +131,7 @@ answer = Ответить
 
 ## Community section
 
+community-section-title-202601 = При поддержке глобальных сообществ, для глобальных сообществ — 290 языков и их число продолжает расти!
 join-discord-community = Присоединиться к сообществу Discord
 # label for button
 join-discord-community-action = Присоединитесь к нам в Discord
