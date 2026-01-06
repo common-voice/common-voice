@@ -126,6 +126,7 @@ answer = Rispondi
 
 ## Community section
 
+community-section-title-202601 = Realizzato da comunità globali, per le comunità globali — 290 lingue, in continua crescita!
 join-discord-community = Unisciti alla comunità su Discord
 # label for button
 join-discord-community-action = Partecipa su Discord
