@@ -120,7 +120,6 @@ answer = Trả lời
 
 ## Community section
 
-community-section-title = Được cung cấp bởi các cộng đồng toàn cầu, cho các cộng đồng toàn cầu — 130 ngôn ngữ và vẫn tiếp tục tăng lên!
 join-discord-community = Tham gia cộng đồng Discord
 # label for button
 join-discord-community-action = Tham gia cùng chúng tôi trên Discord

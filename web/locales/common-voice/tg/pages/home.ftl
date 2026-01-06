@@ -124,7 +124,6 @@ answer = Ҷавоб додан
 
 ## Community section
 
-community-section-title = Бо дастгирии ҷомеаҳои умумиҷаҳонӣ ва барои ҷомеаҳои умумиҷаҳонӣ фаъолият мекунад — 130 забон ва зиёд шуда истодааст!
 join-discord-community = Ба ҷамъияти мо дар «Discord» ҳамроҳ шавед
 # label for button
 join-discord-community-action = Ба мо дар «Discord» ҳамроҳ шавед

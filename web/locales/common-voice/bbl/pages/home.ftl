@@ -127,7 +127,6 @@ answer = პა́სუხ
 
 ## Community section
 
-community-section-title = დი́ნ მათხკიკლერნი ცადლაშ მაჲთხკიკლე́რჩოჼ ცჰა́ღხილ'რენაჲნო̆ (ე́რთობენაჲნო̆) —130 მოტტ, მენხუ́ ტყოჸ დუჴარლა!
 join-discord-community = ჩუ დო́ლათ Discord ე́რთობელო
 # label for button
 join-discord-community-action = დო́ლათ  Discord-მაქ!

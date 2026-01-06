@@ -124,7 +124,6 @@ add-text = لڦز جمآ ڪرو
 
 ## Community section
 
-community-section-title = آلمي برآدري وجون تآڪتور ،آلمي برآدري سآرو —130 ٻولي آئين وڌيوآڙي
 join-discord-community = هم نيٚ ۮوجي نيٚ ڊونٚڊيم مدد ڪرو جڪو آپيريٚ آوآزي ڏي سڪي ڇي۔
 # label for button
 join-discord-community-action = ڊسڪآرڊي پر همآر بهڙي هو

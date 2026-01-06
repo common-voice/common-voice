@@ -140,7 +140,6 @@ answer = جواب
 
 ## Community section
 
-community-section-title = عالمي برادريو مون طاقتور، عالمي برادريو ھارو - 130 ٻوليو ھين وڌيڌياواري!
 join-discord-community = Discord ڪميونٽي ۾ ڀيرا ھون
 # label for button
 join-discord-community-action = ڊسڪارڊ تي امو مون ڀيرا ھون

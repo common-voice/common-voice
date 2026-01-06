@@ -116,7 +116,6 @@ add-text = Newishil'a jama kari
 
 ## Community section
 
-community-section-title = Sawzai shiau saw dunia as bati, dunia ani mochan bati, zuban bo hikas bati
 join-discord-community = Discord comete una join kari
 # label for button
 join-discord-community-action = Discord una homa som join kari

@@ -117,7 +117,6 @@ add-text = Cuir Téacs leis
 
 ## Community section
 
-community-section-title = Is pobail dhomhanda a thugann neart do Common Voice agus is do phobail dhomhanda é - tá 130 teanga ann agus tá siad ag dul i méid!
 join-discord-community = Bí linn i Discord Community
 # label for button
 join-discord-community-action = Bí linn ar Discord

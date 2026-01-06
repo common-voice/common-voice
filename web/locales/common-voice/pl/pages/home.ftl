@@ -101,7 +101,6 @@ coming-soon = Wkrótce
 
 ## Community section
 
-community-section-title = Wspierany przez globalne społeczności, dla globalnych społeczności — 130 języków i wciąż rośniemy!
 join-discord-community = Dołącz do naszej społeczności na Discord
 # label for button
 join-discord-community-action = Dołącz do nas na Discordzie

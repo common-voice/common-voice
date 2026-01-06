@@ -129,7 +129,6 @@ answer = উত্তৰ দিয়ক
 
 ## Community section
 
-community-section-title = বিশ্বব্যাপী সমাজৰ দ্বাৰা চালিত, বিশ্বব্যাপী সমাজৰ বাবে — 130টা ভাষা আৰু বাঢ়িয়েই আছে!
 join-discord-community = Discord সমাজত যোগদান কৰক
 # label for button
 join-discord-community-action = Discord-ত আমাৰ সৈতে যোগদান কৰক
