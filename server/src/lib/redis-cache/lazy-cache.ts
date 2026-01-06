@@ -153,10 +153,6 @@ function startPrefetchMonitoring() {
       return
     }
 
-    console.log(
-      `[LazyCache] Proactive prefetch check running (${prefetchRegistry.size} registered caches)`
-    )
-
     for (const [, entry] of prefetchRegistry.entries()) {
       try {
         await checkAndTriggerPrefetch(entry)
@@ -537,7 +533,8 @@ function redisCache<T, S>(
             // Cache is still fresh - register for proactive prefetch if enabled
             if (prefetchEnabled) {
               // Register once per unique cache key for background monitoring
-              if (!prefetchRegistry.has(key)) {
+              const wasAlreadyRegistered = prefetchRegistry.has(key)
+              if (!wasAlreadyRegistered) {
                 const entry: PrefetchEntry = {
                   key,
                   cachedFunction,
@@ -548,15 +545,18 @@ function redisCache<T, S>(
                     prefetchOptions.prefetchBefore || prefetchBefore,
                 }
                 prefetchRegistry.set(key, entry)
-                if (isDebugEnabled) {
-                  console.debug(
-                    `[LazyCache] Registered ${key} for proactive prefetch (TTL=${
-                      timeMs / TimeUnits.MINUTE
-                    }min, prefetchBefore=${
-                      entry.prefetchBefore / TimeUnits.MINUTE
-                    }min)`
-                  )
-                }
+
+                // Always log new registrations to see registry growth
+                console.log(
+                  `[LazyCache] Registered for prefetch: ${cacheKey}${JSON.stringify(
+                    args
+                  )} (TTL=${(timeMs / TimeUnits.HOUR).toFixed(
+                    1
+                  )}h, prefetch@=${(
+                    (timeMs - entry.prefetchBefore) /
+                    TimeUnits.HOUR
+                  ).toFixed(1)}h, total=${prefetchRegistry.size})`
+                )
               }
             }
             return cached.value
