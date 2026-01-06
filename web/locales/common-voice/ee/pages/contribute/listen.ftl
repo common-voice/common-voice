@@ -11,3 +11,18 @@ listen-loading-error =
 listen-abort-title = Ɖe ne wɔ vɔ a?
 listen-abort-cancel = Yi dzi
 listen-abort-confirm = Wu enu
+# Menu item
+validate-readings = Da kpe nuxexlẽ dzi
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = Da asi ɖe Nuxexlẽwo dzi <small>(Ele vava ge kpuie)</small>
+
+## MENU ITEM TOOLTIPS
+
+listen-contribute-menu-tooltip = Dada Nuxexlẽwo Dzi, To Nuŋɔŋlɔwo Me
+validate-readings-menu-item-tooltip = Da asi ɖe nuxexlẽ siwo zãla ŋlɔ ɖe wò gbe me dzi
+review-transcriptions-menu-item-tooltip = Dzro nuŋɔŋlɔ siwo zãla tsɔ ɖo ɖe wò gbe me la me
+
+## MENU ITEM ARIA LABELS
+
+listen-contribute-menu-aria-label = Se tiatiawɔblɔɖe ƒe menu
+validate-readings-menu-item-aria-label = Da asi ɖe nuxexlẽ siwo nutoa me tɔwo tsɔ ɖo ɖa dzi
