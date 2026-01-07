@@ -1,3 +1,8 @@
+speak = Ƒo nu
+speak-now = Ƒo nu fifia
+speak-subtitle = Tsɔ wò gbe na
+record-cta = Dze nuŋɔŋlɔ gɔme
+record-platform-not-supported = Míeɖe kuku, womele asi kpem ɖe wò gbea ŋu fifia o.
 create-profile-text = Àdi be yeadzra onyatakakawo ɖoa? <createProfile>Wɔ nɔnɔmetata</createProfile><createProfile>
 thanks-for-voice-toast = Akpe na wò le wò nuƒo
 thanks-for-voice-toast-error = Vodada aɖe dzɔ le wò gbe ŋuti nyatakakawo ɖoɖo ɖa me
@@ -25,3 +30,5 @@ answer-questions-menu-item-tooltip = Lé ɖokuiwò ɖe nyabiasewo kple nusiwo wo
 ## MENU ITEM ARIA LABELS
 
 speak-contribute-menu-aria-label = Nuƒoƒo ƒe tatiawɔblɔɖe ƒe menu
+read-sentences-menu-item-aria-label = Xlẽ nyagbe siwo nutoa me tɔwo tsɔ ɖo ɖa le gbegbɔgblɔ vovovowo me
+answer-questions-menu-item-aria-label = Miɖo babia yeye aɖe ɖa be nutoa me tɔwo naxlẽ ahaɖo eŋu
