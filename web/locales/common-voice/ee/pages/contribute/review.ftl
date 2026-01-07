@@ -1,5 +1,8 @@
 ## REVIEW
 
+sc-review-lang-not-selected = Wo mètia gbegbɔgblɔ aɖeke o. Taflatse yi wò <profileLink>Profile</profileLink> be nàtia gbegbɔgblɔwo.
+sc-review-title = Dzro Nyagbewo Me
+sc-review-loading = Nyagbewo ƒe agbatsɔtsɔ...
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = Y
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
@@ -44,3 +47,5 @@ review-error-rate-limit-exceeded = Èle yiyim kabakaba akpa. Taflatse tsɔ ɣeyi
 sc-redirect-page-title = Míele tɔtrɔ gã aɖewo wɔm
 sc-redirect-page-subtitle-1 = The Sentence Collector le ʋuʋum yi Common Voice platform ƒe nuto me. Fifia àteŋu <writeURL>aŋlɔ</writeURL> nyagbe alo <reviewURL>Dzro eme</reviewURL> nyagbe ɖeka ƒe dɔdɔwo le Common Voice dzi.
 sc-redirect-page-subtitle-2 = Bia nya mí tso <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</emailLink> alo <emailLink>email</emailLink> ŋu.
+# menu item
+review-sentences = Dzro Nyagbewo Me
