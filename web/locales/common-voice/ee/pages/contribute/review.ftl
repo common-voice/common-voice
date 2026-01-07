@@ -27,3 +27,10 @@ sc-criteria-title = To Dzesiwo Me
 sc-criteria-make-sure = Ele be nyagbea naɖo dzidzenu siwo gbɔna gbɔ:
 sc-criteria-item-1 = Ele be woaŋlɔ nyagbea nyuie.
 sc-criteria-item-2 = Ele be nyagbea nasɔ le gbeŋutise nu.
+sc-criteria-item-3 = Ele be nyagbea nanye esi woate ŋu agblɔ.
+sc-criteria-item-4 = Ne nyagbea ɖo dzidzenuawo gbɔ la, zi &quot;Da asi ɖe edzi&quot; ƒe dzesi si le ɖusime.
+sc-criteria-item-5-2 = Ne nyagbea meɖo dzidzenu siwo le etame gbɔ o la, zi &quot;Gbe&quot; ƒe dzesi si le miame. Ne mèka ɖe nyagbea dzi o la, àte ŋu adzo le edzi hã eye nàyi esi kplɔe ɖo dzi.
+sc-criteria-item-6 = Ne nyagbe siwo me nàto la vɔ le asiwò la, taflatse kpe ɖe mía ŋu míaƒo nyagbe bubuwo nu ƒu!
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Kpɔ <icon></icon> ɖa be nyagbee nye nyagbe si sɔ le gbegbɔgblɔ mea?
+sc-review-rules-title = Ðe nyagbea wɔ ɖe mɔfiameawo dzia?
