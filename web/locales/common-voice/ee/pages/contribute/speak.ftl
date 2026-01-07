@@ -11,6 +11,7 @@ record-must-allow-microphone = Ele be nàɖe mɔ na nuƒomɔ̃ ƒe gege ɖe eme.
 record-no-mic-found = Womekpɔ nuƒomɔ̃ aɖeke o.
 record-error-too-short = Nuƒoƒo si wolé ɖe mɔ̃ dzi la nɔ kpuie akpa.
 record-error-too-long = Nuƒoƒo si wolé ɖe mɔ̃ dzi la didi akpa.
+record-error-too-quiet = Nuƒoƒo si wolé ɖe mɔ̃ dzi la nɔ anyi kpoo akpa.
 create-profile-text = Àdi be yeadzra onyatakakawo ɖoa? <createProfile>Wɔ nɔnɔmetata</createProfile><createProfile>
 thanks-for-voice-toast = Akpe na wò le wò nuƒo
 thanks-for-voice-toast-error = Vodada aɖe dzɔ le wò gbe ŋuti nyatakakawo ɖoɖo ɖa me
