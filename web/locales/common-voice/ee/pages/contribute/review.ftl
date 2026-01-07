@@ -34,3 +34,9 @@ sc-criteria-item-6 = Ne nyagbe siwo me nàto la vɔ le asiwò la, taflatse kpe �
 # <icon></icon> will be replace with an icon that represents review
 sc-review-instruction = Kpɔ <icon></icon> ɖa be nyagbee nye nyagbe si sɔ le gbegbɔgblɔ mea?
 sc-review-rules-title = Ðe nyagbea wɔ ɖe mɔfiameawo dzia?
+sc-review-empty-state = Fifia la, nyagbe aɖeke meli si me woato le gbe sia me o.
+report-sc-different-language = Gbegbɔgblɔ vovovo
+report-sc-different-language-detail = Woŋlɔe ɖe gbegbɔgblɔ si to vovo na esi me tom mele la me.
+sentences-fetch-error = Vodada aɖe dzɔ le nyagbewo hehe vɛ me
+review-error = Vodada aɖe dzɔ le nyagbe sia me toto me
+review-error-rate-limit-exceeded = Èle yiyim kabakaba akpa. Taflatse tsɔ ɣeyiɣi kpui aɖe to nyagbe me be nàka ɖe edzi be esɔ hã.
