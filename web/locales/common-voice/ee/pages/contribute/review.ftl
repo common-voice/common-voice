@@ -5,6 +5,15 @@ sc-review-title = Dzro Nyagbewo Me
 sc-review-loading = Nyagbewo ƒe agbatsɔtsɔ...
 sc-review-select-language = Taflatse tia gbe aɖe si nàtsɔ ato nyagbewo me.
 sc-review-no-sentences = Nyagbe aɖeke mele mia si me woato o. <addLink>Tsɔ nyagbe bubuwo vɛ fifia!</addLink>
+sc-review-form-prompt =
+    .message = Wometsɔ nyagbe siwo me wogbugbɔ tsɔ la ɖo ɖa o, èka ɖe edzia?
+sc-review-form-usage = Tsɔ asi ƒo ɖe ɖusime be nàda asi ɖe nyagbea dzi. Tsɔ asi ƒo ɖe miame be nàgbee. Tsɔ asi ƒo ɖe dzi be nàdzo le edzi. <strong>Mègaŋlɔ be yeatsɔ yeƒe numetoto aɖo ɖa o!</strong>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = dzᴐtsoƒe: { $sentenceSource }
+sc-review-form-button-reject = Gbe
+sc-review-form-button-skip = Dzo to eta
+sc-review-form-button-approve = Da asi ɖe edzi
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = Y
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
