@@ -40,3 +40,7 @@ report-sc-different-language-detail = Woŋlɔe ɖe gbegbɔgblɔ si to vovo na es
 sentences-fetch-error = Vodada aɖe dzɔ le nyagbewo hehe vɛ me
 review-error = Vodada aɖe dzɔ le nyagbe sia me toto me
 review-error-rate-limit-exceeded = Èle yiyim kabakaba akpa. Taflatse tsɔ ɣeyiɣi kpui aɖe to nyagbe me be nàka ɖe edzi be esɔ hã.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Míele tɔtrɔ gã aɖewo wɔm
+sc-redirect-page-subtitle-1 = The Sentence Collector le ʋuʋum yi Common Voice platform ƒe nuto me. Fifia àteŋu <writeURL>aŋlɔ</writeURL> nyagbe alo <reviewURL>Dzro eme</reviewURL> nyagbe ɖeka ƒe dɔdɔwo le Common Voice dzi.
+sc-redirect-page-subtitle-2 = Bia nya mí tso <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</emailLink> alo <emailLink>email</emailLink> ŋu.
