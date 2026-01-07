@@ -6,3 +6,4 @@ first-cta-gender-select-help-text =
     .label = nukae nye wò ŋutsu enyea alo nyɔnu?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Akpe na wò be nètsɔ wò gbe!
+second-cta-subtitle-text = Ne èzã profile aɖe la, àte ŋu akpɔ wò dɔwɔna eye nàdo ka kple gbeɖiɖi ƒe habɔbɔ aɖe.
