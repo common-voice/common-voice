@@ -3,6 +3,8 @@
 sc-review-lang-not-selected = Wo mètia gbegbɔgblɔ aɖeke o. Taflatse yi wò <profileLink>Profile</profileLink> be nàtia gbegbɔgblɔwo.
 sc-review-title = Dzro Nyagbewo Me
 sc-review-loading = Nyagbewo ƒe agbatsɔtsɔ...
+sc-review-select-language = Taflatse tia gbe aɖe si nàtsɔ ato nyagbewo me.
+sc-review-no-sentences = Nyagbe aɖeke mele mia si me woato o. <addLink>Tsɔ nyagbe bubuwo vɛ fifia!</addLink>
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = Y
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
