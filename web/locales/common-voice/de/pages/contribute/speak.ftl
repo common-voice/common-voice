@@ -12,6 +12,13 @@ record-no-mic-found = Kein Mikrofon gefunden.
 record-error-too-short = Die Aufnahme war zu kurz.
 record-error-too-long = Die Aufnahme war zu lang.
 record-error-too-quiet = Die Aufnahme war zu leise.
+record-error-uploaded-clip-corrupted =
+    Ihre Audioaufnahme scheint beschädigt zu sein. Dies kann passieren aufgrund:
+    • Browser-Kompatibilitätsprobleme (verwenden Sie einen anderen Browser)
+    • Mikrofon- oder Audiotreiberprobleme
+    • Netzwerkunterbrechungen während der Aufnahme
+    Bitte versuchen Sie es erneut.
+record-error-uploaded-clip-too-long = Ihre Aufnahme hat die maximale Dauer von { $duration } Sekunden überschritten. Bitte nehmen Sie einen kürzeren Clip auf.
 record-cancel = Neuaufnahme abbrechen
 record-instruction = <recordIcon></recordIcon>{ $actionType } - Lesen Sie den Satz laut vor
 record-stop-instruction = <stopIcon></stopIcon>{ $actionType }, wenn Sie fertig sind
