@@ -12,6 +12,13 @@ record-no-mic-found = Gjin mikrofoan fûn.
 record-error-too-short = De opname wie te koart.
 record-error-too-long = De opname wie te lang.
 record-error-too-quiet = De opname wie te súntsjes
+record-error-uploaded-clip-corrupted =
+    Jo lûdsopname liket skansearre te wêzen. Dit kin barre fanwegen:
+    • Problemen mei browserkompatibiliteit (probearje in oare browser te brûken)
+    • Problemen mei mikrofoan of audiostjoerprogramma
+    • Netwurkûnderbrekkingen wylst de opname
+    Probearje opnij op te nimmen.
+record-error-uploaded-clip-too-long = Jo opname is langer as de maksimale doer fan { $duration } sekonden. Nim in koarter fragmint op.
 record-cancel = Opnij opnimmen annulearje
 record-instruction = { $actionType } <recordIcon></recordIcon> en lês de sin dêrnei hurdop
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> as jo klear binne

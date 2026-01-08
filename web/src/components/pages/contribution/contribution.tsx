@@ -84,6 +84,7 @@ export interface ContributionPageProps
   privacyAgreedChecked?: boolean
   shouldShowFirstCTA?: boolean
   shouldShowSecondCTA?: boolean
+  showPrivacyModal?: boolean
   primaryButtons: React.ReactNode
   pills: ((props: ContributionPillProps) => React.ReactNode)[]
   sentences: Sentence[]
@@ -200,7 +201,8 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
       event.shiftKey ||
       event.metaKey ||
       this.state.showReportModal ||
-      this.props.shouldShowFirstCTA
+      this.props.shouldShowFirstCTA ||
+      this.props.showPrivacyModal
     ) {
       return
     }
@@ -211,12 +213,13 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
       return
     }
     if (this.isDone) {
-      if (isEnter && onSubmit) onSubmit()
+      if (isEnter && onSubmit) onSubmit(event)
       return
     }
 
     const shortcut = this.shortcuts.find(
-      ({ key }) => getString(key).toLowerCase() === event.key
+      ({ key }) =>
+        getString(key).toLocaleLowerCase() === event.key.toLocaleLowerCase()
     )
     if (!shortcut) return
 

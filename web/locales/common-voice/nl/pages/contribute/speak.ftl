@@ -12,6 +12,13 @@ record-no-mic-found = Geen microfoon gevonden.
 record-error-too-short = De opname was te kort.
 record-error-too-long = De opname was te lang.
 record-error-too-quiet = De opname was te zacht.
+record-error-uploaded-clip-corrupted =
+    Uw geluidsopname lijkt beschadigd te zijn. Dit kan gebeuren door:
+    • Browsercompatibiliteitsproblemen (probeer een andere browser te gebruiken)
+    • Problemen met microfoon of audiostuurprogramma
+    • Netwerkonderbrekingen tijdens opnemen
+    Probeer opnieuw op te nemen.
+record-error-uploaded-clip-too-long = Uw opname heeft de maximale duur van { $duration } seconden overschreden. Neem een korter fragment op.
 record-cancel = Nieuwe opname annuleren
 record-instruction = { $actionType } <recordIcon></recordIcon> en lees de zin vervolgens hardop
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> wanneer gereed

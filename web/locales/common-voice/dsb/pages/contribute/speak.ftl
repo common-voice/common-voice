@@ -12,6 +12,13 @@ record-no-mic-found = Žeden mikrofon namakany.
 record-error-too-short = Nagraśe jo było pśekrotke.
 record-error-too-long = Nagraśe jo było pśedłujke.
 record-error-too-quiet = Nagraśe jo było pśeśiche.
+record-error-uploaded-clip-corrupted =
+    Zda se, až waše awdionagrawanje je wobškóźone. To móžo so staś, dokulaž daju:
+    • problemy z kompatibelnosću wobglědowaka (wopytajśo drugi wobglědowak wužiyaś)
+    • problemy z mikrofonom abo awdiogónjakom
+    • seśowe pśetergnjenja pśi nagrawanju
+    Pšosym wopytajśo znowego nagrawaś.
+record-error-uploaded-clip-too-long = Wašo nagrawanje jo pśekšocył maksimalne traśe { $duration } sekundow. Pšosym nagrawajśo krótšy klip.
 record-cancel = Zasejnagraśe pśetergnuś
 record-instruction = { $actionType } <recordIcon></recordIcon> a pśedcytajśo sadu głosnje
 record-stop-instruction = { $actionType } <stopIcon></stopIcon>, gaž sćo gótowy

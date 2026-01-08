@@ -578,10 +578,10 @@ class SpeakPage extends React.Component<Props, State> {
     })
   }
 
-  private handleSubmit = (evt: React.SyntheticEvent) => {
+  private handleSubmit = (evt?: React.SyntheticEvent) => {
     const { user } = this.props
 
-    evt.preventDefault()
+    evt?.preventDefault()
 
     // Prevent double submission (double-click, double-tap, or rapid Enter key)
     if (this.state.isSubmitted) {
@@ -598,7 +598,12 @@ class SpeakPage extends React.Component<Props, State> {
 
     this.props.updateUser({ privacyAgreed: this.state.privacyAgreedChecked })
 
-    this.upload(this.state.privacyAgreedChecked)
+    const uploadSucceeded = this.upload(this.state.privacyAgreedChecked)
+
+    // If upload was blocked (privacy modal shown), don't process CTAs or reset submission flag
+    if (!uploadSucceeded) {
+      return
+    }
 
     if (!user.account) {
       if (!hasSeenFirstCTA) {
@@ -617,6 +622,11 @@ class SpeakPage extends React.Component<Props, State> {
         this.resetState()
       }
     }
+
+    // Reset the submission flag after upload is queued to allow next batch
+    // The upload() function sets it to true immediately to prevent double-clicks,
+    // but we reset it here so the next batch can be submitted
+    this.setState({ isSubmitted: false })
   }
 
   private resetAndGoHome = () => {
@@ -821,6 +831,7 @@ class SpeakPage extends React.Component<Props, State> {
             privacyAgreedChecked={this.state.privacyAgreedChecked}
             shouldShowFirstCTA={this.state.shouldShowFirstCTA}
             shouldShowSecondCTA={this.state.shouldShowSecondCTA}
+            showPrivacyModal={this.state.showPrivacyModal}
             primaryButtons={
               <RecordButton
                 trackClass="speak-record"

@@ -12,6 +12,13 @@ record-no-mic-found = Žadyn mikrofon namakany.
 record-error-too-short = Natočenje bě překrótke.
 record-error-too-long = Natočenje bě předołhe.
 record-error-too-quiet = Natočenje bě přećiche.
+record-error-uploaded-clip-corrupted =
+    Zda so, zo waše awdionahrawanje je wobškodźene. To móže so stać, dokelž su:
+    • problemy z kompatibelnosću wobhladowaka (spytajće druhi wobhladowak wužiwać)
+    • problemy z mikrofonom abo awdioćěrjakom
+    • syćowe přetorhnjenja při nahrawanju
+    Prošu spytajće znowa nahrawać.
+record-error-uploaded-clip-too-long = Waše nahrawanje je maksimalne traće { $duration } sekundow překročił. Prošu nahrawajće krótši klip.
 record-cancel = Zasonatočenje přetorhnyć
 record-instruction = { $actionType } <recordIcon></recordIcon> a předčitajće sadu wótře
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> hdyž sće hotowy
