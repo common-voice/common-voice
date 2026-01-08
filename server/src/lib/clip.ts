@@ -10,12 +10,22 @@ import * as Sentry from '@sentry/node'
 import Bucket from './bucket'
 import Awards from './model/awards'
 import { checkGoalsAfterContribution } from './model/goals'
-import { ChallengeToken, challengeTokens } from 'common'
+import { redis } from './redis-cache'
+import { TimeUnits } from 'common'
+import {
+  ChallengeToken,
+  challengeTokens,
+  MAX_RECORDING_MS,
+  MAX_RECORDING_MS_WITH_HEADROOM,
+} from 'common'
 import validate from './validation'
 import { clipsSchema } from './validation/clips'
-import { streamUploadToBucket } from '../infrastructure/storage/storage'
+import {
+  streamUploadToBucket,
+  deleteFileFromBucket,
+} from '../infrastructure/storage/storage'
 import { pipe } from 'fp-ts/lib/function'
-import { option as O, taskEither as TE, task as T, identity as Id } from 'fp-ts'
+import { option as O, taskEither as TE, task as T } from 'fp-ts'
 import { Clip as ClientClip } from 'common'
 import {
   createMp3TranscodeJob,
@@ -35,6 +45,7 @@ enum ERRORS {
   CLIP_NOT_FOUND = 'CLIP_NOT_FOUND',
   SENTENCE_NOT_FOUND = 'SENTENCE_NOT_FOUND',
   ALREADY_EXISTS = 'ALREADY_EXISTS',
+  AUDIO_CORRUPT = 'AUDIO_CORRUPT',
 }
 
 /**
@@ -227,7 +238,24 @@ export default class Clip {
     const clipFileName = folder + filePrefix + '.mp3'
     const metadata = `${clipFileName} (${size} bytes, ${format}) from ${source}`
 
+    // Redis deduplication: Check if upload succeeded in last 10 minutes
+    // Prevents concurrent duplicates and network retries from wasting bandwidth
+    const uploadKey = `upload-success:${client_id}:${sentenceId}`
+    try {
+      const recentUpload = await redis.get(uploadKey)
+      if (recentUpload) {
+        // Clip was recently uploaded - return 409 (not an error, just duplicate)
+        response.status(409).send(ERRORS.ALREADY_EXISTS)
+        return
+      }
+    } catch (redisError) {
+      // Redis unavailable - fail open (allow upload to proceed)
+    }
+
     if (await this.model.db.clipExists(client_id, sentenceId)) {
+      // Clip already exists in database but not in Redis cache
+      // This could indicate a real duplicate issue, Redis down, cache expired (>10min), or race condition
+      // Log this to Sentry for monitoring, but it will still be handled optimistically on FE
       this.clipSaveError(
         headers,
         response,
@@ -240,18 +268,29 @@ export default class Clip {
     } else {
       let audioInput = request
 
-      if (getConfig().FLAG_BUFFER_STREAM_ENABLED && format.includes('aac')) {
+      // Handle AAC/MP4 formats from iOS devices
+      // MP4 containers need special handling due to moov atom positioning
+      const isAAC = format && (format.includes('aac') || format.includes('mp4'))
+
+      if (getConfig().FLAG_BUFFER_STREAM_ENABLED && isAAC) {
         // aac data comes wrapped in an mpeg container, which is incompatible with
         // ffmpeg's piped stream functions because the moov bit comes at the end of
         // the stream, at which point ffmpeg can no longer seek back to the beginning
         // createBufferedInputStream will create a local file and pipe data in as
         // a file, which doesn't lose the seek mechanism
+        console.log(
+          `[saveClip] Using buffered input for AAC/MP4 format: ${format}`
+        )
 
         const converter = new Converter()
         const audioStream = Readable.from(request)
 
         audioInput = converter.createBufferedInputStream()
         audioStream.pipe(audioInput)
+      } else if (isAAC) {
+        console.log(
+          `[saveClip] AAC/MP4 detected but FLAG_BUFFER_STREAM_ENABLED is disabled: ${format}`
+        )
       }
 
       let transcodeJob: Mp3TranscodeJob | null = null
@@ -265,35 +304,165 @@ export default class Clip {
       request.on('aborted', abortHandler)
 
       try {
+        console.log(`[saveClip] Starting transcode for ${metadata}`)
         transcodeJob = await createMp3TranscodeJob(audioInput)
 
+        // Start streaming upload in parallel for efficiency
+        // The upload reads from outputStream as ffmpeg writes to it
         const uploadTask = pipe(
-          streamUploadToBucket,
-          Id.ap(getConfig().CLIP_BUCKET_NAME),
-          Id.ap(clipFileName),
-          Id.ap(transcodeJob.outputStream),
-          TE.getOrElse((err: Error) => T.of(console.log(err)))
-        )()
+          streamUploadToBucket(getConfig().CLIP_BUCKET_NAME),
+          (
+            fn: (
+              path: string
+            ) => (stream: NodeJS.ReadableStream) => TE.TaskEither<Error, void>
+          ) => fn(clipFileName)(transcodeJob.outputStream)
+        )
 
-        const durationPromise = transcodeJob.durationSeconds.catch(err => {
-          console.error('Failed to determine clip duration with ffprobe:', err)
-          return null
-        })
+        // Get duration (optional - allow null on failure)
+        const durationPromise = transcodeJob.durationSeconds.catch(
+          (err): null => {
+            console.error(
+              '[saveClip] Failed to determine clip duration with ffprobe:',
+              err
+            )
+            return null
+          }
+        )
 
-        const [, , durationInSec] = await Promise.all([
-          uploadTask,
-          transcodeJob.transcodeCompleted,
-          durationPromise,
+        // Wait for ALL operations to complete (even if some fail)
+        // Using allSettled prevents race condition where we try to delete
+        // before upload completes
+        const settledResults = await Promise.allSettled([
+          pipe(
+            uploadTask,
+            TE.fold(
+              (err: Error) => {
+                console.error('[saveClip] Upload to storage failed:', err)
+                return T.of(Promise.reject(err))
+              },
+              () => T.of(Promise.resolve())
+            )
+          )().then(p => p),
+          transcodeJob.transcodeCompleted, // Will reject if transcode fails
+          durationPromise, // Returns null on failure, won't reject
         ])
+
+        // Check if any operation failed
+        const uploadResult = settledResults[0]
+        const transcodeResult = settledResults[1]
+        const durationResult = settledResults[2]
+
+        // If transcode failed, we need to clean up
+        if (transcodeResult.status === 'rejected') {
+          const transcodeError = transcodeResult.reason
+          const errorMessage =
+            transcodeError instanceof Error
+              ? transcodeError.message
+              : String(transcodeError ?? 'Unknown error')
+
+          // Check if this is audio corruption vs server error
+          // Server infrastructure issues (timeout/OOM) should return 500
+          const isServerInfrastructureError =
+            errorMessage.includes('SIGKILL') || errorMessage.includes('SIGTERM')
+
+          // Most ffmpeg errors indicate bad input data (corruption/format issues)
+          // Use generic pattern matching instead of specific strings
+          const lowercasedErrorMessage = errorMessage.toLowerCase()
+          const hasCorruptionIndicators =
+            lowercasedErrorMessage.includes('invalid') ||
+            lowercasedErrorMessage.includes('corrupt') ||
+            lowercasedErrorMessage.includes('failed') ||
+            lowercasedErrorMessage.includes('malformed') ||
+            errorMessage.includes('pipe:0') ||
+            errorMessage.includes('moov atom')
+
+          // Classify: infrastructure errors are server issues, everything else is corruption
+          const isCorruption =
+            !isServerInfrastructureError && hasCorruptionIndicators
+
+          console.error(
+            `[saveClip] Transcode failed (corruption=${isCorruption}):`,
+            errorMessage
+          )
+
+          // Clean up uploaded file if upload succeeded to prevent bad data in storage
+          if (uploadResult.status === 'fulfilled') {
+            console.log(
+              `[saveClip] Upload succeeded but transcode failed - cleaning up: ${clipFileName}`
+            )
+            await pipe(
+              deleteFileFromBucket(getConfig().CLIP_BUCKET_NAME)(clipFileName),
+              TE.fold(
+                (deleteErr: Error) => {
+                  console.error(
+                    `[saveClip] Failed to delete corrupted file ${clipFileName}:`,
+                    deleteErr
+                  )
+                  return T.of(undefined)
+                },
+                () => {
+                  console.log(
+                    `[saveClip] Successfully deleted corrupted file: ${clipFileName}`
+                  )
+                  return T.of(undefined)
+                }
+              )
+            )()
+          } else {
+            console.log('[saveClip] Upload also failed - no cleanup needed')
+          }
+
+          // Throw error with proper flag for frontend detection
+          const error = new Error(
+            isCorruption ? ERRORS.AUDIO_CORRUPT : errorMessage
+          ) as Error & { isCorruption?: boolean }
+          error.isCorruption = isCorruption
+          throw error
+        }
+
+        // If upload failed but transcode succeeded (network issue)
+        if (uploadResult.status === 'rejected') {
+          throw uploadResult.reason
+        }
+
+        // Get duration from results
+        const durationInSec =
+          durationResult.status === 'fulfilled' ? durationResult.value : null
 
         durationInMs =
           durationInSec != null && Number.isFinite(durationInSec)
             ? Math.round(durationInSec * 1000)
             : 0
 
-        transcodeJob = null
+        // Validate duration (frontend has 15 second limit + 2s headroom)
+        if (durationInMs > MAX_RECORDING_MS_WITH_HEADROOM) {
+          console.error(
+            `[saveClip] Recording too long: ${durationInMs}ms (max ${MAX_RECORDING_MS_WITH_HEADROOM}ms)`
+          )
 
-        console.log(`clip written to s3 ${metadata}`)
+          // Clean up the uploaded file
+          await pipe(
+            deleteFileFromBucket(getConfig().CLIP_BUCKET_NAME)(clipFileName),
+            TE.fold(
+              (deleteErr: Error) => {
+                console.error(
+                  `[saveClip] Failed to delete too-long recording ${clipFileName}:`,
+                  deleteErr
+                )
+                return T.of(undefined)
+              },
+              () => T.of(undefined) // Deleted successfully
+            )
+          )()
+
+          const error = new Error('RECORDING_TOO_LONG') as Error & {
+            duration?: number
+          }
+          error.duration = durationInMs
+          throw error
+        }
+
+        transcodeJob = null
 
         await this.model.saveClip({
           client_id: client_id,
@@ -303,61 +472,109 @@ export default class Clip {
           sentence: sentence.text,
           duration: durationInMs,
         })
-        await Awards.checkProgress(client_id, { id: sentence.locale_id })
 
-        await checkGoalsAfterContribution(client_id, {
-          id: sentence.locale_id,
+        // Store success in Redis (10min TTL) for deduplication
+        try {
+          await redis.setex(
+            uploadKey,
+            Math.floor((10 * TimeUnits.MINUTE) / 1000),
+            new Date().toISOString()
+          )
+        } catch (redisError) {
+          // Non-critical - Redis unavailable
+        }
+
+        // FAST RESPONSE: Send immediately after DB insert (reduces timeout window)
+        // Background processing of awards/bonuses prevents VPN/firewall drops
+        if (!response.headersSent) {
+          response.json({ filePrefix })
+        }
+
+        // Process awards and bonuses in background (don't block response)
+        const challenge = headers.challenge as ChallengeToken
+        Promise.all([
+          Awards.checkProgress(client_id, { id: sentence.locale_id }),
+          checkGoalsAfterContribution(client_id, { id: sentence.locale_id }),
+          // Bonus queries only if challenge token present
+          challengeTokens.includes(challenge)
+            ? Promise.all([
+                earnBonus('first_contribution', [challenge, client_id]),
+                hasEarnedBonus(
+                  'invite_contribute_same_session',
+                  client_id,
+                  challenge
+                ),
+                earnBonus('three_day_streak', [
+                  client_id,
+                  client_id,
+                  challenge,
+                ]),
+                this.model.db.hasChallengeEnded(challenge),
+              ])
+            : Promise.resolve([false, false, false, true]),
+        ]).catch(err => {
+          console.error(
+            '[saveClip] Background award/bonus processing failed:',
+            err
+          )
+          Sentry.captureException(err, {
+            tags: { context: 'background-bonus-processing' },
+            extra: { client_id, sentenceId, challenge },
+          })
         })
 
         // Basket.sync(client_id).catch(e => console.error(e)) // Commented out: currently bulk-mail facility is not supported
-
-        const challenge = headers.challenge as ChallengeToken
-        const ret = challengeTokens.includes(challenge)
-          ? {
-              filePrefix: filePrefix,
-              showFirstContributionToast: await earnBonus(
-                'first_contribution',
-                [challenge, client_id]
-              ),
-              hasEarnedSessionToast: await hasEarnedBonus(
-                'invite_contribute_same_session',
-                client_id,
-                challenge
-              ),
-              // can't simply reduce the number of the calls to DB through streak_days in checkGoalsAfterContribution()
-              // since the the streak_days may start before the time when user set custom_goals, check to win bonus for each contribution
-              showFirstStreakToast: await earnBonus('three_day_streak', [
-                client_id,
-                client_id,
-                challenge,
-              ]),
-              challengeEnded: await this.model.db.hasChallengeEnded(challenge),
-            }
-          : { filePrefix }
-        if (!response.headersSent) {
-          response.json(ret)
-        }
       } catch (err) {
         transcodeJob?.abort(err instanceof Error ? err : undefined)
-        console.error('Failed transcoding step with error:', err)
+        console.error('[saveClip] Clip save failed:', err)
+
         if (!response.headersSent) {
+          const error = err as Error & {
+            isCorruption?: boolean
+            duration?: number
+          }
           const message =
             err instanceof Error ? err.message : String(err ?? 'Unknown error')
-          const fingerprint = message
-            .replace(/0x[0-9a-f]+/gi, '<addr>')
-            .replace(
-              /in stream (\d+):\s*\d+\s*>=\s*\d+/g,
-              'in stream $1: <var>'
+
+          // Check error type using flags (set in try block above)
+          if (message === 'RECORDING_TOO_LONG') {
+            this.clipSaveError(
+              headers,
+              response,
+              422,
+              `Recording too long: ${error.duration}ms (max ${MAX_RECORDING_MS}ms)`,
+              'RECORDING_TOO_LONG',
+              'clip'
             )
-            .trim()
-          this.clipSaveError(
-            headers,
-            response,
-            500,
-            `${message}`,
-            `[ffmpeg] ${fingerprint}`,
-            'clip'
-          )
+          } else if (message === ERRORS.AUDIO_CORRUPT || error.isCorruption) {
+            // Audio corruption - client data issue (422 Unprocessable Entity)
+            this.clipSaveError(
+              headers,
+              response,
+              422,
+              'Audio data is corrupted or invalid',
+              ERRORS.AUDIO_CORRUPT,
+              'clip'
+            )
+          } else {
+            // Server error (500 Internal Server Error)
+            const fingerprint = message
+              .replace(/0x[0-9a-f]+/gi, '<addr>')
+              .replace(
+                /in stream (\d+):\s*\d+\s*>=\s*\d+/g,
+                'in stream $1: <var>'
+              )
+              .trim()
+
+            this.clipSaveError(
+              headers,
+              response,
+              500,
+              `${message}`,
+              `[ffmpeg] ${fingerprint}`,
+              'clip'
+            )
+          }
         }
       } finally {
         request.removeListener('aborted', abortHandler)
