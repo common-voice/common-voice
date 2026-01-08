@@ -215,7 +215,7 @@ export const getAudioFormat = () => {
   // Safari doesn't support WebM/Opus playback natively, so use MP4/AAC
   const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent)
 
-  // iOS/iPadOS/Safari (including iPad Pro in desktop mode and macOS Safari) → MP4/AAC
+  // iOS/iPadOS/Safari (including iPad Pro in desktop mode and macOS Safari) => MP4/AAC
   // Safari on all platforms needs MP4 format for reliable playback
   if (isIOS() || isSafari) {
     if (MediaRecorder.isTypeSupported('audio/mp4;codecs=aac')) {
@@ -232,7 +232,23 @@ export const getAudioFormat = () => {
     return 'audio/webm;codecs=opus'
   }
 
-  // All other platforms (Chrome, Firefox, Edge on Windows/Linux) → WebM/Opus
+  // All other platforms (Chrome, Firefox, Edge on Windows/Linux) => WebM/Opus
+  if (MediaRecorder.isTypeSupported('audio/webm;codecs=opus')) {
+    return 'audio/webm;codecs=opus'
+  }
+  if (MediaRecorder.isTypeSupported('audio/webm')) {
+    return 'audio/webm'
+  }
+
+  // Fallback to generic audio format if specific codecs not supported
+  console.warn(
+    '[getAudioFormat] Falling back to generic audio format. ' +
+      'Recording may not work as expected.'
+  )
+  return 'audio/*'
+}
+
+export async function hash(text: string) {
   const encoder = new TextEncoder()
   const data = encoder.encode(text)
   const digest = await window.crypto.subtle.digest('SHA-256', data)
