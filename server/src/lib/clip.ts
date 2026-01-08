@@ -385,36 +385,32 @@ export default class Clip {
             errorMessage
           )
 
-          // COMMENTED OUT: Keep corrupted files in storage for debugging
-          // Clean up uploaded file if upload succeeded
-          // if (uploadResult.status === 'fulfilled') {
-          //   console.log(
-          //     `[saveClip] Upload succeeded but transcode failed - cleaning up: ${clipFileName}`
-          //   )
-          //   await pipe(
-          //     deleteFileFromBucket(getConfig().CLIP_BUCKET_NAME)(clipFileName),
-          //     TE.fold(
-          //       (deleteErr: Error) => {
-          //         console.error(
-          //           `[saveClip] Failed to delete corrupted file ${clipFileName}:`,
-          //           deleteErr
-          //         )
-          //         return T.of(undefined)
-          //       },
-          //       () => {
-          //         console.log(
-          //           `[saveClip] Successfully deleted corrupted file: ${clipFileName}`
-          //         )
-          //         return T.of(undefined)
-          //       }
-          //     )
-          //   )()
-          // } else {
-          //   console.log('[saveClip] Upload also failed - no cleanup needed')
-          // }
-          console.log(
-            `[saveClip] SKIPPING CLEANUP - Corrupted file preserved for debugging: ${clipFileName}`
-          )
+          // Clean up uploaded file if upload succeeded to prevent bad data in storage
+          if (uploadResult.status === 'fulfilled') {
+            console.log(
+              `[saveClip] Upload succeeded but transcode failed - cleaning up: ${clipFileName}`
+            )
+            await pipe(
+              deleteFileFromBucket(getConfig().CLIP_BUCKET_NAME)(clipFileName),
+              TE.fold(
+                (deleteErr: Error) => {
+                  console.error(
+                    `[saveClip] Failed to delete corrupted file ${clipFileName}:`,
+                    deleteErr
+                  )
+                  return T.of(undefined)
+                },
+                () => {
+                  console.log(
+                    `[saveClip] Successfully deleted corrupted file: ${clipFileName}`
+                  )
+                  return T.of(undefined)
+                }
+              )
+            )()
+          } else {
+            console.log('[saveClip] Upload also failed - no cleanup needed')
+          }
 
           // Throw error with proper flag for frontend detection
           const error = new Error(
