@@ -32,11 +32,18 @@ const db = getMySQLInstance()
 // Two-tier cache strategy:
 // Tier 1 (raw data): Expensive DB query, shared across all views
 // Tier 2 (aggregated views): Fast in-memory aggregation, per-view caching
-const LEADERBOARD_CACHE_DURATION = 1 * TimeUnits.HOUR // 1 hour - user freshness requirement
 
-// CRITICAL: Tier 2 lock MUST be longer than Tier 1 lock to avoid expiry during nested call
-const TIER1_LOCK_DURATION = 30 * TimeUnits.MINUTE // 30 min - covers 15min query + safety
-const TIER2_LOCK_DURATION = 35 * TimeUnits.MINUTE // 35 min - covers Tier 1 lock + aggregation
+// Tier-1 must expire BEFORE Tier-2 prefetch triggers
+// Tier-2 prefetches at age 35min (60min TTL - 25min prefetchBefore)
+// So Tier-1 must expire before 35min to force fresh data during prefetch
+const TIER1_CACHE_DURATION = 30 * TimeUnits.MINUTE // Expires before T2 prefetch at 35min
+const TIER2_CACHE_DURATION = 60 * TimeUnits.MINUTE // 1 hour - user freshness requirement
+
+// Tier-1 lock SHORTER than TTL to avoid serving stale when cache expires
+// If lock=TTL, lock acquired at expiry could block next request, forcing stale serve
+// Longest query normally takes ~15min, so 25min lock provides 10min safety margin
+const TIER1_LOCK_DURATION = 25 * TimeUnits.MINUTE // 25 min - covers 15min query + 10min safety
+const TIER2_LOCK_DURATION = 35 * TimeUnits.MINUTE // 35 min - must be > TIER1 for nested calls
 
 const SLOW_QUERY_THRESHOLD = 10 * TimeUnits.MINUTE // 10 minutes
 
@@ -58,7 +65,7 @@ interface LeaderboardRow extends Omit<LeaderboardDataRow, 'locale_id'> {
 const getCachedClipLeaderboardData = lazyCache(
   'cv:leaderboard:clip-data-raw', // Raw data cache
   getAllClipLeaderboardData,
-  LEADERBOARD_CACHE_DURATION,
+  TIER1_CACHE_DURATION, // 30min - expires before Tier-2 prefetch
   TIER1_LOCK_DURATION,
   true // Allow stale during refresh
   // No prefetch at Tier-1 - Tier-2 handles prefetch
@@ -109,7 +116,7 @@ async function getAllClipLeaderboardData(): Promise<LeaderboardDataRow[]> {
 const getCachedVoteLeaderboardData = lazyCache(
   'cv:leaderboard:vote-data-raw', // Raw data cache
   getAllVoteLeaderboardData,
-  LEADERBOARD_CACHE_DURATION,
+  TIER1_CACHE_DURATION, // 30min - expires before Tier-2 prefetch
   TIER1_LOCK_DURATION,
   true // Allow stale during refresh
   // No prefetch at Tier-1 - Tier-2 handles prefetch
@@ -190,19 +197,19 @@ function aggregateLeaderboard(
 //
 
 // Global clip leaderboard - Tier 2: aggregates from cached raw data
-// Prefetch happens here - will invalidate Tier-1 cache to force fresh DB query
+// Prefetch at 35min ensures Tier-1 (30min TTL) has expired and will run fresh query
 const getGlobalClipLeaderboard = lazyCache(
   'cv:leaderboard:clip-global',
   async (): Promise<LeaderboardRow[]> => {
     const clipData = await getCachedClipLeaderboardData() // Reads from Tier 1 cache
     return aggregateLeaderboard(clipData)
   },
-  LEADERBOARD_CACHE_DURATION,
+  TIER2_CACHE_DURATION, // 60min
   TIER2_LOCK_DURATION, // Must be > TIER1 to avoid expiry during nested call
   true, // Serve stale: during lock wait OR Redis outage (prevents DB overload)
   {
     prefetch: true,
-    prefetchBefore: 25 * TimeUnits.MINUTE, // Prefetch 25min before 1hr expiry
+    prefetchBefore: 25 * TimeUnits.MINUTE, // Prefetch 25min before 1hr expiry (at 35min age)
   }
 )
 
@@ -215,7 +222,7 @@ const getLocaleClipLeaderboard = (locale: string) => {
       const localeId = await getLocaleId(locale)
       return aggregateLeaderboard(clipData, localeId)
     },
-    LEADERBOARD_CACHE_DURATION,
+    TIER2_CACHE_DURATION, // 60min
     TIER2_LOCK_DURATION, // Must be > TIER1 to avoid expiry during nested call
     true, // Serve stale: during lock wait OR Redis outage (prevents DB overload)
     // No prefetch - only global view prefetches to avoid thundering herd
@@ -228,19 +235,19 @@ const getLocaleClipLeaderboard = (locale: string) => {
 //
 
 // Global vote leaderboard - Tier 2: aggregates from cached raw data
-// Prefetch happens here - will invalidate Tier-1 cache to force fresh DB query
+// Prefetch at 35min ensures Tier-1 (30min TTL) has expired and will run fresh query
 const getGlobalVoteLeaderboard = lazyCache(
   'cv:leaderboard:vote-global',
   async (): Promise<LeaderboardRow[]> => {
     const voteData = await getCachedVoteLeaderboardData() // Reads from Tier 1 cache
     return aggregateLeaderboard(voteData)
   },
-  LEADERBOARD_CACHE_DURATION,
+  TIER2_CACHE_DURATION, // 60min
   TIER2_LOCK_DURATION, // Must be > TIER1 to avoid expiry during nested call
   true, // Serve stale: during lock wait OR Redis outage (prevents DB overload)
   {
     prefetch: true,
-    prefetchBefore: 25 * TimeUnits.MINUTE, // Prefetch 25min before 1hr expiry
+    prefetchBefore: 25 * TimeUnits.MINUTE, // Prefetch 25min before 1hr expiry (at 35min age)
   }
 )
 
@@ -253,7 +260,7 @@ const getLocaleVoteLeaderboard = (locale: string) => {
       const localeId = await getLocaleId(locale)
       return aggregateLeaderboard(voteData, localeId)
     },
-    LEADERBOARD_CACHE_DURATION,
+    TIER2_CACHE_DURATION, // 60min
     TIER2_LOCK_DURATION, // Must be > TIER1 to avoid expiry during nested call
     true, // Serve stale: during lock wait OR Redis outage (prevents DB overload)
     // No prefetch - only global view prefetches to avoid thundering herd

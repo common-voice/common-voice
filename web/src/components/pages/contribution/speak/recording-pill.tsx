@@ -2,29 +2,25 @@ import {
   Localized,
   withLocalization,
   WithLocalizationProps,
-} from '@fluent/react';
-import * as React from 'react';
-import { useRef, useState } from 'react';
-import { trackRecording } from '../../../../services/tracker';
-import { useLocale } from '../../../locale-helpers';
-import {
-  PlayOutlineIcon,
-  RedoIcon,
-  StopIcon,
-} from '../../../ui/icons';
-import { ContributionPillProps } from '../contribution';
-import Pill, { PillStatus } from '../pill';
-import { SentenceRecording } from './sentence-recording';
+} from '@fluent/react'
+import * as React from 'react'
+import { useRef, useState } from 'react'
+import { trackRecording } from '../../../../services/tracker'
+import { useLocale } from '../../../locale-helpers'
+import { PlayOutlineIcon, RedoIcon, StopIcon } from '../../../ui/icons'
+import { ContributionPillProps } from '../contribution'
+import Pill, { PillStatus } from '../pill'
+import { SentenceRecording } from './sentence-recording'
 
-import './recording-pill.css';
+import './recording-pill.css'
 
-const { Tooltip } = require('react-tippy');
+const { Tooltip } = require('react-tippy')
 
 interface Props extends ContributionPillProps, WithLocalizationProps {
-  children?: React.ReactNode;
-  clip: SentenceRecording;
-  onRerecord: () => any;
-  status: PillStatus;
+  children?: React.ReactNode
+  clip: SentenceRecording
+  onRerecord: () => any
+  status: PillStatus
 }
 
 function RecordingPill({
@@ -36,39 +32,70 @@ function RecordingPill({
   status,
   ...props
 }: Props) {
-  const [locale] = useLocale();
-  const [isPlaying, setIsPlaying] = useState(false);
-  const [showSentenceTooltip, setShowSentenceTooltip] = useState(false);
-  const audioContext = useRef(null);
-  const source = useRef(null);
+  const [locale] = useLocale()
+  const [isPlaying, setIsPlaying] = useState(false)
+  const [showSentenceTooltip, setShowSentenceTooltip] = useState(false)
+  const audioContext = useRef(null)
+  const source = useRef(null)
+  const shouldPlay = useRef(false) // Track if playback should proceed (survive re-render)
 
   const toggleIsPlaying = () => {
-    const nextIsPlaying = !isPlaying;
+    const nextIsPlaying = !isPlaying
 
     if (nextIsPlaying) {
-      trackRecording('listen', locale);
+      trackRecording('listen', locale)
+      shouldPlay.current = true // Mark that playback should proceed
 
-      audioContext.current = new (window.AudioContext || window.webkitAudioContext)();
-      source.current = audioContext.current.createBufferSource();
+      audioContext.current = new (window.AudioContext ||
+        window.webkitAudioContext)()
+      source.current = audioContext.current.createBufferSource()
 
-      clip.recording.blob.arrayBuffer().then(arrayBuffer => {
-        audioContext.current.decodeAudioData(arrayBuffer).then((audioBuffer: any) =>{
-          source.current.buffer = audioBuffer
-          source.current.onended = () => {
-            source.current = audioContext.current.createBufferSource();
-            setShowSentenceTooltip(false);
-            setIsPlaying(false);
-          }
-          source.current.connect(audioContext.current.destination);
-          source.current.start(0);
-        });
-      });
+      clip.recording.blob
+        .arrayBuffer()
+        .then(arrayBuffer => {
+          audioContext.current
+            .decodeAudioData(arrayBuffer)
+            .then((audioBuffer: any) => {
+              // Check if user didn't click stop while decoding (use ref, not stale state)
+              if (!shouldPlay.current) {
+                return // User stopped playback before audio finished decoding
+              }
+              source.current.buffer = audioBuffer
+              source.current.onended = () => {
+                source.current = audioContext.current.createBufferSource()
+                setShowSentenceTooltip(false)
+                setIsPlaying(false)
+              }
+              source.current.connect(audioContext.current.destination)
+              source.current.start(0)
+            })
+            .catch((error: any) => {
+              console.error('[RecordingPill] Failed to decode audio:', error)
+              // Reset state on decode failure
+              setIsPlaying(false)
+              setShowSentenceTooltip(false)
+            })
+        })
+        .catch((error: any) => {
+          console.error('[RecordingPill] Failed to read blob:', error)
+          setIsPlaying(false)
+          setShowSentenceTooltip(false)
+        })
     } else {
-      source.current.stop(0);
-      setShowSentenceTooltip(false);
+      shouldPlay.current = false // Mark that playback should stop
+      // Only stop if source exists and has been started
+      if (source.current) {
+        try {
+          source.current.stop(0)
+        } catch (error) {
+          // Ignore InvalidStateError if stop() called before start()
+          console.warn('[RecordingPill] Could not stop audio source:', error)
+        }
+      }
+      setShowSentenceTooltip(false)
     }
-    setIsPlaying(nextIsPlaying);
-  };
+    setIsPlaying(nextIsPlaying)
+  }
 
   return (
     <Pill {...props} className="recording" openable status={status}>
@@ -114,7 +141,7 @@ function RecordingPill({
         </>
       )}
     </Pill>
-  );
+  )
 }
 
-export default withLocalization(RecordingPill);
+export default withLocalization(RecordingPill)

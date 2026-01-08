@@ -153,10 +153,6 @@ function startPrefetchMonitoring() {
       return
     }
 
-    console.log(
-      `[LazyCache] Proactive prefetch check running (${prefetchRegistry.size} registered caches)`
-    )
-
     for (const [, entry] of prefetchRegistry.entries()) {
       try {
         await checkAndTriggerPrefetch(entry)
@@ -214,15 +210,8 @@ async function checkAndTriggerPrefetch(entry: PrefetchEntry): Promise<void> {
       return
     }
 
-    // Time to prefetch!
+    // Time to prefetch! Try to acquire lock first (no logging until we get it)
     const cacheKey = key.replace(/\{.*$/, '') // Extract base key name for logging
-    console.log(
-      `[LazyCache] Proactive prefetch triggered for ${cacheKey}: age=${(
-        age / TimeUnits.MINUTE
-      ).toFixed(1)}min, threshold=${(
-        refreshThreshold / TimeUnits.MINUTE
-      ).toFixed(1)}min`
-    )
 
     // Trigger async refresh in background (non-blocking)
     setImmediate(() => {
@@ -242,6 +231,15 @@ async function checkAndTriggerPrefetch(entry: PrefetchEntry): Promise<void> {
             }
             return // Silent skip - this is expected and normal
           }
+
+          // We got the lock! NOW log that we're actually doing work
+          console.log(
+            `[LazyCache] Proactive prefetch triggered for ${cacheKey}: age=${(
+              age / TimeUnits.MINUTE
+            ).toFixed(1)}min, threshold=${(
+              refreshThreshold / TimeUnits.MINUTE
+            ).toFixed(1)}min`
+          )
 
           // We got the lock! Double-check if still needed
           const current = await redis.get(key)
@@ -535,7 +533,8 @@ function redisCache<T, S>(
             // Cache is still fresh - register for proactive prefetch if enabled
             if (prefetchEnabled) {
               // Register once per unique cache key for background monitoring
-              if (!prefetchRegistry.has(key)) {
+              const wasAlreadyRegistered = prefetchRegistry.has(key)
+              if (!wasAlreadyRegistered) {
                 const entry: PrefetchEntry = {
                   key,
                   cachedFunction,
@@ -546,15 +545,18 @@ function redisCache<T, S>(
                     prefetchOptions.prefetchBefore || prefetchBefore,
                 }
                 prefetchRegistry.set(key, entry)
-                if (isDebugEnabled) {
-                  console.debug(
-                    `[LazyCache] Registered ${key} for proactive prefetch (TTL=${
-                      timeMs / TimeUnits.MINUTE
-                    }min, prefetchBefore=${
-                      entry.prefetchBefore / TimeUnits.MINUTE
-                    }min)`
-                  )
-                }
+
+                // Always log new registrations to see registry growth
+                console.log(
+                  `[LazyCache] Registered for prefetch: ${cacheKey}${JSON.stringify(
+                    args
+                  )} (TTL=${(timeMs / TimeUnits.HOUR).toFixed(
+                    1
+                  )}h, prefetch@=${(
+                    (timeMs - entry.prefetchBefore) /
+                    TimeUnits.HOUR
+                  ).toFixed(1)}h, total=${prefetchRegistry.size})`
+                )
               }
             }
             return cached.value

@@ -126,7 +126,6 @@ answer = جواب
 
 ## Community section
 
-community-section-title = عالمي برادريون رِي طرف ھون طاقتور، عالمي برادريون ھارو—130ٻوليون ھان وڌتيَ!
 join-discord-community = ڊسڪورڊ برادري ۾ شامل ھو
 # label for button
 join-discord-community-action = مھون ڀيݪا ڊسڪورڊ ۾ شامل ھو

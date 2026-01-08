@@ -189,8 +189,8 @@ export default class Model {
     },
     TimeUnits.DAY,
     3 * TimeUnits.MINUTE,
-    false,
-    { prefetch: true, prefetchBefore: 15 * TimeUnits.MINUTE } // Enable prefetch 15 minutes before expiry
+    false
+    // No prefetch
   )
 
   getLanguageDatasetStats = lazyCache(
@@ -200,8 +200,8 @@ export default class Model {
     },
     TimeUnits.DAY,
     3 * TimeUnits.MINUTE,
-    false,
-    { prefetch: true, prefetchBefore: 15 * TimeUnits.MINUTE } // Enable prefetch 15 minutes before expiry
+    false
+    // No prefetch
   )
 
   getAllLanguagesWithDatasets = lazyCache(

@@ -23,7 +23,7 @@ export const CommunitySection: React.FC = () => {
   return (
     <section className="community-section">
       <div className="community-section-container">
-        <Localized id="community-section-title">
+        <Localized id="community-section-title-202601">
           <h1 className="title" />
         </Localized>
         <div className="pane-container">

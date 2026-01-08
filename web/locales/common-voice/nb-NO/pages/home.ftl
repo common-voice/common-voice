@@ -132,7 +132,7 @@ answer = Svar
 
 ## Community section
 
-community-section-title = Drevet av globale samfunn, for globale samfunn - mer enn 130 språk!
+community-section-title-202601 = Drevet av globale samfunn, for globale samfunn — mer enn 290 språk!
 join-discord-community = Bli med i Discord-fellesskapet
 # label for button
 join-discord-community-action = Bli med oss på Discord

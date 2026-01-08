@@ -137,7 +137,6 @@ add-text = ເພີ່ມຂໍ້ຄວາມ
 
 ## Community section
 
-community-section-title = ຂັບເຄື່ອນໂດຍຊຸມຊົນທົ່ວໂລກ, ສໍາລັບຊຸມຊົນທົ່ວໂລກ — 130 ພາສາ ແລະ ການຂະຫຍາຍຕົວ!
 join-discord-community = ເຂົ້າຮ່ວມຊຸມຊົນ Discord
 # label for button
 join-discord-community-action = ເຂົ້າຮ່ວມກັບພວກເຮົາໃນ Discord

@@ -128,7 +128,7 @@ answer = Beantwoorden
 
 ## Community section
 
-community-section-title = Mogelijk gemaakt door wereldwijde gemeenschappen, voor wereldwijde gemeenschappen – 130 talen en groeiende!
+community-section-title-202601 = Mogelijk gemaakt door wereldwijde gemeenschappen, voor wereldwijde gemeenschappen – 290 talen en groeiende!
 join-discord-community = Doe mee met de Discord-gemeenschap
 # label for button
 join-discord-community-action = Doe met ons mee op Discord

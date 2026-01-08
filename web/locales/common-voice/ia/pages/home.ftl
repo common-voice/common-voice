@@ -128,7 +128,7 @@ answer = Responder
 
 ## Community section
 
-community-section-title = Supportate per communitates mundial, pro communitates mundial — 130 linguas e ultra!
+community-section-title-202601 = Realisate per le communitates mundial, pro le communitates mundial: 290 linguas e ultra!
 join-discord-community = Junge te al communitate de Discord
 # label for button
 join-discord-community-action = Junge te a nos sur Discord

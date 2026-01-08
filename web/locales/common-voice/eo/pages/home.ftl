@@ -127,7 +127,6 @@ answer = Respondo
 
 ## Community section
 
-community-section-title = Kreita de tutmondaj komunumoj, por tutmondaj komunumoj — 130 lingvoj kaj kreskante!
 join-discord-community = Aliĝu al la komunumo en Discord
 # label for button
 join-discord-community-action = Aliĝu al nia komunumo en Discord

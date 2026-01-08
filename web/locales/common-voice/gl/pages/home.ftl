@@ -128,7 +128,6 @@ answer = Responda
 
 ## Community section
 
-community-section-title = Impulsado por comunidades globais, para comunidades globais — xa en 130 linguas e cada día máis!
 join-discord-community = Únase á nosa comunidade en Discord!
 # label for button
 join-discord-community-action = Unirse a Discord

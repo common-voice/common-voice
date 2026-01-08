@@ -118,7 +118,6 @@ add-text = Text jama etin.
 
 ## Community section
 
-community-section-title = Tok dunyaatulo baaś etaśu cum uyoone gane--tʰa ke altar toorimi baaśin daa baske meyme bican
 join-discord-community = Discord Community lo kaa maneyin.
 # label for button
 join-discord-community-action = Discordulo me kaa kaa meneyin

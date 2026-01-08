@@ -42,13 +42,17 @@ We thank [@MariaMitrofan](https://github.com/MariaMitrofan) for contributing to 
 
 ### Changes merged after current release
 
+- Feat: Complete review of the Audio pipeline to handle multiple issues (iOS devices, corrupted audio handling caused by communication errors and related UX issues causing false positives, a line of FE issues caused by race conditions, ...) , by [@moz-bozden](https://github.com/moz-bozden) in [#5223](https://github.com/common-voice/common-voice/pull/5223) (in v.1.156.2)
 - Feat: Make use of Redis for prefetch registry to coordinate multiple instances, by [@moz-bozden](https://github.com/moz-bozden) in [#5235](https://github.com/common-voice/common-voice/pull/5235) (in v.1.156.1)
+- Fix: New user login loop from SS - when a new user creates an account while being redirected to do so it was causing a loop, by [@moz-bozden](https://github.com/moz-bozden) in [#5234](https://github.com/common-voice/common-voice/pull/5234) (in v.1.156.2)
 - Fix: Minor fix for header not hiding username in small screens, by [@moz-bozden](https://github.com/moz-bozden) in [#5233](https://github.com/common-voice/common-voice/pull/5233) (in v.1.156.1)
 - Fix: Add migration to fix two missing predefined Romanian accents because they were defined by users, by [@moz-bozden](https://github.com/moz-bozden) in [#5232](https://github.com/common-voice/common-voice/pull/5232) (in v.1.156.1)
 
 #### Data Changes after current release
 
 #### Spontaneous Speech after current release
+
+- Fix: Some Apple devices were not properly detected, resulting in wrong codec selection which causes "too silent" issue in Answer page or user cannot hear own recordings, by [@moz-bozden](https://github.com/moz-bozden) in [#502](https://github.com/common-voice/spontaneous-speech/pull/502) (in v1.156.2)
 
 ##### SS Data Changes after current release
 
