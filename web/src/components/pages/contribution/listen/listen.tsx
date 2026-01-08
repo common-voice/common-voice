@@ -358,9 +358,10 @@ class ListenPage extends React.Component<Props, State> {
           {!isSubmitted && (
             <NavigationPrompt
               when={() => {
-                const isUnvalidatedClips = clips.some(
-                  clip => clip.isValid !== null
-                )
+                // Only show warning if there are votes that haven't been submitted yet
+                // After submission (isSubmitted=true), user can safely refresh
+                const isUnvalidatedClips =
+                  !isSubmitted && clips.some(clip => clip.isValid !== null)
 
                 if (isUnvalidatedClips) {
                   this.setAbortContributionModalVisiblity(true)
