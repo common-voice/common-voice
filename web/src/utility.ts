@@ -76,6 +76,7 @@ export function isWebView(): boolean {
     isReddit: /\breddit\b/i.test(userAgent),
     isSlack: /slack/i.test(userAgent),
     isDiscord: /discord/i.test(userAgent),
+    isTelegram: /telegram/i.test(userAgent),
   }
 
   // Additional heuristics for WebView detection:
@@ -207,23 +208,31 @@ export function getManageSubscriptionURL(account: UserClient) {
  *
  * Note: isIOS() handles iPad Pro in desktop mode (via touch detection),
  * so all iPads get MP4/AAC regardless of UA string.
+ * Safari on macOS also needs MP4 as it doesn't support WebM/Opus playback natively.
  */
 export const getAudioFormat = () => {
-  // iOS/iPadOS (including iPad Pro in desktop mode) → MP4/AAC
-  // All iOS browsers use WebKit which handles MP4 natively
-  if (isIOS()) {
-    return MediaRecorder.isTypeSupported('audio/mp4;codecs=aac')
-      ? 'audio/mp4;codecs=aac'
-      : 'audio/mp4'
+  // Detect Safari browser (including macOS Safari)
+  // Safari doesn't support WebM/Opus playback natively, so use MP4/AAC
+  const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent)
+
+  // iOS/iPadOS/Safari (including iPad Pro in desktop mode and macOS Safari) → MP4/AAC
+  // Safari on all platforms needs MP4 format for reliable playback
+  if (isIOS() || isSafari) {
+    if (MediaRecorder.isTypeSupported('audio/mp4;codecs=aac')) {
+      return 'audio/mp4;codecs=aac'
+    }
+    if (MediaRecorder.isTypeSupported('audio/mp4')) {
+      return 'audio/mp4'
+    }
+    // Fallback for edge cases (shouldn't happen in practice)
+    console.warn(
+      '[getAudioFormat] Falling back to audio/webm;codecs=opus on Safari/iOS. ' +
+        'Safari may not support WebM/Opus playback natively, so recording/playback may fail.'
+    )
+    return 'audio/webm;codecs=opus'
   }
 
-  // All other platforms → WebM/Opus (best compression and quality)
-  return MediaRecorder.isTypeSupported('audio/webm;codecs=opus')
-    ? 'audio/webm;codecs=opus'
-    : 'audio/webm'
-}
-
-export async function hash(text: string) {
+  // All other platforms (Chrome, Firefox, Edge on Windows/Linux) → WebM/Opus
   const encoder = new TextEncoder()
   const data = encoder.encode(text)
   const digest = await window.crypto.subtle.digest('SHA-256', data)
