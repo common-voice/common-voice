@@ -147,6 +147,11 @@ export default class Wave {
   }
 
   private draw() {
+    // Respect user's reduced motion preference
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      return;
+    }
+    
     if (lowFPSCount >= DISABLE_ANIMATION_LOW_FPS_THRESHOLD) {
       return;
     }
