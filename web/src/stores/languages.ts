@@ -26,6 +26,7 @@ export interface State {
   translatedLocales?: Locales
   contributableNativeNames?: NativeNames
   localeNameAndIDMapping?: LocaleNameAndIDMapping[]
+  spontaneousSpeechLanguages?: Locales
 }
 
 enum ActionType {
@@ -43,6 +44,7 @@ interface LoadedAction {
     translatedLocales: Locales
     contributableNativeNames: NativeNames
     localeNameAndIDMapping: LocaleNameAndIDMapping[]
+    spontaneousSpeechLanguages: Locales
   }
 }
 
@@ -56,6 +58,8 @@ export const actions = {
     ) => {
       const { api } = getState()
       const allLanguages = await api.fetchAllLanguages()
+      const spontaneousSpeechLanguagesObject = await api.fetchSpontaneousSpeechLanguages()
+      const spontaneousSpeechLanguages = spontaneousSpeechLanguagesObject.availableLanguages
 
       //get obj of native names, default to language code
       const nativeNames = allLanguages.reduce((names: any, language) => {
@@ -107,6 +111,7 @@ export const actions = {
       }, [])
 
       const allLocales = allLanguages.map(language => language.name)
+
       const contributableLocales = allLanguages
         .filter(language => language.is_contributable)
         .map(language => language.name)
@@ -127,6 +132,7 @@ export const actions = {
           translatedLocales,
           contributableNativeNames,
           localeNameAndIDMapping,
+          spontaneousSpeechLanguages,
         },
       })
     }
@@ -151,6 +157,7 @@ export function reducer(state: State = INITIAL_STATE, action: Action): State {
         translatedLocales: action.payload.translatedLocales,
         contributableNativeNames: action.payload.contributableNativeNames,
         localeNameAndIDMapping: action.payload.localeNameAndIDMapping,
+        spontaneousSpeechLanguages: action.payload.spontaneousSpeechLanguages,
       }
 
     default:

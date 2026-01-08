@@ -175,6 +175,8 @@
     border-radius: 22px;
     margin-inline-start: auto;
     padding: 0.5em 1em;
+    margin-top: 10px;
+    margin-bottom: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;

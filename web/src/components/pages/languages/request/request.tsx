@@ -16,7 +16,6 @@ import URLS from '../../../../urls'
 import {
   LabeledCheckbox,
   LabeledInput,
-  LabeledSelect,
   LabeledTextArea,
   StyledLink,
   Button,
@@ -215,6 +214,89 @@ const LanguagesRequestFormPage = () => {
           <form
             className="languages-request-page__content__form"
             onSubmit={handleSubmit}>
+            
+            <Localized
+              id="request-language-search-bar">
+            </Localized>
+            <LanguageSearch
+                inputRef={inputRef}
+                query={query}
+                handleQueryChange={e => handleQueryChange(e, nativeNames)}
+                handleQueryKeyDown={handleQueryKeyDown}
+                toggleSearch={toggleSearch}
+            />
+            <span className="dropdown_menu">
+            {query !== '' &&
+              languagesFiltered?.map((locale: string) => (
+                <div className="dropdown_item_container"
+                  key={locale}
+                >
+                  <span className="dropdown_item"
+                    title={englishNames[locale]}
+                    tabIndex={0}
+                    onClick={() => {
+                      setLanguage(locale); 
+                      setQuery(englishNames[locale]); 
+                      setLanguagesFiltered([locale])
+                    }}
+                  >
+                    {englishNames[locale]}
+                    {language && language === locale && (
+                      <span className="styled_check"/>
+                    )}
+                  </span>
+                </div>
+              ))}
+            </span>
+            <p />
+            {language ? (
+              isContributable(language) ? 
+                (
+                  <div id="search-result">
+                    <Localized id="request-language-found-cv-contribution"
+                      elems={{
+                        speakPageLink: <StyledLink to={`https://commonvoice.mozilla.org/${language}/speak`} />,
+                      }}>
+                    </Localized>
+                  <text> You can contribute </text>
+                  <a href={`https://commonvoice.mozilla.org/${language}/speak`}>
+                    here
+                   </a>
+                  </div>
+                ) :
+                (
+                    <div>
+                      <Localized id="request-language-found-pontoon-not-launched"
+                        elems={{
+                          pontoonLink: <StyledLink to={`https://pontoon.mozilla.org/${language}/common-voice/`} />,
+                        }}>
+                      </Localized>
+                    <text>You can facilitate the language launch </text>
+                      <a id="search-result-link-pontoon" href={`https://pontoon.mozilla.org/${language}/common-voice/`}>
+                        here
+                      </a>
+                      <text> by localizing the platform</text>
+                      {availableLocales[language] ? (
+                        <div>
+                          <Localized id="request-language-found-cv-sentences-lack"
+                            elems={{
+                              sentencesContributionLink: <StyledLink to={`https://commonvoice.mozilla.org/${language}/write`} />,
+                            }}>
+                          </Localized>
+                          <br />
+                          and
+                          <br />
+                          <a id="search-result-link-sentences" href={`https://commonvoice.mozilla.org/${language}/write`}>
+                            here by contributing sentences
+                          </a>
+                        </div>
+                        ) : null
+                      }
+                    </div>
+                )
+              ) : <div/>
+              }
+
             <p className="languages-request-page__content__form__required">
               <Localized id="indicates-required" />
             </p>
@@ -282,71 +364,8 @@ const LanguagesRequestFormPage = () => {
               </ul>
             </PageTextContent>
 
-            <LanguageSearch
-                inputRef={inputRef}
-                query={query}
-                handleQueryChange={e => handleQueryChange(e, nativeNames)}
-                handleQueryKeyDown={handleQueryKeyDown}
-                toggleSearch={toggleSearch}
-            />
-
-            <span className="dropdown_menu">
-            {query !== '' &&
-              languagesFiltered?.map((locale: string) => (
-                <div className="dropdown_item_container"
-                  key={locale}
-                >
-                  <span className="dropdown_item"
-                    title={englishNames[locale]}
-                    tabIndex={0}
-                    onClick={() => {
-                      setLanguage(locale); 
-                      setQuery(englishNames[locale]); 
-                      setLanguagesFiltered([locale])
-                    }}
-                  >
-                    {englishNames[locale]}
-                    {language && language === locale && (
-                      <span className="styled_check"/>
-                    )}
-                  </span>
-                </div>
-              ))}
-            </span>
-
-            <br /> 
-            {language ? (
-              isContributable(language) ? 
-                (
-                  <div id="search-result">
-                  <text> You can contribute </text>
-                  <a href={`https://commonvoice.mozilla.org/${language}/speak`}>
-                    here
-                   </a>
-                  </div>
-                ) :
-                (
-                    <div>
-                    <text>You can facilitate the language launch </text>
-                      <a id="search-result-link-pontoon" href={`https://pontoon.mozilla.org/${language}/common-voice/`}>
-                        here
-                      </a>
-                      <text> by localizing the platform</text>
-                      {availableLocales[language] ? (
-                        <div>
-                          <br />
-                          and
-                          <br />
-                          <a id="search-result-link-sentences" href={`https://commonvoice.mozilla.org/${language}/write`}>
-                            here by contributing sentences
-                          </a>
-                        </div>
-                        ) : null
-                      }
-                    </div>
-                )
-            ) :
-            (query !== '' && languagesFiltered.length == 0 ? (
+            
+            {(query !== '' && languagesFiltered.length == 0 ? (
               <span>
               <Localized id="request-language-form-info" attrs={{ label: true }}>
                 <LabeledTextArea
@@ -384,7 +403,7 @@ const LanguagesRequestFormPage = () => {
               </Localized>
             </span>
             ) : <div />)
-          }
+            }
           </form>
         </div>
 
