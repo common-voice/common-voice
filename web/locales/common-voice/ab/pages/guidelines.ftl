@@ -58,10 +58,10 @@ contact-common-voice = Common Voice агәыԥ шәҽамажәда
 ## Sentence collection nav ids
 
 public-domain = Ауаажәларратә мазара
-citing-sentences = Ажәаҳәақәа раагара
-adding-sentences = Аҳәоуқәа рацҵара
-reviewing-sentences = Ажәаҳәақәа реиҭахәаԥшра
-sentence-domain = Ажәаҳәақәа рдомен
+citing-sentences = Аҳәоуқәа рцитата аагара
+adding-sentences = Аҳәоуқәа рыцҵара
+reviewing-sentences = Аҳәоуқәа рыхәаԥшра
+sentence-domain = Аҳәоуқәа рдомен
 
 ## Sentence collection sidebar content
 
