@@ -12,6 +12,12 @@ record-no-mic-found = Ingen mikrofon kunde hittas.
 record-error-too-short = Inspelningen var för kort.
 record-error-too-long = Inspelningen var för lång.
 record-error-too-quiet = Inspelningen var för tyst.
+record-error-uploaded-clip-corrupted =
+    Din ljudinspelning verkar vara skadad. Detta kan bero på:
+    • Problem med webbläsarkompatibilitet (försök att använda en annan webbläsare)
+    • Problem med mikrofon eller ljuddrivrutin
+    • Nätverksavbrott under inspelning
+    Försök spela in igen.
 record-cancel = Avbryt återinspelning
 record-instruction = { $actionType } <recordIcon></recordIcon> och läs sedan meningen högt
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> när du är klar
