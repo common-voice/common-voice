@@ -13,6 +13,8 @@ partnerships-academia-header = Universități, cadre universitare și cercetăto
 partnerships-academia-description = Tot ceea ce facem este pentru a încuraja și promova inovația în slujba tuturor. Dacă vrei să colaborăm în proiecte de cercetare, colectare de date, sau pentru interviuri, <emailFragment>scrie-ne</emailFragment>!
 partnerships-small-business-header = Întreprinderi mici, inclusiv start-up-uri din domeniul tehnologiei și inteligenței artificiale
 partnerships-small-business-description = Suntem mereu interesați să ținem legătura cu cei care ne folosesc datele despre nevoile și contextul activității lor. Dacă ai sugestii sau informații despre platforma noastră de colectare de date sau despre calitatea seturilor noastre de date, <emailFragment>te rugăm să ne scrii</emailFragment>.
+partnerships-corporates-header = Mari corporații și companii ce oferă platforme digitale
+partnerships-corporates-description = Dacă doriți să vorbim despre seturile noastre de date, vreți să investiți în extinderea platformei noastre, sau doriți să colaborăm, <emailFragment>contactați-ne</emailFragment>!
 partnerships-our-partners = Partenerii noștri
 # menu item
 partners = Parteneri
