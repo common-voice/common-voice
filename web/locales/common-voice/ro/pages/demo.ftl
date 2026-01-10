@@ -32,3 +32,4 @@ demo-listen-subtitle = Ești gata să contribui?
 ## Demo Dashboard
 
 demo-dashboard-card-header = Tablourile de bord personale te țin la curent cu progresul tău individual și cel al comunității.
+demo-dashboard-card-body = Cu fiecare secvență vocală donată sau validată, tablourile tale de bord sunt actualizate pentru a reflecta progresul în fiecare limbă la care contribui. Este adevărat, poți contribui la mai multe limbi!<br/><br/> Folosește tablourile de bord pentru a-ți vizualiza progresul, pentru a vedea cum evoluezi alături de ceilalți membri ai comunității și pentru a stabili obiective zilnice sau săptămânale.
