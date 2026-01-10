@@ -344,6 +344,11 @@ announcement-mdc-button-aria-text = Se deschide într-o filă nouă.
 
 # Generic search box defaults
 searchbox-default-label = Începe să scrii pentru a căuta
+searchbox-default-placeholder = Căutare…
+searchbox-default-aria-label = Caută
+dropdown-no-results = Niciun rezultat
+# Common Voice Dataset=Language search box
+dataset-searchbox-label = Modifică atât limba de afișare, cât și limba setului de date
 dataset-searchbox-placeholder = Caută o limbă...
 dataset-searchbox-aria-label = Caută o limbă
 dataset-search-no-results = Nu s-a găsit o limbă care să se potrivească

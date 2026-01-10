@@ -2,9 +2,12 @@
 
 demo-get-started = Să începem
 demo-welcome = Bine ai venit la Common Voice
+demo-welcome-subheader = Dorești să afli mai multe și să contribui la proiect?
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice reprezintă cel mai mare set de date vocale multilingve disponibil publicului din întreaga lume.
+demo-language-select-card-body = Datorită contribuțiilor a peste 259.000 de persoane ce vorbesc peste 50 de limbi, aceste date sunt folosite pentru a antrena aplicațiile cu activare vocală să răspundă mai bine la vocile oamenilor.
 card-button-next = Înainte
 card-button-back = Înapoi
 demo-eofy-header = Versiunea de final de 2019
