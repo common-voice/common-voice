@@ -14,6 +14,8 @@ error-title-502 = Conexiune întreruptă
 error-content-502 = Nu te poți conecta momentan la serverele noastre. Te rugăm să încerci din nou mai târziu. Pentru a adresa o întrebare, intră pe <matrixLink>chatul comunității Matrix</matrixLink>, monitorizează problemele site-ului prin <githubLink>GitHub</githubLink> sau intră pe <discourseLink>forumurile noastre Discourse</discourseLink>.
 error-title-503 = Ne confruntăm cu probleme de sistem neprevăzute.
 error-content-503 = Site-ul va deveni funcțional cât mai curând posibil. Pentru cele mai noi informații, intră pe <matrixLink>chatul comunității Matrix</matrixLink> sau pe <githubLink>GitHub</githubLink> sau pe <discourseLink>forumurile noastre Discourse</discourseLink> pentru a raporta și monitoriza probleme de utilizare a site-ului.
+error-title-504 = Solicitare expirată.
+error-content-504 = Finalizarea solicitării ia prea mult timp. Te rugăm să încerci din nou mai târziu. Pentru a adresa o întrebare, intră pe <matrixLink>chatul comunității Matrix</matrixLink>, monitorizează problemele site-ului prin <githubLink>GitHub</githubLink> sau intră pe <discourseLink>forumurile noastre Discourse</discourseLink>.
 error-code = Eroare { $code }
 # Warning message shown when none of the clips could be uploaded
 error-duplicate-clips-all =
