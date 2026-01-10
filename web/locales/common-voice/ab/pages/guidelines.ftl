@@ -102,7 +102,7 @@ adding-sentences-subheader-offensive-content-explanation = Аҳәоу ихьым
 reviewing-sentences-explanation-1 = Аҳәоу хыхь иарбоу акритериақәа ирықәшәозар, адырга «Ааи» шәақәыӷәӷәа.
 reviewing-sentences-explanation-2 = Аҳәоу хыхь иарбоу акритериақәа ирықәымшәозар, адырга «Мап» шәақәыӷәӷәа.
 reviewing-sentences-explanation-3 = Аҳәоу агәра шәзымгозар, уи бжьажьны анаҩстәи аҳәоу ахь шәиасыр шәылшоит.
-reviewing-sentences-explanation-4 = Ахәаԥшразы алабжьарақәа нҵәазар, егьырҭ алабжьарақәа реизгараҿы ҳацхраа!
+reviewing-sentences-explanation-4 = Игәашәҭаша аҳәоуқәа нҵәазар, еиҳа ирацәаны аҳәоуқәа реизгара шәҳацхраа!
 domain-explanation = Адомен аҳәоу атема иаҵанакуеит. Уажәазы ​​шәара ишәылшоит иалышәхыр:
 
 ## Question collection sidebar content
