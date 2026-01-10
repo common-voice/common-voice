@@ -46,6 +46,7 @@ x-years-short =
     }
 help-make-dataset = Ajută-ne să construim un set de date de înaltă calitate, disponibil tuturor.
 sign-up-account = Înscrie-te pentru un cont.
+email-subscription-title-v3 = Înscrie-te pentru a primi noutăți despre Mozilla Foundation și proiectul Common Voice.
 
 ## Account Benefits
 
@@ -130,6 +131,7 @@ answer = Vorbește liber
 
 ## Community section
 
+community-section-title-202601 = Suntem susținuți de și lucrăm pentru comunități de pretutindeni — am ajuns deja la 290 de limbi și nu ne oprim aici!
 join-discord-community = Intră în comunitatea noastră de pe Discord
 # label for button
 join-discord-community-action = Contactează-ne pe Discord
