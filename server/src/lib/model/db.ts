@@ -388,13 +388,15 @@ export default class DB {
       taxonomySentences.concat(regularSentences) || []
     ).slice(0, count) // make sure to only return the requested amount
 
-    // these sentences have been given to this user - ADD to Redis for 24 hours to prevent re-selection
+    // these sentences have been given to this user - ADD to Redis for 1 hours to prevent re-selection
     // We now use redisSetAddManyWithExpiry instead of redisSetFillManyWithExpiry to accumulate
     // previously recorded sentences, not replace them
+    // Beware, each time new sentences are added, the expiry is set to 1 hour from that moment
+    // It will now expire in 1 hour if the user does not come back to record more
     await redisSetAddManyWithExpiry(
       redisKeyPerUserSentenceIdSet(client_id),
       totalSentences.map(s => s.id),
-      12 * TimeUnits.HOUR
+      1 * TimeUnits.HOUR
     )
     return this.appendMetadataToSentence(totalSentences)
   }
