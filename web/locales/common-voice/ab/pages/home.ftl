@@ -21,19 +21,19 @@ hours-recorded = Сааҭ ҭаҩуп
 hours-validated = Сааҭ гәаҭоуп
 voices-online = бжьы онлаин аҿы уажәыҵәҟьа
 todays-progress = Иахьатәи ԥхьацара
-help-reach-goal = Уҳацхраа анагӡараҿы { $goal }
-read-terms-q = Ҳара ҳаиқәшаҳаҭра азҭо уаԥхьахьоума?
-ready-to-record = Убжьы ҳзааушьҭыр азы уеиқәшәоума?
+help-reach-goal = Шәҳацхраа анагӡараҿы { $goal }
+read-terms-q = Ҳхархәара аилаӡарақәа шәрыԥхьама?
+ready-to-record = Шәыбжьы аҭара шәыхиоума?
 all-locales = Зегьы
 today = Иахьа
 x-weeks-short =
     { $count ->
-        [one] Мчыбжьык
-       *[other] мчыбжьа
+        [one] Амчыбжь
+       *[other] мчыбжь
     }
 x-months-short =
     { $count ->
-        [one] мызкы
+        [one] амза
        *[other] { $count }мыз
     }
 x-years-short =
@@ -41,12 +41,12 @@ x-years-short =
         [one] шықәсык
        *[other] шықәса
     }
-help-make-dataset = Иаарту, зхаҭабзиара ҳараку абызшәатә дыррақәа рбаза аԥҵара уҳацхраа
-sign-up-account = Аҽҭагалара аҳасабрбатә нҵамҭазы
+help-make-dataset = Зхаҭабзиара ҳараку, иаарту адыррақәа реизга аԥҵара шәҳацхраа
+sign-up-account = Аккаунт аҭагалара
 
 ## Account Benefits
 
-benefits = Аԥыжәара
+benefits = Аԥыжәарақәа
 rich-data = Имаӡоу адемографиатә дыррақәа анҳауҭо, урҭ иахьынӡауа ихаурҭәаауеит. Ҳара урҭ ҳкьыԥхьаанӡа удемографиатә дыррақәа зегьы амҳхоит.
 improve-audio = Аҷыдахәра иацу аинформациа аудиодыррақәа реилкаара еиӷьнатәуеит.
 keep-track = Абызшәақәа акыр рыла уеизҳашьа уашьклаԥшла.
