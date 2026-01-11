@@ -1,6 +1,6 @@
 ## Languages Overview
 
-language-section-in-progress = Анагӡара иаҿуп
+language-section-in-progress = Азыҟаҵара мҩаԥысуеит
 language-section-in-progress-new-description = Ҳусзуҩцәа, апрограмма алаҵаразы зазырхиара иаҿу, абызшәақәа ирызку адыррақәа реизҳашьа рныԥшуеит <localizationGlossaryLink>асаити</localizationGlossaryLink> <sentenceCollectionGlossaryLink>алагаламҭақәа аус рыдулара</sentenceCollectionGlossaryLink> аетапқәеи.
 language-section-launched = Аус арууп
 language-section-launched-description = Урҭ абызшәақәа иманшәаланы иалхуп <sentenceCollectionGlossaryLink>алагалақәагьы маҷымқәа</sentenceCollectionGlossaryLink> <localizationGlossaryLink>иацҵоуп авеб-саит</localizationGlossaryLink>, урҭ <speakLink>ахҳәааҟаҵареи</speakLink> <listenLink>азыӡырҩреи</listenLink> амҩақәа рыла аус рыдулара ацҵаразы.
