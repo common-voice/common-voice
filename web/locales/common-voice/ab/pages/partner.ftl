@@ -1,8 +1,8 @@
 # PARTNERSHIPS PAGE
 partnerships-header = Аилахәыларақәа
 partnerships-header-text = Common Voice ацәырҵразы акырӡа аҭахуп! Уи ҳара ҳхала иҟаҳҵаӡом. Аус ҳацыжәур шәҭахума? Шәгәаанагара еилаҳкаар ҳҭахуп.
-partnerships-get-in-touch = Шәеиқәшәала
-partnerships-become-a-partner = Азеиԥш бжьы апартниорс шәҟала
+partnerships-get-in-touch = Аимадара шәмырӡын
+partnerships-become-a-partner = Common Voice партниорс шәҟала
 partnerships-community-header = Ауаажәларра, арҿиаҩцәа, ауаажәларратә еилазаара
 partnerships-community-description = Ауаажәларра Common Voice агәы ауп – уи алахәылацәа адунеи зегьы аҿы иҟоуп, урҭ рҟны иҟоуп абзтә активистцәеи, аҵарауааи, аҟазацәеи. Шәара еиҳаны еилышәкаар шәылшоит ҳ-<about>Ҳара ҳазкны</about> адаҟьеи ҳ-<community>Ауаажәларратә мҩақәҵага</community> аҟны. Еиҳа иааигәоу аиҿкааратә еиҩызара шәҭахызар, <emailFragment>ҳацәажәа.</emailFragment>
 partnerships-foundations-header = Афондқәа
