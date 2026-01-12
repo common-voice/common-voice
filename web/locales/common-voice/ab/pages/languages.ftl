@@ -1,8 +1,7 @@
 ## Languages Overview
 
 language-section-in-progress = Азыҟаҵара мҩаԥысуеит
-language-section-in-progress-new-description = Ҳусзуҩцәа, апрограмма алаҵаразы зазырхиара иаҿу, абызшәақәа ирызку адыррақәа реизҳашьа рныԥшуеит <localizationGlossaryLink>асаити</localizationGlossaryLink> <sentenceCollectionGlossaryLink>алагаламҭақәа аус рыдулара</sentenceCollectionGlossaryLink> аетапқәеи.
-language-section-launched = Аус арууп
+language-section-in-progress-new-description = Иахьатәи аамҭазы аилазаара арҭ абызшәақәа аус рыдулара иаҿуп. Аԥхьацара аиндикаторқәа иаадырԥшуеит бызшәацыԥхьаӡазы  <localizationGlossaryLink>авеб-саит</localizationGlossaryLink>аҭыԥыркреи <sentenceCollectionGlossaryLink>аҳәоуқәа реизгареи</sentenceCollectionGlossaryLink> ирыдҳәалоу апроцесс шаҟа ихараны ицаз.
 language-section-launched-description = Урҭ абызшәақәа иманшәаланы иалхуп <sentenceCollectionGlossaryLink>алагалақәагьы маҷымқәа</sentenceCollectionGlossaryLink> <localizationGlossaryLink>иацҵоуп авеб-саит</localizationGlossaryLink>, урҭ <speakLink>ахҳәааҟаҵареи</speakLink> <listenLink>азыӡырҩреи</listenLink> амҩақәа рыла аус рыдулара ацҵаразы.
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
 language-section-last-updated = Аҵыхәтәантәи арҿыцра: { $lastUpdatedTimeStamp }
