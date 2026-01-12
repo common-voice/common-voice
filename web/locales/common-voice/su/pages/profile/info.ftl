@@ -54,6 +54,7 @@ download-profile = Unduh Data Kuring
 api-credentials = API
 api-credentials-header = Kredensial
 contribution-experience = Pangalaman Kontribusi
+skip-submission-feedback = Moal masihan saran
 skip-submission-description = Salila pangiriman kontribusi, eupan balik bakal dilewati saatos ngaklik 'Kirim'. Kontribusi bakal diteruskeun langsung sareng sét 5 rékaman atanapi validasi salajengna.
 skip-submission-note = Catetan: Anjeun tetep kedah milih antara Nyarios atanapi Ngadangukeun pikeun ngarobih jinis kontribusi.
 off = Pareum

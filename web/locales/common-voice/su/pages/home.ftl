@@ -118,13 +118,45 @@ join-discord-community = Gabung ka Komunitas Discord
 # label for button
 join-discord-community-action = Gabung di Discord
 find-us-on-matrix = Tepangan di Matrix
+# label for button
+find-us-on-element-action-1 = Unsur
+find-us-on-matrix-action-2 = Klien sanes
 ask-mozilla-share = Nyuhunkeun Mozilla supados ngabagikeun acara anjeun
 # label for button
 ask-mozilla-share-action = Bagikeun acara anjeun
 download-contribution-certificate = Unduh sertipikat kontribusi anjeun
+# label for button
+download-contribution-certificate-action = Candak sertipikat
+contribute-github = Kontribusi dina Github
+# label for button
+contribute-github-action = Kontribusi dina Github
+
+## Featured section
+
+featured-section-title = Ditampilkeun dina...
+# icon is an arrow that points downwards
+download-press-pack = Unduh paket warta <icon></icon>
+
+## Developers section
+
+developers-section-title = Kumpulan data soanten nu tiasa diakses ku masarakat umum dina 130+ basa
+developers-section-subtitle = Kumpulan data kanggo ASR, STT, TTS, sareng konteks NLP anu sanesna - dipidamel  partisipasi komunitas.
+# icon is an arrow that points to the right
+explore-datasets = Jalajah kumpulan data <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = Dukung kumpulan data anu bebas sareng dipidamel ku komunitas
 read-sentences-link = Baca Kalimah
 validate-readings-link = Cek pariksa bacaan
 contribute-link = Nyumbang kana korpus teks
+answer-questions-link = Waler Patarosan
+transcribe-answers-link = Transkripkeun jawaban
+review-transcriptions-link = Cek Transkripsi
+contribute-text-link = Kontribusi teks
+press-and-stories-link = Warta jeung carita
+
+## Partner section
+
+# Partners section
+our-partners-include = Nu tos lebet janten mitra diantarana
