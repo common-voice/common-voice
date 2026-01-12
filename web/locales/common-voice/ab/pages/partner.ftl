@@ -1,6 +1,6 @@
 # PARTNERSHIPS PAGE
 partnerships-header = Аилахәыларақәа
-partnerships-header-text = Азеиԥш бжьы ацәырҵразы акыр аҭахуп! Уи ҳара ҳхала иҟаҳҵом. Уара ҳара аус ҳацурц уҭахума? Шәгәаанагара еилаҳкаар ҳҭахуп.
+partnerships-header-text = Common Voice ацәырҵразы акырӡа аҭахуп! Уи ҳара ҳхала иҟаҳҵаӡом. Аус ҳацыжәур шәҭахума? Шәгәаанагара еилаҳкаар ҳҭахуп.
 partnerships-get-in-touch = Шәеиқәшәала
 partnerships-become-a-partner = Азеиԥш бжьы апартниорс шәҟала
 partnerships-community-header = Ауаажәларра, арҿиаҩцәа, ауаажәларратә еилазаара
