@@ -12,6 +12,13 @@ record-no-mic-found = Ora ditemokake mikropon.
 record-error-too-short = Rekamane cendhek banget.
 record-error-too-long = Rekamane kedawanen.
 record-error-too-quiet = Rekamane sepi banget.
+record-error-uploaded-clip-corrupted =
+    Rekaman swara sampeyan kethokane rusak. Iki bisa kedadeyan amarga:
+    • Masalah kompatibilitas browser (coba gunakake browser liyane)
+    • Masalah driver mikrofon utawa audio
+    • Gangguan jaringan nalika ngrekam
+    Coba ngrekam maneh.
+record-error-uploaded-clip-too-long = Rekaman sampeyan ngluwihi wektu maksimal { $duration } detik. Mangga rekam klip sing luwih cendhek.
 record-cancel = Batalno rekaman
 record-instruction = { $actionType }<recordIcon></recordIcon> lanjut waca ukara kasebut kanthi banter
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> yen wis rampung
