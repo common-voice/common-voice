@@ -12,6 +12,12 @@ record-no-mic-found = Aucun microphone trouvé.
 record-error-too-short = L’enregistrement est trop court.
 record-error-too-long = L’enregistrement est trop long.
 record-error-too-quiet = Le volume de l’enregistrement est trop faible.
+record-error-uploaded-clip-corrupted =
+    Votre enregistrement audio semble être corrompu. Cela peut être dû à :
+    • Des problèmes de compatibilité avec votre navigateur (essayez d’en utiliser un autre)
+    • Des problèmes de microphone ou de pilote audio
+    • Des coupures réseau pendant l’enregistrement
+    Veuillez essayer de l’enregistrer à nouveau.
 record-cancel = Annuler le réenregistrement
 record-instruction = { $actionType } <recordIcon></recordIcon> puis lisez la phrase à haute voix.
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> une fois terminé.
