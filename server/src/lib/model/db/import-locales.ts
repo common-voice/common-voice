@@ -7,7 +7,7 @@ import { VARIANTS } from './language-data/variants'
 import { ACCENTS } from './language-data/accents'
 
 const TRANSLATED_MIN_PROGRESS = 0.6
-const DEFAULT_TARGET_SENTENCE_COUNT = 5000
+const DEFAULT_TARGET_SENTENCE_COUNT = 2000
 
 const LOCALE_MESSAGES_PATH = path.join(
   __dirname,
