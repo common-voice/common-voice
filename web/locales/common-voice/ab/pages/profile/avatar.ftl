@@ -7,4 +7,4 @@ gravatar_not_found = Ари аелектронтә ԥошьҭа адрес grava
 file_too_large = Иалху афаил ашәагаа мыцхәы идууп
 avatar-uploaded = Аватар ҭагалоуп
 max-file-size = { $kb } КБ иреиҳамкәа
-remove-avatar = Ианыхтәуп аватар
+remove-avatar = Аватар аныхра
