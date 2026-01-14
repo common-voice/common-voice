@@ -1,6 +1,6 @@
 ## Profile Download
 
-download-q = Удата ақәгара уҭахума?
+download-q = Шәдыррақәа ҭыжәгар шәҭахума?
 download-info = Иҳаҳәа иҭажәгаларц ишәҭаху:
 download-profile-title = Аҷыдахәра
 download-profile-info = Иаҵанакуеит аимеил, ахархәаҩ ихьӡ, насгьы адемографиатә дыррақәа. Уажәы иҟоуп.
