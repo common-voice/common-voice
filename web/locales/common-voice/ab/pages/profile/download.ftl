@@ -1,11 +1,11 @@
 ## Profile Download
 
 download-q = Шәдыррақәа ҭыжәгар шәҭахума?
-download-info = Иҳаҳәа иҭажәгаларц ишәҭаху:
-download-profile-title = Аҷыдахәра
-download-profile-info = Иаҵанакуеит аимеил, ахархәаҩ ихьӡ, насгьы адемографиатә дыррақәа. Уажәы иҟоуп.
+download-info = Иҭыжәгарц ишәҭаху ҳашәҳәа:
+download-profile-title = Апрофиль
+download-profile-info = Иаҵанакуеит аелектронтә ԥошьҭа, ахархәаҩ ихьӡ, насгьы адемографиатә информациа. Уажәыҵәҟьа иҟоуп.
 download-profile-size = Баитқәак
-download-recordings-title = нҵамҭак
+download-recordings-title = Аҭаҩымҭақәа
 download-recordings-info = Иаҵанакуеит mp3-қәеи урҭ ирыдҳәалоу аҳамҭақәа. Аҽазыҟаҵара аамҭа аҭаххар ауеит.
 download-recordings-size = Еиҳарак мегабаитқәа
 download-recordings-unavailable = Даҽа ҳәарак аус адулара мҩаԥысуанаҵы шәҭаҩрақәа рзыҳәара ҟалом.
