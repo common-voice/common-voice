@@ -12,6 +12,13 @@ record-no-mic-found = Heb ganfod meicroffon.
 record-error-too-short = Roedd y recordiad yn rhy fyr.
 record-error-too-long = Roedd y recordiad yn rhy hir.
 record-error-too-quiet = Roedd y recordiad yn rhy dawel.
+record-error-uploaded-clip-corrupted =
+    Mae'n ymddangos bod eich recordiad sain wedi'i lygru. Gall hyn ddigwydd oherwydd:
+    • Problemau cydweddoldeb porwr (ceisiwch ddefnyddio porwr gwahanol)
+    • Problemau gyda'r meicroffon neu yrrwr sain
+    • Tarfu gan y rhwydwaith wrth recordio
+    Ceisiwch recordio eto.
+record-error-uploaded-clip-too-long = Roedd eich recordiad yn fwy na'r hyd mwyaf o { $duration } eiliad. Recordiwch glip byrrach.
 record-cancel = Diddymu Ail-recordio
 record-instruction = { $actionType }<recordIcon></recordIcon> ac yna darllen y frawddeg yn uchel
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> ar ôl gorffen
