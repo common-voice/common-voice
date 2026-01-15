@@ -16,3 +16,7 @@ sc-review-small-batch-title = Масях алам тIе муха баккха б
 new-sentence-rule-1 = <noCopyright>Долахонан бакъонаш яц</noCopyright> (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Цхьа алам 15 дошал сов боцуш
 new-sentence-rule-3 = Нийса грамматика лелайе
+new-sentence-rule-4 = орфографи а, пунктуаци а нийса лелор
+new-sentence-rule-5 = Терахьаш а, леррина хьаьркаш а дац
+new-sentence-rule-6 = Кхечу къаьмнийн элпаш а доцуш
+new-sentence-rule-7 = ДогӀуш долу цитаташ юкъадаха
