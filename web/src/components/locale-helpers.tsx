@@ -60,6 +60,10 @@ export function useContributableNativeNames() {
   );
 }
 
+export function useSpontaneousSpeechLocales() {
+  return useTypedSelector(({ languages }) => languages.spontaneousSpeechLanguages);
+}
+
 export function useLocalizedDiscourseURL() {
   const DISCOURSE_LOCALES = [
     'de',

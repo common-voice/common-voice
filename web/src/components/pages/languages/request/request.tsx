@@ -9,7 +9,8 @@ import {
   useNativeLocaleNames,
   useContributableLocales,
   useAllLocales,
-  useEnglishLocaleNames
+  useEnglishLocaleNames,
+  useSpontaneousSpeechLocales
 } from '../../../locale-helpers'
 import { useAPI } from '../../../../hooks/store-hooks'
 import URLS from '../../../../urls'
@@ -72,15 +73,27 @@ const LanguagesRequestFormPage = () => {
     setLanguage(undefined)
   }
 
-  const isContributable = (locale: string) => {
-    return contributableLocales.includes(locale)
-    }
-
   const languages = useAllLocales()
   const nativeNames = useNativeLocaleNames()
   const englishNames = useEnglishLocaleNames()
   const availableLocales = useAvailableLocales()
   const contributableLocales = useContributableLocales()
+  const spontaneousSpeechLocales = useSpontaneousSpeechLocales()
+
+  const isContributable = (locale: string) => {
+    return contributableLocales.includes(locale)
+    }
+  
+  const hasSpontaneousSpeech = (locale: string) => {
+    return spontaneousSpeechLocales.includes(locale)
+  }
+
+  const submitAvailable = (locale: string) => {
+    if (!isContributable || !hasSpontaneousSpeech) {
+      return true
+    }
+    return false
+  }
 
   const handleQueryChange = (
     event: React.ChangeEvent<HTMLInputElement>,
@@ -250,7 +263,7 @@ const LanguagesRequestFormPage = () => {
             </span>
             <p />
             {language ? (
-              isContributable(language) ? 
+              !submitAvailable(language) ? 
                 (
                   <div id="search-result">
                     <Localized id="request-language-found-cv-contribution"
@@ -295,7 +308,7 @@ const LanguagesRequestFormPage = () => {
                     </div>
                 )
               ) : <div/>
-              }
+            }
 
             <p className="languages-request-page__content__form__required">
               <Localized id="indicates-required" />
@@ -365,7 +378,7 @@ const LanguagesRequestFormPage = () => {
             </PageTextContent>
 
             
-            {(query !== '' && languagesFiltered.length == 0 ? (
+            {(query !== '' && (languagesFiltered.length == 0 || (language && submitAvailable(language))) ? (
               <span>
               <Localized id="request-language-form-info" attrs={{ label: true }}>
                 <LabeledTextArea

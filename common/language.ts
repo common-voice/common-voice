@@ -75,5 +75,5 @@ export type LanguageData = {
 
 export type AvailableLanguages = {
   project: string
-  availableLanguages: String[]
+  availableLanguages: string[]
 }
