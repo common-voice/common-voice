@@ -1,9 +1,16 @@
 import * as React from 'react'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useHistory } from 'react-router-dom'
 import { Localized } from '@fluent/react'
 
-import { useToLocaleRoute } from '../../../locale-helpers'
+import { 
+  useToLocaleRoute, 
+  useAvailableLocales, 
+  useNativeLocaleNames,
+  useContributableLocales,
+  useAllLocales,
+  useEnglishLocaleNames
+} from '../../../locale-helpers'
 import { useAPI } from '../../../../hooks/store-hooks'
 import URLS from '../../../../urls'
 import {
@@ -21,6 +28,7 @@ import PageTextContent from '../../../ui/page-text-content'
 import Page from '../../../ui/page'
 import ClientLogger from '../../../../logger'
 import { trackGtag } from '../../../../services/tracker-ga4'
+import { LanguageSearch } from '../languages'
 
 const logger = new ClientLogger({ name: 'LanguagesRequestFormPage' })
 
@@ -32,6 +40,7 @@ const LanguagesRequestFormPage = () => {
   const api = useAPI()
   const toLocaleRoute = useToLocaleRoute()
   const history = useHistory()
+  const inputRef = React.createRef<HTMLInputElement>()
 
   const [isSendingRequest, setIsSendingRequest] = useState(false)
   const [hasGenericError, setHasGenericError] = useState(false)
@@ -41,6 +50,11 @@ const LanguagesRequestFormPage = () => {
   const [scriptedSpeechToggled, setScriptedSpeechToggled] = useState(false)
   const [spontaneousSpeechToggled, setSpontaneousSpeechToggled] =
     useState(false)
+  // const [languages, setLanguages] = useState(undefined)
+  const [language, setLanguage] = useState(undefined)
+  const [languagesFiltered, setLanguagesFiltered] = useState(undefined)
+  const [query, setQuery] = useState('')
+  const [infoInputOpen, isInfoInputOpen] = useState(false)
 
   const noPlatformToggleOptionSelected =
     !scriptedSpeechToggled && !spontaneousSpeechToggled
@@ -52,6 +66,55 @@ const LanguagesRequestFormPage = () => {
     ...(scriptedSpeechToggled ? ['scripted-speech'] : []),
     ...(spontaneousSpeechToggled ? ['spontaneous-speech'] : []),
   ]
+
+  const toggleSearch = () => {
+    setQuery('');
+    setLanguage(undefined)
+  }
+
+  const isContributable = (locale: string) => {
+    return contributableLocales.includes(locale)
+    }
+
+  const languages = useAllLocales()
+  const nativeNames = useNativeLocaleNames()
+  const englishNames = useEnglishLocaleNames()
+  const availableLocales = useAvailableLocales()
+  const contributableLocales = useContributableLocales()
+
+  const handleQueryChange = (
+    event: React.ChangeEvent<HTMLInputElement>,
+    nativeNames: any
+  ) => {
+    const query = event.target.value
+
+    function filterLanguages<T>(languages: T[]): T[] {
+      if(!query){setLanguage(undefined)}
+      return query
+        ? // eslint-disable-next-line @typescript-eslint/no-explicit-any
+          languages.filter((locale : any) => {
+            const q = query.toLowerCase().trim()
+            return (
+              locale.includes(q) ||
+              locale.toLowerCase().includes(q) ||
+              (nativeNames[locale] || '').toLowerCase().includes(q) ||
+              (englishNames[locale] || '').toLowerCase().includes(q) 
+            )
+          })
+        : languages
+    }
+
+    const filtered = filterLanguages(languages)
+    setLanguagesFiltered(filtered)
+    setQuery(query)
+    if (filtered.length == 0) {setLanguage(undefined)}
+  }
+
+  const handleQueryKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
+    if (event.key === 'Escape') {
+      toggleSearch()
+    }
+  }
 
   const handleEmailInputChange = (
     event: React.ChangeEvent<HTMLInputElement>
@@ -151,6 +214,89 @@ const LanguagesRequestFormPage = () => {
           <form
             className="languages-request-page__content__form"
             onSubmit={handleSubmit}>
+            
+            <Localized
+              id="request-language-search-bar">
+            </Localized>
+            <LanguageSearch
+                inputRef={inputRef}
+                query={query}
+                handleQueryChange={e => handleQueryChange(e, nativeNames)}
+                handleQueryKeyDown={handleQueryKeyDown}
+                toggleSearch={toggleSearch}
+            />
+            <span className="dropdown_menu">
+            {query !== '' &&
+              languagesFiltered?.map((locale: string) => (
+                <div className="dropdown_item_container"
+                  key={locale}
+                >
+                  <span className="dropdown_item"
+                    title={englishNames[locale]}
+                    tabIndex={0}
+                    onClick={() => {
+                      setLanguage(locale); 
+                      setQuery(englishNames[locale]); 
+                      setLanguagesFiltered([locale])
+                    }}
+                  >
+                    {englishNames[locale]}
+                    {language && language === locale && (
+                      <span className="styled_check"/>
+                    )}
+                  </span>
+                </div>
+              ))}
+            </span>
+            <p />
+            {language ? (
+              isContributable(language) ? 
+                (
+                  <div id="search-result">
+                    <Localized id="request-language-found-cv-contribution"
+                      elems={{
+                        speakPageLink: <StyledLink to={`https://commonvoice.mozilla.org/${language}/speak`} />,
+                      }}>
+                    </Localized>
+                  <text> You can contribute </text>
+                  <a href={`https://commonvoice.mozilla.org/${language}/speak`}>
+                    here
+                   </a>
+                  </div>
+                ) :
+                (
+                    <div>
+                      <Localized id="request-language-found-pontoon-not-launched"
+                        elems={{
+                          pontoonLink: <StyledLink to={`https://pontoon.mozilla.org/${language}/common-voice/`} />,
+                        }}>
+                      </Localized>
+                    <text>You can facilitate the language launch </text>
+                      <a id="search-result-link-pontoon" href={`https://pontoon.mozilla.org/${language}/common-voice/`}>
+                        here
+                      </a>
+                      <text> by localizing the platform</text>
+                      {availableLocales[language] ? (
+                        <div>
+                          <Localized id="request-language-found-cv-sentences-lack"
+                            elems={{
+                              sentencesContributionLink: <StyledLink to={`https://commonvoice.mozilla.org/${language}/write`} />,
+                            }}>
+                          </Localized>
+                          <br />
+                          and
+                          <br />
+                          <a id="search-result-link-sentences" href={`https://commonvoice.mozilla.org/${language}/write`}>
+                            here by contributing sentences
+                          </a>
+                        </div>
+                        ) : null
+                      }
+                    </div>
+                )
+              ) : <div/>
+              }
+
             <p className="languages-request-page__content__form__required">
               <Localized id="indicates-required" />
             </p>
@@ -218,39 +364,46 @@ const LanguagesRequestFormPage = () => {
               </ul>
             </PageTextContent>
 
-            <Localized id="request-language-form-info" attrs={{ label: true }}>
-              <LabeledTextArea
-                className="languages-request-page__content__form__text-area"
-                value={languageInfoValue}
-                onChange={handleLanguageInfoTextAreaChange}
+            
+            {(query !== '' && languagesFiltered.length == 0 ? (
+              <span>
+              <Localized id="request-language-form-info" attrs={{ label: true }}>
+                <LabeledTextArea
+                  className="languages-request-page__content__form__text-area"
+                  value={languageInfoValue}
+                  onChange={handleLanguageInfoTextAreaChange}
+                  required
+                />
+              </Localized>
+
+
+              <LabeledCheckbox
+                label={
+                  <Localized
+                    id="accept-privacy"
+                    elems={{ privacyLink: <StyledLink to={URLS.PRIVACY} /> }}>
+                    <span />
+                  </Localized>
+                }
+                checked={privacyAgreedChecked}
+                onChange={handlePrivacyAgreedChange}
                 required
               />
-            </Localized>
 
-            <LabeledCheckbox
-              label={
-                <Localized
-                  id="accept-privacy"
-                  elems={{ privacyLink: <StyledLink to={URLS.PRIVACY} /> }}>
-                  <span />
-                </Localized>
-              }
-              checked={privacyAgreedChecked}
-              onChange={handlePrivacyAgreedChange}
-              required
-            />
-
-            <Localized id="submit-form-action">
-              <Button
-                type="submit"
-                rounded
-                isBig
-                outline={false}
-                disabled={isSubmitButtonDisabled}
-                className="request-language-btn"
-                data-testid="request-language-btn"
-              />
-            </Localized>
+              <Localized id="submit-form-action">
+                <Button
+                  type="submit"
+                  rounded
+                  isBig
+                  outline={false}
+                  disabled={isSubmitButtonDisabled}
+                  className="request-language-btn"
+                  data-testid="request-language-btn"
+                />
+              </Localized>
+            </span>
+            ) : <div />)
+            }
           </form>
         </div>
 
@@ -267,4 +420,4 @@ const LanguagesRequestFormPage = () => {
   )
 }
 
-export default LanguagesRequestFormPage
+export default LanguagesRequestFormPage;
