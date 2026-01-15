@@ -13,3 +13,6 @@ citation =
 sc-write-submit-confirm = Ас тӀечӀагӀдо хӀара алам <wikipediaLink>юкъараллин</wikipediaLink> хилар, сан бакъо ю иза чуяккха.
 sc-review-write-title = Муьлха аламаш тIе баха мега?
 sc-review-small-batch-title = Масях алам тIе муха баккха беза
+new-sentence-rule-1 = <noCopyright>Долахонан бакъонаш яц</noCopyright> (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = Цхьа алам 15 дошал сов боцуш
+new-sentence-rule-3 = Нийса грамматика лелайе
