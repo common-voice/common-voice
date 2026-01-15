@@ -410,7 +410,9 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
                       // don't let Chrome auto-translate
                       // https://html.spec.whatwg.org/multipage/dom.html#the-translate-attribute
                       translate="no"
-                      key={sentence ? sentence.text : i}
+                      // Use index as key to preserve DOM element and enable CSS transitions
+                      // when sentence content changes (e.g., after skip)
+                      key={i}
                       className={
                         'card card-dimensions ' + (isActive ? '' : 'inactive')
                       }
