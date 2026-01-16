@@ -23,3 +23,4 @@ new-sentence-rule-7 = ДогӀуш долу цитаташ юкъадаха
 new-sentence-rule-8 = Гуттара диканиг ,мабарра а, къамелехь а болу (алам беша атта хилар ду)
 login-instruction-multiple-sentences = <loginLink>Чувола</loginLink>я <loginLink>дӀавазло</loginLink> масех алам тӀетоха
 how-to-cite = Муха схьадаладе аса?
+how-to-cite-explanation-bold = Схьадаладе URL-ссылкаца я белхан йуьззина цIарца
