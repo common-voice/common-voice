@@ -94,3 +94,9 @@ file-invalid-type = Нийса йоцу файл
 file-too-large = Файл тӀех йоккха ю
 file-too-small = Файл тӀех жима ю .
 too-many-files = Файлаш дукха ю
+
+## SMALL BATCH SUBMISSION
+
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = ТӀетоха цхьаболу юкъараллин аламаш
+multiple-sentences-error = Цхьана дӀакхачорехь масех алам тӀетоха йиш яц
