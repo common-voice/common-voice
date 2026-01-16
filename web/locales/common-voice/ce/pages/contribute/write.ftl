@@ -137,3 +137,4 @@ small-batch-response-message =
         [one] { $uploadedSentences } -ннах 1 алам гулбина. тIе таIйе <downloadLink>кхузахь</downloadLink> юхатоьхна аламаш тIебаха.
        *[other] { $uploadedSentences } -ннах { $totalSentences } алам гулбина. тIе таIйе <downloadLink>кхузахь</downloadLink> юхатоьхна аламаш тIебаха.
     }
+small-batch-sentences-rule-1 = хIокху декъехь долчу хьехамашна тӀаьхьаваза."Муьлха аламаш тӀетоха мегар ду?"
