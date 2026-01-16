@@ -70,3 +70,6 @@ sentence-variant-select-multiple-variants = Юкъара мотт / масех �
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = чубаха<icon></icon> юкъара доменан аламаш
+sc-bulk-upload-instruction = Хьайн файл кхуза схьаозайе я <uploadButton>тIетаIайе цаI чуйаккха </uploadButton>
+sc-bulk-upload-instruction-drop = Файл чуйаккха кхузе схьа йа
+bulk-upload-additional-information = Нагахь санна цу файлах лаьцна кхин а хаамаш бан лууш велахь, зӀене вала .<emailFragment>commonvoice@mozilla.com</emailFragment>
