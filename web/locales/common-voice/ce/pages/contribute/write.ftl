@@ -125,3 +125,9 @@ rate-limit-message-seconds =
         [one] ХӀокху агӀонна дӀакхачо лерина бараме кхаьчна хьо. Дехар ду, 1 секундехь собар дар, керла алам чу баккха . Дела реза хуьлда хьуна собаре хиларна!
        *[other] ХӀокху агӀонна дӀакхачо лерина бараме кхаьчна хьо. Дехар ду, { $retryLimit } секундехь собар дар, керла алам чу баккха . Дела реза хуьлда хьуна собаре хиларна!
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } -ннах 1 алам гулбина
+       *[other] { $uploadedSentences }-ннах{ $totalSentences } алам гулбина
+    }
