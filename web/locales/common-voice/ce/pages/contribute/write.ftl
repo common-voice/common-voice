@@ -79,3 +79,6 @@ try-upload-again-md = Юха а тIейаккха хьажа
 select-file = Файл харжа
 select-file-mobile = ТIейаккха цхьа файл харжа
 accepted-files = ТӀеоьцу файлийн тайпанаш: .tsv  хIара бен йац
+minimum-sentences = Файлехь уггаре а кӀезиг аламаш: 1000
+maximum-file-size = Лаккхара файлан барам: 25 МБ.
+what-needs-to-be-in-file = ХӀун хила деза сан Файлехь?
