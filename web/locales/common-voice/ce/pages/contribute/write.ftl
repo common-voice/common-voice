@@ -107,3 +107,9 @@ rate-limit-toast-message-minutes =
         [one] Чехкаллин доза тӀехдаьлла. цхьа минот яьлча юха хьажа.
        *[other] Чехкаллин доза тӀехдаьлла. юха хьажа { $retryLimit } мино йаьлча
     }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Чехкаллин доза тӀехдаьлла. цхьа секунд яьлча юха хьажа.
+       *[other] Чехкаллин доза тӀехдаьлла. юха хьажа.{ $retryLimit } секунд йаьлча
+    }
