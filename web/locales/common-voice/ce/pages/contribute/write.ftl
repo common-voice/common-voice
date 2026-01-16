@@ -131,3 +131,9 @@ add-small-batch-success =
         [one] { $uploadedSentences } -ннах 1 алам гулбина
        *[other] { $uploadedSentences }-ннах{ $totalSentences } алам гулбина
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } -ннах 1 алам гулбина. тIе таIйе <downloadLink>кхузахь</downloadLink> юхатоьхна аламаш тIебаха.
+       *[other] { $uploadedSentences } -ннах { $totalSentences } алам гулбина. тIе таIйе <downloadLink>кхузахь</downloadLink> юхатоьхна аламаш тIебаха.
+    }
