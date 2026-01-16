@@ -101,3 +101,9 @@ too-many-files = Файлаш дукха ю
 small-batch-instruction = ТӀетоха цхьаболу юкъараллин аламаш
 multiple-sentences-error = Цхьана дӀакхачорехь масех алам тӀетоха йиш яц
 exceeds-small-batch-limit-error = 1000-алла, сов аламаш бахьийта йиш йац
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Чехкаллин доза тӀехдаьлла. цхьа минот яьлча юха хьажа.
+       *[other] Чехкаллин доза тӀехдаьлла. юха хьажа { $retryLimit } мино йаьлча
+    }
