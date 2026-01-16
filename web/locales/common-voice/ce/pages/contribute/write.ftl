@@ -50,3 +50,16 @@ service_retail = Хьажалла а, йохка-эцар а
 general = Коьрта
 # Sentence Domain dropdown option
 healthcare = Могашалла Ӏалашъяр
+# Sentence Domain dropdown option
+history_law_government = Тарихехь а, низамехь а, Ӏедалехь а
+# Sentence Domain dropdown option
+language_fundamentals = Меттан бух (масала, терахьаш, элпаш, ахча)
+# Sentence Domain dropdown option
+media_entertainment = Хаамийн гӀирсаш а, самукъадаккхарш а
+# Sentence Domain dropdown option
+nature_environment = Ӏалам а, гонахьа дерг а
+# Sentence Domain dropdown option
+news_current_affairs = Керланаш а, карарчу хенахь болу хиламаш а
+# Sentence Domain dropdown option
+technology_robotics = Технологи а, робототехника а
+sentence-variant-select-label = Аламан кеп
