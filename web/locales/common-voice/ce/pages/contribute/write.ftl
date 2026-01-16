@@ -63,3 +63,10 @@ news_current_affairs = Керланаш а, карарчу хенахь болу
 # Sentence Domain dropdown option
 technology_robotics = Технологи а, робототехника а
 sentence-variant-select-label = Аламан кеп
+sentence-variant-select-placeholder = Кеп харжа (тIедожина дац)
+sentence-variant-select-multiple-variants = Юкъара мотт / масех кеп
+
+## BULK SUBMISSION
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = чубаха<icon></icon> юкъара доменан аламаш
