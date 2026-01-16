@@ -138,3 +138,18 @@ small-batch-response-message =
        *[other] { $uploadedSentences } -ннах { $totalSentences } алам гулбина. тIе таIйе <downloadLink>кхузахь</downloadLink> юхатоьхна аламаш тIебаха.
     }
 small-batch-sentences-rule-1 = хIокху декъехь долчу хьехамашна тӀаьхьаваза."Муьлха аламаш тӀетоха мегар ду?"
+small-batch-sentences-rule-2 = ХӀора могӀанна цхьацца алам тӀетоха
+small-batch-sentences-rule-3 = Аламаш хӀора могӀанехь цхьацца къастабе, цкъа Enter я Return тӀе а таӀийна.
+small-batch-sentences-rule-4 = 1000 кхаччалц аламаш тӀетоха
+small-batch-sentences-rule-5 = Массо а предложениш цхьатерра домен йолуш хила еза.
+small-batch-sentences-rule-6 = Массо а предложенеш цхьатерра цитаташ йолуш хила еза.
+# menu item
+add-sentences = Аламаш тӀетоха
+
+## MENU ITEM TOOLTIPS
+
+write-contribute-menu-tooltip = Предложенеш тӀетохар а, карлаяхар а, хаттарш тӀетохар а, аудио транскрипци яр а
+add-sentences-menu-item-tooltip = Хьайн маттахь аламаш тӀетоха
+review-sentences-menu-item-tooltip = Хьайн маттахь болу аламаш таллар
+add-questions-menu-item-tooltip = Хьайн маттахь хаттарш тӀетоха
+review-questions-menu-item-tooltip = Хьайн маттахь хаттарш таллар
