@@ -93,3 +93,4 @@ upload-more-btn-text = Кхин а аламаш чубахай?
 file-invalid-type = Нийса йоцу файл
 file-too-large = Файл тӀех йоккха ю
 file-too-small = Файл тӀех жима ю .
+too-many-files = Файлаш дукха ю
