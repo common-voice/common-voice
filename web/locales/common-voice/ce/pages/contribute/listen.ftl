@@ -20,3 +20,11 @@ validate-readings-coming-soon = Хьовса аудио-яздаршка <жим
 ## MENU ITEM TOOLTIPS
 
 listen-contribute-menu-tooltip = Алар талла, транскрипцеш талла
+validate-readings-menu-item-tooltip = Хьайн маттахь дӀаяздина аларш талла
+review-transcriptions-menu-item-tooltip = Хьайн маттахь чуйаьхна транскрипцеш талла
+
+## MENU ITEM ARIA LABELS
+
+listen-contribute-menu-aria-label = ЛадогӀа опцин меню .
+validate-readings-menu-item-aria-label = Юкъараллин декъашхоша чу даьхна аудио-д1аяздарш талла .
+review-transcriptions-menu-item-aria-label = ДӀаязйдинчу аларийн транскрипци нийса хилар талла
