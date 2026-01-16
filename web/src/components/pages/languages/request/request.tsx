@@ -89,7 +89,7 @@ const LanguagesRequestFormPage = () => {
   }
 
   const submitAvailable = (locale: string) => {
-    if (!isContributable || !hasSpontaneousSpeech) {
+    if (!isContributable(locale) || !hasSpontaneousSpeech(locale)) {
       return true
     }
     return false
@@ -310,110 +310,111 @@ const LanguagesRequestFormPage = () => {
               ) : <div/>
             }
 
-            <p className="languages-request-page__content__form__required">
-              <Localized id="indicates-required" />
-            </p>
-
-            <Localized id="request-language-form-email" attrs={{ label: true }}>
-              <LabeledInput
-                value={emailValue}
-                onChange={handleEmailInputChange}
-                required
-                type="email"
-              />
-            </Localized>
-
-            <div className="toggles-container">
-              <Toggle
-                label="request-for-scripted-speech-toggle"
-                checked={scriptedSpeechToggled}
-                onToggle={setScriptedSpeechToggled}
-              />
-              <div className="hr" />
-              <Toggle
-                label="request-for-spontaneous-speech-toggle"
-                checked={spontaneousSpeechToggled}
-                onToggle={setSpontaneousSpeechToggled}
-              />
-              <div className="hr" />
-              <ExpandableInformation summaryLocalizedId="need-help-deciding-platform">
-                <Localized
-                  id="need-help-deciding-platform-explanation-1"
-                  elems={{ strong: <strong /> }}>
-                  <p />
-                </Localized>
-                <Localized
-                  id="need-help-deciding-platform-explanation-2"
-                  elems={{ strong: <strong /> }}>
-                  <p />
-                </Localized>
-                <Localized id="need-help-deciding-platform-explanation-3">
-                  <p />
-                </Localized>
-              </ExpandableInformation>
-            </div>
-
-            <PageTextContent>
-              <p>
-                <Localized id="request-language-form-info-explanation" />
+          {(query !== '' && (languagesFiltered.length == 0 || (language && submitAvailable(language))) ? (
+            <span>
+              <p className="languages-request-page__content__form__required">
+                <Localized id="indicates-required" />
               </p>
 
-              <ul>
-                <li>
-                  <Localized id="request-language-form-info-explanation-list-1" />
-                </li>
-                <Localized
-                  id="request-language-form-info-explanation-list-2"
-                  elems={{
-                    isoCodeLink: (
-                      <StyledLink href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes" />
-                    ),
-                  }}>
-                  <li />
-                </Localized>
-                <li>
-                  <Localized id="request-language-form-info-explanation-list-3" />
-                </li>
-              </ul>
-            </PageTextContent>
+              <Localized id="request-language-form-email" attrs={{ label: true }}>
+                <LabeledInput
+                  value={emailValue}
+                  onChange={handleEmailInputChange}
+                  required
+                  type="email"
+                />
+              </Localized>
 
-            
-            {(query !== '' && (languagesFiltered.length == 0 || (language && submitAvailable(language))) ? (
-              <span>
-              <Localized id="request-language-form-info" attrs={{ label: true }}>
-                <LabeledTextArea
-                  className="languages-request-page__content__form__text-area"
-                  value={languageInfoValue}
-                  onChange={handleLanguageInfoTextAreaChange}
+              <div className="toggles-container">
+                <Toggle
+                  label="request-for-scripted-speech-toggle"
+                  checked={scriptedSpeechToggled}
+                  onToggle={setScriptedSpeechToggled}
+                />
+                <div className="hr" />
+                <Toggle
+                  label="request-for-spontaneous-speech-toggle"
+                  checked={spontaneousSpeechToggled}
+                  onToggle={setSpontaneousSpeechToggled}
+                />
+                <div className="hr" />
+                <ExpandableInformation summaryLocalizedId="need-help-deciding-platform">
+                  <Localized
+                    id="need-help-deciding-platform-explanation-1"
+                    elems={{ strong: <strong /> }}>
+                    <p />
+                  </Localized>
+                  <Localized
+                    id="need-help-deciding-platform-explanation-2"
+                    elems={{ strong: <strong /> }}>
+                    <p />
+                  </Localized>
+                  <Localized id="need-help-deciding-platform-explanation-3">
+                    <p />
+                  </Localized>
+                </ExpandableInformation>
+              </div>
+
+              <PageTextContent>
+                <p>
+                  <Localized id="request-language-form-info-explanation" />
+                </p>
+
+                <ul>
+                  <li>
+                    <Localized id="request-language-form-info-explanation-list-1" />
+                  </li>
+                  <Localized
+                    id="request-language-form-info-explanation-list-2"
+                    elems={{
+                      isoCodeLink: (
+                        <StyledLink href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes" />
+                      ),
+                    }}>
+                    <li />
+                  </Localized>
+                  <li>
+                    <Localized id="request-language-form-info-explanation-list-3" />
+                  </li>
+                </ul>
+              </PageTextContent>
+
+                <span>
+                <Localized id="request-language-form-info" attrs={{ label: true }}>
+                  <LabeledTextArea
+                    className="languages-request-page__content__form__text-area"
+                    value={languageInfoValue}
+                    onChange={handleLanguageInfoTextAreaChange}
+                    required
+                  />
+                </Localized>
+
+
+                <LabeledCheckbox
+                  label={
+                    <Localized
+                      id="accept-privacy"
+                      elems={{ privacyLink: <StyledLink to={URLS.PRIVACY} /> }}>
+                      <span />
+                    </Localized>
+                  }
+                  checked={privacyAgreedChecked}
+                  onChange={handlePrivacyAgreedChange}
                   required
                 />
-              </Localized>
 
-
-              <LabeledCheckbox
-                label={
-                  <Localized
-                    id="accept-privacy"
-                    elems={{ privacyLink: <StyledLink to={URLS.PRIVACY} /> }}>
-                    <span />
-                  </Localized>
-                }
-                checked={privacyAgreedChecked}
-                onChange={handlePrivacyAgreedChange}
-                required
-              />
-
-              <Localized id="submit-form-action">
-                <Button
-                  type="submit"
-                  rounded
-                  isBig
-                  outline={false}
-                  disabled={isSubmitButtonDisabled}
-                  className="request-language-btn"
-                  data-testid="request-language-btn"
-                />
-              </Localized>
+                <Localized id="submit-form-action">
+                  <Button
+                    type="submit"
+                    rounded
+                    isBig
+                    outline={false}
+                    disabled={isSubmitButtonDisabled}
+                    className="request-language-btn"
+                    data-testid="request-language-btn"
+                  />
+                </Localized>
+              </span>
             </span>
             ) : <div />)
             }
