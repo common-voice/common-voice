@@ -160,3 +160,6 @@ transcribe-audio-menu-item-tooltip = Хьайн маттахь аудио-дӀа
 write-contribute-menu-aria-label = Йозанан настройкийн меню
 add-sentences-menu-item-aria-label = Юкъарлонна беша керла аламаш т1етоха
 review-sentences-menu-item-aria-label = Юкъаралло чуйаьхна лелаш болчу аламашка хьажа .
+add-questions-menu-item-aria-label = Керла хаттарш чу даха юкъарлонна деша а, жоьпаш дала а .
+review-questions-menu-item-aria-label = Юкъаралло чуделла керла хаттарш карладахар а, кхаж тасар а .
+transcribe-audio-menu-item-aria-label = Аудио дӀаяздарш тексте даха
