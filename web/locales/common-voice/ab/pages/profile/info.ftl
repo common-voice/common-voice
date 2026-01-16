@@ -70,10 +70,10 @@ variant-contribution-option-2 = Исырба сбызшәа адиалектқә
 variant-contribution-warning-title = ⓘ Аҳәарақәеи аклипқәеи зегьы макьана опциатә тегқәа рымаӡам!
 variant-contribution-warning-subtitle = Ацхыраара аҟаҵараҿы ауадаҩрақәа умазар, убызшәала иҟоу зегьы уахәаԥшырц азы ианаҭаху аамҭазы ухынҳәыр улшоит.
 # Genders
-male_masculine = Ахаҵа/Ахаҵаратә
-female_feminine = Аԥҳәыс/Аҳәсатә
+male_masculine = Ахаҵа/Ахаҵара злоу
+female_feminine = Аԥҳәыс/Иҟәымшәышәу
 intersex = Аинтерсекс
-transgender = Атрансгендертә
-non-binary = Бинартәым
-do_not_wish_to_say = Ацәажәара сҭахым
+transgender = Атрансгендер
+non-binary = Ибинартәым
+do_not_wish_to_say = Аҳәара сҭахӡам
 other = Даҽакы

@@ -100,3 +100,4 @@ too-many-files = Файлаш дукха ю
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = ТӀетоха цхьаболу юкъараллин аламаш
 multiple-sentences-error = Цхьана дӀакхачорехь масех алам тӀетоха йиш яц
+exceeds-small-batch-limit-error = 1000-алла, сов аламаш бахьийта йиш йац
