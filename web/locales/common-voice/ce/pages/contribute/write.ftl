@@ -153,3 +153,10 @@ add-sentences-menu-item-tooltip = Хьайн маттахь аламаш тӀе�
 review-sentences-menu-item-tooltip = Хьайн маттахь болу аламаш таллар
 add-questions-menu-item-tooltip = Хьайн маттахь хаттарш тӀетоха
 review-questions-menu-item-tooltip = Хьайн маттахь хаттарш таллар
+transcribe-audio-menu-item-tooltip = Хьайн маттахь аудио-дӀаяздаран транскрипци е .
+
+## MENU ITEM ARIA LABELS
+
+write-contribute-menu-aria-label = Йозанан настройкийн меню
+add-sentences-menu-item-aria-label = Юкъарлонна беша керла аламаш т1етоха
+review-sentences-menu-item-aria-label = Юкъаралло чуйаьхна лелаш болчу аламашка хьажа .
