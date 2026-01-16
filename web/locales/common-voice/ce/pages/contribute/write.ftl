@@ -36,3 +36,17 @@ bulk-sentence-submission = Дуккха а аламаш дIабалар
 single-sentence = цхьа алам
 small-batch-sentence = жима пакет
 bulk-sentence = Боккха пакет
+sentence-domain-combobox-label = Аламан Домен
+sentence-domain-select-placeholder = Кхаа домен тIекхаччалца харжа
+# Sentence Domain dropdown option
+agriculture_food = Юьртабахаман а, кхачанан а
+# Sentence Domain dropdown option
+automotive_transport = машенан а, транспортан а
+# Sentence Domain dropdown option
+finance = Финансаш
+# Sentence Domain dropdown option
+service_retail = Хьажалла а, йохка-эцар а
+# Sentence Domain dropdown option
+general = Коьрта
+# Sentence Domain dropdown option
+healthcare = Могашалла Ӏалашъяр
