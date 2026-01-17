@@ -45,3 +45,10 @@ review-rerecord = Юха-ДIайаздар
 review-cancel = ДӀахьажор юкъахдаккха
 review-keep-recordings = ХIара дIайаздарш ларде .
 review-delete-recordings = ДIадаха сан дIайаздарш
+review-terms = Common Voice лелош, хьо реза ву тхан<termsLink>Бехкамашна а</termsLink><privacyLink> Къайленаш ларъйа а</privacyLink>
+terms-agree = Со реза ву
+terms-disagree = Со реза вац
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Дела реза хуьлда хьуна хьайн озан клипаш сагӀне йахарна!
+first-cta-subtitle-text = Хьайх лаьцна дийцарца , гIо дийра ду ахь Сайт-кечйархошна.
+why-donate = ХӀунда хоьтту ахь?
