@@ -20,3 +20,6 @@ sc-review-form-button-approve-shortcut = Y
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = S
+sc-review-form-keyboard-usage-custom = Иштта лело мегар ду цхьаьна тоьхна пиллигаш: { sc-review-form-button-approve-shortcut } ТӀеэца, { sc-review-form-button-reject-shortcut }Юхатоха,{ sc-review-form-button-skip-shortcut }ТӀехдалийта .
+sc-review-form-button-submit =
+    .submitText = Таллам чекхбаккха
