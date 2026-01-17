@@ -58,3 +58,26 @@ report-offensive-speech = оьзда доцу къамел
 report-offensive-speech-detail = Клипехь ларамбоцуш я оьзда доцуш къамел ду
 report-other-comment =
     .placeholder = комментари
+success = кхиам
+continue = кхидӀа а дӀадахьар
+report-success = Арз кхиамца дӀахьажийна
+
+## Speak & Listen Shortcuts
+
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = с
+
+## Speak Shortcuts
+
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = р
+shortcut-record-toggle-label = ДӀаяздар/Сацор
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Юха дӀаязъе клип
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = ДIадоьду дӀаяздар дӀадаккха
+shortcut-submit = Юхадерзор
+shortcut-submit-label = Клипаш чуяийта
+request-language-text = Хьайн мотт Common Voice чохь ца го хьуна хӀинца а?
+request-language-button = Мотт бехар
