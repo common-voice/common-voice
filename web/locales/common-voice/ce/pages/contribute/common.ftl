@@ -31,3 +31,18 @@ target-segment-generic-card = Хьо дакъалоцуш ву 1алашонан
 target-segment-first-banner = ГӀо де Common Voice’ан хьалхара Ӏалашонан сегмент кхолла { $locale } чохь.
 target-segment-add-voice = Хьайн аз тӀетоха
 target-segment-learn-more = кхин дӀа хаа
+change-preferences = Хийца лаамаш
+login-signup = Чувола / ДӀаязло
+vote-yes = ХӀаъ
+vote-no = ХӀан-хӀа
+datasets = Хаамин гуларш
+languages = Меттанаш
+about = Тхоьх лаьцна
+partner = Декъашхо
+submit-form-action = Таллам бан дӀакхачо
+
+## Reporting
+
+report = Хаамбар
+report-title = Арз дан
+report-ask = What issues are you experiencing with this sentence?
