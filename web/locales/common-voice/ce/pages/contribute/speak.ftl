@@ -77,3 +77,11 @@ read-sentences-coming-soon = Беша алам<small>Кеста</small>
 ## MENU ITEM TOOLTIPS
 
 speak-contribute-menu-tooltip = Беша Алам, Хаттаршна жоьпаш ло
+read-sentences-menu-item-tooltip = хьайн маттахь боьшу хьайн аламаш д1айазбе
+answer-questions-menu-item-tooltip = Хаттаршна а, хаамна а хьайн маттахь жоьпаш луш дӀаязде .
+
+## MENU ITEM ARIA LABELS
+
+speak-contribute-menu-aria-label = Къамелан нисдаран меню
+read-sentences-menu-item-aria-label = Тайп-тайпанчу меттанашкахь юкъаралло чубелла аламаш еша
+answer-questions-menu-item-aria-label = Керла хаттар чудаккха, юкъаралло деша а, жоп дала а .
