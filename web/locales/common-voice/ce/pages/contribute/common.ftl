@@ -81,3 +81,20 @@ shortcut-submit = Юхадерзор
 shortcut-submit-label = Клипаш чуяийта
 request-language-text = Хьайн мотт Common Voice чохь ца го хьуна хӀинца а?
 request-language-button = Мотт бехар
+
+## Listen Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = п
+shortcut-play-toggle-label = Йолайе/Сацайе
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = й
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = н
+
+## Validation criteria
+
+contribution-criteria-nav = бакъонийн дозанаш
