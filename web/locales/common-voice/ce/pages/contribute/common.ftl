@@ -26,3 +26,4 @@ record-button-label = ДIайазде хьайн аз
 share-title-new = <bold>ГIо де тхуна</bold> дуккха а аьзнаш схьакаро
 keep-track-profile = Хьайн кхиамашка хьажа хьайн профил чохь
 login-to-get-started = ДӀаволавала , чувола я дӀавазло
+target-segment-first-card = Хьо тхан хьалхарчу Ӏалашонан сегментехь дакъалоцуш ву
