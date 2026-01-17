@@ -131,3 +131,5 @@ contribution-varying-pronunciations-example-1-explanation = [‘Берет’ н
 contribution-varying-pronunciations-example-2-title = Цуьнан куьг хьалаайдира.
 contribution-varying-pronunciations-example-2-explanation = [‘Raised’ ингалсан маттахь даима а цхьа дешдакъа санна олу, шиъ ца олу].
 contribution-background-noise-title = ТӀехьара гӀовгӀа
+contribution-background-noise-description = Тхуна лаьа, машенан Ӏаморийн алгоритмаш тайп-тайпана фонан гӀовгӀанашца къийсам латто ницкъ кхочуш хила,  мелла а чӀогӀа гӀовгӀанаш тӀеэца йиш ю, нагахь санна цара ерриг а текст хаза новкъарло еш йацахь. Тийна фонан гIовгIанаш къобал еш йу; тоъал чӀогӀа гIовгIанаш, нагахь санна кхачам боллуш хӀора дош хезаш дацахь - мегар дац
+contribution-background-noise-description-extended = Нагахь санна аудио-дӀаяздар доьхна делахь, я юкъарадуьлуш делахь, юхатоха, ерриг текст хезаш яцахь.
