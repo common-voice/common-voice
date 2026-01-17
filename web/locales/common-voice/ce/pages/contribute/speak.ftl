@@ -60,3 +60,20 @@ create-profile-text = Хьайн хаам ларбан лаьий хьуна?<cr
 thanks-for-voice-toast = Дела реза хуьлда хьуна хьайн озан хаам барна .
 thanks-for-voice-toast-error = Хьан озан хаам дӀабохьуйтуш гӀалат даьлла
 first-cta-gender-select-default-option = Цхьа кеп схьахаржа
+first-cta-gender-select-help-text =
+    .label = Хьайн стен-боьршалла(пол) билгал йаккхар?
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = Дела реза хуьлда хьуна хьайн аз дӀадаларна!
+second-cta-subtitle-text = Профильца хьан аьтто бу хьайн жигаралла ларъян а, озан хаамаш дӀалуш болчу нехан юкъараллица зӀе латто а.
+already-have-an-account = Аккаунт долш дуй хьан?<login>Чувала</login>
+create-profile-button = Профил йе
+# IMAGE TAGS
+img-alt-success-checkmark = кхиаман хьаьрк
+# menu item
+read-sentences = Беша Алам
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Беша алам<small>Кеста</small>
+
+## MENU ITEM TOOLTIPS
+
+speak-contribute-menu-tooltip = Беша Алам, Хаттаршна жоьпаш ло
