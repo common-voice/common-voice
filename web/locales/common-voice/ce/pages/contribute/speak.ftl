@@ -12,5 +12,17 @@ record-no-mic-found = Микрофон ца карийна.
 record-error-too-short = аудио-дIайаздар тӀех доца дара
 record-error-too-long = аудио-дIайаздар тӀех деха дара.
 record-error-too-quiet = аудио-дIайаздар тӀех тийна ду .
+record-error-uploaded-clip-corrupted =
+    Хьан аудио дIайаздар  доьхначух тера ду. Иза хила тарло:
+    • Браузерца йоьзна ампалш (кхечу браузерах пайдаэца хьажа)
+    • Микрофонан я аудио драйверан анпалш .
+    • ДӀаязъеш интернет юкъахйалар .
+    Дехар ду юха хьажахьара .
+record-error-uploaded-clip-too-long = Хьан дӀаяздар совдаьлла { $duration } секундан ханна. Дехар ду , йоца клип дӀаязйар.
 record-cancel = Юхадаккха ТIехулйаздар
 record-instruction = тӀаккха хезаш беша алам
+record-stop-instruction = { $actionType }<stopIcon></stopIcon>Дина даьлча
+record-three-more-instruction = Дисна кхоъ
+record-again-instruction = Дукха дика ду<recordIcon></recordIcon>Хьайн рогӀера клип дӀаязъе .
+record-again-instruction2 = Саца ма де, дӀаязде кхин а<recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon>ТӀаьххьарниг!
