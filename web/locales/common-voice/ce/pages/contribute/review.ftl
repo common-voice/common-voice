@@ -54,3 +54,5 @@ report-sc-different-language-detail = Ас таллам бечу маттахь 
 sentences-fetch-error = Аламаш схьаоьцуш гӀалат даьлла
 review-error = ХӀокху аламна таллам беш гӀалат даьлла
 review-error-rate-limit-exceeded = Хьо тӀех сихавелла. дикка тидам беш хьажа аламашка, иза нийса хиларх тешна хила.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Цхьа баккхий хийцамаш беш ду вай

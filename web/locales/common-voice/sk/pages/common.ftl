@@ -63,6 +63,7 @@ byv = Medumba
 ca = Katalánčina
 cak = Kaqchikel
 cdo = Východný Min
+ce = Čečenčina
 cgg = Čiga
 cjk = Čokwe
 ckb = Centrálna kurdčina
