@@ -45,4 +45,9 @@ submit-form-action = Таллам бан дӀакхачо
 
 report = Хаамбар
 report-title = Арз дан
-report-ask = What issues are you experiencing with this sentence?
+report-ask = ХӀун хьовзам бу шун оцу аламаца?
+report-offensive-language = сийсаз къамел
+report-offensive-language-detail = Аламехь лерам боцуш я и сийсаз къамел ду.
+report-grammar-or-spelling = Грамматикан / нийсаяздаран гӀалат
+report-grammar-or-spelling-detail = Аламехь грамматкан я нийсаяздаран гӀалат ду
+report-different-language = Кхин мотт
