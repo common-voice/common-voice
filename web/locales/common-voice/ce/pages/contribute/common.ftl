@@ -103,3 +103,4 @@ contribution-criteria-page-title = Дакъалацарн бакъонаш
 contribution-criteria-page-description = Кхета, хӀун довза деза озан клипашка ладоьгӀуш, хьайн озан дӀаяздарш а тоьлла хилита!
 contribution-for-example = Масала
 contribution-misreadings-title = ГӀалат дешар
+contribution-misreadings-description = ЛадугӀуш, чӀогӀа лерина хьажа, аудио-дӀаяздинарг, нийса йозанца яздина дуй;ур-атталла кегийра гӀалаташ а юхатоха.<br />ЧӀогӀа даьржина гӀалаташ:
