@@ -56,3 +56,7 @@ review-error = ХӀокху аламна таллам беш гӀалат даь
 review-error-rate-limit-exceeded = Хьо тӀех сихавелла. дикка тидам беш хьажа аламашка, иза нийса хиларх тешна хила.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Цхьа баккхий хийцамаш беш ду вай
+sc-redirect-page-subtitle-1 = Аламаш гулбархой дӀабольху коьртачу Common Voice платформе. ХӀинца хьан йиш ю алам<writeURL>язбан</writeURL>  я <reviewURL>Талла</reviewURL>  цхьа алам Common Voice-сехь
+sc-redirect-page-subtitle-2 = Хаттарш схьадахкийта <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> я <emailLink>email</emailLink>.
+# menu item
+review-sentences = Аламашна таллам
