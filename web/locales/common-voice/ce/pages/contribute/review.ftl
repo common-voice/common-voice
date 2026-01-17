@@ -50,3 +50,7 @@ sc-review-instruction = Таллам бе <icon></icon> меттан нийса 
 sc-review-rules-title = Алам низамца богӀуш буй?
 sc-review-empty-state = карарчу ханна оцу  маттахь карлабаха аламаш бац.
 report-sc-different-language = Кхин мотт
+report-sc-different-language-detail = Ас таллам бечу маттахь а доцуш, кхечу маттахь яздина ду иза.
+sentences-fetch-error = Аламаш схьаоьцуш гӀалат даьлла
+review-error = ХӀокху аламна таллам беш гӀалат даьлла
+review-error-rate-limit-exceeded = Хьо тӀех сихавелла. дикка тидам беш хьажа аламашка, иза нийса хиларх тешна хила.
