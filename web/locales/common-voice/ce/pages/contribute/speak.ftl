@@ -13,3 +13,4 @@ record-error-too-short = аудио-дIайаздар тӀех доца дара
 record-error-too-long = аудио-дIайаздар тӀех деха дара.
 record-error-too-quiet = аудио-дIайаздар тӀех тийна ду .
 record-cancel = Юхадаккха ТIехулйаздар
+record-instruction = тӀаккха хезаш беша алам
