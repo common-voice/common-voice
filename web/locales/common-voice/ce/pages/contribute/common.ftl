@@ -98,3 +98,8 @@ shortcut-vote-no = н
 ## Validation criteria
 
 contribution-criteria-nav = бакъонийн дозанаш
+contribution-criteria-link = Дакъалацаран бакъонаш йовзар
+contribution-criteria-page-title = Дакъалацарн бакъонаш
+contribution-criteria-page-description = Кхета, хӀун довза деза озан клипашка ладоьгӀуш, хьайн озан дӀаяздарш а тоьлла хилита!
+contribution-for-example = Масала
+contribution-misreadings-title = ГӀалат дешар
