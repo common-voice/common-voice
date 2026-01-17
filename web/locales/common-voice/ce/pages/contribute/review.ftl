@@ -23,3 +23,17 @@ sc-review-form-button-skip-shortcut = S
 sc-review-form-keyboard-usage-custom = Иштта лело мегар ду цхьаьна тоьхна пиллигаш: { sc-review-form-button-approve-shortcut } ТӀеэца, { sc-review-form-button-reject-shortcut }Юхатоха,{ sc-review-form-button-skip-shortcut }ТӀехдалийта .
 sc-review-form-button-submit =
     .submitText = Таллам чекхбаккха
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] Цхьа а аламна таллам ца бина.
+        [one] 1 аламна таллам бина. Баркалла!
+       *[other] { $sentences } аламна таллам бина. Баркалла!
+    }
+sc-review-form-review-failure = Таллам ларбан аьтто ца баьлла. ТӀаьхьо юха хьажа.
+sc-review-link = Таллам бе
+
+## REVIEW CRITERIA
+
+sc-criteria-modal = Талламан йусткиртиг
