@@ -36,4 +36,9 @@ sc-review-link = Таллам бе
 
 ## REVIEW CRITERIA
 
-sc-criteria-modal = Талламан йусткиртиг
+sc-criteria-modal = ⓘ Талламан йусткиртиг
+sc-criteria-title = Талламан йусткиртиг
+sc-criteria-make-sure = Аламаш хӀокху йусткиртиган барамашца йогӀуш хиларх тешна хила:
+sc-criteria-item-1 = Алам нийсайаздарц хила беза.
+sc-criteria-item-2 = Алам граматикаца нийса хила беза.
+sc-criteria-item-3 = Алам дIабийцалуш  хила беза .
