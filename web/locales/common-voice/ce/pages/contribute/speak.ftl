@@ -34,3 +34,6 @@ record-submit-tooltip = Кийча хилча дӀайахьийта
 clips-uploaded = Клипаш чуяьхна
 record-abort-title = Цкъа  дIайаздар чякхдоккхи?
 record-abort-text = ХӀинца дӀавахар - хьан кхиамаш дӀабоьвр бу бохург ду
+record-abort-submit = Клипаш чуяхкийта
+record-abort-continue = ДIайаздар чякхдаккха
+record-abort-delete = Араваьлла, клипаш д1айаха
