@@ -143,3 +143,4 @@ contribution-background-voices-description-extended = Нагахь санна а
 contribution-background-voices-example-1-title = Триасан заманахь хилла йаккхи динозаврш. <strong>[цхьана озаца еша]</strong> .
 contribution-background-voices-example-1-explanation = Хьо вогӀуш вуй? <strong>[кхечо кхайкхина]</strong> .
 contribution-volume-title = ЧIогIалла
+contribution-volume-description = Ешархошна юкъахь аудио-д1айаздарийн чӀогӀаллин бараман хийцамаш хир бу. Юха тоха,  Нагахь санна чӀогӀаллин бараман лакхара белахь аудио-яздар юкъар дохуш, я (дукха хьолахь) ,дуьйцург хезаш доцуш лахара белахь , язйинчу текстана тӀе а тевжаш бен , дуьцарг ца къаьсташ.
