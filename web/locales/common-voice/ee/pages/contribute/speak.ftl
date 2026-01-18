@@ -18,9 +18,11 @@ record-error-uploaded-clip-corrupted =
     • Nuƒomɔ̃ alo audio driver ƒe kuxiwo
     • Network ƒe kuxiwo le wò nuƒoƒo me
     Taflatse dze agbagba nàga recordi.
+record-error-uploaded-clip-too-long = Wò recording edidi wu { $duration } sɛkɛnds. Taflatse wɔ recording kpui.
 record-cancel = Te fli ɖe re-recording ame
 record-instruction = { $actionType }<recordIcon></recordIcon>emegbe nàxlẽ nyagbea sesĩe
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> ne ewɔe vɔ
+record-three-more-instruction = Esusɔ etɔ̃ nawɔ!
 create-profile-text = Àdi be yeadzra onyatakakawo ɖoa? <createProfile>Wɔ nɔnɔmetata</createProfile><createProfile>
 thanks-for-voice-toast = Akpe na wò le wò nuƒo
 thanks-for-voice-toast-error = Vodada aɖe dzɔ le wò gbe ŋuti nyatakakawo ɖoɖo ɖa me
