@@ -12,7 +12,7 @@ prompt-bubble-subtitle = ماخ نَتو یو اشارو یا سوال نیݰا�
 respond-bubble-title = <mark>جواب دل</mark>
 respond-bubble-subtitle = نے من تو جواب چند کہ ݰوئے قدرتی ݰویا بݰ
 # text wrapped in <mark></mark> will have a blue background
-transcribe-bubble-title = <mark>نقل کن</mark>
+transcribe-bubble-title = <mark>ترے نوختا غوواؤ</mark>
 transcribe-bubble-subtitle = تو ڤؤ نوشا چیمی کو دے آواز تو غولیتیت
 # text wrapped in <mark></mark> will have a blue background
 check-bubble-title = <mark>اوژر</mark>
