@@ -38,3 +38,39 @@ vote-no = daabi
 datasets = Datasets
 languages = Wiemɔi
 about = Ehe
+partner = Hefatalɔ
+submit-form-action = Kɛya
+
+## Reporting
+
+report = Nókó he sane
+report-title = Kɛ amaniɛbɔɔ amaje
+report-ask = Mɛɛ saji okɛkpeɔ yɛ wiemɔ kuku nɛɛ he?
+report-offensive-language = Wiemɔ ni woɔ mɔ awui
+report-offensive-language-detail = Wiemɔ kuku lɛ yɛ bulɛ ni bɛ loo wiemɔ ni woɔ mɔ awui.
+report-grammar-or-spelling = Wiemɔ he mlai / wiemɔi ashishitsɔɔmɔ tɔmɔ
+report-grammar-or-spelling-detail = Wiemɔ kuku lɛ yɛ wiemɔ he mlai loo wiemɔi ashishitsɔɔmɔ mli tɔmɔ.
+report-different-language = Wiemɔi srɔtoi
+report-different-language-detail = Aŋma yɛ wiemɔ ko ni yɔɔ srɔto fe nɔ ni miwieɔ lɛ mli.
+report-difficult-pronounce = Etsɛmɔ wa
+report-difficult-pronounce-detail = Wiemɔi loo wiemɔ kukuji ni akanemɔ loo etsɛmɔ wa yɛ mli.
+report-offensive-speech = Wiemɔ ni woɔ mɔ awui
+report-offensive-speech-detail = Clip lɛ yɛ wiemɔi ni tsɔɔɔ bulɛ loo wiemɔi ni woɔ mɔ awui.
+report-other-comment =
+    .placeholder = Hetoo
+success = Ŋnkunim
+continue = Tsanɔ
+report-success = Akɛ amaniɛbɔɔ lɛ ha yɛ omanyeyeli mli
+
+## Speak & Listen Shortcuts
+
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
+
+## Speak Shortcuts
+
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
+shortcut-record-toggle-label = Ŋmalamɔ/Kpa
+shortcut-rerecord-toggle = [1-5]
