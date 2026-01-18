@@ -460,6 +460,12 @@ email-opt-in-info-sub-with-challenge = соьга схьахкачор е-мей
 email-opt-in-privacy-v2 = Почта схьаэца реза хиларца, хьо реза ву Mozilla-с хӀара хаам лелорна, Mozilla-н <privacyLink>Къайленан политика</privacyLink> тӀехь ма-аллара.
 indicates-required = Седанца(*) билгалйаьккхи меттиг хьала юзна хила еза
 not-available-abbreviation = N/A
+# Text shown on a button that can be clicked to copy text to the clipboard
+copy = Эвсарт
+# Text shown on a button that can be clicked to cancel an action
+cancel = Юхадаккхар
+# Text shown on a button that can be clicked to delete an item
+delete = ДIайаккха
 
 ## Donate banner
 
@@ -472,3 +478,19 @@ languages-donate-banner-cta = <mark>Хьайн талламна</mark><br/><mark
 languages-donate-banner-cta-explanation = Common Voice ахчанца а, гранташца а дӀахьош ю! Тхуна хазахеташ ду Ӏилманчашца а, къаьмнийн юкъараллица а, индустрин талламхошца а цхьаьнаболхбар. Common Voice лело маьрша ю, амма платформина а, хостингана а сагӀа даккхаро баккъалла а гӀо дан мега.
 localization-select =
     .label = Мотт/локализаци харжа
+
+## MDC Announcement
+
+# Main text for MDC announcement. Text wrapped in <strong></strong> will be rendered with bold font
+announcement-mdc-text = Керла Common Voice хаамийн гуларш хӀинца дӀаэца йиш ю еккъа цхьана тхан гергарчу платформехула, Mozilla Data Collective. ДӀакхета 300 сов дуьненаюкъарчу хаамийн гуларшка кхача, юкъаралло кхоьллина а, цунна лерина а.
+# Button text for MDC announcement
+announcement-mdc-button-text = ДIакхета Mozilla Data Collective-х
+# Aria text for button which opens MDC on a new page
+announcement-mdc-button-aria-text = Керлачу юкъадилларехь схьайоьллу .
+
+## Common Language/Dataset Selector & SearchBox Related
+
+# Generic search box defaults
+searchbox-default-label = ДӀадоладе яздар лехам бан
+searchbox-default-placeholder = Лехам...
+searchbox-default-aria-label = Лехам
