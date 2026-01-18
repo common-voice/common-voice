@@ -286,6 +286,7 @@ pap-AW = Папиаменто(Аруба)
 pcd = Пикардийн
 pcm = Нигерийн Пигинийн Ингалс
 phl = Палула
+phr = Пахарти-Потвари
 pl = Польшан
 plk = Кохистани Шина
 ps = Пашто
@@ -412,3 +413,12 @@ email-input =
 loading = ТIейалар
 email-opt-in-info = Суна лаьара Ӏалашонаш дагайоуьйтуш, кхиамаш бахарх лаьцна хаамаш, Юкъара озах лаьцна керланаш санна йолу е-мейлаш  сайга кхача.
 email-opt-in-info-title = Common Voice почтан тептаре дӀакхета
+email-opt-in-info-sub-with-challenge = соьга схьахкачор е-мейлаш санна къовсаме кхайкхамах, Ӏалашонаш дагайоуьйту, кхиамех лаьцна хаамаш, Common Voice-ах лаьцна керланаш.
+email-opt-in-privacy-v2 = Почта схьаэца реза хиларца, хьо реза ву Mozilla-с хӀара хаам лелорна, Mozilla-н <privacyLink>Къайленан политика</privacyLink> тӀехь ма-аллара.
+indicates-required = Седанца(*) билгалйаьккхи меттиг хьала юзна хила еза
+not-available-abbreviation = N/A
+
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = <mark>Тхуна оьшу</mark><br/><mark>хьоьгара гIо!</mark>
