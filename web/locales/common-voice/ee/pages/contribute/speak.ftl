@@ -40,6 +40,16 @@ record-abort-delete = Do go le klipiwo ame eye nàtutu wo ɖa
 review-aborted = Eɖe asi le upload ŋu. Ðe nèdi be yeatutu yeƒe recording woa?
 review-submit-title = To eme & Tsɔe ɖo ɖa
 review-submit-msg = Akpe na wò ɖe wò  recording ta!<lineBreak></lineBreak>Azɔ lé ŋku ɖe wò  klipiwo ŋu eye nàɖo wo ɖe ete.
+review-recording = Dzro eme
+review-rerecord = Re-record
+review-cancel = Te fli ɖe edɔa me
+review-keep-recordings = Dzra nya siwo wolé ɖe mɔ̃ dzi la ɖo
+review-delete-recordings = Tutu nye recording
+review-terms = Ne èzã Common Voice la, efia be èlɔ̃ ɖe míaƒe <termsLink>Terms</termsLink> kple <privacyLink>Privacy Notice</privacyLink>
+terms-agree = Melɔ̃ ɖe edzi
+terms-disagree = Nyemelɔ̃ ɖe edzi o
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Akpe be mietsɔ miaƒe voice clips na mi!
 create-profile-text = Àdi be yeadzra onyatakakawo ɖoa? <createProfile>Wɔ nɔnɔmetata</createProfile><createProfile>
 thanks-for-voice-toast = Akpe na wò le wò nuƒo
 thanks-for-voice-toast-error = Vodada aɖe dzɔ le wò gbe ŋuti nyatakakawo ɖoɖo ɖa me
