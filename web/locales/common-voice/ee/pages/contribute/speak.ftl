@@ -12,9 +12,15 @@ record-no-mic-found = Womekpɔ nuƒomɔ̃ aɖeke o.
 record-error-too-short = Nuƒoƒo si wolé ɖe mɔ̃ dzi la nɔ kpuie akpa.
 record-error-too-long = Nuƒoƒo si wolé ɖe mɔ̃ dzi la didi akpa.
 record-error-too-quiet = Nuƒoƒo si wolé ɖe mɔ̃ dzi la nɔ anyi kpoo akpa.
-record-error-uploaded-clip-corrupted = Edze abe wò odio la gblẽ. Esia ate ŋu adzɔ le:
+record-error-uploaded-clip-corrupted =
+    Edze abe wò odio la gblẽ. Esia ate ŋu adzɔ le:
+    • Nya siwo ku ɖe web-browser ƒe ɖekawɔwɔ ŋu (te kpɔ nàzã browser bubu) .
+    • Nuƒomɔ̃ alo audio driver ƒe kuxiwo
+    • Network ƒe kuxiwo le wò nuƒoƒo me
+    Taflatse dze agbagba nàga recordi.
 record-cancel = Te fli ɖe re-recording ame
 record-instruction = { $actionType }<recordIcon></recordIcon>emegbe nàxlẽ nyagbea sesĩe
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> ne ewɔe vɔ
 create-profile-text = Àdi be yeadzra onyatakakawo ɖoa? <createProfile>Wɔ nɔnɔmetata</createProfile><createProfile>
 thanks-for-voice-toast = Akpe na wò le wò nuƒo
 thanks-for-voice-toast-error = Vodada aɖe dzɔ le wò gbe ŋuti nyatakakawo ɖoɖo ɖa me
