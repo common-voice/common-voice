@@ -11,3 +11,12 @@ how-does-it-work-text = Оха дӀахӀоттош ду краудсорсин�
 
 about-language-req-subtitle = Цхьаммо мотт тӀетоха боху.
 about-localization-title = Вебсайтан локализаци
+about-localization-subtitle = Сайтан текст цу матте гочйина ю.
+about-sentence-collection-title = Алам гулбар .
+about-sentence-collection-subtitle = Аламаш гулбина нахана хезаш беша
+about-new-lang-title = Керла мотт дӀаболор
+about-new-lang-subtitle = Оцу маттахь дӀайолош ю оха Common Voice сайт.
+about-voice-contrib-title = Озаца дакъа лацар
+about-voice-contrib-subtitle = Нах схьа  богӀу, шайн аьзнашца дакъалаца.
+about-voice-validation-title = Аьзнаш тIечIагIдар
+about-voice-validation-subtitle = Кхечу наха толлу и озан дӀаяздарш.
