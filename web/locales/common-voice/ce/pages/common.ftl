@@ -283,18 +283,23 @@ os = ХIирийн
 pa-IN = Панджаби
 pap = Папиаменто
 pap-AW = Папиаменто(Аруба)
+pau = Палауан
 pcd = Пикардийн
 pcm = Нигерийн Пигинийн Ингалс
+pez = Малхбузан Пенан
 phl = Палула
 phr = Пахарти-Потвари
 pl = Польшан
 plk = Кохистани Шина
+prq = Ашенинка Перени
 ps = Пашто
 pt = Португалан
 pua = МАлхбузан Лекхалаттан Пурепача
 pwn = Пайван
 quc = Киче
+qug = Квичуа Чимборазо хайленд
 qup = Соутерн Пастаза Квечуа
+qur = Квичуа Йанахуанца
 qux = Квечуа Йавйос
 quy = Квечуа Чанка
 qva = Квечуа Амба-Паско
@@ -351,8 +356,12 @@ tig = Тигре
 tk = Туркменийн
 tl = Тагалог
 tn = Сетсван
+tob = Тоба ком
 tok = Токипона
+top = Папантла Тотонак
 tr = Тюркийн
+trv = Сидик
+trw = Торвали
 ts = Цонга
 tt = Татарийн
 tui = Тупури
@@ -422,3 +431,10 @@ not-available-abbreviation = N/A
 
 # Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>Тхуна оьшу</mark><br/><mark>хьоьгара гIо!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = 100 сов меттан юкъараллашна лерина хаамийн гулараш дӀахӀитторна а, платформа тоярна а шарахь гергга миллион доллар ахча дойъу. <strong>Нагахь санна ахь схьабялламан лаккхара мах хада бахь, тахана сагӀа даккха аьтто бу хьан!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Хьайн талламна</mark><br/><mark>CV лелош вуй хьо?</mark>
+languages-donate-banner-cta-explanation = Common Voice ахчанца а, гранташца а дӀахьош ю! Тхуна хазахеташ ду Ӏилманчашца а, къаьмнийн юкъараллица а, индустрин талламхошца а цхьаьнаболхбар. Common Voice лело маьрша ю, амма платформина а, хостингана а сагӀа даккхаро баккъалла а гӀо дан мега.
+localization-select =
+    .label = Мотт/локализаци харжа
