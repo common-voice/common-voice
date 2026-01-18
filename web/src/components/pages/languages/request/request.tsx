@@ -51,7 +51,9 @@ const LanguagesRequestFormPage = () => {
   const [scriptedSpeechToggled, setScriptedSpeechToggled] = useState(false)
   const [spontaneousSpeechToggled, setSpontaneousSpeechToggled] =
     useState(false)
-  // const [languages, setLanguages] = useState(undefined)
+  const [scriptedSpeechToggleDisabled, setScriptedSpeechToggleDisabled] = useState(false)
+  const [spontaneousSpeechToggleDisabled, setSpontaneousSpeechToggleDisabled] =
+    useState(false)
   const [language, setLanguage] = useState(undefined)
   const [languagesFiltered, setLanguagesFiltered] = useState(undefined)
   const [query, setQuery] = useState('')
@@ -82,14 +84,18 @@ const LanguagesRequestFormPage = () => {
 
   const isContributable = (locale: string) => {
     return contributableLocales.includes(locale)
-    }
+  }
   
+  const isTranslated = (locale: string) => {
+    return availableLocales.includes(locale)
+  }
+
   const hasSpontaneousSpeech = (locale: string) => {
     return spontaneousSpeechLocales.includes(locale)
   }
 
   const submitAvailable = (locale: string) => {
-    if (!isContributable(locale) || !hasSpontaneousSpeech(locale)) {
+    if (!languages.includes(locale) || !hasSpontaneousSpeech(locale)) {
       return true
     }
     return false
@@ -238,9 +244,9 @@ const LanguagesRequestFormPage = () => {
                 handleQueryKeyDown={handleQueryKeyDown}
                 toggleSearch={toggleSearch}
             />
-            <span className="dropdown_menu">
-            {query !== '' &&
-              languagesFiltered?.map((locale: string) => (
+            
+            {(query !== '' && languagesFiltered.length !== 0) ? <span className="dropdown_menu">
+              {languagesFiltered?.map((locale: string) => (
                 <div className="dropdown_item_container"
                   key={locale}
                 >
@@ -250,66 +256,68 @@ const LanguagesRequestFormPage = () => {
                     onClick={() => {
                       setLanguage(locale); 
                       setQuery(englishNames[locale]); 
-                      setLanguagesFiltered([locale])
+                      setLanguagesFiltered([locale]);
+                      if(!languages.includes(locale)) {
+                        setScriptedSpeechToggled(true)
+                      } else {setScriptedSpeechToggleDisabled(true)}
+                      if(!hasSpontaneousSpeech(locale)) {
+                        setSpontaneousSpeechToggled(true)
+                      } else {setSpontaneousSpeechToggleDisabled(true)}
                     }}
                   >
                     {englishNames[locale]}
-                    {language && language === locale && (
+                    {/* {language && language === locale && (
                       <span className="styled_check"/>
-                    )}
+                    )} */}
                   </span>
                 </div>
               ))}
-            </span>
+              </span> : <div />
+            }
+            
             <p />
             {language ? (
-              !submitAvailable(language) ? 
+              <div>
+              {isContributable(language) ? 
                 (
-                  <div id="search-result">
                     <Localized id="request-language-found-cv-contribution"
                       elems={{
-                        speakPageLink: <StyledLink to={`https://commonvoice.mozilla.org/${language}/speak`} />,
+                        homePageLink: <StyledLink href={`https://commonvoice.mozilla.org/${language}`} />,
+                        strong: <strong />
                       }}>
+                      <p/>
                     </Localized>
-                  <text> You can contribute </text>
-                  <a href={`https://commonvoice.mozilla.org/${language}/speak`}>
-                    here
-                   </a>
-                  </div>
-                ) :
+                ) : isTranslated(language) ? 
+                    <Localized id="request-language-found-cv-sentences-lack"
+                      elems={{
+                        sentencesContributionLink: <StyledLink href={`https://commonvoice.mozilla.org/${language}/write`} />,
+                        strong: <strong />
+                      }}>
+                      <p/>
+                    </Localized>
+                    :
+                    <Localized id="request-language-found-pontoon-not-launched"
+                      elems={{
+                        pontoonLink: <StyledLink href={`https://pontoon.mozilla.org/${language}/common-voice/`} />,
+                        strong: <strong />
+                      }}>
+                      <p/>
+                    </Localized>
+              }
+              {hasSpontaneousSpeech(language) ? 
                 (
-                    <div>
-                      <Localized id="request-language-found-pontoon-not-launched"
-                        elems={{
-                          pontoonLink: <StyledLink to={`https://pontoon.mozilla.org/${language}/common-voice/`} />,
-                        }}>
-                      </Localized>
-                    <text>You can facilitate the language launch </text>
-                      <a id="search-result-link-pontoon" href={`https://pontoon.mozilla.org/${language}/common-voice/`}>
-                        here
-                      </a>
-                      <text> by localizing the platform</text>
-                      {availableLocales[language] ? (
-                        <div>
-                          <Localized id="request-language-found-cv-sentences-lack"
-                            elems={{
-                              sentencesContributionLink: <StyledLink to={`https://commonvoice.mozilla.org/${language}/write`} />,
-                            }}>
-                          </Localized>
-                          <br />
-                          and
-                          <br />
-                          <a id="search-result-link-sentences" href={`https://commonvoice.mozilla.org/${language}/write`}>
-                            here by contributing sentences
-                          </a>
-                        </div>
-                        ) : null
-                      }
-                    </div>
-                )
-              ) : <div/>
-            }
-
+                  <Localized id="request-language-found-spontaneous-speech"
+                  elems={{
+                        spontaneousSpeechLink: <StyledLink href={"https://commonvoice.mozilla.org/spontaneous-speech/beta/prompts"} />,
+                        strong: <strong />
+                    }}>
+                    <p/>
+                  </Localized>
+                ) : <div/>
+              }
+              </div>
+            ) : <div/>}
+          <p/>
           {(query !== '' && (languagesFiltered.length == 0 || (language && submitAvailable(language))) ? (
             <span>
               <p className="languages-request-page__content__form__required">
@@ -330,12 +338,14 @@ const LanguagesRequestFormPage = () => {
                   label="request-for-scripted-speech-toggle"
                   checked={scriptedSpeechToggled}
                   onToggle={setScriptedSpeechToggled}
+                  disabled={scriptedSpeechToggleDisabled}
                 />
                 <div className="hr" />
                 <Toggle
                   label="request-for-spontaneous-speech-toggle"
                   checked={spontaneousSpeechToggled}
                   onToggle={setSpontaneousSpeechToggled}
+                  disabled={spontaneousSpeechToggleDisabled}
                 />
                 <div className="hr" />
                 <ExpandableInformation summaryLocalizedId="need-help-deciding-platform">

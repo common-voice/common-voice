@@ -114,6 +114,7 @@
 
 .languages-request-page__content__form__required {
     font-size: 0.85em;
+    margin-top: 15px;
 }
 
 .languages-request-page__content__form__text-area textarea {
@@ -125,11 +126,20 @@
 
 .dropdown_menu {
   list-style: none;
+  display: flex;
+  flex-direction: column;
+  max-height: 200px;
+  align-items: flex-start;
   padding: 0;
-  height: 210px;
-  overflow-y: auto;
-  margin-block-end: 0;
+  overflow-y: scroll;
+  margin-block-end: 15px;
+  background: var(--white);
+  border: 1px solid var(--black);
+  color: var(--black);
 
+  /* @media (--xl-up) {
+        justify-content: space-around;
+    } */
 }
 
 .dropdown_item_container {
@@ -138,9 +148,13 @@
   cursor: pointer;
   border-bottom: 1px solid grey;
   background: lighterGrey;
+  width: 100%;
 
   &:hover {
     background: grey;
+  }
+  &:last-child {
+    border-bottom: none;
   }
 }
 
@@ -151,7 +165,6 @@
   cursor: pointer;
   letter-spacing: 0.8px;
   line-height: 24px;
-  overflow-x: hidden;
   padding: 0.85em 1em;
   text-overflow: ellipsis;
   text-transform: capitalize;
