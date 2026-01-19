@@ -2,7 +2,7 @@
 
 contact-title = Formulir Kontak
 contact-form-name =
-    .label = Ngaran
+    .label = Nami
 contact-form-message =
-    .label = Pesen.
-contact-required = *diperlukeun
+    .label = Pesen
+contact-required = *kedah dieusian

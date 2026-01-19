@@ -10,7 +10,7 @@ how-does-it-work-text = Arurang nuju ngumpulkeun dataset sora sumber-terbuka nga
 ## How does it work section
 
 about-language-req-subtitle = Aya nu ménta kanggo hiji basa ditambahkeun.
-about-localization-title = Lokalisasi Situs.
+about-localization-title = Lokalisasi Situs
 about-localization-subtitle = Téks situsna ditarjamahkeun kana basa éta.
 about-sentence-collection-title = Kumpulan Kalimah
 about-sentence-collection-subtitle = Kalimah-kalimah dikumpulkeun pikeun dibacakeun tarik ku jalma-jalma.

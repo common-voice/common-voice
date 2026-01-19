@@ -169,5 +169,11 @@ press-and-stories-link = Warta jeung carita
 partner-section-title = Janten mitra
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-tech-companies = <bold>Pausahaan teknologi</bold> - investasi dina nyiptakeun kumpulan data kabuka kanggo ekosistem AI multibasa nu nuju rame
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Masyarakat sipil sareng panalungtik</bold> - nyiptakeun, ngayakeun, sareng ngabagikeun kumpulan data anu mangpaat sacara bebas
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Filantropi</bold> - nyeponsoran nyiptakeun kumpulan data kanggo ngadorong inovasi sareng pawangunan lokal
+# icon is an arrow that points to the right
+get-in-touch-button = Kontak <icon></icon>
 # Partners section
 our-partners-include = Nu tos lebet janten mitra diantarana
