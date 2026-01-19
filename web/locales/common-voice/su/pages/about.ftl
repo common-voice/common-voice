@@ -119,6 +119,7 @@ about-playbook-how-grow-language-content-1 = Nyiptakeun kasempetan ka leuwih seu
 about-playbook-how-grow-language-content-2 = Acara
 about-playbook-how-grow-language-content-3 = Anjeun tiasa ngayakeun acara pikeun ngabantosan jalma-jalma nyumbang. Éta langkung gampil tibatan anu anjeun pikirkeun. Anjeun tiasa ngalakukeunana sacara online nganggo alat konperénsi vidéo, atanapi sacara langsung upami aman. <eventTemplate>Pariksa témplat sareng sumber daya kami pikeun ngayakeun acara</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Média sosial
+about-playbook-how-grow-language-content-5 = Anjeun tiasa nganggo platform medsos pikeun nepikeun pesen. Bagikeun postingan anu ngajelaskeun kunaon eta penting, sareng kontak sareng nu sanes nu ngarabahas masalah sapertos hak basa, soanten AI, atanapi bias dina teknologi. Mangga cek nasehat nu sanesna perkawis <campaignLink>ngajalankeun kampanye sosial, kalebet konten anu anjeun tiasa anggo</campaignLink>.
 about-playbook-how-grow-language-content-6 = Kamitraan sareng jaringan
 about-playbook-how-grow-language-content-7 = Pilari batur anu paduli. Éta tiasa waé universitas, sakola basa, kelompok advokasi atanapi komunitas élmu data. Hubungi sareng jelaskeun kumaha aranjeunna tiasa ngabantosan sareng kunaon. <outreachTemplates>Tingali email penjangkauan citakan arurang</outreachTemplates>.
 about-playbook-how-grow-language-content-8 = <strong>Sing kreatif!</strong> Komunitas basa anjeun bakal unik, sareng ieu ngan ukur sababaraha cara pikeun ngamimitian.

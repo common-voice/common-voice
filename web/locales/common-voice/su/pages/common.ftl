@@ -63,6 +63,7 @@ byv = Medumba
 ca = Catalan
 cak = Kaqchikel
 cdo = Eastern Min
+ce = Chechnya
 cgg = Chiga
 cjk = Chokwe
 ckb = Central Kurdish
