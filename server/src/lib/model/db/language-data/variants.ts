@@ -609,4 +609,14 @@ export const VARIANTS: Variant[] = [
     variant_name: 'اچومی',
     variant_token: 'lrl-achomi',
   },
+  {
+    locale_name: 'ms',
+    variant_name: 'Dialek Standard',
+    variant_token: 'ms-standard',
+  },
+  {
+    locale_name: 'ms',
+    variant_name: 'Dialek Lain',
+    variant_token: 'ms-dialect',
+  },
 ]
