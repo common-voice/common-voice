@@ -63,6 +63,7 @@ byv = Medumba
 ca = Katalan
 cak = Kaqchikel
 cdo = Min Wetan
+ce = Chechnya
 cgg = Chiga
 cjk = Chokwe
 ckb = Kurdi Tengah
