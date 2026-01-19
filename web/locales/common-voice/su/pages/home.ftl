@@ -116,14 +116,17 @@ answer = Waler
 
 ## Community section
 
+community-section-title-202601 = Didukung ku komunitas global, kanggo komunitas global — 290 basa kalawan teras naek!
 join-discord-community = Gabung ka Komunitas Discord
 # label for button
 join-discord-community-action = Gabung di Discord
+join-discord-community-content = Ilubiung dina diskusi komunitas basa, pataros tumaros, sareng uninga perkawis acara sareng ceramah nu kapayun.
 find-us-on-matrix = Tepangan di Matrix
 # label for button
 find-us-on-element-action-1 = Unsur
 find-us-on-matrix-action-2 = Klien sanes
 ask-mozilla-share = Nyuhunkeun Mozilla supados ngabagikeun acara anjeun
+ask-mozilla-share-content = Gaduh acara kapungkur atanapi kapayun? Bagikeun supados tiasa di umumkeun ka komunitas atanapi nyerat blog perkawis eta!
 # label for button
 ask-mozilla-share-action = Bagikeun acara anjeun
 download-contribution-certificate = Unduh sertipikat kontribusi anjeun
