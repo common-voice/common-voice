@@ -122,6 +122,7 @@ join-discord-community = Gabung ka Komunitas Discord
 join-discord-community-action = Gabung di Discord
 join-discord-community-content = Ilubiung dina diskusi komunitas basa, pataros tumaros, sareng uninga perkawis acara sareng ceramah nu kapayun.
 find-us-on-matrix = Tepangan di Matrix
+find-us-on-matrix-content-v2 = Matrix teh nyaeta protokol anu kabuka tur hampang pikeun komunikasi desentralisasi, real-time, sareng platform diskusi kabuka tur hade nu dipilih  ku Mozilla. Tepangan kami di "common-voice:mozilla.org".
 # label for button
 find-us-on-element-action-1 = Unsur
 find-us-on-matrix-action-2 = Klien sanes
@@ -130,9 +131,11 @@ ask-mozilla-share-content = Gaduh acara kapungkur atanapi kapayun? Bagikeun supa
 # label for button
 ask-mozilla-share-action = Bagikeun acara anjeun
 download-contribution-certificate = Unduh sertipikat kontribusi anjeun
+download-contribution-certificate-content = Unduh sertipikat kanggo acara anjeun atanapi kanggo diri anjeun upami parantos konstribusi ka Common Voice — ieu teh moal kanjantenan upami teu aya anjeun!
 # label for button
 download-contribution-certificate-action = Candak sertipikat
 contribute-github = Kontribusi dina Github
+contribute-github-content = Proyek ieu moal ngawujud pami teu aya jalmi-jalmi sapertos anjeun. 🎉 Aya seueur cara kanggo ngiringan Common Voice - kanggo ngawitan kontribusi, anjeun teu kedah tiasa mogram tanapi ngoding!
 # label for button
 contribute-github-action = Kontribusi dina Github
 
@@ -163,5 +166,8 @@ press-and-stories-link = Warta jeung carita
 
 ## Partner section
 
+partner-section-title = Janten mitra
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Pausahaan teknologi</bold> - investasi dina nyiptakeun kumpulan data kabuka kanggo ekosistem AI multibasa nu nuju rame
 # Partners section
 our-partners-include = Nu tos lebet janten mitra diantarana
