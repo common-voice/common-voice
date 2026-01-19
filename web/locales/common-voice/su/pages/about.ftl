@@ -73,7 +73,7 @@ about-playbook-how-add-language-content-1 =
     Upami teu acan, anjeun tiasa <languageRequestLink>nyungkeun ngeunaan nambihan basa anjeun</languageRequestLink>.
     Aya dua tahapan. Narjamahkeun situs, sareng ngumpulkeun kalimah
 about-playbook-how-add-language-translating-heading = Narjamahkeun situs
-about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Tonton pituduh arurang ngeunaan cara ngagunakeun Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Tonton pituduh perkawis cara ngagunakeun Pontoon.</translateVideoLink>
 about-playbook-how-add-language-translating-content-2 =
     Kami nganggo alat Mozilla anu disebut <pontoonLink>Pontoon</pontoonLink> pikeun tarjamahan. Pontoon ngagaduhan seueur basa,
     tapi upami teu aya basa anjeun, anjeun tiasa <pontoonRequestLink>nyuhunkeun basa anjeun ditambahkeun</pontoonRequestLink>.

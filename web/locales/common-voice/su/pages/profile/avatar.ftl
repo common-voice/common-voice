@@ -7,4 +7,4 @@ gravatar_not_found = Teu aya gravatar anu kapanggih kanggo email anjeun
 file_too_large = File anu dipilih ageung teuing
 avatar-uploaded = Avatar tos ka unggah
 max-file-size = { $kb }kb maks
-remove-avatar = Hapus Avatar
+remove-avatar = Piceun Avatar

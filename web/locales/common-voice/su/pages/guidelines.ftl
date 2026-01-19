@@ -264,7 +264,7 @@ code-switching-review-no-3 = Patarosan anu tiasa nyababkeun batur ngabagikeun r�
 # Answering a Question
 code-switching-answer-subheader = Waler Patarosan
 code-switching-answer-intro = Nalika ngawaler patarosan, tujuanana nyaéta pikeun ngawaler sacara alami - sapertos anu anjeun lakukeun dina paguneman kahirupan nyata. Kami hoyong néwak kumaha basa-basa sabenerna nyampur dina ucapan sapopoe.
-code-switching-answer-bullet-1 = Pikirkeun hiji waktu atanapi kaayaan kahirupan nyata: guyonan, argumen, tradisi
+code-switching-answer-bullet-1 = Coni pikirkeun hiji waktos atanapi kaayaan kahirupan nyata: ngabodor, argumen, tradisi
 code-switching-answer-bullet-2 = Bayangkeun anjeun nuju ngirim pesen téks ka babaturan atanapi nyaritakeun hiji carita ka batur
 code-switching-answer-bullet-3 = Anggo kecap-kecap anu saleresna bakal dianggo, sanaos diinjeum atanapi dicampur
 code-switching-answer-bullet-4 = Teu aya cara anu "sampurna" pikeun ngajawab
@@ -333,7 +333,7 @@ code-switching-punctuation-tagging-explanation-example-2 = <ungu>tapi</ungu> <bi
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = Ati - ati ku kecap anu sarupa
 code-switching-lookalikes-explanation = Sababaraha kecap bakal siga hiji basa tapi dianggo dina basa anu sanés. Tag dumasar kana harti sareng panggunaan, sanés penampilan. Conto:
-code-switching-lookalikes-explanation-example-1 = "Footing" baheula hartina lumpat dina basa Spanyol > Tandaan salaku basa Spanyol
+code-switching-lookalikes-explanation-example-1 = "Footing" hartina lumpat dina basa Spanyol > Tandaan salaku basa Spanyol
 code-switching-lookalikes-explanation-example-2 = "No problemo" dianggo dina basa Inggris > tag salaku basa Inggris
 # When Not to Tag Words
 code-switching-not-tag-header = Nalika teu aya kecap nu ditandaan
