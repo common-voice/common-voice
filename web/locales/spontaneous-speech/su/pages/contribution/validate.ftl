@@ -6,7 +6,7 @@ accept-vote-toast-message = Patarosan parantos ditarima
 reject-vote-toast-message = Patarosan parantos ditolak
 add-vote-error-message = Aya kasalahan nalika milih paréntah
 # Message which appears when there are no more resources on this page
-no-questions-continue-skipped-message = Teu aya deui patarosan kanggo basa ieu. Upami anjeun atos seueur ngalangkungan, anjeun tiasa neraskeun bari ngaliwatan eusi atanapi tiasa ka transkripsi audio teras dicobian deui engke
+no-questions-continue-skipped-message = Teu aya deui patarosan kanggo basa ieu. Upami anjeun atos seueur ngalangkungan, anjeun tiasa neraskeun ka konten anu dilangkung atanapi tiasa ka transkripsi audio teras engke dicobian deui.
 validate-page-yes-button-shortcut = Y
 validate-page-no-button-shortcut = N
 validate-page-skip-button-shortcut = S
