@@ -226,6 +226,7 @@ code-switching-adding-question-note = Anjeun ogé panginten hoyong mertimbangkeu
 code-switching-types-subheader = Patarosan naon waé anu kedah ditambahkeun?
 code-switching-use-bilingual-prompts-header = Anggo Pituduh Dwibasa
 code-switching-use-bilingual-prompts-explanation = Anggo pituduh bilingual anu ngagabungkeun dua basa dina patarosan anjeun: Conto:
+code-switching-use-bilingual-prompts-explanation-example = "Naon nu dicarioskeun ku ibu anjeun, waktos anjeun dugi ka bumi dinten eta?"
 code-switching-ask-bilingual-contexts-header = Tanya Ngeunaan Kontéks Dwibasa
 code-switching-ask-bilingual-contexts-explanation = Anggo kaayaan dimana dua basa éta umumna dianggo (contona, di bumi, di sakola, di acara komunitas). Conto:
 code-switching-ask-bilingual-contexts-explanation-example = "Nalika anjeun ngobrol sareng dulur-dulur anjeun, naha anjeun nyampur basa Spanyol sareng Inggris?"
