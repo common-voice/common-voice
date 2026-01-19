@@ -60,7 +60,7 @@ skip-submission-note = Catetan: Anjeun tetep kedah milih antara Nyarios atanapi 
 off = Pareum
 on = Hurung
 help-accent = Butuh bantuan pikeun logatna?
-help-accent-explanation = ,Logat anjeun nyaéta cara anjeun ngucapkeun kecap-kecap. Éta tiasa dibentuk ku tempat anjeun cicing, basa sanés anu anjeun ucapkeun sareng seueur faktor sanésna. Anjeun tiasa ngabagi inpormasi naon waé anu anjeun raoskeun relevan di dieu.
+help-accent-explanation = Logat anjeun nyaeta cara anjeun ngucapkeun kecap-kecap. Eta tiasa dipangaruhan ku tempat anjeun cicing, basa sanes anu anjeun ucapkeun sareng seueur faktor sanesna. Anjeun tiasa ngabagi informasi naon wae anu anjeun raoskeun relevan di dieu.
 help-variants = Butuh bantosan ngeunaan varian?
 help-variants-explanation = Varian nyaéta wangun basa anu spésifik - contona anu dipaké babarengan ku jalma-jalma anu cicing di hiji géografi atawa komunitas. Kadang-kadang ieu disebut dialek.
 help-sex-or-gender-changes = Butuh bantosan pikeun parobahan Jenis Kelamin atanapi Gender?
@@ -108,7 +108,7 @@ max-api-keys-reached = Ngaleuwihan wates kredensial API 10
 duplicate-api-key-name-error = Ngaran konci API duplikat
 # Genders
 male_masculine = Lalaki/Maskulin
-female_feminine = Awéwé/Feminin
+female_feminine = Awewe/Istri
 intersex = Interseks
 transgender = Transgender
 non-binary = Non-binér

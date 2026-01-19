@@ -21,7 +21,7 @@ submit-all-button = Kintunkeun Sadayana
 
 ## Explainer text (Respond to Prompt)
 
-learn-how-to-use-prompts = Diajar ngagunakeun kaca ieu
+learn-how-to-use-prompts = Diajar ngagunakeun halaman ieu
 learn-how-to-use-prompts-explanation = Kantun respon parentah sacaa alami sa tiasa na anjeun ku kecap dina sababaraha kalimat. Pastikeun basa anjeun hormat sareng teu nyinggung
 learn-how-to-use-prompts-guidance = Klik <guidanceLink>di dieu</guidanceLink> pikeun diajar kumaha ngagunakeun kaca ieu
 learn-how-to-use-transcribe = Diajar kumaha cara ngatranskripsikeun
