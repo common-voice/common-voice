@@ -20,6 +20,7 @@
  * clips table:
  * - bucket: Originally for train/dev/test split, not used in current code
  *   Dataset generation uses CorporaCreator for bucketing
+ * - needs_votes: Cache column added but never used (migration 20180528105532)
  */
 
 export const up = async function (db: any): Promise<any> {
@@ -30,6 +31,7 @@ export const up = async function (db: any): Promise<any> {
     await db.runSql(`DROP INDEX sso_id ON user_clients;`)
     await db.runSql(`DROP INDEX source ON sentences;`)
     await db.runSql(`DROP INDEX source_idx ON sentences;`)
+    await db.runSql(`DROP INDEX needs_votes_idx ON clips;`)
 
     // Drop deprecated columns from user_clients (data already migrated)
     await db.runSql(`
@@ -48,10 +50,11 @@ export const up = async function (db: any): Promise<any> {
         DROP COLUMN source_old;
     `)
 
-    // Drop unused bucket column from clips
+    // Drop unused bucket and needs_votes columns from clips
     await db.runSql(`
       ALTER TABLE clips
-        DROP COLUMN bucket;
+        DROP COLUMN bucket,
+        DROP COLUMN needs_votes;
     `)
 
     // Commit transaction
