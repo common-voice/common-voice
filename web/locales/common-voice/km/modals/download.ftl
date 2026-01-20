@@ -5,5 +5,5 @@ download-helpus = ជួយយើងបង្កើតសហគមន៍ជុ�
 download-form-email =
     .label = បញ្ចូល​អ៊ីមែល​របស់​អ្នក
     .value = សូមអរគុណ យើងនឹងទាក់ទងទៅ។
-download-back = ត្រឡប់ទៅសំណុំទិន្នន័យសំឡេងទូទៅ
+download-back = ត្រឡប់ទៅសំណុំទិន្នន័យ Common Voice
 download-no = ទេ សូម​អរគុណ
