@@ -46,4 +46,5 @@ about-get-involved-text-2 =
     Сайтаца йолу анпалш хилча, хаам бе  <githubLink>GitHub</githubLink>  я дӀакхета
     <матрицаСсылка>Матрица</матрицаСсылка> юкъараллин чате.
 about-stay-in-touch = Муха латта веза зӀенехь?
-about-stay-in-touch-button = дIайазвалар
+about-stay-in-touch-button = дIаязло
+about-stay-in-touch-text-1 = <emailFragment>ДӀаязло</emailFragment> тхан почтан тептаре, хьайна муха дакъалаца мегар ду хаа  Common Voice-сан кампанешкахь, хиламашкахь, цхьаьна дизайн еш йолчу функцишкахь .
