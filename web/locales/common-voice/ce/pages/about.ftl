@@ -38,3 +38,5 @@ about-no-votes-text = Декъашхочо озан клип юхатоьхча 
 about-dataset-new = Common Voice Датийн гулар
 about-dataset-new-text = Common Voice датийн гуларехь бӀеннаш эзарнаш озан масалш ду, цара гӀо до кечдархошна аз девзаш долу гӀирсаш кхолла.
 about-clip-graveyard = Клипан кешнаш
+about-clip-graveyard-text = ДӀаяздарийн кешнашкахь ду «Common Voice» озан гулар юкъа ца догӀу озан дӀаяздарш. Коьрта гулар санна, дӀаяздарийн кешнийн гулар а ду тӀекхача йиш йолуш
+about-get-involved = Дакъа лацар
