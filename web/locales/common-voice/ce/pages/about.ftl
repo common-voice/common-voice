@@ -36,3 +36,5 @@ about-yes-votes-text = Common Voice даннийн гуларна юкъакха
 about-no-votes = ≥ 2 кхаж (ХIан-хIа)
 about-no-votes-text = Декъашхочо озан клип юхатоьхча иза юхаерзайо РогӀе. Нагахь санна шолгӀа а юхатоьхча, озан клип дӀайоьду Клипийн кешнашка.
 about-dataset-new = Common Voice Датийн гулар
+about-dataset-new-text = Common Voice датийн гуларехь бӀеннаш эзарнаш озан масалш ду, цара гӀо до кечдархошна аз девзаш долу гӀирсаш кхолла.
+about-clip-graveyard = Клипан кешнаш
