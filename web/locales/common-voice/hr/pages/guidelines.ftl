@@ -150,3 +150,13 @@ transcribe-the-audio-subheader-1-explanation-example-1 = Zapisivanje netečnosti
 transcribe-the-audio-subheader-1-explanation-example-2 = Označavanje zvučnih događaja poput kašljanja ili smijanja
 transcribe-the-audio-subheader-1-explanation-example-3 = Označavanje značajne buke, poput brbljanja u pozadini ili automobilskih sirena
 transcribe-the-audio-subheader-1-explanation-example-4 = Zabilježi gramatičke varijante i sleng točno onako kako se pojavljuju. Nemoj ispravljati ili uređivati govor ljudi.
+transcribe-the-audio-subheader-2-explanation-1 = Izgovori brojeve i simbole riječima, a ne brojkama ili posebnim znakovima. Primjer:
+transcribe-the-audio-subheader-2-explanation-2 = Kratice treba pisati onako kako se inače pišu u jeziku, slijedeći standardna pravila pisanja velikim slovom. Ne treba ih fonetski transkribirati. Primjer:
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <correct> Ispravno</correct>: To je sto milja daleko odavdje
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <correct> Ispravno</correct>: To je 100 milja daleko odavdje
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correct> Ispravno</correct>: Vidimo se <underline>dvije tisuće i petnaeste</underline>
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <correct> Ispravno</correct>: Vidimo se <underline>2015.</underline>
