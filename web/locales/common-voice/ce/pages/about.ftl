@@ -40,3 +40,10 @@ about-dataset-new-text = Common Voice датийн гуларехь бӀенна
 about-clip-graveyard = Клипан кешнаш
 about-clip-graveyard-text = ДӀаяздарийн кешнашкахь ду «Common Voice» озан гулар юкъа ца догӀу озан дӀаяздарш. Коьрта гулар санна, дӀаяздарийн кешнийн гулар а ду тӀекхача йиш йолуш
 about-get-involved = Дакъа лацар
+about-get-involved-text-2 =
+    Common Voice кхин а дика хилийта гӀо дан лаьий хьуна?
+    ТӀехдика! ЗӀене довла электронан почтехула я <discourseLink>Discourse</discourseLink>
+    Сайтаца йолу анпалш хилча, хаам бе  <githubLink>GitHub</githubLink>  я дӀакхета
+    <матрицаСсылка>Матрица</матрицаСсылка> юкъараллин чате.
+about-stay-in-touch = Муха латта веза зӀенехь?
+about-stay-in-touch-button = дIайазвалар
