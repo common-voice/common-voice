@@ -4,6 +4,7 @@ guidelines-header-subtitle = Shvati kako doprinijeti i potvrditi rečenice i aud
 voice-collection = Zbirka glasova
 sentence-collection = Zbirka rečenica
 question-collection = Zbirka pitanja
+spontaneous-speech = Spontani govor
 
 ## Voice Collection nav ids
 
@@ -131,3 +132,14 @@ offensive-content-sensitive-information-explanation-explanation-3 = Pitanja koja
 example-questions-subheader = Primjeri pitanja
 example-questions-explanation-1 = U ovoj tablici možeš pronaći <examplePromptsLink>120 primjera.</examplePromptsLink>
 example-questions-explanation-2 = Ako želiš poslati više pitanja odjednom, <githubLink>koristi naš GitHub</githubLink> ili pošalji tvoj popis e-poštom na <emailFragment>commonvoice@mozilla.com.</emailFragment>
+
+## Spontaneous Speech sidebar content
+
+# Answer Questions
+answer-questions = Odgovori na pitanja
+answer-questions-subheader = Opće smjernice
+# Transcribe the Audio
+transcribe-the-audio = Transkribiraj audio snimke
+transcribe-the-audio-subheader-1 = Opće smjernice
+transcribe-the-audio-subheader-2 = Brojevi i akronimi
+transcribe-the-audio-subheader-3 = Posebne oznake

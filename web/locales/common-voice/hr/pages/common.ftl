@@ -245,6 +245,12 @@ email-opt-in-info-sub-with-challenge = Primaj e-mailove poput podsjetnika o izaz
 email-opt-in-privacy-v2 = Prihvaćanjem primanja e-mail poruka, pristaješ na obradu tvojih podataka, kako je objašnjeno u Mozillinoj <privacyLink>politici privatnosti</privacyLink>.
 indicates-required = * obilježava obvezno polje
 not-available-abbreviation = --
+# Text shown on a button that can be clicked to copy text to the clipboard
+copy = Kopiraj
+# Text shown on a button that can be clicked to cancel an action
+cancel = Odustani
+# Text shown on a button that can be clicked to delete an item
+delete = Izbriši
 
 ## Donate banner
 
@@ -257,3 +263,24 @@ languages-donate-banner-cta = <mark>Koristiš životopis za</mark><br/><mark>zvo
 languages-donate-banner-cta-explanation = Common Voice se financira donacijama i dotacijama! Volimo surađivati s akademicima, civilnim društvom i istraživačima iz industrije. Common Voice se može besplatno koristiti, ali su doprinosi platformi i hostingu vrlo korisni.
 localization-select =
     .label = Odaberi jezik/lokalizaciju
+
+## MDC Announcement
+
+# Button text for MDC announcement
+announcement-mdc-button-text = Pridruži se platformi „Mozilla Data Collective”
+# Aria text for button which opens MDC on a new page
+announcement-mdc-button-aria-text = Otvara se u novoj kartici
+
+## Common Language/Dataset Selector & SearchBox Related
+
+# Generic search box defaults
+searchbox-default-label = Za pretragu, počni tipkati
+searchbox-default-placeholder = Traži …
+searchbox-default-aria-label = Traži
+dropdown-no-results = Nema podudaranja
+# Common Voice Dataset=Language search box
+dataset-searchbox-label = Mijenja jezik prikaza i jezik skupa podataka
+dataset-searchbox-placeholder = Traži jezik …
+dataset-searchbox-aria-label = Traži jezik
+dataset-search-no-results = Nije pronađen odgovarajući jezik
+request-new-language = Zatraži novi jezik
