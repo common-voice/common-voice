@@ -48,3 +48,7 @@ about-get-involved-text-2 =
 about-stay-in-touch = Муха латта веза зӀенехь?
 about-stay-in-touch-button = дIаязло
 about-stay-in-touch-text-1 = <emailFragment>ДӀаязло</emailFragment> тхан почтан тептаре, хьайна муха дакъалаца мегар ду хаа  Common Voice-сан кампанешкахь, хиламашкахь, цхьаьна дизайн еш йолчу функцишкахь .
+about-stay-in-touch-text-2 = Mozilla меттанийн юкъараллашкахь кхечаьрца вовза йиш ю хьан, нагахь дӀакхетахь <discordLink>Discord</discordLink> я <discourseLink>Discourse</discourseLink> бийцам бицаре бар, я <matrixLink>Матрица</matrixLink> сиха хьехам бан
+about-nav-why-common-voice = ХӀунда?
+about-nav-how-it-works = Муха?
+about-nav-partners = Цхьаьнхой
