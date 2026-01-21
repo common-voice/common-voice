@@ -32,3 +32,24 @@ about-is-it-valid-text = ឃ្លីបសំឡេងត្រូវបាន�
 about-yes-votes = ≥ 2 សំឡេងគាំទ្រ
 about-yes-votes-text = ដើម្បី​បញ្ចូល​វា​ទៅ​ក្នុង​សំណុំ​ទិន្នន័យ Common Voice ឃ្លីប​សំឡេង​ត្រូវតែ​ត្រូវ​បាន​ផ្ទៀងផ្ទាត់​ដោយ​អ្នក​ប្រើប្រាស់​ពីរ​នាក់​ដាច់​ដោយ​ឡែក​ពី​គ្នា។
 about-no-votes = ≥ 2 គ្មានសំឡេងឆ្នោត
+about-no-votes-text = នៅពេលដែលអ្នកប្រើប្រាស់បដិសេធឃ្លីបសំឡេង វានឹងត្រឡប់ទៅជួរវិញ។ ប្រសិនបើបដិសេធលើកទីពីរ ឃ្លីបសំឡេងនឹងត្រូវបានផ្លាស់ទីទៅកន្លែងកប់ខ្មោចឃ្លីប។
+about-dataset-new = សំណុំទិន្នន័យ Common Voice
+about-dataset-new-text = សំណុំទិន្នន័យ Common Voice មានសំណាកសំឡេងរាប់រយរាប់ពាន់ ដែលជួយអ្នកអភិវឌ្ឍន៍បង្កើតឧបករណ៍សម្គាល់សំឡេង។
+about-clip-graveyard = ឃ្លីបទីបញ្ចុះសព
+about-clip-graveyard-text =
+    ឃ្លីប​ទីបញ្ចុះសព Clip Graveyard មាន​ឃ្លីប​សំឡេង​ដែល​មិន​បាន​បញ្ចូល​ទៅ​ក្នុង​សំណុំ​ទិន្នន័យ Common Voice។ ដូច​សំណុំ​ទិន្នន័យ​ដែរ ឃ្លីប​ទីបញ្ចុះសព Clip Graveyard អាច​ទាញ​យក​បាន។
+    
+    យើង​សូម​ថ្លែង​អំណរគុណ​ដល់​មនុស្ស និង​អង្គការ​ដូច​ខាង​ក្រោម​សម្រាប់​ជំនួយ​របស់​ពួកគេ​ជាមួយ​គម្រោង​នេះ៖
+about-get-involved = ចូលរួម​
+about-get-involved-text-2 =
+    ចង់ជួយធ្វើឱ្យ Common Voice កាន់តែប្រសើរឡើងមែនទេ?
+    ល្អណាស់! សូមទាក់ទងមកយើងខ្ញុំតាមរយៈអ៊ីមែល ឬវេទិកា <discourseLink>Discourse</discourseLink> ដាក់ស្នើបញ្ហាគេហទំព័រតាមរយៈ <githubLink>GitHub</githubLink> ឬចូលរួមការជជែកសហគមន៍ <matrixLink>Matrix</matrixLink>។
+about-stay-in-touch = តើខ្ញុំត្រូវរក្សាទំនាក់ទំនងយ៉ាងដូចម្តេច?
+about-stay-in-touch-button = ចុះឈ្មោះ
+about-stay-in-touch-text-1 = <emailFragment>ចុះឈ្មោះ</emailFragment> ទៅក្នុងបញ្ជីសំបុត្ររួមរបស់យើង ដើម្បីស្វែងយល់ពីរបៀបដែលអ្នកអាចចូលរួមក្នុងយុទ្ធនាការ ព្រឹត្តិការណ៍ និងមុខងាររចនារួមគ្នានៅលើ Common Voice។
+about-stay-in-touch-text-2 = អ្នកអាចជួបជាមួយអ្នកដទៃនៅក្នុងសហគមន៍ភាសា Mozilla ដោយចូលរួម <discordLink>Discord</discordLink> ឬ <discourseLink>Discourse</discourseLink> សម្រាប់ការសន្ទនាតាមប្រធានបទ ឬ <matrixLink>Matrix</matrixLink> សម្រាប់ដំបូន្មានរហ័ស។
+about-nav-why-common-voice = ហេតុអ្វី?
+about-nav-how-it-works = ដោយរបៀបណា?
+about-nav-partners = ដៃគូ
+about-nav-get-involved = ចូលរួម​ចំណែក
+about-nav-how-it-works-2 = តើ Common Voice ដំណើរការយ៉ាងដូចម្តេច?
