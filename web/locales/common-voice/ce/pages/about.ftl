@@ -52,3 +52,11 @@ about-stay-in-touch-text-2 = Mozilla меттанийн юкъараллашка
 about-nav-why-common-voice = ХӀунда?
 about-nav-how-it-works = Муха?
 about-nav-partners = Цхьаьнхой
+about-nav-get-involved = Дакъа лацар
+about-nav-how-it-works-2 = Common Voice-с болх муха бо?
+about-nav-playbook = Дакъалаца Ӏамаде
+
+## Community Playbook Content
+## What is a language
+
+about-playbook-what-is-language = Common Voice-сехь мотт хӀун йу?
