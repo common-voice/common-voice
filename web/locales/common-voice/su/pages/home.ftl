@@ -107,24 +107,73 @@ action-items-section-subtitle = Saha waé tiasa ngalestarikeun, ngarévitalisasi
 scripted-card-header = Biantara Naskah
 scripted-card-content = Baca kalimah kalawan tarik dina basa anjeun sareng nyumbang kana kumpulan data biantara partisipasi publik anu paling beragam di dunya.
 spontaneous-card-header = Biantara Spontan
+spontaneous-card-content = Waler kana pituduh pikeun nyieun kumpulan data kanggo konteks organik jeung sapopoe. Pas sareng sampurna kanggo basa lisan.
 language-text-card-header = Teks Basa
+language-text-card-content = Damel atanapi bagikeun kalimah, teks sareng prompt domain publik kanggo tarjamah, model basa alit, sareng nu sanesna.
 coming-soon = Bade Sumping
 add-text = Tambih Teks
 answer = Waler
 
 ## Community section
 
+community-section-title-202601 = Didukung ku komunitas global, kanggo komunitas global — 290 basa kalawan teras naek!
 join-discord-community = Gabung ka Komunitas Discord
 # label for button
 join-discord-community-action = Gabung di Discord
+join-discord-community-content = Ilubiung dina diskusi komunitas basa, pataros tumaros, sareng uninga perkawis acara sareng ceramah nu kapayun.
 find-us-on-matrix = Tepangan di Matrix
+find-us-on-matrix-content-v2 = Matrix teh nyaeta protokol anu kabuka tur hampang pikeun komunikasi desentralisasi, real-time, sareng platform diskusi kabuka tur hade nu dipilih  ku Mozilla. Tepangan kami di "common-voice:mozilla.org".
+# label for button
+find-us-on-element-action-1 = Unsur
+find-us-on-matrix-action-2 = Klien sanes
 ask-mozilla-share = Nyuhunkeun Mozilla supados ngabagikeun acara anjeun
+ask-mozilla-share-content = Gaduh acara kapungkur atanapi kapayun? Bagikeun supados tiasa di umumkeun ka komunitas atanapi nyerat blog perkawis eta!
 # label for button
 ask-mozilla-share-action = Bagikeun acara anjeun
 download-contribution-certificate = Unduh sertipikat kontribusi anjeun
+download-contribution-certificate-content = Unduh sertipikat kanggo acara anjeun atanapi kanggo diri anjeun upami parantos konstribusi ka Common Voice — ieu teh moal kanjantenan upami teu aya anjeun!
+# label for button
+download-contribution-certificate-action = Candak sertipikat
+contribute-github = Kontribusi dina Github
+contribute-github-content = Proyek ieu moal ngawujud pami teu aya jalmi-jalmi sapertos anjeun. 🎉 Aya seueur cara kanggo ngiringan Common Voice - kanggo ngawitan kontribusi, anjeun teu kedah tiasa mogram tanapi ngoding!
+# label for button
+contribute-github-action = Kontribusi dina Github
+
+## Featured section
+
+featured-section-title = Ditampilkeun dina...
+# icon is an arrow that points downwards
+download-press-pack = Unduh paket warta <icon></icon>
+
+## Developers section
+
+developers-section-title = Kumpulan data soanten nu tiasa diakses ku masarakat umum dina 130+ basa
+developers-section-subtitle = Kumpulan data kanggo ASR, STT, TTS, sareng konteks NLP anu sanesna - dipidamel  partisipasi komunitas.
+# icon is an arrow that points to the right
+explore-datasets = Jalajah kumpulan data <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = Dukung kumpulan data anu bebas sareng dipidamel ku komunitas
 read-sentences-link = Baca Kalimah
 validate-readings-link = Cek pariksa bacaan
 contribute-link = Nyumbang kana korpus teks
+answer-questions-link = Waler Patarosan
+transcribe-answers-link = Transkripkeun jawaban
+review-transcriptions-link = Cek Transkripsi
+contribute-text-link = Kontribusi teks
+press-and-stories-link = Warta jeung carita
+
+## Partner section
+
+partner-section-title = Janten mitra
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Pausahaan teknologi</bold> - investasi dina nyiptakeun kumpulan data kabuka kanggo ekosistem AI multibasa nu nuju rame
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Masyarakat sipil sareng panalungtik</bold> - nyiptakeun, ngayakeun, sareng ngabagikeun kumpulan data anu mangpaat sacara bebas
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Filantropi</bold> - nyeponsoran nyiptakeun kumpulan data kanggo ngadorong inovasi sareng pawangunan lokal
+# icon is an arrow that points to the right
+get-in-touch-button = Kontak <icon></icon>
+# Partners section
+our-partners-include = Nu tos lebet janten mitra diantarana

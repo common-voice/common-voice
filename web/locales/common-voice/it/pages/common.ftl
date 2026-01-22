@@ -63,6 +63,7 @@ byv = Medumba
 ca = Catalano
 cak = Kaqchikel
 cdo = Min orientale
+ce = Ceceno
 cgg = Chiga
 cjk = Chokwe
 ckb = Curdo centrale

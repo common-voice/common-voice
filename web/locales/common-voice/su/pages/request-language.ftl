@@ -1,6 +1,6 @@
 ## Request Language Pages
 
-request-language-heading = Tanyakeun ngeunaan basa anu anyar
+request-language-heading = Tumaros perkawis basa anyar
 request-language-explanation-1 =
     Pariksa naha basa anjeun aya dina kaca
     <languagesPageLink>Basa Sora Umum</languagesPageLink>.

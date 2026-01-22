@@ -599,4 +599,39 @@ export const VARIANTS: Variant[] = [
     variant_name: 'Ащхъарауа',
     variant_token: 'abq-ashkhara',
   },
+  {
+    locale_name: 'lrl',
+    variant_name: 'بندری',
+    variant_token: 'lrl-bandari',
+  },
+  {
+    locale_name: 'lrl',
+    variant_name: 'اچومی',
+    variant_token: 'lrl-achomi',
+  },
+  {
+    locale_name: 'ms',
+    variant_name: 'Dialek Standard',
+    variant_token: 'ms-standard',
+  },
+  {
+    locale_name: 'ms',
+    variant_name: 'Dialek Lain',
+    variant_token: 'ms-dialect',
+  },
+  {
+    locale_name: 'jv',
+    variant_name: 'Jawa Timur',
+    variant_token: 'jv-timur',
+  },
+  {
+    locale_name: 'jv',
+    variant_name: 'Jawa Tengah',
+    variant_token: 'jv-tengah',
+  },
+  {
+    locale_name: 'jv',
+    variant_name: 'Jawa Kulon',
+    variant_token: 'jv-kulon',
+  },
 ]

@@ -63,6 +63,7 @@ byv = Medumba
 ca = Katalaansk
 cak = Kaqchikel
 cdo = Easterske Min
+ce = Tsjetsjeensk
 cgg = Chiga
 cjk = Chokwe
 ckb = Sintraal-Koerdysk

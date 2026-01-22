@@ -63,6 +63,7 @@ byv = Medumba
 ca = Catalaans
 cak = Kaqchikel
 cdo = Oosterse Min
+ce = Tsjetsjeens
 cgg = Chiga
 cjk = Chokwe
 ckb = Centraal-Koerdisch

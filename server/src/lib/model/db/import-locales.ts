@@ -7,7 +7,7 @@ import { VARIANTS } from './language-data/variants'
 import { ACCENTS } from './language-data/accents'
 
 const TRANSLATED_MIN_PROGRESS = 0.6
-const DEFAULT_TARGET_SENTENCE_COUNT = 5000
+const DEFAULT_TARGET_SENTENCE_COUNT = 2000
 
 const LOCALE_MESSAGES_PATH = path.join(
   __dirname,
@@ -30,16 +30,6 @@ type PontoonLocale = {
   missing_strings: number
   unreviewed_strings: number
   complete: boolean
-}
-
-// Have proper typing for Fluent messages and Abstract Syntax Tree
-interface FluentMessage {
-  id?: { name: string }
-  value?: { elements: Array<{ value?: string }> }
-}
-
-interface FluentAST {
-  body: FluentMessage[]
 }
 
 const db = getMySQLInstance()
@@ -65,19 +55,6 @@ const saveToMessages = (languages: any) => {
     ].join('\n')
   )
   fs.writeFileSync(messagesPath, newMessages)
-}
-
-// Helper function to extract text from Fluent message
-const getFluentValue = (message: FluentMessage): string | null => {
-  if (!message.value?.elements?.length) return null
-
-  // For simple messages, take the first text element
-  const firstElement = message.value.elements[0]
-  if ('value' in firstElement && typeof firstElement.value === 'string') {
-    return firstElement.value
-  }
-
-  return null
 }
 
 const buildLocaleEnglishNameMapping = (): Record<string, string> => {
@@ -106,16 +83,20 @@ const buildLocaleEnglishNameMapping = (): Record<string, string> => {
 
     const languagesSection = languagesMatch[1]
 
-    // Parse ONLY the languages section with Fluent parser
-    const languagesAST = parse(languagesSection, {}) as FluentAST
-
-    // Extract language codes and names from the parsed section
-    for (const message of languagesAST.body) {
-      const code = message.id?.name
-      const name = getFluentValue(message)
-
-      if (code && name) {
-        englishNames[code] = name
+    // Parse simple key-value pairs with regex
+    // Normalize line endings to handle both LF and CRLF
+    const lines = languagesSection
+      .replace(/\r\n/g, '\n')
+      .replace(/\r/g, '\n')
+      .split('\n')
+    for (const line of lines) {
+      const trimmedLine = line.trim()
+      const match = trimmedLine.match(/^([a-z0-9-]+)\s*=\s*(.+)$/i)
+      if (match) {
+        const [, code, name] = match
+        if (code && name) {
+          englishNames[code.trim()] = name.trim()
+        }
       }
     }
   } catch (error) {
@@ -143,15 +124,22 @@ const buildLocaleNativeNameMapping: any = () => {
       continue
     }
 
-    const messages: FluentAST = parse(
-      fs.readFileSync(messagesPath, 'utf-8'),
-      {}
-    ) as FluentAST
-    const message = messages.body.find(
-      message => message.id && message.id.name === locale
-    )
+    try {
+      const content = fs.readFileSync(messagesPath, 'utf-8')
 
-    nativeNames[locale] = message ? message.value.elements[0].value : locale
+      // Use regex to find the locale's own name
+      // Normalize all line endings (CRLF and CR to LF)
+      const normalizedContent = content
+        .replace(/\r\n/g, '\n')
+        .replace(/\r/g, '\n')
+      const regex = new RegExp(`^${locale}\\s*=\\s*(.+)$`, 'mi')
+      const match = normalizedContent.match(regex)
+
+      nativeNames[locale] = match ? match[1].trim() : locale
+    } catch (error) {
+      console.warn(`Failed to parse native name for ${locale}:`, error)
+      nativeNames[locale] = locale
+    }
   }
   return nativeNames
 }

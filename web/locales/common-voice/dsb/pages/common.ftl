@@ -63,6 +63,7 @@ byv = Medumba
 ca = Katalańšćina
 cak = Kaqchikel
 cdo = Pódzajtšny Min
+ce = Čečeńšćina
 cgg = Chiga
 cjk = Chokwe
 ckb = Centralna kurdišćina

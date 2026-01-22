@@ -12,6 +12,13 @@ record-no-mic-found = Fann ingen mikrofon.
 record-error-too-short = Innspelinga var for kort.
 record-error-too-long = Innspelinga var for lang.
 record-error-too-quiet = Innspelinga var for stille.
+record-error-uploaded-clip-corrupted =
+    Lydopptaket ditt ser ut til å vere øydelagt. Dette kan kome av:
+    • Problem med nettlesarkompatibilitet (prøv å bruke ein annan nettlesar)
+    • Problem med mikrofon eller lyddrivarar
+    • Nettverksavbrot under opptaket
+    Prøv å ta opp på nytt.
+record-error-uploaded-clip-too-long = Opptaket ditt overskreid den maksimale varigheita på { $duration } sekund. Spel inn eit kortare klipp.
 record-cancel = Avbryt nyinnspelinga
 record-instruction = { $actionType }<recordIcon></recordIcon> les deretter setninga høgt
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> når du er ferdig

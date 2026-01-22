@@ -12,6 +12,44 @@ record-no-mic-found = Womekpɔ nuƒomɔ̃ aɖeke o.
 record-error-too-short = Nuƒoƒo si wolé ɖe mɔ̃ dzi la nɔ kpuie akpa.
 record-error-too-long = Nuƒoƒo si wolé ɖe mɔ̃ dzi la didi akpa.
 record-error-too-quiet = Nuƒoƒo si wolé ɖe mɔ̃ dzi la nɔ anyi kpoo akpa.
+record-error-uploaded-clip-corrupted =
+    Edze abe wò odio la gblẽ. Esia ate ŋu adzɔ le:
+    • Nya siwo ku ɖe web-browser ƒe ɖekawɔwɔ ŋu (te kpɔ nàzã browser bubu) .
+    • Nuƒomɔ̃ alo audio driver ƒe kuxiwo
+    • Network ƒe kuxiwo le wò nuƒoƒo me
+    Taflatse dze agbagba nàga recordi.
+record-error-uploaded-clip-too-long = Wò recording edidi wu { $duration } sɛkɛnds. Taflatse wɔ recording kpui.
+record-cancel = Te fli ɖe re-recording ame
+record-instruction = { $actionType }<recordIcon></recordIcon>emegbe nàxlẽ nyagbea sesĩe
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> ne ewɔe vɔ
+record-three-more-instruction = Esusɔ etɔ̃ nawɔ!
+record-again-instruction = Edze agbagba!<recordIcon></recordIcon> Record wò clip si kplɔe ɖo
+record-again-instruction2 = Yi edzi, nà record ake <recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon>Mlɔetɔ!
+review-tooltip = To klipiwoa me eye nàgbugbɔ a record
+share-clip = Do wò klipi la
+share-common-voice = Do Common Voice
+review-instruction = To  wò klipiwo ame  nàgbugbɔ a record ne ehiã
+record-submit-tooltip = { $actionType } tsɔe ɖo ɖa ne èle klalo
+clips-uploaded = Clips Uploaded
+record-abort-title = Wu nuƒoƒo nu gbãa?
+record-abort-text = Dzodzo fifia ana be nàbu wò ŋgɔyiyi
+record-abort-submit = Do wò klipiwo ɖa
+record-abort-continue = Wu recordi anu
+record-abort-delete = Do go le klipiwo ame eye nàtutu wo ɖa
+review-aborted = Eɖe asi le upload ŋu. Ðe nèdi be yeatutu yeƒe recording woa?
+review-submit-title = To eme & Tsɔe ɖo ɖa
+review-submit-msg = Akpe na wò ɖe wò  recording ta!<lineBreak></lineBreak>Azɔ lé ŋku ɖe wò  klipiwo ŋu eye nàɖo wo ɖe ete.
+review-recording = Dzro eme
+review-rerecord = Re-record
+review-cancel = Te fli ɖe edɔa me
+review-keep-recordings = Dzra nya siwo wolé ɖe mɔ̃ dzi la ɖo
+review-delete-recordings = Tutu nye recording
+review-terms = Ne èzã Common Voice la, efia be èlɔ̃ ɖe míaƒe <termsLink>Terms</termsLink> kple <privacyLink>Privacy Notice</privacyLink>
+terms-agree = Melɔ̃ ɖe edzi
+terms-disagree = Nyemelɔ̃ ɖe edzi o
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = Akpe be mietsɔ miaƒe voice clips na mi!
 create-profile-text = Àdi be yeadzra onyatakakawo ɖoa? <createProfile>Wɔ nɔnɔmetata</createProfile><createProfile>
 thanks-for-voice-toast = Akpe na wò le wò nuƒo
 thanks-for-voice-toast-error = Vodada aɖe dzɔ le wò gbe ŋuti nyatakakawo ɖoɖo ɖa me

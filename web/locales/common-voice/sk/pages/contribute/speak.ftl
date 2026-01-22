@@ -12,6 +12,14 @@ record-no-mic-found = Nenašiel sa žiadny mikrofón.
 record-error-too-short = Vaša nahrávka bola príliš krátka.
 record-error-too-long = Vaša nahrávka bola príliš dlhá.
 record-error-too-quiet = Vaša nahrávka bola príliš tichá.
+record-error-uploaded-clip-corrupted =
+    Zdá sa, že váš zvukový záznam je poškodený. Môže k tomu dôjsť z týchto dôvodov:
+    
+    • Problémy s kompatibilitou prehliadača (skúste použiť iný prehliadač)
+    • Problémy s mikrofónom alebo ovládačom zvuku
+    • Prerušenia v sieťovom pripojení počas nahrávania
+    Skúste nahrávať znova.
+record-error-uploaded-clip-too-long = Vaša nahrávka prekročila maximálnu dĺžku { $duration } sekúnd. Nahrajte kratší klip.
 record-cancel = Zrušiť opakovaný záznam
 record-instruction = { $actionType } na <recordIcon></recordIcon> a prečítajte vetu nahlas
 record-stop-instruction = { $actionType } na <stopIcon></stopIcon> keď budete hotoví
