@@ -60,3 +60,4 @@ about-nav-playbook = Дакъалаца Ӏамаде
 ## What is a language
 
 about-playbook-what-is-language = Common Voice-сехь мотт хӀун йу?
+about-playbook-what-is-language-content-1 = Маттах лаьцна ойла ян дуккха а некъаш ду. Къамел довзаран моделашна Common Voice-о тӀедуьллу «вовшех кхетар» тӀе тидам бахийтар, я «и мотт буьйцурш вовшех кхета йиш юй, нагахь санна уьш гӀортахь?»
