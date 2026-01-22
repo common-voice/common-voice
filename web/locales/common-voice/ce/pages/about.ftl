@@ -90,3 +90,4 @@ about-playbook-how-add-language-collecting-sentences-content-3 = Кхин дӀа
 
 about-playbook-how-localize = Сайтан локализацино болх муха бо?
 about-playbook-how-localize-content-1 = Common Voice сайтан гочдар хуьлу <strong>Pontoon-ца</strong>
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Де цхьа Аккаунт </pontoonAccountLink> нагахь санна хьан дацахь. Цул тӀаьхьа, хьайн мотт харжа <strong>(‘Team’)</strong>  тӀаккха проект харжа, <pontoonCvLink>Common Voice</pontoonCvLink>. Цигахь гочйан йеза файлаш хир ю хьуна. муьлхха а цхьаъ тӀетаIйе, тӀаккха гур ду хьуна ингалсан маттахь дешнаш а,  церан гочдар чу йаздо гӀутакх а.
