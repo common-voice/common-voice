@@ -67,3 +67,9 @@ about-playbook-what-is-language-content-3 = Цхьадолчу меттанаш�
 ## How do I add a language
 
 about-playbook-how-add-language = Мотт муха тӀетоха беза?
+about-playbook-how-add-language-content-1 =
+    Цкъа хьалха хьажа, хьан мотт <languageLink>хӀинцале тIетоьхна буй</languageLink>.
+    Нагахь санна иза бацахь, хьан йиш ю <languageRequestLink>хьайн мотт тӀетохарх лаьцна хатта</languageRequestLink>
+    Цуьнан ши мур бу. Сайт гочъяр, аламаш гулбар
+about-playbook-how-add-language-translating-heading = Сайт гочйар
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Хьовса тхан куьйгалле, муха лело йеза Pontoon .</translateVideoLink>
