@@ -126,3 +126,28 @@ about-playbook-how-validate = តើខ្ញុំដឹងដោយរបៀ�
 about-playbook-how-validate-content-1 = ប្រសិនបើអ្នកអាច <strong>ស្តាប់ពួកគេ</strong> និង <strong>យល់ពួកគេ</strong> ជាធម្មតាវាជាការល្អបំផុតក្នុងការយល់ព្រម</strong>។
 about-playbook-how-validate-content-2 = <strong>កុំបដិសេធវីដេអូឃ្លីបដែលអ្នកនិយាយ «មានសំឡេងសង្កត់» ខុសពីសំឡេងរបស់អ្នក</strong> - នេះជារឿងសំខាន់សម្រាប់ការសម្គាល់សំឡេងដើម្បីដំណើរការបានល្អប្រសើរសម្រាប់មនុស្សគ្រប់គ្នា។
 about-playbook-how-validate-content-3 = ប្រសិនបើអ្នកគិតថាការបញ្ចេញសំឡេងធ្វើឱ្យវា <strong>មិនអាចយល់បាន</strong> ឬមាន <strong>សំឡេងរំខានច្រើន</strong> ឬមាន <strong>មនុស្សផ្សេងទៀតកំពុងនិយាយដែរ</strong> នោះអ្នកគួរតែបដិសេធវីដេអូឃ្លីបនេះ។ <accuracyLink>សូមមើលព័ត៌មានបន្ថែមនៅក្នុងលក្ខណៈវិនិច្ឆ័យភាពត្រឹមត្រូវរបស់យើង</accuracyLink>។
+about-playbook-how-validate-content-4 = ប្រសិនបើឃ្លីបមួយត្រូវបានបដិសេធដោយមនុស្ស 2 នាក់ វាត្រូវបានចេញផ្សាយនៅក្នុងសំណុំរងផ្សេងគ្នានៃសំណុំទិន្នន័យ។
+
+## How to access dataset
+
+about-playbook-how-access-dataset = តើខ្ញុំចូលប្រើ និងប្រើប្រាស់សំណុំទិន្នន័យដោយរបៀបណា?
+about-playbook-how-access-dataset-content-1 = អ្នកអាចចូលទៅកាន់ទំព័រសំណុំទិន្នន័យ <datasetsPage></datasetsPage> ជ្រើសរើសកំណែ និងភាសាដែលអ្នកចង់បាន ហើយទាញយកវា! ឯកសារទាំងនេះមាន <metadataLink>ទិន្នន័យមេតាដែលពាក់ព័ន្ធ</metadataLink> ដូចជាព័ត៌មានប្រជាសាស្ត្រ និងទិន្នន័យសុពលភាព។ អ្នកនឹងត្រូវផ្តល់អាសយដ្ឋានអ៊ីមែលដើម្បីទាញយកសំណុំទិន្នន័យ។
+about-playbook-how-access-dataset-content-2 = ប្រសិនបើអ្នកកំពុងស្វែងរកឧបករណ៍ដើម្បីបង្កើតគំរូ ASR អ្នកអាចភ្ជាប់ទំនាក់ទំនងជាមួយមនុស្សផ្សេងទៀតនៅក្នុងសហគមន៍ <discourseLink>នៅលើ Discourse</discourseLink>។
+
+## How are decisions made
+
+about-playbook-how-project-governance = តើការសម្រេចចិត្តលើគម្រោងត្រូវបានធ្វើឡើងយ៉ាងដូចម្តេច?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice អាច​ធ្វើ​ទៅ​បាន​ដោយ​សហគមន៍​សកម្មជន អ្នកភាសាវិទ្យា អ្នកវិទ្យាសាស្ត្រទិន្នន័យ អ្នកសិក្សា និងវិស្វករកម្មវិធី​មកពីជុំវិញពិភពលោក។ គម្រោងនេះត្រូវបានគ្រប់គ្រងដោយមូលនិធិ Mozilla។
+about-playbook-how-project-governance-content-2 = ការគ្រប់គ្រងរបស់យើងត្រូវបានបង្កើតឡើងនៅលើសសរស្តម្ភនៃ៖
+about-playbook-how-project-governance-content-3 = ភាពឯកជន សុវត្ថិភាព និងតម្លាភាព។
+about-playbook-how-project-governance-content-4 = ការចូលរួម និងការធ្វើការសម្រេចចិត្តរបស់សហគមន៍។
+about-playbook-how-project-governance-content-5 = តម្លៃ និងការទទួលស្គាល់។
+about-playbook-how-project-governance-content-6 = ការទទួលខុសត្រូវទៅវិញទៅមក។
+about-playbook-how-project-governance-content-7 = <governanceLink>សូមអានបន្ថែមអំពីរបៀបដែលយើងត្រូវបានគ្រប់គ្រង</governanceLink>
+
+## How is Common Voice funded
+
+about-playbook-how-funded = តើ Common Voice ទទួលបានមូលនិធិយ៉ាងដូចម្តេច?
+about-playbook-how-funded-content-1 = Common Voice គឺជាគម្រោងមួយរបស់មូលនិធិ Mozilla ដែលជា US 501c3។ គម្រោងនេះត្រូវបានផ្តល់មូលនិធិទាំងស្រុងដោយ <philantropicGrantLink>ជំនួយសប្បុរសធម៌</philantropicGrantLink> និងការបរិច្ចាគពីមនុស្សជុំវិញពិភពលោក។
+about-playbook-how-funded-content-2 = វាត្រូវចំណាយប្រាក់ច្រើនក្នុងការបង្ហោះ និងចេញផ្សាយសំណុំទិន្នន័យជាបន្តបន្ទាប់ កែលម្អវេទិកា និងដំណើរការកម្មវិធីសហគមន៍ <africaMradiLink>។
+about-playbook-how-funded-content-3 = ប្រសិនបើអ្នក ឬអង្គការរបស់អ្នកចង់ចូលរួមចំណែកដល់គម្រោងនេះវិញ អ្នកអាចធ្វើការបរិច្ចាគ <donateLink>តាមរយៈ</donateLink> ឬទាក់ទងក្រុមភាពជាដៃគូរបស់យើងតាមរយៈ <emailFragment>commonvoice@mozilla.com</emailFragment>។
