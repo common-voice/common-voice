@@ -98,3 +98,4 @@ about-playbook-how-localize-content-5 = Хьовса тхан кхетош йо�
 ## How to add sentences
 
 about-playbook-how-add-sentences = Алам тIе муха тоха аса
+about-playbook-how-add-sentences-content-1 = Аламаш тӀетоха йиш ю хьан <writePageLink>Йозан агӀо</writePageLink> тӀехь я аламаш карлабаха йиш ю <reviewPageLink>Талламан агӀо</reviewPageLink> тӀехь.
