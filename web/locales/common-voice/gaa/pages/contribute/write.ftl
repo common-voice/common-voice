@@ -18,6 +18,7 @@ new-sentence-rule-2 = Wiemɔi ni shɛɛɛ 15 yɛ wiemɔ kuku kome mli
 new-sentence-rule-3 = Okɛ wiemɔ he mlai ni ja atsu nii
 new-sentence-rule-4 = Okɛ spɛlimɔ kɛ niŋmaa okadii ni ja atsu nii
 new-sentence-rule-5 = Yibɔi kɛ niŋmaa okadii krɛdɛɛi komɛi bɛ
+new-sentence-rule-6 = Maŋsɛɛ woji bɛ
 new-sentence-rule-7 = Okɛ wiemɔi ni sa afata he
 new-sentence-rule-8 = Ehi akɛ eji adebɔɔ kɛ sanegbaa (esa akɛ efee mlɛo akɛ oookane wiemɔ kuku lɛ)
 login-instruction-multiple-sentences = <loginLink>Login</loginLink> or <loginLink>sign up</loginLink> koni akɛ wiemɔ kukuji babaoo afata he
