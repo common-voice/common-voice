@@ -80,3 +80,13 @@ about-playbook-how-add-language-translating-content-2 =
     <githubRepoLink>керла мотт беха GitHub тӀехь</githubRepoLink> . <localizationFragment>Кхин дӀа хьажа сайта тӀехь гочдар</localizationFragment>
 about-playbook-how-add-language-collecting-sentences-heading = Аламаш гулбар
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Хьовса тхан куйгалле, муха лело еза  «аламаш гулйархо»   .</sentenceCollectorVideo>
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Хьан йиш ю <предложенинСсылкаТӀетоха>кIеззиг аламаш тIетоха </предложенинСсылкаТӀетоха>, .
+    я ахь йан мегар ду  <дукха импортДокументаш>дукха импорт Github лелош</bulkImportDocsLink>
+    Дагахь латтаде, аламаш хила безий <licenseLink>CC0 (я юкъара доменера)</licenseLink>  я хьайн аламаш йазбан а мегар ду
+about-playbook-how-add-language-collecting-sentences-content-3 = Кхин дӀа хьажа аламаш гулъбаран хьокъехь .
+
+## How does localization work
+
+about-playbook-how-localize = Сайтан локализацино болх муха бо?
+about-playbook-how-localize-content-1 = Common Voice сайтан гочдар хуьлу <strong>Pontoon-ца</strong>
