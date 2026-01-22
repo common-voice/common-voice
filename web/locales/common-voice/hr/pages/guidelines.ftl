@@ -159,4 +159,15 @@ transcribe-the-audio-subheader-2-example-1-wrong = <correct> Ispravno</correct>:
 # text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
 transcribe-the-audio-subheader-2-example-2-correct = <correct> Ispravno</correct>: Vidimo se <underline>dvije tisuće i petnaeste</underline>
 # text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
-transcribe-the-audio-subheader-2-example-2-wrong = <correct> Ispravno</correct>: Vidimo se <underline>2015.</underline>
+transcribe-the-audio-subheader-2-example-2-wrong = <correct> Krivo</correct>: Vidimo se <underline>2015.</underline>
+transcribe-the-audio-subheader-2-example-3-correct = <correct>Ispravno</correct>: Bilo je dvadeset posto popusta
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Krivo</wrong>: Bilo je 20% popusta
+tags-table-header-1 = Oznaka
+tags-table-header-2 = Značenje
+tags-laugh = Smijeh
+tags-disfluency = Netečnost
+tags-unclear = Nejasno
+tags-noise = Buka
+tags-laugh-explanation = Zvuk smijeha.
+tags-unclear-explanation = Riječ ili niz riječi koji se ne mogu razumjeti.
+tags-noise-explanation = Bilo koja druga vrsta buke, poput kašljanja govornika, trubljenja automobila, zvuka nečega što udara u mikrofon, zujanja telefona itd.
