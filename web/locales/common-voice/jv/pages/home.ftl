@@ -129,7 +129,7 @@ answer = Wangsulan
 
 ## Community section
 
-community-section-title = Didukung dening komunitas global, kanggo komunitas global - 130 basa lan tambah akeh!
+community-section-title-202601 = Didukung dening komunitas global, kanggo komunitas global — 290 basa lan terus dikembangake!
 join-discord-community = Gabung Komunitas Discord
 # label for button
 join-discord-community-action = Gabung karo kita ing Discord

@@ -115,7 +115,6 @@ add-text = 添加文本
 
 ## Community section
 
-community-section-title = 由全球社群協力，為全球社群服務。已超過 130 種語言！
 join-discord-community = 加入 Discord 社群
 # label for button
 join-discord-community-action = 在 Discord 上加入我們

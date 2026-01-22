@@ -137,7 +137,6 @@ answer = Válaszoljon
 
 ## Community section
 
-community-section-title = Globális közösségekkel, a globális közösségekért – 130 nyelv és egyre csak bővül!
 join-discord-community = Csatlakozzon a Discord közösséghez
 # label for button
 join-discord-community-action = Csatlakozzon hozzánk a Discordon

@@ -12,6 +12,13 @@ record-no-mic-found = Микрофон не найден.
 record-error-too-short = Запись слишком короткая.
 record-error-too-long = Запись слишком длинная.
 record-error-too-quiet = Запись слишком тихая.
+record-error-uploaded-clip-corrupted =
+    Ваша аудиозапись, похоже, повреждена. Это может произойти из-за:
+    • Проблемы с совместимостью с браузерами (попробуйте использовать другой браузер)
+    • Проблемы с микрофоном или аудиодрайвером
+    • Обрывы сети во время записи
+    Пожалуйста, попробуйте записать снова.
+record-error-uploaded-clip-too-long = Ваша запись превысила максимальную продолжительность в { $duration } секунд. Пожалуйста, запишите более короткий клип.
 record-cancel = Отменить перезапись
 record-instruction = { $actionType } <recordIcon></recordIcon>, затем зачитайте предложение вслух
 record-stop-instruction = { $actionType } <stopIcon></stopIcon>, когда закончите

@@ -91,6 +91,7 @@ dv = Dhivehi
 dyu = Dioula
 ebr = Ebrie
 ee = Ewe
+efk = Efik
 eko = Ekoti
 el = Greacă
 en = Engleză
@@ -151,6 +152,7 @@ hu = Maghiară
 hux = Nüpode Huitoto
 hy-AM = Armeană
 ia = Interlingua
+iba = Iban
 ibb = Ibibio
 id = Indoneziană
 ie = Interlingue
@@ -185,6 +187,7 @@ ksf = Bafia
 kw = Cornică
 ky = Kirghiză
 lb = Luxemburgheză
+leu = Kara
 lg = Luganda
 lij = Ligură
 ln = Lingala
@@ -208,6 +211,7 @@ mr = Marathi
 mrj = Mari de vest
 ms = Malaeziană
 mt = Malteză
+mxu = Mada
 my = Birmaneză
 myv = Erzya
 nan-tw = Taiwaneză (Minnan)
@@ -327,8 +331,24 @@ languages-donate-banner-cta-explanation = Proiectul Common Voice este finanțat 
 localization-select =
     .label = Alege limba
 
+## MDC Announcement
+
+# Main text for MDC announcement. Text wrapped in <strong></strong> will be rendered with bold font
+announcement-mdc-text = <strong>Noile seturi de date Common Voice</strong> pot fi descărcate doar de pe platforma Mozilla Data Collective. Înscrie-te pentru a accesa peste 300 de seturi de date globale create de și pentru comunitate.
+# Button text for MDC announcement
+announcement-mdc-button-text = Înscrie-te în Mozilla Data Collective.
+# Aria text for button which opens MDC on a new page
+announcement-mdc-button-aria-text = Se deschide într-o filă nouă.
+
 ## Common Language/Dataset Selector & SearchBox Related
 
+# Generic search box defaults
+searchbox-default-label = Începe să scrii pentru a căuta
+searchbox-default-placeholder = Căutare…
+searchbox-default-aria-label = Caută
+dropdown-no-results = Niciun rezultat
+# Common Voice Dataset=Language search box
+dataset-searchbox-label = Modifică atât limba de afișare, cât și limba setului de date
 dataset-searchbox-placeholder = Caută o limbă...
 dataset-searchbox-aria-label = Caută o limbă
 dataset-search-no-results = Nu s-a găsit o limbă care să se potrivească

@@ -192,6 +192,11 @@ code-switching-review-subheader = سوئال تەكشۈرۇش
 code-switching-answer-bullet-4 = جاۋاب بېرىشنىڭ «مۇكەممەل» ئۇسۇلى يوق
 # Transcribing
 code-switching-transcribe-subheader = خەت پۈتۈش
+code-switching-pronunciation-explanation-example-1 = ئىنگلىزچە: /ˈkeɪ.bəl/
+code-switching-pronunciation-explanation-example-2 = ئىسپانچە: /ˈkable/
+code-switching-not-tag-proper-names-example-1 = كىشى: پالانچى، پۇستانچى
+code-switching-not-tag-proper-names-example-2 = ئورۇن: ئۈرۈمچى، قەشقەر
+code-switching-not-tag-proper-names-example-3 = ماركا/تەشكىلات: ئىرپان، مۇئەللىم
 
 ## Reporting Content
 

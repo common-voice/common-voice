@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { findLocaleIdFromLocaleCode } from '../'
 
 export const findAccentIdFromToken = async (
@@ -50,9 +51,9 @@ export const bulkDeleteAccentsWithReferences = async (
   // omit if they are not there anymore
   const promises = accent_tokens.map(accent_token =>
     findAccentIdFromToken(db, locale_id, accent_token)
-  );
-  const results = await Promise.all(promises);
-  const accent_ids = results.filter(id => id !== null);
+  )
+  const results = await Promise.all(promises)
+  const accent_ids = results.filter(id => id !== null)
 
   // cancel process if none found
   if (accent_ids.length === 0) {

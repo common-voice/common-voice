@@ -142,7 +142,7 @@ answer = Ateb
 
 ## Community section
 
-community-section-title = Wedi'i bweru gan gymunedau byd-eang, ar gyfer cymunedau byd-eang - 130 o ieithoedd ac yn tyfu!
+community-section-title-202601 = Wedi'i rymuso gan gymunedau byd-eang, ar gyfer cymunedau byd-eang - 290 o ieithoedd ac yn tyfu!
 join-discord-community = Ymunwch â'r Gymuned Discord
 # label for button
 join-discord-community-action = Ymunwch â ni ar Discord

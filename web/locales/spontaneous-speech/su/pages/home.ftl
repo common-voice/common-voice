@@ -13,7 +13,7 @@ why-card-3-text = Pangrojong anu langkung saé pikeun basa anu sakedik atanapi <
 how-spontaneous-speech-works = Kumaha cara gawe Ucapan Spontan
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>Parentah</mark>
-prompt-bubble-subtitle = Kami bakal nunjukeun ka anjeun ngeunaan parentah atanapi patarosan
+prompt-bubble-subtitle = Kami bakal uningakeun ka anjeun perkawis parentah atanapi patarosan
 # text wrapped in <mark></mark> will have a blue background
 respond-bubble-title = <mark>Bales</mark>
 respond-bubble-subtitle = Anjeun tiasa ngarespon atanapi ngabales sa tiasa na
@@ -30,8 +30,8 @@ contact-us = Mangga taros kami.
 contact-us-title = Anjeun minat kanggo ilubiung dina project ieu, atanapi kolaborasi sareng urang?
 contact-us-email = Surelek: <emailFragment>commonvoice@mozilla.com</emailFragment>
 signup-form-title = Anjeun parantos ilubiung di grup uji Beta kanggo Proyek Ucapan Spontan?
-signup-terms = ku ngaklik "Kintunkeun ka  surelek kuring". Anjeun satuju kana <termsLink> Syarat Layanan </termsLink> sareng <privacyLink> Kawijakan Privasi </privacyLink> sareng yen Mozilla bakal ngintun surelek  ka anjeun perkawis inpormasi ngeunaan cara kanggo ilubiung di Tes Beta pikeun Proyek Ucapan Spontan.
-signup-input-placeholder = Lebetkeun surélék anjeun
+signup-terms = ku ngaklik "Kintunkeun ka  email kuring". Anjeun satuju kana <termsLink> Syarat Layanan </termsLink> sareng <privacyLink> Kawijakan Privasi </privacyLink> sareng yen Mozilla bakal ngintun email  ka anjeun perkawis inpormasi ngeunaan cara kanggo ilubiung dina Beta Testing kanggo Proyek Ucapan Spontan Common Voice.
+signup-input-placeholder = Lebetkeun email anjeun
 signup-button-value = Kintunkeun sambungan ka surelek kuring
 footer-text-privacy = <privacyLink>Privasi</privacyLink>
 footer-text-terms = <termsLink>Katangtuan</termsLink>

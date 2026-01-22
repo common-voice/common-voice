@@ -3,13 +3,22 @@ speak-now = Înregistrează-te acum
 speak-subtitle = Donează-ți vocea
 record-cta = Începe înregistrarea
 record-platform-not-supported = Ne pare rău, dar platforma ta nu este acceptată momentan.
+record-platform-webview = Poate ai ajuns aici printr-un link dintr-o aplicație de socializare, pentru că deocamdată folosești un browser în aplicație care nu acceptă înregistrarea secvențelor audio.
+record-platform-not-supported-webview = Pe mobil sau tabletă, poți contribui la proiectul Common Voice prin browserul sistemului de operare.
 record-platform-not-supported-desktop = Pe calculatoare de tip desktop, poți contribui prin descărcarea...
-record-platform-not-supported-ios-non-safari = În iOS, folosește Safari pentru activarea înregistrării…
+record-platform-not-supported-ios-non-safari = În iOS, folosește Safari pentru activarea înregistrării.
 record-must-allow-microphone = Trebuie să permiți accesul la microfon.
 record-no-mic-found = Nu a fost găsit niciun microfon.
 record-error-too-short = Înregistrarea a fost prea scurtă.
 record-error-too-long = Înregistrarea a fost prea lungă.
 record-error-too-quiet = Volumul înregistrării a fost prea scăzut.
+record-error-uploaded-clip-corrupted =
+    Înregistrarea audio este coruptă. Aceasta se poate întâmpla din motivele următoare:
+    • probleme de compatibilitate cu browserul (folosește alt browser);
+    • probleme cu microfonul sau driverul audio;
+    • întreruperi de rețea în timpul înregistrării.
+    Te rugăm să înregistrezi din nou.
+record-error-uploaded-clip-too-long = Înregistrarea ta a depășit durata maximă de { $duration } secunde. Te rugăm să înregistrezi o secvență audio mai scurtă.
 record-cancel = Anulează reînregistrarea
 record-instruction = { $actionType }<recordIcon></recordIcon>, apoi citește propoziția cu voce tare.
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> când ai terminat.

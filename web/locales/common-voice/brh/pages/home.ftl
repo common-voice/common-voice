@@ -139,7 +139,6 @@ answer = ورندی
 
 ## Community section
 
-community-section-title = جہان نا ایلم تا وسیلہ اٹ سوگو مروکا، جہانی ایلم تیکن  — 130 زبانک  اور مستی اننگ!
 join-discord-community = ڈسکارڈ کمیونٹی ٹی ساڑی مبو۔
 # label for button
 join-discord-community-action = ڈسکارڈ آ نن تون اوار مبو

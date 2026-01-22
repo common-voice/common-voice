@@ -118,7 +118,6 @@ add-text = Matanẽ shomil
 
 ## Community section
 
-community-section-title = Dẽnyo jẽmoatvẽ toqatẽn, dẽyoẽ jẽmoatẽr—130 zikishtẽs̃h tẽrẽqin!
 join-discord-community = Dẽ D̃iscord̃ shomil woc
 # label for button
 join-discord-community-action = Sẽ D̃iskard dẽ sakẽn shomil woc.

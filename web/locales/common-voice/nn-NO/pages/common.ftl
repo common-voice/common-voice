@@ -63,6 +63,7 @@ byv = Medumba
 ca = Katalansk
 cak = Kakchikel
 cdo = Austleg Min
+ce = Tsjetsjensk
 cgg = Chiga
 cjk = Chokwe
 ckb = Sentralkurdisk

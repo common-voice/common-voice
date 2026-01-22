@@ -12,6 +12,14 @@ record-no-mic-found = مایکروفون ونه موندل شو.
 record-error-too-short = ثبت ډیر لنډ وو.
 record-error-too-long = ثبت ډیر اوږد وو.
 record-error-too-quiet = ثبت ډیر غلی وو
+record-error-uploaded-clip-corrupted =
+    ستاسې د غږ ثبت شوی فایل داسې ښکاري چې خراب شوی دی. دا ستونزه ښايي د لاندې لاملونو له امله رامنځته شوې وي:
+    • د براوزر د سازګارۍ ستونزې (مهرباني وکړئ بل براوزر وکاروئ)
+    • د مایکروفون یا د غږ ډرایور ستونزې
+    • د ثبت پر مهال د شبکې پرې کېدل
+    
+    مهرباني وکړئ بیا ثبت وکړئ.
+record-error-uploaded-clip-too-long = ستاسو ثبت شوی غږ د اعظمي مودې { $duration } ثانیو څخه زیات شو. مهرباني وکړئ یو لنډ کلیپ ثبت کړئ.
 record-cancel = د سره ثبت کول لغوه کړئ
 record-instruction = { $actionType }<recordIcon></recordIcon> بیا جمله په لوړ غږ ولولئ
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> کله چې سرته ورسي

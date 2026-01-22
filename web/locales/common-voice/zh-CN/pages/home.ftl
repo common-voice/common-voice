@@ -124,7 +124,6 @@ answer = 回答
 
 ## Community section
 
-community-section-title = 由全球社区予力，为全球社区服务。现已支持 130 门语言，且仍在不断扩增！
 join-discord-community = 加入 Discord 社区
 # label for button
 join-discord-community-action = 通过 Discord 加入我们

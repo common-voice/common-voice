@@ -118,7 +118,6 @@ add-text = ٹیکسٹ مِیلہ۔
 
 ## Community section
 
-community-section-title = عالمی سطح دا رسے سپورٹ،عالمی دراوال کیر۔دش تے شو بیش  جیب ۔۔۔۔لا دی پا پتّرون
 join-discord-community = ڈسکورڈدراوال سہ ٹل بہ۔
 # label for button
 join-discord-community-action = ڈسکورذ رل اساں سہ ٹل بہ۔

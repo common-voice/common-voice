@@ -122,7 +122,6 @@ add-text = ٹیکسٹ شامل تھہ
 
 ## Community section
 
-community-section-title = عالمی کمیونٹیز طاقت 130— زُبینی شامل ہنم
 join-discord-community = ڈسکارڈ کمیونٹی وے شامل بھہ۔
 # label for button
 join-discord-community-action = ڈسکارڈی وے اسام سنگی شامل بھہ

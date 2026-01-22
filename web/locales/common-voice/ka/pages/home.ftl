@@ -130,7 +130,6 @@ answer = პასუხი
 
 ## Community section
 
-community-section-title = საერთაშორისო ერთობის ძალისხმევით საერთაშორისო ერთობისთვის — მოიცავს 130 ენას და ჯერ კიდევ მზარდია!
 join-discord-community = შემოუერთდით Discord-ერთობას
 # label for button
 join-discord-community-action = გვეწვიეთ Discord-ზე

@@ -125,7 +125,6 @@ answer = 答案
 
 ## Community section
 
-community-section-title = 由全球社群騙動，為著全球社群 - 130 个語言佮𪜶的成長！
 join-discord-community = 加入 Discord 社群
 # label for button
 join-discord-community-action = 佇 Discord 加入咱的討論區

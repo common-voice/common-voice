@@ -118,7 +118,6 @@ add-text = لیِکھ جم کو
 
 ## Community section
 
-community-section-title = دُونئی سی خلگے کیِدُو، دُونیئی سی خلگا سی کیا 130 جیِبے جم ہوُئی آں دأل ہوا یدی!
 join-discord-community = دیسکارڈ کمیونیٹی می آمن میِلا
 # label for button
 join-discord-community-action = مھو سیت دیسکاڑد می میِل

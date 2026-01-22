@@ -130,7 +130,6 @@ add-text = เพิ่มข้อความ
 
 ## Community section
 
-community-section-title = ขับเคลื่อนโดยชุมชนระดับโลก เพื่อชุมชนระดับโลก — รองรับ 130 ภาษา และจะมากขึ้นอีกในเร็วๆ นี้!
 join-discord-community = เข้าร่วมชุมชน Discord
 # label for button
 join-discord-community-action = เข้าร่วมกับเราบน Discord

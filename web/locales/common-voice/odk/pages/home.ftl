@@ -126,7 +126,6 @@ answer = جواب
 
 ## Community section
 
-community-section-title = عالمِي برادرِيان چي وسِيلي صفا ڌاڪڙا، عالمِي برادرِيان چي ڪاڻ 130 ٻولِيان اڃا بِي بڌِي۔
 join-discord-community = ڊسڪارڊ برادرِي ۾ شامل هُوا۔
 # label for button
 join-discord-community-action = ڊسڪارڊا پر اَمهان ڀيڙي هُوا
