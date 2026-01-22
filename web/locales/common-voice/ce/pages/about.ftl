@@ -73,3 +73,10 @@ about-playbook-how-add-language-content-1 =
     Цуьнан ши мур бу. Сайт гочъяр, аламаш гулбар
 about-playbook-how-add-language-translating-heading = Сайт гочйар
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Хьовса тхан куьйгалле, муха лело йеза Pontoon .</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Оха гочдаршна лелабо <pontoonLink>Pontoon</pontoonLink> цӀе йолу Mozilla гӀирс. Pontoon-ехь дуккха а меттанаш ду,
+    амма нагахь санна хьан мотт бацахь хьан йиш ю <pontoonRequestLink>хьайн мотт тӀетоха дехар дан</pontoonRequestLink>.
+    Цул тӀаьхьа, Common Voice проектехь мотт лело аьтто хилийта,
+    <githubRepoLink>керла мотт беха GitHub тӀехь</githubRepoLink> . <localizationFragment>Кхин дӀа хьажа сайта тӀехь гочдар</localizationFragment>
+about-playbook-how-add-language-collecting-sentences-heading = Аламаш гулбар
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Хьовса тхан куйгалле, муха лело еза  «аламаш гулйархо»   .</sentenceCollectorVideo>
