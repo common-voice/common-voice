@@ -101,3 +101,7 @@ about-playbook-how-add-sentences = Алам тIе муха тоха аса
 about-playbook-how-add-sentences-content-1 = Аламаш тӀетоха йиш ю хьан <writePageLink>Йозан агӀо</writePageLink> тӀехь я аламаш карлабаха йиш ю <reviewPageLink>Талламан агӀо</reviewPageLink> тӀехь.
 about-playbook-how-add-sentences-content-2 = Common Voice проектана аламаш тӀетоьхна хилийта, уьш талла а, къобал бан а беза шина декъашхочо.Ахь<languageGuidelinesLink>кхузахь</languageGuidelinesLink> хьайн маттана куьйгалла хІотта до ахь.Аламаш хила беза<licenseLink>юкъара доменехь </licenseLink> а, 15 дашал боца а .Иштта хьан йиш ю муьлххачу а текстан авторе дехар дан, CC0 лицензина буха йига аьлла, тхан авторан бакъонаш дӀаяхаран механизмах пайда а оьцуш, иза тхуна схьакхачо: commonvoice@mozilla.com .
 about-playbook-how-add-sentences-content-3 = Ахь лело мегар ду <scraperLink>Аламаш схьабохург</scraperLink>аьлла гIирс, Википеди чуьра боца аламаш лело.
+
+## How to record quality
+
+about-playbook-how-record-quality = Аз яздар лакхарчу дикаллица муха дӀаязъдан мегар ду?
