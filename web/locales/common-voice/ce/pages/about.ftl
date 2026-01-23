@@ -120,7 +120,14 @@ about-playbook-how-grow-language-content-3 = Нахана гӀо дан гӀул
 about-playbook-how-grow-language-content-4 = нахалахь йолу медиа
 about-playbook-how-grow-language-content-6 = Цхьанхаллаш а , машийн зIенаш а
 
+## How are decisions made
+
+about-playbook-how-project-governance-content-6 = Вовшашна хьалха жоьпалла
+about-playbook-how-project-governance-content-7 = <governanceLink>Кхин дӀа еша оха муха вовшах тоьхна урхалла </governanceLink>
+
 ## How is Common Voice funded
 
+about-playbook-how-funded = Ахчанца гIо мичар хуьла Common Voice-сан?
+about-playbook-how-funded-content-1 = Common Voice , Mozilla Гулдаман леринарг ю . US 501c3.Карарчу хенахь леринарг дӀайахьа ахча хуьлитарг <philantropicGrantLink>дикачу неха гIо а</philantropicGrantLink> иштта дуьнентӀерачу наха луш долу сагӀанаш а ду.
 about-playbook-how-funded-content-2 = Дукха ахча оьшу хаддаза датийн гуларш дӀахӀитто а, арахеца а, платформа тоян а, дӀаяхьа а<africaMradiLink>юкъараллин программаш</africaMradiLink>
 about-playbook-how-funded-content-3 = Нагахь санна хьуна я хьан къетшонан дакъа лаца лаахь , хьан йиш ю <donateLink>сагӀа</donateLink> даккха, я тхан цхьанахой тобанца зӀене вала<emailFragment>commonvoice@mozilla.com</emailFragment>
