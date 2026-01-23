@@ -122,6 +122,10 @@ about-playbook-how-grow-language-content-6 = Цхьанхаллаш а , маш�
 
 ## How are decisions made
 
+about-playbook-how-project-governance-content-2 = Вайн урхалла хӀокху билламашна тӀехь лаьтташ ду:
+about-playbook-how-project-governance-content-3 = Къайленаш, кхерамазалла а, къеггиналла а
+about-playbook-how-project-governance-content-4 = Юкъараллин дакъалацар а, сацамаш тӀеэцар а.
+about-playbook-how-project-governance-content-5 = Мехалла а мукӀарло дар а
 about-playbook-how-project-governance-content-6 = Вовшашна хьалха жоьпалла
 about-playbook-how-project-governance-content-7 = <governanceLink>Кхин дӀа еша оха муха вовшах тоьхна урхалла </governanceLink>
 
