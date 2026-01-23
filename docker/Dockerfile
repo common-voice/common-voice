@@ -13,11 +13,11 @@ EXPOSE 9000
 
 # Install dependencies
 RUN apt-get update && \
-    apt-get install -y apt-transport-https build-essential cmake && \
-    curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add - && \
-    echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list && \
-    apt-get update && \
-    apt-get install --no-install-recommends -y yarn ffmpeg vim
+    apt-get install -y build-essential cmake ffmpeg vim && \
+    rm -rf /var/lib/apt/lists/*
+
+# Enable Corepack for Yarn (built into Node.js)
+RUN corepack enable && corepack prepare yarn@stable --activate
 
 # Prepare for nonroot user
 RUN groupadd -g $GID app; \
