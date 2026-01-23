@@ -119,3 +119,8 @@ about-playbook-how-grow-language-content-2 = Хиламаш
 about-playbook-how-grow-language-content-3 = Нахана гӀо дан гӀуллакх дӀадахьа йиш ю хьан. Хьуна моьттучула  атта а  ду и. Хьан и дан аьтто бу онлайн видеоконференцин гӀирсаца, я цхьанна хьалха, нагахь санна иза кхераме дацахь.<eventTemplate>Хьовса тхан кепашка а, тӀаьхьалонашка а гӀуллакх дӀадахьа .</eventTemplate>
 about-playbook-how-grow-language-content-4 = нахалахь йолу медиа
 about-playbook-how-grow-language-content-6 = Цхьанхаллаш а , машийн зIенаш а
+
+## How is Common Voice funded
+
+about-playbook-how-funded-content-2 = Дукха ахча оьшу хаддаза датийн гуларш дӀахӀитто а, арахеца а, платформа тоян а, дӀаяхьа а<africaMradiLink>юкъараллин программаш</africaMradiLink>
+about-playbook-how-funded-content-3 = Нагахь санна хьуна я хьан къетшонан дакъа лаца лаахь , хьан йиш ю <donateLink>сагӀа</donateLink> даккха, я тхан цхьанахой тобанца зӀене вала<emailFragment>commonvoice@mozilla.com</emailFragment>
