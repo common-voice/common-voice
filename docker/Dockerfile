@@ -17,7 +17,7 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 
 # Enable Corepack for Yarn (built into Node.js)
-RUN corepack enable && corepack prepare yarn@stable --activate
+RUN corepack enable && corepack prepare yarn@1.22.22 --activate
 
 # Prepare for nonroot user
 RUN groupadd -g $GID app; \
