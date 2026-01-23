@@ -120,8 +120,14 @@ about-playbook-how-grow-language-content-3 = Нахана гӀо дан гӀул
 about-playbook-how-grow-language-content-4 = нахалахь йолу медиа
 about-playbook-how-grow-language-content-6 = Цхьанхаллаш а , машийн зIенаш а
 
+## How to access dataset
+
+about-playbook-how-access-dataset-content-2 = Нагахь санна ахь лоьхуш белахь АСР моделаш ян гӀирсаш, хьан аьтто бу юкъараллехь кхечу нахаца зӀе латто <discourseLink> Discourse </discourseLink>
+
 ## How are decisions made
 
+about-playbook-how-project-governance = Муха тӀеоьцу Леринарган сацамаш?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice лело аьтто бина тайп-тайпанчу юкъаралло, дерриг а дуьнентӀера жигархойн, меттан говзанчийн, хаамийн Ӏилманчийн, Ӏилманчийн, программийн инженерийн. Леринаргана тӀехьожуш ю Mozilla фонд.
 about-playbook-how-project-governance-content-2 = Вайн урхалла хӀокху билламашна тӀехь лаьтташ ду:
 about-playbook-how-project-governance-content-3 = Къайленаш, кхерамазалла а, къеггиналла а
 about-playbook-how-project-governance-content-4 = Юкъараллин дакъалацар а, сацамаш тӀеэцар а.
