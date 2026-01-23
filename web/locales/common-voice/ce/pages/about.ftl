@@ -120,6 +120,10 @@ about-playbook-how-grow-language-content-3 = Нахана гӀо дан гӀул
 about-playbook-how-grow-language-content-4 = нахалахь йолу медиа
 about-playbook-how-grow-language-content-6 = Цхьанхаллаш а , машийн зIенаш а
 
+## How to validate
+
+about-playbook-how-validate-content-4 = Нагахь санна аз яздар 2 стага юхатоьхча, иза арахоьцу датийн гуларан кхечу дакъошкахь
+
 ## How to access dataset
 
 about-playbook-how-access-dataset = Даташ тIе а эцна , церах  пайда муха эца беза?
