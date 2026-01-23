@@ -105,3 +105,4 @@ about-playbook-how-add-sentences-content-3 = Ахь лело мегар ду <sc
 ## How to record quality
 
 about-playbook-how-record-quality = Аз яздар лакхарчу дикаллица муха дӀаязъдан мегар ду?
+about-playbook-how-record-content-1 = Хьайн долш долчу озаца дийца! хьан къамел муьлхха а озаца хилча а, тхуна хазахетар ду . Тхуна оьшу хьан мадарра  аз, цуьнан ерриге а нюансаш юкъа а йохуш: акцент, озан кеп, озан чIогIалла.
