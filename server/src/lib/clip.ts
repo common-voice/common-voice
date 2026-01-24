@@ -109,7 +109,9 @@ export default class Clip {
     fingerprint: string,
     type: 'vote' | 'clip'
   ) {
-    const compiledError = `save_${type}_error: ${fingerprint}: ${msg}`
+    const compiledError = msg
+      ? `save_${type}_error: ${fingerprint}: ${msg}`
+      : `save_${type}_error: ${fingerprint}`
     response.status(status).send(compiledError)
 
     Sentry.withScope(scope => {
@@ -570,8 +572,8 @@ export default class Clip {
               headers,
               response,
               500,
-              `${message}`,
-              `[ffmpeg] ${fingerprint}`,
+              'FFmpeg processing failed',
+              fingerprint,
               'clip'
             )
           }
