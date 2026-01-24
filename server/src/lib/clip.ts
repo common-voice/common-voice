@@ -568,7 +568,14 @@ export default class Clip {
               )
               .trim()
 
-            this.clipSaveError(headers, response, 500, '', fingerprint, 'clip')
+            this.clipSaveError(
+              headers,
+              response,
+              500,
+              'FFmpeg processing failed',
+              fingerprint,
+              'clip'
+            )
           }
         }
       } finally {
