@@ -18,3 +18,8 @@ partial-questions-upload-message =
     }
 # Guidelines
 add-question-guidelines-title = Муьлха хаттарш тӀетоха мегар ду?
+do-section-title = де
+do-section-guideline-1 = Нийса йоза йаздарех а, грамматикех а пайдаэцар .
+do-section-guideline-2 = Муьлххачу а стагана кхета атта долу хаттарш харжа, культуре а, контексте а ца хьоьжуш
+do-section-guideline-3 = Царна цхьана-шина аламца  жоьпаш дала йиш хиларх тешна хила.
+do-not-section-title = ма де
