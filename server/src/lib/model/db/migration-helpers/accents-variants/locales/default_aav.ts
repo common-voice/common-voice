@@ -112,19 +112,26 @@ export const migrateAccentsToAccentsAndVariants_default = async (
 
     // Remove the old accent if no one uses it anymore and doDelete is true
     if (doDelete) {
-      const [{ count }] = await db.runSql(
-        `
-        SELECT COUNT(*) as count
-        FROM user_client_accents
-        WHERE locale_id=? AND accent_id=?
-      `,
-        [locale_id, old_accent_id]
-      )
+      try {
+        const result = await db.runSql(
+          `
+          SELECT COUNT(*) as count
+          FROM user_client_accents
+          WHERE locale_id=? AND accent_id=?
+        `,
+          [locale_id, old_accent_id]
+        )
 
-      if (Number(count) === 0) {
-        await db.runSql(`DELETE FROM accents WHERE id=? LIMIT 1`, [
-          old_accent_id,
-        ])
+        if (result && result[0] && Number(result[0].count) === 0) {
+          await db.runSql(`DELETE FROM accents WHERE id=? LIMIT 1`, [
+            old_accent_id,
+          ])
+        }
+      } catch (err) {
+        console.warn(
+          `Failed to delete accent [${old_accent_token}]:`,
+          err.message
+        )
       }
     }
   }
