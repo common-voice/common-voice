@@ -55,6 +55,9 @@ export default class AudioWeb {
   }
 
   private isReady(): boolean {
+    // Check microphone exists AND recorder is properly initialized with valid state
+    // Using state !== undefined is more robust than !!this.recorder because
+    // it verifies the MediaRecorder is fully constructed with its state machine
     return !!this.microphone && this.recorder?.state !== undefined
   }
 
@@ -120,6 +123,23 @@ export default class AudioWeb {
 
   setVolumeCallback(cb: (volume: number) => void) {
     this.volumeCallback = cb
+  }
+
+  /**
+   * Determine optimal recording timeslice based on browser capabilities.
+   * Smaller chunks for Safari/iOS prevent buffer issues, larger chunks for others improve efficiency.
+   */
+  private getOptimalTimeslice(): number {
+    if (isIOS()) {
+      // iOS: 1s chunks - prevents buffer overflow on memory-constrained devices
+      return 1_000
+    }
+    if (isMacOSSafari()) {
+      // macOS Safari: 5s chunks - balance between reliability and efficiency
+      return 5_000
+    }
+    // Chrome/Firefox/Edge: 20s chunks - these browsers handle large buffers well
+    return 20_000
   }
 
   /**
@@ -288,12 +308,7 @@ export default class AudioWeb {
         this.recorderListeners.dataavailable
       )
 
-      // Safari/iOS buffer handling: use smaller chunks to prevent data loss
-      // iOS (1s): Most aggressive - prevents buffer overflow on memory-constrained devices
-      // macOS Safari (5s): Balance between reliability and efficiency
-      // Chrome/Firefox (20s): Efficient - these browsers handle large buffers well
-      const timeslice = isIOS() ? 1000 : isMacOSSafari() ? 5000 : 20000
-      this.recorder.start(timeslice)
+      this.recorder.start(this.getOptimalTimeslice())
     })
   }
 
@@ -316,6 +331,8 @@ export default class AudioWeb {
         const chunks = this.chunks
         const recordingMimeType = this.recordingMimeType
 
+        // Small delay to ensure all dataavailable events have been processed
+        // MediaRecorder may fire stop event before final chunk arrives
         setTimeout(() => {
           // Use actual mimeType or empty string (let browser infer from data)
           const blobType = recordingMimeType || ''

@@ -248,6 +248,9 @@ export function getManageSubscriptionURL(account: UserClient) {
 export const getAudioFormat = () => {
   // iOS/macOS Safari => MP4/AAC
   if (isIOS() || isMacOSSafari()) {
+    // Prefer AAC-LC (mp4a.40.2) - most compatible AAC profile
+    // This is the baseline AAC profile that Safari/WebKit encoders produce
+    // and ensures predictable quality/compatibility across Apple devices
     if (MediaRecorder.isTypeSupported('audio/mp4;codecs=mp4a.40.2')) {
       return 'audio/mp4;codecs=mp4a.40.2'
     }
