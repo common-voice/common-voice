@@ -81,6 +81,13 @@ const AAV_MAPPING: AAV_MAPPING_TYPE = [
   ['standard-accent', 'ro-muntenia', 'ro-RO', true],
   ['standard-romanian', 'ro-muntenia', 'ro-RO', true],
   ['sud', 'ro-muntenia', 'ro-RO', true],
+  // Generic accents (standard Romanian)
+  ['native', 'ro-muntenia', 'ro-RO', true],
+  ['no-accent', 'ro-muntenia', 'ro-RO', true],
+  ['none', 'ro-muntenia', 'ro-RO', true],
+  ['normal', 'ro-muntenia', 'ro-RO', true],
+  ['neutral', 'ro-muntenia', 'ro-RO', true],
+  ['good', 'ro-muntenia', 'ro-RO', true],
 
   // Oltenia region
   ['oltean', 'ro-oltenia', 'ro-RO', true],
