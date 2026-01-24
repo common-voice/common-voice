@@ -170,6 +170,45 @@ export function isMobileSafari(): boolean {
   return hasSafari || isStandalone
 }
 
+/**
+ * Detects Safari browser on macOS (desktop).
+ * Uses positive detection: Safari uniquely has "Version/X.X" pattern without "Chrome".
+ * This is more robust than maintaining a list of all Chromium-based browsers.
+ *
+ * Excludes iOS Safari (use isMobileSafari for that) and all other browsers on macOS.
+ */
+export function isMacOSSafari(): boolean {
+  if (isIOS()) {
+    return false
+  }
+
+  const ua = navigator.userAgent
+
+  // Must be on macOS
+  const isMacOS = /Mac OS X|Macintosh/i.test(ua)
+  if (!isMacOS) {
+    return false
+  }
+
+  // Safari's unique signature: has "Safari" AND "Version/X.X" but NOT "Chrome"
+  // Chrome-based browsers (Chrome, Edge, Brave, Arc, Vivaldi, Yandex, etc.)
+  // include both "Safari" and "Chrome" in their UA
+  // True Safari has "Version/" which Chrome-based browsers typically don't
+  const hasSafari = /Safari/i.test(ua)
+  const hasVersion = /Version\/[\d.]+/i.test(ua)
+  const hasChrome = /Chrome|Chromium/i.test(ua)
+  const hasFirefox = /Firefox/i.test(ua)
+
+  // Exclude WebKit-based browsers that mimic Safari's pattern:
+  // - Orion Browser (WebKit-based, has "Version/" like Safari)
+  // - DuckDuckGo Browser (privacy browser that may spoof Safari)
+  // - SigmaOS (privacy-focused browser)
+  const isSpoofed = /Orion|DuckDuckGo|SigmaOS/i.test(ua)
+
+  // True Safari: has Safari + Version markers, but NO Chrome/Chromium/Firefox/spoofed browsers
+  return hasSafari && hasVersion && !hasChrome && !hasFirefox && !isSpoofed
+}
+
 export function isMobileResolution(): boolean {
   return window.matchMedia('(max-width: 768px)').matches
 }
@@ -203,36 +242,28 @@ export function getManageSubscriptionURL(account: UserClient) {
 }
 
 /**
- * Get the appropriate audio format for MediaRecorder based on device capabilities.
- * Uses MediaRecorder.isTypeSupported() to ensure compatibility.
- *
- * Note: isIOS() handles iPad Pro in desktop mode (via touch detection),
- * so all iPads get MP4/AAC regardless of UA string.
- * Safari on macOS also needs MP4 as it doesn't support WebM/Opus playback natively.
+ * Get the appropriate audio format for MediaRecorder.
+ * Note: Caller should not force this format on iOS/Safari - they work better with defaults.
  */
 export const getAudioFormat = () => {
-  // Detect Safari browser (including macOS Safari)
-  // Safari doesn't support WebM/Opus playback natively, so use MP4/AAC
-  const isSafari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent)
-
-  // iOS/iPadOS/Safari (including iPad Pro in desktop mode and macOS Safari) => MP4/AAC
-  // Safari on all platforms needs MP4 format for reliable playback
-  if (isIOS() || isSafari) {
-    if (MediaRecorder.isTypeSupported('audio/mp4;codecs=aac')) {
-      return 'audio/mp4;codecs=aac'
+  // iOS/macOS Safari => MP4/AAC
+  if (isIOS() || isMacOSSafari()) {
+    if (MediaRecorder.isTypeSupported('audio/mp4;codecs=mp4a.40.2')) {
+      return 'audio/mp4;codecs=mp4a.40.2'
     }
     if (MediaRecorder.isTypeSupported('audio/mp4')) {
       return 'audio/mp4'
     }
-    // Fallback for edge cases (shouldn't happen in practice)
-    console.warn(
-      '[getAudioFormat] Falling back to audio/webm;codecs=opus on Safari/iOS. ' +
-        'Safari may not support WebM/Opus playback natively, so recording/playback may fail.'
-    )
-    return 'audio/webm;codecs=opus'
+    // Fallback - check WebM support
+    if (MediaRecorder.isTypeSupported('audio/webm;codecs=opus')) {
+      return 'audio/webm;codecs=opus'
+    }
+    if (MediaRecorder.isTypeSupported('audio/webm')) {
+      return 'audio/webm'
+    }
   }
 
-  // All other platforms (Chrome, Firefox, Edge on Windows/Linux) => WebM/Opus
+  // All other platforms => WebM/Opus
   if (MediaRecorder.isTypeSupported('audio/webm;codecs=opus')) {
     return 'audio/webm;codecs=opus'
   }
@@ -240,12 +271,8 @@ export const getAudioFormat = () => {
     return 'audio/webm'
   }
 
-  // Fallback to generic audio format if specific codecs not supported
-  console.warn(
-    '[getAudioFormat] Falling back to generic audio format. ' +
-      'Recording may not work as expected.'
-  )
-  return 'audio/*'
+  // Let MediaRecorder choose default
+  return ''
 }
 
 export async function hash(text: string) {
