@@ -12,6 +12,13 @@ record-no-mic-found = Anaaa microphone.
 record-error-too-short = Nɔ ni aŋmala ashwie shi lɛ yɛ kuku tsɔ.
 record-error-too-long = Nɔ ni aŋmala lɛ sɛɛ tsɛ tsɔ.
 record-error-too-quiet = Nɔ ni aŋmala lɛ fee dioo tsɔ.
+record-error-uploaded-clip-corrupted =
+    Etamɔ nɔ ni o recording lɛ efite. Enɛ baanyɛ aba yɛ:
+    • Browser lɛ he saji (kaa browser kroko okwɛ)
+    • Microphone loo audio driver he naagbai
+    • Network lɛ mligbalamɔi yɛ be mli ni atswaa lala lɛ
+    Ofainɛ kaa recording ekoŋŋ.
+record-error-uploaded-clip-too-long = O niŋmaa lɛ fe be ni fa fe fɛɛ ni ji { $duration } sɛkɛndii. Ofainɛ, record klip kuku.
 record-cancel = Fomɔ Re-recording lɛ mli
 record-instruction = { $actionType }<recordIcon></recordIcon> no sɛɛ lɛ, kanemɔ wiemɔ kuku lɛ waa
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> beni agbe naa lɛ

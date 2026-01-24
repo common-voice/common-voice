@@ -91,7 +91,8 @@ const buildLocaleEnglishNameMapping = (): Record<string, string> => {
       .split('\n')
     for (const line of lines) {
       const trimmedLine = line.trim()
-      const match = trimmedLine.match(/^([a-z0-9-]+)\s*=\s*(.+)$/i)
+      // Match locale code (alphanumeric + hyphens) = any Unicode characters (including apostrophes)
+      const match = trimmedLine.match(/^([a-z0-9-]+)\s*=\s*(.+)$/iu)
       if (match) {
         const [, code, name] = match
         if (code && name) {

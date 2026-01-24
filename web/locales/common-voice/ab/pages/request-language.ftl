@@ -7,14 +7,14 @@ request-language-explanation-1 =
     Ҳәарада, абри аформа шәызҭәы, ҳара<strong>хәарҭа злоу е-маил шәзаҳашьҭуеит,
     бызшәа</strong>шшьақәыргылатәу еилзыркаауа.
 request-language-form-email =
-    .label = Уе-маил:
+    .label = Шә-e-mail:
 request-language-form-info =
-    .label = Абызшәа аинформациа
+    .label = Абызшәа иазку аинформациа
 request-language-form-info-explanation =
     Иахьынӡауҭаху абызшәа иазку аинформациа ацҵа. Лара
     иаҵанакуеит:
 request-language-form-info-explanation-list-1 = Шәбызшәа ахьыӡқәа
-request-language-form-info-explanation-list-2 = <isoCodeLink>ISO акодқәа</isoCodeLink>, еилкаазар
+request-language-form-info-explanation-list-2 = <isoCodeLink>ISO-акодқәа</isoCodeLink>, урҭ еилкаазар
 request-language-form-info-explanation-list-3 = Абызшәа аилкаараҿы иҳацхраауа асаитқәа рахь азхьарԥшқәа
 request-language-google-recaptcha-required = ReCAPTCHA аҭахуп, ацҵара уҭахызар
 request-language-google-recaptcha-error = Акы еиқәымшәеит reCAPTCHA. Ҳаҳәоит даҽазнык шәҽазышәшәа.
