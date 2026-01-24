@@ -198,7 +198,12 @@ class SpeakPage extends React.Component<Props, State> {
 
     document.removeEventListener('visibilitychange', this.releaseMicrophone)
     if (!this.isRecording) return
-    await this.audio.stop()
+    try {
+      await this.audio.stop()
+    } catch (error) {
+      // Audio may not be ready - ignore error during unmount
+      console.log('Could not stop recording during unmount:', error)
+    }
   }
 
   private get isRecording() {
@@ -368,7 +373,12 @@ class SpeakPage extends React.Component<Props, State> {
 
   private discardRecording = async () => {
     if (!this.isRecording) return
-    await this.audio.stop()
+    try {
+      await this.audio.stop()
+    } catch (error) {
+      // Audio may not be ready yet - ignore the error
+      console.log('Could not stop recording:', error)
+    }
     this.setState({ recordingStatus: null })
   }
 
