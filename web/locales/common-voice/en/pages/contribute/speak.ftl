@@ -17,7 +17,6 @@ record-error-uploaded-clip-corrupted = Your audio recording appears to be corrup
   • Microphone or audio driver problems
   • Network interruptions during recording
   Please try recording again.
-record-error-uploaded-clip-too-long = Your recording exceeded the maximum duration of { $duration } seconds. Please record a shorter clip.
 record-cancel = Cancel Re-recording
 record-instruction = { $actionType }<recordIcon></recordIcon> then read the sentence aloud
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> when done

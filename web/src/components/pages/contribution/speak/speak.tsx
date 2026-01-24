@@ -497,10 +497,6 @@ class SpeakPage extends React.Component<Props, State> {
               // Corrupted audio data - don't retry, show helpful message
               key = 'record-error-uploaded-clip-corrupted'
               shouldRetry = false
-            } else if (error.message.includes('RECORDING_TOO_LONG')) {
-              // Recording too long - don't retry, user needs to re-record
-              key = 'record-error-uploaded-clip-too-long'
-              shouldRetry = false
             } else if (error.message.includes('save_clip_error')) {
               key = 'error-clip-upload-server'
               shouldRetry = true // Retry server errors
