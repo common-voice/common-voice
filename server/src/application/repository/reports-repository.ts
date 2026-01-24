@@ -33,7 +33,10 @@ const getTableInfoFrom = (kind: ReportKind): ReportTableInfo => {
 }
 const createReportQuery = (tableInfo: ReportTableInfo) =>
   `
-    INSERT INTO ${tableInfo.table} (client_id, ${tableInfo.column}, reason) VALUES (?, ?, ?)
+    INSERT INTO ${tableInfo.table} (client_id, ${tableInfo.column}, reason) 
+    VALUES (?, ?, ?)
+    ON DUPLICATE KEY UPDATE 
+      id = id
   `
 
 const createQueryForReportKind = flow(getTableInfoFrom, createReportQuery)
