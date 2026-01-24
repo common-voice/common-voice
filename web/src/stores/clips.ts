@@ -1,7 +1,12 @@
 import { Action as ReduxAction, Dispatch } from 'redux'
+import * as Sentry from '@sentry/react'
 import StateTree from './tree'
 import { User } from './user'
 import { Clip } from 'common'
+
+// Feature flag: Enable detailed error telemetry in Sentry
+// Set to false to reduce Sentry costs (only critical errors will be tracked)
+const ENABLE_ERROR_TELEMETRY = true
 
 async function getCanPlayAudio(audioSrc: string) {
   return new Promise(resolve => {
@@ -142,8 +147,28 @@ export namespace Clips {
 
           dispatch({ type: ActionType.REFILL_CACHE, clips })
         } catch (err) {
+          const errorMessage = err instanceof Error ? err.message : String(err)
+          const errorName = err instanceof Error ? err.name : 'UnknownError'
+
+          // Track handled errors in Sentry only if telemetry enabled
+          if (ENABLE_ERROR_TELEMETRY) {
+            Sentry.addBreadcrumb({
+              category: 'clips',
+              message: 'Failed to load clips',
+              level: 'error',
+              data: { error: errorMessage, errorType: errorName },
+            })
+
+            Sentry.captureMessage('Clip loading failed (handled)', {
+              level: 'warning',
+              tags: { action: 'refillCache', errorType: errorName },
+              contexts: {
+                clips: { error: errorMessage, locale: state.locale },
+              },
+            })
+          }
+
           dispatch({ type: ActionType.LOAD_ERROR })
-          throw err
         }
       },
 
@@ -156,27 +181,76 @@ export namespace Clips {
         const state = getState()
         const id = clipId
 
+        // Store the clip before removing in case we need to rollback
+        const clipToRemove = localeClips(state).clips.find(c => c.id === id)
+
+        // Optimistically remove clip from UI
         dispatch({ type: ActionType.REMOVE_CLIP, clipId: id })
-        const {
-          showFirstContributionToast,
-          hasEarnedSessionToast,
-          showFirstStreakToast,
-          challengeEnded,
-        } = await state.api.saveVote(id, isValid)
-        if (!state.user.account) {
-          dispatch(User.actions.tallyVerification())
-        }
-        if (state.user?.account?.enrollment?.challenge) {
-          dispatch({
-            type: ActionType.ACHIEVEMENT,
+
+        try {
+          const {
             showFirstContributionToast,
             hasEarnedSessionToast,
             showFirstStreakToast,
             challengeEnded,
-          })
+          } = await state.api.saveVote(id, isValid)
+
+          if (!state.user.account) {
+            dispatch(User.actions.tallyVerification())
+          }
+          if (state.user?.account?.enrollment?.challenge) {
+            dispatch({
+              type: ActionType.ACHIEVEMENT,
+              showFirstContributionToast,
+              hasEarnedSessionToast,
+              showFirstStreakToast,
+              challengeEnded,
+            })
+          }
+          User.actions.refresh()(dispatch, getState)
+          actions.refillCache()(dispatch, getState)
+        } catch (error) {
+          // Track network/server errors for debugging (won't mark as "unhandled")
+          const errorMessage =
+            error instanceof Error ? error.message : String(error)
+          const errorName = error instanceof Error ? error.name : 'UnknownError'
+
+          // Track handled errors in Sentry only if telemetry enabled
+          if (ENABLE_ERROR_TELEMETRY) {
+            Sentry.addBreadcrumb({
+              category: 'vote',
+              message: 'Vote submission failed',
+              level: 'error',
+              data: {
+                clipId: id,
+                isValid,
+                error: errorMessage,
+                errorType: errorName,
+              },
+            })
+
+            Sentry.captureMessage('Vote submission failed (handled)', {
+              level: 'warning',
+              tags: { action: 'vote', errorType: errorName },
+              contexts: { vote: { clipId: id, isValid, error: errorMessage } },
+            })
+          }
+
+          // Only restore clip for definite failures
+          // Network timeouts/errors might mean vote succeeded but response was lost
+          const isDefiniteFailure =
+            errorName === 'NotFoundError' || // Clip doesn't exist (404)
+            errorName === 'BusinessLogicError' // Business rule/validation violation (400)
+
+          if (clipToRemove && isDefiniteFailure) {
+            dispatch({
+              type: ActionType.REFILL_CACHE,
+              clips: [clipToRemove],
+            })
+          }
+
+          dispatch({ type: ActionType.LOAD_ERROR })
         }
-        User.actions.refresh()(dispatch, getState)
-        actions.refillCache()(dispatch, getState)
       },
 
     remove:
