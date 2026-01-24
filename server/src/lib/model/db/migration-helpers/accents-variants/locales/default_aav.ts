@@ -130,7 +130,7 @@ export const migrateAccentsToAccentsAndVariants_default = async (
       } catch (err) {
         console.warn(
           `Failed to delete accent [${old_accent_token}]:`,
-          err.message
+          err instanceof Error ? err.message : err
         )
       }
     }

@@ -74,7 +74,10 @@ export const migrateAccentsToVariants_default = async (
           await db.runSql(`DELETE FROM accents WHERE id=? LIMIT 1`, [accent_id])
         }
       } catch (err) {
-        console.warn(`Failed to delete accent [${accent_token}]:`, err.message)
+        console.warn(
+          `Failed to delete accent [${accent_token}]:`,
+          err instanceof Error ? err.message : err
+        )
       }
     }
   }
