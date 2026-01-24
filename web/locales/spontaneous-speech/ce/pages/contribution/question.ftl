@@ -25,3 +25,6 @@ do-section-guideline-3 = Царна цхьана-шина аламца  жоьп
 do-not-section-title = ма де
 do-not-section-guideline-1 = Шенна лерина хаам беха (масала, цӀераш я ахчанца боьзна хаам)
 do-not-section-guideline-2 = ХьагӀ йолуш я вас еш болу синхаамаш гучубаккхар
+do-not-section-guideline-3 = Экаме хаттарш ло
+# Code switching Guidelines
+cs-do-section-guideline-1 = Шина маттахь долчу хаттарех я контекстах пайдаэца .
