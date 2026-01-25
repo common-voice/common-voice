@@ -7,9 +7,10 @@ type ToggleProps = {
   label: string
   checked: boolean
   onToggle: (checked: boolean) => void
+  disabled: boolean
 }
 
-const Toggle: React.FC<ToggleProps> = ({ label, checked, onToggle }) => {
+const Toggle: React.FC<ToggleProps> = ({ label, checked, onToggle, disabled }) => {
   const { l10n } = useLocalization()
 
   const handleToggle = (evt: React.ChangeEvent<HTMLInputElement>) => {
@@ -27,6 +28,7 @@ const Toggle: React.FC<ToggleProps> = ({ label, checked, onToggle }) => {
           id={`toggle-${label}`}
           aria-label={l10n.getString(label)}
           data-testid={label}
+          disabled={disabled}
         />
         <span className="slider"></span>
       </label>

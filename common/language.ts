@@ -72,3 +72,8 @@ export type LanguageData = {
   variants: VariantData[]
   predefined_accents: AccentData[]
 }
+
+export type AvailableLanguages = {
+  project: string
+  availableLanguages: string[]
+}
