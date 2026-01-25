@@ -2,10 +2,10 @@
 
 request-language-heading = Абызшәа ҿыц ацҵаразы аҳәара
 request-language-explanation-1 =
-    Шәбызшәа ахьӡынҵаҿы иҟоу-иҟаму гәашәҭ
-    <languagesPageLink>>Еицырзеиԥшу ацәажәаратә бызшәақәа рыдаҟьа</languagesPageLink>.
-    Ҳәарада, абри аформа шәызҭәы, ҳара<strong>хәарҭа злоу е-маил шәзаҳашьҭуеит,
-    бызшәа</strong>шшьақәыргылатәу еилзыркаауа.
+    Шәбызшәа инарҭбааны ахархәара змоу абызшәақәа  
+    <languagesPageLink> рдаҟьаҿы иҟоу-иҟаму гәашҭ</languagesPageLink>.
+    Ыҟамзар, абри аформа хашәырҭәаа, нас ҳара<strong>хәарҭара злоу аелектронтә шәҟәы шәзынаҳашьҭуеит,
+    абызшәа шырхиатәу шәеилзыркаауа </strong>.
 request-language-form-email =
     .label = Шә-e-mail:
 request-language-form-info =
