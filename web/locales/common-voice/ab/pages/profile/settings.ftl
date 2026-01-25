@@ -1,7 +1,7 @@
 ## Profile - Settings
 
-manage-subscriptions = Анапаҵаҩрақәа рнапхгара
-manage-email-subscriptions = Аԥошьҭа анапаҵаҩрақәа рнапхгара
+manage-subscriptions = Аҽаҵаҩрақәа рнапхгара
+manage-email-subscriptions = Аелектронтә ԥошьҭала аҽаҵаҩрақәа рнапхгара
 email-already-used = Аелектронтә ԥошьҭа даҽа аккаунт аҿы ахархәара амоуп
 add-language = Абызшәа ацҵара
 change-email-setings = Аҭагаларазы аидентификатор архиага аҟәшала ,уелектронтә ԥошьҭа аҭыӡҭа ԥсах
