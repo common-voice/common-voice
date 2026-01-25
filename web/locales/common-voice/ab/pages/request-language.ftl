@@ -13,9 +13,9 @@ request-language-form-info =
 request-language-form-info-explanation = Абызшәа иазку аинформациа шаҟа шәылшо иацышәҵа. Иара иаҵанакыр алшоит:
 request-language-form-info-explanation-list-1 = Шәбызшәа ахьыӡқәа
 request-language-form-info-explanation-list-2 = <isoCodeLink>ISO-акодқәа</isoCodeLink>, урҭ еилкаазар
-request-language-form-info-explanation-list-3 = Абызшәа аилкаараҿы иҳацхраауа асаитқәа рахь азхьарԥшқәа
-request-language-google-recaptcha-required = ReCAPTCHA аҭахуп, ацҵара уҭахызар
-request-language-google-recaptcha-error = Акы еиқәымшәеит reCAPTCHA. Ҳаҳәоит даҽазнык шәҽазышәшәа.
+request-language-form-info-explanation-list-3 = Абызшәа аилкаараҿы иҳацхрааша авеб-саитқәа рахь азхьарԥшқәа
+request-language-google-recaptcha-required = ReCAPTCHA аҭахуп, ацҵара шәҭахызар
+request-language-google-recaptcha-error = reCAPTCHA иадҳәалоу акы ишаҭахыз акәымкәа иҟалеит. Ҳшәыҳәоит, даҽазнык шәҽазышәшәа.
 # Success page
 request-language-success-heading = Иҭабуп! Абызшәа ҿыц азы аҳәара ҟашәҵеит
 request-language-success-list-1 =
