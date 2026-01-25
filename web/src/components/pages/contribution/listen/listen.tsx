@@ -526,8 +526,9 @@ class ListenPage extends React.Component<Props, State> {
               locale,
             }}
             sentences={(clips || [])
-              .map(clip => clip?.sentence)
-              .filter(Boolean)}
+              // Clip.sentence is always defined per type definition
+              // Array length MUST match pills array for correct UI alignment
+              .map(clip => clip.sentence)}
             shortcuts={[
               {
                 key: 'shortcut-play-toggle',
