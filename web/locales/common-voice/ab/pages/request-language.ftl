@@ -19,8 +19,8 @@ request-language-google-recaptcha-error = reCAPTCHA иадҳәалоу акы и
 # Success page
 request-language-success-heading = Иҭабуп! Абызшәа ҿыц азы аҳәара ҟашәҵеит
 request-language-success-list-1 =
-    Иааркьаҿны еилыркаарак зну аимеил шәзаашьҭроуп
-    Азеиԥш бжьы убызшәа ацҵаразы ашьаҿақәа
+    Common Voice ахь шәбызшәа ацҵаразы
+    ашьаҿақәа ртәы иааркьаҿны ишәеилзыркаауа аелектронтә шәҟәы шәоуроуп
 request-language-success-list-2 =
     Ҳара ҳауаажәларра анапхгаҩы шәара шәҿаԥхьа дгылоит
     иацҵаны адгылара, насгьы иҟазар шәеилаҳкаап
