@@ -1521,6 +1521,7 @@ export default class DB {
       await this.mysql.query(
         `
           INSERT INTO skipped_clips (clip_id, client_id) VALUES (?, ?)
+          ON DUPLICATE KEY UPDATE clip_id = clip_id
         `,
         [id, client_id]
       )
