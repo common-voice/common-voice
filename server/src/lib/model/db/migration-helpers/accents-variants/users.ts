@@ -78,6 +78,32 @@ export const findEligibleUsersForAccentToAccentAndVariantMigration = async (
   }
 }
 
+// Pre-filter users who already have the target accent
+// Used to prevent ER_DUP_ENTRY errors in batch operations
+export const filterUsersWithoutTargetAccent = async (
+  db: any,
+  locale_id: number,
+  target_accent_id: number,
+  clientIds: string[]
+): Promise<string[]> => {
+  if (clientIds.length === 0) return []
+
+  const rows: { client_id: string }[] = await db.runSql(
+    `
+      SELECT DISTINCT client_id
+      FROM user_client_accents
+      WHERE locale_id = ? AND accent_id = ?
+        AND client_id IN (${clientIds.map(() => '?').join(',')})
+    `,
+    [locale_id, target_accent_id, ...clientIds]
+  )
+
+  const usersWithTargetAccent = new Set(rows.map(row => row.client_id))
+
+  // Return only users who DON'T have the target accent
+  return clientIds.filter(id => !usersWithTargetAccent.has(id))
+}
+
 export const bulkUpdateUserAccents = async (
   db: any,
   locale_id: number,
@@ -85,13 +111,66 @@ export const bulkUpdateUserAccents = async (
   new_accent_id: number,
   clientIdBatch: string[]
 ): Promise<any> => {
-  await db.runSql(
-    `
-      UPDATE user_client_accents
-      SET accent_id = ?
-      WHERE locale_id = ? AND accent_id = ?
-        AND client_id IN (${clientIdBatch.map(() => '?').join(',')})
-    `,
-    [new_accent_id, locale_id, old_accent_id, ...clientIdBatch]
-  )
+  if (clientIdBatch.length === 0) return
+
+  try {
+    await db.runSql(
+      `
+        UPDATE user_client_accents
+        SET accent_id = ?
+        WHERE locale_id = ? AND accent_id = ?
+          AND client_id IN (${clientIdBatch.map(() => '?').join(',')})
+      `,
+      [new_accent_id, locale_id, old_accent_id, ...clientIdBatch]
+    )
+  } catch (err: any) {
+    // If batch operation fails, process one-by-one to handle errors individually
+    if (err.code === 'ER_DUP_ENTRY') {
+      console.warn(
+        `Batch update failed due to duplicates, processing ${clientIdBatch.length} user(s) individually...`
+      )
+
+      // Process each user individually
+      for (const client_id of clientIdBatch) {
+        try {
+          await db.runSql(
+            `
+              UPDATE user_client_accents
+              SET accent_id = ?
+              WHERE locale_id = ? AND accent_id = ? AND client_id = ?
+            `,
+            [new_accent_id, locale_id, old_accent_id, client_id]
+          )
+        } catch (individualErr: any) {
+          if (individualErr.code === 'ER_DUP_ENTRY') {
+            // This specific user already has the new accent, delete old one
+            console.warn(
+              `User ${client_id.substring(
+                0,
+                8
+              )}... already has target accent, deleting old accent`
+            )
+            await db.runSql(
+              `
+                DELETE FROM user_client_accents
+                WHERE locale_id = ? AND accent_id = ? AND client_id = ?
+              `,
+              [locale_id, old_accent_id, client_id]
+            )
+          } else {
+            // Other errors - log but continue with remaining users
+            console.warn(
+              `Failed to update accent for user ${client_id.substring(
+                0,
+                8
+              )}...:`,
+              individualErr.message
+            )
+          }
+        }
+      }
+    } else {
+      throw err
+    }
+  }
 }

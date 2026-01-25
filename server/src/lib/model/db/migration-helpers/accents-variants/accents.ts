@@ -24,14 +24,42 @@ export const bulkDeleteUserAccents = async (
   accent_id: number,
   clientIdBatch: string[]
 ): Promise<any> => {
-  await db.runSql(
-    `
-      DELETE FROM user_client_accents
-      WHERE locale_id=? AND accent_id=?
-        AND client_id IN (${clientIdBatch.map(() => '?').join(',')})
-    `,
-    [locale_id, accent_id, ...clientIdBatch]
-  )
+  if (clientIdBatch.length === 0) return
+
+  try {
+    await db.runSql(
+      `
+        DELETE FROM user_client_accents
+        WHERE locale_id=? AND accent_id=?
+          AND client_id IN (${clientIdBatch.map(() => '?').join(',')})
+      `,
+      [locale_id, accent_id, ...clientIdBatch]
+    )
+  } catch (err: any) {
+    // If batch delete fails, try one-by-one
+    // Although deletion should not normally fail, we handle it just in case, e.g. DB access issues
+    console.warn(
+      `Batch delete failed for ${clientIdBatch.length} user(s), processing individually...`
+    )
+
+    for (const client_id of clientIdBatch) {
+      try {
+        await db.runSql(
+          `
+            DELETE FROM user_client_accents
+            WHERE locale_id=? AND accent_id=? AND client_id=?
+          `,
+          [locale_id, accent_id, client_id]
+        )
+      } catch (individualErr: any) {
+        console.warn(
+          `Failed to delete accent for user ${client_id.substring(0, 8)}...:`,
+          individualErr.message
+        )
+        // Continue with remaining users
+      }
+    }
+  }
 }
 
 // This is for final clean-up - use with care
