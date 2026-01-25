@@ -263,6 +263,7 @@ class ListenPage extends React.Component<Props, State> {
       // Each user can only get once.
       api.setInviteContributeAchievement()
     }
+    clearInterval(this.playedSomeInterval)
     this.setState({
       hasPlayed: false,
       hasPlayedSome: false,
@@ -380,10 +381,12 @@ class ListenPage extends React.Component<Props, State> {
           {!isSubmitted && (
             <NavigationPrompt
               when={() => {
-                // Only show warning if there are votes that haven't been submitted yet
+                // Only show warning if there are clips loaded AND votes that haven't been submitted yet
                 // After submission (isSubmitted=true), user can safely refresh
                 const isUnvalidatedClips =
-                  !isSubmitted && clips.some(clip => clip.isValid !== null)
+                  !isSubmitted &&
+                  clips.length > 0 &&
+                  clips.some(clip => clip.isValid !== null)
 
                 if (isUnvalidatedClips) {
                   this.setAbortContributionModalVisiblity(true)
