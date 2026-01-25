@@ -8,6 +8,13 @@ import { Clip } from 'common'
 // Set to false to reduce Sentry costs (only critical errors will be tracked)
 const ENABLE_ERROR_TELEMETRY = true
 
+function extractErrorDetails(err: unknown): { message: string; name: string } {
+  return {
+    message: err instanceof Error ? err.message : String(err),
+    name: err instanceof Error ? err.name : 'UnknownError',
+  }
+}
+
 async function getCanPlayAudio(audioSrc: string) {
   return new Promise(resolve => {
     const audio = new Audio(audioSrc)
@@ -147,8 +154,8 @@ export namespace Clips {
 
           dispatch({ type: ActionType.REFILL_CACHE, clips })
         } catch (err) {
-          const errorMessage = err instanceof Error ? err.message : String(err)
-          const errorName = err instanceof Error ? err.name : 'UnknownError'
+          const { message: errorMessage, name: errorName } =
+            extractErrorDetails(err)
 
           // Track handled errors in Sentry only if telemetry enabled
           if (ENABLE_ERROR_TELEMETRY) {
@@ -214,9 +221,8 @@ export namespace Clips {
           actions.refillCache()(dispatch, getState)
         } catch (error) {
           // Track network/server errors for debugging (won't mark as "unhandled")
-          const errorMessage =
-            error instanceof Error ? error.message : String(error)
-          const errorName = error instanceof Error ? error.name : 'UnknownError'
+          const { message: errorMessage, name: errorName } =
+            extractErrorDetails(error)
 
           // Track handled errors in Sentry only if telemetry enabled
           if (ENABLE_ERROR_TELEMETRY) {
@@ -239,7 +245,7 @@ export namespace Clips {
             })
           }
 
-          // Smart rollback: Only restore clip for DEFINITE failures to prevent vote duplication
+          // Rollback: Only restore clip for DEFINITE failures to prevent vote duplication
           //
           // Error types come from backend API responses (see server/src/lib/clip.ts):
           // - NotFoundError: HTTP 404 - clip doesn't exist in database

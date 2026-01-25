@@ -205,6 +205,13 @@ class ListenPage extends React.Component<Props, State> {
     trackGtag('listen-clip', { locale: this.props.locale })
   }
 
+  private isValidClipIndex = (
+    clipIndex: number,
+    clips: ClipType[]
+  ): boolean => {
+    return clipIndex >= 0 && clipIndex < clips.length && !!clips[clipIndex]
+  }
+
   private vote = (isValid: boolean) => {
     const { clips } = this.state
 
@@ -298,7 +305,7 @@ class ListenPage extends React.Component<Props, State> {
     const clipIndex = this.getClipIndex()
 
     // Guard against invalid clip index
-    if (clipIndex < 0 || clipIndex >= clips.length || !clips[clipIndex]) {
+    if (!this.isValidClipIndex(clipIndex, clips)) {
       console.error('Invalid clip index for skip:', clipIndex)
       return
     }

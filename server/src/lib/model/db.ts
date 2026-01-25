@@ -1518,6 +1518,8 @@ export default class DB {
 
   async createSkippedClip(id: string, client_id: string) {
     try {
+      // UPDATE clip_id = clip_id is intentionally a no-op (required by MySQL syntax)
+      // This prevents errors on retry while maintaining UNIQUE KEY (client_id, clip_id)
       await this.mysql.query(
         `
           INSERT INTO skipped_clips (clip_id, client_id) VALUES (?, ?)
