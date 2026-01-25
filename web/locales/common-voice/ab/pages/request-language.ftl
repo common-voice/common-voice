@@ -10,9 +10,7 @@ request-language-form-email =
     .label = Шә-e-mail:
 request-language-form-info =
     .label = Абызшәа иазку аинформациа
-request-language-form-info-explanation =
-    Иахьынӡауҭаху абызшәа иазку аинформациа ацҵа. Лара
-    иаҵанакуеит:
+request-language-form-info-explanation = Абызшәа иазку аинформациа шаҟа шәылшо иацышәҵа. Иара иаҵанакыр алшоит:
 request-language-form-info-explanation-list-1 = Шәбызшәа ахьыӡқәа
 request-language-form-info-explanation-list-2 = <isoCodeLink>ISO-акодқәа</isoCodeLink>, урҭ еилкаазар
 request-language-form-info-explanation-list-3 = Абызшәа аилкаараҿы иҳацхраауа асаитқәа рахь азхьарԥшқәа
