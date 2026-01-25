@@ -168,6 +168,9 @@ export namespace Clips {
             })
           }
 
+          // Dispatch LOAD_ERROR to update UI state - no re-throw needed
+          // Error is "handled" by showing error message to user via hasLoadingError flag
+          // Re-throwing would create unhandled promise rejection
           dispatch({ type: ActionType.LOAD_ERROR })
         }
       },
@@ -236,11 +239,20 @@ export namespace Clips {
             })
           }
 
-          // Only restore clip for definite failures
-          // Network timeouts/errors might mean vote succeeded but response was lost
+          // Smart rollback: Only restore clip for DEFINITE failures to prevent vote duplication
+          //
+          // Error types come from backend API responses (see server/src/lib/clip.ts):
+          // - NotFoundError: HTTP 404 - clip doesn't exist in database
+          // - BusinessLogicError: HTTP 400 - validation failed (e.g., already voted)
+          //
+          // Network errors (timeout, connection lost) are NOT definite failures because:
+          // - Vote may have been saved on backend before response was sent
+          // - Restoring clip would let user vote again → duplicate vote error
+          //
+          // Our strategy against comms errors: Only restore on errors where we KNOW vote didn't succeed
           const isDefiniteFailure =
-            errorName === 'NotFoundError' || // Clip doesn't exist (404)
-            errorName === 'BusinessLogicError' // Business rule/validation violation (400)
+            errorName === 'NotFoundError' || // 404: Clip doesn't exist
+            errorName === 'BusinessLogicError' // 400: Business rule violation
 
           if (clipToRemove && isDefiniteFailure) {
             dispatch({
