@@ -20,6 +20,10 @@ export interface AudioInfo {
   blob: Blob
 }
 
+// Small delay to ensure all dataavailable events have been processed
+// MediaRecorder may fire stop event before final chunk arrives
+// This delay helps to wait for the final chunk before considering recording stopped
+const MEDIARECORDER_STOP_DELAY_MS = 50
 export default class AudioWeb {
   microphone: MediaStream
   analyzerNode: AnalyserNode
@@ -190,7 +194,10 @@ export default class AudioWeb {
         window.MediaRecorder.isTypeSupported(audioFormat)
       ) {
         recorderOptions.mimeType = audioFormat
-        recorderOptions.audioBitsPerSecond = 128000
+        recorderOptions.audioBitsPerSecond = 128_000
+        // Use 128 kbps for non-Apple browsers as a balanced default: it is widely
+        // supported by MediaRecorder implementations, provides good quality for speech
+        // recordings, and keeps file sizes reasonable.
       }
     }
 
@@ -347,7 +354,7 @@ export default class AudioWeb {
           this.lastObjectURL = url
 
           resolve({ url, blob })
-        }, 50)
+        }, MEDIARECORDER_STOP_DELAY_MS)
       }
 
       this.recorderListeners.error = (event: Event) => {
