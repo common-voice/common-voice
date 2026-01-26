@@ -21,10 +21,7 @@ import {
 } from 'common'
 import validate from './validation'
 import { clipsSchema } from './validation/clips'
-import {
-  streamUploadToBucket,
-  deleteFileFromBucket,
-} from '../infrastructure/storage/storage'
+import { streamUploadToBucket } from '../infrastructure/storage/storage'
 import { pipe } from 'fp-ts/lib/function'
 import { option as O, taskEither as TE, task as T } from 'fp-ts'
 import { Clip as ClientClip } from 'common'
@@ -47,6 +44,7 @@ enum ERRORS {
   SENTENCE_NOT_FOUND = 'SENTENCE_NOT_FOUND',
   ALREADY_EXISTS = 'ALREADY_EXISTS',
   AUDIO_CORRUPT = 'AUDIO_CORRUPT',
+  RECORDING_TOO_LONG = 'RECORDING_TOO_LONG',
 }
 
 /**
@@ -370,13 +368,6 @@ export default class Clip {
         transcodeJob = await createMp3TranscodeJob(audioInput)
 
         // We need to buffer to memory during transcode, validate, then upload
-        if (process.env.NODE_ENV !== 'production') {
-          console.log(
-            `[saveClip] Starting transcode with buffering: ${clipFileName}`
-          )
-        }
-
-        // Buffer the transcoded output to memory
         const chunks: Buffer[] = []
         transcodeJob.outputStream.on('data', chunk => {
           chunks.push(chunk as Buffer)
@@ -406,7 +397,27 @@ export default class Clip {
           )
         }
 
-        // Now we can upload the buffered data (we have successful transcode validation)
+        // Calculate duration for DB
+        durationInMs =
+          durationInSec != null && Number.isFinite(durationInSec)
+            ? Math.round(durationInSec * 1000)
+            : 0
+
+        // Validate duration (frontend has 15 second limit + 2s headroom)
+        // Very long durations indicate a problem with the audio or corruption
+        if (durationInMs > MAX_RECORDING_MS_WITH_HEADROOM) {
+          console.error(
+            `[saveClip] Recording too long: ${durationInMs}ms (max ${MAX_RECORDING_MS_WITH_HEADROOM}ms)`
+          )
+          const error = new Error('RECORDING_TOO_LONG') as Error & {
+            duration?: number
+          }
+          error.duration = durationInMs
+          throw error
+        }
+
+        // Passed all validations
+        // Now we can upload the buffered data
         const bufferedData = Buffer.concat(chunks)
         const uploadStream = Readable.from([bufferedData])
 
@@ -427,8 +438,6 @@ export default class Clip {
               return T.of(Promise.reject(err))
             },
             () => {
-              // KEEP: User specifically requested this log remain in production
-              console.log(`Successfully uploaded ${clipFileName}`)
               return T.of(Promise.resolve())
             }
           )
@@ -436,45 +445,7 @@ export default class Clip {
 
         await uploadResult // Throw if upload failed
 
-        if (process.env.NODE_ENV !== 'production') {
-          console.log(
-            `[saveClip] Upload completed successfully: ${clipFileName}`
-          )
-        }
-
-        // Calculate duration for DB
-        durationInMs =
-          durationInSec != null && Number.isFinite(durationInSec)
-            ? Math.round(durationInSec * 1000)
-            : 0
-
-        // Validate duration (frontend has 15 second limit + 2s headroom)
-        if (durationInMs > MAX_RECORDING_MS_WITH_HEADROOM) {
-          console.error(
-            `[saveClip] Recording too long: ${durationInMs}ms (max ${MAX_RECORDING_MS_WITH_HEADROOM}ms)`
-          )
-
-          // Clean up the uploaded file
-          await pipe(
-            deleteFileFromBucket(getConfig().CLIP_BUCKET_NAME)(clipFileName),
-            TE.fold(
-              (deleteErr: Error) => {
-                console.error(
-                  `[saveClip] Failed to delete too-long recording ${clipFileName}:`,
-                  deleteErr
-                )
-                return T.of(undefined)
-              },
-              () => T.of(undefined) // Deleted successfully
-            )
-          )()
-
-          const error = new Error('RECORDING_TOO_LONG') as Error & {
-            duration?: number
-          }
-          error.duration = durationInMs
-          throw error
-        }
+        console.log(`[saveClip] Upload successful: ${clipFileName}`)
 
         transcodeJob = null
 
@@ -557,13 +528,13 @@ export default class Clip {
             err instanceof Error ? err.message : String(err ?? 'Unknown error')
 
           // Check error type using flags (set in try block above)
-          if (message === 'RECORDING_TOO_LONG') {
+          if (message === ERRORS.RECORDING_TOO_LONG) {
             this.clipSaveError(
               headers,
               response,
               422,
               `Recording too long: ${error.duration}ms (max ${MAX_RECORDING_MS}ms)`,
-              'RECORDING_TOO_LONG',
+              ERRORS.RECORDING_TOO_LONG,
               'clip'
             )
           } else if (message === ERRORS.AUDIO_CORRUPT || error.isCorruption) {
