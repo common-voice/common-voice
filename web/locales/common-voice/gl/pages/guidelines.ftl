@@ -345,6 +345,7 @@ code-switching-not-tag-interjections = <bold>Interxeccións.</bold> As interxecc
 code-switching-not-tag-interjections-example-1 = "Eh"
 code-switching-not-tag-interjections-example-2 = "Non"
 code-switching-not-tag-interjections-example-3 = "Claro"
+code-switching-not-tag-interjections-example-4 = "Eh"
 
 ## Reporting Content
 
