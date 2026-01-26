@@ -9,3 +9,4 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }</bold> ឃ្លីប
        *[other] <bold>{ $count }</bold> ឃ្លីប
     }
+goal-help-recording = អ្នកបានជួយ Common Voice ឱ្យឈានដល់ <goalPercentage></goalPercentage> នៃគោលដៅថតសំឡេង { $goalValue } ប្រចាំថ្ងៃរបស់យើង!
