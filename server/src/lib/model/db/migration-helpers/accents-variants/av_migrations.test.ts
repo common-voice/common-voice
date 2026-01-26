@@ -183,6 +183,24 @@ const createMockDb = () => {
         const old_accent_id = params[2]
         const client_ids = params.slice(3)
 
+        // Check for duplicate key violation
+        for (const client_id of client_ids) {
+          const hasBothAccents = data.user_client_accents.some(
+            uca =>
+              uca.client_id === client_id &&
+              uca.locale_id === locale_id &&
+              uca.accent_id === new_accent_id
+          )
+          if (hasBothAccents) {
+            const err: any = new Error(
+              `Duplicate entry '${client_id}-${locale_id}-${new_accent_id}' for key 'user_client_accents.client_accent'`
+            )
+            err.code = 'ER_DUP_ENTRY'
+            err.errno = 1062
+            throw err
+          }
+        }
+
         data.user_client_accents = data.user_client_accents.map(uca => {
           if (
             uca.locale_id === locale_id &&
@@ -743,6 +761,84 @@ describe('Accent-Variant Migration Helpers', () => {
 
       // Verify old accent was NOT deleted
       expect(db.data.accents.find(a => a.id === 10)).toBeDefined()
+    })
+
+    it('should handle duplicate accent scenario by deleting old accent', async () => {
+      const db = createMockDb()
+
+      // Setup data
+      db.data.locales.push({ id: 1, name: 'test' })
+      db.data.accents.push(
+        { id: 10, locale_id: 1, accent_token: 'old_accent', user_submitted: 1 },
+        { id: 20, locale_id: 1, accent_token: 'new_accent', user_submitted: 0 }
+      )
+      db.data.variants.push({
+        id: 1,
+        locale_id: 1,
+        variant_token: 'new_variant',
+      })
+
+      // User has BOTH old and new accent - this causes duplicate key error on UPDATE
+      db.data.user_client_accents.push(
+        { id: 1, client_id: 'user1', locale_id: 1, accent_id: 10 }, // old accent
+        { id: 2, client_id: 'user1', locale_id: 1, accent_id: 20 } // new accent (already has it!)
+      )
+
+      const mapping: [string, string, string, boolean?][] = [
+        ['old_accent', 'new_accent', 'new_variant', true],
+      ]
+
+      await migrateAccentsToAccentsAndVariants_default(db, 'test', mapping)
+
+      // Verify old accent entry was deleted (not updated, because would cause duplicate)
+      const userAccents = db.data.user_client_accents.filter(
+        uca => uca.client_id === 'user1' && uca.locale_id === 1
+      )
+      expect(userAccents).toHaveLength(1)
+      expect(userAccents[0].accent_id).toBe(20) // Only new accent remains
+
+      // Verify variant was added
+      expect(db.data.user_client_variants).toContainEqual({
+        id: 1,
+        client_id: 'user1',
+        locale_id: 1,
+        variant_id: 1,
+      })
+    })
+
+    it('should skip UPDATE when old and new accent are the same', async () => {
+      const db = createMockDb()
+
+      // Setup data
+      db.data.locales.push({ id: 1, name: 'test' })
+      db.data.accents.push({
+        id: 20,
+        locale_id: 1,
+        accent_token: 'correct_accent',
+        user_submitted: 0,
+      })
+      db.data.variants.push({
+        id: 1,
+        locale_id: 1,
+        variant_token: 'new_variant',
+      })
+      db.data.user_client_accents.push({
+        client_id: 'user1',
+        locale_id: 1,
+        accent_id: 20,
+      })
+
+      const mapping: [string, string, string, boolean?][] = [
+        ['correct_accent', 'correct_accent', 'new_variant', false],
+      ]
+
+      await migrateAccentsToAccentsAndVariants_default(db, 'test', mapping)
+
+      // Verify accent unchanged
+      expect(db.data.user_client_accents[0].accent_id).toBe(20)
+
+      // Verify variant was added
+      expect(db.data.user_client_variants).toHaveLength(1)
     })
   })
 })

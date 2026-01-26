@@ -130,6 +130,11 @@ class SpeakPage extends React.Component<Props, State> {
   recordingStartTime = 0
   recordingStopTime = 0
 
+  // Guard against concurrent submissions (class-level instead of state-level)
+  private isSubmitting = false
+  // Track mounted state to prevent setState on unmounted component
+  private isMounted = false
+
   static getDerivedStateFromProps(props: Props, state: State) {
     // Guard against undefined sentences (network/communication failure)
     if (!props.sentences) {
@@ -191,9 +196,13 @@ class SpeakPage extends React.Component<Props, State> {
       trackGtag('recording-not-supported', { locale: this.props.locale })
       console.log(`Recording is not supported!`)
     }
+
+    this.isMounted = true
   }
 
   async componentWillUnmount() {
+    this.isMounted = false
+
     document.removeEventListener('keyup', this.handleKeyUp)
 
     document.removeEventListener('visibilitychange', this.releaseMicrophone)
@@ -507,10 +516,6 @@ class SpeakPage extends React.Component<Props, State> {
               // Corrupted audio data - don't retry, show helpful message
               key = 'record-error-uploaded-clip-corrupted'
               shouldRetry = false
-            } else if (error.message.includes('RECORDING_TOO_LONG')) {
-              // Recording too long - don't retry, user needs to re-record
-              key = 'record-error-uploaded-clip-too-long'
-              shouldRetry = false
             } else if (error.message.includes('save_clip_error')) {
               key = 'error-clip-upload-server'
               shouldRetry = true // Retry server errors
@@ -562,6 +567,15 @@ class SpeakPage extends React.Component<Props, State> {
             )
           }
         }
+
+        // Reset submission guard only AFTER all uploads complete
+        // This prevents double-submission during network retries (3 retries × 1sec delay = 3+ seconds)
+        // Previous bug: Reset immediately after queueing, allowing rapid double-clicks during retries
+        // Only update state if component is still mounted (prevents React DOM errors)
+        if (this.isMounted) {
+          this.setState({ isSubmitted: false })
+        }
+        this.isSubmitting = false
       },
     ])
 
@@ -593,10 +607,14 @@ class SpeakPage extends React.Component<Props, State> {
 
     evt?.preventDefault()
 
-    // Prevent double submission (double-click, double-tap, or rapid Enter key)
-    if (this.state.isSubmitted) {
+    // Prevent double submission with SYNCHRONOUS check
+    if (this.state.isSubmitted || this.isSubmitting) {
+      console.warn('[Speak] Prevented double submission')
       return
     }
+
+    // Set synchronous guard immediately
+    this.isSubmitting = true
 
     const hasSeenFirstCTA = castTrueString(
       window.sessionStorage.getItem(SEEN_FIRST_CTA)
@@ -612,6 +630,8 @@ class SpeakPage extends React.Component<Props, State> {
 
     // If upload was blocked (privacy modal shown), don't process CTAs or reset submission flag
     if (!uploadSucceeded) {
+      // FIX: Reset synchronous guard to allow retry after privacy modal
+      this.isSubmitting = false
       return
     }
 
@@ -633,10 +653,9 @@ class SpeakPage extends React.Component<Props, State> {
       }
     }
 
-    // Reset the submission flag after upload is queued to allow next batch
-    // The upload() function sets it to true immediately to prevent double-clicks,
-    // but we reset it here so the next batch can be submitted
-    this.setState({ isSubmitted: false })
+    // DON'T reset here - moved to upload completion callback
+    // Resetting immediately allows double-submit during network retries
+    // See upload() function's addUploads final callback for actual reset
   }
 
   private resetAndGoHome = () => {

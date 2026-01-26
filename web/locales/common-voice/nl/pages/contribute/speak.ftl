@@ -18,7 +18,6 @@ record-error-uploaded-clip-corrupted =
     • Problemen met microfoon of audiostuurprogramma
     • Netwerkonderbrekingen tijdens opnemen
     Probeer opnieuw op te nemen.
-record-error-uploaded-clip-too-long = Uw opname heeft de maximale duur van { $duration } seconden overschreden. Neem een korter fragment op.
 record-cancel = Nieuwe opname annuleren
 record-instruction = { $actionType } <recordIcon></recordIcon> en lees de zin vervolgens hardop
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> wanneer gereed

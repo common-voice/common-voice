@@ -634,4 +634,29 @@ export const VARIANTS: Variant[] = [
     variant_name: 'Jawa Kulon',
     variant_token: 'jv-kulon',
   },
+    {
+    locale_name: 'qxq',
+    variant_name: 'قشقایی فارس',
+    variant_token: 'qxq-farsq',
+  },
+  {
+    locale_name: 'qxq',
+    variant_name: 'قشقایی فیروزآباد',
+    variant_token: 'qxq-firuzabad',
+  },
+  {
+    locale_name: 'qxq',
+    variant_name: 'قشقایی سمیرم',
+    variant_token: 'qxq-semirom',
+  },
+  {
+    locale_name: 'qxq',
+    variant_name: 'قشقایی ایلی',
+    variant_token: 'qxq-tribal',
+  },
+  {
+    locale_name: 'qxq',
+    variant_name: 'قشقایی هَفتگِل',
+    variant_token: 'qxq-haftkel',
+  },
 ]

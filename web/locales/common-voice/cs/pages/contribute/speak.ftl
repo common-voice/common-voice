@@ -18,7 +18,6 @@ record-error-uploaded-clip-corrupted =
     • Problémy s mikrofonem nebo ovladačem zvuku
     • Výpadky sítě během nahrávání
     Zkuste nahrát záznam znovu.
-record-error-uploaded-clip-too-long = Vaše nahrávka překročila maximální délku { $duration } sekund. Natočte prosím kratší nahrávku.
 record-cancel = Zrušit opakovaný záznam
 record-instruction = { $actionType } <recordIcon></recordIcon> a přečtěte nahlas větu
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> až budete hotovi

@@ -1,6 +1,6 @@
 ## Download Modal
 
-download-title = Шәҭагалара иалагеит.
+download-title = Шәыҭгара иалагеит.
 download-helpus = Абызшәатә технологиақәа ирызку аилазаара аԥҵараҿы шәҳацхраа, аелектронтә ԥошьҭала ҳаимадаз.
 download-form-email =
     .label = Шәелектронтә ԥошьҭа ҭажәгал

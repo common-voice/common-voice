@@ -18,7 +18,6 @@ record-error-uploaded-clip-corrupted =
     • Microphone loo audio driver he naagbai
     • Network lɛ mligbalamɔi yɛ be mli ni atswaa lala lɛ
     Ofainɛ kaa recording ekoŋŋ.
-record-error-uploaded-clip-too-long = O niŋmaa lɛ fe be ni fa fe fɛɛ ni ji { $duration } sɛkɛndii. Ofainɛ, record klip kuku.
 record-cancel = Fomɔ Re-recording lɛ mli
 record-instruction = { $actionType }<recordIcon></recordIcon> no sɛɛ lɛ, kanemɔ wiemɔ kuku lɛ waa
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> beni agbe naa lɛ

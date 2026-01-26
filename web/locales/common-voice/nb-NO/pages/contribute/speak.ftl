@@ -18,7 +18,6 @@ record-error-uploaded-clip-corrupted =
     • Problemer med mikrofon eller lyddrivere
     • Nettverksavbrudd under opptaket
     Prøv å ta opp på nytt.
-record-error-uploaded-clip-too-long = Opptaket ditt overskred maksimal varighet på { $duration } sekunder. Spill inn et kortere klipp.
 record-cancel = Avbryt nyinnspillingen
 record-instruction = { $actionType }<recordIcon></recordIcon> les deretter setningen høyt
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> når du er ferdig
