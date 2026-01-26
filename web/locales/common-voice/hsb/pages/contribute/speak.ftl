@@ -18,7 +18,6 @@ record-error-uploaded-clip-corrupted =
     • problemy z mikrofonom abo awdioćěrjakom
     • syćowe přetorhnjenja při nahrawanju
     Prošu spytajće znowa nahrawać.
-record-error-uploaded-clip-too-long = Waše nahrawanje je maksimalne traće { $duration } sekundow překročił. Prošu nahrawajće krótši klip.
 record-cancel = Zasonatočenje přetorhnyć
 record-instruction = { $actionType } <recordIcon></recordIcon> a předčitajće sadu wótře
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> hdyž sće hotowy

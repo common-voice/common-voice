@@ -18,7 +18,6 @@ record-error-uploaded-clip-corrupted =
     • Problemas co micrófono ou cos controladores de audio
     • Interrupcións da rede durante a gravación
     Por favor, tente gravar de novo.
-record-error-uploaded-clip-too-long = A gravación superou a duración máxima de { $duration } segundos. Por favor, grave un fragmento máis curto.
 record-cancel = Anular a regravación
 record-instruction = { $actionType }<recordIcon></recordIcon> e logo lea a frase en voz alta
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> ao acabar

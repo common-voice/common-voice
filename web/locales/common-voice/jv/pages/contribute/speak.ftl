@@ -18,7 +18,6 @@ record-error-uploaded-clip-corrupted =
     • Masalah driver mikrofon utawa audio
     • Gangguan jaringan nalika ngrekam
     Coba ngrekam maneh.
-record-error-uploaded-clip-too-long = Rekaman sampeyan ngluwihi wektu maksimal { $duration } detik. Mangga rekam klip sing luwih cendhek.
 record-cancel = Batalno rekaman
 record-instruction = { $actionType }<recordIcon></recordIcon> lanjut waca ukara kasebut kanthi banter
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> yen wis rampung

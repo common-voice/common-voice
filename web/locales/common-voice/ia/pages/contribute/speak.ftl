@@ -18,7 +18,6 @@ record-error-uploaded-clip-corrupted =
     • problemas de driver audio o de microphono 
     • interruptiones de rete durante le registration
     Retenta.
-record-error-uploaded-clip-too-long = Tu registration excede le maxime duration de{ $duration } secundas. Registra un clip plus curte.
 record-cancel = Cancellar le re-registration
 record-instruction = { $actionType }<recordIcon></recordIcon> pois lege le phrase in alte voce
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> quando facite

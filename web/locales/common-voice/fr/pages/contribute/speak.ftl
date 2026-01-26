@@ -18,7 +18,6 @@ record-error-uploaded-clip-corrupted =
     • Des problèmes de microphone ou de pilote audio
     • Des coupures réseau pendant l’enregistrement
     Veuillez essayer de l’enregistrer à nouveau.
-record-error-uploaded-clip-too-long = Votre enregistrement dépasse la durée maximale de { $duration } secondes. Veuillez enregistrer un échantillon plus court.
 record-cancel = Annuler le réenregistrement
 record-instruction = { $actionType } <recordIcon></recordIcon> puis lisez la phrase à haute voix.
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> une fois terminé.
