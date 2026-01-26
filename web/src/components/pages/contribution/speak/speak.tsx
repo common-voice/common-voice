@@ -562,6 +562,12 @@ class SpeakPage extends React.Component<Props, State> {
             )
           }
         }
+
+        // Reset submission guard only AFTER all uploads complete
+        // This prevents double-submission during network retries (3 retries × 1sec delay = 3+ seconds)
+        // Previous bug: Reset immediately after queueing, allowing rapid double-clicks during retries
+        this.setState({ isSubmitted: false })
+        this.isSubmitting = false
       },
     ])
 
@@ -588,15 +594,23 @@ class SpeakPage extends React.Component<Props, State> {
     })
   }
 
+  // Guard against concurrent submissions
+  // Class-level instead of state-level, because state updates are async
+  private isSubmitting = false
+
   private handleSubmit = (evt?: React.SyntheticEvent) => {
     const { user } = this.props
 
     evt?.preventDefault()
 
-    // Prevent double submission (double-click, double-tap, or rapid Enter key)
-    if (this.state.isSubmitted) {
+    // Prevent double submission with SYNCHRONOUS check
+    if (this.state.isSubmitted || this.isSubmitting) {
+      console.warn('[Speak] Prevented double submission')
       return
     }
+
+    // Set synchronous guard immediately
+    this.isSubmitting = true
 
     const hasSeenFirstCTA = castTrueString(
       window.sessionStorage.getItem(SEEN_FIRST_CTA)
@@ -612,6 +626,8 @@ class SpeakPage extends React.Component<Props, State> {
 
     // If upload was blocked (privacy modal shown), don't process CTAs or reset submission flag
     if (!uploadSucceeded) {
+      // FIX: Reset synchronous guard to allow retry after privacy modal
+      this.isSubmitting = false
       return
     }
 
@@ -633,10 +649,9 @@ class SpeakPage extends React.Component<Props, State> {
       }
     }
 
-    // Reset the submission flag after upload is queued to allow next batch
-    // The upload() function sets it to true immediately to prevent double-clicks,
-    // but we reset it here so the next batch can be submitted
-    this.setState({ isSubmitted: false })
+    // DON'T reset here - moved to upload completion callback
+    // Resetting immediately allows double-submit during network retries
+    // See upload() function's addUploads final callback for actual reset
   }
 
   private resetAndGoHome = () => {
