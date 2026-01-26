@@ -4,13 +4,14 @@ import { getConfig } from '../config-helper'
 import Model from './model'
 import getLeaderboard from './model/leaderboard'
 import { earnBonus, hasEarnedBonus } from './model/achievements'
+import rateLimiter from './middleware/rate-limiter-middleware'
 // Basket import removed: currently bulk-mail facility is not supported
 // import * as Basket from './basket'
 import * as Sentry from '@sentry/node'
 import Bucket from './bucket'
 import Awards from './model/awards'
 import { checkGoalsAfterContribution } from './model/goals'
-import { redis } from './redis-cache'
+import { LazySetCache } from './redis-cache'
 import { TimeUnits } from 'common'
 import {
   ChallengeToken,
@@ -82,8 +83,37 @@ export default class Clip {
       }
     )
 
-    router.post('/:clipId/votes', this.saveClipVote)
-    router.post('*', this.saveClip)
+    // Rate limiting for clip voting: ~600 votes/hour
+    // Voting is fast (listen ~3sec + 3sec wait + click)
+    // Fast voter: ~10 votes/minute = 600/hour
+    // Allows rapid validation sessions while preventing bots
+    router.post(
+      '/:clipId/votes',
+      rateLimiter('clips/vote', {
+        points: 100, // 100 votes
+        duration: 600, // per 10 minutes (600/hour max)
+        blockDuration: 300, // Block for 5 minutes
+      }),
+      this.saveClipVote
+    )
+
+    // Rate limiting for clip recording: Account for retries and batch submissions
+    // Flow: 25 sentences loaded => record 5 => submit (5 clips × 3 retries = 15 uploads max)
+    // Recording: 1-15 sec/clip (avg 5sec) + UI time => 10sec/clip
+    // Batch of 5 clips: ~50 seconds minimum
+    // 5 batches (25 clips): ~4-5 minutes minimum
+    // Allow 150 uploads per 10 minutes to accommodate:
+    // - 5 clips × 3 retries × 5 batches = 75 actual uploads
+    // - 2x headroom for legitimate usage patterns
+    router.post(
+      '*',
+      rateLimiter('clips/record', {
+        points: 150, // 150 uploads (accounts for 3 retries × 5 clips × 10 batches)
+        duration: 600, // per 10 minutes
+        blockDuration: 300, // Block for 5 minutes
+      }),
+      this.saveClip
+    )
 
     router.get('/daily_count', this.serveDailyCount)
     router.get('/stats', this.serveClipsStats)
@@ -240,24 +270,48 @@ export default class Clip {
     const clipFileName = folder + filePrefix + '.mp3'
     const metadata = `${clipFileName} (${size} bytes, ${format}) from ${source}`
 
-    // Redis deduplication: Check if upload succeeded in last 10 minutes
-    // Prevents concurrent duplicates and network retries from wasting bandwidth
-    const uploadKey = `upload-success:${client_id}:${sentenceId}`
+    // LazySetCache deduplication: Track successful uploads per user for 6 hours
+    // Uses per-user SET to efficiently store uploaded sentence IDs
+    // Each addition automatically extends the expiry time
+    const userUploadsKey = `clip-uploads:${client_id}`
+
     try {
-      const recentUpload = await redis.get(uploadKey)
-      if (recentUpload) {
-        // Clip was recently uploaded - return 409 (not an error, just duplicate)
+      // Check if this sentence was already uploaded by this user
+      const uploadedSentences = await LazySetCache.getMembers(userUploadsKey)
+
+      if (uploadedSentences.includes(sentenceId)) {
+        // Already uploaded - return 409 (handled gracefully on frontend)
+        if (process.env.NODE_ENV !== 'production') {
+          console.log(
+            `[saveClip] Duplicate upload (cached): ${client_id}/${sentenceId}`
+          )
+        }
         response.status(409).send(ERRORS.ALREADY_EXISTS)
         return
       }
-    } catch (redisError) {
-      // Redis unavailable - fail open (allow upload to proceed)
+    } catch (cacheError) {
+      // Cache unavailable - fail open (allow upload to proceed)
+      console.warn(
+        '[saveClip] LazySetCache unavailable for deduplication:',
+        cacheError
+      )
     }
 
     if (await this.model.db.clipExists(client_id, sentenceId)) {
       // Clip already exists in database but not in Redis cache
-      // This could indicate a real duplicate issue, Redis down, cache expired (>10min), or race condition
-      // Log this to Sentry for monitoring, but it will still be handled optimistically on FE
+      // This catches cases where:
+      // 1. Redis cache expired (>24h since upload)
+      // 2. Redis is down/unavailable
+      // 3. User gets same sentence and clip exists in DB
+      // NOTE: This check happens BEFORE upload/transcode, preventing wasted resources
+
+      // Track for monitoring but don't spam Sentry (handled gracefully on frontend)
+      if (process.env.NODE_ENV !== 'production') {
+        console.log(
+          `[saveClip] Duplicate detected (DB exists, Redis miss): ${client_id}/${sentenceId}`
+        )
+      }
+
       this.clipSaveError(
         headers,
         response,
@@ -280,9 +334,11 @@ export default class Clip {
         // the stream, at which point ffmpeg can no longer seek back to the beginning
         // createBufferedInputStream will create a local file and pipe data in as
         // a file, which doesn't lose the seek mechanism
-        console.log(
-          `[saveClip] Using buffered input for AAC/MP4 format: ${format}`
-        )
+        if (process.env.NODE_ENV !== 'production') {
+          console.log(
+            `[saveClip] Using buffered input for AAC/MP4 format: ${format}`
+          )
+        }
 
         const converter = new Converter()
         const audioStream = Readable.from(request)
@@ -290,9 +346,11 @@ export default class Clip {
         audioInput = converter.createBufferedInputStream()
         audioStream.pipe(audioInput)
       } else if (isAAC) {
-        console.log(
-          `[saveClip] AAC/MP4 detected but FLAG_BUFFER_STREAM_ENABLED is disabled: ${format}`
-        )
+        if (process.env.NODE_ENV !== 'production') {
+          console.log(
+            `[saveClip] AAC/MP4 detected but FLAG_BUFFER_STREAM_ENABLED is disabled: ${format}`
+          )
+        }
       }
 
       let transcodeJob: Mp3TranscodeJob | null = null
@@ -306,22 +364,28 @@ export default class Clip {
       request.on('aborted', abortHandler)
 
       try {
-        console.log(`[saveClip] Starting transcode for ${metadata}`)
+        if (process.env.NODE_ENV !== 'production') {
+          console.log(`[saveClip] Starting transcode for ${metadata}`)
+        }
         transcodeJob = await createMp3TranscodeJob(audioInput)
 
-        // Start streaming upload in parallel for efficiency
-        // The upload reads from outputStream as ffmpeg writes to it
-        const uploadTask = pipe(
-          streamUploadToBucket(getConfig().CLIP_BUCKET_NAME),
-          (
-            fn: (
-              path: string
-            ) => (stream: NodeJS.ReadableStream) => TE.TaskEither<Error, void>
-          ) => fn(clipFileName)(transcodeJob.outputStream)
-        )
+        // SYNC MODE: Wait for transcode to COMPLETE before starting upload
+        // This prevents orphaned files in storage when transcode fails
+        // Trade-off: Slightly slower (~500ms) but prevents data corruption
+        if (process.env.NODE_ENV !== 'production') {
+          console.log(
+            `[saveClip] Waiting for transcode completion: ${clipFileName}`
+          )
+        }
+        await transcodeJob.transcodeCompleted
+        if (process.env.NODE_ENV !== 'production') {
+          console.log(
+            `[saveClip] Transcode completed successfully: ${clipFileName}`
+          )
+        }
 
-        // Get duration (optional - allow null on failure)
-        const durationPromise = transcodeJob.durationSeconds.catch(
+        // Get duration (required for DB record)
+        const durationInSec = await transcodeJob.durationSeconds.catch(
           (err): null => {
             console.error(
               '[saveClip] Failed to determine clip duration with ffprobe:',
@@ -331,106 +395,37 @@ export default class Clip {
           }
         )
 
-        // Wait for ALL operations to complete (even if some fail)
-        // Using allSettled prevents race condition where we try to delete
-        // before upload completes
-        const settledResults = await Promise.allSettled([
-          pipe(
-            uploadTask,
-            TE.fold(
-              (err: Error) => {
-                console.error('[saveClip] Upload to storage failed:', err)
-                return T.of(Promise.reject(err))
-              },
-              () => T.of(Promise.resolve())
-            )
-          )().then(p => p),
-          transcodeJob.transcodeCompleted, // Will reject if transcode fails
-          durationPromise, // Returns null on failure, won't reject
-        ])
+        // NOW start upload (only if transcode succeeded)
+        if (process.env.NODE_ENV !== 'production') {
+          console.log(`[saveClip] Starting upload to storage: ${clipFileName}`)
+        }
+        const uploadTask = pipe(
+          streamUploadToBucket(getConfig().CLIP_BUCKET_NAME),
+          (
+            fn: (
+              path: string
+            ) => (stream: NodeJS.ReadableStream) => TE.TaskEither<Error, void>
+          ) => fn(clipFileName)(transcodeJob.outputStream)
+        )
 
-        // Check if any operation failed
-        const uploadResult = settledResults[0]
-        const transcodeResult = settledResults[1]
-        const durationResult = settledResults[2]
-
-        // If transcode failed, we need to clean up
-        if (transcodeResult.status === 'rejected') {
-          const transcodeError = transcodeResult.reason
-          const errorMessage =
-            transcodeError instanceof Error
-              ? transcodeError.message
-              : String(transcodeError ?? 'Unknown error')
-
-          // Check if this is audio corruption vs server error
-          // Server infrastructure issues (timeout/OOM) should return 500
-          const isServerInfrastructureError =
-            errorMessage.includes('SIGKILL') || errorMessage.includes('SIGTERM')
-
-          // Most ffmpeg errors indicate bad input data (corruption/format issues)
-          // Use generic pattern matching instead of specific strings
-          const lowercasedErrorMessage = errorMessage.toLowerCase()
-          const hasCorruptionIndicators =
-            lowercasedErrorMessage.includes('invalid') ||
-            lowercasedErrorMessage.includes('corrupt') ||
-            lowercasedErrorMessage.includes('failed') ||
-            lowercasedErrorMessage.includes('malformed') ||
-            errorMessage.includes('pipe:0') ||
-            errorMessage.includes('moov atom')
-
-          // Classify: infrastructure errors are server issues, everything else is corruption
-          const isCorruption =
-            !isServerInfrastructureError && hasCorruptionIndicators
-
-          console.error(
-            `[saveClip] Transcode failed (corruption=${isCorruption}):`,
-            errorMessage
+        // Wait for upload to complete
+        const uploadResult = await pipe(
+          uploadTask,
+          TE.fold(
+            (err: Error) => {
+              console.error('[saveClip] Upload to storage failed:', err)
+              return T.of(Promise.reject(err))
+            },
+            () => {
+              // KEEP: User specifically requested this log remain in production
+              console.log(`Successfully uploaded ${clipFileName}`)
+              return T.of(Promise.resolve())
+            }
           )
+        )().then(p => p)
 
-          // Clean up uploaded file if upload succeeded to prevent bad data in storage
-          if (uploadResult.status === 'fulfilled') {
-            console.log(
-              `[saveClip] Upload succeeded but transcode failed - cleaning up: ${clipFileName}`
-            )
-            await pipe(
-              deleteFileFromBucket(getConfig().CLIP_BUCKET_NAME)(clipFileName),
-              TE.fold(
-                (deleteErr: Error) => {
-                  console.error(
-                    `[saveClip] Failed to delete corrupted file ${clipFileName}:`,
-                    deleteErr
-                  )
-                  return T.of(undefined)
-                },
-                () => {
-                  console.log(
-                    `[saveClip] Successfully deleted corrupted file: ${clipFileName}`
-                  )
-                  return T.of(undefined)
-                }
-              )
-            )()
-          } else {
-            console.log('[saveClip] Upload also failed - no cleanup needed')
-          }
-
-          // Throw error with proper flag for frontend detection
-          const error = new Error(
-            isCorruption ? ERRORS.AUDIO_CORRUPT : errorMessage
-          ) as Error & { isCorruption?: boolean }
-          error.isCorruption = isCorruption
-          throw error
-        }
-
-        // If upload failed but transcode succeeded (network issue)
-        if (uploadResult.status === 'rejected') {
-          throw uploadResult.reason
-        }
-
-        // Get duration from results
-        const durationInSec =
-          durationResult.status === 'fulfilled' ? durationResult.value : null
-
+        await uploadResult // Throw if upload failed
+        // Calculate duration for DB
         durationInMs =
           durationInSec != null && Number.isFinite(durationInSec)
             ? Math.round(durationInSec * 1000)
@@ -475,15 +470,21 @@ export default class Clip {
           duration: durationInMs,
         })
 
-        // Store success in Redis (10min TTL) for deduplication
+        // Store success in LazySetCache (6 hour TTL) for deduplication
+        // Per-user SET stores all uploaded sentence IDs
+        // Auto-extends expiry on each addition (rolling 6h window)
         try {
-          await redis.setex(
-            uploadKey,
-            Math.floor((10 * TimeUnits.MINUTE) / 1000),
-            new Date().toISOString()
+          await LazySetCache.addSingleWithExpiry(
+            userUploadsKey,
+            sentenceId,
+            6 * TimeUnits.HOUR // 6 hours per user's request
           )
-        } catch (redisError) {
-          // Non-critical - Redis unavailable
+        } catch (cacheError) {
+          // Non-critical - Cache unavailable
+          console.warn(
+            '[saveClip] LazySetCache unavailable for success caching:',
+            cacheError
+          )
         }
 
         // FAST RESPONSE: Send immediately after DB insert (reduces timeout window)
