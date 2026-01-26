@@ -298,9 +298,9 @@ export default class Clip {
     }
 
     if (await this.model.db.clipExists(client_id, sentenceId)) {
-      // Clip already exists in database but not in Redis cache
+      // Clip already exists in database but not in Redis LazySetCache
       // This catches cases where:
-      // 1. Redis cache expired (>6h since last upload)
+      // 1. Redis LazySetCache expired (>6h since last upload)
       // 2. Redis is down/unavailable
       // 3. User gets same sentence and clip exists in DB
       // NOTE: This check happens BEFORE upload/transcode, preventing wasted resources
@@ -308,7 +308,7 @@ export default class Clip {
       // Track for monitoring but don't spam Sentry (handled gracefully on frontend)
       if (process.env.NODE_ENV !== 'production') {
         console.log(
-          `[saveClip] Duplicate detected (DB exists, Redis miss): ${client_id}/${sentenceId}`
+          `[saveClip] Duplicate detected (DB exists, Redis LazySetCache miss): ${client_id}/${sentenceId}`
         )
       }
 
