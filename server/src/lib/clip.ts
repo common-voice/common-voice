@@ -97,18 +97,18 @@ export default class Clip {
       this.saveClipVote
     )
 
-    // Rate limiting for clip recording: Account for retries and batch submissions
-    // Flow: 25 sentences loaded => record 5 => submit (5 clips × 3 retries = 15 uploads max)
+    // Rate limiting for clip recording: Account for retries (bad NW) and batch submissions
+    // Flow: 25 sentences loaded => record 5 => submit (5 clips × 2 retries = 10 uploads max)
     // Recording: 1-15 sec/clip (avg 5sec) + UI time => 10sec/clip
     // Batch of 5 clips: ~50 seconds minimum
     // 5 batches (25 clips): ~4-5 minutes minimum
-    // Allow 150 uploads per 10 minutes to accommodate:
-    // - 5 clips × 3 retries × 5 batches = 75 actual uploads
+    // Allow 100 uploads per 10 minutes to accommodate:
+    // - 5 clips × 2 retries × 5 batches = 50 actual uploads
     // - 2x headroom for legitimate usage patterns
     router.post(
       '*',
       rateLimiter('clips/record', {
-        points: 150, // 150 uploads (accounts for 3 retries × 5 clips × 10 batches)
+        points: 100, // 100 uploads (accounts for 2 retries × 5 clips × 5 batches + 2x headroom)
         duration: 600, // per 10 minutes
         blockDuration: 300, // Block for 5 minutes
       }),
@@ -300,7 +300,7 @@ export default class Clip {
     if (await this.model.db.clipExists(client_id, sentenceId)) {
       // Clip already exists in database but not in Redis cache
       // This catches cases where:
-      // 1. Redis cache expired (>24h since upload)
+      // 1. Redis cache expired (>6h since last upload)
       // 2. Redis is down/unavailable
       // 3. User gets same sentence and clip exists in DB
       // NOTE: This check happens BEFORE upload/transcode, preventing wasted resources
