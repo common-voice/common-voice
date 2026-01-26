@@ -274,10 +274,13 @@ export default class Clip {
     const userUploadsKey = `clip-uploads:${client_id}`
 
     try {
-      // Check if this sentence was already uploaded by this user
-      const uploadedSentences = await LazySetCache.getMembers(userUploadsKey)
+      // Check if this sentence was already uploaded by this user using Redis SISMEMBER
+      const isDuplicateUpload = await LazySetCache.isMember(
+        userUploadsKey,
+        sentenceId
+      )
 
-      if (uploadedSentences.includes(sentenceId)) {
+      if (isDuplicateUpload) {
         // Already uploaded - return 409 (handled gracefully on frontend)
         if (process.env.NODE_ENV !== 'production') {
           console.log(
@@ -409,7 +412,7 @@ export default class Clip {
           console.error(
             `[saveClip] Recording too long: ${durationInMs}ms (max ${MAX_RECORDING_MS_WITH_HEADROOM}ms)`
           )
-          const error = new Error('RECORDING_TOO_LONG') as Error & {
+          const error = new Error(ERRORS.RECORDING_TOO_LONG) as Error & {
             duration?: number
           }
           error.duration = durationInMs
