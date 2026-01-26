@@ -52,9 +52,17 @@ export const migrateAccentsToVariants_default = async (
     // Batched/Bulk process for large datasets
     for (let i = 0; i < eligible_users.length; i += BATCH_SIZE) {
       const batch = eligible_users.slice(i, i + BATCH_SIZE)
-      await bulkInsertUserVariants(db, locale_id, variant_id, batch)
-      if (doDelete) {
-        await bulkDeleteUserAccents(db, locale_id, accent_id, batch)
+      try {
+        await bulkInsertUserVariants(db, locale_id, variant_id, batch)
+        if (doDelete) {
+          await bulkDeleteUserAccents(db, locale_id, accent_id, batch)
+        }
+      } catch (err: any) {
+        console.warn(
+          `Failed to process batch for [${accent_token}]:`,
+          err.message
+        )
+        // Continue with next batch
       }
     }
 

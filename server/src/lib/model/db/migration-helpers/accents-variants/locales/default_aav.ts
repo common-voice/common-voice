@@ -7,6 +7,7 @@ import {
   findEligibleUsersForAccentToAccentAndVariantMigration,
   bulkInsertUserVariants,
   bulkUpdateUserAccents,
+  filterUsersWithoutTargetAccent,
 } from '../..'
 
 const BATCH_SIZE = 100
@@ -90,15 +91,68 @@ export const migrateAccentsToAccentsAndVariants_default = async (
 
     // Batched/Bulk process for accent updates
     if (usersForAccentUpdate.length > 0) {
-      for (let i = 0; i < usersForAccentUpdate.length; i += BATCH_SIZE) {
-        const batch = usersForAccentUpdate.slice(i, i + BATCH_SIZE)
-        await bulkUpdateUserAccents(
-          db,
-          locale_id,
-          old_accent_id,
-          new_accent_id,
-          batch
-        )
+      // Skip UPDATE if old and new accent are the same (just adding variant)
+      if (old_accent_id !== new_accent_id) {
+        for (let i = 0; i < usersForAccentUpdate.length; i += BATCH_SIZE) {
+          const batch = usersForAccentUpdate.slice(i, i + BATCH_SIZE)
+
+          // Pre-filter: remove users who already have the target accent
+          // This prevents ER_DUP_ENTRY errors and maintains batch performance
+          const safeToUpdate = await filterUsersWithoutTargetAccent(
+            db,
+            locale_id,
+            new_accent_id,
+            batch
+          )
+
+          // Update users who don't already have the target accent
+          if (safeToUpdate.length > 0) {
+            try {
+              await bulkUpdateUserAccents(
+                db,
+                locale_id,
+                old_accent_id,
+                new_accent_id,
+                safeToUpdate
+              )
+            } catch (err: any) {
+              console.warn(
+                `Failed to update accents for batch [${old_accent_token}]:`,
+                err.message
+              )
+              // Continue with next batch
+            }
+          }
+
+          // For users who already have the target accent, delete the old accent
+          const usersWithDuplicate = batch.filter(
+            id => !safeToUpdate.includes(id)
+          )
+          if (usersWithDuplicate.length > 0) {
+            console.warn(
+              `${usersWithDuplicate.length} user(s) already have target accent, deleting old accent entries`
+            )
+            for (const client_id of usersWithDuplicate) {
+              try {
+                await db.runSql(
+                  `
+                    DELETE FROM user_client_accents
+                    WHERE locale_id = ? AND accent_id = ? AND client_id = ?
+                  `,
+                  [locale_id, old_accent_id, client_id]
+                )
+              } catch (delErr: any) {
+                console.warn(
+                  `Failed to delete old accent for user ${client_id.substring(
+                    0,
+                    8
+                  )}...:`,
+                  delErr.message
+                )
+              }
+            }
+          }
+        }
       }
     }
 
@@ -106,7 +160,15 @@ export const migrateAccentsToAccentsAndVariants_default = async (
     if (usersForVariantAddition.length > 0) {
       for (let i = 0; i < usersForVariantAddition.length; i += BATCH_SIZE) {
         const batch = usersForVariantAddition.slice(i, i + BATCH_SIZE)
-        await bulkInsertUserVariants(db, locale_id, variant_id, batch)
+        try {
+          await bulkInsertUserVariants(db, locale_id, variant_id, batch)
+        } catch (err: any) {
+          console.warn(
+            `Failed to insert variants for batch [${variant_token}]:`,
+            err.message
+          )
+          // Continue with next batch
+        }
       }
     }
 
