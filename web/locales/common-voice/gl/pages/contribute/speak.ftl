@@ -12,6 +12,12 @@ record-no-mic-found = Non se atopou micrófono.
 record-error-too-short = A gravación resultou demasiado curta.
 record-error-too-long = A gravación resultou demasiado longa.
 record-error-too-quiet = A gravación resultou demasiado silenciosa.
+record-error-uploaded-clip-corrupted =
+    A gravación de audio semella estar danada. Isto pode ocorrer por varios motivos:
+    • Problemas de compatibilidade co navegador (probe a usar outro navegador)
+    • Problemas co micrófono ou cos controladores de audio
+    • Interrupcións da rede durante a gravación
+    Por favor, tente gravar de novo.
 record-cancel = Anular a regravación
 record-instruction = { $actionType }<recordIcon></recordIcon> e logo lea a frase en voz alta
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> ao acabar

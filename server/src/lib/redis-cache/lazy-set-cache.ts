@@ -91,6 +91,12 @@ export class LazySetCache {
     await pipeline.exec()
   }
 
+  // Check if a value is a member of the Redis SET
+  static async isMember(key: string, value: number | string): Promise<boolean> {
+    const isMember = await redis.sismember(key, String(value))
+    return isMember === 1
+  }
+
   // Read all members from Redis SET as strings or numbers
   static async getMembers(key: string): Promise<(number | string)[]> {
     const raw = await redis.smembers(key)

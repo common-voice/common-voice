@@ -18,7 +18,6 @@ record-error-uploaded-clip-corrupted =
     • Problemau gyda'r meicroffon neu yrrwr sain
     • Tarfu gan y rhwydwaith wrth recordio
     Ceisiwch recordio eto.
-record-error-uploaded-clip-too-long = Roedd eich recordiad yn fwy na'r hyd mwyaf o { $duration } eiliad. Recordiwch glip byrrach.
 record-cancel = Diddymu Ail-recordio
 record-instruction = { $actionType }<recordIcon></recordIcon> ac yna darllen y frawddeg yn uchel
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> ar ôl gorffen

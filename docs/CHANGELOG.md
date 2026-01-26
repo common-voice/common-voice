@@ -45,7 +45,10 @@ We thank [@MariaMitrofan](https://github.com/MariaMitrofan) for contributing to 
 - Feat: Add migration helpers and unit tests for user-accents to predefined-accents and variants, by [@moz-bozden](https://github.com/moz-bozden) in [#5257](https://github.com/common-voice/common-voice/pull/5257) (in v.1.156.2)
 - Feat: Complete review of the Audio pipeline to handle multiple issues (iOS devices, corrupted audio handling caused by communication errors and related UX issues causing false positives, a line of FE issues caused by race conditions, ...) , by [@moz-bozden](https://github.com/moz-bozden) in [#5223](https://github.com/common-voice/common-voice/pull/5223) (in v.1.156.2)
 - Feat: Make use of Redis for prefetch registry to coordinate multiple instances, by [@moz-bozden](https://github.com/moz-bozden) in [#5235](https://github.com/common-voice/common-voice/pull/5235) (in v.1.156.1)
-- Fix: Add guards against changing user data in accent-variant migration helpers (caused ro AAC migration to fail), add more mappings for generic Romanian accents, by [@moz-bozden](https://github.com/moz-bozden) in [#5271](https://github.com/common-voice/common-voice/pull/5271) (in v.1.156.3)
+- Refactor: Clip upload pipeline to add rate-limiting, prevent saving of corrupt audio to storage, better dedeup through LazySetCache, fix edge cases, by [@moz-bozden](https://github.com/moz-bozden) in [#5275](https://github.com/common-voice/common-voice/pull/5275) (in v.1.156.4)
+- Fix: Apple device buffer handling related bugs/codec specs we introduced in v1.156.2, by [@moz-bozden](https://github.com/moz-bozden) in [#5270](https://github.com/common-voice/common-voice/pull/5270) (in v.1.156.4)
+- Fix: Many Listen page related issues (state management, missing data due to network errors, silence not-needed duplicate report/vote errors), by [@moz-bozden](https://github.com/moz-bozden) in [#5273](https://github.com/common-voice/common-voice/pull/5273) (in v.1.156.4)
+- Fix: Add guards against changing user data in accent-variant migration helpers (caused ro AAC migration to fail), add more mappings for generic Romanian accents, by [@moz-bozden](https://github.com/moz-bozden) in [#5271](https://github.com/common-voice/common-voice/pull/5271) (in v.1.156.3), [#5272](https://github.com/common-voice/common-voice/pull/5272) (in v.1.156.4)
 - Fix: Multiple fixes (BE: duplicated message in error, unicode missing in regex, extend caching to minimize duplicate clip errors, add guards to Speak page when audio is missing), by [@moz-bozden](https://github.com/moz-bozden) in [#5269](https://github.com/common-voice/common-voice/pull/5269) (in v.1.156.3)
 - Fix: Update dockerfile to use modern corepack because GPG keys for yarn expired, by [@moz-bozden](https://github.com/moz-bozden) in [#5268](https://github.com/common-voice/common-voice/pull/5268) (in v.1.156.3)
 - Fix: Language name parsing in Pontoon API data, where the language name includes Unicode apostrophes, by [@moz-bozden](https://github.com/moz-bozden) in [#5259](https://github.com/common-voice/common-voice/pull/5259) (in v.1.156.2)
@@ -60,6 +63,7 @@ We thank [@MariaMitrofan](https://github.com/MariaMitrofan) for contributing to 
 
 #### Data Changes after current release
 
+- Add Qashqai (`qxq`) variants by [@bandrandr](https://github.com/bandrandr) in [#5274](https://github.com/common-voice/common-voice/pull/5274) (in v.1.156.4)
 - Add Javanese (`jv`) variants by [@bandrandr](https://github.com/bandrandr) in [#5264](https://github.com/common-voice/common-voice/pull/5264) (in v.1.156.2)
 - Add Malay (`ms`) variants by [@moz-bozden](https://github.com/moz-bozden) in [#5258](https://github.com/common-voice/common-voice/pull/5258) (in v.1.156.2)
 - Add Lari/Achomi (`lrl`) variants by [@bandrandr](https://github.com/bandrandr) in [#5219](https://github.com/common-voice/common-voice/pull/5219) (in v.1.156.2)

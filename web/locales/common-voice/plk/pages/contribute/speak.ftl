@@ -17,7 +17,6 @@ record-error-uploaded-clip-corrupted =
     ۔ براؤزرے مطابقتے مسائل (کھاں گہ مُتوْ براؤزر استعمال تِھیا)
     ۔ مائیکروفون یا آڈیو ڈرائیور دہ جوْ خرابی
      ۔ یکارڈنگ تھون دہ نیٹ ورک دہ جوْ ݜچار
-record-error-uploaded-clip-too-long = څھے ریکارڈنگ موقرَڑ وختِجیْ بسکِلِن( تجاوز بِلِن) { $duration } سیکنڈ۔ بہربانی تھے کُھٹیْ آڈیو کلپ ریکارڈ تِھیا۔
 record-cancel = ریکارڈنگ کینسل تِھیا۔
 record-instruction = { $actionType }<recordIcon></recordIcon> آ جُملہ ست دُبار ہاݜ آواز گیْ پڑِیا۔
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> لئی مِݜٹیْ۔

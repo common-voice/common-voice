@@ -18,7 +18,6 @@ record-error-uploaded-clip-corrupted =
     • probleme cu microfonul sau driverul audio;
     • întreruperi de rețea în timpul înregistrării.
     Te rugăm să înregistrezi din nou.
-record-error-uploaded-clip-too-long = Înregistrarea ta a depășit durata maximă de { $duration } secunde. Te rugăm să înregistrezi o secvență audio mai scurtă.
 record-cancel = Anulează reînregistrarea
 record-instruction = { $actionType }<recordIcon></recordIcon>, apoi citește propoziția cu voce tare.
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> când ai terminat.

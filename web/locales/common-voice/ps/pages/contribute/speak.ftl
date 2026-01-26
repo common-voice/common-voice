@@ -19,7 +19,6 @@ record-error-uploaded-clip-corrupted =
     • د ثبت پر مهال د شبکې پرې کېدل
     
     مهرباني وکړئ بیا ثبت وکړئ.
-record-error-uploaded-clip-too-long = ستاسو ثبت شوی غږ د اعظمي مودې { $duration } ثانیو څخه زیات شو. مهرباني وکړئ یو لنډ کلیپ ثبت کړئ.
 record-cancel = د سره ثبت کول لغوه کړئ
 record-instruction = { $actionType }<recordIcon></recordIcon> بیا جمله په لوړ غږ ولولئ
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> کله چې سرته ورسي

@@ -18,7 +18,6 @@ record-error-uploaded-clip-corrupted =
     • Микрофонан я аудио драйверан анпалш .
     • ДӀаязъеш интернет юкъахйалар .
     Дехар ду юха хьажахьара .
-record-error-uploaded-clip-too-long = Хьан дӀаяздар совдаьлла { $duration } секундан ханна. Дехар ду , йоца клип дӀаязйар.
 record-cancel = Юхадаккха ТIехулйаздар
 record-instruction = тӀаккха хезаш беша алам
 record-stop-instruction = { $actionType }<stopIcon></stopIcon>Дина даьлча

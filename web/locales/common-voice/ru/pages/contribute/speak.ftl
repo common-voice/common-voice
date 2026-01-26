@@ -18,7 +18,6 @@ record-error-uploaded-clip-corrupted =
     • Проблемы с микрофоном или аудиодрайвером
     • Обрывы сети во время записи
     Пожалуйста, попробуйте записать снова.
-record-error-uploaded-clip-too-long = Ваша запись превысила максимальную продолжительность в { $duration } секунд. Пожалуйста, запишите более короткий клип.
 record-cancel = Отменить перезапись
 record-instruction = { $actionType } <recordIcon></recordIcon>, затем зачитайте предложение вслух
 record-stop-instruction = { $actionType } <stopIcon></stopIcon>, когда закончите

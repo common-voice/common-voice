@@ -18,7 +18,6 @@ record-error-uploaded-clip-corrupted =
     • problemy z mikrofonom abo awdiogónjakom
     • seśowe pśetergnjenja pśi nagrawanju
     Pšosym wopytajśo znowego nagrawaś.
-record-error-uploaded-clip-too-long = Wašo nagrawanje jo pśekšocył maksimalne traśe { $duration } sekundow. Pšosym nagrawajśo krótšy klip.
 record-cancel = Zasejnagraśe pśetergnuś
 record-instruction = { $actionType } <recordIcon></recordIcon> a pśedcytajśo sadu głosnje
 record-stop-instruction = { $actionType } <stopIcon></stopIcon>, gaž sćo gótowy
