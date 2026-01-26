@@ -410,7 +410,7 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
                       // don't let Chrome auto-translate
                       // https://html.spec.whatwg.org/multipage/dom.html#the-translate-attribute
                       translate="no"
-                      key={sentence?.id ?? `empty-${i}`}
+                      key={i}
                       className={
                         'card card-dimensions ' + (isActive ? '' : 'inactive')
                       }
