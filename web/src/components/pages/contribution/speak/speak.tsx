@@ -130,6 +130,11 @@ class SpeakPage extends React.Component<Props, State> {
   recordingStartTime = 0
   recordingStopTime = 0
 
+  // Guard against concurrent submissions (class-level instead of state-level)
+  private isSubmitting = false
+  // Track mounted state to prevent setState on unmounted component
+  private isMounted = false
+
   static getDerivedStateFromProps(props: Props, state: State) {
     // Guard against undefined sentences (network/communication failure)
     if (!props.sentences) {
@@ -191,9 +196,13 @@ class SpeakPage extends React.Component<Props, State> {
       trackGtag('recording-not-supported', { locale: this.props.locale })
       console.log(`Recording is not supported!`)
     }
+
+    this.isMounted = true
   }
 
   async componentWillUnmount() {
+    this.isMounted = false
+
     document.removeEventListener('keyup', this.handleKeyUp)
 
     document.removeEventListener('visibilitychange', this.releaseMicrophone)
@@ -566,7 +575,10 @@ class SpeakPage extends React.Component<Props, State> {
         // Reset submission guard only AFTER all uploads complete
         // This prevents double-submission during network retries (3 retries × 1sec delay = 3+ seconds)
         // Previous bug: Reset immediately after queueing, allowing rapid double-clicks during retries
-        this.setState({ isSubmitted: false })
+        // Only update state if component is still mounted (prevents React DOM errors)
+        if (this.isMounted) {
+          this.setState({ isSubmitted: false })
+        }
         this.isSubmitting = false
       },
     ])
@@ -593,10 +605,6 @@ class SpeakPage extends React.Component<Props, State> {
       showDiscardModal: !this.state.showDiscardModal,
     })
   }
-
-  // Guard against concurrent submissions
-  // Class-level instead of state-level, because state updates are async
-  private isSubmitting = false
 
   private handleSubmit = (evt?: React.SyntheticEvent) => {
     const { user } = this.props
