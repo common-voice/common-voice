@@ -369,23 +369,21 @@ export default class Clip {
         }
         transcodeJob = await createMp3TranscodeJob(audioInput)
 
-        // SYNC MODE: Wait for transcode to COMPLETE before starting upload
-        // This prevents orphaned files in storage when transcode fails
-        // Trade-off: Slightly slower (~500ms) but prevents data corruption
+        // We need to buffer to memory during transcode, validate, then upload
         if (process.env.NODE_ENV !== 'production') {
           console.log(
-            `[saveClip] Waiting for transcode completion: ${clipFileName}`
-          )
-        }
-        await transcodeJob.transcodeCompleted
-        if (process.env.NODE_ENV !== 'production') {
-          console.log(
-            `[saveClip] Transcode completed successfully: ${clipFileName}`
+            `[saveClip] Starting transcode with buffering: ${clipFileName}`
           )
         }
 
-        // Get duration (required for DB record)
-        const durationInSec = await transcodeJob.durationSeconds.catch(
+        // Buffer the transcoded output to memory
+        const chunks: Buffer[] = []
+        transcodeJob.outputStream.on('data', chunk => {
+          chunks.push(chunk as Buffer)
+        })
+
+        // Start duration probe immediately (consume stream in parallel)
+        const durationPromise = transcodeJob.durationSeconds.catch(
           (err): null => {
             console.error(
               '[saveClip] Failed to determine clip duration with ffprobe:',
@@ -395,20 +393,32 @@ export default class Clip {
           }
         )
 
-        // NOW start upload (only if transcode succeeded)
+        // Wait for transcode AND duration probe to complete
+        // This validates the audio is not corrupt before uploading
+        const [, durationInSec] = await Promise.all([
+          transcodeJob.transcodeCompleted,
+          durationPromise,
+        ])
+
         if (process.env.NODE_ENV !== 'production') {
-          console.log(`[saveClip] Starting upload to storage: ${clipFileName}`)
+          console.log(
+            `[saveClip] Transcode validated (duration: ${durationInSec}s), starting upload: ${clipFileName}`
+          )
         }
+
+        // Now we can upload the buffered data (we have successful transcode validation)
+        const bufferedData = Buffer.concat(chunks)
+        const uploadStream = Readable.from([bufferedData])
+
         const uploadTask = pipe(
           streamUploadToBucket(getConfig().CLIP_BUCKET_NAME),
           (
             fn: (
               path: string
             ) => (stream: NodeJS.ReadableStream) => TE.TaskEither<Error, void>
-          ) => fn(clipFileName)(transcodeJob.outputStream)
+          ) => fn(clipFileName)(uploadStream)
         )
 
-        // Wait for upload to complete
         const uploadResult = await pipe(
           uploadTask,
           TE.fold(
@@ -425,6 +435,13 @@ export default class Clip {
         )().then(p => p)
 
         await uploadResult // Throw if upload failed
+
+        if (process.env.NODE_ENV !== 'production') {
+          console.log(
+            `[saveClip] Upload completed successfully: ${clipFileName}`
+          )
+        }
+
         // Calculate duration for DB
         durationInMs =
           durationInSec != null && Number.isFinite(durationInSec)
