@@ -82,7 +82,7 @@ export default class Clip {
     )
 
     // Rate limiting for clip voting: ~600 votes/hour
-    // Voting is fast (listen ~3sec + 3sec wait + click)
+    // Voting is fast (listen + click)
     // Fast voter: ~10 votes/minute = 600/hour
     // Allows rapid validation sessions while preventing bots
     router.post(
@@ -95,18 +95,17 @@ export default class Clip {
       this.saveClipVote
     )
 
-    // Rate limiting for clip recording: Account for retries (bad NW) and batch submissions
-    // Flow: 25 sentences loaded => record 5 => submit (5 clips × 2 retries = 10 uploads max)
+    // Rate limiting for clip recording: Account for retries (bad NW)/headroom and batch submissions
+    // Usual scripter sends 1 per second, so we must set it below that.
+    // Flow: 25 sentences loaded => record 5 => submit 5
     // Recording: 1-15 sec/clip (avg 5sec) + UI time => 10sec/clip
-    // Batch of 5 clips: ~50 seconds minimum
-    // 5 batches (25 clips): ~4-5 minutes minimum
-    // Allow 100 uploads per 10 minutes to accommodate:
-    // - 5 clips × 2 retries × 5 batches = 50 actual uploads
-    // - 2x headroom for legitimate usage patterns
+    // Batch of 5 clips: ~50 seconds
+    // 5 batches (25 clips): ~4+ minutes
+    // => Allow 70 uploads per 10 minutes (7 uploads/minute, 420 uploads/hour < 600))
     router.post(
       '*',
       rateLimiter('clips/record', {
-        points: 100, // 100 uploads (accounts for 2 retries × 5 clips × 5 batches + 2x headroom)
+        points: 70, // 70 uploads
         duration: 600, // per 10 minutes
         blockDuration: 300, // Block for 5 minutes
       }),
