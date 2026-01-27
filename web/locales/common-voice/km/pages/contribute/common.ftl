@@ -97,5 +97,10 @@ shortcut-vote-no = n
 ## Validation criteria
 
 contribution-criteria-nav = លក្ខណៈវិនិច្ឆ័យ
-contribution-criteria-link = យល់ពីលក្ខណៈវិនិច្ឆ័យនៃការចូលរួមចំណែក
+contribution-criteria-link = យល់ដឹងពីលក្ខណៈវិនិច្ឆ័យនៃការចូលរួមចំណែក
 contribution-criteria-page-title = លក្ខណៈវិនិច្ឆ័យនៃការចូលរួមចំណែក
+contribution-criteria-page-description = យល់ដឹងពីអ្វីដែលត្រូវរកមើលនៅពេលាស្ដាប់ឃ្លីបសំឡេង និងជួយធ្វើឱ្យការថតសំឡេងរបស់អ្នកកាន់តែសម្បូរបែបផងដែរ!
+contribution-for-example = ឧទាហរណ៍
+contribution-misreadings-title = ការអានខុស
+contribution-misreadings-description = នៅពេលស្ដាប់ សូមពិនិត្យមើលដោយប្រុងប្រយ័ត្នថាអ្វីដែលត្រូវបានថតគឺពិតជាអ្វីដែលបានសរសេរ។ សូមកុំអើពើចំពោះកំហុសតូចតាច។ <br />កំហុសទូទៅរួមមាន៖
+contribution-misreadings-description-extended-list-1 = បាត់ <strong>'A'</strong> ឬ <strong>'The'</strong> នៅដើមដំបូងនៃការថត។
