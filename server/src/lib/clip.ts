@@ -81,15 +81,15 @@ export default class Clip {
       }
     )
 
-    // Rate limiting for clip voting: ~600 votes/hour
     // Voting is fast (listen + click)
     // Fast voter: ~10 votes/minute = 600/hour
-    // Allows rapid validation sessions while preventing bots
+    // But if audio is bad, they may vote faster to get a new clip
+    // => Rate limiting for clip voting: ~900 votes/hour
     router.post(
       '/:clipId/votes',
       rateLimiter('clips/vote', {
-        points: 100, // 100 votes
-        duration: 600, // per 10 minutes (600/hour max)
+        points: 150, // 150 votes
+        duration: 600, // per 10 minutes (900/hour max)
         blockDuration: 300, // Block for 5 minutes
       }),
       this.saveClipVote
@@ -334,11 +334,9 @@ export default class Clip {
         // the stream, at which point ffmpeg can no longer seek back to the beginning
         // createBufferedInputStream will create a local file and pipe data in as
         // a file, which doesn't lose the seek mechanism
-        if (process.env.NODE_ENV !== 'production') {
-          console.log(
-            `[saveClip] Using buffered input for AAC/MP4 format: ${format}`
-          )
-        }
+        console.log(
+          `[saveClip] AAC/MP4-Using buffered input: ${format} for ${clipFileName}`
+        )
 
         const converter = new Converter()
         const audioStream = Readable.from(request)
@@ -346,11 +344,9 @@ export default class Clip {
         audioInput = converter.createBufferedInputStream()
         audioStream.pipe(audioInput)
       } else if (isAAC) {
-        if (process.env.NODE_ENV !== 'production') {
-          console.log(
-            `[saveClip] AAC/MP4 detected but FLAG_BUFFER_STREAM_ENABLED is disabled: ${format}`
-          )
-        }
+        console.log(
+          `[saveClip] AAC/MP4-FLAG_BUFFER_STREAM_ENABLED=false: ${format} for ${clipFileName}`
+        )
       }
 
       let transcodeJob: Mp3TranscodeJob | null = null

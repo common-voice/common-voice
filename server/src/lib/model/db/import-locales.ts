@@ -96,15 +96,14 @@ const buildLocaleEnglishNameMapping = (): Record<string, string> => {
       if (match) {
         const [, code, name] = match
         if (code && name) {
-          englishNames[code.trim()] = name.trim()
+          // FIXME: Quick & hacky workaround for apostrophes in names - needs downtime migrations for proper fix
+          englishNames[code.trim()] = name.replace(/’/g, "'").trim()
         }
       }
     }
   } catch (error) {
     console.error('Failed to parse English language list:', error)
   }
-  console.log('[DEBUG] English names parsed:', Object.keys(englishNames).length)
-  console.log(englishNames)
   return englishNames
 }
 
@@ -146,8 +145,6 @@ const buildLocaleNativeNameMapping: any = () => {
       nativeNames[locale] = locale
     }
   }
-  console.log('[DEBUG] Native names parsed:', Object.keys(nativeNames).length)
-  console.log(nativeNames)
   return nativeNames
 }
 

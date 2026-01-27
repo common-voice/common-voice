@@ -131,9 +131,9 @@ class SpeakPage extends React.Component<Props, State> {
   recordingStopTime = 0
 
   // Guard against concurrent submissions (class-level instead of state-level)
-  private isSubmitting = false
+  private _isSubmitting = false
   // Track mounted state to prevent setState on unmounted component
-  private isMounted = false
+  private _isMounted = false
 
   static getDerivedStateFromProps(props: Props, state: State) {
     // Guard against undefined sentences (network/communication failure)
@@ -197,22 +197,22 @@ class SpeakPage extends React.Component<Props, State> {
       console.log(`Recording is not supported!`)
     }
 
-    this.isMounted = true
+    this._isMounted = true
   }
 
-  async componentWillUnmount() {
-    this.isMounted = false
+  componentWillUnmount() {
+    this._isMounted = false
 
     document.removeEventListener('keyup', this.handleKeyUp)
-
     document.removeEventListener('visibilitychange', this.releaseMicrophone)
+
     if (!this.isRecording) return
-    try {
-      await this.audio.stop()
-    } catch (error) {
+
+    // Call stop without awaiting - let it clean up in the background
+    this.audio.stop().catch(error => {
       // Audio may not be ready - ignore error during unmount
       console.log('Could not stop recording during unmount:', error)
-    }
+    })
   }
 
   private get isRecording() {
@@ -572,10 +572,10 @@ class SpeakPage extends React.Component<Props, State> {
         // This prevents double-submission during network retries (3 retries × 1sec delay = 3+ seconds)
         // Previous bug: Reset immediately after queueing, allowing rapid double-clicks during retries
         // Only update state if component is still mounted (prevents React DOM errors)
-        if (this.isMounted) {
+        if (this._isMounted) {
           this.setState({ isSubmitted: false })
         }
-        this.isSubmitting = false
+        this._isSubmitting = false
       },
     ])
 
@@ -608,13 +608,13 @@ class SpeakPage extends React.Component<Props, State> {
     evt?.preventDefault()
 
     // Prevent double submission with SYNCHRONOUS check
-    if (this.state.isSubmitted || this.isSubmitting) {
+    if (this.state.isSubmitted || this._isSubmitting) {
       console.warn('[Speak] Prevented double submission')
       return
     }
 
     // Set synchronous guard immediately
-    this.isSubmitting = true
+    this._isSubmitting = true
 
     const hasSeenFirstCTA = castTrueString(
       window.sessionStorage.getItem(SEEN_FIRST_CTA)
@@ -631,7 +631,7 @@ class SpeakPage extends React.Component<Props, State> {
     // If upload was blocked (privacy modal shown), don't process CTAs or reset submission flag
     if (!uploadSucceeded) {
       // FIX: Reset synchronous guard to allow retry after privacy modal
-      this.isSubmitting = false
+      this._isSubmitting = false
       return
     }
 

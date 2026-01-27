@@ -4006,10 +4006,10 @@
   dependencies:
     undici-types "~5.26.4"
 
-"@types/nodemailer@6.4.15":
-  version "6.4.15"
-  resolved "https://registry.npmjs.org/@types/nodemailer/-/nodemailer-6.4.15.tgz"
-  integrity sha512-0EBJxawVNjPkng1zm2vopRctuWVCxk34JcIlRuXSf54habUWdz1FB7wHDqOqvDa8Mtpt0Q3LTXQkAs2LNyK5jQ==
+"@types/nodemailer@6.4.22":
+  version "6.4.22"
+  resolved "https://registry.yarnpkg.com/@types/nodemailer/-/nodemailer-6.4.22.tgz#8d1b8415b30a9ddc6d2866923017159f64de0859"
+  integrity sha512-HV16KRsW7UyZBITE07B62k8PRAKFqRSFXn1T7vslurVjN761tMDBhk5Lbt17ehyTzK6XcyJnAgUpevrvkcVOzw==
   dependencies:
     "@types/node" "*"
 
