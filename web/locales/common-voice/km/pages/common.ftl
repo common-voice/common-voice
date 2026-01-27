@@ -244,7 +244,11 @@ mrh = ម៉ារ៉ា
 mrj = ហ៊ីល ម៉ារី
 ms = ម៉ាឡេ
 mse = មូស៊ី
+msi = ភាសាម៉ាឡេសាបា
 mt = ម៉ាល់តា
+mua = មុនដាំង
+mug = មូស្គូម
+mve = ម៉ាវ៉ារី
 mvy = អ៊ីនឌូស កូហ៊ីស្តានី
 mxu = ម៉ាដា
 my = ភូមា
@@ -254,10 +258,15 @@ nb-NO = ន័រវេស បុកម៉ាល
 ncx = ពូប្លា ណាហួតល កណ្តាល
 nd = អ៊ីស៊ីអិនដេបេលេ (ខាងជើង)
 ne-NP = នេប៉ាល់
+new = ញូវ៉ារី
 nhe = ណាវ៉ាតល ហួស្តេកា ខាងកើត
 nhi = សៀរ៉ាខាងលិច ពូប្លា ណាវ៉ាត
 nia = នីអាស
 nl = ហូឡង់
+nla = ង៉ុមបាឡេ
+nlv = អូរីហ្សាបា ណាវ៉ាត
+nmg = ក្វាស៊ីអូ
+nmz = ឡូសសូ
 nn-NO = ន័រវេស នីនូស
 nnh = ងៀមបុន
 nqo = អិនកូ
@@ -265,7 +274,9 @@ nr = អ៊ីស៊ីអិនដេបេលេ (ខាងត្បូង)
 nso = សូតូខាងជើង
 ny = ចិនយ៉ានចា
 nyn = រូនយ៉ានកូល
+nyu = ញូងវេ
 oc = អូកស៊ីតង់
+odk = អូដគី
 om = អាហ្វាន អូរ៉ូម៉ូ
 or = អូឌៀ
 oru = អូមួរី
@@ -273,56 +284,86 @@ os = អូសេទី
 pa-IN = ពុនចាប៊ី
 pap = ប៉ាពីយ៉ូម៉ង់
 pap-AW = ប៉ាពីយ៉ូម៉ង់ (អារូបា)
+pau = ប៉ាឡាវ
+pcd = ភីកាដ
 pcm = ភាសាអង់គ្លេសពីដជីននីហ្សេរីយ៉ា
+pez = ប៉ែនខាងកើត
 phl = ប៉ាលូឡា
+phr = ប៉ាហារី-ផតវ៉ារី
 pl = ប៉ូឡូញ
 plk = កូហ៊ីស្តានី ស៊ីណា
+pne = ប៉េណានខាងលិច
+prq = អាស្ហេនីនកា ភឺរ៉េន
 ps = ប៉ាស្តូ
 pt = ព័រទុយហ្គាល់
 pua = ភូរប៉េឆា តំបន់ខ្ពង់រាបខាងលិច
 pwn = ប៉ៃវ៉ាន់
 quc = គីឆេ
+qug = តំបន់ខ្ពង់រាបឈីមបូរ៉ាហ្សូ គីឈូអា
 qup = ប៉ាស្តាហ្សា ឃ្យូហួ ភាគខាងត្បូង
+qur = ឃ្វីឈូយ៉ាណាហួនកា
+qus = ឃ្វីឈូ សាន់ទីយ៉ាហ្គោ ដេល អេស្តេរ៉ូ
 qux = ឃ្វីឈូ យ៉ូយ៉ូស
 quy = ឈាងកា ឃ្យូហួ
 qva = ឃ្វីឈូ អាំបូ-ប៉ាស្កូ
 qvi = គីចវ៉ា
+qvj = ឡូចា ហៃឡង់ គីចវ៉ា
 qvl = ឃ្វីឈូ កាចាតាមបូ
 qwa = ឃ្វីឈូ កូរ៉ុងហ្គោ អាន់កាស
 qws = ឃ្វីឈូ ស៊ីហួស អាន់កាស
 qxa = ឃ្វីអាន គីជូអា
 qxp = ពូណូ ឃ្វីឈូ
+qxq = កាសកៃ
 qxt = ឃ្វីឈូ ប៉ាស្កូ សាន់តា អាណា ដឺ ទូស៊ី
 qxu = ឃ្វីឈូ អារីគីប៉ា-ឡា យូនីយ៉ុង
+qxw = ជូចា វ៉ាន់កា ឃ្វីឈូ
 rif = តារីហ្វីត
 rm-sursilv = ស៊ើស៊ីលវ៉ាន់រ៉ូម៉ាំង
 rm-vallader = រ៉ូម៉ាំង វ៉ាឡាឌើរ
+rn = គីរុនឌី
 ro = រ៉ូម៉ានី
+rof = គីរ៉ុមបូ
 ru = រុស្សី
+ruc = រូលី
+rup = អារ៉ូម៉ានី
 rw = គីនយ៉ាវ៉ាន់ដា
+rwm = អាំបា
 sah = សាកា
 sat = សាន់តាលី (អូល ឈីគី)
+sbn = ស៊ីនឌី ប៊ីល
 sc = សាឌីនៀន
+scl = ស៊ីណា
 scn = ស៊ីស៊ីលី
 sco = ស្កុតឡេន
 sd = ស៊ីនឌី
 sdh = ជនជាតិឃឺដខាងត្បូង
+sdo = ស៊ីរីយ៉ាន ប៊ីដាយូហ
+seh = សេណា
+sei = ស៊េរី
 shi = តាសលហ៊ីត
 shn = សាន
 si = ស៊ីនហាឡា
 sk = ស្លូវ៉ាគី
 skr = សារ៉ាគី
 sl = ស្លូវេនី
+sn = ស៊ីណា
 snk = សូនីនកេ
+snv = សាបាន
 so = សូម៉ាលី
 sq = អាល់បានី
 sr = សែប៊ី
 ss = ស៊ីស្វាទី
+ssi = សាន់ស៊ី
 st = សូតូខាងត្បូង
+su = ស៊ុនដា
 sv-SE = ស៊ុយអែត
+sva = ស្វាន
 sw = ស្វាហ៊ីលី
 syr = ស៊ីរីយ៉ាក
+szy = សាគីហ្សាយ៉ា
 ta = ភាសាតាមីល
+tar = តារ៉ាហ៊ូម៉ារ៉ាកណ្តាល
+tay = អាតាយ៉ាល
 te = ភាសាតេលូហ្គូ
 teg = តេកេ
 tg = តាជីគី
@@ -331,29 +372,83 @@ ti = ទីរិនយ៉ា
 tig = ទីហ្គ្រេ
 tk = តួកមេន
 tl = តាហ្គាឡុក
+tli = ទីលីងហ្គីត
 tn = សេតស្វាណា
+tob = តូបា កូម
 tok = តូគី ប៉ូណា
+top = ប៉ាប៉ាន់ឡា តូតូណាក
 tr = ភាសាទួរគី
+trv = ស៊ីឌីក
+trw = តូវ៉ាលី
 ts = ស៊ីតសុងហ្គា
 tt = តាតារ
+ttj = រូតូរ៉ូ
 tui = ទូពូរី
+tum = ទុមប៊ូកា
 tvu = ទុណេន
 tw = ទ្វី
 ty = តាហ៊ីទី
 tyv = ទូវ៉ាន់
 uby = អ៊ូប៊ីខ
+udl = អូលដេមេ
 udm = អ៊ុដមើត
 ug = អ៊ុយហ្គឺរ
 uk = អ៊ុយក្រែន
+ukv = គូគូ
 ur = អ៊ូឌូរ
+ush = យូសូហូ
 uz = អ៊ូសបេគីស្ថាន
+var = ហួរីជីអូ
 ve = ស៊ីវេនដា
+vec = វេណេសៀន
+vi = វៀតណាម
+vmw = អេម៉ាឃូវ៉ា
+vot = វ៉ូទិក
+wbl = វ៉ាគី
+wep = វេស្តហ្វាលៀន
+wes = កាមេរូន ភីដជីន
+wo = វូឡូហ្វ
+xdq = កៃតាក
+xh = ហូសា
+xhe = ខេត្រានី
+xka = កាលកូទី
+xkl = កេនយ៉ា
+xmf = មីងហ្គ្រេលៀន
+xsm = កាសេម
+yaq = យ៉ាគី
+yav = នូអាស៊ូ
+ydg = យ៉ាដហ្គា
+yi = យីឌីស
+yo = យូរូបា
+yue = កាតាំង
+zgh = តាម៉ាហ្សីត
+zh-CN = ចិន (ចិន)
+zh-HK = ចិន (ហុងកុង)
+zh-TW = ចិន (តៃវ៉ាន់)
+zoc = កូប៉ាណាឡា ហ្សូក
+zu = ហ្សូលូ
+zza = ហ្សាហ្សា
 
 # [/]
 
 
 ## Layout
 
+profile = ប្រវត្តិរូប
+help = ជំនួយ
+contact = ទំនាក់ទំនង
+privacy = ភាព​ឯកជន
+terms = លក្ខខណ្ឌ
+cookies = ​ខូគី
+faq = សំណួរ​ដែល​សួរ​រឿយៗ
+documentation = ឯកសារ
+content-license-text = ខ្លឹមសារអាចរកបានក្រោម <licenseLink>អាជ្ញាប័ណ្ណ Creative Commons</licenseLink>
+share-title = ចូលរួមសហគមន៍របស់យើង
+share-text = ជួយបង្រៀនម៉ាស៊ីនពីរបៀបដែលមនុស្សពិតនិយាយ សូមបរិច្ចាគសំឡេងរបស់អ្នកនៅ { $link }
+link-copied = បានចម្លងតំណភ្ជាប់
+back-top = ត្រឡប់ទៅផ្នែកខាងលើ
+logout = ចាកចេញ
+donate = បរិច្ចាគ
 stayintouch = យើង​នៅ Mozilla កំពុង​បង្កើត​សហគមន៍​ពាក់ព័ន្ធ​នឹង​បច្ចេកវិទ្យា​សំឡេង។ យើង​ចង់​បន្ត​ឱ្យអ្នក​ទទួលបាន​ព័ត៌មាន​ថ្មីៗ ប្រភព​ទិន្នន័យ​ថ្មី និង​ចង់​ដឹង​បន្ថែម​ទាក់ទង​នឹង​របៀប​ដែល​អ្នក​កំពុង​ប្រើប្រាស់​ទិន្នន័យ​នេះ។
 privacy-info = យើង​សន្យា​ថា​ត្រូវ​​ថែទាំ​ព័ត៌មាន​របស់អ្នក​ដោយយកចិត្តទុកដាក់។ សូមអាន​បន្ថែម​នៅក្នុង<privacyLink>គោលការណ៍​ឯកជនភាព</privacyLink>។
 return-to-cv = ត្រឡប់​ទៅ Common Voice
@@ -366,3 +461,44 @@ email-opt-in-info-sub-with-challenge = ទទួលបានអ៊ីមែល�
 email-opt-in-privacy-v2 = តាមរយៈ​ការ​ជ្រើសរើស​ទទួល​អ៊ីមែល អ្នក​បញ្ជាក់​ថា​អ្នក​មិន​អី​ទេ​ជាមួយ Mozilla ក្នុងការចាត់ចែង​ព័ត៌មាន​នេះ​ដូច​ដែល​បាន​ពន្យល់​ក្នុង <privacyLink>គោលការណ៍​ឯកជនភាព</privacyLink> របស់ Mozilla។
 indicates-required = កន្លែង​បញ្ចូល​ដែលសម្គាល់​ដោយ​សញ្ញា (*) ត្រូវតម្រូវឱ្យបញ្ចូល។
 not-available-abbreviation = មិនអាចអនុវត្តបាន
+# Text shown on a button that can be clicked to copy text to the clipboard
+copy = ​ចម្លង​
+# Text shown on a button that can be clicked to cancel an action
+cancel = បោះបង់ចោល
+# Text shown on a button that can be clicked to delete an item
+delete = ​លុប​
+
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = <mark>យើងត្រូវការ</mark><br/><mark>ជំនួយពីអ្នក!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = វាត្រូវចំណាយប្រាក់ជិតមួយលានដុល្លារក្នុងមួយឆ្នាំដើម្បីបង្ហោះសំណុំទិន្នន័យ និងកែលម្អវេទិកាសម្រាប់សហគមន៍ភាសាជាង 100 ដែលពឹងផ្អែកលើអ្វីដែលយើងធ្វើ។ <strong>ប្រសិនបើអ្នកឱ្យតម្លៃដល់ទិន្នន័យបើកចំហ និងរួមបញ្ចូល - បរិច្ចាគថ្ងៃនេះ!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>កំពុងប្រើប្រវត្តិរូបសង្ខេបសម្រាប់</mark><br/><mark>ការស្រាវជ្រាវរបស់អ្នក?</mark>
+languages-donate-banner-cta-explanation = Common Voice ទទួលបានមូលនិធិពីការបរិច្ចាគ និងជំនួយឥតសំណង! យើងចូលចិត្តសហការជាមួយអ្នកសិក្សា សង្គមស៊ីវិល និងអ្នកស្រាវជ្រាវក្នុងឧស្សាហកម្ម។ Common Voice គឺឥតគិតថ្លៃក្នុងការប្រើប្រាស់ ប៉ុន្តែការចូលរួមចំណែកដល់ការចំណាយលើវេទិកា និងការរៀបចំតាមរយៈសំណើជំនួយឥតសំណងគឺពិតជាមានប្រយោជន៍ណាស់។
+localization-select =
+    .label = ជ្រើសរើសភាសា/ការធ្វើមូលដ្ឋានីយកម្ម
+
+## MDC Announcement
+
+# Main text for MDC announcement. Text wrapped in <strong></strong> will be rendered with bold font
+announcement-mdc-text = <strong>សំណុំទិន្នន័យ Common Voice ថ្មី</strong> ឥឡូវនេះអាចទាញយកបានទាំងស្រុងតាមរយៈវេទិកាបងប្អូនរបស់យើងគឺ Mozilla Data Collective។ ចូលរួមដើម្បីចូលប្រើប្រាស់សំណុំទិន្នន័យសកលជាង 300+ ដែលបង្កើតឡើងដោយ និងសម្រាប់សហគមន៍។
+# Button text for MDC announcement
+announcement-mdc-button-text = ចូលរួមជាមួយ Mozilla Data Collective
+# Aria text for button which opens MDC on a new page
+announcement-mdc-button-aria-text = បើកនៅក្នុងផ្ទាំងថ្មី
+
+## Common Language/Dataset Selector & SearchBox Related
+
+# Generic search box defaults
+searchbox-default-label = ចាប់ផ្តើមវាយអក្សរដើម្បីស្វែងរក
+searchbox-default-placeholder = ស្វែងរក...
+searchbox-default-aria-label = ស្វែងយក
+dropdown-no-results = រកមិនឃើញការផ្គូផ្គងទេ
+# Common Voice Dataset=Language search box
+dataset-searchbox-label = ផ្លាស់ប្តូរទាំងភាសាបង្ហាញ និងភាសាសំណុំទិន្នន័យ
+dataset-searchbox-placeholder = ស្វែងរកភាសា...
+dataset-searchbox-aria-label = ស្វែងរកភាសា
+dataset-search-no-results = រកមិនឃើញភាសាដែលត្រូវគ្នាទេ
+request-new-language = ស្នើសុំភាសាថ្មី
