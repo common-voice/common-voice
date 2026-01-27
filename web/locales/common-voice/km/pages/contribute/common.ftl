@@ -30,3 +30,25 @@ target-segment-generic-card = អ្នកកំពុងចូលរួមច�
 target-segment-first-banner = ជួយបង្កើតផ្នែកគោលដៅដំបូងរបស់ Common Voice នៅក្នុង { $locale }
 target-segment-add-voice = បន្ថែមសំឡេងរបស់អ្នក
 target-segment-learn-more = ស្វែងយល់​បន្ថែម
+change-preferences = ផ្លាស់ប្ដូរ​ចំណូលចិត្ត
+login-signup = ចូល / ចុះឈ្មោះ
+vote-yes = បាទ/ចាស
+vote-no = ទេ
+datasets = សំណុំទិន្នន័យ
+languages = ភាសា
+about = អំពី
+partner = ដៃគូ
+submit-form-action = ដាក់​ស្នើ
+
+## Reporting
+
+report = រាយការណ៍
+report-title = ដាក់ស្នើរបាយការណ៍
+report-ask = តើអ្នកកំពុងជួបប្រទះបញ្ហាអ្វីខ្លះជាមួយប្រយោគនេះ?
+report-offensive-language = ភាសាប្រមាថ
+report-offensive-language-detail = ប្រយោគនេះមានភាសាមិនគោរព ឬប្រមាថ។
+report-grammar-or-spelling = កំហុសវេយ្យាករណ៍/អក្ខរាវិរុទ្ធ
+report-grammar-or-spelling-detail = ប្រយោគនេះមានកំហុសវេយ្យាករណ៍ ឬអក្ខរាវិរុទ្ធ។
+report-different-language = ភាសាខុសគ្នា
+report-different-language-detail = វាត្រូវបានសរសេរជាភាសាផ្សេងពីអ្វីដែលខ្ញុំកំពុងនិយាយ។
+report-difficult-pronounce = ពិបាកបញ្ចេញសំឡេង
