@@ -112,3 +112,6 @@ contribution-misreadings-example-1-title = ដាយណូស័រយក្ស�
 contribution-misreadings-example-2-title = ដាយណូស័រយក្សនៃយុគសម័យ Triassic ។
 contribution-misreadings-example-2-explanation = [គួរតែជា 'ដាយណូស័រ']
 contribution-misreadings-example-3-title = ដាយណូស័រយក្សនៃយុគសម័យ Triassi- ។
+contribution-misreadings-example-3-explanation = [ការថតសំឡេងត្រូវបានកាត់ផ្តាច់មុនពេលពាក្យចុងក្រោយចប់]
+contribution-misreadings-example-4-title = ដាយណូស័រយក្សនៃយុគសម័យទ្រីអាស៊ីក។ មែនហើយ។
+contribution-misreadings-example-4-explanation = [មាន​ការ​កត់ត្រា​ច្រើន​ជាង​អត្ថបទ​ដែល​តម្រូវ​ឲ្យ​សរសេរ]
