@@ -502,17 +502,19 @@ class SpeakPage extends React.Component<Props, State> {
             retries = 0
             uploaded_count += 1
           } catch (error) {
+            // Check error type from server response
+            if (error.message.includes('ALREADY_EXISTS')) {
+              // Duplicate clip - treat as success and exit retry loop immediately
+              hasDuplicateClip = true
+              uploaded_count += 1
+              retries = 0
+              continue
+            }
+
             let key = 'error-clip-upload'
             let shouldRetry = true
 
-            // Check error type from server response
-            if (error.message.includes('ALREADY_EXISTS')) {
-              // OPTIMISTIC UI: Treat as success (clip uploaded earlier or now)
-              hasDuplicateClip = true
-              retries = 0
-              uploaded_count += 1
-              // Don't show error - this is actually success
-            } else if (error.message.includes('AUDIO_CORRUPT')) {
+            if (error.message.includes('AUDIO_CORRUPT')) {
               // Corrupted audio data - don't retry, show helpful message
               key = 'record-error-uploaded-clip-corrupted'
               shouldRetry = false
