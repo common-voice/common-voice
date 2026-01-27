@@ -105,3 +105,7 @@ contribution-misreadings-title = ការអានខុស
 contribution-misreadings-description = នៅពេលស្ដាប់ សូមពិនិត្យមើលដោយប្រុងប្រយ័ត្នថាអ្វីដែលត្រូវបានថតគឺពិតជាអ្វីដែលបានសរសេរ។ សូមបដិសេធទោះបីជាមានកំហុសតូចតាចក៏ដោយ។ <br />កំហុសទូទៅរួមមាន៖
 contribution-misreadings-description-extended-list-1 = បាត់សំឡេង <strong>'A'</strong> ឬ <strong>'The'</strong> នៅដើមដំបូងនៃការថត។
 contribution-misreadings-description-extended-list-2 = បាត់សំឡេង <strong>'s'</strong> នៅ​ខាងចុង​ពាក្យ។
+contribution-misreadings-description-extended-list-3 = ការអានពាក្យកាត់ដែលមិនត្រឹមត្រូវ ដូចជា "We're" ជំនួសឱ្យ "We are" ឬច្រាសមកវិញ។
+contribution-misreadings-description-extended-list-4 = ការបាត់ពាក្យខាងចុងក្រោយដោយសារកាត់ផ្ដាច់ការថតលឿនពេក។
+contribution-misreadings-description-extended-list-5 = ព្យាយាមអានពាក្យមួយច្រើនដងពេក។
+contribution-misreadings-example-1-title = ដាយណូស័រយក្សនៃយុគសម័យ Triassic ។
