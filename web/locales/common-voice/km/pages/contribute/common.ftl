@@ -15,3 +15,4 @@ contribute-more =
     { $count ->
        *[other] ត្រៀមខ្លួនធ្វើ { $count } បន្ថែមទៀត ឬនៅ?
     }
+speak-empty-state = យើងអស់ប្រយោគដើម្បីថតសំឡេងជាភាសានេះហើយ...
