@@ -59,3 +59,43 @@ report-other-comment =
     .placeholder = មតិយោបល់
 success = ជោគជ័យ
 continue = បន្ត
+report-success = របាយការណ៍ត្រូវបានអនុម័តដោយជោគជ័យ
+
+## Speak & Listen Shortcuts
+
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
+
+## Speak Shortcuts
+
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
+shortcut-record-toggle-label = ថត/បញ្ឈប់
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = ថតឃ្លីបឡើងវិញ
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = បោះបង់ការថតដែលកំពុងដំណើរការ
+shortcut-submit = ត្រលប់
+shortcut-submit-label = ដាក់ស្នើ​​ឃ្លីប
+request-language-text = មិនទាន់ឃើញភាសារបស់អ្នកនៅលើ Common Voice នៅឡើយឬ?
+request-language-button = ស្នើសុំភាសា
+
+## Listen Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+shortcut-play-toggle-label = ចាក់/បញ្ឈប់
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
+
+## Validation criteria
+
+contribution-criteria-nav = លក្ខណៈវិនិច្ឆ័យ
+contribution-criteria-link = យល់ពីលក្ខណៈវិនិច្ឆ័យនៃការចូលរួមចំណែក
+contribution-criteria-page-title = លក្ខណៈវិនិច្ឆ័យនៃការចូលរួមចំណែក
