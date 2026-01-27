@@ -52,3 +52,5 @@ report-grammar-or-spelling-detail = ប្រយោគនេះមានកំ�
 report-different-language = ភាសាខុសគ្នា
 report-different-language-detail = វាត្រូវបានសរសេរជាភាសាផ្សេងពីអ្វីដែលខ្ញុំកំពុងនិយាយ។
 report-difficult-pronounce = ពិបាកបញ្ចេញសំឡេង
+report-difficult-pronounce-detail = វាមានពាក្យ ឬឃ្លាដែលពិបាកអាន ឬពិបាកបញ្ចេញសំឡេង។
+report-offensive-speech = ពាក្យសម្ដីប្រមាថ
