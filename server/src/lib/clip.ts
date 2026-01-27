@@ -81,15 +81,15 @@ export default class Clip {
       }
     )
 
-    // Rate limiting for clip voting: ~600 votes/hour
     // Voting is fast (listen + click)
     // Fast voter: ~10 votes/minute = 600/hour
-    // Allows rapid validation sessions while preventing bots
+    // But if audio is bad, they may vote faster to get a new clip
+    // => Rate limiting for clip voting: ~900 votes/hour
     router.post(
       '/:clipId/votes',
       rateLimiter('clips/vote', {
-        points: 100, // 100 votes
-        duration: 600, // per 10 minutes (600/hour max)
+        points: 150, // 150 votes
+        duration: 600, // per 10 minutes (900/hour max)
         blockDuration: 300, // Block for 5 minutes
       }),
       this.saveClipVote
