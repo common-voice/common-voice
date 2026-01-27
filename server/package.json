@@ -65,7 +65,7 @@
     "@types/mysql": "2.15.27",
     "@types/node": "18.19.70",
     "@types/node-fetch": "2.6.2",
-    "@types/nodemailer": "6.4.15",
+    "@types/nodemailer": "6.4.22",
     "@types/redlock": "4.0.7",
     "@types/request-promise-native": "1.0.21",
     "@types/universal-analytics": "0.4.8",
