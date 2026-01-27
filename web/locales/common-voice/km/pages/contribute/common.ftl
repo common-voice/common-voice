@@ -109,3 +109,6 @@ contribution-misreadings-description-extended-list-3 = ការអានពា�
 contribution-misreadings-description-extended-list-4 = ការបាត់ពាក្យខាងចុងក្រោយដោយសារកាត់ផ្ដាច់ការថតលឿនពេក។
 contribution-misreadings-description-extended-list-5 = ព្យាយាមអានពាក្យមួយច្រើនដងពេក។
 contribution-misreadings-example-1-title = ដាយណូស័រយក្សនៃយុគសម័យ Triassic ។
+contribution-misreadings-example-2-title = ដាយណូស័រយក្សនៃយុគសម័យ Triassic ។
+contribution-misreadings-example-2-explanation = [គួរតែជា 'ដាយណូស័រ']
+contribution-misreadings-example-3-title = ដាយណូស័រយក្សនៃយុគសម័យ Triassi- ។
