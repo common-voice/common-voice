@@ -12,6 +12,7 @@ audioplayer-header = Азыӡырҩра
 # For the button to skip an item
 skip-button = Абжьажьра
 submit-button = Анашьҭра
+contribute = Алагала аҟаҵара
 
 ## Navbar
 
@@ -20,7 +21,12 @@ validate = Агәаҭара
 respond-to-prompt-mobile = Аҭак
 check-transcriptions-mobile = Агәаҭара
 
+## Not Found Page
+
+not-found-page-header = Иԥшаам
+
 ## Language search component
 
 language-search-placeholder = Абызшәа аԥшаара...
 language-search-aria-label = Абызшәа аԥшаара
+language-search-no-results = Абызшәақәа ԥшаам

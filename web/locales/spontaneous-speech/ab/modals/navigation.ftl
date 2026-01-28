@@ -4,5 +4,6 @@
 respond = Аҭак аҟаҵара
 # Link to the check transcriptions page in the navigation modal for mobile users
 check = Агәаҭара
+login-signup = Аҭалара/Аҽҭагалара
 login = Аҭалара
 logout = Аҭыҵра

@@ -4,3 +4,7 @@
 check-editbox-header = Агәаҭара
 # For the button on the Check Transcriptions page to assert that a transcription is correct
 correct = Ииашоуп
+# For the button on the Check Transcriptions page to indicate that a user has finished editing a transcription
+done = Ихиоуп
+# For the button on the Check Transcriptions page to edit a transcription
+edit = Аԥсахра
