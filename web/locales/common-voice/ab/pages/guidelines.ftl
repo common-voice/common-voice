@@ -118,9 +118,14 @@ example-questions-subheader = Азҵаарақәа рҿырԥштәқәа
 
 # Answer Questions
 answer-questions = Азҵаарақәа рҭак аҟаҵара
+transcribe-the-audio-subheader-2 = Ахыԥхьаӡарақәеи акронимқәеи
+tags-laugh = Ачча
+tags-laugh-explanation = Аччабыжь
 
 ## Code-Switching
 
+# Reviewing a Question
+code-switching-review-subheader = Азҵаара агәаҭара
 # Answering a Question
 code-switching-answer-subheader = Азҵаара аҭак
 code-switching-not-tag-proper-names-example-1 = Ауаа:  Мариа, Џон

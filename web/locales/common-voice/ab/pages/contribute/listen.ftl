@@ -12,3 +12,11 @@ listen-loading-error =
 listen-abort-title = Аклипқәа ргәаҭара хыркәшатәума?
 listen-abort-cancel = Агәаҭара ацҵара
 listen-abort-confirm = Агәаҭара ахыркәшара
+# Menu item
+validate-readings = Аҳәашьа агәаҭара
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = Аҭаҩымҭақәа ргәаҭара <small>(Лассы)</small>
+
+## MENU ITEM TOOLTIPS
+
+listen-contribute-menu-tooltip = Аҳәашьа агәаҭара, атранскрипциақәа ргәаҭара

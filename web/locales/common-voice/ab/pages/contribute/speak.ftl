@@ -62,6 +62,8 @@ create-profile-button = Апрофиль аԥҵара
 img-alt-success-checkmark = Қәҿиарала ахыркәшара абираҟ
 # menu item
 read-sentences = Аҳәоуқәа рыԥхьара
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Аҳәоуқәа рыԥхьара <small>(Лассы)</small>
 
 ## MENU ITEM TOOLTIPS
 
