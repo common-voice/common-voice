@@ -77,10 +77,14 @@ answer-questions = Азҵаарақәа рҭак ҟашәҵала <small>(Лас
 add-questions = Азҵаарақәа ацышәҵа <small>(Лассы)</small>
 press-and-stories = Апрессеи аҭоурыхқәеи
 community-and-languages = Аилазаареи абызшәақәеи
+coming-soon = Лассы
+spontaneous-speech = АСПОНТАНТӘ ЖӘАҲӘА
 
 ## Hero section
 
 hero-title = Шәара шәбызшәала ицәажәо атехнологиақәа
+# icon is an arrow that points downwards
+get-started = Алагара <icon><icon>
 
 ## Action items section
 
@@ -89,3 +93,19 @@ scripted-card-header = Асценариатә жәаҳәа
 scripted-card-content = Шәбызшәала аҳәоу шәҳәа, шәлагала ҟашәҵа еиуеиԥшым ацәажәаратә жәаҳәақәа реизгақәа рзы.
 spontaneous-card-header = Аспонтантә жәаҳәа
 language-text-card-header = Атекст абызшәала
+coming-soon = Лассы
+add-text = Атекст ацҵара
+answer = Аҭак аҟаҵара
+
+## Community section
+
+find-us-on-matrix = Matrix аҿы ҳшәыԥшаа
+# label for button
+find-us-on-element-action-1 = Аелемент
+
+## Get involved section
+
+read-sentences-link = Аҳәоуқәа рыԥхьара
+validate-readings-link = Аԥхьашьа агәаҭара
+answer-questions-link = Азҵаарақәа рҭак аҟаҵара
+press-and-stories-link = Апрессеи астатиақәеи
