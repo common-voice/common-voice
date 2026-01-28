@@ -128,5 +128,12 @@ tags-laugh-explanation = Аччабыжь
 code-switching-review-subheader = Азҵаара агәаҭара
 # Answering a Question
 code-switching-answer-subheader = Азҵаара аҭак
+code-switching-tagging-error-2 = Агхақәа
+code-switching-pronunciation-explanation-example-1 = Англыз: /ˈkeɪ.bəl/
+code-switching-pronunciation-explanation-example-2 = Аиспан: /ˈkable/
 code-switching-not-tag-proper-names-example-1 = Ауаа:  Мариа, Џон
+code-switching-not-tag-proper-names-example-2 = Аҭыԥқәа: Лос-Анџьелес, Флорида
+code-switching-not-tag-interjections-example-1 = «Е»
 code-switching-not-tag-interjections-example-2 = «Мап»
+code-switching-not-tag-interjections-example-3 = «Иеа»
+code-switching-not-tag-interjections-example-4 = «Ем»
