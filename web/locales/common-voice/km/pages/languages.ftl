@@ -1,5 +1,22 @@
 ## Languages Overview
 
+language-section-in-progress = កំពុងដំណើរការ
+language-section-in-progress-new-description = ភាសាទាំងនេះកំពុងស្ថិតក្រោមការអភិវឌ្ឍសហគមន៍។ ត្រូវការ <localizationGlossaryLink>ការធ្វើមូលដ្ឋានីយកម្មគេហទំព័រ</localizationGlossaryLink> និង <sentenceCollectionGlossaryLink>ការប្រមូលប្រយោគ</sentenceCollectionGlossaryLink> ដើម្បីដាក់ឱ្យដំណើរការ។
+language-section-launched = បាន​ដាក់​ឲ្យ​ដំណើរការ
+language-section-launched-description = សម្រាប់ភាសាដែលបានដាក់ឱ្យដំណើរការទាំងនេះ គេហទំព័រត្រូវបានធ្វើមូលដ្ឋានីយកម្មដោយជោគជ័យ ហើយមានប្រយោគ <sentenceCollectionGlossaryLink>គ្រប់គ្រាន់ដែលប្រមូលបាន</sentenceCollectionGlossaryLink> ដើម្បីអនុញ្ញាតឱ្យមានការរួមចំណែក <speakLink>Speak</speakLink> និង <listenLink>Listen</listenLink> ជាបន្តបន្ទាប់។
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = បានធ្វើបច្ចុប្បន្នភាពចុងក្រោយ៖ { $lastUpdatedTimeStamp }
+languages-show-more = មើលបន្ថែម
+languages-show-less = មើលតិច
+language-meter-in-progress = វឌ្ឍនភាព
+language-total-progress = សរុប
+language-search-input =
+    .placeholder = ស្វែងរក
+language-speakers = ឧបករណ៍បំពងសម្លេង
+localized = បានធ្វើមូលដ្ឋានីយកម្ម
+sentences = ប្រយោគ
+language-validation-hours = ម៉ោង
+language-validation-progress = វឌ្ឍនភាពនៃការផ្ទៀងផ្ទាត់
 contribute = ចូលរួមចំណែក
 get-involved-button = ចូលរួម
 get-involved-title = ចូលរួមចំណែក​ជាមួយ { $lang }
