@@ -25,3 +25,19 @@ show-ranking = បង្ហាញចំណាត់ថ្នាក់របស�
 ## Custom Goals
 
 get-started-goals = ចាប់ផ្តើមជាមួយគោលដៅ
+create-custom-goal = បង្កើតគោលដៅផ្ទាល់ខ្លួន
+goal-type = តើអ្នកចង់បង្កើតគោលដៅប្រភេទណា?
+both-speak-and-listen = ទាំងពីរ
+both-speak-and-listen-long = ទាំងពីរ (និយាយ និងស្តាប់)
+daily-goal = គោលដៅប្រចាំថ្ងៃ
+weekly-goal = គោលដៅប្រចាំសប្តាហ៍
+easy-difficulty = ងាយស្រួល
+average-difficulty = មធ្យមភាគ
+difficult-difficulty = ពិបាក
+pro-difficulty = អ្នកជំនាញ
+lose-goal-progress-warning = តាមរយៈការកែសម្រួលគោលដៅរបស់អ្នក អ្នកអាចនឹងបាត់បង់វឌ្ឍនភាពដែលមានស្រាប់របស់អ្នក។
+want-to-continue = តើអ្នកចង់បន្តទេ?
+finish-editing = បញ្ចប់ការកែសម្រួលជាមុនសិន?
+lose-changes-warning = ការចាកចេញឥឡូវនេះមានន័យថាអ្នកនឹងបាត់បង់ការផ្លាស់ប្តូររបស់អ្នក
+build-custom-goal = បង្កើតគោលដៅផ្ទាល់ខ្លួន
+cant-decide = មិនអាចសម្រេចចិត្តបានទេ?
