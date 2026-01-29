@@ -95,3 +95,5 @@ dataset-date = Арыцхә
 license = Алицензиа: <licenseLink>{ $license }</licenseLink>
 license-mixed = Еилаԥсоуп
 female = Аҳәса ртәы
+datasets-show-more = Адыррақәа реизга зегьы рырбара
+datasets-show-less = Аҵыхәтәантәи адыррақәа реизга рырбара
