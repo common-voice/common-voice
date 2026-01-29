@@ -118,7 +118,13 @@ example-questions-subheader = Азҵаарақәа рҿырԥштәқәа
 
 # Answer Questions
 answer-questions = Азҵаарақәа рҭак аҟаҵара
+# Transcribe the Audio
+transcribe-the-audio = Аудио атранскрипциа азура
 transcribe-the-audio-subheader-2 = Ахыԥхьаӡарақәеи акронимқәеи
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correct>Ииашоуп</корректно>: Ҳаибабоит <underline> ҩ-нызқьи жәохә </underline> шықәса рзы
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Ииашаӡам</wrong>: Ҳаибабоит <underline>2015</underline> шықәса рзы
 tags-laugh = Ачча
 tags-laugh-explanation = Аччабыжь
 
