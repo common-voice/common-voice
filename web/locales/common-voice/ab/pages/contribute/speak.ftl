@@ -68,3 +68,7 @@ read-sentences-coming-soon = Аҳәоуқәа рыԥхьара <small>(Ласс�
 ## MENU ITEM TOOLTIPS
 
 speak-contribute-menu-tooltip = Аҳәоуқәа рыԥхьара, азҵаарақәа рҭак аҟаҵара
+
+## MENU ITEM ARIA LABELS
+
+speak-contribute-menu-aria-label = Абжьы ахаҵара архиарақәа рыхкынҵа
