@@ -125,11 +125,20 @@ transcribe-the-audio-subheader-2 = Ахыԥхьаӡарақәеи акроним
 transcribe-the-audio-subheader-2-example-2-correct = <correct>Ииашоуп</корректно>: Ҳаибабоит <underline> ҩ-нызқьи жәохә </underline> шықәса рзы
 # text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
 transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Ииашаӡам</wrong>: Ҳаибабоит <underline>2015</underline> шықәса рзы
+transcribe-the-audio-subheader-2-example-3-correct = <корректно>Ииашоуп</корректно>: Ҩажәа процент агырхан
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Ииашаӡам</wrong>: 20% агырхан
 tags-laugh = Ачча
 tags-laugh-explanation = Аччабыжь
+transcribe-the-audio-subheader-4-explanation-1-example = Иара ихьӡ<underline>Џьо-Џьон-</underline>Џьонатан.
+transcribe-the-audio-subheader-4-explanation-2-example = Нас сара сцеит <underline>ашь- ашь-</underline> ашьҭаларҭахь
+
+## Review the Transcription
+
+review-the-transcription = Атранскрипциа арецензиа азура
 
 ## Code-Switching
 
+code-switching-avoid-intro = Азҵаарақәа зылшо:
 # Reviewing a Question
 code-switching-review-subheader = Азҵаара агәаҭара
 # Answering a Question
