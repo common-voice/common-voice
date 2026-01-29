@@ -388,17 +388,15 @@ export default class DB {
       taxonomySentences.concat(regularSentences) || []
     ).slice(0, count) // make sure to only return the requested amount
 
-    // These sentences have been given to this user - ADD to Redis for 2 days to prevent re-selection
+    // These sentences have been given to this user - ADD to Redis for 1 hours to prevent re-selection
     // We now use redisSetAddManyWithExpiry instead of redisSetFillManyWithExpiry to accumulate
     // previously recorded sentences, not replace them
-    // Beware, each time new sentences are added, the expiry is set to 2 days from that moment
-    // It will now expire in 2 days if the user does not come back to record more
-    // The duration of 2 days is chosen to prevent re-selection of corrupted audio which we cannot remove now,
-    // otherwise duplicate clip errors come out
+    // Beware, each time new sentences are added, the expiry is set to 1 hours from that moment
+    // We dropped the duration, because now we do prevent corrupt data
     await redisSetAddManyWithExpiry(
       redisKeyPerUserSentenceIdSet(client_id),
       totalSentences.map(s => s.id),
-      2 * TimeUnits.DAY
+      1 * TimeUnits.HOUR
     )
     return this.appendMetadataToSentence(totalSentences)
   }
