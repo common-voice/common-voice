@@ -11,7 +11,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@tsconfig/node18": "^18.2.1",
+    "@tsconfig/node20": "^20.1.0",
     "@types/mysql": "^2.15.24",
     "@types/node": "^18.17.11",
     "@types/redlock": "^4.0.5",
