@@ -88,9 +88,16 @@ spontaneous-speech = АСПОНТАНТӘ ЖӘАҲӘА
 
 about-menu-tooltip = Алахәыларақәа, апрессеи астатиақәеи, аилазаареи абызшәақәеи
 
+## MENU ITEM ARIA LABELS
+
+about-us-menu-aria-label = «Ҳара иҳазкны» архиарақәа рыхкынҵа
+
 ## Hero section
 
 hero-title = Шәара шәбызшәала ицәажәо атехнологиақәа
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>ИА адунеи бызшәақәак рзы мацара аус аураны изыҟои?</bold>
+hero-subtitle-2 = Ҳара ҳбызшәа — ари ҳара ҳҭоурых, ҳаилазаара, ҳкультура ауп. Шәааи адунеи аҿы иаабарц иаҳҭаху адыррақәа реизга аԥаҳҵап.
 # icon is an arrow that points downwards
 get-started = Алагара <icon><icon>
 
@@ -107,6 +114,7 @@ answer = Аҭак аҟаҵара
 
 ## Community section
 
+join-discord-community = Discord аилазаара алалара
 find-us-on-matrix = Matrix аҿы ҳшәыԥшаа
 # label for button
 find-us-on-element-action-1 = Аелемент
@@ -116,4 +124,6 @@ find-us-on-element-action-1 = Аелемент
 read-sentences-link = Аҳәоуқәа рыԥхьара
 validate-readings-link = Аԥхьашьа агәаҭара
 answer-questions-link = Азҵаарақәа рҭак аҟаҵара
+transcribe-answers-link = Аҭакқәа атранскрипциа рзура
+review-transcriptions-link = Атранскрипциақәа ргәаҭара
 press-and-stories-link = Апрессеи астатиақәеи
