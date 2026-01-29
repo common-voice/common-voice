@@ -498,3 +498,4 @@ dropdown-no-results = Аиқәшәарақәа ԥшаам
 dataset-searchbox-label = Аарԥшрақәеи адыррақәа реизгеи рбызшәа аԥсахуеит
 dataset-searchbox-placeholder = Абызшәа аԥшаара...
 dataset-searchbox-aria-label = Абызшәа аԥшаара
+dataset-search-no-results = Иақәнаго абызшәа ԥшаам

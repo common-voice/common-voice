@@ -20,3 +20,5 @@ validate-readings-coming-soon = Аҭаҩымҭақәа ргәаҭара <small>(
 ## MENU ITEM TOOLTIPS
 
 listen-contribute-menu-tooltip = Аҳәашьа агәаҭара, атранскрипциақәа ргәаҭара
+validate-readings-menu-item-tooltip = Шәара шәбызшәала иҭаҩу ахархәаҩцәа рҳәашьа гәашәҭала
+review-transcriptions-menu-item-tooltip = Ахархәаҩцәа инарышьҭыз шәбызшәала иҟоу атранскрипциа гәашәҭала
