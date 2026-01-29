@@ -480,9 +480,21 @@ languages-donate-banner-cta-explanation = Common Voice афинанстә зоу
 localization-select =
     .label = Иалшәх абызшәа/аҭыԥ
 
+## MDC Announcement
+
+# Button text for MDC announcement
+announcement-mdc-button-text = Mozilla Data Collective ахь алалара
+# Aria text for button which opens MDC on a new page
+announcement-mdc-button-aria-text = Иҿыцу агәылаҵаҿы иаатуеит
+
 ## Common Language/Dataset Selector & SearchBox Related
 
+# Generic search box defaults
+searchbox-default-label = Аԥшааразы акьыԥхьра шәалага
 searchbox-default-placeholder = Аԥшаара...
 searchbox-default-aria-label = Аԥшаара
+dropdown-no-results = Аиқәшәарақәа ԥшаам
+# Common Voice Dataset=Language search box
+dataset-searchbox-label = Аарԥшрақәеи адыррақәа реизгеи рбызшәа аԥсахуеит
 dataset-searchbox-placeholder = Абызшәа аԥшаара...
 dataset-searchbox-aria-label = Абызшәа аԥшаара
