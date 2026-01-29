@@ -141,11 +141,16 @@ review-the-transcription = Атранскрипциа арецензиа азу�
 code-switching-avoid-intro = Азҵаарақәа зылшо:
 # Reviewing a Question
 code-switching-review-subheader = Азҵаара агәаҭара
+code-switching-review-criterion-1 = Аилкаареи аҭак аҟаҵареи рзы имарианы аҟазаара
 # Answering a Question
 code-switching-answer-subheader = Азҵаара аҭак
+# Transcribing
+code-switching-transcribe-subheader = Атранскрибациа
 code-switching-tagging-error-2 = Агхақәа
 code-switching-pronunciation-explanation-example-1 = Англыз: /ˈkeɪ.bəl/
 code-switching-pronunciation-explanation-example-2 = Аиспан: /ˈkable/
+# Be Careful with Lookalikes
+code-switching-lookalikes-header = Еиԥшу ажәақәа рҿы шәгәышәҽаныз
 code-switching-not-tag-proper-names-example-1 = Ауаа:  Мариа, Џон
 code-switching-not-tag-proper-names-example-2 = Аҭыԥқәа: Лос-Анџьелес, Флорида
 code-switching-not-tag-interjections-example-1 = «Е»
