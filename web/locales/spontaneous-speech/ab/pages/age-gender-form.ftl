@@ -1,5 +1,6 @@
 add-information-button = Аинформациа ацҵара
 age-select-label = Шаҟа шықәса шәхыҵуазеи?
+thank-you-for-your-information = Иҭабуп шәинформациазы
 
 ## Gender dropdown
 

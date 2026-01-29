@@ -6,6 +6,7 @@ action-click = Ақәыӷәӷәара
 action-tap = Ақәыӷәӷәара
 # Label for language switcher
 platform-language = Аплатформа абызшәа:
+platform-language-tooltip-text = Авеб-саит атекст мацароуп иаԥсахуа.
 # Toast message that is displayed when an item is skipped
 skipped = Ибжьажьуп
 audioplayer-header = Азыӡырҩра
@@ -19,6 +20,8 @@ contribute = Алагала аҟаҵара
 question = Азҵаара
 validate = Агәаҭара
 respond-to-prompt-mobile = Аҭак
+transcribe = Атранскрипциа азура
+check-transcriptions = Атранскрипциақәа ргәаҭара
 check-transcriptions-mobile = Агәаҭара
 
 ## Not Found Page
