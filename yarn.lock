@@ -1976,10 +1976,10 @@
   resolved "https://registry.npmjs.org/@floating-ui/utils/-/utils-0.2.8.tgz"
   integrity sha512-kym7SodPp8/wloecOpcmSnWJsK7M0E5Wg8UcFA+uO4B9s5d0ywXOEro/8HM9x0rW+TljRzul/14UYz3TleT3ig==
 
-"@fluent/bundle@0.17.1":
-  version "0.17.1"
-  resolved "https://registry.npmjs.org/@fluent/bundle/-/bundle-0.17.1.tgz"
-  integrity sha512-CRFNT9QcSFAeFDneTF59eyv3JXFGhIIN4boUO2y22YmsuuKLyDk+N1I/NQUYz9Ab63e6V7T6vItoZIG/2oOOuw==
+"@fluent/bundle@0.19.1":
+  version "0.19.1"
+  resolved "https://registry.yarnpkg.com/@fluent/bundle/-/bundle-0.19.1.tgz#d9931a0be577fc6ebebd97d73c6d15d20fa5f54c"
+  integrity sha512-SWJLZrPamDPsJlFFOW1nkgN0j0rbPbmSdmK0XAoXlyqKieLtMVl4vzng3aR5pwKoUx0scug8+YY2oct3fdfy9A==
 
 "@fluent/langneg@0.7.0":
   version "0.7.0"
