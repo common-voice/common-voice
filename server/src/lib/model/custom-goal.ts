@@ -1,21 +1,23 @@
-import { CustomGoalParams } from 'common';
-import { getLocaleId } from './db';
-import { getMySQLInstance } from './db/mysql';
+import { CustomGoalParams, CustomGoal } from 'common'
+import { getLocaleId } from './db'
+import { getMySQLInstance } from './db/mysql'
 
-const db = getMySQLInstance();
+const db = getMySQLInstance()
 
 const SPEAK_GOAL_QUERY = `
   SELECT COALESCE(COUNT(clips.id), 0) AS count
   FROM clips
   WHERE client_id = ? AND locale_id = ? AND created_at >= ?
-`;
+`
+console.log('SPEAK_GOAL_QUERY: ', SPEAK_GOAL_QUERY)
 
 const LISTEN_GOAL_QUERY = `
   SELECT COALESCE(COUNT(votes.id), 0) AS count
   FROM votes
   LEFT JOIN clips ON votes.clip_id = clips.id
   WHERE votes.client_id = ? AND clips.locale_id = ? AND votes.created_at >= ?
-`;
+`
+console.log('LISTEN_GOAL_QUERY: ', LISTEN_GOAL_QUERY)
 
 export default {
   async create(client_id: string, locale: string, data: CustomGoalParams) {
@@ -31,17 +33,21 @@ export default {
         data.daysInterval,
         data.amount,
       ]
-    );
+    )
   },
 
-  async find(client_id: string, locale_id?: number): Promise<any[]> {
+  async find(client_id: string, locale_id?: number): Promise<CustomGoal[]> {
     const [rows] = await db.query(
       `
         SELECT *
         FROM (
           SELECT
                  custom_goals.id,
-                 locale_id, type, days_interval, amount, created_at,
+                 locale_id,
+                 type,
+                 days_interval,
+                 amount,
+                 created_at,
                  locales.name AS locale
           FROM custom_goals
           LEFT JOIN locales ON custom_goals.locale_id = locales.id
@@ -52,7 +58,7 @@ export default {
         GROUP BY locale_id
       `,
       [client_id, locale_id || null]
-    );
+    )
 
     return Promise.all(
       rows.map(async ({ type, locale, locale_id, ...data }: any) => {
@@ -67,27 +73,30 @@ export default {
             ) AS current_interval_start
           `,
           data
-        );
+        )
+        console.log('current_interval_start: ', current_interval_start)
 
         const counts = await Promise.all(
           (type == 'both' ? ['speak', 'listen'] : [type]).map(async type => {
-            const query = ({
-              speak: SPEAK_GOAL_QUERY,
-              listen: LISTEN_GOAL_QUERY,
-            } as any)[type];
+            const query = (
+              {
+                speak: SPEAK_GOAL_QUERY,
+                listen: LISTEN_GOAL_QUERY,
+              } as any
+            )[type]
 
             if (!query) {
-              throw new Error('Unknown type: ' + type);
+              throw new Error('Unknown type: ' + type)
             }
 
             const [rows] = await db.query(query, [
               client_id,
               locale_id,
               current_interval_start,
-            ]);
-            return [type, rows[0].count];
+            ])
+            return [type, rows[0].count]
           })
-        );
+        )
 
         return {
           ...data,
@@ -96,11 +105,11 @@ export default {
             current_interval_start
           ).toISOString(),
           current: counts.reduce((obj: any, [key, value]) => {
-            obj[key] = value;
-            return obj;
+            obj[key] = value
+            return obj
           }, {}),
-        };
+        }
       })
-    );
+    )
   },
-};
+}
