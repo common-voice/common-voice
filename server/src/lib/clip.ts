@@ -252,7 +252,7 @@ export default class Clip {
     const { headers } = request
     const client_id = request.session.user.client_id // Guaranteed by middleware
     const sentenceId =
-      (headers['sentence-id'] as string) || (headers.sentence_id as string) // TODO: Remove the second case in August 2025
+      (headers['sentence-id'] as string) || (headers.sentence_id as string)
     const source = headers.source || 'unidentified'
     const format = headers['content-type']
     const size = headers['content-length']
@@ -304,14 +304,10 @@ export default class Clip {
       )
 
       if (isDuplicateUpload) {
-        // Already uploaded - return 409 (handled gracefully on frontend)
-        if (process.env.NODE_ENV !== 'production') {
-          console.log(
-            `[saveClip] Duplicate upload (cached): ${client_id}/${sentenceId}`
-          )
-        }
-        response.status(409).send(ERRORS.ALREADY_EXISTS)
-        return
+        // Already uploaded - return success (user can't do anything about it)
+        console.log(`[saveClip] Duplicate upload (cached): ${clipFileName}`)
+        // Return same response as successful upload (optimistic UI)
+        return response.json({ filePrefix: sentenceId })
       }
     } catch (cacheError) {
       // Cache unavailable - fail open (allow upload to proceed)
@@ -329,22 +325,10 @@ export default class Clip {
       // 3. User gets same sentence and clip exists in DB
       // NOTE: This check happens BEFORE upload/transcode, preventing wasted resources
 
-      // Track for monitoring but don't spam Sentry (handled gracefully on frontend)
-      if (process.env.NODE_ENV !== 'production') {
-        console.log(
-          `[saveClip] Duplicate detected (DB exists, Redis LazySetCache miss): ${client_id}/${sentenceId}`
-        )
-      }
-
-      this.clipSaveError(
-        headers,
-        response,
-        409,
-        `${clipFileName} already exists`,
-        ERRORS.ALREADY_EXISTS,
-        'clip'
-      )
-      return
+      // Track for monitoring but don't spam Sentry (send OK to frontend)
+      console.log(`[saveClip] Duplicate detected from DB: ${clipFileName}`)
+      // Return success - user already uploaded this, treat as success
+      return response.json({ filePrefix: sentenceId })
     } else {
       let audioInput = request
 
@@ -401,7 +385,7 @@ export default class Clip {
       request.on('close', closeHandler)
 
       try {
-        if (process.env.NODE_ENV !== 'production') {
+        if (!getConfig().PROD) {
           console.log(`[saveClip] Starting transcode for ${metadata}`)
         }
         transcodeJob = await createMp3TranscodeJob(audioInput)
@@ -445,7 +429,7 @@ export default class Clip {
           durationPromise,
         ])
 
-        if (process.env.NODE_ENV !== 'production') {
+        if (!getConfig().PROD) {
           console.log(
             `[saveClip] Transcode validated (duration: ${durationInSec}s), starting upload: ${clipFileName}`
           )
@@ -503,6 +487,7 @@ export default class Clip {
 
         transcodeJob = null
 
+        // Create DB row for clip
         await this.model.saveClip({
           client_id: client_id,
           localeId: sentence.locale_id,
@@ -581,28 +566,23 @@ export default class Clip {
           const message =
             err instanceof Error ? err.message : String(err ?? 'Unknown error')
 
-          // Check error type using flags (set in try block above)
+          // All audio processing errors are treated as AUDIO_CORRUPT with reason details
+          // This prevents frontend retries and provides clear user feedback
+          let reason = 'UNKNOWN'
+          let details = {}
+
           if (message === ERRORS.RECORDING_TOO_LONG) {
-            this.clipSaveError(
-              headers,
-              response,
-              422,
-              `Recording too long: ${error.duration}ms (max ${MAX_RECORDING_MS}ms)`,
-              ERRORS.RECORDING_TOO_LONG,
-              'clip'
-            )
-          } else if (message === ERRORS.AUDIO_CORRUPT || error.isCorruption) {
-            // Audio corruption - client data issue (422 Unprocessable Entity)
-            this.clipSaveError(
-              headers,
-              response,
-              422,
-              'Audio data is corrupted or invalid',
-              ERRORS.AUDIO_CORRUPT,
-              'clip'
-            )
+            reason = 'TOO_LONG'
+            details = {
+              duration_ms: error.duration,
+              max_ms: MAX_RECORDING_MS_WITH_HEADROOM,
+            }
+          } else if (message === ERRORS.AUDIO_PAYLOAD_TOO_LARGE) {
+            reason = 'PAYLOAD_TOO_LARGE'
+            details = { max_bytes: 50 * 1024 * 1024 }
           } else {
-            // Server error (500 Internal Server Error)
+            // FFmpeg errors, codec issues, corrupt data, etc.
+            reason = 'PROCESSING_FAILED'
             const fingerprint = message
               .replace(/0x[0-9a-f]+/gi, '<addr>')
               .replace(
@@ -610,16 +590,29 @@ export default class Clip {
                 'in stream $1: <var>'
               )
               .trim()
-
-            this.clipSaveError(
-              headers,
-              response,
-              500,
-              'FFmpeg processing failed',
-              fingerprint,
-              'clip'
-            )
+            details = { ffmpeg_error: fingerprint, original_message: message }
           }
+
+          // Log to Sentry with detailed reason for debugging
+          Sentry.withScope(scope => {
+            scope.setFingerprint(['save_clip_error', 'AUDIO_CORRUPT', reason])
+            scope.setExtra('corruption_reason', reason)
+            scope.setExtra('corruption_details', details)
+            scope.setExtra('metadata', metadata)
+            scope.setExtra('client_id', client_id)
+            Sentry.captureMessage(`save_clip_error: AUDIO_CORRUPT: ${reason}`)
+          })
+
+          // Send unified error to frontend - all are AUDIO_CORRUPT
+          // Frontend will NOT retry these (user cannot fix audio at upload stage)
+          this.clipSaveError(
+            headers,
+            response,
+            422,
+            `Audio processing failed: ${reason}`,
+            ERRORS.AUDIO_CORRUPT,
+            'clip'
+          )
         }
       } finally {
         request.removeListener('aborted', abortHandler)
