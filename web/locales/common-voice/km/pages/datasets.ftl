@@ -57,3 +57,5 @@ data-other-tatoeba-description = Tatoeba គឺជាមូលដ្ឋានទ
 your-feedback = តើអ្នកមានគំនិតអំពីរបៀបដែលយើងអាចធ្វើឱ្យសំណុំទិន្នន័យ Common Voice កាន់តែប្រសើរឡើងដែរឬទេ? សូមប្រាប់យើងឱ្យដឹងនៅលើ Discourse
 go-discourse = ចូលទៅកាន់សុន្ទរកថា
 missing-language = មិនឃើញភាសារបស់អ្នកឆ្លុះបញ្ចាំងនៅក្នុងសំណុំទិន្នន័យមែនទេ? ដើម្បីស្នើសុំភាសា សូមចូលទៅកាន់ទំព័រភាសារបស់យើង។
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = ជម្រើសទាញយកសម្រាប់ការចូលប្រើទិន្នន័យ Common Voice
