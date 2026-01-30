@@ -45,6 +45,27 @@ enum ERRORS {
   ALREADY_EXISTS = 'ALREADY_EXISTS',
   AUDIO_CORRUPT = 'AUDIO_CORRUPT',
   RECORDING_TOO_LONG = 'RECORDING_TOO_LONG',
+  AUDIO_PAYLOAD_TOO_LARGE = 'AUDIO_PAYLOAD_TOO_LARGE',
+}
+
+/**
+ * Helper to safely handle recoverable stream errors without crashing the process.
+ * ECONNRESET, aborted uploads, and socket hangups are expected when clients disconnect.
+ * Only logs unexpected errors for debugging.
+ */
+const swallowStreamError = (label: string) => (err: any) => {
+  if (
+    err?.code === 'ECONNRESET' ||
+    err?.code === 'EPIPE' ||
+    err?.message?.includes('aborted') ||
+    err?.message?.includes('socket hang up') ||
+    err?.message?.includes('premature close')
+  ) {
+    // Client disconnected - expected behavior, no action needed
+    return
+  }
+  // Unexpected stream error - log for investigation
+  console.error(`[saveClip-${label}]`, err)
 }
 
 /**
@@ -236,6 +257,9 @@ export default class Clip {
     const format = headers['content-type']
     const size = headers['content-length']
 
+    // Prevent crashes on client disconnect (mobile users, poor network)
+    request.on('error', swallowStreamError('request error'))
+
     if (!sentenceId) {
       this.clipSaveError(
         headers,
@@ -340,8 +364,13 @@ export default class Clip {
 
         const converter = new Converter()
         const audioStream = Readable.from(request)
+        // Prevent Readable.from() socket errors from crashing the process
+        audioStream.on('error', swallowStreamError('audioStream error'))
 
         audioInput = converter.createBufferedInputStream()
+        // Prevent write failures into ffmpeg stdin from crashing
+        audioInput.on('error', swallowStreamError('audioInput error'))
+
         audioStream.pipe(audioInput)
       } else if (isAAC) {
         console.log(
@@ -352,12 +381,24 @@ export default class Clip {
       let transcodeJob: Mp3TranscodeJob | null = null
       let durationInMs = 0
 
+      // Comprehensive abort handling: some clients trigger 'close' without 'aborted'
       const abortHandler = () => {
         transcodeJob?.abort()
         request.removeListener('aborted', abortHandler)
+        request.removeListener('close', closeHandler)
+      }
+
+      const closeHandler = () => {
+        // Only abort if response hasn't been fully sent (incomplete upload)
+        if (!response.writableEnded) {
+          transcodeJob?.abort()
+        }
+        request.removeListener('aborted', abortHandler)
+        request.removeListener('close', closeHandler)
       }
 
       request.on('aborted', abortHandler)
+      request.on('close', closeHandler)
 
       try {
         if (process.env.NODE_ENV !== 'production') {
@@ -365,9 +406,24 @@ export default class Clip {
         }
         transcodeJob = await createMp3TranscodeJob(audioInput)
 
+        // Prevent ffmpeg failures from propagating as unhandled errors
+        transcodeJob.outputStream.on(
+          'error',
+          swallowStreamError('transcode output error')
+        )
+
         // We need to buffer to memory during transcode, validate, then upload
+        // Add hard memory cap to prevent DoS and OOM-based crashloops
+        const MAX_BUFFER_BYTES = 50 * 1024 * 1024 // 50MB safety cap (this allows future 30 sec extension)
+        let bufferedBytes = 0
         const chunks: Buffer[] = []
+
         transcodeJob.outputStream.on('data', chunk => {
+          bufferedBytes += chunk.length
+          if (bufferedBytes > MAX_BUFFER_BYTES) {
+            transcodeJob.abort()
+            throw new Error(ERRORS.AUDIO_PAYLOAD_TOO_LARGE)
+          }
           chunks.push(chunk as Buffer)
         })
 
