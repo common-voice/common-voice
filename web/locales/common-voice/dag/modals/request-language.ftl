@@ -3,4 +3,5 @@
 request-language-title = Balli piibu
 request-language-form-language =
     .label = Balli
-yes-receive-emails = Iin, sabimi ma email lahabaya. Ni bɔri ni m mali tibili zaŋ chaŋ balli ŋɔ zoosim polo Mozilla Common Voice puuni.
+other-language = Zuliya bal' shɛli
+yes-receive-emails = Iin, sabimi ma iimeeli lahabaya. N ni bɔri ni m mali tibili zaŋ chaŋ zuliya balli ŋɔ zoosim polo Mozilla Common Voice puuni.
