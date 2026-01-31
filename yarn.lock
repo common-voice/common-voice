@@ -4179,10 +4179,10 @@
   dependencies:
     "@types/node" "*"
 
-"@types/redlock@4.0.7":
-  version "4.0.7"
-  resolved "https://registry.npmjs.org/@types/redlock/-/redlock-4.0.7.tgz"
-  integrity sha512-5D6egBv0fCfdbmnCETjEynVuiwFMEFFc3YFjh9EwhaaVTAi0YmB6UI1swq1S1rjIu+n27ppmlTFDK3D3cadJqg==
+"@types/redlock@4.0.8":
+  version "4.0.8"
+  resolved "https://registry.yarnpkg.com/@types/redlock/-/redlock-4.0.8.tgz#faeb416ac15d6005a2a7827117732f41b13adb10"
+  integrity sha512-xuJs90FmH3fmGTuLdUzFIGXL3ThWhWRZLL6LFomtzj0DSW+py/brU7NzF1FZ3M/bs/S0Di+XvMGwzVU2j0RXSw==
   dependencies:
     "@types/bluebird" "*"
     "@types/ioredis" "^4.28.10"
