@@ -44,6 +44,8 @@ subscribe = ជាវ
 get-started-speech = ចាប់ផ្តើមជាមួយការសម្គាល់សំឡេង
 other-datasets = សំណុំទិន្នន័យសំឡេងផ្សេងទៀត
 feedback-q = មានមតិប្រតិកម្មទេ?
+# This indicates that there is no data to display
+no-information = គ្មានព័ត៌មាន
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ គឺជា <docsLink>ឧបករណ៍ប្រភពបើកចំហ</docsLink> សម្រាប់អ្នកស្រាវជ្រាវដែលកំពុងអភិវឌ្ឍគំរូ AI សន្ទនាទំនើបៗ។
 resource-deepspeech-info = ម៉ាស៊ីនសម្គាល់សំឡេងប្រភពបើកចំហរបស់ Mozilla គឺ Deep Speech អាចត្រូវបានប្រើដើម្បីបង្កើតកម្មវិធីសម្គាល់សំឡេង។ សូមអាន <githubLink>ទិដ្ឋភាពទូទៅ Github</githubLink> របស់យើង ឬចូលរួម <discourseLink>DeepSpeech Discourse</discourseLink> ដើម្បីស្វែងយល់ពីរបៀបចាប់ផ្តើម។
 resource-coqui-info = <coquiLink>Coqui</coquiLink> ឧទ្ទិសដល់បច្ចេកវិទ្យាសំឡេងបើកចំហ។ គម្រោងរបស់ពួកគេរួមមានម៉ាស៊ីន STT និង TTS ដែលមានមូលដ្ឋានលើការរៀនសូត្រស៊ីជម្រៅ។
@@ -57,5 +59,16 @@ data-other-tatoeba-description = Tatoeba គឺជាមូលដ្ឋានទ
 your-feedback = តើអ្នកមានគំនិតអំពីរបៀបដែលយើងអាចធ្វើឱ្យសំណុំទិន្នន័យ Common Voice កាន់តែប្រសើរឡើងដែរឬទេ? សូមប្រាប់យើងឱ្យដឹងនៅលើ Discourse
 go-discourse = ចូលទៅកាន់សុន្ទរកថា
 missing-language = មិនឃើញភាសារបស់អ្នកឆ្លុះបញ្ចាំងនៅក្នុងសំណុំទិន្នន័យមែនទេ? ដើម្បីស្នើសុំភាសា សូមចូលទៅកាន់ទំព័រភាសារបស់យើង។
+go-languages-page = ចូលទៅកាន់ទំព័រភាសា
+ready-to-validate = ត្រៀមខ្លួនជួយផ្ទៀងផ្ទាត់ប្រយោគហើយឬនៅ?
+more = ច្រើន​ទៀត
+close = បិទ
+download = ទាញ​យក
+dataset-version = ជំនាន់
+sha256-checksum-copied = បានចម្លង SHA256 checksum ហើយ!
+no-information-available = គ្មានព័ត៌មានទេ
+dataset-metadata-sex = ភេទ
+# dataset metadata - age of contributor
+dataset-metadata-age = អាយុ
 # MENU ITEM ARIA LABELS
 download-contribute-menu-aria-label = ជម្រើសទាញយកសម្រាប់ការចូលប្រើទិន្នន័យ Common Voice
