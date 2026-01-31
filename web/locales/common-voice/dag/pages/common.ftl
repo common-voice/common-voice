@@ -12,10 +12,14 @@ abq = Abaza
 ace = Acehnese
 ady = Adyghe
 af = Afrikaans
+aii = suret
+ajg = Adja
 aln = Gheg Albanian
 am = Amharic
 an = Aragonese
 ar = Laribu
+arn = Mapudungun
+as = Assamesi
 az = Azerbaijani
 azz = Highland Puebla Nahuatl
 ba = Bashkir
@@ -47,6 +51,7 @@ co = Korsikan
 crh = Krimean Tatar
 cs = Czech
 dag = Dagbanli
+de = Gaamani
 tw = Kambonsili
 
 # [/]
