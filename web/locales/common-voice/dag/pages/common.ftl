@@ -4,9 +4,47 @@
 
 ## Languages
 
+aa = Afar
+aat = Arvanitika
+ab = Abkhaz
+abb = Bankon
+abq = Abaza
+ace = Acehnese
+ady = Adyghe
 af = Afrikaans
+aln = Gheg Albanian
+am = Amharic
+an = Aragonese
 ar = Laribu
+az = Azerbaijani
+azz = Highland Puebla Nahuatl
+ba = Bashkir
+bag = Tuki
+bal = Balochi
+bas = Basaa
+bax = Bamun
+bba = Baatonum
+bbj = Ghomala
+bbl = Tush
+bce = Mengambo
+bci = Baoule
+be = Belarusian
+beb = Bamvele
+bew = Betawi
+bfd = Bafut
+bg = Bulgarian
+bkm = Kom
+bm = Bambara
 bn = Bengali
+bsh = Kateviri
+bsk = Brushaski
+ca = Katalan
+cak = Kakchikel
+cdo = Eastern Min
+ckb = Central Kurdish
+cnh = Hakha Chin
+co = Korsikan
+crh = Krimean Tatar
 cs = Czech
 dag = Dagbanli
 tw = Kambonsili

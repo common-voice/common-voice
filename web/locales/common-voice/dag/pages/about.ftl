@@ -5,6 +5,7 @@ how-does-it-work-title-v2 = Wula ka "Common Voice" tumda?
 
 ## How does it work section
 
+about-language-req-subtitle = so bɔhimi ni o nya zuliya bali shɛli m-pahi
 about-new-lang-title = Zuliya Balli Yuli Tibu
 about-voice-contrib-title = Kukoli tohibu
 about-speak = Yɛlima
@@ -15,6 +16,7 @@ about-dataset-new = Common Voice Dataset
 about-get-involved = Timmi nuu
 about-stay-in-touch = Wula ka n mini ya pɔha yɛn yooi taba?
 about-stay-in-touch-button = Sabimi a yuli
+about-nav-why-common-voice = Bɔzuɣu?
 about-nav-how-it-works = Wula?
 about-nav-how-it-works-2 = Wula ka Common Voice tuumda?
 about-nav-playbook = Bɔhimmi a ni yɛn niŋ shɛm m-pahi
@@ -35,6 +37,7 @@ about-playbook-how-access-dataset = Wula ka n yɛn niŋ nya ka zaŋ dataset tum 
 
 about-playbook-how-project-governance = Wula ka tuma shaawariti lee gbaara?
 about-playbook-how-project-governance-content-1 = Mozila Common Voice nyɛla naba zani ka di nyɛla mabiligu ban nyɛ tumtumdiba, zauliya yɛltɔɣa baŋdiba, lahabaya baŋdiba, karim' baŋdiba, ni tabibi kpatuɣa baŋdiba ban yi andunia yili zaa na. Mozila Foundation nima kpaŋmaŋa ni ka tuma ŋɔ be,.
+about-playbook-how-project-governance-content-4 = Mabilugu dundɔŋ laɣim tum mini shaawara gbaabu
 
 ## How is Common Voice funded
 
