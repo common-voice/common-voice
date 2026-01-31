@@ -13,6 +13,8 @@ partnerships-academia-header = សាកលវិទ្យាល័យ អ្ន
 partnerships-academia-description = នវានុវត្តន៍បើកចំហគឺជាបេះដូងនៃអ្វីដែលយើងធ្វើ។ សម្រាប់កិច្ចសហការស្រាវជ្រាវ ការប្រមូលទិន្នន័យ ឬការសម្ភាស <emailFragment>សូមទាក់ទងមកយើងខ្ញុំ។</emailFragment>
 partnerships-small-business-header = អាជីវកម្មខ្នាតតូច រួមមានក្រុមហ៊ុនចាប់ផ្ដើមបច្ចេកវិទ្យា និង AI
 partnerships-small-business-description = យើងតែងតែទន្ទឹងរង់ចាំស្ដាប់ពីអ្នកប្រើប្រាស់ទិន្នន័យអំពីតម្រូវការ និងបរិបទរបស់ពួកគេ - ចាប់ពីការសហការលើវេទិកាប្រមូលទិន្នន័យ រហូតដល់ការផ្ដល់ការយល់ដឹងអំពីសុខភាពទិន្នន័យ យើងចង់ <emailFragment>ស្ដាប់ពីអ្នក។</emailFragment>
+partnerships-corporates-header = សាជីវកម្មទ្រង់ទ្រាយធំ និងក្រុមហ៊ុនវេទិកា
+partnerships-corporates-description = ប្រសិនបើអ្នកចង់និយាយបន្ថែមអំពីសំណុំទិន្នន័យ ចង់វិនិយោគរួមគ្នាលើការពង្រីកវេទិកាដែលបានគ្រោងទុក ឬស្វែងរកឱកាសសហការ សូម <emailFragment>ផ្ញើសារមកយើង។</emailFragment>
 partnerships-our-partners = ដៃគូរបស់យើង
 # menu item
 partners = ដៃគូ
