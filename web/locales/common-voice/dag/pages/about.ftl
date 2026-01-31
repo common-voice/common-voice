@@ -6,6 +6,7 @@ how-does-it-work-title-v2 = Wula ka "Common Voice" tumda?
 ## How does it work section
 
 about-language-req-subtitle = so bɔhimi ni o nya zuliya bali shɛli m-pahi
+about-sentence-collection-title = bo n lee nyɛ zuliya balli common voice zuɣu
 about-new-lang-title = Zuliya Balli Yuli Tibu
 about-voice-contrib-title = Kukoli tohibu
 about-speak = Yɛlima
@@ -24,6 +25,7 @@ about-nav-playbook = Bɔhimmi a ni yɛn niŋ shɛm m-pahi
 ## How do I add a language
 
 about-playbook-how-add-language = Wula ka n ni tooi zaŋ zuliya balli m-pahi?
+about-playbook-how-add-language-collecting-sentences-heading = yɛltɔɣa deebu
 
 ## How to validate
 
