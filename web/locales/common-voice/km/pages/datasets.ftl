@@ -70,5 +70,11 @@ no-information-available = គ្មានព័ត៌មានទេ
 dataset-metadata-sex = ភេទ
 # dataset metadata - age of contributor
 dataset-metadata-age = អាយុ
+dataset-donate-modal-heading = តើអ្នកដឹងទេ…
+data-download-button = ទាញយកទិន្នន័យ Common Voice
+data-download-yes = បាទ/ចាស
+data-download-deny = ទេ
+data-download-license = អាជ្ញាប័ណ្ណ៖ <licenseLink>CC-0</licenseLink>
+data-download-modal = អ្នកកំពុងរៀបចំចាប់ផ្តើមទាញយកទំហំ <size>{ $size }GB</size> តើចង់បន្តឬទេ?
 # MENU ITEM ARIA LABELS
 download-contribute-menu-aria-label = ជម្រើសទាញយកសម្រាប់ការចូលប្រើទិន្នន័យ Common Voice
