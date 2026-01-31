@@ -34,7 +34,7 @@ about-playbook-how-access-dataset = Wula ka n yɛn niŋ nya ka zaŋ dataset tum 
 ## How are decisions made
 
 about-playbook-how-project-governance = Wula ka tuma shaawariti lee gbaara?
-about-playbook-how-project-governance-content-1 = Mozila Common Voice nyɛla naba zani ka di nyɛla mabiligu ban nyɛ tumtumdiba, zauliya yɛltɔɣa baŋdiba, lahabaya baŋdiba, karim
+about-playbook-how-project-governance-content-1 = Mozila Common Voice nyɛla naba zani ka di nyɛla mabiligu ban nyɛ tumtumdiba, zauliya yɛltɔɣa baŋdiba, lahabaya baŋdiba, karim' baŋdiba, ni tabibi kpatuɣa baŋdiba ban yi andunia yili zaa na. Mozila Foundation nima kpaŋmaŋa ni ka tuma ŋɔ be,.
 
 ## How is Common Voice funded
 
