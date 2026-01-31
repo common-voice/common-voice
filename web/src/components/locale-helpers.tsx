@@ -38,8 +38,16 @@ export function useToLocaleRoute(): (path: string) => string {
   return toLocaleRouteBuilder(locale);
 }
 
+export function useAllLocales() {
+  return useTypedSelector(({ languages }) => languages.allLocales);
+}
+
 export function useNativeLocaleNames() {
   return useTypedSelector(({ languages }) => languages.nativeNames);
+}
+
+export function useEnglishLocaleNames() {
+  return useTypedSelector(({ languages }) => languages.englishNames);
 }
 
 export function useContributableLocales() {
@@ -50,6 +58,10 @@ export function useContributableNativeNames() {
   return useTypedSelector(
     ({ languages }) => languages.contributableNativeNames
   );
+}
+
+export function useSpontaneousSpeechLocales() {
+  return useTypedSelector(({ languages }) => languages.spontaneousSpeechLanguages);
 }
 
 export function useLocalizedDiscourseURL() {

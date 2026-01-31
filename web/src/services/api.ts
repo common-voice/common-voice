@@ -13,6 +13,7 @@ import {
   SentenceSubmission,
   SentenceVote,
   TakeoutResponse,
+  AvailableLanguages,
 } from 'common'
 import {
   createBadGatewayError,
@@ -320,6 +321,10 @@ export default class API {
 
   async fetchAllLanguages(): Promise<Language[]> {
     return this.fetch(`${API_PATH}/languages`)
+  }
+
+  async fetchSpontaneousSpeechLanguages(): Promise<AvailableLanguages> {
+    return this.fetch(`${API_PATH}/available_languages?project=spontaneous-speech`)
   }
 
   async fetchLanguageStats(): Promise<LanguageStatistics[]> {

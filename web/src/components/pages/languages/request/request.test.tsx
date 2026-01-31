@@ -8,7 +8,7 @@ import { renderWithProviders } from '../../../../../test/render-with-providers'
 
 expect.extend(toHaveNoViolations)
 
-import LangugagesRequestFormPage from './request'
+import LanguagesRequestFormPage from './request'
 
 jest.mock('../../../../logger')
 
@@ -71,7 +71,7 @@ describe('LanguagesRequestFormPage', () => {
   it('should render with no accessibility violations', async () => {
     let renderResult: RenderResult
     act(() => {
-      renderResult = renderWithProviders(<LangugagesRequestFormPage />)
+      renderResult = renderWithProviders(<LanguagesRequestFormPage />)
     })
     const results = await axe(renderResult.container)
     expect(results).toHaveNoViolations()
@@ -80,7 +80,7 @@ describe('LanguagesRequestFormPage', () => {
   it('submits valid data', async () => {
     let renderResult: RenderResult
     act(() => {
-      renderResult = renderWithProviders(<LangugagesRequestFormPage />)
+      renderResult = renderWithProviders(<LanguagesRequestFormPage />)
     })
     const { getByRole, getByLabelText, getByTestId } = renderResult
 
@@ -103,7 +103,7 @@ describe('LanguagesRequestFormPage', () => {
   it('disables the submit button if no toggle option is selected', async () => {
     let renderResult: RenderResult
     act(() => {
-      renderResult = renderWithProviders(<LangugagesRequestFormPage />)
+      renderResult = renderWithProviders(<LanguagesRequestFormPage />)
     })
 
     const { getByTestId } = renderResult
@@ -118,7 +118,7 @@ describe('LanguagesRequestFormPage', () => {
 
     let renderResult: RenderResult
     act(() => {
-      renderResult = renderWithProviders(<LangugagesRequestFormPage />)
+      renderResult = renderWithProviders(<LanguagesRequestFormPage />)
     })
     const { getByRole, getByLabelText, queryByText, getByTestId } = renderResult
 

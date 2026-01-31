@@ -53,7 +53,7 @@ interface LanguageSearchProps {
   toggleSearch: () => void
 }
 
-const LanguageSearch = ({
+export const LanguageSearch = ({
   inputRef,
   query,
   handleQueryChange,
