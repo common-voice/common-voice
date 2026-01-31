@@ -76,5 +76,19 @@ data-download-yes = បាទ/ចាស
 data-download-deny = ទេ
 data-download-license = អាជ្ញាប័ណ្ណ៖ <licenseLink>CC-0</licenseLink>
 data-download-modal = អ្នកកំពុងរៀបចំចាប់ផ្តើមទាញយកទំហំ <size>{ $size }GB</size> តើចង់បន្តឬទេ?
+data-other-title = សំណុំទិន្នន័យសំឡេងផ្សេងទៀត…
+data-other-goto = ចូលទៅកាន់ { $name }
+data-other-download = ទាញយកទិន្នន័យ
+release-version = ជំនាន់
+dataset-date = កាលបរិច្ឆេទ
+license = អាជ្ញាប័ណ្ណ៖ <licenseLink>{ $license }</licenseLink>
+license-mixed = ចម្រុះ
+# Support old genders in older datasets
+male = ប្រុស
+female = ស្រី
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = ទាញយកសំណុំទិន្នន័យសំឡេងរបស់យើង
 # MENU ITEM ARIA LABELS
 download-contribute-menu-aria-label = ជម្រើសទាញយកសម្រាប់ការចូលប្រើទិន្នន័យ Common Voice
+datasets-show-more = បង្ហាញសំណុំទិន្នន័យទាំងអស់
+datasets-show-less = បង្ហាញសំណុំទិន្នន័យចុងក្រោយបំផុត
