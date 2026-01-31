@@ -63,6 +63,7 @@ byv = Medumba
 ca = Katalanca
 cak = Kakçikelce
 cdo = Doğu Min Çincesi
+ce = Çeçence
 cgg = Chiga
 cjk = Chokwe
 ckb = Soranice
