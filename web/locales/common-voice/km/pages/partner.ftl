@@ -12,6 +12,7 @@ partnerships-governments-description = យើងខ្ញុំមានកា�
 partnerships-academia-header = សាកលវិទ្យាល័យ អ្នកសិក្សា និងអ្នកស្រាវជ្រាវ
 partnerships-academia-description = នវានុវត្តន៍បើកចំហគឺជាបេះដូងនៃអ្វីដែលយើងធ្វើ។ សម្រាប់កិច្ចសហការស្រាវជ្រាវ ការប្រមូលទិន្នន័យ ឬការសម្ភាស <emailFragment>សូមទាក់ទងមកយើងខ្ញុំ។</emailFragment>
 partnerships-small-business-header = អាជីវកម្មខ្នាតតូច រួមមានក្រុមហ៊ុនចាប់ផ្ដើមបច្ចេកវិទ្យា និង AI
+partnerships-small-business-description = យើងតែងតែទន្ទឹងរង់ចាំស្ដាប់ពីអ្នកប្រើប្រាស់ទិន្នន័យអំពីតម្រូវការ និងបរិបទរបស់ពួកគេ - ចាប់ពីការសហការលើវេទិកាប្រមូលទិន្នន័យ រហូតដល់ការផ្ដល់ការយល់ដឹងអំពីសុខភាពទិន្នន័យ យើងចង់ <emailFragment>ស្ដាប់ពីអ្នក។</emailFragment>
 partnerships-our-partners = ដៃគូរបស់យើង
 # menu item
 partners = ដៃគូ
