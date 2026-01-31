@@ -11,6 +11,7 @@ partnerships-governments-header = រដ្ឋាភិបាល
 partnerships-governments-description = យើងខ្ញុំមានការរំភើបរីករាយក្នុងការគាំទ្រដល់ការចូលរួមរបស់វិស័យសាធារណៈក្នុងវិស័យបច្ចេកវិទ្យា នវានុវត្តន៍ និងសិទ្ធិភាសា។ ប្រសិនបើអ្នកមានផែនការដំណើរការគម្រោង ឬយុទ្ធនាការធំណាមួយ សូម<emailFragment>ទាក់ទងមកយើងខ្ញុំ។</emailFragment>
 partnerships-academia-header = សាកលវិទ្យាល័យ អ្នកសិក្សា និងអ្នកស្រាវជ្រាវ
 partnerships-academia-description = នវានុវត្តន៍បើកចំហគឺជាបេះដូងនៃអ្វីដែលយើងធ្វើ។ សម្រាប់កិច្ចសហការស្រាវជ្រាវ ការប្រមូលទិន្នន័យ ឬការសម្ភាស <emailFragment>សូមទាក់ទងមកយើងខ្ញុំ។</emailFragment>
+partnerships-small-business-header = អាជីវកម្មខ្នាតតូច រួមមានក្រុមហ៊ុនចាប់ផ្ដើមបច្ចេកវិទ្យា និង AI
 partnerships-our-partners = ដៃគូរបស់យើង
 # menu item
 partners = ដៃគូ
