@@ -8,6 +8,7 @@ af = Afrikaans
 ar = Laribu
 bn = Bengali
 cs = Czech
+dag = Dagbanli
 tw = Kambonsili
 
 # [/]
