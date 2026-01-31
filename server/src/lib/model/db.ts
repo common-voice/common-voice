@@ -399,10 +399,10 @@ export default class DB {
       taxonomySentences.concat(regularSentences) || []
     ).slice(0, count) // make sure to only return the requested amount
 
-    // These sentences have been given to this user - ADD to Redis for 1 hours to prevent re-selection
+    // These sentences have been given to this user - ADD to Redis for 1 hour to prevent re-selection
     // We now use redisSetAddManyWithExpiry instead of redisSetFillManyWithExpiry to accumulate
     // previously recorded sentences, not replace them
-    // Beware, each time new sentences are added, the expiry is set to 1 hours from that moment
+    // Beware, each time new sentences are added, the expiry is set to 1 hour from that moment
     // We dropped the duration, because now we do prevent corrupt data
     await redisSetAddManyWithExpiry(
       redisKeyPerUserSentenceIdSet(client_id),
@@ -623,7 +623,7 @@ export default class DB {
     //get clips that a user hasn't already seen
     const eligibleClips = new Set(
       otherUserClips.filter((clip: DBClip) => {
-        //only return clips that have not seena and not been validated before
+        //only return clips that have not seen and not been validated before
         return !skipClipIds.has(clip.id) && clip.has_valid_clip === 0
       })
     )
@@ -645,21 +645,23 @@ export default class DB {
         SELECT clips.*
         FROM clips
         LEFT JOIN sentences on clips.original_sentence_id = sentences.id
-        WHERE is_valid IS NULL AND clips.locale_id = ? AND client_id <> ?
-        AND NOT EXISTS(
-          SELECT clip_id
-            FROM votes
-            WHERE votes.clip_id = clips.id AND client_id = ?
-          UNION ALL
-          SELECT clip_id
-            FROM reported_clips reported
-            WHERE reported.clip_id = clips.id AND client_id = ?
-          UNION ALL
-          SELECT clip_id
-            FROM skipped_clips skipped
-            WHERE skipped.clip_id = clips.id AND client_id = ?
-        )
-        AND sentences.has_valid_clip = 0 OR sentences.clips_count < ${sentenceLimit}
+        WHERE is_valid IS NULL
+          AND clips.locale_id = ?
+          AND client_id <> ?
+          AND (sentences.has_valid_clip = 0 OR sentences.clips_count < ${sentenceLimit})
+          AND NOT EXISTS(
+            SELECT clip_id
+              FROM votes
+              WHERE votes.clip_id = clips.id AND client_id = ?
+            UNION ALL
+            SELECT clip_id
+              FROM reported_clips reported
+              WHERE reported.clip_id = clips.id AND client_id = ?
+            UNION ALL
+            SELECT clip_id
+              FROM skipped_clips skipped
+              WHERE skipped.clip_id = clips.id AND client_id = ?
+          )
         ORDER BY sentences.clips_count ASC, clips.created_at ASC
         LIMIT ?
       ) t
