@@ -27,6 +27,20 @@ about-nav-playbook = Bɔhimmi a ni yɛn niŋ shɛm m-pahi
 about-playbook-how-add-language = Wula ka n ni tooi zaŋ zuliya balli m-pahi?
 about-playbook-how-add-language-collecting-sentences-heading = yɛltɔɣa deebu
 
+## How to add sentences
+
+about-playbook-how-add-sentences = wula ka n yɛn tooi m-pahi yɛltɔɣa?
+
+## How to record quality
+
+about-playbook-how-record-content-3 = zaŋmi a haŋkali n niŋ yɛltɔɣa maa karimbu ni, di che, di taɣi bee di pahi bachi nima
+
+## How to grow language
+
+about-playbook-how-grow-language = wula ka ti yɛn n niŋ ka ti zuliya balli tooi zooi common voice puuni?
+about-playbook-how-grow-language-content-2 = laɣinsi
+about-playbook-how-grow-language-content-4 = pɔhim zuɣu
+
 ## How to validate
 
 about-playbook-how-validate-content-4 = Niriba ayi yi zaɣisi anfooni ŋmaa, di yirimi labi dataset yaɣ' shɛli polo.
