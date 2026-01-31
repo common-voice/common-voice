@@ -9,7 +9,7 @@
     "@sentry/profiling-node": "8.47.0",
     "archiver": "^5.3.1",
     "async-mutex": "^0.5.0",
-    "body-parser": "1.20.3",
+    "body-parser": "1.20.4",
     "bull": "3.29.3",
     "commander": "9.5.0",
     "common": "1.0.0",
