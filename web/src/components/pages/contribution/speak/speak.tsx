@@ -380,11 +380,8 @@ class SpeakPage extends React.Component<Props, State> {
         const info = await this.audio.stop()
         this.processRecording(info)
       } catch (error) {
-        if (error === AudioError.EMPTY_BLOB) {
-          this.setState({ error: RecordingError.TOO_SHORT }) // Reuse existing error UI
-        } else {
-          throw error // Re-throw unknown errors
-        }
+        // Log and ignore - audio.stop() errors are typically non-critical
+        console.log('Error stopping recording:', error)
       }
     }, RECORD_STOP_DELAY)
     this.recordingStopTime = Date.now()
@@ -398,10 +395,8 @@ class SpeakPage extends React.Component<Props, State> {
     try {
       await this.audio.stop()
     } catch (error) {
-      if (error !== AudioError.EMPTY_BLOB) {
-        // Audio may not be ready yet - ignore the error
-        console.log('Could not stop recording:', error)
-      }
+      // Audio may not be ready yet - ignore the error
+      console.log('Could not stop recording:', error)
     }
     this.setState({ recordingStatus: null })
   }
@@ -835,7 +830,6 @@ class SpeakPage extends React.Component<Props, State> {
                         [AudioError.NO_MIC]: 'record-no-mic-found',
                         [AudioError.NO_SUPPORT]:
                           'record-platform-not-supported',
-                        [AudioError.EMPTY_BLOB]: 'record-error-too-short',
                       }[error]
                     }
                     {...props}

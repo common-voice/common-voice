@@ -13,7 +13,6 @@ export enum AudioError {
   NOT_ALLOWED = 'NOT_ALLOWED',
   NO_MIC = 'NO_MIC',
   NO_SUPPORT = 'NO_SUPPORT',
-  EMPTY_BLOB = 'EMPTY_BLOB',
 }
 
 export interface AudioInfo {
@@ -355,7 +354,7 @@ export default class AudioWeb {
           // Validate blob size (empty blobs cause backend errors)
           if (blob.size === 0) {
             console.error('[AudioWeb] Empty blob created, rejecting recording')
-            reject(AudioError.EMPTY_BLOB)
+            reject(AudioError.NO_SUPPORT)
             return
           }
 
