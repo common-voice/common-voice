@@ -45,7 +45,7 @@ import RecordingPill from './recording-pill'
 import { SentenceRecording } from './sentence-recording'
 import SpeakErrorContent from './speak-error-content'
 import { USER_LANGUAGES } from './firstSubmissionCTA/firstPostSubmissionCTA'
-import { castTrueString } from '../../../../utility'
+import { castTrueString, isTyping } from '../../../../utility'
 import { isWebView } from '../../../../platforms'
 import { trackGtag } from '../../../../services/tracker-ga4'
 
@@ -226,6 +226,8 @@ class SpeakPage extends React.Component<Props, State> {
    * If possible use the `shortcuts` prop of `ContributionPage` instead.
    */
   private handleKeyUp = async (event: KeyboardEvent) => {
+    if (isTyping()) return
+
     let reRecordIndex = null
     //for both sets of number keys on a keyboard with shift key
     if (event.code === 'Digit1' || event.code === 'Numpad1') {
@@ -342,10 +344,7 @@ class SpeakPage extends React.Component<Props, State> {
       await this.startRecording()
     } catch (err) {
       if (err in AudioError) {
-        this.setState({
-          error: err,
-          recordingStatus: null,
-        })
+        this.setState({ error: err, recordingStatus: null })
       } else {
         this.setState({ recordingStatus: null })
         throw err
@@ -929,6 +928,7 @@ class SpeakPage extends React.Component<Props, State> {
                 key: 'shortcut-discard-ongoing-recording',
                 label: 'shortcut-discard-ongoing-recording-label',
                 // This is handled in handleKeyUp, separately.
+                // eslint-disable-next-line @typescript-eslint/no-empty-function
                 action: () => {},
               },
               {
@@ -936,6 +936,7 @@ class SpeakPage extends React.Component<Props, State> {
                 label: 'shortcut-submit-label',
                 icon: <ReturnKeyIcon />,
                 // This is handled in handleKeyUp, separately.
+                // eslint-disable-next-line @typescript-eslint/no-empty-function
                 action: () => {},
               },
             ]}
