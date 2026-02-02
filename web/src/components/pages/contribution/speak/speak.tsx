@@ -45,7 +45,8 @@ import RecordingPill from './recording-pill'
 import { SentenceRecording } from './sentence-recording'
 import SpeakErrorContent from './speak-error-content'
 import { USER_LANGUAGES } from './firstSubmissionCTA/firstPostSubmissionCTA'
-import { castTrueString, isWebView } from '../../../../utility'
+import { castTrueString } from '../../../../utility'
+import { isWebView } from '../../../../platforms'
 import { trackGtag } from '../../../../services/tracker-ga4'
 
 import './speak.css'
@@ -371,8 +372,16 @@ class SpeakPage extends React.Component<Props, State> {
     // end of each recording (issue #1648).
     const RECORD_STOP_DELAY = 500
     setTimeout(async () => {
-      const info = await this.audio.stop()
-      this.processRecording(info)
+      try {
+        const info = await this.audio.stop()
+        this.processRecording(info)
+      } catch (error) {
+        if (error === AudioError.EMPTY_BLOB) {
+          this.setState({ error: RecordingError.TOO_SHORT }) // Reuse existing error UI
+        } else {
+          throw error // Re-throw unknown errors
+        }
+      }
     }, RECORD_STOP_DELAY)
     this.recordingStopTime = Date.now()
     this.setState({
@@ -385,8 +394,10 @@ class SpeakPage extends React.Component<Props, State> {
     try {
       await this.audio.stop()
     } catch (error) {
-      // Audio may not be ready yet - ignore the error
-      console.log('Could not stop recording:', error)
+      if (error !== AudioError.EMPTY_BLOB) {
+        // Audio may not be ready yet - ignore the error
+        console.log('Could not stop recording:', error)
+      }
     }
     this.setState({ recordingStatus: null })
   }
@@ -504,40 +515,36 @@ class SpeakPage extends React.Component<Props, State> {
           } catch (error) {
             // Check error type from server response
             if (error.message.includes('ALREADY_EXISTS')) {
-              // Duplicate clip - treat as success and exit retry loop immediately
+              // Duplicate clip - treat as success, no action needed from user
               hasDuplicateClip = true
               uploaded_count += 1
               retries = 0
               continue
             }
 
-            let key = 'error-clip-upload'
-            let shouldRetry = true
-
+            // AUDIO_CORRUPT errors (TOO_LONG, TOO_LARGE, PROCESSING_FAILED, etc.)
+            // User cannot fix these - audio is already recorded, don't retry
             if (error.message.includes('AUDIO_CORRUPT')) {
-              // Corrupted audio data - don't retry, show helpful message
-              key = 'record-error-uploaded-clip-corrupted'
-              shouldRetry = false
-            } else if (error.message.includes('save_clip_error')) {
-              key = 'error-clip-upload-server'
-              shouldRetry = true // Retry server errors
-            }
-
-            if (shouldRetry) {
-              retries--
-              await new Promise(resolve => setTimeout(resolve, 1000))
-
-              if (retries === 0 && confirm(getString(key))) {
-                retries = 3
-              }
-            } else {
-              // Don't retry - show problem only (user cannot re-record at this stage)
               retries = 0
               alert(
-                getString(key, {
+                getString('record-error-uploaded-clip-corrupted', {
                   duration: MAX_RECORDING_MS / 1000,
                 })
               )
+              continue
+            }
+
+            // Only retry on server/network errors (not audio issues)
+            let key = 'error-clip-upload'
+            if (error.message.includes('save_clip_error')) {
+              key = 'error-clip-upload-server'
+            }
+
+            retries--
+            await new Promise(resolve => setTimeout(resolve, 1000))
+
+            if (retries === 0 && confirm(getString(key))) {
+              retries = 3
             }
           }
         }
@@ -824,6 +831,7 @@ class SpeakPage extends React.Component<Props, State> {
                         [AudioError.NO_MIC]: 'record-no-mic-found',
                         [AudioError.NO_SUPPORT]:
                           'record-platform-not-supported',
+                        [AudioError.EMPTY_BLOB]: 'record-error-too-short',
                       }[error]
                     }
                     {...props}

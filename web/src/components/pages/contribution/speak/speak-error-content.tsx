@@ -9,7 +9,7 @@ import {
   SafariColor,
 } from '../../../ui/icons'
 import { LinkButton } from '../../../ui/ui'
-import { isIOS, isMobileSafari } from '../../../../utility'
+import { isIOS, isMobileSafari } from '../../../../platforms'
 import VisuallyHidden from '../../../visually-hidden/visually-hidden'
 
 const UnsupportedInfo = ({ isWebView = false }: { isWebView?: boolean }) => (
