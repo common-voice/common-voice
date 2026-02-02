@@ -109,7 +109,6 @@ export default class AudioWeb {
   }
 
   // Check if audio recording is supported
-  // Note: Detailed codec checking is done by getAudioFormat()
   isAudioRecordingSupported(): boolean {
     return (
       typeof window.MediaRecorder !== 'undefined' &&

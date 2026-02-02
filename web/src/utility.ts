@@ -70,43 +70,6 @@ export function getManageSubscriptionURL(account: UserClient) {
   }newsletter/existing/${account.basket_token}`
 }
 
-/**
- * Get the appropriate audio format for MediaRecorder.
- * Note: Caller should not force this format on iOS/Safari - they work better with defaults.
- */
-export const getAudioFormat = () => {
-  // iOS/macOS Safari => MP4/AAC
-  if (isIOS() || isMacOSSafari()) {
-    // Prefer AAC-LC (mp4a.40.2) - most compatible AAC profile
-    // This is the baseline AAC profile that Safari/WebKit encoders produce
-    // and ensures predictable quality/compatibility across Apple devices
-    if (MediaRecorder.isTypeSupported('audio/mp4;codecs=mp4a.40.2')) {
-      return 'audio/mp4;codecs=mp4a.40.2'
-    }
-    if (MediaRecorder.isTypeSupported('audio/mp4')) {
-      return 'audio/mp4'
-    }
-    // Fallback - check WebM support
-    if (MediaRecorder.isTypeSupported('audio/webm;codecs=opus')) {
-      return 'audio/webm;codecs=opus'
-    }
-    if (MediaRecorder.isTypeSupported('audio/webm')) {
-      return 'audio/webm'
-    }
-  }
-
-  // All other platforms => WebM/Opus
-  if (MediaRecorder.isTypeSupported('audio/webm;codecs=opus')) {
-    return 'audio/webm;codecs=opus'
-  }
-  if (MediaRecorder.isTypeSupported('audio/webm')) {
-    return 'audio/webm'
-  }
-
-  // Let MediaRecorder choose default
-  return ''
-}
-
 export async function hash(text: string) {
   const encoder = new TextEncoder()
   const data = encoder.encode(text)
