@@ -342,8 +342,12 @@ class SpeakPage extends React.Component<Props, State> {
       await this.startRecording()
     } catch (err) {
       if (err in AudioError) {
-        this.setState({ error: err })
+        this.setState({
+          error: err,
+          recordingStatus: null,
+        })
       } else {
+        this.setState({ recordingStatus: null })
         throw err
       }
     }

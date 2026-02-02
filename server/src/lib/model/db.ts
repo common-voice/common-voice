@@ -407,7 +407,7 @@ export default class DB {
     await redisSetAddManyWithExpiry(
       redisKeyPerUserSentenceIdSet(client_id),
       totalSentences.map(s => s.id),
-      1 * TimeUnits.HOUR
+      TimeUnits.HOUR
     )
     return this.appendMetadataToSentence(totalSentences)
   }
@@ -464,7 +464,7 @@ export default class DB {
           SELECT 1 FROM reported_sentences rs
           WHERE rs.sentence_id = s.id AND rs.client_id = ?
         )
-      -- ORDER BY s.clips_count ASC, s.id ASC
+      ORDER BY s.clips_count ASC, s.id ASC
       LIMIT ?
     `,
       [locale_id, client_id, client_id, client_id, limit]

@@ -4,7 +4,13 @@ export function isIOS(): boolean {
   if (typeof navigator === 'undefined') return false
 
   const ua = navigator.userAgent
-  return /iPad|iPhone|iPod/i.test(ua)
+  const isIOSDevice = /iPad|iPhone|iPod/i.test(ua)
+  const isIPadOS13OrNewer =
+    /Macintosh/i.test(ua) &&
+    'maxTouchPoints' in navigator &&
+    (navigator as any).maxTouchPoints > 1
+
+  return isIOSDevice || isIPadOS13OrNewer
 }
 
 export function isMacOSSafari(): boolean {

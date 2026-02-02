@@ -290,8 +290,34 @@ export default class Clip {
       return response.json({ filePrefix: sentenceId })
     }
 
-    // No buffered input handling - use stream directly
-    const audioInput = request
+    let audioInput: NodeJS.ReadableStream = request
+
+    // Handle AAC/MP4 formats from iOS devices
+    // MP4 containers need special handling due to moov atom positioning
+    const isAAC = format && (format.includes('aac') || format.includes('mp4'))
+
+    if (getConfig().FLAG_BUFFER_STREAM_ENABLED && isAAC) {
+      // AAC data comes wrapped in an MPEG container, which is incompatible with
+      // ffmpeg's piped stream functions because the moov atom comes at the end of
+      // the stream. At that point, ffmpeg can no longer seek back to the beginning.
+      // createBufferedInputStream creates a local file and pipes data in as
+      // a file, which doesn't lose the seek mechanism.
+      console.log(
+        `[saveClip] AAC/MP4 detected - Using buffered input: ${format} for ${clipFileName}`
+      )
+
+      const { Converter } = require('ffmpeg-stream')
+      const { Readable } = require('stream')
+      const converter = new Converter()
+      const audioStream = Readable.from(request)
+
+      audioInput = converter.createBufferedInputStream()
+      audioStream.pipe(audioInput)
+    } else if (isAAC) {
+      console.log(
+        `[saveClip] AAC/MP4 detected - FLAG_BUFFER_STREAM_ENABLED=false: ${format} for ${clipFileName}`
+      )
+    }
 
     let transcodeJob: Mp3TranscodeJob | null = null
 
