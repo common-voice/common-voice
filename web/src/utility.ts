@@ -361,16 +361,3 @@ export const invalidSmallBatchSentencesToTSVString = (
 
 export const typedObjectKeys = <T extends object>(object: T): (keyof T)[] =>
   Object.keys(object) as (keyof T)[]
-
-// Check if the user is currently typing in an input field
-// Use this to prevent keyboard shortcuts from triggering while typing in language/dataset selector
-export const isTyping = () => {
-  const el = document.activeElement
-  return (
-    el &&
-    (el.tagName === 'INPUT' ||
-      el.tagName === 'TEXTAREA' ||
-      el.tagName === 'SELECT' ||
-      el.getAttribute('contenteditable') === 'true')
-  )
-}

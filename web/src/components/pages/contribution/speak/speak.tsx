@@ -45,7 +45,7 @@ import RecordingPill from './recording-pill'
 import { SentenceRecording } from './sentence-recording'
 import SpeakErrorContent from './speak-error-content'
 import { USER_LANGUAGES } from './firstSubmissionCTA/firstPostSubmissionCTA'
-import { castTrueString, isTyping, isWebView } from '../../../../utility'
+import { castTrueString, isWebView } from '../../../../utility'
 import { trackGtag } from '../../../../services/tracker-ga4'
 
 import './speak.css'
@@ -225,8 +225,6 @@ class SpeakPage extends React.Component<Props, State> {
    * If possible use the `shortcuts` prop of `ContributionPage` instead.
    */
   private handleKeyUp = async (event: KeyboardEvent) => {
-    if (isTyping()) return
-
     let reRecordIndex = null
     //for both sets of number keys on a keyboard with shift key
     if (event.code === 'Digit1' || event.code === 'Numpad1') {

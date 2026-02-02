@@ -10,7 +10,6 @@ import { useLocale } from '../../../../locale-helpers'
 import { Sentences } from '../../../../../stores/sentences'
 import { Notifications } from '../../../../../stores/notifications'
 import { trackGtag } from '../../../../../services/tracker-ga4'
-import { isTyping } from '../../../../../utility'
 
 const TOO_MANY_REQUESTS_ERROR = 'Too Many Requests'
 
@@ -175,7 +174,6 @@ const useReview = ({ getString, showReportModal }: UseReviewParams) => {
   ]
 
   const handleKeyDown = (evt: KeyboardEvent) => {
-    if (isTyping()) return
     if (
       evt.ctrlKey ||
       evt.altKey ||
@@ -187,7 +185,7 @@ const useReview = ({ getString, showReportModal }: UseReviewParams) => {
     }
 
     const shortcut = reviewShortCuts.find(
-      ({ key }) => getString(key).toLowerCase() === evt.key.toLocaleLowerCase()
+      ({ key }) => getString(key).toLowerCase() === evt.key
     )
 
     if (!shortcut) return
