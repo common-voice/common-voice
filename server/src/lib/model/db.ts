@@ -43,7 +43,16 @@ const EXTRA_COUNT_MULTIPLIER = 10
 // from the single sentence record limit, because they are unlikely to amass enough unique speakers
 // to benefit from single sentence constraints
 // const SINGLE_SENTENCE_LIMIT = ['en', 'de', 'fr', 'kab', 'rw', 'es'] // these values are from 5 years ago
-const SINGLE_SENTENCE_LIMIT = ['de', 'fr', 'rw']
+// Changed the logic to include multiple levels of recording per sentence limits
+const MAX_CLIP_PER_SENTENCE = 15
+const LIMITED_CLIPS_PER_SENTENCE: { [locale: string]: number } = {
+  de: 1,
+  fr: 1,
+  rw: 1,
+  en: 2,
+  es: 2,
+  kab: 2,
+}
 
 const teammate_subquery =
   '(SELECT team_id FROM enroll e LEFT JOIN challenges c ON e.challenge_id = c.id WHERE e.client_id = ? AND c.url_token = ?)'
@@ -341,7 +350,9 @@ export default class DB {
     let taxonomySentences: Sentence[] = []
     let regularSentences: Sentence[] = []
     const locale_id = await getLocaleId(locale)
-    const exemptFromSSRL = !SINGLE_SENTENCE_LIMIT.includes(locale)
+
+    const sentenceLimit =
+      LIMITED_CLIPS_PER_SENTENCE[locale] || MAX_CLIP_PER_SENTENCE
     const countWithExtras = count + EXTRA_COUNT_MULTIPLIER * EXTRA_COUNT
 
     // Make sure to exclude recently recorded sentences by the user (from Redis cache)
@@ -375,7 +386,7 @@ export default class DB {
         client_id,
         locale_id,
         SHUFFLE_SIZE,
-        exemptFromSSRL
+        sentenceLimit
       )
       const nonTaxonomyCount = count - taxonomySentences.length // must be positive, this much we need more
       regularSentences = this.getRandomSelection(
@@ -388,17 +399,15 @@ export default class DB {
       taxonomySentences.concat(regularSentences) || []
     ).slice(0, count) // make sure to only return the requested amount
 
-    // These sentences have been given to this user - ADD to Redis for 2 days to prevent re-selection
+    // These sentences have been given to this user - ADD to Redis for 1 hour to prevent re-selection
     // We now use redisSetAddManyWithExpiry instead of redisSetFillManyWithExpiry to accumulate
     // previously recorded sentences, not replace them
-    // Beware, each time new sentences are added, the expiry is set to 2 days from that moment
-    // It will now expire in 2 days if the user does not come back to record more
-    // The duration of 2 days is chosen to prevent re-selection of corrupted audio which we cannot remove now,
-    // otherwise duplicate clip errors come out
+    // Beware, each time new sentences are added, the expiry is set to 1 hour from that moment
+    // We dropped the duration, because now we do prevent corrupt data
     await redisSetAddManyWithExpiry(
       redisKeyPerUserSentenceIdSet(client_id),
       totalSentences.map(s => s.id),
-      2 * TimeUnits.DAY
+      TimeUnits.HOUR
     )
     return this.appendMetadataToSentence(totalSentences)
   }
@@ -431,7 +440,7 @@ export default class DB {
     client_id: string,
     locale_id: number,
     limit: number,
-    exemptFromSSRL?: boolean
+    sentenceLimit: number
   ): Promise<Sentence[]> {
     const [rows] = await this.mysql.query(
       `
@@ -439,15 +448,10 @@ export default class DB {
       FROM sentences AS s
       WHERE s.is_used
         AND s.locale_id = ?
-        AND s.clips_count < 15
+        AND (s.has_valid_clip = 0 OR s.clips_count < ${sentenceLimit})
         AND NOT EXISTS (
           SELECT 1 FROM taxonomy_entries te WHERE te.sentence_id = s.id
         )
-        ${
-          exemptFromSSRL
-            ? ''
-            : 'AND (s.clips_count = 0 OR s.has_valid_clip = 0)'
-        }
         AND NOT EXISTS (
           SELECT 1 FROM clips c
           WHERE c.original_sentence_id = s.id AND c.client_id = ?
@@ -534,8 +538,9 @@ export default class DB {
   ): Promise<DBClip[]> {
     let taxonomySentences: DBClip[] = []
     const locale_id = await getLocaleId(locale)
-    const exemptFromSSRL = !SINGLE_SENTENCE_LIMIT.includes(locale)
 
+    const sentenceLimit =
+      LIMITED_CLIPS_PER_SENTENCE[locale] || MAX_CLIP_PER_SENTENCE
     const prioritySegments = this.getPrioritySegments(locale)
 
     if (prioritySegments.length) {
@@ -553,7 +558,7 @@ export default class DB {
             client_id,
             locale_id,
             count - taxonomySentences.length,
-            exemptFromSSRL
+            sentenceLimit
           )
 
     return taxonomySentences.concat(regularSentences)
@@ -567,7 +572,7 @@ export default class DB {
     client_id: string,
     locale_id: number,
     count: number,
-    exemptFromSSRL?: boolean
+    sentenceLimit: number
   ): Promise<DBClip[]> {
     // get cached clips for given language
     /*
@@ -618,10 +623,8 @@ export default class DB {
     //get clips that a user hasn't already seen
     const eligibleClips = new Set(
       otherUserClips.filter((clip: DBClip) => {
-        const notSeenBefore = !skipClipIds.has(clip.id)
-        if (exemptFromSSRL) return notSeenBefore
-        //only return clips that have not been validated before
-        return notSeenBefore && clip.has_valid_clip === 0
+        //only return clips that have not seen and not been validated before
+        return !skipClipIds.has(clip.id) && clip.has_valid_clip === 0
       })
     )
 
@@ -642,22 +645,23 @@ export default class DB {
         SELECT clips.*
         FROM clips
         LEFT JOIN sentences on clips.original_sentence_id = sentences.id
-        WHERE is_valid IS NULL AND clips.locale_id = ? AND client_id <> ?
-        AND NOT EXISTS(
-          SELECT clip_id
-          FROM votes
-          WHERE votes.clip_id = clips.id AND client_id = ?
-          UNION ALL
-          SELECT clip_id
-          FROM reported_clips reported
-          WHERE reported.clip_id = clips.id AND client_id = ?
-          UNION ALL
-          SELECT clip_id
-          FROM skipped_clips skipped
-          WHERE skipped.clip_id = clips.id AND client_id = ?
-        )
-        AND sentences.clips_count <= 15
-        ${exemptFromSSRL ? '' : 'AND sentences.has_valid_clip = 0'}
+        WHERE is_valid IS NULL
+          AND clips.locale_id = ?
+          AND client_id <> ?
+          AND (sentences.has_valid_clip = 0 OR sentences.clips_count < ${sentenceLimit})
+          AND NOT EXISTS(
+            SELECT clip_id
+              FROM votes
+              WHERE votes.clip_id = clips.id AND client_id = ?
+            UNION ALL
+            SELECT clip_id
+              FROM reported_clips reported
+              WHERE reported.clip_id = clips.id AND client_id = ?
+            UNION ALL
+            SELECT clip_id
+              FROM skipped_clips skipped
+              WHERE skipped.clip_id = clips.id AND client_id = ?
+          )
         ORDER BY sentences.clips_count ASC, clips.created_at ASC
         LIMIT ?
       ) t
