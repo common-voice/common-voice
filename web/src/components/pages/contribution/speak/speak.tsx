@@ -45,7 +45,8 @@ import RecordingPill from './recording-pill'
 import { SentenceRecording } from './sentence-recording'
 import SpeakErrorContent from './speak-error-content'
 import { USER_LANGUAGES } from './firstSubmissionCTA/firstPostSubmissionCTA'
-import { castTrueString, isWebView } from '../../../../utility'
+import { castTrueString } from '../../../../utility'
+import { isWebView } from '../../../../platforms'
 import { trackGtag } from '../../../../services/tracker-ga4'
 
 import './speak.css'
@@ -371,8 +372,16 @@ class SpeakPage extends React.Component<Props, State> {
     // end of each recording (issue #1648).
     const RECORD_STOP_DELAY = 500
     setTimeout(async () => {
-      const info = await this.audio.stop()
-      this.processRecording(info)
+      try {
+        const info = await this.audio.stop()
+        this.processRecording(info)
+      } catch (error) {
+        if (error === AudioError.EMPTY_BLOB) {
+          this.setState({ error: RecordingError.TOO_SHORT }) // Reuse existing error UI
+        } else {
+          throw error // Re-throw unknown errors
+        }
+      }
     }, RECORD_STOP_DELAY)
     this.recordingStopTime = Date.now()
     this.setState({
@@ -385,8 +394,10 @@ class SpeakPage extends React.Component<Props, State> {
     try {
       await this.audio.stop()
     } catch (error) {
-      // Audio may not be ready yet - ignore the error
-      console.log('Could not stop recording:', error)
+      if (error !== AudioError.EMPTY_BLOB) {
+        // Audio may not be ready yet - ignore the error
+        console.log('Could not stop recording:', error)
+      }
     }
     this.setState({ recordingStatus: null })
   }
@@ -820,6 +831,7 @@ class SpeakPage extends React.Component<Props, State> {
                         [AudioError.NO_MIC]: 'record-no-mic-found',
                         [AudioError.NO_SUPPORT]:
                           'record-platform-not-supported',
+                        [AudioError.EMPTY_BLOB]: 'record-error-too-short',
                       }[error]
                     }
                     {...props}

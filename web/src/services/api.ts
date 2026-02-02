@@ -27,7 +27,6 @@ import {
 import { Locale } from '../stores/locale'
 import { User } from '../stores/user'
 import { USER_KEY } from '../stores/root'
-import { isIOS, isMacOSSafari } from '../utility'
 
 interface FetchOptions {
   method?: 'GET' | 'POST' | 'PUT' | 'DELETE' | 'PATCH'
@@ -254,13 +253,10 @@ export default class API {
     showFirstStreakToast?: boolean
     challengeEnded: boolean
   }> {
-    // iOS/Safari: blob.type is empty (we don't set mimeType to avoid buffer issues)
-    // But backend needs Content-Type to detect MP4 format for buffering
-    // iOS Safari records in MP4/AAC format, macOS Safari can vary
-    let contentType = blob.type
-    if (!contentType && (isIOS() || isMacOSSafari())) {
-      contentType = 'audio/mp4'
-    }
+    // Use blob.type directly - it now contains the correct MIME type from audio-web.ts
+    // audio-web.ts creates Blob with: recordingMimeType || requestedMimeType || ''
+    // This ensures iOS blobs have proper type (e.g., 'audio/mp4;codecs=mp4a.40.2')
+    const contentType = blob.type || 'application/octet-stream'
 
     return this.fetch(this.getClipPath(), {
       method: 'POST',
