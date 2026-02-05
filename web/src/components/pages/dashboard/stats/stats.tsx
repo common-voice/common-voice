@@ -4,6 +4,7 @@ import ContributionActivity from './contribution-activity'
 import LeaderboardCard from './leaderboard-card'
 import ProgressCard, { Props as ProgressCardProps } from './progress-card'
 import StatsCard from './stats-card'
+import { Spinner } from '../../../ui/ui'
 
 import './stats.css'
 
@@ -19,10 +20,14 @@ const ContributionActivityEveryone = ({ locale }: { locale: string }) => (
 )
 
 const StatsPage = ({ allGoals, dashboardLocale }: Props) => {
+  // Always render the structure to avoid conditional hook calls
   return (
     <div className="stats-page">
       {!allGoals ? (
-        <>...</>
+        // Show loading state while maintaining component structure
+        <div className="cards loading">
+          <Spinner />
+        </div>
       ) : (
         <>
           <div className="cards">

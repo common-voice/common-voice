@@ -3,6 +3,8 @@ speak-now = Nu spreken
 speak-subtitle = Doneer uw stem
 record-cta = Opname starten
 record-platform-not-supported = Sorry, maar uw platform wordt nog niet ondersteund.
+record-platform-webview = Mogelijk bent u hier terechtgekomen door op een koppeling in een app voor sociale media te klikken. U gebruikt een in-app-browser die geen audio-opnames ondersteunt.
+record-platform-not-supported-webview = Op mobiele apparaten kunt u bijdragen via uw systeembrowser…
 record-platform-not-supported-desktop = Op desktopcomputers kunt u de meest recente downloaden:
 record-platform-not-supported-ios-non-safari = Ga op iOS door met Safari om opnemen in te schakelen…
 record-must-allow-microphone = U dient toegang tot uw microfoon te geven.
@@ -10,6 +12,12 @@ record-no-mic-found = Geen microfoon gevonden.
 record-error-too-short = De opname was te kort.
 record-error-too-long = De opname was te lang.
 record-error-too-quiet = De opname was te zacht.
+record-error-uploaded-clip-corrupted =
+    Uw geluidsopname lijkt beschadigd te zijn. Dit kan gebeuren door:
+    • Browsercompatibiliteitsproblemen (probeer een andere browser te gebruiken)
+    • Problemen met microfoon of audiostuurprogramma
+    • Netwerkonderbrekingen tijdens opnemen
+    Probeer opnieuw op te nemen.
 record-cancel = Nieuwe opname annuleren
 record-instruction = { $actionType } <recordIcon></recordIcon> en lees de zin vervolgens hardop
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> wanneer gereed

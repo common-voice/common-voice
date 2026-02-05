@@ -37,7 +37,7 @@ export const getUserClientVariantClipsQueryHandler =
           O.map(pVariant => pVariant.variant),
           O.match(
             () => TE.right([] as DBClip[]),
-            variant => fetchVariantClips(variant)
+            variant => fetchVariantClips(variant, query.localeId)
           )
         )
       ),

@@ -46,8 +46,7 @@ x-years-short =
     }
 help-make-dataset = Kaliteli, herkese açık bir veri kümesi oluşturmamıza yardım edin
 sign-up-account = Hesap açın
-email-subscription-title = e-posta haberlerine kaydolun
-email-subscription-title-new = Common Voice haber bültenleri, hedef hatırlatmaları ve ilerleme durumu için kaydolun
+email-subscription-title-v3 = Common Voice ve Mozilla Foundation haberlerine kaydolun
 
 ## Account Benefits
 
@@ -132,7 +131,7 @@ answer = Yanıt ver
 
 ## Community section
 
-community-section-title = Dünyanın tüm topluluklarını destekliyoruz: 130 dile ulaştık ve bu sayı giderek artıyor!
+community-section-title-202601 = Dünyanın tüm topluluklarını destekliyoruz: 290 dile ulaştık ve bu sayı giderek artıyor!
 join-discord-community = Discord topluluğumuza katılın
 # label for button
 join-discord-community-action = Discord’da bize katılın

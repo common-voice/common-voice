@@ -23,7 +23,6 @@ report-button = Báo cáo
 skip-button = Bỏ qua
 submit-button = Gửi
 contribute = Đóng góp
-request-new-language = Yêu cầu ngôn ngữ mới
 
 ## Navbar
 

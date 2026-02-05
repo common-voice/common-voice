@@ -3,6 +3,8 @@ speak-now = چیئے موْݜ تِھیا
 speak-subtitle = تومیْ آواز عطیہ تِھیا
 record-cta = ریکارڈنگ شیروع تِھیا
 record-platform-not-supported = اسوڑ افسوسِن چہ څھے پلیٹ فارم فی الحال تعاون یافتہ نانوْ۔
+record-platform-webview = آ بوبانیْ چہ څھوْس سوشل میڈیا ایپ مجی کوئے ایْکِجیْ کلک تھے ادی اُڇھاتَت بو۔ څھوْس ایْک مجِنیْ ایپ استعمال تھینَت کھاں سہ آڈیو ریکارڈنگ سپورٹ نہ تِھینیْ۔
+record-platform-not-supported-webview = توموْ موبائل آلاتُجیْ څھوْس توموْ سسٹم براؤزر استعمال تھے تعاون تھوبانَت۔ہیں۔
 record-platform-not-supported-desktop = څھوْس ڈیسک ٹاپ ڈیوائسز جیْ ڈاؤن لوڈ تھے تعاون تھوبانَت۔
 record-platform-not-supported-ios-non-safari = آئی او ایس جیْ ریکارڈنگ فعال تھونے کِرِیا مہربانی تھے سفاری سے ساتیْ بِیا۔
 record-must-allow-microphone = څھوْڑ مائکروفون بُجَیش اجازہ دون بَو۔
@@ -10,6 +12,11 @@ record-no-mic-found = مائکروفون نِش
 record-error-too-short = ریکارڈنگ لئی کُھٹِس۔
 record-error-too-long = ریکارڈنگ لئی ڙِگِس۔
 record-error-too-quiet = ریکارڈنگ لئی چُھوتاسیْ۔
+record-error-uploaded-clip-corrupted =
+    څھے آڈیو ریکارڈنگ اُران معلوم بِینیْ۔ آئے سے آئے وجہ بوبانیْ:
+    ۔ براؤزرے مطابقتے مسائل (کھاں گہ مُتوْ براؤزر استعمال تِھیا)
+    ۔ مائیکروفون یا آڈیو ڈرائیور دہ جوْ خرابی
+     ۔ یکارڈنگ تھون دہ نیٹ ورک دہ جوْ ݜچار
 record-cancel = ریکارڈنگ کینسل تِھیا۔
 record-instruction = { $actionType }<recordIcon></recordIcon> آ جُملہ ست دُبار ہاݜ آواز گیْ پڑِیا۔
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> لئی مِݜٹیْ۔

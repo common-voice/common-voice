@@ -4,6 +4,7 @@ guidelines-header-subtitle = Shvati kako doprinijeti i potvrditi rečenice i aud
 voice-collection = Zbirka glasova
 sentence-collection = Zbirka rečenica
 question-collection = Zbirka pitanja
+spontaneous-speech = Spontani govor
 
 ## Voice Collection nav ids
 
@@ -25,7 +26,7 @@ varying-pronunciations-example = Ruta je bila nejasna.
 varying-pronunciations-tip-1 = [Na kanadskom engleskom bi riječ “route” mogla zvučati kao “rowt”]
 varying-pronunciations-tip-2 = [Na britanskom engleskom bi mogla zvučati kao “root”]
 offensive-content-explanation = Rečenice se provjeravaju putem procesa moderiranja zajednice, no taj proces nije savršen. Ako vidiš ili čuješ rečenicu koja te vrijeđa ili uznemiruje – na primjer zato što krši naše <participationGuidelines>smjernice za sudjelovanje u zajednici</participationGuidelines> – koristi gumb za prijavu u korisničkom sučelju. Također nam se možeš obratiti na <emailFragment>commonvoice@mozilla.com</emailFragment>.
-misreadings-explanation-1 = Ispravno čitanje svih riječi na stranici je važno. Prilikom slušanja provjeri je li snimljeni tekst točno odgovara napisanom tekstu; odbij snimku ako su riječi dodane, skraćene ili propuštene.
+misreadings-explanation-1 = Ispravno čitanje svih riječi na stranici je važno. Prilikom slušanja provjeri je li snimka točno odgovara napisanom tekstu; odbij snimku ako su riječi dodane, skraćene ili propuštene.
 misreadings-explanation-2 = Vrlo uobičajene pogreške uključuju:
 misreadings-explanation-3 = Na početku snimke nedostaje neodređeni ili određeni član imenice.
 misreadings-explanation-4 = Nedostaje nastavak za genitiv na kraju riječi.
@@ -70,7 +71,7 @@ public-domain-explanation-2 = Najbolje rečenice za izgradnju korisnog sustava z
 public-domain-explanation-3 = Stvaraj moderne, svakodnevne rečenice sam/a, s prijateljima ili s jezičnom zajednicom – na primjer putem „pisateljskog maratona”
 public-domain-explanation-4 = Kontaktiraj autore, dramatičare ili scenariste i pitaj ih, je li bi bili voljni darovati jedan mali dio svojih djela javnoj domeni
 public-domain-explanation-5 = Potraži tekstove čija su autorska prava istekla – na primjer, većina knjiga koje su objavljene prije 1920.
-public-domain-explanation-6 = Obrati se vladama, neprofitnim organizacijama ili medijskim organizacijama te ih pitaj je li se neki od njihovih web sadržaja, izvještaja ili drugih sadržaja mogu darovati javnoj domeni
+public-domain-explanation-6 = Obrati se vladama, neprofitnim organizacijama ili medijskim organizacijama te ih pitaj mogu li se neki od njihovih web sadržaja, izvještaja ili drugih sadržaja darovati javnoj domeni
 citing-sentences-explanation-1 = Važno je uključiti citate kako bismo mogli provjeriti jesu li rečenice u javnoj domeni i je li postoje ograničenja autorskih prava.
 citing-sentences-subheader-websites = Web stranice
 citing-sentences-subheader-websites-explanation = Možeš uključiti web stranicu, npr. „Common Voice – https://commonvoice.mozilla.org/”
@@ -131,3 +132,42 @@ offensive-content-sensitive-information-explanation-explanation-3 = Pitanja koja
 example-questions-subheader = Primjeri pitanja
 example-questions-explanation-1 = U ovoj tablici možeš pronaći <examplePromptsLink>120 primjera.</examplePromptsLink>
 example-questions-explanation-2 = Ako želiš poslati više pitanja odjednom, <githubLink>koristi naš GitHub</githubLink> ili pošalji tvoj popis e-poštom na <emailFragment>commonvoice@mozilla.com.</emailFragment>
+
+## Spontaneous Speech sidebar content
+
+# Answer Questions
+answer-questions = Odgovori na pitanja
+answer-questions-subheader = Opće smjernice
+# Transcribe the Audio
+transcribe-the-audio = Transkribiraj audio snimke
+transcribe-the-audio-subheader-1 = Opće smjernice
+transcribe-the-audio-subheader-2 = Brojevi i akronimi
+transcribe-the-audio-subheader-3 = Posebne oznake
+transcribe-the-audio-subheader-4 = Segmenti riječi, krivi počeci, ponovljene riječi
+transcribe-the-audio-subheader-5 = Gramatičke greške i kolokvijalizmi
+transcribe-the-audio-subheader-1-explanation = Općenito, zapiši sve što čuješ. To uključuje:
+transcribe-the-audio-subheader-1-explanation-example-1 = Zapisivanje netečnosti, uključujući oklijevanja i ponavljanja
+transcribe-the-audio-subheader-1-explanation-example-2 = Označavanje zvučnih događaja poput kašljanja ili smijanja
+transcribe-the-audio-subheader-1-explanation-example-3 = Označavanje značajne buke, poput brbljanja u pozadini ili automobilskih sirena
+transcribe-the-audio-subheader-1-explanation-example-4 = Zabilježi gramatičke varijante i sleng točno onako kako se pojavljuju. Nemoj ispravljati ili uređivati govor ljudi.
+transcribe-the-audio-subheader-2-explanation-1 = Izgovori brojeve i simbole riječima, a ne brojkama ili posebnim znakovima. Primjer:
+transcribe-the-audio-subheader-2-explanation-2 = Kratice treba pisati onako kako se inače pišu u jeziku, slijedeći standardna pravila pisanja velikim slovom. Ne treba ih fonetski transkribirati. Primjer:
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <correct> Ispravno</correct>: To je sto milja daleko odavdje
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <correct> Ispravno</correct>: To je 100 milja daleko odavdje
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correct> Ispravno</correct>: Vidimo se <underline>dvije tisuće i petnaeste</underline>
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <correct> Krivo</correct>: Vidimo se <underline>2015.</underline>
+transcribe-the-audio-subheader-2-example-3-correct = <correct>Ispravno</correct>: Bilo je dvadeset posto popusta
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Krivo</wrong>: Bilo je 20% popusta
+tags-table-header-1 = Oznaka
+tags-table-header-2 = Značenje
+tags-laugh = Smijeh
+tags-disfluency = Netečnost
+tags-unclear = Nejasno
+tags-noise = Buka
+tags-laugh-explanation = Zvuk smijeha.
+tags-unclear-explanation = Riječ ili niz riječi koji se ne mogu razumjeti.
+tags-noise-explanation = Bilo koja druga vrsta buke, poput kašljanja govornika, trubljenja automobila, zvuka nečega što udara u mikrofon, zujanja telefona itd.

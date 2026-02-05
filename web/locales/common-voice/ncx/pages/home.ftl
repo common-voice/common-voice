@@ -50,8 +50,6 @@ x-years-short =
     }
 help-make-dataset = Techpaleui matikyekchiuakan tlen nochtin kitaskej
 sign-up-account = Touan ximomachoti
-email-subscription-title = Xikmati tlen mochijtok itech mocorreo
-email-subscription-title-new = Xikmati tlen mochijtok uan mamitsilnamiktikan tlen moneki tikchiuas itech Common Voice
 
 ## Account Benefits
 
@@ -127,7 +125,6 @@ add-text = Xitlajkuilo
 
 ## Community section
 
-community-section-title = Nochtin kichiuaj, nochtin kitekitiltiaj — 130 tlajtolkopaj uan okachi yetoskej!
 join-discord-community = Touan xipoui itech Discord
 # label for button
 join-discord-community-action = Xipoui Discord

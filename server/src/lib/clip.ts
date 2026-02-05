@@ -4,36 +4,47 @@ import { getConfig } from '../config-helper'
 import Model from './model'
 import getLeaderboard from './model/leaderboard'
 import { earnBonus, hasEarnedBonus } from './model/achievements'
-import * as Basket from './basket'
+import rateLimiter from './middleware/rate-limiter-middleware'
+// Basket import removed: currently bulk-mail facility is not supported
+// import * as Basket from './basket'
 import * as Sentry from '@sentry/node'
 import Bucket from './bucket'
 import Awards from './model/awards'
 import { checkGoalsAfterContribution } from './model/goals'
-import { ChallengeToken, challengeTokens } from 'common'
+import { LazySetCache } from './redis-cache'
+import { TimeUnits } from 'common'
+import {
+  ChallengeToken,
+  challengeTokens,
+  MAX_RECORDING_MS,
+  MAX_RECORDING_MS_WITH_HEADROOM,
+} from 'common'
 import validate from './validation'
 import { clipsSchema } from './validation/clips'
 import { streamUploadToBucket } from '../infrastructure/storage/storage'
 import { pipe } from 'fp-ts/lib/function'
-import { option as O, taskEither as TE, task as T, identity as Id } from 'fp-ts'
+import { option as O, taskEither as TE, task as T } from 'fp-ts'
 import { Clip as ClientClip } from 'common'
+import {
+  createMp3TranscodeJob,
+  type Mp3TranscodeJob,
+} from './ffmpeg-transcoder'
 import {
   FindVariantsBySentenceIdsResult,
   findVariantsBySentenceIdsInDb,
 } from '../application/repository/variant-repository'
 import { StatusCodes } from 'http-status-codes'
 
-const { promisify } = require('util')
-const Transcoder = require('stream-transcoder')
 const { Converter } = require('ffmpeg-stream')
-const { Readable, PassThrough } = require('stream')
-const mp3Duration = require('mp3-duration')
-const calcMp3Duration = promisify(mp3Duration)
+const { Readable } = require('stream')
 
 enum ERRORS {
   MISSING_PARAM = 'MISSING_PARAM',
   CLIP_NOT_FOUND = 'CLIP_NOT_FOUND',
   SENTENCE_NOT_FOUND = 'SENTENCE_NOT_FOUND',
   ALREADY_EXISTS = 'ALREADY_EXISTS',
+  AUDIO_CORRUPT = 'AUDIO_CORRUPT',
+  RECORDING_TOO_LONG = 'RECORDING_TOO_LONG',
 }
 
 /**
@@ -70,8 +81,36 @@ export default class Clip {
       }
     )
 
-    router.post('/:clipId/votes', this.saveClipVote)
-    router.post('*', this.saveClip)
+    // Voting is fast (listen + click)
+    // Fast voter: ~10 votes/minute = 600/hour
+    // But if audio is bad, they may vote faster to get a new clip
+    // => Rate limiting for clip voting: ~900 votes/hour
+    router.post(
+      '/:clipId/votes',
+      rateLimiter('clips/vote', {
+        points: 150, // 150 votes
+        duration: 600, // per 10 minutes (900/hour max)
+        blockDuration: 300, // Block for 5 minutes
+      }),
+      this.saveClipVote
+    )
+
+    // Rate limiting for clip recording: Account for retries (bad NW)/headroom and batch submissions
+    // Usual scripter sends 1 per second, so we must set it below that.
+    // Flow: 25 sentences loaded => record 5 => submit 5
+    // Recording: 1-15 sec/clip (avg 5sec) + UI time => 10sec/clip
+    // Batch of 5 clips: ~50 seconds
+    // 5 batches (25 clips): ~4+ minutes
+    // => Allow 70 uploads per 10 minutes (7 uploads/minute, 420 uploads/hour < 600))
+    router.post(
+      '*',
+      rateLimiter('clips/record', {
+        points: 70, // 70 uploads
+        duration: 600, // per 10 minutes
+        blockDuration: 300, // Block for 5 minutes
+      }),
+      this.saveClip
+    )
 
     router.get('/daily_count', this.serveDailyCount)
     router.get('/stats', this.serveClipsStats)
@@ -97,7 +136,9 @@ export default class Clip {
     fingerprint: string,
     type: 'vote' | 'clip'
   ) {
-    const compiledError = `save_${type}_error: ${fingerprint}: ${msg}`
+    const compiledError = msg
+      ? `save_${type}_error: ${fingerprint}: ${msg}`
+      : `save_${type}_error: ${fingerprint}`
     response.status(status).send(compiledError)
 
     Sentry.withScope(scope => {
@@ -117,25 +158,19 @@ export default class Clip {
   }
 
   saveClipVote = async (
-    {
-      session: {
-        user: { client_id },
-      },
-      body,
-      params,
-      headers,
-    }: Request,
+    { session: { user }, body, params, headers }: Request,
     response: Response
   ) => {
+    const client_id = user.client_id // Guaranteed by middleware
     const id = params.clipId as string
     const { isValid, challenge } = body
 
-    if (!id || !client_id) {
+    if (!id) {
       this.clipSaveError(
         headers,
         response,
         400,
-        `missing parameter: ${id ? 'client_id' : 'clip_id'}`,
+        'missing parameter: clip_id',
         ERRORS.MISSING_PARAM,
         'vote'
       )
@@ -163,26 +198,26 @@ export default class Clip {
     // move it to the last line and leave a trace here in case of serious performance issues
     // response.json(ret);
 
-    Basket.sync(client_id).catch(e => console.error(e))
+    // Basket.sync(client_id).catch(e => console.error(e)) // Commented out: currently bulk-mail facility is not supported
     const ret = challengeTokens.includes(challenge)
       ? {
-        glob: glob,
-        showFirstContributionToast: await earnBonus('first_contribution', [
-          challenge,
-          client_id,
-        ]),
-        hasEarnedSessionToast: await hasEarnedBonus(
-          'invite_contribute_same_session',
-          client_id,
-          challenge
-        ),
-        showFirstStreakToast: await earnBonus('three_day_streak', [
-          client_id,
-          client_id,
-          challenge,
-        ]),
-        challengeEnded: await this.model.db.hasChallengeEnded(challenge),
-      }
+          glob: glob,
+          showFirstContributionToast: await earnBonus('first_contribution', [
+            challenge,
+            client_id,
+          ]),
+          hasEarnedSessionToast: await hasEarnedBonus(
+            'invite_contribute_same_session',
+            client_id,
+            challenge
+          ),
+          showFirstStreakToast: await earnBonus('three_day_streak', [
+            client_id,
+            client_id,
+            challenge,
+          ]),
+          challengeEnded: await this.model.db.hasChallengeEnded(challenge),
+        }
       : { glob }
     response.json(ret)
   }
@@ -193,21 +228,20 @@ export default class Clip {
    * to be easily parsed from other errors
    */
   saveClip = async (request: Request, response: Response) => {
-    // default the client_id to null if it is not present in the session.user object
-    // so that a 400 is returned below
     const { headers } = request
-    const client_id = request?.session?.user?.client_id
-    const sentenceId = headers['sentence-id'] as string || headers.sentence_id as string // TODO: Remove the second case in August 2025
+    const client_id = request.session.user.client_id // Guaranteed by middleware
+    const sentenceId =
+      (headers['sentence-id'] as string) || (headers.sentence_id as string) // TODO: Remove the second case in August 2025
     const source = headers.source || 'unidentified'
     const format = headers['content-type']
     const size = headers['content-length']
 
-    if (!sentenceId || !client_id) {
+    if (!sentenceId) {
       this.clipSaveError(
         headers,
         response,
         400,
-        `missing parameter: ${sentenceId ? 'client_id' : 'sentence_id'}`,
+        'missing parameter: sentence_id',
         ERRORS.MISSING_PARAM,
         'clip'
       )
@@ -233,7 +267,51 @@ export default class Clip {
     const clipFileName = folder + filePrefix + '.mp3'
     const metadata = `${clipFileName} (${size} bytes, ${format}) from ${source}`
 
+    // LazySetCache deduplication: Track successful uploads per user for 6 hours
+    // Uses per-user SET to efficiently store uploaded sentence IDs
+    // Each addition automatically extends the expiry time
+    const userUploadsKey = `clip-uploads:${client_id}`
+
+    try {
+      // Check if this sentence was already uploaded by this user using Redis SISMEMBER
+      const isDuplicateUpload = await LazySetCache.isMember(
+        userUploadsKey,
+        sentenceId
+      )
+
+      if (isDuplicateUpload) {
+        // Already uploaded - return 409 (handled gracefully on frontend)
+        if (process.env.NODE_ENV !== 'production') {
+          console.log(
+            `[saveClip] Duplicate upload (cached): ${client_id}/${sentenceId}`
+          )
+        }
+        response.status(409).send(ERRORS.ALREADY_EXISTS)
+        return
+      }
+    } catch (cacheError) {
+      // Cache unavailable - fail open (allow upload to proceed)
+      console.warn(
+        '[saveClip] LazySetCache unavailable for deduplication:',
+        cacheError
+      )
+    }
+
     if (await this.model.db.clipExists(client_id, sentenceId)) {
+      // Clip already exists in database but not in Redis LazySetCache
+      // This catches cases where:
+      // 1. Redis LazySetCache expired (>6h since last upload)
+      // 2. Redis is down/unavailable
+      // 3. User gets same sentence and clip exists in DB
+      // NOTE: This check happens BEFORE upload/transcode, preventing wasted resources
+
+      // Track for monitoring but don't spam Sentry (handled gracefully on frontend)
+      if (process.env.NODE_ENV !== 'production') {
+        console.log(
+          `[saveClip] Duplicate detected (DB exists, Redis LazySetCache miss): ${client_id}/${sentenceId}`
+        )
+      }
+
       this.clipSaveError(
         headers,
         response,
@@ -246,43 +324,128 @@ export default class Clip {
     } else {
       let audioInput = request
 
-      if (getConfig().FLAG_BUFFER_STREAM_ENABLED && format.includes('aac')) {
+      // Handle AAC/MP4 formats from iOS devices
+      // MP4 containers need special handling due to moov atom positioning
+      const isAAC = format && (format.includes('aac') || format.includes('mp4'))
+
+      if (getConfig().FLAG_BUFFER_STREAM_ENABLED && isAAC) {
         // aac data comes wrapped in an mpeg container, which is incompatible with
         // ffmpeg's piped stream functions because the moov bit comes at the end of
         // the stream, at which point ffmpeg can no longer seek back to the beginning
         // createBufferedInputStream will create a local file and pipe data in as
         // a file, which doesn't lose the seek mechanism
+        console.log(
+          `[saveClip] AAC/MP4-Using buffered input: ${format} for ${clipFileName}`
+        )
 
         const converter = new Converter()
         const audioStream = Readable.from(request)
 
         audioInput = converter.createBufferedInputStream()
         audioStream.pipe(audioInput)
+      } else if (isAAC) {
+        console.log(
+          `[saveClip] AAC/MP4-FLAG_BUFFER_STREAM_ENABLED=false: ${format} for ${clipFileName}`
+        )
       }
 
-      const pass = new PassThrough()
+      let transcodeJob: Mp3TranscodeJob | null = null
+      let durationInMs = 0
 
-      let chunks: any = []
+      const abortHandler = () => {
+        transcodeJob?.abort()
+        request.removeListener('aborted', abortHandler)
+      }
 
-      pass.on('error', (error: string) => {
-        this.clipSaveError(
-          headers,
-          response,
-          500,
-          `${error}`,
-          `ffmpeg ${error}`,
-          'clip'
+      request.on('aborted', abortHandler)
+
+      try {
+        if (process.env.NODE_ENV !== 'production') {
+          console.log(`[saveClip] Starting transcode for ${metadata}`)
+        }
+        transcodeJob = await createMp3TranscodeJob(audioInput)
+
+        // We need to buffer to memory during transcode, validate, then upload
+        const chunks: Buffer[] = []
+        transcodeJob.outputStream.on('data', chunk => {
+          chunks.push(chunk as Buffer)
+        })
+
+        // Start duration probe immediately (consume stream in parallel)
+        const durationPromise = transcodeJob.durationSeconds.catch(
+          (err): null => {
+            console.error(
+              '[saveClip] Failed to determine clip duration with ffprobe:',
+              err
+            )
+            return null
+          }
         )
-        return
-      })
-      pass.on('data', function (chunk: any) {
-        chunks.push(chunk)
-      })
-      pass.on('finish', async () => {
-        const buffer = Buffer.concat(chunks)
-        const durationInSec = await calcMp3Duration(buffer)
 
-        console.log(`clip written to s3 ${metadata}`)
+        // Wait for transcode AND duration probe to complete
+        // This validates the audio is not corrupt before uploading
+        const [, durationInSec] = await Promise.all([
+          transcodeJob.transcodeCompleted,
+          durationPromise,
+        ])
+
+        if (process.env.NODE_ENV !== 'production') {
+          console.log(
+            `[saveClip] Transcode validated (duration: ${durationInSec}s), starting upload: ${clipFileName}`
+          )
+        }
+
+        // Calculate duration for DB
+        durationInMs =
+          durationInSec != null && Number.isFinite(durationInSec)
+            ? Math.round(durationInSec * 1000)
+            : 0
+
+        // Validate duration (frontend has 15 second limit + 2s headroom)
+        // Very long durations indicate a problem with the audio or corruption
+        if (durationInMs > MAX_RECORDING_MS_WITH_HEADROOM) {
+          console.error(
+            `[saveClip] Recording too long: ${durationInMs}ms (max ${MAX_RECORDING_MS_WITH_HEADROOM}ms)`
+          )
+          const error = new Error(ERRORS.RECORDING_TOO_LONG) as Error & {
+            duration?: number
+          }
+          error.duration = durationInMs
+          throw error
+        }
+
+        // Passed all validations
+        // Now we can upload the buffered data
+        const bufferedData = Buffer.concat(chunks)
+        const uploadStream = Readable.from([bufferedData])
+
+        const uploadTask = pipe(
+          streamUploadToBucket(getConfig().CLIP_BUCKET_NAME),
+          (
+            fn: (
+              path: string
+            ) => (stream: NodeJS.ReadableStream) => TE.TaskEither<Error, void>
+          ) => fn(clipFileName)(uploadStream)
+        )
+
+        const uploadResult = await pipe(
+          uploadTask,
+          TE.fold(
+            (err: Error) => {
+              console.error('[saveClip] Upload to storage failed:', err)
+              return T.of(Promise.reject(err))
+            },
+            () => {
+              return T.of(Promise.resolve())
+            }
+          )
+        )().then(p => p)
+
+        await uploadResult // Throw if upload failed
+
+        console.log(`[saveClip] Upload successful: ${clipFileName}`)
+
+        transcodeJob = null
 
         await this.model.saveClip({
           client_id: client_id,
@@ -290,72 +453,129 @@ export default class Clip {
           original_sentence_id: sentenceId,
           path: clipFileName,
           sentence: sentence.text,
-          duration: durationInSec * 1000,
-        })
-        await Awards.checkProgress(client_id, { id: sentence.locale_id })
-
-        await checkGoalsAfterContribution(client_id, {
-          id: sentence.locale_id,
+          duration: durationInMs,
         })
 
-        Basket.sync(client_id).catch(e => console.error(e))
+        // Store success in LazySetCache (6 hour TTL) for deduplication
+        // Per-user SET stores all uploaded sentence IDs
+        // Auto-extends expiry on each addition (rolling 6h window)
+        try {
+          await LazySetCache.addSingleWithExpiry(
+            userUploadsKey,
+            sentenceId,
+            6 * TimeUnits.HOUR // 6 hours per user's request
+          )
+        } catch (cacheError) {
+          // Non-critical - Cache unavailable
+          console.warn(
+            '[saveClip] LazySetCache unavailable for success caching:',
+            cacheError
+          )
+        }
 
+        // FAST RESPONSE: Send immediately after DB insert (reduces timeout window)
+        // Background processing of awards/bonuses prevents VPN/firewall drops
+        if (!response.headersSent) {
+          response.json({ filePrefix })
+        }
+
+        // Process awards and bonuses in background (don't block response)
         const challenge = headers.challenge as ChallengeToken
-        const ret = challengeTokens.includes(challenge)
-          ? {
-            filePrefix: filePrefix,
-            showFirstContributionToast: await earnBonus(
-              'first_contribution',
-              [challenge, client_id]
-            ),
-            hasEarnedSessionToast: await hasEarnedBonus(
-              'invite_contribute_same_session',
-              client_id,
-              challenge
-            ),
-            // can't simply reduce the number of the calls to DB through streak_days in checkGoalsAfterContribution()
-            // since the the streak_days may start before the time when user set custom_goals, check to win bonus for each contribution
-            showFirstStreakToast: await earnBonus('three_day_streak', [
-              client_id,
-              client_id,
-              challenge,
-            ]),
-            challengeEnded: await this.model.db.hasChallengeEnded(challenge),
-          }
-          : { filePrefix }
-        response.json(ret)
-      })
+        Promise.all([
+          Awards.checkProgress(client_id, { id: sentence.locale_id }),
+          checkGoalsAfterContribution(client_id, { id: sentence.locale_id }),
+          // Bonus queries only if challenge token present
+          challengeTokens.includes(challenge)
+            ? Promise.all([
+                earnBonus('first_contribution', [challenge, client_id]),
+                hasEarnedBonus(
+                  'invite_contribute_same_session',
+                  client_id,
+                  challenge
+                ),
+                earnBonus('three_day_streak', [
+                  client_id,
+                  client_id,
+                  challenge,
+                ]),
+                this.model.db.hasChallengeEnded(challenge),
+              ])
+            : Promise.resolve([false, false, false, true]),
+        ]).catch(err => {
+          console.error(
+            '[saveClip] Background award/bonus processing failed:',
+            err
+          )
+          Sentry.captureException(err, {
+            tags: { context: 'background-bonus-processing' },
+            extra: { client_id, sentenceId, challenge },
+          })
+        })
 
-      try {
-        const audioOutput = new Transcoder(audioInput)
-          .audioCodec('mp3')
-          .format('mp3')
-          .channels(1)
-          .sampleRate(32000)
-          .stream()
-          .pipe(pass)
-
-        await pipe(
-          streamUploadToBucket,
-          Id.ap(getConfig().CLIP_BUCKET_NAME),
-          Id.ap(clipFileName),
-          Id.ap(audioOutput),
-          TE.getOrElse((err: Error) => T.of(console.log(err)))
-        )()
+        // Basket.sync(client_id).catch(e => console.error(e)) // Commented out: currently bulk-mail facility is not supported
       } catch (err) {
-        console.error('Failed transcoding step with error:', err)
+        transcodeJob?.abort(err instanceof Error ? err : undefined)
+        console.error('[saveClip] Clip save failed:', err)
+
+        if (!response.headersSent) {
+          const error = err as Error & {
+            isCorruption?: boolean
+            duration?: number
+          }
+          const message =
+            err instanceof Error ? err.message : String(err ?? 'Unknown error')
+
+          // Check error type using flags (set in try block above)
+          if (message === ERRORS.RECORDING_TOO_LONG) {
+            this.clipSaveError(
+              headers,
+              response,
+              422,
+              `Recording too long: ${error.duration}ms (max ${MAX_RECORDING_MS}ms)`,
+              ERRORS.RECORDING_TOO_LONG,
+              'clip'
+            )
+          } else if (message === ERRORS.AUDIO_CORRUPT || error.isCorruption) {
+            // Audio corruption - client data issue (422 Unprocessable Entity)
+            this.clipSaveError(
+              headers,
+              response,
+              422,
+              'Audio data is corrupted or invalid',
+              ERRORS.AUDIO_CORRUPT,
+              'clip'
+            )
+          } else {
+            // Server error (500 Internal Server Error)
+            const fingerprint = message
+              .replace(/0x[0-9a-f]+/gi, '<addr>')
+              .replace(
+                /in stream (\d+):\s*\d+\s*>=\s*\d+/g,
+                'in stream $1: <var>'
+              )
+              .trim()
+
+            this.clipSaveError(
+              headers,
+              response,
+              500,
+              'FFmpeg processing failed',
+              fingerprint,
+              'clip'
+            )
+          }
+        }
+      } finally {
+        request.removeListener('aborted', abortHandler)
       }
     }
   }
 
   serveRandomClips = async (request: Request, response: Response) => {
-    const { client_id } = request?.session?.user || {}
+    const client_id = request.session.user.client_id // Guaranteed by middleware
     const { locale } = request.params
-
-    if (!client_id) {
-      return response.sendStatus(StatusCodes.BAD_REQUEST)
-    }
-    const ignoreClientVariant = Boolean(request.query.ignoreClientVariant) || false
+    const ignoreClientVariant =
+      Boolean(request.query.ignoreClientVariant) || false
     const count = Number(request.query.count) || 1
     const clips = await this.bucket
       .getRandomClips(client_id, locale, count, ignoreClientVariant)
@@ -412,14 +632,30 @@ export default class Clip {
     }
     const { locale } = request.params
     const cursor = this.getCursorFromQuery(request)
-    const leaderboard = await getLeaderboard({
-      dashboard: 'stats',
-      type: 'clip',
-      client_id,
-      cursor,
-      locale: locale,
-    })
-    response.json(leaderboard)
+
+    try {
+      const leaderboard = await getLeaderboard({
+        dashboard: 'stats',
+        type: 'clip',
+        client_id,
+        cursor,
+        locale: locale,
+      })
+      response.json(leaderboard)
+    } catch (error) {
+      // Handle case where data is being refreshed by another pod
+      if (
+        error instanceof Error &&
+        error.name === 'DataRefreshInProgressError'
+      ) {
+        return response.status(StatusCodes.SERVICE_UNAVAILABLE).json({
+          error: 'REFRESH_IN_PROGRESS',
+          message: error.message,
+        })
+      }
+      // Re-throw other errors to be handled by Express error handler
+      throw error
+    }
   }
 
   serveVoteLeaderboard = async (request: Request, response: Response) => {
@@ -432,14 +668,30 @@ export default class Clip {
     const { locale } = request.params
 
     const cursor = this.getCursorFromQuery(request)
-    const leaderboard = await getLeaderboard({
-      dashboard: 'stats',
-      type: 'vote',
-      client_id,
-      cursor,
-      locale: locale,
-    })
-    response.json(leaderboard)
+
+    try {
+      const leaderboard = await getLeaderboard({
+        dashboard: 'stats',
+        type: 'vote',
+        client_id,
+        cursor,
+        locale: locale,
+      })
+      response.json(leaderboard)
+    } catch (error) {
+      // Handle case where data is being refreshed by another pod
+      if (
+        error instanceof Error &&
+        error.name === 'DataRefreshInProgressError'
+      ) {
+        return response.status(StatusCodes.SERVICE_UNAVAILABLE).json({
+          error: 'REFRESH_IN_PROGRESS',
+          message: error.message,
+        })
+      }
+      // Re-throw other errors to be handled by Express error handler
+      throw error
+    }
   }
 
   private getCursorFromQuery(request: Request) {

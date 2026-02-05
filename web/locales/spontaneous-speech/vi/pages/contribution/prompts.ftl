@@ -4,6 +4,8 @@ record-player-header = Ghi âm phản hồi của bạn
 mic-access-error = Bạn cần cho phép truy cập micrô.
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon></micIcon> và phản hồi tự nhiên nhất có thể
+# Message which appears when there are no more resources on this page
+no-prompts-continue-skipped-message = Không còn câu hỏi nào cho ngôn ngữ này. Nếu bạn đã bỏ qua bất kỳ câu hỏi nào, bạn có thể tiếp tục với nội dung đã bỏ qua hoặc chuyển sang phần phiên âm âm thanh và thử lại sau.
 error-skipping = Đã xảy ra lỗi khi bỏ qua yêu cầu này
 error-recording = Đã xảy ra lỗi khi đang ghi âm
 error-fetching-prompts = Đã xảy ra sự cố khi truy xuất yêu cầu. Vui lòng thử lại sau.
@@ -25,4 +27,6 @@ learn-how-to-use-prompts-guidance = Nhấp vào <guidanceLink>đây</guidanceLin
 learn-how-to-use-transcribe = Tìm hiểu cách phiên âm
 learn-how-to-use-transcribe-explanation = Viết lại chính xác những gì người đó nói, gồm cả các từ đệm như 'ừm' hoặc 'ờ'.
 learn-how-to-use-transcribe-guidance = Nhấp vào <guidanceLink>đây</guidanceLink> để tìm hiểu cách sử dụng trang này
+learn-how-to-use-check-transcript = Tìm hiểu cách kiểm tra một bản chép lời
+learn-how-to-use-check-transcript-explanation = Bản chép lời phải ghi lại mọi từ hoặc âm thanh hội thoại không phải từ vựng mà người đó nói ra, bao gồm cả những từ lặp lại.
 learn-how-to-use-check-transcript-guidance = Nhấp vào <guidanceLink>đây</guidanceLink> để tìm hiểu cách sử dụng trang này

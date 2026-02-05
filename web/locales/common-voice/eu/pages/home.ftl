@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = Lagun gaitzazu kalitatezko datu-sorta ireki bat sortzen
 sign-up-account = Sortu kontu bat
-email-subscription-title = harpidetu newletterrera
-email-subscription-title-new = Eman izena Common Voice-ren buletin, helburuen abisu eta aurrerapenen eguneraketak jasotzeko
 
 ## Account Benefits
 

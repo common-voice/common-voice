@@ -12,6 +12,7 @@ abq = ئابازا
 ace = ئاچېھچە
 ady = ئادىگېيچە
 af = جەنۇبىي ئافرىقا تىلى
+aii = سۈرەت
 ajg = ئادجا
 aln = گېگچە ئالبانىيە
 am = ئامخاراچە
@@ -121,6 +122,7 @@ giz = گۇيزىگا
 gjk = كاچخى
 gju = گۇجارى
 gl = گالىتسىيانچە
+glk = گىلاكى
 gn = گۇئارانىچە
 gom = كونكانىچە
 gos = گرونىڭس
@@ -133,6 +135,7 @@ gwt = گاۋاربائىتى
 gya = غەربىي شىمال گبايا
 ha = خائۇساچە
 hac = گورانى
+hak = خاككا
 haz = خازارگى
 hch = ۋىكسارىكا
 he = ئىبرانىچە
@@ -190,6 +193,7 @@ kw = كورنىشچە
 kxp = ۋادىيارا كولى
 ky = قىرغىزچە
 kzi = كېلابىت
+laj = لانگو
 lb = لىيۇكسېمبۇرگچە
 led = لېندۇ
 leu = كارا
@@ -278,6 +282,7 @@ os = ئوسسېتىنچە
 pa-IN = پەنجابچە
 pap = پاپىئامېنتو
 pap-AW = پاپىيامەنتۇچە
+pau = پالائۇئان
 pcd = پىكارد
 pcm = نىگېرىيە پىدگىن ئىنگلىزچە
 pez = شەرقىي پېنان
@@ -348,6 +353,7 @@ sr = سېربچە
 ss = سىۋاتىچە
 ssi = سانسى
 st = جەنۇبىي سوتوچە
+su = سۇندانېس
 sv-SE = شۋېدچە
 sva = سۋان
 sw = سىۋالىچە
@@ -376,6 +382,7 @@ ts = سونگاچە
 tt = تاتارچە
 ttj = رۇتورو
 tui = تۇپۇرى
+tum = تۇمبۇكا
 tvu = تۇنېن
 tw = تىۋىچە
 ty = تاختىچە
@@ -470,3 +477,24 @@ languages-donate-banner-cta = <mark>Common Voice نى ئىشلىتىپ</mark><br
 languages-donate-banner-cta-explanation = Common Voice خەير-ساخاۋەت ۋە ئىئانىگە تايىنىدۇ! بىز ئاكادېمىيە، پۇقرالار جەمئىيىتى ۋە كەسپىي تەتقىقاتچىلار بىلەن ھەمكارلىشىشنى ياقتۇرىمىز. Common Voice نى ھەقسىز ئىشلەتكىلى بولىدۇ ئەمما سۇپا ۋە مۇلازىمېتىر چىقىمىغا ھەسسە قوشۇشىڭىزغا ھەقىقەتەن ئېھتىياجلىق.
 localization-select =
     .label = تىل/يەرلىكلەشتۈرۈش تاللىنىدۇ
+
+## MDC Announcement
+
+# Main text for MDC announcement. Text wrapped in <strong></strong> will be rendered with bold font
+announcement-mdc-text = <strong>يېڭى Common Voice سانلىق مەلۇمات توپلىمى</strong>نى ھازىر قېرىنداش سۇپىمىز Mozilla سانلىق مەلۇمات كوللېكتىپى چۈشۈرۈش بىلەن تەمىنلەيدۇ. قوشۇلۇپ 300+ دۇنياۋى سانلىق مەلۇمات توپلىمىغا ئېرىشىڭ، ئۇلارنىڭ ھەممىسىنى جامائەت قۇرۇپ جامائەت يۈرگۈزىدۇ.
+# Button text for MDC announcement
+announcement-mdc-button-text = Mozilla سانلىق مەلۇمات كوللېكتىپىغا قوشۇلۇڭ
+# Aria text for button which opens MDC on a new page
+announcement-mdc-button-aria-text = يېڭى بەتكۈچتە ئاچ
+
+## Common Language/Dataset Selector & SearchBox Related
+
+searchbox-default-placeholder = ئىزدە…
+searchbox-default-aria-label = ئىزدە
+dropdown-no-results = ماس كەلگىنى تېپىلمىدى
+# Common Voice Dataset=Language search box
+dataset-searchbox-label = كۆرسىتىش ۋە ساندان توپلىمىنىڭ تىلىنى ئۆزگەرتىدۇ
+dataset-searchbox-placeholder = تىل ئىزدە…
+dataset-searchbox-aria-label = تىل ئىزدە
+dataset-search-no-results = ماس كېلىدىغان تىل تېپىلمىدى
+request-new-language = يېڭى تىل تەلەپ قىلىڭ

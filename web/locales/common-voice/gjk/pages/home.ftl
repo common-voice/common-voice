@@ -50,8 +50,6 @@ x-years-short =
     }
 help-make-dataset = امارِي ايڪ آلا معيار عوامِي طور ماٿيَ کُلل ڍيٽاسيٽ ٺاۿيا مان مۮت ڪرو
 sign-up-account = اڪائونٽ ۿارُو سائينَ اپ ڪرو
-email-subscription-title = اِي ميل اپ ڍيٽ ۿارُو سائينَ اپ ڪرو
-email-subscription-title-new = ڪامنَ وائيس نا نيوز ليٽر ۿارُو، گول نِي ياڌگيرِي ۿارُو انين ترقِي نِي اپ ڍيٽ ۿارُو سائينَ اپ ڪرو
 
 ## Account Benefits
 
@@ -135,7 +133,6 @@ answer = جواٻ
 
 ## Community section
 
-community-section-title = عالمِي ڀِراڌرِيان نِي طرڦ ٿِي طاقتور عالمِي ڀراڌرِي ڀِراڌريان ۿارُو 130 ٻولِيُون وڌتِيون زائيَ سي ريون۔
 join-discord-community = ڍِسڪورڍ ڀِراڌرِي مان شامِل ٿائو
 # label for button
 join-discord-community-action = ڍُسڪورڍ ماٿيَ امان ٿِي مِلو

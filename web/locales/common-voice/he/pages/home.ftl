@@ -45,8 +45,6 @@ x-years-short =
     }
 help-make-dataset = מזמינים אותך לבנות מערך נתונים איכותי ופתוח לציבור
 sign-up-account = יצירת חשבון
-email-subscription-title = הרשמה לעדכונים בדוא״ל
-email-subscription-title-new = מומלץ להירשם לעלון המידע, לתזכורות ולעדכוני ההתקדמות של Common Voice
 
 ## Account Benefits
 

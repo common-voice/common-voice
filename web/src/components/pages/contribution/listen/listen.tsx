@@ -108,6 +108,10 @@ class ListenPage extends React.Component<Props, State> {
   state: State = initialState
   demoMode = this.props.location.pathname.includes(URLS.DEMO)
 
+  // try to disable double clicks/taps
+  private playLockDurationMs = 600 // mobile devices already introduce ~300 ms lag
+  private isPlayLocked = false
+
   static getDerivedStateFromProps(props: Props, state: State) {
     const unvalidatedClips = state.clips.filter(
       clip => clip.isValid === null
@@ -140,19 +144,49 @@ class ListenPage extends React.Component<Props, State> {
     return this.state.clips.findIndex(clip => clip.isValid === null)
   }
 
-  private play = () => {
+  private play = async () => {
+    if (this.isPlayLocked) return // Prevent during lock period
+    // if really playing, stop
     if (this.state.isPlaying) {
       this.stop()
       return
     }
 
-    this.audioRef.current.play()
-    this.setState({ isPlaying: true })
-    clearInterval(this.playedSomeInterval)
-    this.playedSomeInterval = setInterval(
-      () => this.setState({ hasPlayedSome: true }),
-      VOTE_NO_PLAY_MS
-    )
+    // No attached audio or failing audio (bad file/codec?)
+    const audio = this.audioRef.current
+    if (!audio) return
+
+    // Set lock for 500ms
+    this.isPlayLocked = true
+    setTimeout(() => {
+      this.isPlayLocked = false
+    }, this.playLockDurationMs)
+
+    try {
+      // Reset current time if at the end
+      if (audio.currentTime >= audio.duration) {
+        audio.currentTime = 0
+      }
+
+      // Make sure the promise returns (playing starts)
+      await audio.play()
+
+      // Only update state if play() succeeded
+      this.setState({ isPlaying: true })
+
+      clearInterval(this.playedSomeInterval)
+      this.playedSomeInterval = setInterval(
+        () => this.setState({ hasPlayedSome: true }),
+        VOTE_NO_PLAY_MS
+      )
+    } catch (error) {
+      // Handle specific abort error silently, log others
+      if (error.name !== 'AbortError') {
+        console.error('Error playing audio:', error)
+      }
+      // Ensure state reflects actual playing status
+      this.setState({ isPlaying: false })
+    }
   }
 
   private stop = () => {
@@ -162,12 +196,20 @@ class ListenPage extends React.Component<Props, State> {
       audio.currentTime = 0
       clearInterval(this.playedSomeInterval)
       this.setState({ isPlaying: false })
+      this.isPlayLocked = false
     }
   }
 
   private hasPlayed = () => {
     this.setState({ hasPlayed: true, isPlaying: false })
     trackGtag('listen-clip', { locale: this.props.locale })
+  }
+
+  private isValidClipIndex = (
+    clipIndex: number,
+    clips: ClipType[]
+  ): boolean => {
+    return clipIndex >= 0 && clipIndex < clips.length && !!clips[clipIndex]
   }
 
   private vote = (isValid: boolean) => {
@@ -183,8 +225,14 @@ class ListenPage extends React.Component<Props, State> {
     } = this.props
     const clipIndex = this.getClipIndex()
 
+    // Guard against invalid clip index
+    if (clipIndex < 0 || clipIndex >= clips.length || !clips[clipIndex]) {
+      console.error('Invalid clip index:', clipIndex)
+      return
+    }
+
     this.stop()
-    this.props.vote(isValid, this.state.clips[this.getClipIndex()].id)
+    this.props.vote(isValid, clips[clipIndex].id)
 
     try {
       sessionStorage.setItem('challengeEnded', JSON.stringify(challengeEnded))
@@ -222,6 +270,7 @@ class ListenPage extends React.Component<Props, State> {
       // Each user can only get once.
       api.setInviteContributeAchievement()
     }
+    clearInterval(this.playedSomeInterval)
     this.setState({
       hasPlayed: false,
       hasPlayedSome: false,
@@ -250,14 +299,30 @@ class ListenPage extends React.Component<Props, State> {
     trackGtag('vote-no', { locale: this.props.locale })
   }
 
-  private handleSkip = () => {
+  private handleSkip = async () => {
     const { removeClip, api } = this.props
     const { clips } = this.state
-    this.stop()
-    api.skipClip(clips[this.getClipIndex()].id)
-    removeClip(clips[this.getClipIndex()].id)
+    const clipIndex = this.getClipIndex()
 
-    trackGtag('skip-clip', { locale: this.props.locale })
+    // Guard against invalid clip index
+    if (!this.isValidClipIndex(clipIndex, clips)) {
+      console.error('Invalid clip index for skip:', clipIndex)
+      return
+    }
+
+    this.stop()
+    const clipId = clips[clipIndex].id
+
+    try {
+      await api.skipClip(clipId)
+      removeClip(clipId)
+
+      trackGtag('skip-clip', { locale: this.props.locale })
+    } catch (error) {
+      console.error('Failed to skip clip:', error)
+      // Even if API call fails, still remove from UI for better UX
+      removeClip(clipId)
+    }
 
     let replacementSet = [...clips]
 
@@ -323,9 +388,12 @@ class ListenPage extends React.Component<Props, State> {
           {!isSubmitted && (
             <NavigationPrompt
               when={() => {
-                const isUnvalidatedClips = clips.some(
-                  clip => clip.isValid !== null
-                )
+                // Only show warning if there are clips loaded AND votes that haven't been submitted yet
+                // After submission (isSubmitted=true), user can safely refresh
+                const isUnvalidatedClips =
+                  !isSubmitted &&
+                  clips.length > 0 &&
+                  clips.some(clip => clip.isValid !== null)
 
                 if (isUnvalidatedClips) {
                   this.setAbortContributionModalVisiblity(true)
@@ -431,7 +499,7 @@ class ListenPage extends React.Component<Props, State> {
                 />
               </>
             }
-            pills={clips.map(
+            pills={(clips || []).map(
               ({ isValid }, i) =>
                 (props: ContributionPillProps) => {
                   const isVoted = isValid !== null
@@ -464,10 +532,13 @@ class ListenPage extends React.Component<Props, State> {
                 'different-language',
               ],
               kind: 'clip',
-              id: activeClip ? activeClip.id : null,
+              id: activeClip?.id ?? null,
               locale,
             }}
-            sentences={clips.map(clip => clip.sentence)}
+            sentences={(clips || [])
+              // Clip.sentence is always defined per type definition
+              // Array length MUST match pills array for correct UI alignment
+              .map(clip => clip.sentence)}
             shortcuts={[
               {
                 key: 'shortcut-play-toggle',

@@ -47,8 +47,6 @@ x-years-short =
     }
 help-make-dataset = Hjálpaðu okkur að byggja upp opið hágæða gagnasafn handa almenningi.
 sign-up-account = Skráðu þig fyrir reikningi
-email-subscription-title = skráðu þig fyrir fréttum í tölvupósti
-email-subscription-title-new = Skráðu þig til að fá fréttabréf Samróms, áminningar um markmið og upplýsingar um framvindu
 
 ## Account Benefits
 

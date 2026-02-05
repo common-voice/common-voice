@@ -23,7 +23,6 @@ report-button = Гузориш додан
 skip-button = Нодида гузарондан
 submit-button = Пешниҳод кардан
 contribute = Саҳм гузоштан
-request-new-language = Дархости забони нав
 # Button text which appears when there are no more resources
 continue-with-skipped = Бо «Нодида гузаронидан» идома диҳед
 
@@ -32,8 +31,10 @@ continue-with-skipped = Бо «Нодида гузаронидан» идома 
 question = Савол
 validate = Тасдиқ кардан
 respond-to-prompt = Ба дархост ҷавоб додан
+respond-to-prompt-mobile = Ҷавоб додан
 transcribe = Табдил додан
 check-transcriptions = Тафтиш кардани овонависӣ
+check-transcriptions-mobile = Бознигарӣ
 
 ## Not Found Page
 
@@ -41,11 +42,9 @@ not-found-page-header = Ёфт нашуд
 not-found-page-content = Сафҳае, ки шумо меҷӯед, пайдо нашуд
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Ма бо <termsLink>Шартҳо</termsLink> ва <privacyLink>Огоҳномаи махфияти</privacyLink> лоиҳаи «Common Voice» розӣ ҳастам
-# Locales (not yet fully resolved in Pontoon)
-meh = Миштекии тлахиакии ҷануби ғарбӣ
-mel = Меланауи марказӣ
 # Locales-Variants
 ms-MY = Бахаса Малай
+el-CY = Юнони кипрӣ
 
 ## Language search component
 

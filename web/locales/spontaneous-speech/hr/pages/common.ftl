@@ -23,7 +23,6 @@ report-button = Prijavi
 skip-button = Preskoči
 submit-button = Pošalji
 contribute = Doprinesi
-request-new-language = Zatraži novi jezik
 # Button text which appears when there are no more resources
 continue-with-skipped = Nastavi s preskočenima
 

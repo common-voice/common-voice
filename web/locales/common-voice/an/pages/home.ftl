@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = Aduya-nos a fer una base de datos d'alta calidad y accesible pa toz
 sign-up-account = Rechistra-te y crea una cuenta
-email-subscription-title = rechistra-te pa recibir información per correu
-email-subscription-title-new = Suscríbete a lo boletín de noticias, a los recordatorios y actualizacions de progreso de Common Voice
 
 ## Account Benefits
 
@@ -120,7 +118,6 @@ add-text = Anyadir texto
 
 ## Community section
 
-community-section-title = Creau per comunidaz globals pa las comunidaz globals —130 idiomas, y creixendo!
 join-discord-community = Une-te a la comunidat de Discord
 # label for button
 join-discord-community-action = Une-te a nusatros en Discord

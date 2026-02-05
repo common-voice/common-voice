@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = یارمەتیمان بدە لە بنیاتنانی داتاسێتێکی کوالێتیی بەرز و کراوە
 sign-up-account = ناونووسی بکە بۆ هەژماری خۆت
-email-subscription-title = ناونووسی بۆ نوێکردنەوە لەڕێگای پۆستی ئەلیکترۆنی
-email-subscription-title-new = خۆت ناونووس بکە بۆ هەواڵنامە، وەبیرهێنەرەوە و پێشکەوتنت لە پڕۆژەی دەنگی گشتی
 
 ## Account Benefits
 

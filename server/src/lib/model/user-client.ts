@@ -294,7 +294,7 @@ async function updateVariants(clientId: string, languages: UserLanguage[]) {
           clientId,
           variantRow.variant_id,
           variantRow.locale_id,
-          preferred.is_preferred_option || 0,
+          preferred.is_preferred_option ? 1 : 0,
         ]
       }) //format array so query can insert multiple
       await db.query(

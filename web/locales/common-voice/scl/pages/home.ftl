@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = اسوڑے جکوکاری ہوں لیگی لاؤ سم ڈیٹا سیٹ سنیونو ساتی بو
 sign-up-account = اکاؤنڈیک وشیا
-email-subscription-title = ای میل نئی تھیونو سائن اپ تھے
-email-subscription-title-new = تھیئیے کروم گہ سانچو مشے ،کامن وائس کاری سائن اپ تھے
 
 ## Account Benefits
 
@@ -120,7 +118,6 @@ add-text = کَچٹ تھِتی /لِکھِیتی یو تھے
 
 ## Community section
 
-community-section-title = دُنیاتو کمیونیٹِئیے سے یَجارینائیے، دُنیاتو کمیونیٹِیو کاری  — 130 باشی گہ بَسکیئے گہ!
 join-discord-community = ڈِسکاڑڈ کَمیونِیٹی نی یو بو
 # label for button
 join-discord-community-action = ڈِسکارڈینی اسو ساتی یو بو

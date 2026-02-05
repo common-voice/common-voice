@@ -96,6 +96,7 @@ answer-questions-tip-6 = Hold din lydstyrke ensartet - råb eller syng ikke
 transcribe-the-audio = Transskriber lyden
 transcribe-the-audio-subheader-1 = Generel vejledning
 transcribe-the-audio-subheader-2 = Tal og akronymer
+transcribe-the-audio-subheader-3 = Særlige tags
 
 ## Review the Transcription
 

@@ -8,6 +8,10 @@ import * as Sentry from '@sentry/react'
 import { User } from '../../../stores/user'
 import StateTree from '../../../stores/tree'
 import URLS from '../../../urls'
+import {
+  useFeature,
+  useFeatureContextLoaded,
+} from '../../../contexts/feature-context'
 import { localeConnector, LocalePropsFromState } from '../../locale-helpers'
 import {
   CameraIcon,
@@ -26,6 +30,7 @@ import DownloadProfile from './download/download'
 import { ApiCredentials } from './api-credentials'
 
 import './layout.css'
+import { Spinner } from '../../ui/ui'
 
 const SentryRoute = Sentry.withSentryRouting(Route)
 
@@ -36,6 +41,9 @@ interface PropsFromState {
 interface Props extends LocalePropsFromState, PropsFromState {}
 
 const Layout = ({ toLocaleRoute, user }: Props) => {
+  const isFeaturePapi = useFeature('papi-credentials')
+  const featuresReady = useFeatureContextLoaded()
+
   const [
     infoRoute,
     avatarRoute,
@@ -51,6 +59,11 @@ const Layout = ({ toLocaleRoute, user }: Props) => {
     URLS.PROFILE_DOWNLOAD,
     URLS.PROFILE_API_CREDENTIALS,
   ].map(r => toLocaleRoute(r))
+
+  if (!featuresReady) {
+    return <Spinner />
+  }
+
   return (
     <div className="profile-layout">
       <div className="profile-nav">
@@ -63,7 +76,7 @@ const Layout = ({ toLocaleRoute, user }: Props) => {
                 : { icon: <UserPlusIcon />, id: 'build-profile' }),
             },
             { route: avatarRoute, icon: <CameraIcon />, id: 'avatar' },
-            {
+            isFeaturePapi && {
               route: apiCredentialsRoute,
               icon: <CodeIcon />,
               id: 'api-credentials',
@@ -80,6 +93,7 @@ const Layout = ({ toLocaleRoute, user }: Props) => {
               id: 'download-profile',
             },
           ]
+            .filter(Boolean)
             .slice(0, user.account ? Infinity : 1)
             .map(({ route, icon, id }) => (
               <NavLink key={route} to={route}>
@@ -99,17 +113,22 @@ const Layout = ({ toLocaleRoute, user }: Props) => {
             { route: prefRoute, Component: Settings },
             { route: deleteRoute, Component: DeleteProfile },
             { route: downloadRoute, Component: DownloadProfile },
-            { route: apiCredentialsRoute, Component: ApiCredentials },
-          ].map(({ route, Component }) => (
-            <SentryRoute
-              key={route}
-              exact
-              path={route}
-              render={() =>
-                user.account ? <Component /> : <Redirect to={infoRoute} />
-              }
-            />
-          ))}
+            isFeaturePapi && {
+              route: apiCredentialsRoute,
+              Component: ApiCredentials,
+            },
+          ]
+            .filter(Boolean)
+            .map(({ route, Component }) => (
+              <SentryRoute
+                key={route}
+                exact
+                path={route}
+                render={() =>
+                  user.account ? <Component /> : <Redirect to={infoRoute} />
+                }
+              />
+            ))}
           <SentryRoute
             render={() => <Redirect to={toLocaleRoute(URLS.PROFILE_INFO)} />}
           />

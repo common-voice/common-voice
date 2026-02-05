@@ -24,7 +24,8 @@ const db = getMySQLInstance()
 
 const DUPLICATE_KEY_ERR = 1062
 const BATCH_SIZE = 1000
-const VARIANT_SENTENCE_LIMIT = 1000
+const VARIANT_SENTENCE_BATCH = 1000 // Randomize this much
+const VARIANT_SENTENCE_LIMIT = 500 // Return this much
 
 export type SaveSentence = (
   sentenceSubmission: SentenceSubmission
@@ -64,7 +65,12 @@ const insertSentenceTransaction = async (
         INSERT INTO sentences (id, text, source, locale_id)
         VALUES (?, ?, ?, ?);
       `,
-      [sentenceId, sentence.sentence, cleanText(sentence.source), sentence.locale_id]
+      [
+        sentenceId,
+        sentence.sentence,
+        cleanText(sentence.source),
+        sentence.locale_id,
+      ]
     )
 
     await conn.query(
@@ -434,10 +440,10 @@ export const findVariantSentences: FindVariantSentences = (
     ? [
         variant.locale,
         variant.id,
-        VARIANT_SENTENCE_LIMIT,
+        VARIANT_SENTENCE_BATCH,
         VARIANT_SENTENCE_LIMIT,
       ]
-    : [variant.locale, VARIANT_SENTENCE_LIMIT, VARIANT_SENTENCE_LIMIT]
+    : [variant.locale, VARIANT_SENTENCE_BATCH, VARIANT_SENTENCE_LIMIT]
   return pipe(
     params,
     queryDb(`
@@ -450,7 +456,7 @@ export const findVariantSentences: FindVariantSentences = (
           WHERE
             is_used
             AND s.locale_id = (SELECT id FROM locales WHERE name = ?)
-            AND clips_count <= 15
+            AND clips_count < 15
             AND ${
               sentencesWithVariant
                 ? 'sm.variant_id = ?'

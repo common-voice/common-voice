@@ -43,8 +43,7 @@ x-years-short =
     }
 help-make-dataset = Axúdenos a construír un conxunto de datos públicos abertos de alta calidade
 sign-up-account = Rexístrese para obter unha conta
-email-subscription-title = Rexístrese para recibir actualizacións por correo
-email-subscription-title-new = Subscríbase aos boletíns de información, aos recordatorios de obxectivos e actualizacións de progreso de Common Voice
+email-subscription-title-v3 = Rexístrese para recibir actualizacións de Common Voice e Mozilla Foundation
 
 ## Account Benefits
 
@@ -129,14 +128,18 @@ answer = Responda
 
 ## Community section
 
-community-section-title = Impulsado por comunidades globais, para comunidades globais — xa en 130 linguas e cada día máis!
+community-section-title-202601 = Creado por comunidades de todo o mundo para comunidades de todo o mundo: xa en 290 linguas e sumando máis cada día.
 join-discord-community = Únase á nosa comunidade en Discord!
 # label for button
 join-discord-community-action = Unirse a Discord
 join-discord-community-content = Participe nos debates da súa comunidade lingüística, faga preguntas e infórmese sobre os próximos eventos e charlas.
 find-us-on-matrix = Estamos en Matrix
+find-us-on-matrix-content-v2 = Matrix é un protocolo aberto e lixeiro para a comunicación descentralizada en tempo real, e a plataforma preferida de Mozilla para conversas abertas. Estamos na sala "common-voice:mozilla.org".
+# label for button
+find-us-on-element-action-1 = Elemento
+find-us-on-matrix-action-2 = Outros clientes
 ask-mozilla-share = Comparta os seus eventos con Mozilla
-ask-mozilla-share-content = Ten un evento próximo ou xa celebrado? Compártao connosco e anunciámolo á nosa comunidade ou escribiremos sobre el no noso  blog.
+ask-mozilla-share-content = Ten un evento próximo ou xa celebrado? Compártao connosco e anunciámolo á nosa comunidade ou escribiremos sobre el no noso blog.
 # label for button
 ask-mozilla-share-action = Compartir o seu evento
 download-contribution-certificate = Descargue o seu certificado de contribución
@@ -152,7 +155,7 @@ contribute-github-action = Contribuír en GitHub
 
 featured-section-title = Destacado en...
 # icon is an arrow that points downwards
-download-press-pack = Descarga o noso paquete de prensa <icon></icon>
+download-press-pack = Descargue o noso paquete de prensa <icon></icon>
 
 ## Developers section
 

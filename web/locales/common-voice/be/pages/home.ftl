@@ -46,8 +46,6 @@ x-years-short =
     }
 help-make-dataset = Дапамажыце нам стварыць якасны, адкрыты набор дадзеных
 sign-up-account = Зарэгістраваць акаўнт
-email-subscription-title = падпісацца на абнаўленні
-email-subscription-title-new = Падпісацца на навіны ад Common Voice, напаміны аб мэтах і паведамленні пра дасягненні.
 
 ## Account Benefits
 

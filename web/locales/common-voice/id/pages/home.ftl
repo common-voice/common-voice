@@ -41,8 +41,6 @@ x-years-short =
     }
 help-make-dataset = Bantu kami membangun himpunan data yang terbuka untuk umum dan berkualitas tinggi
 sign-up-account = Daftarkan akun
-email-subscription-title = berlangganan pemberitahuan melalui surel
-email-subscription-title-new = Daftar untuk nawala, pengingat target, dan pembaruan progres Common Voice
 
 ## Account Benefits
 

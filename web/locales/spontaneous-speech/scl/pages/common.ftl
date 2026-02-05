@@ -31,8 +31,5 @@ not-found-page-header = ہتے نے آلی/ آلو
 not-found-page-content = تُو سے اُڈاریوں ہانک پٹو ہتے نے آلو۔
 # Privacy and Terms checkbox
 accept-privacy-and-terms = موسے کامن وائیسو <termsLink>شراطی</termsLink> گہ <privacyLink> سِریئیو موجی منے موس۔
-# Locales (not yet fully resolved in Pontoon)
-meh = جنوب مغربی  ٹیلیسیاکو مِکسٹیک/ Tlaxiaco Mixtec
-mel = مجینو (وسطی) میلانو
 # Locales-Variants
 ms-MY = بہاسا مالے

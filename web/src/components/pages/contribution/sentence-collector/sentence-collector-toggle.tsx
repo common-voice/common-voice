@@ -13,9 +13,17 @@ import { WriteSubmissionToggleOptions } from './write/write-container'
 type Props = {
   onToggle: (option: WriteSubmissionToggleOptions) => void
   activeOption: WriteSubmissionToggleOptions
+  hasBulkUploadFeature?: boolean
 }
 
-const toggleOptions = ['single', 'small-batch', 'bulk'] as const
+const getToggleOptions = (
+  hasBulkUploadFeature: boolean
+): readonly WriteSubmissionToggleOptions[] => {
+  if (hasBulkUploadFeature) {
+    return ['single', 'small-batch', 'bulk'] as const
+  }
+  return ['single', 'small-batch'] as const
+}
 
 const getContributionIcon = ({
   option,
@@ -36,39 +44,44 @@ const getContributionIcon = ({
 const SentenceCollectorToggle: React.FC<Props> = ({
   onToggle,
   activeOption,
-}) => (
-  <div className="sc-toggle" data-testid="sc-toggle">
-    {toggleOptions.map((option, index) => (
-      <React.Fragment key={option}>
-        <div
-          className={classNames('toggle-option', {
-            active: activeOption === option,
-          })}>
-          {getContributionIcon({ option, isActive: activeOption === option })}
-          <>
-            <Localized id={`${option}-sentence-submission`}>
-              <TextButton
-                className="toggle-option hidden-md-down"
-                data-testid={`${option}-option`}
-                onClick={() => onToggle(option)}
-              />
-            </Localized>
-            <Localized id={`${option}-sentence`}>
-              <TextButton
-                className="toggle-option hidden-lg-up"
-                onClick={() => onToggle(option)}
-              />
-            </Localized>
-          </>
-        </div>
-        {index === toggleOptions.length - 1 ? (
-          <></>
-        ) : (
-          <span className="divider" />
-        )}
-      </React.Fragment>
-    ))}
-  </div>
-)
+  hasBulkUploadFeature = false,
+}) => {
+  const toggleOptions = getToggleOptions(hasBulkUploadFeature)
+
+  return (
+    <div className="sc-toggle" data-testid="sc-toggle">
+      {toggleOptions.map((option, index) => (
+        <React.Fragment key={option}>
+          <div
+            className={classNames('toggle-option', {
+              active: activeOption === option,
+            })}>
+            {getContributionIcon({ option, isActive: activeOption === option })}
+            <>
+              <Localized id={`${option}-sentence-submission`}>
+                <TextButton
+                  className="toggle-option hidden-md-down"
+                  data-testid={`${option}-option`}
+                  onClick={() => onToggle(option)}
+                />
+              </Localized>
+              <Localized id={`${option}-sentence`}>
+                <TextButton
+                  className="toggle-option hidden-lg-up"
+                  onClick={() => onToggle(option)}
+                />
+              </Localized>
+            </>
+          </div>
+          {index === toggleOptions.length - 1 ? (
+            <></>
+          ) : (
+            <span className="divider" />
+          )}
+        </React.Fragment>
+      ))}
+    </div>
+  )
+}
 
 export default SentenceCollectorToggle

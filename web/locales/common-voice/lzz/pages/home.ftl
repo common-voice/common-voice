@@ -28,7 +28,7 @@ all-locales = İri/ Mteli
 today = Andğa
 x-weeks-short =
     { $count ->
-        [one] Xaft̆a
+        [one] Xafta
        *[other] { $count }wk
     }
 x-months-short =
@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = Çku mağala ǩalitete, iris goncameri ar dataset̆i getzopxu şeni memişvelit.
 sign-up-account = Ar xesap̌i kogetzopxit
-email-subscription-title = E-posta oağanu şeni kodoliç̌arit.
-email-subscription-title-new = Common Voiceşi ambai bultenepes, gonoşinupes do ogzaloni ondğalurepes doliç̌arit.
 
 ## Account Benefits
 
@@ -70,3 +68,14 @@ username-email-not-demographic = Xmaroceşi Coxo do e-posta-tkvani gamişku data
 welcome-staff = { $company } personelişe ǩaite moxtit!
 login-company = { $company } e-posta adresite Amaxtit / Doliç̌arit
 read-more-about = Çkunişeni butkaşe dido-muşi iǩitxit
+
+## NAV ITEMS
+
+about-us = Çku Mi Boret (Şǩu Mi voret)
+
+## Community section
+
+# label for button
+find-us-on-element-action-1 = Elementi
+# label for button
+download-contribution-certificate-action = Sertifiǩa tkvani keç̌opit

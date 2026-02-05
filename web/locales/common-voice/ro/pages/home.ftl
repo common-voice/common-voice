@@ -46,8 +46,7 @@ x-years-short =
     }
 help-make-dataset = Ajută-ne să construim un set de date de înaltă calitate, disponibil tuturor.
 sign-up-account = Înscrie-te pentru un cont.
-email-subscription-title = Primește noutăți despre proiect prin e-mail
-email-subscription-title-new = Abonează-te pentru a primi buletine informative Common Voice, mementouri de obiective și actualizări despre progres.
+email-subscription-title-v3 = Înscrie-te pentru a primi noutăți despre Mozilla Foundation și proiectul Common Voice.
 
 ## Account Benefits
 
@@ -72,7 +71,7 @@ username-email-not-demographic = Numele tău de utilizator și adresa de e-mail 
 
 welcome-staff = Bun venit echipei companiei { $company }!
 help-contribute = Poți ajuta la crearea unui set de date divers, cu sursă deschisă, făcându-ți un profil Common Voice și înregistrând mai multe secvențe vocale.
-login-company = Autentifică-te / Înscrie-te cu adresa de e-mail a companiei { $company }
+login-company = Intră în cont / fă-ți un cont cu adresa de e-mail { $company }
 profile-not-required = Nu este necesar să ai un profil pentru a contribui, deși este util. Îți explicăm mai jos de ce.
 read-more-about = Află mai multe pe pagina Despre noi
 
@@ -132,12 +131,16 @@ answer = Vorbește liber
 
 ## Community section
 
-community-section-title = Suntem susținuți de și lucrăm pentru comunități de pretutindeni — am ajuns deja la 130 de limbi și nu ne oprim aici!
+community-section-title-202601 = Suntem susținuți de și lucrăm pentru comunități de pretutindeni — am ajuns deja la 290 de limbi și nu ne oprim aici!
 join-discord-community = Intră în comunitatea noastră de pe Discord
 # label for button
 join-discord-community-action = Contactează-ne pe Discord
 join-discord-community-content = Participă la discuții în comunitatea ta lingvistică, pune întrebări și află despre evenimentele și discuțiile viitoare.
 find-us-on-matrix = Contactează-ne pe Matrix
+find-us-on-matrix-content-v2 = Matrix reprezintă un protocol deschis pentru comunicare descentralizată în timp real. La ora actuală este platforma preferată de Mozilla pentru discuții deschise. Ne găsești în "common-voice:mozilla.org".
+# label for button
+find-us-on-element-action-1 = Element
+find-us-on-matrix-action-2 = Alți clienți
 ask-mozilla-share = Organizezi evenimente? Spune și echipei Mozilla!
 ask-mozilla-share-content = Ai organizat deja sau vei organiza un eveniment? Spune-ne și nouă pentru a-i anunța pe toți din comunitatea noastră. Putem scrie și o postare pe un blog despre evenimentul tău!
 # label for button

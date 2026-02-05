@@ -23,7 +23,6 @@ report-button = رپورٹ
 skip-button = سکپ
 submit-button = جمہ گرو
 contribute = حصہ گھِنو
-request-new-language = نیئ زیب سو درخواست
 
 ## Navbar
 
@@ -38,9 +37,6 @@ not-found-page-header = نہ ڇَو
 not-found-page-content = تُو چہ کاں صفحہ ٹنڈا ، نہ ڇاں بزہ
 # Privacy and Terms checkbox
 accept-privacy-and-terms = مہ راضی تھو عام اواز سو <termsLink> شرائط نو </termsLink> آ <privacyLink>  پردا سو نوٹس نو</privacyLink>
-# Locales (not yet fully resolved in Pontoon)
-meh = جنوب مغرب لیزیکو میکس ٹیک
-mel = سنٹرل میلانوا
 # Locales-Variants
 ms-MY = بَحاسہ مالے
 

@@ -5,6 +5,8 @@ dataset-label = Conjunt de dades
 accept-vote-toast-message = Pregunta acceptada correctament
 reject-vote-toast-message = Pregunta rebutjada correctament
 add-vote-error-message = S'ha produït un error en votar la petició
+# Message which appears when there are no more resources on this page
+no-questions-continue-skipped-message = No hi ha més preguntes per a aquest idioma. Si n'has omès alguna, pots continuar amb el contingut omès o anar a transcripció d'àudio i tornar-ho a intentar més tard.
 validate-page-yes-button-shortcut = S
 validate-page-no-button-shortcut = N
 validate-page-skip-button-shortcut = O

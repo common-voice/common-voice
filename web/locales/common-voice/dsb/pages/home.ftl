@@ -49,8 +49,7 @@ x-years-short =
     }
 help-make-dataset = Pomagajśo nam, zjawnje pśistupnu wótwórjonu datowu sajźbu wusokeje kwality napóraś
 sign-up-account = Konto załožyś
-email-subscription-title = Registrěrujśo se za e-mailowe aktualizacije
-email-subscription-title-new = Registrěrujśo se za powěsćowe listy Common Voice, celowe dopomnjeśa a póstupowe aktualizacije
+email-subscription-title-v3 = Registrěrujśo se za aktualizacije Common Voice a załožby Mozilla Foundation
 
 ## Account Benefits
 
@@ -135,7 +134,7 @@ answer = Wótegroniś
 
 ## Community section
 
-community-section-title = Pódprěte wót globalnych zgromaźeństwow za globalne zgromaźeństwa – 130 rěcow a pśiběrajuce!
+community-section-title-202601 = Pódprěte wót globalnych zgromaźeństwow za globalne zgromaźeństwa – 290 rěcow a pśiběrajuce!
 join-discord-community = Pśizamkniśo se zgromaźeństwoju Discord
 # label for button
 join-discord-community-action = &nbsp;Pśizamkniśo se nam na Discord

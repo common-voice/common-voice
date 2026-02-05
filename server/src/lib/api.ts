@@ -6,21 +6,27 @@ import { NextFunction, Request, Response, Router } from 'express'
 import * as sendRequest from 'request-promise-native'
 import { StatusCodes } from 'http-status-codes'
 import PromiseRouter from 'express-promise-router'
-const Transcoder = require('stream-transcoder')
+import {
+  createMp3TranscodeJob,
+  type Mp3TranscodeJob,
+} from './ffmpeg-transcoder'
 
-import { Sentence, UserClient as UserClientType } from 'common'
-import rateLimiter from './rate-limiter-middleware'
+import { FEATURES_COOKIE, Sentence, UserClient as UserClientType } from 'common'
+import rateLimiter from './middleware/rate-limiter-middleware'
 import { authMiddleware } from '../auth-router'
+import { RequireUserMiddleware } from './middleware/requireUserMiddleware'
+import { HandleFeatureMiddleware } from './middleware/handleFeatureMiddleware'
+import { RequireFeatureMiddleware } from './middleware/requireFeatureMiddleware'
 import { getConfig } from '../config-helper'
 import Awards from './model/awards'
 import CustomGoal from './model/custom-goal'
 import getGoals from './model/goals'
 import UserClient from './model/user-client'
-import * as Basket from './basket'
+// Basket import removed: bulk-mail facility not supported
 import Bucket from './bucket'
 import Clip from './clip'
 import Model from './model'
-import { APIError, ClientParameterError } from './utility'
+import { APIError } from './utility'
 import Email from './email'
 import Challenge from './challenge'
 import Takeout from './takeout'
@@ -61,6 +67,15 @@ import { LOCALES_PATH } from '../application/locales/use-case/query-handler/get-
 import { isProject } from '../core/types/project'
 import { projectSchema } from '../api/languages/validation/project-schema'
 import webhooksRouter from '../api/webhooks/routes'
+import { createMd5Hash } from '../infrastructure/crypto/crypto'
+
+type NewNewsletterResponse = {
+  message: string
+  data: {
+    email: string
+    newsletters: string[]
+  }
+}
 
 export default class API {
   model: Model
@@ -70,6 +85,9 @@ export default class API {
   statistics: Statistics
   private readonly bucket: Bucket
   readonly takeout: Takeout
+  private readonly requireUserMiddleware: RequireUserMiddleware
+  private readonly handleFeatureMiddleware: HandleFeatureMiddleware
+  private readonly requireFeatureMiddleware: RequireFeatureMiddleware
 
   constructor(model: Model) {
     this.model = model
@@ -79,108 +97,24 @@ export default class API {
     this.email = new Email()
     this.bucket = new Bucket(this.model)
     this.takeout = new Takeout(this.model.db.mysql, this.bucket)
+    this.requireUserMiddleware = new RequireUserMiddleware()
+    this.handleFeatureMiddleware = new HandleFeatureMiddleware()
+    this.requireFeatureMiddleware = new RequireFeatureMiddleware()
   }
 
   getRouter(): Router {
     const router = PromiseRouter()
 
     router.use(authMiddleware)
-    router.use('/webhooks', webhooksRouter)
-    router.get('/metrics', (request: Request, response: Response) => {
-      response.redirect('/')
-    })
 
-    router.get('/golem', (request: Request, response: Response) => {
-      response.redirect('/')
-    })
+    // Feature flag handling - should come early to set cookies
+    router.use(this.handleFeatureMiddleware.handle)
 
-    router.get('/job/:jobId', validate({ params: jobSchema }), this.getJob)
-    router.get('/user_clients', this.getUserClients)
-    router.post('/user_clients/:client_id/claim', this.claimUserClient)
-    router.get('/user_client', this.getAccount)
-    router.patch('/user_client', this.saveAccount)
-    router.patch(
-      '/anonymous_user',
-      validate({ body: anonUserMetadataSchema }),
-      // 1 requests per minute per IP address
-      rateLimiter('/anonymous_user', { points: 1, duration: 60 }),
-      this.saveAnonymousAccountLanguages
-    )
-    router.post(
-      '/user_client/avatar/:type',
-      bodyParser.raw({ type: 'image/*', limit: '300kb' }),
-      this.saveAvatar
-    )
-    router.post('/user_client/avatar_clip', this.saveAvatarClip)
-    router.get('/user_client/avatar_clip', this.getAvatarClip)
-    router.get('/user_client/delete_avatar_clip', this.deleteAvatarClip)
-    router.post('/user_client/:locale/goals', this.createCustomGoal)
-    router.get('/user_client/goals', this.getGoals)
-    router.get('/user_client/:locale/goals', this.getGoals)
-    router.post('/user_client/awards/seen', this.seenAwards)
-    router.get('/user_client/takeout', this.getTakeouts)
-    router.post('/user_client/takeout/request', this.requestTakeout)
-    router.post('/user_client/takeout/:id/links', this.getTakeoutLinks)
+    // Public endpoints (no authentication required)
+    router.use('/', this.getPublicRouter())
 
-    router.get('/language/accents/:locale?', this.getAccents)
-    router.get('/language/variants/:locale?', this.getVariants)
-    router.post(
-      '/language/request',
-      // 10 requests per minute
-      rateLimiter('/language/request', { points: 10, duration: 60 }),
-      validate({ body: sendLanguageRequestSchema }),
-      this.sendLanguageRequest
-    )
-    router.use('/statistics', this.statistics.getRouter())
-    router.use('/sentences', SentencesRouter)
-
-    router.get(
-      '/:locale/sentences',
-      validate({ query: sentenceSchema }),
-      this.getRandomSentences
-    )
-    router.post('/skipped_sentences/:id', this.createSkippedSentence)
-    router.post('/skipped_clips/:id', this.createSkippedClip)
-
-    router.use('/:locale?/clips', this.clip.getRouter())
-
-    router.get('/contribution_activity', this.getContributionActivity)
-    router.get('/:locale/contribution_activity', this.getContributionActivity)
-
-    router.get('/requested_languages', this.getRequestedLanguages)
-    router.post('/requested_languages', this.createLanguageRequest)
-
-    router.get(
-      '/available_languages',
-      validate({ query: projectSchema }),
-      this.getAvailableLanguages
-    )
-    router.get('/languages', this.getAllLanguages)
-    router.use('/languages/:locale', languagesRouter)
-    router.get('/stats/languages/', this.getLanguageStats)
-
-    router.get(
-      '/datasets',
-      validate({ query: datasetSchema }),
-      this.getAllDatasets
-    )
-    router.get('/datasets/languages', this.getAllLanguagesWithDatasets)
-
-    router.use('/datasets/languages', datasetRouter)
-
-    router.post('/newsletter/:email', this.subscribeToNewsletter)
-
-    router.post('/:locale/downloaders', this.insertDownloader)
-
-    router.use('/reports', reportsRouter)
-
-    router.use('/challenge', this.challenge.getRouter())
-
-    router.get('/bucket/:bucket_type/:path', this.getPublicUrl)
-    router.get('/server_date', this.getServerDate)
-
-    router.use('/:locale/bulk_submissions', bulkSubmissionsRouter)
-    router.use('/profiles', profilesRouter)
+    // Protected endpoints (authentication required)
+    router.use('/', this.getProtectedRouter())
 
     router.use('*', (request: Request, response: Response) => {
       response.sendStatus(404)
@@ -189,20 +123,422 @@ export default class API {
     return router
   }
 
-  getRandomSentences = async (request: Request, response: Response) => {
-    const { client_id } = request?.session?.user || {}
+  private getPublicRouter(): Router {
+    const router = PromiseRouter()
 
-    if (!client_id) {
+    //
+    // System & Health Check
+    //
+
+    // Health check endpoint for frontend feature flag detection
+    router.get('/ping', (request: Request, response: Response) => {
+      response.send('pong')
+    })
+
+    // Legacy redirect endpoints
+    router.get('/metrics', (request: Request, response: Response) => {
+      response.redirect('/')
+    })
+
+    router.get('/golem', (request: Request, response: Response) => {
+      response.redirect('/')
+    })
+
+    //
+    // Webhooks (External Service Integrations)
+    //
+
+    // Firefox Accounts event webhooks
+    router.use('/webhooks', webhooksRouter)
+
+    //
+    // User Account - login, signup, profil
+    // These are both for logged-in and not logged in users
+    // Protection is handled inside the handlers as needed
+    //
+
+    // Get current user account details - or null if not logged in
+    router.get('/user_client', this.getAccount)
+
+    // Get all user client accounts (for SSO users with multiple clients - return [] if not logged in)
+    router.get('/user_clients', this.getUserClients)
+
+    // Save language metadata for anonymous users (accent, variant)
+    // Body: languages array
+    router.patch(
+      '/anonymous_user',
+      validate({ body: anonUserMetadataSchema }),
+      rateLimiter('/anonymous_user', { points: 1, duration: 60 }),
+      this.saveAnonymousAccountLanguages
+    )
+
+    //
+    // Storage & File Access
+    //
+
+    // Get public URL for legacy dataset bucket files (feature-flagged)
+    // Params: bucket_type, path
+    // TODO: Consider to move this to protected router and add under user profile
+    router.get(
+      '/bucket/:bucket_type/:path',
+      rateLimiter('/bucket', { points: 10, duration: 60 }),
+      this.getPublicUrl
+    )
+
+    //
+    // Languages
+    //
+
+    // Get available language variants for a locale
+    // Params: locale (optional)
+    router.get('/language/variants/:locale?', this.getVariants)
+
+    // Submit request to add a new language to Common Voice
+    // Body: email, languageInfo, languageLocale, platforms
+    router.post(
+      '/language/request',
+      rateLimiter('/language/request', { points: 10, duration: 60 }),
+      validate({ body: sendLanguageRequestSchema }),
+      this.sendLanguageRequest
+    )
+
+    // Get list of all language requests
+    router.get('/requested_languages', this.getRequestedLanguages)
+
+    // Get available languages for a project (common-voice or spontaneous-speech)
+    // Query: project
+    router.get(
+      '/available_languages',
+      validate({ query: projectSchema }),
+      this.getAvailableLanguages
+    )
+
+    // Get combined language data (All coming from Pontoon, CV/SS/CS - active or not, with variants and predefined accents combined)
+    router.get('/languagedata/:locale?', this.getCombinedLanguageData)
+
+    // Get all available languages
+    router.get('/languages', this.getAllLanguages)
+
+    // Language-specific endpoints (translations, etc.)
+    router.use('/languages/:locale', languagesRouter)
+
+    //
+    // Statistics & Analytics
+    //
+
+    // Statistics endpoints (clips, speakers, downloads, etc.)
+    router.use('/statistics', this.statistics.getRouter())
+
+    // Get contribution activity statistics
+    // Query: from (optional - 'you' for user-specific)
+    router.get('/contribution_activity', this.getContributionActivity)
+    router.get('/:locale/contribution_activity', this.getContributionActivity)
+
+    // Get language-specific statistics
+    router.get('/stats/languages/', this.getLanguageStats)
+
+    //
+    // Datasets
+    //
+
+    // Get all datasets by release type
+    // Query: releaseType (singleword|delta|complete)
+    router.get(
+      '/datasets',
+      validate({ query: datasetSchema }),
+      this.getAllDatasets
+    )
+
+    // Get all languages that have published datasets
+    router.get('/datasets/languages', this.getAllLanguagesWithDatasets)
+
+    // Get dataset statistics for specific language
+    router.use('/datasets/languages', datasetRouter)
+
+    //
+    // Newsletter & Communication
+    //
+
+    // Subscribe email to Common Voice newsletter
+    // Params: email, Query: language
+    router.post('/newsletter/:email', this.subscribeToNewsletter)
+
+    // Track dataset downloads by locale
+    // Body: locale, email, dataset
+    router.post('/:locale/downloaders', this.insertDownloader)
+
+    //
+    // Challenges & Gamification
+    //
+
+    // Challenge-related endpoints (points, progress, leaderboards)
+    router.use('/challenge', this.challenge.getRouter())
+
+    //
+    // Utilities
+    //
+
+    // Get current server date/time (prevents client-side date manipulation)
+    router.get('/server_date', this.getServerDate)
+
+    return router
+  }
+
+  private getProtectedRouter(): Router {
+    const router = PromiseRouter()
+
+    // Apply authentication middleware once for all protected routes
+    router.use(this.requireUserMiddleware.handle)
+
+    //
+    // Background Jobs
+    //
+
+    // Get status of background job (e.g., avatar image upload)
+    // Params: jobId
+    router.get('/job/:jobId', validate({ params: jobSchema }), this.getJob)
+
+    //
+    // User Account Management
+    //
+
+    // Claim contributions from another client_id
+    // Params: client_id
+    router.post('/user_clients/:client_id/claim', this.claimUserClient)
+
+    // Update user account settings (email, username, visibility, etc.)
+    router.patch('/user_client', this.saveAccount)
+
+    //
+    // User Profile - Avatars
+    //
+
+    // Upload user avatar (file, gravatar, or default)
+    // Params: type (file|gravatar|default)
+    router.post(
+      '/user_client/avatar/:type',
+      bodyParser.raw({ type: 'image/*', limit: '300kb' }),
+      this.saveAvatar
+    )
+
+    // Upload voice avatar clip
+    router.post('/user_client/avatar_clip', this.saveAvatarClip)
+
+    // Get voice avatar clip URL
+    router.get('/user_client/avatar_clip', this.getAvatarClip)
+
+    // Delete voice avatar clip
+    router.get('/user_client/delete_avatar_clip', this.deleteAvatarClip)
+
+    //
+    // User Profile - Goals & Achievements
+    //
+
+    // Create custom contribution goal for a locale
+    // Params: locale, Body: goal details
+    router.post('/user_client/:locale/goals', this.createCustomGoal)
+
+    // Get user's global goals
+    router.get('/user_client/goals', this.getGoals)
+
+    // Get user's goals for specific locale
+    // Params: locale
+    router.get('/user_client/:locale/goals', this.getGoals)
+
+    // Mark awards/notifications as seen
+    // Query: notification (optional)
+    router.post('/user_client/awards/seen', this.seenAwards)
+
+    //
+    // User Profile - Data Takeout (GDPR)
+    //
+
+    // Get list of user's data takeout requests
+    router.get('/user_client/takeout', this.getTakeouts)
+
+    // Request new data takeout (limited to prevent abuse)
+    router.post('/user_client/takeout/request', this.requestTakeout)
+
+    // Get download links for completed takeout
+    // Params: id (takeout request ID)
+    router.post('/user_client/takeout/:id/links', this.getTakeoutLinks)
+
+    //
+    // User Profile - API Credentials
+    //
+
+    // API credentials management (under feature flag)
+    router.use('/profiles', profilesRouter)
+
+    //
+    // Languages (User-Specific)
+    //
+
+    // Get user's accent preferences for a locale
+    // Params: locale (optional)
+    router.get('/language/accents/:locale?', this.getAccents)
+
+    // Create a new language request
+    // Body: language
+    router.post('/requested_languages', this.createLanguageRequest)
+
+    //
+    // Sentences - Contribution
+    //
+
+    // Sentence submission and voting (rate-limited in sub-router)
+    router.use('/sentences', SentencesRouter)
+
+    // Bulk sentence submission (rate-limited in sub-router)
+    router.use('/:locale/bulk_submissions', bulkSubmissionsRouter)
+
+    // Get random sentences to record for a locale
+    // Params: locale, Query: count, ignoreClientVariant
+    router.get(
+      '/:locale/sentences',
+      validate({ query: sentenceSchema }),
+      this.getRandomSentences
+    )
+
+    // Mark sentence as skipped
+    // Params: id (sentence_id)
+    router.post('/skipped_sentences/:id', this.createSkippedSentence)
+
+    //
+    // Clips - Contribution & Validation
+    //
+
+    // Clip recording, validation, and statistics
+    router.use('/:locale?/clips', this.clip.getRouter())
+
+    // Mark clip as skipped during validation
+    // Params: id (clip_id)
+    router.post('/skipped_clips/:id', this.createSkippedClip)
+
+    //
+    // Content Moderation
+    //
+
+    // Report inappropriate content (clips, sentences)
+    router.use('/reports', reportsRouter)
+
+    return router
+  }
+
+  //
+  // Language
+  //
+
+  getRequestedLanguages = async (request: Request, response: Response) => {
+    response.json(await this.model.db.getRequestedLanguages())
+  }
+
+  createLanguageRequest = async (request: Request, response: Response) => {
+    const client_id = request.session.user.client_id // Guaranteed by middleware
+    const language = request?.body?.language
+    if (!language) {
+      return response.sendStatus(StatusCodes.BAD_REQUEST)
+    }
+    await this.model.db.createLanguageRequest(language, client_id)
+    response.json({})
+  }
+
+  getCombinedLanguageData = async (_request: Request, response: Response) => {
+    const locale = _request?.params?.locale
+    const allData = await this.model.getCombinedLanguageData()
+    if (!locale) {
+      return response.json(allData)
+    }
+    const languageData = allData.filter(ld => ld.code === locale)
+    if (languageData?.length === 1) {
+      return response.json(languageData[0])
+    }
+    response.sendStatus(StatusCodes.NOT_FOUND)
+  }
+
+  getAllLanguages = async (_request: Request, response: Response) => {
+    response.json(await this.model.getAllLanguages())
+  }
+
+  getAvailableLanguages = async (request: Request, response: Response) => {
+    const project = isProject(request?.query?.project)
+      ? request.query.project
+      : 'common-voice'
+    const availableLanguages = getFolderNames(
+      path.join(LOCALES_PATH, project)
+    )()
+    response.json({
+      project,
+      availableLanguages,
+    })
+  }
+
+  getAccents = async (request: Request, response: Response) => {
+    const client_id = request.session.user.client_id // Guaranteed by middleware
+    const locale = request?.params?.locale
+    response.json(await this.model.db.getAccents(client_id, locale || null))
+  }
+
+  getVariants = async ({ params }: Request, response: Response) => {
+    response.json(await this.model.db.getVariants(params?.locale || null))
+  }
+
+  sendLanguageRequest = async (
+    request: Request,
+    response: Response,
+    next: NextFunction
+  ) => {
+    const body = request?.body
+    const { email, languageInfo, languageLocale, platforms } = body
+    if (!body || !email || !languageInfo || !languageLocale || !platforms) {
       return response.sendStatus(StatusCodes.BAD_REQUEST)
     }
 
-    const { locale } = request.params
+    try {
+      const info = await this.email.sendLanguageRequestEmail({
+        email,
+        platforms,
+        languageInfo,
+        languageLocale,
+      })
+
+      const json = {
+        id: info?.messageId,
+        email,
+        platforms,
+        languageInfo,
+        languageLocale,
+      } as any // eslint-disable-line @typescript-eslint/no-explicit-any
+
+      if (info?.emailPreviewURL) {
+        json.emailPreviewURL = info?.emailPreviewURL
+      }
+
+      response.json(json)
+    } catch (e) {
+      console.error(e)
+      next(new Error('Something went wrong sending language request email'))
+    }
+  }
+
+  //
+  // Sentences
+  //
+
+  getRandomSentences = async (request: Request, response: Response) => {
+    const client_id = request.session.user.client_id // Guaranteed by middleware
+    const locale = request?.params?.locale
+
+    if (!locale) {
+      return response.sendStatus(StatusCodes.BAD_REQUEST)
+    }
+
     const localeId = await getLocaleId(locale)
 
     // the validator coerces count into a number but doesn't update the type
-    const count: number = (request.query.count as never) || 1
+    const count: number = parseInt(request?.query?.count as string) || 25
     const ignoreClientVariant: boolean =
-      Boolean(request.query.ignoreClientVariant) || false
+      Boolean(request?.query?.ignoreClientVariant) || false
 
     const userClientVariant = await pipe(
       client_id,
@@ -231,6 +567,8 @@ export default class API {
       )
 
     if (clientPrefersVariant) {
+      // we select max 500 sentences among max 1000 random ones
+      // Then drop what the user interacted with
       const getVariantSentences = pipe(
         getVariantSentencesToRecordQueryHandler,
         Id.ap(fetchSentenceIdsThatUserInteractedWith),
@@ -258,7 +596,8 @@ export default class API {
         )
       )()
 
-      return response.json(sentences)
+      // Finally return what is requested by count
+      return response.json(sentences.slice(0, count))
     }
 
     const sentences = await this.model.findEligibleSentences(
@@ -270,60 +609,33 @@ export default class API {
     response.json(sentences)
   }
 
-  getRequestedLanguages = async (request: Request, response: Response) => {
-    response.json(await this.model.db.getRequestedLanguages())
-  }
-
-  createLanguageRequest = async (request: Request, response: Response) => {
-    const { client_id } = request?.session?.user || {}
-    if (!client_id) {
-      return response.sendStatus(StatusCodes.BAD_REQUEST)
-    }
-    await this.model.db.createLanguageRequest(request.body.language, client_id)
-    response.json({})
-  }
-
   createSkippedSentence = async (request: Request, response: Response) => {
-    const {
-      session: {
-        user: { client_id },
-      },
-      params: { id },
-    } = request
-    if (!client_id) {
+    const client_id = request.session.user.client_id // Guaranteed by middleware
+    const sentence_id = request?.params?.id
+    if (!sentence_id) {
       return response.sendStatus(StatusCodes.BAD_REQUEST)
     }
-    await this.model.db.createSkippedSentence(id, client_id)
+    await this.model.db.createSkippedSentence(sentence_id, client_id)
     response.json({})
   }
+
+  //
+  // Clips
+  //
 
   createSkippedClip = async (request: Request, response: Response) => {
-    const {
-      session: {
-        user: { client_id },
-      },
-      params: { id },
-    } = request
-    await this.model.db.createSkippedClip(id, client_id)
+    const client_id = request.session.user.client_id // Guaranteed by middleware
+    const clip_id = request?.params?.id
+    if (!clip_id) {
+      return response.sendStatus(StatusCodes.BAD_REQUEST)
+    }
+    await this.model.db.createSkippedClip(clip_id, client_id)
     response.json({})
   }
 
-  getAllLanguages = async (_request: Request, response: Response) => {
-    response.json(await this.model.getAllLanguages())
-  }
-
-  getAvailableLanguages = async (req: Request, res: Response) => {
-    const project = isProject(req.query?.project)
-      ? req.query.project
-      : 'common-voice'
-    const availableLanguages = getFolderNames(
-      path.join(LOCALES_PATH, project)
-    )()
-    res.json({
-      project,
-      availableLanguages,
-    })
-  }
+  //
+  // Datasets
+  //
 
   getAllDatasets = async (request: Request, response: Response) => {
     const releaseType = request?.query?.releaseType as string
@@ -337,9 +649,10 @@ export default class API {
   }
 
   getLanguageDatasetStats = async (request: Request, response: Response) => {
-    const {
-      params: { languageCode },
-    } = request
+    const languageCode = request?.params?.languageCode
+    if (!languageCode) {
+      return response.sendStatus(StatusCodes.BAD_REQUEST)
+    }
     response.json(await this.model.getLanguageDatasetStats(languageCode))
   }
 
@@ -350,14 +663,20 @@ export default class API {
     response.json(await this.model.getAllLanguagesWithDatasets())
   }
 
+  //
+  // Statistics
+  //
+
   getLanguageStats = async (request: Request, response: Response) => {
     response.json(await this.model.getLanguageStats())
   }
 
-  getUserClients = async (
-    { session: { user } }: Request,
-    response: Response
-  ) => {
+  //
+  // Users
+  //
+
+  getUserClients = async (request: Request, response: Response) => {
+    const user = request?.session?.user
     if (!user) {
       response.json([])
       return
@@ -388,27 +707,29 @@ export default class API {
     response: Response
   ) => {
     const languages = request?.body?.languages
-    const client_id = request?.session?.user?.client_id
-    if (!client_id || !languages || languages.length === 0) {
+    const client_id = request.session.user.client_id // Guaranteed by middleware
+    if (!languages || languages.length === 0) {
       return response.sendStatus(StatusCodes.BAD_REQUEST)
     }
-    response.status(StatusCodes.CREATED).json(
-      await UserClient.saveAnonymousAccountLanguages(client_id, languages)
-    )
+    response
+      .status(StatusCodes.CREATED)
+      .json(
+        await UserClient.saveAnonymousAccountLanguages(client_id, languages)
+      )
   }
 
   saveAccount = async (request: Request, response: Response) => {
-    const {
-      body,
-      session: { user },
-    } = request
-    if (!user) {
-      throw new ClientParameterError()
+    const body = request?.body
+    const user = request.session.user // Guaranteed by middleware
+    if (!body) {
+      return response.sendStatus(StatusCodes.BAD_REQUEST)
     }
     response.json(await UserClient.saveAccount(user.email, body))
   }
 
-  getAccount = async ({ session: { user } }: Request, response: Response) => {
+  getAccount = async (request: Request, response: Response) => {
+    // This can be called without user in session
+    const user = request?.session?.user
     let userData = null
     if (user) {
       userData = await UserClient.findAccount(user.email)
@@ -428,47 +749,115 @@ export default class API {
     response: Response,
     next: NextFunction
   ) => {
-    const { BASKET_API_KEY } = getConfig()
-    if (!BASKET_API_KEY) {
-      const basketError = new APIError('Unable to process request')
-      next(basketError)
+    const email = request?.params?.email
+    if (!email) {
+      return response.sendStatus(StatusCodes.BAD_REQUEST)
+    }
+    const lang = request?.query?.language || 'en'
+
+    const sourceUrl = request.header('Referer')
+    const env = getConfig().ENVIRONMENT
+    const listUrl =
+      env === 'prod'
+        ? 'https://abdri3ttkb.execute-api.us-east-2.amazonaws.com/api/newsletter/commonvoicemozillaorg'
+        : ['sandbox', 'stage'].includes(env)
+        ? 'https://kmq73rfvbh.execute-api.us-east-2.amazonaws.com/api/newsletter/commonvoicemozillaorg'
+        : ''
+
+    if (listUrl === '') {
+      console.error(
+        'Newsletter subscription is not supported in local development.'
+      )
+      return response.status(StatusCodes.METHOD_NOT_ALLOWED).json({
+        error: 'Newsletter subscription is not supported in local development.',
+      })
     }
 
-    const { email } = request.params
-    const basketResponse = await sendRequest({
-      uri: Basket.BASKET_API_URL + '/news/subscribe/',
-      method: 'POST',
-      form: {
-        'api-key': BASKET_API_KEY,
-        newsletters: 'common-voice',
-        format: 'H',
-        lang: 'en',
-        email,
-        source_url: request.header('Referer'),
-        sync: 'Y',
-      },
-    })
-    const clientId = await UserClient.updateBasketToken(
-      email,
-      JSON.parse(basketResponse).token
-    )
-    await Basket.sync(clientId, true)
+    try {
+      // Make request to new API
+      // We don't collect name and country, so we don't pass them
+      // We get language from FE API call, 7-8 translated templates exist, with fallback to "en"
+      const listResponse = await fetch(listUrl, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          email: email,
+          lang: lang,
+          source_url: sourceUrl,
+        }),
+      })
 
-    response.json({})
+      // Parse the response body
+      const responseData: NewNewsletterResponse = await listResponse.json()
+
+      if (!listResponse.ok) {
+        // HTTP error (4xx, 5xx)
+        console.error(
+          '[Newsletter] API HTTP error:',
+          listResponse.status,
+          responseData
+        )
+
+        if (listResponse.status === 400) {
+          return response.status(StatusCodes.BAD_REQUEST).json({
+            error: `[Newsletter] Invalid request data: ${
+              responseData.message || ''
+            }`,
+          })
+        } else if (listResponse.status === 429) {
+          return response.status(StatusCodes.TOO_MANY_REQUESTS).json({
+            error: `[Newsletter] Too many subscription attempts: ${
+              responseData.message || ''
+            }`,
+          })
+        } else {
+          return response.status(listResponse.status).json({
+            error: `[Newsletter] Subscription failed: ${
+              responseData.message || ''
+            }`,
+          })
+        }
+      }
+      // Still handle it through our old basket system
+      // We temporarily have to use hash of the email returned from the newsletter API as token
+      // We check it everywhere in the codebase
+      // We dont get any token from the newsletter API directly, so we create a hash from the email
+      // It is 32 char, so we pad it with "mcv-"" to reach 36 char length of our basket tokens, also indicating its origin
+      const hash = createMd5Hash(email)
+
+      void (await UserClient.updateBasketToken(
+        email,
+        hash.padStart(36, 'mcv-')
+      ))
+      // await Basket.sync(clientId, true) // Commented out: bulk-mail facility not supported
+
+      // HTTP success (2xx)
+      console.debug('[Newsletter] Subscription successful.')
+      response.json({})
+    } catch (error) {
+      console.error('[Newsletter] Subscription failed:', error)
+
+      const apiError = new APIError(
+        '[Newsletter] Failed to subscribe to newsletter'
+      )
+      next(apiError)
+    }
   }
 
   saveAvatar = async (
-    {
-      body,
-      params,
-      session: { user },
-      session: {
-        user: { client_id },
-      },
-    }: Request,
+    request: Request,
     response: Response,
     next: NextFunction
   ) => {
+    const body = request?.body
+    const params = request?.params
+    const user = request.session.user // Guaranteed by middleware
+    const client_id = user.client_id
+    if (!body || !params) {
+      return response.sendStatus(StatusCodes.BAD_REQUEST)
+    }
     let avatarURL
     let error
     const { type: imageUploadType } = params
@@ -522,17 +911,28 @@ export default class API {
 
   // TODO: Check for empty or silent clips before uploading.
   saveAvatarClip = async (request: Request, response: Response) => {
-    const { session, headers } = request
-    const {
-      user,
-      user: { client_id },
-    } = session
+    const headers = request?.headers
+    const user = request.session.user // Guaranteed by middleware
+    const client_id = user.client_id
+    if (!headers) {
+      return response.sendStatus(StatusCodes.BAD_REQUEST)
+    }
+
     console.log(`VOICE_AVATAR: saveAvatarClip() called, ${client_id}`)
     const folder = client_id
     const clipFileName = folder + '.mp3'
+
+    let inputStream: NodeJS.ReadableStream | null = null
+    let transcodeJob: Mp3TranscodeJob | null = null
+    let shouldAttachAbortHandler = false
+
+    const abortHandler = () => {
+      transcodeJob?.abort()
+      request.removeListener('aborted', abortHandler)
+    }
+
     try {
       // If upload was base64, make sure we decode it first.
-      let transcoder
       if ((headers['content-type'] as string).includes('base64')) {
         // If we were given base64, we'll need to concat it all first
         // So we can decode it in the next step.
@@ -546,34 +946,63 @@ export default class API {
         })
         const passThrough = new PassThrough()
         passThrough.end(Buffer.from(Buffer.concat(chunks).toString(), 'base64'))
-        transcoder = new Transcoder(passThrough)
+        inputStream = passThrough
       } else {
         // For non-base64 uploads, we can just stream data.
-        transcoder = new Transcoder(request)
+        inputStream = request
+        shouldAttachAbortHandler = true
+        request.on('aborted', abortHandler)
       }
 
-      await pipe(
+      if (!inputStream) {
+        throw new Error('Missing avatar clip input stream')
+      }
+
+      if (request.aborted) {
+        throw new Error('Request aborted before transcoding started')
+      }
+
+      transcodeJob = await createMp3TranscodeJob(inputStream)
+
+      if (request.aborted) {
+        transcodeJob.abort()
+        throw new Error('Request aborted before transcoding started')
+      }
+
+      const uploadTask = pipe(
         streamUploadToBucket,
         Id.ap(getConfig().CLIP_BUCKET_NAME),
         Id.ap(clipFileName),
-        Id.ap(transcoder.audioCodec('mp3').format('mp3').stream()),
+        Id.ap(transcodeJob.outputStream),
         TE.getOrElse((e: Error) => T.of(console.log(e)))
       )()
+
+      await Promise.all([uploadTask, transcodeJob.transcodeCompleted])
+      transcodeJob = null
 
       await UserClient.updateAvatarClipURL(user.email, clipFileName)
 
       response.json(clipFileName)
     } catch (error) {
+      transcodeJob?.abort(error instanceof Error ? error : undefined)
       console.error(error)
-      response.statusCode = error.statusCode || 500
+      const statusCode =
+        error && typeof error === 'object' && 'statusCode' in error
+          ? Number((error as { statusCode?: number }).statusCode)
+          : undefined
+      response.statusCode = statusCode || 500
       response.statusMessage = 'save avatar clip error'
       response.json(error)
+    } finally {
+      if (shouldAttachAbortHandler) {
+        request.removeListener('aborted', abortHandler)
+      }
     }
   }
 
   getAvatarClip = async (request: Request, response: Response) => {
     try {
-      const { user } = request.session
+      const user = request.session.user // Guaranteed by middleware
       let path = await UserClient.getAvatarClipURL(user.email)
       path = path[0][0].avatar_clip_url
 
@@ -585,24 +1014,22 @@ export default class API {
   }
 
   deleteAvatarClip = async (request: Request, response: Response) => {
-    const { user } = request.session
+    const user = request.session.user // Guaranteed by middleware
     await UserClient.deleteAvatarClipURL(user.email)
     response.json('deleted')
   }
 
   getTakeouts = async (request: Request, response: Response) => {
-    const takeouts = await this.takeout.getClientTakeouts(
-      request.session.user.client_id
-    )
+    const client_id = request.session.user.client_id // Guaranteed by middleware
+    const takeouts = await this.takeout.getClientTakeouts(client_id)
     response.json(takeouts)
   }
 
   requestTakeout = async (request: Request, response: Response) => {
+    const client_id = request.session.user.client_id // Guaranteed by middleware
     try {
       // Throws if there is a pending takeout.
-      const takeout_id = await this.takeout.startTakeout(
-        request.session.user.client_id
-      )
+      const takeout_id = await this.takeout.startTakeout(client_id)
       response.json({ takeout_id })
     } catch (err) {
       response.status(StatusCodes.BAD_REQUEST).json(err.message)
@@ -610,12 +1037,11 @@ export default class API {
   }
 
   getTakeoutLinks = async (request: Request, response: Response) => {
-    const {
-      session: {
-        user: { client_id },
-      },
-      params: { id },
-    } = request
+    const client_id = request.session.user.client_id // Guaranteed by middleware
+    const id = request?.params?.id
+    if (!id) {
+      return response.sendStatus(StatusCodes.BAD_REQUEST)
+    }
     const links = await this.takeout.generateDownloadLinks(
       client_id,
       parseInt(id)
@@ -624,6 +1050,7 @@ export default class API {
   }
 
   getContributionActivity = async (req: Request, response: Response) => {
+    // all params are optional
     const { locale } = req.params
     const { client_id } = req?.session?.user || {}
     const { from } = req.query
@@ -636,64 +1063,115 @@ export default class API {
   }
 
   createCustomGoal = async (request: Request, response: Response) => {
-    const userId = request?.session?.user?.client_id
-    if (!userId)
-      return response
-        .status(StatusCodes.UNAUTHORIZED)
-        .json({ message: 'no user client id' })
+    const userId = request.session.user.client_id // Guaranteed by middleware
 
     await CustomGoal.create(userId, request.params.locale, request.body)
     response.json({})
-    Basket.sync(request.session.user.client_id).catch(e => console.error(e))
+    // Basket.sync(userId).catch(e => console.error(e)) // Commented out: bulk-mail facility not supported
   }
 
-  getGoals = async (req: Request, response: Response) => {
-    const { client_id } = req?.session?.user || {}
-    if (!client_id) {
-      return response.sendStatus(StatusCodes.BAD_REQUEST)
-    }
-    const { locale } = req.params
+  getGoals = async (request: Request, response: Response) => {
+    const client_id = request.session.user.client_id // Guaranteed by middleware
+    // locale is optional
+    const locale = request?.params?.locale
     return response.json({ globalGoals: await getGoals(client_id, locale) })
   }
 
-  claimUserClient = async (
-    {
-      session: {
-        user: { client_id },
-      },
-      params,
-    }: Request,
-    response: Response
-  ) => {
-    if (!(await UserClient.hasSSO(params.client_id)) && client_id) {
+  claimUserClient = async (request: Request, response: Response) => {
+    const client_id = request.session.user.client_id // Guaranteed by middleware
+    const params = request?.params
+    if (!(await UserClient.hasSSO(params.client_id))) {
       await UserClient.claimContributions(client_id, [params.client_id])
     }
     response.json({})
   }
 
-  insertDownloader = async ({ body }: Request, response: Response) => {
-    await this.model.db.insertDownloader(body.locale, body.email, body.dataset)
+  insertDownloader = async (request: Request, response: Response) => {
+    const locale = request?.body?.locale
+    const email = request?.body?.email
+    const dataset = request?.body?.dataset
+    if (!locale || !email || !dataset) {
+      return response.sendStatus(StatusCodes.BAD_REQUEST)
+    }
+    await this.model.db.insertDownloader(locale, email, dataset)
     response.json({})
   }
 
-  seenAwards = async (req: Request, response: Response) => {
-    const { client_id } = req?.session?.user || {}
-    if (!client_id) {
-      return response.sendStatus(StatusCodes.BAD_REQUEST)
-    }
+  seenAwards = async (request: Request, response: Response) => {
+    const client_id = request.session.user.client_id // Guaranteed by middleware
     await Awards.seen(
       client_id,
-      Object.prototype.hasOwnProperty.call(req.query, 'notification')
+      Object.prototype.hasOwnProperty.call(request.query, 'notification')
         ? 'notification'
         : 'award'
     )
     response.json({})
   }
 
-  getPublicUrl = async (
-    { params: { bucket_type, path } }: Request,
-    response: Response
-  ) => {
+  //
+  // Utilities
+  //
+
+  getPublicUrl = async (request: Request, response: Response) => {
+    const path = request?.params?.path
+    if (!path) {
+      return response.sendStatus(StatusCodes.BAD_REQUEST)
+    }
+
+    // Check for datasets-old feature flag
+    const { feature } = request.query
+    const features_cookie = request.cookies[FEATURES_COOKIE]
+    const features = features_cookie?.split(',') || []
+
+    const hasFeature =
+      features.includes('datasets-old') ||
+      (feature &&
+        (Array.isArray(feature)
+          ? (feature as string[]).includes('datasets-old')
+          : feature === 'datasets-old'))
+
+    if (!hasFeature) {
+      // Check if request is from a web browser (has Accept header with text/html)
+      const acceptHeader = request.get('Accept') || ''
+      const isWebBrowser = acceptHeader.includes('text/html')
+
+      if (isWebBrowser) {
+        // Redirect web browsers to MDC datasets
+        return response.redirect(
+          'https://datacollective.mozillafoundation.org/datasets?q=common+voice'
+        )
+      } else {
+        // Return error for scripts/API clients
+        return response.status(403).json({
+          message:
+            'This endpoint is no longer available. Please visit https://datacollective.mozillafoundation.org/datasets?q=common+voice to download datasets.',
+          error: 'Access restricted',
+        })
+      }
+    }
+
+    // Validate request origin to prevent unauthorized access
+    const referer = request.get('Referer') || request.get('Origin') || ''
+    const allowedOrigins = [
+      'https://commonvoice.mozilla.org', // production
+      'https://commonvoice.allizom.org', // staging + sandbox
+      'http://localhost',
+      'https://localhost',
+    ]
+
+    const isLegitimateOrigin = allowedOrigins.some(origin =>
+      referer.startsWith(origin)
+    )
+
+    if (!isLegitimateOrigin && referer) {
+      // If there's a referer but it's not from an allowed origin, reject the request
+      return response.status(403).json({
+        message: 'Access denied: Invalid origin',
+        error: 'Origin validation failed',
+      })
+    }
+
+    const bucket_type = request?.params?.bucket_type
     const url = await this.bucket.getPublicUrl(
       decodeURIComponent(path),
       bucket_type
@@ -701,16 +1179,12 @@ export default class API {
     response.json({ url })
   }
 
-  getJob = async (
-    {
-      session: {
-        user: { client_id },
-      },
-      params: { jobId },
-    }: Request,
-    response: Response,
-    next: NextFunction
-  ) => {
+  getJob = async (request: Request, response: Response, next: NextFunction) => {
+    const client_id = request.session.user.client_id // Guaranteed by middleware
+    const jobId = request?.params?.jobId
+    if (!jobId) {
+      return response.sendStatus(StatusCodes.BAD_REQUEST)
+    }
     try {
       const job = await NotificationQueue.getJob(jobId)
       //job is owned by current client
@@ -727,52 +1201,5 @@ export default class API {
   getServerDate = (request: Request, response: Response) => {
     // prevents contributors manipulating dates in client
     response.json(new Date())
-  }
-
-  getAccents = async (req: Request, response: Response) => {
-    const { client_id } = req?.session?.user || {}
-    if (!client_id) {
-      return response.sendStatus(StatusCodes.BAD_REQUEST)
-    }
-    const { locale } = req.params
-    response.json(await this.model.db.getAccents(client_id, locale || null))
-  }
-
-  getVariants = async ({ params }: Request, response: Response) => {
-    response.json(await this.model.db.getVariants(params?.locale || null))
-  }
-
-  sendLanguageRequest = async (
-    request: Request,
-    response: Response,
-    next: NextFunction
-  ) => {
-    const { email, languageInfo, languageLocale, platforms } = request.body
-
-    try {
-      const info = await this.email.sendLanguageRequestEmail({
-        email,
-        platforms,
-        languageInfo,
-        languageLocale,
-      })
-
-      const json = {
-        id: info?.messageId,
-        email,
-        platforms,
-        languageInfo,
-        languageLocale,
-      } as any // eslint-disable-line @typescript-eslint/no-explicit-any
-
-      if (info?.emailPreviewURL) {
-        json.emailPreviewURL = info?.emailPreviewURL
-      }
-
-      response.json(json)
-    } catch (e) {
-      console.error(e)
-      next(new Error('Something went wrong sending language request email'))
-    }
   }
 }

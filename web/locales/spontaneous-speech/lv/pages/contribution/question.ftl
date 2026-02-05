@@ -28,3 +28,9 @@ do-not-section-title = nedariet tā
 do-not-section-guideline-1 = Mudiniet iesniegt personu identificējošu informāciju (piemēram vārdus vai finanšu datus)
 do-not-section-guideline-2 = Paudiet vai mudiniet paust aizspriedumus vai aizskarošus apgalvojumus
 do-not-section-guideline-3 = Uzdodiet sensitīvus jautājumus
+# Code switching Guidelines
+cs-do-section-guideline-1 = Izmantojiet divvalodu jautājumus vai kontekstu
+cs-do-section-guideline-2 = Izpētiet neformālus scenārijus, situācijas vai to atveidojumus
+cs-do-not-section-guideline-1 = Pieprasīt personu identificējošu informāciju (piemēram, vārdus vai finanšu informāciju) vai aizskarošus uzskatus
+cs-do-not-section-guideline-2 = Lūdziet koda maiņu vai pieprasiet tulkojumu
+cs-do-not-section-guideline-3 = Nelietojiet pārāk formālu valodu

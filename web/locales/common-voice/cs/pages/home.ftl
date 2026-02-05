@@ -46,8 +46,7 @@ x-years-short =
     }
 help-make-dataset = Pomozte nám vytvořit velmi kvalitní a veřejně přístupnou databázi
 sign-up-account = Vytvořit účet
-email-subscription-title = přihlaste se k odběru novinek
-email-subscription-title-new = Přihlaste se k odběru novinek projektu Common Voice, upomínek k cílům a aktualizacím pokroku
+email-subscription-title-v3 = Přihlaste se k odběru aktualizací Common Voice a Mozilla Foundation
 
 ## Account Benefits
 
@@ -125,14 +124,14 @@ scripted-card-content = Čtěte věty nahlas ve svém jazyce a přispějte do ne
 spontaneous-card-header = Spontánní řeč
 spontaneous-card-content = Reagujte na výzvy k vytvoření datových sad pro organické, hovorové kontexty. Ideální pro první ústní jazyky.
 language-text-card-header = Text jazyka
-language-text-card-content = Vytvářejte nebo sdílejte veřejné výzvy, věty a texty pro překlad, malé jazykové modely a další.
+language-text-card-content = Vytvářejte nebo sdílejte veřejné výzvy, věty a texty pro překlad, malé jazykové modely a další věci.
 coming-soon = Již brzy
 add-text = Přidat text
 answer = Odpovídejte
 
 ## Community section
 
-community-section-title = Poháněno globálními komunitami, pro globální komunity — 130 jazyků a stále roste!
+community-section-title-202601 = Poháněno globálními komunitami, pro globální komunity — 290 jazyků a stále roste!
 join-discord-community = Připojte se ke komunitě Discord
 # label for button
 join-discord-community-action = Přidejte si nás na Discordu

@@ -42,7 +42,6 @@ x-years-short =
     }
 help-make-dataset = అధిక నాణ్యత, బహిరంగంగా అందుబాటులో ఉండే డేటా సమితిని రూపొందించడంలో మాకు సహాయపడండి
 sign-up-account = ఖాతా కోసం నమోదవండి
-email-subscription-title = ఈమెయిలు ద్వారా తాజాసమాచారం కోసం నమోదవండి
 
 ## Account Benefits
 

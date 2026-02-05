@@ -54,8 +54,6 @@ x-years-short =
     }
 help-make-dataset = Hi pfuneni ku aka tidathaseti ya xiyimo xa le henhla, leyi pfulekeke erivaleni.
 sign-up-account = Tsarisa ku kuma akhawunti
-email-subscription-title = tsarisa ku kuma swintshuxo swa imeyili
-email-subscription-title-new = Titsarisele swiphephahungwana swa Common Voice, switsundzuxo swa swikongomelo na mimpfuxeto ya ku humelela.
 
 ## Account Benefits
 

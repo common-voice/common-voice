@@ -43,8 +43,7 @@ x-years-short =
     }
 help-make-dataset = Adjuta nos a crear un collection de datos de alte qualitate, publicamente aperte
 sign-up-account = Inscribe te pro un conto
-email-subscription-title = inscribe te pro reciper actualitates via e-mail
-email-subscription-title-new = Inscribe te al bulletines de novas, rememorationes de objectivos e actualitates sur le progresso de Common Voice
+email-subscription-title-v3 = Inscribe te pro le actualisationes de Common Voice e Mozilla Foundation
 
 ## Account Benefits
 
@@ -129,7 +128,7 @@ answer = Responder
 
 ## Community section
 
-community-section-title = Supportate per communitates mundial, pro communitates mundial — 130 linguas e ultra!
+community-section-title-202601 = Realisate per le communitates mundial, pro le communitates mundial: 290 linguas e ultra!
 join-discord-community = Junge te al communitate de Discord
 # label for button
 join-discord-community-action = Junge te a nos sur Discord

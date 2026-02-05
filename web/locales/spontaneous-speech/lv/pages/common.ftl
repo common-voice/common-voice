@@ -23,14 +23,19 @@ report-button = Ziņot
 skip-button = Izlaist
 submit-button = Iesniegt
 contribute = Veic ieguldījumu
-request-new-language = Lūgt jaunu valodu
+# Button text which appears when there are no more resources
+continue-with-skipped = Turpināt ar izlaistajiem
 
 ## Navbar
 
 question = Jautājums
+validate = Apstiprināt
 respond-to-prompt = Atbildēt uz jautājumu
+respond-to-prompt-mobile = Atbilde
 transcribe = Pārrakstīt
 check-transcriptions = Pārskatīt transkripcijas
+check-transcriptions-mobile = Pārbaudiet
+tag = Birka
 
 ## Not Found Page
 
@@ -38,11 +43,9 @@ not-found-page-header = Nav atrasts
 not-found-page-content = Lapa, kuru meklējat, netika atrasta
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Es piekrītu Common Voice <termsLink>noteikumiem</termsLink> un <privacyLink>konfidencialitātes politikai</privacyLink>
-# Locales (not yet fully resolved in Pontoon)
-meh = Dienvidrietumu Tlaxiaco Mixtec
-mel = Central Melanau
 # Locales-Variants
 ms-MY = Bahasa Malay
+el-CY = Kipras grieķu
 
 ## Language search component
 

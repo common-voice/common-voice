@@ -50,8 +50,7 @@ x-years-short =
     }
 help-make-dataset = Orepytyvõ romoheñóivo mba’ekuaarã ijurujáva ha opaitépe g̃uarã
 sign-up-account = Eñemboheraguapy ne mba’eterã
-email-subscription-title = eñemboheraguapy tog̃uahẽ marandu ñandutivevépe
-email-subscription-title-new = Eñemboheraguapy tog̃uahẽ marandu, mandu’arã ha mbohekopyahu Common Voice rehegua
+email-subscription-title-v3 = Eñemboheraguapy tog̃uahẽ ndéve Common Voice ha Mozilla Foundation rekopyahu
 
 ## Account Benefits
 
@@ -136,7 +135,6 @@ answer = Ñembohovái
 
 ## Community section
 
-community-section-title = Ojapóva tekoha tuichaháicha, tekoha tuichaháichape g̃uarã: ¡130 ñe’ẽ ha rokakuaave!
 join-discord-community = Eike Discord atýpe
 # label for button
 join-discord-community-action = Ejuaju orerehe Discord-pe

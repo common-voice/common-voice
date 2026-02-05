@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = Лездадо тенек теемс данноень пурнавкс, конась вадрясто теезь ды весенень панжадо
 sign-up-account = Цюртак эстеть совамо тарка
-email-subscription-title = Сёрмадстомс пря од содамочинь одкстомтоматнес
-email-subscription-title-new = Сёрмадстынк прянк Common Voice кучоматнес, норовамонь мельс ледстнематнес ды одкстомтомань касомантень.
 
 ## Account Benefits
 

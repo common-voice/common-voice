@@ -3,6 +3,8 @@ speak-now = Nětko rěčeć
 speak-subtitle = Darće swój hłós
 record-cta = Natočenje startować
 record-platform-not-supported = Je nam žel, ale waša platforma so tuchwilu njepodpěruje.
+record-platform-webview = Sće so po zdaću sem dóstał, dokelž sće na wotkaz w nałoženju socialneho medija kliknył. Wužiwaće wobhladowak w nałoženju, kotryž natočenja awdijo njepodpěruje.
+record-platform-not-supported-webview = Na mobilnych gratach móžeće z pomocu swojeho systemoweho wobhladowaka přinošować…
 record-platform-not-supported-desktop = Na desktopowych ličakach móžeće najnowšu wersiju sćahnyć:
 record-platform-not-supported-ios-non-safari = Prošu pokročujće na iOS ze Safari, zo byšće natočenje zmóžnił…
 record-must-allow-microphone = Dyrbiće přistup k mikrofonej dowolić.
@@ -10,6 +12,12 @@ record-no-mic-found = Žadyn mikrofon namakany.
 record-error-too-short = Natočenje bě překrótke.
 record-error-too-long = Natočenje bě předołhe.
 record-error-too-quiet = Natočenje bě přećiche.
+record-error-uploaded-clip-corrupted =
+    Zda so, zo waše awdionahrawanje je wobškodźene. To móže so stać, dokelž su:
+    • problemy z kompatibelnosću wobhladowaka (spytajće druhi wobhladowak wužiwać)
+    • problemy z mikrofonom abo awdioćěrjakom
+    • syćowe přetorhnjenja při nahrawanju
+    Prošu spytajće znowa nahrawać.
 record-cancel = Zasonatočenje přetorhnyć
 record-instruction = { $actionType } <recordIcon></recordIcon> a předčitajće sadu wótře
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> hdyž sće hotowy

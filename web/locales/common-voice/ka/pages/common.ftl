@@ -12,6 +12,7 @@ abq = აბაზა
 ace = აჩეჰი
 ady = ადიღეური
 af = აფრიკაანსი
+aii = ასურული
 ajg = აჯა
 aln = გეგის ალბანური
 am = ამჰარული
@@ -62,6 +63,7 @@ byv = მედუმბა
 ca = კატალანური
 cak = კაკჩიკელი
 cdo = აღმოსავლური მინი
+ce = ჩეჩნური
 cgg = ჩიგა
 cjk = ჩოკვე
 ckb = ცენტრალურქურთული
@@ -90,6 +92,7 @@ dv = დივეჰი
 dyu = დიულა
 ebr = ებრი
 ee = ევე
+efk = ეფიკი
 eko = ეკოტი
 el = ბერძნული
 en = ინგლისური
@@ -121,6 +124,7 @@ giz = გუიზიგა
 gjk = კაჩჰი
 gju = გუჯარი
 gl = გალიციური
+glk = გილაკი
 gn = გუარანი
 gom = გოას კონკანი
 gos = გრონინგური
@@ -133,6 +137,7 @@ gwt = გავაირბაიტი
 gya = ჩრდილო-დასავლეთი გბაია
 ha = ჰაუსა
 hac = გორანი
+hak = ჰაკა
 haz = ჰაზარგი
 hch = ვირარიკა
 he = ებრაული
@@ -190,6 +195,7 @@ kw = კორნული
 kxp = ვადიარა-კოლი
 ky = ყირგიზული
 kzi = კელაბიტი
+laj = ლანგო
 lb = ლუქსემბურგული
 led = ლენდუ
 leu = კარა
@@ -278,6 +284,7 @@ os = ოსური
 pa-IN = პენჯაბი
 pap = პაპიამენტო
 pap-AW = პაპიამენტო (არუბა)
+pau = პალაუანური
 pcd = პიკარდული
 pcm = ნიგერიული პიჯინური ინგლისური
 pez = აღმოსავლური პენანი
@@ -348,6 +355,7 @@ sr = სერბული
 ss = სისვატი
 ssi = სანსი
 st = სამხრეთული სოთო
+su = სუნდანური
 sv-SE = შვედური
 sva = სვანური
 sw = სუაჰილი
@@ -376,6 +384,7 @@ ts = ცონგა
 tt = თათრული
 ttj = რუტორო
 tui = ტუპური
+tum = ტუმბუკა
 tvu = ტუნენი
 tw = ჩვი
 ty = ტაიტური
@@ -449,7 +458,7 @@ loading = იტვირთება...
 email-opt-in-info = მსურს, მივიღო ელფოსტაზე შეხსენებები შესასრულებელი მიზნების, აგრეთვე სამუშაოს მიმდინარეობის შესახებ და მეცნობოს, რა სიახლეებითაა Common Voice.
 email-opt-in-info-title = შემოუერთდით ელფოსტის ჯგუფს – Common Voice
 email-opt-in-info-sub-with-challenge = მიიღეთ ელფოსტაზე შეხსენებები გამოწვევების, შესასრულებელი მიზნების, აგრეთვე სამუშაოს მიმდინარეობის შესახებ და ცნობები, თუ რა სიახლეებითაა Common Voice.
-email-opt-in-privacy-v2 = ელფოსტით წერილების მიღებაზე თანხმობით, თქვენ აცხადებთ, რომ არ ხართ წინააღმდეგი, Mozilla-მ ეს მონაცემები დაამუშაოს <privacyLink>პირადულობის დაცვის დებულების</privacyLink> შესაბამისად.
+email-opt-in-privacy-v2 = ელფოსტით წერილების მიღებაზე თანხმობით აცხადებთ, რომ არ ხართ წინააღმდეგი, თუ Mozilla ამ მონაცემებს დაამუშავებს <privacyLink>პირადულობის დაცვის დებულების</privacyLink> შესაბამისად.
 indicates-required = * აღნიშნავს აუცილებელ ველს
 not-available-abbreviation = მიუწვდომელია
 # Text shown on a button that can be clicked to copy text to the clipboard
@@ -474,8 +483,22 @@ localization-select =
 ## MDC Announcement
 
 # Main text for MDC announcement. Text wrapped in <strong></strong> will be rendered with bold font
-announcement-mdc-text = <strong>Common Voice ახალი კრებულების</strong> ჩამოტვირთვის საშუალებას ახლა უკვე გაძლევთ საგანგებოდ შექმნილი ჩვენი დობილი პლატფორმიდან, სახელწოდებით, Mozilla Data Collective. შემოუერთდით და მიიღეთ წვდომა 300+ საერთაშორისო კრებულთან, შექმნილი საზოგადოების მიერ საზოგადოებისთვის.
+announcement-mdc-text = <strong>Common Voice ახალი კრებულების</strong> ჩამოსატვირთად ამიერიდან უკვე გთავაზობთ საგანგებოდ შექმნილ დობილ პლატფორმას, სახელწოდებით Mozilla Data Collective. შემოუერთდით წვდომისთვის 300+ საერთაშორისო კრებულთან, რომელთაც საზოგადოებები ქმნიან საზოგადოებისთვის.
 # Button text for MDC announcement
-announcement-mdc-button-text = შემოგვიერთდით – Mozilla Data Collective
+announcement-mdc-button-text = გვეწვიეთ – Mozilla Data Collective
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = გახსნის ახალ ჩანართში
+
+## Common Language/Dataset Selector & SearchBox Related
+
+# Generic search box defaults
+searchbox-default-label = დაიწყეთ აკრეფა საძიებოდ
+searchbox-default-placeholder = ძიება…
+searchbox-default-aria-label = ძიება
+dropdown-no-results = შესატყვისი ვერ მოიძებნა
+# Common Voice Dataset=Language search box
+dataset-searchbox-label = ცვლის ორივეს, ჩვენებისას და მონაცემთა კრებულის ენას
+dataset-searchbox-placeholder = ენის მოძებნა...
+dataset-searchbox-aria-label = ენის მოძებნა
+dataset-search-no-results = შესაბამისი ენა ვერ მოიძებნა
+request-new-language = მოითხოვეთ ახალი ენა

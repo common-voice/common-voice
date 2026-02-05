@@ -4,6 +4,8 @@ record-player-header = Ierakstīt atbildi
 mic-access-error = Jums ir jāatļauj piekļuve mikrofonam.
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon></micIcon> un atbildiet runājot dabiski
+# Message which appears when there are no more resources on this page
+no-prompts-continue-skipped-message = Šajā valodā vairs nav jautājumu. Ja kādu izlaidi, vari turpināt ar izlaistu saturu vai doties uz skaņas transkripciju un vēlāk mēģināt vēlreiz.
 error-skipping = Izlaižot jautājumu notikusi kļūda
 error-recording = Ierakstīšanas laikā notikusi kļūda
 error-fetching-prompts = Ielādējot jautājumu, radās kļūda. Lūdzu, mēģiniet vēlreiz nedaudz vēlāk.

@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = امون نئہ هيڪ ٺائ﻿ُوڪِي معيار واۯو، ٻڌون ۿارُو موجوڌ ڊيٽاسيٽ تيار ڪريا ۾ مڌت ۮيو۔
 sign-up-account = هيڪ اڪائونٽ ٺايا ۿارُو سائن اپ ڪرو
-email-subscription-title = اِيميل را اپڊيٽ ۿارُو سائن اپ ڪرو
-email-subscription-title-new = ڪومنَ وائيس ري خٻرون،مقصڌ ياڌ ۮيوَراوو انَ ڪوم رئي اپڊيٽ ۮِيڌا ۿارُو مڌت ڪرو
 
 ## Account Benefits
 
@@ -128,7 +126,6 @@ answer = جواڀ
 
 ## Community section
 
-community-section-title = ٻڌِي ڌُنيا رِي قوم را  پاها ٿِي ويوَراوَئي ڳئي،انَ اُوئا ئي ۿارُو—130ٻولي انَ وڌارئہ شامِل ڪري زائه ري!
 join-discord-community = آنلائنَ قوم رو حِصو ٿيو
 # label for button
 join-discord-community-action = آنلائن امون نئہ شامِل ڪرو

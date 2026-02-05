@@ -3,6 +3,8 @@ speak-now = Şimdi konuşun
 speak-subtitle = Sesinizi bağışlayın
 record-cta = Kaydı başlatın
 record-platform-not-supported = Maalesef kullandığınız platform şu an desteklenmemektedir.
+record-platform-webview = Buraya bir sosyal medya uygulamasında bir bağlantıya tıklayarak ulaşmış olabilirsiniz. Ses kaydını desteklemeyen bir uygulama içi tarayıcı kullanıyorsunuz.
+record-platform-not-supported-webview = Mobil cihazlarda sistem tarayıcınızı kullanarak katkıda bulunabilirsiniz…
 record-platform-not-supported-desktop = Bilgisayarınızda şu tarayıcıların son sürümlerini kullanabilirsiniz:
 record-platform-not-supported-ios-non-safari = iOS'te kaydı etkinleştirmek için lütfen Safari ile devam edin…
 record-must-allow-microphone = Mikrofon erişimine izin vermeniz gerekiyor.
@@ -10,6 +12,12 @@ record-no-mic-found = Mikrofon bulunamadı.
 record-error-too-short = Kayıt çok kısa.
 record-error-too-long = Kayıt çok uzun.
 record-error-too-quiet = Bu kayıt çok sessiz oldu.
+record-error-uploaded-clip-corrupted =
+    Ses kaydınız bozuk görünüyor. Bu durum aşağıdakilerden dolayı olabilir:
+    • Tarayıcı uyumluluk sorunları (farklı bir tarayıcı kullanmayı deneyin)
+    • Mikrofon veya ses sürücüsü sorunları
+    • Kayıt sırasında ağ kesintileri
+    Lütfen kaydetmeyi yeniden deneyin.
 record-cancel = Yeniden kaydetmeyi iptal et
 record-instruction = <recordIcon></recordIcon> düğmesine { $actionType }, sonra cümleyi net bir şekilde okuyun
 record-stop-instruction = Bitirince { $actionType } <stopIcon></stopIcon>

@@ -285,6 +285,12 @@ email-opt-in-info-sub-with-challenge = دریافت پست الکترونیکی 
 email-opt-in-privacy-v2 = با انتخاب دریافت رایانامه‌ها، اعلام می‌کنید که با دسترسی موزیلا به این اطلاعات مطابق موارد <privacyLink> مقررات حریم خصوصی<privacyLink>  مشکلی ندارید.
 indicates-required = * فیلد الزامی را مشخص می‌کند
 not-available-abbreviation = N/A
+# Text shown on a button that can be clicked to copy text to the clipboard
+copy = رونوشت
+# Text shown on a button that can be clicked to cancel an action
+cancel = انصراف
+# Text shown on a button that can be clicked to delete an item
+delete = حذف
 
 ## Donate banner
 

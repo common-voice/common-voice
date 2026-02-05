@@ -23,7 +23,6 @@ report-button = Rapporter
 skip-button = Hopp over
 submit-button = Send inn
 contribute = Bidra
-request-new-language = Be om nytt språk
 # Button text which appears when there are no more resources
 continue-with-skipped = Hald fram med hoppa over
 
@@ -44,9 +43,6 @@ not-found-page-header = Ikkje funne
 not-found-page-content = Fann ikkje sida du leitar etter
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Eg godtek <termsLink>vilkåra</termsLink> og <privacyLink>personvernfråsegna</privacyLink> til Common Voice
-# Locales (not yet fully resolved in Pontoon)
-meh = Sørvestleg Tlaxiaco Mixtec
-mel = Central Melanau
 # Locales-Variants
 ms-MY = Bahasa malaysisk
 el-CY = Kypriotisk gresk

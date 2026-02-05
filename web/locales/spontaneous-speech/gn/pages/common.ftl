@@ -23,7 +23,6 @@ report-button = Momarandu
 skip-button = Jepo
 submit-button = Mondo
 contribute = Ñepytyvõ
-request-new-language = Ejerure peteĩ ñe’ẽpyahu
 # Button text which appears when there are no more resources
 continue-with-skipped = Eku’ejey Ñomimbyre ndive
 
@@ -44,9 +43,6 @@ not-found-page-header = Juhu’ỹva
 not-found-page-content = Ndaikatúi ojejuhu pe kuatiarogue rehekavareína
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Amoneĩ umi <termsLink>Ñe’ẽkuaa</termsLink> ha Common Voice <privacyLink>Ñemurã ñemigua</privacyLink>
-# Locales (not yet fully resolved in Pontoon)
-meh = Mixteco Tlaxiaco pegua
-mel = Melanau mbytépe
 # Locales-Variants
 ms-MY = Bahasa Malay
 el-CY = Griego Chipriota

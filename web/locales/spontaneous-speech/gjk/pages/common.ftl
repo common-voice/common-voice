@@ -23,7 +23,6 @@ report-button = رپورٽ
 skip-button = ميلي ڄو
 submit-button = جمع ڪراوو
 contribute = حصو ليوو
-request-new-language = نوِي ٻولِي نِي ڌرخواست ڄو
 
 ## Navbar
 
@@ -38,9 +37,6 @@ not-found-page-header = نا زڙيون
 not-found-page-content = تمين زين صفع نين ڳوتو سو ريا، اِي نا زڙيو
 # Privacy and Terms checkbox
 accept-privacy-and-terms = ھون راضِي سون آم آواز نِي شرطان انين رازڌارِي نا نوٽس ٿِي۔
-# Locales (not yet fully resolved in Pontoon)
-meh = ۮکڻاۮو ٽلاسياڪو ميسٽيڪ
-mel = مرڪزي ميلانو
 # Locales-Variants
 ms-MY = باھاسا مالي
 

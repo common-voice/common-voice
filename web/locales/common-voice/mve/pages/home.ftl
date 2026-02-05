@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = مھونيَ ھيڪ اونچيَ معيار، عوامي طور تيَ اوپن مواد رو سيٽ ٺاڻ ۾ مدد ڪرو۔
 sign-up-account = اڪائونٽ ھارو سائن اپ ڪرو
-email-subscription-title = ايل اپ ڊيٽ ھارو سائن اپ ڪرو
-email-subscription-title-new = ڪامن وائس نيوز ليٽر،مقصد رِي ياد ڏيراڻ ھان پيش رفت رِي تازھ خبر ھارو سائن اپ ڪرو۔
 
 ## Account Benefits
 
@@ -128,7 +126,6 @@ answer = جواب
 
 ## Community section
 
-community-section-title = عالمي برادريون رِي طرف ھون طاقتور، عالمي برادريون ھارو—130ٻوليون ھان وڌتيَ!
 join-discord-community = ڊسڪورڊ برادري ۾ شامل ھو
 # label for button
 join-discord-community-action = مھون ڀيݪا ڊسڪورڊ ۾ شامل ھو

@@ -23,7 +23,6 @@ report-button = رپورٽ
 skip-button = ڇوڙا
 submit-button = جمع ڪراوَڻ
 contribute = حِصا ڏِيئڻ
-request-new-language = نَوِين ٻولِي چِي درخواست ڏِيا۔
 # Button text which appears when there are no more resources
 continue-with-skipped = ڇوڙوڙي سُون جاري راکا
 
@@ -41,9 +40,6 @@ not-found-page-header = نهِين لڀَي
 not-found-page-content = تمهِين جڪو صِفحا سوڌا ڇَوا پلي اوهچ نهِين لڀَي ڇَي
 # Privacy and Terms checkbox
 accept-privacy-and-terms = مين ڪامن وائِيسا چِيا <termsLink> شرطا </termsLink> ائُون <privacyLink> پرائِيوسِي نوٽسا سُون راضِي ڇَين </privacyLink>
-# Locales (not yet fully resolved in Pontoon)
-meh = ڏکڻ آنٿوڻي ٽلاگزِيڪو مِگزٽيڪ
-mel = بِچا هاڙِي ميلانو
 # Locales-Variants
 ms-MY = بَهاسا ملائي
 

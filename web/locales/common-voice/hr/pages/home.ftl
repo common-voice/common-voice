@@ -59,8 +59,6 @@ x-years-short =
     }
 help-make-dataset = Pomogni nam izgraditi kvalitetan i javno dostupan skup podataka
 sign-up-account = Otvori račun
-email-subscription-title = pretplati se na novosti putem e-maila
-email-subscription-title-new = Pretplati se na bilten Common Voicea, na podsjetnike o ciljevima i na novosti o napretku
 
 ## Account Benefits
 
@@ -144,7 +142,6 @@ answer = Odgovor
 
 ## Community section
 
-community-section-title = Od globalne zajednice, za globalne zajednice – 130 jezika i stalno raste!
 join-discord-community = Pridruži se Discord zajednici
 # label for button
 join-discord-community-action = Pridruži nam se na Discordu

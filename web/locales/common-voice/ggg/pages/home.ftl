@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = همري مدد ڪرو ايڪ کآس ميآر، آوآمي تورو پر کُلرو ڊيٽآ سيٽ ٺآوآ مي
 sign-up-account = ايڪ اڪآئونٽو تآڻي سآئين اپ ڪرو
-email-subscription-title = ايٚ ميل تآجو ڪآريو تآڻي سآئيٚن اپ ڪرو
-email-subscription-title-new = ڪآمن وآئيس نيوج ليٽرس، مڪسد يآد دُوآوآݪو اور ترڪيو ڪيٚ تآجآ ڪآريٚو تآڻي سآئيٚن آپ ڪرو
 
 ## Account Benefits
 
@@ -126,7 +124,6 @@ add-text = لِکت لگآوو
 
 ## Community section
 
-community-section-title = ٻڏيٚ ڪميوُنٽيآنٚ ڪيٚ ترڦي دي چلوآݪيٚ، ٻڏيٚ ڪميونٽيآنٚ تآڻيٚ —130 ٻوليونٚ اور وڌوآݪيٚ
 join-discord-community = ڊِسڪوڊ ڪميونٽيٚو ميٚ شآمل هوو
 # label for button
 join-discord-community-action = ڊسڪوڊو پر همآ دي شآمل هوو ...

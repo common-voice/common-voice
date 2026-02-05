@@ -52,8 +52,6 @@ x-years-short =
     }
 help-make-dataset = Cabhraigh linn tacar sonraí oscailte den chéad scoth a thógáil
 sign-up-account = Cláraigh
-email-subscription-title = cláraigh le haghaidh nuashonruithe ríomhphoist
-email-subscription-title-new = Cláraigh le haghaidh nuachtlitreacha Common Voice, meabhrúcháin spriocanna, agus nuashonruithe ar dhul chun cinn
 
 ## Account Benefits
 
@@ -119,7 +117,6 @@ add-text = Cuir Téacs leis
 
 ## Community section
 
-community-section-title = Is pobail dhomhanda a thugann neart do Common Voice agus is do phobail dhomhanda é - tá 130 teanga ann agus tá siad ag dul i méid!
 join-discord-community = Bí linn i Discord Community
 # label for button
 join-discord-community-action = Bí linn ar Discord

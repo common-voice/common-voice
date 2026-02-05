@@ -57,8 +57,7 @@ x-years-short =
     }
 help-make-dataset = Pomôžte nám vytvoriť vysokokvalitnú a verejne prístupnú kolekciu údajov
 sign-up-account = Vytvorte si účet
-email-subscription-title = prihláste sa k odberu noviniek
-email-subscription-title-new = Prihláste sa na odber noviniek o projekte Common Voice, pripomenutí na ciele a informácií o pokroku.
+email-subscription-title-v3 = Prihláste sa na odber noviniek o Common Voice a Mozilla Foundation
 
 ## Account Benefits
 
@@ -143,7 +142,7 @@ answer = Odpovedajte
 
 ## Community section
 
-community-section-title = Poháňaný globálnymi komunitami pre globálne komunity – už 130 jazykov a ďalšie pribúdajú!
+community-section-title-202601 = Poháňaný globálnymi komunitami pre globálne komunity – už 290 jazykov a ďalšie pribúdajú!
 join-discord-community = Pripojte sa ku komunite Discord
 # label for button
 join-discord-community-action = Pridajte sa k nám na Discorde

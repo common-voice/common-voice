@@ -45,8 +45,6 @@ x-years-short =
     }
 help-make-dataset = اسآݩ ريٚ مدت ڪرو بهتر ميآر، آوآميٚ تور تي کُليل ڊيٽآ سيٽ ٺآهڻ ميݩ
 sign-up-account = اڪآئونٽ سآئين اپ ڪرو
-email-subscription-title = سآئين اپ ڪرو ايٚ ميل اپڊيٽ لآ
-email-subscription-title-new = ڪآمن وآئيٚس نيٚوز ليٽر، مڪسد ريٚ يآد ڏيآرڻ وآرآ ائيݩ پيش رڦت ريٚ تآزه ڪآريݩ لآ سآئيٚن اپ ڪرو۔
 
 ## Account Benefits
 
@@ -128,7 +126,6 @@ add-text = لکت شآمل ڪرو
 
 ## Community section
 
-community-section-title = آلميٚ برآدريآنٚ پآرآنٚ تآنٚڪتور، آلميٚ برآدريآنٚ لآ۔ 130 ٻولينٚ ائيٚنٚ وڌتينٚ
 join-discord-community = ڊيس ڪورڊ ڪميٚونٽيٚ ميݩ شآمل ٿيو
 # label for button
 join-discord-community-action = اسآݩ سآݩ شآمل ٿيو ڊيس ڪورڊ تي

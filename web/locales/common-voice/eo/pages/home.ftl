@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = Helpu nin krei altkvalitan, publikan kaj liberan datumaron
 sign-up-account = Krei konton
-email-subscription-title = Abonu retpoŝtajn novaĵojn
-email-subscription-title-new = Abonu la bultenojn de Common Voice, la memorigojn de celoj kaj la progresraportojn
 
 ## Account Benefits
 
@@ -129,7 +127,6 @@ answer = Respondo
 
 ## Community section
 
-community-section-title = Kreita de tutmondaj komunumoj, por tutmondaj komunumoj — 130 lingvoj kaj kreskante!
 join-discord-community = Aliĝu al la komunumo en Discord
 # label for button
 join-discord-community-action = Aliĝu al nia komunumo en Discord

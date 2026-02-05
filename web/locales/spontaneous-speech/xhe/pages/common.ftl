@@ -19,7 +19,6 @@ report-button = رپورٹ کر
 skip-button = چھوڑ ݙے
 submit-button = جمع کر
 contribute = حِصّہ گُھل
-request-new-language = نویں ٻولی دا سؤال کر
 
 ## Navbar
 
@@ -32,8 +31,5 @@ not-found-page-header = نَے مِلا
 not-found-page-content = جا صفحہ تو بھؤن٘دا ودا ہیں نَے مِلا
 # Privacy and Terms checkbox
 accept-privacy-and-terms = آں کامن وائس ساں  <termsLink>شرطاں</termsLink>ٻیا<privacyLink>رازداری نوٹس</privacyLink> ساں راضی ہیں
-# Locales (not yet fully resolved in Pontoon)
-meh = ساوتھ ویسٹرن لاسیاکو مکس ٹیک
-mel = سنٹرل میلانو
 # Locales-Variants
 ms-MY = بہاسا مالے

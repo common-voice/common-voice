@@ -36,8 +36,6 @@ x-years-short =
     }
 help-make-dataset = Munikhaliherye oteeka nukhuuru nimosa na mihuupi sootepa oreera, sotaphuuwa variyari vanamunceene
 sign-up-account = Mulepihe ekontha emosa
-email-subscription-title = Mwiilepihe wiira mwaakhele ehapari mwimeelini
-email-subscription-title-new = Mwiilepihe wiira mwaakhele mucommon voiceboletins, muupuwelelo vammalelaanyu ni soolavula sikina soowinnuwa.
 
 ## Account Benefits
 

@@ -56,8 +56,6 @@ x-years-short =
     }
 help-make-dataset = ຊ່ວຍພວກເຮົາສ້າງຊຸດຂໍ້ມູນທີ່ມີຄຸນນະພາບສູງ, ເປີດສາທາລະນະ
 sign-up-account = ລົງທະບຽນສໍາລັບບັນຊີ
-email-subscription-title = ລົງທະບຽນສໍາລັບການອັບເດດອີເມລ໌
-email-subscription-title-new = ສະໝັກຮັບຈົດໝາຍຂ່າວ Common Voice, ການແຈ້ງເຕືອນເປົ້າໝາຍ ແລະອັບເດດຄວາມຄືບໜ້າ
 
 ## Account Benefits
 
@@ -139,12 +137,14 @@ add-text = ເພີ່ມຂໍ້ຄວາມ
 
 ## Community section
 
-community-section-title = ຂັບເຄື່ອນໂດຍຊຸມຊົນທົ່ວໂລກ, ສໍາລັບຊຸມຊົນທົ່ວໂລກ — 130 ພາສາ ແລະ ການຂະຫຍາຍຕົວ!
 join-discord-community = ເຂົ້າຮ່ວມຊຸມຊົນ Discord
 # label for button
 join-discord-community-action = ເຂົ້າຮ່ວມກັບພວກເຮົາໃນ Discord
 join-discord-community-content = ເຂົ້າຮ່ວມການສົນທະນາຊຸມຊົນພາສາ, ຖາມຄໍາຖາມ, ແລະ ຮຽນຮູ້ກ່ຽວກັບເຫດການ ແລະ ການສົນທະນາທີ່ຈະມາເຖິງ.
 find-us-on-matrix = ຊອກຫາພວກເຮົາໃນ Matrix
+# label for button
+find-us-on-element-action-1 = ອົງປະກອບ
+find-us-on-matrix-action-2 = ລູກຄ້າອື່ນໆ
 ask-mozilla-share = ໃຫ້ Mozilla ແບ່ງປັນເຫດການຂອງເຈົ້າ
 ask-mozilla-share-content = ມີເຫດການກ່ອນຫນ້າ ຫຼື ທີ່ຈະມາເຖິງ? ແບ່ງປັນມັນກັບພວກເຮົາ ແລະ ພວກເຮົາຈະປະກາດມັນກັບຊຸມຊົນຂອງພວກເຮົາ ຫຼື ຂຽນບົດຄວາມກ່ຽວກັບມັນ!
 # label for button

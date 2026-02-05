@@ -48,8 +48,6 @@ x-years-short =
     }
 help-make-dataset = Sincede sakhe umgangatho ophezulu, idatha seti evuleke kuluntu
 sign-up-account = Bhalisa ukufumana i-akhawunti
-email-subscription-title = bhalisa ukufumana i-imeyile
-email-subscription-title-new = Bhalisela iindaba zeCommon Voice, izikhumbuzo zenjongo kunye nohlaziyo lwenkqubela phambili
 
 ## Account Benefits
 

@@ -23,7 +23,6 @@ report-button = Hlášení
 skip-button = Přeskočit
 submit-button = Odeslat
 contribute = Přispět
-request-new-language = Požádat o nový jazyk
 # Button text which appears when there are no more resources
 continue-with-skipped = Pokračovat s přeskočenými
 
@@ -44,9 +43,6 @@ not-found-page-header = Nenalezeno
 not-found-page-content = Stránka, kterou hledáte, nebyla nalezena
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Souhlasím s <termsLink>podmínkami</termsLink> a <privacyLink>zásadami ochrany osobních údajů</privacyLink> Common Voice
-# Locales (not yet fully resolved in Pontoon)
-meh = Jihozápadní Tlaxiaco Mixtec
-mel = Střední Melanau
 # Locales-Variants
 ms-MY = Bahasa malajština
 el-CY = Kyperská řečtina

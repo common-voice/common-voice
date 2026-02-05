@@ -45,8 +45,6 @@ x-years-short =
     }
 help-make-dataset = आम्हाला उच्च दर्जाचे, खुले सार्वजनिक डेटासेट तयार करण्यात मदत करा
 sign-up-account = खात्यासाठी साइन अप करा
-email-subscription-title = ईमेल अद्यतनांसाठी साइन अप करा
-email-subscription-title-new = कॉमन व्हॉईस वृत्तपत्रे, लक्ष्य स्मरणपत्रे आणि प्रगतीच्या आढाव्यांसाठी साइन अप करा
 
 ## Account Benefits
 

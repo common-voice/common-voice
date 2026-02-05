@@ -111,18 +111,25 @@ export const ReportModal = withLocalization(({
           (otherText !== null && otherText.trim() == '') ||
           (!Object.values(selectedReasons).some(Boolean) && otherText == null)
         }
-        onClick={() => {
-          api.report({
-            kind,
-            id,
-            reasons: Object.entries(selectedReasons)
-              .filter(([key, value]) => value)
-              .map(([key]) => key)
-              .concat(otherText || []),
-          });
-          setSubmitStatus('submitted');
-          trackGtag(`report-${kind}`, { locale })
-          onSubmitted();
+        onClick={async () => {
+          setSubmitStatus('submitting');
+          try {
+            await api.report({
+              kind,
+              id,
+              reasons: Object.entries(selectedReasons)
+                .filter(([key, value]) => value)
+                .map(([key]) => key)
+                .concat(otherText || []),
+            });
+            setSubmitStatus('submitted');
+            trackGtag(`report-${kind}`, { locale })
+            onSubmitted();
+          } catch (error) {
+            console.error('Report submission failed:', error);
+            setSubmitStatus(null);
+            props.onRequestClose();
+          }
         }}>
         <Localized id="report">
           <span />

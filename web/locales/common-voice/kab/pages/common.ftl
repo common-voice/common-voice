@@ -65,6 +65,7 @@ ga-IE = Tirlandit
 gl = Tagalisit
 gn = Tagaranit
 gom = Goan Konkani
+gsw = Tlzasit
 gu-IN = Taguǧaṛatit
 gv = Tamanksit
 gwc = Gawri
@@ -261,3 +262,19 @@ donate-banner-cta = <mark>Nesra</mark><br/><mark>tallalt-ik!</mark>
 languages-donate-banner-cta = <mark>Aseqdec n CV i</mark><br/><mark>yinadiyen-ik?</mark>
 localization-select =
     .label = Fren tutlayt/tasuqqilt
+
+## MDC Announcement
+
+# Main text for MDC announcement. Text wrapped in <strong></strong> will be rendered with bold font
+announcement-mdc-text = <strong>Tigrummiwin n yisefka timaynutin n Common Voice</strong> ha-t-an llant tura i usider s ttawil n tɣeṛɣeṛt n weltma-tneɣ, Mozilla Data Collective. Ttekki i wakken ad tesɛuḍ addaf ɣer nnig n 300+ n tegrummiwin n yisefka timuta, i d-tebna temɣiwant i temɣiwant.
+# Button text for MDC announcement
+announcement-mdc-button-text = Ttekki deg Mozilla Data Collective
+# Aria text for button which opens MDC on a new page
+announcement-mdc-button-aria-text = Ldi deg yiccer amaynut
+
+## Common Language/Dataset Selector & SearchBox Related
+
+searchbox-default-placeholder = Nadi...
+dataset-searchbox-placeholder = Nadi tutlayt...
+dataset-searchbox-aria-label = Nadi tutlayt
+request-new-language = Suter tutlayt tamaynut

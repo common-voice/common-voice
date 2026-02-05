@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = Aiutateci à custruisce una banca di dati d'alta qualità, aperta à u publicu
 sign-up-account = Creà u so contu
-email-subscription-title = Arrighjistrassi pà riceve infurmazioni (o nutizie) da messaghju eletronicu
-email-subscription-title-new = Abbunatevi à e nutizie, i ricordi d’ubbiettivu è l’infurmazione di prugressu di Common Voice.
 
 ## Account Benefits
 

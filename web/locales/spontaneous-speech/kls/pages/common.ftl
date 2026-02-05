@@ -31,8 +31,5 @@ not-found-page-header = Ne Saprau
 not-found-page-content = Tu kia ki page khojis dai, ne shiau
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Sawin awaz istimal karikas bati, to homa shart kabul karis
-# Locales (not yet fully resolved in Pontoon)
-meh = Southwestern Tlaxiaco Mixtec
-mel = Central Melanau
 # Locales-Variants
 ms-MY = Bahasa Malay

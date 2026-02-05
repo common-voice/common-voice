@@ -55,8 +55,6 @@ x-years-short =
     }
 help-make-dataset = ጥራት ያለው እና ለህዝብ ክፍት የሆነ የመረጃ ስብስብ እንድንገነባ ይርዱን
 sign-up-account = መለያ ለማግኘት ይመዝገቡ
-email-subscription-title = ለኢሜይል ማሳወቂያ ይመዝገቡ
-email-subscription-title-new = ለተለመዱ የድምፅ ዜና መጽሔቶች ፣ ለግብ ማስታወሻዎች እና ለሂደት ዝመናዎች ይመዝገቡ
 
 ## Account Benefits
 
@@ -137,7 +135,6 @@ answer = መልስ
 
 ## Community section
 
-community-section-title = በአለም አቀፍ ማህበረሰቦች የተጎላበተ፣ ለአለም አቀፍ ማህበረሰቦች - 130 ቋንቋዎች እና እያደገ ያለ!
 join-discord-community = የዲስኮርድ ማህበረሰብን ይቀላቀሉ
 # label for button
 join-discord-community-action = በ ዲስኮርድ ላይ ይቀላቀሉን።

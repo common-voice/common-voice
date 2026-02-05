@@ -42,8 +42,6 @@ x-years-short =
     }
 help-make-dataset = 共咱鬥相工打造高品質、會當公開使用的資料集
 sign-up-account = 開新口座
-email-subscription-title = 注文上新消息的電子報
-email-subscription-title-new = 注文 Common Voice 電子報、目標提醒佮進度更新
 
 ## Account Benefits
 
@@ -127,7 +125,6 @@ answer = 答案
 
 ## Community section
 
-community-section-title = 由全球社群騙動，為著全球社群 - 130 个語言佮𪜶的成長！
 join-discord-community = 加入 Discord 社群
 # label for button
 join-discord-community-action = 佇 Discord 加入咱的討論區

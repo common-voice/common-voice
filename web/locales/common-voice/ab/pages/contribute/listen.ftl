@@ -1,14 +1,30 @@
-listen = Азыӡырҩра
-listen-subtitle = Аҭаҩрақәа рыгәаҭараҿы шәҳацхраа
-listen-instruction = { $actionType }<playIcon></playIcon> ииаиганы иаԥхьоума аҳәоуқәа?
-listen-again-instruction = Аус бзиоуп! <playIcon></playIcon> Уаназошоу даҽазнык уазыӡырҩы.
-listen-3rd-time-instruction = Ҩба мазеиуп <playIcon></playIcon> иацуҵа!
+listen = Шәӡырҩы
+listen-subtitle = Аҭаҩрақәа ргәаҭараҿы шәҳацхраа
+listen-instruction = { $actionType }<playIcon></playIcon> ииашаны иҳәоума ари аҳәоу?
+listen-again-instruction = Аус бзиаӡа!<playIcon></playIcon>Шәанмазеихо даҽазнык шәазыӡырҩы
+listen-3rd-time-instruction = Ҩба мазеиуп <playIcon></playIcon> иацышәҵала!
 listen-last-time-instruction = <playIcon></playIcon>Аҵыхәтәантәи!
 listen-empty-state = Ари абызшәала ахәаԥшразы анҵамҭақәа зегьы нҵәеит...
-listen-empty-state-variants = Убызшәа авариант азы аклипқәа ыҟамзар ҟалоит! Уара угәы иақәшәозар, убызшәала егьырҭ аҳәарақәа убарц азы, уеиқәыршәарақәа уԥсахыр улшоит.
+listen-empty-state-variants = Шәбызшәатә вариант азы аклипқәа ыҟамзар ҟалоит! Ишәзыманшәалазар, шәбызшәала егьырҭ аҳәоуқәа жәбарц азы, шәырхиарақәа шәыԥсахыр шәылшоит.
 listen-loading-error =
-    Ҳара ҳазыӡырҩырц азы аудиоклипқәа ҳзыԥшаауамызт.
-    Ҳаҳәоит, нас даҽазнык шәҽазышәшәа.
-listen-abort-title = Аклипқәа рыгәаҭара алгама?
-listen-abort-cancel = Агәаҭара иацҵатәуп
-listen-abort-confirm = Агәаҭара анагӡара
+    Азыӡырҩразы клипкгьы ҳмоуӡеит.
+    Ҳшәыҳәоит, ԥыҭрак ашьҭахь даҽазнык шәҽазышәшәа.
+listen-abort-title = Аклипқәа ргәаҭара хыркәшатәума?
+listen-abort-cancel = Агәаҭара ацҵара
+listen-abort-confirm = Агәаҭара ахыркәшара
+# Menu item
+validate-readings = Аҳәашьа агәаҭара
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = Аҭаҩымҭақәа ргәаҭара <small>(Лассы)</small>
+
+## MENU ITEM TOOLTIPS
+
+listen-contribute-menu-tooltip = Аҳәашьа агәаҭара, атранскрипциақәа ргәаҭара
+validate-readings-menu-item-tooltip = Шәара шәбызшәала иҭаҩу ахархәаҩцәа рҳәашьа гәашәҭала
+review-transcriptions-menu-item-tooltip = Ахархәаҩцәа инарышьҭыз шәбызшәала иҟоу атранскрипциа гәашәҭала
+
+## MENU ITEM ARIA LABELS
+
+listen-contribute-menu-aria-label = Азыӡырҩа архиарақәа рыхкынҵа
+validate-readings-menu-item-aria-label = Аилазаара алахәцәа инарышьҭыз аҳәашьа агәаҭара
+review-transcriptions-menu-item-aria-label = Иҭаҩу аҳәоуқәа рытранскрипциа аиашара гәашәҭ

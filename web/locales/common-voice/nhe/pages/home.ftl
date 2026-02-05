@@ -42,8 +42,6 @@ all-locales = nochi
 today = nama
 help-make-dataset = Ayúdenos a construir un conjunto de datos abierto públicamente y de alta calidad
 sign-up-account = Regístrese para obtener una cuenta
-email-subscription-title = Regístrese para recibir actualizaciones por correo electrónico
-email-subscription-title-new = Regístrese para recibir boletines de Common Voice, recordatorios de metas y actualizaciones de progreso
 
 ## Account Benefits
 

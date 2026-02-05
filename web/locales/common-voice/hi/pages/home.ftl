@@ -54,8 +54,6 @@ x-years-short =
     }
 help-make-dataset = उच्च गुणवत्ता और सार्वजनिक डेटासेट को बनाने में हमारी सहायता करें
 sign-up-account = खाते के लिए साइन अप करें
-email-subscription-title = ईमेल द्वारा अवगत रहने हेतु साइन अप करें
-email-subscription-title-new = कॉमन वॉयस समाचार पत्र, लक्ष्य अनुस्मारक और प्रगति अपडेट के लिए साइन अप करें
 
 ## Account Benefits
 

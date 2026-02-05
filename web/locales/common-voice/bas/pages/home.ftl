@@ -42,8 +42,6 @@ x-years-short =
     }
 help-make-dataset = Hôla bés le di ôô mayaa ma minje ma mahoñ inyu bôt bobasô
 sign-up-account = Tilba inyu ibana ijoň libôñ
-email-subscription-title = Tilba inyu ikôhna mél yôha ni kel
-email-subscription-title-new = Tila jôl inyu ikôhna manwin ma Common Voice, mbigda iyônôs ndak bôlô, ni yôha ni kel mañgan ma mahol ma nson
 
 ## Account Benefits
 

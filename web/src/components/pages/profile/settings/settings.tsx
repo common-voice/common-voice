@@ -10,13 +10,18 @@ import { COMMON_VOICE_EMAIL, UserClient } from 'common'
 import { Notifications } from '../../../../stores/notifications'
 import StateTree from '../../../../stores/tree'
 import { User } from '../../../../stores/user'
-import URLS from '../../../../urls'
-import { getManageSubscriptionURL } from '../../../../utility'
-import { LocaleLink } from '../../../locale-helpers'
-import { InfoIcon, PenIcon, SettingsIcon } from '../../../ui/icons'
-import { LabeledCheckbox, LabeledInput, LinkButton } from '../../../ui/ui'
+import { LabeledInput, LinkButton } from '../../../ui/ui'
+import { PenIcon } from '../../../ui/icons'
 
-import { useIsSubscribed } from '../../../../hooks/store-hooks'
+// We disabled email subscription management for now, because in the current system unsubscribing will be done through emails.
+// But this can change in the future
+// import URLS from '../../../../urls'
+// import { getManageSubscriptionURL } from '../../../../utility'
+// import { LocaleLink } from '../../../locale-helpers'
+// import { InfoIcon, PenIcon, SettingsIcon } from '../../../ui/icons'
+// import { LabeledCheckbox, LabeledInput, LinkButton } from '../../../ui/ui'
+
+// import { useIsSubscribed } from '../../../../hooks/store-hooks'
 
 import './settings.css'
 
@@ -58,7 +63,7 @@ interface Props
 
 function Settings(props: Props) {
   const { account, addNotification, getString } = props
-  const isSubscribed = useIsSubscribed()
+  // const isSubscribed = useIsSubscribed()
 
   useEffect(() => {
     const { pathname, search } = location
@@ -109,6 +114,9 @@ function Settings(props: Props) {
           <p className="email-change-info" />
         </Localized>
       </Section>
+      {/* 
+      // We disabled email subscription management for now, because in the current system unsubscribing will be done through emails.
+      // But this can change in the future
 
       {account.basket_token && (
         <Section
@@ -157,7 +165,7 @@ function Settings(props: Props) {
             </div>
           </div>
         </Section>
-      )}
+      )} */}
     </div>
   )
 }

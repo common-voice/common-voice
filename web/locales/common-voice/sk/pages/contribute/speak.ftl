@@ -3,6 +3,8 @@ speak-now = Hovorte teraz
 speak-subtitle = Prispejte svojim hlasom
 record-cta = Začnite nahrávať
 record-platform-not-supported = Ospravedlňujeme sa, no vaša platforma zatiaľ nie je podporovaná.
+record-platform-webview = Možno ste sa sem dostali kliknutím na odkaz v aplikácii sociálnych médií. Používate prehliadač v aplikácii, ktorý nepodporuje nahrávanie zvuku.
+record-platform-not-supported-webview = Na mobilných zariadeniach môžete prispievať pomocou prehliadača systému…
 record-platform-not-supported-desktop = Na počítačoch môžete prispieť stiahnutím...
 record-platform-not-supported-ios-non-safari = V systéme iOS použite pre nahrávanie prehliadač Safari…
 record-must-allow-microphone = Musíte povoliť prístup k mikrofónu.
@@ -10,6 +12,13 @@ record-no-mic-found = Nenašiel sa žiadny mikrofón.
 record-error-too-short = Vaša nahrávka bola príliš krátka.
 record-error-too-long = Vaša nahrávka bola príliš dlhá.
 record-error-too-quiet = Vaša nahrávka bola príliš tichá.
+record-error-uploaded-clip-corrupted =
+    Zdá sa, že váš zvukový záznam je poškodený. Môže k tomu dôjsť z týchto dôvodov:
+    
+    • Problémy s kompatibilitou prehliadača (skúste použiť iný prehliadač)
+    • Problémy s mikrofónom alebo ovládačom zvuku
+    • Prerušenia v sieťovom pripojení počas nahrávania
+    Skúste nahrávať znova.
 record-cancel = Zrušiť opakovaný záznam
 record-instruction = { $actionType } na <recordIcon></recordIcon> a prečítajte vetu nahlas
 record-stop-instruction = { $actionType } na <stopIcon></stopIcon> keď budete hotoví

@@ -42,8 +42,6 @@ x-years-short =
     }
 help-make-dataset = Taimaka mana wajen gina dataset mai inganci, kuma kyauta ga jama'a.
 sign-up-account = Yi rajista.
-email-subscription-title = Yi rajista domin samin saƙonnin email.
-email-subscription-title-new = Yi rejista dumin samun wasikun Common Voice, tunatarwa na buri da labarun sabuntawa
 
 ## Account Benefits
 

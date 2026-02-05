@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = Re thuše re age dathasete ya khwalithi ya go phagama kudu, le e phatlaletšwego
 sign-up-account = Ngwadiša go hwetša akhaonte
-email-subscription-title = ngwadiša go hwetša mpshafatšo go e-meile
-email-subscription-title-new = Ngwadiša go lengwalo la ditaba la Common Voice, dikgopotšo tša pakane le di tsebišo ka tšwelopele
 
 ## Account Benefits
 

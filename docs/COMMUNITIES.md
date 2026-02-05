@@ -11,8 +11,10 @@ Many language communities are self organising and have their contact channels on
 - General:
   - Common Voice on [Matrix (Official)](https://chat.mozilla.org/#/room/#common-voice:mozilla.org) — or open room `#common-voice:mozilla.org` in [other Matrix clients](https://matrix.to/#/#common-voice:mozilla.org)
   - Common Voice on [Discourse](https://discourse.mozilla.org/t/about-common-voice-readme-first/17218) [Official] learn more about how you can request a language specific sub-discourse thread on our readme.
-  - Common Voice on [Discord](https://discord.gg/9ZCVQarN) [Official]
+  - Common Voice on [Discord](https://discord.gg/9QTj9zwn) [Official]
   - Common Voice on [Telegram](https://t.me/mozilla_common_voice)
+- Arabic (`ar`):
+  - [Discord](https://discord.gg/QQ5vHBK24Y)
 - Bashqort (`ba`):
   - [Telegram](https://t.me/bashkort_voice)
 - Belarusian (`be`):
@@ -21,6 +23,8 @@ Many language communities are self organising and have their contact channels on
 - Bengali (`bn`):
   - [Matrix (Official)](https://chat.mozilla.org/#/room/#bn-common-voice:mozilla.org) — or open room `#bn-common-voice:mozilla.org` in [other Matrix clients](https://matrix.to/#/#bn-common-voice:mozilla.org)
   - [Discord](https://discord.gg/uacmNh6KQj)
+- Bandari, Achomi and other languages of Hormozan and its neighborhood:
+  - [Telegram](https://t.me/hormozganCV)
 - Cantonese (`yue`):
   - [Telegram](https://t.me/commonvoiceyue)
   - [Instagram](https://www.instagram.com/commonvoice.yue/)
@@ -46,9 +50,10 @@ Many language communities are self organising and have their contact channels on
   - [Discord](https://discord.com/invite/5ZdTHsN8Mn)
   - Matrix: room `!WNiJFJTBpvYqMrDWir:matrix.org` — open in [other Matrix clients](https://matrix.to/#/!WNiJFJTBpvYqMrDWir:matrix.org)
 - Esperanto (`eo`):
-  - [Matrix](https://matrix.to/#/#common-voice:mozilla.org)
-  - [GitHub](https://github.com/parolrekonado)
+  - [Matrix](https://chat.mozilla.org/#/room/#Esperanto:mozilla.org)
+  - [GitHub](https://github.com/parolteknologio)
   - [Website](https://parolrekonado.github.io/)
+  - [Telegram](https://t.me/joinchat/rkl0bSUR0jQxNzY0)
 - Farsi/Persian (`fa`):
   - [Telegram](https://t.me/Common_Voice)
 - French (`fr`):
@@ -60,12 +65,18 @@ Many language communities are self organising and have their contact channels on
   - [Facebook](https://www.facebook.com/groups/145786040762028)
 - Guaraní (`gn`):
   - [Telegram](https://t.me/joinchat/Y7QOWuaTw8dhMzli)
+- Hmong (`hmn`):
+  - [Discord](https://discord.gg/bFwWvH85RY)
+- Igbo (`ig`):
+  - [WhatsApp Group](https://chat.whatsapp.com/Cgw9yD2Xt1XFm6RiJe1bwb?mode=wwt)
 - Italian (`it`):
   - [Telegram](https://t.me/mozitabot)
 - Kiswahili (`sw`):
   - [Discourse](https://discourse.mozilla.org/c/voice/sw/603)
 - Korean (`ko`):
   - [Telegram](https://t.me/cv_korean)
+- Pashto (`ps`)
+  - [Discord](https://discord.gg/hSgQquMqnj)
 - Persian (`fa`):
   - [Telegram](https://t.me/Common_Voice)
 - Mandarin (Traditional Chinese) (`zh-TW`), Taiwanese (`nan-TW`) and Formosan Languages (`bnn`, `pwn`, `dru`, `tay`, `trv`, `szy`):
@@ -83,7 +94,5 @@ Many language communities are self organising and have their contact channels on
   - [X/Twitter](https://bit.ly/3jmq08a)
   - [Instagram](https://bit.ly/3G0RUAB)
   - [LinkedIn Page](https://bit.ly/3GeX6Rp)
-- Uzbek (`uz`):
-  - [Telegram](https://t.me/joinchat/lz2WlEvxlSQ1YzJi)
 - Wolof (`wo`):
   - [WhatsApp](https://chat.whatsapp.com/CqgmqagpljJA8F1TiNK203)

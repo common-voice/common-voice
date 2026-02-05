@@ -1,6 +1,6 @@
 ## Tagging Page
 
-tag-page-instruction = მითითბადჲებათ <icon></icon>ტექსტ ჰ̦ალო̆ დო́ლდალაჼ
+tag-page-instruction = მითითბადჲებათ <icon></icon>ტექსტეხ ჰ̦ალო̆ დო́ლდალაჼ
 tag-terms-checkbox = დარა́ლ'არ პირბახა́ პირადულობ დე́ბულებეხა́, მენხუ́ Common Voice-ს დგე́ნადჲო.
 tag-popover-title = ჩა́ვარჲებათ ჭად.
 select-a-tag = ჩა́ვარჲებათ ჭად.
@@ -22,3 +22,15 @@ select-all = ვო́მაჸ მონიშნოდარ
 # Messages
 tag-success-toast-message = მაქ ხო́ტტინო̆ ჭადნი დაქიშ  და დაჰ̦ითენო̆
 tag-error-toast-message = ხარცხილ'არ ჭადნი ჴე́ჰ̦ითოშ
+tag-empty-submit-error = ტექსტ ჲაჰ̦ითუჲნი̆  ცო ჲა. დეხო́თხ ჯერ მაქ ჭად ლა́ტჲებათ.
+# Code switching Guidelines
+cs-tag-do-guideline-1 = ნიფსიჼ ა́სუჲ ჴმა́რბადჲებათ
+cs-tag-do-guideline-2 = მოჰ̦ ლევლა, ოჴუჲგო̆  ჰ̦აფსათ
+cs-tag-do-guideline-3 = დაკრეშ დაყყდებათ იშტუჼ დაშნი
+cs-tag-do-not-guideline-1 = მონიშნოდებათ წარიშ, რე́ვალაჲნი̆ დაშნიე́ შო́რისდე́ბული.
+cs-tag-shortcuts-section-title = კლავიატურა ჴმა́რბადჲარ
+cs-tag-shortcuts-guideline-1 = <key>1</key>-<key>{ $numLanguages }</key>მატტიჼ ჭად
+cs-tag-shortcuts-guideline-2 = <key>{ tag-page-shortcut-toogle-mouse-keyboard }</key>{ toogle-mouse-keyboard }{ toogle-mouse-keyboard }
+cs-tag-shortcuts-guideline-3 = <key>{ tag-page-shortcut-remove-tags }</key>{ remove-tags }
+cs-tag-shortcuts-guideline-4 = <key>{ tag-page-shortcut-select-all }</key>{ select-all }
+cs-tag-shortcuts-guideline-5 = <key>{ tag-page-shortcut-tag-undo }</key>{ undo }

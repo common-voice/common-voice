@@ -23,7 +23,6 @@ report-button = Сообщить
 skip-button = Пропустить
 submit-button = Отправить
 contribute = Внести вклад
-request-new-language = Запросить новый язык
 # Button text which appears when there are no more resources
 continue-with-skipped = Продолжить с пропущенным
 
@@ -44,9 +43,6 @@ not-found-page-header = Не найдено
 not-found-page-content = Страница, которую вы ищете, не найдена
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Я согласен с <termsLink>Условиями</termsLink> и <privacyLink>Примечанием о конфиденциальности</privacyLink> Common Voice.
-# Locales (not yet fully resolved in Pontoon)
-meh = Юго-западный тлахиакский миштекский
-mel = Центральный меланау
 # Locales-Variants
 ms-MY = Бахаса Малай
 el-CY = Греческий кипрский

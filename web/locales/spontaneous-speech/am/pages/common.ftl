@@ -23,7 +23,6 @@ report-button = አሳውቅ
 skip-button = ዝለል
 submit-button = አስገባ
 contribute = ያበርክቱ
-request-new-language = አዲስ ቋንቋ ይጠይቁ
 # Button text which appears when there are no more resources
 continue-with-skipped = በተዘለለ ይቀጥሉ
 
@@ -41,9 +40,6 @@ not-found-page-header = አልተገኘም።
 not-found-page-content = የሚፈልጉት ገጽ ሊገኝ አልቻለም
 # Privacy and Terms checkbox
 accept-privacy-and-terms = በ ጋራ ድምፅ <termsLink>ደንቦች</termsLink> እና <privacyLink>የግላዊነት ማስታወቂያ</privacyLink> እስማማለሁ
-# Locales (not yet fully resolved in Pontoon)
-meh = ደቡብ ምዕራባዊ ተላሲያኮ ሚክስቴክ
-mel = ማዕከላዊ ሜላኑ
 # Locales-Variants
 ms-MY = ባሃሳ ማላይ
 

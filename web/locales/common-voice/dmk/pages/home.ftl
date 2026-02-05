@@ -58,8 +58,6 @@ x-years-short =
     }
 help-make-dataset = اُتھُلݳ معݳرݵئ عݸݳمَشُݸ کھُلݳ ڈݵٹݳ سݵٹݵک دُرݳلِنݺ بلݸ ݳمݳ مدد اِرݳ
 sign-up-account = اݵکݳݸنٹݵئ کݳرݸ سݳئن اَپ اِرݳ
-email-subscription-title = اِݵ مݵل اپڈݵٹݵݣݺ کݳرݸ سݳئن اَپ اِرݳ
-email-subscription-title-new = کݳمََن وݳئسݵئ نِݵݸز لݵٹرز، مقصَتݵݣݺ ݵݳددہݳنݵݣ نݸ پݵشرفتئ اَپڈݵٹݵݣݺ کݳرݸ سݳئن اَپ اِرݳ.
 
 ## Account Benefits
 
@@ -135,7 +133,6 @@ add-text = گِرمِنݳیݳ خَرِشݳرݳ
 
 ## Community section
 
-community-section-title = دُنݳتݵئ کمݵݸنِٹیݣݺ زرݵعَس شَتَہ لݵیَہ، دُنݳتݵئ کمیݸنِٹیݣݺ کݳرݸ — 130  بݳݽݸݣ نݸ مزید بسکݳگݳ!
 join-discord-community = ڈِسکݳرڈ کمیݸنِٹݵ نݳ کݸٹ ہُوݳ
 # label for button
 join-discord-community-action = ڈسکݳرڈَس امݵڎ کݸٹ کݸٹ ہُوݳ

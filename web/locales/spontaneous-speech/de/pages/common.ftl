@@ -23,7 +23,6 @@ report-button = Melden
 skip-button = Überspringen
 submit-button = Absenden
 contribute = Mitmachen
-request-new-language = Neue Sprache vorschlagen
 # Button text which appears when there are no more resources
 continue-with-skipped = Mit übersprungenen Inhalten weitermachen
 
@@ -44,9 +43,6 @@ not-found-page-header = Nicht gefunden
 not-found-page-content = Die Seite, die Sie suchen, wurde nicht gefunden.
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Ich stimme den <termsLink>Bedingungen</termsLink> und der <privacyLink>Datenschutzerklärung</privacyLink> von Common Voice zu
-# Locales (not yet fully resolved in Pontoon)
-meh = Südwesttlaxiacoisches Mixtekisch
-mel = Zentral-Melanau
 # Locales-Variants
 ms-MY = Bahasa-Malaysisch
 el-CY = Zypriotisches Griechisch

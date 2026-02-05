@@ -5,11 +5,12 @@ how-does-it-work-text = Culla participaziun collectiva creein nus in'unitad da d
 
 ## How does it work section
 
+about-sentence-collection-title = Collecziun da construcziuns
 about-speak = Discuora
 about-speak-text = Ils contribuiders registreschan lur vusch cun preleger construcziuns contribuidas en ina banca da datas.
 about-listen-queue = Colonna da spetga per tedlar
 about-listen-queue-text = Las registraziuns vegnan transmessas en ina colonna da spetga, nua ch'ellas vegnan preparadas per tedlar.
-about-listen = tedlar
+about-listen = Tedlar
 about-listen-text = Ils utilisaders confirmeschan l'exactadad dallas registraziuns e controlleschan, sch'il plidader ha legiu correctamein la construcziun.
 about-is-it-valid = Ei la registraziun correcta?
 about-is-it-valid-text = Ina registraziun vocala ei marcada sco "valeivla", sch'in utilisader valetescha ella cun in Gie.
@@ -21,7 +22,7 @@ about-dataset-new = Unitad da datas da Common Voice
 about-dataset-new-text = L'unitad da datas da Common Voice cuntegn tschiensmellis exempels da vuschs che gidan ils sviluppaders a crear utensils per identificar la vusch.
 about-clip-graveyard = Santeri da registraziuns
 about-clip-graveyard-text = Il santeri da registraziuns consista da registraziuns vocalas ch'ein buca vegnidas integradas ell'unitad da datas. Sco l'unitad da datas stat era il santeri da registraziuns a disposiziun per telecargar.
-about-get-involved = separticipar
+about-get-involved = Separticipar
 about-nav-why-common-voice = Daco?
 about-nav-how-it-works = Co?
 about-nav-partners = Partenaris

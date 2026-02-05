@@ -8,6 +8,13 @@ datasets-positioning =
     El conjunt de dades multilingüe del Common Voice ja és el conjunt de dades de veu disponible públicament més gran del seu tipus, però no l'únic.
     
     Considereu aquesta pàgina com a punt central de referència sobre els altres conjunts de dades de veu oberts i, a mesura que el Common Voice continua creixent, la pàgina on anunciarem les actualitzacions de les versions.
+# New/upcoming datasets page headline
+datasets-headline-mdc = Els conjunts de dades de Mozilla Common Voice ara estan disponibles exclusivament a Mozilla Data Collective.
+# New/upcoming datasets page headline text
+datasets-positioning-mdc =
+    A partir del Common Voice 23.0, tots els conjunts de dades del Common Voice estan disponibles exclusivament per a baixar a través de Mozilla Data Collective!
+    
+    Aquesta pàgina serveix com a arxiu històric per a versions anteriors dels conjunts de dades de Mozilla Common Voice. Les versions d'arxiu només s'han d'utilitzar en escenaris de recerca específics, no per a l'entrenament, per a respectar els desitjos d'aquells que han sol·licitat l'exclusió de les seves contribucions.
 datasets-speech-bubble-content = Notícies emocionants! Parla espontània està en camí! Estigueu atents a les novetats i assegureu-vos de consultar el nostre <discordLink>Discord</discordLink> per a obtenir la informació més recent.
 language = Llengua
 download-dataset-header = Baixa el conjunt de dades
@@ -102,3 +109,5 @@ female = Dona
 download-contribute-menu-tooltip = Baixeu els nostres conjunts de dades de veu
 # MENU ITEM ARIA LABELS
 download-contribute-menu-aria-label = Opcions de baixada per accedir a les dades del Common Voice
+datasets-show-more = Mostra tots els conjunts de dades
+datasets-show-less = Mostra els conjunts de dades més recents

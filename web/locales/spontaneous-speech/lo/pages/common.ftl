@@ -23,7 +23,6 @@ report-button = ລາຍງານ
 skip-button = ຂ້າມ
 submit-button = ສົ່ງ
 contribute = ມີສ່ວນຮ່ວມ
-request-new-language = ຂໍພາສາໃໝ່
 
 ## Navbar
 
@@ -38,9 +37,6 @@ not-found-page-header = ບໍ່ພົບ
 not-found-page-content = ບໍ່ພົບໜ້າທີ່ທ່ານຊອກຫາ
 # Privacy and Terms checkbox
 accept-privacy-and-terms = ຂ້ອຍຍອມຮັບ <termsLink>ເງື່ອນໄຂ</termsLink> ແລະ <privacyLink>ປະກາດຄວາມເປັນສ່ວນຕົວ</privacyLink> ຂອງ Common Voice.
-# Locales (not yet fully resolved in Pontoon)
-meh = Southwestern Tlaxiaco Mixtec
-mel = Central Melanau
 # Locales-Variants
 ms-MY = Bahasa Malay
 

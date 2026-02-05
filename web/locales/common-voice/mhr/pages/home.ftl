@@ -58,8 +58,6 @@ x-years-short =
     }
 help-make-dataset = Мыланна сай чылалан кучылташ лийше почмо датасетым ышташ полшо
 sign-up-account = Аккаунтлан возалт
-email-subscription-title = электрон почто дене уэмдалтмаш-влаклан возалт
-email-subscription-title-new = Common Voice увер-аҥарлан, шумлык нерген ушештарымашлан да ончыко кайымын уэмдалтмашыжлан возалт
 
 ## Account Benefits
 

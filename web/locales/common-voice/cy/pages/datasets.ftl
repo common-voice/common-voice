@@ -8,6 +8,13 @@ datasets-positioning =
     Set data amlieithog Common Voice eisoes yw'r set data llais mwyaf sydd ar gael o'i fath, ond nid yw'r unig un.
     
     Mae'r dudalen hon yn ganolfan gwybodaeth am setiau data llais cod agored eraill ac wrth i Common Voice barhau i dyfu, yn gartref i'n diweddariadau ryddhau ni.
+# New/upcoming datasets page headline
+datasets-headline-mdc = Dim ond ar y Mozilla Data Collective y mae setiau data Common Voice, Mozilla ar gael bellach.
+# New/upcoming datasets page headline text
+datasets-positioning-mdc =
+    O Common Voice 23.0, dim ond drwy'r Mozilla Data Collective y mae holl setiau data Common Voice ar gael i'w llwytho i lawr!
+    
+    Mae'r dudalen hon yn gwasanaethu fel archif hanesyddol ar gyfer fersiynau blaenorol o setiau data Mozilla Common Voice. Dim ond mewn sefyllfaoedd ymchwil penodol y dylid defnyddio datganiadau archif, nid ar gyfer hyfforddiant, i barchu dymuniadau'r rhai sydd wedi gofyn i'w cyfraniadau gael eu heithrio.
 datasets-speech-bubble-content = Newyddion cyffrous! Mae llefaru rhydd ar y ffordd! Cadwch yn effro am ddiweddariadau a gwnewch yn siŵr eich bod yn dilyn ein <discordLink>Discord</discordLink> am y wybodaeth ddiweddaraf.
 language = Iaith
 download-dataset-header = Llwytho'r Set Data i lawr

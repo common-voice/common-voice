@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = Mẽrdũmẽr yi d̃at̃aset̃ k̃hakẽr, sakẽr mẽdad woc.
 sign-up-account = Yi akownt̃ẽr (account) saynap (sasing up) car
-email-subscription-title = Emailẽ apd̃et̃ẽr (for update) saynap (sign up) car
-email-subscription-title-new = Kommon voysẽ khẽbarẽ khatẽ (newsletter) saynap car, maqsadẽ sẽk yod wẽzmukẽ kuzg woz tẽrẽqiyẽ apd̃et̃isht
 
 ## Account Benefits
 
@@ -120,7 +118,6 @@ add-text = Matanẽ shomil
 
 ## Community section
 
-community-section-title = Dẽnyo jẽmoatvẽ toqatẽn, dẽyoẽ jẽmoatẽr—130 zikishtẽs̃h tẽrẽqin!
 join-discord-community = Dẽ D̃iscord̃ shomil woc
 # label for button
 join-discord-community-action = Sẽ D̃iskard dẽ sakẽn shomil woc.

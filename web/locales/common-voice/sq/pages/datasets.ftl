@@ -8,6 +8,8 @@ datasets-positioning =
     Grupi shumëgjuhësh i të dhënave të Common Voice-it është tashmë grupi i të dhënave zanore më i madh publik në botë i llojit të vet, por s’është i vetmi.
     
     Shiheni këtë faqe si  një referencë për grupe të tjera të dhënash zanore me burim të hapët dhe, teksa Common Voice vazhdon të fuqizohet,si një shtëpi për përditësime të hedhjeve tona në qarkullim.
+# New/upcoming datasets page headline
+datasets-headline-mdc = Grupe të dhënash Mozilla Common Voice tani mund të merren përjashtimisht te Mozilla Data Collective.
 language = Gjuhë
 download-dataset-header = Shkarkoni Grupin e të Dhënave
 download-delta-explainer = Kemi bërë disa ndryshime. Segmentet Delta tani përmbajnë copëzat më të freskëta që nga hedhja e fundit në qarkullim. <deltaLink>Lexoni më tepër rreth kësaj pune</deltaLink>.
@@ -89,7 +91,12 @@ release-version = Version
 dataset-date = Datë
 license = Licencë: <licenseLink>{ $license }</licenseLink>
 license-mixed = Të përziera
+# Support old genders in older datasets
+male = Mashkull
+female = Femër
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = Shkarkoni grupe tonat të të dhënave zanore
 # MENU ITEM ARIA LABELS
 download-contribute-menu-aria-label = Mundësi shkarkimi për përdorim me të dhëna Common Voice
+datasets-show-more = Shfaq Krejt Grupet e të Dhënave
+datasets-show-less = Shfaq Grupet Më të Reja të të Dhënave

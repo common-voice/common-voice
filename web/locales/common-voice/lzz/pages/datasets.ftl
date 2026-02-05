@@ -2,6 +2,8 @@
 
 datasets-heading = Datamarç̌a
 datasets-headline = { "" }
+# New/upcoming datasets page headline
+datasets-headline-mdc = Mozilla Common Voiceşi data set̆epeşa açkva ar xvala Mozilla Data Collectiveşen ixtimen.
 language = Nena
 download-dataset-header = datamarç̌a Kogeiğit
 download-delta-explainer = { "" }
@@ -12,6 +14,7 @@ validated-hr-total = Tzuraneri saatişi ǩoroba
 overall-hr-total = Geneluri saatişi ǩoroba
 cv-license = Lisansi
 audio-format = Xomaşi Format̆i
+dataset-splits = Bogepe (Tzana do Cinsiyet̆i)
 number-of-voices = Xomaşi ǩoretsxa
 splits = Boginape
 email-to-download = { "" }
@@ -20,6 +23,7 @@ confirm-size = { "" }
 size-gigabyte = Didi Biritanya
 size-megabyte = MB
 confirm-no-identify = Common Voiceşi datamarç̌as na ren msinapupeşi noçinepe odziru şeni var inç̌itaten<b>ǩebuli atna</b>
+confirm-join-mailing-list = Common Voiceşi e-posta list̆eşa amaxtimu ginon (gorum)
 download-language = { $language } doya geiğit
 validated-hours = İtzuranu Saatepe
 recorded-hours = Doliç̌aru Saatepe
@@ -53,8 +57,12 @@ dataset-version = Versioni
 sha256-checksum-copied = SHA256 Checksum ǩop̌ya dixenu!
 sha256-checksum-copied-error = SHA256 Checksum ǩop̌ya var ixenu!
 clipboard-not-supported = Panok var numxacams
+no-information-available = Çkinapa  ren
+dataset-metadata-sex = Seksi
 # dataset metadata - age of contributor
 dataset-metadata-age = Tzana
+donate-modal-message = Dataseti tkvani gyulun (culun)
+dataset-donate-modal-heading = Giçkit̆es-i...
 data-download-singleword-title = Ar Zit̆a Noğire Boligina Kogeiğit
 data-download-button = Common Voiceşi Datape kogeiğit
 data-download-yes = Ho
@@ -73,3 +81,12 @@ release-version = Versioni
 dataset-date = Tarixi
 license = Lisansi: <licenseLink>{ $license }</licenseLink>
 license-mixed = Oǩont̆aleri
+# Support old genders in older datasets
+male = Mamuli
+female = Daduli
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = Xomaşi dataseti çkunis geiğit (ciğit)
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = Common Voiceşi datape odziru şeni geğmaluşi goşatsxunape
+datasets-show-more = Mtel Dataseti otziri
+datasets-show-less = En soni Dataseti otziri

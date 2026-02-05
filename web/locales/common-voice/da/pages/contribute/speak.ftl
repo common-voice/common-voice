@@ -41,6 +41,7 @@ terms-agree = Jeg accepterer
 terms-disagree = Jeg accepterer ikke
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = Tak fordi du donerede dine stemmoptagelser!
+first-cta-subtitle-text = Ved at fortælle os om dig selv, hjælper du udviklere med at bygge mere inkluderende teknologi
 why-donate = Hvorfor spørger du?
 add-information-button = Tilføj information
 continue-speaking-button = Nej tak, fortsæt med at tale
@@ -48,14 +49,22 @@ create-profile-text = Vil du gemme dine oplysninger? <createProfile>Opret en pro
 thanks-for-voice-toast = Tak for dine stemmeoplysninger
 thanks-for-voice-toast-error = Der opstod en fejl under indsendelse af dine stemmeoplysninger
 first-cta-gender-select-default-option = Vælg en mulighed
+first-cta-gender-select-help-text =
+    .label = Hvordan vil du beskrive dit køn eller din kønsidentitet?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Tak fordi du bidrager med din stemme!
 already-have-an-account = Har du allerede en konto? <login>Log ind</login>
 create-profile-button = Opret en profil
+# menu item
+read-sentences = Oplæs sætninger
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Oplæs sætninger <small>(kommer snart)</small>
 
 ## MENU ITEM TOOLTIPS
 
+speak-contribute-menu-tooltip = Oplæs sætninger, Svar på spørgsmål
 read-sentences-menu-item-tooltip = Optag dig selv, mens du oplæser sætninger på dit sprog
+answer-questions-menu-item-tooltip = Optag dig selv, mens du svarer på spørgsmål og prompts på dit sprog
 
 ## MENU ITEM ARIA LABELS
 

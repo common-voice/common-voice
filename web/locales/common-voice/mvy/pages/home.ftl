@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = زَیں مدد کری لہ بے من٘ڑنئ کوالٹی یاں، بُٹ خلکہ واں ہتے اے ڈیٹاسیٹ سن٘دِگ
 sign-up-account = کھاتہ سن٘دَیں یاں کریا زؤں ملہ ٹل ہو
-email-subscription-title = بجلی خطی لا اما خبر رڇھَیں یاں کریا اما ٹل کرہ
-email-subscription-title-new = کامن وائس خبرخطی، نخ یاد کرہۡ، آں کماں بارہ مہ نَیں خبری واں کریا زؤں ملی ٹل ہو
 
 ## Account Benefits
 
@@ -120,7 +118,6 @@ add-text = لِکیلیۡ ٹل کرہ
 
 ## Community section
 
-community-section-title = تام دُنیں یاں خلکہ وَیں کِھن٘گی نہ تام دُنَیں خلکہ واں کریا — 130 ژِبہۡ آں مِٹُھویں چئ ہوں بېں تھی!
 join-discord-community = ڈسکارڈ کمیُونٹی مہ ٹل ہو
 # label for button
 join-discord-community-action = ڈسکارڈ لا زَیں مِلہ

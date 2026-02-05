@@ -23,7 +23,6 @@ report-button = Αναφορά
 skip-button = Παράλειψη
 submit-button = Υποβολή
 contribute = Συνεισφορά
-request-new-language = Αίτημα για νέα γλώσσα
 # Button text which appears when there are no more resources
 continue-with-skipped = Συνέχεια με παραλειφθέντα
 
@@ -44,9 +43,6 @@ not-found-page-header = Δεν βρέθηκε
 not-found-page-content = Δεν ήταν δυνατή η εύρεση της σελίδας που ψάχνετε
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Συμφωνώ με τους <termsLink>Όρους</termsLink> και τη <privacyLink>Σημείωση απορρήτου</privacyLink> του Common Voice
-# Locales (not yet fully resolved in Pontoon)
-meh = Μιξτέκ νοτιοδυτικού Τλαξιάκο
-mel = Κεντρικά Μελανάου
 # Locales-Variants
 ms-MY = Μαλαϊκά
 el-CY = Ελληνικά (Κύπρος)

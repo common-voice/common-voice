@@ -21,7 +21,6 @@ report-button = رپورٹ
 skip-button = لیغان
 submit-button = جمع کن
 contribute = حصو دریا
-request-new-language = نوؤ زبانن درخواست کن
 # Button text which appears when there are no more resources
 continue-with-skipped = لے لیغدان دے جفت جاری اویاؤ
 
@@ -39,9 +38,6 @@ not-found-page-header = ملاؤ چے ݰوئے
 not-found-page-content = ڤے ګیم صفحہ کو تو کوسیتے وو ملاؤ چے ݰوئے
 # Privacy and Terms checkbox
 accept-privacy-and-terms = زو ڤے کامن وائسن <termsLink>شرائطف</termsLink>اڤن <privacyLink> ڤے رازدارین نوٹس قبول کینیمتے</privacyLink>
-# Locales (not yet fully resolved in Pontoon)
-meh = جنوب مشرقی ٹیلکسیاکو میکسٹیک
-mel = وسطی میلانو
 # Locales-Variants
 ms-MY = بھاسا مالے
 

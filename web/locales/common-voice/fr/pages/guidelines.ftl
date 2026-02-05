@@ -315,6 +315,8 @@ code-switching-tagging-error-3 = Des mots écrits avec la mauvaise orthographe
 # Using Correct Orthography for Each Language
 code-switching-orthography-header = Utilisez la bonne orthographe pour chaque langue
 code-switching-orthography-explanation = Écrivez chaque mot en fonction de l’orthographe de la langue dont il est issu. Par exemple :
+code-switching-orthography-explanation-example-1 = Même si le mot « cuisine » apparaît prononcé comme en espagnol, il doit être transcrit comme en français, et non « couissine ».
+code-switching-orthography-explanation-example-2 = Si le mot quinceaños est prononcé comme en français, écrivez-le avec le ñ.
 # Use Pronunciation to Help Determine the Language
 code-switching-pronunciation-header = Utilisez la prononciation pour déterminer la langue
 code-switching-pronunciation-explanation = Certains mots peuvent s’écrire de la même façon dans les deux langues, mais peuvent être prononcés différemment.  Écoutez la prononciation pour vous aider à l’identifier correctement. Par exemple : camping, jogging, smoking, brushing, shampooing.
@@ -325,6 +327,7 @@ code-switching-single-token-header = Identification au sein d’un jeton unique
 # Tag Punctuation Based on Nearby Language
 code-switching-punctuation-tagging-header = Identifiez la ponctuation en fonction de la langue utilisée à proximité
 code-switching-punctuation-tagging-explanation = Identifiez la ponctuation en utilisant la langue la plus proche à gauche de l’intervalle. Exemples :
+code-switching-punctuation-tagging-explanation-example-2 = <purple>mais</purple> <blue>tú los puedes comprar rojo, negro, azul</blue>, <purple>de toute façon.</purple> (BangorTalk)
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = Méfiez-vous des faux amis
 code-switching-lookalikes-explanation = Certains mots peuvent ressembler à une langue mais sont utilisés dans l’autre langue. Identifiez-les en fonction du sens et de leur utilisation, pas uniquement en fonction de leur orthographe. Exemples :

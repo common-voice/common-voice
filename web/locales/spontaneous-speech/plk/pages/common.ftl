@@ -23,7 +23,6 @@ report-button = رپورٹ
 skip-button = پھتِیا
 submit-button = ڇیݨ
 contribute = تعاون تِھیا
-request-new-language = نئی جِبے درخواست
 # Button text which appears when there are no more resources
 continue-with-skipped = Skipped سے ساتیْ جاری پھتِیا
 
@@ -44,9 +43,6 @@ not-found-page-header = نہ ہشِلُن
 not-found-page-content = څھوْس کھاں صفحہ ڇکینَت، اسہ نہ ہشِلُن۔
 # Privacy and Terms checkbox
 accept-privacy-and-terms = موْس کامن وائس سے اتفاق تھمَس <termsLink> شرائط </termsLink>  آں<privacyLink> رازداری نوٹس </privacyLink>
-# Locales (not yet fully resolved in Pontoon)
-meh = جنوب مغربی تلسیکو میکٹیک
-mel = وسطی میلانو
 # Locales-Variants
 ms-MY = بہاسا مالائی
 el-CY = قبرصی یونانی۔

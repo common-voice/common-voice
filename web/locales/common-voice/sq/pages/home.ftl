@@ -45,8 +45,6 @@ x-years-short =
     }
 help-make-dataset = Ndihmonani të krijojmë një grup të dhënash të cilësisë së lartë, të hapur publikisht
 sign-up-account = Regjistrohuni për një llogari
-email-subscription-title = regjistrohuni për përditësime me email
-email-subscription-title-new = Regjistrohuni për buletine, kujtues objektivash dhe përditësime ecurie për Common Voice-in
 
 ## Account Benefits
 
@@ -126,7 +124,6 @@ add-text = Shtoni Tekst
 
 ## Community section
 
-community-section-title = Bazuar në bashkësitë globale, për bashkësi globale — 130 gjuhë dhe që shtohen!
 join-discord-community = Bëhuni Pjesë e Bashkësisë në Discord
 # label for button
 join-discord-community-action = Ejani te ne në Discord

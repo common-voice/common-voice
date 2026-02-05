@@ -43,8 +43,7 @@ x-years-short =
     }
 help-make-dataset = Help ons een openbaar toegankelijke gegevensset van hoge kwaliteit te bouwen
 sign-up-account = Een account aanmaken
-email-subscription-title = schrijf u in voor e-mailupdates
-email-subscription-title-new = Registreer voor nieuwsbrieven van Common Voice, herinneringen aan uw doelstellingen en updates over uw voortgang.
+email-subscription-title-v3 = Aanmelden voor updates over Common Voice en de Mozilla Foundation
 
 ## Account Benefits
 
@@ -129,7 +128,7 @@ answer = Beantwoorden
 
 ## Community section
 
-community-section-title = Mogelijk gemaakt door wereldwijde gemeenschappen, voor wereldwijde gemeenschappen – 130 talen en groeiende!
+community-section-title-202601 = Mogelijk gemaakt door wereldwijde gemeenschappen, voor wereldwijde gemeenschappen – 290 talen en groeiende!
 join-discord-community = Doe mee met de Discord-gemeenschap
 # label for button
 join-discord-community-action = Doe met ons mee op Discord

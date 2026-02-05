@@ -1,8 +1,8 @@
 import * as request from 'request-promise-native'
-import { GenericStatistic, Sentence, TimeUnits } from 'common'
+import { GenericStatistic, LanguageData, Sentence, TimeUnits } from 'common'
 import DB, { getLocaleId } from './model/db'
 import { DBClip } from './model/db/tables/clip-table'
-import lazyCache from './lazy-cache'
+import lazyCache from './redis-cache'
 import { secondsToHours } from './utils/secondsToHours'
 import { fetchUserClientVariants } from '../application/repository/user-client-variants-repository'
 import { pipe } from 'fp-ts/lib/function'
@@ -16,27 +16,49 @@ import {
   fetchVariantClipsFromDB,
 } from '../application/repository/clips-repository'
 
-const AVG_CLIP_SECONDS = 4.694
+const AVG_CLIP_SECONDS = 4.835 // average seconds per clip across all languages - as of 2025-11-23
 
-// TODO: Update startup script to save % and retreive from database
-function fetchLocalizedPercentagesByLocale(): Promise<any> {
-  return request({
-    uri: 'https://pontoon.mozilla.org/graphql?query={project(slug:%22common-voice%22){localizations{totalStrings,approvedStrings,locale{code}}}}',
-    method: 'GET',
-    json: true,
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  }).then(({ data }: any) =>
-    data.project.localizations.reduce(
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
-      (obj: { [locale: string]: number }, l: any) => {
-        obj[l.locale.code] = Math.round(
-          (100 * l.approvedStrings) / l.totalStrings
+type PontoonLocale = {
+  locale: {
+    code: string
+    name: string
+  }
+  total_strings: number
+  approved_strings: number
+  pretranslated_strings: number
+  strings_with_warnings: number
+  strings_with_errors: number
+  missing_strings: number
+  unreviewed_strings: number
+  complete: boolean
+}
+
+async function fetchLocalizedPercentagesByLocale(): Promise<any> {
+  try {
+    const projectData = await request({
+      uri: 'https://pontoon.mozilla.org/api/v2/projects/common-voice/',
+      method: 'GET',
+      json: true,
+    })
+
+    const localeData: PontoonLocale[] = projectData.localizations
+
+    return localeData.reduce(
+      (obj: { [locale: string]: number }, localization: PontoonLocale) => {
+        obj[localization.locale.code] = Math.round(
+          (100 * localization.approved_strings) / localization.total_strings
         )
         return obj
       },
       {}
     )
-  )
+  } catch (error) {
+    console.error(
+      'Error fetching from Pontoon for localized percentages:',
+      error
+    )
+    return {}
+  }
 }
 
 /**
@@ -52,19 +74,21 @@ export default class Model {
     client_id: string,
     locale: string,
     count: number,
-    ignoreClientVariant: boolean,
+    ignoreClientVariant: boolean
   ): Promise<DBClip[]> {
     const localeId = await getLocaleId(locale)
 
-    const clientPrefersVariant = !ignoreClientVariant && await pipe(
-      client_id,
-      fetchUserClientVariants,
-      TE.map(ucvs => isVariantPreferredOption(localeId)(ucvs)),
-      TE.match(
-        () => false,
-        res => res
-      )
-    )()
+    const clientPrefersVariant =
+      !ignoreClientVariant &&
+      (await pipe(
+        client_id,
+        fetchUserClientVariants,
+        TE.map(ucvs => isVariantPreferredOption(localeId)(ucvs)),
+        TE.match(
+          () => false,
+          res => res
+        )
+      )())
 
     if (clientPrefersVariant) {
       const getUserClientVariantClips = pipe(
@@ -135,6 +159,17 @@ export default class Model {
     await this.db.saveClip(clipData)
   }
 
+  getCombinedLanguageData = lazyCache(
+    'get-combined-language-data',
+    async (): Promise<LanguageData[]> => {
+      return await this.db.getCombinedLanguageData()
+    },
+    6 * TimeUnits.HOUR,
+    3 * TimeUnits.MINUTE,
+    false,
+    { prefetch: true, prefetchBefore: 15 * TimeUnits.MINUTE } // Enable prefetch 15 minutes before expiry
+  )
+
   getAllLanguages = lazyCache(
     'get-all-languages-with-metadata',
     async (): Promise<any[]> => {
@@ -143,6 +178,8 @@ export default class Model {
     },
     TimeUnits.DAY,
     3 * TimeUnits.MINUTE,
+    false
+    // No prefetch - called by getLanguageStats and getClipsStats which have prefetch
   )
 
   getAllDatasets = lazyCache(
@@ -152,6 +189,8 @@ export default class Model {
     },
     TimeUnits.DAY,
     3 * TimeUnits.MINUTE,
+    false
+    // No prefetch
   )
 
   getLanguageDatasetStats = lazyCache(
@@ -161,6 +200,8 @@ export default class Model {
     },
     TimeUnits.DAY,
     3 * TimeUnits.MINUTE,
+    false
+    // No prefetch
   )
 
   getAllLanguagesWithDatasets = lazyCache(
@@ -170,6 +211,8 @@ export default class Model {
     },
     TimeUnits.DAY,
     3 * TimeUnits.MINUTE,
+    false,
+    { prefetch: true, prefetchBefore: 15 * TimeUnits.MINUTE } // Enable prefetch 15 minutes before expiry
   )
 
   getLocalizedPercentages = lazyCache(
@@ -177,6 +220,8 @@ export default class Model {
     async (): Promise<any> => fetchLocalizedPercentagesByLocale(),
     TimeUnits.DAY,
     3 * TimeUnits.MINUTE,
+    false
+    // No prefetch - called by getLanguageStats which has prefetch
   )
 
   getAverageSecondsPerClip = lazyCache(
@@ -188,7 +233,9 @@ export default class Model {
       return avg_seconds_per_clip || AVG_CLIP_SECONDS
     },
     12 * TimeUnits.HOUR,
-    10 * TimeUnits.MINUTE
+    30 * TimeUnits.MINUTE,
+    true // allow stale data - acceptable for statistics for 12 hours
+    // No prefetch - called 300+ times by getLanguageStats which has prefetch
   )
 
   getLanguageStats = lazyCache(
@@ -196,12 +243,6 @@ export default class Model {
     async (): Promise<any> => {
       const languages = await this.db.getAllLanguages()
       const allLanguageIds = languages.map(language => language.id)
-      const allAverageDurations = await Promise.all(
-        languages.map(async lang => {
-          const avg_seconds = await this.getAverageSecondsPerClip(lang.id)
-          return { ...lang, avg_seconds }
-        })
-      )
 
       const statsReducer = (langStats: GenericStatistic[]) => {
         return langStats.reduce((obj: any, stat: GenericStatistic) => {
@@ -210,21 +251,16 @@ export default class Model {
         }, {})
       }
 
-      const languageSentenceCounts = await Promise.all(
-        allLanguageIds.map(async id => {
-          return await this.db.getLanguageSentenceCounts(id)
-        })
-      )
-      const languageSentenceCountsMap = statsReducer(languageSentenceCounts)
-
+      // Fetch clip counts first to sort languages by size
       const [
         localizedPercentages,
         validClipsCounts,
         invalidClipsCounts,
         speakerCounts,
         allClipsCount,
+        languageSentenceCounts,
       ] = await Promise.all([
-        this.getLocalizedPercentages(), //translation %, no en
+        this.getLocalizedPercentages(),
         this.db
           .getValidClipCount(allLanguageIds)
           .then(data => statsReducer(data)),
@@ -237,7 +273,41 @@ export default class Model {
         this.db
           .getAllClipCount(allLanguageIds)
           .then(data => statsReducer(data)),
+        Promise.all(
+          allLanguageIds.map(async id => {
+            return await this.db.getLanguageSentenceCounts(id)
+          })
+        ),
       ])
+
+      const languageSentenceCountsMap = statsReducer(languageSentenceCounts)
+
+      // Sort languages by clip count (smallest first)
+      // Small languages process faster, so they complete early
+      // Large languages batch together at the end
+      const sortedLanguages = [...languages].sort((a, b) => {
+        const aCount = allClipsCount[a.id] || 0
+        const bCount = allClipsCount[b.id] || 0
+        return aCount - bCount
+      })
+
+      // Process in batches to avoid overwhelming connection pool
+      const BATCH_SIZE = 20
+      const allAverageDurations: Array<{
+        avg_seconds: number
+        [key: string]: unknown
+      }> = []
+
+      for (let i = 0; i < sortedLanguages.length; i += BATCH_SIZE) {
+        const batch = sortedLanguages.slice(i, i + BATCH_SIZE)
+        const batchResults = await Promise.all(
+          batch.map(async lang => {
+            const avg_seconds = await this.getAverageSecondsPerClip(lang.id)
+            return { ...lang, avg_seconds }
+          })
+        )
+        allAverageDurations.push(...batchResults)
+      }
 
       const lastFetched = new Date().toISOString()
 
@@ -279,7 +349,9 @@ export default class Model {
       return languageStats
     },
     12 * TimeUnits.HOUR,
-    10 * TimeUnits.MINUTE
+    120 * TimeUnits.MINUTE,
+    true, // allow stale data
+    { prefetch: true, prefetchBefore: 4 * TimeUnits.HOUR } // Prefetch 4h before expiry (33% of TTL)
   )
 
   getClipsStats = lazyCache(
@@ -306,13 +378,13 @@ export default class Model {
     'voice-stats',
     (locale: string) => this.db.getVoicesStats(locale),
     20 * TimeUnits.MINUTE,
-    3 * TimeUnits.MINUTE
+    5 * TimeUnits.MINUTE
   )
 
   getContributionStats = lazyCache(
     'contribution-stats',
     (locale?: string) => this.db.getContributionStats(locale),
     20 * TimeUnits.MINUTE,
-    3 * TimeUnits.MINUTE
+    5 * TimeUnits.MINUTE
   )
 }

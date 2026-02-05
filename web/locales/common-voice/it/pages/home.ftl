@@ -41,8 +41,7 @@ x-years-short =
     }
 help-make-dataset = Aiutaci a realizzare un dataset di alta qualità e aperto
 sign-up-account = Registrati
-email-subscription-title = Iscriviti agli aggiornamenti via email
-email-subscription-title-new = Iscriviti alle newsletter di Common Voice, ai promemoria degli obiettivi e agli aggiornamenti dei progressi
+email-subscription-title-v3 = Iscriviti per ricevere aggiornamenti su Common Voice e Mozilla Foundation
 
 ## Account Benefits
 
@@ -127,7 +126,7 @@ answer = Rispondi
 
 ## Community section
 
-community-section-title = Realizzato da comunità globali, per le comunità globali — 130 lingue, in continua crescita!
+community-section-title-202601 = Realizzato da comunità globali, per le comunità globali — 290 lingue, in continua crescita!
 join-discord-community = Unisciti alla comunità su Discord
 # label for button
 join-discord-community-action = Partecipa su Discord

@@ -23,11 +23,13 @@ report-button = Malde
 skip-button = Ìwwerhüpse
 submit-button = Fùrtschìcke
 contribute = Mìtmàche
-request-new-language = Néji Sproch vorschlaawe
+# Button text which appears when there are no more resources
+continue-with-skipped = Widderscht, mit dem, wàs ìwwerhüpst worre ìsch
 
 ## Navbar
 
 question = Fröje
+validate = Validiere
 respond-to-prompt = Ùff Fröje Àntwùrt gann
 transcribe = Trànschkribiere
 check-transcriptions = Trànschkriptione noochlüeje
@@ -38,9 +40,6 @@ not-found-page-header = Nìtt gfùnde
 not-found-page-content = D’Sitt, wo-n’r süeche, ìsch nierigs ze fìnde
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Ìch stìmm de <termsLink>Benùtzùngsbedìngùnge</termsLink> ùn de <privacyLink>Dàteschùtzerklärùng</privacyLink> vùn Common Voice zü
-# Locales (not yet fully resolved in Pontoon)
-meh = Mixtek vùn Südwescht-Tlaxiaco
-mel = Zentràl-Melanau
 # Locales-Variants
 ms-MY = Bahasa-Màlaisisch
 

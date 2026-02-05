@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = ایک اعلی معیار تہ عوامی کولاو ڈیٹا سیٹ ژُپنہ اماں ملی مدد کُرا
 sign-up-account = ایک ایکاونٹ کی سائن این کُرا
-email-subscription-title = ای میل اپ ڈیٹ تہ سائن اپ کُرا
-email-subscription-title-new = عام کاڻ نیوز لیڑز، مقصد تہ یاد دہانی نم آں پیش رفت تہ تازہ معلومات تہ پرئی سائین اپ کُرا
 
 ## Account Benefits
 

@@ -58,8 +58,6 @@ x-years-short =
     }
 help-make-dataset = مئے کمک ءَ بکن اِت کہ یک شریں کوالٹی یے، سرکاری رنگ ءَ پچیں ڈیٹاسیٹے جوڑ بہ کن اِت
 sign-up-account = اکاؤنٹ ئے واستہ سائن اپ کن
-email-subscription-title = ای میل نوخیں حالانی واستہ سائن اپ کن
-email-subscription-title-new = کامن وائس ءِ نیوز لیٹر، مول ءُ مراد ءِ یاد دہانی ءُ پیشرفت ءِ نوکیں ھالانی واستہ سائن اپ بہ کن اِت
 
 ## Account Benefits
 
@@ -135,7 +133,6 @@ add-text = نبشتانک ءَ ھوار کن
 
 ## Community section
 
-community-section-title = گلوبل کمیونٹیز ءِ نیمگ ءَ چہ طاقتور کنگ بوتگ، پہ گلوبل کمیونٹیز ءَ — 130 زبان ءُ دیمروئی کنگ ءَ اِنت!
 join-discord-community = ڈسکارڈ کمیونٹی ئا ہوار بی
 # label for button
 join-discord-community-action = ڈسکارڈ سرا مارا ہوار بئے

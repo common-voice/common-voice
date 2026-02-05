@@ -9,7 +9,6 @@ platform-language = Alustan kieli
 coming-soon = Lisää kieliä tulossa pian
 # For the button to skip an item
 skip-button = Ohita
-request-new-language = Pyydä uutta kieltä
 
 ## Navbar
 

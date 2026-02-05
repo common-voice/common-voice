@@ -10,7 +10,6 @@ platform-language-tooltip-text = Zmienia tylko tekst witryny
 # For the button to skip an item
 skip-button = Pomiń
 submit-button = Wyślij
-request-new-language = Zaproponuj dodanie nowego języka
 
 ## Navbar
 

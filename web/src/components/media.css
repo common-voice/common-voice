@@ -5,6 +5,7 @@
 @custom-media --xl-up (width >= 1200px);
 @custom-media --xxl-up (width >= 1350px);
 
+@custom-media --xs2-down (width < 350px);
 @custom-media --xs-down (width < 576px);
 @custom-media --sm-down (width < 768px);
 @custom-media --md-down (width < 992px);

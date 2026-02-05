@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = Bize ýokary hilli, köpçülige açyk maglumat bazasyny döretmäge kömek ediň.
 sign-up-account = Hasap açmak üçin ýazylyň
-email-subscription-title = email täzelikleri üçin ýazylyň
-email-subscription-title-new = Common Voice habarnamalaryna, maksat ýatlatmalaryna we öňegidişlik täzeliklerine ýazylyň
 
 ## Account Benefits
 

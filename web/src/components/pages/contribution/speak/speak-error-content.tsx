@@ -1,18 +1,18 @@
-import * as React from 'react';
-import { Localized } from '@fluent/react';
-import URLS from '../../../../urls';
+import * as React from 'react'
+import { Localized } from '@fluent/react'
+import URLS from '../../../../urls'
 
 import {
   ArrowRight,
   FirefoxColor,
   ChromeColor,
   SafariColor,
-} from '../../../ui/icons';
-import { LinkButton } from '../../../ui/ui';
-import { isIOS, isMobileSafari } from '../../../../utility';
-import VisuallyHidden from '../../../visually-hidden/visually-hidden';
+} from '../../../ui/icons'
+import { LinkButton } from '../../../ui/ui'
+import { isIOS, isMobileSafari } from '../../../../utility'
+import VisuallyHidden from '../../../visually-hidden/visually-hidden'
 
-const UnsupportedInfo = () => (
+const UnsupportedInfo = ({ isWebView = false }: { isWebView?: boolean }) => (
   <div className="empty-container">
     <div className="error-card unsupported">
       {isIOS() && !isMobileSafari() ? (
@@ -27,30 +27,43 @@ const UnsupportedInfo = () => (
           <h1>
             <Localized id="record-platform-not-supported" />
           </h1>
-          <p className="desktop">
-            <Localized id="record-platform-not-supported-desktop" />
-          </p>
-          <div>
-            <a
-              rel="noopener noreferrer"
-              target="_blank"
-              href="https://www.firefox.com/">
-              <VisuallyHidden>Firefox</VisuallyHidden>
-              <FirefoxColor />
-            </a>
-            <a
-              rel="noopener noreferrer"
-              target="_blank"
-              href="https://www.google.com/chrome">
-              <VisuallyHidden>Chrome</VisuallyHidden>
-              <ChromeColor />
-            </a>
-          </div>
+          {isWebView ? (
+            <>
+              <p>
+                <Localized id="record-platform-webview" />
+              </p>
+              <p className="desktop">
+                <Localized id="record-platform-not-supported-webview" />
+              </p>
+            </>
+          ) : (
+            <>
+              <p className="desktop">
+                <Localized id="record-platform-not-supported-desktop" />
+              </p>
+              <div>
+                <a
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href="https://www.firefox.com/">
+                  <VisuallyHidden>Firefox</VisuallyHidden>
+                  <FirefoxColor />
+                </a>
+                <a
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  href="https://www.google.com/chrome">
+                  <VisuallyHidden>Chrome</VisuallyHidden>
+                  <ChromeColor />
+                </a>
+              </div>
+            </>
+          )}
         </>
       )}
     </div>
   </div>
-);
+)
 
 const NoSentencesAvailable = () => (
   <div className="empty-container">
@@ -66,7 +79,7 @@ const NoSentencesAvailable = () => (
       </LinkButton>
     </div>
   </div>
-);
+)
 
 const NoSentencesAvailableForVariant = () => (
   <div className="empty-container">
@@ -81,7 +94,7 @@ const NoSentencesAvailableForVariant = () => (
       </LinkButton>
     </div>
   </div>
-);
+)
 
 const LoadingError = () => (
   <div className="empty-container">
@@ -94,44 +107,46 @@ const LoadingError = () => (
       </p>
     </div>
   </div>
-);
+)
 
 interface Props {
-  isLoading: boolean;
-  hasLoadingError: boolean;
-  isUnsupportedPlatform: boolean;
-  isMissingClips: boolean;
-  isMissingClipsForVariant: boolean;
+  isLoading: boolean
+  hasLoadingError: boolean
+  isWebView: boolean
+  isUnsupportedPlatform: boolean
+  isMissingClips: boolean
+  isMissingClipsForVariant: boolean
 }
 
 const SpeakErrorContent = ({
   isLoading,
   hasLoadingError,
+  isWebView,
   isUnsupportedPlatform,
   isMissingClips,
   isMissingClipsForVariant,
 }: Props) => {
   if (isLoading) {
-    return null;
+    return null
   }
 
   if (hasLoadingError) {
-    return <LoadingError />;
+    return <LoadingError />
   }
 
   if (isUnsupportedPlatform) {
-    return <UnsupportedInfo />;
+    return <UnsupportedInfo isWebView={isWebView} />
   }
 
   if (isMissingClipsForVariant) {
-    return <NoSentencesAvailableForVariant />;
+    return <NoSentencesAvailableForVariant />
   }
 
   if (isMissingClips) {
-    return <NoSentencesAvailable />;
+    return <NoSentencesAvailable />
   }
 
-  return null;
-};
+  return null
+}
 
-export default SpeakErrorContent;
+export default SpeakErrorContent

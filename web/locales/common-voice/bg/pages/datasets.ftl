@@ -8,6 +8,8 @@ datasets-positioning =
     Многоезичният набор от данни за Voice вече е най-големият обществено достъпен гласов набор от данни, но не е единственият.
     
     Вижте тази страница като референтен център за други набори от гласови данни с отворен код. Common Voice продължава да расте и е дом за нашите нови издания.
+# New/upcoming datasets page headline
+datasets-headline-mdc = Наборите от данни на Mozilla Common Voice вече са достъпни изключително в Mozilla Data Collective.
 language = Език
 download-dataset-header = Изтегляне на набор от данни
 download-delta-explainer = Направихме някои промени. Делта сегментите съдържат само най-новите клипове след последното издание. <deltaLink>Прочетете повече за тази промяна</deltaLink>.
@@ -40,6 +42,8 @@ subscribe = Абониране
 get-started-speech = Въведение в разпознаването на реч
 other-datasets = Други набори от гласови данни
 feedback-q = Имате препоръки?
+# This indicates that there is no data to display
+no-information = Няма информация
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ е <docsLink>набор с инструменти с отворен код</docsLink> за изследователи, разработващи най-съвременни разговорни AI модели.
 resource-deepspeech-info = Механизмът за гласово разпознаване на Mozilla с отворен код Deep Speech може да се използва за създаване на приложения за разпознаване на реч. Прочетете нашия <githubLink>Github</githubLink> или се присъединете към <discourseLink>Discourse DeepSpeech</discourseLink>, за да научите как да започнете.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> е посветен на технологията за отворена реч. Техните проекти включват базирани на дълбоко обучение STT и TTS двигатели.
@@ -62,6 +66,12 @@ dataset-version = Версия
 sha256-checksum-copied = Контролната сума на SHA256 е копирана!
 sha256-checksum-copied-error = Неуспешно копиране на контролна сума SHA256
 clipboard-not-supported = Системният буфер не се поддържа
+no-information-available = Няма налична информация
+dataset-metadata-sex = Пол
+# dataset metadata - age of contributor
+dataset-metadata-age = Възраст
+donate-modal-message = Вашият набор от данни се изтегля!
+dataset-donate-modal-heading = Знаете ли, че…
 data-download-singleword-title = Изтеглете целевия сегмент от една дума
 data-download-singleword-callout-v2 = Това е сегмент, насочен към случаи на употреба, съдържащ данни, позволяващи разпознаване на изговорени цифри и долавяне на фразите „да“ и „не“.
 data-download-button = Изтегляне на данните от Common Voice
@@ -81,3 +91,7 @@ release-version = Версия
 dataset-date = Дата
 license = Лиценз: <licenseLink>{ $license }</licenseLink>
 license-mixed = Смесен
+# Support old genders in older datasets
+male = Мъжки
+female = Женски
+datasets-show-more = Показване на всички набори от данни

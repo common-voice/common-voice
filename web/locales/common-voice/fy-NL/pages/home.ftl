@@ -53,8 +53,7 @@ x-years-short =
     }
 help-make-dataset = Help ús in iepenbier tagonklike gegevensset fan hege kwaliteit te bouwen
 sign-up-account = In account oanmeitsje
-email-subscription-title = skriuw jo yn foar e-mailfernijingen
-email-subscription-title-new = Registrearje foar nijsbrieven fan Common Voice, omtinken oan jo doelstellingen en updates oer jo foartgong.
+email-subscription-title-v3 = Oanmelde foar updates oer Common Voice en Mozilla Foundation
 
 ## Account Benefits
 
@@ -139,12 +138,16 @@ answer = Beäntwurdzje
 
 ## Community section
 
-community-section-title = Mooglik makke troch wrâldwide mienskippen, foar wrâldwide mienskippen – 130 talen en groeiende!
+community-section-title-202601 = Mooglik makke troch wrâldwide mienskippen, foar wrâldwide mienskippen – 290 talen en groeiende!
 join-discord-community = Doch mei mei de Discord-mienskip
 # label for button
 join-discord-community-action = Doch mei ús mei op Discord
 join-discord-community-content = Doch mei oan taalmienskipsdiskusjes, stel fragen en lês oer oankommende eveneminten en petearen.
 find-us-on-matrix = Fyn ús op Matrix
+find-us-on-matrix-content-v2 = Matrix is in iepen, ljochtgewicht protokol foar desintralisearre kommunikaasje yn realtime, en Mozilla’s favorite iepen diskusjeplatfoarm. Wy binne yn keamer ‘common-voice:mozilla.org’.
+# label for button
+find-us-on-element-action-1 = Elemint
+find-us-on-matrix-action-2 = Oare clients
 ask-mozilla-share = Freegje Mozilla om jo eveneminten te dielen
 ask-mozilla-share-content = Hawwe jo in foarige of oankommend evenemint? Diel it mei ús en wy sille it oankundigje oan ús mienskip of der in blog oer skriuwe!
 # label for button

@@ -41,8 +41,6 @@ x-years-short =
     }
 help-make-dataset = Jutane a reaƚixare on dataset de bona cualità e publico
 sign-up-account = Nòtate
-email-subscription-title = Nòtate a i axornamenti via email
-email-subscription-title-new = Nòtate a óe newsletter de Common Voice, a i promemoria de i obietivi e a i axornamenti de i progresi
 
 ## Account Benefits
 

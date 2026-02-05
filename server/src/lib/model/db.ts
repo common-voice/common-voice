@@ -10,11 +10,14 @@ import {
   taxonomies,
   Language,
   Datasets,
+  VariantData,
+  AccentData,
+  LanguageData,
 } from 'common'
 import lazyCache, {
-  redisSetAddWithExpiry,
+  redisSetAddManyWithExpiry,
   redisSetMembers,
-} from '../lazy-cache'
+} from '../redis-cache'
 import { option as O, task as T, taskEither as TE } from 'fp-ts'
 import { pipe } from 'fp-ts/lib/function'
 import { DatasetStatistics } from '../../core/datasets/types/dataset'
@@ -24,18 +27,23 @@ import {
 } from '../../application/repository/variant-repository'
 import { TimeUnits } from 'common'
 
+// Flag to disable taxonomy prioritization
+const DISABLE_TAXONOMY_PRIORITY = true
 
 // When getting new sentences/clips we need to fetch a larger pool and shuffle it to make it less
 // likely that different users requesting at the same time get the same data
 const SHUFFLE_SIZE = 500
 
 // We select this much extra because some might be removed later
+// And we increased cache duration to cover multiple postings
 const EXTRA_COUNT = 5
+const EXTRA_COUNT_MULTIPLIER = 10
 
 // Ref JIRA ticket OI-1300 - we want to exclude languages with fewer than 500k active global speakers
 // from the single sentence record limit, because they are unlikely to amass enough unique speakers
 // to benefit from single sentence constraints
-const SINGLE_SENTENCE_LIMIT = ['en', 'de', 'fr', 'kab', 'rw', 'es']
+// const SINGLE_SENTENCE_LIMIT = ['en', 'de', 'fr', 'kab', 'rw', 'es'] // these values are from 5 years ago
+const SINGLE_SENTENCE_LIMIT = ['de', 'fr', 'rw']
 
 const teammate_subquery =
   '(SELECT team_id FROM enroll e LEFT JOIN challenges c ON e.challenge_id = c.id WHERE e.client_id = ? AND c.url_token = ?)'
@@ -51,7 +59,7 @@ const participantConditions = {
 }
 
 const redisKeyPerUserSentenceIdSet = (client_id: string) => {
-  return `recorded-sentences-by-${client_id}`
+  return `sentences:to-speak-by-${client_id}`
 }
 
 export const getParticipantSubquery = (
@@ -194,6 +202,33 @@ export default class DB {
     }
   }
 
+  /**
+   * Get random selection from array
+   */
+  private getRandomSelection<T>(array: T[], count: number): T[] {
+    const shuffled = [...array]
+
+    // Fisher-Yates shuffle
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1))
+      ;[shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]]
+    }
+
+    return shuffled.slice(0, count)
+  }
+
+  /**
+   * Shuffle entire array (for when we need all elements randomized)
+   */
+  private shuffleArray<T>(array: T[]): T[] {
+    const shuffled = [...array]
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1))
+      ;[shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]]
+    }
+    return shuffled
+  }
+
   async getSentenceCountByLocale(): Promise<
     {
       locale_id: number
@@ -217,7 +252,7 @@ export default class DB {
   }
 
   /**
-   * Get valid and random clips per language
+   * Get valid clips per language (not random anymore, we randomize in code per user)
    * @param languageId
    * @param limit
    * @returns
@@ -236,12 +271,9 @@ export default class DB {
           s.text as sentence,
           c.original_sentence_id as original_sentence_id
         FROM clips c
-        INNER JOIN
-          sentences s ON s.id = c.original_sentence_id
-          AND c.locale_id = ?
-        WHERE
-          c.is_valid IS NULL
-        ORDER BY RAND()
+        INNER JOIN sentences s ON s.id = c.original_sentence_id
+        WHERE c.locale_id = ?
+          AND c.is_valid IS NULL
         LIMIT ?
       `,
       [languageId, limit]
@@ -307,38 +339,67 @@ export default class DB {
     count: number
   ): Promise<Sentence[]> {
     let taxonomySentences: Sentence[] = []
+    let regularSentences: Sentence[] = []
     const locale_id = await getLocaleId(locale)
     const exemptFromSSRL = !SINGLE_SENTENCE_LIMIT.includes(locale)
+    const countWithExtras = count + EXTRA_COUNT_MULTIPLIER * EXTRA_COUNT
 
-    const prioritySegments = this.getPrioritySegments(locale)
-
-    if (prioritySegments.length) {
-      taxonomySentences = await this.findSentencesMatchingTaxonomy(
-        client_id,
-        locale_id,
-        count + EXTRA_COUNT,
-        prioritySegments
-      )
-    }
-
-    const regularSentences =
-      taxonomySentences.length >= count
-        ? []
-        : await this.findSentencesWithFewClips(
-          client_id,
-          locale_id,
-          count + EXTRA_COUNT - taxonomySentences.length,
-          exemptFromSSRL
-        )
-
-    // exclude recently recorded sentences by the user (from Redis cache) to overcome race conditions
+    // Make sure to exclude recently recorded sentences by the user (from Redis cache)
+    // to overcome race condition caused by INSERT being slower than SELECT
     const redisSet = await redisSetMembers(
       redisKeyPerUserSentenceIdSet(client_id)
     )
-    const totalSentences = (taxonomySentences.concat(regularSentences) || [])
-      .filter((s: Sentence) => !redisSet.includes(s.id))
-      .slice(0, count)
 
+    if (!DISABLE_TAXONOMY_PRIORITY) {
+      const prioritySegments = this.getPrioritySegments(locale)
+      // If there are any, get some taxonomy ones first (priority)
+      if (prioritySegments.length) {
+        taxonomySentences = await this.findSentencesMatchingTaxonomy(
+          client_id,
+          locale_id,
+          countWithExtras,
+          prioritySegments
+        )
+      }
+      // still prevent race condition
+      taxonomySentences = taxonomySentences.filter(
+        (s: Sentence) => !redisSet.includes(s.id)
+      )
+    }
+
+    // If not enough collected (or none) from taxonomy, fill with regular ones
+    if (taxonomySentences.length < count) {
+      // This now gets 500 (SHUFFLE_SIZE) sentences
+      // We might like to CACHE these for a while
+      regularSentences = await this.findSentencesWithFewClips(
+        client_id,
+        locale_id,
+        SHUFFLE_SIZE,
+        exemptFromSSRL
+      )
+      const nonTaxonomyCount = count - taxonomySentences.length // must be positive, this much we need more
+      regularSentences = this.getRandomSelection(
+        regularSentences.filter((s: Sentence) => !redisSet.includes(s.id)), // filter out redis ones
+        nonTaxonomyCount // get a random subset, only what we need
+      )
+    }
+
+    const totalSentences = (
+      taxonomySentences.concat(regularSentences) || []
+    ).slice(0, count) // make sure to only return the requested amount
+
+    // These sentences have been given to this user - ADD to Redis for 2 days to prevent re-selection
+    // We now use redisSetAddManyWithExpiry instead of redisSetFillManyWithExpiry to accumulate
+    // previously recorded sentences, not replace them
+    // Beware, each time new sentences are added, the expiry is set to 2 days from that moment
+    // It will now expire in 2 days if the user does not come back to record more
+    // The duration of 2 days is chosen to prevent re-selection of corrupted audio which we cannot remove now,
+    // otherwise duplicate clip errors come out
+    await redisSetAddManyWithExpiry(
+      redisKeyPerUserSentenceIdSet(client_id),
+      totalSentences.map(s => s.id),
+      2 * TimeUnits.DAY
+    )
     return this.appendMetadataToSentence(totalSentences)
   }
 
@@ -365,50 +426,49 @@ export default class DB {
     return sentences
   }
 
+  // Note: no RAND() here anymore — deterministic slice for performance, randomization done in app
   async findSentencesWithFewClips(
     client_id: string,
     locale_id: number,
-    count: number,
+    limit: number,
     exemptFromSSRL?: boolean
   ): Promise<Sentence[]> {
     const [rows] = await this.mysql.query(
       `
-        SELECT *
-        FROM (
-          SELECT sentences.id, text
-          FROM sentences
-          LEFT JOIN taxonomy_entries te ON te.sentence_id = sentences.id
-          WHERE
-            is_used
-            AND locale_id = ?
-            AND clips_count <= 15
-            AND te.sentence_id IS NULL
-            AND NOT EXISTS (
-              SELECT original_sentence_id
-              FROM clips
-              WHERE clips.original_sentence_id = sentences.id AND
-                clips.client_id = ?
-              UNION ALL
-              SELECT sentence_id
-              FROM skipped_sentences skipped
-              WHERE skipped.sentence_id = sentences.id AND
-                skipped.client_id = ?
-              UNION ALL
-              SELECT sentence_id
-              FROM reported_sentences reported
-              WHERE reported.sentence_id = sentences.id AND
-                reported.client_id = ?
-            )
-          ${exemptFromSSRL ? '' : 'AND (clips_count = 0 OR has_valid_clip = 0)'}
-          ORDER BY clips_count ASC
-          LIMIT ?
-        ) t
-        ORDER BY RAND()
-        LIMIT ?
-      `,
-      [locale_id, client_id, client_id, client_id, SHUFFLE_SIZE, count]
+      SELECT s.id, s.text
+      FROM sentences AS s
+      WHERE s.is_used
+        AND s.locale_id = ?
+        AND s.clips_count < 15
+        AND NOT EXISTS (
+          SELECT 1 FROM taxonomy_entries te WHERE te.sentence_id = s.id
+        )
+        ${
+          exemptFromSSRL
+            ? ''
+            : 'AND (s.clips_count = 0 OR s.has_valid_clip = 0)'
+        }
+        AND NOT EXISTS (
+          SELECT 1 FROM clips c
+          WHERE c.original_sentence_id = s.id AND c.client_id = ?
+        )
+        AND NOT EXISTS (
+          SELECT 1 FROM skipped_sentences ss
+          WHERE ss.sentence_id = s.id AND ss.client_id = ?
+        )
+        AND NOT EXISTS (
+          SELECT 1 FROM reported_sentences rs
+          WHERE rs.sentence_id = s.id AND rs.client_id = ?
+        )
+      ORDER BY s.clips_count ASC, s.id ASC
+      LIMIT ?
+    `,
+      [locale_id, client_id, client_id, client_id, limit]
     )
-    return (rows || []).map(({ id, text }: any) => ({ id, text }))
+    return (rows || []).map(({ id, text }: Sentence) => ({
+      id,
+      text,
+    }))
   }
 
   async findSentencesMatchingTaxonomy(
@@ -490,15 +550,19 @@ export default class DB {
       taxonomySentences.length >= count
         ? []
         : await this.findClipsWithFewVotes(
-          client_id,
-          locale_id,
-          count - taxonomySentences.length,
-          exemptFromSSRL
-        )
+            client_id,
+            locale_id,
+            count - taxonomySentences.length,
+            exemptFromSSRL
+          )
 
     return taxonomySentences.concat(regularSentences)
   }
 
+  /*
+    Our issue here lies in the inefficiency of the business logic and diversity of languages.
+    TODO: Handle this with AdaptiveLazyCache with random selection / reservation logic
+  */
   async findClipsWithFewVotes(
     client_id: string,
     locale_id: number,
@@ -506,35 +570,42 @@ export default class DB {
     exemptFromSSRL?: boolean
   ): Promise<DBClip[]> {
     // get cached clips for given language
+    /*
+    In the previous implementation where RAND() was in the SQL:
+    Real world measures over 7 days (for 10k records, 1 min cache dur, 3 min lock dur - which was causing trouble):
+    - Avg. query time: 2.98 secs - Worst case: 2 min 56 secs (a later measure was 4.3 min)
+    - Avg rows scanned: 434,741 - Avg rows returned: 9,243
+    => Worst case is caused by large number of records which are not used at all (happens in prominent languages)...
+    Most of the time use of RAND() in SQL result in too many row scans, thus IO delays - if the LIMIT is large.
+    Thus, in this implementation we moved randomization to code.
+    */
     const cachedClips: DBClip[] = await lazyCache(
       `new-clips-per-language-${locale_id}`,
       async () => {
-        return await this.getClipsToBeValidated(locale_id, 10000)
+        // The returned values are now NOT RANDOMIZED
+        // We prefer newer recordings, they will have less validated ones
+        return await this.getClipsToBeValidated(locale_id, 20_000) // Increase count from 10k
       },
-      TimeUnits.MINUTE,
-      3 * TimeUnits.MINUTE
+      10 * TimeUnits.MINUTE, // Increase cache duration considerably from 1 min
+      5 * TimeUnits.MINUTE, // Now we have much much better fetch time as we removed RAND(), measured <1 sec, but let's cover concurrency
+      false // no stale data
+      // No prefetching, to retire old caches without contributors
     )()
 
     //filter out users own clips
-    const validUserClips: DBClip[] = cachedClips.filter(
+    const otherUserClips: DBClip[] = cachedClips.filter(
       (row: DBClip) => row.client_id != client_id
     )
 
-    // potentially cache-able
+    // potentially cache-able (does not cause much load as of today)
     // get users previously interacted clip ids
     const [submittedUserClipIds] = await this.mysql.query(
       `
-      SELECT clip_id
-        FROM votes
-        WHERE client_id = ?
-        UNION ALL
-        SELECT clip_id
-        FROM reported_clips reported
-        WHERE client_id = ?
-        UNION ALL
-        SELECT clip_id
-        FROM skipped_clips skipped
-        WHERE client_id = ?
+      SELECT clip_id FROM votes WHERE client_id = ?
+      UNION ALL
+      SELECT clip_id FROM reported_clips reported WHERE client_id = ?
+      UNION ALL
+      SELECT clip_id FROM skipped_clips skipped WHERE client_id = ?
       `,
       [client_id, client_id, client_id]
     )
@@ -545,18 +616,25 @@ export default class DB {
     )
 
     //get clips that a user hasn't already seen
-    const validClips = new Set(
-      validUserClips.filter((clip: DBClip) => {
-        if (exemptFromSSRL) return !skipClipIds.has(clip.id)
+    const eligibleClips = new Set(
+      otherUserClips.filter((clip: DBClip) => {
+        const notSeenBefore = !skipClipIds.has(clip.id)
+        if (exemptFromSSRL) return notSeenBefore
         //only return clips that have not been validated before
-        return !skipClipIds.has(clip.id) && clip.has_valid_clip === 0
+        return notSeenBefore && clip.has_valid_clip === 0
       })
     )
 
-    if (validClips.size > count) {
-      return Array.from(validClips)
+    // Return random selection from eligible clips
+    if (eligibleClips.size > 0 && eligibleClips.size <= count) {
+      // less than requested, so shuffle and return
+      return this.shuffleArray(Array.from(eligibleClips))
+    } else if (eligibleClips.size > count) {
+      // more than requested, so return requested count from randomized array
+      return this.getRandomSelection(Array.from(eligibleClips), count)
     }
 
+    // zero case - try to re-select
     const [clips] = await this.mysql.query(
       `
       SELECT *
@@ -797,12 +875,6 @@ export default class DB {
     sentence: string
     duration: number
   }): Promise<void> {
-    // save in Redis regardless of mysql results - they can come back 1 hour later in case of failure
-    await redisSetAddWithExpiry(
-      redisKeyPerUserSentenceIdSet(client_id),
-      original_sentence_id,
-      TimeUnits.HOUR
-    )
     // Do the insert/updates
     try {
       const [{ insertId }] = await this.mysql.query(
@@ -914,7 +986,8 @@ export default class DB {
             `
               SELECT COUNT(*) AS total, ${to} AS date
               FROM clips
-              WHERE created_at BETWEEN ${from} AND ${to} ${locale ? 'AND locale_id = ?' : ''
+              WHERE created_at BETWEEN ${from} AND ${to} ${
+              locale ? 'AND locale_id = ?' : ''
             }
             `,
             [localeId]
@@ -987,8 +1060,8 @@ export default class DB {
           FROM (
             SELECT (TIMESTAMP(DATE_FORMAT(NOW(), '%Y-%m-%d %H:00')) - INTERVAL hour HOUR) AS date
             FROM (${hours
-        .map(i => `SELECT ${i} AS hour`)
-        .join(' UNION ')}) hours
+              .map(i => `SELECT ${i} AS hour`)
+              .join(' UNION ')}) hours
           ) date_alias
           LEFT JOIN (
             SELECT created_at
@@ -1289,6 +1362,81 @@ export default class DB {
     )[0][0].count
   }
 
+  //
+  // Support for Language Record Arrays
+  //
+
+  async getCombinedLanguageData(): Promise<LanguageData[]> {
+    // LookUp Maps
+    const variantMap = new Map<number, VariantData[]>()
+    const accentMap = new Map<number, AccentData[]>()
+    // Variants
+    const [variant_rows] = await this.mysql.query(
+      `
+        SELECT
+          id,
+          variant_token AS code,
+          variant_name  AS name,
+          type,
+          locale_id
+        FROM variants
+      `
+    )
+    if (variant_rows && Array.isArray(variant_rows)) {
+      for (const variant of variant_rows as VariantData[]) {
+        const localeId = variant.locale_id
+        if (!variantMap.has(localeId)) {
+          variantMap.set(localeId, [])
+        }
+        variantMap.get(localeId).push(variant)
+      }
+    }
+    // Predefined Accents
+    const [accent_rows] = await this.mysql.query(
+      `
+        SELECT
+          id,
+          accent_token AS code,
+          accent_name  AS name,
+          locale_id
+        FROM accents
+        WHERE NOT user_submitted
+          AND accent_token != 'unspecified'
+      `
+    )
+    if (accent_rows && Array.isArray(accent_rows)) {
+      for (const accent of accent_rows as AccentData[]) {
+        const localeId = accent.locale_id // or whatever foreign key you use
+        if (!accentMap.has(localeId)) {
+          accentMap.set(localeId, [])
+        }
+        accentMap.get(localeId).push(accent)
+      }
+    }
+
+    // Language records
+    const language_rows = await this.getAllLanguages()
+    const language_data: LanguageData[] =
+      !language_rows || language_rows.length === 0
+        ? []
+        : language_rows.map(language => ({
+            id: language.id,
+            code: language.name,
+            target_sentence_count: language.target_sentence_count,
+            english_name: language.english_name ?? undefined,
+            native_name: language.native_name,
+            is_contributable: Number(language.is_contributable),
+            is_translated: Number(language.is_translated),
+            text_direction: language.text_direction,
+            variants: variantMap.get(language.id) || [],
+            predefined_accents: accentMap.get(language.id) || [],
+          }))
+
+    return language_data
+  }
+
+  // Regular/existing
+
   async getVariants(locale?: string) {
     const [variants] = await this.mysql.query(
       `
@@ -1372,9 +1520,12 @@ export default class DB {
 
   async createSkippedClip(id: string, client_id: string) {
     try {
+      // UPDATE clip_id = clip_id is intentionally a no-op (required by MySQL syntax)
+      // This prevents errors on retry while maintaining UNIQUE KEY (client_id, clip_id)
       await this.mysql.query(
         `
           INSERT INTO skipped_clips (clip_id, client_id) VALUES (?, ?)
+          ON DUPLICATE KEY UPDATE clip_id = clip_id
         `,
         [id, client_id]
       )

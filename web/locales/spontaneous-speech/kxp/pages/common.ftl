@@ -23,7 +23,6 @@ report-button = رپورٽ
 skip-button = ميلِِي آلوون
 submit-button = جمع ڪرو
 contribute = حصو آلوو، مدد
-request-new-language = نوَي ٻولي هارو درخواست
 
 ## Navbar
 
@@ -38,9 +37,6 @@ not-found-page-header = نا زڙيون
 not-found-page-content = زي پنُون تمين ڳوتو را سو اي نا زڙيُون
 # Privacy and Terms checkbox
 accept-privacy-and-terms = مُون ڪامن وائيس ٿي راضي سُون، <termsLink> ٽرم </termsLink> هانَ <privacyLink> پرائيويسي۔</privacyLink>
-# Locales (not yet fully resolved in Pontoon)
-meh = سائوٿ ويسٽرن ٽلاڪسيئاو مِڪسٽيڪ
-mel = سينٽرل ميلانائو
 # Locales-Variants
 ms-MY = بابا مالي
 

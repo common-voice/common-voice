@@ -45,8 +45,6 @@ x-years-short =
     }
 help-make-dataset = ہک ہچھے میعار دا، عوامی اوپن ڈیٹا سیٹ بڑانڑ بچ اسدی مدد کرو
 sign-up-account = اکاؤنٹ واسطے سائن اپ کرو
-email-subscription-title = ای میل اپڈیٹاں آستے سائن اپ کرو
-email-subscription-title-new = کامن وائس نیوزلیڑز، مقصد دی یاد دہانیاں تے پیش رفت اپڈیٹاں واسطے سائن اپ کرو
 
 ## Account Benefits
 
@@ -122,7 +120,6 @@ add-text = عبارت/جملے بھاؤ
 
 ## Community section
 
-community-section-title = عالمی برادری دی طرفو، عالمی برادری دی —130 زباناں آسطے تے اضافہ ہو رے اے!
 join-discord-community = ڈسکارڈ کمیونٹی نال جُڑّو
 # label for button
 join-discord-community-action = ڈسکارڈ تے اساں نال جّڑّو

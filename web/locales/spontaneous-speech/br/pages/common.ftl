@@ -23,7 +23,6 @@ report-button = Danevelliñ
 skip-button = Lezel a-gostez
 submit-button = Kas
 contribute = Kemer perzh
-request-new-language = Goulenn ur yezh nevez
 # Button text which appears when there are no more resources
 continue-with-skipped = Kenderc'hel gant ar re bet lezet a-gostez
 
@@ -43,9 +42,6 @@ not-found-page-header = N'eo ket bet kavet
 not-found-page-content = N'eus ket bet gallet kavout ar bajenn emaoc'h o klask
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Mat eo din <termsLink>Termenoù</termsLink> Common voice hag ar <privacyLink>Politikerezh a-fet buhez prevez</privacyLink>
-# Locales (not yet fully resolved in Pontoon)
-meh = Mikstekeg Tlaxiaco ar mervent
-mel = Melanau kreiz
 # Locales-Variants
 ms-MY = Malayseg Bahasa
 

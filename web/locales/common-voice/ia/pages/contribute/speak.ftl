@@ -3,6 +3,8 @@ speak-now = Parla ora
 speak-subtitle = Dona tu voce
 record-cta = Initiar a registrar
 record-platform-not-supported = Nos lo regretta, ma tu platteforma non es actualmente supportate.
+record-platform-webview = Tu pote haber attingite ci cliccante un ligamine in un social application de medio social. Tu usa navigator in-app que non supporta registration audio.
+record-platform-not-supported-webview = Sur apparatos mobile tu pote contribuer per le navigator de tu systema…
 record-platform-not-supported-desktop = Sur computatores de scriptorio tu pote discargar le ultime:
 record-platform-not-supported-ios-non-safari = Sur iOS, continua con Safari pro activar le registration…
 record-must-allow-microphone = Tu debe permitter le accesso al microphono
@@ -10,6 +12,12 @@ record-no-mic-found = Nulle microphono trovate
 record-error-too-short = Le registration era troppo breve.
 record-error-too-long = Le registration era troppo longe.
 record-error-too-quiet = Le registration era troppo quiete.
+record-error-uploaded-clip-corrupted =
+    Tu registration audio pare esser corrumpite. Isto pote evenir per:
+    • problemas de compatibilitate del navigator (tenta usar un navigator differente)
+    • problemas de driver audio o de microphono 
+    • interruptiones de rete durante le registration
+    Retenta.
 record-cancel = Cancellar le re-registration
 record-instruction = { $actionType }<recordIcon></recordIcon> pois lege le phrase in alte voce
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> quando facite

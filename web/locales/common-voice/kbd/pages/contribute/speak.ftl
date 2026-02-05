@@ -61,13 +61,13 @@ create-profile-button = Напэкӏуэцыщӏэ къызэгъэпэщ
 # IMAGE TAGS
 img-alt-success-checkmark = ӏуэхур зэрытэмамым и нэщанэ
 # menu item
-read-sentences = Псалъэухахэм яджэ
+read-sentences = Псалъэухахэм къеджэ
 # text wrapped in <small></small> will be shown in a smaller font size
 read-sentences-coming-soon = Прочитать предложения <small>(Скоро)</small>
 
 ## MENU ITEM TOOLTIPS
 
-speak-contribute-menu-tooltip = Псалъэухахэм еджэ, упщӏэхэм жэуап ет
+speak-contribute-menu-tooltip = Псалъэухахэм къеджэ, упщӏэхэм жэуап ет
 read-sentences-menu-item-tooltip = Уи бзэкӏэ псалъэуха ущеджэм езым зытетхэж
 answer-questions-menu-item-tooltip = Уи бзэкӏэ упщӏэхэмрэ чэнджэщхэмрэ жэуап щептым езым зытетхэж
 

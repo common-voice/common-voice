@@ -5,6 +5,8 @@ how-does-it-work-text = Ri qarayib'al ja ri runuk'ik jun rucholxe' rutzij ch'ab'
 
 ## How does it work section
 
+about-localization-title = Kitzalq'omanri'ïl Ruxaq Ajk'amaya'l
+about-sentence-collection-title = Kimolik B'ab'
 about-speak = Ch'owen
 about-speak-text = Ri to'onela' nikiyäk kich'ab'äl toq yekisik'ij taq q'aptzij xipan kuma ri okisanela'.
 about-listen-queue = Cholaj-Ak'axanem
@@ -22,6 +24,7 @@ about-dataset-new-text = Ri Rucholxetzij Common Voice ruk'wan k'ïy taq rutz'etb
 about-clip-graveyard = Kimuqb'al Yakoj
 about-clip-graveyard-text = Ri Kimuqb'al Yakoj, ja ri kiyakoj taq ch'ab'äl man xetikïr ta xe'ok pa rucholxetzij Common Voice. Achi'el ri cholxetzij, ri kimuqb'al yakoj chuqa' k'o richin niqasäx.
 about-get-involved = Kato'on
+about-stay-in-touch-button = Tatz'ib'aj ab'i'
 about-nav-why-common-voice = ¿Aruma ?
 about-nav-how-it-works = ¿Achi'el?
 about-nav-partners = Achib'ilal

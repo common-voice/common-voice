@@ -488,17 +488,20 @@ export const VARIANTS: Variant[] = [
   },
   {
     locale_name: 'gsw',
-    variant_name: 'Rhinfränkisch (Bùckenùmm, Lìtzelstän, usw.)',
+    variant_name:
+      'Rhinfränkisch (Bùckenùmm, Lìtzelstän, Bitsch, Saargemìnn usw.)',
     variant_token: 'gsw-FR-rhinfran',
   },
   {
     locale_name: 'gsw',
-    variant_name: 'Nordniederàlemmànisch (Rishoffe, Zàwere, Bùsswìller, Hawenau, Brüemt, Stroossbùri, Molse, Dàmbàch, Schlettstàtt, usw.)',
+    variant_name:
+      'Nordniederàlemmànisch (Rishoffe, Zàwere, Bùsswìller, Hawenau, Brüemt, Stroossbùri, Molse, Dàmbàch, Schlettstàtt, Pfàlzbùri usw.)',
     variant_token: 'gsw-FR-nordalem',
   },
   {
     locale_name: 'gsw',
-    variant_name: 'Südniederàlemmànisch (Kolmer, Gawìller, Mìlhüüsa, Àltkìrich, usw.)',
+    variant_name:
+      'Südniederàlemmànisch (Kolmer, Gawìller, Mìlhüüsa, Àltkìrich, usw.)',
     variant_token: 'gsw-FR-sudnalem',
   },
   {
@@ -535,5 +538,125 @@ export const VARIANTS: Variant[] = [
     locale_name: 'luo',
     variant_name: 'Dholuo (Nyanduat)',
     variant_token: 'luo-nyanduat',
+  },
+  {
+    locale_name: 'ro',
+    variant_name: 'Romanian-Romania',
+    variant_token: 'ro-RO',
+  },
+  {
+    locale_name: 'ro',
+    variant_name: 'Romanian-Moldova',
+    variant_token: 'ro-MD',
+  },
+  {
+    locale_name: 'fr',
+    variant_name: 'Français de métropole',
+    variant_token: 'fr-metro',
+  },
+  {
+    locale_name: 'fr',
+    variant_name: "Français des départements et régions d'outre-mer",
+    variant_token: 'fr-droum',
+  },
+  {
+    locale_name: 'fr',
+    variant_name: "Français d'Europe",
+    variant_token: 'fr-europe',
+  },
+  {
+    locale_name: 'fr',
+    variant_name: "Français du nord de l'Afrique",
+    variant_token: 'fr-nafrica',
+  },
+  {
+    locale_name: 'fr',
+    variant_name: "Français d'Afrique subsaharienne et des îles africaines",
+    variant_token: 'fr-safrica',
+  },
+  {
+    locale_name: 'fr',
+    variant_name: "Français d'Amérique du Nord",
+    variant_token: 'fr-namerica',
+  },
+  {
+    locale_name: 'fr',
+    variant_name: "Français d'Amérique du Sud et des Caraïbes",
+    variant_token: 'fr-samerica',
+  },
+  {
+    locale_name: 'fr',
+    variant_name: "Français d'Asie et des îles du Pacifique",
+    variant_token: 'fr-asia',
+  },
+  {
+    locale_name: 'abq',
+    variant_name: 'Тlапlанта (ашвыуа)',
+    variant_token: 'abq-tapanta',
+  },
+  {
+    locale_name: 'abq',
+    variant_name: 'Ащхъарауа',
+    variant_token: 'abq-ashkhara',
+  },
+  {
+    locale_name: 'lrl',
+    variant_name: 'بندری',
+    variant_token: 'lrl-bandari',
+  },
+  {
+    locale_name: 'lrl',
+    variant_name: 'اچومی',
+    variant_token: 'lrl-achomi',
+  },
+  {
+    locale_name: 'ms',
+    variant_name: 'Dialek Standard',
+    variant_token: 'ms-standard',
+  },
+  {
+    locale_name: 'ms',
+    variant_name: 'Dialek Lain',
+    variant_token: 'ms-dialect',
+  },
+  {
+    locale_name: 'jv',
+    variant_name: 'Jawa Timur',
+    variant_token: 'jv-timur',
+  },
+  {
+    locale_name: 'jv',
+    variant_name: 'Jawa Tengah',
+    variant_token: 'jv-tengah',
+  },
+  {
+    locale_name: 'jv',
+    variant_name: 'Jawa Kulon',
+    variant_token: 'jv-kulon',
+  },
+    {
+    locale_name: 'qxq',
+    variant_name: 'قشقایی فارس',
+    variant_token: 'qxq-farsq',
+  },
+  {
+    locale_name: 'qxq',
+    variant_name: 'قشقایی فیروزآباد',
+    variant_token: 'qxq-firuzabad',
+  },
+  {
+    locale_name: 'qxq',
+    variant_name: 'قشقایی سمیرم',
+    variant_token: 'qxq-semirom',
+  },
+  {
+    locale_name: 'qxq',
+    variant_name: 'قشقایی ایلی',
+    variant_token: 'qxq-tribal',
+  },
+  {
+    locale_name: 'qxq',
+    variant_name: 'قشقایی هَفتگِل',
+    variant_token: 'qxq-haftkel',
   },
 ]

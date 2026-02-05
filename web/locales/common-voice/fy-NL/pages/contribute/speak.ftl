@@ -3,6 +3,8 @@ speak-now = Sprek no
 speak-subtitle = Donearje jo stim
 record-cta = Opname starte
 record-platform-not-supported = It spyt ús, mar jo platfoarm wurdt op dit stuit net stipe.
+record-platform-webview = Mooglik binne jo hjir telâne kommen troch op in keppeling te klikken yn in sosjale media-app. Jo brûke in browser yn de app dy’t gjin audio-opnamen stipet.
+record-platform-not-supported-webview = Op mobile apparaten kinne jo bydrage mei jo systeembrowser…
 record-platform-not-supported-desktop = Op desktopkompjûters, download de lêste:
 record-platform-not-supported-ios-non-safari = Gean op iOS troch mei Safari om opnimmen mooglik te meitsjen…
 record-must-allow-microphone = Jo moatte tagong ta jo mikrofoan tastean.
@@ -10,6 +12,12 @@ record-no-mic-found = Gjin mikrofoan fûn.
 record-error-too-short = De opname wie te koart.
 record-error-too-long = De opname wie te lang.
 record-error-too-quiet = De opname wie te súntsjes
+record-error-uploaded-clip-corrupted =
+    Jo lûdsopname liket skansearre te wêzen. Dit kin barre fanwegen:
+    • Problemen mei browserkompatibiliteit (probearje in oare browser te brûken)
+    • Problemen mei mikrofoan of audiostjoerprogramma
+    • Netwurkûnderbrekkingen wylst de opname
+    Probearje opnij op te nimmen.
 record-cancel = Opnij opnimmen annulearje
 record-instruction = { $actionType } <recordIcon></recordIcon> en lês de sin dêrnei hurdop
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> as jo klear binne

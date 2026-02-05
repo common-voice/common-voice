@@ -43,8 +43,7 @@ x-years-short =
     }
 help-make-dataset = Ба мо барои бунёди маҷмуи маълумоти босифат ва оммавӣ кумак расонед
 sign-up-account = Ҳисоберо ба қайд гиред
-email-subscription-title = Бақайдгирӣ барои навигариҳо тавассути почтаи электронӣ
-email-subscription-title-new = Барои хабарномаҳои «Common Voice», ёдрас аз ҳадафҳо ва навгониҳо дар пешрафт сабти ном кунед
+email-subscription-title-v3 = Барои навсозиҳои «Common Voice» ва «Mozilla Foundation» обуна шавед
 
 ## Account Benefits
 
@@ -125,12 +124,14 @@ answer = Ҷавоб додан
 
 ## Community section
 
-community-section-title = Бо дастгирии ҷомеаҳои умумиҷаҳонӣ ва барои ҷомеаҳои умумиҷаҳонӣ фаъолият мекунад — 130 забон ва зиёд шуда истодааст!
 join-discord-community = Ба ҷамъияти мо дар «Discord» ҳамроҳ шавед
 # label for button
 join-discord-community-action = Ба мо дар «Discord» ҳамроҳ шавед
 join-discord-community-content = Дар музокироти ҷомеаи забоншиносон иштирок кунед, саволҳо диҳед ва дар бораи чорабиниҳо ва суҳбатҳои дарпешистода маълумот гиред.
 find-us-on-matrix = Моро дар «Matrix» пайдо кунед
+# label for button
+find-us-on-element-action-1 = Унсур
+find-us-on-matrix-action-2 = Муштариёни дигар
 ask-mozilla-share = Аз «Mozilla» хоҳиш кунед, ки дар бораи чорабиниҳои шумо маълумот паҳн кунад
 # label for button
 ask-mozilla-share-action = Дар бораи чорабинии худ маълумот паҳн кунед

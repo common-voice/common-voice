@@ -16,7 +16,6 @@ all-locales = සියලුම
 today = අද
 help-make-dataset = උසස් තත්ත්වයේ, පොදු විවෘත දත්ත කට්ටලයක් තැනීමට අපට උදව් කරන්න
 sign-up-account = ගිණුමක් සඳහා ලියාපදිංචි වන්න
-email-subscription-title = විද්‍යුත් තැපැල් යාවත්කාලීන සඳහා ලියාපදිංචි වන්න
 
 ## Account Benefits
 

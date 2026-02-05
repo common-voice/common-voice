@@ -36,8 +36,6 @@ x-years-short =
     }
 help-make-dataset = ڤے غیݰے معیار پے سافف دیر ڤے ڈیٹاسیٹ دے سڤزڤدا لے ماخ مدد کن
 sign-up-account = پے اکاؤنٹ دیر سائن آپ کن
-email-subscription-title = دے ای میل پے نوؤ گپف دیر سائن آپ کن
-email-subscription-title-new = ڤے کامن وائس نیوز لیٹر، ڤے ہدف پے یاد کڑا دیر اڤن چند ہورغ ݰوئے رے پے معلوماتف دیر سائن آپ کن
 
 ## Account Benefits
 

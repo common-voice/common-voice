@@ -65,7 +65,7 @@ about-nav-playbook = Află cum te poți implica
 about-playbook-what-is-language = Ce reprezintă o limbă în proiectul Common Voice?
 about-playbook-what-is-language-content-1 = Ne putem gândi în diverse feluri la limba pe care o vorbim. În ceea ce privește modelele de recunoaștere a vorbirii, însă, proiectul Common Voice se concentrează asupra „inteligibilității, a înțelegerii reciproce”. Cu alte cuvinte: „pot vorbitorii acestei limbi să se înțeleagă între ei dacă încearcă?”
 about-playbook-what-is-language-content-2 = Urmărim ca modelele de limbă să recunoască mai bine o gamă variată de vorbitori. Pentru aceasta, însă, este nevoie ca aceștia să fie mai bine reprezentați în seturile de date vocale.
-about-playbook-what-is-language-content-3 = Unele limbi prezintă variații considerabile în ceea ce privește gramatica, vocabularul și pronunția. Din acest motiv, în 2022 <ctaLink>am lansat „Variantele de limbă”</ctaLink>, care le oferă comunităților posibilitatea de a-și diferenția limbile în cadrul setului de date general.
+about-playbook-what-is-language-content-3 = Unele limbi prezintă variații considerabile în ceea ce privește gramatica, vocabularul și pronunția. Din acest motiv, în 2022 <ctaLink>am lansat „variantele lingvistice”</ctaLink>, care le oferă comunităților posibilitatea de a-și diferenția limbile în cadrul setului de date general.
 
 ## How do I add a language
 
@@ -94,7 +94,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 about-playbook-how-localize = Cum funcționează localizarea site-ului?
 about-playbook-how-localize-content-1 = Traducerea site-ului Common Voice are loc pe platforma de traducere <strong>Pontoon</strong>.
 about-playbook-how-localize-content-2 = <pontoonAccountLink>Creează un cont pe Pontoon</pontoonAccountLink> dacă nu ai deja unul. Apoi, alege limba în care vrei să traduci - <strong> Team (Echipă)</strong>. La final, alege și proiectul <pontoonCvLink>Common Voice</pontoonCvLink> la care vrei să lucrezi. Fiecare proiect are un număr de fișiere de tradus. Apasă pe unul dintre ele și vei vedea textul în engleză care trebuie tradus, precum și căsuța în care trebuie să scrii traducerea.
-about-playbook-how-localize-content-3 = Traducerea e din engleză, însă poți consulta <strong>Sugestii</strong> din alte limbi. Apasă pe iconița de <strong>Profil</strong>, apoi pe linkul <strong>Setări</strong> și adaugă limbile pe care le cunoști. În colțul din dreapta jos vei găsi o listă cu traduceri denumită <strong>Setări regionale</strong>. Traducerile vor apărea pe site a doua zi.
+about-playbook-how-localize-content-3 = Traducerea e din engleză, însă poți consulta <strong>Sugestii</strong> din alte limbi. Apasă pe pictograma de <strong>Profil</strong>, apoi pe linkul <strong>Setări</strong> și adaugă limbile pe care le cunoști. În colțul din dreapta jos vei găsi o listă cu traduceri denumită <strong>Setări regionale</strong>. Traducerile vor apărea pe site a doua zi.
 about-playbook-how-localize-content-4 = Saite-ul va fi gata de publicare atunci când este tradus în proporție de cel puțin 75%.
 about-playbook-how-localize-content-5 = Vizionează videoclipul nostru explicativ pentru îndrumare
 

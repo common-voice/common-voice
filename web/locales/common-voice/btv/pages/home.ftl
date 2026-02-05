@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = عوامی کھلاو ڈیٹا سیٹ  اوچت معیار سو سندے مہ اسئیں مدد گر
 sign-up-account = اکاونٹ سو دَن سائن اپ گر
-email-subscription-title = ای میل اپ ڈیٹ گرے سو دَن سائن اپ گر
-email-subscription-title-new = عام اواز سو خبریوں سو خط،مقصد سو یاداشت آ کار کردگی اپ ڈیٹ گرے سو دَن سائن اپ  گر
 
 ## Account Benefits
 
@@ -126,7 +124,6 @@ add-text = لیک ِگڈ گر
 
 ## Community section
 
-community-section-title = عالمی برادریوں کے ذریعہ تقویت یافتہ ، عالمی برادریوں کے لئے - 130 زبانیں اور بڑھتی ہوئی!   عالمی کمیونٹی سو زریعہ رے طاقتور ، علمی کمیونٹی سو دَن — 130 زیب  آ  ترقی
 join-discord-community = ڈسکارڈ کمیونٹی مہ شامل ھوں
 # label for button
 join-discord-community-action = اسو مِل ڈسکارڈ رے شامل ھوں

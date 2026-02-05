@@ -43,8 +43,7 @@ x-years-short =
     }
 help-make-dataset = Hjelp oss å byggje eit offentleg, ope datasett med høg kvalitet
 sign-up-account = Be om konto
-email-subscription-title = registrer deg for oppdateringar via e-post
-email-subscription-title-new = Registrer deg for Common Voice-nyheitsbrevet, målpåminningar og framdriftsoppdateringar
+email-subscription-title-v3 = Registrer deg for å få oppdateringar frå Common Voice og Mozilla Foundation
 
 ## Account Benefits
 
@@ -129,12 +128,13 @@ answer = Svar
 
 ## Community section
 
-community-section-title = Driven av globale samfunn, for globale samfunn - 130 språk, og det vert stadig fleire!
+community-section-title-202601 = Driven av globale samfunn, for globale samfunn — meir enn 290 språk!
 join-discord-community = Ver med i Discord-fellesskapet
 # label for button
 join-discord-community-action = Ver med oss på Discord
 join-discord-community-content = Delta i språkdiskusjonar, still spørsmål og lær om komande arrangement og foredrag.
 find-us-on-matrix = Finn oss på Matrix
+find-us-on-matrix-content-v2 = Matrix er ein open, lett protokoll for desentralisert sanntidskommunikasjon og Mozillas føretrekte opne diskusjonsplattform. Vi er i rommet «common-voice:mozilla.org».
 # label for button
 find-us-on-element-action-1 = Element
 find-us-on-matrix-action-2 = Andre klientar

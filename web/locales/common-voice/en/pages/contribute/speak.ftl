@@ -3,6 +3,8 @@ speak-now = Speak now
 speak-subtitle = Donate your voice
 record-cta = Start recording
 record-platform-not-supported = We’re sorry, your platform is not currently supported.
+record-platform-webview = You might have reached here by clicking a link in a social media app. You are using an in-app browser which does not support audio recording.
+record-platform-not-supported-webview = On mobile devices you can contribute using your system browser…
 record-platform-not-supported-desktop = On desktop devices you can contribute by downloading…
 record-platform-not-supported-ios-non-safari = On iOS please continue with Safari to enable recording…
 record-must-allow-microphone = You must allow microphone access.
@@ -10,6 +12,11 @@ record-no-mic-found = No microphone found.
 record-error-too-short = The recording was too short.
 record-error-too-long = The recording was too long.
 record-error-too-quiet = The recording was too quiet.
+record-error-uploaded-clip-corrupted = Your audio recording appears to be corrupted. This can happen due to:
+  • Browser compatibility issues (try using a different browser)
+  • Microphone or audio driver problems
+  • Network interruptions during recording
+  Please try recording again.
 record-cancel = Cancel Re-recording
 record-instruction = { $actionType }<recordIcon></recordIcon> then read the sentence aloud
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> when done

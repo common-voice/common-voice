@@ -3,6 +3,10 @@ guidelines-header = הנחיות לתרומה
 guidelines-header-subtitle = הבינו כיצד לתרום ולאמת משפטים ומקטעי שמע למערך הנתונים של Common Voice
 voice-collection = איסוף קולות
 sentence-collection = איסוף משפטים
+question-collection = איסוף שאלות
+scripted-speech = הקראה
+spontaneous-speech = דיבור ספונטני
+dont-subheader = לא לעשות
 
 ## Voice Collection nav ids
 
@@ -103,3 +107,190 @@ reviewing-sentences-explanation-2 = אם המשפט לא עומד בתנאים �
 reviewing-sentences-explanation-3 = אם אינכם בטוחים לגבי המשפט, באפשרותכם לדלג עליו ולעבור למשפט הבא.
 reviewing-sentences-explanation-4 = אם אין לכם יותר משפטים לסקירה, נשמח שתעזרו לנו לאסוף עוד!
 domain-explanation = תחום העניין נוגע לנושא המשפט. באפשרותך לבחור מבין:
+
+## Question collection ids
+
+adding-questions = הוספת שאלות
+
+## Question collection sidebar content
+
+what-makes-a-good-question-subheader = מה הופך שאלה לטובה?
+what-makes-a-good-question-explanation = כדי שהשאלה תתאים עבור מאגרים שיתופיים:
+what-makes-a-good-question-explanation-criteria-1 = צריך להיות קל להבין ולענות עליה
+what-makes-a-good-question-explanation-criteria-2 = עליה להיות רלוונטית לכל סוג של קהל
+what-makes-a-good-question-explanation-criteria-3 = עליה לא לכלול תוכן פוגעני או מזיק
+what-makes-a-good-question-tip = כמו-כן, שקלו להתייחס לתחומים והקשרים מגוונים.
+easy-to-understand = קלות להבנה
+easy-to-understand-explanation = העדיפו שאלות פשוטות שיהיה קל לכל אחד ואחת להבין, ללא תלות ברקע התרבותי שלהם.
+spelling-and-pronunciation = איות וסימני פיסוק
+spelling-and-pronunciation-explanation = הקפידו על איות ודקדוק נכונים
+length = אורך
+length-explanation = צריך להיות אפשרי לענות על השאלה במספר קטן של משפטים
+dont-add-subheader = לא להוסיף
+culturally-specific-questions = שאלות שהן ספציפיות לתרבות מסויימת
+culturally-specific-questions-explanation = שאלות שהן ספציפיות מאוד לתרבות מסויימת, או מניחות הנחות רבות לגבי המשיב או המשיבה
+length-avoid-explanation = שאלות שיהיה קשה לענות עליהן בתוך 15 שניות בלבד (אורך המקטע המירבי להקלטה)
+process-steps = תהליך / שלבים
+process-steps-explanation = שאלות הדורשות ממישהו לפרט מספר שלבים. זה עשוי לגרום למשתמשים לדקלם תשובה, במקום לענות באופן יותר טבעי.
+offensive-content-sensitive-information = תוכן פוגעני או מידע רגיש
+offensive-content-sensitive-information-explanation-explanation-1 = שאלות שהתשובה אליהן עשויה לכלול מידע פרטי או כזה המאפשר זיהוי אישי (למשל שם או כתובת מגורים)
+offensive-content-sensitive-information-explanation-explanation-2 = שאלות שהתשובה אליהן עשויה לכלול דברי שטנה או דעות ורגשות מוטים או פוגעניים
+offensive-content-sensitive-information-explanation-explanation-3 = שאלות שהתשובה אליהן עשויה לגרום למשיב או המשיבה לחלוק פרטים אינטימיים מידי או לגרום לטריגר פסיכולוג
+example-questions-subheader = שאלות לדוגמא
+example-questions-explanation-1 = ניתן למצוא <examplePromptsLink>120 דוגמאות לשאלות בגיליון זה.</examplePromptsLink>
+example-questions-explanation-2 = אם ברצונכם להגיש אסופה של שאלות לקליטה יחדיו, <githubLink>תוכלו לעשות זאת דרך ה-GitHub שלנו</githubLink> או על-ידי שליחת הרשימה באי-מייל ל-<emailFragment>commonvoice@mozilla.com</emailFragment>.
+
+## Spontaneous Speech sidebar content
+
+# Answer Questions
+answer-questions = לענות על שאלות
+answer-questions-subheader = הנחיות כלליות
+answer-questions-explanation-1 = קחו רגע לחשוב על השאלה ועל מה ברצונכם לומר, אבל אל תהיו מתוכננים מידי. לחצו על כפתור 'הקלטה'. כאשר תסיימו את ההקלטה, תוכלו לשמוע את עצמכם, להקליט מחדש, למחוק או להגיש אותה.
+answer-questions-explanation-2 = זכרו - לא צריך לדאוג מגמגומים, שהיות או חזרות על מילה. כל אלה שימושיים עבור מהנדסים ששוקדים על בניית כלים לזיהוי דיבור כך שיהיו רלוונטים למשימות כלליות בעולם האמיתי.
+answer-questions-tip-1 = הקליטו עצמכם במקום שקט למדי
+answer-questions-tip-2 = בחרו מקום עם חיבור אינטרנט באיכות טובה
+answer-questions-tip-3b = נסו שהשתשובה תהיה בין 15 עד 30 שניות
+answer-questions-tip-4 = הימנעו מדברי שטנה, שיח מעורר התלהמות או פוגעני באיזושהי צורה
+answer-questions-tip-5 = דברו באופן טבעי, כפי שהייתם עושים עם מכר או חבר - השתמשו במבטא או הדיאלקט הטבעי שלכם
+answer-questions-tip-6 = שמרו על עוצמת קול עקבית - אל תצעקו או תשירו
+# Transcribe the Audio
+transcribe-the-audio = תמלול השמע
+transcribe-the-audio-subheader-1 = הנחיות כלליות
+transcribe-the-audio-subheader-2 = מספרים וראשי תיבות
+transcribe-the-audio-subheader-3 = תגיות מיוחדות
+transcribe-the-audio-subheader-4 = חלקי מילה ומילים חוזרות
+transcribe-the-audio-subheader-5 = שגיאות דקדוק ומשלב דיבורי
+transcribe-the-audio-subheader-1-explanation = באופן כללי, עליכם לרשום את כל מה שאתם שומעים. זה כולל;
+transcribe-the-audio-subheader-1-explanation-example-1 = רישום הפרעות בשטף הדיבור, כולל היסוס וחזרות
+transcribe-the-audio-subheader-1-explanation-example-2 = ציון רעש כמו שיעול או צחוק
+transcribe-the-audio-subheader-1-explanation-example-3 = ציון רעש רקע משמעותי, כמו דיבורים או צופרים
+transcribe-the-audio-subheader-1-explanation-example-4 = דקדוק שונה מהמקובל וסלנג צריכים להיות רשומים בדיוק באופן בו הם נאמרים. אל תתקנו או תערכו את הדיבור ששמעתם.
+transcribe-the-audio-subheader-2-explanation-1 = מספרים וסימנים צריכים להיות רשומים כמילים שלמות, במקום להשתמש בסימני מספר או תוים מיוחדים. לדוגמא:
+transcribe-the-audio-subheader-2-explanation-2 = יש לרשום ראשי תיבות כפי שהם רשומים בדרך-כלל בשפה, ולא להרחיבם. למשל:
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <correct>נכון</correct>: המרחק של זה מכאן הוא מאה קילומטר
+tags-unclear-explanation = מילה או רצף מילים שאי אפשר להבין.
+tags-noise-explanation = כל סוג אחר של רעש, כמו כאשר הדוברים מכחכחים בגרונם, משתעלים, רכב צופר, קול של משהו נוגע במיקרופון, טלפון רוטט וכיוצא-בזה.
+# Note: do not translate any tag, like [noise] or [laugh]
+special-tags-example-2 = ואז אני [רעש] יצאתי לחופשה. טוב, [רעש] [צחוק] זו לא היתה בדיוק חופשה [צחוק]
+transcribe-the-audio-subheader-4-explanation-1 = דיבור ספונטני מכיל באופן טבעי 'התחלות כוזבות', כלומר דיבור חלקי של המילה. במקרים אלה, תמללו כמיטב יכולתכם את חלק המילה שנשמע, והוסיפו מקף בסופה (-) כדי לציין שמדובר בחלק-מילה. לדוגמא:
+transcribe-the-audio-subheader-4-explanation-1-example = שמו הוא <underline>יו- יונ-</underline> יונתן.
+transcribe-the-audio-subheader-4-explanation-2 = לפעמים הדוברים חוזרים על מילה או על חלק-מילה כמה פעמים. גם במקרים אלה, יש לרשום את הכל. לדוגמא:
+transcribe-the-audio-subheader-4-explanation-2-example = ואז <underline>ב- ב- בעצם זה זה</underline> פשוט נגמר
+transcribe-the-audio-subheader-5-explanation-1 = דיבור ספונטני מכיל באופן טבעי שגיאות דקדוק. אין לתקן אותן - התמלול צריך להיות רישום מדויק של מה שנאמר.
+transcribe-the-audio-subheader-5-explanation-2 = הדוברים עשויים להשתמש במשלב דיבורי, למשל - "סבבה", "יאללה", "נו" וכיוצא-בזאת, שלא תמיד נחשב תקין. יש לתמלל את המילים האלה כפי שהן, מבלי לשנותן או לערוך את מה שנשמע.
+
+## Review the Transcription
+
+review-the-transcription = סקירת התמלול
+review-the-transcription-subheader = הנחיות כלליות
+review-the-transcription-explanation-1 = אנו מבקשים שבודקי התמלול לא יהיו מי שביצעו את התמלול המקורי. לבדוק את העבודה של עצמכם זאת משימה קשה לבצע בנאמנות! קיום מספר אופני ביקורת מסייע לנו בהגברת אבטחת האיכות, ובמניעת הטיות ובעיות בתוכן.
+review-the-transcription-explanation-2 = עברו על ההנחיות לתמלול הרשומות לעיל לבדוק שהתמלול הוא מדויק. תוכלו לערוך ולשלוח את התיקונים שלכם.
+review-the-transcription-explanation-3 = כמו כן, באפשרותכם לסמן תוכן כפוגעני, מזיק או מדאיג, והוא יוסר מחווית השימוש שלכם עד שצוות Common Voice יבדוק אותו.
+
+## Code-Switching
+
+code-switching = החלפת קוד
+adding-a-question = הוספת שאלות
+# Adding a Question
+code-switching-adding-question-subheader = מה הופך שאלה לטובה?
+code-switching-adding-question-explanation = כדי שהשאלה תתאים עבור מאגרים שיתופיים:
+code-switching-adding-question-criteria-1 = צריך להיות קל להבין ולענות עליה
+code-switching-adding-question-criteria-2 = עליה להיות רלוונטית לכל סוג של קהל
+code-switching-adding-question-criteria-3 = לא לכלול תוכן פוגעני או מזיק
+code-switching-adding-question-note = כמו-כן, שקלו להתייחס לתחומים והקשרים מגוונים.
+# What types of questions to add
+code-switching-types-subheader = אילו סוגי שאלות להוסיף?
+code-switching-use-bilingual-prompts-header = שאלות דו-לשוניות
+code-switching-use-bilingual-prompts-explanation = צרו שאלה דו-לשונית המשלבת את שתי השפות יחד. לדוגמא:
+code-switching-use-bilingual-prompts-explanation-example = “מה עשית mama כשהגעת ל-gym אתמול בבוקר?”
+code-switching-ask-bilingual-contexts-header = שאלו לגבי הקשרים דו-לשוניים
+code-switching-ask-bilingual-contexts-explanation = השתמש במצבים בהם שתי השפות נמצאות בשימוש נפוץ (למשל, בבית, בבית הספר, באירועים קהילתיים). לדוגמא:
+code-switching-ask-bilingual-contexts-explanation-example = "כשאתה מדברים עם ההורים שלכם, האם אתם מערבבים עברית עם שפה אחרת?"
+code-switching-focus-emotional-header = התמקדו ברגעים רגשיים או טעונים
+code-switching-focus-emotional-explanation = אנשים נוטים להחליף קוד כשהם מביעים רגש או דחיפות. לדוגמא:
+code-switching-focus-emotional-explanation-example = "ספרו איך ענו ההורים שלכם כשסיפרתם להם דבר מרגש - בדיוק איך שהם אמרו את זה."
+code-switching-direct-quotes-header = בקשו ציטוטים מדוייקים או המחזה
+code-switching-direct-quotes-explanation = עודדו את המשתתפים להמחיז ולשחזר בדיוק כיצד נאמר דבר. לדוגמא:
+code-switching-direct-quotes-explanation-example = "מה היו המילים המדוייקות שאמרתם כשגיליתם?"
+code-switching-cultural-topics-header = בחרו נושאים התלויים בתרבות
+code-switching-cultural-topics-explanation = מאכלים, חגים ומצבים משפחתיים לעיתים מזמנות החלפת קוד.
+code-switching-cultural-topics-explanation-example = "כיצד הייתם מתארים את Halloween למישהו שמדבר רק עברית?"
+code-switching-informal-scenarios-header = נסו תרחישים א-פורמליים
+code-switching-informal-scenarios-explanation = שיחות עם חברים או מסרונים לעיתים כוללים החלפות קוד טבעיות. לדוגמא:
+code-switching-informal-scenarios-explanation-example = "איזו בדיחה החברים שלך תמיד מספרים?"
+# What to Avoid
+code-switching-avoid-subheader = ממה להימנע
+code-switching-avoid-intro = שאלות שעשויות:
+code-switching-avoid-1 = לזמן תשובה הכולל מידע פרטי או כזה המאפשר זיהוי אישי (למשל שם או כתובת מגורים)
+code-switching-avoid-2 = לעודד דברי שטנה או דיבור פוגעני או מוטה
+code-switching-avoid-3 = לגרום לקורא לשתף מידע אינטימי או לגרום לטריגר פסיכולוגי
+code-switching-dont-header = מה לא לעשות
+code-switching-dont-1 = לא להשתמש בשפה פורמלית מידי
+# Reviewing a Question
+code-switching-review-subheader = סקירת שאלה
+code-switching-review-intro = וודאו שהשאלה עומדת בקריטריונים:
+code-switching-review-criterion-1 = צריך להיות קל להבין ולענות עליה
+code-switching-review-criterion-2 = עליה להיות רלוונטית לכל סוג של קהל
+code-switching-review-criterion-3 = עליה לא לכלול תוכן פוגעני או מזיק
+code-switching-review-does-not-header = וש<bold>אינה</bold> כולל:
+code-switching-review-offensive-content = <bold>תוכן פוגעני או מידע רגיש</bold>
+code-switching-answer-header = תוכן פוגעני או מידע רגיש
+code-switching-review-no-1 = שאלות שהתשובה אליהן עשויה לכלול מידע פרטי או כזה המאפשר זיהוי אישי (למשל שם או כתובת מגורים)
+code-switching-review-no-2 = שאלות שהתשובה אליהן עשויה לכלול דברי שטנה או דעות ורגשות מוטים או פוגעניים
+code-switching-review-no-3 = שאלות שהתשובה אליהן עשויה לגרום למשיב או המשיבה לחלוק פרטים אינטימיים מידי או לגרום לטריגר פסיכולוג
+# Answering a Question
+code-switching-answer-subheader = מענה על שאלה
+code-switching-answer-intro = כשמגיבים לשאלה, הרעיון הוא להגיב בטבעיות - בדיוק כמו שהייתם עושים בשיחה בחייכם הרגילים. אנחנו רוצים לתעד כיצד שפות מתערבבות בפועל בדיבור היומיומי.
+code-switching-answer-bullet-1 = חשבו על רגעים, מנהגים או מצבים בחיים: בדיחות, ויכוחים, חגים
+code-switching-answer-bullet-2 = דמיינו שאתם שולחים מסרון לחברים או מספרים סיפור
+code-switching-answer-bullet-3 = השתמשו בכל מילה שהייתם משתמשים בה בפועל, גם אם היא לא פורמלית, שאולה או מעורבבת בין שפות
+code-switching-answer-bullet-4 = אין דרך אחת "מושלמת" לענות
+code-switching-authentic-header = ענו באופן טבעי וכן
+code-switching-authentic-speak = <bold>דברו כפי שהייתם מדברים עם חברים או משפחה.</bold> אם אתם מערבבים בין שפות בחיים הרגיילים, עשו זאת גם כאן. דוגמה:
+code-switching-authentic-speak-example = "אמרתי לה שאני לא יכול ללכת ל-movies, ואז היא עונה לי כאילו ווילי כפרה למה שלא תבואי"
+code-switching-use-both-languages = <bold>השתמשו ביותר משפה אחת אם זו הדרך שבה אתם מדברים  בדרך כלל.</bold> גם החלפה של מילה אחת או שתיים היא שימושית. דוגמה:
+code-switching-use-both-languages-example = "היא ממש היתה weird כי לא התקשרתי אליה בחזרה."
+code-switching-authentic-direct-quotes = <bold>הכלילו ציטוטים ישירים או דיאלוגים.</bold> אמרו בדיוק משהו שמישהו אחר אמר, ולא גרסה ערוכה או רשמית. לדוגמא:
+code-switching-authentic-direct-quotes-example = "היא שאלה אותי ‘מאמי שלי, ווינ אינתי?‘ ואני כזה ‘תיכף there’"
+code-switching-authentic-reflect = <bold>בטאו רגש, זהות והקשר.</bold> מעברי קוד קורים לא מעט כאשר אנשים חשים רגש או דחיפות, או כאשר רוצים לתווך מושגים תרבותיים. השתמשו בעובדות אלה כשאתם עונים על שאלות.
+code-switching-authentic-full-context = <bold>השתמשו בתשובות מלאות עם הקשר.</bold> היו מפורטים ככל האפשר, ותפרטו כמה שיותר. שתפו סיפור או דוגמה בתשובותיכם.
+# Don’t Overthink or Overedit
+code-switching-answer-dont-subheader = אל תחשבו או תתקנו את עצמכם יותר מידי
+code-switching-answer-dont-correct-language = <bold>אל "תתקנו" את השפה שלכם.</bold> זה לא מבחן. להיות "בסדר" לא משנה לנו - זה שתדברו באופן טבעי, כן.
+code-switching-answer-dont-avoid-switching = <bold>אל תימנעו מהחלפת קוד.</bold> זה בסדר להחליף קוד באמצע משפט, באמצע מחשבה, או רק עבור מילה אחת.
+code-switching-answer-dont-formal-writing = <bold>אל תדברו כאילו אתם כותבים.</bold> הימנע מתשובות רשמיות ואקדמיות. שמרו על אופי דיבורי, של שיחה.
+code-switching-answer-dont-force-switch = <bold>אל תכפו את מעבר לשפה אחרת אם זה לא טבעי.</bold> החליפו קוד רק אם כך הייתם מדברים באופן טבעי באותו מצב.
+code-switching-answer-dont-translate-repeat = <bold>אל תתרגמו, או תחזרו על הכל.</bold> תגידו מה שיש לכם לומר פעם אחת, כפי שזה היה נשמע בשיחה. אתם לא צריכים להגיב בכל השפות, אלא רק באופן שטבעי לכם לענות.
+# Transcribing
+code-switching-transcribe-subheader = תמלול
+code-switching-transcribe-intro = כאשר מתמללים תשובות הכוללות החלפת קוד, יש לייצג את הדברים שאמר הדובר או הדוברת בדיוק כפי שנאמרו - ללא תיקון, עריכה או פישוט. זה נכון לכל המעברים בין שפות, דיבור לא פורמלי ומילים מעורבות בין שפות.
+code-switching-transcribe-do-1 = הקשיבו לקטעים קצרים מספר פעמים כדי לקלוט החלפות קוד עדינות
+code-switching-transcribe-do-2 = עצרו אחרי כל משפט ובדקו את עצמכם שוב, האם יש החלפות או מילים מעורבות
+# Capture Speech Exactly as Spoken
+code-switching-capture-header = רישום הדיבור בדיוק כפי שנאמר
+code-switching-capture-explanation = תמללו את שתי השפות כפי שהן מופיעות / נשמעות. אל "תתקנו" את השפה או תשנו אותה לשפה אחת בלבד.
+# Include filler words and markers
+code-switching-filler-header = הכלילו מילות מילוי וסמני שיח
+code-switching-filler-explanation = מילים כמו "אממ", "כזה", "ובכן", "אתה יודע" ו-"ו..." הן בעלות משמעות. דוגמה: "אז, אממ, אמרתי לה כזה, כאילו, לא ברצינות, ו... טוב, נו, לא משנה."
+# Use standard spelling for each language
+code-switching-spelling-header = השתמשו באיות תקני לכל שפה
+code-switching-spelling-explanation = נסו לאיית מילים בצורה נכונה בכל שפה, אלא אם כן הדוברים מבטאים אותן בבירור בצורה לא סטנדרטית.
+# Don’t Clean Up or Simplify the Language
+code-switching-cleanup-header = אל תתקנו או תפשטו דיבור
+code-switching-cleanup-1 = אל תתרגמו או תנסחו מחדש – רשמו את מה שהדוברים אומרים, לא מה אתם חושבים שהם "מתכוונים".
+code-switching-cleanup-2 = אל "תתקנו" דקדוק או הגייה – שמרו על המשלב הטבעי של הדוברים.
+code-switching-cleanup-3 = אל תדלגו על החלפות קוד שנראות קטנות או חסרי חשיבות - אפילו מילים שאולות חשובות.
+code-switching-cleanup-4 = אל תוסיפו סימני פיסוק שעשויים לשנות את המשמעות – שמרו על הזרימה הטבעית.
+# Tagging
+code-switching-tagging-subheader = דיווח
+code-switching-tagging-error-intro = אם התמלול מכיל שגיאה, השתמשו בפונקציית הדיווח כדי לציין זאת. שגיאות אפשריות כוללות:
+code-switching-tagging-error-1 = פיסוק שגוי
+code-switching-tagging-error-2 = שגיאות כתיב
+code-switching-tagging-error-3 = איות שגוי
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = שימוש באיות תקין לכל שפה
+code-switching-orthography-explanation = כתבו כל מילה לפי האיות של השפה שממנה היא מגיעה. לדוגמה:
+code-switching-orthography-explanation-example-1 = אם המילה "gym" מבוטאת כמו באנגלית, יש לכתוב אותה כמו באנגלית, ולא כ-"ג'ים".
+# Use Pronunciation to Help Determine the Language
+code-switching-pronunciation-header = השתמש בהגייה כדי לעזור לקבוע איזו שפה מדוברת

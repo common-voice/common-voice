@@ -10,6 +10,7 @@ error-title-404 = ما نتوانسیم آن صفحه را پیدا کنیم
 error-content-404 = شاید <homepageLink>صفحه اصلی</homepageLink> ما به شما کمک کند؟ برای پرسیدن سوال، لطفا به <matrixLink>گفتگوی اجتماع ماتریکس</matrixLink> بپیوندید، مسائل وبگاه را از طریق <githubLink>گیت‌هاب</githubLink> پیگیری کنید یا به <discourseLink>انجمن‌های دیسکورس ما</discourseLink> مراجعه کنید.
 error-title-503 = ما خرابی غیرمنتظره را تجربه می‌کنیم
 error-content-503 = وبگاه به زودی دوباره در دسترس خواهد بود. برای دریافت آخرین اطلاعات، لطفا به <matrixLink>گفتگوی اجتماع ماتریکس</matrixLink> بپیوندید یا به <githubLink>گیت‌هاب</githubLink> یا <discourseLink>انجمن‌های دیسکورس ما</discourseLink> مراجعه کنید تا مشکلات مربوط به تجربه وب‌گاه را ارسال و پیگیری کنید.
+error-title-504 = زمان درخواست بیش از حد
 error-code = خطا { $code }
 # Warning message shown when none of the clips could be uploaded
 error-duplicate-clips-all =

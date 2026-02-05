@@ -55,8 +55,7 @@ x-years-short =
     }
 help-make-dataset = ایْک مڑنے معیار گہ عوامی شان گیْ اوزگار ڈیٹاسیٹ سنون دہ اسے امداد تِھیا
 sign-up-account = اکاؤنٹ سنون سائن اپ تِھیا
-email-subscription-title = ای میل اپ ڈیٹ تھونے کِرِیا سائن اپ
-email-subscription-title-new = کامن وائس خبری خطو ہدفی کائی تھون گہ  مُڇھوڑ ڙَس بونے کِرِیا تازہ موڙوْ بارَد سائن اپ تِھیا۔
+email-subscription-title-v3 = کامن وائس گہ موزیلا فاؤنڈیشن اپ ڈیٹے کِرِیا سائن اپ تِھیا۔
 
 ## Account Benefits
 
@@ -143,7 +142,7 @@ answer = جواب
 
 ## Community section
 
-community-section-title = عالمی برادرِیؤ ذریعہ تقویت یافتہ، عالمی برادرِیؤ کِرِیا — 130 جِبہ آں اسݨوجیْ گہ بسکِیؤ ǃ
+community-section-title-202601 = عالمی برادریوں کے تعاون سے، عالمی برادریوں کے لیے — 290 زبانیں، اور یہ تعداد بڑھتی جا رہی ہے!
 join-discord-community = ڈسکارڈ کمیونٹی سے ٹل بِیا
 # label for button
 join-discord-community-action = Discord جیْ اسو سے ٹل بِیا

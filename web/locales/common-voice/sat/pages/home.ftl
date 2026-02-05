@@ -53,8 +53,6 @@ x-years-short =
     }
 help-make-dataset = ᱦᱟᱭ ᱠᱣᱟᱞᱤᱴᱭ, ᱯᱟᱹᱵᱞᱤᱠ ᱠᱷᱩᱞᱟᱹ ᱰᱟᱴᱟᱥᱮᱴ ᱛᱮᱭᱟᱨ ᱨᱮ ᱜᱚᱲᱚ ᱮᱢᱟ ᱞᱮᱢ
 sign-up-account = ᱠᱷᱟᱛᱟ ᱞᱟᱹᱜᱤᱫ ᱥᱩᱢᱤ ᱮᱢ ᱛᱟᱢ
-email-subscription-title = ᱤᱢᱮᱞ ᱞᱟᱹᱜᱤᱫ ᱥᱩᱦᱤ ᱮᱢ ᱢᱮ
-email-subscription-title-new = Common Voice ᱱᱤᱭᱩᱡᱞᱮᱴᱚᱨ, ᱜᱚᱞ ᱨᱤᱢᱟᱭᱮᱱᱰᱚᱨᱥ ᱟᱨ ᱞᱟᱦᱟ ᱦᱟᱹᱞᱤ ᱞᱟᱹᱜᱤᱫ ᱥᱩᱦᱤ ᱮᱢ ᱢᱮ
 
 ## Account Benefits
 

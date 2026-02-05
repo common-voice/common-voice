@@ -23,7 +23,6 @@ report-button = Report
 skip-button = Skip
 submit-button = Submit
 contribute = Contribute
-request-new-language = Request New Language
 # Button text which appears when there are no more resources
 continue-with-skipped = Continue with Skipped
 
@@ -45,10 +44,6 @@ not-found-page-content = The page you are looking for could not be found
 
 # Privacy and Terms checkbox
 accept-privacy-and-terms = I agree to Common Voice's <termsLink>Terms</termsLink> and <privacyLink>Privacy Notice</privacyLink>
-
-# Locales (not yet fully resolved in Pontoon)
-meh = Southwestern Tlaxiaco Mixtec
-mel = Central Melanau
 
 # Locales-Variants
 ms-MY = Bahasa Malay

@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = ლა̈ნმა̈რჯუ̂ ხარისხია̈ნ ჩია̈შდ ხელმისაწუ̂დომ ხმოუ̂ან მონაცემრე ლასყე̄ნას.
 sign-up-account = ჩუ̂ა̈თრეგიტრირაუ̂ა̈ნ ანგარიშჟი
-email-subscription-title = ჩუ̂ა̈თრეგიტრირაუ̂ა̈ნ ელ. ფოსტა̄̈ განახლება̈შდ
-email-subscription-title-new = ჩუ̂ა̈თრეგიტრირაუ̂ა̈ნ Common Voice-ჟი მიზნარე ჟი ლა̈შყდუნად ი პროგრესი განახლება̄̈შდ
 
 ## Account Benefits
 
@@ -126,7 +124,6 @@ add-text = ტექსტი ლიქმე
 
 ## Community section
 
-community-section-title = ნასყა̈უ̂ ლი გლობალურ საზოგადოებარე̄შ გლობალურ თემრეშდ —130 ნინ ი შელდ აჯაღ იცხემ!
 join-discord-community = სგ'ა̄̈ხტყუბა̄̈ნ Discord საზოგადოებას
 # label for button
 join-discord-community-action = სგ'ა̄̈ნტყუბა̄̈ნ ნა̈ჲ Discord-ჟი

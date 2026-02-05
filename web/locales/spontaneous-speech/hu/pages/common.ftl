@@ -23,7 +23,6 @@ report-button = Jelentés
 skip-button = Kihagyás
 submit-button = Elküldés
 contribute = Közreműködés
-request-new-language = Új nyelv kérése
 # Button text which appears when there are no more resources
 continue-with-skipped = Folytatás a kihagyottakkal
 
@@ -44,8 +43,9 @@ not-found-page-header = Nem található
 not-found-page-content = A keresett oldal nem található
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Elfogadom a Common Voice <termsLink>Jogi feltételeit</termsLink> és az <privacyLink>Adatvédelmi nyilatkozatát</privacyLink>
-# Locales (not yet fully resolved in Pontoon)
-meh = Délnyugat-tlaxiacói mizték
+# Locales-Variants
+ms-MY = Maláj
+el-CY = Ciprióta görög
 
 ## Language search component
 

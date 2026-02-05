@@ -3,6 +3,8 @@ speak-now = سۆزلەڭ
 speak-subtitle = ئاۋازىڭىزنى ئىئانە قىلىڭ
 record-cta = ئۈنگە ئېلىشنى باشلا
 record-platform-not-supported = كەچۈرۈڭ ، سىزنىڭ سۇپىڭىزنى ھازىرچە قوللىمايدۇ.
+record-platform-webview = سىز ئىجتىمائىي تاراتقۇدىكى ئۇلانمىنى چېكىپ بۇ تور بەتكە يېتىپ كەلگەن بولۇشىڭىز مۇمكىن. سىز ئاۋاز خاتىرىلەشنى قوللىمايدىغان ئەپتىكى توركۆرگۈنى ئىشلىتىۋاتىسىز.
+record-platform-not-supported-webview = كۆچمە ئۈسكۈنىڭىزدە سىستېما توركۆرگۈسىنى ئىشلىتىپ تۆھپە قوشالايسىز…
 record-platform-not-supported-desktop = ئۈستەل يۈزى ئۈسكۈنىلىرىدە چۈشۈرۈش ئارقىلىق تۆھپە قوشالايسىز…
 record-platform-not-supported-ios-non-safari = iOS دا safari ئارقىلىق ئۈنگە ئېلىشنى قوزغىتىپ داۋاملاشتۇرۇڭ…
 record-must-allow-microphone = مىكروفوننى ئىشلىتىشكە رۇخسەت قىلىشىڭىز كېرەك.
@@ -61,7 +63,7 @@ create-profile-button = تەرجىمىھال قۇر
 # IMAGE TAGS
 img-alt-success-checkmark = مۇۋەپپەقىيەت بەلگىسى
 # menu item
-read-sentences = جۈملە ئوقۇ
+read-sentences = جۈملە ئوقۇي
 # text wrapped in <small></small> will be shown in a smaller font size
 read-sentences-coming-soon = جۈملە ئوقۇ<small>(پات يېقىندا قوشۇلىدۇ)</small>
 

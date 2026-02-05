@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = Ajùtani a custruiri na basi di dati d’alta qualità e dispunìbbili pubblicamenti
 sign-up-account = Riggìstrati
-email-subscription-title = Iscrìviti ê nutizzi nnall’e-mail
-email-subscription-title-new = Scrìviti ê littri di nfurmazzioni di Common Voice, ê mimuranni supra l’ubbittivi e ê nutizzi supra i prugressi.
 
 ## Account Benefits
 

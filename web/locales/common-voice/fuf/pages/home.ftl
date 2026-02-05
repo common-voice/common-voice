@@ -57,8 +57,6 @@ x-years-short =
     }
 help-make-dataset = Wallu min mahde leemre keɓe lobbere, udditiinde
 sign-up-account = Winndito ngam dañde konte
-email-subscription-title = Winndito ngam heɓde kesɗitine iimeel
-email-subscription-title-new = Winndito e ɓatakeeji Common Voice , ciiftine faandaare e kesɗitine beydagol.
 
 ## Account Benefits
 

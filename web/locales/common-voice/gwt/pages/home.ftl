@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = یَک ڈل معیار، عوامی طورے ووڑاتہ ڈېٹاسیٹ ݫُپَئیکہ امَنی مدد کېرِؤ
 sign-up-account = یَک اکاونٹہ ݭڅی سائن اپ کېرِؤ
-email-subscription-title = اِی مېل اپڈېٹسَہ ݭڅی سائن اپ کېرِؤ
-email-subscription-title-new = کامن وائس نیوز لیٹرز، حدفَنہ کائے گِرَئیک اؤ پُر دِکَنہ تازہ ݪَمہ ݭڅی سائن اپ کېرِؤ
 
 ## Account Benefits
 
@@ -120,7 +118,6 @@ add-text = عبارَتہ لُبُسَؤ
 
 ## Community section
 
-community-section-title = عالمی برادَرِیَنہ ذریعَہ ئے قَوی بِسنت، عالمی برادَرِیہ ݭڅی 130 باتی نام اؤ زیات بِمېن دِݪی!
 join-discord-community = ڈِسکارڈ برادَرِیہ لُبُسِؤ
 # label for button
 join-discord-community-action = ڈِسکارڈہ امہ مِنزی لُبُسِؤ

@@ -31,8 +31,5 @@ not-found-page-header = Ora adé/ ga ditemuin
 not-found-page-content = Laman nyang Ente cari ora adé/ga ditemuin
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Ayé setuju amé <termsLink>syarat</termsLink> dan <privacyLink>peringetan privasi</privacyLink> dari Common Voice.
-# Locales (not yet fully resolved in Pontoon)
-meh = Southwestern Tlaxiaco Mixtec
-mel = Melanau Tengah
 # Locales-Variants
 ms-MY = Bahasa Melayu (Malaysia)

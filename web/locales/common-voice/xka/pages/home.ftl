@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = ران تےگان ڈیٹا سیٹ ترال می اسی مدد تھا
 sign-up-account = اؘ اکونٹ کولاو تھ
-email-subscription-title = ای میلاپڈیٹس کیر  دسخط تہ
-email-subscription-title-new = کامن وایس اے  خطونی ام،ریماینڈر تے پراگرس نوم بال کیر دسخط تہ
 
 ## Account Benefits
 
@@ -120,7 +118,6 @@ add-text = ٹیکسٹ مِیلہ۔
 
 ## Community section
 
-community-section-title = عالمی سطح دا رسے سپورٹ،عالمی دراوال کیر۔دش تے شو بیش  جیب ۔۔۔۔لا دی پا پتّرون
 join-discord-community = ڈسکورڈدراوال سہ ٹل بہ۔
 # label for button
 join-discord-community-action = ڈسکورذ رل اساں سہ ٹل بہ۔

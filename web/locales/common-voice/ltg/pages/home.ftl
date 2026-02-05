@@ -46,8 +46,6 @@ x-years-short =
     }
 help-make-dataset = Paleidzit sataiseit kvalitativu, publiski daīmamu datu kūpu
 sign-up-account = Registrej sovu kontu
-email-subscription-title = Dasasoki jaunumim e-postā
-email-subscription-title-new = Registrejitēs Common Voice viestim, atguodynuojumim par mierkim i progresa atjauninuojumim.
 
 ## Account Benefits
 

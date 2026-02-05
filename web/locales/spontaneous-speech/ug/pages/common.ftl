@@ -23,14 +23,17 @@ report-button = دوكلات
 skip-button = ئاتلا
 submit-button = يوللا
 contribute = تۆھپە قوشاي
-request-new-language = يېڭى تىل تەلەپ قىلىڭ
 
 ## Navbar
 
 question = سوئال
+validate = دەلىللە
 respond-to-prompt = ئىنكاس قايتۇرۇش
+respond-to-prompt-mobile = جاۋاب
 transcribe = خەت پۈت
 check-transcriptions = خەت پۈتۈكنى تەكشۈرۈڭ
+check-transcriptions-mobile = تەكشۈرەي
+tag = بەلگە
 
 ## Not Found Page
 
@@ -38,9 +41,6 @@ not-found-page-header = تېپىلمىدى
 not-found-page-content = سىز ئىزدەۋاتقان بەت تېپىلمىدى
 # Privacy and Terms checkbox
 accept-privacy-and-terms = مەن Common Voice نىڭ <termsLink> شەرتلىرى </termsLink> ۋە <privacyLink>مەخپىيەتلىك ئۇقتۇرۇشى </privacyLink> غا قوشۇلىمەن.
-# Locales (not yet fully resolved in Pontoon)
-meh = مىكستېك (غەربىي جەنۇپ لاكسىياكو)
-mel = مەركىزى مىلانو
 # Locales-Variants
 ms-MY = باخاسا مالاي
 

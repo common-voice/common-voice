@@ -42,7 +42,6 @@ x-years-short =
     }
 help-make-dataset = Dufashe gukora ikusanyirizo rifite ireme rikomeye kandi rikoreshwa na buri wese.
 sign-up-account = Injira ufungure konti
-email-subscription-title = Injira utange andi makuru ya imeri
 
 ## Account Benefits
 

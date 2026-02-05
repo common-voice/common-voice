@@ -14,7 +14,13 @@ import {
   AbortContributionModalActions,
   AbortContributionModalStatus,
 } from '../../../../stores/abort-contribution-modal'
-import { Sentence as SentenceType } from 'common'
+import {
+  Sentence as SentenceType,
+  MIN_RECORDING_MS,
+  MIN_RECORDING_MS_BENCHMARK,
+  MAX_RECORDING_MS,
+  MIN_VOLUME,
+} from 'common'
 import StateTree from '../../../../stores/tree'
 import { Uploads } from '../../../../stores/uploads'
 import { User } from '../../../../stores/user'
@@ -39,15 +45,10 @@ import RecordingPill from './recording-pill'
 import { SentenceRecording } from './sentence-recording'
 import SpeakErrorContent from './speak-error-content'
 import { USER_LANGUAGES } from './firstSubmissionCTA/firstPostSubmissionCTA'
-import { castTrueString } from '../../../../utility'
+import { castTrueString, isWebView } from '../../../../utility'
 import { trackGtag } from '../../../../services/tracker-ga4'
 
 import './speak.css'
-
-const MIN_RECORDING_MS = 1000
-const MIN_RECORDING_MS_BENCHMARK = 500
-const MAX_RECORDING_MS = 15000
-const MIN_VOLUME = 8 // Range: [0, 255].
 
 enum RecordingError {
   TOO_SHORT = 'TOO_SHORT',
@@ -123,12 +124,23 @@ class SpeakPage extends React.Component<Props, State> {
   demoMode = this.props.location.pathname.includes(URLS.DEMO)
 
   audio: AudioWeb
+  isWebView = false
   isUnsupportedPlatform = false
   maxVolume = -1
   recordingStartTime = 0
   recordingStopTime = 0
 
+  // Guard against concurrent submissions (class-level instead of state-level)
+  private _isSubmitting = false
+  // Track mounted state to prevent setState on unmounted component
+  private _isMounted = false
+
   static getDerivedStateFromProps(props: Props, state: State) {
+    // Guard against undefined sentences (network/communication failure)
+    if (!props.sentences) {
+      return null
+    }
+
     if (state.clips.length > 0) {
       const sentenceIds = state.clips
         .map(({ sentence }) => (sentence ? sentence.id : null))
@@ -170,20 +182,37 @@ class SpeakPage extends React.Component<Props, State> {
     document.addEventListener('visibilitychange', this.releaseMicrophone)
     document.addEventListener('keyup', this.handleKeyUp)
 
-    if (
+    this.isWebView = isWebView()
+    this.isUnsupportedPlatform =
       !this.audio.isMicrophoneSupported() ||
       !this.audio.isAudioRecordingSupported()
-    ) {
-      this.isUnsupportedPlatform = true
+
+    // If unsupported, log and tag
+    if (this.isWebView) {
+      trackGtag('recording-in-webview', { locale: this.props.locale })
+      console.log(`In-app-browser detected - recording may not work!`)
     }
+    if (this.isUnsupportedPlatform) {
+      trackGtag('recording-not-supported', { locale: this.props.locale })
+      console.log(`Recording is not supported!`)
+    }
+
+    this._isMounted = true
   }
 
-  async componentWillUnmount() {
-    document.removeEventListener('keyup', this.handleKeyUp)
+  componentWillUnmount() {
+    this._isMounted = false
 
+    document.removeEventListener('keyup', this.handleKeyUp)
     document.removeEventListener('visibilitychange', this.releaseMicrophone)
+
     if (!this.isRecording) return
-    await this.audio.stop()
+
+    // Call stop without awaiting - let it clean up in the background
+    this.audio.stop().catch(error => {
+      // Audio may not be ready - ignore error during unmount
+      console.log('Could not stop recording during unmount:', error)
+    })
   }
 
   private get isRecording() {
@@ -353,7 +382,12 @@ class SpeakPage extends React.Component<Props, State> {
 
   private discardRecording = async () => {
     if (!this.isRecording) return
-    await this.audio.stop()
+    try {
+      await this.audio.stop()
+    } catch (error) {
+      // Audio may not be ready yet - ignore the error
+      console.log('Could not stop recording:', error)
+    }
     this.setState({ recordingStatus: null })
   }
 
@@ -409,7 +443,7 @@ class SpeakPage extends React.Component<Props, State> {
 
     const clip_count = clips.length
     let uploaded_count = 0
-    let hasDuplicateClip = false
+    let hasDuplicateClip = false // eslint-disable-line prefer-const
 
     addUploads([
       ...clips.map(({ sentence, recording }) => async () => {
@@ -468,19 +502,42 @@ class SpeakPage extends React.Component<Props, State> {
             retries = 0
             uploaded_count += 1
           } catch (error) {
-            let key = 'error-clip-upload'
+            // Check error type from server response
             if (error.message.includes('ALREADY_EXISTS')) {
+              // Duplicate clip - treat as success and exit retry loop immediately
               hasDuplicateClip = true
-              key = 'error-duplicate-clip'
-            } else if (error.message.includes('save_clip_error')) {
-              key = 'error-clip-upload-server'
+              uploaded_count += 1
+              retries = 0
+              continue
             }
 
-            retries--
-            await new Promise(resolve => setTimeout(resolve, 1000))
+            let key = 'error-clip-upload'
+            let shouldRetry = true
 
-            if (retries == 0 && !hasDuplicateClip && confirm(getString(key))) {
-              retries = 3
+            if (error.message.includes('AUDIO_CORRUPT')) {
+              // Corrupted audio data - don't retry, show helpful message
+              key = 'record-error-uploaded-clip-corrupted'
+              shouldRetry = false
+            } else if (error.message.includes('save_clip_error')) {
+              key = 'error-clip-upload-server'
+              shouldRetry = true // Retry server errors
+            }
+
+            if (shouldRetry) {
+              retries--
+              await new Promise(resolve => setTimeout(resolve, 1000))
+
+              if (retries === 0 && confirm(getString(key))) {
+                retries = 3
+              }
+            } else {
+              // Don't retry - show problem only (user cannot re-record at this stage)
+              retries = 0
+              alert(
+                getString(key, {
+                  duration: MAX_RECORDING_MS / 1000,
+                })
+              )
             }
           }
         }
@@ -512,6 +569,15 @@ class SpeakPage extends React.Component<Props, State> {
             )
           }
         }
+
+        // Reset submission guard only AFTER all uploads complete
+        // This prevents double-submission during network retries (3 retries × 1sec delay = 3+ seconds)
+        // Previous bug: Reset immediately after queueing, allowing rapid double-clicks during retries
+        // Only update state if component is still mounted (prevents React DOM errors)
+        if (this._isMounted) {
+          this.setState({ isSubmitted: false })
+        }
+        this._isSubmitting = false
       },
     ])
 
@@ -538,8 +604,19 @@ class SpeakPage extends React.Component<Props, State> {
     })
   }
 
-  private handleSubmit = (evt: React.SyntheticEvent) => {
+  private handleSubmit = (evt?: React.SyntheticEvent) => {
     const { user } = this.props
+
+    evt?.preventDefault()
+
+    // Prevent double submission with SYNCHRONOUS check
+    if (this.state.isSubmitted || this._isSubmitting) {
+      console.warn('[Speak] Prevented double submission')
+      return
+    }
+
+    // Set synchronous guard immediately
+    this._isSubmitting = true
 
     const hasSeenFirstCTA = castTrueString(
       window.sessionStorage.getItem(SEEN_FIRST_CTA)
@@ -551,8 +628,14 @@ class SpeakPage extends React.Component<Props, State> {
 
     this.props.updateUser({ privacyAgreed: this.state.privacyAgreedChecked })
 
-    evt.preventDefault()
-    this.upload(this.state.privacyAgreedChecked)
+    const uploadSucceeded = this.upload(this.state.privacyAgreedChecked)
+
+    // If upload was blocked (privacy modal shown), don't process CTAs or reset submission flag
+    if (!uploadSucceeded) {
+      // FIX: Reset synchronous guard to allow retry after privacy modal
+      this._isSubmitting = false
+      return
+    }
 
     if (!user.account) {
       if (!hasSeenFirstCTA) {
@@ -571,6 +654,10 @@ class SpeakPage extends React.Component<Props, State> {
         this.resetState()
       }
     }
+
+    // DON'T reset here - moved to upload completion callback
+    // Resetting immediately allows double-submit during network retries
+    // See upload() function's addUploads final callback for actual reset
   }
 
   private resetAndGoHome = () => {
@@ -715,6 +802,7 @@ class SpeakPage extends React.Component<Props, State> {
               <SpeakErrorContent
                 isLoading={isLoading}
                 hasLoadingError={hasLoadingError}
+                isWebView={this.isWebView}
                 isUnsupportedPlatform={this.isUnsupportedPlatform}
                 isMissingClips={isMissingClips}
                 isMissingClipsForVariant={
@@ -774,6 +862,7 @@ class SpeakPage extends React.Component<Props, State> {
             privacyAgreedChecked={this.state.privacyAgreedChecked}
             shouldShowFirstCTA={this.state.shouldShowFirstCTA}
             shouldShowSecondCTA={this.state.shouldShowSecondCTA}
+            showPrivacyModal={this.state.showPrivacyModal}
             primaryButtons={
               <RecordButton
                 trackClass="speak-record"

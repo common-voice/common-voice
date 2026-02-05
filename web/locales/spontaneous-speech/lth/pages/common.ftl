@@ -31,8 +31,5 @@ not-found-page-header = Ba onwongere
 not-found-page-content = Pot karatac na in ïyënyö ba onwongere
 # Privacy and Terms checkbox
 accept-privacy-and-terms = An aye dwön n'ënaa ïë, cïk ëka müng, ngëc
-# Locales (not yet fully resolved in Pontoon)
-meh = Lëb Southwestern Tlaxiaco Mixtec
-mel = Lëb Central Melanau
 # Locales-Variants
 ms-MY = Lëb Bahasa Malay

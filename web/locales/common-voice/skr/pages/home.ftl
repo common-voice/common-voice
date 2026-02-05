@@ -54,8 +54,6 @@ x-years-short =
     }
 help-make-dataset = ودھائے معیار دا ، عوامی ڈیٹا سیٹ بݨاوݨ کیتے ساݙی مدد کرو
 sign-up-account = کھاتے کیتے سائن اپ تھیوو
-email-subscription-title = ای میل اپ ڈیٹاں کیتے سائن اپ تھیوو
-email-subscription-title-new = کامن وائس خبرنامہ، مقصد یاد دہانیاں تے پیش رفت اپ ڈیٹاں کیتے سائن اپ کرو
 
 ## Account Benefits
 

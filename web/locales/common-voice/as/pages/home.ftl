@@ -46,8 +46,6 @@ x-years-short =
     }
 help-make-dataset = উচ্চ গুণমানৰ, ৰাজহুৱাভাৱে মুকলি ডেটাছেট নিৰ্মাণ কৰাত আমাক সহায় কৰক
 sign-up-account = একাউণ্ট এটাৰ বাবে ছাইন আপ কৰক
-email-subscription-title = ইমেইল আপডে’টৰ বাবে ছাইন আপ কৰক
-email-subscription-title-new = কমন ভইচ সংবাদপত্ৰ, লক্ষ্যৰ ৰিমাইণ্ডাৰ আৰু প্ৰগতিৰ আপডে’টৰ বাবে ছাইন আপ কৰক
 
 ## Account Benefits
 
@@ -131,7 +129,6 @@ answer = উত্তৰ দিয়ক
 
 ## Community section
 
-community-section-title = বিশ্বব্যাপী সমাজৰ দ্বাৰা চালিত, বিশ্বব্যাপী সমাজৰ বাবে — 130টা ভাষা আৰু বাঢ়িয়েই আছে!
 join-discord-community = Discord সমাজত যোগদান কৰক
 # label for button
 join-discord-community-action = Discord-ত আমাৰ সৈতে যোগদান কৰক

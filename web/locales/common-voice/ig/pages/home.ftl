@@ -52,8 +52,6 @@ x-years-short =
     }
 help-make-dataset = Nyèrè ányị́ áká íwúlíté ụ́yọ̀kọ̀ ńgwá ńnyọ́chá (dataset) bụ́ ị́gbà ǹké gá-éghé óghé màkà ḿmádụ̀ níílé ógé níílé.
 sign-up-account = Débànyé áhá gị́ kà Í wèé nwétá ọ́wà ǹkè áká gị́
-email-subscription-title = Débànyé áhà gị́ kà Ị́ wèé ná-ènwétá ózí íméèlụ̀ (email) gbàsárá kà íhé sì àgá
-email-subscription-title-new = Débànyé áhà gị́ kà Ị́ wèé ná-ènwétá ákwụ́kwọ́ ózí ńdị́ Common Voice, nàkwàzị̀ ózí ńchétárá m̀bùmnúchè nà kà íhé sì àgá
 
 ## Account Benefits
 

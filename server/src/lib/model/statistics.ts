@@ -1,6 +1,6 @@
 import { pick } from 'common'
 
-import lazyCache from '../lazy-cache'
+import lazyCache from '../redis-cache'
 import { getMySQLInstance } from './db/mysql'
 import { QueryOptions, TableNames, TimeUnits } from 'common'
 

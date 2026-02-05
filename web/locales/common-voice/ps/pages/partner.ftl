@@ -16,3 +16,5 @@ partnerships-small-business-description = موږ تل د ډیټا مصرف کو�
 partnerships-corporates-header = لوی پیمانه کارپوریشنونه او پلیټ فارم شرکتونه
 partnerships-corporates-description = که تاسو د ډیټاسیټ په اړه د نورو خبرو کولو په لټه کې یاست، غواړئ په پلان شوي پلیټ فارم پراخولو کې شریکه پانګه اچونه وکړئ یا د همکارۍ فرصتونو په لټه کې شئ، <emailFragment>موږ ته یوه کرښه پریږدئ.</emailFragment>
 partnerships-our-partners = زموږ همکاران
+# menu item
+partners = شریکان

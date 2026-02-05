@@ -11,6 +11,7 @@ cs-locale-change-modal-subtitle = Hi ha canvis sense desar en aquesta pàgina. S
 ## Question Page Items
 
 cs-question-page-instruction = Afegiu <icon></icon> fins a 25 preguntes al conjunt de dades { $currentLocale } perquè la gent les respongui
+cs-add-question-textarea-placeholder = Introduïu preguntes amb canvi de codi, una per línia. La gent té més probabilitats de respondre amb commutació de codi quan la pregunta també conté commutació de codi.
 cs-question-dataset-name = Conjunt de dades: { $datasetName }
 
 ## Validate Page Items
@@ -36,6 +37,10 @@ cs-tag-dataset-name = Conjunt de dades [{ $datasetName }]
 
 learn-how-to-use = Apreneu a usar aquesta pàgina
 read-full-guidelines-here = <guidanceLink>Llegiu les directrius completes aquí</guidanceLink>
+
+## Answer Page Guidelines
+
+cs-learn-how-to-use-answer-explanation = Responeu a l'indicatiu de forma tan natural com pugueu, sentiu-vos lliure de canviar de codi entre llengües si se sent natural. Assegureu-vos que useu un llenguatge respectuós i inofensiu.
 
 ## Review Page Guidelines
 

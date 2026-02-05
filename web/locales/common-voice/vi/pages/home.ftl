@@ -40,8 +40,6 @@ x-years-short =
     }
 help-make-dataset = Hãy giúp chúng tôi xây dựng một bộ dữ liệu công khai, chất lượng cao
 sign-up-account = Đăng kí một tài khoản
-email-subscription-title = đăng ký nhận email cập nhật
-email-subscription-title-new = Đăng ký nhận bản tin Common Voice, nhắc nhở mục tiêu và cập nhật tiến độ
 
 ## Account Benefits
 
@@ -73,7 +71,7 @@ read-more-about = Đọc thêm trên trang Giới thiệu của chúng tôi
 ## NAV ITEMS
 
 answer-questions = Trả lời câu hỏi <small>(sắp ra mắt)</small>
-review-transcriptions = Đánh giá bản ghi
+review-transcriptions = Đánh giá bản chép lời
 add-questions = Thêm câu hỏi <small>(Sắp ra mắt)</small>
 review-questions = Duyệt câu hỏi
 transcribe-audio = Phiên âm âm thanh
@@ -122,12 +120,15 @@ answer = Trả lời
 
 ## Community section
 
-community-section-title = Được cung cấp bởi các cộng đồng toàn cầu, cho các cộng đồng toàn cầu — 130 ngôn ngữ và vẫn tiếp tục tăng lên!
 join-discord-community = Tham gia cộng đồng Discord
 # label for button
 join-discord-community-action = Tham gia cùng chúng tôi trên Discord
 join-discord-community-content = Tham gia vào các cuộc thảo luận về cộng đồng ngôn ngữ, đặt câu hỏi, tìm hiểu về các sự kiện và cuộc nói chuyện sắp tới.
 find-us-on-matrix = Tìm chúng tôi trên Matrix
+find-us-on-matrix-content-v2 = Matrix là một giao thức mở, nhẹ để phân cấp, giao tiếp thời gian thực và nền tảng thảo luận mở ưa thích của Mozilla. Chúng tôi đang ở trong phòng "common-voice:mozilla.org".
+# label for button
+find-us-on-element-action-1 = Element
+find-us-on-matrix-action-2 = Ứng dụng khách khác
 ask-mozilla-share = Yêu cầu Mozilla chia sẻ sự kiện của bạn
 ask-mozilla-share-content = Có sự kiện trước đó hoặc sắp tới? Chia sẻ nó với chúng tôi và chúng tôi sẽ thông báo nó cho cộng đồng hoặc viết một blog về nó!
 # label for button
@@ -162,7 +163,7 @@ validate-readings-link = Xác thực bài đọc
 contribute-link = Đóng góp vào ngữ liệu văn bản
 answer-questions-link = Trả lời câu hỏi
 transcribe-answers-link = Ghi lại câu trả lời
-review-transcriptions-link = Đánh giá bản ghi
+review-transcriptions-link = Đánh giá bản chép lời
 contribute-text-link = Đóng góp văn bản
 press-and-stories-link = Báo chí và tin tức
 

@@ -42,8 +42,6 @@ x-years-short =
     }
 help-make-dataset = Tuyambe okuzimba dataset ey'omutindo ogwa waggulu, ey'olukale nga ya bwereere.
 sign-up-account = Ggulawo akawunti
-email-subscription-title = Funa obubaka mu email
-email-subscription-title-new = Funa ebifa ku Common Voice, okujjukiza ekiruubirirwa kyo ne w'otuuse
 
 ## Account Benefits
 

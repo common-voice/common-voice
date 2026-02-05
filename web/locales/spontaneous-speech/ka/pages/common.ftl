@@ -23,7 +23,6 @@ report-button = მოხსენება
 skip-button = გამოტოვება
 submit-button = გაგზავნა
 contribute = წვლილის შეტანა
-request-new-language = მოითხოვეთ ახალი ენა
 # Button text which appears when there are no more resources
 continue-with-skipped = გამოტოვებულზე გადასვლა
 
@@ -44,9 +43,6 @@ not-found-page-header = ვერ მოიძებნა
 not-found-page-content = მოთხოვნილი გვერდი ვერ მოიძებნა
 # Privacy and Terms checkbox
 accept-privacy-and-terms = ვეთანხმები Common Voice-ის <termsLink>პირობებსა</termsLink> და <privacyLink>პირადი მონაცემების დაცვის განაცხადს</privacyLink>
-# Locales (not yet fully resolved in Pontoon)
-meh = სამხრეთდასავლური ტლახიაკის მისტეკური
-mel = ცენტრალური მელანაუ
 # Locales-Variants
 ms-MY = ბაჰასა-მალაური
 el-CY = კვიპროსული ბერძნული

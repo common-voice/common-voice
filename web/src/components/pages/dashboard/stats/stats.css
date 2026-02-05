@@ -28,6 +28,22 @@
                 margin-inline-end: 20px;
             }
         }
+
+        &.loading {
+            justify-content: center;
+            align-items: center;
+            min-height: 200px;
+        }
+    }
+
+    & .loading-placeholder {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        min-height: 200px;
+        font-size: 24px;
+        color: var(--warm-grey);
     }
 
     & .plot {

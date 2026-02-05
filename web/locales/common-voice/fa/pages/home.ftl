@@ -46,8 +46,6 @@ x-years-short =
     }
 help-make-dataset = به ما در ایجاد یک مجموعه داده با کیفیت بالا و باز برای عموم کمک کنید
 sign-up-account = برای یک حساب‌کاربری نام‌نویسی کنید
-email-subscription-title = ثبت نام برای به روز رسانی ایمیل
-email-subscription-title-new = در خبرنامه، يادآورِ هدف و اخبار پیشرفت پروژهٔ آواهای مشترک ثبت‌نام کنید
 
 ## Account Benefits
 
@@ -119,6 +117,9 @@ join-discord-community = به اجتماع دیسکورد بپیوندید
 join-discord-community-action = در دیسکورد به ما بپیوندید
 find-us-on-matrix = ما را در ماتریکس پیدا کنید
 ask-mozilla-share = از موزیلا بخواهید رویدادهای شما را هم‌رسانی کند
+contribute-github = مشارکت در گیت‌هاب
+# label for button
+contribute-github-action = مشارکت در گیت‌هاب
 
 ## Get involved section
 

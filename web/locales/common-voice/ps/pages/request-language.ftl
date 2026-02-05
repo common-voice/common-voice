@@ -2,19 +2,19 @@
 
 request-language-heading = د نوې ژبې په اړه پوښتنه وکړئ
 request-language-explanation-1 =
-    وګورئ چې ستاسو ژبه په کې لیست شوې ده
-    <languagesPageLink>د عام غږ ژبې پاڼه</languagesPageLink>.
-    که نه، دا فورمه ډکه کړئ او موږ به <strong>تاسو ته یو اسانه بریښنالیک واستوو
-    تشریح کول چې څنګه خپله ژبه جوړه کړئ</strong>.
+    وگورئ چې ستاسو ژبه د 
+    <languagesPageLink>د عام غږ ژبې پاڼه</languagesPageLink> کې ورگډه شوې ده.
+    که نه، دا فورمه ډکه کړئ او موږ به <strong>تاسو ته یو اسانه برېښليک درولېږو
+    چې څنگه کولی شئ تاسو خپله ژبه واوڼئ</strong>.
 request-language-form-email =
-    .label = ستاسو بریښنالیک آدرس
+    .label = ستاسو برېښليک پته
 request-language-form-info =
-    .label = د ژبې په اړه معلومات
-request-language-form-info-explanation = د ژبې په اړه څومره چې تاسو کولی شئ معلومات اضافه کړئ. د ‏‎کېدای شي شامل وي:
+    .label = د ژبې په اړه مالومات
+request-language-form-info-explanation = د ژبې په اړه چې تاسو هر څومره مالومات کولی شئ ورگډ کړئ. دا کېدای شي لاندې مالومات ولري:
 request-language-form-info-explanation-list-1 = ستاسو د ژبې نومونه
-request-language-form-info-explanation-list-2 = <isoCodeLink>ISO کوډونه</isoCodeLink> که معلوم وي
-request-language-form-info-explanation-list-3 = د ویب پاڼو لینکونه چې زموږ سره د ژبې په پوهیدو کې مرسته کولی شي
-request-language-google-recaptcha-required = reCAPTCHA ته اړتیا ده که تاسو غواړئ پرمخ لاړشئ
+request-language-form-info-explanation-list-2 = <isoCodeLink>آيسو کوډونه</isoCodeLink> که څرگند وي
+request-language-form-info-explanation-list-3 = د وېبپاڼو تړوني چې له موږ سره د ژبې پوهېدو کې مرسته کولی شي
+request-language-google-recaptcha-required = پرمخ تللو لپاره بياځلي کپچا ته اړتيا ده
 request-language-google-recaptcha-error = په reCAPTCHA کې یو څه غلط شوي. مهرباني وکړئ بیا هڅه وکړئ.
 # Success page
 request-language-success-heading = مننه! تاسو د نوې ژبې پوښتنې لیږلي دي
@@ -32,3 +32,10 @@ request-language-success-list-3 =
 request-language-error =
     موږ ممکن دا غوښتنه نه وي ترلاسه کړې. مهرباني وکړئ موږ ته مستقیم بریښنالیک وکړئ
     په <emailLink>{ $email }</emailLink> کې او موږ به بیرته تاسو ته ورسیږو!
+request-for-scripted-speech-toggle = د مخکې نه ليکل شوې وينا (سکرېپټ) غوښتنه وکړئ
+request-for-spontaneous-speech-toggle = د خپلسري وینا غوښتنه
+need-help-deciding-platform = د کوم یو غوره کولو په اړه پریکړه کولو کې مرستې ته اړتیا لرئ؟
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = <strong>سکرپټ شوی وینا</strong> (په دودیز ډول هغه څه چې تاسو یې د کامن وايس په نوم پیژنئ) هغه ځای دی چې تاسو کولی شئ په خپله ژبه کې جملې په لوړ غږ ولولئ.
+need-help-deciding-platform-explanation-2 = <strong>خپلسري وینا</strong> د کامن وايس یوه نوې برخه ده چیرې چې تاسو کولی شئ پوښتنو ته په ډیر عضوي او عام ډول ځواب ورکړئ.
+need-help-deciding-platform-explanation-3 = که مو خپله ژبه د پلاتفورم په کومه برخه کې ونه موندله، دواړه وټاکئ.

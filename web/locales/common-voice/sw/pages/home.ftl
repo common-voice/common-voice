@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = Tusaidie kujenga daftari la hali ya juu, iliyowazi kwa umma
 sign-up-account = Jisajili kwa akaunti
-email-subscription-title = jiandikishe kwa sasisho za barua pepe
-email-subscription-title-new = Jisajili kwa jarida la Common Voice, ukumbusho wa malengo na visasisho vya maendeleo
 
 ## Account Benefits
 

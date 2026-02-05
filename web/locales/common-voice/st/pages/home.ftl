@@ -57,8 +57,6 @@ x-years-short =
     }
 help-make-dataset = Re thuse ho aha pokello ya data ya boleng bo hodimo, e bulehileng phatlalatsa
 sign-up-account = Ngodisa bakeng sa akhaonte
-email-subscription-title = ingodise bakeng sa imeile ya dintlafatso
-email-subscription-title-new = Ingodise bakeng sa dikoranta tsa Common Voice, dikgopotso tsa sepheo le ditlaleho tsa tswelopele
 
 ## Account Benefits
 

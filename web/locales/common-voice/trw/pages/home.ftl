@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = مھو سیت غورا آں عوام سی کیا ہر ایک سی کیا اوپن ڈیٹا سیٹ سوؤ می مدد کوا
 sign-up-account = آمن گے کھاتا سوؤ سی کیا سائن آپ کوا
-email-subscription-title = ای میلے سے معلوماتا سی کیا سائن این کوا
-email-subscription-title-new = کامن وائس سی معلوماتا سی کتاب آں ہدف سی کیا آں کم سی ترقی کی کیا سائن آپ کوا
 
 ## Account Benefits
 
@@ -120,7 +118,6 @@ add-text = لیِکھ جم کو
 
 ## Community section
 
-community-section-title = دُونئی سی خلگے کیِدُو، دُونیئی سی خلگا سی کیا 130 جیِبے جم ہوُئی آں دأل ہوا یدی!
 join-discord-community = دیسکارڈ کمیونیٹی می آمن میِلا
 # label for button
 join-discord-community-action = مھو سیت دیسکاڑد می میِل

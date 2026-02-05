@@ -1,35 +1,33 @@
-import * as React from 'react';
-import { useEffect } from 'react';
-import { Localized } from '@fluent/react';
+import * as React from 'react'
+import { useEffect } from 'react'
+import { Localized } from '@fluent/react'
 
-import { trackError } from '../../../services/tracker';
-import { LocaleLink } from '../../locale-helpers';
-import { GitHubLink, DiscourseLink, MatrixLink } from '../../shared/links';
-import { GithubIconCode, DiscourseIconCode, MatrixIcon } from '../../ui/icons';
+import { ErrorBoundaryErrorCode } from '../../../services/app-error'
+import { trackError } from '../../../services/tracker'
+import { LocaleLink } from '../../locale-helpers'
+import { GitHubLink, DiscourseLink, MatrixLink } from '../../shared/links'
+import { GithubIconCode, DiscourseIconCode, MatrixIcon } from '../../ui/icons'
 
-import RoundButton from '../../ui/round-button';
-import Page from '../../ui/page';
-import PageHeading from '../../ui/page-heading';
-import PageTextContent from '../../ui/page-text-content';
-import VisuallyHidden from '../../visually-hidden/visually-hidden';
+import RoundButton from '../../ui/round-button'
+import Page from '../../ui/page'
+import PageHeading from '../../ui/page-heading'
+import PageTextContent from '../../ui/page-text-content'
+import VisuallyHidden from '../../visually-hidden/visually-hidden'
 
-import './error-page.css';
+import './error-page.css'
 
 interface Props {
-  children?: React.ReactNode;
-  errorCode: '404' | '503' | '500';
-  prevPath?: string;
+  children?: React.ReactNode
+  errorCode: ErrorBoundaryErrorCode | '404'
+  prevPath?: string
 }
 
 const ErrorPage = ({ children, errorCode, prevPath }: Props) => {
   useEffect(() => {
-    trackError(errorCode, prevPath || '');
-  }, []);
+    trackError(errorCode, prevPath || '')
+  }, [])
 
-  const headingLocalisationId =
-    errorCode === '500'
-      ? 'error-something-went-wrong'
-      : `error-title-${errorCode}`;
+  const headingLocalisationId = `error-title-${errorCode}`
 
   return (
     <Page className="error-page">
@@ -91,7 +89,7 @@ const ErrorPage = ({ children, errorCode, prevPath }: Props) => {
         </div>
       </div>
     </Page>
-  );
-};
+  )
+}
 
-export default ErrorPage;
+export default ErrorPage

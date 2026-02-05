@@ -5,7 +5,7 @@ wall-of-text = Dự án Common Voice đang ra mắt một nền tảng thứ hai
 # text wrapped with <mark></mark> will have a light red background
 why-card-1-text = Hữu ích cho <mark>các ngữ cảnh nói tự nhiên<mark> và các trường hợp sử dụng (ví dụ: khi bạn muốn chức năng nhận dạng giọng nói hoạt động với những người nói không có kịch bản trước và theo cách nói thông thường)
 # text wrapped with <mark></mark> will have a light red background
-why-card-2-text = Hỗ trợ thực tế tốt hơn cho các ngôn ngữ như dịch ngôn ngữ và <mark>chuyển đổi mã</mark>
+why-card-2-text = Hỗ trợ thực tế tốt hơn cho các ngôn ngữ như dịch ngôn ngữ và <mark>đa ngôn ngữ</mark>
 # text wrapped with <mark></mark> will have a light red background
 why-card-3-text = Hỗ trợ tốt hơn cho các ngôn ngữ có ít hoặc <mark>không có kho văn bản</mark> để sử dụng (ví dụ: xã hội học, các biến thể, ngôn ngữ lịch sử không có chữ viết, v.v.)
 how-spontaneous-speech-works = Cách hoạt động của tính năng Spontaneous Speech
@@ -20,7 +20,7 @@ transcribe-bubble-title = <mark>Phiên âm</mark>
 transcribe-bubble-subtitle = Bạn viết lại những gì bạn nghe được trong đoạn âm thanh
 # text wrapped in <mark></mark> will have a blue background
 check-bubble-title = <mark>Kiểm tra</mark>
-check-bubble-subtitle = Bạn kiểm tra xem bản phiên âm có khớp với âm thanh không
+check-bubble-subtitle = Bạn kiểm tra xem bản chép lời có khớp với âm thanh không
 # text wrapped in <mark></mark> will have a blue background
 data-bubble-title = <mark>Dữ liệu</mark>
 data-bubble-subtitle = Chúng tôi phát hành tập dữ liệu định kỳ

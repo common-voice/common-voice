@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = ران معیاری عوامی پوت ڈیٹاسیٹ چاٞگ مئ موں مداٞد کٞر
 sign-up-account = کھاتیں کیر سائن اپ کٞر
-email-subscription-title = خط دہ شِیدیں کیر سائن اپ کٞر
-email-subscription-title-new = کامن وائیساٞں رساٞلاٞ، ہدفاں یاداشت تے ترقی ایں شِیدیں کیر سائن اپ کٞر
 
 ## Account Benefits
 
@@ -120,7 +118,6 @@ add-text = مواد شامل کٞر
 
 ## Community section
 
-community-section-title = عالمی برادریانیں ایں پِیڄ تھی تقویت یافتہ، تے عالمی برادریانیں —130 جِب تے دی پا سمسو سمسو چٹاٞر ہوینت۔
 join-discord-community = ڈِسکورڈ گروپ مئی شامل ہو
 # label for button
 join-discord-community-action = ماسٞہ ڈِسکورڈ مئ شامل ہو

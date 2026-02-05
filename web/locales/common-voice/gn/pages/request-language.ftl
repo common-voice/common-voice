@@ -17,7 +17,7 @@ request-language-form-info-explanation-list-1 = Ne ñe’ẽ réra
 request-language-form-info-explanation-list-2 = <isoCodeLink>ISO ayvu</isoCodeLink> ojeikuaáramo
 request-language-form-info-explanation-list-3 = Ñanduti renda mbojuajuha ne pytyvõtava eikũmby hag̃ua ñe’ẽ.
 request-language-google-recaptcha-required = Eikotevẽta reCAPTCHA rehe eku’esejeýramo
-request-language-google-recaptcha-error = Oĩ osẽvaíva reCAPTCHA ndive. Ikatúpiko eha’ãjey ag̃ave.
+request-language-google-recaptcha-error = Oĩ osẽvaíva reCAPTCHA ndive. Ikatúpiko eha’ã jey ag̃ave.
 # Success page
 request-language-success-heading = ¡Aguyje! Emondo ñe’ẽ rehegua porandu
 request-language-success-list-1 =

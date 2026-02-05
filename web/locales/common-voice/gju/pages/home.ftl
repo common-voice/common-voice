@@ -49,8 +49,6 @@ x-years-short =
     }
 help-make-dataset = عام لوکاں وسطے دستیاب ہچھی قسم کو ڈیٹا سیٹ بنان ما مہاری مدد کرو
 sign-up-account = نووں اکاونٹ بنان وسطے اندر جاو
-email-subscription-title = تازہ ای میل وسطے اندر جاو
-email-subscription-title-new = کامن وائس کی خبراں ، مقصد کی یاد دہانی تے ترقی کا بارہ ما جانن وسطے اندر جاو
 
 ## Account Benefits
 
@@ -133,7 +131,6 @@ answer = جواب
 
 ## Community section
 
-community-section-title = عالمی برادری وسطے  عالمی برادری کی طرف تے تعاون(طاقت)
 join-discord-community = بکھ بکھ کنبہ(ڈسکارڈ) ما شامل ہو جاو
 # label for button
 join-discord-community-action = ڈسکارڈ اپر مہارے نال شامل ہو جاو

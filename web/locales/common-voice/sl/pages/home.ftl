@@ -53,8 +53,6 @@ x-years-short =
     }
 help-make-dataset = Pomagajte nam zgraditi kakovosten in javno dostopen nabor podatkov
 sign-up-account = Prijavite se za račun
-email-subscription-title = prijavite se na e-poštna obvestila
-email-subscription-title-new = Prijavite se na novice projekta Common Voice, opomnike na cilje in posodobitve napredka
 
 ## Account Benefits
 

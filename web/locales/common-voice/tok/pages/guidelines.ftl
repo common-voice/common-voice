@@ -20,6 +20,7 @@ example = ni li ken:
 varying-pronunciations-example = mi sona ala e nasin.
 misreadings-explanation-1 = o lukin pona e nimi ale pi lipu ni. sina kute la o alasa e ni: nimi sitelen en nimi kalama li sama. ona tu li ante la o weka e toki.
 misreadings-explanation-2 = tenpo mute la pakala ni li lon:
+misreadings-explanation-4 = sitelen "s" li lon pini nimi ala
 misreadings-explanation-5 = ona li wan e nimi tu, taso nimi wan li lon ala sitelen.
 misreadings-explanation-6 = ona li pini ike e kalama la pini toki li lon ala.
 misreadings-explanation-7 = ona li toki mute e nimi wan.
@@ -39,6 +40,7 @@ public-domain = nasin open
 citing-sentences = o pana e sona tan
 adding-sentences = o pana e sitelen
 reviewing-sentences = o lukin e sitelen
+sentence-domain = ma pi toki sitelen
 
 ## Sentence collection sidebar content
 
@@ -52,6 +54,7 @@ adding-sentences-subheader-spelling-punctuation = nasin nimi en sitelen pini
 adding-sentences-subheader-spelling-punctuation-explanation = nimi sitelen o pona lon nasin o pakala ala tawa lukin.
 adding-sentences-subheader-speakable = sina o ken toki e sitelen
 adding-sentences-subheader-numbers = nanpa
+adding-sentences-subheader-abbreviations = sitelen lili pi nimi suli
 adding-sentences-subheader-punctuation = sitelen pini
 adding-sentences-subheader-special-characters = sitelen nasa en sitelen pi toki ante
 adding-sentences-subheader-special-characters-explanation-1 = sitelen nimi o tan toki sitelen. ni li ken ala: sitelen “ж” li lon toki Lusi li lon ala toki Inli la, ona o lon ala sitelen pi toki Inli.
@@ -59,3 +62,24 @@ adding-sentences-subheader-offensive-content = toki ike
 reviewing-sentences-explanation-1 = sitelen li pona la o kepeken nena "pona".
 reviewing-sentences-explanation-2 = sitelen li ike la o kepeken nena "ala".
 reviewing-sentences-explanation-3 = sina sona ala e pona sitelen la sina ken pana ala e sona li ken lukin e toki sin.
+
+## Question collection sidebar content
+
+length = suli sitelen
+dont-add-subheader = o pana ala
+process-steps = nasin
+
+## Spontaneous Speech sidebar content
+
+answer-questions-subheader = nasin pi ijo ale
+# Transcribe the Audio
+transcribe-the-audio = o toki sitelen e toki kalama
+tags-noise = kalama
+
+## Code-Switching
+
+code-switching-not-tag-proper-names-example-1 = jan: jan Malija, jan Son
+code-switching-not-tag-interjections-example-1 = "n"
+code-switching-not-tag-interjections-example-2 = "ala"
+code-switching-not-tag-interjections-example-3 = "pona"
+code-switching-not-tag-interjections-example-4 = "n"

@@ -49,8 +49,7 @@ x-years-short =
     }
 help-make-dataset = Pomhajće nam, zjawnje přistupnu wotewrjenu datowu sadźbu wysokeje kwality wutworić
 sign-up-account = Konto załožić
-email-subscription-title = Registrujće so za e-mejlowe aktualizacije
-email-subscription-title-new = Registrujće so za powěsćowe listy Common Voice, cilowe dopomnjeća a postupowe aktualizacije
+email-subscription-title-v3 = Registrujće so za aktualizacije Common Voice a załožby Mozilla Foundation
 
 ## Account Benefits
 
@@ -135,7 +134,7 @@ answer = Wotmołwić
 
 ## Community section
 
-community-section-title = Podpěrane wot globalnych zhromadźenstwow za globalne zhromadźenstwa – 130 rěčow a přiběrace!
+community-section-title-202601 = Podpěrane wot globalnych zhromadźenstwow za globalne zhromadźenstwa – 290 rěčow a přiběrace!
 join-discord-community = Přidružće so zhromadźenstwu Discord
 # label for button
 join-discord-community-action = &nbsp;Přidružće so nam na Discord

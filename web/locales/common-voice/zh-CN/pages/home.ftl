@@ -40,8 +40,6 @@ x-years-short =
     }
 help-make-dataset = 帮助我们构建高质量、可公开使用的数据集
 sign-up-account = 注册账户
-email-subscription-title = 订阅更新邮件
-email-subscription-title-new = 订阅 Common Voice 新闻通讯、目标提醒和进度更新
 
 ## Account Benefits
 
@@ -126,7 +124,6 @@ answer = 回答
 
 ## Community section
 
-community-section-title = 由全球社区予力，为全球社区服务。现已支持 130 门语言，且仍在不断扩增！
 join-discord-community = 加入 Discord 社区
 # label for button
 join-discord-community-action = 通过 Discord 加入我们

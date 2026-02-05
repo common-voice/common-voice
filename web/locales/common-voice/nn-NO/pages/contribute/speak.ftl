@@ -3,6 +3,8 @@ speak-now = Snakk no
 speak-subtitle = Doner stemma di
 record-cta = Start innspeling
 record-platform-not-supported = Vi beklagar, men plattforma di er for tida ikkje støtta.
+record-platform-webview = Du kan ha kome hit ved å klikke på ei lenke i ein app for sosiale medium. Du brukar ein nettlesar i appen som ikkje støttar lydopptak.
+record-platform-not-supported-webview = På mobile einingar kan du bidra ved hjelp av nettlesaren til systemet…
 record-platform-not-supported-desktop = Til datamaskiner kan du laste ned siste versjon:
 record-platform-not-supported-ios-non-safari = På iOS må du fortsetje med Safari for å aktivere innspeling…
 record-must-allow-microphone = Du må tillate tilgang til mikrofonen.
@@ -10,6 +12,12 @@ record-no-mic-found = Fann ingen mikrofon.
 record-error-too-short = Innspelinga var for kort.
 record-error-too-long = Innspelinga var for lang.
 record-error-too-quiet = Innspelinga var for stille.
+record-error-uploaded-clip-corrupted =
+    Lydopptaket ditt ser ut til å vere øydelagt. Dette kan kome av:
+    • Problem med nettlesarkompatibilitet (prøv å bruke ein annan nettlesar)
+    • Problem med mikrofon eller lyddrivarar
+    • Nettverksavbrot under opptaket
+    Prøv å ta opp på nytt.
 record-cancel = Avbryt nyinnspelinga
 record-instruction = { $actionType }<recordIcon></recordIcon> les deretter setninga høgt
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> når du er ferdig

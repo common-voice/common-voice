@@ -40,8 +40,6 @@ x-years-short =
     }
 help-make-dataset = 幫助我們打造高品質、可公開使用的資料集
 sign-up-account = 註冊帳號
-email-subscription-title = 訂閱最新消息電子報
-email-subscription-title-new = 訂閱 Common Voice 電子報、目標提醒與進度更新
 
 ## Account Benefits
 
@@ -117,7 +115,6 @@ add-text = 添加文本
 
 ## Community section
 
-community-section-title = 由全球社群協力，為全球社群服務。已超過 130 種語言！
 join-discord-community = 加入 Discord 社群
 # label for button
 join-discord-community-action = 在 Discord 上加入我們

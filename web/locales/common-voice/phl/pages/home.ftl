@@ -47,8 +47,6 @@ x-years-short =
     }
 help-make-dataset = تپہ اسام سنگی شو معیار بُٹھیمی دپارہ ڈیٹا سیٹ سمئنی مدد تھانو۔
 sign-up-account = اکاونٹی دپارہ سائن اب تھہ
-email-subscription-title = ای میلی وے نیوی بیتی اٹئینی دپارہ یعنی اپڈیٹ تھئنی دپارہ سائن اب تھہ
-email-subscription-title-new = کامن وائسی بارئی خبری، تیݨی مقصد  یاد کی اٹئنی دپارہ او مُݜٹو گرا بئنی معلومیتی دپارہ سائن اب تھہ۔
 
 ## Account Benefits
 
@@ -124,7 +122,6 @@ add-text = ٹیکسٹ شامل تھہ
 
 ## Community section
 
-community-section-title = عالمی کمیونٹیز طاقت 130— زُبینی شامل ہنم
 join-discord-community = ڈسکارڈ کمیونٹی وے شامل بھہ۔
 # label for button
 join-discord-community-action = ڈسکارڈی وے اسام سنگی شامل بھہ

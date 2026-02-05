@@ -47,8 +47,6 @@ x-months-short = { $count }mo
 x-years-short = { $count }y
 help-make-dataset = Dimbali nu defar ay jumtukaay yu baax te ubbeeku ci ñépp
 sign-up-account = Bindul ngir am kont
-email-subscription-title = Bindul ngir yeesal sa email
-email-subscription-title-new = Bindul ngir jot ci bataaxal Common Voice yi, fàttaliku say mébet ak yeesal sag yokkute
 
 ## Account Benefits
 

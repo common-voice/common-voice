@@ -53,8 +53,6 @@ x-years-short =
     }
 help-make-dataset = Segítsen minket egy kiváló minőségű, nyilvános és nyílt adatkészlet létrehozásában
 sign-up-account = Regisztráljon egy fiókot
-email-subscription-title = iratkozzon fel a hírlevélre
-email-subscription-title-new = Iratkozzon fel a Common Voice hírlevelekre, a célokkal kapcsolatos emlékeztetőkre és az előhaladásról szóló hírekre
 
 ## Account Benefits
 
@@ -139,12 +137,15 @@ answer = Válaszoljon
 
 ## Community section
 
-community-section-title = Globális közösségekkel, a globális közösségekért – 130 nyelv és egyre csak bővül!
 join-discord-community = Csatlakozzon a Discord közösséghez
 # label for button
 join-discord-community-action = Csatlakozzon hozzánk a Discordon
 join-discord-community-content = Vegyen részt nyelvi közösségi beszélgetésekben, kérdezzen, és értesüljön a közelgő eseményekről és előadásokról.
 find-us-on-matrix = Keressen meg minket a Matrixon
+find-us-on-matrix-content-v2 = A Matrix egy nyílt, könnyűsúlyú protokoll a decentralizált, valós idejű kommunikációhoz, és a Mozilla által kedvelt nyílt vitafórum. A „common-voice:mozilla.org” szobában vagyunk.
+# label for button
+find-us-on-element-action-1 = Element
+find-us-on-matrix-action-2 = Egyéb kliensek
 ask-mozilla-share = Kérje meg a Mozillát, hogy ossza meg az eseményeit
 ask-mozilla-share-content = Van egy korábbi vagy egy közelgő eseménye? Ossza meg velünk, és bejelentjük a közösségünk számára, vagy írunk róla a blogon!
 # label for button

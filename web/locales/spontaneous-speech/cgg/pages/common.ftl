@@ -23,7 +23,6 @@ report-button = Ripoota
 skip-button = Guruka
 submit-button = Hayo
 contribute = Taho/hayo
-request-new-language = Shaba Orurimi Rusya
 
 ## Navbar
 
@@ -38,8 +37,5 @@ not-found-page-header = Tikyashangwamu
 not-found-page-content = Orupapura oru oraronda tirwashangwamu
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Ndaikiriza aba Common Voice's <termsLink>Terms</termsLink> and <privacyLink>Privacy Notice</privacyLink>
-# Locales (not yet fully resolved in Pontoon)
-meh = Southwestern Tlaxiaco Mixtec
-mel = Central Melanau
 # Locales-Variants
 ms-MY = Bahasa Malay

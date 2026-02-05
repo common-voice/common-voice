@@ -58,8 +58,6 @@ x-years-short =
     }
 help-make-dataset = Re thuse go aga rekoto ya tshedimosetso ya phatlalatsa, ya maemo a a kwa godimo
 sign-up-account = Ikwadise go nna le akhaonto
-email-subscription-title = ikwadisetse ditlhabololo tsa imeile
-email-subscription-title-new = Ikwadisetse go amogela makwalodikgang a Common Voice, dikgopotso tsa maikaelelo le tshedimosetso e ntšha ka kgatelopele
 
 ## Account Benefits
 

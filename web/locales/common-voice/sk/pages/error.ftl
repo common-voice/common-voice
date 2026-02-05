@@ -8,8 +8,14 @@ error-clip-upload = Odoslanie tejto nahrávky neustále zlyháva, skúšať to z
 error-clip-upload-server = Odoslanie tejto nahrávky na server neustále zlyháva. Znova načítajte stránku alebo to skúste znova neskôr.
 error-title-404 = Túto stránku sa nám nepodarilo nájsť
 error-content-404 = Možno pomôže naša <homepageLink>domovská stránka</homepageLink>? Ak chcete položiť otázku, pripojte sa k četu na <matrixLink>Matrixe</matrixLink>, monitorujte problémy prostredníctvom <githubLink>GitHubu</githubLink> alebo navštívte <discourseLink>naše diskusné fóra</discourseLink>.
+error-title-500 = Ospravedlňujeme sa, niečo sa pokazilo
+error-content-500 = Vyskytla sa neočakávaná chyba. Skúste to znova neskôr. Ak potrebujete pomoc, pripojte sa k <matrixLink>komunitnému chatu Matrix</matrixLink>, sledujte problémy stránky na <githubLink>GitHube</githubLink> alebo navštívte <discourseLink>naše fóra Discourse</discourseLink>.
+error-title-502 = Spojenie prerušené
+error-content-502 = Momentálne sa vám nepodarilo nadviazať stabilné pripojenie k našim serverom. Skúste to znova neskôr. Ak potrebujete pomoc, pripojte sa k <matrixLink>komunitnému chatu Matrix</matrixLink>, sledujte problémy so stránkou na <githubLink>GitHube</githubLink> alebo navštívte <discourseLink>naše fóra Discourse</discourseLink>.
 error-title-503 = Zaznamenali sme neočakávaný výpadok
 error-content-503 = Stránka bude čo najskôr obnovená. Ak chcete získať najnovšie informácie, pripojte sa k četu na <matrixLink>Matrixe</matrixLink>, navštívte stránku na <githubLink>GitHube</githubLink> alebo si pozrite <discourseLink>naše diskusné fóra</discourseLink>.
+error-title-504 = Časový limit žiadosti
+error-content-504 = Splnenie požiadavky trvalo príliš dlho. Toto je zvyčajne dočasné. Skúste to znova. Ak potrebujete pomoc, pripojte sa k <matrixLink>komunitnému chatu Matrix</matrixLink>, sledujte problémy stránky na <githubLink>GitHube</githubLink> alebo navštívte <discourseLink>naše fóra Discourse</discourseLink>.
 error-code = Chyba { $code }
 # Warning message shown when none of the clips could be uploaded
 error-duplicate-clips-all =

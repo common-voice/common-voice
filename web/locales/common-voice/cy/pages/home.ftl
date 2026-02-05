@@ -57,8 +57,7 @@ x-years-short =
     }
 help-make-dataset = Helpwch ni i greu set ddata o ansawdd uchel sy'n agored i'r cyhoedd
 sign-up-account = Cofrestru am gyfrif
-email-subscription-title = cofrestrwch am ddiweddariadau e-bost
-email-subscription-title-new = Cofrestrwch er mwyn derbyn cylchlythyron, hysbysiadau targedau a diweddariadau cynnydd Common Voice.
+email-subscription-title-v3 = Cofrestrwch ar gyfer diweddariadau Common Voice a'r Mozilla Foundation
 
 ## Account Benefits
 
@@ -143,7 +142,7 @@ answer = Ateb
 
 ## Community section
 
-community-section-title = Wedi'i bweru gan gymunedau byd-eang, ar gyfer cymunedau byd-eang - 130 o ieithoedd ac yn tyfu!
+community-section-title-202601 = Wedi'i rymuso gan gymunedau byd-eang, ar gyfer cymunedau byd-eang - 290 o ieithoedd ac yn tyfu!
 join-discord-community = Ymunwch â'r Gymuned Discord
 # label for button
 join-discord-community-action = Ymunwch â ni ar Discord

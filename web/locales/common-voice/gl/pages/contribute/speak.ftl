@@ -3,6 +3,8 @@ speak-now = Fale agora
 speak-subtitle = Doe a súa voz
 record-cta = Arrancar a gravación
 record-platform-not-supported = Desculpe, pero a súa plataforma non é compatible actualmente.
+record-platform-webview = Vostede puido chegar aquí a través dunha ligazón dunha rede social. Está a usar un navegador que non permite gravar son.
+record-platform-not-supported-webview = Nos dispositivos móbiles pode colaborar co navegador do seu sistema…
 record-platform-not-supported-desktop = En computadores de escritorio, pode colaborar descargando...
 record-platform-not-supported-ios-non-safari = En iOS, continúe con Safari para habilitar a gravación ...
 record-must-allow-microphone = Debe permitirlle o acceso ao micrófono.
@@ -10,6 +12,12 @@ record-no-mic-found = Non se atopou micrófono.
 record-error-too-short = A gravación resultou demasiado curta.
 record-error-too-long = A gravación resultou demasiado longa.
 record-error-too-quiet = A gravación resultou demasiado silenciosa.
+record-error-uploaded-clip-corrupted =
+    A gravación de audio semella estar danada. Isto pode ocorrer por varios motivos:
+    • Problemas de compatibilidade co navegador (probe a usar outro navegador)
+    • Problemas co micrófono ou cos controladores de audio
+    • Interrupcións da rede durante a gravación
+    Por favor, tente gravar de novo.
 record-cancel = Anular a regravación
 record-instruction = { $actionType }<recordIcon></recordIcon> e logo lea a frase en voz alta
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> ao acabar

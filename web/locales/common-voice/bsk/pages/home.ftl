@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = śuwa quality daa sisar open dataset desmayar mii miriin ce duunin
 sign-up-account = ac̣count e gane sign up etin
-email-subscription-title = email updates e gane sign up etin
-email-subscription-title-new = common voice e newsletter, goal reminder daa progress updates e gane sign up etin
 
 ## Account Benefits
 
@@ -120,7 +118,6 @@ add-text = Text jama etin.
 
 ## Community section
 
-community-section-title = Tok dunyaatulo baaś etaśu cum uyoone gane--tʰa ke altar toorimi baaśin daa baske meyme bican
 join-discord-community = Discord Community lo kaa maneyin.
 # label for button
 join-discord-community-action = Discordulo me kaa kaa meneyin

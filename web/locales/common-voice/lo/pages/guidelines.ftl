@@ -243,13 +243,81 @@ code-switching-cultural-topics-explanation = ອາຫານ, ປະເພນີ
 code-switching-cultural-topics-explanation-example = "ເຈົ້າອະທິບາຍ Día de los Muertos ແນວໃດກັບຄົນທີ່ເວົ້າພາສາອັງກິດເທົ່ານັ້ນ?"
 code-switching-informal-scenarios-header = ສຳຫຼວດສະຖານະການທີ່ບໍ່ເປັນທາງການ
 code-switching-informal-scenarios-explanation = ການສົນທະນາກັບຫມູ່ເພື່ອນ ຫຼື ການສົ່ງຂໍ້ຄວາມມັກຈະປະກອບມີການປ່ຽນທໍາມະຊາດຫຼາຍຂຶ້ນ. ຕົວຢ່າງ:
+code-switching-informal-scenarios-explanation-example = "ເລື່ອງຕະຫລົກອັນໃດທີ່ຫມູ່ເພື່ອນຂອງທ່ານມັກເຮັດ - ແລະ ພວກເຂົາເວົ້າແນວໃດ?"
 # What to Avoid
 code-switching-avoid-subheader = ສິ່ງທີ່ຄວນຫຼີກຫຼ່ຽງ
 code-switching-avoid-intro = ຄໍາຖາມທີ່ອາດຈະ:
 code-switching-avoid-1 = ຮ້ອງຂໍຂໍ້ມູນສ່ວນບຸກຄົນ
+code-switching-avoid-2 = ຮຽກຮ້ອງ​ໃຫ້​ມີ​ຄຳ​ເວົ້າ​ທີ່​ກຽດ​ຊັງ ຫຼື​ ຄວາມ​ຮູ້ສຶກ​ທີ່​ມີ​ອະຄະຕິ ຫຼື​ ການ​ກະທໍາ​ຜິດ​ອື່ນໆ
+code-switching-avoid-3 = ເຮັດໃຫ້ບາງຄົນແບ່ງປັນຄວາມອ່ອນໄຫວ, ອາດຈະເຮັດໃຫ້ເກີດການຕອບໂຕ້
 code-switching-dont-header = ຢ່າ
 code-switching-dont-1 = ຢ່າໃຊ້ພາສາທີ່ເປັນທາງການຫຼາຍເກີນໄປ
 # Reviewing a Question
 code-switching-review-subheader = ການທົບທວນຄືນຄໍາຖາມ
 code-switching-review-intro = ໃຫ້ແນ່ໃຈວ່າຄໍາຖາມກົງກັບເງື່ອນໄຂ:
 code-switching-review-criterion-1 = ເຂົ້າໃຈງ່າຍ ແລະ ຕອບສະຫນອງຕໍ່
+code-switching-review-criterion-2 = ມີຄວາມກ່ຽວຂ້ອງໂດຍທົ່ວໄປ
+code-switching-review-criterion-3 = ຫ້າມໃຊ້, ຫຼື ຊັກຊວນ, ເປັນອັນຕະລາຍ ຫຼື ພາສາທີ່ໜ້າລັງກຽດ
+code-switching-review-does-not-header = ແລະ <bold>ບໍ່</bold> ລວມມີ:
+code-switching-review-offensive-content = <bold>ເນື້ອຫາທີ່ບໍ່ເໝາະສົມ ຫຼື ຂໍ້ມູນທີ່ລະອຽດອ່ອນ</bold>
+code-switching-answer-header = ເນື້ອຫາທີ່ບໍ່ເໝາະສົມ ຫຼື ຂໍ້ມູນທີ່ລະອຽດອ່ອນ
+code-switching-review-no-1 = ຄໍາ​ຖາມ​ທີ່​ອາດ​ຈະ​ຂໍ​ຂໍ້​ມູນ​ທີ່​ລະ​ບຸ​ຕົວ​ຕົນ​ສ່ວນ​ບຸກ​ຄົນ​
+code-switching-review-no-2 = ຄໍາຖາມທີ່ອາດຈະຮຽກຮ້ອງຄໍາເວົ້າທີ່ກຽດຊັງ ຫຼື ຄວາມຮູ້ສຶກທີ່ລໍາອຽງ ຫຼື ການກະທໍາທີ່ຮຸນແຮງອື່ນໆ
+code-switching-review-no-3 = ຄຳຖາມທີ່ອາດເຮັດໃຫ້ບາງຄົນແບ່ງປັນຄວາມອ່ອນໄຫວ, ອາດຈະເຮັດໃຫ້ເກີດການຕອບໂຕ້ໄດ້
+# Answering a Question
+code-switching-answer-subheader = ການຕອບຄໍາຖາມ
+code-switching-answer-intro = ໃນເວລາທີ່ຕອບຄໍາຖາມ, ເປົ້າຫມາຍແມ່ນເພື່ອຕອບສະຫນອງທໍາມະຊາດ - ຄືກັນກັບທ່ານໃນການສົນທະນາໃນຊີວິດຈິງ. ພວກເຮົາຕ້ອງການບັນທຶກວິທີການປະສົມຂອງພາສາໃນຄໍາເວົ້າປະຈໍາວັນ.
+code-switching-answer-bullet-1 = ຄິດເຖິງຊ່ວງເວລາ ຫຼື ສະຖານະການໃນຊີວິດຈິງ: ເລື່ອງຕະຫລົກ, ການໂຕ້ຖຽງ, ປະເພນີ
+code-switching-answer-bullet-2 = ຈິນຕະນາການວ່າທ່ານກຳລັງສົ່ງຂໍ້ຄວາມຫາໝູ່ ຫຼື ເລົ່າເລື່ອງໃດໜຶ່ງໃຫ້ຄົນອື່ນຟັງ
+code-switching-answer-bullet-3 = ໃຊ້ຄໍາທີ່ທ່ານຈະໃຊ້ແທ້ໆ, ເຖິງແມ່ນວ່າຈະຢືມ ຫຼື ປະສົມ
+code-switching-answer-bullet-4 = ບໍ່ມີວິທີ "ທີ່ສົມບູນແບບ" ທີ່ຈະຕອບ
+code-switching-authentic-header = ຕອບຕາມທໍາມະຊາດ ແລະ ແທ້ຈິງ
+code-switching-authentic-speak = <bold>ເວົ້າວິທີທີ່ທ່ານມັກກັບໝູ່ເພື່ອນ ຫຼື ຄອບຄົວ.</bold> ຖ້າທ່ານປະສົມພາສາໃນຊີວິດຈິງ, ໃຫ້ເຮັດແບບດຽວກັນຢູ່ບ່ອນນີ້. ຕົວຢ່າງ:
+code-switching-authentic-speak-example = "Pues ຂ້ອຍບອກນາງວ່າຂ້ອຍໄປບໍ່ໄດ້, ແຕ່ນາງຄື, 'ເຈົ້າສະແດງດີກວ່າ!"
+code-switching-use-both-languages = <bold>ໃຊ້​ທັງ​ສອງ​ພາ​ສາ​ຖ້າ​ຫາກ​ວ່າ​ນັ້ນ​ເປັນ​ແບບ​ປົກ​ກະ​ຕິ​ທີ່​ທ່ານ​ຈະ​ເວົ້າ​ມັນ.</bold> ເຖິງ​ແມ່ນ​ວ່າ​ການ​ສະ​ຫຼັບ​ພຽງ​ແຕ່​ຄໍາ​ສັບ​ຫຼື​ສອງ​ຄໍາ​ແມ່ນ​ເປັນ​ປະ​ໂຫຍດ. ຕົວຢ່າງ:
+code-switching-use-both-languages-example = "ນາງເປັນບ້າ porque ແທ້ໆທີ່ຂ້ອຍບໍ່ໄດ້ໂທຫານາງຄືນ."
+code-switching-authentic-direct-quotes = <bold>ລວມເອົາຄຳເວົ້າໂດຍກົງ ຫຼື ບົດສົນທະນາ.</bold> ເວົ້າແທ້ໃນສິ່ງທີ່ບາງຄົນເວົ້າ, ບໍ່ແມ່ນສະບັບທີ່ທຳຄວາມສະອາດ ຫຼື ເປັນທາງການ. ຕົວຢ່າງ:
+code-switching-authentic-direct-quotes-example = "Mi mamá dijo, 'Tú crees que esto es un juego?' ແລະ ຂ້ອຍຄື, 'Okay chill!"
+code-switching-authentic-reflect = <bold>ສະທ້ອນເຖິງຄວາມຮູ້ສຶກ, ເອກະລັກ, ແລະ ບໍລິບົດ.</bold> ການສະຫຼັບມັກຈະເກີດຂຶ້ນເມື່ອຄົນສະແດງຄວາມຮູ້ສຶກ, ຄວາມຮີບດ່ວນ ຫຼື ແນວຄວາມຄິດທາງວັດທະນະທໍາ. ອີງໃສ່ສິ່ງເຫຼົ່ານີ້ໃນເວລາຕອບຄໍາຖາມ.
+code-switching-authentic-full-context = <bold>ໃຊ້ຄຳຕອບເຕັມກັບບໍລິບົດ.</bold> ໃຫ້ລະອຽດເທົ່າທີ່ເປັນໄປໄດ້, ໃຫ້ລາຍລະອຽດຫຼາຍເທົ່າທີ່ທ່ານເຮັດໄດ້. ແບ່ງປັນເລື່ອງ ຫຼື ຕົວຢ່າງໃນຄຳຕອບຂອງທ່ານ.
+# Don’t Overthink or Overedit
+code-switching-answer-dont-subheader = ຢ່າ​ຄິດ​ເກີນ​ຫຼື​ເກີນ​ໄປ
+code-switching-answer-dont-correct-language = <bold>“ແກ້ໄຂ” ພາສາຂອງທ່ານ.</bold> ນີ້ບໍ່ແມ່ນການທົດສອບ. ຮູບແບບ "ເຫມາະສົມ" ບໍ່ສໍາຄັນຢູ່ທີ່ນີ້, ພາສາທໍາມະຊາດເຮັດ.
+code-switching-answer-dont-avoid-switching = <bold>ຫຼີກ​ລ້ຽງ​ການ​ສະ​ຫຼັບ​ຖ້າ​ຫາກ​ວ່າ​ທ່ານ​ເຮັດ​ໄດ້​ຕາມ​ປົກ​ກະ​ຕິ.</bold> ມັນ​ເປັນ​ການ​ດີ​ທີ່​ຈະ​ສະ​ຫຼັບ​ປະ​ໂຫຍກ​ກາງ​, ກາງ​ຄິດ​, ຫຼື​ ພຽງ​ແຕ່​ສໍາ​ລັບ​ຄໍາ​ສັບ​ໃດ​ຫນຶ່ງ​.
+code-switching-answer-dont-formal-writing = <bold>ເວົ້າຄືກັບວ່າທ່ານກຳລັງຂຽນຢ່າງເປັນທາງການ.</bold> ຫຼີກເວັ້ນຄຳຕອບທາງວິຊາການ. ຮັກສາມັນສົນທະນາ.
+code-switching-answer-dont-force-switch = <bold>ບັງຄັບໃຫ້ປ່ຽນຖ້າມັນບໍ່ເປັນທໍາມະຊາດ.</bold> ພຽງແຕ່ສະຫຼັບຖ້ານັ້ນເປັນວິທີທີ່ທ່ານຈະເວົ້າແບບທໍາມະຊາດໃນສະຖານະການນັ້ນ.
+code-switching-answer-dont-translate-repeat = <bold>ແປ ຫຼື ເຮັດຊ້ຳທຸກຢ່າງ.</bold> ພຽງແຕ່ເວົ້າຄັ້ງດຽວ, ວິທີທີ່ມັນຈະເຂົ້າມາໃນການສົນທະນາ. ທ່ານບໍ່ ຈຳ ເປັນຕ້ອງເວົ້າສະບັບຂອງການຕອບສະ ໜອງ ໃນແຕ່ລະພາສາ.
+# Transcribing
+code-switching-transcribe-subheader = ການຖອດຂໍ້ຄວາມ
+code-switching-transcribe-intro = ເມື່ອຖອດຂໍ້ຄວາມຈາກຄໍາຕອບທີ່ລວມເອົາການປ່ຽນລະຫັດ, ເປັນຕົວແທນຂອງພາສາຂອງຜູ້ເວົ້າຕາມທີ່ມັນເວົ້າ - ໂດຍບໍ່ມີການແກ້ໄຂ, ດັດແກ້, ຫຼືເ ຮັດໃຫ້ງ່າຍ. ນີ້ແມ່ນສໍາລັບການປ່ຽນລະຫວ່າງພາສາ, ການປາກເວົ້າທີ່ບໍ່ເປັນທາງການ, ແລະ ຄໍາສັບພາສາປະສົມ.
+code-switching-transcribe-do-1 = ຫຼິ້ນສ່ວນສັ້ນຫຼາຍຄັ້ງເພື່ອຈັບສະວິດທີ່ລະອຽດອ່ອນ
+code-switching-transcribe-do-2 = ຢຸດຊົ່ວຄາວຫຼັງຈາກທຸກໆປະໂຫຍກເພື່ອກວດເບິ່ງສອງຄັ້ງສໍາລັບການປ່ຽນ ຫຼື ຄໍາສັບປະສົມ
+# Capture Speech Exactly as Spoken
+code-switching-capture-header = ບັນທຶກສຽງເວົ້າໃຫ້ຖືກຕ້ອງຕາມທີ່ເວົ້າ
+code-switching-capture-explanation = ຖອດຂໍ້ຄວາມທັງສອງພາສາຕາມທີ່ປາກົດ / ສຽງ. ຢ່າ "ແກ້ໄຂ" ພາສາ ຫຼື ປ່ຽນເປັນພາສາດຽວ.
+# Include filler words and markers
+code-switching-filler-header = ຮວມເອົາຄຳສັບ ແລະ ເຄື່ອງໝາຍ
+code-switching-filler-explanation = ຄໍາສັບຕ່າງໆເຊັ່ນ "um," "ມັກ," "pues," "ເຈົ້າຮູ້," ແລະ "entonces" ມີຄວາມຫມາຍ. ຕົວຢ່າງ: "ດັ່ງນັ້ນ, ເອີ, ຂ້ອຍບອກນາງວ່າ, 'pues no sé, ອາດຈະຕໍ່ມາ."
+# Use standard spelling for each language
+code-switching-spelling-header = ໃຊ້ການສະກົດຄໍາມາດຕະຖານສໍາລັບແຕ່ລະພາສາ
+code-switching-spelling-explanation = ພະຍາຍາມສະກົດຄໍາໃຫ້ຖືກຕ້ອງສໍາລັບແຕ່ລະພາສາ, ເວັ້ນເສຍແຕ່ວ່າຜູ້ເວົ້າຈະອອກສຽງຢ່າງຊັດເຈນໃນທາງທີ່ບໍ່ໄດ້ມາດຕະຖານ.
+# Don’t Clean Up or Simplify the Language
+code-switching-cleanup-header = ຢ່າທຳຄວາມສະອາດ ຫຼື ເຮັດໃຫ້ພາສາງ່າຍຂຶ້ນ
+code-switching-cleanup-1 = ແປ ຫຼື ແປ - ຂຽນສິ່ງທີ່ຜູ້ເວົ້າເວົ້າ, ບໍ່ແມ່ນສິ່ງທີ່ພວກເຂົາ "ຫມາຍຄວາມວ່າ."
+code-switching-cleanup-2 = ໄວຍະກອນ ຫຼື ການອອກສຽງ "ຖືກຕ້ອງ" - ຮັກສາການນໍາໃຊ້ທໍາມະຊາດຂອງຜູ້ເວົ້າ.
+code-switching-cleanup-3 = ຂ້າມປຸ່ມທີ່ເບິ່ງຄືວ່າເລັກນ້ອຍຫຼືນ້ອຍ - ເຖິງແມ່ນວ່າຄໍາທີ່ຢືມກໍ່ມີຄວາມສໍາຄັນ.
+code-switching-cleanup-4 = ໃສ່ເຄື່ອງໝາຍວັກຕອນທີ່ສາມາດປ່ຽນຄວາມໝາຍ - ຮັກສາການໄຫຼເຂົ້າຕາມທຳມະຊາດ.
+code-switching-cleanup-5 = ສົມມຸດວ່າທ່ານຮູ້ພາສາຂອງທຸກຄໍາ - tag ໂດຍອີງໃສ່ການນໍາໃຊ້.
+# Tagging
+code-switching-tagging-subheader = ແທັກ
+code-switching-tagging-error-1 = ເຄື່ອງໝາຍວັກຕອນ ຫຼື ຕົວພິມໃຫຍ່ບໍ່ຖືກຕ້ອງ
+code-switching-tagging-error-2 = ພິມຜິດ
+code-switching-tagging-error-3 = ຄໍາສັບທີ່ຂຽນໃນ orthography ທີ່ບໍ່ຖືກຕ້ອງ
+code-switching-pronunciation-explanation-example-1 = ພາສາອັງກິດ: /ˈkeɪ.bəl/
+code-switching-pronunciation-explanation-example-2 = ແອສປາໂຍນ: /ˈkable/
+# When Not to Tag Words
+code-switching-not-tag-header = ເມື່ອບໍ່ແທັກຄຳສັບ
+
+## Reporting Content
+
+reporting-content = ເນື້ອໃນລາຍງານ

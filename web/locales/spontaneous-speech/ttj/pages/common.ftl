@@ -23,7 +23,6 @@ report-button = lipoota
 skip-button = Guruka
 submit-button = Hayo
 contribute = Hayo ebyawe
-request-new-language = Saba orulimi oruhyaka
 
 ## Navbar
 
@@ -38,8 +37,5 @@ not-found-page-header = Tikizoirwe
 not-found-page-content = Peeji ei orukuserra tezoirwe
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Ninyikiriza enteekereza ya Common Voices <termsLink>Terms</termsLink> and <privacyLink>Privacy Notice</privacyLink>
-# Locales (not yet fully resolved in Pontoon)
-meh = Southwestern Tlaxiaco Mixtec
-mel = Central Melanau
 # Locales-Variants
 ms-MY = Bahasa Malay

@@ -43,8 +43,7 @@ x-years-short =
     }
 help-make-dataset = Ajudeu-nos a crear un conjunt de dades d'alta qualitat obert i disponible públicament
 sign-up-account = Crea un compte
-email-subscription-title = registreu-vos per rebre actualitzacions per correu
-email-subscription-title-new = Creeu un compte per rebre les notícies del Common Voice, recordatoris dels objectius i actualitzacions de progrés
+email-subscription-title-v3 = Subscriviu-vos a les actualitzacions de Common Voice i la Fundació Mozilla
 
 ## Account Benefits
 
@@ -129,12 +128,15 @@ answer = Resposta
 
 ## Community section
 
-community-section-title = Amb el suport de comunitats globals, per a comunitats globals: 130 idiomes i en creixement!
 join-discord-community = Uniu-vos a la comunitat Discord
 # label for button
 join-discord-community-action = Uniu-vos a nosaltres a Discord
 join-discord-community-content = Participeu en debats de la comunitat lingüística, feu preguntes i informeu-vos sobre els propers esdeveniments i xerrades.
 find-us-on-matrix = Trobeu-nos a Matrix
+find-us-on-matrix-content-v2 = Matrix és un protocol obert i lleuger per a la comunicació descentralitzada i en temps real, i la plataforma de discussió oberta preferida de Mozilla. Som a la sala "common-voice:mozilla.org".
+# label for button
+find-us-on-element-action-1 = Element
+find-us-on-matrix-action-2 = Altres clients
 ask-mozilla-share = Demaneu a Mozilla que comparteixi els vostres esdeveniments
 ask-mozilla-share-content = Teniu algun esdeveniment passat o proper? Compartiu-lo amb nosaltres i l'anunciarem a la nostra comunitat o en farem una entrada al blog!
 # label for button

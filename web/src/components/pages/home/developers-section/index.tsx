@@ -1,7 +1,6 @@
 import React from 'react'
 import { Localized } from '@fluent/react'
 
-import { LinkButton } from '../../../ui/ui'
 import { ArrowRight } from '../../../ui/icons'
 
 import Table from './assets/table.png'
@@ -22,11 +21,15 @@ export const DevelopersSection = () => {
             <Localized id="developers-section-subtitle">
               <p />
             </Localized>
-            <LinkButton rounded to={URLs.DATASETS}>
+            <a
+              className="button rounded"
+              href={URLs.MDC_DATASETS}
+              target="_blank"
+              rel="noopener noreferrer">
               <Localized id="explore-datasets" elems={{ icon: <ArrowRight /> }}>
                 <span />
               </Localized>
-            </LinkButton>
+            </a>
           </div>
           <div className="image-container">
             <img src={Table} alt="" width={570} loading="lazy" />

@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = ترماخ مدد کوئ که معیاري او ته پبلک پاره میوک ډېټا سېټ يې جوړ کيېن
 sign-up-account = ته اکاؤنټ ته جوړؤ پاره يې دستڅط کېون
-email-subscription-title = ته ای مېل ته اپ ډېټ پاره يې دستڅط کېون
-email-subscription-title-new = ته مشترک آواز ته نیوز لېټر پاره، مقصد ریمائنډر، او ته مُخکی څېک ته اپ ډېت پاره يې ګۀ دستخط کېون
 
 ## Account Benefits
 
@@ -126,7 +124,6 @@ add-text = سبق ال يې ګډ کوئ
 
 ## Community section
 
-community-section-title = طاقتور سُکِن ته دنیا ته کمیونېټيز پاره ــ ته رئ ا زبنی او ته پئ ا په مُختګ
 join-discord-community = دنیا لاسته کټ کمیونېټیز ګیرډ ګډ سئ
 # label for button
 join-discord-community-action = ماخ ګډ مېلاؤ سئ ډِسکورډ کی

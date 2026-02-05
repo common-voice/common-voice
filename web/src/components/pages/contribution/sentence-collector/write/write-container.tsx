@@ -11,6 +11,7 @@ import BulkSubmissionSuccess from './bulk-submission-write/bulk-submission-succe
 import { SmallBatchSummary } from './small-batch-summary'
 import { Instruction } from '../instruction'
 import { EditIcon, UploadIcon } from '../../../../ui/icons'
+import { Spinner } from '../../../../ui/ui'
 
 import { useAccount, useSentences } from '../../../../../hooks/store-hooks'
 import { useLocale } from '../../../../locale-helpers'
@@ -21,6 +22,10 @@ import {
 } from './sentence-write/hooks/use-sentence-write'
 import { RATE_LIMIT_EXCEEDED } from '../../../../../hooks/use-bulk-submission-upload'
 import { SentenceSubmissionError } from 'common'
+import {
+  useFeature,
+  useFeatureContextLoaded,
+} from '../../../../../contexts/feature-context'
 
 import { trackSingleSubmission } from '../../../../../services/tracker'
 
@@ -44,6 +49,9 @@ const instructionIconMapping = {
 }
 
 const WriteContainer = () => {
+  const hasBulkUploadFeature = useFeature('bulk-upload')
+  const featureContextLoaded = useFeatureContextLoaded()
+
   const [activeWriteOption, setActiveWriteOption] =
     React.useState<WriteSubmissionToggleOptions>('single')
 
@@ -71,10 +79,8 @@ const WriteContainer = () => {
 
   const variantTokens = variants ? variants.map(variant => variant.tag) : []
   const variantNames = variants ? variants.map(variant => variant.name) : []
-  const allVariantTokens =
-    variants && [].concat(variantTokens)
-  const allVariantNames =
-    variants && [].concat(variantNames)
+  const allVariantTokens = variants && [].concat(variantTokens)
+  const allVariantNames = variants && [].concat(variantNames)
 
   const handleToggle = (option: WriteSubmissionToggleOptions) => {
     trackSingleSubmission('toggle-button-click', locale)
@@ -107,6 +113,11 @@ const WriteContainer = () => {
       error?.type === SentenceSubmissionError.RATE_LIMIT_EXCEEDED) ||
     (activeWriteOption === 'bulk' &&
       sentences[locale]?.bulkUploadStatusData?.error === RATE_LIMIT_EXCEEDED)
+
+  // Show spinner while feature context is loading
+  if (!featureContextLoaded) {
+    return <Spinner />
+  }
 
   if (isUploadDone) {
     return (
@@ -174,6 +185,7 @@ const WriteContainer = () => {
           <SentenceCollectorToggle
             onToggle={handleToggle}
             activeOption={activeWriteOption}
+            hasBulkUploadFeature={hasBulkUploadFeature}
           />
         </div>
       )}

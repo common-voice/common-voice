@@ -12,13 +12,9 @@ report-button = رپورٹ کرو
 skip-button = چھوڑو
 submit-button = جمع کرواؤ
 contribute = حصہ پاؤ
-request-new-language = نویں زبان دی ارداس کرو
 
 ## Not Found Page
 
 not-found-page-header = کائنی لبھیا
-# Locales (not yet fully resolved in Pontoon)
-meh = جنوب مغربی لیکسی آکو میکسٹیک
-mel = سنٹرل میلاناو
 # Locales-Variants
 ms-MY = بہاسہ مالے

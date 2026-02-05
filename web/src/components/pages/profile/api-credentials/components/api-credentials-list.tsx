@@ -14,7 +14,7 @@ export const ApiCredentialsList = ({ apiKeys, showDeleteModal }: Props) => {
   return (
     <div className="api-keys-list-container">
       {apiKeys.map(apiKey => (
-        <div key={apiKey.userId} className="api-key-item-header">
+        <div key={apiKey.clientId} className="api-key-item-header">
           <div className="api-key-header">
             <p className="api-keyname">{apiKey.description}</p>
             <button onClick={() => showDeleteModal(apiKey.clientId)}>

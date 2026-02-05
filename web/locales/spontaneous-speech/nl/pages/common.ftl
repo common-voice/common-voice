@@ -23,7 +23,6 @@ report-button = Rapporteren
 skip-button = Overslaan
 submit-button = Indienen
 contribute = Bijdragen
-request-new-language = Nieuwe taal aanvragen
 # Button text which appears when there are no more resources
 continue-with-skipped = Doorgaan met Overgeslagen
 
@@ -44,9 +43,6 @@ not-found-page-header = Niet gevonden
 not-found-page-content = De door u gezochte pagina kon niet worden gevonden.
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Ik ga akkoord met de <termsLink>Voorwaarden</termsLink> en <privacyLink>Privacyverklaring</privacyLink> van Common Voice
-# Locales (not yet fully resolved in Pontoon)
-meh = Mixteeks, Zuidwestelijk Tlaxiaco
-mel = Centraal-Melanau
 # Locales-Variants
 ms-MY = Bahasa-Maleis
 el-CY = Cypriotisch Grieks

@@ -38,6 +38,8 @@ export const findLocaleByNameInDb: FindLocaleByName = (localeName: string) =>
   pipe(
     [localeName],
     lazyQueryDb(`find-locale-by-name-${localeName}`)(TimeUnits.DAY)(
+      3 * TimeUnits.MINUTE
+    )(
       ` SELECT
           id,
           name,

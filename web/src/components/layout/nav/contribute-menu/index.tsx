@@ -5,10 +5,10 @@ import { RouteComponentProps, withRouter } from 'react-router'
 import { Tooltip } from 'react-tooltip'
 
 import { TextButton } from '../../../ui/ui'
-import { BoldChevron, ChevronDown } from '../../../ui/icons'
+import { BoldChevron, ChevronDown, ExternalLinkIcon } from '../../../ui/icons'
 import ContributeMenuContent from '../contribute-menu-content'
 
-import { LocalizedNavLink, NavItem } from '../nav'
+import { NavItem } from '../nav'
 import URLS from '../../../../urls'
 import { isContributable, useLocale } from '../../../locale-helpers'
 import { trackGtag } from '../../../../services/tracker-ga4'
@@ -72,11 +72,10 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
   if (!menuItems) {
     return (
       <div className="contribute-wrapper datasets">
-        <LocalizedNavLink
-          id={menuLabel}
-          to={URLS.DATASETS}
-          onClick={toggleMenu}
-        />
+        <a href={URLS.MDC_DATASETS} target="_blank" rel="noopener noreferrer">
+          {l10n.getString(menuLabel)}
+          <ExternalLinkIcon />
+        </a>
         <Tooltip
           anchorSelect={`#${menuLabel}`}
           style={{

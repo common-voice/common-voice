@@ -23,7 +23,6 @@ report-button = Lò-dziydjò ngùdha
 skip-button = Da fúnì djòluw
 submit-button = Chwó
 contribute = I nì ndèy ró lò ndiy nì ddiy
-request-new-language = Kwo Lò-tsò Tdey
 
 ## Navbar
 
@@ -38,9 +37,6 @@ not-found-page-header = Nzá à chùw ndèy nì pedj
 not-found-page-content = Nzá à chùw ndèy
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Ma ùw ney ndèy nì nì li-chuw <termsLink>Terms</termsLink> and <privacyLink>Privacy Notice</privacyLink>
-# Locales (not yet fully resolved in Pontoon)
-meh = Southwestern Tlaxiaco Mixtec
-mel = Central Melanau
 # Locales-Variants
 ms-MY = Bahasa Malay
 

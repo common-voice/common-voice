@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = Yanapawayku huk hatun calidad, llapa runapaq kichasqa willakuy huñuta ruwanaykupaq
 sign-up-account = Regístrese para obtener una cuenta
-email-subscription-title = Regístrese para recibir actualizaciones por correo electrónico
-email-subscription-title-new = Regístrese para recibir boletines de Common Voice, recordatorios de metas y actualizaciones de progreso
 
 ## Account Benefits
 

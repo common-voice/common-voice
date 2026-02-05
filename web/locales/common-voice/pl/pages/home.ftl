@@ -46,8 +46,6 @@ x-years-short =
     }
 help-make-dataset = Pomóż nam zbudować wysokiej jakości, publicznie otwarty zbiór danych
 sign-up-account = Zarejestruj konto
-email-subscription-title = subskrybuj aktualizacje przez e-mail
-email-subscription-title-new = Subskrybuj biuletyny Common Voice, przypomnienia o celach i aktualizacje postępu
 
 ## Account Benefits
 
@@ -103,7 +101,6 @@ coming-soon = Wkrótce
 
 ## Community section
 
-community-section-title = Wspierany przez globalne społeczności, dla globalnych społeczności — 130 języków i wciąż rośniemy!
 join-discord-community = Dołącz do naszej społeczności na Discord
 # label for button
 join-discord-community-action = Dołącz do nas na Discordzie

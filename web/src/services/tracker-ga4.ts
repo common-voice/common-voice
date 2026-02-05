@@ -11,6 +11,8 @@ type GA4Events =
   | 'listen-menu-label-click'
   | 'rejected-files-download'
   | 'record-clip'
+  | 'recording-in-webview'
+  | 'recording-not-supported'
   | 'rerecord-clip'
   | 'report-sentence'
   | 'report-clip'

@@ -2,68 +2,270 @@ import { SHA256 } from 'crypto-js'
 
 import { getLocaleId, getParticipantSubquery } from './db'
 import { getConfig } from '../../config-helper'
-import lazyCache from '../lazy-cache'
+import lazyCache from '../redis-cache'
 import { getMySQLInstance } from './db/mysql'
 import Bucket from '../bucket'
 import Model from '../model'
 import { ChallengeLeaderboardArgument, ChallengeToken, TimeUnits } from 'common'
+
+const MIN_USERS_THRESHOLD = 5
 
 const model = new Model()
 const bucket = new Bucket(model)
 
 const db = getMySQLInstance()
 
-async function getClipLeaderboard(locale?: string): Promise<any[]> {
-  const params: { locale_id?: number } = {}
-  let localeCondition = ''
-  if (locale) {
-    localeCondition = 'AND clips.locale_id = :locale_id'
-    params.locale_id = await getLocaleId(locale) // Only add param if needed
-  }
+/**
+ * NEW IMPLEMENTATION
+ *
+ * We are getting all data with language attached and cache
+ * Then extract locale based data in code on demand
+ * The main bottleneck was number of scanned rows and attached IO time
+ * With the added indexes, this will drop considerably
+ *
+ * - On FE by default ALL will be shown, language based ones are on demand
+ * - We can know fetch duration of ALL, but per language they differ too much
+ * - With missing DB table indexes added, the query will be faster (to be measured)
+ * - As of now we have 3.8M user records, with 51k visible, so it is a much smaller subset
+ */
 
-  const query = `
-    SELECT user_clients.client_id,
-            avatar_url,
-            avatar_clip_url,
-            username,
-            COUNT(clips.id) AS total
-      FROM user_clients
-      LEFT JOIN clips ON user_clients.client_id = clips.client_id
-          WHERE visible = 1
-          ${localeCondition}
-      GROUP BY client_id
-        HAVING total > 0
-      ORDER BY total DESC
-    `
+// Two-tier cache strategy:
+// Tier 1 (raw data): Expensive DB query, shared across all views
+// Tier 2 (aggregated views): Fast in-memory aggregation, per-view caching
 
-  const [rows] = await db.query(query, params)
-  return rows
+// Tier-1 must expire BEFORE Tier-2 prefetch triggers
+// Tier-2 prefetches at age 35min (60min TTL - 25min prefetchBefore)
+// So Tier-1 must expire before 35min to force fresh data during prefetch
+const TIER1_CACHE_DURATION = 30 * TimeUnits.MINUTE // Expires before T2 prefetch at 35min
+const TIER2_CACHE_DURATION = 60 * TimeUnits.MINUTE // 1 hour - user freshness requirement
+
+// Tier-1 lock SHORTER than TTL to avoid serving stale when cache expires
+// If lock=TTL, lock acquired at expiry could block next request, forcing stale serve
+// Longest query normally takes ~15min, so 25min lock provides 10min safety margin
+const TIER1_LOCK_DURATION = 25 * TimeUnits.MINUTE // 25 min - covers 15min query + 10min safety
+const TIER2_LOCK_DURATION = 35 * TimeUnits.MINUTE // 35 min - must be > TIER1 for nested calls
+
+const SLOW_QUERY_THRESHOLD = 10 * TimeUnits.MINUTE // 10 minutes
+
+interface LeaderboardDataRow {
+  client_id: string
+  avatar_url: string | null
+  avatar_clip_url: string | null
+  username: string
+  locale_id: number
+  total: number
 }
 
-async function getVoteLeaderboard(locale?: string): Promise<any[]> {
-  const params: { locale_id?: number } = {}
-  let localeCondition = ''
-  if (locale) {
-    localeCondition = 'AND clips.locale_id = :locale_id'
-    params.locale_id = await getLocaleId(locale) // Only add param if needed
-  }
+interface LeaderboardRow extends Omit<LeaderboardDataRow, 'locale_id'> {
+  position: number
+}
+
+// Tier 1: Cache RAW DATA (shared lock, single query across all views)
+// This is the expensive DB query that we want to run only ONCE
+const getCachedClipLeaderboardData = lazyCache(
+  'cv:leaderboard:clip-data-raw', // Raw data cache
+  getAllClipLeaderboardData,
+  TIER1_CACHE_DURATION, // 30min - expires before Tier-2 prefetch
+  TIER1_LOCK_DURATION,
+  true // Allow stale during refresh
+  // No prefetch at Tier-1 - Tier-2 handles prefetch
+)
+
+// Get ALL clip leaderboard data with locales in one query
+// Protection against concurrent queries is handled by Redis distributed lock
+async function getAllClipLeaderboardData(): Promise<LeaderboardDataRow[]> {
+  const startTime = Date.now()
+
   const query = `
-    SELECT user_clients.client_id,
-           avatar_url,
-           avatar_clip_url,
-           username,
-           count(votes.id) as total
-    FROM user_clients
-    LEFT JOIN votes ON user_clients.client_id = votes.client_id
-    LEFT JOIN clips ON votes.clip_id = clips.id
-        WHERE visible = 1
-        ${localeCondition}
-    GROUP BY client_id
-      HAVING total > 0
-    ORDER BY total DESC
+    SELECT 
+      uc.client_id,
+      uc.avatar_url,
+      uc.avatar_clip_url,
+      uc.username,
+      c.locale_id,
+      COUNT(c.id) AS total
+    FROM user_clients uc
+    INNER JOIN clips c ON uc.client_id = c.client_id
+    WHERE uc.visible = 1
+    GROUP BY uc.client_id, c.locale_id
+    HAVING total > 0
   `
-  const [rows] = await db.query(query, params)
-  return rows
+
+  const [rows] = await db.query(query)
+  const duration = Date.now() - startTime
+
+  console.log(
+    `[Leaderboard] Clip query completed: ${
+      rows.length
+    } rows in ${duration}ms (${(duration / TimeUnits.MINUTE).toFixed(2)}min)`
+  )
+
+  if (duration > SLOW_QUERY_THRESHOLD) {
+    console.warn(
+      `[Leaderboard] SLOW QUERY WARNING: Clip leaderboard took ${(
+        duration / TimeUnits.MINUTE
+      ).toFixed(2)}min`
+    )
+  }
+
+  return rows as LeaderboardDataRow[]
+}
+
+// Tier 1: Cache RAW DATA (shared lock, single query across all views)
+// This is the expensive DB query that we want to run only ONCE
+const getCachedVoteLeaderboardData = lazyCache(
+  'cv:leaderboard:vote-data-raw', // Raw data cache
+  getAllVoteLeaderboardData,
+  TIER1_CACHE_DURATION, // 30min - expires before Tier-2 prefetch
+  TIER1_LOCK_DURATION,
+  true // Allow stale during refresh
+  // No prefetch at Tier-1 - Tier-2 handles prefetch
+)
+
+// Get ALL vote leaderboard data with locales in one query
+// Protection against concurrent queries is handled by Redis distributed lock
+async function getAllVoteLeaderboardData(): Promise<LeaderboardDataRow[]> {
+  const startTime = Date.now()
+
+  const query = `
+    SELECT 
+      uc.client_id,
+      uc.avatar_url,
+      uc.avatar_clip_url,
+      uc.username,
+      c.locale_id,
+      COUNT(v.id) AS total
+    FROM user_clients uc
+    INNER JOIN votes v ON uc.client_id = v.client_id
+    INNER JOIN clips c ON v.clip_id = c.id
+    WHERE uc.visible = 1
+    GROUP BY uc.client_id, c.locale_id
+    HAVING total > 0
+  `
+
+  const [rows] = await db.query(query)
+  const duration = Date.now() - startTime
+
+  console.log(
+    `[Leaderboard] Vote query completed: ${
+      rows.length
+    } rows in ${duration}ms (${(duration / TimeUnits.MINUTE).toFixed(2)}min)`
+  )
+
+  if (duration > SLOW_QUERY_THRESHOLD) {
+    console.warn(
+      `[Leaderboard] SLOW QUERY WARNING: Vote leaderboard took ${(
+        duration / TimeUnits.MINUTE
+      ).toFixed(2)}min`
+    )
+  }
+
+  return rows as LeaderboardDataRow[]
+}
+
+//
+// Helper to aggregate leaderboard data
+//
+function aggregateLeaderboard(
+  data: LeaderboardDataRow[],
+  localeId?: number
+): LeaderboardRow[] {
+  const userTotals = new Map<string, LeaderboardDataRow & { total: number }>()
+
+  for (const row of data) {
+    // Filter by locale if specified
+    if (localeId !== undefined && row.locale_id !== localeId) continue
+
+    const key = row.client_id
+    const existing = userTotals.get(key)
+    if (existing) {
+      existing.total += row.total
+    } else {
+      userTotals.set(key, { ...row, total: row.total })
+    }
+  }
+
+  const leaderboard = Array.from(userTotals.values()).sort(
+    (a, b) => b.total - a.total
+  )
+
+  return leaderboard.map((row, i) => ({ position: i, ...row }))
+}
+
+//
+// Clips - TWO TIER: Tier 1 caches raw data, Tier 2 caches aggregated views
+//
+
+// Global clip leaderboard - Tier 2: aggregates from cached raw data
+// Prefetch at 35min ensures Tier-1 (30min TTL) has expired and will run fresh query
+const getGlobalClipLeaderboard = lazyCache(
+  'cv:leaderboard:clip-global',
+  async (): Promise<LeaderboardRow[]> => {
+    const clipData = await getCachedClipLeaderboardData() // Reads from Tier 1 cache
+    return aggregateLeaderboard(clipData)
+  },
+  TIER2_CACHE_DURATION, // 60min
+  TIER2_LOCK_DURATION, // Must be > TIER1 to avoid expiry during nested call
+  true, // Serve stale: during lock wait OR Redis outage (prevents DB overload)
+  {
+    prefetch: true,
+    prefetchBefore: 25 * TimeUnits.MINUTE, // Prefetch 25min before 1hr expiry (at 35min age)
+  }
+)
+
+// Per-locale clip leaderboard - Tier 2: aggregates from cached raw data
+const getLocaleClipLeaderboard = (locale: string) => {
+  return lazyCache(
+    `cv:leaderboard:clip-${locale}`,
+    async (): Promise<LeaderboardRow[]> => {
+      const clipData = await getCachedClipLeaderboardData() // Reads from Tier 1 cache
+      const localeId = await getLocaleId(locale)
+      return aggregateLeaderboard(clipData, localeId)
+    },
+    TIER2_CACHE_DURATION, // 60min
+    TIER2_LOCK_DURATION, // Must be > TIER1 to avoid expiry during nested call
+    true, // Serve stale: during lock wait OR Redis outage (prevents DB overload)
+    // No prefetch - only global view prefetches to avoid thundering herd
+    {}
+  )
+}
+
+//
+// Votes - TWO TIER: Tier 1 caches raw data, Tier 2 caches aggregated views
+//
+
+// Global vote leaderboard - Tier 2: aggregates from cached raw data
+// Prefetch at 35min ensures Tier-1 (30min TTL) has expired and will run fresh query
+const getGlobalVoteLeaderboard = lazyCache(
+  'cv:leaderboard:vote-global',
+  async (): Promise<LeaderboardRow[]> => {
+    const voteData = await getCachedVoteLeaderboardData() // Reads from Tier 1 cache
+    return aggregateLeaderboard(voteData)
+  },
+  TIER2_CACHE_DURATION, // 60min
+  TIER2_LOCK_DURATION, // Must be > TIER1 to avoid expiry during nested call
+  true, // Serve stale: during lock wait OR Redis outage (prevents DB overload)
+  {
+    prefetch: true,
+    prefetchBefore: 25 * TimeUnits.MINUTE, // Prefetch 25min before 1hr expiry (at 35min age)
+  }
+)
+
+// Per-locale vote leaderboard - Tier 2: aggregates from cached raw data
+const getLocaleVoteLeaderboard = (locale: string) => {
+  return lazyCache(
+    `cv:leaderboard:vote-${locale}`,
+    async (): Promise<LeaderboardRow[]> => {
+      const voteData = await getCachedVoteLeaderboardData() // Reads from Tier 1 cache
+      const localeId = await getLocaleId(locale)
+      return aggregateLeaderboard(voteData, localeId)
+    },
+    TIER2_CACHE_DURATION, // 60min
+    TIER2_LOCK_DURATION, // Must be > TIER1 to avoid expiry during nested call
+    true, // Serve stale: during lock wait OR Redis outage (prevents DB overload)
+    // No prefetch - only global view prefetches to avoid thundering herd
+    {}
+  )
 }
 
 // NOTE: The top-related SQLs
@@ -200,33 +402,6 @@ async function getTopTeams(challenge: ChallengeToken): Promise<any[]> {
   return rows
 }
 
-const CACHE_TIME_MS = 1 * TimeUnits.HOUR
-const LOCK_TIME_MS = 10 * TimeUnits.MINUTE
-
-export const getFullClipLeaderboard = lazyCache(
-  'clip-leaderboard',
-  async (locale?: string) => {
-    return (await getClipLeaderboard(locale)).map((row, i) => ({
-      position: i,
-      ...row,
-    }))
-  },
-  CACHE_TIME_MS,
-  LOCK_TIME_MS
-)
-
-export const getFullVoteLeaderboard = lazyCache(
-  'vote-leaderboard',
-  async (locale?: string) => {
-    return (await getVoteLeaderboard(locale)).map((row, i) => ({
-      position: i,
-      ...row,
-    }))
-  },
-  CACHE_TIME_MS,
-  LOCK_TIME_MS
-)
-
 export const getTopSpeakersLeaderboard = lazyCache(
   'top-speaker-leaderboard',
   async ({
@@ -247,8 +422,8 @@ export const getTopSpeakersLeaderboard = lazyCache(
       ...row,
     }))
   },
-  CACHE_TIME_MS,
-  LOCK_TIME_MS
+  1 * TimeUnits.HOUR,
+  10 * TimeUnits.MINUTE
 )
 
 export const getTopListenersLeaderboard = lazyCache(
@@ -271,8 +446,8 @@ export const getTopListenersLeaderboard = lazyCache(
       ...row,
     }))
   },
-  CACHE_TIME_MS,
-  LOCK_TIME_MS
+  1 * TimeUnits.HOUR,
+  10 * TimeUnits.MINUTE
 )
 
 export const getTopTeamsLeaderboard = lazyCache(
@@ -290,8 +465,8 @@ export const getTopTeamsLeaderboard = lazyCache(
       w3_points: Number(row.w3_points),
     }))
   },
-  CACHE_TIME_MS,
-  LOCK_TIME_MS
+  1 * TimeUnits.HOUR,
+  10 * TimeUnits.MINUTE
 )
 
 // use the leaderboard functionality in Stats and Challenge board
@@ -327,8 +502,12 @@ export default async function getLeaderboard({
   let leaderboard = []
   if (dashboard == 'stats') {
     leaderboard = await (type == 'clip'
-      ? getFullClipLeaderboard
-      : getFullVoteLeaderboard)(locale)
+      ? locale
+        ? getLocaleClipLeaderboard(locale)()
+        : getGlobalClipLeaderboard()
+      : locale
+      ? getLocaleVoteLeaderboard(locale)()
+      : getGlobalVoteLeaderboard())
   } else if (dashboard == 'challenge') {
     const { scope, challenge } = arg
     switch (scope) {
@@ -336,21 +515,21 @@ export default async function getLeaderboard({
         leaderboard = await (type == 'clip'
           ? getTopSpeakersLeaderboard
           : getTopListenersLeaderboard)({
-            client_id,
-            challenge,
-            locale,
-            team_only: false,
-          })
+          client_id,
+          challenge,
+          locale,
+          team_only: false,
+        })
         break
       case 'members':
         leaderboard = await (type == 'clip'
           ? getTopSpeakersLeaderboard
           : getTopListenersLeaderboard)({
-            client_id,
-            challenge,
-            locale,
-            team_only: true,
-          })
+          client_id,
+          challenge,
+          locale,
+          team_only: true,
+        })
         break
       case 'teams':
         leaderboard = await getTopTeamsLeaderboard(challenge)
@@ -362,7 +541,8 @@ export default async function getLeaderboard({
     return prepareRows(leaderboard.slice(cursor[0], cursor[1]))
   }
 
-  if (leaderboard.length < 5) leaderboard = []
+  if (!leaderboard || leaderboard?.length < MIN_USERS_THRESHOLD)
+    leaderboard = []
 
   const userIndex = leaderboard.findIndex(row => row.client_id == client_id)
   const userRegion =

@@ -23,7 +23,6 @@ report-button = Rapportearje
 skip-button = Oerslaan
 submit-button = Yntsjinje
 contribute = Bydrage
-request-new-language = Nije taal oanfreegje
 # Button text which appears when there are no more resources
 continue-with-skipped = Trochgean mei Oersloegen
 
@@ -44,11 +43,9 @@ not-found-page-header = Net fûn
 not-found-page-content = De troch jo sochte side is koe net fûn wurde.
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Ik gean akkoard mei de <termsLink>Betingsten</termsLink> en <privacyLink>Privacybelied</privacyLink> fan Common Voice
-# Locales (not yet fully resolved in Pontoon)
-meh = Miksteeksk, Súdwestlik Tlaksiako
-mel = Sintraal-Melanau
 # Locales-Variants
 ms-MY = Bahasa-Maleisk
+el-CY = Syprioatysk Gryksk
 
 ## Language search component
 

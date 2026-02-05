@@ -55,8 +55,6 @@ x-years-short =
     }
 help-make-dataset = ช่วยเราสร้างชุดข้อมูลที่เปิดกว้างและเปิดเผยต่อสาธารณะ
 sign-up-account = ลงทะเบียนบัญชี
-email-subscription-title = ลงทะเบียนเพื่อรับข่าวสารทางอีเมล
-email-subscription-title-new = ลงทะเบียนรับจดหมายข่าว Common Voice เพื่อแจ้งเตือนเป้าหมายและอัปเดตความคืบหน้า
 
 ## Account Benefits
 
@@ -132,7 +130,6 @@ add-text = เพิ่มข้อความ
 
 ## Community section
 
-community-section-title = ขับเคลื่อนโดยชุมชนระดับโลก เพื่อชุมชนระดับโลก — รองรับ 130 ภาษา และจะมากขึ้นอีกในเร็วๆ นี้!
 join-discord-community = เข้าร่วมชุมชน Discord
 # label for button
 join-discord-community-action = เข้าร่วมกับเราบน Discord

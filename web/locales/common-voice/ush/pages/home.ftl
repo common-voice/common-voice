@@ -49,8 +49,6 @@ x-years-short =
     }
 help-make-dataset = پبلک اوپن ڈیٹاسیٹ معیاری سپارونو کارا آسئی مدد تھا
 sign-up-account = اکاونٹ در سائن اپ تھا
-email-subscription-title = ای میل اپڈیٹ کارا سائن اپ تھا
-email-subscription-title-new = کامن وائس نیوز لیٹر، مقصد یاد دہانی اؤ پروگریس اپڈیٹ کارا سائن اپ تھا
 
 ## Account Benefits
 

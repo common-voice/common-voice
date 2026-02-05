@@ -54,8 +54,6 @@ x-years-short =
     }
 help-make-dataset = Sisite kwakha i-datset lesezingeni lelisetulu futsi lengatfolwa sive sonkhe.
 sign-up-account = bhalisela kuvula i-account
-email-subscription-title = bhalisela tindzaba letihamba embili ngeliposi lembane
-email-subscription-title-new = Bhalisela incwajana, sikhumbuto setinjongo kanye nenchubekala phambili ya Common Voice
 
 ## Account Benefits
 

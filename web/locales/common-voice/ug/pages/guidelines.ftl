@@ -6,6 +6,7 @@ sentence-collection = جۈملە توپلىمى
 question-collection = سوئال توپلىمى
 scripted-speech = قوليازما نۇتقى
 spontaneous-speech = تەبىئىي نۇتۇق
+dont-subheader = قىلمايدىغىنى
 
 ## Voice Collection nav ids
 
@@ -118,6 +119,7 @@ what-makes-a-good-question-explanation = كۆپچىلىك قاتنىشىدىغا
 what-makes-a-good-question-explanation-criteria-1 = چۈشىنىش ئاسان ۋە جاۋاب بېرىشمۇ ئاسان
 what-makes-a-good-question-explanation-criteria-2 = مەنىسى ئېنىق
 what-makes-a-good-question-explanation-criteria-3 = باشقىلارغا زىيان يەتكۈزىدىغان ياكى تېرىكتۈرىدىغان تىل ئىشلىتىشكە ياكى يېتەكلەشكە بولمايدۇ
+what-makes-a-good-question-tip = سىز يەنە ئوخشىمىغان مەزمۇن ۋە دائىرىدىن ھالقىشنى ئويلىشىڭىز كېرەك بولۇشى مۇمكىن.
 easy-to-understand = چۈشىنىش ئاسان
 easy-to-understand-explanation = ھەر خىل مەدەنىيەت ۋە ئارقا كۆرۈنۈشتىكى كىشىلەر ئاسان چۈشىنەلەيدىغان ئاددى جۈملىنى تاللاڭ.
 spelling-and-pronunciation = ئىملا ۋە تىنىش بەلگىلىرى
@@ -138,9 +140,20 @@ example-questions-subheader = مىسال سوئاللىرى
 # Answer Questions
 answer-questions = سوئالغا جاۋاب
 answer-questions-subheader = ئادەتتىكى يېتەكچى
+answer-questions-tip-1 = نىسبەتەن تىنچ مۇھىتتا ئۈنگە خاتىرىلەڭ
+answer-questions-tip-2 = ئىنتېرنېت باغلىنىشى ياخشى ئورۇننى تاللاڭ
+answer-questions-tip-3b = جاۋاب بېرىش ۋاقتىنى 15-30 سېكۇنت ئىچىدە تىزگىنلەشكە تىرىشىڭ
+answer-questions-tip-4 = ئۆچمەنلىك، قۇتراتقۇلۇق ياكى باشقىلارنىڭ زىتىغا تېگىدىغان سۆزدىن ساقلىنىڭ
+answer-questions-tip-5 = دوستىڭىز بىلەن پاراڭلىشىۋاتقاندەك تەبىئىي سۆزلەڭ - ئۆزىڭىزنىڭ ھەقىقىي ئاۋازى، شېۋىسى، ئۇرغۇسى بىلەن سۆزلەڭ
+answer-questions-tip-6 = بىر خىل ئاۋازدا سۆزلەڭ - ۋارقىرىماڭ ياكى غىڭشىماڭ
 # Transcribe the Audio
 transcribe-the-audio = ئۈننى خەتكە پۈت
 transcribe-the-audio-subheader-1 = ئادەتتىكى يېتەكچى
+transcribe-the-audio-subheader-2 = سان ۋە قىسقارتىلغان سۆزلەر
+transcribe-the-audio-subheader-3 = ئالاھىدە بەلگە
+transcribe-the-audio-subheader-4 = سۆز بوغۇمى، ئېغىز خاتالىقى، تەكرارلانغان سۆز
+transcribe-the-audio-subheader-5 = تىلقۇرما خاتالىقى ۋە ئېغىز تىلى
+transcribe-the-audio-subheader-1-explanation = ئادەتتە، ئاڭلىغاننىڭ ھەممىسىنى يېزىپ كىرگۈزىسىز. ئۇلار:
 tags-table-header-1 = بەلگە
 tags-table-header-2 = مەنىسى
 tags-laugh = كۈلكە
@@ -148,3 +161,43 @@ tags-disfluency = كېكەچلەش
 tags-unclear = ئېنىقسىز
 tags-noise = شاۋقۇن
 tags-laugh-explanation = كۈلكە ئاۋازى.
+
+## Review the Transcription
+
+review-the-transcription-subheader = ئادەتتىكى يېتەكچى
+
+## Code-Switching
+
+code-switching = كود ئالماشتۇرۇش
+adding-a-question = سوئال قوشۇش
+# Adding a Question
+code-switching-adding-question-subheader = ياخشى سوئال قانداق بولىدۇ؟
+code-switching-adding-question-explanation = كۆپچىلىك قاتنىشىدىغان سانلىق مەلۇمات توپلىمىغا نىسبەتەن ياخشى سوئال:
+code-switching-adding-question-criteria-1 = چۈشىنىش ئاسان ۋە جاۋاب بېرىشمۇ ئاسان
+code-switching-adding-question-criteria-2 = مەنىسى ئېنىق
+code-switching-adding-question-criteria-3 = باشقىلارغا زىيان يەتكۈزىدىغان ياكى تېرىكتۈرىدىغان تىل ئىشلىتىشكە ياكى يېتەكلەشكە بولمايدۇ
+code-switching-adding-question-note = سىز يەنە ئوخشىمىغان مەزمۇن ۋە دائىرىدىن ھالقىشنى ئويلىشىڭىز كېرەك بولۇشى مۇمكىن.
+# What types of questions to add
+code-switching-types-subheader = قانداق تۈردىكى سوئال قوشىسىز؟
+code-switching-use-bilingual-prompts-header = كۆپ تىللىق تەكلىپ
+code-switching-informal-scenarios-header = غەيرىي رەسمىي ئەھۋال ئۈستىدە ئىزدىنىدۇ
+code-switching-informal-scenarios-explanation = دوستلار بىلەن پاراڭلاشقان ياكى ئۇچۇرلاشقاندا ئالماشتۇرسا تېخىمۇ تەبىئىي بولىدۇ. مەسىلەن:
+code-switching-informal-scenarios-explanation-example = “دوستىڭىز دائىم قانداق چاقچاق قىلىدۇ — نېمە دەيدۇ؟”
+# What to Avoid
+code-switching-avoid-subheader = نېمىدىن ساقلىنىدۇ
+code-switching-dont-header = قىلمايدىغىنى
+code-switching-dont-1 = ھەددىدىن زىيادە رەسمىي تىل ئىشلەتمەڭ
+# Reviewing a Question
+code-switching-review-subheader = سوئال تەكشۈرۇش
+code-switching-answer-bullet-4 = جاۋاب بېرىشنىڭ «مۇكەممەل» ئۇسۇلى يوق
+# Transcribing
+code-switching-transcribe-subheader = خەت پۈتۈش
+code-switching-pronunciation-explanation-example-1 = ئىنگلىزچە: /ˈkeɪ.bəl/
+code-switching-pronunciation-explanation-example-2 = ئىسپانچە: /ˈkable/
+code-switching-not-tag-proper-names-example-1 = كىشى: پالانچى، پۇستانچى
+code-switching-not-tag-proper-names-example-2 = ئورۇن: ئۈرۈمچى، قەشقەر
+code-switching-not-tag-proper-names-example-3 = ماركا/تەشكىلات: ئىرپان، مۇئەللىم
+
+## Reporting Content
+
+reporting-content-subheader = ئادەتتىكى يېتەكچى

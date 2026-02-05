@@ -55,10 +55,6 @@ x-years-short =
     }
 help-make-dataset = Sisiza senze umsebenzi osezingeni eliphezulu
 sign-up-account = Zitlolise ube ne-akhawundi
-email-subscription-title = zitlolise ufumane zamja nje nge-imeyili
-email-subscription-title-new =
-    Zitlolise bona ufumane iindaba nge-Common Voice, imigomo 
-    netuthuko yamva nje
 
 ## Account Benefits
 

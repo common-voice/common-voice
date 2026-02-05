@@ -23,7 +23,6 @@ report-button = K wěsći daś
 skip-button = Pśeskócyś
 submit-button = Wótpósłaś
 contribute = Pśinosowaś
-request-new-language = Nowu rěc pominaś
 # Button text which appears when there are no more resources
 continue-with-skipped = Z Pśeskócony pókšacowaś
 
@@ -44,9 +43,6 @@ not-found-page-header = Njenamakany
 not-found-page-content = Bok, kótaryž pytaśo, njejo se namakał
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Zwólijom do <termsLink>wužywańskich wuměnjenjow</termsLink> a <privacyLink>powěźeńki priwatnosći</privacyLink>
-# Locales (not yet fully resolved in Pontoon)
-meh = Krotkowjacorna tlaksiakska mikstekšćina
-mel = Centralny Melanau
 # Locales-Variants
 ms-MY = Bahasa Malay
 el-CY = Cypriska grichišćina

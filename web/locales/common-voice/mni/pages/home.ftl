@@ -49,8 +49,6 @@ x-years-short =
     }
 help-make-dataset = ꯃꯇꯤꯡ ꯂꯩꯕ , ꯃꯤꯌꯥꯝꯅ ꯂꯥꯏꯅ ꯁꯤꯖꯤꯟꯅꯕ ꯌꯥꯕ ꯗꯥꯇꯥꯁꯦꯠ ꯁꯥꯕꯗ ꯃꯇꯦꯡ ꯄꯥꯡꯉꯨ
 sign-up-account = ꯑꯦꯀꯥꯎꯟ ꯱ ꯁꯦꯝꯅꯕ ꯃꯤꯡ ꯄꯤꯁꯤꯟꯂꯨ
-email-subscription-title = ꯢꯃꯦꯜ ꯅꯧꯊꯣꯛꯅꯕ ꯃꯤꯡ ꯄꯤꯁꯤꯟꯂꯨ
-email-subscription-title-new = ꯀꯃꯟ ꯚꯣꯏꯁ ꯅꯤꯎꯖꯂꯦꯇꯔꯁꯤꯡ, ꯄꯥꯟꯗꯝ ꯔꯤꯃꯥꯏꯟꯗꯔꯁꯤꯡ ꯑꯃꯁꯨꯡ ꯄ꯭ꯔꯣꯒ꯭ꯔꯦꯁ ꯑꯄꯗꯦꯇꯁꯤꯡꯒꯤꯗꯃꯛ ꯁꯥꯏꯟ ꯑꯥꯞ ꯇꯧꯕꯤꯌꯨ ꯫
 
 ## Account Benefits
 

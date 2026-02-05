@@ -12,6 +12,7 @@ abq = Абазинский
 ace = Ачехский
 ady = Адыгейский
 af = Африкаанс
+aii = Сурет
 ajg = Аджа
 aln = Гегский Албанский
 am = Амхарский
@@ -62,6 +63,7 @@ byv = Медумба
 ca = Каталанский
 cak = Какчикельский
 cdo = Восточный мин
+ce = Чеченский
 cgg = Чига
 cjk = Чокве
 ckb = Центральнокурдский (Сорани)
@@ -90,6 +92,7 @@ dv = Мальдивский
 dyu = Дьюла
 ebr = Эбри
 ee = Эве
+efk = Эфик
 eko = Экоти
 el = Греческий
 en = Английский
@@ -121,6 +124,7 @@ giz = Гуизига
 gjk = Качхи
 gju = Гуджари
 gl = Галисийский
+glk = Гилаки
 gn = Гуарани
 gom = Гоанский конкани
 gos = Гронингенский
@@ -133,6 +137,7 @@ gwt = Гаварбайти
 gya = Северо-Западный гбая
 ha = Хауса
 hac = Горанский
+hak = Хакка
 haz = Хазарги
 hch = Вихарика
 he = Иврит
@@ -190,6 +195,7 @@ kw = Корнский
 kxp = Вадияра-коли
 ky = Киргизский
 kzi = Келабит
+laj = Ланго
 lb = Люксембургский
 led = Ленду
 leu = Кара
@@ -278,6 +284,7 @@ os = Осетинский
 pa-IN = Панджаби
 pap = Папьяменто
 pap-AW = Папьяменто (Аруба)
+pau = Палауанский
 pcd = Пикардийский
 pcm = Нигерийский пигинский английский
 pez = Восточный пенанский
@@ -348,6 +355,7 @@ sr = Сербский
 ss = Свати
 ssi = Санси
 st = Сесото
+su = Сунданский
 sv-SE = Шведский
 sva = Сванский
 sw = Суахили
@@ -376,6 +384,7 @@ ts = Тсонга
 tt = Татарский
 ttj = Руторо
 tui = Тупури
+tum = Тумбука
 tvu = Тунен
 tw = Чви
 ty = Таитянский
@@ -464,7 +473,7 @@ delete = Удалить
 # Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>Нам нужна</mark><br/><mark>ваша помощь!</mark>
 # Text wrapped in <strong></strong> will be rendered on bold font
-donate-banner-cta-explanation = Размещение наборов данных и улучшение платформы для более чем 100 языковых сообществ обходится почти в миллион долларов в год. <strong>Если вы цените открытые, инклюзивные данные - сделайте пожертвование сегодня!</strong>
+donate-banner-cta-explanation = Размещение наборов данных и улучшение платформы для более чем 100 языковых сообществ обходится почти в миллион долларов в год. <strong>Если вы цените открытые, инклюзивные данные — сделайте пожертвование сегодня!</strong>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>Используете CV для</mark><br/><mark>вашего исследования?</mark>
 languages-donate-banner-cta-explanation = Common Voice финансируется за счёт пожертвований и грантов! Нам нравится сотрудничать с учёными, гражданским обществом и отраслевыми исследователями. Common Voice бесплатен для использования, но участие в пожертвованиях на платформу и хостинг может быть действительно полезным.
@@ -474,8 +483,22 @@ localization-select =
 ## MDC Announcement
 
 # Main text for MDC announcement. Text wrapped in <strong></strong> will be rendered with bold font
-announcement-mdc-text = <strong>Новые наборы данных Common Voice</strong> теперь доступны для загрузки эксклюзивно через нашу родственную платформу Mozilla Data Collective. Присоединитесь для получения доступа к более чем 300 глобальным наборам данных, созданным сообществом и для сообщества.
+announcement-mdc-text = <strong>Новые наборы данных Common Voice</strong> теперь доступны для скачивания эксклюзивно через нашу родственную платформу Mozilla Data Collective. Присоединитесь для получения доступа к более чем 300 глобальным наборам данных, созданным сообществом и для сообщества.
 # Button text for MDC announcement
 announcement-mdc-button-text = Присоединится к Mozilla Data Collective
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = Открывается в новой вкладке
+
+## Common Language/Dataset Selector & SearchBox Related
+
+# Generic search box defaults
+searchbox-default-label = Начните набирать для поиска
+searchbox-default-placeholder = Поиск...
+searchbox-default-aria-label = Поиск
+dropdown-no-results = Совпадений не найдено
+# Common Voice Dataset=Language search box
+dataset-searchbox-label = Изменяет язык отображения и набора данных
+dataset-searchbox-placeholder = Поиск языка...
+dataset-searchbox-aria-label = Поиск языка
+dataset-search-no-results = Подходящего языка не найдено
+request-new-language = Запросить новый язык

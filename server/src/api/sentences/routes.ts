@@ -1,6 +1,6 @@
 import addSentenceHandler from './handler/add-sentence-handler'
 import PromiseRouter from 'express-promise-router'
-import rateLimiter from '../../lib/rate-limiter-middleware'
+import rateLimiter from '../../lib/middleware/rate-limiter-middleware'
 import {
   AddSentenceRequest,
   AddSentenceVoteRequest,

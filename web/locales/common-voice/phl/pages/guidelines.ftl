@@ -4,6 +4,7 @@ guidelines-header-subtitle = انی بات جھانینڈیو کی  کامن و�
 voice-collection = ہاویزیمی مجموعہ
 sentence-collection = جملئی مجموعہ
 question-collection = سُویلیمی مجموعہ
+dont-subheader = نہ تھوئی
 
 ## Voice Collection nav ids
 
@@ -128,3 +129,11 @@ culturally-specific-questions = ثقافتی مطابقی مخصوص سوالا�
 culturally-specific-questions-explanation = ایتیݨی سُویلی کی سے  ثقافتی لحاظ کی بیڈی مخصوص ہنم ، یا جواب داٹی بارئی بیڈہ  مفروضے پیدو تھینم۔
 length-avoid-explanation = ایسے سُویلی کی تنی جواب 15 سیکنڈی  دئنی دپارہ  آک مِیش کوشش تھانوۡ (زیات کلپی  لمبائی)
 process-steps = عمل / اقدامات
+
+## Spontaneous Speech sidebar content
+
+tags-table-header-2 = معنی
+tags-laugh = ہنسئنی
+tags-unclear = غیر واضح
+tags-noise = شور/ گُھوم
+tags-laugh-explanation = ہنساٹی ہاواز

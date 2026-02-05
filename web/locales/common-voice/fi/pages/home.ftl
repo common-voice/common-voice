@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = Auta meitä keräämään korkealaatuinen ja avoin aineisto
 sign-up-account = Rekisteröidy palvelun käyttäjäksi
-email-subscription-title = tilaa sähköpostipäivitykset
-email-subscription-title-new = Tilaa Common Voice -uutiskirje, tavoitemuistutukset ja edistymispäivitykset
 
 ## Account Benefits
 

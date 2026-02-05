@@ -3,6 +3,8 @@ speak-now = Parla ora
 speak-subtitle = Dona la tua voce
 record-cta = Avvia la registrazione
 record-platform-not-supported = La piattaforma in uso non è attualmente supportata.
+record-platform-webview = Potresti essere arrivato qui facendo clic su un link in un’app di social media. Stai utilizzando un browser in-app che non supporta la registrazione audio.
+record-platform-not-supported-webview = Sui dispositivi mobili puoi contribuire utilizzando il browser di sistema…
 record-platform-not-supported-desktop = Su computer desktop puoi scaricare l’ultima versione:
 record-platform-not-supported-ios-non-safari = Su iOS, continua con Safari per attivare la registrazione…
 record-must-allow-microphone = È necessario consentire l’accesso al microfono del dispositivo.
@@ -10,6 +12,12 @@ record-no-mic-found = Impossibile trovare il microfono.
 record-error-too-short = La registrazione è troppo breve.
 record-error-too-long = La registrazione è troppo lunga.
 record-error-too-quiet = Il volume della registrazione è troppo basso.
+record-error-uploaded-clip-corrupted =
+    La registrazione audio sembra essere danneggiata. Questo può succedere per diversi motivi:
+    • Problemi di compatibilità del browser (prova a utilizzare un altro browser)
+    • Problemi con il microfono o il driver audio
+    • Interruzioni di rete durante la registrazione
+    Riprova a registrare.
 record-cancel = Annulla la nuova registrazione
 record-instruction = { $actionType }<recordIcon></recordIcon>, quindi leggi la frase ad alta voce
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> quando hai finito

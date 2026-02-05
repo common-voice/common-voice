@@ -1,4 +1,7 @@
-record-cta = Dest pê bike
+speak = Biaxive
+speak-now = Niha biaxive
+speak-subtitle = Dengê xwe bibexşîne
+record-cta = Dest bi qeydkirinê bike
 record-platform-not-supported = Mixabin, platforma te niha nayê destekkirin.
 record-platform-not-supported-desktop = Li ser kombersa xwe, tu dikarî guhertoyên dawîn ên van gerokan bi kar bînî:
 record-platform-not-supported-ios-non-safari = Ji bo çalakkirina tomarkirinê li ser iOS'ê, bi Safariyê re berdewam bike…

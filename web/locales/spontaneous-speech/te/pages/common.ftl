@@ -15,7 +15,6 @@ guidelines = మార్గదర్శకాలు
 skip-button = దాటవేయండి
 submit-button = సమర్పించండి
 contribute = తోడ్పడండి
-request-new-language = కొత్త భాష కోసం అభ్యర్థించండి
 
 ## Navbar
 

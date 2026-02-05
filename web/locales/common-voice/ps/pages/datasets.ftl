@@ -8,7 +8,14 @@ datasets-positioning =
     د عام غږ ګڼ-ژبې ډېټاسیټ لا دمخه د خپل ډول ترټولو لوی عام موجود غږیز ډېټاسیټ دی، خو دا یوازینی ندی.
     
     دې پاڼې ته د نورو آزاد کوډ غږیز ډېټاسیټونو لپاره د ماخذ مرکز په توګه وګورئ او لکه څنګه چې عام غږ وده کوي، دا زموږ د خپراوي په اړه تازه مالوماتو لپاره کور دي.
-datasets-speech-bubble-content = ه زړه پورې خبرونه! په خپله خوښه وینا په لاره ده! د تازه معلوماتو لپاره زموږ سره پاتې شئ او ډاډ ترلاسه کړئ چې د وروستي معلوماتو لپاره خپل <discord Link>Discord</discord Link> وګورئ.
+# New/upcoming datasets page headline
+datasets-headline-mdc = د موزیلا کامن وائس ډیټاسیټونه اوس په ځانګړي ډول په موزیلا ډیټا کلیکټیو کې شتون لري.
+# New/upcoming datasets page headline text
+datasets-positioning-mdc =
+    د کامن وائس ۲۳.۰ په اساس، ټول کامن وائس ډیټاسیټونه په ځانګړي ډول د موزیلا ډیټا کلیکټیو له لارې د ډاونلوډ لپاره شتون لري!
+    
+    دا پاڼه د موزیلا کامن وائس ډیټاسیټونو د تیرو نسخو لپاره د تاریخي آرشیف په توګه کار کوي. د آرشیف خپرونې باید یوازې په ځانګړو څیړنیزو سناریوګانو کې وکارول شي، نه د روزنې لپاره، د هغو کسانو هیلو ته درناوی وشي چې غوښتنه یې کړې چې د دوی ونډې باید خارج شي.
+datasets-speech-bubble-content = په زړه پورې خبرونه! په خپله خوښه وینا په لاره ده! د تازه معلوماتو لپاره زموږ سره پاتې شئ او ډاډ ترلاسه کړئ چې د وروستي معلوماتو لپاره خپل <discord Link>Discord</discord Link> وګورئ.
 language = ژبه
 download-dataset-header = ډیټاسیټ ډاونلوډ کړئ
 download-delta-explainer = موږ ځینې بدلونونه کړي دي. د ډیلټا برخې یوازې د وروستي خوشې کیدو راهیسې خورا وروستي کلپونه لري. <deltaLink>د دې کار په اړه نور ولولئ</deltaLink>.
@@ -95,7 +102,12 @@ release-version = نسخه
 dataset-date = نیټه
 license = لایسنس: <licenseLink>{ $license }</licenseLink>
 license-mixed = ګډ
+# Support old genders in older datasets
+male = نارینه
+female = ښځينه
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = زموږ د غږ ډیټاسیټونه ډاونلوډ کړئ
 # MENU ITEM ARIA LABELS
 download-contribute-menu-aria-label = د عام غږ معلوماتو ته د لاسرسي لپاره د ډاونلوډ اختیارونه
+datasets-show-more = ټول ډیټا سیټونه وښایاست
+datasets-show-less = وروستي ډیټاسیټونه وښایاست

@@ -43,8 +43,6 @@ x-years-short =
     }
 help-make-dataset = هيڪي سُٺي معيارا ائُون عوامِي نمُوني سُون کُلوڙي ڊيٽاسيٽ ٺاهوَڻي ۾ اَمچِي مدد ڪرا۔
 sign-up-account = هيڪي اڪائُونٽا چي ڪاڻ سائِين اَپ ڪرا
-email-subscription-title = نَوِين اِي ميلِي چي ڪاڻ سائِين اَپ ڪرا
-email-subscription-title-new = ڪامن وائِيس نيُوز ليٽر، مقصد ياد ڏيراوَڻي هاڙا ائُون ترقِي چِي تازا ڪارِي چي ڪاڻ سائِين اَپ ڪرا۔
 
 ## Account Benefits
 
@@ -128,7 +126,6 @@ answer = جواب
 
 ## Community section
 
-community-section-title = عالمِي برادرِيان چي وسِيلي صفا ڌاڪڙا، عالمِي برادرِيان چي ڪاڻ 130 ٻولِيان اڃا بِي بڌِي۔
 join-discord-community = ڊسڪارڊ برادرِي ۾ شامل هُوا۔
 # label for button
 join-discord-community-action = ڊسڪارڊا پر اَمهان ڀيڙي هُوا

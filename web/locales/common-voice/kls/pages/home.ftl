@@ -41,8 +41,6 @@ x-years-short =
     }
 help-make-dataset = Homa madad kari, sawin pi prus't dataset kholaw karikas bati
 sign-up-account = Kholaw kari, Account sawzai
-email-subscription-title = Kholaw kari, sawzai, email update kari
-email-subscription-title-new = Kholaw kari Common Voice khabar an bati, yat dehani as bati, update an bati
 
 ## Account Benefits
 
@@ -118,7 +116,6 @@ add-text = Newishil'a jama kari
 
 ## Community section
 
-community-section-title = Sawzai shiau saw dunia as bati, dunia ani mochan bati, zuban bo hikas bati
 join-discord-community = Discord comete una join kari
 # label for button
 join-discord-community-action = Discord una homa som join kari

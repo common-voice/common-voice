@@ -31,9 +31,16 @@ const getTableInfoFrom = (kind: ReportKind): ReportTableInfo => {
       }
   }
 }
+
+// NOTE: ON DUPLICATE KEY UPDATE is intentionally a no-op. This allows
+// duplicate reports (e.g. due to communication errors or client retries)
+// to be treated as successful without modifying existing rows.
 const createReportQuery = (tableInfo: ReportTableInfo) =>
   `
-    INSERT INTO ${tableInfo.table} (client_id, ${tableInfo.column}, reason) VALUES (?, ?, ?)
+    INSERT INTO ${tableInfo.table} (client_id, ${tableInfo.column}, reason) 
+    VALUES (?, ?, ?)
+    ON DUPLICATE KEY UPDATE 
+      id = id
   `
 
 const createQueryForReportKind = flow(getTableInfoFrom, createReportQuery)

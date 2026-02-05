@@ -40,8 +40,6 @@ x-years-short =
     }
 help-make-dataset = Hetê ma bike ke komdayeyêko kalîteberz virazîme ke her kesî rê akerde yo
 sign-up-account = Hesabêk viraze
-email-subscription-title = seba xeberanê e-maîlî qeyd bibe
-email-subscription-title-new = Aboneyê xebernameyanê Common Voice, vîrardişê hedefan û rewşanê averşîyayîşî bibe
 
 ## Account Benefits
 

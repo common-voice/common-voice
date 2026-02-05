@@ -3,6 +3,8 @@ speak-now = اوس خبرې وکړئ
 speak-subtitle = خپل غږ ډالۍ کړئ
 record-cta = ثبتول پیل کړئ
 record-platform-not-supported = موږ بخښنه غواړو، ستاسو پل‌ سټه اوس مهال ملاتړ نه لري.
+record-platform-webview = تاسو ممکن دلته د ټولنیزو رسنیو اپلیکیشن کې د لینک په کلیک کولو سره رسیدلي یاست. تاسو د اپلیکیشن دننه براوزر کاروئ چې د آډیو ثبتولو ملاتړ نه کوي.
+record-platform-not-supported-webview = په موبایل وسیلو کې تاسو کولی شئ د خپل سیسټم براوزر په کارولو سره ونډه واخلئ...
 record-platform-not-supported-desktop = په ډیسکټاپ الو کې تاسو کولی شئ ډاونلوډ کولو سره ونډه واخلئ ...
 record-platform-not-supported-ios-non-safari = په iOS کې مهرباني وکړئ د ثبت فعالولو لپاره په سفاري کې دوام ورکړئ ...
 record-must-allow-microphone = تاسو باید د مایکروفون لاسرسي ته اجازه ورکړئ.
@@ -10,6 +12,13 @@ record-no-mic-found = مایکروفون ونه موندل شو.
 record-error-too-short = ثبت ډیر لنډ وو.
 record-error-too-long = ثبت ډیر اوږد وو.
 record-error-too-quiet = ثبت ډیر غلی وو
+record-error-uploaded-clip-corrupted =
+    ستاسې د غږ ثبت شوی فایل داسې ښکاري چې خراب شوی دی. دا ستونزه ښايي د لاندې لاملونو له امله رامنځته شوې وي:
+    • د براوزر د سازګارۍ ستونزې (مهرباني وکړئ بل براوزر وکاروئ)
+    • د مایکروفون یا د غږ ډرایور ستونزې
+    • د ثبت پر مهال د شبکې پرې کېدل
+    
+    مهرباني وکړئ بیا ثبت وکړئ.
 record-cancel = د سره ثبت کول لغوه کړئ
 record-instruction = { $actionType }<recordIcon></recordIcon> بیا جمله په لوړ غږ ولولئ
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> کله چې سرته ورسي

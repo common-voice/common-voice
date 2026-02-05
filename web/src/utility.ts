@@ -10,7 +10,7 @@ const MS_IN_HOUR = 3600000
  */
 export function generateGUID(): string {
   return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
-    var r = (Math.random() * 16) | 0,
+    const r = (Math.random() * 16) | 0,
       v = c == 'x' ? r : (r & 0x3) | 0x8
     return v.toString(16)
   })
@@ -31,36 +31,182 @@ export function generateToken(length = 40) {
  * https://codegolf.stackexchange.com/
  *   questions/47322/how-to-count-the-syllables-in-a-word
  */
-let re = /[aiouy]+e*|e(?!d$|ly).|[td]ed|le$/gi
+const re = /[aiouy]+e*|e(?!d$|ly).|[td]ed|le$/gi
 export function countSyllables(text: string): number {
-  let matches = text.match(re)
+  const matches = text.match(re)
   return matches.length
+}
+
+/**
+ * Test whether this is an in-app-browser (WebView).
+ *
+ * Detects browsers embedded within apps (Facebook, Instagram, etc.) where
+ * audio recording and other web features may be restricted or broken.
+ * Uses both modern userAgentData API and legacy UA string detection.
+ *
+ * @see https://developer.mozilla.org/en-US/docs/Web/API/NavigatorUAData
+ */
+export function isWebView(): boolean {
+  const userAgent = navigator.userAgent.toLowerCase()
+
+  // iOS WebView detection: Has AppleWebKit but NOT Safari in user agent
+  // This catches WKWebView, UIWebView, and most in-app browsers on iOS
+  const isIOSWebView = /(iphone|ipod|ipad).*applewebkit(?!.*safari)/i.test(
+    navigator.userAgent
+  )
+
+  // Android WebView detection:
+  // - "; wv)" in UA string indicates WebView explicitly
+  // - window._webview is sometimes exposed by WebView implementations
+  const isAndroidWebView =
+    /; wv\)/.test(userAgent) || typeof (window as any)._webview !== 'undefined'
+
+  // Common social media in-app browser signatures
+  // These apps embed their own browser that may have limited capabilities
+  const webViewSignatures = {
+    isFacebook: /fbav|fban|fb_iab\/|fb4a|fb1a|facebook/i.test(userAgent),
+    isInstagram: /instagram/i.test(userAgent),
+    isTwitter: /twitter/i.test(userAgent),
+    isSnapchat: /snapchat/i.test(userAgent),
+    isLinkedIn: /linkedinapp/i.test(userAgent),
+    isTikTok: /tiktok/i.test(userAgent),
+    isWeChat: /micromessenger/i.test(userAgent),
+    isLine: /line/i.test(userAgent),
+    isPinterest: /pinterest/i.test(userAgent),
+    isReddit: /\breddit\b/i.test(userAgent),
+    isSlack: /slack/i.test(userAgent),
+    isDiscord: /discord/i.test(userAgent),
+    isTelegram: /telegram/i.test(userAgent),
+  }
+
+  // Additional heuristics for WebView detection:
+  // 1. Check if userAgentData is missing (WebViews often don't implement it)
+  // 2. Some WebViews have limited window features
+  const hasLimitedFeatures =
+    'userAgentData' in navigator &&
+    !(navigator.userAgentData as any)?.brands?.length
+
+  // Aggregate all detection methods
+  const isDetectedWebView =
+    isIOSWebView ||
+    isAndroidWebView ||
+    Object.values(webViewSignatures).some(value => value === true) ||
+    hasLimitedFeatures
+
+  return isDetectedWebView
 }
 
 /**
  * Test whether this is a browser on iOS.
  *
- * NOTE: As of early 2020 this is not reliable on iPad for some privacy-minded
- * browsers, including Safari (!!), Brave, and Firefox Focus.
+ * Uses modern navigator.userAgentData API when available, with fallback to UA string.
+ * For iPadOS 13+, iPads may identify as macOS unless requesting mobile site.
+ * Touch detection helps identify touch-enabled devices like iPads.
+ *
+ * @see https://developer.mozilla.org/en-US/docs/Web/API/Navigator/userAgentData
  */
 export function isIOS(): boolean {
-  return /iPod|iPhone|iPad|iOS/i.test(window.navigator.userAgent)
+  // Modern approach: Use User-Agent Client Hints API if available
+  if ('userAgentData' in navigator && navigator.userAgentData) {
+    const uaData = navigator.userAgentData as { platform?: string }
+    const platform = uaData.platform?.toLowerCase() || ''
+    if (platform === 'ios' || platform === 'iphone' || platform === 'ipad') {
+      return true
+    }
+  }
+
+  // Legacy approach: Check user agent string
+  if (/iPod|iPhone|iPad|iOS/i.test(navigator.userAgent)) {
+    return true
+  }
+
+  // iPadOS 13+ detection: iPads masquerade as macOS in desktop mode
+  // Check for Mac + touch support (iPads have touch, Macs don't)
+  const isMacOS = /Macintosh|MacIntel|MacPPC|Mac68K/i.test(navigator.userAgent)
+  const hasTouchPoints =
+    navigator.maxTouchPoints && navigator.maxTouchPoints > 1
+
+  return isMacOS && hasTouchPoints
 }
 
 /**
  * Check whether the browser is mobile Safari on iOS.
  *
- * The logic is collected from answers to this SO question: https://stackoverflow.com/q/3007480
+ * Detects actual Safari browser vs other browsers on iOS (Chrome, Firefox, etc.).
+ * Uses standards-compliant display-mode media query for PWA/standalone detection.
+ *
+ * @see https://developer.mozilla.org/en-US/docs/Web/CSS/@media/display-mode
+ * @see https://stackoverflow.com/q/3007480
  */
 export function isMobileSafari(): boolean {
-  return (
-    isIOS() &&
-    !window.navigator.standalone &&
-    /AppleWebKit/i.test(window.navigator.userAgent) &&
-    !/Chrome|Focus|CriOS|OPiOS|OPT\/|FxiOS|EdgiOS|mercury/i.test(
-      window.navigator.userAgent
-    )
-  )
+  if (!isIOS()) {
+    return false
+  }
+
+  const ua = navigator.userAgent
+
+  // Check for the most common non-Safari browsers on iOS
+  // Chrome (CriOS), Firefox (FxiOS), Edge (EdgiOS)
+  const isCommonOtherBrowser = /CriOS|FxiOS|EdgiOS/i.test(ua)
+  if (isCommonOtherBrowser) {
+    return false
+  }
+
+  // Note: All iOS browsers historically used WebKit (Apple requirement),
+  // but as of iOS 17.4+ (March 2024), EU users can use alternative engines.
+  // Checking for WebKit would incorrectly exclude EU users with Gecko/Blink.
+  // Instead, we rely on the presence of "Safari" marker.
+
+  // Check for Safari-specific markers
+  const hasSafari = /Safari/i.test(ua)
+
+  // In standalone mode (PWA/home screen), might not have Safari marker
+  // Use standards-compliant display-mode media query instead of non-standard navigator.standalone
+  const isStandalone = window.matchMedia('(display-mode: standalone)').matches
+
+  // It's Safari if it has the Safari marker or is in standalone mode
+  // We accept that some rare browsers might be misidentified, but the
+  // consequence (hover behavior) is minor
+  return hasSafari || isStandalone
+}
+
+/**
+ * Detects Safari browser on macOS (desktop).
+ * Uses positive detection: Safari uniquely has "Version/X.X" pattern without "Chrome".
+ * This is more robust than maintaining a list of all Chromium-based browsers.
+ *
+ * Excludes iOS Safari (use isMobileSafari for that) and all other browsers on macOS.
+ */
+export function isMacOSSafari(): boolean {
+  if (isIOS()) {
+    return false
+  }
+
+  const ua = navigator.userAgent
+
+  // Must be on macOS
+  const isMacOS = /Mac OS X|Macintosh/i.test(ua)
+  if (!isMacOS) {
+    return false
+  }
+
+  // Safari's unique signature: has "Safari" AND "Version/X.X" but NOT "Chrome"
+  // Chrome-based browsers (Chrome, Edge, Brave, Arc, Vivaldi, Yandex, etc.)
+  // include both "Safari" and "Chrome" in their UA
+  // True Safari has "Version/" which Chrome-based browsers typically don't
+  const hasSafari = /Safari/i.test(ua)
+  const hasVersion = /Version\/[\d.]+/i.test(ua)
+  const hasChrome = /Chrome|Chromium/i.test(ua)
+  const hasFirefox = /Firefox/i.test(ua)
+
+  // Exclude WebKit-based browsers that mimic Safari's pattern:
+  // - Orion Browser (WebKit-based, has "Version/" like Safari)
+  // - DuckDuckGo Browser (privacy browser that may spoof Safari)
+  // - SigmaOS (privacy-focused browser)
+  const isSpoofed = /Orion|DuckDuckGo|SigmaOS/i.test(ua)
+
+  // True Safari: has Safari + Version markers, but NO Chrome/Chromium/Firefox/spoofed browsers
+  return hasSafari && hasVersion && !hasChrome && !hasFirefox && !isSpoofed
 }
 
 export function isMobileResolution(): boolean {
@@ -95,16 +241,42 @@ export function getManageSubscriptionURL(account: UserClient) {
   }newsletter/existing/${account.basket_token}`
 }
 
-export const getAudioFormat = (() => {
-  const preferredFormat = 'audio/ogg; codecs=opus'
-  const audio = document.createElement('audio')
-  const format = audio.canPlayType(preferredFormat)
-    ? preferredFormat
-    : 'audio/wav'
-  return function getAudioFormat() {
-    return format
+/**
+ * Get the appropriate audio format for MediaRecorder.
+ * Note: Caller should not force this format on iOS/Safari - they work better with defaults.
+ */
+export const getAudioFormat = () => {
+  // iOS/macOS Safari => MP4/AAC
+  if (isIOS() || isMacOSSafari()) {
+    // Prefer AAC-LC (mp4a.40.2) - most compatible AAC profile
+    // This is the baseline AAC profile that Safari/WebKit encoders produce
+    // and ensures predictable quality/compatibility across Apple devices
+    if (MediaRecorder.isTypeSupported('audio/mp4;codecs=mp4a.40.2')) {
+      return 'audio/mp4;codecs=mp4a.40.2'
+    }
+    if (MediaRecorder.isTypeSupported('audio/mp4')) {
+      return 'audio/mp4'
+    }
+    // Fallback - check WebM support
+    if (MediaRecorder.isTypeSupported('audio/webm;codecs=opus')) {
+      return 'audio/webm;codecs=opus'
+    }
+    if (MediaRecorder.isTypeSupported('audio/webm')) {
+      return 'audio/webm'
+    }
   }
-})()
+
+  // All other platforms => WebM/Opus
+  if (MediaRecorder.isTypeSupported('audio/webm;codecs=opus')) {
+    return 'audio/webm;codecs=opus'
+  }
+  if (MediaRecorder.isTypeSupported('audio/webm')) {
+    return 'audio/webm'
+  }
+
+  // Let MediaRecorder choose default
+  return ''
+}
 
 export async function hash(text: string) {
   const encoder = new TextEncoder()

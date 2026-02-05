@@ -57,8 +57,6 @@ x-years-short =
     }
 help-make-dataset = اسان جي مدد ڪريو هڪ اعليٰ معيار، عوامي طور تي کليل ڊيٽا سيٽ ٺاهڻ ۾
 sign-up-account = هڪ اڪائونٽ لاء سائن اپ ڪريو
-email-subscription-title = اي ميل تازه ڪاري لاءِ سائن اپ ڪريو
-email-subscription-title-new = ڪامن وائس نيوز ليٽرز، مقصد ياد ڏياريندڙ ۽ ترقي جي تازه ڪاري لاءِ سائن اپ ڪريو
 
 ## Account Benefits
 

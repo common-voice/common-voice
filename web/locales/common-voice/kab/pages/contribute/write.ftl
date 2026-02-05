@@ -43,6 +43,7 @@ nature_environment = Agama d twennaḍt
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Sali-d <icon></icon> tafyirt n taɣult tazayazt
+sc-bulk-upload-instruction = Zuɣer-d afaylu-inek·inem ɣer da neɣ <uploadButton>kenned i wakken ad tt-ceyyeɛḍṭ</uploadButton>
 sc-bulk-upload-instruction-drop = Sers afaylu dagi i usali
 try-upload-again-md = Ɛreḍ asali tikkelt niḍen
 select-file = Fren afaylu

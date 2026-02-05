@@ -23,7 +23,6 @@ report-button = سُوچنا
 skip-button = سِرکاٹؔا
 submit-button = بھیݪا کرنا
 contribute = یوگدؔان دؔے
-request-new-language = نویں بھاشا کی ٻِنتی کر
 
 ## Navbar
 
@@ -38,9 +37,6 @@ not-found-page-header = نائِیں مِلا
 not-found-page-content = جِس پنے کُو آپ لوڑی رے ہے ٻو نائِیں مِلا
 # Privacy and Terms checkbox
 accept-privacy-and-terms = ہُوں سادھارݨ اواجا کِیاں <termsLink>سرتاں</termsLink> اور <privacyLink>گُپت سُوچناس</privacyLink> سہمت ہے
-# Locales (not yet fully resolved in Pontoon)
-meh = ڈؔکھݨ اولھاندا ٹلاکسیکو مکسٹیک
-mel = سنٹرل میلاناؤ
 # Locales-Variants
 ms-MY = بہاسا ملائی
 

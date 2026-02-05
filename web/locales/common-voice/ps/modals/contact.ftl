@@ -5,4 +5,4 @@ contact-form-name =
     .label = نوم
 contact-form-message =
     .label = پيغام
-contact-required = * اړین دی
+contact-required = * اړین

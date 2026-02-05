@@ -56,8 +56,6 @@ x-years-short =
     }
 help-make-dataset = گیچن و السی اوپن ڈیٹا سیٹ جوڑ کننگ اٹ ننا کمک کبو
 sign-up-account = اسہ اکاؤنٹ سیکن سائن اپ کبو
-email-subscription-title = ای میل نا اپڈیٹ کن سائن اپ کبو
-email-subscription-title-new = کامن وائس نیوز لیٹرز، مزل نا یات تننگ و کاریم نا مون مستی کن سائن اپ کبو۔
 
 ## Account Benefits
 
@@ -141,7 +139,6 @@ answer = ورندی
 
 ## Community section
 
-community-section-title = جہان نا ایلم تا وسیلہ اٹ سوگو مروکا، جہانی ایلم تیکن  — 130 زبانک  اور مستی اننگ!
 join-discord-community = ڈسکارڈ کمیونٹی ٹی ساڑی مبو۔
 # label for button
 join-discord-community-action = ڈسکارڈ آ نن تون اوار مبو

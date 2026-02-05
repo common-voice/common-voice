@@ -3,6 +3,8 @@ speak-now = Něnto powědaś
 speak-subtitle = Pósććo swój głos
 record-cta = Nagraśe startowaś
 record-platform-not-supported = Jo nam luto, ale waša platforma se tuchylu njepódpěra.
+record-platform-webview = Sćo se zazdaśim sem dostał, dokulaž sćo kliknuł na wótkaz w nałoženju socialnego mediuma. Wužywaśo wobglědowak w nałoženju, kótaryž nagraśa awdio njepódpěra.
+record-platform-not-supported-webview = Na mobilnych rědach móžośo  z pomocu swójogo systemowego wobglědowaka pśinosowaś…
 record-platform-not-supported-desktop = Na desktopowych licadłach móžośo nejnowšu wersiju ześěgnuś:
 record-platform-not-supported-ios-non-safari = Pšosym pókšacujśo na iOS ze Safari, aby nagraśe zmóžnił…
 record-must-allow-microphone = Musyśo pśistup k mikrofonoju dowóliś.
@@ -10,6 +12,12 @@ record-no-mic-found = Žeden mikrofon namakany.
 record-error-too-short = Nagraśe jo było pśekrotke.
 record-error-too-long = Nagraśe jo było pśedłujke.
 record-error-too-quiet = Nagraśe jo było pśeśiche.
+record-error-uploaded-clip-corrupted =
+    Zda se, až waše awdionagrawanje je wobškóźone. To móžo so staś, dokulaž daju:
+    • problemy z kompatibelnosću wobglědowaka (wopytajśo drugi wobglědowak wužiyaś)
+    • problemy z mikrofonom abo awdiogónjakom
+    • seśowe pśetergnjenja pśi nagrawanju
+    Pšosym wopytajśo znowego nagrawaś.
 record-cancel = Zasejnagraśe pśetergnuś
 record-instruction = { $actionType } <recordIcon></recordIcon> a pśedcytajśo sadu głosnje
 record-stop-instruction = { $actionType } <stopIcon></stopIcon>, gaž sćo gótowy

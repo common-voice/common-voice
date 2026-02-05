@@ -42,8 +42,6 @@ x-years-short =
     }
 help-make-dataset = Avita meill kopitta kõvassi üvvä täätüsalvo, kumpa kõik savva takossa
 sign-up-account = Tuõ čäüttäjässi
-email-subscription-title = Подписаться на рассылку обновлений
-email-subscription-title-new = Saattõga millõ uutisjuttua Common Voice progressass
 
 ## Account Benefits
 

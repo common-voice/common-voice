@@ -1,6 +1,6 @@
 import { postFxaEventsHandler } from './handler/post-fxa-events-handler'
 import PromiseRouter from 'express-promise-router'
-import rateLimiter from '../../lib/rate-limiter-middleware'
+import rateLimiter from '../../lib/middleware/rate-limiter-middleware'
 import { authenticateFxaEvent } from './validation/authenticate-fxa-event'
 
 export default PromiseRouter({ mergeParams: true }).post(

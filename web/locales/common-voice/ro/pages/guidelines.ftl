@@ -60,21 +60,21 @@ contact-common-voice = Ia legătura cu echipa proiectului Common Voice
 
 ## Sentence collection nav ids
 
-public-domain = Domeniul public
+public-domain = Domeniu public
 citing-sentences = Sursa propozițiilor
-adding-sentences = Adăugarea de propoziții
-reviewing-sentences = Verificarea propozițiilor
-sentence-domain = Domeniul propozițiilor
+adding-sentences = Adăugare de propoziții
+reviewing-sentences = Verificare propoziții
+sentence-domain = Domeniul propoziției
 
 ## Sentence collection sidebar content
 
-public-domain-explanation-1 = Toate propozițiile scrise trebuie să se găsească în <publicDomain>domeniul public</publicDomain> (<cc0>sub licență CC0</cc0>), pentru că setul de date Common Voice este și el publicat sub licență CC0. Încarcă doar propoziții de acest fel și indică-le mereu sursa.
+public-domain-explanation-1 = Toate propozițiile scrise trebuie să fie de <publicDomain>domeniul public</publicDomain> (<cc0>sub licență CC0</cc0>), pentru că setul de date Common Voice este și el publicat sub licență CC0. Încarcă doar propoziții de acest fel și indică-le mereu sursa.
 public-domain-explanation-2 = Pentru a construi un motor de recunoaștere vocală, cele mai potrivite propoziții sunt cele scrise în limbaj colocvial, modern. Iată câteva idei pentru a crea propoziții adecvate:
 public-domain-explanation-3 = Scrie propoziții folosind un limbaj modern, colocvial. Fă-o singur, cu prietenii, sau împreună cu membrii comunității tale lingvistice (de exemplu, prin organizarea unui atelier de scriere de tip „write-a-thon”).
-public-domain-explanation-4 = Ia legătura cu autori, dramaturgi sau scenariști și întreabă-i dacă doresc să doneze domeniului public o mică parte din lucrările lor.
-public-domain-explanation-5 = Caută texte ale căror drepturi de autor au expirat - cum ar fi, de exemplu, majoritatea cărților publicate înainte de 1920.
-public-domain-explanation-6 = Întreabă organizațiile guvernamentale, non-profit sau media dacă vor să doneze domeniului public vreunul din textele lor de pe web, rapoarte sau alte materiale.
-citing-sentences-explanation-1 = Este important să menționezi sursa textelor pentru ca noi să putem verifica dacă propozițiile sunt în domeniul public și nu au vreo restricție privind drepturile de autor.
+public-domain-explanation-4 = Ia legătura cu autori, dramaturgi sau scenariști și întreabă-i dacă doresc să introducă în domeniul public o mică parte din lucrările lor.
+public-domain-explanation-5 = Caută texte cu drepturi de reproducere expirate - cum ar fi, de exemplu, majoritatea cărților publicate înainte de 1920
+public-domain-explanation-6 = Contactează organizațiile guvernamentale, nonprofit sau media dacă vor să introducă în domeniul public o parte dintre textele lor de pe web, rapoarte sau alte materiale.
+citing-sentences-explanation-1 = Este important să menționezi sursa textelor ca să putem verifica dacă sunt de domeniul public și nu au vreo restricție privind drepturile de reproducere.
 citing-sentences-subheader-websites = Site-uri web
 citing-sentences-subheader-websites-explanation = Ai putea menționa site-ul web (de exemplu „Common Voice - https://commonvoice.mozilla.org/”).
 citing-sentences-subheader-academic-reference = Sistem științific de referențiere
@@ -231,7 +231,7 @@ code-switching-use-bilingual-prompts-explanation = Propune întrebări care incl
 code-switching-use-bilingual-prompts-explanation-example = „Ce ți-a spus mama ta when you got home that day?"
 code-switching-ask-bilingual-contexts-header = Pune întrebări referitoare la contextele bilingve
 code-switching-ask-bilingual-contexts-explanation = Folosește situații în care ambele limbi sunt des folosite (de exemplu, acasă, la școală, la evenimente ale comunității). De exemplu:
-code-switching-ask-bilingual-contexts-explanation-example = „Când vorbești cu rudele tale, amesteci vreodată româna cu engleza?”
+code-switching-ask-bilingual-contexts-explanation-example = „Când vorbești cu verii tăi, amesteci vreodată româna cu engleza?”
 code-switching-focus-emotional-header = Concentrează-te pe momente emoționale sau importante.
 code-switching-focus-emotional-explanation = Atunci când relatează episoade emoționante sau în care întâmplările s-au succedat în ritm alert, mulți vorbitori bilingvi vor începe să combine limbile pe care le vorbesc.
 code-switching-focus-emotional-explanation-example = „Spune-mi ce ți-au spus părinții când le-ai dat o veste foarte importantă pentru tine — cuvânt cu cuvânt, chiar, dacă-ți mai amintești.”
@@ -277,11 +277,85 @@ code-switching-authentic-speak-example = „Next i-am spus că nu mai pot merge,
 code-switching-use-both-languages = <bold>Folosește ambele limbi dacă așa ai face-o în mod normal.</bold> Chiar și doar unul sau două cuvinte într-o altă limbă sunt utile. De exemplu:
 code-switching-use-both-languages-example = „S-a supărat grozav because nu am sunat-o.”
 code-switching-authentic-direct-quotes = <bold>Folosește ghilimelele sau liniile de dialog.</bold> Redă exact ce a spus cineva, nu o versiune modificată sau formală. De exemplu:
-code-switching-authentic-direct-quotes-example = „Mi-a spus boyfriendul, ‘Do you think this is a game?’ și eu i-am răspuns: ‘Ok, chill!’”
+code-switching-authentic-direct-quotes-example = „M-a întrebat boyfriendul, ‘Do you think this is a game?’ și eu i-am răspuns: ‘Ok, chill!’”
 code-switching-authentic-reflect = <bold>Păstrează emoția, identitatea și contextul.</bold> Întrepătrunderea de limbi se întâmplă atunci când cineva exprimă emoții puternice, sau povestește situații de criză, sau relatează aspecte cu specific cultural. Lasă-te inspirat de aceste practici atunci când răspunzi la întrebări.
+code-switching-authentic-full-context = <bold>Răspunde complet, detaliat, oferind cât mai mult context.</bold> Poți să incluzi și o întâmplare sau un exemplu în răspunsul tău.
+# Don’t Overthink or Overedit
+code-switching-answer-dont-subheader = Nu-ți edita prea mult răspunsul și nu te gândi prea mult la cum sună.
+code-switching-answer-dont-correct-language = <bold>Nu îți corecta exprimarea!</bold> Când te înregistrezi pentru Common Voice, nu dai un examen. Forma „corectă” sau „elevată” de a vorbi nu este esențială. Ceea ce contează este felul cum vorbești de obicei.
+code-switching-answer-dont-avoid-switching = <bold>Nu înceta să combini mai multe limbi dacă așa vorbești tu de obicei!</bold> Nu este nici o problemă dacă introduci unul sau mai multe cuvinte din altă limbă la un moment dat.
+code-switching-answer-dont-formal-writing = <bold>Nu vorbi de parcă ai redacta o scrisoare oficială!</bold> Evită răspunsurile academice, formale! Păstrează un ton conversațional!
+code-switching-answer-dont-force-switch = <bold>Nu folosi cuvinte din alte limbi dacă de obicei nu o faci!</bold> Combină limbile doar dacă așa ai face-o în mod obișnuit!
+code-switching-answer-dont-translate-repeat = <bold>Nu tradu și nu repeta tot ce spui într-o limbă și în cealaltă!</bold> Spune ce ai de spus o singură dată, folosing cuvintele tale obișnuite, așa cum ai face-o într-o conversație! Nu este nevoie să înregistrezi în fiecare limbă o versiune separată a răspunsului.
+# Transcribing
+code-switching-transcribe-subheader = Cum să transcrii înregistrările existente
+code-switching-transcribe-intro = Când transcrii răspunsuri în care vorbitorul folosește mai multe limbi, sarcina ta este de a reprezenta felul autentic în care s-a vorbit: nu corecta, schimba, sau simplifica ce auzi! Aceasta include toate combinațiile de cuvinte din diverse limbi, precum și construcțiile colocviale.
+code-switching-transcribe-do-1 = Ascultă înregistrarea de mai multe ori pentru a nu scăpa astfel de particularități!
+code-switching-transcribe-do-2 = Pune pauză după fiecare propoziție și verifică în caz că vorbitorul a folosit în vreun fel subtil și alte limbi în răspunsul său.
+# Capture Speech Exactly as Spoken
+code-switching-capture-header = Transcrie secvența audio exact așa cum a fost înregistrată
+code-switching-capture-explanation = Transcrie ambele limbi exact așa cum apar/sună. Nu „corecta” exprimarea și nu o tradu în română.
+# Include filler words and markers
+code-switching-filler-header = Include cuvintele de umplutură și ezitările
+code-switching-filler-explanation = Cuvine precum „păi”, „deci”, „știi”, „înțelegi”, „ăăă”, „you know”, „like”, „um” sunt utile. De exemplu: „Deci, ăăă, i-am zis, 'like I don't know, maybe later.'"
+# Use standard spelling for each language
+code-switching-spelling-header = Folosește ortografia oficială pentru fiecare limbă
+code-switching-spelling-explanation = Scrie corect în fiecare limbă cuvintele pe care le auzi, cu excepția situațiilor în care vorbitorul le pronunță într-un mod clar neobișnuit.
+# Don’t Clean Up or Simplify the Language
+code-switching-cleanup-header = Nu corecta și nu simplifica limba!
+code-switching-cleanup-1 = Nu tradu și nu parafraza! Scrie ce chiar a spus vorbitorul, nu ce „a vrut să spună”.
+code-switching-cleanup-2 = Nu „corecta” gramatica sau pronunția vorbitorului! Păstrează exprimarea sa originală!
+code-switching-cleanup-3 = Nu sări peste și nu ignora mici schimbări de limbă care pare nesemnificative! Fiecare cuvânt împrumutat din altă limbă contează.
+code-switching-cleanup-4 = Nu adăuga semne de punctuație care schimbă înțelesul propozițiilor! Păstrează naturalețea și cursivitatea exprimării inițiale!
+code-switching-cleanup-5 = Nu presupune că poți identifica mereu limba căreia îi aparține fiecare cuvânt! Adaugă etichete în funcție de utilizarea cuvintelor.
+# Tagging
+code-switching-tagging-subheader = Folosirea etichetelor
+code-switching-tagging-error-intro = Atunci când transcrierea conține o greșeală, folosește funcția de Semnalare pentru a evidenția problema. Greșelile pot include:
+code-switching-tagging-error-1 = Folosirea incurectă a semnelor de punctuație și a majusculei
 code-switching-tagging-error-2 = Greșeli de ortografie
+code-switching-tagging-error-3 = Cuvinte scrise cu o ortografie greșită
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = Folosirea ortografiei corecte pentru fiecare limbă
+code-switching-orthography-explanation = Transcrie fiecare cuvânt folosind ortografia limbii căreia îi aparține. De exemplu:
+code-switching-orthography-explanation-example-1 = În cazul în care cuvântul „office” pare pronunțat ca și când ar fi în română, trebuie scris ca în engleză, nu „ofis”
+code-switching-orthography-explanation-example-2 = Dacă este folosit cuvântul „smartphone”, chiar dacă se pronunță cu „f” și în română și în engleză, el trebuie scris folosind ortografia engleză, cu „ph”. IMPORTANT: în transcrierea română trebuie folosite corect toate semnele diacritice.
+# Use Pronunciation to Help Determine the Language
+code-switching-pronunciation-header = Identifică limba vorbită cu ajutorul pronunției
+code-switching-pronunciation-explanation = Unele cuvinte sunt scrise la fel în ambele limbi, dar sunt pronunțate diferit.   Fii atent(ă) la pronunție pentru a putea eticheta corect limba.   De exemplu: „brand”, „playlist”, „cash”.
+code-switching-pronunciation-explanation-example-1 = în engleză: /brænd/
+code-switching-pronunciation-explanation-example-2 = în română: /brand/
+# Tagging in a Single Token
+code-switching-single-token-header = Etichetarea cuvintelor individuale
+code-switching-single-token-explanation = Un singur cuvânt nu trebuie să conțină mai multe etichete.
+# Tag Punctuation Based on Nearby Language
+code-switching-punctuation-tagging-header = Etichetează punctuația în funcție de limba folosită până atunci
+code-switching-punctuation-tagging-explanation = Etichetează punctuația folosind intervalul cel mai apropiat al limbii de la stânga. Exemple:
+# text wrapped in purple and blue will be shown with a purple and blue background in the UI respectively
+code-switching-punctuation-tagging-explanation-example-1 = <purple>singura dată când</purple> Maria <purple>a strigat la mine a fost</purple> <blue>porque</blue> <purple>încerca</purple> printear <blue>un</blue> <purple>comandă.</purple> (BangorTalk)
+code-switching-punctuation-tagging-explanation-example-2 = <purple>dar</purple> <blue>tú los puedes comprar rojo, negro, azul</blue>, <purple>în fine.</purple> (BangorTalk)
+# Be Careful with Lookalikes
+code-switching-lookalikes-header = Atenție la „pasageri clandestini”!
+code-switching-lookalikes-explanation = Unele cuvinte pot apărea ca aparținând unei limbi, dar de fapt sunt folosite într-o alta. Etichetează-le în funcție de înțelesul și uzul lor și nu în funcție de cum apar. De exemplu:
+code-switching-lookalikes-explanation-example-1 = „Footing” folosit cu sensul de „a alerga” în română > etichetează-l drept cuvânt în spaniolă
+code-switching-lookalikes-explanation-example-2 = italianul „no problemo” folosit în engleză > etichetează ca engleză
+# When Not to Tag Words
+code-switching-not-tag-header = Cuvinte care nu trebuie etichetate
+code-switching-not-tag-explanation = Unele cuvinte <bold>nu trebuie etichetate</bold> pentru a le indica limba, chiar dacă par combinate sau adaptate. Iată câteva exemple:
+code-switching-not-tag-proper-names = <bold>Substantivele proprii.</bold> Numele de persoane, locuri și organizații nu trebuie etichetate. De exemplu:
+code-switching-not-tag-proper-names-example-1 = Persoane: Maria, John
+code-switching-not-tag-proper-names-example-2 = Locuri: Los Angeles, Florida
+code-switching-not-tag-proper-names-example-3 = Mărci/firme/organizații:   Target, Burger King, Flanco
+code-switching-not-tag-mixed-words = <bold>Cuvinte combinate sau adaptate morfologic.</bold> Nu eticheta cuvinte care combină limbi sau care au terminații adăugate din altă limbă. De exemplu:
+code-switching-not-tag-mixed-words-example = - rădăcina este din engleză, dar sufixul este românesc: „a drinkui”, „a printui”.
+code-switching-not-tag-interjections = <bold>Interjecții.</bold> Interjecțiile și cuvintele de umplutură, indiferent de limba de origine, <bold>nu trebuie etichetate!</bold> De exemplu:
+code-switching-not-tag-interjections-example-1 = "Eh”
+code-switching-not-tag-interjections-example-2 = “Mda”
+code-switching-not-tag-interjections-example-3 = “Yeah”
+code-switching-not-tag-interjections-example-4 = “Hmm”
 
 ## Reporting Content
 
 reporting-content = Semnalarea conținutului neadecvat
 reporting-content-subheader = Îndrumări generale
+reporting-content-explanation-1 = Trebuie să ne semnalezi conținutul scris sau vorbit care este ofensator, care dăunează în vreun fel, sau care poate îngrijora pe cineva. Mai mult, conținutul nu trebuie să includă informații personale, cum ar fi numerele de telefon sau adrese. După ce îl semnalezi, nu îl vei mai vedea până la finalul verificării desfășurate de echipa Common Voice.
+reporting-content-explanation-2 = Pentru a semnala un astfel de conținut necorespunzător, apasă pe butonul „Semnalează” și alege una sau mai multe opțiuni dintre: Discurs ofensator, Greșeală gramaticală / ortografică, Limbă diferită, și Altceva. Dacă alegi și ultima opțiune vei putea explica în detaliu de ce semnalezi textul respectiv. La final, trimite semnalarea apăsând pe butonul Semnalează.

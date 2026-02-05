@@ -45,8 +45,7 @@ x-years-short =
     }
 help-make-dataset = დაგვეხმარეთ მაღალი ხარისხის, საჯაროდ ხელმისაწვდომი კრებულის შექმნაში
 sign-up-account = ანგარიშის შექმნა
-email-subscription-title = გამოიწერეთ ელფოსტაზე სიახლეები
-email-subscription-title-new = გამოიწერეთ Common Voice და გაეცანით ახალ ამბებს, მიზნის შეხსენებებსა და მიმდინარე წინსვლის შესახებ ცნობებს
+email-subscription-title-v3 = გამოიწერეთ Common Voice და Mozilla Foundation სიახლეებისთვის
 
 ## Account Benefits
 
@@ -131,12 +130,13 @@ answer = პასუხი
 
 ## Community section
 
-community-section-title = საერთაშორისო ერთობის ძალისხმევით საერთაშორისო ერთობისთვის — მოიცავს 130 ენას და ჯერ კიდევ მზარდია!
+community-section-title-202601 = საერთაშორისო ერთობის ძალისხმევით საერთაშორისო ერთობისთვის — მოიცავს 290 ენას და ჯერ კიდევ მზარდია!
 join-discord-community = შემოუერთდით Discord-ერთობას
 # label for button
 join-discord-community-action = გვეწვიეთ Discord-ზე
 join-discord-community-content = მიიღეთ მონაწილეობა ენობრივ განხილვებში, დასვით კითხვები და გაეცანით მომავალ ღონისძიებებსა თუ შეხვედრებს.
 find-us-on-matrix = გვიპოვეთ Matrix-ზე
+find-us-on-matrix-content-v2 = Matrix არის ღია, სწრაფმოქმედი ოქმის მქონე საშუალება ზედამხედველის გარეშე პირდაპირ საურთიერთობოდ და რომელსაც Mozilla ამჯობინებს ღია განხილვების გასამართად. ჩვენი სასაუბროს მისამართია „common-voice:mozilla.org“.
 # label for button
 find-us-on-element-action-1 = Element
 find-us-on-matrix-action-2 = სხვა პროგრამები

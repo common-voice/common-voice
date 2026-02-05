@@ -124,3 +124,10 @@ spelling-and-pronunciation-explanation = Addeuvia unna boña grafia e grammatica
 length = Longhixe
 example-questions-subheader = Domande d'ezenpio
 example-questions-explanation-1 = Ti peu atrovâ <examplePromptsLink>120 ezenpi de domanda in sto feuggio.</examplePromptsLink>
+
+## Spontaneous Speech sidebar content
+
+# Answer Questions
+answer-questions = Rispondi a-e domande
+answer-questions-subheader = Goidda generale
+transcribe-the-audio-subheader-1 = Goidda generale

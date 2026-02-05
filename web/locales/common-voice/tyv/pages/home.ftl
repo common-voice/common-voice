@@ -42,8 +42,6 @@ x-years-short =
     }
 help-make-dataset = Бедик шынарлыг ажык база тургусчурунга дузалажыңар
 sign-up-account = Аккаунтуну бүрүткээр
-email-subscription-title = Чаартылгалар дугайында медээлер кээп турар кылдыр бижиттинип алыңар
-email-subscription-title-new = Электроннуг почта
 
 ## Account Benefits
 

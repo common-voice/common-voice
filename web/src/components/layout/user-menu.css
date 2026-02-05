@@ -13,14 +13,28 @@
 .user-menu {
     margin: 0 16px;
 
-    @media (--sm-up) {
+    @media (--md-up) {
         max-width: 200px;
     }
 
     .username-btn {
         display: flex;
         align-items: center;
+
+        & .name {
+            margin-inline-end: 10px;
+            max-width: 100%;
+            font-family: var(--base-font-family);
+            font-weight: 600;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 0.4px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
     }
+
     & .toggle {
         outline: none;
         border: none;
@@ -36,23 +50,6 @@
             margin-inline-end: 10px;
         }
 
-        & .name {
-            margin-inline-end: 10px;
-            max-width: 100%;
-            font-family: var(--base-font-family);
-            font-weight: 600;
-            font-size: 14px;
-            text-transform: uppercase;
-            letter-spacing: 0.4px;
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-
-            @media (--xs-down) {
-                display: none;
-            }
-        }
-
         & svg {
             margin: 0 11px 0 0;
             transition: transform var(--easing) var(--transition-duration);
@@ -63,8 +60,33 @@
         }
     }
 
+    @media (--sm-down) {
+        margin: 0 8px;
+        max-width: fit-content;
+
+        & .toggle {
+            & .username-btn {
+                & .name {
+                    display: none;
+                }
+
+                & .avatar-wrap {
+                    margin-inline-end: 4px;
+                }
+            }
+
+            & svg {
+                margin: 0 4px 0 0;
+            }
+        }
+    }
+
     & .menu-wrap {
         position: relative;
+
+        @media (--sm-down) {
+            position: static;
+        }
     }
 
     & .menu {
@@ -74,6 +96,12 @@
 
         flex-direction: column;
         display: none;
+
+        @media (--sm-down) {
+            position: fixed;
+            top: var(--header-height);
+            right: 8px;
+        }
 
         & .triangle {
             padding-top: 15px;

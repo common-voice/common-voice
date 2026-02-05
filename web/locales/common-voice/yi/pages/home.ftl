@@ -46,8 +46,6 @@ x-years-short =
     }
 help-make-dataset = העלפט אונז בויען א הויעך קוואליטעט, עפענטליכע דאטא סעט
 sign-up-account = שרייבט אייך אויף פאר א קאנטע
-email-subscription-title = שרייבט אייך אויף פאר אימעיל אנטוויקלונגען
-email-subscription-title-new = שרייבט אייך אויף פאר קאמאן וואויס נייעס באריכטן, ציל דערמאנונגען און פארשריט אנטוויקלונגען
 
 ## Account Benefits
 

@@ -1,5 +1,6 @@
 ## DemoLayout
 
+demo-get-started = Hayde kogeboç̌ǩat (kocevoç̌at)
 demo-welcome = Common Voice'şa ǩaite moxtit
 
 ## Demo Datasets
@@ -19,4 +20,5 @@ demo-account-sign-up = Doloç̌aruşi linki oncğoni
 
 ## Demo Contribute
 
+demo-contribute-card-header = Xoma skani eǩodus vana çkvaşi xoma oucus (oucinus, oşkinus) xadziri ore-i?
 demo-listen-subtitle = Eǩoǩatus xadziri ore-i?

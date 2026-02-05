@@ -47,8 +47,7 @@ x-years-short =
     }
 help-make-dataset = Hjelp oss med å lage et høykvalitets, offentlig tilgjengelig datasett.
 sign-up-account = Lag deg en konto
-email-subscription-title = meld deg på for oppdateringer på e-post
-email-subscription-title-new = Registrer deg for Common Voice-nyhetsbrev, målpåminnelser og fremdriftsoppdateringer
+email-subscription-title-v3 = Registrer deg for å få oppdateringer fra Common Voice og Mozilla Foundation
 
 ## Account Benefits
 
@@ -133,7 +132,7 @@ answer = Svar
 
 ## Community section
 
-community-section-title = Drevet av globale samfunn, for globale samfunn - mer enn 130 språk!
+community-section-title-202601 = Drevet av globale samfunn, for globale samfunn — mer enn 290 språk!
 join-discord-community = Bli med i Discord-fellesskapet
 # label for button
 join-discord-community-action = Bli med oss på Discord

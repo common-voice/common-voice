@@ -53,8 +53,6 @@ x-years-short =
     }
 help-make-dataset = o pona e ni: mi mute li pali e sona open pona.
 sign-up-account = o pali e sijelo ilo
-email-subscription-title = o kama jo e lipu sin
-email-subscription-title-new = o kama jo e lipu ni: sona sin en pali sin en wile pali sina
 
 ## Account Benefits
 
@@ -102,6 +100,8 @@ join-discord-community = o kama lon kulupu pi ilo Discord
 # label for button
 join-discord-community-action = o kama lon kulupu pi ilo Discord
 find-us-on-matrix = o kama lon kulupu pi ilo Matrix
+# label for button
+download-contribution-certificate-action = o jo e lipu ni: ona li toki e pona sina
 contribute-github = o pana e sona lon ilo GitHub
 # label for button
 contribute-github-action = o pana e sona lon ilo GitHub

@@ -56,8 +56,7 @@ x-years-short =
     }
 help-make-dataset = Help us build a high quality, publicly open dataset
 sign-up-account = Sign up for an account
-email-subscription-title = sign up for email updates
-email-subscription-title-new = Sign up for Common Voice newsletters, goal reminders and progress updates
+email-subscription-title-v3 = Sign up for Common Voice and Mozilla Foundation updates
 
 ## Account Benefits
 
@@ -138,7 +137,7 @@ add-text = Add Text
 answer = Answer
 
 ## Community section
-community-section-title = Powered by global communities, for global communities — 130 languages and growing!
+community-section-title-202601 = Powered by global communities, for global communities — 290 languages and growing!
 join-discord-community = Join Discord Community
 # label for button
 join-discord-community-action = Join us on Discord

@@ -159,7 +159,7 @@ transcribe-audio-menu-item-tooltip = Transkriber lydopptak på ditt språk
 
 write-contribute-menu-aria-label = Skrivealternativer
 add-sentences-menu-item-aria-label = Legg til nye setninger som fellesskapet kan lese
-review-sentences-menu-item-aria-label = Vurder eksisterende setninger sendt inn av felleskapet
+review-sentences-menu-item-aria-label = Vurder eksisterende setninger sendt inn av fellesskapet
 add-questions-menu-item-aria-label = Send inn nye spørsmål som fellesskapet kan lese og svare på
 review-questions-menu-item-aria-label = Se gjennom og stem på nye spørsmål sendt inn av fellesskapet
 transcribe-audio-menu-item-aria-label = Transkribere lydopptak til tekst
