@@ -328,13 +328,13 @@ export function getBestAudioMimeType(): string | undefined {
   if (typeof window === 'undefined' || !('MediaRecorder' in window))
     return undefined
 
-  // On Safari/iOS, return undefined to use default MP4/AAC
-  // Safari's MediaRecorder claims WebM support but produces broken/unplayable blobs
-  // Only its default encoder (MP4/AAC) reliably works for recording + playback
+  // On Safari/iOS, explicitly return MP4/AAC format
+  // Explicit MIME type ensures proper blob.type and backend detection
   if (isIOS() || isMacOSSafari()) {
-    // Don't force any format - let Safari use its native MP4/AAC encoder
-    // This is the ONLY way to ensure playback works in the same <audio> element
-    return undefined
+    // Use explicit format for better compatibility
+    return MediaRecorder.isTypeSupported('audio/mp4;codecs=aac')
+      ? 'audio/mp4;codecs=aac'
+      : 'audio/mp4'
   }
 
   // All other platforms: prefer WebM/Opus (better quality, smaller size)

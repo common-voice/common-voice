@@ -20,10 +20,6 @@ export interface AudioInfo {
   blob: Blob
 }
 
-// Small delay to ensure all dataavailable events have been processed
-// MediaRecorder may fire stop event before final chunk arrives
-// This delay helps to wait for the final chunk before considering recording stopped
-const MEDIARECORDER_STOP_DELAY_MS = 50
 export default class AudioWeb {
   microphone: MediaStream
   analyzerNode: AnalyserNode
@@ -128,23 +124,6 @@ export default class AudioWeb {
 
   setVolumeCallback(cb: (volume: number) => void) {
     this.volumeCallback = cb
-  }
-
-  /**
-   * Determine optimal recording timeslice based on browser capabilities.
-   * Smaller chunks for Safari/iOS prevent buffer issues, larger chunks for others improve efficiency.
-   */
-  private getOptimalTimeslice(): number {
-    if (isIOS()) {
-      // iOS: 1s chunks - prevents buffer overflow on memory-constrained devices
-      return 1_000
-    }
-    if (isMacOSSafari()) {
-      // macOS Safari: 5s chunks - balance between reliability and efficiency
-      return 5_000
-    }
-    // Chrome/Firefox/Edge: 20s chunks - these browsers handle large buffers well
-    return 20_000
   }
 
   /**
@@ -318,7 +297,7 @@ export default class AudioWeb {
         this.recorderListeners.dataavailable
       )
 
-      this.recorder.start(this.getOptimalTimeslice())
+      this.recorder.start()
     })
   }
 
@@ -342,31 +321,27 @@ export default class AudioWeb {
         const recordingMimeType = this.recordingMimeType
         const requestedMimeType = this.requestedMimeType
 
-        // Small delay to ensure all dataavailable events have been processed
-        // MediaRecorder may fire stop event before final chunk arrives
-        setTimeout(() => {
-          // Use actual mimeType from recorder, fallback to requested format for iOS
-          // iOS/Safari may leave recordingMimeType empty when we don't set it explicitly
-          const blobType = recordingMimeType || requestedMimeType || ''
-          const blob = new Blob(chunks, { type: blobType })
+        // Use actual mimeType from recorder, fallback to requested format for iOS
+        // iOS/Safari may leave recordingMimeType empty when we don't set it explicitly
+        const blobType = recordingMimeType || requestedMimeType || ''
+        const blob = new Blob(chunks, { type: blobType })
 
-          // Validate blob size (empty blobs cause backend errors)
-          if (blob.size === 0) {
-            console.error('[AudioWeb] Empty blob created, rejecting recording')
-            reject(AudioError.NO_SUPPORT)
-            return
-          }
+        // Validate blob size (empty blobs cause backend errors)
+        if (blob.size === 0) {
+          console.error('[AudioWeb] Empty blob created, rejecting recording')
+          reject(AudioError.NO_SUPPORT)
+          return
+        }
 
-          // Revoke previous URL to prevent memory leak
-          if (this.lastObjectURL) {
-            URL.revokeObjectURL(this.lastObjectURL)
-          }
+        // Revoke previous URL to prevent memory leak
+        if (this.lastObjectURL) {
+          URL.revokeObjectURL(this.lastObjectURL)
+        }
 
-          const url = URL.createObjectURL(blob)
-          this.lastObjectURL = url
+        const url = URL.createObjectURL(blob)
+        this.lastObjectURL = url
 
-          resolve({ url, blob })
-        }, MEDIARECORDER_STOP_DELAY_MS)
+        resolve({ url, blob })
       }
 
       this.recorderListeners.error = (event: Event) => {
