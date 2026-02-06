@@ -294,11 +294,16 @@ export default class Clip {
 
     // Handle AAC/MP4 formats from iOS devices
     // MP4 containers need special handling due to moov atom positioning
+    const normalized = format.toLowerCase().trim() || ''
     const isAAC =
-      !format ||
-      format.includes('aac') ||
-      format.includes('mp4') ||
-      format === 'application/octet-stream' // added
+      !normalized || // with new FE code we should not get this case anymore, but keep for safety
+      normalized.startsWith('audio/mp4') ||
+      normalized.startsWith('audio/x-m4a') ||
+      normalized.startsWith('audio/m4a') ||
+      normalized === 'audio/aac' ||
+      normalized.startsWith('audio/aac;') ||
+      normalized.includes('mp4a') ||
+      normalized === 'application/octet-stream' // re-added (some Apple devices send this generic type)
 
     if (getConfig().FLAG_BUFFER_STREAM_ENABLED && isAAC) {
       // AAC data comes wrapped in an MPEG container, which is incompatible with
