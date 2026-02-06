@@ -297,7 +297,14 @@ export default class AudioWeb {
         this.recorderListeners.dataavailable
       )
 
-      this.recorder.start()
+      // We want to be able to record up to 30s of audio in a single blob.
+      // Without this argument to start(), Chrome will call dataavailable
+      // very frequently.
+      // iOS/Safari: Use smaller chunks (5s) to prevent buffer issues
+      // Other browsers: Use larger chunks (30s) for efficiency
+      const timeslice = isIOS() || isMacOSSafari() ? 5_000 : 30_000
+      // Finally, start it up.
+      this.recorder.start(timeslice)
     })
   }
 
@@ -317,31 +324,52 @@ export default class AudioWeb {
       }
 
       this.recorderListeners.stop = () => {
-        const chunks = this.chunks
-        const recordingMimeType = this.recordingMimeType
-        const requestedMimeType = this.requestedMimeType
+        // Small delay to ensure final dataavailable event is processed
+        // iOS/Safari needs this to flush final buffer chunk
+        const delay = isIOS() || isMacOSSafari() ? 200 : 50
+        setTimeout(() => {
+          const chunks = this.chunks
+          const recordingMimeType = this.recordingMimeType
+          const requestedMimeType = this.requestedMimeType
 
-        // Use actual mimeType from recorder, fallback to requested format for iOS
-        // iOS/Safari may leave recordingMimeType empty when we don't set it explicitly
-        const blobType = recordingMimeType || requestedMimeType || ''
-        const blob = new Blob(chunks, { type: blobType })
+          // Determine blob MIME type with robust fallback chain:
+          // 1. Use actual mimeType from MediaRecorder (most accurate)
+          // 2. Fallback to requested format (what we asked for)
+          // 3. Last resort: infer from browser
+          let blobType = recordingMimeType || requestedMimeType
 
-        // Validate blob size (empty blobs cause backend errors)
-        if (blob.size === 0) {
-          console.error('[AudioWeb] Empty blob created, rejecting recording')
-          reject(AudioError.NO_SUPPORT)
-          return
-        }
+          if (!blobType || blobType.trim() === '') {
+            // This should never happen, but if it does, infer from browser
+            blobType = getBestAudioMimeType()
 
-        // Revoke previous URL to prevent memory leak
-        if (this.lastObjectURL) {
-          URL.revokeObjectURL(this.lastObjectURL)
-        }
+            if (!isProduction()) {
+              console.warn(
+                '[AudioWeb] Both recordingMimeType and requestedMimeType are empty!',
+                'Using inferred type:',
+                blobType
+              )
+            }
+          }
 
-        const url = URL.createObjectURL(blob)
-        this.lastObjectURL = url
+          const blob = new Blob(chunks, { type: blobType })
 
-        resolve({ url, blob })
+          // Validate blob size (empty blobs cause backend errors)
+          if (blob.size === 0) {
+            console.error('[AudioWeb] Empty blob created, rejecting recording')
+            reject(AudioError.NO_SUPPORT)
+            return
+          }
+
+          // Revoke previous URL to prevent memory leak
+          if (this.lastObjectURL) {
+            URL.revokeObjectURL(this.lastObjectURL)
+          }
+
+          const url = URL.createObjectURL(blob)
+          this.lastObjectURL = url
+
+          resolve({ url, blob })
+        }, delay)
       }
 
       this.recorderListeners.error = (event: Event) => {
