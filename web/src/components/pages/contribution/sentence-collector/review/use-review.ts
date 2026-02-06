@@ -188,7 +188,8 @@ const useReview = ({ getString, showReportModal }: UseReviewParams) => {
     }
 
     const shortcut = reviewShortCuts.find(
-      ({ key }) => getString(key).toLowerCase() === evt.key.toLocaleLowerCase()
+      ({ key }) =>
+        getString(key).toLocaleLowerCase() === evt.key.toLocaleLowerCase()
     )
 
     if (!shortcut) return
