@@ -253,15 +253,10 @@ export default class API {
     showFirstStreakToast?: boolean
     challengeEnded: boolean
   }> {
-    // Use blob.type directly - it now contains the correct MIME type from audio-web.ts
-    // audio-web.ts creates Blob with: recordingMimeType || requestedMimeType || ''
-    // This ensures iOS blobs have proper type (e.g., 'audio/mp4;codecs=mp4a.40.2')
-    const contentType = blob.type || 'application/octet-stream'
-
     return this.fetch(this.getClipPath(), {
       method: 'POST',
       headers: {
-        'Content-Type': contentType,
+        'Content-Type': blob.type,
         'sentence-id': sentenceId,
         challenge: getChallenge(this.user),
         'from-demo': fromDemo ? 'true' : 'false',
