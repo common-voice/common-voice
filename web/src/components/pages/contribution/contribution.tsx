@@ -34,6 +34,7 @@ import { ReportButton, ReportModal, ReportModalProps } from './report/report'
 import Wave from './wave'
 import { FirstPostSubmissionCta } from './speak/firstSubmissionCTA/firstPostSubmissionCTA'
 import { Notifications } from '../../../stores/notifications'
+import { isTyping } from '../../../utility'
 
 import { SecondPostSubmissionCTA } from './speak/secondSubmissionCTA/secondSubmissionCTA'
 import Success from './success'
@@ -192,6 +193,8 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
   }
 
   private handleKeyDown = (event: any) => {
+    if (isTyping()) return
+
     const { getString, isSubmitted, locale, onReset, onSubmit, type } =
       this.props
 

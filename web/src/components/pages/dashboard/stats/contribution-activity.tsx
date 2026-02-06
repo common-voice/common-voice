@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { useEffect, useState } from 'react'
 
+import { isProduction } from '../../../../utility'
 import { BarPlot } from '../../../plot/plot'
 import { useAPI } from '../../../../hooks/store-hooks'
 
@@ -24,7 +25,7 @@ const ContributionActivity = ({ from, locale }: Props) => {
         }
       })
       .catch(err => {
-        if (process.env.NODE_ENV !== 'production') {
+        if (!isProduction()) {
           console.warn('Failed to fetch contribution activity:', err)
         }
       })

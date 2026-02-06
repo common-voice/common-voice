@@ -128,6 +128,7 @@ answer = Απάντηση
 
 ## Community section
 
+community-section-title-202601 = Με την υποστήριξη παγκόσμιων κοινοτήτων, για παγκόσμιες κοινότητες — 290 γλώσσες που αυξάνονται συνεχώς!
 join-discord-community = Συμμετοχή στην κοινότητα στο Discord
 # label for button
 join-discord-community-action = Βρείτε μας στο Discord

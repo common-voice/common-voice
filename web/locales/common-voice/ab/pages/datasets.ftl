@@ -8,6 +8,7 @@ datasets-positioning =
     Бызшәа рацәала еилоу Common Voice адыррақәа реизга, уажәнатә зегьы иреиҳау, зегьы рхы иадырхәаша абжьытә дыррақәа реизгоуп, аха уи иеиԥшқәоу рацәоуп.
     
     Ари адаҟьаҿы шәара ишәыԥшаар шәылшоит егьырҭ иаарту абжьытә дыррақәа реизгақәа рызхьарԥшқәа, насгьы Common Voice аҿиара ашьҭахь ҳҭыжьымҭақәа рҿыцрақәагьы.
+datasets-speech-bubble-content = Ажәабжь шьахәқәа! Лассы ицәырҵуеит Spontaneous Speech! Арҿыцрақәа шәрыцклаԥшла, иара убас аҵыхәтәантәи ажәабжьқәа шәоуларц азы хымԥада <discordLink>ҳ-Discord</discordLink> шәахәаԥш.
 language = Абызшәа
 download-dataset-header = Адыррақәа реизга рҭыгара
 download-delta-explainer = Ҳара ԥсахрақәак ҟаҳҵеит. Адельта-сегментқәа рҿы иҟоуп аҵыхәтәантәи аҭыжьымҭа инаркны иҿыцу аклипқәа. <deltaLink>Ари аусумҭа иазкны еиҳаны</deltaLink>.
@@ -94,4 +95,10 @@ release-version = Аверсиа
 dataset-date = Арыцхә
 license = Алицензиа: <licenseLink>{ $license }</licenseLink>
 license-mixed = Еилаԥсоуп
+# Support old genders in older datasets
+male = Ахацәа ртәы
 female = Аҳәса ртәы
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = Ҳабжьытә дыррақәа реизга ҭыжәга
+datasets-show-more = Адыррақәа реизга зегьы рырбара
+datasets-show-less = Аҵыхәтәантәи адыррақәа реизга рырбара

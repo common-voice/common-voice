@@ -32,3 +32,5 @@ request-language-success-list-3 =
 request-language-error =
     Ари аҳәара ҳмоузар ҟалап. Ҳшәыҳәоит, ишиашоу иаҳзанышәҵа
     <emailLink>{ $email }</emailLink> ахь, нас ҳара ҳаҽшәымаҳдоит!
+request-for-scripted-speech-toggle = Асценари ала ҿырҳәалатәи ажәаҳәазы аҳәара
+request-for-spontaneous-speech-toggle = Аспонтантә жәаҳәазы аҳәара

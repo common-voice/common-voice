@@ -63,6 +63,7 @@ byv = Medumba
 ca = Catalan
 cak = Cakchiquel
 cdo = Mindong
+ce = Tchétchène
 cgg = Kiga
 cjk = Tchokwé
 ckb = Kurde central

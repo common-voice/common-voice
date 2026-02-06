@@ -81,6 +81,7 @@ no-api-keys-header = <bold>Şu anda hesabınızla ilişkili herhangi bir API kim
 api-key-name-input =
     .label = API kimlik bilgisi adı
 create-api-key-header = <bold>Önemli uyarı: API kimlik bilgisi oluşturma</bold>
+create-api-key-agreement = Common Voice veri kümesindeki konuşmacıları tanımlamaya çalışmayacağımı kabul ediyorum.
 generate-api-key-button = Kimlik bilgisi oluştur
 save-api-key-info = <bold>Anahtarlarınızı güvenli bir şekilde saklayın</bold>
 save-api-key-info-description = Anahtarlarınızı güvenle saklayın ve herkese açık yerlerde paylaşmaktan kaçının. GİZLİ anahtara yalnızca şu anda erişebilirsiniz. Bu anahtar bir daha gösterilmeyecektir.

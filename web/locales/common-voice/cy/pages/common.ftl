@@ -63,6 +63,7 @@ byv = Medumba
 ca = Catalaneg
 cak = Kaqchikel
 cdo = Min Dwyreiniol
+ce = Chechen
 cgg = Chiga
 cjk = Chokwe
 ckb = Cwrdeg y Canoldir

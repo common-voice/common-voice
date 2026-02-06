@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from 'react'
 import { Redirect, Route, Switch } from 'react-router'
 import * as Sentry from '@sentry/react'
 
+import { isProduction } from '../../../utility'
 import { useAccount, useAPI, useAction } from '../../../hooks/store-hooks'
 import { useRouter } from '../../../hooks/use-router'
 import { useTypedSelector } from '../../../stores/tree'
@@ -230,7 +231,7 @@ function DashboardContent({
         }
       })
       .catch(err => {
-        if (process.env.NODE_ENV !== 'production') {
+        if (!isProduction()) {
           console.warn('Failed to fetch goals:', err)
         }
       })
@@ -261,7 +262,7 @@ const ChallengeBar = ({ setShowInviteModal }: ChallengeBarProps) => {
         }
       })
       .catch(err => {
-        if (process.env.NODE_ENV !== 'production') {
+        if (!isProduction()) {
           console.warn('Failed to fetch challenge points:', err)
         }
       })

@@ -8,8 +8,15 @@ prompt-page-instruction = { $actionType } <micIcon></micIcon> and respond as nat
 no-prompts-continue-skipped-message = There are no more questions for this language. If you have skipped any, you can continue with skipped content or go to transcribe audio and try again later.
 error-skipping = An error occurred while skipping this prompt
 error-recording = An error occurred while recording
+error-recording-too-short = Recording is too short. Minimum duration is { $minDurationSeconds }  seconds.
+error-recording-too-long = Recording is too long. Maximum duration is { $maxDurationMinutes } minutes.
 error-fetching-prompts = Something went wrong while fetching prompts. Please try again later.
 error-uploading-response = An error occurred while uploading your response
+error-empty-audio = Recording failed. The audio file seems to be empty. Please try again.
+error-platform-webview = Recording may not be supported in this limited browser. Please use a full browser app.
+error-recording-too-short-seconds = Recording is too short. Minimum duration is { $minDurationSeconds } seconds.
+error-recording-too-long-minutes = Recording is too long. Maximum duration is { $maxDurationMinutes } minutes.
+cannot-play-audio = Unable to play audio. Please try again.
 prompt-submitted-success = Response submitted successfully
 prompt-response-deleted-success = Response deleted successfully
 # For the button to delete a response to a prompt

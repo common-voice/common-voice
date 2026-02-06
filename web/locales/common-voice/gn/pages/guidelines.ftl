@@ -280,6 +280,7 @@ code-switching-capture-explanation = Ehai mokõive ñe’ẽ ojehecha térã ipu
 code-switching-filler-header = Emoinge ñe’ẽ myanyhẽrã ha techaukaha
 # Use standard spelling for each language
 code-switching-spelling-header = Eiporu haikatuete peteĩteĩva ñe’ẽme g̃uarã.
+code-switching-spelling-explanation = Eñeha’ã emoñe’ẽ hekopete ñe’ẽita peteĩteĩva ñe’ẽme, ndaha’éiramo pe oñe’ẽva he’i porãva ojeporumeme’ỹháicha.
 # Don’t Clean Up or Simplify the Language
 code-switching-cleanup-header = Aníke emopotĩ térã emombyky pe ñe’ẽkuaa
 code-switching-cleanup-1 = Emoñe’ẽasa térã emoambue: ehai pe he’íva ambue tapicha, ndaha’éi “pe he’iséva”.
@@ -289,6 +290,7 @@ code-switching-cleanup-4 = Emoinge kyta omoambuekuaáva he’iséva: tosẽ ijeh
 code-switching-cleanup-5 = Eimo’ã eikuaaha ñe’ẽ peteĩteĩva rehegua: embohéra ijeporu rupi.
 # Tagging
 code-switching-tagging-subheader = Teramoĩmbyre
+code-switching-tagging-error-intro = Pe ñe’enguemonguatiapy oguerekóramo jejavy, eiporu tembiapoite emongurusu hag̃ua. Umi jejavy ogueroikekuaa:
 code-switching-tagging-error-1 = Ñemokyta térã taiguasu hendape’ỹva
 code-switching-tagging-error-2 = Jejavy taiguáva
 code-switching-tagging-error-3 = Ñe’ẽ ojehaíva haikatu hendape’ỹva reheve

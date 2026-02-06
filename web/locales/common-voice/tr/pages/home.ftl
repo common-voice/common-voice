@@ -131,6 +131,7 @@ answer = Yanıt ver
 
 ## Community section
 
+community-section-title-202601 = Dünyanın tüm topluluklarını destekliyoruz: 290 dile ulaştık ve bu sayı giderek artıyor!
 join-discord-community = Discord topluluğumuza katılın
 # label for button
 join-discord-community-action = Discord’da bize katılın

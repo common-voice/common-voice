@@ -3,6 +3,7 @@ speak-now = Уажәы шәцәажәа
 speak-subtitle = Шәыбжьы ҭажәҩы
 record-cta = Абжьы аҭаҩра шәалага
 record-platform-not-supported = Ҳгәы иалоуп уажәазы шәара шәыплатформа адгылара ахьамам.
+record-platform-not-supported-webview = Амобилтә хархәагақәа рҿы асистематә браузер шәхы иархәаны ацхыраара аҭара шәылшоит…
 record-platform-not-supported-desktop = Аишәа иқәдыргыло акомпиутерқәа ирҭажәгалар шәылшоит аҵыхәтәантәи:
 record-platform-not-supported-ios-non-safari = IOS аҿы аҭаҩра аус аруразы, шәхы иашәырхәа Safari...
 record-must-allow-microphone = Амикрофон ахархәаразы азин ашәҭароуп.
@@ -62,7 +63,17 @@ create-profile-button = Апрофиль аԥҵара
 img-alt-success-checkmark = Қәҿиарала ахыркәшара абираҟ
 # menu item
 read-sentences = Аҳәоуқәа рыԥхьара
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Аҳәоуқәа рыԥхьара <small>(Лассы)</small>
 
 ## MENU ITEM TOOLTIPS
 
 speak-contribute-menu-tooltip = Аҳәоуқәа рыԥхьара, азҵаарақәа рҭак аҟаҵара
+read-sentences-menu-item-tooltip = Шәбызшәала аҳәоуқәа шәрыԥхьо шәыбжьы ҭажәҩы
+answer-questions-menu-item-tooltip = Шәбызшәала азҵаарақәеи ацҳамҭақәеи рҭак шыҟашәҵо ҭажәҩы
+
+## MENU ITEM ARIA LABELS
+
+speak-contribute-menu-aria-label = Абжьы ахаҵара архиарақәа рыхкынҵа
+read-sentences-menu-item-aria-label = Аилазаара ишәыднагало еиуеиԥшым абызшәақәа рыла иҟоу аҳәоуқәа шәрыԥхьала
+answer-questions-menu-item-aria-label = Аилазаара иаԥхьарц, насгьы аҭак ҟанаҵарц азы азҵаара ҿыц адыжәгал

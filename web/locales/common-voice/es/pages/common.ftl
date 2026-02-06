@@ -127,6 +127,7 @@ pl = Polaco
 ps = Pastún
 pt = Portugués
 quc = k'iche'
+qxp = Quechua Puno
 rm-sursilv = romanche sursilvano
 rm-vallader = Romansh Vallader
 ro = Rumano

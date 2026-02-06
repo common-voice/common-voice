@@ -43,6 +43,7 @@ login = Zaloguj się
 edit = Edytuj
 email-subscriptions = Subskrypcje e-mail
 download-profile = Pobierz moje dane
+api-credentials = API
 contribution-experience = Interfejs nagrywania
 skip-submission-feedback = Pomiń informacje zwrotne przy wysyłaniu
 skip-submission-description = Informacje zwrotne będą pomijane po kliknięciu „Wyślij”. Praca będzie od razu kontynuowana z następnym zestawem 5 nagrań lub nagrań do zweryfikowania.

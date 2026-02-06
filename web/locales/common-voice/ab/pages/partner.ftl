@@ -16,3 +16,5 @@ partnerships-small-business-description = Ҳара еснагь иаҳҭахуп
 partnerships-corporates-header = Акорпорациа дуқәеи аилахәыра-платформақәеи
 partnerships-corporates-description = Адыррақәа реизга иазкны еиҳаны шәалацәажәарц шәҭахызар, иазԥхьагәаҭоу аплатформа арҭбаараҿы шлагала ҟашәҵарц шәҭахызар, мамзаргьы аусеицуразы алшарақәа шәыԥшаауазар, <emailFragment>иаҳзанышәҵа. </emailFragment>
 partnerships-our-partners = Ҳара ҳпартниорцәа
+# menu item
+partners = Алахәылаҩцәа

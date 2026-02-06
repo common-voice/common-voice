@@ -2,9 +2,71 @@
 
 ## Current release
 
-We thank [@MariaMitrofan](https://github.com/MariaMitrofan) for contributing to this release.
+### [v1.157.0 (2025-02-06)](https://github.com/common-voice/common-voice/releases/tag/release-v1.157.0)
+
+- Chore: Rework audio corruption error handling, codes, attempt to issues with Apple devices, disable KB shortcuts in contribution pages while typing, adjust cache durations, optimize queries for major languages, by [@moz-bozden](https://github.com/moz-bozden) in [#5279](https://github.com/common-voice/common-voice/pull/5279)
+- Feat: Add migration helpers and unit tests for user-accents to predefined-accents and variants, by [@moz-bozden](https://github.com/moz-bozden) in [#5257](https://github.com/common-voice/common-voice/pull/5257) (in v.1.156.2)
+- Feat: Complete review of the Audio pipeline to handle multiple issues (iOS devices, corrupted audio handling caused by communication errors and related UX issues causing false positives, a line of FE issues caused by race conditions, ...) , by [@moz-bozden](https://github.com/moz-bozden) in [#5223](https://github.com/common-voice/common-voice/pull/5223) (in v.1.156.2)
+- Feat: Make use of Redis for prefetch registry to coordinate multiple instances, by [@moz-bozden](https://github.com/moz-bozden) in [#5235](https://github.com/common-voice/common-voice/pull/5235) (in v.1.156.1)
+- Refactor: Clip upload pipeline to add rate-limiting, prevent saving of corrupt audio to storage, better dedeup through LazySetCache, fix edge cases, by [@moz-bozden](https://github.com/moz-bozden) in [#5275](https://github.com/common-voice/common-voice/pull/5275) (in v.1.156.4)
+- Fix: Apple device buffer handling related bugs/codec specs we introduced in v1.156.2, by [@moz-bozden](https://github.com/moz-bozden) in [#5270](https://github.com/common-voice/common-voice/pull/5270) (in v.1.156.4)
+- Fix: Many Listen page related issues (state management, missing data due to network errors, silence not-needed duplicate report/vote errors), by [@moz-bozden](https://github.com/moz-bozden) in [#5273](https://github.com/common-voice/common-voice/pull/5273) (in v.1.156.4)
+- Fix: Add guards against changing user data in accent-variant migration helpers (caused ro AAC migration to fail), add more mappings for generic Romanian accents, by [@moz-bozden](https://github.com/moz-bozden) in [#5271](https://github.com/common-voice/common-voice/pull/5271) (in v.1.156.3), [#5272](https://github.com/common-voice/common-voice/pull/5272) (in v.1.156.4)
+- Fix: Multiple fixes (BE: duplicated message in error, unicode missing in regex, extend caching to minimize duplicate clip errors, add guards to Speak page when audio is missing), by [@moz-bozden](https://github.com/moz-bozden) in [#5269](https://github.com/common-voice/common-voice/pull/5269) (in v.1.156.3)
+- Fix: Update dockerfile to use modern corepack because GPG keys for yarn expired, by [@moz-bozden](https://github.com/moz-bozden) in [#5268](https://github.com/common-voice/common-voice/pull/5268) (in v.1.156.3)
+- Fix: Language name parsing in Pontoon API data, where the language name includes Unicode apostrophes, by [@moz-bozden](https://github.com/moz-bozden) in [#5259](https://github.com/common-voice/common-voice/pull/5259) (in v.1.156.2)
+- Fix: Invalid warning shown after all voted (fixes [#4290](https://github.com/common-voice/common-voice/issues/4290)), by [@moz-bozden](https://github.com/moz-bozden) in [#5238](https://github.com/common-voice/common-voice/pull/5238) (in v.1.156.2)
+- Fix: KB shortcurt issues, also for international keyboards (fixes [#3746](https://github.com/common-voice/common-voice/issues/3746)), by [@moz-bozden](https://github.com/moz-bozden) in [#5238](https://github.com/common-voice/common-voice/pull/5238) (in v.1.156.2)
+- Fix: Respect reduced motion request for wave animation (fixes [#3050](https://github.com/common-voice/common-voice/issues/3050)), by [@moz-bozden](https://github.com/moz-bozden) in [#5238](https://github.com/common-voice/common-voice/pull/5238) (in v.1.156.2)
+- Fix: Multiple issues in Speak page (state management, Enter key and event handling), by [@moz-bozden](https://github.com/moz-bozden) in [#5236](https://github.com/common-voice/common-voice/pull/5236) (in v.1.156.2)
+- Fix: New user login loop from SS - when a new user creates an account while being redirected to do so it was causing a loop, by [@moz-bozden](https://github.com/moz-bozden) in [#5234](https://github.com/common-voice/common-voice/pull/5234) (in v.1.156.2)
+- Fix: Minor fix for header not hiding username in small screens, by [@moz-bozden](https://github.com/moz-bozden) in [#5233](https://github.com/common-voice/common-voice/pull/5233) (in v.1.156.1)
+- Fix: Add migration to fix two missing predefined Romanian accents because they were defined by users, by [@moz-bozden](https://github.com/moz-bozden) in [#5232](https://github.com/common-voice/common-voice/pull/5232) (in v.1.156.1)
+- Chore: Minor Redis cache timing changes by [@moz-bozden](https://github.com/moz-bozden) (in v.1.156.2)
+
+#### Data Changes in v1.157.0
+
+- Welcome to new languages: Khakas (`kjh`), Ngambay (`sba`), and Tedaga (`tuq`)
+- Add Qashqai (`qxq`) variants by [@bandrandr](https://github.com/bandrandr) in [#5274](https://github.com/common-voice/common-voice/pull/5274) (in v.1.156.4)
+- Add Javanese (`jv`) variants by [@bandrandr](https://github.com/bandrandr) in [#5264](https://github.com/common-voice/common-voice/pull/5264) (in v.1.156.2)
+- Add Malay (`ms`) variants by [@moz-bozden](https://github.com/moz-bozden) in [#5258](https://github.com/common-voice/common-voice/pull/5258) (in v.1.156.2)
+- Add Lari/Achomi (`lrl`) variants by [@bandrandr](https://github.com/bandrandr) in [#5219](https://github.com/common-voice/common-voice/pull/5219) (in v.1.156.2)
+- Add migration to map Romanian (`ro`) user-defined accents to predefined accents and variants, by [@moz-bozden](https://github.com/moz-bozden) in [#5257](https://github.com/common-voice/common-voice/pull/5257) (in v.1.156.2)
+- Welcome new starting language Chechen (`ce`) (in v.1.156.2)
+- Chore: Update sentence bands for 4 languages and drop default sentence requirement to 2000 by [@moz-bozden](https://github.com/moz-bozden) (in v.1.156.2)
+
+#### Spontaneous Speech v1.157.0
+
+- Feat: Add min/max duration to recordings (3s-10min) to prevent too short or too long recordings, add bg color to Listen button when playing, change server audio processing order to first check the audio before saving to storage, enhance error checking and logging, by [@moz-bozden](https://github.com/moz-bozden) in [#509](https://github.com/common-voice/spontaneous-speech/pull/509)
+- Fix: Some Apple devices' browsers in Desktop mode were not properly detected, resulting in wrong codec selection which causes "too silent" issue in Answer page or user cannot hear own recordings, by [@moz-bozden](https://github.com/moz-bozden) in [#502](https://github.com/common-voice/spontaneous-speech/pull/502) (in v1.156.2)
+
+##### SS Data Changes in v1.157.0
+
+- Add Sundanese (`su`) questions by [@bandrandr](https://github.com/bandrandr) in [#510](https://github.com/common-voice/spontaneous-speech/pull/510)
+- Add Sinhala (`si`) questions by [@bandrandr](https://github.com/bandrandr) in [#508](https://github.com/common-voice/spontaneous-speech/pull/508) (in v1.156.4)
+- Add Tedaga (`tuq`) questions by [@bandrandr](https://github.com/bandrandr) in [#507](https://github.com/common-voice/spontaneous-speech/pull/507) (in v1.156.4)
+- Add Rakhine (`rki`) questions by [@bandrandr](https://github.com/bandrandr) in [#506](https://github.com/common-voice/spontaneous-speech/pull/506) (in v1.156.4)
+- Add Hungarian (`hu`) questions by [@bandrandr](https://github.com/bandrandr) in [#505](https://github.com/common-voice/spontaneous-speech/pull/505) (in v1.156.2)
+- Add Esperanto (`eo`) questions by [@bandrandr](https://github.com/bandrandr) in [#504](https://github.com/common-voice/spontaneous-speech/pull/504) (in v1.156.2)
+- Add Dutch (`nl`) questions by [@bandrandr](https://github.com/bandrandr) in [#503](https://github.com/common-voice/spontaneous-speech/pull/503) (in v1.156.2)
+
+---
+
+### Changes merged after current release
+
+#### Data Changes after current release
+
+#### Spontaneous Speech after current release
+
+##### SS Data Changes after current release
+
+---
+
+## Past releases
 
 ### [v1.156.0 (2025-12-30)](https://github.com/common-voice/common-voice/releases/tag/release-v1.156.0)
+
+We thank [@MariaMitrofan](https://github.com/MariaMitrofan) for contributing to this release.
 
 - Feat: Rework and optimize caching & pre-fetch to handle Redis connection problems, by [@moz-bozden](https://github.com/moz-bozden) in [#5221](https://github.com/common-voice/common-voice/pull/5221)
 - Feat: Upgrade languagedata endpoint with optional single locale data, by [@moz-bozden](https://github.com/moz-bozden) in [#5197](https://github.com/common-voice/common-voice/pull/5197) (in v1.155.5)
@@ -39,51 +101,6 @@ We thank [@MariaMitrofan](https://github.com/MariaMitrofan) for contributing to 
 - Add Pashto (ps) and 128 questions by [@moz-bozden](https://github.com/moz-bozden) in [#500](https://github.com/common-voice/spontaneous-speech/pull/500) (in v1.155.7)
 
 ---
-
-### Changes merged after current release
-
-- Feat: Add migration helpers and unit tests for user-accents to predefined-accents and variants, by [@moz-bozden](https://github.com/moz-bozden) in [#5257](https://github.com/common-voice/common-voice/pull/5257) (in v.1.156.2)
-- Feat: Complete review of the Audio pipeline to handle multiple issues (iOS devices, corrupted audio handling caused by communication errors and related UX issues causing false positives, a line of FE issues caused by race conditions, ...) , by [@moz-bozden](https://github.com/moz-bozden) in [#5223](https://github.com/common-voice/common-voice/pull/5223) (in v.1.156.2)
-- Feat: Make use of Redis for prefetch registry to coordinate multiple instances, by [@moz-bozden](https://github.com/moz-bozden) in [#5235](https://github.com/common-voice/common-voice/pull/5235) (in v.1.156.1)
-- Refactor: Clip upload pipeline to add rate-limiting, prevent saving of corrupt audio to storage, better dedeup through LazySetCache, fix edge cases, by [@moz-bozden](https://github.com/moz-bozden) in [#5275](https://github.com/common-voice/common-voice/pull/5275) (in v.1.156.4)
-- Fix: Apple device buffer handling related bugs/codec specs we introduced in v1.156.2, by [@moz-bozden](https://github.com/moz-bozden) in [#5270](https://github.com/common-voice/common-voice/pull/5270) (in v.1.156.4)
-- Fix: Many Listen page related issues (state management, missing data due to network errors, silence not-needed duplicate report/vote errors), by [@moz-bozden](https://github.com/moz-bozden) in [#5273](https://github.com/common-voice/common-voice/pull/5273) (in v.1.156.4)
-- Fix: Add guards against changing user data in accent-variant migration helpers (caused ro AAC migration to fail), add more mappings for generic Romanian accents, by [@moz-bozden](https://github.com/moz-bozden) in [#5271](https://github.com/common-voice/common-voice/pull/5271) (in v.1.156.3), [#5272](https://github.com/common-voice/common-voice/pull/5272) (in v.1.156.4)
-- Fix: Multiple fixes (BE: duplicated message in error, unicode missing in regex, extend caching to minimize duplicate clip errors, add guards to Speak page when audio is missing), by [@moz-bozden](https://github.com/moz-bozden) in [#5269](https://github.com/common-voice/common-voice/pull/5269) (in v.1.156.3)
-- Fix: Update dockerfile to use modern corepack because GPG keys for yarn expired, by [@moz-bozden](https://github.com/moz-bozden) in [#5268](https://github.com/common-voice/common-voice/pull/5268) (in v.1.156.3)
-- Fix: Language name parsing in Pontoon API data, where the language name includes Unicode apostrophes, by [@moz-bozden](https://github.com/moz-bozden) in [#5259](https://github.com/common-voice/common-voice/pull/5259) (in v.1.156.2)
-- Fix: Invalid warning shown after all voted (fixes [#4290](https://github.com/common-voice/common-voice/issues/4290)), by [@moz-bozden](https://github.com/moz-bozden) in [#5238](https://github.com/common-voice/common-voice/pull/5238) (in v.1.156.2)
-- Fix: KB shortcurt issues, also for international keyboards (fixes [#3746](https://github.com/common-voice/common-voice/issues/3746)), by [@moz-bozden](https://github.com/moz-bozden) in [#5238](https://github.com/common-voice/common-voice/pull/5238) (in v.1.156.2)
-- Fix: Respect reduced motion request for wave animation (fixes [#3050](https://github.com/common-voice/common-voice/issues/3050)), by [@moz-bozden](https://github.com/moz-bozden) in [#5238](https://github.com/common-voice/common-voice/pull/5238) (in v.1.156.2)
-- Fix: Multiple issues in Speak page (state management, Enter key and event handling), by [@moz-bozden](https://github.com/moz-bozden) in [#5236](https://github.com/common-voice/common-voice/pull/5236) (in v.1.156.2)
-- Fix: New user login loop from SS - when a new user creates an account while being redirected to do so it was causing a loop, by [@moz-bozden](https://github.com/moz-bozden) in [#5234](https://github.com/common-voice/common-voice/pull/5234) (in v.1.156.2)
-- Fix: Minor fix for header not hiding username in small screens, by [@moz-bozden](https://github.com/moz-bozden) in [#5233](https://github.com/common-voice/common-voice/pull/5233) (in v.1.156.1)
-- Fix: Add migration to fix two missing predefined Romanian accents because they were defined by users, by [@moz-bozden](https://github.com/moz-bozden) in [#5232](https://github.com/common-voice/common-voice/pull/5232) (in v.1.156.1)
-- Chore: Minor Redis cache timing changes by [@moz-bozden](https://github.com/moz-bozden) (in v.1.156.2)
-
-#### Data Changes after current release
-
-- Add Qashqai (`qxq`) variants by [@bandrandr](https://github.com/bandrandr) in [#5274](https://github.com/common-voice/common-voice/pull/5274) (in v.1.156.4)
-- Add Javanese (`jv`) variants by [@bandrandr](https://github.com/bandrandr) in [#5264](https://github.com/common-voice/common-voice/pull/5264) (in v.1.156.2)
-- Add Malay (`ms`) variants by [@moz-bozden](https://github.com/moz-bozden) in [#5258](https://github.com/common-voice/common-voice/pull/5258) (in v.1.156.2)
-- Add Lari/Achomi (`lrl`) variants by [@bandrandr](https://github.com/bandrandr) in [#5219](https://github.com/common-voice/common-voice/pull/5219) (in v.1.156.2)
-- Add migration to map Romanian (`ro`) user-defined accents to predefined accents and variants, by [@moz-bozden](https://github.com/moz-bozden) in [#5257](https://github.com/common-voice/common-voice/pull/5257) (in v.1.156.2)
-- Welcome new starting language Chechen (`ce`) (in v.1.156.2)
-- Chore: Update sentence bands for 4 languages and drop default sentence requirement to 2000 by [@moz-bozden](https://github.com/moz-bozden) (in v.1.156.2)
-
-#### Spontaneous Speech after current release
-
-- Fix: Some Apple devices' browsers in Desktop mode were not properly detected, resulting in wrong codec selection which causes "too silent" issue in Answer page or user cannot hear own recordings, by [@moz-bozden](https://github.com/moz-bozden) in [#502](https://github.com/common-voice/spontaneous-speech/pull/502) (in v1.156.2)
-
-##### SS Data Changes after current release
-
-- Add Hungarian (`hu`) questions by [@bandrandr](https://github.com/bandrandr) in [#505](https://github.com/common-voice/spontaneous-speech/pull/505) (in v1.156.2)
-- Add Esperanto (`eo`) questions by [@bandrandr](https://github.com/bandrandr) in [#504](https://github.com/common-voice/spontaneous-speech/pull/504) (in v1.156.2)
-- Add Dutch (`nl`) questions by [@bandrandr](https://github.com/bandrandr) in [#503](https://github.com/common-voice/spontaneous-speech/pull/503) (in v1.156.2)
-
----
-
-## Past releases
 
 ### [v1.155.0 (2025-11-16)](https://github.com/common-voice/common-voice/releases/tag/release-v1.155.0)
 

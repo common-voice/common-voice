@@ -9,10 +9,13 @@ error-clip-upload-server = Bu kaydın yüklenmesi sırasında sunucu sürekli ha
 error-title-404 = Aradığınız sayfayı bulamadık
 error-content-404 = <homepageLink>Ana sayfamız</homepageLink> işinize yarayabilir. Soru sormak için <matrixLink>Matrix topluluk sohbetine</matrixLink> katılabilir, <githubLink>GitHub</githubLink> aracılığıyla site sorunlarını takip edebilir ve <discourseLink>Discourse forumlarımızı</discourseLink> ziyaret edebilirsiniz.
 error-title-500 = Üzgünüz, bir şeyler ters gitti
+error-content-500 = Beklenmeyen bir hata oluştu. Lütfen daha sonra tekrar deneyin. Yardım için lütfen <matrixLink>Matrix topluluk sohbetine</matrixLink> katılın, <githubLink>GitHub</githubLink> aracılığıyla site sorunlarını takip edin veya <discourseLink>Discourse forumlarımızı</discourseLink> ziyaret edin.
 error-title-502 = Bağlantı kesildi
+error-content-502 = Şu anda sunucularımızla stabil bir bağlantı kuramıyorsunuz. Lütfen daha sonra tekrar deneyin. Yardım için lütfen <matrixLink>Matrix topluluk sohbetine</matrixLink> katılın, <githubLink>GitHub</githubLink> aracılığıyla site sorunlarını takip edin veya <discourseLink>Discourse forumlarımızı</discourseLink> ziyaret edin.
 error-title-503 = Beklenmedik bir kesinti yaşıyoruz
 error-content-503 = Site en kısa sürede yeniden açılacaktır. En güncel bilgiler için <matrixLink>Matrix topluluk sohbetine</matrixLink> katılabilir, site deneyimiyle ilgili sorunları bildirmek ve izlemek için <githubLink>GitHub</githubLink> veya <discourseLink>Discourse forumlarımızı</discourseLink> ziyaret edebilirsiniz.
 error-title-504 = İstek zaman aşımı
+error-content-504 = İsteğin işlenmesi çok uzun sürdü. Bu genellikle geçicidir. Lütfen tekrar deneyin. Yardım için lütfen <matrixLink>Matrix topluluk sohbetine</matrixLink> katılın, <githubLink>GitHub</githubLink> aracılığıyla site sorunlarını takip edin veya <discourseLink>Discourse forumlarımızı</discourseLink> ziyaret edin.
 error-code = Hata { $code }
 # Warning message shown when only some of the clips could be uploaded (uploaded count will be <5)
 error-duplicate-clips-some = { $uploaded } kaydınız yüklendi. Diğerleri daha önceden yüklenmiş. Sıradaki partiden devam edebilirsiniz.
