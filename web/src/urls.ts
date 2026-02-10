@@ -14,7 +14,7 @@ export default Object.freeze({
   DASHBOARD,
   DATA: '/data', // old, here for redirect purposes
   DATASETS:
-    'https://datacollective.mozillafoundation.org/datasets?q=common+voice',
+    'https://datacollective.mozillafoundation.org/organization/cmfh0j9o10006ns07jq45h7xk',
   OLDDATASETS: '/olddatasets',
   DEMO,
   DEMO_ACCOUNT: DEMO + '/create-profile',
@@ -33,7 +33,7 @@ export default Object.freeze({
   LISTEN: '/listen',
   MDC_ROOT: 'https://datacollective.mozillafoundation.org',
   MDC_DATASETS:
-    'https://datacollective.mozillafoundation.org/datasets?q=common+voice',
+    'https://datacollective.mozillafoundation.org/organization/cmfh0j9o10006ns07jq45h7xk',
   MOZILLA_BLOG_ROOT: 'http://foundation.mozilla.org/blog',
   PARTNER: '/partner',
   PRIVACY: '/privacy',
