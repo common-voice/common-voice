@@ -41,3 +41,19 @@ need-help-deciding-platform = Behöver du hjälp med att bestämma vilken du ska
 need-help-deciding-platform-explanation-1 = <strong>Skriptbaserat tal</strong> (traditionellt vad du känner som Common Voice) är där du kan läsa meningar högt på ditt språk.
 need-help-deciding-platform-explanation-2 = <strong>Spontant tal</strong> är en ny del av Common Voice där du kan svara på frågor på ett mer organiskt, vardagligt sätt.
 need-help-deciding-platform-explanation-3 = Om du inte ser ditt språk i någon av delarna av plattformen, välj båda.
+request-language-search-bar = Du kan börja skriva namnet på ditt språk här; om det inte redan finns på Common Voice kan du fylla i ett formulär med ditt språks data.
+request-language-found-pontoon-not-launched =
+    Ditt språk finns redan med i Common Voice-språklista. 
+    Du kan underlätta språkstarten av <strong>skriptbaserat tal</strong> genom att översätta
+    plattformsgränssnittet <pontoonLink>här</pontoonLink>. Gränssnittet måste vara 60% översatt;
+    alternativt kan du översätta de grundläggande strängarna i 'web/locales/en/pages/contribute/*.ftl' till 100%
+    (det finns fem sådana filer), så kommer gränssnittet att starta automatiskt.
+request-language-found-cv-contribution =
+    Hurra! Ditt språk finns redan tillgängligt på Common Voice <strong>skriptbaserat tal</strong>.
+    Du kan bidra <homePage Link>här</homePage Link>.
+request-language-found-cv-sentences-lack = Ditt språk finns redan i listan över språk på Common Voice. Du kan underlätta språklanseringen av <strong>skriptbaserat tal</strong> genom att bidra med meningar <sentencesContributionLink>här</sentencesContributionLink>.
+request-language-found-spontaneous-speech =
+    Ditt språk finns redan tillgängligt på Common Voice <strong>spontant tal</strong>.
+    Klicka <spontaneousSpeechLink>här</spontaneousSpeechLink> för att bidra: glöm inte att ändra språket för bidrag/datamängd innan du börjar bidra!
+request-language-already-available-scs = Skript tal finns redan tillgänglig
+request-language-already-available-sps = Spontant tal finns redan tillgängligt

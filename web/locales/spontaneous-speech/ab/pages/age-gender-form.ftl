@@ -1,9 +1,12 @@
 add-information-button = Аинформациа ацҵара
 age-select-label = Шаҟа шықәса шәхыҵуазеи?
+select-your-age = Шәықәра алышәх
+thank-you-for-your-information = Иҭабуп шәинформациазы
 
 ## Gender dropdown
 
 male_masculine = Ахаҵа/Ахаҵаратә
+female_feminine = Аԥҳәыс/Аҳәсатә
 intersex = Аинтерсекс
 transgender = Атрансгендер
 non-binary = Ибинартәым

@@ -8,8 +8,15 @@ prompt-page-instruction = { $actionType } <micIcon></micIcon> és válaszoljon a
 no-prompts-continue-skipped-message = Nincs több kérdés ehhez a nyelvhez. Ha bármelyiket kihagyta, akkor folytathatja a kihagyott tartalmakkal, vagy ugorhat a hangok leiratozásához, és később újrapróbálhatja.
 error-skipping = Hiba történt a kérdés kihagyása során
 error-recording = Hiba történt a felvétel során
+error-recording-too-short = A felvétel túl rövid. A minimális időtartam { $minDurationSeconds } másodperc.
+error-recording-too-long = A felvétel túl hosszú. A maximális időtartam { $maxDurationMinutes } perc.
 error-fetching-prompts = Hiba történt a kérdések lekérése során. Próbálja újra később.
 error-uploading-response = Hiba történt a válasza feltöltése során
+error-empty-audio = A felvétel sikertelen. A hangfájl üresnek tűnik. Próbálja meg újra.
+error-platform-webview = A felvételkészítés esetleg nem támogatott ebben a korlátozott böngészőben. Használjon egy teljes böngészőalkalmazást.
+error-recording-too-short-seconds = A felvétel túl rövid. A minimális időtartam { $minDurationSeconds } másodperc.
+error-recording-too-long-minutes = A felvétel túl hosszú. A maximális időtartam { $maxDurationMinutes } perc.
+cannot-play-audio = Nem játszható le a hang. Próbálja meg újra.
 prompt-submitted-success = A válasz sikeresen beküldve
 prompt-response-deleted-success = A válasz sikeresen törölve
 # For the button to delete a response to a prompt

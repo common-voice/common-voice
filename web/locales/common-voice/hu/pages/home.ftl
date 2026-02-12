@@ -53,6 +53,7 @@ x-years-short =
     }
 help-make-dataset = Segítsen minket egy kiváló minőségű, nyilvános és nyílt adatkészlet létrehozásában
 sign-up-account = Regisztráljon egy fiókot
+email-subscription-title-v3 = Iratkozzon fel a Common Voice és a Mozilla Alapítvány híreire
 
 ## Account Benefits
 
@@ -137,6 +138,7 @@ answer = Válaszoljon
 
 ## Community section
 
+community-section-title-202601 = Globális közösségekkel, a globális közösségekért – 290 nyelv és egyre csak bővül!
 join-discord-community = Csatlakozzon a Discord közösséghez
 # label for button
 join-discord-community-action = Csatlakozzon hozzánk a Discordon

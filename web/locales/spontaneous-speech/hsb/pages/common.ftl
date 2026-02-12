@@ -26,6 +26,10 @@ contribute = Sobu dźěłać
 # Button text which appears when there are no more resources
 continue-with-skipped = Z Přeskočeny pokročować
 
+## Common aria-labels
+
+keyboard-shortcuts-button-aria-label = Tastowe skrótšenki pokazać
+
 ## Navbar
 
 question = Prašenje
@@ -53,3 +57,54 @@ language-search-placeholder = Rěč pytać…
 language-search-aria-label = Rěč pytać
 language-search-label = Změni jenož rěč přinošowanja datoweje sadźby
 language-search-no-results = Žane rěče namakane
+
+## Transcription Player - Mode Buttons
+
+# Transcription Player - Automatic Mode
+transcription-mode-auto = Awtomatisce
+# Player - slower
+player-speed-slow = Pomału
+# Player - normal speed
+player-speed-normal = Normalny
+# Player - faster
+player-speed-fast = Spěšny
+
+## Transcription Player Controls - Keyboard Shortcuts
+
+# Player control shortcut for play/pause: pressed with Ctrl/Cmd
+player-play-pause-shortcut = p
+player-play-pause-shortcut-key = Strg / Cmd + P
+player-play-pause-shortcut-name = Wothrać / Přestawka
+# Player control shortcut to go back 5 seconds: pressed with Ctrl/Cmd
+player-skip-backward-shortcut = 8
+player-skip-backward-shortcut-key = Strg / Cmd + 8
+player-skip-backward-shortcut-name = Wróćo
+# Player control shortcut to go forwards 5 seconds: pressed with Ctrl/Cmd
+player-skip-forward-shortcut = 9
+player-skip-forward-shortcut-key = Strg / Cmd + 9
+player-skip-forward-shortcut-name = Doprědka
+
+## Transcription Player - Aria Labels
+
+# Play button accessibility/aria label
+player-play-button-aria-label = Awdio wothrać
+# Pause button accessibility/aria label
+player-pause-button-aria-label = Awdio zastajić
+# Skip back button accessibility/aria label
+player-skip-backward-aria-label = Za 5 sekundow wróćo skočić
+# Skip forward button accessibility/aria label
+player-skip-forward-aria-label = Za 5 sekundow doprědka skočić
+# Audio playback progress slider accessibility/aria label
+player-progress-slider-aria-label = Postupowy suwak za wothrawanje awdio
+# Toggle speed and transcription mode menu button
+player-toggle-mode-menu-aria-label = Modusowy meni přepinać
+# Slower playback speed button accessibility/aria label
+player-speed-slow-aria-label = Pomałša wothrawanska spěšnosć
+# Normal playback speed button accessibility/aria label
+player-speed-normal-aria-label = Normalna wothrawanska spěšnosć
+# Faster playback speed button accessibility/aria label
+player-speed-fast-aria-label = Spěšniša wothrawanska spěšnosć
+# Auto transcription mode button accessibility/aria label
+transcription-mode-auto-aria-label = Awtomatiske wothrawanje słowo po słowje přepinać
+# Mode menu button accessibility/aria label
+transcription-mode-menu-aria-label = Meni transkripciskeho modusa přepinać

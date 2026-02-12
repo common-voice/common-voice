@@ -3,7 +3,7 @@ action-tap = Tocca
 contribute = Contribuer
 review = Revider
 skip = Saltar
-shortcuts = Vias breve
+shortcuts = Accessos directe
 clips-with-count-pluralized =
     { $count ->
         [one] <bold>{ $count }</bold> registration

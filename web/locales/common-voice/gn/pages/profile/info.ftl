@@ -75,6 +75,7 @@ variant-contribution-warning-subtitle = Ne apañuáipa eipytyvõkuaa hag̃ua, eh
 api-credentials-use-case-1 = Mba’epu ñemondo rehegua
 api-credentials-use-case-2 = Mba’ekuaarã aty guerujey
 api-credentials-use-case-3 = Ñeñe’ẽ resa’ỹijo ha ñemyatyrõ rehegua
+api-credentials-description-conclusion = Ejuaju orendive emotenonde hag̃ua tembiporupyahu ñe’ẽgua ha emombarevévo poruhára ñepytyvõ.
 create-api-key-button = Emoheñói API rerachaukaha
 your-api-keys = Herachaukaha API rehegua
 no-api-keys-header = <bold>Ko’ag̃aitéramo, ndaipóri API rerarenda upe ne mba’ete reheguápe.</bold>

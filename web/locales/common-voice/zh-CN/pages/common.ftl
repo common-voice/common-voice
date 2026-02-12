@@ -58,6 +58,7 @@ byv = 美敦巴语
 ca = 加泰罗尼亚语
 cak = 喀克其奎语
 cdo = 闽东语
+cgg = 芝加语
 ckb = 中库尔德语
 cnh = 哈卡钦语
 co = 科西嘉语
@@ -66,6 +67,7 @@ cpy = 南乌卡亚利阿申宁卡语
 crh = 克里米亚鞑靼语
 cs = 捷克语
 cut = 特乌蒂拉奎卡特克语
+cux = 特佩乌西拉语
 cv = 楚瓦什语
 cy = 威尔士语
 da = 丹麦语
@@ -81,6 +83,7 @@ dv = 迪维希语
 dyu = 迪乌拉语
 ebr = 埃布里耶语
 ee = 埃维语
+efk = 埃菲克语
 eko = （班图）埃科提语
 el = 希腊语
 en = 英语
@@ -116,6 +119,7 @@ guc = 瓦尤语
 gv = 马恩岛语
 gya = 西北格巴亚语
 ha = 豪萨语
+hch = 维沙里卡语
 he = 希伯来语
 hi = 印地语
 hil = 希利盖农语
@@ -369,3 +373,9 @@ announcement-mdc-text = <strong>新的 Common Voice 数据集</strong>现由我�
 announcement-mdc-button-text = 加入 Mozilla Data Collective
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = 新建标签页打开
+
+## Common Language/Dataset Selector & SearchBox Related
+
+searchbox-default-placeholder = 搜索...
+dataset-searchbox-placeholder = 搜索语言…
+request-new-language = 申请新语言

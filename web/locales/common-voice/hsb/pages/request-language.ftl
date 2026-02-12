@@ -38,3 +38,22 @@ need-help-deciding-platform = Trjebaće pomoc, zo byšće rozsudźił, kotru mó
 need-help-deciding-platform-explanation-1 = <strong>Rěčenje ze skriptom</strong> (tradicionalnje to, štož jako Common Voice znajeće) jeto, hdźež móžeće w swojej rěči wótře čitać.
 need-help-deciding-platform-explanation-2 = <strong>Spontane rěčenje</strong> je nowy dźěl Common Voice, hdźež móžeće na prašenja na bóle organiske, wobchadnorěčne wašnje wotmołwić.
 need-help-deciding-platform-explanation-3 = Jeli swoju rěč we woběmaj dźělomaj platformy njewidźiće, wubjerće wobaj.
+request-language-search-bar = Móžeće započeć mjeno wašeje rěče tu pisać; jeli w Common Voice njeje, móžeće formular z datami swojeje rěče wupjelnić.
+request-language-found-pontoon-not-launched =
+    Waša rěč je hižo w lisćinje rěčow Common Voice.
+    Móžeće start rěče za <strong>rěčenje ze skriptom</strong> wosnadnić, hdyž <pontoonLink>tu</pontoonLink>
+    powjerch platformy přełožujeće. Powjerch dyrbi 60 % přełoženy być;
+    abo móžeće jenož zakładne znamješkowe rjećazki w 'web/locales/en/pages/contribute/*.ftl 100 %
+    přełožować (je pjeć datajow) a powjerch budźe so awtomatisce startować.
+request-language-found-cv-contribution =
+    Hura! Waša rěč je hižo w <strong>rěčenju ze skriptom</strong> na Common Voice.
+    Móžeće <homePageLink>tu</homePageLink> přinošować.
+request-language-found-cv-sentences-lack =
+    Waša rěč je hižo w lisćinje rěčow Common Voice.
+    Móžeće rěčny start za <strong>rěčenje ze skriptom</strong> wosnadnić, hdyž
+    sady <sentencesContributionLink>tu</sentencesContributionLink> přinošujeće.
+request-language-found-spontaneous-speech =
+    Waša rěč je hižo w <strong>spontanym rěčenju</strong> na Common Voice.
+    Klikńće <spontaneousSpeechLink>sem</spontaneousSpeechLink>, zo byšće přinošował: Njezabywajće rěč přinoška/datoweho wobstatka změnić, prjedy hač dale přinošujeće!
+request-language-already-available-scs = Rěčenje ze skriptom je hižo k dispoziciji
+request-language-already-available-sps = Spontane rěčenje je hižo k dispoziciji

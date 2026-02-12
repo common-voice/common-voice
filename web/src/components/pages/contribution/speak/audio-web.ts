@@ -1,9 +1,9 @@
+import { isProduction } from '../../../../utility'
 import {
-  getAudioFormat,
   isIOS,
   isMacOSSafari,
-  isProduction,
-} from '../../../../utility'
+  getBestAudioMimeType,
+} from '../../../../platforms'
 
 interface BlobEvent extends Event {
   data: Blob
@@ -13,6 +13,8 @@ export enum AudioError {
   NOT_ALLOWED = 'NOT_ALLOWED',
   NO_MIC = 'NO_MIC',
   NO_SUPPORT = 'NO_SUPPORT',
+  EMPTY_RECORDING = 'EMPTY_RECORDING',
+  UNKNOWN_FORMAT = 'UNKNOWN_FORMAT',
 }
 
 export interface AudioInfo {
@@ -20,10 +22,6 @@ export interface AudioInfo {
   blob: Blob
 }
 
-// Small delay to ensure all dataavailable events have been processed
-// MediaRecorder may fire stop event before final chunk arrives
-// This delay helps to wait for the final chunk before considering recording stopped
-const MEDIARECORDER_STOP_DELAY_MS = 50
 export default class AudioWeb {
   microphone: MediaStream
   analyzerNode: AnalyserNode
@@ -35,6 +33,7 @@ export default class AudioWeb {
   volumeWorklet: AudioWorkletNode | null
   jsNode: ScriptProcessorNode | null
   recordingMimeType: string | null
+  requestedMimeType: string | null // The format we requested from MediaRecorder
   lastObjectURL: string | null
   recorderListeners: {
     start: ((event: Event) => void) | null
@@ -54,6 +53,7 @@ export default class AudioWeb {
     this.jsNode = null
     this.volumeCallback = null
     this.recordingMimeType = null
+    this.requestedMimeType = null
     this.lastObjectURL = null
     this.analyze = this.analyze.bind(this)
   }
@@ -82,14 +82,38 @@ export default class AudioWeb {
         resolve(stream)
       }
 
+      // Explicit audio constraints improve cross-device compatibility.
+      // Using 'ideal' lets the browser fall back gracefully if a constraint
+      // is unsupported, while still steering it toward the desired config.
+      // Without these, devices choose wildly different defaults:
+      //  - Some iPads default to stereo → mono downmix drops volume → TOO_QUIET
+      //  - Some Samsung devices disable autoGainControl → very low capture volume
+      //  - Sample rate mismatches cause hidden resamplers and dropped frames
+      // Ref: https://developer.mozilla.org/en-US/docs/Web/API/MediaTrackConstraints
+      const audioConstraints: MediaTrackConstraints = {
+        echoCancellation: { ideal: true },
+        noiseSuppression: { ideal: true },
+        autoGainControl: { ideal: true },
+        channelCount: { ideal: 1 },
+        sampleRate: { ideal: 48000 },
+      }
+
       if (navigator.mediaDevices?.getUserMedia) {
         navigator.mediaDevices
-          .getUserMedia({ audio: true })
+          .getUserMedia({ audio: audioConstraints })
           .then(resolveStream, deny)
       } else if (navigator.webkitGetUserMedia) {
-        navigator.webkitGetUserMedia({ audio: true }, resolveStream, deny)
+        navigator.webkitGetUserMedia(
+          { audio: audioConstraints },
+          resolveStream,
+          deny
+        )
       } else if (navigator.mozGetUserMedia) {
-        navigator.mozGetUserMedia({ audio: true }, resolveStream, deny)
+        navigator.mozGetUserMedia(
+          { audio: audioConstraints },
+          resolveStream,
+          deny
+        )
       } else {
         // Browser does not support getUserMedia
         reject(AudioError.NO_SUPPORT)
@@ -107,7 +131,6 @@ export default class AudioWeb {
   }
 
   // Check if audio recording is supported
-  // Note: Detailed codec checking is done by getAudioFormat()
   isAudioRecordingSupported(): boolean {
     return (
       typeof window.MediaRecorder !== 'undefined' &&
@@ -130,23 +153,6 @@ export default class AudioWeb {
   }
 
   /**
-   * Determine optimal recording timeslice based on browser capabilities.
-   * Smaller chunks for Safari/iOS prevent buffer issues, larger chunks for others improve efficiency.
-   */
-  private getOptimalTimeslice(): number {
-    if (isIOS()) {
-      // iOS: 1s chunks - prevents buffer overflow on memory-constrained devices
-      return 1_000
-    }
-    if (isMacOSSafari()) {
-      // macOS Safari: 5s chunks - balance between reliability and efficiency
-      return 5_000
-    }
-    // Chrome/Firefox/Edge: 20s chunks - these browsers handle large buffers well
-    return 20_000
-  }
-
-  /**
    * Initialize the recorder, opening the microphone media stream.
    *
    * If microphone access is currently denied, the user is asked to grant
@@ -162,8 +168,30 @@ export default class AudioWeb {
     const microphone = await this.getMicrophone()
 
     this.microphone = microphone
-    const audioContext = new (window.AudioContext ||
-      window.webkitAudioContext)()
+
+    // Match AudioContext sample rate to the microphone's actual rate to avoid
+    // hidden resamplers that cause volume drops and artifacts on some devices.
+    // Skip on Apple browsers where specifying sampleRate can break AudioContext.
+    const isAppleBrowser = isIOS() || isMacOSSafari()
+    const trackSettings = microphone.getAudioTracks()[0]?.getSettings()
+    const micSampleRate = trackSettings?.sampleRate
+    const contextOptions: AudioContextOptions = {}
+    if (!isAppleBrowser && micSampleRate) {
+      contextOptions.sampleRate = micSampleRate
+    }
+
+    const audioContext = new (window.AudioContext || window.webkitAudioContext)(
+      contextOptions
+    )
+
+    // Some browsers (especially iOS Safari after backgrounding) create
+    // AudioContexts in "suspended" state. Without resuming, no audio
+    // flows through the graph — the mic appears to work but everything
+    // is silent, causing false TOO_QUIET errors.
+    if (audioContext.state === 'suspended') {
+      await audioContext.resume()
+    }
+
     const sourceNode = audioContext.createMediaStreamSource(microphone)
     const volumeNode = audioContext.createGain()
     const analyzerNode = audioContext.createAnalyser()
@@ -180,12 +208,11 @@ export default class AudioWeb {
     volumeNode.connect(analyzerNode)
     analyzerNode.connect(outputNode)
 
-    const audioFormat = getAudioFormat()
+    const audioFormat = getBestAudioMimeType()
     const recorderOptions: MediaRecorderOptions = {}
 
     // IMPORTANT: iOS/Safari work better with browser-chosen defaults.
     // Setting mimeType explicitly can cause buffer/timing issues.
-    const isAppleBrowser = isIOS() || isMacOSSafari()
     const shouldSetMimeType = !isAppleBrowser
 
     if (shouldSetMimeType && audioFormat) {
@@ -203,6 +230,8 @@ export default class AudioWeb {
 
     this.recorder = new window.MediaRecorder(outputNode.stream, recorderOptions)
     this.recordingMimeType = this.recorder.mimeType
+    // Store the format we requested - needed as fallback for iOS when blob.type is empty
+    this.requestedMimeType = audioFormat || null
 
     // Debug logging (only in development/staging)
     if (!isProduction()) {
@@ -315,7 +344,22 @@ export default class AudioWeb {
         this.recorderListeners.dataavailable
       )
 
-      this.recorder.start(this.getOptimalTimeslice())
+      // We want to be able to record up to 30s of audio in a single blob.
+      // Without this argument to start(), Chrome will call dataavailable
+      // very frequently.
+      //
+      // Apple browsers: Do NOT pass timeslice. iOS Safari's MediaRecorder
+      // with timeslice emits fragmented MP4 (fMP4) segments. For recordings
+      // shorter than the timeslice, the first chunk may lack media data or
+      // the final fragment may be incomplete — causing empty/corrupt blobs.
+      // Without timeslice, Safari produces a single complete MP4 blob on stop.
+      //
+      // Other browsers: Use 30s timeslice for efficiency.
+      if (isIOS() || isMacOSSafari()) {
+        this.recorder.start()
+      } else {
+        this.recorder.start(30_000)
+      }
     })
   }
 
@@ -335,15 +379,50 @@ export default class AudioWeb {
       }
 
       this.recorderListeners.stop = () => {
-        const chunks = this.chunks
-        const recordingMimeType = this.recordingMimeType
-
-        // Small delay to ensure all dataavailable events have been processed
-        // MediaRecorder may fire stop event before final chunk arrives
+        // Small delay to ensure final dataavailable event is processed.
+        // iOS/Safari needs a longer delay because without timeslice the
+        // entire recording blob is delivered in a single dataavailable
+        // event that may still be processing when 'stop' fires.
+        const delay = isIOS() || isMacOSSafari() ? 300 : 50
         setTimeout(() => {
-          // Use actual mimeType or empty string (let browser infer from data)
-          const blobType = recordingMimeType || ''
+          const chunks = this.chunks
+          const recordingMimeType = this.recordingMimeType
+          const requestedMimeType = this.requestedMimeType
+
+          // Determine blob MIME type with robust fallback chain:
+          // 1. Use actual mimeType from MediaRecorder (most accurate)
+          // 2. Fallback to requested format (what we asked for)
+          // 3. Last resort: infer from browser
+          let blobType = recordingMimeType || requestedMimeType
+
+          if (!blobType || blobType.trim() === '') {
+            // This should never happen, but if it does, infer from browser
+            blobType = getBestAudioMimeType()
+
+            if (!isProduction()) {
+              console.warn(
+                '[AudioWeb] Both recordingMimeType and requestedMimeType are empty!',
+                'Using inferred type:',
+                blobType
+              )
+            }
+          }
+
           const blob = new Blob(chunks, { type: blobType })
+
+          // Validate blob size (empty blobs cause backend errors)
+          if (blob.size === 0) {
+            console.error('[AudioWeb] Empty blob created, rejecting recording')
+            reject(AudioError.EMPTY_RECORDING)
+            return
+          }
+
+          // Validate blob type (new check)
+          if (!blob.type || blob.type.trim() === '') {
+            console.error('[AudioWeb] Blob missing MIME type')
+            reject(AudioError.UNKNOWN_FORMAT)
+            return
+          }
 
           // Revoke previous URL to prevent memory leak
           if (this.lastObjectURL) {
@@ -354,7 +433,7 @@ export default class AudioWeb {
           this.lastObjectURL = url
 
           resolve({ url, blob })
-        }, MEDIARECORDER_STOP_DELAY_MS)
+        }, delay)
       }
 
       this.recorderListeners.error = (event: Event) => {

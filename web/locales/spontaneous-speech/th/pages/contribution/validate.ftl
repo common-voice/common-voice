@@ -1,6 +1,7 @@
 ## Validate Page
 
 validate-page-instruction = ตรวจสอบ <validateIcon></validateIcon> ว่าคำถามเหล่านี้ตรงตามหลักเกณฑ์หรือไม่
+dataset-label = ชุดข้อมูล
 accept-vote-toast-message = ยอมรับคำถามเรียบร้อยแล้ว
 reject-vote-toast-message = ปฏิเสธคำถามเรียบร้อยแล้ว
 add-vote-error-message = เกิดข้อผิดพลาดขณะโหวตพรอมต์

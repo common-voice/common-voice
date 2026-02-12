@@ -53,3 +53,12 @@ language-search-placeholder = Søk etter eit språk...
 language-search-aria-label = Søk etter eit språk
 language-search-label = Endrar berre bidragsspråket til datasettet
 language-search-no-results = Fann ingen språk
+
+## Transcription Player - Mode Buttons
+
+# Transcription Player - Automatic Mode
+transcription-mode-auto = Auto
+# Player - normal speed
+player-speed-normal = Normal
+# Player - faster
+player-speed-fast = Rask

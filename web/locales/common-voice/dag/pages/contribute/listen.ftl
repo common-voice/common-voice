@@ -10,3 +10,19 @@ listen-loading-error = Ti bi tooi nya kukoya ni ti ti a ka a wum. Dim suɣulo, k
 listen-abort-title = A zahim kukoya maa n-naai?
 listen-abort-cancel = Tuɣimi zahimbu maa
 listen-abort-confirm = Naami zahimbu maa
+# Menu item
+validate-readings = Dihitabili karimbu
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = Saɣiti karimbu nima <small>(dinna yirina)</small>
+
+## MENU ITEM TOOLTIPS
+
+listen-contribute-menu-tooltip = Dihitabili Karimbu,Labiyuli din sataranima
+validate-readings-menu-item-tooltip = Dihitabili ŋun mali tumdi ni puun vuli karimbu shaŋa a balli ni.
+review-transcriptions-menu-item-tooltip = Labi yuli ŋun malitumdi ni puun zaŋ satari shaŋa n ti a balli ni.
+
+## MENU ITEM ARIA LABELS
+
+listen-contribute-menu-aria-label = Wumma taɣabunima piibu gbaŋ.
+validate-readings-menu-item-aria-label = Dihitabili aya nima zaŋ karimbu n ti
+review-transcriptions-menu-item-aria-label = Labiyuli satari shɛŋa din yatuɣa niŋ dede n vuli doya

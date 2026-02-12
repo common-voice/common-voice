@@ -6,8 +6,8 @@ skip = ТIехдалийта
 shortcuts = нуьйданаш цхьаьнайозар
 clips-with-count-pluralized =
     { $count ->
-        [one] <bold>{ $count }</bold> аудио-д1айаздар
-       *[other] <bold>{ $count }</bold>аудио-д1айаздарш
+        [one] <bold>{ $count }</bold> аудио-дӀайаздар
+       *[other] <bold>{ $count }</bold>аудио-дӀайаздарш
     }
 goal-help-recording = Ахь гӀо дина Common Voice <ӀалашонПроцент></ӀалашонПроцент> кхача тхан денна { $goalValue } дӀаяздар Ӏалашоне!
 goal-help-validation = Ахь гӀо дина Common Voice <ӀалашонПроцент></ӀалашонПроцент> кхача тхан денна { $goalValue } таллам баран Ӏалашоне!
@@ -16,7 +16,7 @@ contribute-more =
         [one] { $count } кхин а къа хьега кийча вуй?
        *[other] { $count } кхин а къа хьега кийча вуй?
     }
-speak-empty-state = х1окху маттахь аудио-д1айазбан аламаш чекхбевлла вайн...
+speak-empty-state = ХӀокху маттахь дӀаязбан беза аламаш чекхбевлла
 no-sentences-for-variants = Цхьа а Алам ца хила а тарло хьан маттахь! Хьайна лаахь,  настройкаш хийца йиш ю хьан, хьайн маттахь кхин аламаш ган.
 speak-empty-state-cta = аламаш кховдабар
 speak-loading-error =

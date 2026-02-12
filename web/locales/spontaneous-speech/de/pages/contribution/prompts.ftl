@@ -8,8 +8,15 @@ prompt-page-instruction = <micIcon></micIcon> { $actionType } und antworten Sie 
 no-prompts-continue-skipped-message = Es gibt keine weiteren Fragen für diese Sprache. Wenn Sie eine übersprungen haben, können Sie mit dem übersprungenen Inhalt fortfahren oder Audio transkribieren und es später erneut versuchen.
 error-skipping = Beim Überspringen dieser Frage ist ein Fehler aufgetreten
 error-recording = Beim Aufnehmen ist ein Fehler aufgetreten
+error-recording-too-short = Die Aufnahme ist zu kurz. Die Mindestdauer beträgt { $minDurationSeconds } Sekunden.
+error-recording-too-long = Die Aufnahme ist zu lang. Die maximale Dauer beträgt { $maxDurationMinutes } Minuten.
 error-fetching-prompts = Beim Abrufen der Fragen ist etwas schiefgegangen. Bitte versuchen Sie es später erneut.
 error-uploading-response = Beim Hochladen Ihrer Antwort ist ein Fehler aufgetreten
+error-empty-audio = Aufnahme fehlgeschlagen. Die Audiodatei scheint leer zu sein. Bitte versuchen Sie es erneut.
+error-platform-webview = Aufnahme wird in diesem Browser mit eingeschränkten Möglichkeiten möglicherweise nicht unterstützt. Bitte verwenden Sie eine vollständige Browser-App.
+error-recording-too-short-seconds = Die Aufnahme ist zu kurz. Die Mindestdauer beträgt { $minDurationSeconds } Sekunden.
+error-recording-too-long-minutes = Die Aufnahme ist zu lang. Die maximale Dauer beträgt { $maxDurationMinutes } Minuten.
+cannot-play-audio = Audio kann nicht wiedergegeben werden. Bitte versuchen Sie es erneut.
 prompt-submitted-success = Antwort erfolgreich abgesendet
 prompt-response-deleted-success = Antwort erfolgreich gelöscht
 # For the button to delete a response to a prompt

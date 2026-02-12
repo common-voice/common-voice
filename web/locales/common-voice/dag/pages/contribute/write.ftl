@@ -5,11 +5,14 @@ write-instruction = Pahimi <icon></icon> yɛltɔɣili din ka ŋun su li
 write-page-subtitle = Yɛltɔɣa din pahi kpe yɛn zaŋmi m-pahi salo ni yɛn tooi nya shɛŋa cc-0 shɛhiranima zuɣu
 sentence =
     .label = Dini yi shɛli na
+sentence-input-placeholder = Kpɛhimi a yɛltɔɣili din ka ŋun su li maa kpɛ
+small-batch-sentence-input-placeholder = Kpɛhimi a yɛltɔɣili din ka ŋun su li maa kpɛ
 citation-input-placeholder = Wuhimi yɛltɔɣili maa ni yi shɛli na
 citation =
     .label = Dini yi shɛli na
 sc-write-submit-confirm = N dihi tabili ni yɛltɔɣili ŋɔ <wikipediaLink> nyɛla din ka ŋun su li </wikipediaLink> ka mali soli ni n zaŋ li pahi
 sc-review-write-title = Yɛltɔɣ' dininima ka n ni tooi pahi?
+sc-review-small-batch-title = A ni yɛn pahi yɛltɔɣa bɔbigu shɛm
 new-sentence-rule-1 = <noCopyright> Di ka sulinsi </noCopyright> Gaɣibu(<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Yɛltɔɣili din bachinima bi paai pia ni anu
 new-sentence-rule-3 = Zaŋmi yɛltɔɣa biɛhigu din tuhi n-tum tuma
@@ -18,6 +21,7 @@ new-sentence-rule-5 = Nambanima mini bachikɔba din gahim kani
 new-sentence-rule-6 = Bal' shɛli bachikɔba ka di puuni
 new-sentence-rule-7 = Sabimi dini yi luɣ' shɛŋa na dede m-pahi
 new-sentence-rule-8 = Di simdi ka di tuhi ka ni tooi di alizama ( Di simdi ni yɛltɔɣili maa karimbu be asama)
+login-instruction-multiple-sentences = pahimi yɛltɔa pam
 how-to-cite = Wula ka n yɛn ti di lahibali?
 how-to-cite-explanation-bold = Zaŋmi URL linki bee tuma maa yuli n wuhi dini yi shɛli na
 how-to-cite-explanation = Di yi nyɛ a maŋmaŋ bachinima, nyin kuli yɛlima <italicizedText> "M maŋmaŋa tuma" </italicizedText> Di simdi ni ti baŋ a ni nya lahibali maa shɛli din ni sɔŋ ka ti vihi li nya a salo dini n-nyɛ li ka di ka sulinsi gaɣibu. A yi bɔri ni a nya lahibali zaŋ kpa binyɛra ni yi shɛli na polo nyin nyami ti  <guidelinesLink> Sodolisi intɛnɛɛti ni gbambiɛlinli </guidelinesLink>.
@@ -27,8 +31,11 @@ add-sentence-success = Yɛltɔɣ' gaŋa deeya
 add-sentence-error = Muɣisigu beni yɛltɔɣili pahibu ni
 required-field = Pahimi suɣulo sabimi polo ŋɔ ni
 single-sentence-submission = Yɛltɔɣ' gaŋa zaŋ ti
+small-batch-sentence-submission = Yɛltɔɣa bela di ni zaŋ niŋ
 bulk-sentence-submission = Yɛltɔɣa din galisi zaŋ ti
 single-sentence = Yɛltɔɣ' gaŋa
+small-batch-sentence = Bela di ni
+bulk-sentence = pam di ni
 sentence-domain-combobox-label = Yɛltɔɣili ni yi yaɣ' shɛli na
 sentence-domain-select-placeholder = Piimi yaɣa diba ata (a yi bɔra)
 # Sentence Domain dropdown option
@@ -87,3 +94,33 @@ file-invalid-type = Di bi saɣi n-ti gbaŋ ŋɔ
 file-too-large = Gbaŋ maa bara pam
 file-too-small = Gbaŋ maa pɔri pam
 too-many-files = Gbana pam
+
+## SMALL BATCH SUBMISSION
+
+multiple-sentences-error = A kutooi  pahi n laɣim yɛltɔɣa yinga n ti
+exceeds-small-batch-limit-error = A kutooi zaŋ yɛltɔɣa din yaɣi tuhi pia n ti
+small-batch-sentences-rule-1 = Doli zalizi ŋan yina "Yɛltɔɣa dini ka n ni tooi zaŋ pahi?"
+small-batch-sentences-rule-2 = Pahimi yɛltɔɣa yini kuliga kam ni
+small-batch-sentences-rule-3 = Dihimi "kpɛma" bee "labima" yim n-waligi yɛltɔɣa sɔŋ kuli' gaŋ ni
+small-batch-sentences-rule-4 = Zaŋ pahi yɛltɔɣa tuhili zuɣu
+small-batch-sentences-rule-5 = Yɛltɔɣa zaa tu ni di mali "domain" yini
+small-batch-sentences-rule-6 = Yɛltɔɣa zaa tu ni di mali ŋa yibuna shee
+# menu item
+add-sentences = Pahimi yɛltɔɣa
+
+## MENU ITEM TOOLTIPS
+
+write-contribute-menu-tooltip = Pahimi ka labi yuli yɛltɔɣa, pahimi bɔhisi, lɛbgim kukoli yɛltɔɣa
+add-sentences-menu-item-tooltip = pahimi yɛltɔɣili
+review-sentences-menu-item-tooltip = labi n lihi yɛltɔɣili
+add-questions-menu-item-tooltip = Pahimi bɔhisi
+review-questions-menu-item-tooltip = Labi n lihi bɔhisi
+transcribe-audio-menu-item-tooltip = Labi yaa kukoya vulindisi
+
+## MENU ITEM ARIA LABELS
+
+write-contribute-menu-aria-label = sabimi pari gahim pii bɔŋ ni
+add-sentences-menu-item-aria-label = Pahimi yɛltɔɣa pala ka dundɔŋ ŋɔ nim karim
+review-sentences-menu-item-aria-label = Labi yuli yɛltɔɣa shɛŋa dundɔŋ ŋɔ nima ni zaŋ bahina
+add-questions-menu-item-aria-label = Zaŋmi bɔhi' pala sɔŋna ka dundɔŋnim karim ka labisi
+transcribe-audio-menu-item-aria-label = labi yaa kukɔya yi sabbu

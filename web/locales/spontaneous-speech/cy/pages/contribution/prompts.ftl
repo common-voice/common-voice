@@ -8,8 +8,15 @@ prompt-page-instruction = { $actionType } <micIcon></micIcon> ac ymateb mor natu
 no-prompts-continue-skipped-message = Nid oes rhagor o gwestiynau ar gyfer yr iaith hon. Os ydych wedi hepgor unrhyw rai, gallwch barhau â chynnwys sydd wedi'i hepgor neu fynd i drawsgrifio sain a rhoi cynnig arall arni yn nes ymlaen.
 error-skipping = Digwyddodd gwall wrth hepgor y cwestiwn hwn
 error-recording = Digwyddodd gwall wrth recordio
+error-recording-too-short = Mae'r recordio'n rhy fyr. Yr hyd lleiaf yw { $minDurationSeconds } eiliad.
+error-recording-too-long = Mae'r recordio'n rhy hir. Yr hyd mwyaf yw { $maxDurationMinutes } munud.
 error-fetching-prompts = Aeth rhywbeth o'i le wrth estyn cwestiwn. Ceisiwch eto yn nes ymlaen.
 error-uploading-response = Bu gwall wrth lwytho'ch ymateb i fyny
+error-empty-audio = Methodd y recordiad. Mae'n ymddangos bod y ffeil sain yn wag. Ceisiwch eto.
+error-platform-webview = Mae'n bosibl nad yw recordio'n cael ei gefnogi yn y porwr cyfyngedig hwn. Defnyddiwch ap porwr llawn.
+error-recording-too-short-seconds = Mae'r recordio'n rhy fyr. Yr hyd lleiaf yw { $minDurationSeconds } eiliad.
+error-recording-too-long-minutes = Mae'r recordio'n rhy hir. Yr hyd mwyaf yw { $maxDurationMinutes } munud.
+cannot-play-audio = Methu chwarae sain. Ceisiwch eto.
 prompt-submitted-success = Ymateb wedi'i gyflwyno'n llwyddiannus
 prompt-response-deleted-success = Ymateb wedi'i ddileu yn llwyddiannus
 # For the button to delete a response to a prompt

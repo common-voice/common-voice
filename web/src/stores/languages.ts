@@ -7,6 +7,10 @@ interface NativeNames {
   [property: string]: string
 }
 
+interface EnglishNames {
+  [property: string]: string
+}
+
 interface LocaleNameAndIDMapping {
   id: number
   name: string
@@ -17,10 +21,12 @@ export interface State {
   allLocales?: Locales
   contributableLocales?: Locales
   nativeNames?: NativeNames
+  englishNames?: EnglishNames
   rtlLocales?: Locales
   translatedLocales?: Locales
   contributableNativeNames?: NativeNames
   localeNameAndIDMapping?: LocaleNameAndIDMapping[]
+  spontaneousSpeechLanguages?: Locales
 }
 
 enum ActionType {
@@ -33,10 +39,12 @@ interface LoadedAction {
     allLocales: Locales
     contributableLocales: Locales
     nativeNames: NativeNames
+    englishNames: EnglishNames
     rtlLocales: Locales
     translatedLocales: Locales
     contributableNativeNames: NativeNames
     localeNameAndIDMapping: LocaleNameAndIDMapping[]
+    spontaneousSpeechLanguages: Locales
   }
 }
 
@@ -50,6 +58,8 @@ export const actions = {
     ) => {
       const { api } = getState()
       const allLanguages = await api.fetchAllLanguages()
+      const spontaneousSpeechLanguages =
+        await api.fetchSpontaneousSpeechLanguages()
 
       //get obj of native names, default to language code
       const nativeNames = allLanguages.reduce((names: any, language) => {
@@ -59,6 +69,13 @@ export const actions = {
             : language.english_name
             ? `${language.english_name} [${language.name}]`
             : language.name
+        return names
+      }, {})
+
+      const englishNames = allLanguages.reduce((names: any, language) => {
+        names[language.name] = language.english_name
+          ? language.english_name
+          : language.name
         return names
       }, {})
 
@@ -93,6 +110,7 @@ export const actions = {
       }, [])
 
       const allLocales = allLanguages.map(language => language.name)
+
       const contributableLocales = allLanguages
         .filter(language => language.is_contributable)
         .map(language => language.name)
@@ -108,10 +126,12 @@ export const actions = {
           allLocales,
           contributableLocales,
           nativeNames,
+          englishNames,
           rtlLocales,
           translatedLocales,
           contributableNativeNames,
           localeNameAndIDMapping,
+          spontaneousSpeechLanguages,
         },
       })
     }
@@ -131,10 +151,12 @@ export function reducer(state: State = INITIAL_STATE, action: Action): State {
         allLocales: action.payload.allLocales,
         contributableLocales: action.payload.contributableLocales,
         nativeNames: action.payload.nativeNames,
+        englishNames: action.payload.englishNames,
         rtlLocales: action.payload.rtlLocales,
         translatedLocales: action.payload.translatedLocales,
         contributableNativeNames: action.payload.contributableNativeNames,
         localeNameAndIDMapping: action.payload.localeNameAndIDMapping,
+        spontaneousSpeechLanguages: action.payload.spontaneousSpeechLanguages,
       }
 
     default:

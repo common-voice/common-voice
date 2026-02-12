@@ -23,13 +23,19 @@ report-button = รายงาน
 skip-button = ข้าม
 submit-button = ส่ง
 contribute = มีส่วนร่วม
+# Button text which appears when there are no more resources
+continue-with-skipped = ดำเนินการต่อด้วยสิ่งที่ข้ามไป
 
 ## Navbar
 
 question = คำถาม
+validate = ตรวจสอบ
 respond-to-prompt = ตอบกลับข้อความคำสั่ง
+respond-to-prompt-mobile = ตอบ
 transcribe = ถอดเสียง
 check-transcriptions = ตรวจทานการถอดเสียง
+check-transcriptions-mobile = ตรวจทาน
+tag = ป้ายกำกับ
 
 ## Not Found Page
 
@@ -39,3 +45,11 @@ not-found-page-content = ไม่พบหน้าเว็บที่คุ�
 accept-privacy-and-terms = ฉันยอมรับ<termsLink>เงื่อนไข</termsLink>และ<privacyLink>ประกาศความเป็นส่วนตัว</privacyLink>ของ Common Voice
 # Locales-Variants
 ms-MY = มลายูมาตรฐาน
+el-CY = กรีกไซปรัส
+
+## Language search component
+
+language-search-placeholder = ค้นหาภาษา...
+language-search-aria-label = ค้นหาภาษา
+language-search-label = จะเปลี่ยนแปลงภาษาที่ใช้ในชุดข้อมูลเท่านั้น
+language-search-no-results = ไม่พบภาษา

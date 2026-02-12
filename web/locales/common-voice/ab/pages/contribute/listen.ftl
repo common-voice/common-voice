@@ -12,3 +12,19 @@ listen-loading-error =
 listen-abort-title = Аклипқәа ргәаҭара хыркәшатәума?
 listen-abort-cancel = Агәаҭара ацҵара
 listen-abort-confirm = Агәаҭара ахыркәшара
+# Menu item
+validate-readings = Аҳәашьа агәаҭара
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = Аҭаҩымҭақәа ргәаҭара <small>(Лассы)</small>
+
+## MENU ITEM TOOLTIPS
+
+listen-contribute-menu-tooltip = Аҳәашьа агәаҭара, атранскрипциақәа ргәаҭара
+validate-readings-menu-item-tooltip = Шәара шәбызшәала иҭаҩу ахархәаҩцәа рҳәашьа гәашәҭала
+review-transcriptions-menu-item-tooltip = Ахархәаҩцәа инарышьҭыз шәбызшәала иҟоу атранскрипциа гәашәҭала
+
+## MENU ITEM ARIA LABELS
+
+listen-contribute-menu-aria-label = Азыӡырҩа архиарақәа рыхкынҵа
+validate-readings-menu-item-aria-label = Аилазаара алахәцәа инарышьҭыз аҳәашьа агәаҭара
+review-transcriptions-menu-item-aria-label = Иҭаҩу аҳәоуқәа рытранскрипциа аиашара гәашәҭ

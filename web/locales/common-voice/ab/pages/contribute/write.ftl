@@ -148,4 +148,18 @@ add-sentences = Аҳәоу ацҵара
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = Аҳәоуқәа рыцҵареи ргәаҭареи, азҵаарақәа рыцҵара, аудио атранскрипциа
 add-sentences-menu-item-tooltip = Шәбызшәала аҳәоуқәа ацышәҵа
+review-sentences-menu-item-tooltip = Шәбызшәала иҟоу аҳәоуқәа гәашәҭала
+add-questions-menu-item-tooltip = Шәбызшәала азҵаарақәа ацышәҵа
+review-questions-menu-item-tooltip = Азҵаарақәа арецензиа рзура
+transcribe-audio-menu-item-tooltip = Шәбызшәала аудионҵамҭақәа атранскрипциа рзыжәу
+
+## MENU ITEM ARIA LABELS
+
+write-contribute-menu-aria-label = Аҩышьа архиарақәа рыхкынҵа
+add-sentences-menu-item-aria-label = Аилазаара иаԥхьаша аҳәоу ҿыцқәа ацышәҵала
+review-sentences-menu-item-aria-label = Аилазаара инашьҭыз, иҟоу аҳәоуқәа гәашәҭ
+add-questions-menu-item-aria-label = Аилазаара иаԥхьарц, насгьы аҭак ҟанаҵарц азы азҵаара ҿыцқәа нашәышьҭла
+review-questions-menu-item-aria-label = Игәашәҭ, насгьы шәыбжьы шәҭии аилазаара ицәырнагаз азҵаара ҿыцқәа рзы
+transcribe-audio-menu-item-aria-label = Аудионҵамҭақәа атекст ахь риагара

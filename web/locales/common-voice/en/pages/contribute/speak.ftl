@@ -12,6 +12,8 @@ record-no-mic-found = No microphone found.
 record-error-too-short = The recording was too short.
 record-error-too-long = The recording was too long.
 record-error-too-quiet = The recording was too quiet.
+record-error-empty-recording = No audio was captured. Please check your microphone and try again.
+record-error-unknown-format = Unable to determine audio format. Please try using a different browser.
 record-error-uploaded-clip-corrupted = Your audio recording appears to be corrupted. This can happen due to:
   • Browser compatibility issues (try using a different browser)
   • Microphone or audio driver problems

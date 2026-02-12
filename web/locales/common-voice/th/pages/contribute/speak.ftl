@@ -3,6 +3,8 @@ speak-now = พูดเลย
 speak-subtitle = บริจาคเสียงของคุณ
 record-cta = เริ่มอัดเสียง
 record-platform-not-supported = เราขออภัย ไม่รองรับแพลตฟอร์มของคุณในขณะนี้
+record-platform-webview = คุณอาจเข้ามาที่นี่โดยคลิกลิงก์ในแอปโซเชียลมีเดีย คุณกำลังใช้เบราว์เซอร์ในแอป ซึ่งไม่รองรับการบันทึกเสียง
+record-platform-not-supported-webview = บนอุปกรณ์มือถือ คุณสามารถมีส่วนร่วมได้โดยใช้เบราว์เซอร์ของระบบ...
 record-platform-not-supported-desktop = บนคอมพิวเตอร์เดสก์ท็อป คุณสามารถดาวน์โหลดโปรแกรมรุ่นล่าสุดดังต่อไปนี้:
 record-platform-not-supported-ios-non-safari = บน iOS โปรดใช้ Safari เพื่อเปิดใช้งานการบันทึกเสียง…
 record-must-allow-microphone = คุณต้องอนุญาตให้ใช้ไมโครโฟนได้
@@ -10,6 +12,12 @@ record-no-mic-found = ไม่พบไมโครโฟน
 record-error-too-short = เสียงที่อัดสั้นเกินไป
 record-error-too-long = เสียงที่อัดยาวเกินไป
 record-error-too-quiet = การอัดเสียงนั้นเบาเกินไป
+record-error-uploaded-clip-corrupted =
+    ไฟล์เสียงของคุณดูเหมือนจะเสียหาย อาจเกิดจากสาเหตุดังต่อไปนี้:
+    • ปัญหาความเข้ากันได้ของเบราว์เซอร์ (ลองใช้เบราว์เซอร์อื่น)
+    • ปัญหาเกี่ยวกับไมโครโฟนหรือไดรเวอร์เสียง
+    • การขัดข้องของเครือข่ายระหว่างการบันทึก
+    โปรดลองบันทึกเสียงอีกครั้ง
 record-cancel = ยกเลิกการอัดเสียงใหม่
 record-instruction = { $actionType }<recordIcon></recordIcon> แล้วอ่านประโยคดังต่อไปนี้ดัง ๆ
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> เมื่อเสร็จแล้ว
