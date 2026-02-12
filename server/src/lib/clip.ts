@@ -1,4 +1,5 @@
 import { NextFunction, Request, Response } from 'express'
+import { Readable } from 'stream'
 const PromiseRouter = require('express-promise-router')
 import { getConfig } from '../config-helper'
 import Model from './model'
@@ -34,8 +35,6 @@ import {
   findVariantsBySentenceIdsInDb,
 } from '../application/repository/variant-repository'
 import { StatusCodes } from 'http-status-codes'
-
-const { Converter } = require('ffmpeg-stream')
 
 enum ERRORS {
   MISSING_PARAM = 'MISSING_PARAM',
@@ -236,6 +235,14 @@ export default class Clip {
     const format = headers['content-type']
     const size = headers['content-length']
 
+    // Log if Content-Type is completely missing
+    if (!format) {
+      console.warn('[saveClip] Missing Content-Type header', {
+        userAgent: headers['user-agent'],
+        client_id,
+      })
+    }
+
     if (!sentenceId) {
       this.clipSaveError(
         headers,
@@ -294,34 +301,58 @@ export default class Clip {
 
     // Handle AAC/MP4 formats from iOS devices
     // MP4 containers need special handling due to moov atom positioning
-    const normalized = format.toLowerCase().trim() || ''
-    const isAAC =
-      !normalized || // with new FE code we should not get this case anymore, but keep for safety
+    const normalized = format ? format.toLowerCase().trim() : ''
+    let isAAC =
       normalized.startsWith('audio/mp4') ||
       normalized.startsWith('audio/x-m4a') ||
       normalized.startsWith('audio/m4a') ||
       normalized === 'audio/aac' ||
       normalized.startsWith('audio/aac;') ||
-      normalized.includes('mp4a') ||
-      normalized === 'application/octet-stream' // re-added (some Apple devices send this generic type)
+      normalized.includes('mp4a')
+
+    // Handle octet-stream with UA check
+    if (normalized === 'application/octet-stream') {
+      const ua = (headers['user-agent'] || '').toLowerCase()
+      if (/iphone|ipad|ipod|macintosh.*safari/i.test(ua)) {
+        isAAC = true
+        console.warn(
+          '[saveClip] octet-stream from iOS/Safari - treating as MP4'
+        )
+      }
+    }
 
     if (getConfig().FLAG_BUFFER_STREAM_ENABLED && isAAC) {
-      // AAC data comes wrapped in an MPEG container, which is incompatible with
-      // ffmpeg's piped stream functions because the moov atom comes at the end of
-      // the stream. At that point, ffmpeg can no longer seek back to the beginning.
-      // createBufferedInputStream creates a local file and pipes data in as
-      // a file, which doesn't lose the seek mechanism.
+      // MP4/AAC containers may have the moov atom at the end, which ffmpeg
+      // cannot seek back to when reading from a pipe. Buffer the entire
+      // payload into memory first, then create a readable stream from it.
+      // At 128 kbps and max 17s recording, this is at most ~275 KB.
       console.log(
-        `[saveClip] AAC/MP4 detected - Using buffered input: ${format} for ${clipFileName}`
+        `[saveClip] AAC/MP4 detected - buffering input: ${format} for ${clipFileName}`
       )
 
-      const { Converter } = require('ffmpeg-stream')
-      const { Readable } = require('stream')
-      const converter = new Converter()
-      const audioStream = Readable.from(request)
+      const chunks: Buffer[] = []
 
-      audioInput = converter.createBufferedInputStream()
-      audioStream.pipe(audioInput)
+      await new Promise<void>((resolve, reject) => {
+        request.on('data', (chunk: Buffer) => chunks.push(chunk))
+        request.on('end', resolve)
+        request.on('error', reject)
+      })
+
+      const fullBuffer = Buffer.concat(chunks)
+
+      if (fullBuffer.length === 0) {
+        this.clipSaveError(
+          headers,
+          response,
+          422,
+          'Empty audio payload',
+          ERRORS.AUDIO_CORRUPT,
+          'clip'
+        )
+        return
+      }
+
+      audioInput = Readable.from(fullBuffer)
     } else if (isAAC) {
       console.log(
         `[saveClip] AAC/MP4 detected - FLAG_BUFFER_STREAM_ENABLED=false: ${format} for ${clipFileName}`

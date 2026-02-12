@@ -41,3 +41,22 @@ need-help-deciding-platform = Нужна помощь в том, что выбр
 need-help-deciding-platform-explanation-1 = <strong>Scripted Speech</strong> (традиционно то, что вы знаете как Common Voice) — это место, где вы можете зачитывать предложения вслух на вашем языке.
 need-help-deciding-platform-explanation-2 = <strong>Spontaneous Speech</strong> — это новая часть Common Voice, где вы можете отвечать на вопросы более органично и разговорно.
 need-help-deciding-platform-explanation-3 = Если вы не видите ваш язык ни в одной из частей платформы, выберите обе.
+request-language-search-bar = Вы можете начать набирать название вашего языка здесь; если его ещё нет на Common Voice, вы сможете заполнить форму, указав данные вашего языка.
+request-language-found-pontoon-not-launched =
+    Ваш язык уже в списке языков Common Voice. 
+    Вы можете помочь запуску языка на <strong>Scripted Speech</strong>, локализовав
+    интерфейс платформы <pontoonLink>здесь</pontoonLink>. Интерфейс должен быть локализован на 60%; 
+    в качестве альтернативы вы можете локализовать только основные строки в «web/locales/en/pages/contribute/*.ftl» на 100% 
+    (таких файлов пять), и интерфейс запустится автоматически.
+request-language-found-cv-contribution =
+    Ура! Ваш язык уже на <strong>Scripted Speech</strong> от Common Voice. 
+    Вы можете помочь <homePageLink>здесь</homePageLink>.
+request-language-found-cv-sentences-lack =
+    Ваш язык уже в списке языков Common Voice.
+    Вы можете помочь запуску языка на <strong>Scripted Speech</strong>,
+    <sentencesContributionLink>здесь</sentencesContributionLink> можно внести свои предложения.
+request-language-found-spontaneous-speech =
+    Ваш язык уже активен в <strong>Spontaneous Speech</strong> от Common Voice. 
+    Щёлкните <spontaniousSpeechLink>здесь</spontaniousSpeechLink>, чтобы внести свой вклад: не забудьте сменить язык вклада/набора данных перед тем, как внести свой вклад!
+request-language-already-available-scs = Scripted Speech уже доступен
+request-language-already-available-sps = Spontaneous Speech уже доступен

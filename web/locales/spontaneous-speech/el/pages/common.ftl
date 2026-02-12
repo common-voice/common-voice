@@ -26,6 +26,10 @@ contribute = Συνεισφορά
 # Button text which appears when there are no more resources
 continue-with-skipped = Συνέχεια με παραλειφθέντα
 
+## Common aria-labels
+
+keyboard-shortcuts-button-aria-label = Εμφάνιση συντομεύσεων πληκτρολογίου
+
 ## Navbar
 
 question = Ερώτηση
@@ -53,3 +57,20 @@ language-search-placeholder = Αναζήτηση για γλώσσα...
 language-search-aria-label = Αναζήτηση για γλώσσα
 language-search-label = Αλλάζει μόνο τη γλώσσα συνεισφοράς του συνόλου δεδομένων
 language-search-no-results = Δεν βρέθηκαν γλώσσες
+
+## Transcription Player Controls - Keyboard Shortcuts
+
+player-play-pause-shortcut-key = Ctrl / Cmd + P
+# Player control shortcut to go back 5 seconds: pressed with Ctrl/Cmd
+player-skip-backward-shortcut = 8
+player-skip-backward-shortcut-key = Ctrl / Cmd + 8
+# Player control shortcut to go forwards 5 seconds: pressed with Ctrl/Cmd
+player-skip-forward-shortcut = 9
+player-skip-forward-shortcut-key = Ctrl / Cmd + 9
+
+## Transcription Player - Aria Labels
+
+# Play button accessibility/aria label
+player-play-button-aria-label = Αναπαραγωγή ήχου
+# Pause button accessibility/aria label
+player-pause-button-aria-label = Παύση ήχου

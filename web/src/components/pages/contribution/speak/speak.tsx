@@ -829,6 +829,10 @@ class SpeakPage extends React.Component<Props, State> {
                         [AudioError.NO_MIC]: 'record-no-mic-found',
                         [AudioError.NO_SUPPORT]:
                           'record-platform-not-supported',
+                        [AudioError.EMPTY_RECORDING]:
+                          'record-error-empty-recording',
+                        [AudioError.UNKNOWN_FORMAT]:
+                          'record-error-unknown-format',
                       }[error]
                     }
                     {...props}

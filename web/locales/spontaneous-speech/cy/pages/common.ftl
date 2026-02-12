@@ -26,6 +26,10 @@ contribute = Cyfrannu
 # Button text which appears when there are no more resources
 continue-with-skipped = Parhau gyda'r rhai sydd wedi'u Hepgor
 
+## Common aria-labels
+
+keyboard-shortcuts-button-aria-label = Dangos llwybrau byr bysellfwrdd
+
 ## Navbar
 
 question = Cwestiwn
@@ -53,3 +57,54 @@ language-search-placeholder = Chwilio am iaith...
 language-search-aria-label = Chwilio am iaith
 language-search-label = Yn newid iaith cyfraniad y set ddata yn unig
 language-search-no-results = Heb ganfod ieithoedd
+
+## Transcription Player - Mode Buttons
+
+# Transcription Player - Automatic Mode
+transcription-mode-auto = Awto
+# Player - slower
+player-speed-slow = Araf
+# Player - normal speed
+player-speed-normal = Arferol
+# Player - faster
+player-speed-fast = Cyflym
+
+## Transcription Player Controls - Keyboard Shortcuts
+
+# Player control shortcut for play/pause: pressed with Ctrl/Cmd
+player-play-pause-shortcut = p
+player-play-pause-shortcut-key = Ctrl / Cmd + P
+player-play-pause-shortcut-name = Chwarae / Oedi
+# Player control shortcut to go back 5 seconds: pressed with Ctrl/Cmd
+player-skip-backward-shortcut = 8
+player-skip-backward-shortcut-key = Ctrl / Cmd + 8
+player-skip-backward-shortcut-name = Nôl
+# Player control shortcut to go forwards 5 seconds: pressed with Ctrl/Cmd
+player-skip-forward-shortcut = 9
+player-skip-forward-shortcut-key = Ctrl / Cmd + 9
+player-skip-forward-shortcut-name = Ymlaen
+
+## Transcription Player - Aria Labels
+
+# Play button accessibility/aria label
+player-play-button-aria-label = Chwarae sain
+# Pause button accessibility/aria label
+player-pause-button-aria-label = Oedi sain
+# Skip back button accessibility/aria label
+player-skip-backward-aria-label = Mynd nôl 5 eiliad
+# Skip forward button accessibility/aria label
+player-skip-forward-aria-label = Symud ymlaen 5 eiliad
+# Audio playback progress slider accessibility/aria label
+player-progress-slider-aria-label = Llithrydd cynnydd chwarae sain
+# Toggle speed and transcription mode menu button
+player-toggle-mode-menu-aria-label = Dewislen modd toglo
+# Slower playback speed button accessibility/aria label
+player-speed-slow-aria-label = Cyflymder chwarae arafach
+# Normal playback speed button accessibility/aria label
+player-speed-normal-aria-label = Cyflymder chwarae arferol
+# Faster playback speed button accessibility/aria label
+player-speed-fast-aria-label = Cyflymder chwarae cyflymach
+# Auto transcription mode button accessibility/aria label
+transcription-mode-auto-aria-label = Togglo'r chwarae awtomatig gair-wrth-air
+# Mode menu button accessibility/aria label
+transcription-mode-menu-aria-label = Toglo'r ddewislen modd trawsgrifio
