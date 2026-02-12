@@ -3,14 +3,14 @@ import { useState, useEffect } from 'react'
 import { useHistory } from 'react-router-dom'
 import { Localized } from '@fluent/react'
 
-import { 
-  useToLocaleRoute, 
-  useAvailableLocales, 
+import {
+  useToLocaleRoute,
+  useAvailableLocales,
   useNativeLocaleNames,
   useContributableLocales,
   useAllLocales,
   useEnglishLocaleNames,
-  useSpontaneousSpeechLocales
+  useSpontaneousSpeechLocales,
 } from '../../../locale-helpers'
 import { useAPI } from '../../../../hooks/store-hooks'
 import URLS from '../../../../urls'
@@ -51,13 +51,9 @@ const LanguagesRequestFormPage = () => {
   const [scriptedSpeechToggled, setScriptedSpeechToggled] = useState(false)
   const [spontaneousSpeechToggled, setSpontaneousSpeechToggled] =
     useState(false)
-  const [scriptedSpeechToggleDisabled, setScriptedSpeechToggleDisabled] = useState(false)
-  const [spontaneousSpeechToggleDisabled, setSpontaneousSpeechToggleDisabled] =
-    useState(false)
   const [language, setLanguage] = useState(undefined)
   const [languagesFiltered, setLanguagesFiltered] = useState(undefined)
   const [query, setQuery] = useState('')
-  const [infoInputOpen, isInfoInputOpen] = useState(false)
 
   const noPlatformToggleOptionSelected =
     !scriptedSpeechToggled && !spontaneousSpeechToggled
@@ -71,7 +67,7 @@ const LanguagesRequestFormPage = () => {
   ]
 
   const toggleSearch = () => {
-    setQuery('');
+    setQuery('')
     setLanguage(undefined)
   }
 
@@ -82,10 +78,24 @@ const LanguagesRequestFormPage = () => {
   const contributableLocales = useContributableLocales()
   const spontaneousSpeechLocales = useSpontaneousSpeechLocales()
 
+  const getFullName = (locale: string) => {
+    const nativeName = nativeNames[locale]
+    const englishName = englishNames[locale]
+    const nativeAndCode =
+      nativeName === locale || nativeName.includes(`[${locale}]`)
+        ? `[${locale}]`
+        : `- ${nativeName} [${locale}]`
+    const fullName =
+      englishName === nativeName
+        ? `${englishName} [${locale}]`
+        : `${englishName} ${nativeAndCode}`
+    return fullName
+  }
+
   const isContributable = (locale: string) => {
     return contributableLocales.includes(locale)
   }
-  
+
   const isTranslated = (locale: string) => {
     return availableLocales.includes(locale)
   }
@@ -107,17 +117,22 @@ const LanguagesRequestFormPage = () => {
   ) => {
     const query = event.target.value
 
+    // Reset toggles and hide form content below
+    setScriptedSpeechToggled(false)
+    setSpontaneousSpeechToggled(false)
+    setLanguage(undefined)
+    setLanguagesFiltered(undefined)
+
     function filterLanguages<T>(languages: T[]): T[] {
-      if(!query){setLanguage(undefined)}
       return query
         ? // eslint-disable-next-line @typescript-eslint/no-explicit-any
-          languages.filter((locale : any) => {
+          languages.filter((locale: any) => {
             const q = query.toLowerCase().trim()
             return (
               locale.includes(q) ||
               locale.toLowerCase().includes(q) ||
               (nativeNames[locale] || '').toLowerCase().includes(q) ||
-              (englishNames[locale] || '').toLowerCase().includes(q) 
+              (englishNames[locale] || '').toLowerCase().includes(q)
             )
           })
         : languages
@@ -126,7 +141,9 @@ const LanguagesRequestFormPage = () => {
     const filtered = filterLanguages(languages)
     setLanguagesFiltered(filtered)
     setQuery(query)
-    if (filtered.length == 0) {setLanguage(undefined)}
+    if (filtered.length === 0) {
+      setLanguage(undefined)
+    }
   }
 
   const handleQueryKeyDown = (event: React.KeyboardEvent<HTMLInputElement>) => {
@@ -142,7 +159,7 @@ const LanguagesRequestFormPage = () => {
   }
 
   const handleLanguageInfoTextAreaChange = (
-    event: React.ChangeEvent<HTMLInputElement>
+    event: React.ChangeEvent<HTMLTextAreaElement>
   ) => {
     setLanguageInfoValue(event.target.value)
   }
@@ -233,201 +250,244 @@ const LanguagesRequestFormPage = () => {
           <form
             className="languages-request-page__content__form"
             onSubmit={handleSubmit}>
-            
-            <Localized
-              id="request-language-search-bar">
-            </Localized>
+            <Localized id="request-language-search-bar"></Localized>
             <LanguageSearch
-                inputRef={inputRef}
-                query={query}
-                handleQueryChange={e => handleQueryChange(e, nativeNames)}
-                handleQueryKeyDown={handleQueryKeyDown}
-                toggleSearch={toggleSearch}
+              inputRef={inputRef}
+              query={query}
+              handleQueryChange={e => handleQueryChange(e, nativeNames)}
+              handleQueryKeyDown={handleQueryKeyDown}
+              toggleSearch={toggleSearch}
             />
-            
-            {(query !== '' && languagesFiltered.length !== 0) ? <span className="dropdown_menu">
-              {languagesFiltered?.map((locale: string) => (
-                <div className="dropdown_item_container"
-                  key={locale}
-                >
-                  <span className="dropdown_item"
-                    title={englishNames[locale]}
-                    tabIndex={0}
-                    onClick={() => {
-                      setLanguage(locale); 
-                      setQuery(englishNames[locale]); 
-                      setLanguagesFiltered([locale]);
-                      if(!languages.includes(locale)) {
-                        setScriptedSpeechToggled(true)
-                      } else {setScriptedSpeechToggleDisabled(true)}
-                      if(!hasSpontaneousSpeech(locale)) {
-                        setSpontaneousSpeechToggled(true)
-                      } else {setSpontaneousSpeechToggleDisabled(true)}
-                    }}
-                  >
-                    {englishNames[locale]}
-                    {/* {language && language === locale && (
-                      <span className="styled_check"/>
-                    )} */}
-                  </span>
-                </div>
-              ))}
-              </span> : <div />
-            }
-            
+
+            {query !== '' && languagesFiltered.length !== 0 ? (
+              <span className="dropdown_menu">
+                {languagesFiltered?.map((locale: string) => (
+                  <div className="dropdown_item_container" key={locale}>
+                    <span
+                      className="dropdown_item"
+                      title={getFullName(locale)}
+                      tabIndex={0}
+                      onClick={() => {
+                        setLanguage(locale)
+                        setQuery(getFullName(locale))
+                        setLanguagesFiltered([locale])
+                        if (!languages.includes(locale)) {
+                          setScriptedSpeechToggled(true)
+                        }
+                        if (!hasSpontaneousSpeech(locale)) {
+                          setSpontaneousSpeechToggled(true)
+                        }
+                      }}>
+                      {getFullName(locale)}
+                    </span>
+                  </div>
+                ))}
+              </span>
+            ) : (
+              <div />
+            )}
+
             <p />
+            {/* Show info for undefined languages as well */}
             {language ? (
               <div>
-              {isContributable(language) ? 
-                (
-                    <Localized id="request-language-found-cv-contribution"
-                      elems={{
-                        homePageLink: <StyledLink href={`https://commonvoice.mozilla.org/${language}`} />,
-                        strong: <strong />
-                      }}>
-                      <p/>
-                    </Localized>
-                ) : isTranslated(language) ? 
-                    <Localized id="request-language-found-cv-sentences-lack"
-                      elems={{
-                        sentencesContributionLink: <StyledLink href={`https://commonvoice.mozilla.org/${language}/write`} />,
-                        strong: <strong />
-                      }}>
-                      <p/>
-                    </Localized>
-                    :
-                    <Localized id="request-language-found-pontoon-not-launched"
-                      elems={{
-                        pontoonLink: <StyledLink href={`https://pontoon.mozilla.org/${language}/common-voice/`} />,
-                        strong: <strong />
-                      }}>
-                      <p/>
-                    </Localized>
-              }
-              {hasSpontaneousSpeech(language) ? 
-                (
-                  <Localized id="request-language-found-spontaneous-speech"
-                  elems={{
-                        spontaneousSpeechLink: <StyledLink href={"https://commonvoice.mozilla.org/spontaneous-speech/beta/prompts"} />,
-                        strong: <strong />
+                {isContributable(language) ? (
+                  <Localized
+                    id="request-language-found-cv-contribution"
+                    elems={{
+                      homePageLink: (
+                        <StyledLink
+                          href={`https://commonvoice.mozilla.org/${language}`}
+                        />
+                      ),
+                      strong: <strong />,
                     }}>
-                    <p/>
+                    <p />
                   </Localized>
-                ) : <div/>
-              }
-              </div>
-            ) : <div/>}
-          <p/>
-          {(query !== '' && (languagesFiltered.length == 0 || (language && submitAvailable(language))) ? (
-            <span>
-              <p className="languages-request-page__content__form__required">
-                <Localized id="indicates-required" />
-              </p>
-
-              <Localized id="request-language-form-email" attrs={{ label: true }}>
-                <LabeledInput
-                  value={emailValue}
-                  onChange={handleEmailInputChange}
-                  required
-                  type="email"
-                />
-              </Localized>
-
-              <div className="toggles-container">
-                <Toggle
-                  label="request-for-scripted-speech-toggle"
-                  checked={scriptedSpeechToggled}
-                  onToggle={setScriptedSpeechToggled}
-                  disabled={scriptedSpeechToggleDisabled}
-                />
-                <div className="hr" />
-                <Toggle
-                  label="request-for-spontaneous-speech-toggle"
-                  checked={spontaneousSpeechToggled}
-                  onToggle={setSpontaneousSpeechToggled}
-                  disabled={spontaneousSpeechToggleDisabled}
-                />
-                <div className="hr" />
-                <ExpandableInformation summaryLocalizedId="need-help-deciding-platform">
+                ) : isTranslated(language) ? (
                   <Localized
-                    id="need-help-deciding-platform-explanation-1"
-                    elems={{ strong: <strong /> }}>
+                    id="request-language-found-cv-sentences-lack"
+                    elems={{
+                      sentencesContributionLink: (
+                        <StyledLink
+                          href={`https://commonvoice.mozilla.org/${language}/write`}
+                        />
+                      ),
+                      strong: <strong />,
+                    }}>
                     <p />
                   </Localized>
+                ) : (
                   <Localized
-                    id="need-help-deciding-platform-explanation-2"
-                    elems={{ strong: <strong /> }}>
+                    id="request-language-found-pontoon-not-launched"
+                    elems={{
+                      pontoonLink: (
+                        <StyledLink
+                          href={`https://pontoon.mozilla.org/${language}/common-voice/`}
+                        />
+                      ),
+                      strong: <strong />,
+                    }}>
                     <p />
                   </Localized>
-                  <Localized id="need-help-deciding-platform-explanation-3">
+                )}
+                {hasSpontaneousSpeech(language) ? (
+                  <Localized
+                    id="request-language-found-spontaneous-speech"
+                    elems={{
+                      spontaneousSpeechLink: (
+                        <StyledLink
+                          href={
+                            'https://commonvoice.mozilla.org/spontaneous-speech/beta/prompts'
+                          }
+                        />
+                      ),
+                      strong: <strong />,
+                    }}>
                     <p />
                   </Localized>
-                </ExpandableInformation>
+                ) : (
+                  <div />
+                )}
               </div>
-
-              <PageTextContent>
-                <p>
-                  <Localized id="request-language-form-info-explanation" />
+            ) : (
+              <div />
+            )}
+            <p />
+            {query !== '' &&
+            (languagesFiltered.length == 0 ||
+              (language && submitAvailable(language))) ? (
+              <span>
+                <p className="languages-request-page__content__form__required">
+                  <Localized id="indicates-required" />
                 </p>
 
-                <ul>
-                  <li>
-                    <Localized id="request-language-form-info-explanation-list-1" />
-                  </li>
-                  <Localized
-                    id="request-language-form-info-explanation-list-2"
-                    elems={{
-                      isoCodeLink: (
-                        <StyledLink href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes" />
-                      ),
-                    }}>
-                    <li />
-                  </Localized>
-                  <li>
-                    <Localized id="request-language-form-info-explanation-list-3" />
-                  </li>
-                </ul>
-              </PageTextContent>
+                <Localized
+                  id="request-language-form-email"
+                  attrs={{ label: true }}>
+                  <LabeledInput
+                    value={emailValue}
+                    onChange={handleEmailInputChange}
+                    required
+                    type="email"
+                  />
+                </Localized>
+
+                <div className="toggles-container">
+                  <Toggle
+                    label={
+                      languages.includes(language)
+                        ? 'request-language-already-available-scs'
+                        : 'request-for-scripted-speech-toggle'
+                    }
+                    checked={
+                      languages.includes(language)
+                        ? true
+                        : scriptedSpeechToggled
+                    }
+                    onToggle={setScriptedSpeechToggled}
+                    disabled={languages.includes(language) ? true : false}
+                  />
+                  <div className="hr" />
+                  <Toggle
+                    label={
+                      hasSpontaneousSpeech(language)
+                        ? 'request-language-already-available-sps'
+                        : 'request-for-spontaneous-speech-toggle'
+                    }
+                    checked={
+                      hasSpontaneousSpeech(language)
+                        ? true
+                        : spontaneousSpeechToggled
+                    }
+                    onToggle={setSpontaneousSpeechToggled}
+                    disabled={hasSpontaneousSpeech(language) ? true : false}
+                  />
+                  <div className="hr" />
+                  <ExpandableInformation summaryLocalizedId="need-help-deciding-platform">
+                    <Localized
+                      id="need-help-deciding-platform-explanation-1"
+                      elems={{ strong: <strong /> }}>
+                      <p />
+                    </Localized>
+                    <Localized
+                      id="need-help-deciding-platform-explanation-2"
+                      elems={{ strong: <strong /> }}>
+                      <p />
+                    </Localized>
+                    <Localized id="need-help-deciding-platform-explanation-3">
+                      <p />
+                    </Localized>
+                  </ExpandableInformation>
+                </div>
+
+                <PageTextContent>
+                  <p>
+                    <Localized id="request-language-form-info-explanation" />
+                  </p>
+
+                  <ul>
+                    <li>
+                      <Localized id="request-language-form-info-explanation-list-1" />
+                    </li>
+                    <Localized
+                      id="request-language-form-info-explanation-list-2"
+                      elems={{
+                        isoCodeLink: (
+                          <StyledLink href="https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes" />
+                        ),
+                      }}>
+                      <li />
+                    </Localized>
+                    <li>
+                      <Localized id="request-language-form-info-explanation-list-3" />
+                    </li>
+                  </ul>
+                </PageTextContent>
 
                 <span>
-                <Localized id="request-language-form-info" attrs={{ label: true }}>
-                  <LabeledTextArea
-                    className="languages-request-page__content__form__text-area"
-                    value={languageInfoValue}
-                    onChange={handleLanguageInfoTextAreaChange}
+                  <Localized
+                    id="request-language-form-info"
+                    attrs={{ label: true }}>
+                    <LabeledTextArea
+                      className="languages-request-page__content__form__text-area"
+                      value={languageInfoValue}
+                      onChange={handleLanguageInfoTextAreaChange}
+                      required
+                    />
+                  </Localized>
+
+                  <LabeledCheckbox
+                    label={
+                      <Localized
+                        id="accept-privacy"
+                        elems={{
+                          privacyLink: <StyledLink to={URLS.PRIVACY} />,
+                        }}>
+                        <span />
+                      </Localized>
+                    }
+                    checked={privacyAgreedChecked}
+                    onChange={handlePrivacyAgreedChange}
                     required
                   />
-                </Localized>
 
-
-                <LabeledCheckbox
-                  label={
-                    <Localized
-                      id="accept-privacy"
-                      elems={{ privacyLink: <StyledLink to={URLS.PRIVACY} /> }}>
-                      <span />
-                    </Localized>
-                  }
-                  checked={privacyAgreedChecked}
-                  onChange={handlePrivacyAgreedChange}
-                  required
-                />
-
-                <Localized id="submit-form-action">
-                  <Button
-                    type="submit"
-                    rounded
-                    isBig
-                    outline={false}
-                    disabled={isSubmitButtonDisabled}
-                    className="request-language-btn"
-                    data-testid="request-language-btn"
-                  />
-                </Localized>
+                  <Localized id="submit-form-action">
+                    <Button
+                      type="submit"
+                      rounded
+                      isBig
+                      outline={false}
+                      disabled={isSubmitButtonDisabled}
+                      className="request-language-btn"
+                      data-testid="request-language-btn"
+                    />
+                  </Localized>
+                </span>
               </span>
-            </span>
-            ) : <div />)
-            }
+            ) : (
+              <div />
+            )}
           </form>
         </div>
 
@@ -444,4 +504,4 @@ const LanguagesRequestFormPage = () => {
   )
 }
 
-export default LanguagesRequestFormPage;
+export default LanguagesRequestFormPage
