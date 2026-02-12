@@ -2,7 +2,7 @@ const PROFILE = '/profile'
 const DASHBOARD = '/dashboard'
 const DEMO = '/demo'
 const SPONTANEOUS_SPEECH = '/spontaneous-speech/beta'
-const SPONTANEOUS_SPEECH_ROOT_URL = `${window.location.origin}${SPONTANEOUS_SPEECH}`
+export const SPONTANEOUS_SPEECH_ROOT_URL = `${window.location.origin}${SPONTANEOUS_SPEECH}`
 
 export default Object.freeze({
   ABOUT: '/about',

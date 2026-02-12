@@ -58,8 +58,8 @@ export const actions = {
     ) => {
       const { api } = getState()
       const allLanguages = await api.fetchAllLanguages()
-      const spontaneousSpeechLanguagesObject = await api.fetchSpontaneousSpeechLanguages()
-      const spontaneousSpeechLanguages = spontaneousSpeechLanguagesObject.availableLanguages
+      const spontaneousSpeechLanguages =
+        await api.fetchSpontaneousSpeechLanguages()
 
       //get obj of native names, default to language code
       const nativeNames = allLanguages.reduce((names: any, language) => {
@@ -73,10 +73,9 @@ export const actions = {
       }, {})
 
       const englishNames = allLanguages.reduce((names: any, language) => {
-        names[language.name] =
-          language.english_name ? 
-            language.english_name
-            : language.name
+        names[language.name] = language.english_name
+          ? language.english_name
+          : language.name
         return names
       }, {})
 
