@@ -44,14 +44,16 @@ need-help-deciding-platform-explanation-3 = If you don't see your language in ei
 request-language-search-bar = You can start typing the name of your language here; if it's not yet on Common Voice, you'll be able to fill out a form with your language's data.
 request-language-found-pontoon-not-launched = 
     Your language is already on the Common Voice languages list. 
-    You can facilitate the language lauch on <strong>Scripted Speech</strong> by localising
+    You can facilitate the language launch on <strong>Scripted Speech</strong> by localising
     the platform interface <pontoonLink>here</pontoonLink>. The interface needs to be 60% localised; 
     alternatively you may localise just the basic strings in ‘web/locales/en/pages/contribute/*.ftl’ to 100% 
-    (there are five such strings), and the interface will be launched automatically.
+    (there are five such files), and the interface will be launched automatically.
 request-language-found-cv-contribution = Hurray! Your language is already live on Common Voice <strong>Scripted Speech</strong>. 
     You can contribute <homePageLink>here</homePageLink>.
 request-language-found-cv-sentences-lack = Your language is already on the Common Voice languages list.
-    You can facilitate the language lauch on <strong>Scripted Speech</strong> by
+    You can facilitate the language launch on <strong>Scripted Speech</strong> by
     contributing sentences <sentencesContributionLink>here</sentencesContributionLink>.
 request-language-found-spontaneous-speech = Your language is already live on Common Voice <strong>Spontaneous Speech</strong>. 
     Click <spontaneousSpeechLink>here</spontaneousSpeechLink> to contribute: don't forget to change the contribution/dataset language before you start contributing!
+request-language-already-available-scs = Scripted Speech Already Available
+request-language-already-available-sps = Spontaneous Speech Already Available
