@@ -72,3 +72,16 @@ export type LanguageData = {
   variants: VariantData[]
   predefined_accents: AccentData[]
 }
+
+export type SPSLocalesResponse = {
+  message: string
+  locales: {
+    ui: string[]
+    contributable: string[]
+  }
+}
+
+export type AvailableLanguages = {
+  project: string
+  availableLanguages: string[]
+}

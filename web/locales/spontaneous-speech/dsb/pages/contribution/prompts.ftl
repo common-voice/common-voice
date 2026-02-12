@@ -12,6 +12,11 @@ error-recording-too-short = Nagraśe jo pśekrotke. Minimalne traśe jo { $minDu
 error-recording-too-long = Nagraśe jo pśedłujke. Maksimalne traśe jo { $minDurationSeconds } minutow.
 error-fetching-prompts = Pśi wótwołanju naspominanjow njejo se něco raźiło. Pšosym wopytajśo pózdźej hyšći raz.
 error-uploading-response = Pśi nagrawanju wašogo wótegrona jo zmólka nastała
+error-empty-audio = Nagraśe njejo se raźiło. Zda se, až awdiodataja jo prozna. Wopytajśo pšosym hyšći raz.
+error-platform-webview = Nagraśe se snaź w toś tym wobgranicowanem wobglědowaku njepódpěra. Pšosym wužywajśo dopołne nałoženje wobglědowaka.
+error-recording-too-short-seconds = Nagraśe jo pśekrotke. Minimalne traśe jo { $minDurationSeconds } sekundow.
+error-recording-too-long-minutes = Nagraśe jo pśedłujke. Maksimalne traśe jo { $minDurationSeconds } minutow.
+cannot-play-audio = Njejo móžno awdio wótgraś. Pšosym wopytajśo hyšći raz.
 prompt-submitted-success = Wótegrono jo se wuspěšnje wótpósłało
 prompt-response-deleted-success = Wótegrono jo se wuspěšnje wulašowało
 # For the button to delete a response to a prompt

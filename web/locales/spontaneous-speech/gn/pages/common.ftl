@@ -53,3 +53,40 @@ language-search-placeholder = Eheka peteĩ ñe’ẽ...
 language-search-aria-label = Eheka peteĩ ñe’ẽ
 language-search-label = Emoambue ñe’ẽ pytyvõha año mba’ekuaarã atygua
 language-search-no-results = Ndojejuhúi ñe’ẽnguéra
+
+## Transcription Player - Mode Buttons
+
+# Transcription Player - Automatic Mode
+transcription-mode-auto = Jehegui
+# Player - slower
+player-speed-slow = Mbegue
+# Player - normal speed
+player-speed-normal = Ha’etéva
+# Player - faster
+player-speed-fast = Ipya’e
+
+## Transcription Player Controls - Keyboard Shortcuts
+
+# Player control shortcut for play/pause: pressed with Ctrl/Cmd
+player-play-pause-shortcut = p
+player-play-pause-shortcut-key = Ctrl / Cmd + P
+player-play-pause-shortcut-name = Mbopu / Mombyta
+# Player control shortcut to go back 5 seconds: pressed with Ctrl/Cmd
+player-skip-backward-shortcut = 8
+player-skip-backward-shortcut-key = Ctrl / Cmd + 8
+player-skip-backward-shortcut-name = Tapykuévo
+# Player control shortcut to go forwards 5 seconds: pressed with Ctrl/Cmd
+player-skip-forward-shortcut = 9
+player-skip-forward-shortcut-key = Ctrl / Cmd + 9
+player-skip-forward-shortcut-name = Tenondévo
+
+## Transcription Player - Aria Labels
+
+# Play button accessibility/aria label
+player-play-button-aria-label = Ehendu mba’epu
+# Pause button accessibility/aria label
+player-pause-button-aria-label = Ejoko mba’epu
+# Skip back button accessibility/aria label
+player-skip-backward-aria-label = Eho tapykuévo 5 aravo’ive
+# Skip forward button accessibility/aria label
+player-skip-forward-aria-label = Eho tenondévo 5 aravo’ive

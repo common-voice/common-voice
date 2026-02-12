@@ -12,6 +12,11 @@ error-recording-too-short = Le registration es troppo breve. Durata minime es de
 error-recording-too-long = Le registration es troppo longe. Durata maxime es de { $minDurationSeconds } minutas.
 error-fetching-prompts = Alco errate eveniva recuperante le sollicitation. Retenta plus tarde.
 error-uploading-response = Un error occurreva cargante tu responsa.
+error-empty-audio = Registration fallite. Le file audio pare vacue. Retenta.
+error-platform-webview = Le registration pote non esser supportate in iste navigator limitate. Usa un application plen navigator.
+error-recording-too-short-seconds = Le registration es troppo breve. Le duration minime es { $minDurationSeconds } secundas.
+error-recording-too-long-minutes = Le registration es troppo longe. Le duration maxime es de { $minDurationSeconds } minutas.
+cannot-play-audio = Impossibile reproducer audio. Retenta.
 prompt-submitted-success = Responsa inviate con successo!
 prompt-response-deleted-success = Responsa delite con successo
 # For the button to delete a response to a prompt

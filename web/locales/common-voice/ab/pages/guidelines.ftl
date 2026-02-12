@@ -117,6 +117,7 @@ adding-questions = Азҵаарақәа рыцҵара
 what-makes-a-good-question-subheader = Азҵаара бзиа изеиԥшразар ахәҭои?
 what-makes-a-good-question-explanation = Иаарту адыррақәа реизгазы азҵаара бзиа ахәҭоуп:
 what-makes-a-good-question-explanation-criteria-1 = Аилкаареи аҭак аҟаҵареи рзы имарианы аҟазаара
+what-makes-a-good-question-explanation-criteria-2 = Ирелевантратәны аҟазаара
 what-makes-a-good-question-tip = Иара убас ирызхәыцтәуп аконтекстқәеи атематикақәеи реиуеиԥшымра.
 easy-to-understand = Аилкаара мариоуп
 easy-to-understand-explanation = Акультуреи аконтексти иахьмырԥшыкәа, дарбанзаалак еиликааша имариоу азҵаарақәа алышәхла.
@@ -126,6 +127,7 @@ length = Аура
 length-explanation = Азҵаара аҭак ҩ-ҳәоук ирҭагӡазароуп.
 dont-add-subheader = Иацҵатәым
 culturally-specific-questions = Акультуратә ҷыдара зныԥшуа азҵаарақәа
+culturally-specific-questions-explanation = Иаразнак улаԥш иҵашәо акультуратә ҷыдара змоу, мамзаргьы ареспондент изку агәаанагарақәа рацәаны злоу азҵаарақәа.
 length-avoid-explanation = 15 секунд рыла зҭак аҟаҵара уадаҩхо азҵаарақәа (аклип иреиҳаӡоу аура)
 process-steps = Апроцесс / Ашьаҿақәа
 offensive-content-sensitive-information = Ихьымӡӷыргаго аҵакы ма имаӡоу аинформациа
@@ -169,6 +171,7 @@ tags-disfluency = Аилҟьамзаара
 tags-unclear = Аилататара
 tags-noise = Ашьҭыбжь
 tags-laugh-explanation = Аччабыжь
+tags-unclear-explanation = Еилкаашьа змам ажәа, ма ажәақәа реишьҭагылашьа.
 # Note: do not translate any tag, like [noise] or [laugh]
 special-tags-example-2 =
     Нас сара [ашьҭыбжь] аныҳәахь сцеит.
@@ -195,27 +198,39 @@ code-switching-adding-question-note = Иара убас ирызхәыцтәуп
 code-switching-types-subheader = Иарбан азҵаара хкқәоу иацҵатәу?
 code-switching-use-bilingual-prompts-header = Ибилингвалтәу аҳәарақәа рхархәара
 code-switching-use-bilingual-prompts-explanation = Шәхы иашәырхәа ҩ-бызшәак рыла ишьақәгылоу аҳәарақәа, шәызҵаара аҩбызшәак рыла еиқәыршәазароуп. Аҿырԥштәы:
+code-switching-ask-bilingual-contexts-header = Абилингвалтә контекстқәа рызҵаара
 code-switching-ask-bilingual-contexts-explanation = Шәхы иашәырхәа аҩбызшәак ахархәара ахьрымоу аҭагылазаашьақәа (иаҳҳәап, аҩны, ашкол аҿы, аилазаара аусмҩаԥгатәқәа раан). Аҿырԥштәы:
 code-switching-focus-emotional-header = Шәгәы иҵхо амоментқәа шәыхшыҩ рзышәышьҭ
 code-switching-focus-emotional-explanation-example = «Ажәабжь дуқәа шәҭаацәа анрашәҳәа, урҭ ишәарҳәаз — дара ишырҳәаз еиԥшҵәҟьа сзеиҭашәҳәа».
+code-switching-direct-quotes-explanation-example = «Ианеилышәкаа ишәҳәаҵәҟьеи?»
 code-switching-cultural-topics-header = Акультуратә ҷыдара ҳасаб азуны атемақәа алышәхла
 code-switching-cultural-topics-explanation = Афатә, аҵасқәа, аныҳәақәа, аҭаацәаратә динамика акод уԥсахратәы лассы-лассы иҟарҵоит.
 code-switching-informal-scenarios-header = Иформалтәым асценариақәа ҭышәҵаала
 code-switching-avoid-intro = Азҵаарақәа зылшо:
 code-switching-dont-header = Мап
+code-switching-dont-1 = Мыцхәы иформалтәу абызшәа шәхы иашәмырхәалан
 # Reviewing a Question
 code-switching-review-subheader = Азҵаара агәаҭара
 code-switching-review-intro = Азҵаара аҭахрақәа ишрықәшәо агәра жәга:
 code-switching-review-criterion-1 = Аилкаареи аҭак аҟаҵареи рзы имарианы аҟазаара
+code-switching-review-offensive-content = <bold>Иӷьымӡӷыргагоу аҵакы, мамзаргьы имаӡоу аинформациа</bold>
+code-switching-answer-header = Ихьымӡӷыргагоу аҵакы, ма имаӡоу аинформациа
 # Answering a Question
 code-switching-answer-subheader = Азҵаара аҭак
+code-switching-answer-bullet-2 = Шәҩыза атексттә аацҳамҭа изынашәышьҭуашәа, мамзаргьы аӡәы жәабжьк изеиҭашәҳәошәа шәхаҿы иаажәг
+code-switching-answer-bullet-3 = Шәхы иашәырхәаҵәҟьаз ажәақәа ахархәара рышәҭ, урҭ иамаԥсахзаргьы, ма еилаԥсазаргьы
 code-switching-answer-bullet-4 = Иҟаӡам «зеиӷьыҟам» аҭак аҟаҵашьа
+code-switching-authentic-header = Иԥсабаратәны, насгьы иҵабыргны аҭак ҟашәҵала
+code-switching-use-both-languages = <bold>Аҩбызшәак шәхы иашәырхәала абжьааԥны ус ҟашәҵозар.</bold> Ихәарҭоуп ажәак, ма ҩажәак мацара рыԥсахрагьы. Аҿырԥштәы:
 # Don’t Overthink or Overedit
 code-switching-answer-dont-subheader = Мыцхәы шәазымхәыцлан, иара убас мыцхәы аредакциа азыжәымун
 code-switching-answer-dont-correct-language = <bold>Убызшәа «Ариашара».</bold> Ари ԥышәараӡам. «Ииашоу» аформа акәӡам ара аҵакы злоу, аҵакы злоу иԥсабаратәу абызшәа ауп.
 # Transcribing
 code-switching-transcribe-subheader = Атранскрибациа
+code-switching-cleanup-2 = «Ииашоу» аграмматика, ма аҳәашьа — иԥсабаратәу абызшәа еиқәшәырхала.
 code-switching-tagging-error-2 = Агхақәа
+# Use Pronunciation to Help Determine the Language
+code-switching-pronunciation-header = Абызшәа аилкаара шәацхраарц азы аҳәашьа шәхы иашәырхәа
 code-switching-pronunciation-explanation-example-1 = Англыз: /ˈkeɪ.bəl/
 code-switching-pronunciation-explanation-example-2 = Аиспан: /ˈkable/
 code-switching-punctuation-tagging-explanation-example-2 = <purple>аха<</purple><blue>tú los puedes comprar rojo, negro, azul</blue>, <purple>иарбанзаалак азы.</purple>(BangorTank)
@@ -228,3 +243,7 @@ code-switching-not-tag-interjections-example-1 = «Е»
 code-switching-not-tag-interjections-example-2 = «Мап»
 code-switching-not-tag-interjections-example-3 = «Иеа»
 code-switching-not-tag-interjections-example-4 = «Ем»
+
+## Reporting Content
+
+reporting-content-subheader = Азеиԥш хархәага

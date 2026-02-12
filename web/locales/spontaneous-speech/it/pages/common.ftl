@@ -26,6 +26,10 @@ contribute = Collabora
 # Button text which appears when there are no more resources
 continue-with-skipped = Passa ai contenuti saltati
 
+## Common aria-labels
+
+keyboard-shortcuts-button-aria-label = Mostra scorciatoie da tastiera
+
 ## Navbar
 
 question = Domanda
@@ -53,3 +57,54 @@ language-search-placeholder = Cerca una lingua…
 language-search-aria-label = Cerca una lingua
 language-search-label = Modifica solo la lingua di contribuzione del dataset
 language-search-no-results = Nessuna lingua trovata
+
+## Transcription Player - Mode Buttons
+
+# Transcription Player - Automatic Mode
+transcription-mode-auto = Automatica
+# Player - slower
+player-speed-slow = Lento
+# Player - normal speed
+player-speed-normal = Normale
+# Player - faster
+player-speed-fast = Veloce
+
+## Transcription Player Controls - Keyboard Shortcuts
+
+# Player control shortcut for play/pause: pressed with Ctrl/Cmd
+player-play-pause-shortcut = P
+player-play-pause-shortcut-key = Ctrl / Cmd + P
+player-play-pause-shortcut-name = Riproduci / Interrompi
+# Player control shortcut to go back 5 seconds: pressed with Ctrl/Cmd
+player-skip-backward-shortcut = 8
+player-skip-backward-shortcut-key = Ctrl / Cmd + 8
+player-skip-backward-shortcut-name = Indietro
+# Player control shortcut to go forwards 5 seconds: pressed with Ctrl/Cmd
+player-skip-forward-shortcut = 9
+player-skip-forward-shortcut-key = Ctrl / Cmd + 9
+player-skip-forward-shortcut-name = Avanti
+
+## Transcription Player - Aria Labels
+
+# Play button accessibility/aria label
+player-play-button-aria-label = Riproduci audio
+# Pause button accessibility/aria label
+player-pause-button-aria-label = Interrompi audio
+# Skip back button accessibility/aria label
+player-skip-backward-aria-label = Vai indietro di 5 secondi
+# Skip forward button accessibility/aria label
+player-skip-forward-aria-label = Vai avanti di 5 secondi
+# Audio playback progress slider accessibility/aria label
+player-progress-slider-aria-label = Cursore di avanzamento della riproduzione audio
+# Toggle speed and transcription mode menu button
+player-toggle-mode-menu-aria-label = Attiva/disattiva il menu modalità
+# Slower playback speed button accessibility/aria label
+player-speed-slow-aria-label = Rallenta velocità di riproduzione
+# Normal playback speed button accessibility/aria label
+player-speed-normal-aria-label = Velocità di riproduzione normale
+# Faster playback speed button accessibility/aria label
+player-speed-fast-aria-label = Accelera velocità di riproduzione
+# Auto transcription mode button accessibility/aria label
+transcription-mode-auto-aria-label = Attiva/disattiva la riproduzione automatica parola per parola
+# Mode menu button accessibility/aria label
+transcription-mode-menu-aria-label = Attiva/disattiva il menu della modalità di trascrizione

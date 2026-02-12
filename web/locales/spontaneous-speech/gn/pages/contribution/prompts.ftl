@@ -10,6 +10,11 @@ error-recording-too-short = Pe ñeñongatu mbykyeterei. Ipukukue michĩvérõ { 
 error-recording-too-long = Pe ñeñongatu ipukueterei. Ipukukue tuichavérõ { $maxDurationMinutes } aravo.
 error-fetching-prompts = Oiko peteĩ jejavy emba’eporandukuévo. Ikatukuaa eha’ã jey ag̃amieve.
 error-uploading-response = Oiko jejavy emyanyhẽnguévo upe mbohovái
+error-empty-audio = Ñeñongatu ndoikói. Pe mba’epu ñongatuha ha’ete inandíva. Eha’ã jey ag̃ave.
+error-platform-webview = Ikatu ñeñongatu ndojokupytýi ko kundahára ndive. Eiporu kundahára rembiporu’i guasu.
+error-recording-too-short-seconds = Ñeñongatu mbyky. Ipukukue ndohasaiva’erã { $minDurationSeconds } aravo’ive.
+error-recording-too-long-minutes = Ñeñongatu ipuku. Ipukukue ndohasaiva’erã { $maxDurationMinutes } aravo’i.
+cannot-play-audio = Ndaikatúi ehendu mba’epu. Eha’ã jey ag̃ave.
 prompt-submitted-success = Mbohovái ohóma hekopete
 prompt-response-deleted-success = Mbohovái oñemboguéma hekopete
 # For the button to delete a response to a prompt

@@ -12,6 +12,11 @@ error-recording-too-short = Natočenje je překrótke. Minimalne traće je { $mi
 error-recording-too-long = Natočenje je předołhe. Maksimalne traće je { $minDurationSeconds } mjeńšin.
 error-fetching-prompts = Při wotwołanju namołwow je so něšto nimokuliło. Prošu spytajće pozdźišo hišće raz.
 error-uploading-response = Při nahrawanju wotmołwy je so zmylk nastał
+error-empty-audio = Natočenje njeje so poradźiło. Zda so, zo awdiodataja je prózdna. Spytajće prošu hišće raz.
+error-platform-webview = Natočenje so snano w tutym wobmjezowanym wobhladowaku njepodpěruje. Prošu wužiwajće dospołne nałoženje wobhladowaka.
+error-recording-too-short-seconds = Natočenje je překrótke. Minimalne traće je { $minDurationSeconds } sekundow.
+error-recording-too-long-minutes = Natočenje je předołhe. Maksimalne traće je { $minDurationSeconds } mjeńšin.
+cannot-play-audio = Njeje móžno awdio wothrać. Prošu spytajće hišće raz.
 prompt-submitted-success = Wotmołwa je so wuspěšnje wotpósłała
 prompt-response-deleted-success = Wotmołwa je so wuspěšnje zhašała
 # For the button to delete a response to a prompt

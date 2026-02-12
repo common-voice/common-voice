@@ -34,3 +34,4 @@ request-language-error =
     <emailLink>{ $email }</emailLink> ахь, нас ҳара ҳаҽшәымаҳдоит!
 request-for-scripted-speech-toggle = Асценари ала ҿырҳәалатәи ажәаҳәазы аҳәара
 request-for-spontaneous-speech-toggle = Аспонтантә жәаҳәазы аҳәара
+need-help-deciding-platform = Иалхтәу аҿы ацхыраара шәҭахума?

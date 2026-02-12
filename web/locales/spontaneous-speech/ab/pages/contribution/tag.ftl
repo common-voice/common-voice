@@ -1,5 +1,6 @@
 ## Tagging Page
 
+tag-page-instruction = Шәалагарц азы <icon></icon>атекст алышәх
 tag-popover-title = Адырга алхра
 select-a-tag = Адырга алхра
 edit-tag = Адырга аредакциа азура

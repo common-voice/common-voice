@@ -22,3 +22,9 @@ do-not-section-title = สิ่งที่ไม่ควรทำ
 do-not-section-guideline-1 = ร้องขอข้อมูลที่สามารถระบุตัวตนส่วนบุคคลได้ (เช่น ชื่อ หรือข้อมูลทางการเงิน)
 do-not-section-guideline-2 = แสดงหรือชักจูงให้เกิดความรู้สึกลำเอียงหรือไม่เหมาะสม
 do-not-section-guideline-3 = ถามคำถามที่ละเอียดอ่อน
+# Code switching Guidelines
+cs-do-section-guideline-1 = ใช้คำถามสองภาษาหรือบริบท
+cs-do-section-guideline-2 = สำรวจสถานการณ์จำลองหรือเหตุการณ์ที่ไม่เป็นทางการ
+cs-do-not-section-guideline-1 = ร้องขอข้อมูลที่สามารถระบุตัวตนส่วนบุคคลได้ (เช่น ชื่อ หรือข้อมูลทางการเงิน) หรือแสดงความคิดเห็นไม่เหมาะสม
+cs-do-not-section-guideline-2 = ขอให้มีการสลับภาษา หรือขอให้มีการแปล
+cs-do-not-section-guideline-3 = ใช้ภาษาที่เป็นทางการมากเกินไป

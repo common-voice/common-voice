@@ -13,6 +13,7 @@ import {
   SentenceSubmission,
   SentenceVote,
   TakeoutResponse,
+  SPSLocalesResponse,
 } from 'common'
 import {
   createBadGatewayError,
@@ -27,6 +28,7 @@ import {
 import { Locale } from '../stores/locale'
 import { User } from '../stores/user'
 import { USER_KEY } from '../stores/root'
+import { SPONTANEOUS_SPEECH_ROOT_URL } from '../urls'
 
 interface FetchOptions {
   method?: 'GET' | 'POST' | 'PUT' | 'DELETE' | 'PATCH'
@@ -311,6 +313,13 @@ export default class API {
 
   async fetchAllLanguages(): Promise<Language[]> {
     return this.fetch(`${API_PATH}/languages`)
+  }
+
+  async fetchSpontaneousSpeechLanguages(): Promise<string[]> {
+    const data: SPSLocalesResponse = await this.fetch(
+      `${SPONTANEOUS_SPEECH_ROOT_URL}/api/v1/locales`
+    )
+    return data?.locales?.contributable || []
   }
 
   async fetchLanguageStats(): Promise<LanguageStatistics[]> {

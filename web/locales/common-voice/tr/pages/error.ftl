@@ -17,5 +17,11 @@ error-content-503 = Site en kısa sürede yeniden açılacaktır. En güncel bil
 error-title-504 = İstek zaman aşımı
 error-content-504 = İsteğin işlenmesi çok uzun sürdü. Bu genellikle geçicidir. Lütfen tekrar deneyin. Yardım için lütfen <matrixLink>Matrix topluluk sohbetine</matrixLink> katılın, <githubLink>GitHub</githubLink> aracılığıyla site sorunlarını takip edin veya <discourseLink>Discourse forumlarımızı</discourseLink> ziyaret edin.
 error-code = Hata { $code }
+# Warning message shown when none of the clips could be uploaded
+error-duplicate-clips-all =
+    { $total ->
+        [one] Kaydınızı gönderemedik. Bu kayıt daha önce gönderilmiş. Sıradaki partiden devam edebilirsiniz.
+       *[other] { $total } kaydınızı gönderemedik. Bu kayıtlar daha önce gönderilmiş. Sıradaki partiden devam edebilirsiniz.
+    }
 # Warning message shown when only some of the clips could be uploaded (uploaded count will be <5)
 error-duplicate-clips-some = { $uploaded } kaydınız yüklendi. Diğerleri daha önceden yüklenmiş. Sıradaki partiden devam edebilirsiniz.

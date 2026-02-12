@@ -8,8 +8,15 @@ prompt-page-instruction = <micIcon></micIcon> düğmesine { $actionType } ve ola
 no-prompts-continue-skipped-message = Şu anda bu dil hiçbir soru yok. Herhangi birini atladıysanız atlanan içerikten devam edebilir ya da ses kayıtlarını metne dönüştürmeye gidebilir ve daha sonra yeniden deneyebilirsiniz.
 error-skipping = Bu soruyu atlarken bir hata oluştu
 error-recording = Kayıt yaparken bir hata oluştu
+error-recording-too-short = Kayıt çok kısa. En az { $minDurationSeconds } saniye olmalıdır.
+error-recording-too-long = Kayıt çok uzun. En fazla { $maxDurationMinutes } dakika olmalıdır.
 error-fetching-prompts = Soruları yüklerken bir şey ters gitti. Lütfen daha sonra yeniden deneyin.
 error-uploading-response = Yanıtınız sunucuya gönderilirken bir hata oluştu
+error-empty-audio = Kayıt başarısız oldu. Ses dosyası boş görünüyor. Lütfen tekrar deneyin.
+error-platform-webview = Bu sınırlı tarayıcıda kayıt desteklenmiyor olabilir. Lütfen tam işlevli bir tarayıcı uygulaması kullanın.
+error-recording-too-short-seconds = Kayıt çok kısa. En az { $minDurationSeconds } saniye olmalıdır.
+error-recording-too-long-minutes = Kayıt çok uzun. En fazla { $maxDurationMinutes } dakika olmalıdır.
+cannot-play-audio = Ses çalınamadı. Lütfen tekrar deneyin.
 prompt-submitted-success = Yanıtınız başarı ile gönderildi
 prompt-response-deleted-success = Yanıt başarı ile silindi
 # For the button to delete a response to a prompt

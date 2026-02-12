@@ -10,6 +10,11 @@ datasets-positioning =
     Bu sayfayı hem diğer açık kaynaklı ses veri kümeleri için bir referans kaynağı hem de Common Voice büyümeye devam ettikçe yayımlayacağımız sürüm güncellemelerinin yuvası olarak görebilirsiniz.
 # New/upcoming datasets page headline
 datasets-headline-mdc = Mozilla Common Voice veri kümeleri artık yalnızca Mozilla Data Collective'te mevcut.
+# New/upcoming datasets page headline text
+datasets-positioning-mdc =
+    Common Voice 23.0 sürümü itibarıyla tüm Common Voice veri kümeleri yalnızca Mozilla Data Collective üzerinden indirilebilecektir.
+    
+    Bu sayfa, Mozilla Common Voice veri kümelerinin eski sürümleri için arşiv görevi görür. Katkılarının arşivden çıkarılmasını isteyen kişilerin taleplerine saygı göstermek amacıyla, bu arşiv sürümleri eğitim amacıyla kullanılmamalı, yalnızca  belirli araştırma senaryolarında kullanılmalıdır.
 datasets-speech-bubble-content = “Spontane konuşma” özelliği yolda! Duyurular için bizi takip etmeye devam edin ve güncel bilgiler için <discordLink>Discord</discordLink> sunucumuza göz atın.
 language = Dil
 download-dataset-header = Veri kümesini indirin

@@ -12,6 +12,7 @@ error-recording-too-short = Opptaket er for kort. Minimumsvarigheit er { $minDur
 error-recording-too-long = Opptaket er for langt. Maksimal varigheit er { $maxDurationMinutes } minutt.
 error-fetching-prompts = Noko gjekk gale under henting av førespurnadar. Prøv igjen seinare.
 error-uploading-response = Det oppstod ein feil under opplasting av svaret ditt
+cannot-play-audio = Kan ikkje spele av lyd. Prøv på nytt.
 prompt-submitted-success = Svaret er sendt inn
 prompt-response-deleted-success = Svaret er sletta
 # For the button to delete a response to a prompt

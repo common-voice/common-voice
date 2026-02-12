@@ -12,6 +12,11 @@ error-recording-too-short = Запись слишком короткая. Мин
 error-recording-too-long = Запись слишком длинная. Максимальная продолжительность { $maxDurationMinutes } минут.
 error-fetching-prompts = Что-то пошло не так при получении запросов. Подождите некоторое время и попробуйте снова.
 error-uploading-response = При загрузке вашего ответа произошла ошибка
+error-empty-audio = Запись не удалась. Аудиофайл кажется пустым. Повторите попытку.
+error-platform-webview = Запись может не поддерживаться в этом браузере с ограничениями. Пожалуйста, используйте полноценную браузерную версию.
+error-recording-too-short-seconds = Запись слишком короткая. Минимальная продолжительность { $minDurationSeconds } секунд.
+error-recording-too-long-minutes = Запись слишком длинная. Максимальная продолжительность { $maxDurationMinutes } минут.
+cannot-play-audio = Не удалось воспроизвести звук. Повторите попытку.
 prompt-submitted-success = Ответ успешно отправлен
 prompt-response-deleted-success = Ответ успешно удалён
 # For the button to delete a response to a prompt

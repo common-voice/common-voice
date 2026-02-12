@@ -12,6 +12,11 @@ error-recording-too-short = Nahrávka je príliš krátka. Minimálna dĺžka je
 error-recording-too-long = Nahrávka je príliš dlhá. Maximálna dĺžka je { $minDurationSeconds } sekúnd.
 error-fetching-prompts = Pri načítavaní výziev sa vyskytla chyba. Skúste to znova neskôr.
 error-uploading-response = Pri nahrávaní vašej odpovede sa vyskytla chyba
+error-empty-audio = Nahrávanie zlyhalo. Zvukový súbor je zrejme prázdny. Skúste to znova.
+error-platform-webview = Nahrávanie nemusí byť v tomto obmedzenom prehliadači podporované. Použite plnohodnotnú aplikáciu prehliadača.
+error-recording-too-short-seconds = Nahrávka je príliš krátka. Minimálna dĺžka je { $minDurationSeconds } sekúnd.
+error-recording-too-long-minutes = Nahrávka je príliš dlhá. Maximálna dĺžka je { $minDurationSeconds } sekúnd.
+cannot-play-audio = Nepodarilo sa prehrať zvuk. Skúste to znova.
 prompt-submitted-success = Odpoveď bola úspešne odoslaná
 prompt-response-deleted-success = Odpoveď bola úspešne odstránená
 # For the button to delete a response to a prompt

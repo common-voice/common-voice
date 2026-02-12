@@ -24,5 +24,6 @@ do-not-section-guideline-3 = Eporandu eñandúva
 # Code switching Guidelines
 cs-do-section-guideline-1 = Eiporu porandu térã mokõi ñe’ẽguápe
 cs-do-section-guideline-2 = Ejeporeka ñeimeha, situasiõ térã jevy’arã rehe.
+cs-do-not-section-guideline-1 = Ejerure marandu ndejehegua kuaaukarã (ikatúva téra térã marandu viru reheguáva) térã mba’e oproroko’õva
 cs-do-not-section-guideline-2 = Ejerure ayvu ñemoambue térã ñemoñe’ẽasa
 cs-do-not-section-guideline-3 = Eiporúke ñe’ẽ ikatetereíva

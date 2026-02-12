@@ -7,4 +7,5 @@ validate-page-skip-button-shortcut = S
 
 ## Validation guidelines
 
+validation-guidelines-title = Ахархәагақәа
 validation-guideline-4 = Ҳәоуқәак рҿы аҭак аҟаҵара ҟалоит

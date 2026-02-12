@@ -70,7 +70,10 @@ read-sentences-coming-soon = Karimmi yɛltɔɣili<small>(din na yirina)</small>
 
 speak-contribute-menu-tooltip = Karimmi yɛltɔɣili,labisimi bɔhisi
 read-sentences-menu-item-tooltip = Vulimi a mammaŋa yɛltɔɣa karimbu a balli ni.
+answer-questions-menu-item-tooltip = Yaami a maŋmaŋ kukoli n labisiri bɔhisi mini yɛltɔɣa shɛŋa din be a zuliya balli ni
 
 ## MENU ITEM ARIA LABELS
 
+speak-contribute-menu-aria-label = Yɛligu pari gahim bɔŋni
 read-sentences-menu-item-aria-label = karimmi  yɛltɔa din do a polo ballaa asham zuɣu
+answer-questions-menu-item-aria-label = Zaŋmi bɔhi' palli zaŋ n ti dunduŋ ŋɔ ni ka bɛ karim ka labisi

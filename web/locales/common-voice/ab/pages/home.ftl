@@ -91,6 +91,7 @@ about-menu-tooltip = Алахәыларақәа, апрессеи астатиа
 ## MENU ITEM ARIA LABELS
 
 about-us-menu-aria-label = «Ҳара иҳазкны» архиарақәа рыхкынҵа
+about-us-menu-item-aria-label = Апараметрқәа «Ҳара иҳазкны» рыхкынҵа
 
 ## Hero section
 
@@ -119,6 +120,9 @@ find-us-on-matrix = Matrix аҿы ҳшәыԥшаа
 # label for button
 find-us-on-element-action-1 = Аелемент
 find-us-on-matrix-action-2 = Егьырҭ аклиентцәа
+contribute-github = GitHub аҿы алагала аҟаҵара
+# label for button
+contribute-github-action = GitHub аҿы алагала аҟаҵара
 
 ## Developers section
 

@@ -6,6 +6,7 @@ thank-you-for-your-information = Иҭабуп шәинформациазы
 ## Gender dropdown
 
 male_masculine = Ахаҵа/Ахаҵаратә
+female_feminine = Аԥҳәыс/Аҳәсатә
 intersex = Аинтерсекс
 transgender = Атрансгендер
 non-binary = Ибинартәым

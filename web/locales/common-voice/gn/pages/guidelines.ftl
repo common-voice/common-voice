@@ -308,6 +308,7 @@ code-switching-single-token-explanation = Peteĩmi token oĩ’ỹva ojoykerete 
 # Tag Punctuation Based on Nearby Language
 code-switching-punctuation-tagging-header = Mbopapapy ñemokytãgua ipyendáva ñe’ẽ aguĩvare
 code-switching-punctuation-tagging-explanation = Emokyta ñe’ẽ ipa’ũva oĩva ijyketére asu gotyogua ndive. Techapyrã:
+code-switching-punctuation-tagging-explanation-example-2 = <purple>hákatu</purple> <blue>ejoguguakuaa pytã, hũ, hovýva</blue>, <purple> eipotáva.</purple> (BangorTalk)
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = Eñangareko umi ojoguávare
 code-switching-lookalikes-explanation-example-1 = “Footing” he’iseva ñeñani España ñe’ẽme > embohéra español-ramo

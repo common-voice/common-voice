@@ -12,6 +12,11 @@ error-recording-too-short = L’enregistrement est trop court. La durée minimal
 error-recording-too-long = L’enregistrement est trop long. La durée maximale est de { $maxDurationMicutes } minutes.
 error-fetching-prompts = Une erreur est survenue lors de la récupération des questions, veuillez réessayer plus tard
 error-uploading-response = Une erreur est survenue lors de l’envoi de votre réponse
+error-empty-audio = Échec de l’enregistrement. Le fichier audio paraît vide. Veuillez réessayer.
+error-platform-webview = L’enregistrement n’est peut-être pas pris en charge par ce navigateur limité. Utilisez un navigateur complet.
+error-recording-too-short-seconds = L’enregistrement est trop court. La durée minimale est de { $minDurationSeconds } secondes.
+error-recording-too-long-minutes = L’enregistrement est trop long. La durée maximale est de { $maxDurationMicutes } minutes.
+cannot-play-audio = Il est impossible de lire l’audio. Veuillez réessayer.
 prompt-submitted-success = Réponse envoyée
 prompt-response-deleted-success = Réponse supprimée
 # For the button to delete a response to a prompt

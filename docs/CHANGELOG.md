@@ -4,11 +4,12 @@
 
 ### [v1.157.0 (2025-02-06)](https://github.com/common-voice/common-voice/releases/tag/release-v1.157.0)
 
+- Chore: Rework New Language Request page to check for existing language datasets, give feedback, and only enable emails when some are missing, by [@bandrandr](https://github.com/bandrandr) in [#5253](https://github.com/common-voice/common-voice/pull/5253)
 - Chore: Rework audio corruption error handling, codes, attempt to issues with Apple devices, disable KB shortcuts in contribution pages while typing, adjust cache durations, optimize queries for major languages, by [@moz-bozden](https://github.com/moz-bozden) in [#5279](https://github.com/common-voice/common-voice/pull/5279)
 - Feat: Add migration helpers and unit tests for user-accents to predefined-accents and variants, by [@moz-bozden](https://github.com/moz-bozden) in [#5257](https://github.com/common-voice/common-voice/pull/5257) (in v.1.156.2)
 - Feat: Complete review of the Audio pipeline to handle multiple issues (iOS devices, corrupted audio handling caused by communication errors and related UX issues causing false positives, a line of FE issues caused by race conditions, ...) , by [@moz-bozden](https://github.com/moz-bozden) in [#5223](https://github.com/common-voice/common-voice/pull/5223) (in v.1.156.2)
 - Feat: Make use of Redis for prefetch registry to coordinate multiple instances, by [@moz-bozden](https://github.com/moz-bozden) in [#5235](https://github.com/common-voice/common-voice/pull/5235) (in v.1.156.1)
-- Refactor: Clip upload pipeline to add rate-limiting, prevent saving of corrupt audio to storage, better dedeup through LazySetCache, fix edge cases, by [@moz-bozden](https://github.com/moz-bozden) in [#5275](https://github.com/common-voice/common-voice/pull/5275) (in v.1.156.4)
+- Refactor: Clip upload pipeline to add rate-limiting, prevent saving of corrupt audio to storage, better dedup through LazySetCache, fix edge cases, by [@moz-bozden](https://github.com/moz-bozden) in [#5275](https://github.com/common-voice/common-voice/pull/5275) (in v.1.156.4)
 - Fix: Apple device buffer handling related bugs/codec specs we introduced in v1.156.2, by [@moz-bozden](https://github.com/moz-bozden) in [#5270](https://github.com/common-voice/common-voice/pull/5270) (in v.1.156.4)
 - Fix: Many Listen page related issues (state management, missing data due to network errors, silence not-needed duplicate report/vote errors), by [@moz-bozden](https://github.com/moz-bozden) in [#5273](https://github.com/common-voice/common-voice/pull/5273) (in v.1.156.4)
 - Fix: Add guards against changing user data in accent-variant migration helpers (caused ro AAC migration to fail), add more mappings for generic Romanian accents, by [@moz-bozden](https://github.com/moz-bozden) in [#5271](https://github.com/common-voice/common-voice/pull/5271) (in v.1.156.3), [#5272](https://github.com/common-voice/common-voice/pull/5272) (in v.1.156.4)
@@ -22,6 +23,7 @@
 - Fix: New user login loop from SS - when a new user creates an account while being redirected to do so it was causing a loop, by [@moz-bozden](https://github.com/moz-bozden) in [#5234](https://github.com/common-voice/common-voice/pull/5234) (in v.1.156.2)
 - Fix: Minor fix for header not hiding username in small screens, by [@moz-bozden](https://github.com/moz-bozden) in [#5233](https://github.com/common-voice/common-voice/pull/5233) (in v.1.156.1)
 - Fix: Add migration to fix two missing predefined Romanian accents because they were defined by users, by [@moz-bozden](https://github.com/moz-bozden) in [#5232](https://github.com/common-voice/common-voice/pull/5232) (in v.1.156.1)
+- Chore: Update dataset links to point to new MDC Common Voice datasets area
 - Chore: Minor Redis cache timing changes by [@moz-bozden](https://github.com/moz-bozden) (in v.1.156.2)
 
 #### Data Changes in v1.157.0
@@ -37,6 +39,8 @@
 
 #### Spontaneous Speech v1.157.0
 
+- Feat: Add tag completion to transcription editors, so that users can select from a popover list whenever they type "[", by [@moz-bozden](https://github.com/moz-bozden) in [#515](https://github.com/common-voice/spontaneous-speech/pull/515)
+- Feat: Add an advanced transcription player with slider (waveform will be coming), bw/fw 5 sec actions, slow/normal/fast playback modes, and also KB shortcut support, by [@moz-bozden](https://github.com/moz-bozden) in [#512](https://github.com/common-voice/spontaneous-speech/pull/512)
 - Feat: Add min/max duration to recordings (3s-10min) to prevent too short or too long recordings, add bg color to Listen button when playing, change server audio processing order to first check the audio before saving to storage, enhance error checking and logging, by [@moz-bozden](https://github.com/moz-bozden) in [#509](https://github.com/common-voice/spontaneous-speech/pull/509)
 - Fix: Some Apple devices' browsers in Desktop mode were not properly detected, resulting in wrong codec selection which causes "too silent" issue in Answer page or user cannot hear own recordings, by [@moz-bozden](https://github.com/moz-bozden) in [#502](https://github.com/common-voice/spontaneous-speech/pull/502) (in v1.156.2)
 

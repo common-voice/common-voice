@@ -5,6 +5,8 @@ write-instruction = Pahimi <icon></icon> yɛltɔɣili din ka ŋun su li
 write-page-subtitle = Yɛltɔɣa din pahi kpe yɛn zaŋmi m-pahi salo ni yɛn tooi nya shɛŋa cc-0 shɛhiranima zuɣu
 sentence =
     .label = Dini yi shɛli na
+sentence-input-placeholder = Kpɛhimi a yɛltɔɣili din ka ŋun su li maa kpɛ
+small-batch-sentence-input-placeholder = Kpɛhimi a yɛltɔɣili din ka ŋun su li maa kpɛ
 citation-input-placeholder = Wuhimi yɛltɔɣili maa ni yi shɛli na
 citation =
     .label = Dini yi shɛli na
@@ -19,6 +21,7 @@ new-sentence-rule-5 = Nambanima mini bachikɔba din gahim kani
 new-sentence-rule-6 = Bal' shɛli bachikɔba ka di puuni
 new-sentence-rule-7 = Sabimi dini yi luɣ' shɛŋa na dede m-pahi
 new-sentence-rule-8 = Di simdi ka di tuhi ka ni tooi di alizama ( Di simdi ni yɛltɔɣili maa karimbu be asama)
+login-instruction-multiple-sentences = pahimi yɛltɔa pam
 how-to-cite = Wula ka n yɛn ti di lahibali?
 how-to-cite-explanation-bold = Zaŋmi URL linki bee tuma maa yuli n wuhi dini yi shɛli na
 how-to-cite-explanation = Di yi nyɛ a maŋmaŋ bachinima, nyin kuli yɛlima <italicizedText> "M maŋmaŋa tuma" </italicizedText> Di simdi ni ti baŋ a ni nya lahibali maa shɛli din ni sɔŋ ka ti vihi li nya a salo dini n-nyɛ li ka di ka sulinsi gaɣibu. A yi bɔri ni a nya lahibali zaŋ kpa binyɛra ni yi shɛli na polo nyin nyami ti  <guidelinesLink> Sodolisi intɛnɛɛti ni gbambiɛlinli </guidelinesLink>.
@@ -28,8 +31,11 @@ add-sentence-success = Yɛltɔɣ' gaŋa deeya
 add-sentence-error = Muɣisigu beni yɛltɔɣili pahibu ni
 required-field = Pahimi suɣulo sabimi polo ŋɔ ni
 single-sentence-submission = Yɛltɔɣ' gaŋa zaŋ ti
+small-batch-sentence-submission = Yɛltɔɣa bela di ni zaŋ niŋ
 bulk-sentence-submission = Yɛltɔɣa din galisi zaŋ ti
 single-sentence = Yɛltɔɣ' gaŋa
+small-batch-sentence = Bela di ni
+bulk-sentence = pam di ni
 sentence-domain-combobox-label = Yɛltɔɣili ni yi yaɣ' shɛli na
 sentence-domain-select-placeholder = Piimi yaɣa diba ata (a yi bɔra)
 # Sentence Domain dropdown option
@@ -113,7 +119,7 @@ transcribe-audio-menu-item-tooltip = Labi yaa kukoya vulindisi
 
 ## MENU ITEM ARIA LABELS
 
-write-contribute-menu-aria-label = sabimi gaham bɔŋ ni
+write-contribute-menu-aria-label = sabimi pari gahim pii bɔŋ ni
 add-sentences-menu-item-aria-label = Pahimi yɛltɔɣa pala ka dundɔŋ ŋɔ nim karim
 review-sentences-menu-item-aria-label = Labi yuli yɛltɔɣa shɛŋa dundɔŋ ŋɔ nima ni zaŋ bahina
 add-questions-menu-item-aria-label = Zaŋmi bɔhi' pala sɔŋna ka dundɔŋnim karim ka labisi
