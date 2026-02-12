@@ -21,6 +21,18 @@ interface TranscodeResult {
 const DEFAULT_FFMPEG_ARGS = [
   '-loglevel',
   'error',
+  // Resilience flags for piped input from mobile browsers:
+  //  genpts        - regenerate missing/broken PTS timestamps (common in fMP4 chunks)
+  //  discardcorrupt - drop corrupt packets instead of aborting the whole transcode
+  '-fflags',
+  '+genpts+discardcorrupt',
+  // Give ffmpeg enough data/time to detect format from piped input.
+  // Defaults can be too short for MP4 containers with padding after the header.
+  '-analyzeduration',
+  '20000000',
+  // Max recording: 17s at 128 kbps = ~275 KB
+  '-probesize',
+  '1048576',
   '-i',
   'pipe:0',
   '-vn',
