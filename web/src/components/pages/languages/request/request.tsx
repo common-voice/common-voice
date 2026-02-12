@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { useHistory } from 'react-router-dom'
 import { Localized } from '@fluent/react'
 
@@ -93,19 +93,22 @@ const LanguagesRequestFormPage = () => {
   }
 
   const isContributable = (locale: string) => {
-    return contributableLocales.includes(locale)
+    return Array.isArray(contributableLocales) && contributableLocales.includes(locale)
   }
 
   const isTranslated = (locale: string) => {
-    return availableLocales.includes(locale)
+    return Array.isArray(availableLocales) && availableLocales.includes(locale)
   }
 
   const hasSpontaneousSpeech = (locale: string) => {
-    return spontaneousSpeechLocales.includes(locale)
+    // required for tests
+    return (
+      Array.isArray(spontaneousSpeechLocales) &&
+      spontaneousSpeechLocales.includes(locale)
+    )
   }
-
   const submitAvailable = (locale: string) => {
-    if (!languages.includes(locale) || !hasSpontaneousSpeech(locale)) {
+    if (!Array.isArray(languages) || !languages.includes(locale) || !hasSpontaneousSpeech(locale)) {
       return true
     }
     return false
@@ -127,12 +130,15 @@ const LanguagesRequestFormPage = () => {
       return query
         ? // eslint-disable-next-line @typescript-eslint/no-explicit-any
           languages.filter((locale: any) => {
+            if (!locale) return false
             const q = query.toLowerCase().trim()
+            const native = (nativeNames && nativeNames[locale]) || ''
+            const english = (englishNames && englishNames[locale]) || ''
             return (
               locale.includes(q) ||
               locale.toLowerCase().includes(q) ||
-              (nativeNames[locale] || '').toLowerCase().includes(q) ||
-              (englishNames[locale] || '').toLowerCase().includes(q)
+              native.toLowerCase().includes(q) ||
+              english.toLowerCase().includes(q)
             )
           })
         : languages
@@ -222,7 +228,7 @@ const LanguagesRequestFormPage = () => {
             emailLink: <StyledLink href={`mailto:${EMAIL_ADDRESS}`} />,
           }}
           vars={{ email: EMAIL_ADDRESS }}>
-          <p />
+          <p data-testid="request-language-error" />
         </Localized>
       </ErrorPage>
     )
@@ -259,7 +265,7 @@ const LanguagesRequestFormPage = () => {
               toggleSearch={toggleSearch}
             />
 
-            {query !== '' && languagesFiltered.length !== 0 ? (
+            {query !== '' && languagesFiltered && languagesFiltered.length !== 0 ? (
               <span className="dropdown_menu">
                 {languagesFiltered?.map((locale: string) => (
                   <div className="dropdown_item_container" key={locale}>
@@ -271,7 +277,7 @@ const LanguagesRequestFormPage = () => {
                         setLanguage(locale)
                         setQuery(getFullName(locale))
                         setLanguagesFiltered([locale])
-                        if (!languages.includes(locale)) {
+                        if (Array.isArray(languages) && !languages.includes(locale)) {
                           setScriptedSpeechToggled(true)
                         }
                         if (!hasSpontaneousSpeech(locale)) {
@@ -355,7 +361,7 @@ const LanguagesRequestFormPage = () => {
             )}
             <p />
             {query !== '' &&
-            (languagesFiltered.length == 0 ||
+            ((languagesFiltered && languagesFiltered.length == 0) ||
               (language && submitAvailable(language))) ? (
               <span>
                 <p className="languages-request-page__content__form__required">
@@ -366,6 +372,7 @@ const LanguagesRequestFormPage = () => {
                   id="request-language-form-email"
                   attrs={{ label: true }}>
                   <LabeledInput
+                    dataTestId="request-language-form-email"
                     value={emailValue}
                     onChange={handleEmailInputChange}
                     required
@@ -376,17 +383,17 @@ const LanguagesRequestFormPage = () => {
                 <div className="toggles-container">
                   <Toggle
                     label={
-                      languages.includes(language)
+                      Array.isArray(languages) && languages.includes(language)
                         ? 'request-language-already-available-scs'
                         : 'request-for-scripted-speech-toggle'
                     }
                     checked={
-                      languages.includes(language)
+                      Array.isArray(languages) && languages.includes(language)
                         ? true
                         : scriptedSpeechToggled
                     }
                     onToggle={setScriptedSpeechToggled}
-                    disabled={languages.includes(language) ? true : false}
+                    disabled={Array.isArray(languages) && languages.includes(language) ? true : false}
                   />
                   <div className="hr" />
                   <Toggle
@@ -450,6 +457,7 @@ const LanguagesRequestFormPage = () => {
                     id="request-language-form-info"
                     attrs={{ label: true }}>
                     <LabeledTextArea
+                      dataTestId="request-language-form-info"
                       className="languages-request-page__content__form__text-area"
                       value={languageInfoValue}
                       onChange={handleLanguageInfoTextAreaChange}
@@ -458,6 +466,7 @@ const LanguagesRequestFormPage = () => {
                   </Localized>
 
                   <LabeledCheckbox
+                    data-testid="request-language-privacy-checkbox"
                     label={
                       <Localized
                         id="accept-privacy"

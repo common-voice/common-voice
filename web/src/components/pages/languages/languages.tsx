@@ -64,6 +64,8 @@ export const LanguageSearch = ({
     <div className="search">
       <Localized id="language-search-input" attrs={{ placeholder: true }}>
         <input
+          id="language-search-input"
+          data-testid="language-search-input"
           type="text"
           value={query}
           onChange={handleQueryChange}
