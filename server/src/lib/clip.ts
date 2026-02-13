@@ -17,7 +17,6 @@ import { TimeUnits } from 'common'
 import {
   ChallengeToken,
   challengeTokens,
-  MAX_RECORDING_MS,
   MAX_RECORDING_MS_WITH_HEADROOM,
 } from 'common'
 import validate from './validation'
@@ -44,7 +43,15 @@ enum ERRORS {
   AUDIO_CORRUPT = 'AUDIO_CORRUPT',
   RECORDING_TOO_LONG = 'RECORDING_TOO_LONG',
   AUDIO_PAYLOAD_TOO_LARGE = 'AUDIO_PAYLOAD_TOO_LARGE',
+  UPLOAD_TOO_LARGE = 'UPLOAD_TOO_LARGE',
+  SERVER_ERROR = 'SERVER_ERROR',
 }
+
+// Expected: max 17s @ 128kbps = ~275 KB
+// Allow 100% margin for container overhead = 550 KB
+// Absolute safety limit: 2 MB
+const MAX_UPLOAD_SIZE_BYTES = 2 * 1024 * 1024 // 2 MB
+const MAX_BUFFER_SIZE = 3 * 1024 * 1024 // 3 MB hard limit (extra margin)
 
 /**
  * Clip - Responsible for saving and serving clips.
@@ -234,11 +241,65 @@ export default class Clip {
     const source = headers.source || 'unidentified'
     const format = headers['content-type']
     const size = headers['content-length']
+    const userAgent = headers['user-agent'] || ''
+
+    // ============================================================================
+    // VALIDATION
+    // ============================================================================
+
+    // SIZE VALIDATION - Prevent OOM from oversized uploads
+    if (size) {
+      const sizeInBytes = parseInt(size, 10)
+
+      if (!isNaN(sizeInBytes) && sizeInBytes > MAX_UPLOAD_SIZE_BYTES) {
+        console.error(
+          `[saveClip] Upload too large: ${sizeInBytes} bytes (max ${MAX_UPLOAD_SIZE_BYTES})`,
+          {
+            client_id,
+            sentenceId,
+            userAgent: userAgent.substring(0, 100),
+            format,
+          }
+        )
+
+        // Track in Sentry
+        Sentry.captureMessage('Upload size exceeded limit', {
+          level: 'warning',
+          tags: { category: 'oversized-upload' },
+          extra: {
+            size: sizeInBytes,
+            maxSize: MAX_UPLOAD_SIZE_BYTES,
+            client_id,
+            userAgent: userAgent.substring(0, 100),
+            format,
+          },
+        })
+
+        this.clipSaveError(
+          headers,
+          response,
+          413, // 413 Payload Too Large
+          `Upload too large: ${Math.round(
+            sizeInBytes / 1024
+          )} KB (max ${Math.round(MAX_UPLOAD_SIZE_BYTES / 1024)} KB)`,
+          ERRORS.UPLOAD_TOO_LARGE,
+          'clip'
+        )
+        return
+      }
+    } else {
+      // Content-Length missing - log it
+      console.warn('[saveClip] Missing Content-Length header', {
+        client_id,
+        userAgent: userAgent.substring(0, 100),
+        format,
+      })
+    }
 
     // Log if Content-Type is completely missing
     if (!format) {
       console.warn('[saveClip] Missing Content-Type header', {
-        userAgent: headers['user-agent'],
+        userAgent: userAgent.substring(0, 100),
         client_id,
       })
     }
@@ -268,12 +329,20 @@ export default class Clip {
       return
     }
 
+    // ============================================================================
+    // SETUP
+    // ============================================================================
+
     const folder = client_id + '/'
     const filePrefix = sentenceId
     const clipFileName = folder + filePrefix + '.mp3'
     const metadata = `${clipFileName} (${size} bytes, ${format}) from ${source}`
 
     const userUploadsKey = `clip-uploads:${client_id}`
+
+    // ============================================================================
+    // DEDUPLICATION
+    // ============================================================================
 
     try {
       const isDuplicateUpload = await LazySetCache.isMember(
@@ -296,6 +365,10 @@ export default class Clip {
       console.log(`[saveClip] Duplicate detected from DB: ${clipFileName}`)
       return response.json({ filePrefix: sentenceId })
     }
+
+    // ============================================================================
+    // MP4/AAC DETECTION AND BUFFERING WITH SIZE PROTECTION
+    // ============================================================================
 
     let audioInput: NodeJS.ReadableStream = request
 
@@ -331,12 +404,66 @@ export default class Clip {
       )
 
       const chunks: Buffer[] = []
+      let totalSize = 0
 
-      await new Promise<void>((resolve, reject) => {
-        request.on('data', (chunk: Buffer) => chunks.push(chunk))
-        request.on('end', resolve)
-        request.on('error', reject)
-      })
+      // Hard limit during buffering to prevent memory exhaustion
+      // Even if Content-Length was missing or wrong, this protects us
+
+      try {
+        await new Promise<void>((resolve, reject) => {
+          request.on('data', (chunk: Buffer) => {
+            totalSize += chunk.length
+
+            // Protect against runaway buffering
+            if (totalSize > MAX_BUFFER_SIZE) {
+              request.destroy() // Stop reading immediately
+              reject(
+                new Error(
+                  `Buffer overflow: ${totalSize} bytes exceeds limit ${MAX_BUFFER_SIZE}`
+                )
+              )
+              return
+            }
+
+            chunks.push(chunk)
+          })
+
+          request.on('end', resolve)
+          request.on('error', reject)
+        })
+      } catch (bufferError) {
+        console.error('[saveClip] Buffering failed:', bufferError)
+
+        // Track buffer overflow
+        if (
+          bufferError instanceof Error &&
+          bufferError.message.includes('overflow')
+        ) {
+          Sentry.captureMessage('Buffer overflow during upload', {
+            level: 'error',
+            tags: { category: 'buffer-overflow' },
+            extra: {
+              totalSize,
+              maxBufferSize: MAX_BUFFER_SIZE,
+              client_id,
+              userAgent: userAgent.substring(0, 100),
+              format,
+            },
+          })
+
+          this.clipSaveError(
+            headers,
+            response,
+            413,
+            'Upload too large during buffering',
+            ERRORS.UPLOAD_TOO_LARGE,
+            'clip'
+          )
+          return
+        }
+
+        throw bufferError
+      }
 
       const fullBuffer = Buffer.concat(chunks)
 
@@ -352,19 +479,25 @@ export default class Clip {
         return
       }
 
+      console.log(
+        `[saveClip] Buffered ${fullBuffer.length} bytes for ${clipFileName}`
+      )
+
       audioInput = Readable.from(fullBuffer)
     } else if (isAAC) {
       console.log(
-        `[saveClip] AAC/MP4 detected - FLAG_BUFFER_STREAM_ENABLED=false: ${format} for ${clipFileName}`
+        `[saveClip] AAC/MP4 detected - FLAG_BUFFER_STREAM_ENABLED=false: ${format}`
       )
     }
+
+    // ============================================================================
+    // TRANSCODING
+    // ============================================================================
 
     let transcodeJob: Mp3TranscodeJob | null = null
 
     try {
-      if (!getConfig().PROD) {
-        console.log(`[saveClip] Starting transcode for ${metadata}`)
-      }
+      console.log(`[saveClip] START TRANSCODE: ${metadata}`)
 
       // Create transcode job
       transcodeJob = await createMp3TranscodeJob(audioInput)
@@ -422,7 +555,7 @@ export default class Clip {
 
       if (!getConfig().PROD) {
         console.log(
-          `[saveClip] Upload successful: ${clipFileName} (duration: ${durationInSec}s)`
+          `[saveClip] UPLOAD SUCCESSFUL: ${clipFileName} (duration: ${durationInSec}s)`
         )
       }
 
@@ -519,10 +652,25 @@ export default class Clip {
         ) {
           reason = 'SERVER_OOM_KILL'
           isServerError = true
+          // Get memory stats
+          const memUsage = process.memoryUsage()
+          const memoryStats = {
+            heapUsed: `${Math.round(memUsage.heapUsed / 1024 / 1024)} MB`,
+            heapTotal: `${Math.round(memUsage.heapTotal / 1024 / 1024)} MB`,
+            rss: `${Math.round(memUsage.rss / 1024 / 1024)} MB`,
+            external: `${Math.round(memUsage.external / 1024 / 1024)} MB`,
+          }
           details = {
             error: 'Server ran out of memory during processing',
             suggestion: 'Please try again in a moment',
+            memoryStats: memoryStats,
           }
+          console.error('[saveClip] OOM KILL DETECTED:', {
+            format,
+            size,
+            userAgent: userAgent.substring(0, 100),
+            ...memoryStats,
+          })
         } else if (message === ERRORS.RECORDING_TOO_LONG) {
           reason = 'TOO_LONG'
           details = {
@@ -543,20 +691,25 @@ export default class Clip {
           details = { error: message }
         }
 
-        // Log to Sentry
+        // Enhanced Sentry logging
         Sentry.withScope(scope => {
-          if (isServerError) {
-            scope.setFingerprint(['save_clip_error', 'SERVER_ERROR', reason])
-          } else {
-            scope.setFingerprint(['save_clip_error', 'AUDIO_CORRUPT', reason])
-          }
+          scope.setFingerprint([
+            'save_clip_error',
+            isServerError ? 'SERVER_ERROR' : 'AUDIO_CORRUPT',
+            reason,
+          ])
           scope.setExtra('error_details', details)
           scope.setExtra('metadata', metadata)
           scope.setExtra('client_id', client_id)
+          scope.setExtra('format', format)
+          scope.setExtra('size', size)
+          scope.setExtra('userAgent', userAgent.substring(0, 100))
+
           Sentry.captureMessage(
             `save_clip_error: ${
               isServerError ? 'SERVER_ERROR' : 'AUDIO_CORRUPT'
-            }: ${reason}`
+            }: ${reason}`,
+            isServerError ? 'error' : 'warning'
           )
         })
 
@@ -567,7 +720,7 @@ export default class Clip {
             response,
             500,
             'Server processing error',
-            'SERVER_ERROR',
+            ERRORS.SERVER_ERROR,
             'clip'
           )
         } else {
