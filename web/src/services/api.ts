@@ -140,9 +140,20 @@ export default class API {
   /**
    * Handle system errors (5xx) that indicate infrastructure failures
    * These will trigger the Error Boundary and show system error pages
+   *
+   * Exception: Clip save errors (save_clip_error) at 500 should not crash
+   * the page, but are still non-retryable server errors. They're thrown as
+   * BusinessLogicError so the Speak page can catch and handle them gracefully
+   * (alert user, skip clip) without triggering the Error Boundary.
    */
   private async handleSystemError(response: Response): Promise<never> {
     const errorText = await response.text()
+
+    // Clip save server errors (OOM, transcode failures) should not retry
+    // but also should not crash the page - let Speak page handle gracefully
+    if (errorText.includes('save_clip_error')) {
+      throw new BusinessLogicError(errorText, response.status)
+    }
 
     switch (response.status) {
       case 502:
@@ -171,10 +182,14 @@ export default class API {
         throw new NotFoundError(errorText)
 
       case 409:
-        if (response.statusText.includes('ALREADY_EXISTS')) {
-          throw new ConflictError(response.statusText)
+        if (errorText.includes('ALREADY_EXISTS')) {
+          throw new ConflictError(errorText)
         }
         throw new ConflictError(errorText)
+
+      case 413:
+        // Upload too large (clip size validation)
+        throw new BusinessLogicError(errorText, response.status)
 
       case 429:
         throw new RateLimitError(
@@ -182,11 +197,6 @@ export default class API {
         )
 
       default:
-        // Generic 4xx error - special case clip saving related
-        if (response.statusText.includes('save_clip_error')) {
-          throw new BusinessLogicError(response.statusText, response.status)
-        }
-        // Generic 4xx errors
         throw new BusinessLogicError(errorText, response.status)
     }
   }

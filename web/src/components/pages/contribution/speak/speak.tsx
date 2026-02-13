@@ -520,8 +520,17 @@ class SpeakPage extends React.Component<Props, State> {
               continue
             }
 
-            // AUDIO_CORRUPT errors (TOO_LONG, TOO_LARGE, PROCESSING_FAILED, etc.)
-            // User cannot fix these - audio is already recorded, don't retry
+            // UPLOAD_TOO_LARGE - file exceeds server size limit (413)
+            // User cannot fix this - the recorded audio is already too large
+            if (error.message.includes('UPLOAD_TOO_LARGE')) {
+              retries = 0
+              alert(getString('error-clip-upload-too-large'))
+              continue
+            }
+
+            // AUDIO_CORRUPT errors (TOO_LONG, CORRUPT_DATA, etc.) - 422
+            // User cannot fix these - audio is already recorded and corrupted
+            // Often caused by bad media implementations in custom browsers
             if (error.message.includes('AUDIO_CORRUPT')) {
               retries = 0
               alert(
@@ -532,7 +541,17 @@ class SpeakPage extends React.Component<Props, State> {
               continue
             }
 
-            // Only retry on server/network errors (not audio issues)
+            // SERVER_ERROR - server-side processing failure (OOM, transcode crash) - 500
+            // Do not retry - server errors indicate infrastructure problems that
+            // won't be fixed by retrying. User should reload page or try later.
+            if (error.message.includes('SERVER_ERROR')) {
+              retries = 0
+              alert(getString('error-clip-upload-server-error'))
+              continue
+            }
+
+            // Transient network errors (timeouts, DNS failures, connection drops)
+            // These may succeed on retry - allow 3 attempts with 1s delay
             let key = 'error-clip-upload'
             if (error.message.includes('save_clip_error')) {
               key = 'error-clip-upload-server'
