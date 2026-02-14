@@ -326,10 +326,24 @@ export default class API {
   }
 
   async fetchSpontaneousSpeechLanguages(): Promise<string[]> {
-    const data: SPSLocalesResponse = await this.fetch(
-      `${SPONTANEOUS_SPEECH_ROOT_URL}/api/v1/locales`
-    )
-    return data?.locales?.contributable || []
+    try {
+      // Create an AbortController for timeout
+      const controller = new AbortController()
+      const timeoutId = setTimeout(() => controller.abort(), 3_000) // 3 second timeout
+
+      const data: SPSLocalesResponse = await this.fetch(
+        `${SPONTANEOUS_SPEECH_ROOT_URL}/api/v1/locales`,
+        { signal: controller.signal }
+      )
+
+      clearTimeout(timeoutId)
+      return data?.locales?.contributable || []
+    } catch (error) {
+      // Return empty array if endpoint is unreachable or times out
+      // This prevents the app from crashing when the SPS service is down
+      console.warn('Failed to fetch spontaneous speech languages:', error)
+      return []
+    }
   }
 
   async fetchLanguageStats(): Promise<LanguageStatistics[]> {
