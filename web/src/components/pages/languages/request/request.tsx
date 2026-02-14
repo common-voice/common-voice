@@ -93,7 +93,10 @@ const LanguagesRequestFormPage = () => {
   }
 
   const isContributable = (locale: string) => {
-    return Array.isArray(contributableLocales) && contributableLocales.includes(locale)
+    return (
+      Array.isArray(contributableLocales) &&
+      contributableLocales.includes(locale)
+    )
   }
 
   const isTranslated = (locale: string) => {
@@ -108,7 +111,11 @@ const LanguagesRequestFormPage = () => {
     )
   }
   const submitAvailable = (locale: string) => {
-    if (!Array.isArray(languages) || !languages.includes(locale) || !hasSpontaneousSpeech(locale)) {
+    if (
+      !Array.isArray(languages) ||
+      !languages.includes(locale) ||
+      !hasSpontaneousSpeech(locale)
+    ) {
       return true
     }
     return false
@@ -265,7 +272,9 @@ const LanguagesRequestFormPage = () => {
               toggleSearch={toggleSearch}
             />
 
-            {query !== '' && languagesFiltered && languagesFiltered.length !== 0 ? (
+            {query !== '' &&
+            languagesFiltered &&
+            languagesFiltered.length !== 0 ? (
               <span className="dropdown_menu">
                 {languagesFiltered?.map((locale: string) => (
                   <div className="dropdown_item_container" key={locale}>
@@ -277,7 +286,10 @@ const LanguagesRequestFormPage = () => {
                         setLanguage(locale)
                         setQuery(getFullName(locale))
                         setLanguagesFiltered([locale])
-                        if (Array.isArray(languages) && !languages.includes(locale)) {
+                        if (
+                          Array.isArray(languages) &&
+                          !languages.includes(locale)
+                        ) {
                           setScriptedSpeechToggled(true)
                         }
                         if (!hasSpontaneousSpeech(locale)) {
@@ -393,7 +405,11 @@ const LanguagesRequestFormPage = () => {
                         : scriptedSpeechToggled
                     }
                     onToggle={setScriptedSpeechToggled}
-                    disabled={Array.isArray(languages) && languages.includes(language) ? true : false}
+                    disabled={
+                      Array.isArray(languages) && languages.includes(language)
+                        ? true
+                        : false
+                    }
                   />
                   <div className="hr" />
                   <Toggle
