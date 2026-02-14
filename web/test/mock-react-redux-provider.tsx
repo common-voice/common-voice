@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { Provider } from 'react-redux';
-import { createStore } from 'redux';
+import { applyMiddleware, createStore } from 'redux';
+import thunk from 'redux-thunk';
 
 import StateTree from '../src/stores/tree';
 import { reducers } from '../src/stores/root';
@@ -31,9 +32,10 @@ const INITIAL_STATE = {
       pt: 'Português',
       tl: 'Tagalog',
     },
+    spontaneousSpeechLanguages: [],
   },
 } as Partial<StateTree>;
-const store = createStore(reducers, INITIAL_STATE as StateTree);
+const store = createStore(reducers, INITIAL_STATE as StateTree, applyMiddleware(thunk));
 
 jest.mock('../src/services/api', () => {
   return {
