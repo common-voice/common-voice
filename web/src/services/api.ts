@@ -73,7 +73,7 @@ export default class API {
    */
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   private async fetch(path: string, options: FetchOptions = {}): Promise<any> {
-    const { method, headers, body, isJSON } = Object.assign(
+    const { method, headers, body, isJSON, signal } = Object.assign(
       {
         isJSON: true,
       },
@@ -105,6 +105,7 @@ export default class API {
             ? body
             : JSON.stringify(body)
           : undefined,
+        ...(signal && { signal }),
       })
 
       // Handle special case for success
