@@ -12,6 +12,8 @@ record-no-mic-found = Žeden mikrofon namakany.
 record-error-too-short = Nagraśe jo było pśekrotke.
 record-error-too-long = Nagraśe jo było pśedłujke.
 record-error-too-quiet = Nagraśe jo było pśeśiche.
+record-error-empty-recording = Žedno awdio jo se nagrało. Pšosym pśeglědujśo swój mikrofon a wopytajśo hyšći raz.
+record-error-unknown-format = Format awdio njedajo se zwěsćiś. Pšosym wopytajśo drugi wobglědowak wužywaś.
 record-error-uploaded-clip-corrupted =
     Zda se, až waše awdionagrawanje je wobškóźone. To móžo so staś, dokulaž daju:
     • problemy z kompatibelnosću wobglědowaka (wopytajśo drugi wobglědowak wužiyaś)

@@ -400,6 +400,7 @@ uk = Wcraneg
 ukv = Kuku
 ur = Urdu
 ush = Ushojo
+usp = Uspanteko
 uz = Wsbeceg
 var = Huarijio
 ve = Tshivenda

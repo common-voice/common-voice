@@ -41,3 +41,10 @@ need-help-deciding-platform = Χρειάζεστε βοήθεια για να α
 need-help-deciding-platform-explanation-1 = Η <strong>Ομιλία με σενάριο</strong> (το κλασικό Common Voice) είναι εκεί όπου μπορείτε να διαβάσετε προτάσεις στη γλώσσα σας.
 need-help-deciding-platform-explanation-2 = Η <strong>Αυθόρμητη ομιλία</strong> είναι ένα νέο μέρος του Common Voice, όπου μπορείτε να απαντήσετε σε ερωτήσεις με έναν πιο οργανικό και καθημερινό τρόπο.
 need-help-deciding-platform-explanation-3 = Αν δεν βλέπετε τη γλώσσα σας σε κανένα από τα μέρη της πλατφόρμας, επιλέξτε και τα δύο.
+request-language-found-cv-contribution =
+    Ωραία! Η γλώσσα σας είναι ήδη ενεργή στο <strong>scripted Speech</strong> Common Voice. 
+    Μπορείτε να συνεισφέρετε <homePageLink>εδώ</homePageLink>.
+request-language-found-cv-sentences-lack =
+    Η γλώσσα σας είναι ήδη στη λίστα γλωσσών του Common Voice.
+    Μπορείτε να διευκολύνετε την εκκίνηση της γλώσσας στο <strong>Scripted Speech</strong>
+    συνεισφέροντας στις προτάσεις <sentencesContributionLink>εδώ</sentencesContributionLink>.

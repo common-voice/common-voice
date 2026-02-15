@@ -12,6 +12,8 @@ record-no-mic-found = Nenašiel sa žiadny mikrofón.
 record-error-too-short = Vaša nahrávka bola príliš krátka.
 record-error-too-long = Vaša nahrávka bola príliš dlhá.
 record-error-too-quiet = Vaša nahrávka bola príliš tichá.
+record-error-empty-recording = Nebol zaznamenaný žiadny zvuk. Skontrolujte mikrofón a skúste to znova.
+record-error-unknown-format = Nepodarilo sa určiť formát zvuku. Skúste použiť iný prehliadač.
 record-error-uploaded-clip-corrupted =
     Zdá sa, že váš zvukový záznam je poškodený. Môže k tomu dôjsť z týchto dôvodov:
     

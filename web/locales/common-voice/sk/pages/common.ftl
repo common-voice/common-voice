@@ -400,6 +400,7 @@ uk = Ukrajinčina
 ukv = Kuku
 ur = Urdčina
 ush = Ushojo
+usp = Uspanteko
 uz = Uzbečtina
 var = Huarijio
 ve = Čivenda

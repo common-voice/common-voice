@@ -19,9 +19,11 @@ as = asamščina
 ast = asturijščina
 az = azerbajdžanščina
 ba = baškirščina
+bal = beludžijščina
 bas = basa
 be = beloruščina
 bg = bolgarščina
+bgp = vzhodna beludžijščina
 bm = Bambara
 bn = bengalščina
 bnn = bununščina
@@ -103,6 +105,7 @@ ky = kirgiščina
 lb = luksemburščina
 lg = lugandščina
 lij = ligurščina
+lld = ladinščina
 ln = lingalščina
 lo = laoščina
 lt = litovščina
@@ -133,6 +136,7 @@ os = osetinščina
 pa-IN = pandžabščina
 pap = papiamento
 pap-AW = papiamento (Aruba)
+pau = palavščina
 pl = poljščina
 ps = paštunščina
 pt = portugalščina
@@ -140,6 +144,7 @@ rm-sursilv = retoromanščina (sursilvan)
 rm-vallader = retoromanščina (vallader)
 ro = romunščina
 ru = ruščina
+rup = aromunščina
 rw = ruandščina
 sah = jakutščina
 sc = sardinščina
@@ -227,8 +232,33 @@ email-opt-in-info-sub-with-challenge = Prejemajte e-poštna sporočila, kot so o
 email-opt-in-privacy-v2 = S potrditvijo prejemanja e-pošte soglašate z ravnanjem s temi podatki, kot je razloženo v Mozillini <privacyLink>politiki zasebnosti</privacyLink>.
 indicates-required = * Zahtevano polje
 not-available-abbreviation = Ni na voljo
+# Text shown on a button that can be clicked to copy text to the clipboard
+copy = Kopiraj
+# Text shown on a button that can be clicked to cancel an action
+cancel = Prekliči
+# Text shown on a button that can be clicked to delete an item
+delete = Izbriši
 
 ## Donate banner
 
 # Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>Potrebujemo</mark><br/><mark>vašo pomoč!</mark>
+
+## MDC Announcement
+
+# Aria text for button which opens MDC on a new page
+announcement-mdc-button-aria-text = Odpre se v novem zavihku
+
+## Common Language/Dataset Selector & SearchBox Related
+
+# Generic search box defaults
+searchbox-default-label = Začnite tipkati za iskanje
+searchbox-default-placeholder = Išči ...
+searchbox-default-aria-label = Išči
+dropdown-no-results = Ni zadetkov
+# Common Voice Dataset=Language search box
+dataset-searchbox-label = Spremeni jezik prikaza in naborov podatkov
+dataset-searchbox-placeholder = Iskanje jezika ...
+dataset-searchbox-aria-label = Išči jezik
+dataset-search-no-results = Ni najdenih ujemajočih se jezikov
+request-new-language = Predlagaj nov jezik

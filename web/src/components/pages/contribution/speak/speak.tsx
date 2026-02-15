@@ -133,6 +133,8 @@ class SpeakPage extends React.Component<Props, State> {
 
   // Guard against concurrent submissions (class-level instead of state-level)
   private _isSubmitting = false
+  // Guard against concurrent record button clicks (prevents DOM race conditions)
+  private _isProcessingRecordClick = false
   // Track mounted state to prevent setState on unmounted component
   private _isMounted = false
 
@@ -207,13 +209,19 @@ class SpeakPage extends React.Component<Props, State> {
     document.removeEventListener('keyup', this.handleKeyUp)
     document.removeEventListener('visibilitychange', this.releaseMicrophone)
 
-    if (!this.isRecording) return
-
-    // Call stop without awaiting - let it clean up in the background
-    this.audio.stop().catch(error => {
-      // Audio may not be ready - ignore error during unmount
-      console.log('Could not stop recording during unmount:', error)
-    })
+    // Always release microphone stream to stop browser tab indicator
+    // The microphone may be initialized (init() called) but not actively recording
+    // Without release(), the mic icon keeps flashing even after leaving the page
+    if (this.audio) {
+      if (this.isRecording) {
+        // Stop active recording first, then release will be called
+        this.audio.stop().catch(error => {
+          console.log('Could not stop recording during unmount:', error)
+        })
+      }
+      // Release microphone regardless of recording status
+      this.audio.release()
+    }
   }
 
   private get isRecording() {
@@ -329,13 +337,22 @@ class SpeakPage extends React.Component<Props, State> {
   }
 
   private handleRecordClick = async () => {
-    if (this.state.recordingStatus === 'waiting') return
+    // Prevent race conditions from double-click/double-tap/rapid keyboard input
+    // Use synchronous flag check BEFORE any state reads to prevent DOM insertBefore errors
+    if (this._isProcessingRecordClick || this.state.recordingStatus === 'waiting') {
+      return
+    }
+
+    // Set synchronous guard immediately (before any async operations or state updates)
+    this._isProcessingRecordClick = true
     const isRecording = this.isRecording
 
     this.setState({ recordingStatus: 'waiting' })
 
     if (isRecording) {
       this.saveRecording()
+      // Reset guard after recording save is initiated
+      this._isProcessingRecordClick = false
       return
     }
 
@@ -349,6 +366,9 @@ class SpeakPage extends React.Component<Props, State> {
         this.setState({ recordingStatus: null })
         throw err
       }
+    } finally {
+      // Always reset guard, even on error
+      this._isProcessingRecordClick = false
     }
   }
 
@@ -520,8 +540,17 @@ class SpeakPage extends React.Component<Props, State> {
               continue
             }
 
-            // AUDIO_CORRUPT errors (TOO_LONG, TOO_LARGE, PROCESSING_FAILED, etc.)
-            // User cannot fix these - audio is already recorded, don't retry
+            // UPLOAD_TOO_LARGE - file exceeds server size limit (413)
+            // User cannot fix this - the recorded audio is already too large
+            if (error.message.includes('UPLOAD_TOO_LARGE')) {
+              retries = 0
+              alert(getString('error-clip-upload-too-large'))
+              continue
+            }
+
+            // AUDIO_CORRUPT errors (TOO_LONG, CORRUPT_DATA, etc.) - 422
+            // User cannot fix these - audio is already recorded and corrupted
+            // Often caused by bad media implementations in custom browsers
             if (error.message.includes('AUDIO_CORRUPT')) {
               retries = 0
               alert(
@@ -532,7 +561,17 @@ class SpeakPage extends React.Component<Props, State> {
               continue
             }
 
-            // Only retry on server/network errors (not audio issues)
+            // SERVER_ERROR - server-side processing failure (OOM, transcode crash) - 500
+            // Do not retry - server errors indicate infrastructure problems that
+            // won't be fixed by retrying. User should reload page or try later.
+            if (error.message.includes('SERVER_ERROR')) {
+              retries = 0
+              alert(getString('error-clip-upload-server-error'))
+              continue
+            }
+
+            // Transient network errors (timeouts, DNS failures, connection drops)
+            // These may succeed on retry - allow 3 attempts with 1s delay
             let key = 'error-clip-upload'
             if (error.message.includes('save_clip_error')) {
               key = 'error-clip-upload-server'

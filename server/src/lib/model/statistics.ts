@@ -277,7 +277,9 @@ export const getStatistics = lazyCache(
     }
   },
   TimeUnits.DAY,
-  5 * TimeUnits.MINUTE
+  12 * TimeUnits.HOUR,
+  false, // no stale data
+  { prefetch: true, prefetchBefore: 2 * TimeUnits.HOUR } // Prefetch 2h before expiry (16% of TTL)
 )
 
 export const formatMetadataStatistics = (
@@ -378,5 +380,7 @@ export const getMetadataQueryHandler = lazyCache(
   'get-stats-metadata',
   getMetadataQueryHandlerImpl,
   TimeUnits.DAY,
-  10 * TimeUnits.MINUTE
+  12 * TimeUnits.HOUR,
+  false, // no stale data
+  { prefetch: true, prefetchBefore: 2 * TimeUnits.HOUR } // Prefetch 2h before expiry (16% of TTL)
 )

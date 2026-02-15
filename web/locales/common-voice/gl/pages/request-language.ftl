@@ -41,3 +41,18 @@ need-help-deciding-platform = Precisa axuda para decidir cal escoller?
 need-help-deciding-platform-explanation-1 = <strong>Scripted Speech (Fala guiada)</strong> (tradicionalmente o que coñeces como Common Voice) permítelle ler frases en voz alta no seu idioma.
 need-help-deciding-platform-explanation-2 = <strong>Spontaneous Speech (Fala espontánea)</strong> é unha nova parte de Common Voice onde pode responder preguntas dun xeito máis orgánico e coloquial.
 need-help-deciding-platform-explanation-3 = Se non ve o seu idioma en ningunha das partes da plataforma, seleccione ambas as opcións.
+request-language-search-bar = Comece a escribir aquí o nome da súa lingua; se esta aínda non está en Common Voice, poderá cubrir un formulario cos datos necesarios.
+request-language-found-pontoon-not-launched =
+    A súa lingua xa figura na lista de linguas de Common Voice.
+    Pode facilitar o lanzamento da lingua na modalidade de <strong>Fala Guiada</strong> traducindo a interface da plataforma <pontoonLink>aquí</pontoonLink>. A interface debe estar traducida nun 60%. Tamén pode traducir só as cadeas básicas en ‘web/locales/en/pages/contribute/*.ftl’ (hai cinco ficheiros deste tipo), e cando estas estean traducidas ao 100% a interface activarase automaticamente.
+request-language-found-cv-contribution =
+    Parabéns! A súa lingua xa está dispoñible na modalidade de  <strong>Fala Guiada</strong> de Common Voice.
+    Pode contribuír <homePageLink>aquí</homePageLink>.
+request-language-found-cv-sentences-lack =
+    A súa lingua xa figura na lista de linguas de Common Voice.
+    Pode facilitar o seu lanzamento na modalidade de <strong>Fala Guiada</strong> achegando frases <sentencesContributionLink>aquí</sentencesContributionLink>.
+request-language-found-spontaneous-speech =
+    A súa lingua xa está dispoñible na modalidade de <strong>Fala Guiada</strong> de Common Voice.
+    Prema <spontaneousSpeechLink>aquí</spontaneousSpeechLink> para contribuír: non esqueza escoller a lingua/conxunto de datos antes de comezar.
+request-language-already-available-scs = A Fala Guiada xa está dispoñible
+request-language-already-available-sps = A Fala Espontánea xa está dispoñible

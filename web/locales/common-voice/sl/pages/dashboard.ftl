@@ -56,6 +56,7 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Zastavite cilj
 cant-decide = Se ne morete odločiti?
+activity-needed-calculation-fixed = Če 100 ljudi v enem dnevu posname 100 stavkov, lahko skupaj ustvarijo 13 ur posnetkov. Pri takšnem tempu lahko dosežemo 1000 ur v manj kot 3 mesecih.
 how-many-per-day = Odlično! Koliko posnetkov na dan?
 how-many-a-week = Odlično! Koliko posnetkov na teden?
 which-goal-type = Želite govoriti, poslušati ali oboje?

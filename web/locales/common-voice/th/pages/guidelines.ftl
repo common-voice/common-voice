@@ -4,6 +4,9 @@ guidelines-header-subtitle = ทำความเข้าใจวิธีก
 voice-collection = การรวบรวมเสียง
 sentence-collection = การรวบรวมประโยค
 question-collection = การรวบรวมคำถาม
+scripted-speech = เสียงพูดตามบท
+spontaneous-speech = เสียงพูดธรรมชาติ
+dont-subheader = อย่า
 
 ## Voice Collection nav ids
 
@@ -136,3 +139,96 @@ offensive-content-sensitive-information-explanation-explanation-3 = คำถา
 example-questions-subheader = ตัวอย่างคำถาม
 example-questions-explanation-1 = คุณสามารถพบ<examplePromptsLink>ข้อความคำสั่งตัวอย่างจำนวน 120 รายการได้ในชีตนี้</examplePromptsLink>
 example-questions-explanation-2 = ถ้าคุณต้องการส่งคำถามเพื่อสอบถามข้อมูล คุณ<githubLink>สามารถส่งคำถามได้ผ่าน GitHub ของเรา</githubLink> หรือส่งมาทางอีเมลที่ <emailFragment>commonvoice@mozilla.com</emailFragment>
+
+## Spontaneous Speech sidebar content
+
+# Answer Questions
+answer-questions = ตอบคำถาม
+answer-questions-subheader = คำแนะนำทั่วไป
+answer-questions-explanation-1 = ลองคิดสักครู่เกี่ยวกับคำถาม พิจารณาว่าคุณอยากจะพูดอะไร แต่ไม่ต้องเขียนบทพูดเองมากเกินไป คลิกไอคอน ‘บันทึก’ เมื่อบันทึกเสร็จแล้ว คุณสามารถฟังเสียงของคุณเอง บันทึกซ้ำ ลบ หรือส่งได้
+answer-questions-explanation-2 = จำไว้ว่าไม่ต้องกังวลหากคุณพูดติดอ่าง หยุดพูด หรือพูดซ้ำคำใดคำหนึ่ง ข้อมูลเหล่านี้ล้วนมีประโยชน์สำหรับวิศวกรที่พยายามสร้างเครื่องมือรู้จำเสียงพูดที่ใช้งานได้จริงและครอบคลุมทุกกลุ่มคน
+answer-questions-tip-1 = บันทึกในสถานที่ที่ค่อนข้างเงียบ
+answer-questions-tip-2 = เลือกสถานที่ที่มีการเชื่อมต่ออินเทอร์เน็ตที่ดี
+answer-questions-tip-3b = พยายามตอบภายใน 15-30 วินาที
+answer-questions-tip-4 = หลีกเลี่ยงการใช้ถ้อยคำแสดงความเกลียดชัง ยุยงปลุกปั่น หรือถ้อยคำที่ไม่เหมาะสม
+answer-questions-tip-5 = พูดอย่างเป็นธรรมชาติเหมือนตอนที่คุณคุยกับเพื่อน โดยใช้รูปแบบและสำเนียงท้องถิ่นของคุณเอง
+answer-questions-tip-6 = รักษาระดับเสียงให้คงที่ อย่าตะโกนเสียงดังหรือร้องเพลง
+# Transcribe the Audio
+transcribe-the-audio = ถอดเสียง
+transcribe-the-audio-subheader-1 = คำแนะนำทั่วไป
+transcribe-the-audio-subheader-2 = ตัวเลขและคำย่อ
+transcribe-the-audio-subheader-3 = แท็กพิเศษ
+transcribe-the-audio-subheader-4 = ส่วนของคำ การเริ่มคำที่ไม่ถูกต้อง คำซ้ำ
+transcribe-the-audio-subheader-5 = ข้อผิดพลาดทางไวยากรณ์และสำนวนภาษาพูด
+transcribe-the-audio-subheader-1-explanation = โดยทั่วไป คุณควรจดบันทึกทุกสิ่งที่คุณได้ยิน ซึ่งรวมถึง
+transcribe-the-audio-subheader-1-explanation-example-1 = จดบันทึกความไม่ราบรื่นในการพูด รวมถึงการลังเลและการพูดซ้ำ
+transcribe-the-audio-subheader-1-explanation-example-2 = การระบุเหตุการณ์เสียงรบกวนต่าง ๆ เช่น การไอหรือการหัวเราะ
+transcribe-the-audio-subheader-1-explanation-example-3 = การระบุถึงมลพิษทางเสียงที่สำคัญ เช่น เสียงพูดคุยในพื้นหลังหรือเสียงแตรรถยนต์
+transcribe-the-audio-subheader-1-explanation-example-4 = สำหรับความแตกต่างทางไวยากรณ์และคำแสลง ให้บันทึกให้ตรงตามที่ปรากฏ และห้ามแก้ไขหรือตัดต่อคำพูดของผู้อื่น
+transcribe-the-audio-subheader-2-explanation-1 = สำหรับตัวเลขและสัญลักษณ์ ให้เขียนเป็นคำแทนการใช้ตัวเลขหรืออักขระพิเศษ ตัวอย่าง:
+transcribe-the-audio-subheader-2-explanation-2 = สำหรับคำย่อ ให้เขียนตามวิธีการเขียนปกติในภาษา โดยใช้ตัวพิมพ์ใหญ่ตามกฎมาตรฐาน ไม่ควรเขียนโดยถอดเสียงตามหลักสัทศาสตร์ ตัวอย่าง:
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <correct> ถูก</correct>: มันอยู่ห่างจากที่นี่หนึ่งร้อยกิโลเมตร
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <wrong>ผิด</wrong>: มันอยู่ห่างจากที่นี่ 100 กิโลเมตร
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correct> ถูก</correct>: เจอกันในปี<underline>สองพันสิบห้า</underline>
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>ผิด</wrong>: เจอกันในปี <underline>2015</underline>
+transcribe-the-audio-subheader-2-example-3-correct = <correct>ถูก</correct>: ลดราคายี่สิบเปอร์เซ็นต์
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>ผิด</wrong>: ลดราคา 20%
+transcribe-the-audio-subheader-2-example-4-correct = <correct>ถูก</correct>: พี่ชายของเขาอยู่ที่บ้านซื้อใหม่ใน <underline>กทม.</underline>
+transcribe-the-audio-subheader-2-example-4-wrong = <wrong>ผิด</wrong>: พี่ชายของเขาอยู่ที่บ้านซื้อใหม่ใน<underline>กอทอมอ</underline>
+transcribe-the-audio-subheader-3-explanation = ให้ใช้แท็กพิเศษต่อไปนี้เพื่อระบุความไม่ราบรื่น คำพูดแทรก และเนื้อหาที่ไม่ใช่คำพูดประเภทอื่น ๆ
+tags-table-header-1 = แท็ก
+tags-table-header-2 = ความหมาย
+tags-laugh = หัวเราะ
+tags-disfluency = ไม่ราบรื่น
+tags-unclear = ไม่ชัดเจน
+tags-noise = เสียงรบกวน
+tags-laugh-explanation = เสียงหัวเราะ
+tags-disfluency-explanation =
+    คำหรือเสียงที่ใช้คั่นระหว่างที่ผู้พูดกำลังตัดสินใจว่าจะพูดอะไรต่อ
+    เสียงที่แสดงถึงความลังเลที่พบบ่อย ได้แก่ “เอ่อ” “อืม” “อ่า” เป็นต้น
+tags-unclear-explanation = คำหรือลำดับคำที่ไม่สามารถเข้าใจได้
+tags-noise-explanation = เสียงรบกวนประเภทอื่น ๆ เช่น เสียงผู้พูดไอหรือกระแอม เสียงแตรรถ เสียงสิ่งของกระทบไมโครโฟน เสียงโทรศัพท์สั่น เป็นต้น
+# Note: do not translate any tag, like [noise] or [laugh]
+special-tags-example-2 =
+    แล้วฉันก็ [noise] ไปเที่ยวพักผ่อนในวันหยุด
+    แต่ [noise] [laugh] มันก็ไม่ใช่การพักผ่อนอย่างแท้จริงหรอก [laugh]
+transcribe-the-audio-subheader-4-explanation-1 = เสียงพูดธรรมชาติย่อมมีการเริ่มคำที่ไม่ถูกต้องอยู่บ้าง เช่น การพูดเพียงบางส่วนของคำเต็ม ในกรณีเช่นนี้ โปรดถอดความส่วนของคำนั้นให้ดีที่สุดเท่าที่จะทำได้ และใส่เครื่องหมายยัติภังค์ (-) ไว้ท้ายคำเพื่อระบุว่าเป็นการเริ่มคำที่ไม่ถูกต้อง ตัวอย่าง:
+transcribe-the-audio-subheader-4-explanation-1-example = เขาชื่อ<underline>โจ- โจนา- </underline> โจนาธาน
+transcribe-the-audio-subheader-4-explanation-2 = บางครั้งผู้พูดอาจพูดซ้ำคำหรือส่วนของคำหลายครั้ง ซึ่งควรถอดเสียงด้วยเช่นกัน ตัวอย่าง:
+transcribe-the-audio-subheader-4-explanation-2-example = แล้วฉันก็ไปที่ <underline>ห้อง ห้อง ห้อง</underline> ห้องนอน
+transcribe-the-audio-subheader-5-explanation-1 = เสียงพูดธรรมชาติย่อมมีข้อผิดพลาดทางไวยากรณ์อยู่บ้าง จึงไม่ควรแก้ไขข้อผิดพลาดเหล่านั้นขณะถอดเสียง การถอดเสียงควรสะท้อนเนื้อหาที่พูดออกมาอย่างถูกต้องแม่นยำ
+transcribe-the-audio-subheader-5-explanation-2 = ผู้พูดอาจใช้คำพูดที่ไม่เป็นทางการ (เช่น “ยังไง” “ไร” “ป่าว” เป็นต้น) ซึ่งอาจไม่ถูกต้องตามหลักไวยากรณ์ ควรถอดความคำเหล่านั้นตามเดิม โดยไม่ต้องเปลี่ยนเป็นคำที่เป็นทางการกว่า
+
+## Review the Transcription
+
+review-the-transcription = ตรวจทานการถอดเสียง
+review-the-transcription-subheader = คำแนะนำทั่วไป
+review-the-transcription-explanation-1 = โดยทั่วไป เราแนะนำว่าผู้ที่ตรวจสอบการถอดเสียงไม่ควรเป็นคนเดียวกับที่ถอดเสียงต้นฉบับ เพราะการตรวจสอบงานของตัวเองนั้นยากมาก! การมีผู้ตรวจสอบหลายคนจะช่วยให้การรับประกันคุณภาพมีความแข็งแกร่งมากขึ้น และช่วยลดอคติและปัญหาต่าง ๆ ได้
+review-the-transcription-explanation-2 = โปรดตรวจทานหลักเกณฑ์การถอดเสียงด้านบน เพื่อตรวจสอบความถูกต้องของการถอดเสียง คุณสามารถแก้ไขและส่งการถอดเสียงได้
+review-the-transcription-explanation-3 = ย้ำอีกครั้งว่า คุณสามารถแจ้งเนื้อหาที่ไม่เหมาะสม เป็นอันตราย หรือน่ากังวลได้ และเนื้อหานั้นจะถูกลบออกจากประสบการณ์การใช้งานของคุณ จนกว่าทีม Common Voice จะตรวจสอบและสืบสวนเพิ่มเติม
+
+## Code-Switching
+
+code-switching = การสลับภาษา
+adding-a-question = การเพิ่มคำถาม
+# Adding a Question
+code-switching-adding-question-subheader = คำถามแบบไหนเป็นคำถามที่ดี?
+code-switching-adding-question-explanation = คำถามที่ดีสำหรับชุดข้อมูลจากการมีส่วนร่วมโดยสาธารณะควรจะ:
+code-switching-adding-question-criteria-1 = สามารถเข้าใจและตอบกลับได้ง่าย
+code-switching-adding-question-criteria-2 = อยู่ในหัวข้อที่คนทั่วไปคุ้นเคย
+code-switching-adding-question-criteria-3 = ไม่ใช้หรือชักชวนให้ใช้ภาษาที่เป็นอันตรายหรือไม่เหมาะสม
+code-switching-adding-question-note = คุณควรพิจารณาให้ประโยคครอบคลุมบริบทและขอบเขตต่างๆ ได้หลากหลายด้วย
+# What types of questions to add
+code-switching-types-subheader = คำถามประเภทไหนบ้างที่ควรเพิ่ม?
+code-switching-use-bilingual-prompts-header = ใช้ข้อความพรอมต์สองภาษา
+code-switching-use-bilingual-prompts-explanation = ใช้ข้อความพรอมต์แบบสองภาษาที่รวมทั้งสองภาษาไว้ในคำถามของคุณ ตัวอย่าง:
+code-switching-use-bilingual-prompts-explanation-example = “วันนี้เหนื่อยมากเลย เดี๋ยว tomorrow ค่อยทำต่อ”
+code-switching-ask-bilingual-contexts-header = ถามเกี่ยวกับบริบทสองภาษา
+code-switching-ask-bilingual-contexts-explanation = ใช้สถานการณ์ที่ใช้ทั้งสองภาษาเป็นประจำ (เช่น ที่บ้าน ที่โรงเรียน กิจกรรมชุมชน) ตัวอย่าง:
+code-switching-ask-bilingual-contexts-explanation-example = “เวลาคุยกับญาติ ๆ ของคุณ คุณพูดอังกฤษปนไทยหรือเปล่า?”
+code-switching-focus-emotional-header = เน้นไปที่ช่วงเวลาที่เต็มไปด้วยอารมณ์หรือสถานการณ์ที่มีความสำคัญสูง
+code-switching-focus-emotional-explanation = คนมักจะเปลี่ยนวิธีการพูดระหว่างสนทนาเมื่อต้องการแสดงอารมณ์หรือความเร่งด่วน ตัวอย่างเช่น:

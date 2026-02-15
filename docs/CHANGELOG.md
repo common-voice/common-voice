@@ -2,7 +2,7 @@
 
 ## Current release
 
-### [v1.157.0 (2025-02-06)](https://github.com/common-voice/common-voice/releases/tag/release-v1.157.0)
+### [v1.157.0 (2025-02-12)](https://github.com/common-voice/common-voice/releases/tag/release-v1.157.0)
 
 - Chore: Rework New Language Request page to check for existing language datasets, give feedback, and only enable emails when some are missing, by [@bandrandr](https://github.com/bandrandr) in [#5253](https://github.com/common-voice/common-voice/pull/5253)
 - Chore: Rework audio corruption error handling, codes, attempt to issues with Apple devices, disable KB shortcuts in contribution pages while typing, adjust cache durations, optimize queries for major languages, by [@moz-bozden](https://github.com/moz-bozden) in [#5279](https://github.com/common-voice/common-voice/pull/5279)
@@ -46,6 +46,7 @@
 
 ##### SS Data Changes in v1.157.0
 
+- Add Javanese (`jv`) questions by [@bandrandr](https://github.com/bandrandr) in [#513](https://github.com/common-voice/spontaneous-speech/pull/513)
 - Add Sundanese (`su`) questions by [@bandrandr](https://github.com/bandrandr) in [#510](https://github.com/common-voice/spontaneous-speech/pull/510)
 - Add Sinhala (`si`) questions by [@bandrandr](https://github.com/bandrandr) in [#508](https://github.com/common-voice/spontaneous-speech/pull/508) (in v1.156.4)
 - Add Tedaga (`tuq`) questions by [@bandrandr](https://github.com/bandrandr) in [#507](https://github.com/common-voice/spontaneous-speech/pull/507) (in v1.156.4)
@@ -57,6 +58,11 @@
 ---
 
 ### Changes merged after current release
+
+- Feat: Add prefetching to statistics to be always up to date and prevent timeouts, by [@moz-bozden](https://github.com/moz-bozden) in [#5292](https://github.com/common-voice/common-voice/pull/5292) (in v.1.157.1)
+- Chore: Add more data checking guards in audio pipeline, by [@moz-bozden](https://github.com/moz-bozden) in [#5291](https://github.com/common-voice/common-voice/pull/5291) (in v.1.157.1)
+- Fix: Deadlock on local dev while getting SPS datasets, by [@moz-bozden](https://github.com/moz-bozden) in [#5295](https://github.com/common-voice/common-voice/pull/5295) (in v.1.157.1)
+- Fix: Two regressions on Speak page, by [@moz-bozden](https://github.com/moz-bozden) in [#5293](https://github.com/common-voice/common-voice/pull/5293) (in v.1.157.1)
 
 #### Data Changes after current release
 

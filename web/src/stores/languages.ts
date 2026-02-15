@@ -31,6 +31,7 @@ export interface State {
 
 enum ActionType {
   LOADED = 'LOADED',
+  SPONTANEOUS_SPEECH_LOADED = 'SPONTANEOUS_SPEECH_LOADED',
 }
 
 interface LoadedAction {
@@ -44,11 +45,17 @@ interface LoadedAction {
     translatedLocales: Locales
     contributableNativeNames: NativeNames
     localeNameAndIDMapping: LocaleNameAndIDMapping[]
+  }
+}
+
+interface SpontaneousSpeechLoadedAction {
+  type: ActionType.SPONTANEOUS_SPEECH_LOADED
+  payload: {
     spontaneousSpeechLanguages: Locales
   }
 }
 
-export type Action = LoadedAction
+export type Action = LoadedAction | SpontaneousSpeechLoadedAction
 
 export const actions = {
   loadLocalesData: () => {
@@ -58,8 +65,6 @@ export const actions = {
     ) => {
       const { api } = getState()
       const allLanguages = await api.fetchAllLanguages()
-      const spontaneousSpeechLanguages =
-        await api.fetchSpontaneousSpeechLanguages()
 
       //get obj of native names, default to language code
       const nativeNames = allLanguages.reduce((names: any, language) => {
@@ -131,6 +136,28 @@ export const actions = {
           translatedLocales,
           contributableNativeNames,
           localeNameAndIDMapping,
+        },
+      })
+    }
+  },
+  loadSpontaneousSpeechLanguages: () => {
+    return async (
+      dispatch: Dispatch<SpontaneousSpeechLoadedAction>,
+      getState: () => StateTree
+    ) => {
+      const { api, languages } = getState()
+
+      // Don't reload if already loaded
+      if (languages.spontaneousSpeechLanguages !== undefined) {
+        return
+      }
+
+      const spontaneousSpeechLanguages =
+        await api.fetchSpontaneousSpeechLanguages()
+
+      dispatch({
+        type: ActionType.SPONTANEOUS_SPEECH_LOADED,
+        payload: {
           spontaneousSpeechLanguages,
         },
       })
@@ -156,6 +183,11 @@ export function reducer(state: State = INITIAL_STATE, action: Action): State {
         translatedLocales: action.payload.translatedLocales,
         contributableNativeNames: action.payload.contributableNativeNames,
         localeNameAndIDMapping: action.payload.localeNameAndIDMapping,
+      }
+
+    case ActionType.SPONTANEOUS_SPEECH_LOADED:
+      return {
+        ...state,
         spontaneousSpeechLanguages: action.payload.spontaneousSpeechLanguages,
       }
 

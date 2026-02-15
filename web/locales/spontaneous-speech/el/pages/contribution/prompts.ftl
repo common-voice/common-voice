@@ -12,6 +12,10 @@ error-recording-too-short = Η ηχογράφηση είναι πολύ σύντ
 error-recording-too-long = Η ηχογράφηση είναι πολύ μεγάλη. Η μέγιστη διάρκεια είναι { $maxDurationMinutes } λεπτά.
 error-fetching-prompts = Κάτι πήγε στραβά κατά τη λήψη των μηνυμάτων προτροπής. Δοκιμάστε ξανά αργότερα.
 error-uploading-response = Προέκυψε σφάλμα κατά τη μεταφόρτωση της απάντησής σας
+error-empty-audio = Η καταγραφή απέτυχε. Το αρχείο ήχου φαίνεται να είναι κενό. Παρακαλούμε δοκιμάστε ξανά.
+error-recording-too-short-seconds = Η ηχογράφηση είναι πολύ σύντομη. Η ελάχιστη διάρκεια είναι { $minDurationSeconds } δευτερόλεπτα.
+error-recording-too-long-minutes = Η ηχογράφηση είναι πολύ μεγάλη. Η μέγιστη διάρκεια είναι { $maxDurationMinutes } λεπτά.
+cannot-play-audio = Δεν ήταν δυνατή η αναπαραγωγή ήχου. Παρακαλούμε δοκιμάστε ξανά.
 prompt-submitted-success = Η απάντηση υποβλήθηκε επιτυχώς
 prompt-response-deleted-success = Η απάντηση διαγράφηκε επιτυχώς
 # For the button to delete a response to a prompt

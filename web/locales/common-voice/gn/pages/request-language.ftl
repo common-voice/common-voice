@@ -41,3 +41,5 @@ need-help-deciding-platform = ¿Eikotevẽ pytyvõ eiporavokuaa hag̃ua?
 need-help-deciding-platform-explanation-1 = Ñe’ẽsyry hapepyréva ndive (ymaite guive jaikuaáva ñe’ẽ teévaramo) ha’e ikatuhápe emoñe’ẽ ayvúpe ñe’ẽjoajukuéra ne ñe’ẽ teetépe.
 need-help-deciding-platform-explanation-2 = Ñe’ẽ jeporu ha’e peteĩ mba’e pyahu añetéva Common Voice-pe g̃uarã ikatuhápe rembohovái opaite porandu osẽreiháicha ndévente.
 need-help-deciding-platform-explanation-3 = Nderehecháiramo ne ñe’ẽ mamovete peyendavusu ryepýpe, eiporavo mokõive.
+request-language-already-available-scs = Je’erã haipyréva eiporukuáma
+request-language-already-available-sps = Ñe’ẽrã ag̃aguáva eiporukuáma
