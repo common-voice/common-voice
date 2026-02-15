@@ -58,15 +58,31 @@ language-search-aria-label = Αναζήτηση για γλώσσα
 language-search-label = Αλλάζει μόνο τη γλώσσα συνεισφοράς του συνόλου δεδομένων
 language-search-no-results = Δεν βρέθηκαν γλώσσες
 
+## Transcription Player - Mode Buttons
+
+# Transcription Player - Automatic Mode
+transcription-mode-auto = Αυτόματη
+# Player - slower
+player-speed-slow = Αργή
+# Player - normal speed
+player-speed-normal = Κανονική
+# Player - faster
+player-speed-fast = Γρήγορη
+
 ## Transcription Player Controls - Keyboard Shortcuts
 
+# Player control shortcut for play/pause: pressed with Ctrl/Cmd
+player-play-pause-shortcut = p
 player-play-pause-shortcut-key = Ctrl / Cmd + P
+player-play-pause-shortcut-name = Αναπαραγωγή/Παύση
 # Player control shortcut to go back 5 seconds: pressed with Ctrl/Cmd
 player-skip-backward-shortcut = 8
 player-skip-backward-shortcut-key = Ctrl / Cmd + 8
+player-skip-backward-shortcut-name = Πίσω
 # Player control shortcut to go forwards 5 seconds: pressed with Ctrl/Cmd
 player-skip-forward-shortcut = 9
 player-skip-forward-shortcut-key = Ctrl / Cmd + 9
+player-skip-forward-shortcut-name = Εμπρός
 
 ## Transcription Player - Aria Labels
 
@@ -74,3 +90,15 @@ player-skip-forward-shortcut-key = Ctrl / Cmd + 9
 player-play-button-aria-label = Αναπαραγωγή ήχου
 # Pause button accessibility/aria label
 player-pause-button-aria-label = Παύση ήχου
+# Skip back button accessibility/aria label
+player-skip-backward-aria-label = Μετάβαση πίσω 5 δευτερόλεπτα
+# Skip forward button accessibility/aria label
+player-skip-forward-aria-label = Μετάβαση μπροστά 5 δευτερόλεπτα
+# Toggle speed and transcription mode menu button
+player-toggle-mode-menu-aria-label = Εναλλαγή μενού λειτουργίας
+# Slower playback speed button accessibility/aria label
+player-speed-slow-aria-label = Χαμηλότερη ταχύτητα αναπαραγωγής
+# Normal playback speed button accessibility/aria label
+player-speed-normal-aria-label = Κανονική ταχύτητα αναπαραγωγής
+# Faster playback speed button accessibility/aria label
+player-speed-fast-aria-label = Μεγαλύτερη ταχύτητα αναπαραγωγής

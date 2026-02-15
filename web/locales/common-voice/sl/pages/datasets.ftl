@@ -78,3 +78,12 @@ release-version = Različica
 dataset-date = Datum
 license = Licenca: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mešana
+# Support old genders in older datasets
+male = Moški
+female = Ženski
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = Prenesite naše nabore glasovnih podatkov
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = Možnosti prenosa za dostop do podatkov Common Voice
+datasets-show-more = Prikaži vse nabore podatkov
+datasets-show-less = Prikaži najnovejše nabore podatkov

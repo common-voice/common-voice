@@ -12,6 +12,7 @@ record-no-mic-found = Ingen mikrofon funnet.
 record-error-too-short = Innspillingen var for kort.
 record-error-too-long = Innspillingen var for lang.
 record-error-too-quiet = Innspillingen var for stille.
+record-error-empty-recording = Ingen lyd ble tatt opp. Sjekk mikrofonen din og prøv på nytt.
 record-error-uploaded-clip-corrupted =
     Lydopptaket ditt ser ut til å være ødelagt. Dette kan skyldes:
     • Problemer med nettleserkompatibilitet (prøv å bruke en annen nettleser)

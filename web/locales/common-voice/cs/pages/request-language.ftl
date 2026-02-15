@@ -39,3 +39,6 @@ need-help-deciding-platform = Potřebujete pomoci s výběrem?
 need-help-deciding-platform-explanation-1 = <strong>Skriptovaná řeč</strong> (tradičně známá pod názvem Common Voice) je možnost hlasitého čtení vět ve vašem jazyce.
 need-help-deciding-platform-explanation-2 = <strong>Spontánní řeč</strong> je nová část aplikace Common Voice, kde můžete odpovídat na otázky organičtějším, hovorovým způsobem.
 need-help-deciding-platform-explanation-3 = Pokud svůj jazyk nevidíte ani v jedné části platformy, vyberte oba.
+request-language-search-bar = Zde můžete začít psát název vašeho jazyka; pokud ještě není na Common Voice, budete moci vyplnit formulář s údaji pro váš jazyk.
+request-language-already-available-scs = Skriptovaná řeč je již dostupná
+request-language-already-available-sps = Spontánní mluvení je již dostupné

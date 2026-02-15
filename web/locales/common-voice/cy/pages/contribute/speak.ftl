@@ -12,6 +12,8 @@ record-no-mic-found = Heb ganfod meicroffon.
 record-error-too-short = Roedd y recordiad yn rhy fyr.
 record-error-too-long = Roedd y recordiad yn rhy hir.
 record-error-too-quiet = Roedd y recordiad yn rhy dawel.
+record-error-empty-recording = Heb recordio unrhyw sain. Gwiriwch eich meicroffon a rhowch gynnig arall arni.
+record-error-unknown-format = Methu pennu fformat sain. Ceisiwch ddefnyddio porwr gwahanol.
 record-error-uploaded-clip-corrupted =
     Mae'n ymddangos bod eich recordiad sain wedi'i lygru. Gall hyn ddigwydd oherwydd:
     • Problemau cydweddoldeb porwr (ceisiwch ddefnyddio porwr gwahanol)

@@ -41,3 +41,24 @@ need-help-deciding-platform = Besonia tu de adjuta decidente que seliger?
 need-help-deciding-platform-explanation-1 = <strong>Discurso spontanee</strong> es un nove parte de Common Voice ubi tu pote responder a questiones in maniera plus organic e colloquial.
 need-help-deciding-platform-explanation-2 = <strong>Discurso spontanee</strong> es un nove parte de Common Voice ubi tu pote responder a questiones in maniera plus organic e colloquial.
 need-help-deciding-platform-explanation-3 = Si tu non vide tu lingua in alcun de duo partes del platteforma, selige ambe.
+request-language-search-bar = Tu pote initiar typar le nomine de tu lingua ci; si illo non es ancora sur Common Voice, tu potera compilar un formulario con le datos de tu lingua.
+request-language-found-pontoon-not-launched =
+    Tu lingua es jam sur le catalogo de linguas de Common Voice. Tu pote facilitar le
+    lanceamento del lingua sur <strong>Discurso transcribite</strong> localisante
+    le interfacie del platteforma <pontoonLink>ci</pontoonLink>. Le interfacie debe
+    esser localisate ancora pro le 60%; in alternativa tu pote localisar justo le stringas
+    basic in ‘web/localisationes/en/paginas/contribuer/*.ftl’ a 100% (il ha cinque de
+    tal files), e le interfacie sera lanceate automaticamente.
+request-language-found-cv-contribution =
+    Hurrah! Tu lingua es jam vive sur Common Voice <strong>Discurso transcribite</strong>.
+    Tu pote contribuer <homePageLink>ci</homePageLink>.
+request-language-found-cv-sentences-lack =
+    Tu lingua es jam sur le catalogo de linguas de Common Voice.
+    Tu pote facilitar le lanceamento del lingua sur <strong>Discurso 
+    transcribite</strong> contribuente phrases
+    <sentencesContributionLink>ci</sentencesContributionLink>.
+request-language-found-spontaneous-speech =
+    Tu lingua es jam vive sur Common Voice <strong>Discurso spontanee</strong>.
+    Clicca <spontaneousSpeechLink>ci</spontaneousSpeechLink> pro contribuer: non oblida de cambiar le lingua  del contribution/collection de datos ante que tu initia a collaborar!
+request-language-already-available-scs = Discurso transcribite jam disponibile
+request-language-already-available-sps = Spontaneous Speech jam disponibile

@@ -400,6 +400,7 @@ uk = Ukrainisch
 ukv = Kuku
 ur = Urdu
 ush = Ushoji
+usp = Uspanteco
 uz = Usbekisch
 var = Huarijio
 ve = Tshivenda

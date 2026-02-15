@@ -10,6 +10,7 @@ error-skipping = Při přeskakování této výzvy došlo k chybě
 error-recording = Při nahrávání nastala chyba
 error-fetching-prompts = Při načítání výzev se něco pokazilo. Zkuste to prosím později.
 error-uploading-response = Při nahrávání vaší odpovědi došlo k chybě
+cannot-play-audio = Zvuk nelze přehrát. Zkuste to prosím znovu.
 prompt-submitted-success = Odpověď byla úspěšně odeslána
 prompt-response-deleted-success = Odpověď byla úspěšně smazána
 # For the button to delete a response to a prompt

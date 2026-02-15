@@ -12,6 +12,8 @@ record-no-mic-found = Žadyn mikrofon namakany.
 record-error-too-short = Natočenje bě překrótke.
 record-error-too-long = Natočenje bě předołhe.
 record-error-too-quiet = Natočenje bě přećiche.
+record-error-empty-recording = Žane awdio je so natočiło. Prošu přepruwujće swój mikrofon a spytajće hišće raz.
+record-error-unknown-format = Format awdio njeda so zwěsćić. Prošu spytajće druhi wobhladowak wužiwać.
 record-error-uploaded-clip-corrupted =
     Zda so, zo waše awdionahrawanje je wobškodźene. To móže so stać, dokelž su:
     • problemy z kompatibelnosću wobhladowaka (spytajće druhi wobhladowak wužiwać)

@@ -26,6 +26,10 @@ contribute = Ñepytyvõ
 # Button text which appears when there are no more resources
 continue-with-skipped = Eku’ejey Ñomimbyre ndive
 
+## Common aria-labels
+
+keyboard-shortcuts-button-aria-label = Ehechauka tairenda mbopya’eha
+
 ## Navbar
 
 question = Porandu
@@ -90,3 +94,17 @@ player-pause-button-aria-label = Ejoko mba’epu
 player-skip-backward-aria-label = Eho tapykuévo 5 aravo’ive
 # Skip forward button accessibility/aria label
 player-skip-forward-aria-label = Eho tenondévo 5 aravo’ive
+# Audio playback progress slider accessibility/aria label
+player-progress-slider-aria-label = Ehecha mba’epu mba’éichapa oku’e
+# Toggle speed and transcription mode menu button
+player-toggle-mode-menu-aria-label = Poravorã ñemoambueha
+# Slower playback speed button accessibility/aria label
+player-speed-slow-aria-label = Ñembopu mbegueveha
+# Normal playback speed button accessibility/aria label
+player-speed-normal-aria-label = Ñembopu hendapeguáva
+# Faster playback speed button accessibility/aria label
+player-speed-fast-aria-label = Ñembopu ipya’evéva
+# Auto transcription mode button accessibility/aria label
+transcription-mode-auto-aria-label = Emyandy térã embogue ñembopu ijeheguíva peteĩteĩva ña’ẽme
+# Mode menu button accessibility/aria label
+transcription-mode-menu-aria-label = Emyandy térã embogue poravorã mba’epujehai rehegua

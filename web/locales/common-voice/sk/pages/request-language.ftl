@@ -27,3 +27,18 @@ need-help-deciding-platform = Potrebujete pomoc pri rozhodovaní, čo si vybrať
 need-help-deciding-platform-explanation-1 = <strong>Skriptovaná reč</strong> (tradične to, čo poznáte ako Common Voice) je miesto, kde môžete nahlas čítať vety vo svojom jazyku.
 need-help-deciding-platform-explanation-2 = <strong>Spontánna reč</strong> je nová časť Common Voice, kde môžete odpovedať na otázky organickejším a hovorovejším spôsobom.
 need-help-deciding-platform-explanation-3 = Ak nevidíte svoj jazyk v žiadnej časti platformy, vyberte oba.
+request-language-search-bar = Názov svojho jazyka môžete začať písať tu. Ak ešte nie je na Common Voice, budete môcť vyplniť formulár s údajmi o svojom jazyku.
+request-language-found-pontoon-not-launched =
+    Váš jazyk je už v zozname jazykov Common Voice. 
+    Spustenie jazyka v službe <strong>Skriptovaná reč</strong> môžete uľahčiť lokalizáciou rozhrania platformy <pontoonLink>tu</pontoonLink>. Rozhranie musí byť lokalizované na 60 %; 
+    prípadne môžete lokalizovať iba základné reťazce v súbore „web/locales/en/pages/contribute/*.ftl“ na 100 % 
+    (existuje päť takýchto súborov) a rozhranie sa spustí automaticky.
+request-language-found-cv-contribution = Hurá! Váš jazyk je už aktívny v Common Voice v časti <strong>Skriptovaná reč</strong>. Môžete prispieť <homePageLink>tu</homePageLink>.
+request-language-found-cv-sentences-lack =
+    Váš jazyk je už v zozname jazykov Common Voice.
+    Spustenie jazyka v <strong>Skriptovanej reči</strong> môžete uľahčiť pridaním viet <sentencesContributionLink>tu</sentencesContributionLink>.
+request-language-found-spontaneous-speech =
+    Váš jazyk je už aktívny v Common Voice v časti <strong>Spontánna reč</strong>. 
+    Kliknite <spontaneousSpeechLink>sem</spontaneousSpeechLink> a prispejte: nezabudnite pred začatím prispievania zmeniť jazyk príspevku/kolekcie údajov!
+request-language-already-available-scs = Skriptovaná reč je už k dispozícii
+request-language-already-available-sps = Spontánna reč je už k dispozícii
