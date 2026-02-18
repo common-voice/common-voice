@@ -1,5 +1,5 @@
+import * as path from 'node:path'
 import { spawn } from 'node:child_process'
-import path from 'node:path'
 
 import { readerTaskEither as RTE, taskEither as TE } from 'fp-ts'
 import { pipe } from 'fp-ts/lib/function'
@@ -19,7 +19,10 @@ export type Mp3DurationFile = (typeof Mp3DurationFiles)[number]
  * @param locale - The locale for which to calculate the duration.
  * @returns A Promise that resolves when the duration calculation is complete.
  */
-const runMp3DurationReporterPromise = (locale: string, releaseDirPath: string) =>
+const runMp3DurationReporterPromise = (
+  locale: string,
+  releaseDirPath: string,
+) =>
   new Promise<number>((resolve, reject) => {
     const cc = spawn(
       'mp3-duration-reporter',
@@ -38,7 +41,10 @@ const runMp3DurationReporterPromise = (locale: string, releaseDirPath: string) =
     cc.on('error', reason => reject(reason))
   })
 
-export const mp3DurationReporterPipeline = (locale: string, releaseDirPath: string) => {
+export const mp3DurationReporterPipeline = (
+  locale: string,
+  releaseDirPath: string,
+) => {
   return pipe(
     TE.Do,
     TE.tap(() => TE.fromIO(log('Starting mp3-duration-reporter'))),
@@ -58,5 +64,7 @@ export const runMp3DurationReporter = (): RTE.ReaderTaskEither<
 > =>
   pipe(
     RTE.ask<AppEnv>(),
-    RTE.chainTaskEitherK(({ locale, releaseDirPath }) => mp3DurationReporterPipeline(locale, releaseDirPath)),
+    RTE.chainTaskEitherK(({ locale, releaseDirPath }) =>
+      mp3DurationReporterPipeline(locale, releaseDirPath),
+    ),
   )
