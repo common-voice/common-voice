@@ -32,7 +32,8 @@ RUN git clone --depth 1 -b release-v1.4.0 \
 
 # Node.js application
 WORKDIR /home/node/code
-COPY package.json package-lock.json ./
+COPY package.json ./
+COPY package-lock.json ./
 RUN npm ci --audit=false --cache /tmp/npm-cache && rm -rf /tmp/npm-cache
 COPY ./ ./
 RUN npm run build
