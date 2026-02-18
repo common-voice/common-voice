@@ -12,6 +12,12 @@ record-no-mic-found = Nem található mikrofon.
 record-error-too-short = A felvétel túl rövid volt.
 record-error-too-long = A felvétel túl hosszú volt.
 record-error-too-quiet = A felvétel túl halk volt.
+record-error-uploaded-clip-corrupted =
+    A hangfelvétel sérültnek tűnik. Ennek oka lehet:
+    • böngészőkompatibilitási problémák (próbáljon meg egy másik böngészőt használni),
+    • mikrofon- vagy hangillesztőprogram-problémák,
+    • hálózati megszakítások felvétel közben.
+    Próbálja meg újra a felvételt.
 record-cancel = Újrarögzítés megszakítása
 record-instruction = { $actionType } a <recordIcon></recordIcon> ikonra, és olvassa fel hangosan a mondatot
 record-stop-instruction = { $actionType } a <stopIcon></stopIcon> ikonra ha kész

@@ -37,8 +37,5 @@ not-found-page-header = نہ لېوان گہ
 not-found-page-content = مے کرېک موخہ زی کوڅِمانېؤ بہ سے نہ لېوان گہ
 # Privacy and Terms checkbox
 accept-privacy-and-terms = آں کامن وائسَنی <termsLink> شرائط</termsLink> اؤ <privacyLink> پرائیوېسی نوٹسَ</privacyLink> مِنزی اِتِفاق کېرِمېم
-# Locales (not yet fully resolved in Pontoon)
-meh = جنوب مغربی ٹیلیکسیاکو مِکسٹَک
-mel = وسطی میلانو
 # Locales-Variants
 ms-MY = بہاسا مالائی

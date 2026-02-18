@@ -39,3 +39,22 @@ need-help-deciding-platform = Potřebujete pomoci s výběrem?
 need-help-deciding-platform-explanation-1 = <strong>Skriptovaná řeč</strong> (tradičně známá pod názvem Common Voice) je možnost hlasitého čtení vět ve vašem jazyce.
 need-help-deciding-platform-explanation-2 = <strong>Spontánní řeč</strong> je nová část aplikace Common Voice, kde můžete odpovídat na otázky organičtějším, hovorovým způsobem.
 need-help-deciding-platform-explanation-3 = Pokud svůj jazyk nevidíte ani v jedné části platformy, vyberte oba.
+request-language-search-bar = Zde můžete začít psát název vašeho jazyka; pokud ještě není na Common Voice, budete moci vyplnit formulář s údaji pro váš jazyk.
+request-language-found-pontoon-not-launched =
+    Váš jazyk je již na seznamu jazyků Common Voice. 
+    Uvedení <strong>skriptované řeči</strong> pro jazyk můžete usnadnit lokalizaci
+    rozhraní platformy <pontoonLink>zde</pontoonLink>. Rozhraní musí být z 60 % lokalizováno; 
+    případně můžete přeložit pouze základní řetězce v souboru ‘web/locales/en/pages/contribute/*.ftl’ na 100% 
+    (Takových souborů je pět) a rozhraní bude spuštěno automaticky.
+request-language-found-cv-contribution =
+    Hurá! Váš jazyk je již ve službě Common Voice v části <strong>Skriptovaná řeč</strong>. 
+    Přispívat můžete <homePageLink>zde</homePageLink>.
+request-language-found-cv-sentences-lack =
+    Váš jazyk je již na seznamu jazyků Common Voice.
+    Spuštění <strong>skriptované řeči</strong> můžete podpořit
+    přispíváním vět <sentencesContributionLink>zde</sentencesContributionLink>.
+request-language-found-spontaneous-speech =
+    Váš jazyk už je v Common Voice v části <strong>Spontánní řeč</strong> zveřejněn. 
+    Pro přispění klepněte <spontaneousSpeechLink>zde</spontaneousSpeechLink>: nezapomeňte změnit jazyk příspěvků či datové sady dříve, než začnete přispívat!
+request-language-already-available-scs = Skriptovaná řeč je již dostupná
+request-language-already-available-sps = Spontánní mluvení je již dostupné

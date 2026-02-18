@@ -96,6 +96,9 @@ release-version = وَرژَن
 dataset-date = تاریخ
 license = اِجازہ <licenseLink>{ $license }</licenseLink>
 license-mixed = گَڈبَڈ
+# Support old genders in older datasets
+male = مېشوال
+female = گھریۡ ماݜ
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = زاں اوازاں ڈیٹاسیٹہ منی والہ
 # MENU ITEM ARIA LABELS

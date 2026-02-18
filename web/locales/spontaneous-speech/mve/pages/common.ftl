@@ -37,9 +37,6 @@ not-found-page-header = ڪونِي ميليو
 not-found-page-content = جڪو منو تيَ جوئيَ ريا ھو او ڪوني مليَ ݾگيو۔
 # Privacy and Terms checkbox
 accept-privacy-and-terms = ڪامن وائس ھلاتا، ٿيَ مھورَي <termsLink>شرطون</termsLink>ھانَ <privacyLink> رازدارِي رِي اطلاع </privacyLink> ھون راضِي ھو
-# Locales (not yet fully resolved in Pontoon)
-meh = ڏکڻ آٿونڻي ٽليڪسياڪو ميڪٽيڪ
-mel = مرڪزِي ميلانو
 # Locales-Variants
 ms-MY = بهاس ملائي
 

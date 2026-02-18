@@ -63,6 +63,7 @@ byv = Медумба
 ca = Каталанский
 cak = Какчикельский
 cdo = Восточный мин
+ce = Чеченский
 cgg = Чига
 cjk = Чокве
 ckb = Центральнокурдский (Сорани)
@@ -91,6 +92,7 @@ dv = Мальдивский
 dyu = Дьюла
 ebr = Эбри
 ee = Эве
+efk = Эфик
 eko = Экоти
 el = Греческий
 en = Английский
@@ -175,6 +177,7 @@ kcn = Нуби
 kdh = Котоколи
 khw = Ховар
 ki = Кикуйю
+kjh = Хакасский
 kk = Казахский
 kln = Каленин
 kls = Калаша
@@ -328,6 +331,7 @@ rw = Руанда
 rwm = Амба
 sah = Якутский
 sat = Сантали (Ол Чики)
+sba = Нгамбей
 sbn = Синдхи Бхили
 sc = Сардинский
 scl = Шина
@@ -383,6 +387,7 @@ tt = Татарский
 ttj = Руторо
 tui = Тупури
 tum = Тумбука
+tuq = Тедага
 tvu = Тунен
 tw = Чви
 ty = Таитянский
@@ -395,6 +400,7 @@ uk = Украинский
 ukv = Куку
 ur = Урду
 ush = Ушодзе
+usp = Успантеко
 uz = Узбекский
 var = Уариджио
 ve = Венда
@@ -471,7 +477,7 @@ delete = Удалить
 # Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>Нам нужна</mark><br/><mark>ваша помощь!</mark>
 # Text wrapped in <strong></strong> will be rendered on bold font
-donate-banner-cta-explanation = Размещение наборов данных и улучшение платформы для более чем 100 языковых сообществ обходится почти в миллион долларов в год. <strong>Если вы цените открытые, инклюзивные данные - сделайте пожертвование сегодня!</strong>
+donate-banner-cta-explanation = Размещение наборов данных и улучшение платформы для более чем 100 языковых сообществ обходится почти в миллион долларов в год. <strong>Если вы цените открытые, инклюзивные данные — сделайте пожертвование сегодня!</strong>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>Используете CV для</mark><br/><mark>вашего исследования?</mark>
 languages-donate-banner-cta-explanation = Common Voice финансируется за счёт пожертвований и грантов! Нам нравится сотрудничать с учёными, гражданским обществом и отраслевыми исследователями. Common Voice бесплатен для использования, но участие в пожертвованиях на платформу и хостинг может быть действительно полезным.
@@ -481,7 +487,7 @@ localization-select =
 ## MDC Announcement
 
 # Main text for MDC announcement. Text wrapped in <strong></strong> will be rendered with bold font
-announcement-mdc-text = <strong>Новые наборы данных Common Voice</strong> теперь доступны для загрузки эксклюзивно через нашу родственную платформу Mozilla Data Collective. Присоединитесь для получения доступа к более чем 300 глобальным наборам данных, созданным сообществом и для сообщества.
+announcement-mdc-text = <strong>Новые наборы данных Common Voice</strong> теперь доступны для скачивания эксклюзивно через нашу родственную платформу Mozilla Data Collective. Присоединитесь для получения доступа к более чем 300 глобальным наборам данных, созданным сообществом и для сообщества.
 # Button text for MDC announcement
 announcement-mdc-button-text = Присоединится к Mozilla Data Collective
 # Aria text for button which opens MDC on a new page

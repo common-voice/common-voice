@@ -118,7 +118,6 @@ add-text = Adicionar texto
 
 ## Community section
 
-community-section-title = Desenvolvidos por comunidades globais, para comunidades globais — 130 idiomas e crescendo!
 join-discord-community = Junte-se à comunidade no Discord
 # label for button
 join-discord-community-action = Participe no Discord

@@ -182,6 +182,16 @@ function ProfileInfo({
     )
   }
 
+  // After profile creation, redirect to the intended destination (e.g., SS page)
+  if (!isSaving && isSubmitted && !user.isFetchingAccount && user.account) {
+    const postProfileRedirect = sessionStorage.getItem('postProfileRedirect')
+    if (postProfileRedirect) {
+      sessionStorage.removeItem('postProfileRedirect')
+      window.location.href = postProfileRedirect
+      return null
+    }
+  }
+
   return (
     <div className="profile-info">
       <Localized id="profile">

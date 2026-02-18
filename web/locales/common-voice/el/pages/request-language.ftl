@@ -41,3 +41,22 @@ need-help-deciding-platform = Χρειάζεστε βοήθεια για να α
 need-help-deciding-platform-explanation-1 = Η <strong>Ομιλία με σενάριο</strong> (το κλασικό Common Voice) είναι εκεί όπου μπορείτε να διαβάσετε προτάσεις στη γλώσσα σας.
 need-help-deciding-platform-explanation-2 = Η <strong>Αυθόρμητη ομιλία</strong> είναι ένα νέο μέρος του Common Voice, όπου μπορείτε να απαντήσετε σε ερωτήσεις με έναν πιο οργανικό και καθημερινό τρόπο.
 need-help-deciding-platform-explanation-3 = Αν δεν βλέπετε τη γλώσσα σας σε κανένα από τα μέρη της πλατφόρμας, επιλέξτε και τα δύο.
+request-language-search-bar = Ξεκινήσετε να πληκτρολογείτε το όνομα της γλώσσας σας εδώ. Εάν δεν υπάρχει ακόμα στο Common Voice, μπορείτε να συμπληρώσετε μια φόρμα με τα δεδομένα της γλώσσας σας.
+request-language-found-pontoon-not-launched =
+    Η γλώσσα σας υπάρχει ήδη στη λίστα γλωσσών του Common Voice. 
+    Μπορείτε να διευκολύνετε την ένταξη της γλώσσας στην <strong>Αυθόρμητη ομιλία</strong> μεταφράζοντας
+    το περιβάλλον της πλατφόρμας <pontoonLink>εδώ</pontoonLink>. Το περιβάλλον πρέπει να μεταφραστεί κατά 60%· 
+    εναλλακτικά, μπορείτε απλώς να μεταφράσετε πλήρως (100%) τις βασικές συμβολοσειρές στο ‘web/locales/en/pages/contribute/*.ftl’
+    (υπάρχουν πέντε τέτοια αρχεία) και το περιβάλλον θα αρχίσει αυτόματα να λειτουργεί στη γλώσσα σας.
+request-language-found-cv-contribution =
+    Ζήτω! Η γλώσσα σας είναι ήδη ενεργή στην <strong>Ομιλία με σενάριο</strong> του Common Voice. 
+    Μπορείτε να συνεισφέρετε <homePageLink>εδώ</homePageLink>.
+request-language-found-cv-sentences-lack =
+    Η γλώσσα σας υπάρχει ήδη στη λίστα γλωσσών του Common Voice.
+    Μπορείτε να διευκολύνετε την ένταξη της γλώσσας στην <strong>Oμιλία με σενάριο</strong>
+    συνεισφέροντας προτάσεις <sentencesContributionLink>εδώ</sentencesContributionLink>.
+request-language-found-spontaneous-speech =
+    Η γλώσσα σας υπάρχει ήδη στην <strong>Αυθόρμητη ομιλία</strong> του Common Voice. 
+    Κάντε κλικ <spontaneousSpeechLink>εδώ</spontaneousSpeechLink> για να συνεισφέρετε: μην ξεχάσετε να αλλάξετε τη γλώσσα συνεισφοράς/συνόλου δεδομένων πριν ξεκινήσετε να συνεισφέρετε!
+request-language-already-available-scs = Η ομιλία με σενάριο είναι ήδη διαθέσιμη
+request-language-already-available-sps = Η αυθόρμητη ομιλία είναι ήδη διαθέσιμη

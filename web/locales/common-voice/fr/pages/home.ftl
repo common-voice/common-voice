@@ -130,7 +130,7 @@ answer = Répondre
 
 ## Community section
 
-community-section-title = Rendu possible par des communautés mondiales, pour des communautés mondiales. Déjà 130 langues et ce n’est pas fini !
+community-section-title-202601 = Rendu possible par des communautés mondiales, pour des communautés mondiales. Déjà 290 langues et ce n’est pas fini !
 join-discord-community = Rejoindre la communauté Discord
 # label for button
 join-discord-community-action = Rejoignez-nous sur Discord

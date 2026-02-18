@@ -10,6 +10,7 @@ cs-locale-change-modal-subtitle = Bu sayfada kaydedilmemiş değişiklikleriniz 
 
 ## Question Page Items
 
+cs-question-page-instruction = Kullanıcıların yanıtlaması için { $currentLocale } veri kümesine 25 adede kadar soru <icon></icon> ekleyin
 cs-question-dataset-name = Veri kümesi: { $datasetName }
 
 ## Validate Page Items

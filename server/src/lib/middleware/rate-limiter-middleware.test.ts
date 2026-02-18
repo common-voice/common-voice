@@ -3,7 +3,7 @@ import { NextFunction, Request, Response } from 'express'
 const mockRedisClient = {
   on: jest.fn(),
 }
-jest.mock('../redis', () => ({
+jest.mock('../redis-cache', () => ({
   redis: mockRedisClient,
 }))
 

@@ -1,1 +1,151 @@
+action-click = ចុច
+action-tap = ប៉ះ
 contribute = ចូលរួមចំណែក
+review = ពិនិត្យឡើងវិញ
+skip = រំលង
+shortcuts = ផ្លូវកាត់
+clips-with-count-pluralized =
+    { $count ->
+        [one] <bold>{ $count }</bold> ឃ្លីប
+       *[other] <bold>{ $count }</bold> ឃ្លីប
+    }
+goal-help-recording = អ្នកបានជួយ Common Voice ឱ្យសម្រេច <goalPercentage></goalPercentage> នៃគោលដៅថតសំឡេង { $goalValue } ប្រចាំថ្ងៃរបស់យើង!
+goal-help-validation = អ្នកបានជួយ Common Voice ឱ្យសម្រេច <goalPercentage></goalPercentage> នៃគោលដៅផ្ទៀងផ្ទាត់ { $goalValue } ប្រចាំថ្ងៃរបស់យើង!
+contribute-more =
+    { $count ->
+       *[other] ត្រៀមខ្លួនធ្វើ { $count } បន្ថែមទៀត ឬនៅ?
+    }
+speak-empty-state = យើងអស់ប្រយោគដើម្បីថតសំឡេងជាភាសានេះហើយ...
+no-sentences-for-variants = វ៉ារ្យ៉ង់ភាសារបស់អ្នកអាចនឹងអស់ប្រយោគ! ប្រសិនបើអ្នកពេញចិត្ត អ្នកអាចផ្លាស់ប្ដូរការកំណត់របស់អ្នក ដើម្បីមើលប្រយោគផ្សេងទៀតជាភាសារបស់អ្នក។
+speak-empty-state-cta = ចូលរួមចំណែកប្រយោគ
+speak-loading-error =
+    យើងមិនអាចរកប្រយោគណាមួយសម្រាប់ឱ្យអ្នកនិយាយបានទេ។
+    សូមព្យាយាមម្ដងទៀតនៅពេលក្រោយ។
+record-button-label = ថតសំឡេងរបស់អ្នក
+share-title-new = <bold>ជួយយើង</bold> ស្វែងរកសំឡេងបន្ថែមទៀត
+keep-track-profile = តាមដានវឌ្ឍនភាពរបស់អ្នកជាមួយប្រវត្តិរូប
+login-to-get-started = ចូល ឬចុះឈ្មោះដើម្បីចាប់ផ្ដើម
+target-segment-first-card = អ្នកកំពុងចូលរួមចំណែកដល់ផ្នែកគោលដៅដំបូងរបស់យើង
+target-segment-generic-card = អ្នកកំពុងចូលរួមចំណែកដល់ផ្នែកគោលដៅមួយ
+target-segment-first-banner = ជួយបង្កើតផ្នែកគោលដៅដំបូងរបស់ Common Voice នៅក្នុង { $locale }
+target-segment-add-voice = បន្ថែមសំឡេងរបស់អ្នក
+target-segment-learn-more = ស្វែងយល់​បន្ថែម
+change-preferences = ផ្លាស់ប្ដូរ​ចំណូលចិត្ត
+login-signup = ចូល / ចុះឈ្មោះ
+vote-yes = បាទ/ចាស
+vote-no = ទេ
+datasets = សំណុំទិន្នន័យ
+languages = ភាសា
+about = អំពី
+partner = ដៃគូ
+submit-form-action = ដាក់​ស្នើ
+
+## Reporting
+
+report = រាយការណ៍
+report-title = ដាក់ស្នើរបាយការណ៍
+report-ask = តើអ្នកកំពុងជួបប្រទះបញ្ហាអ្វីខ្លះជាមួយប្រយោគនេះ?
+report-offensive-language = ភាសាប្រមាថ
+report-offensive-language-detail = ប្រយោគនេះមានភាសាមិនគោរព ឬភាសាប្រមាថ។
+report-grammar-or-spelling = កំហុសវេយ្យាករណ៍/អក្ខរាវិរុទ្ធ
+report-grammar-or-spelling-detail = ប្រយោគនេះមានកំហុសវេយ្យាករណ៍ ឬអក្ខរាវិរុទ្ធ។
+report-different-language = ភាសាខុសគ្នា
+report-different-language-detail = វាត្រូវបានសរសេរជាភាសាផ្សេងពីអ្វីដែលខ្ញុំកំពុងនិយាយ។
+report-difficult-pronounce = ពិបាកបញ្ចេញសំឡេង
+report-difficult-pronounce-detail = វាមានពាក្យ ឬឃ្លាដែលពិបាកអាន ឬពិបាកបញ្ចេញសំឡេង។
+report-offensive-speech = ពាក្យសម្ដីប្រមាថ
+report-offensive-speech-detail = ឃ្លីបនេះមានភាសាមិនសមរម្យ ឬភាសាប្រមាថ។
+report-other-comment =
+    .placeholder = មតិយោបល់
+success = ជោគជ័យ
+continue = បន្ត
+report-success = របាយការណ៍ត្រូវបានអនុម័តដោយជោគជ័យ
+
+## Speak & Listen Shortcuts
+
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
+
+## Speak Shortcuts
+
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
+shortcut-record-toggle-label = ថត/បញ្ឈប់
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = ថតឃ្លីបឡើងវិញ
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = បោះបង់ការថតដែលកំពុងដំណើរការ
+shortcut-submit = ត្រលប់
+shortcut-submit-label = ដាក់ស្នើ​​ឃ្លីប
+request-language-text = មិនទាន់ឃើញភាសារបស់អ្នកនៅលើ Common Voice នៅឡើយឬ?
+request-language-button = ស្នើសុំភាសា
+
+## Listen Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+shortcut-play-toggle-label = ចាក់/បញ្ឈប់
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
+
+## Validation criteria
+
+contribution-criteria-nav = លក្ខណៈវិនិច្ឆ័យ
+contribution-criteria-link = យល់ដឹងពីលក្ខណៈវិនិច្ឆ័យនៃការចូលរួមចំណែក
+contribution-criteria-page-title = លក្ខណៈវិនិច្ឆ័យនៃការចូលរួមចំណែក
+contribution-criteria-page-description = យល់ដឹងពីអ្វីដែលត្រូវរកមើលនៅពេលាស្ដាប់ឃ្លីបសំឡេង និងជួយធ្វើឱ្យការថតសំឡេងរបស់អ្នកកាន់តែសម្បូរបែបផងដែរ!
+contribution-for-example = ឧទាហរណ៍
+contribution-misreadings-title = ការអានខុស
+contribution-misreadings-description = នៅពេលស្ដាប់ សូមពិនិត្យមើលដោយប្រុងប្រយ័ត្នថាអ្វីដែលត្រូវបានថតគឺពិតជាអ្វីដែលបានសរសេរ។ សូមបដិសេធទោះបីជាមានកំហុសតូចតាចក៏ដោយ។ <br />កំហុសទូទៅរួមមាន៖
+contribution-misreadings-description-extended-list-1 = បាត់សំឡេង <strong>'A'</strong> ឬ <strong>'The'</strong> នៅដើមដំបូងនៃការថត។
+contribution-misreadings-description-extended-list-2 = បាត់សំឡេង <strong>'s'</strong> នៅ​ខាងចុង​ពាក្យ។
+contribution-misreadings-description-extended-list-3 = ការអានពាក្យកាត់ដែលមិនត្រឹមត្រូវ ដូចជា "We're" ជំនួសឱ្យ "We are" ឬច្រាសមកវិញ។
+contribution-misreadings-description-extended-list-4 = ការបាត់ពាក្យខាងចុងក្រោយដោយសារកាត់ផ្ដាច់ការថតលឿនពេក។
+contribution-misreadings-description-extended-list-5 = ព្យាយាមអានពាក្យមួយច្រើនដងពេក។
+contribution-misreadings-example-1-title = ដាយណូស័រយក្សនៃយុគសម័យ Triassic ។
+contribution-misreadings-example-2-title = ដាយណូស័រយក្សនៃយុគសម័យ Triassic ។
+contribution-misreadings-example-2-explanation = [គួរតែជា 'ដាយណូស័រ']
+contribution-misreadings-example-3-title = ដាយណូស័រយក្សនៃយុគសម័យ Triassi- ។
+contribution-misreadings-example-3-explanation = [ការថតសំឡេងត្រូវបានកាត់ផ្តាច់មុនពេលពាក្យចុងក្រោយចប់]
+contribution-misreadings-example-4-title = ដាយណូស័រយក្សនៃយុគសម័យទ្រីអាស៊ីក។ មែនហើយ។
+contribution-misreadings-example-4-explanation = [មាន​ការ​កត់ត្រា​ច្រើន​ជាង​អត្ថបទ​ដែល​តម្រូវ​ឲ្យ​សរសេរ]
+contribution-misreadings-example-5-title = យើង​នឹង​ចេញ​ទៅ​ទិញ​កាហ្វេ។
+contribution-misreadings-example-6-title = យើង​នឹង​ចេញ​ទៅ​ទិញ​កាហ្វេ។
+contribution-misreadings-example-6-explanation = [គួរតែជា "យើងជា"]
+contribution-misreadings-example-7-title = យើង​នឹង​ចេញ​ទៅ​ទិញ​កាហ្វេ។
+contribution-misreadings-example-7-explanation = [គ្មានអក្សរ ‘a’ នៅក្នុងអត្ថបទដើម]
+contribution-misreadings-example-8-title = សត្វ​ឃ្មុំ​បាន​រត់​លឿន​ទៅ​មុខ។
+contribution-misreadings-example-8-explanation = [ខ្លឹមសារមិនត្រូវគ្នា]
+contribution-varying-pronunciations-title = ការបញ្ចេញសំឡេងខុសៗគ្នា
+contribution-varying-pronunciations-description = សូមប្រុងប្រយ័ត្នមុននឹងបដិសេធវីដេអូឃ្លីបដោយផ្អែកលើហេតុផលថាអ្នកអានបានបញ្ចេញសំឡេងពាក្យខុស ដាក់ភាពតានតឹងនៅកន្លែងខុស ឬហាក់ដូចជាមិនអើពើនឹងសញ្ញាសួរ។ មានការបញ្ចេញសំឡេងជាច្រើនប្រភេទកំពុងប្រើប្រាស់នៅជុំវិញពិភពលោក ដែលខ្លះអ្នកប្រហែលជាមិនធ្លាប់បានឮនៅក្នុងសហគមន៍ក្នុងតំបន់របស់អ្នក។ សូមផ្តល់ការកោតសរសើរបន្តិចបន្តួចសម្រាប់អ្នកដែលអាចនិយាយខុសពីអ្នក។
+contribution-varying-pronunciations-description-extended = ម្យ៉ាងវិញទៀត ប្រសិនបើអ្នកគិតថាអ្នកអានប្រហែលជាមិនធ្លាប់បានជួបប្រទះពាក្យនេះពីមុនមកទេ ហើយគ្រាន់តែទាយខុសអំពីការបញ្ចេញសំឡេង សូមបដិសេធ។ ប្រសិនបើអ្នកមិនប្រាកដ សូមប្រើប៊ូតុងរំលង។
+contribution-varying-pronunciations-example-1-title = នៅលើក្បាលរបស់គាត់គាត់ពាក់មួកបេរ៉េត។
+contribution-varying-pronunciations-example-1-explanation = [ពាក្យ ‘Beret’ អាចប្រើការបាន មិនថាសង្កត់លើព្យាង្គទីមួយ (UK) ឬព្យាង្គទីពីរ (US)]
+contribution-varying-pronunciations-example-2-title = ដៃរបស់គាត់ត្រូវបានលើកឡើង។
+contribution-varying-pronunciations-example-2-explanation = [ពាក្យ ‘Raised’ ជាភាសាអង់គ្លេសតែងតែអានជាព្យាង្គមួយ មិនមែនពីរទេ]
+contribution-background-noise-title = សំឡេងរំខានផ្ទៃខាងក្រោយ
+contribution-background-noise-description = យើងចង់ឱ្យក្បួនដោះស្រាយការរៀនរបស់ម៉ាស៊ីនអាចដោះស្រាយសំឡេងរំខានផ្ទៃខាងក្រោយជាច្រើនប្រភេទ ហើយសូម្បីតែសំឡេងខ្លាំងៗក៏អាចត្រូវបានទទួលយកដែរ ដរាបណាវាមិនរារាំងអ្នកពីការស្តាប់អត្ថបទទាំងមូល។ តន្ត្រីផ្ទៃខាងក្រោយស្ងាត់ៗគឺអាចទទួលយកបាន ប៉ុន្តែតន្ត្រីខ្លាំងល្មមដើម្បីការពារអ្នកពីការស្តាប់ពាក្យនីមួយៗគឺមិនអាចទទួលយកបានទេ។
+contribution-background-noise-description-extended = ប្រសិនបើការថតសំឡេងរហែក ឬមានសំឡេងប្រេះស្រាំ សូមបដិសេធ លុះត្រាតែអត្ថបទទាំងមូលនៅតែអាចស្តាប់បាន។
+contribution-background-noise-example-1-fixed-title = <strong>[កណ្តាស់]</strong> ដាយណូស័រយក្សនៃយុគសម័យ <strong>[ក្អក]</strong> ទ្រីអាស៊ីក។
+contribution-background-noise-example-2-fixed-title = ឌីណូយក្ស <strong>[ក្អក]</strong> ជាប្រភេទត្រីអាស៊ីក។
+contribution-background-noise-example-2-explanation = [ផ្នែកខ្លះនៃអត្ថបទមិនអាចស្តាប់បានទេ]
+contribution-background-noise-example-3-fixed-title = ដាយណូស័រយក្ស <strong>[Crackle]</strong> នៃ <strong>[crackle]</strong> -riassic។
+contribution-background-voices-title = សំឡេងផ្ទៃខាងក្រោយ
+contribution-background-voices-description = ការ​និយាយ​លេង​សើច​ស្ងាត់ៗ​នៅ​ផ្ទៃ​ខាង​ក្រោយ​គឺ​អាច​ធ្វើ​បាន ប៉ុន្តែ​យើង​មិន​ចង់​បាន​សំឡេង​បន្ថែម​ដែល​អាច​ធ្វើ​ឱ្យ​ក្បួន​ដោះស្រាយ​ម៉ាស៊ីន​កំណត់​អត្តសញ្ញាណ​ពាក្យ​ដែល​មិន​មាន​នៅ​ក្នុង​អត្ថបទ​ដែល​សរសេរ​នោះ​ទេ។ ប្រសិន​បើ​អ្នក​អាច​ឮ​ពាក្យ​ខុស​គ្នា​ក្រៅ​ពី​ពាក្យ​ក្នុង​អត្ថបទ ឃ្លីប​នេះ​គួរ​តែ​ត្រូវ​បាន​បដិសេធ។ ជា​ធម្មតា​វា​កើត​ឡើង​នៅ​ពេល​ដែល​ទូរទស្សន៍​ត្រូវ​បាន​បើក ឬ​កន្លែង​ដែល​មាន​ការ​សន្ទនា​កំពុង​កើត​ឡើង​នៅ​ក្បែរ​នោះ។
+contribution-background-voices-description-extended = ប្រសិនបើការថតសំឡេងរហែក ឬមានសំឡេងប្រេះស្រាំ សូមបដិសេធ លុះត្រាតែអត្ថបទទាំងមូលនៅតែអាចស្តាប់បាន។
+contribution-background-voices-example-1-title = ដាយណូស័រយក្សនៃយុគសម័យទ្រីអាស៊ីក។ <strong>[អានដោយសំឡេងតែមួយ]</strong>
+contribution-background-voices-example-1-explanation = តើអ្នកមកទេ? <strong>[ហៅដោយអ្នកផ្សេង]</strong>
+contribution-volume-title = កម្រិតសំឡេង
+contribution-volume-description = នឹងមានភាពខុសគ្នាជាធម្មជាតិនៃកម្រិតសំឡេងរវាងអ្នកអាន។ បដិសេធលុះត្រាតែកម្រិតសំឡេងខ្ពស់ខ្លាំងពេកដែលការថតសំឡេងដាច់ ឬ (ជាទូទៅ) ប្រសិនបើវាទាបខ្លាំងពេកដែលអ្នកមិនអាចឮអ្វីដែលកំពុងត្រូវបាននិយាយដោយមិនយោងទៅលើអត្ថបទដែលបានសរសេរ។
+contribution-reader-effects-title = បែបផែនអ្នកអាន
+contribution-reader-effects-description = ការថតសំឡេងភាគច្រើនគឺជាសំឡេងរបស់មនុស្សនិយាយដោយសំឡេងធម្មជាតិរបស់ពួកគេ។ អ្នកអាចទទួលយកការថតសំឡេងមិនស្តង់ដារម្តងម្កាល ដែលត្រូវបានស្រែក ខ្សឹប ឬនិយាយដោយសំឡេង «អស្ចារ្យ»។ សូមបដិសេធការថតសំឡេងច្រៀង និងសំឡេងដែលប្រើសំឡេងសំយោគដោយកុំព្យូទ័រ។
+contribution-just-unsure-title = គ្រាន់តែមិនប្រាកដ?
+contribution-just-unsure-description = ប្រសិនបើអ្នកជួបប្រទះអ្វីមួយដែលគោលការណ៍ណែនាំទាំងនេះមិនគ្របដណ្តប់ សូមបោះឆ្នោតតាមការវិនិច្ឆ័យដ៏ល្អបំផុតរបស់អ្នក។ ប្រសិនបើអ្នកពិតជាមិនអាចសម្រេចចិត្តបានទេ សូមប្រើប៊ូតុងរំលង ហើយបន្តទៅការថតបន្ទាប់។
+see-more = <chevron></chevron>មើលបន្ថែម
+see-less = <chevron></chevron>មើលតិច

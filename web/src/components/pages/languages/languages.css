@@ -168,3 +168,42 @@
         margin-inline: 30px;
     }
 }
+
+
+.search {
+    border: solid 1px var(--grey);
+    border-radius: 22px;
+    margin-inline-start: auto;
+    padding: 0.5em 1em;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background: var(--lighter-grey);
+
+    @media (--sm-down) {
+        margin: 10px 0;
+        padding: 10px;
+        width: 100%;
+    }
+
+    & input {
+        outline: none;
+        border: none;
+        margin: 0 10px;
+        width: 100%;
+        background: transparent;
+        color: var(--near-black);
+        font-family: var(--base-font-family);
+
+        &::-ms-clear {
+            display: none;
+        }
+    }
+
+    & img {
+        padding-top: 2px;
+        width: 16px;
+    }
+}

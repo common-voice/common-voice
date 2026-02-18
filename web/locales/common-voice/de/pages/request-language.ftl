@@ -41,3 +41,21 @@ need-help-deciding-platform = Benötigen Sie Hilfe bei der Auswahl?
 need-help-deciding-platform-explanation-1 = In <strong>Geschriebener Sprache</strong> (was üblicherweise als Common Voice bekannt ist) können Sätze in Ihrer Sprache laut vorgelesen werden.
 need-help-deciding-platform-explanation-2 = <strong>Spontane Sprache</strong> ist ein neuer Teil von Common Voice, mit dem Sie Fragen natürlicher und umgangssprachlich beantworten können.
 need-help-deciding-platform-explanation-3 = Wenn Ihre Sprache in keinem der Bereiche der Plattform angezeigt wird, wählen Sie beide aus.
+request-language-search-bar = Sie können hier den Namen Ihrer Sprache eingeben. Wenn diese noch nicht auf Common Voice ist, können Sie ein Formular mit den Daten Ihrer Sprache ausfüllen.
+request-language-found-pontoon-not-launched =
+    Ihre Sprache steht bereits auf der Common-Voice-Sprachliste. 
+    Sie können die Spracheinführung bei <strong>Geschriebener Sprache</strong> erleichtern, indem Sie  <pontoonLink>hier</pontoonLink> die Schnittstelle der Plattform übersetzen. Die Benutzeroberfläche muss zu 60 % übersetzt sein; 
+    alternativ können Sie nur die Basis-Strings in 'web/locales/en/pages/contribute/*.ftl' auf 100% übersetzen 
+    (es gibt fünf solcher Dateien), dann wird die Schnittstelle automatisch gestartet.
+request-language-found-cv-contribution =
+    Hurra! Ihre Sprache ist bereits auf <strong>Geschriebener Sprache</strong> von Common Voice verfügbar. 
+    Sie können <homePageLink>hier</homePageLink> mitwirken.
+request-language-found-cv-sentences-lack =
+    Ihre Sprache ist bereits auf der Common-Voice-Sprachliste.
+    Sie können die Spracheinführung bei <strong>Geschriebener Sprache</strong> unterstützen, indem Sie
+    <sentencesContributionLink>hier</sentencesContributionLink> Sätze beitragen.
+request-language-found-spontaneous-speech =
+    Ihre Sprache ist bereits bei <strong>Spontaner Sprache</strong> von Common Voice. 
+    Klicken Sie <spontaneousSpeechLink>hier</spontaneousSpeechLink>, um mitzuwirken: Vergessen Sie nicht, die Sprache des Beitrags/Datensatzes zu ändern, bevor Sie mitarbeiten!
+request-language-already-available-scs = „Geschriebene Sprache“ bereits verfügbar
+request-language-already-available-sps = „Spontane Sprache“ bereits verfügbar

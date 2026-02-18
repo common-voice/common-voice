@@ -124,7 +124,6 @@ add-text = Azzonzi do testo
 
 ## Community section
 
-community-section-title = Realizzou da de communitæ globale, pe-e communitæ globale: 130 lengue, delongo in aumento!
 join-discord-community = Intra inta communitæ in sce Discord
 # label for button
 join-discord-community-action = Piggia parte in sce Discord

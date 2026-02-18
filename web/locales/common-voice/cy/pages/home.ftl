@@ -97,7 +97,7 @@ press-and-stories = Y Wasg a Straeon
 community-and-languages = Cymuned ac Ieithoedd
 coming-soon = Yn Dod yn Cyn Hir
 about-us = Amdanom ni
-scripted-speech = LLEFERYDD TESTUN
+scripted-speech = LLEFARU TESTUN
 spontaneous-speech = LLEFARU RHYDD
 
 ## MENU ITEMS TOOLTIPS
@@ -130,7 +130,7 @@ get-started = Cychwyn arni <icon><icon>
 
 action-items-section-title = Mae Common Voice yn blatfform cod agored, rhydd ar gyfer creu data gan y gymuned
 action-items-section-subtitle = Gall unrhyw un gadw, adfywio a dyrchafu eu hiaith trwy rannu, creu a churadu setiau data testun a lleferydd.
-scripted-card-header = Lleferydd Testun
+scripted-card-header = Llefaru Testun
 scripted-card-content = Darllen brawddegau'n uchel yn eich iaith a chyfrannu at y set ddata lleferydd cyfranogiad cyhoeddus fwyaf amrywiol yn y byd.
 spontaneous-card-header = Llefaru Rhydd
 spontaneous-card-content = Ymateb i gwestiynau i greu setiau data ar gyfer cyd-destunau llafar, organig. Perffaith ar gyfer ieithoedd llafar yn bennaf.
@@ -142,7 +142,7 @@ answer = Ateb
 
 ## Community section
 
-community-section-title = Wedi'i bweru gan gymunedau byd-eang, ar gyfer cymunedau byd-eang - 130 o ieithoedd ac yn tyfu!
+community-section-title-202601 = Wedi'i rymuso gan gymunedau byd-eang, ar gyfer cymunedau byd-eang - 290 o ieithoedd ac yn tyfu!
 join-discord-community = Ymunwch â'r Gymuned Discord
 # label for button
 join-discord-community-action = Ymunwch â ni ar Discord

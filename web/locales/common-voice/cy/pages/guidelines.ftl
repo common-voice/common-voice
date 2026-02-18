@@ -4,7 +4,7 @@ guidelines-header-subtitle = Deall sut i gyfrannu a dilysu brawddegau a chlipiau
 voice-collection = Casglu Lleisiau
 sentence-collection = Casglu Brawddegau
 question-collection = Casgliad Cwestiynau
-scripted-speech = Lleferydd Testun
+scripted-speech = Llefaru Testun
 spontaneous-speech = Llefaru Rhydd
 dont-subheader = Peidiwch
 

@@ -16,8 +16,5 @@ contribute = حصہ پاؤ
 ## Not Found Page
 
 not-found-page-header = کائنی لبھیا
-# Locales (not yet fully resolved in Pontoon)
-meh = جنوب مغربی لیکسی آکو میکسٹیک
-mel = سنٹرل میلاناو
 # Locales-Variants
 ms-MY = بہاسہ مالے

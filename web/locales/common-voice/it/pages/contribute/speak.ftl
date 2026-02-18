@@ -12,6 +12,14 @@ record-no-mic-found = Impossibile trovare il microfono.
 record-error-too-short = La registrazione è troppo breve.
 record-error-too-long = La registrazione è troppo lunga.
 record-error-too-quiet = Il volume della registrazione è troppo basso.
+record-error-empty-recording = Non è stato catturato alcun audio. Controlla il tuo microfono e riprova.
+record-error-unknown-format = Impossibile determinare il formato audio. Prova a utilizzare un altro browser.
+record-error-uploaded-clip-corrupted =
+    La registrazione audio sembra essere danneggiata. Questo può succedere per diversi motivi:
+    • Problemi di compatibilità del browser (prova a utilizzare un altro browser)
+    • Problemi con il microfono o il driver audio
+    • Interruzioni di rete durante la registrazione
+    Riprova a registrare.
 record-cancel = Annulla la nuova registrazione
 record-instruction = { $actionType }<recordIcon></recordIcon>, quindi leggi la frase ad alta voce
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> quando hai finito

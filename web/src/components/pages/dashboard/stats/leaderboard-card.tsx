@@ -14,6 +14,7 @@ import {
 } from '../../../../stores/user'
 import URLS from '../../../../urls'
 import { LocaleLink, LocalizedGetAttribute } from '../../../locale-helpers'
+import { isProduction } from '../../../../utility'
 
 import {
   BookmarkIcon,
@@ -97,7 +98,7 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
         if (this._isMounted && token === this._fetchToken) {
           this.setState({ isLoading: false })
         }
-        if (process.env.NODE_ENV !== 'production') {
+        if (!isProduction()) {
           console.warn('Leaderboard fetch failed', err)
         }
       })

@@ -5,4 +5,4 @@ contact-form-name =
     .label = Jeneng
 contact-form-message =
     .label = Pesen
-contact-required = *kudu
+contact-required = * dibutuhake

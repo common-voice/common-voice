@@ -7,6 +7,10 @@ interface NativeNames {
   [property: string]: string
 }
 
+interface EnglishNames {
+  [property: string]: string
+}
+
 interface LocaleNameAndIDMapping {
   id: number
   name: string
@@ -17,14 +21,17 @@ export interface State {
   allLocales?: Locales
   contributableLocales?: Locales
   nativeNames?: NativeNames
+  englishNames?: EnglishNames
   rtlLocales?: Locales
   translatedLocales?: Locales
   contributableNativeNames?: NativeNames
   localeNameAndIDMapping?: LocaleNameAndIDMapping[]
+  spontaneousSpeechLanguages?: Locales
 }
 
 enum ActionType {
   LOADED = 'LOADED',
+  SPONTANEOUS_SPEECH_LOADED = 'SPONTANEOUS_SPEECH_LOADED',
 }
 
 interface LoadedAction {
@@ -33,6 +40,7 @@ interface LoadedAction {
     allLocales: Locales
     contributableLocales: Locales
     nativeNames: NativeNames
+    englishNames: EnglishNames
     rtlLocales: Locales
     translatedLocales: Locales
     contributableNativeNames: NativeNames
@@ -40,7 +48,14 @@ interface LoadedAction {
   }
 }
 
-export type Action = LoadedAction
+interface SpontaneousSpeechLoadedAction {
+  type: ActionType.SPONTANEOUS_SPEECH_LOADED
+  payload: {
+    spontaneousSpeechLanguages: Locales
+  }
+}
+
+export type Action = LoadedAction | SpontaneousSpeechLoadedAction
 
 export const actions = {
   loadLocalesData: () => {
@@ -59,6 +74,13 @@ export const actions = {
             : language.english_name
             ? `${language.english_name} [${language.name}]`
             : language.name
+        return names
+      }, {})
+
+      const englishNames = allLanguages.reduce((names: any, language) => {
+        names[language.name] = language.english_name
+          ? language.english_name
+          : language.name
         return names
       }, {})
 
@@ -93,6 +115,7 @@ export const actions = {
       }, [])
 
       const allLocales = allLanguages.map(language => language.name)
+
       const contributableLocales = allLanguages
         .filter(language => language.is_contributable)
         .map(language => language.name)
@@ -108,10 +131,34 @@ export const actions = {
           allLocales,
           contributableLocales,
           nativeNames,
+          englishNames,
           rtlLocales,
           translatedLocales,
           contributableNativeNames,
           localeNameAndIDMapping,
+        },
+      })
+    }
+  },
+  loadSpontaneousSpeechLanguages: () => {
+    return async (
+      dispatch: Dispatch<SpontaneousSpeechLoadedAction>,
+      getState: () => StateTree
+    ) => {
+      const { api, languages } = getState()
+
+      // Don't reload if already loaded
+      if (languages.spontaneousSpeechLanguages !== undefined) {
+        return
+      }
+
+      const spontaneousSpeechLanguages =
+        await api.fetchSpontaneousSpeechLanguages()
+
+      dispatch({
+        type: ActionType.SPONTANEOUS_SPEECH_LOADED,
+        payload: {
+          spontaneousSpeechLanguages,
         },
       })
     }
@@ -131,10 +178,17 @@ export function reducer(state: State = INITIAL_STATE, action: Action): State {
         allLocales: action.payload.allLocales,
         contributableLocales: action.payload.contributableLocales,
         nativeNames: action.payload.nativeNames,
+        englishNames: action.payload.englishNames,
         rtlLocales: action.payload.rtlLocales,
         translatedLocales: action.payload.translatedLocales,
         contributableNativeNames: action.payload.contributableNativeNames,
         localeNameAndIDMapping: action.payload.localeNameAndIDMapping,
+      }
+
+    case ActionType.SPONTANEOUS_SPEECH_LOADED:
+      return {
+        ...state,
+        spontaneousSpeechLanguages: action.payload.spontaneousSpeechLanguages,
       }
 
     default:

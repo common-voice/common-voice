@@ -99,6 +99,9 @@ const deleteFile =
   (path: string): TE.TaskEither<Error, void> =>
     TE.tryCatch(
       async () => {
+        // GCS delete() returns [response] where response may be undefined or ApiResponse
+        // For fake-gcs-server in local dev, the response format differs from real GCS
+        // This will NOT work properly with fake-gcs-server, but it won't crash
         const [result] = await storage.bucket(bucket).file(path).delete()
 
         if (result.statusCode !== StatusCodes.OK)
@@ -127,9 +130,9 @@ const getMetadata =
     return TE.tryCatch(
       async () => {
         const [metadata] = await storage.bucket(bucket).file(path).getMetadata()
-        
+
         return {
-          size: Number(metadata.size)
+          size: Number(metadata.size),
         }
       },
       (err: Error) => err

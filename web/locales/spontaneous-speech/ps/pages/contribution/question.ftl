@@ -4,8 +4,18 @@ question-page-instruction = د خلکو د ځواب لپاره <icon></icon>په
 add-question-textarea-placeholder = د بېلګې په ډول، "تاسو غواړی چې ټیکنالوژي د څه لپاره وکاروۍ؟"
 add-questions-terms-checkbox = زه تاییدوم چې دا پوښتنه <wikipediaLink> عامه ډومین</wikipediaLink> ده او زه یې د پورته کولو اجازه لرم.
 question-dataset-language = ډېټاسیټ: { $datasetLanguage }
+add-question-success-toast-message =
+    { $totalQuestions ->
+        [one] { $uploadedQuestions } د ۱  پوښتنې څخه راټول شوي
+       *[other] { $uploadedQuestions } د { $totalQuestions } پوښتنو څخه راټول شوي
+    }
 add-question-error-message = اپلوډ ناکام شو، مهرباني وکړئ بیا هڅه وکړئ.
 add-question-too-many-questions-error = له ۲۵ پوښتنو زیات شو. د پوښتنو شمېر کم کړئ او بیا هڅه وکړئ.
+partial-questions-upload-message =
+    { $totalQuestions ->
+        [one] { $uploadedQuestions }  پوښتنه راټوله شوې. د پوښتنو ورگډولو لپاره زموږ <guidelinesLink>لارښود<guidelinesLink/> مخونه وگورئ
+       *[other] { $uploadedQuestions }  پوښتنې راټولې شوې. د پوښتنو ورگډولو لپاره زموږ <guidelinesLink>لارښود<guidelinesLink/> مخونه وگورئ
+    }
 # Guidelines
 add-question-guidelines-title = زه کومې پوښتنې اضافه کولای شم؟
 do-section-title = وکړه

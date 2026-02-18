@@ -31,6 +31,5 @@ not-found-page-header = Dyà gí chö̀tü k'o í jögi
 not-found-page-content = Nú pájina dyà gú chö̀tü k'o jö́ri
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Rí kěnto konpjórme k'oyó <termsLink>terminosdeuso</termsLink> nú <privacyLink>politicaprivacidad</privacyLink> Common Voice
-mel = Melanau del centro
 # Locales-Variants
 ms-MY = Bahasa Malay

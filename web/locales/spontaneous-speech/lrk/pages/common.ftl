@@ -37,9 +37,6 @@ not-found-page-header = ڪوئي ملئو
 not-found-page-content = جي صفحو تمو جو هو او ڪوئي ملي سگهيو.
 # Privacy and Terms checkbox
 accept-privacy-and-terms = ھون متفق ھون Common Voice ري <termsLink>شرائط</termsLink> ۽ <privacyLink>رازداري نوٽيس</privacyLink>
-# Locales (not yet fully resolved in Pontoon)
-meh = ڏکڻ اولهه ٽليڪسياڪو ميڪٽيڪ
-mel = مرڪزي ميلانو
 # Locales-Variants
 ms-MY = بهاس ملائي
 

@@ -31,8 +31,5 @@ not-found-page-header = 'ban puwö
 not-found-page-content = payit logwon do ga'du nye lo ako puwö
 # Privacy and Terms checkbox
 accept-privacy-and-terms = nan a rugö i Loki na gworolo ka'deka'de ko saresi ako kulyasina na mumukö
-# Locales (not yet fully resolved in Pontoon)
-meh = rutan lo jama ko 'gutu ti southwestern Tlaxiaco
-mel = rutan lo jama ko 'gutu lo si'da i swot lo central malaysia
 # Locales-Variants
 ms-MY = rutan lo jur Malaysia

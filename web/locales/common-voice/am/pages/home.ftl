@@ -135,7 +135,6 @@ answer = መልስ
 
 ## Community section
 
-community-section-title = በአለም አቀፍ ማህበረሰቦች የተጎላበተ፣ ለአለም አቀፍ ማህበረሰቦች - 130 ቋንቋዎች እና እያደገ ያለ!
 join-discord-community = የዲስኮርድ ማህበረሰብን ይቀላቀሉ
 # label for button
 join-discord-community-action = በ ዲስኮርድ ላይ ይቀላቀሉን።

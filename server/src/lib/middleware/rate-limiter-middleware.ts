@@ -3,7 +3,7 @@ import {
   RateLimiterRedis,
   IRateLimiterStoreOptions,
 } from 'rate-limiter-flexible'
-import { redis as redisClient } from '../redis'
+import { redis as redisClient } from '../redis-cache'
 
 function createRateLimiter(
   keyPrefix: string,

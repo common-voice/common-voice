@@ -37,8 +37,5 @@ not-found-page-header = ڪونآ مِلرو
 not-found-page-content = تِمي جِرو سڦآ ڪوُ ڊهوُنڊ رهيرآ هو، وو ڪونآ مِل سڪرو۔
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Common Voice ڪيٚ <termsLink>شرتيٚنٚ</termsLink> اور <privacyLink>پرآئيوُسيآنٚ ڪآ نوتيِسو </privacyLink> دي مي رآجي هونٚ
-# Locales (not yet fully resolved in Pontoon)
-meh = ڌکڻ اُتري Tlaxiaco Mixtec
-mel = وُچولیٚ میلآنو
 # Locales-Variants
 ms-MY = بهآسآ ملآئيٚ

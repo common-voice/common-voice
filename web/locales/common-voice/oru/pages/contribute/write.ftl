@@ -152,6 +152,7 @@ write-contribute-menu-tooltip = جملي ل دی ګډېون، دوبارۀ وه 
 add-sentences-menu-item-tooltip = خوئ زبان نرل دی جملي ګډېون
 review-sentences-menu-item-tooltip = حوئ زبان نره ل بيے ا پِکِر ترېون ویزر
 add-questions-menu-item-tooltip = خوئ زبان نرل دی سؤلی ګډېون
+review-questions-menu-item-tooltip = ته نظرثاني سولّی
 transcribe-audio-menu-item-tooltip = ته اډیو ا ریکارډنګ خوئ زبان نر نقل کېون
 
 ## MENU ITEM ARIA LABELS
@@ -160,4 +161,5 @@ write-contribute-menu-aria-label = اپسن مېنیو يې لیکن
 add-sentences-menu-item-aria-label = نیووه جملي ل دی ته کمیونېټی ته هِشتک پاره ګډېون
 review-sentences-menu-item-aria-label = ای تیار فئ جملي ورل بيے ا پَکر ترېون که ائ دی پېش داکِن
 add-questions-menu-item-aria-label = ته کمیونېټی ته ۀِشتک او ته څواب پاره دی نیووه سؤلی تیارېون
+review-questions-menu-item-aria-label = نظرثاني او ووټ ته نیوه سولّی پاره که ته کمیونېټی ا خلق دی پېش داک بېن
 transcribe-audio-menu-item-aria-label = ا اډیو ریکارډنګ ته لیک صورت نر تیارېون

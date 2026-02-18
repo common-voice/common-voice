@@ -31,8 +31,5 @@ not-found-page-header = Not Found
 not-found-page-content = The page you are looking for could not be found
 # Privacy and Terms checkbox
 accept-privacy-and-terms = I agree to Common Voice's <termsLink>Terms</termsLink> and <privacyLink>Privacy Notice</privacyLink>
-# Locales (not yet fully resolved in Pontoon)
-meh = Southwestern Tlaxiaco Mixtec
-mel = Central Melanau
 # Locales-Variants
 ms-MY = Bahasa Malay

@@ -37,8 +37,5 @@ not-found-page-header = نہ لت
 not-found-page-content = تو کیں پیج بیرنت تاٞس نہ لیت
 # Privacy and Terms checkbox
 accept-privacy-and-terms = یہ متفق تھو  کامن وائساٞں<termsLink> شرطونہ</termsLink> تے <privacyLink> پرائویسی نوٹس سٞہ</privacyLink>
-# Locales (not yet fully resolved in Pontoon)
-meh = جنوب مغربی تلازیاکو میکسٹک
-mel = سینٹرل میلانوا
 # Locales-Variants
 ms-MY = بحاسا مالے

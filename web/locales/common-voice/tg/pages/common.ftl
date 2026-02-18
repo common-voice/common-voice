@@ -425,3 +425,10 @@ announcement-mdc-text = Акнун <strong>маҷмуи маълумоти на�
 announcement-mdc-button-text = Ба лоиҳаи «Mozilla Data Collective» ҳамроҳ шавед
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = Дар варақаи нав кушода мешавад
+
+## Common Language/Dataset Selector & SearchBox Related
+
+dataset-searchbox-placeholder = Ҷустуҷӯи забон...
+dataset-searchbox-aria-label = Ҷустуҷӯи забон
+dataset-search-no-results = Ягон забони мувофиқ ёфт нашуд
+request-new-language = Дархости забони нав

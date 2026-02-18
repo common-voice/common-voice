@@ -1,6 +1,6 @@
 import { taskEither as TE } from 'fp-ts'
 import Mysql, { getMySQLInstance } from '../../lib/model/db/mysql'
-import lazyCache from '../../lib/lazy-cache'
+import lazyCache from '../../lib/redis-cache'
 import { createMd5Hash } from '../crypto/crypto'
 
 const db: Mysql = getMySQLInstance()

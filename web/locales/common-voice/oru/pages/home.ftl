@@ -124,7 +124,6 @@ add-text = سبق ال يې ګډ کوئ
 
 ## Community section
 
-community-section-title = طاقتور سُکِن ته دنیا ته کمیونېټيز پاره ــ ته رئ ا زبنی او ته پئ ا په مُختګ
 join-discord-community = دنیا لاسته کټ کمیونېټیز ګیرډ ګډ سئ
 # label for button
 join-discord-community-action = ماخ ګډ مېلاؤ سئ ډِسکورډ کی

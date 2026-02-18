@@ -33,8 +33,5 @@ not-found-page-header = Não encontrado
 not-found-page-content = A página que você procura não pôde ser encontrada
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Concordo com os <termsLink>Termos</termsLink> e o <privacyLink>Aviso de privacidade</privacyLink> do Common Voice
-# Locales (not yet fully resolved in Pontoon)
-meh = Tlaxiaco Mixtec do Sudoeste
-mel = Melanau Central
 # Locales-Variants
 ms-MY = Bahasa Malaio

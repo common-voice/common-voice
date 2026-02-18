@@ -12,6 +12,14 @@ record-no-mic-found = Mikrofon nebyl nalezen.
 record-error-too-short = Nahrávka byla příliš krátká.
 record-error-too-long = Nahrávka byla příliš dlouhá.
 record-error-too-quiet = Nahrávka byla příliš tichá.
+record-error-empty-recording = Nebyl zachycen žádný zvuk. Zkontrolujte mikrofon a zkuste to znovu.
+record-error-unknown-format = Nepodařilo se určit formát zvuku. Zkuste prosím použít jiný prohlížeč.
+record-error-uploaded-clip-corrupted =
+    Vaše nahrávka je zřejmě poškozena. Důvodem může být:
+    • Problémy s kompatibilitou prohlížečů (zkuste použít jiný prohlížeč)
+    • Problémy s mikrofonem nebo ovladačem zvuku
+    • Výpadky sítě během nahrávání
+    Zkuste nahrát záznam znovu.
 record-cancel = Zrušit opakovaný záznam
 record-instruction = { $actionType } <recordIcon></recordIcon> a přečtěte nahlas větu
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> až budete hotovi

@@ -31,8 +31,5 @@ not-found-page-header = میلاؤ نہ بیلو
 not-found-page-content = کوائی صفحا تُو ݜکیلا سا میلاؤ نی بیلو
 # Privacy and Terms checkbox
 accept-privacy-and-terms = کامن وائس پورا تھون در آسئی شرائط منیلا <termsLink> آسے پرائیویسی نوٹس اینی ݜکے۔ </privacyLink>
-# Locales (not yet fully resolved in Pontoon)
-meh = جنوبی ٹیلاسیکو میشٹیک
-mel = مرکزی میلانؤ
 # Locales-Variants
 ms-MY = بھاشا ملے

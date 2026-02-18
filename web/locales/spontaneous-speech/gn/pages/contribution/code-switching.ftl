@@ -1,8 +1,8 @@
 ## Errors
 
-cs-error-fetching-datasets = Oiko peteĩ jejavy erekokuévo mba’ekuaarã aty rysýi ojeporukuaáva. Ikatu eha’ãjey ag̃amieve.
-cs-error-fetching-questions = Oiko peteĩ jejavy emba’eporandukuévo. Ikatukuaa eha’ãjey ag̃amieve.
-cs-error-fetching-transcriptions = Oiko peteĩ jejavy embokuatikuévo. Ikatukuaa eha’ãjey ag̃amieve.
+cs-error-fetching-datasets = Oiko peteĩ jejavy erekokuévo mba’ekuaarã aty rysýi ojeporukuaáva. Ikatu eha’ã jey ag̃amieve.
+cs-error-fetching-questions = Oiko peteĩ jejavy emba’eporandukuévo. Ikatukuaa eha’ã jey ag̃amieve.
+cs-error-fetching-transcriptions = Oiko peteĩ jejavy embokuatikuévo. Ikatukuaa eha’ã jey ag̃amieve.
 
 ## Modals
 
@@ -15,6 +15,7 @@ cs-question-dataset-name = Mba’ekuaarã aty: { $datasetName }
 
 ## Validate Page Items
 
+cs-validate-page-instruction = Emboaje <validateIcon></validateIcon> ko’ã porandu orekopaiteha tekotevẽva.
 cs-add-vote-error-message = Oiko jejavy evotakuévo pe porandu rehe
 
 ## Tag Page Items

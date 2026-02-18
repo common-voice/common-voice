@@ -8,6 +8,13 @@ datasets-positioning =
     ชุดข้อมูลหลายภาษาของ Common Voice นั้นเป็นชุดข้อมูลเสียงที่เปิดเผยต่อสาธารณะที่ใหญ่ที่สุด แต่ไม่ได้เป็นชุดข้อมูลเดียว
     
     ดูหน้านี้สำหรับใช้ในการอ้างอิงชุดข้อมูลเสียงโอเพ่นซอร์สอื่น ๆ และในขณะที่ Common Voice กำลังเติบโต โปรดติดตามการอัปเดตของเราบนหน้านี้
+# New/upcoming datasets page headline
+datasets-headline-mdc = ขณะนี้ชุดข้อมูล Mozilla Common Voice มีให้บริการเฉพาะบน Mozilla Data Collective เท่านั้น
+# New/upcoming datasets page headline text
+datasets-positioning-mdc =
+    ตั้งแต่ Common Voice รุ่น 23.0 เป็นต้นไป ชุดข้อมูล Common Voice ทั้งหมดสามารถดาวน์โหลดได้เฉพาะผ่าน Mozilla Data Collective เท่านั้น!
+    
+    หน้านี้ทำหน้าที่เป็นคลังเก็บข้อมูลประวัติของชุดข้อมูล Mozilla Common Voice รุ่นเก่า รุ่นที่ออกในคลังเก็บข้อมูลควรใช้เฉพาะในสถานการณ์การวิจัยที่เฉพาะเจาะจงเท่านั้น ไม่ควรใช้เพื่อการฝึกอบรม เพื่อเคารพความประสงค์ของผู้ที่ขอให้ไม่รวมผลงานของตนไว้ด้วย
 datasets-speech-bubble-content = มีข่าวดี! เสียงพูดธรรมชาติกำลังจะเปิดตัวแล้ว! คอยติดตามข่าวสารอยู่ตลอดและอย่าลืมเช็ค <discordLink>Discord</discordLink> ของเราสำหรับข้อมูลล่าสุด
 language = ภาษา
 download-dataset-header = ดาวน์โหลดชุดข้อมูล

@@ -1,6 +1,7 @@
 import { UserClient } from 'common'
 import URLS from './urls'
 import { SmallBatchResponse } from './components/pages/contribution/sentence-collector/write/sentence-write/types'
+import { isIOS, isMacOSSafari } from './platforms'
 
 const SEARCH_REG_EXP = new RegExp('</?[^>]+(>|$)', 'g')
 const MS_IN_HOUR = 3600000
@@ -10,7 +11,7 @@ const MS_IN_HOUR = 3600000
  */
 export function generateGUID(): string {
   return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, function (c) {
-    var r = (Math.random() * 16) | 0,
+    const r = (Math.random() * 16) | 0,
       v = c == 'x' ? r : (r & 0x3) | 0x8
     return v.toString(16)
   })
@@ -31,71 +32,10 @@ export function generateToken(length = 40) {
  * https://codegolf.stackexchange.com/
  *   questions/47322/how-to-count-the-syllables-in-a-word
  */
-let re = /[aiouy]+e*|e(?!d$|ly).|[td]ed|le$/gi
+const re = /[aiouy]+e*|e(?!d$|ly).|[td]ed|le$/gi
 export function countSyllables(text: string): number {
-  let matches = text.match(re)
+  const matches = text.match(re)
   return matches.length
-}
-
-/**
- * Test whether this is an in-app-browser.
- * This is not a solid check for all possiblee cases, but should cover most.
- */
-export function isWebView(): boolean {
-  // Check for WebView based on user agent and properties
-  const userAgent = navigator.userAgent.toLowerCase() // Use lowercase for consistent checking
-
-  const isIOSWebView = /(iphone|ipod|ipad).*applewebkit(?!.*safari)/i.test(
-    navigator.userAgent
-  )
-  const isAndroidWebView =
-    /; wv\)/.test(userAgent) || typeof window._webview !== 'undefined'
-
-  // Common social media in-app browser signatures
-  const webViewSignatures = {
-    isFacebook: /fbav|fban|fb_iab\/|fb4a|fb1a|facebook/.test(userAgent),
-    isInstagram: /instagram/.test(userAgent),
-    isTwitter: /twitter/.test(userAgent),
-    isSnapchat: /snapchat/.test(userAgent),
-    isLinkedIn: /linkedinapp/.test(userAgent),
-    isTikTok: /tiktok/.test(userAgent),
-    isWeChat: /micromessenger/.test(userAgent),
-    isLine: /line/.test(userAgent),
-    isPinterest: /pinterest/.test(userAgent),
-  }
-
-  // Check if any WebView indicator is true
-  return (
-    isIOSWebView ||
-    isAndroidWebView ||
-    Object.values(webViewSignatures).some(value => value === true)
-  )
-}
-
-/**
- * Test whether this is a browser on iOS.
- *
- * NOTE: As of early 2020 this is not reliable on iPad for some privacy-minded
- * browsers, including Safari (!!), Brave, and Firefox Focus.
- */
-export function isIOS(): boolean {
-  return /iPod|iPhone|iPad|iOS/i.test(window.navigator.userAgent)
-}
-
-/**
- * Check whether the browser is mobile Safari on iOS.
- *
- * The logic is collected from answers to this SO question: https://stackoverflow.com/q/3007480
- */
-export function isMobileSafari(): boolean {
-  return (
-    isIOS() &&
-    !window.navigator.standalone &&
-    /AppleWebKit/i.test(window.navigator.userAgent) &&
-    !/Chrome|Focus|CriOS|OPiOS|OPT\/|FxiOS|EdgiOS|mercury/i.test(
-      window.navigator.userAgent
-    )
-  )
 }
 
 export function isMobileResolution(): boolean {
@@ -129,17 +69,6 @@ export function getManageSubscriptionURL(account: UserClient) {
     firstLanguage ? firstLanguage.locale + '/' : ''
   }newsletter/existing/${account.basket_token}`
 }
-
-export const getAudioFormat = (() => {
-  const preferredFormat = 'audio/ogg; codecs=opus'
-  const audio = document.createElement('audio')
-  const format = audio.canPlayType(preferredFormat)
-    ? preferredFormat
-    : 'audio/wav'
-  return function getAudioFormat() {
-    return format
-  }
-})()
 
 export async function hash(text: string) {
   const encoder = new TextEncoder()
@@ -224,3 +153,16 @@ export const invalidSmallBatchSentencesToTSVString = (
 
 export const typedObjectKeys = <T extends object>(object: T): (keyof T)[] =>
   Object.keys(object) as (keyof T)[]
+
+// Check if the user is currently typing in an input field
+// Use this to prevent keyboard shortcuts from triggering while typing in language/dataset selector
+export const isTyping = () => {
+  const el = document.activeElement
+  return (
+    el &&
+    (el.tagName === 'INPUT' ||
+      el.tagName === 'TEXTAREA' ||
+      el.tagName === 'SELECT' ||
+      el.getAttribute('contenteditable') === 'true')
+  )
+}

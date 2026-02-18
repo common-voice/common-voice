@@ -17,7 +17,7 @@ cs-question-dataset-name = Conxunto de datos: { $datasetName }
 ## Validate Page Items
 
 cs-validate-page-instruction = Valide <validateIcon></validateIcon> que esta pregunta cumpra as directrices.
-cs-no-questions-continue-skipped = Non hai máis preguntas para este conxunto de datos. Se deixou algunha sen contestar, pode continuar con elas ou ir transcribir son e intentalo de novo máis tarde.
+cs-no-questions-continue-skipped = Non hai máis preguntas para este conxunto de datos. Se deixou algunha sen contestar, pode continuar co contido pendente ou cambiar a transcribir gravacións e intentalo de novo máis tarde.
 cs-add-vote-error-message = Produciuse un erro na votación da pregunta
 
 ## Transcribe Page Items
@@ -26,11 +26,11 @@ cs-no-audio-continue-skipped-message = Neste momento non hai gravacións dispoñ
 
 ## Review Page Items
 
-cs-no-transcriptions-continue-skipped = Neste momento non hai transcricións para revisar neste conxunto de datos. Se deixou algunha se revisar, pode continuar co contido pendente ou ir transcribir son e intentalo de novo máis tarde.
+cs-no-transcriptions-continue-skipped = Neste momento non hai transcricións para revisar neste conxunto de datos. Se deixou algunha se revisar, pode continuar co contido pendente ou ir transcribir gravacións e intentalo de novo máis tarde.
 
 ## Tag Page Items
 
-cs-no-transcriptions-to-tag-continue-skipped = Neste momento non hai transcricións para etiquetar neste conxunto de datos. Se deixou algunha sen etiquetar, pode continuar co contido pendente ou ir transcribir son e intentalo de novo máis tarde.
+cs-no-transcriptions-to-tag-continue-skipped = Neste momento non hai transcricións para etiquetar neste conxunto de datos. Se deixou algunha sen etiquetar, pode continuar co contido pendente ou ir transcribir gravacións e intentalo de novo máis tarde.
 cs-tag-dataset-name = Conxunto de datos [{ $datasetName }]
 
 ## Guidelines

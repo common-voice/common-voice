@@ -37,9 +37,6 @@ not-found-page-header = მა̄მ ა̈ნთხა̄̈ნ
 not-found-page-content = ეჯ გვერდ, სი ერ ხეთხე̄ლი, მა̄მ ა̈ნთხა̄̈ნ.
 # Privacy and Terms checkbox
 accept-privacy-and-terms = თანახმა ხუ̂ი Common Voice's-შ
-# Locales (not yet fully resolved in Pontoon)
-meh = სამხრეთ-დასავლეთ Tlaxiaco Mixtec
-mel = ცენტრალურ Melanau
 # Locales-Variants
 ms-MY = მალაიური ენა
 

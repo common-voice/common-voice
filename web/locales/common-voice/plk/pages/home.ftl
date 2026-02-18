@@ -142,7 +142,7 @@ answer = جواب
 
 ## Community section
 
-community-section-title = عالمی برادرِیؤ ذریعہ تقویت یافتہ، عالمی برادرِیؤ کِرِیا — 130 جِبہ آں اسݨوجیْ گہ بسکِیؤ ǃ
+community-section-title-202601 = عالمی برادریوں کے تعاون سے، عالمی برادریوں کے لیے — 290 زبانیں، اور یہ تعداد بڑھتی جا رہی ہے!
 join-discord-community = ڈسکارڈ کمیونٹی سے ٹل بِیا
 # label for button
 join-discord-community-action = Discord جیْ اسو سے ٹل بِیا

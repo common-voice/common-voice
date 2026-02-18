@@ -128,7 +128,6 @@ answer = Resposta
 
 ## Community section
 
-community-section-title = Amb el suport de comunitats globals, per a comunitats globals: 130 idiomes i en creixement!
 join-discord-community = Uniu-vos a la comunitat Discord
 # label for button
 join-discord-community-action = Uniu-vos a nosaltres a Discord

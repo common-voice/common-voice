@@ -13,6 +13,7 @@ import {
   SentenceSubmission,
   SentenceVote,
   TakeoutResponse,
+  SPSLocalesResponse,
 } from 'common'
 import {
   createBadGatewayError,
@@ -27,6 +28,7 @@ import {
 import { Locale } from '../stores/locale'
 import { User } from '../stores/user'
 import { USER_KEY } from '../stores/root'
+import { SPONTANEOUS_SPEECH_ROOT_URL } from '../urls'
 
 interface FetchOptions {
   method?: 'GET' | 'POST' | 'PUT' | 'DELETE' | 'PATCH'
@@ -71,7 +73,7 @@ export default class API {
    */
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   private async fetch(path: string, options: FetchOptions = {}): Promise<any> {
-    const { method, headers, body, isJSON } = Object.assign(
+    const { method, headers, body, isJSON, signal } = Object.assign(
       {
         isJSON: true,
       },
@@ -103,6 +105,7 @@ export default class API {
             ? body
             : JSON.stringify(body)
           : undefined,
+        ...(signal && { signal }),
       })
 
       // Handle special case for success
@@ -138,9 +141,20 @@ export default class API {
   /**
    * Handle system errors (5xx) that indicate infrastructure failures
    * These will trigger the Error Boundary and show system error pages
+   *
+   * Exception: Clip save errors (save_clip_error) at 500 should not crash
+   * the page, but are still non-retryable server errors. They're thrown as
+   * BusinessLogicError so the Speak page can catch and handle them gracefully
+   * (alert user, skip clip) without triggering the Error Boundary.
    */
   private async handleSystemError(response: Response): Promise<never> {
     const errorText = await response.text()
+
+    // Clip save server errors (OOM, transcode failures) should not retry
+    // but also should not crash the page - let Speak page handle gracefully
+    if (errorText.includes('save_clip_error')) {
+      throw new BusinessLogicError(errorText, response.status)
+    }
 
     switch (response.status) {
       case 502:
@@ -169,10 +183,14 @@ export default class API {
         throw new NotFoundError(errorText)
 
       case 409:
-        if (response.statusText.includes('ALREADY_EXISTS')) {
-          throw new ConflictError(response.statusText)
+        if (errorText.includes('ALREADY_EXISTS')) {
+          throw new ConflictError(errorText)
         }
         throw new ConflictError(errorText)
+
+      case 413:
+        // Upload too large (clip size validation)
+        throw new BusinessLogicError(errorText, response.status)
 
       case 429:
         throw new RateLimitError(
@@ -180,11 +198,6 @@ export default class API {
         )
 
       default:
-        // Generic 4xx error - special case clip saving related
-        if (response.statusText.includes('save_clip_error')) {
-          throw new BusinessLogicError(response.statusText, response.status)
-        }
-        // Generic 4xx errors
         throw new BusinessLogicError(errorText, response.status)
     }
   }
@@ -311,6 +324,31 @@ export default class API {
 
   async fetchAllLanguages(): Promise<Language[]> {
     return this.fetch(`${API_PATH}/languages`)
+  }
+
+  async fetchSpontaneousSpeechLanguages(): Promise<string[]> {
+    let timeoutId: ReturnType<typeof setTimeout> | undefined
+    try {
+      // Create an AbortController for timeout
+      const controller = new AbortController()
+      timeoutId = setTimeout(() => controller.abort(), 3_000) // 3 second timeout
+
+      const data: SPSLocalesResponse = await this.fetch(
+        `${SPONTANEOUS_SPEECH_ROOT_URL}/api/v1/locales`,
+        { signal: controller.signal }
+      )
+
+      return data?.locales?.contributable || []
+    } catch (error) {
+      // Return empty array if endpoint is unreachable or times out
+      // This prevents the app from crashing when the SPS service is down
+      console.warn('Failed to fetch spontaneous speech languages:', error)
+      return []
+    } finally {
+      if (timeoutId !== undefined) {
+        clearTimeout(timeoutId)
+      }
+    }
   }
 
   async fetchLanguageStats(): Promise<LanguageStatistics[]> {

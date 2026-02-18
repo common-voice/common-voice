@@ -31,6 +31,5 @@ not-found-page-header = Pɨkaʼukaxeiyarie
 not-found-page-content = Página ke ʼaneme pemɨwaune pɨkaʼukaxeiyarie
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Yanepɨraʼeriwa <termsLink> nehetsié timieme ke mɨtiyukumayɨani </termsLink> tsiere <privacyLink>ke mɨtiʼɨwiyarieni</privacyLink> Common Voicetsie
-mel = Melanau centro mieme
 # Locales-Variants
 ms-MY = Bahasa Malay

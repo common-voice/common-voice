@@ -37,9 +37,6 @@ check-transcriptions = Jàngat
 not-found-page-header = Gisu ñu ko
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Maa ngi nangu sàrtu Common Voice yi <termsLink>Anam</termsLink> ak <privacyLink>yëgle yi</privacyLink>
-# Locales (not yet fully resolved in Pontoon)
-meh = Southwestern Tlaxiaco Mixtec
-mel = Melanau bu digg bi
 # Locales-Variants
 ms-MY = Bahasa Malay
 

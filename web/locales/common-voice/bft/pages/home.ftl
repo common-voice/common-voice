@@ -118,7 +118,6 @@ add-text = ٹیکسٹ چی ہرژوق
 
 ## Community section
 
-community-section-title = میولی گرونگ میونگی فری، میولی میونگی سی لق تھود منفہ یودپی، سکت کن لا بیور لوغین یود
 join-discord-community = گرونگ میونگ، ڈرالپونگ نا یمبو دوکپہ شوقس
 # label for button
 join-discord-community-action = سکتی کھورتینگ پینگ ندانگ نا یمبو شوقس

@@ -1,4 +1,4 @@
-speak = Ачважвара
+speak = швчважва
 speak-now = Швчважва
 speak-subtitle = Швбжьы гlахlышвтх
 record-cta = Йаншвцlауа швалага

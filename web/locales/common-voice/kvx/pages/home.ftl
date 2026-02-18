@@ -126,7 +126,6 @@ answer = جواڀ
 
 ## Community section
 
-community-section-title = ٻڌِي ڌُنيا رِي قوم را  پاها ٿِي ويوَراوَئي ڳئي،انَ اُوئا ئي ۿارُو—130ٻولي انَ وڌارئہ شامِل ڪري زائه ري!
 join-discord-community = آنلائنَ قوم رو حِصو ٿيو
 # label for button
 join-discord-community-action = آنلائن امون نئہ شامِل ڪرو

@@ -37,8 +37,5 @@ not-found-page-header = نیں ملیا
 not-found-page-content = تُسیں جڑا صفحہ ڈھونڈے او اُو نیں مل ہکیا
 # Privacy and Terms checkbox
 accept-privacy-and-terms = میں کامن وائس دیاں <termsLink>شرطاں</termsLink> تے <privacyLink> رازداری نوٹس</privacyLink> نال متفق آں۔
-# Locales (not yet fully resolved in Pontoon)
-meh = ساوتھ ویسٹرن لاسیاکو مکسٹیک
-mel = سنٹرل میلاناؤ
 # Locales-Variants
 ms-MY = بھاسا مالے

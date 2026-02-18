@@ -8,8 +8,15 @@ prompt-page-instruction = { $actionType } <micIcon></micIcon> en antwoord zo nat
 no-prompts-continue-skipped-message = Er zijn geen vragen meer voor deze taal. Als u iets hebt overgeslagen, kunt u doorgaan met de overgeslagen inhoud of audiotranscriptie uitvoeren en het later proberen.
 error-skipping = Er is een fout opgetreden bij het overslaan van deze vraag
 error-recording = Er is een fout opgetreden tijdens het opnemen
+error-recording-too-short = De opname is te kort. De minimale duur is { $minDurationSeconds } seconden.
+error-recording-too-long = De opname is te lang. De maximale duur is { $maxDurationMinutes } minuten.
 error-fetching-prompts = Er is iets misgegaan bij het ophalen van vragen. Probeer het later opnieuw.
 error-uploading-response = Er is een fout opgetreden bij het uploaden van uw antwoord
+error-empty-audio = Opname mislukt. Het audiobestand lijkt leeg te zijn. Probeer het opnieuw.
+error-platform-webview = Opnemen wordt mogelijk niet ondersteund in deze beperkte browser. Gebruik een volledige browser-app.
+error-recording-too-short-seconds = De opname is te kort. De minimale duur is { $minDurationSeconds } seconden.
+error-recording-too-long-minutes = De opname is te lang. De maximale duur is { $maxDurationMinutes } minuten.
+cannot-play-audio = Kan audio niet afspelen. Probeer het opnieuw.
 prompt-submitted-success = Antwoord met succes verzonden
 prompt-response-deleted-success = Antwoord met succes verwijderd
 # For the button to delete a response to a prompt

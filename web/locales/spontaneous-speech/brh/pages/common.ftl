@@ -40,9 +40,6 @@ not-found-page-header = ملننگ کتو
 not-found-page-content = نم ہرا پنہ ئے پٹنگورے او ملیتو
 # Privacy and Terms checkbox
 accept-privacy-and-terms = ای Common Voice نا <termsLink>شڑتاتا </termsLink> و <privacyLink>پرائیویسی نوٹس</privacyLink> تون امنائی کیوہ
-# Locales (not yet fully resolved in Pontoon)
-meh = جنوب مغربی Tlaxiaco Mixtec
-mel = وسطی میلانو
 # Locales-Variants
 ms-MY = بہاسا مالائی
 

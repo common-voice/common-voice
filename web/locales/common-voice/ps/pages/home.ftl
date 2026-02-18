@@ -138,7 +138,7 @@ answer = ځواب
 
 ## Community section
 
-community-section-title = د نړیوالو ټولنو لخوا پر مخ بېول کېږي، د نړیوالو ټولنو لپاره — ۱۳۰ ژبې او لا زیاتې روانې دي!
+community-section-title-202601 = د نړيوالو ټولنو له لوري پرمخ وړل کېږي، د نړيوالو ټولنو لپاره — ۲۹۰ ژبې او لا هم زياتېږي!
 join-discord-community = د ډیسکارډ ټولنې سره یوځای شئ
 # label for button
 join-discord-community-action = په ډیسکارډ کې له موږ سره یوځای شئ
@@ -163,6 +163,7 @@ contribute-github-action = په ګیټ هب کې ونډه واخلئ
 
 ## Featured section
 
+featured-section-title = په... کې ښودل شوی
 # icon is an arrow that points downwards
 download-press-pack = زموږ د پریس پیک ډاونلوډ کړئ <icon></icon>
 

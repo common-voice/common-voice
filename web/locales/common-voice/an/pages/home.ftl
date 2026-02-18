@@ -118,7 +118,6 @@ add-text = Anyadir texto
 
 ## Community section
 
-community-section-title = Creau per comunidaz globals pa las comunidaz globals —130 idiomas, y creixendo!
 join-discord-community = Une-te a la comunidat de Discord
 # label for button
 join-discord-community-action = Une-te a nusatros en Discord

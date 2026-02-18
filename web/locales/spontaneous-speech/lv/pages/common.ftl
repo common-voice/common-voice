@@ -43,9 +43,6 @@ not-found-page-header = Nav atrasts
 not-found-page-content = Lapa, kuru meklējat, netika atrasta
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Es piekrītu Common Voice <termsLink>noteikumiem</termsLink> un <privacyLink>konfidencialitātes politikai</privacyLink>
-# Locales (not yet fully resolved in Pontoon)
-meh = Dienvidrietumu Tlaxiaco Mixtec
-mel = Central Melanau
 # Locales-Variants
 ms-MY = Bahasa Malay
 el-CY = Kipras grieķu

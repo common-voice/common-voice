@@ -12,6 +12,12 @@ record-no-mic-found = Mikrofon bulunamadı.
 record-error-too-short = Kayıt çok kısa.
 record-error-too-long = Kayıt çok uzun.
 record-error-too-quiet = Bu kayıt çok sessiz oldu.
+record-error-uploaded-clip-corrupted =
+    Ses kaydınız bozuk görünüyor. Bu durum aşağıdakilerden dolayı olabilir:
+    • Tarayıcı uyumluluk sorunları (farklı bir tarayıcı kullanmayı deneyin)
+    • Mikrofon veya ses sürücüsü sorunları
+    • Kayıt sırasında ağ kesintileri
+    Lütfen kaydetmeyi yeniden deneyin.
 record-cancel = Yeniden kaydetmeyi iptal et
 record-instruction = <recordIcon></recordIcon> düğmesine { $actionType }, sonra cümleyi net bir şekilde okuyun
 record-stop-instruction = Bitirince { $actionType } <stopIcon></stopIcon>

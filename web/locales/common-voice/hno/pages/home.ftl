@@ -120,7 +120,6 @@ add-text = عبارت/جملے بھاؤ
 
 ## Community section
 
-community-section-title = عالمی برادری دی طرفو، عالمی برادری دی —130 زباناں آسطے تے اضافہ ہو رے اے!
 join-discord-community = ڈسکارڈ کمیونٹی نال جُڑّو
 # label for button
 join-discord-community-action = ڈسکارڈ تے اساں نال جّڑّو

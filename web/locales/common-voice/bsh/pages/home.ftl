@@ -118,7 +118,6 @@ add-text = ستورئ اتیوݩشی
 
 ## Community section
 
-community-section-title = عالمی اوگعماں ذریعہ تہ عالمی اوگعمادیوکں کاٹوا —130وریں تݩع اچادی سکال بوتت
 join-discord-community = ڑیسکارٹ کمیونٹی تہ شامل با
 # label for button
 join-discord-community-action = ایمو مع ڈیسکارٹ تہ شامل با

@@ -26,6 +26,10 @@ contribute = Bidra
 # Button text which appears when there are no more resources
 continue-with-skipped = Hald fram med hoppa over
 
+## Common aria-labels
+
+keyboard-shortcuts-button-aria-label = Vis tastatursnarvegar
+
 ## Navbar
 
 question = Spørsmål
@@ -43,9 +47,6 @@ not-found-page-header = Ikkje funne
 not-found-page-content = Fann ikkje sida du leitar etter
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Eg godtek <termsLink>vilkåra</termsLink> og <privacyLink>personvernfråsegna</privacyLink> til Common Voice
-# Locales (not yet fully resolved in Pontoon)
-meh = Sørvestleg Tlaxiaco Mixtec
-mel = Central Melanau
 # Locales-Variants
 ms-MY = Bahasa malaysisk
 el-CY = Kypriotisk gresk
@@ -56,3 +57,54 @@ language-search-placeholder = Søk etter eit språk...
 language-search-aria-label = Søk etter eit språk
 language-search-label = Endrar berre bidragsspråket til datasettet
 language-search-no-results = Fann ingen språk
+
+## Transcription Player - Mode Buttons
+
+# Transcription Player - Automatic Mode
+transcription-mode-auto = Auto
+# Player - slower
+player-speed-slow = Langsamt
+# Player - normal speed
+player-speed-normal = Normal
+# Player - faster
+player-speed-fast = Rask
+
+## Transcription Player Controls - Keyboard Shortcuts
+
+# Player control shortcut for play/pause: pressed with Ctrl/Cmd
+player-play-pause-shortcut = p
+player-play-pause-shortcut-key = Ctrl / Cmd + P
+player-play-pause-shortcut-name = Spel av / Pause
+# Player control shortcut to go back 5 seconds: pressed with Ctrl/Cmd
+player-skip-backward-shortcut = 8
+player-skip-backward-shortcut-key = Ctrl / Cmd + 8
+player-skip-backward-shortcut-name = Bakover
+# Player control shortcut to go forwards 5 seconds: pressed with Ctrl/Cmd
+player-skip-forward-shortcut = 9
+player-skip-forward-shortcut-key = Ctrl / Cmd + 9
+player-skip-forward-shortcut-name = Framover
+
+## Transcription Player - Aria Labels
+
+# Play button accessibility/aria label
+player-play-button-aria-label = Spel av lyd
+# Pause button accessibility/aria label
+player-pause-button-aria-label = Sett lyd på pause
+# Skip back button accessibility/aria label
+player-skip-backward-aria-label = Hopp bakover 5 sekund
+# Skip forward button accessibility/aria label
+player-skip-forward-aria-label = Hopp framover 5 sekund
+# Audio playback progress slider accessibility/aria label
+player-progress-slider-aria-label = Glidebrytar for framdrift av lydavspeling
+# Toggle speed and transcription mode menu button
+player-toggle-mode-menu-aria-label = Slå av/på modusmenyen
+# Slower playback speed button accessibility/aria label
+player-speed-slow-aria-label = Lågare avspelingsfart
+# Normal playback speed button accessibility/aria label
+player-speed-normal-aria-label = Normal avspelingsfart
+# Faster playback speed button accessibility/aria label
+player-speed-fast-aria-label = Høgare avspelingsfart
+# Auto transcription mode button accessibility/aria label
+transcription-mode-auto-aria-label = Slå av/på automatisk ord-for-ord-avspeling
+# Mode menu button accessibility/aria label
+transcription-mode-menu-aria-label = Slå av/på meny for transkripsjonsmodus

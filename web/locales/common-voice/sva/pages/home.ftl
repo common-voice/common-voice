@@ -124,7 +124,6 @@ add-text = ტექსტი ლიქმე
 
 ## Community section
 
-community-section-title = ნასყა̈უ̂ ლი გლობალურ საზოგადოებარე̄შ გლობალურ თემრეშდ —130 ნინ ი შელდ აჯაღ იცხემ!
 join-discord-community = სგ'ა̄̈ხტყუბა̄̈ნ Discord საზოგადოებას
 # label for button
 join-discord-community-action = სგ'ა̄̈ნტყუბა̄̈ნ ნა̈ჲ Discord-ჟი

@@ -8,8 +8,15 @@ prompt-page-instruction = { $actionType } στο <micIcon></micIcon> και απ
 no-prompts-continue-skipped-message = Δεν υπάρχουν άλλες ερωτήσεις για αυτήν τη γλώσσα. Αν έχετε παραλείψει κάποια, μπορείτε να συνεχίσετε με το περιεχόμενο που παραλείψατε ή να μεταβείτε στη μεταγραφή ήχου και να δοκιμάσετε ξανά αργότερα.
 error-skipping = Προέκυψε σφάλμα κατά την παράλειψη αυτού του μηνύματος προτροπής
 error-recording = Προέκυψε σφάλμα κατά την ηχογράφηση
+error-recording-too-short = Η ηχογράφηση είναι πολύ σύντομη. Η ελάχιστη διάρκεια είναι { $minDurationSeconds } δευτερόλεπτα.
+error-recording-too-long = Η ηχογράφηση είναι πολύ μεγάλη. Η μέγιστη διάρκεια είναι { $maxDurationMinutes } λεπτά.
 error-fetching-prompts = Κάτι πήγε στραβά κατά τη λήψη των μηνυμάτων προτροπής. Δοκιμάστε ξανά αργότερα.
 error-uploading-response = Προέκυψε σφάλμα κατά τη μεταφόρτωση της απάντησής σας
+error-empty-audio = Η ηχογράφηση απέτυχε. Το αρχείο ήχου φαίνεται να είναι κενό. Δοκιμάστε ξανά.
+error-platform-webview = Η ηχογράφηση ενδέχεται να μην υποστηρίζεται σε αυτό το περιορισμένο πρόγραμμα περιήγησης. Χρησιμοποιήστε ένα πλήρες πρόγραμμα περιήγησης.
+error-recording-too-short-seconds = Η ηχογράφηση είναι πολύ σύντομη. Η ελάχιστη διάρκεια είναι { $minDurationSeconds } δευτερόλεπτα.
+error-recording-too-long-minutes = Η ηχογράφηση είναι πολύ μεγάλη. Η μέγιστη διάρκεια είναι { $maxDurationMinutes } λεπτά.
+cannot-play-audio = Αδυναμία αναπαραγωγής ήχου. Δοκιμάστε ξανά.
 prompt-submitted-success = Η απάντηση υποβλήθηκε επιτυχώς
 prompt-response-deleted-success = Η απάντηση διαγράφηκε επιτυχώς
 # For the button to delete a response to a prompt

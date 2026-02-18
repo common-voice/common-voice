@@ -37,8 +37,5 @@ not-found-page-header = ڪوندو  لنٚڀي
 not-found-page-content = جيڪو سڦهو اڀيٚنٚ لنٚڀي رهيآ اهونٚ ڪوندو ملي
 # Privacy and Terms checkbox
 accept-privacy-and-terms = آئونٚ رآزيٚ اهآنٚ ڪآمن وآئيٚس ري<termsLink> اسولآنٚ </termsLink>ائيٚنٚ<privacyLink> زآتيٚ نوٽيٚس </privacyLink>
-# Locales (not yet fully resolved in Pontoon)
-meh = ڏکڻ اولهندي ٽليٚڪسيآڪوٚ ميڪٽيٚڪ
-mel = مرڪزيٚ ميلآنو
 # Locales-Variants
 ms-MY = بآسهآ مآلي

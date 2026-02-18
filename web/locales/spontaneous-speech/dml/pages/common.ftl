@@ -31,8 +31,5 @@ not-found-page-header = نی میلاو با
 not-found-page-content = تو کیرا پیج ویچینپ سے نی میلاو نی بیاں
 # Privacy and Terms checkbox
 accept-privacy-and-terms = ائی کامن وئس ملی متفق <termsLink>شرائط</termsLink> آں <privacyLink> پرائویسی نوٹس</privacyLink>
-# Locales (not yet fully resolved in Pontoon)
-meh = جنوب مغربی Tlaxiaco Mixtec
-mel = وسطی میلانو
 # Locales-Variants
 ms-MY = بہاسا مالے

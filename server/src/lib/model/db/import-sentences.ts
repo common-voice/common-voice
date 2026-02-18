@@ -1,48 +1,48 @@
-import * as eventStream from 'event-stream';
-import * as fs from 'fs';
-import * as path from 'path';
-import { PassThrough } from 'stream';
-import promisify from '../../../promisify';
-import { hashSentence } from '../../utility';
-import { redis, useRedis } from '../../redis';
+import * as eventStream from 'event-stream'
+import * as fs from 'fs'
+import * as path from 'path'
+import { PassThrough } from 'stream'
+import promisify from '../../../promisify'
+import { hashSentence } from '../../utility'
+import { redis, useRedis } from '../../redis-cache'
 
-const CWD = process.cwd();
-const SENTENCES_FOLDER = path.resolve(CWD, 'server/data/');
+const CWD = process.cwd()
+const SENTENCES_FOLDER = path.resolve(CWD, 'server/data/')
 
 // for sources with sentences that are likely to have repeats across
 // locales, we want to generate a unique hash for each locale + sentence,
 // not just each sentence
-const LOCALE_HASH_SOURCES = ['singleword-benchmark'];
+const LOCALE_HASH_SOURCES = ['singleword-benchmark']
 
 function print(...args: any[]) {
-  args.unshift('IMPORT --');
-  console.log.apply(console, args);
+  args.unshift('IMPORT --')
+  console.log.apply(console, args)
 }
 
 async function getFilesInFolder(path: string): Promise<string[]> {
-  const fileNames = await promisify(fs, fs.readdir, path);
+  const fileNames = await promisify(fs, fs.readdir, path)
   return fileNames.map((name: string) => {
-    return path + '/' + name;
-  });
+    return path + '/' + name
+  })
 }
 
-const SENTENCES_PER_CHUNK = 200;
+const SENTENCES_PER_CHUNK = 200
 
 function streamSentences(localePath: string) {
-  const stream = new PassThrough({ objectMode: true });
+  const stream = new PassThrough({ objectMode: true })
 
   getFilesInFolder(localePath)
     .then(p => p.filter((name: string) => name.endsWith('.txt')))
     .then(async filePaths => {
       for (const filePath of filePaths) {
-        const source = path.basename(filePath).split('.')[0];
-        let sentences: string[] = [];
+        const source = path.basename(filePath).split('.')[0]
+        let sentences: string[] = []
         const write = () => {
           stream.write({
             sentences,
             source,
-          });
-          sentences = [];
+          })
+          sentences = []
         }
         await new Promise<void>(resolve => {
           const fileStream = fs
@@ -51,29 +51,29 @@ function streamSentences(localePath: string) {
             .pipe(
               eventStream
                 .mapSync((line: string) => {
-                  fileStream.pause();
+                  fileStream.pause()
 
-                  sentences.push(line);
+                  sentences.push(line)
 
                   if (sentences.length >= SENTENCES_PER_CHUNK) {
-                    write();
+                    write()
                   }
 
-                  fileStream.resume();
+                  fileStream.resume()
                 })
                 .on('end', () => {
                   if (sentences.length > 0) {
-                    write();
+                    write()
                   }
-                  resolve();
+                  resolve()
                 })
-            );
-        });
+            )
+        })
       }
-      stream.end();
-    });
+      stream.end()
+    })
 
-  return stream;
+  return stream
 }
 
 async function importLocaleSentences(
@@ -81,15 +81,15 @@ async function importLocaleSentences(
   locale: string,
   version: number
 ) {
-  await pool.query('INSERT IGNORE INTO locales (name) VALUES (?)', [locale]);
+  await pool.query('INSERT IGNORE INTO locales (name) VALUES (?)', [locale])
   const [[{ localeId }]] = await pool.query(
     'SELECT id AS localeId FROM locales WHERE name = ? LIMIT 1',
     [locale]
-  );
+  )
 
   await new Promise(async resolve => {
-    print('importing', locale);
-    const stream = streamSentences(path.join(SENTENCES_FOLDER, locale));
+    print('importing', locale)
+    const stream = streamSentences(path.join(SENTENCES_FOLDER, locale))
     stream
       .on(
         'data',
@@ -97,10 +97,10 @@ async function importLocaleSentences(
           sentences,
           source,
         }: {
-          sentences: string[];
-          source: string;
+          sentences: string[]
+          source: string
         }) => {
-          stream.pause();
+          stream.pause()
           try {
             await pool.query(
               `
@@ -117,17 +117,17 @@ async function importLocaleSentences(
                     localeId,
                     source,
                     version,
-                    true
+                    true,
                   ]
                     .map(v => pool.escape(v))
-                    .join(', ')})`;
+                    .join(', ')})`
                 })
                 .join(', ')}
               ON DUPLICATE KEY UPDATE
                 source = VALUES(source),
                 version = VALUES(version);
             `
-            );
+            )
           } catch (e) {
             console.error(
               'error when inserting sentence batch from "',
@@ -136,13 +136,13 @@ async function importLocaleSentences(
               sentences[sentences.length - 1],
               '":',
               e
-            );
+            )
           }
-          stream.resume();
+          stream.resume()
         }
       )
-      .on('end', resolve);
-  });
+      .on('end', resolve)
+  })
 }
 
 export async function importSentences(pool: any, import_languages: string[]) {

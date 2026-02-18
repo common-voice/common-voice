@@ -1,6 +1,6 @@
 ## WRITE PAGE
 
-write = Йыжвгlвы
+write = ЙтажвгӀвы
 write-instruction = Йацшвцlа <icon></icon> зымгlва йрызгlарысабапуаш ажванахъа
 write-page-subtitle = Араъа йаныргlалу ажванахъаква зымгlва йырзгlарысабапуата адатасет сс-0 апны йтазлгlуштl
 sentence =
@@ -144,14 +144,14 @@ small-batch-sentences-rule-4 = Ажванахъа 1000-дза йацшвцIа.
 small-batch-sentences-rule-5 = Ажванахъаква зымгIва йара доменкI рымазара атахъыпI.
 small-batch-sentences-rule-6 = Ажванахъаква зымгIва йапшыта азцагакI рымазара атахъыпI.
 # menu item
-add-sentences = Ажванахъа аццIара
+add-sentences = Ажванахъаква тажвгӀвы
 
 ## MENU ITEM TOOLTIPS
 
 write-contribute-menu-tooltip = Ажванахъаква ацшвцIала йгьи швырпшыхла, азцIгIараква ацшвцIала, абыжьква гIвырала йгIашвырбала
-add-sentences-menu-item-tooltip = Ажванахъаква аццIара
+add-sentences-menu-item-tooltip = Ажванахъаква тажвгӀвы
 review-sentences-menu-item-tooltip = Ажванахъаква йалакIыта рыквчважвара
-add-questions-menu-item-tooltip = АзцIгIараква аццIара
+add-questions-menu-item-tooltip = АзцӀгӀараква тажвгӀвы
 review-questions-menu-item-tooltip = Архъвыхга азцIгIараква
 transcribe-audio-menu-item-tooltip = Абыжьква гIвырала йгIарбара
 

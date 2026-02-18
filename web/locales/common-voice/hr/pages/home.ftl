@@ -142,7 +142,6 @@ answer = Odgovor
 
 ## Community section
 
-community-section-title = Od globalne zajednice, za globalne zajednice – 130 jezika i stalno raste!
 join-discord-community = Pridruži se Discord zajednici
 # label for button
 join-discord-community-action = Pridruži nam se na Discordu

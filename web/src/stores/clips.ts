@@ -1,7 +1,22 @@
 import { Action as ReduxAction, Dispatch } from 'redux'
+import * as Sentry from '@sentry/react'
 import StateTree from './tree'
 import { User } from './user'
 import { Clip } from 'common'
+
+// Feature flag: Enable detailed error telemetry in Sentry
+// Set to false to reduce Sentry costs (only critical errors will be tracked)
+const ENABLE_ERROR_TELEMETRY = true
+
+function extractErrorDetails(err: unknown): {
+  errMessage: string
+  errName: string
+} {
+  return {
+    errMessage: err instanceof Error ? err.message : String(err),
+    errName: err instanceof Error ? err.name : 'UnknownError',
+  }
+}
 
 async function getCanPlayAudio(audioSrc: string) {
   return new Promise(resolve => {
@@ -142,8 +157,29 @@ export namespace Clips {
 
           dispatch({ type: ActionType.REFILL_CACHE, clips })
         } catch (err) {
+          // Track handled errors in Sentry only if telemetry enabled
+          if (ENABLE_ERROR_TELEMETRY) {
+            const { errMessage, errName } = extractErrorDetails(err)
+            Sentry.addBreadcrumb({
+              category: 'clips',
+              message: 'Failed to load clips',
+              level: 'error',
+              data: { error: errMessage, errorType: errName },
+            })
+
+            Sentry.captureMessage('Clip loading failed (handled)', {
+              level: 'warning',
+              tags: { action: 'refillCache', errorType: errName },
+              contexts: {
+                clips: { error: errMessage, locale: state.locale },
+              },
+            })
+          }
+
+          // Dispatch LOAD_ERROR to update UI state - no re-throw needed
+          // Error is "handled" by showing error message to user via hasLoadingError flag
+          // Re-throwing would create unhandled promise rejection
           dispatch({ type: ActionType.LOAD_ERROR })
-          throw err
         }
       },
 
@@ -156,27 +192,85 @@ export namespace Clips {
         const state = getState()
         const id = clipId
 
+        // Store the clip before removing in case we need to rollback
+        const clipToRemove = localeClips(state).clips.find(c => c.id === id)
+
+        // Optimistically remove clip from UI
         dispatch({ type: ActionType.REMOVE_CLIP, clipId: id })
-        const {
-          showFirstContributionToast,
-          hasEarnedSessionToast,
-          showFirstStreakToast,
-          challengeEnded,
-        } = await state.api.saveVote(id, isValid)
-        if (!state.user.account) {
-          dispatch(User.actions.tallyVerification())
-        }
-        if (state.user?.account?.enrollment?.challenge) {
-          dispatch({
-            type: ActionType.ACHIEVEMENT,
+
+        try {
+          const {
             showFirstContributionToast,
             hasEarnedSessionToast,
             showFirstStreakToast,
             challengeEnded,
-          })
+          } = await state.api.saveVote(id, isValid)
+
+          if (!state.user.account) {
+            dispatch(User.actions.tallyVerification())
+          }
+          if (state.user?.account?.enrollment?.challenge) {
+            dispatch({
+              type: ActionType.ACHIEVEMENT,
+              showFirstContributionToast,
+              hasEarnedSessionToast,
+              showFirstStreakToast,
+              challengeEnded,
+            })
+          }
+          User.actions.refresh()(dispatch, getState)
+          actions.refillCache()(dispatch, getState)
+        } catch (error) {
+          // Track network/server errors for debugging (won't mark as "unhandled")
+          const { errMessage, errName } = extractErrorDetails(error)
+
+          // Track handled errors in Sentry only if telemetry enabled
+          if (ENABLE_ERROR_TELEMETRY) {
+            Sentry.addBreadcrumb({
+              category: 'vote',
+              message: 'Clip-Vote submission failed',
+              level: 'error',
+              data: {
+                clipId: id,
+                isValid,
+                error: errMessage,
+                errorType: errName,
+              },
+            })
+
+            Sentry.captureMessage(`Clip-Vote submission failed (${errName})`, {
+              level: 'warning',
+              tags: { action: 'vote', errorType: errName },
+              contexts: {
+                vote: { clipId: id, isValid, error: errMessage },
+              },
+            })
+          }
+
+          // Rollback: Only restore clip for DEFINITE failures to prevent vote duplication
+          //
+          // Error types come from backend API responses (see server/src/lib/clip.ts):
+          // - NotFoundError: HTTP 404 - clip doesn't exist in database
+          // - BusinessLogicError: HTTP 400 - validation failed (e.g., already voted)
+          //
+          // Network errors (timeout, connection lost) are NOT definite failures because:
+          // - Vote may have been saved on backend before response was sent
+          // - Restoring clip would let user vote again → duplicate vote error
+          //
+          // Our strategy against comms errors: Only restore on errors where we KNOW vote didn't succeed
+          const isDefiniteFailure =
+            errName === 'NotFoundError' || // 404: Clip doesn't exist
+            errName === 'BusinessLogicError' // 400: Business rule violation
+
+          if (clipToRemove && isDefiniteFailure) {
+            dispatch({
+              type: ActionType.REFILL_CACHE,
+              clips: [clipToRemove],
+            })
+          }
+
+          dispatch({ type: ActionType.LOAD_ERROR })
         }
-        User.actions.refresh()(dispatch, getState)
-        actions.refillCache()(dispatch, getState)
       },
 
     remove:

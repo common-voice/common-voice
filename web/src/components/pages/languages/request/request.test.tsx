@@ -8,7 +8,7 @@ import { renderWithProviders } from '../../../../../test/render-with-providers'
 
 expect.extend(toHaveNoViolations)
 
-import LangugagesRequestFormPage from './request'
+import LanguagesRequestFormPage from './request'
 
 jest.mock('../../../../logger')
 
@@ -33,28 +33,30 @@ jest.mock('../../../../hooks/store-hooks', () => ({
 
 async function fillInForm({
   getByRole,
-  getByLabelText,
   getByTestId,
 }: {
   getByRole: any // eslint-disable-line @typescript-eslint/no-explicit-any
-  getByLabelText: any // eslint-disable-line @typescript-eslint/no-explicit-any
   getByTestId?: any // eslint-disable-line @typescript-eslint/no-explicit-any
 }) {
+  // Simulate entering a non-existing locale to make form fields available
+  userEvent.type(getByTestId('language-search-input'), 'xyz')
+
   // fill in main form
-  userEvent.type(getByLabelText(/Your email address/), 'billgates@example.com')
+  userEvent.type(
+    getByTestId('request-language-form-email'),
+    'billgates@example.com'
+  )
 
   if (getByTestId) {
     userEvent.click(getByTestId('request-for-scripted-speech-toggle'))
   }
 
   userEvent.type(
-    getByLabelText(/Information about the language/),
+    getByTestId('request-language-form-info'),
     'The language is JavaScript lol!'
   )
   userEvent.click(
-    getByLabelText(
-      /I'm okay with you handling this info as you explain in Mozilla's Privacy Policy/
-    )
+    getByTestId('request-language-privacy-checkbox')
   )
 
   // submit
@@ -71,7 +73,7 @@ describe('LanguagesRequestFormPage', () => {
   it('should render with no accessibility violations', async () => {
     let renderResult: RenderResult
     act(() => {
-      renderResult = renderWithProviders(<LangugagesRequestFormPage />)
+      renderResult = renderWithProviders(<LanguagesRequestFormPage />)
     })
     const results = await axe(renderResult.container)
     expect(results).toHaveNoViolations()
@@ -80,11 +82,14 @@ describe('LanguagesRequestFormPage', () => {
   it('submits valid data', async () => {
     let renderResult: RenderResult
     act(() => {
-      renderResult = renderWithProviders(<LangugagesRequestFormPage />)
+      renderResult = renderWithProviders(<LanguagesRequestFormPage />)
     })
-    const { getByRole, getByLabelText, getByTestId } = renderResult
+    const { getByRole, getByTestId } = renderResult
 
-    await fillInForm({ getByRole, getByLabelText, getByTestId })
+    await fillInForm({
+      getByRole,
+      getByTestId,
+    })
 
     // correctly sends email request to server
     await expect(mockSendLanguageRequest).toBeCalledWith({
@@ -103,10 +108,12 @@ describe('LanguagesRequestFormPage', () => {
   it('disables the submit button if no toggle option is selected', async () => {
     let renderResult: RenderResult
     act(() => {
-      renderResult = renderWithProviders(<LangugagesRequestFormPage />)
+      renderResult = renderWithProviders(<LanguagesRequestFormPage />)
     })
 
     const { getByTestId } = renderResult
+    // First make the form visible by entering a search query
+    userEvent.type(getByTestId('language-search-input'), 'xyz')
     // button should be disabled before the toggles are selected
     expect(getByTestId('request-language-btn').hasAttribute('disabled'))
   })
@@ -118,16 +125,19 @@ describe('LanguagesRequestFormPage', () => {
 
     let renderResult: RenderResult
     act(() => {
-      renderResult = renderWithProviders(<LangugagesRequestFormPage />)
+      renderResult = renderWithProviders(<LanguagesRequestFormPage />)
     })
-    const { getByRole, getByLabelText, queryByText, getByTestId } = renderResult
+    const { getByRole, getByTestId } = renderResult
 
-    await fillInForm({ getByRole, getByLabelText, getByTestId })
+    await fillInForm({
+      getByRole,
+      getByTestId,
+    })
 
     // no redirect
     await expect(mockUseHistoryPush).not.toBeCalled()
 
     // showing error message instead
-    expect(queryByText(/Sorry, something went wrong/)).toBeTruthy()
+    expect(getByTestId('request-language-error')).toBeTruthy()
   })
 })

@@ -2,7 +2,7 @@ import * as request from 'request-promise-native'
 import { GenericStatistic, LanguageData, Sentence, TimeUnits } from 'common'
 import DB, { getLocaleId } from './model/db'
 import { DBClip } from './model/db/tables/clip-table'
-import lazyCache from './lazy-cache'
+import lazyCache from './redis-cache'
 import { secondsToHours } from './utils/secondsToHours'
 import { fetchUserClientVariants } from '../application/repository/user-client-variants-repository'
 import { pipe } from 'fp-ts/lib/function'
@@ -167,7 +167,7 @@ export default class Model {
     6 * TimeUnits.HOUR,
     3 * TimeUnits.MINUTE,
     false,
-    { prefetch: true } // Enable prefetch with defaults
+    { prefetch: true, prefetchBefore: 15 * TimeUnits.MINUTE } // Enable prefetch 15 minutes before expiry
   )
 
   getAllLanguages = lazyCache(
@@ -189,8 +189,8 @@ export default class Model {
     },
     TimeUnits.DAY,
     3 * TimeUnits.MINUTE,
-    false,
-    { prefetch: true } // Enable prefetch with defaults
+    false
+    // No prefetch
   )
 
   getLanguageDatasetStats = lazyCache(
@@ -200,8 +200,8 @@ export default class Model {
     },
     TimeUnits.DAY,
     3 * TimeUnits.MINUTE,
-    false,
-    { prefetch: true } // Enable prefetch with defaults
+    false
+    // No prefetch
   )
 
   getAllLanguagesWithDatasets = lazyCache(
@@ -212,7 +212,7 @@ export default class Model {
     TimeUnits.DAY,
     3 * TimeUnits.MINUTE,
     false,
-    { prefetch: true } // Enable prefetch with defaults
+    { prefetch: true, prefetchBefore: 15 * TimeUnits.MINUTE } // Enable prefetch 15 minutes before expiry
   )
 
   getLocalizedPercentages = lazyCache(
@@ -351,7 +351,7 @@ export default class Model {
     12 * TimeUnits.HOUR,
     120 * TimeUnits.MINUTE,
     true, // allow stale data
-    { prefetch: true } // Enable prefetch with defaults
+    { prefetch: true, prefetchBefore: 4 * TimeUnits.HOUR } // Prefetch 4h before expiry (33% of TTL)
   )
 
   getClipsStats = lazyCache(

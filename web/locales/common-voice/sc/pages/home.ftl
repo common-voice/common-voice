@@ -121,7 +121,6 @@ add-text = Agiunghe testos
 
 ## Community section
 
-community-section-title = Creadu dae comunidades globales e pro comunidades globales: 130 limbas, e creschende!
 join-discord-community = Intra a sa comunidade Discord
 # label for button
 join-discord-community-action = Agata·nos in Discord

@@ -8,8 +8,15 @@ prompt-page-instruction = { $actionType } <micIcon></micIcon> e rispondi nel mod
 no-prompts-continue-skipped-message = Al momento non ci sono altre domande per questa lingua. Se ne hai saltate alcune, puoi continuare con quelle, altrimenti puoi trascrivere delle registrazioni audio e ricontrollare più tardi.
 error-skipping = Si è verificato un errore nel tentativo di saltare la domanda
 error-recording = Si è verificato un errore durante la registrazione
+error-recording-too-short = La registrazione è troppo breve. La durata minima è di { $minDurationSeconds } secondi.
+error-recording-too-long = La registrazione è troppo lunga. La durata massima è di { $maxDurationMinutes } minuti.
 error-fetching-prompts = Si è verificato un errore durante il recupero delle domande. Riprova più tardi.
 error-uploading-response = Si è verificato un errore durante il caricamento della risposta
+error-empty-audio = Registrazione non riuscita. Il file audio sembra essere vuoto. Riprova.
+error-platform-webview = La registrazione potrebbe non funzionare su questo browser con funzionalità limitate. Utilizzare un’app browser completa.
+error-recording-too-short-seconds = La registrazione è troppo breve. La durata minima è di { $minDurationSeconds } secondi.
+error-recording-too-long-minutes = La registrazione è troppo lunga. La durata massima è di { $maxDurationMinutes } minuti.
+cannot-play-audio = Impossibile riprodurre l’audio. Riprova.
 prompt-submitted-success = Risposta inviata correttamente
 prompt-response-deleted-success = Risposta eliminata correttamente
 # For the button to delete a response to a prompt

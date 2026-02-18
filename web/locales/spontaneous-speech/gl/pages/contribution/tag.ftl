@@ -19,9 +19,9 @@ tag-page-shortcut-tag-undo = Ctrl / CMD + Z
 undo = Desfacer
 select-all = Seleccionar todo
 # Messages
-tag-success-toast-message = Entregáronse as etiquetas
-tag-error-toast-message = Erro ao entregar as etiquetas
-tag-empty-submit-error = Non hai texto para entregar. Primeiro etiquete algún texto.
+tag-success-toast-message = Etiquetas enviadas correctamente
+tag-error-toast-message = Erro ao enviar as etiquetas
+tag-empty-submit-error = Non hai texto para enviar. Primeiro etiquete algún texto.
 # Code switching Guidelines
 cs-tag-do-guideline-1 = Use ortografía correcta
 cs-tag-do-guideline-2 = Use a pronuncia como axuda

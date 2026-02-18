@@ -137,7 +137,7 @@ add-text = Add Text
 answer = Answer
 
 ## Community section
-community-section-title = Powered by global communities, for global communities — 130 languages and growing!
+community-section-title-202601 = Powered by global communities, for global communities — 290 languages and growing!
 join-discord-community = Join Discord Community
 # label for button
 join-discord-community-action = Join us on Discord

@@ -43,9 +43,6 @@ not-found-page-header = Bulunamadı
 not-found-page-content = Erişmek istediğiniz sayfa bulunamadı
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Common Voice'un <termsLink>Koşullarını</termsLink> ve <privacyLink>Gizlilik İlkelerini</privacyLink> kabul ediyorum.
-# Locales (not yet fully resolved in Pontoon)
-meh = Güneybatı Tlaxiaco Mixtec
-mel = Orta Melanau
 # Locales-Variants
 ms-MY = Bahasa Malay
 el-CY = Kıbrıs Rumcası

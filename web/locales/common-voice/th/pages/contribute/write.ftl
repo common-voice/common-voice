@@ -128,6 +128,7 @@ write-contribute-menu-tooltip = เพิ่มและตรวจทานป
 add-sentences-menu-item-tooltip = เพิ่มประโยคในภาษาของคุณ
 review-sentences-menu-item-tooltip = ตรวจทานประโยคในภาษาของคุณ
 add-questions-menu-item-tooltip = เพิ่มคำถามในภาษาของคุณ
+review-questions-menu-item-tooltip = ตรวจทานคำถาม
 transcribe-audio-menu-item-tooltip = ถอดเสียงจากคลิปเสียงที่อัดในภาษาของคุณ
 
 ## MENU ITEM ARIA LABELS
@@ -136,4 +137,5 @@ write-contribute-menu-aria-label = เมนูตัวเลือกการ
 add-sentences-menu-item-aria-label = เพิ่มประโยคใหม่เพื่อให้ชุมชนอ่าน
 review-sentences-menu-item-aria-label = ตรวจทานประโยคที่มีอยู่ที่ส่งเข้ามาโดยชุมชน
 add-questions-menu-item-aria-label = ส่งคำถามใหม่เพื่อให้ชุมชนอ่านและตอบกลับ
+review-questions-menu-item-aria-label = ตรวจทานและลงคะแนนให้กับคำถามใหม่ที่ส่งเข้ามาโดยชุมชน
 transcribe-audio-menu-item-aria-label = ถอดเสียงจากคลิปเสียงที่อัดให้เป็นข้อความ

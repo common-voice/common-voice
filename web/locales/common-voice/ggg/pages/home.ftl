@@ -124,7 +124,6 @@ add-text = لِکت لگآوو
 
 ## Community section
 
-community-section-title = ٻڏيٚ ڪميوُنٽيآنٚ ڪيٚ ترڦي دي چلوآݪيٚ، ٻڏيٚ ڪميونٽيآنٚ تآڻيٚ —130 ٻوليونٚ اور وڌوآݪيٚ
 join-discord-community = ڊِسڪوڊ ڪميونٽيٚو ميٚ شآمل هوو
 # label for button
 join-discord-community-action = ڊسڪوڊو پر همآ دي شآمل هوو ...

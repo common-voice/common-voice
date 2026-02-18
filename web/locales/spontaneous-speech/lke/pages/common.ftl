@@ -31,8 +31,5 @@ not-found-page-header = Tinfunire
 not-found-page-content = olupapula olwokunomia telufunikire
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Injikirilia amalobozi agabulijo
-# Locales (not yet fully resolved in Pontoon)
-meh = Southwestern Tlaxiaco Mixtec
-mel = Central Melanau
 # Locales-Variants
 ms-MY = Bahasa Malay

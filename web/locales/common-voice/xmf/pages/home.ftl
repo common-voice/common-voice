@@ -127,7 +127,6 @@ answer = გამა
 
 ## Community section
 
-community-section-title = ოირქიანე ართობეფიში ხუჯიში დაკინებათ, ოირქიანე ართობეფიშოთ —130 ნინა დო ხოლო ირდუ!
 join-discord-community = ქაკათით Discord-ართობას
 # label for button
 join-discord-community-action = მოზოჯით Discord-შა

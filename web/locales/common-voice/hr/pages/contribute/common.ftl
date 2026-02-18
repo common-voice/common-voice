@@ -89,7 +89,7 @@ request-language-button = Zatraži jezik
 # Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
-shortcut-play-toggle-label = Reproduciraj/Prekini
+shortcut-play-toggle-label = Pokreni/Prekini
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
 shortcut-vote-yes = d
@@ -105,7 +105,7 @@ contribution-criteria-page-title = Kriteriji za doprinošenje
 contribution-criteria-page-description = Saznaj na što moraš paziti kada slušaš govorne isječke i kako možeš poboljšati tvoje govorne snimke!
 contribution-for-example = na primjer
 contribution-misreadings-title = Pogrešna čitanja
-contribution-misreadings-description = Kada slušaš, provjeri je li se snimka i tekst poklapaju; odbij čak i pri manjim greškama. <br />Česte greške uključuju:
+contribution-misreadings-description = Kada slušaš, provjeri je li se snimka i tekst točno poklapaju; odbij čak i pri manjim greškama. <br />Česte greške uključuju:
 contribution-misreadings-description-extended-list-1 = Na početku snimke nedostaje <strong>neodređeni član</strong> ili <strong>određeni član</strong> imenice.
 contribution-misreadings-description-extended-list-2 = Nedostaje nastavak <strong>za genitiv</strong> na kraju riječi.
 contribution-misreadings-description-extended-list-3 = Čitanje skraćenih oblika kojih zapravo nema, poput „Jeʼl” umjesto „Je li” ili obrnuto.
@@ -118,10 +118,10 @@ contribution-misreadings-example-3-title = Ogromni dinosaurus iz trijas-.
 contribution-misreadings-example-3-explanation = [Snimka je prekinuta prije kraja zadnje riječi]
 contribution-misreadings-example-4-title = Ogromni dinosaurus iz trijasa. Da.
 contribution-misreadings-example-4-explanation = [Snimljeno je više nego što je potrebno]
-contribution-misreadings-example-5-title = Je li idemo na kavu?
+contribution-misreadings-example-5-title = Idemo na kavu.
 contribution-misreadings-example-6-title = Jel idemo na kavu?
 contribution-misreadings-example-6-explanation = [Trebalo bi biti „Je li”]
-contribution-misreadings-example-7-title = Je li idemo na kavu?
+contribution-misreadings-example-7-title = Idemo na kavu.
 contribution-misreadings-example-7-explanation = [Bez slova „i” u izvornom tekstu]
 contribution-misreadings-example-8-title = Proletio je bumbar.
 contribution-misreadings-example-8-explanation = [Nepoklapajući sadržaj]

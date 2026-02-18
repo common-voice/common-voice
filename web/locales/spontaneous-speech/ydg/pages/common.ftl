@@ -38,9 +38,6 @@ not-found-page-header = ملاؤ چے ݰوئے
 not-found-page-content = ڤے ګیم صفحہ کو تو کوسیتے وو ملاؤ چے ݰوئے
 # Privacy and Terms checkbox
 accept-privacy-and-terms = زو ڤے کامن وائسن <termsLink>شرائطف</termsLink>اڤن <privacyLink> ڤے رازدارین نوٹس قبول کینیمتے</privacyLink>
-# Locales (not yet fully resolved in Pontoon)
-meh = جنوب مشرقی ٹیلکسیاکو میکسٹیک
-mel = وسطی میلانو
 # Locales-Variants
 ms-MY = بھاسا مالے
 

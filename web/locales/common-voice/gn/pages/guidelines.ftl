@@ -262,10 +262,13 @@ code-switching-use-both-languages-example = “Ipochyeterei chendive nahenói je
 code-switching-authentic-direct-quotes = <bold>Emoinge je’epyre térã ñomongeta.</bold> Emombe’u hekopete tapicha he’iva’ekue, ndaha’éi je’eporã katuete. Tembiecharã:
 code-switching-authentic-direct-quotes-example = “Che sy oporandu: ‘¿Reimo’ã kóva ñembosarainte?’. Ha’e chupe: ‘¡Py'aguapy!’”.
 code-switching-authentic-reflect = Ohechauka temiandu, teraite ha jeregua. Py’ỹi oiko ñemoambue tapichakuéra oikuaaukávo hemiandu, jejapura térã temiandu arandugua. Ehecha ko’ã mba’e embohovái jave porandu.
+code-switching-authentic-full-context = Embohovái hekopete ha tekotevẽháicha. Emyesakãporã eréva ha emombe’upaite hesakã hag̃uáicha. Emombe’u jehasakue térã techapyrã ne ñembohováipe.
 # Don’t Overthink or Overedit
 code-switching-answer-dont-subheader = Ani eñamindu’u ha embosako’iete
 code-switching-answer-dont-correct-language = <bold>Emyatyrõ ne ñe’ẽ.</bold> Kóva ndaha’éi peteĩ kuaachauka. Ndaha’éi oĩporãnteva’era, osẽnteva’erã ijehegui.
 code-switching-answer-dont-avoid-switching = <bold>Emboyke ñemoambue ejapomemérõ.</bold> Emoambue pe ñe’ẽjuaju mbyte rupi, ñamindu’u mbyte rupi térã ñe’ẽ añoite ndive.
+code-switching-answer-dont-formal-writing = Eñe’ẽ ehairamoguáichante. Emboyke umi ñembohovái ñe’eporavo térã ñembokatupyryguáva. Eñe’ẽ ndeteháicha.
+code-switching-answer-dont-force-switch = <bold>Emoambue ndaha’éitaramo ijehegui añetéva.</bold> Emoambue nde eñe’ẽtaramo ndeteháicha upe jave.
 # Transcribing
 code-switching-transcribe-subheader = Ñe’ẽnguejehai
 code-switching-transcribe-do-1 = Embopu mbykymimi heta jey ejapyhykuaa hag̃ua moambuepy
@@ -277,6 +280,7 @@ code-switching-capture-explanation = Ehai mokõive ñe’ẽ ojehecha térã ipu
 code-switching-filler-header = Emoinge ñe’ẽ myanyhẽrã ha techaukaha
 # Use standard spelling for each language
 code-switching-spelling-header = Eiporu haikatuete peteĩteĩva ñe’ẽme g̃uarã.
+code-switching-spelling-explanation = Eñeha’ã emoñe’ẽ hekopete ñe’ẽita peteĩteĩva ñe’ẽme, ndaha’éiramo pe oñe’ẽva he’i porãva ojeporumeme’ỹháicha.
 # Don’t Clean Up or Simplify the Language
 code-switching-cleanup-header = Aníke emopotĩ térã emombyky pe ñe’ẽkuaa
 code-switching-cleanup-1 = Emoñe’ẽasa térã emoambue: ehai pe he’íva ambue tapicha, ndaha’éi “pe he’iséva”.
@@ -286,6 +290,7 @@ code-switching-cleanup-4 = Emoinge kyta omoambuekuaáva he’iséva: tosẽ ijeh
 code-switching-cleanup-5 = Eimo’ã eikuaaha ñe’ẽ peteĩteĩva rehegua: embohéra ijeporu rupi.
 # Tagging
 code-switching-tagging-subheader = Teramoĩmbyre
+code-switching-tagging-error-intro = Pe ñe’enguemonguatiapy oguerekóramo jejavy, eiporu tembiapoite emongurusu hag̃ua. Umi jejavy ogueroikekuaa:
 code-switching-tagging-error-1 = Ñemokyta térã taiguasu hendape’ỹva
 code-switching-tagging-error-2 = Jejavy taiguáva
 code-switching-tagging-error-3 = Ñe’ẽ ojehaíva haikatu hendape’ỹva reheve
@@ -303,6 +308,7 @@ code-switching-single-token-explanation = Peteĩmi token oĩ’ỹva ojoykerete 
 # Tag Punctuation Based on Nearby Language
 code-switching-punctuation-tagging-header = Mbopapapy ñemokytãgua ipyendáva ñe’ẽ aguĩvare
 code-switching-punctuation-tagging-explanation = Emokyta ñe’ẽ ipa’ũva oĩva ijyketére asu gotyogua ndive. Techapyrã:
+code-switching-punctuation-tagging-explanation-example-2 = <purple>hákatu</purple> <blue>ejoguguakuaa pytã, hũ, hovýva</blue>, <purple> eipotáva.</purple> (BangorTalk)
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = Eñangareko umi ojoguávare
 code-switching-lookalikes-explanation-example-1 = “Footing” he’iseva ñeñani España ñe’ẽme > embohéra español-ramo
@@ -312,6 +318,7 @@ code-switching-not-tag-header = Araka’épa ñe’ẽ reramoĩ emboykéta
 code-switching-not-tag-proper-names-example-1 = Yvypóra: María, Juan
 code-switching-not-tag-proper-names-example-2 = Tendakuéra: Los Ángeles, Florida
 code-switching-not-tag-proper-names-example-3 = Márka/Tendaguasu:  Target, Burger King
+code-switching-not-tag-mixed-words-example = Upe ñe’ẽrapo ha’érõ inglés hákatu ñe’ẽriregua español: “parkear”, “printearlo”
 code-switching-not-tag-interjections-example-1 = "Eh”
 code-switching-not-tag-interjections-example-2 = “Naháriri”
 code-switching-not-tag-interjections-example-3 = “Héẽ”

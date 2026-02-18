@@ -12,6 +12,14 @@ record-no-mic-found = Nulle microphono trovate
 record-error-too-short = Le registration era troppo breve.
 record-error-too-long = Le registration era troppo longe.
 record-error-too-quiet = Le registration era troppo quiete.
+record-error-empty-recording = Necun audio era capturate. Verifica tu microphono e retenta.
+record-error-unknown-format = Impossibile determinar formato de audio. Tenta usar un navigator differente.
+record-error-uploaded-clip-corrupted =
+    Tu registration audio pare esser corrumpite. Isto pote evenir per:
+    • problemas de compatibilitate del navigator (tenta usar un navigator differente)
+    • problemas de driver audio o de microphono 
+    • interruptiones de rete durante le registration
+    Retenta.
 record-cancel = Cancellar le re-registration
 record-instruction = { $actionType }<recordIcon></recordIcon> pois lege le phrase in alte voce
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> quando facite

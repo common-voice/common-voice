@@ -73,6 +73,12 @@ about-playbook-how-add-language-translating-content-2 =
     Da naredite jezik na voljo za projekt Common Voice, nato
     <githubRepoLink>zahtevajte nov jezik na GitHubu</githubRepoLink>. <localizationFragment>Več o prevajanju spletnega mesta</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Zbiranje stavkov
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Oglejte si naš vodnik za uporabo orodja za zbiranje stavkov</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Lahko <sentenceCollectorLinkAdd>dodate majhno število stavkov</sentenceCollectorLinkAdd>,
+    Lahko pa <bulkImportDocsLink>jih uvozite množično s pomočjo Githuba</bulkImportDocsLink>.
+    Ne pozabite, da morajo stavki biti pod licenco <licenseLink>CC0 (ali v javni domeni)</licenseLink>, lahko pa napišete svoje.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Več o zbirki stavkov</sentenceCollectorFragment>.
 
 ## How does localization work
 
@@ -101,9 +107,12 @@ about-playbook-how-record-content-5 = <accuracyLink>Več o merilih natančnosti.
 
 ## How to grow language
 
+about-playbook-how-grow-language = Kako lahko učinkovito razvijamo jezik na Common Voice?
 about-playbook-how-grow-language-content-2 = Dogodki
 about-playbook-how-grow-language-content-4 = Družbena omrežja
 about-playbook-how-grow-language-content-6 = Partnerstva in mreže
+about-playbook-how-grow-language-content-7 = Poiščite druge, ki jim je mar. To so lahko univerze, jezikovne šole, skupine za zagovorništvo ali skupnosti podatkovnih ved. Stopite v stik z njimi in jim jasno razložite, kako lahko pomagajo in zakaj. <outreachTemplates>Oglejte si naše predloge e-poštnih sporočil za javnost</outreachTemplates>.
+about-playbook-how-grow-language-content-8 = <strong>Bodite ustvarjalni!</strong> Vaša jezikovna skupnost bo edinstvena. Našteli smo le nekaj načinov, kako lahko začnete.
 
 ## How to validate
 
@@ -111,9 +120,15 @@ about-playbook-how-validate = Kako vem, ali naj glasovni posnetek odobrim?
 about-playbook-how-validate-content-1 = Če ga lahko <strong>slišite</strong> in <strong>razumete</strong>, je običajno <strong>najbolje, da ga odobrite</strong>.
 about-playbook-how-validate-content-2 = <strong>Ne zavračajte posnetkov, na katerih "ima govornik naglas", drugačen od vašega</strong> – takšni posnetki so pomembni, da bi prepoznavanje govora delovalo bolje za vse.
 about-playbook-how-validate-content-3 = Če menite, da je posnetek zaradi izgovorjave <strong>nemogoče razumeti</strong>, če je <strong>v ozadju veliko šuma</strong> ali pa <strong>govorijo tudi drugi</strong>, ga zavrnite. <accuracyLink>Več informacij si oglejte v naših merilih za natančnost</accuracyLink>.
+about-playbook-how-validate-content-4 = Če posnetek zavrneta 2 osebi, izide v drugi podmnožici nabora podatkov.
+
+## How to access dataset
+
+about-playbook-how-access-dataset = Kako dostopam do nabora podatkov in ga uporabljam?
 
 ## How are decisions made
 
+about-playbook-how-project-governance = Kako se sprejemajo odločitve o projektu?
 about-playbook-how-project-governance-content-2 = Naše upravljanje temelji na:
 about-playbook-how-project-governance-content-3 = Zasebnost, varnost in preglednost.
 about-playbook-how-project-governance-content-4 = skupnostnem sodelovanju in odločanju.

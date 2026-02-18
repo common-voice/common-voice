@@ -42,9 +42,6 @@ not-found-page-header = Ёфт нашуд
 not-found-page-content = Сафҳае, ки шумо меҷӯед, пайдо нашуд
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Ма бо <termsLink>Шартҳо</termsLink> ва <privacyLink>Огоҳномаи махфияти</privacyLink> лоиҳаи «Common Voice» розӣ ҳастам
-# Locales (not yet fully resolved in Pontoon)
-meh = Миштекии тлахиакии ҷануби ғарбӣ
-mel = Меланауи марказӣ
 # Locales-Variants
 ms-MY = Бахаса Малай
 el-CY = Юнони кипрӣ

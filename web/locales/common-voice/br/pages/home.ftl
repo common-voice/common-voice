@@ -135,7 +135,6 @@ answer = Respont
 
 ## Community section
 
-community-section-title = Savet gant kumuniezhioù hollek, evit kumuniezhioù hollek  — 130 yezh hag o kreskiñ atav !
 join-discord-community = Kemer perzh e kumuniezh Discord
 # label for button
 join-discord-community-action = Kit e darempred ganeomp war Discord

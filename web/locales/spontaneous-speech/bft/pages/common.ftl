@@ -31,8 +31,5 @@ not-found-page-header = متھوپس
 not-found-page-content = یانگی ژالین یودپی صفحو متھوپس
 # Privacy and Terms checkbox
 accept-privacy-and-terms = ناسی کامن واٸسی شرایط کن نہ خسنگ تم کن لا ان زیرید۔
-# Locales (not yet fully resolved in Pontoon)
-meh = ساوتھ ویسٹرن لاسیاکو مکس ٹیک
-mel = سنٹرل میلاناو
 # Locales-Variants
 ms-MY = بہاسہ مالے

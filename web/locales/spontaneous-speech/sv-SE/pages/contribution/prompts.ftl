@@ -8,8 +8,15 @@ prompt-page-instruction = { $actionType } <micIcon></micIcon> och svara så natu
 no-prompts-continue-skipped-message = Det finns inga fler frågor för detta språk. Om du har hoppat över något, kan du fortsätta med överhoppat innehåll eller gå till transkribera ljud och försök igen senare.
 error-skipping = Ett fel uppstod när den här prompten hoppades över
 error-recording = Ett fel uppstod under inspelningen
+error-recording-too-short = Inspelningen är för kort. Minsta längd är { $minDurationSeconds } sekunder.
+error-recording-too-long = Inspelningen är för lång. Maximal längd är { $maxDurationMinutes } minuter.
 error-fetching-prompts = Något gick fel när prompter skulle hämtas. Försök igen senare.
 error-uploading-response = Ett fel uppstod när ditt svar laddades upp
+error-empty-audio = Inspelningen misslyckades. Ljudfilen verkar vara tom. Försök igen.
+error-platform-webview = Inspelning kanske inte stöds i den här begränsade webbläsaren. Använd en fullständig webbläsarapp.
+error-recording-too-short-seconds = Inspelningen är för kort. Minsta längd är { $minDurationSeconds } sekunder.
+error-recording-too-long-minutes = Inspelningen är för lång. Maximal längd är { $maxDurationMinutes } minuter.
+cannot-play-audio = Det går inte att spela upp ljud. Försök igen.
 prompt-submitted-success = Svaret har skickats
 prompt-response-deleted-success = Svaret har raderats
 # For the button to delete a response to a prompt

@@ -7,7 +7,7 @@ import { VARIANTS } from './language-data/variants'
 import { ACCENTS } from './language-data/accents'
 
 const TRANSLATED_MIN_PROGRESS = 0.6
-const DEFAULT_TARGET_SENTENCE_COUNT = 5000
+const DEFAULT_TARGET_SENTENCE_COUNT = 2000
 
 const LOCALE_MESSAGES_PATH = path.join(
   __dirname,
@@ -30,16 +30,6 @@ type PontoonLocale = {
   missing_strings: number
   unreviewed_strings: number
   complete: boolean
-}
-
-// Have proper typing for Fluent messages and Abstract Syntax Tree
-interface FluentMessage {
-  id?: { name: string }
-  value?: { elements: Array<{ value?: string }> }
-}
-
-interface FluentAST {
-  body: FluentMessage[]
 }
 
 const db = getMySQLInstance()
@@ -65,19 +55,6 @@ const saveToMessages = (languages: any) => {
     ].join('\n')
   )
   fs.writeFileSync(messagesPath, newMessages)
-}
-
-// Helper function to extract text from Fluent message
-const getFluentValue = (message: FluentMessage): string | null => {
-  if (!message.value?.elements?.length) return null
-
-  // For simple messages, take the first text element
-  const firstElement = message.value.elements[0]
-  if ('value' in firstElement && typeof firstElement.value === 'string') {
-    return firstElement.value
-  }
-
-  return null
 }
 
 const buildLocaleEnglishNameMapping = (): Record<string, string> => {
@@ -106,22 +83,27 @@ const buildLocaleEnglishNameMapping = (): Record<string, string> => {
 
     const languagesSection = languagesMatch[1]
 
-    // Parse ONLY the languages section with Fluent parser
-    const languagesAST = parse(languagesSection, {}) as FluentAST
-
-    // Extract language codes and names from the parsed section
-    for (const message of languagesAST.body) {
-      const code = message.id?.name
-      const name = getFluentValue(message)
-
-      if (code && name) {
-        englishNames[code] = name
+    // Parse simple key-value pairs with regex
+    // Normalize line endings to handle both LF and CRLF
+    const lines = languagesSection
+      .replace(/\r\n/g, '\n')
+      .replace(/\r/g, '\n')
+      .split('\n')
+    for (const line of lines) {
+      const trimmedLine = line.trim()
+      // Match locale code (alphanumeric + hyphens) = any Unicode characters (including apostrophes)
+      const match = trimmedLine.match(/^([a-z0-9-]+)\s*=\s*(.+)$/iu)
+      if (match) {
+        const [, code, name] = match
+        if (code && name) {
+          // FIXME: Quick & hacky workaround for apostrophes in names - needs downtime migrations for proper fix
+          englishNames[code.trim()] = name.replace(/’/g, "'").trim()
+        }
       }
     }
   } catch (error) {
     console.error('Failed to parse English language list:', error)
   }
-
   return englishNames
 }
 
@@ -143,15 +125,25 @@ const buildLocaleNativeNameMapping: any = () => {
       continue
     }
 
-    const messages: FluentAST = parse(
-      fs.readFileSync(messagesPath, 'utf-8'),
-      {}
-    ) as FluentAST
-    const message = messages.body.find(
-      message => message.id && message.id.name === locale
-    )
+    try {
+      const content = fs.readFileSync(messagesPath, 'utf-8')
 
-    nativeNames[locale] = message ? message.value.elements[0].value : locale
+      // Use regex to find the locale's own name
+      // Normalize all line endings (CRLF and CR to LF)
+      const normalizedContent = content
+        .replace(/\r\n/g, '\n')
+        .replace(/\r/g, '\n')
+      const regex = new RegExp(`^${locale}\\s*=\\s*(.+)$`, 'mi')
+      const match = normalizedContent.match(regex)
+
+      nativeNames[locale] = match ? match[1].trim() : locale
+    } catch (error) {
+      console.warn(
+        `[LANG-ERROR] Failed to parse native name for ${locale}:`,
+        error
+      )
+      nativeNames[locale] = locale
+    }
   }
   return nativeNames
 }
@@ -171,7 +163,9 @@ function readFilesInDirectory(
 
     return fileContents
   } catch (err) {
-    throw new Error(`Error reading files in directory: ${err.message}`)
+    throw new Error(
+      `[LANG-ERROR] Error reading files in directory: ${err.message}`
+    )
   }
 }
 
@@ -224,7 +218,7 @@ const fetchPontoonLanguages = async (): Promise<any[]> => {
 
     if (!projectResponse.ok) {
       console.error(
-        `Pontoon API responded with status: ${projectResponse.status}`
+        `[LANG-ERROR] Pontoon API responded with status: ${projectResponse.status}`
       )
       return []
     }
@@ -268,7 +262,7 @@ const fetchPontoonLanguages = async (): Promise<any[]> => {
       })
       .sort((l1, l2) => l1.code.localeCompare(l2.code))
   } catch (error) {
-    console.error('Error fetching Pontoon languages:', error)
+    console.error('[LANG-ERROR] Error fetching Pontoon languages:', error)
   }
 }
 
@@ -283,7 +277,7 @@ async function fetchAllLocalesWithPagination() {
 
     if (!response.ok) {
       console.error(
-        `Pontoon Locales API endpoint responded with status: ${response.status}`
+        `[LANG-ERROR] Pontoon Locales API endpoint responded with status: ${response.status}`
       )
       return []
     }
@@ -321,23 +315,22 @@ const fetchExistingLanguages = async () => {
 }
 
 export async function importLocales() {
-  console.log('Importing languages...')
+  console.log('[LANG] Importing languages...')
   const locales = await fetchPontoonLanguages()
-  console.log('Got Pontoon Languages')
+  console.log('[LANG] Got Pontoon Languages: ', locales.length)
   const englishNames = buildLocaleEnglishNameMapping()
-  console.log('Got English names')
+  console.log('[LANG] Got English names: ', Object.keys(englishNames).length)
   const nativeNames = buildLocaleNativeNameMapping()
-  console.log('Built native names')
+  console.log('[LANG] Built native names: ', Object.keys(nativeNames).length)
   saveToMessages(locales)
-  console.log('Saved native names to message file')
+  console.log('[LANG] Saved native names to message file')
 
   if (locales) {
-    console.log('Fetching existing languages')
+    console.log('[LANG] Fetching existing languages')
 
     const existingLanguages = await fetchExistingLanguages()
 
-    console.log(`${existingLanguages.length} Existing Languages`)
-
+    console.log('[LANG] Existing Languages:', existingLanguages.length)
     const languagesWithClips = existingLanguages.reduce(
       (obj: any, language: any) => {
         if (language.has_clips) obj[language.name] = true
@@ -390,7 +383,7 @@ export async function importLocales() {
       return obj
     }, {})
 
-    console.log('Saving language data to database')
+    console.log('[LANG] Saving language data to database')
 
     let count_inserts = 0
     let count_updates = 0
@@ -411,8 +404,8 @@ export async function importLocales() {
             WHERE id = ?
             `,
             [
-              englishNames[lang.code] ? englishNames[lang.code] : lang.code,
-              nativeNames[lang.code] ? nativeNames[lang.code] : lang.code,
+              englishNames[lang.code] ?? lang.code,
+              nativeNames[lang.code] ?? lang.code,
               newLanguageData[lang.code].is_contributable,
               newLanguageData[lang.code].is_translated,
               lang.direction,
@@ -428,8 +421,8 @@ export async function importLocales() {
               [
                 lang.code,
                 newLanguageData[lang.code].target_sentence_count,
-                englishNames[lang.code] ? englishNames[lang.code] : lang.code,
-                lang.name,
+                englishNames[lang.code] ?? lang.code,
+                nativeNames[lang.code] ?? lang.code,
                 newLanguageData[lang.code].is_contributable,
                 newLanguageData[lang.code].is_translated,
                 lang.direction,
@@ -439,15 +432,17 @@ export async function importLocales() {
         }
       })
     )
-    console.log(`Languages added: ${count_inserts}, updated: ${count_updates}`)
-    console.log('Saving accents to database')
+    console.log(
+      `[LANG] Languages added: ${count_inserts}, updated: ${count_updates}`
+    )
+    console.log('[LANG] Saving accents to database')
 
     // Make sure each language has at minimum an "unspecified" accent
     await db.query(`
     INSERT IGNORE INTO accents (locale_id, accent_name, accent_token, user_submitted)
     SELECT id, "", "unspecified", 0 from locales`)
 
-    console.log('Saving variants to database')
+    console.log('[LANG] Saving variants to database')
 
     //get languages again, since new langauges may have been added
     const [languageQuery] = await db.query(
@@ -493,7 +488,7 @@ export async function importLocales() {
         )
       })
     )
-    console.log('Importing variants completed')
+    console.log('[LANG] Importing variants completed')
   }
-  console.log('Importing languages completed')
+  console.log('[LANG] Importing languages completed')
 }

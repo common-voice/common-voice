@@ -58,3 +58,5 @@ review-error-rate-limit-exceeded = A chani yɔm pam. Dimi suɣulo ka di saha bi�
 sc-redirect-page-title = Taɣiri kara ka ti niŋdi maa
 sc-redirect-page-subtitle-1 = Din deeri yɛltɔɣa maa pa chanila Common Voice puuni. A pa ni tooi <writeURL>sabi</writeURL> yɛltɔɣili bee <reviewURL>labi lihi</reviewURL>yɛltɔɣ' gaŋa zaŋ niŋ Common Voice puuni.
 sc-redirect-page-subtitle-2 = Bɔhimi ti bɔhisi  <matrixLink>Matirikisi</matrixLink>, <discourseLink>Lahibali</discourseLink> bee <emailLink>iimeeli</emailLink>.
+# menu item
+review-sentences = Yɛltɔɣa labilihi

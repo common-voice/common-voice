@@ -31,8 +31,5 @@ not-found-page-header = دست نہ کپتگ
 not-found-page-content = ھما تاک کہ شما شوھازگ ءَ اِت دست نہ کپتگ
 # Privacy and Terms checkbox
 accept-privacy-and-terms = من کامن وائس ءِ <termsLink>شرط</termsLink> ءُ </privacyLink>رازداری ءِداری </privacyLink>
-# Locales (not yet fully resolved in Pontoon)
-meh = جنوب مغربی تلاکسیاکو میکسٹیک
-mel = مرکزی میلاناؤ
 # Locales-Variants
 ms-MY = بہاسا مالائی

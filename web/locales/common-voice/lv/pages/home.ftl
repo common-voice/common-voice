@@ -133,7 +133,6 @@ answer = Atbilde
 
 ## Community section
 
-community-section-title = Nodrošina globālas kopienas, globālām kopienām — 130 valodas, kas arvien pieaug!
 join-discord-community = Pievienojieties Discord kopienai
 # label for button
 join-discord-community-action = Pievienoties Discord
