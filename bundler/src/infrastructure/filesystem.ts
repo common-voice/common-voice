@@ -1,10 +1,10 @@
-import crypto from 'node:crypto'
-import fs from 'node:fs'
+import * as crypto from 'node:crypto'
+import * as fs from 'node:fs'
 import { spawn } from 'node:child_process'
 
 import { io as IO, taskEither as TE, array as Arr } from 'fp-ts'
 import { flow, pipe } from 'fp-ts/lib/function'
-import path from 'node:path'
+import * as path from 'node:path'
 
 const trimSpaces = (str: string) => str.trim()
 const splitOnSpace = (str: string) => str.split(' ')
@@ -20,10 +20,10 @@ export type LineCounts = Record<string, number>
  */
 export const prepareDir =
   (dirPath: string): IO.IO<void> =>
-    () => {
-      console.log(`Creating ${dirPath}`)
-      fs.mkdirSync(dirPath, { recursive: true })
-    }
+  () => {
+    console.log(`Creating ${dirPath}`)
+    fs.mkdirSync(dirPath, { recursive: true })
+  }
 
 /**
  * Counts the number of lines in the given filepaths.
@@ -38,7 +38,22 @@ export const prepareDir =
  */
 const countLinesPromise = (filepaths: string[]) =>
   new Promise<LineCounts>((resolve, reject) => {
-    const cc = spawn('wc', ['-l', ...filepaths], {
+    // Filter to only existing files to avoid wc errors
+    const existingFilepaths = filepaths.filter(fp => {
+      try {
+        fs.accessSync(fp)
+        return true
+      } catch {
+        return false
+      }
+    })
+
+    if (existingFilepaths.length === 0) {
+      resolve({})
+      return
+    }
+
+    const cc = spawn('wc', ['-l', ...existingFilepaths], {
       shell: true,
     })
 
@@ -99,7 +114,7 @@ export const calculateChecksum = (
         const hash = crypto.createHash('sha256')
 
         data
-          .on('data', (data: Buffer) => hash.update(data))
+          .on('data', chunk => hash.update(chunk))
           .on('close', () => resolve(hash.digest('hex')))
       }),
     reason => Error(String(reason)),
@@ -108,10 +123,10 @@ export const calculateChecksum = (
 
 export const getFileSize =
   (filepath: string): IO.IO<number> =>
-    () => {
-      const filestats = fs.statSync(filepath)
-      return filestats.size
-    }
+  () => {
+    const filestats = fs.statSync(filepath)
+    return filestats.size
+  }
 
 export const countLines = (filepaths: string[]) =>
   TE.tryCatch(
@@ -131,5 +146,5 @@ export const concatFiles = (
 
 export const rmFilepath =
   (filepath: string): IO.IO<void> =>
-    () =>
-      fs.rmSync(filepath)
+  () =>
+    fs.rmSync(filepath)

@@ -1,6 +1,6 @@
-import fs from 'node:fs'
+import * as fs from 'node:fs'
+import * as path from 'node:path'
 import { pipeline } from 'node:stream/promises'
-import path from 'node:path'
 import { Transform } from 'node:stream'
 
 import {
@@ -136,13 +136,21 @@ const streamQueryResultToFile = (
   includeClipsFrom: string,
   includeClipsUntil: string,
   locale: string,
+  license?: string,
 ) =>
   TE.tryCatch(async () => {
     const { conn, stream } = streamingQuery(
       fs.readFileSync(path.join(getQueriesDir(), 'bundleLocale.sql'), {
         encoding: 'utf-8',
       }),
-      [includeClipsFrom, includeClipsUntil, locale],
+      [
+        includeClipsFrom,
+        includeClipsUntil,
+        locale,
+        license || null,
+        license || null,
+        license || null,
+      ],
     )
 
     const writeStream = fs.createWriteStream(clipsTmpPath)
@@ -258,7 +266,7 @@ const fetchAllClipsForLocale = (
       if (fileSize <= 256) {
         continue
       }
-      
+
       const buffer = await downloadFileFromBucket(CLIPS_BUCKET)(clip.path)()
 
       if (E.isRight(buffer)) {
@@ -344,6 +352,7 @@ export const fetchAllClipsPipeline = (
   isMinorityLanguage: boolean,
   clipsDirPath: string,
   releaseDirPath: string,
+  license?: string,
   previousReleaseName?: string,
 ): TE.TaskEither<Error, void> => {
   return pipe(
@@ -365,6 +374,7 @@ export const fetchAllClipsPipeline = (
         includeClipsFrom,
         includeClipsUntil,
         locale,
+        license,
       ),
     ),
     TE.chainFirst(() => TE.fromIO(prepareDir(clipsDirPath))),
@@ -405,6 +415,7 @@ export const runFetchAllClipsForLocale = (
         clipsDirPath,
         releaseDirPath,
         previousReleaseName,
+        license,
       }) =>
         fetchAllClipsPipeline(
           type,
@@ -414,6 +425,7 @@ export const runFetchAllClipsForLocale = (
           isMinorityLanguage,
           clipsDirPath,
           releaseDirPath,
+          license,
           previousReleaseName,
         ),
     ),

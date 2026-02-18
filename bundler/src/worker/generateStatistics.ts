@@ -1,4 +1,4 @@
-import path from 'node:path'
+import * as path from 'node:path'
 import * as TE from 'fp-ts/TaskEither'
 import * as T from 'fp-ts/Task'
 import * as RTE from 'fp-ts/ReaderTaskEither'
@@ -33,18 +33,19 @@ const generateStatisticsPipeline = pipe(
 )
 
 export const generateStatistics = async (job: Job<ProcessLocaleJob>) => {
-  const { locale, releaseName } = job.data
+  const { locale, releaseName, license } = job.data
 
   const releaseDirPath = path.join(getTmpDir(), releaseName)
 
   const env: AppEnv = {
     ...job.data,
+    license,
     releaseDirPath,
     releaseTarballsDirPath: path.join(releaseDirPath, 'tarballs'),
     clipsDirPath: path.join(releaseDirPath, locale, 'clips'),
   }
 
-  const releaseTarballName = generateTarFilename(locale, releaseName)
+  const releaseTarballName = generateTarFilename(locale, releaseName, license)
 
   const releaseExistsAlready = await pipe(
     doesFileExistInBucket(getDatasetBundlerBucketName())(

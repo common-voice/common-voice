@@ -1,4 +1,4 @@
-import path from 'node:path'
+import * as path from 'node:path'
 
 import { Job } from 'bullmq'
 import { readerTaskEither as RTE, task as T, taskEither as TE } from 'fp-ts'
@@ -41,21 +41,36 @@ const processPipeline = pipe(
 )
 
 export const processLocale = async (job: Job<ProcessLocaleJob>) => {
-  const { locale, releaseName } = job.data
+  const { locale, releaseName, previousReleaseName, license } = job.data
 
-  const releaseDirPath = path.join(getTmpDir(), releaseName)
+  // Licensed jobs go into a separate directory suffixed with "-licensed"
+  const effectiveReleaseName = license ? `${releaseName}-licensed` : releaseName
+  const effectivePreviousReleaseName = previousReleaseName
+    ? license
+      ? `${previousReleaseName}-licensed`
+      : previousReleaseName
+    : undefined
+
+  const releaseDirPath = path.join(getTmpDir(), effectiveReleaseName)
 
   const env: AppEnv = {
     ...job.data,
+    releaseName: effectiveReleaseName,
+    previousReleaseName: effectivePreviousReleaseName,
+    license,
     releaseDirPath,
     releaseTarballsDirPath: path.join(releaseDirPath, 'tarballs'),
     clipsDirPath: path.join(releaseDirPath, locale, 'clips'),
   }
-  const releaseTarballName = generateTarFilename(locale, releaseName)
+  const releaseTarballName = generateTarFilename(
+    locale,
+    effectiveReleaseName,
+    license,
+  )
 
   const releaseExistsAlready = await pipe(
     doesFileExistInBucket(getDatasetBundlerBucketName())(
-      `${releaseName}/${releaseTarballName}`,
+      `${effectiveReleaseName}/${releaseTarballName}`,
     ),
     TE.getOrElse(() => T.of(false)),
   )()
