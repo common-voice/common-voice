@@ -45,7 +45,6 @@ export const TSV_COLUMNS = [
   'age',
   'gender',
   'accents',
-  'accents',
   'variant',
   'locale',
   'segment',
