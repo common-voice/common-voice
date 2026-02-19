@@ -113,10 +113,11 @@ const compressPipeline = (
     TE.chainFirst(() => TE.fromIO(prepareDir(releaseTarballDir))),
     TE.chainFirst(({ tarballFilepath, paths }) => {
       if (!paths || paths.length === 0) {
-        console.warn(
-          `No files found to compress for locale ${locale}, skipping tarball creation.`,
+        return TE.left(
+          new Error(
+            `No files found to compress for locale ${locale}, skipping tarball creation.`,
+          ),
         )
-        return TE.of(undefined)
       }
       return compress(paths)(tarballFilepath)
     }),
