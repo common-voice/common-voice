@@ -8,7 +8,11 @@ import { runFetchAllClipsForLocale } from '../core/clips'
 import { isMinorityLanguage } from '../core/ruleOfFive'
 import { AppEnv, ProcessLocaleJob } from '../types'
 import { runCorporaCreator } from '../infrastructure/corporaCreator'
-import { generateTarFilename, runCompress } from '../core/compress'
+import {
+  generateTarFilename,
+  runCompress,
+  sanitizeLicenseName,
+} from '../core/compress'
 import { runMp3DurationReporter } from '../infrastructure/mp3DurationReporter'
 import { runStats } from '../core/stats'
 import { runReportedSentences } from '../core/reportedSentences'
@@ -43,7 +47,9 @@ const processPipeline = pipe(
 export const processLocale = async (job: Job<ProcessLocaleJob>) => {
   const { locale, releaseName, previousReleaseName, license } = job.data
 
-  // Licensed jobs go into a separate directory suffixed with "-licensed"
+  // Licensed jobs go into a separate directory suffixed with "-licensed".
+  // Each license gets its own subdirectory so concurrent jobs for different
+  // licenses on the same locale don't collide on the filesystem.
   const effectiveReleaseName = license ? `${releaseName}-licensed` : releaseName
   const effectivePreviousReleaseName = previousReleaseName
     ? license
@@ -51,7 +57,9 @@ export const processLocale = async (job: Job<ProcessLocaleJob>) => {
       : previousReleaseName
     : undefined
 
-  const releaseDirPath = path.join(getTmpDir(), effectiveReleaseName)
+  const releaseDirPath = license
+    ? path.join(getTmpDir(), effectiveReleaseName, sanitizeLicenseName(license))
+    : path.join(getTmpDir(), effectiveReleaseName)
 
   const env: AppEnv = {
     ...job.data,

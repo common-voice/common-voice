@@ -32,6 +32,18 @@ export const addJobsToReleaseQueue = (settings: Settings) =>
     TE.bind('jobs', () => {
       const licenseMode = settings.licenseMode || 'unlicensed'
 
+      if (
+        licenseMode !== 'unlicensed' &&
+        licenseMode !== 'licensed' &&
+        licenseMode !== 'both'
+      ) {
+        return TE.left(
+          Error(
+            `Unsupported licenseMode: "${licenseMode}". Must be one of: unlicensed, licensed, both`,
+          ),
+        )
+      }
+
       if (licenseMode === 'licensed') {
         // Only process locales with licensed clips
         return pipe(

@@ -12,7 +12,7 @@ import { CORPORA_CREATOR_SPLIT_FILES } from '../infrastructure/corporaCreator'
 import { AppEnv } from '../types'
 import { getTmpDir } from '../config/config'
 
-const sanitizeLicenseName = (license: string): string => {
+export const sanitizeLicenseName = (license: string): string => {
   // Replace spaces and special characters with underscores for safe filenames
   return license.replace(/[\s/\\:*?"<>|]/g, '_')
 }

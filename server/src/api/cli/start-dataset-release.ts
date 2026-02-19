@@ -1,4 +1,4 @@
-import { program } from 'commander'
+import { program, Option } from 'commander'
 import { pipe } from 'fp-ts/lib/function'
 import { addJobToQueue, getQueue } from '../../infrastructure/queues/queues'
 
@@ -71,15 +71,18 @@ program
     The clips from the previous release will be downloaded to bootstrap the new release.
     `
   )
-  .option(
-    '--license-mode <mode>',
-    `
+  .addOption(
+    new Option(
+      '--license-mode <mode>',
+      `
     Define how to handle licensed and unlicensed sentences/clips:
     - 'unlicensed' (default): Only include CC0 (unlicensed) sentences/clips
     - 'licensed': Only include licensed sentences/clips (optimized: only processes locales with licenses)
     - 'both': Create separate bundles for unlicensed and each license type
-    `,
-    'unlicensed'
+    `
+    )
+      .choices(['unlicensed', 'licensed', 'both'])
+      .default('unlicensed')
   )
   .action(startDatasetRelease)
 

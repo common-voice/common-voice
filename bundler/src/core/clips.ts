@@ -298,8 +298,12 @@ const createClipsTsv = (
   }, logError)
 }
 
-const downloadPreviousRelease = (locale: string, prevReleaseName: string) => {
-  const tarFilename = generateTarFilename(locale, prevReleaseName)
+const downloadPreviousRelease = (
+  locale: string,
+  prevReleaseName: string,
+  license?: string,
+) => {
+  const tarFilename = generateTarFilename(locale, prevReleaseName, license)
   const storagePath = `${prevReleaseName}/${tarFilename}`
 
   const downloadRelease = TE.tryCatch(async () => {
@@ -328,8 +332,9 @@ const downloadPreviousRelease = (locale: string, prevReleaseName: string) => {
 const extractClipsFromPreviousRelease = (
   locale: string,
   prevReleaseName: string,
+  license?: string,
 ) => {
-  const filename = generateTarFilename(locale, prevReleaseName)
+  const filename = generateTarFilename(locale, prevReleaseName, license)
   const filepath = path.join(getTmpDir(), filename)
 
   if (!fs.existsSync(filepath)) {
@@ -359,12 +364,12 @@ export const fetchAllClipsPipeline = (
     TE.let('clipsTmpPath', () => getTmpClipsPath(locale)),
     TE.chainFirst(() =>
       previousReleaseName
-        ? downloadPreviousRelease(locale, previousReleaseName)
+        ? downloadPreviousRelease(locale, previousReleaseName, license)
         : TE.right(constVoid()),
     ),
     TE.chainFirst(() =>
       previousReleaseName
-        ? extractClipsFromPreviousRelease(locale, previousReleaseName)
+        ? extractClipsFromPreviousRelease(locale, previousReleaseName, license)
         : TE.right(constVoid()),
     ),
     TE.chainFirst(({ clipsTmpPath }) =>
