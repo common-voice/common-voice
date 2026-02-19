@@ -33,11 +33,11 @@ const logError = (err: unknown) => {
 
 const replaceWhitespaces = () =>
   new Transform({
-    transform(chunk: { sentence: string }, encoding, callback) {
+    transform(chunk: { sentence: string; source: string }, encoding, callback) {
       const updatedClipRow = {
         ...chunk,
         sentence: chunk.sentence.replace(/\s/gi, ' '),
-        source: chunk.sentence.replace(/\s/gi, ' '),
+        source: chunk.source.replace(/\s/gi, ' '),
       }
 
       callback(null, updatedClipRow)
