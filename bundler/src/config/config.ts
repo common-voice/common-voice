@@ -3,6 +3,8 @@ import { io as IO } from 'fp-ts'
 
 const TMP_DIR = '/cache'
 
+export type LogLevel = 'debug' | 'info' | 'warn' | 'error'
+
 export type DbConfig = {
   host: string
   port: number
@@ -13,6 +15,7 @@ export type DbConfig = {
 
 export type Config = {
   environment: string
+  logLevel: LogLevel
   redisUrl: string
   dbConfig: DbConfig
   clipsBucketName: string
@@ -20,8 +23,22 @@ export type Config = {
   storageLocalEndpoint: string
 }
 
+const resolveLogLevel = (env: string): LogLevel => {
+  // LOG_LEVEL is optional — no deployment config changes needed.
+  // Falls back to environment-based defaults derived from the existing ENVIRONMENT var.
+  const explicit = process.env.LOG_LEVEL as LogLevel | undefined
+  if (explicit && ['debug', 'info', 'warn', 'error'].includes(explicit)) {
+    return explicit
+  }
+  // sandbox / staging / stage default to debug; production and local default to info
+  return env === 'sandbox' || env === 'staging' || env === 'stage' ? 'debug' : 'info'
+}
+
+const environment = process.env.ENVIRONMENT || 'local'
+
 const config: Config = {
-  environment: process.env.ENVIRONMENT || 'local',
+  environment,
+  logLevel: resolveLogLevel(environment),
   redisUrl: process.env.REDIS_URL || 'redis',
   dbConfig: {
     host: process.env.DB_HOST || 'db',
@@ -45,6 +62,10 @@ const getEnvironment_ =
   (config: Config): IO.IO<string> =>
   () =>
     config.environment
+const getLogLevel_ =
+  (config: Config): IO.IO<LogLevel> =>
+  () =>
+    config.logLevel
 const getQueriesDir_: IO.IO<string> = () =>
   path.join(__dirname, '..', '..', 'queries')
 const getDbConfig_ =
@@ -74,6 +95,7 @@ export const getQueriesDir = getQueriesDir_
 export const getRedisUrl = getRedisUrl_(config)
 export const getStorageLocalEndpoint = getStorageLocalEndpoint_(config)
 export const getEnvironment = getEnvironment_(config)
+export const getLogLevel = getLogLevel_(config)
 export const getDbConfig = getDbConfig_(config)
 export const getClipsBucketName = getClipsBucketName_(config)
 export const getDatasetBundlerBucketName = getDatasetBundlerBucketName_(config)
