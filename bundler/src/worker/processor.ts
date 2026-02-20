@@ -19,6 +19,7 @@ import { runStats } from '../core/stats'
 import { runReportedSentences } from '../core/reportedSentences'
 import { runUpload } from '../core/upload'
 import { runCleanUp } from '../core/cleanUp'
+import { runCompressAndUploadMetadata } from '../core/metadata'
 import { doesFileExistInBucket } from '../infrastructure/storage'
 import { getDatasetBundlerBucketName, getTmpDir } from '../config/config'
 import { runFetchSentencesForLocale } from '../core/sentences'
@@ -35,6 +36,7 @@ const processPipeline = pipe(
   RTE.chainFirst(runFetchSentencesForLocale),
   RTE.bind('tarFilepath', runCompress),
   RTE.bind('uploadPath', ({ tarFilepath }) => runUpload(tarFilepath)),
+  RTE.chainFirst(runCompressAndUploadMetadata),
   RTE.bind('stats', ({ totalDurationInMs, tarFilepath }) =>
     runStats(totalDurationInMs, tarFilepath),
   ),
