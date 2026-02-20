@@ -3,9 +3,9 @@ import { spawn } from 'node:child_process'
 
 import { readerTaskEither as RTE, taskEither as TE } from 'fp-ts'
 import { pipe } from 'fp-ts/lib/function'
-import { log } from 'fp-ts/lib/Console'
 
 import { AppEnv } from '../types'
+import { logger } from './logger'
 
 export const Mp3DurationFiles = ['clip_durations.tsv'] as const
 
@@ -35,7 +35,7 @@ const runMp3DurationReporterPromise = (
     let totalDurationInMs = 0
 
     cc.stdout.on('data', data => (totalDurationInMs = Number(data)))
-    cc.stderr.on('data', data => console.log(`${data}`))
+    cc.stderr.on('data', data => logger.warn('MP3-DURATION', String(data).trimEnd()))
 
     cc.on('close', () => resolve(totalDurationInMs))
     cc.on('error', reason => reject(reason))
@@ -45,9 +45,9 @@ export const mp3DurationReporterPipeline = (
   locale: string,
   releaseDirPath: string,
 ) => {
+  logger.info('MP3-DURATION', `[${locale}] Starting mp3-duration-reporter`)
   return pipe(
     TE.Do,
-    TE.tap(() => TE.fromIO(log('Starting mp3-duration-reporter'))),
     TE.chain(() =>
       TE.tryCatch(
         () => runMp3DurationReporterPromise(locale, releaseDirPath),
