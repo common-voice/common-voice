@@ -7,6 +7,7 @@ import { LocaleWithLicense } from '../types'
 
 export type LocalesWithClips = {
   name: string
+  clip_count: number
 }
 
 export const fetchLocalesWithClips = (
