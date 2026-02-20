@@ -3,6 +3,7 @@ import * as path from 'node:path'
 import { Job } from 'bullmq'
 import { readerTaskEither as RTE, task as T, taskEither as TE } from 'fp-ts'
 import { constVoid, pipe } from 'fp-ts/lib/function'
+import { logger } from '../infrastructure/logger'
 
 import { runFetchAllClipsForLocale } from '../core/clips'
 import { isMinorityLanguage } from '../core/ruleOfFive'
@@ -39,7 +40,7 @@ const processPipeline = pipe(
   ),
   RTE.chainFirst(({ tarFilepath }) => runCleanUp(tarFilepath)),
   RTE.match(
-    err => console.log(err),
+    err => logger.error('PROCESSOR', String(err)),
     () => constVoid(),
   ),
 )
@@ -57,6 +58,19 @@ export const processLocale = async (job: Job<ProcessLocaleJob>) => {
       : previousReleaseName
     : undefined
 
+  // For full releases, derive the delta name from the base release name using
+  // the fixed convention "${releaseName}-delta". The delta release must have
+  // been run separately beforehand with that exact releaseName. Apply the same
+  // "-licensed" suffix as the full release so licensed delta tarballs are found
+  // at the correct GCS path. If no delta tarball exists for a locale the
+  // pipeline falls back to individual GCS clip downloads automatically.
+  const effectiveDeltaReleaseName =
+    job.data.type === 'full'
+      ? license
+        ? `${releaseName}-delta-licensed`
+        : `${releaseName}-delta`
+      : undefined
+
   const releaseDirPath = license
     ? path.join(getTmpDir(), effectiveReleaseName, sanitizeLicenseName(license))
     : path.join(getTmpDir(), effectiveReleaseName)
@@ -65,6 +79,7 @@ export const processLocale = async (job: Job<ProcessLocaleJob>) => {
     ...job.data,
     releaseName: effectiveReleaseName,
     previousReleaseName: effectivePreviousReleaseName,
+    deltaReleaseName: effectiveDeltaReleaseName,
     license,
     releaseDirPath,
     releaseTarballsDirPath: path.join(releaseDirPath, 'tarballs'),
@@ -84,8 +99,8 @@ export const processLocale = async (job: Job<ProcessLocaleJob>) => {
   )()
 
   if (releaseExistsAlready) {
-    console.log(`Release ${releaseTarballName} exists already.`)
-    Promise.resolve()
+    logger.info('PROCESSOR', `[${locale}] Release ${releaseTarballName} exists already, skipping`)
+    return
   } else {
     await processPipeline(env)()
   }
