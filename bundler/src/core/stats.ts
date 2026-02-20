@@ -182,7 +182,7 @@ const getAllRelevantFilepaths = (
   return [...ccFiles, ...sentenceFiles]
 }
 
-const mapLineCountsToStats = (
+export const mapLineCountsToStats = (
   obj: LineCounts,
 ): {
   buckets: Buckets
@@ -273,7 +273,7 @@ const extractStatsFromClipsFile = (locale: string, releaseDirPath: string) =>
     reason => Error(String(reason)),
   )
 
-const unitToHours = (
+export const unitToHours = (
   duration: number,
   unit: 'ms' | 's' | 'min',
   sigDig: number,

@@ -47,22 +47,29 @@ const processPipeline = pipe(
   ),
 )
 
-export const processLocale = async (job: Job<ProcessLocaleJob>) => {
-  const { locale, releaseName, previousReleaseName, license } = job.data
+/**
+ * Derives effective release names, directory paths, and AppEnv from raw job
+ * parameters. Pure function (aside from getTmpDir()) — extracted so the
+ * naming logic is unit-testable independently of BullMQ and GCS.
+ */
+export const deriveJobEnv = (
+  jobData: ProcessLocaleJob,
+  tmpDir: string,
+): AppEnv => {
+  const { locale, releaseName, previousReleaseName, license, type } = jobData
 
   // Licensed jobs go into a separate directory suffixed with "-licensed".
   // Each license gets its own subdirectory so concurrent jobs for different
   // licenses on the same locale don't collide on the filesystem.
-  const effectiveReleaseName = license ? `${releaseName}-licensed` : releaseName
+  const effectiveReleaseName = license
+    ? `${releaseName}-licensed`
+    : releaseName
 
   // Both previousReleaseName and deltaReleaseName only apply to full releases.
   // Delta releases are defined purely by their from/until time window — they
   // contain only new clips and do not merge from any prior release.
-  // If no tarball exists in GCS for a given locale (e.g. brand-new locale,
-  // or delta not run yet), the per-locale GCS exists-check inside each
-  // download function handles the no-op gracefully.
   const effectivePreviousReleaseName =
-    job.data.type === 'full' && previousReleaseName
+    type === 'full' && previousReleaseName
       ? license
         ? `${previousReleaseName}-licensed`
         : previousReleaseName
@@ -70,21 +77,20 @@ export const processLocale = async (job: Job<ProcessLocaleJob>) => {
 
   // Derived from releaseName using the fixed convention "${releaseName}-delta"
   // (or "-delta-licensed" for licensed jobs). The delta release must have been
-  // run beforehand with that exact name. If the delta tarball is absent for a
-  // locale the pipeline falls back to individual GCS clip downloads.
+  // run beforehand with that exact name.
   const effectiveDeltaReleaseName =
-    job.data.type === 'full'
+    type === 'full'
       ? license
         ? `${releaseName}-delta-licensed`
         : `${releaseName}-delta`
       : undefined
 
   const releaseDirPath = license
-    ? path.join(getTmpDir(), effectiveReleaseName, sanitizeLicenseName(license))
-    : path.join(getTmpDir(), effectiveReleaseName)
+    ? path.join(tmpDir, effectiveReleaseName, sanitizeLicenseName(license))
+    : path.join(tmpDir, effectiveReleaseName)
 
-  const env: AppEnv = {
-    ...job.data,
+  return {
+    ...jobData,
     releaseName: effectiveReleaseName,
     previousReleaseName: effectivePreviousReleaseName,
     deltaReleaseName: effectiveDeltaReleaseName,
@@ -93,15 +99,16 @@ export const processLocale = async (job: Job<ProcessLocaleJob>) => {
     releaseTarballsDirPath: path.join(releaseDirPath, 'tarballs'),
     clipsDirPath: path.join(releaseDirPath, locale, 'clips'),
   }
-  const releaseTarballName = generateTarFilename(
-    locale,
-    effectiveReleaseName,
-    license,
-  )
+}
+
+export const processLocale = async (job: Job<ProcessLocaleJob>) => {
+  const env = deriveJobEnv(job.data, getTmpDir())
+  const { locale, releaseName, license } = env
+  const releaseTarballName = generateTarFilename(locale, releaseName, license)
 
   const releaseExistsAlready = await pipe(
     doesFileExistInBucket(getDatasetBundlerBucketName())(
-      `${effectiveReleaseName}/${releaseTarballName}`,
+      `${releaseName}/${releaseTarballName}`,
     ),
     TE.getOrElse(() => T.of(false)),
   )()

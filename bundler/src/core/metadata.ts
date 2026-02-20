@@ -33,7 +33,7 @@ export const generateMetadataTarFilename = (
  * Directories (e.g. clips/) are excluded — only text/metadata files
  * like TSV, CSV, MD, etc. are included.
  */
-const getMetadataFiles = (
+export const getMetadataFiles = (
   locale: string,
   releaseDirPath: string,
 ): string[] => {

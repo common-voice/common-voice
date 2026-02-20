@@ -55,7 +55,7 @@ const compress =
       reason => Error(String(reason)),
     )
 
-const pathsFilter =
+export const pathsFilter =
   (releaseType: string) =>
   (filepath: string): boolean => {
     const filename = path.basename(filepath)
