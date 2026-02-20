@@ -5,6 +5,7 @@ import { spawn } from 'node:child_process'
 import { io as IO, taskEither as TE, array as Arr } from 'fp-ts'
 import { flow, pipe } from 'fp-ts/lib/function'
 import * as path from 'node:path'
+import { logger } from './logger'
 
 const trimSpaces = (str: string) => str.trim()
 const splitOnSpace = (str: string) => str.split(' ')
@@ -21,7 +22,7 @@ export type LineCounts = Record<string, number>
 export const prepareDir =
   (dirPath: string): IO.IO<void> =>
   () => {
-    console.log(`Creating ${dirPath}`)
+    logger.debug('FS', `Creating ${dirPath}`)
     fs.mkdirSync(dirPath, { recursive: true })
   }
 
@@ -60,7 +61,7 @@ const countLinesPromise = (filepaths: string[]) =>
     const buffers: Buffer[] = []
 
     cc.stdout.on('data', data => buffers.push(data))
-    cc.stderr.on('data', data => console.log(`${data}`))
+    cc.stderr.on('data', data => logger.warn('WC', String(data).trimEnd()))
 
     cc.on('close', () => {
       const result = pipe(
@@ -95,8 +96,8 @@ const concatFilesPromise = (
       shell: true,
     })
 
-    cc.stdout.on('data', data => console.log(`${data}`))
-    cc.stderr.on('data', data => console.log(`${data}`))
+    cc.stdout.on('data', data => logger.debug('TAIL', String(data).trimEnd()))
+    cc.stderr.on('data', data => logger.warn('TAIL', String(data).trimEnd()))
 
     cc.on('close', () => {
       resolve()

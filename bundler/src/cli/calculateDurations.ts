@@ -9,6 +9,7 @@ import {
   streamDownloadFileFromBucket,
 } from '../infrastructure/storage'
 import { getClipsBucketName } from '../config/config'
+import { logger } from '../infrastructure/logger'
 const mp3Duration = require('mp3-duration')
 
 type Clip = { id: number; path: string; duration: number }
@@ -40,7 +41,7 @@ const nextClips = async (count: number) =>
     findClipsWithoutDuration(count),
     TE.match(
       err => {
-        console.log(err)
+        logger.error('DURATIONS', String(err))
         return [] as Clip[]
       },
       res => res,
@@ -54,8 +55,9 @@ const calculateDurations = async (options: any) => {
     TE.getOrElse(() => T.of(0)),
   )()
   const damagedClips: string[] = []
-  console.log(
-    `There are a total of ${total} of clips without duration. Processing ${MAX} clip(s)`,
+  logger.info(
+    'DURATIONS',
+    `${total} clips without duration found. Processing up to ${MAX}`,
   )
 
   let progress = 0
@@ -65,7 +67,7 @@ const calculateDurations = async (options: any) => {
     if (progress >= total || progress >= options.total) break
     await Promise.all(
       batch.map(async audio => {
-        console.log(`Processing ${audio.path}`)
+        logger.debug('DURATIONS', `Processing ${audio.path}`)
         let durationMs = 0
         try {
           const fileSize = await pipe(
@@ -86,7 +88,7 @@ const calculateDurations = async (options: any) => {
           }
         } catch (err) {
           damagedClips.push(audio.path)
-          console.log(err)
+          logger.warn('DURATIONS', `Failed ${audio.path}: ${String(err)}`)
         }
 
         return {
@@ -96,12 +98,12 @@ const calculateDurations = async (options: any) => {
       }),
     )
     progress += batch.length
-    console.log(`Progress: ${progress}/${MAX}`)
+    logger.info('DURATIONS', `Progress: ${progress}/${MAX}`)
     batch = await nextClips(BATCH_SIZE)
 
     await sleep(1000)
   }
-  console.log('Damaged audios:\n', damagedClips.join('\n'))
+  logger.info('DURATIONS', `Damaged clips (${damagedClips.length}):\n${damagedClips.join('\n')}`)
 }
 
 function gatherBuffer(stream: Readable): Promise<Buffer> {

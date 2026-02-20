@@ -11,6 +11,7 @@ import { prepareDir } from '../infrastructure/filesystem'
 import { CORPORA_CREATOR_SPLIT_FILES } from '../infrastructure/corporaCreator'
 import { AppEnv } from '../types'
 import { getTmpDir } from '../config/config'
+import { logger } from '../infrastructure/logger'
 
 export const sanitizeLicenseName = (license: string): string => {
   // Replace spaces and special characters with underscores for safe filenames
@@ -78,9 +79,7 @@ const getPathsToAddToTarball =
       })
     } catch (err) {
       // Directory does not exist or is empty
-      console.warn(
-        `Warning: Directory for tarball does not exist or is empty: ${dir}`,
-      )
+      logger.warn('COMPRESS', `Directory for tarball does not exist or is empty: ${dir}`)
       return []
     }
     const filterFilesForRelease = pathsFilter(releaseType)
@@ -97,7 +96,7 @@ const compressPipeline = (
   releaseType: string,
   license?: string,
 ): TE.TaskEither<Error, string> => {
-  console.log('Start compress step')
+  logger.info('COMPRESS', `[${locale}] Start compress`)
   return pipe(
     TE.Do,
     TE.let('tarballFilename', () =>
