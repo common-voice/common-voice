@@ -7,6 +7,7 @@ import {
 } from '../core/locales'
 import { ProcessLocaleJob, Settings } from '../types'
 import { getRedisUrl } from '../config/config'
+import { logger } from './logger'
 
 const datasetReleaseQueue = new Queue('datasetRelease', {
   connection: {
@@ -17,7 +18,11 @@ const datasetReleaseQueue = new Queue('datasetRelease', {
 const addJob = (queue: Queue) => (jobName: string) => (job: ProcessLocaleJob) =>
   TE.tryCatch(
     async () => {
-      await queue.add(jobName, job)
+      // Deterministic ID prevents duplicate jobs when the init job is stalled
+      // and re-processed: BullMQ ignores queue.add() for a jobId that is
+      // already waiting or active.
+      const jobId = `${job.releaseName}|${job.locale}|${job.license ?? 'unlicensed'}`
+      await queue.add(jobName, job, { jobId })
     },
     err => Error(String(err)),
   )
@@ -57,9 +62,9 @@ export const addJobsToReleaseQueue = (settings: Settings) =>
                   )
                 : localesWithLicenses
 
-            console.log(
-              `${filtered.length} locale-license combinations will be processed (licensed only): `,
-              filtered.map(l => `${l.name} (${l.license})`).join(', '),
+            logger.info(
+              'QUEUE',
+              `${filtered.length} locale-license combinations scheduled (licensed only): ${filtered.map(l => `${l.name} (${l.license})`).join(', ')}`,
             )
 
             return filtered.map(({ name, license }) => ({
@@ -111,9 +116,9 @@ export const addJobsToReleaseQueue = (settings: Settings) =>
               })
             })
 
-            console.log(
-              `${jobs.length} total jobs will be processed (unlicensed + licensed): `,
-              `${allLocales.length} unlicensed, ${filteredLicensed.length} licensed`,
+            logger.info(
+              'QUEUE',
+              `${jobs.length} total jobs scheduled (unlicensed + licensed): ${allLocales.length} unlicensed, ${filteredLicensed.length} licensed`,
             )
 
             return jobs
@@ -126,9 +131,9 @@ export const addJobsToReleaseQueue = (settings: Settings) =>
             ? TE.right(settings.languages.map(l => ({ name: l })))
             : fetchLocalesWithClips(settings.from, settings.until),
           TE.map(locales => {
-            console.log(
-              `${locales.length} locales will be processed (unlicensed only): `,
-              locales.map(l => l.name).join(', '),
+            logger.info(
+              'QUEUE',
+              `${locales.length} locales scheduled (unlicensed only): ${locales.map(l => l.name).join(', ')}`,
             )
 
             return locales.map(locale => ({
