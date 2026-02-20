@@ -21,7 +21,9 @@ const addJob = (queue: Queue) => (jobName: string) => (job: ProcessLocaleJob) =>
       // Deterministic ID prevents duplicate jobs when the init job is stalled
       // and re-processed: BullMQ ignores queue.add() for a jobId that is
       // already waiting or active.
-      const jobId = `${job.releaseName}|${job.locale}|${job.license ?? 'unlicensed'}`
+      // jobName is included so processLocale and generateStatistics for the
+      // same locale/release don't collide.
+      const jobId = `${jobName}|${job.releaseName}|${job.locale}|${job.license ?? 'unlicensed'}`
       await queue.add(jobName, job, { jobId })
     },
     err => Error(String(err)),

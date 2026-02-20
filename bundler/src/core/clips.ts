@@ -248,9 +248,12 @@ const mergeClipsFromLocalSources = (
       missing++
     }
 
-    // Remove the consumed delta directory to free disk space.
+    // Remove the consumed delta locale directory to free disk space.
+    // Only the locale subdir is deleted (not the entire deltaReleaseName dir)
+    // so concurrent jobs for other locales are not affected if worker
+    // concurrency is ever increased above 1.
     if (deltaClipsDir && fs.existsSync(deltaClipsDir)) {
-      await rmAsync(path.join(getTmpDir(), deltaReleaseName!), {
+      await rmAsync(path.join(getTmpDir(), deltaReleaseName!, locale), {
         recursive: true,
         force: true,
       })
