@@ -10,7 +10,6 @@ import { pipe } from 'fp-ts/lib/function'
 import { prepareDir } from '../infrastructure/filesystem'
 import { CORPORA_CREATOR_SPLIT_FILES } from '../infrastructure/corporaCreator'
 import { AppEnv } from '../types'
-import { getTmpDir } from '../config/config'
 import { logger } from '../infrastructure/logger'
 
 export const sanitizeLicenseName = (license: string): string => {
@@ -34,17 +33,25 @@ const createTarballWriteStream = (outFilepath: string) => {
   return fs.createWriteStream(outFilepath)
 }
 
-const tarPromise = async (outFilepath: string, pathsToCompress: string[]) => {
-  const readStream = tar.c({ gzip: true, cwd: getTmpDir() }, pathsToCompress)
+const tarPromise = async (
+  outFilepath: string,
+  pathsToCompress: string[],
+  cwd: string,
+  prefix: string,
+) => {
+  const readStream = tar.c(
+    { gzip: true, cwd, prefix },
+    pathsToCompress,
+  )
 
   await pipeline(readStream, createTarballWriteStream(outFilepath))
 }
 
 const compress =
-  (pathsToCompress: string[]) =>
+  (pathsToCompress: string[], cwd: string, prefix: string) =>
   (outFilepath: string): TE.TaskEither<Error, void> =>
     TE.tryCatch(
-      () => tarPromise(outFilepath, pathsToCompress),
+      () => tarPromise(outFilepath, pathsToCompress, cwd, prefix),
       reason => Error(String(reason)),
     )
 
@@ -77,17 +84,17 @@ const getPathsToAddToTarball =
         recursive: false,
       })
     } catch (err) {
-      // Directory does not exist or is empty
       logger.warn('COMPRESS', `Directory for tarball does not exist or is empty: ${dir}`)
       return []
     }
-    // Use the relative path from tmpDir so that licensed releases correctly
-    // include the license subdirectory (e.g. "releaseName-licensed/CC1/locale/")
-    const relativeBase = path.relative(getTmpDir(), releaseDirPath)
+    // Paths are relative to releaseDirPath (used as tar cwd).
+    // The tar prefix option prepends releaseName, so the archive entry
+    // becomes: releaseName/locale/file — flat regardless of whether the
+    // working directory includes a license subdirectory like CC1/.
     const filterFilesForRelease = pathsFilter(releaseType)
     return paths
       .filter(filterFilesForRelease)
-      .map((pathS: string) => path.join(relativeBase, locale, pathS))
+      .map((pathS: string) => path.join(locale, pathS))
   }
 
 const compressPipeline = (
@@ -120,7 +127,7 @@ const compressPipeline = (
           ),
         )
       }
-      return compress(paths)(tarballFilepath)
+      return compress(paths, releaseDirPath, releaseName)(tarballFilepath)
     }),
     TE.map(({ tarballFilepath }) => tarballFilepath),
   )
