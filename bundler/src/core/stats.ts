@@ -18,6 +18,7 @@ import { CLIPS_TSV_ROW } from './clips'
 import { AppEnv } from '../types'
 import { uploadToBucket } from '../infrastructure/storage'
 import { getDatasetBundlerBucketName } from '../config/config'
+import { sanitizeLicenseName } from './compress'
 
 type Stats = {
   locales: Locales
@@ -324,6 +325,7 @@ export const statsPipeline = (
   tarFilepath: string,
   releaseDirPath: string,
   releaseName: string,
+  license?: string,
 ) =>
   pipe(
     TE.Do,
@@ -338,11 +340,14 @@ export const statsPipeline = (
     ),
     TE.map(calculateDurations(locale)(totalDurationInMs)),
     TE.bindTo('stats'),
-    TE.chainFirst(({ stats }) =>
-      uploadToBucket(getDatasetBundlerBucketName())(
-        `${releaseName}/stats/stats_${locale}.json`,
-      )(Buffer.from(JSON.stringify(stats))),
-    ),
+    TE.chainFirst(({ stats }) => {
+      const statsFilename = license
+        ? `stats_${locale}_${sanitizeLicenseName(license)}.json`
+        : `stats_${locale}.json`
+      return uploadToBucket(getDatasetBundlerBucketName())(
+        `${releaseName}/stats/${statsFilename}`,
+      )(Buffer.from(JSON.stringify(stats)))
+    }),
     TE.map(({ stats }) => stats),
   )
 
@@ -352,13 +357,14 @@ export const runStats = (
 ): RTE.ReaderTaskEither<AppEnv, Error, Stats> =>
   pipe(
     RTE.ask<AppEnv>(),
-    RTE.chainTaskEitherK(({ locale, releaseDirPath, releaseName }) =>
+    RTE.chainTaskEitherK(({ locale, releaseDirPath, releaseName, license }) =>
       statsPipeline(
         locale,
         totalDurationInMs,
         tarFilepath,
         releaseDirPath,
         releaseName,
+        license,
       ),
     ),
   )
