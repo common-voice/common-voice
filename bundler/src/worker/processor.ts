@@ -52,18 +52,24 @@ export const processLocale = async (job: Job<ProcessLocaleJob>) => {
   // Each license gets its own subdirectory so concurrent jobs for different
   // licenses on the same locale don't collide on the filesystem.
   const effectiveReleaseName = license ? `${releaseName}-licensed` : releaseName
-  const effectivePreviousReleaseName = previousReleaseName
-    ? license
-      ? `${previousReleaseName}-licensed`
-      : previousReleaseName
-    : undefined
 
-  // For full releases, derive the delta name from the base release name using
-  // the fixed convention "${releaseName}-delta". The delta release must have
-  // been run separately beforehand with that exact releaseName. Apply the same
-  // "-licensed" suffix as the full release so licensed delta tarballs are found
-  // at the correct GCS path. If no delta tarball exists for a locale the
-  // pipeline falls back to individual GCS clip downloads automatically.
+  // Both previousReleaseName and deltaReleaseName only apply to full releases.
+  // Delta releases are defined purely by their from/until time window — they
+  // contain only new clips and do not merge from any prior release.
+  // If no tarball exists in GCS for a given locale (e.g. brand-new locale,
+  // or delta not run yet), the per-locale GCS exists-check inside each
+  // download function handles the no-op gracefully.
+  const effectivePreviousReleaseName =
+    job.data.type === 'full' && previousReleaseName
+      ? license
+        ? `${previousReleaseName}-licensed`
+        : previousReleaseName
+      : undefined
+
+  // Derived from releaseName using the fixed convention "${releaseName}-delta"
+  // (or "-delta-licensed" for licensed jobs). The delta release must have been
+  // run beforehand with that exact name. If the delta tarball is absent for a
+  // locale the pipeline falls back to individual GCS clip downloads.
   const effectiveDeltaReleaseName =
     job.data.type === 'full'
       ? license
