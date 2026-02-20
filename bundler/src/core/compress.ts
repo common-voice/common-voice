@@ -65,7 +65,6 @@ const pathsFilter =
 const getPathsToAddToTarball =
   (
     locale: string,
-    releaseName: string,
     releaseDirPath: string,
     releaseType: string,
   ): IO.IO<string[]> =>
@@ -82,10 +81,13 @@ const getPathsToAddToTarball =
       logger.warn('COMPRESS', `Directory for tarball does not exist or is empty: ${dir}`)
       return []
     }
+    // Use the relative path from tmpDir so that licensed releases correctly
+    // include the license subdirectory (e.g. "releaseName-licensed/CC1/locale/")
+    const relativeBase = path.relative(getTmpDir(), releaseDirPath)
     const filterFilesForRelease = pathsFilter(releaseType)
     return paths
       .filter(filterFilesForRelease)
-      .map((pathS: string) => path.join(releaseName, locale, pathS))
+      .map((pathS: string) => path.join(relativeBase, locale, pathS))
   }
 
 const compressPipeline = (
@@ -107,7 +109,7 @@ const compressPipeline = (
     ),
     TE.let(
       'paths',
-      getPathsToAddToTarball(locale, releaseName, releaseDirPath, releaseType),
+      getPathsToAddToTarball(locale, releaseDirPath, releaseType),
     ),
     TE.chainFirst(() => TE.fromIO(prepareDir(releaseTarballDir))),
     TE.chainFirst(({ tarballFilepath, paths }) => {
