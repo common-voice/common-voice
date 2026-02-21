@@ -21,13 +21,14 @@ import {
   getMetadataFromFile,
   streamDownloadFileFromBucket,
 } from '../infrastructure/storage'
-import { AppEnv, ClipRow } from '../types'
+import { AppEnv, ClipRow, ProblemClip, ProblemClipReason } from '../types'
 import { hashClientId } from './clients'
 import {
   getClipsBucketName,
   getDatasetBundlerBucketName,
   getQueriesDir,
   getTmpDir,
+  MIN_AUDIO_SIZE_BYTES,
 } from '../config/config'
 import { prepareDir, rmFilepath } from '../infrastructure/filesystem'
 import { generateTarFilename } from './compress'
@@ -269,6 +270,7 @@ const fetchAllClipsForLocale = (
   tmpClipsFilepath: string,
   locale: string,
   releaseDirPath: string,
+  problemClips: ProblemClip[],
 ): TE.TaskEither<Error, void> =>
   TE.tryCatch(async () => {
     logger.info('CLIPS-DOWNLOAD', `[${locale}] Fetching missing clips from GCS`)
@@ -304,7 +306,14 @@ const fetchAllClipsForLocale = (
         TE.getOrElse(() => T.of(0)),
       )()
 
-      if (fileSize <= 256) {
+      if (fileSize <= MIN_AUDIO_SIZE_BYTES) {
+        problemClips.push({
+          path: clipFilename,
+          locale,
+          reason: ProblemClipReason.TOO_SMALL,
+          status: 'EXCLUDED',
+          timestamp: new Date().toISOString(),
+        })
         continue
       }
 
@@ -313,7 +322,17 @@ const fetchAllClipsForLocale = (
       if (E.isRight(buffer)) {
         fs.writeFileSync(clipFilepath, buffer.right)
       } else {
-        Promise.reject(buffer.left)
+        logger.warn(
+          'CLIPS-DOWNLOAD',
+          `[${locale}] Failed to download ${clipFilename}: ${buffer.left.message}`,
+        )
+        problemClips.push({
+          path: clipFilename,
+          locale,
+          reason: ProblemClipReason.FAILED_DOWNLOAD,
+          status: 'EXCLUDED',
+          timestamp: new Date().toISOString(),
+        })
       }
     }
 
@@ -452,6 +471,7 @@ export const fetchAllClipsPipeline = (
   isMinorityLanguage: boolean,
   clipsDirPath: string,
   releaseDirPath: string,
+  problemClips: ProblemClip[],
   license?: string,
   previousReleaseName?: string,
   deltaReleaseName?: string,
@@ -507,7 +527,7 @@ export const fetchAllClipsPipeline = (
     //     fetchAllClipsForLocale skips files that already exist, so this is a
     //     true fallback and a no-op for clips covered by the delta path.
     TE.chainFirst(({ clipsTmpPath }) =>
-      fetchAllClipsForLocale(clipsTmpPath, locale, releaseDirPath),
+      fetchAllClipsForLocale(clipsTmpPath, locale, releaseDirPath, problemClips),
     ),
     TE.chainFirst(({ clipsTmpPath }) =>
       createClipsTsv(clipsTmpPath, locale, isMinorityLanguage, releaseDirPath),
@@ -534,6 +554,7 @@ export const runFetchAllClipsForLocale = (
         previousReleaseName,
         deltaReleaseName,
         license,
+        problemClips,
       }) =>
         fetchAllClipsPipeline(
           locale,
@@ -542,6 +563,7 @@ export const runFetchAllClipsForLocale = (
           isMinorityLanguage,
           clipsDirPath,
           releaseDirPath,
+          problemClips,
           license,
           previousReleaseName,
           deltaReleaseName,
