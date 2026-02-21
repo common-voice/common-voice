@@ -5,6 +5,7 @@ how-does-it-work-text = نستعينُ بالغير لصنع مجموعة بيا
 
 ## How does it work section
 
+about-language-req-subtitle = يطلب أحدهم إضافة لغة.
 about-speak = تحدّث
 about-speak-text = يسجّل المشاركون مقاطع صوتية بقراءتها من مخزن جمل متبرّع بها.
 about-listen-queue = طابور الاستماع
