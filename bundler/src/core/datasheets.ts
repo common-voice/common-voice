@@ -308,13 +308,21 @@ export const fillTemplate = (
 
 const uploadToDatasetBucket = uploadToBucket(getDatasetBundlerBucketName())
 
+/**
+ * Derives a version tag from the release name for use in GCS filenames.
+ * 'cv-corpus-25.0-2026-03-06'       => 'v25.0-2026-03-06'
+ * 'cv-corpus-25.0-delta-2026-03-06' => 'v25.0-delta-2026-03-06'
+ * 'cv-corpus-25.0-2026-03-06-licensed' => 'v25.0-2026-03-06-licensed'
+ */
+const releaseVersionTag = (releaseName: string): string =>
+  releaseName.replace(/^cv-corpus-/, 'v')
+
 const datasheetPipeline = (
   locale: string,
   releaseName: string,
   releaseDirPath: string,
   totalDurationInMs: number,
   payload: DatasheetLocalePayload,
-  modality: string,
   license?: string,
 ): TE.TaskEither<Error, string> => {
   logger.info('DATASHEETS', `[${locale}] Generating datasheet`)
@@ -335,31 +343,27 @@ const datasheetPipeline = (
     TE.let('rendered', ({ replacements }) =>
       fillTemplate(payload.template, replacements),
     ),
-    // 4. Write datasheet.md into locale directory (will be included in tar)
+    // 4. Write README.md into locale directory (will be included in tar)
     TE.chainFirst(({ rendered }) =>
       TE.tryCatch(
         async () => {
-          const datasheetPath = path.join(
-            releaseDirPath,
-            locale,
-            'datasheet.md',
-          )
-          fs.writeFileSync(datasheetPath, rendered, 'utf-8')
+          const readmePath = path.join(releaseDirPath, locale, 'README.md')
+          fs.writeFileSync(readmePath, rendered, 'utf-8')
           logger.info(
             'DATASHEETS',
-            `[${locale}] Wrote datasheet.md (${rendered.length} bytes)`,
+            `[${locale}] Wrote README.md (${rendered.length} bytes)`,
           )
         },
         reason => Error(String(reason)),
       ),
     ),
-    // 5. Upload rendered datasheet to GCS under /datasheets/
+    // 5. Upload to GCS under <release>/datasheets/ with a versioned filename
     TE.chainFirst(({ rendered }) => {
-      const templateLang = payload.metadata.template_language ?? 'en'
+      const versionTag = releaseVersionTag(releaseName)
       const filename = license
-        ? `${locale}-${sanitizeLicenseName(license)}.md`
-        : `${locale}.md`
-      const uploadPath = `${releaseName}/datasheets/${modality}/${templateLang}/${filename}`
+        ? `datasheet-${versionTag}-${locale}-${sanitizeLicenseName(license)}.md`
+        : `datasheet-${versionTag}-${locale}.md`
+      const uploadPath = `${releaseName}/datasheets/${filename}`
       return uploadToDatasetBucket(uploadPath)(Buffer.from(rendered, 'utf-8'))
     }),
     TE.map(({ rendered }) => rendered),
@@ -376,7 +380,14 @@ export const runGenerateDatasheet = (
   pipe(
     RTE.ask<AppEnv>(),
     RTE.chainTaskEitherK(
-      ({ locale, releaseName, releaseDirPath, datasheetPayload, license, modality }) => {
+      ({ locale, releaseName, releaseDirPath, datasheetPayload, license, type }) => {
+        if (type !== 'full') {
+          logger.debug(
+            'DATASHEETS',
+            `[${locale}] Skipping datasheets for ${type} release`,
+          )
+          return TE.right(undefined)
+        }
         if (!datasheetPayload) {
           logger.debug(
             'DATASHEETS',
@@ -391,7 +402,6 @@ export const runGenerateDatasheet = (
             releaseDirPath,
             totalDurationInMs,
             datasheetPayload,
-            modality ?? 'scripted',
             license,
           ),
           TE.map(() => undefined),

@@ -243,7 +243,7 @@ describeE2E('Datasheet e2e generation', () => {
 
       // Write for manual inspection
       fs.writeFileSync(
-        path.join(tmpDir, locale, 'datasheet.md'),
+        path.join(tmpDir, locale, 'README.md'),
         rendered,
         'utf-8',
       )
