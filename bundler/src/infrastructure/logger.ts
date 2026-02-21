@@ -6,6 +6,7 @@ const LEVEL_RANK: Record<LogLevel, number> = {
   info: 1,
   warn: 2,
   error: 3,
+  silent: 4,
 }
 
 // Last 5 characters of the hostname --matches the pod suffix in GCP

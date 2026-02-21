@@ -25,7 +25,7 @@ export enum TimeUnitsSec {
   WEEK = 604_800,
 }
 
-export type LogLevel = 'debug' | 'info' | 'warn' | 'error'
+export type LogLevel = 'debug' | 'info' | 'warn' | 'error' | 'silent'
 
 export type DbConfig = {
   host: string
@@ -112,7 +112,7 @@ const resolveLogLevel = (env: string): LogLevel => {
   // LOG_LEVEL is optional -- no deployment config changes needed.
   // Falls back to environment-based defaults derived from the existing ENVIRONMENT var.
   const explicit = process.env.LOG_LEVEL as LogLevel | undefined
-  if (explicit && ['debug', 'info', 'warn', 'error'].includes(explicit)) {
+  if (explicit && ['debug', 'info', 'warn', 'error', 'silent'].includes(explicit)) {
     return explicit
   }
   // sandbox / staging / stage default to debug; production and local default to info

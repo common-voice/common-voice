@@ -1,3 +1,5 @@
+process.env.LOG_LEVEL ??= 'silent'
+
 module.exports = {
   testEnvironment: 'node',
   testPathIgnorePatterns: ['<rootDir>/js'],
