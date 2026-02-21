@@ -6,9 +6,10 @@ import {
   fetchLocalesWithLicensedClips,
 } from '../core/locales'
 import { DatasheetLocalePayload, ProcessLocaleJob, Settings } from '../types'
-import { getRedisUrl } from '../config/config'
+import { getRedisUrl, RELEASE_LOG_KEY_TTL_SEC, redisKeys } from '../config/config'
 import { logger } from './logger'
 import { fetchDatasheetsPayloads } from './datasheetsFetcher'
+import { redisClient } from './redis'
 
 const datasetReleaseQueue = new Queue('datasetRelease', {
   connection: {
@@ -169,6 +170,37 @@ export const addJobsToReleaseQueue = (settings: Settings) =>
         )
       }
     }),
+    // Accumulate locale totals in Redis before jobs are enqueued.
+    // Using INCRBY (not SET) so multiple batches for the same release
+    // accumulate correctly — `count == total` fires only when ALL batches
+    // across ALL runs are done. Lists are never deleted: they grow across
+    // batches and are cleaned up by the 7-day TTL.
+    TE.chainFirst(({ jobs }) =>
+      TE.tryCatch(async () => {
+        // Group job count by effective release name (license → "-licensed" suffix).
+        const totals = new Map<string, number>()
+        for (const job of jobs) {
+          const name = job.license
+            ? `${settings.releaseName}-licensed`
+            : settings.releaseName
+          totals.set(name, (totals.get(name) ?? 0) + 1)
+        }
+        for (const [name, batchCount] of totals) {
+          // Accumulate total across batches (atomic INCRBY).
+          await redisClient.incrby(redisKeys.localeTotal(name), batchCount)
+          await redisClient.expire(redisKeys.localeTotal(name), RELEASE_LOG_KEY_TTL_SEC)
+          // Refresh TTLs on accumulator keys if they already exist.
+          await redisClient.expire(redisKeys.localeCount(name), RELEASE_LOG_KEY_TTL_SEC)
+          await redisClient.expire(redisKeys.problemClips(name), RELEASE_LOG_KEY_TTL_SEC)
+          await redisClient.expire(redisKeys.processLog(name), RELEASE_LOG_KEY_TTL_SEC)
+          await redisClient.expire(redisKeys.done(name), RELEASE_LOG_KEY_TTL_SEC)
+          logger.info(
+            'QUEUE',
+            `Release "${name}": +${batchCount} locale(s) scheduled`,
+          )
+        }
+      }, err => Error(String(err))),
+    ),
     TE.map(({ jobs }) =>
       jobs.map(job => {
         switch (settings.type) {
