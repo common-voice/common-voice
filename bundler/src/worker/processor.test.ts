@@ -121,6 +121,26 @@ describe('deriveJobEnv', () => {
     })
   })
 
+  describe('accumulator fields', () => {
+    it('initialises problemClips as an empty array', () => {
+      const env = deriveJobEnv(baseJob, TMP_DIR)
+      expect(env.problemClips).toEqual([])
+    })
+
+    it('initialises clipCount to 0', () => {
+      const env = deriveJobEnv(baseJob, TMP_DIR)
+      expect(env.clipCount).toBe(0)
+    })
+
+    it('initialises startTimestamp as an ISO 8601 string within the current second', () => {
+      const before = new Date().toISOString()
+      const env = deriveJobEnv(baseJob, TMP_DIR)
+      const after = new Date().toISOString()
+      expect(env.startTimestamp >= before).toBe(true)
+      expect(env.startTimestamp <= after).toBe(true)
+    })
+  })
+
   describe('passthrough fields', () => {
     it('preserves locale, from, until, type from job data', () => {
       const env = deriveJobEnv(baseJob, TMP_DIR)

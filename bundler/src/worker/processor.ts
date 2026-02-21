@@ -1,8 +1,9 @@
 import * as path from 'node:path'
 
+import { either as E, task as T, taskEither as TE } from 'fp-ts'
 import { Job } from 'bullmq'
-import { readerTaskEither as RTE, task as T, taskEither as TE } from 'fp-ts'
-import { constVoid, pipe } from 'fp-ts/lib/function'
+import { pipe } from 'fp-ts/lib/function'
+import { readerTaskEither as RTE } from 'fp-ts'
 import { logger } from '../infrastructure/logger'
 
 import { runFetchAllClipsForLocale } from '../core/clips'
@@ -21,17 +22,29 @@ import { runUpload } from '../core/upload'
 import { runCleanUp } from '../core/cleanUp'
 import { runCompressAndUploadMetadata } from '../core/metadata'
 import { runGenerateDatasheet } from '../core/datasheets'
+import { runFilterProblemClips, runPushProblemClips } from '../core/problemClips'
+import { flushReleaseLogs } from '../core/releaseLogger'
 import { doesFileExistInBucket } from '../infrastructure/storage'
-import { getDatasetBundlerBucketName, getTmpDir } from '../config/config'
+import { redisClient } from '../infrastructure/redis'
+import {
+  getDatasetBundlerBucketName,
+  getTmpDir,
+  RELEASE_LOG_KEY_TTL_SEC,
+  redisKeys,
+} from '../config/config'
 import { runFetchSentencesForLocale } from '../core/sentences'
 
+// Pipeline steps — no match at the end so processLocale can inspect the Either result.
 const processPipeline = pipe(
   RTE.Do,
   RTE.bind('isMinorityLanguage', isMinorityLanguage),
   RTE.bind('prevReleaseName', ({ isMinorityLanguage }) =>
     runFetchAllClipsForLocale(isMinorityLanguage),
   ),
-  RTE.bind('totalDurationInMs', runMp3DurationReporter),
+  RTE.bind('rawDurationInMs', runMp3DurationReporter),
+  RTE.bind('totalDurationInMs', ({ rawDurationInMs }) =>
+    runFilterProblemClips(rawDurationInMs),
+  ),
   RTE.chainFirst(runCorporaCreator),
   RTE.chainFirst(runReportedSentences),
   RTE.chainFirst(runFetchSentencesForLocale),
@@ -44,11 +57,13 @@ const processPipeline = pipe(
   RTE.bind('stats', ({ totalDurationInMs, tarFilepath }) =>
     runStats(totalDurationInMs, tarFilepath),
   ),
-  RTE.chainFirst(({ tarFilepath }) => runCleanUp(tarFilepath)),
-  RTE.match(
-    err => logger.error('PROCESSOR', String(err)),
-    () => constVoid(),
+  RTE.chainFirstW(({ stats }) =>
+    RTE.asks<AppEnv, void>(env => {
+      env.clipCount = stats.locales[env.locale]?.clips ?? 0
+    }),
   ),
+  RTE.chainFirst(({ tarFilepath }) => runCleanUp(tarFilepath)),
+  RTE.chainFirst(runPushProblemClips),
 )
 
 /**
@@ -102,6 +117,9 @@ export const deriveJobEnv = (
     releaseDirPath,
     releaseTarballsDirPath: path.join(releaseDirPath, 'tarballs'),
     clipsDirPath: path.join(releaseDirPath, locale, 'clips'),
+    problemClips: [],
+    clipCount: 0,
+    startTimestamp: new Date().toISOString(),
   }
 }
 
@@ -117,10 +135,29 @@ export const processLocale = async (job: Job<ProcessLocaleJob>) => {
     TE.getOrElse(() => T.of(false)),
   )()
 
-  if (releaseExistsAlready) {
+  // Fast-path duplicate check via Redis SET (in-memory, ~1 ms).
+  // Falls through to the authoritative GCS check if Redis has no record.
+  const isDoneInRedis =
+    (await redisClient.sismember(redisKeys.done(releaseName), locale)) > 0
+
+  if (isDoneInRedis || releaseExistsAlready) {
+    if (!isDoneInRedis) {
+      // GCS says done but Redis doesn't know yet — backfill the SET so future
+      // checks skip the GCS round-trip.
+      await redisClient.sadd(redisKeys.done(releaseName), locale)
+      await redisClient.expire(redisKeys.done(releaseName), RELEASE_LOG_KEY_TTL_SEC)
+    }
     logger.info('PROCESSOR', `[${locale}] Release ${releaseTarballName} exists already, skipping`)
+    await flushReleaseLogs(env, 'skipped')
     return
-  } else {
-    await processPipeline(env)()
   }
+
+  const result = await processPipeline(env)()
+  if (E.isRight(result)) {
+    await redisClient.sadd(redisKeys.done(releaseName), locale)
+    await redisClient.expire(redisKeys.done(releaseName), RELEASE_LOG_KEY_TTL_SEC)
+  } else {
+    logger.error('PROCESSOR', String(result.left))
+  }
+  await flushReleaseLogs(env, E.isRight(result) ? 'success' : 'error')
 }
