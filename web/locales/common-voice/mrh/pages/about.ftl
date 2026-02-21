@@ -36,3 +36,5 @@ about-yes-votes-text = Common Voice dataset lâta palei awpa ta ao clip sâ kha 
 about-no-votes = ≥ 2 Apy leipa vawzy
 about-no-votes-text = Hmâhtuhpa mo pakha tawhta ao clip kha â py vei pata nata paziahna lâ a vawh ha heih aw. Abeilâ ta a ei no na ta dythapa a châ khiah, thlâ su lâ paly awpa a châ.
 about-dataset-new = Common Voice Dataset
+about-dataset-new-text = Common Voice Dataset liana heta pamosana ao hluhpi y ta, cha chata developers-zy bao ta ao pahnona chhaichhi ama tao tita a bao.
+about-clip-graveyard = Clip Thyna
