@@ -8,7 +8,7 @@ const LEVEL_RANK: Record<LogLevel, number> = {
   error: 3,
 }
 
-// Last 5 characters of the hostname — matches the pod suffix in GCP
+// Last 5 characters of the hostname --matches the pod suffix in GCP
 // (e.g. "q2tjm" from "gha-bundler-...-q2tjm") and gives a short server
 // identifier in local dev environments.
 const SRV_ID = os.hostname().slice(-5)

@@ -19,6 +19,7 @@ import { AppEnv } from '../types'
 import { uploadToBucket } from '../infrastructure/storage'
 import { getDatasetBundlerBucketName } from '../config/config'
 import { sanitizeLicenseName } from './compress'
+import { unitToHours } from './utils'
 
 type Stats = {
   locales: Locales
@@ -273,31 +274,6 @@ const extractStatsFromClipsFile = (locale: string, releaseDirPath: string) =>
     reason => Error(String(reason)),
   )
 
-export const unitToHours = (
-  duration: number,
-  unit: 'ms' | 's' | 'min',
-  sigDig: number,
-) => {
-  let perHr = 1
-  const sigDigMultiplier = 10 ** sigDig
-
-  switch (unit) {
-    case 'ms':
-      perHr = 60 * 60 * 1000
-      break
-    case 's':
-      perHr = 60 * 60
-      break
-    case 'min':
-      perHr = 60
-      break
-    default:
-      perHr = 1
-      break
-  }
-
-  return Math.floor((duration / perHr) * sigDigMultiplier) / sigDigMultiplier
-}
 const calculateDurations =
   (locale: string) =>
   (totalDurationInMs: number) =>

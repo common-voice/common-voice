@@ -20,6 +20,7 @@ import { runReportedSentences } from '../core/reportedSentences'
 import { runUpload } from '../core/upload'
 import { runCleanUp } from '../core/cleanUp'
 import { runCompressAndUploadMetadata } from '../core/metadata'
+import { runGenerateDatasheet } from '../core/datasheets'
 import { doesFileExistInBucket } from '../infrastructure/storage'
 import { getDatasetBundlerBucketName, getTmpDir } from '../config/config'
 import { runFetchSentencesForLocale } from '../core/sentences'
@@ -34,6 +35,9 @@ const processPipeline = pipe(
   RTE.chainFirst(runCorporaCreator),
   RTE.chainFirst(runReportedSentences),
   RTE.chainFirst(runFetchSentencesForLocale),
+  RTE.chainFirst(({ totalDurationInMs }) =>
+    runGenerateDatasheet(totalDurationInMs),
+  ),
   RTE.bind('tarFilepath', runCompress),
   RTE.bind('uploadPath', ({ tarFilepath }) => runUpload(tarFilepath)),
   RTE.chainFirst(runCompressAndUploadMetadata),
@@ -49,7 +53,7 @@ const processPipeline = pipe(
 
 /**
  * Derives effective release names, directory paths, and AppEnv from raw job
- * parameters. Pure function (aside from getTmpDir()) — extracted so the
+ * parameters. Pure function (aside from getTmpDir()) --extracted so the
  * naming logic is unit-testable independently of BullMQ and GCS.
  */
 export const deriveJobEnv = (
@@ -66,7 +70,7 @@ export const deriveJobEnv = (
     : releaseName
 
   // Both previousReleaseName and deltaReleaseName only apply to full releases.
-  // Delta releases are defined purely by their from/until time window — they
+  // Delta releases are defined purely by their from/until time window --they
   // contain only new clips and do not merge from any prior release.
   const effectivePreviousReleaseName =
     type === 'full' && previousReleaseName

@@ -244,7 +244,7 @@ const mergeClipsFromLocalSources = (
         }
       }
 
-      // Not found locally — fetchAllClipsForLocale will download from GCS.
+      // Not found locally --fetchAllClipsForLocale will download from GCS.
       missing++
     }
 
@@ -398,7 +398,7 @@ const extractClipsFromPreviousRelease = (
 
 /**
  * Downloads a delta tarball from GCS and extracts it into the tmp directory.
- * A no-op (not an error) if the tarball does not exist — the caller falls back
+ * A no-op (not an error) if the tarball does not exist --the caller falls back
  * to individual GCS clip downloads via fetchAllClipsForLocale.
  */
 const downloadAndExtractDeltaRelease = (
@@ -420,7 +420,7 @@ const downloadAndExtractDeltaRelease = (
       if (!exists) {
         logger.info(
           'DELTA-DOWNLOAD',
-          `${storagePath} not found — GCS fallback applies`,
+          `${storagePath} not found --GCS fallback applies`,
         )
         return TE.right(constVoid())
       }
@@ -502,8 +502,8 @@ export const fetchAllClipsPipeline = (
         deltaReleaseName,
       ),
     ),
-    // 4b. Download any clip still absent from disk — those not found in either
-    //     local source — individually from GCS (~15 clips/sec).
+    // 4b. Download any clip still absent from disk --those not found in either
+    //     local source --individually from GCS (~15 clips/sec).
     //     fetchAllClipsForLocale skips files that already exist, so this is a
     //     true fallback and a no-op for clips covered by the delta path.
     TE.chainFirst(({ clipsTmpPath }) =>

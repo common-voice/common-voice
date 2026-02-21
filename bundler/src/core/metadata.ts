@@ -30,7 +30,7 @@ export const generateMetadataTarFilename = (
 
 /**
  * Returns all regular files at the root of the locale directory.
- * Directories (e.g. clips/) are excluded — only text/metadata files
+ * Directories (e.g. clips/) are excluded --only text/metadata files
  * like TSV, CSV, MD, etc. are included.
  */
 export const getMetadataFiles = (
@@ -91,7 +91,7 @@ const metadataPipeline = (
       const uploadPath = `${releaseName}/metadata/${filename}`
       return uploadToDatasetBucket(uploadPath)(fs.createReadStream(filepath))
     }),
-    // Remove the local metadata tarball — the main tarball is cleaned up
+    // Remove the local metadata tarball --the main tarball is cleaned up
     // separately by runCleanUp, but this file is only needed for upload.
     TE.chainFirst(({ filepath }) =>
       TE.tryCatch(

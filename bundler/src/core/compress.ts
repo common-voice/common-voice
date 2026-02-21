@@ -89,7 +89,7 @@ const getPathsToAddToTarball =
     }
     // Paths are relative to releaseDirPath (used as tar cwd).
     // The tar prefix option prepends releaseName, so the archive entry
-    // becomes: releaseName/locale/file — flat regardless of whether the
+    // becomes: releaseName/locale/file --flat regardless of whether the
     // working directory includes a license subdirectory like CC1/.
     const filterFilesForRelease = pathsFilter(releaseType)
     return paths

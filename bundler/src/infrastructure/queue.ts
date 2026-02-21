@@ -5,9 +5,10 @@ import {
   fetchLocalesWithClips,
   fetchLocalesWithLicensedClips,
 } from '../core/locales'
-import { ProcessLocaleJob, Settings } from '../types'
+import { DatasheetLocalePayload, ProcessLocaleJob, Settings } from '../types'
 import { getRedisUrl } from '../config/config'
 import { logger } from './logger'
+import { fetchDatasheetsPayloads } from './datasheetsFetcher'
 
 const datasetReleaseQueue = new Queue('datasetRelease', {
   connection: {
@@ -33,10 +34,27 @@ const addProcessLocaleJob = addJob(datasetReleaseQueue)('processLocale')
 const addGenerateStatisticsJob =
   addJob(datasetReleaseQueue)('generateStatistics')
 
+const attachDatasheetPayload = (
+  job: ProcessLocaleJob,
+  payloads: Map<string, DatasheetLocalePayload>,
+): ProcessLocaleJob => {
+  const payload = payloads.get(job.locale)
+  if (payload) return { ...job, datasheetPayload: payload }
+  return job
+}
+
 export const addJobsToReleaseQueue = (settings: Settings) =>
   pipe(
     TE.Do,
-    TE.bind('jobs', () => {
+    // Fetch datasheets.json once before dispatching locale jobs.
+    // Non-blocking: an empty map means no datasheets will be generated.
+    TE.bind('datasheetPayloads', () =>
+      fetchDatasheetsPayloads(
+        settings.modality ?? 'scripted',
+        settings.datasheetsFile,
+      ),
+    ),
+    TE.bind('jobs', ({ datasheetPayloads }) => {
       const licenseMode = settings.licenseMode || 'unlicensed'
 
       if (
@@ -69,11 +87,12 @@ export const addJobsToReleaseQueue = (settings: Settings) =>
               `${filtered.length} locale-license combinations scheduled (licensed only): ${filtered.map(l => `${l.name} (${l.license})`).join(', ')}`,
             )
 
-            return filtered.map(({ name, license }) => ({
-              locale: name,
-              license,
-              ...settings,
-            }))
+            return filtered.map(({ name, license }) =>
+              attachDatasheetPayload(
+                { locale: name, license, ...settings },
+                datasheetPayloads,
+              ),
+            )
           }),
         )
       } else if (licenseMode === 'both') {
@@ -95,11 +114,12 @@ export const addJobsToReleaseQueue = (settings: Settings) =>
 
             // Add unlicensed jobs for all locales
             allLocales.forEach(locale => {
-              jobs.push({
-                locale: locale.name,
-                license: undefined, // undefined means unlicensed
-                ...settings,
-              })
+              jobs.push(
+                attachDatasheetPayload(
+                  { locale: locale.name, license: undefined, ...settings },
+                  datasheetPayloads,
+                ),
+              )
             })
 
             // Add licensed jobs
@@ -111,11 +131,12 @@ export const addJobsToReleaseQueue = (settings: Settings) =>
                 : licensedLocales
 
             filteredLicensed.forEach(({ name, license }) => {
-              jobs.push({
-                locale: name,
-                license,
-                ...settings,
-              })
+              jobs.push(
+                attachDatasheetPayload(
+                  { locale: name, license, ...settings },
+                  datasheetPayloads,
+                ),
+              )
             })
 
             logger.info(
@@ -138,11 +159,12 @@ export const addJobsToReleaseQueue = (settings: Settings) =>
               `${locales.length} locales scheduled (unlicensed only): ${locales.map(l => l.name).join(', ')}`,
             )
 
-            return locales.map(locale => ({
-              locale: locale.name,
-              license: undefined, // undefined means unlicensed
-              ...settings,
-            }))
+            return locales.map(locale =>
+              attachDatasheetPayload(
+                { locale: locale.name, license: undefined, ...settings },
+                datasheetPayloads,
+              ),
+            )
           }),
         )
       }
