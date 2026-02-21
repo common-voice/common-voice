@@ -50,3 +50,8 @@ about-get-involved-text-2 =
     <githubLink>GitHub</githubLink> lâta vaw tly la, chata leipa ta
     <matrixLink>Matrix</matrixLink> community chat liana chhao maniah vaw hlao teh.
 about-stay-in-touch = Kheihta e eimâ zao parei thei aw?
+about-stay-in-touch-button = mohsaih athu
+
+## How is Common Voice funded
+
+about-playbook-how-funded-content-3 = Nâma tlyma nâmo phupy ta he parawche liana heta na thapasa khoh khiahtala, <donateLink>thyuna</donateLink> na tao thei, chvk eima partnerships team-zy he <emailFragment>commonvoice@mozilla.com</emailFragment> liana heta nâ vaw chho thei hra.
