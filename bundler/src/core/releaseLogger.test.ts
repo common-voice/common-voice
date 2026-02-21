@@ -1,11 +1,11 @@
 import * as path from 'node:path'
 
 // mock-prefixed variables are accessible inside jest.mock factory (Jest hoisting exception).
-const mockRpush  = jest.fn(async () => 1)
-const mockExpire = jest.fn(async () => 1)
-const mockIncr   = jest.fn(async () => 1)
-const mockGet    = jest.fn(async () => null as string | null)
-const mockLrange = jest.fn(async () => [] as string[])
+const mockRpush  = jest.fn(async (_key: string, ..._vals: string[]) => 1)
+const mockExpire = jest.fn(async (_key: string, _ttl: number) => 1)
+const mockIncr   = jest.fn(async (_key: string) => 1)
+const mockGet    = jest.fn(async (_key: string) => null as string | null)
+const mockLrange = jest.fn(async (_key: string, _start: number, _stop: number) => [] as string[])
 
 jest.mock('../infrastructure/redis', () => ({
   redisClient: {
@@ -19,7 +19,7 @@ jest.mock('../infrastructure/redis', () => ({
 
 // Upload chain: uploadToBucket(bucket)(path)(buffer) — mockUploadFn receives the Buffer
 const mockUploadTE = jest.fn(async () => ({ _tag: 'Right' as const, right: undefined }))
-const mockUploadFn = jest.fn(() => mockUploadTE)
+const mockUploadFn = jest.fn((_buf: Buffer) => mockUploadTE)
 
 jest.mock('../infrastructure/storage', () => ({
   uploadToBucket: jest.fn(() => jest.fn(() => mockUploadFn)),

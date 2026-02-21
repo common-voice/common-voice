@@ -4,8 +4,8 @@ import * as path from 'node:path'
 
 // mock-prefixed variables are accessible inside jest.mock factory (Jest hoisting exception).
 // Captures what was RPUSHed to any Redis key.
-const mockRpush = jest.fn(async () => 1)
-const mockExpire = jest.fn(async () => 1)
+const mockRpush = jest.fn(async (_key: string, ..._vals: string[]) => 1)
+const mockExpire = jest.fn(async (_key: string, _ttl: number) => 1)
 
 jest.mock('../infrastructure/redis', () => ({
   redisClient: { rpush: mockRpush, expire: mockExpire },
