@@ -1,5 +1,7 @@
 import * as fs from 'node:fs'
 
+import { TimeUnitsMs, TimeUnitsSec } from '../config/config'
+
 // -- Filesystem --------------------------------------------------------------
 
 /**
@@ -31,13 +33,13 @@ export const unitToHours = (
 
   switch (unit) {
     case 'ms':
-      perHr = 60 * 60 * 1000
+      perHr = TimeUnitsMs.HOUR
       break
     case 's':
-      perHr = 60 * 60
+      perHr = TimeUnitsSec.HOUR
       break
     case 'min':
-      perHr = 60
+      perHr = TimeUnitsSec.MINUTE
       break
     default:
       perHr = 1
@@ -45,4 +47,16 @@ export const unitToHours = (
   }
 
   return Math.floor((duration / perHr) * sigDigMultiplier) / sigDigMultiplier
+}
+
+// -- Duration formatting -----------------------------------------------------
+// Formats a duration in milliseconds as a `dd:hh:mm:ss` string.
+
+export const formatDuration = (durationMs: number): string => {
+  const totalSec = Math.max(0, Math.floor(durationMs / TimeUnitsMs.SECOND))
+  const dd = Math.floor(totalSec / TimeUnitsSec.DAY)
+  const hh = Math.floor((totalSec % TimeUnitsSec.DAY) / TimeUnitsSec.HOUR)
+  const mm = Math.floor((totalSec % TimeUnitsSec.HOUR) / TimeUnitsSec.MINUTE)
+  const ss = totalSec % TimeUnitsSec.MINUTE
+  return [dd, hh, mm, ss].map(n => String(n).padStart(2, '0')).join(':')
 }

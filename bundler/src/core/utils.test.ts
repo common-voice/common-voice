@@ -2,7 +2,7 @@ import * as fs from 'node:fs'
 import * as os from 'node:os'
 import * as path from 'node:path'
 
-import { countLinesInFile, unitToHours } from './utils'
+import { countLinesInFile, formatDuration, unitToHours } from './utils'
 
 // ---------------------------------------------------------------------------
 // countLinesInFile
@@ -99,5 +99,41 @@ describe('unitToHours', () => {
     // Cast needed to reach the dead branch at runtime.
     const result = unitToHours(2, 'unknown' as 'ms', 2)
     expect(result).toBe(2)
+  })
+})
+
+// ---------------------------------------------------------------------------
+// formatDuration
+// ---------------------------------------------------------------------------
+
+describe('formatDuration', () => {
+  it('formats zero as 00:00:00:00', () => {
+    expect(formatDuration(0)).toBe('00:00:00:00')
+  })
+
+  it('formats sub-second duration (rounds down to 0 s)', () => {
+    expect(formatDuration(500)).toBe('00:00:00:00')
+  })
+
+  it('formats seconds only', () => {
+    expect(formatDuration(45_000)).toBe('00:00:00:45')
+  })
+
+  it('formats minutes and seconds', () => {
+    expect(formatDuration(65_500)).toBe('00:00:01:05')
+  })
+
+  it('formats hours, minutes, seconds', () => {
+    expect(formatDuration(3_661_000)).toBe('00:01:01:01')
+  })
+
+  it('formats days, hours, minutes, seconds', () => {
+    // 1 day + 2 h + 3 m + 4 s
+    const ms = (1 * 86400 + 2 * 3600 + 3 * 60 + 4) * 1000
+    expect(formatDuration(ms)).toBe('01:02:03:04')
+  })
+
+  it('pads single-digit components with a leading zero', () => {
+    expect(formatDuration(9_000)).toBe('00:00:00:09')
   })
 })
