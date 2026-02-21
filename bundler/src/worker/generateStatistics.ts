@@ -44,6 +44,9 @@ export const generateStatistics = async (job: Job<ProcessLocaleJob>) => {
     releaseDirPath,
     releaseTarballsDirPath: path.join(releaseDirPath, 'tarballs'),
     clipsDirPath: path.join(releaseDirPath, locale, 'clips'),
+    problemClips: [],
+    clipCount: 0,
+    startTimestamp: new Date().toISOString(),
   }
 
   const releaseTarballName = generateTarFilename(locale, releaseName, license)
