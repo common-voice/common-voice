@@ -38,3 +38,15 @@ about-no-votes-text = Hmâhtuhpa mo pakha tawhta ao clip kha â py vei pata nata
 about-dataset-new = Common Voice Dataset
 about-dataset-new-text = Common Voice Dataset liana heta pamosana ao hluhpi y ta, cha chata developers-zy bao ta ao pahnona chhaichhi ama tao tita a bao.
 about-clip-graveyard = Clip Thyna
+about-clip-graveyard-text =
+    Clip Thyna liana heta ao clip-zy, Common Voice dataset liana ta a hlao theileipa zy a y. Dataset hawhpa khata, Clip Thyna chhao he download  thei'pa ta a y. 
+    
+    He parawche liana heta maniah a baotuhpa, a ry liata palâsapa mozy nata phupyzy hnohta eimâ lyna eima palâsa:
+about-get-involved = A hlao
+about-get-involved-text-2 =
+    Common Voice he hma-pha via n’awpa ta na baoh khoh ma? 
+    A pha kaw! Email tlyma <discourseLink>Discourse</discourseLink> 
+    forums lâta maniah vaw chho la, website liana ta rairuna na hnei khiahtala,
+    <githubLink>GitHub</githubLink> lâta vaw tly la, chata leipa ta
+    <matrixLink>Matrix</matrixLink> community chat liana chhao maniah vaw hlao teh.
+about-stay-in-touch = Kheihta e eimâ zao parei thei aw?
