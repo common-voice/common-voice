@@ -5,27 +5,39 @@ import { generateMetadataTarFilename, getMetadataFiles } from './metadata'
 
 describe('generateMetadataTarFilename', () => {
   it('generates unlicensed metadata filename', () => {
-    expect(generateMetadataTarFilename('en', 'cv-19.0')).toBe(
-      'cv-19.0-en-metadata.tar.gz',
-    )
+    expect(
+      generateMetadataTarFilename('en', 'cv-corpus-25.0-2026-03-06'),
+    ).toBe('cv-metadata-25.0-2026-03-06-en.tar.gz')
   })
 
   it('generates licensed metadata filename with sanitized license', () => {
     expect(
-      generateMetadataTarFilename('en', 'cv-19.0-licensed', 'CC-BY-SA-4.0'),
-    ).toBe('cv-19.0-licensed-en-CC-BY-SA-4.0-metadata.tar.gz')
+      generateMetadataTarFilename(
+        'en',
+        'cv-corpus-25.0-2026-03-06',
+        'CC-BY-SA-4.0',
+      ),
+    ).toBe('cv-metadata-25.0-2026-03-06-en-CC-BY-SA-4.0.tar.gz')
   })
 
   it('generates delta licensed metadata filename', () => {
     expect(
-      generateMetadataTarFilename('fr', 'cv-19.0-delta-licensed', 'CC0-1.0'),
-    ).toBe('cv-19.0-delta-licensed-fr-CC0-1.0-metadata.tar.gz')
+      generateMetadataTarFilename(
+        'fr',
+        'cv-corpus-25.0-delta-2026-03-06',
+        'CC0-1.0',
+      ),
+    ).toBe('cv-metadata-25.0-delta-2026-03-06-fr-CC0-1.0.tar.gz')
   })
 
   it('sanitizes special characters in license', () => {
     expect(
-      generateMetadataTarFilename('en', 'cv-19.0-licensed', 'CC BY/NC'),
-    ).toBe('cv-19.0-licensed-en-CC_BY_NC-metadata.tar.gz')
+      generateMetadataTarFilename(
+        'en',
+        'cv-corpus-25.0-2026-03-06',
+        'CC BY/NC',
+      ),
+    ).toBe('cv-metadata-25.0-2026-03-06-en-CC_BY_NC.tar.gz')
   })
 })
 

@@ -310,12 +310,12 @@ const uploadToDatasetBucket = uploadToBucket(getDatasetBundlerBucketName())
 
 /**
  * Derives a version tag from the release name for use in GCS filenames.
- * 'cv-corpus-25.0-2026-03-06'       => 'v25.0-2026-03-06'
- * 'cv-corpus-25.0-delta-2026-03-06' => 'v25.0-delta-2026-03-06'
- * 'cv-corpus-25.0-2026-03-06-licensed' => 'v25.0-2026-03-06-licensed'
+ * 'cv-corpus-25.0-2026-03-06'       => '25.0-2026-03-06'
+ * 'cv-corpus-25.0-delta-2026-03-06' => '25.0-delta-2026-03-06'
+ * 'cv-corpus-25.0-2026-03-06-licensed' => '25.0-2026-03-06-licensed'
  */
 const releaseVersionTag = (releaseName: string): string =>
-  releaseName.replace(/^cv-corpus-/, 'v')
+  releaseName.replace(/^cv-corpus-/, '')
 
 const datasheetPipeline = (
   locale: string,
@@ -361,8 +361,8 @@ const datasheetPipeline = (
     TE.chainFirst(({ rendered }) => {
       const versionTag = releaseVersionTag(releaseName)
       const filename = license
-        ? `datasheet-${versionTag}-${locale}-${sanitizeLicenseName(license)}.md`
-        : `datasheet-${versionTag}-${locale}.md`
+        ? `cv-datasheet-${versionTag}-${locale}-${sanitizeLicenseName(license)}.md`
+        : `cv-datasheet-${versionTag}-${locale}.md`
       const uploadPath = `${releaseName}/datasheets/${filename}`
       return uploadToDatasetBucket(uploadPath)(Buffer.from(rendered, 'utf-8'))
     }),

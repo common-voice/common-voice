@@ -21,11 +21,12 @@ export const generateMetadataTarFilename = (
   releaseName: string,
   license?: string,
 ): string => {
+  const version = releaseName.replace(/^cv-corpus-/, '')
   if (license) {
     const sanitizedLicense = sanitizeLicenseName(license)
-    return `${releaseName}-${locale}-${sanitizedLicense}-metadata.tar.gz`
+    return `cv-metadata-${version}-${locale}-${sanitizedLicense}.tar.gz`
   }
-  return `${releaseName}-${locale}-metadata.tar.gz`
+  return `cv-metadata-${version}-${locale}.tar.gz`
 }
 
 /**
