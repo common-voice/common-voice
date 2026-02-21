@@ -40,6 +40,9 @@ const resolveSource = (
   if (datasheetsFile.startsWith('/')) {
     return { type: 'local', path: datasheetsFile }
   }
+  if (datasheetsFile.startsWith('https://') || datasheetsFile.startsWith('http://')) {
+    return { type: 'remote', url: datasheetsFile }
+  }
   return {
     type: 'remote',
     url: `${DATASHEETS_BASE_URL}/${datasheetsFile}`,
