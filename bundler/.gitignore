@@ -1,6 +1,10 @@
 dist
 js
+coverage
 *.tsv
 .env
 *.txt
+*.mp3
+*.tar.gz
 cv-corpus*
+cv-test-*
