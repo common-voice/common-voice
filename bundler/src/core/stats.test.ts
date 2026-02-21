@@ -1,4 +1,5 @@
-import { unitToHours, mapLineCountsToStats } from './stats'
+import { unitToHours } from './utils'
+import { mapLineCountsToStats } from './stats'
 import { LineCounts } from '../infrastructure/filesystem'
 
 describe('unitToHours', () => {
@@ -108,7 +109,7 @@ describe('mapLineCountsToStats', () => {
       'reported.tsv': 1,
       'validated_sentences.tsv': 1,
       'unvalidated_sentences.tsv': 1,
-      'clips.tsv': 100, // not a CC file — should not appear in buckets
+      'clips.tsv': 100, // not a CC file --should not appear in buckets
     }
     const result = mapLineCountsToStats(counts)
     expect(result.buckets).not.toHaveProperty('clips')
