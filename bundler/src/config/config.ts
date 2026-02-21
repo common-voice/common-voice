@@ -23,8 +23,23 @@ export type Config = {
   storageLocalEndpoint: string
 }
 
+// Base URL for pre-compiled datasheets JSON files in the cv-datasheets repo.
+// The filename (e.g. "datasheets-v25.0-2026-03-06.json") is provided via CLI.
+export const DATASHEETS_BASE_URL =
+  'https://raw.githubusercontent.com/common-voice/cv-datasheets/main/releases'
+
+export type Modality = 'scripted' | 'spontaneous' | 'code_switching'
+
+// Maps CLI modality names to the keys used in datasheets.json.
+// Once cv-datasheets adopts the canonical names this map can be removed.
+export const MODALITY_TO_DATASHEETS_KEY: Record<Modality, string> = {
+  scripted: 'scs',
+  spontaneous: 'sps',
+  code_switching: 'code_switching',
+}
+
 const resolveLogLevel = (env: string): LogLevel => {
-  // LOG_LEVEL is optional — no deployment config changes needed.
+  // LOG_LEVEL is optional -- no deployment config changes needed.
   // Falls back to environment-based defaults derived from the existing ENVIRONMENT var.
   const explicit = process.env.LOG_LEVEL as LogLevel | undefined
   if (explicit && ['debug', 'info', 'warn', 'error'].includes(explicit)) {

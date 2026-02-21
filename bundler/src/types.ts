@@ -1,3 +1,5 @@
+import { Modality } from './config/config'
+
 export type ClipRow = {
   id: string
   client_id: string
@@ -37,11 +39,20 @@ export type Settings = {
   previousReleaseName?: string
   languages: string[]
   licenseMode?: LicenseMode
+  modality?: Modality
+  datasheetsFile?: string // e.g. "datasheets-v25.0-2026-03-06.json"
+}
+
+export type DatasheetLocalePayload = {
+  template: string
+  community_fields: Record<string, string>
+  metadata: Record<string, string>
 }
 
 export type ProcessLocaleJob = Settings & {
   locale: string
   license?: string // specific license for this job (e.g., 'CC-BY-SA-4.0')
+  datasheetPayload?: DatasheetLocalePayload
 }
 
 export type LocaleWithLicense = {
@@ -77,4 +88,5 @@ export type AppEnv = Settings & {
   // This will prevent ~15 clips/sec bandwidth bottleneck and speed up the total time needed for releases.
   // Workflow change needed: Release the delta first!
   deltaReleaseName?: string
+  datasheetPayload?: DatasheetLocalePayload
 }
