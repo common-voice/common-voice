@@ -107,5 +107,7 @@ male = Ахацәа ртәы
 female = Аҳәса ртәы
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = Ҳабжьытә дыррақәа реизга ҭыжәга
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = Common Voice адыррақәа рахь анеиразы аҭгара апараметрқәа
 datasets-show-more = Адыррақәа реизга зегьы рырбара
 datasets-show-less = Аҵыхәтәантәи адыррақәа реизга рырбара
