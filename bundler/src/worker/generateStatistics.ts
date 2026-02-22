@@ -38,30 +38,30 @@ export const generateStatistics = async (job: Job<ProcessLocaleJob>) => {
 
   const releaseDirPath = path.join(getTmpDir(), releaseName)
 
+  const releaseTarballName = generateTarFilename(locale, releaseName, license)
+  const uploadPath = `${releaseName}/${releaseTarballName}`
+
   const env: AppEnv = {
     ...job.data,
     license,
     releaseDirPath,
     releaseTarballsDirPath: path.join(releaseDirPath, 'tarballs'),
     clipsDirPath: path.join(releaseDirPath, locale, 'clips'),
+    uploadPath,
     problemClips: [],
     clipCount: 0,
     startTimestamp: new Date().toISOString(),
   }
 
-  const releaseTarballName = generateTarFilename(locale, releaseName, license)
-
   const releaseExistsAlready = await pipe(
-    doesFileExistInBucket(getDatasetBundlerBucketName())(
-      `${releaseName}/${releaseTarballName}`,
-    ),
+    doesFileExistInBucket(getDatasetBundlerBucketName())(uploadPath),
     TE.getOrElse(() => T.of(false)),
   )()
 
   if (!releaseExistsAlready) {
     logger.warn(
       'STATS',
-      `Cannot generate statistics for ${releaseTarballName}: tarball does not exist`,
+      `Cannot generate statistics for ${uploadPath}: tarball does not exist`,
     )
     return
   } else {

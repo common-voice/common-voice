@@ -15,7 +15,7 @@ const BUCKET = getDatasetBundlerBucketName()
 const uploadToDatasetBucket = uploadToBucket(BUCKET)
 
 const PROCESS_LOG_HEADER =
-  'locale\tstart_timestamp\tfinish_timestamp\tduration_sec\tduration\tnum_clips\tspeed\tstatus\tproblem_clips'
+  'locale\trelease_type\tfinal_path\tstart_timestamp\tfinish_timestamp\tduration_sec\tduration\tnum_clips\tspeed\tstatus\tproblem_clips'
 
 const PROBLEM_CLIPS_HEADER = 'path\tlocale\treason\tstatus\ttimestamp'
 
@@ -39,6 +39,8 @@ export const buildProcessLogRow = (
       : (env.clipCount / (durationMs / TimeUnitsMs.SECOND)).toFixed(2)
   return [
     env.locale,
+    env.type,
+    env.uploadPath,
     env.startTimestamp,
     finishTimestamp,
     durationSec,

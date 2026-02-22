@@ -108,6 +108,11 @@ export const deriveJobEnv = (
     ? path.join(tmpDir, effectiveReleaseName, sanitizeLicenseName(license))
     : path.join(tmpDir, effectiveReleaseName)
 
+  // Precompute the GCS upload path so it is available for logging even if
+  // the job fails before reaching the upload step.
+  const tarFilename = generateTarFilename(locale, effectiveReleaseName, license)
+  const uploadPath = `${effectiveReleaseName}/${tarFilename}`
+
   return {
     ...jobData,
     releaseName: effectiveReleaseName,
@@ -117,6 +122,7 @@ export const deriveJobEnv = (
     releaseDirPath,
     releaseTarballsDirPath: path.join(releaseDirPath, 'tarballs'),
     clipsDirPath: path.join(releaseDirPath, locale, 'clips'),
+    uploadPath,
     problemClips: [],
     clipCount: 0,
     startTimestamp: new Date().toISOString(),
@@ -125,13 +131,10 @@ export const deriveJobEnv = (
 
 export const processLocale = async (job: Job<ProcessLocaleJob>) => {
   const env = deriveJobEnv(job.data, getTmpDir())
-  const { locale, releaseName, license } = env
-  const releaseTarballName = generateTarFilename(locale, releaseName, license)
+  const { locale, releaseName, uploadPath } = env
 
   const releaseExistsAlready = await pipe(
-    doesFileExistInBucket(getDatasetBundlerBucketName())(
-      `${releaseName}/${releaseTarballName}`,
-    ),
+    doesFileExistInBucket(getDatasetBundlerBucketName())(uploadPath),
     TE.getOrElse(() => T.of(false)),
   )()
 
@@ -147,7 +150,7 @@ export const processLocale = async (job: Job<ProcessLocaleJob>) => {
       await redisClient.sadd(redisKeys.done(releaseName), locale)
       await redisClient.expire(redisKeys.done(releaseName), RELEASE_LOG_KEY_TTL_SEC)
     }
-    logger.info('PROCESSOR', `[${locale}] Release ${releaseTarballName} exists already, skipping`)
+    logger.info('PROCESSOR', `[${locale}] Release ${uploadPath} exists already, skipping`)
     await flushReleaseLogs(env, 'skipped')
     return
   }

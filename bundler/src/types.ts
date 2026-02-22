@@ -102,6 +102,7 @@ export type AppEnv = Settings & {
   releaseDirPath: string
   clipsDirPath: string
   releaseTarballsDirPath: string
+  uploadPath: string           // precomputed GCS path, e.g. "cv-corpus-25.0/cv-corpus-25.0-en.tar.gz"
   license?: string // specific license for this job (e.g., 'CC-BY-SA-4.0', or NULL for unlicensed)
   // Derived in processor.ts for 'full' releases: "${releaseName}-delta" (with "-licensed" suffix when processing a licensed job).
   // When set, fetchAllClipsPipeline will download this tarball for new clips instead of pulling them individually from GCS
