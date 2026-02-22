@@ -277,3 +277,13 @@ code-switching-use-both-languages-example = “เธอโกรธมาก be
 code-switching-authentic-direct-quotes = <bold>ระบุคำพูดหรือบทสนทนาโดยตรง</bold> กล่าวตามที่บุคคลนั้นพูดอย่างตรงไปตรงมา ไม่ใช่ฉบับที่ตัดต่อหรือเป็นทางการ ตัวอย่าง:
 code-switching-authentic-direct-quotes-example = “Mi mamá dijo, ‘Tú crees que esto es un juego?’ และฉันก็แบบว่า ‘โอเค ใจเย็น ๆ!’”
 code-switching-authentic-reflect = <bold>สะท้อนอารมณ์ อัตลักษณ์ และบริบท</bold> การเปลี่ยนบทบาทมักเกิดขึ้นเมื่อผู้คนแสดงออกถึงอารมณ์ ความเร่งด่วน หรือแนวคิดทางวัฒนธรรม ให้ใช้สิ่งเหล่านี้ให้เป็นประโยชน์เมื่อตอบคำถาม
+code-switching-authentic-full-context = <bold>ตอบคำถามอย่างครบถ้วนพร้อมให้บริบท</bold> โปรดให้รายละเอียดมากที่สุดเท่าที่จะเป็นไปได้ ยกตัวอย่างหรือเรื่องราวประกอบคำตอบของคุณ
+# Don’t Overthink or Overedit
+code-switching-answer-dont-subheader = อย่าคิดมากหรือแก้คำพูดมากเกินไป
+code-switching-answer-dont-correct-language = <bold>“แก้ไข” ภาษาของคุณ</bold> นี่ไม่ใช่การทดสอบ รูปแบบที่ “ถูกต้อง” ไม่สำคัญที่นี่ ภาษาที่เป็นธรรมชาติต่างหากที่สำคัญ
+code-switching-answer-dont-avoid-switching = <bold>หลีกเลี่ยงการสลับภาษาถ้าคุณทำเป็นประจำ</bold> แต่ถ้าเป็นการสลับภาษากลางประโยค ระหว่างคิด หรือแค่คำเดียว สามารถทำได้
+code-switching-answer-dont-formal-writing = <bold>พูดเหมือนคุณกำลังเขียนอย่างเป็นทางการ</bold> หลีกเลี่ยงคำตอบที่เป็นทางการหรือเชิงวิชาการ ให้พูดคุยแบบเป็นกันเอง
+code-switching-answer-dont-force-switch = <bold>บังคับสลับภาษาหากไม่เป็นธรรมชาติ</bold> ให้สลับภาษาเฉพาะในกรณีที่คุณพูดด้วยวิธีนั้นอย่างเป็นธรรมชาติในสถานการณ์นั้น ๆ
+code-switching-answer-dont-translate-repeat = <bold>แปลหรือพูดซ้ำทุกอย่าง</bold> พูดแค่ครั้งเดียว เหมือนกับที่ใช้ในการสนทนาทั่วไป คุณไม่จำเป็นต้องพูดคำตอบในแต่ละภาษา
+# Transcribing
+code-switching-transcribe-subheader = การถอดเสียง
