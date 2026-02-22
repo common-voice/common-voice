@@ -198,7 +198,9 @@ tags-noise-explanation =
 special-tags-example-2 =
     Нас сара [ашьҭыбжь] аныҳәахь сцеит.
     Нас, [ашьҭыбжь] [аччабжь] ныҳәаҵәҟьам [аччабжь]
+transcribe-the-audio-subheader-4-explanation-1 = Аспонтантә жәаҳәа абжьааԥны афальстартқәа алоуп, ажәа наӡа аҟынтәи хәҭак мацара анеиҭаҳәахо. Ҳшәыҳәоит, ас еиԥш иҟоу аҭагылазаашьақәа раан, иахьынӡашәылшо еиӷьны ажәа ахәҭа еилшәырга, ажәа анҵәамҭаҿы адефис ацышәҵа ( - ), ажәа шфальстарту аашәырԥшырц азы. Аҿырԥштәы:
 transcribe-the-audio-subheader-4-explanation-1-example = Иара ихьӡ<underline>Џьо-Џьон-</underline>Џьонатан.
+transcribe-the-audio-subheader-4-explanation-2 = Зны-зынла ицәажәо ажәа, ма ажәа хәҭак акырынтә еиҭарҳәалоит. Уигьы атранскрипциа азузароуп. Аҿырԥштәы:
 transcribe-the-audio-subheader-4-explanation-2-example = Нас сара сцеит <underline>ашь- ашь-</underline> ашьҭаларҭахь
 
 ## Review the Transcription
