@@ -3,6 +3,7 @@
 report-modal-title = Ашшра анашьҭра
 report-modal-subtitle = Ари аконтент иадҳәалоу иарбан уадаҩрақәоу ишәымоу?
 offensive_speech = Ихьымӡӷыргаго аҵакы
+offensive_speech-detail = Аҵакы ианыԥшуеит азинеиҟарамратә, ма ихьымӡӷыргагоу аҳәамҭақәа.
 different_language = Даҽа бызшәак
 personally_identifiable_information = Ахаҭара ашьақәыргылара алзыршо аинформациа
 report-other-comment =
