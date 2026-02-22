@@ -202,6 +202,7 @@ transcribe-the-audio-subheader-4-explanation-1 = Аспонтантә жәаҳә
 transcribe-the-audio-subheader-4-explanation-1-example = Иара ихьӡ<underline>Џьо-Џьон-</underline>Џьонатан.
 transcribe-the-audio-subheader-4-explanation-2 = Зны-зынла ицәажәо ажәа, ма ажәа хәҭак акырынтә еиҭарҳәалоит. Уигьы атранскрипциа азузароуп. Аҿырԥштәы:
 transcribe-the-audio-subheader-4-explanation-2-example = Нас сара сцеит <underline>ашь- ашь-</underline> ашьҭаларҭахь
+transcribe-the-audio-subheader-5-explanation-1 = Аспонтантә жәаҳәа, ҳәарада, аграмматикатә гхақәа амазаауеит. Аилыркаараан урҭ рыриашара ҟалаӡом. Атранскрипциа ацәажәаратә контент ииашаны иаанарԥшуазароуп.
 
 ## Review the Transcription
 
@@ -294,4 +295,5 @@ code-switching-not-tag-interjections-example-4 = «Ем»
 
 ## Reporting Content
 
+reporting-content = Аҵакы азы ашшыԥхьыӡ
 reporting-content-subheader = Азеиԥш хархәага
