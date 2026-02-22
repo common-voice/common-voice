@@ -135,6 +135,7 @@ process-steps-explanation = Шьаҿақәак реиқәыԥхьаӡара зҭ
 offensive-content-sensitive-information = Ихьымӡӷыргаго аҵакы ма имаӡоу аинформациа
 offensive-content-sensitive-information-explanation-explanation-1 = Ахатә дыррақәа ирыҳәар зылшо азҵаарақәа
 offensive-content-sensitive-information-explanation-explanation-2 = Ацәымӷра, аиаша адымгылара, ахьымӡӷргара зныԥԥшуа аҳәамҭақәа цәырҵратәы аҟаҵара зылшо азҵаарақәа
+offensive-content-sensitive-information-explanation-explanation-3 = Ауаҩы ацәанырра злыжжуа, ма ааха изҭо аинформациа иҳәартә игәарԥхара зылшо азҵаарақәа
 example-questions-subheader = Азҵаарақәа рҿырԥштәқәа
 example-questions-explanation-1 = Шәара ишәылшоит <examplePromptsLink>120 азҵаарақәа рҿырԥштәқәа ари атаблицаҿы шәыԥшаарц.</examplePromptsLink>
 example-questions-explanation-2 = Иацырҵаша азҵаарақәа ргәыԥ нашәышьҭыр шәҭахызар, шәара <githubLink> уи ҟашәҵар шәылшоит ҳ-GitHub</githubLink> ала, мамзаргьы <emailFragment>commonvoice@mozilla.com</emailFragment> ахь асиа нашәышьҭыр шәылшоит.

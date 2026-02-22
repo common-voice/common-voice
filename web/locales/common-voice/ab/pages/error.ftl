@@ -13,6 +13,7 @@ error-content-404 = Иҟалап <homepageLink>ҳаҩнытә даҟьа</homepa
 error-title-500 = Ҳаи, акы ишаҭахыз акәымкәа иҟалеит
 error-content-500 = Ҳазқәымгәыӷуаз агха ҟалеит. Ԥыҭраамҭак шәыԥшы, нас еиҭа шәҽазышәшәа. Ҳшәыҳәоит, ацхыраара аиуразы <matrixLink>Matrix аилазаара ачат</matrixLink> шәалал, ауадаҩрақәа асаит аҿы шәрышьклаԥшла <githubLink>GitHub</githubLink>ала, мамзаргьы <discourseLink>ҳ-Discourse-форумқәа шәырҭаа</discourseLink>.
 error-title-502 = Аимадара еиԥырҟьоуп
+error-content-502 = Уажәы иҭышәынтәаланы ҳсерверқәа  рыҽрымадара шәзышьақәыргылом. Ԥыҭраамҭак шәааԥшы, нас даҽазнык шәҽазышәшәа. Ацхыраара аиуразы, ҳшәыҳәоит, Matrix</matrixLink> аҿы аилазаара ачат<matrixLink>шәалал, <githubLink>GitHub</githubLink> ала асаит аҿы апроблемақәа шәрышьклаԥшла, мамзаргьы <discourseLink> ҳ-Discourse-форумқәа</discourseLink>шәырҭаа.
 error-title-503 = Ҳара ҳҿы узқәымгәыӷуа имариоу
 error-content-503 = Асаит хара имгакәа аусура еиҭалагоит. Аҵыхәтәантәи аинформациа аиуразы, шәалал<matrixLink>аилазаара ачат Matrix</matrixLink> аҿы, шәаҭаа <githubLink>GitHub</githubLink> мамзаргьы <discourseLink>ҳ-Discoure  форумқәа</discourseLink> азҵаарақәа рзы адырра аҭаразы, насгьы урҭ рыцклаԥшразы.
 error-title-504 = Аҳәара азыԥшра аамҭа нҵәеит
