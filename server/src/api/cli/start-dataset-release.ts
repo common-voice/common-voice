@@ -5,7 +5,7 @@ import { addJobToQueue, getQueue } from '../../infrastructure/queues/queues'
 type LicenseMode = 'unlicensed' | 'licensed' | 'both'
 
 type InitDatasetReleaseJob = {
-  type: 'full' | 'delta' | 'statistics'
+  type: 'full' | 'delta' | 'statistics' | 'variants'
   from: string
   until: string
   releaseName: string
@@ -15,6 +15,15 @@ type InitDatasetReleaseJob = {
 }
 
 const startDatasetRelease = async (args: any, options: any) => {
+  if (args.type === 'variants' && !args.previousReleaseName) {
+    console.error(
+      'Error: -p (--previousReleaseName) is required for -t variants.\n' +
+        'It should point to the full release whose tarballs will be used as source.\n' +
+        'Example: -t variants -p cv-corpus-25.0-2026-03-06 -r cv-corpus-25.0-2026-03-06',
+    )
+    process.exit(1)
+  }
+
   const licenseMode: LicenseMode = args.licenseMode || 'unlicensed'
 
   const run = pipe(
@@ -41,7 +50,7 @@ program
     '-t, --type <type>',
     `
      Determines the type of the dataset release or whether to generate statistics
-     <type>: 'full | delta | statistics'
+     <type>: 'full | delta | statistics | variants'
     `
   )
   .requiredOption(
@@ -50,7 +59,7 @@ program
   )
   .requiredOption(
     '-u, --until <datetime>',
-    "Latest date until (exclusive) to include clips in the release, e.g. '2070-05-10 00:00:00'"
+    "Latest date (inclusive) to include clips in the release, e.g. '2026-03-06 23:59:59'"
   )
   .requiredOption(
     '-r, --releaseName <name>',
@@ -66,9 +75,10 @@ program
   .option(
     '-p, --previousReleaseName <name>',
     `
-    Only needed when creating a full dataset release.
-    Define the previous release name, usually in the shape of 'cv-corpus-14.0-{delta-}2023-10-19'.
-    The clips from the previous release will be downloaded to bootstrap the new release.
+    Required for full and variants releases.
+    For full: the previous release whose clips will be downloaded to bootstrap the new release.
+    For variants: the full release whose tarballs will be used as source for variant extraction.
+    Usually in the shape of 'cv-corpus-14.0-{delta-}2023-10-19'.
     `
   )
   .addOption(
