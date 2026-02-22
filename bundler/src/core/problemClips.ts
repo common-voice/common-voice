@@ -33,7 +33,7 @@ export const runFilterProblemClips = (
   pipe(
     RTE.ask<AppEnv>(),
     RTE.chainTaskEitherK(({ type, locale, releaseDirPath, problemClips }) => {
-      if (type !== 'full') {
+      if (type !== 'full' && type !== 'variants') {
         return TE.right(rawDurationInMs)
       }
 
@@ -162,7 +162,7 @@ export const runPushProblemClips = (): RTE.ReaderTaskEither<
   pipe(
     RTE.ask<AppEnv>(),
     RTE.chainTaskEitherK(({ type, locale, releaseName, problemClips }) => {
-      if (type !== 'full' || problemClips.length === 0) {
+      if ((type !== 'full' && type !== 'variants') || problemClips.length === 0) {
         return TE.right(constVoid())
       }
 

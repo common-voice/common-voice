@@ -50,7 +50,7 @@ export const getMetadataFiles = (
   }
 }
 
-const metadataPipeline = (
+export const metadataPipeline = (
   locale: string,
   releaseName: string,
   releaseDirPath: string,

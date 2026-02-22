@@ -4,6 +4,7 @@ import { pipe } from 'fp-ts/lib/function'
 import {
   fetchLocalesWithClips,
   fetchLocalesWithLicensedClips,
+  fetchLocalesWithVariantClips,
 } from '../core/locales'
 import { DatasheetLocalePayload, ProcessLocaleJob, Settings } from '../types'
 import { getRedisUrl, RELEASE_LOG_KEY_TTL_SEC, redisKeys } from '../config/config'
@@ -34,6 +35,7 @@ const addJob = (queue: Queue) => (jobName: string) => (job: ProcessLocaleJob) =>
 const addProcessLocaleJob = addJob(datasetReleaseQueue)('processLocale')
 const addGenerateStatisticsJob =
   addJob(datasetReleaseQueue)('generateStatistics')
+const addProcessVariantsJob = addJob(datasetReleaseQueue)('processVariants')
 
 const attachDatasheetPayload = (
   job: ProcessLocaleJob,
@@ -56,6 +58,37 @@ export const addJobsToReleaseQueue = (settings: Settings) =>
       ),
     ),
     TE.bind('jobs', ({ datasheetPayloads }) => {
+      // Variant releases have their own dispatch path — one job per locale
+      // carrying all variants for that locale. No license mode branching.
+      if (settings.type === 'variants') {
+        return pipe(
+          fetchLocalesWithVariantClips(settings.from, settings.until),
+          TE.map(groups => {
+            const filtered =
+              settings.languages.length > 0
+                ? groups.filter(g => settings.languages.includes(g.locale))
+                : groups
+
+            const summary = filtered
+              .map(g => `${g.locale} (${g.variants.length} variants, ~${g.totalClipCount} clips)`)
+              .join(', ')
+            logger.info(
+              'QUEUE',
+              `${filtered.length} locale(s) with variants: ${summary}`,
+            )
+
+            return filtered.map(
+              (group): ProcessLocaleJob => ({
+                ...settings,
+                locale: group.locale,
+                expectedClipCount: group.totalClipCount,
+                variants: group.variants,
+              }),
+            )
+          }),
+        )
+      }
+
       const licenseMode = settings.licenseMode || 'unlicensed'
 
       if (
@@ -182,18 +215,28 @@ export const addJobsToReleaseQueue = (settings: Settings) =>
     TE.chainFirst(({ jobs }) =>
       TE.tryCatch(async () => {
         // Group job count and clip count by effective release name
-        // (license → "-licensed" suffix).
+        // (license → "-licensed" suffix, variants → "-variants" suffix).
         const totals = new Map<string, number>()
         const clipTotals = new Map<string, number>()
         for (const job of jobs) {
-          const name = job.license
-            ? `${settings.releaseName}-licensed`
-            : settings.releaseName
-          totals.set(name, (totals.get(name) ?? 0) + 1)
-          clipTotals.set(
-            name,
-            (clipTotals.get(name) ?? 0) + (job.expectedClipCount ?? 0),
-          )
+          const name = settings.type === 'variants'
+            ? `${settings.releaseName}-variants`
+            : job.license
+              ? `${settings.releaseName}-licensed`
+              : settings.releaseName
+          // For variants, each locale job produces N variant tarballs.
+          // localeTotal = total variant tarball count, not locale job count.
+          if (settings.type === 'variants' && job.variants) {
+            totals.set(name, (totals.get(name) ?? 0) + job.variants.length)
+            const variantClips = job.variants.reduce((sum, v) => sum + v.clipCount, 0)
+            clipTotals.set(name, (clipTotals.get(name) ?? 0) + variantClips)
+          } else {
+            totals.set(name, (totals.get(name) ?? 0) + 1)
+            clipTotals.set(
+              name,
+              (clipTotals.get(name) ?? 0) + (job.expectedClipCount ?? 0),
+            )
+          }
         }
         for (const [name, batchCount] of totals) {
           const batchClips = clipTotals.get(name) ?? 0
@@ -230,6 +273,8 @@ export const addJobsToReleaseQueue = (settings: Settings) =>
             return addProcessLocaleJob(job)
           case 'statistics':
             return addGenerateStatisticsJob(job)
+          case 'variants':
+            return addProcessVariantsJob(job)
           default:
             throw Error('Unhandled job type')
         }

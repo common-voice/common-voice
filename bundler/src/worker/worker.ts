@@ -2,6 +2,7 @@ import { Worker } from 'bullmq'
 import { io as IO, taskEither as TE } from 'fp-ts'
 import { pipe, constVoid } from 'fp-ts/lib/function'
 import { processLocale } from './processor'
+import { processVariants } from './processVariants'
 import { addJobsToReleaseQueue } from '../infrastructure/queue'
 import { getRedisUrl } from '../config/config'
 import { generateStatistics } from './generateStatistics'
@@ -29,6 +30,9 @@ export const createWorker: IO.IO<void> = () => {
         case 'generateStatistics': {
           return generateStatistics(job)
         }
+        case 'processVariants': {
+          return processVariants(job)
+        }
       }
     },
     {
@@ -51,6 +55,10 @@ export const createWorker: IO.IO<void> = () => {
       }
       case 'processLocale': {
         logger.info('WORKER', `[${job.data.locale}] Finished processing locale`)
+        break
+      }
+      case 'processVariants': {
+        logger.info('WORKER', `[${job.data.locale}] Finished processing variants`)
         break
       }
     }

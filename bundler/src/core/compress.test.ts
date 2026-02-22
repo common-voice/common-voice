@@ -128,6 +128,34 @@ describe('pathsFilter', () => {
     })
   })
 
+  describe('variants release', () => {
+    const filter = pathsFilter('variants')
+
+    it('excludes clips.tsv', () => {
+      expect(filter('clips.tsv')).toBe(false)
+    })
+
+    it('includes CorporaCreator split files (same as full)', () => {
+      expect(filter('dev.tsv')).toBe(true)
+      expect(filter('test.tsv')).toBe(true)
+      expect(filter('train.tsv')).toBe(true)
+    })
+
+    it('includes other CorporaCreator files', () => {
+      expect(filter('validated.tsv')).toBe(true)
+      expect(filter('invalidated.tsv')).toBe(true)
+      expect(filter('other.tsv')).toBe(true)
+    })
+
+    it('includes clip_durations.tsv', () => {
+      expect(filter('clip_durations.tsv')).toBe(true)
+    })
+
+    it('includes clips directory', () => {
+      expect(filter('clips')).toBe(true)
+    })
+  })
+
   it('works with full path (uses basename)', () => {
     const filter = pathsFilter('full')
     expect(filter('/some/path/to/clips.tsv')).toBe(false)

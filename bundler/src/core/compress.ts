@@ -62,7 +62,7 @@ export const pathsFilter =
     // we never include the generated clips.tsv file
     const clipsTsv = ['clips.tsv']
     const excludeList =
-      releaseType === 'full'
+      releaseType === 'full' || releaseType === 'variants'
         ? clipsTsv
         : [...clipsTsv, ...CORPORA_CREATOR_SPLIT_FILES]
 
@@ -97,7 +97,7 @@ const getPathsToAddToTarball =
       .map((pathS: string) => path.join(locale, pathS))
   }
 
-const compressPipeline = (
+export const compressPipeline = (
   locale: string,
   releaseName: string,
   releaseDirPath: string,

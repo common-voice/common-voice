@@ -79,6 +79,14 @@ describe('runPushProblemClips', () => {
     expect(mockRpush).toHaveBeenCalledTimes(1)
   })
 
+  it('RPUSHes rows when problemClips is non-empty (variants release)', async () => {
+    const pc: ProblemClip[] = [
+      { path: 'a.mp3', locale: 'cy-southwes', reason: ProblemClipReason.TOO_LONG, status: 'EXCLUDED', timestamp: TS },
+    ]
+    await runPushProblemClips()(makeEnv({ type: 'variants', problemClips: pc }))()
+    expect(mockRpush).toHaveBeenCalledTimes(1)
+  })
+
   it('RPUSHes to the correct Redis key for the release', async () => {
     const pc: ProblemClip[] = [
       { path: 'a.mp3', locale: 'en', reason: ProblemClipReason.TOO_LONG, status: 'EXCLUDED', timestamp: TS },
@@ -155,6 +163,13 @@ describe('runFilterProblemClips', () => {
     const env = makeEnv({ type: 'statistics' }, tmpDir)
     const result = await runFilterProblemClips(99999)(env)()
     expect(result).toEqual({ _tag: 'Right', right: 99999 })
+  })
+
+  it('runs filtering for variants releases (same as full)', async () => {
+    const env = makeEnv({ type: 'variants', problemClips: [] }, tmpDir)
+    // Without clip_durations.tsv, returns rawDurationInMs unchanged (but still runs)
+    const result = await runFilterProblemClips(50000)(env)()
+    expect(result).toEqual({ _tag: 'Right', right: 50000 })
   })
 
   it('returns rawDurationInMs unchanged when clip_durations.tsv is absent', async () => {
