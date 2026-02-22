@@ -170,10 +170,10 @@ describe('renderBar', () => {
     expect(renderBar(-0.5, 10)).toBe('░░░░░░░░░░')
   })
 
-  it('works with 40-char width', () => {
-    const bar = renderBar(0.25, 40)
-    expect(bar).toHaveLength(40)
-    expect(bar.replace(/[^█]/g, '')).toHaveLength(10)
+  it('works with 100-char width (production bar)', () => {
+    const bar = renderBar(0.25, 100)
+    expect(bar).toHaveLength(100)
+    expect(bar.replace(/[^█]/g, '')).toHaveLength(25)
   })
 })
 

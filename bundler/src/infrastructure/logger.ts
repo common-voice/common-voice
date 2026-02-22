@@ -29,7 +29,8 @@ const timestamp = (): string => new Date().toISOString().slice(0, 22)
 const emit = (level: LogLevel, operation: string, message: string): void => {
   if (LEVEL_RANK[level] < LEVEL_RANK[currentLevel]) return
 
-  const line = `[${SRV_ID} - ${timestamp()}] ${level.toUpperCase().padEnd(5)} ${operation} ${message}`
+  const op = operation ? ` ${operation}` : ''
+  const line = `[${SRV_ID}|${timestamp()}] ${level.toUpperCase().padEnd(5)}${op} ${message}`
 
   if (level === 'error' || level === 'warn') {
     process.stderr.write(line + '\n')

@@ -20,7 +20,7 @@ const PROCESS_LOG_HEADER =
 const PROBLEM_CLIPS_HEADER = 'path\tlocale\treason\tstatus\ttimestamp'
 
 /** Width of the ASCII progress bar (in characters). */
-const BAR_WIDTH = 40
+const BAR_WIDTH = 100
 
 // ---------------------------------------------------------------------------
 // buildProcessLogRow (exported for unit-testing)
@@ -151,7 +151,7 @@ export const flushReleaseLogs = async (
           ? count / total
           : 0
       const bar = renderBar(pct, BAR_WIDTH)
-      const pctStr = `${Math.min(100, Math.round(pct * 100))}%`
+      const pctStr = `${Math.min(100, Math.round(pct * 100)).toString().padStart(3)}%`
 
       const elapsedMs = timeStartStr
         ? new Date(finishTimestamp).getTime() - new Date(timeStartStr).getTime()
@@ -161,12 +161,12 @@ export const flushReleaseLogs = async (
       const etaMs = rate > 0 ? (remaining / rate) * TimeUnitsMs.SECOND : 0
 
       logger.info(
-        'PROGRESS',
-        `[${locale}:${statusTag}] ${bar} ${pctStr} ${count}/${total > 0 ? total : '?'} jobs | ${formatCompact(clipsDone)}/${formatCompact(clipsTotal)} clips`,
+        '',
+        `${pctStr} ${bar}`,
       )
       logger.info(
-        'PROGRESS',
-        `elapsed ${formatEta(elapsedMs)} | ${Math.round(rate)}c/s | ETA ${formatEta(etaMs)}`,
+        '',
+        `[${locale}:${statusTag}] ${count}/${total > 0 ? total : '?'} jobs | ${formatCompact(clipsDone)}/${formatCompact(clipsTotal)} clips | ${Math.round(rate)}c/s | elapsed ${formatEta(elapsedMs)} | ETA ${formatEta(etaMs)}`,
       )
     }
 
