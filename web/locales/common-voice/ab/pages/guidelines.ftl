@@ -187,7 +187,13 @@ tags-disfluency = Аилҟьамзаара
 tags-unclear = Аилататара
 tags-noise = Ашьҭыбжь
 tags-laugh-explanation = Аччабыжь
+tags-disfluency-explanation =
+    Ицәажәо ииҳәаша иӡбонаҵы, атекст аԥсахга аҳасабала ихы иаирхәо ажәа, ма абжьы.
+    Аурыс бызшәаҿы лассы-лассы иуԥыло алак-ҩакра шьҭыбжьқәоуп: «емм», «хм», «еее» уҳәа уб. иҵ.
 tags-unclear-explanation = Еилкаашьа змам ажәа, ма ажәақәа реишьҭагылашьа.
+tags-noise-explanation =
+    Иарбанызаалак даҽа шьҭыбжьык, иаҳҳәап, ицәажәо иеимҳәа,
+    амашьына асигнал, амикрофон акы ианасуа, аҭел асра абжьы уҳәа.
 # Note: do not translate any tag, like [noise] or [laugh]
 special-tags-example-2 =
     Нас сара [ашьҭыбжь] аныҳәахь сцеит.
