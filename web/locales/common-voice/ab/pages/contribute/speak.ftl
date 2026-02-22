@@ -12,6 +12,12 @@ record-no-mic-found = Амикрофон ԥшаам
 record-error-too-short = Аҭаҩымҭа кьаҿцәоуп.
 record-error-too-long = Аҭаҩымҭа дуцәоуп.
 record-error-too-quiet = Аҭаҩымҭа мыцхәы иҭынчуп.
+record-error-uploaded-clip-corrupted =
+    Излаабало ала, шәаудионҵамҭа ԥхасҭахеит. Уи ҟалар алшоит:
+    • Абраузерқәа реишьашәалара апроблемақәа (даҽа браузерк шәхы иашәырхәа)
+    • Амикрофон ма аудиодраивер апроблемақәа рымоуп
+    • Аҭаҩраан аҳа аҿахҵәара
+    Ҳшәыҳәоит, еиҭа аҭаҩра шәҽазышәшәа.
 record-cancel = Абжьы еиҭаҭаҩра мап ацәкра
 record-instruction = { $actionType }<recordIcon></recordIcon> нас шәыбжьы ҭганы аҳәоу шәаԥхьа
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> шәаналго
