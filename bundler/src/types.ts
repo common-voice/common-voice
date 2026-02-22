@@ -51,8 +51,14 @@ export type ReportedSentencesRow = Record<
 
 export type LicenseMode = 'unlicensed' | 'licensed' | 'both'
 
+export type VariantInfo = {
+  variantToken: string   // e.g. "southwes"
+  variantName: string    // e.g. "Southern Welsh" (value in clips.tsv variant column)
+  clipCount: number
+}
+
 export type Settings = {
-  type: 'full' | 'delta' | 'statistics'
+  type: 'full' | 'delta' | 'statistics' | 'variants'
   from: string
   until: string
   releaseName: string
@@ -74,6 +80,7 @@ export type ProcessLocaleJob = Settings & {
   license?: string // specific license for this job (e.g., 'CC-BY-SA-4.0')
   expectedClipCount?: number // from init query; used for progress tracking
   datasheetPayload?: DatasheetLocalePayload
+  variants?: VariantInfo[] // only for type === 'variants'; one job carries ALL variants for its locale
 }
 
 export type LocaleWithLicense = {
