@@ -121,6 +121,27 @@ describe('deriveJobEnv', () => {
     })
   })
 
+  describe('uploadPath', () => {
+    it('is releaseName/releaseName-locale.tar.gz for unlicensed', () => {
+      const env = deriveJobEnv(baseJob, TMP_DIR)
+      expect(env.uploadPath).toBe('cv-19.0/cv-19.0-en.tar.gz')
+    })
+
+    it('includes -licensed suffix and sanitized license for licensed jobs', () => {
+      const env = deriveJobEnv({ ...baseJob, license: 'CC-BY-SA-4.0' }, TMP_DIR)
+      expect(env.uploadPath).toBe(
+        'cv-19.0-licensed/cv-19.0-licensed-en-CC-BY-SA-4.0.tar.gz',
+      )
+    })
+
+    it('sanitizes special characters in license portion', () => {
+      const env = deriveJobEnv({ ...baseJob, license: 'CC BY/NC' }, TMP_DIR)
+      expect(env.uploadPath).toBe(
+        'cv-19.0-licensed/cv-19.0-licensed-en-CC_BY_NC.tar.gz',
+      )
+    })
+  })
+
   describe('accumulator fields', () => {
     it('initialises problemClips as an empty array', () => {
       const env = deriveJobEnv(baseJob, TMP_DIR)

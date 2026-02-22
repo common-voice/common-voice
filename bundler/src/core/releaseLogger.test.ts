@@ -45,6 +45,7 @@ const makeEnv = (overrides: Partial<AppEnv> = {}): AppEnv => ({
   releaseDirPath: '/tmp/test',
   clipsDirPath: path.join('/tmp/test', 'en', 'clips'),
   releaseTarballsDirPath: path.join('/tmp/test', 'tarballs'),
+  uploadPath: 'cv-corpus-25.0-2026-03-06/cv-corpus-25.0-2026-03-06-en.tar.gz',
   problemClips: [],
   clipCount: 0,
   startTimestamp: START,
@@ -56,43 +57,54 @@ const makeEnv = (overrides: Partial<AppEnv> = {}): AppEnv => ({
 // ---------------------------------------------------------------------------
 
 describe('buildProcessLogRow', () => {
-  it('produces a tab-separated row with all 9 columns', () => {
+  it('produces a tab-separated row with all 11 columns', () => {
     const row = buildProcessLogRow(makeEnv({ clipCount: 1000 }), FINISH, 'success')
-    expect(row.split('\t')).toHaveLength(9)
+    expect(row.split('\t')).toHaveLength(11)
   })
 
   it('first column is locale', () => {
     expect(buildProcessLogRow(makeEnv(), FINISH, 'success').split('\t')[0]).toBe('en')
   })
 
+  it('second column is release_type', () => {
+    expect(buildProcessLogRow(makeEnv(), FINISH, 'success').split('\t')[1]).toBe('full')
+    expect(buildProcessLogRow(makeEnv({ type: 'delta' }), FINISH, 'success').split('\t')[1]).toBe('delta')
+  })
+
+  it('third column is final_path (precomputed uploadPath)', () => {
+    expect(buildProcessLogRow(makeEnv(), FINISH, 'success').split('\t')[2]).toBe(
+      'cv-corpus-25.0-2026-03-06/cv-corpus-25.0-2026-03-06-en.tar.gz',
+    )
+  })
+
   it('contains start and finish timestamps', () => {
     const cols = buildProcessLogRow(makeEnv(), FINISH, 'success').split('\t')
-    expect(cols[1]).toBe(START)
-    expect(cols[2]).toBe(FINISH)
+    expect(cols[3]).toBe(START)
+    expect(cols[4]).toBe(FINISH)
   })
 
   it('computes duration_sec correctly (65.50 s)', () => {
-    expect(buildProcessLogRow(makeEnv(), FINISH, 'success').split('\t')[3]).toBe('65.50')
+    expect(buildProcessLogRow(makeEnv(), FINISH, 'success').split('\t')[5]).toBe('65.50')
   })
 
   it('computes duration as dd:hh:mm:ss (00:00:01:05)', () => {
-    expect(buildProcessLogRow(makeEnv(), FINISH, 'success').split('\t')[4]).toBe('00:00:01:05')
+    expect(buildProcessLogRow(makeEnv(), FINISH, 'success').split('\t')[6]).toBe('00:00:01:05')
   })
 
   it('includes num_clips from env.clipCount', () => {
-    expect(buildProcessLogRow(makeEnv({ clipCount: 1234 }), FINISH, 'success').split('\t')[5]).toBe('1234')
+    expect(buildProcessLogRow(makeEnv({ clipCount: 1234 }), FINISH, 'success').split('\t')[7]).toBe('1234')
   })
 
   it('computes speed as clips per second', () => {
     // 1000 clips / 65.5 s ≈ 15.27
     const speed = parseFloat(
-      buildProcessLogRow(makeEnv({ clipCount: 1000 }), FINISH, 'success').split('\t')[6],
+      buildProcessLogRow(makeEnv({ clipCount: 1000 }), FINISH, 'success').split('\t')[8],
     )
     expect(speed).toBeCloseTo(15.27, 1)
   })
 
   it('includes status column', () => {
-    expect(buildProcessLogRow(makeEnv(), FINISH, 'error').split('\t')[7]).toBe('error')
+    expect(buildProcessLogRow(makeEnv(), FINISH, 'error').split('\t')[9]).toBe('error')
   })
 
   it('includes problem_clips count', () => {
@@ -100,11 +112,11 @@ describe('buildProcessLogRow', () => {
       { path: 'a.mp3', locale: 'en', reason: ProblemClipReason.TOO_LONG, status: 'EXCLUDED', timestamp: START },
       { path: 'b.mp3', locale: 'en', reason: ProblemClipReason.LONG,     status: 'WARN',     timestamp: START },
     ]
-    expect(buildProcessLogRow(makeEnv({ problemClips: pc }), FINISH, 'success').split('\t')[8]).toBe('2')
+    expect(buildProcessLogRow(makeEnv({ problemClips: pc }), FINISH, 'success').split('\t')[10]).toBe('2')
   })
 
   it('returns 0.00 speed when start equals finish', () => {
-    expect(buildProcessLogRow(makeEnv({ clipCount: 100 }), START, 'success').split('\t')[6]).toBe('0.00')
+    expect(buildProcessLogRow(makeEnv({ clipCount: 100 }), START, 'success').split('\t')[8]).toBe('0.00')
   })
 })
 
@@ -180,7 +192,7 @@ describe('flushReleaseLogs', () => {
     await flushReleaseLogs(makeEnv(), 'success')
     const header = (mockUploadFn.mock.calls[0][0] as Buffer).toString('utf-8').split('\n')[0]
     expect(header).toBe(
-      'locale\tstart_timestamp\tfinish_timestamp\tduration_sec\tduration\tnum_clips\tspeed\tstatus\tproblem_clips',
+      'locale\trelease_type\tfinal_path\tstart_timestamp\tfinish_timestamp\tduration_sec\tduration\tnum_clips\tspeed\tstatus\tproblem_clips',
     )
   })
 

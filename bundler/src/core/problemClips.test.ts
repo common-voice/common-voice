@@ -33,6 +33,7 @@ const makeEnv = (
   releaseDirPath,
   clipsDirPath: path.join(releaseDirPath, 'en', 'clips'),
   releaseTarballsDirPath: path.join(releaseDirPath, 'tarballs'),
+  uploadPath: 'cv-corpus-25.0-2026-03-06/cv-corpus-25.0-2026-03-06-en.tar.gz',
   problemClips: [],
   clipCount: 0,
   startTimestamp: TS,
