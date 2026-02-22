@@ -3,6 +3,7 @@ speak-now = Уажәы шәцәажәа
 speak-subtitle = Шәыбжьы ҭажәҩы
 record-cta = Абжьы аҭаҩра шәалага
 record-platform-not-supported = Ҳгәы иалоуп уажәазы шәара шәыплатформа адгылара ахьамам.
+record-platform-webview = Асоциалтә ҳақәа рзы аԥшьаҿы иҟоу азхьарԥш ала арахь шәҭалар шәылшон. Шәара шәхы иашәырхәоит аудио аҭаҩра злымшо иагәылагалоу абраузер.
 record-platform-not-supported-webview = Амобилтә хархәагақәа рҿы асистематә браузер шәхы иархәаны ацхыраара аҭара шәылшоит…
 record-platform-not-supported-desktop = Аишәа иқәдыргыло акомпиутерқәа ирҭажәгалар шәылшоит аҵыхәтәантәи:
 record-platform-not-supported-ios-non-safari = IOS аҿы аҭаҩра аус аруразы, шәхы иашәырхәа Safari...
