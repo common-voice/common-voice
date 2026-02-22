@@ -25,25 +25,26 @@ about-speak = قسە بکە
 about-speak-text = بەشداربووان بە خوێندنەوەی کۆمەڵە ڕستەیەکی بەخشراو، دەنگ تۆمار دەکەن.
 about-listen-queue = ڕیزی گوێگرتن
 about-listen-queue-text = تۆمارە دەنگییەکان دەخرێنە ناو ڕیزی ناردنەوە، کە بۆ گوێگرتن ئامادەیان دەکات.
-about-listen-text = بەکارهێنەران وردی و ڕاستی کلیپە بەخشراوەکان دەسەلمێنن، کە ئایا بێژەر ڕستەکەی بە درووستی خوێندوەتەوە یان نە.
-about-is-it-valid = ئایا ئەم کلیپە دروستە؟
+about-listen = گوێگرتن
+about-listen-text = بەکارهێنەران ڕاستیی تۆمارە بەخشراوەکان دەسەلمێنن و دڵنیا دەبنەوە لەوەی قسەکەرەکە ڕستەکەی بە دروستی خوێندووەتەوە.
+about-is-it-valid = ئایا تۆمارەکە دروستە؟
 about-is-it-valid-text = کلیپ بە «دروست» دیاری دەکرێت کاتێک کە بەکارهێنەرێک دەنگی بەڵێی پێ بدات.
-about-yes-votes = زیاتر یان بەرامبەر ٢ دەنگی بەڵێ
-about-yes-votes-text = بۆ ئەوەی کە کلیپێک بێتە نێو ئەم زانیاریسێتە پێویستە ٢ کەسی جیاواز بیسەلمێنن.
-about-no-votes = زیاتر یان بەرامبەر ٢ دەنگی نەخێر
-about-no-votes-text = کاتێک کە کەسێک کلیپێک ڕەد بکات کلیپەکە دێتەوە نێو ڕیز. ئەگەر بۆ جاری دووهەم ڕەد بکرێتەوە ئەوکات کلیپەکە دەچێتە گۆڕستانی کلیپەکان.
-about-dataset-new = داتاسێتی دەنگی گشتی
-about-dataset-new-text = دەتیاسێتی دەنگی گشتی سەدان هەزار نموونەی دەنگی لەخۆ دەگرێت کە گەشەپێدەرانی بواری نەرمەکالا دەتوانن بەکاری بێنن بۆ دروست کردنی بەرهەمەکانی ناسینەوەی وتار.
-about-clip-graveyard = گۆڕستانی کلیپ
-about-clip-graveyard-text = گۆڕستانی کلیپەکان ئەو کلیپانە لەخۆ دەگرێت کە نایانتوانیوە بێنە نێو زانیاریسێتی دەنگی گشتی، کلیپەکانی گۆڕستانیش دەتوانی وەک زانیاریسێتەکە دانڵۆد بکەی.
+about-yes-votes = ≥ ٢ دەنگی 'بەڵێ'
+about-yes-votes-text = بۆ ئەوەی بچێتە ناو داتاسێتی "Common Voice"، دەبێت هەر تۆمارێکی دەنگی لەلایەن دوو بەکارهێنەری جیاوازەوە بسەلمێندرێت.
+about-no-votes = ≥ ٢ دەنگی 'نەخێر'
+about-no-votes-text = کاتێک بەکارهێنەرێک تۆمارێکی دەنگی ڕەت دەکاتەوە، دەگەڕێتەوە بۆ ناو ڕیزەکە. ئەگەر بۆ جاری دووەم ڕەت بکرێتەوە، ئەوا دەگوازرێتەوە بۆ گۆڕستانی تۆمارەکان.
+about-dataset-new = داتاسێتی "Common Voice"
+about-dataset-new-text = داتاسێتی "Common Voice" سەدان هەزار نموونەی دەنگی لەخۆ دەگرێت، کە یارمەتیی پەرەپێدەران دەدەن بۆ دروستکردنی ئامرازەکانی ناسینەوەی دەنگ.
+about-clip-graveyard = گۆڕستانی تۆمارەکان
+about-clip-graveyard-text = گۆڕستانی تۆمارەکان لەو تۆمارە دەنگییانە پێک دێت کە نەیانتوانی بچنە ناو داتاسێتی "Common Voice". هەروەک داتاسێتەکە، گۆڕستانی تۆمارەکانیش بەردەستە بۆ دابەزاندن.
 about-get-involved = بەشدار بە
 about-get-involved-text-2 =
-    دەتەوێ پرۆژەی دەنگی گشتی لەوەی هەیە باشتر بکەی؟
-    زۆر چاکە! لە رێگای پۆستی ئەلیکترۆنی یان مەکۆکانی <discourseLink>Discourse</discourseLink> پەیوەندی بکە
-    لە <githubLink>GitHub</githubLink>ەوە گرفتەکانی ماڵپەڕەکەمان بۆ بنێرە،
-    یان لە رێگەی <matrixLink>Matrix</matrixLink>ەوە لەگەڵمان بە.
+    دەتەوێت یارمەتیدەر بیت لە باشترکردنی "Common Voice"؟
+    زۆر باشە! لە ڕێگەی ئیمەیڵ یان مەکۆکانی <discourseLink>Discourse</discourseLink> پەیوەندیمان پێوە بکە، کێشەکانی ماڵپەڕەکە لە ڕێگەی <githubLink>GitHub</githubLink> بنێرە، یان پەیوەندی بکە بە چاتی کۆمەڵگەی <matrixLink>Matrix</matrixLink>.
 about-stay-in-touch = چۆن لە پەیوەندیدا بمێنمەوە؟
-about-stay-in-touch-button = خۆت تۆمار بکە
+about-stay-in-touch-button = دروستکردنی هەژمار
+about-stay-in-touch-text-1 = بۆ لیستی پۆستەکانمان <emailFragment>خۆت تۆمار بکە</emailFragment>، بۆ ئەوەی بزانیت چۆن دەتوانیت بەشداری بکەیت لە کەمپەین و چالاکییەکان و هاوبەشی بکەیت لە دیزاینکردنی تایبەتمەندییە نوێیەکانی "Common Voice".
+about-stay-in-touch-text-2 = دەتوانیت چاوت بە کەسانی تر بکەوێت لە کۆمەڵگەکانی زمانی "Mozilla" لە ڕێگەی چوونە ناو <discordLink>Discord</discordLink> یان <discourseLink>Discourse</discourseLink> بۆ گفتوگۆ بابەتەییەکان، یان <matrixLink>Matrix</matrixLink> بۆ وەرگرتنی ئامۆژگاری خێرا.
 about-nav-why-common-voice = بۆچی؟
 about-nav-how-it-works = چۆن؟
 about-nav-partners = هاوبەشەکان
@@ -54,31 +55,42 @@ about-nav-playbook = فێربە چۆن بەشداری بکەیت
 ## Community Playbook Content
 ## What is a language
 
-about-playbook-what-is-language = زمانەکان چیین لە دەنگی گشتی دا؟
-about-playbook-what-is-language-content-1 = زۆر ڕێگا هەیە بۆ بیرکردنەوە لە زمان. بۆ مەبەستی ناسینەوەی نموونەکانی دەنگ، دەنگی گشتی پێشنیاری جەخت دەخاتە سەر 'لێک تێگەیشتنی'، یان 'ئایا قسەکەرانی ئەم زمانە زۆربەی جار دەتوانن لێک تێبگەن ئەگەر هەوڵ بدەن؟
+about-playbook-what-is-language = زمان لە "Common Voice"دا چییە؟
+about-playbook-what-is-language-content-1 = ڕێگەی زۆر هەن بۆ بیرکردنەوە لە زمان؛ بۆ مەبەستی مۆدێلەکانی ناسینەوەی قسە، "Common Voice" پێشنیار دەکات کە جەخت لەسەر 'لێکتێگەیشتنی هاوبەش' بکرێتەوە. واتە: 'ئایا قسەکەرانی ئەم زمانە، ئەگەر هەوڵ بدەن، دەتوانن تا ڕادەیەکی زۆر لە یەکتر تێبگەن؟'
 about-playbook-what-is-language-content-2 = ئێمە دەمانەوێت مۆدێلەکانی قسەکردن باشتر بن لە تێگەیشتن لە مەودای جۆراوجۆری قسەکەر. بۆ ئەوەی ئەمە ڕووبدات، کۆمەڵە داتایەکی دەنگ دەبێت نوێنەرایەتی کۆمەڵێک کەسی جیاواز بکات.
+about-playbook-what-is-language-content-3 = هەندێک زمان جیاوازییەکی زۆریان لە ڕێزمان، وشەسازی و گۆکردندا هەیە. هەر لەبەر ئەم هۆکارە، لە ساڵی ٢٠٢٢دا <ctaLink>تایبەتمەندیی 'شێوەزارەکان'مان ناساند</ctaLink>. ئەمە ڕێگەیەک دەداتە کۆمەڵگەکان بۆ ئەوەی زمانەکانیان لەناو داتاسێتە گەورەکەدا لە یەکتر جیا بکەنەوە.
 
 ## How do I add a language
 
 about-playbook-how-add-language = چۆن زمانێک زیاد بکەم؟
-about-playbook-how-add-language-content-1 = سەرەتا، بزانە ئاخۆ زمانەکەت <languageLink> بەردەست نییە</languageLink>. ئەگەر نییە ئەوا پێویستە <strong> ماڵپەڕەکە وەرگێڕیت و ڕستەکان کۆبکەیتەوە</strong>.
-about-playbook-how-add-language-translating-heading = وەرگێڕانی سایتەکە
+about-playbook-how-add-language-content-1 = سەرەتا، پشکنیین بکە بزانە زمانەکەت <languageLink>پێشتر بوونی هەیە</languageLink> یان نا. ئەگەر نییە، دەتوانیت <languageRequestLink>داوای زیادکردنی زمانەکەت بکەیت</languageRequestLink>. ئەمەش دوو قۆناغ لەخۆ دەگرێت: وەرگێڕانی ماڵپەڕەکە، و کۆکردنەوەی ڕستەکان.
+about-playbook-how-add-language-translating-heading = وەرگێڕانی ماڵپەڕەکە
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>تەماشای ڕێنماییەکەمان بکە لەسەر چۆنیەتی بەکارهێنانی Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 = ئێمە ئامرازێکی 'Mozilla' بەکاردەهێنین کە ناوی <pontoonLink>Pontoon</pontoonLink>ـە بۆ وەرگێڕانەکان. 'Pontoon' زۆر زمانی تێدایە، بەڵام ئەگەر زمانەکەی تۆی تێدا نەبوو، دەتوانیت <pontoonRequestLink>داوا بکەیت زمانەکەت زیاد بکرێت</pontoonRequestLink>. پاشان، بۆ ئەوەی زمانەکە لە پڕۆژەی 'Common Voice'دا بەردەست بێت، <githubRepoLink>داوای زمانە نوێیەکە لە 'GitHub' بکە</githubRepoLink>. <localizationFragment>بۆ زانیاری زیاتر، سەیری بەشی وەرگێڕانی ماڵپەڕ بکە</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = کۆکردنەوەی ڕستەکان
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>تەماشای ڕێنماییەکەمان بکە لەسەر بەکارهێنانی کۆکەرەوەی ڕستەکان (Sentence Collector) </sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 = دەتوانیت <sentenceCollectorLinkAdd>ژمارەیەکی کەم لە ڕستەکان زیاد بکەیت</sentenceCollectorLinkAdd>، یان دەتوانیت <bulkImportDocsLink>لە ڕێگەی 'GitHub'ـەوە بە کۆمەڵ ڕستەکان هاوردە بکەیت</bulkImportDocsLink>. لە یادتبێت کە پێویستە ڕستەکان <licenseLink>CC0 (یان مافی گشتی)</licenseLink> بن، یان دەتوانیت خۆت ڕستەکان بنووسیت.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>بۆ زانیاریی زیاتر، سەیری بەشی کۆکردنەوەی ڕستەکان بکە</sentenceCollectorFragment>.
 
 ## How does localization work
 
-about-playbook-how-localize = سایتی ناوچەییکردن چۆن کاردەکات؟
-about-playbook-how-localize-content-1 = وەرگێڕانی دەنگی گشتی ڕوودەدات لە <strong> پۆنتوون </strong>.
-about-playbook-how-localize-content-4 = ماڵپەڕەکە ئامادە دەبێت بۆ کردنەوە کاتێک تەواوبوونی گەیشتە ٧٥٪ .
-about-playbook-how-localize-content-5 = سەیری ڕوونکەرەوە ڤیدیۆییەکەمان بکە بۆ یارمەتی
+about-playbook-how-localize = خۆماڵیکردنی ماڵپەڕ چۆن کار دەکات؟
+about-playbook-how-localize-content-1 = وەرگێڕانی ماڵپەڕی 'Common Voice' لەسەر <strong>Pontoon</strong> ئەنجام دەدرێت.
+about-playbook-how-localize-content-2 = ئەگەر هەژمارت نییە، <pontoonAccountLink>هەژمارێک دروست بکە</pontoonAccountLink>. پاشان، زمانەکەت هەڵبژێرە <strong>(‘Team’)</strong> و دواتر پڕۆژەی <pontoonCvLink>Common Voice</pontoonCvLink> دیاری بکە. لەوێدا چەند فایلێک بۆ وەرگێڕان دەبینیت؛ کلیک لەسەر دانەیەکیان بکە، پاشان وشەکان بە ئینگلیزی نیشان دەدات لەگەڵ خانەیەک بۆ وەرگێڕانیان.
+about-playbook-how-localize-content-3 = وەرگێڕانەکە لە ئینگلیزییەوەیە، بەڵام دەتوانیت <strong>Suggestions</strong> (پێشنیارەکان) بە زمانەکانی تریش ببینیت. کلیک لەسەر ئایکۆنی <strong>Profile</strong> بکە، پاشان بچۆ سەر لینکی <strong>Settings</strong> و هەر زمانێک کە دەیزانیت زیادی بکە. لە گۆشەی لای ڕاستی خوارەوە، لیستێکی وەرگێڕانەکان دەبینیت کە پێی دەوترێت <strong>Locales</strong>. وەرگێڕانەکان دوای یەک ڕۆژ لەسەر ماڵپەڕەکە دەردەکەون.
+about-playbook-how-localize-content-4 = ماڵپەڕەکە ئامادە دەبێت بۆ کارپێکردن کاتێک ڕێژەی تەواوبوونی دەگاتە ٪٧٥.
+about-playbook-how-localize-content-5 = بۆ هاوکاری، تەماشای ڤیدیۆیە ڕوونکردنەوەکەمان بکە.
 
 ## How to add sentences
 
 about-playbook-how-add-sentences = چۆن ڕستەکان زیاد بکەم؟
+about-playbook-how-add-sentences-content-1 = دەتوانیت لە <writePageLink>لاپەڕەی نووسین</writePageLink> ڕستەکان زیاد بکەیت، یان لە <reviewPageLink>لاپەڕەی پێداچوونەوە</reviewPageLink> پێداچوونەوە بۆ ڕستەکان بکەیت.
+about-playbook-how-add-sentences-content-2 = پێویستە ڕستەکان لەلایەن دوو کەسەوە پێداچوونەوەیان بۆ بکرێت و پەسەند بکرێن بۆ ئەوەی بخرێنە ناو 'Common Voice'. دەتوانیت لە <languageGuidelinesLink>ئێرە</languageGuidelinesLink> ڕێنمایی بۆ زمانەکەت دابنێیت. پێویستە ڕستەکان لە <licenseLink>مافی گشتی (Public Domain)</licenseLink> بن و درێژییان لە ١٥ وشە کەمتر بێت. دەتوانیت داوا لە خاوەنی تێکستێک بکەیت کە بیکاتە <waiverLink>CC0 بە بەکارهێنانی پڕۆسەی وازهێنان لە مافی ئێمە</waiverLink>، و بۆمانی بنێریت بۆ commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = دەتوانیت <scraperLink>دەرهێنەری ڕستەکان (Sentence extractor)</scraperLink> بەکاربهێنیت بۆ سوودوەرگرتن لە ڕستە کورتەکانی ویکیپیدیا.
 
 ## How to record quality
 
-about-playbook-how-record-quality = چۆن کلیپێکی دەنگیی کوالێتیی بەرز تۆمار بکەم؟
+about-playbook-how-record-quality = چۆن پارچە دەنگێکی کوالێتی بەرز تۆمار بکەم؟
 about-playbook-how-record-content-1 = بە دەنگی ئاسایی خۆت قسە بکە! ئەو شێوازەی تۆ قسەی پێ دەکەیت لێرە پێشوازیی لێ دەکرێت - شێوەزارەکەی خۆت چۆنە ئاوا دەمانەوێت، هەروەها بەرزونزمی و شێواز و نەوای ئاسایی دەنگتمان دەوێت.
 about-playbook-how-record-content-2 = دوور بکەوەرەوە لە ژاوەژاوی زۆری دەورووبەرت - پێویستە بیستنی قسەکانت ئاسان بێت.
 about-playbook-how-record-content-3 = ڕستەکە بەوریایی بخوێنەوە - هیچ وشەیەک فەرامۆش، یان زیاد مەکە، یاخود مەگۆڕە.
