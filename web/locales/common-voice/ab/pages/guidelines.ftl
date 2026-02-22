@@ -166,6 +166,7 @@ transcribe-the-audio-subheader-1-explanation-example-2 = Аимҳәа, ма ас
 transcribe-the-audio-subheader-1-explanation-example-3 = Игәауҭартә иҟоу ашьҭыбжьтә нырра азгәаҭара, иаҳҳәап, афонтә цәажәара, мамзаргьы амашьынақәа рыбжьы
 transcribe-the-audio-subheader-1-explanation-example-4 = Аграмматикатә вариациақәеи асленги шцәырҵуа еиԥш иҭаҩлатәуп. Ауаа ражәаҳәа шәмыриашалан, иара убас аредакциа азыжәымун.
 transcribe-the-audio-subheader-2-explanation-1 = Ахыԥхьаӡарақәеи асимволқәеи нбанла иҩызароуп, аԥхьаӡацқәа, ма иҷыдоу асимволқәа рыламзароуп. Аҿырԥштәы:
+transcribe-the-audio-subheader-2-explanation-2 = Акронимқәа абжьааԥны абызшәаҿы ишанырҵо еиԥш иҩтәуп анбан дуқәа рхархәашьа астандартә ԥҟарақәа инарықәыршәаны. Урҭ фонетикала атранскрипциа рызумзароуп. Аҿырԥштәы:
 # text wrapped in correct will be shown as green text in the UI
 transcribe-the-audio-subheader-2-example-1-correct = <корректное>Ииашоуп</корректное>: Арантәи шә-мильк бжьоуп
 # text wrapped in wrong will be shown as red text in the UI
