@@ -101,6 +101,15 @@ export const redisKeys = {
   /** Total locale jobs scheduled (accumulated with INCRBY across batches). */
   localeTotal: (releaseName: string) =>
     `${REDIS_PREFIX}:jobs:total:${releaseName}`,
+  /** Counter — cumulative clips processed across completed jobs. */
+  clipsCount: (releaseName: string) =>
+    `${REDIS_PREFIX}:clips:count:${releaseName}`,
+  /** Total expected clips (accumulated with INCRBY from init query results). */
+  clipsTotal: (releaseName: string) =>
+    `${REDIS_PREFIX}:clips:total:${releaseName}`,
+  /** ISO 8601 timestamp of the first init job (SET NX — never overwritten). */
+  timeStart: (releaseName: string) =>
+    `${REDIS_PREFIX}:time:start:${releaseName}`,
   /**
    * SET of locale names that have been successfully processed.
    * Used as a fast-path duplicate check before the authoritative GCS call.

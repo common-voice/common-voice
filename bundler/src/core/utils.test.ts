@@ -2,7 +2,14 @@ import * as fs from 'node:fs'
 import * as os from 'node:os'
 import * as path from 'node:path'
 
-import { countLinesInFile, formatDuration, unitToHours } from './utils'
+import {
+  countLinesInFile,
+  formatCompact,
+  formatDuration,
+  formatEta,
+  renderBar,
+  unitToHours,
+} from './utils'
 
 // ---------------------------------------------------------------------------
 // countLinesInFile
@@ -135,5 +142,101 @@ describe('formatDuration', () => {
 
   it('pads single-digit components with a leading zero', () => {
     expect(formatDuration(9_000)).toBe('00:00:00:09')
+  })
+})
+
+// ---------------------------------------------------------------------------
+// renderBar
+// ---------------------------------------------------------------------------
+
+describe('renderBar', () => {
+  it('renders an empty bar at 0%', () => {
+    expect(renderBar(0, 10)).toBe('░░░░░░░░░░')
+  })
+
+  it('renders a full bar at 100%', () => {
+    expect(renderBar(1, 10)).toBe('██████████')
+  })
+
+  it('renders a half-filled bar', () => {
+    expect(renderBar(0.5, 10)).toBe('█████░░░░░')
+  })
+
+  it('clamps values above 1', () => {
+    expect(renderBar(1.5, 10)).toBe('██████████')
+  })
+
+  it('clamps values below 0', () => {
+    expect(renderBar(-0.5, 10)).toBe('░░░░░░░░░░')
+  })
+
+  it('works with 40-char width', () => {
+    const bar = renderBar(0.25, 40)
+    expect(bar).toHaveLength(40)
+    expect(bar.replace(/[^█]/g, '')).toHaveLength(10)
+  })
+})
+
+// ---------------------------------------------------------------------------
+// formatCompact
+// ---------------------------------------------------------------------------
+
+describe('formatCompact', () => {
+  it('shows small numbers as integers', () => {
+    expect(formatCompact(0)).toBe('0')
+    expect(formatCompact(89)).toBe('89')
+    expect(formatCompact(999)).toBe('999')
+  })
+
+  it('formats thousands with K suffix', () => {
+    expect(formatCompact(1_000)).toBe('1.0K')
+    expect(formatCompact(1_234)).toBe('1.2K')
+    expect(formatCompact(42_100)).toBe('42.1K')
+    expect(formatCompact(999_999)).toBe('1000.0K')
+  })
+
+  it('formats millions with M suffix', () => {
+    expect(formatCompact(1_000_000)).toBe('1.0M')
+    expect(formatCompact(2_345_678)).toBe('2.3M')
+    expect(formatCompact(45_600_000)).toBe('45.6M')
+  })
+
+  it('formats billions with B suffix', () => {
+    expect(formatCompact(1_000_000_000)).toBe('1.0B')
+    expect(formatCompact(1_100_000_000)).toBe('1.1B')
+  })
+})
+
+// ---------------------------------------------------------------------------
+// formatEta
+// ---------------------------------------------------------------------------
+
+describe('formatEta', () => {
+  it('returns -- for zero or negative', () => {
+    expect(formatEta(0)).toBe('--')
+    expect(formatEta(-1000)).toBe('--')
+  })
+
+  it('formats seconds', () => {
+    expect(formatEta(8_000)).toBe('8s')
+    expect(formatEta(59_000)).toBe('59s')
+  })
+
+  it('formats minutes and seconds', () => {
+    expect(formatEta(60_000)).toBe('1m')
+    expect(formatEta(192_000)).toBe('3m12s')
+    expect(formatEta(3_540_000)).toBe('59m')
+  })
+
+  it('formats hours and minutes', () => {
+    expect(formatEta(3_600_000)).toBe('1h')
+    expect(formatEta(5_520_000)).toBe('1h32m')
+    expect(formatEta(7_200_000)).toBe('2h')
+  })
+
+  it('formats days and hours', () => {
+    expect(formatEta(86_400_000)).toBe('1d')
+    expect(formatEta(90_000_000)).toBe('1d1h')
+    expect(formatEta(172_800_000)).toBe('2d')
   })
 })

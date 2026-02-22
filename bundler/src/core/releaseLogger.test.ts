@@ -1,19 +1,21 @@
 import * as path from 'node:path'
 
 // mock-prefixed variables are accessible inside jest.mock factory (Jest hoisting exception).
-const mockRpush  = jest.fn(async (_key: string, ..._vals: string[]) => 1)
-const mockExpire = jest.fn(async (_key: string, _ttl: number) => 1)
-const mockIncr   = jest.fn(async (_key: string) => 1)
-const mockGet    = jest.fn(async (_key: string) => null as string | null)
-const mockLrange = jest.fn(async (_key: string, _start: number, _stop: number) => [] as string[])
+const mockRpush   = jest.fn(async (_key: string, ..._vals: string[]) => 1)
+const mockExpire  = jest.fn(async (_key: string, _ttl: number) => 1)
+const mockIncr    = jest.fn(async (_key: string) => 1)
+const mockIncrby  = jest.fn(async (_key: string, _amount: number) => 1)
+const mockGet     = jest.fn(async (_key: string) => null as string | null)
+const mockLrange  = jest.fn(async (_key: string, _start: number, _stop: number) => [] as string[])
 
 jest.mock('../infrastructure/redis', () => ({
   redisClient: {
-    rpush:  mockRpush,
-    expire: mockExpire,
-    incr:   mockIncr,
-    get:    mockGet,
-    lrange: mockLrange,
+    rpush:   mockRpush,
+    expire:  mockExpire,
+    incr:    mockIncr,
+    incrby:  mockIncrby,
+    get:     mockGet,
+    lrange:  mockLrange,
   },
 }))
 
@@ -26,7 +28,11 @@ jest.mock('../infrastructure/storage', () => ({
 }))
 
 import { AppEnv, ProblemClip, ProblemClipReason } from '../types'
-import { buildProcessLogRow, flushReleaseLogs } from './releaseLogger'
+import {
+  buildProcessLogRow,
+  flushReleaseLogs,
+  shouldPrintProgress,
+} from './releaseLogger'
 
 // ---------------------------------------------------------------------------
 // Helpers
@@ -121,6 +127,52 @@ describe('buildProcessLogRow', () => {
 })
 
 // ---------------------------------------------------------------------------
+// shouldPrintProgress
+// ---------------------------------------------------------------------------
+
+describe('shouldPrintProgress', () => {
+  it('prints at flush-interval boundaries', () => {
+    // RELEASE_LOG_FLUSH_INTERVAL = 10
+    expect(shouldPrintProgress(10, 100, 5, 100_000)).toBe(true)
+    expect(shouldPrintProgress(20, 100, 5, 100_000)).toBe(true)
+    expect(shouldPrintProgress(30, 100, 5, 100_000)).toBe(true)
+  })
+
+  it('prints on the final job', () => {
+    expect(shouldPrintProgress(50, 50, 1, 100_000)).toBe(true)
+  })
+
+  it('always prints for the first 20 jobs', () => {
+    expect(shouldPrintProgress(1, 100, 1, 100_000)).toBe(true)
+    expect(shouldPrintProgress(15, 100, 1, 100_000)).toBe(true)
+    expect(shouldPrintProgress(20, 100, 1, 100_000)).toBe(true)
+  })
+
+  it('falls back to every 10th job when clipsTotal is unknown', () => {
+    expect(shouldPrintProgress(30, 100, 5, 0)).toBe(true)   // 30 % 10 === 0
+    expect(shouldPrintProgress(31, 100, 5, 0)).toBe(false)
+  })
+
+  it('always prints for significant jobs (>= 0.5% of clips)', () => {
+    // 500 / 100_000 = 0.005 → significant
+    expect(shouldPrintProgress(33, 100, 500, 100_000)).toBe(true)
+  })
+
+  it('prints every 5th for medium jobs (>= 0.1% of clips)', () => {
+    // 100 / 100_000 = 0.001 → medium
+    expect(shouldPrintProgress(25, 100, 100, 100_000)).toBe(true)  // 25 % 5 === 0
+    expect(shouldPrintProgress(26, 100, 100, 100_000)).toBe(false)
+  })
+
+  it('prints every 10th for tiny jobs (< 0.1% of clips)', () => {
+    // 50 / 100_000 = 0.0005 → tiny
+    expect(shouldPrintProgress(30, 100, 50, 100_000)).toBe(true)   // 30 % 10 === 0
+    expect(shouldPrintProgress(31, 100, 50, 100_000)).toBe(false)
+    expect(shouldPrintProgress(40, 100, 50, 100_000)).toBe(true)   // 40 % 10 === 0
+  })
+})
+
+// ---------------------------------------------------------------------------
 // flushReleaseLogs
 // ---------------------------------------------------------------------------
 
@@ -129,6 +181,7 @@ describe('flushReleaseLogs', () => {
     mockRpush.mockClear()
     mockExpire.mockClear()
     mockIncr.mockClear()
+    mockIncrby.mockClear()
     mockGet.mockClear()
     mockLrange.mockClear()
     mockUploadTE.mockClear()
@@ -151,6 +204,14 @@ describe('flushReleaseLogs', () => {
     await flushReleaseLogs(makeEnv(), 'success')
     expect(mockIncr).toHaveBeenCalledWith(
       'scripted:jobs:count:cv-corpus-25.0-2026-03-06',
+    )
+  })
+
+  it('increments the clips counter by env.clipCount', async () => {
+    await flushReleaseLogs(makeEnv({ clipCount: 4200 }), 'success')
+    expect(mockIncrby).toHaveBeenCalledWith(
+      'scripted:clips:count:cv-corpus-25.0-2026-03-06',
+      4200,
     )
   })
 

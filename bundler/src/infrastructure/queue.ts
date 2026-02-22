@@ -88,9 +88,9 @@ export const addJobsToReleaseQueue = (settings: Settings) =>
               `${filtered.length} locale-license combinations scheduled (licensed only): ${filtered.map(l => `${l.name} (${l.license})`).join(', ')}`,
             )
 
-            return filtered.map(({ name, license }) =>
+            return filtered.map(({ name, license, clip_count }) =>
               attachDatasheetPayload(
-                { locale: name, license, ...settings },
+                { locale: name, license, expectedClipCount: clip_count, ...settings },
                 datasheetPayloads,
               ),
             )
@@ -102,7 +102,9 @@ export const addJobsToReleaseQueue = (settings: Settings) =>
           TE.Do,
           TE.bind('allLocales', () => {
             if (settings.languages.length > 0) {
-              return TE.right(settings.languages.map(l => ({ name: l })))
+              return TE.right(
+                settings.languages.map(l => ({ name: l, clip_count: 0 })),
+              )
             } else {
               return fetchLocalesWithClips(settings.from, settings.until)
             }
@@ -117,7 +119,7 @@ export const addJobsToReleaseQueue = (settings: Settings) =>
             allLocales.forEach(locale => {
               jobs.push(
                 attachDatasheetPayload(
-                  { locale: locale.name, license: undefined, ...settings },
+                  { locale: locale.name, license: undefined, expectedClipCount: locale.clip_count, ...settings },
                   datasheetPayloads,
                 ),
               )
@@ -131,10 +133,10 @@ export const addJobsToReleaseQueue = (settings: Settings) =>
                   )
                 : licensedLocales
 
-            filteredLicensed.forEach(({ name, license }) => {
+            filteredLicensed.forEach(({ name, license, clip_count }) => {
               jobs.push(
                 attachDatasheetPayload(
-                  { locale: name, license, ...settings },
+                  { locale: name, license, expectedClipCount: clip_count, ...settings },
                   datasheetPayloads,
                 ),
               )
@@ -152,7 +154,9 @@ export const addJobsToReleaseQueue = (settings: Settings) =>
         // Default: 'unlicensed' - only process unlicensed
         return pipe(
           settings.languages.length > 0
-            ? TE.right(settings.languages.map(l => ({ name: l })))
+            ? TE.right(
+                settings.languages.map(l => ({ name: l, clip_count: 0 })),
+              )
             : fetchLocalesWithClips(settings.from, settings.until),
           TE.map(locales => {
             logger.info(
@@ -162,7 +166,7 @@ export const addJobsToReleaseQueue = (settings: Settings) =>
 
             return locales.map(locale =>
               attachDatasheetPayload(
-                { locale: locale.name, license: undefined, ...settings },
+                { locale: locale.name, license: undefined, expectedClipCount: locale.clip_count, ...settings },
                 datasheetPayloads,
               ),
             )
@@ -177,26 +181,43 @@ export const addJobsToReleaseQueue = (settings: Settings) =>
     // batches and are cleaned up by the 7-day TTL.
     TE.chainFirst(({ jobs }) =>
       TE.tryCatch(async () => {
-        // Group job count by effective release name (license → "-licensed" suffix).
+        // Group job count and clip count by effective release name
+        // (license → "-licensed" suffix).
         const totals = new Map<string, number>()
+        const clipTotals = new Map<string, number>()
         for (const job of jobs) {
           const name = job.license
             ? `${settings.releaseName}-licensed`
             : settings.releaseName
           totals.set(name, (totals.get(name) ?? 0) + 1)
+          clipTotals.set(
+            name,
+            (clipTotals.get(name) ?? 0) + (job.expectedClipCount ?? 0),
+          )
         }
         for (const [name, batchCount] of totals) {
-          // Accumulate total across batches (atomic INCRBY).
+          const batchClips = clipTotals.get(name) ?? 0
+          // Accumulate totals across batches (atomic INCRBY).
           await redisClient.incrby(redisKeys.localeTotal(name), batchCount)
           await redisClient.expire(redisKeys.localeTotal(name), RELEASE_LOG_KEY_TTL_SEC)
+          // Accumulate expected clip count for progress tracking.
+          if (batchClips > 0) {
+            await redisClient.incrby(redisKeys.clipsTotal(name), batchClips)
+            await redisClient.expire(redisKeys.clipsTotal(name), RELEASE_LOG_KEY_TTL_SEC)
+          }
+          // Record release start time (NX: only the first batch wins).
+          await redisClient.setnx(redisKeys.timeStart(name), new Date().toISOString())
+          await redisClient.expire(redisKeys.timeStart(name), RELEASE_LOG_KEY_TTL_SEC)
           // Refresh TTLs on accumulator keys if they already exist.
           await redisClient.expire(redisKeys.localeCount(name), RELEASE_LOG_KEY_TTL_SEC)
+          await redisClient.expire(redisKeys.clipsCount(name), RELEASE_LOG_KEY_TTL_SEC)
           await redisClient.expire(redisKeys.problemClips(name), RELEASE_LOG_KEY_TTL_SEC)
           await redisClient.expire(redisKeys.processLog(name), RELEASE_LOG_KEY_TTL_SEC)
           await redisClient.expire(redisKeys.done(name), RELEASE_LOG_KEY_TTL_SEC)
           logger.info(
             'QUEUE',
-            `Release "${name}": +${batchCount} locale(s) scheduled`,
+            `Release "${name}": +${batchCount} locale(s) scheduled` +
+              (batchClips > 0 ? ` (~${batchClips.toLocaleString()} clips)` : ''),
           )
         }
       }, err => Error(String(err))),

@@ -72,6 +72,7 @@ export type DatasheetLocalePayload = {
 export type ProcessLocaleJob = Settings & {
   locale: string
   license?: string // specific license for this job (e.g., 'CC-BY-SA-4.0')
+  expectedClipCount?: number // from init query; used for progress tracking
   datasheetPayload?: DatasheetLocalePayload
 }
 
