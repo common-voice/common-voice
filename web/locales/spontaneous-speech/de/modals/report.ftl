@@ -5,6 +5,7 @@ report-modal-subtitle = Welche Probleme haben Sie mit diesem Inhalt?
 offensive_speech = Anstößige Inhalte
 offensive_speech-detail = Der Inhalt beinhaltet respektlose oder beleidigende Sprache.
 empty_or_unintelligible = Leer oder unverständlich
+empty_or_unintelligible-detail = Der Inhalt ist leer, beschädigt, enthält eine andere Sprache usw.
 personally_identifiable_information = Personenbezogene Daten
 personally_identifiable_information-detail = Dieser Inhalt enthält personenbezogene Daten, die sich auf die Identität einer Person beziehen, wie Name, E-Mail-Adresse, Standort, Identifikationsnummer oder Telefonnummer.
 personally_identifiable_information-answer-detail = Dieser Inhalt bittet um personenbezogene Daten, die sich auf die Identität einer Person beziehen, wie Name, E-Mail-Adresse, Standort, Identifikationsnummer oder Telefonnummer.

@@ -165,5 +165,6 @@ press-and-stories-link = Апрессеи астатиақәеи
 
 ## Partner section
 
+partner-section-title = Ҳлахәылаҩны аҟалара
 # icon is an arrow that points to the right
 get-in-touch-button = Шәыҽҳамажәда <icon></icon>
