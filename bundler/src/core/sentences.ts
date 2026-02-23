@@ -56,7 +56,8 @@ const fetchSentences =
         path.join(releaseDirPath, locale, filename),
       )
 
-      logger.info('SENTENCES', `[${locale}] Start streaming sentences`)
+      const label = validated ? 'validated' : 'unvalidated'
+      logger.info('SENTENCES', `[${locale}] START streaming ${label} sentences`)
 
       await pipeline(
         stream,
@@ -65,7 +66,7 @@ const fetchSentences =
         writeStream,
       )
 
-      logger.info('SENTENCES', `[${locale}] Finished streaming. Closing DB connection.`)
+      logger.info('SENTENCES', `[${locale}] FINISH streaming ${label} sentences. Closing DB connection.`)
       const endConnection = () =>
         new Promise<void>((resolve, reject) => {
           conn.end(err => {

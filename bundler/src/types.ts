@@ -1,23 +1,24 @@
 import { Modality } from './config/config'
 
 export const ProblemClipReason = {
-  TOO_SMALL:       'TOO_SMALL',        // GCS object size <= MIN_AUDIO_SIZE_BYTES (likely corrupt)
-  TOO_SHORT:       'TOO_SHORT',        // 0 < duration < MIN_AUDIO_DURATION_MS (warn, kept)
-  LONG:            'LONG',             // CLIP_DURATION_WARN_MS < duration <= MAX_AUDIO_DURATION_MS (warn, kept)
-  TOO_LONG:        'TOO_LONG',         // duration > MAX_AUDIO_DURATION_MS (excluded)
-  DURATION_ZERO:   'DURATION_ZERO',    // mp3-duration-reporter returned 0 ms (excluded)
-  FAILED_DOWNLOAD: 'FAILED_DOWNLOAD',  // GCS download failed (excluded)
+  TOO_SMALL: 'TOO_SMALL', // GCS object size <= MIN_AUDIO_SIZE_BYTES (likely corrupt)
+  TOO_SHORT: 'TOO_SHORT', // 0 < duration < MIN_AUDIO_DURATION_MS (warn, kept)
+  LONG: 'LONG', // CLIP_DURATION_WARN_MS < duration <= MAX_AUDIO_DURATION_MS (warn, kept)
+  TOO_LONG: 'TOO_LONG', // duration > MAX_AUDIO_DURATION_MS (excluded)
+  DURATION_ZERO: 'DURATION_ZERO', // mp3-duration-reporter returned 0 ms (excluded)
+  FAILED_DOWNLOAD: 'FAILED_DOWNLOAD', // GCS download failed (excluded)
 } as const
-export type ProblemClipReason = (typeof ProblemClipReason)[keyof typeof ProblemClipReason]
+export type ProblemClipReason =
+  (typeof ProblemClipReason)[keyof typeof ProblemClipReason]
 
 export type ProblemClipStatus = 'EXCLUDED' | 'WARN'
 
 export type ProblemClip = {
-  path:      string
-  locale:    string
-  reason:    ProblemClipReason
-  status:    ProblemClipStatus
-  timestamp: string  // ISO 8601 — when the problem was detected
+  path: string
+  locale: string
+  reason: ProblemClipReason
+  status: ProblemClipStatus
+  timestamp: string // ISO 8601 -- when the problem was detected
 }
 
 export type ClipRow = {
@@ -52,8 +53,8 @@ export type ReportedSentencesRow = Record<
 export type LicenseMode = 'unlicensed' | 'licensed' | 'both'
 
 export type VariantInfo = {
-  variantToken: string   // e.g. "southwes"
-  variantName: string    // e.g. "Southern Welsh" (value in clips.tsv variant column)
+  variantToken: string // e.g. "southwes"
+  variantName: string // e.g. "Southern Welsh" (value in clips.tsv variant column)
   clipCount: number
 }
 
@@ -66,7 +67,7 @@ export type Settings = {
   languages: string[]
   licenseMode?: LicenseMode
   modality?: Modality
-  datasheetsFile?: string // e.g. "datasheets-v25.0-2026-03-06.json"
+  datasheetsFile?: string // e.g. "datasheets-25.0-2026-03-06.json"
 }
 
 export type DatasheetLocalePayload = {
@@ -110,7 +111,7 @@ export type AppEnv = Settings & {
   releaseDirPath: string
   clipsDirPath: string
   releaseTarballsDirPath: string
-  uploadPath: string           // precomputed GCS path, e.g. "cv-corpus-25.0/cv-corpus-25.0-en.tar.gz"
+  uploadPath: string // precomputed GCS path, e.g. "cv-corpus-25.0/cv-corpus-25.0-en.tar.gz"
   license?: string // specific license for this job (e.g., 'CC-BY-SA-4.0', or NULL for unlicensed)
   // Derived in processor.ts for 'full' releases: "${releaseName}-delta" (with "-licensed" suffix when processing a licensed job).
   // When set, fetchAllClipsPipeline will download this tarball for new clips instead of pulling them individually from GCS
@@ -118,7 +119,7 @@ export type AppEnv = Settings & {
   // Workflow change needed: Release the delta first!
   deltaReleaseName?: string
   datasheetPayload?: DatasheetLocalePayload
-  problemClips: ProblemClip[]  // mutable accumulator, freshly initialised per job
-  clipCount: number            // set after stats step; 0 until then
-  startTimestamp: string       // ISO 8601 — set by deriveJobEnv at job start
+  problemClips: ProblemClip[] // mutable accumulator, freshly initialised per job
+  clipCount: number // set after stats step; 0 until then
+  startTimestamp: string // ISO 8601 -- set by deriveJobEnv at job start
 }

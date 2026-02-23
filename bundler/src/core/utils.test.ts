@@ -82,16 +82,16 @@ describe('unitToHours', () => {
   })
 
   it('respects the sigDig decimal precision', () => {
-    // 3 661 000 ms = 1.016... hrs → 1.01 at 2 sig digits (floor)
+    // 3 661 000 ms = 1.016... hrs -> 1.01 at 2 sig digits (floor)
     expect(unitToHours(3_661_000, 'ms', 2)).toBe(1.01)
-    // 0 sig digits → whole hours, floored
+    // 0 sig digits -> whole hours, floored
     expect(unitToHours(3_601_000, 'ms', 0)).toBe(1)
     // 3 sig digits
     expect(unitToHours(3_661_000, 'ms', 3)).toBe(1.016)
   })
 
   it('floors rather than rounds', () => {
-    // 3 659 000 ms = 1.0163... hrs → floor at 2dp is 1.01, not 1.02
+    // 3 659 000 ms = 1.0163... hrs -> floor at 2dp is 1.01, not 1.02
     expect(unitToHours(3_659_000, 'ms', 2)).toBe(1.01)
   })
 

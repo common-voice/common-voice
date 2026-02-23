@@ -34,7 +34,7 @@ import {
 } from '../config/config'
 import { runFetchSentencesForLocale } from '../core/sentences'
 
-// Pipeline steps — no match at the end so processLocale can inspect the Either result.
+// Pipeline steps -- no match at the end so processLocale can inspect the Either result.
 const processPipeline = pipe(
   RTE.Do,
   RTE.bind('isMinorityLanguage', isMinorityLanguage),
@@ -133,6 +133,9 @@ export const processLocale = async (job: Job<ProcessLocaleJob>) => {
   const env = deriveJobEnv(job.data, getTmpDir())
   const { locale, releaseName, uploadPath } = env
 
+  logger.info('', '-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --')
+  logger.info('PROCESSOR', `[${locale}] ${env.type} job | ${env.license ?? 'unlicensed'} | -> ${uploadPath}`)
+
   const releaseExistsAlready = await pipe(
     doesFileExistInBucket(getDatasetBundlerBucketName())(uploadPath),
     TE.getOrElse(() => T.of(false)),
@@ -140,24 +143,30 @@ export const processLocale = async (job: Job<ProcessLocaleJob>) => {
 
   // Fast-path duplicate check via Redis SET (in-memory, ~1 ms).
   // Falls through to the authoritative GCS check if Redis has no record.
+  // The member key includes the license so that different license jobs for the
+  // same locale are tracked independently (e.g. "en|CC-BY 4.0" vs "en").
+  const doneMember = env.license ? `${locale}|${env.license}` : locale
   const isDoneInRedis =
-    (await redisClient.sismember(redisKeys.done(releaseName), locale)) > 0
+    (await redisClient.sismember(redisKeys.done(releaseName), doneMember)) > 0
 
   if (isDoneInRedis || releaseExistsAlready) {
     if (!isDoneInRedis) {
-      // GCS says done but Redis doesn't know yet — backfill the SET so future
+      // GCS says done but Redis doesn't know yet -- backfill the SET so future
       // checks skip the GCS round-trip.
-      await redisClient.sadd(redisKeys.done(releaseName), locale)
+      await redisClient.sadd(redisKeys.done(releaseName), doneMember)
       await redisClient.expire(redisKeys.done(releaseName), RELEASE_LOG_KEY_TTL_SEC)
     }
     logger.info('PROCESSOR', `[${locale}] Release ${uploadPath} exists already, skipping`)
+    // Credit the expected clip count so the progress bar advances for skipped jobs.
+    // Without this, clipsDone never reaches clipsTotal and the bar freezes.
+    env.clipCount = job.data.expectedClipCount ?? 0
     await flushReleaseLogs(env, 'skipped')
     return
   }
 
   const result = await processPipeline(env)()
   if (E.isRight(result)) {
-    await redisClient.sadd(redisKeys.done(releaseName), locale)
+    await redisClient.sadd(redisKeys.done(releaseName), doneMember)
     await redisClient.expire(redisKeys.done(releaseName), RELEASE_LOG_KEY_TTL_SEC)
   } else {
     logger.error('PROCESSOR', String(result.left))

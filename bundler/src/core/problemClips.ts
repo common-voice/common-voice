@@ -51,7 +51,7 @@ export const runFilterProblemClips = (
           return rawDurationInMs
         }
 
-        // Parse clip_durations.tsv — format: two tab-separated columns with header
+        // Parse clip_durations.tsv -- format: two tab-separated columns with header
         // clip	duration[ms]
         // common_voice_en_1234.mp3	6120
         const lines = fs.readFileSync(durationsPath, 'utf-8').split('\n')
@@ -129,11 +129,18 @@ export const runFilterProblemClips = (
         }
 
         const correctedDuration = rawDurationInMs - excludedDurationMs
-        logger.info(
-          'PROBLEM-CLIPS',
-          `[${locale}] Duration corrected: ${rawDurationInMs} ms → ${correctedDuration} ms` +
-            ` (−${excludedDurationMs} ms from ${excludedClips.size} excluded clip(s))`,
-        )
+        if (excludedClips.size === 0) {
+          logger.info(
+            'PROBLEM-CLIPS',
+            `[${locale}] Total locale duration: ${rawDurationInMs} ms (no clips excluded)`,
+          )
+        } else {
+          logger.info(
+            'PROBLEM-CLIPS',
+            `[${locale}] Total locale duration: ${rawDurationInMs} ms -> ${correctedDuration} ms` +
+              ` (excluded ${excludedClips.size} clip(s), -${excludedDurationMs} ms)`,
+          )
+        }
 
         return correctedDuration
       }, reason => Error(String(reason)))
@@ -144,13 +151,15 @@ export const runFilterProblemClips = (
 // runPushProblemClips
 // ---------------------------------------------------------------------------
 
+const PROBLEM_CLIPS_HEADER = 'path\tlocale\treason\tstatus\ttimestamp'
+
 /**
- * Full-release step that serialises `env.problemClips` and appends each row to
- * the Redis list `problem-clips-rows:<releaseName>`.
+ * Full-release step that serialises `env.problemClips` and:
+ *   1. Writes a per-locale TSV file to `<releaseDirPath>/logs/`.
+ *   2. Appends each row to the Redis list for cross-pod aggregation.
  *
- * The list is a shared accumulator across all pods for this release.
- * `releaseLogger.flushReleaseLogs` reads the list and uploads a TSV snapshot
- * to GCS every 10 locales and at the end of the release.
+ * The Redis list is read by `releaseLogger.flushReleaseLogs` which uploads a
+ * combined TSV snapshot to GCS every N locales and at the end of the release.
  *
  * No-op for delta and statistics releases, or when there are no problem clips.
  */
@@ -161,17 +170,30 @@ export const runPushProblemClips = (): RTE.ReaderTaskEither<
 > =>
   pipe(
     RTE.ask<AppEnv>(),
-    RTE.chainTaskEitherK(({ type, locale, releaseName, problemClips }) => {
+    RTE.chainTaskEitherK(({ type, locale, releaseName, releaseDirPath, problemClips }) => {
       if ((type !== 'full' && type !== 'variants') || problemClips.length === 0) {
         return TE.right(constVoid())
       }
 
       return TE.tryCatch(async () => {
-        const key = redisKeys.problemClips(releaseName)
         const rows = problemClips.map(
           ({ path: p, locale: l, reason, status, timestamp }) =>
             `${p}\t${l}\t${reason}\t${status}\t${timestamp}`,
         )
+
+        // 1. Write per-locale TSV to local filesystem.
+        const logsDir = path.join(releaseDirPath, 'logs')
+        await fs.promises.mkdir(logsDir, { recursive: true })
+        const tsvContent = [PROBLEM_CLIPS_HEADER, ...rows].join('\n') + '\n'
+        const localPath = path.join(logsDir, `problem-clips-${locale}.tsv`)
+        await fs.promises.writeFile(localPath, tsvContent, 'utf-8')
+        logger.info(
+          'PROBLEM-CLIPS',
+          `[${locale}] Wrote ${rows.length} problem-clip row(s) to ${localPath}`,
+        )
+
+        // 2. Push to Redis for cross-pod aggregation.
+        const key = redisKeys.problemClips(releaseName)
         await redisClient.rpush(key, ...rows)
         await redisClient.expire(key, RELEASE_LOG_KEY_TTL_SEC)
         logger.info(

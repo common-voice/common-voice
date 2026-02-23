@@ -29,7 +29,7 @@ type DatasheetsLocaleEntry = {
  * Supports:
  *   - Absolute path: "/path/to/file.json"
  *   - file:// URI: "file:///path/to/file.json"
- *   - Filename: "datasheets-v25.0-2026-03-06.json" (resolved against DATASHEETS_BASE_URL)
+ *   - Filename: "datasheets-25.0-2026-03-06.json" (resolved against DATASHEETS_BASE_URL)
  */
 const resolveSource = (
   datasheetsFile: string,
@@ -40,7 +40,10 @@ const resolveSource = (
   if (datasheetsFile.startsWith('/')) {
     return { type: 'local', path: datasheetsFile }
   }
-  if (datasheetsFile.startsWith('https://') || datasheetsFile.startsWith('http://')) {
+  if (
+    datasheetsFile.startsWith('https://') ||
+    datasheetsFile.startsWith('http://')
+  ) {
     return { type: 'remote', url: datasheetsFile }
   }
   return {
@@ -52,21 +55,13 @@ const resolveSource = (
 /**
  * Fetches the pre-compiled datasheets.json from the cv-datasheets repo
  * (or a local file for testing).
- * Returns an empty map if datasheetsFile is not provided or the fetch fails
- * (non-blocking: the release proceeds without datasheets).
+ * The caller always provides a datasheetsFile (defaulting to `{releaseName}.json`).
+ * Returns an empty map if the fetch fails (non-blocking: release proceeds without datasheets).
  */
 export const fetchDatasheetsPayloads = (
   modality: Modality,
-  datasheetsFile?: string,
+  datasheetsFile: string,
 ): TE.TaskEither<Error, Map<string, DatasheetLocalePayload>> => {
-  if (!datasheetsFile) {
-    logger.info(
-      'DATASHEETS',
-      'No datasheets file specified, skipping datasheet generation',
-    )
-    return TE.right(new Map())
-  }
-
   const datasheetsKey = MODALITY_TO_DATASHEETS_KEY[modality] ?? modality
   const source = resolveSource(datasheetsFile)
 

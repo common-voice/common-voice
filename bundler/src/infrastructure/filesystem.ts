@@ -54,9 +54,7 @@ const countLinesPromise = (filepaths: string[]) =>
       return
     }
 
-    const cc = spawn('wc', ['-l', ...existingFilepaths], {
-      shell: true,
-    })
+    const cc = spawn('wc', ['-l', ...existingFilepaths])
 
     const buffers: Buffer[] = []
 
@@ -90,18 +88,15 @@ const concatFilesPromise = (
   options: { skipFirstLine: boolean } = { skipFirstLine: false },
 ) =>
   new Promise<void>((resolve, reject) => {
-    const startFrom = ['-n', options.skipFirstLine ? '+2' : '+1']
-    const args = [...startFrom, inFilepath, '>>', outFilepath]
-    const cc = spawn('tail', args, {
-      shell: true,
-    })
+    const args = ['-n', options.skipFirstLine ? '+2' : '+1', inFilepath]
+    const cc = spawn('tail', args)
 
-    cc.stdout.on('data', data => logger.debug('TAIL', String(data).trimEnd()))
+    const writeStream = fs.createWriteStream(outFilepath, { flags: 'a' })
+
+    cc.stdout.pipe(writeStream)
     cc.stderr.on('data', data => logger.warn('TAIL', String(data).trimEnd()))
 
-    cc.on('close', () => {
-      resolve()
-    })
+    writeStream.on('finish', () => resolve())
     cc.on('error', reason => reject(reason))
   })
 

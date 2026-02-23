@@ -14,10 +14,10 @@ const makeJson = (overrides: Partial<DatasheetsJson> = {}): DatasheetsJson => ({
   templates: {
     scs: {
       en: '# {{NATIVE_NAME}} ({{LOCALE}})',
-      fr: '# {{NATIVE_NAME}} ({{LOCALE}}) — Français',
+      fr: '# {{NATIVE_NAME}} ({{LOCALE}}) -- Français',
     },
     sps: {
-      fr: '# {{NATIVE_NAME}} ({{LOCALE}}) — SPS',
+      fr: '# {{NATIVE_NAME}} ({{LOCALE}}) -- SPS',
     },
   },
   locales: {
@@ -28,7 +28,7 @@ const makeJson = (overrides: Partial<DatasheetsJson> = {}): DatasheetsJson => ({
         community_fields: { contact: 'team@example.com' },
       },
       de: {
-        // No 'de' key in templates.scs → this locale must be skipped
+        // No 'de' key in templates.scs -> this locale must be skipped
         template_language: 'de',
         metadata: { native_name: 'Deutsch' },
         community_fields: {},
@@ -66,12 +66,12 @@ const writeJson = (obj: object, filename = 'datasheets.json'): string => {
 }
 
 // ---------------------------------------------------------------------------
-// No file provided
+// Non-existent file
 // ---------------------------------------------------------------------------
 
-describe('fetchDatasheetsPayloads — no file provided', () => {
+describe('fetchDatasheetsPayloads -- non-existent file', () => {
   it('returns an empty Map without error', async () => {
-    const result = await fetchDatasheetsPayloads('scripted')()
+    const result = await fetchDatasheetsPayloads('scripted', '/tmp/does-not-exist.json')()
     expect(result._tag).toBe('Right')
     if (result._tag === 'Right') expect(result.right.size).toBe(0)
   })
@@ -81,14 +81,14 @@ describe('fetchDatasheetsPayloads — no file provided', () => {
 // Local file loading
 // ---------------------------------------------------------------------------
 
-describe('fetchDatasheetsPayloads — local absolute path', () => {
+describe('fetchDatasheetsPayloads -- local absolute path', () => {
   it('loads payloads from an absolute path', async () => {
     const filepath = writeJson(makeJson())
     const result = await fetchDatasheetsPayloads('scripted', filepath)()
     expect(result._tag).toBe('Right')
     if (result._tag === 'Right') {
       expect(result.right.has('en')).toBe(true)
-      expect(result.right.size).toBe(1) // de has no template → skipped
+      expect(result.right.size).toBe(1) // de has no template -> skipped
     }
   })
 
@@ -107,7 +107,7 @@ describe('fetchDatasheetsPayloads — local absolute path', () => {
 // Payload shape
 // ---------------------------------------------------------------------------
 
-describe('fetchDatasheetsPayloads — payload structure', () => {
+describe('fetchDatasheetsPayloads -- payload structure', () => {
   it('exposes the template string', async () => {
     const filepath = writeJson(makeJson())
     const result = await fetchDatasheetsPayloads('scripted', filepath)()
@@ -147,10 +147,10 @@ describe('fetchDatasheetsPayloads — payload structure', () => {
 })
 
 // ---------------------------------------------------------------------------
-// Modality key mapping  (scripted → scs, spontaneous → sps)
+// Modality key mapping  (scripted -> scs, spontaneous -> sps)
 // ---------------------------------------------------------------------------
 
-describe('fetchDatasheetsPayloads — modality key mapping', () => {
+describe('fetchDatasheetsPayloads -- modality key mapping', () => {
   it("maps 'scripted' to the 'scs' key in the JSON", async () => {
     const filepath = writeJson(makeJson())
     const result = await fetchDatasheetsPayloads('scripted', filepath)()
@@ -176,7 +176,7 @@ describe('fetchDatasheetsPayloads — modality key mapping', () => {
 // Error recovery
 // ---------------------------------------------------------------------------
 
-describe('fetchDatasheetsPayloads — error recovery', () => {
+describe('fetchDatasheetsPayloads -- error recovery', () => {
   it('returns an empty Map when the file is missing', async () => {
     const result = await fetchDatasheetsPayloads(
       'scripted',

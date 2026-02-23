@@ -14,6 +14,17 @@ export const createWorker: IO.IO<void> = () => {
     async job => {
       switch (job.name) {
         case 'init': {
+          const s = job.data
+          const dash = '-'.repeat(72)
+          const locales = s.languages?.length > 0 ? s.languages.join(', ') : 'all'
+          logger.info('', dash)
+          logger.info('', `  RELEASE: ${s.releaseName}`)
+          logger.info('', `  TYPE: ${s.type} | FROM: ${s.from} | UNTIL: ${s.until}`)
+          logger.info('', `  LOCALES: ${locales} | LICENSE: ${s.licenseMode ?? 'unlicensed'}`)
+          if (s.previousReleaseName) {
+            logger.info('', `  PREV: ${s.previousReleaseName}`)
+          }
+          logger.info('', dash)
           logger.info('WORKER', 'Initializing jobs...')
           return pipe(
             job.data,

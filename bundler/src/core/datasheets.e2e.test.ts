@@ -130,7 +130,7 @@ const setupLocale = (
 const RELEASE_ID = '25.0-2026-03-06'
 const DATASHEETS_FILE =
   process.env.DATASHEETS_FILE ||
-  `https://raw.githubusercontent.com/common-voice/cv-datasheets/1540-pre-compile-release-data-to-json/releases/datasheets-v${RELEASE_ID}.json`
+  `https://raw.githubusercontent.com/common-voice/cv-datasheets/1540-pre-compile-release-data-to-json/releases/datasheets-${RELEASE_ID}.json`
 
 const RELEASE_NAME = `cv-corpus-${RELEASE_ID}`
 

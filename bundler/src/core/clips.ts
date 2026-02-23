@@ -157,7 +157,7 @@ const streamQueryResultToFile = (
 
     const writeStream = fs.createWriteStream(clipsTmpPath)
 
-    logger.info('QUERY', `[${locale}] Start streaming clip metadata`)
+    logger.info('QUERY', `[${locale}] START streaming clip metadata`)
 
     await pipeline(
       stream,
@@ -167,7 +167,7 @@ const streamQueryResultToFile = (
 
     logger.info(
       'QUERY',
-      `[${locale}] Finished streaming. Closing DB connection.`,
+      `[${locale}] FINISH streaming. Closing DB connection.`,
     )
     const endConnection = () =>
       new Promise<void>((resolve, reject) => {
@@ -273,7 +273,7 @@ const fetchAllClipsForLocale = (
   problemClips: ProblemClip[],
 ): TE.TaskEither<Error, void> =>
   TE.tryCatch(async () => {
-    logger.info('CLIPS-DOWNLOAD', `[${locale}] Fetching missing clips from GCS`)
+    logger.info('CLIPS-DL', `[${locale}] START loading clips from GCS`)
 
     const clips: ClipRow[] = []
     const parser = parse({
@@ -323,7 +323,7 @@ const fetchAllClipsForLocale = (
         fs.writeFileSync(clipFilepath, buffer.right)
       } else {
         logger.warn(
-          'CLIPS-DOWNLOAD',
+          'CLIPS-DL',
           `[${locale}] Failed to download ${clipFilename}: ${buffer.left.message}`,
         )
         problemClips.push({
@@ -337,8 +337,8 @@ const fetchAllClipsForLocale = (
     }
 
     logger.info(
-      'CLIPS-DOWNLOAD',
-      `[${locale}] Finished downloading clips from GCS`,
+      'CLIPS-DL',
+      `[${locale}] FINISH loading clips from GCS`,
     )
   }, logError)
 
@@ -371,7 +371,7 @@ const downloadPreviousRelease = (
   const storagePath = `${prevReleaseName}/${tarFilename}`
 
   const downloadRelease = TE.tryCatch(async () => {
-    logger.info('PREV-DOWNLOAD', `Downloading prev release ${storagePath}`)
+    logger.info('PREV-DL', `START downloading prev release ${storagePath}`)
     const writeStream = fs.createWriteStream(
       path.join(getTmpDir(), tarFilename),
     )
@@ -438,12 +438,12 @@ const downloadAndExtractDeltaRelease = (
     TE.chain(exists => {
       if (!exists) {
         logger.info(
-          'DELTA-DOWNLOAD',
-          `${storagePath} not found --GCS fallback applies`,
+          'DELTA-DL',
+          `${storagePath} not found, loading clips individually from GCS`,
         )
         return TE.right(constVoid())
       }
-      logger.info('DELTA-DOWNLOAD', `Downloading ${storagePath} ...`)
+      logger.info('DELTA-DL', `Downloading ${storagePath} ...`)
       return pipe(
         TE.tryCatch(async () => {
           const writeStream = fs.createWriteStream(localTarPath)
@@ -497,7 +497,7 @@ export const fetchAllClipsPipeline = (
         ? downloadAndExtractDeltaRelease(locale, deltaReleaseName, license)
         : TE.right(constVoid()),
     ),
-    // 3. Stream DB query → tmp TSV (metadata for all clips in this release).
+    // 3. Stream DB query -> tmp TSV (metadata for all clips in this release).
     TE.chainFirst(({ clipsTmpPath }) =>
       streamQueryResultToFile(
         clipsTmpPath,

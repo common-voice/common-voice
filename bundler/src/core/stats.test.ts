@@ -15,7 +15,7 @@ describe('unitToHours', () => {
     it('truncates (floors) to specified significant digits', () => {
       // 5_400_000 ms = 1.5 hours
       expect(unitToHours(5_400_000, 'ms', 2)).toBe(1.5)
-      // 4_000_000 ms = 1.1111... hours → floor at 2 sigDig = 1.11
+      // 4_000_000 ms = 1.1111... hours -> floor at 2 sigDig = 1.11
       expect(unitToHours(4_000_000, 'ms', 2)).toBe(1.11)
     })
 
@@ -47,12 +47,12 @@ describe('unitToHours', () => {
 
   describe('significant digits', () => {
     it('floors to 0 decimal places', () => {
-      // 5_400_000 ms = 1.5 hours → floor at 0 sigDig = 1
+      // 5_400_000 ms = 1.5 hours -> floor at 0 sigDig = 1
       expect(unitToHours(5_400_000, 'ms', 0)).toBe(1)
     })
 
     it('floors to 3 decimal places', () => {
-      // 4_000_000 ms = 1.11111... hours → floor at 3 sigDig = 1.111
+      // 4_000_000 ms = 1.11111... hours -> floor at 3 sigDig = 1.111
       expect(unitToHours(4_000_000, 'ms', 3)).toBe(1.111)
     })
   })
@@ -115,7 +115,7 @@ describe('mapLineCountsToStats', () => {
     expect(result.buckets).not.toHaveProperty('clips')
   })
 
-  it('handles files with only header (1 line → 0 data rows)', () => {
+  it('handles files with only header (1 line -> 0 data rows)', () => {
     const counts: LineCounts = {
       'dev.tsv': 1,
       'test.tsv': 1,

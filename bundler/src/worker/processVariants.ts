@@ -71,7 +71,7 @@ export const filterClipsTsvForVariant = (
     if (cols[VARIANT_COL_IDX] === variantName) {
       // HACK: Rewrite locale to compound so CC creates output in the
       // correct subdirectory (CC uses `os.path.join(directory, self.locale)`).
-      // This will be undone after CC runs — see rewriteLocaleColumn call below.
+      // This will be undone after CC runs -- see rewriteLocaleColumn call below.
       cols[LOCALE_COL_IDX] = compoundLocale
       filtered.push(cols.join('\t'))
     }
@@ -119,8 +119,8 @@ export const filterClipDurationsForVariant = (
  * Derives the AppEnv for a single variant within a locale job.
  *
  * Key naming decisions:
- * - `locale` = compound (e.g. "cy-southwes") — used by CC and pipeline steps
- * - `releaseName` = effective name with "-variants" suffix — used for GCS paths and Redis keys
+ * - `locale` = compound (e.g. "cy-southwes") -- used by CC and pipeline steps
+ * - `releaseName` = effective name with "-variants" suffix -- used for GCS paths and Redis keys
  * - `uploadPath` uses effective release name for directory, base release name for filename
  */
 export const deriveVariantEnv = (
@@ -153,13 +153,13 @@ export const deriveVariantEnv = (
 }
 
 // ---------------------------------------------------------------------------
-// uploadToGcsDir — upload a tarball to a specific GCS directory
+// uploadToGcsDir -- upload a tarball to a specific GCS directory
 // ---------------------------------------------------------------------------
 
 /**
  * Uploads a tarball to a specific GCS directory. Unlike `uploadDataset` which
  * derives the directory from the tarball's releaseName, this allows uploading
- * to a different directory — e.g. uploading a tarball named with the base
+ * to a different directory -- e.g. uploading a tarball named with the base
  * releaseName into the `${releaseName}-variants/` directory.
  */
 const uploadToGcsDir = (
@@ -178,7 +178,7 @@ const uploadToGcsDir = (
   )
 
 // ---------------------------------------------------------------------------
-// rewriteLocaleColumn — rewrite locale column in CC output TSV files
+// rewriteLocaleColumn -- rewrite locale column in CC output TSV files
 // ---------------------------------------------------------------------------
 
 /**
@@ -223,22 +223,23 @@ export const rewriteLocaleColumn = (
     fs.writeFileSync(filepath, rewritten.join('\n'), 'utf-8')
     logger.debug(
       'PIPELINE-TOOLS',
-      `[${filename}] Rewrote locale column: ${fromLocale} → ${toLocale}`,
+      `[${filename}] Rewrote locale column: ${fromLocale} -> ${toLocale}`,
     )
   }
 }
 
 // ---------------------------------------------------------------------------
-// linkMatchingClips — hard-link MP3 files from full release to variant dir
+// linkMatchingClips -- hard-link MP3 files from full release to variant dir
 // ---------------------------------------------------------------------------
 
 const linkMatchingClips = (
   srcClipsDir: string,
   dstClipsDir: string,
   clipPaths: Set<string>,
-): number => {
+): { linked: number; missing: string[] } => {
   fs.mkdirSync(dstClipsDir, { recursive: true })
   let linked = 0
+  const missing: string[] = []
   for (const clipFile of clipPaths) {
     const src = path.join(srcClipsDir, clipFile)
     const dst = path.join(dstClipsDir, clipFile)
@@ -251,9 +252,39 @@ const linkMatchingClips = (
         fs.copyFileSync(src, dst)
         linked++
       }
+    } else {
+      missing.push(clipFile)
     }
   }
-  return linked
+  return { linked, missing }
+}
+
+/**
+ * Removes rows from clips.tsv whose path column references a missing MP3.
+ * Returns the reduced set of clip paths that remain.
+ */
+const reconcileClipsTsv = (
+  clipsTsvPath: string,
+  missingClips: Set<string>,
+): Set<string> => {
+  const content = fs.readFileSync(clipsTsvPath, 'utf-8')
+  const lines = content.split('\n')
+  const header = lines[0]
+  const kept: string[] = [header]
+  const keptPaths = new Set<string>()
+
+  for (let i = 1; i < lines.length; i++) {
+    const line = lines[i]
+    if (!line.trim()) continue
+    const clipPath = line.split('\t')[1]
+    if (clipPath && !missingClips.has(clipPath)) {
+      kept.push(line)
+      keptPaths.add(clipPath)
+    }
+  }
+
+  fs.writeFileSync(clipsTsvPath, kept.join('\n') + '\n', 'utf-8')
+  return keptPaths
 }
 
 /**
@@ -274,13 +305,13 @@ const extractClipPaths = (clipsTsvPath: string): Set<string> => {
 }
 
 // ---------------------------------------------------------------------------
-// reconstructClipsTsv — rebuild clips.tsv from CC output files
+// reconstructClipsTsv -- rebuild clips.tsv from CC output files
 // ---------------------------------------------------------------------------
 
 /**
  * Reconstructs clips.tsv by concatenating validated.tsv + invalidated.tsv + other.tsv
  * from the extracted full release tarball. This is the same pattern used by
- * generateStatistics → runGenerateClipsTsv in dataset.ts.
+ * generateStatistics -> runGenerateClipsTsv in dataset.ts.
  */
 const reconstructClipsTsv = (
   locale: string,
@@ -290,6 +321,16 @@ const reconstructClipsTsv = (
   const filepaths = CORPORA_CREATOR_CLIP_SPLIT_FILES.map(f =>
     path.join(releaseDir, locale, f),
   )
+
+  // Remove any pre-existing clips.tsv so the append-mode concatFiles calls
+  // start from a clean slate. Without this, a stale clips.tsv left over from
+  // an earlier pipeline run (e.g. the full release that produced the tarball)
+  // would survive tar extraction (clips.tsv is excluded from the tarball) and
+  // the CC output rows would be appended to it, doubling the entries.
+  if (fs.existsSync(clipsTsvPath)) {
+    fs.rmSync(clipsTsvPath)
+  }
+
   return pipe(
     TE.Do,
     TE.chain(() => concatFiles(filepaths[0], clipsTsvPath)),
@@ -303,7 +344,7 @@ const reconstructClipsTsv = (
 }
 
 // ---------------------------------------------------------------------------
-// processVariants — main entry point
+// processVariants -- main entry point
 // ---------------------------------------------------------------------------
 
 export const processVariants = async (job: Job<ProcessLocaleJob>) => {
@@ -370,7 +411,7 @@ export const processVariants = async (job: Job<ProcessLocaleJob>) => {
     return
   }
 
-  // Extract into tmpDir — tar will recreate the releaseName/locale/ structure
+  // Extract into tmpDir -- tar will recreate the releaseName/locale/ structure
   logger.info('VARIANTS', `[${locale}] Extracting full release tarball`)
   const extractResult = await extractTar(fullTarLocalPath, tmpDir)()
   if (E.isLeft(extractResult)) {
@@ -408,6 +449,7 @@ export const processVariants = async (job: Job<ProcessLocaleJob>) => {
     const compoundLocale = `${locale}-${variant.variantToken}`
     const env = deriveVariantEnv(job.data, variant, tmpDir)
 
+    logger.info('', '-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --')
     logger.info(
       'VARIANTS',
       `[${compoundLocale}] Processing variant: ${variant.variantName} (${variant.clipCount} clips)`,
@@ -459,10 +501,21 @@ export const processVariants = async (job: Job<ProcessLocaleJob>) => {
       logger.info('VARIANTS', `[${compoundLocale}] ${matchCount} clips matched`)
 
       // 5c. Hard-link matching MP3 files
-      const clipPaths = extractClipPaths(variantClipsTsv)
+      let clipPaths = extractClipPaths(variantClipsTsv)
       const variantClipsDir = path.join(variantDir, 'clips')
-      const linkedCount = linkMatchingClips(srcClipsDir, variantClipsDir, clipPaths)
-      logger.info('VARIANTS', `[${compoundLocale}] Linked ${linkedCount} MP3 files`)
+      const linkResult = linkMatchingClips(srcClipsDir, variantClipsDir, clipPaths)
+      logger.info('VARIANTS', `[${compoundLocale}] Linked ${linkResult.linked} MP3 files`)
+
+      // Defense-in-depth: if some TSV entries have no matching MP3, drop them
+      // from clips.tsv so CorporaCreator and the tarball stay consistent.
+      if (linkResult.missing.length > 0) {
+        logger.warn(
+          'VARIANTS',
+          `[${compoundLocale}] ${linkResult.missing.length} clip(s) in TSV but missing from source -- removing from clips.tsv`,
+        )
+        const missingSet = new Set(linkResult.missing)
+        clipPaths = reconcileClipsTsv(variantClipsTsv, missingSet)
+      }
 
       // 5d. Filter clip_durations.tsv
       const variantDurationsPath = path.join(variantDir, 'clip_durations.tsv')
@@ -497,7 +550,7 @@ export const processVariants = async (job: Job<ProcessLocaleJob>) => {
         locale,
       )
 
-      // 5h. Compress — tarball named with BASE releaseName (short name)
+      // 5h. Compress -- tarball named with BASE releaseName (short name)
       const tarballsDir = env.releaseTarballsDirPath
       prepareDir(tarballsDir)()
 

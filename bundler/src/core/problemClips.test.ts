@@ -242,9 +242,9 @@ describe('runFilterProblemClips', () => {
   it('removes only EXCLUDED clips from clips.tsv; WARN clips are kept', async () => {
     writeDurations([
       ['too-long.mp3', 35000],   // EXCLUDED
-      ['long-warn.mp3', 20000],  // WARN — kept
-      ['short-warn.mp3', 200],   // WARN — kept
-      ['normal.mp3', 5000],      // normal — kept
+      ['long-warn.mp3', 20000],  // WARN -- kept
+      ['short-warn.mp3', 200],   // WARN -- kept
+      ['normal.mp3', 5000],      // normal -- kept
     ])
     writeClipsTsv(['too-long.mp3', 'long-warn.mp3', 'short-warn.mp3', 'normal.mp3'])
 

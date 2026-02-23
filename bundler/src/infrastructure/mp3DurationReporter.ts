@@ -27,9 +27,6 @@ const runMp3DurationReporterPromise = (
     const cc = spawn(
       'mp3-duration-reporter',
       [path.join(releaseDirPath, locale, 'clips')],
-      {
-        shell: true,
-      },
     )
 
     let totalDurationInMs = 0

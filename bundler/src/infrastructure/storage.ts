@@ -24,11 +24,12 @@ const streamUpload =
       () =>
         new Promise<void>((resolve, reject) => {
           const file = storage.bucket(bucket).file(path)
-          logger.debug('STORAGE', `Uploading ${path} to ${bucket}`)
+          const shortPath = path.includes('/') ? path.substring(path.indexOf('/') + 1) : path
+          logger.debug('STORAGE', `Uploading ${shortPath}`)
           data
             .pipe(file.createWriteStream())
             .on('finish', () => {
-              logger.info('STORAGE', `Uploaded ${path} to ${bucket}`)
+              logger.info('STORAGE', `Uploaded ${shortPath}`)
               resolve()
             })
             .on('error', (err: Error) => {
@@ -48,7 +49,8 @@ const upload =
       async () => {
         const file = storage.bucket(bucket).file(path)
         await file.save(data)
-        logger.info('STORAGE', `Uploaded ${path}`)
+        const shortPath = path.includes('/') ? path.substring(path.indexOf('/') + 1) : path
+        logger.info('STORAGE', `Uploaded ${shortPath}`)
       },
       (err: unknown) => Error(String(err)),
     )

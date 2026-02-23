@@ -99,10 +99,10 @@ export const shouldPrintProgress = (
  *      `<releaseName>/logs/problem-clips.tsv`
  *      `<releaseName>/logs/process-log.tsv`
  *
- * Because Redis INCR is atomic, exactly one pod triggers each flush —
+ * Because Redis INCR is atomic, exactly one pod triggers each flush --
  * no distributed lock needed.
  *
- * Errors are swallowed and logged — log failures must never fail a locale job.
+ * Errors are swallowed and logged -- log failures must never fail a locale job.
  */
 export const flushReleaseLogs = async (
   env: AppEnv,

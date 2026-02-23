@@ -19,7 +19,7 @@ jest.mock('../infrastructure/redis', () => ({
   },
 }))
 
-// Upload chain: uploadToBucket(bucket)(path)(buffer) — mockUploadFn receives the Buffer
+// Upload chain: uploadToBucket(bucket)(path)(buffer) -- mockUploadFn receives the Buffer
 const mockUploadTE = jest.fn(async () => ({ _tag: 'Right' as const, right: undefined }))
 const mockUploadFn = jest.fn((_buf: Buffer) => mockUploadTE)
 
@@ -154,18 +154,18 @@ describe('shouldPrintProgress', () => {
   })
 
   it('always prints for significant jobs (>= 0.5% of clips)', () => {
-    // 500 / 100_000 = 0.005 → significant
+    // 500 / 100_000 = 0.005 -> significant
     expect(shouldPrintProgress(33, 100, 500, 100_000)).toBe(true)
   })
 
   it('prints every 5th for medium jobs (>= 0.1% of clips)', () => {
-    // 100 / 100_000 = 0.001 → medium
+    // 100 / 100_000 = 0.001 -> medium
     expect(shouldPrintProgress(25, 100, 100, 100_000)).toBe(true)  // 25 % 5 === 0
     expect(shouldPrintProgress(26, 100, 100, 100_000)).toBe(false)
   })
 
   it('prints every 10th for tiny jobs (< 0.1% of clips)', () => {
-    // 50 / 100_000 = 0.0005 → tiny
+    // 50 / 100_000 = 0.0005 -> tiny
     expect(shouldPrintProgress(30, 100, 50, 100_000)).toBe(true)   // 30 % 10 === 0
     expect(shouldPrintProgress(31, 100, 50, 100_000)).toBe(false)
     expect(shouldPrintProgress(40, 100, 50, 100_000)).toBe(true)   // 40 % 10 === 0
@@ -186,7 +186,7 @@ describe('flushReleaseLogs', () => {
     mockLrange.mockClear()
     mockUploadTE.mockClear()
     mockUploadFn.mockClear()
-    // Default: count = 1, total = 100 → no flush
+    // Default: count = 1, total = 100 -> no flush
     mockIncr.mockResolvedValue(1)
     mockGet.mockResolvedValue('100')
     mockLrange.mockResolvedValue([])

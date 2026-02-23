@@ -49,16 +49,17 @@ const attachDatasheetPayload = (
 export const addJobsToReleaseQueue = (settings: Settings) =>
   pipe(
     TE.Do,
-    // Fetch datasheets.json once before dispatching locale jobs.
+    // Fetch datasheets.json before dispatching locale jobs.
+    // Default file name is derived from the release name when not provided.
     // Non-blocking: an empty map means no datasheets will be generated.
     TE.bind('datasheetPayloads', () =>
       fetchDatasheetsPayloads(
         settings.modality ?? 'scripted',
-        settings.datasheetsFile,
+        settings.datasheetsFile ?? `${settings.releaseName}.json`,
       ),
     ),
     TE.bind('jobs', ({ datasheetPayloads }) => {
-      // Variant releases have their own dispatch path — one job per locale
+      // Variant releases have their own dispatch path -- one job per locale
       // carrying all variants for that locale. No license mode branching.
       if (settings.type === 'variants') {
         return pipe(
@@ -133,15 +134,21 @@ export const addJobsToReleaseQueue = (settings: Settings) =>
         // Process both unlicensed and licensed for all locales
         return pipe(
           TE.Do,
-          TE.bind('allLocales', () => {
-            if (settings.languages.length > 0) {
-              return TE.right(
-                settings.languages.map(l => ({ name: l, clip_count: 0 })),
-              )
-            } else {
-              return fetchLocalesWithClips(settings.from, settings.until)
-            }
-          }),
+          TE.bind('allLocales', () =>
+            pipe(
+              fetchLocalesWithClips(settings.from, settings.until),
+              TE.map(locales => {
+                if (settings.languages.length === 0) return locales
+                // Keep all requested locales (even those with 0 clips) but
+                // use actual DB clip counts for progress tracking.
+                const countMap = new Map(locales.map(l => [l.name, l.clip_count]))
+                return settings.languages.map(l => ({
+                  name: l,
+                  clip_count: countMap.get(l) ?? 0,
+                }))
+              }),
+            ),
+          ),
           TE.bind('licensedLocales', () =>
             fetchLocalesWithLicensedClips(settings.from, settings.until),
           ),
@@ -186,12 +193,19 @@ export const addJobsToReleaseQueue = (settings: Settings) =>
       } else {
         // Default: 'unlicensed' - only process unlicensed
         return pipe(
-          settings.languages.length > 0
-            ? TE.right(
-                settings.languages.map(l => ({ name: l, clip_count: 0 })),
-              )
-            : fetchLocalesWithClips(settings.from, settings.until),
-          TE.map(locales => {
+          fetchLocalesWithClips(settings.from, settings.until),
+          TE.map(allLocales => {
+            const locales =
+              settings.languages.length > 0
+                ? (() => {
+                    const countMap = new Map(allLocales.map(l => [l.name, l.clip_count]))
+                    return settings.languages.map(l => ({
+                      name: l,
+                      clip_count: countMap.get(l) ?? 0,
+                    }))
+                  })()
+                : allLocales
+
             logger.info(
               'QUEUE',
               `${locales.length} locales scheduled (unlicensed only): ${locales.map(l => l.name).join(', ')}`,
@@ -209,13 +223,13 @@ export const addJobsToReleaseQueue = (settings: Settings) =>
     }),
     // Accumulate locale totals in Redis before jobs are enqueued.
     // Using INCRBY (not SET) so multiple batches for the same release
-    // accumulate correctly — `count == total` fires only when ALL batches
+    // accumulate correctly -- `count == total` fires only when ALL batches
     // across ALL runs are done. Lists are never deleted: they grow across
     // batches and are cleaned up by the 7-day TTL.
     TE.chainFirst(({ jobs }) =>
       TE.tryCatch(async () => {
         // Group job count and clip count by effective release name
-        // (license → "-licensed" suffix, variants → "-variants" suffix).
+        // (license -> "-licensed" suffix, variants -> "-variants" suffix).
         const totals = new Map<string, number>()
         const clipTotals = new Map<string, number>()
         for (const job of jobs) {

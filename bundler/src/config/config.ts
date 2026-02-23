@@ -46,8 +46,11 @@ export type Config = {
 }
 
 // Base URL for pre-compiled datasheets JSON files in the cv-datasheets repo.
-// The filename (e.g. "datasheets-v25.0-2026-03-06.json") is provided via CLI.
+// The filename (e.g. "datasheets-25.0-2026-03-06.json") is provided via CLI.
+// Override via DATASHEETS_BASE_URL env var to point to an unmerged branch or commit:
+//   DATASHEETS_BASE_URL=https://raw.githubusercontent.com/common-voice/cv-datasheets/<commit>/releases
 export const DATASHEETS_BASE_URL =
+  process.env.DATASHEETS_BASE_URL ||
   'https://raw.githubusercontent.com/common-voice/cv-datasheets/main/releases'
 
 export type Modality = 'scripted' | 'spontaneous' | 'code_switching'
@@ -95,19 +98,19 @@ export const redisKeys = {
   /** List of serialised TSV rows for the process-log report. */
   processLog: (releaseName: string) =>
     `${REDIS_PREFIX}:log:process:${releaseName}`,
-  /** Counter — number of locale jobs completed (incremented by each pod). */
+  /** Counter -- number of locale jobs completed (incremented by each pod). */
   localeCount: (releaseName: string) =>
     `${REDIS_PREFIX}:jobs:count:${releaseName}`,
   /** Total locale jobs scheduled (accumulated with INCRBY across batches). */
   localeTotal: (releaseName: string) =>
     `${REDIS_PREFIX}:jobs:total:${releaseName}`,
-  /** Counter — cumulative clips processed across completed jobs. */
+  /** Counter -- cumulative clips processed across completed jobs. */
   clipsCount: (releaseName: string) =>
     `${REDIS_PREFIX}:clips:count:${releaseName}`,
   /** Total expected clips (accumulated with INCRBY from init query results). */
   clipsTotal: (releaseName: string) =>
     `${REDIS_PREFIX}:clips:total:${releaseName}`,
-  /** ISO 8601 timestamp of the first init job (SET NX — never overwritten). */
+  /** ISO 8601 timestamp of the first init job (SET NX -- never overwritten). */
   timeStart: (releaseName: string) =>
     `${REDIS_PREFIX}:time:start:${releaseName}`,
   /**
@@ -121,7 +124,10 @@ const resolveLogLevel = (env: string): LogLevel => {
   // LOG_LEVEL is optional -- no deployment config changes needed.
   // Falls back to environment-based defaults derived from the existing ENVIRONMENT var.
   const explicit = process.env.LOG_LEVEL as LogLevel | undefined
-  if (explicit && ['debug', 'info', 'warn', 'error', 'silent'].includes(explicit)) {
+  if (
+    explicit &&
+    ['debug', 'info', 'warn', 'error', 'silent'].includes(explicit)
+  ) {
     return explicit
   }
   // sandbox / staging / stage default to debug; production and local default to info
