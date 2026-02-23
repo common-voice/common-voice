@@ -43,6 +43,7 @@ x-years-short =
     }
 help-make-dataset = Зхаҭабзиара ҳараку, иаарту адыррақәа реизга аԥҵара шәҳацхраа
 sign-up-account = Аккаунт аҭагалара
+email-subscription-title-v3 = Common Voice, Mozilla Foundation рырҿыцрақәа шәыҽрыҵажәҩы
 
 ## Account Benefits
 
@@ -87,12 +88,15 @@ spontaneous-speech = АСПОНТАНТӘ ЖӘАҲӘА
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = Алахәыларақәа, апрессеи астатиақәеи, аилазаареи абызшәақәеи
+partnerships-menu-item-tooltip = Ҳлахәылаҩны аҟалара
 press-and-stories-menu-item-tooltip = Шәаҭаа ҳаблог, ма ҳара иҳазкны ианышәҵа
+community-and-languages-menu-item-tooltip = Абызшәақәа, аилазаарақәа, азеиԥш бжьы шәхазы иаашәырты
 
 ## MENU ITEM ARIA LABELS
 
 about-us-menu-aria-label = «Ҳара иҳазкны» архиарақәа рыхкынҵа
 about-us-menu-item-aria-label = Апараметрқәа «Ҳара иҳазкны» рыхкынҵа
+partnerships-menu-item-aria-label = Common Voice аус ацура атәы еилышәкаа
 
 ## Hero section
 
