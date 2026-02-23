@@ -94,9 +94,11 @@ community-and-languages-menu-item-tooltip = Абызшәақәа, аилазаа
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = Алахәыларақәеи, апрессеи, аҭоурыхқәеи, аилазаареи, абызшәақәеи рахь анеиразы ахкынҵа
 about-us-menu-aria-label = «Ҳара иҳазкны» архиарақәа рыхкынҵа
 about-us-menu-item-aria-label = Апараметрқәа «Ҳара иҳазкны» рыхкынҵа
 partnerships-menu-item-aria-label = Common Voice аус ацура атәы еилышәкаа
+community-and-languages-menu-item-aria-label = Common Voice адгылара знаҭо аилазаареи абызшәақәеи ртәы еилышәкаа
 
 ## Hero section
 
