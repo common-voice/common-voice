@@ -62,6 +62,7 @@ player-speed-fast = Ирласны
 # Player control shortcut for play/pause: pressed with Ctrl/Cmd
 player-play-pause-shortcut = p
 player-play-pause-shortcut-key = Ctrl / Cmd + P
+player-play-pause-shortcut-name = Арҳәара/Ааҭгылара
 # Player control shortcut to go back 5 seconds: pressed with Ctrl/Cmd
 player-skip-backward-shortcut = 8
 player-skip-backward-shortcut-key = Ctrl / Cmd + 8
@@ -73,6 +74,8 @@ player-skip-forward-shortcut-name = Ԥхьаҟа
 
 ## Transcription Player - Aria Labels
 
+# Play button accessibility/aria label
+player-play-button-aria-label = Аудио арҳәара
 # Skip back button accessibility/aria label
 player-skip-backward-aria-label = 5 секундк шьҭахьҟа аиасра
 # Skip forward button accessibility/aria label

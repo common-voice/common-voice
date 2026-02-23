@@ -1,6 +1,7 @@
 ## Validate Page
 
 dataset-label = Адыррақәа реизга
+reject-vote-toast-message = Азҵаара қәҿиарала мап ацәкуп
 validate-page-yes-button-shortcut = Y
 validate-page-no-button-shortcut = N
 validate-page-skip-button-shortcut = S

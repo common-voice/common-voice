@@ -4,6 +4,7 @@
 prompt-page-instruction = { $actionType }<microIcon></microIcon>насгьы иахьынӡашәылшо иԥсабаратәны аҭак ҟашәҵала
 error-recording = Аҭаҩраан агха ҟалеит
 prompt-submitted-success = Аҭак қәҿиарала инашьҭуп
+prompt-response-deleted-success = Аҭак қәҿиарала ианыхуп
 # For the button to delete a response to a prompt
 delete = Аныхра
 # For the disabled button on a prompt that indicates a prompt is already submitted
@@ -15,6 +16,7 @@ submit-all-button = Зегьы анашьҭра
 
 learn-how-to-use-prompts = Ари адаҟьа шәхы ишашәырхәаша еилышәкаа
 learn-how-to-use-prompts-guidance = <guidanceLink>Абра</guidanceLink>шәақәыӷәӷәа ари адаҟьа шәхы ишашәырхәаша еилышәкаарц азы
+learn-how-to-use-transcribe = Атранскрипциа шазутәу еилышәкаа
 learn-how-to-use-transcribe-guidance = <guidanceLink>Абра</guidanceLink>шәақәыӷәӷәа ари адаҟьа шәхы ишашәырхәаша еилышәкаарц азы
 learn-how-to-use-check-transcript = Еилышәкаа атранскрипциа шгәаҭатәу
 learn-how-to-use-check-transcript-guidance = <guidanceLink>Абра</guidanceLink>шәақәыӷәӷәа ари адаҟьа шәхы ишашәырхәаша еилышәкаарц азы
