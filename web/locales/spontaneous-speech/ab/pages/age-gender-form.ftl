@@ -1,6 +1,7 @@
 # Age and Gender form
 age-gender-form-title = Иҭабуп Spontanious Speech азы иҟашәҵаз алагалазы!
 add-information-button = Аинформациа ацҵара
+continue-speaking-button = Ацәажәара ацҵара
 age-select-label = Шаҟа шықәса шәхыҵуазеи?
 select-your-age = Шәықәра алышәх
 country-of-residence-label = Атәыла/Аҟазаара арегион
