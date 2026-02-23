@@ -166,5 +166,7 @@ press-and-stories-link = Апрессеи астатиақәеи
 ## Partner section
 
 partner-section-title = Ҳлахәылаҩны аҟалара
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Ауаажәларратә еилазаареи аҭҵааҩцәеи</bold> - ихәарҭоу адыррақәа реизга хәыда-ԥсада иаԥышәҵала, иқәшәыргылала, еимыжәдала
 # icon is an arrow that points to the right
 get-in-touch-button = Шәыҽҳамажәда <icon></icon>
