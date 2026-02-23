@@ -10,6 +10,7 @@ platform-language-tooltip-text = Авеб-саит атекст мацароуп
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Адыррақәа реизгаҿы аҽалархәра { $language } азы
+contribution-picker-tooltip-text = Заԥҵара шәацхраауа абызшәатә дыррақәа реизга аԥсахуеит
 coming-soon = Лассы еиҳа еиҳаны абызшәақәа ацаҳҵоит
 # Toast message that is displayed when an item is skipped
 skipped = Ибжьажьуп
