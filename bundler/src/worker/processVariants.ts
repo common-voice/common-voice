@@ -1,6 +1,7 @@
 import * as fs from 'node:fs'
 import { rm as rmAsync } from 'node:fs/promises'
 import * as path from 'node:path'
+import { createInterface } from 'node:readline'
 import { pipeline } from 'node:stream/promises'
 
 import { either as E, task as T, taskEither as TE } from 'fp-ts'
@@ -53,19 +54,27 @@ const CC_FILES_WITH_LOCALE = [...CORPORA_CREATOR_FILES] as string[]
  *
  * Returns the number of matching clips (excluding header).
  */
-export const filterClipsTsvForVariant = (
+export const filterClipsTsvForVariant = async (
   srcClipsTsv: string,
   dstClipsTsv: string,
   variantName: string,
   compoundLocale: string,
-): number => {
-  const content = fs.readFileSync(srcClipsTsv, 'utf-8')
-  const lines = content.split('\n')
-  const header = lines[0]
+): Promise<number> => {
+  fs.mkdirSync(path.dirname(dstClipsTsv), { recursive: true })
 
-  const filtered: string[] = [header]
-  for (let i = 1; i < lines.length; i++) {
-    const line = lines[i]
+  const readStream = fs.createReadStream(srcClipsTsv, { encoding: 'utf-8' })
+  const writeStream = fs.createWriteStream(dstClipsTsv, { encoding: 'utf-8' })
+  const rl = createInterface({ input: readStream, crlfDelay: Infinity })
+
+  let isHeader = true
+  let count = 0
+
+  for await (const line of rl) {
+    if (isHeader) {
+      writeStream.write(line + '\n')
+      isHeader = false
+      continue
+    }
     if (!line.trim()) continue
     const cols = line.split('\t')
     if (cols[VARIANT_COL_IDX] === variantName) {
@@ -73,45 +82,58 @@ export const filterClipsTsvForVariant = (
       // correct subdirectory (CC uses `os.path.join(directory, self.locale)`).
       // This will be undone after CC runs -- see rewriteLocaleColumn call below.
       cols[LOCALE_COL_IDX] = compoundLocale
-      filtered.push(cols.join('\t'))
+      writeStream.write(cols.join('\t') + '\n')
+      count++
     }
   }
 
-  fs.mkdirSync(path.dirname(dstClipsTsv), { recursive: true })
-  fs.writeFileSync(dstClipsTsv, filtered.join('\n') + '\n', 'utf-8')
+  await new Promise<void>((resolve, reject) => {
+    writeStream.on('finish', resolve)
+    writeStream.on('error', reject)
+    writeStream.end()
+  })
 
-  return filtered.length - 1 // exclude header
+  return count
 }
 
 /**
  * Filters clip_durations.tsv to only clips present in the variant.
  * Returns the total duration in ms of matching clips.
  */
-export const filterClipDurationsForVariant = (
+export const filterClipDurationsForVariant = async (
   srcDurationsPath: string,
   dstDurationsPath: string,
   matchingClipPaths: Set<string>,
-): number => {
+): Promise<number> => {
   if (!fs.existsSync(srcDurationsPath)) return 0
 
-  const content = fs.readFileSync(srcDurationsPath, 'utf-8')
-  const lines = content.split('\n')
-  const header = lines[0]
+  const readStream = fs.createReadStream(srcDurationsPath, { encoding: 'utf-8' })
+  const writeStream = fs.createWriteStream(dstDurationsPath, { encoding: 'utf-8' })
+  const rl = createInterface({ input: readStream, crlfDelay: Infinity })
 
-  const filtered: string[] = [header]
+  let isHeader = true
   let totalDurationMs = 0
 
-  for (let i = 1; i < lines.length; i++) {
-    const line = lines[i]
+  for await (const line of rl) {
+    if (isHeader) {
+      writeStream.write(line + '\n')
+      isHeader = false
+      continue
+    }
     if (!line.trim()) continue
     const [clip, durationStr] = line.split('\t')
     if (matchingClipPaths.has(clip)) {
-      filtered.push(line)
+      writeStream.write(line + '\n')
       totalDurationMs += Number(durationStr)
     }
   }
 
-  fs.writeFileSync(dstDurationsPath, filtered.join('\n') + '\n', 'utf-8')
+  await new Promise<void>((resolve, reject) => {
+    writeStream.on('finish', resolve)
+    writeStream.on('error', reject)
+    writeStream.end()
+  })
+
   return totalDurationMs
 }
 
@@ -377,6 +399,7 @@ export const processVariants = async (job: Job<ProcessLocaleJob>) => {
     // Flush error status for each variant so progress counters stay accurate
     for (const variant of variants) {
       const env = deriveVariantEnv(job.data, variant, tmpDir)
+      env.clipCount = variant.clipCount
       await flushReleaseLogs(env, 'error')
     }
     return
@@ -400,6 +423,7 @@ export const processVariants = async (job: Job<ProcessLocaleJob>) => {
     logger.error('VARIANTS', `[${locale}] Failed to download full tarball: ${String(downloadResult.left)}`)
     for (const variant of variants) {
       const env = deriveVariantEnv(job.data, variant, tmpDir)
+      env.clipCount = variant.clipCount
       await flushReleaseLogs(env, 'error')
     }
     return
@@ -412,6 +436,7 @@ export const processVariants = async (job: Job<ProcessLocaleJob>) => {
     logger.error('VARIANTS', `[${locale}] Failed to extract tarball: ${String(extractResult.left)}`)
     for (const variant of variants) {
       const env = deriveVariantEnv(job.data, variant, tmpDir)
+      env.clipCount = variant.clipCount
       await flushReleaseLogs(env, 'error')
     }
     return
@@ -428,6 +453,7 @@ export const processVariants = async (job: Job<ProcessLocaleJob>) => {
     logger.error('VARIANTS', `[${locale}] Failed to reconstruct clips.tsv: ${String(clipsTsvResult.left)}`)
     for (const variant of variants) {
       const env = deriveVariantEnv(job.data, variant, tmpDir)
+      env.clipCount = variant.clipCount
       await flushReleaseLogs(env, 'error')
     }
     return
@@ -442,6 +468,7 @@ export const processVariants = async (job: Job<ProcessLocaleJob>) => {
   for (const variant of variants) {
     const compoundLocale = `${locale}-${variant.variantToken}`
     const env = deriveVariantEnv(job.data, variant, tmpDir)
+    env.clipCount = variant.clipCount
 
     logger.info('', '-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --')
     logger.info(
@@ -479,7 +506,7 @@ export const processVariants = async (job: Job<ProcessLocaleJob>) => {
       // 5b. Filter clips.tsv for this variant
       const variantDir = path.join(env.releaseDirPath, compoundLocale)
       const variantClipsTsv = path.join(variantDir, 'clips.tsv')
-      const matchCount = filterClipsTsvForVariant(
+      const matchCount = await filterClipsTsvForVariant(
         srcClipsTsv,
         variantClipsTsv,
         variant.variantName,
@@ -513,7 +540,7 @@ export const processVariants = async (job: Job<ProcessLocaleJob>) => {
 
       // 5d. Filter clip_durations.tsv
       const variantDurationsPath = path.join(variantDir, 'clip_durations.tsv')
-      const rawDurationInMs = filterClipDurationsForVariant(
+      const rawDurationInMs = await filterClipDurationsForVariant(
         srcDurationsPath,
         variantDurationsPath,
         clipPaths,

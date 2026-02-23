@@ -96,8 +96,36 @@ const concatFilesPromise = (
     cc.stdout.pipe(writeStream)
     cc.stderr.on('data', data => logger.warn('TAIL', String(data).trimEnd()))
 
-    writeStream.on('finish', () => resolve())
-    cc.on('error', reason => reject(reason))
+    let exitCode: number | null = null
+    let writeFinished = false
+    let settled = false
+
+    const trySettle = () => {
+      if (settled || exitCode === null || !writeFinished) return
+      settled = true
+      if (exitCode !== 0) {
+        reject(new Error(`tail exited with code ${exitCode} for ${inFilepath}`))
+      } else {
+        resolve()
+      }
+    }
+
+    cc.on('close', code => {
+      exitCode = code
+      trySettle()
+    })
+
+    writeStream.on('finish', () => {
+      writeFinished = true
+      trySettle()
+    })
+
+    writeStream.on('error', reason => {
+      if (!settled) { settled = true; reject(reason) }
+    })
+    cc.on('error', reason => {
+      if (!settled) { settled = true; reject(reason) }
+    })
   })
 
 export const calculateChecksum = (
