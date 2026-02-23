@@ -149,6 +149,5 @@ contribution-volume-description = Starp lasītājiem būs dabiskas ieraksta ska�
 contribution-reader-effects-title = Ierunātāja izrunas īpatnības
 contribution-reader-effects-description = Lielākā daļa ierakstu ir no cilvēkiem, kas runā savā dabiskajā balsī. Varat pieņemt nelielas atkāpes, piemēram, ja kāda frāze tiek pateikta skaļāk, klusāk vai tiek pasniegta ‘dramatiskā’ balsī. Lūdzu, noraidiet dziedātos ierakstus un tos, kas ierunāti robotiskā datora balsī.
 contribution-just-unsure-title = Vienkārši neesat pārliecināti?
-contribution-just-unsure-description = Ja saskaraties ar kaut ko, kas šajās vadlīnijās nav ietverts, lūdzu, balsojiet kā jums šķiet pareizi. Atcerieties, kvalitāte un precizitāte ir svarīgāka par ierakstu skaitu. Ja tiešām nevarat izlemt, izmantojiet izlaišanas pogu un pārejiet uz nākamo ierakstu.
 see-more = <chevron></chevron>Rādīt vairāk
 see-less = <chevron></chevron>Rādīt mazāk
