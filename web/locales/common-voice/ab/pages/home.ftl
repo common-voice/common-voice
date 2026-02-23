@@ -118,13 +118,18 @@ scripted-card-content = Шәбызшәала аҳәоу шәҳәа, шәлага
 spontaneous-card-header = Аспонтантә жәаҳәа
 spontaneous-card-content = Ацәажәаратә контекст азы адыррақәа реизгақәа раԥҵара иазку аҳәарақәа рҭакқәа ҟашәҵала. Зеиӷь ыҟам ҿырҳәалатәи абызшәақәа рзы.
 language-text-card-header = Атекст абызшәала
+language-text-card-content = Иаԥышәҵала, ма еимыжәдала ауаажәларратә мазара, аиҭагаразы аҳәоуқәеи атексти, ихәыҷу абызшәатә модельқәа уҳәа убас егьырҭгьы.
 coming-soon = Лассы
 add-text = Атекст ацҵара
 answer = Аҭак аҟаҵара
 
 ## Community section
 
+community-section-title-202601 = Аглобалтә еилазаарақәа рыцхыраарала, аглобалтә еилазаарақәа рзы — 290 бызшәа, урҭ рхыԥхьаӡара аизҳара иаҿуп!
 join-discord-community = Discord аилазаара алалара
+# label for button
+join-discord-community-action = Discord аҿы шәҳацла
+join-discord-community-content = Абызшәатә еилазаара аилацәажәарақәа шәыҽрылашәырхәла, азҵаарақәа ықәшәыргылала, имҩаԥысраны иҟоу ауснагӡатәқәеи аицәажәарақәеи ртәы еилышәкаала.
 find-us-on-matrix = Matrix аҿы ҳшәыԥшаа
 # label for button
 find-us-on-element-action-1 = Аелемент
