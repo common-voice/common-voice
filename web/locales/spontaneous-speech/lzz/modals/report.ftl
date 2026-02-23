@@ -2,7 +2,6 @@
 
 report-modal-title = Rapori uncğoni
 report-modal-subtitle = Muço ar problemi megagu?
-different_language = Farǩli nena
 report-other-comment =
     .placeholder = Gamagna
 # Label for textarea in report modal

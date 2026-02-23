@@ -1,7 +1,6 @@
 ## Report Modal
 
 report-modal-title = Azen ugur
-different_language = Tutlayt niḍen
 report-other-comment =
     .placeholder = Awennit
 # Label for textarea in report modal

@@ -3,8 +3,6 @@
 report-modal-title = ناموونیشانوو مۆدالوو راپۆرتی
 offensive_speech = قسێ کە یۆتەری رەنجنا
 offensive_speech-detail = ورذەکاریێ قسێ کە یۆتەری رەنجنا
-different_language = زڤانی جیاواز
-different_language-detail = ورذەکاریێ زڤانی جیاوازی
 personally_identifiable_information = ئا زانیاریێ کە متاڤا بەر ڤزا کەسەکە کێن
 personally_identifiable_information-detail = ورذەکاریێ ئا زانیاریا کە متاڤا بەرڤزا کە کەسەکە کێن
 report-other-comment =

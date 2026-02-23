@@ -4,7 +4,6 @@ report-modal-title = Шикаять итү
 report-modal-subtitle = Бу эчтәлеккә бәйле нинди кыенлыкларыгыз бар?
 offensive_speech = Рәнҗеткеч эчтәлек
 offensive_speech-detail = Эчтәлектә кимсетүле яки рәнҗеткеч сүзләр бар.
-different_language = Башка тел
 report-other-comment =
     .placeholder = Комментарий
 # Label for textarea in report modal

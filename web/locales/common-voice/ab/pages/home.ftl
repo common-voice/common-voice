@@ -142,9 +142,13 @@ contribute-github-action = GitHub аҿы алагала аҟаҵара
 ## Featured section
 
 featured-section-title = Ишәыдаагало...
+# icon is an arrow that points downwards
+download-press-pack = Ҳапресс-пакет ҭыжәга <icon></icon>
 
 ## Developers section
 
+developers-section-title = Зегьы рхы иадырхәаша 130 бызшәа инареиҳаны рыла иҟоу иаарту ажәаҳәа адыррақәа реизга
+developers-section-subtitle = Аилазаара алархәны иаԥҵоу ASR, STT, TTS, иара убас NLP егьырҭ аконтекстқәа рзы адыррақәа реизга.
 # icon is an arrow that points to the right
 explore-datasets = Адыррақәа реизгақәа шәрыхәаԥш <icon></icon>
 
