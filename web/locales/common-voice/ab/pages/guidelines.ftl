@@ -203,6 +203,7 @@ transcribe-the-audio-subheader-4-explanation-1-example = Иара ихьӡ<under
 transcribe-the-audio-subheader-4-explanation-2 = Зны-зынла ицәажәо ажәа, ма ажәа хәҭак акырынтә еиҭарҳәалоит. Уигьы атранскрипциа азузароуп. Аҿырԥштәы:
 transcribe-the-audio-subheader-4-explanation-2-example = Нас сара сцеит <underline>ашь- ашь-</underline> ашьҭаларҭахь
 transcribe-the-audio-subheader-5-explanation-1 = Аспонтантә жәаҳәа, ҳәарада, аграмматикатә гхақәа амазаауеит. Аилыркаараан урҭ рыриашара ҟалаӡом. Атранскрипциа ацәажәаратә контент ииашаны иаанарԥшуазароуп.
+transcribe-the-audio-subheader-5-explanation-2 = Абызшәа ныҟәызго рхы иадырхәалар рылшоит (англыз бызшәаҿы иҟоу «gona», «cuz» уҳәа реиԥш иҟоу) формала ииашоуп ҳәа иузымԥхьаӡо ацәажәаратә ҳәамҭақәа. Урҭ ишыҟоу атранскрипциа рзутәуп, еиҳа иформалтәу аеквивалентқәа рыла иԥсахтәым.
 
 ## Review the Transcription
 
