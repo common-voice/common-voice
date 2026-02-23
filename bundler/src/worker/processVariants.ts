@@ -348,26 +348,20 @@ const reconstructClipsTsv = (
 // ---------------------------------------------------------------------------
 
 export const processVariants = async (job: Job<ProcessLocaleJob>) => {
-  const { locale, releaseName, variants, previousReleaseName } = job.data
+  const { locale, releaseName, variants } = job.data
   const tmpDir = getTmpDir()
   const bucketName = getDatasetBundlerBucketName()
 
   // 1. VALIDATE
-  if (!previousReleaseName) {
-    logger.error(
-      'VARIANTS',
-      `[${locale}] previousReleaseName (-p) is required for variant releases`,
-    )
-    return
-  }
   if (!variants || variants.length === 0) {
     logger.error('VARIANTS', `[${locale}] No variants found in job data`)
     return
   }
 
   // 2. GUARD: Check full release tarball exists in GCS
-  const fullTarFilename = generateTarFilename(locale, previousReleaseName)
-  const fullTarGcsPath = `${previousReleaseName}/${fullTarFilename}`
+  // Variant releases source clips from the same release (-r), not a previous one.
+  const fullTarFilename = generateTarFilename(locale, releaseName)
+  const fullTarGcsPath = `${releaseName}/${fullTarFilename}`
 
   const fullExists = await pipe(
     doesFileExistInBucket(bucketName)(fullTarGcsPath),
@@ -423,8 +417,8 @@ export const processVariants = async (job: Job<ProcessLocaleJob>) => {
     return
   }
 
-  // The tarball extracts to previousReleaseName/locale/ structure
-  const fullReleaseDir = path.join(tmpDir, previousReleaseName)
+  // The tarball extracts to releaseName/locale/ structure
+  const fullReleaseDir = path.join(tmpDir, releaseName)
   const fullLocaleDir = path.join(fullReleaseDir, locale)
 
   // 4. Reconstruct clips.tsv from CC output (validated + invalidated + other)

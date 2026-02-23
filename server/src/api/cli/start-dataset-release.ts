@@ -15,13 +15,29 @@ type InitDatasetReleaseJob = {
 }
 
 const startDatasetRelease = async (args: any, options: any) => {
-  if (args.type === 'variants' && !args.previousReleaseName) {
+  // -p is required for full releases (bootstraps clips from previous tarball)
+  if (args.type === 'full' && !args.previousReleaseName) {
     console.error(
-      'Error: -p (--previousReleaseName) is required for -t variants.\n' +
-        'It should point to the full release whose tarballs will be used as source.\n' +
-        'Example: -t variants -p cv-corpus-25.0-2026-03-06 -r cv-corpus-25.0-2026-03-06',
+      'Error: -p (--previousReleaseName) is required for -t full.\n' +
+        'It specifies the previous release whose clips bootstrap the new one.\n' +
+        'Example: -t full -r cv-corpus-25.0-2026-03-06 -p cv-corpus-24.0-2025-12-01',
     )
     process.exit(1)
+  }
+
+  // -p is ignored for variants (source is always the same release, derived from -r)
+  if (args.type === 'variants' && args.previousReleaseName) {
+    console.warn(
+      'Warning: -p (--previousReleaseName) is ignored for -t variants.\n' +
+        'Variant releases use -r (releaseName) as the source full release.',
+    )
+  }
+
+  // -p is ignored for delta and statistics
+  if ((args.type === 'delta' || args.type === 'statistics') && args.previousReleaseName) {
+    console.warn(
+      `Warning: -p (--previousReleaseName) is ignored for -t ${args.type}.`,
+    )
   }
 
   const licenseMode: LicenseMode = args.licenseMode || 'unlicensed'
@@ -33,7 +49,8 @@ const startDatasetRelease = async (args: any, options: any) => {
       from: args.from,
       until: args.until,
       releaseName: args.releaseName,
-      previousReleaseName: args.previousReleaseName,
+      // Only pass previousReleaseName for full releases
+      previousReleaseName: args.type === 'full' ? args.previousReleaseName : undefined,
       languages: args.languages || [],
       licenseMode,
     })({})
@@ -75,10 +92,9 @@ program
   .option(
     '-p, --previousReleaseName <name>',
     `
-    Required for full and variants releases.
-    For full: the previous release whose clips will be downloaded to bootstrap the new release.
-    For variants: the full release whose tarballs will be used as source for variant extraction.
-    Usually in the shape of 'cv-corpus-14.0-{delta-}2023-10-19'.
+    Required for full releases. The previous release whose clips will be downloaded
+    to bootstrap the new release. Ignored for delta, statistics, and variants.
+    Usually in the shape of 'cv-corpus-24.0-2025-12-01'.
     `
   )
   .addOption(

@@ -3,8 +3,6 @@ import { spawn } from 'node:child_process'
 import { taskEither as TE } from 'fp-ts'
 import { pipe } from 'fp-ts/lib/function'
 
-import { logger } from './logger'
-
 const runExtractTarPromise = (filepath: string, outDir: string) =>
   new Promise<void>((resolve, reject) => {
     const cc = spawn('tar', ['-C', outDir, '-xf', filepath])

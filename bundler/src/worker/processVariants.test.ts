@@ -33,7 +33,6 @@ const makeJob = (overrides: Partial<ProcessLocaleJob> = {}): ProcessLocaleJob =>
   from: '2000-01-01',
   until: '2026-03-06',
   releaseName: 'cv-corpus-25.0-2026-03-06',
-  previousReleaseName: 'cv-corpus-25.0-2026-03-06',
   languages: [],
   locale: 'cy',
   variants: [
