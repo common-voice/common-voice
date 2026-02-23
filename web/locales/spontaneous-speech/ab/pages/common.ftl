@@ -12,6 +12,7 @@ platform-language-tooltip-text = Авеб-саит атекст мацароуп
 contribution-picker-label = Адыррақәа реизгаҿы аҽалархәра { $language } азы
 contribution-picker-tooltip-text = Заԥҵара шәацхраауа абызшәатә дыррақәа реизга аԥсахуеит
 coming-soon = Лассы еиҳа еиҳаны абызшәақәа ацаҳҵоит
+media-recorder-api-not-supported = Шәыбраузер MediaRecorder API аднакылом.
 # Toast message that is displayed when an item is skipped
 skipped = Ибжьажьуп
 audioplayer-header = Азыӡырҩра
@@ -27,6 +28,7 @@ contribute = Алагала аҟаҵара
 
 question = Азҵаара
 validate = Агәаҭара
+respond-to-prompt = Аҳәара аҭак аҟаҵара
 respond-to-prompt-mobile = Аҭак
 transcribe = Атранскрипциа азура
 check-transcriptions = Атранскрипциақәа ргәаҭара
@@ -68,3 +70,10 @@ player-skip-backward-shortcut-name = Ашьҭахьҟа
 player-skip-forward-shortcut = 9
 player-skip-forward-shortcut-key = Ctrl / Cmd + 9
 player-skip-forward-shortcut-name = Ԥхьаҟа
+
+## Transcription Player - Aria Labels
+
+# Skip back button accessibility/aria label
+player-skip-backward-aria-label = 5 секундк шьҭахьҟа аиасра
+# Skip forward button accessibility/aria label
+player-skip-forward-aria-label = 5 секундк ԥхьаҟа аиасра
