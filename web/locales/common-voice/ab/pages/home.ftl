@@ -134,9 +134,14 @@ find-us-on-matrix = Matrix аҿы ҳшәыԥшаа
 # label for button
 find-us-on-element-action-1 = Аелемент
 find-us-on-matrix-action-2 = Егьырҭ аклиентцәа
+ask-mozilla-share-content = Ииасхьоу ма иҟалараны иҟоу аиԥылара шәымоума? Иаҳзеиҭашәҳәа, нас ҳаилазаара адырра раҳҭоит, мамзаргьы уи иазкны аблог аҿы ианышәҵа!
 contribute-github = GitHub аҿы алагала аҟаҵара
 # label for button
 contribute-github-action = GitHub аҿы алагала аҟаҵара
+
+## Featured section
+
+featured-section-title = Ишәыдаагало...
 
 ## Developers section
 
