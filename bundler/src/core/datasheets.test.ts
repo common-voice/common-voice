@@ -17,6 +17,7 @@ import { DatasheetLocalePayload, ValidatedSentence } from '../types'
 const VALIDATED_SENTENCES_COLS: (keyof ValidatedSentence)[] = [
   'sentence_id',
   'sentence',
+  'variant',
   'sentence_domain',
   'source',
   'is_used',
@@ -298,6 +299,7 @@ describe('sampleSentences', () => {
   const makeRow = (i: number, isUsed: '0' | '1' = '1'): ValidatedSentence => ({
     sentence_id: `id${i}`,
     sentence: `Sentence ${i}`,
+    variant: '',
     sentence_domain: 'general',
     source: 'wiki',
     is_used: isUsed,

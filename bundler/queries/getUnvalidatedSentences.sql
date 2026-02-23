@@ -1,22 +1,43 @@
 SELECT
   s.id as sentence_id,
   REPLACE (text, '\r\n', ' ') AS sentence,
-  COALESCE(metadata.domain, '') AS sentence_domain,
-  COALESCE(s.source, '') as source
+  COALESCE(
+    (SELECT v.variant_token
+     FROM sentence_metadata sm
+     JOIN variants v ON v.id = sm.variant_id
+     WHERE sm.sentence_id = s.id
+     LIMIT 1),
+    ''
+  ) AS variant,
+  COALESCE(
+    (SELECT GROUP_CONCAT(DISTINCT d.domain)
+     FROM sentence_domains sd
+     JOIN domains d ON sd.domain_id = d.id
+     WHERE sd.sentence_id = s.id),
+    ''
+  ) AS sentence_domain,
+  COALESCE(s.source, '') as source,
+  COALESCE(vs.up_votes, 0) AS up_votes,
+  COALESCE(vs.down_votes, 0) AS down_votes,
+  CASE
+    WHEN COALESCE(vs.down_votes, 0) >= 2
+     AND COALESCE(vs.down_votes, 0) > COALESCE(vs.up_votes, 0)
+    THEN 'rejected'
+    ELSE 'pending'
+  END AS status
 FROM
   sentences s
-  LEFT JOIN locales l ON l.id = s.locale_id
+  JOIN locales l ON l.id = s.locale_id
   LEFT JOIN (
     SELECT
-      s.id as sentence_id,
-      GROUP_CONCAT (d.domain) as domain
+      sentence_id,
+      SUM(CASE WHEN vote = 1 THEN 1 ELSE 0 END) AS up_votes,
+      SUM(CASE WHEN vote = 0 THEN 1 ELSE 0 END) AS down_votes
     FROM
-      sentences s
-      INNER JOIN sentence_domains sd ON sd.sentence_id = s.id
-      INNER JOIN domains d ON sd.domain_id = d.id
+      sentence_votes
     GROUP BY
-      s.id
-  ) metadata ON metadata.sentence_id = s.id
+      sentence_id
+  ) vs ON vs.sentence_id = s.id
 WHERE
   s.is_validated = 0
   AND l.name = ?

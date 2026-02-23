@@ -57,7 +57,7 @@ describe('filterClipsTsvForVariant', () => {
     fs.rmSync(tmpDir, { recursive: true, force: true })
   })
 
-  it('filters clips matching the variant name', () => {
+  it('filters clips matching the variant name', async () => {
     const srcPath = path.join(tmpDir, 'clips.tsv')
     const dstPath = path.join(tmpDir, 'out', 'clips.tsv')
 
@@ -69,7 +69,7 @@ describe('filterClipsTsvForVariant', () => {
     ].join('\n') + '\n'
     fs.writeFileSync(srcPath, content, 'utf-8')
 
-    const count = filterClipsTsvForVariant(srcPath, dstPath, 'Southern Welsh', 'cy-southwes')
+    const count = await filterClipsTsvForVariant(srcPath, dstPath, 'Southern Welsh', 'cy-southwes')
     expect(count).toBe(2)
 
     const result = fs.readFileSync(dstPath, 'utf-8')
@@ -78,7 +78,7 @@ describe('filterClipsTsvForVariant', () => {
     expect(result).not.toContain('b.mp3')
   })
 
-  it('rewrites locale column to compound locale', () => {
+  it('rewrites locale column to compound locale', async () => {
     const srcPath = path.join(tmpDir, 'clips.tsv')
     const dstPath = path.join(tmpDir, 'out', 'clips.tsv')
 
@@ -88,7 +88,7 @@ describe('filterClipsTsvForVariant', () => {
     ].join('\n') + '\n'
     fs.writeFileSync(srcPath, content, 'utf-8')
 
-    filterClipsTsvForVariant(srcPath, dstPath, 'Southern Welsh', 'cy-southwes')
+    await filterClipsTsvForVariant(srcPath, dstPath, 'Southern Welsh', 'cy-southwes')
 
     const result = fs.readFileSync(dstPath, 'utf-8')
     const dataLine = result.split('\n')[1]
@@ -96,7 +96,7 @@ describe('filterClipsTsvForVariant', () => {
     expect(cols[11]).toBe('cy-southwes') // locale column rewritten
   })
 
-  it('returns 0 when no clips match', () => {
+  it('returns 0 when no clips match', async () => {
     const srcPath = path.join(tmpDir, 'clips.tsv')
     const dstPath = path.join(tmpDir, 'out', 'clips.tsv')
 
@@ -106,11 +106,11 @@ describe('filterClipsTsvForVariant', () => {
     ].join('\n') + '\n'
     fs.writeFileSync(srcPath, content, 'utf-8')
 
-    const count = filterClipsTsvForVariant(srcPath, dstPath, 'Southern Welsh', 'cy-southwes')
+    const count = await filterClipsTsvForVariant(srcPath, dstPath, 'Southern Welsh', 'cy-southwes')
     expect(count).toBe(0)
   })
 
-  it('preserves the header in the output', () => {
+  it('preserves the header in the output', async () => {
     const srcPath = path.join(tmpDir, 'clips.tsv')
     const dstPath = path.join(tmpDir, 'out', 'clips.tsv')
 
@@ -120,7 +120,7 @@ describe('filterClipsTsvForVariant', () => {
     ].join('\n') + '\n'
     fs.writeFileSync(srcPath, content, 'utf-8')
 
-    filterClipsTsvForVariant(srcPath, dstPath, 'Southern Welsh', 'cy-southwes')
+    await filterClipsTsvForVariant(srcPath, dstPath, 'Southern Welsh', 'cy-southwes')
 
     const result = fs.readFileSync(dstPath, 'utf-8')
     expect(result.split('\n')[0]).toBe(CLIPS_HEADER)
@@ -142,7 +142,7 @@ describe('filterClipDurationsForVariant', () => {
     fs.rmSync(tmpDir, { recursive: true, force: true })
   })
 
-  it('filters durations to matching clips and returns total duration', () => {
+  it('filters durations to matching clips and returns total duration', async () => {
     const srcPath = path.join(tmpDir, 'clip_durations.tsv')
     const dstPath = path.join(tmpDir, 'out_durations.tsv')
 
@@ -155,7 +155,7 @@ describe('filterClipDurationsForVariant', () => {
     fs.writeFileSync(srcPath, content, 'utf-8')
 
     const matching = new Set(['a.mp3', 'c.mp3'])
-    const totalMs = filterClipDurationsForVariant(srcPath, dstPath, matching)
+    const totalMs = await filterClipDurationsForVariant(srcPath, dstPath, matching)
 
     expect(totalMs).toBe(12000) // 5000 + 7000
     const result = fs.readFileSync(dstPath, 'utf-8')
@@ -164,9 +164,9 @@ describe('filterClipDurationsForVariant', () => {
     expect(result).not.toContain('b.mp3')
   })
 
-  it('returns 0 when source file does not exist', () => {
+  it('returns 0 when source file does not exist', async () => {
     const dstPath = path.join(tmpDir, 'out_durations.tsv')
-    const totalMs = filterClipDurationsForVariant(
+    const totalMs = await filterClipDurationsForVariant(
       '/nonexistent/clip_durations.tsv',
       dstPath,
       new Set(['a.mp3']),
@@ -174,14 +174,14 @@ describe('filterClipDurationsForVariant', () => {
     expect(totalMs).toBe(0)
   })
 
-  it('returns 0 when no clips match', () => {
+  it('returns 0 when no clips match', async () => {
     const srcPath = path.join(tmpDir, 'clip_durations.tsv')
     const dstPath = path.join(tmpDir, 'out_durations.tsv')
 
     const content = [DURATIONS_HEADER, 'a.mp3\t5000'].join('\n') + '\n'
     fs.writeFileSync(srcPath, content, 'utf-8')
 
-    const totalMs = filterClipDurationsForVariant(srcPath, dstPath, new Set(['b.mp3']))
+    const totalMs = await filterClipDurationsForVariant(srcPath, dstPath, new Set(['b.mp3']))
     expect(totalMs).toBe(0)
   })
 })

@@ -25,6 +25,7 @@ const toClipsTsv = (rows: CLIPS_TSV_ROW[]): string => {
 const VALIDATED_SENTENCES_COLS: (keyof ValidatedSentence)[] = [
   'sentence_id',
   'sentence',
+  'variant',
   'sentence_domain',
   'source',
   'is_used',
@@ -76,6 +77,7 @@ const makeValidatedSentenceRow = (
 ): ValidatedSentence => ({
   sentence_id: `s${i}`,
   sentence: `Sentence number ${i} in ${locale}`,
+  variant: '',
   sentence_domain: 'general',
   source: 'wiki',
   is_used: isUsed,

@@ -93,6 +93,7 @@ export type LocaleWithLicense = {
 export type ValidatedSentence = {
   sentence_id: string
   sentence: string
+  variant: string
   sentence_domain: string
   source: string
   is_used: string
@@ -102,8 +103,12 @@ export type ValidatedSentence = {
 export type UnvalidatedSentence = {
   sentence_id: string
   sentence: string
+  variant: string
   sentence_domain: string
   source: string
+  up_votes: string
+  down_votes: string
+  status: string
 }
 
 export type AppEnv = Settings & {
