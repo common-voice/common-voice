@@ -154,7 +154,7 @@ answer-questions-tip-4 = Izbjegavajte govor mržnje ili drugi uvredljiv govor
 answer-questions-tip-5 = Govorite prirodno, kao što biste govorili s prijateljem - koristite svoje uobičajeno narječje, dijalekt i naglasak
 answer-questions-tip-6 = Održavajte dosljednu glasnoću - nemojte vikati ili pjevušiti
 # Transcribe the Audio
-transcribe-the-audio = Transkribiraj audio snimke
+transcribe-the-audio = Transkripcija audio snimaka
 transcribe-the-audio-subheader-1 = Opće smjernice
 transcribe-the-audio-subheader-2 = Brojevi i akronimi
 transcribe-the-audio-subheader-3 = Posebne oznake
@@ -297,3 +297,24 @@ code-switching-filler-header = Ne izostavljajte poštapalice i jezične oznake
 code-switching-filler-explanation = Riječi poput „hm“, „kao“, „ovoga“, „znaš“ i „onak“ su značajne. Primjer: „Dakle... ovoga... rekao sam joj nešto poput, 'I don't know, možda kasnije'.“
 # Use standard spelling for each language
 code-switching-spelling-header = Koristite standardni pravopis za svaki jezik
+code-switching-spelling-explanation = Pokušajte ispravno napisati riječi za svaki jezik, osim ako ih govornik očito izgovara na nestandardan način.
+# Don’t Clean Up or Simplify the Language
+code-switching-cleanup-header = Nemojte ispravljati ili pojednostavljivati jezik
+code-switching-cleanup-1 = Prevoditi ili parafrazirati – napišite što je govornik rekao, a ne što je „mislio“.
+code-switching-cleanup-2 = „Ispravljati“ gramatiku ili izgovor – zadržite govornikovu prirodnu upotrebu jezika.
+code-switching-cleanup-3 = Preskakati prebacivanja koji se čine nebitno ili sitno – čak su i posuđene riječi važne.
+code-switching-cleanup-4 = Umetati interpunkcijske znakove koji bi mogli promijeniti značenje – održavajte prirodan tok.
+code-switching-cleanup-5 = Pretpostavljati da znate jezik svake riječi – stavljajte oznake temeljem uporabe.
+# Tagging
+code-switching-tagging-subheader = Označavanje
+code-switching-tagging-error-intro = Ako transkripcija sadrži grešku, molimo vas da je označite pomoću funkcije Prijavi. Potencijalne greške uključuju:
+code-switching-tagging-error-1 = Neispravnu interpunkciju ili velika slova
+code-switching-tagging-error-2 = Tipografske pogreške
+code-switching-tagging-error-3 = Riječi napisane pogrešnim pravopisom
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = Korištenje ispravnog pravopisa za svaki jezik
+code-switching-orthography-explanation = Napišite svaku riječ prema pravopisu jezika iz kojeg potječe. Na primjer:
+code-switching-orthography-explanation-example-1 = Ako se riječ „kitchen“ izgovara kao na španjolskom, treba je napisati kao na engleskom, a ne kao „quichen“.
+code-switching-orthography-explanation-example-2 = Ako se riječ quinceaños izgovara kao u engleskom, piše se s ñ.
+# Use Pronunciation to Help Determine the Language
+code-switching-pronunciation-header = Koristite izgovor kako biste lakše odredili jezik
