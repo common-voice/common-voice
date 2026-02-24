@@ -245,3 +245,29 @@ code-switching-informal-scenarios-explanation-example = „Koju šalu tvoji prij
 # What to Avoid
 code-switching-avoid-subheader = Što treba izbjegavati
 code-switching-avoid-intro = Pitanja koja bi mogla:
+code-switching-avoid-1 = Tražiti osobne podatke
+code-switching-avoid-2 = Iziskivati govor mržnje ili druge pristranih ili uvredljive svjetonazore
+code-switching-avoid-3 = Navesti nekoga da podijeli osjetljive, potencijalno neugodne odgovore
+code-switching-dont-header = Nemojte
+code-switching-dont-1 = Nemojte koristiti pretjerano formalan govor
+# Reviewing a Question
+code-switching-review-subheader = Pregledavanje pitanja
+code-switching-review-intro = Provjerite da pitanje ispunjava kriterije:
+code-switching-review-criterion-1 = Biti lako za razumjeti i odgovoriti
+code-switching-review-criterion-2 = Biti općenito relevantno
+code-switching-review-criterion-3 = Ne koristiti niti tražiti štetan ili uvredljiv jezik
+code-switching-review-does-not-header = I <bold>NE</bold> uključuje:
+code-switching-review-offensive-content = Uvredljiv sadržaj ili povjerljive podatke
+code-switching-answer-header = Uvredljiv sadržaj ili povjerljive podatke
+code-switching-review-no-1 = Pitanja koja bi mogla tražiti osobne podatke
+code-switching-review-no-2 = Pitanja koja bi mogla poticati govor mržnje ili druge pristrane ili uvredljive osjećaje
+code-switching-review-no-3 = Navesti nekoga da podijeli osjetljive, potencijalno neugodne odgovore
+# Answering a Question
+code-switching-answer-subheader = Odgovaranje na pitanje
+code-switching-answer-intro = Prilikom odgovaranja na pitanje, cilj je odgovoriti prirodno - baš kao što biste to učinili u stvarnom razgovoru. Želimo zabilježiti kako se jezici zapravo miješaju u svakodnevnom govoru.
+code-switching-answer-bullet-1 = Sjetite se stvarnih trenutaka ili situacija: šala, svađa, tradicija
+code-switching-answer-bullet-2 = Zamislite da šaljete poruku prijatelju ili nekome pričate priču
+code-switching-answer-bullet-3 = Koristite riječi koje biste stvarno koristili, čak i ako su posuđene ili pomiješane
+code-switching-answer-bullet-4 = Ne postoji "savršen" način za odgovoriti
+code-switching-authentic-header = Odgovorite prirodno i autentično
+code-switching-authentic-speak = <bold>Govorite kao što biste govorili s prijateljima ili obitelji.</bold> Ako u stvarnom životu miješate jezike, učinite isto i ovdje. Primjer:
