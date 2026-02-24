@@ -145,6 +145,14 @@ example-questions-explanation-2 = Ako želiš poslati više pitanja odjednom, <g
 # Answer Questions
 answer-questions = Odgovori na pitanja
 answer-questions-subheader = Opće smjernice
+answer-questions-explanation-1 = Razmislite na trenutak o pitanju, razmislite što biste željeli reći, ali nemojte se previše ograničavati. Kliknite ikonu za snimanje. Nakon što snimite, možete poslušati, ponovno snimiti, izbrisati ili poslati snimku.
+answer-questions-explanation-2 = Zapamtite - ne brinite ako zamucate, zastanete ili ponovite koju riječ. Sve su to korisni podaci za inženjere koji pokušavaju izgraditi inkluzivne alate za prepoznavanje govora u stvarnom svijetu.
+answer-questions-tip-1 = Snimajte na relativno tihom mjestu
+answer-questions-tip-2 = Odaberite mjesto s dobrom internetskom vezom
+answer-questions-tip-3b = Pokušajte ograničiti svoj odgovor na 15-30 sekundi
+answer-questions-tip-4 = Izbjegavajte govor mržnje ili drugi uvredljiv govor
+answer-questions-tip-5 = Govorite prirodno, kao što biste govorili s prijateljem - koristite svoje uobičajeno narječje, dijalekt i naglasak
+answer-questions-tip-6 = Održavajte dosljednu glasnoću - nemojte vikati ili pjevušiti
 # Transcribe the Audio
 transcribe-the-audio = Transkribiraj audio snimke
 transcribe-the-audio-subheader-1 = Opće smjernice
@@ -169,6 +177,9 @@ transcribe-the-audio-subheader-2-example-2-correct = <correct> Ispravno</correct
 transcribe-the-audio-subheader-2-example-2-wrong = <correct> Krivo</correct>: Vidimo se <underline>2015.</underline>
 transcribe-the-audio-subheader-2-example-3-correct = <correct>Ispravno</correct>: Bilo je dvadeset posto popusta
 transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Krivo</wrong>: Bilo je 20% popusta
+transcribe-the-audio-subheader-2-example-4-correct = <correct>Točno</correct>: Uhitio ih je <underline>FBI</underline> prošlog četvrtka
+transcribe-the-audio-subheader-2-example-4-wrong = <correct>Pogrešno</correct>: Uhitio ih je <underline>ef bi aj</underline> prošlog četvrtka
+transcribe-the-audio-subheader-3-explanation = Sljedeće posebne oznake trebale bi se koristiti za označavanje disfluentnosti, poštapalica i drugih vrsta neverbalnog sadržaja (na engleskom).
 tags-table-header-1 = Oznaka
 tags-table-header-2 = Značenje
 tags-laugh = Smijeh
