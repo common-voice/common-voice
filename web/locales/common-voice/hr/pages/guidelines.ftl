@@ -286,3 +286,14 @@ code-switching-answer-dont-force-switch = <bold>Prisiljavati se na promjenu ako 
 code-switching-answer-dont-translate-repeat = <bold>Prevoditi ili ponaljati sve.</bold> Samo to izgovorite jednom, onako kako bi to bilo u razgovoru. Ne morate izgovoriti verziju odgovora na svakom jeziku.
 # Transcribing
 code-switching-transcribe-subheader = Transkribiranje
+code-switching-transcribe-intro = Prilikom transkripcije odgovora koji uključuju prebacivanje narječja/jezika, predstavite govor govornika onako kako je izgovoren - bez ispravljanja, uređivanja ili pojednostavljivanja. To se odnosi na sve promjene između jezika, neformalnog govora i riječi drugih jezika.
+code-switching-transcribe-do-1 = Reproducirajte kratke segmente više puta kako biste uhvatili suptilne promjene
+code-switching-transcribe-do-2 = Pauzirajte nakon svake rečenice kako biste provjerili ima li prebacivanja ili miješanih riječi
+# Capture Speech Exactly as Spoken
+code-switching-capture-header = Zabilježite govor točno onako kako je izgovoren
+code-switching-capture-explanation = Transkribirajte oba jezika onako kako se pojavljuju/zvuče. Nemojte "popravljati" jezik ili ga mijenjati u samo jedan jezik.
+# Include filler words and markers
+code-switching-filler-header = Ne izostavljajte poštapalice i jezične oznake
+code-switching-filler-explanation = Riječi poput „hm“, „kao“, „ovoga“, „znaš“ i „onak“ su značajne. Primjer: „Dakle... ovoga... rekao sam joj nešto poput, 'I don't know, možda kasnije'.“
+# Use standard spelling for each language
+code-switching-spelling-header = Koristite standardni pravopis za svaki jezik
