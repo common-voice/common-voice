@@ -30,11 +30,11 @@ request-language-success-list-3 =
 request-language-error =
     Vi har kanskje ikke mottatt den forespørselen. Send oss en e-post direkte
     på <emailLink>{ $email }</emailLink>, så kommer vi tilbake til deg!
-request-for-scripted-speech-toggle = Forespørsel om skriptet tale
+request-for-scripted-speech-toggle = Forespørsel om skriftspråk
 request-for-spontaneous-speech-toggle = Forespørsel om spontan tale
 need-help-deciding-platform = Trenger du hjelp til å bestemme hva du skal velge?
 # text wrapped in <strong></strong> will be shown as bold
-need-help-deciding-platform-explanation-1 = <strong>Skript tale</strong> (tradisjonelt det du kjenner som Common Voice) er hvor du kan lese setninger høyt på språket ditt.
+need-help-deciding-platform-explanation-1 = <strong>Skriftspråk</strong> (tradisjonelt det du kjenner som Common Voice) er hvor du kan lese setninger høyt på språket ditt.
 need-help-deciding-platform-explanation-2 = <strong>Spontan Tale</strong> er en ny del av Common Voice der du kan svare på spørsmål på en mer naturlig måte.
 need-help-deciding-platform-explanation-3 = Hvis du ikke ser språket ditt i noen av delene av plattformen, velg begge.
 request-language-search-bar = Du kan begynne å skrive inn navnet på språket ditt her. Hvis det ennå ikke finnes på Common Voice, kan du fylle ut et skjema med språkinformasjonen for språket ditt.
@@ -50,3 +50,8 @@ request-language-found-cv-contribution =
 request-language-found-cv-sentences-lack =
     Språket ditt er allerede på språklisten til Common Voice.
     Du kan legge til rette for språkstart på <strong>skriftspråk</strong> ved å bidra med setninger <sentencesContributionLink>her</sentencesContributionLink>.
+request-language-found-spontaneous-speech =
+    Språket ditt er allerede tilgjengelig på Common Voice <strong>spontan tale</strong>.
+    Klikk <spontaneousSpeechLink>her</spontaneousSpeechLink> for å bidra – husk å endre bidrags-/dataspråket før du begynner å bidra!
+request-language-already-available-scs = Skriftspråk allerede tilgjengelig
+request-language-already-available-sps = Spontan tale allerede tilgjengelig
