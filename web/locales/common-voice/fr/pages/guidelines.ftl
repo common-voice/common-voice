@@ -322,9 +322,14 @@ code-switching-pronunciation-header = Utilisez la prononciation pour déterminer
 code-switching-pronunciation-explanation = Certains mots peuvent s’écrire de la même façon dans les deux langues, mais peuvent être prononcés différemment.  Écoutez la prononciation pour vous aider à l’identifier correctement. Par exemple : camping, jogging, smoking, brushing, shampooing.
 code-switching-pronunciation-explanation-example-1 = Anglais : /'keɪ.bəl/
 code-switching-pronunciation-explanation-example-2 = Espagnol : /'kable/
+# Tagging in a Single Token
+code-switching-single-token-header = Identification au sein d’une seule zone de texte
+code-switching-single-token-explanation = Une même zone de texte dont le contenu n’est délimité que par des espaces devrait contenir plus d’un segment repéré.
 # Tag Punctuation Based on Nearby Language
 code-switching-punctuation-tagging-header = Identifiez la ponctuation en fonction de la langue utilisée à proximité
 code-switching-punctuation-tagging-explanation = Identifiez la ponctuation en utilisant la langue la plus proche à gauche de l’intervalle. Exemples :
+# text wrapped in purple and blue will be shown with a purple and blue background in the UI respectively
+code-switching-punctuation-tagging-explanation-example-1 = <purple>et la seule fois que</purple> Maria <purple>m’a crié dessus, c’était</purple> <blue>porque</blue> <purple>elle avait</purple> essayado <blue>de imprimir una</blue> <purple>commande.</puple> (BangorTalk)
 code-switching-punctuation-tagging-explanation-example-2 = <purple>mais</purple> <blue>tú los puedes comprar rojo, negro, azul</blue>, <purple>de toute façon.</purple> (BangorTalk)
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = Méfiez-vous des faux amis
