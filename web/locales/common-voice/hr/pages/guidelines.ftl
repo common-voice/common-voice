@@ -1,6 +1,6 @@
 # GUIDELINES PAGE
 guidelines-header = Smjernice za doprinošenje
-guidelines-header-subtitle = Shvati kako doprinijeti i potvrditi rečenice i audio isječke u Common Voice skup podataka
+guidelines-header-subtitle = Shvatite dopunjavanje i validaciju skupa podataka Common Voice
 voice-collection = Zbirka glasova
 sentence-collection = Zbirka rečenica
 question-collection = Zbirka pitanja
@@ -222,3 +222,26 @@ code-switching-adding-question-criteria-1 = Biti lako razumljivo i lako za odgov
 code-switching-adding-question-criteria-2 = Biti općenito relevantno
 code-switching-adding-question-criteria-3 = Ne koristiti niti tražiti štetan ili uvredljiv jezik
 code-switching-adding-question-note = Također razmotrite mogućnost pokrivanja različitih konteksta i domena.
+# What types of questions to add
+code-switching-types-subheader = Koje vrste pitanja dodati?
+code-switching-use-bilingual-prompts-header = Koristite dvojezična pitanja
+code-switching-use-bilingual-prompts-explanation = Koristite dvojezična pitanja koja uključuju oba jezika: Primjer:
+code-switching-use-bilingual-prompts-explanation-example = “Kakav SMS ti je ve poslal? Onak, oh my God.”
+code-switching-ask-bilingual-contexts-header = Pitajte o dvojezičnim kontekstima
+code-switching-ask-bilingual-contexts-explanation = Koristite situacije u kojima se oba jezika uobičajeno koriste (npr. kod kuće, u školi, na događajima u zajednici). Primjer:
+code-switching-ask-bilingual-contexts-explanation-example = „Kad razgovaraš sa svojim rođacima, miješaš li hrvatski i engleski?“
+code-switching-focus-emotional-header = Usredotočite se na emocionalne ili važne trenutke
+code-switching-focus-emotional-explanation = Ljudi često mijenjaju narječje/jezik kada izražavaju emocije ili hitnost. Primjer:
+code-switching-focus-emotional-explanation-example = „Reci mi što su ti roditelji rekli kad si im priopćio/la veliku vijest – točno onako kako su to rekli.“
+code-switching-direct-quotes-header = Zatražite izravne citate ili rekonstrukcije
+code-switching-direct-quotes-explanation = Potaknite sudionike da ponove kako su stvari zapravo bile rečene. Primjer:
+code-switching-direct-quotes-explanation-example = „Koje su bile tvoje točne riječi kad si saznao/la?“
+code-switching-cultural-topics-header = Odaberite kulturno specifične teme
+code-switching-cultural-topics-explanation = Hrana, tradicije, tehnički izrazi, blagdani i obiteljska dinamika često potiču mijenjanje narječja/jezika.
+code-switching-cultural-topics-explanation-example = "Kako opisati Fašnik nekome tko govori samo engleski?"
+code-switching-informal-scenarios-header = Istražite neformalne scenarije
+code-switching-informal-scenarios-explanation = Razgovori s prijateljima ili dopisivanje često uključuju prirodnije prebacivanje. Primjer:
+code-switching-informal-scenarios-explanation-example = „Koju šalu tvoji prijatelji uvijek zbijaju — i kako je izgovaraju?“
+# What to Avoid
+code-switching-avoid-subheader = Što treba izbjegavati
+code-switching-avoid-intro = Pitanja koja bi mogla:
