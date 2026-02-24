@@ -318,3 +318,32 @@ code-switching-orthography-explanation-example-1 = Ako se riječ „kitchen“ i
 code-switching-orthography-explanation-example-2 = Ako se riječ quinceaños izgovara kao u engleskom, piše se s ñ.
 # Use Pronunciation to Help Determine the Language
 code-switching-pronunciation-header = Koristite izgovor kako biste lakše odredili jezik
+code-switching-pronunciation-explanation = Neke riječi mogu izgledati isto u oba jezika, ali se mogu izgovarati drugačije. Poslušajte izgovor kako biste lakše označili riječi.
+code-switching-pronunciation-explanation-example-1 = Engleski: /ˈkeɪ.bəl/
+code-switching-pronunciation-explanation-example-2 = Španjolski: /ˈkable/
+# Be Careful with Lookalikes
+code-switching-lookalikes-header = Budite oprezni s sličnim riječima
+code-switching-lookalikes-explanation = Neke riječi mogu izgledati kao u jednom jeziku, ali se koriste u drugom. Oznaka se temelji na značenju i upotrebi, a ne na izgledu. Primjeri:
+code-switching-lookalikes-explanation-example-1 = „Footing“ je nekada značilo trčanje na španjolskom > označi kao španjolski
+code-switching-lookalikes-explanation-example-2 = „No problemo“ se koristi u engleskom > označi kao engleski
+# When Not to Tag Words
+code-switching-not-tag-header = Kada ne označavati riječi
+code-switching-not-tag-explanation = Neke riječi ne bi trebalo <bold>označavati</bold> jezičnom oznakom, čak i ako se čine miješane ili prilagođene. Evo kako postupati s nekim primjerima:
+code-switching-not-tag-proper-names = <bold>Vlastita imena.</bold> Imena ljudi, mjesta i organizacija ne smiju se označavati. Primjeri:
+code-switching-not-tag-proper-names-example-1 = Osobe: Marija, Ivan
+code-switching-not-tag-proper-names-example-2 = Mjesta: Los Angeles, Florida
+code-switching-not-tag-proper-names-example-3 = Brendovi/Organizacije: Target, Burger King
+code-switching-not-tag-mixed-words = <bold>Mješovite ili morfološki prilagođene riječi.</bold> Nemojte označavati riječi koje miješaju jezike ili imaju dodane završetke iz drugog jezika. Primjeri:
+code-switching-not-tag-mixed-words-example = Gdje je korijen engleski, ali je sufiks španjolski: „parkear“, „printearlo“
+code-switching-not-tag-interjections = <bold>Uzvici.</bold> Uzvici i riječi za popunjavanje, bez obzira na jezik, trebaju ostati <bold>neoznačeni.</bold> Primjeri:
+code-switching-not-tag-interjections-example-1 = "Eh"
+code-switching-not-tag-interjections-example-2 = "Ne"
+code-switching-not-tag-interjections-example-3 = "Da"
+code-switching-not-tag-interjections-example-4 = "Hm"
+
+## Reporting Content
+
+reporting-content = Prijavljivanje sadržaja
+reporting-content-subheader = Opće smjernice
+reporting-content-explanation-1 = Morate označiti sadržaj koji je uvredljiv, štetan ili na drugi način zabrinjavajući. Također ne smije sadržavati osobne podatke poput telefonskih brojeva ili adresa. Bit će uklonjen iz vašeg sučelja dok ga tim Common Voicea ne pregleda i dalje ne istraži.
+reporting-content-explanation-2 = Za prijavu sadržaja odaberite gumb "Prijavi" i odaberite jednu ili sve opcije: Uvredljiv sadržaj, Drugačiji jezik, Osobni podaci, Ostalo. Onda u tekstualnom području navedite više detalja o razlogu prijavljivanja sadržaja. Zatim pošaljite prijavu klikom na gumb Prijavi.
