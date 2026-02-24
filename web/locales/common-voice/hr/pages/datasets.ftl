@@ -6,6 +6,13 @@ datasets-positioning =
     Veliki, javno dostupni skupovi glasovnih podataka potaknut će inovacije i zdravu konkurenciju u području tehnologije strojnog učenja govora. Skup podataka Common Voicea najveći je te vrste, ali nije jedini.
     
     Ova stranica služi kao referentni centar za druge skupove glasovnih podataka otvorenog koda i kao dom za naša aktualizirana izdanja kako Common Voice raste.
+# New/upcoming datasets page headline
+datasets-headline-mdc = Skupovi podataka Mozilla Common Voice sada su ekskluzivno dostupni na Mozilla Data Collective.
+# New/upcoming datasets page headline text
+datasets-positioning-mdc =
+    Od verzije Common Voice 23.0, svi skupovi podataka Common Voice dostupni su za preuzimanje isključivo putem Mozilla Data Collective!
+    
+    Ova stranica služi kao povijesna arhiva za prethodne verzije skupova podataka Mozilla Common Voice. Arhivska izdanja trebaju se koristiti samo u specifičnim istraživačkim scenarijima, a ne za učenje modela, kako bi se poštovale želje onih koji su zatražili da se njihovi doprinosi isključe.
 datasets-speech-bubble-content = Uzbudljive vijesti! Spontani govor će uskoro biti dostupan! Prati novosti i svakako posjeti naš <discordLink>Discord</discordLink> za najnovije informacije.
 language = Jezik
 download-dataset-header = Preuzmi skup podataka

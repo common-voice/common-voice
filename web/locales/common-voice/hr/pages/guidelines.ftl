@@ -4,7 +4,9 @@ guidelines-header-subtitle = Shvati kako doprinijeti i potvrditi rečenice i aud
 voice-collection = Zbirka glasova
 sentence-collection = Zbirka rečenica
 question-collection = Zbirka pitanja
+scripted-speech = Pripremljen govor
 spontaneous-speech = Spontani govor
+dont-subheader = Nemojte
 
 ## Voice Collection nav ids
 
@@ -114,6 +116,9 @@ adding-questions = Dodavanje pitanja
 
 what-makes-a-good-question-subheader = Što je važno za dobro pitanje?
 what-makes-a-good-question-explanation = Dobro pitanje za skupove podataka javnog sudjelovanja trebalo bi:
+what-makes-a-good-question-explanation-criteria-1 = Biti lako za razumjeti i odgovoriti
+what-makes-a-good-question-explanation-criteria-2 = Biti općenito relevantno
+what-makes-a-good-question-explanation-criteria-3 = Ne koristiti ili tražiti štetan ili uvredljiv jezik
 what-makes-a-good-question-tip = Također razmotri mogućnost pokrivanja različitih konteksta i domena.
 easy-to-understand = Lako za razumjeti
 easy-to-understand-explanation = Odaberi jednostavna pitanja koja svatko može razumjeti, bez obzira na kulturu ili kontekst.
@@ -126,7 +131,9 @@ culturally-specific-questions = Kulturno specifična pitanja
 culturally-specific-questions-explanation = Pitanja koja su vrlo kulturno specifična ili donose mnogo pretpostavki o ispitaniku
 length-avoid-explanation = Pitanja na koja bi netko teško odgovorio u roku od 15 sekundi (maksimalna duljina isječka)
 process-steps = Proces / Koraci
+process-steps-explanation = Pitanja koja zahtijevaju da netko navede nekoliko koraka. Navođenje koraka potiče korisnika da recitira odgovor, a ne da prirodnije odgovori.
 offensive-content-sensitive-information = Uvredljiv sadržaj ili povjerljivi podaci
+offensive-content-sensitive-information-explanation-explanation-1 = Pitanja koja bi mogla tražiti osobne podatke
 offensive-content-sensitive-information-explanation-explanation-2 = Pitanja koja bi mogla poticati govor mržnje ili druge pristrane ili uvredljive osjećaje
 offensive-content-sensitive-information-explanation-explanation-3 = Pitanja koja mogu potaknuti osobu da podijeli povjerljive, potencijalno traumatične informacije
 example-questions-subheader = Primjeri pitanja
