@@ -43,8 +43,15 @@ need-help-deciding-platform-explanation-2 = <strong>ზეპირი მეტ
 need-help-deciding-platform-explanation-3 = თუ თქვენს ენას საიტის ვერცერთ ნაწილში ვერ იპოვით, მიუთითეთ ორივე.
 request-language-search-bar = აქ შეგიძლიათ აკრიფოთ თქვენი ენის სახელი; თუ ვერ იპოვის Common Voice, შეგეძლებათ შეავსოთ ველები თქვენი ენის მონაცემებით.
 request-language-found-pontoon-not-launched =
-    თქვენი ენას უკვე შეიცავს Common Voice.
-    ენის მალე გამოსაჩენად <strong>წერითი მეტყველების</strong> არეში, შეგიძლიათ თარგმნოთ
+    თქვენს ენას უკვე აჩვენებს სიაში Common Voice.
+    მალე რომ დაემატოს <strong>წერითი მეტყველება</strong>, თარგმნეთ
     იერსახე <pontoonLink>აქედან</pontoonLink>. საჭიროა ითარგმნოს წარწერების 60% მაინც; 
-    სანაცვლოდ შეგიძლიათ მხოლოდ ძირითადი სტრიქონები თარგმნოთ ფაილში 'web/locales/en/pages/contribute/*.ftl' 100%-მდე 
-    (სულ ხუთი ამგვარი ფაილია) და ნათარგმნი იერსახე თავისთავად გამოჩნდება.
+    სანაცვლოდ შეგიძლიათ ჯერ მხოლოდ 'web/locales/en/pages/contribute/*.ftl' დაასრულოთ 100%-მდე 
+    (სულ ხუთი ამგვარი ფაილია) და გამზადებული იერსახე თავისთავად გაეშვება.
+request-language-found-cv-contribution =
+    ვაშა! თქვენს ენას უკვე აჩვენებს Common Voice <strong>წერითი მეტყველების</strong> არეში. 
+    წვლილის შეტანა შეგიძლიათ <homePageLink>აქედან</homePageLink>.
+request-language-found-cv-sentences-lack =
+    თქვენს ენას უკვე აჩვენებს სიაში Common Voice.
+    მალე რომ დაემატოს <strong>ზეპირი მეტყველება</strong>,
+    შემოგვწირეთ წინადადებები <sentencesContributionLink>აქედან</sentencesContributionLink>.
