@@ -27,3 +27,21 @@ cs-no-audio-continue-skipped-message = Trenutačno nema audio snimaka za transkr
 ## Review Page Items
 
 cs-no-transcriptions-continue-skipped = Trenutno nema transkripcija za provjeru u ovom skupu podataka. Ako ste neke preskočili, možete nastaviti s preskočenim sadržajem ili prijeći na transkripciju zvuka i pokušati ponovno kasnije.
+
+## Tag Page Items
+
+cs-no-transcriptions-to-tag-continue-skipped = Trenutno nema transkripcija za označavanje za ovaj skup podataka. Ako ste neke preskočili, možete nastaviti s preskočenim sadržajem ili prijeći na transkripciju zvuka i pokušati ponovno kasnije.
+cs-tag-dataset-name = Skup podataka [{ $datasetName }]
+
+## Guidelines
+
+learn-how-to-use = Saznajte kako koristiti ovu stranicu
+read-full-guidelines-here = <guidanceLink>Pročitajte cjelovite smjernice ovdje</guidanceLink>
+
+## Answer Page Guidelines
+
+cs-learn-how-to-use-answer-explanation = Odgovorite na upit što prirodnije možete, slobodno mijenjajte narječje/jezik ako vam se čini prirodnim. Pazite da vaš jezik bude pristojan i neuvredljiv.
+
+## Review Page Guidelines
+
+cs-learn-how-to-use-check-transcript-explanation = Transkripcija bi trebala obuhvatiti svaku riječ ili ne-leksički zvuk razgovora koji je osoba izgovorila, uključujući ponavljanja.

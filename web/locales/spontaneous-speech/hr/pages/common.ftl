@@ -47,6 +47,9 @@ not-found-page-header = Nije pronađeno
 not-found-page-content = Stranica koju tražiš nije pronađena
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Slažem se s <termsLink>uvjetima</termsLink> i <privacyLink>napomenama o privatnosti</privacyLink> Common Voicea
+# Locales-Variants
+ms-MY = Malajski
+el-CY = Ciparski Grčki
 
 ## Language search component
 
@@ -101,3 +104,7 @@ player-speed-slow-aria-label = Sporija brzina reprodukcije
 player-speed-normal-aria-label = Normalna brzina reprodukcije
 # Faster playback speed button accessibility/aria label
 player-speed-fast-aria-label = Brža brzina reprodukcije
+# Auto transcription mode button accessibility/aria label
+transcription-mode-auto-aria-label = Uključi/isključi automatsku reprodukciju riječ po riječ
+# Mode menu button accessibility/aria label
+transcription-mode-menu-aria-label = Uključi/isključi izbornik načina transkripcije

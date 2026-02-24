@@ -275,6 +275,7 @@ code-switching-authentic-speak-example = „Well, rekao sam joj da ne mogu ići,
 code-switching-use-both-languages = <bold>Koristite oba jezika ako biste to inače tako rekli.</bold> Čak je i zamjena samo jedne ili dvije riječi korisna. Primjer:
 code-switching-use-both-languages-example = „Stvarno se naljutila because nisam ju nazvao.“
 code-switching-authentic-direct-quotes = <bold>Uključite izravne citate ili dijalog.</bold> Recite točno ono što je netko rekao, a ne dotjeranu ili formalnu verziju. Primjer:
+code-switching-authentic-direct-quotes-example = "Mama mu je rekla: 'You think this is a game?', a ja sam bio kao: 'Okay chill!'"
 code-switching-authentic-reflect = <bold>Osvrnite se na emocije, identitet i kontekst.</bold> Prebacivanje se obično događa kada ljudi izražavaju emocije, hitnost ili kulturne ideje. Oslanjajte se na to prilikom odgovaranja na pitanja.
 code-switching-authentic-full-context = <bold>Koristite potpune odgovore s kontekstom.</bold> Budite što detaljniji i navedite što više detalja. Podijelite priču ili primjer u svojim odgovorima.
 # Don’t Overthink or Overedit
@@ -321,6 +322,12 @@ code-switching-pronunciation-header = Koristite izgovor kako biste lakše odredi
 code-switching-pronunciation-explanation = Neke riječi mogu izgledati isto u oba jezika, ali se mogu izgovarati drugačije. Poslušajte izgovor kako biste lakše označili riječi.
 code-switching-pronunciation-explanation-example-1 = Engleski: /ˈkeɪ.bəl/
 code-switching-pronunciation-explanation-example-2 = Španjolski: /ˈkable/
+# Tagging in a Single Token
+code-switching-single-token-header = Označavanje u jednom tokenu
+code-switching-single-token-explanation = Jedan token odvojen razmacima treba sadržavati više od jednog označenog raspona.
+# Tag Punctuation Based on Nearby Language
+code-switching-punctuation-tagging-header = Označite interpunkciju na temelju obližnjeg jezika
+code-switching-punctuation-tagging-explanation = Označite interpunkciju koristeći jezik najbliži rasponu s lijeve strane. Primjeri:
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = Budite oprezni s sličnim riječima
 code-switching-lookalikes-explanation = Neke riječi mogu izgledati kao u jednom jeziku, ali se koriste u drugom. Oznaka se temelji na značenju i upotrebi, a ne na izgledu. Primjeri:
