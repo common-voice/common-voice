@@ -201,3 +201,24 @@ transcribe-the-audio-subheader-4-explanation-1-example = Ime mu je <underline>Jo
 transcribe-the-audio-subheader-4-explanation-2 = Ponekad govornici ponove riječ ili fragment riječi više puta. I to treba transkribirati. Primjerice:
 transcribe-the-audio-subheader-4-explanation-2-example = A onda sam otišao u u u <underline>krevet - u</underline> spavaću sobu
 transcribe-the-audio-subheader-5-explanation-1 = Spontani govor će prirodno sadržavati gramatičke pogreške. One se ne bi trebale ispravljati u transkripciji. Transkripcija bi trebala točno odražavati izgovoreni sadržaj.
+transcribe-the-audio-subheader-5-explanation-2 = Govornici će možda koristiti kolokvijalizme (kao što su u engleskom „gonna“, „cuz“ itd.) koji se možda ne smatraju formalno ispravnima. Treba ih transkribirati kakvi jesu, a ne mijenjati ih u njihove formalnije ekvivalente.
+
+## Review the Transcription
+
+review-the-transcription = Pregledaj transkripciju
+review-the-transcription-subheader = Opće smjernice
+review-the-transcription-explanation-1 = Općenito, savjetujemo da osoba koja provjerava transkripciju ne bude ista osoba koja je napravila originalnu transkripciju. Vrlo je teško provjeriti vlastiti rad! Višestruki pregled može pomoći u robusnijem osiguranju kvalitete i ublažavanju pristranosti i problema.
+review-the-transcription-explanation-2 = Pregledajte gornje smjernice za transkripciju kako biste provjerili je li transkripcija točna. Možete unijeti izmjene i poslati ih.
+review-the-transcription-explanation-3 = Možete označiti sadržaj koji je uvredljiv, štetan ili na drugi način zabrinjavajući, a on će biti uklonjen iz vašeg sučelja dok ga tim Common Voicea ne pregleda i dalje istraži.
+
+## Code-Switching
+
+code-switching = Prebacivanje narječja/jezika
+adding-a-question = Dodavanje pitanja
+# Adding a Question
+code-switching-adding-question-subheader = Što je važno za dobro pitanje?
+code-switching-adding-question-explanation = Dobro pitanje za skupove podataka javnog sudjelovanja trebalo bi:
+code-switching-adding-question-criteria-1 = Biti lako razumljivo i lako za odgovoriti
+code-switching-adding-question-criteria-2 = Biti općenito relevantno
+code-switching-adding-question-criteria-3 = Ne koristiti niti tražiti štetan ili uvredljiv jezik
+code-switching-adding-question-note = Također razmotrite mogućnost pokrivanja različitih konteksta i domena.
