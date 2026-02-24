@@ -128,7 +128,7 @@ length = Duljina
 length-explanation = Na pitanje bi se trebalo moći odgovoriti u samo par rečenica.
 dont-add-subheader = Nemoj dodavati
 culturally-specific-questions = Kulturno specifična pitanja
-culturally-specific-questions-explanation = Pitanja koja su vrlo kulturno specifična ili donose mnogo pretpostavki o ispitaniku
+culturally-specific-questions-explanation = Pitanja koja su vrlo kulturno specifična ili nose mnogo pretpostavki o ispitaniku
 length-avoid-explanation = Pitanja na koja bi netko teško odgovorio u roku od 15 sekundi (maksimalna duljina isječka)
 process-steps = Proces / Koraci
 process-steps-explanation = Pitanja koja zahtijevaju da netko navede nekoliko koraka. Navođenje koraka potiče korisnika da recitira odgovor, a ne da prirodnije odgovori.
@@ -328,6 +328,9 @@ code-switching-single-token-explanation = Jedan token odvojen razmacima treba sa
 # Tag Punctuation Based on Nearby Language
 code-switching-punctuation-tagging-header = Označite interpunkciju na temelju obližnjeg jezika
 code-switching-punctuation-tagging-explanation = Označite interpunkciju koristeći jezik najbliži rasponu s lijeve strane. Primjeri:
+# text wrapped in purple and blue will be shown with a purple and blue background in the UI respectively
+code-switching-punctuation-tagging-explanation-example-1 = <purple>i jedini put kada</purple> je Maria <purple>vikala na mene</purple> <blue>jer</blue> <purple>je pokušavala</purple> isprintati <blue>poništiti</blue> <purple>red.</purple> (BangorTalk)
+code-switching-punctuation-tagging-explanation-example-2 = <purple>but</purple> <blue>tú los puedes comprar rojo, negro, azul</blue>, <purple>whatever.</purple> (BangorTalk)
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = Budite oprezni s sličnim riječima
 code-switching-lookalikes-explanation = Neke riječi mogu izgledati kao u jednom jeziku, ali se koriste u drugom. Oznaka se temelji na značenju i upotrebi, a ne na izgledu. Primjeri:
