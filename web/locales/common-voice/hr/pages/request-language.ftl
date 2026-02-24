@@ -39,3 +39,10 @@ need-help-deciding-platform = Trebaš pomoć pri biranju jezika?
 need-help-deciding-platform-explanation-1 = <strong>Pisani govor</strong> (tradicionalno ono što poznaš kao Common Voice) je mjesto gdje možeš naglas čitati rečenice na svom jeziku.
 need-help-deciding-platform-explanation-2 = <strong>Spontani govor</strong> je novi dio Common Voicea u kojem možeš odgovarati na pitanja na prirodniji, kolokvijalni način.
 need-help-deciding-platform-explanation-3 = Ako ni u jednom dijelu platforme ne vidiš tvoj jezik, odaberi oba.
+request-language-search-bar = Ovdje možete početi unositi naziv svog jezika; ako još nije na Common Voiceu, moći ćete ispuniti obrazac s podacima o svom jeziku.
+request-language-found-pontoon-not-launched =
+    Vaš je jezik već na popisu jezika Common Voice. 
+    Pokretanje jezika na <strong>Pisani govor</strong> možete olakšati lokalizacijom sučelja platforme <pontoonLink>ovdje</pontoonLink>. Sučelje mora biti lokalizirano na 60%; 
+    alternativno možete lokalizirati samo osnovne nizove u ‘web/locales/en/pages/contribute/*.ftl’ na 100% 
+    (postoji pet takvih datoteka) i sučelje će se automatski pokrenuti.
+request-language-found-cv-contribution = Hura! Vaš jezik je već dostupan na Common Voice <strong>Pisani govor</strong>. Možete doprinijeti <homePageLink>ovdje</homePageLink>.
