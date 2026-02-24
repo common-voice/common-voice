@@ -42,3 +42,9 @@ need-help-deciding-platform-explanation-1 = <strong>ნაწერის გა
 need-help-deciding-platform-explanation-2 = <strong>ზეპირი მეტყველება</strong> ახალი შესაძლებლობაა, რომელსაც Common Voice გთავაზობთ და შეგეძლებათ კითხვებს უპასუხოთ მეტად ბუნებრივი, სალაპარაკო ენით.
 need-help-deciding-platform-explanation-3 = თუ თქვენს ენას საიტის ვერცერთ ნაწილში ვერ იპოვით, მიუთითეთ ორივე.
 request-language-search-bar = აქ შეგიძლიათ აკრიფოთ თქვენი ენის სახელი; თუ ვერ იპოვის Common Voice, შეგეძლებათ შეავსოთ ველები თქვენი ენის მონაცემებით.
+request-language-found-pontoon-not-launched =
+    თქვენი ენას უკვე შეიცავს Common Voice.
+    ენის მალე გამოსაჩენად <strong>წერითი მეტყველების</strong> არეში, შეგიძლიათ თარგმნოთ
+    იერსახე <pontoonLink>აქედან</pontoonLink>. საჭიროა ითარგმნოს წარწერების 60% მაინც; 
+    სანაცვლოდ შეგიძლიათ მხოლოდ ძირითადი სტრიქონები თარგმნოთ ფაილში 'web/locales/en/pages/contribute/*.ftl' 100%-მდე 
+    (სულ ხუთი ამგვარი ფაილია) და ნათარგმნი იერსახე თავისთავად გამოჩნდება.
