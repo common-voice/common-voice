@@ -276,3 +276,13 @@ code-switching-use-both-languages = <bold>Koristite oba jezika ako biste to ina�
 code-switching-use-both-languages-example = „Stvarno se naljutila because nisam ju nazvao.“
 code-switching-authentic-direct-quotes = <bold>Uključite izravne citate ili dijalog.</bold> Recite točno ono što je netko rekao, a ne dotjeranu ili formalnu verziju. Primjer:
 code-switching-authentic-reflect = <bold>Osvrnite se na emocije, identitet i kontekst.</bold> Prebacivanje se obično događa kada ljudi izražavaju emocije, hitnost ili kulturne ideje. Oslanjajte se na to prilikom odgovaranja na pitanja.
+code-switching-authentic-full-context = <bold>Koristite potpune odgovore s kontekstom.</bold> Budite što detaljniji i navedite što više detalja. Podijelite priču ili primjer u svojim odgovorima.
+# Don’t Overthink or Overedit
+code-switching-answer-dont-subheader = Nemojte previše razmišljati ili preuređivati
+code-switching-answer-dont-correct-language = <bold>"Ispravljati" svoj jezik.</bold> Ovo nije test. "Pravilan" oblik ovdje nije važan, prirodni jezik jest.
+code-switching-answer-dont-avoid-switching = <bold>Izbjegavati prebacivanje ako to inače radite.</bold> U redu je prebaciti se usred rečenice, usred misli ili samo za jednu riječ.
+code-switching-answer-dont-formal-writing = <bold>Govoriti kao da pišete formalno.</bold> Izbjegavajte formalne, akademske odgovore. Neka to bude razgovorno.
+code-switching-answer-dont-force-switch = <bold>Prisiljavati se na promjenu ako to nije prirodno.</bold> Prebacite se samo ako biste tako prirodno razgovarali u toj situaciji.
+code-switching-answer-dont-translate-repeat = <bold>Prevoditi ili ponaljati sve.</bold> Samo to izgovorite jednom, onako kako bi to bilo u razgovoru. Ne morate izgovoriti verziju odgovora na svakom jeziku.
+# Transcribing
+code-switching-transcribe-subheader = Transkribiranje
