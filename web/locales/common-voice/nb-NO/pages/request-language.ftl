@@ -38,6 +38,15 @@ need-help-deciding-platform-explanation-1 = <strong>Skript tale</strong> (tradis
 need-help-deciding-platform-explanation-2 = <strong>Spontan Tale</strong> er en ny del av Common Voice der du kan svare på spørsmål på en mer naturlig måte.
 need-help-deciding-platform-explanation-3 = Hvis du ikke ser språket ditt i noen av delene av plattformen, velg begge.
 request-language-search-bar = Du kan begynne å skrive inn navnet på språket ditt her. Hvis det ennå ikke finnes på Common Voice, kan du fylle ut et skjema med språkinformasjonen for språket ditt.
+request-language-found-pontoon-not-launched =
+    Språket ditt er allerede på språklisten til Common Voice.
+    Du kan legge til rette for språkstart på <strong>skriftspråk</strong> ved å oversette
+    plattformgrensesnittet <pontoonLink>her</pontoonLink>. Grensesnittet må være 60 % oversatt;
+    alternativt kan du bare oversette grunnleggende strenger i «web/locales/en/pages/contribute/*.ftl» til 100 %
+    (det finnes fem slike filer), og grensesnittet vil bli lansert automatisk.
 request-language-found-cv-contribution =
     Hurra! Språket ditt er allerede live på Common Voice <strong>skriftspråk</strong>.
     Du kan bidra <homePageLink>her</homePageLink>.
+request-language-found-cv-sentences-lack =
+    Språket ditt er allerede på språklisten til Common Voice.
+    Du kan legge til rette for språkstart på <strong>skriftspråk</strong> ved å bidra med setninger <sentencesContributionLink>her</sentencesContributionLink>.
