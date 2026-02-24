@@ -187,5 +187,8 @@ tags-disfluency = Netečnost
 tags-unclear = Nejasno
 tags-noise = Buka
 tags-laugh-explanation = Zvuk smijeha.
+tags-disfluency-explanation =
+    Riječ ili zvuk koji se koristi kao zavlačenje dok govornik odlučuje što će reći.
+    U hrvatskom jeziku, neki uobičajeni zvukovi oklijevanja su „ovoga“, „um“, „uh“ itd.
 tags-unclear-explanation = Riječ ili niz riječi koji se ne mogu razumjeti.
 tags-noise-explanation = Bilo koja druga vrsta buke, poput kašljanja govornika, trubljenja automobila, zvuka nečega što udara u mikrofon, zujanja telefona itd.
