@@ -46,3 +46,12 @@ request-language-found-pontoon-not-launched =
     alternativno možete lokalizirati samo osnovne nizove u ‘web/locales/en/pages/contribute/*.ftl’ na 100% 
     (postoji pet takvih datoteka) i sučelje će se automatski pokrenuti.
 request-language-found-cv-contribution = Hura! Vaš jezik je već dostupan na Common Voice <strong>Pisani govor</strong>. Možete doprinijeti <homePageLink>ovdje</homePageLink>.
+request-language-found-cv-sentences-lack =
+    Vaš se jezik već nalazi na popisu jezika Common Voicea.
+    Pokretanje jezika na <strong>Pisani govor</strong> možete olakšati tako što ćete
+    doprinijeti rečenice <sentencesContributionLink>ovdje</sentencesContributionLink>.
+request-language-found-spontaneous-speech =
+    Vaš je jezik već dostupan na Common Voice <strong>Spontani govor</strong>. 
+    Kliknite <spontaneousSpeechLink>ovdje</spontaneousSpeechLink> da biste doprinijeli: ne zaboravite promijeniti jezik doprinosa/skupa podataka prije nego što počnete doprinositi!
+request-language-already-available-scs = Pripremljen govor već je dostupan
+request-language-already-available-sps = Spontani govor je već dostupan

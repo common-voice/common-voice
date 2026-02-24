@@ -1,6 +1,6 @@
 # Age and Gender form
-age-gender-form-title = Hvala ti na doprinosu za „Spontani govor”!
-age-gender-form-subtile = Ako nam kažeš nešto o sebi, pomoći ćeš programerima da izgrade inkluzivniju tehnologiju
+age-gender-form-title = Hvala Vam što doprinosite Spontanom govoru!
+age-gender-form-subtile = Kažete li nam nešto o sebi, pomoći ćete programerima da izgrade inkluzivniju tehnologiju
 add-information-button = Dodaj podatke
 continue-speaking-button = Nastavi govoriti
 age-select-label = Koliko imaš godina?
