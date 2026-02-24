@@ -59,6 +59,7 @@ x-years-short =
     }
 help-make-dataset = Pomogni nam izgraditi kvalitetan i javno dostupan skup podataka
 sign-up-account = Otvori račun
+email-subscription-title-v3 = Pretplatite se na ažuriranja od Common Voice i Mozilla Foundation
 
 ## Account Benefits
 
@@ -111,6 +112,7 @@ community-and-languages-menu-item-tooltip = Otkrij jezike i zajednice i zajedni�
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = Izbornik za pristup partnerstvima, materijalima za novinare, zajednici i jezicima
 about-us-menu-aria-label = Izbornik opcija za informacije
 about-us-menu-item-aria-label = Izbornik opcija „O nama”
 partnerships-menu-item-aria-label = Saznaj više o partnerstvu s Common Voiceom
@@ -142,6 +144,7 @@ answer = Odgovor
 
 ## Community section
 
+community-section-title-202601 = Pokreću globalne zajednice, za globalne zajednice — više od 290 jezika!
 join-discord-community = Pridruži se Discord zajednici
 # label for button
 join-discord-community-action = Pridruži nam se na Discordu
