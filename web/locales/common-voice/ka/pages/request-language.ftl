@@ -55,3 +55,8 @@ request-language-found-cv-sentences-lack =
     თქვენს ენას უკვე აჩვენებს სიაში Common Voice.
     მალე რომ დაემატოს <strong>ზეპირი მეტყველება</strong>,
     შემოგვწირეთ წინადადებები <sentencesContributionLink>აქედან</sentencesContributionLink>.
+request-language-found-spontaneous-speech =
+    თქვენს ენას უკვე აჩვენებს Common Voice <strong>ზეპირი მეტყველების</strong> არეში. 
+    დაწკაპეთ <spontaneousSpeechLink>აქ</spontaneousSpeechLink> წვლილის შესატანად: არ დაგავიწყდეთ წვლილის/კრებულის ენის შეცვლა, სანამ საქმეს შეუდგებით!
+request-language-already-available-scs = წერითი მეტყველება უკვე ხელმისაწვდომია
+request-language-already-available-sps = ზეპირი მეტყველება უკვე ხელმისაწვდომია
