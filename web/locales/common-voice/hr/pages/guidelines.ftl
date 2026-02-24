@@ -192,3 +192,12 @@ tags-disfluency-explanation =
     U hrvatskom jeziku, neki uobičajeni zvukovi oklijevanja su „ovoga“, „um“, „uh“ itd.
 tags-unclear-explanation = Riječ ili niz riječi koji se ne mogu razumjeti.
 tags-noise-explanation = Bilo koja druga vrsta buke, poput kašljanja govornika, trubljenja automobila, zvuka nečega što udara u mikrofon, zujanja telefona itd.
+# Note: do not translate any tag, like [noise] or [laugh]
+special-tags-example-2 =
+    I onda sam [noise] otišao na odmor.
+    Pa, [noise] [laugh] nije baš bio odmor [laugh]
+transcribe-the-audio-subheader-4-explanation-1 = Spontani govor prirodno sadrži pogrešne početke gdje se izgovori samo fragment cijele riječi. U tim slučajevima, molimo vas da transkribirate fragment riječi najbolje što možete i dodate crticu na kraj riječi (-) kako biste naznačili da je riječ pogrešan početak. Primjerice:
+transcribe-the-audio-subheader-4-explanation-1-example = Ime mu je <underline>Jo- Jona-</underline> Jonathan.
+transcribe-the-audio-subheader-4-explanation-2 = Ponekad govornici ponove riječ ili fragment riječi više puta. I to treba transkribirati. Primjerice:
+transcribe-the-audio-subheader-4-explanation-2-example = A onda sam otišao u u u <underline>krevet - u</underline> spavaću sobu
+transcribe-the-audio-subheader-5-explanation-1 = Spontani govor će prirodno sadržavati gramatičke pogreške. One se ne bi trebale ispravljati u transkripciji. Transkripcija bi trebala točno odražavati izgovoreni sadržaj.

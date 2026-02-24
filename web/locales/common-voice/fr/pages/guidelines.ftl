@@ -322,8 +322,6 @@ code-switching-pronunciation-header = Utilisez la prononciation pour déterminer
 code-switching-pronunciation-explanation = Certains mots peuvent s’écrire de la même façon dans les deux langues, mais peuvent être prononcés différemment.  Écoutez la prononciation pour vous aider à l’identifier correctement. Par exemple : camping, jogging, smoking, brushing, shampooing.
 code-switching-pronunciation-explanation-example-1 = Anglais : /'keɪ.bəl/
 code-switching-pronunciation-explanation-example-2 = Espagnol : /'kable/
-# Tagging in a Single Token
-code-switching-single-token-header = Identification au sein d’un jeton unique
 # Tag Punctuation Based on Nearby Language
 code-switching-punctuation-tagging-header = Identifiez la ponctuation en fonction de la langue utilisée à proximité
 code-switching-punctuation-tagging-explanation = Identifiez la ponctuation en utilisant la langue la plus proche à gauche de l’intervalle. Exemples :
