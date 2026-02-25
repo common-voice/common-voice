@@ -155,6 +155,7 @@ explore-datasets = Адыррақәа реизгақәа шәрыхәаԥш <ico
 
 ## Get involved section
 
+get-involved-section-title = Аилазаара анапхгарала иаарту адыррақәа реизгақәа шәрыдгылала
 read-sentences-link = Аҳәоуқәа рыԥхьара
 validate-readings-link = Аԥхьашьа агәаҭара
 answer-questions-link = Азҵаарақәа рҭак аҟаҵара
