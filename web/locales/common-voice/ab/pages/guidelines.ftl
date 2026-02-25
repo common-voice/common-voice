@@ -43,7 +43,7 @@ misreadings-tip-1 = [«Ҳара» ҳәа ыҟазароуп]
 misreadings-tip-2 = [Аханатәтәи атекст аҿы анбан "а" ыҟам]
 misreadings-tip-3 = [Иақәымшәо аҵакы]
 background-noise-explanation = Аҭаҩымҭаҿы иҟоу ажәацыԥхьаӡа шәаҳаратәы шәыҟазароуп. Ҳара иаҳҭахуп амашьынатә рҵара алгоритмқәа еиуеиԥшым афонтә быжьқәа аус рыдулара рылшаларц, насгьы зыбжьы дуу ашьҭыбжьқәа, ма иҭынчу афонтә музыка адкылазар ҟалоит урҭ атекст зегьы аҳара иаԥырхагамзар. Атекст аҳара иаԥырхагоу аҷҷа ахгарақәа ма "аԥжәарақәа" аклип мап ацәышәкроуп ҳәа иаанагоит.
-background-noise-example-1 = Триастәи адинозавр дуӡақәа.
+background-noise-example-1 = Триастәи адинозавр дуӡӡақәа.
 background-noise-example-2 = [Аимсабжьы] Атриастәи динозавр дуӡӡақәа [аимҳәа].
 background-noise-example-3 = Атриастәи динозавр дуӡӡа [деимҳәоит].
 background-noise-example-4 = [Аҷеҩбжьы] адинозавр дуӡӡақәа [аҷеҩбжьы] -риас.
@@ -100,7 +100,7 @@ adding-sentences-subheader-punctuation-explanation = Иҷыдоу адыргақ
 adding-sentences-subheader-special-characters = Иҷыдоу асимволқәеи атәым нбанқәеи
 adding-sentences-subheader-special-characters-explanation-1 = Анбанқәа аԥхьашьа зламҩаԥысуа абызшәаҿы иҟазароуп. Иаҳҳәап, «ж» — аурыс алфавит иатәу нбануп, аха англыз бызшәаҿы ахаангьы ахархәара амаӡам, убри аҟнытә уи англыз бызшәала иҟоу аханатәтәи атекст аҿы ахаан иҟамлароуп.
 adding-sentences-subheader-special-characters-explanation-2 = Аҭыԥыркраан абызшәақәа ихарҭәаау аҭаххарақәа зцу рхатәы гәаҭаратә ԥҟарақәа рымазар ҟалоит. Абызшәазы иҷыдоу агәаҭаратә фаил ыҟамзар, алахәылацәа рзы аԥҟарақәа англыз бызшәала иаарԥшхоит.
-adding-sentences-subheader-offensive-content = Ихьымӡӷу аҵакы
+adding-sentences-subheader-offensive-content = Ихьымӡӷыргагоу аҵакы
 adding-sentences-subheader-offensive-content-explanation = Аҳәоу ихьымӡӷыргагазар, мамзаргьы шәгәы ԥнажәозар — иаҳҳәап, имаӡам аҵакы аныԥшуазар, ма <communityGuidelines>аилазаара аҽалархәразы ҳаԥҟарақәа</communityGuidelines> еиланагозар — уи аҳәоу мап ацәышәкроуп. Иара убас апроблема аӡбаразы шәара шәыҽҳамажәдар шәылшоит <emailFragment>commonvoice@mozilla.com</emailFragment> адрес ала.
 reviewing-sentences-explanation-1 = Аҳәоу хыхь иарбоу акритериақәа ирықәшәозар, адырга «Ааи» шәақәыӷәӷәа.
 reviewing-sentences-explanation-2 = Аҳәоу хыхь иарбоу акритериақәа ирықәымшәозар, адырга «Мап» шәақәыӷәӷәа.
@@ -110,7 +110,7 @@ domain-explanation = Адомен аҳәоу атема иаҵанакуеит. 
 
 ## Question collection ids
 
-adding-questions = Азҵаарақәа рыцҵара
+adding-questions = Азҵаарақәа рацҵара
 
 ## Question collection sidebar content
 
