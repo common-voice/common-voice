@@ -400,6 +400,7 @@ uk = Ucrania ñe’ẽ
 ukv = Kuku
 ur = Urdu ñe’ẽ
 ush = Ushojo
+usp = Uspanteko
 uz = Uzbequistán ñe’ẽ
 var = Huarijio
 ve = Tshivenda
