@@ -2,7 +2,6 @@
 
 report-modal-title = Mmìa na signalijazzioni
 offensive_speech = Cuntinutu uffinzivu
-different_language = Lingua diversa
 personally_identifiable_information = Nfurmazzioni d’idintificazzioni pirsunali
 report-other-comment =
     .placeholder = Cummentu

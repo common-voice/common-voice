@@ -37,3 +37,24 @@ need-help-deciding-platform = Butuh bantuan kanggo nemtokake endi sing arep dipi
 need-help-deciding-platform-explanation-1 = <strong>Omongan sing Ditulis</strong> (biasane dikenal minangka Common Voice) yaiku papan kanggo maca ukara kanthi banter nganggo basa sampeyan dhewe.
 need-help-deciding-platform-explanation-2 = <strong>Omongan sing Spontan</strong> iku bagéyan anyar saka Common Voice ing ngendi sampeyan bisa nanggapi pitakonan kanthi cara sing luwih alami lan basa sedina-dina.
 need-help-deciding-platform-explanation-3 = Yen sampeyan ora weruh basa sampeyan ing salah siji bagean platform, pilih loro-lorone.
+request-language-search-bar = Sampeyan bisa miwiti ngetik jeneng basa sampeyan ing kene; yen durung ana ing Common Voice, sampeyan bisa ngisi formulir nganggo data basa sampeyan.
+request-language-found-pontoon-not-launched =
+    Basa sampeyan wis ana ing dhaptar basa Common Voice.
+    
+    Sampeyan bisa nggampangake peluncuran basa ing <strong>Scripted Speech</strong> kanthi nglokalisasi
+    antarmuka platform <pontoonLink>ing kene</pontoonLink>. Antarmuka kudu dilokalisasi 60%;
+    
+    utawa sampeyan bisa nglokalisasi mung string dhasar ing 'web/locales/en/pages/contribute/*.ftl' dadi 100%
+    
+    (ana limang file kaya ngono), lan antarmuka bakal diluncurake kanthi otomatis.
+request-language-found-cv-contribution =
+    Hore! Basa sampeyan wis aktif ing Common Voice <strong>Scripted Speech</strong>.
+    
+    Sampeyan isa nyumbang <homePageLink>ing kene</homePageLink>.
+request-language-found-cv-sentences-lack =
+    Basa sampeyan wis ana ing dhaptar basa Common Voice.
+    Sampeyan bisa nggampangake peluncuran basa ing <strong>Scripted Speech</strong> kanthi
+    nyumbang ukara <sentencesContributionLink>ing kene</sentencesContributionLink>.
+request-language-found-spontaneous-speech = Basa sampeyan wis aktif ing Common Voice <strong>Spontaneous Speech</strong>. Klik <spontaneousSpeechLink>ing kene</spontaneousSpeechLink> kanggo nyumbang: aja lali ngganti basa kontribusi/set data sadurunge sampeyan miwiti nyumbang!
+request-language-already-available-scs = Naskah Pidato Wis Kasedhiya
+request-language-already-available-sps = Pidato Spontan Wis Kasedhiya

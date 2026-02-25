@@ -1,8 +1,9 @@
 ## Report Modal
 
 report-modal-title = Ашшра анашьҭра
+report-modal-subtitle = Ари аконтент иадҳәалоу иарбан уадаҩрақәоу ишәымоу?
 offensive_speech = Ихьымӡӷыргаго аҵакы
-different_language = Даҽа бызшәак
+offensive_speech-detail = Аҵакы ианыԥшуеит азинеиҟарамратә, ма ихьымӡӷыргагоу аҳәамҭақәа.
 personally_identifiable_information = Ахаҭара ашьақәыргылара алзыршо аинформациа
 report-other-comment =
     .placeholder = Ахҳәаа

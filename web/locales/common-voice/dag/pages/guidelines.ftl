@@ -97,6 +97,7 @@ length = waɣilim
 length-explanation = Bɔhigu maa tu ni di tooi labisi ni yɛltɔɣa bela
 dont-add-subheader = Di pahi
 culturally-specific-questions = kaya ni ta-ada bɔhisi
+culturally-specific-questions-explanation = Bɔhisi shɛŋa din n-jɛndi kaya ni taada, bee din n tɛhiri pam n-tiri ŋun labisiri maa
 process-steps = Soya
 example-questions-subheader = Kotomsi bɔhisi
 example-questions-explanation-1 = A ni tooi nya <examplePromptsLink> kɔbigi ni pishi kotomsi gbaŋ ŋɔ ni.</examplePromptsLink>
@@ -107,8 +108,20 @@ example-questions-explanation-1 = A ni tooi nya <examplePromptsLink> kɔbigi ni 
 answer-questions = Labisimi bɔhisi
 answer-questions-tip-1 = Yaami li luɣishɛli din fo.
 answer-questions-tip-2 = piimi luɣishɛli intaneeti ni be.
+answer-questions-tip-4 = Chɛli yɛltɔɣa kana, yɛltɔɣa fina, bee yɛltɔɣa yoya
 # Transcribe the Audio
 transcribe-the-audio = Sabimi kukɔli maa.
+transcribe-the-audio-subheader-2 = nambanima mini bachi ŋmahi
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Ka viɛnyɛla</wrong>:  Di nyɛla maali kɔbiga zaŋ kana kpe
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correct> Viɛnyɛla</correct>: Ni nya a <underline>yuun tusaayi ni pia ni anu ni</underline>
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Ka viɛnyɛla</wrong>: Ni nya a <underline>2015 ni</underline>
+transcribe-the-audio-subheader-2-example-3-correct = <correct>Viɛnyɛla</correct>: Didi nyɛla vaabu pishi kɔbiga puuni
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Ka viɛnyɛla</wrong>: Didi nyɛla 20% off
+transcribe-the-audio-subheader-2-example-4-correct = <correct>Viɛnyɛla</correct>: Bɛ nyɛla <underline>FBI ni daa gbahi shɛba</underline> alaamishi dali maa
+transcribe-the-audio-subheader-2-example-4-wrong = <wrong>Ka viɛnyɛla</wrong>: Bɛ nyɛla <underline>eff bee eye ni daa gbahi shɛba</underline> alaamishi dali maa
 tags-table-header-2 = Gbinni
 tags-laugh = La
 tags-noise = Vuri

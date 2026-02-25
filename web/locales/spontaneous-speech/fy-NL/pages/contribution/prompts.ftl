@@ -8,8 +8,15 @@ prompt-page-instruction = { $actionType } <micIcon></micIcon> en antwurdzje sa n
 no-prompts-continue-skipped-message = Der binne op dit stuit gjin fragen mear foar dizze taal. As jo ien oerslein hawwe, kinne jo trochgean mei oersleine ynhâld of of audiotranskripsje útfiere en it letter opnij probearje.
 error-skipping = Der is in flater bard by it oerslaan fan dizze fraach
 error-recording = Der is in flater bard wylst it opnimmen
+error-recording-too-short = De opname is te koart. De minimale doer is { $minDurationSeconds } sekonden.
+error-recording-too-long = De opname is te lang. De maksimale doer is { $maxDurationMinutes } minuten.
 error-fetching-prompts = Der is wat misgien by it opheljen fan fragen. Probearje it letter opnij.
 error-uploading-response = Der is in flater bard by it opladen fan jo antwurd.
+error-empty-audio = Opname mislearre. It audiobestân liket leech te wêzen. Probearje it opnij.
+error-platform-webview = Opname wurdt mooglik net stipe yn dizze beheinde browser. Brûk in folsleine browser-app.
+error-recording-too-short-seconds = De opname is te koart. De minimale doer is { $minDurationSeconds } sekonden.
+error-recording-too-long-minutes = De opname is te lang. De maksimale doer is { $maxDurationMinutes } minuten.
+cannot-play-audio = Kin audio net ôfspylje. Probearje it opnij.
 prompt-submitted-success = Antwurd mei sukses ferstjoerd
 prompt-response-deleted-success = Antwurd mei sukses fuortsmiten
 # For the button to delete a response to a prompt

@@ -26,6 +26,10 @@ contribute = Bidra
 # Button text which appears when there are no more resources
 continue-with-skipped = Hald fram med hoppa over
 
+## Common aria-labels
+
+keyboard-shortcuts-button-aria-label = Vis tastatursnarvegar
+
 ## Navbar
 
 question = Spørsmål
@@ -90,6 +94,10 @@ player-pause-button-aria-label = Sett lyd på pause
 player-skip-backward-aria-label = Hopp bakover 5 sekund
 # Skip forward button accessibility/aria label
 player-skip-forward-aria-label = Hopp framover 5 sekund
+# Audio playback progress slider accessibility/aria label
+player-progress-slider-aria-label = Glidebrytar for framdrift av lydavspeling
+# Toggle speed and transcription mode menu button
+player-toggle-mode-menu-aria-label = Slå av/på modusmenyen
 # Slower playback speed button accessibility/aria label
 player-speed-slow-aria-label = Lågare avspelingsfart
 # Normal playback speed button accessibility/aria label
@@ -98,3 +106,5 @@ player-speed-normal-aria-label = Normal avspelingsfart
 player-speed-fast-aria-label = Høgare avspelingsfart
 # Auto transcription mode button accessibility/aria label
 transcription-mode-auto-aria-label = Slå av/på automatisk ord-for-ord-avspeling
+# Mode menu button accessibility/aria label
+transcription-mode-menu-aria-label = Slå av/på meny for transkripsjonsmodus

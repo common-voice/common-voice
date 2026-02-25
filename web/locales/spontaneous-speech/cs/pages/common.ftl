@@ -96,6 +96,8 @@ player-skip-backward-aria-label = Přeskočit o 5 sekund zpět
 player-skip-forward-aria-label = Přeskočit vpřed o 5 sekund
 # Audio playback progress slider accessibility/aria label
 player-progress-slider-aria-label = Posuvník průběhu přehrávání audia
+# Toggle speed and transcription mode menu button
+player-toggle-mode-menu-aria-label = Nabídka přepnutí režimu
 # Slower playback speed button accessibility/aria label
 player-speed-slow-aria-label = Pomalejší přehrávání
 # Normal playback speed button accessibility/aria label

@@ -1,8 +1,8 @@
-import fs from 'node:fs'
-import path from 'node:path'
+import * as fs from 'node:fs'
+import * as path from 'node:path'
 import { pipeline } from 'node:stream/promises'
 
-import tar from 'tar'
+import * as tar from 'tar'
 
 import { io as IO, readerTaskEither as RTE, taskEither as TE } from 'fp-ts'
 import { pipe } from 'fp-ts/lib/function'
@@ -12,8 +12,22 @@ import { CORPORA_CREATOR_SPLIT_FILES } from '../infrastructure/corporaCreator'
 import { AppEnv } from '../types'
 import { getTmpDir } from '../config/config'
 
-export const generateTarFilename = (locale: string, releaseName: string) =>
-  `${releaseName}-${locale}.tar.gz`
+export const sanitizeLicenseName = (license: string): string => {
+  // Replace spaces and special characters with underscores for safe filenames
+  return license.replace(/[\s/\\:*?"<>|]/g, '_')
+}
+
+export const generateTarFilename = (
+  locale: string,
+  releaseName: string,
+  license?: string,
+): string => {
+  if (license) {
+    const sanitizedLicense = sanitizeLicenseName(license)
+    return `${releaseName}-${locale}-${sanitizedLicense}.tar.gz`
+  }
+  return `${releaseName}-${locale}.tar.gz`
+}
 
 const createTarballWriteStream = (outFilepath: string) => {
   return fs.createWriteStream(outFilepath)
@@ -56,13 +70,20 @@ const getPathsToAddToTarball =
   ): IO.IO<string[]> =>
   () => {
     const dir = path.join(releaseDirPath, locale)
-    const paths = fs.readdirSync(dir, {
-      encoding: 'utf-8',
-      recursive: false,
-    })
-
+    let paths: string[] = []
+    try {
+      paths = fs.readdirSync(dir, {
+        encoding: 'utf-8',
+        recursive: false,
+      })
+    } catch (err) {
+      // Directory does not exist or is empty
+      console.warn(
+        `Warning: Directory for tarball does not exist or is empty: ${dir}`,
+      )
+      return []
+    }
     const filterFilesForRelease = pathsFilter(releaseType)
-
     return paths
       .filter(filterFilesForRelease)
       .map((pathS: string) => path.join(releaseName, locale, pathS))
@@ -74,11 +95,14 @@ const compressPipeline = (
   releaseDirPath: string,
   releaseTarballDir: string,
   releaseType: string,
+  license?: string,
 ): TE.TaskEither<Error, string> => {
   console.log('Start compress step')
   return pipe(
     TE.Do,
-    TE.let('tarballFilename', () => generateTarFilename(locale, releaseName)),
+    TE.let('tarballFilename', () =>
+      generateTarFilename(locale, releaseName, license),
+    ),
     TE.let('tarballFilepath', ({ tarballFilename }) =>
       path.join(releaseTarballDir, tarballFilename),
     ),
@@ -87,9 +111,16 @@ const compressPipeline = (
       getPathsToAddToTarball(locale, releaseName, releaseDirPath, releaseType),
     ),
     TE.chainFirst(() => TE.fromIO(prepareDir(releaseTarballDir))),
-    TE.chainFirst(({ tarballFilepath, paths }) =>
-      compress(paths)(tarballFilepath),
-    ),
+    TE.chainFirst(({ tarballFilepath, paths }) => {
+      if (!paths || paths.length === 0) {
+        return TE.left(
+          new Error(
+            `No files found to compress for locale ${locale}, skipping tarball creation.`,
+          ),
+        )
+      }
+      return compress(paths)(tarballFilepath)
+    }),
     TE.map(({ tarballFilepath }) => tarballFilepath),
   )
 }
@@ -98,13 +129,21 @@ export const runCompress = (): RTE.ReaderTaskEither<AppEnv, Error, string> =>
   pipe(
     RTE.ask<AppEnv>(),
     RTE.chainTaskEitherK(
-      ({ locale, releaseName, releaseDirPath, releaseTarballsDirPath, type }) =>
+      ({
+        locale,
+        releaseName,
+        releaseDirPath,
+        releaseTarballsDirPath,
+        type,
+        license,
+      }) =>
         compressPipeline(
           locale,
           releaseName,
           releaseDirPath,
           releaseTarballsDirPath,
           type,
+          license,
         ),
     ),
   )

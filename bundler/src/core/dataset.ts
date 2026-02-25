@@ -1,5 +1,5 @@
-import fs from 'node:fs'
-import path from 'node:path'
+import * as fs from 'node:fs'
+import * as path from 'node:path'
 import * as TE from 'fp-ts/TaskEither'
 import * as RTE from 'fp-ts/ReaderTaskEither'
 import { AppEnv } from '../types'
@@ -12,9 +12,13 @@ import { logError } from './clips'
 import { concatFiles } from '../infrastructure/filesystem'
 import { CORPORA_CREATOR_CLIP_SPLIT_FILES } from '../infrastructure/corporaCreator'
 
-const downloadDataset = (locale: string, releaseName: string) =>
+const downloadDataset = (
+  locale: string,
+  releaseName: string,
+  license?: string,
+) =>
   TE.tryCatch(async () => {
-    const tarFilename = generateTarFilename(locale, releaseName)
+    const tarFilename = generateTarFilename(locale, releaseName, license)
     const storagePath = `${releaseName}/${tarFilename}`
     const filepath = path.join(getTmpDir(), tarFilename)
 
@@ -36,40 +40,33 @@ export const runDownloadDataset = (): RTE.ReaderTaskEither<
 > =>
   pipe(
     RTE.ask<AppEnv>(),
-    RTE.chainTaskEitherK(({ locale, releaseName }) =>
-      downloadDataset(locale, releaseName),
+    RTE.chainTaskEitherK(({ locale, releaseName, license }) =>
+      downloadDataset(locale, releaseName, license),
     ),
   )
 
 const generateClipsTsv = (locale: string, releaseDir: string) => {
   const clipsTsvPath = path.join(releaseDir, locale, 'clips.tsv')
-  const filepaths = CORPORA_CREATOR_CLIP_SPLIT_FILES.map(f => path.join(releaseDir, locale, f))
+  const filepaths = CORPORA_CREATOR_CLIP_SPLIT_FILES.map(f =>
+    path.join(releaseDir, locale, f),
+  )
   return pipe(
     TE.Do,
+    TE.chain(() => concatFiles(filepaths[0], clipsTsvPath)),
     TE.chain(() =>
-      concatFiles(
-        filepaths[0],
-        clipsTsvPath,
-      ),
+      concatFiles(filepaths[1], clipsTsvPath, { skipFirstLine: true }),
     ),
     TE.chain(() =>
-      concatFiles(
-        filepaths[1],
-        clipsTsvPath,
-        { skipFirstLine: true },
-      ),
-    ),
-    TE.chain(() =>
-      concatFiles(
-        filepaths[2],
-        clipsTsvPath,
-        { skipFirstLine: true },
-      ),
+      concatFiles(filepaths[2], clipsTsvPath, { skipFirstLine: true }),
     ),
   )
 }
 
-export const runGenerateClipsTsv = (): RTE.ReaderTaskEither<AppEnv, Error, void> =>
+export const runGenerateClipsTsv = (): RTE.ReaderTaskEither<
+  AppEnv,
+  Error,
+  void
+> =>
   pipe(
     RTE.ask<AppEnv>(),
     RTE.chainTaskEitherK(({ locale, releaseDirPath }) =>

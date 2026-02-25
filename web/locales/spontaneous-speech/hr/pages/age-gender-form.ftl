@@ -1,6 +1,6 @@
 # Age and Gender form
-age-gender-form-title = Hvala ti na doprinosu za „Spontani govor”!
-age-gender-form-subtile = Ako nam kažeš nešto o sebi, pomoći ćeš programerima da izgrade inkluzivniju tehnologiju
+age-gender-form-title = Hvala Vam što doprinosite Spontanom govoru!
+age-gender-form-subtile = Kažete li nam nešto o sebi, pomoći ćete programerima da izgrade inkluzivniju tehnologiju
 add-information-button = Dodaj podatke
 continue-speaking-button = Nastavi govoriti
 age-select-label = Koliko imaš godina?
@@ -11,6 +11,7 @@ country-of-residence-label = Zemlja/regija prebivališta
 country-of-residence-placeholder =
     .placeholder = Upiši svoju zemlju/regiju prebivališta
 why-are-you-asking = Zašto pitate?
+why-are-you-asking-explanation = Ove informacije nisu obavezne - dodajte ih samo ako vam to odgovara. Kada objavimo skup podataka, pseudonimiziramo sve osobne podatke i osiguravamo da informacije poput vašeg imena i e-pošte nisu povezane s demografskim podacima poput dobi ili spola. Da bi tehnologija dobro funkcionirala za sve, podaci koji pomažu programerima u izgradnji tehnologije moraju odražavati raznolik raspon ljudi. Saznajte više o tome zašto su metapodaci važni.
 thank-you-for-your-information = Hvala ti na tvojim podacima
 
 ## Gender dropdown

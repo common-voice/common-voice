@@ -12,6 +12,8 @@ record-no-mic-found = Geen microfoon gevonden.
 record-error-too-short = De opname was te kort.
 record-error-too-long = De opname was te lang.
 record-error-too-quiet = De opname was te zacht.
+record-error-empty-recording = Er is geen audio vastgelegd. Controleer uw microfoon en probeer het opnieuw.
+record-error-unknown-format = Kan audio-indeling niet bepalen. Probeer een andere browser.
 record-error-uploaded-clip-corrupted =
     Uw geluidsopname lijkt beschadigd te zijn. Dit kan gebeuren door:
     • Browsercompatibiliteitsproblemen (probeer een andere browser te gebruiken)

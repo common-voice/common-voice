@@ -16,6 +16,7 @@ xcuserdata/
 ZZidea
 .env-local-docker
 docker-compose.override.yml
+docker-compose.override.yaml
 yarn-error.log
 index.ts.bak
 scripts/releases

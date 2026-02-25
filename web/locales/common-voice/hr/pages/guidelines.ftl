@@ -1,10 +1,12 @@
 # GUIDELINES PAGE
 guidelines-header = Smjernice za doprinošenje
-guidelines-header-subtitle = Shvati kako doprinijeti i potvrditi rečenice i audio isječke u Common Voice skup podataka
+guidelines-header-subtitle = Shvatite dopunjavanje i validaciju skupa podataka Common Voice
 voice-collection = Zbirka glasova
 sentence-collection = Zbirka rečenica
 question-collection = Zbirka pitanja
+scripted-speech = Pripremljen govor
 spontaneous-speech = Spontani govor
+dont-subheader = Nemojte
 
 ## Voice Collection nav ids
 
@@ -114,6 +116,9 @@ adding-questions = Dodavanje pitanja
 
 what-makes-a-good-question-subheader = Što je važno za dobro pitanje?
 what-makes-a-good-question-explanation = Dobro pitanje za skupove podataka javnog sudjelovanja trebalo bi:
+what-makes-a-good-question-explanation-criteria-1 = Biti lako za razumjeti i odgovoriti
+what-makes-a-good-question-explanation-criteria-2 = Biti općenito relevantno
+what-makes-a-good-question-explanation-criteria-3 = Ne koristiti ili tražiti štetan ili uvredljiv jezik
 what-makes-a-good-question-tip = Također razmotri mogućnost pokrivanja različitih konteksta i domena.
 easy-to-understand = Lako za razumjeti
 easy-to-understand-explanation = Odaberi jednostavna pitanja koja svatko može razumjeti, bez obzira na kulturu ili kontekst.
@@ -123,10 +128,12 @@ length = Duljina
 length-explanation = Na pitanje bi se trebalo moći odgovoriti u samo par rečenica.
 dont-add-subheader = Nemoj dodavati
 culturally-specific-questions = Kulturno specifična pitanja
-culturally-specific-questions-explanation = Pitanja koja su vrlo kulturno specifična ili donose mnogo pretpostavki o ispitaniku
+culturally-specific-questions-explanation = Pitanja koja su vrlo kulturno specifična ili nose mnogo pretpostavki o ispitaniku
 length-avoid-explanation = Pitanja na koja bi netko teško odgovorio u roku od 15 sekundi (maksimalna duljina isječka)
 process-steps = Proces / Koraci
+process-steps-explanation = Pitanja koja zahtijevaju da netko navede nekoliko koraka. Navođenje koraka potiče korisnika da recitira odgovor, a ne da prirodnije odgovori.
 offensive-content-sensitive-information = Uvredljiv sadržaj ili povjerljivi podaci
+offensive-content-sensitive-information-explanation-explanation-1 = Pitanja koja bi mogla tražiti osobne podatke
 offensive-content-sensitive-information-explanation-explanation-2 = Pitanja koja bi mogla poticati govor mržnje ili druge pristrane ili uvredljive osjećaje
 offensive-content-sensitive-information-explanation-explanation-3 = Pitanja koja mogu potaknuti osobu da podijeli povjerljive, potencijalno traumatične informacije
 example-questions-subheader = Primjeri pitanja
@@ -138,8 +145,16 @@ example-questions-explanation-2 = Ako želiš poslati više pitanja odjednom, <g
 # Answer Questions
 answer-questions = Odgovori na pitanja
 answer-questions-subheader = Opće smjernice
+answer-questions-explanation-1 = Razmislite na trenutak o pitanju, razmislite što biste željeli reći, ali nemojte se previše ograničavati. Kliknite ikonu za snimanje. Nakon što snimite, možete poslušati, ponovno snimiti, izbrisati ili poslati snimku.
+answer-questions-explanation-2 = Zapamtite - ne brinite ako zamucate, zastanete ili ponovite koju riječ. Sve su to korisni podaci za inženjere koji pokušavaju izgraditi inkluzivne alate za prepoznavanje govora u stvarnom svijetu.
+answer-questions-tip-1 = Snimajte na relativno tihom mjestu
+answer-questions-tip-2 = Odaberite mjesto s dobrom internetskom vezom
+answer-questions-tip-3b = Pokušajte ograničiti svoj odgovor na 15-30 sekundi
+answer-questions-tip-4 = Izbjegavajte govor mržnje ili drugi uvredljiv govor
+answer-questions-tip-5 = Govorite prirodno, kao što biste govorili s prijateljem - koristite svoje uobičajeno narječje, dijalekt i naglasak
+answer-questions-tip-6 = Održavajte dosljednu glasnoću - nemojte vikati ili pjevušiti
 # Transcribe the Audio
-transcribe-the-audio = Transkribiraj audio snimke
+transcribe-the-audio = Transkripcija audio snimaka
 transcribe-the-audio-subheader-1 = Opće smjernice
 transcribe-the-audio-subheader-2 = Brojevi i akronimi
 transcribe-the-audio-subheader-3 = Posebne oznake
@@ -162,6 +177,9 @@ transcribe-the-audio-subheader-2-example-2-correct = <correct> Ispravno</correct
 transcribe-the-audio-subheader-2-example-2-wrong = <correct> Krivo</correct>: Vidimo se <underline>2015.</underline>
 transcribe-the-audio-subheader-2-example-3-correct = <correct>Ispravno</correct>: Bilo je dvadeset posto popusta
 transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Krivo</wrong>: Bilo je 20% popusta
+transcribe-the-audio-subheader-2-example-4-correct = <correct>Točno</correct>: Uhitio ih je <underline>FBI</underline> prošlog četvrtka
+transcribe-the-audio-subheader-2-example-4-wrong = <correct>Pogrešno</correct>: Uhitio ih je <underline>ef bi aj</underline> prošlog četvrtka
+transcribe-the-audio-subheader-3-explanation = Sljedeće posebne oznake trebale bi se koristiti za označavanje disfluentnosti, poštapalica i drugih vrsta neverbalnog sadržaja (na engleskom).
 tags-table-header-1 = Oznaka
 tags-table-header-2 = Značenje
 tags-laugh = Smijeh
@@ -169,5 +187,173 @@ tags-disfluency = Netečnost
 tags-unclear = Nejasno
 tags-noise = Buka
 tags-laugh-explanation = Zvuk smijeha.
+tags-disfluency-explanation =
+    Riječ ili zvuk koji se koristi kao zavlačenje dok govornik odlučuje što će reći.
+    U hrvatskom jeziku, neki uobičajeni zvukovi oklijevanja su „ovoga“, „um“, „uh“ itd.
 tags-unclear-explanation = Riječ ili niz riječi koji se ne mogu razumjeti.
 tags-noise-explanation = Bilo koja druga vrsta buke, poput kašljanja govornika, trubljenja automobila, zvuka nečega što udara u mikrofon, zujanja telefona itd.
+# Note: do not translate any tag, like [noise] or [laugh]
+special-tags-example-2 =
+    I onda sam [noise] otišao na odmor.
+    Pa, [noise] [laugh] nije baš bio odmor [laugh]
+transcribe-the-audio-subheader-4-explanation-1 = Spontani govor prirodno sadrži pogrešne početke gdje se izgovori samo fragment cijele riječi. U tim slučajevima, molimo vas da transkribirate fragment riječi najbolje što možete i dodate crticu na kraj riječi (-) kako biste naznačili da je riječ pogrešan početak. Primjerice:
+transcribe-the-audio-subheader-4-explanation-1-example = Ime mu je <underline>Jo- Jona-</underline> Jonathan.
+transcribe-the-audio-subheader-4-explanation-2 = Ponekad govornici ponove riječ ili fragment riječi više puta. I to treba transkribirati. Primjerice:
+transcribe-the-audio-subheader-4-explanation-2-example = A onda sam otišao u u u <underline>krevet - u</underline> spavaću sobu
+transcribe-the-audio-subheader-5-explanation-1 = Spontani govor će prirodno sadržavati gramatičke pogreške. One se ne bi trebale ispravljati u transkripciji. Transkripcija bi trebala točno odražavati izgovoreni sadržaj.
+transcribe-the-audio-subheader-5-explanation-2 = Govornici će možda koristiti kolokvijalizme (kao što su u engleskom „gonna“, „cuz“ itd.) koji se možda ne smatraju formalno ispravnima. Treba ih transkribirati kakvi jesu, a ne mijenjati ih u njihove formalnije ekvivalente.
+
+## Review the Transcription
+
+review-the-transcription = Pregledaj transkripciju
+review-the-transcription-subheader = Opće smjernice
+review-the-transcription-explanation-1 = Općenito, savjetujemo da osoba koja provjerava transkripciju ne bude ista osoba koja je napravila originalnu transkripciju. Vrlo je teško provjeriti vlastiti rad! Višestruki pregled može pomoći u robusnijem osiguranju kvalitete i ublažavanju pristranosti i problema.
+review-the-transcription-explanation-2 = Pregledajte gornje smjernice za transkripciju kako biste provjerili je li transkripcija točna. Možete unijeti izmjene i poslati ih.
+review-the-transcription-explanation-3 = Možete označiti sadržaj koji je uvredljiv, štetan ili na drugi način zabrinjavajući, a on će biti uklonjen iz vašeg sučelja dok ga tim Common Voicea ne pregleda i dalje istraži.
+
+## Code-Switching
+
+code-switching = Prebacivanje narječja/jezika
+adding-a-question = Dodavanje pitanja
+# Adding a Question
+code-switching-adding-question-subheader = Što je važno za dobro pitanje?
+code-switching-adding-question-explanation = Dobro pitanje za skupove podataka javnog sudjelovanja trebalo bi:
+code-switching-adding-question-criteria-1 = Biti lako razumljivo i lako za odgovoriti
+code-switching-adding-question-criteria-2 = Biti općenito relevantno
+code-switching-adding-question-criteria-3 = Ne koristiti niti tražiti štetan ili uvredljiv jezik
+code-switching-adding-question-note = Također razmotrite mogućnost pokrivanja različitih konteksta i domena.
+# What types of questions to add
+code-switching-types-subheader = Koje vrste pitanja dodati?
+code-switching-use-bilingual-prompts-header = Koristite dvojezična pitanja
+code-switching-use-bilingual-prompts-explanation = Koristite dvojezična pitanja koja uključuju oba jezika: Primjer:
+code-switching-use-bilingual-prompts-explanation-example = “Kakav SMS ti je ve poslal? Onak, oh my God.”
+code-switching-ask-bilingual-contexts-header = Pitajte o dvojezičnim kontekstima
+code-switching-ask-bilingual-contexts-explanation = Koristite situacije u kojima se oba jezika uobičajeno koriste (npr. kod kuće, u školi, na događajima u zajednici). Primjer:
+code-switching-ask-bilingual-contexts-explanation-example = „Kad razgovaraš sa svojim rođacima, miješaš li hrvatski i engleski?“
+code-switching-focus-emotional-header = Usredotočite se na emocionalne ili važne trenutke
+code-switching-focus-emotional-explanation = Ljudi često mijenjaju narječje/jezik kada izražavaju emocije ili hitnost. Primjer:
+code-switching-focus-emotional-explanation-example = „Reci mi što su ti roditelji rekli kad si im priopćio/la veliku vijest – točno onako kako su to rekli.“
+code-switching-direct-quotes-header = Zatražite izravne citate ili rekonstrukcije
+code-switching-direct-quotes-explanation = Potaknite sudionike da ponove kako su stvari zapravo bile rečene. Primjer:
+code-switching-direct-quotes-explanation-example = „Koje su bile tvoje točne riječi kad si saznao/la?“
+code-switching-cultural-topics-header = Odaberite kulturno specifične teme
+code-switching-cultural-topics-explanation = Hrana, tradicije, tehnički izrazi, blagdani i obiteljska dinamika često potiču mijenjanje narječja/jezika.
+code-switching-cultural-topics-explanation-example = "Kako opisati Fašnik nekome tko govori samo engleski?"
+code-switching-informal-scenarios-header = Istražite neformalne scenarije
+code-switching-informal-scenarios-explanation = Razgovori s prijateljima ili dopisivanje često uključuju prirodnije prebacivanje. Primjer:
+code-switching-informal-scenarios-explanation-example = „Koju šalu tvoji prijatelji uvijek zbijaju — i kako je izgovaraju?“
+# What to Avoid
+code-switching-avoid-subheader = Što treba izbjegavati
+code-switching-avoid-intro = Pitanja koja bi mogla:
+code-switching-avoid-1 = Tražiti osobne podatke
+code-switching-avoid-2 = Iziskivati govor mržnje ili druge pristranih ili uvredljive svjetonazore
+code-switching-avoid-3 = Navesti nekoga da podijeli osjetljive, potencijalno neugodne odgovore
+code-switching-dont-header = Nemojte
+code-switching-dont-1 = Nemojte koristiti pretjerano formalan govor
+# Reviewing a Question
+code-switching-review-subheader = Pregledavanje pitanja
+code-switching-review-intro = Provjerite da pitanje ispunjava kriterije:
+code-switching-review-criterion-1 = Biti lako za razumjeti i odgovoriti
+code-switching-review-criterion-2 = Biti općenito relevantno
+code-switching-review-criterion-3 = Ne koristiti niti tražiti štetan ili uvredljiv jezik
+code-switching-review-does-not-header = I <bold>NE</bold> uključuje:
+code-switching-review-offensive-content = Uvredljiv sadržaj ili povjerljive podatke
+code-switching-answer-header = Uvredljiv sadržaj ili povjerljive podatke
+code-switching-review-no-1 = Pitanja koja bi mogla tražiti osobne podatke
+code-switching-review-no-2 = Pitanja koja bi mogla poticati govor mržnje ili druge pristrane ili uvredljive osjećaje
+code-switching-review-no-3 = Navesti nekoga da podijeli osjetljive, potencijalno neugodne odgovore
+# Answering a Question
+code-switching-answer-subheader = Odgovaranje na pitanje
+code-switching-answer-intro = Prilikom odgovaranja na pitanje, cilj je odgovoriti prirodno - baš kao što biste to učinili u stvarnom razgovoru. Želimo zabilježiti kako se jezici zapravo miješaju u svakodnevnom govoru.
+code-switching-answer-bullet-1 = Sjetite se stvarnih trenutaka ili situacija: šala, svađa, tradicija
+code-switching-answer-bullet-2 = Zamislite da šaljete poruku prijatelju ili nekome pričate priču
+code-switching-answer-bullet-3 = Koristite riječi koje biste stvarno koristili, čak i ako su posuđene ili pomiješane
+code-switching-answer-bullet-4 = Ne postoji "savršen" način za odgovoriti
+code-switching-authentic-header = Odgovorite prirodno i autentično
+code-switching-authentic-speak = <bold>Govorite kao što biste govorili s prijateljima ili obitelji.</bold> Ako u stvarnom životu miješate jezike, učinite isto i ovdje. Primjer:
+code-switching-authentic-speak-example = „Well, rekao sam joj da ne mogu ići, ali ona je bila kao: 'Bolje ti je da se pojaviš!'“
+code-switching-use-both-languages = <bold>Koristite oba jezika ako biste to inače tako rekli.</bold> Čak je i zamjena samo jedne ili dvije riječi korisna. Primjer:
+code-switching-use-both-languages-example = „Stvarno se naljutila because nisam ju nazvao.“
+code-switching-authentic-direct-quotes = <bold>Uključite izravne citate ili dijalog.</bold> Recite točno ono što je netko rekao, a ne dotjeranu ili formalnu verziju. Primjer:
+code-switching-authentic-direct-quotes-example = "Mama mu je rekla: 'You think this is a game?', a ja sam bio kao: 'Okay chill!'"
+code-switching-authentic-reflect = <bold>Osvrnite se na emocije, identitet i kontekst.</bold> Prebacivanje se obično događa kada ljudi izražavaju emocije, hitnost ili kulturne ideje. Oslanjajte se na to prilikom odgovaranja na pitanja.
+code-switching-authentic-full-context = <bold>Koristite potpune odgovore s kontekstom.</bold> Budite što detaljniji i navedite što više detalja. Podijelite priču ili primjer u svojim odgovorima.
+# Don’t Overthink or Overedit
+code-switching-answer-dont-subheader = Nemojte previše razmišljati ili preuređivati
+code-switching-answer-dont-correct-language = <bold>"Ispravljati" svoj jezik.</bold> Ovo nije test. "Pravilan" oblik ovdje nije važan, prirodni jezik jest.
+code-switching-answer-dont-avoid-switching = <bold>Izbjegavati prebacivanje ako to inače radite.</bold> U redu je prebaciti se usred rečenice, usred misli ili samo za jednu riječ.
+code-switching-answer-dont-formal-writing = <bold>Govoriti kao da pišete formalno.</bold> Izbjegavajte formalne, akademske odgovore. Neka to bude razgovorno.
+code-switching-answer-dont-force-switch = <bold>Prisiljavati se na promjenu ako to nije prirodno.</bold> Prebacite se samo ako biste tako prirodno razgovarali u toj situaciji.
+code-switching-answer-dont-translate-repeat = <bold>Prevoditi ili ponaljati sve.</bold> Samo to izgovorite jednom, onako kako bi to bilo u razgovoru. Ne morate izgovoriti verziju odgovora na svakom jeziku.
+# Transcribing
+code-switching-transcribe-subheader = Transkribiranje
+code-switching-transcribe-intro = Prilikom transkripcije odgovora koji uključuju prebacivanje narječja/jezika, predstavite govor govornika onako kako je izgovoren - bez ispravljanja, uređivanja ili pojednostavljivanja. To se odnosi na sve promjene između jezika, neformalnog govora i riječi drugih jezika.
+code-switching-transcribe-do-1 = Reproducirajte kratke segmente više puta kako biste uhvatili suptilne promjene
+code-switching-transcribe-do-2 = Pauzirajte nakon svake rečenice kako biste provjerili ima li prebacivanja ili miješanih riječi
+# Capture Speech Exactly as Spoken
+code-switching-capture-header = Zabilježite govor točno onako kako je izgovoren
+code-switching-capture-explanation = Transkribirajte oba jezika onako kako se pojavljuju/zvuče. Nemojte "popravljati" jezik ili ga mijenjati u samo jedan jezik.
+# Include filler words and markers
+code-switching-filler-header = Ne izostavljajte poštapalice i jezične oznake
+code-switching-filler-explanation = Riječi poput „hm“, „kao“, „ovoga“, „znaš“ i „onak“ su značajne. Primjer: „Dakle... ovoga... rekao sam joj nešto poput, 'I don't know, možda kasnije'.“
+# Use standard spelling for each language
+code-switching-spelling-header = Koristite standardni pravopis za svaki jezik
+code-switching-spelling-explanation = Pokušajte ispravno napisati riječi za svaki jezik, osim ako ih govornik očito izgovara na nestandardan način.
+# Don’t Clean Up or Simplify the Language
+code-switching-cleanup-header = Nemojte ispravljati ili pojednostavljivati jezik
+code-switching-cleanup-1 = Prevoditi ili parafrazirati – napišite što je govornik rekao, a ne što je „mislio“.
+code-switching-cleanup-2 = „Ispravljati“ gramatiku ili izgovor – zadržite govornikovu prirodnu upotrebu jezika.
+code-switching-cleanup-3 = Preskakati prebacivanja koji se čine nebitno ili sitno – čak su i posuđene riječi važne.
+code-switching-cleanup-4 = Umetati interpunkcijske znakove koji bi mogli promijeniti značenje – održavajte prirodan tok.
+code-switching-cleanup-5 = Pretpostavljati da znate jezik svake riječi – stavljajte oznake temeljem uporabe.
+# Tagging
+code-switching-tagging-subheader = Označavanje
+code-switching-tagging-error-intro = Ako transkripcija sadrži grešku, molimo vas da je označite pomoću funkcije Prijavi. Potencijalne greške uključuju:
+code-switching-tagging-error-1 = Neispravnu interpunkciju ili velika slova
+code-switching-tagging-error-2 = Tipografske pogreške
+code-switching-tagging-error-3 = Riječi napisane pogrešnim pravopisom
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = Korištenje ispravnog pravopisa za svaki jezik
+code-switching-orthography-explanation = Napišite svaku riječ prema pravopisu jezika iz kojeg potječe. Na primjer:
+code-switching-orthography-explanation-example-1 = Ako se riječ „kitchen“ izgovara kao na španjolskom, treba je napisati kao na engleskom, a ne kao „quichen“.
+code-switching-orthography-explanation-example-2 = Ako se riječ quinceaños izgovara kao u engleskom, piše se s ñ.
+# Use Pronunciation to Help Determine the Language
+code-switching-pronunciation-header = Koristite izgovor kako biste lakše odredili jezik
+code-switching-pronunciation-explanation = Neke riječi mogu izgledati isto u oba jezika, ali se mogu izgovarati drugačije. Poslušajte izgovor kako biste lakše označili riječi.
+code-switching-pronunciation-explanation-example-1 = Engleski: /ˈkeɪ.bəl/
+code-switching-pronunciation-explanation-example-2 = Španjolski: /ˈkable/
+# Tagging in a Single Token
+code-switching-single-token-header = Označavanje u jednom tokenu
+code-switching-single-token-explanation = Jedan token odvojen razmacima treba sadržavati više od jednog označenog raspona.
+# Tag Punctuation Based on Nearby Language
+code-switching-punctuation-tagging-header = Označite interpunkciju na temelju obližnjeg jezika
+code-switching-punctuation-tagging-explanation = Označite interpunkciju koristeći jezik najbliži rasponu s lijeve strane. Primjeri:
+# text wrapped in purple and blue will be shown with a purple and blue background in the UI respectively
+code-switching-punctuation-tagging-explanation-example-1 = <purple>i jedini put kada</purple> je Maria <purple>vikala na mene</purple> <blue>jer</blue> <purple>je pokušavala</purple> isprintati <blue>poništiti</blue> <purple>red.</purple> (BangorTalk)
+code-switching-punctuation-tagging-explanation-example-2 = <purple>but</purple> <blue>tú los puedes comprar rojo, negro, azul</blue>, <purple>whatever.</purple> (BangorTalk)
+# Be Careful with Lookalikes
+code-switching-lookalikes-header = Budite oprezni s sličnim riječima
+code-switching-lookalikes-explanation = Neke riječi mogu izgledati kao u jednom jeziku, ali se koriste u drugom. Oznaka se temelji na značenju i upotrebi, a ne na izgledu. Primjeri:
+code-switching-lookalikes-explanation-example-1 = „Footing“ je nekada značilo trčanje na španjolskom > označi kao španjolski
+code-switching-lookalikes-explanation-example-2 = „No problemo“ se koristi u engleskom > označi kao engleski
+# When Not to Tag Words
+code-switching-not-tag-header = Kada ne označavati riječi
+code-switching-not-tag-explanation = Neke riječi ne bi trebalo <bold>označavati</bold> jezičnom oznakom, čak i ako se čine miješane ili prilagođene. Evo kako postupati s nekim primjerima:
+code-switching-not-tag-proper-names = <bold>Vlastita imena.</bold> Imena ljudi, mjesta i organizacija ne smiju se označavati. Primjeri:
+code-switching-not-tag-proper-names-example-1 = Osobe: Marija, Ivan
+code-switching-not-tag-proper-names-example-2 = Mjesta: Los Angeles, Florida
+code-switching-not-tag-proper-names-example-3 = Brendovi/Organizacije: Target, Burger King
+code-switching-not-tag-mixed-words = <bold>Mješovite ili morfološki prilagođene riječi.</bold> Nemojte označavati riječi koje miješaju jezike ili imaju dodane završetke iz drugog jezika. Primjeri:
+code-switching-not-tag-mixed-words-example = Gdje je korijen engleski, ali je sufiks španjolski: „parkear“, „printearlo“
+code-switching-not-tag-interjections = <bold>Uzvici.</bold> Uzvici i riječi za popunjavanje, bez obzira na jezik, trebaju ostati <bold>neoznačeni.</bold> Primjeri:
+code-switching-not-tag-interjections-example-1 = "Eh"
+code-switching-not-tag-interjections-example-2 = "Ne"
+code-switching-not-tag-interjections-example-3 = "Da"
+code-switching-not-tag-interjections-example-4 = "Hm"
+
+## Reporting Content
+
+reporting-content = Prijavljivanje sadržaja
+reporting-content-subheader = Opće smjernice
+reporting-content-explanation-1 = Morate označiti sadržaj koji je uvredljiv, štetan ili na drugi način zabrinjavajući. Također ne smije sadržavati osobne podatke poput telefonskih brojeva ili adresa. Bit će uklonjen iz vašeg sučelja dok ga tim Common Voicea ne pregleda i dalje ne istraži.
+reporting-content-explanation-2 = Za prijavu sadržaja odaberite gumb "Prijavi" i odaberite jednu ili sve opcije: Uvredljiv sadržaj, Drugačiji jezik, Osobni podaci, Ostalo. Onda u tekstualnom području navedite više detalja o razlogu prijavljivanja sadržaja. Zatim pošaljite prijavu klikom na gumb Prijavi.

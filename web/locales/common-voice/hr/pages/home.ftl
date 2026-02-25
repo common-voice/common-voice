@@ -59,6 +59,7 @@ x-years-short =
     }
 help-make-dataset = Pomogni nam izgraditi kvalitetan i javno dostupan skup podataka
 sign-up-account = Otvori račun
+email-subscription-title-v3 = Pretplatite se na ažuriranja od Common Voice i Mozilla Foundation
 
 ## Account Benefits
 
@@ -111,6 +112,7 @@ community-and-languages-menu-item-tooltip = Otkrij jezike i zajednice i zajedni�
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = Izbornik za pristup partnerstvima, materijalima za novinare, zajednici i jezicima
 about-us-menu-aria-label = Izbornik opcija za informacije
 about-us-menu-item-aria-label = Izbornik opcija „O nama”
 partnerships-menu-item-aria-label = Saznaj više o partnerstvu s Common Voiceom
@@ -142,11 +144,16 @@ answer = Odgovor
 
 ## Community section
 
+community-section-title-202601 = Pokreću globalne zajednice, za globalne zajednice — više od 290 jezika!
 join-discord-community = Pridruži se Discord zajednici
 # label for button
 join-discord-community-action = Pridruži nam se na Discordu
 join-discord-community-content = Sudjeluj u raspravama jezične zajednice, postavljaj pitanja i saznaj više o nadolazećim događajima i predavanjima.
 find-us-on-matrix = Pronađi nas na Matrixu
+find-us-on-matrix-content-v2 = Matrix je otvoreni, lagani protokol za decentraliziranu komunikaciju u stvarnom vremenu i Mozillina preferirana platforma za otvorenu raspravu. Nalazimo se u sobi "common-voice:mozilla.org".
+# label for button
+find-us-on-element-action-1 = Element
+find-us-on-matrix-action-2 = Ostali klijenti
 ask-mozilla-share = Zamoli Mozillu da dijeli tvoje događaje
 ask-mozilla-share-content = Imaš prethodni ili nadolazeći događaj? Dijeli ga s nama i mi ćemo to objaviti našoj zajednici ili napisati blog o tome!
 # label for button

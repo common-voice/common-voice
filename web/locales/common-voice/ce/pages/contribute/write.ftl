@@ -1,6 +1,6 @@
 ## WRITE PAGE
 
-write = Язде
+write = Йазде
 write-instruction = ТIетоха <icon></icon> юкъараллин алам
 write-page-subtitle = Кхузахь дIайазбина болу аламаш тIе тоьхна хир бу юкъараллин cc-0 бакъойаларин хаамашна
 sentence =

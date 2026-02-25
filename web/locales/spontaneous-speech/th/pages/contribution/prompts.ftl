@@ -4,10 +4,19 @@ record-player-header = บันทึกเสียงการตอบกล
 mic-access-error = คุณต้องอนุญาตให้ใช้ไมโครโฟนได้
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon></micIcon> แล้วตอบกลับอย่างเป็นธรรมชาติที่สุดเท่าที่คุณทำได้
+# Message which appears when there are no more resources on this page
+no-prompts-continue-skipped-message = ไม่มีคำถามเพิ่มเติมสำหรับภาษานี้ หากคุณข้ามคำถามใดไป คุณสามารถดำเนินการต่อกับเนื้อหาที่ข้ามไป หรือไปที่ถอดเสียงและลองใหม่อีกครั้งในภายหลัง
 error-skipping = เกิดข้อผิดพลาดขณะข้ามข้อความคำสั่งนี้
 error-recording = เกิดข้อผิดพลาดขณะบันทึกเสียง
+error-recording-too-short = การบันทึกเสียงสั้นเกินไป ระยะเวลาขั้นต่ำคือ { $minDurationSeconds } วินาที
+error-recording-too-long = การบันทึกเสียงยาวเกินไป ระยะเวลาสูงสุดคือ { $maxDurationMinutes } นาที
 error-fetching-prompts = มีบางอย่างผิดปกติขณะดึงข้อมูลข้อความคำสั่ง โปรดลองอีกครั้ง
 error-uploading-response = เกิดข้อผิดพลาดขณะอัปโหลดการตอบกลับของคุณ
+error-empty-audio = การบันทึกเสียงล้มเหลว ไฟล์เสียงดูเหมือนจะว่างเปล่า โปรดลองอีกครั้ง
+error-platform-webview = เบราว์เซอร์นี้อาจไม่รองรับการบันทึกเสียง โปรดใช้เบราว์เซอร์รุ่นเต็ม
+error-recording-too-short-seconds = การบันทึกเสียงสั้นเกินไป ระยะเวลาขั้นต่ำคือ { $minDurationSeconds } วินาที
+error-recording-too-long-minutes = การบันทึกเสียงยาวเกินไป ระยะเวลาสูงสุดคือ { $maxDurationMinutes } นาที
+cannot-play-audio = ไม่สามารถเล่นเสียงได้ โปรดลองอีกครั้ง
 prompt-submitted-success = ส่งการตอบกลับสำเร็จแล้ว
 prompt-response-deleted-success = ลบการตอบกลับสำเร็จแล้ว
 # For the button to delete a response to a prompt

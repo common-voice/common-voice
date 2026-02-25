@@ -4,7 +4,7 @@ guidelines-header-subtitle = Forstå hvordan du kan bidra med å validere setnin
 voice-collection = Innsamling av stemmer
 sentence-collection = Setningsinnsamling
 question-collection = Spørsmålssamling
-scripted-speech = Opplest tekst
+scripted-speech = Skriftspråk
 spontaneous-speech = Spontan tale
 dont-subheader = Ikke
 

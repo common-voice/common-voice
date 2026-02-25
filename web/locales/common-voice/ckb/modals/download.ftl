@@ -5,5 +5,5 @@ download-helpus = یارمەتیمان بدە کۆمەڵگەیێک بۆ تەکن
 download-form-email =
     .label = پۆستی ئەلیکترۆنیی خۆت بنووسە
     .value = سوپاس، پەیوەندیت پێ دەکەین
-download-back = بگەڕێوە بۆ زانیاریسێتەکانی دەنگی گشتی
+download-back = بگەڕێوە بۆ داتاسێتەکانی Common Voice
 download-no = نەخێر سوپاس

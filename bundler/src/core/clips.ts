@@ -1,6 +1,6 @@
-import fs from 'node:fs'
+import * as fs from 'node:fs'
+import * as path from 'node:path'
 import { pipeline } from 'node:stream/promises'
-import path from 'node:path'
 import { Transform } from 'node:stream'
 
 import {
@@ -44,7 +44,6 @@ export const TSV_COLUMNS = [
   'down_votes',
   'age',
   'gender',
-  'accents',
   'accents',
   'variant',
   'locale',
@@ -136,13 +135,21 @@ const streamQueryResultToFile = (
   includeClipsFrom: string,
   includeClipsUntil: string,
   locale: string,
+  license?: string,
 ) =>
   TE.tryCatch(async () => {
     const { conn, stream } = streamingQuery(
       fs.readFileSync(path.join(getQueriesDir(), 'bundleLocale.sql'), {
         encoding: 'utf-8',
       }),
-      [includeClipsFrom, includeClipsUntil, locale],
+      [
+        includeClipsFrom,
+        includeClipsUntil,
+        locale,
+        license || null,
+        license || null,
+        license || null,
+      ],
     )
 
     const writeStream = fs.createWriteStream(clipsTmpPath)
@@ -258,7 +265,7 @@ const fetchAllClipsForLocale = (
       if (fileSize <= 256) {
         continue
       }
-      
+
       const buffer = await downloadFileFromBucket(CLIPS_BUCKET)(clip.path)()
 
       if (E.isRight(buffer)) {
@@ -291,8 +298,12 @@ const createClipsTsv = (
   }, logError)
 }
 
-const downloadPreviousRelease = (locale: string, prevReleaseName: string) => {
-  const tarFilename = generateTarFilename(locale, prevReleaseName)
+const downloadPreviousRelease = (
+  locale: string,
+  prevReleaseName: string,
+  license?: string,
+) => {
+  const tarFilename = generateTarFilename(locale, prevReleaseName, license)
   const storagePath = `${prevReleaseName}/${tarFilename}`
 
   const downloadRelease = TE.tryCatch(async () => {
@@ -321,8 +332,9 @@ const downloadPreviousRelease = (locale: string, prevReleaseName: string) => {
 const extractClipsFromPreviousRelease = (
   locale: string,
   prevReleaseName: string,
+  license?: string,
 ) => {
-  const filename = generateTarFilename(locale, prevReleaseName)
+  const filename = generateTarFilename(locale, prevReleaseName, license)
   const filepath = path.join(getTmpDir(), filename)
 
   if (!fs.existsSync(filepath)) {
@@ -344,6 +356,7 @@ export const fetchAllClipsPipeline = (
   isMinorityLanguage: boolean,
   clipsDirPath: string,
   releaseDirPath: string,
+  license?: string,
   previousReleaseName?: string,
 ): TE.TaskEither<Error, void> => {
   return pipe(
@@ -351,12 +364,12 @@ export const fetchAllClipsPipeline = (
     TE.let('clipsTmpPath', () => getTmpClipsPath(locale)),
     TE.chainFirst(() =>
       previousReleaseName
-        ? downloadPreviousRelease(locale, previousReleaseName)
+        ? downloadPreviousRelease(locale, previousReleaseName, license)
         : TE.right(constVoid()),
     ),
     TE.chainFirst(() =>
       previousReleaseName
-        ? extractClipsFromPreviousRelease(locale, previousReleaseName)
+        ? extractClipsFromPreviousRelease(locale, previousReleaseName, license)
         : TE.right(constVoid()),
     ),
     TE.chainFirst(({ clipsTmpPath }) =>
@@ -365,6 +378,7 @@ export const fetchAllClipsPipeline = (
         includeClipsFrom,
         includeClipsUntil,
         locale,
+        license,
       ),
     ),
     TE.chainFirst(() => TE.fromIO(prepareDir(clipsDirPath))),
@@ -405,6 +419,7 @@ export const runFetchAllClipsForLocale = (
         clipsDirPath,
         releaseDirPath,
         previousReleaseName,
+        license,
       }) =>
         fetchAllClipsPipeline(
           type,
@@ -414,6 +429,7 @@ export const runFetchAllClipsForLocale = (
           isMinorityLanguage,
           clipsDirPath,
           releaseDirPath,
+          license,
           previousReleaseName,
         ),
     ),

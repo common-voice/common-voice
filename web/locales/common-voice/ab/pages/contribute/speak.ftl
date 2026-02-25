@@ -3,6 +3,7 @@ speak-now = Уажәы шәцәажәа
 speak-subtitle = Шәыбжьы ҭажәҩы
 record-cta = Абжьы аҭаҩра шәалага
 record-platform-not-supported = Ҳгәы иалоуп уажәазы шәара шәыплатформа адгылара ахьамам.
+record-platform-webview = Асоциалтә ҳақәа рзы аԥшьаҿы иҟоу азхьарԥш ала арахь шәҭалар шәылшон. Шәара шәхы иашәырхәоит аудио аҭаҩра злымшо иагәылагалоу абраузер.
 record-platform-not-supported-webview = Амобилтә хархәагақәа рҿы асистематә браузер шәхы иархәаны ацхыраара аҭара шәылшоит…
 record-platform-not-supported-desktop = Аишәа иқәдыргыло акомпиутерқәа ирҭажәгалар шәылшоит аҵыхәтәантәи:
 record-platform-not-supported-ios-non-safari = IOS аҿы аҭаҩра аус аруразы, шәхы иашәырхәа Safari...
@@ -11,6 +12,14 @@ record-no-mic-found = Амикрофон ԥшаам
 record-error-too-short = Аҭаҩымҭа кьаҿцәоуп.
 record-error-too-long = Аҭаҩымҭа дуцәоуп.
 record-error-too-quiet = Аҭаҩымҭа мыцхәы иҭынчуп.
+record-error-empty-recording = Шьҭыбжьыкгьы ҭаҩмызт. Ҳшәыҳәоит, шәмикрофон гәаҭаны, даҽазнык шәҽазышәшәа.
+record-error-unknown-format = Аудиоформат аилкаара залмыршахеит. Ҳшәыҳәоит, даҽа браузерк шәхы иашәырхәа.
+record-error-uploaded-clip-corrupted =
+    Излаабало ала, шәаудионҵамҭа ԥхасҭахеит. Уи ҟалар алшоит:
+    • Абраузерқәа реишьашәалара апроблемақәа (даҽа браузерк шәхы иашәырхәа)
+    • Амикрофон ма аудиодраивер апроблемақәа рымоуп
+    • Аҭаҩраан аҳа аҿахҵәара
+    Ҳшәыҳәоит, еиҭа аҭаҩра шәҽазышәшәа.
 record-cancel = Абжьы еиҭаҭаҩра мап ацәкра
 record-instruction = { $actionType }<recordIcon></recordIcon> нас шәыбжьы ҭганы аҳәоу шәаԥхьа
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> шәаналго
