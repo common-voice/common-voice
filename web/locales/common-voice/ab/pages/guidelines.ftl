@@ -233,6 +233,7 @@ code-switching-ask-bilingual-contexts-explanation = Шәхы иашәырхәа 
 code-switching-focus-emotional-header = Шәгәы иҵхо амоментқәа шәыхшыҩ рзышәышьҭ
 code-switching-focus-emotional-explanation = Ауаа аемоциақәа, ма аццакра анаадырԥшуа, лассы-лассы акодқәа рыбжьара ииасуеит. Аҿырԥштәы:
 code-switching-focus-emotional-explanation-example = «Ажәабжь дуқәа шәҭаацәа анрашәҳәа, урҭ ишәарҳәаз — дара ишырҳәаз еиԥшҵәҟьа сзеиҭашәҳәа».
+code-switching-direct-quotes-explanation = Алахәылацәа шәрыҳәа иҳәаҵәҟьаз еиҭарҳәарц. Аҿырԥштәы:
 code-switching-direct-quotes-explanation-example = «Ианеилышәкаа ишәҳәаҵәҟьеи?»
 code-switching-cultural-topics-header = Акультуратә ҷыдара ҳасаб азуны атемақәа алышәхла
 code-switching-cultural-topics-explanation = Афатә, аҵасқәа, аныҳәақәа, аҭаацәаратә динамика акод уԥсахратәы лассы-лассы иҟарҵоит.
