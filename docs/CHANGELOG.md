@@ -28,7 +28,7 @@
 
 #### Data Changes in v1.157.0
 
-- Welcome to new languages: Khakas (`kjh`), Ngambay (`sba`), and Tedaga (`tuq`)
+- Welcome to new languages: Khakas (`kjh`), Ngambay (`sba`), and Tudaga (`tuq`)
 - Add Qashqai (`qxq`) variants by [@bandrandr](https://github.com/bandrandr) in [#5274](https://github.com/common-voice/common-voice/pull/5274) (in v.1.156.4)
 - Add Javanese (`jv`) variants by [@bandrandr](https://github.com/bandrandr) in [#5264](https://github.com/common-voice/common-voice/pull/5264) (in v.1.156.2)
 - Add Malay (`ms`) variants by [@moz-bozden](https://github.com/moz-bozden) in [#5258](https://github.com/common-voice/common-voice/pull/5258) (in v.1.156.2)
@@ -59,6 +59,7 @@
 
 ### Changes merged after current release
 
+- Feat: Add cc0/licensed/both release modes to bundler, by [@moz-bozden](https://github.com/moz-bozden) in [#5297](https://github.com/common-voice/common-voice/pull/5297) (in v.1.157.2)
 - Feat: Add prefetching to statistics to be always up to date and prevent timeouts, by [@moz-bozden](https://github.com/moz-bozden) in [#5292](https://github.com/common-voice/common-voice/pull/5292) (in v.1.157.1)
 - Chore: Add more data checking guards in audio pipeline, by [@moz-bozden](https://github.com/moz-bozden) in [#5291](https://github.com/common-voice/common-voice/pull/5291) (in v.1.157.1)
 - Fix: Deadlock on local dev while getting SPS datasets, by [@moz-bozden](https://github.com/moz-bozden) in [#5295](https://github.com/common-voice/common-voice/pull/5295) (in v.1.157.1)
@@ -66,9 +67,18 @@
 
 #### Data Changes after current release
 
+- Rename `tug` language from Tedaga to Tudaga (in v1.157.2)
+- Welcome new language Uspanteko (`usp`) (in v1.157.1)
+
 #### Spontaneous Speech after current release
 
+- Feat: Add scrub_user script to remove a user/all data of a user if requested, by [@moz-bozden](https://github.com/moz-bozden) in [#519](https://github.com/common-voice/spontaneous-speech/pull/519) (in v1.157.2)
+- Fix: Statistics queries in Spontaneous Speech and Code-Siwtching should be based on audios, so that duplicate transcriptions should not be caounted, by [@moz-bozden](https://github.com/moz-bozden) in [#518](https://github.com/common-voice/spontaneous-speech/pull/518) (in v1.157.2)
+- Refactor: Report option to generalize the existing "different language", by [@moz-bozden](https://github.com/moz-bozden) in [#516](https://github.com/common-voice/spontaneous-speech/pull/516) (in v1.157.2)
+
 ##### SS Data Changes after current release
+
+- Add Croatian (`hr`) questions by [@bandrandr](https://github.com/bandrandr) in [#517](https://github.com/common-voice/spontaneous-speech/pull/517) (in v1.157.2)
 
 ---
 
