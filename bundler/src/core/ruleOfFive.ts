@@ -1,5 +1,5 @@
-import fs from 'node:fs'
-import path from 'node:path'
+import * as fs from 'node:fs'
+import * as path from 'node:path'
 import { query } from '../infrastructure/database'
 import { pipe } from 'fp-ts/lib/function'
 import { getQueriesDir } from '../config/config'
@@ -13,13 +13,13 @@ type UniqueSpeakersForLocale = {
   count: number
 }
 
-const fetchUniqueSpeakersForLocale = (locale: string) =>
+const fetchUniqueSpeakersForLocale = (locale: string, license?: string) =>
   pipe(
     query<UniqueSpeakersForLocale>(
       fs.readFileSync(path.join(getQueriesDir(), 'uniqueSpeakersLocale.sql'), {
         encoding: 'utf-8',
       }),
-      [locale],
+      [locale, license || null, license || null, license || null],
     ),
   )
 
@@ -30,6 +30,8 @@ export const isMinorityLanguage = (): RTE.ReaderTaskEither<
 > =>
   pipe(
     RTE.ask<AppEnv>(),
-    RTE.chainTaskEitherK(({ locale }) => fetchUniqueSpeakersForLocale(locale)),
+    RTE.chainTaskEitherK(({ locale, license }) =>
+      fetchUniqueSpeakersForLocale(locale, license),
+    ),
     RTE.map(res => res.count < MINIMUM_UNIQUE_SPEAKERS),
   )

@@ -43,6 +43,7 @@ x-years-short =
     }
 help-make-dataset = Зхаҭабзиара ҳараку, иаарту адыррақәа реизга аԥҵара шәҳацхраа
 sign-up-account = Аккаунт аҭагалара
+email-subscription-title-v3 = Common Voice, Mozilla Foundation рырҿыцрақәа шәыҽрыҵажәҩы
 
 ## Account Benefits
 
@@ -87,11 +88,17 @@ spontaneous-speech = АСПОНТАНТӘ ЖӘАҲӘА
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = Алахәыларақәа, апрессеи астатиақәеи, аилазаареи абызшәақәеи
+partnerships-menu-item-tooltip = Ҳлахәылаҩны аҟалара
+press-and-stories-menu-item-tooltip = Шәаҭаа ҳаблог, ма ҳара иҳазкны ианышәҵа
+community-and-languages-menu-item-tooltip = Абызшәақәа, аилазаарақәа, азеиԥш бжьы шәхазы иаашәырты
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = Алахәыларақәеи, апрессеи, аҭоурыхқәеи, аилазаареи, абызшәақәеи рахь анеиразы ахкынҵа
 about-us-menu-aria-label = «Ҳара иҳазкны» архиарақәа рыхкынҵа
 about-us-menu-item-aria-label = Апараметрқәа «Ҳара иҳазкны» рыхкынҵа
+partnerships-menu-item-aria-label = Common Voice аус ацура атәы еилышәкаа
+community-and-languages-menu-item-aria-label = Common Voice адгылара знаҭо аилазаареи абызшәақәеи ртәы еилышәкаа
 
 ## Hero section
 
@@ -105,27 +112,44 @@ get-started = Алагара <icon><icon>
 ## Action items section
 
 action-items-section-title = Common Voice — ари ауаажәларра рнапхгарала адыррақәа раԥҵаразы иаарту алагарҭатә код змоу хәыда-ԥсада иҟоу платформоуп
+action-items-section-subtitle = Дарбанзаалак атексттәи ацәажәаратәи дыррақәа реизга аԥҵо, гәаҭо, еимдо ибызшәа аиқәырхара, аиҭашьақәыргылара, аиӷьтәра илшоит.
 scripted-card-header = Асценариатә жәаҳәа
 scripted-card-content = Шәбызшәала аҳәоу шәҳәа, шәлагала ҟашәҵа еиуеиԥшым ацәажәаратә жәаҳәақәа реизгақәа рзы.
 spontaneous-card-header = Аспонтантә жәаҳәа
+spontaneous-card-content = Ацәажәаратә контекст азы адыррақәа реизгақәа раԥҵара иазку аҳәарақәа рҭакқәа ҟашәҵала. Зеиӷь ыҟам ҿырҳәалатәи абызшәақәа рзы.
 language-text-card-header = Атекст абызшәала
+language-text-card-content = Иаԥышәҵала, ма еимыжәдала ауаажәларратә мазара, аиҭагаразы аҳәоуқәеи атексти, ихәыҷу абызшәатә модельқәа уҳәа убас егьырҭгьы.
 coming-soon = Лассы
 add-text = Атекст ацҵара
 answer = Аҭак аҟаҵара
 
 ## Community section
 
+community-section-title-202601 = Аглобалтә еилазаарақәа рыцхыраарала, аглобалтә еилазаарақәа рзы — 290 бызшәа, урҭ рхыԥхьаӡара аизҳара иаҿуп!
 join-discord-community = Discord аилазаара алалара
+# label for button
+join-discord-community-action = Discord аҿы шәҳацла
+join-discord-community-content = Абызшәатә еилазаара аилацәажәарақәа шәыҽрылашәырхәла, азҵаарақәа ықәшәыргылала, имҩаԥысраны иҟоу ауснагӡатәқәеи аицәажәарақәеи ртәы еилышәкаала.
 find-us-on-matrix = Matrix аҿы ҳшәыԥшаа
 # label for button
 find-us-on-element-action-1 = Аелемент
 find-us-on-matrix-action-2 = Егьырҭ аклиентцәа
+ask-mozilla-share-content = Ииасхьоу ма иҟалараны иҟоу аиԥылара шәымоума? Иаҳзеиҭашәҳәа, нас ҳаилазаара адырра раҳҭоит, мамзаргьы уи иазкны аблог аҿы ианышәҵа!
+download-contribution-certificate-content = Шәусмҩаԥгатәқәа рзы, ма шәхазы асертификат ҭыжәга, Common Voice азы алагала ҟашәҵазар — шәара шәыда уи ҟалашьа аиуӡомызт!
 contribute-github = GitHub аҿы алагала аҟаҵара
 # label for button
 contribute-github-action = GitHub аҿы алагала аҟаҵара
 
+## Featured section
+
+featured-section-title = Ишәыдаагало...
+# icon is an arrow that points downwards
+download-press-pack = Ҳапресс-пакет ҭыжәга <icon></icon>
+
 ## Developers section
 
+developers-section-title = Зегьы рхы иадырхәаша 130 бызшәа инареиҳаны рыла иҟоу иаарту ажәаҳәа адыррақәа реизга
+developers-section-subtitle = Аилазаара алархәны иаԥҵоу ASR, STT, TTS, иара убас NLP егьырҭ аконтекстқәа рзы адыррақәа реизга.
 # icon is an arrow that points to the right
 explore-datasets = Адыррақәа реизгақәа шәрыхәаԥш <icon></icon>
 
@@ -141,5 +165,8 @@ press-and-stories-link = Апрессеи астатиақәеи
 
 ## Partner section
 
+partner-section-title = Ҳлахәылаҩны аҟалара
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Ауаажәларратә еилазаареи аҭҵааҩцәеи</bold> - ихәарҭоу адыррақәа реизга хәыда-ԥсада иаԥышәҵала, иқәшәыргылала, еимыжәдала
 # icon is an arrow that points to the right
 get-in-touch-button = Шәыҽҳамажәда <icon></icon>

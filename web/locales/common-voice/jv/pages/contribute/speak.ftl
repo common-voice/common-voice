@@ -12,6 +12,8 @@ record-no-mic-found = Ora ditemokake mikropon.
 record-error-too-short = Rekamane cendhek banget.
 record-error-too-long = Rekamane kedawanen.
 record-error-too-quiet = Rekamane sepi banget.
+record-error-empty-recording = Ora ana swara sing karekam. Mangga priksa mikrofon sampeyan lan coba maneh.
+record-error-unknown-format = Ora bisa nemtokake format swara. Coba gunakake browser liyane.
 record-error-uploaded-clip-corrupted =
     Rekaman swara sampeyan kethokane rusak. Iki bisa kedadeyan amarga:
     • Masalah kompatibilitas browser (coba gunakake browser liyane)

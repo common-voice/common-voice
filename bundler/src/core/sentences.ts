@@ -1,7 +1,7 @@
-import fs from 'node:fs'
+import * as fs from 'node:fs'
+import * as path from 'node:path'
 import { pipeline } from 'node:stream/promises'
 import { Transform } from 'node:stream'
-import path from 'node:path'
 
 import { readerTaskEither as RTE, taskEither as TE } from 'fp-ts'
 import { streamingQuery } from '../infrastructure/database'
@@ -33,11 +33,11 @@ const logError = (err: unknown) => {
 
 const replaceWhitespaces = () =>
   new Transform({
-    transform(chunk: { sentence: string }, encoding, callback) {
+    transform(chunk: { sentence: string; source: string }, encoding, callback) {
       const updatedClipRow = {
         ...chunk,
         sentence: chunk.sentence.replace(/\s/gi, ' '),
-        source: chunk.sentence.replace(/\s/gi, ' '),
+        source: chunk.source.replace(/\s/gi, ' '),
       }
 
       callback(null, updatedClipRow)
@@ -46,7 +46,9 @@ const replaceWhitespaces = () =>
   })
 
 const fetchSentences =
-  (validated: boolean) => (releaseDirPath: string) => (locale: string) =>
+  (validated: boolean) =>
+  (releaseDirPath: string) =>
+  (locale: string, license?: string) =>
     TE.tryCatch(async () => {
       const queryFile = validated
         ? 'getValidatedSentences.sql'
@@ -60,7 +62,7 @@ const fetchSentences =
         fs.readFileSync(path.join(getQueriesDir(), queryFile), {
           encoding: 'utf-8',
         }),
-        [locale],
+        [locale, license || null, license || null, license || null],
       )
 
       const writeStream = fs.createWriteStream(
@@ -97,11 +99,11 @@ export const runFetchSentencesForLocale = (): RTE.ReaderTaskEither<
 > => {
   return pipe(
     RTE.ask<AppEnv>(),
-    RTE.chainTaskEitherK(({ locale, releaseDirPath }) =>
+    RTE.chainTaskEitherK(({ locale, releaseDirPath, license }) =>
       pipe(
         TE.Do,
-        TE.chain(() => fetchSentences(true)(releaseDirPath)(locale)),
-        TE.chain(() => fetchSentences(false)(releaseDirPath)(locale)),
+        TE.chain(() => fetchSentences(true)(releaseDirPath)(locale, license)),
+        TE.chain(() => fetchSentences(false)(releaseDirPath)(locale, license)),
       ),
     ),
   )

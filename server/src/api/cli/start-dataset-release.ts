@@ -1,6 +1,8 @@
-import { program } from 'commander'
+import { program, Option } from 'commander'
 import { pipe } from 'fp-ts/lib/function'
 import { addJobToQueue, getQueue } from '../../infrastructure/queues/queues'
+
+type LicenseMode = 'unlicensed' | 'licensed' | 'both'
 
 type InitDatasetReleaseJob = {
   type: 'full' | 'delta' | 'statistics'
@@ -9,9 +11,12 @@ type InitDatasetReleaseJob = {
   releaseName: string
   previousReleaseName?: string
   languages: string[]
+  licenseMode?: LicenseMode
 }
 
 const startDatasetRelease = async (args: any, options: any) => {
+  const licenseMode: LicenseMode = args.licenseMode || 'unlicensed'
+
   const run = pipe(
     getQueue<InitDatasetReleaseJob>('datasetRelease')(),
     addJobToQueue<InitDatasetReleaseJob>('init')({
@@ -21,6 +26,7 @@ const startDatasetRelease = async (args: any, options: any) => {
       releaseName: args.releaseName,
       previousReleaseName: args.previousReleaseName,
       languages: args.languages || [],
+      licenseMode,
     })({})
   )
 
@@ -64,6 +70,19 @@ program
     Define the previous release name, usually in the shape of 'cv-corpus-14.0-{delta-}2023-10-19'.
     The clips from the previous release will be downloaded to bootstrap the new release.
     `
+  )
+  .addOption(
+    new Option(
+      '--license-mode <mode>',
+      `
+    Define how to handle licensed and unlicensed sentences/clips:
+    - 'unlicensed' (default): Only include CC0 (unlicensed) sentences/clips
+    - 'licensed': Only include licensed sentences/clips (optimized: only processes locales with licenses)
+    - 'both': Create separate bundles for unlicensed and each license type
+    `
+    )
+      .choices(['unlicensed', 'licensed', 'both'])
+      .default('unlicensed')
   )
   .action(startDatasetRelease)
 

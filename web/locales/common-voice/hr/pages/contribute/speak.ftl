@@ -3,6 +3,8 @@ speak-now = Govori sada
 speak-subtitle = Doniraj svoj glas
 record-cta = Počni snimati
 record-platform-not-supported = Žao nam je, ali vaša platforma trenutačno nije podržana.
+record-platform-webview = Vjerojatno ste došli ovdje putem poveznice u aplikaciji društvene mreže. Trenutno koristite preglednik <i>unutar</i> aplikacije koji ne podržava snimanje zvuka.
+record-platform-not-supported-webview = Na mobilnim uređajima možete doprinositi pomoću sustavskog mrežnog preglednika...
 record-platform-not-supported-desktop = Na stolnim računalima možeš doprinijeti, preuzimanjem …
 record-platform-not-supported-ios-non-safari = Na iOS-u nastavi sa Safarijem kako bi se omogućilo snimanje …
 record-must-allow-microphone = Morate dopustiti pristup mikrofonu.
@@ -10,6 +12,14 @@ record-no-mic-found = Nije pronađen mikrofon.
 record-error-too-short = Snimka je bila prekratka.
 record-error-too-long = Snimka je bila preduga.
 record-error-too-quiet = Snimka je bila previše tiha.
+record-error-empty-recording = Nije snimljen zvuk. Provjerite mikrofon i pokušajte ponovno.
+record-error-unknown-format = Nije moguće odrediti audio format. Pokušajte koristiti drugi preglednik.
+record-error-uploaded-clip-corrupted =
+    Čini se da je vaša audio snimka oštećena. To se može dogoditi zbog:
+    • Problema s kompatibilnošću preglednika (pokušajte koristiti drugi preglednik)
+    • Problema s mikrofonom ili audio upravljačkim programom
+    • Prekida mreže tijekom snimanja
+    Molimo pokušajte snimiti ponovno.
 record-cancel = Poništavanje ponovnog snimanja
 record-instruction = { $actionType }<recordIcon></recordIcon> zatim pročitaj rečenicu naglas
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> kada završite

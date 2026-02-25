@@ -1,4 +1,4 @@
-speak = швчважва
+speak = Швчважва
 speak-now = Швчважва
 speak-subtitle = Швбжьы гlахlышвтх
 record-cta = Йаншвцlауа швалага
@@ -60,8 +60,6 @@ already-have-an-account = Аккаунт швымахьума? <login>Швтал
 create-profile-button = Профиль гlаныршара
 # IMAGE TAGS
 img-alt-success-checkmark = Дахlвра ачlвагъва
-# menu item
-read-sentences = Ажванахъаква жвгlарыпхьа
 # text wrapped in <small></small> will be shown in a smaller font size
 read-sentences-coming-soon = Ажванахъа швапхьа <small>(Йгlаталуаштl уыжвласыла)</small>
 

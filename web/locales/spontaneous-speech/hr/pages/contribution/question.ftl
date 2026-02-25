@@ -20,7 +20,17 @@ partial-questions-upload-message =
     }
 # Guidelines
 add-question-guidelines-title = Koja pitanja mogu dodati?
+do-section-title = možete
 do-section-guideline-1 = Koristi ispravan pravopis i gramatiku
 do-section-guideline-2 = Odaberi jednostavna pitanja koja svatko može razumjeti, bez obzira na kulturu ili kontekst
 do-section-guideline-3 = Osiguraj da se na njih može odgovoriti u samo par rečenica
-do-not-section-guideline-3 = Postavljaj osjetljiva pitanja
+do-not-section-title = nemojte
+do-not-section-guideline-1 = Tražiti osobne podatke (poput imena ili financijskih podataka)
+do-not-section-guideline-2 = Izražavati ili poticati predrasude ili uvredljive svjetonazore
+do-not-section-guideline-3 = Postavljati osjetljiva pitanja
+# Code switching Guidelines
+cs-do-section-guideline-1 = Koristiti dvojezična pitanja ili kontekst
+cs-do-section-guideline-2 = Istražiti neformalne scenarije, situacije ili rekonstrukcije
+cs-do-not-section-guideline-1 = Tražiti osobne podatke (poput imena ili financijskih informacija) ili uvredljivih svjetonazora
+cs-do-not-section-guideline-2 = Tražiti promjenu narječja/jezika ili prijevod
+cs-do-not-section-guideline-3 = Koristiti pretjerano formalan govor

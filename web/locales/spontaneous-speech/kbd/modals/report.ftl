@@ -1,7 +1,6 @@
 ## Report Modal
 
 report-modal-title = Рапорт егъэхь
-different_language = Бзэ нэмыщӏ
 # Label for textarea in report modal
 other = НэмыщI
 report-error = Рапортыр щригъэхьым щыуагъэ къыхэхуащ.

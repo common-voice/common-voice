@@ -35,3 +35,6 @@ request-language-error =
 request-for-scripted-speech-toggle = Асценари ала ҿырҳәалатәи ажәаҳәазы аҳәара
 request-for-spontaneous-speech-toggle = Аспонтантә жәаҳәазы аҳәара
 need-help-deciding-platform = Иалхтәу аҿы ацхыраара шәҭахума?
+request-language-found-cv-contribution =
+    Ура! Шәбызшәа иҟалахьеит Common Voice аҟынтәи <strong>Scripted Speech</strong> аҿы.
+    Шәара ишәылшоит <homePageLink>ара</homePageLink>ацхыраара аҭара.

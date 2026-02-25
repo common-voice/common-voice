@@ -400,6 +400,7 @@ uk = Ukrainien
 ukv = Kuku
 ur = Ourdou
 ush = Ushojo
+usp = Uspanteko
 uz = Ouzbek
 var = Guarijio
 ve = Venda

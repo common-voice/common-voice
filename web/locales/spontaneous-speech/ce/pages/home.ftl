@@ -19,7 +19,7 @@ respond-bubble-title = <mark>Жоп ло</mark>
 respond-bubble-subtitle = Ма-дарра (кечам боцуш) жоп ло
 # text wrapped in <mark></mark> will have a blue background
 transcribe-bubble-title = <mark>Йозане ерзор</mark>
-transcribe-bubble-subtitle = Аудио-клипаш чохь хьайна хезарг дӀаязде
+transcribe-bubble-subtitle = Аудио-клипаш чохь хьайна хезарг дӀайазде
 # text wrapped in <mark></mark> will have a blue background
 check-bubble-title = <mark>Тергам бе</mark>
 check-bubble-subtitle = Йоза аудиоца догӀуш дуй хьажа

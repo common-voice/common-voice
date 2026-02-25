@@ -10,7 +10,9 @@ platform-language-tooltip-text = Авеб-саит атекст мацароуп
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Адыррақәа реизгаҿы аҽалархәра { $language } азы
+contribution-picker-tooltip-text = Заԥҵара шәацхраауа абызшәатә дыррақәа реизга аԥсахуеит
 coming-soon = Лассы еиҳа еиҳаны абызшәақәа ацаҳҵоит
+media-recorder-api-not-supported = Шәыбраузер MediaRecorder API аднакылом.
 # Toast message that is displayed when an item is skipped
 skipped = Ибжьажьуп
 audioplayer-header = Азыӡырҩра
@@ -26,6 +28,7 @@ contribute = Алагала аҟаҵара
 
 question = Азҵаара
 validate = Агәаҭара
+respond-to-prompt = Аҳәара аҭак аҟаҵара
 respond-to-prompt-mobile = Аҭак
 transcribe = Атранскрипциа азура
 check-transcriptions = Атранскрипциақәа ргәаҭара
@@ -35,6 +38,7 @@ tag = Адыргақәа
 ## Not Found Page
 
 not-found-page-header = Иԥшаам
+not-found-page-content = Шәзышьҭоу адаҟьа ԥшаам
 # Locales-Variants
 ms-MY = Абахаса Малаи
 
@@ -43,3 +47,36 @@ ms-MY = Абахаса Малаи
 language-search-placeholder = Абызшәа аԥшаара...
 language-search-aria-label = Абызшәа аԥшаара
 language-search-no-results = Абызшәақәа ԥшаам
+
+## Transcription Player - Mode Buttons
+
+# Transcription Player - Automatic Mode
+transcription-mode-auto = Ахала
+# Player - slower
+player-speed-slow = Ашьшьыҳәа
+# Player - faster
+player-speed-fast = Ирласны
+
+## Transcription Player Controls - Keyboard Shortcuts
+
+# Player control shortcut for play/pause: pressed with Ctrl/Cmd
+player-play-pause-shortcut = p
+player-play-pause-shortcut-key = Ctrl / Cmd + P
+player-play-pause-shortcut-name = Арҳәара/Ааҭгылара
+# Player control shortcut to go back 5 seconds: pressed with Ctrl/Cmd
+player-skip-backward-shortcut = 8
+player-skip-backward-shortcut-key = Ctrl / Cmd + 8
+player-skip-backward-shortcut-name = Ашьҭахьҟа
+# Player control shortcut to go forwards 5 seconds: pressed with Ctrl/Cmd
+player-skip-forward-shortcut = 9
+player-skip-forward-shortcut-key = Ctrl / Cmd + 9
+player-skip-forward-shortcut-name = Ԥхьаҟа
+
+## Transcription Player - Aria Labels
+
+# Play button accessibility/aria label
+player-play-button-aria-label = Аудио арҳәара
+# Skip back button accessibility/aria label
+player-skip-backward-aria-label = 5 секундк шьҭахьҟа аиасра
+# Skip forward button accessibility/aria label
+player-skip-forward-aria-label = 5 секундк ԥхьаҟа аиасра

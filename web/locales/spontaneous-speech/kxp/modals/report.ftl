@@ -4,8 +4,6 @@ report-modal-title = رپورٽ پيش ڪروون
 report-modal-subtitle = تمارا تجربا مان ڪوئي مسئلو ڇو هوئي؟
 offensive_speech = پسند نا هوئي
 offensive_speech-detail = مواد مان ڪوئي ناڪاري ڪام يان ٻولي نا وڻي هوئي۔
-different_language = مختلف ٻولِي
-different_language-detail = زي ماري اميد هتي اين ٿي علاوه فرق ٻولي
 personally_identifiable_information = ذاتی طور قبول ڪروون ڪي  شناخت معلومات سي
 personally_identifiable_information-detail =
     آ معلومات ڪوئي منک نا شناخت نين برابر قابل معلومات ماٿي مشتمل سي۔ زي اين نون نام اي ميل جڳه شناخت نمبر يان فون نمبر۔ 

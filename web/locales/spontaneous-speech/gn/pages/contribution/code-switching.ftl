@@ -15,6 +15,7 @@ cs-question-dataset-name = Mba’ekuaarã aty: { $datasetName }
 
 ## Validate Page Items
 
+cs-validate-page-instruction = Emboaje <validateIcon></validateIcon> ko’ã porandu orekopaiteha tekotevẽva.
 cs-add-vote-error-message = Oiko jejavy evotakuévo pe porandu rehe
 
 ## Tag Page Items

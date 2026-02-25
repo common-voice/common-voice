@@ -41,3 +41,22 @@ need-help-deciding-platform = Hulp nodig bij uw keuze?
 need-help-deciding-platform-explanation-1 = <strong>Gescripte spraak</strong> (traditioneel wat u kent als Common Voice) is waar u zinnen in uw taal hardop kunt voorlezen.
 need-help-deciding-platform-explanation-2 = <strong>Spontane spraak</strong> is een nieuw onderdeel van Common Voice, waar u op een meer organische, informele manier op vragen kunt reageren.
 need-help-deciding-platform-explanation-3 = Als u uw taal niet in een van de delen van het platform ziet, selecteer dan beide.
+request-language-search-bar = U kunt hier beginnen met het typen van de naam van uw taal; als deze nog niet beschikbaar is in Common Voice, kunt u een formulier invullen met de gegevens van uw taal.
+request-language-found-pontoon-not-launched =
+    Uw taal staat al op de lijst van Common Voice-talen. 
+    U kunt de taallancering op <strong>Scripted Speech</strong> vergemakkelijken door de platforminterface
+    <pontoonLink>hier</pontoonLink> te vertalen. De interface moet voor 60% zijn vertaald; 
+    als alternatief kunt u ook alleen de basisstrings in ‘web/locales/en/pages/contribute/*.ftl’ naar 100% vertalen 
+    (er zijn vijf van dergelijke bestanden), en de interface wordt automatisch gestart.
+request-language-found-cv-contribution =
+    Hoera! Uw taal is al live op Common Voice <strong>Scripted Speech</strong>. 
+    U kunt <homePageLink>hier</homePageLink> bijdragen.
+request-language-found-cv-sentences-lack =
+    Uw taal staat al op de lijst van Common Voice-talen.
+    U kunt de taallancering op <strong>Scripted Speech</strong> vergemakkelijken door
+    <sentencesContributionLink>hier</sentencesContributionLink> zinnen bij te dragen.
+request-language-found-spontaneous-speech =
+    Uw taal is al live op Common Voice <strong>Spontaneous Speech</strong>. 
+    Klik <spontaneousSpeechLink>hier</spontaneousSpeechLink> om bij te dragen: vergeet niet de taal van de bijdrage/gegevensset te wijzigen voordat u begint met bijdragen!
+request-language-already-available-scs = Scripted Speech is al beschikbaar
+request-language-already-available-sps = Spontaneous Speech al beschikbaar

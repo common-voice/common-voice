@@ -1,14 +1,22 @@
 ## Prompts page
 
-record-player-header = Snimi svoj odgovor
-mic-access-error = Moraš dozvoliti pristup mikrofonu.
+record-player-header = Snimite svoj odgovor
+mic-access-error = Morate dozvoliti pristup mikrofonu.
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
-prompt-page-instruction = { $actionType } <micIcon></micIcon> i odgovori na što prirodniji način
+prompt-page-instruction = { $actionType } <micIcon></micIcon> i odgovorite na što prirodniji način
 # Message which appears when there are no more resources on this page
 no-prompts-continue-skipped-message = Nema više pitanja za ovaj jezik. Ako si neke preskočio/la, možeš nastaviti s preskočenim sadržajem ili transkribirati audio snimke i kasnije ponovo pokušati.
 error-skipping = Došlo je do greške prilikom preskakanja ovog upita
 error-recording = Došlo je do greške prilikom snimanja
+error-recording-too-short = Snimka je prekratka. Minimalno trajanje je { $minDurationSeconds } sekundi.
+error-recording-too-long = Snimka je preduga. Maksimalno trajanje je { $maxDurationMinutes } minuta.
+error-fetching-prompts = Dogodila se greška prilikom dohvaćanja pitanja. Pokušajte ponovo kasnije.
 error-uploading-response = Došlo je do greške prilikom prijenosa odgovora
+error-empty-audio = Snimanje nije uspjelo. Čini se da je audio datoteka prazna. Pokušajte ponovno.
+error-platform-webview = Snimanje možda nije podržano u ovom ograničenom pregledniku. Koristite potpunu aplikaciju preglednika.
+error-recording-too-short-seconds = Snimka je prekratka. Minimalno trajanje je { $minDurationSeconds } sekundi.
+error-recording-too-long-minutes = Snimka je preduga. Maksimalno trajanje je { $maxDurationMinutes } minuta.
+cannot-play-audio = Nije moguće reproducirati zvuk. Pokušajte ponovno.
 prompt-submitted-success = Odgovor je uspješno poslan
 prompt-response-deleted-success = Odgovor je uspješno izbrisan
 # For the button to delete a response to a prompt
@@ -21,6 +29,7 @@ submit-all-button = Pošalji sve
 ## Explainer text (Respond to Prompt)
 
 learn-how-to-use-prompts = Saznaj kako koristiti ovu stranicu
+learn-how-to-use-prompts-explanation = Samo odgovorite na upit što prirodnije možete u nekoliko rečenica. Pazite da vaš govor bude pristojan i neuvredljiv.
 learn-how-to-use-prompts-guidance = Klikni <guidanceLink>ovdje</guidanceLink> za informacije o tome kako koristiti ovu stranicu
 learn-how-to-use-transcribe = Nauči transkribirati
 learn-how-to-use-transcribe-explanation = Zapiši točno što je osoba rekla, uključujući riječi popunjavanja poput „hm” ili „eem”.

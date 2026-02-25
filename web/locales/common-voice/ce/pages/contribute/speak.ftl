@@ -23,7 +23,7 @@ record-instruction = тӀаккха хезаш беша алам
 record-stop-instruction = { $actionType }<stopIcon></stopIcon>Дина даьлча
 record-three-more-instruction = Дисна кхоъ
 record-again-instruction = Дукха дика ду<recordIcon></recordIcon>Хьайн рогӀера клип дӀаязъе .
-record-again-instruction2 = Саца ма де, дӀаязде кхин а<recordIcon></recordIcon>
+record-again-instruction2 = Саца ма де, дӀайазде кхин а<recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon>ТӀаьххьарниг!
 review-tooltip = Таллам бар а, юха дӀаяздар а кхузахь де
 share-clip = Хьайн клип яржайе
@@ -77,7 +77,7 @@ read-sentences-coming-soon = Беша алам<small>Кеста</small>
 
 speak-contribute-menu-tooltip = Беша Алам, Хаттаршна жоьпаш ло
 read-sentences-menu-item-tooltip = хьайн маттахь боьшу хьайн аламаш д1айазбе
-answer-questions-menu-item-tooltip = Хаттаршна а, хаамна а хьайн маттахь жоьпаш луш дӀаязде .
+answer-questions-menu-item-tooltip = Хаттаршна а, хаамна а хьайн маттахь жоьпаш луш дӀайазде .
 
 ## MENU ITEM ARIA LABELS
 

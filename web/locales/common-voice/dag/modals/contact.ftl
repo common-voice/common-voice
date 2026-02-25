@@ -1,6 +1,6 @@
 ## Contact Modal
 
-contact-title = bɔbu soli
+contact-title = { "" }
 contact-form-name =
     .label = Yuli
 contact-form-message =

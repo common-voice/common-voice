@@ -1,3 +1,4 @@
+speak-subtitle = دەنگت ببەخشە
 record-cta = دەست پێ کردنی تۆمارکردن
 record-platform-not-supported = ببوورە بەڵام پلاتفۆڕمی تۆ ئێستا پشتیوانی ناکرێت.
 record-platform-not-supported-desktop = لە ئامیری ڕوومێزی دەتوانیت دایبگریت:

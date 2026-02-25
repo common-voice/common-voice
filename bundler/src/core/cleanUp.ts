@@ -1,5 +1,5 @@
-import fs from 'node:fs/promises'
-import path from 'node:path'
+import * as fs from 'node:fs/promises'
+import * as path from 'node:path'
 
 import { readerTaskEither as RTE, taskEither as TE } from 'fp-ts'
 import { constVoid, pipe } from 'fp-ts/lib/function'

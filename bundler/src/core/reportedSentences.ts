@@ -1,5 +1,5 @@
-import fs from 'node:fs'
-import path from 'node:path'
+import * as fs from 'node:fs'
+import * as path from 'node:path'
 import { readerTaskEither as RTE, taskEither as TE } from 'fp-ts'
 import { streamingQuery } from '../infrastructure/database'
 import { getQueriesDir } from '../config/config'
@@ -43,7 +43,8 @@ const fetchReportedSentencesForLocale =
   (locale: string) =>
   (includeClipsFrom: string) =>
   (includeClipsUntil: string) =>
-  (releaseDirPath: string): TE.TaskEither<Error, void> => {
+  (releaseDirPath: string) =>
+  (license?: string): TE.TaskEither<Error, void> => {
     console.log('Fetching reported sentences for locale', locale)
 
     return TE.tryCatch(
@@ -54,7 +55,14 @@ const fetchReportedSentencesForLocale =
               path.join(getQueriesDir(), 'getReportedSentencesLocale.sql'),
               { encoding: 'utf-8' },
             ),
-            [includeClipsFrom, includeClipsUntil, locale],
+            [
+              includeClipsFrom,
+              includeClipsUntil,
+              locale,
+              license || null,
+              license || null,
+              license || null,
+            ],
           )
 
           stream
@@ -79,7 +87,9 @@ export const runReportedSentences = (): RTE.ReaderTaskEither<
 > =>
   pipe(
     RTE.ask<AppEnv>(),
-    RTE.chainTaskEitherK(({ locale, from, until, releaseDirPath }) =>
-      fetchReportedSentencesForLocale(locale)(from)(until)(releaseDirPath),
+    RTE.chainTaskEitherK(({ locale, from, until, releaseDirPath, license }) =>
+      fetchReportedSentencesForLocale(locale)(from)(until)(releaseDirPath)(
+        license,
+      ),
     ),
   )

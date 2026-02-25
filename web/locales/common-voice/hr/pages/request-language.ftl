@@ -39,3 +39,19 @@ need-help-deciding-platform = Trebaš pomoć pri biranju jezika?
 need-help-deciding-platform-explanation-1 = <strong>Pisani govor</strong> (tradicionalno ono što poznaš kao Common Voice) je mjesto gdje možeš naglas čitati rečenice na svom jeziku.
 need-help-deciding-platform-explanation-2 = <strong>Spontani govor</strong> je novi dio Common Voicea u kojem možeš odgovarati na pitanja na prirodniji, kolokvijalni način.
 need-help-deciding-platform-explanation-3 = Ako ni u jednom dijelu platforme ne vidiš tvoj jezik, odaberi oba.
+request-language-search-bar = Ovdje možete početi unositi naziv svog jezika; ako još nije na Common Voiceu, moći ćete ispuniti obrazac s podacima o svom jeziku.
+request-language-found-pontoon-not-launched =
+    Vaš je jezik već na popisu jezika Common Voice. 
+    Pokretanje jezika na <strong>Pisani govor</strong> možete olakšati lokalizacijom sučelja platforme <pontoonLink>ovdje</pontoonLink>. Sučelje mora biti lokalizirano na 60%; 
+    alternativno možete lokalizirati samo osnovne nizove u ‘web/locales/en/pages/contribute/*.ftl’ na 100% 
+    (postoji pet takvih datoteka) i sučelje će se automatski pokrenuti.
+request-language-found-cv-contribution = Hura! Vaš jezik je već dostupan na Common Voice <strong>Pisani govor</strong>. Možete doprinijeti <homePageLink>ovdje</homePageLink>.
+request-language-found-cv-sentences-lack =
+    Vaš se jezik već nalazi na popisu jezika Common Voicea.
+    Pokretanje jezika na <strong>Pisani govor</strong> možete olakšati tako što ćete
+    doprinijeti rečenice <sentencesContributionLink>ovdje</sentencesContributionLink>.
+request-language-found-spontaneous-speech =
+    Vaš je jezik već dostupan na Common Voice <strong>Spontani govor</strong>. 
+    Kliknite <spontaneousSpeechLink>ovdje</spontaneousSpeechLink> da biste doprinijeli: ne zaboravite promijeniti jezik doprinosa/skupa podataka prije nego što počnete doprinositi!
+request-language-already-available-scs = Pripremljen govor već je dostupan
+request-language-already-available-sps = Spontani govor je već dostupan

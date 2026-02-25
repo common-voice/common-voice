@@ -12,6 +12,8 @@ record-no-mic-found = Gjin mikrofoan fûn.
 record-error-too-short = De opname wie te koart.
 record-error-too-long = De opname wie te lang.
 record-error-too-quiet = De opname wie te súntsjes
+record-error-empty-recording = Der is gjin audio opnommen. Kontrolearje jo mikrofoan en probearje it opnij.
+record-error-unknown-format = Kin it audioformaat net bepale. Probearje in oare browser.
 record-error-uploaded-clip-corrupted =
     Jo lûdsopname liket skansearre te wêzen. Dit kin barre fanwegen:
     • Problemen mei browserkompatibiliteit (probearje in oare browser te brûken)

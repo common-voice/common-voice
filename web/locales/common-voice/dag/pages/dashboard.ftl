@@ -24,6 +24,7 @@ show-ranking = Wuhimi n zaa shee
 
 get-started-goals = Pilimi ni tahimanima
 create-custom-goal = Nammi tahima din ni tum
+goal-type = Nia bɔ ka a mali ka bɔri ni a pali?
 both-speak-and-listen = Di zaa
 both-speak-and-listen-long = Dizaa (Yɛlima ka Wum)
 daily-goal = Dabsili Tahima
