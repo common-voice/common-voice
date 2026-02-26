@@ -180,6 +180,7 @@ code-switching-adding-question-criteria-3 = Kötü veya saldırgan bir dil kulla
 code-switching-adding-question-note = Farklı bağlamları ve alanları da kapsamayı düşünebilirsiniz.
 # What types of questions to add
 code-switching-types-subheader = Ne tür sorular eklemelisiniz?
+code-switching-dont-header = Bunları yapmayın
 # Reviewing a Question
 code-switching-review-subheader = Soru inceleme
 code-switching-review-criterion-1 = Anlaşılması ve yanıtlanması kolay olmalı
