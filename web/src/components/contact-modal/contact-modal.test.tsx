@@ -88,7 +88,7 @@ describe('ContactModal', () => {
   })
 
   it('disables the submit button while submitting', async () => {
-    let resolveSubmit: () => void
+    let resolveSubmit!: () => void
     mockSendContact.mockReturnValueOnce(
       new Promise<void>(resolve => { resolveSubmit = resolve })
     )
