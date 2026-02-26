@@ -518,14 +518,15 @@ export default class API {
     next: NextFunction
   ) => {
     const body = request?.body
-    const { email, languageInfo, languageLocale, platforms } = body
-    if (!body || !email || !languageInfo || !languageLocale || !platforms) {
+    const { email, languageName, languageInfo, languageLocale, platforms } = body
+    if (!body || !email || !languageName || !languageInfo || !platforms) {
       return response.sendStatus(StatusCodes.BAD_REQUEST)
     }
 
     try {
       const info = await this.email.sendLanguageRequestEmail({
         email,
+        languageName,
         platforms,
         languageInfo,
         languageLocale,
@@ -534,6 +535,7 @@ export default class API {
       const json = {
         id: info?.messageId,
         email,
+        languageName,
         platforms,
         languageInfo,
         languageLocale,
