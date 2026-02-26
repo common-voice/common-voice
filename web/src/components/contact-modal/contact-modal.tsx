@@ -32,16 +32,16 @@ export default function ContactModal({ onRequestClose }: Props) {
   return (
     <Modal innerClassName="contact-modal" onRequestClose={onRequestClose}>
       {status === 'success' ? (
-        <div className="title-and-action">
+        <div className="contact-modal-success">
           <Localized id="contact-title">
             <h1 />
           </Localized>
           <Localized id="contact-form-success">
             <p />
           </Localized>
-          <Button onClick={onRequestClose}>
-            <Localized id="close" />
-          </Button>
+          <Localized id="close">
+            <Button onClick={onRequestClose} />
+          </Localized>
         </div>
       ) : (
         <form onSubmit={handleSubmit}>
