@@ -682,6 +682,21 @@ export default class API {
     return this.fetch(`${API_PATH}/datasets/languages/${languageCode}`)
   }
 
+  async sendContact({
+    email,
+    name,
+    message,
+  }: {
+    email: string
+    name?: string
+    message: string
+  }) {
+    return this.fetch(`${API_PATH}/contact`, {
+      method: 'POST',
+      body: { email, name, message },
+    })
+  }
+
   async sendLanguageRequest({
     email,
     languageInfo,
