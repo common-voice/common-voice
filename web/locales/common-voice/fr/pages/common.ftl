@@ -467,6 +467,8 @@ indicates-required = * indique un champ obligatoire
 not-available-abbreviation = Non disponible
 # Text shown on a button that can be clicked to copy text to the clipboard
 copy = Copier
+# Text shown on a button that can be clicked to close a modal or panel
+close = Fermer
 # Text shown on a button that can be clicked to cancel an action
 cancel = Annuler
 # Text shown on a button that can be clicked to delete an item
