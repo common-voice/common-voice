@@ -19,6 +19,7 @@ export const validateStrict = new Validator({
 
 export * from './jobs';
 export * from './send-language-request';
+export * from './send-contact-request';
 export * from './sentences';
 export * from './datasets';
 export * from './statistics';
