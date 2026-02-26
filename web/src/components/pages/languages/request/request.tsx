@@ -207,7 +207,7 @@ const LanguagesRequestFormPage = () => {
     try {
       await api.sendLanguageRequest({
         email: emailValue.trim(),
-        languageName: query,
+        languageName: query.trim(),
         languageInfo: languageInfoValue.trim(),
         languageLocale: navigator?.language,
         platforms,

@@ -10,6 +10,7 @@ export const sendLanguageRequestSchema: AllowedSchema = {
     },
     languageName: {
       type: 'string',
+      minLength: 2,
     },
     languageInfo: {
       type: 'string',
