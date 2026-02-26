@@ -94,6 +94,7 @@ describe('LanguagesRequestFormPage', () => {
     // correctly sends email request to server
     await expect(mockSendLanguageRequest).toBeCalledWith({
       email: 'billgates@example.com',
+      languageName: 'xyz',
       languageInfo: 'The language is JavaScript lol!',
       languageLocale: 'en-US',
       platforms: ['scripted-speech'],
