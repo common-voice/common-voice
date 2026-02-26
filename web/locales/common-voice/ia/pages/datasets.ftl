@@ -68,7 +68,6 @@ missing-language = Non vide tu lingua reflectite in le Collection de datos? Si t
 go-languages-page = Ir al pagina del linguas
 ready-to-validate = Preste a adjutar validar phrases?
 more = Plus
-close = Clauder
 download = Discargar
 dataset-version = Version
 sha256-checksum-copied = Summa de controlo SHA256 copiate!

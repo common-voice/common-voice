@@ -44,7 +44,6 @@ missing-language = Olulimi lwo tolulaba mu Dataset? Okusaba olulimi genda pegi y
 go-languages-page = Genda Ku Pegi y'ennimi
 ready-to-validate = Wetegese okuyamba okusunsula sentensi?
 more = Ebisingawo
-close = Ggalawo
 download = Download
 dataset-version = Enkola
 data-download-singleword-title = Wanula Single Word Target Segment

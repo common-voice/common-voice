@@ -41,7 +41,6 @@ missing-language = M'intix tara l-lingwa tiegħek fil-ġabra? Jekk trid titlob l
 go-languages-page = Mur fil-Paġna dwar il-Lingwi
 ready-to-validate = Lest biex tgħinna niċċekkjaw is-sentenzi?
 more = Iktar
-close = Agħlaq
 download = Niżżel
 dataset-version = Verżjoni
 data-download-button = Niżżel id-data tal-Common Voice

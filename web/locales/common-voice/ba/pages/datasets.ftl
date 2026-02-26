@@ -46,7 +46,6 @@ missing-language = Һеҙҙең телегеҙ пиокта юҡмы? Телдә
 go-languages-page = Телдәр тигән биткә күсергә
 ready-to-validate = Һөйләмдәрҙең дөрөҫлөгөн тикшерергә ярҙам итергә әҙерһегеҙме?
 more = Күберәк
-close = Ябырға
 download = Йөкләү
 dataset-version = Версия
 data-download-singleword-title = «Бер һүҙ» маҡсатлы сегментты тейәгеҙ

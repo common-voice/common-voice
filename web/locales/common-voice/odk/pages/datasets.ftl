@@ -56,7 +56,6 @@ missing-language = ڪا تمچِي ٻولِي ڊيٽا سيٽا ۾ نظر آوَ
 go-languages-page = ٻولِيان چي صفحي ڏِسِين جاوا
 ready-to-validate = جُملان چِي تصدِيق ڪرڻي ائُون مدد ڪرڻي ڪاڻ تيار ڇَوا؟
 more = بڌِيڪ
-close = بند ڪرا
 download = ڊائُون لوڊ ڪرا
 dataset-version = نُسخا
 sha256-checksum-copied = SHA256 Checksum ڪاپِي ڪلا گيلا

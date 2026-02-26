@@ -47,7 +47,6 @@ missing-language = Ṣé o ò rí àfihàn èdè ẹ nínú àkójọ
 go-languages-page = Lọ sí ojú-ìwé àwọn èdè
 ready-to-validate = Sé o sẹtán à ti fọwọ́sí àwọn gbólóhùn bí?
 more = Sí i
-close = Padé
 download = Ṣe ìgbàsílẹ̀
 dataset-version = Ẹ̀dà
 data-download-singleword-title = Ṣe ìgbàsílẹ̀ àfojúsùn sẹ́gímẹ́ǹtì ọlọ́rọ̀ kan

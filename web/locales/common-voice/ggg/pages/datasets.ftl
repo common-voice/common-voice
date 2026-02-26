@@ -58,7 +58,6 @@ missing-language = ڪآ تمريٚ ٻوليٚ ڊيٽآ سيٽو مي نجر ڪو
 go-languages-page = ٻوليآنٚ ڪآ پنآ ڪوديٚ جآئو
 ready-to-validate = جُملآنٚ ڪوُ سهيٚ ڪروآ مي مدت ڪروآ لآ تيآر هو؟
 more = ٻتيٚ
-close = بند ڪرو
 download = ڊآونلوڊ ڪرو
 dataset-version = نکسو
 sha256-checksum-copied = ڪآپيٚ ڪررو گو SHA256 Checksum!

@@ -52,7 +52,6 @@ missing-language = ٹی ای ڈی لیوم  اڈیو  جولال  تریجیس۔
 go-languages-page = جب اؘ پات تھ چا۔
 ready-to-validate = سزا باڑ تھال می مدد تھا۔
 more = دی۔
-close = بان۔
 download = ڈاون لوڈ۔
 dataset-version = ورجن۔
 sha256-checksum-copied = اس ایچ اے

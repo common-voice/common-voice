@@ -56,7 +56,6 @@ missing-language = Ou pa wè lang ou reflete nan Dataset la? Pou mande yon lang,
 go-languages-page = Ale nan Paj Lang yo
 ready-to-validate = Pare pou ede valide fraz yo?
 more = Plis
-close = Fèmen
 download = Telechaje
 dataset-version = Vèsyon
 sha256-checksum-copied = Sòm chèk SHA256 kopye!

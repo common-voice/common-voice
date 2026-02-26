@@ -43,7 +43,6 @@ missing-language = Ùn vidite micca a vostra lingua in a banca di dati ? Pà dum
 go-languages-page = Andà à a paghjina di e lingue
 ready-to-validate = Prontu pà aiutacci à cunvalidà l'infrasate ?
 more = Più
-close = Sarrà
 download = Scaricà
 dataset-version = Versione
 data-download-singleword-title = Scaricà u segmentu specificu incù parolle uniche

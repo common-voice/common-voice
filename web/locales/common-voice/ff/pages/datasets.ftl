@@ -46,7 +46,6 @@ missing-language = A yiytaaki ɗemngal maa e Leemre keɓe ndee? Ngam ɗaɓɓitde
 go-languages-page = Yah to Hello Ɗemɗe
 ready-to-validate = Aɗa hebii wallude moƴƴinde konnguɗi?
 more = Goɗɗe
-close = Uddu
 download = Aawto
 dataset-version = Yamre
 data-download-singleword-title = Aawto Taƴannde Toɓɓaande Helmere Teelnde

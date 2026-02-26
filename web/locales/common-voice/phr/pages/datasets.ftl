@@ -3,7 +3,6 @@
 language = زبان
 download-language = ڈائون لوڈ { $language }
 more = ہور
-close = بند کرا
 download = ڈائون لوڈ
 dataset-version = ورژن
 dataset-metadata-sex = جنس

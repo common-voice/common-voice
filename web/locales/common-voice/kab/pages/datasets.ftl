@@ -55,7 +55,6 @@ missing-language = Ur tettwaliḍ ara tutlayt-ik deg tegrumma n yisefka? Akken a
 go-languages-page = Ddu ɣer usebter n tutlayin
 ready-to-validate = Theggaḍ i usenqed n tefyar?
 more = Ugar
-close = Mdel
 download = Sader
 dataset-version = Lqem
 clipboard-not-supported = Tacfawt ur tettusefrak ara

@@ -53,7 +53,6 @@ missing-language = ¿No ve su idioma reflejado en el conjunto de datos? Para sol
 go-languages-page = Ir a Página de Idiomas
 ready-to-validate = ¿Listo para ayudar a validar oraciones?
 more = Más
-close = Cerrar
 download = Descargar
 dataset-version = Version
 data-download-singleword-title = Descargue el segmento objetivo de una sola palabra

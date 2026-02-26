@@ -46,7 +46,6 @@ missing-language = Мағлұмат жиынтығында сізге керек
 go-languages-page = Тілдер бетіне өту
 ready-to-validate = Сөйлемдерді растауға көмектесуге дайынсыз ба?
 more = Көбірек
-close = Жабу
 download = Жүктеп алу
 dataset-version = Нұсқа
 data-download-singleword-title = Бір сөзден тұратын мақсатты сегментті жүктеңіз

@@ -47,7 +47,6 @@ missing-language = ¿Nun ves la to llingua nel conxuntu de datos? Solicita'l so 
 go-languages-page = Dir a la páxina de llingües
 ready-to-validate = ¿Tas preparáu p'ayudanos a validar frases?
 more = Más
-close = Zarrar
 download = Baxar
 dataset-version = Versión
 data-download-singleword-title = Baxa'l segmentu específicu coles pallabres individuales

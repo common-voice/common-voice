@@ -29,7 +29,6 @@ go-discourse = Magpunta sa Discourse
 go-languages-page = Pumunta sa Pahina ng Mga Wika
 ready-to-validate = Handa ka na bang tumulong sa pagpapatunay ng mga pangungusap?
 more = Higit pa
-close = Isara
 download = i-Download
 dataset-version = Bersyon
 data-download-singleword-title = I-download ang Single Word Target Segment

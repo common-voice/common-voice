@@ -39,7 +39,6 @@ go-discourse = Gàá na Discourse
 missing-language = Ị̀ hụ́ghị́ ébé é dènyéré ásụ̀sụ́ gị́ n'ụ́yọ̀kọ̀ ńgwá ńchọ́chá? Màkà ị́rị́ọ́tá ásụ̀sụ́, gàá n'íhú ọ́wá ányị́ bụ́ màkà ásụ̀sụ́.
 go-languages-page = Gàá na Languages Page
 more = Ọ̀zọ́
-close = Mèchíé
 download = Búdàtá
 dataset-version = Ụ̀dị́
 data-download-singleword-title = Búdàtá Ńkébì Èbùmnúchè Ótù Ókwū

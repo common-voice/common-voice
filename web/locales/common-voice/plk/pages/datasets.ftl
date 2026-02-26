@@ -68,7 +68,6 @@ missing-language = څھے جِب ڈیٹاسیٹ دہ لیل نہ بِینیْ ی
 go-languages-page = جِبو صفحہ ئڑ بوجہ
 ready-to-validate = جُملو توثیق دہ امدادے کِرِیا تِیارنَت یا؟
 more = شِنا گہ
-close = بند تِھیا
 download = ڈاؤنلوڈ
 dataset-version = ورژن
 sha256-checksum-copied = SHA256 چیکسم کاپی بِلوْ

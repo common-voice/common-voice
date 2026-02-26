@@ -58,7 +58,6 @@ missing-language = ڈیٹا سیٹ(ترتیب وار مواد) ما تھہاری
 go-languages-page = زباناں کا صفحہ اپر چلو۔
 ready-to-validate = جملاں کی توثیق ما مدد کرن وسطے تیار ہو؟
 more = ہور
-close = کولے
 download = ڈاون لوڈ
 dataset-version = قسم(ورژن)
 sha256-checksum-copied = ایس ایچ اے 256 چیک سم کی نقل کی  ہے!

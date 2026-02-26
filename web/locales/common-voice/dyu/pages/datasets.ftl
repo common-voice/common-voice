@@ -55,7 +55,6 @@ missing-language = I t’a Ye k’i ka kan bɛ Ye Dataset kɔnɔ wa? Walasa ka k
 go-languages-page = Taga kanw ɲɛ kan
 ready-to-validate = Yala i labɛnnen don ka dɛmɛ don ka kumasenw tiɲɛ wa?
 more = More
-close = Ka datugu
 download = Ka telesarize
 dataset-version = Wɛrisiyɔn
 data-download-singleword-title = Daɲɛ kelen laɲini yɔrɔ telesarse

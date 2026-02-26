@@ -56,7 +56,6 @@ missing-language = ⵉⵙ ⵓⵔ ⵜⵥⵕⵉⵎ ⵜⵓⵜⵍⴰⵢⵜ ⵏⵏⵓ
 go-languages-page = ⴷⴷⵓ ⵙ ⵜⴰⵙⵏⴰ ⵏ ⵜⵓⵜⵍⴰⵢⵉⵏ
 ready-to-validate = ⵜⵎⵓⵜⵜⴳⴷ ⴰⴷ ⵜⴰⵡⵙⴷ ⴳ ⵓⵣⵣⵔⴰⵢ ⵏ ⵜⵡⵉⵏⴰⵙ?
 more = ⵓⴳⴳⴰⵔ
-close = ⵔⴳⵍ
 download = ⴰⴳⵎ
 dataset-version = ⵜⴰⵍⵇⵇⵎⵜ
 sha256-checksum-copied = ⵜⵏⵖⵍ ⵜⵎⵓⵜⵜⵔⵜ ⵏ ⵓⵙⵙⵉⵔⵎ SHA256!

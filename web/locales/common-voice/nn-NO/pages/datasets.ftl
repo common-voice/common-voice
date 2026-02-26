@@ -68,7 +68,6 @@ missing-language = Ser du ikkje språket ditt i datasettet? For å be om eit spr
 go-languages-page = Gå til språksida
 ready-to-validate = Er du klar for å hjelpe til med å validere setningar?
 more = Meir
-close = Lat att
 download = Last ned
 dataset-version = Versjon
 sha256-checksum-copied = SHA256-kontrollsum kopiert!

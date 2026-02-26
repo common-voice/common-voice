@@ -65,7 +65,6 @@ missing-language = Återspeglas inte ditt språk i datamängden? För att begär
 go-languages-page = Gå till språksidan
 ready-to-validate = Är du redo för att hjälpa till att validera meningar?
 more = Mer
-close = Stäng
 download = Hämta
 dataset-version = Version
 sha256-checksum-copied = SHA256-kontrollsumma kopierad!

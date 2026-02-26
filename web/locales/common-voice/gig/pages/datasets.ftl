@@ -55,7 +55,6 @@ missing-language = ڪآئيٚ تمآريٚ ٻوٚليٚ ڊيٽآ سيٚٽي مي
 go-languages-page = ٻوٚليٚ پنآ سآمونٚ جو
 ready-to-validate = جملي نيٚ سئيٚ ڪري مينٚ ،مددي ڪري سآرو تيٚيآرڇو
 more = وڌيٚڪ
-close = بند
 download = ڊآئونٚ لوڊ
 dataset-version = نئيٚ چيٚز
 sha256-checksum-copied = SHA256 چيٚڪسم ڪآپيٚ هوگيٚو

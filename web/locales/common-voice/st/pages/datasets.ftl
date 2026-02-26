@@ -52,7 +52,6 @@ missing-language = Ha o bone puo ya hao e hlaha ho Dataset? Ho kopa puo eya ho l
 go-languages-page = Eya Leqepheng la Dipuo
 ready-to-validate = O ikemiseditse ho thusa ho netefatsa dipolelo?
 more = Tse ding
-close = Kwala
 download = Download
 dataset-version = Mofuta
 data-download-singleword-title = Daonlouda karolo e lebisitsweng ya lentswe le le leng

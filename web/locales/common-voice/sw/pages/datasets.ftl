@@ -47,7 +47,6 @@ missing-language = Je! Huoni lugha yako ikijitokeza kwenye daftari? Kuomba lugha
 go-languages-page = Nenda kwenye kurasa za lugha
 ready-to-validate = Uko tayari kusaidia kuhalalisha sentensi?
 more = Zaidi
-close = Funga
 download = Pakua
 dataset-version = Toleo
 data-download-singleword-title = Pakua Sehemu ya Lengo la Neno Moja

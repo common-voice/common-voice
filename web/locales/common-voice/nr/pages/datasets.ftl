@@ -52,7 +52,6 @@ missing-language = { "" }
 go-languages-page = Ngena ekhasini lamalimi
 ready-to-validate = Ukulungele ukusiza ngokuphasisa imitjho?
 more = Okungezelelweko
-close = Vala
 download = Dawunilowuda
 dataset-version = Umbono
 data-download-singleword-title = Dawuniloda iGama Linye Olifunako

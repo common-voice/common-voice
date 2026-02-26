@@ -61,7 +61,6 @@ missing-language = No ti treuvi a teu lengua in sciô dataset? Pe propoñine uñ
 go-languages-page = Vanni a-a pagina Lengue
 ready-to-validate = T’ê pronto à verificâ e frase?
 more = Atro
-close = Særa
 download = Descarrega
 dataset-version = Verscion
 sha256-checksum-copied = Checksum SHA256 stæto copiou!

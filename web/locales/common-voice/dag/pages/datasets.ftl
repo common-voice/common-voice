@@ -43,7 +43,6 @@ data-other-ted-name = TED-LIUM Corpus
 go-discourse = Chami fiila puuni
 go-languages-page = chami zuliya balli yaɣili
 more = pam
-close = Yima
 download = vooma
 dataset-version = Tiɣisuma
 sha256-checksum-copied = SHA256 Checksum Yaaya!

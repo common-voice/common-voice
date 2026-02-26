@@ -61,7 +61,6 @@ missing-language = 사용하는 언어가 데이터 세트에 없나요? 언어 
 go-languages-page = 언어 페이지로 이동
 ready-to-validate = 문장 검증에 기여하실 준비가 되셨습니까?
 more = 더보기
-close = 닫기
 download = 다운로드
 dataset-version = 버전
 sha256-checksum-copied = SHA256 체크섬이 복사되었습니다!

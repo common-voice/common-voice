@@ -50,7 +50,6 @@ missing-language = Awuboni ulwimi lwakho luboniswa kwiSeti yedatha? Ukucela ulwi
 go-languages-page = Yiya kwicala leeLwimi
 ready-to-validate = Ingaba ukulungele ukunceda ukuqinisekisa izivakalisi?
 more = Ngaphezulu
-close = Vala
 download = Khuphela
 dataset-version = Inguqulelo
 data-download-singleword-title = Khuphela iCandelo legama elinye ekujoliswe kulo

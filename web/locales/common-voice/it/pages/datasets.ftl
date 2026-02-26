@@ -67,7 +67,6 @@ missing-language = Non trovi la tua lingua nel dataset? Per richiederne una, vai
 go-languages-page = Vai sulla pagina Lingue
 ready-to-validate = Sei pronto a convalidare qualche frase?
 more = Altro
-close = Chiudi
 download = Scarica
 dataset-version = Versione
 sha256-checksum-copied = Checksum SHA256 copiato.

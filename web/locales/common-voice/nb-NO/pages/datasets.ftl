@@ -68,7 +68,6 @@ missing-language = Ser du ikke spr책ket ditt i datamengden? For 책 be om et spr�
 go-languages-page = G책 til Spr책k-siden
 ready-to-validate = Klar til 책 hjelpe til med 책 validere setninger?
 more = Mer
-close = Lukk
 download = Last ned
 dataset-version = Versjon
 sha256-checksum-copied = SHA256-sjekksum kopiert!

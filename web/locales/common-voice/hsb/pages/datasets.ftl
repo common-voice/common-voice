@@ -68,7 +68,6 @@ missing-language = Njenamakaće swoju rěč w datowej sadźbje? Zo byšće swoju
 go-languages-page = K stronje rěčow
 ready-to-validate = Sće hotowy nam pomhać, sady přepruwować?
 more = Wjace
-close = Začinić
 download = Sćahnyć
 dataset-version = Wersija
 sha256-checksum-copied = Pruwowanska suma SHA256 kopěrowana!

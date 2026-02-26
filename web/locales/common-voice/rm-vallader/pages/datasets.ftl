@@ -45,7 +45,6 @@ missing-language = Nu chattast tia lingua aint illa collecziun da datas? Va inav
 go-languages-page = Va sün la pagina da linguas
 ready-to-validate = Est pront per güdar a validar frasas?
 more = Daplü
-close = Serra
 download = S-chargiar
 dataset-version = Versiun
 data-download-button = S-chargiar la collecziun da datas da Common Voice

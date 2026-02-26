@@ -70,7 +70,6 @@ missing-language = Non ve o seu idioma reflectido no conxunto de datos? Para sol
 go-languages-page = Ir á pestana de idiomas
 ready-to-validate = Lista/o para axudar a aprobar frases?
 more = Máis
-close = Pechar
 download = Descargar
 dataset-version = Versión
 sha256-checksum-copied = Copiouse a suma de verificación SHA256.

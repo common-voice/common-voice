@@ -56,7 +56,6 @@ missing-language = Lulwimi lwakho aluveli kule Dataset? Kucela lophetse lulwimi 
 go-languages-page = Buyela ekhasini letilwimi
 ready-to-validate = Ulungele kusita ngekucinisekisa imisho?
 more = Lokunengi
-close = Vala
 download = Download
 dataset-version = Inhlobo
 data-download-singleword-title = Download the Single Word Target Segment

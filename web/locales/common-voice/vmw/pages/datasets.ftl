@@ -39,7 +39,6 @@ go-discourse = Oroowa wa Discourse
 go-languages-page = Oroowa nikukhu na mattaava
 ready-to-validate = Olikana wii mukhalihe wemererya soolempwa?
 more = Opwaha
-close = Owala
 download = Downloati
 dataset-version = Everesawu
 sha256-checksum-copied = Otakaniha woowehaweha SHA256 yootakihiya!

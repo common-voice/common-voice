@@ -46,7 +46,6 @@ missing-language = डेटासेट में आपकी भाषा न
 go-languages-page = भाषाएँ पृष्ठ पर जाएँ
 ready-to-validate = मान्य वाक्यों की मदद के लिए तैयार हैं?
 more = और
-close = बंद करें
 download = डाउनलोड करें
 dataset-version = संस्करण
 data-download-button = डाउनलोड आम आवाज डेटा

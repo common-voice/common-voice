@@ -48,7 +48,6 @@ missing-language = Etkö löydä omaa kieltä aineistosta? Pyytääksesi kielen 
 go-languages-page = Siirry sivulle Kielet.
 ready-to-validate = Oletko valmis tarkistamaan lauseita?
 more = Lisää
-close = Sulje
 download = Lataa
 dataset-version = Versio
 sha256-checksum-copied = SHA256-tarkistussumma kopioitu!

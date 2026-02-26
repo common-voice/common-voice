@@ -52,7 +52,6 @@ missing-language = تانی جِب ڈیٹا سیٹ مئی نہ پشنتاٞ؟ ج
 go-languages-page = جبوناٞں پاٞݪ کٞہ چو
 ready-to-validate = جُملاٞ قابل قبول کٞروگ مئ مداٞد داٞ کٞہ تیار تھواٞ؟
 more = دی
-close = بند کٞر
 download = ڈاؤنلوڈ کٞر
 dataset-version = ورجن
 sha256-checksum-copied = ایس ایچ اے256چیکسم نقل ہُو

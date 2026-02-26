@@ -27,7 +27,6 @@ go-discourse = גיי צו דיסקארס
 go-languages-page = גיי צו שפרייכן בלאט
 ready-to-validate = זענט איר גרייט צו באשטעטיגן זאצן?
 more = מער
-close = פארמאך
 download = לאדנט אראפ
 dataset-version = ווערסיע
 # dataset metadata - age of contributor

@@ -33,7 +33,6 @@ missing-language = megeree kutingung kogagiboor eng dataset?ngimache itep agoba 
 go-languages-page = wiiy olemi pagit nebo kuti chesere
 ready-to-validate = achopot atoretin iigeer nda saii ngalalutik
 more = alak
-close = keer
 download = downloaden
 dataset-version = versionit
 sha256-checksum-copied = kagecopen SHA256 Checksum!

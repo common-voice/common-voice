@@ -66,7 +66,6 @@ missing-language = Tvoj jezik nedostaje u skupu podataka? Zatraži jezik na naš
 go-languages-page = Prijeđi na stranicu jezika
 ready-to-validate = Želiš pomoći potvrđivati rečenice?
 more = Više
-close = Zatvori
 download = Preuzmi
 dataset-version = Verzija
 sha256-checksum-copied = SHA256 kontrolni zbroj kopiran!

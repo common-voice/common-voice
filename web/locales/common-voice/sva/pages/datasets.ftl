@@ -53,7 +53,6 @@ missing-language = დეშ ხოსგდიჲა ისგუ ნინს 
 go-languages-page = ქა̄̈ტხ ნინრე გუ̂ერდთე
 ready-to-validate = ხიმა ლჷმა̄რე, ერე ლა̈ნმარჯუ̂ა წინადადება̄ლე სისწორე̄მი ლამოწმა̈ნს?
 more = ხოში̄ლ
-close = ლიხურა̈უ̂ი
 download = ჩამოტვირთვა
 dataset-version = ვერსია
 sha256-checksum-copied = SHA256 საკონტროლო ჯამ დაკოპირებულ ლი!

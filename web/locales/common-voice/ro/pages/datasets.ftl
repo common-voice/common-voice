@@ -68,7 +68,6 @@ missing-language = Limba ta nu apare în setul de date? Pentru solicitarea unei 
 go-languages-page = Mergi la pagina de limbi
 ready-to-validate = Ești gata să ne ajuți să validăm propoziții?
 more = Mai multe
-close = Închide
 download = Descarcă
 dataset-version = Versiune
 sha256-checksum-copied = Suma de control (checksum) SHA256 a fost copiată!

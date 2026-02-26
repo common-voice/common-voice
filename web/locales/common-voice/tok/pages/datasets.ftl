@@ -54,7 +54,6 @@ missing-language = toki sina li lon ala kulupu sona la, sina ken pana e ona lon 
 go-languages-page = o tawa lipu toki
 ready-to-validate = sina wile ala wile pona e kalama awen?
 more = o mute
-close = o pini
 download = o kama jo
 dataset-version = nanpa
 sha256-checksum-copied = sina kama jo e nanpa pi nasin SHA256!

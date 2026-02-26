@@ -26,7 +26,6 @@ go-discourse = ਭਾਸ਼ਣ ‘ਤੇ ਜਾਓ
 go-languages-page = ਭਾਸ਼ਾ ਸਫ਼ੇ ‘ਤੇ ਜਾਓ
 ready-to-validate = ਕੀ ਵਾਕਾਂ ਨੂੰ ਪ੍ਰਮਾਣਿਤ ਕਰਨ ਵਿੱਚ ਸਹਾਇਤਾ ਲਈ ਤਿਆਰ ਹੋ?
 more = ਹੋਰ
-close = ਬੰਦ ਕਰੋ
 download = ਡਾਊਨਲੋਡ ਕਰੋ
 dataset-version = ਵਰਜ਼ਨ
 data-download-button = ਆਮ ਆਵਾਜ਼ ਡਾਟਾ ਡਾਊਨਲੋਡ ਕਰੋ

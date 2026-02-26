@@ -40,7 +40,6 @@ missing-language = Ti ziwanê xo komdayeyî de nêvînenî/a? Seba waştişê zi
 go-languages-page = Şo rîpelê ziwanan
 ready-to-validate = Ti hazir î/a cumleyan tesdîq bikerê?
 more = Hîna zaf
-close = Pade
 download = Bîyare war
 dataset-version = Versîyon
 clipboard-not-supported = Pano dest nêbeno

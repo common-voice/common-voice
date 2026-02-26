@@ -60,7 +60,6 @@ missing-language = تہ وار کی ڈِیٹا سیٹا نو اوشوئے۔ وا
 go-languages-page = واران صفحہ بوغے
 ready-to-validate = جملان صحیح کوریکا مدد کوریکو بچین تیارا؟
 more = خور
-close = بند
 download = ڈاون لوڈ
 dataset-version = ورژن
 sha256-checksum-copied = SHA256 چیکسم کاپی ہوئے!

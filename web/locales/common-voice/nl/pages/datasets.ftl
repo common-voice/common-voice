@@ -68,7 +68,6 @@ missing-language = Ziet u uw taal niet in de gegevensset? Ga naar onze pagina Ta
 go-languages-page = Naar de pagina Talen
 ready-to-validate = Klaar om zinnen te helpen valideren?
 more = Meer
-close = Sluiten
 download = Downloaden
 dataset-version = Versie
 sha256-checksum-copied = SHA256-checksum gekopieerd!
