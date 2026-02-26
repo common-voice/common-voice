@@ -154,8 +154,8 @@ class Email {
     return this.send({ subject, html })
   }
 
-  private createSubject(email: string, languageLocale?: string) {
-    return `Language Request ${email} ${languageLocale || ''}`.trim()
+  private createSubject(email: string, languageName: string) {
+    return `Language Request: ${languageName} — ${email}`
   }
 
   private createSubjectBulkSubmission(
@@ -167,6 +167,7 @@ class Email {
 
   private createHTML(
     email: string,
+    languageName: string,
     platforms: string[],
     languageInfo: string,
     languageLocale?: string
@@ -174,6 +175,8 @@ class Email {
     let html = `
       <h2>Email</h2>
       <p><a href="mailto:${email}">${email}</a></p>
+      <h2>Requested Language</h2>
+      <p>${languageName}</p>
       <h2>Platforms</h2>
       <p>${platforms.join(', ')}</p>
       <h2>Language Information</h2>
@@ -182,7 +185,7 @@ class Email {
 
     if (languageLocale) {
       html += `
-        <h2>Language Locale</h2>
+        <h2>Browser Locale</h2>
         <p>${languageLocale}</p>
       `.trim()
     }
@@ -227,17 +230,19 @@ class Email {
 
   async sendLanguageRequestEmail({
     email,
+    languageName,
     platforms,
     languageInfo,
     languageLocale,
   }: {
     email: string
+    languageName: string
     platforms: string[]
     languageInfo: string
     languageLocale?: string
   }) {
-    const subject = this.createSubject(email, languageLocale)
-    const html = this.createHTML(email, platforms, languageInfo, languageLocale)
+    const subject = this.createSubject(email, languageName)
+    const html = this.createHTML(email, languageName, platforms, languageInfo, languageLocale)
     return this.send({ subject, html })
   }
 }

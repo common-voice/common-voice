@@ -699,11 +699,13 @@ export default class API {
 
   async sendLanguageRequest({
     email,
+    languageName,
     languageInfo,
     languageLocale,
     platforms,
   }: {
     email: string
+    languageName: string
     languageInfo: string
     languageLocale: string
     platforms: string[]
@@ -712,6 +714,7 @@ export default class API {
       method: 'POST',
       body: {
         email,
+        languageName,
         languageInfo,
         languageLocale,
         platforms,
