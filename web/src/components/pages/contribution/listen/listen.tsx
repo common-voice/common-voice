@@ -390,8 +390,10 @@ class ListenPage extends React.Component<Props, State> {
               when={() => {
                 // Only show warning if there are clips loaded AND votes that haven't been submitted yet
                 // After submission (isSubmitted=true), user can safely refresh
+                // Don't warn when clips are exhausted (no more to validate) — user must be able to leave freely
                 const isUnvalidatedClips =
                   !isSubmitted &&
+                  !isMissingClips &&
                   clips.length > 0 &&
                   clips.some(clip => clip.isValid !== null)
 
