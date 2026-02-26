@@ -127,6 +127,33 @@ class Email {
     return info
   }
 
+  private createSubjectContact(email: string) {
+    return `Contact Form: ${email}`
+  }
+
+  private createHTMLContact(email: string, name: string | undefined, message: string) {
+    return `
+      <h2>From</h2>
+      <p><a href="mailto:${email}">${email}</a>${name ? ` (${name})` : ''}</p>
+      <h2>Message</h2>
+      <p>${message}</p>
+    `.trim()
+  }
+
+  async sendContactEmail({
+    email,
+    name,
+    message,
+  }: {
+    email: string
+    name?: string
+    message: string
+  }) {
+    const subject = this.createSubjectContact(email)
+    const html = this.createHTMLContact(email, name, message)
+    return this.send({ subject, html })
+  }
+
   private createSubject(email: string, languageLocale?: string) {
     return `Language Request ${email} ${languageLocale || ''}`.trim()
   }

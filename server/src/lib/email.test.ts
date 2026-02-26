@@ -139,6 +139,46 @@ describe('Email', () => {
         })
       })
     })
+
+    describe('sendContactEmail', () => {
+      afterEach(() => {
+        mockTransport.isIdle.mockClear()
+        mockTransport.sendMail.mockClear()
+      })
+
+      it('calls nodemailer with correct subject and html', async () => {
+        await email.sendContactEmail({
+          email: 'user@example.com',
+          name: 'Alice',
+          message: 'Great project!',
+        })
+
+        expect(mockTransport.isIdle).toBeCalled()
+        expect(mockTransport.sendMail).toBeCalledWith({
+          from: 'commonvoice+test-from@example.com',
+          to: 'commonvoice+test-to@example.com',
+          subject: 'Contact Form: user@example.com',
+          html: expect.stringContaining('(Alice)'),
+        })
+
+        // no test preview urls in production
+        expect(mockNodemailer.getTestMessageUrl).not.toBeCalled()
+      })
+
+      it('omits name from html when not provided', async () => {
+        await email.sendContactEmail({
+          email: 'anon@example.com',
+          message: 'Anonymous message',
+        })
+
+        expect(mockTransport.sendMail).toBeCalledWith(
+          expect.objectContaining({
+            subject: 'Contact Form: anon@example.com',
+            html: expect.not.stringContaining('('),
+          })
+        )
+      })
+    })
   })
 
   describe('is not production', () => {

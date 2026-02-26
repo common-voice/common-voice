@@ -463,6 +463,8 @@ indicates-required = Fields marked with an asterisk (*) are required.
 not-available-abbreviation = N/A
 # Text shown on a button that can be clicked to copy text to the clipboard
 copy = Copy
+# Text shown on a button that can be clicked to close a modal or panel
+close = Close
 # Text shown on a button that can be clicked to cancel an action
 cancel = Cancel
 # Text shown on a button that can be clicked to delete an item
