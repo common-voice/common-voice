@@ -239,6 +239,7 @@ describeE2E('Datasheet e2e generation', () => {
         autoStats,
         locale,
         RELEASE_NAME,
+        tmpDir,
         sample,
       )
       const rendered = fillTemplate(payload.template, replacements)
@@ -289,6 +290,7 @@ describeE2E('Datasheet e2e generation', () => {
       statsResult.right,
       'en',
       RELEASE_NAME,
+      tmpDir,
       [],
     )
     expect(replacements['GENDER_TABLE']).toContain('Male, masculine')

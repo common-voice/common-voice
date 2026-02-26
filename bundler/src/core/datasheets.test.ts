@@ -5,6 +5,7 @@ import * as path from 'node:path'
 import {
   fillTemplate,
   buildReplacementMap,
+  buildDataSplitsTable,
   sampleSentences,
   extractAutoStats,
 } from './datasheets'
@@ -127,6 +128,24 @@ describe('fillTemplate', () => {
     const result = fillTemplate(template, {})
     expect(result).toBe('# Just plain markdown\n\nSome text.\n')
   })
+
+  it('injects DATA_SPLITS_TABLE after "## Data splits" header when no placeholder exists', () => {
+    const template = '## Data splits for modelling\n\n## Text corpus'
+    const result = fillTemplate(template, {
+      DATA_SPLITS_TABLE: '| Split | Clips |\n|---|---|\n| Train | 30 |',
+    })
+    expect(result).toContain('## Data splits for modelling')
+    expect(result).toContain('| Train | 30 |')
+    expect(result).toContain('## Text corpus')
+  })
+
+  it('uses {{DATA_SPLITS_TABLE}} placeholder when it exists in template', () => {
+    const template = '## Data splits\n\n{{DATA_SPLITS_TABLE}}\n\n## Next'
+    const result = fillTemplate(template, {
+      DATA_SPLITS_TABLE: '| Split | Clips |\n|---|---|\n| Train | 30 |',
+    })
+    expect(result).toContain('| Train | 30 |')
+  })
 })
 
 // buildReplacementMap
@@ -164,6 +183,7 @@ describe('buildReplacementMap', () => {
       baseAutoStats,
       'de',
       'cv-corpus-25.0',
+      '/nonexistent',
       [],
     )
     expect(map['NATIVE_NAME']).toBe('Deutsch')
@@ -178,6 +198,7 @@ describe('buildReplacementMap', () => {
       baseAutoStats,
       'de',
       'cv-corpus-25.0',
+      '/nonexistent',
       [],
     )
     expect(map['CLIPS']).toBe('100')
@@ -192,6 +213,7 @@ describe('buildReplacementMap', () => {
       baseAutoStats,
       'de',
       'cv-corpus-25.0',
+      '/nonexistent',
       [],
     )
     expect(map['GENDER_TABLE']).toContain('| Gender | Frequency |')
@@ -205,6 +227,7 @@ describe('buildReplacementMap', () => {
       baseAutoStats,
       'de',
       'cv-corpus-25.0',
+      '/nonexistent',
       [],
     )
     expect(map['AGE_TABLE']).toContain('| Age band | Frequency |')
@@ -217,6 +240,7 @@ describe('buildReplacementMap', () => {
       baseAutoStats,
       'de',
       'cv-corpus-25.0',
+      '/nonexistent',
       [],
     )
     expect(map['LANGUAGE_DESCRIPTION']).toBe(
@@ -230,6 +254,7 @@ describe('buildReplacementMap', () => {
       baseAutoStats,
       'de',
       'cv-corpus-25.0',
+      '/nonexistent',
       [],
     )
     expect(map['VARIANT_DESCRIPTION']).toBeUndefined()
@@ -243,6 +268,7 @@ describe('buildReplacementMap', () => {
       baseAutoStats,
       'de',
       'cv-corpus-25.0',
+      '/nonexistent',
       sentences,
     )
     expect(map['SENTENCES_SAMPLE']).toBe(
@@ -256,6 +282,7 @@ describe('buildReplacementMap', () => {
       baseAutoStats,
       'de',
       'cv-corpus-25.0',
+      '/nonexistent',
       [],
     )
     expect(map['SENTENCES_SAMPLE']).toBeUndefined()
@@ -275,6 +302,7 @@ describe('buildReplacementMap', () => {
       baseAutoStats,
       'de',
       'cv-corpus-25.0',
+      '/nonexistent',
       [],
     )
     // Community field has precedence (applied after auto)
@@ -327,10 +355,10 @@ describe('sampleSentences', () => {
 
   it('excludes sentences where is_used is not "1"', () => {
     writeTsv(tmpDir, [
-      makeRow(0, '1'), // eligible
-      makeRow(1, '0'), // not eligible
-      makeRow(2, '0'), // not eligible
-      makeRow(3, '1'), // eligible
+      makeRow(0, '1'),
+      makeRow(1, '0'),
+      makeRow(2, '0'),
+      makeRow(3, '1'),
     ])
     const result = sampleSentences(tmpDir, 'en', 10)
     expect(result).toHaveLength(2)
@@ -359,6 +387,65 @@ describe('sampleSentences', () => {
     writeTsv(tmpDir, [])
     const result = sampleSentences(tmpDir, 'en', 5)
     expect(result).toEqual([])
+  })
+
+  it('falls back to clips.tsv when validated_sentences.tsv is empty', () => {
+    // No validated_sentences.tsv, no validated.tsv, only clips.tsv
+    fs.writeFileSync(
+      path.join(tmpDir, 'en', 'clips.tsv'),
+      'client_id\tpath\tsentence\tup_votes\nuser1\tclip1.mp3\tClip sentence\t2\n',
+    )
+    const result = sampleSentences(tmpDir, 'en', 5)
+    expect(result).toEqual(['Clip sentence'])
+  })
+})
+
+// buildDataSplitsTable
+
+describe('buildDataSplitsTable', () => {
+  let tmpDir: string
+
+  beforeEach(() => {
+    tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), 'ds-splits-'))
+    fs.mkdirSync(path.join(tmpDir, 'en'), { recursive: true })
+  })
+
+  afterEach(() => {
+    fs.rmSync(tmpDir, { recursive: true, force: true })
+  })
+
+  it('builds table from CC output files', () => {
+    const header = 'client_id\tpath\tsentence\n'
+    const row = 'user1\tclip1.mp3\tHello\n'
+    fs.writeFileSync(path.join(tmpDir, 'en', 'train.tsv'), header + row.repeat(30))
+    fs.writeFileSync(path.join(tmpDir, 'en', 'dev.tsv'), header + row.repeat(10))
+    fs.writeFileSync(path.join(tmpDir, 'en', 'test.tsv'), header + row.repeat(10))
+    fs.writeFileSync(path.join(tmpDir, 'en', 'validated.tsv'), header + row.repeat(50))
+    fs.writeFileSync(path.join(tmpDir, 'en', 'other.tsv'), header + row.repeat(50))
+
+    const result = buildDataSplitsTable(tmpDir, 'en', 100)
+    expect(result).toContain('| Split | Clips |')
+    expect(result).toContain('Train')
+    expect(result).toContain('30 (30.0%)')
+    expect(result).toContain('Dev')
+    expect(result).toContain('Test')
+    expect(result).toContain('Validated')
+    expect(result).toContain('Other')
+  })
+
+  it('returns empty string when no split files exist', () => {
+    const result = buildDataSplitsTable(tmpDir, 'en', 100)
+    expect(result).toBe('')
+  })
+
+  it('omits splits with 0 rows', () => {
+    const header = 'client_id\tpath\tsentence\n'
+    fs.writeFileSync(path.join(tmpDir, 'en', 'train.tsv'), header + 'u1\tc1.mp3\tHi\n')
+    fs.writeFileSync(path.join(tmpDir, 'en', 'invalidated.tsv'), header) // header only
+
+    const result = buildDataSplitsTable(tmpDir, 'en', 1)
+    expect(result).toContain('Train')
+    expect(result).not.toContain('Invalidated')
   })
 })
 
@@ -530,6 +617,7 @@ describe('fillTemplate + buildReplacementMap integration', () => {
       autoStats,
       'de',
       'cv-corpus-25.0',
+      '/nonexistent',
       ['Hello', 'World'],
     )
     const result = fillTemplate(template, replacements)

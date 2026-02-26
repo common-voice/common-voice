@@ -107,51 +107,81 @@ export const extractAutoStats = (
 // -- Sentence sampling -------------------------------------------------------
 
 /**
- * Reads validated_sentences.tsv and returns a random sample of N sentences.
- * Only sentences with is_used == "1" are eligible.
+ * Reservoir-samples N items from the given array.
+ */
+const reservoirSample = (items: string[], count: number): string[] => {
+  const sample: string[] = []
+  for (let i = 0; i < items.length; i++) {
+    if (i < count) {
+      sample.push(items[i])
+    } else {
+      const j = Math.floor(Math.random() * (i + 1))
+      if (j < count) {
+        sample[j] = items[i]
+      }
+    }
+  }
+  return sample
+}
+
+/**
+ * Extracts the sentence column from a TSV file.
+ * If filterColumn/filterValue are given, only rows matching that filter are included.
+ */
+const extractSentences = (
+  filepath: string,
+  filterColumn?: string,
+  filterValue?: string,
+): string[] => {
+  try {
+    const content = fs.readFileSync(filepath, 'utf-8')
+    const lines = content.split('\n').filter(l => l.trim().length > 0)
+    if (lines.length <= 1) return []
+
+    const header = lines[0].split('\t')
+    // Try 'sentence' first, fall back to 'text' (clips.tsv uses 'sentence' too after CC)
+    const sentenceIdx = header.indexOf('sentence')
+    if (sentenceIdx < 0) return []
+
+    const filterIdx =
+      filterColumn != null ? header.indexOf(filterColumn) : -1
+
+    return lines
+      .slice(1)
+      .filter(line => {
+        if (filterIdx < 0) return true
+        return line.split('\t')[filterIdx] === filterValue
+      })
+      .map(line => line.split('\t')[sentenceIdx])
+      .filter(s => s && s.trim().length > 0)
+  } catch {
+    return []
+  }
+}
+
+/**
+ * Returns a random sample of N sentences from the locale's release directory.
+ *
+ * Tries sources in order:
+ *   1. validated_sentences.tsv (is_used == "1" — excludes bad/unwanted sentences)
+ *   2. clips.tsv (last resort)
  */
 export const sampleSentences = (
   releaseDirPath: string,
   locale: string,
   count = 5,
 ): string[] => {
-  const filepath = path.join(releaseDirPath, locale, 'validated_sentences.tsv')
-  try {
-    const content = fs.readFileSync(filepath, 'utf-8')
-    const lines = content.split('\n').filter(l => l.trim().length > 0)
-    if (lines.length <= 1) return [] // header only or empty
+  const localeDir = path.join(releaseDirPath, locale)
 
-    // Column indices -- parse header
-    const header = lines[0].split('\t')
-    const sentenceIdx = header.indexOf('sentence')
-    const isUsedIdx = header.indexOf('is_used')
-    if (sentenceIdx < 0) return []
+  // 1. validated_sentences.tsv with is_used filter
+  const vsPath = path.join(localeDir, 'validated_sentences.tsv')
+  const sentences = extractSentences(vsPath, 'is_used', '1')
+  if (sentences.length > 0) return reservoirSample(sentences, count)
 
-    const sentences = lines
-      .slice(1)
-      .filter(line => {
-        if (isUsedIdx < 0) return true // column absent -- include all
-        return line.split('\t')[isUsedIdx] === '1'
-      })
-      .map(line => line.split('\t')[sentenceIdx])
-      .filter(s => s && s.trim().length > 0)
-
-    // Reservoir sampling for random N
-    const sample: string[] = []
-    for (let i = 0; i < sentences.length; i++) {
-      if (i < count) {
-        sample.push(sentences[i])
-      } else {
-        const j = Math.floor(Math.random() * (i + 1))
-        if (j < count) {
-          sample[j] = sentences[i]
-        }
-      }
-    }
-    return sample
-  } catch {
-    return []
-  }
+  // 2. clips.tsv (last resort)
+  const clipsPath = path.join(localeDir, 'clips.tsv')
+  const allClips = extractSentences(clipsPath)
+  return reservoirSample(allClips, count)
 }
 
 // -- Template filling --------------------------------------------------------
@@ -220,6 +250,36 @@ const buildAgeTable = (
   return formatMarkdownTable(['Age band', 'Frequency'], rows)
 }
 
+// -- Data splits table --------------------------------------------------------
+
+const SPLIT_FILES = ['train', 'dev', 'test', 'validated', 'invalidated', 'other'] as const
+
+/**
+ * Reads CorporaCreator output files and builds a markdown table with
+ * split name, clip count, and percentage of total.
+ */
+export const buildDataSplitsTable = (
+  releaseDirPath: string,
+  locale: string,
+  totalClips: number,
+): string => {
+  const localeDir = path.join(releaseDirPath, locale)
+  const rows: [string, string][] = []
+
+  for (const split of SPLIT_FILES) {
+    const count = countLinesInFile(path.join(localeDir, `${split}.tsv`))
+    if (count === 0) continue
+    const pct = totalClips > 0 ? ((count / totalClips) * 100).toFixed(1) : '0'
+    rows.push([
+      split.charAt(0).toUpperCase() + split.slice(1),
+      `${count.toLocaleString()} (${pct}%)`,
+    ])
+  }
+
+  if (rows.length === 0) return ''
+  return formatMarkdownTable(['Split', 'Clips'], rows)
+}
+
 /**
  * Builds the full replacement map from all sources:
  * 1. Metadata (native_name, english_name, etc.)
@@ -231,6 +291,7 @@ export const buildReplacementMap = (
   autoStats: DatasheetAutoStats,
   locale: string,
   releaseName: string,
+  releaseDirPath: string,
   sentencesSample: string[],
 ): Record<string, string> => {
   const map: Record<string, string> = {}
@@ -254,6 +315,12 @@ export const buildReplacementMap = (
   )
   map['AGE_TABLE'] = buildAgeTable(autoStats.ageCounts, autoStats.clips)
 
+  // Data splits
+  const splitsTable = buildDataSplitsTable(releaseDirPath, locale, autoStats.clips)
+  if (splitsTable) {
+    map['DATA_SPLITS_TABLE'] = splitsTable
+  }
+
   // Sentences sample
   if (sentencesSample.length > 0) {
     map['SENTENCES_SAMPLE'] = sentencesSample
@@ -275,12 +342,27 @@ export const buildReplacementMap = (
  * Fills a template string by replacing `{{KEY}}` and `<!-- {{KEY}} -->`
  * patterns with values from the replacement map.
  * Then strips all remaining HTML comment blocks.
+ *
+ * Also injects DATA_SPLITS_TABLE after the "## Data splits" header
+ * if the template lacks the explicit placeholder (backward compat with
+ * older cv-datasheets templates).
  */
 export const fillTemplate = (
   template: string,
   replacements: Record<string, string>,
 ): string => {
   let result = template
+
+  // Inject DATA_SPLITS_TABLE after "## Data splits" header if no placeholder exists
+  if (
+    replacements['DATA_SPLITS_TABLE'] &&
+    !result.includes('{{DATA_SPLITS_TABLE}}')
+  ) {
+    result = result.replace(
+      /(## Data splits[^\n]*\n)/,
+      `$1\n${replacements['DATA_SPLITS_TABLE']}\n`,
+    )
+  }
 
   // First pass: replace <!-- {{KEY}} --> with value (or empty string if no value)
   result = result.replace(
@@ -338,7 +420,7 @@ const datasheetPipeline = (
     ),
     // 3. Build replacement map and fill template
     TE.let('replacements', ({ autoStats, sentencesSample }) =>
-      buildReplacementMap(payload, autoStats, locale, releaseName, sentencesSample),
+      buildReplacementMap(payload, autoStats, locale, releaseName, releaseDirPath, sentencesSample),
     ),
     TE.let('rendered', ({ replacements }) =>
       fillTemplate(payload.template, replacements),
