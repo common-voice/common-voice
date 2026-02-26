@@ -15,6 +15,16 @@ type InitDatasetReleaseJob = {
 }
 
 const startDatasetRelease = async (args: any, options: any) => {
+  // -f is required for delta releases (defines the start of the time window)
+  if (args.type === 'delta' && args.from === '1970-01-01 00:00:00') {
+    console.error(
+      'Error: -f (--from) is required for -t delta.\n' +
+        'It defines the start of the time window for clips included in the delta.\n' +
+        "Example: -t delta -f '2025-09-05 00:00:00' -u '2026-03-06 23:59:59'",
+    )
+    process.exit(1)
+  }
+
   // -p is required for full releases (bootstraps clips from previous tarball)
   if (args.type === 'full' && !args.previousReleaseName) {
     console.error(
@@ -70,9 +80,10 @@ program
      <type>: 'full | delta | statistics | variants'
     `
   )
-  .requiredOption(
+  .option(
     '-f, --from <datetime>',
-    "Earliest date to be included in the release, e.g. '2000-01-01 00:00:00'"
+    "Earliest date to be included in the release, e.g. '2000-01-01 00:00:00'",
+    '1970-01-01 00:00:00'
   )
   .requiredOption(
     '-u, --until <datetime>',
