@@ -467,6 +467,8 @@ indicates-required = * Woznamjenja trěbne polo
 not-available-abbreviation = Ničo k dispoziciji
 # Text shown on a button that can be clicked to copy text to the clipboard
 copy = Kopěrować
+# Text shown on a button that can be clicked to close a modal or panel
+close = Začinić
 # Text shown on a button that can be clicked to cancel an action
 cancel = Přetorhnyć
 # Text shown on a button that can be clicked to delete an item
