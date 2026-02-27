@@ -33,6 +33,7 @@ export type DbConfig = {
   database: string
   user: string
   password: string
+  charset: string
 }
 
 export type Config = {
@@ -148,6 +149,7 @@ const config: Config = {
     database: process.env.DB_DATABASE || 'voiceweb',
     user: process.env.DB_USER || 'voicecommons',
     password: process.env.DB_PASSWORD || 'voicecommons',
+    charset: 'utf8mb4',
   },
   clipsBucketName: process.env.CLIPS_BUCKET_NAME || 'common-voice-clips',
   datasetBundlerBucketName:
