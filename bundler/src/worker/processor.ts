@@ -101,14 +101,16 @@ export const deriveJobEnv = (
         : previousReleaseName
       : undefined
 
-  // Derived from releaseName using the fixed convention "${releaseName}-delta"
-  // (or "-delta-licensed" for licensed jobs). The delta release must have been
-  // run beforehand with that exact name.
+  // Derived from releaseName by inserting "-delta" before the date portion.
+  // e.g. "cv-corpus-24.0-2025-12-05" → "cv-corpus-24.0-delta-2025-12-05"
+  // Licensed variant appends "-licensed" at the end.
+  // The delta release must have been run beforehand with that exact name.
+  const baseDeltaName = releaseName.replace(/-(\d{4}-\d{2}-\d{2})$/, '-delta-$1')
   const effectiveDeltaReleaseName =
     type === 'full'
       ? license
-        ? `${releaseName}-delta-licensed`
-        : `${releaseName}-delta`
+        ? `${baseDeltaName}-licensed`
+        : baseDeltaName
       : undefined
 
   const releaseDirPath = license

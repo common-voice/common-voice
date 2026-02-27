@@ -6,9 +6,9 @@ const TMP_DIR = '/tmp/bundler'
 const baseJob: ProcessLocaleJob = {
   type: 'full',
   from: '2025-01-01 00:00:00',
-  until: '2025-06-01 00:00:00',
-  releaseName: 'cv-19.0',
-  previousReleaseName: 'cv-18.0',
+  until: '2025-06-01 23:59:59',
+  releaseName: 'cv-corpus-19.0-2025-06-01',
+  previousReleaseName: 'cv-corpus-18.0-2025-01-01',
   languages: ['en'],
   locale: 'en',
 }
@@ -17,24 +17,24 @@ describe('deriveJobEnv', () => {
   describe('effectiveReleaseName', () => {
     it('uses releaseName as-is for unlicensed jobs', () => {
       const env = deriveJobEnv(baseJob, TMP_DIR)
-      expect(env.releaseName).toBe('cv-19.0')
+      expect(env.releaseName).toBe('cv-corpus-19.0-2025-06-01')
     })
 
     it('appends -licensed for licensed jobs', () => {
       const env = deriveJobEnv({ ...baseJob, license: 'CC-BY-SA-4.0' }, TMP_DIR)
-      expect(env.releaseName).toBe('cv-19.0-licensed')
+      expect(env.releaseName).toBe('cv-corpus-19.0-2025-06-01-licensed')
     })
   })
 
   describe('effectivePreviousReleaseName', () => {
     it('derives previous release name for full unlicensed', () => {
       const env = deriveJobEnv(baseJob, TMP_DIR)
-      expect(env.previousReleaseName).toBe('cv-18.0')
+      expect(env.previousReleaseName).toBe('cv-corpus-18.0-2025-01-01')
     })
 
     it('appends -licensed to previous release for full licensed', () => {
       const env = deriveJobEnv({ ...baseJob, license: 'CC0-1.0' }, TMP_DIR)
-      expect(env.previousReleaseName).toBe('cv-18.0-licensed')
+      expect(env.previousReleaseName).toBe('cv-corpus-18.0-2025-01-01-licensed')
     })
 
     it('is undefined for delta releases (unlicensed)', () => {
@@ -65,12 +65,12 @@ describe('deriveJobEnv', () => {
   describe('effectiveDeltaReleaseName', () => {
     it('derives delta name for full unlicensed', () => {
       const env = deriveJobEnv(baseJob, TMP_DIR)
-      expect(env.deltaReleaseName).toBe('cv-19.0-delta')
+      expect(env.deltaReleaseName).toBe('cv-corpus-19.0-delta-2025-06-01')
     })
 
     it('derives delta-licensed name for full licensed', () => {
       const env = deriveJobEnv({ ...baseJob, license: 'CC-BY-SA-4.0' }, TMP_DIR)
-      expect(env.deltaReleaseName).toBe('cv-19.0-delta-licensed')
+      expect(env.deltaReleaseName).toBe('cv-corpus-19.0-delta-2025-06-01-licensed')
     })
 
     it('is undefined for delta releases', () => {
@@ -87,36 +87,36 @@ describe('deriveJobEnv', () => {
   describe('releaseDirPath', () => {
     it('is tmpDir/releaseName for unlicensed', () => {
       const env = deriveJobEnv(baseJob, TMP_DIR)
-      expect(env.releaseDirPath).toBe('/tmp/bundler/cv-19.0')
+      expect(env.releaseDirPath).toBe('/tmp/bundler/cv-corpus-19.0-2025-06-01')
     })
 
     it('includes license subdirectory for licensed', () => {
       const env = deriveJobEnv({ ...baseJob, license: 'CC-BY-SA-4.0' }, TMP_DIR)
-      expect(env.releaseDirPath).toBe('/tmp/bundler/cv-19.0-licensed/CC-BY-SA-4.0')
+      expect(env.releaseDirPath).toBe('/tmp/bundler/cv-corpus-19.0-2025-06-01-licensed/CC-BY-SA-4.0')
     })
 
     it('sanitizes special characters in license subdirectory', () => {
       const env = deriveJobEnv({ ...baseJob, license: 'CC BY/NC' }, TMP_DIR)
-      expect(env.releaseDirPath).toBe('/tmp/bundler/cv-19.0-licensed/CC_BY_NC')
+      expect(env.releaseDirPath).toBe('/tmp/bundler/cv-corpus-19.0-2025-06-01-licensed/CC_BY_NC')
     })
   })
 
   describe('derived paths', () => {
     it('sets clipsDirPath under releaseDirPath/locale/clips', () => {
       const env = deriveJobEnv(baseJob, TMP_DIR)
-      expect(env.clipsDirPath).toBe('/tmp/bundler/cv-19.0/en/clips')
+      expect(env.clipsDirPath).toBe('/tmp/bundler/cv-corpus-19.0-2025-06-01/en/clips')
     })
 
     it('sets releaseTarballsDirPath under releaseDirPath/tarballs', () => {
       const env = deriveJobEnv(baseJob, TMP_DIR)
-      expect(env.releaseTarballsDirPath).toBe('/tmp/bundler/cv-19.0/tarballs')
+      expect(env.releaseTarballsDirPath).toBe('/tmp/bundler/cv-corpus-19.0-2025-06-01/tarballs')
     })
 
     it('paths are correct for licensed jobs', () => {
       const env = deriveJobEnv({ ...baseJob, license: 'CC0-1.0' }, TMP_DIR)
-      expect(env.clipsDirPath).toBe('/tmp/bundler/cv-19.0-licensed/CC0-1.0/en/clips')
+      expect(env.clipsDirPath).toBe('/tmp/bundler/cv-corpus-19.0-2025-06-01-licensed/CC0-1.0/en/clips')
       expect(env.releaseTarballsDirPath).toBe(
-        '/tmp/bundler/cv-19.0-licensed/CC0-1.0/tarballs',
+        '/tmp/bundler/cv-corpus-19.0-2025-06-01-licensed/CC0-1.0/tarballs',
       )
     })
   })
@@ -124,20 +124,20 @@ describe('deriveJobEnv', () => {
   describe('uploadPath', () => {
     it('is releaseName/releaseName-locale.tar.gz for unlicensed', () => {
       const env = deriveJobEnv(baseJob, TMP_DIR)
-      expect(env.uploadPath).toBe('cv-19.0/cv-19.0-en.tar.gz')
+      expect(env.uploadPath).toBe('cv-corpus-19.0-2025-06-01/cv-corpus-19.0-2025-06-01-en.tar.gz')
     })
 
     it('includes -licensed suffix and sanitized license for licensed jobs', () => {
       const env = deriveJobEnv({ ...baseJob, license: 'CC-BY-SA-4.0' }, TMP_DIR)
       expect(env.uploadPath).toBe(
-        'cv-19.0-licensed/cv-19.0-licensed-en-CC-BY-SA-4.0.tar.gz',
+        'cv-corpus-19.0-2025-06-01-licensed/cv-corpus-19.0-2025-06-01-licensed-en-CC-BY-SA-4.0.tar.gz',
       )
     })
 
     it('sanitizes special characters in license portion', () => {
       const env = deriveJobEnv({ ...baseJob, license: 'CC BY/NC' }, TMP_DIR)
       expect(env.uploadPath).toBe(
-        'cv-19.0-licensed/cv-19.0-licensed-en-CC_BY_NC.tar.gz',
+        'cv-corpus-19.0-2025-06-01-licensed/cv-corpus-19.0-2025-06-01-licensed-en-CC_BY_NC.tar.gz',
       )
     })
   })
@@ -167,7 +167,7 @@ describe('deriveJobEnv', () => {
       const env = deriveJobEnv(baseJob, TMP_DIR)
       expect(env.locale).toBe('en')
       expect(env.from).toBe('2025-01-01 00:00:00')
-      expect(env.until).toBe('2025-06-01 00:00:00')
+      expect(env.until).toBe('2025-06-01 23:59:59')
       expect(env.type).toBe('full')
     })
 
