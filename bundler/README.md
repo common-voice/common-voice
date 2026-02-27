@@ -68,44 +68,44 @@ cd server/js/api/cli
 
 # Full release (all locales, unlicensed) — -p required, -f optional (defaults to epoch)
 node start-dataset-release.js \
-  -t full -u '2026-03-06 23:59:59' \
-  -r cv-corpus-25.0-2026-03-06 -p cv-corpus-24.0-2025-12-01
+  -t full -u '2026-03-09 23:59:59' \
+  -r cv-corpus-25.0-2026-03-09 -p cv-corpus-24.0-2025-12-05
 
 # Full release with datasheets from a specific commit (e.g. for test purposes while the new datasheets file is on a branch and not yet merged to main)
 node start-dataset-release.js \
-  -t full -u '2026-03-06 23:59:59' \
-  -r cv-corpus-25.0-2026-03-06 -p cv-corpus-24.0-2025-12-01 \
-  -d 'https://raw.githubusercontent.com/common-voice/cv-datasheets/<commit>/releases/datasheets-25.0-2026-03-06.json'
+  -t full -u '2026-03-09 23:59:59' \
+  -r cv-corpus-25.0-2026-03-09 -p cv-corpus-24.0-2025-12-05 \
+  -d 'https://raw.githubusercontent.com/common-voice/cv-datasheets/<commit>/releases/datasheets-25.0-2026-03-09.json'
 
 # Full release (specific locales only)
 node start-dataset-release.js \
-  -t full -u '2026-03-06 23:59:59' \
-  -r cv-corpus-25.0-2026-03-06 -p cv-corpus-24.0-2025-12-01 -l en tr de
+  -t full -u '2026-03-09 23:59:59' \
+  -r cv-corpus-25.0-2026-03-09 -p cv-corpus-24.0-2025-12-05 -l en tr de
 
 # Delta release — -f required (defines start of clip time window), -p not needed
 node start-dataset-release.js \
-  -t delta -f '2025-09-05 00:00:00' -u '2026-03-06 23:59:59' \
-  -r cv-corpus-25.0-delta-2026-03-06
+  -t delta -f '2025-12-05 00:00:00' -u '2026-03-09 23:59:59' \
+  -r cv-corpus-25.0-delta-2026-03-09
 
 # Variant release — sources clips from the full release identified by -r
 node start-dataset-release.js \
-  -t variants -u '2026-03-06 23:59:59' \
-  -r cv-corpus-25.0-2026-03-06
+  -t variants -u '2026-03-09 23:59:59' \
+  -r cv-corpus-25.0-2026-03-09
 
 # Statistics only (re-run stats, no clip processing)
 node start-dataset-release.js \
-  -t statistics -u '2026-03-06 23:59:59' \
-  -r cv-corpus-25.0-2026-03-06
+  -t statistics -u '2026-03-09 23:59:59' \
+  -r cv-corpus-25.0-2026-03-09
 
 # Licensed locales only
 node start-dataset-release.js \
-  -t full -u '2026-03-06 23:59:59' \
-  -r cv-corpus-25.0-2026-03-06 -p cv-corpus-24.0-2025-12-01 --license-mode licensed
+  -t full -u '2026-03-09 23:59:59' \
+  -r cv-corpus-25.0-2026-03-09 -p cv-corpus-24.0-2025-12-05 --license-mode licensed
 
 # Both licensed and unlicensed (separate tarballs)
 node start-dataset-release.js \
-  -t full -u '2026-03-06 23:59:59' \
-  -r cv-corpus-25.0-2026-03-06 -p cv-corpus-24.0-2025-12-01 --license-mode both
+  -t full -u '2026-03-09 23:59:59' \
+  -r cv-corpus-25.0-2026-03-09 -p cv-corpus-24.0-2025-12-05 --license-mode both
 ```
 
 ---

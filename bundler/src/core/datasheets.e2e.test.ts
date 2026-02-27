@@ -107,19 +107,16 @@ const setupLocale = (
 // Test configuration
 // ---------------------------------------------------------------------------
 
-// Full URL to the datasheets JSON on GitHub. Points to the dev branch until
-// it is merged to main, at which point a plain filename suffices and
-// DATASHEETS_BASE_URL in config.ts will resolve it.
+// Datasheets JSON on GitHub (main branch).
 // Override via DATASHEETS_FILE env var (filename or full https:// URL).
-const RELEASE_ID = '25.0-2026-03-06'
+const RELEASE_ID = '25.0-2026-03-09'
 const DATASHEETS_FILE =
   process.env.DATASHEETS_FILE ||
-  `https://raw.githubusercontent.com/common-voice/cv-datasheets/1540-pre-compile-release-data-to-json/releases/datasheets-${RELEASE_ID}.json`
+  `https://raw.githubusercontent.com/common-voice/cv-datasheets/main/releases/datasheets-${RELEASE_ID}.json`
 
 const RELEASE_NAME = `cv-corpus-${RELEASE_ID}`
 
-// Skip in CI environments -- this test makes a live network request to GitHub
-// and relies on a feature branch URL that changes over time.
+// Skip in CI -- this test makes a live network request to GitHub.
 // Run locally with: npm test -- --testPathPatterns=datasheets.e2e
 const describeE2E = process.env.CI ? describe.skip : describe
 

@@ -21,7 +21,7 @@ const startDatasetRelease = async (args: any, options: any) => {
     console.error(
       'Error: -f (--from) is required for -t delta.\n' +
         'It defines the start of the time window for clips included in the delta.\n' +
-        "Example: -t delta -f '2025-09-05 00:00:00' -u '2026-03-06 23:59:59'",
+        "Example: -t delta -f '2025-09-05 00:00:00' -u '2026-03-09 23:59:59'",
     )
     process.exit(1)
   }
@@ -31,7 +31,7 @@ const startDatasetRelease = async (args: any, options: any) => {
     console.error(
       'Error: -p (--previousReleaseName) is required for -t full.\n' +
         'It specifies the previous release whose clips bootstrap the new one.\n' +
-        'Example: -t full -r cv-corpus-25.0-2026-03-06 -p cv-corpus-24.0-2025-12-01',
+        'Example: -t full -r cv-corpus-25.0-2026-03-09 -p cv-corpus-24.0-2025-12-05',
     )
     process.exit(1)
   }
@@ -89,7 +89,7 @@ program
   )
   .requiredOption(
     '-u, --until <datetime>',
-    "Latest date (inclusive) to include clips in the release, e.g. '2026-03-06 23:59:59'"
+    "Latest date (inclusive) to include clips in the release, e.g. '2026-03-09 23:59:59'"
   )
   .requiredOption(
     '-r, --releaseName <name>',
@@ -107,15 +107,15 @@ program
     `
     Required for full releases. The previous release whose clips will be downloaded
     to bootstrap the new release. Ignored for delta, statistics, and variants.
-    Usually in the shape of 'cv-corpus-24.0-2025-12-01'.
+    Usually in the shape of 'cv-corpus-24.0-2025-12-05'.
     `
   )
   .option(
     '-d, --datasheets-file <file>',
     `
     Datasheets JSON filename or full URL. Resolved against DATASHEETS_BASE_URL if not a URL.
-    Example filename: 'datasheets-25.0-2026-03-06.json'
-    Example URL: 'https://raw.githubusercontent.com/common-voice/cv-datasheets/<commit>/releases/datasheets-25.0-2026-03-06.json'
+    Example filename: 'datasheets-25.0-2026-03-09.json'
+    Example URL: 'https://raw.githubusercontent.com/common-voice/cv-datasheets/<commit>/releases/datasheets-25.0-2026-03-09.json'
     `
   )
   .addOption(
