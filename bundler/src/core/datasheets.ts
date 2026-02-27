@@ -515,6 +515,13 @@ export const runGenerateDatasheet: RTE.ReaderTaskEither<AppEnv, Error, void> =
           )
           return TE.right(undefined)
         }
+        if (license) {
+          logger.debug(
+            'DATASHEETS',
+            `[${locale}] Skipping datasheets for licensed release`,
+          )
+          return TE.right(undefined)
+        }
         if (!datasheetPayload) {
           logger.debug(
             'DATASHEETS',
