@@ -63,9 +63,7 @@ const processPipeline = pipe(
   RTE.bind('tarFilepath', runCompress),
   RTE.bind('uploadPath', ({ tarFilepath }) => runUpload(tarFilepath)),
   RTE.chainFirst(runCompressAndUploadMetadata),
-  RTE.bind('stats', ({ totalDurationInMs, tarFilepath }) =>
-    runStats(totalDurationInMs, tarFilepath),
-  ),
+  RTE.bind('stats', ({ tarFilepath }) => runStats(tarFilepath)),
   RTE.chainFirstW(({ stats }) =>
     RTE.asks<AppEnv, void>(env => {
       env.clipCount = stats.locales[env.locale]?.clips ?? 0

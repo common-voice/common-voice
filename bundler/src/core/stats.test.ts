@@ -1,6 +1,6 @@
 import { unitToHours } from './utils'
-import { mapLineCountsToStats } from './stats'
-import { LineCounts } from '../infrastructure/filesystem'
+import { buildLocale } from './stats'
+import type { LocaleReleaseData } from './localeData'
 
 describe('unitToHours', () => {
   describe('milliseconds to hours', () => {
@@ -58,112 +58,127 @@ describe('unitToHours', () => {
   })
 })
 
-describe('mapLineCountsToStats', () => {
-  const fullLineCounts: LineCounts = {
-    'dev.tsv': 11,
-    'test.tsv': 21,
-    'train.tsv': 51,
-    'validated.tsv': 81,
-    'invalidated.tsv': 6,
-    'other.tsv': 16,
-    'reported.tsv': 4,
-    'validated_sentences.tsv': 101,
-    'unvalidated_sentences.tsv': 31,
-  }
-
-  it('maps CC file line counts to buckets (minus 1 for header)', () => {
-    const result = mapLineCountsToStats(fullLineCounts)
-    expect(result.buckets).toEqual({
+describe('buildLocale', () => {
+  const makeLocaleData = (
+    overrides: Partial<LocaleReleaseData> = {},
+  ): LocaleReleaseData => ({
+    clips: 100,
+    speakers: 20,
+    genderCounts: { male_masculine: 50, female_feminine: 30, '': 20 },
+    ageCounts: { twenties: 40, thirties: 30, '': 30 },
+    domainCounts: { general: 80, healthcare: 20 },
+    variantCounts: {},
+    accentCounts: {},
+    buckets: {
       dev: 10,
-      test: 20,
+      test: 10,
       train: 50,
       validated: 80,
-      invalidated: 5,
-      other: 15,
+      invalidated: 10,
+      other: 10,
+    },
+    reportedSentences: 5,
+    validatedSentences: 60,
+    unvalidatedSentences: 20,
+    rejectedSentences: 3,
+    pendingSentences: 17,
+    sourceCounts: { wiki: 50 },
+    sentenceVariantCounts: {},
+    totalDurationMs: 3_600_000,
+    totalHrs: 1,
+    validHrs: 0.8,
+    avgDurationSecs: 36,
+    validDurationSecs: 2880,
+    sentencesSample: ['Hello world'],
+    ...overrides,
+  })
+
+  it('maps all LocaleReleaseData fields to Locale output', () => {
+    const data = makeLocaleData()
+    const result = buildLocale(data, 'abc123', 1024)
+
+    expect(result.clips).toBe(100)
+    expect(result.users).toBe(20)
+    expect(result.duration).toBe(3_600_000)
+    expect(result.totalHrs).toBe(1)
+    expect(result.validHrs).toBe(0.8)
+    expect(result.avgDurationSecs).toBe(36)
+    expect(result.validDurationSecs).toBe(2880)
+    expect(result.checksum).toBe('abc123')
+    expect(result.size).toBe(1024)
+  })
+
+  it('maps buckets directly from LocaleReleaseData', () => {
+    const data = makeLocaleData()
+    const result = buildLocale(data, '', 0)
+
+    expect(result.buckets).toEqual({
+      dev: 10,
+      test: 10,
+      train: 50,
+      validated: 80,
+      invalidated: 10,
+      other: 10,
     })
   })
 
-  it('maps reported sentences (minus 1 for header)', () => {
-    const result = mapLineCountsToStats(fullLineCounts)
-    expect(result.reportedSentences).toBe(3)
+  it('maps demographic splits from count records', () => {
+    const data = makeLocaleData()
+    const result = buildLocale(data, '', 0)
+
+    expect(result.splits.gender).toEqual({
+      male_masculine: 50,
+      female_feminine: 30,
+      '': 20,
+    })
+    expect(result.splits.age).toEqual({
+      twenties: 40,
+      thirties: 30,
+      '': 30,
+    })
+    expect(result.splits.sentence_domain).toEqual({
+      general: 80,
+      healthcare: 20,
+    })
+    expect(result.splits.accent).toEqual({})
   })
 
-  it('maps validated sentences (minus 1 for header)', () => {
-    const result = mapLineCountsToStats(fullLineCounts)
-    expect(result.validatedSentences).toBe(100)
+  it('maps sentence counts', () => {
+    const data = makeLocaleData()
+    const result = buildLocale(data, '', 0)
+
+    expect(result.reportedSentences).toBe(5)
+    expect(result.validatedSentences).toBe(60)
+    expect(result.unvalidatedSentences).toBe(20)
   })
 
-  it('maps unvalidated sentences (minus 1 for header)', () => {
-    const result = mapLineCountsToStats(fullLineCounts)
-    expect(result.unvalidatedSentences).toBe(30)
-  })
+  it('handles zero-clip locale', () => {
+    const data = makeLocaleData({
+      clips: 0,
+      speakers: 0,
+      genderCounts: {},
+      ageCounts: {},
+      domainCounts: {},
+      buckets: {
+        dev: 0,
+        test: 0,
+        train: 0,
+        validated: 0,
+        invalidated: 0,
+        other: 0,
+      },
+      totalDurationMs: 0,
+      totalHrs: 0,
+      validHrs: 0,
+      avgDurationSecs: 0,
+      validDurationSecs: 0,
+    })
+    const result = buildLocale(data, 'empty', 0)
 
-  it('ignores non-CC files in buckets', () => {
-    const counts: LineCounts = {
-      'dev.tsv': 5,
-      'test.tsv': 3,
-      'train.tsv': 2,
-      'validated.tsv': 10,
-      'invalidated.tsv': 1,
-      'other.tsv': 1,
-      'reported.tsv': 1,
-      'validated_sentences.tsv': 1,
-      'unvalidated_sentences.tsv': 1,
-      'clips.tsv': 100, // not a CC file --should not appear in buckets
-    }
-    const result = mapLineCountsToStats(counts)
-    expect(result.buckets).not.toHaveProperty('clips')
-  })
-
-  it('handles files with only header (1 line -> 0 data rows)', () => {
-    const counts: LineCounts = {
-      'dev.tsv': 1,
-      'test.tsv': 1,
-      'train.tsv': 1,
-      'validated.tsv': 1,
-      'invalidated.tsv': 1,
-      'other.tsv': 1,
-      'reported.tsv': 1,
-      'validated_sentences.tsv': 1,
-      'unvalidated_sentences.tsv': 1,
-    }
-    const result = mapLineCountsToStats(counts)
-    expect(result.buckets.dev).toBe(0)
-    expect(result.reportedSentences).toBe(0)
-  })
-
-  it('clamps to 0 for empty files (0 bytes -> wc returns 0)', () => {
-    const counts: LineCounts = {
-      'dev.tsv': 0,
-      'test.tsv': 0,
-      'train.tsv': 0,
-      'validated.tsv': 0,
-      'invalidated.tsv': 0,
-      'other.tsv': 0,
-      'reported.tsv': 0,
-      'validated_sentences.tsv': 0,
-      'unvalidated_sentences.tsv': 0,
-    }
-    const result = mapLineCountsToStats(counts)
-    expect(result.buckets.dev).toBe(0)
-    expect(result.buckets.validated).toBe(0)
-    expect(result.reportedSentences).toBe(0)
-    expect(result.validatedSentences).toBe(0)
-    expect(result.unvalidatedSentences).toBe(0)
-  })
-
-  it('clamps to 0 when sentence files are missing from line counts', () => {
-    const counts: LineCounts = {
-      'dev.tsv': 5,
-      'test.tsv': 3,
-      'train.tsv': 2,
-      'validated.tsv': 10,
-      'invalidated.tsv': 1,
-      'other.tsv': 1,
-    }
-    const result = mapLineCountsToStats(counts)
-    expect(result.reportedSentences).toBe(0)
-    expect(result.validatedSentences).toBe(0)
-    expect(result.unvalidatedSentences).toBe(0)
+    expect(result.clips).toBe(0)
+    expect(result.users).toBe(0)
+    expect(result.duration).toBe(0)
+    expect(result.splits.gender).toEqual({})
+    expect(result.splits.age).toEqual({})
   })
 })

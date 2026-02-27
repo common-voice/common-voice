@@ -27,6 +27,7 @@ import { TSV_COLUMNS } from '../core/clips'
 import { flushReleaseLogs } from '../core/releaseLogger'
 import { compressPipeline } from '../core/compress'
 import { statsPipeline } from '../core/stats'
+import { scanLocaleData } from '../core/localeData'
 import { metadataPipeline } from '../core/metadata'
 import { corporaCreatorPipeline } from '../infrastructure/corporaCreator'
 import { uploadDatasetToPath } from '../core/upload'
@@ -611,16 +612,24 @@ export const processVariants = async (job: Job<ProcessLocaleJob>) => {
         // Non-fatal: continue to stats
       }
 
-      // 5k. Stats
-      const statsResult = await statsPipeline(
-        compoundLocale,
+      // 5k. Scan locale data + Stats
+      const scanResult = await scanLocaleData(
+        path.join(env.releaseDirPath, compoundLocale),
         totalDurationInMs,
-        tarFilepath,
-        env.releaseDirPath,
-        effectiveReleaseName,
       )()
-      if (E.isRight(statsResult)) {
-        env.clipCount = statsResult.right.locales[compoundLocale]?.clips ?? 0
+
+      if (E.isRight(scanResult)) {
+        const statsResult = await statsPipeline(
+          compoundLocale,
+          scanResult.right,
+          tarFilepath,
+          effectiveReleaseName,
+        )()
+        if (E.isRight(statsResult)) {
+          env.clipCount = statsResult.right.locales[compoundLocale]?.clips ?? 0
+        }
+      } else {
+        logger.warn('VARIANTS', `[${compoundLocale}] Failed to scan locale data for stats: ${String(scanResult.left)}`)
       }
 
       // 5l. Cleanup variant dir + tarball

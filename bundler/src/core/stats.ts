@@ -1,90 +1,29 @@
-import * as fs from 'node:fs'
-import * as path from 'node:path'
-
 import { readerTaskEither as RTE, taskEither as TE } from 'fp-ts'
 import { pipe } from 'fp-ts/lib/function'
-import { parse } from 'csv-parse'
-import {
-  LineCounts,
-  calculateChecksum,
-  countLines,
-  getFileSize,
-} from '../infrastructure/filesystem'
-import {
-  CORPORA_CREATOR_FILES,
-  isCorporaCreatorFile,
-} from '../infrastructure/corporaCreator'
-import { CLIPS_TSV_ROW } from './clips'
+
+import { calculateChecksum, getFileSize } from '../infrastructure/filesystem'
 import { AppEnv } from '../types'
 import { uploadToBucket } from '../infrastructure/storage'
 import { getDatasetBundlerBucketName } from '../config/config'
 import { sanitizeLicenseName } from './compress'
-import { unitToHours } from './utils'
+import type { Buckets, LocaleReleaseData } from './localeData'
+import { logger } from '../infrastructure/logger'
+
+// -- Output types (shape of the uploaded stats JSON) -------------------------
 
 type Stats = {
-  locales: Locales
+  locales: Record<string, Locale>
   totalDuration: number
   totalValidDurationSecs: number
   totalHrs: number
   totalValidHrs: number
 }
 
-type Locales = Record<string, Locale>
-
-type Buckets = {
-  dev: number
-  invalidated: number
-  other: number
-  test: number
-  train: number
-  validated: number
-}
-
-type Accent = Record<string, number>
-
-type Age = {
-  '': number
-  twenties: number
-  thirties: number
-  teens: number
-  fourties: number
-  fifties: number
-  sixties: number
-  seventies: number
-  eighties: number
-  nineties: number
-}
-
-type Gender = {
-  '': number
-  male_masculine: number
-  female_feminine: number
-  transgender: number
-  'non-binary': number
-  do_not_wish_to_say: number
-}
-
-type SentenceDomain = {
-  '': number
-  agriculture_food: number
-  automotive_transport: number
-  finance: number
-  service_retail: number
-  general: number
-  healthcare: number
-  history_law_government: number
-  language_fundamentals: number
-  media_entertainment: number
-  nature_environment: number
-  news_current_affairs: number
-  technology_robotics: number
-}
-
 type Splits = {
-  accent: Accent
-  age: Age
-  gender: Gender
-  sentence_domain: SentenceDomain
+  accent: Record<string, number>
+  age: Record<string, number>
+  gender: Record<string, number>
+  sentence_domain: Record<string, number>
 }
 
 type Locale = {
@@ -104,243 +43,82 @@ type Locale = {
   validHrs: number
 }
 
-const createEmptyLocale = (): Locale => {
-  return {
-    buckets: {
-      dev: 0,
-      invalidated: 0,
-      other: 0,
-      test: 0,
-      train: 0,
-      validated: 0,
-    },
-    duration: 0,
-    reportedSentences: 0,
-    validatedSentences: 0,
-    unvalidatedSentences: 0,
-    clips: 0,
-    splits: {
-      accent: {},
-      age: {
-        '': 0,
-        twenties: 0,
-        thirties: 0,
-        teens: 0,
-        fourties: 0,
-        fifties: 0,
-        sixties: 0,
-        seventies: 0,
-        eighties: 0,
-        nineties: 0,
-      },
-      gender: {
-        '': 0,
-        male_masculine: 0,
-        female_feminine: 0,
-        transgender: 0,
-        'non-binary': 0,
-        do_not_wish_to_say: 0,
-      },
-      sentence_domain: {
-        '': 0,
-        agriculture_food: 0,
-        automotive_transport: 0,
-        finance: 0,
-        service_retail: 0,
-        general: 0,
-        healthcare: 0,
-        history_law_government: 0,
-        language_fundamentals: 0,
-        media_entertainment: 0,
-        nature_environment: 0,
-        news_current_affairs: 0,
-        technology_robotics: 0,
-      },
-    },
-    users: 0,
-    size: 0,
-    checksum: '',
-    avgDurationSecs: 0,
-    validDurationSecs: 0,
-    totalHrs: 0,
-    validHrs: 0,
-  }
-}
+// -- Build Locale from LocaleReleaseData + tar metadata ----------------------
 
-const getAllRelevantFilepaths = (
-  locale: string,
-  releaseDirPath: string,
-): string[] => {
-  const ccFiles = CORPORA_CREATOR_FILES.map(entry =>
-    path.join(releaseDirPath, locale, entry),
-  )
-  const sentenceFiles = [
-    'reported.tsv',
-    'validated_sentences.tsv',
-    'unvalidated_sentences.tsv',
-  ].map(filename => path.join(releaseDirPath, locale, filename))
-
-  return [...ccFiles, ...sentenceFiles]
-}
-
-export const mapLineCountsToStats = (
-  obj: LineCounts,
-): {
-  buckets: Buckets
-  reportedSentences: number
-  validatedSentences: number
-  unvalidatedSentences: number
-} => {
-  const buckets = Object.entries(obj).reduce((acc, [key, value]) => {
-    if (!isCorporaCreatorFile(key)) return acc
-
-    const newKey = key.replace('.tsv', '')
-    // Remove the line count for the header; clamp to 0 for empty files
-    const newValue = Math.max(0, value - 1)
-    return { ...acc, [newKey]: newValue }
-  }, {} as Buckets)
-
-  const reportedSentences = Math.max(0, Number(obj['reported.tsv'] ?? 0) - 1)
-  const validatedSentences = Math.max(0, Number(obj['validated_sentences.tsv'] ?? 0) - 1)
-  const unvalidatedSentences = Math.max(0, Number(obj['unvalidated_sentences.tsv'] ?? 0) - 1)
-
-  return {
-    buckets,
-    reportedSentences,
-    validatedSentences,
-    unvalidatedSentences,
-  }
-}
-
-const mergeStats = (
-  locale: string,
-  stats: Stats,
-  statCounts: Pick<
-    Locale,
-    | 'buckets'
-    | 'reportedSentences'
-    | 'validatedSentences'
-    | 'unvalidatedSentences'
-  >,
+export const buildLocale = (
+  data: LocaleReleaseData,
   checksum: string,
-  size: number,
-) => {
-  stats.locales[locale].buckets = statCounts.buckets
-  stats.locales[locale].reportedSentences = statCounts.reportedSentences
-  stats.locales[locale].validatedSentences = statCounts.validatedSentences
-  stats.locales[locale].unvalidatedSentences = statCounts.unvalidatedSentences
-  stats.locales[locale].checksum = checksum
-  stats.locales[locale].size = size
-  return stats
-}
+  fileSize: number,
+): Locale => ({
+  buckets: data.buckets,
+  duration: data.totalDurationMs,
+  reportedSentences: data.reportedSentences,
+  validatedSentences: data.validatedSentences,
+  unvalidatedSentences: data.unvalidatedSentences,
+  clips: data.clips,
+  splits: {
+    accent: data.accentCounts,
+    age: data.ageCounts,
+    gender: data.genderCounts,
+    sentence_domain: data.domainCounts,
+  },
+  users: data.speakers,
+  size: fileSize,
+  checksum,
+  avgDurationSecs: data.avgDurationSecs,
+  validDurationSecs: data.validDurationSecs,
+  totalHrs: data.totalHrs,
+  validHrs: data.validHrs,
+})
 
-const extractSentenceDomains = (str: string): Array<keyof SentenceDomain> =>
-  str.split(',') as Array<keyof SentenceDomain>
+// -- Pipeline ----------------------------------------------------------------
 
-const extractStatsFromClipsFile = (locale: string, releaseDirPath: string) =>
-  TE.tryCatch(
-    () =>
-      new Promise<Stats>(resolve => {
-        const fileStream = fs.createReadStream(
-          path.join(releaseDirPath, locale, 'clips.tsv'),
-        )
-
-        const parser = parse({ delimiter: '\t', columns: true, quote: false })
-        const stats = {
-          locales: {},
-        } as Stats
-        const clientSet = new Set()
-        const initialLocale = createEmptyLocale()
-
-        fileStream
-          .pipe(parser)
-          .on('data', (data: CLIPS_TSV_ROW) => {
-            const sentenceDomains = extractSentenceDomains(data.sentence_domain)
-            clientSet.add(data.client_id)
-            initialLocale.clips++
-            initialLocale.splits.age[data.age as keyof Age]++
-            initialLocale.splits.gender[data.gender as keyof Gender]++
-
-            sentenceDomains.forEach(
-              domain => initialLocale.splits.sentence_domain[domain]++,
-            )
-          })
-          .on('finish', () => {
-            stats.locales[locale] = initialLocale
-            stats.locales[locale].users = clientSet.size
-            resolve(stats)
-          })
-      }),
-    reason => Error(String(reason)),
-  )
-
-const calculateDurations =
-  (locale: string) =>
-  (totalDurationInMs: number) =>
-  (stats: Stats): Stats => {
-    const localeStats = stats.locales[locale]
-    const validClips = localeStats.buckets.validated
-
-    localeStats.duration = totalDurationInMs
-    localeStats.avgDurationSecs =
-      Math.round(localeStats.duration / localeStats.clips) / 1000
-    localeStats.validDurationSecs =
-      Math.round((localeStats.duration / localeStats.clips) * validClips) / 1000
-
-    localeStats.totalHrs = unitToHours(localeStats.duration, 'ms', 2)
-    localeStats.validHrs = unitToHours(localeStats.validDurationSecs, 's', 2)
-
-    stats.locales[locale] = localeStats
-
-    return stats
-  }
+const uploadToDatasetBucket = uploadToBucket(getDatasetBundlerBucketName())
 
 export const statsPipeline = (
   locale: string,
-  totalDurationInMs: number,
+  data: LocaleReleaseData,
   tarFilepath: string,
-  releaseDirPath: string,
   releaseName: string,
   license?: string,
 ) =>
   pipe(
     TE.Do,
-    TE.let('filepaths', () => getAllRelevantFilepaths(locale, releaseDirPath)),
-    TE.bind('lineCounts', ({ filepaths }) => countLines(filepaths)),
-    TE.let('statCounts', ({ lineCounts }) => mapLineCountsToStats(lineCounts)),
-    TE.bind('stats', () => extractStatsFromClipsFile(locale, releaseDirPath)),
     TE.bind('checksum', () => calculateChecksum(tarFilepath)),
     TE.let('fileSize', getFileSize(tarFilepath)),
-    TE.map(({ stats, statCounts, checksum, fileSize }) =>
-      mergeStats(locale, stats, statCounts, checksum, fileSize),
-    ),
-    TE.map(calculateDurations(locale)(totalDurationInMs)),
-    TE.bindTo('stats'),
-    TE.chainFirst(({ stats }) => {
+    TE.map(({ checksum, fileSize }) => {
+      const localeStats = buildLocale(data, checksum, fileSize)
+      const stats: Stats = {
+        locales: { [locale]: localeStats },
+        totalDuration: data.totalDurationMs,
+        totalValidDurationSecs: data.validDurationSecs,
+        totalHrs: data.totalHrs,
+        totalValidHrs: data.validHrs,
+      }
+      return stats
+    }),
+    TE.chainFirst(stats => {
       const statsFilename = license
         ? `stats_${locale}_${sanitizeLicenseName(license)}.json`
         : `stats_${locale}.json`
-      return uploadToBucket(getDatasetBundlerBucketName())(
-        `${releaseName}/stats/${statsFilename}`,
-      )(Buffer.from(JSON.stringify(stats)))
+      return uploadToDatasetBucket(`${releaseName}/stats/${statsFilename}`)(
+        Buffer.from(JSON.stringify(stats)),
+      )
     }),
-    TE.map(({ stats }) => stats),
   )
 
 export const runStats = (
-  totalDurationInMs: number,
   tarFilepath: string,
 ): RTE.ReaderTaskEither<AppEnv, Error, Stats> =>
   pipe(
     RTE.ask<AppEnv>(),
-    RTE.chainTaskEitherK(({ locale, releaseDirPath, releaseName, license }) =>
-      statsPipeline(
-        locale,
-        totalDurationInMs,
-        tarFilepath,
-        releaseDirPath,
-        releaseName,
-        license,
-      ),
-    ),
+    RTE.chainTaskEitherK(({ locale, releaseName, license, localeData }) => {
+      if (!localeData) {
+        return TE.left(
+          new Error(`[${locale}] No locale data available for stats`),
+        )
+      }
+      logger.info('STATS', `[${locale}] Building stats from locale data`)
+      return statsPipeline(locale, localeData, tarFilepath, releaseName, license)
+    }),
   )

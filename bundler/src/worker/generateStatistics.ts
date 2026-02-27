@@ -10,6 +10,7 @@ import { constVoid, pipe } from 'fp-ts/lib/function'
 import { doesFileExistInBucket } from '../infrastructure/storage'
 import { runMp3DurationReporter } from '../infrastructure/mp3DurationReporter'
 import { runStats } from '../core/stats'
+import { runScanLocaleData } from '../core/localeData'
 import { runDownloadDataset, runGenerateClipsTsv } from '../core/dataset'
 import { extractTar } from '../infrastructure/tar'
 import { runCleanUp } from '../core/cleanUp'
@@ -23,9 +24,17 @@ const generateStatisticsPipeline = pipe(
   ),
   RTE.bind('generateClipsTsv', runGenerateClipsTsv),
   RTE.bind('totalDurationInMs', runMp3DurationReporter),
-  RTE.bind('stats', ({ totalDurationInMs, tarFilepath }) =>
-    runStats(totalDurationInMs, tarFilepath),
+  RTE.chainFirstW(({ totalDurationInMs }) =>
+    pipe(
+      runScanLocaleData(totalDurationInMs),
+      RTE.chainFirstW(localeData =>
+        RTE.asks<AppEnv, void>(env => {
+          env.localeData = localeData
+        }),
+      ),
+    ),
   ),
+  RTE.bind('stats', ({ tarFilepath }) => runStats(tarFilepath)),
   RTE.chainFirst(({ tarFilepath }) => runCleanUp(tarFilepath)),
   RTE.match(
     err => logger.error('STATS', String(err)),
