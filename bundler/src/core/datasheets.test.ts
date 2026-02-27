@@ -25,6 +25,11 @@ const makeLocaleData = (
   domainCounts: {},
   variantCounts: {},
   accentCounts: {},
+  genderSpeakers: { male_masculine: 6, female_feminine: 3, '': 1 },
+  ageSpeakers: { twenties: 4, thirties: 3, '': 3 },
+  domainSpeakers: {},
+  variantSpeakers: {},
+  accentSpeakers: {},
   buckets: { train: 50, dev: 15, test: 15, validated: 80, invalidated: 10, other: 0 },
   validatedSentences: 0,
   unvalidatedSentences: 0,
@@ -284,17 +289,19 @@ describe('buildReplacementMap', () => {
     expect(map['REPORTED_SENTENCES']).toBe('5')
   })
 
-  it('generates GENDER_TABLE as markdown', () => {
+  it('generates GENDER_TABLE as 3-column markdown with speakers', () => {
     const map = buildReplacementMap(basePayload, baseData, 'de', 'cv-corpus-25.0')
-    expect(map['GENDER_TABLE']).toContain('| Gender | Frequency |')
+    expect(map['GENDER_TABLE']).toContain('| Gender | Clips | Speakers |')
     expect(map['GENDER_TABLE']).toContain('Male, masculine')
-    expect(map['GENDER_TABLE']).toContain('60.0%')
+    expect(map['GENDER_TABLE']).toContain('60 (60.0%)')
+    expect(map['GENDER_TABLE']).toContain('6 (60.0%)')
   })
 
-  it('generates AGE_TABLE as markdown', () => {
+  it('generates AGE_TABLE as 3-column markdown with speakers', () => {
     const map = buildReplacementMap(basePayload, baseData, 'de', 'cv-corpus-25.0')
-    expect(map['AGE_TABLE']).toContain('| Age band | Frequency |')
+    expect(map['AGE_TABLE']).toContain('| Age band | Clips | Speakers |')
     expect(map['AGE_TABLE']).toContain('Twenties')
+    expect(map['AGE_TABLE']).toContain('4 (40.0%)')
   })
 
   it('includes non-empty community fields (uppercased)', () => {
@@ -349,6 +356,9 @@ describe('buildReplacementMap', () => {
       accentCounts: { 'Welsh English': 15 },
       domainCounts: { general: 80, healthcare: 20 },
       sourceCounts: { Wikipedia: 50, Tatoeba: 30 },
+      variantSpeakers: { 'Southern Welsh': 5 },
+      accentSpeakers: { 'Welsh English': 3 },
+      domainSpeakers: { general: 8, healthcare: 4 },
       validatedSentences: 100,
       unvalidatedSentences: 20,
       pendingSentences: 15,
@@ -586,6 +596,8 @@ describe('fillTemplate + buildReplacementMap integration', () => {
       validHrs: 10.3,
       genderCounts: { male_masculine: 600, female_feminine: 400 },
       ageCounts: { twenties: 500, thirties: 500 },
+      genderSpeakers: { male_masculine: 30, female_feminine: 20 },
+      ageSpeakers: { twenties: 25, thirties: 25 },
     })
 
     const replacements = buildReplacementMap(payload, data, 'de', 'cv-corpus-25.0')
@@ -602,9 +614,11 @@ describe('fillTemplate + buildReplacementMap integration', () => {
     expect(result).toContain(
       'German is spoken in Germany, Austria, and Switzerland.',
     )
-    // Auto demographics
+    // Auto demographics (3-column: clips + speakers)
+    expect(result).toContain('| Gender | Clips | Speakers |')
     expect(result).toContain('Male, masculine')
-    expect(result).toContain('60.0%')
+    expect(result).toContain('600 (60.0%)')
+    expect(result).toContain('30 (60.0%)')
     // No remaining HTML comments
     expect(result).not.toContain('<!--')
     expect(result).not.toContain('AUTOMATICALLY GENERATED')

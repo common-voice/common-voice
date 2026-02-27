@@ -116,6 +116,15 @@ describe('scanClipsTsv', () => {
       twenties: 2,
       thirties: 1,
     })
+    // Per-category unique speakers
+    expect(result.right.genderSpeakers).toEqual({
+      male_masculine: 1, // u1 only
+      female_feminine: 1, // u2 only
+    })
+    expect(result.right.ageSpeakers).toEqual({
+      twenties: 1,
+      thirties: 1,
+    })
   })
 
   it('counts variants and accents (skipping blank values)', async () => {
@@ -131,6 +140,9 @@ describe('scanClipsTsv', () => {
 
     expect(result.right.variantCounts).toEqual({ 'Southern Welsh': 2 })
     expect(result.right.accentCounts).toEqual({ 'Welsh English': 2 })
+    // Default client_id 'user1' for all rows → 1 unique speaker per category
+    expect(result.right.variantSpeakers).toEqual({ 'Southern Welsh': 1 })
+    expect(result.right.accentSpeakers).toEqual({ 'Welsh English': 1 })
   })
 
   it('splits comma-separated sentence_domain values', async () => {
@@ -145,6 +157,11 @@ describe('scanClipsTsv', () => {
 
     expect(result.right.domainCounts).toEqual({
       general: 2,
+      healthcare: 1,
+    })
+    // Both clips come from default 'user1' → 1 unique speaker per domain
+    expect(result.right.domainSpeakers).toEqual({
+      general: 1,
       healthcare: 1,
     })
   })
@@ -167,6 +184,11 @@ describe('scanClipsTsv', () => {
     expect(result.right.speakers).toBe(0)
     expect(result.right.variantCounts).toEqual({})
     expect(result.right.domainCounts).toEqual({})
+    expect(result.right.genderSpeakers).toEqual({})
+    expect(result.right.ageSpeakers).toEqual({})
+    expect(result.right.variantSpeakers).toEqual({})
+    expect(result.right.accentSpeakers).toEqual({})
+    expect(result.right.domainSpeakers).toEqual({})
   })
 })
 
@@ -376,8 +398,11 @@ describe('scanLocaleData', () => {
     expect(data.clips).toBe(2)
     expect(data.speakers).toBe(2)
     expect(data.genderCounts).toEqual({ male_masculine: 1, female_feminine: 1 })
+    expect(data.genderSpeakers).toEqual({ male_masculine: 1, female_feminine: 1 })
     expect(data.variantCounts).toEqual({ v1: 1 })
+    expect(data.variantSpeakers).toEqual({ v1: 1 })
     expect(data.domainCounts).toEqual({ general: 1, healthcare: 1 })
+    expect(data.domainSpeakers).toEqual({ general: 1, healthcare: 1 })
 
     // CC buckets
     expect(data.buckets.train).toBe(10)

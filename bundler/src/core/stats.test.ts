@@ -69,6 +69,11 @@ describe('buildLocale', () => {
     domainCounts: { general: 80, healthcare: 20 },
     variantCounts: {},
     accentCounts: {},
+    genderSpeakers: { male_masculine: 10, female_feminine: 6, '': 4 },
+    ageSpeakers: { twenties: 8, thirties: 6, '': 6 },
+    domainSpeakers: { general: 16, healthcare: 8 },
+    variantSpeakers: {},
+    accentSpeakers: {},
     buckets: {
       dev: 10,
       test: 10,

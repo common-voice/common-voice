@@ -143,6 +143,12 @@ export const scanClipsTsv = (
         const domainCounts: Record<string, number> = {}
         const variantCounts: Record<string, number> = {}
         const accentCounts: Record<string, number> = {}
+        // Per-category unique speaker tracking (Sets → counts on close)
+        const genderCids: Record<string, Set<string>> = {}
+        const ageCids: Record<string, Set<string>> = {}
+        const domainCids: Record<string, Set<string>> = {}
+        const variantCids: Record<string, Set<string>> = {}
+        const accentCids: Record<string, Set<string>> = {}
 
         rl.on('line', line => {
           const cols = line.split('\t')
@@ -159,15 +165,18 @@ export const scanClipsTsv = (
           }
 
           clips++
-          if (clientIdIdx >= 0) clientIds.add(cols[clientIdIdx])
+          const cid = clientIdIdx >= 0 ? cols[clientIdIdx] : ''
+          if (cid) clientIds.add(cid)
 
           if (genderIdx >= 0) {
             const g = cols[genderIdx] || ''
             genderCounts[g] = (genderCounts[g] ?? 0) + 1
+            if (cid) { ;(genderCids[g] ??= new Set()).add(cid) }
           }
           if (ageIdx >= 0) {
             const a = cols[ageIdx] || ''
             ageCounts[a] = (ageCounts[a] ?? 0) + 1
+            if (cid) { ;(ageCids[a] ??= new Set()).add(cid) }
           }
           if (domainIdx >= 0) {
             const raw = cols[domainIdx] || ''
@@ -176,17 +185,32 @@ export const scanClipsTsv = (
             for (const d of domains) {
               const trimmed = d.trim()
               domainCounts[trimmed] = (domainCounts[trimmed] ?? 0) + 1
+              if (cid) { ;(domainCids[trimmed] ??= new Set()).add(cid) }
             }
           }
           if (variantIdx >= 0) {
             const v = cols[variantIdx] || ''
-            if (v) variantCounts[v] = (variantCounts[v] ?? 0) + 1
+            if (v) {
+              variantCounts[v] = (variantCounts[v] ?? 0) + 1
+              if (cid) { ;(variantCids[v] ??= new Set()).add(cid) }
+            }
           }
           if (accentIdx >= 0) {
             const a = cols[accentIdx] || ''
-            if (a) accentCounts[a] = (accentCounts[a] ?? 0) + 1
+            if (a) {
+              accentCounts[a] = (accentCounts[a] ?? 0) + 1
+              if (cid) { ;(accentCids[a] ??= new Set()).add(cid) }
+            }
           }
         })
+
+        const setsToSizes = (
+          map: Record<string, Set<string>>,
+        ): Record<string, number> => {
+          const out: Record<string, number> = {}
+          for (const [k, s] of Object.entries(map)) out[k] = s.size
+          return out
+        }
 
         rl.on('close', () => {
           resolve({
@@ -197,6 +221,11 @@ export const scanClipsTsv = (
             domainCounts,
             variantCounts,
             accentCounts,
+            genderSpeakers: setsToSizes(genderCids),
+            ageSpeakers: setsToSizes(ageCids),
+            domainSpeakers: setsToSizes(domainCids),
+            variantSpeakers: setsToSizes(variantCids),
+            accentSpeakers: setsToSizes(accentCids),
           })
         })
 
@@ -474,6 +503,11 @@ export const scanLocaleData = (
         domainCounts: clipsScan.domainCounts,
         variantCounts: clipsScan.variantCounts,
         accentCounts: clipsScan.accentCounts,
+        genderSpeakers: clipsScan.genderSpeakers,
+        ageSpeakers: clipsScan.ageSpeakers,
+        domainSpeakers: clipsScan.domainSpeakers,
+        variantSpeakers: clipsScan.variantSpeakers,
+        accentSpeakers: clipsScan.accentSpeakers,
 
         // CC buckets
         buckets,
