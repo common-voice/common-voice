@@ -165,10 +165,7 @@ const streamQueryResultToFile = (
       writeStream,
     )
 
-    logger.info(
-      'QUERY',
-      `[${locale}] FINISH streaming. Closing DB connection.`,
-    )
+    logger.info('QUERY', `[${locale}] FINISH streaming. Closing DB connection.`)
     const endConnection = () =>
       new Promise<void>((resolve, reject) => {
         conn.end(err => {
@@ -336,10 +333,7 @@ const fetchAllClipsForLocale = (
       }
     }
 
-    logger.info(
-      'CLIPS-DL',
-      `[${locale}] FINISH loading clips from GCS`,
-    )
+    logger.info('CLIPS-DL', `[${locale}] FINISH loading clips from GCS`)
   }, logError)
 
 const createClipsTsv = (
@@ -507,7 +501,14 @@ export const fetchAllClipsPipeline = (
         license,
       ),
     ),
-    TE.chainFirst(() => TE.fromIO(prepareDir(clipsDirPath))),
+    // Wipe the clips directory so that only clips from the current DB query
+    // (from/until window) end up in the tarball.
+    TE.chainFirst(() =>
+      TE.tryCatch(async () => {
+        await rmAsync(clipsDirPath, { recursive: true, force: true })
+        fs.mkdirSync(clipsDirPath, { recursive: true })
+      }, logError),
+    ),
     // 4a. Merge all local clip sources into the working directory in one pass:
     //     previous full release (old clips) + delta tarball (new clips).
     //     Files are moved/copied in DB-TSV order so only relevant clips are
@@ -527,7 +528,12 @@ export const fetchAllClipsPipeline = (
     //     fetchAllClipsForLocale skips files that already exist, so this is a
     //     true fallback and a no-op for clips covered by the delta path.
     TE.chainFirst(({ clipsTmpPath }) =>
-      fetchAllClipsForLocale(clipsTmpPath, locale, releaseDirPath, problemClips),
+      fetchAllClipsForLocale(
+        clipsTmpPath,
+        locale,
+        releaseDirPath,
+        problemClips,
+      ),
     ),
     TE.chainFirst(({ clipsTmpPath }) =>
       createClipsTsv(clipsTmpPath, locale, isMinorityLanguage, releaseDirPath),
