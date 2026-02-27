@@ -105,14 +105,14 @@ describe('fillTemplate', () => {
       '### Variants',
       '',
       '<!-- {{VARIANT_DESCRIPTION}} -->',
-      '<!-- {{VARIANT_STATS_TABLE}} -->',
+      '<!-- {{VARIANT_STATS}} -->',
       '',
       '### Next',
       '',
       'Content here.',
     ].join('\n')
     const result = fillTemplate(template, {
-      VARIANT_STATS_TABLE: '| Variant | Clips |\n|---|---|\n| Welsh | 50 |',
+      VARIANT_STATS: '| Variant | Clips |\n|---|---|\n| Welsh | 50 |',
     })
     expect(result).toContain('### Variants')
     expect(result).toContain('| Welsh | 50 |')
@@ -125,11 +125,11 @@ describe('fillTemplate', () => {
       '',
       '### Sources',
       '',
-      '<!-- {{SOURCES_STATS_TABLE}} -->',
+      '<!-- {{SOURCES_STATS}} -->',
       '',
       '### Text domains',
       '',
-      '<!-- {{TEXT_DOMAIN_STATS_TABLE}} -->',
+      '<!-- {{TEXT_DOMAIN_STATS}} -->',
       '',
       '## Next section',
       '',
@@ -149,18 +149,18 @@ describe('fillTemplate', () => {
       '',
       '### Sources',
       '',
-      '<!-- {{SOURCES_STATS_TABLE}} -->',
+      '<!-- {{SOURCES_STATS}} -->',
       '',
       '### Text domains',
       '',
-      '<!-- {{TEXT_DOMAIN_STATS_TABLE}} -->',
+      '<!-- {{TEXT_DOMAIN_STATS}} -->',
       '',
       '## Next section',
       '',
       'Content here.',
     ].join('\n')
     const result = fillTemplate(template, {
-      SOURCES_STATS_TABLE: '| Source | Sentences |\n|---|---|\n| Wikipedia | 100 |',
+      SOURCES_STATS: '| Source | Sentences |\n|---|---|\n| Wikipedia | 100 |',
     })
     expect(result).toContain('## Text corpus')
     expect(result).toContain('### Sources')
@@ -255,12 +255,33 @@ describe('buildReplacementMap', () => {
     expect(map['VERSION']).toBe('cv-corpus-25.0')
   })
 
-  it('sets auto-generated stats', () => {
+  it('sets auto-generated clip stats', () => {
     const map = buildReplacementMap(basePayload, baseData, 'de', 'cv-corpus-25.0')
     expect(map['CLIPS']).toBe('100')
     expect(map['HOURS_RECORDED']).toBe('1.5')
     expect(map['HOURS_VALIDATED']).toBe('1.2')
     expect(map['SPEAKERS']).toBe('10')
+    expect(map['VALIDATED_CLIPS']).toBe('80')
+    expect(map['INVALIDATED_CLIPS']).toBe('10')
+    expect(map['OTHER_CLIPS']).toBe('0')
+    expect(map['AVG_DURATION_SECS']).toBe('54')
+  })
+
+  it('sets auto-generated sentence stats', () => {
+    const data = makeLocaleData({
+      validatedSentences: 200,
+      unvalidatedSentences: 50,
+      pendingSentences: 30,
+      rejectedSentences: 20,
+      reportedSentences: 5,
+    })
+    const map = buildReplacementMap(basePayload, data, 'de', 'cv-corpus-25.0')
+    expect(map['TOTAL_SENTENCES']).toBe('250')
+    expect(map['VALIDATED_SENTENCES']).toBe('200')
+    expect(map['UNVALIDATED_SENTENCES']).toBe('50')
+    expect(map['PENDING_SENTENCES']).toBe('30')
+    expect(map['REJECTED_SENTENCES']).toBe('20')
+    expect(map['REPORTED_SENTENCES']).toBe('5')
   })
 
   it('generates GENDER_TABLE as markdown', () => {
@@ -335,20 +356,20 @@ describe('buildReplacementMap', () => {
       reportedSentences: 3,
     })
     const map = buildReplacementMap(basePayload, data, 'de', 'cv-corpus-25.0')
-    expect(map['VARIANT_STATS_TABLE']).toContain('Southern Welsh')
-    expect(map['ACCENT_STATS_TABLE']).toContain('Welsh English')
-    expect(map['TEXT_CORPUS_STATS_TABLE']).toContain('Validated sentences')
-    expect(map['SOURCES_STATS_TABLE']).toContain('Wikipedia')
-    expect(map['TEXT_DOMAIN_STATS_TABLE']).toContain('general')
+    expect(map['VARIANT_STATS']).toContain('Southern Welsh')
+    expect(map['ACCENT_STATS']).toContain('Welsh English')
+    expect(map['TEXT_CORPUS_STATS']).toContain('Validated sentences')
+    expect(map['SOURCES_STATS']).toContain('Wikipedia')
+    expect(map['TEXT_DOMAIN_STATS']).toContain('general')
   })
 
   it('omits new stats tables when data is empty', () => {
     const map = buildReplacementMap(basePayload, baseData, 'de', 'cv-corpus-25.0')
-    expect(map['VARIANT_STATS_TABLE']).toBeUndefined()
-    expect(map['ACCENT_STATS_TABLE']).toBeUndefined()
-    expect(map['TEXT_CORPUS_STATS_TABLE']).toBeUndefined()
-    expect(map['SOURCES_STATS_TABLE']).toBeUndefined()
-    expect(map['TEXT_DOMAIN_STATS_TABLE']).toBeUndefined()
+    expect(map['VARIANT_STATS']).toBeUndefined()
+    expect(map['ACCENT_STATS']).toBeUndefined()
+    expect(map['TEXT_CORPUS_STATS']).toBeUndefined()
+    expect(map['SOURCES_STATS']).toBeUndefined()
+    expect(map['TEXT_DOMAIN_STATS']).toBeUndefined()
   })
 })
 

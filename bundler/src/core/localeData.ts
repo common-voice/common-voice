@@ -31,6 +31,12 @@ export type LocaleReleaseData = {
   domainCounts: Record<string, number>
   variantCounts: Record<string, number>
   accentCounts: Record<string, number>
+  // Per-category unique speaker counts (parallel to *Counts above)
+  genderSpeakers: Record<string, number>
+  ageSpeakers: Record<string, number>
+  domainSpeakers: Record<string, number>
+  variantSpeakers: Record<string, number>
+  accentSpeakers: Record<string, number>
 
   // -- From CC output files (line counts, run once) --
   buckets: Buckets
@@ -96,6 +102,11 @@ type ClipsScanResult = {
   domainCounts: Record<string, number>
   variantCounts: Record<string, number>
   accentCounts: Record<string, number>
+  genderSpeakers: Record<string, number>
+  ageSpeakers: Record<string, number>
+  domainSpeakers: Record<string, number>
+  variantSpeakers: Record<string, number>
+  accentSpeakers: Record<string, number>
 }
 
 /**

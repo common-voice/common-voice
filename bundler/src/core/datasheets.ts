@@ -52,6 +52,7 @@ const AGE_LABELS: Record<string, string> = {
 const buildGenderTable = (
   genderCounts: Record<string, number>,
   totalClips: number,
+  locale: string = 'en',
 ): string => {
   const rows: [string, string][] = Object.entries(genderCounts)
     .filter(([, count]) => count > 0)
@@ -59,7 +60,7 @@ const buildGenderTable = (
     .map(([key, count]) => {
       const label = GENDER_LABELS[key] ?? key
       const pct = totalClips > 0 ? ((count / totalClips) * 100).toFixed(1) : '0'
-      return [label, `${count.toLocaleString('en')} (${pct}%)`]
+      return [label, `${count.toLocaleString(locale)} (${pct}%)`]
     })
   return formatMarkdownTable(['Gender', 'Frequency'], rows)
 }
@@ -67,6 +68,7 @@ const buildGenderTable = (
 const buildAgeTable = (
   ageCounts: Record<string, number>,
   totalClips: number,
+  locale: string = 'en',
 ): string => {
   const rows: [string, string][] = Object.entries(ageCounts)
     .filter(([, count]) => count > 0)
@@ -74,7 +76,7 @@ const buildAgeTable = (
     .map(([key, count]) => {
       const label = AGE_LABELS[key] ?? key
       const pct = totalClips > 0 ? ((count / totalClips) * 100).toFixed(1) : '0'
-      return [label, `${count.toLocaleString('en')} (${pct}%)`]
+      return [label, `${count.toLocaleString(locale)} (${pct}%)`]
     })
   return formatMarkdownTable(['Age band', 'Frequency'], rows)
 }
@@ -84,6 +86,7 @@ const SPLIT_NAMES = ['train', 'dev', 'test', 'validated', 'invalidated', 'other'
 export const buildDataSplitsTable = (
   buckets: Buckets,
   totalClips: number,
+  locale: string = 'en',
 ): string => {
   const rows: [string, string][] = []
 
@@ -93,7 +96,7 @@ export const buildDataSplitsTable = (
     const pct = totalClips > 0 ? ((count / totalClips) * 100).toFixed(1) : '0'
     rows.push([
       split.charAt(0).toUpperCase() + split.slice(1),
-      `${count.toLocaleString('en')} (${pct}%)`,
+      `${count.toLocaleString(locale)} (${pct}%)`,
     ])
   }
 
@@ -104,6 +107,7 @@ export const buildDataSplitsTable = (
 export const buildVariantStatsTable = (
   variantCounts: Record<string, number>,
   totalClips: number,
+  locale: string = 'en',
 ): string => {
   const entries = Object.entries(variantCounts).filter(([, count]) => count > 0)
   if (entries.length === 0) return ''
@@ -111,7 +115,7 @@ export const buildVariantStatsTable = (
     .sort(([, a], [, b]) => b - a)
     .map(([variant, count]) => {
       const pct = totalClips > 0 ? ((count / totalClips) * 100).toFixed(1) : '0'
-      return [variant, `${count.toLocaleString('en')} (${pct}%)`]
+      return [variant, `${count.toLocaleString(locale)} (${pct}%)`]
     })
   return formatMarkdownTable(['Variant', 'Clips'], rows)
 }
@@ -119,6 +123,7 @@ export const buildVariantStatsTable = (
 export const buildAccentStatsTable = (
   accentCounts: Record<string, number>,
   totalClips: number,
+  locale: string = 'en',
 ): string => {
   const entries = Object.entries(accentCounts).filter(([, count]) => count > 0)
   if (entries.length === 0) return ''
@@ -126,7 +131,7 @@ export const buildAccentStatsTable = (
     .sort(([, a], [, b]) => b - a)
     .map(([accent, count]) => {
       const pct = totalClips > 0 ? ((count / totalClips) * 100).toFixed(1) : '0'
-      return [accent, `${count.toLocaleString('en')} (${pct}%)`]
+      return [accent, `${count.toLocaleString(locale)} (${pct}%)`]
     })
   return formatMarkdownTable(['Accent', 'Clips'], rows)
 }
@@ -136,6 +141,7 @@ export const buildTextCorpusStatsTable = (
     'validatedSentences' | 'unvalidatedSentences' |
     'pendingSentences' | 'rejectedSentences' | 'reportedSentences'
   >,
+  locale: string = 'en',
 ): string => {
   const all: [string, number][] = [
     ['Validated sentences', data.validatedSentences],
@@ -146,13 +152,14 @@ export const buildTextCorpusStatsTable = (
   ]
   const rows: [string, string][] = all
     .filter(([, v]) => v > 0)
-    .map(([label, v]) => [label, v.toLocaleString('en')])
+    .map(([label, v]) => [label, v.toLocaleString(locale)])
   if (rows.length === 0) return ''
   return formatMarkdownTable(['Category', 'Count'], rows)
 }
 
 export const buildSourcesStatsTable = (
   sourceCounts: Record<string, number>,
+  locale: string = 'en',
 ): string => {
   const entries = Object.entries(sourceCounts).filter(([, count]) => count > 0)
   if (entries.length === 0) return ''
@@ -161,7 +168,7 @@ export const buildSourcesStatsTable = (
     .sort(([, a], [, b]) => b - a)
     .map(([source, count]) => {
       const pct = total > 0 ? ((count / total) * 100).toFixed(1) : '0'
-      return [source, `${count.toLocaleString('en')} (${pct}%)`]
+      return [source, `${count.toLocaleString(locale)} (${pct}%)`]
     })
   return formatMarkdownTable(['Source', 'Sentences'], rows)
 }
@@ -169,6 +176,7 @@ export const buildSourcesStatsTable = (
 export const buildTextDomainStatsTable = (
   domainCounts: Record<string, number>,
   totalClips: number,
+  locale: string = 'en',
 ): string => {
   const entries = Object.entries(domainCounts).filter(([, count]) => count > 0)
   if (entries.length === 0) return ''
@@ -176,7 +184,7 @@ export const buildTextDomainStatsTable = (
     .sort(([, a], [, b]) => b - a)
     .map(([domain, count]) => {
       const pct = totalClips > 0 ? ((count / totalClips) * 100).toFixed(1) : '0'
-      return [domain, `${count.toLocaleString('en')} (${pct}%)`]
+      return [domain, `${count.toLocaleString(locale)} (${pct}%)`]
     })
   return formatMarkdownTable(['Domain', 'Clips'], rows)
 }
@@ -196,6 +204,7 @@ export const buildReplacementMap = (
   releaseName: string,
 ): Record<string, string> => {
   const map: Record<string, string> = {}
+  const lang = payload.metadata.template_language || 'en'
 
   // Metadata
   map['NATIVE_NAME'] = payload.metadata.native_name ?? locale
@@ -203,37 +212,50 @@ export const buildReplacementMap = (
   map['LOCALE'] = locale
   map['VERSION'] = releaseName
 
-  // Auto-generated stats
+  // Auto-generated stats — clip-level
   map['CLIPS'] = String(data.clips)
   map['HOURS_RECORDED'] = String(data.totalHrs)
   map['HOURS_VALIDATED'] = String(data.validHrs)
   map['SPEAKERS'] = String(data.speakers)
+  map['VALIDATED_CLIPS'] = String(data.buckets.validated)
+  map['INVALIDATED_CLIPS'] = String(data.buckets.invalidated)
+  map['OTHER_CLIPS'] = String(data.buckets.other)
+  map['AVG_DURATION_SECS'] = String(data.avgDurationSecs)
+
+  // Auto-generated stats — sentence-level
+  const totalSentences = data.validatedSentences + data.unvalidatedSentences
+  map['TOTAL_SENTENCES'] = totalSentences.toLocaleString(lang)
+  map['VALIDATED_SENTENCES'] = data.validatedSentences.toLocaleString(lang)
+  map['UNVALIDATED_SENTENCES'] = data.unvalidatedSentences.toLocaleString(lang)
+  map['PENDING_SENTENCES'] = data.pendingSentences.toLocaleString(lang)
+  map['REJECTED_SENTENCES'] = data.rejectedSentences.toLocaleString(lang)
+  map['REPORTED_SENTENCES'] = data.reportedSentences.toLocaleString(lang)
 
   // Demographics
-  map['GENDER_TABLE'] = buildGenderTable(data.genderCounts, data.clips)
-  map['AGE_TABLE'] = buildAgeTable(data.ageCounts, data.clips)
+  map['GENDER_TABLE'] = buildGenderTable(data.genderCounts, data.clips, lang)
+  map['AGE_TABLE'] = buildAgeTable(data.ageCounts, data.clips, lang)
 
   // Data splits
-  const splitsTable = buildDataSplitsTable(data.buckets, data.clips)
+  const splitsTable = buildDataSplitsTable(data.buckets, data.clips, lang)
   if (splitsTable) {
     map['DATA_SPLITS_TABLE'] = splitsTable
   }
 
-  // New stats tables
-  const variantTable = buildVariantStatsTable(data.variantCounts, data.clips)
-  if (variantTable) map['VARIANT_STATS_TABLE'] = variantTable
+  // Stats tables — keys match template {{PLACEHOLDER}} names
+  const variantTable = buildVariantStatsTable(data.variantCounts, data.clips, lang)
+  if (variantTable) map['VARIANT_STATS'] = variantTable
 
-  const accentTable = buildAccentStatsTable(data.accentCounts, data.clips)
-  if (accentTable) map['ACCENT_STATS_TABLE'] = accentTable
+  const accentTable = buildAccentStatsTable(data.accentCounts, data.clips, lang)
+  if (accentTable) map['ACCENT_STATS'] = accentTable
 
-  const textCorpusTable = buildTextCorpusStatsTable(data)
-  if (textCorpusTable) map['TEXT_CORPUS_STATS_TABLE'] = textCorpusTable
+  const textCorpusTable = buildTextCorpusStatsTable(data, lang)
+  if (textCorpusTable) map['TEXT_CORPUS_STATS'] = textCorpusTable
 
-  const sourcesTable = buildSourcesStatsTable(data.sourceCounts)
-  if (sourcesTable) map['SOURCES_STATS_TABLE'] = sourcesTable
+  const sourcesTable = buildSourcesStatsTable(data.sourceCounts, lang)
+  if (sourcesTable) map['SOURCES_STATS'] = sourcesTable
 
-  const domainTable = buildTextDomainStatsTable(data.domainCounts, data.clips)
-  if (domainTable) map['TEXT_DOMAIN_STATS_TABLE'] = domainTable
+  const domainTable = buildTextDomainStatsTable(data.domainCounts, data.clips, lang)
+  if (domainTable) map['TEXT_DOMAIN_STATS'] = domainTable
 
   // Sentences sample
   if (data.sentencesSample.length > 0) {
