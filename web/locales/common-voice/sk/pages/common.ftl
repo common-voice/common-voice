@@ -467,6 +467,8 @@ indicates-required = * označuje povinné pole
 not-available-abbreviation = N/A
 # Text shown on a button that can be clicked to copy text to the clipboard
 copy = Kopírovať
+# Text shown on a button that can be clicked to close a modal or panel
+close = Zavrieť
 # Text shown on a button that can be clicked to cancel an action
 cancel = Zrušiť
 # Text shown on a button that can be clicked to delete an item
