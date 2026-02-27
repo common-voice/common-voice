@@ -44,12 +44,12 @@ const makeLocaleData = (
 
 describe('fillTemplate', () => {
   it('replaces inline {{KEY}} placeholders', () => {
-    const template = '# {{NATIVE_NAME}} ({{LOCALE}})'
+    const template = '# {{NATIVE_NAME}} ({{LOCALE}})\n\nSome body text.'
     const result = fillTemplate(template, {
       NATIVE_NAME: 'Deutsch',
       LOCALE: 'de',
     })
-    expect(result).toBe('# Deutsch (de)\n')
+    expect(result).toBe('# Deutsch (de)\n\nSome body text.\n')
   })
 
   it('replaces <!-- {{KEY}} --> comment-wrapped placeholders', () => {
@@ -80,7 +80,7 @@ describe('fillTemplate', () => {
     expect(result).not.toContain('male | ?')
   })
 
-  it('removes unfilled placeholders and their comments', () => {
+  it('removes unfilled placeholders, their comments, and the dangling header', () => {
     const template = [
       '## Variants',
       '',
@@ -89,13 +89,84 @@ describe('fillTemplate', () => {
       '<!-- Describe the variants -->',
       '',
       '## Next',
+      '',
+      'Content here.',
     ].join('\n')
     const result = fillTemplate(template, {})
     expect(result).not.toContain('VARIANT_DESCRIPTION')
     expect(result).not.toContain('OPTIONAL')
     expect(result).not.toContain('Describe the variants')
-    expect(result).toContain('## Variants')
+    expect(result).not.toContain('## Variants')
     expect(result).toContain('## Next')
+  })
+
+  it('keeps header when at least one placeholder is filled', () => {
+    const template = [
+      '### Variants',
+      '',
+      '<!-- {{VARIANT_DESCRIPTION}} -->',
+      '<!-- {{VARIANT_STATS_TABLE}} -->',
+      '',
+      '### Next',
+      '',
+      'Content here.',
+    ].join('\n')
+    const result = fillTemplate(template, {
+      VARIANT_STATS_TABLE: '| Variant | Clips |\n|---|---|\n| Welsh | 50 |',
+    })
+    expect(result).toContain('### Variants')
+    expect(result).toContain('| Welsh | 50 |')
+    expect(result).toContain('### Next')
+  })
+
+  it('removes parent header when all sub-sections are stripped', () => {
+    const template = [
+      '## Text corpus',
+      '',
+      '### Sources',
+      '',
+      '<!-- {{SOURCES_STATS_TABLE}} -->',
+      '',
+      '### Text domains',
+      '',
+      '<!-- {{TEXT_DOMAIN_STATS_TABLE}} -->',
+      '',
+      '## Next section',
+      '',
+      'Some real content here.',
+    ].join('\n')
+    const result = fillTemplate(template, {})
+    expect(result).not.toContain('## Text corpus')
+    expect(result).not.toContain('### Sources')
+    expect(result).not.toContain('### Text domains')
+    expect(result).toContain('## Next section')
+    expect(result).toContain('Some real content here.')
+  })
+
+  it('keeps parent header when at least one sub-section has content', () => {
+    const template = [
+      '## Text corpus',
+      '',
+      '### Sources',
+      '',
+      '<!-- {{SOURCES_STATS_TABLE}} -->',
+      '',
+      '### Text domains',
+      '',
+      '<!-- {{TEXT_DOMAIN_STATS_TABLE}} -->',
+      '',
+      '## Next section',
+      '',
+      'Content here.',
+    ].join('\n')
+    const result = fillTemplate(template, {
+      SOURCES_STATS_TABLE: '| Source | Sentences |\n|---|---|\n| Wikipedia | 100 |',
+    })
+    expect(result).toContain('## Text corpus')
+    expect(result).toContain('### Sources')
+    expect(result).toContain('| Wikipedia | 100 |')
+    expect(result).not.toContain('### Text domains')
+    expect(result).toContain('## Next section')
   })
 
   it('collapses excessive blank lines to 2 max', () => {
@@ -137,7 +208,7 @@ describe('fillTemplate', () => {
   })
 
   it('injects DATA_SPLITS_TABLE after "## Data splits" header when no placeholder exists', () => {
-    const template = '## Data splits for modelling\n\n## Text corpus'
+    const template = '## Data splits for modelling\n\n## Text corpus\n\nCorpus details here.'
     const result = fillTemplate(template, {
       DATA_SPLITS_TABLE: '| Split | Clips |\n|---|---|\n| Train | 30 |',
     })

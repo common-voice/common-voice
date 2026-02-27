@@ -252,12 +252,56 @@ export const buildReplacementMap = (
   return map
 }
 
+// -- Empty header cleanup ----------------------------------------------------
+
+/**
+ * Removes markdown headers that have no visible content in their section.
+ * A section's content includes everything until the next header at the
+ * same or higher level. Sub-headers count as content for their parent.
+ *
+ * Runs iteratively so that when all `###` sub-sections under a `##` are
+ * removed, the now-empty `##` parent is also cleaned up.
+ */
+const removeEmptyHeaders = (text: string): string => {
+  let prev = ''
+  let current = text
+
+  while (current !== prev) {
+    prev = current
+    const lines = current.split('\n')
+    const kept: string[] = []
+
+    for (let i = 0; i < lines.length; i++) {
+      const headerMatch = lines[i].match(/^(#{1,6})\s/)
+      if (headerMatch) {
+        const level = headerMatch[1].length
+        let hasContent = false
+        for (let j = i + 1; j < lines.length; j++) {
+          const trimmed = lines[j].trim()
+          if (trimmed === '') continue
+          const nextMatch = trimmed.match(/^(#{1,6})\s/)
+          if (nextMatch && nextMatch[1].length <= level) break
+          hasContent = true
+          break
+        }
+        if (!hasContent) continue
+      }
+      kept.push(lines[i])
+    }
+
+    current = kept.join('\n')
+  }
+
+  return current
+}
+
 // -- Template filling --------------------------------------------------------
 
 /**
  * Fills a template string by replacing `{{KEY}}` and `<!-- {{KEY}} -->`
  * patterns with values from the replacement map.
- * Then strips all remaining HTML comment blocks.
+ * Then strips all remaining HTML comment blocks and removes headers
+ * left with no content.
  *
  * Also injects DATA_SPLITS_TABLE after the "## Data splits" header
  * if the template lacks the explicit placeholder (backward compat with
@@ -295,6 +339,9 @@ export const fillTemplate = (
 
   // Strip remaining HTML comment blocks (instructions, examples, optional markers)
   result = result.replace(/<!--[\s\S]*?-->/g, '')
+
+  // Remove headers whose content was entirely stripped
+  result = removeEmptyHeaders(result)
 
   // Clean up excessive blank lines (3+ -> 2)
   result = result.replace(/\n{3,}/g, '\n\n')
