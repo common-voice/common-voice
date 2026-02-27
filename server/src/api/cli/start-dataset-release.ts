@@ -12,6 +12,7 @@ type InitDatasetReleaseJob = {
   previousReleaseName?: string
   languages: string[]
   licenseMode?: LicenseMode
+  datasheetsFile?: string
 }
 
 const startDatasetRelease = async (args: any, options: any) => {
@@ -63,6 +64,7 @@ const startDatasetRelease = async (args: any, options: any) => {
       previousReleaseName: args.type === 'full' ? args.previousReleaseName : undefined,
       languages: args.languages || [],
       licenseMode,
+      datasheetsFile: args.datasheetsFile,
     })({})
   )
 
@@ -106,6 +108,14 @@ program
     Required for full releases. The previous release whose clips will be downloaded
     to bootstrap the new release. Ignored for delta, statistics, and variants.
     Usually in the shape of 'cv-corpus-24.0-2025-12-01'.
+    `
+  )
+  .option(
+    '-d, --datasheets-file <file>',
+    `
+    Datasheets JSON filename or full URL. Resolved against DATASHEETS_BASE_URL if not a URL.
+    Example filename: 'datasheets-25.0-2026-03-06.json'
+    Example URL: 'https://raw.githubusercontent.com/common-voice/cv-datasheets/<commit>/releases/datasheets-25.0-2026-03-06.json'
     `
   )
   .addOption(
