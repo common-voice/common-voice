@@ -1,6 +1,5 @@
 import * as fs from 'node:fs'
 import * as path from 'node:path'
-import * as readline from 'node:readline'
 
 import { readerTaskEither as RTE, taskEither as TE } from 'fp-ts'
 import { pipe } from 'fp-ts/lib/function'
@@ -9,182 +8,10 @@ import { AppEnv, DatasheetLocalePayload } from '../types'
 import { uploadToBucket } from '../infrastructure/storage'
 import { getDatasetBundlerBucketName } from '../config/config'
 import { sanitizeLicenseName } from './compress'
-import { countLinesInFile, unitToHours } from './utils'
 import { logger } from '../infrastructure/logger'
+import type { Buckets, LocaleReleaseData } from './localeData'
 
-// -- Auto-stats extraction ---------------------------------------------------
-
-type DatasheetAutoStats = {
-  clips: number
-  speakers: number
-  totalHrs: number
-  validHrs: number
-  genderCounts: Record<string, number>
-  ageCounts: Record<string, number>
-  validatedClips: number
-}
-
-/**
- * Quick scan of clips.tsv to collect just the counts needed
- * for the datasheet template. Does NOT load the entire file into
- * memory -- streams line-by-line.
- */
-export const extractAutoStats = (
-  clipsFilePath: string,
-  totalDurationInMs: number,
-): TE.TaskEither<Error, DatasheetAutoStats> =>
-  TE.tryCatch(
-    () =>
-      new Promise<DatasheetAutoStats>((resolve, reject) => {
-        if (!fs.existsSync(clipsFilePath)) {
-          return reject(new Error(`clips.tsv not found: ${clipsFilePath}`))
-        }
-
-        const rl = readline.createInterface({
-          input: fs.createReadStream(clipsFilePath, 'utf-8'),
-          crlfDelay: Infinity,
-        })
-
-        let headerParsed = false
-        let genderIdx = -1
-        let ageIdx = -1
-        let clientIdIdx = -1
-
-        let clips = 0
-        const clientIds = new Set<string>()
-        const genderCounts: Record<string, number> = {}
-        const ageCounts: Record<string, number> = {}
-
-        rl.on('line', line => {
-          const cols = line.split('\t')
-
-          if (!headerParsed) {
-            headerParsed = true
-            genderIdx = cols.indexOf('gender')
-            ageIdx = cols.indexOf('age')
-            clientIdIdx = cols.indexOf('client_id')
-            return
-          }
-
-          clips++
-          if (clientIdIdx >= 0) clientIds.add(cols[clientIdIdx])
-          if (genderIdx >= 0) {
-            const g = cols[genderIdx] || ''
-            genderCounts[g] = (genderCounts[g] ?? 0) + 1
-          }
-          if (ageIdx >= 0) {
-            const a = cols[ageIdx] || ''
-            ageCounts[a] = (ageCounts[a] ?? 0) + 1
-          }
-        })
-
-        rl.on('close', () => {
-          const avgDurationMs = clips > 0 ? totalDurationInMs / clips : 0
-          // Count validated clips from CorporaCreator output (same directory as clips.tsv)
-          const validatedClips = countLinesInFile(
-            path.join(path.dirname(clipsFilePath), 'validated.tsv'),
-          )
-          resolve({
-            clips,
-            speakers: clientIds.size,
-            totalHrs: unitToHours(totalDurationInMs, 'ms', 2),
-            validHrs: unitToHours(
-              Math.round(avgDurationMs * validatedClips) / 1000,
-              's',
-              2,
-            ),
-            genderCounts,
-            ageCounts,
-            validatedClips,
-          })
-        })
-
-        rl.on('error', reject)
-      }),
-    reason => Error(String(reason)),
-  )
-
-// -- Sentence sampling -------------------------------------------------------
-
-/**
- * Reservoir-samples N items from the given array.
- */
-const reservoirSample = (items: string[], count: number): string[] => {
-  const sample: string[] = []
-  for (let i = 0; i < items.length; i++) {
-    if (i < count) {
-      sample.push(items[i])
-    } else {
-      const j = Math.floor(Math.random() * (i + 1))
-      if (j < count) {
-        sample[j] = items[i]
-      }
-    }
-  }
-  return sample
-}
-
-/**
- * Extracts the sentence column from a TSV file.
- * If filterColumn/filterValue are given, only rows matching that filter are included.
- */
-const extractSentences = (
-  filepath: string,
-  filterColumn?: string,
-  filterValue?: string,
-): string[] => {
-  try {
-    const content = fs.readFileSync(filepath, 'utf-8')
-    const lines = content.split('\n').filter(l => l.trim().length > 0)
-    if (lines.length <= 1) return []
-
-    const header = lines[0].split('\t')
-    // Try 'sentence' first, fall back to 'text' (clips.tsv uses 'sentence' too after CC)
-    const sentenceIdx = header.indexOf('sentence')
-    if (sentenceIdx < 0) return []
-
-    const filterIdx =
-      filterColumn != null ? header.indexOf(filterColumn) : -1
-
-    return lines
-      .slice(1)
-      .filter(line => {
-        if (filterIdx < 0) return true
-        return line.split('\t')[filterIdx] === filterValue
-      })
-      .map(line => line.split('\t')[sentenceIdx])
-      .filter(s => s && s.trim().length > 0)
-  } catch {
-    return []
-  }
-}
-
-/**
- * Returns a random sample of N sentences from the locale's release directory.
- *
- * Tries sources in order:
- *   1. validated_sentences.tsv (is_used == "1" — excludes bad/unwanted sentences)
- *   2. clips.tsv (last resort)
- */
-export const sampleSentences = (
-  releaseDirPath: string,
-  locale: string,
-  count = 5,
-): string[] => {
-  const localeDir = path.join(releaseDirPath, locale)
-
-  // 1. validated_sentences.tsv with is_used filter
-  const vsPath = path.join(localeDir, 'validated_sentences.tsv')
-  const sentences = extractSentences(vsPath, 'is_used', '1')
-  if (sentences.length > 0) return reservoirSample(sentences, count)
-
-  // 2. clips.tsv (last resort)
-  const clipsPath = path.join(localeDir, 'clips.tsv')
-  const allClips = extractSentences(clipsPath)
-  return reservoirSample(allClips, count)
-}
-
-// -- Template filling --------------------------------------------------------
+// -- Markdown table helpers --------------------------------------------------
 
 const formatMarkdownTable = (
   header: [string, string],
@@ -220,6 +47,8 @@ const AGE_LABELS: Record<string, string> = {
   '': 'Undeclared',
 }
 
+// -- Table builders ----------------------------------------------------------
+
 const buildGenderTable = (
   genderCounts: Record<string, number>,
   totalClips: number,
@@ -230,7 +59,7 @@ const buildGenderTable = (
     .map(([key, count]) => {
       const label = GENDER_LABELS[key] ?? key
       const pct = totalClips > 0 ? ((count / totalClips) * 100).toFixed(1) : '0'
-      return [label, `${count} (${pct}%)`]
+      return [label, `${count.toLocaleString('en')} (${pct}%)`]
     })
   return formatMarkdownTable(['Gender', 'Frequency'], rows)
 }
@@ -245,34 +74,26 @@ const buildAgeTable = (
     .map(([key, count]) => {
       const label = AGE_LABELS[key] ?? key
       const pct = totalClips > 0 ? ((count / totalClips) * 100).toFixed(1) : '0'
-      return [label, `${count} (${pct}%)`]
+      return [label, `${count.toLocaleString('en')} (${pct}%)`]
     })
   return formatMarkdownTable(['Age band', 'Frequency'], rows)
 }
 
-// -- Data splits table --------------------------------------------------------
+const SPLIT_NAMES = ['train', 'dev', 'test', 'validated', 'invalidated', 'other'] as const
 
-const SPLIT_FILES = ['train', 'dev', 'test', 'validated', 'invalidated', 'other'] as const
-
-/**
- * Reads CorporaCreator output files and builds a markdown table with
- * split name, clip count, and percentage of total.
- */
 export const buildDataSplitsTable = (
-  releaseDirPath: string,
-  locale: string,
+  buckets: Buckets,
   totalClips: number,
 ): string => {
-  const localeDir = path.join(releaseDirPath, locale)
   const rows: [string, string][] = []
 
-  for (const split of SPLIT_FILES) {
-    const count = countLinesInFile(path.join(localeDir, `${split}.tsv`))
+  for (const split of SPLIT_NAMES) {
+    const count = buckets[split]
     if (count === 0) continue
     const pct = totalClips > 0 ? ((count / totalClips) * 100).toFixed(1) : '0'
     rows.push([
       split.charAt(0).toUpperCase() + split.slice(1),
-      `${count.toLocaleString()} (${pct}%)`,
+      `${count.toLocaleString('en')} (${pct}%)`,
     ])
   }
 
@@ -280,19 +101,99 @@ export const buildDataSplitsTable = (
   return formatMarkdownTable(['Split', 'Clips'], rows)
 }
 
+export const buildVariantStatsTable = (
+  variantCounts: Record<string, number>,
+  totalClips: number,
+): string => {
+  const entries = Object.entries(variantCounts).filter(([, count]) => count > 0)
+  if (entries.length === 0) return ''
+  const rows: [string, string][] = entries
+    .sort(([, a], [, b]) => b - a)
+    .map(([variant, count]) => {
+      const pct = totalClips > 0 ? ((count / totalClips) * 100).toFixed(1) : '0'
+      return [variant, `${count.toLocaleString('en')} (${pct}%)`]
+    })
+  return formatMarkdownTable(['Variant', 'Clips'], rows)
+}
+
+export const buildAccentStatsTable = (
+  accentCounts: Record<string, number>,
+  totalClips: number,
+): string => {
+  const entries = Object.entries(accentCounts).filter(([, count]) => count > 0)
+  if (entries.length === 0) return ''
+  const rows: [string, string][] = entries
+    .sort(([, a], [, b]) => b - a)
+    .map(([accent, count]) => {
+      const pct = totalClips > 0 ? ((count / totalClips) * 100).toFixed(1) : '0'
+      return [accent, `${count.toLocaleString('en')} (${pct}%)`]
+    })
+  return formatMarkdownTable(['Accent', 'Clips'], rows)
+}
+
+export const buildTextCorpusStatsTable = (
+  data: Pick<LocaleReleaseData,
+    'validatedSentences' | 'unvalidatedSentences' |
+    'pendingSentences' | 'rejectedSentences' | 'reportedSentences'
+  >,
+): string => {
+  const all: [string, number][] = [
+    ['Validated sentences', data.validatedSentences],
+    ['Unvalidated sentences', data.unvalidatedSentences],
+    ['Pending sentences', data.pendingSentences],
+    ['Rejected sentences', data.rejectedSentences],
+    ['Reported sentences', data.reportedSentences],
+  ]
+  const rows: [string, string][] = all
+    .filter(([, v]) => v > 0)
+    .map(([label, v]) => [label, v.toLocaleString('en')])
+  if (rows.length === 0) return ''
+  return formatMarkdownTable(['Category', 'Count'], rows)
+}
+
+export const buildSourcesStatsTable = (
+  sourceCounts: Record<string, number>,
+): string => {
+  const entries = Object.entries(sourceCounts).filter(([, count]) => count > 0)
+  if (entries.length === 0) return ''
+  const total = entries.reduce((sum, [, c]) => sum + c, 0)
+  const rows: [string, string][] = entries
+    .sort(([, a], [, b]) => b - a)
+    .map(([source, count]) => {
+      const pct = total > 0 ? ((count / total) * 100).toFixed(1) : '0'
+      return [source, `${count.toLocaleString('en')} (${pct}%)`]
+    })
+  return formatMarkdownTable(['Source', 'Sentences'], rows)
+}
+
+export const buildTextDomainStatsTable = (
+  domainCounts: Record<string, number>,
+  totalClips: number,
+): string => {
+  const entries = Object.entries(domainCounts).filter(([, count]) => count > 0)
+  if (entries.length === 0) return ''
+  const rows: [string, string][] = entries
+    .sort(([, a], [, b]) => b - a)
+    .map(([domain, count]) => {
+      const pct = totalClips > 0 ? ((count / totalClips) * 100).toFixed(1) : '0'
+      return [domain, `${count.toLocaleString('en')} (${pct}%)`]
+    })
+  return formatMarkdownTable(['Domain', 'Clips'], rows)
+}
+
+// -- Replacement map ---------------------------------------------------------
+
 /**
  * Builds the full replacement map from all sources:
  * 1. Metadata (native_name, english_name, etc.)
- * 2. Auto-generated stats (clips, hours, speakers, demographics)
+ * 2. Auto-generated stats from LocaleReleaseData
  * 3. Community fields (language_description, etc.) -- precedence over auto
  */
 export const buildReplacementMap = (
   payload: DatasheetLocalePayload,
-  autoStats: DatasheetAutoStats,
+  data: LocaleReleaseData,
   locale: string,
   releaseName: string,
-  releaseDirPath: string,
-  sentencesSample: string[],
 ): Record<string, string> => {
   const map: Record<string, string> = {}
 
@@ -303,27 +204,40 @@ export const buildReplacementMap = (
   map['VERSION'] = releaseName
 
   // Auto-generated stats
-  map['CLIPS'] = String(autoStats.clips)
-  map['HOURS_RECORDED'] = String(autoStats.totalHrs)
-  map['HOURS_VALIDATED'] = String(autoStats.validHrs)
-  map['SPEAKERS'] = String(autoStats.speakers)
+  map['CLIPS'] = String(data.clips)
+  map['HOURS_RECORDED'] = String(data.totalHrs)
+  map['HOURS_VALIDATED'] = String(data.validHrs)
+  map['SPEAKERS'] = String(data.speakers)
 
   // Demographics
-  map['GENDER_TABLE'] = buildGenderTable(
-    autoStats.genderCounts,
-    autoStats.clips,
-  )
-  map['AGE_TABLE'] = buildAgeTable(autoStats.ageCounts, autoStats.clips)
+  map['GENDER_TABLE'] = buildGenderTable(data.genderCounts, data.clips)
+  map['AGE_TABLE'] = buildAgeTable(data.ageCounts, data.clips)
 
   // Data splits
-  const splitsTable = buildDataSplitsTable(releaseDirPath, locale, autoStats.clips)
+  const splitsTable = buildDataSplitsTable(data.buckets, data.clips)
   if (splitsTable) {
     map['DATA_SPLITS_TABLE'] = splitsTable
   }
 
+  // New stats tables
+  const variantTable = buildVariantStatsTable(data.variantCounts, data.clips)
+  if (variantTable) map['VARIANT_STATS_TABLE'] = variantTable
+
+  const accentTable = buildAccentStatsTable(data.accentCounts, data.clips)
+  if (accentTable) map['ACCENT_STATS_TABLE'] = accentTable
+
+  const textCorpusTable = buildTextCorpusStatsTable(data)
+  if (textCorpusTable) map['TEXT_CORPUS_STATS_TABLE'] = textCorpusTable
+
+  const sourcesTable = buildSourcesStatsTable(data.sourceCounts)
+  if (sourcesTable) map['SOURCES_STATS_TABLE'] = sourcesTable
+
+  const domainTable = buildTextDomainStatsTable(data.domainCounts, data.clips)
+  if (domainTable) map['TEXT_DOMAIN_STATS_TABLE'] = domainTable
+
   // Sentences sample
-  if (sentencesSample.length > 0) {
-    map['SENTENCES_SAMPLE'] = sentencesSample
+  if (data.sentencesSample.length > 0) {
+    map['SENTENCES_SAMPLE'] = data.sentencesSample
       .map((s, i) => `${i + 1}. ${s}`)
       .join('\n')
   }
@@ -337,6 +251,8 @@ export const buildReplacementMap = (
 
   return map
 }
+
+// -- Template filling --------------------------------------------------------
 
 /**
  * Fills a template string by replacing `{{KEY}}` and `<!-- {{KEY}} -->`
@@ -403,44 +319,30 @@ const datasheetPipeline = (
   locale: string,
   releaseName: string,
   releaseDirPath: string,
-  totalDurationInMs: number,
+  data: LocaleReleaseData,
   payload: DatasheetLocalePayload,
   license?: string,
 ): TE.TaskEither<Error, string> => {
   logger.info('DATASHEETS', `[${locale}] Generating datasheet`)
-  const clipsFilePath = path.join(releaseDirPath, locale, 'clips.tsv')
+
+  const replacements = buildReplacementMap(payload, data, locale, releaseName)
+  const rendered = fillTemplate(payload.template, replacements)
 
   return pipe(
-    TE.Do,
-    // 1. Extract auto-stats from clips.tsv
-    TE.bind('autoStats', () => extractAutoStats(clipsFilePath, totalDurationInMs)),
-    // 2. Sample sentences for the template
-    TE.let('sentencesSample', () =>
-      sampleSentences(releaseDirPath, locale),
+    // Write README.md into locale directory (will be included in tar)
+    TE.tryCatch(
+      async () => {
+        const readmePath = path.join(releaseDirPath, locale, 'README.md')
+        fs.writeFileSync(readmePath, rendered, 'utf-8')
+        logger.info(
+          'DATASHEETS',
+          `[${locale}] Wrote README.md (${rendered.length} bytes)`,
+        )
+      },
+      reason => Error(String(reason)),
     ),
-    // 3. Build replacement map and fill template
-    TE.let('replacements', ({ autoStats, sentencesSample }) =>
-      buildReplacementMap(payload, autoStats, locale, releaseName, releaseDirPath, sentencesSample),
-    ),
-    TE.let('rendered', ({ replacements }) =>
-      fillTemplate(payload.template, replacements),
-    ),
-    // 4. Write README.md into locale directory (will be included in tar)
-    TE.chainFirst(({ rendered }) =>
-      TE.tryCatch(
-        async () => {
-          const readmePath = path.join(releaseDirPath, locale, 'README.md')
-          fs.writeFileSync(readmePath, rendered, 'utf-8')
-          logger.info(
-            'DATASHEETS',
-            `[${locale}] Wrote README.md (${rendered.length} bytes)`,
-          )
-        },
-        reason => Error(String(reason)),
-      ),
-    ),
-    // 5. Upload to GCS under <release>/datasheets/ with a versioned filename
-    TE.chainFirst(({ rendered }) => {
+    // Upload to GCS under <release>/datasheets/ with a versioned filename
+    TE.chainFirst(() => {
       const versionTag = releaseVersionTag(releaseName)
       const filename = license
         ? `cv-datasheet-${versionTag}-${locale}-${sanitizeLicenseName(license)}.md`
@@ -448,21 +350,20 @@ const datasheetPipeline = (
       const uploadPath = `${releaseName}/datasheets/${filename}`
       return uploadToDatasetBucket(uploadPath)(Buffer.from(rendered, 'utf-8'))
     }),
-    TE.map(({ rendered }) => rendered),
+    TE.map(() => rendered),
   )
 }
 
 /**
  * Generates and uploads a datasheet for the current locale.
- * Silently skips if no datasheet payload is available (non-blocking).
+ * Reads from AppEnv.localeData (populated by the scanLocaleData step).
+ * Silently skips if no datasheet payload or locale data is available.
  */
-export const runGenerateDatasheet = (
-  totalDurationInMs: number,
-): RTE.ReaderTaskEither<AppEnv, Error, void> =>
+export const runGenerateDatasheet: RTE.ReaderTaskEither<AppEnv, Error, void> =
   pipe(
     RTE.ask<AppEnv>(),
     RTE.chainTaskEitherK(
-      ({ locale, releaseName, releaseDirPath, datasheetPayload, license, type }) => {
+      ({ locale, releaseName, releaseDirPath, datasheetPayload, localeData, license, type }) => {
         if (type !== 'full') {
           logger.debug(
             'DATASHEETS',
@@ -477,12 +378,19 @@ export const runGenerateDatasheet = (
           )
           return TE.right(undefined)
         }
+        if (!localeData) {
+          logger.warn(
+            'DATASHEETS',
+            `[${locale}] No locale data available, skipping datasheet`,
+          )
+          return TE.right(undefined)
+        }
         return pipe(
           datasheetPipeline(
             locale,
             releaseName,
             releaseDirPath,
-            totalDurationInMs,
+            localeData,
             datasheetPayload,
             license,
           ),

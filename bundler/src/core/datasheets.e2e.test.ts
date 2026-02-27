@@ -3,14 +3,14 @@ import * as os from 'node:os'
 import * as path from 'node:path'
 
 import {
-  extractAutoStats,
-  sampleSentences,
   buildReplacementMap,
   fillTemplate,
 } from './datasheets'
+import { scanLocaleData } from './localeData'
 import { fetchDatasheetsPayloads } from '../infrastructure/datasheetsFetcher'
 import { CLIPS_TSV_ROW, TSV_COLUMNS } from './clips'
 import { DatasheetLocalePayload, ValidatedSentence } from '../types'
+import { toValidatedSentencesTsv } from '../test-helpers/tsv'
 
 // ---------------------------------------------------------------------------
 // TSV serialisation helpers -- use types as source of truth for column layout
@@ -19,24 +19,6 @@ import { DatasheetLocalePayload, ValidatedSentence } from '../types'
 const toClipsTsv = (rows: CLIPS_TSV_ROW[]): string => {
   const header = TSV_COLUMNS.join('\t')
   const dataRows = rows.map(row => TSV_COLUMNS.map(col => row[col]).join('\t'))
-  return [header, ...dataRows].join('\n')
-}
-
-const VALIDATED_SENTENCES_COLS: (keyof ValidatedSentence)[] = [
-  'sentence_id',
-  'sentence',
-  'variant',
-  'sentence_domain',
-  'source',
-  'is_used',
-  'clips_count',
-]
-
-const toValidatedSentencesTsv = (rows: ValidatedSentence[]): string => {
-  const header = VALIDATED_SENTENCES_COLS.join('\t')
-  const dataRows = rows.map(row =>
-    VALIDATED_SENTENCES_COLS.map(col => row[col]).join('\t'),
-  )
   return [header, ...dataRows].join('\n')
 }
 
@@ -224,23 +206,20 @@ describeE2E('Datasheet e2e generation', () => {
       expect(payload).toBeDefined()
       if (!payload) return
 
-      // Run pipeline
-      const statsResult = await extractAutoStats(
-        path.join(tmpDir, locale, 'clips.tsv'),
+      // Run unified locale scan
+      const scanResult = await scanLocaleData(
+        path.join(tmpDir, locale),
         3_600_000, // 1 hour total
       )()
-      expect(statsResult._tag).toBe('Right')
-      if (statsResult._tag !== 'Right') return
+      expect(scanResult._tag).toBe('Right')
+      if (scanResult._tag !== 'Right') return
 
-      const autoStats = statsResult.right
-      const sample = sampleSentences(tmpDir, locale)
+      const data = scanResult.right
       const replacements = buildReplacementMap(
         payload,
-        autoStats,
+        data,
         locale,
         RELEASE_NAME,
-        tmpDir,
-        sample,
       )
       const rendered = fillTemplate(payload.template, replacements)
 
@@ -262,36 +241,34 @@ describeE2E('Datasheet e2e generation', () => {
       expect(rendered).toContain(RELEASE_NAME)
 
       // Stats derived from fixture data
-      expect(autoStats.clips).toBe(clipCount)
-      expect(autoStats.speakers).toBeLessThanOrEqual(20) // max 20 unique users in fixture
-      expect(autoStats.validatedClips).toBe(Math.floor(clipCount * 0.8))
+      expect(data.clips).toBe(clipCount)
+      expect(data.speakers).toBeLessThanOrEqual(20) // max 20 unique users in fixture
+      expect(data.buckets.validated).toBe(Math.floor(clipCount * 0.8))
 
       // Sentence sample: only is_used == "1" sentences are eligible
-      expect(sample.length).toBeGreaterThan(0)
-      expect(sample.length).toBeLessThanOrEqual(Math.min(5, usedCount))
+      expect(data.sentencesSample.length).toBeGreaterThan(0)
+      expect(data.sentencesSample.length).toBeLessThanOrEqual(Math.min(5, usedCount))
     },
   )
 
   it('gender and age tables are populated for larger locales', async () => {
     const payload = payloads.get('en')!
-    const statsResult = await extractAutoStats(
-      path.join(tmpDir, 'en', 'clips.tsv'),
+    const scanResult = await scanLocaleData(
+      path.join(tmpDir, 'en'),
       3_600_000,
     )()
-    if (statsResult._tag !== 'Right') return
+    if (scanResult._tag !== 'Right') return
 
-    const { genderCounts, ageCounts } = statsResult.right
+    const { genderCounts, ageCounts } = scanResult.right
     // Fixture cycles through all GENDERS and AGES, so all should be present
     expect(Object.keys(genderCounts).length).toBe(GENDERS.length)
     expect(Object.keys(ageCounts).length).toBe(AGES.length)
 
     const replacements = buildReplacementMap(
       payload!,
-      statsResult.right,
+      scanResult.right,
       'en',
       RELEASE_NAME,
-      tmpDir,
-      [],
     )
     expect(replacements['GENDER_TABLE']).toContain('Male, masculine')
     expect(replacements['GENDER_TABLE']).toContain('Female, feminine')
@@ -303,18 +280,17 @@ describeE2E('Datasheet e2e generation', () => {
     const payload = payloads.get('kbd')!
     expect(payload.metadata['native_name']).toContain('Адыгэбзэ')
 
-    const statsResult = await extractAutoStats(
-      path.join(tmpDir, 'kbd', 'clips.tsv'),
+    const scanResult = await scanLocaleData(
+      path.join(tmpDir, 'kbd'),
       900_000, // 15 minutes
     )()
-    expect(statsResult._tag).toBe('Right')
-    if (statsResult._tag !== 'Right') return
+    expect(scanResult._tag).toBe('Right')
+    if (scanResult._tag !== 'Right') return
 
-    expect(statsResult.right.clips).toBe(15)
-    expect(statsResult.right.totalHrs).toBeGreaterThan(0)
+    expect(scanResult.right.clips).toBe(15)
+    expect(scanResult.right.totalHrs).toBeGreaterThan(0)
 
-    const sample = sampleSentences(tmpDir, 'kbd')
     // All 10 sentences are is_used=1 -- expect up to 5 sampled
-    expect(sample.length).toBe(5)
+    expect(scanResult.right.sentencesSample.length).toBe(5)
   })
 })

@@ -1,23 +1,46 @@
-import * as fs from 'node:fs'
-import * as os from 'node:os'
-import * as path from 'node:path'
-
 import {
   fillTemplate,
   buildReplacementMap,
   buildDataSplitsTable,
-  sampleSentences,
-  extractAutoStats,
+  buildVariantStatsTable,
+  buildAccentStatsTable,
+  buildTextCorpusStatsTable,
+  buildSourcesStatsTable,
+  buildTextDomainStatsTable,
 } from './datasheets'
 import { DatasheetLocalePayload } from '../types'
-import {
-  CLIPS_TSV_HEADER,
-  makeClipRow,
-  toValidatedSentencesTsv,
-  makeValidatedSentence,
-} from '../test-helpers/tsv'
+import type { Buckets, LocaleReleaseData } from './localeData'
 
-// fillTemplate
+// -- Test data factory -------------------------------------------------------
+
+const makeLocaleData = (
+  overrides: Partial<LocaleReleaseData> = {},
+): LocaleReleaseData => ({
+  clips: 100,
+  speakers: 10,
+  totalHrs: 1.5,
+  validHrs: 1.2,
+  genderCounts: { male_masculine: 60, female_feminine: 30, '': 10 },
+  ageCounts: { twenties: 40, thirties: 30, '': 30 },
+  domainCounts: {},
+  variantCounts: {},
+  accentCounts: {},
+  buckets: { train: 50, dev: 15, test: 15, validated: 80, invalidated: 10, other: 0 },
+  validatedSentences: 0,
+  unvalidatedSentences: 0,
+  rejectedSentences: 0,
+  pendingSentences: 0,
+  reportedSentences: 0,
+  sourceCounts: {},
+  sentenceVariantCounts: {},
+  totalDurationMs: 5_400_000,
+  avgDurationSecs: 54,
+  validDurationSecs: 4320,
+  sentencesSample: [],
+  ...overrides,
+})
+
+// -- fillTemplate ------------------------------------------------------------
 
 describe('fillTemplate', () => {
   it('replaces inline {{KEY}} placeholders', () => {
@@ -132,7 +155,7 @@ describe('fillTemplate', () => {
   })
 })
 
-// buildReplacementMap
+// -- buildReplacementMap -----------------------------------------------------
 
 describe('buildReplacementMap', () => {
   const basePayload: DatasheetLocalePayload = {
@@ -151,25 +174,10 @@ describe('buildReplacementMap', () => {
     },
   }
 
-  const baseAutoStats = {
-    clips: 100,
-    speakers: 10,
-    totalHrs: 1.5,
-    validHrs: 1.2,
-    genderCounts: { male_masculine: 60, female_feminine: 30, '': 10 },
-    ageCounts: { twenties: 40, thirties: 30, '': 30 },
-    validatedClips: 80,
-  }
+  const baseData = makeLocaleData()
 
   it('sets metadata fields', () => {
-    const map = buildReplacementMap(
-      basePayload,
-      baseAutoStats,
-      'de',
-      'cv-corpus-25.0',
-      '/nonexistent',
-      [],
-    )
+    const map = buildReplacementMap(basePayload, baseData, 'de', 'cv-corpus-25.0')
     expect(map['NATIVE_NAME']).toBe('Deutsch')
     expect(map['ENGLISH_NAME']).toBe('German')
     expect(map['LOCALE']).toBe('de')
@@ -177,14 +185,7 @@ describe('buildReplacementMap', () => {
   })
 
   it('sets auto-generated stats', () => {
-    const map = buildReplacementMap(
-      basePayload,
-      baseAutoStats,
-      'de',
-      'cv-corpus-25.0',
-      '/nonexistent',
-      [],
-    )
+    const map = buildReplacementMap(basePayload, baseData, 'de', 'cv-corpus-25.0')
     expect(map['CLIPS']).toBe('100')
     expect(map['HOURS_RECORDED']).toBe('1.5')
     expect(map['HOURS_VALIDATED']).toBe('1.2')
@@ -192,83 +193,43 @@ describe('buildReplacementMap', () => {
   })
 
   it('generates GENDER_TABLE as markdown', () => {
-    const map = buildReplacementMap(
-      basePayload,
-      baseAutoStats,
-      'de',
-      'cv-corpus-25.0',
-      '/nonexistent',
-      [],
-    )
+    const map = buildReplacementMap(basePayload, baseData, 'de', 'cv-corpus-25.0')
     expect(map['GENDER_TABLE']).toContain('| Gender | Frequency |')
     expect(map['GENDER_TABLE']).toContain('Male, masculine')
     expect(map['GENDER_TABLE']).toContain('60.0%')
   })
 
   it('generates AGE_TABLE as markdown', () => {
-    const map = buildReplacementMap(
-      basePayload,
-      baseAutoStats,
-      'de',
-      'cv-corpus-25.0',
-      '/nonexistent',
-      [],
-    )
+    const map = buildReplacementMap(basePayload, baseData, 'de', 'cv-corpus-25.0')
     expect(map['AGE_TABLE']).toContain('| Age band | Frequency |')
     expect(map['AGE_TABLE']).toContain('Twenties')
   })
 
   it('includes non-empty community fields (uppercased)', () => {
-    const map = buildReplacementMap(
-      basePayload,
-      baseAutoStats,
-      'de',
-      'cv-corpus-25.0',
-      '/nonexistent',
-      [],
-    )
+    const map = buildReplacementMap(basePayload, baseData, 'de', 'cv-corpus-25.0')
     expect(map['LANGUAGE_DESCRIPTION']).toBe(
       'German is a West Germanic language.',
     )
   })
 
   it('does not include empty community fields', () => {
-    const map = buildReplacementMap(
-      basePayload,
-      baseAutoStats,
-      'de',
-      'cv-corpus-25.0',
-      '/nonexistent',
-      [],
-    )
+    const map = buildReplacementMap(basePayload, baseData, 'de', 'cv-corpus-25.0')
     expect(map['VARIANT_DESCRIPTION']).toBeUndefined()
     expect(map['FUNDING_DESCRIPTION']).toBeUndefined()
   })
 
   it('formats sentences sample as numbered list', () => {
-    const sentences = ['Hello world', 'Good morning', 'How are you']
-    const map = buildReplacementMap(
-      basePayload,
-      baseAutoStats,
-      'de',
-      'cv-corpus-25.0',
-      '/nonexistent',
-      sentences,
-    )
+    const data = makeLocaleData({
+      sentencesSample: ['Hello world', 'Good morning', 'How are you'],
+    })
+    const map = buildReplacementMap(basePayload, data, 'de', 'cv-corpus-25.0')
     expect(map['SENTENCES_SAMPLE']).toBe(
       '1. Hello world\n2. Good morning\n3. How are you',
     )
   })
 
   it('does not set SENTENCES_SAMPLE when no sentences available', () => {
-    const map = buildReplacementMap(
-      basePayload,
-      baseAutoStats,
-      'de',
-      'cv-corpus-25.0',
-      '/nonexistent',
-      [],
-    )
+    const map = buildReplacementMap(basePayload, baseData, 'de', 'cv-corpus-25.0')
     expect(map['SENTENCES_SAMPLE']).toBeUndefined()
   })
 
@@ -277,135 +238,58 @@ describe('buildReplacementMap', () => {
       ...basePayload,
       community_fields: {
         ...basePayload.community_fields,
-        // Pretend community provides a custom gender table
         gender_table: '| Custom | Table |',
       },
     }
-    const map = buildReplacementMap(
-      payload,
-      baseAutoStats,
-      'de',
-      'cv-corpus-25.0',
-      '/nonexistent',
-      [],
-    )
-    // Community field has precedence (applied after auto)
+    const map = buildReplacementMap(payload, baseData, 'de', 'cv-corpus-25.0')
     expect(map['GENDER_TABLE']).toBe('| Custom | Table |')
   })
-})
 
-// sampleSentences
-
-describe('sampleSentences', () => {
-  let tmpDir: string
-
-  beforeEach(() => {
-    tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), 'ds-test-'))
-    fs.mkdirSync(path.join(tmpDir, 'en'), { recursive: true })
+  it('generates DATA_SPLITS_TABLE from buckets', () => {
+    const map = buildReplacementMap(basePayload, baseData, 'de', 'cv-corpus-25.0')
+    expect(map['DATA_SPLITS_TABLE']).toContain('Train')
+    expect(map['DATA_SPLITS_TABLE']).toContain('50 (50.0%)')
   })
 
-  afterEach(() => {
-    fs.rmSync(tmpDir, { recursive: true, force: true })
-  })
-
-  const makeRow = (i: number, isUsed: '0' | '1' = '1') =>
-    makeValidatedSentence({
-      sentence_id: `id${i}`,
-      sentence: `Sentence ${i}`,
-      source: 'wiki',
-      is_used: isUsed,
+  it('includes new stats tables when data is present', () => {
+    const data = makeLocaleData({
+      variantCounts: { 'Southern Welsh': 20 },
+      accentCounts: { 'Welsh English': 15 },
+      domainCounts: { general: 80, healthcare: 20 },
+      sourceCounts: { Wikipedia: 50, Tatoeba: 30 },
+      validatedSentences: 100,
+      unvalidatedSentences: 20,
+      pendingSentences: 15,
+      rejectedSentences: 5,
+      reportedSentences: 3,
     })
-
-  const writeTsv = (tmpDir: string, rows: ValidatedSentence[]) =>
-    fs.writeFileSync(
-      path.join(tmpDir, 'en', 'validated_sentences.tsv'),
-      toValidatedSentencesTsv(rows),
-    )
-
-  it('returns 5 sentences from a typical file', () => {
-    writeTsv(tmpDir, Array.from({ length: 20 }, (_, i) => makeRow(i)))
-    const result = sampleSentences(tmpDir, 'en', 5)
-    expect(result).toHaveLength(5)
-    result.forEach(s => expect(s).toMatch(/^Sentence \d+$/))
+    const map = buildReplacementMap(basePayload, data, 'de', 'cv-corpus-25.0')
+    expect(map['VARIANT_STATS_TABLE']).toContain('Southern Welsh')
+    expect(map['ACCENT_STATS_TABLE']).toContain('Welsh English')
+    expect(map['TEXT_CORPUS_STATS_TABLE']).toContain('Validated sentences')
+    expect(map['SOURCES_STATS_TABLE']).toContain('Wikipedia')
+    expect(map['TEXT_DOMAIN_STATS_TABLE']).toContain('general')
   })
 
-  it('returns fewer than N when file has fewer eligible sentences', () => {
-    writeTsv(tmpDir, [makeRow(1)])
-    const result = sampleSentences(tmpDir, 'en', 5)
-    expect(result).toEqual(['Sentence 1'])
-  })
-
-  it('excludes sentences where is_used is not "1"', () => {
-    writeTsv(tmpDir, [
-      makeRow(0, '1'),
-      makeRow(1, '0'),
-      makeRow(2, '0'),
-      makeRow(3, '1'),
-    ])
-    const result = sampleSentences(tmpDir, 'en', 10)
-    expect(result).toHaveLength(2)
-    expect(result).toContain('Sentence 0')
-    expect(result).toContain('Sentence 3')
-    expect(result).not.toContain('Sentence 1')
-    expect(result).not.toContain('Sentence 2')
-  })
-
-  it('includes all sentences when is_used column is absent', () => {
-    // Write a minimal TSV without the is_used column
-    fs.writeFileSync(
-      path.join(tmpDir, 'en', 'validated_sentences.tsv'),
-      ['sentence_id\tsentence', 'id1\tOnly one'].join('\n'),
-    )
-    const result = sampleSentences(tmpDir, 'en', 5)
-    expect(result).toEqual(['Only one'])
-  })
-
-  it('returns empty array for missing file', () => {
-    const result = sampleSentences(tmpDir, 'en', 5)
-    expect(result).toEqual([])
-  })
-
-  it('returns empty array for header-only file', () => {
-    writeTsv(tmpDir, [])
-    const result = sampleSentences(tmpDir, 'en', 5)
-    expect(result).toEqual([])
-  })
-
-  it('falls back to clips.tsv when validated_sentences.tsv is empty', () => {
-    // No validated_sentences.tsv, no validated.tsv, only clips.tsv
-    fs.writeFileSync(
-      path.join(tmpDir, 'en', 'clips.tsv'),
-      'client_id\tpath\tsentence\tup_votes\nuser1\tclip1.mp3\tClip sentence\t2\n',
-    )
-    const result = sampleSentences(tmpDir, 'en', 5)
-    expect(result).toEqual(['Clip sentence'])
+  it('omits new stats tables when data is empty', () => {
+    const map = buildReplacementMap(basePayload, baseData, 'de', 'cv-corpus-25.0')
+    expect(map['VARIANT_STATS_TABLE']).toBeUndefined()
+    expect(map['ACCENT_STATS_TABLE']).toBeUndefined()
+    expect(map['TEXT_CORPUS_STATS_TABLE']).toBeUndefined()
+    expect(map['SOURCES_STATS_TABLE']).toBeUndefined()
+    expect(map['TEXT_DOMAIN_STATS_TABLE']).toBeUndefined()
   })
 })
 
-// buildDataSplitsTable
+// -- buildDataSplitsTable ----------------------------------------------------
 
 describe('buildDataSplitsTable', () => {
-  let tmpDir: string
-
-  beforeEach(() => {
-    tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), 'ds-splits-'))
-    fs.mkdirSync(path.join(tmpDir, 'en'), { recursive: true })
-  })
-
-  afterEach(() => {
-    fs.rmSync(tmpDir, { recursive: true, force: true })
-  })
-
-  it('builds table from CC output files', () => {
-    const header = 'client_id\tpath\tsentence\n'
-    const row = 'user1\tclip1.mp3\tHello\n'
-    fs.writeFileSync(path.join(tmpDir, 'en', 'train.tsv'), header + row.repeat(30))
-    fs.writeFileSync(path.join(tmpDir, 'en', 'dev.tsv'), header + row.repeat(10))
-    fs.writeFileSync(path.join(tmpDir, 'en', 'test.tsv'), header + row.repeat(10))
-    fs.writeFileSync(path.join(tmpDir, 'en', 'validated.tsv'), header + row.repeat(50))
-    fs.writeFileSync(path.join(tmpDir, 'en', 'other.tsv'), header + row.repeat(50))
-
-    const result = buildDataSplitsTable(tmpDir, 'en', 100)
+  it('builds table from CC buckets', () => {
+    const buckets: Buckets = {
+      train: 30, dev: 10, test: 10,
+      validated: 50, invalidated: 0, other: 50,
+    }
+    const result = buildDataSplitsTable(buckets, 100)
     expect(result).toContain('| Split | Clips |')
     expect(result).toContain('Train')
     expect(result).toContain('30 (30.0%)')
@@ -415,125 +299,146 @@ describe('buildDataSplitsTable', () => {
     expect(result).toContain('Other')
   })
 
-  it('returns empty string when no split files exist', () => {
-    const result = buildDataSplitsTable(tmpDir, 'en', 100)
+  it('returns empty string when all buckets are zero', () => {
+    const buckets: Buckets = {
+      train: 0, dev: 0, test: 0,
+      validated: 0, invalidated: 0, other: 0,
+    }
+    const result = buildDataSplitsTable(buckets, 100)
     expect(result).toBe('')
   })
 
-  it('omits splits with 0 rows', () => {
-    const header = 'client_id\tpath\tsentence\n'
-    fs.writeFileSync(path.join(tmpDir, 'en', 'train.tsv'), header + 'u1\tc1.mp3\tHi\n')
-    fs.writeFileSync(path.join(tmpDir, 'en', 'invalidated.tsv'), header) // header only
-
-    const result = buildDataSplitsTable(tmpDir, 'en', 1)
+  it('omits splits with 0 clips', () => {
+    const buckets: Buckets = {
+      train: 10, dev: 0, test: 0,
+      validated: 0, invalidated: 0, other: 0,
+    }
+    const result = buildDataSplitsTable(buckets, 10)
     expect(result).toContain('Train')
+    expect(result).not.toContain('Dev')
     expect(result).not.toContain('Invalidated')
   })
 })
 
-// extractAutoStats
+// -- buildVariantStatsTable --------------------------------------------------
 
-describe('extractAutoStats', () => {
-  let tmpDir: string
-
-  beforeEach(() => {
-    tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), 'ds-stats-'))
-    fs.mkdirSync(path.join(tmpDir, 'en'), { recursive: true })
-  })
-
-  afterEach(() => {
-    fs.rmSync(tmpDir, { recursive: true, force: true })
-  })
-
-  const writeClipsTsv = (rows: string[]) => {
-    fs.writeFileSync(
-      path.join(tmpDir, 'en', 'clips.tsv'),
-      [CLIPS_TSV_HEADER, ...rows].join('\n'),
+describe('buildVariantStatsTable', () => {
+  it('builds variant table sorted by count', () => {
+    const result = buildVariantStatsTable(
+      { 'Southern Welsh': 30, 'Northern Welsh': 70 },
+      100,
     )
-  }
-
-  it('counts clips, speakers, and demographics', async () => {
-    writeClipsTsv([
-      makeClipRow({ client_id: 'user1', path: 'clip1.mp3', sentence: 'Hello', up_votes: '2', age: 'twenties', gender: 'male_masculine' }),
-      makeClipRow({ client_id: 'user1', path: 'clip2.mp3', sentence: 'World', up_votes: '1', age: 'twenties', gender: 'male_masculine' }),
-      makeClipRow({ client_id: 'user2', path: 'clip3.mp3', sentence: 'Foo', up_votes: '1', age: 'thirties', gender: 'female_feminine' }),
-    ])
-
-    const result = await extractAutoStats(
-      path.join(tmpDir, 'en', 'clips.tsv'),
-      3600000, // 1 hour
-    )()
-
-    expect(result._tag).toBe('Right')
-    if (result._tag === 'Right') {
-      const stats = result.right
-      expect(stats.clips).toBe(3)
-      expect(stats.speakers).toBe(2)
-      expect(stats.totalHrs).toBe(1)
-      expect(stats.genderCounts).toEqual({
-        male_masculine: 2,
-        female_feminine: 1,
-      })
-      expect(stats.ageCounts).toEqual({
-        twenties: 2,
-        thirties: 1,
-      })
-    }
-  })
-
-  it('returns error for missing clips.tsv', async () => {
-    const result = await extractAutoStats(
-      path.join(tmpDir, 'en', 'clips.tsv'),
-      0,
-    )()
-
-    expect(result._tag).toBe('Left')
-  })
-
-  it('handles empty clips.tsv (header only)', async () => {
-    writeClipsTsv([])
-
-    const result = await extractAutoStats(
-      path.join(tmpDir, 'en', 'clips.tsv'),
-      0,
-    )()
-
-    expect(result._tag).toBe('Right')
-    if (result._tag === 'Right') {
-      expect(result.right.clips).toBe(0)
-      expect(result.right.speakers).toBe(0)
-      expect(result.right.totalHrs).toBe(0)
-    }
-  })
-
-  it('counts validated clips from validated.tsv when present', async () => {
-    writeClipsTsv([
-      makeClipRow({ client_id: 'user1', path: 'clip1.mp3', sentence: 'Hello', up_votes: '2', age: 'twenties', gender: 'male_masculine' }),
-      makeClipRow({ client_id: 'user1', path: 'clip2.mp3', sentence: 'World', up_votes: '1', age: 'twenties', gender: 'male_masculine' }),
-    ])
-    // Write validated.tsv with header + 1 data line
-    fs.writeFileSync(
-      path.join(tmpDir, 'en', 'validated.tsv'),
-      'client_id\tpath\tsentence\n' + 'user1\tclip1.mp3\tHello\n',
+    expect(result).toContain('| Variant | Clips |')
+    expect(result).toContain('Northern Welsh')
+    expect(result).toContain('70 (70.0%)')
+    expect(result).toContain('Southern Welsh')
+    // Northern should come first (sorted descending)
+    expect(result.indexOf('Northern Welsh')).toBeLessThan(
+      result.indexOf('Southern Welsh'),
     )
+  })
 
-    const result = await extractAutoStats(
-      path.join(tmpDir, 'en', 'clips.tsv'),
-      7200000, // 2 hours
-    )()
-
-    expect(result._tag).toBe('Right')
-    if (result._tag === 'Right') {
-      expect(result.right.validatedClips).toBe(1)
-      // validHrs should be based on 1 validated clip out of 2 total,
-      // avgDuration = 2hrs/2clips = 1hr = 3600s, validDurationSecs = 3600,
-      // validHrs = unitToHours(3600, 's', 2) = 1.0
-      expect(result.right.validHrs).toBe(1)
-    }
+  it('returns empty string for empty counts', () => {
+    expect(buildVariantStatsTable({}, 100)).toBe('')
   })
 })
 
-// Integration: fillTemplate with buildReplacementMap
+// -- buildAccentStatsTable ---------------------------------------------------
+
+describe('buildAccentStatsTable', () => {
+  it('builds accent table with percentages', () => {
+    const result = buildAccentStatsTable({ 'Welsh English': 50 }, 100)
+    expect(result).toContain('| Accent | Clips |')
+    expect(result).toContain('Welsh English')
+    expect(result).toContain('50.0%')
+  })
+
+  it('returns empty string for empty counts', () => {
+    expect(buildAccentStatsTable({}, 100)).toBe('')
+  })
+})
+
+// -- buildTextCorpusStatsTable -----------------------------------------------
+
+describe('buildTextCorpusStatsTable', () => {
+  it('builds corpus stats table with non-zero rows', () => {
+    const result = buildTextCorpusStatsTable({
+      validatedSentences: 100,
+      unvalidatedSentences: 20,
+      pendingSentences: 15,
+      rejectedSentences: 5,
+      reportedSentences: 3,
+    })
+    expect(result).toContain('| Category | Count |')
+    expect(result).toContain('Validated sentences')
+    expect(result).toContain('100')
+    expect(result).toContain('Rejected sentences')
+    expect(result).toContain('5')
+  })
+
+  it('omits zero-count categories', () => {
+    const result = buildTextCorpusStatsTable({
+      validatedSentences: 50,
+      unvalidatedSentences: 0,
+      pendingSentences: 0,
+      rejectedSentences: 0,
+      reportedSentences: 0,
+    })
+    expect(result).toContain('Validated sentences')
+    expect(result).not.toContain('Unvalidated')
+    expect(result).not.toContain('Rejected')
+  })
+
+  it('returns empty string when all are zero', () => {
+    const result = buildTextCorpusStatsTable({
+      validatedSentences: 0,
+      unvalidatedSentences: 0,
+      pendingSentences: 0,
+      rejectedSentences: 0,
+      reportedSentences: 0,
+    })
+    expect(result).toBe('')
+  })
+})
+
+// -- buildSourcesStatsTable --------------------------------------------------
+
+describe('buildSourcesStatsTable', () => {
+  it('builds sources table with percentage of total sentences', () => {
+    const result = buildSourcesStatsTable({ Wikipedia: 60, Tatoeba: 40 })
+    expect(result).toContain('| Source | Sentences |')
+    expect(result).toContain('Wikipedia')
+    expect(result).toContain('60.0%')
+    expect(result).toContain('Tatoeba')
+    expect(result).toContain('40.0%')
+  })
+
+  it('returns empty string for empty counts', () => {
+    expect(buildSourcesStatsTable({})).toBe('')
+  })
+})
+
+// -- buildTextDomainStatsTable -----------------------------------------------
+
+describe('buildTextDomainStatsTable', () => {
+  it('builds domain table with percentages of total clips', () => {
+    const result = buildTextDomainStatsTable(
+      { general: 80, healthcare: 20 },
+      100,
+    )
+    expect(result).toContain('| Domain | Clips |')
+    expect(result).toContain('general')
+    expect(result).toContain('80 (80.0%)')
+    expect(result).toContain('healthcare')
+    expect(result).toContain('20 (20.0%)')
+  })
+
+  it('returns empty string for empty counts', () => {
+    expect(buildTextDomainStatsTable({}, 100)).toBe('')
+  })
+})
+
+// -- Integration: fillTemplate + buildReplacementMap -------------------------
 
 describe('fillTemplate + buildReplacementMap integration', () => {
   it('produces a realistic filled datasheet', () => {
@@ -582,24 +487,16 @@ describe('fillTemplate + buildReplacementMap integration', () => {
       },
     }
 
-    const autoStats = {
+    const data = makeLocaleData({
       clips: 1000,
       speakers: 50,
       totalHrs: 12.5,
       validHrs: 10.3,
       genderCounts: { male_masculine: 600, female_feminine: 400 },
       ageCounts: { twenties: 500, thirties: 500 },
-      validatedClips: 800,
-    }
+    })
 
-    const replacements = buildReplacementMap(
-      payload,
-      autoStats,
-      'de',
-      'cv-corpus-25.0',
-      '/nonexistent',
-      ['Hello', 'World'],
-    )
+    const replacements = buildReplacementMap(payload, data, 'de', 'cv-corpus-25.0')
     const result = fillTemplate(template, replacements)
 
     // Header

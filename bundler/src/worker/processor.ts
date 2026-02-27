@@ -59,9 +59,7 @@ const processPipeline = pipe(
       ),
     ),
   ),
-  RTE.chainFirst(({ totalDurationInMs }) =>
-    runGenerateDatasheet(totalDurationInMs),
-  ),
+  RTE.chainFirst(() => runGenerateDatasheet),
   RTE.bind('tarFilepath', runCompress),
   RTE.bind('uploadPath', ({ tarFilepath }) => runUpload(tarFilepath)),
   RTE.chainFirst(runCompressAndUploadMetadata),
