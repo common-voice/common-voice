@@ -1,3 +1,4 @@
+import * as readline from 'node:readline'
 import { program, Option } from 'commander'
 import { pipe } from 'fp-ts/lib/function'
 import { addJobToQueue, getQueue } from '../../infrastructure/queues/queues'
@@ -15,13 +16,55 @@ type InitDatasetReleaseJob = {
   datasheetsFile?: string
 }
 
+const confirm = (question: string): Promise<boolean> => {
+  const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout,
+  })
+  return new Promise(resolve => {
+    rl.question(question, answer => {
+      rl.close()
+      resolve(answer.trim().toLowerCase() === 'y')
+    })
+  })
+}
+
 const startDatasetRelease = async (args: any, options: any) => {
+  // ---------------------------------------------------------------------------
+  // DEPRECATION WARNING
+  // This CLI uses the "bull" library to enqueue jobs, but the bundler worker
+  // uses "BullMQ". These libraries use incompatible Redis data structures,
+  // so jobs enqueued from here will NOT be picked up by the bundler.
+  //
+  // Use the bundler CLI instead:
+  //   cd bundler && node js/cli/start-dataset-release.js [same flags]
+  //
+  // Or from inside the bundler container/pod:
+  //   node cli/start-dataset-release.js [same flags]
+  // ---------------------------------------------------------------------------
+  console.warn(
+    '\n' +
+      '  WARNING: This CLI uses "bull" but the bundler worker uses "BullMQ".\n' +
+      '  Jobs enqueued from here will NOT be picked up by the bundler.\n' +
+      '\n' +
+      '  Use the bundler CLI instead:\n' +
+      '    cd bundler && node js/cli/start-dataset-release.js [same flags]\n' +
+      '\n' +
+      '  Or from inside the bundler container:\n' +
+      '    node cli/start-dataset-release.js [same flags]\n'
+  )
+  const proceed = await confirm('  Continue anyway? (y/N) ')
+  if (!proceed) {
+    console.log('Aborted.')
+    process.exit(0)
+  }
+
   // -f is required for delta releases (defines the start of the time window)
   if (args.type === 'delta' && args.from === '1970-01-01 00:00:00') {
     console.error(
       'Error: -f (--from) is required for -t delta.\n' +
         'It defines the start of the time window for clips included in the delta.\n' +
-        "Example: -t delta -f '2025-09-05 00:00:00' -u '2026-03-09 23:59:59'",
+        "Example: -t delta -f '2025-09-05 00:00:00' -u '2026-03-09 23:59:59'"
     )
     process.exit(1)
   }
@@ -31,7 +74,7 @@ const startDatasetRelease = async (args: any, options: any) => {
     console.error(
       'Error: -p (--previousReleaseName) is required for -t full.\n' +
         'It specifies the previous release whose clips bootstrap the new one.\n' +
-        'Example: -t full -r cv-corpus-25.0-2026-03-09 -p cv-corpus-24.0-2025-12-05',
+        'Example: -t full -r cv-corpus-25.0-2026-03-09 -p cv-corpus-24.0-2025-12-05'
     )
     process.exit(1)
   }
@@ -40,14 +83,17 @@ const startDatasetRelease = async (args: any, options: any) => {
   if (args.type === 'variants' && args.previousReleaseName) {
     console.warn(
       'Warning: -p (--previousReleaseName) is ignored for -t variants.\n' +
-        'Variant releases use -r (releaseName) as the source full release.',
+        'Variant releases use -r (releaseName) as the source full release.'
     )
   }
 
   // -p is ignored for delta and statistics
-  if ((args.type === 'delta' || args.type === 'statistics') && args.previousReleaseName) {
+  if (
+    (args.type === 'delta' || args.type === 'statistics') &&
+    args.previousReleaseName
+  ) {
     console.warn(
-      `Warning: -p (--previousReleaseName) is ignored for -t ${args.type}.`,
+      `Warning: -p (--previousReleaseName) is ignored for -t ${args.type}.`
     )
   }
 
@@ -61,7 +107,8 @@ const startDatasetRelease = async (args: any, options: any) => {
       until: args.until,
       releaseName: args.releaseName,
       // Only pass previousReleaseName for full releases
-      previousReleaseName: args.type === 'full' ? args.previousReleaseName : undefined,
+      previousReleaseName:
+        args.type === 'full' ? args.previousReleaseName : undefined,
       languages: args.languages || [],
       licenseMode,
       datasheetsFile: args.datasheetsFile,
