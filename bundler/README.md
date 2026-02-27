@@ -39,41 +39,71 @@ Variant releases produce one tarball per (locale, variant) combination. Requires
 
 ### CLI usage
 
-The CLI lives in `server/src/api/cli/start-dataset-release.ts`. In pods, run the compiled JS from the server build output directory. `-u` and `-r` are required for all release types. `-f` is optional (defaults to epoch `1970-01-01`) but **required for delta releases** (defines the start of the clip time window). `-p` is required for full releases (previous release to bootstrap clips from) and ignored for delta, statistics, and variants.
+The CLI lives in `server/src/api/cli/start-dataset-release.ts`. In pods, run the compiled JS from the server build output directory.
+
+The command format is:
 
 ```bash
+node start-dataset-release.js \
+  -t <release type> \
+  -u <release timestamp> \
+  -r <release name> \
+  [ -f <from timestamp> ] \
+  [ -p <previous release name> ] \
+  [ -l <locale1 locale2 ...> ] \
+  [ --license-mode <licensed|unlicensed|both> ] \
+  [ -d <datasheets filename or URL> ]
+```
+
+- `-t` is the release type (`full`, `delta`, `statistics`, or `variants`). Required.
+- `-u` is the release timestamp (defines the end of the clip time window). Required.
+- `-r` is the release name (used for output naming and GCS paths). Required.
+- `-f` is optional (defaults to epoch `1970-01-01`) but **required for delta releases** (defines the start of the clip time window).
+- `-p` is required for full releases (previous release to bootstrap clips from) and ignored for delta, statistics, and variants.
+- `-d` is optional and specifies the datasheets JSON filename or full URL (useful when datasheets live on an unmerged branch or a specific commit).
+
+```bash
+# Change to the server build output directory
+cd server/js/api/cli
+
 # Full release (all locales, unlicensed) — -p required, -f optional (defaults to epoch)
-node js/api/cli/start-dataset-release.js \
+node start-dataset-release.js \
   -t full -u '2026-03-06 23:59:59' \
   -r cv-corpus-25.0-2026-03-06 -p cv-corpus-24.0-2025-12-01
 
+# Full release with datasheets from a specific commit (e.g. for test purposes while the new datasheets file is on a branch and not yet merged to main)
+node start-dataset-release.js \
+  -t full -u '2026-03-06 23:59:59' \
+  -r cv-corpus-25.0-2026-03-06 -p cv-corpus-24.0-2025-12-01 \
+  -d 'https://raw.githubusercontent.com/common-voice/cv-datasheets/<commit>/releases/datasheets-25.0-2026-03-06.json'
+
 # Full release (specific locales only)
-node js/api/cli/start-dataset-release.js \
+node start-dataset-release.js \
   -t full -u '2026-03-06 23:59:59' \
   -r cv-corpus-25.0-2026-03-06 -p cv-corpus-24.0-2025-12-01 -l en tr de
 
 # Delta release — -f required (defines start of clip time window), -p not needed
-node js/api/cli/start-dataset-release.js \
+node start-dataset-release.js \
   -t delta -f '2025-09-05 00:00:00' -u '2026-03-06 23:59:59' \
   -r cv-corpus-25.0-delta-2026-03-06
 
 # Variant release — sources clips from the full release identified by -r
-node js/api/cli/start-dataset-release.js \
+node start-dataset-release.js \
   -t variants -u '2026-03-06 23:59:59' \
   -r cv-corpus-25.0-2026-03-06
 
 # Statistics only (re-run stats, no clip processing)
-node js/api/cli/start-dataset-release.js \
+node start-dataset-release.js \
   -t statistics -u '2026-03-06 23:59:59' \
   -r cv-corpus-25.0-2026-03-06
 
 # Licensed locales only
-node js/api/cli/start-dataset-release.js \
+node start-dataset-release.js \
   -t full -u '2026-03-06 23:59:59' \
   -r cv-corpus-25.0-2026-03-06 -p cv-corpus-24.0-2025-12-01 --license-mode licensed
 
 # Both licensed and unlicensed (separate tarballs)
-node js/api/cli/start-dataset-release.js \
+node start-dataset-release.js \
   -t full -u '2026-03-06 23:59:59' \
   -r cv-corpus-25.0-2026-03-06 -p cv-corpus-24.0-2025-12-01 --license-mode both
 ```
@@ -97,7 +127,8 @@ bundler/
 │   │   ├── reportedSentences.ts
 │   │   ├── ruleOfFive.ts     # Minority-language check (< 5 speakers)
 │   │   ├── sentences.ts      # Validated / unvalidated sentence TSVs
-│   │   ├── stats.ts          # Per-locale statistics JSON
+│   │   ├── localeData.ts     # Shared locale data extraction (clips, sentences, buckets, durations)
+│   │   ├── stats.ts          # Per-locale statistics JSON (reads from localeData)
 │   │   ├── upload.ts         # GCS archive upload
 │   │   ├── utils.ts          # Shared utilities (line counting, unit conversion, duration formatting)
 │   │   └── locales.ts        # Locale + variant queries (fetchLocalesWithVariantClips)
@@ -112,10 +143,13 @@ bundler/
 │   │   ├── redis.ts                # Shared ioredis client
 │   │   ├── storage.ts              # Google Cloud Storage adapter
 │   │   └── tar.ts                  # tar extraction
+│   ├── test-helpers/
+│   │   └── tsv.ts              # Shared TSV serialisation helpers for tests
 │   ├── worker/
-│   │   ├── processor.ts        # Per-locale processing pipeline
-│   │   ├── processVariants.ts  # Variant release processing (per-locale, loops variants)
-│   │   └── worker.ts           # BullMQ worker entry point
+│   │   ├── generateStatistics.ts  # Statistics-only release pipeline (re-run stats without clips)
+│   │   ├── processor.ts           # Per-locale processing pipeline
+│   │   ├── processVariants.ts     # Variant release processing (per-locale, loops variants)
+│   │   └── worker.ts              # BullMQ worker entry point
 │   ├── main.ts               # Service entry point
 │   └── types.ts              # Shared TypeScript types
 ├── queries/                  # SQL query files
@@ -244,19 +278,20 @@ npm start
 
 Tests use **Jest** with **ts-jest** (runs TypeScript directly, no pre-compile step).
 
-| File                                           | Covers                                                                                          |
-| ---------------------------------------------- | ----------------------------------------------------------------------------------------------- |
-| `src/core/compress.test.ts`                    | Tar filename generation, path filtering, license sanitization                                   |
-| `src/core/datasheets.test.ts`                  | Template filling, replacement map, sentence sampling, auto-stats                                |
-| `src/core/datasheets.e2e.test.ts`              | Full pipeline with live GitHub data (skipped in CI)                                             |
-| `src/core/metadata.test.ts`                    | Metadata archive helpers                                                                        |
-| `src/core/problemClips.test.ts`                | Duration filter classification, clips.tsv rewrite, Redis push, TTL                              |
-| `src/core/releaseLogger.test.ts`               | Process-log row format, GCS flush triggers, Redis key routing, progress throttle, error swallow |
-| `src/core/stats.test.ts`                       | Stats line-count mapping                                                                        |
-| `src/core/utils.test.ts`                       | `countLinesInFile`, `unitToHours`, `formatDuration`, `renderBar`, `formatCompact`, `formatEta`  |
-| `src/infrastructure/datasheetsFetcher.test.ts` | Local file loading, modality mapping, error recovery                                            |
-| `src/worker/processor.test.ts`                 | Job environment derivation, `uploadPath` precomputation                                         |
-| `src/worker/processVariants.test.ts`           | Variant clip/duration filtering, env derivation, locale column rewriting                        |
+| File                                           | Covers                                                                                         |
+| ---------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| `src/core/compress.test.ts`                    | Tar filename generation, path filtering, license sanitization                                  |
+| `src/core/datasheets.test.ts`                  | Template filling, replacement map, table builders, dangling header cleanup                     |
+| `src/core/datasheets.e2e.test.ts`              | Full pipeline with live GitHub data (skipped in CI)                                            |
+| `src/core/localeData.test.ts`                  | Clips.tsv scanning, sentence file scanning, locale data orchestration, source filtering        |
+| `src/core/metadata.test.ts`                    | Metadata archive helpers                                                                       |
+| `src/core/problemClips.test.ts`                | Duration filter classification, clips.tsv rewrite, Redis push, TTL                             |
+| `src/core/releaseLogger.test.ts`               | Process-log row format, GCS flush triggers, Redis key routing, progress throttle, error swallow|
+| `src/core/stats.test.ts`                       | `unitToHours` conversion, `buildLocale` mapping from `LocaleReleaseData`                       |
+| `src/core/utils.test.ts`                       | `countLinesInFile`, `unitToHours`, `formatDuration`, `renderBar`, `formatCompact`, `formatEta` |
+| `src/infrastructure/datasheetsFetcher.test.ts` | Local file loading, modality mapping, error recovery                                           |
+| `src/worker/processor.test.ts`                 | Job environment derivation, `uploadPath` precomputation                                        |
+| `src/worker/processVariants.test.ts`           | Variant clip/duration filtering, env derivation, locale column rewriting                       |
 
 ---
 
