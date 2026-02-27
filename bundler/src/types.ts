@@ -1,4 +1,5 @@
 import { Modality } from './config/config'
+import type { LocaleReleaseData } from './core/localeData'
 
 export const ProblemClipReason = {
   TOO_SMALL: 'TOO_SMALL', // GCS object size <= MIN_AUDIO_SIZE_BYTES (likely corrupt)
@@ -124,6 +125,7 @@ export type AppEnv = Settings & {
   // Workflow change needed: Release the delta first!
   deltaReleaseName?: string
   datasheetPayload?: DatasheetLocalePayload
+  localeData?: LocaleReleaseData // populated by scanLocaleData step; shared by datasheets + stats
   problemClips: ProblemClip[] // mutable accumulator, freshly initialised per job
   clipCount: number // set after stats step; 0 until then
   startTimestamp: string // ISO 8601 -- set by deriveJobEnv at job start

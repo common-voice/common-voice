@@ -22,6 +22,7 @@ import { runUpload } from '../core/upload'
 import { runCleanUp } from '../core/cleanUp'
 import { runCompressAndUploadMetadata } from '../core/metadata'
 import { runGenerateDatasheet } from '../core/datasheets'
+import { runScanLocaleData } from '../core/localeData'
 import { runFilterProblemClips, runPushProblemClips } from '../core/problemClips'
 import { flushReleaseLogs } from '../core/releaseLogger'
 import { doesFileExistInBucket } from '../infrastructure/storage'
@@ -48,6 +49,16 @@ const processPipeline = pipe(
   RTE.chainFirst(runCorporaCreator),
   RTE.chainFirst(runReportedSentences),
   RTE.chainFirst(runFetchSentencesForLocale),
+  RTE.chainFirstW(({ totalDurationInMs }) =>
+    pipe(
+      runScanLocaleData(totalDurationInMs),
+      RTE.chainFirstW(localeData =>
+        RTE.asks<AppEnv, void>(env => {
+          env.localeData = localeData
+        }),
+      ),
+    ),
+  ),
   RTE.chainFirst(({ totalDurationInMs }) =>
     runGenerateDatasheet(totalDurationInMs),
   ),
