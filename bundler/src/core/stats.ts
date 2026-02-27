@@ -195,14 +195,14 @@ export const mapLineCountsToStats = (
     if (!isCorporaCreatorFile(key)) return acc
 
     const newKey = key.replace('.tsv', '')
-    // Remove the line count for the header
-    const newValue = value - 1
+    // Remove the line count for the header; clamp to 0 for empty files
+    const newValue = Math.max(0, value - 1)
     return { ...acc, [newKey]: newValue }
   }, {} as Buckets)
 
-  const reportedSentences = Number(obj['reported.tsv']) - 1
-  const validatedSentences = Number(obj['validated_sentences.tsv']) - 1
-  const unvalidatedSentences = Number(obj['unvalidated_sentences.tsv']) - 1
+  const reportedSentences = Math.max(0, Number(obj['reported.tsv'] ?? 0) - 1)
+  const validatedSentences = Math.max(0, Number(obj['validated_sentences.tsv'] ?? 0) - 1)
+  const unvalidatedSentences = Math.max(0, Number(obj['unvalidated_sentences.tsv'] ?? 0) - 1)
 
   return {
     buckets,

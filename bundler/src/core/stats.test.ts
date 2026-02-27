@@ -131,4 +131,39 @@ describe('mapLineCountsToStats', () => {
     expect(result.buckets.dev).toBe(0)
     expect(result.reportedSentences).toBe(0)
   })
+
+  it('clamps to 0 for empty files (0 bytes -> wc returns 0)', () => {
+    const counts: LineCounts = {
+      'dev.tsv': 0,
+      'test.tsv': 0,
+      'train.tsv': 0,
+      'validated.tsv': 0,
+      'invalidated.tsv': 0,
+      'other.tsv': 0,
+      'reported.tsv': 0,
+      'validated_sentences.tsv': 0,
+      'unvalidated_sentences.tsv': 0,
+    }
+    const result = mapLineCountsToStats(counts)
+    expect(result.buckets.dev).toBe(0)
+    expect(result.buckets.validated).toBe(0)
+    expect(result.reportedSentences).toBe(0)
+    expect(result.validatedSentences).toBe(0)
+    expect(result.unvalidatedSentences).toBe(0)
+  })
+
+  it('clamps to 0 when sentence files are missing from line counts', () => {
+    const counts: LineCounts = {
+      'dev.tsv': 5,
+      'test.tsv': 3,
+      'train.tsv': 2,
+      'validated.tsv': 10,
+      'invalidated.tsv': 1,
+      'other.tsv': 1,
+    }
+    const result = mapLineCountsToStats(counts)
+    expect(result.reportedSentences).toBe(0)
+    expect(result.validatedSentences).toBe(0)
+    expect(result.unvalidatedSentences).toBe(0)
+  })
 })
