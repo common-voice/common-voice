@@ -467,6 +467,8 @@ indicates-required = * Υποχρεωτικό πεδίο
 not-available-abbreviation = Μ/Δ
 # Text shown on a button that can be clicked to copy text to the clipboard
 copy = Αντιγραφή
+# Text shown on a button that can be clicked to close a modal or panel
+close = Κλείσιμο
 # Text shown on a button that can be clicked to cancel an action
 cancel = Ακύρωση
 # Text shown on a button that can be clicked to delete an item

@@ -6,3 +6,4 @@ contact-form-name =
 contact-form-message =
     .label = Μήνυμα
 contact-required = *απαιτείται
+contact-form-error = Κάτι πήγε στραβά. Δοκιμάστε ξανά.
