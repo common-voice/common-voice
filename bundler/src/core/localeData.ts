@@ -184,6 +184,7 @@ export const scanClipsTsv = (
             const domains = raw.split(',')
             for (const d of domains) {
               const trimmed = d.trim()
+              if (!trimmed) continue
               domainCounts[trimmed] = (domainCounts[trimmed] ?? 0) + 1
               if (cid) { ;(domainCids[trimmed] ??= new Set()).add(cid) }
             }
