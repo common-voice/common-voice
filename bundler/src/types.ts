@@ -91,26 +91,36 @@ export type LocaleWithLicense = {
   clip_count: number
 }
 
-export type ValidatedSentence = {
-  sentence_id: string
-  sentence: string
-  variant: string
-  sentence_domain: string
-  source: string
-  is_used: string
-  clips_count: string
-}
+export const VALIDATED_SENTENCE_COLUMNS = [
+  'sentence_id',
+  'sentence',
+  'variant',
+  'sentence_domain',
+  'source',
+  'is_used',
+  'clips_count',
+] as const
 
-export type UnvalidatedSentence = {
-  sentence_id: string
-  sentence: string
-  variant: string
-  sentence_domain: string
-  source: string
-  up_votes: string
-  down_votes: string
-  status: string
-}
+export type ValidatedSentence = Record<
+  (typeof VALIDATED_SENTENCE_COLUMNS)[number],
+  string
+>
+
+export const UNVALIDATED_SENTENCE_COLUMNS = [
+  'sentence_id',
+  'sentence',
+  'variant',
+  'sentence_domain',
+  'source',
+  'up_votes',
+  'down_votes',
+  'status',
+] as const
+
+export type UnvalidatedSentence = Record<
+  (typeof UNVALIDATED_SENTENCE_COLUMNS)[number],
+  string
+>
 
 export type AppEnv = Settings & {
   locale: string

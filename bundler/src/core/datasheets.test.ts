@@ -9,29 +9,13 @@ import {
   sampleSentences,
   extractAutoStats,
 } from './datasheets'
-import { DatasheetLocalePayload, ValidatedSentence } from '../types'
-
-// -- TSV serialisation helpers -----------------------------------------------
-
-// Column order matches the actual validated_sentences.tsv layout.
-// Derived from ValidatedSentence to stay in sync with the type definition.
-const VALIDATED_SENTENCES_COLS: (keyof ValidatedSentence)[] = [
-  'sentence_id',
-  'sentence',
-  'variant',
-  'sentence_domain',
-  'source',
-  'is_used',
-  'clips_count',
-]
-
-const toValidatedSentencesTsv = (rows: ValidatedSentence[]): string => {
-  const header = VALIDATED_SENTENCES_COLS.join('\t')
-  const dataRows = rows.map(row =>
-    VALIDATED_SENTENCES_COLS.map(col => row[col]).join('\t'),
-  )
-  return [header, ...dataRows].join('\n')
-}
+import { DatasheetLocalePayload } from '../types'
+import {
+  CLIPS_TSV_HEADER,
+  makeClipRow,
+  toValidatedSentencesTsv,
+  makeValidatedSentence,
+} from '../test-helpers/tsv'
 
 // fillTemplate
 
@@ -324,15 +308,13 @@ describe('sampleSentences', () => {
     fs.rmSync(tmpDir, { recursive: true, force: true })
   })
 
-  const makeRow = (i: number, isUsed: '0' | '1' = '1'): ValidatedSentence => ({
-    sentence_id: `id${i}`,
-    sentence: `Sentence ${i}`,
-    variant: '',
-    sentence_domain: 'general',
-    source: 'wiki',
-    is_used: isUsed,
-    clips_count: '3',
-  })
+  const makeRow = (i: number, isUsed: '0' | '1' = '1') =>
+    makeValidatedSentence({
+      sentence_id: `id${i}`,
+      sentence: `Sentence ${i}`,
+      source: 'wiki',
+      is_used: isUsed,
+    })
 
   const writeTsv = (tmpDir: string, rows: ValidatedSentence[]) =>
     fs.writeFileSync(
@@ -464,19 +446,17 @@ describe('extractAutoStats', () => {
   })
 
   const writeClipsTsv = (rows: string[]) => {
-    const header =
-      'client_id\tpath\tsentence\tup_votes\tdown_votes\tage\tgender\taccents\tvariant\tlocale\tsegment\tsentence_domain'
     fs.writeFileSync(
       path.join(tmpDir, 'en', 'clips.tsv'),
-      [header, ...rows].join('\n'),
+      [CLIPS_TSV_HEADER, ...rows].join('\n'),
     )
   }
 
   it('counts clips, speakers, and demographics', async () => {
     writeClipsTsv([
-      'user1\tclip1.mp3\tHello\t2\t0\ttwenties\tmale_masculine\t\t\ten\t\tgeneral',
-      'user1\tclip2.mp3\tWorld\t1\t0\ttwenties\tmale_masculine\t\t\ten\t\tgeneral',
-      'user2\tclip3.mp3\tFoo\t1\t0\tthirties\tfemale_feminine\t\t\ten\t\tgeneral',
+      makeClipRow({ client_id: 'user1', path: 'clip1.mp3', sentence: 'Hello', up_votes: '2', age: 'twenties', gender: 'male_masculine' }),
+      makeClipRow({ client_id: 'user1', path: 'clip2.mp3', sentence: 'World', up_votes: '1', age: 'twenties', gender: 'male_masculine' }),
+      makeClipRow({ client_id: 'user2', path: 'clip3.mp3', sentence: 'Foo', up_votes: '1', age: 'thirties', gender: 'female_feminine' }),
     ])
 
     const result = await extractAutoStats(
@@ -528,8 +508,8 @@ describe('extractAutoStats', () => {
 
   it('counts validated clips from validated.tsv when present', async () => {
     writeClipsTsv([
-      'user1\tclip1.mp3\tHello\t2\t0\ttwenties\tmale_masculine\t\t\ten\t\tgeneral',
-      'user1\tclip2.mp3\tWorld\t1\t0\ttwenties\tmale_masculine\t\t\ten\t\tgeneral',
+      makeClipRow({ client_id: 'user1', path: 'clip1.mp3', sentence: 'Hello', up_votes: '2', age: 'twenties', gender: 'male_masculine' }),
+      makeClipRow({ client_id: 'user1', path: 'clip2.mp3', sentence: 'World', up_votes: '1', age: 'twenties', gender: 'male_masculine' }),
     ])
     // Write validated.tsv with header + 1 data line
     fs.writeFileSync(
