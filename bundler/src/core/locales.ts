@@ -40,6 +40,69 @@ export const fetchLocalesWithLicensedClips = (
   )
 
 // ---------------------------------------------------------------------------
+// Delta locale selection
+// ---------------------------------------------------------------------------
+// Delta releases should only include locales that existed in the previous
+// release (i.e., had clips before the delta window). New locales that got
+// their first clips during the delta window belong in the next full release.
+// Locales with 0 new clips still get a "clipless delta" (metadata-only).
+//
+// Boundary note: fetchLocalesWithClips(EPOCH, deltaFrom) uses SQL BETWEEN
+// (inclusive). If the previous full release's `until` extends beyond
+// `deltaFrom` (e.g. same day 23:59:59 vs 00:00:00), a locale whose only
+// clips fall in that gap could be missed. In practice this is negligible —
+// production locales have clips spanning months/years.
+// ---------------------------------------------------------------------------
+
+const EPOCH = '1970-01-01 00:00:00'
+
+/**
+ * For delta releases: fetch only locales that existed before the delta window.
+ * Returns previous-release locales with their new clip count in the delta
+ * window (0 for clipless deltas).
+ */
+export const fetchDeltaLocales = (
+  deltaFrom: string,
+  deltaUntil: string,
+): TE.TaskEither<Error, LocalesWithClips[]> =>
+  pipe(
+    TE.Do,
+    TE.bind('prevLocales', () => fetchLocalesWithClips(EPOCH, deltaFrom)),
+    TE.bind('deltaClips', () => fetchLocalesWithClips(deltaFrom, deltaUntil)),
+    TE.map(({ prevLocales, deltaClips }) => {
+      const deltaMap = new Map(deltaClips.map(l => [l.name, l.clip_count]))
+      return prevLocales.map(l => ({
+        name: l.name,
+        clip_count: deltaMap.get(l.name) ?? 0,
+      }))
+    }),
+  )
+
+/**
+ * For delta releases: fetch only licensed locale-license combos that existed
+ * before the delta window. Returns previous-release combos with their new
+ * clip count in the delta window (0 for clipless deltas).
+ */
+export const fetchDeltaLicensedLocales = (
+  deltaFrom: string,
+  deltaUntil: string,
+): TE.TaskEither<Error, LocaleWithLicense[]> =>
+  pipe(
+    TE.Do,
+    TE.bind('prevLocales', () => fetchLocalesWithLicensedClips(EPOCH, deltaFrom)),
+    TE.bind('deltaClips', () => fetchLocalesWithLicensedClips(deltaFrom, deltaUntil)),
+    TE.map(({ prevLocales, deltaClips }) => {
+      const key = (l: { name: string; license: string }) => `${l.name}|${l.license}`
+      const deltaMap = new Map(deltaClips.map(l => [key(l), l.clip_count]))
+      return prevLocales.map(l => ({
+        name: l.name,
+        license: l.license,
+        clip_count: deltaMap.get(key(l)) ?? 0,
+      }))
+    }),
+  )
+
+// ---------------------------------------------------------------------------
 // Variant clip queries
 // ---------------------------------------------------------------------------
 

@@ -5,6 +5,8 @@ import {
   fetchLocalesWithClips,
   fetchLocalesWithLicensedClips,
   fetchLocalesWithVariantClips,
+  fetchDeltaLocales,
+  fetchDeltaLicensedLocales,
 } from '../core/locales'
 import { DatasheetLocalePayload, ProcessLocaleJob, Settings } from '../types'
 import { getRedisUrl, RELEASE_LOG_KEY_TTL_SEC, redisKeys } from '../config/config'
@@ -45,6 +47,17 @@ const attachDatasheetPayload = (
   if (payload) return { ...job, datasheetPayload: payload }
   return job
 }
+
+/** For delta: only previous-release locales. For full/stats: all locales in window. */
+const getLocales = (settings: Settings) =>
+  settings.type === 'delta'
+    ? fetchDeltaLocales(settings.from, settings.until)
+    : fetchLocalesWithClips(settings.from, settings.until)
+
+const getLicensedLocales = (settings: Settings) =>
+  settings.type === 'delta'
+    ? fetchDeltaLicensedLocales(settings.from, settings.until)
+    : fetchLocalesWithLicensedClips(settings.from, settings.until)
 
 export const addJobsToReleaseQueue = (settings: Settings) =>
   pipe(
@@ -107,7 +120,7 @@ export const addJobsToReleaseQueue = (settings: Settings) =>
       if (licenseMode === 'licensed') {
         // Only process locales with licensed clips
         return pipe(
-          fetchLocalesWithLicensedClips(settings.from, settings.until),
+          getLicensedLocales(settings),
           TE.map(localesWithLicenses => {
             // Filter by languages if specified
             const filtered =
@@ -136,11 +149,14 @@ export const addJobsToReleaseQueue = (settings: Settings) =>
           TE.Do,
           TE.bind('allLocales', () =>
             pipe(
-              fetchLocalesWithClips(settings.from, settings.until),
+              getLocales(settings),
               TE.map(locales => {
                 if (settings.languages.length === 0) return locales
-                // Keep all requested locales (even those with 0 clips) but
-                // use actual DB clip counts for progress tracking.
+                if (settings.type === 'delta') {
+                  // Delta: only keep requested locales that exist in previous release
+                  return locales.filter(l => settings.languages.includes(l.name))
+                }
+                // Full/stats: include all requested locales (even those with 0 clips)
                 const countMap = new Map(locales.map(l => [l.name, l.clip_count]))
                 return settings.languages.map(l => ({
                   name: l,
@@ -150,7 +166,7 @@ export const addJobsToReleaseQueue = (settings: Settings) =>
             ),
           ),
           TE.bind('licensedLocales', () =>
-            fetchLocalesWithLicensedClips(settings.from, settings.until),
+            getLicensedLocales(settings),
           ),
           TE.map(({ allLocales, licensedLocales }) => {
             const jobs: ProcessLocaleJob[] = []
@@ -193,17 +209,21 @@ export const addJobsToReleaseQueue = (settings: Settings) =>
       } else {
         // Default: 'unlicensed' - only process unlicensed
         return pipe(
-          fetchLocalesWithClips(settings.from, settings.until),
+          getLocales(settings),
           TE.map(allLocales => {
             const locales =
               settings.languages.length > 0
-                ? (() => {
-                    const countMap = new Map(allLocales.map(l => [l.name, l.clip_count]))
-                    return settings.languages.map(l => ({
-                      name: l,
-                      clip_count: countMap.get(l) ?? 0,
-                    }))
-                  })()
+                ? settings.type === 'delta'
+                  // Delta: only keep requested locales that exist in previous release
+                  ? allLocales.filter(l => settings.languages.includes(l.name))
+                  : (() => {
+                      // Full/stats: include all requested locales (even those with 0 clips)
+                      const countMap = new Map(allLocales.map(l => [l.name, l.clip_count]))
+                      return settings.languages.map(l => ({
+                        name: l,
+                        clip_count: countMap.get(l) ?? 0,
+                      }))
+                    })()
                 : allLocales
 
             logger.info(
