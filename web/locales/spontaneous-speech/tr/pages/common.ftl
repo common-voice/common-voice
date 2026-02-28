@@ -26,6 +26,10 @@ contribute = Katkı ver
 # Button text which appears when there are no more resources
 continue-with-skipped = Atladıklarınla devam et
 
+## Common aria-labels
+
+keyboard-shortcuts-button-aria-label = Klavye kısayollarını göster
+
 ## Navbar
 
 question = Soru
@@ -54,8 +58,20 @@ language-search-aria-label = Dil ara
 language-search-label = Yalnızca destek verilen veri kümesinin dilini değiştirir
 language-search-no-results = Dil bulunamadı
 
+## Transcription Player - Mode Buttons
+
+# Transcription Player - Automatic Mode
+transcription-mode-auto = Otomatik
+# Player - slower
+player-speed-slow = Yavaş
+# Player - normal speed
+player-speed-normal = Normal
+# Player - faster
+player-speed-fast = Hızlı
+
 ## Transcription Player Controls - Keyboard Shortcuts
 
+player-play-pause-shortcut-name = Oynat / duraklat
 # Player control shortcut to go back 5 seconds: pressed with Ctrl/Cmd
 player-skip-backward-shortcut = 8
 player-skip-backward-shortcut-key = Ctrl / Cmd + 8
@@ -64,3 +80,20 @@ player-skip-backward-shortcut-name = Geri
 player-skip-forward-shortcut = 9
 player-skip-forward-shortcut-key = Ctrl / Cmd + 9
 player-skip-forward-shortcut-name = İleri
+
+## Transcription Player - Aria Labels
+
+# Play button accessibility/aria label
+player-play-button-aria-label = Sesi çal
+# Pause button accessibility/aria label
+player-pause-button-aria-label = Sesi duraklat
+# Skip back button accessibility/aria label
+player-skip-backward-aria-label = 5 saniye geri atla
+# Skip forward button accessibility/aria label
+player-skip-forward-aria-label = 5 saniye ileri atla
+# Slower playback speed button accessibility/aria label
+player-speed-slow-aria-label = Daha yavaş oynatma hızı
+# Normal playback speed button accessibility/aria label
+player-speed-normal-aria-label = Normal oynatma hızı
+# Faster playback speed button accessibility/aria label
+player-speed-fast-aria-label = Daha hızlı oynatma hızı
