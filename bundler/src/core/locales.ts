@@ -103,6 +103,54 @@ export const fetchDeltaLicensedLocales = (
   )
 
 // ---------------------------------------------------------------------------
+// Accent metadata
+// ---------------------------------------------------------------------------
+
+type AccentRow = {
+  accent_name: string
+  accent_token: string | null
+  user_submitted: number
+}
+
+export type AccentMetadata = {
+  predefinedNames: string[]
+  codeMap: Record<string, string>
+}
+
+/**
+ * Fetches all accents for a locale with their codes and user_submitted flag.
+ * Returns both the list of predefined accent names (for filtering) and a
+ * name→code map (for display in the accent table).
+ */
+export const fetchAccentMetadata = (
+  locale: string,
+): TE.TaskEither<Error, AccentMetadata> =>
+  pipe(
+    query<AccentRow[]>(
+      `SELECT accent_name, accent_token, user_submitted FROM accents
+       WHERE locale_id = (SELECT id FROM locales WHERE name = ?)
+         AND accent_name != ''
+         AND accent_name != 'unspecified'`,
+      [locale],
+    ),
+    TE.map(rows => {
+      const predefinedNames: string[] = []
+      const codeMap: Record<string, string> = {}
+
+      for (const row of rows) {
+        if (row.accent_token) {
+          codeMap[row.accent_name] = row.accent_token
+        }
+        if (!row.user_submitted) {
+          predefinedNames.push(row.accent_name)
+        }
+      }
+
+      return { predefinedNames, codeMap }
+    }),
+  )
+
+// ---------------------------------------------------------------------------
 // Variant clip queries
 // ---------------------------------------------------------------------------
 

@@ -448,15 +448,107 @@ describe('buildVariantStatsTable', () => {
 // -- buildAccentStatsTable ---------------------------------------------------
 
 describe('buildAccentStatsTable', () => {
-  it('builds accent table with percentages', () => {
+  it('builds accent table with percentages (no code map)', () => {
     const result = buildAccentStatsTable({ 'Welsh English': 50 }, 100)
     expect(result).toContain('| Accent | Clips |')
+    expect(result).not.toContain('Code')
     expect(result).toContain('Welsh English')
     expect(result).toContain('50.0%')
   })
 
   it('returns empty string for empty counts', () => {
     expect(buildAccentStatsTable({}, 100)).toBe('')
+  })
+
+  it('groups user-submitted accents under Other when predefinedNames given', () => {
+    const counts = {
+      'England English': 30,
+      'İstanbul türkçesi': 20,
+      'Welsh English': 10,
+    }
+    const result = buildAccentStatsTable(
+      counts, 100, 'en', undefined, undefined,
+      ['England English', 'Welsh English'],
+    )
+    expect(result).toContain('England English')
+    expect(result).toContain('Welsh English')
+    expect(result).not.toContain('İstanbul')
+    expect(result).toContain('Other')
+    expect(result).toContain('20')
+  })
+
+  it('groups pipe-separated accents with any user-submitted part under Other', () => {
+    const counts = {
+      'England English|İstanbul türkçesi': 15,
+      'England English': 25,
+    }
+    const result = buildAccentStatsTable(
+      counts, 100, 'en', undefined, undefined,
+      ['England English'],
+    )
+    expect(result).toContain('England English')
+    expect(result).toContain('25')
+    expect(result).toContain('Other')
+    expect(result).toContain('15')
+    expect(result).not.toContain('İstanbul')
+  })
+
+  it('does not filter when predefinedNames is undefined', () => {
+    const counts = { 'İstanbul türkçesi': 20 }
+    const result = buildAccentStatsTable(counts, 100)
+    expect(result).toContain('İstanbul türkçesi')
+    expect(result).not.toContain('Other')
+  })
+
+  it('returns all under Other when no accents are predefined', () => {
+    const counts = { 'İstanbul türkçesi': 20, 'Custom accent': 10 }
+    const result = buildAccentStatsTable(
+      counts, 100, 'en', undefined, undefined, [],
+    )
+    // Empty predefinedNames array → no filtering (no predefined accents exist)
+    expect(result).toContain('İstanbul türkçesi')
+    expect(result).toContain('Custom accent')
+    expect(result).not.toContain('Other')
+  })
+
+  it('adds Code column when codeMap is provided', () => {
+    const counts = { 'England English': 30, 'Welsh English': 20 }
+    const codeMap = {
+      'England English': 'england-english',
+      'Welsh English': 'welsh-english',
+    }
+    const result = buildAccentStatsTable(
+      counts, 100, 'en', undefined, undefined, undefined, codeMap,
+    )
+    expect(result).toContain('| Code |')
+    expect(result).toContain('england-english')
+    expect(result).toContain('welsh-english')
+    expect(result).toContain('England English')
+  })
+
+  it('resolves compound accent codes with pipe separator', () => {
+    const counts = { 'England English|Welsh English': 10 }
+    const codeMap = {
+      'England English': 'england-english',
+      'Welsh English': 'welsh-english',
+    }
+    const result = buildAccentStatsTable(
+      counts, 100, 'en', undefined, undefined, undefined, codeMap,
+    )
+    expect(result).toContain('england-english|welsh-english')
+  })
+
+  it('shows empty code for Other row', () => {
+    const counts = { 'England English': 30, 'User Accent': 20 }
+    const codeMap = { 'England English': 'england-english' }
+    const result = buildAccentStatsTable(
+      counts, 100, 'en', undefined, undefined,
+      ['England English'], codeMap,
+    )
+    expect(result).toContain('england-english')
+    expect(result).toContain('Other')
+    // Other row should have empty code cell
+    expect(result).toContain('|  | Other')
   })
 })
 

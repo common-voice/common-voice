@@ -156,32 +156,122 @@ export const buildVariantStatsTable = (
   )
 }
 
+/**
+ * Filters accent counts into predefined (shown individually) and
+ * user-submitted (grouped under "Other"). Accent keys from clips.tsv
+ * are pipe-separated (e.g. "England English|Turkey English"); all parts
+ * must be predefined for the entry to be shown individually.
+ */
+const filterAccentCounts = (
+  accentCounts: Record<string, number>,
+  predefinedNames: string[],
+  speakerCounts?: Record<string, number>,
+): {
+  filteredCounts: Record<string, number>
+  filteredSpeakers?: Record<string, number>
+} => {
+  const predefinedSet = new Set(predefinedNames)
+  const filteredCounts: Record<string, number> = {}
+  const filteredSpeakers: Record<string, number> | undefined = speakerCounts
+    ? {}
+    : undefined
+  let otherClips = 0
+  let otherSpeakers = 0
+
+  for (const [accent, count] of Object.entries(accentCounts)) {
+    const parts = accent.split('|').map(p => p.trim())
+    const allPredefined = parts.every(p => predefinedSet.has(p))
+
+    if (allPredefined) {
+      filteredCounts[accent] = count
+      if (filteredSpeakers && speakerCounts) {
+        filteredSpeakers[accent] = speakerCounts[accent] ?? 0
+      }
+    } else {
+      otherClips += count
+      if (speakerCounts) {
+        otherSpeakers += speakerCounts[accent] ?? 0
+      }
+    }
+  }
+
+  if (otherClips > 0) {
+    filteredCounts['Other'] = (filteredCounts['Other'] ?? 0) + otherClips
+    if (filteredSpeakers) {
+      filteredSpeakers['Other'] =
+        (filteredSpeakers['Other'] ?? 0) + otherSpeakers
+    }
+  }
+
+  return { filteredCounts, filteredSpeakers }
+}
+
+/**
+ * Resolves the code for an accent key. Compound keys (pipe-separated)
+ * get their codes joined with `|`. Returns empty string for unknown accents.
+ */
+const resolveAccentCode = (
+  accentKey: string,
+  codeMap: Record<string, string>,
+): string => {
+  const parts = accentKey.split('|').map(p => p.trim())
+  const codes = parts.map(p => codeMap[p] ?? '')
+  return codes.join('|')
+}
+
 export const buildAccentStatsTable = (
   accentCounts: Record<string, number>,
   totalClips: number,
   locale: string = 'en',
   speakerCounts?: Record<string, number>,
   totalSpeakers?: number,
+  predefinedNames?: string[],
+  codeMap?: Record<string, string>,
 ): string => {
-  const entries = Object.entries(accentCounts).filter(([, count]) => count > 0)
+  let effectiveCounts = accentCounts
+  let effectiveSpeakers = speakerCounts
+
+  if (predefinedNames && predefinedNames.length > 0) {
+    const filtered = filterAccentCounts(
+      accentCounts,
+      predefinedNames,
+      speakerCounts,
+    )
+    effectiveCounts = filtered.filteredCounts
+    effectiveSpeakers = filtered.filteredSpeakers
+  }
+
+  const entries = Object.entries(effectiveCounts).filter(
+    ([, count]) => count > 0,
+  )
   if (entries.length === 0) return ''
-  const hasSpk = speakerCounts && totalSpeakers != null && totalSpeakers > 0
+  const hasSpk =
+    effectiveSpeakers && totalSpeakers != null && totalSpeakers > 0
+  const hasCodes = codeMap && Object.keys(codeMap).length > 0
   const rows: string[][] = entries
     .sort(([, a], [, b]) => b - a)
     .map(([accent, count]) => {
-      const pct = totalClips > 0 ? ((count / totalClips) * 100).toFixed(1) : '0'
-      const row = [accent, `${count.toLocaleString(locale)} (${pct}%)`]
-      if (hasSpk) {
-        const spk = speakerCounts[accent] ?? 0
+      const pct =
+        totalClips > 0 ? ((count / totalClips) * 100).toFixed(1) : '0'
+      const row: string[] = []
+      if (hasCodes) {
+        row.push(resolveAccentCode(accent, codeMap))
+      }
+      row.push(accent, `${count.toLocaleString(locale)} (${pct}%)`)
+      if (hasSpk && effectiveSpeakers) {
+        const spk = effectiveSpeakers[accent] ?? 0
         const spkPct = ((spk / totalSpeakers) * 100).toFixed(1)
         row.push(`${spk.toLocaleString(locale)} (${spkPct}%)`)
       }
       return row
     })
-  return formatMarkdownTable(
-    hasSpk ? ['Accent', 'Clips', 'Speakers'] : ['Accent', 'Clips'],
-    rows,
-  )
+
+  const header: string[] = []
+  if (hasCodes) header.push('Code')
+  header.push('Accent', hasSpk ? 'Clips' : 'Clips')
+  if (hasSpk) header.push('Speakers')
+
+  return formatMarkdownTable(header, rows)
 }
 
 export const buildTextCorpusStatsTable = (
@@ -317,6 +407,8 @@ export const buildReplacementMap = (
   const accentTable = buildAccentStatsTable(
     data.accentCounts, data.clips, lang,
     data.accentSpeakers, data.speakers,
+    data.predefinedAccentNames,
+    data.accentCodeMap,
   )
   if (accentTable) map['ACCENT_STATS'] = accentTable
 
