@@ -39,7 +39,9 @@ Variant releases produce one tarball per (locale, variant) combination. Requires
 
 ### CLI usage
 
-The CLI lives in `server/src/api/cli/start-dataset-release.ts`. In pods, run the compiled JS from the server build output directory.
+The release CLI lives in `bundler/src/cli/start-dataset-release.ts`. It uses BullMQ to enqueue an init job that the bundler worker picks up. Run from the bundler build output directory or from inside the bundler container.
+
+> **Note:** A legacy copy exists at `server/src/api/cli/start-dataset-release.ts` but it uses the `bull` library (incompatible with the bundler's BullMQ worker). It prints a deprecation warning if invoked.
 
 The command format is:
 
@@ -63,8 +65,11 @@ node start-dataset-release.js \
 - `-d` is optional and specifies the datasheets JSON filename or full URL (useful when datasheets live on an unmerged branch or a specific commit).
 
 ```bash
-# Change to the server build output directory
-cd server/js/api/cli
+# From the bundler build output directory (local)
+cd bundler/js/cli
+
+# Or from inside the bundler container
+# cd cli
 
 # Full release (all locales, unlicensed) — -p required, -f optional (defaults to epoch)
 node start-dataset-release.js \
@@ -115,7 +120,7 @@ node start-dataset-release.js \
 ```text
 bundler/
 ├── src/
-│   ├── cli/                  # One-off CLI tools (e.g. calculateDurations)
+│   ├── cli/                  # CLI tools (start-dataset-release, calculateDurations)
 │   ├── config/               # Runtime configuration (env vars, constants)
 │   ├── core/                 # Domain logic
 │   │   ├── clips.ts          # Clip download, TSV streaming, minority-language filter
