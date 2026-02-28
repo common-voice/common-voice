@@ -2,7 +2,11 @@ import * as fs from 'node:fs'
 import * as os from 'node:os'
 import * as path from 'node:path'
 
-import { fetchDatasheetsPayloads, DatasheetsJson } from './datasheetsFetcher'
+import {
+  fetchDatasheetsPayloads,
+  DatasheetsJson,
+  validateDatasheetsJson,
+} from './datasheetsFetcher'
 
 // ---------------------------------------------------------------------------
 // Fixture helpers
@@ -201,5 +205,104 @@ describe('fetchDatasheetsPayloads -- error recovery', () => {
     const result = await fetchDatasheetsPayloads('scripted', filepath)()
     expect(result._tag).toBe('Right')
     if (result._tag === 'Right') expect(result.right.size).toBe(0)
+  })
+})
+
+// ---------------------------------------------------------------------------
+// Schema validation
+// ---------------------------------------------------------------------------
+
+const makeValidJson = (): DatasheetsJson => ({
+  schema_version: '2.0.0',
+  generated_at: '2026-03-09T12:00:00Z',
+  source_version: '25.0-2026-03-09',
+  templates: {
+    scs: { en: '# {{NATIVE_NAME}}' },
+    sps: { en: '# SPS {{NATIVE_NAME}}' },
+  },
+  locales: {
+    scs: {
+      en: {
+        template_language: 'en',
+        metadata: { native_name: 'English', english_name: 'English', funding: '' },
+        community_fields: {},
+      },
+    },
+    sps: {},
+  },
+})
+
+describe('validateDatasheetsJson', () => {
+  it('returns no warnings for valid JSON', () => {
+    expect(validateDatasheetsJson(makeValidJson())).toEqual([])
+  })
+
+  it('warns on null input', () => {
+    expect(validateDatasheetsJson(null)).toEqual(['Datasheets JSON is not an object'])
+  })
+
+  it('warns on missing schema_version', () => {
+    const data = { ...makeValidJson() } as Record<string, unknown>
+    delete data.schema_version
+    expect(validateDatasheetsJson(data)).toContainEqual(
+      expect.stringContaining('schema_version'),
+    )
+  })
+
+  it('warns on invalid semver format', () => {
+    const data = { ...makeValidJson(), schema_version: '1' }
+    expect(validateDatasheetsJson(data)).toContainEqual(
+      expect.stringContaining('Invalid schema_version format'),
+    )
+  })
+
+  it('warns on unsupported major version', () => {
+    const data = { ...makeValidJson(), schema_version: '3.0.0' }
+    expect(validateDatasheetsJson(data)).toContainEqual(
+      expect.stringContaining('Unsupported schema major version 3'),
+    )
+  })
+
+  it('warns on missing required top-level fields', () => {
+    const data = { schema_version: '2.0.0' } as Record<string, unknown>
+    const warnings = validateDatasheetsJson(data)
+    expect(warnings).toContainEqual(expect.stringContaining('"generated_at"'))
+    expect(warnings).toContainEqual(expect.stringContaining('"templates"'))
+    expect(warnings).toContainEqual(expect.stringContaining('"locales"'))
+  })
+
+  it('warns on empty template set', () => {
+    const data = { ...makeValidJson(), templates: { scs: {}, sps: { en: '...' } } }
+    const warnings = validateDatasheetsJson(data)
+    expect(warnings).toContainEqual(
+      expect.stringContaining('templates.scs has no template languages'),
+    )
+  })
+
+  it('warns on locale entry missing required fields', () => {
+    const data = makeValidJson()
+    // Replace the only entry so the spot-check picks it up
+    data.locales.scs = { bad: { metadata: {} } } as unknown as DatasheetsJson['locales']['scs']
+    const warnings = validateDatasheetsJson(data)
+    expect(warnings.some(w => w.includes('template_language') || w.includes('community_fields'))).toBe(true)
+  })
+
+  it('warns on locale metadata missing native_name/english_name', () => {
+    const data = makeValidJson()
+    ;(data.locales.scs as Record<string, unknown>)['tr'] = {
+      template_language: 'en',
+      metadata: { funding: '' },
+      community_fields: {},
+    }
+    // Only the first entry is spot-checked, so put tr first
+    delete (data.locales.scs as Record<string, unknown>)['en']
+    const warnings = validateDatasheetsJson(data)
+    expect(warnings.some(w => w.includes('native_name') || w.includes('english_name'))).toBe(true)
+  })
+
+  it('accepts schema_version 2.x.x without major version warning', () => {
+    const data = { ...makeValidJson(), schema_version: '2.5.1' }
+    const warnings = validateDatasheetsJson(data)
+    expect(warnings.filter(w => w.includes('Unsupported'))).toEqual([])
   })
 })

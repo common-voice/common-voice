@@ -24,6 +24,94 @@ type DatasheetsLocaleEntry = {
   community_fields: Record<string, string>
 }
 
+/** Supported major schema version. Bump when breaking changes are made. */
+const SUPPORTED_MAJOR_VERSION = 2
+
+/**
+ * Validates the top-level structure of a parsed datasheets JSON.
+ * Returns an array of warning strings (empty = valid).
+ * Warnings are logged but do NOT block the pipeline.
+ */
+export const validateDatasheetsJson = (
+  data: unknown,
+): string[] => {
+  const warnings: string[] = []
+  if (data == null || typeof data !== 'object') {
+    return ['Datasheets JSON is not an object']
+  }
+
+  const obj = data as Record<string, unknown>
+
+  // schema_version
+  if (typeof obj.schema_version !== 'string') {
+    warnings.push('Missing or non-string "schema_version"')
+  } else if (!/^\d+\.\d+\.\d+$/.test(obj.schema_version)) {
+    warnings.push(`Invalid schema_version format: "${obj.schema_version}" (expected semver)`)
+  } else {
+    const major = Number(obj.schema_version.split('.')[0])
+    if (major !== SUPPORTED_MAJOR_VERSION) {
+      warnings.push(
+        `Unsupported schema major version ${major} (expected ${SUPPORTED_MAJOR_VERSION}). ` +
+        `The bundler may not interpret all fields correctly.`,
+      )
+    }
+  }
+
+  // required top-level fields
+  for (const key of ['generated_at', 'source_version', 'templates', 'locales'] as const) {
+    if (obj[key] == null) {
+      warnings.push(`Missing required field "${key}"`)
+    }
+  }
+
+  // templates structure
+  if (obj.templates != null && typeof obj.templates === 'object') {
+    for (const [mod, tplSet] of Object.entries(obj.templates as Record<string, unknown>)) {
+      if (tplSet == null || typeof tplSet !== 'object') {
+        warnings.push(`templates.${mod} is not an object`)
+        continue
+      }
+      const langs = Object.keys(tplSet as Record<string, unknown>)
+      if (langs.length === 0) {
+        warnings.push(`templates.${mod} has no template languages`)
+      }
+    }
+  }
+
+  // locales structure (spot-check first entry per modality)
+  if (obj.locales != null && typeof obj.locales === 'object') {
+    for (const [mod, localeSet] of Object.entries(obj.locales as Record<string, unknown>)) {
+      if (localeSet == null || typeof localeSet !== 'object') {
+        warnings.push(`locales.${mod} is not an object`)
+        continue
+      }
+      const entries = Object.entries(localeSet as Record<string, unknown>)
+      if (entries.length === 0) continue
+      const [sampleLocale, sampleEntry] = entries[0]
+      if (sampleEntry == null || typeof sampleEntry !== 'object') {
+        warnings.push(`locales.${mod}.${sampleLocale} is not an object`)
+        continue
+      }
+      const entry = sampleEntry as Record<string, unknown>
+      for (const field of ['template_language', 'metadata', 'community_fields'] as const) {
+        if (entry[field] == null) {
+          warnings.push(`locales.${mod}.${sampleLocale} missing "${field}"`)
+        }
+      }
+      if (entry.metadata != null && typeof entry.metadata === 'object') {
+        const meta = entry.metadata as Record<string, unknown>
+        for (const field of ['native_name', 'english_name'] as const) {
+          if (typeof meta[field] !== 'string') {
+            warnings.push(`locales.${mod}.${sampleLocale}.metadata missing "${field}"`)
+          }
+        }
+      }
+    }
+  }
+
+  return warnings
+}
+
 /**
  * Resolves the datasheets source to either a local file path or a full URL.
  * Supports:
@@ -90,6 +178,13 @@ export const fetchDatasheetsPayloads = (
 
   return pipe(
     loadJson,
+    TE.chainFirst(data => {
+      const warnings = validateDatasheetsJson(data)
+      for (const w of warnings) {
+        logger.warn('DATASHEETS', `Schema validation: ${w}`)
+      }
+      return TE.right(data)
+    }),
     TE.map(data => {
       const templates = data.templates[datasheetsKey] ?? {}
       const locales = data.locales[datasheetsKey] ?? {}
