@@ -74,6 +74,7 @@ variant-contribution-warning-subtitle = Алагала аҟаҵараҿы ауа
 api-credentials-use-case-1 = Аудионҵамҭақәа рынашьҭра
 api-credentials-use-case-2 = Адыррақәа реизгақәа раиура
 api-credentials-use-case-3 = Ажәаҳәатә модельқәа ранализи реиӷьтәреи
+api-credentials-description-conclusion = Шәҳацла абжьытә технологиақәа рырҿиаразы, ахархәаратә ҽалархәра алшарақәа рырҭбааразы.
 create-api-key-button = API аҳасабырбатә дыррақәа раԥҵара
 your-api-keys = API шәҳасабырбатә дыррақәа
 api-key-name-input =
