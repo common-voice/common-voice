@@ -40,3 +40,9 @@ need-help-deciding-platform-explanation-1 = <strong>Scripted Speech</strong> (т
 request-language-found-cv-contribution =
     Ура! Шәбызшәа иҟалахьеит Common Voice аҟынтәи <strong>Scripted Speech</strong> аҿы.
     Шәара ишәылшоит <homePageLink>ара</homePageLink>ацхыраара аҭара.
+request-language-found-cv-sentences-lack =
+    Шәбызшәа Common Voice абызшәақәа рсиаҿы иҟалахьеит.
+    <strong>Scripted Speech</strong> аҿы абызшәа аус арура шәацхраар шәылшоит,
+    <sentencesContributionLink>ара</sentencesContributionLink> шәҳәоуқәа алажәгалар ҟалоит.
+request-language-already-available-scs = Scripted Speech шәхы иашәырхәартә иҟалахьеит
+request-language-already-available-sps = Spontaneous Speech шәхы иашәырхәартә иҟалахьеит
