@@ -57,9 +57,10 @@ export type LocaleReleaseData = {
   avgDurationSecs: number
   validDurationSecs: number
 
-  // -- Accent metadata (from DB, not file-based) --
+  // -- Accent/variant metadata (from DB, not file-based) --
   predefinedAccentNames?: string[]
   accentCodeMap?: Record<string, string> // accent_name → accent code
+  variantCodeMap?: Record<string, string> // variant_name → variant code
 
   // -- Sentence samples --
   sentencesSample: string[]

@@ -134,15 +134,21 @@ export const buildVariantStatsTable = (
   locale: string = 'en',
   speakerCounts?: Record<string, number>,
   totalSpeakers?: number,
+  codeMap?: Record<string, string>,
 ): string => {
   const entries = Object.entries(variantCounts).filter(([, count]) => count > 0)
   if (entries.length === 0) return ''
   const hasSpk = speakerCounts && totalSpeakers != null && totalSpeakers > 0
+  const hasCodes = codeMap && Object.keys(codeMap).length > 0
   const rows: string[][] = entries
     .sort(([, a], [, b]) => b - a)
     .map(([variant, count]) => {
       const pct = totalClips > 0 ? ((count / totalClips) * 100).toFixed(1) : '0'
-      const row = [variant, `${count.toLocaleString(locale)} (${pct}%)`]
+      const row: string[] = []
+      if (hasCodes) {
+        row.push(codeMap[variant] ?? '')
+      }
+      row.push(variant, `${count.toLocaleString(locale)} (${pct}%)`)
       if (hasSpk) {
         const spk = speakerCounts[variant] ?? 0
         const spkPct = ((spk / totalSpeakers) * 100).toFixed(1)
@@ -150,10 +156,13 @@ export const buildVariantStatsTable = (
       }
       return row
     })
-  return formatMarkdownTable(
-    hasSpk ? ['Variant', 'Clips', 'Speakers'] : ['Variant', 'Clips'],
-    rows,
-  )
+
+  const header: string[] = []
+  if (hasCodes) header.push('Code')
+  header.push('Variant', hasSpk ? 'Clips' : 'Clips')
+  if (hasSpk) header.push('Speakers')
+
+  return formatMarkdownTable(header, rows)
 }
 
 /**
@@ -401,6 +410,7 @@ export const buildReplacementMap = (
   const variantTable = buildVariantStatsTable(
     data.variantCounts, data.clips, lang,
     data.variantSpeakers, data.speakers,
+    data.variantCodeMap,
   )
   if (variantTable) map['VARIANT_STATS'] = variantTable
 

@@ -34,7 +34,7 @@ import {
   redisKeys,
 } from '../config/config'
 import { runFetchSentencesForLocale } from '../core/sentences'
-import { fetchAccentMetadata } from '../core/locales'
+import { fetchLocaleMetadata } from '../core/locales'
 
 // Pipeline steps -- no match at the end so processLocale can inspect the Either result.
 const processPipeline = pipe(
@@ -60,18 +60,19 @@ const processPipeline = pipe(
       ),
     ),
   ),
-  // Fetch accent metadata (predefined names + token map) from DB
-  // so datasheets can filter predefined vs user-submitted and show tokens
+  // Fetch accent + variant metadata (predefined names + code maps) from DB
+  // so datasheets can filter predefined vs user-submitted and show codes
   RTE.chainFirstW(() =>
     pipe(
       RTE.ask<AppEnv>(),
       RTE.chainTaskEitherK(env =>
         pipe(
-          fetchAccentMetadata(env.locale),
-          TE.map(({ predefinedNames, codeMap }) => {
+          fetchLocaleMetadata(env.locale),
+          TE.map(({ accentPredefinedNames, accentCodeMap, variantCodeMap }) => {
             if (env.localeData) {
-              env.localeData.predefinedAccentNames = predefinedNames
-              env.localeData.accentCodeMap = codeMap
+              env.localeData.predefinedAccentNames = accentPredefinedNames
+              env.localeData.accentCodeMap = accentCodeMap
+              env.localeData.variantCodeMap = variantCodeMap
             }
           }),
         ),

@@ -443,6 +443,29 @@ describe('buildVariantStatsTable', () => {
   it('returns empty string for empty counts', () => {
     expect(buildVariantStatsTable({}, 100)).toBe('')
   })
+
+  it('adds Code column when codeMap is provided', () => {
+    const counts = { 'Southern Welsh': 30, 'Northern Welsh': 70 }
+    const codeMap = {
+      'Southern Welsh': 'southwes',
+      'Northern Welsh': 'northwes',
+    }
+    const result = buildVariantStatsTable(
+      counts, 100, 'en', undefined, undefined, codeMap,
+    )
+    expect(result).toContain('| Code |')
+    expect(result).toContain('southwes')
+    expect(result).toContain('northwes')
+    expect(result).toContain('Southern Welsh')
+  })
+
+  it('omits Code column when no codeMap', () => {
+    const result = buildVariantStatsTable(
+      { 'Southern Welsh': 30 }, 100,
+    )
+    expect(result).not.toContain('Code')
+    expect(result).toContain('| Variant | Clips |')
+  })
 })
 
 // -- buildAccentStatsTable ---------------------------------------------------

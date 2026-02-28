@@ -112,41 +112,65 @@ type AccentRow = {
   user_submitted: number
 }
 
-export type AccentMetadata = {
-  predefinedNames: string[]
-  codeMap: Record<string, string>
+type VariantRow = {
+  variant_name: string
+  variant_token: string | null
+}
+
+export type LocaleMetadata = {
+  accentPredefinedNames: string[]
+  accentCodeMap: Record<string, string>
+  variantCodeMap: Record<string, string>
 }
 
 /**
- * Fetches all accents for a locale with their codes and user_submitted flag.
- * Returns both the list of predefined accent names (for filtering) and a
- * name→code map (for display in the accent table).
+ * Fetches accent and variant metadata for a locale in parallel.
+ * - Accents: predefined names (for filtering) + name→code map (for display)
+ * - Variants: name→code map (for display)
  */
-export const fetchAccentMetadata = (
+export const fetchLocaleMetadata = (
   locale: string,
-): TE.TaskEither<Error, AccentMetadata> =>
+): TE.TaskEither<Error, LocaleMetadata> =>
   pipe(
-    query<AccentRow[]>(
-      `SELECT accent_name, accent_token, user_submitted FROM accents
-       WHERE locale_id = (SELECT id FROM locales WHERE name = ?)
-         AND accent_name != ''
-         AND accent_name != 'unspecified'`,
-      [locale],
+    TE.Do,
+    TE.bind('accents', () =>
+      query<AccentRow[]>(
+        `SELECT accent_name, accent_token, user_submitted FROM accents
+         WHERE locale_id = (SELECT id FROM locales WHERE name = ?)
+           AND accent_name != ''
+           AND accent_name != 'unspecified'`,
+        [locale],
+      ),
     ),
-    TE.map(rows => {
-      const predefinedNames: string[] = []
-      const codeMap: Record<string, string> = {}
+    TE.bind('variants', () =>
+      query<VariantRow[]>(
+        `SELECT variant_name, variant_token FROM variants
+         WHERE locale_id = (SELECT id FROM locales WHERE name = ?)
+           AND variant_name != ''`,
+        [locale],
+      ),
+    ),
+    TE.map(({ accents, variants }) => {
+      const accentPredefinedNames: string[] = []
+      const accentCodeMap: Record<string, string> = {}
 
-      for (const row of rows) {
+      for (const row of accents) {
         if (row.accent_token) {
-          codeMap[row.accent_name] = row.accent_token
+          accentCodeMap[row.accent_name] = row.accent_token
         }
         if (!row.user_submitted) {
-          predefinedNames.push(row.accent_name)
+          accentPredefinedNames.push(row.accent_name)
         }
       }
 
-      return { predefinedNames, codeMap }
+      const variantCodeMap: Record<string, string> = {}
+      for (const row of variants) {
+        if (row.variant_token) {
+          variantCodeMap[row.variant_name] = row.variant_token
+        }
+      }
+
+      return { accentPredefinedNames, accentCodeMap, variantCodeMap }
     }),
   )
 
