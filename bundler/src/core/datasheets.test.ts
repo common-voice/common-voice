@@ -289,19 +289,40 @@ describe('buildReplacementMap', () => {
     expect(map['REPORTED_SENTENCES']).toBe('5')
   })
 
-  it('generates GENDER_TABLE as 3-column markdown with speakers', () => {
+  it('generates GENDER_TABLE with Code column, fixed order, and coverage', () => {
     const map = buildReplacementMap(basePayload, baseData, 'de', 'cv-corpus-25.0')
-    expect(map['GENDER_TABLE']).toContain('| Gender | Clips | Speakers |')
+    expect(map['GENDER_TABLE']).toContain('| Code | Gender | Clips | Speakers |')
+    // Code + label columns
+    expect(map['GENDER_TABLE']).toContain('male_masculine')
     expect(map['GENDER_TABLE']).toContain('Male, masculine')
     expect(map['GENDER_TABLE']).toContain('60 (60.0%)')
     expect(map['GENDER_TABLE']).toContain('6 (60.0%)')
+    // All rows shown including 0-count
+    expect(map['GENDER_TABLE']).toContain('transgender')
+    expect(map['GENDER_TABLE']).toContain('non-binary')
+    expect(map['GENDER_TABLE']).toContain('do_not_wish_to_say')
+    expect(map['GENDER_TABLE']).toContain('Unspecified')
+    // Unspecified code shows '-'
+    expect(map['GENDER_TABLE']).toContain('| - | Unspecified')
+    // Coverage line
+    expect(map['GENDER_TABLE']).toContain('Gender declared: 90 of 100 clips (90.0%)')
+    expect(map['GENDER_TABLE']).toContain('9 of 10 speakers (90.0%)')
   })
 
-  it('generates AGE_TABLE as 3-column markdown with speakers', () => {
+  it('generates AGE_TABLE with Code column, fixed order, and coverage', () => {
     const map = buildReplacementMap(basePayload, baseData, 'de', 'cv-corpus-25.0')
-    expect(map['AGE_TABLE']).toContain('| Age band | Clips | Speakers |')
+    expect(map['AGE_TABLE']).toContain('| Code | Age | Clips | Speakers |')
+    // Code + label columns
+    expect(map['AGE_TABLE']).toContain('twenties')
     expect(map['AGE_TABLE']).toContain('Twenties')
     expect(map['AGE_TABLE']).toContain('4 (40.0%)')
+    // All rows shown
+    expect(map['AGE_TABLE']).toContain('teens')
+    expect(map['AGE_TABLE']).toContain('fifties')
+    expect(map['AGE_TABLE']).toContain('| - | Unspecified')
+    // Coverage line
+    expect(map['AGE_TABLE']).toContain('Age declared: 70 of 100 clips (70.0%)')
+    expect(map['AGE_TABLE']).toContain('7 of 10 speakers (70.0%)')
   })
 
   it('includes non-empty community fields (uppercased)', () => {
@@ -344,10 +365,18 @@ describe('buildReplacementMap', () => {
     expect(map['GENDER_TABLE']).toBe('| Custom | Table |')
   })
 
-  it('generates DATA_SPLITS_TABLE from buckets', () => {
+  it('generates DATA_SPLITS_TABLE with clip buckets and training splits', () => {
     const map = buildReplacementMap(basePayload, baseData, 'de', 'cv-corpus-25.0')
+    // Clip buckets: validated 80 of 100 total = 80.0%
+    expect(map['DATA_SPLITS_TABLE']).toContain('**Clip buckets**')
+    expect(map['DATA_SPLITS_TABLE']).toContain('Validated')
+    expect(map['DATA_SPLITS_TABLE']).toContain('80 (80.0%)')
+    // Training splits: train 50 of 80 validated = 62.5%
+    expect(map['DATA_SPLITS_TABLE']).toContain('**Training splits**')
     expect(map['DATA_SPLITS_TABLE']).toContain('Train')
-    expect(map['DATA_SPLITS_TABLE']).toContain('50 (50.0%)')
+    expect(map['DATA_SPLITS_TABLE']).toContain('50 (62.5%)')
+    // Coverage: (50+15+15)/80 = 100.0%
+    expect(map['DATA_SPLITS_TABLE']).toContain('coverage')
   })
 
   it('includes new stats tables when data is present', () => {
@@ -370,55 +399,106 @@ describe('buildReplacementMap', () => {
     expect(map['ACCENT_STATS']).toContain('Welsh English')
     expect(map['TEXT_CORPUS_STATS']).toContain('Validated sentences')
     expect(map['SOURCES_STATS']).toContain('Wikipedia')
-    expect(map['TEXT_DOMAIN_STATS']).toContain('general')
+    expect(map['TEXT_DOMAIN_STATS']).toContain('General')
   })
 
-  it('omits new stats tables when data is empty', () => {
+  it('omits stats tables when data is empty (no entries)', () => {
     const map = buildReplacementMap(basePayload, baseData, 'de', 'cv-corpus-25.0')
     expect(map['VARIANT_STATS']).toBeUndefined()
     expect(map['ACCENT_STATS']).toBeUndefined()
-    expect(map['TEXT_CORPUS_STATS']).toBeUndefined()
     expect(map['SOURCES_STATS']).toBeUndefined()
     expect(map['TEXT_DOMAIN_STATS']).toBeUndefined()
+  })
+
+  it('always generates TEXT_CORPUS_STATS with breakdown table', () => {
+    // Even with all-zero sentences, the breakdown table is produced
+    const map = buildReplacementMap(basePayload, baseData, 'de', 'cv-corpus-25.0')
+    expect(map['TEXT_CORPUS_STATS']).toBeDefined()
+    expect(map['TEXT_CORPUS_STATS']).toContain('| Category | Count |')
   })
 })
 
 // -- buildDataSplitsTable ----------------------------------------------------
 
 describe('buildDataSplitsTable', () => {
-  it('builds table from CC buckets', () => {
+  it('builds clip buckets and training splits as two sections', () => {
     const buckets: Buckets = {
       train: 30, dev: 10, test: 10,
       validated: 50, invalidated: 0, other: 50,
     }
     const result = buildDataSplitsTable(buckets, 100)
+    // Clip buckets section
+    expect(result).toContain('**Clip buckets**')
+    expect(result).toContain('| Bucket | Clips |')
+    expect(result).toContain('Validated')
+    expect(result).toContain('50 (50.0%)')
+    expect(result).toContain('Other')
+    expect(result).toContain('50 (50.0%)')
+    // Training splits section
+    expect(result).toContain('**Training splits**')
     expect(result).toContain('| Split | Clips |')
     expect(result).toContain('Train')
-    expect(result).toContain('30 (30.0%)')
+    // Training splits are % of validated (50), so 30/50 = 60.0%
+    expect(result).toContain('30 (60.0%)')
     expect(result).toContain('Dev')
     expect(result).toContain('Test')
-    expect(result).toContain('Validated')
-    expect(result).toContain('Other')
   })
 
-  it('returns empty string when all buckets are zero', () => {
+  it('shows training split coverage', () => {
+    const buckets: Buckets = {
+      train: 300, dev: 100, test: 100,
+      validated: 1000, invalidated: 100, other: 50,
+    }
+    const result = buildDataSplitsTable(buckets, 1150)
+    expect(result).toContain('Training split coverage: 500 of 1,000 validated clips (50.0%)')
+  })
+
+  it('shows all 6 rows even when counts are zero', () => {
     const buckets: Buckets = {
       train: 0, dev: 0, test: 0,
       validated: 0, invalidated: 0, other: 0,
     }
     const result = buildDataSplitsTable(buckets, 100)
-    expect(result).toBe('')
+    expect(result).toContain('**Clip buckets**')
+    expect(result).toContain('Validated')
+    expect(result).toContain('Invalidated')
+    expect(result).toContain('Other')
+    expect(result).toContain('**Training splits**')
+    expect(result).toContain('Train')
+    expect(result).toContain('Dev')
+    expect(result).toContain('Test')
   })
 
-  it('omits splits with 0 clips', () => {
+  it('shows zero-count buckets and splits', () => {
     const buckets: Buckets = {
       train: 10, dev: 0, test: 0,
-      validated: 0, invalidated: 0, other: 0,
+      validated: 20, invalidated: 0, other: 0,
     }
-    const result = buildDataSplitsTable(buckets, 10)
+    const result = buildDataSplitsTable(buckets, 20)
+    expect(result).toContain('Validated')
+    expect(result).toContain('Invalidated')
     expect(result).toContain('Train')
-    expect(result).not.toContain('Dev')
-    expect(result).not.toContain('Invalidated')
+    expect(result).toContain('Dev')
+    expect(result).toContain('Test')
+  })
+
+  it('always shows both sections', () => {
+    const buckets: Buckets = {
+      train: 0, dev: 0, test: 0,
+      validated: 50, invalidated: 10, other: 40,
+    }
+    const result = buildDataSplitsTable(buckets, 100)
+    expect(result).toContain('**Clip buckets**')
+    expect(result).toContain('**Training splits**')
+  })
+
+  it('omits coverage line when validated is 0', () => {
+    const buckets: Buckets = {
+      train: 0, dev: 0, test: 0,
+      validated: 0, invalidated: 50, other: 50,
+    }
+    const result = buildDataSplitsTable(buckets, 100)
+    expect(result).not.toContain('coverage')
   })
 })
 
@@ -444,6 +524,16 @@ describe('buildVariantStatsTable', () => {
     expect(buildVariantStatsTable({}, 100)).toBe('')
   })
 
+  it('shows zero-count variants', () => {
+    const result = buildVariantStatsTable(
+      { 'Southern Welsh': 0, 'Northern Welsh': 70 },
+      100,
+    )
+    expect(result).toContain('Southern Welsh')
+    expect(result).toContain('-')
+    expect(result).toContain('Northern Welsh')
+  })
+
   it('adds Code column when codeMap is provided', () => {
     const counts = { 'Southern Welsh': 30, 'Northern Welsh': 70 }
     const codeMap = {
@@ -459,12 +549,35 @@ describe('buildVariantStatsTable', () => {
     expect(result).toContain('Southern Welsh')
   })
 
+  it('shows "-" for missing variant codes', () => {
+    const counts = { 'Southern Welsh': 30, 'No Code': 20 }
+    const codeMap = { 'Southern Welsh': 'southwes' }
+    const result = buildVariantStatsTable(
+      counts, 100, 'en', undefined, undefined, codeMap,
+    )
+    expect(result).toContain('southwes')
+    expect(result).toContain('| - | No Code')
+  })
+
   it('omits Code column when no codeMap', () => {
     const result = buildVariantStatsTable(
       { 'Southern Welsh': 30 }, 100,
     )
     expect(result).not.toContain('Code')
     expect(result).toContain('| Variant | Clips |')
+  })
+
+  it('includes speakers column when speaker data provided', () => {
+    const result = buildVariantStatsTable(
+      { 'Southern Welsh': 30, 'Northern Welsh': 70 },
+      100,
+      'en',
+      { 'Southern Welsh': 5, 'Northern Welsh': 8 },
+      10,
+    )
+    expect(result).toContain('| Variant | Clips | Speakers |')
+    expect(result).toContain('5 (50.0%)')
+    expect(result).toContain('8 (80.0%)')
   })
 })
 
@@ -500,10 +613,23 @@ describe('buildAccentStatsTable', () => {
     expect(result).toContain('20')
   })
 
-  it('groups pipe-separated accents with any user-submitted part under Other', () => {
+  it('always shows Other row when predefinedNames given (even if 0)', () => {
     const counts = {
-      'England English|İstanbul türkçesi': 15,
+      'England English': 50,
+      'Welsh English': 50,
+    }
+    const result = buildAccentStatsTable(
+      counts, 100, 'en', undefined, undefined,
+      ['England English', 'Welsh English'],
+    )
+    expect(result).toContain('Other')
+    expect(result).toContain('-')
+  })
+
+  it('groups individual user-submitted accents under Other', () => {
+    const counts = {
       'England English': 25,
+      'İstanbul türkçesi': 15,
     }
     const result = buildAccentStatsTable(
       counts, 100, 'en', undefined, undefined,
@@ -523,7 +649,7 @@ describe('buildAccentStatsTable', () => {
     expect(result).not.toContain('Other')
   })
 
-  it('returns all under Other when no accents are predefined', () => {
+  it('shows all accents when predefinedNames is empty array', () => {
     const counts = { 'İstanbul türkçesi': 20, 'Custom accent': 10 }
     const result = buildAccentStatsTable(
       counts, 100, 'en', undefined, undefined, [],
@@ -549,8 +675,8 @@ describe('buildAccentStatsTable', () => {
     expect(result).toContain('England English')
   })
 
-  it('resolves compound accent codes with pipe separator', () => {
-    const counts = { 'England English|Welsh English': 10 }
+  it('looks up individual accent codes directly from codeMap', () => {
+    const counts = { 'England English': 30, 'Welsh English': 20 }
     const codeMap = {
       'England English': 'england-english',
       'Welsh English': 'welsh-english',
@@ -558,10 +684,25 @@ describe('buildAccentStatsTable', () => {
     const result = buildAccentStatsTable(
       counts, 100, 'en', undefined, undefined, undefined, codeMap,
     )
-    expect(result).toContain('england-english|welsh-english')
+    expect(result).toContain('england-english')
+    expect(result).toContain('welsh-english')
   })
 
-  it('shows empty code for Other row', () => {
+  it('shows "-" for empty or missing accent codes', () => {
+    const counts = { 'England English': 30, 'User Accent': 20 }
+    const codeMap: Record<string, string> = {
+      'England English': 'england-english',
+      'User Accent': '',
+    }
+    const result = buildAccentStatsTable(
+      counts, 100, 'en', undefined, undefined, undefined, codeMap,
+    )
+    expect(result).toContain('england-english')
+    // Empty code → shows '-'
+    expect(result).toContain('| - | User Accent')
+  })
+
+  it('shows "-" for Other row code when filtering with codeMap', () => {
     const counts = { 'England English': 30, 'User Accent': 20 }
     const codeMap = { 'England English': 'england-english' }
     const result = buildAccentStatsTable(
@@ -570,15 +711,51 @@ describe('buildAccentStatsTable', () => {
     )
     expect(result).toContain('england-english')
     expect(result).toContain('Other')
-    // Other row should have empty code cell
-    expect(result).toContain('|  | Other')
+    // Other row should have '-' code
+    expect(result).toContain('| - | Other')
+  })
+
+  it('sorts Other row last regardless of count', () => {
+    const counts = {
+      'England English': 10,
+      'Welsh English': 5,
+    }
+    // İstanbul türkçesi (50 clips) is user-submitted → grouped under Other
+    // Other has highest count (50) but should still appear last
+    const allCounts = { ...counts, 'İstanbul türkçesi': 50 }
+    const result = buildAccentStatsTable(
+      allCounts, 100, 'en', undefined, undefined,
+      ['England English', 'Welsh English'],
+    )
+    const lines = result.split('\n')
+    const lastDataRow = lines[lines.length - 1]
+    expect(lastDataRow).toContain('Other')
+  })
+
+  it('truncates long accent codes', () => {
+    const counts = { 'Very Long Accent Name': 10 }
+    const codeMap = {
+      'Very Long Accent Name': 'this-is-a-very-long-accent-code-that-exceeds-limit',
+    }
+    const result = buildAccentStatsTable(
+      counts, 100, 'en', undefined, undefined, undefined, codeMap,
+    )
+    expect(result).toContain('this-is-a-very-long-accen\u2026')
+    expect(result).not.toContain('this-is-a-very-long-accent-code-that-exceeds-limit')
+  })
+
+  it('shows zero-count accents', () => {
+    const counts = { 'England English': 0, 'Welsh English': 50 }
+    const result = buildAccentStatsTable(counts, 100)
+    expect(result).toContain('England English')
+    expect(result).toContain('-')
   })
 })
 
 // -- buildTextCorpusStatsTable -----------------------------------------------
 
 describe('buildTextCorpusStatsTable', () => {
-  it('builds corpus stats table with non-zero rows', () => {
+  it('shows validated sentences as headline plus breakdown table', () => {
     const result = buildTextCorpusStatsTable({
       validatedSentences: 100,
       unvalidatedSentences: 20,
@@ -586,14 +763,16 @@ describe('buildTextCorpusStatsTable', () => {
       rejectedSentences: 5,
       reportedSentences: 3,
     })
+    // Headline
+    expect(result).toContain('**Validated sentences:** 100')
+    // Breakdown table (validated not duplicated in table)
     expect(result).toContain('| Category | Count |')
-    expect(result).toContain('Validated sentences')
-    expect(result).toContain('100')
+    expect(result).toContain('Unvalidated sentences')
     expect(result).toContain('Rejected sentences')
     expect(result).toContain('5')
   })
 
-  it('omits zero-count categories', () => {
+  it('shows all breakdown rows even when zero (as "-")', () => {
     const result = buildTextCorpusStatsTable({
       validatedSentences: 50,
       unvalidatedSentences: 0,
@@ -601,12 +780,19 @@ describe('buildTextCorpusStatsTable', () => {
       rejectedSentences: 0,
       reportedSentences: 0,
     })
-    expect(result).toContain('Validated sentences')
-    expect(result).not.toContain('Unvalidated')
-    expect(result).not.toContain('Rejected')
+    expect(result).toContain('**Validated sentences:** 50')
+    expect(result).toContain('| Category | Count |')
+    expect(result).toContain('Unvalidated sentences')
+    expect(result).toContain('Pending sentences')
+    expect(result).toContain('Rejected sentences')
+    expect(result).toContain('Reported sentences')
+    // Zero counts shown as '-'
+    const lines = result.split('\n')
+    const unvalLine = lines.find(l => l.includes('Unvalidated'))
+    expect(unvalLine).toContain('| - |')
   })
 
-  it('returns empty string when all are zero', () => {
+  it('shows breakdown table even when all values are zero', () => {
     const result = buildTextCorpusStatsTable({
       validatedSentences: 0,
       unvalidatedSentences: 0,
@@ -614,7 +800,21 @@ describe('buildTextCorpusStatsTable', () => {
       rejectedSentences: 0,
       reportedSentences: 0,
     })
-    expect(result).toBe('')
+    expect(result).toContain('| Category | Count |')
+    expect(result).toContain('Unvalidated sentences')
+  })
+
+  it('shows breakdown table without headline when validated is 0', () => {
+    const result = buildTextCorpusStatsTable({
+      validatedSentences: 0,
+      unvalidatedSentences: 10,
+      pendingSentences: 5,
+      rejectedSentences: 0,
+      reportedSentences: 0,
+    })
+    expect(result).not.toContain('**Validated sentences:**')
+    expect(result).toContain('Unvalidated sentences')
+    expect(result).toContain('Pending sentences')
   })
 })
 
@@ -633,25 +833,93 @@ describe('buildSourcesStatsTable', () => {
   it('returns empty string for empty counts', () => {
     expect(buildSourcesStatsTable({})).toBe('')
   })
+
+  it('shows zero-count sources', () => {
+    const result = buildSourcesStatsTable({ Wikipedia: 0, Tatoeba: 50 })
+    expect(result).toContain('Wikipedia')
+    expect(result).toContain('Tatoeba')
+  })
 })
 
 // -- buildTextDomainStatsTable -----------------------------------------------
 
 describe('buildTextDomainStatsTable', () => {
-  it('builds domain table with percentages of total clips', () => {
+  it('shows all 12 defined domains with Code + Label columns', () => {
     const result = buildTextDomainStatsTable(
       { general: 80, healthcare: 20 },
       100,
     )
-    expect(result).toContain('| Domain | Clips |')
+    expect(result).toContain('| Code | Domain | Clips |')
+    // Code + human-readable label
     expect(result).toContain('general')
+    expect(result).toContain('General')
     expect(result).toContain('80 (80.0%)')
     expect(result).toContain('healthcare')
+    expect(result).toContain('Healthcare')
     expect(result).toContain('20 (20.0%)')
+    // All 12 domains present (empty ones show '-')
+    expect(result).toContain('agriculture_food')
+    expect(result).toContain('Agriculture and Food')
+    expect(result).toContain('finance')
+    expect(result).toContain('Finance')
+    expect(result).toContain('technology_robotics')
+    expect(result).toContain('Technology and Robotics')
+    expect(result).toContain('language_fundamentals')
+    expect(result).toContain('Language Fundamentals')
   })
 
-  it('returns empty string for empty counts', () => {
+  it('preserves definition order (General first)', () => {
+    const result = buildTextDomainStatsTable(
+      { healthcare: 50, general: 50 },
+      100,
+    )
+    expect(result.indexOf('General')).toBeLessThan(
+      result.indexOf('Healthcare'),
+    )
+  })
+
+  it('returns empty string when no domain has data', () => {
     expect(buildTextDomainStatsTable({}, 100)).toBe('')
+  })
+
+  it('shows "-" for zero-count domains', () => {
+    const result = buildTextDomainStatsTable(
+      { general: 50 },
+      100,
+    )
+    expect(result).toContain('General')
+    expect(result).toContain('50 (50.0%)')
+    // Healthcare and others show '-'
+    const lines = result.split('\n')
+    const healthcareLine = lines.find(l => l.includes('Healthcare'))
+    expect(healthcareLine).toContain('-')
+  })
+
+  it('includes speakers column when speaker data provided', () => {
+    const result = buildTextDomainStatsTable(
+      { general: 80, healthcare: 20 },
+      100,
+      'en',
+      { general: 8, healthcare: 4 },
+      10,
+    )
+    expect(result).toContain('| Code | Domain | Clips | Speakers |')
+    expect(result).toContain('8 (80.0%)')
+    expect(result).toContain('4 (40.0%)')
+  })
+
+  it('appends extra domains not in the predefined list', () => {
+    const result = buildTextDomainStatsTable(
+      { general: 50, custom_domain: 30 },
+      100,
+    )
+    expect(result).toContain('General')
+    expect(result).toContain('custom_domain')
+    expect(result).toContain('30 (30.0%)')
+    // custom_domain appears after all defined domains
+    expect(result.indexOf('Language Fundamentals')).toBeLessThan(
+      result.indexOf('custom_domain'),
+    )
   })
 })
 
@@ -729,11 +997,17 @@ describe('fillTemplate + buildReplacementMap integration', () => {
     expect(result).toContain(
       'German is spoken in Germany, Austria, and Switzerland.',
     )
-    // Auto demographics (3-column: clips + speakers)
-    expect(result).toContain('| Gender | Clips | Speakers |')
+    // Auto demographics (Code + label + clips + speakers)
+    expect(result).toContain('| Code | Gender | Clips | Speakers |')
+    expect(result).toContain('male_masculine')
     expect(result).toContain('Male, masculine')
     expect(result).toContain('600 (60.0%)')
     expect(result).toContain('30 (60.0%)')
+    // All gender rows shown (Unspecified with 0)
+    expect(result).toContain('Unspecified')
+    // Coverage lines
+    expect(result).toContain('Gender declared:')
+    expect(result).toContain('Age declared:')
     // No remaining HTML comments
     expect(result).not.toContain('<!--')
     expect(result).not.toContain('AUTOMATICALLY GENERATED')

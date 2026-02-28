@@ -13,10 +13,7 @@ import type { Buckets, LocaleReleaseData } from './localeData'
 
 // -- Markdown table helpers --------------------------------------------------
 
-const formatMarkdownTable = (
-  header: string[],
-  rows: string[][],
-): string => {
+const formatMarkdownTable = (header: string[], rows: string[][]): string => {
   const lines = [
     `| ${header.join(' | ')} |`,
     `|${header.map(() => '---').join('|')}|`,
@@ -25,13 +22,80 @@ const formatMarkdownTable = (
   return lines.join('\n')
 }
 
+// i18n: These English labels are fallback defaults. When cv-datasheets
+// provides translated label maps via the datasheet payload, the bundler
+// should prefer those over these fallbacks.
+
+/** Label for grouped/unknown entries in accent, source, domain tables. */
+const OTHER_LABEL = 'Other'
+/** Label for unspecified demographic entries (gender, age). */
+const UNSPECIFIED_LABEL = 'Unspecified'
+
+/** Whether a key represents a catch-all entry (empty string or "Other"). */
+const isOtherKey = (key: string): boolean => key === '' || key === OTHER_LABEL
+
+/**
+ * Sorts entries descending by count, but always pushes "Other" entries
+ * (empty key or key === 'Other') to the end of the list.
+ */
+const sortWithOtherLast = <T extends [string, ...unknown[]]>(
+  entries: T[],
+  countIndex: number,
+): T[] =>
+  entries.sort((a, b) => {
+    const aOther = isOtherKey(a[0] as string) ? 1 : 0
+    const bOther = isOtherKey(b[0] as string) ? 1 : 0
+    if (aOther !== bOther) return aOther - bOther
+    return (b[countIndex] as number) - (a[countIndex] as number)
+  })
+
+/** Formats a count with percentage, or '-' when count is 0. */
+const fmtCountPct = (
+  count: number,
+  total: number,
+  locale: string,
+): string => {
+  if (count === 0) return '-'
+  const pct = total > 0 ? ((count / total) * 100).toFixed(1) : '0'
+  return `${count.toLocaleString(locale)} (${pct}%)`
+}
+
+/** Formats a plain count, or '-' when the value is 0. */
+const fmtPlain = (value: number, locale: string): string =>
+  value === 0 ? '-' : value.toLocaleString(locale)
+
+/**
+ * All defined text domains, in the order they appear in the `domains` DB table.
+ * Keys are DB domain names; values are human-readable labels.
+ */
+const DOMAIN_LABELS: Record<string, string> = {
+  general: 'General',
+  agriculture_food: 'Agriculture and Food',
+  automotive_transport: 'Automotive and Transport',
+  finance: 'Finance',
+  service_retail: 'Service and Retail',
+  healthcare: 'Healthcare',
+  history_law_government: 'History, Law and Government',
+  media_entertainment: 'Media and Entertainment',
+  nature_environment: 'Nature and Environment',
+  news_current_affairs: 'News and Current Affairs',
+  technology_robotics: 'Technology and Robotics',
+  language_fundamentals: 'Language Fundamentals',
+}
+
+const MAX_CODE_DISPLAY_LEN = 25
+
+/** Truncates a code string, adding `\u2026` (ellipsis) if it exceeds maxLen. */
+const truncateCode = (code: string, maxLen = MAX_CODE_DISPLAY_LEN): string =>
+  code.length > maxLen ? code.slice(0, maxLen) + '\u2026' : code
+
 const GENDER_LABELS: Record<string, string> = {
   male_masculine: 'Male, masculine',
   female_feminine: 'Female, feminine',
   transgender: 'Transgender',
   'non-binary': 'Non-binary',
   do_not_wish_to_say: 'Prefer not to say',
-  '': 'Undeclared',
+  '': UNSPECIFIED_LABEL,
 }
 
 const AGE_LABELS: Record<string, string> = {
@@ -44,7 +108,7 @@ const AGE_LABELS: Record<string, string> = {
   seventies: 'Seventies',
   eighties: 'Eighties',
   nineties: 'Nineties',
-  '': 'Undeclared',
+  '': UNSPECIFIED_LABEL,
 }
 
 // -- Table builders ----------------------------------------------------------
@@ -57,24 +121,43 @@ const buildGenderTable = (
   totalSpeakers?: number,
 ): string => {
   const hasSpk = speakerCounts && totalSpeakers != null && totalSpeakers > 0
-  const rows: string[][] = Object.entries(genderCounts)
-    .filter(([, count]) => count > 0)
-    .sort(([, a], [, b]) => b - a)
-    .map(([key, count]) => {
-      const label = GENDER_LABELS[key] ?? key
-      const pct = totalClips > 0 ? ((count / totalClips) * 100).toFixed(1) : '0'
-      const row = [label, `${count.toLocaleString(locale)} (${pct}%)`]
-      if (hasSpk) {
-        const spk = speakerCounts[key] ?? 0
-        const spkPct = ((spk / totalSpeakers) * 100).toFixed(1)
-        row.push(`${spk.toLocaleString(locale)} (${spkPct}%)`)
-      }
-      return row
-    })
-  return formatMarkdownTable(
-    hasSpk ? ['Gender', 'Clips', 'Speakers'] : ['Gender', 'Frequency'],
-    rows,
-  )
+
+  // Fixed label order — show all rows; '-' for 0-count
+  const rows: string[][] = Object.keys(GENDER_LABELS).map(key => {
+    const label = GENDER_LABELS[key]
+    const code = key || '-'
+    const count = genderCounts[key] ?? 0
+    const row = [code, label, fmtCountPct(count, totalClips, locale)]
+    if (hasSpk) {
+      const spk = speakerCounts?.[key] ?? 0
+      row.push(fmtCountPct(spk, totalSpeakers, locale))
+    }
+    return row
+  })
+
+  const header = hasSpk
+    ? ['Code', 'Gender', 'Clips', 'Speakers']
+    : ['Code', 'Gender', 'Frequency']
+  const parts: string[] = [formatMarkdownTable(header, rows)]
+
+  // Coverage line: declared = total minus unspecified
+  if (totalClips > 0) {
+    const unspecClips = genderCounts[''] ?? 0
+    const declClips = totalClips - unspecClips
+    const clipPct = ((declClips / totalClips) * 100).toFixed(1)
+    let line = `*Gender declared: ${declClips.toLocaleString(locale)} of ${totalClips.toLocaleString(locale)} clips (${clipPct}%)`
+    if (hasSpk) {
+      const unspecSpk = speakerCounts?.[''] ?? 0
+      const declSpk = totalSpeakers - unspecSpk
+      const spkPct = ((declSpk / totalSpeakers) * 100).toFixed(1)
+      line += `, ${declSpk.toLocaleString(locale)} of ${totalSpeakers.toLocaleString(locale)} speakers (${spkPct}%)`
+    }
+    line += '*'
+    parts.push('')
+    parts.push(line)
+  }
+
+  return parts.join('\n')
 }
 
 const buildAgeTable = (
@@ -85,47 +168,92 @@ const buildAgeTable = (
   totalSpeakers?: number,
 ): string => {
   const hasSpk = speakerCounts && totalSpeakers != null && totalSpeakers > 0
-  const rows: string[][] = Object.entries(ageCounts)
-    .filter(([, count]) => count > 0)
-    .sort(([, a], [, b]) => b - a)
-    .map(([key, count]) => {
-      const label = AGE_LABELS[key] ?? key
-      const pct = totalClips > 0 ? ((count / totalClips) * 100).toFixed(1) : '0'
-      const row = [label, `${count.toLocaleString(locale)} (${pct}%)`]
-      if (hasSpk) {
-        const spk = speakerCounts[key] ?? 0
-        const spkPct = ((spk / totalSpeakers) * 100).toFixed(1)
-        row.push(`${spk.toLocaleString(locale)} (${spkPct}%)`)
-      }
-      return row
-    })
-  return formatMarkdownTable(
-    hasSpk ? ['Age band', 'Clips', 'Speakers'] : ['Age band', 'Frequency'],
-    rows,
-  )
+
+  // Fixed label order — show all rows; '-' for 0-count
+  const rows: string[][] = Object.keys(AGE_LABELS).map(key => {
+    const label = AGE_LABELS[key]
+    const code = key || '-'
+    const count = ageCounts[key] ?? 0
+    const row = [code, label, fmtCountPct(count, totalClips, locale)]
+    if (hasSpk) {
+      const spk = speakerCounts?.[key] ?? 0
+      row.push(fmtCountPct(spk, totalSpeakers, locale))
+    }
+    return row
+  })
+
+  const header = hasSpk
+    ? ['Code', 'Age', 'Clips', 'Speakers']
+    : ['Code', 'Age', 'Frequency']
+  const parts: string[] = [formatMarkdownTable(header, rows)]
+
+  // Coverage line: declared = total minus unspecified
+  if (totalClips > 0) {
+    const unspecClips = ageCounts[''] ?? 0
+    const declClips = totalClips - unspecClips
+    const clipPct = ((declClips / totalClips) * 100).toFixed(1)
+    let line = `*Age declared: ${declClips.toLocaleString(locale)} of ${totalClips.toLocaleString(locale)} clips (${clipPct}%)`
+    if (hasSpk) {
+      const unspecSpk = speakerCounts?.[''] ?? 0
+      const declSpk = totalSpeakers - unspecSpk
+      const spkPct = ((declSpk / totalSpeakers) * 100).toFixed(1)
+      line += `, ${declSpk.toLocaleString(locale)} of ${totalSpeakers.toLocaleString(locale)} speakers (${spkPct}%)`
+    }
+    line += '*'
+    parts.push('')
+    parts.push(line)
+  }
+
+  return parts.join('\n')
 }
 
-const SPLIT_NAMES = ['train', 'dev', 'test', 'validated', 'invalidated', 'other'] as const
+const BUCKET_NAMES = ['validated', 'invalidated', 'other'] as const
+const TRAINING_SPLIT_NAMES = ['train', 'dev', 'test'] as const
 
 export const buildDataSplitsTable = (
   buckets: Buckets,
   totalClips: number,
   locale: string = 'en',
 ): string => {
-  const rows: [string, string][] = []
+  const parts: string[] = []
 
-  for (const split of SPLIT_NAMES) {
-    const count = buckets[split]
-    if (count === 0) continue
-    const pct = totalClips > 0 ? ((count / totalClips) * 100).toFixed(1) : '0'
-    rows.push([
-      split.charAt(0).toUpperCase() + split.slice(1),
-      `${count.toLocaleString(locale)} (${pct}%)`,
-    ])
+  // Clip buckets: validated, invalidated, other (% of total clips)
+  const bucketRows: [string, string][] = BUCKET_NAMES.map(name => {
+    const count = buckets[name]
+    return [
+      name.charAt(0).toUpperCase() + name.slice(1),
+      fmtCountPct(count, totalClips, locale),
+    ]
+  })
+  parts.push('**Clip buckets**')
+  parts.push('')
+  parts.push(formatMarkdownTable(['Bucket', 'Clips'], bucketRows))
+
+  // Training splits: train, dev, test (% of validated clips)
+  const validated = buckets.validated
+  let splitTotal = 0
+  const splitRows: [string, string][] = TRAINING_SPLIT_NAMES.map(name => {
+    const count = buckets[name]
+    splitTotal += count
+    return [
+      name.charAt(0).toUpperCase() + name.slice(1),
+      fmtCountPct(count, validated, locale),
+    ]
+  })
+  parts.push('')
+  parts.push('**Training splits**')
+  parts.push('')
+  parts.push(formatMarkdownTable(['Split', 'Clips'], splitRows))
+  if (validated > 0) {
+    const coverage = ((splitTotal / validated) * 100).toFixed(1)
+    parts.push('')
+    parts.push(
+      `*Training split coverage: ${splitTotal.toLocaleString(locale)} of ` +
+      `${validated.toLocaleString(locale)} validated clips (${coverage}%)*`,
+    )
   }
 
-  if (rows.length === 0) return ''
-  return formatMarkdownTable(['Split', 'Clips'], rows)
+  return parts.join('\n')
 }
 
 export const buildVariantStatsTable = (
@@ -136,26 +264,24 @@ export const buildVariantStatsTable = (
   totalSpeakers?: number,
   codeMap?: Record<string, string>,
 ): string => {
-  const entries = Object.entries(variantCounts).filter(([, count]) => count > 0)
+  const entries = Object.entries(variantCounts)
   if (entries.length === 0) return ''
+  sortWithOtherLast(entries, 1)
   const hasSpk = speakerCounts && totalSpeakers != null && totalSpeakers > 0
   const hasCodes = codeMap && Object.keys(codeMap).length > 0
-  const rows: string[][] = entries
-    .sort(([, a], [, b]) => b - a)
-    .map(([variant, count]) => {
-      const pct = totalClips > 0 ? ((count / totalClips) * 100).toFixed(1) : '0'
-      const row: string[] = []
-      if (hasCodes) {
-        row.push(codeMap[variant] ?? '')
-      }
-      row.push(variant, `${count.toLocaleString(locale)} (${pct}%)`)
-      if (hasSpk) {
-        const spk = speakerCounts[variant] ?? 0
-        const spkPct = ((spk / totalSpeakers) * 100).toFixed(1)
-        row.push(`${spk.toLocaleString(locale)} (${spkPct}%)`)
-      }
-      return row
-    })
+  const rows: string[][] = entries.map(([variant, count]) => {
+    const row: string[] = []
+    if (hasCodes) {
+      const code = codeMap[variant] ?? ''
+      row.push(code ? truncateCode(code) : '-')
+    }
+    row.push(variant, fmtCountPct(count, totalClips, locale))
+    if (hasSpk) {
+      const spk = speakerCounts[variant] ?? 0
+      row.push(fmtCountPct(spk, totalSpeakers, locale))
+    }
+    return row
+  })
 
   const header: string[] = []
   if (hasCodes) header.push('Code')
@@ -167,9 +293,8 @@ export const buildVariantStatsTable = (
 
 /**
  * Filters accent counts into predefined (shown individually) and
- * user-submitted (grouped under "Other"). Accent keys from clips.tsv
- * are pipe-separated (e.g. "England English|Turkey English"); all parts
- * must be predefined for the entry to be shown individually.
+ * user-submitted (grouped under "Other"). Accent keys are already
+ * individual names (split at scan time in scanClipsTsv).
  */
 const filterAccentCounts = (
   accentCounts: Record<string, number>,
@@ -188,10 +313,7 @@ const filterAccentCounts = (
   let otherSpeakers = 0
 
   for (const [accent, count] of Object.entries(accentCounts)) {
-    const parts = accent.split('|').map(p => p.trim())
-    const allPredefined = parts.every(p => predefinedSet.has(p))
-
-    if (allPredefined) {
+    if (predefinedSet.has(accent)) {
       filteredCounts[accent] = count
       if (filteredSpeakers && speakerCounts) {
         filteredSpeakers[accent] = speakerCounts[accent] ?? 0
@@ -204,28 +326,14 @@ const filterAccentCounts = (
     }
   }
 
-  if (otherClips > 0) {
-    filteredCounts['Other'] = (filteredCounts['Other'] ?? 0) + otherClips
-    if (filteredSpeakers) {
-      filteredSpeakers['Other'] =
-        (filteredSpeakers['Other'] ?? 0) + otherSpeakers
-    }
+  // Always show Other row when filtering is active (even if 0)
+  filteredCounts['Other'] = (filteredCounts['Other'] ?? 0) + otherClips
+  if (filteredSpeakers) {
+    filteredSpeakers['Other'] =
+      (filteredSpeakers['Other'] ?? 0) + otherSpeakers
   }
 
   return { filteredCounts, filteredSpeakers }
-}
-
-/**
- * Resolves the code for an accent key. Compound keys (pipe-separated)
- * get their codes joined with `|`. Returns empty string for unknown accents.
- */
-const resolveAccentCode = (
-  accentKey: string,
-  codeMap: Record<string, string>,
-): string => {
-  const parts = accentKey.split('|').map(p => p.trim())
-  const codes = parts.map(p => codeMap[p] ?? '')
-  return codes.join('|')
 }
 
 export const buildAccentStatsTable = (
@@ -250,30 +358,24 @@ export const buildAccentStatsTable = (
     effectiveSpeakers = filtered.filteredSpeakers
   }
 
-  const entries = Object.entries(effectiveCounts).filter(
-    ([, count]) => count > 0,
-  )
+  const entries = Object.entries(effectiveCounts)
   if (entries.length === 0) return ''
-  const hasSpk =
-    effectiveSpeakers && totalSpeakers != null && totalSpeakers > 0
+  sortWithOtherLast(entries, 1)
+  const hasSpk = effectiveSpeakers && totalSpeakers != null && totalSpeakers > 0
   const hasCodes = codeMap && Object.keys(codeMap).length > 0
-  const rows: string[][] = entries
-    .sort(([, a], [, b]) => b - a)
-    .map(([accent, count]) => {
-      const pct =
-        totalClips > 0 ? ((count / totalClips) * 100).toFixed(1) : '0'
-      const row: string[] = []
-      if (hasCodes) {
-        row.push(resolveAccentCode(accent, codeMap))
-      }
-      row.push(accent, `${count.toLocaleString(locale)} (${pct}%)`)
-      if (hasSpk && effectiveSpeakers) {
-        const spk = effectiveSpeakers[accent] ?? 0
-        const spkPct = ((spk / totalSpeakers) * 100).toFixed(1)
-        row.push(`${spk.toLocaleString(locale)} (${spkPct}%)`)
-      }
-      return row
-    })
+  const rows: string[][] = entries.map(([accent, count]) => {
+    const row: string[] = []
+    if (hasCodes) {
+      const code = codeMap[accent] ?? ''
+      row.push(code ? truncateCode(code) : '-')
+    }
+    row.push(accent, fmtCountPct(count, totalClips, locale))
+    if (hasSpk && effectiveSpeakers) {
+      const spk = effectiveSpeakers[accent] ?? 0
+      row.push(fmtCountPct(spk, totalSpeakers, locale))
+    }
+    return row
+  })
 
   const header: string[] = []
   if (hasCodes) header.push('Code')
@@ -284,39 +386,55 @@ export const buildAccentStatsTable = (
 }
 
 export const buildTextCorpusStatsTable = (
-  data: Pick<LocaleReleaseData,
-    'validatedSentences' | 'unvalidatedSentences' |
-    'pendingSentences' | 'rejectedSentences' | 'reportedSentences'
+  data: Pick<
+    LocaleReleaseData,
+    | 'validatedSentences'
+    | 'unvalidatedSentences'
+    | 'pendingSentences'
+    | 'rejectedSentences'
+    | 'reportedSentences'
   >,
   locale: string = 'en',
 ): string => {
+  const parts: string[] = []
+
+  // Headline: validated sentences count
+  if (data.validatedSentences > 0) {
+    parts.push(
+      `**Validated sentences:** ${data.validatedSentences.toLocaleString(locale)}`,
+    )
+  }
+
+  // Detailed breakdown table (remaining categories)
   const all: [string, number][] = [
-    ['Validated sentences', data.validatedSentences],
     ['Unvalidated sentences', data.unvalidatedSentences],
     ['Pending sentences', data.pendingSentences],
     ['Rejected sentences', data.rejectedSentences],
     ['Reported sentences', data.reportedSentences],
   ]
-  const rows: [string, string][] = all
-    .filter(([, v]) => v > 0)
-    .map(([label, v]) => [label, v.toLocaleString(locale)])
-  if (rows.length === 0) return ''
-  return formatMarkdownTable(['Category', 'Count'], rows)
+  const rows: [string, string][] = all.map(([label, v]) => [
+    label,
+    fmtPlain(v as number, locale),
+  ])
+  if (rows.length > 0) {
+    parts.push(formatMarkdownTable(['Category', 'Count'], rows))
+  }
+
+  return parts.length > 0 ? parts.join('\n\n') : ''
 }
 
 export const buildSourcesStatsTable = (
   sourceCounts: Record<string, number>,
   locale: string = 'en',
 ): string => {
-  const entries = Object.entries(sourceCounts).filter(([, count]) => count > 0)
+  const entries = Object.entries(sourceCounts)
   if (entries.length === 0) return ''
+  sortWithOtherLast(entries, 1)
   const total = entries.reduce((sum, [, c]) => sum + c, 0)
-  const rows: [string, string][] = entries
-    .sort(([, a], [, b]) => b - a)
-    .map(([source, count]) => {
-      const pct = total > 0 ? ((count / total) * 100).toFixed(1) : '0'
-      return [source, `${count.toLocaleString(locale)} (${pct}%)`]
-    })
+  const rows: [string, string][] = entries.map(([source, count]) => [
+    source,
+    fmtCountPct(count, total, locale),
+  ])
   return formatMarkdownTable(['Source', 'Sentences'], rows)
 }
 
@@ -327,25 +445,35 @@ export const buildTextDomainStatsTable = (
   speakerCounts?: Record<string, number>,
   totalSpeakers?: number,
 ): string => {
-  const entries = Object.entries(domainCounts).filter(([, count]) => count > 0)
-  if (entries.length === 0) return ''
   const hasSpk = speakerCounts && totalSpeakers != null && totalSpeakers > 0
-  const rows: string[][] = entries
-    .sort(([, a], [, b]) => b - a)
-    .map(([domain, count]) => {
-      const pct = totalClips > 0 ? ((count / totalClips) * 100).toFixed(1) : '0'
-      const row = [domain, `${count.toLocaleString(locale)} (${pct}%)`]
-      if (hasSpk) {
-        const spk = speakerCounts[domain] ?? 0
-        const spkPct = ((spk / totalSpeakers) * 100).toFixed(1)
-        row.push(`${spk.toLocaleString(locale)} (${spkPct}%)`)
-      }
-      return row
-    })
-  return formatMarkdownTable(
-    hasSpk ? ['Domain', 'Clips', 'Speakers'] : ['Domain', 'Clips'],
-    rows,
+
+  // Fixed order: all defined domains first, then any extras not in the list
+  const definedKeys = Object.keys(DOMAIN_LABELS)
+  const extraKeys = Object.keys(domainCounts).filter(
+    k => !DOMAIN_LABELS[k],
   )
+
+  // If no data at all (no defined domains have counts AND no extras), return empty
+  const hasAnyData =
+    definedKeys.some(k => (domainCounts[k] ?? 0) > 0) || extraKeys.length > 0
+  if (!hasAnyData) return ''
+
+  const allKeys = [...definedKeys, ...extraKeys]
+  const rows: string[][] = allKeys.map(key => {
+    const label = DOMAIN_LABELS[key] ?? key
+    const count = domainCounts[key] ?? 0
+    const row = [key, label, fmtCountPct(count, totalClips, locale)]
+    if (hasSpk) {
+      const spk = speakerCounts[key] ?? 0
+      row.push(fmtCountPct(spk, totalSpeakers, locale))
+    }
+    return row
+  })
+
+  const header = hasSpk
+    ? ['Code', 'Domain', 'Clips', 'Speakers']
+    : ['Code', 'Domain', 'Clips']
+  return formatMarkdownTable(header, rows)
 }
 
 // -- Replacement map ---------------------------------------------------------
@@ -392,12 +520,18 @@ export const buildReplacementMap = (
 
   // Demographics
   map['GENDER_TABLE'] = buildGenderTable(
-    data.genderCounts, data.clips, lang,
-    data.genderSpeakers, data.speakers,
+    data.genderCounts,
+    data.clips,
+    lang,
+    data.genderSpeakers,
+    data.speakers,
   )
   map['AGE_TABLE'] = buildAgeTable(
-    data.ageCounts, data.clips, lang,
-    data.ageSpeakers, data.speakers,
+    data.ageCounts,
+    data.clips,
+    lang,
+    data.ageSpeakers,
+    data.speakers,
   )
 
   // Data splits
@@ -408,15 +542,21 @@ export const buildReplacementMap = (
 
   // Stats tables — keys match template {{PLACEHOLDER}} names
   const variantTable = buildVariantStatsTable(
-    data.variantCounts, data.clips, lang,
-    data.variantSpeakers, data.speakers,
+    data.variantCounts,
+    data.clips,
+    lang,
+    data.variantSpeakers,
+    data.speakers,
     data.variantCodeMap,
   )
   if (variantTable) map['VARIANT_STATS'] = variantTable
 
   const accentTable = buildAccentStatsTable(
-    data.accentCounts, data.clips, lang,
-    data.accentSpeakers, data.speakers,
+    data.accentCounts,
+    data.clips,
+    lang,
+    data.accentSpeakers,
+    data.speakers,
     data.predefinedAccentNames,
     data.accentCodeMap,
   )
@@ -429,8 +569,11 @@ export const buildReplacementMap = (
   if (sourcesTable) map['SOURCES_STATS'] = sourcesTable
 
   const domainTable = buildTextDomainStatsTable(
-    data.domainCounts, data.clips, lang,
-    data.domainSpeakers, data.speakers,
+    data.domainCounts,
+    data.clips,
+    lang,
+    data.domainSpeakers,
+    data.speakers,
   )
   if (domainTable) map['TEXT_DOMAIN_STATS'] = domainTable
 
@@ -609,7 +752,15 @@ export const runGenerateDatasheet: RTE.ReaderTaskEither<AppEnv, Error, void> =
   pipe(
     RTE.ask<AppEnv>(),
     RTE.chainTaskEitherK(
-      ({ locale, releaseName, releaseDirPath, datasheetPayload, localeData, license, type }) => {
+      ({
+        locale,
+        releaseName,
+        releaseDirPath,
+        datasheetPayload,
+        localeData,
+        license,
+        type,
+      }) => {
         if (type !== 'full') {
           logger.debug(
             'DATASHEETS',

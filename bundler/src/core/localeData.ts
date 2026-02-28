@@ -202,10 +202,14 @@ export const scanClipsTsv = (
             }
           }
           if (accentIdx >= 0) {
-            const a = cols[accentIdx] || ''
-            if (a) {
-              accentCounts[a] = (accentCounts[a] ?? 0) + 1
-              if (cid) { ;(accentCids[a] ??= new Set()).add(cid) }
+            const raw = cols[accentIdx] || ''
+            // accents column is pipe-separated (multiple accents per user)
+            const accents = raw.split('|')
+            for (const accent of accents) {
+              const trimmed = accent.trim()
+              if (!trimmed) continue
+              accentCounts[trimmed] = (accentCounts[trimmed] ?? 0) + 1
+              if (cid) { ;(accentCids[trimmed] ??= new Set()).add(cid) }
             }
           }
         })
