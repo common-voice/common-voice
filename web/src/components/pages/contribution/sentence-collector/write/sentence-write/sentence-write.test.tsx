@@ -19,6 +19,7 @@ const mockSentenceVariant = 'mock-variant-1'
 jest.mock('../../../../../../hooks/store-hooks', () => ({
   useAction: () => useActionMock,
   useAccount: () => ({}),
+  useLocalStorageState: () => [true, jest.fn()],
   useAPI: () => {
     return {
       getVariants: mockVariants,
