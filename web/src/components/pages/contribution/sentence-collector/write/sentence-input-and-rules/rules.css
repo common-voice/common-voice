@@ -151,9 +151,13 @@
   & .icon-and-title.is-collapsible {
     cursor: pointer;
 
-    & .text-button {
-      width: 100%;
-      text-align: start;
+    & .text-button.is-collapsible {
+      pointer-events: none;
+    }
+  }
+
+  &.is-closed {
+    @media (--lg-up) {
       align-self: flex-start;
 
       & .icon-and-title.is-collapsible {
