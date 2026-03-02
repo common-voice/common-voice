@@ -2,6 +2,7 @@ import { Storage } from '@google-cloud/storage'
 import { taskEither as TE } from 'fp-ts'
 import { Readable } from 'stream'
 import { getEnvironment, getStorageLocalEndpoint } from '../config/config'
+import { logger } from './logger'
 
 export type Metadata = { size: string; crc32c: string }
 
@@ -23,11 +24,12 @@ const streamUpload =
       () =>
         new Promise<void>((resolve, reject) => {
           const file = storage.bucket(bucket).file(path)
-          console.log(`Uploading ${path} to ${bucket}`)
+          const shortPath = path.includes('/') ? path.substring(path.indexOf('/') + 1) : path
+          logger.debug('STORAGE', `Uploading ${shortPath}`)
           data
             .pipe(file.createWriteStream())
             .on('finish', () => {
-              console.log(`Successfully uploaded ${path} to ${bucket}`)
+              logger.info('STORAGE', `Uploaded ${shortPath}`)
               resolve()
             })
             .on('error', (err: Error) => {
@@ -47,7 +49,8 @@ const upload =
       async () => {
         const file = storage.bucket(bucket).file(path)
         await file.save(data)
-        console.log(`Successfully uploaded ${path}`)
+        const shortPath = path.includes('/') ? path.substring(path.indexOf('/') + 1) : path
+        logger.info('STORAGE', `Uploaded ${shortPath}`)
       },
       (err: unknown) => Error(String(err)),
     )

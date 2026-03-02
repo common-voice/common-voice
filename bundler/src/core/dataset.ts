@@ -10,6 +10,7 @@ import { getDatasetBundlerBucketName, getTmpDir } from '../config/config'
 import { generateTarFilename } from './compress'
 import { logError } from './clips'
 import { concatFiles } from '../infrastructure/filesystem'
+import { logger } from '../infrastructure/logger'
 import { CORPORA_CREATOR_CLIP_SPLIT_FILES } from '../infrastructure/corporaCreator'
 
 const downloadDataset = (
@@ -22,7 +23,7 @@ const downloadDataset = (
     const storagePath = `${releaseName}/${tarFilename}`
     const filepath = path.join(getTmpDir(), tarFilename)
 
-    console.log('Downloading dataset', storagePath)
+    logger.info('DATASET', `Downloading dataset ${storagePath}`)
     const writeStream = fs.createWriteStream(filepath)
 
     await pipeline(

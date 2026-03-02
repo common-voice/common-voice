@@ -5,6 +5,7 @@ import { spawn } from 'node:child_process'
 import { io as IO, taskEither as TE, array as Arr } from 'fp-ts'
 import { flow, pipe } from 'fp-ts/lib/function'
 import * as path from 'node:path'
+import { logger } from './logger'
 
 const trimSpaces = (str: string) => str.trim()
 const splitOnSpace = (str: string) => str.split(' ')
@@ -21,7 +22,7 @@ export type LineCounts = Record<string, number>
 export const prepareDir =
   (dirPath: string): IO.IO<void> =>
   () => {
-    console.log(`Creating ${dirPath}`)
+    logger.debug('FS', `Creating ${dirPath}`)
     fs.mkdirSync(dirPath, { recursive: true })
   }
 
@@ -53,14 +54,12 @@ const countLinesPromise = (filepaths: string[]) =>
       return
     }
 
-    const cc = spawn('wc', ['-l', ...existingFilepaths], {
-      shell: true,
-    })
+    const cc = spawn('wc', ['-l', ...existingFilepaths])
 
     const buffers: Buffer[] = []
 
     cc.stdout.on('data', data => buffers.push(data))
-    cc.stderr.on('data', data => console.log(`${data}`))
+    cc.stderr.on('data', data => logger.warn('WC', String(data).trimEnd()))
 
     cc.on('close', () => {
       const result = pipe(
@@ -89,19 +88,44 @@ const concatFilesPromise = (
   options: { skipFirstLine: boolean } = { skipFirstLine: false },
 ) =>
   new Promise<void>((resolve, reject) => {
-    const startFrom = ['-n', options.skipFirstLine ? '+2' : '+1']
-    const args = [...startFrom, inFilepath, '>>', outFilepath]
-    const cc = spawn('tail', args, {
-      shell: true,
+    const args = ['-n', options.skipFirstLine ? '+2' : '+1', inFilepath]
+    const cc = spawn('tail', args)
+
+    const writeStream = fs.createWriteStream(outFilepath, { flags: 'a' })
+
+    cc.stdout.pipe(writeStream)
+    cc.stderr.on('data', data => logger.warn('TAIL', String(data).trimEnd()))
+
+    let exitCode: number | null = null
+    let writeFinished = false
+    let settled = false
+
+    const trySettle = () => {
+      if (settled || exitCode === null || !writeFinished) return
+      settled = true
+      if (exitCode !== 0) {
+        reject(new Error(`tail exited with code ${exitCode} for ${inFilepath}`))
+      } else {
+        resolve()
+      }
+    }
+
+    cc.on('close', code => {
+      exitCode = code
+      trySettle()
     })
 
-    cc.stdout.on('data', data => console.log(`${data}`))
-    cc.stderr.on('data', data => console.log(`${data}`))
-
-    cc.on('close', () => {
-      resolve()
+    writeStream.on('finish', () => {
+      writeFinished = true
+      trySettle()
     })
-    cc.on('error', reason => reject(reason))
+
+    writeStream.on('error', reason => {
+      if (!settled) { settled = true; reject(reason) }
+    })
+    cc.on('error', reason => {
+      if (!settled) { settled = true; reject(reason) }
+    })
   })
 
 export const calculateChecksum = (

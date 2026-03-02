@@ -2,7 +2,8 @@
 -- This optimizes the "licensed only" release by avoiding scanning all 300+ languages
 SELECT DISTINCT
   l.name AS name,
-  tt.term_name AS license
+  tt.term_name AS license,
+  COUNT(c.id) AS clip_count
 FROM clips c
 INNER JOIN locales l ON l.id = c.locale_id
 INNER JOIN taxonomy_entries te ON te.sentence_id = c.original_sentence_id
@@ -11,4 +12,4 @@ INNER JOIN taxonomies t ON tt.taxonomy_id = t.id
 WHERE c.created_at BETWEEN ? AND ?
   AND t.tax_name = 'Licence'
 GROUP BY l.name, tt.term_name
-ORDER BY l.name, tt.term_name
+ORDER BY clip_count DESC, l.name, tt.term_name
