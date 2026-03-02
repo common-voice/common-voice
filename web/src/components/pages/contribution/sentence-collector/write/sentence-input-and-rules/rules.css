@@ -145,6 +145,10 @@
       font-size: var(--font-size-xs);
     }
   }
+
+  ul.list-is-hidden {
+    display: none;
+  }
 }
 
 .rules.collapsible {
@@ -164,10 +168,6 @@
         padding-bottom: 24px;
       }
     }
-  }
-
-  & ul.list-is-hidden {
-    display: none;
   }
 }
 
