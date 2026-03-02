@@ -15,6 +15,7 @@ type Props = {
   error?: SentenceSubmissionError
   onToggle: (section: 'single' | 'smallBatch') => void
   isVisible: boolean
+  collapsible?: boolean
 }
 
 export const SinglewriteRules = ({
@@ -25,6 +26,7 @@ export const SinglewriteRules = ({
   mode,
   onToggle,
   isVisible,
+  collapsible,
 }: Props) => {
   const handleClick = () => {
     onToggle('single')
@@ -36,108 +38,122 @@ export const SinglewriteRules = ({
         <div
           className={classNames('icon-and-title', {
             'small-batch': mode === 'small-batch',
-          })}>
+            'is-collapsible': collapsible && mode !== 'small-batch',
+          })}
+          onClick={
+            collapsible && mode !== 'small-batch' ? handleClick : undefined
+          }>
           {mode === 'small-batch' && (
             <ChevronDown
               className={classNames('chevron', { 'rotate-180': isVisible })}
               onClick={handleClick}
             />
           )}
+          {collapsible && mode !== 'small-batch' && (
+            <ChevronDown
+              className={classNames('chevron', 'collapse-chevron', {
+                'rotate-180': isVisible,
+              })}
+            />
+          )}
           {error && <AlertIcon className="alert-icon" />}
           <Localized id={title}>
-            <TextButton onClick={handleClick} />
+            <TextButton
+              className={classNames({
+                'is-collapsible': collapsible && mode !== 'small-batch',
+              })}
+              onClick={
+                collapsible && mode !== 'small-batch' ? undefined : handleClick
+              }
+            />
           </Localized>
         </div>
       </div>
 
-      {isVisible && (
-        <ul>
-          {showFirstRule && (
-            <Localized
-              id="new-sentence-rule-1"
-              elems={{
-                noCopyright: (
-                  <a
-                    href="https://en.wikipedia.org/wiki/Public_domain"
-                    target="_blank"
-                    rel="noreferrer"
-                    data-testid="public-domain-link"
-                  />
-                ),
-                cc0: (
-                  <a
-                    href="https://creativecommons.org/share-your-work/public-domain/cc0/"
-                    target="_blank"
-                    rel="noreferrer"
-                    data-testid="cc0-link"
-                  />
-                ),
-              }}>
-              <li />
-            </Localized>
-          )}
-          <Localized id="new-sentence-rule-2">
-            <li
-              className={classNames({
-                error: error === SentenceSubmissionError.TOO_LONG,
-              })}
-              data-testid={
-                error === SentenceSubmissionError.TOO_LONG
-                  ? 'error-too-long'
-                  : ''
-              }
-            />
-          </Localized>
-          <Localized id="new-sentence-rule-3">
+      <ul className={classNames({ 'list-is-hidden': !isVisible })}>
+        {showFirstRule && (
+          <Localized
+            id="new-sentence-rule-1"
+            elems={{
+              noCopyright: (
+                <a
+                  href="https://en.wikipedia.org/wiki/Public_domain"
+                  target="_blank"
+                  rel="noreferrer"
+                  data-testid="public-domain-link"
+                />
+              ),
+              cc0: (
+                <a
+                  href="https://creativecommons.org/share-your-work/public-domain/cc0/"
+                  target="_blank"
+                  rel="noreferrer"
+                  data-testid="cc0-link"
+                />
+              ),
+            }}>
             <li />
           </Localized>
-          <Localized id="new-sentence-rule-4">
-            <li />
-          </Localized>
-          <Localized id="new-sentence-rule-5">
-            <li
-              className={classNames({
-                error:
-                  error === SentenceSubmissionError.NO_NUMBERS ||
-                  error === SentenceSubmissionError.NO_SYMBOLS,
-              })}
-              data-testid={
+        )}
+        <Localized id="new-sentence-rule-2">
+          <li
+            className={classNames({
+              error: error === SentenceSubmissionError.TOO_LONG,
+            })}
+            data-testid={
+              error === SentenceSubmissionError.TOO_LONG ? 'error-too-long' : ''
+            }
+          />
+        </Localized>
+        <Localized id="new-sentence-rule-3">
+          <li />
+        </Localized>
+        <Localized id="new-sentence-rule-4">
+          <li />
+        </Localized>
+        <Localized id="new-sentence-rule-5">
+          <li
+            className={classNames({
+              error:
                 error === SentenceSubmissionError.NO_NUMBERS ||
-                error === SentenceSubmissionError.NO_SYMBOLS
-                  ? 'error-no-numbers-no-symbols'
-                  : ''
-              }
-            />
-          </Localized>
-          <Localized id="new-sentence-rule-6">
-            <li
-              className={classNames({
-                error: error === SentenceSubmissionError.NO_FOREIGN_SCRIPT,
-              })}
-              data-testid={
-                error === SentenceSubmissionError.NO_FOREIGN_SCRIPT
-                  ? 'error-no-foreign-script'
-                  : ''
-              }
-            />
-          </Localized>
-          <Localized id="new-sentence-rule-7">
-            <li
-              className={classNames({
-                error: error === SentenceSubmissionError.NO_CITATION,
-              })}
-              data-testid={
-                error === SentenceSubmissionError.NO_CITATION
-                  ? 'error-no-citation'
-                  : ''
-              }
-            />
-          </Localized>
-          <Localized id="new-sentence-rule-8">
-            <li className="last-rule" />
-          </Localized>
-        </ul>
-      )}
+                error === SentenceSubmissionError.NO_SYMBOLS,
+            })}
+            data-testid={
+              error === SentenceSubmissionError.NO_NUMBERS ||
+              error === SentenceSubmissionError.NO_SYMBOLS
+                ? 'error-no-numbers-no-symbols'
+                : ''
+            }
+          />
+        </Localized>
+        <Localized id="new-sentence-rule-6">
+          <li
+            className={classNames({
+              error: error === SentenceSubmissionError.NO_FOREIGN_SCRIPT,
+            })}
+            data-testid={
+              error === SentenceSubmissionError.NO_FOREIGN_SCRIPT
+                ? 'error-no-foreign-script'
+                : ''
+            }
+          />
+        </Localized>
+        <Localized id="new-sentence-rule-7">
+          <li
+            className={classNames({
+              error: error === SentenceSubmissionError.NO_CITATION,
+            })}
+            data-testid={
+              error === SentenceSubmissionError.NO_CITATION
+                ? 'error-no-citation'
+                : ''
+            }
+          />
+        </Localized>
+        <Localized id="new-sentence-rule-8">
+          <li className="last-rule" />
+        </Localized>
+      </ul>
       {showLoginInstruction && (
         <Localized
           id="login-instruction-multiple-sentences"
