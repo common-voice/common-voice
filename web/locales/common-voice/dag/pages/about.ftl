@@ -7,7 +7,7 @@ how-does-it-work-text = Ti laɣindila salo kukoya. Tɔhimi a kukoli, wuhimi a di
 
 ## How does it work section
 
-about-language-req-subtitle = So n suhi soli ni bɛ pahi balli.
+about-language-req-subtitle = So n-suhi soli ni bɛ pahi balli.
 about-localization-title = Wɛbsiɛti lunzahim niŋbu
 about-localization-subtitle = Lala balli maa ni ka bɛ lɛbigi wɛbisaiti maa lahibali n-niŋ.
 about-sentence-collection-title = Satara laɣimbu.
