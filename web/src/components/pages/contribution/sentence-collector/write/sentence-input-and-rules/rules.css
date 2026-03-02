@@ -152,8 +152,8 @@
     cursor: pointer;
 
     & .text-button {
-            width: 100%;
-            text-align: start;
+      width: 100%;
+      text-align: start;
       align-self: flex-start;
 
       & .icon-and-title.is-collapsible {
