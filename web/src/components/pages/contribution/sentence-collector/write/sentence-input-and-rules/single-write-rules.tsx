@@ -32,24 +32,34 @@ export const SinglewriteRules = ({
     onToggle('single')
   }
 
+  const isRowCollapsible = collapsible && mode !== 'small-batch'
+
+  const handleKeyDown = (e: React.KeyboardEvent) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault()
+      handleClick()
+    }
+  }
+
   return (
     <div className="single-write-rules">
       <div className="rules-title-container">
         <div
           className={classNames('icon-and-title', {
             'small-batch': mode === 'small-batch',
-            'is-collapsible': collapsible && mode !== 'small-batch',
+            'is-collapsible': isRowCollapsible,
           })}
-          onClick={
-            collapsible && mode !== 'small-batch' ? handleClick : undefined
-          }>
+          role={isRowCollapsible ? 'button' : undefined}
+          tabIndex={isRowCollapsible ? 0 : undefined}
+          onClick={isRowCollapsible ? handleClick : undefined}
+          onKeyDown={isRowCollapsible ? handleKeyDown : undefined}>
           {mode === 'small-batch' && (
             <ChevronDown
               className={classNames('chevron', { 'rotate-180': isVisible })}
               onClick={handleClick}
             />
           )}
-          {collapsible && mode !== 'small-batch' && (
+          {isRowCollapsible && (
             <ChevronDown
               aria-hidden
               className={classNames('chevron', 'collapse-chevron', {
@@ -60,12 +70,8 @@ export const SinglewriteRules = ({
           {error && <AlertIcon className="alert-icon" />}
           <Localized id={title}>
             <TextButton
-              className={classNames({
-                'is-collapsible': collapsible && mode !== 'small-batch',
-              })}
-              onClick={
-                collapsible && mode !== 'small-batch' ? undefined : handleClick
-              }
+              className={classNames({ 'is-collapsible': isRowCollapsible })}
+              onClick={isRowCollapsible ? undefined : handleClick}
             />
           </Localized>
         </div>
