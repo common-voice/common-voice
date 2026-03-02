@@ -75,19 +75,21 @@ export const Rules: React.FC<Props> = ({
   const smallBatchAndSingleRulesHidden =
     !rulesSection.singleVisible && !rulesSection.smallBatchVisible
 
-  const effectiveSingleVisible = collapsible
+  const isCollapsible = collapsible && !isSmallBatchMode
+
+  const effectiveSingleVisible = isCollapsible
     ? isOpen ?? rulesSection.singleVisible
     : rulesSection.singleVisible
 
-  const effectiveOnToggle = collapsible ? () => onToggle?.() : handleToggle
+  const effectiveOnToggle = isCollapsible ? () => onToggle?.() : handleToggle
 
   return (
     <div
       className={classNames('rules', {
         'write-rules': showFirstRule,
         'rules-hidden': smallBatchAndSingleRulesHidden,
-        collapsible: collapsible,
-        'is-closed': collapsible && !effectiveSingleVisible,
+        collapsible: isCollapsible,
+        'is-closed': isCollapsible && !effectiveSingleVisible,
       })}>
       <div className="inner">
         <SinglewriteRules
@@ -98,7 +100,7 @@ export const Rules: React.FC<Props> = ({
           mode={mode}
           onToggle={effectiveOnToggle}
           isVisible={effectiveSingleVisible}
-          collapsible={collapsible}
+          collapsible={isCollapsible}
         />
 
         {showSmallBatchRules && (

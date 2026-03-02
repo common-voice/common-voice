@@ -38,19 +38,17 @@ export const SinglewriteRules = ({
         <div
           className={classNames('icon-and-title', {
             'small-batch': mode === 'small-batch',
-            'is-collapsible': collapsible && mode !== 'small-batch',
-          })}
-          onClick={
-            collapsible && mode !== 'small-batch' ? handleClick : undefined
-          }>
+            'is-collapsible': collapsible,
+          })}>
           {mode === 'small-batch' && (
             <ChevronDown
               className={classNames('chevron', { 'rotate-180': isVisible })}
               onClick={handleClick}
             />
           )}
-          {collapsible && mode !== 'small-batch' && (
+          {collapsible && (
             <ChevronDown
+              aria-hidden
               className={classNames('chevron', 'collapse-chevron', {
                 'rotate-180': isVisible,
               })}
@@ -58,14 +56,7 @@ export const SinglewriteRules = ({
           )}
           {error && <AlertIcon className="alert-icon" />}
           <Localized id={title}>
-            <TextButton
-              className={classNames({
-                'is-collapsible': collapsible && mode !== 'small-batch',
-              })}
-              onClick={
-                collapsible && mode !== 'small-batch' ? undefined : handleClick
-              }
-            />
+            <TextButton onClick={handleClick} />
           </Localized>
         </div>
       </div>

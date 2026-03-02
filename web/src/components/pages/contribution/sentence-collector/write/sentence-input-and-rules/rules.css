@@ -152,12 +152,8 @@
     cursor: pointer;
 
     & .text-button {
-      pointer-events: none;
-    }
-  }
-
-  &.is-closed {
-    @media (--lg-up) {
+            width: 100%;
+            text-align: start;
       align-self: flex-start;
 
       & .icon-and-title.is-collapsible {
