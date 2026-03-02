@@ -50,6 +50,9 @@ export default function UserMenu() {
     }
     checkTouch()
     window.addEventListener('touchstart', checkTouch, { once: true })
+    return () => {
+      window.removeEventListener('touchstart', checkTouch)
+    }
   }, [])
 
   // Close menu when clicking outside
