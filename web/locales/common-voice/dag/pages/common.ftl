@@ -466,6 +466,8 @@ indicates-required = Yaɣ'sheŋa din to asterisk (*) niŋ talahi
 not-available-abbreviation = N/A
 # Text shown on a button that can be clicked to copy text to the clipboard
 copy = kɔɔpima
+# Text shown on a button that can be clicked to close a modal or panel
+close = Yima
 # Text shown on a button that can be clicked to cancel an action
 cancel = yihima
 # Text shown on a button that can be clicked to delete an item
