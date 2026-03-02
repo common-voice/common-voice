@@ -1,0 +1,125 @@
+---
+name: Bundler — Build and Push to GAR
+
+on:
+  workflow_dispatch:
+    inputs:
+      deploy_environment:
+        description: 'Target environment'
+        required: true
+        type: choice
+        options:
+          - stage
+          - production
+        default: 'stage'
+      version:
+        description: 'Version string (e.g., v1.0.0)'
+        required: true
+        type: string
+      git_ref:
+        description: 'Git ref to build from (branch, tag, or SHA). Defaults to main.'
+        required: false
+        type: string
+        default: 'main'
+      run_tests:
+        description: 'Run bundler tests before building'
+        required: false
+        type: boolean
+        default: true
+
+jobs:
+  test:
+    name: Bundler Tests
+    if: ${{ inputs.run_tests }}
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: bundler
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.git_ref }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run tests
+        run: npm test
+
+  build_and_push:
+    name: Build and Push Bundler Image
+    needs: [test]
+    if: ${{ always() && (needs.test.result == 'success' || needs.test.result == 'skipped') }}
+    runs-on: ubuntu-latest
+    environment: build
+    permissions:
+      contents: read
+      id-token: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.git_ref }}
+
+      - name: Prepare Variables
+        id: vars
+        run: |
+          echo "commit_sha=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
+
+          VERSION_INPUT="${{ inputs.version }}"
+          if [[ ! "$VERSION_INPUT" == v* && "$VERSION_INPUT" =~ ^[0-9] ]]; then
+            VERSION_INPUT="v${VERSION_INPUT}"
+          fi
+          echo "image_tag=bundler-${{ inputs.deploy_environment }}-${VERSION_INPUT}" >> $GITHUB_OUTPUT
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Authenticate with GCP
+        id: gcp-auth
+        uses: google-github-actions/auth@v2
+        with:
+          token_format: access_token
+          service_account: artifact-writer@${{ secrets.GAR_PROJECT_ID }}.iam.gserviceaccount.com
+          workload_identity_provider: ${{ secrets.GCPV2_GITHUB_WORKLOAD_IDENTITY_PROVIDER }}
+
+      - name: Authenticate with Docker Registry
+        uses: docker/login-action@v3
+        with:
+          registry: us-docker.pkg.dev
+          username: oauth2accesstoken
+          password: ${{ steps.gcp-auth.outputs.access_token }}
+
+      - name: Build and Push Docker Image
+        id: build-and-push
+        uses: docker/build-push-action@v6
+        with:
+          context: ./bundler
+          file: ./bundler/Dockerfile
+          tags: |
+            us-docker.pkg.dev/${{ vars.BUNDLER_GAR_IMAGE_PATH }}:${{ steps.vars.outputs.image_tag }}
+            us-docker.pkg.dev/${{ vars.BUNDLER_GAR_IMAGE_PATH }}:latest
+          push: true
+          build-args: |
+            COMMIT=${{ steps.vars.outputs.commit_sha }}
+          cache-from: type=gha,scope=bundler-${{ inputs.deploy_environment }}
+          cache-to: type=gha,scope=bundler-${{ inputs.deploy_environment }},mode=max
+
+      - name: Job Summary
+        run: |
+          echo "## Bundler Image Pushed" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| Field | Value |" >> $GITHUB_STEP_SUMMARY
+          echo "|---|---|" >> $GITHUB_STEP_SUMMARY
+          echo "| **Image** | \`us-docker.pkg.dev/${{ vars.BUNDLER_GAR_IMAGE_PATH }}:${{ steps.vars.outputs.image_tag }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Commit** | \`${{ steps.vars.outputs.commit_sha }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Ref** | \`${{ inputs.git_ref }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Environment** | ${{ inputs.deploy_environment }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Digest** | \`${{ steps.build-and-push.outputs.digest }}\` |" >> $GITHUB_STEP_SUMMARY
