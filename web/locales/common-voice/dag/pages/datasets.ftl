@@ -41,6 +41,7 @@ resource-nemo-info = NeMo</githubLink>™ nyɛla <docsLink>open-source toolkit</
 community-playbook = Zilenini Demabuku
 resource-playbook-info = <playbookLink>yala soŋsim tarisi<playbookLink>kukoya din laɣim sochenda ŋɔ zaa zuɣu,dunduŋni tuma tumbu n ti pahi ti ni yan niŋ shɛm zaŋgatabi ti fondi ni
 data-other-ted-name = TED-LIUM Corpus
+your-feedback = A mali pahigu shɛli din tu ni ti zaŋ pahi n che ka common voice datasets nya naba n zani? che ka ti baŋ ti yɛltɔɣa kpanjɔɣu maa ni
 go-discourse = Chami fiila puuni
 go-languages-page = chami zuliya balli yaɣili
 ready-to-validate = A shili biya ni sɔŋsi dihi nuu yɛltɔɣa zuɣu?
