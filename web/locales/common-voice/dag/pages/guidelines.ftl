@@ -124,12 +124,20 @@ transcribe-the-audio-subheader-2-example-3-correct = <correct>Viɛnyɛla</correc
 transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Ka viɛnyɛla</wrong>: Didi nyɛla 20% off
 transcribe-the-audio-subheader-2-example-4-correct = <correct>Viɛnyɛla</correct>: Bɛ nyɛla <underline>FBI ni daa gbahi shɛba</underline> alaamishi dali maa
 transcribe-the-audio-subheader-2-example-4-wrong = <wrong>Ka viɛnyɛla</wrong>: Bɛ nyɛla <underline>eff bee eye ni daa gbahi shɛba</underline> alaamishi dali maa
+tags-table-header-1 = tikparili
 tags-table-header-2 = Gbinni
 tags-laugh = La
+tags-disfluency = Di bi yari lura viɛnyɛla
+tags-unclear = Di bi neei viɛnyɛla
 tags-noise = Vuri
 tags-laugh-explanation = Lari komsi
 tags-unclear-explanation = Bachi bee yɛltɔɣili din ka gbaabu
 tags-noise-explanation = Vuri kam kamani ŋun yɛri maa kɔhingu,siɣimbu,loori kikaa kumsi, binshɛɣu ŋme ye'duhirigu maa, taŋgalimii vubu
+# Note: do not translate any tag, like [noise] or [laugh]
+special-tags-example-2 =
+    Tɔ, di saha, ka n [noise] daa chaŋ n vuhim dabisili.
+    Tɔ, [noise] [laugh] di daa did kuli pala vuhim dabisili gba [laugh]
+transcribe-the-audio-subheader-4-explanation-1-example = O yuli nyɛla <underline>Jo- Jona-</underline> Jonathan.
 
 ## Code-Switching
 
