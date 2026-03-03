@@ -42,6 +42,7 @@ community-playbook = Zilenini Demabuku
 data-other-ted-name = TED-LIUM Corpus
 go-discourse = Chami fiila puuni
 go-languages-page = chami zuliya balli yaɣili
+ready-to-validate = A shili biya ni sɔŋsi dihi nuu yɛltɔɣa zuɣu?
 more = pam
 download = vooma
 dataset-version = Tiɣisuma
