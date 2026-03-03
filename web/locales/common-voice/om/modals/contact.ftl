@@ -6,3 +6,5 @@ contact-form-name =
 contact-form-message =
     .label = Ergaa
 contact-required = *dirqama
+contact-form-success = Ergaan kee ergameera. Galatoomi!
+contact-form-error = Wanti ta'e dogoggora. Maaloo irra deebiin yaali.
