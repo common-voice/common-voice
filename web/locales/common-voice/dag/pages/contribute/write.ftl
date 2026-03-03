@@ -107,6 +107,12 @@ rate-limit-toast-message-minutes =
         [one] di saha maa gariya. labi lihi dizuɣu minti yini.
        *[other] di saha maa gaɣiya. labi lihi dizuɣu { $retryLimit }
     }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Di ni simdi ni a paai shɛm maa yaɣiya.Labi buɣisi sakɛnsi yini zuɣu.
+       *[other] Di ni simdi ni a paai shɛm maa  yaɣiya.Labi biɣisi<$retryLimit>sakɛnsi
+    }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $totalSentences ->
