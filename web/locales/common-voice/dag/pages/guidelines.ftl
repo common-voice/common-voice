@@ -25,6 +25,7 @@ example = shɛhira
 varying-pronunciations-explanation-1 = Ti deeri bɔlindi kɔnkɔba! Niŋmi zaɣa pam ka naan zaɣisi clipu ka di nyɛla a tiɛhimi ni ŋun karim li maa bi bɔli li viɛnyɛla,o niɣim la o kukɔli dini bi tu luɣ'shɛli,bee o yaɣili bahibu bia. Bachi bɔlibu kukɔya galisiya dunia ni ka di shɛŋa beni ka a na ʒin wum li a ʒileli ni.Niŋmi ladabisi ni paɣibu zaŋ ti ninvuɣi shɛba ban' yɛligu wɔligi ka che a dini.
 varying-pronunciations-explanation-2 = Din lahi pahi,a yi tiɛhi ni ŋun karindi maa na ʒin nya bachi maa, ka bibirigindi di bɔlibu maa ,dim suɣulo zaɣasimi li,a mi yi ka dihitabili,nyin kpahiyaɣi li.
 varying-pronunciations-example = Lala soli maa daa bi ne n do polo ni.
+misreadings-explanation-1 = paaji maani yɛltɔɣa maa zaa karimbu nyɛla din kpa.A yi wumda, lihimi viɛnyɛla  ka bɛ ni yɛli shɛli mini bɛ ni sabi shɛli zaa kuli nyɛ yim; zaɣisimli bɛ yi pahi shɛli, n nam shɛli bee n yihi shɛli.
 misreadings-explanation-2 = Chiriŋ shɛŋa din tooi bɛni n-nyɛ;
 misreadings-explanation-3 = A yi bi tooi boli 'A'bee 'The' vulibu maa piligu.
 misreadings-explanation-4 = 's' kahiyaɣi bachi bahigu
