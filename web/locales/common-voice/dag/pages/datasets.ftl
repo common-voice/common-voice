@@ -58,6 +58,9 @@ dataset-metadata-sex = Doo bee paɣa
 dataset-metadata-age = A yuma
 donate-modal-message = A dataset maa nyɛla din voora
 dataset-donate-modal-heading = a di mi?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>A nini yi tiɣi nyin yooma, lahabali din bɛni- timi zuŋo!</bold>
+data-download-singleword-title = ti voorila yɛl'tɔɣi gaŋa maa nini ni kuli kpa shɛli
 data-download-button = Yaami binshɛli din nyɛ kukɔli yaabu.
 data-download-yes = Iin
 data-download-deny = Aayi
