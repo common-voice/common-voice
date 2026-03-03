@@ -46,7 +46,6 @@ missing-language = ¿La man k'o ta ri ach'ab'äl pa ri Rucholxe' Tzij? We nawajo
 go-languages-page = Tib'e pa Ruxaq Ch'ab'äl
 ready-to-validate = ¿La yatikïr chik ye'ajikib'a' taq b'ab'?
 more = Ch'aqa' chik
-close = Titz'apïx
 download = Tiqasäx
 dataset-version = Ruwäch
 data-download-button = Tiqasäx Ta Rutzij Common Voice

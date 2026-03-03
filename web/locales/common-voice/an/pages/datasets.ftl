@@ -60,7 +60,6 @@ missing-language = No amaneixe lo tuyo idioma en a base de datos? Si quiers adhi
 go-languages-page = Ir ta la Pachina d'idiomas
 ready-to-validate = Yes presto/a pa validar frases?
 more = Mas
-close = Zarrar
 download = Descargar
 dataset-version = Versión
 sha256-checksum-copied = S'ha copiau la suma de verificación SHA256

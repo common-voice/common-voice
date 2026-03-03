@@ -68,7 +68,6 @@ missing-language = Nezobrazuje sa váš jazyk v kolekcii údajov? Ak chcete pož
 go-languages-page = Prejsť na stránku Jazyky
 ready-to-validate = Ste pripravení pomôcť s overovaním viet?
 more = Viac
-close = Zavrieť
 download = Na stiahnutie
 dataset-version = Verzia
 sha256-checksum-copied = Kontrolný súčet SHA256 bol skopírovaný!

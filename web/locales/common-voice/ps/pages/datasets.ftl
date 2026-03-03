@@ -68,7 +68,6 @@ missing-language = ایا ستاسو ژبه په ډېټاسیټ کې منعکس 
 go-languages-page = د ژبې پا ڼې ته لاړشئ
 ready-to-validate = د جملو تاییدولو کې مرستې ته چمتو یاست؟
 more = نور
-close = بندکړئ
 download = ډاونلوډ
 dataset-version = نسخه
 sha256-checksum-copied = SHA256 چکسم کاپي شوی!

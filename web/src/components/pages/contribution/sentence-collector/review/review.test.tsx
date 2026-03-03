@@ -35,6 +35,7 @@ jest.mock('../../../../../hooks/store-hooks', () => ({
       ],
     }
   },
+  useLocalStorageState: () => [true, jest.fn()],
   useSentences: () => ({
     'mock-locale-1': {},
   }),

@@ -43,7 +43,6 @@ missing-language = Kan Dataset ah na holh phun na hmu lo maw? Holhphun umnak ah 
 go-languages-page = Holhphun thimnak ah kal
 ready-to-validate = Biatlang a hman le hman lo check dingah nai manh maw?
 more = Tamdeuh
-close = Khar
 download = Download
 dataset-version = A phun
 data-download-button = Common Voice Data Dawnlok

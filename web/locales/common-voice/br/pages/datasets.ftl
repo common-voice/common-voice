@@ -61,7 +61,6 @@ missing-language = Ne welit ket ho yezh er strobad roadennoù ? Kit war pajenn a
 go-languages-page = Mont da pajenn ar yezhoù
 ready-to-validate = Prest da aprouiñ frazennoù ?
 more = Muioc’h
-close = Serriñ
 download = Pellgargañ
 dataset-version = Stumm
 sha256-checksum-copied = Eilet eo bet ervat sammad kontrollliñ SHA256.

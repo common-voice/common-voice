@@ -50,7 +50,6 @@ missing-language = Ne vidite svojega jezika v naboru podatkov? Če želite predl
 go-languages-page = Pojdi na stran z jeziki
 ready-to-validate = Ste pripravljeni pomagati potrjevati stavke?
 more = Več
-close = Zapri
 download = Prenesi
 dataset-version = Različica
 clipboard-not-supported = Odložišče ni podprto

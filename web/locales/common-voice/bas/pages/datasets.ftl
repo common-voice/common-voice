@@ -38,7 +38,6 @@ missing-language = Hop woñ u njôbôk bé i Mayaa e ? Ibale u ñgwés jubus h
 go-languages-page = Kenek i lipep jés li mahop
 ready-to-validate = U yé mbômhaga i hola lineebe mintôñ mi makiñ e ?
 more = Bipe
-close = Yip
 download = Ket
 dataset-version = Bitéé bi lipémhak
 data-download-singleword-title = Ket Suñ-Likoñ Pom-Buk

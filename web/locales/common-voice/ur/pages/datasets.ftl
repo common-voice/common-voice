@@ -47,7 +47,6 @@ missing-language = کیا آپ اپنی زبان کا عکس ڈیٹاسیٹ می
 go-languages-page = زبانوں کے صفحے پر جائیں
 ready-to-validate = کیا جملے درست کرنے میں مدد کرنے کے لئے تیار ہیں؟
 more = مزید
-close = بند کریں
 download = ڈاؤن لوڈ کریں
 dataset-version = ورژن
 data-download-singleword-title = یک لفظ ہدف طبقہ ڈاؤن لوڈ کریں

@@ -467,6 +467,8 @@ indicates-required = កន្លែង​បញ្ចូល​ដែលសម�
 not-available-abbreviation = មិនអាចអនុវត្តបាន
 # Text shown on a button that can be clicked to copy text to the clipboard
 copy = ​ចម្លង​
+# Text shown on a button that can be clicked to close a modal or panel
+close = បិទ
 # Text shown on a button that can be clicked to cancel an action
 cancel = បោះបង់ចោល
 # Text shown on a button that can be clicked to delete an item

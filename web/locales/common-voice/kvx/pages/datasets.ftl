@@ -53,7 +53,6 @@ missing-language = ڪِي تمارئي ٻولئي ڊيٽا سيٽ ۾ شامِل 
 go-languages-page = ٻوليون رون پونيون مانه زائو
 ready-to-validate = جُملون رئي تصڌِيق ۾ مڌت ڪريا ۿارُو جُملا تيار سئہ؟
 more = وڌارئہ
-close = بند
 download = ڊائونلوڊ
 dataset-version = ورجن
 sha256-checksum-copied = ايس ايڇ اي256 چيڪسم ڪاپئي ڪريو ڳيو!

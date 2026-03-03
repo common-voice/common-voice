@@ -52,7 +52,6 @@ missing-language = A wu voni ririmi ra wena ri kombisiwa eka Rungula? Ku kombela
 go-languages-page = Famba eka Pheji ra Tindzimi
 ready-to-validate = Xana u lunghekele ku pfuneta ku tiyisisa swivulwa?
 more = Swo tala
-close = Pfala
 download = Kopa
 dataset-version = Nkandziyiso
 data-download-singleword-title = Downloda Xiyenge xa ​​Rito rin’we leri kongomisiweke

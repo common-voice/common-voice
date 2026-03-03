@@ -90,6 +90,7 @@ describe('Email', () => {
       it('calls nodemailer correctly', async () => {
         await email.sendLanguageRequestEmail({
           email: 'test@example.com',
+          languageName: 'JavaScript',
           platforms: ['scripted-speech', 'spontaneous-speech'],
           languageInfo:
             "I'd love for JavaScript to be supported on CommonVoice",
@@ -100,14 +101,16 @@ describe('Email', () => {
         expect(mockTransport.sendMail).toBeCalledWith({
           from: 'commonvoice+test-from@example.com',
           to: 'commonvoice+test-to@example.com',
-          subject: 'Language Request test@example.com en-US',
+          subject: 'Language Request: JavaScript — test@example.com',
           html: `
       <h2>Email</h2>
       <p><a href="mailto:test@example.com">test@example.com</a></p>
+      <h2>Requested Language</h2>
+      <p>JavaScript</p>
       <h2>Platforms</h2>
       <p>scripted-speech, spontaneous-speech</p>
       <h2>Language Information</h2>
-      <p>I'd love for JavaScript to be supported on CommonVoice</p><h2>Language Locale</h2>
+      <p>I'd love for JavaScript to be supported on CommonVoice</p><h2>Browser Locale</h2>
         <p>en-US</p>
       `.trim(),
         })
@@ -119,6 +122,7 @@ describe('Email', () => {
       it('handles missing language locale', async () => {
         await email.sendLanguageRequestEmail({
           email: 'test@example.com',
+          languageName: 'JavaScript',
           platforms: ['scripted-speech', 'spontaneous-speech'],
           languageInfo:
             "No languages for me, just want to say you're doing a great job!",
@@ -127,16 +131,58 @@ describe('Email', () => {
         expect(mockTransport.sendMail).toBeCalledWith({
           from: 'commonvoice+test-from@example.com',
           to: 'commonvoice+test-to@example.com',
-          subject: 'Language Request test@example.com',
+          subject: 'Language Request: JavaScript — test@example.com',
           html: `
       <h2>Email</h2>
       <p><a href="mailto:test@example.com">test@example.com</a></p>
+      <h2>Requested Language</h2>
+      <p>JavaScript</p>
       <h2>Platforms</h2>
       <p>scripted-speech, spontaneous-speech</p>
       <h2>Language Information</h2>
       <p>No languages for me, just want to say you're doing a great job!</p>
       `.trim(),
         })
+      })
+    })
+
+    describe('sendContactEmail', () => {
+      afterEach(() => {
+        mockTransport.isIdle.mockClear()
+        mockTransport.sendMail.mockClear()
+      })
+
+      it('calls nodemailer with correct subject and html', async () => {
+        await email.sendContactEmail({
+          email: 'user@example.com',
+          name: 'Alice',
+          message: 'Great project!',
+        })
+
+        expect(mockTransport.isIdle).toBeCalled()
+        expect(mockTransport.sendMail).toBeCalledWith({
+          from: 'commonvoice+test-from@example.com',
+          to: 'commonvoice+test-to@example.com',
+          subject: 'Contact Form: user@example.com',
+          html: expect.stringContaining('(Alice)'),
+        })
+
+        // no test preview urls in production
+        expect(mockNodemailer.getTestMessageUrl).not.toBeCalled()
+      })
+
+      it('omits name from html when not provided', async () => {
+        await email.sendContactEmail({
+          email: 'anon@example.com',
+          message: 'Anonymous message',
+        })
+
+        expect(mockTransport.sendMail).toBeCalledWith(
+          expect.objectContaining({
+            subject: 'Contact Form: anon@example.com',
+            html: expect.not.stringContaining('('),
+          })
+        )
       })
     })
   })
@@ -174,6 +220,7 @@ describe('Email', () => {
       it('calls nodemailer correctly', async () => {
         await email.sendLanguageRequestEmail({
           email: 'test@example.com',
+          languageName: 'JavaScript',
           platforms: ['scripted-speech'],
           languageInfo:
             "I'd love for JavaScript to be supported on CommonVoice",

@@ -45,7 +45,6 @@ missing-language = Maunca tiu lungatg aunc ell'unitad da datas? Per tschercar in
 go-languages-page = Va alla Pagina da lungatgs
 ready-to-validate = Eis ti promts/promta da gidar nus a valetar las construcziuns?
 more = dapli
-close = serrar
 download = telecargar
 dataset-version = Versiun
 data-download-button = Telecargar l'unitad da datas da Common Voice

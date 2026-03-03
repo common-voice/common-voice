@@ -467,6 +467,8 @@ indicates-required = * Pflichtfeld
 not-available-abbreviation = Nicht verfügbar
 # Text shown on a button that can be clicked to copy text to the clipboard
 copy = Kopieren
+# Text shown on a button that can be clicked to close a modal or panel
+close = Schließen
 # Text shown on a button that can be clicked to cancel an action
 cancel = Abbrechen
 # Text shown on a button that can be clicked to delete an item

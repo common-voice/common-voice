@@ -52,7 +52,6 @@ missing-language = Ga o bone polelo ya gago bonagatša go dathasete? Go kgopela 
 go-languages-page = Eya go Letlakala la Maleme
 ready-to-validate = O ikemišeditše go kgonthiša mafoko?
 more = Fetago
-close = Kgaufsi
 download = Tanelouto
 dataset-version = Version
 data-download-singleword-title = Tanelouta Nepo ya Lentšu le Tee

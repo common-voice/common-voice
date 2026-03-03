@@ -58,7 +58,6 @@ missing-language = S’e shihni gjuhën tuaj të pasqyruar në Grupin e të Dhë
 go-languages-page = Shkoni te Faqja e Gjuhëve
 ready-to-validate = Gati për vleftësim frazash?
 more = Më tepër
-close = Mbylle
 download = Shkarkoje
 dataset-version = Version
 sha256-checksum-copied = Checksum-i  SHA256 u Kopjua!

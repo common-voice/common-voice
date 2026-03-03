@@ -52,7 +52,6 @@ missing-language = Наборга эһиги тылгыт суох? Тыллар
 go-languages-page = Тыллар страницаҕа  көс
 ready-to-validate = Этиилэр сөпкө суруллубуттарын көрөн көмөлөһөргө бэлэмҥин?
 more = Салгыы
-close = Сап
 download = Хачайдааһын
 dataset-version = Версия
 sha256-checksum-copied = SHA256 хонтуруоллуур сууммата ылылынна!

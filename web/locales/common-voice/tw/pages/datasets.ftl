@@ -52,7 +52,6 @@ missing-language = Don’t see your language reflected in the Dataset? To reques
 go-languages-page = Go to Languages Page
 ready-to-validate = Ready to help validate sentences?
 more = More
-close = Close
 download = Download
 dataset-version = Version
 data-download-singleword-title = Download the Single Word Target Segment

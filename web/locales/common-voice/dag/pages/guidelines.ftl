@@ -111,7 +111,10 @@ answer-questions-tip-2 = piimi luɣishɛli intaneeti ni be.
 answer-questions-tip-4 = Chɛli yɛltɔɣa kana, yɛltɔɣa fina, bee yɛltɔɣa yoya
 # Transcribe the Audio
 transcribe-the-audio = Sabimi kukɔli maa.
+transcribe-the-audio-subheader-1 = So'dola
 transcribe-the-audio-subheader-2 = nambanima mini bachi ŋmahi
+transcribe-the-audio-subheader-3 = Tikpara gahinda
+transcribe-the-audio-subheader-4 = Bachi piribu,ʒiri pilli,labiyaai bachinima.
 # text wrapped in wrong will be shown as red text in the UI
 transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Ka viɛnyɛla</wrong>:  Di nyɛla maali kɔbiga zaŋ kana kpe
 # text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
@@ -122,20 +125,34 @@ transcribe-the-audio-subheader-2-example-3-correct = <correct>Viɛnyɛla</correc
 transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Ka viɛnyɛla</wrong>: Didi nyɛla 20% off
 transcribe-the-audio-subheader-2-example-4-correct = <correct>Viɛnyɛla</correct>: Bɛ nyɛla <underline>FBI ni daa gbahi shɛba</underline> alaamishi dali maa
 transcribe-the-audio-subheader-2-example-4-wrong = <wrong>Ka viɛnyɛla</wrong>: Bɛ nyɛla <underline>eff bee eye ni daa gbahi shɛba</underline> alaamishi dali maa
+tags-table-header-1 = tikparili
 tags-table-header-2 = Gbinni
 tags-laugh = La
+tags-disfluency = Di bi yari lura viɛnyɛla
+tags-unclear = Di bi neei viɛnyɛla
 tags-noise = Vuri
 tags-laugh-explanation = Lari komsi
 tags-unclear-explanation = Bachi bee yɛltɔɣili din ka gbaabu
 tags-noise-explanation = Vuri kam kamani ŋun yɛri maa kɔhingu,siɣimbu,loori kikaa kumsi, binshɛɣu ŋme ye'duhirigu maa, taŋgalimii vubu
+# Note: do not translate any tag, like [noise] or [laugh]
+special-tags-example-2 =
+    Tɔ, di saha, ka n [noise] daa chaŋ n vuhim dabisili.
+    Tɔ, [noise] [laugh] di daa did kuli pala vuhim dabisili gba [laugh]
+transcribe-the-audio-subheader-4-explanation-1-example = O yuli nyɛla <underline>Jo- Jona-</underline> Jonathan.
 
 ## Code-Switching
 
+code-switching = Zuliya yɛltɔɣa taɣibu
+code-switching-adding-question-criteria-2 = Di tu ni di mali anfaani
 # What to Avoid
 code-switching-avoid-subheader = Din tu ni a che
 code-switching-avoid-intro = Bɔhisi din ni tooi:
+# Reviewing a Question
+code-switching-review-subheader = labi yuli bɔhisi
 # Answering a Question
 code-switching-answer-subheader = Bɔhigu labsibu
+# Use standard spelling for each language
+code-switching-spelling-header = Zaŋ mi bachi yiɣisibu zaɣa maŋli n-ti balli kam
 code-switching-not-tag-proper-names-example-2 = Tiŋsi: Los Angeles, Florida
 code-switching-not-tag-interjections-example-2 = "Aayi"
 code-switching-not-tag-interjections-example-3 = "Iin"

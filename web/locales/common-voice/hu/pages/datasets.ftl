@@ -68,7 +68,6 @@ missing-language = Nem látja a nyelvét az adatkészletben? Nyelv kéréséhez 
 go-languages-page = Ugrás a Nyelvek oldalra
 ready-to-validate = Készen áll, hogy segítsen a mondatok ellenőrzésében?
 more = Több
-close = Bezárás
 download = Letöltés
 dataset-version = Verzió
 sha256-checksum-copied = SHA256 ellenőrzőösszeg másolva.

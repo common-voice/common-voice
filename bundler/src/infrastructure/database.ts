@@ -1,8 +1,8 @@
-import * as mysql from 'mysql'
+import * as mysql from 'mysql2'
 import { taskEither as TE } from 'fp-ts'
 import { getDbConfig } from '../config/config'
 
-const DB_CONFIG: mysql.ConnectionConfig = getDbConfig()
+const DB_CONFIG: mysql.ConnectionOptions = getDbConfig()
 
 export const query = <T>(
   query: string,
@@ -13,9 +13,9 @@ export const query = <T>(
       new Promise((resolve, reject) => {
         const conn = mysql.createConnection(DB_CONFIG)
 
-        conn.query(query, params, function (err: unknown, results: T, fields: unknown) {
+        conn.query(query, params, function (err, results) {
           if (err) reject(err)
-          resolve(results)
+          resolve(results as T)
         })
 
         conn.end()

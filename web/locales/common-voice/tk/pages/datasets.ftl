@@ -51,7 +51,6 @@ missing-language = Maglumat toplumynda diliňizi göreňzokmy? Dil soramak üçi
 go-languages-page = Diller sahypasyna git
 ready-to-validate = Sözlemleri barlamaga kömek etmäge taýýarmy?
 more = Köpräk
-close = Ýap
 download = Göçürip al
 dataset-version = Wersiýa
 data-download-singleword-title = Bir sözli nyşana segmenti göçürip al

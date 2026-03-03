@@ -467,6 +467,8 @@ indicates-required = * Wóznamjenijo trjebne pólo
 not-available-abbreviation = Nic k dispoziciji
 # Text shown on a button that can be clicked to copy text to the clipboard
 copy = Kopěrowaś
+# Text shown on a button that can be clicked to close a modal or panel
+close = Zacyniś
 # Text shown on a button that can be clicked to cancel an action
 cancel = Pśetergnuś
 # Text shown on a button that can be clicked to delete an item

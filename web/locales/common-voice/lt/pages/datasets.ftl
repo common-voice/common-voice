@@ -189,7 +189,6 @@ missing-language = Nematai savo kalbos duomenų rinkinyje? Jeigu nori paprašyti
 go-languages-page = Eiti į kalbų tinklalapį
 ready-to-validate = Ar pasiruošei padėti patvirtinti frazes?
 more = Išsamiau
-close = Užverti
 download = Atsisiųsti
 dataset-version = Versija
 data-download-button = Pasisiųsti „Common Voice“ duomenis

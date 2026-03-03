@@ -60,7 +60,6 @@ missing-language = No agatas sa limba tua in su pachete de datos? Pro pedire una
 go-languages-page = Bae a sa pàgina de is limbas
 ready-to-validate = Ses prontu a agiudare a validare frases?
 more = Àteru
-close = Serra
 download = Iscàrriga
 dataset-version = Versione
 sha256-checksum-copied = Checksum SHA256 copiadu.

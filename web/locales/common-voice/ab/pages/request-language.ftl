@@ -35,6 +35,14 @@ request-language-error =
 request-for-scripted-speech-toggle = Асценари ала ҿырҳәалатәи ажәаҳәазы аҳәара
 request-for-spontaneous-speech-toggle = Аспонтантә жәаҳәазы аҳәара
 need-help-deciding-platform = Иалхтәу аҿы ацхыраара шәҭахума?
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = <strong>Scripted Speech</strong> (традициала Common Voice ҳәа ижәдыруа) — ари шәбызшәала шәыбжьы ҭыганы аҳәоуқәа шәрыԥхьар ахьшәылшо ҭыԥуп.
 request-language-found-cv-contribution =
     Ура! Шәбызшәа иҟалахьеит Common Voice аҟынтәи <strong>Scripted Speech</strong> аҿы.
     Шәара ишәылшоит <homePageLink>ара</homePageLink>ацхыраара аҭара.
+request-language-found-cv-sentences-lack =
+    Шәбызшәа Common Voice абызшәақәа рсиаҿы иҟалахьеит.
+    <strong>Scripted Speech</strong> аҿы абызшәа аус арура шәацхраар шәылшоит,
+    <sentencesContributionLink>ара</sentencesContributionLink> шәҳәоуқәа алажәгалар ҟалоит.
+request-language-already-available-scs = Scripted Speech шәхы иашәырхәартә иҟалахьеит
+request-language-already-available-sps = Spontaneous Speech шәхы иашәырхәартә иҟалахьеит

@@ -18,6 +18,9 @@ type Props = {
   showFirstRule?: boolean
   isLoggedIn?: boolean
   mode?: WriteMode
+  collapsible?: boolean
+  isOpen?: boolean
+  onToggle?: () => void
 }
 
 export const Rules: React.FC<Props> = ({
@@ -27,6 +30,9 @@ export const Rules: React.FC<Props> = ({
   mode,
   localizedTitleId,
   localizedSmallBatchTitleId,
+  collapsible,
+  isOpen,
+  onToggle,
 }) => {
   const isSmallBatchMode = mode === 'small-batch'
   const showSmallBatchRules = isLoggedIn && isSmallBatchMode
@@ -69,11 +75,21 @@ export const Rules: React.FC<Props> = ({
   const smallBatchAndSingleRulesHidden =
     !rulesSection.singleVisible && !rulesSection.smallBatchVisible
 
+  const isCollapsible = collapsible && !isSmallBatchMode
+
+  const effectiveSingleVisible = isCollapsible
+    ? isOpen ?? rulesSection.singleVisible
+    : rulesSection.singleVisible
+
+  const effectiveOnToggle = isCollapsible ? () => onToggle?.() : handleToggle
+
   return (
     <div
       className={classNames('rules', {
         'write-rules': showFirstRule,
         'rules-hidden': smallBatchAndSingleRulesHidden,
+        collapsible: isCollapsible,
+        'is-closed': isCollapsible && !effectiveSingleVisible,
       })}>
       <div className="inner">
         <SinglewriteRules
@@ -82,8 +98,9 @@ export const Rules: React.FC<Props> = ({
           showLoginInstruction={showLoginInstruction}
           title={localizedTitleId}
           mode={mode}
-          onToggle={handleToggle}
-          isVisible={rulesSection.singleVisible}
+          onToggle={effectiveOnToggle}
+          isVisible={effectiveSingleVisible}
+          collapsible={isCollapsible}
         />
 
         {showSmallBatchRules && (

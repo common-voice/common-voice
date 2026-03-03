@@ -68,7 +68,6 @@ missing-language = Ihre Sprache fehlt noch im Datensatz? Besuchen Sie unsere Spr
 go-languages-page = Sprachen-Seite besuchen
 ready-to-validate = Sind Sie bereit, um Sätze zu bestätigen?
 more = Mehr
-close = Schließen
 download = Herunterladen
 dataset-version = Version
 sha256-checksum-copied = SHA256-Prüfsumme kopiert!

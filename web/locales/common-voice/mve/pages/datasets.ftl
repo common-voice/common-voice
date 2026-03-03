@@ -53,7 +53,6 @@ missing-language = ڪِي ٿونرِي ٻولِي مواد ريَ سيٽ ۾ ڪو
 go-languages-page = ٻوليون ريَ پيج تيَ جائو
 ready-to-validate = جُملون رِي تصديق ڪرڻ ۾ مدد ڪرڻ ھارو تيار ھو؟
 more = اڃو
-close = بند
 download = ڊائون لوڊ
 dataset-version = ورزن
 sha256-checksum-copied = ايس ايچ اي 256 چيڪ رو مجموعو ڪاپي ھوئوڙو!

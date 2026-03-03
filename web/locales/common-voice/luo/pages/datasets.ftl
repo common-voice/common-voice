@@ -33,7 +33,6 @@ go-discourse = Dhiye thuon wach
 go-languages-page = Dhi e otas motingo dhok
 ready-to-validate = Iseikori konyo puodho weche?
 more = Mangeny moloyo
-close = Machiegni
 download = Gol
 dataset-version = Loko mopogore
 no-information-available = Onge weche ma nitie

@@ -60,7 +60,6 @@ missing-language = ቋንቋዎ በውሂብ ስብስብ ውስጥ ሲንጸባ
 go-languages-page = ወደ ቋንቋዎች ገጽ ይሂዱ
 ready-to-validate = ዓረፍተ ነገሮችን በማረጋገጥ ለመርዳት ዝግጁ ነዎት?
 more = ተጨማሪ
-close = ዝጋ
 download = አውርድ
 dataset-version = ስሪት
 sha256-checksum-copied = SHA256 Checksum ተቀድቷል!

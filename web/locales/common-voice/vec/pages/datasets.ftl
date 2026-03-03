@@ -45,7 +45,6 @@ missing-language = No catito ƚa to ƚengua ne'l dataset? Par richiederne una, v
 go-languages-page = Va a ƚa pàgina Ƚengue
 ready-to-validate = Sito pronto a convalidare on poche de fraxi?
 more = Altro
-close = Sara su
 download = Descarga
 dataset-version = Version
 data-download-button = Descarga i dati de Common Voice

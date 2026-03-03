@@ -400,6 +400,7 @@ uk = Ucrania ñe’ẽ
 ukv = Kuku
 ur = Urdu ñe’ẽ
 ush = Ushojo
+usp = Uspanteko
 uz = Uzbequistán ñe’ẽ
 var = Huarijio
 ve = Tshivenda
@@ -466,6 +467,8 @@ indicates-required = Emyanyhẽva’erã katuete (*) tenda’i hairenda.
 not-available-abbreviation = N/A
 # Text shown on a button that can be clicked to copy text to the clipboard
 copy = Monguatia
+# Text shown on a button that can be clicked to close a modal or panel
+close = Emboty
 # Text shown on a button that can be clicked to cancel an action
 cancel = Heja
 # Text shown on a button that can be clicked to delete an item

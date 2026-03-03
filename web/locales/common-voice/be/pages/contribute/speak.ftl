@@ -1,6 +1,6 @@
 record-cta = Пачаць запіс
 record-platform-not-supported = На жаль, ваша платформа зараз не падтрымліваецца.
-record-platform-not-supported-desktop = На настольных камп'ютарах вы можаце спампаваць апошнюю версію:
+record-platform-not-supported-desktop = На настольных камп'ютарах вы можаце сцягнуць апошнюю версію:
 record-platform-not-supported-ios-non-safari = Пад iOS, калі ласка, выкарыстоўвайце Safari, каб рабіць запісы…
 record-must-allow-microphone = Вы мусіце дазволіць доступ да мікрафона.
 record-no-mic-found = Мікрафон не знойдзены.

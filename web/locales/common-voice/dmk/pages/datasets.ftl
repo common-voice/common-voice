@@ -60,7 +60,6 @@ missing-language = تُمݳ بݳݽ ڈݵٹݳ سݵٹَنݳ کݸٹ نݳ ݵݺ؟ بݳ
 go-languages-page = بݳݽݵݣݺ وَرَقَس جݸ
 ready-to-validate = جملݵݣݺ تصدݵقَشُݸ مَدَد دݵنݳشُݸ تݵݳر چھݸتݺ؟
 more = مزݵد / بُݸت
-close = بَن
 download = ڈݳݸنلݸڈ
 dataset-version = ورژن
 sha256-checksum-copied = SHA256 چݵکسم کݳپݵ ہݸݵݳ!

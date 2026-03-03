@@ -13,7 +13,10 @@ import UploadZoneContent from './upload-zone-content'
 import URLS from '../../../../../../urls'
 import { COMMON_VOICE_EMAIL } from '../../../../../../constants'
 import useBulkSubmissionUpload from '../../../../../../hooks/use-bulk-submission-upload'
-import { useAccount } from '../../../../../../hooks/store-hooks'
+import {
+  useAccount,
+  useLocalStorageState,
+} from '../../../../../../hooks/store-hooks'
 import { Sentences } from '../../../../../../stores/sentences'
 import { trackGtag } from '../../../../../../services/tracker-ga4'
 
@@ -24,6 +27,10 @@ const MAX_FILE_SIZE = 1024 * 1024 * 25
 const BulkSubmissionWrite = () => {
   const dispatch = useDispatch()
   const account = useAccount()
+  const [rulesOpen, setRulesOpen] = useLocalStorageState(
+    true,
+    'sc-bulk-write-rules-open'
+  )
 
   React.useEffect(() => {
     dispatch(Sentences.actions.setBulkUploadStatus('off'))
@@ -122,6 +129,9 @@ const BulkSubmissionWrite = () => {
             showFirstRule
             localizedTitleId="sc-review-write-title"
             isLoggedIn={Boolean(account)}
+            collapsible
+            isOpen={rulesOpen}
+            onToggle={() => setRulesOpen(!rulesOpen)}
           />
         </div>
       </div>

@@ -59,7 +59,6 @@ missing-language = Мәгълүмат тупланмасында Сезгә ки
 go-languages-page = Телләр битенә күчү
 ready-to-validate = Җөмләләрне тикшерергә әзерме?
 more = Күбрәк
-close = Ябу
 download = Йөкләү
 dataset-version = Версия
 sha256-checksum-copied = SHA256 контроль суммасы копияләнде!

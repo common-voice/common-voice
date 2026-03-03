@@ -9,7 +9,6 @@ size-gigabyte = ГБ
 size-megabyte = МБ
 data-other-ted-name = TED-LIUM корпус
 more = Унджык
-close = Сиптыны
 dataset-version = Версия
 data-download-button = Босьтны Common Voice мыччӧд
 data-download-yes = Но

@@ -13,7 +13,10 @@ import { SentenceSubmissionError } from 'common'
 import { LocaleLink } from '../../../../../locale-helpers'
 import URLS from '../../../../../../urls'
 import { useMultipleComboBox } from '../../../../../multiple-combobox/use-multiple-combobox'
-import { useAccount } from '../../../../../../hooks/store-hooks'
+import {
+  useAccount,
+  useLocalStorageState,
+} from '../../../../../../hooks/store-hooks'
 import { WriteMode } from '../sentence-write'
 import { StateError } from '../sentence-write/types'
 import { trackGtag } from '../../../../../../services/tracker-ga4'
@@ -57,8 +60,14 @@ export const SentenceInputAndRules: React.FC<Props> = ({
   const isCitationError = error?.type === SentenceSubmissionError.NO_CITATION
   const hasVariants = variantTokens && variantTokens.length > 0
 
-  const zippedOptions = hasVariants && variantTokens.map((v, i) => `${variantNames[i]} [${v}]`)
-  const variantOptions: string[] = hasVariants ? [l10n.getString('sentence-variant-select-multiple-variants'), ...zippedOptions] : []
+  const zippedOptions =
+    hasVariants && variantTokens.map((v, i) => `${variantNames[i]} [${v}]`)
+  const variantOptions: string[] = hasVariants
+    ? [
+        l10n.getString('sentence-variant-select-multiple-variants'),
+        ...zippedOptions,
+      ]
+    : []
 
   const { multipleComboBoxItems, inputValue, setInputValue } =
     useMultipleComboBox({
@@ -67,6 +76,10 @@ export const SentenceInputAndRules: React.FC<Props> = ({
     })
 
   const account = useAccount()
+  const [rulesOpen, setRulesOpen] = useLocalStorageState(
+    true,
+    'sc-write-rules-open'
+  )
 
   const handleDetailsToggle = (
     evt: React.SyntheticEvent<HTMLDetailsElement>
@@ -162,6 +175,9 @@ export const SentenceInputAndRules: React.FC<Props> = ({
           mode={mode}
           localizedTitleId="sc-review-write-title"
           localizedSmallBatchTitleId="sc-review-small-batch-title"
+          collapsible
+          isOpen={rulesOpen}
+          onToggle={() => setRulesOpen(!rulesOpen)}
         />
       </div>
     </div>

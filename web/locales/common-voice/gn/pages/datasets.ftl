@@ -62,7 +62,6 @@ missing-language = Reñandúpa ne ñe’ẽte rehe ndaiporiha Kuaapyryrúpe? Eje
 go-languages-page = Eho Ñe’ẽ Kuatiaroguépe
 ready-to-validate = ¿Eiméma emboaje hag̃ua ñe’ẽjuaju?
 more = Hetave
-close = Mboty
 download = Mboguejy
 dataset-version = Peteĩchagua
 sha256-checksum-copied = SHA256 Jehechajey monguatiapyre!

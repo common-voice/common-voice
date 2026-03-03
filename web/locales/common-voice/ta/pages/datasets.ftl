@@ -46,7 +46,6 @@ missing-language = தரவுத்தளத்தில் உங்களத
 go-languages-page = மொழிகள் பக்கத்திற்கு செல்
 ready-to-validate = சொற்றொடர்களைச் சரிபார்ப்பதற்கு உதவ தயாரா?
 more = மேலும்
-close = மூடுக
 download = பதிவிறக்க
 dataset-version = பதிப்பு
 data-download-button = பொதுக் குரல் தரவைப் பதிவிறக்குங்கள்

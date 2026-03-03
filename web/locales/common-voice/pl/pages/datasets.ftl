@@ -56,7 +56,6 @@ missing-language = Nie widzisz swojego języka w zbiorze danych? Możesz go zap
 go-languages-page = Przejdź do listy języków
 ready-to-validate = Chcesz rozpocząć sprawdzanie zdań?
 more = Więcej
-close = Zamknij
 download = Pobierz
 dataset-version = Wersja
 dataset-metadata-sex = Płeć

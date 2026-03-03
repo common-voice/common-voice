@@ -53,7 +53,6 @@ go-discourse = Pergi ke Discourse
 go-languages-page = Pergi ke Halaman Bahasa
 ready-to-validate = Sedia untuk membantu mengesahkan ayat?
 more = Selanjutnya
-close = Tutup
 download = Muat turun
 dataset-version = Versi
 data-download-singleword-title = Muat turun Segmen Sasaran Kata Tunggal

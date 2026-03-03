@@ -33,7 +33,6 @@ go-discourse = ডিসকোর্সে যান
 go-languages-page = ভাষার পাতায় যান
 ready-to-validate = বাক্য যাচাই করতে সাহায্য করার জন্য প্রস্তুত?
 more = আরও
-close = বন্ধ করুন
 download = ডাউনলোড
 dataset-version = সংস্করণ
 data-download-button = Common Voice ডাটা ডাউনলোড করুন

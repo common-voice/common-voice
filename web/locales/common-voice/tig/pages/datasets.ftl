@@ -40,7 +40,6 @@ missing-language = ሉቀትኩም ዲብላ ምጅሙዓት በያናት ትር
 go-languages-page = ዲብ ናይ Languages Page ጊሶ
 ready-to-validate = ዲብ ታሕቂቅ ናይ ጁመል ትስደው ታሓዙ?
 more = ዝያዳ
-close = ድብኦ
 download = ኣውርድ
 dataset-version = እስዳር
 data-download-singleword-title = እግል ዎሮ ከሊመት ሓደፍ ለቡ ክፋል ክረ

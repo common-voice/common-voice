@@ -52,7 +52,6 @@ missing-language = Ga o bone puo ya gago e tlhaga mo Rekotong ya Tshedimosetso? 
 go-languages-page = Ya Kwa Tsebeng ya Dipuo
 ready-to-validate = A o ipaakanyeditse go tlhomamisa mela?
 more = Mo go Oketsegileng
-close = Tswala
 download = Itseele
 dataset-version = Thanolelo
 data-download-singleword-title = Itseele Dikarolwana Tsa Lefoko le le Lengwe la Puo

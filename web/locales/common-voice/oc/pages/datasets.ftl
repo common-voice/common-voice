@@ -53,7 +53,6 @@ missing-language = Non vedetz era vòsta lengua en conjunt de donades? Entà sol
 go-languages-page = Vè tara pagina de lengües
 ready-to-validate = Ètz prèst/a entà validar frases?
 more = Mès
-close = Barra
 download = Baisha
 dataset-version = Version
 data-download-singleword-title = Baishatz eth segment especific damb paraules individuaus

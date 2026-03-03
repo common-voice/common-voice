@@ -467,6 +467,8 @@ indicates-required = * indica un campo obligatori
 not-available-abbreviation = N/D
 # Text shown on a button that can be clicked to copy text to the clipboard
 copy = Copiar
+# Text shown on a button that can be clicked to close a modal or panel
+close = Clauder
 # Text shown on a button that can be clicked to cancel an action
 cancel = Cancellar
 # Text shown on a button that can be clicked to delete an item

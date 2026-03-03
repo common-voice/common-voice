@@ -467,6 +467,8 @@ indicates-required = * Geeft verplicht veld aan
 not-available-abbreviation = NB
 # Text shown on a button that can be clicked to copy text to the clipboard
 copy = Kopiëren
+# Text shown on a button that can be clicked to close a modal or panel
+close = Sluiten
 # Text shown on a button that can be clicked to cancel an action
 cancel = Annuleren
 # Text shown on a button that can be clicked to delete an item

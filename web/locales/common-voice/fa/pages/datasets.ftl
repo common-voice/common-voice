@@ -61,7 +61,6 @@ missing-language = زبان خود را در مجموعه داده‌ها نمی
 go-languages-page = رفتن به صفحهٔ زبان‌ها
 ready-to-validate = برای کمک به اعتبارسنجی جمله‌ها آماده‌اید؟
 more = بیشتر
-close = بستن
 download = بارگیری
 dataset-version = نگارش
 sha256-checksum-copied = چک‌سام SHA256 رونوشت شد!

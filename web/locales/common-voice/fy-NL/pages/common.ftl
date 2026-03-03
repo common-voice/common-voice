@@ -467,6 +467,8 @@ indicates-required = * jout fereaske fjild oan
 not-available-abbreviation = NB
 # Text shown on a button that can be clicked to copy text to the clipboard
 copy = Kopiearje
+# Text shown on a button that can be clicked to close a modal or panel
+close = Slute
 # Text shown on a button that can be clicked to cancel an action
 cancel = Annulearje
 # Text shown on a button that can be clicked to delete an item

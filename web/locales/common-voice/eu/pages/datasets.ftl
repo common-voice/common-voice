@@ -54,7 +54,6 @@ missing-language = Ez duzu zure hizkuntza datu-sortan ikusten? Hizkuntza bat esk
 go-languages-page = Joan Hizkuntzak web-orrira
 ready-to-validate = Esaldiak baliozkotzen laguntzeko prest?
 more = Gehiago
-close = Itxi
 download = Deskargatu
 dataset-version = Bertsioa
 sha256-checksum-copied = SHA256 egiaztapeneko batura kopiatu da!

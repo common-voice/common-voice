@@ -68,7 +68,6 @@ missing-language = Không thấy ngôn ngữ của bạn được phản ánh tr
 go-languages-page = Đi đến trang ngôn ngữ
 ready-to-validate = Sẵn sàng để giúp xác nhận các câu?
 more = Thêm
-close = Đóng
 download = Tải xuống
 dataset-version = Phiên bản
 sha256-checksum-copied = Đã sao chép Checksum SHA256!

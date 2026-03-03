@@ -39,7 +39,6 @@ missing-language = Tu zimanê xwe di Komdaneyê de nabînî?  Ji bo zimanekî da
 go-languages-page = Here rûpela zimanan
 ready-to-validate = Tu amade yî hevokan piştrast bikî?
 more = Zêdetir
-close = Bigire
 download = Daxîne
 dataset-version = Guherto
 data-download-singleword-title = Segmenta hedefa yek-peyvî daxîne

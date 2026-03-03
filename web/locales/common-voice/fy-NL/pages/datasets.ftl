@@ -68,7 +68,6 @@ missing-language = Sjogge jo jo taal net yn de gegevensset? Gean nei ús talensi
 go-languages-page = Gean nei talenside
 ready-to-validate = Ree om te helpen sinnen te falidearjen?
 more = Mear
-close = Slute
 download = Downloade
 dataset-version = Ferzje
 sha256-checksum-copied = SHA256-checksum kopiearre!

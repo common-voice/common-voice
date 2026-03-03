@@ -68,7 +68,6 @@ missing-language = Dilinizi veri kümesinde görmüyor musunuz? Dil istemek içi
 go-languages-page = Diller sayfasına git
 ready-to-validate = Cümleleri doğrulamaya hazır mısınız?
 more = Daha fazla
-close = Kapat
 download = İndir
 dataset-version = Sürüm
 sha256-checksum-copied = SHA256 sağlama toplamı kopyalandı.

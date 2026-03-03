@@ -379,6 +379,8 @@ indicates-required = * Gerekli alanları gösterir
 not-available-abbreviation = Yok
 # Text shown on a button that can be clicked to copy text to the clipboard
 copy = Kopyala
+# Text shown on a button that can be clicked to close a modal or panel
+close = Kapat
 # Text shown on a button that can be clicked to cancel an action
 cancel = Vazgeç
 # Text shown on a button that can be clicked to delete an item

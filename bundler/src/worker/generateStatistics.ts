@@ -10,9 +10,11 @@ import { constVoid, pipe } from 'fp-ts/lib/function'
 import { doesFileExistInBucket } from '../infrastructure/storage'
 import { runMp3DurationReporter } from '../infrastructure/mp3DurationReporter'
 import { runStats } from '../core/stats'
+import { runScanLocaleData } from '../core/localeData'
 import { runDownloadDataset, runGenerateClipsTsv } from '../core/dataset'
 import { extractTar } from '../infrastructure/tar'
 import { runCleanUp } from '../core/cleanUp'
+import { logger } from '../infrastructure/logger'
 
 const generateStatisticsPipeline = pipe(
   RTE.Do,
@@ -22,12 +24,20 @@ const generateStatisticsPipeline = pipe(
   ),
   RTE.bind('generateClipsTsv', runGenerateClipsTsv),
   RTE.bind('totalDurationInMs', runMp3DurationReporter),
-  RTE.bind('stats', ({ totalDurationInMs, tarFilepath }) =>
-    runStats(totalDurationInMs, tarFilepath),
+  RTE.chainFirstW(({ totalDurationInMs }) =>
+    pipe(
+      runScanLocaleData(totalDurationInMs),
+      RTE.chainFirstW(localeData =>
+        RTE.asks<AppEnv, void>(env => {
+          env.localeData = localeData
+        }),
+      ),
+    ),
   ),
+  RTE.bind('stats', ({ tarFilepath }) => runStats(tarFilepath)),
   RTE.chainFirst(({ tarFilepath }) => runCleanUp(tarFilepath)),
   RTE.match(
-    err => console.log(err),
+    err => logger.error('STATS', String(err)),
     () => constVoid(),
   ),
 )
@@ -37,28 +47,32 @@ export const generateStatistics = async (job: Job<ProcessLocaleJob>) => {
 
   const releaseDirPath = path.join(getTmpDir(), releaseName)
 
+  const releaseTarballName = generateTarFilename(locale, releaseName, license)
+  const uploadPath = `${releaseName}/${releaseTarballName}`
+
   const env: AppEnv = {
     ...job.data,
     license,
     releaseDirPath,
     releaseTarballsDirPath: path.join(releaseDirPath, 'tarballs'),
     clipsDirPath: path.join(releaseDirPath, locale, 'clips'),
+    uploadPath,
+    problemClips: [],
+    clipCount: 0,
+    startTimestamp: new Date().toISOString(),
   }
 
-  const releaseTarballName = generateTarFilename(locale, releaseName, license)
-
   const releaseExistsAlready = await pipe(
-    doesFileExistInBucket(getDatasetBundlerBucketName())(
-      `${releaseName}/${releaseTarballName}`,
-    ),
+    doesFileExistInBucket(getDatasetBundlerBucketName())(uploadPath),
     TE.getOrElse(() => T.of(false)),
   )()
 
   if (!releaseExistsAlready) {
-    console.log(
-      `Cannot generate statistics for ${releaseTarballName}, because it does not exist.`,
+    logger.warn(
+      'STATS',
+      `Cannot generate statistics for ${uploadPath}: tarball does not exist`,
     )
-    Promise.resolve()
+    return
   } else {
     await generateStatisticsPipeline(env)()
   }

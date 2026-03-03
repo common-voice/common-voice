@@ -50,7 +50,6 @@ missing-language = ¿No aparece tu idioma en la base de datos? Si quieres agrega
 go-languages-page = Ir a la Página de idiomas
 ready-to-validate = ¿Estás listo para validar frases?
 more = Más
-close = Cerrar
 download = Descargar
 dataset-version = Versión
 sha256-checksum-copied = ¡Suma de comprobación SHA256 copiada!

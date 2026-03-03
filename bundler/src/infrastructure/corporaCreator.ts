@@ -2,8 +2,8 @@ import * as path from 'node:path'
 import { spawn } from 'node:child_process'
 import { readerTaskEither as RTE, taskEither as TE } from 'fp-ts'
 import { pipe } from 'fp-ts/lib/function'
-import { log } from 'fp-ts/lib/Console'
 import { AppEnv } from '../types'
+import { logger } from './logger'
 
 export const CORPORA_CREATOR_SPLIT_FILES = [
   'dev.tsv',
@@ -51,8 +51,21 @@ const runCorporaCreatorPromise = (locale: string, releaseDirPath: string) =>
       path.join(releaseDirPath, locale, 'clips.tsv'),
     ])
 
-    cc.stdout.pipe(process.stdout)
-    cc.stderr.pipe(process.stderr)
+    cc.stdout.on('data', (data: Buffer) => {
+      // tqdm uses \r for in-place progress updates; keep only the final state
+      const raw = data.toString().trimEnd()
+      if (!raw) return
+      const parts = raw.split('\r')
+      const last = parts[parts.length - 1].trim()
+      if (last) logger.info('CC', `[${locale}] ${last}`)
+    })
+    cc.stderr.on('data', (data: Buffer) => {
+      const raw = data.toString().trimEnd()
+      if (!raw) return
+      const parts = raw.split('\r')
+      const last = parts[parts.length - 1].trim()
+      if (last) logger.warn('CC', `[${locale}] ${last}`)
+    })
 
     cc.on('close', () => resolve())
     cc.on('error', reason => reject(reason))
@@ -65,7 +78,7 @@ export const corporaCreatorPipeline = (
   return pipe(
     TE.Do,
     TE.tap(() =>
-      TE.fromIO(log('Starting create-corpora for locale ' + locale)),
+      TE.fromIO(() => logger.info('CC', `[${locale}] START create-corpora`)),
     ),
     TE.chain(() =>
       TE.tryCatch(
@@ -74,7 +87,7 @@ export const corporaCreatorPipeline = (
       ),
     ),
     TE.tap(() =>
-      TE.fromIO(log('Finished create-corpora for locale ' + locale)),
+      TE.fromIO(() => logger.info('CC', `[${locale}] FINISH create-corpora`)),
     ),
   )
 }

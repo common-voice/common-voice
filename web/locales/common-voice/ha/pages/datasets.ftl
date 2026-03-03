@@ -46,7 +46,6 @@ missing-language = Shin, ba ku ga yarenku yana bayyana a cikin Dataset ba? Don n
 go-languages-page = Jeka zuwa shafin yaruka
 ready-to-validate = Shirya don taimakawa inganta jumla?
 more = Ƙari
-close = Rufe
 download = Sauke
 dataset-version = Nau'i
 data-download-singleword-title = Zazzage Yankin Haɗafin Kalma Guda
