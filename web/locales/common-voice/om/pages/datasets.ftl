@@ -41,3 +41,30 @@ dataset-description-hours =
     
     Amma daataa-seetii keessatti sa’aatii <b>{ $valid }</b> kan sirrii ta’an afaanota <b>{ $languages }</b>tu keessatti argamu, garuu sagaleewwan fi afaanota hedduu itti dabalaa jirra. Afaan tokko gaafachuufi gumaachuu jalqabuuf fuula <languagesLink>Afaanota</languagesLink> keenya ilaali.
 want-dataset-update = Yeroo daataa-seetii Common Voice haarawa baafnu argachuuf odeeffannoo barbaaddaa? Gabaasa keenyaaf noolee ta'i.
+subscribe = Noolee ta'i
+get-started-speech = Beekamtii Sagalee (Speech Recognition) Jalqabi
+other-datasets = Daataaseetii Sagalee Kabiroo
+feedback-q = Duubdeebii Qabdaa?
+# This indicates that there is no data to display
+no-information = Odeeffannoon hin jiru
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ <docsLink>toolkiti banamaa</docsLink> qorattootaaf kan ta’e, fakkeenyawwan AI haala haaraa waliin haasawu ijaaruuf.
+resource-deepspeech-info = Injiina sagalee beekuu kan Mozilla, Deep Speech, fayyadamuun appilikeeshinoota sagalee beekuu ijaaruu dandeessa. Akkamitti jalqabuu akka dandeessu barachuuf <githubLink>hubannoo Github</githubLink> keenya dubbisi yookaan <discourseLink>DeepSpeech Discourse</discourseLink> keessatti hirmaadhu.
+resource-coqui-info = <coquiLink>Coqui</coquiLink> tekinoolojii sagalee banamaa irratti kan xiyyeeffatu dha. Piroojektoonni isaanii injiina STT fi TTS kan sirna barnoota gadi fageenyaan (deep learning) irratti hundaa’an of keessaa qabu.
+community-playbook = Kitaaba Hojii Hawaasaa
+resource-playbook-info = <playbookLink>Qajeelcha barbaachisaa argadhu</playbookLink> daandii guutuu Common Voice irratti, hiikkaa irraa kaasee hanga fayyadama daataa-seetii fi akkamitti hawaasa keenya waliin wal qunnamnu dabalatee in argatta.
+data-other-librispeech-description = LibriSpeech daataa sagalee Ingilizii dubbifamee sa’aatii 1000 ol kan qabuu fi 16Khz ta’eedha, kan piroojektii LibriVox audiobooks irraa dubbifamanii argamanii dha.
+data-other-ted-name = Kuusbarruu TED-LIUM
+data-other-ted-description = Kuusbarruun TED-LIUM sagalee fi hiikkaa isaanii kan websaayitii TED irratti argaman irraa qophaa’eedha.
+data-other-voxforge-description = VoxForge kan ijaarame sagalee hiikame walitti qabuuf, akkasumas Injiinota Beeksisa Sagalee Bilisaa fi Horata Baniinsaa waliin fayyadamuuf.
+data-other-tatoeba-description = Tatoyeba/Tatoeba kuusaa bal’aa jechootaa, hiika isaanii, fi  barnoota afaanii keessatti sagaleef kan ooluudha. Kana keessatti sagalee Ingiliffaa hawaasa isaanii biraa galmaa’e argachu dandeessa.
+your-feedback = Common Voice daataaseet fooyyessuuf yaada ni qabduu? Discourse irratti nuuf himaa.
+go-discourse = Gara Discourse deemaa
+missing-language = Afaan kee daataaseet keessatti hin mul’annee? Afaan barbaadde gaafachuuf gara fuula Afaanota keenya deemaa.
+go-languages-page = Gara Fuula Afaanotaa deemaa
+ready-to-validate = Jechoota sirrii ta’uu isaanii mirkaneessuuf qophii dhaa?
+more = Daran
+download = Buusi
+dataset-version = Fooyyee
+sha256-checksum-copied = SHA256 Checksum koppii ta'eera!
+sha256-checksum-copied-error = SHA256 Checksum koppii gochuun hin milkoofne.
+clipboard-not-supported = Gabateenkiliippii hin deeggaramu
