@@ -68,3 +68,40 @@ dataset-version = Fooyyee
 sha256-checksum-copied = SHA256 Checksum koppii ta'eera!
 sha256-checksum-copied-error = SHA256 Checksum koppii gochuun hin milkoofne.
 clipboard-not-supported = Gabateenkiliippii hin deeggaramu
+no-information-available = Odooffannoon hin jiru
+dataset-metadata-sex = Saala
+# dataset metadata - age of contributor
+dataset-metadata-age = Umrii
+donate-modal-message = Daataaseetiin kee bu'aa jira!
+dataset-donate-modal-heading = Ni beektaa...
+donate-modal-explanation-1 = Daataaseetota tursiisuu fi marsariitii fooyyessuuf wagaatti qarshii miiliyoona tokko caalaa kaffaluun ni barbaachisa, hawaasa afaan 100 ol kan hojii keenya irratti hirkatan biraaf?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Yoo odeeffannoo bilisaa fi hirmaachisaa kan barbaaddan ta’e – har’a arjooma godhaa!</bold>
+data-download-singleword-title = Jecha Qeenxeef Manii Tokkicha Buufadhaa
+data-download-singleword-callout-v2 = Kun kutaa haala fayyadamaa irratti geggeeffamu kan deetaa of keessaa qabuu fi humna dijiitii dubbatame beekuu fi eeyyee / lakki adda baasuu.
+data-download-button = Daataa Common Voice Buufadhu
+data-download-yes = Haaya
+data-download-deny = Lakki
+data-download-license = Ragaa Hayyamaa: <licenseLink>CC-0</licenseLink>
+data-download-modal = <size>{ $size }GB</size>  buufachuu jalqabuuf jirtu, itti fufaa?
+data-subtitle = Daataa-seetii sagalee banaa fi ummataaf kan tajaajilu ijaaruu irratti hojjechaa jirra, kan namni hundi appilikeeshinoota sagalee beekuu leenjisuuf fayyadamuu danda’u.
+data-explanatory-text = Amantaa keenya, daataa-seetota sagalee jaafoo fi ummataaf kan tajaajilan, haala haaraa fi dorgommii fayyaa qabuun teknoolojii sagalee barnoota maashinaa irratti babal’isu. Kun carraa addunyaa guutuu dha, namni hundi hirmaachuuf affeeramnaan. Kaayyoon keenya teknooloojiin sagalee hirmaachisaa akka ta’u gargaarra, kunis sagalee addunyaa garaagaraa of keessaa qabaachuudhaani.
+data-get-started = <speechBlogLink>Beekamtii Sagalee Kennuu Jalqabi</speechBlogLink>
+data-other-title = Daataa-seetota sagalee biroo…
+data-other-goto = Gara { $name }
+data-other-download = Daataa Buusi
+data-bundle-button = Bissii Daataa-seetii Buufadhaa
+data-bundle-description = Daataa Common Voice pilaas daataa-seetota sagalee biroo hunda olitti.
+release-version = Fooyyee
+dataset-date = Guyyaa
+license = Ragaa hayyamaa: <licenseLink>{ $license }</licenseLink>
+license-mixed = Makamaa
+# Support old genders in older datasets
+male = Dhiira
+female = Dhalaa
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = Daataa-seetota sagalee keenya buufadhu
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = Filannoo biraa daataa Common Voice argachuuf
+datasets-show-more = Daataaseetota Hunda Agarsiisi
+datasets-show-less = Daataa-seetota Haaraa Agarsiisi
