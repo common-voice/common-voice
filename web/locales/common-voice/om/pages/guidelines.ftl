@@ -184,3 +184,174 @@ tags-table-header-1 = Xoofa
 tags-table-header-2 = Hiika
 tags-laugh = Kolfa
 tags-disfluency = Dogoggora haasaa
+tags-unclear = Ifa kan hin taane
+tags-noise = Waca
+tags-laugh-explanation = Sagalee kolfaa
+tags-disfluency-explanation = Jechi yookaan sagaleen bakka bu’u kan haasaa tokko yeroo maal akka jedhu murteessuuf fayyadamudha. Afaan Ingiliffaatti, sagalee turtii beekamoo keessaa “err”, “um”, “huh”, fi kkf jiru.
+tags-unclear-explanation = Jecha yookaan tartiiba jechootaa kan hubatamuu hin dandeenye.
+tags-noise-explanation = Jequmsa sagalee biraa kamiyyuu, akka qufaa yookaan hafuura baasuu, kubbii konkolaataa, wanti maayikiroofonii tuqu, bilbilli sagalee baasuu, fi kkf.
+# Note: do not translate any tag, like [noise] or [laugh]
+special-tags-example-2 =
+    Achiis ani [waca] ayyaanaaf deeme.
+    Tole, [waca] [kolfa] dhugumatti ayyaana hin turre [kolfa].
+transcribe-the-audio-subheader-4-explanation-1 = Haasaa uumamaa keessatti jechoota dogoggora jalqabaa (false starts) kan jecha guutuu hin guunne ni argamu. Haala kana keessatti, tartiiba jecha sanaan akka danda’ametti galmeessi, xumura jecha irratti mallattoo hafuuraa (-) dabali akka jechi sun dogoggora jalqabaa ta’e mul’atu. Fakkeenya:
+transcribe-the-audio-subheader-4-explanation-1-example = Maqaan isaa <underline>Jo- Jona-</underline> Jonathan dha.
+transcribe-the-audio-subheader-4-explanation-2 = Yeroo tokko tokko, namoonni jecha yookaan kutaa jecha tokkoo irra deddeebi’u. Kanas barreessuu qabda. Fakkeenya:
+transcribe-the-audio-subheader-4-explanation-2-example = Erga sana booda ani gara <underline>ku ku ku taa- ku</underline>taa ciisichaa deeme
+transcribe-the-audio-subheader-5-explanation-1 = Dubbiin ofumaan uumamu uumamaan dogoggora caaslugaa of keessaa qabaata. Isaan kun yeroo barreeffaman sirreeffamuu hin qaban. Barreeffamni qabiyyee dubbatame sirriitti calaqqisiisuu qaba.
+transcribe-the-audio-subheader-5-explanation-2 = Dubbattoonni jechoota afaanii (kan akka, Afaan Ingiliffaatiin, “gonna”, “cuz”, fi kkf) kan sirnaan sirrii ta’ee fudhatamuu dhiisuu danda’u fayyadamuu danda’u. Isaan kun akkuma jiranitti barreeffamuu qabu, gara gita isaanii isa sirna qabeessa ta’etti jijjiiramuu hin qaban.
+
+## Review the Transcription
+
+review-the-transcription = Barruutti Jijjiiruu Gamaaggami
+review-the-transcription-subheader = Qajeeltoo Waliigalaa
+review-the-transcription-explanation-1 = Walumaagalatti, namni barreeffama sana ilaalu nama barreeffama jalqabaa hojjete ta’uu akka hin qabne gorsina. Hojii ofii sakatta'uun baay'ee ulfaataadha! Sarara gamaaggamaa dachaa qabaachuun mirkaneessi qulqullinaa caalaatti akka cimu gargaaruu danda’a, akkasumas loogii fi dhimmoota salphisuuf gargaara.
+review-the-transcription-explanation-2 = Tiraaniskiriipshiniin tokko sirrii ta’uu isaa mirkaneessuuf qajeelfama tiraaniskiriipshinii armaan olii irra deebi’ii ilaali. Gulaallii kennuu fi galchuu dandeessa.
+review-the-transcription-explanation-3 = Ammas, qabiyyee nama mufachiisu, miidhaa geessisu yookaan yaaddoo uumuu danda’u faajjii itti gochuu dandeessa; gareen Common Voice hanga isa ilaalee qoratutti, muuxannoo kee irraa ni haqama.
+
+## Code-Switching
+
+code-switching = Jijjiirraa Koodii
+adding-a-question = Gaaffilee Galchuu
+# Adding a Question
+code-switching-adding-question-subheader = Gaaffileen gaariin maal uumu?
+code-switching-adding-question-explanation = Gaaffiin gaariin daataa-seetota hirmaannaa hawaasaaf kan ta’uu qabu:
+code-switching-adding-question-criteria-1 = Hubachuu fi deebisuuf salphaa ta’uu qaba
+code-switching-adding-question-criteria-2 = Waliigalatti barbaachisaa ta’uu qaba
+code-switching-adding-question-criteria-3 = Haasaa arrabsoo yookaan nama mufachiisu hin fayyadamin, yookaan hin gaafatin
+code-switching-adding-question-note = Akkasumas, akkaataa galumsaa fi domeenii ispaaniingi garagaraa ilaaluu barbaadda ta'a.
+# What types of questions to add
+code-switching-types-subheader = Gaaffilee gosa akkamii dabaluu qabnaa?
+code-switching-use-bilingual-prompts-header = Gaaffilee Afaan Lamaan Fayyadamaa
+code-switching-use-bilingual-prompts-explanation = Gaaffii kee keessatti afaan lamaan walitti makuun bilingual prompts fayyadami. Fakkeenyaaf:
+code-switching-use-bilingual-prompts-explanation-example = “Maamiin kee maal siin jette when you got home that day?”
+code-switching-ask-bilingual-contexts-header = Waa'ee Galumsa Jechaa Afaan Lamaa Gaafadhu
+code-switching-ask-bilingual-contexts-explanation = Galumsa jechaa iddoo afaan lamaan baay’inaan itti fayyadaman fayyadami (fakkeenyaaf: mana, barumsaa, ayyaana hawaasaa). Fakkeenyaaf:
+code-switching-ask-bilingual-contexts-explanation-example = “Yeroo obboleeyyan kee wajjin haasoftu, Spanish fi English walitti maktaa?”
+code-switching-focus-emotional-header = Yeroo Miira Cimaa Yookaan Taatee Murteessaa ta’an irratti Xiyyeeffadhu
+code-switching-focus-emotional-explanation = Namoonni yeroo baayyee yeroo miira ykn ariifannaa ibsan koodii jijjiira. Fakkeenya:
+code-switching-focus-emotional-explanation-example = “Warri kee yeroo ati oduu guddaa waa'ee kee itti himtu maal akka jedhan natti himi —  akka isaan jedhan sirrii isaa.”
+code-switching-direct-quotes-header = Caqasoota Kallattiin ykn Irra Deebiin Gochaan Gaafadhu
+code-switching-direct-quotes-explanation = Hirmaattonni akkaataa wantootni qabatamaan dubbataman akka baay’isan jajjabeessi. Fakkeenya:
+code-switching-direct-quotes-explanation-example = “Yeroo kana bartu jechi kee sirriitti maal ture?”
+code-switching-cultural-topics-header = Mata dureewwan Aadaa Adda Ta’an Filadhu
+code-switching-cultural-topics-explanation = Nyaanni, duudhaan, ayyaanni, fi daayinamiksiin maatii yeroo baayyee koodii banuu fi cufuu affeera.
+code-switching-cultural-topics-explanation-example = “Nama Ingiliffa qofa dubbatuuf Día de los Muertos akkamitti ibsita?”
+code-switching-informal-scenarios-header = Haalawwan Al-seerummaa qoradhu
+code-switching-informal-scenarios-explanation = Yeroo baayʼee hiriyoota wajjin haasaʼu ykn ergaa barreeffamaa erguun jijjiirraa uumamaa caalaa kan dabalatudha. Fakkeenya:
+code-switching-informal-scenarios-explanation-example = “Hiriyoonni kee yeroo hunda maal qoosu — akkamitti jedhu?”
+# What to Avoid
+code-switching-avoid-subheader = Kan Irraa Fagaachuu Qabnu
+code-switching-avoid-intro = Gaaffiiwwan tarii:
+code-switching-avoid-1 = Odeeffannoo dhuunfaa adda baasu gaafachuu
+code-switching-avoid-2 = Haasaa jibbiinsaa ykn miira loogii ykn nama aarsu kan biroo gaafadhu
+code-switching-avoid-3 = Namni tokko deebii miira namaa kakaasu, kan kakaasuu danda’u akka qoodu gochuu
+code-switching-dont-header = Hin/Lakki
+code-switching-dont-1 = Afaan sirnaa garmalee hin fayyadaminaa
+# Reviewing a Question
+code-switching-review-subheader = Gaaffii Gamaaggamuu
+code-switching-review-intro = Gaaffiin ulaagaaleef Mirkanuu:
+code-switching-review-criterion-1 = Hubachuu fi deebii kennuudhaaf salphaa kan ta'e
+code-switching-review-criterion-2 = Walumaagalatti barbaachisaa ta’uu
+code-switching-review-criterion-3 = Afaan miidhaa geessisu ykn nama aarsu fayyadamuu, ykn gaafachuu dhiisuu
+code-switching-review-does-not-header = Akkasumas <bold>HIN</bold> dabalatu:
+code-switching-review-offensive-content = <bold>Qabiyyee nama aarsu ykn odeeffannoo miira namaa kakaasu</bold>
+code-switching-answer-header = Qabiyyee nama aarsu ykn odeeffannoo miira namaa kakaasu
+code-switching-review-no-1 = Gaaffiiwwan odeeffannoo dhuunfaa adda baasu gaafachuu danda’an
+code-switching-review-no-2 = Gaaffiiwwan haasaa jibbiinsaa ykn miira loogii ykn nama aarsu biroo gaafachuu danda’an
+code-switching-review-no-3 = Gaaffiiwwan namni tokko deebii miira namaa kakaasu, kan kakaasuu danda’u akka qoodu gochuu danda’an
+# Answering a Question
+code-switching-answer-subheader = Gaafii Deebisuu
+code-switching-answer-intro = Gaaffii tokkoof yeroo deebii kennitu, galmi isaa uumamaan deebii kennuudha – akkuma haasawa jireenya dhugaa keessatti gootu. Afaanonni qabatamaan akkamitti dubbii guyyaa guyyaa keessatti akka wal makaman qabachuu barbaanna.
+code-switching-answer-bullet-1 = Yeroo ykn haalawwan jireenya dhugaa yaadi: qoosaa, falmii, duudhaa
+code-switching-answer-bullet-2 = Mee hiriyyaa keetiif ergaa barreeffamaa ergitee ykn seenaa nama tokkotti himtee jirta yaadi
+code-switching-answer-bullet-3 = Jechoota dhugumatti itti fayyadamtu fayyadami, yoo liqeeffatte ykn itti makte illee
+code-switching-answer-bullet-4 = Karaan deebii “guutuu” ta’e hin jiru
+code-switching-authentic-header = Akkaataa Uumamaa fi Dhugaadhaan Deebisi
+code-switching-authentic-speak = <bold>Akkaataa itti hiriyoota ykn maatii wajjin dubbattutti.</bold> Jireenya dhugaa keessatti afaanota yoo walitti makte, asittis akkasuma godhi. Fakkeenya:
+code-switching-authentic-speak-example = “Pues deemuu akkan hin dandeenye itti himeera, garuu isheen, ‘Ati mul’achuu wayya!’” jetteetti.”
+code-switching-use-both-languages = <bold>Yoo akka idileetti akkas jette afaanota lamaan fayyadami.</bold> Jecha tokkoo fi lama qofa jijjiiruun illee faayidaa qaba. Fakkeenya:
+code-switching-use-both-languages-example = “Isheen dhuguma maraatte porque ani deebisee isheef hin bilbille.”
+code-switching-authentic-direct-quotes = <bold>Cyaqa kallattiin ykn marii dabali.</bold> Waan namni tokko jedhe sirriitti dubbadhu malee kan qulqullaa'e ykn kan sirnaa miti. Fakkeenya:
+code-switching-authentic-direct-quotes-example = “Mi mamá dijo, ‘Tú crees que esto es un juego?’ jedheen, ‘Tole chill!’ jedheen ture.”
+code-switching-authentic-reflect = <bold>Miira, eenyummaa fi haala dubbii calaqqisiisi.</bold> Jijjiiramni yeroo baay'ee kan ta'u namoonni miira, ariifannaa ykn yaada aadaa yeroo ibsan. Gaaffii yeroo deebistan kanneenitti hirkadhaa.
+code-switching-authentic-full-context = <bold>Deebii guutuu haala dubbii wajjin fayyadami.</bold> Hamma danda'ametti gadi fageenyaan, bal'inaan kenni. Deebii keessan keessatti seenaa ykn fakkeenya tokko qoodaa.
+# Don’t Overthink or Overedit
+code-switching-answer-dont-subheader = Garmalee Hin Yaadiin ykn Garmalee Gulaaliin
+code-switching-answer-dont-correct-language = <bold>Afaan kee “Sirreessi”.</bold> Kun qoruuf miti. Bif-unki “sirrii” ta’e asitti waa'ee hin baasu, qooqa uumamaatu waa'ee baasa.
+code-switching-answer-dont-avoid-switching = <bold>Yoo akka idileetti goote jijjiiruu irraa fagaadhu.</bold> Hima walakkaa, yaada walakkaa, ykn jecha tokko qofaaf jijjiiruun gaariidha.
+code-switching-answer-dont-formal-writing = <bold>Akka waan sirnaan barreessituutti dubbadhu.</bold> Deebii sirnaa, kan barnootaa irraa fagaadhu. Haasaa itti fufi.
+code-switching-answer-dont-force-switch = <bold>Yoo uumamaan hin taane humnaan jijjiiruu.</bold> Yoo haala sana keessatti uumamaan akkasitti haasofte qofa jijjiiri.
+code-switching-answer-dont-translate-repeat = <bold>Waan hundumaa hiikkaa ykn irra deebi'aa.</bold> Al tokko qofa jedhi, akkaataa haasawa keessatti dhufuun. Afaan tokkoon tokkoon deebii kennameef version tokko dubbachuun si hin barbaachisu.
+# Transcribing
+code-switching-transcribe-subheader = Barruutti jijjiiruu
+code-switching-transcribe-intro = Yeroo deebiiwwan afaanota walitti makaman (codeswitching) of keessaa qaban gulaaltu, afaan dubbatame akka inni turetti agarsiisi – sirreessuu, gulaaluu yookaan salphisuuf akka hin goone. Kun afaanota gargar ta’an hunda, dubbii waloo (informal speech), fi jechoota afaan walitti makaman hundaaf ta’a.
+code-switching-transcribe-do-1 = Qabiyyee gabaabaa yeroo hedduu taphachiisi, afaan jijjiirraa xixiqqoo hubachuuf.
+code-switching-transcribe-do-2 = Hima hunda booda dhaabbadhuutii jijjiirraa ykn jechoota walmakaa dachaa lama sakatta'i
+# Capture Speech Exactly as Spoken
+code-switching-capture-header = Sagaleen akka dubbatamutti guutummaatti waraabi.
+code-switching-capture-explanation = Afaan lamaanuu akka isaan dhaga’aman / mul’atanitti waraabi. Afaan tokko qofaaf hin jijjiirin yookaan hin sirreessin.
+# Include filler words and markers
+code-switching-filler-header = Jechoota guutuu (filler words) fi mallattoo sagalee (markers) dabaluu.
+code-switching-filler-explanation = Jechoota akka “um,” “like,” “pues,” “you know,” fi “entonces” hiika qaba. Fakkeenya: “Kanaaf, um, ani ishee akkana jedhe, ‘pues no sé, maybe later.’”
+# Use standard spelling for each language
+code-switching-spelling-header = Tokkoon tokkoo qaaqaa keessatti, qubee fi jechoota sirrii akkaataa afaan sanaatti barreessi.
+code-switching-spelling-explanation = Tokkoon tokkoo qaaqaa keessatti, jechoota akkaataa afaan sanaatti sirriitti barreessuuf yaali, yoo ta’e malee, dubbataan jechoota karaa sirrii hin taaneen dubbata.
+# Don’t Clean Up or Simplify the Language
+code-switching-cleanup-header = Qooqicha Hin Qulqulleessin/balleessiin ykn Hin Salphisin
+code-switching-cleanup-1 = Hin hiikin yookaan hin ibsin – dubbataan waan jedhe barreessi, waan inni “yaade” miti.
+code-switching-cleanup-2 = Seerluga ykn sagalee “sirrii” – itti fayyadama uumama dubbataa eegi.
+code-switching-cleanup-3 = Bantuuwwan jijjiirraa xiqqaa ykn xiqqaa fakkaatu darbi – jechoonni ergifataman illee barbaachisoodha.
+code-switching-cleanup-4 = Sirna tuqaalee hiika jijjiiruu danda'an itti dabali - yaa'insa haasaa uumamaa eegii.
+code-switching-cleanup-5 = Jecha hunda afaan isaa akka beektutti fudhadhu – akkaataa itti fayyadame irratti hundaa’uun mallattoo itti godhi.
+# Tagging
+code-switching-tagging-subheader = Xoofuu
+code-switching-tagging-error-intro = Yoo galmeen barreessuu dogoggora of keessaa qabaate, maaloo faankishinii gabaasaa fayyadamiitii mallatteessi. Dogoggorri ta’uu danda’u keessaa muraasni:
+code-switching-tagging-error-1 = Sirna tuqaa dogoggoraa yookaan qubee guddaa/xinnaa sirrii hin taane.
+code-switching-tagging-error-2 = Dogoggora Barreessuu (Typos)
+code-switching-tagging-error-3 = Jechoota qubee dogoggoraatiin barreeffaman
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = Tokkoon tokkoon Afaaniif Qubee Sirrii Fayyadamaa
+code-switching-orthography-explanation = Tokkoon tokkoon jechaa akkaataa qubee afaan irraa dhufeen barreessi. Fakkeenyaaf:
+code-switching-orthography-explanation-example-1 = Jechi “kitchen” jedhu akka afaan Ispeenitti dubbifamee yoo mul’ate, akka “quichen” osoo hin taane akka Afaan Ingiliffaatti barreeffamuu qaba.
+code-switching-orthography-explanation-example-2 = Jechi quinceaños jedhu akka Afaan Ingiliffaatti yoo dubbifamu ñ waliin barreessi.
+# Use Pronunciation to Help Determine the Language
+code-switching-pronunciation-header = Afaan Murteessuu Gargaaruuf Sagaleessuu Fayyadamaa
+code-switching-pronunciation-explanation = Jechoonni tokko tokko afaanota lamaan keessatti wal fakkaachuu dandaʼu, garuu haala adda taʼeen dubbatamuu dandaʼu.  Sirritti tag gochuuf gargaaruuf sagalee dhaggeeffadhu.  Fakkeenyaaf: keebilii, taakoo, actor, detective.
+code-switching-pronunciation-explanation-example-1 = Afaan Ingiliffaa: /ˈkeɪ.bəl/
+code-switching-pronunciation-explanation-example-2 = Afaan Ispeen: /ˈkable/
+# Tagging in a Single Token
+code-switching-single-token-header = Mallattoo Tokko Keessatti Tagging gochuu
+code-switching-single-token-explanation = Mallattoon tokko bakka addaan baafame span mallattoo tokkoo ol qabaachuu qaba.
+# Tag Punctuation Based on Nearby Language
+code-switching-punctuation-tagging-header = Xoofamuu Sirna Tuqaalee Afaan Kaluu Irratti Hundaa'e
+code-switching-punctuation-tagging-explanation = Afaan (span) gara bitaatti dhihoo ta'e fayyadamuun mallattoo addaan kutuu mallattoo kaa'i. Fakkeenyota:
+# text wrapped in purple and blue will be shown with a purple and blue background in the UI respectively
+code-switching-punctuation-tagging-explanation-example-1 = <purple>yeroo tokkos</purple> Maariyaan <purple>natti iyyite</purple> <blue>porque</blue> <purple>isheen</purple> maxxansuuf yaalaa turte <blue>un</blue> <purple>order.</purple> (BangorTalk)
+code-switching-punctuation-tagging-explanation-example-2 = <purple>garuu</purple> <blue>tú los puedes comprar rojo, negro, azul</blue>, <purple>waanuma fedhe.</purple> (BangorTalk)
+# Be Careful with Lookalikes
+code-switching-lookalikes-header = Lookalikes irratti Of eeggannoo godhaa
+code-switching-lookalikes-explanation = Jechoonni tokko tokko afaan tokko fakkaachuu danda’u garuu isa kaan keessatti fayyadamu. Tag hiikaa fi itti fayyadama irratti hundaa'ee malee bifa irratti hin hundaa'u. Fakkeenyota:
+code-switching-lookalikes-explanation-example-1 = “Footing” jechuun duraan afaan Ispeeniin fiiguu jechuu ture > akka afaan Ispeenitti xoofi
+code-switching-lookalikes-explanation-example-2 = “No problemo” Ingiliffa keessatti fayyadamaa > akka Ingiliffaa xoofi
+# When Not to Tag Words
+code-switching-not-tag-header = Yoo Jechoota Xoofuu Dhabne
+code-switching-not-tag-explanation = Jechoonni tokko tokko <bold>asxaa afaaniitiin mallattoo</bold> godhamuu hin qaban, yoo wal makaa ykn madaqfame fakkaatanillee.  Fakkeenyota tokko tokko akkamitti akka qabattan kunooti:
+code-switching-not-tag-proper-names = <bold>Maqqofee</bold> Maqaan namootaa, iddoowwanii fi dhaabbilee mallattoo itti godhamuu hin qabu. Fakkeenyota:
+code-switching-not-tag-proper-names-example-1 = Namoota: Maariyaa, Yohaannis
+code-switching-not-tag-proper-names-example-2 = Iddoowwan: Loos Anjeles, Filooriidaa
+code-switching-not-tag-proper-names-example-3 = Maqaawwan/Dhaabbilee: Taarget, Barger Kiingi
+code-switching-not-tag-mixed-words = <bold>Jechoota Walmakaa ykn Morfoloojiidhaan Madaqfaman.</bold> Jechoota afaanota walitti makuu ykn xumura afaan biraa irraa dabale hin mallatteessin. Fakkeenyota:
+code-switching-not-tag-mixed-words-example = Bakka hundeen jechaa tokko Ingiliffa ta’ee garuu itti fufiinsi Ispeen ta’e: “parkear”, “printearlo” .
+code-switching-not-tag-interjections = <bold>Jechoota Raajeffannoo.</bold> Raajeffannoowwanii fi jechoota calaluu, afaan kamiyyuu yoo ta’an, kan <bold>hin xoofamne</bold> ta’anii hafuu qabu.
+code-switching-not-tag-interjections-example-1 = "Ehee”
+code-switching-not-tag-interjections-example-2 = “Lakki”
+code-switching-not-tag-interjections-example-3 = “Eeyyee”
+code-switching-not-tag-interjections-example-4 = “Egaa”
+
+## Reporting Content
+
+reporting-content = Qabiyyee Gabaasaa
+reporting-content-subheader = Qajeelfama waliigalaa
+reporting-content-explanation-1 = Qabiyyee hammeenya qabu, miidhaa fiduu danda’u yookaan yaaddessaa ta’e mallattoo itti gochuu qabda. Akkasumas, odeeffannoo dhuunfaa akka lakkoofsa bilbilaa yookaan teessoo of keessaa hin qabne ta’uu qaba. Qabiyyeen kun gara tajaajila keetti hin mul’atu hanga gareen Common Voice isa qoratee fi qorannoo dabalataa gaggeessuutti.
+reporting-content-explanation-2 = Qabiyyee gabaasuu barbaaddu yoo jiraate, “Report” cuqaasi  (Gabaasi) fi filannoo tokko yookaan hunda filadhu: Qabiyyee Hammeenya Qabu, Afaan Garagaraa, Odeeffannoo Dhuunfaa, Kan Biroo. Sana booda, sababni gabaasuu qabiyyee kanaa maal akka ta’e barreessi. Xumura irratti, gabaasa erguuf “Report” cuqaasi button.
