@@ -41,7 +41,6 @@ missing-language = Nun vidi a to lingua? P’addumannari na lingua nova, vai nn�
 go-languages-page = Vai â pàggina dî Lingui
 ready-to-validate = Sì prontu ad appruvari quarchi frasi?
 more = Autru
-close = Chiuji
 download = Scàrrica
 dataset-version = Virsiuni
 sha256-checksum-copied = Checksum SHA256 cupiatu!

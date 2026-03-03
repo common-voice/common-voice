@@ -7,7 +7,7 @@ how-does-it-work-text = Ti laɣindila salo kukoya. Tɔhimi a kukoli, wuhimi a di
 
 ## How does it work section
 
-about-language-req-subtitle = So n suhi soli ni bɛ pahi balli.
+about-language-req-subtitle = So n-suhi soli ni bɛ pahi balli.
 about-localization-title = Wɛbsiɛti lunzahim niŋbu
 about-localization-subtitle = Lala balli maa ni ka bɛ lɛbigi wɛbisaiti maa lahibali n-niŋ.
 about-sentence-collection-title = Satara laɣimbu.
@@ -18,18 +18,18 @@ about-voice-contrib-title = Kukoli tɔhibu
 about-voice-contrib-subtitle = niriba kanna nti tɔhiri bɛ kukɔya
 about-voice-validation-title = Kukɔli Saɣi ti
 about-voice-validation-subtitle = Ninvuɣ' shɛba pun vihi lala kukɔya maa.
-about-dataset-release-title = Lahabali kukɔli kpanjɔɣu yihibuna
+about-dataset-release-title = Lahabali kpanjɔɣu yihibuna
 about-dataset-release-subtitle = Ti yihirila lahabali kpanjɔɣu maa na chira ata kam.
-about-subscribe-text = m bɔrimi ni n kuli zani n-tuhi common voice
-about-speak = Yɛlima
-about-speak-text = Ban tɔhiri kukɔya yaarila kukɔya maa bɛ ni pun tɔhi yeltɔɣ' shɛŋa puuni.
+about-subscribe-text = A bɔrimi ni a kuli zani n-tuhi common voice?
+about-speak = Yɛlima.
+about-speak-text = Ban tɔhiri kukɔya yaarila kukɔya maa bɛ ni pun tɔhi satarishɛŋa puuni.
 about-listen-queue = wumma-fɔli
-about-listen-queue-text = Di zaŋ Kukɔya tɔhibu kpɛhi zaŋtahi fɔli la ni m-maali li shili guli wumbu.
-about-listen = wumma
-about-listen-text = Ban mali tumdi tuma dihitabili ni sinii bihi yaabu yi ti zani dede, di yirila kpahibu zaŋ jɛndi yɛlibu, karimbu, ni yɛltɔɣa yɛlibu viɛnyɛla ni.
+about-listen-queue-text = Kukɔ'yaara kpɛrila foli shɛŋa din maani shili ni wumbu.
+about-listen = Wumma
+about-listen-text = Ban mali tumdi tuma dihitabili ni sinii bihi yaabu yi ti zani dede, di yirila kpahimbu zaŋ jɛndi yɛlibu, karimbu, ni yɛltɔɣa yɛlibu viɛnyɛla ni.
 about-is-it-valid = clipu ŋɔ niŋ tumda?
-about-is-it-valid-text = Kukɔli nyɛla din mali dihitabli di yi niŋ ka so saɣi ti li.
-about-yes-votes = Ban pii iin
+about-is-it-valid-text = Kukɔ'yaarili nyɛla din mali dihitabli di yi niŋ ka so saɣi ti li.
+about-yes-votes = Ban' pii iin
 about-yes-votes-text = A yi yɛn kpe lahabaya kukɔli kpanjɔɣu puuni, sheela ban gba tɔhiri niriba ayi n-saɣiti a kukɔli maa.
 about-no-votes = Ban pii aayi
 about-no-votes-text = Ŋun mali tumdi yi zaɣisi kukɔya,di labirila fɔli maa ni. Bɛ yi ti zaɣisi li pahi ayi, kukɔya maa labirila di ni yi shɛli na.
@@ -127,6 +127,7 @@ about-playbook-how-validate-content-4 = Niriba ayi yi zaɣisi anfooni ŋmaa, di 
 ## How to access dataset
 
 about-playbook-how-access-dataset = Wula ka n yɛn niŋ nya ka zaŋ dataset tum tuma?
+about-playbook-how-access-dataset-content-1 = A ni tooi kpe<datasetsPage><datasetsPage><datasetsPage>,peemi ŋmahinli mini bali shaŋa a ni bora ka vuli li.kundu vihira<metadataLink>zaŋ dalim metada<metadataLink>kamani lahibali ni dihitabili tuma din doya.Di tu ni a doli sodoligu satara din puun vuli doya
 about-playbook-how-access-dataset-content-2 = Ayi' yundi n bori ASR kpatuɣa n a ŋmɛ, a ni tooi tuɣi ninvɛɣi shɛba ban bɛ a yaɣili <discourseLink> sodolgu ɔ zuɣu <discourseLink>.
 
 ## How are decisions made
@@ -143,4 +144,6 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Karimmi pam za
 ## How is Common Voice funded
 
 about-playbook-how-funded = Wula ka Common voice niŋda nyari liɣiri?
+about-playbook-how-funded-content-1 = Common Voice nŋala tuun zuɣu sheli din yina Mozila Foundation,Amarica501c3.Ban diri lala tuun zuɣu maa laɣ' dibo n nŋɛ<philantropicGrantLink>ni tohibu din yi niriba mini dunia zaa na
+about-playbook-how-funded-content-2 = a yi yɛn tuɣi n kpa bee n che databaes di diri liɣiri pam, ka pahili ti dundɔŋ maa dariza ni di chandi<africaMradiLink> zileli binyɛra </africaMradiLink>.
 about-playbook-how-funded-content-3 = Di yi niŋ ka a nyini bee a tuma duzuɣu bori ni yi suŋsi ti tuma ŋɔ, yi ni tooi <donateLink>tɔhi</donateLink> bee ka yi sabi n-ti  ti kpalaŋzuya laɣiŋgu <emailFragment>commonvoice@mozilla.com</emailFragment>.

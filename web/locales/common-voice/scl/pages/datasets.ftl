@@ -52,7 +52,6 @@ missing-language = تھیئی  باشی ڈیٹا سیٹی نی نے پشیجیں
 go-languages-page = باشو پٹو نی بو
 ready-to-validate = موجی چکے منیونو تیار ہَوں دا؟
 more = مُتے/مُتی/مُتو
-close = لِیش تھے
 download = ڈاؤنلوڈ تھے
 dataset-version = مُتی قِسم
 sha256-checksum-copied = ایس ایچ اے 256 چکینی کاپی بیلی!

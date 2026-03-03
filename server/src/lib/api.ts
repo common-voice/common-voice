@@ -43,6 +43,7 @@ import validate, {
   jobSchema,
   sentenceSchema,
   sendLanguageRequestSchema,
+  sendContactRequestSchema,
   datasetSchema,
   anonUserMetadataSchema,
 } from './validation'
@@ -192,6 +193,15 @@ export default class API {
     // Get available language variants for a locale
     // Params: locale (optional)
     router.get('/language/variants/:locale?', this.getVariants)
+
+    // Contact form submission
+    // Body: email, name (optional), message
+    router.post(
+      '/contact',
+      rateLimiter('/contact', { points: 5, duration: 60 }),
+      validate({ body: sendContactRequestSchema }),
+      this.sendContactRequest
+    )
 
     // Submit request to add a new language to Common Voice
     // Body: email, languageInfo, languageLocale, platforms
@@ -483,20 +493,40 @@ export default class API {
     response.json(await this.model.db.getVariants(params?.locale || null))
   }
 
+  sendContactRequest = async (
+    request: Request,
+    response: Response,
+    next: NextFunction
+  ) => {
+    const { email, name, message } = request.body
+    try {
+      const info = await this.email.sendContactEmail({ email, name, message })
+      const json: Record<string, unknown> = { id: info?.messageId }
+      if (info?.emailPreviewURL) {
+        json.emailPreviewURL = info.emailPreviewURL
+      }
+      response.json(json)
+    } catch (e) {
+      console.error(e)
+      next(new Error('Something went wrong sending contact email'))
+    }
+  }
+
   sendLanguageRequest = async (
     request: Request,
     response: Response,
     next: NextFunction
   ) => {
     const body = request?.body
-    const { email, languageInfo, languageLocale, platforms } = body
-    if (!body || !email || !languageInfo || !languageLocale || !platforms) {
+    const { email, languageName, languageInfo, languageLocale, platforms } = body
+    if (!body || !email || !languageName || !languageInfo || !platforms) {
       return response.sendStatus(StatusCodes.BAD_REQUEST)
     }
 
     try {
       const info = await this.email.sendLanguageRequestEmail({
         email,
+        languageName,
         platforms,
         languageInfo,
         languageLocale,
@@ -505,6 +535,7 @@ export default class API {
       const json = {
         id: info?.messageId,
         email,
+        languageName,
         platforms,
         languageInfo,
         languageLocale,

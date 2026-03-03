@@ -68,7 +68,6 @@ missing-language = No veieu la vostra llengua al conjunt de dades? Per sol·lici
 go-languages-page = Vés a la pàgina de llengües
 ready-to-validate = Esteu a punt per a validar frases?
 more = Més
-close = Tanca
 download = Baixa
 dataset-version = Versió
 sha256-checksum-copied = S'ha copiat la suma de verificació SHA256

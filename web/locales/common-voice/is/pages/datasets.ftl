@@ -56,7 +56,6 @@ missing-language = Sérðu ekki tungumálið þitt í gagnasafninu? Til að bið
 go-languages-page = Fara á tungumálasíðu
 ready-to-validate = Tilbúin(n) til að hjálpa okkur að staðfesta setningar?
 more = Meira
-close = Loka
 download = Sækja
 dataset-version = Útgáfa
 sha256-checksum-copied = SHA256-gátsumma afrituð!

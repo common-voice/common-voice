@@ -52,7 +52,6 @@ missing-language = Naa a ni vhoni luambo lwaṋu kha dataset? U ita khumbelo ya 
 go-languages-page = Iyani kha siaṱari ḽa dzi Nyambo
 ready-to-validate = Naa no lugela u thusa u khwaṱhisedza mitaladzi?
 more = Zwo Engedzeaho
-close = Valani
 download = Downḽodani
 dataset-version = Vershini
 data-download-singleword-title = Downḽodani Thagete ya Tshipiḓa tsha Ipfi Ḽithihi

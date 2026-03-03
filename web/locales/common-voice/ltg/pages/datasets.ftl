@@ -56,7 +56,6 @@ missing-language = Voi naredzit sovu volūdu datu kūpā? Lai pīpraseitu volūd
 go-languages-page = Ejit iz volūdu lopu
 ready-to-validate = Voi asat gotovs paleidzēt puorbaudeit teikumus?
 more = Vairuok
-close = Aiztaiseit
 download = Zamynluodēt
 dataset-version = Verseja
 sha256-checksum-copied = SHA256 kontrolsumma nūkopēta!

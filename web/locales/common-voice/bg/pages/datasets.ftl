@@ -60,7 +60,6 @@ missing-language = Не виждате своя език в набора от д
 go-languages-page = Страница с езиците
 ready-to-validate = Готови ли сте да помогнете за проверката на изречения?
 more = Още
-close = Затваряне
 download = Изтегляне
 dataset-version = Версия
 sha256-checksum-copied = Контролната сума на SHA256 е копирана!

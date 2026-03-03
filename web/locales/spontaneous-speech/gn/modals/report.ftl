@@ -4,6 +4,7 @@ report-modal-title = Emondo marandu
 report-modal-subtitle = Mba’ete apañu’áipa eguereko ko tetepy ndive
 offensive_speech = Ñe’ẽreity Ivaíva
 offensive_speech-detail = Pe tetepy oguereko ñe’ẽvai ha oporoko’õva.
+empty_or_unintelligible = Nandi ha nahesakãi
 personally_identifiable_information = Marandu tapicha kuaaukaha
 report-other-comment =
     .placeholder = Je’erei

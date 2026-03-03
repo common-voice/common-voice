@@ -18,6 +18,8 @@ validated-clips = Kukɔ'shɛŋa bɛ ni saɣi ti
 total-approved = Bɛ ni saɣiti shɛŋa zaa
 overall-accuracy = Din kam tam kalinli zuɣu
 set-visibility = mali niŋ n nyabu
+visibility-explainer = Suhuyurilim ŋɔ maa n-nyɛ binshɛli din wuhiri a "leaderboard" nɛlinsi.  Di yi sɔɣi, a kpaŋmaŋa yɛn nyɛla bɛla shilo ni. Ka di gbunni nyɛla, a anfooni, yuli, ni a kpaŋmaŋa bi yɛn yina n pa a "leaderboard" maa zuɣu. nyɛla bɛla shilo ni. Leei baŋ ma, "leaderboard" labi walim tooi diri la ~{ $minutes } minti nima ni di laɣim taɣibu nima.
+visibility-overlay-note = kpahim ma:Diyinig ka a mali shili ni nyabu;malzali ŋɔ ni tooi taɣi n yi<profileLink>profile page</profileLink>
 show-ranking = Wuhimi n zaa shee
 
 ## Custom Goals
@@ -43,11 +45,19 @@ help-reach-hours-pluralized =
         [one] soŋmi ka di paaigi { $hours } awa { $language } zaŋ kpa a mammaŋa tahima.
        *[other] { "" }
     }
+help-reach-hours-general-pluralized =
+    { $hours ->
+        [one] Sɔŋmi Common Voice ka di paai { $hawanima } zuliya balli nam tahima din ni tum hawa puuni
+       *[other] Sɔŋmi Common Voice ka di paai { $hawanima } zuliya balli nam tahima din ni tum hawa puuni
+    }
 set-a-goal = Mali tahima
 cant-decide = kutooi pii
+activity-needed-calculation-fixed = Ninvuɣ' kɔbiga yi yaari satara kɔbiga kɔkuya dabisili puuni di ni tooi n-sɔŋ chɛ ka kɔkuya tooi yaai m paai hawanima pia ni ata. Na kuli n gbubi lala kpaŋmaŋa ŋɔ, Ti ni tooi n zaŋ chira ata n-nya hawanima tuhili.
 how-many-per-day = M-bo, klipu dibaala dabisili puuni?
 how-many-a-week = M-bo,clipu dibaala dakulo puuni?
 which-goal-type = A bɔrimi ni a yɛli, n wum bee dizaa?
+receiving-emails-info = Saha ŋɔ a niŋ shili ni a deei satara kamani tahi shɛŋa din teera,n toon tibo teebu mini lahibali churi zaŋkpa kuko yinsi
+not-receiving-emails-info = Sahaŋɔ a niŋ shili ni a deei satara kamani tehi waɣila din teeira,n toontibo lahibali mini lahibali churi zaŋ kpa kuko din laɣim.
 n-clips-pluralized =
     { $count ->
         [one] yinga { $count }vulindigu

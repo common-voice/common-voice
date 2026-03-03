@@ -56,7 +56,6 @@ missing-language = کہ تساں کو اپنڑی زبان دی عکاسی ڈیٹ
 go-languages-page = زبان دے صفحے تے جُلو
 ready-to-validate = جملیاں دی توثیق واسطے مدد کرنا کو تیار ہو؟
 more = مزید
-close = بند
 download = ڈاؤنلوڈ
 dataset-version = ورژن
 sha256-checksum-copied = SHA256 چیکسم کاپی کر چُھڑیا

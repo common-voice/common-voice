@@ -53,7 +53,6 @@ missing-language = Cerg tus̃h tus̃h k̃hu zike akasiye (reflection) sek D̃at�
 go-languages-page = Sẽk zikvẽ wẽraq rec̃h
 ready-to-validate = jũmlavẽ towsiqrẽt tiyora?
 more = z̃aq woz
-close = g̃hurt/ band
 download = D̃ownlowd̃
 dataset-version = vẽrzhan
 sha256-checksum-copied = SHA256 Checksum naqẽl!

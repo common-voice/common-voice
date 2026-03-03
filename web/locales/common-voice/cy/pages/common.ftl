@@ -467,6 +467,8 @@ indicates-required = Mae * yn dynodi maes angenrheidiol
 not-available-abbreviation = Dim Ar Gael
 # Text shown on a button that can be clicked to copy text to the clipboard
 copy = Copïo
+# Text shown on a button that can be clicked to close a modal or panel
+close = Cau
 # Text shown on a button that can be clicked to cancel an action
 cancel = Diddymu
 # Text shown on a button that can be clicked to delete an item

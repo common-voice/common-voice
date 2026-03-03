@@ -293,6 +293,8 @@ indicates-required = * obilježava obvezno polje
 not-available-abbreviation = --
 # Text shown on a button that can be clicked to copy text to the clipboard
 copy = Kopiraj
+# Text shown on a button that can be clicked to close a modal or panel
+close = Zatvori
 # Text shown on a button that can be clicked to cancel an action
 cancel = Odustani
 # Text shown on a button that can be clicked to delete an item

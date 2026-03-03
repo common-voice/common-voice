@@ -68,7 +68,6 @@ missing-language = ვერ მონახეთ თქვენი ენა 
 go-languages-page = ენების გვერდზე გადასვლა
 ready-to-validate = მზად ხართ, დაგვეხმაროთ წინადადებების დამოწმებაში?
 more = ვრცლად
-close = დახურვა
 download = ჩამოტვირთვა
 dataset-version = ვერსია
 sha256-checksum-copied = SHA256-სადარჯამის ასლი აღებულია!

@@ -52,7 +52,6 @@ missing-language = Awuboni ulimi lwakho luboniswa Kusethi Yedatha? Ukucela ulimi
 go-languages-page = Iya Ekhasini Lezilimi
 ready-to-validate = Ulungele ukusiza ukuqinisekisa imisho?
 more = Okwengeziwe
-close = Vala
 download = Downloda
 dataset-version = Inguqulo
 data-download-singleword-title = Loda Ingxenye Yethagethi Yegama Elilodwa

@@ -46,7 +46,6 @@ missing-language = ألا ترى لغتك ضِمن مجموعة البيانات
 go-languages-page = انتقل إلى صفحة اللغات
 ready-to-validate = أمستعدّ للمساعدة وتدقيق الجُمل؟
 more = أكثر
-close = أغلِق
 download = نزّل
 dataset-version = الإصدارة
 data-download-button = نزّل بيانات «الصوت للعموم»

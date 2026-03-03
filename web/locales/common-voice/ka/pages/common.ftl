@@ -467,6 +467,8 @@ indicates-required = * აღნიშნავს აუცილებელ �
 not-available-abbreviation = მიუწვდომელია
 # Text shown on a button that can be clicked to copy text to the clipboard
 copy = ასლი
+# Text shown on a button that can be clicked to close a modal or panel
+close = დახურვა
 # Text shown on a button that can be clicked to cancel an action
 cancel = გაუქმება
 # Text shown on a button that can be clicked to delete an item

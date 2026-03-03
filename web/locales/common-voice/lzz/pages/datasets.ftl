@@ -51,7 +51,6 @@ missing-language = Nena-tkvani datamarç̌as var dziremt-i? Nena ogoru şeni Nen
 go-languages-page = Nena but̆ǩaşe idi
 ready-to-validate = Cumlepe getzuranus meşvelu şeni xadziri oret-i?
 more = Çkva
-close = Genǩoli
 download = Kogeiği
 dataset-version = Versioni
 sha256-checksum-copied = SHA256 Checksum ǩop̌ya dixenu!

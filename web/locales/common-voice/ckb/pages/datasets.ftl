@@ -39,7 +39,6 @@ missing-language = زمانی خۆت نابینی لە لیستی زمانەکا
 go-languages-page = بچۆ بۆ پەڕەی زمانەکان
 ready-to-validate = ئامادەی بۆ یارمەتی سەلماندنی ڕستەکان؟
 more = زیاتر
-close = داخستن
 download = داگرتن
 dataset-version = وەشان
 dataset-metadata-sex = ڕەگەز

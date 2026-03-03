@@ -25,7 +25,6 @@ data-other-voxforge-description = VoxForge a veu drehevys rag kuntel kows treuss
 data-other-tatoeba-description = Tatoeba yw database bras a lavarow, treylyansow ha son kowsys may hyllir y usya ow tyski yethow. Yma a-berth y'n iskargans ma Sowsnek kowsys rekordys gans aga hemeneth.
 ready-to-validate = Parys dhe weres dilysa lavarow?
 more = Moy
-close = Degea
 download = Iskarga
 dataset-version = Gwersyon
 data-download-button = Iskarga data Common Voice

@@ -56,7 +56,6 @@ missing-language = Verskyn jou taal nie in die Datastel nie? Om 'n taal te verso
 go-languages-page = Gaan na Tale-bladsy
 ready-to-validate = Gereed om te help met die bevestiging van sinne?
 more = Meer
-close = Sluit
 download = Laai Af
 dataset-version = Weergawe
 sha256-checksum-copied = SHA256 Kontrolesom gekopieer!

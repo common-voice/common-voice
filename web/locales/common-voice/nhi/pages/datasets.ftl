@@ -30,7 +30,6 @@ missing-language = amoneci motlahtol ichin tlanahuatil? tlaticniqui tictlalis xi
 go-languages-page = yas ichin pagina de tlahtolmeh
 ready-to-validate = yicuali tica para tiquin silis tlahtolme
 more = Cachi
-close = tlatzacua
 download = timolti
 data-download-button = timulti tlanaoatil de Common Voice
 data-download-yes = quema

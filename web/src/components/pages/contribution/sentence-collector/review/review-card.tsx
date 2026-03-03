@@ -23,7 +23,6 @@ const ReviewCard: React.FC<Props> = ({
   variantTag,
   variantName,
 }) => {
-
   return (
     <div
       className={classNames('card card-dimensions', { inactive: !isActive })}
@@ -40,10 +39,14 @@ const ReviewCard: React.FC<Props> = ({
       }}
       data-testid={`${isActive ? 'active-review-card' : 'review-card'}`}>
       <p className="sentence">{sentence}</p>
-      {variantTag && variantName && <Tag text={`${variantName} [${variantTag}]`} />}
-      <Localized id="sc-review-form-source" vars={{ sentenceSource: source }}>
-        <p className="source" />
-      </Localized>
+      {variantTag && variantName && (
+        <Tag text={`${variantName} [${variantTag}]`} />
+      )}
+      {source && (
+        <Localized id="sc-review-form-source" vars={{ sentenceSource: source }}>
+          <p className="source" />
+        </Localized>
+      )}
     </div>
   )
 }

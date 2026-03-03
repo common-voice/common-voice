@@ -52,7 +52,6 @@ missing-language = maa baaṣ dataset ulo ganaas eyśaana? baṣan e gane buyata
 go-languages-page = baṣine patuatar niin
 ready-to-validate = jumlane tasdiiq etase gane juwaap mićʰićar tayaar baana?
 more = daa/hik ke
-close = ban eti
 download = download eti
 dataset-version = version
 sha256-checksum-copied = SHA256 checksum copy manimi

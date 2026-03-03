@@ -68,7 +68,6 @@ missing-language = Votre langue ne fait pas partie du jeu de données ? Pour de
 go-languages-page = Aller sur la page des langues
 ready-to-validate = Prêt·e à nous aider à valider des phrases ?
 more = Informations supplémentaires
-close = Fermer
 download = Télécharger
 dataset-version = Version
 sha256-checksum-copied = Somme de contrôle SHA256 copiée !

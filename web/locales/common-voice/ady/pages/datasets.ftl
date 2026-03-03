@@ -14,7 +14,6 @@ recorded-hours = Тетхагъэ сыхьатхэр
 # This indicates that there is no data to display
 no-information = Къэбар щыӏэп
 go-languages-page = Бзэхэм инэкъубгъо кӏожь
-close = Фэшӏ
 download = Къытех
 dataset-version = Версийон
 # dataset metadata - age of contributor

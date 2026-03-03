@@ -59,11 +59,16 @@
 
 ### Changes merged after current release
 
-- Feat: Add cc0/licensed/both release modes to bundler, by [@moz-bozden](https://github.com/moz-bozden) in [#5297](https://github.com/common-voice/common-voice/pull/5297) (in v.1.157.2)
+- Feat: Fix UX issues on mobile devices by making the guidelines collapsible, by [@moz-bozden](https://github.com/moz-bozden) in [#5313](https://github.com/common-voice/common-voice/pull/5313) fixes [#5309](https://github.com/common-voice/common-voice/pull/5309) (in v.1.157.3)
+- Fix: Fix regression in Listen page where a warning is shown (again), by [@moz-bozden](https://github.com/moz-bozden) in [#5312](https://github.com/common-voice/common-voice/pull/5312) (in v.1.157.3)
+- Fix: Fix missing language info in the email sent in New Language Request page, by [@moz-bozden](https://github.com/moz-bozden) in [#5311](https://github.com/common-voice/common-voice/pull/5311) (in v.1.157.3)
+- Fix: Contact form was not working, by [@moz-bozden](https://github.com/moz-bozden) in [#5310](https://github.com/common-voice/common-voice/pull/5310) (in v.1.157.3)
+- Fix: Card animation not working, by [@VedantMadane](https://github.com/VedantMadane) in [#5252](https://github.com/common-voice/common-voice/pull/5252) (in v.1.157.3)
 - Feat: Add prefetching to statistics to be always up to date and prevent timeouts, by [@moz-bozden](https://github.com/moz-bozden) in [#5292](https://github.com/common-voice/common-voice/pull/5292) (in v.1.157.1)
 - Chore: Add more data checking guards in audio pipeline, by [@moz-bozden](https://github.com/moz-bozden) in [#5291](https://github.com/common-voice/common-voice/pull/5291) (in v.1.157.1)
 - Fix: Deadlock on local dev while getting SPS datasets, by [@moz-bozden](https://github.com/moz-bozden) in [#5295](https://github.com/common-voice/common-voice/pull/5295) (in v.1.157.1)
 - Fix: Two regressions on Speak page, by [@moz-bozden](https://github.com/moz-bozden) in [#5293](https://github.com/common-voice/common-voice/pull/5293) (in v.1.157.1)
+- Fix: Several fixes to audio pipeline, better error handling and transcoding resilience, by [@moz-bozden](https://github.com/moz-bozden) in [#5290](https://github.com/common-voice/common-voice/pull/5290) (in v.1.157.1)
 
 #### Data Changes after current release
 
@@ -72,13 +77,21 @@
 
 #### Spontaneous Speech after current release
 
-- Feat: Add scrub_user script to remove a user/all data of a user if requested, by [@moz-bozden](https://github.com/moz-bozden) in [#519](https://github.com/common-voice/spontaneous-speech/pull/519) (in v1.157.2)
 - Fix: Statistics queries in Spontaneous Speech and Code-Siwtching should be based on audios, so that duplicate transcriptions should not be caounted, by [@moz-bozden](https://github.com/moz-bozden) in [#518](https://github.com/common-voice/spontaneous-speech/pull/518) (in v1.157.2)
 - Refactor: Report option to generalize the existing "different language", by [@moz-bozden](https://github.com/moz-bozden) in [#516](https://github.com/common-voice/spontaneous-speech/pull/516) (in v1.157.2)
 
 ##### SS Data Changes after current release
 
 - Add Croatian (`hr`) questions by [@bandrandr](https://github.com/bandrandr) in [#517](https://github.com/common-voice/spontaneous-speech/pull/517) (in v1.157.2)
+
+#### Changes to Bundlers and related repos after current release
+
+- SPS-Bundler-Feat: Major rework of bundler to support different release modes, datasheets integration, fixes and performance improvements, by [@moz-bozden](https://github.com/moz-bozden) in [#520](https://github.com/common-voice/spontaneous-speech/pull/520) (in v.1.157.3)
+- SCS-Bundler-Feat: Major rework of bundler to support different release modes, datasheets integration, fixes and performance improvements, by [@moz-bozden](https://github.com/moz-bozden) in [#5302](https://github.com/common-voice/common-voice/pull/5302), [#5314](https://github.com/common-voice/common-voice/pull/5314) (in v.1.157.3)
+- SPS-Feat: Add scrub_user script to remove a user/all data of a user if requested, by [@moz-bozden](https://github.com/moz-bozden) in [#519](https://github.com/common-voice/spontaneous-speech/pull/519) (in v1.157.2)
+- SCS-Bundler-Feat: Add cc0/licensed/both release modes to bundler, by [@moz-bozden](https://github.com/moz-bozden) in [#5297](https://github.com/common-voice/common-voice/pull/5297) (in v.1.157.2)
+- `cv-datasheets` - Feat: Refactor and extend the repo to feed the bundler and MDC datasets page, by [@moz-bozden](https://github.com/moz-bozden) in [#67](https://github.com/common-voice/cv-datasheets/pull/67), [#68](https://github.com/common-voice/cv-datasheets/pull/68), [#69](https://github.com/common-voice/cv-datasheets/pull/69), [#70](https://github.com/common-voice/cv-datasheets/pull/70) (during v.1.157.3)
+- `cv-dataset` - Refactor to keep stats from any dataset type, by [@moz-bozden](https://github.com/moz-bozden) in [#47](https://github.com/common-voice/cv-dataset/pull/47) (during v.1.157.2)
 
 ---
 

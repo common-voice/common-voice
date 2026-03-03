@@ -53,7 +53,6 @@ missing-language = ڪيٚ اڀآݩ ريٚ ٻوليٚ ڊيٽآ سيٽ ميݩ نز
 go-languages-page = وهو ٻوليٚ ري سڦهي تي
 ready-to-validate = تيآر اهونٚ جملآ ريٚ تسديٚڪ مينٚ مدت ڪرڻ لآ
 more = وڌيٚڪ
-close = بند ڪرو
 download = ڊآئون لوڊ ڪرو
 dataset-version = تريٚڪو جآنٚ رستو
 sha256-checksum-copied = ڪآپيٚ ڪيو وهُڙو اهي! SHA256 Checksum

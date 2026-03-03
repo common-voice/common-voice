@@ -24,7 +24,6 @@ go-discourse = Discourse ға өтиў
 go-languages-page = Тиллер бетине өтиў
 ready-to-validate = Гәплерди тексериўге жәрдем бериўге таярсыз ба?
 more = Көбирек
-close = Жабыў
 download = Жүклеп алыў
 dataset-version = Версия
 clipboard-not-supported = Алмасыў буферы қоллап-қуўатланбайды

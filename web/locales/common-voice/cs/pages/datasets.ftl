@@ -68,7 +68,6 @@ missing-language = Nevidíte váš jazyk v datasetu? Chcete-li požádat o jazyk
 go-languages-page = Přejít na stránku Jazyky
 ready-to-validate = Jste připraveni pomoci s ověřováním vět?
 more = Více
-close = Zavřít
 download = Stáhnout
 dataset-version = Verze
 sha256-checksum-copied = Kontrolní součet SHA256 zkopírován!

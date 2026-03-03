@@ -24,7 +24,6 @@ go-discourse = Discourse'ка өтүү
 go-languages-page = Тилдер барагына өтүү
 ready-to-validate = Сүйлөмдөрдү текшерүүгө жардам берүүгө даярсызбы?
 more = Дагы
-close = Жабуу
 download = Жүктөп алуу
 data-download-button = Common Voice берилиштерин жүктөп алуу
 data-download-yes = Ооба

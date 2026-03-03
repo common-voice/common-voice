@@ -45,7 +45,6 @@ missing-language = Забони худро дар маҷмуи маълумот 
 go-languages-page = Гузариш ба саҳифаи забонҳо
 ready-to-validate = Барои расонидани кумак ба тасдиқи ҷумлаҳо омода ҳастед?
 more = Бештар
-close = Пӯшидан
 download = Боргирӣ кунед
 dataset-version = Силсила
 sha256-checksum-copied = Ҷамъи назоратии «SHA256» нусха бардошта шуд!

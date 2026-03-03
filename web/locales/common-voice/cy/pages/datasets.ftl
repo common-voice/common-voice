@@ -68,7 +68,6 @@ missing-language = Ddim yn gweld eich iaith yn y set ddata? I ofyn i'ch iaith ga
 go-languages-page = Mynd i'r Dudalen Ieithoedd
 ready-to-validate = Yn barod i helpu i ddilysu brawddegau?
 more = Rhagor
-close = Cau
 download = Llwytho i Lawr
 dataset-version = Fersiwn
 sha256-checksum-copied = SHA256 Checksum Wedi'i Gopïo!

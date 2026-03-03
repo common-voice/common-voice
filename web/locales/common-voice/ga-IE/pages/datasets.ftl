@@ -31,7 +31,6 @@ go-discourse = Téigh go dtí Discourse
 go-languages-page = Téigh go Leathanach na dTeangacha
 ready-to-validate = An bhfuil tú réidh abairtí a dheimhniú?
 more = Tuilleadh
-close = Dún
 download = Íoslódáil
 dataset-version = Leagan
 clipboard-not-supported = Ní thacaítear leis an ngearrthaisce

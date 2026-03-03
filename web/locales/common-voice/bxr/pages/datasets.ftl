@@ -12,7 +12,6 @@ recorded-hours = Бэшэлгын саг
 subscribe = Захиха
 get-started-speech = Хэлэхы таниха оньһон ухаанай оршол
 more = Дэлгэрэнгы
-close = Хааха
 download = Татажа абаха
 data-download-button = Ниитын дуу хоолойн үгэгдэл татажа абаха
 data-download-yes = Тии

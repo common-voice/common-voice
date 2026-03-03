@@ -8,9 +8,9 @@ import { getDatasetBundlerBucketName } from '../config/config'
 import { streamUploadToBucket } from '../infrastructure/storage'
 import { AppEnv } from '../types'
 
-const uploadDatasetToPath = streamUploadToBucket(getDatasetBundlerBucketName())
+export const uploadDatasetToPath = streamUploadToBucket(getDatasetBundlerBucketName())
 
-const uploadDataset = (
+export const uploadDataset = (
   datasetFilepath: string,
   releaseName: string,
 ): TE.TaskEither<Error, string> =>

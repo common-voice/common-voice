@@ -46,7 +46,6 @@ missing-language = Tidak melihat bahasa Anda di Set Data? Untuk meminta bahasa, 
 go-languages-page = Buka Laman Bahasa
 ready-to-validate = Siap membantu validasi kalimat?
 more = Lainnya
-close = Tutup
 download = Unduh
 dataset-version = Versi
 # dataset metadata - age of contributor

@@ -38,7 +38,6 @@ missing-language = تے زبان کہ دے ڈیٹا سیٹ چے ڤیو’۔ ڤے
 go-languages-page = دے زبانف صفحہ اوئے
 ready-to-validate = پے جملغف تصدیق دیر نے یوانی کڑآن تیارآ؟
 more = دیر
-close = بود
 download = ڈاؤن لوڈ
 dataset-version = ورژن
 sha256-checksum-copied = SHA256 چیکسم کاپی ݰوئے!

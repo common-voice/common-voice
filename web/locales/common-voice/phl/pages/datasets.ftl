@@ -61,7 +61,6 @@ missing-language = تہ زبان کی ڈِیٹا سیٹی وے نئینی ہین
 go-languages-page = زُبینیمی  صفحہ تھے بہ
 ready-to-validate = صحیح جملے مدد تھئنی دپارہ تیارے؟
 more = دوئی بی
-close = بند
 download = ڈون لوڈ
 dataset-version = ورژن
 sha256-checksum-copied = SHA256 چیکسم کاپی بھلی!

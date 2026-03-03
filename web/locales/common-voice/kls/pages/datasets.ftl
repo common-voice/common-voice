@@ -52,7 +52,6 @@ missing-language = ne pashis daya tay zuban zhonikas dataset una? zuban as bati 
 go-languages-page = zuban as kagaz una pa
 ready-to-validate = mond ujak karikuna hatya homa madad as hatya tayar assa
 more = ziada
-close = band kari
 download = download
 dataset-version = noa tharika
 sha256-checksum-copied = SHA256 Checksum Copied!

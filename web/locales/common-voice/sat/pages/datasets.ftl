@@ -45,7 +45,6 @@ missing-language = ᱰᱟᱴᱟᱥᱮᱴ ᱨᱮ ᱟᱢᱟᱜ ᱯᱟᱹᱨᱥᱤ 
 go-languages-page = ᱯᱟᱹᱨᱥᱤ ᱥᱟᱦᱴᱟ ᱛᱮ ᱪᱟᱞᱟᱜ ᱢᱮ
 ready-to-validate = ᱟᱹᱭᱟᱹᱛ ᱠᱚ ᱧᱮᱞ ᱵᱤᱲᱟᱹᱣ ᱞᱟᱹᱜᱤᱫ ᱜᱚᱲᱚ ᱮᱢ ᱥᱚᱡ ᱮᱱᱟᱢ?
 more = ᱰᱷᱮᱨ
-close = ᱵᱚᱸᱫᱚᱭ ᱢᱮ
 download = ᱰᱟᱣᱱᱞᱳᱰ
 dataset-version = ᱵᱷᱟᱹᱨᱥᱚᱱ
 data-download-singleword-title = ᱮᱠᱟᱞ ᱟᱹᱲᱟᱹ ᱩᱫᱩᱜ ᱠᱷᱟᱹᱰᱨᱟᱹ ᱰᱟᱣᱱᱞᱚᱰ ᱢᱮ

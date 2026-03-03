@@ -6,3 +6,5 @@ contact-form-name =
 contact-form-message =
     .label = Správa
 contact-required = * vyžadované pole
+contact-form-success = Vaša správa bola odoslaná. Ďakujeme!
+contact-form-error = Niečo sa pokazilo. Skúste to znova.

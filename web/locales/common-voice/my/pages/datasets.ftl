@@ -30,7 +30,6 @@ go-discourse = Discourse သို့သွားပါ
 go-languages-page = ဘာသာစကား စာမျက်နှာ သို့ သွားရန်
 ready-to-validate = ဝါကျများကို အတည်ပြုရန် ကူညီဖို့ အဆင်သင့်လား။
 more = ပို၍
-close = ပိတ်
 download = ဒေါင်းလုပ်
 dataset-version = ဗားရှင်း
 data-download-singleword-title = တစ်ခုတည်းသော စကားလုံး ပစ်မှတ် အပိုင်း ကို Download လုပ်ပါ။

@@ -44,7 +44,6 @@ missing-language = А неят эсеть келеть ёнксонзо данн
 go-languages-page = Совамс келень лопас
 ready-to-validate = Аноктадо валрисьмень ванномс?
 more = Седе тов
-close = Пекстамс
 download = Таргамс
 dataset-version = Версия
 data-download-singleword-title = Таргинк норовамо сегментэнть «Вейке вал»

@@ -35,7 +35,6 @@ data-other-ted-name = TED-LIUM Corpus
 go-discourse = Dem ci Discourse
 go-languages-page = Dem ci xëtu làkk yi
 more = Gën bari
-close = Tëj
 download = Yebbi
 dataset-version = Sumb
 # dataset metadata - age of contributor

@@ -61,7 +61,6 @@ missing-language = Ĉu via lingvo ne aperas en la datumaro? Por peti novan lingv
 go-languages-page = Iri al la paĝo pri lingvoj
 ready-to-validate = Ĉu vi pretas validigi frazojn?
 more = Pli
-close = Fermi
 download = Elŝuti
 dataset-version = Versio
 sha256-checksum-copied = Kontrolsumo SHA256 kopiita!

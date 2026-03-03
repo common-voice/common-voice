@@ -1,5 +1,6 @@
 SELECT
-    l.name AS name
+    l.name AS name,
+    COUNT(c.id) AS clip_count
 FROM
     clips c
 JOIN
@@ -7,3 +8,5 @@ JOIN
 WHERE c.created_at BETWEEN ? AND ?
 GROUP BY
     l.name
+ORDER BY
+    clip_count DESC

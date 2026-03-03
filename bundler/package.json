@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --forceExit",
     "start": "node --max-old-space-size=8192 js/main.js",
     "build": "tsc -p tsconfig.json"
   },
@@ -12,11 +12,16 @@
   "license": "ISC",
   "devDependencies": {
     "@tsconfig/node24": "^24.0.4",
-    "@types/mysql": "^2.15.26",
+    "@types/jest": "^30.0.0",
     "@types/node": "^25.2.3",
     "@types/redlock": "^4.0.7",
+    "jest": "^30.2.0",
     "prettier": "^3.8.1",
+    "ts-jest": "^29.4.6",
     "typescript": "^5.7.3"
+  },
+  "overrides": {
+    "minimatch": ">=10.2.1"
   },
   "dependencies": {
     "@google-cloud/storage": "^7.16.0",
@@ -30,7 +35,7 @@
     "fp-ts": "^2.16.9",
     "ioredis": "^5.4.2",
     "mp3-duration": "^1.1.0",
-    "mysql": "^2.18.1",
+    "mysql2": "^3.18.0",
     "redlock": "^4.2.0",
     "stream-transform": "^3.4.0",
     "tar": "^7.5.9"

@@ -46,7 +46,6 @@ missing-language = Ma'lumotlar bazasida sizning tilingizni ko'rmayapsizmi? Bizni
 go-languages-page = Tillar sahifasiga o'ting
 ready-to-validate = Jumlalarni tasdiqlashga yordam berishga tayyormisiz?
 more = Koʻproq
-close = Yopish
 download = Yuklash
 dataset-version = Talqin
 data-download-singleword-title = Yagona soʻz maqsadli segmentini yuklab oling

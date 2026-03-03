@@ -68,7 +68,6 @@ missing-language = Vai neredzat savu valodu datu kopā? Lai pieprasītu valodu, 
 go-languages-page = Dodieties uz valodu lapu
 ready-to-validate = Vai esat gatavs palīdzēt pārbaudīt teikumus?
 more = Vairāk
-close = Aizvērt
 download = Lejupielādēt
 dataset-version = Versija
 sha256-checksum-copied = SHA256 kontrolsumma nokopēta!

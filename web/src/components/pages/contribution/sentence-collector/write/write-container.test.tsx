@@ -22,6 +22,7 @@ jest.mock('../../../../../hooks/store-hooks', () => ({
   },
   useAction: () => useActionMock,
   useAccount: () => ({}),
+  useLocalStorageState: () => [true, jest.fn()],
   useSentences: () => ({
     'mock-locale-1': {
       bulkUploadStatus: 'off',

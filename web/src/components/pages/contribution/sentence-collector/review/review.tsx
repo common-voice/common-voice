@@ -24,7 +24,11 @@ import { Spinner } from '../../../../ui/ui'
 import { ReportModal } from '../../report/report'
 import ReviewShortcutsModal from './review-shortcuts-modal'
 
-import { useAccount, useSentences } from '../../../../../hooks/store-hooks'
+import {
+  useAccount,
+  useSentences,
+  useLocalStorageState,
+} from '../../../../../hooks/store-hooks'
 import useReview from './use-review'
 import { useLocale } from '../../../../locale-helpers'
 import { trackGtag } from '../../../../../services/tracker-ga4'
@@ -40,6 +44,10 @@ type Props = WithLocalizationProps
 const Review: React.FC<Props> = ({ getString }) => {
   const [showReportModal, setShowReportModal] = React.useState(false)
   const [showShortcutsModal, setShowShortcutsModal] = React.useState(false)
+  const [rulesOpen, setRulesOpen] = useLocalStorageState(
+    true,
+    'sc-review-rules-open'
+  )
 
   const [currentLocale] = useLocale()
   const account = useAccount()
@@ -180,7 +188,12 @@ const Review: React.FC<Props> = ({ getString }) => {
               ))}
             </div>
           )}
-          <Rules localizedTitleId="sc-review-rules-title" />
+          <Rules
+            localizedTitleId="sc-review-rules-title"
+            collapsible
+            isOpen={rulesOpen}
+            onToggle={() => setRulesOpen(!rulesOpen)}
+          />
         </div>
       </div>
       <div className="waves">

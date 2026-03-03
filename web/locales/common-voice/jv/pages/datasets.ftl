@@ -66,7 +66,6 @@ missing-language = Ora weruh basa sampeyan dibayangke ing Kumpulan data? Kanggo 
 go-languages-page = Pindhah menyang Kaca Basa
 ready-to-validate = Siap mbantu validasi ukara?
 more = Liyané
-close = Tutup
 download = Undhuh
 dataset-version = Versi
 sha256-checksum-copied = SHA256 Checksum Disalin!

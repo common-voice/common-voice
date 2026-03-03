@@ -1,3 +1,11 @@
+# dev
+.local
+.dev
+_dev
+seeders
+coverage
+
+# others
 node_modules
 config.json
 maintenance/index.html

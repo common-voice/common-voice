@@ -50,7 +50,6 @@ missing-language = Ndokwaw'iaw'ona kiteto chako kwa mafungu gha data? Kulomba ki
 go-languages-page = Enda kwa peji ya Viteto
 ready-to-validate = Koko tayari kutesia kuhakikisha sentensi?
 more = Ghechuria
-close = Funga
 download = Pakua
 dataset-version = Ifunyo
 sha256-checksum-copied = SHA256 Cecksum Yafunywa kopi!

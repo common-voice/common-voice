@@ -57,7 +57,6 @@ missing-language = ڈیٹاسیٹ در تمو جیب عکاسی نی بینو؟ 
 go-languages-page = جیِبے صفحا تے بو
 ready-to-validate = جملؤ تصدیق کارا مدد کارا تیار با
 more = ہورو
-close = بند تھا
 download = ڈاؤنلوڈ
 dataset-version = ورژن
 sha256-checksum-copied = ایس ایچ اے 256 چیکسم کاپی بیلو!

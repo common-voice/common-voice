@@ -11,6 +11,7 @@ record-no-mic-found = Ndojejuhúi ñe’ẽmbotuichaha.
 record-error-too-short = Mbykyetereíma ñe’ẽñembohyapupyre.
 record-error-too-long = Ipukuetereíma ñe’ẽñembohyapupyre.
 record-error-too-quiet = Ikirirĩetereíma ñe’ẽñembohyapupyre.
+record-error-empty-recording = Ndojejapyhýi mba’epu. Ikatúiko ehechajey ne ñe’ẽpuatãha ha eha’ãjey.
 record-cancel = Ejoko Ñe’ẽñemboguapyjey
 record-instruction = { $actionType }<recordIcon></recordIcon> ha upéi emoñe’ẽ hatã ñe’ẽjoaju
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> oĩmba vove

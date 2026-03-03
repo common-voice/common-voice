@@ -10,6 +10,7 @@ import {
   ReportedSentencesRow,
 } from '../types'
 import { pipe } from 'fp-ts/lib/function'
+import { logger } from '../infrastructure/logger'
 
 const printLn = (text: string) => text + '\n'
 
@@ -18,7 +19,7 @@ const reportedSentencesRowToTsvEntry = (row: ReportedSentencesRow): string =>
 
 const transformSentences = () =>
   new Transform({
-    transform(chunk: ReportedSentencesRow, encoding, callback) {
+    transform(chunk: ReportedSentencesRow, _encoding, callback) {
       chunk.sentence = chunk.sentence.replace(/\s/gi, ' ')
       chunk.reason = chunk.reason.replace(/\s/gi, ' ')
       this.push(reportedSentencesRowToTsvEntry(chunk), 'utf-8')
@@ -45,7 +46,7 @@ const fetchReportedSentencesForLocale =
   (includeClipsUntil: string) =>
   (releaseDirPath: string) =>
   (license?: string): TE.TaskEither<Error, void> => {
-    console.log('Fetching reported sentences for locale', locale)
+    logger.info('REPORTED', `[${locale}] Fetching reported sentences`)
 
     return TE.tryCatch(
       () =>

@@ -467,6 +467,8 @@ indicates-required = * Indikerar obligatoriska fält
 not-available-abbreviation = inte tillgänglig
 # Text shown on a button that can be clicked to copy text to the clipboard
 copy = Kopiera
+# Text shown on a button that can be clicked to close a modal or panel
+close = Stäng
 # Text shown on a button that can be clicked to cancel an action
 cancel = Avbryt
 # Text shown on a button that can be clicked to delete an item

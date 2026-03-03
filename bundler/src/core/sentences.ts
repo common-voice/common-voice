@@ -7,40 +7,27 @@ import { readerTaskEither as RTE, taskEither as TE } from 'fp-ts'
 import { streamingQuery } from '../infrastructure/database'
 import { getQueriesDir } from '../config/config'
 import { stringify } from 'csv-stringify'
-import { AppEnv } from '../types'
+import { AppEnv, ValidatedSentence, UnvalidatedSentence } from '../types'
 import { pipe } from 'fp-ts/lib/function'
-
-type ValidatedSentence = {
-  sentence_id: string
-  sentence: string
-  sentence_domain: string
-  source: string
-  is_used: string
-  clips_count: string
-}
-
-type UnvalidatedSentence = {
-  sentence_id: string
-  sentence: string
-  sentence_domain: string
-  source: string
-}
+import { logger } from '../infrastructure/logger'
 
 const logError = (err: unknown) => {
-  console.log(err)
+  logger.error('SENTENCES', String(err))
   return Error(String(err))
 }
 
+type SentenceRow = ValidatedSentence | UnvalidatedSentence
+
 const replaceWhitespaces = () =>
   new Transform({
-    transform(chunk: { sentence: string; source: string }, encoding, callback) {
-      const updatedClipRow = {
+    transform(chunk: SentenceRow, _encoding, callback) {
+      const updatedRow = {
         ...chunk,
         sentence: chunk.sentence.replace(/\s/gi, ' '),
         source: chunk.source.replace(/\s/gi, ' '),
       }
 
-      callback(null, updatedClipRow)
+      callback(null, updatedRow)
     },
     objectMode: true,
   })
@@ -69,7 +56,8 @@ const fetchSentences =
         path.join(releaseDirPath, locale, filename),
       )
 
-      console.log('Start streaming sentences result')
+      const label = validated ? 'validated' : 'unvalidated'
+      logger.info('SENTENCES', `[${locale}] START streaming ${label} sentences`)
 
       await pipeline(
         stream,
@@ -78,9 +66,7 @@ const fetchSentences =
         writeStream,
       )
 
-      console.log(
-        `Sentences for ${locale} finished streaming. Closing DB connection.`,
-      )
+      logger.info('SENTENCES', `[${locale}] FINISH streaming ${label} sentences. Closing DB connection.`)
       const endConnection = () =>
         new Promise<void>((resolve, reject) => {
           conn.end(err => {

@@ -36,7 +36,6 @@ missing-language = ޑޭޓާސެޓުގައި ތިބާގެ ބަސް ފެނިނުލ
 go-languages-page = ބަސްތަކުގެ ސަފުހާއަށް ދޭ
 ready-to-validate = ޖުމްލަ ފާސްކުރަން ތައްޔާރު؟
 more = އިތުރަށް
-close = ބަންދުކުރޭ
 download = ޑައުންލޯޑު
 data-download-button = ކޮމަންވޮއިސް ޑޭޓާ ޑައުންލޯޑުކުރޭ
 data-download-yes = އާން

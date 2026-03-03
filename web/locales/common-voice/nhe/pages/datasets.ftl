@@ -33,7 +33,6 @@ missing-language = Tla ashtikita mo idioma, shiya ipan to pagina de idiomas.
 go-languages-page = Ir a la página de idiomas
 ready-to-validate = ¿Listo para ayudar a validar oraciones?
 more = Más
-close = tsakua
 download = Descargar
 dataset-version = Versión
 sha256-checksum-copied = SHA256 Suma de verificación copiado!
