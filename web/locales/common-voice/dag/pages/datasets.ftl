@@ -39,6 +39,7 @@ feedback-q = A mali shɛli ni a yɛli?
 no-information = lahabali kani
 resource-nemo-info = NeMo</githubLink>™ nyɛla <docsLink>open-source toolkit</docsLink> zaŋ n-ti vihivihiriba ban be AI yɛltɔɣa ni.
 community-playbook = Zilenini Demabuku
+resource-playbook-info = <playbookLink>yala soŋsim tarisi<playbookLink>kukoya din laɣim sochenda ŋɔ zaa zuɣu,dunduŋni tuma tumbu n ti pahi ti ni yan niŋ shɛm zaŋgatabi ti fondi ni
 data-other-ted-name = TED-LIUM Corpus
 go-discourse = Chami fiila puuni
 go-languages-page = chami zuliya balli yaɣili

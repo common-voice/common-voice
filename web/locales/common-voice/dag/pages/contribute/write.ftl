@@ -101,6 +101,18 @@ too-many-files = Gbana pam
 small-batch-instruction = <icon> </icon> Zaŋmi salo satara bɔbili m pahi
 multiple-sentences-error = A kutooi  pahi n laɣim yɛltɔɣa yinga n ti
 exceeds-small-batch-limit-error = A kutooi zaŋ yɛltɔɣa din yaɣi tuhi pia n ti
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] di saha maa gariya. labi lihi dizuɣu minti yini.
+       *[other] di saha maa gaɣiya. labi lihi dizuɣu { $retryLimit }
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } din yi yɛltɔɣ' deebu
+       *[other] { $uploadedSentences } din yi yɛltɔɣ' deebu
+    }
 small-batch-sentences-rule-1 = Doli zalizi ŋan yina "Yɛltɔɣa dini ka n ni tooi zaŋ pahi?"
 small-batch-sentences-rule-2 = Pahimi yɛltɔɣa yini kuliga kam ni
 small-batch-sentences-rule-3 = Dihimi "kpɛma" bee "labima" yim n-waligi yɛltɔɣa sɔŋ kuli' gaŋ ni

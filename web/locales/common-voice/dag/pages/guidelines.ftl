@@ -147,6 +147,8 @@ code-switching-adding-question-criteria-2 = Di tu ni di mali anfaani
 # What to Avoid
 code-switching-avoid-subheader = Din tu ni a che
 code-switching-avoid-intro = Bɔhisi din ni tooi:
+# Reviewing a Question
+code-switching-review-subheader = labi yuli bɔhisi
 # Answering a Question
 code-switching-answer-subheader = Bɔhigu labsibu
 # Use standard spelling for each language

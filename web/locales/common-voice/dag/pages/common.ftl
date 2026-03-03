@@ -462,7 +462,7 @@ loading = di laɣinda....
 email-opt-in-info = M be  bɔri ka n nyari satara din teerima ni mali tahama sheŋɔ,n toontibo ni satari sheŋa din jandi Common Voice
 email-opt-in-info-title = Zammi a maŋa na ti pahi kukoya din mŋani taba taliŋ yuya ŋɔ ni
 email-opt-in-info-sub-with-challenge = Deemi satara nima din wuhiri yalmugsirili din teera toontibo ni lahabaya zaŋ kpa Common Voice polo
-email-opt-in-privacy-v2 = Piimi satara shaŋa a ni saɣi ti Mozila ni gbubi lahabali din nŋa kahigibu Mozila<privacyLink>ashili zaligu<privacyLink>
+email-opt-in-privacy-v2 = a yi saɣi ni a deei email nima a yaliya ni a saɣiya n ti Mozzila ni bɛ gbubi di lahabali shɛli bɛ ni buɣisi Mozzila puuni <privacyLink>ashili zalisi </privacyLink>
 indicates-required = Yaɣ'sheŋa din to asterisk (*) niŋ talahi
 not-available-abbreviation = N/A
 # Text shown on a button that can be clicked to copy text to the clipboard
@@ -478,13 +478,18 @@ delete = nyahima
 
 # Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>Ti bɔri</mark><br/><mark>a sɔŋsim!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = di tooi diri kamani dɔɔla milliyɔŋ yuuni pulini ni bɛ laɣim datasets ni di dundɔŋ kpaŋsibu zaŋ jɛndi bala kɔbiga ni shɛli 100+ ban zaŋ bɛ zaɣa zaa n kpa ti ni niŋdi binshɛɣu.<strong>a nini yi tiɣi nyin yooma, lahabali din beni- timi zuŋo</strong>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark> zaŋ mi CV ti</mark> <br/> <mark> a viɛhibu </mark>
+languages-donate-banner-cta-explanation = Common Voice laɣ' dibo yirila niriba kuŋzoo ni laɣ' shɛŋa din doya!ti  yuya ni ti zaŋ ti kpalanzuya gbuni shikuru baŋsim yaɣili,yalkadi zani ni ma ni ban vihigu yiri faktiri nim ni na.Common Voice ni ŋala yoli n ti sokam,amaa tɔhibu zaŋ ti dunduŋ ŋɔ mini zama laɣimbu laɣidibo yirila laɣ' kara wuhiti nŋala din soŋdi pam.
 localization-select =
     .label = Piimi Zuliya Balli
 
 ## MDC Announcement
 
+# Main text for MDC announcement. Text wrapped in <strong></strong> will be rendered with bold font
+announcement-mdc-text = <strong>common voice datasets palli</strong>pa nyɛla din niŋ bayana ni niriba tooi yihi  pagila ti dundɔŋ taba maa ni, Mozzila data deebu.pahima ka ti nya kɔbisita ni shɛli dunia zaa datasets, n kpuɣili ni zileli maa
 # Button text for MDC announcement
 announcement-mdc-button-text = Kpem Mozilla Data Collective
 # Aria text for button which opens MDC on a new page

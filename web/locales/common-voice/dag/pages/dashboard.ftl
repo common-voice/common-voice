@@ -18,6 +18,7 @@ validated-clips = Kukɔ'shɛŋa bɛ ni saɣi ti
 total-approved = Bɛ ni saɣiti shɛŋa zaa
 overall-accuracy = Din kam tam kalinli zuɣu
 set-visibility = mali niŋ n nyabu
+visibility-overlay-note = kpahim ma:Diyinig ka a mali shili ni nyabu;malzali ŋɔ ni tooi taɣi n yi<profileLink>profile page</profileLink>
 show-ranking = Wuhimi n zaa shee
 
 ## Custom Goals
@@ -54,6 +55,8 @@ activity-needed-calculation-fixed = Ninvuɣ' kɔbiga yi yaari satara kɔbiga kɔ
 how-many-per-day = M-bo, klipu dibaala dabisili puuni?
 how-many-a-week = M-bo,clipu dibaala dakulo puuni?
 which-goal-type = A bɔrimi ni a yɛli, n wum bee dizaa?
+receiving-emails-info = Saha ŋɔ a niŋ shili ni a deei satara kamani tahi shɛŋa din teera,n toon tibo teebu mini lahibali churi zaŋkpa kuko yinsi
+not-receiving-emails-info = Sahaŋɔ a niŋ shili ni a deei satara kamani tehi waɣila din teeira,n toontibo lahibali mini lahibali churi zaŋ kpa kuko din laɣim.
 n-clips-pluralized =
     { $count ->
         [one] yinga { $count }vulindigu
