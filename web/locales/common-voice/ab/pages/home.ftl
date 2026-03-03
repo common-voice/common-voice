@@ -83,6 +83,7 @@ press-and-stories = Апрессеи аҭоурыхқәеи
 community-and-languages = Аилазаареи абызшәақәеи
 coming-soon = Лассы
 about-us = Ҳара иҳазкны
+scripted-speech = ЗАА ИХИОУ АЖӘАҲӘА
 spontaneous-speech = АСПОНТАНТӘ ЖӘАҲӘА
 
 ## MENU ITEMS TOOLTIPS
@@ -98,6 +99,7 @@ about-menu-aria-label = Алахәыларақәеи, апрессеи, аҭоу
 about-us-menu-aria-label = «Ҳара иҳазкны» архиарақәа рыхкынҵа
 about-us-menu-item-aria-label = Апараметрқәа «Ҳара иҳазкны» рыхкынҵа
 partnerships-menu-item-aria-label = Common Voice аус ацура атәы еилышәкаа
+press-and-stories-menu-item-aria-label = Common Voice иадҳәалоу апресс-релизқәеи астатиақәеи шәрықәиҭха
 community-and-languages-menu-item-aria-label = Common Voice адгылара знаҭо аилазаареи абызшәақәеи ртәы еилышәкаа
 
 ## Hero section
