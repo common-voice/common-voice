@@ -3,6 +3,7 @@ speak-now = Швчважва
 speak-subtitle = Швбжьы гlахlышвтх
 record-cta = Йаншвцlауа швалага
 record-platform-not-supported = Йхlызшвыргlвах, швплатформа йахьчlвала цхърагlара гьамам.
+record-platform-webview = Йалныс ауыпI швара араъа социал сеть аццIага йту азцагала швгIатанагарныс. Швара йгIашврысабапуа аццIага абраузер бжьы гьаннацIум.
 record-platform-not-supported-desktop = Йгылу акомпьютерква рпны швзынхуштl ари йахъвнашвыргылыркlвын:
 record-platform-not-supported-ios-non-safari = iOS апны Safari гlашврысабап анцlара ашlашврышвырныс ахъаз...
 record-must-allow-microphone = Микрофон изин аутра атахъыпl.
