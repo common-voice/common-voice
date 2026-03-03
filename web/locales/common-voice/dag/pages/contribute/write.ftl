@@ -113,6 +113,12 @@ add-small-batch-success =
         [one] { $uploadedSentences } din yi yɛltɔɣ' deebu
        *[other] { $uploadedSentences } din yi yɛltɔɣ' deebu
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] zaɣa yini
+       *[other] din bala la
+    }
 small-batch-sentences-rule-1 = Doli zalizi ŋan yina "Yɛltɔɣa dini ka n ni tooi zaŋ pahi?"
 small-batch-sentences-rule-2 = Pahimi yɛltɔɣa yini kuliga kam ni
 small-batch-sentences-rule-3 = Dihimi "kpɛma" bee "labima" yim n-waligi yɛltɔɣa sɔŋ kuli' gaŋ ni

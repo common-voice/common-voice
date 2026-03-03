@@ -18,6 +18,7 @@ validated-clips = Kukɔ'shɛŋa bɛ ni saɣi ti
 total-approved = Bɛ ni saɣiti shɛŋa zaa
 overall-accuracy = Din kam tam kalinli zuɣu
 set-visibility = mali niŋ n nyabu
+visibility-explainer = Suhuyurilim ŋɔ maa n-nyɛ binshɛli din wuhiri a "leaderboard" nɛlinsi.  Di yi sɔɣi, a kpaŋmaŋa yɛn nyɛla bɛla shilo ni. Ka di gbunni nyɛla, a anfooni, yuli, ni a kpaŋmaŋa bi yɛn yina n pa a "leaderboard" maa zuɣu. nyɛla bɛla shilo ni. Leei baŋ ma, "leaderboard" labi walim tooi diri la ~{ $minutes } minti nima ni di laɣim taɣibu nima.
 visibility-overlay-note = kpahim ma:Diyinig ka a mali shili ni nyabu;malzali ŋɔ ni tooi taɣi n yi<profileLink>profile page</profileLink>
 show-ranking = Wuhimi n zaa shee
 
