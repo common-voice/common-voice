@@ -4,6 +4,7 @@ speak-subtitle = Швбжьы гlахlышвтх
 record-cta = Йаншвцlауа швалага
 record-platform-not-supported = Йхlызшвыргlвах, швплатформа йахьчlвала цхърагlара гьамам.
 record-platform-webview = Йалныс ауыпI швара араъа социал сеть аццIага йту азцагала швгIатанагарныс. Швара йгIашврысабапуа аццIага абраузер бжьы гьаннацIум.
+record-platform-not-supported-webview = АргIапсра абраузер гIашврысабапта амобил ргIапсгаквала швалацIараква швзыщтиуаштI…
 record-platform-not-supported-desktop = Йгылу акомпьютерква рпны швзынхуштl ари йахъвнашвыргылыркlвын:
 record-platform-not-supported-ios-non-safari = iOS апны Safari гlашврысабап анцlара ашlашврышвырныс ахъаз...
 record-must-allow-microphone = Микрофон изин аутра атахъыпl.
@@ -11,6 +12,14 @@ record-no-mic-found = Амикрофон гьгlанамуаутl.
 record-error-too-short = Абжьы айшысчвата йаннацlатl.
 record-error-too-long = Абжьы ауырачвата йаннацlатl.
 record-error-too-quiet = Абжьы псейспачвата йаннацlатl.
+record-error-empty-recording = Абжьы гьаннамцIатI. ХIшвыхIвахитI, швмикрофон швырхъвыхта ужвыгьи зны швапшых.
+record-error-unknown-format = Аудио аформат гьхIзыщаквмыргылтI. Йауашызтын датша браузеркI гIашврысабапта швапшы.
+record-error-uploaded-clip-corrupted =
+    ЙаншвцIаз абжьы зарар адзата гIацIцIуаштI. Ауи арат ашвхIаусыгIваквала йыншарныс ауаштI:
+    • абраузер гьаквшвум (датша браузеркI гIашврысабапта швапшы)
+    • амикрофон йа аудиодрайвер закI рльажьапI
+    • абжьы анашвцIуз асеть апышвтуан
+    Йауашызтын шIыц-шIыц йаншвцIах.
 record-cancel = Анцlара ныжьхра
 record-instruction = { $actionType }<recordIcon></recordIcon> уацlыхъван дута ажванахъа швгlапхьа
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> йаналгара

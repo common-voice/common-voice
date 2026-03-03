@@ -43,8 +43,14 @@ help-reach-hours-pluralized =
         [one] soŋmi ka di paaigi { $hours } awa { $language } zaŋ kpa a mammaŋa tahima.
        *[other] { "" }
     }
+help-reach-hours-general-pluralized =
+    { $hours ->
+        [one] Sɔŋmi Common Voice ka di paai { $hawanima } zuliya balli nam tahima din ni tum hawa puuni
+       *[other] Sɔŋmi Common Voice ka di paai { $hawanima } zuliya balli nam tahima din ni tum hawa puuni
+    }
 set-a-goal = Mali tahima
 cant-decide = kutooi pii
+activity-needed-calculation-fixed = Ninvuɣ' kɔbiga yi yaari satara kɔbiga kɔkuya dabisili puuni di ni tooi n-sɔŋ chɛ ka kɔkuya tooi yaai m paai hawanima pia ni ata. Na kuli n gbubi lala kpaŋmaŋa ŋɔ, Ti ni tooi n zaŋ chira ata n-nya hawanima tuhili.
 how-many-per-day = M-bo, klipu dibaala dabisili puuni?
 how-many-a-week = M-bo,clipu dibaala dakulo puuni?
 which-goal-type = A bɔrimi ni a yɛli, n wum bee dizaa?

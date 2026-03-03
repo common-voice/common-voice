@@ -127,6 +127,7 @@ about-playbook-how-validate-content-4 = Niriba ayi yi zaɣisi anfooni ŋmaa, di 
 ## How to access dataset
 
 about-playbook-how-access-dataset = Wula ka n yɛn niŋ nya ka zaŋ dataset tum tuma?
+about-playbook-how-access-dataset-content-1 = A ni tooi kpe<datasetsPage><datasetsPage><datasetsPage>,peemi ŋmahinli mini bali shaŋa a ni bora ka vuli li.kundu vihira<metadataLink>zaŋ dalim metada<metadataLink>kamani lahibali ni dihitabili tuma din doya.Di tu ni a doli sodoligu satara din puun vuli doya
 about-playbook-how-access-dataset-content-2 = Ayi' yundi n bori ASR kpatuɣa n a ŋmɛ, a ni tooi tuɣi ninvɛɣi shɛba ban bɛ a yaɣili <discourseLink> sodolgu ɔ zuɣu <discourseLink>.
 
 ## How are decisions made
@@ -143,4 +144,6 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Karimmi pam za
 ## How is Common Voice funded
 
 about-playbook-how-funded = Wula ka Common voice niŋda nyari liɣiri?
+about-playbook-how-funded-content-1 = Common Voice nŋala tuun zuɣu sheli din yina Mozila Foundation,Amarica501c3.Ban diri lala tuun zuɣu maa laɣ' dibo n nŋɛ<philantropicGrantLink>ni tohibu din yi niriba mini dunia zaa na
+about-playbook-how-funded-content-2 = a yi yɛn tuɣi n kpa bee n che databaes di diri liɣiri pam, ka pahili ti dundɔŋ maa dariza ni di chandi<africaMradiLink> zileli binyɛra </africaMradiLink>.
 about-playbook-how-funded-content-3 = Di yi niŋ ka a nyini bee a tuma duzuɣu bori ni yi suŋsi ti tuma ŋɔ, yi ni tooi <donateLink>tɔhi</donateLink> bee ka yi sabi n-ti  ti kpalaŋzuya laɣiŋgu <emailFragment>commonvoice@mozilla.com</emailFragment>.

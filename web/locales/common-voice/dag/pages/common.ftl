@@ -462,6 +462,7 @@ loading = di laɣinda....
 email-opt-in-info = M be  bɔri ka n nyari satara din teerima ni mali tahama sheŋɔ,n toontibo ni satari sheŋa din jandi Common Voice
 email-opt-in-info-title = Zammi a maŋa na ti pahi kukoya din mŋani taba taliŋ yuya ŋɔ ni
 email-opt-in-info-sub-with-challenge = Deemi satara nima din wuhiri yalmugsirili din teera toontibo ni lahabaya zaŋ kpa Common Voice polo
+email-opt-in-privacy-v2 = Piimi satara shaŋa a ni saɣi ti Mozila ni gbubi lahabali din nŋa kahigibu Mozila<privacyLink>ashili zaligu<privacyLink>
 indicates-required = Yaɣ'sheŋa din to asterisk (*) niŋ talahi
 not-available-abbreviation = N/A
 # Text shown on a button that can be clicked to copy text to the clipboard
