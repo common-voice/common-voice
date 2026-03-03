@@ -3,9 +3,9 @@
 welcome-to-spontaneous-speech = Baga Gara Dubbii Ufmaan Uumuu dhuftan
 # <br></br> represents a newline break
 wall-of-text = Common Voice waltajjii lammaffaa haasawa orgaanikii, ufmaan uumu, kan hin barreeffamne walitti qabuu irratti xiyyeeffate eegaluuf jira. Kunis hawaasni baay’een daataa saffisaan walitti qabuuf gargaara, akkasumas saayintistoota daataaf faayidaa qaba
-why-spontaneous-speech = Maaliif prototype Dubbii Ufmaan Uumuu/Spontaneous Speech kana ijaarre
+why-spontaneous-speech = Maaliif pirootootaaypi Dubbii Ufmaan Uumuu/Spontaneous Speech kana ijaarre
 # text wrapped with <mark></mark> will have a light red background
-why-card-1-text = <mark>Haala dubbii orgaanikii</mark> fi haala itti fayyadamaaf ni fayyada (fkn, yeroo beekamtiin dubbii namoota iskiriiptii hin qabnee fi afaan dubbii dubbatan waliin akka hojjetu barbaaddu) .
+why-card-1-text = <mark>Haala dubbii orgaanikii</mark> fi haala itti fayyadamaaf ni fayyada (fkn, yeroo beekamtiin dubbii namoota iskiriiptii hin qabnee fi afaan dubbii dubbatan waliin akka hojjetu barbaaddu).
 # text wrapped with <mark></mark> will have a light red background
 why-card-2-text = Deeggarsa fooyya’aa dhugaa afaanii kan akka afaan hiikuu fi <mark>koodii-jijjiirraaf</mark>
 # text wrapped with <mark></mark> will have a light red background
