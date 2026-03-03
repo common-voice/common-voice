@@ -1,5 +1,5 @@
 ---
-name: Bundler — Build and Push to GAR
+name: Build and Deploy Bundler to GAR
 
 on:
   workflow_dispatch:
@@ -97,6 +97,7 @@ jobs:
           workload_identity_provider: ${{ secrets.GCPV2_GITHUB_WORKLOAD_IDENTITY_PROVIDER }}
 
       - name: Authenticate with Docker Registry
+        id: docker-login
         uses: docker/login-action@v3
         with:
           registry: us-docker.pkg.dev
@@ -110,9 +111,9 @@ jobs:
           context: ./bundler
           file: ./bundler/Dockerfile
           tags: |
-            us-docker.pkg.dev/${{ vars.BUNDLER_GAR_IMAGE_PATH }}:${{ steps.vars.outputs.image_tag }}
-            us-docker.pkg.dev/${{ vars.BUNDLER_GAR_IMAGE_PATH }}:${{ steps.vars.outputs.latest_tag }}
-            us-docker.pkg.dev/${{ vars.BUNDLER_GAR_IMAGE_PATH }}:latest
+            us-docker.pkg.dev/${{ secrets.GAR_DOCKER_IMAGE_PATH }}/bundler:${{ steps.vars.outputs.image_tag }}
+            us-docker.pkg.dev/${{ secrets.GAR_DOCKER_IMAGE_PATH }}/bundler:${{ steps.vars.outputs.latest_tag }}
+            us-docker.pkg.dev/${{ secrets.GAR_DOCKER_IMAGE_PATH }}/bundler:latest
           push: true
           build-args: |
             COMMIT=${{ steps.vars.outputs.commit_sha }}
@@ -125,7 +126,7 @@ jobs:
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "| Field | Value |" >> $GITHUB_STEP_SUMMARY
           echo "|---|---|" >> $GITHUB_STEP_SUMMARY
-          echo "| **Image** | \`us-docker.pkg.dev/${{ vars.BUNDLER_GAR_IMAGE_PATH }}:${{ steps.vars.outputs.image_tag }}\` |" >> $GITHUB_STEP_SUMMARY
+          echo "| **Image** | \`us-docker.pkg.dev/${{ secrets.GAR_DOCKER_IMAGE_PATH }}/bundler:${{ steps.vars.outputs.image_tag }}\` |" >> $GITHUB_STEP_SUMMARY
           echo "| **Commit** | \`${{ steps.vars.outputs.commit_sha }}\` |" >> $GITHUB_STEP_SUMMARY
           echo "| **Ref** | \`${{ inputs.git_ref }}\` |" >> $GITHUB_STEP_SUMMARY
           echo "| **Environment** | ${{ inputs.deploy_environment }} |" >> $GITHUB_STEP_SUMMARY
