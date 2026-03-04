@@ -1,6 +1,6 @@
 action-click = Cuqaasi
 action-tap = Tuqi
-contribute = Gumaacha
+contribute = Gumaachi
 review = Gamaggama
 skip = Irra darbi
 shortcuts = Gabaabsiiwwan
@@ -42,7 +42,7 @@ submit-form-action = Galchi
 
 ## Reporting
 
-report = Gabaasa
+report = Gabaasi
 report-title = Gabaasa galchi
 report-ask = Hima kana dubbisuun rakkoon akka akka si mudate gabaabinaan barreessi
 report-offensive-language = Hima arrabsoo
