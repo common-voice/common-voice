@@ -82,6 +82,7 @@ reviewing-sentences-explanation-1 = Yɛltɔɣili maa yi doli sodola maa,nyin dih
 reviewing-sentences-explanation-2 = Yɛltɔɣili maa yi bi doli sodola ŋan do zuɣusaa ŋɔ,nyin dihimi"aayi" bia maa
 reviewing-sentences-explanation-3 = A yi ka dihitabili ni yɛltɔɣili maa, a ni tooi yaɣili ka chaŋ dim paya
 reviewing-sentences-explanation-4 = Yɛltɔɣa yi lahi kani ni a labivihi, nyin dimi suɣulo ka sɔŋ ti ka ti laɣisi yɛltɔɣa pam m-pahi.
+domain-explanation = Domain nŋala yali kpeeni din be yɛltɔɣa puuni,a ni tooi piigi sunsuuni
 
 ## Question collection ids
 
@@ -90,6 +91,7 @@ adding-questions = bohasi pahibu
 ## Question collection sidebar content
 
 what-makes-a-good-question-subheader = Bɔ n lee che ka bɔhigu nye bɔhi' maŋli
+what-makes-a-good-question-explanation = Bɔhagu din tu kamaata zaŋ ti sokam nuu timbu tuma din mali doya tumi ni di nŋɛ:
 what-makes-a-good-question-explanation-criteria-1 = Ka di mali gbaabu ni garigibu
 what-makes-a-good-question-explanation-criteria-2 = Di tu ni di mali anfaani
 easy-to-understand = Di gbaabu bi to
