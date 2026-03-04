@@ -26,3 +26,24 @@ request-language-error =
 request-for-scripted-speech-toggle = Gaaffii Haasaa Iskiriiptii
 request-for-spontaneous-speech-toggle = Gaaffii Dubbii Ofumaan Dubbachuu
 need-help-deciding-platform = Kam akka filattu murteessuuf gargaarsa barbaadduu?
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = <strong>Haasaa Iskiriiptii</strong> (akka aadaa Common Voice jettee beektu) hima afaan keetiin sagalee ol kaastee dubbisuu dandeessudha.
+need-help-deciding-platform-explanation-2 = <strong>Haasaa Ofumaan Uumuun</strong> kutaa haaraa Common Voice yoo ta’u, gaaffiidhaaf karaa caalaatti orgaanikii, afaaniin deebii kennuu dandeessu dha.
+need-help-deciding-platform-explanation-3 = Yoo afaan kee kutaa waltajjii lamaan keessaa tokkollee hin argine ta'e, lamaan isaanii filadhu.
+request-language-search-bar = Maqaa afaan keetii as irratti barreessuu jalqabuu dandeessa; yoo ammallee Common Voice irratti hin argamne ta'e, unka daataa afaan keessanii guutuu dandeessu.
+request-language-found-pontoon-not-launched =
+    Afaan kee duraanuu tarree afaanota Sagalee Waliigalaa keessa jira. 
+    <strong>Haasaa Iskiriiptii</strong> irratti eebba afaanii naannootti galchuudhaan haala mijeessuu dandeessa
+    walqunnamtii waltajjii <pontoonLink>asitti</pontoon
+request-language-found-cv-contribution =
+    Hurray! Afaan kee duraanuu Sagalee Waliigalaa <strong>Haasawa Iskiriiptii</strong> irratti kallattiin jira. 
+    <homePageLink>asitti</homePageLink> gumaachuu dandeessa.
+request-language-found-cv-sentences-lack =
+    Afaan kee duraanuu tarree afaanota Sagalee Waliigalaa keessa jira.
+    <strong>Haasaa Iskiriiptii</strong> irratti eebba afaanii haala mijeessuu dandeessa by
+    himoota gumaachan <sentencesContributionLink>asitti</sente
+request-language-found-spontaneous-speech =
+    Afaan keessan duraanuu Sagalee Waliigalaa <strong>Dubbii Ofumaa</strong> irratti kallattiin jira. 
+    Gumaacha gochuuf <spontaneousSpeechLink>as</spontaneousSpeechLink> cuqaasi: gumaacha/daataaseetii jijjiiruu hin dagatin
+request-language-already-available-scs = Haasaan Iskiriiptii Durayyuu Hojiirrara
+request-language-already-available-sps = Dubbii Ofumaan Uumuun Duraanis Hojiirrara
