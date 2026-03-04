@@ -27,13 +27,13 @@ For each locale the processing pipeline runs these steps:
 
 ## Deduplication and skip logic
 
-Before the pipeline runs, each locale job goes through a three-layer check:
+Before the pipeline runs, each locale job goes through a three-layer check in this order:
 
-1. **Redis done SET** (fast path, ~1 ms) -- if the locale is already in the `scripted:done:<release>` SET, skip immediately.
-2. **GCS file-existence check** (authoritative) -- if the tarball already exists in the bucket, skip and backfill the done SET so future checks use the fast path.
+1. **Redis done SET** (fast path, ~1 ms) -- if the locale is already in the `scripted:done:<release>` SET, skip immediately without hitting GCS.
+2. **GCS file-existence check** (authoritative) -- if the tarball already exists in the bucket, skip and backfill the done SET so future runs use the fast path.
 3. **Redis processing SET** (stall guard) -- an atomic `SADD` to `scripted:processing:<release>` returns 0 if another pod already claimed the locale, preventing duplicate processing from BullMQ stall re-dispatches. The processing SET is cleared by the init handler on each new run so that re-runs can reprocess failed locales.
 
-After the pipeline completes (success or failure), the locale is removed from the processing SET. On success it is added to the done SET.
+After the pipeline completes (success or failure), the locale is removed from the processing SET via `try/finally`. On success it is added to the done SET.
 
 ---
 

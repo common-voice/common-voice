@@ -27,15 +27,22 @@ export const createWorker: IO.IO<void> = () => {
           }
           logger.info('', dash)
 
-          // Clear the processing SET from any previous run so re-runs can
+          // Clear the processing SET(s) from any previous run so re-runs can
           // reprocess locales that were left in-progress when a pod died.
-          const processingKey = redisKeys.processing(s.releaseName)
-          const cleared = await redisClient.del(processingKey)
-          if (cleared > 0) {
-            logger.info(
-              'WORKER',
-              `Cleared processing guard for "${s.releaseName}" (previous run cleanup)`,
-            )
+          // processor.ts uses an effective releaseName (e.g. "<release>-licensed"
+          // for licensed jobs), so we clear all variants this run might use.
+          const processingNames = [s.releaseName]
+          if (s.licenseMode === 'licensed' || s.licenseMode === 'both') {
+            processingNames.push(`${s.releaseName}-licensed`)
+          }
+          for (const name of processingNames) {
+            const cleared = await redisClient.del(redisKeys.processing(name))
+            if (cleared > 0) {
+              logger.info(
+                'WORKER',
+                `Cleared processing guard for "${name}" (previous run cleanup)`,
+              )
+            }
           }
 
           logger.info('WORKER', 'Initializing jobs...')
