@@ -12,6 +12,7 @@ record-no-mic-found = مائکروفون نِش
 record-error-too-short = ریکارڈنگ لئی کُھٹِس۔
 record-error-too-long = ریکارڈنگ لئی ڙِگِس۔
 record-error-too-quiet = ریکارڈنگ لئی چُھوتاسیْ۔
+record-error-empty-recording = جوک گہ آڈِیو ریکارڈ نہ بِلِن۔ توموْ مائیکروفون چیک تِھیا آں ست دُوبار کوشِش تِھیا۔
 record-error-uploaded-clip-corrupted =
     څھے آڈیو ریکارڈنگ اُران معلوم بِینیْ۔ آئے سے آئے وجہ بوبانیْ:
     ۔ براؤزرے مطابقتے مسائل (کھاں گہ مُتوْ براؤزر استعمال تِھیا)
