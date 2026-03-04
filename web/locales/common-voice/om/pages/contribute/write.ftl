@@ -62,7 +62,7 @@ nature_environment = Uumamaa fi Naannoo
 news_current_affairs = Oduu fi Dhimmoota Yeroo Ammaa
 # Sentence Domain dropdown option
 technology_robotics = Teeknooloojii fi Roobootiksii
-sentence-variant-select-label = Gosa Vimaa
+sentence-variant-select-label = Gosa himaa
 sentence-variant-select-placeholder = Filannoo adda addaa (dirqama miti)
 sentence-variant-select-multiple-variants = Afaan waliigalaa / gosoota danuu
 
