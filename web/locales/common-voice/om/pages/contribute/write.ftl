@@ -134,8 +134,8 @@ add-small-batch-success =
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 small-batch-response-message =
     { $totalSentences ->
-        [one] { $uploadedSentences } keessaa himni 1 walitti qabameera. Himoota dhorkaman buufachuuf <downloadLink>as</downloadLink> cuqaasi.
-       *[other] { $uploadedSentences } keessaa himni { $totalSentences } walitti qabameera. Himoota dhorkaman buufachuuf <downloadLink>as</downloadLink> cuqaasi.
+        [one] 1 keessaa himni { $uploadedSentences } walitti qabameera. Himoota dhorkaman buufachuuf <downloadLink>as</downloadLink> cuqaasi.
+       *[other] { $totalSentences } keessaa himni { $uploadedSentences } walitti qabameera. Himoota dhorkaman buufachuuf <downloadLink>as</downloadLink> cuqaasi.
     }
 small-batch-sentences-rule-1 = Qajeelfamoota hordofi "Himoota akkamii dabaluun danda’a?" jedhu keessaa
 small-batch-sentences-rule-2 = Toora tokko irratti hima tokko galchi.
