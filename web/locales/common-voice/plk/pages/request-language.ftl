@@ -42,6 +42,14 @@ need-help-deciding-platform-explanation-1 = <strong> اسکرپٹڈ اسپیچ <
 need-help-deciding-platform-explanation-2 = <strong> بے ساختہ تقریر </strong> کامن وائس اےْ ایْک نو حصہ نوْ کُدی څھوْس سوالو جُواب بسکہ نامیاتی موْݜ کالے انداز دوبانَت۔
 need-help-deciding-platform-explanation-3 = اگر څھوْڑ پلیٹ فارمے کھاں گہ حصہ دہ تومیْ جِب لیل نہ بینیْ توْ تے بیئے منتخب تِھیا۔
 request-language-search-bar = ادی څھوْس تومی جِبے نُوم ٹیپ تھون شروع تھوبانَت؛ اگر آ چیئے بُجَیش Common Voice جیْ موجود نِش، توْ څھوْس تومیْ جِبے معلومات سے ساتیْ ایک فارم پُربانَت۔
-request-language-found-pontoon-not-launched = څھے جِب مُڇھو گیْ کامن وائسے جِبو لسٹ دہ ٹلِن۔
+request-language-found-pontoon-not-launched =
+    څھے جِب مُڇھو گیْ کامن وائسے جِبو لسٹ دہ ٹلِن۔
+    څھوس تومی جِب <strong> لانچ تھون فیسلیٹیٹ تِھیا سکرپٹڈ سپیچ </strong> لوکلائز تھے
+    پلیٹ فارم انٹرفیس <pontoonLink> ادی کانوْ </pontoonLink> انٹر فیس %60 موقامی بون پکارُن۔
+    متبادل شان گیْ، څھوْس صرف بنیادی سٹرنگز web/locales/en/pages/contribute/*.ftl’ مقامی جِبے مطابق ترتیب دوبانَت۔
+    (ادیئی پوْش فائلانیْ)، آں انٹر فیس اکوڑ اکے شیروع بو۔
+request-language-found-cv-contribution =
+    جِنی تِھیاǃ څھے جِب مُڇھوگیْ کامن وائس جی لائیونیْ <strong> سکرپٹڈ سپیچ </strong>
+    څھوْس کنٹریبِیوٹ تھوبانَت<homePageLink> ادی</homePageLink>
 request-language-already-available-scs = سکرپٹڈ اسپیچ مُڇھوگیْ دستِیابِن
 request-language-already-available-sps = خود رو (غیر سکرپٹڈ) اسپیچ مُڇھوْ گیْ دستیابن
