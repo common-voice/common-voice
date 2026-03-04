@@ -20,6 +20,7 @@ export type ProblemClip = {
   reason: ProblemClipReason
   status: ProblemClipStatus
   timestamp: string // ISO 8601 -- when the problem was detected
+  value?: number // duration (ms) for duration-based reasons; file size (bytes) for TOO_SMALL
 }
 
 export type ClipRow = {
