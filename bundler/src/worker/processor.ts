@@ -122,7 +122,7 @@ export const deriveJobEnv = (
       : undefined
 
   // Derived from releaseName by inserting "-delta" before the date portion.
-  // e.g. "cv-corpus-24.0-2025-12-05" → "cv-corpus-24.0-delta-2025-12-05"
+  // e.g. "cv-corpus-24.0-2025-12-05" -> "cv-corpus-24.0-delta-2025-12-05"
   // Licensed variant appends "-licensed" at the end.
   // The delta release must have been run beforehand with that exact name.
   const baseDeltaName = releaseName.replace(/-(\d{4}-\d{2}-\d{2})$/, '-delta-$1')
@@ -193,6 +193,24 @@ export const processLocale = async (job: Job<ProcessLocaleJob>) => {
     return
   }
 
+  // Guard against duplicate processing from BullMQ stall re-dispatch.
+  // SADD returns 0 if the member already exists (another pod is processing it).
+  const added = await redisClient.sadd(
+    redisKeys.processing(releaseName),
+    doneMember,
+  )
+  await redisClient.expire(
+    redisKeys.processing(releaseName),
+    RELEASE_LOG_KEY_TTL_SEC,
+  )
+  if (added === 0) {
+    logger.info(
+      'PROCESSOR',
+      `[${locale}] Already being processed by another pod, skipping`,
+    )
+    return
+  }
+
   const result = await processPipeline(env)()
   if (E.isRight(result)) {
     await redisClient.sadd(redisKeys.done(releaseName), doneMember)
@@ -200,5 +218,7 @@ export const processLocale = async (job: Job<ProcessLocaleJob>) => {
   } else {
     logger.error('PROCESSOR', String(result.left))
   }
+  // Remove from processing SET (done or failed -- either way, no longer active).
+  await redisClient.srem(redisKeys.processing(releaseName), doneMember)
   await flushReleaseLogs(env, E.isRight(result) ? 'success' : 'error')
 }

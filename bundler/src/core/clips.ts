@@ -380,9 +380,16 @@ const downloadPreviousRelease = (
     TE.bind('doesPrevReleaseExist', () =>
       doesFileExistInBucket(getDatasetBundlerBucketName())(storagePath),
     ),
-    TE.chainFirst(({ doesPrevReleaseExist }) =>
-      doesPrevReleaseExist ? downloadRelease : TE.right(constVoid()),
-    ),
+    TE.chainFirst(({ doesPrevReleaseExist }) => {
+      if (!doesPrevReleaseExist) {
+        logger.info(
+          'PREV-DL',
+          `Previous release tarball not found in GCS: ${storagePath}`,
+        )
+        return TE.right(constVoid())
+      }
+      return downloadRelease
+    }),
     TE.as(constVoid()),
   )
 }

@@ -4,9 +4,10 @@ import { pipe, constVoid } from 'fp-ts/lib/function'
 import { processLocale } from './processor'
 import { processVariants } from './processVariants'
 import { addJobsToReleaseQueue } from '../infrastructure/queue'
-import { getRedisUrl } from '../config/config'
+import { getRedisUrl, redisKeys } from '../config/config'
 import { generateStatistics } from './generateStatistics'
 import { logger } from '../infrastructure/logger'
+import { redisClient } from '../infrastructure/redis'
 
 export const createWorker: IO.IO<void> = () => {
   const worker = new Worker(
@@ -25,6 +26,18 @@ export const createWorker: IO.IO<void> = () => {
             logger.info('', `  PREV: ${s.previousReleaseName}`)
           }
           logger.info('', dash)
+
+          // Clear the processing SET from any previous run so re-runs can
+          // reprocess locales that were left in-progress when a pod died.
+          const processingKey = redisKeys.processing(s.releaseName)
+          const cleared = await redisClient.del(processingKey)
+          if (cleared > 0) {
+            logger.info(
+              'WORKER',
+              `Cleared processing guard for "${s.releaseName}" (previous run cleanup)`,
+            )
+          }
+
           logger.info('WORKER', 'Initializing jobs...')
           return pipe(
             job.data,
@@ -50,11 +63,20 @@ export const createWorker: IO.IO<void> = () => {
       connection: {
         host: getRedisUrl(),
       },
-      // Jobs can run for 24 h+. The default lockDuration of 30 s causes the stalled-job checker to reassign
-      // a job to a second pod after any brief Redis connectivity blip, resulting in duplicate processing.
-      // 5 minutes gives pods enough time to recover from transient disconnections
-      // while still re-queuing jobs within a reasonable window if a pod truly dies.
-      lockDuration: 300_000,
+      // ---------------------------------------------------------------------------
+      // Lock & stall settings.
+      //
+      // Redis uses allkeys-lru eviction, which can evict BullMQ lock keys and
+      // trigger false stall re-dispatches. Correctness is handled by the
+      // processing SET guard in processor.ts (SADD returns 0 -> instant skip),
+      // so re-dispatches are harmless no-ops.
+      //
+      // lockDuration is kept moderate to reduce "could not renew lock" log spam.
+      // removeOnComplete/Fail keeps Redis lean (fewer keys -> less LRU pressure).
+      // ---------------------------------------------------------------------------
+      lockDuration: 600_000, // 10 min -- reduces log spam from renewal failures
+      removeOnComplete: { age: 3_600, count: 1_000 }, // clean up after 1 hour
+      removeOnFail: { age: 3_600, count: 1_000 },
     },
   )
 
