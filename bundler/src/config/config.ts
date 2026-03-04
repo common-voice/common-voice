@@ -119,6 +119,14 @@ export const redisKeys = {
    * Used as a fast-path duplicate check before the authoritative GCS call.
    */
   done: (releaseName: string) => `${REDIS_PREFIX}:done:${releaseName}`,
+  /**
+   * SET of locale identifiers currently being processed.
+   * Guards against duplicate processing when BullMQ re-dispatches a job
+   * after its lock key is evicted by Redis LRU. Cleared by the init
+   * handler on each new run so that re-runs can reprocess failed locales.
+   */
+  processing: (releaseName: string) =>
+    `${REDIS_PREFIX}:processing:${releaseName}`,
 }
 
 const resolveLogLevel = (env: string): LogLevel => {

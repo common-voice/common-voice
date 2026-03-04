@@ -122,7 +122,7 @@ export const deriveJobEnv = (
       : undefined
 
   // Derived from releaseName by inserting "-delta" before the date portion.
-  // e.g. "cv-corpus-24.0-2025-12-05" → "cv-corpus-24.0-delta-2025-12-05"
+  // e.g. "cv-corpus-24.0-2025-12-05" -> "cv-corpus-24.0-delta-2025-12-05"
   // Licensed variant appends "-licensed" at the end.
   // The delta release must have been run beforehand with that exact name.
   const baseDeltaName = releaseName.replace(/-(\d{4}-\d{2}-\d{2})$/, '-delta-$1')
@@ -165,26 +165,31 @@ export const processLocale = async (job: Job<ProcessLocaleJob>) => {
   logger.info('', '-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --')
   logger.info('PROCESSOR', `[${locale}] ${env.type} job | ${env.license ?? 'unlicensed'} | -> ${uploadPath}`)
 
+  // The member key includes the license so that different license jobs for the
+  // same locale are tracked independently (e.g. "en|CC-BY 4.0" vs "en").
+  const doneMember = env.license ? `${locale}|${env.license}` : locale
+
+  // Fast-path: Redis done SET (~1 ms). Skips the GCS round-trip entirely.
+  const isDoneInRedis =
+    (await redisClient.sismember(redisKeys.done(releaseName), doneMember)) > 0
+
+  if (isDoneInRedis) {
+    logger.info('PROCESSOR', `[${locale}] Release ${uploadPath} exists already, skipping`)
+    env.clipCount = job.data.expectedClipCount ?? 0
+    await flushReleaseLogs(env, 'skipped')
+    return
+  }
+
+  // Authoritative check: GCS file existence. Backfill the done SET so future
+  // checks use the fast path.
   const releaseExistsAlready = await pipe(
     doesFileExistInBucket(getDatasetBundlerBucketName())(uploadPath),
     TE.getOrElse(() => T.of(false)),
   )()
 
-  // Fast-path duplicate check via Redis SET (in-memory, ~1 ms).
-  // Falls through to the authoritative GCS check if Redis has no record.
-  // The member key includes the license so that different license jobs for the
-  // same locale are tracked independently (e.g. "en|CC-BY 4.0" vs "en").
-  const doneMember = env.license ? `${locale}|${env.license}` : locale
-  const isDoneInRedis =
-    (await redisClient.sismember(redisKeys.done(releaseName), doneMember)) > 0
-
-  if (isDoneInRedis || releaseExistsAlready) {
-    if (!isDoneInRedis) {
-      // GCS says done but Redis doesn't know yet -- backfill the SET so future
-      // checks skip the GCS round-trip.
-      await redisClient.sadd(redisKeys.done(releaseName), doneMember)
-      await redisClient.expire(redisKeys.done(releaseName), RELEASE_LOG_KEY_TTL_SEC)
-    }
+  if (releaseExistsAlready) {
+    await redisClient.sadd(redisKeys.done(releaseName), doneMember)
+    await redisClient.expire(redisKeys.done(releaseName), RELEASE_LOG_KEY_TTL_SEC)
     logger.info('PROCESSOR', `[${locale}] Release ${uploadPath} exists already, skipping`)
     // Credit the expected clip count so the progress bar advances for skipped jobs.
     // Without this, clipsDone never reaches clipsTotal and the bar freezes.
@@ -193,12 +198,35 @@ export const processLocale = async (job: Job<ProcessLocaleJob>) => {
     return
   }
 
-  const result = await processPipeline(env)()
-  if (E.isRight(result)) {
-    await redisClient.sadd(redisKeys.done(releaseName), doneMember)
-    await redisClient.expire(redisKeys.done(releaseName), RELEASE_LOG_KEY_TTL_SEC)
-  } else {
-    logger.error('PROCESSOR', String(result.left))
+  // Guard against duplicate processing from BullMQ stall re-dispatch.
+  // SADD returns 0 if the member already exists (another pod is processing it).
+  const added = await redisClient.sadd(
+    redisKeys.processing(releaseName),
+    doneMember,
+  )
+  await redisClient.expire(
+    redisKeys.processing(releaseName),
+    RELEASE_LOG_KEY_TTL_SEC,
+  )
+  if (added === 0) {
+    logger.info(
+      'PROCESSOR',
+      `[${locale}] Already being processed by another pod, skipping`,
+    )
+    return
   }
-  await flushReleaseLogs(env, E.isRight(result) ? 'success' : 'error')
+
+  try {
+    const result = await processPipeline(env)()
+    if (E.isRight(result)) {
+      await redisClient.sadd(redisKeys.done(releaseName), doneMember)
+      await redisClient.expire(redisKeys.done(releaseName), RELEASE_LOG_KEY_TTL_SEC)
+    } else {
+      logger.error('PROCESSOR', String(result.left))
+    }
+    await flushReleaseLogs(env, E.isRight(result) ? 'success' : 'error')
+  } finally {
+    // Remove from processing SET (done or failed -- either way, no longer active).
+    await redisClient.srem(redisKeys.processing(releaseName), doneMember)
+  }
 }

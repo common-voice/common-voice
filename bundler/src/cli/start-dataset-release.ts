@@ -25,6 +25,17 @@ const startDatasetRelease = async (args: any) => {
     process.exit(1)
   }
 
+  // -d is required for full releases (datasheets filename never matches release name)
+  if (args.type === 'full' && !args.datasheetsFile) {
+    console.error(
+      'Error: -d (--datasheets-file) is required for -t full.\n' +
+        'The datasheets JSON filename does not match the release name,\n' +
+        'so it must always be specified explicitly.\n' +
+        "Example: -d 'datasheets-25.0-2026-03-09.json'",
+    )
+    process.exit(1)
+  }
+
   // -p is ignored for variants (source is always the same release, derived from -r)
   if (args.type === 'variants' && args.previousReleaseName) {
     console.warn(
@@ -106,7 +117,8 @@ program
   .option(
     '-d, --datasheets-file <file>',
     `
-    Datasheets JSON filename or full URL. Resolved against DATASHEETS_BASE_URL if not a URL.
+    Datasheets JSON filename or full URL. Required for full releases.
+    Resolved against DATASHEETS_BASE_URL if not a URL.
     Example filename: 'datasheets-25.0-2026-03-09.json'
     Example URL: 'https://raw.githubusercontent.com/common-voice/cv-datasheets/<commit>/releases/datasheets-25.0-2026-03-09.json'
     `,
