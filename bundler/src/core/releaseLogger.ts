@@ -10,6 +10,7 @@ import {
 import { logger } from '../infrastructure/logger'
 import { AppEnv } from '../types'
 import { formatCompact, formatDuration, formatEta, renderBar } from './utils'
+import { PROBLEM_CLIPS_HEADER } from './problemClips'
 
 const BUCKET = getDatasetBundlerBucketName()
 const uploadToDatasetBucket = uploadToBucket(BUCKET)
@@ -17,7 +18,6 @@ const uploadToDatasetBucket = uploadToBucket(BUCKET)
 const PROCESS_LOG_HEADER =
   'locale\trelease_type\tfinal_path\tstart_timestamp\tfinish_timestamp\tduration_sec\tduration\tnum_clips\tspeed\tstatus\tproblem_clips'
 
-const PROBLEM_CLIPS_HEADER = 'path\tlocale\treason\tstatus\ttimestamp\tvalue'
 
 /** Width of the ASCII progress bar (in characters). */
 const BAR_WIDTH = 100

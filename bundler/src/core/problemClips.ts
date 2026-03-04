@@ -155,7 +155,7 @@ export const runFilterProblemClips = (
 // runPushProblemClips
 // ---------------------------------------------------------------------------
 
-const PROBLEM_CLIPS_HEADER = 'path\tlocale\treason\tstatus\ttimestamp\tvalue'
+export const PROBLEM_CLIPS_HEADER = 'path\tlocale\treason\tstatus\ttimestamp\tvalue'
 
 /**
  * Full-release step that serialises `env.problemClips` and:

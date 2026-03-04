@@ -100,7 +100,7 @@ export const createWorker: IO.IO<void> = () => {
       logger.warn('WORKER', `Lock renewal failed - still computing: ${msg}`)
       return
     }
-    logger.error('WORKER', `Unexpected error: ${msg}`)
+    logger.error('WORKER', `Unexpected error: ${err?.stack ?? msg}`)
   })
 
   worker.on('completed', job => {
