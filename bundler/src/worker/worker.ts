@@ -91,6 +91,18 @@ export const createWorker: IO.IO<void> = () => {
     },
   )
 
+  worker.on('error', err => {
+    // BullMQ emits lock-renewal failures as Error objects when Redis LRU
+    // evicts lock keys.  These are harmless (processing SET guard handles
+    // correctness) -- log a short warning instead of a full stack trace.
+    const msg = String(err?.message ?? err)
+    if (msg.includes('could not renew lock')) {
+      logger.warn('WORKER', `Lock renewal failed - still computing: ${msg}`)
+      return
+    }
+    logger.error('WORKER', `Unexpected error: ${msg}`)
+  })
+
   worker.on('completed', job => {
     switch (job.name) {
       case 'init': {
