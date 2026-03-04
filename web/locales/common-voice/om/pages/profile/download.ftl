@@ -1,0 +1,30 @@
+## Profile Download
+
+download-q = Daataa kee buusuuf ni barbaaddaa?
+download-info = Maal buusuu akka barbaaddu nuu himi:-
+download-profile-title = Seenaa Ofii (Profile)
+download-profile-info = Iimeelii, maqaa fayyadamaa fi odeeffannoo lakkoofsa hawaasummaa (demographic) of keessaa qaba; battalatti argama.
+download-profile-size = Baay’ee xiqqaa (bytes muraasa)
+download-recordings-title = Waraabbiiwwan
+download-recordings-info = Faayiloota mp3 fi himoota walqabatan of keessaa qaba; qopheessuuf yeroo muraasa fudhachuu danda’a.
+download-recordings-size = Akkaataa idileen meeggaabaayitiiwwan
+download-recordings-unavailable = Gaaffiin biraa sagaleewwan kee adeemsarra waan jiruuf gaafachuu hin dandeessu.
+download-recently-requested = Guyyoota { $days } hunda sagaleewwan kee irratti buufannaa haaraa gaafachuu dandeessa.
+download-size = Hammamtaa
+download-selected = Fo'atameera
+download-start = Odeeffannoo seenaa ofii buusi
+download-request = Sagaleewwan waraabaman gaafadhu
+download-requests = Gaaffiiwwan buufannaa sagaleewwan duraanii
+download-requests-info = Yeroo sagaleewwan kee gaafattu, gara faayiloota ZIP tokko yookaan hedduutti walitti qabna. Gaaffiiwwan kee duraanii kanneen armaan gadiiti:
+download-request-button = Buusi
+download-request-title = { $created }
+download-request-description = Sagalee gabaabaa { $clipCount }, hammamtaa kuusaa waliigalaa { $size }. Yeroon itti xumuramu { $expires }.
+download-request-archive-single = Faayila ZIP tokko qofaa qaba
+download-request-archive-multiple = Gara faayiloota ZIP { $archiveCount }tti qoodameera.
+download-request-assembling-description = Faayiloonni kee walitti qabamaa jiru. Mee eeggadhu, booda irra deebi’ii ilaali.
+download-request-refresh-button = Haaromsi
+download-request-modal-title = Hidha buusaa
+download-request-modal-description = Shaarneerama faayiloota ZIP buusuuf asitti argamu.
+download-request-link-text = { $total } keessaa  { $offset }# ZIP
+download-request-metadata-link = Barruu himootaa
+download-request-link-single = Akkasumas URL toora-qixa gara bulchaa buusaa kee jaallattuutti waraabuu fi maxxansuu dandeessa. Sa’aatii 12 keessatti ni dhuma; garuu yeroo kamiyyuu Shaarneeramtoota haaraa uumuuf gara fuula kanaatti deebi’uu dandeessa.
