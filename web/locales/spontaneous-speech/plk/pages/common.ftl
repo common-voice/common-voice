@@ -26,6 +26,10 @@ contribute = تعاون تِھیا
 # Button text which appears when there are no more resources
 continue-with-skipped = Skipped سے ساتیْ جاری پھتِیا
 
+## Common aria-labels
+
+keyboard-shortcuts-button-aria-label = کی بورڈے شارٹ کٹ پشِیا
+
 ## Navbar
 
 question = سوال
@@ -53,3 +57,27 @@ language-search-placeholder = جِبے کِرِیا اوروڑ تِھیا
 language-search-aria-label = جِبے کِرِیا اوروڑ تِھیا
 language-search-label = صرف ڈیٹاسیٹ اےْ شراکتے جِب بدل تِھینوْ
 language-search-no-results = کھاں گہ جِب نہ ہشِلِن
+
+## Transcription Player - Mode Buttons
+
+# Transcription Player - Automatic Mode
+transcription-mode-auto = آٹو
+# Player - slower
+player-speed-slow = چُھوت
+# Player - normal speed
+player-speed-normal = نارمل
+# Player - faster
+player-speed-fast = جِنی
+
+## Transcription Player Controls - Keyboard Shortcuts
+
+# Player control shortcut for play/pause: pressed with Ctrl/Cmd
+player-play-pause-shortcut = پ
+player-play-pause-shortcut-key = کنٹرول/کمانڈ+پ
+player-play-pause-shortcut-name = پلے/رٹِیا
+# Player control shortcut to go back 5 seconds: pressed with Ctrl/Cmd
+player-skip-backward-shortcut = 8
+player-skip-backward-shortcut-key = کنڑول/کمانڈ + 8
+player-skip-backward-shortcut-name = پتوڑ
+# Player control shortcut to go forwards 5 seconds: pressed with Ctrl/Cmd
+player-skip-forward-shortcut = 9
