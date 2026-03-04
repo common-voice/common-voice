@@ -264,7 +264,7 @@ describe('flushReleaseLogs', () => {
       .mockResolvedValueOnce(['log-row'])
     await flushReleaseLogs(makeEnv(), 'success')
     const header = (mockUploadFn.mock.calls[0][0] as Buffer).toString('utf-8').split('\n')[0]
-    expect(header).toBe('path\tlocale\treason\tstatus\ttimestamp')
+    expect(header).toBe('path\tlocale\treason\tstatus\ttimestamp\tvalue')
   })
 
   it('swallows errors without throwing (protects the locale job)', async () => {

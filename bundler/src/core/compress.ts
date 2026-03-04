@@ -39,8 +39,14 @@ const tarPromise = async (
   cwd: string,
   prefix: string,
 ) => {
+  // Archives are ~94% MP3 (already compressed, ~1% shrink from gzip)
+  // and ~6% TSV metadata (compressible). Higher gzip levels burn CPU
+  // re-scanning incompressible MP3 bytes for negligible gain:
+  //   Level 1: ~15 min for en (1.1M clips), archive ~96.4% of raw
+  //   Level 6: ~53 min for en,              archive ~95.8% of raw
+  // That's 3.5x slower for 0.6% smaller output. Level 1 everywhere.
   const readStream = tar.c(
-    { gzip: true, cwd, prefix },
+    { gzip: { level: 1 }, cwd, prefix },
     pathsToCompress,
   )
 

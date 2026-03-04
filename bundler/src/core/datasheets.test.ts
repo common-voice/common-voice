@@ -344,7 +344,7 @@ describe('buildReplacementMap', () => {
     })
     const map = buildReplacementMap(basePayload, data, 'de', 'cv-corpus-25.0')
     expect(map['SENTENCES_SAMPLE']).toBe(
-      '1. Hello world\n2. Good morning\n3. How are you',
+      '1. *Hello world*\n2. *Good morning*\n3. *How are you*',
     )
   })
 

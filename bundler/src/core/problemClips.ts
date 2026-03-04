@@ -76,6 +76,7 @@ export const runFilterProblemClips = (
               reason: ProblemClipReason.DURATION_ZERO,
               status: 'EXCLUDED',
               timestamp: now,
+              value: 0,
             })
             excludedClips.add(clip)
           } else if (durationMs > MAX_AUDIO_DURATION_MS) {
@@ -85,6 +86,7 @@ export const runFilterProblemClips = (
               reason: ProblemClipReason.TOO_LONG,
               status: 'EXCLUDED',
               timestamp: now,
+              value: durationMs,
             })
             excludedClips.add(clip)
             excludedDurationMs += durationMs
@@ -95,6 +97,7 @@ export const runFilterProblemClips = (
               reason: ProblemClipReason.LONG,
               status: 'WARN',
               timestamp: now,
+              value: durationMs,
             })
           } else if (durationMs < MIN_AUDIO_DURATION_MS) {
             problemClips.push({
@@ -103,6 +106,7 @@ export const runFilterProblemClips = (
               reason: ProblemClipReason.TOO_SHORT,
               status: 'WARN',
               timestamp: now,
+              value: durationMs,
             })
           }
         }
@@ -151,7 +155,7 @@ export const runFilterProblemClips = (
 // runPushProblemClips
 // ---------------------------------------------------------------------------
 
-const PROBLEM_CLIPS_HEADER = 'path\tlocale\treason\tstatus\ttimestamp'
+export const PROBLEM_CLIPS_HEADER = 'path\tlocale\treason\tstatus\ttimestamp\tvalue'
 
 /**
  * Full-release step that serialises `env.problemClips` and:
@@ -177,8 +181,8 @@ export const runPushProblemClips = (): RTE.ReaderTaskEither<
 
       return TE.tryCatch(async () => {
         const rows = problemClips.map(
-          ({ path: p, locale: l, reason, status, timestamp }) =>
-            `${p}\t${l}\t${reason}\t${status}\t${timestamp}`,
+          ({ path: p, locale: l, reason, status, timestamp, value }) =>
+            `${p}\t${l}\t${reason}\t${status}\t${timestamp}\t${value ?? ''}`,
         )
 
         // 1. Write per-locale TSV to local filesystem.

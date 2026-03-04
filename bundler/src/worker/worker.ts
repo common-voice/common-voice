@@ -3,7 +3,7 @@ import { io as IO, taskEither as TE } from 'fp-ts'
 import { pipe, constVoid } from 'fp-ts/lib/function'
 import { processLocale } from './processor'
 import { processVariants } from './processVariants'
-import { addJobsToReleaseQueue } from '../infrastructure/queue'
+import { addJobsToReleaseQueue, cleanStaleJobs } from '../infrastructure/queue'
 import { getRedisUrl, redisKeys } from '../config/config'
 import { generateStatistics } from './generateStatistics'
 import { logger } from '../infrastructure/logger'
@@ -44,6 +44,10 @@ export const createWorker: IO.IO<void> = () => {
               )
             }
           }
+
+          // Remove stale completed/failed BullMQ jobs so deterministic IDs
+          // don't silently block queue.add() on re-runs.
+          await cleanStaleJobs()
 
           logger.info('WORKER', 'Initializing jobs...')
           return pipe(
@@ -86,6 +90,18 @@ export const createWorker: IO.IO<void> = () => {
       removeOnFail: { age: 3_600, count: 1_000 },
     },
   )
+
+  worker.on('error', err => {
+    // BullMQ emits lock-renewal failures as Error objects when Redis LRU
+    // evicts lock keys.  These are harmless (processing SET guard handles
+    // correctness) -- log a short warning instead of a full stack trace.
+    const msg = String(err?.message ?? err)
+    if (msg.includes('could not renew lock')) {
+      logger.warn('WORKER', `Lock renewal failed - still computing: ${msg}`)
+      return
+    }
+    logger.error('WORKER', `Unexpected error: ${err?.stack ?? msg}`)
+  })
 
   worker.on('completed', job => {
     switch (job.name) {

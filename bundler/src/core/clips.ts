@@ -310,6 +310,7 @@ const fetchAllClipsForLocale = (
           reason: ProblemClipReason.TOO_SMALL,
           status: 'EXCLUDED',
           timestamp: new Date().toISOString(),
+          value: fileSize,
         })
         continue
       }

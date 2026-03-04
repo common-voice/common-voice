@@ -580,7 +580,7 @@ export const buildReplacementMap = (
   // Sentences sample
   if (data.sentencesSample.length > 0) {
     map['SENTENCES_SAMPLE'] = data.sentencesSample
-      .map((s, i) => `${i + 1}. ${s}`)
+      .map((s, i) => `${i + 1}. *${s.replace(/\*/g, '\\*')}*`)
       .join('\n')
   }
 
