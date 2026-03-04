@@ -42,12 +42,19 @@ RUN npm run build
 # =======================================
 FROM node:24-trixie-slim
 
+ARG UID=10001
+ARG GID=10001
+
 # Minimal runtime deps: python3 interpreter for CorporaCreator
 RUN apt-get update && apt-get install -y --no-install-recommends \
     python3 \
     && rm -rf /var/lib/apt/lists/*
 
 EXPOSE 9001
+
+# Non-root user matching K8s security context (same pattern as main app)
+RUN groupadd -g $GID app && \
+    useradd -g $GID -u $UID -m -d /code -s /usr/sbin/nologin app
 
 # mp3-duration-reporter binary (compiled Rust, accessible to all users)
 COPY --from=builder /usr/local/bin/mp3-duration-reporter /usr/local/bin/
@@ -56,10 +63,10 @@ COPY --from=builder /usr/local/bin/mp3-duration-reporter /usr/local/bin/
 COPY --from=builder /opt/venv /opt/venv
 ENV PATH="/opt/venv/bin:$PATH"
 
-# Application code — owned by node user, no slow chown -R needed
-WORKDIR /home/node/code
-COPY --from=builder --chown=node:node /home/node/code ./
+# Application code — owned by app user (UID 10001)
+WORKDIR /code
+COPY --from=builder --chown=app:app /home/node/code ./
 
-USER node
+USER app
 
 CMD ["npm", "run", "start"]
