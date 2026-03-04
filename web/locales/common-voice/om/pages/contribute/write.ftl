@@ -128,8 +128,8 @@ rate-limit-message-seconds =
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $totalSentences ->
-        [one] { $uploadedSentences } keessaa himni 1 walitti qabame.
-       *[other] { $uploadedSentences } keessaa himni { $totalSentences } walitti qabame.
+        [one] 1 keessaa himni { $uploadedSentences } walitti qabame.
+       *[other] { $totalSentences } keessaa himni { $uploadedSentences } walitti qabame.
     }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 small-batch-response-message =
