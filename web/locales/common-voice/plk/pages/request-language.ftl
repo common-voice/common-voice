@@ -42,5 +42,6 @@ need-help-deciding-platform-explanation-1 = <strong> اسکرپٹڈ اسپیچ <
 need-help-deciding-platform-explanation-2 = <strong> بے ساختہ تقریر </strong> کامن وائس اےْ ایْک نو حصہ نوْ کُدی څھوْس سوالو جُواب بسکہ نامیاتی موْݜ کالے انداز دوبانَت۔
 need-help-deciding-platform-explanation-3 = اگر څھوْڑ پلیٹ فارمے کھاں گہ حصہ دہ تومیْ جِب لیل نہ بینیْ توْ تے بیئے منتخب تِھیا۔
 request-language-search-bar = ادی څھوْس تومی جِبے نُوم ٹیپ تھون شروع تھوبانَت؛ اگر آ چیئے بُجَیش Common Voice جیْ موجود نِش، توْ څھوْس تومیْ جِبے معلومات سے ساتیْ ایک فارم پُربانَت۔
+request-language-found-pontoon-not-launched = څھے جِب مُڇھو گیْ کامن وائسے جِبو لسٹ دہ ٹلِن۔
 request-language-already-available-scs = سکرپٹڈ اسپیچ مُڇھوگیْ دستِیابِن
 request-language-already-available-sps = خود رو (غیر سکرپٹڈ) اسپیچ مُڇھوْ گیْ دستیابن

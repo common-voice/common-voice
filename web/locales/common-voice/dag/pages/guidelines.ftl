@@ -82,6 +82,7 @@ adding-sentences-subheader-speakable = Din tooi yɛli
 adding-sentences-subheader-numbers = kalinli
 adding-sentences-subheader-abbreviations = bachi ŋmahi mini bachi ŋma'kurita
 adding-sentences-subheader-punctuation = Bihibahibu
+adding-sentences-subheader-special-characters = Bachi gahinda mini tinduya bachinima
 adding-sentences-subheader-offensive-content = Barina lahabali
 reviewing-sentences-explanation-1 = Yɛltɔɣili maa yi doli sodola maa,nyin dihimi "iin" bia maa
 reviewing-sentences-explanation-2 = Yɛltɔɣili maa yi bi doli sodola ŋan do zuɣusaa ŋɔ,nyin dihimi"aayi" bia maa
@@ -109,6 +110,7 @@ dont-add-subheader = Di pahi
 culturally-specific-questions = kaya ni ta-ada bɔhisi
 culturally-specific-questions-explanation = Bɔhisi shɛŋa din n-jɛndi kaya ni taada, bee din n tɛhiri pam n-tiri ŋun labisiri maa
 process-steps = Soya
+offensive-content-sensitive-information = yɛltɔɣa tula bee hankali yɛltɔɣa
 example-questions-subheader = Kotomsi bɔhisi
 example-questions-explanation-1 = A ni tooi nya <examplePromptsLink> kɔbigi ni pishi kotomsi gbaŋ ŋɔ ni.</examplePromptsLink>
 
@@ -116,8 +118,10 @@ example-questions-explanation-1 = A ni tooi nya <examplePromptsLink> kɔbigi ni 
 
 # Answer Questions
 answer-questions = Labisimi bɔhisi
+answer-questions-subheader = shɛli kam sɔŋsim
 answer-questions-tip-1 = Yaami li luɣishɛli din fo.
 answer-questions-tip-2 = piimi luɣishɛli intaneeti ni be.
+answer-questions-tip-3b = kpaŋmi a maŋa ka a gbubi a saɣibu a suhuni kamani minti chɛɣu
 answer-questions-tip-4 = Chɛli yɛltɔɣa kana, yɛltɔɣa fina, bee yɛltɔɣa yoya
 # Transcribe the Audio
 transcribe-the-audio = Sabimi kukɔli maa.
