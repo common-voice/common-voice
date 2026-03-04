@@ -59,6 +59,23 @@ const getLicensedLocales = (settings: Settings) =>
     ? fetchDeltaLicensedLocales(settings.from, settings.until)
     : fetchLocalesWithLicensedClips(settings.from, settings.until)
 
+/**
+ * Remove stale completed/failed BullMQ jobs from previous runs.
+ * Without this, deterministic job IDs cause queue.add() to silently no-op
+ * when a previous run's completed jobs still exist in Redis.
+ * Also drains accumulated garbage from old code that lacked removeOnComplete.
+ */
+export const cleanStaleJobs = async (): Promise<void> => {
+  const completed = await datasetReleaseQueue.clean(0, 0, 'completed')
+  const failed = await datasetReleaseQueue.clean(0, 0, 'failed')
+  if (completed.length > 0 || failed.length > 0) {
+    logger.info(
+      'QUEUE',
+      `Cleaned ${completed.length} completed + ${failed.length} failed stale jobs`,
+    )
+  }
+}
+
 export const addJobsToReleaseQueue = (settings: Settings) =>
   pipe(
     TE.Do,

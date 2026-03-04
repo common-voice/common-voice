@@ -3,7 +3,7 @@ import { io as IO, taskEither as TE } from 'fp-ts'
 import { pipe, constVoid } from 'fp-ts/lib/function'
 import { processLocale } from './processor'
 import { processVariants } from './processVariants'
-import { addJobsToReleaseQueue } from '../infrastructure/queue'
+import { addJobsToReleaseQueue, cleanStaleJobs } from '../infrastructure/queue'
 import { getRedisUrl, redisKeys } from '../config/config'
 import { generateStatistics } from './generateStatistics'
 import { logger } from '../infrastructure/logger'
@@ -44,6 +44,10 @@ export const createWorker: IO.IO<void> = () => {
               )
             }
           }
+
+          // Remove stale completed/failed BullMQ jobs so deterministic IDs
+          // don't silently block queue.add() on re-runs.
+          await cleanStaleJobs()
 
           logger.info('WORKER', 'Initializing jobs...')
           return pipe(
