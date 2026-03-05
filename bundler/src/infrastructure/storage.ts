@@ -25,11 +25,13 @@ const streamUpload =
         new Promise<void>((resolve, reject) => {
           const file = storage.bucket(bucket).file(path)
           const shortPath = path.includes('/') ? path.substring(path.indexOf('/') + 1) : path
-          logger.debug('STORAGE', `Uploading ${shortPath}`)
+          const uploadStart = Date.now()
+          logger.info('STORAGE', `Uploading ${shortPath}`)
           data
             .pipe(file.createWriteStream())
             .on('finish', () => {
-              logger.info('STORAGE', `Uploaded ${shortPath}`)
+              const elapsed = ((Date.now() - uploadStart) / 1000).toFixed(1)
+              logger.info('STORAGE', `Uploaded ${shortPath} (${elapsed}s)`)
               resolve()
             })
             .on('error', (err: Error) => {
