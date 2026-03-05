@@ -59,15 +59,27 @@ const runCorporaCreatorPromise = (locale: string, releaseDirPath: string) =>
       const last = parts[parts.length - 1].trim()
       if (last) logger.info('CC', `[${locale}] ${last}`)
     })
+
+    // Buffer stderr -- pandas.apply and other warnings produce many lines.
+    // Log only first + last to avoid clutter.
+    let stderrBuf = ''
     cc.stderr.on('data', (data: Buffer) => {
-      const raw = data.toString().trimEnd()
-      if (!raw) return
-      const parts = raw.split('\r')
-      const last = parts[parts.length - 1].trim()
-      if (last) logger.warn('CC', `[${locale}] ${last}`)
+      stderrBuf += data.toString()
     })
 
-    cc.on('close', () => resolve())
+    cc.on('close', () => {
+      const lines = stderrBuf
+        .split('\n')
+        .map(l => l.trim())
+        .filter(Boolean)
+      if (lines.length > 0) {
+        logger.info('CC', `[${locale}] ${lines[0]}`)
+        if (lines.length > 1) {
+          logger.info('CC', `[${locale}] ${lines[lines.length - 1]}`)
+        }
+      }
+      resolve()
+    })
     cc.on('error', reason => reject(reason))
   })
 
