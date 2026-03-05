@@ -157,16 +157,29 @@ transcribe-the-audio-subheader-4-explanation-1-example = O yuli nyɛla <underlin
 ## Code-Switching
 
 code-switching = Zuliya yɛltɔɣa taɣibu
+adding-a-question = bɔhigu pahibu
+# Adding a Question
+code-switching-adding-question-subheader = Bɔ n lee che ka bɔhigu nye bɔhi' maŋli
+code-switching-adding-question-criteria-1 = maami ani m baŋ ka saɣi ti
 code-switching-adding-question-criteria-2 = Di tu ni di mali anfaani
+# What types of questions to add
+code-switching-types-subheader = Bɔhigu bal' bo n lee tu ni di pahi
 # What to Avoid
 code-switching-avoid-subheader = Din tu ni a che
 code-switching-avoid-intro = Bɔhisi din ni tooi:
+code-switching-dont-header = Mira
 # Reviewing a Question
 code-switching-review-subheader = labi yuli bɔhisi
 # Answering a Question
 code-switching-answer-subheader = Bɔhigu labsibu
+code-switching-answer-bullet-4 = di ka labisibu nin niŋ
+# Don’t Overthink or Overedit
+code-switching-answer-dont-subheader = di tiɛhi pam bee di tɔhi sabi pam
 # Use standard spelling for each language
 code-switching-spelling-header = Zaŋ mi bachi yiɣisibu zaɣa maŋli n-ti balli kam
+code-switching-pronunciation-explanation-example-1 = English: /ˈkeɪ.bəl/
+code-switching-pronunciation-explanation-example-2 = Spanish: /ˈkable/
+code-switching-not-tag-proper-names-example-1 = Niriba: Maria, John
 code-switching-not-tag-proper-names-example-2 = Tiŋsi: Los Angeles, Florida
 code-switching-not-tag-interjections-example-2 = "Aayi"
 code-switching-not-tag-interjections-example-3 = "Iin"
