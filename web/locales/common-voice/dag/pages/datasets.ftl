@@ -65,6 +65,7 @@ data-download-button = Yaami binshɛli din nyɛ kukɔli yaabu.
 data-download-yes = Iin
 data-download-deny = Aayi
 data-download-license = Shahara
+data-download-modal = A niŋla shili ni a mali a vulibu zali
 data-subtitle = Ti maalindila kɔkuya kpanjɔɣu shɛli din yooi n-ti sokam ka daadam bia kam ni tooi n-zaŋ li n-wuhi maʒina shɛŋa din ni tooi n-yɛli yɛltɔɣa.
 data-get-started = <speechBlogLink>Pilimi ni yɛltɔɣa bangbu</speechBlogLink>
 data-other-title = Kukoli kpajuɣa shaŋa din pahi
