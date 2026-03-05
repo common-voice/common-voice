@@ -109,8 +109,10 @@ length-explanation = Bɔhigu maa tu ni di tooi labisi ni yɛltɔɣa bela
 dont-add-subheader = Di pahi
 culturally-specific-questions = kaya ni ta-ada bɔhisi
 culturally-specific-questions-explanation = Bɔhisi shɛŋa din n-jɛndi kaya ni taada, bee din n tɛhiri pam n-tiri ŋun labisiri maa
+length-avoid-explanation = Bɔhigu shɛŋa  din labisibu yɛn niŋ tɔm ti so ni o labisi minti anu sunsuuni (di yi kuli galisi vulibu pam)
 process-steps = Soya
 offensive-content-sensitive-information = yɛltɔɣa tula bee hankali yɛltɔɣa
+offensive-content-sensitive-information-explanation-explanation-1 = Bɔhishɛŋa din bɔri mammaŋa labisibu baŋbu lahibali
 example-questions-subheader = Kotomsi bɔhisi
 example-questions-explanation-1 = A ni tooi nya <examplePromptsLink> kɔbigi ni pishi kotomsi gbaŋ ŋɔ ni.</examplePromptsLink>
 
