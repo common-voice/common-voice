@@ -69,7 +69,7 @@ export type Settings = {
   languages: string[]
   licenseMode?: LicenseMode
   modality?: Modality
-  datasheetsFile?: string // e.g. "datasheets-25.0-2026-03-06.json"
+  datasheetsFile?: string // e.g. "datasheets-2026-03-06.json"
 }
 
 export type DatasheetLocalePayload = {
