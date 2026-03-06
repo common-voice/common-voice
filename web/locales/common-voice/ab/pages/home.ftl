@@ -144,7 +144,10 @@ ask-mozilla-share-content = Ииасхьоу ма иҟалараны иҟоу а
 ask-mozilla-share-action = Шәеиԥылара атәы ишәҳәа
 download-contribution-certificate = Шәалахәра асертификат аҭгара
 download-contribution-certificate-content = Шәусмҩаԥгатәқәа рзы, ма шәхазы асертификат ҭыжәга, Common Voice азы алагала ҟашәҵазар — шәара шәыда уи ҟалашьа аиуӡомызт!
+# label for button
+download-contribution-certificate-action = Шәсертификат жәга
 contribute-github = GitHub аҿы алагала аҟаҵара
+contribute-github-content = Ари апроект шәара шәеиԥш иҟоу ауаа рыда иалыршахомызт. 🎉 Common Voice аҽалархәразы азнеишьақәа рацәоуп — шәлагала ҟашәҵарц азы апрограммаҟаҵара шәылымшозаргьы ҟалоит!
 # label for button
 contribute-github-action = GitHub аҿы алагала аҟаҵара
 
@@ -177,6 +180,10 @@ press-and-stories-link = Апрессеи астатиақәеи
 
 partner-section-title = Ҳлахәылаҩны аҟалара
 # Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Атехнологиатә еилахәырақәа</bold> - абызшәарацәатә, ԥхьаҟа ицо ИА-екосистемазы иаарту адыррақәа реизга аԥҵаразы ԥарала ацхыраара ҟашәҵала
+# Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-civil-society = <bold>Ауаажәларратә еилазаареи аҭҵааҩцәеи</bold> - ихәарҭоу адыррақәа реизга хәыда-ԥсада иаԥышәҵала, иқәшәыргылала, еимыжәдала
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Агәыҳалалра</bold> - аҭыԥантәи аинновациақәеи аҿиареи шәрыцхраарц азы адыррақәа реизга аԥҵараан ԥарала ацхыраара ҟашәҵала
 # icon is an arrow that points to the right
 get-in-touch-button = Шәыҽҳамажәда <icon></icon>
