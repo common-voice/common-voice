@@ -173,8 +173,10 @@ code-switching-avoid-intro = Bɔhisi din ni tooi:
 code-switching-dont-header = Mira
 # Reviewing a Question
 code-switching-review-subheader = labi yuli bɔhisi
+code-switching-review-criterion-2 = Di tu ni di mali anfaani
 # Answering a Question
 code-switching-answer-subheader = Bɔhigu labsibu
+code-switching-answer-bullet-3 = zaŋmi bachi shɛŋa a ni shirikuli yɛn zaŋ ku bukaata hali di yi nyɛla bachipaŋdili  bee bachi gaba
 code-switching-answer-bullet-4 = di ka labisibu nin niŋ
 # Don’t Overthink or Overedit
 code-switching-answer-dont-subheader = di tiɛhi pam bee di tɔhi sabi pam
