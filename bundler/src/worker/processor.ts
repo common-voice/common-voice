@@ -221,8 +221,13 @@ export const processLocale = async (job: Job<ProcessLocaleJob>) => {
     if (E.isRight(result)) {
       await redisClient.sadd(redisKeys.done(releaseName), doneMember)
       await redisClient.expire(redisKeys.done(releaseName), RELEASE_LOG_KEY_TTL_SEC)
+      const hours = (result.right.totalDurationInMs / 3_600_000).toFixed(1)
+      logger.info(
+        'PROCESSOR',
+        `[${locale}] Done: ${env.clipCount.toLocaleString()} clips | ${hours}h recorded`,
+      )
     } else {
-      logger.error('PROCESSOR', String(result.left))
+      logger.error('PROCESSOR', `[${locale}] Failed: ${String(result.left)}`)
     }
     await flushReleaseLogs(env, E.isRight(result) ? 'success' : 'error')
   } finally {

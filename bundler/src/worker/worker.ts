@@ -109,10 +109,6 @@ export const createWorker: IO.IO<void> = () => {
         logger.info('WORKER', 'Initialization completed')
         break
       }
-      case 'processLocale': {
-        logger.info('WORKER', `[${job.data.locale}] Finished processing locale`)
-        break
-      }
       case 'processVariants': {
         logger.info('WORKER', `[${job.data.locale}] Finished processing variants`)
         break
