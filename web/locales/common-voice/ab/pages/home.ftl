@@ -160,6 +160,7 @@ explore-datasets = Адыррақәа реизгақәа шәрыхәаԥш <ico
 get-involved-section-title = Аилазаара анапхгарала иаарту адыррақәа реизгақәа шәрыдгылала
 read-sentences-link = Аҳәоуқәа рыԥхьара
 validate-readings-link = Аԥхьашьа агәаҭара
+contribute-link = Атекстқәа реизгаҿы алагала аҟаҵара
 answer-questions-link = Азҵаарақәа рҭак аҟаҵара
 transcribe-answers-link = Аҭакқәа атранскрипциа рзура
 review-transcriptions-link = Атранскрипциақәа ргәаҭара
