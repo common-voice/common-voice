@@ -89,6 +89,7 @@ spontaneous-speech = АСПОНТАНТӘ ЖӘАҲӘА
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = Алахәыларақәа, апрессеи астатиақәеи, аилазаареи абызшәақәеи
+about-us-menu-item-tooltip = Common Voice иадҳәалоу амиссиеи акомандеи ирызкны еилышәкаа.
 partnerships-menu-item-tooltip = Ҳлахәылаҩны аҟалара
 press-and-stories-menu-item-tooltip = Шәаҭаа ҳаблог, ма ҳара иҳазкны ианышәҵа
 community-and-languages-menu-item-tooltip = Абызшәақәа, аилазаарақәа, азеиԥш бжьы шәхазы иаашәырты
@@ -133,10 +134,15 @@ join-discord-community = Discord аилазаара алалара
 join-discord-community-action = Discord аҿы шәҳацла
 join-discord-community-content = Абызшәатә еилазаара аилацәажәарақәа шәыҽрылашәырхәла, азҵаарақәа ықәшәыргылала, имҩаԥысраны иҟоу ауснагӡатәқәеи аицәажәарақәеи ртәы еилышәкаала.
 find-us-on-matrix = Matrix аҿы ҳшәыԥшаа
+find-us-on-matrix-content-v2 = Matrix – ари ареалтә аамҭазы адецентрализациа зызуу аицәажәаразы иаарту, иласу ԥкаанҵоуп, иара убас иаарту ахцәажәарақәа рзы Mozilla еиҳа еиӷьанашьо платформоуп. Ҳара "common-voice:mozilla.org" ауадаҿы ҳаҟоуп.
 # label for button
 find-us-on-element-action-1 = Аелемент
 find-us-on-matrix-action-2 = Егьырҭ аклиентцәа
+ask-mozilla-share = Mozilla шәаҳәа шәуснагӡатәқәа ртәы аҳәарц
 ask-mozilla-share-content = Ииасхьоу ма иҟалараны иҟоу аиԥылара шәымоума? Иаҳзеиҭашәҳәа, нас ҳаилазаара адырра раҳҭоит, мамзаргьы уи иазкны аблог аҿы ианышәҵа!
+# label for button
+ask-mozilla-share-action = Шәеиԥылара атәы ишәҳәа
+download-contribution-certificate = Шәалахәра асертификат аҭгара
 download-contribution-certificate-content = Шәусмҩаԥгатәқәа рзы, ма шәхазы асертификат ҭыжәга, Common Voice азы алагала ҟашәҵазар — шәара шәыда уи ҟалашьа аиуӡомызт!
 contribute-github = GitHub аҿы алагала аҟаҵара
 # label for button
