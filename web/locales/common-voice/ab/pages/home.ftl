@@ -187,3 +187,5 @@ partner-section-subtitle-civil-society = <bold>Ауаажәларратә еил
 partner-section-subtitle-philantropy = <bold>Агәыҳалалра</bold> - аҭыԥантәи аинновациақәеи аҿиареи шәрыцхраарц азы адыррақәа реизга аԥҵараан ԥарала ацхыраара ҟашәҵала
 # icon is an arrow that points to the right
 get-in-touch-button = Шәыҽҳамажәда <icon></icon>
+# Partners section
+our-partners-include = Ҳара ҳлахәылаҩцәа...
