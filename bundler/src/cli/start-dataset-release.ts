@@ -31,7 +31,7 @@ const startDatasetRelease = async (args: any) => {
       'Error: -d (--datasheets-file) is required for -t full.\n' +
         'The datasheets JSON filename does not match the release name,\n' +
         'so it must always be specified explicitly.\n' +
-        "Example: -d 'datasheets-25.0-2026-03-09.json'",
+        "Example: -d 'datasheets-2026-03-09.json'",
     )
     process.exit(1)
   }
@@ -119,8 +119,8 @@ program
     `
     Datasheets JSON filename or full URL. Required for full releases.
     Resolved against DATASHEETS_BASE_URL if not a URL.
-    Example filename: 'datasheets-25.0-2026-03-09.json'
-    Example URL: 'https://raw.githubusercontent.com/common-voice/cv-datasheets/<commit>/releases/datasheets-25.0-2026-03-09.json'
+    Example filename: 'datasheets-2026-03-09.json'
+    Example URL: 'https://raw.githubusercontent.com/common-voice/cv-datasheets/<commit>/releases/datasheets-2026-03-09.json'
     `,
   )
   .addOption(

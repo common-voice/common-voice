@@ -5,7 +5,6 @@ import { calculateChecksum, getFileSize } from '../infrastructure/filesystem'
 import { AppEnv } from '../types'
 import { uploadToBucket } from '../infrastructure/storage'
 import { getDatasetBundlerBucketName } from '../config/config'
-import { sanitizeLicenseName } from './compress'
 import type { Buckets, LocaleReleaseData } from './localeData'
 import { logger } from '../infrastructure/logger'
 
@@ -98,9 +97,11 @@ export const statsPipeline = (
       return stats
     }),
     TE.chainFirst(stats => {
-      const statsFilename = license
-        ? `stats_${locale}_${sanitizeLicenseName(license)}.json`
-        : `stats_${locale}.json`
+      // cv-dataset only consumes unlicensed stats. Skip upload for licensed
+      // runs to prevent getLocaleFromFilename() collision in createStats.js
+      // (both stats_en.json and stats_en_cc-by-4-0.json would resolve to "en").
+      if (license) return TE.right<Error, void>(undefined)
+      const statsFilename = `stats_${locale}.json`
       return uploadToDatasetBucket(`${releaseName}/stats/${statsFilename}`)(
         Buffer.from(JSON.stringify(stats)),
       )

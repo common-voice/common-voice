@@ -199,6 +199,36 @@ export const flushReleaseLogs = async (
       'RELEASE-LOGGER',
       `[${releaseName}] Flushed ${logRows.length} process-log row(s) to GCS`,
     )
+
+    // 8. Print FINISHED summary when all jobs are done.
+    if (total > 0 && count === total) {
+      const elapsedMs = timeStartStr
+        ? new Date(finishTimestamp).getTime() - new Date(timeStartStr).getTime()
+        : 0
+
+      // Count statuses from process-log rows (status is column index 9)
+      let okCount = 0
+      let errCount = 0
+      let skipCount = 0
+      for (const row of logRows) {
+        const cols = row.split('\t')
+        const st = cols[9]
+        if (st === 'success') okCount++
+        else if (st === 'error') errCount++
+        else if (st === 'skipped') skipCount++
+      }
+
+      logger.info('', '== == == == == == == == == == == == == == == == == == ==')
+      logger.info(
+        'FINISHED',
+        `${releaseName} | ${total} locale(s) | ${formatCompact(clipsDone)} clips`,
+      )
+      logger.info(
+        'FINISHED',
+        `processed: ${okCount} | skipped: ${skipCount} | errors: ${errCount} | duration: ${formatEta(elapsedMs)}`,
+      )
+      logger.info('', '== == == == == == == == == == == == == == == == == == ==')
+    }
   } catch (err) {
     logger.error(
       'RELEASE-LOGGER',

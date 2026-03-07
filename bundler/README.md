@@ -44,11 +44,11 @@ cd bundler/js/cli    # local
 The `-d` flag accepts a filename or a full URL. A plain filename is resolved against `DATASHEETS_BASE_URL` (defaults to the cv-datasheets `main` branch on GitHub).
 
 ```bash
-# Filename -- resolved to https://raw.githubusercontent.com/.../releases/datasheets-25.0-2026-03-09.json
--d 'datasheets-25.0-2026-03-09.json'
+# Filename -- resolved to https://raw.githubusercontent.com/.../releases/datasheets-2026-03-09.json
+-d 'datasheets-2026-03-09.json'
 
 # Full URL -- used as-is (useful for unmerged branches or specific commits)
--d 'https://raw.githubusercontent.com/common-voice/cv-datasheets/<commit>/releases/datasheets-25.0-2026-03-09.json'
+-d 'https://raw.githubusercontent.com/common-voice/cv-datasheets/<commit>/releases/datasheets-2026-03-09.json'
 ```
 
 ### Examples
@@ -70,7 +70,7 @@ node start-dataset-release.js \
   -u "2026-03-09 23:59:59" \
   -r "cv-corpus-25.0-2026-03-09" \
   -p "cv-corpus-24.0-2025-12-05" \
-  -d "datasheets-25.0-2026-03-09.json"
+  -d "datasheets-2026-03-09.json"
 ```
 
 More examples:
@@ -80,25 +80,25 @@ More examples:
 node start-dataset-release.js \
   -t full -u '2026-03-09 23:59:59' \
   -r cv-corpus-25.0-2026-03-09 -p cv-corpus-24.0-2025-12-05 \
-  -d 'datasheets-25.0-2026-03-09.json'
+  -d 'datasheets-2026-03-09.json'
 
 # Full release -- specific locales only
 node start-dataset-release.js \
   -t full -u '2026-03-09 23:59:59' \
   -r cv-corpus-25.0-2026-03-09 -p cv-corpus-24.0-2025-12-05 \
-  -d 'datasheets-25.0-2026-03-09.json' -l en tr de
+  -d 'datasheets-2026-03-09.json' -l en tr de
 
 # Full release -- licensed locales only
 node start-dataset-release.js \
   -t full -u '2026-03-09 23:59:59' \
   -r cv-corpus-25.0-2026-03-09 -p cv-corpus-24.0-2025-12-05 \
-  -d 'datasheets-25.0-2026-03-09.json' --license-mode licensed
+  -d 'datasheets-2026-03-09.json' --license-mode licensed
 
 # Full release -- both licensed and unlicensed (separate tarballs)
 node start-dataset-release.js \
   -t full -u '2026-03-09 23:59:59' \
   -r cv-corpus-25.0-2026-03-09 -p cv-corpus-24.0-2025-12-05 \
-  -d 'datasheets-25.0-2026-03-09.json' --license-mode both
+  -d 'datasheets-2026-03-09.json' --license-mode both
 
 # Delta release
 node start-dataset-release.js \

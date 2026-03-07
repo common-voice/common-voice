@@ -284,18 +284,40 @@ const fetchAllClipsForLocale = (
 
     await pipeline(fs.createReadStream(tmpClipsFilepath), parser)
 
+    // Pre-scan: partition into cached (already on disk from prev release / delta)
+    // vs. needing GCS download. Most clips will be cache hits; we need the GCS
+    // count upfront to give an accurate ETA during the download loop.
+    const toDownload: ClipRow[] = []
+    let cached = 0
     for (const clip of clips) {
-      const clipFilename = createClipFilename(clip.locale, clip.id)
       const clipFilepath = path.join(
         releaseDirPath,
         clip.locale,
         'clips',
-        clipFilename,
+        createClipFilename(clip.locale, clip.id),
       )
-
       if (fs.existsSync(clipFilepath)) {
-        continue
+        cached++
+      } else {
+        toDownload.push(clip)
       }
+    }
+
+    logger.info(
+      'CLIPS-DL',
+      `[${locale}] ${toDownload.length} clips to fetch from GCS (${cached} already cached)`,
+    )
+
+    const dlStart = Date.now()
+    // Only emit progress for large GCS fetches -- small ones finish fast enough
+    // that intermediate logs add clutter, especially with multiple pods running.
+    const PROGRESS_MIN = 1000
+    const PROGRESS_INTERVAL = 1000
+    let downloaded = 0
+
+    for (const clip of toDownload) {
+      const clipFilename = createClipFilename(clip.locale, clip.id)
+      const clipFilepath = path.join(releaseDirPath, clip.locale, 'clips', clipFilename)
 
       const fileSize = await pipe(
         getMetadataFromFile(CLIPS_BUCKET)(clip.path),
@@ -312,6 +334,7 @@ const fetchAllClipsForLocale = (
           timestamp: new Date().toISOString(),
           value: fileSize,
         })
+        downloaded++
         continue
       }
 
@@ -332,9 +355,25 @@ const fetchAllClipsForLocale = (
           timestamp: new Date().toISOString(),
         })
       }
+
+      downloaded++
+      if (toDownload.length >= PROGRESS_MIN && downloaded % PROGRESS_INTERVAL === 0) {
+        const elapsed = Date.now() - dlStart
+        const etaSec = Math.round(
+          (elapsed / downloaded) * (toDownload.length - downloaded) / 1000,
+        )
+        logger.info(
+          'CLIPS-DL',
+          `[${locale}] ${downloaded}/${toDownload.length} from GCS (ETA: ${etaSec}s)`,
+        )
+      }
     }
 
-    logger.info('CLIPS-DL', `[${locale}] FINISH loading clips from GCS`)
+    const elapsed = ((Date.now() - dlStart) / 1000).toFixed(1)
+    logger.info(
+      'CLIPS-DL',
+      `[${locale}] FINISH: ${downloaded} from GCS, ${cached} cached (${elapsed}s)`,
+    )
   }, logError)
 
 const createClipsTsv = (
