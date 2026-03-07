@@ -20,6 +20,11 @@ x-weeks-short =
         [one] Bakɔi
        *[other] shɛli
     }
+x-months-short =
+    { $count ->
+        [one] mo
+       *[other] mo
+    }
 
 ## Account Benefits
 
