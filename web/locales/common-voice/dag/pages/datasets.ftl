@@ -38,9 +38,11 @@ feedback-q = A mali shɛli ni a yɛli?
 # This indicates that there is no data to display
 no-information = lahabali kani
 resource-nemo-info = NeMo</githubLink>™ nyɛla <docsLink>open-source toolkit</docsLink> zaŋ n-ti vihivihiriba ban be AI yɛltɔɣa ni.
+resource-coqui-info = <coquiLink>coqui<coquiLink>nyɛla din niŋ zaɣa ni bi yooi yɛltɔɣa tabibi baŋsim.Bi tuma ŋɔ pahila bɔhimbu din zilima ka be STT mini TTS mazina ni
 community-playbook = Zilenini Demabuku
 resource-playbook-info = <playbookLink>yala soŋsim tarisi<playbookLink>kukoya din laɣim sochenda ŋɔ zaa zuɣu,dunduŋni tuma tumbu n ti pahi ti ni yan niŋ shɛm zaŋgatabi ti fondi ni
 data-other-ted-name = TED-LIUM Corpus
+data-other-ted-description = TED-LIM corpus sodolisi la daa yila yɛltɔɣa vulibu mini di lɛbiginsim n niŋli bayana TED dundɔŋ puuni ni.
 your-feedback = A mali pahigu shɛli din tu ni ti zaŋ pahi n che ka common voice datasets nya naba n zani? che ka ti baŋ ti yɛltɔɣa kpanjɔɣu maa ni
 go-discourse = Chami fiila puuni
 missing-language = A bi nya a balli ni yina dataset puuni?  A yi bɔri bali shɛli nyin chami ti bala paagi maa ni.
