@@ -31,11 +31,11 @@ about-is-it-valid = kukɔ'yaarili maa niŋ dede?
 about-is-it-valid-text = Kukɔ'yaarili nyɛla din mali dihitabli di yi niŋ ka so saɣi ti li.
 about-yes-votes = Ban' pii iin
 about-yes-votes-text = A yi yɛn kpɛhi lahabaya kukɔli kpanjɔɣu puuni, sheela ban gba tɔhiri niriba ayi n-saɣiti a kukɔli maa.
-about-no-votes = Ban pii aayi
-about-no-votes-text = Ŋun mali tumdi yi zaɣisi kukɔya,di labirila fɔli maa ni. Bɛ yi ti zaɣisi li pahi ayi, kukɔya maa labirila di ni yi shɛli na.
+about-no-votes = ≥ 2 Piibu kani
+about-no-votes-text = Ŋun mali kukɔ'yaarili tumdi tuma yi zaɣisi kukɔli, di labirila foli maa ni. Bɛ yi ti zaɣisi li pahi ayi, kukɔli maa labirila di ni yi shɛli na.
 about-dataset-new = Lahabali kukɔli kpanjɔɣu
-about-dataset-new-text = Kukɔli lahabali kpanjɔɣu malila kukɔya lahabaya kamani tuhi' kɔb' bɔbigu ka di sɔŋdi ban tɔhiri ka bɛ tooi namdi kukɔya baŋbu kpatuɣa.
-about-clip-graveyard = Kukɔli yibu shee na
+about-dataset-new-text = Kukɔli kpanjɔɣu malila kukɔya lahabaya kamani tuhi' kɔb' bɔbigu din sɔŋdi ban tɔhira ka bɛ tooi namdi kukɔya baŋbu kpatuɣa.
+about-clip-graveyard = Kukɔ'yaarili yibu shee na
 about-clip-graveyard-text =
     Clip Graveyard nyɛla din gbubi kukɔya yaabu din bi tooi kpe kukɔya lahabali kpanjɔɣu puuni. Kamani lahabali kpanjɔɣu kam, Clip Graveyard nyɛla a ni tooi yaai shɛli.
     
