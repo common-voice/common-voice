@@ -38,15 +38,19 @@ const tarPromise = async (
   pathsToCompress: string[],
   cwd: string,
   prefix: string,
+  releaseType: string,
 ) => {
-  // Archives are ~94% MP3 (already compressed, ~1% shrink from gzip)
-  // and ~6% TSV metadata (compressible). Higher gzip levels burn CPU
+  // Full archives are largely MP3 (already compressed, ~1% shrink from gzip)
+  // and low TSV metadata (compressible). Higher gzip levels burn CPU
   // re-scanning incompressible MP3 bytes for negligible gain:
   //   Level 1: ~15 min for en (1.1M clips), archive ~96.4% of raw
   //   Level 6: ~53 min for en,              archive ~95.8% of raw
-  // That's 3.5x slower for 0.6% smaller output. Level 1 everywhere.
+  // That's 3.5x slower for 0.6% smaller output.
+  // Delta archives have larger amount of text metadata (sometimes no audio), so level 6 is
+  // worth it: same speed class, ~60% smaller output.
+  const gzipLevel = releaseType === 'delta' ? 6 : 1
   const readStream = tar.c(
-    { gzip: { level: 1 }, cwd, prefix },
+    { gzip: { level: gzipLevel }, cwd, prefix },
     pathsToCompress,
   )
 
@@ -54,10 +58,10 @@ const tarPromise = async (
 }
 
 const compress =
-  (pathsToCompress: string[], cwd: string, prefix: string) =>
+  (pathsToCompress: string[], cwd: string, prefix: string, releaseType: string) =>
   (outFilepath: string): TE.TaskEither<Error, void> =>
     TE.tryCatch(
-      () => tarPromise(outFilepath, pathsToCompress, cwd, prefix),
+      () => tarPromise(outFilepath, pathsToCompress, cwd, prefix, releaseType),
       reason => Error(String(reason)),
     )
 
@@ -133,7 +137,7 @@ export const compressPipeline = (
           ),
         )
       }
-      return compress(paths, releaseDirPath, releaseName)(tarballFilepath)
+      return compress(paths, releaseDirPath, releaseName, releaseType)(tarballFilepath)
     }),
     TE.map(({ tarballFilepath }) => tarballFilepath),
   )
