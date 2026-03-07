@@ -77,7 +77,7 @@ about-playbook-how-add-language-collecting-sentences-content-2 =
     A ni tooi <sentenceCollectorLinkAdd>pahi yɛltɔɣa din kalinli bi galisi</sentenceCollectorLinkAdd>,
     bee ka a zaŋ <bulkImportDocsLink> Github n kpɛhili pam jilli</bulkImportDocsLink>.
     Teema ka dam yɛltɔɣa tu mi ni di <licenseLink>CC0 (bee public domain)</licenseLink>, bee ka a sabi a maŋmaŋ dini.
-about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Yuli nyɛ di zaɣi bobigu   yɛtɔɣa deebu <sentenceCollectorFragment>
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Yuli nyɛ yɛltɔɣa laɣimbu lahabaya<sentenceCollectorFragment>
 
 ## How does localization work
 
@@ -106,7 +106,7 @@ about-playbook-how-record-content-5 = lihi bo soya din tam kalinli zuɣu
 
 ## How to grow language
 
-about-playbook-how-grow-language = wula ka ti yɛn n niŋ ka ti zuliya balli tooi zooi common voice puuni?
+about-playbook-how-grow-language = Wula ka ti yɛn n niŋ ka ti zuliya balli tooi zooi Common Voice puuni?
 about-playbook-how-grow-language-content-1 = Soli yoo mi ti nirikam ŋun ni tooi pahi o haŋkali zaŋ ti common voice din yan che ka di pohim zuɣu biɛhigu tum tuma ti niriba pam.Ti yooi la soya ka bo di tuma nɛma ni ŋmahama sheŋa n-ni too zaŋ tum!
 about-playbook-how-grow-language-content-2 = laɣinsi
 about-playbook-how-grow-language-content-3 = A ni tooi laɣim laɣ'si di yan soŋ ka niriba tɔhi bi haŋkaya.Di niŋ asama gari a ni tɛhari sham. A ni tooi zaŋli pa pɔhim zuɣu n niŋ li sinii ti  niriba pam,bee a ko din dee yi ka muɣisigu.Yuli nya di mŋahama ni yalbori sheŋɔ din tu ni a mali ka ni tooi  laɣim laɣ'gu.
@@ -132,7 +132,7 @@ about-playbook-how-access-dataset-content-2 = Ayi' yundi n bori ASR kpatuɣa n a
 
 ## How are decisions made
 
-about-playbook-how-project-governance = Wula ka tuma shaawariti lee gbaara?
+about-playbook-how-project-governance = Wula ka tuma shaawara nima lee gbaara?
 about-playbook-how-project-governance-content-1 = Mozila Common Voice nyɛla naba zani ka di nyɛla mabiligu ban nyɛ tumtumdiba, zauliya yɛltɔɣa baŋdiba, lahabaya baŋdiba, karim' baŋdiba, ni tabibi kpatuɣa baŋdiba ban yi andunia yili zaa na. Mozila Foundation nima kpaŋmaŋa ni ka tuma ŋɔ be,.
 about-playbook-how-project-governance-content-2 = Ti sulinsi n tam la daantalisi:
 about-playbook-how-project-governance-content-3 = Ashili ,gumaŋa ni kahigibu.
