@@ -9,9 +9,15 @@ prompt-bubble-subtitle = Ti ni zaŋ yɛlisim bee bɔhigu n wuha
 respond-bubble-title = <mark>Labisima</mark>
 respond-bubble-subtitle = Labisima zaŋ n ti li a kpaŋmaŋa tatariga
 # text wrapped in <mark></mark> will have a blue background
-check-bubble-title = <mark>Vehima</mark>
+transcribe-bubble-title = <mark>Lɛbigima</mark>
+transcribe-bubble-subtitle = Sabimi a ni wum binshɛli kukɔ' yaarili maa ni
+# text wrapped in <mark></mark> will have a blue background
+check-bubble-title = <mark>Vihima</mark>
+check-bubble-subtitle = Lihimi n-nyɛ nyaa di lɛbigibu maa mini kukɔli maa nyɛla yim
 # text wrapped in <mark></mark> will have a blue background
 data-bubble-title = <mark>Data</mark>
+data-bubble-subtitle = Ti yihiri la lahabaya mini kukɔya kpanjɔri maa na gandam gandam
+contact-us = Bɔli mi ti
 contact-us-email = Iimeeli: <emailFragment>commonvoice@mozilla.com</emailFragment>
 signup-input-placeholder = Kpehima a iimeeli
 signup-button-value = Talimi ma linki n iimeeli zuɣu
