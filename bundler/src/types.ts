@@ -60,8 +60,10 @@ export type VariantInfo = {
   clipCount: number
 }
 
+export type ReleaseType = 'full' | 'delta' | 'statistics' | 'variants'
+
 export type Settings = {
-  type: 'full' | 'delta' | 'statistics' | 'variants'
+  type: ReleaseType
   from: string
   until: string
   releaseName: string

@@ -9,7 +9,7 @@ import { pipe } from 'fp-ts/lib/function'
 
 import { prepareDir } from '../infrastructure/filesystem'
 import { CORPORA_CREATOR_SPLIT_FILES } from '../infrastructure/corporaCreator'
-import { AppEnv } from '../types'
+import { AppEnv, ReleaseType } from '../types'
 import { logger } from '../infrastructure/logger'
 
 export const sanitizeLicenseName = (license: string): string => {
@@ -38,7 +38,7 @@ const tarPromise = async (
   pathsToCompress: string[],
   cwd: string,
   prefix: string,
-  releaseType: string,
+  releaseType: ReleaseType,
 ) => {
   // Full archives are largely MP3 (already compressed, ~1% shrink from gzip)
   // and low TSV metadata (compressible). Higher gzip levels burn CPU
@@ -58,7 +58,7 @@ const tarPromise = async (
 }
 
 const compress =
-  (pathsToCompress: string[], cwd: string, prefix: string, releaseType: string) =>
+  (pathsToCompress: string[], cwd: string, prefix: string, releaseType: ReleaseType) =>
   (outFilepath: string): TE.TaskEither<Error, void> =>
     TE.tryCatch(
       () => tarPromise(outFilepath, pathsToCompress, cwd, prefix, releaseType),
@@ -66,7 +66,7 @@ const compress =
     )
 
 export const pathsFilter =
-  (releaseType: string) =>
+  (releaseType: ReleaseType) =>
   (filepath: string): boolean => {
     const filename = path.basename(filepath)
     // we never include the generated clips.tsv file
@@ -83,7 +83,7 @@ const getPathsToAddToTarball =
   (
     locale: string,
     releaseDirPath: string,
-    releaseType: string,
+    releaseType: ReleaseType,
   ): IO.IO<string[]> =>
   () => {
     const dir = path.join(releaseDirPath, locale)
@@ -112,7 +112,7 @@ export const compressPipeline = (
   releaseName: string,
   releaseDirPath: string,
   releaseTarballDir: string,
-  releaseType: string,
+  releaseType: ReleaseType,
   license?: string,
 ): TE.TaskEither<Error, string> => {
   logger.info('COMPRESS', `[${locale}] Start compress`)

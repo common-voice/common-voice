@@ -111,10 +111,13 @@ export const fetchDeltaLocales = (
       }
 
       if (skipped.length > 0) {
-        logger.info(
-          'SKIP',
-          `${skipped.length} passive locale(s) skipped (no new clips or votes): ${skipped.join(', ')}`,
-        )
+        for (let i = 0; i < skipped.length; i += 10) {
+          const chunk = skipped.slice(i, i + 10)
+          logger.info(
+            'SKIP',
+            `${skipped.length} passive locale(s) skipped (${i + 1}-${i + chunk.length}/${skipped.length}): ${chunk.join(', ')}`,
+          )
+        }
       }
 
       return active
@@ -154,10 +157,13 @@ export const fetchDeltaLicensedLocales = (
       }
 
       if (skipped.length > 0) {
-        logger.info(
-          'SKIP',
-          `${skipped.length} passive licensed locale(s) skipped (no new clips or votes): ${skipped.join(', ')}`,
-        )
+        for (let i = 0; i < skipped.length; i += 10) {
+          const chunk = skipped.slice(i, i + 10)
+          logger.info(
+            'SKIP',
+            `${skipped.length} passive licensed locale(s) skipped (${i + 1}-${i + chunk.length}/${skipped.length}): ${chunk.join(', ')}`,
+          )
+        }
       }
 
       return active

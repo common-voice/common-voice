@@ -61,23 +61,36 @@ const runCorporaCreatorPromise = (locale: string, releaseDirPath: string) =>
     })
 
     // Buffer stderr -- pandas.apply and other warnings produce many lines.
-    // Log only first + last to avoid clutter.
+    // Log only first + last to avoid clutter. Cap at 64 KB to prevent OOM.
+    const MAX_STDERR = 64 * 1024
     let stderrBuf = ''
+    let stderrTruncated = false
     cc.stderr.on('data', (data: Buffer) => {
+      if (stderrTruncated) return
       stderrBuf += data.toString()
+      if (stderrBuf.length > MAX_STDERR) {
+        stderrBuf = stderrBuf.slice(0, MAX_STDERR)
+        stderrTruncated = true
+      }
     })
 
-    cc.on('close', () => {
+    cc.on('close', (code, signal) => {
       const lines = stderrBuf
         .split('\n')
         .map(l => l.trim())
         .filter(Boolean)
       if (lines.length > 0) {
-        logger.info('CC', `[${locale}] ${lines[0]}`)
+        const level = code === 0 && !signal ? 'info' : 'warn'
+        logger[level]('CC', `[${locale}] ${lines[0]}`)
         if (lines.length > 1) {
-          logger.info('CC', `[${locale}] ${lines[lines.length - 1]}`)
+          logger[level]('CC', `[${locale}] ${lines[lines.length - 1]}`)
         }
       }
+      if (code !== 0 || signal) {
+        logger.error('CC', `[${locale}] create-corpora exited with code ${code}${signal ? ` signal ${signal}` : ''}`)
+      }
+      // Always resolve -- caller handles missing output files.
+      // The error is logged above for diagnostics.
       resolve()
     })
     cc.on('error', reason => reject(reason))
