@@ -112,7 +112,7 @@ about-playbook-how-grow-language-content-2 = laɣinsi
 about-playbook-how-grow-language-content-3 = A ni tooi laɣim laɣ'si di yan soŋ ka niriba tɔhi bi haŋkaya.Di niŋ asama gari a ni tɛhari sham. A ni tooi zaŋli pa pɔhim zuɣu n niŋ li sinii ti  niriba pam,bee a ko din dee yi ka muɣisigu.Yuli nya di mŋahama ni yalbori sheŋɔ din tu ni a mali ka ni tooi  laɣim laɣ'gu.
 about-playbook-how-grow-language-content-4 = pɔhim zuɣu
 about-playbook-how-grow-language-content-5 = A ni tooi zaŋ pɔhim zuɣu dundɔna n- yihi satara na.Tɔhimi a hankali n ti zama ban be pɔhim zuɣu ka yali din tu kamaata shɛm ka zaŋ a maŋa n ti dalim ninvuɣ' shɛb ban diri alizama gandi bala yiko,AI kukoya bee ban be kukoya tabiibi ni.Yulimi saɣsigu pam kpe<campaignLink>Bam mali zamatu yɛltɔɣa tumdi tuma n ti pahi tuma. <campaignLink>.
-about-playbook-how-grow-language-content-6 = kpalanzuya gbunibu mini tab'laɣimbu.
+about-playbook-how-grow-language-content-6 = kpalanzuya gbunibu mini tabi laɣimbu.
 about-playbook-how-grow-language-content-7 = Yulibo ninvuɣi shɛbi ban mali zaɣa,di ni tooi nyɛ yunivɛsiti nima,balla shikuruti,laɣisi ban mali kukoya bee tabiibi baŋsim yaɣ'.Bomi bi shee ka bi taɣisi kahiga bi ni soŋdi sham,ni bintahili.<outreachTemplates>yulimi di mŋahinli sodolisi ŋɔ zuɣu<outreachTemplates>.
 about-playbook-how-grow-language-content-8 = <strong>pilima!</strong>a zuliya balli nyɛla din yan yi di ko, ŋɔ maa mi kuli nyɛla so' shɛŋa a ni yɛn zaŋ pili.
 
@@ -133,17 +133,17 @@ about-playbook-how-access-dataset-content-2 = Ayi' yundi n bori ASR kpatuɣa n a
 ## How are decisions made
 
 about-playbook-how-project-governance = Wula ka tuma shaawara nima lee gbaara?
-about-playbook-how-project-governance-content-1 = Mozila Common Voice nyɛla naba zani ka di nyɛla mabiligu ban nyɛ tumtumdiba, zauliya yɛltɔɣa baŋdiba, lahabaya baŋdiba, karim' baŋdiba, ni tabibi kpatuɣa baŋdiba ban yi andunia yili zaa na. Mozila Foundation nima kpaŋmaŋa ni ka tuma ŋɔ be,.
+about-playbook-how-project-governance-content-1 = Mozila Common Voice nyɛla naba zani ka di nyɛla ʒilɛya balibu tuntumdiba, bala baŋdiba, lahabaya baŋdiba, karim' baŋdiba ni tabibi kpatuɣa baŋdiba ban yi dunia luɣa na. Mozila Foundation kpaŋmaŋa ni ka tuma ŋɔ tumada.
 about-playbook-how-project-governance-content-2 = Ti sulinsi n tam la daantalisi:
 about-playbook-how-project-governance-content-3 = Ashili, gumaŋa ni kahigibu.
-about-playbook-how-project-governance-content-4 = Mabilugu dundɔŋ laɣim tum mini shaawara gbaabu
+about-playbook-how-project-governance-content-4 = Mabiligu dundɔŋ laɣim tum mini shaawara gbaabu
 about-playbook-how-project-governance-content-5 = Dariza mini baŋbu.
 about-playbook-how-project-governance-content-6 = Tabi vihibu
-about-playbook-how-project-governance-content-7 = <governanceLink>Karimmi pam zaŋ kpa ti gbubbu polo /governanceLink>
+about-playbook-how-project-governance-content-7 = <governanceLink>Karimmi pam zaŋ kpa ti gbubbu</governanceLink>
 
 ## How is Common Voice funded
 
-about-playbook-how-funded = Wula ka Common voice niŋdi nyari sɔŋsim?
+about-playbook-how-funded = Wula ka Common voice niŋda nyari liɣiri?
 about-playbook-how-funded-content-1 = Common Voice nŋala tuun zuɣu sheli din yina Mozila Foundation,Amarica501c3.Ban diri lala tuun zuɣu maa laɣ' dibo n nŋɛ<philantropicGrantLink>ni tohibu din yi niriba mini dunia zaa na
 about-playbook-how-funded-content-2 = a yi yɛn tuɣi n kpa bee n che databaes di diri liɣiri pam, ka pahili ti dundɔŋ maa dariza ni di chandi<africaMradiLink> zileli binyɛra </africaMradiLink>.
 about-playbook-how-funded-content-3 = Di yi niŋ ka a nyini bee a tuma duzuɣu bori ni yi suŋsi ti tuma ŋɔ, yi ni tooi <donateLink>tɔhi</donateLink> bee ka yi sabi n-ti  ti kpalaŋzuya laɣiŋgu <emailFragment>commonvoice@mozilla.com</emailFragment>.
