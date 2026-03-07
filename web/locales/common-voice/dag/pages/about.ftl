@@ -71,12 +71,12 @@ about-playbook-how-add-language-content-1 =
 about-playbook-how-add-language-translating-heading = Yaɣili ŋɔ lɛbiɣibu
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Lihimi ti sinii ŋmaa din wuhiri a ni tooi zaŋ Pontoon ku bukaata shɛm.</translateVideoLink>
 about-playbook-how-add-language-translating-content-2 = Ti malila Mozila kpatuɣili din yuli booni<pontoonLink>pontoon<pontoonLink>n lɛbigira.pontoon mali bala pam,a maa a dini yi bi pahi di puuni,a ni tooi <pontoonRequestLink>ka a balli maa gba pahi<\\pontoonRequestLink>di saha,a ni tooi che ka a balli maa gba niŋ bayana Common Voice Project puu ni.Suhu dee bal'palli GitHub</githubRepoLink> zuɣu.Lihi nya yaɣili ŋɔ lɛbigibu pam<localizationFragment> zuɣu.
-about-playbook-how-add-language-collecting-sentences-heading = Yɛltɔɣa Laɣimbu
-about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Lihimi ti sinii din wuhiri a ni yɛn zaŋ Yɛltɔɣa Laɣimbu n ku bukaata shɛm</sentenceCollectorVideo>
+about-playbook-how-add-language-collecting-sentences-heading = Yɛltɔɣa Laɣimbu.
+about-playbook-how-add-language-collecting-sentences-content-1 = Lihimi ti zalisi  din wuhiri a ni yɛn zaŋ Yɛltɔɣa Laɣimbu n ku bukaata shɛm.
 about-playbook-how-add-language-collecting-sentences-content-2 =
     A ni tooi <sentenceCollectorLinkAdd>pahi yɛltɔɣa din kalinli bi galisi</sentenceCollectorLinkAdd>,
     bee ka a zaŋ <bulkImportDocsLink> Github n kpɛhili pam jilli</bulkImportDocsLink>.
-    Teema ka dam yɛltɔɣa tu mi ni di <licenseLink>CC0 (bee public domain)</licenseLink>, bee ka a sabi amaŋmaŋ dini.
+    Teema ka dam yɛltɔɣa tu mi ni di <licenseLink>CC0 (bee public domain)</licenseLink>, bee ka a sabi a maŋmaŋ dini.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Yuli nyɛ di zaɣi bobigu   yɛtɔɣa deebu <sentenceCollectorFragment>
 
 ## How does localization work
