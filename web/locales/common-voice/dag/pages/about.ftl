@@ -37,13 +37,13 @@ about-dataset-new = Lahabali kukɔli kpanjɔɣu
 about-dataset-new-text = Kukɔli kpanjɔɣu malila kukɔya lahabaya kamani tuhi' kɔb' bɔbigu din sɔŋdi ban tɔhira ka bɛ tooi namdi kukɔya baŋbu kpatuɣa.
 about-clip-graveyard = Kukɔ'yaarili yibu shee na
 about-clip-graveyard-text =
-    Clip Graveyard nyɛla din gbubi kukɔya yaabu din bi tooi kpe kukɔya lahabali kpanjɔɣu puuni. Kamani lahabali kpanjɔɣu kam, Clip Graveyard nyɛla a ni tooi yaai shɛli.
+    Kukɔ'yaara yibu shee nyɛla din gbubi kukɔya yaabu din bi tooi kpe kukɔ'yaara kpanjɔɣu puuni. Kamani lahabali kpanjɔɣu kam, kukɔ'yaara yibu shee beni din ni tooi yaai.
     
     Ti ni puhi ka paɣi laɣinsi mini ban zaa sɔŋsi zaŋ kpa kukɔya lahibali kpanjɔɣu ŋɔ zoosim polo:
-about-get-involved = Timmi nuu
+about-get-involved = Tim mi nua.
 about-get-involved-text-2 = A bɔrimi ni a niŋ Common Voice viɛnyɛlinga?
-about-stay-in-touch = Wula ka m mini ya puha yɛn yooi taba?
-about-stay-in-touch-button = Wuhimi a maŋa
+about-stay-in-touch = Wula ka n mini ya pɔha yɛn yooi taba?
+about-stay-in-touch-button = Yoomi akauti
 about-stay-in-touch-text-1 = zaŋmi a maŋ pahi ti satara yuya ŋɔ zuɣu ka bohim a ni yen niŋ shem pahi ti molisi, laɣinsi mini di ŋmahima nahiŋgbana ti salo kukoli ŋɔ puuni
 about-stay-in-touch-text-2 = Ani tooi laɣim shɛba ni din be Mozila bala dundɔŋ la ni puuni.A yɛn pahila <discordLink>Discourd<\\discourdlink>bee<discourseLink>Discoursrd><discordLink>n-ti alizama din du zuɣu saa bee<matrixLink>Matrix<matrixLink>n-ti yom saɣigu
 about-nav-why-common-voice = Bɔzuɣu?
