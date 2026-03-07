@@ -137,13 +137,13 @@ about-playbook-how-project-governance-content-1 = Mozila Common Voice nyɛla nab
 about-playbook-how-project-governance-content-2 = Ti sulinsi n tam la daantalisi:
 about-playbook-how-project-governance-content-3 = Ashili, gumaŋa ni kahigibu.
 about-playbook-how-project-governance-content-4 = Mabilugu dundɔŋ laɣim tum mini shaawara gbaabu
-about-playbook-how-project-governance-content-5 = Dariza min baŋbu
-about-playbook-how-project-governance-content-6 = Tab'vihibu
-about-playbook-how-project-governance-content-7 = <governanceLink>Karimmi pam zaŋ kpa ti gbubbu</governanceLink>
+about-playbook-how-project-governance-content-5 = Dariza mini baŋbu.
+about-playbook-how-project-governance-content-6 = Tabi vihibu
+about-playbook-how-project-governance-content-7 = <governanceLink>Karimmi pam zaŋ kpa ti gbubbu polo /governanceLink>
 
 ## How is Common Voice funded
 
-about-playbook-how-funded = Wula ka Common voice niŋda nyari liɣiri?
+about-playbook-how-funded = Wula ka Common voice niŋdi nyari sɔŋsim?
 about-playbook-how-funded-content-1 = Common Voice nŋala tuun zuɣu sheli din yina Mozila Foundation,Amarica501c3.Ban diri lala tuun zuɣu maa laɣ' dibo n nŋɛ<philantropicGrantLink>ni tohibu din yi niriba mini dunia zaa na
 about-playbook-how-funded-content-2 = a yi yɛn tuɣi n kpa bee n che databaes di diri liɣiri pam, ka pahili ti dundɔŋ maa dariza ni di chandi<africaMradiLink> zileli binyɛra </africaMradiLink>.
 about-playbook-how-funded-content-3 = Di yi niŋ ka a nyini bee a tuma duzuɣu bori ni yi suŋsi ti tuma ŋɔ, yi ni tooi <donateLink>tɔhi</donateLink> bee ka yi sabi n-ti  ti kpalaŋzuya laɣiŋgu <emailFragment>commonvoice@mozilla.com</emailFragment>.
