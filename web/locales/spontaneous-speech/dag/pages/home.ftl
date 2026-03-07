@@ -1,6 +1,7 @@
 ## Home page
 
 welcome-to-spontaneous-speech = Amaraaba na Spontaneous Speech
+why-spontaneous-speech = Daliri shɛli din chɛ ka ti nam Spontaneous Speech nahingbaŋ ŋɔ
 how-spontaneous-speech-works = Spontaneous Speech ni tumdi shɛm
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>Yɛlima</mark>
