@@ -6,6 +6,8 @@ why-spontaneous-speech = Daliri shɛli din chɛ ka ti nam Spontaneous Speech nah
 why-card-1-text = Di mali anfaani n-ti <mark>yɛltɔɣa din be niɣim</mark> ni zaŋ ku bukaata nim bali shɛŋa (shɛhira, a yi bɔri ni yɛltɔɣa baŋbu mazina nima n tum zaŋ n-ti ninvuɣu shɛba ban yɛli vuhi ni ban yɛri nadaa yɛltɔɣa)
 # text wrapped with <mark></mark> will have a light red background
 why-card-2-text = Sɔŋsim pariga bɛni zaŋ ti zuliya yɛltɔɣa ni shiri ku nyɛ sham kamani  "translanguaging" ni <mark>yɛltɔɣa lɛbigibu</mark>
+# text wrapped with <mark></mark> will have a light red background
+why-card-3-text = Sɔŋsim pariga bɛni zaŋ ti zuliya yɛltɔɣa din mali bɛla bee </mark>di kuli ka bachi nima kpanjɔɣu</mark> ni zaŋ ku bukaata (shɛhira, "ʒilɛli biɛhigu yɛltɔɣa, di taɣimalisi, ʒɛmana kura balla din bi sabi n sɔŋ, ni din pahi pahi)
 how-spontaneous-speech-works = Spontaneous Speech ni tumdi shɛm
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>Yɛlima</mark>
