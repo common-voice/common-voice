@@ -71,8 +71,8 @@ about-playbook-how-add-language-content-1 =
 about-playbook-how-add-language-translating-heading = Yaɣili ŋɔ lɛbiɣibu
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Lihimi ti sinii ŋmaa din wuhiri a ni tooi zaŋ Pontoon ku bukaata shɛm.</translateVideoLink>
 about-playbook-how-add-language-translating-content-2 = Ti malila Mozila kpatuɣili din yuli booni<pontoonLink>pontoon<pontoonLink>n lɛbigira.pontoon mali bala pam,a maa a dini yi bi pahi di puuni,a ni tooi <pontoonRequestLink>ka a balli maa gba pahi<\\pontoonRequestLink>di saha,a ni tooi che ka a balli maa gba niŋ bayana Common Voice Project puu ni.Suhu dee bal'palli GitHub</githubRepoLink> zuɣu.Lihi nya yaɣili ŋɔ lɛbigibu pam<localizationFragment> zuɣu.
-about-playbook-how-add-language-collecting-sentences-heading = Yɛltɔɣa Laɣimbu.
-about-playbook-how-add-language-collecting-sentences-content-1 = Lihimi ti zalisi  din wuhiri a ni yɛn zaŋ Yɛltɔɣa Laɣimbu n ku bukaata shɛm.
+about-playbook-how-add-language-collecting-sentences-heading = Yɛltɔɣa laɣimbu
+about-playbook-how-add-language-collecting-sentences-content-1 = Lihimi ti zalisi  din wuhiri a ni yɛn zaŋ Yɛltɔɣa Laɣimbu n-ku bukaata shɛm.
 about-playbook-how-add-language-collecting-sentences-content-2 =
     A ni tooi <sentenceCollectorLinkAdd>pahi yɛltɔɣa din kalinli bi galisi</sentenceCollectorLinkAdd>,
     bee ka a zaŋ <bulkImportDocsLink> Github n kpɛhili pam jilli</bulkImportDocsLink>.
@@ -122,7 +122,7 @@ about-playbook-how-validate = wula ka n yɛn n niŋ m-baŋ ni n saɣiti kukɔli 
 about-playbook-how-validate-content-1 = Ayi ni tooi<strong>wummi bɛ yɛligu</strong> ka<strong>baŋ di gbunni</strong>, di zooya<strong>pam ka a ni saɣi ti</strong>.
 about-playbook-how-validate-content-2 = Di zaɣisi vulindi shaŋɔ din yari yɛltɔɣ'  din waligi ka che a zilil kum<strong>-dinboŋɔ kpa talahi n ti kukoli baŋbu din yan che ka di tu viɛnyɛla n ti sokam
 about-playbook-how-validate-content-3 = Di yi niŋ ka a tɛhi ni kukoli maa nyɛla din gbaabu yɛn niŋ tom bee vori yimina di ni bee ninvuɣu shɛba gba nyɛla ban yɛlli niŋ di ni nyini zaɣasimi li. Lihimi lahabali ŋɔ ni nya di vɛnyɛla niŋbu
-about-playbook-how-validate-content-4 = Niriba ayi yi zaɣisi anfooni ŋmaa, di yirimi labi dataset yaɣ' shɛli polo.
+about-playbook-how-validate-content-4 = Niriba ayi yi zaɣisi kukɔ'yaarili, di yirimi labi lahabali kpanjɔɣu yaɣ' shɛli polo.
 
 ## How to access dataset
 
