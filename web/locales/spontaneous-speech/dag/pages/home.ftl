@@ -1,6 +1,8 @@
 ## Home page
 
 welcome-to-spontaneous-speech = Amaraaba na Spontaneous Speech
+# <br></br> represents a newline break
+wall-of-text = Common Voice lahi niŋdi la pɔhim zuɣu tahipɔŋ suuna din jɛndi daadama maŋmaŋsi, "spontaneous", yɛli vuhi yɛltɔɣa nima. Di nyɛla binshɛli din yɛn sɔŋsi laɣinsi ka be tooi laɣim "data" ni valiŋ, ka lahi mali tabiibi baŋdiba anfaani.
 why-spontaneous-speech = Daliri shɛli din chɛ ka ti nam Spontaneous Speech nahingbaŋ ŋɔ
 # text wrapped with <mark></mark> will have a light red background
 why-card-1-text = Di mali anfaani n-ti <mark>yɛltɔɣa din be niɣim</mark> ni zaŋ ku bukaata nim bali shɛŋa (shɛhira, a yi bɔri ni yɛltɔɣa baŋbu mazina nima n tum zaŋ n-ti ninvuɣu shɛba ban yɛli vuhi ni ban yɛri nadaa yɛltɔɣa)
