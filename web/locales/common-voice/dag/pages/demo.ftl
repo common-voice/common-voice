@@ -26,3 +26,7 @@ demo-account-sign-up = zaŋmi kpɛbu soli ti
 
 demo-contribute-card-header = A niŋshili ni a pahi a kukɔli bee n-gbulisi tibili?
 demo-listen-subtitle = a niŋshili ni a tɔhi?
+
+## Demo Dashboard
+
+demo-dashboard-card-header = A maŋa dundɔŋ sabirili la zuɣu chɛmi ka a kuli beni sahakam ti ninsalinima ni a  zelinini toontibo.
