@@ -5,10 +5,16 @@ import { taskEither as TE } from 'fp-ts'
 import { query } from '../infrastructure/database'
 import { getQueriesDir } from '../config/config'
 import { LocaleWithLicense, VariantInfo } from '../types'
+import { logger } from '../infrastructure/logger'
 
 export type LocalesWithClips = {
   name: string
   clip_count: number
+}
+
+type LocaleVoteCount = {
+  name: string
+  vote_count: number
 }
 
 export const fetchLocalesWithClips = (
@@ -22,6 +28,20 @@ export const fetchLocalesWithClips = (
         { encoding: 'utf-8' },
       ),
       [includeClipsFrom, includeClipsUntil],
+    ),
+  )
+
+export const fetchLocalesWithVotes = (
+  includeVotesFrom: string,
+  includeVotesUntil: string,
+) =>
+  pipe(
+    query<[LocaleVoteCount]>(
+      fs.readFileSync(
+        path.join(getQueriesDir(), 'getLocalesWithVotes.sql'),
+        { encoding: 'utf-8' },
+      ),
+      [includeVotesFrom, includeVotesUntil],
     ),
   )
 
@@ -42,24 +62,27 @@ export const fetchLocalesWithLicensedClips = (
 // ---------------------------------------------------------------------------
 // Delta locale selection
 // ---------------------------------------------------------------------------
-// Delta releases should only include locales that existed in the previous
-// release (i.e., had clips before the delta window). New locales that got
-// their first clips during the delta window belong in the next full release.
-// Locales with 0 new clips still get a "clipless delta" (metadata-only).
+// Delta releases only include locales that existed in the previous release
+// (i.e., had clips before the delta window). New locales that got their first
+// clips during the delta window belong in the next full release.
+//
+// Passive locales (0 new clips AND 0 new votes) are skipped entirely -- they
+// would produce identical output to the previous release. Only locales with
+// at least one new clip or vote are enqueued.
 //
 // Boundary note: fetchLocalesWithClips(EPOCH, deltaFrom) uses SQL BETWEEN
 // (inclusive). If the previous full release's `until` extends beyond
 // `deltaFrom` (e.g. same day 23:59:59 vs 00:00:00), a locale whose only
-// clips fall in that gap could be missed. In practice this is negligible —
+// clips fall in that gap could be missed. In practice this is negligible --
 // production locales have clips spanning months/years.
 // ---------------------------------------------------------------------------
 
 const EPOCH = '1970-01-01 00:00:00'
 
 /**
- * For delta releases: fetch only locales that existed before the delta window.
- * Returns previous-release locales with their new clip count in the delta
- * window (0 for clipless deltas).
+ * For delta releases: fetch only locales that existed before the delta window
+ * AND have at least one new clip or vote in the delta window.
+ * Passive locales (no clips, no votes) are skipped with a log message.
  */
 export const fetchDeltaLocales = (
   deltaFrom: string,
@@ -69,19 +92,39 @@ export const fetchDeltaLocales = (
     TE.Do,
     TE.bind('prevLocales', () => fetchLocalesWithClips(EPOCH, deltaFrom)),
     TE.bind('deltaClips', () => fetchLocalesWithClips(deltaFrom, deltaUntil)),
-    TE.map(({ prevLocales, deltaClips }) => {
-      const deltaMap = new Map(deltaClips.map(l => [l.name, l.clip_count]))
-      return prevLocales.map(l => ({
-        name: l.name,
-        clip_count: deltaMap.get(l.name) ?? 0,
-      }))
+    TE.bind('deltaVotes', () => fetchLocalesWithVotes(deltaFrom, deltaUntil)),
+    TE.map(({ prevLocales, deltaClips, deltaVotes }) => {
+      const clipMap = new Map(deltaClips.map(l => [l.name, l.clip_count]))
+      const voteMap = new Map(deltaVotes.map(l => [l.name, l.vote_count]))
+
+      const active: LocalesWithClips[] = []
+      const skipped: string[] = []
+
+      for (const l of prevLocales) {
+        const clips = clipMap.get(l.name) ?? 0
+        const votes = voteMap.get(l.name) ?? 0
+        if (clips > 0 || votes > 0) {
+          active.push({ name: l.name, clip_count: clips })
+        } else {
+          skipped.push(l.name)
+        }
+      }
+
+      if (skipped.length > 0) {
+        logger.info(
+          'SKIP',
+          `${skipped.length} passive locale(s) skipped (no new clips or votes): ${skipped.join(', ')}`,
+        )
+      }
+
+      return active
     }),
   )
 
 /**
  * For delta releases: fetch only licensed locale-license combos that existed
- * before the delta window. Returns previous-release combos with their new
- * clip count in the delta window (0 for clipless deltas).
+ * before the delta window AND have at least one new clip or vote.
+ * Passive locales are skipped (vote check is per-locale, not per-license).
  */
 export const fetchDeltaLicensedLocales = (
   deltaFrom: string,
@@ -91,14 +134,33 @@ export const fetchDeltaLicensedLocales = (
     TE.Do,
     TE.bind('prevLocales', () => fetchLocalesWithLicensedClips(EPOCH, deltaFrom)),
     TE.bind('deltaClips', () => fetchLocalesWithLicensedClips(deltaFrom, deltaUntil)),
-    TE.map(({ prevLocales, deltaClips }) => {
+    TE.bind('deltaVotes', () => fetchLocalesWithVotes(deltaFrom, deltaUntil)),
+    TE.map(({ prevLocales, deltaClips, deltaVotes }) => {
       const key = (l: { name: string; license: string }) => `${l.name}|${l.license}`
-      const deltaMap = new Map(deltaClips.map(l => [key(l), l.clip_count]))
-      return prevLocales.map(l => ({
-        name: l.name,
-        license: l.license,
-        clip_count: deltaMap.get(key(l)) ?? 0,
-      }))
+      const clipMap = new Map(deltaClips.map(l => [key(l), l.clip_count]))
+      const voteMap = new Map(deltaVotes.map(l => [l.name, l.vote_count]))
+
+      const active: LocaleWithLicense[] = []
+      const skipped: string[] = []
+
+      for (const l of prevLocales) {
+        const clips = clipMap.get(key(l)) ?? 0
+        const votes = voteMap.get(l.name) ?? 0
+        if (clips > 0 || votes > 0) {
+          active.push({ name: l.name, license: l.license, clip_count: clips })
+        } else {
+          skipped.push(`${l.name}|${l.license}`)
+        }
+      }
+
+      if (skipped.length > 0) {
+        logger.info(
+          'SKIP',
+          `${skipped.length} passive licensed locale(s) skipped (no new clips or votes): ${skipped.join(', ')}`,
+        )
+      }
+
+      return active
     }),
   )
 
