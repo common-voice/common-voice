@@ -3,28 +3,6 @@ import { io as IO } from 'fp-ts'
 
 const TMP_DIR = '/cache'
 
-// ---------------------------------------------------------------------------
-// Time-unit enums
-// ---------------------------------------------------------------------------
-
-/** Duration constants in milliseconds. */
-export enum TimeUnitsMs {
-  SECOND = 1_000,
-  MINUTE = 60_000,
-  HOUR = 3_600_000,
-  DAY = 86_400_000,
-  WEEK = 604_800_000,
-}
-
-/** Duration constants in seconds. */
-export enum TimeUnitsSec {
-  SECOND = 1,
-  MINUTE = 60,
-  HOUR = 3_600,
-  DAY = 86_400,
-  WEEK = 604_800,
-}
-
 export type LogLevel = 'debug' | 'info' | 'warn' | 'error' | 'silent'
 
 export type DbConfig = {
@@ -44,110 +22,6 @@ export type Config = {
   clipsBucketName: string
   datasetBundlerBucketName: string
   storageLocalEndpoint: string
-}
-
-// Base URL for pre-compiled datasheets JSON files in the cv-datasheets repo.
-// The filename (e.g. "datasheets-2026-03-06.json") is provided via CLI.
-// Override via DATASHEETS_BASE_URL env var to point to an unmerged branch or commit:
-//   DATASHEETS_BASE_URL=https://raw.githubusercontent.com/common-voice/cv-datasheets/<commit>/releases
-export const DATASHEETS_BASE_URL =
-  process.env.DATASHEETS_BASE_URL ||
-  'https://raw.githubusercontent.com/common-voice/cv-datasheets/main/releases'
-
-export type Modality = 'scripted' | 'spontaneous' | 'code_switching'
-
-// Maps CLI modality names to the keys used in datasheets.json.
-// Once cv-datasheets adopts the canonical names this map can be removed.
-export const MODALITY_TO_DATASHEETS_KEY: Record<Modality, string> = {
-  scripted: 'scs',
-  spontaneous: 'sps',
-  code_switching: 'cs',
-}
-
-// ---------------------------------------------------------------------------
-// BullMQ lock settings
-// ---------------------------------------------------------------------------
-
-/** Lock duration for BullMQ worker jobs. Must match LOCK_EXTEND_MS. */
-export const BULLMQ_LOCK_DURATION_MS = 600_000 // 10 min
-
-/** Amount to extend the lock by on each renewal. Must equal BULLMQ_LOCK_DURATION_MS. */
-export const LOCK_EXTEND_MS = BULLMQ_LOCK_DURATION_MS
-
-/** Interval between lock extension attempts. Must be < BULLMQ_LOCK_DURATION_MS. */
-export const LOCK_EXTEND_INTERVAL_MS = 300_000 // 5 min
-
-// ---------------------------------------------------------------------------
-// Redlock settings
-// ---------------------------------------------------------------------------
-
-export const REDLOCK_RETRY_COUNT = 10 // max attempts before giving up
-export const REDLOCK_RETRY_DELAY_MS = 500 // ms between attempts
-export const REDLOCK_RETRY_JITTER_MS = 100 // +/- random jitter to spread concurrent retries
-
-// Audio clip quality thresholds
-export const MIN_AUDIO_SIZE_BYTES = 256 // GCS objects at or below this size are considered corrupt
-export const MIN_AUDIO_DURATION_MS = 500 // clips below this duration are flagged TOO_SHORT (WARN)
-export const CLIP_DURATION_WARN_MS = 17_000 // clips above this duration are flagged LONG (WARN)
-export const MAX_AUDIO_DURATION_MS = 30_000 // clips above this duration are excluded (TOO_LONG / EXCLUDED)
-
-// ---------------------------------------------------------------------------
-// Release logging
-// ---------------------------------------------------------------------------
-
-/** Upload a GCS snapshot of accumulated logs every N completed locales. */
-export const RELEASE_LOG_FLUSH_INTERVAL = 10
-
-/**
- * TTL applied to all release-scoped Redis keys.
- * Keeps data accessible for post-release review without permanent accumulation.
- */
-export const RELEASE_LOG_KEY_TTL_SEC = TimeUnitsSec.WEEK
-
-// ---------------------------------------------------------------------------
-// Redis key builders
-//
-// Prefix `scripted:` namespaces keys for the scripted-speech bundler.
-// Future bundlers (SPS, CS) can use their own prefix without colliding.
-// ---------------------------------------------------------------------------
-
-const REDIS_PREFIX = 'scripted'
-
-export const redisKeys = {
-  /** List of serialised TSV rows for the problem-clips report. */
-  problemClips: (releaseName: string) =>
-    `${REDIS_PREFIX}:log:problem-clips:${releaseName}`,
-  /** List of serialised TSV rows for the process-log report. */
-  processLog: (releaseName: string) =>
-    `${REDIS_PREFIX}:log:process:${releaseName}`,
-  /** Counter -- number of locale jobs completed (incremented by each pod). */
-  localeCount: (releaseName: string) =>
-    `${REDIS_PREFIX}:jobs:count:${releaseName}`,
-  /** Total locale jobs scheduled (accumulated with INCRBY across batches). */
-  localeTotal: (releaseName: string) =>
-    `${REDIS_PREFIX}:jobs:total:${releaseName}`,
-  /** Counter -- cumulative clips processed across completed jobs. */
-  clipsCount: (releaseName: string) =>
-    `${REDIS_PREFIX}:clips:count:${releaseName}`,
-  /** Total expected clips (accumulated with INCRBY from init query results). */
-  clipsTotal: (releaseName: string) =>
-    `${REDIS_PREFIX}:clips:total:${releaseName}`,
-  /** ISO 8601 timestamp of the first init job (SET NX -- never overwritten). */
-  timeStart: (releaseName: string) =>
-    `${REDIS_PREFIX}:time:start:${releaseName}`,
-  /**
-   * SET of locale names that have been successfully processed.
-   * Used as a fast-path duplicate check before the authoritative GCS call.
-   */
-  done: (releaseName: string) => `${REDIS_PREFIX}:done:${releaseName}`,
-  /**
-   * SET of locale identifiers currently being processed.
-   * Guards against duplicate processing when BullMQ re-dispatches a job
-   * after its lock key is evicted by Redis LRU. Cleared by the init
-   * handler on each new run so that re-runs can reprocess failed locales.
-   */
-  processing: (releaseName: string) =>
-    `${REDIS_PREFIX}:processing:${releaseName}`,
 }
 
 const resolveLogLevel = (env: string): LogLevel => {
