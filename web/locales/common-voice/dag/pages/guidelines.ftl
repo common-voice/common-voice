@@ -101,6 +101,7 @@ what-makes-a-good-question-explanation = Bɔhagu din tu kamaata zaŋ ti sokam nu
 what-makes-a-good-question-explanation-criteria-1 = Ka di mali gbaabu ni garigibu
 what-makes-a-good-question-explanation-criteria-2 = Di tu ni di mali anfaani
 what-makes-a-good-question-explanation-criteria-3 = Di bi tum,bee bɔ n ti,barina bee suhu yisili balla
+what-makes-a-good-question-tip = A ni tooi bori ni a sɔŋ n mali yaɣli kam zali domainim puuni
 easy-to-understand = Di gbaabu bi to
 easy-to-understand-explanation = piimi bɔh' shɛŋa din m bali n-ti daadam bia kam, din bi n doli kaya ni taɣada bee
 spelling-and-pronunciation = bachiyisibu mini bihibahibu
