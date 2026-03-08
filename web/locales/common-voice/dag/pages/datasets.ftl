@@ -68,6 +68,7 @@ dataset-donate-modal-heading = a di mi?
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold>A nini yi tiɣi nyin yooma, lahabali din bɛni- timi zuŋo!</bold>
 data-download-singleword-title = ti voorila yɛl'tɔɣi gaŋa maa nini ni kuli kpa shɛli
+data-download-singleword-callout-v2 = Ŋɔ maa nyɛla tuma tuma nima yaɣili din mali "data" din ni tooi baŋ di kalinli din yara ni iin bee aayi.
 data-download-button = Yaami binshɛli din nyɛ kukɔli yaabu.
 data-download-yes = Iin
 data-download-deny = Aayi
