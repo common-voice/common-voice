@@ -4,7 +4,7 @@ import { pipe, constVoid } from 'fp-ts/lib/function'
 import { processLocale } from './processor'
 import { processVariants } from './processVariants'
 import { addJobsToReleaseQueue, cleanStaleJobs } from '../infrastructure/queue'
-import { getRedisUrl, redisKeys } from '../config/config'
+import { BULLMQ_LOCK_DURATION_MS, getRedisUrl, redisKeys } from '../config/config'
 import { generateStatistics } from './generateStatistics'
 import { logger } from '../infrastructure/logger'
 import { redisClient } from '../infrastructure/redis'
@@ -104,7 +104,7 @@ export const createWorker: IO.IO<void> = () => {
       // lockDuration is kept moderate to reduce "could not renew lock" log spam.
       // removeOnComplete/Fail keeps Redis lean (fewer keys -> less LRU pressure).
       // ---------------------------------------------------------------------------
-      lockDuration: 600_000, // 10 min -- reduces log spam from renewal failures
+      lockDuration: BULLMQ_LOCK_DURATION_MS,
       removeOnComplete: { age: 3_600, count: 1_000 }, // clean up after 1 hour
       removeOnFail: { age: 3_600, count: 1_000 },
     },

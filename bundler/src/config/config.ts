@@ -64,6 +64,27 @@ export const MODALITY_TO_DATASHEETS_KEY: Record<Modality, string> = {
   code_switching: 'cs',
 }
 
+// ---------------------------------------------------------------------------
+// BullMQ lock settings
+// ---------------------------------------------------------------------------
+
+/** Lock duration for BullMQ worker jobs. Must match LOCK_EXTEND_MS. */
+export const BULLMQ_LOCK_DURATION_MS = 600_000 // 10 min
+
+/** Amount to extend the lock by on each renewal. Must equal BULLMQ_LOCK_DURATION_MS. */
+export const LOCK_EXTEND_MS = BULLMQ_LOCK_DURATION_MS
+
+/** Interval between lock extension attempts. Must be < BULLMQ_LOCK_DURATION_MS. */
+export const LOCK_EXTEND_INTERVAL_MS = 300_000 // 5 min
+
+// ---------------------------------------------------------------------------
+// Redlock settings
+// ---------------------------------------------------------------------------
+
+export const REDLOCK_RETRY_COUNT = 10 // max attempts before giving up
+export const REDLOCK_RETRY_DELAY_MS = 500 // ms between attempts
+export const REDLOCK_RETRY_JITTER_MS = 100 // +/- random jitter to spread concurrent retries
+
 // Audio clip quality thresholds
 export const MIN_AUDIO_SIZE_BYTES = 256 // GCS objects at or below this size are considered corrupt
 export const MIN_AUDIO_DURATION_MS = 500 // clips below this duration are flagged TOO_SHORT (WARN)
