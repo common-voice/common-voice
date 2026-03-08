@@ -25,23 +25,42 @@ export const createWorker: IO.IO<void> = () => {
           if (s.previousReleaseName) {
             logger.info('', `  PREV: ${s.previousReleaseName}`)
           }
+          if (s.force) {
+            logger.info('', '  MODE: --force (re-create all, overwrite GCS)')
+          }
           logger.info('', dash)
 
           // Clear the processing SET(s) from any previous run so re-runs can
           // reprocess locales that were left in-progress when a pod died.
           // processor.ts uses an effective releaseName (e.g. "<release>-licensed"
           // for licensed jobs), so we clear all variants this run might use.
-          const processingNames = [s.releaseName]
+          const releaseNames = [s.releaseName]
           if (s.licenseMode === 'licensed' || s.licenseMode === 'both') {
-            processingNames.push(`${s.releaseName}-licensed`)
+            releaseNames.push(`${s.releaseName}-licensed`)
           }
-          for (const name of processingNames) {
+          if (s.type === 'variants') {
+            releaseNames.push(`${s.releaseName}-variants`)
+          }
+          for (const name of releaseNames) {
             const cleared = await redisClient.del(redisKeys.processing(name))
             if (cleared > 0) {
               logger.info(
                 'WORKER',
                 `Cleared processing guard for "${name}" (previous run cleanup)`,
               )
+            }
+          }
+
+          // --force: also clear the done SET so every locale is re-processed.
+          if (s.force) {
+            for (const name of releaseNames) {
+              const cleared = await redisClient.del(redisKeys.done(name))
+              if (cleared > 0) {
+                logger.info(
+                  'WORKER',
+                  `Cleared done SET for "${name}" (--force)`,
+                )
+              }
             }
           }
 

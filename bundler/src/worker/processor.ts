@@ -165,39 +165,41 @@ export const processLocale = async (job: Job<ProcessLocaleJob>, token?: string) 
   const { locale, releaseName, uploadPath } = env
 
   logger.info('', '-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --')
-  logger.info('PROCESSOR', `[${locale}] ${env.type} job | ${env.license ?? 'unlicensed'} | -> ${uploadPath}`)
+  logger.info('PROCESSOR', `[${locale}] ${env.type} job | ${env.license ?? 'unlicensed'}${env.force ? ' | FORCE' : ''} | -> ${uploadPath}`)
 
   // The member key includes the license so that different license jobs for the
   // same locale are tracked independently (e.g. "en|CC-BY 4.0" vs "en").
   const doneMember = env.license ? `${locale}|${env.license}` : locale
 
-  // Fast-path: Redis done SET (~1 ms). Skips the GCS round-trip entirely.
-  const isDoneInRedis =
-    (await redisClient.sismember(redisKeys.done(releaseName), doneMember)) > 0
+  // --force bypasses both the Redis done-SET and GCS existence checks,
+  // re-creating the release from scratch and overwriting any existing archive.
+  if (!env.force) {
+    // Fast-path: Redis done SET (~1 ms). Skips the GCS round-trip entirely.
+    const isDoneInRedis =
+      (await redisClient.sismember(redisKeys.done(releaseName), doneMember)) > 0
 
-  if (isDoneInRedis) {
-    logger.info('PROCESSOR', `[${locale}] Release ${uploadPath} exists already, skipping`)
-    env.clipCount = job.data.expectedClipCount ?? 0
-    await flushReleaseLogs(env, 'skipped')
-    return
-  }
+    if (isDoneInRedis) {
+      logger.info('PROCESSOR', `[${locale}] Release ${uploadPath} exists already, skipping`)
+      env.clipCount = job.data.expectedClipCount ?? 0
+      await flushReleaseLogs(env, 'skipped')
+      return
+    }
 
-  // Authoritative check: GCS file existence. Backfill the done SET so future
-  // checks use the fast path.
-  const releaseExistsAlready = await pipe(
-    doesFileExistInBucket(getDatasetBundlerBucketName())(uploadPath),
-    TE.getOrElse(() => T.of(false)),
-  )()
+    // Authoritative check: GCS file existence. Backfill the done SET so future
+    // checks use the fast path.
+    const releaseExistsAlready = await pipe(
+      doesFileExistInBucket(getDatasetBundlerBucketName())(uploadPath),
+      TE.getOrElse(() => T.of(false)),
+    )()
 
-  if (releaseExistsAlready) {
-    await redisClient.sadd(redisKeys.done(releaseName), doneMember)
-    await redisClient.expire(redisKeys.done(releaseName), RELEASE_LOG_KEY_TTL_SEC)
-    logger.info('PROCESSOR', `[${locale}] Release ${uploadPath} exists already, skipping`)
-    // Credit the expected clip count so the progress bar advances for skipped jobs.
-    // Without this, clipsDone never reaches clipsTotal and the bar freezes.
-    env.clipCount = job.data.expectedClipCount ?? 0
-    await flushReleaseLogs(env, 'skipped')
-    return
+    if (releaseExistsAlready) {
+      await redisClient.sadd(redisKeys.done(releaseName), doneMember)
+      await redisClient.expire(redisKeys.done(releaseName), RELEASE_LOG_KEY_TTL_SEC)
+      logger.info('PROCESSOR', `[${locale}] Release ${uploadPath} exists already, skipping`)
+      env.clipCount = job.data.expectedClipCount ?? 0
+      await flushReleaseLogs(env, 'skipped')
+      return
+    }
   }
 
   // Guard against duplicate processing from BullMQ stall re-dispatch.

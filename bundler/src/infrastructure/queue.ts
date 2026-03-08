@@ -261,8 +261,14 @@ export const addJobsToReleaseQueue = (settings: Settings) =>
     // Pre-filter: exclude jobs whose locale is already in the Redis done SET.
     // This avoids dispatching hundreds of no-op jobs on re-runs and keeps
     // localeTotal / clipsTotal / timeStart accurate for progress & ETA.
+    // Skipped entirely when --force is set (all jobs are scheduled).
     TE.bind('pendingJobs', ({ jobs }) =>
       TE.tryCatch(async () => {
+        if (settings.force) {
+          logger.info('QUEUE', `--force: scheduling all ${jobs.length} locale(s), no pre-filter`)
+          return jobs
+        }
+
         const nameForJob = (job: ProcessLocaleJob): string =>
           settings.type === 'variants'
             ? `${settings.releaseName}-variants`
