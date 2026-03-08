@@ -2,6 +2,7 @@
 
 datasets-heading = lahabali kpanjɔɣu
 datasets-headline = Ti namdila zuliya bɔbigu bala, sokam ni ni tooi n tohi kukɔli kpanjɔɣu shɛli zuɣu ti zaŋ n-wuhi maʒina shɛŋa din ni tooi n-yɛli yɛltɔɣa.
+datasets-positioning = Din galisi,So kam sani niŋ bayana n-ti kukoya din pu n doya ni che ka baŋsim pahira mini kpaɣibo din mali alaafee zaŋ kana mazeni-bohambu yɛltɔɣ' tabibi baŋsim polo.common voice tuma din pun doya nyala din galisi,amaa ka lee pa di koŋko.
 # New/upcoming datasets page headline
 datasets-headline-mdc = Mozilla Common Voice kpanjɔɣu pa nyɛla din m-be Mozilla Data Collective puuni ko.
 datasets-speech-bubble-content = Suhupiɛlli lahibali! Diri n toli fiila nyɛla din m-be soli! Na kuli n-gbulisimi tibili lahibaya na nyɛla din m-be soli ka lahi kpaŋ a maŋa ka a yuli ti <discordLink>Discord</discordLink> n wum lahibaya din yoil n kpɛna.
