@@ -5,7 +5,6 @@ import { Job } from 'bullmq'
 import { pipe } from 'fp-ts/lib/function'
 import { readerTaskEither as RTE } from 'fp-ts'
 import { logger } from '../infrastructure/logger'
-
 import { runFetchAllClipsForLocale } from '../core/clips'
 import { isMinorityLanguage } from '../core/ruleOfFive'
 import { AppEnv, ProcessLocaleJob } from '../types'
@@ -158,7 +157,10 @@ export const deriveJobEnv = (
   }
 }
 
-export const processLocale = async (job: Job<ProcessLocaleJob>) => {
+const LOCK_EXTEND_MS = 600_000 // must match worker lockDuration
+const LOCK_EXTEND_INTERVAL_MS = 300_000 // 5 min -- must be < lockDuration
+
+export const processLocale = async (job: Job<ProcessLocaleJob>, token?: string) => {
   const env = deriveJobEnv(job.data, getTmpDir())
   const { locale, releaseName, uploadPath } = env
 
@@ -216,6 +218,20 @@ export const processLocale = async (job: Job<ProcessLocaleJob>) => {
     return
   }
 
+  // Timer-based lock extension: covers all pipeline steps uniformly
+  // (download, merge, compress, upload, CorporaCreator subprocess, etc.)
+  // without threading a callback through every function signature.
+  const lockTimer = token
+    ? setInterval(async () => {
+        try {
+          await job.extendLock(token, LOCK_EXTEND_MS)
+        } catch {
+          // Lock may already be lost (LRU eviction); processing SET guard
+          // prevents duplicates. worker.on('error') handles logging.
+        }
+      }, LOCK_EXTEND_INTERVAL_MS)
+    : undefined
+
   try {
     const result = await processPipeline(env)()
     if (E.isRight(result)) {
@@ -231,6 +247,7 @@ export const processLocale = async (job: Job<ProcessLocaleJob>) => {
     }
     await flushReleaseLogs(env, E.isRight(result) ? 'success' : 'error')
   } finally {
+    if (lockTimer) clearInterval(lockTimer)
     // Remove from processing SET (done or failed -- either way, no longer active).
     await redisClient.srem(redisKeys.processing(releaseName), doneMember)
   }

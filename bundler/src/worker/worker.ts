@@ -12,7 +12,7 @@ import { redisClient } from '../infrastructure/redis'
 export const createWorker: IO.IO<void> = () => {
   const worker = new Worker(
     'datasetRelease',
-    async job => {
+    async (job, token) => {
       switch (job.name) {
         case 'init': {
           const s = job.data
@@ -60,7 +60,7 @@ export const createWorker: IO.IO<void> = () => {
           )()
         }
         case 'processLocale': {
-          return processLocale(job)
+          return processLocale(job, token)
         }
         case 'generateStatistics': {
           return generateStatistics(job)
