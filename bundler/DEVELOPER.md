@@ -62,7 +62,12 @@ Variant releases produce one tarball per (locale, variant) combination. Requires
 bundler/
 ├── src/
 │   ├── cli/                  # CLI tools (start-dataset-release, calculateDurations)
-│   ├── config/               # Runtime configuration (env vars, constants)
+│   ├── config/               # Runtime configuration (env vars, constants, Redis keys)
+│   │   ├── index.ts          # Barrel re-export
+│   │   ├── config.ts         # Env-var parsing, IO getters, Config/DbConfig types
+│   │   ├── constants.ts      # Time enums, lock/redlock, audio thresholds, release log settings
+│   │   ├── datasheets.ts     # DATASHEETS_BASE_URL, Modality, modality-key mapping
+│   │   └── redisKeys.ts      # Redis key builders (scripted: namespace)
 │   ├── core/                 # Domain logic
 │   │   ├── clips.ts          # Clip download, TSV streaming, minority-language filter
 │   │   ├── compress.ts       # tar.gz creation and filename helpers
