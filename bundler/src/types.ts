@@ -72,6 +72,7 @@ export type Settings = {
   licenseMode?: LicenseMode
   modality?: Modality
   datasheetsFile?: string // e.g. "datasheets-2026-03-06.json"
+  force?: boolean // bypass done-SET + GCS existence checks; re-create and overwrite
 }
 
 export type DatasheetLocalePayload = {

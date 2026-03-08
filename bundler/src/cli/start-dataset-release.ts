@@ -64,6 +64,7 @@ const startDatasetRelease = async (args: any) => {
     languages: args.languages || [],
     licenseMode: args.licenseMode || 'unlicensed',
     datasheetsFile: args.datasheetsFile,
+    force: args.force || false,
   }
 
   const queue = new Queue('datasetRelease', {
@@ -122,6 +123,14 @@ program
     Example filename: 'datasheets-2026-03-09.json'
     Example URL: 'https://raw.githubusercontent.com/common-voice/cv-datasheets/<commit>/releases/datasheets-2026-03-09.json'
     `,
+  )
+  .option(
+    '--force',
+    `
+    Bypass all existence checks and re-create release tarballs from scratch.
+    Overwrites any existing archives in GCS. Useful for fixing corrupt releases.
+    `,
+    false,
   )
   .addOption(
     new Option(
