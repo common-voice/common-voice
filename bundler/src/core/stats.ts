@@ -4,7 +4,7 @@ import { pipe } from 'fp-ts/lib/function'
 import { calculateChecksum, getFileSize } from '../infrastructure/filesystem'
 import { AppEnv } from '../types'
 import { uploadToBucket } from '../infrastructure/storage'
-import { getDatasetBundlerBucketName } from '../config/config'
+import { getDatasetBundlerBucketName } from '../config'
 import type { Buckets, LocaleReleaseData } from './localeData'
 import { logger } from '../infrastructure/logger'
 

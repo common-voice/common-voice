@@ -33,7 +33,7 @@ import {
   LOCK_EXTEND_INTERVAL_MS,
   RELEASE_LOG_KEY_TTL_SEC,
   redisKeys,
-} from '../config/config'
+} from '../config'
 import { runFetchSentencesForLocale } from '../core/sentences'
 import { fetchLocaleMetadata } from '../core/locales'
 

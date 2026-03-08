@@ -1,5 +1,5 @@
 import * as os from 'node:os'
-import { LogLevel, getLogLevel } from '../config/config'
+import { LogLevel, getLogLevel } from '../config'
 
 const LEVEL_RANK: Record<LogLevel, number> = {
   debug: 0,

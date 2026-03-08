@@ -1,6 +1,6 @@
 import * as mysql from 'mysql2'
 import { taskEither as TE } from 'fp-ts'
-import { getDbConfig } from '../config/config'
+import { getDbConfig } from '../config'
 
 const DB_CONFIG: mysql.ConnectionOptions = getDbConfig()
 

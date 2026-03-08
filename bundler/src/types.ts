@@ -1,4 +1,4 @@
-import { Modality } from './config/config'
+import { Modality } from './config'
 import type { LocaleReleaseData } from './core/localeData'
 
 export const ProblemClipReason = {

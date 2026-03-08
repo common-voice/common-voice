@@ -9,7 +9,7 @@ import {
   fetchDeltaLicensedLocales,
 } from '../core/locales'
 import { DatasheetLocalePayload, ProcessLocaleJob, Settings } from '../types'
-import { getRedisUrl, RELEASE_LOG_KEY_TTL_SEC, redisKeys } from '../config/config'
+import { getRedisUrl, RELEASE_LOG_KEY_TTL_SEC, redisKeys } from '../config'
 import { logger } from './logger'
 import { fetchDatasheetsPayloads } from './datasheetsFetcher'
 import { redisClient } from './redis'

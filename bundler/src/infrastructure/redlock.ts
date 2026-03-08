@@ -4,7 +4,7 @@ import {
   REDLOCK_RETRY_COUNT,
   REDLOCK_RETRY_DELAY_MS,
   REDLOCK_RETRY_JITTER_MS,
-} from '../config/config'
+} from '../config'
 import { redisClient } from './redis'
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any

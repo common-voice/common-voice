@@ -14,7 +14,7 @@ import {
   getTmpDir,
   RELEASE_LOG_KEY_TTL_SEC,
   redisKeys,
-} from '../config/config'
+} from '../config'
 import { generateTarFilename } from '../core/compress'
 import { doesFileExistInBucket, streamDownloadFileFromBucket } from '../infrastructure/storage'
 import { redisClient } from '../infrastructure/redis'

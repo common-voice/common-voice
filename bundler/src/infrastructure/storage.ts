@@ -1,7 +1,7 @@
 import { Storage } from '@google-cloud/storage'
 import { taskEither as TE } from 'fp-ts'
 import { Readable } from 'stream'
-import { getEnvironment, getStorageLocalEndpoint } from '../config/config'
+import { getEnvironment, getStorageLocalEndpoint } from '../config'
 import { logger } from './logger'
 
 export type Metadata = { size: string; crc32c: string }

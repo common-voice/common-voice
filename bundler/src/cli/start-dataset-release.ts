@@ -1,7 +1,7 @@
 import 'dotenv/config'
 import { program, Option } from 'commander'
 import { Queue } from 'bullmq'
-import { getRedisUrl } from '../config/config'
+import { getRedisUrl } from '../config'
 import type { Settings } from '../types'
 
 const startDatasetRelease = async (args: any) => {

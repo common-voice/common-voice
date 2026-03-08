@@ -11,7 +11,7 @@ import {
   MIN_AUDIO_DURATION_MS,
   RELEASE_LOG_KEY_TTL_SEC,
   redisKeys,
-} from '../config/config'
+} from '../config'
 import { redisClient } from '../infrastructure/redis'
 import { logger } from '../infrastructure/logger'
 
