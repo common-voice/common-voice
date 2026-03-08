@@ -73,7 +73,11 @@ export const generateStatistics = async (job: Job<ProcessLocaleJob>) => {
       `Cannot generate statistics for ${uploadPath}: tarball does not exist`,
     )
     return
-  } else {
-    await generateStatisticsPipeline(env)()
   }
+
+  if (job.data.force) {
+    logger.info('STATS', `[${locale}] --force: re-generating statistics for ${uploadPath}`)
+  }
+
+  await generateStatisticsPipeline(env)()
 }

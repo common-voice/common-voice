@@ -474,34 +474,37 @@ export const processVariants = async (job: Job<ProcessLocaleJob>) => {
     logger.info('', '-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --')
     logger.info(
       'VARIANTS',
-      `[${compoundLocale}] Processing variant: ${variant.variantName} (${variant.clipCount} clips)`,
+      `[${compoundLocale}] Processing variant: ${variant.variantName} (${variant.clipCount} clips)${job.data.force ? ' | FORCE' : ''}`,
     )
 
     try {
       // 5a. Skip check: Redis done-set + GCS existence
-      const isDoneInRedis =
-        (await redisClient.sismember(redisKeys.done(effectiveReleaseName), compoundLocale)) > 0
+      // --force bypasses both checks, re-creating and overwriting the variant tarball.
+      if (!job.data.force) {
+        const isDoneInRedis =
+          (await redisClient.sismember(redisKeys.done(effectiveReleaseName), compoundLocale)) > 0
 
-      if (isDoneInRedis) {
-        logger.info('VARIANTS', `[${compoundLocale}] Already done (Redis), skipping`)
-        await flushReleaseLogs(env, 'skipped')
-        continue
-      }
+        if (isDoneInRedis) {
+          logger.info('VARIANTS', `[${compoundLocale}] Already done (Redis), skipping`)
+          await flushReleaseLogs(env, 'skipped')
+          continue
+        }
 
-      const variantTarFilename = generateTarFilename(compoundLocale, releaseName)
-      const variantGcsPath = `${effectiveReleaseName}/${variantTarFilename}`
+        const variantTarFilename = generateTarFilename(compoundLocale, releaseName)
+        const variantGcsPath = `${effectiveReleaseName}/${variantTarFilename}`
 
-      const existsInGcs = await pipe(
-        doesFileExistInBucket(bucketName)(variantGcsPath),
-        TE.getOrElse(() => T.of(false)),
-      )()
+        const existsInGcs = await pipe(
+          doesFileExistInBucket(bucketName)(variantGcsPath),
+          TE.getOrElse(() => T.of(false)),
+        )()
 
-      if (existsInGcs) {
-        await redisClient.sadd(redisKeys.done(effectiveReleaseName), compoundLocale)
-        await redisClient.expire(redisKeys.done(effectiveReleaseName), RELEASE_LOG_KEY_TTL_SEC)
-        logger.info('VARIANTS', `[${compoundLocale}] Already exists in GCS, skipping`)
-        await flushReleaseLogs(env, 'skipped')
-        continue
+        if (existsInGcs) {
+          await redisClient.sadd(redisKeys.done(effectiveReleaseName), compoundLocale)
+          await redisClient.expire(redisKeys.done(effectiveReleaseName), RELEASE_LOG_KEY_TTL_SEC)
+          logger.info('VARIANTS', `[${compoundLocale}] Already exists in GCS, skipping`)
+          await flushReleaseLogs(env, 'skipped')
+          continue
+        }
       }
 
       // 5b. Filter clips.tsv for this variant
