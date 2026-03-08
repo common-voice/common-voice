@@ -3,7 +3,7 @@ import * as path from 'node:path'
 import { pipe } from 'fp-ts/lib/function'
 import { taskEither as TE } from 'fp-ts'
 import { query } from '../infrastructure/database'
-import { getQueriesDir } from '../config/config'
+import { getQueriesDir } from '../config'
 import { LocaleWithLicense, VariantInfo } from '../types'
 import { logger } from '../infrastructure/logger'
 

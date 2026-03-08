@@ -1,6 +1,6 @@
 import * as fs from 'node:fs'
 
-import { TimeUnitsMs, TimeUnitsSec } from '../config/config'
+import { TimeUnitsMs, TimeUnitsSec } from '../config'
 
 // -- Filesystem --------------------------------------------------------------
 

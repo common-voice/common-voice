@@ -29,7 +29,7 @@ import {
   getQueriesDir,
   getTmpDir,
   MIN_AUDIO_SIZE_BYTES,
-} from '../config/config'
+} from '../config'
 import { prepareDir, rmFilepath } from '../infrastructure/filesystem'
 import { generateTarFilename } from './compress'
 import { extractTar } from '../infrastructure/tar'

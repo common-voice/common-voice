@@ -38,6 +38,7 @@ cd bundler/js/cli    # local
 | `-f <datetime>`    | `delta` only                     | Start of clip time window (defaults to epoch)           |
 | `-l <locales...>`  | optional                         | Restrict to specific locales                            |
 | `--license-mode`   | optional (default: `unlicensed`) | `unlicensed`, `licensed`, or `both`                     |
+| `--force`          | optional                         | Re-create all tarballs, overwriting existing GCS files  |
 
 ### Datasheets (`-d`)
 
@@ -114,6 +115,19 @@ node start-dataset-release.js \
 node start-dataset-release.js \
   -t statistics -u '2026-03-09 23:59:59' \
   -r cv-corpus-25.0-2026-03-09
+
+# Re-create a corrupt release (overwrites existing GCS files)
+node start-dataset-release.js \
+  -t full -u '2026-03-09 23:59:59' \
+  -r cv-corpus-25.0-2026-03-09 -p cv-corpus-24.0-2025-12-05 \
+  -d 'datasheets-2026-03-09.json' --force
+
+# Re-create specific locales only
+node start-dataset-release.js \
+  -t full -u '2026-03-09 23:59:59' \
+  -r cv-corpus-25.0-2026-03-09 -p cv-corpus-24.0-2025-12-05 \
+  -d 'datasheets-2026-03-09.json' \
+  -l en tr --force
 ```
 
 ---

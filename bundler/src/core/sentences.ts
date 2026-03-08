@@ -5,7 +5,7 @@ import { Transform } from 'node:stream'
 
 import { readerTaskEither as RTE, taskEither as TE } from 'fp-ts'
 import { streamingQuery } from '../infrastructure/database'
-import { getQueriesDir } from '../config/config'
+import { getQueriesDir } from '../config'
 import { stringify } from 'csv-stringify'
 import { AppEnv, ValidatedSentence, UnvalidatedSentence } from '../types'
 import { pipe } from 'fp-ts/lib/function'

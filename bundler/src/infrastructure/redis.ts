@@ -1,6 +1,6 @@
 import Redis from 'ioredis'
 
-import { getRedisUrl } from '../config/config'
+import { getRedisUrl } from '../config'
 
 // lazyConnect: true so the client does not attempt a connection at import time.
 // The first command transparently triggers the connection.

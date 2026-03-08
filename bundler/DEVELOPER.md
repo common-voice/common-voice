@@ -35,6 +35,19 @@ Before the pipeline runs, each locale job goes through a three-layer check in th
 
 After the pipeline completes (success or failure), the locale is removed from the processing SET via `try/finally`. On success it is added to the done SET.
 
+### `--force` mode
+
+When `--force` is passed on the CLI:
+
+1. **Init handler** clears the Redis done SET(s) for the release, so no locale is considered "already done".
+2. **Queue pre-filter** is skipped entirely -- all locales are scheduled regardless of Redis state.
+3. **Processor (`processLocale`)** bypasses both the Redis done-SET fast path and the GCS existence check. The tarball is re-created from scratch and uploaded, overwriting any existing archive in GCS.
+4. **Variant processor (`processVariants`)** bypasses per-variant Redis done-SET and GCS existence checks, re-creating and overwriting each variant tarball. The full-release tarball must still exist (it is the source of clips).
+5. **Statistics (`generateStatistics`)** re-generates stats unconditionally (stats always re-run when the tarball exists; `--force` adds a log line for visibility).
+6. The **processing SET guard** (stall dedup) is NOT bypassed -- it still prevents two pods from processing the same locale simultaneously.
+
+Use `--force` to fix corrupt releases or re-generate tarballs after a pipeline bug. Combine with `-l` to target specific locales without re-processing the entire release.
+
 ---
 
 ## Variant releases
@@ -49,7 +62,12 @@ Variant releases produce one tarball per (locale, variant) combination. Requires
 bundler/
 ├── src/
 │   ├── cli/                  # CLI tools (start-dataset-release, calculateDurations)
-│   ├── config/               # Runtime configuration (env vars, constants)
+│   ├── config/               # Runtime configuration (env vars, constants, Redis keys)
+│   │   ├── index.ts          # Barrel re-export
+│   │   ├── config.ts         # Env-var parsing, IO getters, Config/DbConfig types
+│   │   ├── constants.ts      # Time enums, lock/redlock, audio thresholds, release log settings
+│   │   ├── datasheets.ts     # DATASHEETS_BASE_URL, Modality, modality-key mapping
+│   │   └── redisKeys.ts      # Redis key builders (scripted: namespace)
 │   ├── core/                 # Domain logic
 │   │   ├── clips.ts          # Clip download, TSV streaming, minority-language filter
 │   │   ├── compress.ts       # tar.gz creation and filename helpers
@@ -181,7 +199,7 @@ npx jest src/core/datasheets.e2e.test.ts        # e2e (skipped in CI; requires n
 | `src/core/stats.test.ts`                       | `unitToHours` conversion, `buildLocale` mapping from `LocaleReleaseData`                        |
 | `src/core/utils.test.ts`                       | `countLinesInFile`, `unitToHours`, `formatDuration`, `renderBar`, `formatCompact`, `formatEta`  |
 | `src/infrastructure/datasheetsFetcher.test.ts` | Local file loading, modality mapping, error recovery                                            |
-| `src/worker/processor.test.ts`                 | Job environment derivation, `uploadPath` precomputation                                         |
+| `src/worker/processor.test.ts`                 | Job environment derivation, `uploadPath` precomputation, `--force` passthrough                  |
 | `src/worker/processVariants.test.ts`           | Variant clip/duration filtering, env derivation, locale column rewriting                        |
 
 ---

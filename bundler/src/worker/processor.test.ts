@@ -180,5 +180,15 @@ describe('deriveJobEnv', () => {
       const env = deriveJobEnv(baseJob, TMP_DIR)
       expect(env.license).toBeUndefined()
     })
+
+    it('preserves force flag when set', () => {
+      const env = deriveJobEnv({ ...baseJob, force: true }, TMP_DIR)
+      expect(env.force).toBe(true)
+    })
+
+    it('force is undefined by default', () => {
+      const env = deriveJobEnv(baseJob, TMP_DIR)
+      expect(env.force).toBeUndefined()
+    })
   })
 })

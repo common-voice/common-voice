@@ -9,7 +9,7 @@ import {
   fetchDeltaLicensedLocales,
 } from '../core/locales'
 import { DatasheetLocalePayload, ProcessLocaleJob, Settings } from '../types'
-import { getRedisUrl, RELEASE_LOG_KEY_TTL_SEC, redisKeys } from '../config/config'
+import { getRedisUrl, RELEASE_LOG_KEY_TTL_SEC, redisKeys } from '../config'
 import { logger } from './logger'
 import { fetchDatasheetsPayloads } from './datasheetsFetcher'
 import { redisClient } from './redis'
@@ -258,18 +258,68 @@ export const addJobsToReleaseQueue = (settings: Settings) =>
         )
       }
     }),
-    // Accumulate locale totals in Redis before jobs are enqueued.
-    // Using INCRBY (not SET) so multiple batches for the same release
-    // accumulate correctly -- `count == total` fires only when ALL batches
-    // across ALL runs are done. Lists are never deleted: they grow across
-    // batches and are cleaned up by the 7-day TTL.
-    TE.chainFirst(({ jobs }) =>
+    // Pre-filter: exclude jobs whose locale is already in the Redis done SET.
+    // This avoids dispatching hundreds of no-op jobs on re-runs and keeps
+    // localeTotal / clipsTotal / timeStart accurate for progress & ETA.
+    // Skipped entirely when --force is set (all jobs are scheduled).
+    TE.bind('pendingJobs', ({ jobs }) =>
+      TE.tryCatch(async () => {
+        if (settings.force) {
+          logger.info('QUEUE', `--force: scheduling all ${jobs.length} locale(s), no pre-filter`)
+          return jobs
+        }
+
+        const nameForJob = (job: ProcessLocaleJob): string =>
+          settings.type === 'variants'
+            ? `${settings.releaseName}-variants`
+            : job.license
+              ? `${settings.releaseName}-licensed`
+              : settings.releaseName
+
+        // Fetch done SETs once per effective release name
+        const doneCache = new Map<string, Set<string>>()
+        const uniqueNames = new Set(jobs.map(nameForJob))
+        for (const name of uniqueNames) {
+          const members = await redisClient.smembers(redisKeys.done(name))
+          doneCache.set(name, new Set(members))
+        }
+
+        const pending: ProcessLocaleJob[] = []
+        const skipped: string[] = []
+        for (const job of jobs) {
+          const name = nameForJob(job)
+          const member = job.license ? `${job.locale}|${job.license}` : job.locale
+          if (doneCache.get(name)?.has(member)) {
+            skipped.push(member)
+          } else {
+            pending.push(job)
+          }
+        }
+
+        if (skipped.length > 0) {
+          logger.info(
+            'QUEUE',
+            `Pre-filter: ${skipped.length} already-done locale(s) excluded -- ${skipped.join(', ')}`,
+          )
+        }
+        logger.info(
+          'QUEUE',
+          `Scheduling ${pending.length} of ${jobs.length} locale(s)`,
+        )
+
+        return pending
+      }, err => Error(String(err))),
+    ),
+    // Set locale/clip totals and timeStart in Redis for pending jobs only.
+    // Uses SET (not INCRBY) so re-runs reflect only the remaining work,
+    // giving correct progress percentages and ETAs.
+    TE.chainFirst(({ pendingJobs }) =>
       TE.tryCatch(async () => {
         // Group job count and clip count by effective release name
         // (license -> "-licensed" suffix, variants -> "-variants" suffix).
         const totals = new Map<string, number>()
         const clipTotals = new Map<string, number>()
-        for (const job of jobs) {
+        for (const job of pendingJobs) {
           const name = settings.type === 'variants'
             ? `${settings.releaseName}-variants`
             : job.license
@@ -291,33 +341,35 @@ export const addJobsToReleaseQueue = (settings: Settings) =>
         }
         for (const [name, batchCount] of totals) {
           const batchClips = clipTotals.get(name) ?? 0
-          // Accumulate totals across batches (atomic INCRBY).
-          await redisClient.incrby(redisKeys.localeTotal(name), batchCount)
+          // Reset totals to pending-only counts (SET, not INCRBY).
+          await redisClient.set(redisKeys.localeTotal(name), batchCount)
           await redisClient.expire(redisKeys.localeTotal(name), RELEASE_LOG_KEY_TTL_SEC)
-          // Accumulate expected clip count for progress tracking.
-          if (batchClips > 0) {
-            await redisClient.incrby(redisKeys.clipsTotal(name), batchClips)
-            await redisClient.expire(redisKeys.clipsTotal(name), RELEASE_LOG_KEY_TTL_SEC)
-          }
-          // Record release start time (NX: only the first batch wins).
-          await redisClient.setnx(redisKeys.timeStart(name), new Date().toISOString())
-          await redisClient.expire(redisKeys.timeStart(name), RELEASE_LOG_KEY_TTL_SEC)
-          // Refresh TTLs on accumulator keys if they already exist.
+          // Always SET clipsTotal (even to 0) so stale values from prior runs
+          // don't persist and mislead progress calculations.
+          await redisClient.set(redisKeys.clipsTotal(name), batchClips)
+          await redisClient.expire(redisKeys.clipsTotal(name), RELEASE_LOG_KEY_TTL_SEC)
+          // Reset counters so progress starts from 0 for this run.
+          await redisClient.set(redisKeys.localeCount(name), 0)
           await redisClient.expire(redisKeys.localeCount(name), RELEASE_LOG_KEY_TTL_SEC)
+          await redisClient.set(redisKeys.clipsCount(name), 0)
           await redisClient.expire(redisKeys.clipsCount(name), RELEASE_LOG_KEY_TTL_SEC)
+          // Reset start time so ETA reflects this run, not a stale previous one.
+          await redisClient.set(redisKeys.timeStart(name), new Date().toISOString())
+          await redisClient.expire(redisKeys.timeStart(name), RELEASE_LOG_KEY_TTL_SEC)
+          // Refresh TTLs on log keys.
           await redisClient.expire(redisKeys.problemClips(name), RELEASE_LOG_KEY_TTL_SEC)
           await redisClient.expire(redisKeys.processLog(name), RELEASE_LOG_KEY_TTL_SEC)
           await redisClient.expire(redisKeys.done(name), RELEASE_LOG_KEY_TTL_SEC)
           logger.info(
             'QUEUE',
-            `Release "${name}": +${batchCount} locale(s) scheduled` +
+            `Release "${name}": ${batchCount} locale(s) to process` +
               (batchClips > 0 ? ` (~${batchClips.toLocaleString()} clips)` : ''),
           )
         }
       }, err => Error(String(err))),
     ),
-    TE.map(({ jobs }) =>
-      jobs.map(job => {
+    TE.map(({ pendingJobs }) =>
+      pendingJobs.map(job => {
         switch (settings.type) {
           case 'delta':
           case 'full':

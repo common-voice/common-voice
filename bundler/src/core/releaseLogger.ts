@@ -6,7 +6,7 @@ import {
   RELEASE_LOG_KEY_TTL_SEC,
   TimeUnitsMs,
   redisKeys,
-} from '../config/config'
+} from '../config'
 import { logger } from '../infrastructure/logger'
 import { AppEnv } from '../types'
 import { formatCompact, formatDuration, formatEta, renderBar } from './utils'

@@ -7,7 +7,7 @@ import {
   DATASHEETS_BASE_URL,
   Modality,
   MODALITY_TO_DATASHEETS_KEY,
-} from '../config/config'
+} from '../config'
 import { DatasheetLocalePayload } from '../types'
 
 export type DatasheetsJson = {
