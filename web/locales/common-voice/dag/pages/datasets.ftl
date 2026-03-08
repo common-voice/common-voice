@@ -5,6 +5,8 @@ datasets-headline = Ti namdila zuliya bɔbigu bala, sokam ni ni tooi n tohi kuk�
 datasets-positioning = Din galisi,So kam sani niŋ bayana n-ti kukoya din pu n doya ni che ka baŋsim pahira mini kpaɣibo din mali alaafee zaŋ kana mazeni-bohambu yɛltɔɣ' tabibi baŋsim polo.common voice tuma din pun doya nyala din galisi,amaa ka lee pa di koŋko.
 # New/upcoming datasets page headline
 datasets-headline-mdc = Mozilla Common Voice kpanjɔɣu pa nyɛla din m-be Mozilla Data Collective puuni ko.
+# New/upcoming datasets page headline text
+datasets-positioning-mdc = kuko yinsi nŋuna, di laɣim la kukoya din pun tumdoya din kalilnli yiɣisi bin pishi ni a-ta kpulli,kukoya din laɣim tumma din pun tum a yi ti bɔri ni a din pun vuli doya maa mozila puuni nangbanyini.
 datasets-speech-bubble-content = Suhupiɛlli lahibali! Diri n toli fiila nyɛla din m-be soli! Na kuli n-gbulisimi tibili lahibaya na nyɛla din m-be soli ka lahi kpaŋ a maŋa ka a yuli ti <discordLink>Discord</discordLink> n wum lahibaya din yoil n kpɛna.
 language = Zuliya Balli
 download-dataset-header = voomi lahabali kpanjɔɣu maa
