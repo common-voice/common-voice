@@ -344,10 +344,10 @@ export const addJobsToReleaseQueue = (settings: Settings) =>
           // Reset totals to pending-only counts (SET, not INCRBY).
           await redisClient.set(redisKeys.localeTotal(name), batchCount)
           await redisClient.expire(redisKeys.localeTotal(name), RELEASE_LOG_KEY_TTL_SEC)
-          if (batchClips > 0) {
-            await redisClient.set(redisKeys.clipsTotal(name), batchClips)
-            await redisClient.expire(redisKeys.clipsTotal(name), RELEASE_LOG_KEY_TTL_SEC)
-          }
+          // Always SET clipsTotal (even to 0) so stale values from prior runs
+          // don't persist and mislead progress calculations.
+          await redisClient.set(redisKeys.clipsTotal(name), batchClips)
+          await redisClient.expire(redisKeys.clipsTotal(name), RELEASE_LOG_KEY_TTL_SEC)
           // Reset counters so progress starts from 0 for this run.
           await redisClient.set(redisKeys.localeCount(name), 0)
           await redisClient.expire(redisKeys.localeCount(name), RELEASE_LOG_KEY_TTL_SEC)

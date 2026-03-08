@@ -29,6 +29,8 @@ import { redisClient } from '../infrastructure/redis'
 import {
   getDatasetBundlerBucketName,
   getTmpDir,
+  LOCK_EXTEND_MS,
+  LOCK_EXTEND_INTERVAL_MS,
   RELEASE_LOG_KEY_TTL_SEC,
   redisKeys,
 } from '../config/config'
@@ -157,9 +159,6 @@ export const deriveJobEnv = (
   }
 }
 
-const LOCK_EXTEND_MS = 600_000 // must match worker lockDuration
-const LOCK_EXTEND_INTERVAL_MS = 300_000 // 5 min -- must be < lockDuration
-
 export const processLocale = async (job: Job<ProcessLocaleJob>, token?: string) => {
   const env = deriveJobEnv(job.data, getTmpDir())
   const { locale, releaseName, uploadPath } = env
@@ -227,9 +226,10 @@ export const processLocale = async (job: Job<ProcessLocaleJob>, token?: string) 
     ? setInterval(async () => {
         try {
           await job.extendLock(token, LOCK_EXTEND_MS)
-        } catch {
+        } catch (err) {
           // Lock may already be lost (LRU eviction); processing SET guard
-          // prevents duplicates. worker.on('error') handles logging.
+          // prevents duplicates. Log so repeated failures are visible.
+          logger.warn('PROCESSOR', `[${locale}] Lock extension failed: ${String(err)}`)
         }
       }, LOCK_EXTEND_INTERVAL_MS)
     : undefined

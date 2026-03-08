@@ -26,7 +26,7 @@ export const createWorker: IO.IO<void> = () => {
             logger.info('', `  PREV: ${s.previousReleaseName}`)
           }
           if (s.force) {
-            logger.info('', '  MODE: --force (re-create all, overwrite GCS)')
+            logger.info('', '  MODE: --force (bypass skip checks, re-process and overwrite GCS)')
           }
           logger.info('', dash)
 
