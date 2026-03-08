@@ -39,6 +39,7 @@ feedback-q = A mali shɛli ni a yɛli?
 # This indicates that there is no data to display
 no-information = lahabali kani
 resource-nemo-info = NeMo</githubLink>™ nyɛla <docsLink>open-source toolkit</docsLink> zaŋ n-ti vihivihiriba ban be AI yɛltɔɣa ni.
+resource-deepspeech-info = Mozila nyɛla yihibu shee din yooi n-ti kukoya baŋsim kpa tuɣa din ziligi di yi kana yɛligu ni tooi tum n mali yɛligu baŋbu sabi ti shɛhi.karimmi ti<githubLink>githun zaa labi yuli<githubLink>bee ka a gbini kpalanzuya ni</discourseLink>yaligu din zilima</discourseLink>din ni che ka a baŋ an ni tooi pili shɛm.
 resource-coqui-info = <coquiLink>coqui<coquiLink>nyɛla din niŋ zaɣa ni bi yooi yɛltɔɣa tabibi baŋsim.Bi tuma ŋɔ pahila bɔhimbu din zilima ka be STT mini TTS mazina ni
 community-playbook = Zilenini Demabuku
 resource-playbook-info = <playbookLink>yala soŋsim tarisi<playbookLink>kukoya din laɣim sochenda ŋɔ zaa zuɣu,dunduŋni tuma tumbu n ti pahi ti ni yan niŋ shɛm zaŋgatabi ti fondi ni
