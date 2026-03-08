@@ -41,8 +41,10 @@ When `--force` is passed on the CLI:
 
 1. **Init handler** clears the Redis done SET(s) for the release, so no locale is considered "already done".
 2. **Queue pre-filter** is skipped entirely -- all locales are scheduled regardless of Redis state.
-3. **Processor** bypasses both the Redis done-SET fast path and the GCS existence check. The tarball is re-created from scratch and uploaded, overwriting any existing archive in GCS.
-4. The **processing SET guard** (stall dedup) is NOT bypassed -- it still prevents two pods from processing the same locale simultaneously.
+3. **Processor (`processLocale`)** bypasses both the Redis done-SET fast path and the GCS existence check. The tarball is re-created from scratch and uploaded, overwriting any existing archive in GCS.
+4. **Variant processor (`processVariants`)** bypasses per-variant Redis done-SET and GCS existence checks, re-creating and overwriting each variant tarball. The full-release tarball must still exist (it is the source of clips).
+5. **Statistics (`generateStatistics`)** re-generates stats unconditionally (stats always re-run when the tarball exists; `--force` adds a log line for visibility).
+6. The **processing SET guard** (stall dedup) is NOT bypassed -- it still prevents two pods from processing the same locale simultaneously.
 
 Use `--force` to fix corrupt releases or re-generate tarballs after a pipeline bug. Combine with `-l` to target specific locales without re-processing the entire release.
 
