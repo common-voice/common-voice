@@ -258,6 +258,9 @@ nhi = Көнбатыш Сьерра Пуэбла Наһуатл
 nia = Ниас
 nl = Һолланд
 nla = Нгомбале
+nlv = Орисаба наһуатл
+nmg = Квасио
+nmz = Лоссо
 nn-NO = Яңа норвег
 nnh = Нгембон
 nqo = Нко
@@ -265,7 +268,9 @@ nr = Ндебеле (Көньяк)
 nso = Төньяк сото
 ny = Чиньянҗа
 nyn = Ньянколе
+nyu = Нюнгве
 oc = Окситан
+odk = Оадки
 om = Оромо
 or = Одия
 oru = Ормури
@@ -273,10 +278,13 @@ os = Осетин
 pa-IN = Пунжаб
 pap = Папьяменто
 pap-AW = Папиаменто (Аруба)
+pcd = Пикард
 pcm = Нигерия Инглиз Пиджины
 phl = Палула
+phr = Пахари-Потвари
 pl = Поляк
 plk = Кохистани шина
+prq = Ашенинка Перене
 ps = Пушту
 pt = Португал
 pua = Көнбатыш Таулы Пурепеча
@@ -434,5 +442,9 @@ delete = Бетерү
 
 # Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>Безгә</mark><br/><mark>ярдәмегез кирәк!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = 100-дән артык тел активистлары берләшмәләре файдалана алырлык мәгълүматлар җыелмаларын урнаштыру һәм платформаны яхшырту елына миллион доллар чамасы акча сарыф итә. <strong>Ачык, инклюзив мәгълүматларны мөһим саныйсыз икән — акчалата иганәгез һәрвакытта да кирәкле һәм әһәмиятле булачак!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = Common Voice-ны <mark>тикшеренүләрегездә</mark> <mark>кулланасызмы?</mark>
 localization-select =
     .label = Телне / локализацияне сайлагыз
