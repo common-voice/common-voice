@@ -47,7 +47,7 @@ help-reach-hours-pluralized =
     }
 help-reach-hours-general-pluralized =
     { $hours ->
-        [one] Hjelp Common Voice med eit personleg mål om å nå { $hours } timar på eit språk.
+        [one] Hjelp Common Voice med eit personleg mål om å nå { $hours } time på eit språk.
        *[other] Hjelp Common Voice med eit personleg mål om å nå { $hours } timar på eit språk.
     }
 set-a-goal = Sett deg eit mål
