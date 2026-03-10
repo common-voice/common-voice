@@ -1,5 +1,8 @@
 ## Languages Overview
 
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Lahibali pala din na bɛni{ $lastUpdatedTimeStamp }
+languages-show-more = Yulimi pam
 contribute = Tohi
 get-involved-button = Zaŋ a nua pahi
 get-involved-title = Tɔhimi { $lang }
