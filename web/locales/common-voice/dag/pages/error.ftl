@@ -7,6 +7,7 @@ error-something-went-wrong = gaafara, binshɛɣu bɛ chaŋ viɛnyɛla
 error-clip-upload = Kliipu ŋɔ maa yaabu kuli zaɣisiri mi, kuli mɔma?
 error-clip-upload-server = shinii nim ŋɔ vulibu bi tooi niŋ da di yi ti paai di dooshee.Labi vuli bee ka a ti li saha bela
 error-clip-upload-too-large = A ni yai kuko' shɛli maa galiya pam ni a zaŋ li niŋ na. Dim suɣilo,  yaami kliipu jia.
+error-clip-upload-server-error = Tuma din laɣim doya cherimbu, a shinii Shɛŋa din be tumbu soli zuɣu.pahimi suglo labi vuli dundɔŋ maa bee ka a chɛli saha shɛli.
 error-title-404 = Ti bɛ tooi nya yaɣa shɛli a ni bori maa
 error-title-500 = gaafara, binshɛɣu bɛ chaŋ viɛnyɛla
 error-title-502 = Gadama kpe kpa tuɣa maa ni
