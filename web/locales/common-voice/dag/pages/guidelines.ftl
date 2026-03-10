@@ -133,6 +133,8 @@ transcribe-the-audio-subheader-1 = So'dola
 transcribe-the-audio-subheader-2 = nambanima mini bachi ŋmahi
 transcribe-the-audio-subheader-3 = Tikpara gahinda
 transcribe-the-audio-subheader-4 = Bachi piribu,ʒiri pilli,labiyaai bachinima.
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = Di yɛla maali kubiga zaŋna ni kpe
 # text wrapped in wrong will be shown as red text in the UI
 transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Ka viɛnyɛla</wrong>:  Di nyɛla maali kɔbiga zaŋ kana kpe
 # text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
