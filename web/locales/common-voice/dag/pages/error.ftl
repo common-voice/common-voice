@@ -9,6 +9,7 @@ error-clip-upload-server = shinii nim ŋɔ vulibu bi tooi niŋ da di yi ti paai 
 error-clip-upload-too-large = A ni yai kuko' shɛli maa galiya pam ni a zaŋ li niŋ na. Dim suɣilo,  yaami kliipu jia.
 error-clip-upload-server-error = Tuma din laɣim doya cherimbu, a shinii Shɛŋa din be tumbu soli zuɣu.pahimi suglo labi vuli dundɔŋ maa bee ka a chɛli saha shɛli.
 error-title-404 = Ti bɛ tooi nya yaɣa shɛli a ni bori maa
+error-content-404 = Diipashɛli tinima<homepageLink>yiŋ dundɔŋ<homepageLink>di ni tooi sɔŋ?A yan bɔhi bɔhigu,pahimi suɣulo zaŋmi a kpalazuya ti gbuni<matrixLink>Matrix zelili yɛltɔɣa tɔɣisi ti taba<matrixLink>,kaami sodoligu maa yalgala kpe<githubLink>GitHub</githubLink>bee ka akpe</discourseLink>ti yɛltɔɣa tɔɣisi ti tabi biɛhigu shee</discourseLink>.
 error-title-500 = gaafara, binshɛɣu bɛ chaŋ viɛnyɛla
 error-title-502 = Gadama kpe kpa tuɣa maa ni
 error-title-503 = Ti nya la yɛli shɛli zuɣu ti ni di bi tiɛhira
