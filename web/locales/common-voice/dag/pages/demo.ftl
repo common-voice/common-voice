@@ -18,6 +18,7 @@ demo-account = acounti
 ## Demo Account
 
 demo-account-card-header = Di bi n kpa talahi ni a mali akaunti pɔi ka naan n tooi n tɔhi, tɔ! amaa di malibu nyɛla din yɛn n sɔŋ a.
+demo-account-card-body = Nudirigu zuɣu ti gahim la anfaani mini lahibali shɛŋa din ne-n-doya n zaŋli wuhi zamaatu.zaŋmi sodolisi din doya ŋɔ n pili kuko yindi akawuti a  nuchebaŋ bee a kompiita zuɣu
 demo-account-enter-email =
     .label = Kpɛhimi yimeli ka di chɛ ka n yooi linki
 demo-account-sign-up = zaŋmi kpɛbu soli ti
