@@ -470,3 +470,19 @@ languages-donate-banner-cta = Common Voice-ны <mark>тикшеренүләре
 languages-donate-banner-cta-explanation = Common Voice акчалата иганәләр һәм грантлар хисабына эшли! Безгә галимнәр, гражданлык җәмгыяте һәм аерым өлкәләрдә тикшеренүчеләр белән хезмәттәшлек итү ошый. Common Voice проектын куллану ирекле һәм бушлай. Ләкин платформа һәм хостинг өчен акчалата иганә итү нык булыша ала.
 localization-select =
     .label = Телне / локализацияне сайлагыз
+
+## MDC Announcement
+
+# Main text for MDC announcement. Text wrapped in <strong></strong> will be rendered with bold font
+announcement-mdc-text = <strong>Common Voice проектының яңа мәгълүмат җыелмаларын</strong> хәзер тик Mozilla Data Collective исемле тугандаш платформабыздан гына иңдереп була. Гади кешеләр тарафыннан һәм гади кешеләр өчен төзелгән 300-дән артык глобаль мәгъдүмат җыелмаларыннан файдалана башлау өчен, ул проектыбызга да кушылыгыз.
+# Button text for MDC announcement
+announcement-mdc-button-text = Mozilla Data Collective проектына кушылу
+# Aria text for button which opens MDC on a new page
+announcement-mdc-button-aria-text = Яңа табта ачыла
+
+## Common Language/Dataset Selector & SearchBox Related
+
+# Generic search box defaults
+searchbox-default-label = Эзләү өчен яза башлагыз
+searchbox-default-placeholder = Эзләү…
+searchbox-default-aria-label = Эзләү
