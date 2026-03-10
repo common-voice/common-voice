@@ -45,3 +45,5 @@ review-error = Бу җөмләне тикшерүдә хата килеп чык
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Без мөһим үзгәрешләр ясыйбыз
 sc-redirect-page-subtitle-2 = Сез безгә <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> яки <emailLink>электрон почта</emailLink> аша сораулар бирә аласыз.
+# menu item
+review-sentences = Җөмләләрне тикшерү
