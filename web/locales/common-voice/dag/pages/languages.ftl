@@ -22,3 +22,6 @@ get-involved-email =
 get-involved-opt-in = Iin, sabimi ma email lahabaya. Ni bɔri ni m mali tibili zaŋ chaŋ balli ŋɔ zoosim polo Common Voice puuni.
 get-involved-submit = Zaŋ tahi
 get-involved-stayintouch = Tinima ban be Mozlila mɛrila laɣingu din jɛndi kukɔli tabibi. Ti nibɔri ni ti mali tibili zaŋ chaŋ lahabaya din kɔɣiri ka bihira polo , data pala yibu sheena ka ni lahi bɔri ni wumdi lahabaya din jɛndi yi ni mali data ŋɔ tumdi tuma shɛm.
+get-involved-privacy-info = Ti gbaai la alikawuli ni ti gbubi a lahibali venyala.Karimi pam ti daashili kpanjuɣu<privacyLink>ashilli gbaŋ<privacyLink>.
+get-involved-success-title = A niŋ zuɣu suŋ domin a pahi ban tɔhiritiri ni { $language }.Am pagya.
+get-involved-success-text = Ti ni niŋ zaɣa ni lahibaya shɛŋa ni din bɛni sahakam.
