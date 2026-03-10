@@ -32,3 +32,4 @@ demo-listen-subtitle = a niŋshili ni a tɔhi?
 ## Demo Dashboard
 
 demo-dashboard-card-header = A maŋa dundɔŋ sabirili la zuɣu chɛmi ka a kuli beni sahakam ti ninsalinima ni a  zelinini toontibo.
+demo-dashboard-card-body = kukolikam ka a yi tɔhi, yɛltɔɣali kam ka a yi dihitabili a tuma dundɔŋ maa wuhirimi n ti a a kpaŋmaŋa zaŋ kana bali shɛli ani tɔhiri tirimaa.Nii ani tooi tɔhi yaɣi ninvuɣu yino zuɣu<br/><br/>.Zaŋmi a tuma dunduŋ n vihi gbaai maŋmaŋa toontibo n shebi dini,ka buɣisi ti amaŋa dabisili bee  bakoi tɔhibu nia
