@@ -1,8 +1,10 @@
 ## Languages Overview
 
+language-section-launched = Palo yihibu
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
 language-section-last-updated = Lahibali pala din na bɛni{ $lastUpdatedTimeStamp }
 languages-show-more = Yulimi pam
+languages-show-less = Yuli sagsi
 language-meter-in-progress = Toontibo
 language-total-progress = zaa laɣimbu
 language-search-input =
@@ -25,3 +27,4 @@ get-involved-stayintouch = Tinima ban be Mozlila mɛrila laɣingu din jɛndi kuk
 get-involved-privacy-info = Ti gbaai la alikawuli ni ti gbubi a lahibali venyala.Karimi pam ti daashili kpanjuɣu<privacyLink>ashilli gbaŋ<privacyLink>.
 get-involved-success-title = A niŋ zuɣu suŋ domin a pahi ban tɔhiritiri ni { $language }.Am pagya.
 get-involved-success-text = Ti ni niŋ zaɣa ni lahibaya shɛŋa ni din bɛni sahakam.
+get-involved-return-to-languages = Labimi abala ni
