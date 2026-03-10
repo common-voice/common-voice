@@ -14,6 +14,7 @@ error-title-500 = gaafara, binshɛɣu bɛ chaŋ viɛnyɛla
 error-content-500 = Ti ni bi mi cheribu shɛli yɛla n niŋ.pahimi suglo guhimi saha bela ka labina.Suŋsim,pahimi suɣulo pahimi kpe<matrixLink>Matrix dundoŋ yɛltɔɣa tɔɣisi ti taba<matrixLink>,zaŋmi a zaɣa n niŋ dundɔŋ maa yeligola ni luɣili ŋɔ<githubLink>GitHub<<githubLink>bee ka a kpe<discourseLink>ti yɛltɔɣa tuɣisititaba luɣili la zuɣu<<discourseLink>.
 error-title-502 = Gadama kpe kpa tuɣa maa ni
 error-title-503 = Ti nya la yɛli shɛli zuɣu ti ni di bi tiɛhira
+error-content-503 = Luɣili ŋɔ maa ni lahi labina puunpɔŋɔ.Lahibaya din na beni saha ŋɔ,pahimi suɣulo zaŋmi a kpala zuli n ti gbuni<matrixLink>bee ka a kpe<githubLink>GitHub<githubLink>bee </discourseLink>Ti yɛltɔɣa tɔɣisi ti taba laɣinsi<discourseLink>n zaŋ ti ka niŋ zaɣa ni dundɔŋ maa milinsi yaligola
 error-title-504 = Suhugu saha gariya
 error-code = chirimbu
 # Warning message shown when none of the clips could be uploaded
