@@ -12,6 +12,7 @@ check-bubble-title = <mark>Тикшерү</mark>
 data-bubble-title = <mark>Мәгълүмат</mark>
 contact-us = Безнең белән элемтәгә керү
 contact-us-email = Эл. почта: <emailFragment>commonvoice@mozilla.com</emailFragment>
+signup-form-title = Common Voice-ның Спонтан Сөйләшү проектын бета-тестлаучылар төркеменә кердегезме инде?
 signup-input-placeholder = Эл. почтагызны кертегез
 signup-button-value = Эл. почта адресыма сылтама җибәрү
 footer-text-privacy = <privacyLink>Хосусыйлык</privacyLink>
