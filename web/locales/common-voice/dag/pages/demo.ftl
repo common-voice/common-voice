@@ -26,6 +26,7 @@ demo-account-sign-up = zaŋmi kpɛbu soli ti
 ## Demo Contribute
 
 demo-contribute-card-header = A niŋshili ni a pahi a kukɔli bee n-gbulisi tibili?
+demo-contribute-card-body-v2 = pumpɔŋɔ ani nya baŋsim bɛla common vioce ni ŋɔ yaa,bo n che ka a ku tooi buŋdili li?dihimi a yadurigu bia a fon bee a kompiita zuɣu m pili yɛltɔɣa karimbu ka yi palo.<br/><br/>nyin dee yi bori ni a labi yuli niriba kukoya tɔhibu,dehimi anuchebaŋ bee a kompiita zuɣu tuumma.Ani tooi soŋ n dihitabili yɛltɔɣa vulibu m baŋ vulibu maa mini yali maa saksi taba .
 demo-listen-subtitle = a niŋshili ni a tɔhi?
 
 ## Demo Dashboard
