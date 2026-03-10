@@ -11,6 +11,7 @@ error-clip-upload-server-error = Tuma din laɣim doya cherimbu, a shinii Shɛŋa
 error-title-404 = Ti bɛ tooi nya yaɣa shɛli a ni bori maa
 error-content-404 = Diipashɛli tinima<homepageLink>yiŋ dundɔŋ<homepageLink>di ni tooi sɔŋ?A yan bɔhi bɔhigu,pahimi suɣulo zaŋmi a kpalazuya ti gbuni<matrixLink>Matrix zelili yɛltɔɣa tɔɣisi ti taba<matrixLink>,kaami sodoligu maa yalgala kpe<githubLink>GitHub</githubLink>bee ka akpe</discourseLink>ti yɛltɔɣa tɔɣisi ti tabi biɛhigu shee</discourseLink>.
 error-title-500 = gaafara, binshɛɣu bɛ chaŋ viɛnyɛla
+error-content-500 = Ti ni bi mi cheribu shɛli yɛla n niŋ.pahimi suglo guhimi saha bela ka labina.Suŋsim,pahimi suɣulo pahimi kpe<matrixLink>Matrix dundoŋ yɛltɔɣa tɔɣisi ti taba<matrixLink>,zaŋmi a zaɣa n niŋ dundɔŋ maa yeligola ni luɣili ŋɔ<githubLink>GitHub<<githubLink>bee ka a kpe<discourseLink>ti yɛltɔɣa tuɣisititaba luɣili la zuɣu<<discourseLink>.
 error-title-502 = Gadama kpe kpa tuɣa maa ni
 error-title-503 = Ti nya la yɛli shɛli zuɣu ti ni di bi tiɛhira
 error-title-504 = Suhugu saha gariya
