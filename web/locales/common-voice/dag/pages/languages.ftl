@@ -3,6 +3,15 @@
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
 language-section-last-updated = Lahibali pala din na bɛni{ $lastUpdatedTimeStamp }
 languages-show-more = Yulimi pam
+language-meter-in-progress = Toontibo
+language-total-progress = zaa laɣimbu
+language-search-input =
+    .placeholder = Vihima
+language-speakers = Ban yara
+localized = Zelili ni
+sentences = Yɛltɔɣa
+language-validation-hours = Awa nima
+language-validation-progress = Dihitabili toontibo
 contribute = Tohi
 get-involved-button = Zaŋ a nua pahi
 get-involved-title = Tɔhimi { $lang }
