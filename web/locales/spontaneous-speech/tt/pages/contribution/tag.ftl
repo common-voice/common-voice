@@ -9,3 +9,4 @@ tag-page-shortcut-tag-language-5 = 5
 tag-page-shortcut-remove-tags = 9
 tag-page-shortcut-toogle-mouse-keyboard = 0
 tag-page-shortcut-tag-undo = Ctrl / CMD + Z
+undo = Кире алу
