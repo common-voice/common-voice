@@ -140,5 +140,61 @@ example-questions-subheader = ምሳሌ ጥያቄዎች
 
 ## Code-Switching
 
+code-switching-review-no-3 = አንድ ሰው ሚስጥራዊ እና ስሜት ቀስቃሽ ምላሾችን እንዲያጋራ የሚያደርጉ ጥያቄዎች
+# Answering a Question
+code-switching-answer-subheader = ጥያቄን መመለስ
+code-switching-answer-intro = ለጥያቄ ምላሽ ሲሰጡ፣ ግቡ ልክ በእውነተኛ ህይወት ውይይት እንደሚያደርጉት ሁሉ በተፈጥሯዊ መንገድ ምላሽ መስጠት ነው። ቋንቋዎች በዕለት ተዕለት ንግግር ውስጥ እንዴት እንደሚዋሃዱ ለመረዳት እንፈልጋለን።
+code-switching-answer-bullet-1 = ስለ እውነተኛ የሕይወት ጊዜያት ወይም ሁኔታዎች አስብ፦ ቀልዶች፣ ክርክሮች፣ ወጎች
+code-switching-answer-bullet-2 = ለጓደኛዎ የጽሑፍ መልእክት እየላኩ ወይም ለአንድ ሰው ታሪክ እየነገሩ እንደሆነ ያስቡ
+code-switching-answer-bullet-3 = የተዋሱ ወይም የተቀላቀሉ ቢሆኑም እንኳ በእውነቱ የሚጠቀሙባቸውን ቃላት ይጠቀሙ
+code-switching-answer-bullet-4 = መልስ ለመስጠት "ፍጹም" መንገድ የለም
+code-switching-authentic-header = በተፈጥሮ እና በትክክለኛነት መልስ ይስጡ
+code-switching-authentic-speak = <bold>ከጓደኞችዎ ወይም ከቤተሰብዎ ጋር እንዴት እንደሚነጋገሩ ይናገሩ።</bold> በእውነተኛ ህይወት ውስጥ ቋንቋዎችን የሚቀላቀሉ ከሆነ እዚህ ጋር ተመሳሳይ ነገር ያድርጉ። ለምሳሌ፡
+code-switching-authentic-speak-example = "መሄድ እንደማልችል ነገርኳት፣ እሷ ግን አለ እይደል 'መምጣት ይሻልሻል!' አለችኝ።"
+code-switching-use-both-languages = <bold>በተለመደው መንገድ የምትሉት ከሆነ ሁለቱንም ቋንቋዎች ይጠቀሙ።</bold> አንድ ወይም ሁለት ቃላትን ብቻ መቀየር እንኳን ጠቃሚ ነው። ለምሳሌ፡
+code-switching-use-both-languages-example = "እሷ በጣም ተናደደች ምክንያቱም መልሼ አልጠራኋትም ነበር።"
+code-switching-authentic-direct-quotes = <bold>ቀጥተኛ ጥቅሶችን ወይም ውይይቶችን ያካትቱ።</bold> አንድ ሰው የተናገረውን በትክክል ይናገሩ፣ የተጣራ ወይም መደበኛ ስሪት አይደለም። ለምሳሌ፡
+code-switching-authentic-direct-quotes-example = እናቴ፣ ‘ይህ ጨዋታ ነው ብለህ ታስባለህ?’ አለችኝ እና እኔ ደሞ ‘እሺ ቀዝቀዝ!’።
 code-switching-authentic-reflect = <ደፋር>ስሜትን፣ ማንነትን እና አውድን ያንፀባርቁ።</ደፋር> መቀያየር ብዙውን ጊዜ የሚከሰተው ሰዎች ስሜትን፣ አጣዳፊነትን ወይም የባህል ሀሳቦችን ሲገልጹ ነው። ለጥያቄዎች መልስ ሲሰጡ በእነዚህ ላይ ያተኩሩ።
+code-switching-authentic-full-context = <bold>ሙሉ ምላሾችን ከአውድ ጋር ይጠቀሙ።</bold> በተቻለዎት መጠን ዝርዝር ይሁኑ፣ በተቻለዎት መጠን ዝርዝር መረጃ ይስጡ። በመልሶችዎ ውስጥ ታሪክ ወይም ምሳሌ ያጋሩ።
+# Don’t Overthink or Overedit
+code-switching-answer-dont-subheader = ከመጠን በላይ አያስቡ ወይም አያስተካክሉ
+code-switching-answer-dont-correct-language = <bold>ቋቋዎን "ያስተካክሉ"።</bold> ይህ ፈተና አይደለም። "ትክክለኛ" ቅርፅ እዚህ ላይ ምንም ለውጥ አያመጣም፣ ተፈጥሯዊ ቋንቋ ግን ለውጥ ያመጣል።
+code-switching-answer-dont-avoid-switching = <bold>በተለመደው መንገድ የምትጠቀሙበት ከሆነ ከመቀየር ይቆጠቡ።</bold> በዓረፍተ ነገር መካከል፣ በሐሳብ መካከል ወይም በአንድ ቃል ብቻ መቀየር ችግር የለውም።
+code-switching-answer-dont-formal-writing = <bold>እንደ መደበኛ ጽሑፍዎ ይናገሩ።</bold> መደበኛ፣ ትምህርታዊ መልሶችን ያስወግዱ። ውይይቱን ያረጋግጡ።
+code-switching-answer-dont-force-switch = <bold>ተፈጥሯዊ ካልሆነ በኃይል መቀያየርን ያስተካክሉ።</bold> በዚያ ሁኔታ ውስጥ በተፈጥሮ እንደዚህ አይነት ነገር የሚናገሩ ከሆነ ብቻ ይቀይሩት።
+code-switching-answer-dont-translate-repeat = <bold>ሁሉንም ነገር ይተርጉሙ ወይም ይድገሙት።</bold> አንድ ጊዜ ብቻ ይናገሩ፣ በውይይቱ ውስጥ እንዴት እንደሚመጣ። በእያንዳንዱ ቋንቋ የምላሹን ስሪት መናገር አያስፈልግዎትም።
+# Transcribing
+code-switching-transcribe-subheader = ወደ ጽሑፍ መገልበጥ
+code-switching-transcribe-intro = የኮድ መቀየሪያን የሚያካትቱ ምላሾችን በሚገለብጡበት ጊዜ የተናጋሪውን ቋንቋ እንደተነገረው ይወክሉ - ሳያስተካክሉ፣ ሳያርሙ ወይም ሳያቀልሉ። ይህ በቋንቋዎች፣ መደበኛ ባልሆኑ የንግግር እና በተደባለቀ ቋንቋ ቃላት መካከል ለሚደረጉ ሁሉም መቀያየሪያዎች ነው።
+code-switching-transcribe-do-1 = ስውር ተለዋዋጮችን ለመያዝ አጫጭር ክፍሎችን ብዙ ጊዜ ይጫወቱ
+code-switching-transcribe-do-2 = ከእያንዳንዱ ዓረፍተ ነገር በኋላ ለአፍታ ያቁሙ፤ የመቀየሪያ ቃላትን ወይም የተደባለቁ ቃላትን ደግመው ያረጋግጡ
+# Capture Speech Exactly as Spoken
+code-switching-capture-header = ንግግርን በትክክል እንደተነገረው ይቅረጹት
+code-switching-capture-explanation = ሁለቱንም ቋንቋዎች በሚመስሉበት/በሚሰሙበት መንገድ ይገልብጡ። ቋንቋውን "አያስተካክሉት" ወይም ወደ አንድ ቋንቋ ብቻ አይቀይሩት።
+# Include filler words and markers
+code-switching-filler-header = የሙሌት ቃላትን እና ምልክቶችን ያካትቱ
+code-switching-filler-explanation = እንደ “እም፣” “እንደ”፣ “ፑስ”፣ “ታውቃላችሁ” እና “ስለዚህ” ያሉ ቃላት ትርጉም አላቸው። ለምሳሌ፡ “ስለዚህ፣ እም፣ ‘ምናልባት በኋላ ላይ’ ብዬ ነገርኳት።”
+# Use standard spelling for each language
+code-switching-spelling-header = ለእያንዳንዱ ቋንቋ መደበኛ የፊደል አጻጻፍ ይጠቀሙ
+code-switching-spelling-explanation = ተናጋሪው መደበኛ ባልሆነ መንገድ በግልጽ ካላሳጠራቸው በስተቀር ለእያንዳንዱ ቋንቋ ቃላትን በትክክል ለመጻፍ ይሞክሩ።
+# Don’t Clean Up or Simplify the Language
+code-switching-cleanup-header = ቋንቋውን አታጽዱ ወይም አታቃልሉ
+code-switching-cleanup-1 = ትርጉም ወይም አገላለጽ - ተናጋሪው የተናገረውን ጻፍ፣ ምን ማለት እንደሆነ አይደለም።
 code-switching-cleanup-2 = "ትክክለኛ" ሰዋሰው ወይም አጠራር - የተናጋሪውን ተፈጥሯዊ አጠቃቀም ይጠብቁ።
+code-switching-cleanup-3 = ትቂት ወይም ትንሽ የሚመስሉ ተለዋጬችን ይዝለሉ - የተዋሱ ቃላት እንኳን አስፈላጊ ናቸው።
+code-switching-cleanup-4 = ትርጉሙን ሊለውጥ የሚችል ሥርዓተ-ነጥብ ያስገቡ - ፍሰቱን ተፈጥሯዊ ያድርጉት።
+code-switching-cleanup-5 = የእያንዳንዱን ቃል ቋንቋ እንደሚያውቁ ያስቡ - መለያው በአጠቃቀም ላይ የተመሠረተ።
+# Tagging
+code-switching-tagging-subheader = መለያ መስጠት
+code-switching-tagging-error-intro = ግልባጩ ስህተት ከያዘ፣ እባክዎ የሪፖርት ተግባሩን ተጠቅመው ምልክት እንዲያደርጉበት ይጠቀሙ። ሊሆኑ የሚችሉ ስህተቶች የሚከተሉትን ያካትታሉ፦
+code-switching-tagging-error-1 = የተሳሳተ የስርዓተ ነጥብ ወይም የአቢይ ሆሄያት
+code-switching-tagging-error-2 = የጽሑፍ ስህተት
+code-switching-tagging-error-3 = በተሳሳተ የአጻጻፍ ስልት የተጻፉ ቃላት
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = ለእያንዳንዱ ቋንቋ ትክክለኛውን የፊደል አጻጻፍ መጠቀም
+code-switching-orthography-explanation = እያንዳንዱን ቃል ከቋንቋው የፊደል አጻጻፍ ጋር በሚስማማ መልኩ ይፃፉ። ለምሳሌ፡
+code-switching-orthography-explanation-example-1 = "ኩሽና" የሚለው ቃል በእንግሊዘኛ ቋንቋ እንደተገለጸው የሚመስል ከሆነ፣ በአማርኛ ቋንቋ መፃፍ አለበት እንጂ "ኪችን" ተብሎ መፃፍ የለበትም።
+code-switching-orthography-explanation-example-2 = ኩዊንሴያኖስ የሚለው ቃል በእንግሊዝኛ እንደሚነበበው የሚጠራ ከሆነ፣ በ ñ ይፃፉት።
+# Use Pronunciation to Help Determine the Language
+code-switching-pronunciation-header = ቋንቋውን ለማወቅ የቃላት አጠራርን ይጠቀሙ
