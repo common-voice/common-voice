@@ -141,3 +141,4 @@ example-questions-subheader = ምሳሌ ጥያቄዎች
 ## Code-Switching
 
 code-switching-authentic-reflect = <ደፋር>ስሜትን፣ ማንነትን እና አውድን ያንፀባርቁ።</ደፋር> መቀያየር ብዙውን ጊዜ የሚከሰተው ሰዎች ስሜትን፣ አጣዳፊነትን ወይም የባህል ሀሳቦችን ሲገልጹ ነው። ለጥያቄዎች መልስ ሲሰጡ በእነዚህ ላይ ያተኩሩ።
+code-switching-cleanup-2 = "ትክክለኛ" ሰዋሰው ወይም አጠራር - የተናጋሪውን ተፈጥሯዊ አጠቃቀም ይጠብቁ።
