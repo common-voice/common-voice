@@ -3,6 +3,8 @@ speak-now = አሁን ተናገር
 speak-subtitle = ድምፅዎን ይለግሱ
 record-cta = መቅዳት ይጀምሩ
 record-platform-not-supported = እናዝናለን ፣ የእርስዎ መድረክ በአሁኑ ጊዜ አይደገፍም።
+record-platform-webview = በማህበራዊ ሚዲያ መተግበሪያ ውስጥ ያለ አገናኝ ጠቅ በማድረግ እዚህ ሊደርሱ ይችላሉ። የድምጽ ቀረጻን የማይደግፍ የውስጥ-መተግበሪያ አሳሽ እየተጠቀሙ ነው።
+record-platform-not-supported-webview = በሞባይል መሳሪያዎች ላይ የስርዓት አሳሽዎን በመጠቀም አስተዋፅዖ ማድረግ ይችላሉ…
 record-platform-not-supported-desktop = በዴስክቶፕ መሣሪያዎች ላይ በማውረድ አስተዋፅዖ ማበርከት ይችላሉ…
 record-platform-not-supported-ios-non-safari = በ iOS ላይ ቀረጻን ለማንቃት እባክዎን በ Safari ይቀጥሉ…
 record-must-allow-microphone = የማይክሮፎን መዳረሻን መፍቀድ አለብዎት።
@@ -10,6 +12,14 @@ record-no-mic-found = ምንም ማይክሮፎን አልተገኘም።
 record-error-too-short = ቀረጻው በጣም አጭር ነበር።
 record-error-too-long = ቀረጻው በጣም ረጅም ነበር።
 record-error-too-quiet = ቀረጻው በጣም ጸጥ ያለ ነበር።
+record-error-empty-recording = ምንም ድምጽ አልተቀረጸም። እባክዎ ማይክሮፎንዎን ያረጋግጡና እንደገና ይሞክሩ።
+record-error-unknown-format = የድምጽ ቅርጸቱን ማወቅ አልተቻለም። እባክዎ የተለየ አሳሽ ለመጠቀም ይሞክሩ።
+record-error-uploaded-clip-corrupted =
+    የድምጽ ቀረጻዎ የተበላሸ ይመስላል። ይህ በሚከተሉት ምክንያቶች ሊከሰት ይችላል፦
+    • የአሳሽ ተኳሃኝነት ችግሮች (የተለየ አሳሽ ለመጠቀም ይሞክሩ)
+    • የማይክሮፎን ወይም የድምጽ አሳዋቂ ችግሮች
+    • በቀረጻ ወቅት የአውታረ መረብ መቆራረጦች
+    እባክዎን እንደገና ለመቅዳት ይሞክሩ።
 record-cancel = ዳግም መቅረጽን ሰርዝ
 record-instruction = { $actionType } <recordIcon> </recordIcon> ከዚያም ዓረፍተ ነገሩን ጮክ ብለው ያንብቡ
 record-stop-instruction = ሲጨርሱ { $actionType } <stopIcon> </stopIcon>

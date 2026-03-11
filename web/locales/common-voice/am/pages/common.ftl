@@ -244,6 +244,7 @@ nso = ሰሜናዊ ሶቶ
 ny = ቺንያኛ
 nyn = ሩንያንኮሌ
 oc = ኦክሲታን
+odk = ኦድኪ
 om = ኦሮምኛ
 or = ኦድያ
 oru = ኦርሙሪ
@@ -251,44 +252,70 @@ os = ኦሴቲያኛ
 pa-IN = ፑንጃቢ
 pap = ፓፒያሜንቶ
 pap-AW = ፓፒያሜንቶ (አሩባ)
+pau = ፓላውዋን
+pcd = ፒካርድ
 pcm = የናይጄሪያ ፒጂጂን እንግሊዝኛ
+pez = ምስራቃዊ ፔናን
 phl = ፓሉላ
+phr = ፓሃሪ-ፖዝዋሪ
 pl = ፖላንድኛ
+pne = ምዕራባዊ ፔናን
+prq = አሼኒንካ ፔሬን
 ps = ፓሽቶ
 pt = ፖርቹጋልኛ
 quc = ኪቼ'
+qug = የኩዊቹዋ ቺምቦራዞ ከፍተኛ ቦታ
+qur = ኩቹዋ ያናሁዋንካ
+qus = ኩቹዋ ሳንቲያጎ ዴል ኤስቴሮ
 quy = ክዌቹዋ ቻንካ
 qvi = ኪችዋ
+qvj = ሎጃ ሃይላንድ ኪችዋ
 qxp = ፑኖ ክዌቹዋ
+qxq = ቃሽካይ
 rif = ታሪፍ
 rm-sursilv = ሮማንሽ ሰርሲልቫን
 rm-vallader = ሮማንሽ ቫላደር
+rn = ኪሩንዲ
 ro = ሮማንያኛ
+rof = ኪሮምቦ
 ru = ሩስያኛ
+rup = አሮማንኛ
 rw = ኪንያርዋንዳ
+rwm = አምባ
 sah = ሳካህ
 sat = ሳንታሊ(ኦል ቺኪ)
+sba = ንጋምቤይ
+sbn = ሲንዲ ቢሂል
 sc = ሳርዲንያኛ
 scn = ሲሲሊያን
 sco = ስኮትላንዳውያን
 sd = ስንድሂ
 sdh = ደቡባዊ ኩርዲሽ
+sdo = የሴሪያ ቢዳዩህ
+seh = ሴና
 shi = ሺልሃ
 shn = ሻን
 si = ሲንሃላ
 sk = ስሎቫክ
 skr = ሳራይኪ
 sl = ስሎቬንያኛ
+sn = ሾና
 snk = ሶኒንኬ
+snv = ሳባን
 so = ሶማልኛ
 sq = አልባንያኛ
 sr = ሰርብያኛ
 ss = ሲስዋቲ
+ssi = ሳንሲ
 st = ደቡብ ሶቶ
+su = ሱዳንኛ
 sv-SE = ስዊድንኛ
 sw = ስዋሂሊ
 syr = ሲርያክ
+szy = ሳኪዛያ
 ta = ታሚል
+tar = ማዕከላዊ ታራሁማራ
+tay = አታያል
 te = ተሉጉ
 teg = ተክኤ
 tg = ታጂክ
@@ -297,31 +324,54 @@ ti = ትግርኛ
 tig = ትግሬ
 tk = ቱሪክሜን
 tl = ታንጋሎግ
+tli = ትሊንጊት
 tn = ሴትስዋና
+tob = ቶባ ኩም
 tok = ቶኪ ፖና
+top = ፓፓንትላ ቶቶናክ
 tr = ቱርክኛ
+trv = ሴዲቅ
+trw = ቶርዋሊ
 ts = ዢትሶንጋ
 tt = ታታር
+ttj = ሩቶሮ
 tui = ፑሪ
+tum = ቱምቡካ
+tuq = ቱዳጋ
 tvu = ቱነን
 tw = ትዊ
 ty = ታሂቲ
 tyv = ቱቫን
 uby = ኡባይክ
+udl = ኡልዴሜ
 udm = ኡድመርት
 ug = ኡይግሁር
 uk = ዩክሬንኛ
+ukv = ኩኩ
 ur = ኡርዱ
+ush = ኡሾጆ
+usp = ኡስፓንቴኮ
 uz = ኡዝቤክ
+var = ሁዋሪጂዮ
 ve = ሺቬንዳ
 vec = ቨኒሸንኛ
 vi = ቬትናምኛ
 vmw = ኢማኩዋ
 vot = ቮቲክ
+wbl = ዋኪ
 wep = ዌስትፋሊያን
 wes = ካሜሩን ፒዲን
 wo = ዎልፍኛ
+xdq = ካይታግ
 xh = ዛይሆሳ
+xhe = ኬትራኒ
+xka = ካልኮቲ
+xkl = ኬንያህ
+xmf = ሚንግሬሊያን
+xsm = ካሴም
+yaq = ያኪ
+yav = ኑአሱ
+ydg = ያድጋ
 yi = ይዲሽ
 yo = ዮሩባ
 yue = ካንቶኒዝ
@@ -329,6 +379,7 @@ zgh = ታማዚት
 zh-CN = ቻይንኛ (ቻይና)
 zh-HK = ቻይንኛ (ሆንግ ኮንግ)
 zh-TW = ቻይንኛ (ታይዋን)
+zoc = ኮፓናላ ዞክ
 zu = ዙሉ
 zza = ዛዛ
 
@@ -364,6 +415,14 @@ email-opt-in-info-sub-with-challenge = እንደ የአላማ ማስታወሻ፣
 email-opt-in-privacy-v2 = ኢሜይል ለመቀበል ፈቃደኛ ሲሆኑ፤ ሞዚላ እነዚህን መረጃዎች የሚይዝበትን በሞዚላ <privacyLink>የግላዊነት ፖሊሲ</privacyLink> ላይ የተገለፀውን መቀበልዎትን ያሳያል።
 indicates-required = * የግድ መሞላት ያለበት ቦታ መሆኑን ያመለክታል
 not-available-abbreviation = ሊገኝ የማይችል
+# Text shown on a button that can be clicked to copy text to the clipboard
+copy = ቅዳ
+# Text shown on a button that can be clicked to close a modal or panel
+close = ዝጋ
+# Text shown on a button that can be clicked to cancel an action
+cancel = ሰርዝ
+# Text shown on a button that can be clicked to delete an item
+delete = አጥፋ
 
 ## Donate banner
 
@@ -376,3 +435,26 @@ languages-donate-banner-cta = <mark>የእርስዎን ምርምር በ</mark><b
 languages-donate-banner-cta-explanation = የጋራ ድምጽ የሚሸፈነው በስጦታ እና በእርዳታ ነው! ከምሁራን፣ ከሲቪል ማህበረሰብ እና ከኢንዱስትሪ ተመራማሪዎች ጋር መተባበር እንወዳለን። የጋራ ድምጽ ለመጠቀም ነጻ ነው፣ ነገር ግን በስጦታ ፕሮፖዛል በኩል ለመድረክ እና ወጪ ማስተናገጃ አስተዋጽዖ ማድረግ በእርግጥ አጋዥ ነው።
 localization-select =
     .label = ቋንቋ/አካባቢን ምረጥ
+
+## MDC Announcement
+
+# Main text for MDC announcement. Text wrapped in <strong></strong> will be rendered with bold font
+announcement-mdc-text = <strong>አዳዲስ የጋራ ልሳን የውሂብ ስብስቦች</strong> አሁን በእህት መድረክ፣ ሞዚላ ውሂብ ስብስብ በኩል ብቻ ለማውረድ ይገኛሉ። በማህበረሰቡ የተገነቡ እና ለማህበረሰቡ የተገነቡ ከ300 በላይ አለምአቀፍ የውሂብ ስብስቦችን ለማግኘት ይቀላቀሉ።
+# Button text for MDC announcement
+announcement-mdc-button-text = የሞዚላ ውሂብ ስብስብን ይቀላቀሉ
+# Aria text for button which opens MDC on a new page
+announcement-mdc-button-aria-text = በአዲስ ትር ይከፈታል
+
+## Common Language/Dataset Selector & SearchBox Related
+
+# Generic search box defaults
+searchbox-default-label = ለመፈለግ መተየብ ይጀምሩ
+searchbox-default-placeholder = ፈልግ...
+searchbox-default-aria-label = ፈልግ
+dropdown-no-results = ምንም ተዛማጅ አልተገኘም
+# Common Voice Dataset=Language search box
+dataset-searchbox-label = የማሳያ እና የውሂብ ስብስብ ቋንቋን ይለውጣል
+dataset-searchbox-placeholder = ቋንቋ ፈልግ...
+dataset-searchbox-aria-label = ቋንቋ ፈልግ
+dataset-search-no-results = ምንም ተዛማጅ ቋንቋ አልተገኘም
+request-new-language = አዲስ ቋንቋ ይጠይቁ
