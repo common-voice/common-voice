@@ -6,6 +6,7 @@ banner-error-slow-link = Kuatiarogue Rekotee
 error-something-went-wrong = Che ñyrõmína, oĩhína osẽvaíva
 error-clip-upload = Eikutúvo ndoikoporãi, ¿ejapojeýnte ag̃amieve?
 error-clip-upload-server = Eikutúvo ndoikopái mba’e’okápe, ¿Emyanyhẽjey kuatiarogue térã eha’ã jey ag̃amieve?
+error-clip-upload-too-large = Ne ñeñongatu marandurenda tuichaiterei ehupi hag̃ua. Eñeha’ã eñongatu mbykymieve.
 error-title-404 = Ndorojuhúi upe togue rehekáva.
 error-content-404 = Oiméne rejuhukuaa ore <homepageLink>ñandutirenda ñepyrũha</homepageLink>-pe reikotevẽva. Eporandu hag̃ua, eikemína <matrixLink>Pytyvõhára Aty Ñemongetarenda’i</matrixLink>-pe, ehechami ehóvo apañuái oikóva <githubLink>GitHub</githubLink>-pe térã eikemi <discourseLink>ore Ñemongetaguasu rendakuéra</discourseLink>-pe.
 error-title-500 = Che ñyrõmína, oĩhína osẽvaíva
