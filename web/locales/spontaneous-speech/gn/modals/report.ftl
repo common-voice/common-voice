@@ -5,6 +5,7 @@ report-modal-subtitle = Mba’ete apañu’áipa eguereko ko tetepy ndive
 offensive_speech = Ñe’ẽreity Ivaíva
 offensive_speech-detail = Pe tetepy oguereko ñe’ẽvai ha oporoko’õva.
 empty_or_unintelligible = Nandi ha nahesakãi
+empty_or_unintelligible-detail = Pe tetepy inandi, oñembyai, oreko ñe’ẽ ambuéva, etc.
 personally_identifiable_information = Marandu tapicha kuaaukaha
 report-other-comment =
     .placeholder = Je’erei
