@@ -48,6 +48,7 @@ resource-playbook-info = <playbookLink>yala soŋsim tarisi<playbookLink>kukoya d
 data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = TED-LIM corpus sodolisi la daa yila yɛltɔɣa vulibu mini di lɛbiginsim n niŋli bayana TED dundɔŋ puuni ni.
 data-other-voxforge-description = Bi daa bola VoxForge zali ni di laɣimdi yaligi din lɛbigi ni di tumdi ypli n tiri yihibu sheei yaligu baŋbu mazinanima
+data-other-tatoeba-description = Tatoeba nyɛla  tuma din  galisi tumdoya zaŋ kana yɛltɔɣa,lɛbigiti yɛltɔɣa vulibu din yan zaŋ tum bala bɔhimbu.Din pun vuli doya ŋɔ nyɛla din mali ilimisili yɛlibu di vulibu bi maŋmaŋa zilɛni ni.
 your-feedback = A mali pahigu shɛli din tu ni ti zaŋ pahi n che ka common voice datasets nya naba n zani? che ka ti baŋ ti yɛltɔɣa kpanjɔɣu maa ni
 go-discourse = Chami fiila puuni
 missing-language = A bi nya a balli ni yina dataset puuni?  A yi bɔri bali shɛli nyin chami ti bala paagi maa ni.
