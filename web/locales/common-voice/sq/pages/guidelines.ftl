@@ -4,6 +4,8 @@ guidelines-header-subtitle = Kuptoni si të kontribuoni dhe të vleftësoni togf
 voice-collection = Koleksion Zërash
 sentence-collection = Grumbullim Frazash
 question-collection = Koleksion Pyetjesh
+scripted-speech = E folur e Shkruar
+spontaneous-speech = E folur Spontane
 
 ## Voice Collection nav ids
 
@@ -135,3 +137,9 @@ offensive-content-sensitive-information-explanation-explanation-2 = Pyetje që m
 example-questions-subheader = Shembuj pyetjesh
 example-questions-explanation-1 = Mund të gjeni <examplePromptsLink>120 shembuj në këtë fletë.</examplePromptsLink>
 example-questions-explanation-2 = Nëse do të donit të parashtroni një pjesë pyetjesh për trajtim, <githubLink>mund ta bëni përmes llogarisë sonë GitHub</githubLink>, ose dërgojeni listën tuaj me email te <emailFragment>commonvoice@mozilla.com.</emailFragment>
+
+## Spontaneous Speech sidebar content
+
+# Answer Questions
+answer-questions = Përgjigjiuni Pyetjeve
+answer-questions-subheader = Drejtim i përgjithshëm

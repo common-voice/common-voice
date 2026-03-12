@@ -16,6 +16,8 @@ error-title-502 = U ndërpre lidhja
 error-content-502 = S’jeni në gjendje të vendosni një lidhje të qëndrueshme me shërbyesit tanë tani. Ju lutemi, riprovoni më vonë. Për ndihmë, ju lutemi, ejani në <matrixLink>fjalosjen e bashkësisë në Matrix</matrixLink>, mbikëqyrni probleme sajti përmes <githubLink>GitHub</githubLink>-it, ose vizitoni <discourseLink>forumet tanë në Discourse</discourseLink>.
 error-title-503 = Po kalojmë një mosfunksionim të papritur
 error-content-503 = Sajti do të kopjeruhet sa më shpejt që të jetë e mundur. Për të informacionet më të reja, ju lutemi, merrni pjesë te <matrixLink>fjalosja e bashkësisë sonë Matrix</matrixLink> ose vizitoni <githubLink>GitHub</githubLink> ose <discourseLink>forumet tanë Discourse</discourseLink> që të parashtroni dhe mbikëqyrni probleme funksionimi sajtesh.
+error-title-504 = Kërkesës i mbaroi koha
+error-content-504 = Kërkesa e zgjati shumë plotësimin. Zakonisht kjo është përkohshme. Ju lutemi, riprovoni. Për ndihmë, ju lutemi, ejani në <matrixLink>fjalosje të bashkësisë në Matrix</matrixLink>, mbikëqyrni probleme sajti përmes <githubLink>GitHub</githubLink>-i, ose vizitoni <discourseLink>forumet tanë në Discourse</discourseLink>.
 error-code = Gabim { $code }
 # Warning message shown when none of the clips could be uploaded
 error-duplicate-clips-all =
@@ -23,3 +25,5 @@ error-duplicate-clips-all =
         [one] S’ngarkuam dot copëzën tuaj. Është ngarkuar më parë. Le të vazhdojmë me grupin pasues!
        *[other] S’ngarkuam dot { $total } copëzëa. Janë ngarkuar më parë. Le të vazhdojmë me grupin pasues!
     }
+# Warning message shown when only some of the clips could be uploaded (uploaded count will be <5)
+error-duplicate-clips-some = Ngarkuam { $uploaded } nga copëzat tuaja — Pjesa tjetër është ngarkuar tashmë. Le të vazhdojmë me grupin pasues!
