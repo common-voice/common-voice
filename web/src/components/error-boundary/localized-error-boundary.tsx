@@ -11,6 +11,11 @@ import {
 } from '../../services/app-error'
 
 import catchErrorsWithSentry from './catch-errors-with-sentry'
+import {
+  safeSessionStorageGet,
+  safeSessionStorageSet,
+  safeSessionStorageRemove,
+} from '../../utility'
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 interface Props extends RouteComponentProps<any, any, any> {
@@ -24,26 +29,17 @@ interface State {
 
 const CHUNK_RELOAD_KEY = 'cv-chunk-reload'
 
+function isChunkLoadError(error: Error): boolean {
+  return (
+    /Loading (?:CSS )?chunk .+ failed/i.test(error.message) ||
+    /ChunkLoadError/i.test(error.name)
+  )
+}
+
 class LocalizedErrorBoundary extends React.Component<Props, State> {
   state: State = { hasError: false }
 
   static getDerivedStateFromError(error: Error) {
-    // Stale chunk after deploy: retry-exhausted chunk errors trigger a
-    // one-time page reload so the browser fetches fresh asset references.
-    if (
-      /Loading (?:CSS )?chunk .+ failed/i.test(error.message) ||
-      /ChunkLoadError/i.test(error.name)
-    ) {
-      if (!sessionStorage.getItem(CHUNK_RELOAD_KEY)) {
-        sessionStorage.setItem(CHUNK_RELOAD_KEY, '1')
-        window.location.reload()
-        // Return error state in case reload is blocked (e.g. by extensions)
-        return { hasError: true, errorCode: '502' as ErrorBoundaryErrorCode }
-      }
-      // Already reloaded once — clear flag and fall through to error page
-      sessionStorage.removeItem(CHUNK_RELOAD_KEY)
-    }
-
     const errorCode = LocalizedErrorBoundary.getErrorCodeFromError(error)
     if (errorCode) {
       return { hasError: true, errorCode }
@@ -95,6 +91,18 @@ class LocalizedErrorBoundary extends React.Component<Props, State> {
   }
 
   async componentDidCatch(error: Error, errorInfo: any) {
+    // Stale chunk after deploy: retry-exhausted chunk errors trigger a
+    // one-time page reload so the browser fetches fresh asset references.
+    if (isChunkLoadError(error)) {
+      if (!safeSessionStorageGet(CHUNK_RELOAD_KEY)) {
+        safeSessionStorageSet(CHUNK_RELOAD_KEY, '1')
+        window.location.reload()
+        return
+      }
+      // Already reloaded once — clear flag and show error page
+      safeSessionStorageRemove(CHUNK_RELOAD_KEY)
+    }
+
     // Only log system errors and unexpected errors to Sentry
     // Client-handled errors are expected application flow
     if (!(error instanceof ClientHandledError)) {
@@ -108,7 +116,7 @@ class LocalizedErrorBoundary extends React.Component<Props, State> {
 
     // Reset error state when navigating to a new page
     if (hasPathnameChanged) {
-      sessionStorage.removeItem(CHUNK_RELOAD_KEY)
+      safeSessionStorageRemove(CHUNK_RELOAD_KEY)
       this.setState({ hasError: false, errorCode: undefined })
     }
   }
