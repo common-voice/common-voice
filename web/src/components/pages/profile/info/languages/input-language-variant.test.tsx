@@ -61,6 +61,7 @@ describe('InputLanguageVariant', () => {
         name: 'North-Western Welsh',
         locale: "cy",
         tag: 'cy-north',
+        is_preferred_option: false,
       },
     } as UserLanguage;
     expect(mockSetUserLanguage).toBeCalledWith([expectedLanguage]);
