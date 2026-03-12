@@ -38,6 +38,13 @@ export default function StatsCard({
   const tabKeys = tabs ? Object.keys(tabs) : []
   const [selectedTab, setSelectedTab] = useState(tabKeys[0])
 
+  // Ensure selectedTab stays in sync with available tab keys
+  useEffect(() => {
+    if (!selectedTab || !tabKeys.includes(selectedTab)) {
+      setSelectedTab(tabKeys[0])
+    }
+  }, [selectedTab, tabKeys])
+
   // Sync locale with currentLocale from top bar
   useEffect(() => {
     if (currentLocale !== undefined) {
