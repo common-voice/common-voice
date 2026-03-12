@@ -129,6 +129,7 @@ answer-questions-tip-1 = Yaami li luɣishɛli din fo.
 answer-questions-tip-2 = piimi luɣishɛli intaneeti ni be.
 answer-questions-tip-3b = kpaŋmi a maŋa ka a gbubi a saɣibu a suhuni kamani minti chɛɣu
 answer-questions-tip-4 = Chɛli yɛltɔɣa kana, yɛltɔɣa fina, bee yɛltɔɣa yoya
+answer-questions-tip-5 = Yalimi naawuni ni taa lɔŋ shɛli, kamani a mini a zo-zaŋmi a ni mali kukɔli shɛli ni a lɔŋ
 answer-questions-tip-6 = gbibi a yeei sahakam yim-miri ka a tahi bee ka a yili
 # Transcribe the Audio
 transcribe-the-audio = Sabimi kukɔli maa.
@@ -175,6 +176,7 @@ code-switching-adding-question-criteria-1 = maami ani m baŋ ka saɣi ti
 code-switching-adding-question-criteria-2 = Di tu ni di mali anfaani
 # What types of questions to add
 code-switching-types-subheader = Bɔhigu bal' bo n lee tu ni di pahi
+code-switching-focus-emotional-explanation-example = Yɛlimima a laabi ni yɛlishɛm ani daa ti ba lahibali karili_bi ni daa kuli yɛlli shɛm"
 # What to Avoid
 code-switching-avoid-subheader = Din tu ni a che
 code-switching-avoid-intro = Bɔhisi din ni tooi:
@@ -192,6 +194,8 @@ code-switching-answer-dont-subheader = di tiɛhi pam bee di tɔhi sabi pam
 code-switching-spelling-header = Zaŋ mi bachi yiɣisibu zaɣa maŋli n-ti balli kam
 code-switching-pronunciation-explanation-example-1 = English: /ˈkeɪ.bəl/
 code-switching-pronunciation-explanation-example-2 = Spanish: /ˈkable/
+# Be Careful with Lookalikes
+code-switching-lookalikes-header = Niŋmi zaɣa ni bin yɛra shɛŋa din mŋani taba
 code-switching-not-tag-proper-names-example-1 = Niriba: Maria, John
 code-switching-not-tag-proper-names-example-2 = Tiŋsi: Los Angeles, Florida
 code-switching-not-tag-interjections-example-2 = "Aayi"
