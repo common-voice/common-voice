@@ -288,13 +288,13 @@ async function updateVariants(clientId: string, languages: UserLanguage[]) {
     if (validIds.length > 0) {
       const formattedIds = validIds.map(variantRow => {
         const preferred = requestedVariants.find(
-          variant => variant.id === variantRow.variant_id
+          variant => variant.id == variantRow.variant_id
         )
         return [
           clientId,
           variantRow.variant_id,
           variantRow.locale_id,
-          preferred.is_preferred_option ? 1 : 0,
+          preferred?.is_preferred_option ? 1 : 0,
         ]
       }) //format array so query can insert multiple
       await db.query(
@@ -306,7 +306,7 @@ async function updateVariants(clientId: string, languages: UserLanguage[]) {
 
   if (variantsToUpdate.length > 0) {
     const variantData = variantsToUpdate.map(variant => {
-      return [variant.is_preferred_option, clientId, variant.id]
+      return [variant.is_preferred_option ? 1 : 0, clientId, variant.id]
     })
 
     for (const variant of variantData) {
