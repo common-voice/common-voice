@@ -119,7 +119,7 @@ const getAccentsChanges = async (
     ) => {
       // Flatten the accents and return the entire flat array
       return languageListFlat.concat(
-        language.accents.reduce((accentListFlat: any[], accent: any) => {
+        (language.accents || []).reduce((accentListFlat: any[], accent: any) => {
           return accentListFlat.concat({
             locale: language.locale,
             accent_name: accent.name,
