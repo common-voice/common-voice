@@ -1095,8 +1095,16 @@ export default class API {
 
   createCustomGoal = async (request: Request, response: Response) => {
     const userId = request.session.user.client_id // Guaranteed by middleware
+    const locale = request.params.locale
+    const localeId = await getLocaleId(locale)
 
-    await CustomGoal.create(userId, request.params.locale, request.body)
+    if (!localeId) {
+      return response.status(400).json({
+        message: `Invalid locale: ${locale}`,
+      })
+    }
+
+    await CustomGoal.create(userId, locale, request.body)
     response.json({})
     // Basket.sync(userId).catch(e => console.error(e)) // Commented out: bulk-mail facility not supported
   }
