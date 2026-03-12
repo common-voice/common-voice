@@ -74,7 +74,7 @@ const InputLanguageVariant = ({
 
     newLanguages[languageIndex] = {
       ...newLanguages[languageIndex],
-      variant,
+      variant: { ...variant, is_preferred_option: false },
     } as UserLanguage;
 
     setUserLanguages(newLanguages);
