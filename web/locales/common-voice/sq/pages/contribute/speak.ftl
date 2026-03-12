@@ -12,6 +12,14 @@ record-no-mic-found = S’u gjet mikrofon.
 record-error-too-short = Incizimi qe shumë i shkurtër.
 record-error-too-long = Incizimi qe shumë i gjatë.
 record-error-too-quiet = Volumi i zërit në incizim qe shumë i ulët.
+record-error-empty-recording = S’u incizua audio. Ju lutemi, kontrolloni mikrofonin tuaj dhe riprovoni.
+record-error-unknown-format = S’arrihet të përcaktohet formati audio. Ju lutemi, provoni të përdorni tjetër shfletues.
+record-error-uploaded-clip-corrupted =
+    Incizimi juaj duket të jetë i dëmtuar. Kjo mund të ndodhë për shkak të:
+    • Problemesh përputhjeje shfletuesi (provoni të përdorni shfletues tjetër)
+    • Problemesh mikrofoni ose përudhësi audio
+    •Ndërprerje rrjeti gjatë incizimit
+    Ju lutemi, provoni ta riincizoni.
 record-cancel = Anuloje Ri-incizimin
 record-instruction = { $actionType }<recordIcon></recordIcon> mandej lexojeni frazën me zë
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> kur të keni përfunduar
