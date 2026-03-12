@@ -64,6 +64,7 @@ sentence-domain = Yɛltɔɣili ni yi yaɣ' shɛli na
 
 ## Sentence collection sidebar content
 
+public-domain-explanation-5 = Bɔmi satarili shɛli din lahi ka labiniŋ.mŋahinli buku sheŋa din daa sabi poi ni yuuni 1920
 public-domain-explanation-6 = kpaŋmi a maŋa m paai gomnanti,zen n gama laɣinsi bee poham zuɣu laɣinsi n nŋa a ni tooi zaŋ sodoligu ŋɔ wuhi bee ninvuɣ' shɛbi ni tooi wuhi ti sokam zaa.
 citing-sentences-explanation-1 = Di mali bukaata ni ti wuhiri ti tumma bɛhisi shee din yan che ka ti vihiri lala yɛltɔɣa be maa sokam zaa sa ni ka paɣasiriba bi tooi nŋari paɣasira
 citing-sentences-subheader-websites = Wɛbsaatinima
@@ -115,6 +116,7 @@ length-avoid-explanation = Bɔhigu shɛŋa  din labisibu yɛn niŋ tɔm ti so ni
 process-steps = Soya
 offensive-content-sensitive-information = yɛltɔɣa tula bee hankali yɛltɔɣa
 offensive-content-sensitive-information-explanation-explanation-1 = Bɔhishɛŋa din bɔri mammaŋa labisibu baŋbu lahibali
+offensive-content-sensitive-information-explanation-explanation-2 = Bɔhisi shɛŋa din ni tooi tahi yɛltɔɣa din yiɣisiri  suhi bee yɛltɔɣa din tahiri zaba na
 example-questions-subheader = Kotomsi bɔhisi
 example-questions-explanation-1 = A ni tooi nya <examplePromptsLink> kɔbigi ni pishi kotomsi gbaŋ ŋɔ ni.</examplePromptsLink>
 
