@@ -136,6 +136,8 @@ transcribe-the-audio-subheader-1 = So'dola
 transcribe-the-audio-subheader-2 = nambanima mini bachi ŋmahi
 transcribe-the-audio-subheader-3 = Tikpara gahinda
 transcribe-the-audio-subheader-4 = Bachi piribu,ʒiri pilli,labiyaai bachinima.
+transcribe-the-audio-subheader-1-explanation = Sokam saɣi ti,ni di tu ni a sabi binshɛgu kam a ni wum.Din boŋɔ pahila;
+transcribe-the-audio-subheader-1-explanation-example-2 = Vuri yuya sabi pa laɣisi kamani kohigu bee lari
 # text wrapped in correct will be shown as green text in the UI
 transcribe-the-audio-subheader-2-example-1-correct = Di yɛla maali kubiga zaŋna ni kpe
 # text wrapped in wrong will be shown as red text in the UI
