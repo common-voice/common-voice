@@ -341,10 +341,12 @@ export namespace Sentences {
     }),
   }
 
-  const DEFAULT_LOCALE_STATE = {
-    sentences: [] as Sentence[],
+  const DEFAULT_LOCALE_STATE: Sentences.State[string] = {
+    sentences: [],
     isLoading: true,
     hasLoadingError: false,
+    isLoadingPendingSentences: false,
+    pendingSentences: [],
     bulkUploadStatus: 'off',
   }
 
@@ -374,8 +376,8 @@ export namespace Sentences {
             isLoading: false,
             hasLoadingError: false,
             isLoadingPendingSentences:
-              currentLocaleState.isLoadingPendingSentences,
-            pendingSentences: currentLocaleState.pendingSentences,
+              localeState.isLoadingPendingSentences,
+            pendingSentences: localeState.pendingSentences,
           },
         }
       }
@@ -399,8 +401,8 @@ export namespace Sentences {
             isLoading: false,
             hasLoadingError: true,
             isLoadingPendingSentences:
-              currentLocaleState.isLoadingPendingSentences,
-            pendingSentences: currentLocaleState.pendingSentences,
+              localeState.isLoadingPendingSentences,
+            pendingSentences: localeState.pendingSentences,
           },
         }
 
@@ -414,8 +416,8 @@ export namespace Sentences {
             isLoading: false,
             hasLoadingError: false,
             isLoadingPendingSentences:
-              currentLocaleState.isLoadingPendingSentences,
-            pendingSentences: currentLocaleState.pendingSentences,
+              localeState.isLoadingPendingSentences,
+            pendingSentences: localeState.pendingSentences,
           },
         }
 
@@ -454,7 +456,7 @@ export namespace Sentences {
       }
 
       case ActionType.VOTE_SENTENCE: {
-        const pendingSentences = currentLocaleState.pendingSentences.map(
+        const pendingSentences = localeState.pendingSentences.map(
           (pendingSentence, index) =>
             index === action.sentenceIndex
               ? { ...pendingSentence, isValid: action.isValid }
@@ -464,21 +466,21 @@ export namespace Sentences {
         return {
           ...state,
           [locale]: {
-            ...currentLocaleState,
+            ...localeState,
             pendingSentences,
           },
         }
       }
 
       case ActionType.SHOW_NEXT_SENTENCE: {
-        const pendingSentences = currentLocaleState.pendingSentences.filter(
+        const pendingSentences = localeState.pendingSentences.filter(
           sentence => sentence.sentenceId !== action.sentenceId
         )
 
         return {
           ...state,
           [locale]: {
-            ...currentLocaleState,
+            ...localeState,
             pendingSentences,
           },
         }
