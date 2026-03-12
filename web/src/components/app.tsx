@@ -36,18 +36,21 @@ import ErrorBoundary from './error-boundary/error-boundary'
 import LocalizedErrorBoundary from './error-boundary/localized-error-boundary'
 import { AB_TESTING_SPLIT_KEY, SPLIT_A, SPLIT_B } from '../constants'
 import { FeatureProvider } from '../contexts/feature-context'
+import lazyWithRetry from '../lazy-with-retry'
 
-const ListenPage = React.lazy(
+const ListenPage = lazyWithRetry(
   () => import('./pages/contribution/listen/listen')
 )
-const SpeakPage = React.lazy(() => import('./pages/contribution/speak/speak'))
-const WritePage = React.lazy(
+const SpeakPage = lazyWithRetry(
+  () => import('./pages/contribution/speak/speak')
+)
+const WritePage = lazyWithRetry(
   () => import('./pages/contribution/sentence-collector/write/write-container')
 )
-const ReviewPage = React.lazy(
+const ReviewPage = lazyWithRetry(
   () => import('./pages/contribution/sentence-collector/review/review')
 )
-const DemoPage = React.lazy(() => import('./layout/demo-layout'))
+const DemoPage = lazyWithRetry(() => import('./layout/demo-layout'))
 
 const SentryRoute = Sentry.withSentryRouting(Route)
 
