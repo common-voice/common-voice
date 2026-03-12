@@ -22,10 +22,28 @@ interface State {
   errorCode?: ErrorBoundaryErrorCode
 }
 
+const CHUNK_RELOAD_KEY = 'cv-chunk-reload'
+
 class LocalizedErrorBoundary extends React.Component<Props, State> {
   state: State = { hasError: false }
 
   static getDerivedStateFromError(error: Error) {
+    // Stale chunk after deploy: retry-exhausted chunk errors trigger a
+    // one-time page reload so the browser fetches fresh asset references.
+    if (
+      /Loading (?:CSS )?chunk .+ failed/i.test(error.message) ||
+      /ChunkLoadError/i.test(error.name)
+    ) {
+      if (!sessionStorage.getItem(CHUNK_RELOAD_KEY)) {
+        sessionStorage.setItem(CHUNK_RELOAD_KEY, '1')
+        window.location.reload()
+        // Return error state in case reload is blocked (e.g. by extensions)
+        return { hasError: true, errorCode: '502' as ErrorBoundaryErrorCode }
+      }
+      // Already reloaded once — clear flag and fall through to error page
+      sessionStorage.removeItem(CHUNK_RELOAD_KEY)
+    }
+
     const errorCode = LocalizedErrorBoundary.getErrorCodeFromError(error)
     if (errorCode) {
       return { hasError: true, errorCode }
@@ -90,6 +108,7 @@ class LocalizedErrorBoundary extends React.Component<Props, State> {
 
     // Reset error state when navigating to a new page
     if (hasPathnameChanged) {
+      sessionStorage.removeItem(CHUNK_RELOAD_KEY)
       this.setState({ hasError: false, errorCode: undefined })
     }
   }
