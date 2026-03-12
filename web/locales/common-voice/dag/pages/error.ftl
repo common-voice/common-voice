@@ -24,3 +24,5 @@ error-duplicate-clips-all =
         [one] Ti bi tooi vuli a sinii maa.Di namin pun vulimi.Che ka ti zaŋ din paya tuɣi!
        *[other] Ti bi tooi vuli{ $total } siniinima.Bi namin pun vulili
     }
+# Warning message shown when only some of the clips could be uploaded (uploaded count will be <5)
+error-duplicate-clips-some = Ti vulimi n sɔŋ{ $uploaded }a siniinima _Di vulibu teebu pun vulisɔŋ.Cheliya ka ti tuɣi din paya

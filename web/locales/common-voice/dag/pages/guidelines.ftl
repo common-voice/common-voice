@@ -129,6 +129,7 @@ answer-questions-tip-1 = Yaami li luɣishɛli din fo.
 answer-questions-tip-2 = piimi luɣishɛli intaneeti ni be.
 answer-questions-tip-3b = kpaŋmi a maŋa ka a gbubi a saɣibu a suhuni kamani minti chɛɣu
 answer-questions-tip-4 = Chɛli yɛltɔɣa kana, yɛltɔɣa fina, bee yɛltɔɣa yoya
+answer-questions-tip-6 = gbibi a yeei sahakam yim-miri ka a tahi bee ka a yili
 # Transcribe the Audio
 transcribe-the-audio = Sabimi kukɔli maa.
 transcribe-the-audio-subheader-1 = So'dola
