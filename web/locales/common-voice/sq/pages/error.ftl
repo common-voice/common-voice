@@ -13,3 +13,9 @@ error-title-502 = U ndërpre lidhja
 error-title-503 = Po kalojmë një mosfunksionim të papritur
 error-content-503 = Sajti do të kopjeruhet sa më shpejt që të jetë e mundur. Për të informacionet më të reja, ju lutemi, merrni pjesë te <matrixLink>fjalosja e bashkësisë sonë Matrix</matrixLink> ose vizitoni <githubLink>GitHub</githubLink> ose <discourseLink>forumet tanë Discourse</discourseLink> që të parashtroni dhe mbikëqyrni probleme funksionimi sajtesh.
 error-code = Gabim { $code }
+# Warning message shown when none of the clips could be uploaded
+error-duplicate-clips-all =
+    { $total ->
+        [one] S’ngarkuam dot copëzën tuaj. Është ngarkuar më parë. Le të vazhdojmë me grupin pasues!
+       *[other] S’ngarkuam dot { $total } copëzëa. Janë ngarkuar më parë. Le të vazhdojmë me grupin pasues!
+    }
