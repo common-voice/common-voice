@@ -370,14 +370,12 @@ export namespace Sentences {
         return {
           ...state,
           [locale]: {
+            ...localeState,
             sentences: localeState.sentences.concat(
               action.sentences.filter(({ id }) => !sentenceIds.includes(id))
             ),
             isLoading: false,
             hasLoadingError: false,
-            isLoadingPendingSentences:
-              localeState.isLoadingPendingSentences,
-            pendingSentences: localeState.pendingSentences,
           },
         }
       }
@@ -397,12 +395,10 @@ export namespace Sentences {
         return {
           ...state,
           [locale]: {
+            ...localeState,
             sentences: [],
             isLoading: false,
             hasLoadingError: true,
-            isLoadingPendingSentences:
-              localeState.isLoadingPendingSentences,
-            pendingSentences: localeState.pendingSentences,
           },
         }
 
@@ -410,14 +406,12 @@ export namespace Sentences {
         return {
           ...state,
           [locale]: {
+            ...localeState,
             sentences: localeState.sentences.filter(
               s => !action.sentenceIds.includes(s.id)
             ),
             isLoading: false,
             hasLoadingError: false,
-            isLoadingPendingSentences:
-              localeState.isLoadingPendingSentences,
-            pendingSentences: localeState.pendingSentences,
           },
         }
 
@@ -430,7 +424,7 @@ export namespace Sentences {
         return {
           ...state,
           [locale]: {
-            ...currentLocaleState,
+            ...localeState,
             pendingSentences: [],
             isLoadingPendingSentences: true,
           },
@@ -448,7 +442,7 @@ export namespace Sentences {
         return {
           ...state,
           [locale]: {
-            ...currentLocaleState,
+            ...localeState,
             pendingSentences,
             isLoadingPendingSentences: false,
           },
@@ -490,7 +484,7 @@ export namespace Sentences {
         return {
           ...state,
           [locale]: {
-            ...currentLocaleState,
+            ...localeState,
             bulkUploadStatus: action.bulkUploadStatus,
             ...(action.bulkUploadStatusData && {
               bulkUploadStatusData: action.bulkUploadStatusData,
