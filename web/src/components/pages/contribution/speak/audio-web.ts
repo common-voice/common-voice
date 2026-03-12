@@ -73,6 +73,7 @@ export default class AudioWeb {
             {
               NotAllowedError: AudioError.NOT_ALLOWED,
               NotFoundError: AudioError.NO_MIC,
+              OverconstrainedError: AudioError.NO_SUPPORT,
             } as { [errorName: string]: AudioError }
           )[error.name] || error
         )
