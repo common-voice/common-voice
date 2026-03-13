@@ -4,6 +4,54 @@ Standalone service that packages per-locale Common Voice datasets into distribut
 
 For architecture, internals, and testing details see [DEVELOPER.md](DEVELOPER.md).
 
+## Data Pipeline
+
+```mermaid
+flowchart LR
+    SCS_DB[("SCS DB")]
+    SPS_DB[("SPS DB")]
+    GCS_C[("GCS
+    SCS clips")]
+    DS["cv-datasheets"]
+    GCS_A[("GCS
+    SPS audio")]
+    GCS_DS[("GCS
+    datasets
+    datasheets
+    stats")]
+    MDC[["MDC (downloads)"]]
+    CDS[["cv-dataset"]]
+
+    subgraph SCS_B["SCS Bundler ◀"]
+        CC["CorporaCreator"]
+    end
+
+    subgraph SPS_B["SPS Bundler"]
+        QA["QA Pipeline"]
+    end
+
+    SCS_DB --> SCS_B
+    GCS_C --> SCS_B
+    DS -->|templates
+    + custom| SCS_B
+    DS -->|templates
+    + custom| SPS_B
+    SPS_DB --> SPS_B
+    GCS_A --> SPS_B
+    SCS_B --> GCS_DS
+    SPS_B --> GCS_DS
+    GCS_DS -->|datasets| MDC
+    GCS_DS -->|datasheets| MDC
+    GCS_DS -->|stats| CDS
+
+    style SCS_B fill:#1a73e8,color:#ffffff,stroke:#1558b0,stroke-width:2px
+    style GCS_C fill:#333,stroke:#383c8e
+    style GCS_A fill:#333,stroke:#383c8e
+    style GCS_DS fill:#333,stroke:#383c8e
+    style CC fill:#333,stroke:#fefefe,stroke-width:1px
+    style QA fill:#333,stroke:#fefefe,stroke-width:1px
+```
+
 ---
 
 ## Release types
