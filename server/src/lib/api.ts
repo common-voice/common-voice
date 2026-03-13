@@ -1099,7 +1099,7 @@ export default class API {
     const localeId = await getLocaleId(locale)
 
     if (!localeId) {
-      return response.status(400).json({
+      return response.status(StatusCodes.BAD_REQUEST).json({
         message: `Invalid locale: ${locale}`,
       })
     }
