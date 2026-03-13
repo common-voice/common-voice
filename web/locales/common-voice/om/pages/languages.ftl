@@ -18,8 +18,8 @@ sentences = Himoota
 language-validation-hours = Sa'aatilee
 language-validation-progress = Adeemsa Mirkaneessuu
 contribute = Gumaachaa
-get-involved-button = Irraatti hirmadha
-get-involved-title = { $lang } irraatti hirmadhaa
+get-involved-button = Irratti hirmaadhaa
+get-involved-title = { $lang } irratti hirmaadhaa
 get-involved-text =
     Fedhii { $lang } gumaachuuf qabdaniif galatoomaa. Afaan hunda eebbaaf qophaa'ee eeguuf cimnee hojjenna
     gareewwan karaa email update godhaniiru. Yoo gumaachuu barbaaddan email keessan armaan gaditti nuuf kenna.
