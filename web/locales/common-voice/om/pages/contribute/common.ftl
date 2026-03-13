@@ -78,7 +78,7 @@ shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Waraabbii waraabamaa jiru haqi
 shortcut-submit = Itti Darbi
 shortcut-submit-label = Kiliippota ergi
-request-language-text = Afaan kee amma Common Voice irratti hin mul’atu?
+request-language-text = Afaan kee amma Common Voice irratti hin mul’atuu?
 request-language-button = Afaan gaafadhu
 
 ## Listen Shortcuts
