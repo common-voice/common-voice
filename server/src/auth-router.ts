@@ -108,101 +108,116 @@ export const setupAuthRouter = async () => {
   })
 
   router.get(CALLBACK_URL, async (request: Request, response: Response) => {
-    const params = client.callbackParams(request)
-    if (!request.session.auth) {
-      return response.redirect('/login-failure')
-    }
-    const { state } = request.session.auth
-
-    const tokenSet = await client.callback(callbackURL(ENVIRONMENT), params, {
-      state,
-    })
-
-    const { email } = await client.userinfo(tokenSet.access_token)
-    request.session.user = { ...request.session.user, email }
-
-    const user = request.session.user
-
-    let currentState = {
-      locale: '',
-      old_user: {
-        email: '',
-        client_id: '',
-      },
-      old_email: '',
-      redirect: '',
-      enrollment: { challenge: '', team: '', invite: '', referer: '' },
-    }
-
-    const bytes = AES.decrypt(state, SECRET)
-    const decryptedData = bytes.toString(enc.Utf8)
-    currentState = JSON.parse(decryptedData)
-    const { locale, old_user, old_email, redirect, enrollment } = currentState
-    const basePath = locale ? `/${locale}/` : '/'
-    if (!user) {
-      response.redirect(basePath + 'login-failure')
-    } else if (old_user) {
-      const success = await UserClient.updateSSO(old_email, user.email)
-      if (!success) {
-        request.session.user = old_user
+    try {
+      const params = client.callbackParams(request)
+      if (!request.session.auth) {
+        return response.redirect('/login-failure')
       }
-      response.redirect('/profile/settings?success=' + success.toString())
-    } else if (enrollment?.challenge && enrollment?.team) {
-      if (
-        !(await UserClient.enrollRegisteredUser(
-          user.email,
-          enrollment.challenge as ChallengeToken,
-          enrollment.team as ChallengeTeamToken,
-          enrollment.invite,
-          enrollment.referer
-        ))
-      ) {
-        // if the user is unregistered, pass enrollment to frontend
-        user.enrollment = enrollment
+      const { state } = request.session.auth
+
+      const tokenSet = await client.callback(
+        callbackURL(ENVIRONMENT),
+        params,
+        {
+          state,
+        }
+      )
+
+      const { email } = await client.userinfo(tokenSet.access_token)
+      request.session.user = { ...request.session.user, email }
+
+      const user = request.session.user
+
+      let currentState = {
+        locale: '',
+        old_user: {
+          email: '',
+          client_id: '',
+        },
+        old_email: '',
+        redirect: '',
+        enrollment: { challenge: '', team: '', invite: '', referer: '' },
+      }
+
+      const bytes = AES.decrypt(state, SECRET)
+      const decryptedData = bytes.toString(enc.Utf8)
+      currentState = JSON.parse(decryptedData)
+      const { locale, old_user, old_email, redirect, enrollment } =
+        currentState
+      const basePath = locale ? `/${locale}/` : '/'
+      if (!user) {
+        response.redirect(basePath + 'login-failure')
+      } else if (old_user) {
+        const success = await UserClient.updateSSO(old_email, user.email)
+        if (!success) {
+          request.session.user = old_user
+        }
+        response.redirect('/profile/settings?success=' + success.toString())
+      } else if (enrollment?.challenge && enrollment?.team) {
+        if (
+          !(await UserClient.enrollRegisteredUser(
+            user.email,
+            enrollment.challenge as ChallengeToken,
+            enrollment.team as ChallengeTeamToken,
+            enrollment.invite,
+            enrollment.referer
+          ))
+        ) {
+          // if the user is unregistered, pass enrollment to frontend
+          user.enrollment = enrollment
+        } else {
+          // if the user is already registered, now they should be enrolled
+          // [TODO] there should be an elegant way to get the client_id here
+          const client_id = await UserClient.findClientId(user.email)
+
+          response.cookie(
+            'mcv_session',
+            jwt.sign(createJwtPayload(client_id, false), JWT_KEY),
+            createSessionCookieOptions()
+          )
+
+          await earnBonus('sign_up_first_three_days', [
+            enrollment.challenge,
+            client_id,
+          ])
+          await earnBonus('invite_signup', [
+            client_id,
+            enrollment.invite,
+            enrollment.invite,
+            enrollment.challenge,
+          ])
+        }
+        // [BUG] try refresh the challenge board, toast will show again, even though DB won't give it the same achievement again
+        response.redirect(
+          redirect ||
+            `${basePath}login-success?challenge=${enrollment.challenge}&achievement=1`
+        )
       } else {
-        // if the user is already registered, now they should be enrolled
-        // [TODO] there should be an elegant way to get the client_id here
+        // Check if user has an account (registered user)
         const client_id = await UserClient.findClientId(user.email)
 
-        response.cookie(
-          'mcv_session',
-          jwt.sign(createJwtPayload(client_id, false), JWT_KEY),
-          createSessionCookieOptions()
-        )
-
-        await earnBonus('sign_up_first_three_days', [
-          enrollment.challenge,
-          client_id,
-        ])
-        await earnBonus('invite_signup', [
-          client_id,
-          enrollment.invite,
-          enrollment.invite,
-          enrollment.challenge,
-        ])
+        // For new users (no client_id), don't use redirect - they need to complete profile first
+        // The login-success page will handle redirecting them to profile info
+        if (client_id) {
+          // Existing user - honor the redirect
+          response.redirect(redirect || basePath + 'login-success')
+        } else {
+          // New user - ignore redirect, let them set up profile first
+          // Store the redirect in session storage via query param for later use
+          const redirectParam = redirect
+            ? `?intended_redirect=${encodeURIComponent(redirect)}`
+            : ''
+          response.redirect(basePath + 'login-success' + redirectParam)
+        }
       }
-      // [BUG] try refresh the challenge board, toast will show again, even though DB won't give it the same achievement again
-      response.redirect(
-        redirect ||
-          `${basePath}login-success?challenge=${enrollment.challenge}&achievement=1`
+    } catch (err) {
+      // OAuth errors: state mismatch (multi-tab), state missing (session expired),
+      // bad request (expired auth code). These are expected in production.
+      console.warn(
+        '[auth] OAuth callback failed:',
+        err instanceof Error ? err.message : err
       )
-    } else {
-      // Check if user has an account (registered user)
-      const client_id = await UserClient.findClientId(user.email)
-
-      // For new users (no client_id), don't use redirect - they need to complete profile first
-      // The login-success page will handle redirecting them to profile info
-      if (client_id) {
-        // Existing user - honor the redirect
-        response.redirect(redirect || basePath + 'login-success')
-      } else {
-        // New user - ignore redirect, let them set up profile first
-        // Store the redirect in session storage via query param for later use
-        const redirectParam = redirect
-          ? `?intended_redirect=${encodeURIComponent(redirect)}`
-          : ''
-        response.redirect(basePath + 'login-success' + redirectParam)
-      }
+      response.redirect('/login-failure')
     }
   })
 

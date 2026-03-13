@@ -48,9 +48,10 @@ const TopBar = ({
     location.pathname.endsWith('/challenge') && isChallengeEnrolled
 
   function setLocale(value: string) {
+    const locale = value === ALL_LOCALES ? '' : value
     const pathParts = location.pathname.split('/')
     history.push(
-      [toLocaleRoute(URLS.DASHBOARD), value, pathParts[pathParts.length - 1]]
+      [toLocaleRoute(URLS.DASHBOARD), locale, pathParts[pathParts.length - 1]]
         .filter(Boolean)
         .join('/')
     )

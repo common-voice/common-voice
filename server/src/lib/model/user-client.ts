@@ -119,7 +119,7 @@ const getAccentsChanges = async (
     ) => {
       // Flatten the accents and return the entire flat array
       return languageListFlat.concat(
-        language.accents.reduce((accentListFlat: any[], accent: any) => {
+        (language.accents || []).reduce((accentListFlat: any[], accent: any) => {
           return accentListFlat.concat({
             locale: language.locale,
             accent_name: accent.name,
@@ -288,13 +288,13 @@ async function updateVariants(clientId: string, languages: UserLanguage[]) {
     if (validIds.length > 0) {
       const formattedIds = validIds.map(variantRow => {
         const preferred = requestedVariants.find(
-          variant => variant.id === variantRow.variant_id
+          variant => Number(variant.id) === variantRow.variant_id
         )
         return [
           clientId,
           variantRow.variant_id,
           variantRow.locale_id,
-          preferred.is_preferred_option ? 1 : 0,
+          Number(preferred?.is_preferred_option) || 0,
         ]
       }) //format array so query can insert multiple
       await db.query(
@@ -306,7 +306,7 @@ async function updateVariants(clientId: string, languages: UserLanguage[]) {
 
   if (variantsToUpdate.length > 0) {
     const variantData = variantsToUpdate.map(variant => {
-      return [variant.is_preferred_option, clientId, variant.id]
+      return [Number(variant.is_preferred_option) || 0, clientId, variant.id]
     })
 
     for (const variant of variantData) {

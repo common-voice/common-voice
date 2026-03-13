@@ -138,6 +138,29 @@ export default class Server {
         express.static(FULL_CLIENT_PATH + '/index.html', staticOptions)
       )
 
+      // Handle validation errors before Sentry so they don't appear as unhandled errors
+      app.use(
+        (
+          error: any,
+          request: Request,
+          response: Response,
+          next: NextFunction
+        ) => {
+          if (error instanceof ValidationError) {
+            console.warn(
+              '[validation] Request validation failed:',
+              request.method,
+              request.originalUrl,
+              JSON.stringify(error.validationErrors)
+            )
+            return response.status(StatusCodes.BAD_REQUEST).json({
+              errors: error.validationErrors,
+            })
+          }
+          next(error)
+        }
+      )
+
       // Enable Sentry error handling
       Sentry.setupExpressErrorHandler(app)
       app.use(
@@ -149,13 +172,6 @@ export default class Server {
           _next: NextFunction // this unused parameter must be included for error handling middleware
         ) => {
           console.error(error)
-
-          const isValidationError = error instanceof ValidationError
-          if (isValidationError) {
-            return response.status(StatusCodes.BAD_REQUEST).json({
-              errors: error.validationErrors,
-            })
-          }
 
           const isAPIError = error instanceof APIError
           return response
