@@ -17,7 +17,10 @@ const getRedisConfig = (config: CommonVoiceConfig): Queue.QueueOptions => {
     redisOpts = { ...redisOpts, tls: redisOpts }
   }
 
-  return { redis: redisOpts }
+  return {
+    redis: redisOpts,
+    defaultJobOptions: { removeOnComplete: 100, removeOnFail: 500 },
+  }
 }
 
 export const createQueueWithOptions =

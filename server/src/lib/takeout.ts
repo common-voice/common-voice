@@ -43,6 +43,7 @@ export function createTaskQueues(takeout: Takeout): TaskQueues {
     const bull = new Bull<T>(name, {
       redis: redisOpts,
       prefix: `bull-${name}-`,
+      defaultJobOptions: { removeOnComplete: 100, removeOnFail: 500 },
       ...params,
     });
 
