@@ -17,6 +17,7 @@ error-content-502 = A bi tooi niŋ katari zaɣ' zuŋ n ti tabiibi zaŋ gohita ma
 error-title-503 = Ti nya la yɛli shɛli zuɣu ti ni di bi tiɛhira
 error-content-503 = Luɣili ŋɔ maa ni lahi labina puunpɔŋɔ.Lahibaya din na beni saha ŋɔ,pahimi suɣulo zaŋmi a kpala zuli n ti gbuni<matrixLink>bee ka a kpe<githubLink>GitHub<githubLink>bee </discourseLink>Ti yɛltɔɣa tɔɣisi ti taba laɣinsi<discourseLink>n zaŋ ti ka niŋ zaɣa ni dundɔŋ maa milinsi yaligola
 error-title-504 = Suhugu saha gariya
+error-content-504 = A binbɔrigu maa yɔli kandina. Di zooya ka di pala kpalinkpaa. Dim suɣulo, labi niŋ. A yi bɔri sɔŋsim yaa, dim suɣulo, kpɛmi <matrixLink>Matrix community chat</matrixLink> maa puuni, niŋ mi kpahimbu ni yɛlmuɣisira ti <githubLink>GitHub</githubLink> maa zuɣu bee ka chaŋ <discourseLink>our Discourse forums</discourseLink> la zuɣu.
 error-code = chirimbu
 # Warning message shown when none of the clips could be uploaded
 error-duplicate-clips-all =
