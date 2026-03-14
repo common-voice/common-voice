@@ -12,6 +12,7 @@ record-no-mic-found = Mikrofon bulunamadı.
 record-error-too-short = Kayıt çok kısa.
 record-error-too-long = Kayıt çok uzun.
 record-error-too-quiet = Bu kayıt çok sessiz oldu.
+record-error-empty-recording = Ses kaydedilemedi. Lütfen mikrofonunuzu kontrol edip tekrar deneyin.
 record-error-unknown-format = Ses biçimi belirlenemedi. Lütfen farklı bir tarayıcı kullanmayı deneyin.
 record-error-uploaded-clip-corrupted =
     Ses kaydınız bozuk görünüyor. Bu durum aşağıdakilerden dolayı olabilir:

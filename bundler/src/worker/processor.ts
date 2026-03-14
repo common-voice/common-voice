@@ -5,7 +5,6 @@ import { Job } from 'bullmq'
 import { pipe } from 'fp-ts/lib/function'
 import { readerTaskEither as RTE } from 'fp-ts'
 import { logger } from '../infrastructure/logger'
-
 import { runFetchAllClipsForLocale } from '../core/clips'
 import { isMinorityLanguage } from '../core/ruleOfFive'
 import { AppEnv, ProcessLocaleJob } from '../types'
@@ -30,9 +29,11 @@ import { redisClient } from '../infrastructure/redis'
 import {
   getDatasetBundlerBucketName,
   getTmpDir,
+  LOCK_EXTEND_MS,
+  LOCK_EXTEND_INTERVAL_MS,
   RELEASE_LOG_KEY_TTL_SEC,
   redisKeys,
-} from '../config/config'
+} from '../config'
 import { runFetchSentencesForLocale } from '../core/sentences'
 import { fetchLocaleMetadata } from '../core/locales'
 
@@ -122,7 +123,7 @@ export const deriveJobEnv = (
       : undefined
 
   // Derived from releaseName by inserting "-delta" before the date portion.
-  // e.g. "cv-corpus-24.0-2025-12-05" → "cv-corpus-24.0-delta-2025-12-05"
+  // e.g. "cv-corpus-24.0-2025-12-05" -> "cv-corpus-24.0-delta-2025-12-05"
   // Licensed variant appends "-licensed" at the end.
   // The delta release must have been run beforehand with that exact name.
   const baseDeltaName = releaseName.replace(/-(\d{4}-\d{2}-\d{2})$/, '-delta-$1')
@@ -158,47 +159,98 @@ export const deriveJobEnv = (
   }
 }
 
-export const processLocale = async (job: Job<ProcessLocaleJob>) => {
+export const processLocale = async (job: Job<ProcessLocaleJob>, token?: string) => {
   const env = deriveJobEnv(job.data, getTmpDir())
   const { locale, releaseName, uploadPath } = env
 
   logger.info('', '-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --')
-  logger.info('PROCESSOR', `[${locale}] ${env.type} job | ${env.license ?? 'unlicensed'} | -> ${uploadPath}`)
+  logger.info('PROCESSOR', `[${locale}] ${env.type} job | ${env.license ?? 'unlicensed'}${env.force ? ' | FORCE' : ''} | -> ${uploadPath}`)
 
-  const releaseExistsAlready = await pipe(
-    doesFileExistInBucket(getDatasetBundlerBucketName())(uploadPath),
-    TE.getOrElse(() => T.of(false)),
-  )()
-
-  // Fast-path duplicate check via Redis SET (in-memory, ~1 ms).
-  // Falls through to the authoritative GCS check if Redis has no record.
   // The member key includes the license so that different license jobs for the
   // same locale are tracked independently (e.g. "en|CC-BY 4.0" vs "en").
   const doneMember = env.license ? `${locale}|${env.license}` : locale
-  const isDoneInRedis =
-    (await redisClient.sismember(redisKeys.done(releaseName), doneMember)) > 0
 
-  if (isDoneInRedis || releaseExistsAlready) {
-    if (!isDoneInRedis) {
-      // GCS says done but Redis doesn't know yet -- backfill the SET so future
-      // checks skip the GCS round-trip.
+  // --force bypasses both the Redis done-SET and GCS existence checks,
+  // re-creating the release from scratch and overwriting any existing archive.
+  if (!env.force) {
+    // Fast-path: Redis done SET (~1 ms). Skips the GCS round-trip entirely.
+    const isDoneInRedis =
+      (await redisClient.sismember(redisKeys.done(releaseName), doneMember)) > 0
+
+    if (isDoneInRedis) {
+      logger.info('PROCESSOR', `[${locale}] Release ${uploadPath} exists already, skipping`)
+      env.clipCount = job.data.expectedClipCount ?? 0
+      await flushReleaseLogs(env, 'skipped')
+      return
+    }
+
+    // Authoritative check: GCS file existence. Backfill the done SET so future
+    // checks use the fast path.
+    const releaseExistsAlready = await pipe(
+      doesFileExistInBucket(getDatasetBundlerBucketName())(uploadPath),
+      TE.getOrElse(() => T.of(false)),
+    )()
+
+    if (releaseExistsAlready) {
       await redisClient.sadd(redisKeys.done(releaseName), doneMember)
       await redisClient.expire(redisKeys.done(releaseName), RELEASE_LOG_KEY_TTL_SEC)
+      logger.info('PROCESSOR', `[${locale}] Release ${uploadPath} exists already, skipping`)
+      env.clipCount = job.data.expectedClipCount ?? 0
+      await flushReleaseLogs(env, 'skipped')
+      return
     }
-    logger.info('PROCESSOR', `[${locale}] Release ${uploadPath} exists already, skipping`)
-    // Credit the expected clip count so the progress bar advances for skipped jobs.
-    // Without this, clipsDone never reaches clipsTotal and the bar freezes.
-    env.clipCount = job.data.expectedClipCount ?? 0
-    await flushReleaseLogs(env, 'skipped')
+  }
+
+  // Guard against duplicate processing from BullMQ stall re-dispatch.
+  // SADD returns 0 if the member already exists (another pod is processing it).
+  const added = await redisClient.sadd(
+    redisKeys.processing(releaseName),
+    doneMember,
+  )
+  await redisClient.expire(
+    redisKeys.processing(releaseName),
+    RELEASE_LOG_KEY_TTL_SEC,
+  )
+  if (added === 0) {
+    logger.info(
+      'PROCESSOR',
+      `[${locale}] Already being processed by another pod, skipping`,
+    )
     return
   }
 
-  const result = await processPipeline(env)()
-  if (E.isRight(result)) {
-    await redisClient.sadd(redisKeys.done(releaseName), doneMember)
-    await redisClient.expire(redisKeys.done(releaseName), RELEASE_LOG_KEY_TTL_SEC)
-  } else {
-    logger.error('PROCESSOR', String(result.left))
+  // Timer-based lock extension: covers all pipeline steps uniformly
+  // (download, merge, compress, upload, CorporaCreator subprocess, etc.)
+  // without threading a callback through every function signature.
+  const lockTimer = token
+    ? setInterval(async () => {
+        try {
+          await job.extendLock(token, LOCK_EXTEND_MS)
+        } catch (err) {
+          // Lock may already be lost (LRU eviction); processing SET guard
+          // prevents duplicates. Log so repeated failures are visible.
+          logger.warn('PROCESSOR', `[${locale}] Lock extension failed: ${String(err)}`)
+        }
+      }, LOCK_EXTEND_INTERVAL_MS)
+    : undefined
+
+  try {
+    const result = await processPipeline(env)()
+    if (E.isRight(result)) {
+      await redisClient.sadd(redisKeys.done(releaseName), doneMember)
+      await redisClient.expire(redisKeys.done(releaseName), RELEASE_LOG_KEY_TTL_SEC)
+      const hours = (result.right.totalDurationInMs / 3_600_000).toFixed(1)
+      logger.info(
+        'PROCESSOR',
+        `[${locale}] Done: ${env.clipCount.toLocaleString()} clips | ${hours}h recorded`,
+      )
+    } else {
+      logger.error('PROCESSOR', `[${locale}] Failed: ${String(result.left)}`)
+    }
+    await flushReleaseLogs(env, E.isRight(result) ? 'success' : 'error')
+  } finally {
+    if (lockTimer) clearInterval(lockTimer)
+    // Remove from processing SET (done or failed -- either way, no longer active).
+    await redisClient.srem(redisKeys.processing(releaseName), doneMember)
   }
-  await flushReleaseLogs(env, E.isRight(result) ? 'success' : 'error')
 }

@@ -4,7 +4,7 @@ import * as path from 'node:path'
 import { pipe } from 'fp-ts/lib/function'
 import { readerTaskEither as RTE, taskEither as TE } from 'fp-ts'
 
-import { getDatasetBundlerBucketName } from '../config/config'
+import { getDatasetBundlerBucketName } from '../config'
 import { streamUploadToBucket } from '../infrastructure/storage'
 import { AppEnv } from '../types'
 

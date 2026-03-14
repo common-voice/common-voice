@@ -43,3 +43,4 @@ request-language-search-bar = Du kan starte med å skrive namnet på språket di
 request-language-found-cv-contribution =
     Hurra! Språket ditt er allereie live på Common Voice <strong>skriftspråk</strong>.
     Du kan bidra <homePageLink>her</homePageLink>.
+request-language-already-available-sps = Spontan tale allereie tilgjengeleg

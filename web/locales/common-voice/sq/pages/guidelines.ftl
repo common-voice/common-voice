@@ -4,6 +4,8 @@ guidelines-header-subtitle = Kuptoni si të kontribuoni dhe të vleftësoni togf
 voice-collection = Koleksion Zërash
 sentence-collection = Grumbullim Frazash
 question-collection = Koleksion Pyetjesh
+scripted-speech = E folur e Shkruar
+spontaneous-speech = E folur Spontane
 
 ## Voice Collection nav ids
 
@@ -135,3 +137,34 @@ offensive-content-sensitive-information-explanation-explanation-2 = Pyetje që m
 example-questions-subheader = Shembuj pyetjesh
 example-questions-explanation-1 = Mund të gjeni <examplePromptsLink>120 shembuj në këtë fletë.</examplePromptsLink>
 example-questions-explanation-2 = Nëse do të donit të parashtroni një pjesë pyetjesh për trajtim, <githubLink>mund ta bëni përmes llogarisë sonë GitHub</githubLink>, ose dërgojeni listën tuaj me email te <emailFragment>commonvoice@mozilla.com.</emailFragment>
+
+## Spontaneous Speech sidebar content
+
+# Answer Questions
+answer-questions = Përgjigjiuni Pyetjeve
+answer-questions-subheader = Drejtim i përgjithshëm
+answer-questions-tip-1 = Incizoni në një vend aq sa mundet të qetë
+answer-questions-tip-2 = Zgjidhni një vend me lidhje të mirë internet
+answer-questions-tip-3b = Mundohuni ta mbani përgjigjen tuaj në 15-30 sekonda
+answer-questions-tip-5 = Flisni në mënyrë të natyrshme, si do të bënit me një shok - përdorni variantin, dialektin dhe theksin tuaj të njëmendtë
+transcribe-the-audio-subheader-1 = Drejtim i përgjithshëm
+transcribe-the-audio-subheader-2 = Numra dhe akronime
+transcribe-the-audio-subheader-3 = Etiketa të Posaçme
+
+## Review the Transcription
+
+review-the-transcription = Shqyrtoni Transkriptimin
+review-the-transcription-subheader = Drejtim i përgjithshëm
+
+## Code-Switching
+
+adding-a-question = Shtim Pyetjeje
+# Adding a Question
+code-switching-adding-question-subheader = Ç’e bën të mirë një pyetje?
+code-switching-adding-question-explanation = Një pyetje e mirë, për përfshirje në grupe të dhënash, duhet:
+code-switching-adding-question-criteria-1 = Të jetë e kollajtë të kuptohet dhe t’i jepet përgjigje
+code-switching-adding-question-criteria-2 = Të jetë në përgjithësi me kuptim
+code-switching-adding-question-criteria-3 = Të mos përdorë, ose të kërkojë përdorim gjuhe të dëmshme ose fyese
+code-switching-adding-question-note = Mund të doni edhe të shihni mundësinë e shtrirjesh në kontekste dhe fusha të ndryshme.
+# What types of questions to add
+code-switching-types-subheader = Ç’lloj pyetjesh të shtohen?

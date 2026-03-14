@@ -7,25 +7,35 @@ import { isContributable, useLocale } from '../locale-helpers'
 import DocumentPage from '../pages/document-page'
 import { Spinner } from '../ui/ui'
 import { LoginFailure, LoginSuccess } from '../pages/login'
-const HomePage = React.lazy(() => import('../pages/home'))
-const DatasetsPage = React.lazy(() => import('../pages/datasets/datasets'))
-const LanguagesPage = React.lazy(() => import('../pages/languages/languages'))
-const LanguagesRequestPage = React.lazy(() => {
-  return import('../pages/languages/request/request')
-})
-const LanguagesRequestSuccessPage = React.lazy(() => {
-  return import('../pages/languages/request/request-success')
-})
-const DashboardPage = React.lazy(() => import('../pages/dashboard/dashboard'))
-const ProfileLayoutPage = React.lazy(() => import('../pages/profile/layout'))
-const AboutPage = React.lazy(() => import('../pages/about/about'))
-const LandingPage = React.lazy(() => import('../pages/landing/landing'))
-const ErrorPage = React.lazy(() => import('../pages/error-page/error-page'))
-const PartnerPage = React.lazy(() => import('../pages/partner/partner'))
-const GuidelinesPage = React.lazy(
+import lazyWithRetry from '../../lazy-with-retry'
+
+const HomePage = lazyWithRetry(() => import('../pages/home'))
+const DatasetsPage = lazyWithRetry(() => import('../pages/datasets/datasets'))
+const LanguagesPage = lazyWithRetry(
+  () => import('../pages/languages/languages')
+)
+const LanguagesRequestPage = lazyWithRetry(
+  () => import('../pages/languages/request/request')
+)
+const LanguagesRequestSuccessPage = lazyWithRetry(
+  () => import('../pages/languages/request/request-success')
+)
+const DashboardPage = lazyWithRetry(
+  () => import('../pages/dashboard/dashboard')
+)
+const ProfileLayoutPage = lazyWithRetry(
+  () => import('../pages/profile/layout')
+)
+const AboutPage = lazyWithRetry(() => import('../pages/about/about'))
+const LandingPage = lazyWithRetry(() => import('../pages/landing/landing'))
+const ErrorPage = lazyWithRetry(
+  () => import('../pages/error-page/error-page')
+)
+const PartnerPage = lazyWithRetry(() => import('../pages/partner/partner'))
+const GuidelinesPage = lazyWithRetry(
   () => import('../pages/guidelines/guidelines')
 )
-const SentenceCollectorRedirectPage = React.lazy(
+const SentenceCollectorRedirectPage = lazyWithRetry(
   () =>
     import('../pages/sentence-collector-redirect/sentence-collector-redirect')
 )

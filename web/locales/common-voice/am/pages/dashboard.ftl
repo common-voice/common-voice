@@ -52,6 +52,7 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = ግብ አዘጋጅ
 cant-decide = መወሰን አልቻሉም?
+activity-needed-calculation-fixed = በቀን 100 ዓረፍተ ነገሮችን የሚቀርጹ 100 ሰዎች 13 ሰዓታት የድምጽ መስጫ ሊፈጥሩ ይችላሉ። ይህንን አፈፃፀም በመጠበቅ፣ ከ3 ወራት በታች 1000 ሰዓታትን ማግኘት ይቻላል።
 how-many-per-day = በጣም ጥሩ! በቀን ስንት ቅንጥቦች?
 how-many-a-week = በጣም ጥሩ! በሳምንት ስንት ቅንጥቦች?
 which-goal-type = መናገር፣ ማዳመጥ ይፈልጋሉ ወይስ ሁለቱንም?

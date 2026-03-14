@@ -13,31 +13,31 @@
   "devDependencies": {
     "@tsconfig/node24": "^24.0.4",
     "@types/jest": "^30.0.0",
-    "@types/node": "^25.2.3",
-    "@types/redlock": "^4.0.7",
-    "jest": "^30.2.0",
+    "@types/node": "^25.5.0",
+    "@types/redlock": "^4.0.8",
+    "jest": "^30.3.0",
     "prettier": "^3.8.1",
     "ts-jest": "^29.4.6",
-    "typescript": "^5.7.3"
+    "typescript": "^5.9.3"
   },
   "overrides": {
     "minimatch": ">=10.2.1"
   },
   "dependencies": {
-    "@google-cloud/storage": "^7.16.0",
+    "@google-cloud/storage": "^7.19.0",
     "@types/tar": "^6.1.13",
-    "bullmq": "^5.69.3",
+    "bullmq": "^5.71.0",
     "commander": "^14.0.3",
-    "config": "^4.3.0",
+    "config": "^4.4.1",
     "csv-parse": "^6.1.0",
     "csv-stringify": "^6.6.0",
     "dotenv": "^17.3.1",
-    "fp-ts": "^2.16.9",
-    "ioredis": "^5.4.2",
+    "fp-ts": "^2.16.11",
+    "ioredis": "^5.10.0",
     "mp3-duration": "^1.1.0",
-    "mysql2": "^3.18.0",
+    "mysql2": "^3.19.1",
     "redlock": "^4.2.0",
     "stream-transform": "^3.4.0",
-    "tar": "^7.5.9"
+    "tar": "^7.5.11"
   }
 }

@@ -1,6 +1,6 @@
 action-click = Cuqaasi
 action-tap = Tuqi
-contribute = Gumaacha
+contribute = Gumaachi
 review = Gamaggama
 skip = Irra darbi
 shortcuts = Gabaabsiiwwan
@@ -42,7 +42,7 @@ submit-form-action = Galchi
 
 ## Reporting
 
-report = Gabaasa
+report = Gabaasi
 report-title = Gabaasa galchi
 report-ask = Hima kana dubbisuun rakkoon akka akka si mudate gabaabinaan barreessi
 report-offensive-language = Hima arrabsoo
@@ -78,7 +78,7 @@ shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = Waraabbii waraabamaa jiru haqi
 shortcut-submit = Itti Darbi
 shortcut-submit-label = Kiliippota ergi
-request-language-text = Afaan kee amma Common Voice irratti hin mul’atu?
+request-language-text = Afaan kee amma Common Voice irratti hin mul’atuu?
 request-language-button = Afaan gaafadhu
 
 ## Listen Shortcuts

@@ -27,23 +27,23 @@ about-listen-queue = wumma-fɔli
 about-listen-queue-text = Kukɔ'yaara kpɛrila foli shɛŋa din maani shili ni wumbu.
 about-listen = Wumma
 about-listen-text = Ban mali tumdi tuma dihitabili ni sinii bihi yaabu yi ti zani dede, di yirila kpahimbu zaŋ jɛndi yɛlibu, karimbu, ni yɛltɔɣa yɛlibu viɛnyɛla ni.
-about-is-it-valid = clipu ŋɔ niŋ tumda?
+about-is-it-valid = kukɔ'yaarili maa niŋ dede?
 about-is-it-valid-text = Kukɔ'yaarili nyɛla din mali dihitabli di yi niŋ ka so saɣi ti li.
 about-yes-votes = Ban' pii iin
-about-yes-votes-text = A yi yɛn kpe lahabaya kukɔli kpanjɔɣu puuni, sheela ban gba tɔhiri niriba ayi n-saɣiti a kukɔli maa.
-about-no-votes = Ban pii aayi
-about-no-votes-text = Ŋun mali tumdi yi zaɣisi kukɔya,di labirila fɔli maa ni. Bɛ yi ti zaɣisi li pahi ayi, kukɔya maa labirila di ni yi shɛli na.
+about-yes-votes-text = A yi yɛn kpɛhi lahabaya kukɔli kpanjɔɣu puuni, sheela ban gba tɔhiri niriba ayi n-saɣiti a kukɔli maa.
+about-no-votes = ≥ 2 Piibu kani
+about-no-votes-text = Ŋun mali kukɔ'yaarili tumdi tuma yi zaɣisi kukɔli, di labirila foli maa ni. Bɛ yi ti zaɣisi li pahi ayi, kukɔli maa labirila di ni yi shɛli na.
 about-dataset-new = Lahabali kukɔli kpanjɔɣu
-about-dataset-new-text = Kukɔli lahabali kpanjɔɣu malila kukɔya lahabaya kamani tuhi' kɔb' bɔbigu ka di sɔŋdi ban tɔhiri ka bɛ tooi namdi kukɔya baŋbu kpatuɣa.
-about-clip-graveyard = Kukɔli yibu shee na
+about-dataset-new-text = Kukɔli kpanjɔɣu malila kukɔya lahabaya kamani tuhi' kɔb' bɔbigu din sɔŋdi ban tɔhira ka bɛ tooi namdi kukɔya baŋbu kpatuɣa.
+about-clip-graveyard = Kukɔ'yaarili yibu shee na
 about-clip-graveyard-text =
-    Clip Graveyard nyɛla din gbubi kukɔya yaabu din bi tooi kpe kukɔya lahabali kpanjɔɣu puuni. Kamani lahabali kpanjɔɣu kam, Clip Graveyard nyɛla a ni tooi yaai shɛli.
+    Kukɔ'yaara yibu shee nyɛla din gbubi kukɔya yaabu din bi tooi kpe kukɔ'yaara kpanjɔɣu puuni. Kamani lahabali kpanjɔɣu kam, kukɔ'yaara yibu shee beni din ni tooi yaai.
     
     Ti ni puhi ka paɣi laɣinsi mini ban zaa sɔŋsi zaŋ kpa kukɔya lahibali kpanjɔɣu ŋɔ zoosim polo:
-about-get-involved = Timmi nuu
+about-get-involved = Tim mi nua.
 about-get-involved-text-2 = A bɔrimi ni a niŋ Common Voice viɛnyɛlinga?
-about-stay-in-touch = Wula ka m mini ya puha yɛn yooi taba?
-about-stay-in-touch-button = Wuhimi a maŋa
+about-stay-in-touch = Wula ka n mini ya pɔha yɛn yooi taba?
+about-stay-in-touch-button = Yoomi akauti
 about-stay-in-touch-text-1 = zaŋmi a maŋ pahi ti satara yuya ŋɔ zuɣu ka bohim a ni yen niŋ shem pahi ti molisi, laɣinsi mini di ŋmahima nahiŋgbana ti salo kukoli ŋɔ puuni
 about-stay-in-touch-text-2 = Ani tooi laɣim shɛba ni din be Mozila bala dundɔŋ la ni puuni.A yɛn pahila <discordLink>Discourd<\\discourdlink>bee<discourseLink>Discoursrd><discordLink>n-ti alizama din du zuɣu saa bee<matrixLink>Matrix<matrixLink>n-ti yom saɣigu
 about-nav-why-common-voice = Bɔzuɣu?
@@ -71,13 +71,13 @@ about-playbook-how-add-language-content-1 =
 about-playbook-how-add-language-translating-heading = Yaɣili ŋɔ lɛbiɣibu
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Lihimi ti sinii ŋmaa din wuhiri a ni tooi zaŋ Pontoon ku bukaata shɛm.</translateVideoLink>
 about-playbook-how-add-language-translating-content-2 = Ti malila Mozila kpatuɣili din yuli booni<pontoonLink>pontoon<pontoonLink>n lɛbigira.pontoon mali bala pam,a maa a dini yi bi pahi di puuni,a ni tooi <pontoonRequestLink>ka a balli maa gba pahi<\\pontoonRequestLink>di saha,a ni tooi che ka a balli maa gba niŋ bayana Common Voice Project puu ni.Suhu dee bal'palli GitHub</githubRepoLink> zuɣu.Lihi nya yaɣili ŋɔ lɛbigibu pam<localizationFragment> zuɣu.
-about-playbook-how-add-language-collecting-sentences-heading = Yɛltɔɣa Laɣimbu
-about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Lihimi ti sinii din wuhiri a ni yɛn zaŋ Yɛltɔɣa Laɣimbu n ku bukaata shɛm</sentenceCollectorVideo>
+about-playbook-how-add-language-collecting-sentences-heading = Yɛltɔɣa laɣimbu
+about-playbook-how-add-language-collecting-sentences-content-1 = Lihimi ti zalisi  din wuhiri a ni yɛn zaŋ Yɛltɔɣa Laɣimbu n-ku bukaata shɛm.
 about-playbook-how-add-language-collecting-sentences-content-2 =
     A ni tooi <sentenceCollectorLinkAdd>pahi yɛltɔɣa din kalinli bi galisi</sentenceCollectorLinkAdd>,
     bee ka a zaŋ <bulkImportDocsLink> Github n kpɛhili pam jilli</bulkImportDocsLink>.
-    Teema ka dam yɛltɔɣa tu mi ni di <licenseLink>CC0 (bee public domain)</licenseLink>, bee ka a sabi amaŋmaŋ dini.
-about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Yuli nyɛ di zaɣi bobigu   yɛtɔɣa deebu <sentenceCollectorFragment>
+    Teema ka dam yɛltɔɣa tu mi ni di <licenseLink>CC0 (bee public domain)</licenseLink>, bee ka a sabi a maŋmaŋ dini.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Yuli nyɛ yɛltɔɣa laɣimbu lahabaya<sentenceCollectorFragment>
 
 ## How does localization work
 
@@ -106,13 +106,13 @@ about-playbook-how-record-content-5 = lihi bo soya din tam kalinli zuɣu
 
 ## How to grow language
 
-about-playbook-how-grow-language = wula ka ti yɛn n niŋ ka ti zuliya balli tooi zooi common voice puuni?
+about-playbook-how-grow-language = Wula ka ti yɛn n niŋ ka ti zuliya balli tooi zooi Common Voice puuni?
 about-playbook-how-grow-language-content-1 = Soli yoo mi ti nirikam ŋun ni tooi pahi o haŋkali zaŋ ti common voice din yan che ka di pohim zuɣu biɛhigu tum tuma ti niriba pam.Ti yooi la soya ka bo di tuma nɛma ni ŋmahama sheŋa n-ni too zaŋ tum!
 about-playbook-how-grow-language-content-2 = laɣinsi
 about-playbook-how-grow-language-content-3 = A ni tooi laɣim laɣ'si di yan soŋ ka niriba tɔhi bi haŋkaya.Di niŋ asama gari a ni tɛhari sham. A ni tooi zaŋli pa pɔhim zuɣu n niŋ li sinii ti  niriba pam,bee a ko din dee yi ka muɣisigu.Yuli nya di mŋahama ni yalbori sheŋɔ din tu ni a mali ka ni tooi  laɣim laɣ'gu.
 about-playbook-how-grow-language-content-4 = pɔhim zuɣu
 about-playbook-how-grow-language-content-5 = A ni tooi zaŋ pɔhim zuɣu dundɔna n- yihi satara na.Tɔhimi a hankali n ti zama ban be pɔhim zuɣu ka yali din tu kamaata shɛm ka zaŋ a maŋa n ti dalim ninvuɣ' shɛb ban diri alizama gandi bala yiko,AI kukoya bee ban be kukoya tabiibi ni.Yulimi saɣsigu pam kpe<campaignLink>Bam mali zamatu yɛltɔɣa tumdi tuma n ti pahi tuma. <campaignLink>.
-about-playbook-how-grow-language-content-6 = kpalanzuya gbunibu mini zuliya balli zoobu
+about-playbook-how-grow-language-content-6 = kpalanzuya gbunibu mini tabi laɣimbu.
 about-playbook-how-grow-language-content-7 = Yulibo ninvuɣi shɛbi ban mali zaɣa,di ni tooi nyɛ yunivɛsiti nima,balla shikuruti,laɣisi ban mali kukoya bee tabiibi baŋsim yaɣ'.Bomi bi shee ka bi taɣisi kahiga bi ni soŋdi sham,ni bintahili.<outreachTemplates>yulimi di mŋahinli sodolisi ŋɔ zuɣu<outreachTemplates>.
 about-playbook-how-grow-language-content-8 = <strong>pilima!</strong>a zuliya balli nyɛla din yan yi di ko, ŋɔ maa mi kuli nyɛla so' shɛŋa a ni yɛn zaŋ pili.
 
@@ -122,7 +122,7 @@ about-playbook-how-validate = wula ka n yɛn n niŋ m-baŋ ni n saɣiti kukɔli 
 about-playbook-how-validate-content-1 = Ayi ni tooi<strong>wummi bɛ yɛligu</strong> ka<strong>baŋ di gbunni</strong>, di zooya<strong>pam ka a ni saɣi ti</strong>.
 about-playbook-how-validate-content-2 = Di zaɣisi vulindi shaŋɔ din yari yɛltɔɣ'  din waligi ka che a zilil kum<strong>-dinboŋɔ kpa talahi n ti kukoli baŋbu din yan che ka di tu viɛnyɛla n ti sokam
 about-playbook-how-validate-content-3 = Di yi niŋ ka a tɛhi ni kukoli maa nyɛla din gbaabu yɛn niŋ tom bee vori yimina di ni bee ninvuɣu shɛba gba nyɛla ban yɛlli niŋ di ni nyini zaɣasimi li. Lihimi lahabali ŋɔ ni nya di vɛnyɛla niŋbu
-about-playbook-how-validate-content-4 = Niriba ayi yi zaɣisi anfooni ŋmaa, di yirimi labi dataset yaɣ' shɛli polo.
+about-playbook-how-validate-content-4 = Niriba ayi yi zaɣisi kukɔ'yaarili, di yirimi labi lahabali kpanjɔɣu yaɣ' shɛli polo.
 
 ## How to access dataset
 
@@ -132,13 +132,13 @@ about-playbook-how-access-dataset-content-2 = Ayi' yundi n bori ASR kpatuɣa n a
 
 ## How are decisions made
 
-about-playbook-how-project-governance = Wula ka tuma shaawariti lee gbaara?
-about-playbook-how-project-governance-content-1 = Mozila Common Voice nyɛla naba zani ka di nyɛla mabiligu ban nyɛ tumtumdiba, zauliya yɛltɔɣa baŋdiba, lahabaya baŋdiba, karim' baŋdiba, ni tabibi kpatuɣa baŋdiba ban yi andunia yili zaa na. Mozila Foundation nima kpaŋmaŋa ni ka tuma ŋɔ be,.
+about-playbook-how-project-governance = Wula ka tuma shaawara nima lee gbaara?
+about-playbook-how-project-governance-content-1 = Mozila Common Voice nyɛla naba zani ka di nyɛla ʒilɛya balibu tuntumdiba, bala baŋdiba, lahabaya baŋdiba, karim' baŋdiba ni tabibi kpatuɣa baŋdiba ban yi dunia luɣa na. Mozila Foundation kpaŋmaŋa ni ka tuma ŋɔ tumada.
 about-playbook-how-project-governance-content-2 = Ti sulinsi n tam la daantalisi:
-about-playbook-how-project-governance-content-3 = Ashili ,gumaŋa ni kahigibu.
-about-playbook-how-project-governance-content-4 = Mabilugu dundɔŋ laɣim tum mini shaawara gbaabu
-about-playbook-how-project-governance-content-5 = Dariza min baŋbu
-about-playbook-how-project-governance-content-6 = Tab'vihibu
+about-playbook-how-project-governance-content-3 = Ashili, gumaŋa ni kahigibu.
+about-playbook-how-project-governance-content-4 = Mabiligu dundɔŋ laɣim tum mini shaawara gbaabu
+about-playbook-how-project-governance-content-5 = Dariza mini baŋbu.
+about-playbook-how-project-governance-content-6 = Tabi vihibu
 about-playbook-how-project-governance-content-7 = <governanceLink>Karimmi pam zaŋ kpa ti gbubbu</governanceLink>
 
 ## How is Common Voice funded

@@ -467,6 +467,8 @@ indicates-required = تاروْ گیْ (*) نکھوْ تِھیلیْ فیلڈ پ
 not-available-abbreviation = N/A
 # Text shown on a button that can be clicked to copy text to the clipboard
 copy = کاپی
+# Text shown on a button that can be clicked to close a modal or panel
+close = بند تِھیا
 # Text shown on a button that can be clicked to cancel an action
 cancel = کینسل
 # Text shown on a button that can be clicked to delete an item

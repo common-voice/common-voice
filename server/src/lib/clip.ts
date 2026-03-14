@@ -632,8 +632,6 @@ export default class Clip {
         transcodeJob.abort(err instanceof Error ? err : undefined)
       }
 
-      console.error('[saveClip] Clip save failed:', err)
-
       if (!response.headersSent) {
         const error = err as Error & {
           isCorruption?: boolean
@@ -649,6 +647,14 @@ export default class Clip {
 
         // Categorize errors
         if (
+          message === 'aborted' ||
+          message.includes('aborted') ||
+          message.includes('Request aborted') ||
+          request.destroyed
+        ) {
+          reason = 'CLIENT_DISCONNECT'
+          details = { error: 'Client disconnected during upload' }
+        } else if (
           message.includes('SIGKILL') ||
           message.includes('SIGTERM') ||
           message.includes('killed') ||
@@ -694,6 +700,18 @@ export default class Clip {
           isServerError = true
           details = { error: message }
         }
+
+        // Client disconnected — clean up and skip response (client is gone)
+        if (reason === 'CLIENT_DISCONNECT') {
+          console.info('[saveClip] Client disconnected during upload', {
+            client_id,
+            sentenceId,
+            format,
+          })
+          return
+        }
+
+        console.error('[saveClip] Clip save failed:', err)
 
         // Enhanced Sentry logging
         Sentry.withScope(scope => {

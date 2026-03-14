@@ -10,7 +10,7 @@ import { pipe } from 'fp-ts/lib/function'
 import { AppEnv } from '../types'
 import { sanitizeLicenseName } from './compress'
 import { streamUploadToBucket } from '../infrastructure/storage'
-import { getDatasetBundlerBucketName } from '../config/config'
+import { getDatasetBundlerBucketName } from '../config'
 import { prepareDir } from '../infrastructure/filesystem'
 import { logger } from '../infrastructure/logger'
 

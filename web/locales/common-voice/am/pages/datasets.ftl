@@ -8,6 +8,14 @@ datasets-positioning =
     የጋራ ድምፅ ባለብዙ ቋንቋ የመረጃ ቋት ቀድሞውኑ በዓይነቱ ትልቁ በሕዝብ የሚገኝ የድምፅ የመረጃ ስብስብ ነው ፣ ግን እሱ ብቻ አይደለም።
     
     ይህንን ገጽ ለሌሎች ክፍት ምንጭ የድምፅ የውሂብ ስብስቦች ዋቢ ማዕከል ሆኖ ፣ እና Common Voice ማደጉን እንደቀጠለ ፣ የእኛ የተለቀቁ ዝመናዎች መኖሪያ ቤት ነው።
+# New/upcoming datasets page headline
+datasets-headline-mdc = የሞዚላ የጋራ ልሳን የውሂብ ስብስቦች አሁን በሞዚላ ውሂብ ስብስብ ላይ ብቻ ይገኛሉ።
+# New/upcoming datasets page headline text
+datasets-positioning-mdc =
+    ከጋራ ልሳን 23.0 ጀምሮ፣ ሁሉም የየጋራ ልሳን የውሂብ ስብስቦች በሞዚላ ውሂብ ስብስብ በኩል ለማውረድ ብቻ ይገኛሉ!
+    
+    ይህ ገጽ ለቀድሞ የሞዚላ የጋራ ልሳን የውሂብ ስብስቦች እንደ ታሪካዊ ማህደር ሆኖ ያገለግላል። የማህደር ልቀቶች በተወሰኑ የምርምር ሁኔታዎች ውስጥ ብቻ ጥቅም ላይ መዋል አለባቸው፣ ለስልጠና ሳይሆን፣ አስተዋፅዖዎቻቸው እንዲገለሉ የጠየቁትን ሰዎች ፍላጎት ለማክበር።
+datasets-speech-bubble-content = አስደሳች ዜና! ድንገተኛ ንግግር እየመጣ ነው! ለዝማኔዎች ይከታተሉን እና የቅርብ ጊዜውን መረጃ ለማግኘት የእኛን<discordLink> ዲስኮርድ <discordLink>ን መመልከትዎን ያረጋግጡ።
 language = ቋንቋ
 download-dataset-header = የውሂብ ስብስቡን አውርድ
 download-delta-explainer = አንዳንድ ለውጦችን አድርገናል። የዴልታ ክፍልፋዮች ከመጨረሻው ልቀት በኋላ በጣም የቅርብ ጊዜ ቅንጥቦችን ብቻ ይዘዋል። <deltaLink>ስለዚህ ስራ የበለጠ ያንብቡ</deltaLink>።
@@ -93,7 +101,12 @@ release-version = ስሪት
 dataset-date = ቀን
 license = ፈቃድ ፦ <licenseLink> { $license } </licenseLink>
 license-mixed = የተቀላቀለ
+# Support old genders in older datasets
+male = ወንድ
+female = ሴት
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = የእኛን የድምፅ ውሂብ ስብስቦች ያውርዱ
 # MENU ITEM ARIA LABELS
 download-contribute-menu-aria-label = የጋራ ድምጽ ውሂብን ለማግኘት የማውረድ አማራጮች
+datasets-show-more = ሁሉንም የውሂብ ስብስቦች አሳይ
+datasets-show-less = የቅርብ ጊዜ የውሂብ ስብስቦችን አሳይ

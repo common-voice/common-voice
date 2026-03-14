@@ -2,7 +2,7 @@ import * as fs from 'node:fs'
 import * as path from 'node:path'
 import { query } from '../infrastructure/database'
 import { pipe } from 'fp-ts/lib/function'
-import { getQueriesDir } from '../config/config'
+import { getQueriesDir } from '../config'
 import { readerTaskEither as RTE } from 'fp-ts'
 import { AppEnv } from '../types'
 
