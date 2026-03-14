@@ -96,16 +96,18 @@ describe('runPushProblemClips', () => {
     expect(key).toBe('scripted:log:problem-clips:cv-corpus-25.0-2026-03-06')
   })
 
-  it('serialises each row as tab-separated path, locale, reason, status, timestamp', async () => {
+  it('serialises each row as tab-separated path, locale, reason, status, timestamp, value', async () => {
     const pc: ProblemClip[] = [
-      { path: 'a.mp3', locale: 'en', reason: ProblemClipReason.TOO_LONG, status: 'EXCLUDED', timestamp: TS },
-      { path: 'b.mp3', locale: 'en', reason: ProblemClipReason.LONG,     status: 'WARN',     timestamp: TS },
+      { path: 'a.mp3', locale: 'en', reason: ProblemClipReason.TOO_LONG, status: 'EXCLUDED', timestamp: TS, value: 35000 },
+      { path: 'b.mp3', locale: 'en', reason: ProblemClipReason.LONG,     status: 'WARN',     timestamp: TS, value: 20000 },
+      { path: 'c.mp3', locale: 'en', reason: ProblemClipReason.FAILED_DOWNLOAD, status: 'EXCLUDED', timestamp: TS },
     ]
     await runPushProblemClips()(makeEnv({ problemClips: pc }))()
     const [, ...rows] = mockRpush.mock.calls[0]
     expect(rows).toEqual([
-      `a.mp3\ten\tTOO_LONG\tEXCLUDED\t${TS}`,
-      `b.mp3\ten\tLONG\tWARN\t${TS}`,
+      `a.mp3\ten\tTOO_LONG\tEXCLUDED\t${TS}\t35000`,
+      `b.mp3\ten\tLONG\tWARN\t${TS}\t20000`,
+      `c.mp3\ten\tFAILED_DOWNLOAD\tEXCLUDED\t${TS}\t`,
     ])
   })
 
@@ -189,6 +191,7 @@ describe('runFilterProblemClips', () => {
         reason: 'DURATION_ZERO',
         status: 'EXCLUDED',
         timestamp: expect.any(String),
+        value: 0,
       }),
     ])
   })
@@ -203,6 +206,7 @@ describe('runFilterProblemClips', () => {
       reason: 'TOO_LONG',
       status: 'EXCLUDED',
       timestamp: expect.any(String),
+      value: 35000,
     })
   })
 
@@ -216,6 +220,7 @@ describe('runFilterProblemClips', () => {
       reason: 'LONG',
       status: 'WARN',
       timestamp: expect.any(String),
+      value: 20000,
     })
   })
 
@@ -229,6 +234,7 @@ describe('runFilterProblemClips', () => {
       reason: 'TOO_SHORT',
       status: 'WARN',
       timestamp: expect.any(String),
+      value: 200,
     })
   })
 

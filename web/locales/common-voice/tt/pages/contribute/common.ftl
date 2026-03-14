@@ -17,6 +17,7 @@ contribute-more =
        *[other] Тагын { $count }'не башкарырга әзерме?
     }
 speak-empty-state = Бу телдә яздыруга җөмләләр калмады...
+no-sentences-for-variants = Сезнең диалектта җөмләләр калмаган бугай! Телегезнең башка диалектларында булган җөмләләрнең күрсәтелүен көйләүләрдән сайлый аласыз.
 speak-empty-state-cta = Җөмләләр өстәү
 speak-loading-error =
     Сезгә укыр өчен  һичбер җөмлә табылмады.
@@ -111,6 +112,7 @@ contribution-misreadings-example-2-title = Бу балык базарда сат
 contribution-misreadings-example-2-explanation = ["балыклар" булырга тиеш иде]
 contribution-misreadings-example-3-title = Бу балыклар базарда саты-.
 contribution-misreadings-example-4-title = Бу балыклар базарда сатыла. Әйе.
+contribution-misreadings-example-4-explanation = [Кирәкле тексттан күбрәк яздырылган]
 contribution-misreadings-example-5-title = Без кофе алырга тышка чыгып керергә җыенабыз.
 contribution-misreadings-example-6-title = Без кофе алырга тышка чыгып керергә җыенабыз.
 contribution-misreadings-example-8-explanation = [Туры килмәгән эчтәлек]

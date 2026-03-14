@@ -14,7 +14,7 @@ sc-write-submit-confirm = Himoota akkamii dabaluun dandaʼama?
 sc-review-write-title = Himoota akkamii dabaluun dandaʼama?
 sc-review-small-batch-title = Akkamitti himoota hedduu dabaluun dandaʼama?
 new-sentence-rule-1 = <noCopyright>Mirga waraabbii kan ittisu hin jiru</noCopyright> (<cc0>cc-0</cc0>)
-new-sentence-rule-2 = Himoota 15nii gadi
+new-sentence-rule-2 = Jechoota 15nii gadi
 new-sentence-rule-3 = Seera afaanii sirrii fayyadami
 new-sentence-rule-4 = Qubee fi mallattoo sirrii fayyadami
 new-sentence-rule-5 = Lakkoofsa fi mallattoolee addaa hin qabaatu
@@ -62,7 +62,7 @@ nature_environment = Uumamaa fi Naannoo
 news_current_affairs = Oduu fi Dhimmoota Yeroo Ammaa
 # Sentence Domain dropdown option
 technology_robotics = Teeknooloojii fi Roobootiksii
-sentence-variant-select-label = Gosa Vimaa
+sentence-variant-select-label = Gosa himaa
 sentence-variant-select-placeholder = Filannoo adda addaa (dirqama miti)
 sentence-variant-select-multiple-variants = Afaan waliigalaa / gosoota danuu
 
@@ -128,14 +128,14 @@ rate-limit-message-seconds =
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $totalSentences ->
-        [one] { $uploadedSentences } keessaa himni 1 walitti qabame.
-       *[other] { $uploadedSentences } keessaa himni { $totalSentences } walitti qabame.
+        [one] 1 keessaa himni { $uploadedSentences } walitti qabame.
+       *[other] { $totalSentences } keessaa himni { $uploadedSentences } walitti qabame.
     }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 small-batch-response-message =
     { $totalSentences ->
-        [one] { $uploadedSentences } keessaa himni 1 walitti qabameera. Himoota dhorkaman buufachuuf <downloadLink>as</downloadLink> cuqaasi.
-       *[other] { $uploadedSentences } keessaa himni { $totalSentences } walitti qabameera. Himoota dhorkaman buufachuuf <downloadLink>as</downloadLink> cuqaasi.
+        [one] 1 keessaa himni { $uploadedSentences } walitti qabameera. Himoota dhorkaman buufachuuf <downloadLink>as</downloadLink> cuqaasi.
+       *[other] { $totalSentences } keessaa himni { $uploadedSentences } walitti qabameera. Himoota dhorkaman buufachuuf <downloadLink>as</downloadLink> cuqaasi.
     }
 small-batch-sentences-rule-1 = Qajeelfamoota hordofi "Himoota akkamii dabaluun danda’a?" jedhu keessaa
 small-batch-sentences-rule-2 = Toora tokko irratti hima tokko galchi.

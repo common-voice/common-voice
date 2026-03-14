@@ -467,6 +467,8 @@ indicates-required = * Viser påkravd felt
 not-available-abbreviation = Ikkje tilgjengeleg
 # Text shown on a button that can be clicked to copy text to the clipboard
 copy = Kopier
+# Text shown on a button that can be clicked to close a modal or panel
+close = Lat att
 # Text shown on a button that can be clicked to cancel an action
 cancel = Avbryt
 # Text shown on a button that can be clicked to delete an item

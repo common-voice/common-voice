@@ -1,4 +1,4 @@
-import { Modality } from './config/config'
+import { Modality } from './config'
 import type { LocaleReleaseData } from './core/localeData'
 
 export const ProblemClipReason = {
@@ -20,6 +20,7 @@ export type ProblemClip = {
   reason: ProblemClipReason
   status: ProblemClipStatus
   timestamp: string // ISO 8601 -- when the problem was detected
+  value?: number // duration (ms) for duration-based reasons; file size (bytes) for TOO_SMALL
 }
 
 export type ClipRow = {
@@ -59,8 +60,10 @@ export type VariantInfo = {
   clipCount: number
 }
 
+export type ReleaseType = 'full' | 'delta' | 'statistics' | 'variants'
+
 export type Settings = {
-  type: 'full' | 'delta' | 'statistics' | 'variants'
+  type: ReleaseType
   from: string
   until: string
   releaseName: string
@@ -68,7 +71,8 @@ export type Settings = {
   languages: string[]
   licenseMode?: LicenseMode
   modality?: Modality
-  datasheetsFile?: string // e.g. "datasheets-25.0-2026-03-06.json"
+  datasheetsFile?: string // e.g. "datasheets-2026-03-06.json"
+  force?: boolean // bypass done-SET + GCS existence checks; re-create and overwrite
 }
 
 export type DatasheetLocalePayload = {

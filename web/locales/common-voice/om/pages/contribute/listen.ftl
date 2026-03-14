@@ -1,6 +1,6 @@
 listen = Dhaggeeffadhaa
 listen-subtitle = Sirrummaa sagaleewwanii akka mirkaneeffannu nu deeggaraa
-listen-instruction = { $actionType } <playIcon></playIcon> Himicha sirriitti dubbadhaa?
+listen-instruction = { $actionType } <playIcon></playIcon> Himicha sirriitti dubbatanii?
 listen-again-instruction = Hojii Bareedaa! <playIcon></playIcon> Yeroo qophii taatan irra deebiin dhaggeeffadhaa
 listen-3rd-time-instruction = 2 dhumate, itti fufi!  <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>  isa xumuraa!

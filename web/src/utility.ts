@@ -154,6 +154,36 @@ export const invalidSmallBatchSentencesToTSVString = (
 export const typedObjectKeys = <T extends object>(object: T): (keyof T)[] =>
   Object.keys(object) as (keyof T)[]
 
+/**
+ * Safe sessionStorage helpers.
+ * sessionStorage can throw in private browsing, embedded contexts, or when
+ * storage quota is exceeded. These helpers fail silently so callers don't
+ * need individual try/catch blocks.
+ */
+export function safeSessionStorageGet(key: string): string | null {
+  try {
+    return window.sessionStorage.getItem(key)
+  } catch {
+    return null
+  }
+}
+
+export function safeSessionStorageSet(key: string, value: string): void {
+  try {
+    window.sessionStorage.setItem(key, value)
+  } catch {
+    // silently fail
+  }
+}
+
+export function safeSessionStorageRemove(key: string): void {
+  try {
+    window.sessionStorage.removeItem(key)
+  } catch {
+    // silently fail
+  }
+}
+
 // Check if the user is currently typing in an input field
 // Use this to prevent keyboard shortcuts from triggering while typing in language/dataset selector
 export const isTyping = () => {

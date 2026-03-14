@@ -4,6 +4,7 @@
 
 ## Languages
 
+aat = Arvanitika
 ab = Abkazisht
 ace = Acehnezisht
 ady = Adëgabzisht
@@ -218,6 +219,8 @@ indicates-required = * tregon një fushë të domosdoshme
 not-available-abbreviation = N/A
 # Text shown on a button that can be clicked to copy text to the clipboard
 copy = Kopjoje
+# Text shown on a button that can be clicked to close a modal or panel
+close = Mbylle
 # Text shown on a button that can be clicked to cancel an action
 cancel = Anuloje
 # Text shown on a button that can be clicked to delete an item
@@ -243,3 +246,15 @@ announcement-mdc-text = <strong>Grupe të reja të dhënash Common Voice</strong
 announcement-mdc-button-text = Ejani te Mozilla Data Collective
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = Hapet në skedë të re
+
+## Common Language/Dataset Selector & SearchBox Related
+
+# Generic search box defaults
+searchbox-default-label = Filloni të shtypni që të kërkohet
+searchbox-default-placeholder = Kërkoni…
+searchbox-default-aria-label = Kërko
+dropdown-no-results = S’u gjet përkim
+dataset-searchbox-placeholder = Kërkoni për një gjuhë…
+dataset-searchbox-aria-label = Kërkoni për një gjuhë
+dataset-search-no-results = S’u gjet gjuhë me përkim
+request-new-language = Kërkoni Gjuhë të Re

@@ -83,11 +83,13 @@ press-and-stories = Апрессеи аҭоурыхқәеи
 community-and-languages = Аилазаареи абызшәақәеи
 coming-soon = Лассы
 about-us = Ҳара иҳазкны
+scripted-speech = ЗАА ИХИОУ АЖӘАҲӘА
 spontaneous-speech = АСПОНТАНТӘ ЖӘАҲӘА
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = Алахәыларақәа, апрессеи астатиақәеи, аилазаареи абызшәақәеи
+about-us-menu-item-tooltip = Common Voice иадҳәалоу амиссиеи акомандеи ирызкны еилышәкаа.
 partnerships-menu-item-tooltip = Ҳлахәылаҩны аҟалара
 press-and-stories-menu-item-tooltip = Шәаҭаа ҳаблог, ма ҳара иҳазкны ианышәҵа
 community-and-languages-menu-item-tooltip = Абызшәақәа, аилазаарақәа, азеиԥш бжьы шәхазы иаашәырты
@@ -98,6 +100,7 @@ about-menu-aria-label = Алахәыларақәеи, апрессеи, аҭоу
 about-us-menu-aria-label = «Ҳара иҳазкны» архиарақәа рыхкынҵа
 about-us-menu-item-aria-label = Апараметрқәа «Ҳара иҳазкны» рыхкынҵа
 partnerships-menu-item-aria-label = Common Voice аус ацура атәы еилышәкаа
+press-and-stories-menu-item-aria-label = Common Voice иадҳәалоу апресс-релизқәеи астатиақәеи шәрықәиҭха
 community-and-languages-menu-item-aria-label = Common Voice адгылара знаҭо аилазаареи абызшәақәеи ртәы еилышәкаа
 
 ## Hero section
@@ -111,7 +114,7 @@ get-started = Алагара <icon><icon>
 
 ## Action items section
 
-action-items-section-title = Common Voice — ари ауаажәларра рнапхгарала адыррақәа раԥҵаразы иаарту алагарҭатә код змоу хәыда-ԥсада иҟоу платформоуп
+action-items-section-title = Common Voice — ари иаарту алагарҭатә код змоу, хәыда-ԥсада иҟоу платформоуп, ауаажәларра рнапхгарала адыррақәа раԥҵаразы
 action-items-section-subtitle = Дарбанзаалак атексттәи ацәажәаратәи дыррақәа реизга аԥҵо, гәаҭо, еимдо ибызшәа аиқәырхара, аиҭашьақәыргылара, аиӷьтәра илшоит.
 scripted-card-header = Асценариатә жәаҳәа
 scripted-card-content = Шәбызшәала аҳәоу шәҳәа, шәлагала ҟашәҵа еиуеиԥшым ацәажәаратә жәаҳәақәа реизгақәа рзы.
@@ -131,12 +134,20 @@ join-discord-community = Discord аилазаара алалара
 join-discord-community-action = Discord аҿы шәҳацла
 join-discord-community-content = Абызшәатә еилазаара аилацәажәарақәа шәыҽрылашәырхәла, азҵаарақәа ықәшәыргылала, имҩаԥысраны иҟоу ауснагӡатәқәеи аицәажәарақәеи ртәы еилышәкаала.
 find-us-on-matrix = Matrix аҿы ҳшәыԥшаа
+find-us-on-matrix-content-v2 = Matrix – ари ареалтә аамҭазы адецентрализациа зызуу аицәажәаразы иаарту, иласу ԥкаанҵоуп, иара убас иаарту ахцәажәарақәа рзы Mozilla еиҳа еиӷьанашьо платформоуп. Ҳара "common-voice:mozilla.org" ауадаҿы ҳаҟоуп.
 # label for button
 find-us-on-element-action-1 = Аелемент
 find-us-on-matrix-action-2 = Егьырҭ аклиентцәа
+ask-mozilla-share = Mozilla шәаҳәа шәуснагӡатәқәа ртәы аҳәарц
 ask-mozilla-share-content = Ииасхьоу ма иҟалараны иҟоу аиԥылара шәымоума? Иаҳзеиҭашәҳәа, нас ҳаилазаара адырра раҳҭоит, мамзаргьы уи иазкны аблог аҿы ианышәҵа!
+# label for button
+ask-mozilla-share-action = Шәеиԥылара атәы ишәҳәа
+download-contribution-certificate = Шәалахәра асертификат аҭгара
 download-contribution-certificate-content = Шәусмҩаԥгатәқәа рзы, ма шәхазы асертификат ҭыжәга, Common Voice азы алагала ҟашәҵазар — шәара шәыда уи ҟалашьа аиуӡомызт!
+# label for button
+download-contribution-certificate-action = Шәсертификат жәга
 contribute-github = GitHub аҿы алагала аҟаҵара
+contribute-github-content = Ари апроект шәара шәеиԥш иҟоу ауаа рыда иалыршахомызт. 🎉 Common Voice аҽалархәразы азнеишьақәа рацәоуп — шәлагала ҟашәҵарц азы апрограммаҟаҵара шәылымшозаргьы ҟалоит!
 # label for button
 contribute-github-action = GitHub аҿы алагала аҟаҵара
 
@@ -158,6 +169,7 @@ explore-datasets = Адыррақәа реизгақәа шәрыхәаԥш <ico
 get-involved-section-title = Аилазаара анапхгарала иаарту адыррақәа реизгақәа шәрыдгылала
 read-sentences-link = Аҳәоуқәа рыԥхьара
 validate-readings-link = Аԥхьашьа агәаҭара
+contribute-link = Атекстқәа реизгаҿы алагала аҟаҵара
 answer-questions-link = Азҵаарақәа рҭак аҟаҵара
 transcribe-answers-link = Аҭакқәа атранскрипциа рзура
 review-transcriptions-link = Атранскрипциақәа ргәаҭара
@@ -168,6 +180,12 @@ press-and-stories-link = Апрессеи астатиақәеи
 
 partner-section-title = Ҳлахәылаҩны аҟалара
 # Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Атехнологиатә еилахәырақәа</bold> - абызшәарацәатә, ԥхьаҟа ицо ИА-екосистемазы иаарту адыррақәа реизга аԥҵаразы ԥарала ацхыраара ҟашәҵала
+# Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-civil-society = <bold>Ауаажәларратә еилазаареи аҭҵааҩцәеи</bold> - ихәарҭоу адыррақәа реизга хәыда-ԥсада иаԥышәҵала, иқәшәыргылала, еимыжәдала
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Агәыҳалалра</bold> - аҭыԥантәи аинновациақәеи аҿиареи шәрыцхраарц азы адыррақәа реизга аԥҵараан ԥарала ацхыраара ҟашәҵала
 # icon is an arrow that points to the right
 get-in-touch-button = Шәыҽҳамажәда <icon></icon>
+# Partners section
+our-partners-include = Ҳара ҳлахәылаҩцәа...

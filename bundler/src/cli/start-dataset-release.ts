@@ -1,7 +1,7 @@
 import 'dotenv/config'
 import { program, Option } from 'commander'
 import { Queue } from 'bullmq'
-import { getRedisUrl } from '../config/config'
+import { getRedisUrl } from '../config'
 import type { Settings } from '../types'
 
 const startDatasetRelease = async (args: any) => {
@@ -21,6 +21,17 @@ const startDatasetRelease = async (args: any) => {
       'Error: -p (--previousReleaseName) is required for -t full.\n' +
         'It specifies the previous release whose clips bootstrap the new one.\n' +
         'Example: -t full -r cv-corpus-25.0-2026-03-09 -p cv-corpus-24.0-2025-12-05',
+    )
+    process.exit(1)
+  }
+
+  // -d is required for full releases (datasheets filename never matches release name)
+  if (args.type === 'full' && !args.datasheetsFile) {
+    console.error(
+      'Error: -d (--datasheets-file) is required for -t full.\n' +
+        'The datasheets JSON filename does not match the release name,\n' +
+        'so it must always be specified explicitly.\n' +
+        "Example: -d 'datasheets-2026-03-09.json'",
     )
     process.exit(1)
   }
@@ -53,6 +64,7 @@ const startDatasetRelease = async (args: any) => {
     languages: args.languages || [],
     licenseMode: args.licenseMode || 'unlicensed',
     datasheetsFile: args.datasheetsFile,
+    force: args.force || false,
   }
 
   const queue = new Queue('datasetRelease', {
@@ -106,10 +118,19 @@ program
   .option(
     '-d, --datasheets-file <file>',
     `
-    Datasheets JSON filename or full URL. Resolved against DATASHEETS_BASE_URL if not a URL.
-    Example filename: 'datasheets-25.0-2026-03-09.json'
-    Example URL: 'https://raw.githubusercontent.com/common-voice/cv-datasheets/<commit>/releases/datasheets-25.0-2026-03-09.json'
+    Datasheets JSON filename or full URL. Required for full releases.
+    Resolved against DATASHEETS_BASE_URL if not a URL.
+    Example filename: 'datasheets-2026-03-09.json'
+    Example URL: 'https://raw.githubusercontent.com/common-voice/cv-datasheets/<commit>/releases/datasheets-2026-03-09.json'
     `,
+  )
+  .option(
+    '--force',
+    `
+    Bypass all existence checks and re-create release tarballs from scratch.
+    Overwrites any existing archives in GCS. Useful for fixing corrupt releases.
+    `,
+    false,
   )
   .addOption(
     new Option(

@@ -4,7 +4,7 @@ import * as T from 'fp-ts/Task'
 import * as RTE from 'fp-ts/ReaderTaskEither'
 import { Job } from 'bullmq'
 import { AppEnv, ProcessLocaleJob } from '../types'
-import { getDatasetBundlerBucketName, getTmpDir } from '../config/config'
+import { getDatasetBundlerBucketName, getTmpDir } from '../config'
 import { generateTarFilename } from '../core/compress'
 import { constVoid, pipe } from 'fp-ts/lib/function'
 import { doesFileExistInBucket } from '../infrastructure/storage'
@@ -73,7 +73,11 @@ export const generateStatistics = async (job: Job<ProcessLocaleJob>) => {
       `Cannot generate statistics for ${uploadPath}: tarball does not exist`,
     )
     return
-  } else {
-    await generateStatisticsPipeline(env)()
   }
+
+  if (job.data.force) {
+    logger.info('STATS', `[${locale}] --force: re-generating statistics for ${uploadPath}`)
+  }
+
+  await generateStatisticsPipeline(env)()
 }

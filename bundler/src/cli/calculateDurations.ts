@@ -8,7 +8,7 @@ import {
   getMetadataFromFile,
   streamDownloadFileFromBucket,
 } from '../infrastructure/storage'
-import { getClipsBucketName } from '../config/config'
+import { getClipsBucketName } from '../config'
 import { logger } from '../infrastructure/logger'
 const mp3Duration = require('mp3-duration')
 

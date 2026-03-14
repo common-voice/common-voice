@@ -20,6 +20,11 @@ x-weeks-short =
         [one] Bakɔi
        *[other] shɛli
     }
+x-months-short =
+    { $count ->
+        [one] mo
+       *[other] mo
+    }
 
 ## Account Benefits
 
@@ -42,6 +47,7 @@ review-questions = Labi lihi bɔhisi
 transcribe-audio = Lɛbigimi kukɔli
 community-and-languages = Tingbana mini Bala
 coming-soon = Di be sɔli
+about-us = zaŋ kpa ti polo
 
 ## Action items section
 
@@ -66,3 +72,9 @@ contribute-github-action = Tɔhimi GitHub zuɣu
 read-sentences-link = Karimmi yɛltɔɣa
 validate-readings-link = Dihimi satara n tabili
 answer-questions-link = Labisimi bɔhisi
+contribute-text-link = Pahimi sabbu
+press-and-stories-link = Dihima ka ti lahibaya
+
+## Partner section
+
+partner-section-title = Zaŋmi a kpalazuli na ti gbini ti

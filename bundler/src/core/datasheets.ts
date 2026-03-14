@@ -6,7 +6,7 @@ import { pipe } from 'fp-ts/lib/function'
 
 import { AppEnv, DatasheetLocalePayload } from '../types'
 import { uploadToBucket } from '../infrastructure/storage'
-import { getDatasetBundlerBucketName } from '../config/config'
+import { getDatasetBundlerBucketName } from '../config'
 import { sanitizeLicenseName } from './compress'
 import { logger } from '../infrastructure/logger'
 import type { Buckets, LocaleReleaseData } from './localeData'
@@ -580,7 +580,7 @@ export const buildReplacementMap = (
   // Sentences sample
   if (data.sentencesSample.length > 0) {
     map['SENTENCES_SAMPLE'] = data.sentencesSample
-      .map((s, i) => `${i + 1}. ${s}`)
+      .map((s, i) => `${i + 1}. *${s.replace(/\*/g, '\\*')}*`)
       .join('\n')
   }
 

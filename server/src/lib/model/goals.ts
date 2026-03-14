@@ -57,6 +57,7 @@ export async function computeGoals(client_id: string): Promise<any> {
   const localeStreakMap = new Map();
   const countsMap = new Map();
   for (const { locale_id, type, created_at } of rows) {
+    if (!locale_id) continue // orphaned vote — clip deleted, locale unknown
     let counts = countsMap.get(locale_id);
     if (!counts) {
       counts = { clips: 0, votes: 0 };

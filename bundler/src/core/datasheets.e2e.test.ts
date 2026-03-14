@@ -109,12 +109,11 @@ const setupLocale = (
 
 // Datasheets JSON on GitHub (main branch).
 // Override via DATASHEETS_FILE env var (filename or full https:// URL).
-const RELEASE_ID = '25.0-2026-03-09'
 const DATASHEETS_FILE =
   process.env.DATASHEETS_FILE ||
-  `https://raw.githubusercontent.com/common-voice/cv-datasheets/main/releases/datasheets-${RELEASE_ID}.json`
+  'https://raw.githubusercontent.com/common-voice/cv-datasheets/main/releases/datasheets-2026-03-09.json'
 
-const RELEASE_NAME = `cv-corpus-${RELEASE_ID}`
+const RELEASE_NAME = 'cv-corpus-25.0-2026-03-09'
 
 // Skip in CI -- this test makes a live network request to GitHub.
 // Run locally with: npm test -- --testPathPatterns=datasheets.e2e

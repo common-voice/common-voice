@@ -7,7 +7,7 @@ import {
   DATASHEETS_BASE_URL,
   Modality,
   MODALITY_TO_DATASHEETS_KEY,
-} from '../config/config'
+} from '../config'
 import { DatasheetLocalePayload } from '../types'
 
 export type DatasheetsJson = {
@@ -117,7 +117,7 @@ export const validateDatasheetsJson = (
  * Supports:
  *   - Absolute path: "/path/to/file.json"
  *   - file:// URI: "file:///path/to/file.json"
- *   - Filename: "datasheets-25.0-2026-03-06.json" (resolved against DATASHEETS_BASE_URL)
+ *   - Filename: "datasheets-2026-03-06.json" (resolved against DATASHEETS_BASE_URL)
  */
 const resolveSource = (
   datasheetsFile: string,

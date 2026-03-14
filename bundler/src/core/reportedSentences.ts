@@ -2,7 +2,7 @@ import * as fs from 'node:fs'
 import * as path from 'node:path'
 import { readerTaskEither as RTE, taskEither as TE } from 'fp-ts'
 import { streamingQuery } from '../infrastructure/database'
-import { getQueriesDir } from '../config/config'
+import { getQueriesDir } from '../config'
 import { Transform } from 'node:stream'
 import {
   AppEnv,

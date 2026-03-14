@@ -6,3 +6,5 @@ contact-form-name =
 contact-form-message =
     .label = መልዕክት
 contact-required = *ያስፈልጋል
+contact-form-success = መልእክትዎ ተልኳል። አናመሰግናለን!
+contact-form-error = የሆነ ችግር ተፈጥሯል። እባክዎ እንደገና ይሞክሩ።

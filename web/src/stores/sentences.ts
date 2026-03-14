@@ -341,10 +341,12 @@ export namespace Sentences {
     }),
   }
 
-  const DEFAULT_LOCALE_STATE = {
-    sentences: [] as Sentence[],
+  const DEFAULT_LOCALE_STATE: Sentences.State[string] = {
+    sentences: [],
     isLoading: true,
     hasLoadingError: false,
+    isLoadingPendingSentences: false,
+    pendingSentences: [],
     bulkUploadStatus: 'off',
   }
 
@@ -368,14 +370,12 @@ export namespace Sentences {
         return {
           ...state,
           [locale]: {
+            ...localeState,
             sentences: localeState.sentences.concat(
               action.sentences.filter(({ id }) => !sentenceIds.includes(id))
             ),
             isLoading: false,
             hasLoadingError: false,
-            isLoadingPendingSentences:
-              currentLocaleState.isLoadingPendingSentences,
-            pendingSentences: currentLocaleState.pendingSentences,
           },
         }
       }
@@ -395,12 +395,10 @@ export namespace Sentences {
         return {
           ...state,
           [locale]: {
+            ...localeState,
             sentences: [],
             isLoading: false,
             hasLoadingError: true,
-            isLoadingPendingSentences:
-              currentLocaleState.isLoadingPendingSentences,
-            pendingSentences: currentLocaleState.pendingSentences,
           },
         }
 
@@ -408,14 +406,12 @@ export namespace Sentences {
         return {
           ...state,
           [locale]: {
+            ...localeState,
             sentences: localeState.sentences.filter(
               s => !action.sentenceIds.includes(s.id)
             ),
             isLoading: false,
             hasLoadingError: false,
-            isLoadingPendingSentences:
-              currentLocaleState.isLoadingPendingSentences,
-            pendingSentences: currentLocaleState.pendingSentences,
           },
         }
 
@@ -428,7 +424,7 @@ export namespace Sentences {
         return {
           ...state,
           [locale]: {
-            ...currentLocaleState,
+            ...localeState,
             pendingSentences: [],
             isLoadingPendingSentences: true,
           },
@@ -446,7 +442,7 @@ export namespace Sentences {
         return {
           ...state,
           [locale]: {
-            ...currentLocaleState,
+            ...localeState,
             pendingSentences,
             isLoadingPendingSentences: false,
           },
@@ -454,7 +450,7 @@ export namespace Sentences {
       }
 
       case ActionType.VOTE_SENTENCE: {
-        const pendingSentences = currentLocaleState.pendingSentences.map(
+        const pendingSentences = localeState.pendingSentences.map(
           (pendingSentence, index) =>
             index === action.sentenceIndex
               ? { ...pendingSentence, isValid: action.isValid }
@@ -464,21 +460,21 @@ export namespace Sentences {
         return {
           ...state,
           [locale]: {
-            ...currentLocaleState,
+            ...localeState,
             pendingSentences,
           },
         }
       }
 
       case ActionType.SHOW_NEXT_SENTENCE: {
-        const pendingSentences = currentLocaleState.pendingSentences.filter(
+        const pendingSentences = localeState.pendingSentences.filter(
           sentence => sentence.sentenceId !== action.sentenceId
         )
 
         return {
           ...state,
           [locale]: {
-            ...currentLocaleState,
+            ...localeState,
             pendingSentences,
           },
         }
@@ -488,7 +484,7 @@ export namespace Sentences {
         return {
           ...state,
           [locale]: {
-            ...currentLocaleState,
+            ...localeState,
             bulkUploadStatus: action.bulkUploadStatus,
             ...(action.bulkUploadStatusData && {
               bulkUploadStatusData: action.bulkUploadStatusData,

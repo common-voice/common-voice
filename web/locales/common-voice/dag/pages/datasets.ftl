@@ -2,8 +2,11 @@
 
 datasets-heading = lahabali kpanjɔɣu
 datasets-headline = Ti namdila zuliya bɔbigu bala, sokam ni ni tooi n tohi kukɔli kpanjɔɣu shɛli zuɣu ti zaŋ n-wuhi maʒina shɛŋa din ni tooi n-yɛli yɛltɔɣa.
+datasets-positioning = Din galisi,So kam sani niŋ bayana n-ti kukoya din pu n doya ni che ka baŋsim pahira mini kpaɣibo din mali alaafee zaŋ kana mazeni-bohambu yɛltɔɣ' tabibi baŋsim polo.common voice tuma din pun doya nyala din galisi,amaa ka lee pa di koŋko.
 # New/upcoming datasets page headline
 datasets-headline-mdc = Mozilla Common Voice kpanjɔɣu pa nyɛla din m-be Mozilla Data Collective puuni ko.
+# New/upcoming datasets page headline text
+datasets-positioning-mdc = kuko yinsi nŋuna, di laɣim la kukoya din pun tumdoya din kalilnli yiɣisi bin pishi ni a-ta kpulli,kukoya din laɣim tumma din pun tum a yi ti bɔri ni a din pun vuli doya maa mozila puuni nangbanyini.
 datasets-speech-bubble-content = Suhupiɛlli lahibali! Diri n toli fiila nyɛla din m-be soli! Na kuli n-gbulisimi tibili lahibaya na nyɛla din m-be soli ka lahi kpaŋ a maŋa ka a yuli ti <discordLink>Discord</discordLink> n wum lahibaya din yoil n kpɛna.
 language = Zuliya Balli
 download-dataset-header = voomi lahabali kpanjɔɣu maa
@@ -38,26 +41,43 @@ feedback-q = A mali shɛli ni a yɛli?
 # This indicates that there is no data to display
 no-information = lahabali kani
 resource-nemo-info = NeMo</githubLink>™ nyɛla <docsLink>open-source toolkit</docsLink> zaŋ n-ti vihivihiriba ban be AI yɛltɔɣa ni.
+resource-deepspeech-info = Mozila nyɛla yihibu shee din yooi n-ti kukoya baŋsim kpa tuɣa din ziligi di yi kana yɛligu ni tooi tum n mali yɛligu baŋbu sabi ti shɛhi.karimmi ti<githubLink>githun zaa labi yuli<githubLink>bee ka a gbini kpalanzuya ni</discourseLink>yaligu din zilima</discourseLink>din ni che ka a baŋ an ni tooi pili shɛm.
+resource-coqui-info = <coquiLink>coqui<coquiLink>nyɛla din niŋ zaɣa ni bi yooi yɛltɔɣa tabibi baŋsim.Bi tuma ŋɔ pahila bɔhimbu din zilima ka be STT mini TTS mazina ni
 community-playbook = Zilenini Demabuku
 resource-playbook-info = <playbookLink>yala soŋsim tarisi<playbookLink>kukoya din laɣim sochenda ŋɔ zaa zuɣu,dunduŋni tuma tumbu n ti pahi ti ni yan niŋ shɛm zaŋgatabi ti fondi ni
 data-other-ted-name = TED-LIUM Corpus
+data-other-ted-description = TED-LIM corpus sodolisi la daa yila yɛltɔɣa vulibu mini di lɛbiginsim n niŋli bayana TED dundɔŋ puuni ni.
+data-other-voxforge-description = Bi daa bola VoxForge zali ni di laɣimdi yaligi din lɛbigi ni di tumdi ypli n tiri yihibu sheei yaligu baŋbu mazinanima
+data-other-tatoeba-description = Tatoeba nyɛla  tuma din  galisi tumdoya zaŋ kana yɛltɔɣa,lɛbigiti yɛltɔɣa vulibu din yan zaŋ tum bala bɔhimbu.Din pun vuli doya ŋɔ nyɛla din mali ilimisili yɛlibu di vulibu bi maŋmaŋa zilɛni ni.
+your-feedback = A mali pahigu shɛli din tu ni ti zaŋ pahi n che ka common voice datasets nya naba n zani? che ka ti baŋ ti yɛltɔɣa kpanjɔɣu maa ni
 go-discourse = Chami fiila puuni
+missing-language = A bi nya a balli ni yina dataset puuni?  A yi bɔri bali shɛli nyin chami ti bala paagi maa ni.
 go-languages-page = chami zuliya balli yaɣili
 ready-to-validate = A shili biya ni sɔŋsi dihi nuu yɛltɔɣa zuɣu?
 more = pam
 download = vooma
 dataset-version = Tiɣisuma
 sha256-checksum-copied = SHA256 Checksum Yaaya!
+sha256-checksum-copied-error = Di kɔnla yaabu SHA256 yulima
+clipboard-not-supported = yaabu maa bɛ deera
 no-information-available = lahabali kani
 dataset-metadata-sex = Doo bee paɣa
 # dataset metadata - age of contributor
 dataset-metadata-age = A yuma
+donate-modal-message = A dataset maa nyɛla din voora
 dataset-donate-modal-heading = a di mi?
+donate-modal-explanation-1 = Kamani Amɛrika laɣiri miliyɔŋ ka ti dira ni ti gbubi sabbu ni kukɔ' yaara kpanjɔri ŋɔ zaŋ ti zuliya yɛltɔɣa din kalinli yaɣi bin kɔbiga ni di pɔhim zuɣu tahapɔna viɛnyɛla niŋbu din kuli yɛn chɛ ka di bɛni n zaŋ ti ban doli ti ni niŋdi binshɛŋa ŋɔ maa?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>A nini yi tiɣi nyin yooma, lahabali din bɛni- timi zuŋo!</bold>
+data-download-singleword-title = ti voorila yɛl'tɔɣi gaŋa maa nini ni kuli kpa shɛli
+data-download-singleword-callout-v2 = Ŋɔ maa nyɛla tuma tuma nima yaɣili din mali "data" din ni tooi baŋ di kalinli din yara ni iin bee aayi.
 data-download-button = Yaami binshɛli din nyɛ kukɔli yaabu.
 data-download-yes = Iin
 data-download-deny = Aayi
 data-download-license = Shahara
+data-download-modal = A niŋla shili ni a mali a vulibu zali
 data-subtitle = Ti maalindila kɔkuya kpanjɔɣu shɛli din yooi n-ti sokam ka daadam bia kam ni tooi n-zaŋ li n-wuhi maʒina shɛŋa din ni tooi n-yɛli yɛltɔɣa.
+data-explanatory-text = Ti nima mali dihitabili ni kukɔya kpanjɔri
 data-get-started = <speechBlogLink>Pilimi ni yɛltɔɣa bangbu</speechBlogLink>
 data-other-title = Kukoli kpajuɣa shaŋa din pahi
 data-other-goto = Cham { $name }

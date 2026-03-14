@@ -97,7 +97,7 @@ const buildLocaleEnglishNameMapping = (): Record<string, string> => {
         const [, code, name] = match
         if (code && name) {
           // FIXME: Quick & hacky workaround for apostrophes in names - needs downtime migrations for proper fix
-          englishNames[code.trim()] = name.replace(/’/g, "'").trim()
+          englishNames[code.trim()] = name.replace(/[\u2018\u2019\u201A\u201B\u02B9\u02BB\u02BC\u02BD\u02CA\u0060\u00B4\uFF07\u055A]/g, "’").trim()
         }
       }
     }

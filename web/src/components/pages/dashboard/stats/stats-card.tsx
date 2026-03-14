@@ -35,7 +35,15 @@ export default function StatsCard({
     `${id}`,
     currentLocale || DEFAULT_LOCALE_OPTION
   )
-  const [selectedTab, setSelectedTab] = useState(Object.keys(tabs)[0])
+  const tabKeys = tabs ? Object.keys(tabs) : []
+  const [selectedTab, setSelectedTab] = useState(tabKeys[0])
+
+  // Ensure selectedTab stays in sync with available tab keys
+  useEffect(() => {
+    if (!selectedTab || !tabKeys.includes(selectedTab)) {
+      setSelectedTab(tabKeys[0])
+    }
+  }, [selectedTab, tabKeys])
 
   // Sync locale with currentLocale from top bar
   useEffect(() => {
@@ -67,7 +75,7 @@ export default function StatsCard({
         </div>
         <div className="filters">
           <div className="tabs">
-            {Object.keys(tabs).map(label => {
+            {tabKeys.map(label => {
               return challenge ? (
                 <button
                   key={label}
@@ -95,7 +103,8 @@ export default function StatsCard({
         </div>
         <div className="content">
           {(() => {
-            const TabComponent = tabs[selectedTab]
+            const TabComponent = tabs?.[selectedTab]
+            if (!TabComponent) return null
             const localeToPass = isDefaultOptionSelected ? null : locale
             return <TabComponent locale={localeToPass} />
           })()}{' '}

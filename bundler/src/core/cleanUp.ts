@@ -5,7 +5,7 @@ import { readerTaskEither as RTE, taskEither as TE } from 'fp-ts'
 import { constVoid, pipe } from 'fp-ts/lib/function'
 
 import { AppEnv } from '../types'
-import { getEnvironment, getTmpDir } from '../config/config'
+import { getEnvironment, getTmpDir } from '../config'
 import { generateTarFilename } from './compress'
 
 export const cleanUp = (

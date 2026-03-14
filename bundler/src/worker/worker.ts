@@ -3,15 +3,16 @@ import { io as IO, taskEither as TE } from 'fp-ts'
 import { pipe, constVoid } from 'fp-ts/lib/function'
 import { processLocale } from './processor'
 import { processVariants } from './processVariants'
-import { addJobsToReleaseQueue } from '../infrastructure/queue'
-import { getRedisUrl } from '../config/config'
+import { addJobsToReleaseQueue, cleanStaleJobs } from '../infrastructure/queue'
+import { BULLMQ_LOCK_DURATION_MS, getRedisUrl, redisKeys } from '../config'
 import { generateStatistics } from './generateStatistics'
 import { logger } from '../infrastructure/logger'
+import { redisClient } from '../infrastructure/redis'
 
 export const createWorker: IO.IO<void> = () => {
   const worker = new Worker(
     'datasetRelease',
-    async job => {
+    async (job, token) => {
       switch (job.name) {
         case 'init': {
           const s = job.data
@@ -24,7 +25,49 @@ export const createWorker: IO.IO<void> = () => {
           if (s.previousReleaseName) {
             logger.info('', `  PREV: ${s.previousReleaseName}`)
           }
+          if (s.force) {
+            logger.info('', '  MODE: --force (bypass skip checks, re-process and overwrite GCS)')
+          }
           logger.info('', dash)
+
+          // Clear the processing SET(s) from any previous run so re-runs can
+          // reprocess locales that were left in-progress when a pod died.
+          // processor.ts uses an effective releaseName (e.g. "<release>-licensed"
+          // for licensed jobs), so we clear all variants this run might use.
+          const releaseNames = [s.releaseName]
+          if (s.licenseMode === 'licensed' || s.licenseMode === 'both') {
+            releaseNames.push(`${s.releaseName}-licensed`)
+          }
+          if (s.type === 'variants') {
+            releaseNames.push(`${s.releaseName}-variants`)
+          }
+          for (const name of releaseNames) {
+            const cleared = await redisClient.del(redisKeys.processing(name))
+            if (cleared > 0) {
+              logger.info(
+                'WORKER',
+                `Cleared processing guard for "${name}" (previous run cleanup)`,
+              )
+            }
+          }
+
+          // --force: also clear the done SET so every locale is re-processed.
+          if (s.force) {
+            for (const name of releaseNames) {
+              const cleared = await redisClient.del(redisKeys.done(name))
+              if (cleared > 0) {
+                logger.info(
+                  'WORKER',
+                  `Cleared done SET for "${name}" (--force)`,
+                )
+              }
+            }
+          }
+
+          // Remove stale completed/failed BullMQ jobs so deterministic IDs
+          // don't silently block queue.add() on re-runs.
+          await cleanStaleJobs()
+
           logger.info('WORKER', 'Initializing jobs...')
           return pipe(
             job.data,
@@ -36,7 +79,7 @@ export const createWorker: IO.IO<void> = () => {
           )()
         }
         case 'processLocale': {
-          return processLocale(job)
+          return processLocale(job, token)
         }
         case 'generateStatistics': {
           return generateStatistics(job)
@@ -50,22 +93,39 @@ export const createWorker: IO.IO<void> = () => {
       connection: {
         host: getRedisUrl(),
       },
-      // Jobs can run for 24 h+. The default lockDuration of 30 s causes the stalled-job checker to reassign
-      // a job to a second pod after any brief Redis connectivity blip, resulting in duplicate processing.
-      // 5 minutes gives pods enough time to recover from transient disconnections
-      // while still re-queuing jobs within a reasonable window if a pod truly dies.
-      lockDuration: 300_000,
+      // ---------------------------------------------------------------------------
+      // Lock & stall settings.
+      //
+      // Redis uses allkeys-lru eviction, which can evict BullMQ lock keys and
+      // trigger false stall re-dispatches. Correctness is handled by the
+      // processing SET guard in processor.ts (SADD returns 0 -> instant skip),
+      // so re-dispatches are harmless no-ops.
+      //
+      // lockDuration is kept moderate to reduce "could not renew lock" log spam.
+      // removeOnComplete/Fail keeps Redis lean (fewer keys -> less LRU pressure).
+      // ---------------------------------------------------------------------------
+      lockDuration: BULLMQ_LOCK_DURATION_MS,
+      removeOnComplete: { age: 3_600, count: 1_000 }, // clean up after 1 hour
+      removeOnFail: { age: 3_600, count: 1_000 },
     },
   )
+
+  worker.on('error', err => {
+    // BullMQ emits lock-renewal failures as Error objects when Redis LRU
+    // evicts lock keys.  These are harmless (processing SET guard handles
+    // correctness) -- log a short warning instead of a full stack trace.
+    const msg = String(err?.message ?? err)
+    if (msg.includes('could not renew lock')) {
+      logger.warn('WORKER', `Lock renewal failed - still computing: ${msg}`)
+      return
+    }
+    logger.error('WORKER', `Unexpected error: ${err?.stack ?? msg}`)
+  })
 
   worker.on('completed', job => {
     switch (job.name) {
       case 'init': {
         logger.info('WORKER', 'Initialization completed')
-        break
-      }
-      case 'processLocale': {
-        logger.info('WORKER', `[${job.data.locale}] Finished processing locale`)
         break
       }
       case 'processVariants': {
