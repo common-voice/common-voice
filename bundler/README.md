@@ -8,48 +8,47 @@ For architecture, internals, and testing details see [DEVELOPER.md](DEVELOPER.md
 
 ```mermaid
 flowchart LR
-    SCS_DB[("SCS DB")]
-    SPS_DB[("SPS DB")]
-    GCS_C[("GCS
-    SCS clips")]
-    DS["cv-datasheets"]
-    GCS_A[("GCS
-    SPS audio")]
-    GCS_DS[("GCS
-    datasets
-    datasheets
-    stats")]
-    MDC[["MDC (downloads)"]]
-    CDS[["cv-dataset"]]
 
-    subgraph SCS_B["SCS Bundler ◀"]
+    subgraph SCS["Scripted Speech (SCS)"]
+        SCS_DB[("DB")]
+        SCS_GCS["GCS"]
+    end
+    subgraph SCS_BUN["SCS Bundler ◀"]
         CC["CorporaCreator"]
     end
 
-    subgraph SPS_B["SPS Bundler"]
+    DSH["cv-datasheets"]
+
+    subgraph SPS["Spontaneous Speech (SPS)"]
+        SPS_DB[("DB")]
+        SPS_GCS["GCS"]
+    end
+    subgraph SPS_BUN["SPS Bundler"]
         QA["QA Pipeline"]
     end
 
-    SCS_DB --> SCS_B
-    GCS_C --> SCS_B
-    DS -->|templates
-    + custom| SCS_B
-    DS -->|templates
-    + custom| SPS_B
-    SPS_DB --> SPS_B
-    GCS_A --> SPS_B
-    SCS_B --> GCS_DS
-    SPS_B --> GCS_DS
-    GCS_DS -->|datasets| MDC
-    GCS_DS -->|datasheets| MDC
-    GCS_DS -->|stats| CDS
+    BUN_GCS["GCS
+    datasets
+    datasheets
+    stats"]
 
-    style SCS_B fill:#1a73e8,color:#ffffff,stroke:#1558b0,stroke-width:2px
-    style GCS_C fill:#333,stroke:#383c8e
-    style GCS_A fill:#333,stroke:#383c8e
-    style GCS_DS fill:#333,stroke:#383c8e
-    style CC fill:#333,stroke:#fefefe,stroke-width:1px
-    style QA fill:#333,stroke:#fefefe,stroke-width:1px
+    MDC[["MDC
+    downloads"]]
+    CDS[["cv-dataset"]]
+
+    SCS_DB -->|data| SCS_BUN
+    SCS_GCS -->|clips| SCS_BUN
+    DSH -->|JSON| SCS_BUN
+    DSH -->|JSON| SPS_BUN
+    SPS_DB -->|data| SPS_BUN
+    SPS_GCS -->|audio| SPS_BUN
+    SCS_BUN --> BUN_GCS
+    SPS_BUN --> BUN_GCS
+    BUN_GCS -->|datasets| MDC
+    BUN_GCS -->|datasheets| MDC
+    BUN_GCS -->|stats| CDS
+
+    style SCS_BUN fill:#1a73e8,color:#ffffff,stroke:#1558b0,stroke-width:2px
 ```
 
 ---
