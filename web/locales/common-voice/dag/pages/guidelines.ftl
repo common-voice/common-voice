@@ -50,7 +50,9 @@ background-noise-tip-2 = [yɛltɔɣa maa yaɣ' shɛli ku tooi wum]
 background-voices-explanation = Vuri bela din yirina bi galim,amaa ayi ni tooi wum yɛltɔɣa maa,di ni tooi saɣim vilibu ka di ku lahi tum tuma.Di bahi bandi ti yi ti che ninyula kpanjɔɣu ka di tumda.
 background-voices-example-1 = Sodoligu
 background-voices-tip-1 = A kanna?
+volume-explanation = Ban karindi kukoya dubu ni tooi be kɔŋkɔba. A ni nooi zaɣisi di yi niŋ ka kukoli maa du n-yaɣi zuɣu che the lahibali maa ŋmaara, bee (din tooi yoli) di dubu yi be tiŋa pam ka di zuɣu che ka a ku tooi wum o ni yɛri shɛli maa ka di pala a yuli la sabbu maa.
 reader-effects-explanation = Kukoya din yaai maa pam nyɛla niriba n-kuli yɛri bɛ ni yɛri shɛm. A ni tooi saɣi n-ti din ti chirigi n-yi di ko ka che o kukoli maa ka nyɛ tahigu, ŋumbu, bee ka di kuli yɛli ni kuko' shɛli din be di ko. Dim suɣulo, zaɣisimi karimbu din ŋmani yila bee kukoli shɛli bɛ ni zaŋ kɔmpiita n-niɣim.
+just-unsure-explanation = A yi nya binshɛli ka ti ni ti so' shɛŋa ŋ bi tabisi li, nyin dimi suɣulo ka zaŋ a maŋmaŋ tɛha n-tum din simdi. A mi kuli ku tooi ti a ni nya li shɛm, nyin dihimi kpahiyaɣi garili maa n-chaŋ kukoli din paya zuɣu.
 still-have-questions = Anna mali bohasi?
 contact-common-voice = Bolimi kukoyinga nim maa
 
