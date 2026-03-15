@@ -585,6 +585,8 @@ export const processVariants = async (job: Job<ProcessLocaleJob>) => {
         env.releaseDirPath,
         tarballsDir,
         'variants',
+        undefined,
+        variant.clipCount,
       )()
 
       if (E.isLeft(compressResult)) {

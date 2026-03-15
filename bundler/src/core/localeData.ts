@@ -120,6 +120,7 @@ type ClipsScanResult = {
  */
 export const scanClipsTsv = (
   clipsFilePath: string,
+  predefinedAccentNames?: string[],
 ): TE.TaskEither<Error, ClipsScanResult> =>
   TE.tryCatch(
     () =>
@@ -140,6 +141,12 @@ export const scanClipsTsv = (
         let domainIdx = -1
         let variantIdx = -1
         let accentIdx = -1
+
+        // When predefined accents are provided, only those are counted individually.
+        // All other (user-submitted) accents are grouped under "" (empty = other).
+        const predefinedSet = predefinedAccentNames && predefinedAccentNames.length > 0
+          ? new Set(predefinedAccentNames)
+          : null
 
         let clips = 0
         const clientIds = new Set<string>()
@@ -208,8 +215,10 @@ export const scanClipsTsv = (
             for (const accent of accents) {
               const trimmed = accent.trim()
               if (!trimmed) continue
-              accentCounts[trimmed] = (accentCounts[trimmed] ?? 0) + 1
-              if (cid) { ;(accentCids[trimmed] ??= new Set()).add(cid) }
+              // If predefined list is available, group non-predefined under ""
+              const key = predefinedSet && !predefinedSet.has(trimmed) ? '' : trimmed
+              accentCounts[key] = (accentCounts[key] ?? 0) + 1
+              if (cid) { ;(accentCids[key] ??= new Set()).add(cid) }
             }
           }
         })
@@ -488,11 +497,12 @@ const sampleSentences = (localeDir: string, count = 5): string[] => {
 export const scanLocaleData = (
   localeDir: string,
   totalDurationMs: number,
+  predefinedAccentNames?: string[],
 ): TE.TaskEither<Error, LocaleReleaseData> =>
   pipe(
     TE.Do,
     TE.bind('clipsScan', () =>
-      scanClipsTsv(path.join(localeDir, 'clips.tsv')),
+      scanClipsTsv(path.join(localeDir, 'clips.tsv'), predefinedAccentNames),
     ),
     TE.bind('sentenceScan', () => scanSentenceFiles(localeDir)),
     TE.map(({ clipsScan, sentenceScan }) => {
@@ -558,12 +568,12 @@ export const runScanLocaleData = (
 ): RTE.ReaderTaskEither<AppEnv, Error, LocaleReleaseData> =>
   pipe(
     RTE.ask<AppEnv>(),
-    RTE.chainTaskEitherK(({ locale, releaseDirPath }) => {
+    RTE.chainTaskEitherK(({ locale, releaseDirPath, predefinedAccentNames }) => {
       const localeDir = path.join(releaseDirPath, locale)
       logger.info(
         'LOCALE_DATA',
         `[${locale}] Scanning locale data (clips + sentences + buckets)`,
       )
-      return scanLocaleData(localeDir, totalDurationMs)
+      return scanLocaleData(localeDir, totalDurationMs, predefinedAccentNames)
     }),
   )
