@@ -56,35 +56,6 @@ export const buildProcessLogRow = (
 }
 
 // ---------------------------------------------------------------------------
-// shouldPrintProgress (exported for unit-testing)
-// ---------------------------------------------------------------------------
-
-/**
- * Determines whether to emit a progress line for this job completion.
- * Ensures large datasets always show progress while small ones are throttled.
- */
-export const shouldPrintProgress = (
-  jobsDone: number,
-  jobsTotal: number,
-  clipCount: number,
-  clipsTotal: number,
-): boolean => {
-  // Always print at GCS flush boundaries and on completion.
-  if (jobsDone % RELEASE_LOG_FLUSH_INTERVAL === 0) return true
-  if (jobsTotal > 0 && jobsDone === jobsTotal) return true
-  // Always print for the first 20 jobs (large locales, infrequent).
-  if (jobsDone <= 20) return true
-  // If we have no clip totals, fall back to every 10th job.
-  if (clipsTotal <= 0) return jobsDone % 10 === 0
-  // Significant job: contributed >= 0.5% of total clips.
-  if (clipCount / clipsTotal >= 0.005) return true
-  // Medium job (>= 0.1%): every 5th.
-  if (clipCount / clipsTotal >= 0.001) return jobsDone % 5 === 0
-  // Tiny job: every 10th.
-  return jobsDone % 10 === 0
-}
-
-// ---------------------------------------------------------------------------
 // flushReleaseLogs
 // ---------------------------------------------------------------------------
 
@@ -93,7 +64,7 @@ export const shouldPrintProgress = (
  *
  * 1. Pushes a process-log row to the Redis list `scripted:log:process:<releaseName>`.
  * 2. Increments job and clip counters.
- * 3. Emits a two-line progress summary (throttled for small locales).
+ * 3. Emits a two-line progress summary for every completed job.
  * 4. Every `RELEASE_LOG_FLUSH_INTERVAL` completions, and when count reaches the
  *    total stored by the init job, uploads snapshots of both lists to GCS:
  *      `<releaseName>/logs/problem-clips.tsv`
