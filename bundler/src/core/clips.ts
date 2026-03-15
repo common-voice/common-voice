@@ -7,7 +7,6 @@ import { Transform } from 'node:stream'
 import {
   either as E,
   readerTaskEither as RTE,
-  task as T,
   taskEither as TE,
 } from 'fp-ts'
 import { constVoid, pipe } from 'fp-ts/lib/function'
@@ -18,7 +17,6 @@ import { streamingQuery } from '../infrastructure/database'
 import {
   doesFileExistInBucket,
   downloadFileFromBucket,
-  getMetadataFromFile,
   streamDownloadFileFromBucket,
 } from '../infrastructure/storage'
 import { AppEnv, ClipRow, ProblemClip, ProblemClipReason } from '../types'
@@ -29,6 +27,7 @@ import {
   getQueriesDir,
   getTmpDir,
   MIN_AUDIO_SIZE_BYTES,
+  CLIP_DOWNLOAD_CONCURRENCY,
 } from '../config'
 import { prepareDir, rmFilepath } from '../infrastructure/filesystem'
 import { generateTarFilename } from './compress'
@@ -263,6 +262,36 @@ const mergeClipsFromLocalSources = (
     )
   }, logError)
 
+/**
+ * This is a workaround concurrency limiter to avoid adding an ESM-only dependency (p-limit) for a
+ * concurrency limiter (inline -- avoids ESM-only p-limit dependency).
+ * Returns a function that wraps async tasks so at most `concurrency` run at once.
+ */
+const createLimiter = (concurrency: number) => {
+  let active = 0
+  const queue: Array<() => void> = []
+  const next = () => {
+    if (queue.length > 0 && active < concurrency) {
+      active++
+      queue.shift()!()
+    }
+  }
+  return <T>(fn: () => Promise<T>): Promise<T> =>
+    new Promise<T>((resolve, reject) => {
+      const run = () => {
+        fn()
+          .then(resolve)
+          .catch(reject)
+          .finally(() => {
+            active--
+            next()
+          })
+      }
+      queue.push(run)
+      next()
+    })
+}
+
 const fetchAllClipsForLocale = (
   tmpClipsFilepath: string,
   locale: string,
@@ -303,76 +332,79 @@ const fetchAllClipsForLocale = (
       }
     }
 
+    const concurrency = CLIP_DOWNLOAD_CONCURRENCY
     logger.info(
       'CLIPS-DL',
-      `[${locale}] ${toDownload.length} clips to fetch from GCS (${cached} already cached)`,
+      `[${locale}] ${toDownload.length} clips to fetch from GCS (${cached} already cached, concurrency=${concurrency})`,
     )
 
+    if (toDownload.length === 0) return
+
     const dlStart = Date.now()
-    // Only emit progress for large GCS fetches -- small ones finish fast enough
-    // that intermediate logs add clutter, especially with multiple pods running.
     const PROGRESS_MIN = 1000
     const PROGRESS_INTERVAL = 1000
-    let downloaded = 0
+    let completed = 0
+    let downloadedOk = 0
 
-    for (const clip of toDownload) {
-      const clipFilename = createClipFilename(clip.locale, clip.id)
-      const clipFilepath = path.join(releaseDirPath, clip.locale, 'clips', clipFilename)
+    const limit = createLimiter(concurrency)
 
-      const fileSize = await pipe(
-        getMetadataFromFile(CLIPS_BUCKET)(clip.path),
-        TE.map(metadata => Number(metadata.size)),
-        TE.getOrElse(() => T.of(0)),
-      )()
+    await Promise.all(
+      toDownload.map(clip =>
+        limit(async () => {
+          const clipFilename = createClipFilename(clip.locale, clip.id)
+          const clipFilepath = path.join(releaseDirPath, clip.locale, 'clips', clipFilename)
 
-      if (fileSize <= MIN_AUDIO_SIZE_BYTES) {
-        problemClips.push({
-          path: clipFilename,
-          locale,
-          reason: ProblemClipReason.TOO_SMALL,
-          status: 'EXCLUDED',
-          timestamp: new Date().toISOString(),
-          value: fileSize,
+          const buffer = await downloadFileFromBucket(CLIPS_BUCKET)(clip.path)()
+
+          if (E.isRight(buffer)) {
+            if (buffer.right.length <= MIN_AUDIO_SIZE_BYTES) {
+              // Downloaded but too small -- exclude without writing to disk
+              problemClips.push({
+                path: clipFilename,
+                locale,
+                reason: ProblemClipReason.TOO_SMALL,
+                status: 'EXCLUDED',
+                timestamp: new Date().toISOString(),
+                value: buffer.right.length,
+              })
+            } else {
+              fs.writeFileSync(clipFilepath, buffer.right)
+              downloadedOk++
+            }
+          } else {
+            logger.warn(
+              'CLIPS-DL',
+              `[${locale}] Failed to download ${clipFilename}: ${buffer.left.message}`,
+            )
+            problemClips.push({
+              path: clipFilename,
+              locale,
+              reason: ProblemClipReason.FAILED_DOWNLOAD,
+              status: 'EXCLUDED',
+              timestamp: new Date().toISOString(),
+            })
+          }
+
+          completed++
+          if (toDownload.length >= PROGRESS_MIN && completed % PROGRESS_INTERVAL === 0) {
+            const elapsed = Date.now() - dlStart
+            const rate = (completed / elapsed * 1000).toFixed(1)
+            const remaining = toDownload.length - completed
+            const etaSec = Math.round((elapsed / completed) * remaining / 1000)
+            logger.info(
+              'CLIPS-DL',
+              `[${locale}] ${completed}/${toDownload.length} from GCS (${rate} clips/sec, ETA: ${etaSec}s)`,
+            )
+          }
         })
-        downloaded++
-        continue
-      }
-
-      const buffer = await downloadFileFromBucket(CLIPS_BUCKET)(clip.path)()
-
-      if (E.isRight(buffer)) {
-        fs.writeFileSync(clipFilepath, buffer.right)
-      } else {
-        logger.warn(
-          'CLIPS-DL',
-          `[${locale}] Failed to download ${clipFilename}: ${buffer.left.message}`,
-        )
-        problemClips.push({
-          path: clipFilename,
-          locale,
-          reason: ProblemClipReason.FAILED_DOWNLOAD,
-          status: 'EXCLUDED',
-          timestamp: new Date().toISOString(),
-        })
-      }
-
-      downloaded++
-      if (toDownload.length >= PROGRESS_MIN && downloaded % PROGRESS_INTERVAL === 0) {
-        const elapsed = Date.now() - dlStart
-        const etaSec = Math.round(
-          (elapsed / downloaded) * (toDownload.length - downloaded) / 1000,
-        )
-        logger.info(
-          'CLIPS-DL',
-          `[${locale}] ${downloaded}/${toDownload.length} from GCS (ETA: ${etaSec}s)`,
-        )
-      }
-    }
+      )
+    )
 
     const elapsed = ((Date.now() - dlStart) / 1000).toFixed(1)
+    const rate = (toDownload.length / ((Date.now() - dlStart) / 1000)).toFixed(1)
     logger.info(
       'CLIPS-DL',
-      `[${locale}] FINISH: ${downloaded} from GCS, ${cached} cached (${elapsed}s)`,
+      `[${locale}] FINISH: ${downloadedOk} downloaded, ${toDownload.length - downloadedOk} excluded/failed, ${cached} cached (${elapsed}s, ${rate} clips/sec)`,
     )
   }, logError)
 
