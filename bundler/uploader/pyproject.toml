@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mdc-uploader"
+version = "0.1.0"
+description = "Upload Common Voice release tarballs to Mozilla Data Collective"
+readme = "README.md"
+license = "MPL-2.0"
+requires-python = ">=3.12"
+dependencies = [
+    "datacollective>=0.4.2,<1.0",
+    "click>=8.1,<9.0",
+    "tenacity>=8.2,<10.0",
+    "httpx>=0.27,<1.0",
+    "tqdm>=4.66,<5.0",
+]
+
+[project.optional-dependencies]
+gcs = [
+    "google-cloud-storage>=2.14,<3.0",
+]
+dev = [
+    "pytest>=8.0",
+    "pytest-mock>=3.12",
+    "ruff>=0.4",
+]
+
+[project.scripts]
+mdc-upload = "mdc_uploader.cli:cli"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = ["ignore::DeprecationWarning"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W", "UP"]
