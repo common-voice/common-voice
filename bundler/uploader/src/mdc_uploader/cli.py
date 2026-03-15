@@ -74,8 +74,8 @@ Environment variables:
     type=str,
     default=None,
     envvar="UPLOAD_BASE_DIR",
-    help="Root directory containing release files. Defaults to /gcs (GCSFuse mount). "
-    "Accepts gs:// URIs for GCS fallback mode (requires pip install .[gcs]).",
+    help="Root directory containing release files. Defaults to /gcs. "
+    "Also accepts gs:// URIs (requires pip install .[gcs]).",
 )
 @click.option(
     "--submission-id",

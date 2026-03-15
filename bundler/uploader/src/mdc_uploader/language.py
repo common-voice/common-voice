@@ -20,7 +20,11 @@ from mdc_uploader.typedef import LanguageNames
 
 
 class LanguageRegistry:
-    """Registry of locale language names, loaded from API + hardcoded extras."""
+    """Registry of locale language names, loaded from API + hardcoded extras.
+
+    All locales are kept regardless of is_contributable flag because
+    SPS locales may not have SCS counterparts and those have is_contributable=0.
+    """
 
     # Locales not present in the CV languagedata API.
     # Same data as cv-datasheets/metadata/locale-extras.json.
