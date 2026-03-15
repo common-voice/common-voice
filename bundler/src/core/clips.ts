@@ -262,36 +262,6 @@ const mergeClipsFromLocalSources = (
     )
   }, logError)
 
-/**
- * This is a workaround concurrency limiter to avoid adding an ESM-only dependency (p-limit) for a
- * concurrency limiter (inline -- avoids ESM-only p-limit dependency).
- * Returns a function that wraps async tasks so at most `concurrency` run at once.
- */
-const createLimiter = (concurrency: number) => {
-  let active = 0
-  const queue: Array<() => void> = []
-  const next = () => {
-    if (queue.length > 0 && active < concurrency) {
-      active++
-      queue.shift()!()
-    }
-  }
-  return <T>(fn: () => Promise<T>): Promise<T> =>
-    new Promise<T>((resolve, reject) => {
-      const run = () => {
-        fn()
-          .then(resolve)
-          .catch(reject)
-          .finally(() => {
-            active--
-            next()
-          })
-      }
-      queue.push(run)
-      next()
-    })
-}
-
 const fetchAllClipsForLocale = (
   tmpClipsFilepath: string,
   locale: string,
@@ -301,36 +271,30 @@ const fetchAllClipsForLocale = (
   TE.tryCatch(async () => {
     logger.info('CLIPS-DL', `[${locale}] START loading clips from GCS`)
 
-    const clips: ClipRow[] = []
+    // Parse and partition in one pass -- only keep clips that need downloading.
+    // Avoids holding two full arrays (2.5M ClipRows x ~250B = ~625MB each).
+    const toDownload: ClipRow[] = []
+    let cached = 0
     const parser = parse({
       columns: true,
       delimiter: '\t',
     })
 
     parser.on('data', (chunk: ClipRow) => {
-      clips.push(chunk)
-    })
-
-    await pipeline(fs.createReadStream(tmpClipsFilepath), parser)
-
-    // Pre-scan: partition into cached (already on disk from prev release / delta)
-    // vs. needing GCS download. Most clips will be cache hits; we need the GCS
-    // count upfront to give an accurate ETA during the download loop.
-    const toDownload: ClipRow[] = []
-    let cached = 0
-    for (const clip of clips) {
       const clipFilepath = path.join(
         releaseDirPath,
-        clip.locale,
+        chunk.locale,
         'clips',
-        createClipFilename(clip.locale, clip.id),
+        createClipFilename(chunk.locale, chunk.id),
       )
       if (fs.existsSync(clipFilepath)) {
         cached++
       } else {
-        toDownload.push(clip)
+        toDownload.push(chunk)
       }
-    }
+    })
+
+    await pipeline(fs.createReadStream(tmpClipsFilepath), parser)
 
     const concurrency = CLIP_DOWNLOAD_CONCURRENCY
     logger.info(
@@ -345,60 +309,81 @@ const fetchAllClipsForLocale = (
     const PROGRESS_INTERVAL = 1000
     let completed = 0
     let downloadedOk = 0
+    let idx = 0
 
-    const limit = createLimiter(concurrency)
+    // Fixed-size worker pool: O(concurrency) in-flight promises, not O(n).
+    // Each worker pulls the next clip from the shared index until exhausted.
+    // Errors are caught per-clip so one failure doesn't abort the entire locale.
+    const processClip = async (clip: ClipRow) => {
+      const clipFilename = createClipFilename(clip.locale, clip.id)
+      const clipFilepath = path.join(releaseDirPath, clip.locale, 'clips', clipFilename)
 
-    await Promise.all(
-      toDownload.map(clip =>
-        limit(async () => {
-          const clipFilename = createClipFilename(clip.locale, clip.id)
-          const clipFilepath = path.join(releaseDirPath, clip.locale, 'clips', clipFilename)
+      try {
+        const buffer = await downloadFileFromBucket(CLIPS_BUCKET)(clip.path)()
 
-          const buffer = await downloadFileFromBucket(CLIPS_BUCKET)(clip.path)()
-
-          if (E.isRight(buffer)) {
-            if (buffer.right.length <= MIN_AUDIO_SIZE_BYTES) {
-              // Downloaded but too small -- exclude without writing to disk
-              problemClips.push({
-                path: clipFilename,
-                locale,
-                reason: ProblemClipReason.TOO_SMALL,
-                status: 'EXCLUDED',
-                timestamp: new Date().toISOString(),
-                value: buffer.right.length,
-              })
-            } else {
-              fs.writeFileSync(clipFilepath, buffer.right)
-              downloadedOk++
-            }
-          } else {
-            logger.warn(
-              'CLIPS-DL',
-              `[${locale}] Failed to download ${clipFilename}: ${buffer.left.message}`,
-            )
+        if (E.isRight(buffer)) {
+          if (buffer.right.length <= MIN_AUDIO_SIZE_BYTES) {
             problemClips.push({
               path: clipFilename,
               locale,
-              reason: ProblemClipReason.FAILED_DOWNLOAD,
+              reason: ProblemClipReason.TOO_SMALL,
               status: 'EXCLUDED',
               timestamp: new Date().toISOString(),
+              value: buffer.right.length,
             })
+          } else {
+            await fs.promises.writeFile(clipFilepath, buffer.right)
+            downloadedOk++
           }
-
-          completed++
-          if (toDownload.length >= PROGRESS_MIN && completed % PROGRESS_INTERVAL === 0) {
-            const elapsed = Date.now() - dlStart
-            const rate = (completed / elapsed * 1000).toFixed(1)
-            const remaining = toDownload.length - completed
-            const etaSec = Math.round((elapsed / completed) * remaining / 1000)
-            logger.info(
-              'CLIPS-DL',
-              `[${locale}] ${completed}/${toDownload.length} from GCS (${rate} clips/sec, ETA: ${etaSec}s)`,
-            )
-          }
+        } else {
+          logger.warn(
+            'CLIPS-DL',
+            `[${locale}] Failed to download ${clipFilename}: ${buffer.left.message}`,
+          )
+          problemClips.push({
+            path: clipFilename,
+            locale,
+            reason: ProblemClipReason.FAILED_DOWNLOAD,
+            status: 'EXCLUDED',
+            timestamp: new Date().toISOString(),
+          })
+        }
+      } catch (err) {
+        logger.warn(
+          'CLIPS-DL',
+          `[${locale}] Unexpected error for ${clipFilename}: ${String(err)}`,
+        )
+        problemClips.push({
+          path: clipFilename,
+          locale,
+          reason: ProblemClipReason.FAILED_DOWNLOAD,
+          status: 'EXCLUDED',
+          timestamp: new Date().toISOString(),
         })
-      )
-    )
+      }
+
+      completed++
+      if (toDownload.length >= PROGRESS_MIN && completed % PROGRESS_INTERVAL === 0) {
+        const elapsed = Date.now() - dlStart
+        const rate = (completed / elapsed * 1000).toFixed(1)
+        const remaining = toDownload.length - completed
+        const etaSec = Math.round((elapsed / completed) * remaining / 1000)
+        logger.info(
+          'CLIPS-DL',
+          `[${locale}] ${completed}/${toDownload.length} from GCS (${rate} clips/sec, ETA: ${etaSec}s)`,
+        )
+      }
+    }
+
+    const worker = async () => {
+      while (true) {
+        const i = idx++
+        if (i >= toDownload.length) break
+        await processClip(toDownload[i])
+      }
+    }
+
+    await Promise.all(Array.from({ length: concurrency }, () => worker()))
 
     const elapsed = ((Date.now() - dlStart) / 1000).toFixed(1)
     const rate = (toDownload.length / ((Date.now() - dlStart) / 1000)).toFixed(1)
