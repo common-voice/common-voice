@@ -21,6 +21,7 @@ select-all = Dihi n-gbaai di zaa
 # Messages
 tag-success-toast-message = Tikpariti chaŋ ya ni achiika
 tag-error-toast-message = Yɛlimuɣisirili kana tikpara maa chani di maa ni
+tag-empty-submit-error = Sabbu shɛli kani ni a zaŋ kpɛhi. Piimi sabiri shɛli pɔi.
 cs-tag-shortcuts-guideline-1 = <key>1</key>-<key>{ $numLanguages }</key> Zaŋ mi zuliya yɛltɔɣa n-dalim li
 cs-tag-shortcuts-guideline-2 = <key>{ tag-page-shortcut-toogle-mouse-keyboard }</key> { toogle-mouse-keyboard }
 cs-tag-shortcuts-guideline-3 = <key>{ tag-page-shortcut-remove-tags }</key> { remove-tags }
