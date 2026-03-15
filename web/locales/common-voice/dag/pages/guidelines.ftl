@@ -66,6 +66,7 @@ sentence-domain = Yɛltɔɣili ni yi yaɣ' shɛli na
 
 ## Sentence collection sidebar content
 
+public-domain-explanation-1 = Di tu kamata ni satarili kam din yɛri yɛltɔɣa niŋ bayana n-ti sokam<publicDomain>sokam<publicDomain>(<cc0>cco<\<cc0>) kaman common voice tuma din laɣim taba ni bahi lansiisi ŋɔ gbunni cco.kuly vulimi yɛltɔɣa shɛŋa a ni dihitabili ka pahiri luɣi shɛli a ni nya li
 public-domain-explanation-5 = Bɔmi satarili shɛli din lahi ka labiniŋ.mŋahinli buku sheŋa din daa sabi poi ni yuuni 1920
 public-domain-explanation-6 = kpaŋmi a maŋa m paai gomnanti,zen n gama laɣinsi bee poham zuɣu laɣinsi n nŋa a ni tooi zaŋ sodoligu ŋɔ wuhi bee ninvuɣ' shɛbi ni tooi wuhi ti sokam zaa.
 citing-sentences-explanation-1 = Di mali bukaata ni ti wuhiri ti tumma bɛhisi shee din yan che ka ti vihiri lala yɛltɔɣa be maa sokam zaa sa ni ka paɣasiriba bi tooi nŋari paɣasira
