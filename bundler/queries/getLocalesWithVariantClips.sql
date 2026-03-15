@@ -9,6 +9,7 @@ INNER JOIN user_client_variants ucv
   ON ucv.client_id = c.client_id AND ucv.locale_id = c.locale_id
 INNER JOIN variants v ON v.id = ucv.variant_id
 WHERE c.created_at BETWEEN ? AND ?
+  AND l.is_contributable = 1
   AND v.variant_token IS NOT NULL
   AND v.variant_token != ''
 GROUP BY l.name, v.variant_token, v.variant_name

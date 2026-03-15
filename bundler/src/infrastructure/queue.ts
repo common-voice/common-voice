@@ -48,16 +48,24 @@ const attachDatasheetPayload = (
   return job
 }
 
-/** For delta: only previous-release locales. For full/stats: all locales in window. */
-const getLocales = (settings: Settings) =>
-  settings.type === 'delta'
-    ? fetchDeltaLocales(settings.from, settings.until)
-    : fetchLocalesWithClips(settings.from, settings.until)
+/** Returns the -l languages array for DB filtering, or undefined when all locales are requested. */
+const getLangs = (settings: Settings): string[] | undefined =>
+  settings.languages.length > 0 ? settings.languages : undefined
 
-const getLicensedLocales = (settings: Settings) =>
-  settings.type === 'delta'
-    ? fetchDeltaLicensedLocales(settings.from, settings.until)
-    : fetchLocalesWithLicensedClips(settings.from, settings.until)
+/** For delta: only previous-release locales. For full/stats: all locales in window. */
+const getLocales = (settings: Settings) => {
+  const langs = getLangs(settings)
+  return settings.type === 'delta'
+    ? fetchDeltaLocales(settings.from, settings.until, langs)
+    : fetchLocalesWithClips(settings.from, settings.until, langs)
+}
+
+const getLicensedLocales = (settings: Settings) => {
+  const langs = getLangs(settings)
+  return settings.type === 'delta'
+    ? fetchDeltaLicensedLocales(settings.from, settings.until, langs)
+    : fetchLocalesWithLicensedClips(settings.from, settings.until, langs)
+}
 
 /**
  * Remove ALL completed/failed BullMQ jobs from previous runs (grace = 0).
@@ -93,22 +101,17 @@ export const addJobsToReleaseQueue = (settings: Settings) =>
       // carrying all variants for that locale. No license mode branching.
       if (settings.type === 'variants') {
         return pipe(
-          fetchLocalesWithVariantClips(settings.from, settings.until),
+          fetchLocalesWithVariantClips(settings.from, settings.until, getLangs(settings)),
           TE.map(groups => {
-            const filtered =
-              settings.languages.length > 0
-                ? groups.filter(g => settings.languages.includes(g.locale))
-                : groups
-
-            const summary = filtered
+            const summary = groups
               .map(g => `${g.locale} (${g.variants.length} variants, ~${g.totalClipCount} clips)`)
               .join(', ')
             logger.info(
               'QUEUE',
-              `${filtered.length} locale(s) with variants: ${summary}`,
+              `${groups.length} locale(s) with variants: ${summary}`,
             )
 
-            return filtered.map(
+            return groups.map(
               (group): ProcessLocaleJob => ({
                 ...settings,
                 locale: group.locale,
