@@ -319,6 +319,7 @@ qxt = Afaan Quechua Pasco Santa Ana de Tusi
 qxu = Afaan Quechua Arequipa-La Unión
 qxw = Afaan Quechua Jauja Wanka
 rif = Afaan Tarifit
+rki = Afaan Raakhaayin
 rm-sursilv = Afaan Romanish Sursilvan
 rm-vallader = Afaan Romansh Vallader
 rn = Afaan Kirundi
