@@ -142,8 +142,8 @@ export const flushReleaseLogs = async (
     const clipsTotal = parseInt(clipsTotalStr ?? '0')
     const clipsDone = parseInt(clipsDoneStr ?? '0')
 
-    // 4. Emit progress lines (throttled for small locales).
-    if (shouldPrintProgress(count, total, env.clipCount, clipsTotal)) {
+    // 4. Emit progress lines (every job).
+    {
       const statusTag = status === 'success' ? 'ok' : status === 'error' ? 'er' : 'sk'
       const pct = clipsTotal > 0
         ? clipsDone / clipsTotal
