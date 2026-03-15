@@ -46,6 +46,10 @@ export const REDLOCK_RETRY_JITTER_MS = 100 // +/- random jitter to spread concur
 // ---------------------------------------------------------------------------
 
 export const MIN_AUDIO_SIZE_BYTES = 256 // GCS objects at or below this size are considered corrupt
+
+/** Concurrent GCS clip downloads per pod. Configurable via CLIP_DOWNLOAD_CONCURRENCY env var. */
+export const CLIP_DOWNLOAD_CONCURRENCY =
+  parseInt(process.env.CLIP_DOWNLOAD_CONCURRENCY ?? '', 10) || 32
 export const MIN_AUDIO_DURATION_MS = 500 // clips below this duration are flagged TOO_SHORT (WARN)
 export const CLIP_DURATION_WARN_MS = 17_000 // clips above this duration are flagged LONG (WARN)
 export const MAX_AUDIO_DURATION_MS = 30_000 // clips above this duration are excluded (TOO_LONG / EXCLUDED)
