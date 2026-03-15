@@ -169,6 +169,7 @@ special-tags-example-2 =
     Tɔ, di saha, ka n [noise] daa chaŋ n vuhim dabisili.
     Tɔ, [noise] [laugh] di daa did kuli pala vuhim dabisili gba [laugh]
 transcribe-the-audio-subheader-4-explanation-1-example = O yuli nyɛla <underline>Jo- Jona-</underline> Jonathan.
+transcribe-the-audio-subheader-4-explanation-2 = Saha shɛŋa ban yɛri yɛltɔɣa ni tooi labi boli bachi shɛŋa bu shɛm shɛm.Dinbɔŋɔ gba tu ni di mali  sɔŋ.Shɛhira
 
 ## Code-Switching
 
@@ -180,6 +181,8 @@ code-switching-adding-question-criteria-1 = maami ani m baŋ ka saɣi ti
 code-switching-adding-question-criteria-2 = Di tu ni di mali anfaani
 # What types of questions to add
 code-switching-types-subheader = Bɔhigu bal' bo n lee tu ni di pahi
+code-switching-use-bilingual-prompts-explanation-example = Mma a yi paai yiŋa dindalimaa?
+code-switching-ask-bilingual-contexts-header = Bɔhimi zaŋ kpa Bala waliginsim palo
 code-switching-focus-emotional-explanation-example = Yɛlimima a laabi ni yɛlishɛm ani daa ti ba lahibali karili_bi ni daa kuli yɛlli shɛm"
 # What to Avoid
 code-switching-avoid-subheader = Din tu ni a che
