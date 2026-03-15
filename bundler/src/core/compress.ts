@@ -33,22 +33,29 @@ const createTarballWriteStream = (outFilepath: string) => {
   return fs.createWriteStream(outFilepath)
 }
 
+/**
+ * Decides gzip compression level based on clip count, not release type.
+ *
+ * MP3 audio is already compressed -- higher gzip levels waste CPU for <1% gain:
+ *   Level 1: ~15 min for en (2.5M clips), archive ~96.4% of raw
+ *   Level 6: ~53 min for en,              archive ~95.8% of raw  (3.5x slower)
+ *
+ * Small archives (< 10k clips) are fine at level 6 -- the text metadata
+ * dominates and compresses well, and the absolute time is negligible.
+ * Large archives are dominated by MP3 bytes, so level 1 is the right tradeoff.
+ */
+const CLIP_COUNT_COMPRESSION_THRESHOLD = 10_000
+
+export const decideCompressionLevel = (clipCount: number): number =>
+  clipCount >= CLIP_COUNT_COMPRESSION_THRESHOLD ? 1 : 6
+
 const tarPromise = async (
   outFilepath: string,
   pathsToCompress: string[],
   cwd: string,
   prefix: string,
-  releaseType: ReleaseType,
+  gzipLevel: number,
 ) => {
-  // Full archives are largely MP3 (already compressed, ~1% shrink from gzip)
-  // and low TSV metadata (compressible). Higher gzip levels burn CPU
-  // re-scanning incompressible MP3 bytes for negligible gain:
-  //   Level 1: ~15 min for en (1.1M clips), archive ~96.4% of raw
-  //   Level 6: ~53 min for en,              archive ~95.8% of raw
-  // That's 3.5x slower for 0.6% smaller output.
-  // Delta archives have larger amount of text metadata (sometimes no audio), so level 6 is
-  // worth it: same speed class, ~60% smaller output.
-  const gzipLevel = releaseType === 'delta' ? 6 : 1
   const readStream = tar.c(
     { gzip: { level: gzipLevel }, cwd, prefix },
     pathsToCompress,
@@ -58,10 +65,10 @@ const tarPromise = async (
 }
 
 const compress =
-  (pathsToCompress: string[], cwd: string, prefix: string, releaseType: ReleaseType) =>
+  (pathsToCompress: string[], cwd: string, prefix: string, gzipLevel: number) =>
   (outFilepath: string): TE.TaskEither<Error, void> =>
     TE.tryCatch(
-      () => tarPromise(outFilepath, pathsToCompress, cwd, prefix, releaseType),
+      () => tarPromise(outFilepath, pathsToCompress, cwd, prefix, gzipLevel),
       reason => Error(String(reason)),
     )
 
@@ -114,8 +121,10 @@ export const compressPipeline = (
   releaseTarballDir: string,
   releaseType: ReleaseType,
   license?: string,
+  clipCount?: number,
 ): TE.TaskEither<Error, string> => {
-  logger.info('COMPRESS', `[${locale}] Start compress`)
+  const gzipLevel = decideCompressionLevel(clipCount ?? 0)
+  logger.info('COMPRESS', `[${locale}] Start compress (gzip level ${gzipLevel}, ~${(clipCount ?? 0).toLocaleString()} clips)`)
   return pipe(
     TE.Do,
     TE.let('tarballFilename', () =>
@@ -137,7 +146,7 @@ export const compressPipeline = (
           ),
         )
       }
-      return compress(paths, releaseDirPath, releaseName, releaseType)(tarballFilepath)
+      return compress(paths, releaseDirPath, releaseName, gzipLevel)(tarballFilepath)
     }),
     TE.map(({ tarballFilepath }) => tarballFilepath),
   )
@@ -154,6 +163,7 @@ export const runCompress = (): RTE.ReaderTaskEither<AppEnv, Error, string> =>
         releaseTarballsDirPath,
         type,
         license,
+        expectedClipCount,
       }) =>
         compressPipeline(
           locale,
@@ -162,6 +172,7 @@ export const runCompress = (): RTE.ReaderTaskEither<AppEnv, Error, string> =>
           releaseTarballsDirPath,
           type,
           license,
+          expectedClipCount,
         ),
     ),
   )

@@ -198,11 +198,6 @@ const mergeClipsFromLocalSources = (
   deltaReleaseName?: string,
 ) =>
   TE.tryCatch(async () => {
-    const clips: ClipRow[] = []
-    const parser = parse({ columns: true, delimiter: '\t' })
-    parser.on('data', (chunk: ClipRow) => clips.push(chunk))
-    await pipeline(fs.createReadStream(tmpClipsFilepath), parser)
-
     const prevClipsDir = previousReleaseName
       ? getPreviousReleaseClipDir(locale, previousReleaseName)
       : null
@@ -214,11 +209,14 @@ const mergeClipsFromLocalSources = (
     let fromDelta = 0
     let missing = 0
 
-    for (const clip of clips) {
+    // Stream through the TSV row-by-row -- never buffer the full clip list.
+    // Each row is processed and discarded immediately, using O(1) memory.
+    const parser = parse({ columns: true, delimiter: '\t' })
+    parser.on('data', (clip: ClipRow) => {
       const filename = createClipFilename(clip.locale, clip.id)
       const destPath = path.join(releaseDirPath, clip.locale, 'clips', filename)
 
-      if (fs.existsSync(destPath)) continue // already present from a previous run
+      if (fs.existsSync(destPath)) return // already present from a previous run
 
       // 1. Previous full release (old clips)
       if (prevClipsDir) {
@@ -227,7 +225,7 @@ const mergeClipsFromLocalSources = (
           fs.copyFileSync(src, destPath)
           fs.unlinkSync(src) // free disk space as we go
           fromPrev++
-          continue
+          return
         }
       }
 
@@ -237,13 +235,14 @@ const mergeClipsFromLocalSources = (
         if (fs.existsSync(src)) {
           fs.copyFileSync(src, destPath)
           fromDelta++
-          continue
+          return
         }
       }
 
-      // Not found locally --fetchAllClipsForLocale will download from GCS.
+      // Not found locally -- fetchAllClipsForLocale will download from GCS.
       missing++
-    }
+    })
+    await pipeline(fs.createReadStream(tmpClipsFilepath), parser)
 
     // Remove the consumed delta locale directory to free disk space.
     // Only the locale subdir is deleted (not the entire deltaReleaseName dir)

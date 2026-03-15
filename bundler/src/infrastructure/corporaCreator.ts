@@ -51,13 +51,16 @@ const runCorporaCreatorPromise = (locale: string, releaseDirPath: string) =>
       path.join(releaseDirPath, locale, 'clips.tsv'),
     ])
 
+    // Buffer stdout -- CC emits tqdm progress bars and per-split status lines.
+    // Log only the final line when the process exits to avoid clutter.
+    let lastStdoutLine = ''
     cc.stdout.on('data', (data: Buffer) => {
-      // tqdm uses \r for in-place progress updates; keep only the final state
       const raw = data.toString().trimEnd()
       if (!raw) return
+      // tqdm uses \r for in-place updates; keep only the final state per chunk
       const parts = raw.split('\r')
       const last = parts[parts.length - 1].trim()
-      if (last) logger.info('CC', `[${locale}] ${last}`)
+      if (last) lastStdoutLine = last
     })
 
     // Buffer stderr -- pandas.apply and other warnings produce many lines.
@@ -75,6 +78,11 @@ const runCorporaCreatorPromise = (locale: string, releaseDirPath: string) =>
     })
 
     cc.on('close', (code, signal) => {
+      // Log final stdout line (last tqdm state or summary)
+      if (lastStdoutLine) {
+        logger.info('CC', `[${locale}] ${lastStdoutLine}`)
+      }
+
       const lines = stderrBuf
         .split('\n')
         .map(l => l.trim())
