@@ -40,3 +40,4 @@ need-help-deciding-platform = Segítségre van szüksége, hogy melyiket válass
 need-help-deciding-platform-explanation-1 = <strong>Előre megírt beszéd</strong> (ahogy hagyományosan megismerhette a Common Voice-ot), ahol mondatokat olvashat fel a saját nyelvén.
 need-help-deciding-platform-explanation-2 = A <strong>spontán beszéd</strong> a Common Voice új része, ahol természetesebben, köznapibb módon válaszolhat kérdésekre.
 need-help-deciding-platform-explanation-3 = Ha a platform egyik részén sem látja az Ön nyelvét, akkor válassza mindkettőt.
+request-language-search-bar = Itt elkezdheti beírni a nyelv nevét; ha még nincs fent a Common Voice-on, akkor kitölthet egy űrlapot a nyelv adataival.
