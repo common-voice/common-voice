@@ -142,9 +142,10 @@ export const scanClipsTsv = (
         let variantIdx = -1
         let accentIdx = -1
 
-        // When predefined accents are provided, only those are counted individually.
-        // All other (user-submitted) accents are grouped under "" (empty = other).
-        const predefinedSet = predefinedAccentNames && predefinedAccentNames.length > 0
+        // When predefined accents list is provided (even if empty), only those
+        // are counted individually. All others are grouped under "" (other).
+        // An empty list means "no predefined accents" -> ALL accents go to "".
+        const predefinedSet = predefinedAccentNames
           ? new Set(predefinedAccentNames)
           : null
 
