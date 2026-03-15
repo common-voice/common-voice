@@ -47,10 +47,14 @@ export const REDLOCK_RETRY_JITTER_MS = 100 // +/- random jitter to spread concur
 
 export const MIN_AUDIO_SIZE_BYTES = 256 // GCS objects at or below this size are considered corrupt
 
-/** Concurrent GCS clip downloads per pod. Configurable via CLIP_DOWNLOAD_CONCURRENCY env var. */
+/**
+ * Concurrent GCS clip downloads per pod. Configurable via CLIP_DOWNLOAD_CONCURRENCY env var.
+ * Capped at 64: each in-flight download holds a full clip buffer in memory (~30-200 KB avg).
+ * 64 x 200 KB = ~13 MB peak buffer overhead -- safe on a 4 Gi pod.
+ */
 export const CLIP_DOWNLOAD_CONCURRENCY = Math.max(
   1,
-  Math.min(256, parseInt(process.env.CLIP_DOWNLOAD_CONCURRENCY ?? '', 10) || 32),
+  Math.min(64, parseInt(process.env.CLIP_DOWNLOAD_CONCURRENCY ?? '', 10) || 32),
 )
 export const MIN_AUDIO_DURATION_MS = 500 // clips below this duration are flagged TOO_SHORT (WARN)
 export const CLIP_DURATION_WARN_MS = 17_000 // clips above this duration are flagged LONG (WARN)
