@@ -107,6 +107,45 @@ def cli(
     """Upload Common Voice release tarballs to Mozilla Data Collective."""
     setup_logging(verbose)
 
+    try:
+        _run(
+            release=release,
+            upload_target=upload_target,
+            locales=locales,
+            release_type=release_type,
+            base_dir=base_dir,
+            submission_id=submission_id,
+            retry_failed=retry_failed,
+            dry_run=dry_run,
+            verbose=verbose,
+        )
+    except click.UsageError:
+        raise  # let Click format these
+    except KeyboardInterrupt:
+        logger.error("UPLOAD", "Interrupted by user")
+        sys.exit(130)
+    except Exception as exc:  # pylint: disable=broad-exception-caught
+        logger.error("UPLOAD", "Fatal: %s", exc)
+        if verbose:
+            logger.error("UPLOAD", "Traceback:", exc_info=True)
+        else:
+            logger.error("UPLOAD", "Re-run with -v for full traceback")
+        sys.exit(1)
+
+
+def _run(
+    *,
+    release: str | None,
+    upload_target: str,
+    locales: str | None,
+    release_type: str,
+    base_dir: str | None,
+    submission_id: str | None,
+    retry_failed: str | None,
+    dry_run: bool,
+    verbose: bool,
+) -> None:
+    """Inner logic separated for clean error handling."""
     mdc_api_key = os.environ.get("MDC_API_KEY", "")
     mdc_api_url = os.environ.get("MDC_API_URL")
     resolved_target: MDCTarget = upload_target  # type: ignore[assignment]  # Click validates
