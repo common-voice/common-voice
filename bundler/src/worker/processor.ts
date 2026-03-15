@@ -51,18 +51,8 @@ const processPipeline = pipe(
   RTE.chainFirst(runCorporaCreator),
   RTE.chainFirst(runReportedSentences),
   RTE.chainFirst(runFetchSentencesForLocale),
-  RTE.chainFirstW(({ totalDurationInMs }) =>
-    pipe(
-      runScanLocaleData(totalDurationInMs),
-      RTE.chainFirstW(localeData =>
-        RTE.asks<AppEnv, void>(env => {
-          env.localeData = localeData
-        }),
-      ),
-    ),
-  ),
   // Fetch accent + variant metadata (predefined names + code maps) from DB
-  // so datasheets can filter predefined vs user-submitted and show codes
+  // BEFORE scanning locale data so scanClipsTsv can filter user-submitted accents.
   RTE.chainFirstW(() =>
     pipe(
       RTE.ask<AppEnv>(),
@@ -70,13 +60,26 @@ const processPipeline = pipe(
         pipe(
           fetchLocaleMetadata(env.locale),
           TE.map(({ accentPredefinedNames, accentCodeMap, variantCodeMap }) => {
-            if (env.localeData) {
-              env.localeData.predefinedAccentNames = accentPredefinedNames
-              env.localeData.accentCodeMap = accentCodeMap
-              env.localeData.variantCodeMap = variantCodeMap
-            }
+            env.predefinedAccentNames = accentPredefinedNames
+            env.accentCodeMap = accentCodeMap
+            env.variantCodeMap = variantCodeMap
           }),
         ),
+      ),
+    ),
+  ),
+  RTE.chainFirstW(({ totalDurationInMs }) =>
+    pipe(
+      runScanLocaleData(totalDurationInMs),
+      RTE.chainFirstW(localeData =>
+        RTE.asks<AppEnv, void>(env => {
+          env.localeData = localeData
+          if (env.localeData) {
+            env.localeData.predefinedAccentNames = env.predefinedAccentNames
+            env.localeData.accentCodeMap = env.accentCodeMap
+            env.localeData.variantCodeMap = env.variantCodeMap
+          }
+        }),
       ),
     ),
   ),
