@@ -7,7 +7,6 @@ import { Transform } from 'node:stream'
 import {
   either as E,
   readerTaskEither as RTE,
-  task as T,
   taskEither as TE,
 } from 'fp-ts'
 import { constVoid, pipe } from 'fp-ts/lib/function'
@@ -18,7 +17,6 @@ import { streamingQuery } from '../infrastructure/database'
 import {
   doesFileExistInBucket,
   downloadFileFromBucket,
-  getMetadataFromFile,
   streamDownloadFileFromBucket,
 } from '../infrastructure/storage'
 import { AppEnv, ClipRow, ProblemClip, ProblemClipReason } from '../types'
@@ -29,6 +27,7 @@ import {
   getQueriesDir,
   getTmpDir,
   MIN_AUDIO_SIZE_BYTES,
+  CLIP_DOWNLOAD_CONCURRENCY,
 } from '../config'
 import { prepareDir, rmFilepath } from '../infrastructure/filesystem'
 import { generateTarFilename } from './compress'
@@ -272,80 +271,87 @@ const fetchAllClipsForLocale = (
   TE.tryCatch(async () => {
     logger.info('CLIPS-DL', `[${locale}] START loading clips from GCS`)
 
-    const clips: ClipRow[] = []
+    // Parse and partition in one pass -- only keep clips that need downloading.
+    // Avoids holding two full arrays (2.5M ClipRows x ~250B = ~625MB each).
+    const toDownload: ClipRow[] = []
+    let cached = 0
     const parser = parse({
       columns: true,
       delimiter: '\t',
     })
 
     parser.on('data', (chunk: ClipRow) => {
-      clips.push(chunk)
-    })
-
-    await pipeline(fs.createReadStream(tmpClipsFilepath), parser)
-
-    // Pre-scan: partition into cached (already on disk from prev release / delta)
-    // vs. needing GCS download. Most clips will be cache hits; we need the GCS
-    // count upfront to give an accurate ETA during the download loop.
-    const toDownload: ClipRow[] = []
-    let cached = 0
-    for (const clip of clips) {
       const clipFilepath = path.join(
         releaseDirPath,
-        clip.locale,
+        chunk.locale,
         'clips',
-        createClipFilename(clip.locale, clip.id),
+        createClipFilename(chunk.locale, chunk.id),
       )
       if (fs.existsSync(clipFilepath)) {
         cached++
       } else {
-        toDownload.push(clip)
+        toDownload.push(chunk)
       }
-    }
+    })
 
+    await pipeline(fs.createReadStream(tmpClipsFilepath), parser)
+
+    const concurrency = CLIP_DOWNLOAD_CONCURRENCY
     logger.info(
       'CLIPS-DL',
-      `[${locale}] ${toDownload.length} clips to fetch from GCS (${cached} already cached)`,
+      `[${locale}] ${toDownload.length} clips to fetch from GCS (${cached} already cached, concurrency=${concurrency})`,
     )
 
+    if (toDownload.length === 0) return
+
     const dlStart = Date.now()
-    // Only emit progress for large GCS fetches -- small ones finish fast enough
-    // that intermediate logs add clutter, especially with multiple pods running.
     const PROGRESS_MIN = 1000
     const PROGRESS_INTERVAL = 1000
-    let downloaded = 0
+    let completed = 0
+    let downloadedOk = 0
+    let idx = 0
 
-    for (const clip of toDownload) {
+    // Fixed-size worker pool: O(concurrency) in-flight promises, not O(n).
+    // Each worker pulls the next clip from the shared index until exhausted.
+    // Errors are caught per-clip so one failure doesn't abort the entire locale.
+    const processClip = async (clip: ClipRow) => {
       const clipFilename = createClipFilename(clip.locale, clip.id)
       const clipFilepath = path.join(releaseDirPath, clip.locale, 'clips', clipFilename)
 
-      const fileSize = await pipe(
-        getMetadataFromFile(CLIPS_BUCKET)(clip.path),
-        TE.map(metadata => Number(metadata.size)),
-        TE.getOrElse(() => T.of(0)),
-      )()
+      try {
+        const buffer = await downloadFileFromBucket(CLIPS_BUCKET)(clip.path)()
 
-      if (fileSize <= MIN_AUDIO_SIZE_BYTES) {
-        problemClips.push({
-          path: clipFilename,
-          locale,
-          reason: ProblemClipReason.TOO_SMALL,
-          status: 'EXCLUDED',
-          timestamp: new Date().toISOString(),
-          value: fileSize,
-        })
-        downloaded++
-        continue
-      }
-
-      const buffer = await downloadFileFromBucket(CLIPS_BUCKET)(clip.path)()
-
-      if (E.isRight(buffer)) {
-        fs.writeFileSync(clipFilepath, buffer.right)
-      } else {
+        if (E.isRight(buffer)) {
+          if (buffer.right.length <= MIN_AUDIO_SIZE_BYTES) {
+            problemClips.push({
+              path: clipFilename,
+              locale,
+              reason: ProblemClipReason.TOO_SMALL,
+              status: 'EXCLUDED',
+              timestamp: new Date().toISOString(),
+              value: buffer.right.length,
+            })
+          } else {
+            await fs.promises.writeFile(clipFilepath, buffer.right)
+            downloadedOk++
+          }
+        } else {
+          logger.warn(
+            'CLIPS-DL',
+            `[${locale}] Failed to download ${clipFilename}: ${buffer.left.message}`,
+          )
+          problemClips.push({
+            path: clipFilename,
+            locale,
+            reason: ProblemClipReason.FAILED_DOWNLOAD,
+            status: 'EXCLUDED',
+            timestamp: new Date().toISOString(),
+          })
+        }
+      } catch (err) {
         logger.warn(
           'CLIPS-DL',
-          `[${locale}] Failed to download ${clipFilename}: ${buffer.left.message}`,
+          `[${locale}] Unexpected error for ${clipFilename}: ${String(err)}`,
         )
         problemClips.push({
           path: clipFilename,
@@ -356,23 +362,34 @@ const fetchAllClipsForLocale = (
         })
       }
 
-      downloaded++
-      if (toDownload.length >= PROGRESS_MIN && downloaded % PROGRESS_INTERVAL === 0) {
+      completed++
+      if (toDownload.length >= PROGRESS_MIN && completed % PROGRESS_INTERVAL === 0) {
         const elapsed = Date.now() - dlStart
-        const etaSec = Math.round(
-          (elapsed / downloaded) * (toDownload.length - downloaded) / 1000,
-        )
+        const rate = (completed / elapsed * 1000).toFixed(1)
+        const remaining = toDownload.length - completed
+        const etaSec = Math.round((elapsed / completed) * remaining / 1000)
         logger.info(
           'CLIPS-DL',
-          `[${locale}] ${downloaded}/${toDownload.length} from GCS (ETA: ${etaSec}s)`,
+          `[${locale}] ${completed}/${toDownload.length} from GCS (${rate} clips/sec, ETA: ${etaSec}s)`,
         )
       }
     }
 
+    const worker = async () => {
+      while (true) {
+        const i = idx++
+        if (i >= toDownload.length) break
+        await processClip(toDownload[i])
+      }
+    }
+
+    await Promise.all(Array.from({ length: concurrency }, () => worker()))
+
     const elapsed = ((Date.now() - dlStart) / 1000).toFixed(1)
+    const rate = (toDownload.length / ((Date.now() - dlStart) / 1000)).toFixed(1)
     logger.info(
       'CLIPS-DL',
-      `[${locale}] FINISH: ${downloaded} from GCS, ${cached} cached (${elapsed}s)`,
+      `[${locale}] FINISH: ${downloadedOk} downloaded, ${toDownload.length - downloadedOk} excluded/failed, ${cached} cached (${elapsed}s, ${rate} clips/sec)`,
     )
   }, logError)
 
