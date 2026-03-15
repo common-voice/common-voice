@@ -32,6 +32,9 @@ const withLocaleFilter = (
   const filter = `AND l.name IN (${placeholders})`
   // Insert before GROUP BY so the DB prunes rows early
   const modified = sql.replace(/GROUP BY/i, `${filter}\nGROUP BY`)
+  if (modified === sql) {
+    throw new Error('withLocaleFilter: GROUP BY not found in SQL -- locale filter not injected')
+  }
   return { sql: modified, params: [...params, ...languages] }
 }
 
