@@ -8,7 +8,7 @@ MDC_API_URLS: dict[MDCTarget, str] = {
 }
 
 # Common Voice language data API
-CV_API_BASE = "https://commonvoice.mozilla.org/api/v1"
+CV_API_URL = "https://commonvoice.mozilla.org/api/v1/languagedata"
 
 # Default GCSFuse mount point
 DEFAULT_BASE_DIR = "/gcs"
