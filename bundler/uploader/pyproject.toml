@@ -25,6 +25,7 @@ dev = [
     "pytest>=8.0",
     "pytest-mock>=3.12",
     "ruff>=0.4",
+    "mypy>=1.10",
 ]
 
 [project.scripts]
@@ -37,9 +38,32 @@ where = ["src"]
 testpaths = ["tests"]
 filterwarnings = ["ignore::DeprecationWarning"]
 
+[tool.pylint."messages control"]
+disable = [
+    "import-error",           # handled by mypy
+    "no-value-for-parameter", # false positive on Click-decorated functions
+]
+
+[tool.pylint.design]
+max-args = 10
+max-positional-arguments = 10
+max-locals = 20
+max-attributes = 12
+
 [tool.ruff]
 target-version = "py312"
 line-length = 100
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "W", "UP"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+
+[[tool.mypy.overrides]]
+module = ["datacollective.*", "tqdm.*"]
+ignore_missing_imports = true
