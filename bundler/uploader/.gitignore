@@ -1,0 +1,4 @@
+# Upload state and output (runtime artifacts)
+# Patterns like *.json and *.log are already in parent bundler/.gitignore
+upload-state-*.json
+upload-errors-*.log

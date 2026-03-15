@@ -1,10 +1,35 @@
+# -- Node / TypeScript build output --
 dist
 js
 coverage
-*.tsv
+
+# -- Dev and environment --
+*.dev*
 .env
+
+# -- Python --
+.venv
+__pycache__
+*.pyc
+*.pyo
+.pytest_cache
+.mypy_cache
+.ruff_cache
+*.egg-info
+*.egg
+*.whl
+build
+
+# -- Bundler data and runtime artifacts --
+*.log
+*.csv
+*.tsv
 *.txt
+*.json
 *.mp3
 *.tar.gz
+
+# -- Release output --
 cv-corpus*
 cv-test-*
+sps-corpus*
