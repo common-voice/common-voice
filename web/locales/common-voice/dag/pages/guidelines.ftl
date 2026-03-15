@@ -83,6 +83,7 @@ adding-sentences-subheader-length-explanation = Yɛltɔɣili maa bi tu ni di bac
 adding-sentences-subheader-spelling-punctuation = bachiyisibu mini bihibahibu
 adding-sentences-subheader-spelling-punctuation-explanation = Yɛltɔɣili maa bachinima simdi ka di yiɣisi dede.
 adding-sentences-subheader-speakable = Din tooi yɛli
+adding-sentences-subheader-speakable-explanation = Yɛltɔɣa shɛŋa din gahim yi di ko nyɛla din kukoli be taɣi ka be yɛltɔɣali ni di ni kuli nyɛ shɛm _Di tu ni di karimbu be nyɛ tɔm zaŋ ti sakam.Yɛltɔɣa maa kumsi mini bachi nim maa niŋ talahi,ti lahi mali kpaŋmaŋa zaŋ kana yɛltɔɣa vulibu ninnyambo palo zaŋti ban tumdi tiri bi tiŋsi ni yoliyoli.
 adding-sentences-subheader-numbers = kalinli
 adding-sentences-subheader-abbreviations = bachi ŋmahi mini bachi ŋma'kurita
 adding-sentences-subheader-punctuation = Bihibahibu
