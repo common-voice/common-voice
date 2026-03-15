@@ -2,6 +2,7 @@ import {
   sanitizeLicenseName,
   generateTarFilename,
   pathsFilter,
+  decideCompressionLevel,
 } from './compress'
 
 describe('sanitizeLicenseName', () => {
@@ -160,5 +161,22 @@ describe('pathsFilter', () => {
     const filter = pathsFilter('full')
     expect(filter('/some/path/to/clips.tsv')).toBe(false)
     expect(filter('/some/path/to/validated.tsv')).toBe(true)
+  })
+})
+
+describe('decideCompressionLevel', () => {
+  it('returns level 6 for small clip counts', () => {
+    expect(decideCompressionLevel(0)).toBe(6)
+    expect(decideCompressionLevel(100)).toBe(6)
+    expect(decideCompressionLevel(9_999)).toBe(6)
+  })
+
+  it('returns level 1 at the threshold boundary', () => {
+    expect(decideCompressionLevel(10_000)).toBe(1)
+  })
+
+  it('returns level 1 for large clip counts', () => {
+    expect(decideCompressionLevel(100_000)).toBe(1)
+    expect(decideCompressionLevel(2_500_000)).toBe(1)
   })
 })
