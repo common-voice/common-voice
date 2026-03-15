@@ -16,20 +16,21 @@ MDCTarget = Literal["dev", "prod"]
 # -- TypedDicts ---------------------------------------------------------------
 
 
-class LocaleStateEntry(TypedDict, total=False):
-    """Per-locale entry in the batch state JSON.
+class _LocaleStateOptional(TypedDict, total=False):
+    """Optional keys in a per-locale state entry."""
 
-    Required keys: status, size_bytes, duration_seconds, attempts.
-    Optional keys: submission_id, error, orphaned_draft.
-    """
+    submission_id: str
+    error: str
+    orphaned_draft: bool
+
+
+class LocaleStateEntry(_LocaleStateOptional):
+    """Per-locale entry in the batch state JSON."""
 
     status: UploadStatus
     size_bytes: int
     duration_seconds: float
     attempts: int
-    submission_id: str
-    error: str
-    orphaned_draft: bool
 
 
 class DescriptionTemplate(TypedDict):
