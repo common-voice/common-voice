@@ -12,6 +12,7 @@ record-no-mic-found = Nem található mikrofon.
 record-error-too-short = A felvétel túl rövid volt.
 record-error-too-long = A felvétel túl hosszú volt.
 record-error-too-quiet = A felvétel túl halk volt.
+record-error-empty-recording = Nem készült hangfelvétel. Ellenőrizze a mikrofonját, és próbálja újra.
 record-error-uploaded-clip-corrupted =
     A hangfelvétel sérültnek tűnik. Ennek oka lehet:
     • böngészőkompatibilitási problémák (próbáljon meg egy másik böngészőt használni),
