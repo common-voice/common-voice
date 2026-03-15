@@ -17,47 +17,74 @@ type LocaleVoteCount = {
   vote_count: number
 }
 
+/**
+ * Appends a locale filter to an SQL query that references `l.name`.
+ * Injects `AND l.name IN (?, ?, ...)` before the GROUP BY clause.
+ * Returns the modified SQL and extended parameter array.
+ */
+const withLocaleFilter = (
+  sql: string,
+  params: unknown[],
+  languages?: string[],
+): { sql: string; params: unknown[] } => {
+  if (!languages || languages.length === 0) return { sql, params }
+  const placeholders = languages.map(() => '?').join(',')
+  const filter = `AND l.name IN (${placeholders})`
+  // Insert before GROUP BY so the DB prunes rows early
+  const modified = sql.replace(/GROUP BY/i, `${filter}\nGROUP BY`)
+  return { sql: modified, params: [...params, ...languages] }
+}
+
 export const fetchLocalesWithClips = (
   includeClipsFrom: string,
   includeClipsUntil: string,
-) =>
-  pipe(
-    query<[LocalesWithClips]>(
-      fs.readFileSync(
-        path.join(getQueriesDir(), 'getAllLocalesWithClips.sql'),
-        { encoding: 'utf-8' },
-      ),
-      [includeClipsFrom, includeClipsUntil],
-    ),
+  languages?: string[],
+) => {
+  const baseSql = fs.readFileSync(
+    path.join(getQueriesDir(), 'getAllLocalesWithClips.sql'),
+    { encoding: 'utf-8' },
   )
+  const { sql, params } = withLocaleFilter(
+    baseSql,
+    [includeClipsFrom, includeClipsUntil],
+    languages,
+  )
+  return query<[LocalesWithClips]>(sql, params)
+}
 
 export const fetchLocalesWithVotes = (
   includeVotesFrom: string,
   includeVotesUntil: string,
-) =>
-  pipe(
-    query<[LocaleVoteCount]>(
-      fs.readFileSync(
-        path.join(getQueriesDir(), 'getLocalesWithVotes.sql'),
-        { encoding: 'utf-8' },
-      ),
-      [includeVotesFrom, includeVotesUntil],
-    ),
+  languages?: string[],
+) => {
+  const baseSql = fs.readFileSync(
+    path.join(getQueriesDir(), 'getLocalesWithVotes.sql'),
+    { encoding: 'utf-8' },
   )
+  const { sql, params } = withLocaleFilter(
+    baseSql,
+    [includeVotesFrom, includeVotesUntil],
+    languages,
+  )
+  return query<[LocaleVoteCount]>(sql, params)
+}
 
 export const fetchLocalesWithLicensedClips = (
   includeClipsFrom: string,
   includeClipsUntil: string,
-) =>
-  pipe(
-    query<[LocaleWithLicense]>(
-      fs.readFileSync(
-        path.join(getQueriesDir(), 'getLocalesWithLicensedClips.sql'),
-        { encoding: 'utf-8' },
-      ),
-      [includeClipsFrom, includeClipsUntil],
-    ),
+  languages?: string[],
+) => {
+  const baseSql = fs.readFileSync(
+    path.join(getQueriesDir(), 'getLocalesWithLicensedClips.sql'),
+    { encoding: 'utf-8' },
   )
+  const { sql, params } = withLocaleFilter(
+    baseSql,
+    [includeClipsFrom, includeClipsUntil],
+    languages,
+  )
+  return query<[LocaleWithLicense]>(sql, params)
+}
 
 // ---------------------------------------------------------------------------
 // Delta locale selection
@@ -87,12 +114,13 @@ const EPOCH = '1970-01-01 00:00:00'
 export const fetchDeltaLocales = (
   deltaFrom: string,
   deltaUntil: string,
+  languages?: string[],
 ): TE.TaskEither<Error, LocalesWithClips[]> =>
   pipe(
     TE.Do,
-    TE.bind('prevLocales', () => fetchLocalesWithClips(EPOCH, deltaFrom)),
-    TE.bind('deltaClips', () => fetchLocalesWithClips(deltaFrom, deltaUntil)),
-    TE.bind('deltaVotes', () => fetchLocalesWithVotes(deltaFrom, deltaUntil)),
+    TE.bind('prevLocales', () => fetchLocalesWithClips(EPOCH, deltaFrom, languages)),
+    TE.bind('deltaClips', () => fetchLocalesWithClips(deltaFrom, deltaUntil, languages)),
+    TE.bind('deltaVotes', () => fetchLocalesWithVotes(deltaFrom, deltaUntil, languages)),
     TE.map(({ prevLocales, deltaClips, deltaVotes }) => {
       const clipMap = new Map(deltaClips.map(l => [l.name, l.clip_count]))
       const voteMap = new Map(deltaVotes.map(l => [l.name, l.vote_count]))
@@ -132,12 +160,13 @@ export const fetchDeltaLocales = (
 export const fetchDeltaLicensedLocales = (
   deltaFrom: string,
   deltaUntil: string,
+  languages?: string[],
 ): TE.TaskEither<Error, LocaleWithLicense[]> =>
   pipe(
     TE.Do,
-    TE.bind('prevLocales', () => fetchLocalesWithLicensedClips(EPOCH, deltaFrom)),
-    TE.bind('deltaClips', () => fetchLocalesWithLicensedClips(deltaFrom, deltaUntil)),
-    TE.bind('deltaVotes', () => fetchLocalesWithVotes(deltaFrom, deltaUntil)),
+    TE.bind('prevLocales', () => fetchLocalesWithLicensedClips(EPOCH, deltaFrom, languages)),
+    TE.bind('deltaClips', () => fetchLocalesWithLicensedClips(deltaFrom, deltaUntil, languages)),
+    TE.bind('deltaVotes', () => fetchLocalesWithVotes(deltaFrom, deltaUntil, languages)),
     TE.map(({ prevLocales, deltaClips, deltaVotes }) => {
       const key = (l: { name: string; license: string }) => `${l.name}|${l.license}`
       const clipMap = new Map(deltaClips.map(l => [key(l), l.clip_count]))
@@ -262,15 +291,19 @@ export type LocaleVariantGroup = {
 export const fetchLocalesWithVariantClips = (
   includeClipsFrom: string,
   includeClipsUntil: string,
-): TE.TaskEither<Error, LocaleVariantGroup[]> =>
-  pipe(
-    query<[VariantClipRow]>(
-      fs.readFileSync(
-        path.join(getQueriesDir(), 'getLocalesWithVariantClips.sql'),
-        { encoding: 'utf-8' },
-      ),
-      [includeClipsFrom, includeClipsUntil],
-    ),
+  languages?: string[],
+): TE.TaskEither<Error, LocaleVariantGroup[]> => {
+  const baseSql = fs.readFileSync(
+    path.join(getQueriesDir(), 'getLocalesWithVariantClips.sql'),
+    { encoding: 'utf-8' },
+  )
+  const { sql, params } = withLocaleFilter(
+    baseSql,
+    [includeClipsFrom, includeClipsUntil],
+    languages,
+  )
+  return pipe(
+    query<[VariantClipRow]>(sql, params),
     TE.map((rows: VariantClipRow[]) => {
       const grouped = new Map<string, { variants: VariantInfo[]; totalClipCount: number }>()
       for (const row of rows) {
@@ -292,3 +325,4 @@ export const fetchLocalesWithVariantClips = (
       }))
     }),
   )
+}

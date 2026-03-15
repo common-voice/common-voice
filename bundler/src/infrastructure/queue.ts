@@ -49,15 +49,20 @@ const attachDatasheetPayload = (
 }
 
 /** For delta: only previous-release locales. For full/stats: all locales in window. */
-const getLocales = (settings: Settings) =>
-  settings.type === 'delta'
-    ? fetchDeltaLocales(settings.from, settings.until)
-    : fetchLocalesWithClips(settings.from, settings.until)
+const getLocales = (settings: Settings) => {
+  // Pass -l languages to DB queries so only requested locales are scanned.
+  const langs = settings.languages.length > 0 ? settings.languages : undefined
+  return settings.type === 'delta'
+    ? fetchDeltaLocales(settings.from, settings.until, langs)
+    : fetchLocalesWithClips(settings.from, settings.until, langs)
+}
 
-const getLicensedLocales = (settings: Settings) =>
-  settings.type === 'delta'
-    ? fetchDeltaLicensedLocales(settings.from, settings.until)
-    : fetchLocalesWithLicensedClips(settings.from, settings.until)
+const getLicensedLocales = (settings: Settings) => {
+  const langs = settings.languages.length > 0 ? settings.languages : undefined
+  return settings.type === 'delta'
+    ? fetchDeltaLicensedLocales(settings.from, settings.until, langs)
+    : fetchLocalesWithLicensedClips(settings.from, settings.until, langs)
+}
 
 /**
  * Remove ALL completed/failed BullMQ jobs from previous runs (grace = 0).
@@ -92,13 +97,11 @@ export const addJobsToReleaseQueue = (settings: Settings) =>
       // Variant releases have their own dispatch path -- one job per locale
       // carrying all variants for that locale. No license mode branching.
       if (settings.type === 'variants') {
+        const langs = settings.languages.length > 0 ? settings.languages : undefined
         return pipe(
-          fetchLocalesWithVariantClips(settings.from, settings.until),
+          fetchLocalesWithVariantClips(settings.from, settings.until, langs),
           TE.map(groups => {
-            const filtered =
-              settings.languages.length > 0
-                ? groups.filter(g => settings.languages.includes(g.locale))
-                : groups
+            const filtered = groups
 
             const summary = filtered
               .map(g => `${g.locale} (${g.variants.length} variants, ~${g.totalClipCount} clips)`)
