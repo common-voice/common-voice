@@ -14,3 +14,7 @@ add-question-error-message = Zan pahi maa bi niŋ, dimi suɣulo ka labi niŋ.
 add-question-guidelines-title = Bɔhisi dini nima ka n ni tooi pahi?
 do-section-title = Niŋma
 do-not-section-title = di niŋ
+do-not-section-guideline-3 = Bɔhimi bɔhisi di mali kpahimbu
+# Code switching Guidelines
+cs-do-section-guideline-1 = Zaŋ mi bɔhisi din yi zuliya dibaayi ni na bee lahabali shɛli puuni bachi ni yina
+cs-do-not-section-guideline-3 = Zaŋ mi zuliya yɛltɔɣa zaɣa maŋ li
