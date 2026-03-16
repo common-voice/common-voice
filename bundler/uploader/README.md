@@ -164,7 +164,7 @@ mdc-upload -r sps-corpus-3.0-2026-03-09 --base-dir ./test-releases -ut dev -l ga
 ### Upload specific locales
 
 ```bash
-mdc-upload -r cv-corpus-25.0-2026-03-09 -ut prod -l en ga-IE mt
+mdc-upload -r cv-corpus-25.0-2026-03-09 -ut prod -l "en ga-IE mt"
 ```
 
 ### Update an existing dataset

@@ -161,10 +161,15 @@ def _run(
             )
 
         state = load_state_for_retry(retry_failed)
-        state_target: MDCTarget = state["upload_target"]  # type: ignore[assignment]
+        state_target = state["upload_target"]
+        if state_target not in ("dev", "prod"):
+            raise click.UsageError(
+                f"Invalid upload_target {state_target!r} in state file. Expected 'dev' or 'prod'."
+            )
+        valid_target: MDCTarget = state_target  # type: ignore[assignment]
         config = UploaderConfig.from_cli(
             release=state["release"],
-            upload_target=state_target,
+            upload_target=valid_target,
             base_dir=state["base_dir"] or base_dir,
             release_type=state["type"] or release_type,
             locales=" ".join(state["failed_locales"]),

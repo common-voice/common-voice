@@ -7,7 +7,7 @@ name = "mdc-uploader"
 version = "0.1.0"
 description = "Upload Common Voice release tarballs to Mozilla Data Collective"
 readme = "README.md"
-license = "MPL-2.0"
+license = { text = "MPL-2.0" }
 requires-python = ">=3.12"
 dependencies = [
     "datacollective>=0.4.2,<1.0",
