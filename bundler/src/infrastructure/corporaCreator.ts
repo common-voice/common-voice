@@ -51,20 +51,8 @@ const runCorporaCreatorPromise = (locale: string, releaseDirPath: string) =>
       path.join(releaseDirPath, locale, 'clips.tsv'),
     ])
 
-    // Buffer stdout -- CC emits tqdm progress bars and per-split status lines.
-    // Log only the final line when the process exits to avoid clutter.
-    let lastStdoutLine = ''
-    cc.stdout.on('data', (data: Buffer) => {
-      const raw = data.toString().trimEnd()
-      if (!raw) return
-      // tqdm uses \r for in-place updates; keep only the final state per chunk
-      const parts = raw.split('\r')
-      const last = parts[parts.length - 1].trim()
-      if (last) lastStdoutLine = last
-    })
-
-    // Buffer stderr -- pandas.apply and other warnings produce many lines.
-    // Log only first + last to avoid clutter. Cap at 64 KB to prevent OOM.
+    // Buffer stderr -- swifter/tqdm progress bars + pandas warnings.
+    // Only surfaced on failure; suppressed on success (pure noise).
     const MAX_STDERR = 64 * 1024
     let stderrBuf = ''
     let stderrTruncated = false
@@ -78,27 +66,23 @@ const runCorporaCreatorPromise = (locale: string, releaseDirPath: string) =>
     })
 
     cc.on('close', (code, signal) => {
-      // Log final stdout line (last tqdm state or summary)
-      if (lastStdoutLine) {
-        logger.info('CC', `[${locale}] ${lastStdoutLine}`)
-      }
-
-      const lines = stderrBuf
-        .split('\n')
-        .map(l => l.trim())
-        .filter(Boolean)
-      if (lines.length > 0) {
-        const level = code === 0 && !signal ? 'info' : 'warn'
-        logger[level]('CC', `[${locale}] ${lines[0]}`)
-        if (lines.length > 1) {
-          logger[level]('CC', `[${locale}] ${lines[lines.length - 1]}`)
-        }
-      }
       if (code !== 0 || signal) {
+        // On failure: log stderr for diagnostics (filter out tqdm \r noise)
+        const lines = stderrBuf
+          .split('\n')
+          .flatMap(l => l.split('\r'))
+          .map(l => l.trim())
+          .filter(l => l && !l.startsWith('Pandas Apply:') && !l.startsWith('Dask Apply:'))
+        if (lines.length > 0) {
+          logger.warn('CC', `[${locale}] ${lines[0]}`)
+          if (lines.length > 1) {
+            logger.warn('CC', `[${locale}] ... (${lines.length - 1} more lines)`)
+            logger.warn('CC', `[${locale}] ${lines[lines.length - 1]}`)
+          }
+        }
         logger.error('CC', `[${locale}] create-corpora exited with code ${code}${signal ? ` signal ${signal}` : ''}`)
       }
       // Always resolve -- caller handles missing output files.
-      // The error is logged above for diagnostics.
       resolve()
     })
     cc.on('error', reason => reject(reason))
