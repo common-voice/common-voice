@@ -6,6 +6,20 @@ Supports both SCS (Scripted Speech) and SPS (Spontaneous Speech) releases, inclu
 
 For architecture and development details see [DEVELOPER.md](DEVELOPER.md).
 
+## Capabilities
+
+- Can upload release tarballs for all locales to MDC in a single batch run
+- Can auto-detect available locales from the release directory (sorted smallest-first)
+- Can upload specific locales only via `-l`
+- Can attach datasheet metadata to each dataset submission for display on MDC
+- Can handle full (CC0), delta (CC0), licensed (e.g. CC-BY 4.0), and variant release types
+- Can retry only failed locales from a previous run via `--retry-failed`
+- Can upload new file versions to existing MDC datasets via `--submission-id`
+- Can preview uploads without calling MDC via `--dry-run`
+- Can read files from local directories, GCS buckets (`gs://` URIs), or GCSFuse mounts (if available)
+- Can handle 429 rate limiting with Retry-After awareness and automatic retries
+- Can persist batch state to JSON after each locale for `--retry-failed` support (local filesystem only, does not survive pod crashes for now)
+
 ## Data Pipeline
 
 ```mermaid
@@ -87,7 +101,7 @@ Required:
 Optional:
   -ut, --upload-target [dev|prod]              MDC target environment (default: dev)
   -l,  --locales TEXT                          Space-separated locale codes (default: auto-detect)
-  -rt, --release-type [full|licensed|variants] Release type (default: full)
+  -rt, --release-type [full|delta|licensed|variants] Release type (default: full)
        --base-dir TEXT                         Root directory with release files (default: /gcs)
        --submission-id TEXT                    Existing MDC submission ID (version update mode)
        --retry-failed FILE                     State JSON from a previous run (retries failed only)
@@ -98,7 +112,7 @@ Optional:
 
 ### Locale auto-detection
 
-When `--locales` is omitted, the tool scans `{base-dir}/{release}/` for `*.tar.gz` files and extracts locale codes from filenames automatically. Locales are sorted smallest-first by file size.
+When `--locales` is omitted, the tool checks all known locales (from the Common Voice API) against the release directory and includes only those with existing tarballs. Locales are sorted smallest-first by file size.
 
 ### 429 Rate Limiting
 
@@ -129,6 +143,9 @@ mdc-upload -r bad-name -ut dev -v
 ```bash
 # Full (CC0) release -- default
 mdc-upload -r cv-corpus-25.0-2026-03-09 -ut prod
+
+# Delta (CC0) -- only new clips since last release
+mdc-upload -r cv-corpus-25.0-delta-2026-03-09 -rt delta -ut prod
 
 # Licensed (CC-BY 4.0) tarballs
 mdc-upload -r cv-corpus-25.0-2026-03-09 -rt licensed -ut prod
@@ -185,6 +202,11 @@ mdc-upload --retry-failed ./upload-state-cv-corpus-25.0-2026-03-09-20260313T1430
                |   +-- datasheets/
                |       +-- cv-datasheet-25.0-en.md
                |
+               +-- cv-corpus-25.0-delta-2026-03-09/     <-- -r cv-corpus-25.0-delta-2026-03-09 -rt delta
+               |   +-- cv-corpus-25.0-delta-2026-03-09-en.tar.gz
+               |   +-- datasheets/
+               |       +-- cv-datasheet-25.0-en.md
+               |
                +-- cv-corpus-25.0-2026-03-09-licensed/  <-- -r cv-corpus-25.0-2026-03-09 -rt licensed
                    +-- cv-corpus-25.0-2026-03-09-en-CC-BY_4.0.tar.gz
                    +-- datasheets/
@@ -206,7 +228,7 @@ Tarball  :  /mnt/cv-datasets/sps-corpus-3.0-2026-03-09/sps-corpus-3.0-2026-03-09
 Datasheet:  /mnt/cv-datasets/sps-corpus-3.0-2026-03-09/datasheets/sps-datasheet-3.0-ga-IE.md
 ```
 
-When `--locales` is omitted, the tool scans the release directory for all `*.tar.gz` files and auto-detects locale codes from filenames.
+When `--locales` is omitted, the tool checks all known locales (from the CV API) against the release directory and includes only those with existing tarballs.
 
 ## Data Flow
 
@@ -216,10 +238,12 @@ For `gs://` URIs, install the GCS extra (`pip install .[gcs]`). See [DEVELOPER.m
 
 ## Release Name Conventions
 
-| Modality | Format                        | Example                     |
-| -------- | ----------------------------- | --------------------------- |
-| SCS      | `cv-corpus-{version}-{date}`  | `cv-corpus-25.0-2026-03-09` |
-| SPS      | `sps-corpus-{version}-{date}` | `sps-corpus-3.0-2026-03-09` |
+| Modality | Type  | Format                          | Example                           |
+| -------- | ----- | ------------------------------- | --------------------------------- |
+| SCS      | full  | `cv-corpus-{ver}-{date}`        | `cv-corpus-25.0-2026-03-09`       |
+| SCS      | delta | `cv-corpus-{ver}-delta-{date}`  | `cv-corpus-25.0-delta-2026-03-09` |
+| SPS      | full  | `sps-corpus-{ver}-{date}`       | `sps-corpus-3.0-2026-03-09`       |
+| SPS      | delta | `sps-corpus-{ver}-delta-{date}` | `sps-corpus-3.0-delta-2026-03-09` |
 
 ## MDC Targets
 

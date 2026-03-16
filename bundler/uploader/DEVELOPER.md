@@ -147,11 +147,12 @@ See `bundler/src/core/compress.ts` and `bundler/src/worker/processor.ts`.
 
 ### Tarballs (relative to base-dir)
 
-| Type       | Path                                                              |
-| ---------- | ----------------------------------------------------------------- |
-| Full (CC0) | `{release}/{release}-{locale}.tar.gz`                             |
-| Licensed   | `{release}-licensed/{release}-{locale}-{sanitizedLicense}.tar.gz` |
-| Variants   | `{release}-variants/{release}-{locale}-{variantToken}.tar.gz`     |
+| Type        | Path                                                              |
+| ----------- | ----------------------------------------------------------------- |
+| Full (CC0)  | `{release}/{release}-{locale}.tar.gz`                             |
+| Delta (CC0) | `{release-delta}/{release-delta}-{locale}.tar.gz`                 |
+| Licensed    | `{release}-licensed/{release}-{locale}-{sanitizedLicense}.tar.gz` |
+| Variants    | `{release}-variants/{release}-{locale}-{variantToken}.tar.gz`     |
 
 ### Datasheets (relative to base-dir)
 
@@ -174,10 +175,10 @@ Example: `CC-BY 4.0` becomes `CC-BY_4.0` (dot is preserved).
 
 ## Retry and State Management
 
-Every batch run writes a state JSON file after each locale completes:
+Every batch run writes a state JSON file to `.state/` after each locale completes:
 
 ```txt
-upload-state-{release}-{timestamp}.json
+.state/upload-state-{release}-{timestamp}.json
 ```
 
 The file contains all config needed to reproduce the run, plus per-locale results:
@@ -300,17 +301,17 @@ Ruff is the primary linter and formatter (replaces black, isort, flake8). Pylint
 
 ### Test Coverage
 
-| Test file          | Tests | Covers                                        |
-| ------------------ | ----- | --------------------------------------------- |
-| `test_naming.py`   | 24    | Release parsing, paths, detect_locales        |
-| `test_mdc.py`      | 18    | Exception wrapping, retry logic               |
-| `test_gcs.py`      | 11    | URI detection, parsing, require guard         |
-| `test_config.py`   | 7     | UploaderConfig.from_cli, locale parsing       |
-| `test_language.py` | 7     | LanguageRegistry init/find/extras/API failure |
-| `test_state.py`    | 7     | BatchState record/summary, retry loading      |
-| `test_models.py`   | 7     | StrEnum values, ReleaseSpec props, defaults   |
-| `test_pipeline.py` | 6     | Job building, process_locale, batch dry run   |
-| `test_progress.py` | 5     | format_size B/KB/MB/GB/TB                     |
+| Test file          | Tests | Covers                                               |
+| ------------------ | ----- | ---------------------------------------------------- |
+| `test_naming.py`   | 26    | Release parsing (incl. delta), paths, detect_locales |
+| `test_mdc.py`      | 18    | Exception wrapping, retry logic                      |
+| `test_gcs.py`      | 11    | URI detection, parsing, require guard                |
+| `test_config.py`   | 7     | UploaderConfig.from_cli, locale parsing              |
+| `test_language.py` | 7     | LanguageRegistry init/find/extras/API failure        |
+| `test_state.py`    | 7     | BatchState record/summary, retry loading             |
+| `test_models.py`   | 7     | StrEnum values, ReleaseSpec props, defaults          |
+| `test_pipeline.py` | 6     | Job building, process_locale, batch dry run          |
+| `test_progress.py` | 5     | format_size B/KB/MB/GB/TB                            |
 
 ### Project Dependencies
 
@@ -429,4 +430,5 @@ Planned for the next iteration using the official BullMQ Python port (v2.19.6):
 - `mdc-upload dispatch` -- scan base-dir, sort by size DESC, push jobs to BullMQ queue
 - `mdc-upload worker` -- BullMQ Worker consumes and processes jobs
 - `mdc-upload status` -- show batch progress from Redis
+- **Redis-backed batch state** -- current `.state/` JSON files are local to the pod filesystem and do not survive pod crashes. Move state tracking to Redis so `--retry-failed` works across pod restarts.
 - Reuses existing Redis instance from bundler infrastructure
