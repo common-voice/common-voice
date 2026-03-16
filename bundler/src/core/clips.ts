@@ -112,9 +112,13 @@ const getPreviousReleaseClipDir = (locale: string, prevReleaseName: string) =>
   path.join(getTmpDir(), prevReleaseName, locale, 'clips')
 
 const filterMissingClips = (
+  locale: string,
   releaseDirPath: string,
   problemClips: ProblemClip[],
 ) => {
+  // Build a set of clip paths already tracked by earlier pipeline steps
+  // (e.g. fetchAllClipsForLocale) to avoid duplicate problem-clip entries.
+  const alreadyTracked = new Set(problemClips.map(pc => pc.path))
   let excluded = 0
   const now = new Date().toISOString()
 
@@ -132,13 +136,15 @@ const filterMissingClips = (
         callback(null, chunk)
       } else {
         excluded++
-        problemClips.push({
-          path: filename,
-          locale: chunk.locale,
-          reason: ProblemClipReason.FAILED_DOWNLOAD,
-          status: 'EXCLUDED',
-          timestamp: now,
-        })
+        if (!alreadyTracked.has(filename)) {
+          problemClips.push({
+            path: filename,
+            locale: chunk.locale,
+            reason: ProblemClipReason.FAILED_DOWNLOAD,
+            status: 'EXCLUDED',
+            timestamp: now,
+          })
+        }
         callback()
       }
     },
@@ -146,7 +152,7 @@ const filterMissingClips = (
       if (excluded > 0) {
         logger.warn(
           'CLIPS-TSV',
-          `[${problemClips[problemClips.length - 1]?.locale}] MISSING: ${excluded} clips in DB but not on disk (excluded from clips.tsv, logged to problem-clips)`,
+          `[${locale}] MISSING: ${excluded} clips in DB but not on disk (excluded from clips.tsv)`,
         )
       }
       callback()
@@ -439,7 +445,7 @@ const createClipsTsv = (
     await pipeline(
       readStream,
       parse({ delimiter: '\t', columns: true }),
-      filterMissingClips(releaseDirPath, problemClips),
+      filterMissingClips(locale, releaseDirPath, problemClips),
       transformClips(isMinorityLanguage),
       writeFileStreamToTsv(locale, releaseDirPath),
     )

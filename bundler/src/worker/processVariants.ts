@@ -245,9 +245,13 @@ export const rewriteLocaleColumn = async (
 
     const tmpPath = filepath + '.tmp'
     const ws = fs.createWriteStream(tmpPath, { encoding: 'utf-8' })
+    let writeError: Error | null = null
+    ws.on('error', err => { writeError = err })
+
     ws.write(headerLine + '\n')
 
     for await (const line of rl) {
+      if (writeError) break
       if (!line.trim()) {
         ws.write(line + '\n')
         continue
@@ -260,6 +264,7 @@ export const rewriteLocaleColumn = async (
     }
 
     await new Promise<void>((resolve, reject) => {
+      if (writeError) return reject(writeError)
       ws.on('finish', resolve)
       ws.on('error', reject)
       ws.end()
@@ -318,10 +323,13 @@ const reconcileClipsTsv = async (
     crlfDelay: Infinity,
   })
   const ws = fs.createWriteStream(tmpPath, { encoding: 'utf-8' })
+  let writeError: Error | null = null
+  ws.on('error', err => { writeError = err })
   const keptPaths = new Set<string>()
 
   let isHeader = true
   for await (const line of rl) {
+    if (writeError) break
     if (isHeader) {
       ws.write(line + '\n')
       isHeader = false
@@ -336,6 +344,7 @@ const reconcileClipsTsv = async (
   }
 
   await new Promise<void>((resolve, reject) => {
+    if (writeError) return reject(writeError)
     ws.on('finish', resolve)
     ws.on('error', reject)
     ws.end()

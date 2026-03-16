@@ -155,10 +155,6 @@ export const flushReleaseLogs = async (
     }
     if (!isFinal && !isCountTrigger && !isTimeTrigger) return
 
-    // Record flush timestamp for time-based trigger.
-    await redisClient.set(redisKeys.lastFlush(releaseName), new Date().toISOString())
-    await redisClient.expire(redisKeys.lastFlush(releaseName), RELEASE_LOG_KEY_TTL_SEC)
-
     // 6. Flush problem-clips snapshot to GCS (only when the list is non-empty).
     const pcRows = await redisClient.lrange(redisKeys.problemClips(releaseName), 0, -1)
     if (pcRows.length > 0) {
@@ -182,6 +178,11 @@ export const flushReleaseLogs = async (
       'RELEASE-LOGGER',
       `[${releaseName}] Flushed ${logRows.length} process-log row(s) to GCS`,
     )
+
+    // Record flush timestamp AFTER successful uploads so that a failed
+    // upload doesn't suppress the time-based retry trigger.
+    await redisClient.set(redisKeys.lastFlush(releaseName), new Date().toISOString())
+    await redisClient.expire(redisKeys.lastFlush(releaseName), RELEASE_LOG_KEY_TTL_SEC)
 
     // 8. Print FINISHED summary when all jobs are done.
     if (total > 0 && count === total) {

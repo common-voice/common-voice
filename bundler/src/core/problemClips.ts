@@ -131,9 +131,12 @@ export const runFilterProblemClips = (
             crlfDelay: Infinity,
           })
           const ws = fs.createWriteStream(tmpPath, { encoding: 'utf-8' })
+          let writeError: Error | null = null
+          ws.on('error', err => { writeError = err })
 
           let isHeader = true
           for await (const line of rl) {
+            if (writeError) break
             if (isHeader) {
               ws.write(line + '\n')
               isHeader = false
@@ -147,6 +150,7 @@ export const runFilterProblemClips = (
           }
 
           await new Promise<void>((resolve, reject) => {
+            if (writeError) return reject(writeError)
             ws.on('finish', resolve)
             ws.on('error', reject)
             ws.end()
