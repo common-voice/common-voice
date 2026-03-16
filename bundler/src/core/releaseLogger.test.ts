@@ -6,6 +6,7 @@ const mockExpire  = jest.fn(async (_key: string, _ttl: number) => 1)
 const mockIncr    = jest.fn(async (_key: string) => 1)
 const mockIncrby  = jest.fn(async (_key: string, _amount: number) => 1)
 const mockGet     = jest.fn(async (_key: string) => null as string | null)
+const mockSet     = jest.fn(async (_key: string, _val: string) => 'OK')
 const mockLrange  = jest.fn(async (_key: string, _start: number, _stop: number) => [] as string[])
 
 jest.mock('../infrastructure/redis', () => ({
@@ -15,6 +16,7 @@ jest.mock('../infrastructure/redis', () => ({
     incr:    mockIncr,
     incrby:  mockIncrby,
     get:     mockGet,
+    set:     mockSet,
     lrange:  mockLrange,
   },
 }))
@@ -136,12 +138,16 @@ describe('flushReleaseLogs', () => {
     mockIncr.mockClear()
     mockIncrby.mockClear()
     mockGet.mockClear()
+    mockSet.mockClear()
     mockLrange.mockClear()
     mockUploadTE.mockClear()
     mockUploadFn.mockClear()
     // Default: count = 1, total = 100 -> no flush
     mockIncr.mockResolvedValue(1)
-    mockGet.mockResolvedValue('100')
+    // Return '100' for totals, null for lastFlush (never flushed)
+    mockGet.mockImplementation(async (key: string) =>
+      key.includes('last-flush') ? null : '100',
+    )
     mockLrange.mockResolvedValue([])
   })
 
@@ -170,6 +176,10 @@ describe('flushReleaseLogs', () => {
 
   it('does not upload to GCS when count is below flush interval and not at total', async () => {
     mockIncr.mockResolvedValue(3)   // 3 < 10, 3 ≠ 100
+    // Recent flush -- prevents time-based trigger from firing
+    mockGet.mockImplementation(async (key: string) =>
+      key.includes('last-flush') ? new Date().toISOString() : '100',
+    )
     await flushReleaseLogs(makeEnv(), 'success')
     expect(mockUploadFn).not.toHaveBeenCalled()
   })
@@ -183,7 +193,9 @@ describe('flushReleaseLogs', () => {
 
   it('uploads to GCS when count equals total (final locale of a run)', async () => {
     mockIncr.mockResolvedValue(5)
-    mockGet.mockResolvedValue('5')
+    mockGet.mockImplementation(async (key: string) =>
+      key.includes('last-flush') ? new Date().toISOString() : '5',
+    )
     mockLrange.mockResolvedValue(['row1'])
     await flushReleaseLogs(makeEnv(), 'success')
     expect(mockUploadFn).toHaveBeenCalled()

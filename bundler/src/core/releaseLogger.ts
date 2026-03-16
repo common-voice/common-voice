@@ -3,6 +3,7 @@ import { redisClient } from '../infrastructure/redis'
 import {
   getDatasetBundlerBucketName,
   RELEASE_LOG_FLUSH_INTERVAL,
+  RELEASE_LOG_FLUSH_MAX_AGE_MS,
   RELEASE_LOG_KEY_TTL_SEC,
   TimeUnitsMs,
   redisKeys,
@@ -142,10 +143,21 @@ export const flushReleaseLogs = async (
     }
 
     // 5. Determine whether to flush to GCS.
-    const shouldFlush =
-      count % RELEASE_LOG_FLUSH_INTERVAL === 0 ||
-      (total > 0 && count === total)
-    if (!shouldFlush) return
+    //    Flush on: every N jobs, final job, OR if >10 min since last flush
+    //    (large locales like en/ca can take 1h+, don't wait for count threshold).
+    const isFinal = total > 0 && count === total
+    const isCountTrigger = count % RELEASE_LOG_FLUSH_INTERVAL === 0
+    let isTimeTrigger = false
+    if (!isFinal && !isCountTrigger) {
+      const lastFlushStr = await redisClient.get(redisKeys.lastFlush(releaseName))
+      const lastFlushMs = lastFlushStr ? new Date(lastFlushStr).getTime() : 0
+      isTimeTrigger = Date.now() - lastFlushMs > RELEASE_LOG_FLUSH_MAX_AGE_MS
+    }
+    if (!isFinal && !isCountTrigger && !isTimeTrigger) return
+
+    // Record flush timestamp for time-based trigger.
+    await redisClient.set(redisKeys.lastFlush(releaseName), new Date().toISOString())
+    await redisClient.expire(redisKeys.lastFlush(releaseName), RELEASE_LOG_KEY_TTL_SEC)
 
     // 6. Flush problem-clips snapshot to GCS (only when the list is non-empty).
     const pcRows = await redisClient.lrange(redisKeys.problemClips(releaseName), 0, -1)

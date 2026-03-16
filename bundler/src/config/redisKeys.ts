@@ -42,4 +42,7 @@ export const redisKeys = {
    */
   processing: (releaseName: string) =>
     `${REDIS_PREFIX}:processing:${releaseName}`,
+  /** ISO 8601 timestamp of the last GCS log flush. */
+  lastFlush: (releaseName: string) =>
+    `${REDIS_PREFIX}:log:last-flush:${releaseName}`,
 }
