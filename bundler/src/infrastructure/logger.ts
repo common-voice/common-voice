@@ -31,10 +31,12 @@ const emit = (level: LogLevel, operation: string, message: string): void => {
 
   const op = operation ? ` ${operation}` : ''
 
-  // Hoist leading locale tag from message: "[en] rest" -> " [en]" before op
+  // Hoist leading locale tag from message: "[en] rest" -> " [en]" before op.
+  // Only matches BCP-47-like locale codes (e.g. en, pt-BR, zh-CN, nan-tw)
+  // to avoid misclassifying filenames like "[validated.tsv]".
   let localeTag = ''
   let body = message
-  const match = message.match(/^\[([^\]]+)\]\s*/)
+  const match = message.match(/^\[([a-z]{2,3}(?:-[a-zA-Z0-9]+)*)\]\s*/)
   if (match) {
     localeTag = ` ${match[0].trimEnd()}`
     body = message.slice(match[0].length)
