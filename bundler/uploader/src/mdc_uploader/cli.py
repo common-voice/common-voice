@@ -25,7 +25,8 @@ Examples:
 
 \b
 Environment variables:
-  MDC_API_KEY       MDC API key (required unless --dry-run)
+  MDC_API_KEY_DEV   MDC API key for dev target (required for -ut dev)
+  MDC_API_KEY_PROD  MDC API key for prod target (required for -ut prod)
   MDC_API_URL       Override MDC API base URL (default: from -ut)
   UPLOAD_BASE_DIR   Default --base-dir value (default: /gcs)
 """
@@ -136,6 +137,21 @@ def cli(
         sys.exit(1)
 
 
+def _resolve_api_key(target: MDCTarget, dry_run: bool) -> str:
+    """Resolve MDC API key for the given target.
+
+    Reads MDC_API_KEY_DEV or MDC_API_KEY_PROD based on -ut.
+    Not required for --dry-run.
+    """
+    target_var = f"MDC_API_KEY_{target.upper()}"
+    key = os.environ.get(target_var, "")
+    if not key and not dry_run:
+        raise click.UsageError(
+            f"{target_var} environment variable is required (or use --dry-run)."
+        )
+    return key
+
+
 def _run(
     *,
     release: str | None,
@@ -149,17 +165,11 @@ def _run(
     verbose: bool,
 ) -> None:
     """Inner logic separated for clean error handling."""
-    mdc_api_key = os.environ.get("MDC_API_KEY", "")
     mdc_api_url = os.environ.get("MDC_API_URL")
     resolved_target: MDCTarget = upload_target  # type: ignore[assignment]  # Click validates
 
     # --retry-failed mode: load config from state file
     if retry_failed:
-        if not mdc_api_key and not dry_run:
-            raise click.UsageError(
-                "MDC_API_KEY environment variable is required (or use --dry-run)"
-            )
-
         state = load_state_for_retry(retry_failed)
         state_target = state["upload_target"]
         if state_target not in ("dev", "prod"):
@@ -167,6 +177,7 @@ def _run(
                 f"Invalid upload_target {state_target!r} in state file. Expected 'dev' or 'prod'."
             )
         valid_target: MDCTarget = state_target  # type: ignore[assignment]
+        mdc_api_key = _resolve_api_key(valid_target, dry_run)
         config = UploaderConfig.from_cli(
             release=state["release"],
             upload_target=valid_target,
@@ -189,11 +200,7 @@ def _run(
         if not release:
             raise click.UsageError("--release is required (unless using --retry-failed)")
 
-        if not mdc_api_key and not dry_run:
-            raise click.UsageError(
-                "MDC_API_KEY environment variable is required (or use --dry-run)"
-            )
-
+        mdc_api_key = _resolve_api_key(resolved_target, dry_run)
         config = UploaderConfig.from_cli(
             release=release,
             upload_target=resolved_target,

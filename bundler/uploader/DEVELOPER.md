@@ -36,13 +36,17 @@ Supporting modules:
 
 ## Environment Variables
 
-| Variable          | Required | Default    | Description                        |
-| ----------------- | -------- | ---------- | ---------------------------------- |
-| `MDC_API_KEY`     | Yes      | --         | MDC API key (Bearer token)         |
-| `MDC_API_URL`     | No       | from `-ut` | Override MDC API base URL          |
-| `UPLOAD_BASE_DIR` | No       | `/gcs`     | Default base directory for uploads |
+| Variable           | Required       | Default    | Description                                  |
+| ------------------ | -------------- | ---------- | -------------------------------------------- |
+| `MDC_API_KEY_DEV`  | For `-ut dev`  | --         | MDC API key for the dev environment          |
+| `MDC_API_KEY_PROD` | For `-ut prod` | --         | MDC API key for the prod environment         |
+| `MDC_API_URL`      | No             | from `-ut` | Override MDC API base URL                    |
+| `UPLOAD_BASE_DIR`  | No             | `/gcs`     | Default base directory for uploads           |
+| `UPLOAD_STATE_DIR` | No             | `./.state` | Directory for batch state JSON files         |
 
-`UPLOAD_BASE_DIR` is defined by this tool only (not in the SCS bundler code). It provides an env-var alternative to `--base-dir` so the path can be set once in the pod spec.
+Dev and prod use separate MDC accounts. Set the key matching your `-ut` target.
+
+`UPLOAD_BASE_DIR` and `UPLOAD_STATE_DIR` are defined by this tool only (not in the SCS bundler code). They provide env-var alternatives to CLI options so values can be set once in the pod spec.
 
 ## Module Responsibilities
 

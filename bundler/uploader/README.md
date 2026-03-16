@@ -71,6 +71,19 @@ flowchart LR
     style UP fill:#1a73e8,color:#ffffff,stroke:#1558b0,stroke-width:2px
 ```
 
+## Authentication
+
+API keys are created in the MDC platform under your proofile settings. Dev and prod environments use separate accounts and keys.
+
+Set the key for your target environment:
+
+```bash
+export MDC_API_KEY_DEV=your-dev-key
+export MDC_API_KEY_PROD=your-prod-key
+```
+
+Not required for `--dry-run`.
+
 ## Quick Start
 
 ```bash
@@ -83,11 +96,11 @@ pip install -e .
 # Dry run -- preview what would be uploaded
 mdc-upload -r sps-corpus-3.0-2026-03-09 -ut dev --dry-run
 
-# Upload a single locale to dev MDC
-MDC_API_KEY=your-key mdc-upload -r sps-corpus-3.0-2026-03-09 -l ga-IE -ut dev
+# Upload a single locale to dev MDC (requires MDC_API_KEY_DEV)
+mdc-upload -r sps-corpus-3.0-2026-03-09 -l ga-IE -ut dev
 
-# Upload all locales to production (auto-detected from release directory)
-MDC_API_KEY=your-key mdc-upload -r cv-corpus-25.0-2026-03-09 -ut prod
+# Upload all locales to production (requires MDC_API_KEY_PROD)
+mdc-upload -r cv-corpus-25.0-2026-03-09 -ut prod
 ```
 
 ## CLI Reference
