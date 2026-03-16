@@ -155,6 +155,11 @@ def _run(
 
     # --retry-failed mode: load config from state file
     if retry_failed:
+        if not mdc_api_key and not dry_run:
+            raise click.UsageError(
+                "MDC_API_KEY environment variable is required (or use --dry-run)"
+            )
+
         state = load_state_for_retry(retry_failed)
         state_target: MDCTarget = state["upload_target"]  # type: ignore[assignment]
         config = UploaderConfig.from_cli(
