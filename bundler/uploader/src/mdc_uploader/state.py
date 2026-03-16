@@ -10,11 +10,9 @@ from mdc_uploader.log import logger
 from mdc_uploader.models import UploadResult
 from mdc_uploader.typedef import LocaleStateEntry, RetryStateData
 
-# Default state directory: bundler/uploader/.state/
-# __file__ = .../bundler/uploader/src/mdc_uploader/state.py
-# Up 2 levels from mdc_uploader/ -> src/ -> uploader/
-_STATE_DIR = os.path.join(os.path.dirname(__file__), os.pardir, os.pardir, ".state")
-STATE_DIR = os.path.normpath(_STATE_DIR)
+# Default state directory: .state/ relative to CWD.
+# Override via UPLOAD_STATE_DIR env var (e.g. for containers with a specific writable path).
+STATE_DIR = os.environ.get("UPLOAD_STATE_DIR", os.path.join(".", ".state"))
 
 
 class BatchState:

@@ -146,19 +146,19 @@ def build_jobs(
 def _resolve_file_and_datasheet(
     job: LocaleUploadJob,
     base_dir: str,
-) -> tuple[str | None, str]:  # (tarball_local_path, datasheet_text)
+) -> tuple[str | None, str, str | None]:  # (tarball_local_path, datasheet_text, error)
     """Resolve tarball file path and datasheet text.
 
     For gs:// URIs: downloads tarball to temp via google-cloud-storage.
     For local paths (including GCSFuse mounts): reads directly from filesystem.
 
-    Returns (tarball_local_path_or_None, datasheet_text).
+    Returns (tarball_local_path_or_None, datasheet_text, error_or_None).
     """
     tarball_local: str | None = None
     datasheet_text = ""
 
     if is_gcs_uri(base_dir):
-        # GCS fallback: tarball_path is a blob path
+        # GCS mode: tarball_path is a blob path
         try:
             # File must persist for the upload -- caller handles cleanup.
             _require_gcs()
@@ -173,7 +173,7 @@ def _resolve_file_and_datasheet(
             blob = bucket.blob(blob_path)
 
             if not blob.exists():
-                return None, ""
+                return None, "", f"GCS blob not found: gs://{bucket_name}/{blob_path}"
 
             tmp_fd, tmp_path = tempfile.mkstemp(suffix=".tar.gz")
             os.close(tmp_fd)
@@ -182,7 +182,7 @@ def _resolve_file_and_datasheet(
             tarball_local = tmp_path
         except Exception as exc:  # pylint: disable=broad-exception-caught
             logger.error("GCS", "[%s] Download failed: %s", job.locale, exc)
-            return None, ""
+            return None, "", f"GCS download failed: {exc}"
 
         # Read datasheet
         if job.datasheet_path:
@@ -192,7 +192,7 @@ def _resolve_file_and_datasheet(
             else:
                 logger.warning("UPLOAD", "[%s] No datasheet found in GCS", job.locale)
 
-        return tarball_local, datasheet_text
+        return tarball_local, datasheet_text, None
 
     # Local/GCSFuse: paths are filesystem paths
     tarball_local = job.tarball_path if os.path.exists(job.tarball_path) else None
@@ -203,7 +203,8 @@ def _resolve_file_and_datasheet(
     elif job.datasheet_path is None:
         logger.warning("UPLOAD", "[%s] No datasheet found -- proceeding without", job.locale)
 
-    return tarball_local, datasheet_text
+    error = f"Tarball not found: {job.tarball_path}" if tarball_local is None else None
+    return tarball_local, datasheet_text, error
 
 
 def process_locale(
@@ -219,7 +220,7 @@ def process_locale(
 
     try:
         # Resolve file path and datasheet
-        tarball_local, datasheet_text = _resolve_file_and_datasheet(job, base_dir)
+        tarball_local, datasheet_text, resolve_error = _resolve_file_and_datasheet(job, base_dir)
 
         if tarball_local is None:
             return UploadResult(
@@ -227,7 +228,7 @@ def process_locale(
                 status="failed",
                 size_bytes=job.file_size,
                 duration_seconds=time.monotonic() - start,
-                error=f"Tarball not found: {job.tarball_path}",
+                error=resolve_error or f"Tarball not found: {job.tarball_path}",
                 attempts=0,
             )
 
@@ -481,6 +482,14 @@ def run_batch(config: UploaderConfig) -> bool:
                 len(jobs),
                 result.locale,
                 result.error,
+            )
+        elif result.status == "skipped":
+            logger.info(
+                "UPLOAD",
+                "[%d/%d] %s -- SKIPPED (dry run)",
+                i,
+                len(jobs),
+                result.locale,
             )
 
         progress.update(1)
