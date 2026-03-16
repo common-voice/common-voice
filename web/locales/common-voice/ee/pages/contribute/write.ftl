@@ -40,3 +40,33 @@ sentence-domain-combobox-label = Nyagbe ƒe Domenyinyi
 sentence-domain-select-placeholder = Tia domenyiŋusẽfianu siwo ade etɔ̃ (wò ŋutɔe tiae)
 # Sentence Domain dropdown option
 agriculture_food = Agbledede Kple Nuɖuɖu
+# Sentence Domain dropdown option
+automotive_transport = Ʋuwo Kple Ʋuɖoɖo
+# Sentence Domain dropdown option
+finance = Ga zazã
+# Sentence Domain dropdown option
+service_retail = Subɔsubɔdɔ Kple Asitsatsa
+# Sentence Domain dropdown option
+general = nu bɔbɔ
+# Sentence Domain dropdown option
+healthcare = Lãmesẽnyawo gbɔ kpɔkpɔ
+# Sentence Domain dropdown option
+history_law_government = Ŋutinya, Se kple Dziɖuɖu
+# Sentence Domain dropdown option
+language_fundamentals = Gbegbɔgblɔ ƒe Gɔmeɖosewo (e.g. Xexlẽdzesiwo, Lɛtawo, Ga) .
+# Sentence Domain dropdown option
+media_entertainment = Nyadzɔdzɔgblɔmɔnuwo Kple Modzakaɖeɖe
+# Sentence Domain dropdown option
+nature_environment = Dzɔdzɔmenuwo Kple Nutome
+# Sentence Domain dropdown option
+news_current_affairs = Nyadzɔdzɔwo Kple Nyadzɔdzɔwo
+# Sentence Domain dropdown option
+technology_robotics = Mɔ̃ɖaŋununya Kple Robotwo
+sentence-variant-select-label = Nyagbewo ƒe gbetagbe
+sentence-variant-select-placeholder = Tia gbetagbe aɖe (wò ŋutɔe tiae) .
+sentence-variant-select-multiple-variants = Gbegbɔgblɔ si wozãna le mɔ gbadza nu / gbetagbe geɖewo
+
+## BULK SUBMISSION
+
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Tsɔ <icon></icon> dutoƒo nyagbewo da ɖe Internet dzi
