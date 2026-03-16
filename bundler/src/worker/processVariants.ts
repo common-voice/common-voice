@@ -225,25 +225,30 @@ export const rewriteLocaleColumn = async (
     const filepath = path.join(dir, filename)
     if (!fs.existsSync(filepath)) continue
 
-    const tmpPath = filepath + '.tmp'
-    const rl = createInterface({
-      input: fs.createReadStream(filepath, { encoding: 'utf-8' }),
-      crlfDelay: Infinity,
-    })
-    const ws = fs.createWriteStream(tmpPath, { encoding: 'utf-8' })
+    // Read header to find locale column index before opening write stream.
+    const inputStream = fs.createReadStream(filepath, { encoding: 'utf-8' })
+    const rl = createInterface({ input: inputStream, crlfDelay: Infinity })
 
-    let localeIdx = -1
-    let isHeader = true
+    // Peek at header to check for locale column
+    const iter = rl[Symbol.asyncIterator]()
+    const headerResult = await iter.next()
+    if (headerResult.done) { rl.close(); continue }
+
+    const headerLine = headerResult.value
+    const header = headerLine.split('\t')
+    const localeIdx = header.indexOf('locale')
+    if (localeIdx === -1) {
+      rl.close()
+      inputStream.destroy()
+      continue
+    }
+
+    const tmpPath = filepath + '.tmp'
+    const ws = fs.createWriteStream(tmpPath, { encoding: 'utf-8' })
+    ws.write(headerLine + '\n')
 
     for await (const line of rl) {
-      if (isHeader) {
-        isHeader = false
-        const header = line.split('\t')
-        localeIdx = header.indexOf('locale')
-        ws.write(line + '\n')
-        continue
-      }
-      if (localeIdx === -1 || !line.trim()) {
+      if (!line.trim()) {
         ws.write(line + '\n')
         continue
       }
