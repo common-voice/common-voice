@@ -25,9 +25,11 @@ build
 *.csv
 *.tsv
 *.txt
-*.json
 *.mp3
 *.tar.gz
+
+# -- Runtime JSON output (not config) --
+release-stats-*.json
 
 # -- Release output --
 cv-corpus*

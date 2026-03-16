@@ -15,7 +15,9 @@ class TestBatchState:
 
     def test_record_success(self, tmp_path: object) -> None:
         """Successful result is recorded correctly."""
-        state = BatchState("cv-corpus-25.0-2026-03-09", "dev", "full", "/gcs")
+        state = BatchState(
+            "cv-corpus-25.0-2026-03-09", "dev", "full", "/gcs", output_dir=str(tmp_path)
+        )
         result = UploadResult(
             locale="en",
             status="success",
@@ -28,11 +30,13 @@ class TestBatchState:
 
         assert state.locales["en"]["status"] == "success"
         assert state.locales["en"]["size_bytes"] == 1000
-        assert state.locales["en"]["submission_id"] == "sub-123"
+        assert state.locales["en"]["submission_id"] == "sub-123" # type: ignore
 
-    def test_record_failed_with_error(self) -> None:
+    def test_record_failed_with_error(self, tmp_path: object) -> None:
         """Failed result includes error message."""
-        state = BatchState("cv-corpus-25.0-2026-03-09", "dev", "full", "/gcs")
+        state = BatchState(
+            "cv-corpus-25.0-2026-03-09", "dev", "full", "/gcs", output_dir=str(tmp_path)
+        )
         result = UploadResult(
             locale="de",
             status="failed",
@@ -44,11 +48,13 @@ class TestBatchState:
         state.record(result)
 
         assert state.locales["de"]["status"] == "failed"
-        assert state.locales["de"]["error"] == "Connection timeout"
+        assert state.locales["de"]["error"] == "Connection timeout" # type: ignore
 
-    def test_record_orphaned_draft(self) -> None:
+    def test_record_orphaned_draft(self, tmp_path: object) -> None:
         """Orphaned draft is tracked in state."""
-        state = BatchState("cv-corpus-25.0-2026-03-09", "dev", "full", "/gcs")
+        state = BatchState(
+            "cv-corpus-25.0-2026-03-09", "dev", "full", "/gcs", output_dir=str(tmp_path)
+        )
         result = UploadResult(
             locale="fr",
             status="failed",
@@ -61,12 +67,14 @@ class TestBatchState:
         )
         state.record(result)
 
-        assert state.locales["fr"]["orphaned_draft"] is True
-        assert state.locales["fr"]["submission_id"] == "orphan-456"
+        assert state.locales["fr"]["orphaned_draft"] is True # type: ignore
+        assert state.locales["fr"]["submission_id"] == "orphan-456" # type: ignore
 
-    def test_summary_counts(self) -> None:
+    def test_summary_counts(self, tmp_path: object) -> None:
         """Summary returns correct success/failed/skipped counts."""
-        state = BatchState("cv-corpus-25.0-2026-03-09", "dev", "full", "/gcs")
+        state = BatchState(
+            "cv-corpus-25.0-2026-03-09", "dev", "full", "/gcs", output_dir=str(tmp_path)
+        )
 
         for locale, status in [
             ("en", "success"),
@@ -85,9 +93,11 @@ class TestBatchState:
         assert failed == 1
         assert skipped == 1
 
-    def test_flush_writes_json(self) -> None:
+    def test_flush_writes_json(self, tmp_path: object) -> None:
         """State is flushed to JSON after each record."""
-        state = BatchState("cv-corpus-25.0-2026-03-09", "dev", "full", "/gcs")
+        state = BatchState(
+            "cv-corpus-25.0-2026-03-09", "dev", "full", "/gcs", output_dir=str(tmp_path)
+        )
         state.record(
             UploadResult(
                 locale="en", status="success", size_bytes=100, duration_seconds=1.0, attempts=1

@@ -3,11 +3,18 @@
 from __future__ import annotations
 
 import json
+import os
 from datetime import UTC, datetime
 
 from mdc_uploader.log import logger
 from mdc_uploader.models import UploadResult
 from mdc_uploader.typedef import LocaleStateEntry, RetryStateData
+
+# Default state directory: bundler/uploader/.state/
+# __file__ = .../bundler/uploader/src/mdc_uploader/state.py
+# Up 2 levels from mdc_uploader/ -> src/ -> uploader/
+_STATE_DIR = os.path.join(os.path.dirname(__file__), os.pardir, os.pardir, ".state")
+STATE_DIR = os.path.normpath(_STATE_DIR)
 
 
 class BatchState:
@@ -19,6 +26,7 @@ class BatchState:
         upload_target: str,
         release_type: str,
         base_dir: str,
+        output_dir: str | None = None,
     ) -> None:
         self.release = release
         self.upload_target = upload_target
@@ -26,12 +34,14 @@ class BatchState:
         self.base_dir = base_dir
         self.started_at = datetime.now(UTC).isoformat()
         self.locales: dict[str, LocaleStateEntry] = {}
-        self._state_path = self._build_path(release)
+        resolved_dir = output_dir if output_dir is not None else STATE_DIR
+        os.makedirs(resolved_dir, exist_ok=True)
+        self._state_path = self._build_path(release, resolved_dir)
 
     @staticmethod
-    def _build_path(release: str) -> str:
+    def _build_path(release: str, output_dir: str) -> str:
         ts = datetime.now(UTC).strftime("%Y%m%dT%H%M%S%f")
-        return f"upload-state-{release}-{ts}.json"
+        return os.path.join(output_dir, f"upload-state-{release}-{ts}.json")
 
     @property
     def state_path(self) -> str:
