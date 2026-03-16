@@ -434,8 +434,9 @@ const streamSampleSentences = async (
 ): Promise<string[]> => {
   if (!fs.existsSync(filepath)) return []
 
+  const inputStream = fs.createReadStream(filepath, { encoding: 'utf-8' })
   const rl = readline.createInterface({
-    input: fs.createReadStream(filepath, { encoding: 'utf-8' }),
+    input: inputStream,
     crlfDelay: Infinity,
   })
 
@@ -450,7 +451,11 @@ const streamSampleSentences = async (
       isHeader = false
       const cols = line.split('\t')
       sentenceIdx = cols.indexOf('sentence')
-      if (sentenceIdx < 0) return []
+      if (sentenceIdx < 0) {
+        rl.close()
+        inputStream.destroy()
+        return []
+      }
       filterIdx = filterColumn != null ? cols.indexOf(filterColumn) : -1
       continue
     }
