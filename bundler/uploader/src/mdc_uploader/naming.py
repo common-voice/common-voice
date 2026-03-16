@@ -121,18 +121,24 @@ def detect_locales(
 ) -> list[str]:
     """Auto-detect locales from the language registry by checking which tarballs exist.
 
-    Uses the already-initialized LanguageRegistry as the source of known locale codes.
-    For each locale, constructs the expected tarball path and checks if the file exists.
-    Returns locale codes sorted by file size (smallest first).
+    Uses the already-initialized LanguageRegistry as the source of known codes.
+    For variants, checks variant codes (e.g. fr-europe, cy-southwes).
+    For other types, checks base locale codes (e.g. en, ga-IE).
+    Returns codes sorted by file size (smallest first).
     """
     from mdc_uploader import language  # pylint: disable=import-outside-toplevel
 
+    if release_type == ReleaseType.VARIANTS:
+        codes = language.variant_codes()
+    else:
+        codes = language.all_codes()
+
     locale_files: list[tuple[str, int]] = []
 
-    for locale in language.all_codes():
-        tb = tarball_path(base_dir, release_name, locale, release_type, license_name)
+    for code in codes:
+        tb = tarball_path(base_dir, release_name, code, release_type, license_name)
         if os.path.exists(tb):
-            locale_files.append((locale, os.path.getsize(tb)))
+            locale_files.append((code, os.path.getsize(tb)))
 
     if not locale_files:
         directory = os.path.join(base_dir, tarball_dir(release_name, release_type))

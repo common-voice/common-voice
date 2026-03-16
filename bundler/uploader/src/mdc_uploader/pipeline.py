@@ -47,7 +47,13 @@ def _build_jobs_gcs(
         # Use explicit locales; sizes will be discovered at download time
         locale_sizes = [(loc, 0) for loc in config.locales]
     else:
-        locale_sizes = gcs_list_tarballs(config.base_dir, config.release_name, subdir, license_name)
+        locale_sizes = gcs_list_tarballs(
+            config.base_dir,
+            config.release_name,
+            subdir,
+            license_name,
+            is_variants=config.release_type == ReleaseType.VARIANTS,
+        )
 
     jobs: list[LocaleUploadJob] = []
     for locale, size in locale_sizes:
@@ -229,8 +235,15 @@ def process_locale(
         if is_gcs_uri(base_dir):
             tmp_file = tarball_local
 
-        # Fetch language names
-        english_name, native_name = language.find(locale)
+        # Fetch language data -- for variants, look up the parent locale
+        if job.release_type == ReleaseType.VARIANTS:
+            lang_entry = language.find_by_variant(locale)
+            if lang_entry is None:
+                lang_entry = language.find(locale)
+        else:
+            lang_entry = language.find(locale)
+        english_name = lang_entry.get("english_name", lang_entry["code"])
+        native_name = lang_entry["native_name"]
 
         if dry_run:
             logger.info(

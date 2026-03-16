@@ -10,6 +10,19 @@ from mdc_uploader.naming import parse_release_name
 from mdc_uploader.pipeline import build_jobs, process_locale, run_batch
 
 
+def _lang_entry(code: str, english: str, native: str) -> dict[str, object]:
+    """Build a minimal LanguageData dict for mocking."""
+    return {
+        "id": 1,
+        "code": code,
+        "english_name": english,
+        "native_name": native,
+        "text_direction": "LTR",
+        "variants": [],
+        "predefined_accents": [],
+    }
+
+
 @pytest.fixture
 def release_dir(tmp_path):
     """Create a test release directory with tarballs and datasheets."""
@@ -103,9 +116,10 @@ class TestProcessLocale:
     @patch("mdc_uploader.pipeline.language")
     @patch("mdc_uploader.language.all_codes")
     def test_dry_run_skips_upload(self, mock_all_codes, mock_lang, config):
-        """Dry run resolves language names but skips upload."""
+        """Dry run resolves language data but skips upload."""
         mock_all_codes.return_value = ["ga-IE", "en", "mt"]
-        mock_lang.find.return_value = ("Irish", "Gaeilge")
+        mock_lang.find.return_value = _lang_entry("ga-IE", "Irish", "Gaeilge")
+        mock_lang.find_by_variant.return_value = None
 
         spec = parse_release_name(config.release_name)
         jobs = build_jobs(config, spec)
@@ -120,7 +134,8 @@ class TestProcessLocale:
     @patch("mdc_uploader.pipeline.language")
     def test_missing_tarball_fails(self, mock_lang):
         """Missing tarball produces a failed result."""
-        mock_lang.find.return_value = ("Test", "Test")
+        mock_lang.find.return_value = _lang_entry("xx", "Test", "Test")
+        mock_lang.find_by_variant.return_value = None
 
         spec = parse_release_name("sps-corpus-3.0-2026-03-09")
         job = LocaleUploadJob(
@@ -144,7 +159,10 @@ class TestRunBatch:
     @patch("mdc_uploader.pipeline.language")
     def test_dry_run_succeeds(self, mock_lang, config, release_dir):
         """Dry run batch completes with success (no failures)."""
-        mock_lang.find.return_value = ("Test", "Test")
+        mock_lang.find.return_value = _lang_entry("ga-IE", "Test", "Test")
+        mock_lang.find_by_variant.return_value = None
+        mock_lang.all_codes.return_value = ["ga-IE", "en", "mt"]
+        mock_lang.init.return_value = None
 
         dry_config = UploaderConfig(
             release_name=config.release_name,

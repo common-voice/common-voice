@@ -87,11 +87,12 @@ def gcs_list_tarballs(
     release_name: str,
     subdir: str,
     license_name: str | None = None,
+    is_variants: bool = False,
 ) -> list[tuple[str, int]]:
     """List tarball blobs for known locales under a GCS prefix.
 
-    Uses the already-initialized LanguageRegistry as the source of known locale codes.
-    For each locale, constructs the expected blob name and checks if it exists.
+    Uses the already-initialized LanguageRegistry as the source of known codes.
+    For variants, checks variant codes. For other types, checks base locale codes.
     Returns list of (locale, size_bytes) sorted by size ascending.
     """
     from mdc_uploader import language  # pylint: disable=import-outside-toplevel
@@ -104,15 +105,16 @@ def gcs_list_tarballs(
     client = gcs_storage.Client()
     bucket = client.bucket(bucket_name)
 
+    codes = language.variant_codes() if is_variants else language.all_codes()
     results: list[tuple[str, int]] = []
 
-    for locale in language.all_codes():
-        fname = tarball_filename(locale, release_name, license_name)
+    for code in codes:
+        fname = tarball_filename(code, release_name, license_name)
         blob_path = f"{base_prefix}/{subdir}/{fname}" if base_prefix else f"{subdir}/{fname}"
         blob = bucket.blob(blob_path)
         if blob.exists():
             blob.reload()
-            results.append((locale, blob.size or 0))
+            results.append((code, blob.size or 0))
 
     results.sort(key=lambda x: x[1])
     return results

@@ -13,7 +13,52 @@ MDCTarget = Literal["dev", "prod"]
 """MDC environment target."""
 
 
-# -- TypedDicts ---------------------------------------------------------------
+# -- Language data (mirrors common/language.ts) --------------------------------
+
+
+class VariantData(TypedDict):
+    """A locale variant (e.g. fr-europe, cy-southwes)."""
+
+    id: int
+    code: str
+    name: str
+    type: str | None
+    locale_id: int
+
+
+class AccentData(TypedDict):
+    """A predefined accent (e.g. us, australia)."""
+
+    id: int
+    code: str
+    name: str
+    locale_id: int
+
+
+class _LanguageDataOptional(TypedDict, total=False):
+    """Optional fields in the languagedata API response."""
+
+    target_sentence_count: int
+    english_name: str
+    is_contributable: int
+    is_translated: int
+
+
+class LanguageData(_LanguageDataOptional):
+    """Full locale entry from the Common Voice languagedata API.
+
+    Mirrors common/language.ts:LanguageData.
+    """
+
+    id: int
+    code: str
+    native_name: str
+    text_direction: str
+    variants: list[VariantData]
+    predefined_accents: list[AccentData]
+
+
+# -- Batch state ---------------------------------------------------------------
 
 
 class _LocaleStateOptional(TypedDict, total=False):
@@ -48,9 +93,3 @@ class RetryStateData(TypedDict):
     type: str
     base_dir: str | None
     failed_locales: list[str]
-
-
-# -- Type aliases -------------------------------------------------------------
-
-LanguageNames = tuple[str, str]
-"""(english_name, native_name) pair for a locale."""
