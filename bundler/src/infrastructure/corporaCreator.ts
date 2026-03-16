@@ -58,6 +58,11 @@ const runCorporaCreatorPromise = (locale: string, releaseDirPath: string) =>
       },
     })
 
+    // Drain stdout to prevent pipe buffer from filling and blocking the child.
+    // With TQDM_DISABLE=1 there should be minimal output, but CC or swifter
+    // multiprocessing workers may still write to stdout.
+    cc.stdout.resume()
+
     // Buffer stderr -- swifter/tqdm progress bars + pandas warnings.
     // Only surfaced on failure; suppressed on success (pure noise).
     const MAX_STDERR = 64 * 1024
