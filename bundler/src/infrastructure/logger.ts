@@ -30,7 +30,17 @@ const emit = (level: LogLevel, operation: string, message: string): void => {
   if (LEVEL_RANK[level] < LEVEL_RANK[currentLevel]) return
 
   const op = operation ? ` ${operation}` : ''
-  const line = `[${SRV_ID}|${timestamp()}] ${level.toUpperCase().padEnd(5)}${op} ${message}`
+
+  // Hoist leading locale tag from message: "[en] rest" -> " [en]" before op
+  let localeTag = ''
+  let body = message
+  const match = message.match(/^\[([^\]]+)\]\s*/)
+  if (match) {
+    localeTag = ` ${match[0].trimEnd()}`
+    body = message.slice(match[0].length)
+  }
+
+  const line = `[${SRV_ID}|${timestamp()}] ${level.toUpperCase().padEnd(5)}${localeTag}${op} ${body}`
 
   if (level === 'error' || level === 'warn') {
     process.stderr.write(line + '\n')
