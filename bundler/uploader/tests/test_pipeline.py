@@ -51,8 +51,11 @@ def config(release_dir):
 class TestBuildJobs:
     """Tests for job building and locale detection."""
 
-    def test_auto_detects_locales_sorted_by_size(self, config):
+    @patch("mdc_uploader.language.all_codes")
+    def test_auto_detects_locales_sorted_by_size(self, mock_all_codes, config):
         """Auto-detected locales are sorted smallest-first."""
+        mock_all_codes.return_value = ["ga-IE", "en", "mt"]
+
         spec = parse_release_name(config.release_name)
         jobs = build_jobs(config, spec)
 
@@ -82,8 +85,11 @@ class TestBuildJobs:
         assert jobs[0].locale == "ga-IE"
         assert jobs[0].datasheet_path is not None
 
-    def test_missing_datasheet_is_none(self, config):
+    @patch("mdc_uploader.language.all_codes")
+    def test_missing_datasheet_is_none(self, mock_all_codes, config):
         """Locales without datasheets get datasheet_path=None."""
+        mock_all_codes.return_value = ["ga-IE", "en", "mt"]
+
         spec = parse_release_name(config.release_name)
         jobs = build_jobs(config, spec)
 
@@ -95,8 +101,10 @@ class TestProcessLocale:
     """Tests for single-locale upload processing."""
 
     @patch("mdc_uploader.pipeline.language")
-    def test_dry_run_skips_upload(self, mock_lang, config):
+    @patch("mdc_uploader.language.all_codes")
+    def test_dry_run_skips_upload(self, mock_all_codes, mock_lang, config):
         """Dry run resolves language names but skips upload."""
+        mock_all_codes.return_value = ["ga-IE", "en", "mt"]
         mock_lang.find.return_value = ("Irish", "Gaeilge")
 
         spec = parse_release_name(config.release_name)

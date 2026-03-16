@@ -86,11 +86,17 @@ def gcs_list_tarballs(
     gcs_uri: str,
     release_name: str,
     subdir: str,
+    license_name: str | None = None,
 ) -> list[tuple[str, int]]:
-    """List tarball blobs under a GCS prefix.
+    """List tarball blobs for known locales under a GCS prefix.
 
+    Uses the already-initialized LanguageRegistry as the source of known locale codes.
+    For each locale, constructs the expected blob name and checks if it exists.
     Returns list of (locale, size_bytes) sorted by size ascending.
     """
+    from mdc_uploader import language  # pylint: disable=import-outside-toplevel
+    from mdc_uploader.naming import tarball_filename  # pylint: disable=import-outside-toplevel
+
     _require_gcs()
     assert gcs_storage is not None
     bucket_name, base_prefix = _parse_gcs_uri(gcs_uri)
@@ -98,16 +104,14 @@ def gcs_list_tarballs(
     client = gcs_storage.Client()
     bucket = client.bucket(bucket_name)
 
-    prefix = f"{base_prefix}/{subdir}/" if base_prefix else f"{subdir}/"
-    blobs = bucket.list_blobs(prefix=prefix)
-
-    tarball_prefix = f"{release_name}-"
     results: list[tuple[str, int]] = []
 
-    for blob in blobs:
-        name = os.path.basename(blob.name)
-        if name.startswith(tarball_prefix) and name.endswith(".tar.gz"):
-            locale = name[len(tarball_prefix) : -len(".tar.gz")]
+    for locale in language.all_codes():
+        fname = tarball_filename(locale, release_name, license_name)
+        blob_path = f"{base_prefix}/{subdir}/{fname}" if base_prefix else f"{subdir}/{fname}"
+        blob = bucket.blob(blob_path)
+        if blob.exists():
+            blob.reload()
             results.append((locale, blob.size or 0))
 
     results.sort(key=lambda x: x[1])

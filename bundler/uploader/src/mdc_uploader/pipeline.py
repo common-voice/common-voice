@@ -47,7 +47,7 @@ def _build_jobs_gcs(
         # Use explicit locales; sizes will be discovered at download time
         locale_sizes = [(loc, 0) for loc in config.locales]
     else:
-        locale_sizes = gcs_list_tarballs(config.base_dir, config.release_name, subdir)
+        locale_sizes = gcs_list_tarballs(config.base_dir, config.release_name, subdir, license_name)
 
     jobs: list[LocaleUploadJob] = []
     for locale, size in locale_sizes:
@@ -81,7 +81,9 @@ def _build_jobs_local(
     if config.locales:
         locales = config.locales
     else:
-        locales = detect_locales(config.base_dir, config.release_name, config.release_type)
+        locales = detect_locales(
+            config.base_dir, config.release_name, config.release_type, license_name
+        )
 
     jobs: list[LocaleUploadJob] = []
     for locale in locales:

@@ -8,7 +8,6 @@ Mirrors the naming logic from the Node.js bundler:
 
 from __future__ import annotations
 
-import glob
 import os
 import re
 
@@ -118,42 +117,30 @@ def detect_locales(
     base_dir: str,
     release_name: str,
     release_type: ReleaseType,
+    license_name: str | None = None,
 ) -> list[str]:
-    """Auto-detect locales by globbing tarball files in the release directory.
+    """Auto-detect locales from the language registry by checking which tarballs exist.
 
+    Uses the already-initialized LanguageRegistry as the source of known locale codes.
+    For each locale, constructs the expected tarball path and checks if the file exists.
     Returns locale codes sorted by file size (smallest first).
     """
-    directory = os.path.join(base_dir, tarball_dir(release_name, release_type))
-    pattern = os.path.join(directory, f"{release_name}-*.tar.gz")
-    files = glob.glob(pattern)
+    from mdc_uploader import language  # pylint: disable=import-outside-toplevel
 
-    if not files:
-        raise FileNotFoundError(
-            f"No tarballs found matching {pattern}. Check --base-dir and --release values."
-        )
-
-    # Extract locale from filename: {release_name}-{locale}[...].tar.gz
-    prefix = f"{release_name}-"
     locale_files: list[tuple[str, int]] = []
 
-    for filepath in files:
-        basename = os.path.basename(filepath)
-        if not basename.startswith(prefix):
-            continue
-        # Strip prefix and .tar.gz suffix
-        rest = basename[len(prefix) : -len(".tar.gz")]
-        # For licensed: rest = "en-CC_BY_4_0" -> locale = "en"
-        # For variants: rest = "cy-southwes" -> locale = "cy-southwes"
-        # For full: rest = "en" or "ga-IE" -> locale = rest
-        # Licensed files have the sanitized license appended after locale.
-        # We keep the full rest as the locale identifier for variants,
-        # but for licensed we need to strip the license suffix.
-        # Since we glob per release_type directory, the interpretation is clear.
-        locale = rest
-        size = os.path.getsize(filepath)
-        locale_files.append((locale, size))
+    for locale in language.all_codes():
+        tb = tarball_path(base_dir, release_name, locale, release_type, license_name)
+        if os.path.exists(tb):
+            locale_files.append((locale, os.path.getsize(tb)))
 
-    # Sort smallest first (single-pod strategy)
+    if not locale_files:
+        directory = os.path.join(base_dir, tarball_dir(release_name, release_type))
+        raise FileNotFoundError(
+            f"No tarballs found in {directory} for any known locale. "
+            "Check --base-dir and --release values."
+        )
+
     locale_files.sort(key=lambda x: x[1])
     return [lf[0] for lf in locale_files]
 

@@ -1,5 +1,7 @@
 """Tests for naming.py -- release parsing and path construction."""
 
+from unittest.mock import patch
+
 import pytest
 
 from mdc_uploader.models import Modality, ReleaseType
@@ -153,26 +155,62 @@ class TestDatasheetPath:
 
 
 class TestDetectLocales:
-    """Tests for detect_locales."""
+    """Tests for detect_locales (registry-first approach)."""
 
-    def test_detects_and_sorts_by_size(self, tmp_path):
+    @patch("mdc_uploader.language.all_codes")
+    def test_detects_and_sorts_by_size(self, mock_all_codes, tmp_path):
         """Auto-detected locales are sorted smallest-first."""
+        mock_all_codes.return_value = ["en", "mt", "de", "fr"]
+
         release_dir = tmp_path / REL_SCS
         release_dir.mkdir()
 
         (release_dir / f"{REL_SCS}-en.tar.gz").write_bytes(b"x" * 1000)
         (release_dir / f"{REL_SCS}-mt.tar.gz").write_bytes(b"x" * 10)
         (release_dir / f"{REL_SCS}-de.tar.gz").write_bytes(b"x" * 500)
+        # fr has no tarball -- should be skipped
 
         locales = detect_locales(str(tmp_path), REL_SCS, ReleaseType.FULL)
         assert locales == ["mt", "de", "en"]
 
-    def test_empty_dir_raises(self, tmp_path):
-        """Empty release directory raises FileNotFoundError."""
+    @patch("mdc_uploader.language.all_codes")
+    def test_empty_dir_raises(self, mock_all_codes, tmp_path):
+        """No matching tarballs raises FileNotFoundError."""
+        mock_all_codes.return_value = ["en", "de"]
         (tmp_path / REL_SCS).mkdir()
 
         with pytest.raises(FileNotFoundError, match="No tarballs found"):
             detect_locales(str(tmp_path), REL_SCS, ReleaseType.FULL)
+
+    @patch("mdc_uploader.language.all_codes")
+    def test_licensed_locales_detected(self, mock_all_codes, tmp_path):
+        """Licensed tarballs are found using constructed paths (no suffix parsing)."""
+        mock_all_codes.return_value = ["en", "ga-IE"]
+
+        release_dir = tmp_path / f"{REL_SCS}-licensed"
+        release_dir.mkdir()
+
+        (release_dir / f"{REL_SCS}-en-CC-BY_4.0.tar.gz").write_bytes(b"x" * 500)
+        (release_dir / f"{REL_SCS}-ga-IE-CC-BY_4.0.tar.gz").write_bytes(b"x" * 100)
+
+        locales = detect_locales(
+            str(tmp_path), REL_SCS, ReleaseType.LICENSED, license_name="CC-BY 4.0"
+        )
+        assert locales == ["ga-IE", "en"]
+
+    @patch("mdc_uploader.language.all_codes")
+    def test_only_existing_tarballs_returned(self, mock_all_codes, tmp_path):
+        """Locales without tarballs are excluded."""
+        mock_all_codes.return_value = ["en", "de", "fr", "mt"]
+
+        release_dir = tmp_path / REL_SCS
+        release_dir.mkdir()
+
+        (release_dir / f"{REL_SCS}-en.tar.gz").write_bytes(b"x" * 100)
+        # de, fr, mt have no tarballs
+
+        locales = detect_locales(str(tmp_path), REL_SCS, ReleaseType.FULL)
+        assert locales == ["en"]
 
 
 class TestMdcDatasetName:

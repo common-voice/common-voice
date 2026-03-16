@@ -59,6 +59,15 @@ class LanguageRegistry:
         self._initialized = True
         logger.info("LANG", "Initialized: %d locales", len(self._registry))
 
+    def all_codes(self) -> list[str]:
+        """Return all known locale codes.
+
+        Raises RuntimeError if init() has not been called.
+        """
+        if not self._initialized:
+            raise RuntimeError("LanguageRegistry.init() must be called before all_codes()")
+        return list(self._registry.keys())
+
     def find(self, locale: str) -> LanguageNames:
         """Look up language names for a locale.
 
@@ -100,3 +109,4 @@ class LanguageRegistry:
 _instance = LanguageRegistry()
 init = _instance.init
 find = _instance.find
+all_codes = _instance.all_codes
