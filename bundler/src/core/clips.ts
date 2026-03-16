@@ -286,7 +286,7 @@ const mergeClipsFromLocalSources = (
 
     logger.info(
       'CLIPS-MERGE',
-      `[${locale}] ${fromPrev} from prev release, ${fromDelta} from delta, ${missing} pending GCS fallback`,
+      `[${locale}] ${fromPrev} from prev release, ${fromDelta} from delta, ${missing} not found locally`,
     )
   }, logError)
 
@@ -461,7 +461,7 @@ const downloadPreviousRelease = (
   const storagePath = `${prevReleaseName}/${tarFilename}`
 
   const downloadRelease = TE.tryCatch(async () => {
-    logger.info('PREV-DL', `START downloading prev release ${storagePath}`)
+    logger.info('PREV-DL', `[${locale}] Downloading ${storagePath}`)
     const writeStream = fs.createWriteStream(
       path.join(getTmpDir(), tarFilename),
     )
@@ -480,7 +480,7 @@ const downloadPreviousRelease = (
       if (!doesPrevReleaseExist) {
         logger.info(
           'PREV-DL',
-          `Previous release tarball not found in GCS: ${storagePath}`,
+          `[${locale}] ${storagePath} not found in GCS`,
         )
         return TE.right(constVoid())
       }
