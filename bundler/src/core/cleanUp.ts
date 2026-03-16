@@ -28,9 +28,10 @@ export const cleanUp = (
       // Tmp clips metadata TSV from DB query
       await fs.rm(path.join(tmpDir, `${locale}_clips.tsv`), { force: true })
 
-      // Previous release: extracted directory + partially downloaded tarball
+      // Previous release: locale subtree only (other locales may be in use
+      // by concurrent jobs) + partially downloaded tarball
       if (prevReleaseName) {
-        await fs.rm(path.join(tmpDir, prevReleaseName), {
+        await fs.rm(path.join(tmpDir, prevReleaseName, locale), {
           recursive: true,
           force: true,
         })
