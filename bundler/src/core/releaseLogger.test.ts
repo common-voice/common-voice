@@ -64,9 +64,9 @@ const makeEnv = (overrides: Partial<AppEnv> = {}): AppEnv => ({
 // ---------------------------------------------------------------------------
 
 describe('buildProcessLogRow', () => {
-  it('produces a tab-separated row with all 11 columns', () => {
+  it('produces a tab-separated row with all 12 columns', () => {
     const row = buildProcessLogRow(makeEnv({ clipCount: 1000 }), FINISH, 'success')
-    expect(row.split('\t')).toHaveLength(11)
+    expect(row.split('\t')).toHaveLength(12)
   })
 
   it('first column is locale', () => {
@@ -218,7 +218,7 @@ describe('flushReleaseLogs', () => {
     await flushReleaseLogs(makeEnv(), 'success')
     const header = (mockUploadFn.mock.calls[0][0] as Buffer).toString('utf-8').split('\n')[0]
     expect(header).toBe(
-      'locale\trelease_type\tfinal_path\tstart_timestamp\tfinish_timestamp\tduration_sec\tduration\tnum_clips\tspeed\tstatus\tproblem_clips',
+      'locale\trelease_type\tfinal_path\tstart_timestamp\tfinish_timestamp\tduration_sec\tduration\tnum_clips\tspeed\tstatus\tproblem_clips\terror_message',
     )
   })
 

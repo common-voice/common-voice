@@ -147,4 +147,5 @@ export type AppEnv = Settings & {
   problemClips: ProblemClip[] // mutable accumulator, freshly initialised per job
   clipCount: number // set after stats step; 0 until then
   startTimestamp: string // ISO 8601 -- set by deriveJobEnv at job start
+  errorMessage?: string // set on pipeline failure for process-log persistence
 }

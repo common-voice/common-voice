@@ -249,21 +249,12 @@ export const processLocale = async (job: Job<ProcessLocaleJob>, token?: string) 
         `[${locale}] Done: ${env.clipCount.toLocaleString()} clips | ${hours}h recorded`,
       )
     } else {
-      logger.error('PROCESSOR', `[${locale}] Failed: ${String(result.left)}`)
-      // Pipeline failed -- clean up temp files to free disk space.
-      // Without this, partial downloads / extracted tarballs accumulate
-      // and cause cascading ENOSPC failures for subsequent jobs.
-      // Skip in local env (same as runCleanUp) to keep artifacts for debugging.
-      if (getEnvironment() !== 'local') {
-        const cleanResult = await cleanUp(
-          locale, env.releaseDirPath, '', env.previousReleaseName, env.deltaReleaseName, env.license,
-        )()
-        if (E.isLeft(cleanResult)) {
-          logger.warn('PROCESSOR', `[${locale}] Error-path cleanup failed: ${String(cleanResult.left)}`)
-        } else {
-          logger.info('PROCESSOR', `[${locale}] Error-path cleanup done`)
-        }
-      }
+      const errMsg = String(result.left)
+      env.errorMessage = errMsg
+      logger.error('PROCESSOR', `[${locale}] Failed: ${errMsg}`)
+      // Repeat on stdout -- stderr lines can be lost in GCP log aggregation
+      // when multiple writes happen in the same millisecond across fds.
+      logger.info('PROCESSOR', `[${locale}] FAILED: ${errMsg}`)
     }
     await flushReleaseLogs(env, E.isRight(result) ? 'success' : 'error')
   } finally {

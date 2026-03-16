@@ -17,7 +17,7 @@ const BUCKET = getDatasetBundlerBucketName()
 const uploadToDatasetBucket = uploadToBucket(BUCKET)
 
 const PROCESS_LOG_HEADER =
-  'locale\trelease_type\tfinal_path\tstart_timestamp\tfinish_timestamp\tduration_sec\tduration\tnum_clips\tspeed\tstatus\tproblem_clips'
+  'locale\trelease_type\tfinal_path\tstart_timestamp\tfinish_timestamp\tduration_sec\tduration\tnum_clips\tspeed\tstatus\tproblem_clips\terror_message'
 
 
 /** Width of the ASCII progress bar (in characters). */
@@ -41,6 +41,8 @@ export const buildProcessLogRow = (
     durationMs === 0
       ? '0.00'
       : (env.clipCount / (durationMs / TimeUnitsMs.SECOND)).toFixed(2)
+  // Sanitize error message for TSV (replace tabs/newlines to keep single-row)
+  const errorMsg = (env.errorMessage ?? '').replace(/[\t\r\n]/g, ' ').slice(0, 500)
   return [
     env.locale,
     env.type,
@@ -53,6 +55,7 @@ export const buildProcessLogRow = (
     speed,
     status,
     env.problemClips.length,
+    errorMsg,
   ].join('\t')
 }
 
