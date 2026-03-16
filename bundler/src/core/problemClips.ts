@@ -1,5 +1,6 @@
 import * as fs from 'node:fs'
 import * as path from 'node:path'
+import { createInterface } from 'node:readline'
 
 import { readerTaskEither as RTE, taskEither as TE } from 'fp-ts'
 import { constVoid, pipe } from 'fp-ts/lib/function'
@@ -54,13 +55,23 @@ export const runFilterProblemClips = (
         // Parse clip_durations.tsv -- format: two tab-separated columns with header
         // clip	duration[ms]
         // common_voice_en_1234.mp3	6120
-        const lines = fs.readFileSync(durationsPath, 'utf-8').split('\n')
         const durationMap = new Map<string, number>()
-        for (const line of lines.slice(1)) {
-          if (!line.trim()) continue
-          const [clip, durationStr] = line.split('\t')
-          if (clip && durationStr !== undefined) {
-            durationMap.set(clip, Number(durationStr))
+        {
+          const rl = createInterface({
+            input: fs.createReadStream(durationsPath, { encoding: 'utf-8' }),
+            crlfDelay: Infinity,
+          })
+          let isHeader = true
+          for await (const line of rl) {
+            if (isHeader) { isHeader = false; continue }
+            if (!line.trim()) continue
+            const tab = line.indexOf('\t')
+            if (tab < 0) continue
+            const clip = line.slice(0, tab)
+            const durationStr = line.slice(tab + 1)
+            if (clip) {
+              durationMap.set(clip, Number(durationStr))
+            }
           }
         }
 
@@ -111,21 +122,37 @@ export const runFilterProblemClips = (
           }
         }
 
-        // Rewrite clips.tsv removing only EXCLUDED clips.
+        // Rewrite clips.tsv removing only EXCLUDED clips (streaming).
         // The `path` column in clips.tsv is the second column (index 1).
         if (excludedClips.size > 0 && fs.existsSync(clipsPath)) {
-          const clipsLines = fs.readFileSync(clipsPath, 'utf-8').split('\n')
-          const [header, ...dataLines] = clipsLines
-          const filtered = dataLines.filter(line => {
-            if (!line.trim()) return false
-            const clipFile = line.split('\t')[1]
-            return !excludedClips.has(clipFile)
+          const tmpPath = clipsPath + '.tmp'
+          const rl = createInterface({
+            input: fs.createReadStream(clipsPath, { encoding: 'utf-8' }),
+            crlfDelay: Infinity,
           })
-          fs.writeFileSync(
-            clipsPath,
-            [header, ...filtered].join('\n') + '\n',
-            'utf-8',
-          )
+          const ws = fs.createWriteStream(tmpPath, { encoding: 'utf-8' })
+
+          let isHeader = true
+          for await (const line of rl) {
+            if (isHeader) {
+              ws.write(line + '\n')
+              isHeader = false
+              continue
+            }
+            if (!line.trim()) continue
+            const clipFile = line.split('\t')[1]
+            if (!excludedClips.has(clipFile)) {
+              ws.write(line + '\n')
+            }
+          }
+
+          await new Promise<void>((resolve, reject) => {
+            ws.on('finish', resolve)
+            ws.on('error', reject)
+            ws.end()
+          })
+          await fs.promises.rename(tmpPath, clipsPath)
+
           logger.info(
             'PROBLEM-CLIPS',
             `[${locale}] Removed ${excludedClips.size} excluded clip(s) from clips.tsv`,

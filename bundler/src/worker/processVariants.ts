@@ -215,35 +215,52 @@ const uploadToGcsDir = (
  *
  * Only processes files that exist; silently skips missing ones.
  */
-export const rewriteLocaleColumn = (
+export const rewriteLocaleColumn = async (
   dir: string,
   filenames: string[],
   fromLocale: string,
   toLocale: string,
-): void => {
+): Promise<void> => {
   for (const filename of filenames) {
     const filepath = path.join(dir, filename)
     if (!fs.existsSync(filepath)) continue
 
-    const content = fs.readFileSync(filepath, 'utf-8')
-    const lines = content.split('\n')
-    if (lines.length === 0) continue
+    const tmpPath = filepath + '.tmp'
+    const rl = createInterface({
+      input: fs.createReadStream(filepath, { encoding: 'utf-8' }),
+      crlfDelay: Infinity,
+    })
+    const ws = fs.createWriteStream(tmpPath, { encoding: 'utf-8' })
 
-    // Find the locale column index from the header
-    const header = lines[0].split('\t')
-    const localeIdx = header.indexOf('locale')
-    if (localeIdx === -1) continue
+    let localeIdx = -1
+    let isHeader = true
 
-    const rewritten = lines.map((line, i) => {
-      if (i === 0 || !line.trim()) return line
+    for await (const line of rl) {
+      if (isHeader) {
+        isHeader = false
+        const header = line.split('\t')
+        localeIdx = header.indexOf('locale')
+        ws.write(line + '\n')
+        continue
+      }
+      if (localeIdx === -1 || !line.trim()) {
+        ws.write(line + '\n')
+        continue
+      }
       const cols = line.split('\t')
       if (cols[localeIdx] === fromLocale) {
         cols[localeIdx] = toLocale
       }
-      return cols.join('\t')
-    })
+      ws.write(cols.join('\t') + '\n')
+    }
 
-    fs.writeFileSync(filepath, rewritten.join('\n'), 'utf-8')
+    await new Promise<void>((resolve, reject) => {
+      ws.on('finish', resolve)
+      ws.on('error', reject)
+      ws.end()
+    })
+    await fs.promises.rename(tmpPath, filepath)
+
     logger.debug(
       'PIPELINE-TOOLS',
       `[${filename}] Rewrote locale column: ${fromLocale} -> ${toLocale}`,
@@ -286,40 +303,55 @@ const linkMatchingClips = (
  * Removes rows from clips.tsv whose path column references a missing MP3.
  * Returns the reduced set of clip paths that remain.
  */
-const reconcileClipsTsv = (
+const reconcileClipsTsv = async (
   clipsTsvPath: string,
   missingClips: Set<string>,
-): Set<string> => {
-  const content = fs.readFileSync(clipsTsvPath, 'utf-8')
-  const lines = content.split('\n')
-  const header = lines[0]
-  const kept: string[] = [header]
+): Promise<Set<string>> => {
+  const tmpPath = clipsTsvPath + '.tmp'
+  const rl = createInterface({
+    input: fs.createReadStream(clipsTsvPath, { encoding: 'utf-8' }),
+    crlfDelay: Infinity,
+  })
+  const ws = fs.createWriteStream(tmpPath, { encoding: 'utf-8' })
   const keptPaths = new Set<string>()
 
-  for (let i = 1; i < lines.length; i++) {
-    const line = lines[i]
+  let isHeader = true
+  for await (const line of rl) {
+    if (isHeader) {
+      ws.write(line + '\n')
+      isHeader = false
+      continue
+    }
     if (!line.trim()) continue
     const clipPath = line.split('\t')[1]
     if (clipPath && !missingClips.has(clipPath)) {
-      kept.push(line)
+      ws.write(line + '\n')
       keptPaths.add(clipPath)
     }
   }
 
-  fs.writeFileSync(clipsTsvPath, kept.join('\n') + '\n', 'utf-8')
+  await new Promise<void>((resolve, reject) => {
+    ws.on('finish', resolve)
+    ws.on('error', reject)
+    ws.end()
+  })
+  await fs.promises.rename(tmpPath, clipsTsvPath)
   return keptPaths
 }
 
 /**
  * Extracts the set of clip filenames (path column) from a clips.tsv file.
  */
-const extractClipPaths = (clipsTsvPath: string): Set<string> => {
-  const content = fs.readFileSync(clipsTsvPath, 'utf-8')
-  const lines = content.split('\n')
+const extractClipPaths = async (clipsTsvPath: string): Promise<Set<string>> => {
+  const rl = createInterface({
+    input: fs.createReadStream(clipsTsvPath, { encoding: 'utf-8' }),
+    crlfDelay: Infinity,
+  })
   const paths = new Set<string>()
+  let isHeader = true
   // path is column index 1 (after client_id)
-  for (let i = 1; i < lines.length; i++) {
-    const line = lines[i]
+  for await (const line of rl) {
+    if (isHeader) { isHeader = false; continue }
     if (!line.trim()) continue
     const clipPath = line.split('\t')[1]
     if (clipPath) paths.add(clipPath)
@@ -526,7 +558,7 @@ export const processVariants = async (job: Job<ProcessLocaleJob>) => {
       logger.info('VARIANTS', `[${compoundLocale}] ${matchCount} clips matched`)
 
       // 5c. Hard-link matching MP3 files
-      let clipPaths = extractClipPaths(variantClipsTsv)
+      let clipPaths = await extractClipPaths(variantClipsTsv)
       const variantClipsDir = path.join(variantDir, 'clips')
       const linkResult = linkMatchingClips(srcClipsDir, variantClipsDir, clipPaths)
       logger.info('VARIANTS', `[${compoundLocale}] Linked ${linkResult.linked} MP3 files`)
@@ -539,7 +571,7 @@ export const processVariants = async (job: Job<ProcessLocaleJob>) => {
           `[${compoundLocale}] ${linkResult.missing.length} clip(s) in TSV but missing from source -- removing from clips.tsv`,
         )
         const missingSet = new Set(linkResult.missing)
-        clipPaths = reconcileClipsTsv(variantClipsTsv, missingSet)
+        clipPaths = await reconcileClipsTsv(variantClipsTsv, missingSet)
       }
 
       // 5d. Filter clip_durations.tsv
@@ -568,7 +600,7 @@ export const processVariants = async (job: Job<ProcessLocaleJob>) => {
       // 5g. UNDO HACK: Rewrite locale column back to original locale in CC output files.
       // CC wrote the compound locale (e.g. "cy-southwes") because it uses the locale column
       // for directory routing. Tarball consumers should see the real locale (e.g. "cy").
-      rewriteLocaleColumn(
+      await rewriteLocaleColumn(
         path.join(env.releaseDirPath, compoundLocale),
         CC_FILES_WITH_LOCALE,
         compoundLocale,
