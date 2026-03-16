@@ -30,7 +30,7 @@ class BatchState:
 
     @staticmethod
     def _build_path(release: str) -> str:
-        ts = datetime.now(UTC).strftime("%Y%m%dT%H%M%S")
+        ts = datetime.now(UTC).strftime("%Y%m%dT%H%M%S%f")
         return f"upload-state-{release}-{ts}.json"
 
     @property
