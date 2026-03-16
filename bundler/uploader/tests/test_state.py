@@ -30,7 +30,7 @@ class TestBatchState:
 
         assert state.locales["en"]["status"] == "success"
         assert state.locales["en"]["size_bytes"] == 1000
-        assert state.locales["en"]["submission_id"] == "sub-123" # type: ignore
+        assert state.locales["en"]["submission_id"] == "sub-123"  # type: ignore
 
     def test_record_failed_with_error(self, tmp_path: object) -> None:
         """Failed result includes error message."""
@@ -48,7 +48,7 @@ class TestBatchState:
         state.record(result)
 
         assert state.locales["de"]["status"] == "failed"
-        assert state.locales["de"]["error"] == "Connection timeout" # type: ignore
+        assert state.locales["de"]["error"] == "Connection timeout"  # type: ignore
 
     def test_record_orphaned_draft(self, tmp_path: object) -> None:
         """Orphaned draft is tracked in state."""
@@ -67,8 +67,8 @@ class TestBatchState:
         )
         state.record(result)
 
-        assert state.locales["fr"]["orphaned_draft"] is True # type: ignore
-        assert state.locales["fr"]["submission_id"] == "orphan-456" # type: ignore
+        assert state.locales["fr"]["orphaned_draft"] is True  # type: ignore
+        assert state.locales["fr"]["submission_id"] == "orphan-456"  # type: ignore
 
     def test_summary_counts(self, tmp_path: object) -> None:
         """Summary returns correct success/failed/skipped counts."""

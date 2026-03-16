@@ -31,12 +31,14 @@ class TestReleaseType:
     def test_values(self) -> None:
         """ReleaseType enum has expected values."""
         assert ReleaseType.FULL == "full"
+        assert ReleaseType.DELTA == "delta"
         assert ReleaseType.LICENSED == "licensed"
         assert ReleaseType.VARIANTS == "variants"
 
     def test_from_string(self) -> None:
         """ReleaseType can be constructed from string."""
         assert ReleaseType("full") == ReleaseType.FULL
+        assert ReleaseType("delta") == ReleaseType.DELTA
         assert ReleaseType("licensed") == ReleaseType.LICENSED
 
 

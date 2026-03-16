@@ -19,6 +19,7 @@ class ReleaseType(StrEnum):
     """Release type determining tarball directory and license."""
 
     FULL = "full"
+    DELTA = "delta"
     LICENSED = "licensed"
     VARIANTS = "variants"
 
@@ -31,6 +32,7 @@ class ReleaseSpec:
     modality: Modality
     version: str
     date: str
+    is_delta: bool = False
 
     @property
     def prefix(self) -> str:

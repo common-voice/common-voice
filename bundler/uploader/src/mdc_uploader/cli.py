@@ -67,7 +67,7 @@ Environment variables:
     type=click.Choice([t.value for t in ReleaseType]),
     default="full",
     show_default=True,
-    help="Dataset release type: full (CC0), licensed (CC-BY 4.0), or variants.",
+    help="Dataset release type: full (CC0), delta (CC0), licensed (CC-BY 4.0), or variants.",
 )
 @click.option(
     "--base-dir",

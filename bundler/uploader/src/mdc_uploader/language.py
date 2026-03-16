@@ -90,7 +90,7 @@ class LanguageRegistry:
     def _fetch_from_api(self) -> None:
         """Fetch all locales from the CV languagedata API."""
         logger.info("LANG", "Fetching language data from %s", CV_API_URL)
-        with httpx.Client(timeout=30.0, verify=False) as client:
+        with httpx.Client(timeout=30.0) as client:
             resp = client.get(CV_API_URL)
             resp.raise_for_status()
             data: list[dict[str, Any]] = resp.json()

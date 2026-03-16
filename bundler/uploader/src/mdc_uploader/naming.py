@@ -18,30 +18,26 @@ def parse_release_name(name: str) -> ReleaseSpec:
     """Parse a release name into its components.
 
     Examples:
-        cv-corpus-25.0-2026-03-09  -> SCS, version=25.0, date=2026-03-09
-        sps-corpus-3.0-2026-03-09  -> SPS, version=3.0, date=2026-03-09
+        cv-corpus-25.0-2026-03-09        -> SCS, version=25.0, date=2026-03-09
+        cv-corpus-25.0-delta-2026-03-09  -> SCS, version=25.0, date=2026-03-09 (delta)
+        sps-corpus-3.0-2026-03-09        -> SPS, version=3.0, date=2026-03-09
+        sps-corpus-3.0-delta-2026-03-09  -> SPS, version=3.0, date=2026-03-09 (delta)
     """
-    scs_match = re.match(r"^cv-corpus-(\d+\.\d+)-(\d{4}-\d{2}-\d{2})$", name)
-    if scs_match:
+    # Pattern: {cv|sps}-corpus-{version}[-delta]-{date}
+    match = re.match(r"^(cv|sps)-corpus-(\d+\.\d+)(?:-(delta))?-(\d{4}-\d{2}-\d{2})$", name)
+    if match:
+        prefix = match.group(1)
+        modality = Modality.SCS if prefix == "cv" else Modality.SPS
         return ReleaseSpec(
             release_name=name,
-            modality=Modality.SCS,
-            version=scs_match.group(1),
-            date=scs_match.group(2),
-        )
-
-    sps_match = re.match(r"^sps-corpus-(\d+\.\d+)-(\d{4}-\d{2}-\d{2})$", name)
-    if sps_match:
-        return ReleaseSpec(
-            release_name=name,
-            modality=Modality.SPS,
-            version=sps_match.group(1),
-            date=sps_match.group(2),
+            modality=modality,
+            version=match.group(2),
+            date=match.group(4),
+            is_delta="delta" == match.group(3),
         )
 
     raise ValueError(
-        f"Invalid release name: {name!r}. "
-        "Expected cv-corpus-X.Y-YYYY-MM-DD or sps-corpus-X.Y-YYYY-MM-DD"
+        f"Invalid release name: {name!r}. Expected [cv|sps]-corpus-X.Y[-delta]-YYYY-MM-DD"
     )
 
 
@@ -55,8 +51,12 @@ def sanitize_license_name(license_name: str) -> str:
 
 
 def tarball_dir(release_name: str, release_type: ReleaseType) -> str:
-    """Return the directory name for tarballs of a given release type."""
-    if release_type == ReleaseType.FULL:
+    """Return the directory name for tarballs of a given release type.
+
+    Delta releases use the release name as-is (the name already contains '-delta-').
+    Licensed appends '-licensed' to any release name (full or delta).
+    """
+    if release_type in (ReleaseType.FULL, ReleaseType.DELTA):
         return release_name
     if release_type == ReleaseType.LICENSED:
         return f"{release_name}-licensed"

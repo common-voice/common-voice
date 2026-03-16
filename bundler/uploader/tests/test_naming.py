@@ -18,6 +18,8 @@ from mdc_uploader.naming import (
 
 REL_SCS = "cv-corpus-25.0-2026-03-09"
 REL_SPS = "sps-corpus-3.0-2026-03-09"
+REL_SCS_DELTA = "cv-corpus-25.0-delta-2026-03-09"
+REL_SPS_DELTA = "sps-corpus-3.0-delta-2026-03-09"
 
 
 class TestParseReleaseName:
@@ -33,6 +35,7 @@ class TestParseReleaseName:
         assert spec.prefix == "cv-corpus"
         assert spec.modality_display == "Scripted Speech"
         assert spec.datasheet_prefix == "cv-datasheet"
+        assert spec.is_delta is False
 
     def test_sps_release(self):
         """SPS release name is parsed correctly."""
@@ -43,6 +46,24 @@ class TestParseReleaseName:
         assert spec.prefix == "sps-corpus"
         assert spec.modality_display == "Spontaneous Speech"
         assert spec.datasheet_prefix == "sps-datasheet"
+        assert spec.is_delta is False
+
+    def test_scs_delta(self):
+        """SCS delta release name is parsed correctly."""
+        spec = parse_release_name(REL_SCS_DELTA)
+        assert spec.modality == Modality.SCS
+        assert spec.version == "25.0"
+        assert spec.date == "2026-03-09"
+        assert spec.release_name == REL_SCS_DELTA
+        assert spec.is_delta is True
+
+    def test_sps_delta(self):
+        """SPS delta release name is parsed correctly."""
+        spec = parse_release_name(REL_SPS_DELTA)
+        assert spec.modality == Modality.SPS
+        assert spec.version == "3.0"
+        assert spec.date == "2026-03-09"
+        assert spec.is_delta is True
 
     def test_invalid_release(self):
         """Invalid release name raises ValueError."""
@@ -77,6 +98,14 @@ class TestTarballDir:
     def test_full(self):
         """Full release uses bare release name as directory."""
         assert tarball_dir(REL_SCS, ReleaseType.FULL) == REL_SCS
+
+    def test_delta(self):
+        """Delta release uses bare release name (name already has -delta-)."""
+        assert tarball_dir(REL_SCS_DELTA, ReleaseType.DELTA) == REL_SCS_DELTA
+
+    def test_delta_licensed(self):
+        """Delta + licensed appends -licensed to the delta release name."""
+        assert tarball_dir(REL_SCS_DELTA, ReleaseType.LICENSED) == f"{REL_SCS_DELTA}-licensed"
 
     def test_licensed(self):
         """Licensed release appends -licensed suffix."""
