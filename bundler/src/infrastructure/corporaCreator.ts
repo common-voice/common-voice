@@ -49,7 +49,14 @@ const runCorporaCreatorPromise = (locale: string, releaseDirPath: string) =>
       releaseDirPath,
       '-f',
       path.join(releaseDirPath, locale, 'clips.tsv'),
-    ])
+    ], {
+      env: {
+        ...process.env,
+        // Suppress tqdm/swifter progress bars -- they leak through
+        // multiprocessing worker stdout, bypassing spawn pipe capture.
+        TQDM_DISABLE: '1',
+      },
+    })
 
     // Buffer stderr -- swifter/tqdm progress bars + pandas warnings.
     // Only surfaced on failure; suppressed on success (pure noise).

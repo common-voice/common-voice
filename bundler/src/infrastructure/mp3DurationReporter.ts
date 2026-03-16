@@ -27,6 +27,7 @@ const runMp3DurationReporterPromise = (
     const cc = spawn(
       'mp3-duration-reporter',
       [path.join(releaseDirPath, locale, 'clips')],
+      { env: { ...process.env, NO_COLOR: '1' } },
     )
 
     let totalDurationInMs = 0
@@ -34,10 +35,11 @@ const runMp3DurationReporterPromise = (
 
     cc.stdout.on('data', data => (totalDurationInMs = Number(data)))
     cc.stderr.on('data', data => {
-      const msg = String(data).trimEnd()
+      // Strip ANSI escape codes from Rust tracing output
+      const msg = String(data).trimEnd().replace(/\x1b\[[0-9;]*m/g, '')
       if (msg.includes('ERROR')) {
         errorCount++
-      } else {
+      } else if (msg.trim()) {
         logger.debug('MP3-DURATION', msg)
       }
     })
