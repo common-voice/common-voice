@@ -104,7 +104,10 @@ def cli(
     dry_run: bool,
     verbose: bool,
 ) -> None:
-    """Upload Common Voice release tarballs to Mozilla Data Collective."""
+    """Upload Common Voice release tarballs to Mozilla Data Collective (MDC) via API.
+
+    Attaches datasheet metadata to each submission, displayed on the MDC dataset page.
+    """
     setup_logging(verbose)
 
     try:
