@@ -13,7 +13,7 @@ set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 VENV_PATH="/opt/venv"
-LOCAL_VENV="$SCRIPT_DIR/../uploader/.venv"
+LOCAL_VENV="$SCRIPT_DIR/../../uploader/.venv"
 
 if [ -f "$VENV_PATH/bin/mdc-upload" ]; then
     exec "$VENV_PATH/bin/mdc-upload" "$@"
