@@ -67,6 +67,10 @@ export const MAX_AUDIO_DURATION_MS = 30_000 // clips above this duration are exc
 /** Upload a GCS snapshot of accumulated logs every N completed locales. */
 export const RELEASE_LOG_FLUSH_INTERVAL = 10
 
+/** Max time between GCS log flushes (ms). Ensures logs are uploaded even when
+ *  large locales take a long time to process, regardless of job count. */
+export const RELEASE_LOG_FLUSH_MAX_AGE_MS = 10 * 60 * 1000
+
 /**
  * TTL applied to all release-scoped Redis keys.
  * Keeps data accessible for post-release review without permanent accumulation.

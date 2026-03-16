@@ -18,7 +18,7 @@ import { runMp3DurationReporter } from '../infrastructure/mp3DurationReporter'
 import { runStats } from '../core/stats'
 import { runReportedSentences } from '../core/reportedSentences'
 import { runUpload } from '../core/upload'
-import { runCleanUp } from '../core/cleanUp'
+import { cleanUp, runCleanUp } from '../core/cleanUp'
 import { runCompressAndUploadMetadata } from '../core/metadata'
 import { runGenerateDatasheet } from '../core/datasheets'
 import { runScanLocaleData } from '../core/localeData'
@@ -28,6 +28,7 @@ import { doesFileExistInBucket } from '../infrastructure/storage'
 import { redisClient } from '../infrastructure/redis'
 import {
   getDatasetBundlerBucketName,
+  getEnvironment,
   getTmpDir,
   LOCK_EXTEND_MS,
   LOCK_EXTEND_INTERVAL_MS,
@@ -249,6 +250,20 @@ export const processLocale = async (job: Job<ProcessLocaleJob>, token?: string) 
       )
     } else {
       logger.error('PROCESSOR', `[${locale}] Failed: ${String(result.left)}`)
+      // Pipeline failed -- clean up temp files to free disk space.
+      // Without this, partial downloads / extracted tarballs accumulate
+      // and cause cascading ENOSPC failures for subsequent jobs.
+      // Skip in local env (same as runCleanUp) to keep artifacts for debugging.
+      if (getEnvironment() !== 'local') {
+        const cleanResult = await cleanUp(
+          locale, env.releaseDirPath, '', env.previousReleaseName, env.deltaReleaseName, env.license,
+        )()
+        if (E.isLeft(cleanResult)) {
+          logger.warn('PROCESSOR', `[${locale}] Error-path cleanup failed: ${String(cleanResult.left)}`)
+        } else {
+          logger.info('PROCESSOR', `[${locale}] Error-path cleanup done`)
+        }
+      }
     }
     await flushReleaseLogs(env, E.isRight(result) ? 'success' : 'error')
   } finally {

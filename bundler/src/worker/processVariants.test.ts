@@ -258,13 +258,13 @@ describe('rewriteLocaleColumn', () => {
     fs.rmSync(tmpDir, { recursive: true, force: true })
   })
 
-  it('rewrites locale column from compound back to original', () => {
+  it('rewrites locale column from compound back to original', async () => {
     const header = 'client_id\tpath\tsentence_id\tsentence\tsentence_domain\tup_votes\tdown_votes\tage\tgender\taccents\tvariant\tlocale\tsegment'
     const row = 'hash\ta.mp3\tsid\ttext\t\t1\t0\t\t\t\tSouthern Welsh\tcy-southwes\t'
     const content = [header, row].join('\n') + '\n'
     fs.writeFileSync(path.join(tmpDir, 'validated.tsv'), content, 'utf-8')
 
-    rewriteLocaleColumn(tmpDir, ['validated.tsv'], 'cy-southwes', 'cy')
+    await rewriteLocaleColumn(tmpDir, ['validated.tsv'], 'cy-southwes', 'cy')
 
     const result = fs.readFileSync(path.join(tmpDir, 'validated.tsv'), 'utf-8')
     const dataLine = result.split('\n')[1]
@@ -272,24 +272,22 @@ describe('rewriteLocaleColumn', () => {
     expect(cols[11]).toBe('cy') // locale column restored
   })
 
-  it('skips files that do not exist', () => {
+  it('skips files that do not exist', async () => {
     // Should not throw
-    expect(() =>
-      rewriteLocaleColumn(tmpDir, ['nonexistent.tsv'], 'cy-southwes', 'cy'),
-    ).not.toThrow()
+    await rewriteLocaleColumn(tmpDir, ['nonexistent.tsv'], 'cy-southwes', 'cy')
   })
 
-  it('skips files without a locale column', () => {
+  it('skips files without a locale column', async () => {
     const content = 'clip\tduration[ms]\na.mp3\t5000\n'
     fs.writeFileSync(path.join(tmpDir, 'clip_durations.tsv'), content, 'utf-8')
 
-    rewriteLocaleColumn(tmpDir, ['clip_durations.tsv'], 'cy-southwes', 'cy')
+    await rewriteLocaleColumn(tmpDir, ['clip_durations.tsv'], 'cy-southwes', 'cy')
 
     const result = fs.readFileSync(path.join(tmpDir, 'clip_durations.tsv'), 'utf-8')
     expect(result).toBe(content) // unchanged
   })
 
-  it('processes multiple files', () => {
+  it('processes multiple files', async () => {
     const header = 'client_id\tpath\tsentence_id\tsentence\tsentence_domain\tup_votes\tdown_votes\tage\tgender\taccents\tvariant\tlocale\tsegment'
     const row = 'hash\ta.mp3\tsid\ttext\t\t1\t0\t\t\t\tSouthern Welsh\tcy-southwes\t'
     const content = [header, row].join('\n') + '\n'
@@ -297,7 +295,7 @@ describe('rewriteLocaleColumn', () => {
     fs.writeFileSync(path.join(tmpDir, 'validated.tsv'), content, 'utf-8')
     fs.writeFileSync(path.join(tmpDir, 'train.tsv'), content, 'utf-8')
 
-    rewriteLocaleColumn(tmpDir, ['validated.tsv', 'train.tsv'], 'cy-southwes', 'cy')
+    await rewriteLocaleColumn(tmpDir, ['validated.tsv', 'train.tsv'], 'cy-southwes', 'cy')
 
     for (const file of ['validated.tsv', 'train.tsv']) {
       const result = fs.readFileSync(path.join(tmpDir, file), 'utf-8')

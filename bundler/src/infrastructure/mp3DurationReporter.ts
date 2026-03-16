@@ -27,14 +27,46 @@ const runMp3DurationReporterPromise = (
     const cc = spawn(
       'mp3-duration-reporter',
       [path.join(releaseDirPath, locale, 'clips')],
+      { env: { ...process.env, NO_COLOR: '1' } },
     )
 
     let totalDurationInMs = 0
+    let errorCount = 0
+    // stderr arrives in arbitrary chunks that may split across lines or
+    // contain multiple lines. Buffer partial lines and count per-line.
+    let stderrPartial = ''
 
     cc.stdout.on('data', data => (totalDurationInMs = Number(data)))
-    cc.stderr.on('data', data => logger.warn('MP3-DURATION', String(data).trimEnd()))
+    cc.stderr.on('data', data => {
+      stderrPartial += String(data)
+      const parts = stderrPartial.split('\n')
+      // Last element is either '' (line ended with \n) or a partial line
+      stderrPartial = parts.pop()!
+      for (const raw of parts) {
+        const line = raw.replace(/\x1b\[[0-9;]*m/g, '').trim()
+        if (!line) continue
+        if (line.includes('ERROR')) {
+          errorCount++
+        } else {
+          logger.debug('MP3-DURATION', line)
+        }
+      }
+    })
 
-    cc.on('close', () => resolve(totalDurationInMs))
+    cc.on('close', () => {
+      // Flush any remaining partial line
+      if (stderrPartial.trim()) {
+        const line = stderrPartial.replace(/\x1b\[[0-9;]*m/g, '').trim()
+        if (line.includes('ERROR')) errorCount++
+      }
+      if (errorCount > 0) {
+        logger.warn(
+          'MP3-DURATION',
+          `[${locale}] CORRUPT_AUDIO: ${errorCount} truncated/corrupt MP3 files (excluded as DURATION_ZERO in problem-clips)`,
+        )
+      }
+      resolve(totalDurationInMs)
+    })
     cc.on('error', reason => reject(reason))
   })
 
