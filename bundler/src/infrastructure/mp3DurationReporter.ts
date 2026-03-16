@@ -30,11 +30,27 @@ const runMp3DurationReporterPromise = (
     )
 
     let totalDurationInMs = 0
+    let errorCount = 0
 
     cc.stdout.on('data', data => (totalDurationInMs = Number(data)))
-    cc.stderr.on('data', data => logger.warn('MP3-DURATION', String(data).trimEnd()))
+    cc.stderr.on('data', data => {
+      const msg = String(data).trimEnd()
+      if (msg.includes('ERROR')) {
+        errorCount++
+      } else {
+        logger.debug('MP3-DURATION', msg)
+      }
+    })
 
-    cc.on('close', () => resolve(totalDurationInMs))
+    cc.on('close', () => {
+      if (errorCount > 0) {
+        logger.warn(
+          'MP3-DURATION',
+          `[${locale}] CORRUPT_AUDIO: ${errorCount} truncated/corrupt MP3 files (excluded as DURATION_ZERO in problem-clips)`,
+        )
+      }
+      resolve(totalDurationInMs)
+    })
     cc.on('error', reason => reject(reason))
   })
 

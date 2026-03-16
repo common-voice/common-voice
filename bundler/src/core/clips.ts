@@ -308,6 +308,8 @@ const fetchAllClipsForLocale = (
     const PROGRESS_INTERVAL = 1000
     let completed = 0
     let downloadedOk = 0
+    let failedCount = 0
+    let tooSmallCount = 0
     let idx = 0
 
     // Fixed-size worker pool: O(concurrency) in-flight promises, not O(n).
@@ -322,6 +324,7 @@ const fetchAllClipsForLocale = (
 
         if (E.isRight(buffer)) {
           if (buffer.right.length <= MIN_AUDIO_SIZE_BYTES) {
+            tooSmallCount++
             problemClips.push({
               path: clipFilename,
               locale,
@@ -335,10 +338,7 @@ const fetchAllClipsForLocale = (
             downloadedOk++
           }
         } else {
-          logger.warn(
-            'CLIPS-DL',
-            `[${locale}] Failed to download ${clipFilename}: ${buffer.left.message}`,
-          )
+          failedCount++
           problemClips.push({
             path: clipFilename,
             locale,
@@ -348,10 +348,7 @@ const fetchAllClipsForLocale = (
           })
         }
       } catch (err) {
-        logger.warn(
-          'CLIPS-DL',
-          `[${locale}] Unexpected error for ${clipFilename}: ${String(err)}`,
-        )
+        failedCount++
         problemClips.push({
           path: clipFilename,
           locale,
@@ -386,10 +383,23 @@ const fetchAllClipsForLocale = (
 
     const elapsed = ((Date.now() - dlStart) / 1000).toFixed(1)
     const rate = (toDownload.length / ((Date.now() - dlStart) / 1000)).toFixed(1)
+    const excludedTotal = failedCount + tooSmallCount
     logger.info(
       'CLIPS-DL',
-      `[${locale}] FINISH: ${downloadedOk} downloaded, ${toDownload.length - downloadedOk} excluded/failed, ${cached} cached (${elapsed}s, ${rate} clips/sec)`,
+      `[${locale}] FINISH: ${downloadedOk} downloaded, ${excludedTotal} excluded/failed, ${cached} cached (${elapsed}s, ${rate} clips/sec)`,
     )
+    if (failedCount > 0) {
+      logger.warn(
+        'CLIPS-DL',
+        `[${locale}] FAILED_DOWNLOAD: ${failedCount} clips not found in GCS (see problem-clips log)`,
+      )
+    }
+    if (tooSmallCount > 0) {
+      logger.warn(
+        'CLIPS-DL',
+        `[${locale}] TOO_SMALL: ${tooSmallCount} clips under ${MIN_AUDIO_SIZE_BYTES}B (see problem-clips log)`,
+      )
+    }
   }, logError)
 
 const createClipsTsv = (
