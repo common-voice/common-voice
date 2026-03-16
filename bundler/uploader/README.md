@@ -1,0 +1,229 @@
+# MDC Uploader
+
+CLI tool that uploads Common Voice release tarballs to [Mozilla Data Collective](https://datacollective.mozillafoundation.org/) (MDC) via the MDC API. Each upload includes a datasheet as metadata, displayed on the dataset page in MDC.
+
+Supports both SCS (Scripted Speech) and SPS (Spontaneous Speech) releases, including full, delta, and future licensed, and variant dataset types.
+
+For architecture and development details see [DEVELOPER.md](DEVELOPER.md).
+
+## Data Pipeline
+
+```mermaid
+flowchart LR
+
+    subgraph SCS["Scripted Speech (SCS)"]
+        SCS_DB[("DB")]
+        SCS_GCS["GCS"]
+    end
+    subgraph SCS_BUN["SCS Bundler"]
+        CC["CorporaCreator"]
+    end
+    subgraph SCS_BUN2["SCS Bundler"]
+      UP["Uploader ◀"]
+    end
+
+    DSH["cv-datasheets"]
+
+    subgraph SPS["Spontaneous Speech (SPS)"]
+        SPS_DB[("DB")]
+        SPS_GCS["GCS"]
+    end
+    subgraph SPS_BUN["SPS Bundler"]
+        QA["QA Pipeline"]
+    end
+
+    BUN_GCS["GCS
+    datasets
+    datasheets
+    stats"]
+
+    MDC[["MDC
+    downloads"]]
+    CDS[["cv-dataset"]]
+
+    SCS_DB -->|data| SCS_BUN
+    SCS_GCS -->|clips| SCS_BUN
+    DSH -->|JSON| SCS_BUN
+    DSH -->|JSON| SPS_BUN
+    SPS_DB -->|data| SPS_BUN
+    SPS_GCS -->|audio| SPS_BUN
+    SCS_BUN --> BUN_GCS
+    SPS_BUN --> BUN_GCS
+    BUN_GCS -->|datasets| UP
+    BUN_GCS -->|datasheets| UP
+    UP -->|API| MDC
+    BUN_GCS -->|stats| CDS
+
+    style UP fill:#1a73e8,color:#ffffff,stroke:#1558b0,stroke-width:2px
+```
+
+## Quick Start
+
+```bash
+# Install
+cd bundler/uploader
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -e .
+
+# Dry run -- preview what would be uploaded
+mdc-upload -r sps-corpus-3.0-2026-03-09 -ut dev --dry-run
+
+# Upload a single locale to dev MDC
+MDC_API_KEY=your-key mdc-upload -r sps-corpus-3.0-2026-03-09 -l ga-IE -ut dev
+
+# Upload all locales to production (auto-detected from release directory)
+MDC_API_KEY=your-key mdc-upload -r cv-corpus-25.0-2026-03-09 -ut prod
+```
+
+## CLI Reference
+
+```txt
+mdc-upload [OPTIONS]
+
+Required:
+  -r,  --release TEXT                          Release name (e.g. cv-corpus-25.0-2026-03-09)
+
+Optional:
+  -ut, --upload-target [dev|prod]              MDC target environment (default: dev)
+  -l,  --locales TEXT                          Space-separated locale codes (default: auto-detect)
+  -rt, --release-type [full|licensed|variants] Release type (default: full)
+       --base-dir TEXT                         Root directory with release files (default: /gcs)
+       --submission-id TEXT                    Existing MDC submission ID (version update mode)
+       --retry-failed FILE                     State JSON from a previous run (retries failed only)
+       --dry-run                               Preview without uploading
+  -v,  --verbose                               Debug logging
+  -h,  --help                                  Show help and exit
+```
+
+### Locale auto-detection
+
+When `--locales` is omitted, the tool scans `{base-dir}/{release}/` for `*.tar.gz` files and extracts locale codes from filenames automatically. Locales are sorted smallest-first by file size.
+
+### 429 Rate Limiting
+
+When MDC returns a 429 response, the tool:
+
+1. Reads the `Retry-After` header and waits the specified duration
+2. Retries the same locale up to 3 times
+3. If all retries fail, marks the locale as **failed** and continues to the next
+4. The batch never aborts -- all failures are collected and shown in the summary
+
+### Error Output
+
+By default, errors show a single-line message. Use `-v` for full tracebacks:
+
+```bash
+# Clean error output (default)
+[2026-03-13 14:30:00] [ERROR] [UPLOAD    ] Fatal: Invalid release name 'bad-name'
+[2026-03-13 14:30:00] [ERROR] [UPLOAD    ] Re-run with -v for full traceback
+
+# Verbose traceback
+mdc-upload -r bad-name -ut dev -v
+```
+
+## Usage Examples
+
+### Upload by release type
+
+```bash
+# Full (CC0) release -- default
+mdc-upload -r cv-corpus-25.0-2026-03-09 -ut prod
+
+# Licensed (CC-BY 4.0) tarballs
+mdc-upload -r cv-corpus-25.0-2026-03-09 -rt licensed -ut prod
+
+# Variant datasets
+mdc-upload -r cv-corpus-25.0-2026-03-09 -rt variants -ut prod
+```
+
+### Upload from a local directory (testing)
+
+```bash
+# Point --base-dir to a directory with the same structure as the GCS mount
+mdc-upload -r sps-corpus-3.0-2026-03-09 --base-dir ./test-releases -ut dev -l ga-IE
+```
+
+### Upload specific locales
+
+```bash
+mdc-upload -r cv-corpus-25.0-2026-03-09 -ut prod -l en ga-IE mt
+```
+
+### Update an existing dataset
+
+```bash
+# Upload a new file version to an approved dataset on MDC
+mdc-upload -r cv-corpus-26.0-2026-06-15 -l en --submission-id abc-123 -ut prod
+```
+
+### Retry failed locales
+
+```bash
+# After a batch run with failures, retry only the failed ones
+mdc-upload --retry-failed ./upload-state-cv-corpus-25.0-2026-03-09-20260313T143000.json
+```
+
+## Directory Structure
+
+`--base-dir` is the root directory containing release folders. The release name (`-r`) selects the subfolder. Tarballs and datasheets live inside it:
+
+```txt
+--base-dir /mnt/cv-datasets
+               |
+               +-- sps-corpus-3.0-2026-03-09/          <-- -r sps-corpus-3.0-2026-03-09
+               |   +-- sps-corpus-3.0-2026-03-09-ga-IE.tar.gz    <-- tarball (per locale)
+               |   +-- sps-corpus-3.0-2026-03-09-en.tar.gz
+               |   +-- sps-corpus-3.0-2026-03-09-mt.tar.gz
+               |   +-- datasheets/
+               |       +-- sps-datasheet-3.0-ga-IE.md             <-- datasheet (per locale)
+               |       +-- sps-datasheet-3.0-en.md
+               |       +-- sps-datasheet-3.0-mt.md
+               |
+               +-- cv-corpus-25.0-2026-03-09/           <-- -r cv-corpus-25.0-2026-03-09
+               |   +-- cv-corpus-25.0-2026-03-09-en.tar.gz
+               |   +-- datasheets/
+               |       +-- cv-datasheet-25.0-en.md
+               |
+               +-- cv-corpus-25.0-2026-03-09-licensed/  <-- -r cv-corpus-25.0-2026-03-09 -rt licensed
+                   +-- cv-corpus-25.0-2026-03-09-en-CC-BY_4.0.tar.gz
+                   +-- datasheets/
+                       +-- cv-datasheet-25.0-en-CC-BY_4.0.md
+```
+
+Example mapping:
+
+```bash
+mdc-upload -r sps-corpus-3.0-2026-03-09 --base-dir /mnt/cv-datasets -ut dev -l ga-IE --dry-run
+```
+
+```txt
+--base-dir  =  /mnt/cv-datasets
+-r          =  sps-corpus-3.0-2026-03-09
+-l          =  ga-IE
+
+Tarball  :  /mnt/cv-datasets/sps-corpus-3.0-2026-03-09/sps-corpus-3.0-2026-03-09-ga-IE.tar.gz
+Datasheet:  /mnt/cv-datasets/sps-corpus-3.0-2026-03-09/datasheets/sps-datasheet-3.0-ga-IE.md
+```
+
+When `--locales` is omitted, the tool scans the release directory for all `*.tar.gz` files and auto-detects locale codes from filenames.
+
+## Data Flow
+
+The uploader reads tarballs from `--base-dir` and uploads them to MDC via the API. Each tarball is uploaded as a dataset submission, with the corresponding datasheet attached as metadata.
+
+For `gs://` URIs, install the GCS extra (`pip install .[gcs]`). See [DEVELOPER.md](DEVELOPER.md) for details.
+
+## Release Name Conventions
+
+| Modality | Format                        | Example                     |
+| -------- | ----------------------------- | --------------------------- |
+| SCS      | `cv-corpus-{version}-{date}`  | `cv-corpus-25.0-2026-03-09` |
+| SPS      | `sps-corpus-{version}-{date}` | `sps-corpus-3.0-2026-03-09` |
+
+## MDC Targets
+
+| Target | URL                                                    |
+| ------ | ------------------------------------------------------ |
+| dev    | `https://dev.datacollective.mozillafoundation.org/api` |
+| prod   | `https://datacollective.mozillafoundation.org/api`     |
