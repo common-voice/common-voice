@@ -133,6 +133,7 @@ contribution-varying-pronunciations-example-2-explanation = [Woyɔa ‘Raised’
 contribution-background-noise-title = Toɣliɖeɖe si le megbe
 contribution-background-noise-description = Míedi be machine learning algorithms nate ŋu akpɔ megbe toɣliɖeɖe vovovowo gbɔ, eye woateŋu axɔ toɣliɖeɖe siwo sesẽ vie gɔ̃ hã nenye be womexe mɔ na wò be màse nuŋɔŋlɔ bliboa o. Hadzidzi si woƒo le megbe si me ɖoɖoezizi le la nyo; hadzidzi sesẽ ale gbegbe be màse nya ɖesiaɖe kple nya ɖesiaɖe o.
 contribution-background-noise-description-extended = Ne nuƒoƒo si wolé ɖe mɔ̃ dzi la gblẽ, alo eƒe ʋuʋudedi le ʋuʋum la, gbe negbe ɖe woate ŋu ase nuŋɔŋlɔ bliboa kokoko hafi.
+contribution-background-noise-example-1-fixed-title = <strong>[nyi nyem]</strong> Dinosaur gã siwo le <strong>[kɔdzi]</strong> Triassic me.
 contribution-background-noise-example-2-fixed-title = Dino gã la <strong>[kɔdzi]</strong> si nye Triassic.
 contribution-background-noise-example-2-explanation = [Womate ŋu ase nuŋɔŋlɔa ƒe akpa aɖe o].
 contribution-background-noise-example-3-fixed-title = <strong>[Crackle]</strong> dinosaur gã siwo nye <strong>[crackle]</strong> -riassic.
