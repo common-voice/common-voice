@@ -108,6 +108,53 @@ export const drainQueue = async (): Promise<void> => {
   }
 }
 
+/**
+ * Remove BullMQ jobs for specific locales from all queue states.
+ * Used by --force -l to surgically remove only targeted locale jobs without
+ * affecting the rest of a running release.
+ *
+ * Scans completed, failed, waiting, and delayed jobs. Active jobs cannot
+ * be removed via queue.remove() (returns 0 if locked), but the processor's
+ * --force flag bypasses the done-SET and GCS checks, and the init handler
+ * already cleared their processing HASH entries, so they will be superseded
+ * by the new jobs once the active ones finish or stall.
+ */
+export const removeJobsForLocales = async (
+  releaseName: string,
+  locales: string[],
+): Promise<void> => {
+  const localeSet = new Set(locales)
+
+  // Job ID format: "{jobName}|{releaseName}|{locale}|{license}"
+  // Extract locale (3rd segment) to match against targets.
+  const isTargeted = (jobId: string | undefined): boolean => {
+    if (!jobId) return false
+    const parts = jobId.split('|')
+    return parts.length >= 3 && localeSet.has(parts[2])
+  }
+
+  // Gather job IDs from all removable states
+  const states = ['completed', 'failed', 'wait', 'delayed'] as const
+  let removed = 0
+  for (const state of states) {
+    const jobs = await datasetReleaseQueue.getJobs([state])
+    for (const job of jobs) {
+      if (isTargeted(job.id)) {
+        try {
+          const result = await datasetReleaseQueue.remove(job.id!)
+          if (result === 1) removed++
+        } catch {
+          // Job locked or already gone -- fine
+        }
+      }
+    }
+  }
+
+  if (removed > 0) {
+    logger.info('QUEUE', `Removed ${removed} BullMQ job(s) for locales: ${locales.join(', ')}`)
+  }
+}
+
 export const addJobsToReleaseQueue = (settings: Settings) =>
   pipe(
     TE.Do,
