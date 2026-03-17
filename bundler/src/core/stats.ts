@@ -6,6 +6,7 @@ import { AppEnv } from '../types'
 import { uploadToBucket } from '../infrastructure/storage'
 import { getDatasetBundlerBucketName } from '../config'
 import type { Buckets, LocaleReleaseData } from './localeData'
+import type { CompressResult } from './compress'
 import { logger } from '../infrastructure/logger'
 
 // -- Output types (shape of the uploaded stats JSON) -------------------------
@@ -74,17 +75,30 @@ export const buildLocale = (
 
 const uploadToDatasetBucket = uploadToBucket(getDatasetBundlerBucketName())
 
+/**
+ * Builds and uploads stats JSON. When the tarball was streamed to GCS,
+ * size and checksum come from the CompressResult. When it was written
+ * locally, they are computed from the file on disk (existing behaviour).
+ */
 export const statsPipeline = (
   locale: string,
   data: LocaleReleaseData,
-  tarFilepath: string,
+  compressResult: CompressResult,
   releaseName: string,
   license?: string,
 ) =>
   pipe(
     TE.Do,
-    TE.bind('checksum', () => calculateChecksum(tarFilepath)),
-    TE.let('fileSize', getFileSize(tarFilepath)),
+    TE.bind('checksum', () =>
+      compressResult.streamed
+        ? TE.right(compressResult.checksum)
+        : calculateChecksum(compressResult.tarballFilepath),
+    ),
+    TE.let('fileSize', () =>
+      compressResult.streamed
+        ? compressResult.size
+        : getFileSize(compressResult.tarballFilepath)(),
+    ),
     TE.map(({ checksum, fileSize }) => {
       const localeStats = buildLocale(data, checksum, fileSize)
       const stats: Stats = {
@@ -109,7 +123,7 @@ export const statsPipeline = (
   )
 
 export const runStats = (
-  tarFilepath: string,
+  compressResult: CompressResult,
 ): RTE.ReaderTaskEither<AppEnv, Error, Stats> =>
   pipe(
     RTE.ask<AppEnv>(),
@@ -120,6 +134,6 @@ export const runStats = (
         )
       }
       logger.info('STATS', `[${locale}] Building stats from locale data`)
-      return statsPipeline(locale, localeData, tarFilepath, releaseName, license)
+      return statsPipeline(locale, localeData, compressResult, releaseName, license)
     }),
   )

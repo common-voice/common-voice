@@ -56,7 +56,9 @@ const generateStatisticsPipeline = pipe(
       ),
     ),
   ),
-  RTE.bind('stats', ({ tarFilepath }) => runStats(tarFilepath)),
+  RTE.bind('stats', ({ tarFilepath }) =>
+    runStats({ tarballFilepath: tarFilepath, uploadPath: '', size: 0, checksum: '', streamed: false }),
+  ),
   RTE.chainFirst(({ tarFilepath }) => runCleanUp(tarFilepath)),
   RTE.match(
     err => logger.error('STATS', String(err)),

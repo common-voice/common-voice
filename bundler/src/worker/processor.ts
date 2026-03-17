@@ -18,7 +18,7 @@ import { runMp3DurationReporter } from '../infrastructure/mp3DurationReporter'
 import { runStats } from '../core/stats'
 import { runReportedSentences } from '../core/reportedSentences'
 import { runUpload } from '../core/upload'
-import { cleanUp, runCleanUp } from '../core/cleanUp'
+import { runCleanUp } from '../core/cleanUp'
 import { runCompressAndUploadMetadata } from '../core/metadata'
 import { runGenerateDatasheet } from '../core/datasheets'
 import { runScanLocaleData } from '../core/localeData'
@@ -28,7 +28,6 @@ import { doesFileExistInBucket } from '../infrastructure/storage'
 import { redisClient } from '../infrastructure/redis'
 import {
   getDatasetBundlerBucketName,
-  getEnvironment,
   getTmpDir,
   LOCK_EXTEND_MS,
   LOCK_EXTEND_INTERVAL_MS,
@@ -85,16 +84,21 @@ const processPipeline = pipe(
     ),
   ),
   RTE.chainFirst(() => runGenerateDatasheet),
-  RTE.bind('tarFilepath', runCompress),
-  RTE.bind('uploadPath', ({ tarFilepath }) => runUpload(tarFilepath)),
+  RTE.bind('compressResult', runCompress),
+  // Upload local tarball to GCS -- skip when already streamed during compress
+  RTE.bind('uploadPath', ({ compressResult }) =>
+    compressResult.streamed
+      ? RTE.right<AppEnv, Error, string>(compressResult.uploadPath)
+      : runUpload(compressResult.tarballFilepath),
+  ),
   RTE.chainFirst(runCompressAndUploadMetadata),
-  RTE.bind('stats', ({ tarFilepath }) => runStats(tarFilepath)),
+  RTE.bind('stats', ({ compressResult }) => runStats(compressResult)),
   RTE.chainFirstW(({ stats }) =>
     RTE.asks<AppEnv, void>(env => {
       env.clipCount = stats.locales[env.locale]?.clips ?? 0
     }),
   ),
-  RTE.chainFirst(({ tarFilepath }) => runCleanUp(tarFilepath)),
+  RTE.chainFirst(({ compressResult }) => runCleanUp(compressResult.tarballFilepath)),
   RTE.chainFirst(runPushProblemClips),
 )
 

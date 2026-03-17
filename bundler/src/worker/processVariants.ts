@@ -641,14 +641,16 @@ export const processVariants = async (job: Job<ProcessLocaleJob>) => {
         continue
       }
 
-      const tarFilepath = compressResult.right
+      const cr = compressResult.right
 
-      // 5i. Upload tarball to ${releaseName}-variants/ GCS directory
-      const uploadResult = await uploadToGcsDir(tarFilepath, effectiveReleaseName)()
-      if (E.isLeft(uploadResult)) {
-        logger.error('VARIANTS', `[${compoundLocale}] Upload failed: ${String(uploadResult.left)}`)
-        await flushReleaseLogs(env, 'error')
-        continue
+      // 5i. Upload tarball to GCS -- skip when already streamed during compress
+      if (!cr.streamed) {
+        const uploadResult = await uploadToGcsDir(cr.tarballFilepath, effectiveReleaseName)()
+        if (E.isLeft(uploadResult)) {
+          logger.error('VARIANTS', `[${compoundLocale}] Upload failed: ${String(uploadResult.left)}`)
+          await flushReleaseLogs(env, 'error')
+          continue
+        }
       }
 
       // 5j. Upload metadata
@@ -673,7 +675,7 @@ export const processVariants = async (job: Job<ProcessLocaleJob>) => {
         const statsResult = await statsPipeline(
           compoundLocale,
           scanResult.right,
-          tarFilepath,
+          cr,
           effectiveReleaseName,
         )()
         if (E.isRight(statsResult)) {
@@ -687,7 +689,7 @@ export const processVariants = async (job: Job<ProcessLocaleJob>) => {
       const cleanResult = await cleanUp(
         compoundLocale,
         env.releaseDirPath,
-        tarFilepath,
+        cr.tarballFilepath,
       )()
       if (E.isLeft(cleanResult)) {
         logger.warn('VARIANTS', `[${compoundLocale}] Cleanup failed: ${String(cleanResult.left)}`)

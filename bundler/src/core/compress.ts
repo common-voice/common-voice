@@ -1,14 +1,17 @@
+import * as crypto from 'node:crypto'
 import * as fs from 'node:fs'
 import * as path from 'node:path'
 import { pipeline } from 'node:stream/promises'
+import { Transform, TransformCallback } from 'node:stream'
 
 import * as tar from 'tar'
 
 import { io as IO, readerTaskEither as RTE, taskEither as TE } from 'fp-ts'
 import { pipe } from 'fp-ts/lib/function'
 
-import { prepareDir } from '../infrastructure/filesystem'
 import { CORPORA_CREATOR_SPLIT_FILES } from '../infrastructure/corporaCreator'
+import { streamUploadToBucket } from '../infrastructure/storage'
+import { getDatasetBundlerBucketName, STREAM_COMPRESS_CLIP_THRESHOLD } from '../config'
 import { AppEnv, ReleaseType } from '../types'
 import { logger } from '../infrastructure/logger'
 
@@ -29,9 +32,17 @@ export const generateTarFilename = (
   return `${releaseName}-${locale}.tar.gz`
 }
 
-const createTarballWriteStream = (outFilepath: string) => {
-  return fs.createWriteStream(outFilepath)
+// -- Compression result -------------------------------------------------------
+
+export type CompressResult = {
+  tarballFilepath: string // local path (empty string when streamed to GCS)
+  uploadPath: string // GCS path
+  size: number // bytes
+  checksum: string // SHA-256 hex
+  streamed: boolean // true = already uploaded to GCS, no local file
 }
+
+// -- Gzip level ---------------------------------------------------------------
 
 /**
  * Decides gzip compression level based on clip count, not release type.
@@ -49,28 +60,28 @@ const CLIP_COUNT_COMPRESSION_THRESHOLD = 10_000
 export const decideCompressionLevel = (clipCount: number): number =>
   clipCount >= CLIP_COUNT_COMPRESSION_THRESHOLD ? 1 : 6
 
-const tarPromise = async (
-  outFilepath: string,
-  pathsToCompress: string[],
-  cwd: string,
-  prefix: string,
-  gzipLevel: number,
-) => {
-  const readStream = tar.c(
-    { gzip: { level: gzipLevel }, cwd, prefix },
-    pathsToCompress,
-  )
+// -- Metrics transform --------------------------------------------------------
 
-  await pipeline(readStream, createTarballWriteStream(outFilepath))
+/**
+ * Pass-through Transform that counts bytes and computes a SHA-256 hash
+ * inline as data flows through. Zero-copy -- chunks are forwarded unchanged.
+ */
+class MetricsTransform extends Transform {
+  size = 0
+  private readonly hash = crypto.createHash('sha256')
+
+  _transform(chunk: Buffer, _encoding: BufferEncoding, cb: TransformCallback) {
+    this.size += chunk.length
+    this.hash.update(chunk)
+    cb(null, chunk)
+  }
+
+  get checksum(): string {
+    return this.hash.digest('hex')
+  }
 }
 
-const compress =
-  (pathsToCompress: string[], cwd: string, prefix: string, gzipLevel: number) =>
-  (outFilepath: string): TE.TaskEither<Error, void> =>
-    TE.tryCatch(
-      () => tarPromise(outFilepath, pathsToCompress, cwd, prefix, gzipLevel),
-      reason => Error(String(reason)),
-    )
+// -- Paths to include ---------------------------------------------------------
 
 export const pathsFilter =
   (releaseType: ReleaseType) =>
@@ -114,6 +125,57 @@ const getPathsToAddToTarball =
       .map((pathS: string) => path.join(locale, pathS))
   }
 
+// -- Local compress (small locales) -------------------------------------------
+
+const compressToLocalFile = async (
+  outFilepath: string,
+  pathsToCompress: string[],
+  cwd: string,
+  prefix: string,
+  gzipLevel: number,
+): Promise<{ size: number; checksum: string }> => {
+  const metrics = new MetricsTransform()
+  const readStream = tar.c(
+    { gzip: { level: gzipLevel }, cwd, prefix },
+    pathsToCompress,
+  )
+  await pipeline(readStream, metrics, fs.createWriteStream(outFilepath))
+  return { size: metrics.size, checksum: metrics.checksum }
+}
+
+// -- GCS streaming compress (large locales) -----------------------------------
+
+const uploadToDatasetBucket = streamUploadToBucket(getDatasetBundlerBucketName())
+
+const compressAndStreamToGCS = async (
+  locale: string,
+  gcsPath: string,
+  pathsToCompress: string[],
+  cwd: string,
+  prefix: string,
+  gzipLevel: number,
+): Promise<{ size: number; checksum: string }> => {
+  const metrics = new MetricsTransform()
+  const readStream = tar.c(
+    { gzip: { level: gzipLevel }, cwd, prefix },
+    pathsToCompress,
+  )
+
+  // Pipe through metrics, then upload the resulting Readable to GCS.
+  // We need to pipeline tar -> metrics first, then pass metrics (which is
+  // a Readable after the tar stream ends) to the GCS upload.
+  const metricsReadable = readStream.pipe(metrics)
+
+  logger.info('COMPRESS', `[${locale}] Streaming tarball to GCS: ${gcsPath}`)
+  const uploadResult = await uploadToDatasetBucket(gcsPath)(metricsReadable)()
+  if (uploadResult._tag === 'Left') {
+    throw uploadResult.left
+  }
+  return { size: metrics.size, checksum: metrics.checksum }
+}
+
+// -- Unified pipeline ---------------------------------------------------------
+
 export const compressPipeline = (
   locale: string,
   releaseName: string,
@@ -122,23 +184,26 @@ export const compressPipeline = (
   releaseType: ReleaseType,
   license?: string,
   clipCount?: number,
-): TE.TaskEither<Error, string> => {
-  const gzipLevel = decideCompressionLevel(clipCount ?? 0)
-  logger.info('COMPRESS', `[${locale}] Start compress (gzip level ${gzipLevel}, ~${(clipCount ?? 0).toLocaleString()} clips)`)
+): TE.TaskEither<Error, CompressResult> => {
+  const effectiveClipCount = clipCount ?? 0
+  const gzipLevel = decideCompressionLevel(effectiveClipCount)
+  const useStreaming = effectiveClipCount >= STREAM_COMPRESS_CLIP_THRESHOLD
+
+  const tarballFilename = generateTarFilename(locale, releaseName, license)
+  const gcsUploadPath = `${releaseName}/${tarballFilename}`
+
+  logger.info(
+    'COMPRESS',
+    `[${locale}] Start compress (gzip level ${gzipLevel}, ~${effectiveClipCount.toLocaleString()} clips, ${useStreaming ? 'stream-to-GCS' : 'local file'})`,
+  )
+
   return pipe(
     TE.Do,
-    TE.let('tarballFilename', () =>
-      generateTarFilename(locale, releaseName, license),
-    ),
-    TE.let('tarballFilepath', ({ tarballFilename }) =>
-      path.join(releaseTarballDir, tarballFilename),
-    ),
     TE.let(
       'paths',
       getPathsToAddToTarball(locale, releaseDirPath, releaseType),
     ),
-    TE.chainFirst(() => TE.fromIO(prepareDir(releaseTarballDir))),
-    TE.chainFirst(({ tarballFilepath, paths }) => {
+    TE.chainFirst(({ paths }) => {
       if (!paths || paths.length === 0) {
         return TE.left(
           new Error(
@@ -146,13 +211,70 @@ export const compressPipeline = (
           ),
         )
       }
-      return compress(paths, releaseDirPath, releaseName, gzipLevel)(tarballFilepath)
+      return TE.right(undefined)
     }),
-    TE.map(({ tarballFilepath }) => tarballFilepath),
+    TE.chain(({ paths }) =>
+      TE.tryCatch(
+        async (): Promise<CompressResult> => {
+          if (useStreaming) {
+            const { size, checksum } = await compressAndStreamToGCS(
+              locale,
+              gcsUploadPath,
+              paths,
+              releaseDirPath,
+              releaseName,
+              gzipLevel,
+            )
+            const sizeGB = (size / 1_073_741_824).toFixed(1)
+            logger.info(
+              'COMPRESS',
+              `[${locale}] Stream-to-GCS done: ${sizeGB} GB, sha256=${checksum.slice(0, 16)}...`,
+            )
+            return {
+              tarballFilepath: '',
+              uploadPath: gcsUploadPath,
+              size,
+              checksum,
+              streamed: true,
+            }
+          } else {
+            const localPath = path.join(releaseTarballDir, tarballFilename)
+            fs.mkdirSync(releaseTarballDir, { recursive: true })
+            const { size, checksum } = await compressToLocalFile(
+              localPath,
+              paths,
+              releaseDirPath,
+              releaseName,
+              gzipLevel,
+            )
+            const sizeMB = (size / 1_048_576).toFixed(0)
+            logger.info(
+              'COMPRESS',
+              `[${locale}] Local compress done: ${sizeMB} MB, sha256=${checksum.slice(0, 16)}...`,
+            )
+            return {
+              tarballFilepath: localPath,
+              uploadPath: gcsUploadPath,
+              size,
+              checksum,
+              streamed: false,
+            }
+          }
+        },
+        reason => {
+          const errMsg = String(reason)
+          logger.info(
+            'COMPRESS',
+            `[${locale}] FAILED: ${useStreaming ? 'stream-to-GCS' : 'local'}: ${errMsg}`,
+          )
+          return Error(errMsg)
+        },
+      ),
+    ),
   )
 }
 
-export const runCompress = (): RTE.ReaderTaskEither<AppEnv, Error, string> =>
+export const runCompress = (): RTE.ReaderTaskEither<AppEnv, Error, CompressResult> =>
   pipe(
     RTE.ask<AppEnv>(),
     RTE.chainTaskEitherK(
