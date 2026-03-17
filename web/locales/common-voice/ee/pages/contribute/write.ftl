@@ -91,3 +91,54 @@ bulk-submission-success-header = Akpe na mi be mietsɔ miaƒe nyagbewo ɖoɖoɖa
 bulk-submission-success-subheader = Èle kpekpem ɖe Common Voice ŋu be wòaɖo míaƒe gbesiagbe nyagbe ƒe taɖodzinuwo gbɔ!
 upload-more-btn-text = Mitsɔ nyagbe bubuwo da ɖe Internet dzia?
 file-invalid-type = File si mesɔ o
+file-too-large = File la lolo akpa
+file-too-small = File la le sue akpa
+too-many-files = File geɖe akpa
+
+## SMALL BATCH SUBMISSION
+
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = Tsɔ dutoƒonyagbe geɖewo kpee
+multiple-sentences-error = Màte ŋu atsɔ nyagbe geɖewo akpe ɖe nyagbe ɖeka ɖoɖoɖa ŋu o
+exceeds-small-batch-limit-error = Mate ŋu atsɔ nya siwo wu 1000 aɖo ɖa o
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] Wowu seɖoƒe si woɖo na ga home si woaxe. Gadze agbagba ake le miniti 1 megbe
+       *[other] Wowu seɖoƒe si woɖo na ga home si woaxe. Gadze agbagba ake le { $retryLimit } minitiwo me
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Wowu seɖoƒe si woɖo na ga home si woaxe. Gadze agbagba ake le sɛkɛnd 1 me
+       *[other] Wowu seɖoƒe si woɖo na ga home si woaxe. Gadze agbagba ake le { $retryLimit } sɛkɛndwo me
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] Èɖo seɖoƒe si woɖo be nàɖoe ɖe axa sia gbɔ. Taflatse lala miniti 1 hafi nàtsɔ nyagbe bubu aɖo ɖa. Akpe na mi ɖe miaƒe dzigbɔɖi ta!
+       *[other] Èɖo seɖoƒe si woɖo be nàɖoe ɖe axa sia gbɔ. Taflatse lala { $retryLimit } miniti hafi nàtsɔ nyagbe bubu aɖo ɖa. Akpe na mi ɖe miaƒe dzigbɔɖi ta!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] Èɖo seɖoƒe si woɖo be nàɖoe ɖe axa sia gbɔ. Taflatse lala sɛkɛnd 1 hafi nàtsɔ nyagbe bubu aɖo ɖa. Akpe na mi ɖe miaƒe dzigbɔɖi ta!
+       *[other] Èɖo seɖoƒe si woɖo be nàɖoe ɖe axa sia gbɔ. Taflatse lala { $retryLimit } sɛkɛnd hafi nàtsɔ nyagbe bubu aɖo ɖa. Akpe na mi ɖe miaƒe dzigbɔɖi ta!
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } ƒe nyagbe 1 si woƒo ƒu
+       *[other] { $uploadedSentences } ƒe { $totalSentences } nyagbe siwo woƒo ƒu
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } ƒe nyagbe 1 si woƒo ƒu. Zi <downloadLink>afisia</downloadLink> dzi be nàwɔ nyagbe siwo wogbe la ƒe kɔpi.
+       *[other] { $uploadedSentences } ƒe { $totalSentences } nyagbe siwo woƒo ƒu. Zi <downloadLink>afisia</downloadLink> dzi be nàwɔ nyagbe siwo wogbe la ƒe kɔpi.
+    }
+small-batch-sentences-rule-1 = Wɔ ɖe mɔfiame siwo tso “Nyagbe kawoe mate ŋu atsɔ akpe ɖe eŋu?”
+small-batch-sentences-rule-2 = Tsɔ nyagbe ɖeka kpe ɖe fli ɖesiaɖe ŋu
+small-batch-sentences-rule-3 = Ma nyagbewo ɖe fli ɖeka me ne èzi “Enter” alo “Return” dzi zi ɖeka
+small-batch-sentences-rule-4 = Tsɔ nyagbe siwo ade 1,000 kpee
+small-batch-sentences-rule-5 = Ele be domenyinyi ɖeka nanɔ nyagbewo katã si
