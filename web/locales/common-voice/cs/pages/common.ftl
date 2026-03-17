@@ -319,6 +319,7 @@ qxt = Kečuánština Velikonoce Santa Ana de Tusi
 qxu = Kečuánština (arequipa-La Unión)
 qxw = Kečuánština Jauja Wanka
 rif = Tarifit
+rki = Rakhine
 rm-sursilv = Rétorománština (sursilvan)
 rm-vallader = Rétorománština (vallader)
 rn = Kirundština

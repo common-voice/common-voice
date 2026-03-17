@@ -50,7 +50,7 @@ help-reach-hours-general-pluralized =
         [one] Hjelp Common Voice med eit personleg mål om å nå { $hours } time på eit språk.
        *[other] Hjelp Common Voice med eit personleg mål om å nå { $hours } timar på eit språk.
     }
-set-a-goal = Sett deg eit mål
+set-a-goal = Set deg eit mål
 cant-decide = greier du ikkje å bestemme deg+
 activity-needed-calculation-fixed = 100 personar som spelar inn 100 setningar om dagen kan generere 13 timar med lyd. Ved å halde oppe denne ytinga kan 1000 timar nåast på under 3 månadar.
 how-many-per-day = Flott! Kor mange lydklipp pr. dag?

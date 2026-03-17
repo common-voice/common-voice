@@ -32,15 +32,28 @@ request-language-success-list-3 =
 request-language-error =
     Vi har kanskje ikkje teke imot den førespurnaden. Send oss ein e-post direkte
     på <emailLink>{ $e-post }</emailLink>, så kjem vi tilbake til deg!
-request-for-scripted-speech-toggle = Førespurnad om skripta tale
+request-for-scripted-speech-toggle = Førespurnad om manusbasert tale
 request-for-spontaneous-speech-toggle = Førespurnad om spontan tale
 need-help-deciding-platform = Treng du hjelp til å bestemme kva du skal velje?
 # text wrapped in <strong></strong> will be shown as bold
-need-help-deciding-platform-explanation-1 = <strong>Skripttale</strong> (tradisjonelt det du kjenner som Common Voice) er der du kan lese setningar høgt på språket ditt.
+need-help-deciding-platform-explanation-1 = <strong>Manusbasert tale</strong> (tradisjonelt det du kjenner som Common Voice) er der du kan lese setningar høgt på språket ditt.
 need-help-deciding-platform-explanation-2 = <strong>Spontan tale</strong> er ein ny del av Common Voice der du kan svare på spørsmål på ein meir naturleg måte.
 need-help-deciding-platform-explanation-3 = Om du ikkje ser språket ditt i nokon av delane av plattforma, vel begge.
 request-language-search-bar = Du kan starte med å skrive namnet på språket ditt her; dersom det enno ikkje finst på Common Voice, kan du fylle ut eit skjema med språkdataa dine.
+request-language-found-pontoon-not-launched =
+    Språket ditt er allereie på språklista til Common Voice.
+    Du kan leggje til rette for språkstart på <strong>manusbasert tale</strong> ved å omsetje
+    plattformgrensesnittet <pontoonLink>her</pontoonLink>. Grensesnittet må vere 60 % omsette;
+    alternativt kan du berre omsetje grunnleggjande strenger i «web/locales/ein/pages/contribute/*.ftl» til 100 %
+    (det finst fem slike filer), og grensesnittet vil bli lansert automatisk.
 request-language-found-cv-contribution =
-    Hurra! Språket ditt er allereie live på Common Voice <strong>skriftspråk</strong>.
+    Hurra! Språket ditt er allereie live på Common Voice <strong>manusbasert tale</strong>.
     Du kan bidra <homePageLink>her</homePageLink>.
+request-language-found-cv-sentences-lack =
+    Språket ditt er allereie på språklista til Common Voice.
+    Du kan leggje til rette for språkstart på <strong>manusbasert tale</strong> ved å bidra med setningar <sentencesContributionLink>her</sentencesContributionLink>.
+request-language-found-spontaneous-speech =
+    Språket ditt er allereie tilgjengeleg på Common Voice <strong>spontan tale</strong>.
+    Klikk <spontaneousSpeechLink>her</spontaneousSpeechLink> for å bidra – hugs å endre bidrags-/dataspråket før du byrjar å bidra!
+request-language-already-available-scs = Manusbasert tale er allereie tilgjengeleg
 request-language-already-available-sps = Spontan tale allereie tilgjengeleg

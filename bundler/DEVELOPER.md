@@ -22,6 +22,7 @@ For each locale the processing pipeline runs these steps:
 11. Calculates and uploads per-locale stats JSON
 12. Cleans up temporary files
 13. Flushes the process log and problem-clip report to Redis; GCS snapshots are uploaded every 10 completed locales and at the end of the run
+14. On the final locale: cleans up all release-scoped Redis keys and drains the BullMQ queue
 
 ---
 
@@ -31,22 +32,59 @@ Before the pipeline runs, each locale job goes through a three-layer check in th
 
 1. **Redis done SET** (fast path, ~1 ms) -- if the locale is already in the `scripted:done:<release>` SET, skip immediately without hitting GCS.
 2. **GCS file-existence check** (authoritative) -- if the tarball already exists in the bucket, skip and backfill the done SET so future runs use the fast path.
-3. **Redis processing SET** (stall guard) -- an atomic `SADD` to `scripted:processing:<release>` returns 0 if another pod already claimed the locale, preventing duplicate processing from BullMQ stall re-dispatches. The processing SET is cleared by the init handler on each new run so that re-runs can reprocess failed locales.
+3. **Processing guard HASH** (stall/crash recovery) -- `scripted:processing:<release>` is a HASH mapping locale identifiers to heartbeat timestamps. Before processing, the bundler atomically claims the locale via `HSETNX`. If the entry already exists, it checks the heartbeat age:
+   - **Fresh (age < `PROCESSING_STALE_MS`, 20 min)** -- another pod is actively working on it. Skip.
+   - **Stale (age >= `PROCESSING_STALE_MS`)** -- the original pod is assumed crashed. Overwrite and take over (logged as a warning).
 
-After the pipeline completes (success or failure), the locale is removed from the processing SET via `try/finally`. On success it is added to the done SET.
+   The heartbeat timestamp is refreshed every 5 minutes alongside the BullMQ lock extension, so long-running locales are never falsely reclaimed.
+
+After the pipeline completes (success or failure), the locale is removed from the processing HASH via `try/finally`. On success it is added to the done SET.
+
+### Crash recovery
+
+When a pod crashes mid-processing:
+
+1. BullMQ detects the stalled job after the lock expires (10 min) and re-dispatches it.
+2. The new pod finds a stale entry in the processing HASH (>20 min old) and reclaims it.
+3. **Total recovery time: ~20 min.** No manual intervention or `--force` needed.
+
+When all pods are restarted (intentional kill), the same mechanism applies -- stale entries are reclaimed once new workers pick up the re-dispatched jobs. To start a completely fresh run instead, use `--force`.
 
 ### `--force` mode
 
-When `--force` is passed on the CLI:
+There are two `--force` variants depending on whether `-l` is also passed:
 
-1. **Init handler** clears the Redis done SET(s) for the release, so no locale is considered "already done".
-2. **Queue pre-filter** is skipped entirely -- all locales are scheduled regardless of Redis state.
-3. **Processor (`processLocale`)** bypasses both the Redis done-SET fast path and the GCS existence check. The tarball is re-created from scratch and uploaded, overwriting any existing archive in GCS.
-4. **Variant processor (`processVariants`)** bypasses per-variant Redis done-SET and GCS existence checks, re-creating and overwriting each variant tarball. The full-release tarball must still exist (it is the source of clips).
-5. **Statistics (`generateStatistics`)** re-generates stats unconditionally (stats always re-run when the tarball exists; `--force` adds a log line for visibility).
-6. The **processing SET guard** (stall dedup) is NOT bypassed -- it still prevents two pods from processing the same locale simultaneously.
+#### Full force (`--force` without `-l`)
 
-Use `--force` to fix corrupt releases or re-generate tarballs after a pipeline bug. Combine with `-l` to target specific locales without re-processing the entire release.
+The init handler performs a complete reset:
+
+1. **Force-flushes logs** -- any accumulated problem-clips and process-log rows from the previous (potentially bad) run are uploaded to GCS before being destroyed. Covers all release name variants (base, `-licensed`, `-variants`).
+2. **Obliterates the BullMQ queue** -- removes ALL jobs (active, waiting, delayed, completed, failed) via `queue.obliterate({ force: true })`. The queue is resumed immediately after.
+3. **Clears Redis state** -- deletes ALL entries in the done SET(s) and processing HASH(es) for the release.
+4. **Queue pre-filter** is skipped entirely -- all locales are scheduled regardless of state.
+5. **Processor (`processLocale`)** bypasses both the Redis done-SET fast path and the GCS existence check. The tarball is re-created from scratch and uploaded, overwriting any existing archive.
+6. **Variant processor (`processVariants`)** bypasses per-variant done-SET and GCS existence checks. The full-release tarball must still exist (source of clips).
+7. **Statistics (`generateStatistics`)** re-generates stats unconditionally.
+8. The **processing HASH guard** still prevents two pods from processing the same locale simultaneously within the new run.
+
+#### Selective force (`--force -l en tr`)
+
+Only the targeted locales are reset. The rest of the release (including any in-progress jobs) is untouched:
+
+1. **Done SET** -- scans members and removes only those whose locale prefix matches a target (handles both `locale` and `locale|license` members).
+2. **Processing HASH** -- scans fields and removes only matching entries.
+3. **BullMQ jobs** -- scans completed, failed, waiting, and delayed jobs. Removes only those whose deterministic job ID contains a targeted locale. Active jobs for targeted locales cannot be forcefully removed (BullMQ returns 0 if locked), but their Redis state was cleared, so when the new jobs run they will supersede the old results.
+4. **No queue obliteration** -- other locales' jobs continue processing normally.
+5. **No log flush** -- only targeted locales are being re-done, not the whole run.
+
+### End-of-run cleanup
+
+When a release name group finishes (count === total for that group), it decrements a `pendingGroups` counter. In `--license-mode both` there are two groups (base + licensed) with independent counters; only the last group to finish triggers cleanup:
+
+1. **Deletes all release-scoped Redis keys** -- logs, counters, timestamps, done SET, processing HASH, for all release name variants (base, `-licensed`, `-variants`).
+2. **Drains the BullMQ queue** -- removes any remaining completed/failed/delayed/waiting jobs.
+
+All logs and stats are already persisted in GCS at this point. Redis keys have a 24-hour TTL (`RELEASE_LOG_KEY_TTL_SEC`) as a safety net in case cleanup fails.
 
 ---
 
@@ -219,3 +257,42 @@ branch or a specific commit.
 
 Datasheets are only generated for `full` releases. Delta and statistics
 releases are silently skipped.
+
+### Sources table truncation
+
+The sources table in datasheets is truncated to keep it readable:
+
+- Maximum **9 named sources** are shown (`SOURCES_MAX_ROWS`).
+- Sources representing less than **1% of total sentences** (`SOURCES_MIN_PCT`) are excluded.
+- Everything below the cutoff (plus any pre-existing "Other" from upstream data) is merged into a single "Other" row.
+- If all sources qualify and fit within the limit, no "Other" row is shown.
+
+---
+
+## Stats JSON
+
+Per-locale stats JSON files use machine-readable codes for accent and variant splits (e.g. `shapsug`, `ady-Cyrl`) rather than display names. The `backmap()` function in `stats.ts` translates names to codes using `accentCodeMap` / `variantCodeMap` loaded from the database. Names without a code mapping (including `""` for unspecified) pass through as-is.
+
+The `variant` field was added to the `splits` object alongside `accent`, `age`, `gender`, and `sentence_domain`. For locales with no defined variants or accents, these fields are empty objects (`{}`).
+
+---
+
+## Redis keys
+
+All keys use the `scripted:` prefix (see `config/redisKeys.ts`). `{rel}` is the effective release name (e.g. `cv-corpus-25.0-2026-03-09`, `...-licensed`, `...-variants`).
+
+| Key                                | Type | Purpose                                                    |
+| ---------------------------------- | ---- | ---------------------------------------------------------- |
+| `scripted:done:{rel}`              | SET  | Locales successfully processed (fast-path skip check)      |
+| `scripted:processing:{rel}`        | HASH | Locales in progress (field = locale, value = heartbeat ms) |
+| `scripted:log:process:{rel}`       | LIST | TSV rows for the process-log report                        |
+| `scripted:log:problem-clips:{rel}` | LIST | TSV rows for the problem-clips report                      |
+| `scripted:jobs:count:{rel}`        | STR  | Completed locale job counter (atomic INCR)                 |
+| `scripted:jobs:total:{rel}`        | STR  | Total locale jobs scheduled                                |
+| `scripted:clips:count:{rel}`       | STR  | Cumulative clips processed                                 |
+| `scripted:clips:total:{rel}`       | STR  | Total expected clips                                       |
+| `scripted:time:start:{rel}`        | STR  | ISO 8601 timestamp of the first init job                   |
+| `scripted:log:last-flush:{rel}`    | STR  | ISO 8601 timestamp of the last GCS log flush               |
+| `scripted:pending-groups:{base}`   | STR  | Groups still running (e.g. 2 for `--license-mode both`)    |
+
+All keys have a 24-hour TTL (`RELEASE_LOG_KEY_TTL_SEC`) as a safety net. They are explicitly deleted after a successful run completes.

@@ -26,38 +26,38 @@ describe('countLinesInFile', () => {
     fs.rmSync(tmpDir, { recursive: true, force: true })
   })
 
-  it('counts data rows, excluding the header', () => {
+  it('counts data rows, excluding the header', async () => {
     const file = path.join(tmpDir, 'data.tsv')
     fs.writeFileSync(file, 'header\nrow1\nrow2\nrow3')
-    expect(countLinesInFile(file)).toBe(3)
+    expect(await countLinesInFile(file)).toBe(3)
   })
 
-  it('returns 0 for a header-only file', () => {
+  it('returns 0 for a header-only file', async () => {
     const file = path.join(tmpDir, 'header-only.tsv')
     fs.writeFileSync(file, 'header')
-    expect(countLinesInFile(file)).toBe(0)
+    expect(await countLinesInFile(file)).toBe(0)
   })
 
-  it('returns 0 for an empty file', () => {
+  it('returns 0 for an empty file', async () => {
     const file = path.join(tmpDir, 'empty.tsv')
     fs.writeFileSync(file, '')
-    expect(countLinesInFile(file)).toBe(0)
+    expect(await countLinesInFile(file)).toBe(0)
   })
 
-  it('returns 0 for a missing file', () => {
-    expect(countLinesInFile(path.join(tmpDir, 'nonexistent.tsv'))).toBe(0)
+  it('returns 0 for a missing file', async () => {
+    expect(await countLinesInFile(path.join(tmpDir, 'nonexistent.tsv'))).toBe(0)
   })
 
-  it('ignores blank / whitespace-only lines', () => {
+  it('counts all lines including blank ones (CC output has no blanks)', async () => {
     const file = path.join(tmpDir, 'blanks.tsv')
     fs.writeFileSync(file, 'header\nrow1\n\nrow2\n   \n')
-    expect(countLinesInFile(file)).toBe(2)
+    expect(await countLinesInFile(file)).toBe(4)
   })
 
-  it('handles a single data row', () => {
+  it('handles a single data row', async () => {
     const file = path.join(tmpDir, 'one-row.tsv')
     fs.writeFileSync(file, 'header\nrow1\n')
-    expect(countLinesInFile(file)).toBe(1)
+    expect(await countLinesInFile(file)).toBe(1)
   })
 })
 

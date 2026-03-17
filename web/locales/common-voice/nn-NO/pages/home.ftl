@@ -83,7 +83,7 @@ press-and-stories = Presse og historier
 community-and-languages = Fellesskap og språk
 coming-soon = Kjem snart
 about-us = Om oss
-scripted-speech = FØREBUDD TALE
+scripted-speech = MANUSBASERT TALE
 spontaneous-speech = SPONTAN TALE
 
 ## MENU ITEMS TOOLTIPS
@@ -116,7 +116,7 @@ get-started = Kom i gang <icon><icon>
 
 action-items-section-title = Common Voice er ei gratis, open kjeldekode-plattform for fellesskapsleidd datainnsamling
 action-items-section-subtitle = Alle kan bevare, revitalisere og heve språket sitt ved å dele, lage og forbetre tekst- og taledatasett.
-scripted-card-header = Opplesen tekst
+scripted-card-header = Manusbasert tale
 scripted-card-content = Les setningar høgt på språket ditt og bidra til det mest mangfaldige taledatasettet i heile verda.
 spontaneous-card-header = Spontan tale
 spontaneous-card-content = Svar på spørsmål for å lage datasett om organiske, daglegdagse kontekstar. Perfekt for munnleg førstespråk.

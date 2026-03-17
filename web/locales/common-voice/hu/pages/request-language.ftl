@@ -50,3 +50,12 @@ request-language-found-pontoon-not-launched =
 request-language-found-cv-contribution =
     Hurrá! A nyelve már él a Common Voice <strong>Előre megírt beszéd</strong> kategóriával. 
     <homePageLink>Itt</homePageLink> működhet közre.
+request-language-found-cv-sentences-lack =
+    A nyelve már szerepel a Common Voice nyelvlistáján.
+    Megkönnyítheti a nyelvi indítását az <strong>Előre megírt beszéd</strong> kategóriával úgy,
+    hogy mondatokkal működik közre <sentencesContributionLink>itt</sentencesContributionLink>.
+request-language-found-spontaneous-speech =
+    A nyelve már él a Common Voice <strong>Spontán beszéd</strong> kategóriával. 
+    Kattintson <spontaneousSpeechLink>ide</spontaneousSpeechLink> a közreműködéshez: mielőtt nekilát, ne feledje módosítani a közreműködést/adatkészletet.
+request-language-already-available-scs = Az Előre megírt beszéd már elérhető
+request-language-already-available-sps = A Spontán beszéd már elérhető

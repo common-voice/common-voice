@@ -6,6 +6,7 @@ import { AppEnv } from '../types'
 import { uploadToBucket } from '../infrastructure/storage'
 import { getDatasetBundlerBucketName } from '../config'
 import type { Buckets, LocaleReleaseData } from './localeData'
+import type { CompressResult } from './compress'
 import { logger } from '../infrastructure/logger'
 
 // -- Output types (shape of the uploaded stats JSON) -------------------------
@@ -20,6 +21,7 @@ type Stats = {
 
 type Splits = {
   accent: Record<string, number>
+  variant: Record<string, number>
   age: Record<string, number>
   gender: Record<string, number>
   sentence_domain: Record<string, number>
@@ -44,6 +46,24 @@ type Locale = {
 
 // -- Build Locale from LocaleReleaseData + tar metadata ----------------------
 
+/**
+ * Re-keys a name-based counts record to use codes (tokens) where available.
+ * Names without a mapping are kept as-is (e.g. user-submitted accents
+ * grouped under "" stay as "").
+ */
+const backmap = (
+  counts: Record<string, number>,
+  codeMap?: Record<string, string>,
+): Record<string, number> => {
+  if (!codeMap || Object.keys(codeMap).length === 0) return counts
+  const result: Record<string, number> = {}
+  for (const [name, count] of Object.entries(counts)) {
+    const key = codeMap[name] ?? name
+    result[key] = (result[key] ?? 0) + count
+  }
+  return result
+}
+
 export const buildLocale = (
   data: LocaleReleaseData,
   checksum: string,
@@ -56,7 +76,8 @@ export const buildLocale = (
   unvalidatedSentences: data.unvalidatedSentences,
   clips: data.clips,
   splits: {
-    accent: data.accentCounts,
+    accent: backmap(data.accentCounts, data.accentCodeMap),
+    variant: backmap(data.variantCounts, data.variantCodeMap),
     age: data.ageCounts,
     gender: data.genderCounts,
     sentence_domain: data.domainCounts,
@@ -74,17 +95,30 @@ export const buildLocale = (
 
 const uploadToDatasetBucket = uploadToBucket(getDatasetBundlerBucketName())
 
+/**
+ * Builds and uploads stats JSON. When the tarball was streamed to GCS,
+ * size and checksum come from the CompressResult. When it was written
+ * locally, they are computed from the file on disk (existing behaviour).
+ */
 export const statsPipeline = (
   locale: string,
   data: LocaleReleaseData,
-  tarFilepath: string,
+  compressResult: CompressResult,
   releaseName: string,
   license?: string,
 ) =>
   pipe(
     TE.Do,
-    TE.bind('checksum', () => calculateChecksum(tarFilepath)),
-    TE.let('fileSize', getFileSize(tarFilepath)),
+    TE.bind('checksum', () =>
+      compressResult.streamed
+        ? TE.right(compressResult.checksum)
+        : calculateChecksum(compressResult.tarballFilepath),
+    ),
+    TE.let('fileSize', () =>
+      compressResult.streamed
+        ? compressResult.size
+        : getFileSize(compressResult.tarballFilepath)(),
+    ),
     TE.map(({ checksum, fileSize }) => {
       const localeStats = buildLocale(data, checksum, fileSize)
       const stats: Stats = {
@@ -109,7 +143,7 @@ export const statsPipeline = (
   )
 
 export const runStats = (
-  tarFilepath: string,
+  compressResult: CompressResult,
 ): RTE.ReaderTaskEither<AppEnv, Error, Stats> =>
   pipe(
     RTE.ask<AppEnv>(),
@@ -120,6 +154,6 @@ export const runStats = (
         )
       }
       logger.info('STATS', `[${locale}] Building stats from locale data`)
-      return statsPipeline(locale, localeData, tarFilepath, releaseName, license)
+      return statsPipeline(locale, localeData, compressResult, releaseName, license)
     }),
   )

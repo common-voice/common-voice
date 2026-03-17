@@ -50,7 +50,9 @@ background-noise-tip-2 = [yɛltɔɣa maa yaɣ' shɛli ku tooi wum]
 background-voices-explanation = Vuri bela din yirina bi galim,amaa ayi ni tooi wum yɛltɔɣa maa,di ni tooi saɣim vilibu ka di ku lahi tum tuma.Di bahi bandi ti yi ti che ninyula kpanjɔɣu ka di tumda.
 background-voices-example-1 = Sodoligu
 background-voices-tip-1 = A kanna?
+volume-explanation = Ban karindi kukoya dubu ni tooi be kɔŋkɔba. A ni nooi zaɣisi di yi niŋ ka kukoli maa du n-yaɣi zuɣu che the lahibali maa ŋmaara, bee (din tooi yoli) di dubu yi be tiŋa pam ka di zuɣu che ka a ku tooi wum o ni yɛri shɛli maa ka di pala a yuli la sabbu maa.
 reader-effects-explanation = Kukoya din yaai maa pam nyɛla niriba n-kuli yɛri bɛ ni yɛri shɛm. A ni tooi saɣi n-ti din ti chirigi n-yi di ko ka che o kukoli maa ka nyɛ tahigu, ŋumbu, bee ka di kuli yɛli ni kuko' shɛli din be di ko. Dim suɣulo, zaɣisimi karimbu din ŋmani yila bee kukoli shɛli bɛ ni zaŋ kɔmpiita n-niɣim.
+just-unsure-explanation = A yi nya binshɛli ka ti ni ti so' shɛŋa ŋ bi tabisi li, nyin dimi suɣulo ka zaŋ a maŋmaŋ tɛha n-tum din simdi. A mi kuli ku tooi ti a ni nya li shɛm, nyin dihimi kpahiyaɣi garili maa n-chaŋ kukoli din paya zuɣu.
 still-have-questions = Anna mali bohasi?
 contact-common-voice = Bolimi kukoyinga nim maa
 
@@ -64,6 +66,7 @@ sentence-domain = Yɛltɔɣili ni yi yaɣ' shɛli na
 
 ## Sentence collection sidebar content
 
+public-domain-explanation-1 = Di tu kamata ni satarili kam din yɛri yɛltɔɣa niŋ bayana n-ti sokam<publicDomain>sokam<publicDomain>(<cc0>cco<\<cc0>) kaman common voice tuma din laɣim taba ni bahi lansiisi ŋɔ gbunni cco.kuly vulimi yɛltɔɣa shɛŋa a ni dihitabili ka pahiri luɣi shɛli a ni nya li
 public-domain-explanation-5 = Bɔmi satarili shɛli din lahi ka labiniŋ.mŋahinli buku sheŋa din daa sabi poi ni yuuni 1920
 public-domain-explanation-6 = kpaŋmi a maŋa m paai gomnanti,zen n gama laɣinsi bee poham zuɣu laɣinsi n nŋa a ni tooi zaŋ sodoligu ŋɔ wuhi bee ninvuɣ' shɛbi ni tooi wuhi ti sokam zaa.
 citing-sentences-explanation-1 = Di mali bukaata ni ti wuhiri ti tumma bɛhisi shee din yan che ka ti vihiri lala yɛltɔɣa be maa sokam zaa sa ni ka paɣasiriba bi tooi nŋari paɣasira
@@ -80,6 +83,7 @@ adding-sentences-subheader-length-explanation = Yɛltɔɣili maa bi tu ni di bac
 adding-sentences-subheader-spelling-punctuation = bachiyisibu mini bihibahibu
 adding-sentences-subheader-spelling-punctuation-explanation = Yɛltɔɣili maa bachinima simdi ka di yiɣisi dede.
 adding-sentences-subheader-speakable = Din tooi yɛli
+adding-sentences-subheader-speakable-explanation = Yɛltɔɣa shɛŋa din gahim yi di ko nyɛla din kukoli be taɣi ka be yɛltɔɣali ni di ni kuli nyɛ shɛm _Di tu ni di karimbu be nyɛ tɔm zaŋ ti sakam.Yɛltɔɣa maa kumsi mini bachi nim maa niŋ talahi,ti lahi mali kpaŋmaŋa zaŋ kana yɛltɔɣa vulibu ninnyambo palo zaŋti ban tumdi tiri bi tiŋsi ni yoliyoli.
 adding-sentences-subheader-numbers = kalinli
 adding-sentences-subheader-abbreviations = bachi ŋmahi mini bachi ŋma'kurita
 adding-sentences-subheader-punctuation = Bihibahibu
@@ -165,6 +169,7 @@ special-tags-example-2 =
     Tɔ, di saha, ka n [noise] daa chaŋ n vuhim dabisili.
     Tɔ, [noise] [laugh] di daa did kuli pala vuhim dabisili gba [laugh]
 transcribe-the-audio-subheader-4-explanation-1-example = O yuli nyɛla <underline>Jo- Jona-</underline> Jonathan.
+transcribe-the-audio-subheader-4-explanation-2 = Saha shɛŋa ban yɛri yɛltɔɣa ni tooi labi boli bachi shɛŋa bu shɛm shɛm.Dinbɔŋɔ gba tu ni di mali  sɔŋ.Shɛhira
 
 ## Code-Switching
 
@@ -176,6 +181,8 @@ code-switching-adding-question-criteria-1 = maami ani m baŋ ka saɣi ti
 code-switching-adding-question-criteria-2 = Di tu ni di mali anfaani
 # What types of questions to add
 code-switching-types-subheader = Bɔhigu bal' bo n lee tu ni di pahi
+code-switching-use-bilingual-prompts-explanation-example = Mma a yi paai yiŋa dindalimaa?
+code-switching-ask-bilingual-contexts-header = Bɔhimi zaŋ kpa Bala waliginsim palo
 code-switching-focus-emotional-explanation-example = Yɛlimima a laabi ni yɛlishɛm ani daa ti ba lahibali karili_bi ni daa kuli yɛlli shɛm"
 # What to Avoid
 code-switching-avoid-subheader = Din tu ni a che

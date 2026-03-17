@@ -5,18 +5,33 @@ import { TimeUnitsMs, TimeUnitsSec } from '../config'
 // -- Filesystem --------------------------------------------------------------
 
 /**
- * Count data lines (total minus header) in a TSV/CSV file.
- * Returns 0 if the file is missing or unreadable.
+ * Count newline-separated lines minus the header row in a TSV/CSV file.
+ * Counts all lines including blank/whitespace-only rows (CC output has none).
+ * Returns 0 if the file is missing, unreadable, or header-only.
+ *
+ * Streams the file in chunks to avoid loading multi-GB files into memory.
  */
-export const countLinesInFile = (filepath: string): number => {
-  try {
-    const content = fs.readFileSync(filepath, 'utf-8')
-    const lines = content.split('\n').filter(l => l.trim().length > 0)
-    return Math.max(0, lines.length - 1) // subtract header
-  } catch {
-    return 0
-  }
-}
+export const countLinesInFile = (filepath: string): Promise<number> =>
+  new Promise(resolve => {
+    if (!fs.existsSync(filepath)) return resolve(0)
+
+    let lines = 0
+    let lastByte = 0
+
+    const stream = fs.createReadStream(filepath)
+    stream.on('data', (chunk: Buffer) => {
+      for (let i = 0; i < chunk.length; i++) {
+        if (chunk[i] === 0x0a) lines++
+      }
+      lastByte = chunk[chunk.length - 1]
+    })
+    stream.on('end', () => {
+      // No trailing newline means the last line wasn't counted yet
+      if (lastByte !== 0x0a && lastByte !== 0) lines++
+      resolve(Math.max(0, lines - 1)) // subtract header
+    })
+    stream.on('error', () => resolve(0))
+  })
 
 // -- Math / unit conversion --------------------------------------------------
 

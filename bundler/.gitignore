@@ -4,6 +4,8 @@ js
 coverage
 
 # -- Dev and environment --
+.idea
+.vscode
 *.dev*
 .env
 
@@ -12,6 +14,10 @@ coverage
 __pycache__
 *.pyc
 *.pyo
+*.pyd
+*.log
+*.bak
+*.swp
 .pytest_cache
 .mypy_cache
 .ruff_cache

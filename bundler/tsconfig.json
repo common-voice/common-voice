@@ -1,9 +1,15 @@
 {
-  "extends": "@tsconfig/node24/tsconfig.json",
   "compilerOptions": {
+    "target": "es2022",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "lib": ["es2022"],
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "isolatedModules": true,
     "outDir": "js",
-    "rootDir": "./src",
-    "isolatedModules": true
+    "rootDir": "./src"
   },
   "include": ["src/**/*"]
 }
