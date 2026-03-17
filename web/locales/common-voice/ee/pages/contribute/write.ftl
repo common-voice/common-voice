@@ -70,3 +70,6 @@ sentence-variant-select-multiple-variants = Gbegbɔgblɔ si wozãna le mɔ gbadz
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Tsɔ <icon></icon> dutoƒo nyagbewo da ɖe Internet dzi
+sc-bulk-upload-instruction = He wò file ɖe afisia alo <uploadButton>zi edzi be nàdae ɖe</uploadButton>
+sc-bulk-upload-instruction-drop = Da file ɖe afisia be nàdae ɖe edzi
+bulk-upload-additional-information = Ne nyatakaka bubu aɖewo li si nèdi be yeana tso file sia ŋu la, taflatse te ɖe <emailFragment>commonvoice@mozilla.com</emailFragment> ŋu
