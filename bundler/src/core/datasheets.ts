@@ -451,7 +451,7 @@ export const buildSourcesStatsTable = (
   }
 
   // Truncate: keep top SOURCES_MAX_ROWS that are also >= SOURCES_MIN_PCT
-  const minCount = Math.ceil(total * SOURCES_MIN_PCT)
+  const minCount = Math.max(1, Math.ceil(total * SOURCES_MIN_PCT))
   const shown: [string, number][] = []
   for (const [source, count] of named) {
     if (shown.length < SOURCES_MAX_ROWS && count >= minCount) {
@@ -470,6 +470,7 @@ export const buildSourcesStatsTable = (
     rows.push([OTHER_LABEL, fmtCountPct(otherCount, total, locale)])
   }
 
+  if (rows.length === 0) return ''
   return formatMarkdownTable(['Source', 'Sentences'], rows)
 }
 

@@ -889,6 +889,17 @@ describe('buildSourcesStatsTable', () => {
     expect(result).toContain('100.0%')
     expect(result).not.toContain('Other')
   })
+
+  it('filters out zero-count sources even when total is 0', () => {
+    const result = buildSourcesStatsTable({ Wikipedia: 0, Tatoeba: 0 })
+    expect(result).toBe('')
+  })
+
+  it('groups zero-count sources into Other when total > 0', () => {
+    const result = buildSourcesStatsTable({ Wikipedia: 50, Empty: 0 })
+    expect(result).toContain('Wikipedia')
+    expect(result).not.toContain('Empty')
+  })
 })
 
 // -- buildTextDomainStatsTable -----------------------------------------------
