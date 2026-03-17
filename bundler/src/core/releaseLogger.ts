@@ -217,11 +217,22 @@ export const flushReleaseLogs = async (
       )
       logger.info('', '== == == == == == == == == == == == == == == == == == ==')
 
-      // 9. End-of-run cleanup: delete all release-scoped Redis keys and drain
-      //    BullMQ queue. Logs and stats are already persisted in GCS -- Redis
-      //    data is no longer needed. TTL acts as safety net if this fails.
-      await cleanupRedisKeys(releaseName)
-      await drainQueue()
+      // 9. End-of-run cleanup, gated on pending groups counter.
+      //    In --license-mode both, there are 2 groups (base + licensed) with
+      //    independent counters. Only the last group to finish runs cleanup.
+      const baseRelease = toBaseReleaseName(releaseName)
+      const remaining = await redisClient.decr(redisKeys.pendingGroups(baseRelease))
+
+      if (remaining <= 0) {
+        // Last group done -- safe to clean up everything.
+        await cleanupRedisKeys(releaseName)
+        await drainQueue()
+      } else {
+        logger.info(
+          'RELEASE-LOGGER',
+          `[${releaseName}] Group finished, ${remaining} group(s) still running -- deferring cleanup`,
+        )
+      }
     }
   } catch (err) {
     logger.error(
@@ -329,6 +340,9 @@ const cleanupRedisKeys = async (releaseName: string): Promise<void> => {
     const result = await redisClient.del(...keys)
     deleted += result
   }
+
+  // Clean up the pending-groups counter (keyed by base name).
+  deleted += await redisClient.del(redisKeys.pendingGroups(toBaseReleaseName(releaseName)))
 
   if (deleted > 0) {
     logger.info('RELEASE-LOGGER', `Cleaned up ${deleted} Redis key(s) (end-of-run)`)

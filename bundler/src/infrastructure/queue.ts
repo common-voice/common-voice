@@ -440,6 +440,10 @@ export const addJobsToReleaseQueue = (settings: Settings) =>
               (batchClips > 0 ? ` (~${batchClips.toLocaleString()} clips)` : ''),
           )
         }
+        // Track how many release name groups are active (e.g. base + licensed = 2).
+        // End-of-run cleanup only fires when the last group finishes.
+        await redisClient.set(redisKeys.pendingGroups(settings.releaseName), totals.size)
+        await redisClient.expire(redisKeys.pendingGroups(settings.releaseName), RELEASE_LOG_KEY_TTL_SEC)
       }, err => Error(String(err))),
     ),
     TE.map(({ pendingJobs }) =>

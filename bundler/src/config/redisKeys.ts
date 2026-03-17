@@ -47,4 +47,11 @@ export const redisKeys = {
   /** ISO 8601 timestamp of the last GCS log flush. */
   lastFlush: (releaseName: string) =>
     `${REDIS_PREFIX}:log:last-flush:${releaseName}`,
+  /**
+   * Counter of release name groups still running (e.g. base + licensed = 2).
+   * Keyed by base release name. Decremented when each group finishes
+   * (count === total). Cleanup + drain only runs when this reaches 0.
+   */
+  pendingGroups: (baseReleaseName: string) =>
+    `${REDIS_PREFIX}:pending-groups:${baseReleaseName}`,
 }
