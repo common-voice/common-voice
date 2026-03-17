@@ -27,6 +27,11 @@ const streamUpload =
           const shortPath = path.includes('/') ? path.substring(path.indexOf('/') + 1) : path
           const uploadStart = Date.now()
           logger.info('STORAGE', `Uploading ${shortPath}`)
+
+          // Listen for errors on the source stream so tar/metrics failures
+          // reject the promise instead of hanging silently.
+          data.on('error', (err: Error) => reject(err))
+
           data
             .pipe(file.createWriteStream())
             .on('finish', () => {
