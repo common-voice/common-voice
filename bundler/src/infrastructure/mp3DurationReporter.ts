@@ -41,8 +41,10 @@ const runMp3DurationReporterPromise = (
       stderrPartial += String(data)
       const parts = stderrPartial.split('\n')
       // Last element is either '' (line ended with \n) or a partial line
+      // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
       stderrPartial = parts.pop()!
       for (const raw of parts) {
+        // eslint-disable-next-line no-control-regex
         const line = raw.replace(/\x1b\[[0-9;]*m/g, '').trim()
         if (!line) continue
         if (line.includes('ERROR')) {
@@ -56,6 +58,7 @@ const runMp3DurationReporterPromise = (
     cc.on('close', () => {
       // Flush any remaining partial line
       if (stderrPartial.trim()) {
+        // eslint-disable-next-line no-control-regex
         const line = stderrPartial.replace(/\x1b\[[0-9;]*m/g, '').trim()
         if (line.includes('ERROR')) errorCount++
       }

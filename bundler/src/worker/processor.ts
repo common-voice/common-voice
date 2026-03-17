@@ -18,7 +18,7 @@ import { runMp3DurationReporter } from '../infrastructure/mp3DurationReporter'
 import { runStats } from '../core/stats'
 import { runReportedSentences } from '../core/reportedSentences'
 import { runUpload } from '../core/upload'
-import { cleanUp, runCleanUp } from '../core/cleanUp'
+import { runCleanUp } from '../core/cleanUp'
 import { runCompressAndUploadMetadata } from '../core/metadata'
 import { runGenerateDatasheet } from '../core/datasheets'
 import { runScanLocaleData } from '../core/localeData'
@@ -28,10 +28,10 @@ import { doesFileExistInBucket } from '../infrastructure/storage'
 import { redisClient } from '../infrastructure/redis'
 import {
   getDatasetBundlerBucketName,
-  getEnvironment,
   getTmpDir,
   LOCK_EXTEND_MS,
   LOCK_EXTEND_INTERVAL_MS,
+  PROCESSING_STALE_MS,
   RELEASE_LOG_KEY_TTL_SEC,
   redisKeys,
 } from '../config'
@@ -85,16 +85,21 @@ const processPipeline = pipe(
     ),
   ),
   RTE.chainFirst(() => runGenerateDatasheet),
-  RTE.bind('tarFilepath', runCompress),
-  RTE.bind('uploadPath', ({ tarFilepath }) => runUpload(tarFilepath)),
+  RTE.bind('compressResult', runCompress),
+  // Upload local tarball to GCS -- skip when already streamed during compress
+  RTE.bind('uploadPath', ({ compressResult }) =>
+    compressResult.streamed
+      ? RTE.right<AppEnv, Error, string>(compressResult.uploadPath)
+      : runUpload(compressResult.tarballFilepath),
+  ),
   RTE.chainFirst(runCompressAndUploadMetadata),
-  RTE.bind('stats', ({ tarFilepath }) => runStats(tarFilepath)),
+  RTE.bind('stats', ({ compressResult }) => runStats(compressResult)),
   RTE.chainFirstW(({ stats }) =>
     RTE.asks<AppEnv, void>(env => {
       env.clipCount = stats.locales[env.locale]?.clips ?? 0
     }),
   ),
-  RTE.chainFirst(({ tarFilepath }) => runCleanUp(tarFilepath)),
+  RTE.chainFirst(({ compressResult }) => runCleanUp(compressResult.tarballFilepath)),
   RTE.chainFirst(runPushProblemClips),
 )
 
@@ -206,34 +211,50 @@ export const processLocale = async (job: Job<ProcessLocaleJob>, token?: string) 
   }
 
   // Guard against duplicate processing from BullMQ stall re-dispatch.
-  // SADD returns 0 if the member already exists (another pod is processing it).
-  const added = await redisClient.sadd(
-    redisKeys.processing(releaseName),
-    doneMember,
-  )
-  await redisClient.expire(
-    redisKeys.processing(releaseName),
-    RELEASE_LOG_KEY_TTL_SEC,
-  )
-  if (added === 0) {
-    logger.info(
+  // Uses a HASH (locale -> heartbeat timestamp). HSETNX is atomic for the
+  // common case (first claim). Stale reclaim has a tiny race window where
+  // two pods could both proceed -- acceptable since the only consequence is
+  // duplicate work (GCS upload overwrites), not data corruption.
+  const processingKey = redisKeys.processing(releaseName)
+  const now = Date.now()
+
+  const claimed = await redisClient.hsetnx(processingKey, doneMember, String(now))
+  await redisClient.expire(processingKey, RELEASE_LOG_KEY_TTL_SEC)
+
+  if (!claimed) {
+    // Entry exists -- check if it's stale (crashed pod) or active.
+    const existingTs = await redisClient.hget(processingKey, doneMember)
+    const age = now - Number(existingTs)
+    if (age < PROCESSING_STALE_MS) {
+      logger.info(
+        'PROCESSOR',
+        `[${locale}] Already being processed by another pod (${Math.round(age / 1000)}s ago), skipping`,
+      )
+      return
+    }
+    // Stale -- reclaim. Non-atomic but harmless: worst case is duplicate work.
+    logger.warn(
       'PROCESSOR',
-      `[${locale}] Already being processed by another pod, skipping`,
+      `[${locale}] Stale processing entry (${Math.round(age / 1000)}s old, threshold ${PROCESSING_STALE_MS / 1000}s) -- taking over from crashed pod`,
     )
-    return
+    await redisClient.hset(processingKey, doneMember, String(now))
   }
 
-  // Timer-based lock extension: covers all pipeline steps uniformly
-  // (download, merge, compress, upload, CorporaCreator subprocess, etc.)
-  // without threading a callback through every function signature.
+  // Timer-based lock extension + processing heartbeat: covers all pipeline
+  // steps uniformly (download, merge, compress, upload, CorporaCreator
+  // subprocess, etc.) without threading a callback through every function
+  // signature. The heartbeat refresh prevents long-running locales from
+  // being falsely reclaimed as stale by another pod.
   const lockTimer = token
     ? setInterval(async () => {
         try {
           await job.extendLock(token, LOCK_EXTEND_MS)
+          // Refresh processing HASH timestamp so other pods see this job is alive.
+          await redisClient.hset(processingKey, doneMember, String(Date.now()))
         } catch (err) {
-          // Lock may already be lost (LRU eviction); processing SET guard
-          // prevents duplicates. Log so repeated failures are visible.
-          logger.warn('PROCESSOR', `[${locale}] Lock extension failed: ${String(err)}`)
+          // Lock may already be lost (LRU eviction); processing HASH guard
+          // handles crash recovery. Log so repeated failures are visible.
+          logger.warn('PROCESSOR', `[${locale}] Lock/heartbeat refresh failed: ${String(err)}`)
         }
       }, LOCK_EXTEND_INTERVAL_MS)
     : undefined
@@ -259,7 +280,7 @@ export const processLocale = async (job: Job<ProcessLocaleJob>, token?: string) 
     await flushReleaseLogs(env, E.isRight(result) ? 'success' : 'error')
   } finally {
     if (lockTimer) clearInterval(lockTimer)
-    // Remove from processing SET (done or failed -- either way, no longer active).
-    await redisClient.srem(redisKeys.processing(releaseName), doneMember)
+    // Remove from processing HASH (done or failed -- either way, no longer active).
+    await redisClient.hdel(redisKeys.processing(releaseName), doneMember)
   }
 }

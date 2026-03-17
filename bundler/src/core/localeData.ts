@@ -370,7 +370,7 @@ export const scanSentenceFiles = (
         ),
       ])
 
-      const reportedSentences = countLinesInFile(
+      const reportedSentences = await countLinesInFile(
         path.join(localeDir, 'reported.tsv'),
       )
 
@@ -400,7 +400,7 @@ export const scanSentenceFiles = (
 
 // -- CC output line counts ---------------------------------------------------
 
-const scanBuckets = (localeDir: string): Buckets => {
+const scanBuckets = async (localeDir: string): Promise<Buckets> => {
   const buckets: Buckets = {
     dev: 0,
     invalidated: 0,
@@ -412,7 +412,7 @@ const scanBuckets = (localeDir: string): Buckets => {
 
   for (const file of CORPORA_CREATOR_FILES) {
     const key = file.replace('.tsv', '') as keyof Buckets
-    buckets[key] = countLinesInFile(path.join(localeDir, file))
+    buckets[key] = await countLinesInFile(path.join(localeDir, file))
   }
 
   return buckets
@@ -517,7 +517,7 @@ export const scanLocaleData = (
     ),
     TE.bind('sentenceScan', () => scanSentenceFiles(localeDir)),
     TE.chain(({ clipsScan, sentenceScan }) => TE.tryCatch(async () => {
-      const buckets = scanBuckets(localeDir)
+      const buckets = await scanBuckets(localeDir)
       const sentencesSample = await sampleSentences(localeDir)
 
       const avgDurationMs =

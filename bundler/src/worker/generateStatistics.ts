@@ -5,7 +5,7 @@ import * as RTE from 'fp-ts/ReaderTaskEither'
 import { Job } from 'bullmq'
 import { AppEnv, ProcessLocaleJob } from '../types'
 import { getDatasetBundlerBucketName, getTmpDir } from '../config'
-import { generateTarFilename } from '../core/compress'
+import { compressResultFromLocalTar, generateTarFilename } from '../core/compress'
 import { constVoid, pipe } from 'fp-ts/lib/function'
 import { doesFileExistInBucket } from '../infrastructure/storage'
 import { runMp3DurationReporter } from '../infrastructure/mp3DurationReporter'
@@ -56,7 +56,9 @@ const generateStatisticsPipeline = pipe(
       ),
     ),
   ),
-  RTE.bind('stats', ({ tarFilepath }) => runStats(tarFilepath)),
+  RTE.bind('stats', ({ tarFilepath }) =>
+    runStats(compressResultFromLocalTar(tarFilepath)),
+  ),
   RTE.chainFirst(({ tarFilepath }) => runCleanUp(tarFilepath)),
   RTE.match(
     err => logger.error('STATS', String(err)),

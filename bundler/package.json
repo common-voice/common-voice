@@ -35,7 +35,7 @@
     "fp-ts": "^2.16.11",
     "ioredis": "^5.10.0",
     "mp3-duration": "^1.1.0",
-    "mysql2": "^3.19.1",
+    "mysql2": "^3.20.0",
     "redlock": "^4.2.0",
     "stream-transform": "^3.4.0",
     "tar": "^7.5.11"

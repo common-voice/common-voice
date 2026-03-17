@@ -8,3 +8,16 @@ coverage
 *.tar.gz
 cv-corpus*
 cv-test-*
+
+.venv
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.bak
+*.swp
+.idea
+.vscode
+*.json
+*.egg-info

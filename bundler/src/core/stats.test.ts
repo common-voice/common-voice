@@ -146,6 +146,56 @@ describe('buildLocale', () => {
       healthcare: 20,
     })
     expect(result.splits.accent).toEqual({})
+    expect(result.splits.variant).toEqual({})
+  })
+
+  it('re-keys accents from names to codes when accentCodeMap is provided', () => {
+    const data = makeLocaleData({
+      accentCounts: {
+        'Шапсыгъ (Şapsığ)': 7085,
+        'Кıэмгуй (Çemguy)': 10213,
+        '': 550,
+      },
+      accentCodeMap: {
+        'Шапсыгъ (Şapsığ)': 'shapsug',
+        'Кıэмгуй (Çemguy)': 'temirgoy',
+      },
+    })
+    const result = buildLocale(data, '', 0)
+
+    expect(result.splits.accent).toEqual({
+      shapsug: 7085,
+      temirgoy: 10213,
+      '': 550,
+    })
+  })
+
+  it('re-keys variants from names to codes when variantCodeMap is provided', () => {
+    const data = makeLocaleData({
+      variantCounts: {
+        'Адыгабзэ (Кирил, пстэумэ зэдыряе)': 40584,
+        'Адыгабзэ (Кирил, Урысый)': 5202,
+      },
+      variantCodeMap: {
+        'Адыгабзэ (Кирил, пстэумэ зэдыряе)': 'ady-Cyrl',
+        'Адыгабзэ (Кирил, Урысый)': 'ady-RU',
+      },
+    })
+    const result = buildLocale(data, '', 0)
+
+    expect(result.splits.variant).toEqual({
+      'ady-Cyrl': 40584,
+      'ady-RU': 5202,
+    })
+  })
+
+  it('keeps names as-is when no code map is provided', () => {
+    const data = makeLocaleData({
+      accentCounts: { 'SomeName': 100 },
+    })
+    const result = buildLocale(data, '', 0)
+
+    expect(result.splits.accent).toEqual({ 'SomeName': 100 })
   })
 
   it('maps sentence counts', () => {
