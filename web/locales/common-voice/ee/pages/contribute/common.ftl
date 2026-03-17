@@ -60,3 +60,58 @@ report-other-comment =
     .placeholder = Comment
 success = Edzedzi
 continue = Yi dzi
+report-success = Woto nyatakakaa dzi dzidzedzetɔe
+
+## Speak & Listen Shortcuts
+
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
+
+## Speak Shortcuts
+
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
+shortcut-record-toggle-label = Nuŋlɔɖi/Dzudzɔ
+shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Gbugbɔ lé video klipi ɖe mɔ̃ dzi
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Tsɔ nya siwo wolé ɖe mɔ̃ dzi si yi edzi la ƒu gbe
+shortcut-submit = Trᴐ gbᴐ
+shortcut-submit-label = Do wò klipiwo ɖa
+request-language-text = Mèkpɔ wò gbe le Common Voice dzi haɖe oa?
+request-language-button = Bia Gbegbɔgblɔ aɖe
+
+## Listen Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+shortcut-play-toggle-label = Fefe/Dzudzɔ
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
+
+## Validation criteria
+
+contribution-criteria-nav = Afɔɖeɖe
+contribution-criteria-link = Se nudzɔdzɔ ƒe dzidzenuwo gɔme
+contribution-criteria-page-title = Nudzɔdzɔ ƒe Dzesiwo
+contribution-criteria-page-description = Se nusiwo nàdi ne èle gbeɖiɖi ƒe akpa aɖewo sem gɔme eye nàkpe ɖe ŋuwò nàna wò haƒoƒo siwo wolé ɖe mɔ̃ dzi hã nazu kesinɔtɔwo wu!
+contribution-for-example = Le kpɔɖeŋu me
+contribution-misreadings-title = Nuxexlẽ siwo mesɔ o
+contribution-misreadings-description = Ne èle to ɖom la, lé ŋku ɖe eŋu nyuie ŋutɔ be nusi wolé ɖe mɔ̃ dzi la nye nusi tututu woŋlɔ; gbe ne vodada suesuesuewo gɔ̃ hã li. <br />Vodada siwo bɔ ŋutɔ dometɔ aɖewoe nye:
+contribution-misreadings-description-extended-list-1 = <strong>'A'</strong> alo <strong>'The'</strong> si bu le nuŋɔŋlɔa ƒe gɔmedzedze.
+contribution-misreadings-description-extended-list-2 = <strong>'s'</strong> aɖe si bu le nya aɖe ƒe nuwuwu.
+contribution-misreadings-description-extended-list-3 = Nuxexlẽ ƒe nutete siwo mele afima ŋutɔŋutɔ o, abe "Míele" ɖe "Míele" teƒe, alo vice versa.
+contribution-misreadings-description-extended-list-4 = Nya mamlɛtɔ ƒe nuwuwu toto to nuƒoƒo si wolé ɖe mɔ̃ dzi la ɖeɖeɖa kabakaba akpa me.
+contribution-misreadings-description-extended-list-5 = Agbagbadzedze zi geɖe be woaxlẽ nya ɖeka.
+contribution-misreadings-example-1-title = Dinosaur gã siwo nɔ anyi le Triassic-ɣeyiɣiwo me.
+contribution-misreadings-example-2-title = Dinosaur gã si nɔ anyi le Triassic-ɣeyiɣiwo me.
+contribution-misreadings-example-2-explanation = [Ele be wòanye ‘dinosaurs’].
+contribution-misreadings-example-3-title = Dinosaur gã siwo le Triassi-.
+contribution-misreadings-example-3-explanation = [Wotso nuƒoƒo hafi nya mamlɛtɔ nawu enu].
+contribution-misreadings-example-4-title = Dinosaur gã siwo nɔ anyi le Triassic-ɣeyiɣiwo me. Ee.
