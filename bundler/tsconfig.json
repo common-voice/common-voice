@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "es2022",
     "module": "nodenext",
-    "moduleResolution": "node16",
+    "moduleResolution": "nodenext",
     "lib": ["es2022"],
     "strict": true,
     "esModuleInterop": true,

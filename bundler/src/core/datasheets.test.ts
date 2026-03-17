@@ -895,7 +895,7 @@ describe('buildSourcesStatsTable', () => {
     expect(result).toBe('')
   })
 
-  it('groups zero-count sources into Other when total > 0', () => {
+  it('omits zero-count sources when total > 0', () => {
     const result = buildSourcesStatsTable({ Wikipedia: 50, Empty: 0 })
     expect(result).toContain('Wikipedia')
     expect(result).not.toContain('Empty')

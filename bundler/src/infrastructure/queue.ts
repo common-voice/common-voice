@@ -74,7 +74,7 @@ const getLicensedLocales = (settings: Settings) => {
  *   deterministic job IDs cause queue.add() to silently no-op.
  * - --force init: obliterates the entire queue (active + waiting + delayed +
  *   completed + failed) so a fresh run can fully replace a bad/in-progress one.
- *   Pauses the queue during obliteration and resumes after.
+ *   obliterate() pauses the queue internally; resume() restores it after.
  */
 export const cleanStaleJobs = async (force?: boolean): Promise<void> => {
   if (force) {

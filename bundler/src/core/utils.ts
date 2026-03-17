@@ -5,8 +5,9 @@ import { TimeUnitsMs, TimeUnitsSec } from '../config'
 // -- Filesystem --------------------------------------------------------------
 
 /**
- * Count data lines (total minus header) in a TSV/CSV file.
- * Returns 0 if the file is missing or unreadable.
+ * Count newline-separated lines minus the header row in a TSV/CSV file.
+ * Counts all lines including blank/whitespace-only rows (CC output has none).
+ * Returns 0 if the file is missing, unreadable, or header-only.
  *
  * Streams the file in chunks to avoid loading multi-GB files into memory.
  */
