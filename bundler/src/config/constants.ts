@@ -73,6 +73,9 @@ export const RELEASE_LOG_FLUSH_MAX_AGE_MS = 10 * 60 * 1000
 
 /**
  * TTL applied to all release-scoped Redis keys.
- * Keeps data accessible for post-release review without permanent accumulation.
+ * Acts as a safety net -- keys are explicitly cleaned up after a successful
+ * run, but the TTL ensures they expire even if cleanup fails or the process
+ * crashes. With parallel clip downloads a full run completes in hours,
+ * so 24 h gives ample headroom for restarts while keeping Redis lean.
  */
-export const RELEASE_LOG_KEY_TTL_SEC = TimeUnitsSec.WEEK
+export const RELEASE_LOG_KEY_TTL_SEC = TimeUnitsSec.DAY

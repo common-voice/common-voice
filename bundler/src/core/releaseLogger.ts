@@ -8,6 +8,7 @@ import {
   TimeUnitsMs,
   redisKeys,
 } from '../config'
+import { drainQueue } from '../infrastructure/queue'
 import { logger } from '../infrastructure/logger'
 import { AppEnv } from '../types'
 import { formatCompact, formatDuration, formatEta, renderBar } from './utils'
@@ -215,11 +216,58 @@ export const flushReleaseLogs = async (
         `processed: ${okCount} | skipped: ${skipCount} | errors: ${errCount} | duration: ${formatEta(elapsedMs)}`,
       )
       logger.info('', '== == == == == == == == == == == == == == == == == == ==')
+
+      // 9. End-of-run cleanup: delete all release-scoped Redis keys and drain
+      //    BullMQ queue. Logs and stats are already persisted in GCS -- Redis
+      //    data is no longer needed. TTL acts as safety net if this fails.
+      await cleanupRedisKeys(releaseName)
+      await drainQueue()
     }
   } catch (err) {
     logger.error(
       'RELEASE-LOGGER',
       `[${locale}] Failed to flush release logs: ${String(err)}`,
     )
+  }
+}
+
+// ---------------------------------------------------------------------------
+// End-of-run Redis cleanup
+// ---------------------------------------------------------------------------
+
+/**
+ * Deletes all release-scoped Redis keys for the given release name.
+ * Called once after a successful full run (all jobs completed).
+ * Also cleans up keys for licensed/variant sub-releases that share
+ * the same base release name.
+ */
+const cleanupRedisKeys = async (releaseName: string): Promise<void> => {
+  // All release name variants that may have keys in Redis
+  const names = [
+    releaseName,
+    `${releaseName}-licensed`,
+    `${releaseName}-variants`,
+  ]
+
+  let deleted = 0
+  for (const name of names) {
+    const keys = [
+      redisKeys.problemClips(name),
+      redisKeys.processLog(name),
+      redisKeys.localeCount(name),
+      redisKeys.localeTotal(name),
+      redisKeys.clipsCount(name),
+      redisKeys.clipsTotal(name),
+      redisKeys.timeStart(name),
+      redisKeys.done(name),
+      redisKeys.processing(name),
+      redisKeys.lastFlush(name),
+    ]
+    const result = await redisClient.del(...keys)
+    deleted += result
+  }
+
+  if (deleted > 0) {
+    logger.info('RELEASE-LOGGER', `Cleaned up ${deleted} Redis key(s) (end-of-run)`)
   }
 }

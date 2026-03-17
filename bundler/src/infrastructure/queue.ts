@@ -84,6 +84,21 @@ export const cleanStaleJobs = async (): Promise<void> => {
   }
 }
 
+/**
+ * Remove ALL BullMQ jobs (completed, failed, delayed, waiting) from the queue.
+ * Called at the end of a successful run -- no jobs should be pending at that point.
+ */
+export const drainQueue = async (): Promise<void> => {
+  const completed = await datasetReleaseQueue.clean(0, 0, 'completed')
+  const failed = await datasetReleaseQueue.clean(0, 0, 'failed')
+  const delayed = await datasetReleaseQueue.clean(0, 0, 'delayed')
+  const waiting = await datasetReleaseQueue.clean(0, 0, 'wait')
+  const total = completed.length + failed.length + delayed.length + waiting.length
+  if (total > 0) {
+    logger.info('QUEUE', `Drained ${total} BullMQ jobs (end-of-run cleanup)`)
+  }
+}
+
 export const addJobsToReleaseQueue = (settings: Settings) =>
   pipe(
     TE.Do,
