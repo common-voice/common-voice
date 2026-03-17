@@ -216,6 +216,7 @@ class MDCClient:
                 DatasetSubmission(name=submission.name, longDescription=submission.longDescription)
             )
             submission_id = draft["submission"]["id"]
+            assert isinstance(submission_id, str), "API returned non-string submission ID"
             logger.info("MDC", "Created draft submission %s", submission_id)
 
             # Step 2: Upload file
