@@ -18,7 +18,7 @@ import { runMp3DurationReporter } from '../infrastructure/mp3DurationReporter'
 import { runStats } from '../core/stats'
 import { runReportedSentences } from '../core/reportedSentences'
 import { runUpload } from '../core/upload'
-import { runCleanUp } from '../core/cleanUp'
+import { cleanUp, runCleanUp } from '../core/cleanUp'
 import { runCompressAndUploadMetadata } from '../core/metadata'
 import { runGenerateDatasheet } from '../core/datasheets'
 import { runScanLocaleData } from '../core/localeData'
@@ -276,6 +276,22 @@ export const processLocale = async (job: Job<ProcessLocaleJob>, token?: string) 
       // Repeat on stdout -- stderr lines can be lost in GCP log aggregation
       // when multiple writes happen in the same millisecond across fds.
       logger.info('PROCESSOR', `[${locale}] FAILED: ${errMsg}`)
+
+      // Clean up working files on failure to prevent disk exhaustion.
+      // The tarball may not have been created yet, so pass an empty string.
+      const cleanupResult = await cleanUp(
+        locale,
+        env.releaseDirPath,
+        '',
+        env.previousReleaseName,
+        env.deltaReleaseName,
+        env.license,
+      )()
+      if (E.isLeft(cleanupResult)) {
+        logger.warn('PROCESSOR', `[${locale}] Failure cleanup error (non-fatal): ${String(cleanupResult.left)}`)
+      } else {
+        logger.info('PROCESSOR', `[${locale}] Failure cleanup completed -- disk space reclaimed`)
+      }
     }
     await flushReleaseLogs(env, E.isRight(result) ? 'success' : 'error')
   } finally {
