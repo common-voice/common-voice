@@ -55,5 +55,8 @@ request-language-found-cv-sentences-lack =
     څھے جِب کامن وائس اےْ لسٹ دہ مُڇھوگیْ موجُودِن
     څھوْس تومیْ جِب فسِلِٹیٹ تھوبانَت <strong> سکرپٹ سپیچ </strong>
     جُملائے کنٹریبیوٹ تھون <sentencesContributionLink> ادی</sentencesContributionLink>
+request-language-found-spontaneous-speech =
+    څھے چِپ مُڇھوگیْ کامن وائس جیْ لائیونیْ<strong> اکوڑ اکے تقریر</strong>
+    کلِک تِھیا <spontaneousSpeechLink> ادی </spontaneousSpeechLink> کنٹری بِیوٹ تھونے کِرِیا ۔ جِبے ڈیٹا سیٹ کنٹری بیوٹ تھونِجیْ مُڇھو څھوْس کنٹری بیوٹ تھون گلہ دِہا۔
 request-language-already-available-scs = سکرپٹڈ اسپیچ مُڇھوگیْ دستِیابِن
 request-language-already-available-sps = خود رو (غیر سکرپٹڈ) اسپیچ مُڇھوْ گیْ دستیابن
