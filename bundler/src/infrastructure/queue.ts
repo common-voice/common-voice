@@ -126,11 +126,12 @@ export const removeJobsForLocales = async (
   const localeSet = new Set(locales)
 
   // Job ID format: "{jobName}|{releaseName}|{locale}|{license}"
-  // Extract locale (3rd segment) to match against targets.
+  // Match both releaseName (2nd segment) and locale (3rd segment) so jobs
+  // from a different release sharing the same queue are never removed.
   const isTargeted = (jobId: string | undefined): boolean => {
     if (!jobId) return false
     const parts = jobId.split('|')
-    return parts.length >= 3 && localeSet.has(parts[2])
+    return parts.length >= 3 && parts[1] === releaseName && localeSet.has(parts[2])
   }
 
   // Gather job IDs from all removable states
