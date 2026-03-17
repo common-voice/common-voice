@@ -7,12 +7,23 @@ import { TimeUnitsMs, TimeUnitsSec } from '../config'
 /**
  * Count data lines (total minus header) in a TSV/CSV file.
  * Returns 0 if the file is missing or unreadable.
+ *
+ * Reads as a raw Buffer (no V8 string-length limit) and counts newlines.
+ * The old readFileSync/split approach caused silent OOMs on large files.
  */
 export const countLinesInFile = (filepath: string): number => {
   try {
-    const content = fs.readFileSync(filepath, 'utf-8')
-    const lines = content.split('\n').filter(l => l.trim().length > 0)
-    return Math.max(0, lines.length - 1) // subtract header
+    const buf = fs.readFileSync(filepath)
+    if (buf.length === 0) return 0
+
+    let lines = 0
+    for (let i = 0; i < buf.length; i++) {
+      if (buf[i] === 0x0a) lines++
+    }
+    // No trailing newline means the last line wasn't counted yet
+    if (buf[buf.length - 1] !== 0x0a) lines++
+
+    return Math.max(0, lines - 1) // subtract header
   } catch {
     return 0
   }

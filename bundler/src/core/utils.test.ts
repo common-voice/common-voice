@@ -48,10 +48,10 @@ describe('countLinesInFile', () => {
     expect(countLinesInFile(path.join(tmpDir, 'nonexistent.tsv'))).toBe(0)
   })
 
-  it('ignores blank / whitespace-only lines', () => {
+  it('counts all lines including blank ones (CC output has no blanks)', () => {
     const file = path.join(tmpDir, 'blanks.tsv')
     fs.writeFileSync(file, 'header\nrow1\n\nrow2\n   \n')
-    expect(countLinesInFile(file)).toBe(2)
+    expect(countLinesInFile(file)).toBe(4)
   })
 
   it('handles a single data row', () => {
