@@ -21,6 +21,7 @@ type Stats = {
 
 type Splits = {
   accent: Record<string, number>
+  variant: Record<string, number>
   age: Record<string, number>
   gender: Record<string, number>
   sentence_domain: Record<string, number>
@@ -45,6 +46,24 @@ type Locale = {
 
 // -- Build Locale from LocaleReleaseData + tar metadata ----------------------
 
+/**
+ * Re-keys a name-based counts record to use codes (tokens) where available.
+ * Names without a mapping are kept as-is (e.g. user-submitted accents
+ * grouped under "" stay as "").
+ */
+const backmap = (
+  counts: Record<string, number>,
+  codeMap?: Record<string, string>,
+): Record<string, number> => {
+  if (!codeMap || Object.keys(codeMap).length === 0) return counts
+  const result: Record<string, number> = {}
+  for (const [name, count] of Object.entries(counts)) {
+    const key = codeMap[name] ?? name
+    result[key] = (result[key] ?? 0) + count
+  }
+  return result
+}
+
 export const buildLocale = (
   data: LocaleReleaseData,
   checksum: string,
@@ -57,7 +76,8 @@ export const buildLocale = (
   unvalidatedSentences: data.unvalidatedSentences,
   clips: data.clips,
   splits: {
-    accent: data.accentCounts,
+    accent: backmap(data.accentCounts, data.accentCodeMap),
+    variant: backmap(data.variantCounts, data.variantCodeMap),
     age: data.ageCounts,
     gender: data.genderCounts,
     sentence_domain: data.domainCounts,
