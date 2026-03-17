@@ -51,5 +51,9 @@ request-language-found-pontoon-not-launched =
 request-language-found-cv-contribution =
     جِنی تِھیاǃ څھے جِب مُڇھوگیْ کامن وائس جی لائیونیْ <strong> سکرپٹڈ سپیچ </strong>
     څھوْس کنٹریبِیوٹ تھوبانَت<homePageLink> ادی</homePageLink>
+request-language-found-cv-sentences-lack =
+    څھے جِب کامن وائس اےْ لسٹ دہ مُڇھوگیْ موجُودِن
+    څھوْس تومیْ جِب فسِلِٹیٹ تھوبانَت <strong> سکرپٹ سپیچ </strong>
+    جُملائے کنٹریبیوٹ تھون <sentencesContributionLink> ادی</sentencesContributionLink>
 request-language-already-available-scs = سکرپٹڈ اسپیچ مُڇھوگیْ دستِیابِن
 request-language-already-available-sps = خود رو (غیر سکرپٹڈ) اسپیچ مُڇھوْ گیْ دستیابن
