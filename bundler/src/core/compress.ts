@@ -176,9 +176,10 @@ const compressAndStreamToGCS = async (
   )
 
   // Pipe through metrics, then upload the resulting Readable to GCS.
-  // We need to pipeline tar -> metrics first, then pass metrics (which is
-  // a Readable after the tar stream ends) to the GCS upload.
+  // Forward tar errors to metrics so streamUpload's source-error handler
+  // can reject the upload promise (pipe() alone doesn't propagate errors).
   const metricsReadable = readStream.pipe(metrics)
+  readStream.on('error', (err) => metricsReadable.destroy(err))
 
   logger.info('COMPRESS', `[${locale}] Streaming tarball to GCS: ${gcsPath}`)
   const uploadResult = await uploadToDatasetBucket(gcsPath)(metricsReadable)()

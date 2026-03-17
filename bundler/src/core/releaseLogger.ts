@@ -281,25 +281,39 @@ export const forceFlushLogs = async (releaseName: string): Promise<void> => {
       const pcRows = await redisClient.lrange(redisKeys.problemClips(name), 0, -1)
       if (pcRows.length > 0) {
         const pcTsv = [PROBLEM_CLIPS_HEADER, ...pcRows].join('\n') + '\n'
-        await uploadToDatasetBucket(
+        const pcResult = await uploadToDatasetBucket(
           `${name}/logs/problem-clips.tsv`,
         )(Buffer.from(pcTsv, 'utf-8'))()
-        logger.info(
-          'RELEASE-LOGGER',
-          `[${name}] Force-flushed ${pcRows.length} problem-clip row(s) to GCS`,
-        )
+        if (pcResult._tag === 'Right') {
+          logger.info(
+            'RELEASE-LOGGER',
+            `[${name}] Force-flushed ${pcRows.length} problem-clip row(s) to GCS`,
+          )
+        } else {
+          logger.warn(
+            'RELEASE-LOGGER',
+            `[${name}] Failed to force-flush problem-clips: ${String(pcResult.left)}`,
+          )
+        }
       }
 
       const logRows = await redisClient.lrange(redisKeys.processLog(name), 0, -1)
       if (logRows.length > 0) {
         const logTsv = [PROCESS_LOG_HEADER, ...logRows].join('\n') + '\n'
-        await uploadToDatasetBucket(
+        const logResult = await uploadToDatasetBucket(
           `${name}/logs/process-log.tsv`,
         )(Buffer.from(logTsv, 'utf-8'))()
-        logger.info(
-          'RELEASE-LOGGER',
-          `[${name}] Force-flushed ${logRows.length} process-log row(s) to GCS`,
-        )
+        if (logResult._tag === 'Right') {
+          logger.info(
+            'RELEASE-LOGGER',
+            `[${name}] Force-flushed ${logRows.length} process-log row(s) to GCS`,
+          )
+        } else {
+          logger.warn(
+            'RELEASE-LOGGER',
+            `[${name}] Failed to force-flush process-log: ${String(logResult.left)}`,
+          )
+        }
       }
     } catch (err) {
       logger.warn(

@@ -386,10 +386,19 @@ export const addJobsToReleaseQueue = (settings: Settings) =>
       }, err => Error(String(err))),
     ),
     // Set locale/clip totals and timeStart in Redis for pending jobs only.
-    // Uses SET (not INCRBY) so re-runs reflect only the remaining work,
-    // giving correct progress percentages and ETAs.
+    // Selective force (--force -l) skips this entirely to avoid corrupting
+    // progress tracking and pendingGroups for an in-progress run.
     TE.chainFirst(({ pendingJobs }) =>
       TE.tryCatch(async () => {
+        const isSelectiveForce = settings.force && settings.languages.length > 0
+        if (isSelectiveForce) {
+          logger.info(
+            'QUEUE',
+            `Selective --force: skipping counter reset, scheduling ${pendingJobs.length} locale(s)`,
+          )
+          return
+        }
+
         // Group job count and clip count by effective release name
         // (license -> "-licensed" suffix, variants -> "-variants" suffix).
         const totals = new Map<string, number>()

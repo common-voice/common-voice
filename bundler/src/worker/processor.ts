@@ -249,13 +249,13 @@ export const processLocale = async (job: Job<ProcessLocaleJob>, token?: string) 
     ? setInterval(async () => {
         try {
           await job.extendLock(token, LOCK_EXTEND_MS)
+          // Refresh processing HASH timestamp so other pods see this job is alive.
+          await redisClient.hset(processingKey, doneMember, String(Date.now()))
         } catch (err) {
           // Lock may already be lost (LRU eviction); processing HASH guard
           // handles crash recovery. Log so repeated failures are visible.
-          logger.warn('PROCESSOR', `[${locale}] Lock extension failed: ${String(err)}`)
+          logger.warn('PROCESSOR', `[${locale}] Lock/heartbeat refresh failed: ${String(err)}`)
         }
-        // Refresh processing HASH timestamp so other pods see this job is alive.
-        await redisClient.hset(processingKey, doneMember, String(Date.now()))
       }, LOCK_EXTEND_INTERVAL_MS)
     : undefined
 
