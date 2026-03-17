@@ -24,3 +24,26 @@ speak-loading-error =
     Taflatse gadze agbagba ake emegbe.
 record-button-label = Lé wò gbe ɖe mɔ̃ dzi
 share-title-new = <bold>Kpe ɖe mía ŋu</bold> be míakpɔ gbe bubuwo
+keep-track-profile = Lé ŋku ɖe wò ŋgɔyiyi ŋu kple wò profile
+login-to-get-started = Ge ɖe eme alo de asi ete be nàdze egɔme
+target-segment-first-card = Miele asi kpem ɖe míaƒe taɖodzinu ƒe akpa gbãtɔ ŋu
+target-segment-generic-card = Èle asi kpem ɖe akpa aɖe si woɖo taɖodzinu na ŋu
+target-segment-first-banner = Kpe asi ɖe Common Voice ƒe taɖodzinu ƒe akpa gbãtɔ le { $locale } me.
+target-segment-add-voice = Tsɔ Wò Gbe Kpe Ðe Eŋu
+target-segment-learn-more = Srɔ̃ Nu Geɖe
+change-preferences = Trɔ nusiwo nèlɔ̃
+login-signup = Ge Ðe Eme / De asi ete
+vote-yes = Ee
+vote-no = Ao
+datasets = Datasets
+languages = Gbewo
+about = Ku ɖe
+partner = Hati
+submit-form-action = Ɖo ɖa
+
+## Reporting
+
+report = Bɔ
+report-title = Ɖo report ɖa
+report-ask = Nya kawo me tom nèle le nyagbe sia ŋu?
+report-offensive-language = Gbegbɔgblɔ si doa dziku na ame
