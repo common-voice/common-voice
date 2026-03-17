@@ -232,6 +232,27 @@ export const flushReleaseLogs = async (
 }
 
 // ---------------------------------------------------------------------------
+// Release name helpers
+// ---------------------------------------------------------------------------
+
+/**
+ * Strips `-licensed` / `-variants` suffixes from an effective release name
+ * to recover the base name. Safe to call on a base name (no-op).
+ */
+const toBaseReleaseName = (name: string): string =>
+  name.replace(/-(licensed|variants)$/, '')
+
+/**
+ * Returns all effective release name variants (base, -licensed, -variants)
+ * from any input (base or already-suffixed). Deduplicates so the base name
+ * is never listed twice.
+ */
+const allReleaseNameVariants = (name: string): string[] => {
+  const base = toBaseReleaseName(name)
+  return [base, `${base}-licensed`, `${base}-variants`]
+}
+
+// ---------------------------------------------------------------------------
 // Force-flush logs to GCS (standalone, called before --force obliteration)
 // ---------------------------------------------------------------------------
 
@@ -242,11 +263,7 @@ export const flushReleaseLogs = async (
  * Errors are swallowed -- best-effort, must not block the new run.
  */
 export const forceFlushLogs = async (releaseName: string): Promise<void> => {
-  const names = [
-    releaseName,
-    `${releaseName}-licensed`,
-    `${releaseName}-variants`,
-  ]
+  const names = allReleaseNameVariants(releaseName)
 
   for (const name of names) {
     try {
@@ -293,12 +310,7 @@ export const forceFlushLogs = async (releaseName: string): Promise<void> => {
  * the same base release name.
  */
 const cleanupRedisKeys = async (releaseName: string): Promise<void> => {
-  // All release name variants that may have keys in Redis
-  const names = [
-    releaseName,
-    `${releaseName}-licensed`,
-    `${releaseName}-variants`,
-  ]
+  const names = allReleaseNameVariants(releaseName)
 
   let deleted = 0
   for (const name of names) {
