@@ -211,14 +211,19 @@ export const processLocale = async (job: Job<ProcessLocaleJob>, token?: string) 
   }
 
   // Guard against duplicate processing from BullMQ stall re-dispatch.
-  // Uses a HASH (locale -> start timestamp) so we can detect stale entries
-  // left by crashed pods. If an entry exists but is older than PROCESSING_STALE_MS,
-  // the original pod is assumed dead and we take over.
+  // Uses a HASH (locale -> heartbeat timestamp). HSETNX is atomic for the
+  // common case (first claim). Stale reclaim has a tiny race window where
+  // two pods could both proceed -- acceptable since the only consequence is
+  // duplicate work (GCS upload overwrites), not data corruption.
   const processingKey = redisKeys.processing(releaseName)
   const now = Date.now()
-  const existingTs = await redisClient.hget(processingKey, doneMember)
 
-  if (existingTs) {
+  const claimed = await redisClient.hsetnx(processingKey, doneMember, String(now))
+  await redisClient.expire(processingKey, RELEASE_LOG_KEY_TTL_SEC)
+
+  if (!claimed) {
+    // Entry exists -- check if it's stale (crashed pod) or active.
+    const existingTs = await redisClient.hget(processingKey, doneMember)
     const age = now - Number(existingTs)
     if (age < PROCESSING_STALE_MS) {
       logger.info(
@@ -227,14 +232,13 @@ export const processLocale = async (job: Job<ProcessLocaleJob>, token?: string) 
       )
       return
     }
+    // Stale -- reclaim. Non-atomic but harmless: worst case is duplicate work.
     logger.warn(
       'PROCESSOR',
       `[${locale}] Stale processing entry (${Math.round(age / 1000)}s old, threshold ${PROCESSING_STALE_MS / 1000}s) -- taking over from crashed pod`,
     )
+    await redisClient.hset(processingKey, doneMember, String(now))
   }
-
-  await redisClient.hset(processingKey, doneMember, String(now))
-  await redisClient.expire(processingKey, RELEASE_LOG_KEY_TTL_SEC)
 
   // Timer-based lock extension + processing heartbeat: covers all pipeline
   // steps uniformly (download, merge, compress, upload, CorporaCreator
