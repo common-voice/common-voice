@@ -42,6 +42,20 @@ export type CompressResult = {
   streamed: boolean // true = already uploaded to GCS, no local file
 }
 
+/**
+ * Creates a CompressResult for a tarball that exists on local disk.
+ * Size and checksum will be computed from the file by statsPipeline.
+ */
+export const compressResultFromLocalTar = (
+  tarballFilepath: string,
+): CompressResult => ({
+  tarballFilepath,
+  uploadPath: '',
+  size: 0,
+  checksum: '',
+  streamed: false,
+})
+
 // -- Gzip level ---------------------------------------------------------------
 
 /**
