@@ -32,10 +32,11 @@ Before the pipeline runs, each locale job goes through a three-layer check in th
 
 1. **Redis done SET** (fast path, ~1 ms) -- if the locale is already in the `scripted:done:<release>` SET, skip immediately without hitting GCS.
 2. **GCS file-existence check** (authoritative) -- if the tarball already exists in the bucket, skip and backfill the done SET so future runs use the fast path.
-3. **Processing guard HASH** (stall/crash recovery) -- `scripted:processing:<release>` is a HASH mapping locale identifiers to start timestamps. Before processing, the bundler checks if an entry exists:
-   - **No entry** -- claim the locale by writing the current timestamp.
-   - **Entry exists, age < `PROCESSING_STALE_MS` (20 min)** -- another pod is actively working on it. Skip.
-   - **Entry exists, age >= `PROCESSING_STALE_MS`** -- the original pod is assumed crashed. Overwrite the timestamp and take over (logged as a warning).
+3. **Processing guard HASH** (stall/crash recovery) -- `scripted:processing:<release>` is a HASH mapping locale identifiers to heartbeat timestamps. Before processing, the bundler atomically claims the locale via `HSETNX`. If the entry already exists, it checks the heartbeat age:
+   - **Fresh (age < `PROCESSING_STALE_MS`, 20 min)** -- another pod is actively working on it. Skip.
+   - **Stale (age >= `PROCESSING_STALE_MS`)** -- the original pod is assumed crashed. Overwrite and take over (logged as a warning).
+
+   The heartbeat timestamp is refreshed every 5 minutes alongside the BullMQ lock extension, so long-running locales are never falsely reclaimed.
 
 After the pipeline completes (success or failure), the locale is removed from the processing HASH via `try/finally`. On success it is added to the done SET.
 
@@ -78,7 +79,7 @@ Only the targeted locales are reset. The rest of the release (including any in-p
 
 ### End-of-run cleanup
 
-When all locale jobs complete (count === total), the last pod to finish automatically:
+When a release name group finishes (count === total for that group), it decrements a `pendingGroups` counter. In `--license-mode both` there are two groups (base + licensed) with independent counters; only the last group to finish triggers cleanup:
 
 1. **Deletes all release-scoped Redis keys** -- logs, counters, timestamps, done SET, processing HASH, for all release name variants (base, `-licensed`, `-variants`).
 2. **Drains the BullMQ queue** -- removes any remaining completed/failed/delayed/waiting jobs.
@@ -283,7 +284,7 @@ All keys use the `scripted:` prefix (see `config/redisKeys.ts`). `{rel}` is the 
 | Key                                | Type | Purpose                                                    |
 | ---------------------------------- | ---- | ---------------------------------------------------------- |
 | `scripted:done:{rel}`              | SET  | Locales successfully processed (fast-path skip check)      |
-| `scripted:processing:{rel}`        | HASH | Locales in progress (field = locale, value = timestamp ms) |
+| `scripted:processing:{rel}`        | HASH | Locales in progress (field = locale, value = heartbeat ms) |
 | `scripted:log:process:{rel}`       | LIST | TSV rows for the process-log report                        |
 | `scripted:log:problem-clips:{rel}` | LIST | TSV rows for the problem-clips report                      |
 | `scripted:jobs:count:{rel}`        | STR  | Completed locale job counter (atomic INCR)                 |
@@ -292,5 +293,6 @@ All keys use the `scripted:` prefix (see `config/redisKeys.ts`). `{rel}` is the 
 | `scripted:clips:total:{rel}`       | STR  | Total expected clips                                       |
 | `scripted:time:start:{rel}`        | STR  | ISO 8601 timestamp of the first init job                   |
 | `scripted:log:last-flush:{rel}`    | STR  | ISO 8601 timestamp of the last GCS log flush               |
+| `scripted:pending-groups:{base}`   | STR  | Groups still running (e.g. 2 for `--license-mode both`)    |
 
 All keys have a 24-hour TTL (`RELEASE_LOG_KEY_TTL_SEC`) as a safety net. They are explicitly deleted after a successful run completes.
