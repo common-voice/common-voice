@@ -116,7 +116,7 @@ const AGE_LABELS: Record<string, string> = {
 const buildGenderTable = (
   genderCounts: Record<string, number>,
   totalClips: number,
-  locale: string = 'en',
+  locale = 'en',
   speakerCounts?: Record<string, number>,
   totalSpeakers?: number,
 ): string => {
@@ -163,7 +163,7 @@ const buildGenderTable = (
 const buildAgeTable = (
   ageCounts: Record<string, number>,
   totalClips: number,
-  locale: string = 'en',
+  locale = 'en',
   speakerCounts?: Record<string, number>,
   totalSpeakers?: number,
 ): string => {
@@ -213,7 +213,7 @@ const TRAINING_SPLIT_NAMES = ['train', 'dev', 'test'] as const
 export const buildDataSplitsTable = (
   buckets: Buckets,
   totalClips: number,
-  locale: string = 'en',
+  locale = 'en',
 ): string => {
   const parts: string[] = []
 
@@ -259,7 +259,7 @@ export const buildDataSplitsTable = (
 export const buildVariantStatsTable = (
   variantCounts: Record<string, number>,
   totalClips: number,
-  locale: string = 'en',
+  locale = 'en',
   speakerCounts?: Record<string, number>,
   totalSpeakers?: number,
   codeMap?: Record<string, string>,
@@ -339,7 +339,7 @@ const filterAccentCounts = (
 export const buildAccentStatsTable = (
   accentCounts: Record<string, number>,
   totalClips: number,
-  locale: string = 'en',
+  locale = 'en',
   speakerCounts?: Record<string, number>,
   totalSpeakers?: number,
   predefinedNames?: string[],
@@ -394,7 +394,7 @@ export const buildTextCorpusStatsTable = (
     | 'rejectedSentences'
     | 'reportedSentences'
   >,
-  locale: string = 'en',
+  locale = 'en',
 ): string => {
   const parts: string[] = []
 
@@ -432,7 +432,7 @@ const SOURCES_MIN_PCT = 0.01 // 1%
 
 export const buildSourcesStatsTable = (
   sourceCounts: Record<string, number>,
-  locale: string = 'en',
+  locale = 'en',
 ): string => {
   const entries = Object.entries(sourceCounts)
   if (entries.length === 0) return ''
@@ -477,7 +477,7 @@ export const buildSourcesStatsTable = (
 export const buildTextDomainStatsTable = (
   domainCounts: Record<string, number>,
   totalClips: number,
-  locale: string = 'en',
+  locale = 'en',
   speakerCounts?: Record<string, number>,
   totalSpeakers?: number,
 ): string => {
