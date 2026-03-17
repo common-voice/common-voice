@@ -33,6 +33,13 @@ export const LOCK_EXTEND_MS = BULLMQ_LOCK_DURATION_MS
 /** Interval between lock extension attempts. Must be < BULLMQ_LOCK_DURATION_MS. */
 export const LOCK_EXTEND_INTERVAL_MS = 300_000 // 5 min
 
+/**
+ * If a locale has been in the processing HASH longer than this, assume the
+ * pod that claimed it has crashed and allow another pod to take over.
+ * Set to 2x lock duration to give a healthy pod time to renew its lock.
+ */
+export const PROCESSING_STALE_MS = 2 * BULLMQ_LOCK_DURATION_MS // 20 min
+
 // ---------------------------------------------------------------------------
 // Redlock settings
 // ---------------------------------------------------------------------------

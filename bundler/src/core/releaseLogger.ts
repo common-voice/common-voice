@@ -232,6 +232,57 @@ export const flushReleaseLogs = async (
 }
 
 // ---------------------------------------------------------------------------
+// Force-flush logs to GCS (standalone, called before --force obliteration)
+// ---------------------------------------------------------------------------
+
+/**
+ * Flushes any accumulated problem-clips and process-log rows from Redis to GCS
+ * for the given release name (and its licensed/variants sub-releases).
+ * Called before --force obliterates the queue so partial-run logs are preserved.
+ * Errors are swallowed -- best-effort, must not block the new run.
+ */
+export const forceFlushLogs = async (releaseName: string): Promise<void> => {
+  const names = [
+    releaseName,
+    `${releaseName}-licensed`,
+    `${releaseName}-variants`,
+  ]
+
+  for (const name of names) {
+    try {
+      const pcRows = await redisClient.lrange(redisKeys.problemClips(name), 0, -1)
+      if (pcRows.length > 0) {
+        const pcTsv = [PROBLEM_CLIPS_HEADER, ...pcRows].join('\n') + '\n'
+        await uploadToDatasetBucket(
+          `${name}/logs/problem-clips.tsv`,
+        )(Buffer.from(pcTsv, 'utf-8'))()
+        logger.info(
+          'RELEASE-LOGGER',
+          `[${name}] Force-flushed ${pcRows.length} problem-clip row(s) to GCS`,
+        )
+      }
+
+      const logRows = await redisClient.lrange(redisKeys.processLog(name), 0, -1)
+      if (logRows.length > 0) {
+        const logTsv = [PROCESS_LOG_HEADER, ...logRows].join('\n') + '\n'
+        await uploadToDatasetBucket(
+          `${name}/logs/process-log.tsv`,
+        )(Buffer.from(logTsv, 'utf-8'))()
+        logger.info(
+          'RELEASE-LOGGER',
+          `[${name}] Force-flushed ${logRows.length} process-log row(s) to GCS`,
+        )
+      }
+    } catch (err) {
+      logger.warn(
+        'RELEASE-LOGGER',
+        `[${name}] Failed to force-flush logs (proceeding anyway): ${String(err)}`,
+      )
+    }
+  }
+}
+
+// ---------------------------------------------------------------------------
 // End-of-run Redis cleanup
 // ---------------------------------------------------------------------------
 

@@ -35,10 +35,12 @@ export const redisKeys = {
    */
   done: (releaseName: string) => `${REDIS_PREFIX}:done:${releaseName}`,
   /**
-   * SET of locale identifiers currently being processed.
-   * Guards against duplicate processing when BullMQ re-dispatches a job
-   * after its lock key is evicted by Redis LRU. Cleared by the init
-   * handler on each new run so that re-runs can reprocess failed locales.
+   * HASH of locale identifiers currently being processed (field = locale,
+   * value = start timestamp in ms). Guards against duplicate processing when
+   * BullMQ re-dispatches a job after its lock key is evicted by Redis LRU.
+   * Stale entries (older than PROCESSING_STALE_MS) are automatically
+   * reclaimed by the next pod that picks up the re-dispatched job.
+   * Cleared by the init handler on each new run.
    */
   processing: (releaseName: string) =>
     `${REDIS_PREFIX}:processing:${releaseName}`,

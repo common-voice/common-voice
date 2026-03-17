@@ -6,6 +6,7 @@ import { processVariants } from './processVariants'
 import { addJobsToReleaseQueue, cleanStaleJobs } from '../infrastructure/queue'
 import { BULLMQ_LOCK_DURATION_MS, getRedisUrl, redisKeys } from '../config'
 import { generateStatistics } from './generateStatistics'
+import { forceFlushLogs } from '../core/releaseLogger'
 import { logger } from '../infrastructure/logger'
 import { redisClient } from '../infrastructure/redis'
 
@@ -30,7 +31,7 @@ export const createWorker: IO.IO<void> = () => {
           }
           logger.info('', dash)
 
-          // Clear the processing SET(s) from any previous run so re-runs can
+          // Clear the processing HASH(es) from any previous run so re-runs can
           // reprocess locales that were left in-progress when a pod died.
           // processor.ts uses an effective releaseName (e.g. "<release>-licensed"
           // for licensed jobs), so we clear all variants this run might use.
@@ -64,9 +65,16 @@ export const createWorker: IO.IO<void> = () => {
             }
           }
 
-          // Remove stale completed/failed BullMQ jobs so deterministic IDs
-          // don't silently block queue.add() on re-runs.
-          await cleanStaleJobs()
+          // --force: flush any accumulated logs from the previous (bad) run
+          // to GCS before obliterating the queue -- otherwise they're lost.
+          if (s.force) {
+            await forceFlushLogs(s.releaseName)
+          }
+
+          // Remove stale BullMQ jobs so deterministic IDs don't silently
+          // block queue.add() on re-runs. --force obliterates the entire
+          // queue (including active jobs from a bad run).
+          await cleanStaleJobs(s.force)
 
           logger.info('WORKER', 'Initializing jobs...')
           return pipe(
@@ -98,8 +106,8 @@ export const createWorker: IO.IO<void> = () => {
       //
       // Redis uses allkeys-lru eviction, which can evict BullMQ lock keys and
       // trigger false stall re-dispatches. Correctness is handled by the
-      // processing SET guard in processor.ts (SADD returns 0 -> instant skip),
-      // so re-dispatches are harmless no-ops.
+      // processing HASH guard in processor.ts (stale entries are reclaimed),
+      // so re-dispatches are either harmless skips or crash recovery.
       //
       // lockDuration is kept moderate to reduce "could not renew lock" log spam.
       // removeOnComplete/Fail keeps Redis lean (fewer keys -> less LRU pressure).
@@ -112,7 +120,7 @@ export const createWorker: IO.IO<void> = () => {
 
   worker.on('error', err => {
     // BullMQ emits lock-renewal failures as Error objects when Redis LRU
-    // evicts lock keys.  These are harmless (processing SET guard handles
+    // evicts lock keys.  These are harmless (processing HASH guard handles
     // correctness) -- log a short warning instead of a full stack trace.
     const msg = String(err?.message ?? err)
     if (msg.includes('could not renew lock')) {

@@ -68,12 +68,21 @@ const getLicensedLocales = (settings: Settings) => {
 }
 
 /**
- * Remove ALL completed/failed BullMQ jobs from previous runs (grace = 0).
- * Without this, deterministic job IDs cause queue.add() to silently no-op
- * when a previous run's completed jobs still exist in Redis.
- * Grace is intentionally 0: every old job must be gone before re-runs.
+ * Remove stale BullMQ jobs before a new run.
+ *
+ * - Normal init: cleans completed/failed only (grace = 0). Without this,
+ *   deterministic job IDs cause queue.add() to silently no-op.
+ * - --force init: obliterates the entire queue (active + waiting + delayed +
+ *   completed + failed) so a fresh run can fully replace a bad/in-progress one.
+ *   Pauses the queue during obliteration and resumes after.
  */
-export const cleanStaleJobs = async (): Promise<void> => {
+export const cleanStaleJobs = async (force?: boolean): Promise<void> => {
+  if (force) {
+    await datasetReleaseQueue.obliterate({ force: true })
+    await datasetReleaseQueue.resume()
+    logger.info('QUEUE', 'Obliterated all jobs in queue (--force)')
+    return
+  }
   const completed = await datasetReleaseQueue.clean(0, 0, 'completed')
   const failed = await datasetReleaseQueue.clean(0, 0, 'failed')
   if (completed.length > 0 || failed.length > 0) {

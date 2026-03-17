@@ -31,6 +31,7 @@ import {
   getTmpDir,
   LOCK_EXTEND_MS,
   LOCK_EXTEND_INTERVAL_MS,
+  PROCESSING_STALE_MS,
   RELEASE_LOG_KEY_TTL_SEC,
   redisKeys,
 } from '../config'
@@ -210,22 +211,30 @@ export const processLocale = async (job: Job<ProcessLocaleJob>, token?: string) 
   }
 
   // Guard against duplicate processing from BullMQ stall re-dispatch.
-  // SADD returns 0 if the member already exists (another pod is processing it).
-  const added = await redisClient.sadd(
-    redisKeys.processing(releaseName),
-    doneMember,
-  )
-  await redisClient.expire(
-    redisKeys.processing(releaseName),
-    RELEASE_LOG_KEY_TTL_SEC,
-  )
-  if (added === 0) {
-    logger.info(
+  // Uses a HASH (locale -> start timestamp) so we can detect stale entries
+  // left by crashed pods. If an entry exists but is older than PROCESSING_STALE_MS,
+  // the original pod is assumed dead and we take over.
+  const processingKey = redisKeys.processing(releaseName)
+  const now = Date.now()
+  const existingTs = await redisClient.hget(processingKey, doneMember)
+
+  if (existingTs) {
+    const age = now - Number(existingTs)
+    if (age < PROCESSING_STALE_MS) {
+      logger.info(
+        'PROCESSOR',
+        `[${locale}] Already being processed by another pod (${Math.round(age / 1000)}s ago), skipping`,
+      )
+      return
+    }
+    logger.warn(
       'PROCESSOR',
-      `[${locale}] Already being processed by another pod, skipping`,
+      `[${locale}] Stale processing entry (${Math.round(age / 1000)}s old, threshold ${PROCESSING_STALE_MS / 1000}s) -- taking over from crashed pod`,
     )
-    return
   }
+
+  await redisClient.hset(processingKey, doneMember, String(now))
+  await redisClient.expire(processingKey, RELEASE_LOG_KEY_TTL_SEC)
 
   // Timer-based lock extension: covers all pipeline steps uniformly
   // (download, merge, compress, upload, CorporaCreator subprocess, etc.)
@@ -235,8 +244,8 @@ export const processLocale = async (job: Job<ProcessLocaleJob>, token?: string) 
         try {
           await job.extendLock(token, LOCK_EXTEND_MS)
         } catch (err) {
-          // Lock may already be lost (LRU eviction); processing SET guard
-          // prevents duplicates. Log so repeated failures are visible.
+          // Lock may already be lost (LRU eviction); processing HASH guard
+          // handles crash recovery. Log so repeated failures are visible.
           logger.warn('PROCESSOR', `[${locale}] Lock extension failed: ${String(err)}`)
         }
       }, LOCK_EXTEND_INTERVAL_MS)
@@ -263,7 +272,7 @@ export const processLocale = async (job: Job<ProcessLocaleJob>, token?: string) 
     await flushReleaseLogs(env, E.isRight(result) ? 'success' : 'error')
   } finally {
     if (lockTimer) clearInterval(lockTimer)
-    // Remove from processing SET (done or failed -- either way, no longer active).
-    await redisClient.srem(redisKeys.processing(releaseName), doneMember)
+    // Remove from processing HASH (done or failed -- either way, no longer active).
+    await redisClient.hdel(redisKeys.processing(releaseName), doneMember)
   }
 }
