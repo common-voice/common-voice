@@ -2,6 +2,10 @@ import * as fs from 'node:fs'
 import * as os from 'node:os'
 import * as path from 'node:path'
 
+jest.mock('../infrastructure/redis')
+jest.mock('../infrastructure/queue')
+jest.mock('../infrastructure/storage')
+
 import { ProcessLocaleJob, VariantInfo } from '../types'
 import {
   filterClipsTsvForVariant,

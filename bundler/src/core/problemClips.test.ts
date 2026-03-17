@@ -1,16 +1,12 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import * as fs from 'node:fs'
 import * as os from 'node:os'
 import * as path from 'node:path'
 
-// mock-prefixed variables are accessible inside jest.mock factory (Jest hoisting exception).
-// Captures what was RPUSHed to any Redis key.
-const mockRpush = jest.fn(async (_key: string, ..._vals: string[]) => 1)
-const mockExpire = jest.fn(async (_key: string, _ttl: number) => 1)
+jest.mock('../infrastructure/redis')
 
-jest.mock('../infrastructure/redis', () => ({
-  redisClient: { rpush: mockRpush, expire: mockExpire },
-}))
+import { redisClient } from '../infrastructure/redis'
+
+const mockRedis = redisClient as jest.Mocked<typeof redisClient>
 
 import { AppEnv, ProblemClip, ProblemClipReason } from '../types'
 import { runFilterProblemClips, runPushProblemClips } from './problemClips'
@@ -47,13 +43,13 @@ const makeEnv = (
 
 describe('runPushProblemClips', () => {
   beforeEach(() => {
-    mockRpush.mockClear()
-    mockExpire.mockClear()
+    mockRedis.rpush.mockClear()
+    mockRedis.expire.mockClear()
   })
 
   it('does not RPUSH when problemClips is empty', async () => {
     await runPushProblemClips()(makeEnv())()
-    expect(mockRpush).not.toHaveBeenCalled()
+    expect(mockRedis.rpush).not.toHaveBeenCalled()
   })
 
   it('does not RPUSH for delta releases (even with problem clips)', async () => {
@@ -61,7 +57,7 @@ describe('runPushProblemClips', () => {
       { path: 'a.mp3', locale: 'en', reason: ProblemClipReason.TOO_LONG, status: 'EXCLUDED', timestamp: TS },
     ]
     await runPushProblemClips()(makeEnv({ type: 'delta', problemClips: pc }))()
-    expect(mockRpush).not.toHaveBeenCalled()
+    expect(mockRedis.rpush).not.toHaveBeenCalled()
   })
 
   it('does not RPUSH for statistics releases (even with problem clips)', async () => {
@@ -69,7 +65,7 @@ describe('runPushProblemClips', () => {
       { path: 'a.mp3', locale: 'en', reason: ProblemClipReason.TOO_SHORT, status: 'WARN', timestamp: TS },
     ]
     await runPushProblemClips()(makeEnv({ type: 'statistics', problemClips: pc }))()
-    expect(mockRpush).not.toHaveBeenCalled()
+    expect(mockRedis.rpush).not.toHaveBeenCalled()
   })
 
   it('RPUSHes rows when problemClips is non-empty (full release)', async () => {
@@ -77,7 +73,7 @@ describe('runPushProblemClips', () => {
       { path: 'a.mp3', locale: 'en', reason: ProblemClipReason.TOO_LONG, status: 'EXCLUDED', timestamp: TS },
     ]
     await runPushProblemClips()(makeEnv({ problemClips: pc }))()
-    expect(mockRpush).toHaveBeenCalledTimes(1)
+    expect(mockRedis.rpush).toHaveBeenCalledTimes(1)
   })
 
   it('RPUSHes rows when problemClips is non-empty (variants release)', async () => {
@@ -85,7 +81,7 @@ describe('runPushProblemClips', () => {
       { path: 'a.mp3', locale: 'cy-southwes', reason: ProblemClipReason.TOO_LONG, status: 'EXCLUDED', timestamp: TS },
     ]
     await runPushProblemClips()(makeEnv({ type: 'variants', problemClips: pc }))()
-    expect(mockRpush).toHaveBeenCalledTimes(1)
+    expect(mockRedis.rpush).toHaveBeenCalledTimes(1)
   })
 
   it('RPUSHes to the correct Redis key for the release', async () => {
@@ -93,7 +89,7 @@ describe('runPushProblemClips', () => {
       { path: 'a.mp3', locale: 'en', reason: ProblemClipReason.TOO_LONG, status: 'EXCLUDED', timestamp: TS },
     ]
     await runPushProblemClips()(makeEnv({ problemClips: pc }))()
-    const [key] = mockRpush.mock.calls[0]
+    const [key] = mockRedis.rpush.mock.calls[0]
     expect(key).toBe('scripted:log:problem-clips:cv-corpus-25.0-2026-03-06')
   })
 
@@ -104,7 +100,7 @@ describe('runPushProblemClips', () => {
       { path: 'c.mp3', locale: 'en', reason: ProblemClipReason.FAILED_DOWNLOAD, status: 'EXCLUDED', timestamp: TS },
     ]
     await runPushProblemClips()(makeEnv({ problemClips: pc }))()
-    const [, ...rows] = mockRpush.mock.calls[0]
+    const [, ...rows] = mockRedis.rpush.mock.calls[0]
     expect(rows).toEqual([
       `a.mp3\ten\tTOO_LONG\tEXCLUDED\t${TS}\t35000`,
       `b.mp3\ten\tLONG\tWARN\t${TS}\t20000`,
@@ -117,8 +113,8 @@ describe('runPushProblemClips', () => {
       { path: 'a.mp3', locale: 'en', reason: ProblemClipReason.TOO_LONG, status: 'EXCLUDED', timestamp: TS },
     ]
     await runPushProblemClips()(makeEnv({ problemClips: pc }))()
-    expect(mockExpire).toHaveBeenCalledTimes(1)
-    const [key, ttl] = mockExpire.mock.calls[0]
+    expect(mockRedis.expire).toHaveBeenCalledTimes(1)
+    const [key, ttl] = mockRedis.expire.mock.calls[0]
     expect(key).toBe('scripted:log:problem-clips:cv-corpus-25.0-2026-03-06')
     expect(ttl).toBeGreaterThan(0)
   })

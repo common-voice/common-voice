@@ -1,34 +1,19 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import * as path from 'node:path'
 
-// mock-prefixed variables are accessible inside jest.mock factory (Jest hoisting exception).
-const mockRpush   = jest.fn(async (_key: string, ..._vals: string[]) => 1)
-const mockExpire  = jest.fn(async (_key: string, _ttl: number) => 1)
-const mockIncr    = jest.fn(async (_key: string) => 1)
-const mockIncrby  = jest.fn(async (_key: string, _amount: number) => 1)
-const mockGet     = jest.fn(async (_key: string) => null as string | null)
-const mockSet     = jest.fn(async (_key: string, _val: string) => 'OK')
-const mockLrange  = jest.fn(async (_key: string, _start: number, _stop: number) => [] as string[])
+jest.mock('../infrastructure/redis')
+jest.mock('../infrastructure/storage')
+jest.mock('../infrastructure/queue')
 
-jest.mock('../infrastructure/redis', () => ({
-  redisClient: {
-    rpush:   mockRpush,
-    expire:  mockExpire,
-    incr:    mockIncr,
-    incrby:  mockIncrby,
-    get:     mockGet,
-    set:     mockSet,
-    lrange:  mockLrange,
-  },
-}))
+import { redisClient } from '../infrastructure/redis'
+import { uploadToBucket } from '../infrastructure/storage'
+
+const mockRedis = redisClient as jest.Mocked<typeof redisClient>
 
 // Upload chain: uploadToBucket(bucket)(path)(buffer) -- mockUploadFn receives the Buffer
 const mockUploadTE = jest.fn(async () => ({ _tag: 'Right' as const, right: undefined }))
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 const mockUploadFn = jest.fn((_buf: Buffer) => mockUploadTE)
-
-jest.mock('../infrastructure/storage', () => ({
-  uploadToBucket: jest.fn(() => jest.fn(() => mockUploadFn)),
-}))
+;(uploadToBucket as jest.Mock).mockReturnValue(jest.fn(() => mockUploadFn))
 
 import { AppEnv, ProblemClip, ProblemClipReason } from '../types'
 import {
@@ -134,51 +119,51 @@ describe('buildProcessLogRow', () => {
 
 describe('flushReleaseLogs', () => {
   beforeEach(() => {
-    mockRpush.mockClear()
-    mockExpire.mockClear()
-    mockIncr.mockClear()
-    mockIncrby.mockClear()
-    mockGet.mockClear()
-    mockSet.mockClear()
-    mockLrange.mockClear()
+    mockRedis.rpush.mockClear()
+    mockRedis.expire.mockClear()
+    mockRedis.incr.mockClear()
+    mockRedis.incrby.mockClear()
+    mockRedis.get.mockClear()
+    mockRedis.set.mockClear()
+    mockRedis.lrange.mockClear()
     mockUploadTE.mockClear()
     mockUploadFn.mockClear()
     // Default: count = 1, total = 100 -> no flush
-    mockIncr.mockResolvedValue(1)
+    mockRedis.incr.mockResolvedValue(1)
     // Return '100' for totals, null for lastFlush (never flushed)
-    mockGet.mockImplementation(async (key: string) =>
+    mockRedis.get.mockImplementation(async (key) =>
       key.includes('last-flush') ? null : '100',
     )
-    mockLrange.mockResolvedValue([])
+    mockRedis.lrange.mockResolvedValue([])
   })
 
   it('always pushes a process-log row to the correct Redis key', async () => {
     await flushReleaseLogs(makeEnv(), 'success')
-    expect(mockRpush).toHaveBeenCalledTimes(1)
-    expect(mockRpush.mock.calls[0][0]).toBe(
+    expect(mockRedis.rpush).toHaveBeenCalledTimes(1)
+    expect(mockRedis.rpush.mock.calls[0][0]).toBe(
       'scripted:log:process:cv-corpus-25.0-2026-03-06',
     )
   })
 
   it('increments the locale counter', async () => {
     await flushReleaseLogs(makeEnv(), 'success')
-    expect(mockIncr).toHaveBeenCalledWith(
+    expect(mockRedis.incr).toHaveBeenCalledWith(
       'scripted:jobs:count:cv-corpus-25.0-2026-03-06',
     )
   })
 
   it('increments the clips counter by env.clipCount', async () => {
     await flushReleaseLogs(makeEnv({ clipCount: 4200 }), 'success')
-    expect(mockIncrby).toHaveBeenCalledWith(
+    expect(mockRedis.incrby).toHaveBeenCalledWith(
       'scripted:clips:count:cv-corpus-25.0-2026-03-06',
       4200,
     )
   })
 
   it('does not upload to GCS when count is below flush interval and not at total', async () => {
-    mockIncr.mockResolvedValue(3)   // 3 < 10, 3 ≠ 100
+    mockRedis.incr.mockResolvedValue(3)   // 3 < 10, 3 ≠ 100
     // Recent flush -- prevents time-based trigger from firing
-    mockGet.mockImplementation(async (key: string) =>
+    mockRedis.get.mockImplementation(async (key) =>
       key.includes('last-flush') ? new Date().toISOString() : '100',
     )
     await flushReleaseLogs(makeEnv(), 'success')
@@ -186,25 +171,25 @@ describe('flushReleaseLogs', () => {
   })
 
   it('uploads to GCS when count reaches FLUSH_INTERVAL (10)', async () => {
-    mockIncr.mockResolvedValue(10)
-    mockLrange.mockResolvedValue(['row1', 'row2'])
+    mockRedis.incr.mockResolvedValue(10)
+    mockRedis.lrange.mockResolvedValue(['row1', 'row2'])
     await flushReleaseLogs(makeEnv(), 'success')
     expect(mockUploadFn).toHaveBeenCalledTimes(2) // problem-clips + process-log
   })
 
   it('uploads to GCS when count equals total (final locale of a run)', async () => {
-    mockIncr.mockResolvedValue(5)
-    mockGet.mockImplementation(async (key: string) =>
+    mockRedis.incr.mockResolvedValue(5)
+    mockRedis.get.mockImplementation(async (key) =>
       key.includes('last-flush') ? new Date().toISOString() : '5',
     )
-    mockLrange.mockResolvedValue(['row1'])
+    mockRedis.lrange.mockResolvedValue(['row1'])
     await flushReleaseLogs(makeEnv(), 'success')
     expect(mockUploadFn).toHaveBeenCalled()
   })
 
   it('skips problem-clips GCS upload when the list is empty', async () => {
-    mockIncr.mockResolvedValue(10)
-    mockLrange
+    mockRedis.incr.mockResolvedValue(10)
+    mockRedis.lrange
       .mockResolvedValueOnce([])        // problem-clips list: empty
       .mockResolvedValueOnce(['logrow']) // process-log list
     await flushReleaseLogs(makeEnv(), 'success')
@@ -212,8 +197,8 @@ describe('flushReleaseLogs', () => {
   })
 
   it('process-log TSV starts with the correct header', async () => {
-    mockIncr.mockResolvedValue(10)
-    mockLrange
+    mockRedis.incr.mockResolvedValue(10)
+    mockRedis.lrange
       .mockResolvedValueOnce([])
       .mockResolvedValueOnce(['logrow'])
     await flushReleaseLogs(makeEnv(), 'success')
@@ -224,8 +209,8 @@ describe('flushReleaseLogs', () => {
   })
 
   it('problem-clips TSV starts with the correct header when non-empty', async () => {
-    mockIncr.mockResolvedValue(10)
-    mockLrange
+    mockRedis.incr.mockResolvedValue(10)
+    mockRedis.lrange
       .mockResolvedValueOnce(['pc-row'])
       .mockResolvedValueOnce(['log-row'])
     await flushReleaseLogs(makeEnv(), 'success')
@@ -234,7 +219,7 @@ describe('flushReleaseLogs', () => {
   })
 
   it('swallows errors without throwing (protects the locale job)', async () => {
-    mockRpush.mockRejectedValue(new Error('Redis down'))
+    mockRedis.rpush.mockRejectedValue(new Error('Redis down'))
     await expect(flushReleaseLogs(makeEnv(), 'success')).resolves.toBeUndefined()
   })
 })
