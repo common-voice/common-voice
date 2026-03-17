@@ -52,5 +52,8 @@ request-language-found-cv-contribution =
 request-language-found-cv-sentences-lack =
     Språket ditt er allereie på språklista til Common Voice.
     Du kan leggje til rette for språkstart på <strong>manusbasert tale</strong> ved å bidra med setningar <sentencesContributionLink>her</sentencesContributionLink>.
+request-language-found-spontaneous-speech =
+    Språket ditt er allereie tilgjengeleg på Common Voice <strong>spontan tale</strong>.
+    Klikk <spontaneousSpeechLink>her</spontaneousSpeechLink> for å bidra – hugs å endre bidrags-/dataspråket før du byrjar å bidra!
 request-language-already-available-scs = Manusbasert tale er allereie tilgjengeleg
 request-language-already-available-sps = Spontan tale allereie tilgjengeleg
