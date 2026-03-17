@@ -236,9 +236,11 @@ export const processLocale = async (job: Job<ProcessLocaleJob>, token?: string) 
   await redisClient.hset(processingKey, doneMember, String(now))
   await redisClient.expire(processingKey, RELEASE_LOG_KEY_TTL_SEC)
 
-  // Timer-based lock extension: covers all pipeline steps uniformly
-  // (download, merge, compress, upload, CorporaCreator subprocess, etc.)
-  // without threading a callback through every function signature.
+  // Timer-based lock extension + processing heartbeat: covers all pipeline
+  // steps uniformly (download, merge, compress, upload, CorporaCreator
+  // subprocess, etc.) without threading a callback through every function
+  // signature. The heartbeat refresh prevents long-running locales from
+  // being falsely reclaimed as stale by another pod.
   const lockTimer = token
     ? setInterval(async () => {
         try {
@@ -248,6 +250,8 @@ export const processLocale = async (job: Job<ProcessLocaleJob>, token?: string) 
           // handles crash recovery. Log so repeated failures are visible.
           logger.warn('PROCESSOR', `[${locale}] Lock extension failed: ${String(err)}`)
         }
+        // Refresh processing HASH timestamp so other pods see this job is alive.
+        await redisClient.hset(processingKey, doneMember, String(Date.now()))
       }, LOCK_EXTEND_INTERVAL_MS)
     : undefined
 
