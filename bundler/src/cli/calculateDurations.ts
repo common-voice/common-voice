@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { program } from 'commander'
 import { pipe } from 'fp-ts/function'
 import * as TE from 'fp-ts/TaskEither'
@@ -10,6 +11,7 @@ import {
 } from '../infrastructure/storage'
 import { getClipsBucketName } from '../config'
 import { logger } from '../infrastructure/logger'
+// eslint-disable-next-line @typescript-eslint/no-var-requires
 const mp3Duration = require('mp3-duration')
 
 type Clip = { id: number; path: string; duration: number }

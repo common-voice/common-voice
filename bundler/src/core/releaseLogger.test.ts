@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import * as path from 'node:path'
 
 // mock-prefixed variables are accessible inside jest.mock factory (Jest hoisting exception).

@@ -29,7 +29,7 @@ import {
   MIN_AUDIO_SIZE_BYTES,
   CLIP_DOWNLOAD_CONCURRENCY,
 } from '../config'
-import { prepareDir, rmFilepath } from '../infrastructure/filesystem'
+import { rmFilepath } from '../infrastructure/filesystem'
 import { generateTarFilename } from './compress'
 import { extractTar } from '../infrastructure/tar'
 import { logger } from '../infrastructure/logger'
@@ -401,7 +401,7 @@ const fetchAllClipsForLocale = (
     }
 
     const worker = async () => {
-      while (true) {
+      for (;;) {
         const i = idx++
         if (i >= toDownload.length) break
         await processClip(toDownload[i])

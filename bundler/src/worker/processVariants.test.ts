@@ -15,8 +15,6 @@ import { TSV_COLUMNS } from '../core/clips'
 // Helpers
 // ---------------------------------------------------------------------------
 
-const TS = '2026-03-06T12:00:00.000Z'
-
 const CLIPS_HEADER = TSV_COLUMNS.join('\t')
 
 const makeClipsRow = (
