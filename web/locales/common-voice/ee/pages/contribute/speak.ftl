@@ -12,6 +12,8 @@ record-no-mic-found = Womekpɔ nuƒomɔ̃ aɖeke o.
 record-error-too-short = Nuƒoƒo si wolé ɖe mɔ̃ dzi la nɔ kpuie akpa.
 record-error-too-long = Nuƒoƒo si wolé ɖe mɔ̃ dzi la didi akpa.
 record-error-too-quiet = Nuƒoƒo si wolé ɖe mɔ̃ dzi la nɔ anyi kpoo akpa.
+record-error-empty-recording = Womelé odio aɖeke o. Taflatse lé ŋku ɖe wò nuƒomɔ̃a ŋu eye nàgadze agbagba ake.
+record-error-unknown-format = Mete ŋu nya odio ƒe nɔnɔme o. Taflatse dze agbagba nàzã web-browser bubu.
 record-error-uploaded-clip-corrupted =
     Edze abe wò odio la gblẽ. Esia ate ŋu adzɔ le:
     • Nya siwo ku ɖe web-browser ƒe ɖekawɔwɔ ŋu (te kpɔ nàzã browser bubu) .
@@ -49,6 +51,9 @@ terms-agree = Melɔ̃ ɖe edzi
 terms-disagree = Nyemelɔ̃ ɖe edzi o
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = Akpe be mietsɔ miaƒe voice clips na mi!
+first-cta-subtitle-text = Ne ègblɔ ɖokuiwò ŋu nya na mí la, àkpe ɖe dɔwɔlawo ŋu woatu mɔ̃ɖaŋununya si axɔ amewo katã ɖe eme wu
+why-donate = Nukatae nèle biabiam?
+why-donate-explanation-1 = Nyatakaka sia nye tiatia be yeana - ne èse le ɖokuiwò me be yeƒe dzi dze eme ko hafi wòle be nàtsɔe akpe ɖe eŋu. Ne míeɖe nyatakakadzraɖoƒea ɖe go la, míeɖea ameŋunyatakakawo katã ɖe vovo, eye míekpɔa egbɔ be nyatakakawo abe wò ŋkɔ kple e-mail ene medo ƒome kple amewo ƒe xexlẽme ŋuti nyatakakawo abe ƒexɔxɔ alo gbɔdɔdɔ ene o.
 create-profile-text = Àdi be yeadzra onyatakakawo ɖoa? <createProfile>Wɔ nɔnɔmetata</createProfile><createProfile>
 thanks-for-voice-toast = Akpe na wò le wò nuƒo
 thanks-for-voice-toast-error = Vodada aɖe dzɔ le wò gbe ŋuti nyatakakawo ɖoɖo ɖa me

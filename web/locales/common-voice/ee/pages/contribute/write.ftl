@@ -142,3 +142,24 @@ small-batch-sentences-rule-2 = Tsɔ nyagbe ɖeka kpe ɖe fli ɖesiaɖe ŋu
 small-batch-sentences-rule-3 = Ma nyagbewo ɖe fli ɖeka me ne èzi “Enter” alo “Return” dzi zi ɖeka
 small-batch-sentences-rule-4 = Tsɔ nyagbe siwo ade 1,000 kpee
 small-batch-sentences-rule-5 = Ele be domenyinyi ɖeka nanɔ nyagbewo katã si
+small-batch-sentences-rule-6 = Ele be nyagbeawo katã nanye esiwo ŋu woƒo nu tsoe ɖekae
+# menu item
+add-sentences = Tsɔ Nyagbewo Kpe Ðe Eŋu
+
+## MENU ITEM TOOLTIPS
+
+write-contribute-menu-tooltip = Tsɔ Nyagbewo Kpe Ðe Eŋu Eye Nàto Wo Me, Tsɔ Nyabiasewo Kpe Ðe Eŋu, Ŋlɔ Odio
+add-sentences-menu-item-tooltip = Tsɔ nyagbewo kpee
+review-sentences-menu-item-tooltip = Dzro nyagbewo me
+add-questions-menu-item-tooltip = Tsɔ nyabiasewo kpee
+review-questions-menu-item-tooltip = Dzro nyabiasewo me
+transcribe-audio-menu-item-tooltip = Ŋlɔ odio siwo wolé ɖe mɔ̃ dzi
+
+## MENU ITEM ARIA LABELS
+
+write-contribute-menu-aria-label = Ŋlɔ tiatiawɔblɔɖe ƒe menu
+add-sentences-menu-item-aria-label = Tsɔ nyagbe yeyewo kpee be nutoa me tɔwo naxlẽ
+review-sentences-menu-item-aria-label = Dzro nyagbe siwo li xoxo siwo nutoa me tɔwo tsɔ ɖo ɖa la me
+add-questions-menu-item-aria-label = Miɖo biabia yeyewo ɖa be nutoa me tɔwo naxlẽ ahaɖo wo ŋu
+review-questions-menu-item-aria-label = To nyabiase yeye siwo nutoa me tɔwo ɖo ɖa me eye nàda akɔ ɖe wo dzi
+transcribe-audio-menu-item-aria-label = Ŋlɔ odio siwo wolé ɖe mɔ̃ dzi ɖe nuŋɔŋlɔ me
