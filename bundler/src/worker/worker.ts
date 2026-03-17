@@ -1,14 +1,44 @@
+import * as fs from 'node:fs'
+import * as path from 'node:path'
+
 import { Worker } from 'bullmq'
 import { io as IO, taskEither as TE } from 'fp-ts'
 import { pipe, constVoid } from 'fp-ts/lib/function'
 import { processLocale } from './processor'
 import { processVariants } from './processVariants'
 import { addJobsToReleaseQueue, cleanStaleJobs, removeJobsForLocales } from '../infrastructure/queue'
-import { BULLMQ_LOCK_DURATION_MS, getRedisUrl, redisKeys } from '../config'
+import { BULLMQ_LOCK_DURATION_MS, getRedisUrl, getTmpDir, redisKeys } from '../config'
 import { generateStatistics } from './generateStatistics'
 import { forceFlushLogs } from '../core/releaseLogger'
 import { logger } from '../infrastructure/logger'
 import { redisClient } from '../infrastructure/redis'
+
+/**
+ * Remove all files and directories under the cache/tmp dir to reclaim disk
+ * space. Called on --force full init to ensure stale data from previous runs
+ * (which is NOT cleaned up on job failure) does not exhaust the PVC.
+ *
+ * Uses synchronous fs for simplicity -- runs once at init before any locale
+ * jobs are dispatched, so blocking the event loop briefly is acceptable.
+ */
+export const cleanCacheDir = (): void => {
+  const tmpDir = getTmpDir()
+  if (!fs.existsSync(tmpDir)) return
+
+  const entries = fs.readdirSync(tmpDir)
+  let freedCount = 0
+  for (const entry of entries) {
+    try {
+      fs.rmSync(path.join(tmpDir, entry), { recursive: true, force: true })
+      freedCount++
+    } catch (err) {
+      logger.warn('WORKER', `Cache cleanup: failed to remove ${entry}: ${String(err)}`)
+    }
+  }
+  if (freedCount > 0) {
+    logger.info('WORKER', `Cache cleanup: removed ${freedCount} item(s) from ${tmpDir} (--force)`)
+  }
+}
 
 export const createWorker: IO.IO<void> = () => {
   const worker = new Worker(
@@ -62,6 +92,11 @@ export const createWorker: IO.IO<void> = () => {
 
             // Obliterate entire queue (active + waiting + everything).
             await cleanStaleJobs(true)
+
+            // Wipe local cache dir to reclaim disk space from prior runs.
+            // Job failures do not clean up working files, so stale data can
+            // accumulate and exhaust the PVC on subsequent --force runs.
+            cleanCacheDir()
           } else if (isSelectiveForce) {
             // -- Selective force (-l + --force): only reset targeted locales --
             logger.info('WORKER', `Selective --force for locales: ${s.languages.join(', ')}`)
