@@ -462,7 +462,7 @@ fi
  * Removes clips from the working directory that are not referenced by the
  * current DB query TSV. Returns the number of orphan clips deleted.
  */
-const pruneOrphanClips = (
+export const pruneOrphanClips = (
   tmpClipsFilepath: string,
   locale: string,
   clipsDirPath: string,
@@ -570,8 +570,14 @@ export const fetchAllClipsPipeline = (
 
     if (E.isLeft(prevResult)) throw prevResult.left
     if (E.isLeft(queryResult)) throw queryResult.left
-    // Delta failure is non-fatal -- fall back to GCS individual downloads.
-    const hasDelta = E.isRight(deltaResult) && deltaResult.right === true
+    // Delta extraction failure is fatal: since prev and delta extract directly
+    // into the working directory, a mid-stream failure leaves truncated MP3s
+    // that downstream steps would treat as valid cached clips. The job will
+    // retry from scratch (Phase 1 wipes the clips dir).
+    // Note: delta tar NOT FOUND in GCS returns Right(false), which is fine --
+    // only extraction errors produce Left.
+    if (E.isLeft(deltaResult)) throw deltaResult.left
+    const hasDelta = deltaResult.right === true
     const hasPrev = E.isRight(prevResult) && prevResult.right === true
 
     // Phase 3: GDPR prune -- delete clips on disk that are not in the current
