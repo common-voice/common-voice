@@ -17,6 +17,7 @@ import {
 import { runMp3DurationReporter } from '../infrastructure/mp3DurationReporter'
 import { runStats } from '../core/stats'
 import { runReportedSentences } from '../core/reportedSentences'
+import { runUpload } from '../core/upload'
 import { cleanUp, runCleanUp } from '../core/cleanUp'
 import { runCompressAndUploadMetadata } from '../core/metadata'
 import { runGenerateDatasheet } from '../core/datasheets'
@@ -86,8 +87,12 @@ const processPipeline = pipe(
   ),
   RTE.chainFirst(() => runGenerateDatasheet),
   RTE.bind('compressResult', runCompress),
-  // Compress always streams directly to GCS -- no separate upload step.
-  RTE.let('uploadPath', ({ compressResult }) => compressResult.uploadPath),
+  // Upload local tarball to GCS -- skip when already streamed during compress
+  RTE.bind('uploadPath', ({ compressResult }) =>
+    compressResult.streamed
+      ? RTE.right<AppEnv, Error, string>(compressResult.uploadPath)
+      : runUpload(compressResult.tarballFilepath),
+  ),
   RTE.chainFirst(runCompressAndUploadMetadata),
   RTE.bind('stats', ({ compressResult }) => runStats(compressResult)),
   RTE.chainFirstW(({ stats }) =>

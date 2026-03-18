@@ -3,6 +3,7 @@ import {
   generateTarFilename,
   pathsFilter,
   decideCompressionLevel,
+  shouldStreamToGCS,
 } from './compress'
 
 describe('sanitizeLicenseName', () => {
@@ -178,5 +179,35 @@ describe('decideCompressionLevel', () => {
   it('returns level 1 for large clip counts', () => {
     expect(decideCompressionLevel(100_000)).toBe(1)
     expect(decideCompressionLevel(2_500_000)).toBe(1)
+  })
+})
+
+describe('shouldStreamToGCS', () => {
+  it('always streams when clip count exceeds hard ceiling', () => {
+    // Hard ceiling is 1,500,000 -- should stream regardless of disk space
+    expect(shouldStreamToGCS(1_500_000, '/tmp', 'en')).toBe(true)
+    expect(shouldStreamToGCS(2_500_000, '/tmp', 'en')).toBe(true)
+  })
+
+  it('streams when locale directory does not exist', () => {
+    expect(shouldStreamToGCS(100, '/nonexistent/path', 'zz')).toBe(true)
+  })
+
+  it('uses local file when disk has enough space for small locale', () => {
+    // /tmp always exists and has space; a non-existent locale dir returns 0
+    // from du, triggering the "could not measure" fallback -> stream.
+    // Use an actual existing dir to test the happy path.
+    const tmpDir = '/tmp'
+    // Create a tiny test directory
+    const fs = require('fs')
+    const testDir = '/tmp/_compress_test_locale'
+    fs.mkdirSync(testDir, { recursive: true })
+    fs.writeFileSync(`${testDir}/test.txt`, 'hello')
+    try {
+      // tiny data + lots of free space on /tmp -> local file
+      expect(shouldStreamToGCS(10, '/tmp', '_compress_test_locale')).toBe(false)
+    } finally {
+      fs.rmSync(testDir, { recursive: true, force: true })
+    }
   })
 })

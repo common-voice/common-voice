@@ -108,3 +108,15 @@ export const getDbConfig = getDbConfig_(config)
 export const getClipsBucketName = getClipsBucketName_(config)
 export const getDatasetBundlerBucketName = getDatasetBundlerBucketName_(config)
 export const getTmpDir = getTmpDir_(config)
+
+/**
+ * Hard-ceiling failsafe: locales above this clip count ALWAYS stream the
+ * output tarball directly to GCS, regardless of free disk space.
+ * The primary decision is disk-space-based (shouldStreamToGCS in compress.ts
+ * checks statfs + 10 GB slack), but this caps the maximum local tar size
+ * as a safety net against estimation errors on very large locales.
+ *
+ * Default 2,000,000 clips. Override via STREAM_COMPRESS_CLIP_THRESHOLD env var in k8s.
+ */
+export const STREAM_COMPRESS_CLIP_THRESHOLD =
+  Number(process.env.STREAM_COMPRESS_CLIP_THRESHOLD) || 2_000_000
