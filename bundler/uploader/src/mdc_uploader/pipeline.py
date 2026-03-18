@@ -43,8 +43,22 @@ def _build_jobs_gcs(
     subdir = tarball_dir(config.release_name, config.release_type)
 
     if config.locales:
-        # Use explicit locales; sizes will be discovered at download time
-        locale_sizes = [(loc, 0) for loc in config.locales]
+        # Fetch sizes for explicit locales from GCS
+        from google.cloud import storage as gcs_storage  # type: ignore[import-untyped]  # pylint: disable=import-outside-toplevel  # noqa: I001
+
+        bucket_name, base_prefix = _parse_gcs_uri(config.base_dir)
+        client = gcs_storage.Client()
+        bucket = client.bucket(bucket_name)
+        locale_sizes: list[tuple[str, int]] = []
+        for loc in config.locales:
+            fname = tarball_filename(loc, config.release_name, license_name)
+            blob_path = f"{base_prefix}/{subdir}/{fname}" if base_prefix else f"{subdir}/{fname}"
+            blob = bucket.blob(blob_path)
+            if blob.exists():
+                blob.reload()
+                locale_sizes.append((loc, blob.size or 0))
+            else:
+                locale_sizes.append((loc, 0))
     else:
         locale_sizes = gcs_list_tarballs(
             config.base_dir,
