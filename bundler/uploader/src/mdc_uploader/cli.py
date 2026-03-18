@@ -28,7 +28,8 @@ Environment variables:
   MDC_API_KEY_DEV   MDC API key for dev target (required for -ut dev)
   MDC_API_KEY_PROD  MDC API key for prod target (required for -ut prod)
   MDC_API_URL       Override MDC API base URL (default: from -ut)
-  UPLOAD_BASE_DIR   Default --base-dir value (default: /gcs)
+  UPLOAD_BASE_DIR              Override --base-dir (highest priority after CLI flag)
+  DATASETS_BUNDLER_BUCKET_NAME Auto-resolves to gs://<value> (shared with bundler)
 """
 
 
@@ -75,8 +76,8 @@ Environment variables:
     type=str,
     default=None,
     envvar="UPLOAD_BASE_DIR",
-    help="Root directory containing release files. Defaults to /gcs. "
-    "Also accepts gs:// URIs (requires pip install .[gcs]).",
+    help="GCS bucket (gs://...) or local path with release files. "
+    "Defaults to /gcs (GCSFuse mount in K8s).",
 )
 @click.option(
     "--submission-id",

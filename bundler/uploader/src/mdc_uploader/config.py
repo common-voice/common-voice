@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import os
 from dataclasses import dataclass
 
 from mdc_uploader.constants import DEFAULT_BASE_DIR, MDC_API_URLS
@@ -41,7 +42,15 @@ class UploaderConfig:
     ) -> UploaderConfig:
         """Build config from CLI args and environment variables."""
         resolved_url = mdc_api_url or MDC_API_URLS[upload_target]
-        resolved_base_dir = base_dir or DEFAULT_BASE_DIR
+        # Resolution order: --base-dir CLI > UPLOAD_BASE_DIR env (Click) >
+        # gs://DATASETS_BUNDLER_BUCKET_NAME env (shared with bundler) > /gcs mount
+        bundler_bucket = os.environ.get("DATASETS_BUNDLER_BUCKET_NAME")
+        if base_dir:
+            resolved_base_dir = base_dir
+        elif bundler_bucket:
+            resolved_base_dir = f"gs://{bundler_bucket}"
+        else:
+            resolved_base_dir = DEFAULT_BASE_DIR
         locale_list = [loc.strip() for loc in locales.split() if loc.strip()] if locales else None
 
         return cls(

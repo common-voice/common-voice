@@ -2,9 +2,7 @@
 
 from __future__ import annotations
 
-import pytest
-
-from mdc_uploader.gcs import _parse_gcs_uri, _require_gcs, is_gcs_uri
+from mdc_uploader.gcs import _parse_gcs_uri, is_gcs_uri
 
 
 class TestIsGcsUri:
@@ -63,17 +61,3 @@ class TestParseGcsUri:
         assert prefix == "releases/v25/full"
 
 
-class TestRequireGcs:
-    """Tests for _require_gcs guard."""
-
-    def test_raises_when_not_available(self) -> None:
-        """Raises ImportError with install instructions when GCS not available."""
-        import mdc_uploader.gcs as gcs_mod
-
-        original = gcs_mod.HAS_GCS
-        try:
-            gcs_mod.HAS_GCS = False
-            with pytest.raises(ImportError, match="pip install"):
-                _require_gcs()
-        finally:
-            gcs_mod.HAS_GCS = original

@@ -1,4 +1,4 @@
-"""Optional GCS fallback via google-cloud-storage (pip install .[gcs]).
+"""GCS support for gs:// URIs via google-cloud-storage.
 
 Used when --base-dir is a gs:// URI. Downloads tarballs to temp files
 before uploading to MDC. See DEVELOPER.md for details.
@@ -11,16 +11,10 @@ import tempfile
 from collections.abc import Generator
 from contextlib import contextmanager
 
+from google.cloud import storage as gcs_storage  # type: ignore[import-untyped]
+
 from mdc_uploader.log import logger
 from mdc_uploader.progress import format_size
-
-try:
-    from google.cloud import storage as gcs_storage  # type: ignore[import-untyped]
-
-    HAS_GCS = True
-except ImportError:
-    gcs_storage = None  # guarded by _require_gcs()
-    HAS_GCS = False
 
 
 def is_gcs_uri(path: str) -> bool:
@@ -37,14 +31,6 @@ def _parse_gcs_uri(uri: str) -> tuple[str, str]:
     return bucket, prefix
 
 
-def _require_gcs() -> None:
-    if not HAS_GCS:
-        raise ImportError(
-            "google-cloud-storage is required for gs:// URIs. "
-            "Install with: pip install mdc-uploader[gcs]"
-        )
-
-
 @contextmanager
 def gcs_temp_download(
     gcs_uri: str,
@@ -54,8 +40,6 @@ def gcs_temp_download(
 
     Cleans up the temp file on exit.
     """
-    _require_gcs()
-    assert gcs_storage is not None
     bucket_name, base_prefix = _parse_gcs_uri(gcs_uri)
 
     client = gcs_storage.Client()
@@ -98,8 +82,6 @@ def gcs_list_tarballs(
     from mdc_uploader import language  # pylint: disable=import-outside-toplevel
     from mdc_uploader.naming import tarball_filename  # pylint: disable=import-outside-toplevel
 
-    _require_gcs()
-    assert gcs_storage is not None
     bucket_name, base_prefix = _parse_gcs_uri(gcs_uri)
 
     client = gcs_storage.Client()
@@ -122,8 +104,6 @@ def gcs_list_tarballs(
 
 def gcs_read_text(gcs_uri: str, blob_path: str) -> str | None:
     """Read a text file from GCS. Returns None if not found."""
-    _require_gcs()
-    assert gcs_storage is not None
     bucket_name, base_prefix = _parse_gcs_uri(gcs_uri)
 
     client = gcs_storage.Client()

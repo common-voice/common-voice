@@ -10,7 +10,6 @@ from mdc_uploader import language
 from mdc_uploader.config import UploaderConfig
 from mdc_uploader.gcs import (
     _parse_gcs_uri,
-    _require_gcs,
     gcs_list_tarballs,
     gcs_read_text,
     is_gcs_uri,
@@ -161,7 +160,6 @@ def _resolve_file_and_datasheet(
         # GCS mode: tarball_path is a blob path
         try:
             # File must persist for the upload -- caller handles cleanup.
-            _require_gcs()
             from google.cloud import (  # type: ignore[import-untyped]  # pylint: disable=import-outside-toplevel
                 storage as gcs_storage,
             )
