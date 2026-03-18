@@ -2,7 +2,7 @@
 
 welcome-to-spontaneous-speech = Velkommen til spontan tale
 # <br></br> represents a newline break
-wall-of-text = Common Voice lanserer en ny plattform som er fokusert på å samle inn naturlig, spontan og uskriptet tale. Dette vil hjelpe mange fellesskap med å samle inn data raskere, samtidig som det er nyttig for dataforskere og utviklere.
+wall-of-text = Common Voice lanserer en ny plattform som er fokusert på å samle inn naturlig, spontan tale uten manus. Dette vil hjelpe mange fellesskap med å samle inn data raskere, samtidig som det er nyttig for dataforskere og utviklere.
 why-spontaneous-speech = Hvorfor vi bygde denne spontane tale prototypen
 # text wrapped with <mark></mark> will have a light red background
 why-card-1-text = Nyttig for <mark>naturlige talekontekster</mark> og andre bruksområder (f.eks. når du vil at talegjenkjenning skal fungere med folk som snakker uten manus og i daglig tale)
