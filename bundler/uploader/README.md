@@ -73,7 +73,7 @@ flowchart LR
 
 ## Authentication
 
-API keys are created in the MDC platform under your proofile settings. Dev and prod environments use separate accounts and keys.
+API keys are created in the MDC platform under your profile settings. Dev and prod environments use separate accounts and keys.
 
 Set the key for your target environment:
 
@@ -247,7 +247,7 @@ When `--locales` is omitted, the tool checks all known locales (from the CV API)
 
 The uploader reads tarballs from `--base-dir` and uploads them to MDC via the API. Each tarball is uploaded as a dataset submission, with the corresponding datasheet attached as metadata.
 
-For `gs://` URIs, install the GCS extra (`pip install .[gcs]`). See [DEVELOPER.md](DEVELOPER.md) for details.
+For `gs://` URIs, `google-cloud-storage` is included as a runtime dependency. See [DEVELOPER.md](DEVELOPER.md) for details.
 
 ## Release Name Conventions
 

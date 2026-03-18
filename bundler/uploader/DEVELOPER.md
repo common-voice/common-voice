@@ -21,8 +21,8 @@ pipeline.py ------> naming.py (release parsing, path construction)
     |
     v
 mdc.py ------------> datacollective SDK
-    |                 (create_submission_draft, upload_dataset_file,
-    |                  update_submission, submit_submission)
+    |                 (create_submission_with_upload,
+    |                  upload_dataset_file)
     |
     v
 gcs.py ------------> google-cloud-storage (optional, for gs:// URIs only)
@@ -64,7 +64,7 @@ Dev and prod use separate MDC accounts. Set the key matching your `-ut` target.
 | `state.py`     | `BatchState` JSON persistence for `--retry-failed` support                         |
 | `progress.py`  | tqdm batch progress bar, human-readable size formatting                            |
 | `log.py`       | Structured logging matching the bundler's `[TIMESTAMP] [LEVEL] [COMPONENT]` format |
-| `gcs.py`       | Optional GCS fallback for `gs://` URIs (requires `pip install .[gcs]`)             |
+| `gcs.py`       | GCS fallback for `gs://` URIs (uses `google-cloud-storage` runtime dependency)     |
 
 ---
 
@@ -86,10 +86,9 @@ In GKE, the GCS bucket is mounted as a local filesystem at `/gcs` via the GCSFus
 GCS bucket --[google-cloud-storage]--> temp file --> SDK reads file --> MDC API --> cleanup
 ```
 
-When `--base-dir` is a `gs://` URI, each tarball is downloaded to a temp file, uploaded to MDC, then cleaned up. Requires the optional `[gcs]` extra:
+When `--base-dir` is a `gs://` URI, each tarball is downloaded to a temp file, uploaded to MDC, then cleaned up. The `google-cloud-storage` dependency is included at install time:
 
 ```bash
-pip install .[gcs]
 mdc-upload -r cv-corpus-25.0-2026-03-09 --base-dir gs://common-voice-bundler -ut dev
 ```
 
@@ -116,11 +115,8 @@ mdc-upload -r sps-corpus-3.0-2026-03-09 --base-dir ./test-releases -ut dev --dry
 1. Resolve tarball path from `--base-dir` + release naming conventions
 2. Fetch English/native names from `LanguageRegistry` (CV API + extras)
 3. Read datasheet markdown from filesystem (optional)
-4. `create_submission_draft()` -- create MDC draft with name + description
-5. `upload_dataset_file()` -- upload the tarball
-6. `update_submission()` -- set all metadata fields (task, license, format, contacts, etc.)
-7. `submit_submission()` -- finalize the submission
-8. Record result in batch state JSON
+4. `create_submission_with_upload()` -- single SDK call that creates draft, uploads tarball, sets metadata, and submits for review
+5. Record result in batch state JSON
 
 ### Version Update
 
@@ -327,9 +323,9 @@ Runtime:
 - `httpx>=0.27` -- HTTP client for language API
 - `tqdm>=4.66` -- progress bars
 
-Optional (`pip install .[gcs]`):
+GCS support:
 
-- `google-cloud-storage>=2.14` -- required only for `gs://` URI mode (see Data Flow above)
+- `google-cloud-storage>=2.14` -- used for `gs://` URI mode (see Data Flow above)
 
 Dev:
 

@@ -70,7 +70,8 @@ def _build_jobs_gcs(
 
     jobs: list[LocaleUploadJob] = []
     for locale, size in locale_sizes:
-        # For GCS mode, tarball_path stores the relative blob path (used by gcs_temp_download)
+        # For GCS mode, tarball_path is the relative blob path
+        # (downloaded to a temp file in _resolve_file_and_datasheet)
         tb_blob = f"{subdir}/{tarball_filename(locale, config.release_name, license_name)}"
         ds_blob = os.path.relpath(datasheet_path("", release_spec, locale, license_name), "")
 
@@ -216,6 +217,8 @@ def _resolve_file_and_datasheet(
             datasheet_text = f.read()
     elif job.datasheet_path is None:
         logger.warning("UPLOAD", "[%s] No datasheet found -- proceeding without", job.locale)
+    else:
+        logger.warning("UPLOAD", "[%s] Datasheet not found at %s", job.locale, job.datasheet_path)
 
     error = f"Tarball not found: {job.tarball_path}" if tarball_local is None else None
     return tarball_local, datasheet_text, error

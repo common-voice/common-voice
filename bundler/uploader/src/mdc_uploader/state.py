@@ -60,7 +60,8 @@ class BatchState:
             entry["error"] = result.error
         if result.orphaned_draft:
             entry["orphaned_draft"] = True
-            entry["submission_id"] = result.submission_id or ""
+            if result.submission_id:
+                entry["submission_id"] = result.submission_id
 
         self.locales[result.locale] = entry
         self._flush()
