@@ -1,3 +1,15 @@
+jest.mock('../config', () => ({
+  getEnvironment: () => 'production',
+  getTmpDir: () => tmpDir,
+}))
+
+jest.mock('./compress', () => ({
+  generateTarFilename: (locale: string, releaseName: string, license?: string) =>
+    license
+      ? `${releaseName}-${locale}-${license}.tar.gz`
+      : `${releaseName}-${locale}.tar.gz`,
+}))
+
 import * as fs from 'node:fs/promises'
 import * as path from 'node:path'
 import * as os from 'node:os'
@@ -15,23 +27,6 @@ beforeEach(async () => {
 afterEach(async () => {
   await fs.rm(tmpDir, { recursive: true, force: true })
 })
-
-// Mock getTmpDir to return our test directory
-jest.mock('../config', () => ({
-  getEnvironment: () => 'production',
-  getTmpDir: () => tmpDir,
-}))
-
-// Mock generateTarFilename -- mimic real logic (releaseName-locale.tar.gz)
-jest.mock('./compress', () => ({
-  generateTarFilename: (locale: string, releaseName: string, license?: string) =>
-    license
-      ? `${releaseName}-${locale}-${license}.tar.gz`
-      : `${releaseName}-${locale}.tar.gz`,
-}))
-
-// Need to re-import after mock so getTmpDir reference is correct
-// (cleanUp captures getTmpDir at call time, not import time)
 
 describe('cleanUp', () => {
   const locale = 'en'
@@ -84,7 +79,6 @@ describe('cleanUp', () => {
     const releaseDirPath = path.join(tmpDir, releaseName)
     await fs.mkdir(releaseDirPath, { recursive: true })
 
-    // Create prev release locale dir + tarball
     const prevLocaleDir = path.join(tmpDir, prevReleaseName, locale)
     await fs.mkdir(path.join(prevLocaleDir, 'clips'), { recursive: true })
     await fs.writeFile(path.join(prevLocaleDir, 'clips', 'old.mp3'), 'audio')
@@ -104,7 +98,6 @@ describe('cleanUp', () => {
     const releaseDirPath = path.join(tmpDir, releaseName)
     await fs.mkdir(releaseDirPath, { recursive: true })
 
-    // Create delta release locale dir + tarball
     const deltaLocaleDir = path.join(tmpDir, deltaReleaseName, locale)
     await fs.mkdir(path.join(deltaLocaleDir, 'clips'), { recursive: true })
     await fs.writeFile(path.join(deltaLocaleDir, 'clips', 'new.mp3'), 'audio')
@@ -122,7 +115,6 @@ describe('cleanUp', () => {
 
   it('succeeds even when files do not exist (force: true)', async () => {
     const releaseDirPath = path.join(tmpDir, releaseName)
-    // Don't create anything -- all paths are missing
 
     const result = await cleanUp(
       locale, releaseDirPath, '', prevReleaseName, deltaReleaseName,
@@ -134,7 +126,6 @@ describe('cleanUp', () => {
     const releaseDirPath = path.join(tmpDir, releaseName)
     await fs.mkdir(releaseDirPath, { recursive: true })
 
-    // This is the failure-path pattern: tarball was never created
     const result = await cleanUp(locale, releaseDirPath, '')()
     expect(E.isRight(result)).toBe(true)
   })
