@@ -17,7 +17,6 @@ import {
 import { runMp3DurationReporter } from '../infrastructure/mp3DurationReporter'
 import { runStats } from '../core/stats'
 import { runReportedSentences } from '../core/reportedSentences'
-import { runUpload } from '../core/upload'
 import { cleanUp, runCleanUp } from '../core/cleanUp'
 import { runCompressAndUploadMetadata } from '../core/metadata'
 import { runGenerateDatasheet } from '../core/datasheets'
@@ -87,12 +86,8 @@ const processPipeline = pipe(
   ),
   RTE.chainFirst(() => runGenerateDatasheet),
   RTE.bind('compressResult', runCompress),
-  // Upload local tarball to GCS -- skip when already streamed during compress
-  RTE.bind('uploadPath', ({ compressResult }) =>
-    compressResult.streamed
-      ? RTE.right<AppEnv, Error, string>(compressResult.uploadPath)
-      : runUpload(compressResult.tarballFilepath),
-  ),
+  // Compress always streams directly to GCS -- no separate upload step.
+  RTE.let('uploadPath', ({ compressResult }) => compressResult.uploadPath),
   RTE.chainFirst(runCompressAndUploadMetadata),
   RTE.bind('stats', ({ compressResult }) => runStats(compressResult)),
   RTE.chainFirstW(({ stats }) =>
@@ -242,8 +237,8 @@ export const processLocale = async (job: Job<ProcessLocaleJob>, token?: string) 
   }
 
   // Timer-based lock extension + processing heartbeat: covers all pipeline
-  // steps uniformly (download, merge, compress, upload, CorporaCreator
-  // subprocess, etc.) without threading a callback through every function
+  // steps uniformly (stream-extract, compress, CorporaCreator subprocess,
+  // etc.) without threading a callback through every function
   // signature. The heartbeat refresh prevents long-running locales from
   // being falsely reclaimed as stale by another pod.
   const lockTimer = token
@@ -282,8 +277,8 @@ export const processLocale = async (job: Job<ProcessLocaleJob>, token?: string) 
       // Skip in local environment to preserve files for debugging
       // (consistent with the success-path runCleanUp behaviour).
       if (getEnvironment() !== 'local') {
-        // Compute the expected tarball path so it is removed even when the
-        // failure happened after local compression (e.g. upload/stats step).
+        // Compute the expected tarball path for cleanup (may not exist since
+        // compression streams directly to GCS, but covers edge cases).
         const tarFilename = generateTarFilename(locale, env.releaseName, env.license)
         const expectedTarPath = path.join(env.releaseTarballsDirPath, tarFilename)
 

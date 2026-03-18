@@ -10,19 +10,18 @@ For usage and CLI reference see [README.md](README.md).
 For each locale the processing pipeline runs these steps:
 
 1. Checks the minority-language rule (< 5 unique speakers -> age/gender redacted)
-2. Downloads MP3 clips (from a previous full release, a delta tarball, or GCS fallback)
+2. Fetches MP3 clips -- streams previous-release and delta tarballs from GCS directly through `tar -xzf -` into the working directory (tarballs never land on disk), then prunes GDPR-deleted clips via a shell `sort`+`comm` pass against the DB query, with individual GCS download as a fallback for missing clips
 3. Measures total audio duration via the `mp3-duration-reporter` binary
 4. Filters problem clips -- clips exceeding 30 s are excluded; clips below 500 ms or between 17-30 s are flagged as warnings but kept
 5. Runs CorporaCreator (Python) to split clips into `train / dev / test` sets
 6. Writes reported and validated sentences TSVs
 7. Generates a datasheet (`README.md`) for the locale
-8. Compresses all locale files into a `.tar.gz` archive
-9. Uploads the archive to GCS
-10. Compresses and uploads a separate metadata-only archive
-11. Calculates and uploads per-locale stats JSON
-12. Cleans up temporary files
-13. Flushes the process log and problem-clip report to Redis; GCS snapshots are uploaded every 10 completed locales and at the end of the run
-14. On the final locale: cleans up all release-scoped Redis keys and drains the BullMQ queue
+8. Compresses all locale files into a `.tar.gz` and streams it directly to GCS (no local tarball)
+9. Streams a metadata-only `.tar.gz` archive directly to GCS
+10. Calculates and uploads per-locale stats JSON
+11. Cleans up temporary files
+12. Flushes the process log and problem-clip report to Redis; GCS snapshots are uploaded every 10 completed locales and at the end of the run
+13. On the final locale: cleans up all release-scoped Redis keys and drains the BullMQ queue
 
 ---
 
@@ -107,8 +106,8 @@ bundler/
 │   │   ├── datasheets.ts     # DATASHEETS_BASE_URL, Modality, modality-key mapping
 │   │   └── redisKeys.ts      # Redis key builders (scripted: namespace)
 │   ├── core/                 # Domain logic
-│   │   ├── clips.ts          # Clip download, TSV streaming, minority-language filter
-│   │   ├── compress.ts       # tar.gz creation and filename helpers
+│   │   ├── clips.ts          # Clip fetch (stream-extract + GDPR prune), TSV streaming, minority-language filter
+│   │   ├── compress.ts       # tar.gz streaming to GCS and filename helpers
 │   │   ├── datasheets.ts     # Datasheet generation from cv-datasheets templates
 │   │   ├── metadata.ts       # Metadata-only archive
 │   │   ├── problemClips.ts   # Problem-clip duration filter + Redis push
@@ -118,7 +117,7 @@ bundler/
 │   │   ├── sentences.ts      # Validated / unvalidated sentence TSVs
 │   │   ├── localeData.ts     # Shared locale data extraction (clips, sentences, buckets, durations)
 │   │   ├── stats.ts          # Per-locale statistics JSON (reads from localeData)
-│   │   ├── upload.ts         # GCS archive upload
+│   │   ├── upload.ts         # GCS archive upload (used by generateStatistics only)
 │   │   ├── utils.ts          # Shared utilities (line counting, unit conversion, duration formatting)
 │   │   └── locales.ts        # Locale + variant queries, accent/variant metadata
 │   ├── infrastructure/
@@ -130,8 +129,8 @@ bundler/
 │   │   ├── mp3DurationReporter.ts  # Rust binary wrapper for MP3 duration
 │   │   ├── queue.ts                # BullMQ queue setup
 │   │   ├── redis.ts                # Shared ioredis client
-│   │   ├── storage.ts              # Google Cloud Storage adapter
-│   │   └── tar.ts                  # tar extraction
+│   │   ├── storage.ts              # Google Cloud Storage adapter (32 MB upload chunks)
+│   │   └── tar.ts                  # tar extraction (file-based and stream-based)
 │   ├── test-helpers/
 │   │   └── tsv.ts              # Shared TSV serialisation helpers for tests
 │   ├── worker/

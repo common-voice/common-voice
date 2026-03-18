@@ -31,7 +31,6 @@ const clearEnv = () => {
   delete process.env.CLIPS_BUCKET_NAME
   delete process.env.DATASETS_BUNDLER_BUCKET_NAME
   delete process.env.STORAGE_LOCAL_DEVELOPMENT_ENDPOINT
-  delete process.env.STREAM_COMPRESS_CLIP_THRESHOLD
   delete process.env.CLIP_DOWNLOAD_CONCURRENCY
 }
 
@@ -72,9 +71,6 @@ describe('config defaults (no env vars)', () => {
     expect(loadConfig().getTmpDir()).toMatch(/bundler$/)
   })
 
-  it('STREAM_COMPRESS_CLIP_THRESHOLD defaults to 2000000', () => {
-    expect(loadConfig().STREAM_COMPRESS_CLIP_THRESHOLD).toBe(2_000_000)
-  })
 })
 
 describe('config with env vars', () => {
@@ -120,11 +116,6 @@ describe('config with env vars', () => {
   it('REDIS_URL overrides default', () => {
     process.env.REDIS_URL = 'redis-cluster'
     expect(loadConfig().getRedisUrl()).toBe('redis-cluster')
-  })
-
-  it('STREAM_COMPRESS_CLIP_THRESHOLD overrides default', () => {
-    process.env.STREAM_COMPRESS_CLIP_THRESHOLD = '500000'
-    expect(loadConfig().STREAM_COMPRESS_CLIP_THRESHOLD).toBe(500_000)
   })
 
   it('getTmpDir returns /cache for non-local env', () => {

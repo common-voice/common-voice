@@ -6,6 +6,13 @@ import { logger } from './logger'
 
 export type Metadata = { size: string; crc32c: string }
 
+// Resumable uploads chunk data and wait for an HTTP ack per chunk.
+// The default (~5 MB) causes ~19,000 round-trips for a 95 GB tarball,
+// limiting throughput to ~5 MB/s regardless of network bandwidth.
+// 32 MB matches gsutil's default and cuts round-trips to ~3,000.
+// For files smaller than chunkSize the library sends a single chunk.
+const UPLOAD_CHUNK_SIZE = 32 * 1024 * 1024 // 32 MB
+
 const storage =
   getEnvironment() === 'local'
     ? new Storage({
@@ -33,7 +40,10 @@ const streamUpload =
           data.on('error', (err: Error) => reject(err))
 
           data
-            .pipe(file.createWriteStream())
+            .pipe(file.createWriteStream({
+              resumable: true,
+              chunkSize: UPLOAD_CHUNK_SIZE,
+            }))
             .on('finish', () => {
               const elapsed = ((Date.now() - uploadStart) / 1000).toFixed(1)
               logger.info('STORAGE', `Uploaded ${shortPath} (${elapsed}s)`)

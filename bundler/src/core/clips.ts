@@ -1,3 +1,4 @@
+import { spawn } from 'node:child_process'
 import * as fs from 'node:fs'
 import { rm as rmAsync } from 'node:fs/promises'
 import * as path from 'node:path'
@@ -9,7 +10,7 @@ import {
   readerTaskEither as RTE,
   taskEither as TE,
 } from 'fp-ts'
-import { constVoid, pipe } from 'fp-ts/lib/function'
+import { pipe } from 'fp-ts/lib/function'
 import { stringify } from 'csv-stringify'
 import { parse } from 'csv-parse'
 
@@ -29,9 +30,8 @@ import {
   MIN_AUDIO_SIZE_BYTES,
   CLIP_DOWNLOAD_CONCURRENCY,
 } from '../config'
-import { rmFilepath } from '../infrastructure/filesystem'
 import { generateTarFilename } from './compress'
-import { extractTar } from '../infrastructure/tar'
+import { streamExtractTar } from '../infrastructure/tar'
 import { logger } from '../infrastructure/logger'
 
 const CLIPS_BUCKET = getClipsBucketName()
@@ -107,9 +107,6 @@ const transformClips = (isMinorityLanguage: boolean) =>
     },
     objectMode: true,
   })
-
-const getPreviousReleaseClipDir = (locale: string, prevReleaseName: string) =>
-  path.join(getTmpDir(), prevReleaseName, locale, 'clips')
 
 const filterMissingClips = (
   locale: string,
@@ -203,91 +200,6 @@ const streamQueryResultToFile = (
       })
 
     await endConnection()
-  }, logError)
-
-/**
- * Copy clips from all available local sources into the working clips
- * directory in a single pass over the DB metadata TSV.
- *
- * Source priority:
- *   1. Previous full-release directory (old clips already on disk)
- *   2. Delta-release directory (new clips from a pre-built delta tarball)
- *
- * - Clips found in neither source are left absent
- * - `fetchAllClipsForLocale` will then download them individually from GCS as a fallback.
- * - Clips already present in the working directory (from a previous partial run) are skipped.
- * - Files moved from the previous-release directory are unlinked immediately to
- *   free disk space as the loop progresses.
- */
-const mergeClipsFromLocalSources = (
-  tmpClipsFilepath: string,
-  locale: string,
-  releaseDirPath: string,
-  previousReleaseName?: string,
-  deltaReleaseName?: string,
-) =>
-  TE.tryCatch(async () => {
-    const prevClipsDir = previousReleaseName
-      ? getPreviousReleaseClipDir(locale, previousReleaseName)
-      : null
-    const deltaClipsDir = deltaReleaseName
-      ? path.join(getTmpDir(), deltaReleaseName, locale, 'clips')
-      : null
-
-    let fromPrev = 0
-    let fromDelta = 0
-    let missing = 0
-
-    // Stream through the TSV row-by-row -- never buffer the full clip list.
-    // Each row is processed and discarded immediately, using O(1) memory.
-    const parser = parse({ columns: true, delimiter: '\t' })
-    parser.on('data', (clip: ClipRow) => {
-      const filename = createClipFilename(clip.locale, clip.id)
-      const destPath = path.join(releaseDirPath, clip.locale, 'clips', filename)
-
-      if (fs.existsSync(destPath)) return // already present from a previous run
-
-      // 1. Previous full release (old clips)
-      if (prevClipsDir) {
-        const src = path.join(prevClipsDir, filename)
-        if (fs.existsSync(src)) {
-          fs.copyFileSync(src, destPath)
-          fs.unlinkSync(src) // free disk space as we go
-          fromPrev++
-          return
-        }
-      }
-
-      // 2. Delta release (new clips)
-      if (deltaClipsDir) {
-        const src = path.join(deltaClipsDir, filename)
-        if (fs.existsSync(src)) {
-          fs.copyFileSync(src, destPath)
-          fromDelta++
-          return
-        }
-      }
-
-      // Not found locally -- fetchAllClipsForLocale will download from GCS.
-      missing++
-    })
-    await pipeline(fs.createReadStream(tmpClipsFilepath), parser)
-
-    // Remove the consumed delta locale directory to free disk space.
-    // Only the locale subdir is deleted (not the entire deltaReleaseName dir)
-    // so concurrent jobs for other locales are not affected if worker
-    // concurrency is ever increased above 1.
-    if (deltaClipsDir && fs.existsSync(deltaClipsDir)) {
-      await rmAsync(path.join(getTmpDir(), deltaReleaseName!, locale), {
-        recursive: true,
-        force: true,
-      })
-    }
-
-    logger.info(
-      'CLIPS-MERGE',
-      `[${locale}] ${fromPrev} from prev release, ${fromDelta} from delta, ${missing} not found locally`,
-    )
   }, logError)
 
 const fetchAllClipsForLocale = (
@@ -452,116 +364,148 @@ const createClipsTsv = (
   }, logError)
 }
 
-const downloadPreviousRelease = (
-  locale: string,
-  prevReleaseName: string,
-  license?: string,
-) => {
-  const tarFilename = generateTarFilename(locale, prevReleaseName, license)
-  const storagePath = `${prevReleaseName}/${tarFilename}`
-
-  const downloadRelease = TE.tryCatch(async () => {
-    logger.info('PREV-DL', `[${locale}] Downloading ${storagePath}`)
-    const writeStream = fs.createWriteStream(
-      path.join(getTmpDir(), tarFilename),
-    )
-    await pipeline(
-      streamDownloadFileFromBucket(getDatasetBundlerBucketName())(storagePath),
-      writeStream,
-    )
-  }, logError)
-
-  return pipe(
-    TE.Do,
-    TE.bind('doesPrevReleaseExist', () =>
-      doesFileExistInBucket(getDatasetBundlerBucketName())(storagePath),
-    ),
-    TE.chainFirst(({ doesPrevReleaseExist }) => {
-      if (!doesPrevReleaseExist) {
-        logger.info(
-          'PREV-DL',
-          `[${locale}] ${storagePath} not found in GCS`,
-        )
-        return TE.right(constVoid())
-      }
-      return downloadRelease
-    }),
-    TE.as(constVoid()),
-  )
-}
-
-const extractClipsFromPreviousRelease = (
-  locale: string,
-  prevReleaseName: string,
-  license?: string,
-) => {
-  const filename = generateTarFilename(locale, prevReleaseName, license)
-  const filepath = path.join(getTmpDir(), filename)
-
-  if (!fs.existsSync(filepath)) {
-    logger.debug(
-      'PREV-EXTRACT',
-      `${filepath} doesn't exist, skipping extraction`,
-    )
-    return TE.right(constVoid())
-  }
-
-  return pipe(
-    extractTar(filepath, getTmpDir()),
-    TE.chain(() => TE.fromIO(rmFilepath(filepath))),
-  )
-}
+// -- Streamed download + extract ----------------------------------------------
 
 /**
- * Downloads a delta tarball from GCS and extracts it into the tmp directory.
- * Returns true if the delta was found and extracted, false if it didn't exist.
- * A missing delta is not an error --the caller falls back to individual GCS
- * clip downloads via fetchAllClipsForLocale.
+ * Streams a release tarball from GCS directly through `tar -xzf -` into the
+ * working directory. The .tar.gz file never lands on disk.
+ *
+ * --strip-components=1 removes the leading release-name directory from each
+ * entry (e.g. cv-corpus-24.0/ps/clips/... -> ps/clips/...) so clips land in
+ * the correct working path regardless of which release the tarball came from.
+ *
+ * Returns true if the tarball was found and extracted, false if it did not
+ * exist in GCS.
  */
-const downloadAndExtractDeltaRelease = (
+const streamDownloadAndExtractRelease = (
   locale: string,
-  effectiveDeltaReleaseName: string,
+  releaseName: string,
+  releaseDirPath: string,
+  label: string,
   license?: string,
 ): TE.TaskEither<Error, boolean> => {
-  const tarFilename = generateTarFilename(
-    locale,
-    effectiveDeltaReleaseName,
-    license,
-  )
-  const storagePath = `${effectiveDeltaReleaseName}/${tarFilename}`
-  const localTarPath = path.join(getTmpDir(), tarFilename)
+  const tarFilename = generateTarFilename(locale, releaseName, license)
+  const storagePath = `${releaseName}/${tarFilename}`
 
   return pipe(
     doesFileExistInBucket(getDatasetBundlerBucketName())(storagePath),
     TE.chain(exists => {
       if (!exists) {
-        logger.info(
-          'DELTA-DL',
-          `[${locale}] ${storagePath} not found`,
-        )
+        logger.info(label, `[${locale}] ${storagePath} not found in GCS`)
         return TE.right(false)
       }
-      logger.info('DELTA-DL', `[${locale}] Downloading ${storagePath} ...`)
+      logger.info(
+        label,
+        `[${locale}] Stream-extracting ${storagePath} -> ${releaseDirPath}`,
+      )
       return pipe(
-        TE.tryCatch(async () => {
-          const writeStream = fs.createWriteStream(localTarPath)
-          await pipeline(
-            streamDownloadFileFromBucket(getDatasetBundlerBucketName())(
-              storagePath,
-            ),
-            writeStream,
-          )
-        }, logError),
-        TE.chain(() => extractTar(localTarPath, getTmpDir())),
-        TE.chain(() => TE.fromIO(rmFilepath(localTarPath))),
+        streamExtractTar(
+          streamDownloadFileFromBucket(getDatasetBundlerBucketName())(
+            storagePath,
+          ),
+          releaseDirPath,
+          1,
+          ['*/clips/*'], // Only extract audio -- skip TSVs/text (can be 500+ MB)
+        ),
         TE.map(() => {
-          logger.info('DELTA-EXTRACT', `[${locale}] Delta tarball extracted`)
+          logger.info(label, `[${locale}] Stream-extract complete`)
           return true
         }),
       )
     }),
   )
 }
+
+// -- prune (GDPR and other deletions) -------------------------------------
+
+/**
+ * Shell script that finds and deletes clips on disk that are not referenced
+ * by the current DB query. Handles (GDPR-)deleted clips that still exist in
+ * previous/delta release tarballs.
+ *
+ * Uses `sort` + `comm` for O(1) Node.js memory regardless of clip count.
+ *
+ * Arguments: $1 = clips directory, $2 = DB query TSV path, $3 = locale.
+ * Outputs: the number of orphan clips deleted (integer on stdout).
+ */
+const PRUNE_SCRIPT = `set -euo pipefail
+CLIPS_DIR="$1"
+TSV_FILE="$2"
+LOCALE="$3"
+
+VALID=$(mktemp)
+ONDISK=$(mktemp)
+ORPHANS=$(mktemp)
+trap 'rm -f "$VALID" "$ONDISK" "$ORPHANS"' EXIT
+
+# Build sorted list of valid clip filenames from the DB query TSV.
+# Column 1 = clip ID; locale is constant for the entire file.
+tail -n+2 "$TSV_FILE" \\
+  | awk -F'\\t' -v loc="$LOCALE" '{print "common_voice_" loc "_" $1 ".mp3"}' \\
+  | LC_ALL=C sort > "$VALID"
+
+# Build sorted list of clip filenames currently on disk.
+ls -1U "$CLIPS_DIR" 2>/dev/null | LC_ALL=C sort > "$ONDISK"
+
+# Orphans = on disk but not in DB (e.g. GDPR-deleted clips).
+comm -23 "$ONDISK" "$VALID" > "$ORPHANS"
+
+COUNT=$(wc -l < "$ORPHANS" | tr -d ' ')
+echo "$COUNT"
+
+if [ "$COUNT" -gt 0 ]; then
+  (cd "$CLIPS_DIR" && xargs rm -f < "$ORPHANS")
+fi
+`
+
+/**
+ * Removes clips from the working directory that are not referenced by the
+ * current DB query TSV. Returns the number of orphan clips deleted.
+ */
+export const pruneOrphanClips = (
+  tmpClipsFilepath: string,
+  locale: string,
+  clipsDirPath: string,
+): TE.TaskEither<Error, number> =>
+  TE.tryCatch(async () => {
+    if (!fs.existsSync(clipsDirPath)) return 0
+
+    const count = await new Promise<number>((resolve, reject) => {
+      const proc = spawn('bash', [
+        '-c',
+        PRUNE_SCRIPT,
+        '--',
+        clipsDirPath,
+        tmpClipsFilepath,
+        locale,
+      ])
+
+      let stdout = ''
+      proc.stdout.on('data', (data: Buffer) => {
+        stdout += String(data)
+      })
+
+      const stderrChunks: string[] = []
+      proc.stderr.on('data', (data: Buffer) =>
+        stderrChunks.push(String(data)),
+      )
+
+      proc.on('close', code => {
+        if (code !== 0) {
+          reject(
+            new Error(
+              `prune script exited with code ${code}: ${stderrChunks.join('')}`,
+            ),
+          )
+        } else {
+          resolve(parseInt(stdout.trim(), 10) || 0)
+        }
+      })
+      proc.on('error', reason => reject(reason))
+    })
+
+    return count
+  }, logError)
 
 export const fetchAllClipsPipeline = (
   locale: string,
@@ -578,20 +522,37 @@ export const fetchAllClipsPipeline = (
   TE.tryCatch(async () => {
     const clipsTmpPath = getTmpClipsPath(locale)
 
-    // Phase 1: Download prev + delta + DB query in PARALLEL.
-    // These are independent I/O operations (GCS downloads + MySQL query).
+    // Phase 1: Wipe clips dir -- clean slate before extraction.
+    await rmAsync(clipsDirPath, { recursive: true, force: true })
+    fs.mkdirSync(clipsDirPath, { recursive: true })
+
+    // Phase 2: Stream-extract prev + delta directly into the working directory
+    // AND run the DB query, all in PARALLEL.
+    //
+    // Tars are streamed through `tar -xzf -` -- the .tar.gz files never land
+    // on disk. --strip-components=1 remaps the old release prefix to the
+    // current working path. Prev and delta contain non-overlapping clips
+    // (prev = up to last release date, delta = since then) so parallel
+    // extraction into the same directory is safe.
     const prevTask = previousReleaseName
-      ? pipe(
-          downloadPreviousRelease(locale, previousReleaseName, license),
-          TE.chain(() =>
-            extractClipsFromPreviousRelease(locale, previousReleaseName, license),
-          ),
+      ? streamDownloadAndExtractRelease(
+          locale,
+          previousReleaseName,
+          releaseDirPath,
+          'PREV-STREAM',
+          license,
         )
-      : TE.right(constVoid() as void)
+      : TE.right(false as boolean)
 
     const deltaTask = deltaReleaseName
-      ? downloadAndExtractDeltaRelease(locale, deltaReleaseName, license)
-      : TE.right(false)
+      ? streamDownloadAndExtractRelease(
+          locale,
+          deltaReleaseName,
+          releaseDirPath,
+          'DELTA-STREAM',
+          license,
+        )
+      : TE.right(false as boolean)
 
     const queryTask = streamQueryResultToFile(
       clipsTmpPath,
@@ -609,22 +570,33 @@ export const fetchAllClipsPipeline = (
 
     if (E.isLeft(prevResult)) throw prevResult.left
     if (E.isLeft(queryResult)) throw queryResult.left
-    // Delta failure is non-fatal -- fall back to GCS individual downloads
-    const hasDelta = E.isRight(deltaResult) && deltaResult.right === true
+    // Delta extraction failure is fatal: since prev and delta extract directly
+    // into the working directory, a mid-stream failure leaves truncated MP3s
+    // that downstream steps would treat as valid cached clips. The job will
+    // retry from scratch (Phase 1 wipes the clips dir).
+    // Note: delta tar NOT FOUND in GCS returns Right(false), which is fine --
+    // only extraction errors produce Left.
+    if (E.isLeft(deltaResult)) throw deltaResult.left
+    const hasDelta = deltaResult.right === true
+    const hasPrev = E.isRight(prevResult) && prevResult.right === true
 
-    // Phase 2: Wipe clips dir so only clips from current DB query end up in tarball.
-    await rmAsync(clipsDirPath, { recursive: true, force: true })
-    fs.mkdirSync(clipsDirPath, { recursive: true })
-
-    // Phase 3: Merge all local clip sources in one pass (prev + delta).
-    const mergeResult = await mergeClipsFromLocalSources(
-      clipsTmpPath,
-      locale,
-      releaseDirPath,
-      previousReleaseName,
-      deltaReleaseName,
-    )()
-    if (E.isLeft(mergeResult)) throw mergeResult.left
+    // Phase 3: GDPR prune -- delete clips on disk that are not in the current
+    // DB query (e.g. clips deleted after the previous release was built).
+    // Uses shell sort+comm for O(1) Node.js memory.
+    if (hasPrev || hasDelta) {
+      const pruneResult = await pruneOrphanClips(
+        clipsTmpPath,
+        locale,
+        clipsDirPath,
+      )()
+      if (E.isLeft(pruneResult)) throw pruneResult.left
+      if (pruneResult.right > 0) {
+        logger.info(
+          'CLIPS-PRUNE',
+          `[${locale}] Removed ${pruneResult.right} orphan clips (GDPR / no longer in DB)`,
+        )
+      }
+    }
 
     // Phase 4: GCS fallback -- only when delta is missing.
     // When both prev and delta exist, every valid clip is already local.
