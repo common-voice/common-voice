@@ -159,7 +159,7 @@ See `bundler/src/core/compress.ts` and `bundler/src/worker/processor.ts`.
 | Modality | Path                                                                       |
 | -------- | -------------------------------------------------------------------------- |
 | SCS      | `{release}/datasheets/cv-datasheet-{ver}-{locale}[-{sanitizedLicense}].md` |
-| SPS      | `{release}/datasheets/sps-datasheet-{ver}-{locale}.md`                     |
+| SPS      | `{release}/datasheets/{release}-datasheet-{locale}.md`                     |
 
 ### License sanitization
 

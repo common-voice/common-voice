@@ -91,17 +91,33 @@ class TestIsRetryable:
         """TransientError is retryable."""
         assert _is_retryable(TransientError("server error")) is True
 
-    def test_connection_error(self) -> None:
-        """ConnectionError is retryable."""
-        assert _is_retryable(ConnectionError("refused")) is True
+    def test_raw_connection_error_not_retryable(self) -> None:
+        """Raw ConnectionError is not retryable -- must go through _wrap_exception first."""
+        assert _is_retryable(ConnectionError("refused")) is False
 
-    def test_timeout_error(self) -> None:
-        """TimeoutError is retryable."""
-        assert _is_retryable(TimeoutError("timed out")) is True
+    def test_raw_timeout_error_not_retryable(self) -> None:
+        """Raw TimeoutError is not retryable -- must go through _wrap_exception first."""
+        assert _is_retryable(TimeoutError("timed out")) is False
 
-    def test_os_error(self) -> None:
-        """OSError is retryable."""
-        assert _is_retryable(OSError("network unreachable")) is True
+    def test_raw_os_error_not_retryable(self) -> None:
+        """Raw OSError is not retryable (PermissionError inherits from OSError)."""
+        assert _is_retryable(OSError("network unreachable")) is False
+
+    def test_wrapped_connection_error_is_retryable(self) -> None:
+        """ConnectionError wrapped via _wrap_exception becomes retryable TransientError."""
+        wrapped = _wrap_exception(ConnectionError("refused"))
+        assert isinstance(wrapped, TransientError)
+        assert _is_retryable(wrapped) is True
+
+    def test_wrapped_timeout_error_is_retryable(self) -> None:
+        """TimeoutError wrapped via _wrap_exception becomes retryable TransientError."""
+        wrapped = _wrap_exception(TimeoutError("timed out"))
+        assert isinstance(wrapped, TransientError)
+        assert _is_retryable(wrapped) is True
+
+    def test_permission_error_not_retryable(self) -> None:
+        """PermissionError (403) is not retryable even though it inherits from OSError."""
+        assert _is_retryable(PermissionError("Access denied")) is False
 
     def test_value_error_not_retryable(self) -> None:
         """ValueError is not retryable."""

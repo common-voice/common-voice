@@ -39,7 +39,7 @@ def release_dir(tmp_path):
     (rel_dir / f"{release}-mt.tar.gz").write_bytes(b"x" * 50)
 
     # Create a datasheet
-    (ds_dir / "sps-datasheet-3.0-ga-IE.md").write_text("# Datasheet for ga-IE", encoding="utf-8")
+    (ds_dir / f"{release}-datasheet-ga-IE.md").write_text("# Datasheet for ga-IE", encoding="utf-8")
 
     return tmp_path
 

@@ -206,9 +206,9 @@ mdc-upload --retry-failed ./upload-state-cv-corpus-25.0-2026-03-09-20260313T1430
                |   +-- sps-corpus-3.0-2026-03-09-en.tar.gz
                |   +-- sps-corpus-3.0-2026-03-09-mt.tar.gz
                |   +-- datasheets/
-               |       +-- sps-datasheet-3.0-ga-IE.md             <-- datasheet (per locale)
-               |       +-- sps-datasheet-3.0-en.md
-               |       +-- sps-datasheet-3.0-mt.md
+               |       +-- sps-corpus-3.0-2026-03-09-datasheet-ga-IE.md  <-- datasheet (per locale)
+               |       +-- sps-corpus-3.0-2026-03-09-datasheet-en.md
+               |       +-- sps-corpus-3.0-2026-03-09-datasheet-mt.md
                |
                +-- cv-corpus-25.0-2026-03-09/           <-- -r cv-corpus-25.0-2026-03-09
                |   +-- cv-corpus-25.0-2026-03-09-en.tar.gz
@@ -238,7 +238,7 @@ mdc-upload -r sps-corpus-3.0-2026-03-09 --base-dir /mnt/cv-datasets -ut dev -l g
 -l          =  ga-IE
 
 Tarball  :  /mnt/cv-datasets/sps-corpus-3.0-2026-03-09/sps-corpus-3.0-2026-03-09-ga-IE.tar.gz
-Datasheet:  /mnt/cv-datasets/sps-corpus-3.0-2026-03-09/datasheets/sps-datasheet-3.0-ga-IE.md
+Datasheet:  /mnt/cv-datasets/sps-corpus-3.0-2026-03-09/datasheets/sps-corpus-3.0-2026-03-09-datasheet-ga-IE.md
 ```
 
 When `--locales` is omitted, the tool checks all known locales (from the CV API) against the release directory and includes only those with existing tarballs.

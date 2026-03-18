@@ -57,8 +57,9 @@ class TestUploaderConfigFromCli:
         )
         assert config.locales is None
 
-    def test_default_base_dir(self) -> None:
-        """Default base_dir is /gcs when not specified."""
+    def test_default_base_dir(self, monkeypatch) -> None:
+        """Default base_dir is /gcs when not specified and no bucket env set."""
+        monkeypatch.delenv("DATASETS_BUNDLER_BUCKET_NAME", raising=False)
         config = UploaderConfig.from_cli(
             release="cv-corpus-25.0-2026-03-09",
             upload_target="dev",

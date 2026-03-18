@@ -173,6 +173,7 @@ def _resolve_file_and_datasheet(
 
     if is_gcs_uri(base_dir):
         # GCS mode: tarball_path is a blob path
+        tmp_dir: str | None = None
         try:
             # File must persist for the upload -- caller handles cleanup.
             from google.cloud import (  # type: ignore[import-untyped]  # pylint: disable=import-outside-toplevel
@@ -196,6 +197,14 @@ def _resolve_file_and_datasheet(
             logger.info("GCS", "[%s] Downloaded %s", job.locale, blob_path)
             tarball_local = tmp_path
         except Exception as exc:  # pylint: disable=broad-exception-caught
+            # Clean up temp dir/file on download failure to avoid leaking disk space
+            if tmp_dir:
+                try:
+                    for f in os.listdir(tmp_dir):
+                        os.unlink(os.path.join(tmp_dir, f))
+                    os.rmdir(tmp_dir)
+                except OSError:
+                    pass
             logger.error("GCS", "[%s] Download failed: %s", job.locale, exc)
             return None, "", f"GCS download failed: {exc}"
 
