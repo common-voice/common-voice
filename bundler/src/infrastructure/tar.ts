@@ -62,6 +62,7 @@ const runStreamExtractTarPromise = (
     const fail = (err: Error) => {
       if (settled) return
       settled = true
+      inputStream.destroy()
       proc.kill()
       reject(err)
     }
