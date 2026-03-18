@@ -607,6 +607,7 @@ export const processVariants = async (job: Job<ProcessLocaleJob>) => {
         'variants',
         undefined,
         variant.clipCount,
+        effectiveReleaseName, // GCS directory: ${baseReleaseName}-variants
       )()
 
       if (E.isLeft(compressResult)) {

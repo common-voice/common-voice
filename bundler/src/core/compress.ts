@@ -185,12 +185,13 @@ export const compressPipeline = (
   releaseType: ReleaseType,
   license?: string,
   clipCount?: number,
+  gcsDir?: string,
 ): TE.TaskEither<Error, CompressResult> => {
   const effectiveClipCount = clipCount ?? 0
   const gzipLevel = decideCompressionLevel(effectiveClipCount)
 
   const tarballFilename = generateTarFilename(locale, releaseName, license)
-  const gcsUploadPath = `${releaseName}/${tarballFilename}`
+  const gcsUploadPath = `${gcsDir ?? releaseName}/${tarballFilename}`
 
   logger.info(
     'COMPRESS',
