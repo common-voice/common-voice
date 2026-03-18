@@ -237,8 +237,8 @@ export const processLocale = async (job: Job<ProcessLocaleJob>, token?: string) 
   }
 
   // Timer-based lock extension + processing heartbeat: covers all pipeline
-  // steps uniformly (download, merge, compress, upload, CorporaCreator
-  // subprocess, etc.) without threading a callback through every function
+  // steps uniformly (stream-extract, compress, CorporaCreator subprocess,
+  // etc.) without threading a callback through every function
   // signature. The heartbeat refresh prevents long-running locales from
   // being falsely reclaimed as stale by another pod.
   const lockTimer = token
@@ -277,8 +277,8 @@ export const processLocale = async (job: Job<ProcessLocaleJob>, token?: string) 
       // Skip in local environment to preserve files for debugging
       // (consistent with the success-path runCleanUp behaviour).
       if (getEnvironment() !== 'local') {
-        // Compute the expected tarball path so it is removed even when the
-        // failure happened after local compression (e.g. upload/stats step).
+        // Compute the expected tarball path for cleanup (may not exist since
+        // compression streams directly to GCS, but covers edge cases).
         const tarFilename = generateTarFilename(locale, env.releaseName, env.license)
         const expectedTarPath = path.join(env.releaseTarballsDirPath, tarFilename)
 
