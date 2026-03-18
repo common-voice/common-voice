@@ -187,8 +187,10 @@ def _resolve_file_and_datasheet(
             if not blob.exists():
                 return None, "", f"GCS blob not found: gs://{bucket_name}/{blob_path}"
 
-            tmp_fd, tmp_path = tempfile.mkstemp(suffix=".tar.gz")
-            os.close(tmp_fd)
+            # Use the original tarball filename so MDC logs/stores a meaningful name
+            original_name = os.path.basename(job.tarball_path)
+            tmp_dir = tempfile.mkdtemp()
+            tmp_path = os.path.join(tmp_dir, original_name)
             blob.download_to_filename(tmp_path)
             logger.info("GCS", "[%s] Downloaded %s", job.locale, blob_path)
             tarball_local = tmp_path
@@ -336,7 +338,6 @@ def process_locale(
             duration_seconds=time.monotonic() - start,
             error=str(exc),
             orphaned_draft=True,
-            attempts=3,
         )
     except Exception as exc:  # pylint: disable=broad-exception-caught
         return UploadResult(
@@ -345,12 +346,17 @@ def process_locale(
             size_bytes=job.file_size,
             duration_seconds=time.monotonic() - start,
             error=str(exc),
-            attempts=3,
         )
     finally:
-        # Clean up temp file from GCS download
+        # Clean up temp file and its temp directory from GCS download
         if tmp_file and os.path.exists(tmp_file):
+            tmp_dir = os.path.dirname(tmp_file)
             os.unlink(tmp_file)
+            if tmp_dir and tmp_dir != os.getcwd():
+                try:
+                    os.rmdir(tmp_dir)
+                except OSError:
+                    pass
 
 
 def print_summary(state: BatchState) -> None:

@@ -48,10 +48,17 @@ class TransientError(Exception):
 
 
 def _is_retryable(exc: BaseException) -> bool:
-    """Return True for errors worth retrying."""
+    """Return True for errors worth retrying.
+
+    Only our custom wrapper types are retryable. All exceptions in retry-decorated
+    methods go through _wrap_exception first, which wraps transient/network errors
+    as TransientError. Raw SDK exceptions (e.g. requests.HTTPError for 401/403)
+    inherit from OSError in Python 3, so we must NOT use isinstance(exc, OSError)
+    here -- that would retry auth failures and create orphaned drafts.
+    """
     if isinstance(exc, RateLimitError):
         return exc.retry_after <= MAX_RETRY_AFTER_SECONDS
-    return isinstance(exc, (TransientError, ConnectionError, TimeoutError, OSError))
+    return isinstance(exc, TransientError)
 
 
 def _wait_for_retry(retry_state: RetryCallState) -> float:
@@ -135,12 +142,6 @@ class MDCClient:
             agreeToSubmit=True,
         )
 
-    @retry(
-        retry=retry_if_exception(_is_retryable),
-        wait=_wait_for_retry,
-        stop=stop_after_attempt(3),
-        reraise=True,
-    )
     def create_and_upload(
         self,
         file_path: str,
@@ -149,20 +150,20 @@ class MDCClient:
         """Single-call submission: create + upload + metadata + agree + submit.
 
         Uses the SDK's create_submission_with_upload which handles the full flow
-        including agreeToSubmit via /api/submissions/:id.
+        in one call. NO outer retry -- retrying creates orphaned drafts because
+        each attempt starts a new draft. The SDK already handles upload resumption
+        via its own state file.
+
         Returns (submission_id, success).
         """
-        try:
-            response: dict[str, Any] = create_submission_with_upload(
-                file_path=file_path,
-                submission=submission,
-            )
-            submission_id = response.get("submission", {}).get("id", "unknown")
-            status = response.get("submission", {}).get("status", "unknown")
-            logger.info("MDC", "Submitted %s -- status: %s", submission_id, status)
-            return submission_id, True
-        except Exception as exc:
-            raise _wrap_exception(exc) from exc
+        response: dict[str, Any] = create_submission_with_upload(
+            file_path=file_path,
+            submission=submission,
+        )
+        submission_id = response.get("submission", {}).get("id", "unknown")
+        status = response.get("submission", {}).get("status", "unknown")
+        logger.info("MDC", "Submitted %s -- status: %s", submission_id, status)
+        return submission_id, True
 
     @retry(
         retry=retry_if_exception(_is_retryable),
@@ -172,7 +173,10 @@ class MDCClient:
     )
     def upload_new_version(self, file_path: str, submission_id: str) -> bool:
         """Upload a new file version to an existing dataset."""
-        upload_dataset_file(file_path=file_path, submission_id=submission_id)
+        try:
+            upload_dataset_file(file_path=file_path, submission_id=submission_id)
+        except Exception as exc:
+            raise _wrap_exception(exc) from exc
         logger.info("MDC", "New version uploaded to %s", submission_id)
         return True
 
@@ -188,6 +192,7 @@ class OrphanedDraftError(Exception):
 def _wrap_exception(exc: Exception) -> Exception:
     """Wrap SDK exceptions into retryable categories."""
     exc_str = str(exc).lower()
+    logger.error("MDC", "SDK exception [%s]: %s", type(exc).__name__, exc)
     # Check for 429
     if "429" in exc_str or "too many requests" in exc_str or "rate limit" in exc_str:
         # Try to extract Retry-After value
@@ -196,8 +201,15 @@ def _wrap_exception(exc: Exception) -> Exception:
         if match:
             retry_after = int(match.group(1))
         return RateLimitError(retry_after, str(exc))
-    # Check for transient server errors
+    # Check for transient server errors (by message content)
     if any(code in exc_str for code in ("500", "502", "503", "504", "timeout", "connection")):
         return TransientError(str(exc))
-    # Non-retryable
+    # Check by exception type for network-level errors whose message may not
+    # contain the keywords above (e.g. bare ConnectionError, TimeoutError).
+    # Note: Python's builtin ConnectionError/TimeoutError are OSError subclasses,
+    # but we must NOT catch OSError broadly -- requests.HTTPError also inherits
+    # from OSError and that would make auth errors (401/403) retryable.
+    if isinstance(exc, (ConnectionError, TimeoutError)):
+        return TransientError(str(exc))
+    # Non-retryable (includes 401/403 auth errors, 404, etc.)
     return exc
