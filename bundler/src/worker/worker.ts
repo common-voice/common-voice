@@ -64,9 +64,9 @@ export const createWorker: IO.IO<void> = () => {
             // Obliterate entire queue (active + waiting + everything).
             await cleanStaleJobs(true)
 
-            // Wipe local cache dir to reclaim disk space from prior runs.
-            // Job failures do not clean up working files, so stale data can
-            // accumulate and exhaust the PVC on subsequent --force runs.
+            // Wipe cache dir -- pod crashes/OOMKills leave stale data.
+            // Full --force only: selective (-l) would destroy other locales'
+            // in-progress files. No signal handler: OOMKill is untrappable.
             cleanCacheDir()
           } else if (isSelectiveForce) {
             // -- Selective force (-l + --force): only reset targeted locales --
