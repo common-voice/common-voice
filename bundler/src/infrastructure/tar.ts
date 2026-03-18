@@ -47,13 +47,19 @@ const runStreamExtractTarPromise = (
   inputStream: Readable,
   outDir: string,
   stripComponents: number,
+  includePatterns: string[],
 ) =>
   new Promise<void>((resolve, reject) => {
-    const proc = spawn('tar', [
+    const args = [
       '-xzf', '-',
       '-C', outDir,
       `--strip-components=${stripComponents}`,
-    ])
+    ]
+    if (includePatterns.length > 0) {
+      args.push('--wildcards')
+      args.push(...includePatterns)
+    }
+    const proc = spawn('tar', args)
 
     const stderrChunks: string[] = []
     proc.stderr.on('data', (data: Buffer) => stderrChunks.push(String(data)))
@@ -94,12 +100,26 @@ const runStreamExtractTarPromise = (
     })
   })
 
+/**
+ * Streams a .tar.gz from a Readable directly through `tar -xzf -`.
+ *
+ * @param includePatterns - optional glob patterns passed to `tar --wildcards`
+ *   to restrict extraction (e.g. `['*\/clips\/*']` to skip TSV/text files).
+ *   Patterns match BEFORE --strip-components is applied.
+ */
 export const streamExtractTar = (
   inputStream: Readable,
   outDir: string,
   stripComponents = 1,
+  includePatterns: string[] = [],
 ) =>
   TE.tryCatch(
-    () => runStreamExtractTarPromise(inputStream, outDir, stripComponents),
+    () =>
+      runStreamExtractTarPromise(
+        inputStream,
+        outDir,
+        stripComponents,
+        includePatterns,
+      ),
     reason => Error(String(reason)),
   )

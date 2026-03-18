@@ -405,6 +405,7 @@ const streamDownloadAndExtractRelease = (
           ),
           releaseDirPath,
           1,
+          ['*/clips/*'], // Only extract audio -- skip TSVs/text (can be 500+ MB)
         ),
         TE.map(() => {
           logger.info(label, `[${locale}] Stream-extract complete`)
