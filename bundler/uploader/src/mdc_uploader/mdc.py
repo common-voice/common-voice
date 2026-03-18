@@ -131,7 +131,7 @@ class MDCClient:
             forbiddenUsage=FORBIDDEN_USAGE,
             intendedUsage=INTENDED_USAGE,
             restrictions=RESTRICTIONS,
-            other=datasheet_text,
+            other=datasheet_text or "No datasheet available for this release.",
             pointOfContactFullName=POINT_OF_CONTACT_NAME,
             pointOfContactEmail=POINT_OF_CONTACT_EMAIL,
             agreeToSubmit=True,

@@ -104,12 +104,13 @@ def datasheet_path(
     Mirrors bundler/src/core/datasheets.ts (lines 733-739).
     """
     prefix = release_spec.datasheet_prefix
-    ver = release_spec.version
+    # Must match bundler's releaseVersionTag: "25.0-2026-03-09" (version + date)
+    version_tag = f"{release_spec.version}-{release_spec.date}"
     if license_name:
         sanitized = sanitize_license_name(license_name)
-        filename = f"{prefix}-{ver}-{locale}-{sanitized}.md"
+        filename = f"{prefix}-{version_tag}-{locale}-{sanitized}.md"
     else:
-        filename = f"{prefix}-{ver}-{locale}.md"
+        filename = f"{prefix}-{version_tag}-{locale}.md"
     return os.path.join(base_dir, release_spec.release_name, "datasheets", filename)
 
 
