@@ -179,7 +179,7 @@ class TestDatasheetPath:
         """SPS datasheet path uses sps-datasheet prefix."""
         spec = parse_release_name(REL_SPS)
         result = datasheet_path("/gcs", spec, "ga-IE")
-        expected = f"/gcs/{REL_SPS}/datasheets/sps-datasheet-3.0-2026-03-09-ga-IE.md"
+        expected = f"/gcs/{REL_SPS}/datasheets/{REL_SPS}-datasheet-ga-IE.md"
         assert result == expected
 
 

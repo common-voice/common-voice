@@ -101,16 +101,25 @@ def datasheet_path(
 ) -> str:
     """Build the full filesystem path for a locale datasheet.
 
-    Mirrors bundler/src/core/datasheets.ts (lines 733-739).
+    SCS bundler: cv-datasheet-{ver}-{date}-{locale}.md
+    SPS bundler: {releaseName}-datasheet-{locale}.md
     """
-    prefix = release_spec.datasheet_prefix
-    # Must match bundler's releaseVersionTag: "25.0-2026-03-09" (version + date)
-    version_tag = f"{release_spec.version}-{release_spec.date}"
-    if license_name:
-        sanitized = sanitize_license_name(license_name)
-        filename = f"{prefix}-{version_tag}-{locale}-{sanitized}.md"
+    if release_spec.modality == Modality.SPS:
+        # SPS pattern: sps-corpus-3.0-2026-03-09-datasheet-{locale}.md
+        if license_name:
+            sanitized = sanitize_license_name(license_name)
+            filename = f"{release_spec.release_name}-datasheet-{locale}-{sanitized}.md"
+        else:
+            filename = f"{release_spec.release_name}-datasheet-{locale}.md"
     else:
-        filename = f"{prefix}-{version_tag}-{locale}.md"
+        # SCS pattern: cv-datasheet-{ver}-{date}-{locale}.md
+        prefix = release_spec.datasheet_prefix
+        version_tag = f"{release_spec.version}-{release_spec.date}"
+        if license_name:
+            sanitized = sanitize_license_name(license_name)
+            filename = f"{prefix}-{version_tag}-{locale}-{sanitized}.md"
+        else:
+            filename = f"{prefix}-{version_tag}-{locale}.md"
     return os.path.join(base_dir, release_spec.release_name, "datasheets", filename)
 
 
