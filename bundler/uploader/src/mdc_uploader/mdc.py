@@ -213,7 +213,11 @@ class MDCClient:
         try:
             # Step 1: Create draft
             draft = self._create_draft(
-                DatasetSubmission(name=submission.name, longDescription=submission.longDescription)
+                DatasetSubmission(
+                    name=submission.name,
+                    longDescription=submission.longDescription,
+                    agreeToSubmit=True,
+                )
             )
             submission_id = draft["submission"]["id"]
             assert isinstance(submission_id, str), "API returned non-string submission ID"
