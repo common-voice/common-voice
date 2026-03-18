@@ -30,7 +30,6 @@ import { statsPipeline } from '../core/stats'
 import { scanLocaleData } from '../core/localeData'
 import { metadataPipeline } from '../core/metadata'
 import { corporaCreatorPipeline } from '../infrastructure/corporaCreator'
-import { uploadDatasetToPath } from '../core/upload'
 import { runFilterProblemClips, runPushProblemClips } from '../core/problemClips'
 import { cleanUp } from '../core/cleanUp'
 
@@ -174,31 +173,6 @@ export const deriveVariantEnv = (
     startTimestamp: new Date().toISOString(),
   }
 }
-
-// ---------------------------------------------------------------------------
-// uploadToGcsDir -- upload a tarball to a specific GCS directory
-// ---------------------------------------------------------------------------
-
-/**
- * Uploads a tarball to a specific GCS directory. Unlike `uploadDataset` which
- * derives the directory from the tarball's releaseName, this allows uploading
- * to a different directory -- e.g. uploading a tarball named with the base
- * releaseName into the `${releaseName}-variants/` directory.
- */
-const uploadToGcsDir = (
-  tarFilepath: string,
-  gcsDir: string,
-): TE.TaskEither<Error, string> =>
-  pipe(
-    TE.Do,
-    TE.let('readStream', () => fs.createReadStream(tarFilepath)),
-    TE.let('filename', () => path.basename(tarFilepath)),
-    TE.let('uploadPath', ({ filename }) => `${gcsDir}/${filename}`),
-    TE.chainFirst(({ readStream, uploadPath }) =>
-      uploadDatasetToPath(uploadPath)(readStream),
-    ),
-    TE.map(({ uploadPath }) => uploadPath),
-  )
 
 // ---------------------------------------------------------------------------
 // rewriteLocaleColumn -- rewrite locale column in CC output TSV files
@@ -643,15 +617,7 @@ export const processVariants = async (job: Job<ProcessLocaleJob>) => {
 
       const cr = compressResult.right
 
-      // 5i. Upload tarball to GCS -- skip when already streamed during compress
-      if (!cr.streamed) {
-        const uploadResult = await uploadToGcsDir(cr.tarballFilepath, effectiveReleaseName)()
-        if (E.isLeft(uploadResult)) {
-          logger.error('VARIANTS', `[${compoundLocale}] Upload failed: ${String(uploadResult.left)}`)
-          await flushReleaseLogs(env, 'error')
-          continue
-        }
-      }
+      // Compress always streams directly to GCS -- no separate upload step.
 
       // 5j. Upload metadata
       const metaResult = await metadataPipeline(

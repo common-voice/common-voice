@@ -98,14 +98,6 @@ const getTmpDir_ =
       ? path.join(__dirname, '..', '..')
       : path.resolve(TMP_DIR)
 
-/**
- * Locales above this clip count stream the output tarball directly to GCS
- * during compress, avoiding the need for local disk space for the tarball.
- * Below this threshold the tarball is written locally then uploaded.
- * Override via STREAM_COMPRESS_CLIP_THRESHOLD env var in k8s.
- */
-export const STREAM_COMPRESS_CLIP_THRESHOLD =
-  Number(process.env.STREAM_COMPRESS_CLIP_THRESHOLD) || 2_000_000
 
 export const getQueriesDir = getQueriesDir_
 export const getRedisUrl = getRedisUrl_(config)
