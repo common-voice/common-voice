@@ -28,6 +28,7 @@ import { doesFileExistInBucket } from '../infrastructure/storage'
 import { redisClient } from '../infrastructure/redis'
 import {
   getDatasetBundlerBucketName,
+  getEnvironment,
   getTmpDir,
   LOCK_EXTEND_MS,
   LOCK_EXTEND_INTERVAL_MS,
@@ -278,19 +279,27 @@ export const processLocale = async (job: Job<ProcessLocaleJob>, token?: string) 
       logger.info('PROCESSOR', `[${locale}] FAILED: ${errMsg}`)
 
       // Clean up working files on failure to prevent disk exhaustion.
-      // The tarball may not have been created yet, so pass an empty string.
-      const cleanupResult = await cleanUp(
-        locale,
-        env.releaseDirPath,
-        '',
-        env.previousReleaseName,
-        env.deltaReleaseName,
-        env.license,
-      )()
-      if (E.isLeft(cleanupResult)) {
-        logger.warn('PROCESSOR', `[${locale}] Failure cleanup error (non-fatal): ${String(cleanupResult.left)}`)
-      } else {
-        logger.info('PROCESSOR', `[${locale}] Failure cleanup completed -- disk space reclaimed`)
+      // Skip in local environment to preserve files for debugging
+      // (consistent with the success-path runCleanUp behaviour).
+      if (getEnvironment() !== 'local') {
+        // Compute the expected tarball path so it is removed even when the
+        // failure happened after local compression (e.g. upload/stats step).
+        const tarFilename = generateTarFilename(locale, env.releaseName, env.license)
+        const expectedTarPath = path.join(env.releaseTarballsDirPath, tarFilename)
+
+        const cleanupResult = await cleanUp(
+          locale,
+          env.releaseDirPath,
+          expectedTarPath,
+          env.previousReleaseName,
+          env.deltaReleaseName,
+          env.license,
+        )()
+        if (E.isLeft(cleanupResult)) {
+          logger.warn('PROCESSOR', `[${locale}] Failure cleanup error (non-fatal): ${String(cleanupResult.left)}`)
+        } else {
+          logger.info('PROCESSOR', `[${locale}] Failure cleanup completed -- disk space reclaimed`)
+        }
       }
     }
     await flushReleaseLogs(env, E.isRight(result) ? 'success' : 'error')
