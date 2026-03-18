@@ -10,9 +10,7 @@ from datacollective import (
     DatasetSubmission,
     License,
     Task,
-    create_submission_draft,
-    submit_submission,
-    update_submission,
+    create_submission_with_upload,
     upload_dataset_file,
 )
 from tenacity import (
@@ -143,116 +141,38 @@ class MDCClient:
         stop=stop_after_attempt(3),
         reraise=True,
     )
-    def _create_draft(self, submission: DatasetSubmission) -> dict[str, Any]:
-        """Create a submission draft. Retries on transient errors."""
-        try:
-            result: dict[str, Any] = create_submission_draft(submission)
-            return result
-        except Exception as exc:
-            raise _wrap_exception(exc) from exc
-
-    @retry(
-        retry=retry_if_exception(_is_retryable),
-        wait=_wait_for_retry,
-        stop=stop_after_attempt(3),
-        reraise=True,
-    )
-    def _upload_file(self, file_path: str, submission_id: str) -> Any:
-        """Upload a file to an existing submission. Retries on transient errors."""
-        try:
-            return upload_dataset_file(
-                file_path=file_path,
-                submission_id=submission_id,
-            )
-        except Exception as exc:
-            raise _wrap_exception(exc) from exc
-
-    @retry(
-        retry=retry_if_exception(_is_retryable),
-        wait=_wait_for_retry,
-        stop=stop_after_attempt(3),
-        reraise=True,
-    )
-    def _update(self, submission_id: str, submission: DatasetSubmission) -> Any:
-        """Update submission metadata. Retries on transient errors."""
-        try:
-            return update_submission(
-                submission_id=submission_id,
-                submission=submission,
-            )
-        except Exception as exc:
-            raise _wrap_exception(exc) from exc
-
-    @retry(
-        retry=retry_if_exception(_is_retryable),
-        wait=_wait_for_retry,
-        stop=stop_after_attempt(3),
-        reraise=True,
-    )
-    def _submit(self, submission_id: str) -> Any:
-        """Finalize a submission. Retries on transient errors."""
-        try:
-            return submit_submission(
-                submission_id=submission_id,
-                submission=DatasetSubmission(agreeToSubmit=True),
-            )
-        except Exception as exc:
-            raise _wrap_exception(exc) from exc
-
     def create_and_upload(
         self,
         file_path: str,
         submission: DatasetSubmission,
     ) -> tuple[str, bool]:
-        """Full new-submission flow: draft -> upload -> update -> submit.
+        """Single-call submission: create + upload + metadata + agree + submit.
 
+        Uses the SDK's create_submission_with_upload which handles the full flow
+        including agreeToSubmit via /api/submissions/:id.
         Returns (submission_id, success).
-        If draft is created but later steps fail, logs orphaned draft.
         """
-        submission_id: str | None = None
         try:
-            # Step 1: Create draft
-            draft = self._create_draft(
-                DatasetSubmission(
-                    name=submission.name,
-                    longDescription=submission.longDescription,
-                    agreeToSubmit=True,
-                )
+            response: dict[str, Any] = create_submission_with_upload(
+                file_path=file_path,
+                submission=submission,
             )
-            submission_id = draft["submission"]["id"]
-            assert isinstance(submission_id, str), "API returned non-string submission ID"
-            logger.info("MDC", "Created draft submission %s", submission_id)
-
-            # Step 2: Upload file
-            upload_state = self._upload_file(file_path, submission_id)
-            file_id = getattr(upload_state, "fileUploadId", "?")
-            logger.info("MDC", "Upload complete (file upload ID: %s)", file_id)
-
-            # Step 3: Update metadata
-            self._update(submission_id, submission)
-            logger.debug("MDC", "Metadata updated for %s", submission_id)
-
-            # Step 4: Submit
-            response = self._submit(submission_id)
+            submission_id = response.get("submission", {}).get("id", "unknown")
             status = response.get("submission", {}).get("status", "unknown")
             logger.info("MDC", "Submitted %s -- status: %s", submission_id, status)
-
             return submission_id, True
-
         except Exception as exc:
-            if submission_id:
-                logger.error(
-                    "MDC",
-                    "Failed after draft creation -- orphaned draft: %s (error: %s)",
-                    submission_id,
-                    exc,
-                )
-                raise OrphanedDraftError(submission_id, str(exc)) from exc
-            raise
+            raise _wrap_exception(exc) from exc
 
+    @retry(
+        retry=retry_if_exception(_is_retryable),
+        wait=_wait_for_retry,
+        stop=stop_after_attempt(3),
+        reraise=True,
+    )
     def upload_new_version(self, file_path: str, submission_id: str) -> bool:
         """Upload a new file version to an existing dataset."""
-        self._upload_file(file_path, submission_id)
+        upload_dataset_file(file_path=file_path, submission_id=submission_id)
         logger.info("MDC", "New version uploaded to %s", submission_id)
         return True
 
