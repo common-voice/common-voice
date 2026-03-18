@@ -9,6 +9,7 @@ import { generateStatistics } from './generateStatistics'
 import { forceFlushLogs } from '../core/releaseLogger'
 import { logger } from '../infrastructure/logger'
 import { redisClient } from '../infrastructure/redis'
+import { cleanCacheDir } from '../infrastructure/cleanCacheDir'
 
 export const createWorker: IO.IO<void> = () => {
   const worker = new Worker(
@@ -62,6 +63,11 @@ export const createWorker: IO.IO<void> = () => {
 
             // Obliterate entire queue (active + waiting + everything).
             await cleanStaleJobs(true)
+
+            // Wipe cache dir -- pod crashes/OOMKills leave stale data.
+            // Full --force only: selective (-l) would destroy other locales'
+            // in-progress files. No signal handler: OOMKill is untrappable.
+            cleanCacheDir()
           } else if (isSelectiveForce) {
             // -- Selective force (-l + --force): only reset targeted locales --
             logger.info('WORKER', `Selective --force for locales: ${s.languages.join(', ')}`)
