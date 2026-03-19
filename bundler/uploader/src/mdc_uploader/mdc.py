@@ -36,10 +36,11 @@ from mdc_uploader.log import logger
 from mdc_uploader.models import ReleaseSpec
 
 # -- Override SDK defaults -----------------------------------------------------
-# Part size: 64 MB reduces round-trips 92% vs 5 MB default
+# Part size: 256 MB -- at 13.4 MB/s observed throughput, completes in ~19s per
+# part (well within MDC's 15-min deadline). 586 parts for 150 GB max file.
 # Max upload: 150 GB.
 _dc_upload.DEFAULT_PART_SIZE = (  # pyright: ignore[reportAttributeAccessIssue]
-    64 * 1024 * 1024  # 64 MB
+    256 * 1024 * 1024  # 256 MB
 )
 _dc_upload.MAX_UPLOAD_BYTES = (  # pyright: ignore[reportAttributeAccessIssue]
     150 * 1000 * 1000 * 1000  # 150 GB
