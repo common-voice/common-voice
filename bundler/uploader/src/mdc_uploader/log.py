@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import logging
+import os
 import sys
 from datetime import UTC, datetime
 
@@ -88,6 +89,9 @@ def setup_logging(verbose: bool = False, log_file: str | None = None) -> None:
     if log_file and not any(isinstance(h, logging.FileHandler) for h in root.handlers):
         # File handler always captures everything for post-mortem debugging
         root.setLevel(logging.DEBUG)
+        log_dir = os.path.dirname(log_file)
+        if log_dir:
+            os.makedirs(log_dir, exist_ok=True)
         fh = logging.FileHandler(log_file, mode="a", encoding="utf-8")
         fh.setFormatter(BundlerFormatter())
         fh.setLevel(logging.DEBUG)
