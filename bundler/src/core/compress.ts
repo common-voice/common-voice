@@ -1,6 +1,8 @@
+import { execFileSync } from 'node:child_process'
 import * as crypto from 'node:crypto'
 import * as fs from 'node:fs'
 import * as path from 'node:path'
+import { pipeline } from 'node:stream/promises'
 import { Transform, TransformCallback } from 'node:stream'
 
 import * as tar from 'tar'
@@ -10,9 +12,96 @@ import { pipe } from 'fp-ts/lib/function'
 
 import { CORPORA_CREATOR_SPLIT_FILES } from '../infrastructure/corporaCreator'
 import { streamUploadToBucket } from '../infrastructure/storage'
-import { getDatasetBundlerBucketName } from '../config'
+import { getDatasetBundlerBucketName, STREAM_COMPRESS_CLIP_THRESHOLD } from '../config'
 import { AppEnv, ReleaseType } from '../types'
 import { logger } from '../infrastructure/logger'
+
+// -- Disk-space-based streaming decision --------------------------------------
+
+/**
+ * Require this much free space beyond the measured data size.
+ * Covers filesystem overhead, concurrent locale work, and safety margin.
+ */
+const DISK_SLACK_BYTES = 10 * 1024 * 1024 * 1024 // 10 GB
+
+/**
+ * Measures the actual size of a directory tree in bytes using `du -sb`.
+ * Returns 0 on any failure (missing dir, timeout, etc.).
+ */
+const getDirSizeBytes = (dirPath: string): number => {
+  try {
+    const output = execFileSync('du', ['-sb', dirPath], {
+      encoding: 'utf8',
+      stdio: ['pipe', 'pipe', 'pipe'],
+      timeout: 60_000,
+    })
+    return parseInt(output.split('\t')[0], 10) || 0
+  } catch {
+    return 0
+  }
+}
+
+/**
+ * Decides whether to stream the tarball directly to GCS or write it locally.
+ *
+ * The tarball is approximately the same size as the locale data already on
+ * disk (MP3 doesn't compress with gzip). Instead of estimating from clip
+ * count (unreliable -- clip durations vary across locales), we measure the
+ * actual data and compare against free disk space.
+ *
+ * Decision order:
+ *  1. Clip count >= STREAM_COMPRESS_CLIP_THRESHOLD -> always stream (hard ceiling)
+ *  2. Measure locale data on disk via `du -sb`
+ *  3. Check free disk space >= measured data + 10 GB slack
+ *  4. On any failure (du/statfs) -> stream to be safe
+ */
+export const shouldStreamToGCS = (
+  clipCount: number,
+  releaseDirPath: string,
+  locale: string,
+): boolean => {
+  // Hard ceiling: always stream very large locales (skip the du measurement)
+  if (clipCount >= STREAM_COMPRESS_CLIP_THRESHOLD) return true
+
+  try {
+    const localeDir = path.join(releaseDirPath, locale)
+    const dataSizeBytes = getDirSizeBytes(localeDir)
+
+    if (dataSizeBytes === 0) {
+      // Directory missing or empty -- can't measure, stream to be safe
+      logger.warn('COMPRESS', `[${locale}] Could not measure data size, falling back to streaming`)
+      return true
+    }
+
+    const stats = fs.statfsSync(releaseDirPath)
+    const freeBytes = stats.bavail * stats.bsize
+    const needed = dataSizeBytes + DISK_SLACK_BYTES
+
+    const dataSizeGB = (dataSizeBytes / 1_073_741_824).toFixed(1)
+    const freeGB = (freeBytes / 1_073_741_824).toFixed(1)
+
+    if (freeBytes < needed) {
+      logger.info(
+        'COMPRESS',
+        `[${locale}] Disk check: ${freeGB} GB free, ` +
+          `need ${(needed / 1_073_741_824).toFixed(1)} GB ` +
+          `(${dataSizeGB} GB data + ` +
+          `${(DISK_SLACK_BYTES / 1_073_741_824).toFixed(0)} GB slack) -> stream to GCS`,
+      )
+      return true
+    }
+
+    logger.info(
+      'COMPRESS',
+      `[${locale}] Disk check: ${freeGB} GB free, ` +
+        `${dataSizeGB} GB data -> local file`,
+    )
+    return false
+  } catch {
+    logger.warn('COMPRESS', `[${locale}] Disk check failed, falling back to streaming`)
+    return true
+  }
+}
 
 export const sanitizeLicenseName = (license: string): string => {
   // Replace spaces and special characters with underscores for safe filenames
@@ -138,7 +227,25 @@ const getPathsToAddToTarball =
       .map((pathS: string) => path.join(locale, pathS))
   }
 
-// -- Compress + stream to GCS -------------------------------------------------
+// -- Local compress (small/medium locales) ------------------------------------
+
+const compressToLocalFile = async (
+  outFilepath: string,
+  pathsToCompress: string[],
+  cwd: string,
+  prefix: string,
+  gzipLevel: number,
+): Promise<{ size: number; checksum: string }> => {
+  const metrics = new MetricsTransform()
+  const readStream = tar.c(
+    { gzip: { level: gzipLevel }, cwd, prefix },
+    pathsToCompress,
+  )
+  await pipeline(readStream, metrics, fs.createWriteStream(outFilepath))
+  return { size: metrics.size, checksum: metrics.checksum }
+}
+
+// -- GCS streaming compress (large locales) -----------------------------------
 
 const uploadToDatasetBucket = streamUploadToBucket(getDatasetBundlerBucketName())
 
@@ -181,7 +288,7 @@ export const compressPipeline = (
   locale: string,
   releaseName: string,
   releaseDirPath: string,
-  _releaseTarballDir: string,
+  releaseTarballDir: string,
   releaseType: ReleaseType,
   license?: string,
   clipCount?: number,
@@ -189,13 +296,14 @@ export const compressPipeline = (
 ): TE.TaskEither<Error, CompressResult> => {
   const effectiveClipCount = clipCount ?? 0
   const gzipLevel = decideCompressionLevel(effectiveClipCount)
+  const useStreaming = shouldStreamToGCS(effectiveClipCount, releaseDirPath, locale)
 
   const tarballFilename = generateTarFilename(locale, releaseName, license)
   const gcsUploadPath = `${gcsDir ?? releaseName}/${tarballFilename}`
 
   logger.info(
     'COMPRESS',
-    `[${locale}] Start compress (gzip level ${gzipLevel}, ~${effectiveClipCount.toLocaleString()} clips, stream-to-GCS)`,
+    `[${locale}] Start compress (gzip level ${gzipLevel}, ~${effectiveClipCount.toLocaleString()} clips, ${useStreaming ? 'stream-to-GCS' : 'local file'})`,
   )
 
   return pipe(
@@ -217,32 +325,56 @@ export const compressPipeline = (
     TE.chain(({ paths }) =>
       TE.tryCatch(
         async (): Promise<CompressResult> => {
-          const { size, checksum } = await compressAndStreamToGCS(
-            locale,
-            gcsUploadPath,
-            paths,
-            releaseDirPath,
-            releaseName,
-            gzipLevel,
-          )
-          const sizeGB = (size / 1_073_741_824).toFixed(1)
-          logger.info(
-            'COMPRESS',
-            `[${locale}] Stream-to-GCS done: ${sizeGB} GB, sha256=${checksum.slice(0, 16)}...`,
-          )
-          return {
-            tarballFilepath: '',
-            uploadPath: gcsUploadPath,
-            size,
-            checksum,
-            streamed: true,
+          if (useStreaming) {
+            const { size, checksum } = await compressAndStreamToGCS(
+              locale,
+              gcsUploadPath,
+              paths,
+              releaseDirPath,
+              releaseName,
+              gzipLevel,
+            )
+            const sizeGB = (size / 1_073_741_824).toFixed(1)
+            logger.info(
+              'COMPRESS',
+              `[${locale}] Stream-to-GCS done: ${sizeGB} GB, sha256=${checksum.slice(0, 16)}...`,
+            )
+            return {
+              tarballFilepath: '',
+              uploadPath: gcsUploadPath,
+              size,
+              checksum,
+              streamed: true,
+            }
+          } else {
+            const localPath = path.join(releaseTarballDir, tarballFilename)
+            fs.mkdirSync(releaseTarballDir, { recursive: true })
+            const { size, checksum } = await compressToLocalFile(
+              localPath,
+              paths,
+              releaseDirPath,
+              releaseName,
+              gzipLevel,
+            )
+            const sizeMB = (size / 1_048_576).toFixed(0)
+            logger.info(
+              'COMPRESS',
+              `[${locale}] Local compress done: ${sizeMB} MB, sha256=${checksum.slice(0, 16)}...`,
+            )
+            return {
+              tarballFilepath: localPath,
+              uploadPath: gcsUploadPath,
+              size,
+              checksum,
+              streamed: false,
+            }
           }
         },
         reason => {
           const errMsg = String(reason)
           logger.info(
             'COMPRESS',
-            `[${locale}] FAILED: ${errMsg}`,
+            `[${locale}] FAILED: ${useStreaming ? 'stream-to-GCS' : 'local'}: ${errMsg}`,
           )
           return Error(errMsg)
         },

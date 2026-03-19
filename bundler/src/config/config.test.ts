@@ -32,6 +32,7 @@ const clearEnv = () => {
   delete process.env.DATASETS_BUNDLER_BUCKET_NAME
   delete process.env.STORAGE_LOCAL_DEVELOPMENT_ENDPOINT
   delete process.env.CLIP_DOWNLOAD_CONCURRENCY
+  delete process.env.STREAM_COMPRESS_CLIP_THRESHOLD
 }
 
 describe('config defaults (no env vars)', () => {
@@ -71,6 +72,9 @@ describe('config defaults (no env vars)', () => {
     expect(loadConfig().getTmpDir()).toMatch(/bundler$/)
   })
 
+  it('STREAM_COMPRESS_CLIP_THRESHOLD defaults to 2000000', () => {
+    expect(loadConfig().STREAM_COMPRESS_CLIP_THRESHOLD).toBe(2_000_000)
+  })
 })
 
 describe('config with env vars', () => {
@@ -131,5 +135,10 @@ describe('config with env vars', () => {
   it('DATASETS_BUNDLER_BUCKET_NAME overrides default', () => {
     process.env.DATASETS_BUNDLER_BUCKET_NAME = 'my-bundler'
     expect(loadConfig().getDatasetBundlerBucketName()).toBe('my-bundler')
+  })
+
+  it('STREAM_COMPRESS_CLIP_THRESHOLD overrides default', () => {
+    process.env.STREAM_COMPRESS_CLIP_THRESHOLD = '500000'
+    expect(loadConfig().STREAM_COMPRESS_CLIP_THRESHOLD).toBe(500_000)
   })
 })

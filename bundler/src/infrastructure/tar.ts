@@ -76,10 +76,18 @@ const runStreamExtractTarPromise = (
     proc.on('close', code => {
       if (settled) return
       settled = true
-      if (code !== 0) {
+      const stderr = stderrChunks.join('')
+      // GNU tar exits 2 when --wildcards patterns match nothing (e.g. delta
+      // tar has an empty clips/ dir). This is not a real error -- it just
+      // means there were no files to extract.
+      const isEmptyWildcardMatch =
+        includePatterns.length > 0 &&
+        code === 2 &&
+        stderr.includes('Not found in archive')
+      if (code !== 0 && !isEmptyWildcardMatch) {
         reject(
           new Error(
-            `tar (stream) exited with code ${code}: ${stderrChunks.join('')}`,
+            `tar (stream) exited with code ${code}: ${stderr}`,
           ),
         )
       } else {

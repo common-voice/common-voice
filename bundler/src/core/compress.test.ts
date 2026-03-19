@@ -3,7 +3,24 @@ import {
   generateTarFilename,
   pathsFilter,
   decideCompressionLevel,
+  shouldStreamToGCS,
 } from './compress'
+import { STREAM_COMPRESS_CLIP_THRESHOLD } from '../config'
+
+jest.mock('node:child_process', () => ({
+  ...jest.requireActual('node:child_process'),
+  execFileSync: jest.fn(),
+}))
+
+jest.mock('node:fs', () => ({
+  ...jest.requireActual('node:fs'),
+  statfsSync: jest.fn(),
+}))
+
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const { execFileSync: mockExecFileSync } = require('node:child_process') as { execFileSync: jest.Mock }
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const { statfsSync: mockStatfsSync } = require('node:fs') as { statfsSync: jest.Mock }
 
 describe('sanitizeLicenseName', () => {
   it('passes through simple names unchanged', () => {
@@ -178,5 +195,41 @@ describe('decideCompressionLevel', () => {
   it('returns level 1 for large clip counts', () => {
     expect(decideCompressionLevel(100_000)).toBe(1)
     expect(decideCompressionLevel(2_500_000)).toBe(1)
+  })
+})
+
+describe('shouldStreamToGCS', () => {
+  it('always streams when clip count exceeds hard ceiling', () => {
+    // Hard ceiling is STREAM_COMPRESS_CLIP_THRESHOLD (2,000,000) -- stream regardless of disk space
+    expect(shouldStreamToGCS(STREAM_COMPRESS_CLIP_THRESHOLD, '/tmp', 'en')).toBe(true)
+    expect(shouldStreamToGCS(STREAM_COMPRESS_CLIP_THRESHOLD + 500_000, '/tmp', 'en')).toBe(true)
+  })
+
+  afterEach(() => jest.resetAllMocks())
+
+  it('uses local file when disk has enough space', () => {
+    const ONE_GB = 1_073_741_824
+    // du reports 1 GB data
+    mockExecFileSync.mockReturnValue(`${ONE_GB}\t/release/en\n`)
+    // 50 GB free (well above 1 GB data + 10 GB slack)
+    mockStatfsSync.mockReturnValue({ bavail: 50 * ONE_GB, bsize: 1 })
+
+    expect(shouldStreamToGCS(100, '/release', 'en')).toBe(false)
+  })
+
+  it('streams when disk space is insufficient', () => {
+    const ONE_GB = 1_073_741_824
+    // du reports 20 GB data
+    mockExecFileSync.mockReturnValue(`${20 * ONE_GB}\t/release/en\n`)
+    // 25 GB free (< 20 GB data + 10 GB slack = 30 GB needed)
+    mockStatfsSync.mockReturnValue({ bavail: 25 * ONE_GB, bsize: 1 })
+
+    expect(shouldStreamToGCS(100, '/release', 'en')).toBe(true)
+  })
+
+  it('streams when du measurement fails', () => {
+    mockExecFileSync.mockImplementation(() => { throw new Error('du failed') })
+
+    expect(shouldStreamToGCS(100, '/release', 'en')).toBe(true)
   })
 })

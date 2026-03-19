@@ -26,6 +26,7 @@ import { CORPORA_CREATOR_CLIP_SPLIT_FILES, CORPORA_CREATOR_FILES } from '../infr
 import { TSV_COLUMNS } from '../core/clips'
 import { flushReleaseLogs } from '../core/releaseLogger'
 import { compressPipeline } from '../core/compress'
+import { uploadDataset } from '../core/upload'
 import { statsPipeline } from '../core/stats'
 import { scanLocaleData } from '../core/localeData'
 import { metadataPipeline } from '../core/metadata'
@@ -618,7 +619,15 @@ export const processVariants = async (job: Job<ProcessLocaleJob>) => {
 
       const cr = compressResult.right
 
-      // Compress always streams directly to GCS -- no separate upload step.
+      // 5i. Upload tarball to GCS -- skip when already streamed during compress
+      if (!cr.streamed) {
+        const uploadResult = await uploadDataset(cr.tarballFilepath, effectiveReleaseName)()
+        if (E.isLeft(uploadResult)) {
+          logger.error('VARIANTS', `[${compoundLocale}] Upload failed: ${String(uploadResult.left)}`)
+          await flushReleaseLogs(env, 'error')
+          continue
+        }
+      }
 
       // 5j. Upload metadata
       const metaResult = await metadataPipeline(
