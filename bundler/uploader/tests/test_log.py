@@ -11,10 +11,12 @@ class TestSetupLogging:
     """Tests for setup_logging file handler support."""
 
     def _reset_loggers(self) -> None:
-        """Remove all handlers from mdc_uploader and datacollective loggers."""
+        """Close and remove all handlers from mdc_uploader and datacollective loggers."""
         for name in ("mdc_uploader", "datacollective"):
             lg = logging.getLogger(name)
-            lg.handlers.clear()
+            for handler in lg.handlers[:]:
+                handler.close()
+                lg.removeHandler(handler)
             lg.setLevel(logging.WARNING)
 
     def test_log_file_creates_file_handler(self, tmp_path) -> None:  # type: ignore[no-untyped-def]

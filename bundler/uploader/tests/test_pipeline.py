@@ -310,7 +310,9 @@ class TestGcsTempCleanup:
         assert not os.path.exists(state_file), "Original state file removed"
         copied = os.path.join(state_dir, "mdc-upload-br.json")
         assert os.path.exists(copied), "State file copied to .state/"
-        assert "test" in open(copied, encoding="utf-8").read()
+        from pathlib import Path  # pylint: disable=import-outside-toplevel
+
+        assert "test" in Path(copied).read_text(encoding="utf-8")
 
     @patch("mdc_uploader.pipeline.language")
     @patch("mdc_uploader.pipeline.is_gcs_uri")
