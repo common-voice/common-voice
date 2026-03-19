@@ -65,6 +65,7 @@ class _LocaleStateOptional(TypedDict, total=False):
     """Optional keys in a per-locale state entry."""
 
     submission_id: str
+    file_upload_id: str
     error: str
     orphaned_draft: bool
 
@@ -85,6 +86,13 @@ class DescriptionTemplate(TypedDict):
     long: str
 
 
+class _OrphanedSubmission(TypedDict):
+    """Recovery data for a failed submission with uploaded file."""
+
+    submission_id: str
+    file_upload_id: str
+
+
 class RetryStateData(TypedDict):
     """Data extracted from a state file for --retry-failed."""
 
@@ -93,3 +101,4 @@ class RetryStateData(TypedDict):
     type: str
     base_dir: str | None
     failed_locales: list[str]
+    orphaned_submissions: dict[str, _OrphanedSubmission]

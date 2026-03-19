@@ -7,7 +7,7 @@ from dataclasses import dataclass
 
 from mdc_uploader.constants import DEFAULT_BASE_DIR, MDC_API_URLS
 from mdc_uploader.models import ReleaseType
-from mdc_uploader.typedef import MDCTarget
+from mdc_uploader.typedef import MDCTarget, _OrphanedSubmission
 
 
 @dataclass(frozen=True)
@@ -24,6 +24,8 @@ class UploaderConfig:
     submission_id: str | None  # None = new submission mode
     dry_run: bool
     verbose: bool
+    # Per-locale recovery data from --retry-failed (locale -> IDs)
+    orphaned_submissions: dict[str, _OrphanedSubmission] | None = None
 
     @classmethod
     def from_cli(  # pylint: disable=too-many-arguments
@@ -39,6 +41,7 @@ class UploaderConfig:
         verbose: bool,
         mdc_api_key: str,
         mdc_api_url: str | None,
+        orphaned_submissions: dict[str, _OrphanedSubmission] | None = None,
     ) -> UploaderConfig:
         """Build config from CLI args and environment variables."""
         resolved_url = mdc_api_url or MDC_API_URLS[upload_target]
@@ -64,4 +67,5 @@ class UploaderConfig:
             submission_id=submission_id,
             dry_run=dry_run,
             verbose=verbose,
+            orphaned_submissions=orphaned_submissions,
         )

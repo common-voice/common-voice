@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import logging
+import os
 import sys
 from datetime import UTC, datetime
 
@@ -67,12 +68,37 @@ class ComponentLogger:
 logger = ComponentLogger()
 
 
-def setup_logging(verbose: bool = False) -> None:
-    """Configure logging with bundler-style formatting."""
+def setup_logging(verbose: bool = False, log_file: str | None = None) -> None:
+    """Configure logging with bundler-style formatting.
+
+    Args:
+        verbose: Enable DEBUG level on the console handler.
+        log_file: Optional path to a log file. The file handler always
+            captures DEBUG level regardless of verbose, so request
+            payloads and response bodies are recorded even without -v.
+    """
     root = logging.getLogger("mdc_uploader")
     root.setLevel(logging.DEBUG if verbose else logging.INFO)
 
     if not root.handlers:
-        handler = logging.StreamHandler(sys.stderr)
-        handler.setFormatter(BundlerFormatter())
-        root.addHandler(handler)
+        console = logging.StreamHandler(sys.stderr)
+        console.setFormatter(BundlerFormatter())
+        console.setLevel(logging.DEBUG if verbose else logging.INFO)
+        root.addHandler(console)
+
+    if log_file and not any(isinstance(h, logging.FileHandler) for h in root.handlers):
+        # File handler always captures everything for post-mortem debugging
+        root.setLevel(logging.DEBUG)
+        log_dir = os.path.dirname(log_file)
+        if log_dir:
+            os.makedirs(log_dir, exist_ok=True)
+        fh = logging.FileHandler(log_file, mode="a", encoding="utf-8")
+        fh.setFormatter(BundlerFormatter())
+        fh.setLevel(logging.DEBUG)
+        root.addHandler(fh)
+
+        # Also capture the datacollective SDK's own log lines
+        dc_logger = logging.getLogger("datacollective")
+        if not any(isinstance(h, logging.FileHandler) for h in dc_logger.handlers):
+            dc_logger.addHandler(fh)
+            dc_logger.setLevel(logging.DEBUG)

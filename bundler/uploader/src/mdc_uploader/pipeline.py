@@ -31,10 +31,10 @@ from mdc_uploader.naming import (
     tarball_path,
 )
 from mdc_uploader.progress import batch_progress, format_size
-from mdc_uploader.state import BatchState
+from mdc_uploader.state import STATE_DIR, BatchState
 
 
-def _build_jobs_gcs(
+def _build_jobs_gcs(  # pylint: disable=too-many-locals
     config: UploaderConfig,
     release_spec: ReleaseSpec,
     license_name: str | None,
@@ -75,6 +75,10 @@ def _build_jobs_gcs(
         tb_blob = f"{subdir}/{tarball_filename(locale, config.release_name, license_name)}"
         ds_blob = os.path.relpath(datasheet_path("", release_spec, locale, license_name), "")
 
+        orphan = (config.orphaned_submissions or {}).get(locale)
+        orphaned_sid = orphan["submission_id"] if orphan else None
+        orphaned_fid = orphan["file_upload_id"] if orphan else None
+
         jobs.append(
             LocaleUploadJob(
                 locale=locale,
@@ -85,6 +89,8 @@ def _build_jobs_gcs(
                 file_size=size,
                 submission_id=config.submission_id,
                 license_type=license_name,
+                orphaned_submission_id=orphaned_sid,
+                orphaned_file_upload_id=orphaned_fid,
             )
         )
 
@@ -128,6 +134,11 @@ def _build_jobs_local(
         except OSError:
             file_size = 0
 
+        # Check for orphaned draft recovery data from --retry-failed
+        orphan = (config.orphaned_submissions or {}).get(locale)
+        orphaned_sid = orphan["submission_id"] if orphan else None
+        orphaned_fid = orphan["file_upload_id"] if orphan else None
+
         jobs.append(
             LocaleUploadJob(
                 locale=locale,
@@ -138,6 +149,8 @@ def _build_jobs_local(
                 file_size=file_size,
                 submission_id=config.submission_id,
                 license_type=license_name,
+                orphaned_submission_id=orphaned_sid,
+                orphaned_file_upload_id=orphaned_fid,
             )
         )
 
@@ -233,7 +246,62 @@ def _resolve_file_and_datasheet(
     return tarball_local, datasheet_text, error
 
 
-def process_locale(
+def _cleanup_gcs_temp(
+    tmp_file: str,
+    locale: str,
+    succeeded: bool,
+) -> None:
+    """Clean up GCS-downloaded temp files after a locale upload.
+
+    Always removes the tarball to prevent disk exhaustion during batches.
+    On success: also removes .mdc-upload.json and the temp dir.
+    On failure: preserves .mdc-upload.json for debugging, logs its path.
+    With step-by-step uploads, submission_id and file_upload_id are saved
+    in BatchState for recovery -- the tarball is not needed for retry.
+    """
+    try:
+        tmp_dir = os.path.dirname(tmp_file)
+        # Always remove the tarball to save disk
+        os.unlink(tmp_file)
+
+        if not tmp_dir or tmp_dir == os.getcwd():
+            return
+
+        if succeeded:
+            for fname in os.listdir(tmp_dir):
+                if fname.endswith(".mdc-upload.json"):
+                    os.unlink(os.path.join(tmp_dir, fname))
+            try:
+                os.rmdir(tmp_dir)
+            except OSError:
+                pass
+        else:
+            # Copy .mdc-upload.json to .state/ with locale in the name,
+            # then clean up the temp dir entirely.
+            import shutil  # pylint: disable=import-outside-toplevel
+
+            for fname in os.listdir(tmp_dir):
+                if fname.endswith(".mdc-upload.json"):
+                    src = os.path.join(tmp_dir, fname)
+                    dest = os.path.join(STATE_DIR, f"mdc-upload-{locale}.json")
+                    os.makedirs(STATE_DIR, exist_ok=True)
+                    shutil.copy2(src, dest)
+                    logger.info(
+                        "UPLOAD",
+                        "[%s] MDC upload state saved to: %s",
+                        locale,
+                        dest,
+                    )
+                    os.unlink(src)
+            try:
+                os.rmdir(tmp_dir)
+            except OSError:
+                pass
+    except OSError as exc:
+        logger.warning("UPLOAD", "[%s] Cleanup failed (non-fatal): %s", locale, exc)
+
+
+def process_locale(  # pylint: disable=too-many-return-statements,too-many-branches,too-many-locals
     job: LocaleUploadJob,
     client: MDCClient | None,
     dry_run: bool,
@@ -243,8 +311,60 @@ def process_locale(
     locale = job.locale
     start = time.monotonic()
     tmp_file: str | None = None  # track temp files for GCS cleanup
+    upload_succeeded = False
 
     try:
+        # Fetch language data -- for variants, look up the parent locale
+        if job.release_type == ReleaseType.VARIANTS:
+            lang_entry = language.find_by_variant(locale)
+            if lang_entry is None:
+                lang_entry = language.find(locale)
+        else:
+            lang_entry = language.find(locale)
+        english_name = lang_entry.get("english_name", lang_entry["code"])
+        native_name = lang_entry["native_name"]
+
+        # Recovery mode: skip tarball download, go straight to steps 3+4.
+        # Only needs language data + submission metadata, not the tarball.
+        if job.orphaned_submission_id and job.orphaned_file_upload_id:
+            assert client is not None
+            # Read datasheet without downloading the tarball
+            datasheet_text = ""
+            if job.datasheet_path:
+                if is_gcs_uri(base_dir):
+                    datasheet_text = gcs_read_text(base_dir, job.datasheet_path) or ""
+                elif os.path.exists(job.datasheet_path):
+                    with open(job.datasheet_path, encoding="utf-8") as f:
+                        datasheet_text = f.read()
+            submission = client.build_submission(
+                release_spec=job.release_spec,
+                english_name=english_name,
+                native_name=native_name,
+                locale=locale,
+                license_name=job.license_type,
+                datasheet_text=datasheet_text,
+            )
+            logger.info(
+                "UPLOAD",
+                "[%s] RETRYING orphaned draft %s (steps 3-4 only)",
+                locale,
+                job.orphaned_submission_id,
+            )
+            submission_id, _ = client.recover_submission(
+                submission_id=job.orphaned_submission_id,
+                file_upload_id=job.orphaned_file_upload_id,
+                submission=submission,
+            )
+            upload_succeeded = True
+            return UploadResult(
+                locale=locale,
+                status="success",
+                submission_id=submission_id,
+                size_bytes=job.file_size,
+                duration_seconds=time.monotonic() - start,
+                attempts=1,
+            )
+
         # Resolve file path and datasheet
         tarball_local, datasheet_text, resolve_error = _resolve_file_and_datasheet(job, base_dir)
 
@@ -261,16 +381,6 @@ def process_locale(
         # Track temp file for cleanup in GCS mode
         if is_gcs_uri(base_dir):
             tmp_file = tarball_local
-
-        # Fetch language data -- for variants, look up the parent locale
-        if job.release_type == ReleaseType.VARIANTS:
-            lang_entry = language.find_by_variant(locale)
-            if lang_entry is None:
-                lang_entry = language.find(locale)
-        else:
-            lang_entry = language.find(locale)
-        english_name = lang_entry.get("english_name", lang_entry["code"])
-        native_name = lang_entry["native_name"]
 
         if dry_run:
             logger.info(
@@ -289,10 +399,7 @@ def process_locale(
                 duration_seconds=time.monotonic() - start,
             )
 
-        # client is guaranteed non-None when not dry_run (set in run_batch)
         assert client is not None
-
-        # Build submission metadata
         submission = client.build_submission(
             release_spec=job.release_spec,
             english_name=english_name,
@@ -312,6 +419,7 @@ def process_locale(
                 format_size(job.file_size),
             )
             client.upload_new_version(tarball_local, job.submission_id)
+            upload_succeeded = True
             return UploadResult(
                 locale=locale,
                 status="success",
@@ -332,6 +440,7 @@ def process_locale(
             file_path=tarball_local,
             submission=submission,
         )
+        upload_succeeded = True
         return UploadResult(
             locale=locale,
             status="success",
@@ -346,6 +455,7 @@ def process_locale(
             locale=locale,
             status="failed",
             submission_id=exc.submission_id,
+            file_upload_id=exc.file_upload_id,
             size_bytes=job.file_size,
             duration_seconds=time.monotonic() - start,
             error=str(exc),
@@ -360,15 +470,8 @@ def process_locale(
             error=str(exc),
         )
     finally:
-        # Clean up temp file and its temp directory from GCS download
         if tmp_file and os.path.exists(tmp_file):
-            tmp_dir = os.path.dirname(tmp_file)
-            os.unlink(tmp_file)
-            if tmp_dir and tmp_dir != os.getcwd():
-                try:
-                    os.rmdir(tmp_dir)
-                except OSError:
-                    pass
+            _cleanup_gcs_temp(tmp_file, locale, upload_succeeded)
 
 
 def print_summary(state: BatchState) -> None:
