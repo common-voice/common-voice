@@ -95,5 +95,6 @@ def setup_logging(verbose: bool = False, log_file: str | None = None) -> None:
 
         # Also capture the datacollective SDK's own log lines
         dc_logger = logging.getLogger("datacollective")
-        dc_logger.addHandler(fh)
-        dc_logger.setLevel(logging.DEBUG)
+        if not any(isinstance(h, logging.FileHandler) for h in dc_logger.handlers):
+            dc_logger.addHandler(fh)
+            dc_logger.setLevel(logging.DEBUG)
