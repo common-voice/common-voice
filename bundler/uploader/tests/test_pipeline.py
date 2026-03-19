@@ -268,20 +268,27 @@ class TestGcsTempCleanup:
         assert not os.path.exists(tarball), "Tarball should be cleaned"
         assert not os.path.isdir(tmp_dir), "Temp dir should be cleaned"
 
+    @patch("mdc_uploader.pipeline.STATE_DIR")
     @patch("mdc_uploader.pipeline.language")
     @patch("mdc_uploader.pipeline.is_gcs_uri")
     @patch("mdc_uploader.pipeline._resolve_file_and_datasheet")
-    def test_preserves_mdc_state_on_failure(
-        self, mock_resolve, mock_is_gcs, mock_lang, tmp_path
+    def test_copies_mdc_state_to_state_dir_on_failure(
+        self, mock_resolve, mock_is_gcs, mock_lang,
+        mock_state_dir, tmp_path,
     ) -> None:
-        """On failure, .mdc-upload.json is preserved (tarball deleted)."""
+        """On failure, .mdc-upload.json is copied to .state/ with locale name."""
+        state_dir = str(tmp_path / "state_out")
+        mock_state_dir.__str__ = lambda _s: state_dir
+        # patch the actual string value used in the function
+        mock_state_dir.__fspath__ = lambda _s: state_dir
+
         job, tarball, tmp_dir = self._make_gcs_job(tmp_path)
 
         state_file = os.path.join(
             tmp_dir, f"test-{job.locale}.tar.gz.mdc-upload.json"
         )
         with open(state_file, "w", encoding="utf-8") as f:
-            f.write("{}")
+            f.write('{"test": true}')
 
         mock_resolve.return_value = (tarball, "", None)
         mock_is_gcs.return_value = True
@@ -294,12 +301,16 @@ class TestGcsTempCleanup:
         mock_client.build_submission.return_value = MagicMock()
         mock_client.create_and_upload.side_effect = RuntimeError("fail")
 
-        process_locale(
-            job, mock_client, dry_run=False, base_dir="gs://bucket"
-        )
+        with patch("mdc_uploader.pipeline.STATE_DIR", state_dir):
+            process_locale(
+                job, mock_client, dry_run=False, base_dir="gs://bucket"
+            )
 
         assert not os.path.exists(tarball), "Tarball must be deleted"
-        assert os.path.exists(state_file), "State file must be preserved"
+        assert not os.path.exists(state_file), "Original state file removed"
+        copied = os.path.join(state_dir, "mdc-upload-br.json")
+        assert os.path.exists(copied), "State file copied to .state/"
+        assert "test" in open(copied, encoding="utf-8").read()
 
     @patch("mdc_uploader.pipeline.language")
     @patch("mdc_uploader.pipeline.is_gcs_uri")

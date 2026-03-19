@@ -31,7 +31,7 @@ from mdc_uploader.naming import (
     tarball_path,
 )
 from mdc_uploader.progress import batch_progress, format_size
-from mdc_uploader.state import BatchState
+from mdc_uploader.state import STATE_DIR, BatchState
 
 
 def _build_jobs_gcs(
@@ -269,19 +269,27 @@ def _cleanup_gcs_temp(
         except OSError:
             pass
     else:
-        # Log any .mdc-upload.json state files for debugging
+        # Copy .mdc-upload.json to .state/ with locale in the name,
+        # then clean up the temp dir entirely.
+        import shutil  # pylint: disable=import-outside-toplevel
+
         for fname in os.listdir(tmp_dir):
             if fname.endswith(".mdc-upload.json"):
+                src = os.path.join(tmp_dir, fname)
+                dest = os.path.join(STATE_DIR, f"mdc-upload-{locale}.json")
+                os.makedirs(STATE_DIR, exist_ok=True)
+                shutil.copy2(src, dest)
                 logger.info(
                     "UPLOAD",
-                    "[%s] MDC upload state file preserved: %s",
+                    "[%s] MDC upload state saved to: %s",
                     locale,
-                    os.path.join(tmp_dir, fname),
+                    dest,
                 )
+                os.unlink(src)
         try:
             os.rmdir(tmp_dir)
         except OSError:
-            pass  # non-empty (has .mdc-upload.json) -- expected
+            pass
 
 
 def process_locale(  # pylint: disable=too-many-return-statements
