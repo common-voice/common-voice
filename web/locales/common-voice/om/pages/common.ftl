@@ -450,7 +450,7 @@ documentation = Dookimenteeshinii
 content-license-text = Qabiyyeen <licenseLink>hayyama Creative Commons</licenseLink> jalatti argama.
 share-title = Hawaasa keenyatti makamaa
 share-text = Maashinii barumsaa akkamitti namoonni dhugumaan dubbatan akka baratan gargaari, sagalee kee { $link } irratti kenni.
-link-copied = Hidhaan Coppii taheera
+link-copied = Hidhaan Koppii taheera
 back-top = Gara Olii Deebi'i
 logout = Cufii Bahi
 donate = Arjoomi
@@ -467,7 +467,7 @@ email-opt-in-privacy-v2 = Imeelii argachuuf filannoo gochuun, odeeffannoo kana a
 indicates-required = Dirreewwan mallattoo asterisk (*) dirqama barbaachisu.
 not-available-abbreviation = N/A
 # Text shown on a button that can be clicked to copy text to the clipboard
-copy = Coppii
+copy = Koppii
 # Text shown on a button that can be clicked to close a modal or panel
 close = Cufi
 # Text shown on a button that can be clicked to cancel an action
