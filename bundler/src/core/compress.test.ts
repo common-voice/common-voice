@@ -5,6 +5,22 @@ import {
   decideCompressionLevel,
   shouldStreamToGCS,
 } from './compress'
+import { STREAM_COMPRESS_CLIP_THRESHOLD } from '../config'
+
+jest.mock('node:child_process', () => ({
+  ...jest.requireActual('node:child_process'),
+  execSync: jest.fn(),
+}))
+
+jest.mock('node:fs', () => ({
+  ...jest.requireActual('node:fs'),
+  statfsSync: jest.fn(),
+}))
+
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const { execSync: mockExecSync } = require('node:child_process') as { execSync: jest.Mock }
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const { statfsSync: mockStatfsSync } = require('node:fs') as { statfsSync: jest.Mock }
 
 describe('sanitizeLicenseName', () => {
   it('passes through simple names unchanged', () => {
@@ -184,30 +200,36 @@ describe('decideCompressionLevel', () => {
 
 describe('shouldStreamToGCS', () => {
   it('always streams when clip count exceeds hard ceiling', () => {
-    // Hard ceiling is 1,500,000 -- should stream regardless of disk space
-    expect(shouldStreamToGCS(1_500_000, '/tmp', 'en')).toBe(true)
-    expect(shouldStreamToGCS(2_500_000, '/tmp', 'en')).toBe(true)
+    // Hard ceiling is STREAM_COMPRESS_CLIP_THRESHOLD (2,000,000) -- stream regardless of disk space
+    expect(shouldStreamToGCS(STREAM_COMPRESS_CLIP_THRESHOLD, '/tmp', 'en')).toBe(true)
+    expect(shouldStreamToGCS(STREAM_COMPRESS_CLIP_THRESHOLD + 500_000, '/tmp', 'en')).toBe(true)
   })
 
-  it('streams when locale directory does not exist', () => {
-    expect(shouldStreamToGCS(100, '/nonexistent/path', 'zz')).toBe(true)
+  afterEach(() => jest.resetAllMocks())
+
+  it('uses local file when disk has enough space', () => {
+    const ONE_GB = 1_073_741_824
+    // du reports 1 GB data
+    mockExecSync.mockReturnValue(`${ONE_GB}\t/release/en\n`)
+    // 50 GB free (well above 1 GB data + 10 GB slack)
+    mockStatfsSync.mockReturnValue({ bavail: 50 * ONE_GB, bsize: 1 })
+
+    expect(shouldStreamToGCS(100, '/release', 'en')).toBe(false)
   })
 
-  it('uses local file when disk has enough space for small locale', () => {
-    // /tmp always exists and has space; a non-existent locale dir returns 0
-    // from du, triggering the "could not measure" fallback -> stream.
-    // Use an actual existing dir to test the happy path.
-    const tmpDir = '/tmp'
-    // Create a tiny test directory
-    const fs = require('fs')
-    const testDir = '/tmp/_compress_test_locale'
-    fs.mkdirSync(testDir, { recursive: true })
-    fs.writeFileSync(`${testDir}/test.txt`, 'hello')
-    try {
-      // tiny data + lots of free space on /tmp -> local file
-      expect(shouldStreamToGCS(10, '/tmp', '_compress_test_locale')).toBe(false)
-    } finally {
-      fs.rmSync(testDir, { recursive: true, force: true })
-    }
+  it('streams when disk space is insufficient', () => {
+    const ONE_GB = 1_073_741_824
+    // du reports 20 GB data
+    mockExecSync.mockReturnValue(`${20 * ONE_GB}\t/release/en\n`)
+    // 25 GB free (< 20 GB data + 10 GB slack = 30 GB needed)
+    mockStatfsSync.mockReturnValue({ bavail: 25 * ONE_GB, bsize: 1 })
+
+    expect(shouldStreamToGCS(100, '/release', 'en')).toBe(true)
+  })
+
+  it('streams when du measurement fails', () => {
+    mockExecSync.mockImplementation(() => { throw new Error('du failed') })
+
+    expect(shouldStreamToGCS(100, '/release', 'en')).toBe(true)
   })
 })

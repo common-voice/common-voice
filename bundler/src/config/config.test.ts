@@ -72,8 +72,8 @@ describe('config defaults (no env vars)', () => {
     expect(loadConfig().getTmpDir()).toMatch(/bundler$/)
   })
 
-  it('STREAM_COMPRESS_CLIP_THRESHOLD defaults to 1500000', () => {
-    expect(loadConfig().STREAM_COMPRESS_CLIP_THRESHOLD).toBe(1_500_000)
+  it('STREAM_COMPRESS_CLIP_THRESHOLD defaults to 2000000', () => {
+    expect(loadConfig().STREAM_COMPRESS_CLIP_THRESHOLD).toBe(2_000_000)
   })
 })
 
