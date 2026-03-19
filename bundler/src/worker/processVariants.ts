@@ -26,7 +26,7 @@ import { CORPORA_CREATOR_CLIP_SPLIT_FILES, CORPORA_CREATOR_FILES } from '../infr
 import { TSV_COLUMNS } from '../core/clips'
 import { flushReleaseLogs } from '../core/releaseLogger'
 import { compressPipeline } from '../core/compress'
-import { uploadDatasetToPath } from '../core/upload'
+import { uploadDataset } from '../core/upload'
 import { statsPipeline } from '../core/stats'
 import { scanLocaleData } from '../core/localeData'
 import { metadataPipeline } from '../core/metadata'
@@ -174,31 +174,6 @@ export const deriveVariantEnv = (
     startTimestamp: new Date().toISOString(),
   }
 }
-
-// ---------------------------------------------------------------------------
-// uploadToGcsDir -- upload a tarball to a specific GCS directory
-// ---------------------------------------------------------------------------
-
-/**
- * Uploads a tarball to a specific GCS directory. Unlike `uploadDataset` which
- * derives the directory from the tarball's releaseName, this allows uploading
- * to a different directory -- e.g. uploading a tarball named with the base
- * releaseName into the `${releaseName}-variants/` directory.
- */
-const uploadToGcsDir = (
-  tarFilepath: string,
-  gcsDir: string,
-): TE.TaskEither<Error, string> =>
-  pipe(
-    TE.Do,
-    TE.let('readStream', () => fs.createReadStream(tarFilepath)),
-    TE.let('filename', () => path.basename(tarFilepath)),
-    TE.let('uploadPath', ({ filename }) => `${gcsDir}/${filename}`),
-    TE.chainFirst(({ readStream, uploadPath }) =>
-      uploadDatasetToPath(uploadPath)(readStream),
-    ),
-    TE.map(({ uploadPath }) => uploadPath),
-  )
 
 // ---------------------------------------------------------------------------
 // rewriteLocaleColumn -- rewrite locale column in CC output TSV files
@@ -646,7 +621,7 @@ export const processVariants = async (job: Job<ProcessLocaleJob>) => {
 
       // 5i. Upload tarball to GCS -- skip when already streamed during compress
       if (!cr.streamed) {
-        const uploadResult = await uploadToGcsDir(cr.tarballFilepath, effectiveReleaseName)()
+        const uploadResult = await uploadDataset(cr.tarballFilepath, effectiveReleaseName)()
         if (E.isLeft(uploadResult)) {
           logger.error('VARIANTS', `[${compoundLocale}] Upload failed: ${String(uploadResult.left)}`)
           await flushReleaseLogs(env, 'error')
