@@ -1,4 +1,4 @@
-import { execSync } from 'node:child_process'
+import { execFileSync } from 'node:child_process'
 import * as crypto from 'node:crypto'
 import * as fs from 'node:fs'
 import * as path from 'node:path'
@@ -30,7 +30,7 @@ const DISK_SLACK_BYTES = 10 * 1024 * 1024 * 1024 // 10 GB
  */
 const getDirSizeBytes = (dirPath: string): number => {
   try {
-    const output = execSync(`du -sb "${dirPath}"`, {
+    const output = execFileSync('du', ['-sb', dirPath], {
       encoding: 'utf8',
       stdio: ['pipe', 'pipe', 'pipe'],
       timeout: 60_000,

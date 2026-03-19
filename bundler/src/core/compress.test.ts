@@ -9,7 +9,7 @@ import { STREAM_COMPRESS_CLIP_THRESHOLD } from '../config'
 
 jest.mock('node:child_process', () => ({
   ...jest.requireActual('node:child_process'),
-  execSync: jest.fn(),
+  execFileSync: jest.fn(),
 }))
 
 jest.mock('node:fs', () => ({
@@ -18,7 +18,7 @@ jest.mock('node:fs', () => ({
 }))
 
 // eslint-disable-next-line @typescript-eslint/no-var-requires
-const { execSync: mockExecSync } = require('node:child_process') as { execSync: jest.Mock }
+const { execFileSync: mockExecFileSync } = require('node:child_process') as { execFileSync: jest.Mock }
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 const { statfsSync: mockStatfsSync } = require('node:fs') as { statfsSync: jest.Mock }
 
@@ -210,7 +210,7 @@ describe('shouldStreamToGCS', () => {
   it('uses local file when disk has enough space', () => {
     const ONE_GB = 1_073_741_824
     // du reports 1 GB data
-    mockExecSync.mockReturnValue(`${ONE_GB}\t/release/en\n`)
+    mockExecFileSync.mockReturnValue(`${ONE_GB}\t/release/en\n`)
     // 50 GB free (well above 1 GB data + 10 GB slack)
     mockStatfsSync.mockReturnValue({ bavail: 50 * ONE_GB, bsize: 1 })
 
@@ -220,7 +220,7 @@ describe('shouldStreamToGCS', () => {
   it('streams when disk space is insufficient', () => {
     const ONE_GB = 1_073_741_824
     // du reports 20 GB data
-    mockExecSync.mockReturnValue(`${20 * ONE_GB}\t/release/en\n`)
+    mockExecFileSync.mockReturnValue(`${20 * ONE_GB}\t/release/en\n`)
     // 25 GB free (< 20 GB data + 10 GB slack = 30 GB needed)
     mockStatfsSync.mockReturnValue({ bavail: 25 * ONE_GB, bsize: 1 })
 
@@ -228,7 +228,7 @@ describe('shouldStreamToGCS', () => {
   })
 
   it('streams when du measurement fails', () => {
-    mockExecSync.mockImplementation(() => { throw new Error('du failed') })
+    mockExecFileSync.mockImplementation(() => { throw new Error('du failed') })
 
     expect(shouldStreamToGCS(100, '/release', 'en')).toBe(true)
   })
