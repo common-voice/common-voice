@@ -29,6 +29,7 @@ Environment variables:
   MDC_API_KEY_PROD  MDC API key for prod target (required for -ut prod)
   MDC_API_URL       Override MDC API base URL (default: from -ut)
   UPLOAD_BASE_DIR              Override --base-dir (highest priority after CLI flag)
+  UPLOAD_LOG_FILE              Override --log-file
   DATASETS_BUNDLER_BUCKET_NAME Auto-resolves to gs://<value> (shared with bundler)
 """
 
@@ -94,6 +95,14 @@ Environment variables:
     "are retried; config is restored from the file.",
 )
 @click.option("--dry-run", is_flag=True, help="Preview what would be uploaded without calling MDC.")
+@click.option(
+    "--log-file",
+    type=click.Path(dir_okay=False),
+    default=None,
+    envvar="UPLOAD_LOG_FILE",
+    help="Path to write log output (in addition to stderr). "
+    "Always captures DEBUG level regardless of -v.",
+)
 @click.option("-v", "--verbose", is_flag=True, help="Enable debug-level logging.")
 def cli(
     release: str | None,
@@ -104,13 +113,14 @@ def cli(
     submission_id: str | None,
     retry_failed: str | None,
     dry_run: bool,
+    log_file: str | None,
     verbose: bool,
 ) -> None:
     """Upload Common Voice release tarballs to Mozilla Data Collective (MDC) via API.
 
     Attaches datasheet metadata to each submission, displayed on the MDC dataset page.
     """
-    setup_logging(verbose)
+    setup_logging(verbose, log_file=log_file)
 
     try:
         _run(
