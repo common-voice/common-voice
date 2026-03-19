@@ -328,13 +328,21 @@ def process_locale(  # pylint: disable=too-many-return-statements,too-many-branc
         # Only needs language data + submission metadata, not the tarball.
         if job.orphaned_submission_id and job.orphaned_file_upload_id:
             assert client is not None
+            # Read datasheet without downloading the tarball
+            datasheet_text = ""
+            if job.datasheet_path:
+                if is_gcs_uri(base_dir):
+                    datasheet_text = gcs_read_text(base_dir, job.datasheet_path) or ""
+                elif os.path.exists(job.datasheet_path):
+                    with open(job.datasheet_path, encoding="utf-8") as f:
+                        datasheet_text = f.read()
             submission = client.build_submission(
                 release_spec=job.release_spec,
                 english_name=english_name,
                 native_name=native_name,
                 locale=locale,
                 license_name=job.license_type,
-                datasheet_text="",
+                datasheet_text=datasheet_text,
             )
             logger.info(
                 "UPLOAD",

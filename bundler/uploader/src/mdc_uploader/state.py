@@ -8,7 +8,7 @@ from datetime import UTC, datetime
 
 from mdc_uploader.log import logger
 from mdc_uploader.models import UploadResult
-from mdc_uploader.typedef import LocaleStateEntry, RetryStateData
+from mdc_uploader.typedef import LocaleStateEntry, RetryStateData, _OrphanedSubmission
 
 # Default state directory: .state/ relative to CWD.
 # Override via UPLOAD_STATE_DIR env var (e.g. for containers with a specific writable path).
@@ -105,7 +105,7 @@ def load_state_for_retry(path: str) -> RetryStateData:
         raise ValueError(f"No failed locales found in {path}")
 
     # Extract orphaned submissions that can be recovered (steps 3+4 only)
-    orphaned: dict[str, dict[str, str]] = {}
+    orphaned: dict[str, _OrphanedSubmission] = {}
     for locale, info in locales_data.items():
         if (
             info.get("status") == "failed"
@@ -113,10 +113,10 @@ def load_state_for_retry(path: str) -> RetryStateData:
             and info.get("submission_id")
             and info.get("file_upload_id")
         ):
-            orphaned[locale] = {
-                "submission_id": str(info["submission_id"]),
-                "file_upload_id": str(info["file_upload_id"]),
-            }
+            orphaned[locale] = _OrphanedSubmission(
+                submission_id=str(info["submission_id"]),
+                file_upload_id=str(info["file_upload_id"]),
+            )
 
     logger.info(
         "STATE",
@@ -139,5 +139,5 @@ def load_state_for_retry(path: str) -> RetryStateData:
         type=str(data.get("type", "full")),
         base_dir=str(data["base_dir"]) if data.get("base_dir") else None,
         failed_locales=failed_locales,
-        orphaned_submissions=orphaned,  # type: ignore[typeddict-item]
+        orphaned_submissions=orphaned,
     )
