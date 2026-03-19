@@ -6,6 +6,7 @@ import os
 import re
 from typing import Any
 
+import datacollective.upload as _dc_upload
 from datacollective import (
     DatasetSubmission,
     License,
@@ -33,6 +34,12 @@ from mdc_uploader.constants import (
 )
 from mdc_uploader.log import logger
 from mdc_uploader.models import ReleaseSpec
+
+# -- Override SDK defaults -----------------------------------------------------
+# Part size: 64 MB reduces round-trips 92% vs 5 MB default
+# Max upload: 150 GB.
+_dc_upload.DEFAULT_PART_SIZE = 64 * 1024 * 1024  # pyright: ignore[reportAttributeAccessIssue] # 64 MB
+_dc_upload.MAX_UPLOAD_BYTES = 150 * 1000 * 1000 * 1000  # pyright: ignore[reportAttributeAccessIssue] # 150 GB
 
 # -- 429 / transient error detection ------------------------------------------
 
@@ -203,12 +210,16 @@ class MDCClient:
             ) from exc
         file_upload_id: str = upload_state.fileUploadId
         logger.info(
-            "MDC", "Step 2/4: Upload complete (file_upload_id=%s)", file_upload_id,
+            "MDC",
+            "Step 2/4: Upload complete (file_upload_id=%s)",
+            file_upload_id,
         )
 
         # Steps 3+4: Update metadata and submit
         return self._finalize_submission(
-            submission_id, file_upload_id, submission,
+            submission_id,
+            file_upload_id,
+            submission,
         )
 
     def recover_submission(
@@ -224,13 +235,14 @@ class MDCClient:
         """
         logger.info(
             "MDC",
-            "Recovering orphaned draft %s (skipping steps 1-2, "
-            "file_upload_id=%s)",
+            "Recovering orphaned draft %s (skipping steps 1-2, file_upload_id=%s)",
             submission_id,
             file_upload_id,
         )
         return self._finalize_submission(
-            submission_id, file_upload_id, submission,
+            submission_id,
+            file_upload_id,
+            submission,
         )
 
     def _finalize_submission(
@@ -260,7 +272,8 @@ class MDCClient:
         logger.info("MDC", "Step 4/4: Submitting %s for review...", submission_id)
         try:
             response: dict[str, Any] = submit_submission(
-                submission_id, submission,
+                submission_id,
+                submission,
             )
         except Exception as exc:
             _log_step_error("Step 4/4: Submit failed", exc, submission)
@@ -318,8 +331,11 @@ def _log_step_error(
     status_code, response_body = _extract_response_detail(exc)
     if response_body:
         logger.error(
-            "MDC", "%s -- HTTP %s | Response body: %s",
-            step, status_code, response_body,
+            "MDC",
+            "%s -- HTTP %s | Response body: %s",
+            step,
+            status_code,
+            response_body,
         )
     logger.error("MDC", "%s -- [%s]: %s", step, type(exc).__name__, exc)
 
