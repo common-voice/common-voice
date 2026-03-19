@@ -18,6 +18,9 @@ For architecture and development details see [DEVELOPER.md](DEVELOPER.md).
 - Can preview uploads without calling MDC via `--dry-run`
 - Can read files from local directories, GCS buckets (`gs://` URIs), or GCSFuse mounts (if available)
 - Can handle 429 rate limiting with Retry-After awareness and automatic retries
+- Can recover orphaned drafts on retry -- if upload succeeded but metadata update failed, `--retry-failed` skips re-upload and resumes from step 3
+- Can log full HTTP request payloads and response bodies on error for debugging
+- Can write all output to a log file via `--log-file` (always captures DEBUG level)
 - Can persist batch state to JSON after each locale for `--retry-failed` support (local filesystem only, does not survive pod crashes for now)
 
 ## Data Pipeline
@@ -119,7 +122,8 @@ Optional:
        --submission-id TEXT                    Existing MDC submission ID (version update mode)
        --retry-failed FILE                     State JSON from a previous run (retries failed only)
        --dry-run                               Preview without uploading
-  -v,  --verbose                               Debug logging
+       --log-file PATH                         Write log output to file (always DEBUG level)
+  -v,  --verbose                               Debug logging on console
   -h,  --help                                  Show help and exit
 ```
 
