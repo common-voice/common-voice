@@ -38,8 +38,12 @@ from mdc_uploader.models import ReleaseSpec
 # -- Override SDK defaults -----------------------------------------------------
 # Part size: 64 MB reduces round-trips 92% vs 5 MB default
 # Max upload: 150 GB.
-_dc_upload.DEFAULT_PART_SIZE = 64 * 1024 * 1024  # pyright: ignore[reportAttributeAccessIssue] # 64 MB
-_dc_upload.MAX_UPLOAD_BYTES = 150 * 1000 * 1000 * 1000  # pyright: ignore[reportAttributeAccessIssue] # 150 GB
+_dc_upload.DEFAULT_PART_SIZE = (  # pyright: ignore[reportAttributeAccessIssue]
+    64 * 1024 * 1024  # 64 MB
+)
+_dc_upload.MAX_UPLOAD_BYTES = (  # pyright: ignore[reportAttributeAccessIssue]
+    150 * 1000 * 1000 * 1000  # 150 GB
+)
 
 # -- 429 / transient error detection ------------------------------------------
 
@@ -320,6 +324,9 @@ class OrphanedDraftError(Exception):
         super().__init__(f"Orphaned draft {submission_id}: {message}")
 
 
+_MAX_LOG_BODY = 2000  # cap logged response/payload bodies
+
+
 def _log_step_error(
     step: str,
     exc: Exception,
@@ -327,16 +334,16 @@ def _log_step_error(
 ) -> None:
     """Log detailed error info for a failed submission step."""
     payload = submission.model_dump(exclude_none=True)  # type: ignore[attr-defined]
+    # "other" is the full datasheet text -- replace with length summary
+    if "other" in payload:
+        payload["other"] = f"<datasheet {len(payload['other'])} chars>"
     logger.error("MDC", "%s -- Request payload: %s", step, payload)
     status_code, response_body = _extract_response_detail(exc)
     if response_body:
-        logger.error(
-            "MDC",
-            "%s -- HTTP %s | Response body: %s",
-            step,
-            status_code,
-            response_body,
-        )
+        body = response_body[:_MAX_LOG_BODY]
+        if len(response_body) > _MAX_LOG_BODY:
+            body += f"... ({len(response_body)} chars total)"
+        logger.error("MDC", "%s -- HTTP %s | Response body: %s", step, status_code, body)
     logger.error("MDC", "%s -- [%s]: %s", step, type(exc).__name__, exc)
 
 
@@ -344,7 +351,10 @@ def _wrap_exception(exc: Exception) -> Exception:
     """Wrap SDK exceptions into retryable categories."""
     status_code, response_body = _extract_response_detail(exc)
     if response_body:
-        logger.error("MDC", "HTTP %s | Response body: %s", status_code, response_body)
+        body = response_body[:_MAX_LOG_BODY]
+        if len(response_body) > _MAX_LOG_BODY:
+            body += f"... ({len(response_body)} chars total)"
+        logger.error("MDC", "HTTP %s | Response body: %s", status_code, body)
     logger.error("MDC", "SDK exception [%s]: %s", type(exc).__name__, exc)
     exc_str = str(exc).lower()
     # Check for 429
