@@ -62,6 +62,9 @@ class LocaleUploadJob:
     file_size: int
     submission_id: str | None = None  # None = new submission, set = version update
     license_type: str | None = None  # e.g. "CC-BY 4.0" for licensed releases
+    # Recovery data from --retry-failed: skip steps 1-2, go straight to 3+4
+    orphaned_submission_id: str | None = None
+    orphaned_file_upload_id: str | None = None
 
 
 @dataclass
@@ -71,6 +74,7 @@ class UploadResult:
     locale: str
     status: UploadStatus
     submission_id: str | None = None
+    file_upload_id: str | None = None
     size_bytes: int = 0
     duration_seconds: float = 0.0
     error: str | None = None

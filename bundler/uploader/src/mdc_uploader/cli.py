@@ -200,6 +200,7 @@ def _run(
             verbose=verbose,
             mdc_api_key=mdc_api_key,
             mdc_api_url=mdc_api_url,
+            orphaned_submissions=state.get("orphaned_submissions"),
         )
         logger.info(
             "RETRY",

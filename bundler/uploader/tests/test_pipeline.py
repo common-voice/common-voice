@@ -1,10 +1,12 @@
 """Tests for pipeline.py with mocked MDC client."""
 
-from unittest.mock import patch
+import os
+from unittest.mock import MagicMock, patch
 
 import pytest
 
 from mdc_uploader.config import UploaderConfig
+from mdc_uploader.mdc import OrphanedDraftError
 from mdc_uploader.models import LocaleUploadJob, ReleaseType
 from mdc_uploader.naming import parse_release_name
 from mdc_uploader.pipeline import build_jobs, process_locale, run_batch
@@ -179,3 +181,153 @@ class TestRunBatch:
 
         success = run_batch(dry_config)
         assert success is True
+
+
+class TestGcsTempCleanup:
+    """Tests for GCS temp file preservation on failure."""
+
+    def _make_gcs_job(
+        self, tmp_path, locale: str = "br"
+    ) -> tuple[LocaleUploadJob, str, str]:
+        """Create a job with a real temp tarball simulating GCS download.
+
+        Returns (job, tarball_path, tmp_dir).
+        """
+        # Simulate a GCS-downloaded temp directory
+        tmp_dir = str(tmp_path / "gcs_tmp")
+        os.makedirs(tmp_dir, exist_ok=True)
+        tarball = os.path.join(tmp_dir, f"test-{locale}.tar.gz")
+        with open(tarball, "wb") as f:
+            f.write(b"x" * 100)
+
+        spec = parse_release_name("sps-corpus-3.0-2026-03-09")
+        job = LocaleUploadJob(
+            locale=locale,
+            release_spec=spec,
+            release_type=ReleaseType.FULL,
+            tarball_path=tarball,
+            datasheet_path=None,
+            file_size=100,
+        )
+        return job, tarball, tmp_dir
+
+    @patch("mdc_uploader.pipeline.language")
+    @patch("mdc_uploader.pipeline.is_gcs_uri")
+    @patch("mdc_uploader.pipeline._resolve_file_and_datasheet")
+    def test_deletes_tarball_on_failure(
+        self, mock_resolve, mock_is_gcs, mock_lang, tmp_path
+    ) -> None:
+        """On failure, temp tarball is deleted to save disk."""
+        job, tarball, tmp_dir = self._make_gcs_job(tmp_path)
+
+        mock_resolve.return_value = (tarball, "", None)
+        mock_is_gcs.return_value = True
+        mock_lang.find.return_value = {
+            "code": "br", "english_name": "Breton",
+            "native_name": "Brezhoneg",
+        }
+
+        mock_client = MagicMock()
+        mock_client.build_submission.return_value = MagicMock()
+        mock_client.create_and_upload.side_effect = RuntimeError(
+            "400 Bad Request"
+        )
+
+        result = process_locale(
+            job, mock_client, dry_run=False, base_dir="gs://bucket"
+        )
+
+        assert result.status == "failed"
+        assert not os.path.exists(tarball), "Tarball must be deleted"
+
+    @patch("mdc_uploader.pipeline.language")
+    @patch("mdc_uploader.pipeline.is_gcs_uri")
+    @patch("mdc_uploader.pipeline._resolve_file_and_datasheet")
+    def test_cleans_temp_on_success(
+        self, mock_resolve, mock_is_gcs, mock_lang, tmp_path
+    ) -> None:
+        """On success, temp tarball and dir are cleaned up."""
+        job, tarball, tmp_dir = self._make_gcs_job(tmp_path)
+
+        mock_resolve.return_value = (tarball, "", None)
+        mock_is_gcs.return_value = True
+        mock_lang.find.return_value = {
+            "code": "br", "english_name": "Breton",
+            "native_name": "Brezhoneg",
+        }
+
+        mock_client = MagicMock()
+        mock_client.build_submission.return_value = MagicMock()
+        mock_client.create_and_upload.return_value = ("sub-123", True)
+
+        result = process_locale(
+            job, mock_client, dry_run=False, base_dir="gs://bucket"
+        )
+
+        assert result.status == "success"
+        assert not os.path.exists(tarball), "Tarball should be cleaned"
+        assert not os.path.isdir(tmp_dir), "Temp dir should be cleaned"
+
+    @patch("mdc_uploader.pipeline.language")
+    @patch("mdc_uploader.pipeline.is_gcs_uri")
+    @patch("mdc_uploader.pipeline._resolve_file_and_datasheet")
+    def test_preserves_mdc_state_on_failure(
+        self, mock_resolve, mock_is_gcs, mock_lang, tmp_path
+    ) -> None:
+        """On failure, .mdc-upload.json is preserved (tarball deleted)."""
+        job, tarball, tmp_dir = self._make_gcs_job(tmp_path)
+
+        state_file = os.path.join(
+            tmp_dir, f"test-{job.locale}.tar.gz.mdc-upload.json"
+        )
+        with open(state_file, "w", encoding="utf-8") as f:
+            f.write("{}")
+
+        mock_resolve.return_value = (tarball, "", None)
+        mock_is_gcs.return_value = True
+        mock_lang.find.return_value = {
+            "code": "br", "english_name": "Breton",
+            "native_name": "Brezhoneg",
+        }
+
+        mock_client = MagicMock()
+        mock_client.build_submission.return_value = MagicMock()
+        mock_client.create_and_upload.side_effect = RuntimeError("fail")
+
+        process_locale(
+            job, mock_client, dry_run=False, base_dir="gs://bucket"
+        )
+
+        assert not os.path.exists(tarball), "Tarball must be deleted"
+        assert os.path.exists(state_file), "State file must be preserved"
+
+    @patch("mdc_uploader.pipeline.language")
+    @patch("mdc_uploader.pipeline.is_gcs_uri")
+    @patch("mdc_uploader.pipeline._resolve_file_and_datasheet")
+    def test_orphaned_draft_captures_file_upload_id(
+        self, mock_resolve, mock_is_gcs, mock_lang, tmp_path
+    ) -> None:
+        """OrphanedDraftError result carries file_upload_id."""
+        job, tarball, _ = self._make_gcs_job(tmp_path)
+
+        mock_resolve.return_value = (tarball, "", None)
+        mock_is_gcs.return_value = True
+        mock_lang.find.return_value = {
+            "code": "br", "english_name": "Breton",
+            "native_name": "Brezhoneg",
+        }
+
+        mock_client = MagicMock()
+        mock_client.build_submission.return_value = MagicMock()
+        mock_client.create_and_upload.side_effect = OrphanedDraftError(
+            "sub-X", "metadata failed", file_upload_id="fup-X",
+        )
+
+        result = process_locale(
+            job, mock_client, dry_run=False, base_dir="gs://bucket"
+        )
+
+        assert result.status == "failed"
+        assert result.orphaned_draft is True
+        assert result.submission_id == "sub-X"
+        assert result.file_upload_id == "fup-X"

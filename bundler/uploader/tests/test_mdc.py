@@ -4,10 +4,12 @@ from __future__ import annotations
 
 from unittest.mock import MagicMock, patch
 
+import pytest
 from requests import Response
 from requests.exceptions import HTTPError
 
 from mdc_uploader.mdc import (
+    MDCClient,
     OrphanedDraftError,
     RateLimitError,
     TransientError,
@@ -224,3 +226,159 @@ class TestOrphanedDraftError:
         )
         assert exc.file_upload_id == "upload-456"
         assert exc.response_body == '{"error":"bad locale"}'
+
+
+class TestCreateAndUpload:
+    """Tests for step-by-step create_and_upload flow."""
+
+    def _client(self) -> MDCClient:
+        """Build an MDCClient without real env vars."""
+        return MDCClient(api_key="test", api_url="http://test")
+
+    @patch("mdc_uploader.mdc.submit_submission")
+    @patch("mdc_uploader.mdc.update_submission")
+    @patch("mdc_uploader.mdc.upload_dataset_file")
+    @patch("mdc_uploader.mdc.create_submission_draft")
+    def test_success_full_flow(
+        self, mock_draft, mock_upload, mock_update, mock_submit,
+    ) -> None:
+        """Full success: all 4 steps complete."""
+        mock_draft.return_value = {
+            "submission": {"id": "sub-1"},
+        }
+        mock_upload_state = MagicMock()
+        mock_upload_state.fileUploadId = "fup-1"
+        mock_upload.return_value = mock_upload_state
+        mock_update.return_value = {}
+        mock_submit.return_value = {
+            "submission": {"status": "submitted"},
+        }
+
+        sub_id, ok = self._client().create_and_upload(
+            "/fake/file.tar.gz", MagicMock(),
+        )
+        assert sub_id == "sub-1"
+        assert ok is True
+        mock_draft.assert_called_once()
+        mock_upload.assert_called_once()
+        mock_update.assert_called_once()
+        mock_submit.assert_called_once()
+
+    @patch("mdc_uploader.mdc.create_submission_draft")
+    def test_draft_failure_no_orphan(self, mock_draft) -> None:
+        """Draft failure raises directly, no OrphanedDraftError."""
+        mock_draft.side_effect = RuntimeError("auth failed")
+
+        with pytest.raises(RuntimeError, match="auth failed"):
+            self._client().create_and_upload(
+                "/fake/file.tar.gz", MagicMock(),
+            )
+
+    @patch("mdc_uploader.mdc.upload_dataset_file")
+    @patch("mdc_uploader.mdc.create_submission_draft")
+    def test_upload_failure_orphaned_draft(
+        self, mock_draft, mock_upload,
+    ) -> None:
+        """Upload failure raises OrphanedDraftError with submission_id."""
+        mock_draft.return_value = {
+            "submission": {"id": "sub-2"},
+        }
+        mock_upload.side_effect = RuntimeError("network error")
+
+        with pytest.raises(OrphanedDraftError) as exc_info:
+            self._client().create_and_upload(
+                "/fake/file.tar.gz", MagicMock(),
+            )
+        assert exc_info.value.submission_id == "sub-2"
+        assert exc_info.value.file_upload_id is None
+
+    @patch("mdc_uploader.mdc.update_submission")
+    @patch("mdc_uploader.mdc.upload_dataset_file")
+    @patch("mdc_uploader.mdc.create_submission_draft")
+    def test_metadata_400_orphaned_with_ids(
+        self, mock_draft, mock_upload, mock_update,
+    ) -> None:
+        """Metadata update 400 raises OrphanedDraftError with both IDs."""
+        mock_draft.return_value = {
+            "submission": {"id": "sub-3"},
+        }
+        mock_upload_state = MagicMock()
+        mock_upload_state.fileUploadId = "fup-3"
+        mock_upload.return_value = mock_upload_state
+        mock_update.side_effect = _make_http_error(
+            400, '{"error":"bad locale"}',
+        )
+
+        with pytest.raises(OrphanedDraftError) as exc_info:
+            self._client().create_and_upload(
+                "/fake/file.tar.gz", MagicMock(),
+            )
+        assert exc_info.value.submission_id == "sub-3"
+        assert exc_info.value.file_upload_id == "fup-3"
+        assert exc_info.value.response_body == '{"error":"bad locale"}'
+
+    @patch("mdc_uploader.mdc.submit_submission")
+    @patch("mdc_uploader.mdc.update_submission")
+    @patch("mdc_uploader.mdc.upload_dataset_file")
+    @patch("mdc_uploader.mdc.create_submission_draft")
+    def test_submit_failure_orphaned_with_ids(
+        self, mock_draft, mock_upload, mock_update, mock_submit,
+    ) -> None:
+        """Submit failure raises OrphanedDraftError with both IDs."""
+        mock_draft.return_value = {
+            "submission": {"id": "sub-4"},
+        }
+        mock_upload_state = MagicMock()
+        mock_upload_state.fileUploadId = "fup-4"
+        mock_upload.return_value = mock_upload_state
+        mock_update.return_value = {}
+        mock_submit.side_effect = _make_http_error(500, "server error")
+
+        with pytest.raises(OrphanedDraftError) as exc_info:
+            self._client().create_and_upload(
+                "/fake/file.tar.gz", MagicMock(),
+            )
+        assert exc_info.value.submission_id == "sub-4"
+        assert exc_info.value.file_upload_id == "fup-4"
+
+
+class TestRecoverSubmission:
+    """Tests for recover_submission (retry from step 3)."""
+
+    def _client(self) -> MDCClient:
+        return MDCClient(api_key="test", api_url="http://test")
+
+    @patch("mdc_uploader.mdc.submit_submission")
+    @patch("mdc_uploader.mdc.update_submission")
+    def test_recovery_success(
+        self, mock_update, mock_submit,
+    ) -> None:
+        """Recovery completes steps 3+4 without re-uploading."""
+        mock_update.return_value = {}
+        mock_submit.return_value = {
+            "submission": {"status": "submitted"},
+        }
+
+        sub_id, ok = self._client().recover_submission(
+            submission_id="sub-orphan",
+            file_upload_id="fup-orphan",
+            submission=MagicMock(),
+        )
+        assert sub_id == "sub-orphan"
+        assert ok is True
+
+    @patch("mdc_uploader.mdc.update_submission")
+    def test_recovery_metadata_failure(self, mock_update) -> None:
+        """Recovery metadata failure raises OrphanedDraftError."""
+        mock_update.side_effect = _make_http_error(
+            400, '{"error":"still bad"}',
+        )
+
+        with pytest.raises(OrphanedDraftError) as exc_info:
+            self._client().recover_submission(
+                submission_id="sub-orphan",
+                file_upload_id="fup-orphan",
+                submission=MagicMock(),
+            )
+        assert exc_info.value.submission_id == "sub-orphan"
+        assert exc_info.value.file_upload_id == "fup-orphan"

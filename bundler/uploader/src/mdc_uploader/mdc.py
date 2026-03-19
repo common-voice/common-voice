@@ -10,7 +10,9 @@ from datacollective import (
     DatasetSubmission,
     License,
     Task,
-    create_submission_with_upload,
+    create_submission_draft,
+    submit_submission,
+    update_submission,
     upload_dataset_file,
 )
 from tenacity import (
@@ -166,32 +168,111 @@ class MDCClient:
         file_path: str,
         submission: DatasetSubmission,
     ) -> tuple[str, bool]:
-        """Single-call submission: create + upload + metadata + agree + submit.
+        """Step-by-step submission using the SDK's documented public API.
 
-        Uses the SDK's create_submission_with_upload which handles the full flow
-        in one call. NO outer retry -- retrying creates orphaned drafts because
-        each attempt starts a new draft. The SDK already handles upload resumption
-        via its own state file.
+        Steps: (1) create draft, (2) upload file, (3) update metadata,
+        (4) submit for review.  Each step has per-step error handling so
+        we capture the submission_id and file_upload_id for recovery.
 
         Returns (submission_id, success).
         """
+        # Step 1: Create draft
+        logger.info("MDC", "Step 1/4: Creating draft submission...")
         try:
-            response: dict[str, Any] = create_submission_with_upload(
-                file_path=file_path,
-                submission=submission,
-            )
-        except Exception as exc:  # pylint: disable=broad-exception-caught
-            payload = submission.model_dump(exclude_none=True)  # type: ignore[attr-defined]
-            logger.error("MDC", "Request payload: %s", payload)
-            status_code, response_body = _extract_response_detail(exc)
-            if response_body:
-                logger.error(
-                    "MDC", "HTTP %s | Response body: %s", status_code, response_body
-                )
+            draft = create_submission_draft(submission)
+        except Exception as exc:
+            _log_step_error("Step 1/4: Draft creation failed", exc, submission)
             raise
-        submission_id = response.get("submission", {}).get("id", "unknown")
+        submission_id: str = draft.get("submission", {}).get("id", "")
+        if not submission_id:
+            raise RuntimeError("Draft creation did not return a submission ID")
+        logger.info("MDC", "Step 1/4: Draft created (submission_id=%s)", submission_id)
+
+        # Step 2: Upload file
+        logger.info("MDC", "Step 2/4: Uploading %s...", os.path.basename(file_path))
+        try:
+            upload_state = upload_dataset_file(
+                file_path=file_path,
+                submission_id=submission_id,
+            )
+        except Exception as exc:
+            _log_step_error("Step 2/4: Upload failed", exc, submission)
+            raise OrphanedDraftError(
+                submission_id=submission_id,
+                message=f"Upload failed: {exc}",
+            ) from exc
+        file_upload_id: str = upload_state.fileUploadId
+        logger.info(
+            "MDC", "Step 2/4: Upload complete (file_upload_id=%s)", file_upload_id,
+        )
+
+        # Steps 3+4: Update metadata and submit
+        return self._finalize_submission(
+            submission_id, file_upload_id, submission,
+        )
+
+    def recover_submission(
+        self,
+        submission_id: str,
+        file_upload_id: str,
+        submission: DatasetSubmission,
+    ) -> tuple[str, bool]:
+        """Resume a failed submission from step 3 (metadata update).
+
+        Used by --retry-failed when the upload succeeded but metadata
+        update or submit failed.  Skips draft creation and file upload.
+        """
+        logger.info(
+            "MDC",
+            "Recovering orphaned draft %s (skipping steps 1-2, "
+            "file_upload_id=%s)",
+            submission_id,
+            file_upload_id,
+        )
+        return self._finalize_submission(
+            submission_id, file_upload_id, submission,
+        )
+
+    def _finalize_submission(
+        self,
+        submission_id: str,
+        file_upload_id: str,
+        submission: DatasetSubmission,
+    ) -> tuple[str, bool]:
+        """Steps 3+4: update metadata and submit for review."""
+        submission.fileUploadId = file_upload_id  # type: ignore[attr-defined]
+
+        # Step 3: Update metadata
+        logger.info("MDC", "Step 3/4: Updating metadata for %s...", submission_id)
+        try:
+            update_submission(submission_id, submission)
+        except Exception as exc:
+            _log_step_error("Step 3/4: Metadata update failed", exc, submission)
+            raise OrphanedDraftError(
+                submission_id=submission_id,
+                message=f"Metadata update failed: {exc}",
+                file_upload_id=file_upload_id,
+                response_body=_extract_response_detail(exc)[1],
+            ) from exc
+        logger.info("MDC", "Step 3/4: Metadata updated")
+
+        # Step 4: Submit for review
+        logger.info("MDC", "Step 4/4: Submitting %s for review...", submission_id)
+        try:
+            response: dict[str, Any] = submit_submission(
+                submission_id, submission,
+            )
+        except Exception as exc:
+            _log_step_error("Step 4/4: Submit failed", exc, submission)
+            raise OrphanedDraftError(
+                submission_id=submission_id,
+                message=f"Submit failed: {exc}",
+                file_upload_id=file_upload_id,
+                response_body=_extract_response_detail(exc)[1],
+            ) from exc
+
         status = response.get("submission", {}).get("status", "unknown")
-        logger.info("MDC", "Submitted %s -- status: %s", submission_id, status)
+        logger.info("MDC", "Step 4/4: Submitted -- status: %s", status)
         return submission_id, True
 
     @retry(
@@ -224,6 +305,23 @@ class OrphanedDraftError(Exception):
         self.file_upload_id = file_upload_id
         self.response_body = response_body
         super().__init__(f"Orphaned draft {submission_id}: {message}")
+
+
+def _log_step_error(
+    step: str,
+    exc: Exception,
+    submission: DatasetSubmission,
+) -> None:
+    """Log detailed error info for a failed submission step."""
+    payload = submission.model_dump(exclude_none=True)  # type: ignore[attr-defined]
+    logger.error("MDC", "%s -- Request payload: %s", step, payload)
+    status_code, response_body = _extract_response_detail(exc)
+    if response_body:
+        logger.error(
+            "MDC", "%s -- HTTP %s | Response body: %s",
+            step, status_code, response_body,
+        )
+    logger.error("MDC", "%s -- [%s]: %s", step, type(exc).__name__, exc)
 
 
 def _wrap_exception(exc: Exception) -> Exception:

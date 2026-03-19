@@ -56,12 +56,16 @@ class BatchState:
         )
         if result.submission_id:
             entry["submission_id"] = result.submission_id
+        if result.file_upload_id:
+            entry["file_upload_id"] = result.file_upload_id
         if result.error:
             entry["error"] = result.error
         if result.orphaned_draft:
             entry["orphaned_draft"] = True
             if result.submission_id:
                 entry["submission_id"] = result.submission_id
+            if result.file_upload_id:
+                entry["file_upload_id"] = result.file_upload_id
 
         self.locales[result.locale] = entry
         self._flush()
@@ -100,6 +104,20 @@ def load_state_for_retry(path: str) -> RetryStateData:
     if not failed_locales:
         raise ValueError(f"No failed locales found in {path}")
 
+    # Extract orphaned submissions that can be recovered (steps 3+4 only)
+    orphaned: dict[str, dict[str, str]] = {}
+    for locale, info in locales_data.items():
+        if (
+            info.get("status") == "failed"
+            and info.get("orphaned_draft")
+            and info.get("submission_id")
+            and info.get("file_upload_id")
+        ):
+            orphaned[locale] = {
+                "submission_id": str(info["submission_id"]),
+                "file_upload_id": str(info["file_upload_id"]),
+            }
+
     logger.info(
         "STATE",
         "Loaded %d failed locales from %s: %s",
@@ -107,6 +125,13 @@ def load_state_for_retry(path: str) -> RetryStateData:
         path,
         ", ".join(failed_locales),
     )
+    if orphaned:
+        logger.info(
+            "STATE",
+            "%d locale(s) have orphaned drafts -- will retry from step 3: %s",
+            len(orphaned),
+            ", ".join(orphaned),
+        )
 
     return RetryStateData(
         release=str(data["release"]),
@@ -114,4 +139,5 @@ def load_state_for_retry(path: str) -> RetryStateData:
         type=str(data.get("type", "full")),
         base_dir=str(data["base_dir"]) if data.get("base_dir") else None,
         failed_locales=failed_locales,
+        orphaned_submissions=orphaned,  # type: ignore[typeddict-item]
     )
