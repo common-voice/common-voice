@@ -79,6 +79,25 @@ def _wait_for_retry(retry_state: RetryCallState) -> float:
     return wait
 
 
+# -- Response detail extraction ------------------------------------------------
+
+
+def _extract_response_detail(exc: Exception) -> tuple[int | None, str | None]:
+    """Extract HTTP status code and response body from a requests.HTTPError.
+
+    The datacollective SDK's send_api_request() calls raise_for_status() which
+    raises requests.HTTPError with the full Response attached as exc.response.
+    This lets us capture the server's error detail without coupling to SDK internals.
+    """
+    resp = getattr(exc, "response", None)
+    if resp is None:
+        return None, None
+    try:
+        return resp.status_code, resp.text
+    except (AttributeError, TypeError):  # noqa: BLE001
+        return None, None
+
+
 # -- License mapping ----------------------------------------------------------
 
 LICENSE_MAP: dict[str, License] = {
@@ -156,10 +175,20 @@ class MDCClient:
 
         Returns (submission_id, success).
         """
-        response: dict[str, Any] = create_submission_with_upload(
-            file_path=file_path,
-            submission=submission,
-        )
+        try:
+            response: dict[str, Any] = create_submission_with_upload(
+                file_path=file_path,
+                submission=submission,
+            )
+        except Exception as exc:  # pylint: disable=broad-exception-caught
+            payload = submission.model_dump(exclude_none=True)  # type: ignore[attr-defined]
+            logger.error("MDC", "Request payload: %s", payload)
+            status_code, response_body = _extract_response_detail(exc)
+            if response_body:
+                logger.error(
+                    "MDC", "HTTP %s | Response body: %s", status_code, response_body
+                )
+            raise
         submission_id = response.get("submission", {}).get("id", "unknown")
         status = response.get("submission", {}).get("status", "unknown")
         logger.info("MDC", "Submitted %s -- status: %s", submission_id, status)
@@ -184,15 +213,26 @@ class MDCClient:
 class OrphanedDraftError(Exception):
     """Raised when a draft was created but the upload/submit failed."""
 
-    def __init__(self, submission_id: str, message: str) -> None:
+    def __init__(
+        self,
+        submission_id: str,
+        message: str,
+        file_upload_id: str | None = None,
+        response_body: str | None = None,
+    ) -> None:
         self.submission_id = submission_id
+        self.file_upload_id = file_upload_id
+        self.response_body = response_body
         super().__init__(f"Orphaned draft {submission_id}: {message}")
 
 
 def _wrap_exception(exc: Exception) -> Exception:
     """Wrap SDK exceptions into retryable categories."""
-    exc_str = str(exc).lower()
+    status_code, response_body = _extract_response_detail(exc)
+    if response_body:
+        logger.error("MDC", "HTTP %s | Response body: %s", status_code, response_body)
     logger.error("MDC", "SDK exception [%s]: %s", type(exc).__name__, exc)
+    exc_str = str(exc).lower()
     # Check for 429
     if "429" in exc_str or "too many requests" in exc_str or "rate limit" in exc_str:
         # Try to extract Retry-After value
