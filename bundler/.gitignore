@@ -1,14 +1,15 @@
+# -- Node / TypeScript build output --
 dist
 js
 coverage
-*.tsv
-.env
-*.txt
-*.mp3
-*.tar.gz
-cv-corpus*
-cv-test-*
 
+# -- Dev and environment --
+.idea
+.vscode
+*.dev*
+.env
+
+# -- Python --
 .venv
 __pycache__
 *.pyc
@@ -17,7 +18,26 @@ __pycache__
 *.log
 *.bak
 *.swp
-.idea
-.vscode
-*.json
+.pytest_cache
+.mypy_cache
+.ruff_cache
 *.egg-info
+*.egg
+*.whl
+build
+
+# -- Bundler data and runtime artifacts --
+*.log
+*.csv
+*.tsv
+*.txt
+*.mp3
+*.tar.gz
+
+# -- Runtime JSON output (not config) --
+release-stats-*.json
+
+# -- Release output --
+cv-corpus*
+cv-test-*
+sps-corpus*

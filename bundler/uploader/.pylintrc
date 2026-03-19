@@ -1,0 +1,16 @@
+# Pylint config is also in pyproject.toml [tool.pylint.*] sections.
+# This file ensures IDEs auto-discover the project root for pylint.
+
+[MAIN]
+load-plugins=
+
+[MESSAGES CONTROL]
+disable=
+    import-error,
+    no-value-for-parameter
+
+[DESIGN]
+max-args=10
+max-positional-arguments=10
+max-locals=20
+max-attributes=12

@@ -1,0 +1,3 @@
+# State directory contents (keep the dir via .gitkeep, ignore runtime files)
+.state/*
+!.state/.gitkeep
