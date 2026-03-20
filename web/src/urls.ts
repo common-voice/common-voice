@@ -11,6 +11,8 @@ export default Object.freeze({
   CHALLENGE_TERMS: '/challenge-terms',
   CHECK_TRANSCRIPT: SPONTANEOUS_SPEECH_ROOT_URL + '/check-transcript',
   CRITERIA: '/criteria',
+  CV_DATASET: 'https://github.com/common-voice/cv-dataset',
+  CV_DATASHEETS: 'https://github.com/common-voice/cv-datasheets',
   DASHBOARD,
   DATA: '/data', // old, here for redirect purposes
   DATASETS:
