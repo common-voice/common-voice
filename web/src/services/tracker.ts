@@ -44,7 +44,9 @@ export function trackGlobal(
     | 'contact'
     | 'footer-newsletter'
     | 'matrix'
-    | 'blog',
+    | 'blog'
+    | 'mozilla-data-collective'
+    | 'community-datasheets',
   locale: string
 ) {
   track('Global', action, locale)

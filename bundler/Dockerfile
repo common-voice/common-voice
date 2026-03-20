@@ -30,6 +30,10 @@ RUN git clone --depth 1 -b release-v1.4.0 \
     pip install . && \
     cd .. && rm -rf CorporaCreator
 
+# MDC Uploader into the virtual environment
+COPY uploader/ /tmp/uploader/
+RUN pip install /tmp/uploader/ && rm -rf /tmp/uploader/
+
 # Node.js application
 WORKDIR /home/node/code
 COPY package.json ./

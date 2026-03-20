@@ -116,7 +116,7 @@ const AGE_LABELS: Record<string, string> = {
 const buildGenderTable = (
   genderCounts: Record<string, number>,
   totalClips: number,
-  locale: string = 'en',
+  locale = 'en',
   speakerCounts?: Record<string, number>,
   totalSpeakers?: number,
 ): string => {
@@ -163,7 +163,7 @@ const buildGenderTable = (
 const buildAgeTable = (
   ageCounts: Record<string, number>,
   totalClips: number,
-  locale: string = 'en',
+  locale = 'en',
   speakerCounts?: Record<string, number>,
   totalSpeakers?: number,
 ): string => {
@@ -213,7 +213,7 @@ const TRAINING_SPLIT_NAMES = ['train', 'dev', 'test'] as const
 export const buildDataSplitsTable = (
   buckets: Buckets,
   totalClips: number,
-  locale: string = 'en',
+  locale = 'en',
 ): string => {
   const parts: string[] = []
 
@@ -259,7 +259,7 @@ export const buildDataSplitsTable = (
 export const buildVariantStatsTable = (
   variantCounts: Record<string, number>,
   totalClips: number,
-  locale: string = 'en',
+  locale = 'en',
   speakerCounts?: Record<string, number>,
   totalSpeakers?: number,
   codeMap?: Record<string, string>,
@@ -339,7 +339,7 @@ const filterAccentCounts = (
 export const buildAccentStatsTable = (
   accentCounts: Record<string, number>,
   totalClips: number,
-  locale: string = 'en',
+  locale = 'en',
   speakerCounts?: Record<string, number>,
   totalSpeakers?: number,
   predefinedNames?: string[],
@@ -394,7 +394,7 @@ export const buildTextCorpusStatsTable = (
     | 'rejectedSentences'
     | 'reportedSentences'
   >,
-  locale: string = 'en',
+  locale = 'en',
 ): string => {
   const parts: string[] = []
 
@@ -423,25 +423,61 @@ export const buildTextCorpusStatsTable = (
   return parts.length > 0 ? parts.join('\n\n') : ''
 }
 
+// -- Sources table truncation rules ------------------------------------------
+// 1. Show at most SOURCES_MAX_ROWS named sources (the rest go to "Other")
+// 2. Only show sources that represent >= SOURCES_MIN_PCT of total sentences
+// 3. Pre-existing "Other" entries from upstream data are merged into "Other"
+const SOURCES_MAX_ROWS = 9
+const SOURCES_MIN_PCT = 0.01 // 1%
+
 export const buildSourcesStatsTable = (
   sourceCounts: Record<string, number>,
-  locale: string = 'en',
+  locale = 'en',
 ): string => {
   const entries = Object.entries(sourceCounts)
   if (entries.length === 0) return ''
   sortWithOtherLast(entries, 1)
   const total = entries.reduce((sum, [, c]) => sum + c, 0)
-  const rows: [string, string][] = entries.map(([source, count]) => [
+
+  // Separate pre-existing "Other" from named sources
+  let otherCount = 0
+  const named: [string, number][] = []
+  for (const [source, count] of entries) {
+    if (isOtherKey(source)) {
+      otherCount += count
+    } else {
+      named.push([source, count])
+    }
+  }
+
+  // Truncate: keep top SOURCES_MAX_ROWS that are also >= SOURCES_MIN_PCT
+  const minCount = Math.max(1, Math.ceil(total * SOURCES_MIN_PCT))
+  const shown: [string, number][] = []
+  for (const [source, count] of named) {
+    if (shown.length < SOURCES_MAX_ROWS && count >= minCount) {
+      shown.push([source, count])
+    } else {
+      otherCount += count
+    }
+  }
+
+  // Build rows
+  const rows: [string, string][] = shown.map(([source, count]) => [
     source,
     fmtCountPct(count, total, locale),
   ])
+  if (otherCount > 0) {
+    rows.push([OTHER_LABEL, fmtCountPct(otherCount, total, locale)])
+  }
+
+  if (rows.length === 0) return ''
   return formatMarkdownTable(['Source', 'Sentences'], rows)
 }
 
 export const buildTextDomainStatsTable = (
   domainCounts: Record<string, number>,
   totalClips: number,
-  locale: string = 'en',
+  locale = 'en',
   speakerCounts?: Record<string, number>,
   totalSpeakers?: number,
 ): string => {

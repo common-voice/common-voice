@@ -319,6 +319,7 @@ qxt = Quechua Pasco Santa Ana de Tusi
 qxu = Kečuánska Arequipa-La Unión
 qxw = Kečuánska Jauja Wanka
 rif = Tarifit
+rki = Rakhine
 rm-sursilv = Rétorománčina (sursilvan)
 rm-vallader = Rétorománčina (vallader)
 rn = Kirundi

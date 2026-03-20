@@ -18,6 +18,7 @@ const getRedisConfig = () => {
 
 const NotificationQueue = new Queue('Notification', {
   redis: getRedisConfig(),
+  defaultJobOptions: { removeOnComplete: 100, removeOnFail: 500 },
 }) // consumer
 NotificationQueue.process(imageProcessor)
 NotificationQueue.on('completed', (job, result) => {

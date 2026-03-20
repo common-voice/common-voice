@@ -190,6 +190,67 @@ describe('scanClipsTsv', () => {
     expect(result.right.accentSpeakers).toEqual({})
     expect(result.right.domainSpeakers).toEqual({})
   })
+  it('groups non-predefined accents under "" when predefined list is provided', async () => {
+    writeClips([
+      makeClipRow({ accents: 'Baksan', client_id: 'u1' }),
+      makeClipRow({ accents: 'Gilahsteney', client_id: 'u2' }),
+      makeClipRow({ accents: 'User typed something', client_id: 'u3' }),
+      makeClipRow({ accents: 'Another custom', client_id: 'u3' }),
+    ])
+
+    const result = await scanClipsTsv(
+      path.join(localeDir, 'clips.tsv'),
+      ['Baksan', 'Gilahsteney', 'Besleney'],
+    )()
+    expect(result._tag).toBe('Right')
+    if (result._tag !== 'Right') return
+
+    expect(result.right.accentCounts).toEqual({
+      'Baksan': 1,
+      'Gilahsteney': 1,
+      '': 2,  // user-submitted grouped
+    })
+    expect(result.right.accentSpeakers).toEqual({
+      'Baksan': 1,
+      'Gilahsteney': 1,
+      '': 1,  // u3 contributed both user-submitted
+    })
+  })
+
+  it('groups ALL accents under "" when predefined list is empty', async () => {
+    writeClips([
+      makeClipRow({ accents: 'Istanbul' }),
+      makeClipRow({ accents: 'Some accent' }),
+    ])
+
+    const result = await scanClipsTsv(
+      path.join(localeDir, 'clips.tsv'),
+      [],  // empty predefined list = no predefined accents for this locale
+    )()
+    expect(result._tag).toBe('Right')
+    if (result._tag !== 'Right') return
+
+    expect(result.right.accentCounts).toEqual({ '': 2 })
+  })
+
+  it('does not filter accents when predefined list is undefined (no metadata)', async () => {
+    writeClips([
+      makeClipRow({ accents: 'Istanbul' }),
+      makeClipRow({ accents: 'Some accent' }),
+    ])
+
+    const result = await scanClipsTsv(
+      path.join(localeDir, 'clips.tsv'),
+      // no predefined list passed -- legacy behavior
+    )()
+    expect(result._tag).toBe('Right')
+    if (result._tag !== 'Right') return
+
+    expect(result.right.accentCounts).toEqual({
+      'Istanbul': 1,
+      'Some accent': 1,
+    })
+  })
 })
 
 // -- scanSentenceFiles -------------------------------------------------------

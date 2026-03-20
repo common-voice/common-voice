@@ -5,12 +5,13 @@ import * as RTE from 'fp-ts/ReaderTaskEither'
 import { Job } from 'bullmq'
 import { AppEnv, ProcessLocaleJob } from '../types'
 import { getDatasetBundlerBucketName, getTmpDir } from '../config'
-import { generateTarFilename } from '../core/compress'
+import { compressResultFromLocalTar, generateTarFilename } from '../core/compress'
 import { constVoid, pipe } from 'fp-ts/lib/function'
 import { doesFileExistInBucket } from '../infrastructure/storage'
 import { runMp3DurationReporter } from '../infrastructure/mp3DurationReporter'
 import { runStats } from '../core/stats'
 import { runScanLocaleData } from '../core/localeData'
+import { fetchLocaleMetadata } from '../core/locales'
 import { runDownloadDataset, runGenerateClipsTsv } from '../core/dataset'
 import { extractTar } from '../infrastructure/tar'
 import { runCleanUp } from '../core/cleanUp'
@@ -24,17 +25,40 @@ const generateStatisticsPipeline = pipe(
   ),
   RTE.bind('generateClipsTsv', runGenerateClipsTsv),
   RTE.bind('totalDurationInMs', runMp3DurationReporter),
+  // Fetch predefined accent/variant metadata before scanning so accents are filtered
+  RTE.chainFirstW(() =>
+    pipe(
+      RTE.ask<AppEnv>(),
+      RTE.chainTaskEitherK(env =>
+        pipe(
+          fetchLocaleMetadata(env.locale),
+          TE.map(({ accentPredefinedNames, accentCodeMap, variantCodeMap }) => {
+            env.predefinedAccentNames = accentPredefinedNames
+            env.accentCodeMap = accentCodeMap
+            env.variantCodeMap = variantCodeMap
+          }),
+        ),
+      ),
+    ),
+  ),
   RTE.chainFirstW(({ totalDurationInMs }) =>
     pipe(
       runScanLocaleData(totalDurationInMs),
       RTE.chainFirstW(localeData =>
         RTE.asks<AppEnv, void>(env => {
           env.localeData = localeData
+          if (env.localeData) {
+            env.localeData.predefinedAccentNames = env.predefinedAccentNames
+            env.localeData.accentCodeMap = env.accentCodeMap
+            env.localeData.variantCodeMap = env.variantCodeMap
+          }
         }),
       ),
     ),
   ),
-  RTE.bind('stats', ({ tarFilepath }) => runStats(tarFilepath)),
+  RTE.bind('stats', ({ tarFilepath }) =>
+    runStats(compressResultFromLocalTar(tarFilepath)),
+  ),
   RTE.chainFirst(({ tarFilepath }) => runCleanUp(tarFilepath)),
   RTE.match(
     err => logger.error('STATS', String(err)),

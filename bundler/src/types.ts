@@ -140,7 +140,12 @@ export type AppEnv = Settings & {
   deltaReleaseName?: string
   datasheetPayload?: DatasheetLocalePayload
   localeData?: LocaleReleaseData // populated by scanLocaleData step; shared by datasheets + stats
+  predefinedAccentNames?: string[] // populated by fetchLocaleMetadata; used by scanClipsTsv to filter user-submitted accents
+  accentCodeMap?: Record<string, string> // accent_name -> accent_token; populated by fetchLocaleMetadata
+  variantCodeMap?: Record<string, string> // variant_name -> variant_token; populated by fetchLocaleMetadata
+  expectedClipCount?: number // from init query; available before pipeline starts
   problemClips: ProblemClip[] // mutable accumulator, freshly initialised per job
   clipCount: number // set after stats step; 0 until then
   startTimestamp: string // ISO 8601 -- set by deriveJobEnv at job start
+  errorMessage?: string // set on pipeline failure for process-log persistence
 }

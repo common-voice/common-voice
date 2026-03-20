@@ -63,6 +63,15 @@
       letter-spacing: 0px;
       max-width: 680px;
       min-width: 240px;
+
+      a {
+        font-weight: 700;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
     }
 
     .spiral-icon {

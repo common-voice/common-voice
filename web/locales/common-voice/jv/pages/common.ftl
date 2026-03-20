@@ -319,6 +319,7 @@ qxt = Quechua Pasco Santa Ana de Tusi
 qxu = Quechua Arequipa-La Unión
 qxw = Quechua Jauja Wanka
 rif = Tarif
+rki = Rakhine
 rm-sursilv = Romansh Sursilvan
 rm-vallader = Romansh Vallader
 rn = Kirundi
@@ -467,6 +468,8 @@ indicates-required = Kolom sing diwenehi tandha bintang (*) dibutuhake.
 not-available-abbreviation = N/A
 # Text shown on a button that can be clicked to copy text to the clipboard
 copy = Nyalin
+# Text shown on a button that can be clicked to close a modal or panel
+close = Tutup
 # Text shown on a button that can be clicked to cancel an action
 cancel = Batal
 # Text shown on a button that can be clicked to delete an item
