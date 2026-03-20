@@ -21,7 +21,7 @@ import { logger } from '../infrastructure/logger'
 // ---------------------------------------------------------------------------
 
 /**
- * Full-release step that reads `clip_durations.tsv`, classifies each clip,
+ * Release-processing step that reads `clip_durations.tsv`, classifies each clip,
  * accumulates problem clips into `env.problemClips`, then for EXCLUDED clips:
  *   1. Rewrites `clips.tsv` to remove them (so they never reach validated/
  *      invalidated/other.tsv or CorporaCreator splits).
@@ -179,8 +179,17 @@ export const runFilterProblemClips = (
             try {
               await fs.promises.unlink(path.join(clipsDirPath, clip))
               deletedMp3Count++
-            } catch {
-              // Already absent -- non-fatal.
+            } catch (err: unknown) {
+              const e = err as NodeJS.ErrnoException
+              if (e && e.code === 'ENOENT') {
+                // Already absent -- non-fatal.
+                continue
+              }
+              logger.error(
+                'PROBLEM-CLIPS',
+                `[${locale}] Failed to delete excluded mp3 file ${path.join(clipsDirPath, clip)}: ${e && e.message ? e.message : String(err)}`,
+              )
+              throw err
             }
           }
           if (deletedMp3Count > 0) {

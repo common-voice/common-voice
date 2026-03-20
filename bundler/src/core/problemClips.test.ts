@@ -152,10 +152,17 @@ describe('runFilterProblemClips', () => {
     )
   }
 
-  it('passes rawDurationInMs through unchanged for delta releases', async () => {
-    const env = makeEnv({ type: 'delta' }, tmpDir)
-    const result = await runFilterProblemClips(12345)(env)()
-    expect(result).toEqual({ _tag: 'Right', right: 12345 })
+  it('runs filtering for delta releases (NOT a pass-through)', async () => {
+    writeDurations([
+      ['too-long.mp3', 35000],  // EXCLUDED
+      ['normal.mp3', 5000],
+    ])
+    const env = makeEnv({ type: 'delta', problemClips: [] }, tmpDir)
+    const result = await runFilterProblemClips(40000)(env)()
+    // TOO_LONG duration is subtracted → 40000 - 35000 = 5000
+    expect(result).toEqual({ _tag: 'Right', right: 5000 })
+    expect(env.problemClips).toHaveLength(1)
+    expect(env.problemClips[0]).toMatchObject({ path: 'too-long.mp3', reason: 'TOO_LONG', status: 'EXCLUDED' })
   })
 
   it('passes rawDurationInMs through unchanged for statistics releases', async () => {
@@ -271,5 +278,101 @@ describe('runFilterProblemClips', () => {
 
     const newMtime = fs.statSync(path.join(tmpDir, 'en', 'clips.tsv')).mtimeMs
     expect(newMtime).toBe(originalMtime)
+  })
+
+  // ---------------------------------------------------------------------------
+  // mp3 deletion + clip_durations.tsv rewrite
+  // ---------------------------------------------------------------------------
+
+  const writeClipFile = (clipName: string) => {
+    const clipsDir = path.join(tmpDir, 'en', 'clips')
+    fs.mkdirSync(clipsDir, { recursive: true })
+    fs.writeFileSync(path.join(clipsDir, clipName), 'fake-audio', 'utf-8')
+  }
+
+  it('deletes excluded mp3 files from clips/', async () => {
+    writeDurations([
+      ['excluded.mp3', 35000],  // TOO_LONG -> EXCLUDED
+      ['kept.mp3', 5000],
+    ])
+    writeClipFile('excluded.mp3')
+    writeClipFile('kept.mp3')
+
+    const env = makeEnv({ problemClips: [] }, tmpDir)
+    await runFilterProblemClips(40000)(env)()
+
+    expect(fs.existsSync(path.join(tmpDir, 'en', 'clips', 'excluded.mp3'))).toBe(false)
+    expect(fs.existsSync(path.join(tmpDir, 'en', 'clips', 'kept.mp3'))).toBe(true)
+  })
+
+  it('does not delete non-excluded mp3 files from clips/', async () => {
+    writeDurations([
+      ['warn.mp3', 20000],   // LONG -> WARN (not excluded)
+      ['short.mp3', 200],    // TOO_SHORT -> WARN (not excluded)
+      ['normal.mp3', 5000],
+    ])
+    writeClipFile('warn.mp3')
+    writeClipFile('short.mp3')
+    writeClipFile('normal.mp3')
+
+    const env = makeEnv({ problemClips: [] }, tmpDir)
+    await runFilterProblemClips(100000)(env)()
+
+    expect(fs.existsSync(path.join(tmpDir, 'en', 'clips', 'warn.mp3'))).toBe(true)
+    expect(fs.existsSync(path.join(tmpDir, 'en', 'clips', 'short.mp3'))).toBe(true)
+    expect(fs.existsSync(path.join(tmpDir, 'en', 'clips', 'normal.mp3'))).toBe(true)
+  })
+
+  it('rewrites clip_durations.tsv without EXCLUDED entries', async () => {
+    writeDurations([
+      ['excluded.mp3', 35000],  // TOO_LONG -> EXCLUDED
+      ['normal.mp3', 5000],
+    ])
+
+    const env = makeEnv({ problemClips: [] }, tmpDir)
+    await runFilterProblemClips(40000)(env)()
+
+    const content = fs.readFileSync(path.join(tmpDir, 'en', 'clip_durations.tsv'), 'utf-8')
+    expect(content).not.toContain('excluded.mp3')
+    expect(content).toContain('normal.mp3')
+    expect(content).toContain('clip\tduration[ms]')  // header preserved
+  })
+
+  it('does not rewrite clip_durations.tsv when there are no EXCLUDED clips', async () => {
+    writeDurations([['normal.mp3', 5000]])
+    const originalMtime = fs.statSync(path.join(tmpDir, 'en', 'clip_durations.tsv')).mtimeMs
+
+    const env = makeEnv({ problemClips: [] }, tmpDir)
+    await runFilterProblemClips(5000)(env)()
+
+    const newMtime = fs.statSync(path.join(tmpDir, 'en', 'clip_durations.tsv')).mtimeMs
+    expect(newMtime).toBe(originalMtime)
+  })
+
+  it('ENOENT during mp3 unlink is non-fatal (file already absent)', async () => {
+    writeDurations([['missing.mp3', 35000]])  // TOO_LONG -> EXCLUDED, but file not on disk
+
+    const env = makeEnv({ problemClips: [] }, tmpDir)
+    // clips/ dir exists but missing.mp3 is not there -- should not throw
+    fs.mkdirSync(path.join(tmpDir, 'en', 'clips'), { recursive: true })
+    const result = await runFilterProblemClips(35000)(env)()
+    expect(result).toEqual({ _tag: 'Right', right: 0 })
+  })
+
+  it('non-ENOENT errors during mp3 unlink propagate as Left', async () => {
+    writeDurations([['bad.mp3', 35000]])  // TOO_LONG -> EXCLUDED
+    writeClipFile('bad.mp3')
+
+    // Make clips/ dir unwritable so unlink fails with EACCES
+    const clipsDir = path.join(tmpDir, 'en', 'clips')
+    fs.chmodSync(clipsDir, 0o444)
+
+    const env = makeEnv({ problemClips: [] }, tmpDir)
+    const result = await runFilterProblemClips(35000)(env)()
+
+    // Restore permissions so afterEach cleanup can remove tmpDir
+    fs.chmodSync(clipsDir, 0o755)
+
+    expect(result).toMatchObject({ _tag: 'Left' })
   })
 })
