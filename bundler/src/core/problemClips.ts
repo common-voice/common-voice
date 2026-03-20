@@ -22,11 +22,16 @@ import { logger } from '../infrastructure/logger'
 
 /**
  * Full-release step that reads `clip_durations.tsv`, classifies each clip,
- * accumulates problem clips into `env.problemClips`, rewrites `clips.tsv` to
- * remove EXCLUDED clips, and returns the corrected total duration (raw minus
- * the sum of TOO_LONG clip durations).
+ * accumulates problem clips into `env.problemClips`, then for EXCLUDED clips:
+ *   1. Rewrites `clips.tsv` to remove them (so they never reach validated/
+ *      invalidated/other.tsv or CorporaCreator splits).
+ *   2. Deletes the physical mp3 files from `clips/` so they are absent from
+ *      the compressed tarball.
+ *   3. Rewrites `clip_durations.tsv` to remove their entries so the file
+ *      delivered to dataset users reflects only the clean subset.
+ * Returns the corrected total duration (raw minus the sum of TOO_LONG durations).
  *
- * No-op for delta and statistics releases (returns rawDurationInMs unchanged).
+ * No-op for statistics releases only. Runs for full, variants, and delta releases.
  */
 export const runFilterProblemClips = (
   rawDurationInMs: number,
@@ -34,7 +39,8 @@ export const runFilterProblemClips = (
   pipe(
     RTE.ask<AppEnv>(),
     RTE.chainTaskEitherK(({ type, locale, releaseDirPath, problemClips }) => {
-      if (type !== 'full' && type !== 'variants') {
+      // 'statistics' releases produce no tarball -- skip entirely.
+      if (type === 'statistics') {
         return TE.right(rawDurationInMs)
       }
 
@@ -160,6 +166,54 @@ export const runFilterProblemClips = (
           logger.info(
             'PROBLEM-CLIPS',
             `[${locale}] Removed ${excludedClips.size} excluded clip(s) from clips.tsv`,
+          )
+        }
+
+        // Delete excluded mp3 files from disk and rewrite clip_durations.tsv.
+        // Both are required so the tarball contains no ghost mp3 files and
+        // clip_durations.tsv delivered to users reflects only the clean subset.
+        if (excludedClips.size > 0) {
+          const clipsDirPath = path.join(localeDir, 'clips')
+          let deletedMp3Count = 0
+          for (const clip of excludedClips) {
+            try {
+              await fs.promises.unlink(path.join(clipsDirPath, clip))
+              deletedMp3Count++
+            } catch {
+              // Already absent -- non-fatal.
+            }
+          }
+          if (deletedMp3Count > 0) {
+            logger.info(
+              'PROBLEM-CLIPS',
+              `[${locale}] Deleted ${deletedMp3Count} excluded mp3 file(s) from clips/`,
+            )
+          }
+
+          // Rewrite clip_durations.tsv in-place: durationMap is already in
+          // memory so no second read pass is needed.
+          const tmpDurationsPath = durationsPath + '.tmp'
+          {
+            const dw = fs.createWriteStream(tmpDurationsPath, { encoding: 'utf-8' })
+            let dwError: Error | null = null
+            dw.on('error', err => { dwError = err })
+            dw.write('clip\tduration[ms]\n')
+            for (const [clip, durationMs] of durationMap) {
+              if (!excludedClips.has(clip)) {
+                dw.write(`${clip}\t${durationMs}\n`)
+              }
+            }
+            await new Promise<void>((resolve, reject) => {
+              if (dwError) return reject(dwError)
+              dw.on('finish', resolve)
+              dw.on('error', reject)
+              dw.end()
+            })
+          }
+          await fs.promises.rename(tmpDurationsPath, durationsPath)
+          logger.info(
+            'PROBLEM-CLIPS',
+            `[${locale}] Rewrote clip_durations.tsv: removed ${excludedClips.size} excluded entry/entries`,
           )
         }
 
