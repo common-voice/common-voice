@@ -496,6 +496,21 @@ announcement-mdc-button-text = Daataa Walitti Qabuu Mozilla'tti Makami
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = Taabii haaraan bani
 
+## Release Delay Announcement
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-delay = Kabajamtoota hawaasaa, yeroo ammaa kana gallakkifamuu irratti hojjechaa jirra. Guyyoota dhufan keessatti kutaa kutaadhaan <mdcLink>Mozilla Data Collective</mdcLink> irratti ifa ta'a jennee eegna.
+
+## Release Announcement
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release = Kabajamaa hawaasaa, gadhiifamni haaraan amma guutummaatti <mdcLink>Mozilla Data Collective</mdcLink> irratti argama. Kuusaa deetaa addunyaa 500+, hawaasaan ijaaramee fi hawaasaaf ijaarame argachuuf itti makamaa.
+
+## Pre-Release Announcement (dates TBD)
+
+# Text wrapped in <cvDatasheetsLink></cvDatasheetsLink> will be rendered as an external link to the cv-datasheets GitHub repo
+announcement-pre-release = Kabajamtoota hawaasaa, yeroon gadhiifamuu dhihaateera. Maaloo deemi mirkaneessi, barreessi, akkasumas <cvDatasheetsLink>cv-datasheets</cvDatasheetsLink> daawwadhu waraqaa deetaa kee haaromsi.
+
 ## Common Language/Dataset Selector & SearchBox Related
 
 # Generic search box defaults
