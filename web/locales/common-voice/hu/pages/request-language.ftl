@@ -40,3 +40,22 @@ need-help-deciding-platform = Segítségre van szüksége, hogy melyiket válass
 need-help-deciding-platform-explanation-1 = <strong>Előre megírt beszéd</strong> (ahogy hagyományosan megismerhette a Common Voice-ot), ahol mondatokat olvashat fel a saját nyelvén.
 need-help-deciding-platform-explanation-2 = A <strong>spontán beszéd</strong> a Common Voice új része, ahol természetesebben, köznapibb módon válaszolhat kérdésekre.
 need-help-deciding-platform-explanation-3 = Ha a platform egyik részén sem látja az Ön nyelvét, akkor válassza mindkettőt.
+request-language-search-bar = Itt elkezdheti beírni a nyelv nevét; ha még nincs fent a Common Voice-on, akkor kitölthet egy űrlapot a nyelv adataival.
+request-language-found-pontoon-not-launched =
+    A nyelve már szerepel a Common Voice nyelvlistáján. 
+    Megkönnyítheti, hogy elinduljon a nyelv az <strong>Előre megírt beszéd</strong> kategóriával,
+    ha honosítja a platform felületét <pontoonLink>itt</pontoonLink>. A felületnek 60%-ban honosítottnak kell lennie; 
+    vagy 100%-ra honosíthatja a „web/locales/en/pages/contribute/*.ftl” alapvető karakterláncait 
+    (öt ilyen fájl van), és a felület automatikusan el fog indulni.
+request-language-found-cv-contribution =
+    Hurrá! A nyelve már él a Common Voice <strong>Előre megírt beszéd</strong> kategóriával. 
+    <homePageLink>Itt</homePageLink> működhet közre.
+request-language-found-cv-sentences-lack =
+    A nyelve már szerepel a Common Voice nyelvlistáján.
+    Megkönnyítheti a nyelvi indítását az <strong>Előre megírt beszéd</strong> kategóriával úgy,
+    hogy mondatokkal működik közre <sentencesContributionLink>itt</sentencesContributionLink>.
+request-language-found-spontaneous-speech =
+    A nyelve már él a Common Voice <strong>Spontán beszéd</strong> kategóriával. 
+    Kattintson <spontaneousSpeechLink>ide</spontaneousSpeechLink> a közreműködéshez: mielőtt nekilát, ne feledje módosítani a közreműködést/adatkészletet.
+request-language-already-available-scs = Az Előre megírt beszéd már elérhető
+request-language-already-available-sps = A Spontán beszéd már elérhető

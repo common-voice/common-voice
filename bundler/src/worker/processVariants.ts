@@ -26,11 +26,11 @@ import { CORPORA_CREATOR_CLIP_SPLIT_FILES, CORPORA_CREATOR_FILES } from '../infr
 import { TSV_COLUMNS } from '../core/clips'
 import { flushReleaseLogs } from '../core/releaseLogger'
 import { compressPipeline } from '../core/compress'
+import { uploadDataset } from '../core/upload'
 import { statsPipeline } from '../core/stats'
 import { scanLocaleData } from '../core/localeData'
 import { metadataPipeline } from '../core/metadata'
 import { corporaCreatorPipeline } from '../infrastructure/corporaCreator'
-import { uploadDatasetToPath } from '../core/upload'
 import { runFilterProblemClips, runPushProblemClips } from '../core/problemClips'
 import { cleanUp } from '../core/cleanUp'
 
@@ -176,31 +176,6 @@ export const deriveVariantEnv = (
 }
 
 // ---------------------------------------------------------------------------
-// uploadToGcsDir -- upload a tarball to a specific GCS directory
-// ---------------------------------------------------------------------------
-
-/**
- * Uploads a tarball to a specific GCS directory. Unlike `uploadDataset` which
- * derives the directory from the tarball's releaseName, this allows uploading
- * to a different directory -- e.g. uploading a tarball named with the base
- * releaseName into the `${releaseName}-variants/` directory.
- */
-const uploadToGcsDir = (
-  tarFilepath: string,
-  gcsDir: string,
-): TE.TaskEither<Error, string> =>
-  pipe(
-    TE.Do,
-    TE.let('readStream', () => fs.createReadStream(tarFilepath)),
-    TE.let('filename', () => path.basename(tarFilepath)),
-    TE.let('uploadPath', ({ filename }) => `${gcsDir}/${filename}`),
-    TE.chainFirst(({ readStream, uploadPath }) =>
-      uploadDatasetToPath(uploadPath)(readStream),
-    ),
-    TE.map(({ uploadPath }) => uploadPath),
-  )
-
-// ---------------------------------------------------------------------------
 // rewriteLocaleColumn -- rewrite locale column in CC output TSV files
 // ---------------------------------------------------------------------------
 
@@ -215,35 +190,62 @@ const uploadToGcsDir = (
  *
  * Only processes files that exist; silently skips missing ones.
  */
-export const rewriteLocaleColumn = (
+export const rewriteLocaleColumn = async (
   dir: string,
   filenames: string[],
   fromLocale: string,
   toLocale: string,
-): void => {
+): Promise<void> => {
   for (const filename of filenames) {
     const filepath = path.join(dir, filename)
     if (!fs.existsSync(filepath)) continue
 
-    const content = fs.readFileSync(filepath, 'utf-8')
-    const lines = content.split('\n')
-    if (lines.length === 0) continue
+    // Read header to find locale column index before opening write stream.
+    const inputStream = fs.createReadStream(filepath, { encoding: 'utf-8' })
+    const rl = createInterface({ input: inputStream, crlfDelay: Infinity })
 
-    // Find the locale column index from the header
-    const header = lines[0].split('\t')
+    // Peek at header to check for locale column
+    const iter = rl[Symbol.asyncIterator]()
+    const headerResult = await iter.next()
+    if (headerResult.done) { rl.close(); continue }
+
+    const headerLine = headerResult.value
+    const header = headerLine.split('\t')
     const localeIdx = header.indexOf('locale')
-    if (localeIdx === -1) continue
+    if (localeIdx === -1) {
+      rl.close()
+      inputStream.destroy()
+      continue
+    }
 
-    const rewritten = lines.map((line, i) => {
-      if (i === 0 || !line.trim()) return line
+    const tmpPath = filepath + '.tmp'
+    const ws = fs.createWriteStream(tmpPath, { encoding: 'utf-8' })
+    let writeError: Error | null = null
+    ws.on('error', err => { writeError = err })
+
+    ws.write(headerLine + '\n')
+
+    for await (const line of rl) {
+      if (writeError) break
+      if (!line.trim()) {
+        ws.write(line + '\n')
+        continue
+      }
       const cols = line.split('\t')
       if (cols[localeIdx] === fromLocale) {
         cols[localeIdx] = toLocale
       }
-      return cols.join('\t')
-    })
+      ws.write(cols.join('\t') + '\n')
+    }
 
-    fs.writeFileSync(filepath, rewritten.join('\n'), 'utf-8')
+    await new Promise<void>((resolve, reject) => {
+      if (writeError) return reject(writeError)
+      ws.on('finish', resolve)
+      ws.on('error', reject)
+      ws.end()
+    })
+    await fs.promises.rename(tmpPath, filepath)
+
     logger.debug(
       'PIPELINE-TOOLS',
       `[${filename}] Rewrote locale column: ${fromLocale} -> ${toLocale}`,
@@ -286,40 +288,59 @@ const linkMatchingClips = (
  * Removes rows from clips.tsv whose path column references a missing MP3.
  * Returns the reduced set of clip paths that remain.
  */
-const reconcileClipsTsv = (
+const reconcileClipsTsv = async (
   clipsTsvPath: string,
   missingClips: Set<string>,
-): Set<string> => {
-  const content = fs.readFileSync(clipsTsvPath, 'utf-8')
-  const lines = content.split('\n')
-  const header = lines[0]
-  const kept: string[] = [header]
+): Promise<Set<string>> => {
+  const tmpPath = clipsTsvPath + '.tmp'
+  const rl = createInterface({
+    input: fs.createReadStream(clipsTsvPath, { encoding: 'utf-8' }),
+    crlfDelay: Infinity,
+  })
+  const ws = fs.createWriteStream(tmpPath, { encoding: 'utf-8' })
+  let writeError: Error | null = null
+  ws.on('error', err => { writeError = err })
   const keptPaths = new Set<string>()
 
-  for (let i = 1; i < lines.length; i++) {
-    const line = lines[i]
+  let isHeader = true
+  for await (const line of rl) {
+    if (writeError) break
+    if (isHeader) {
+      ws.write(line + '\n')
+      isHeader = false
+      continue
+    }
     if (!line.trim()) continue
     const clipPath = line.split('\t')[1]
     if (clipPath && !missingClips.has(clipPath)) {
-      kept.push(line)
+      ws.write(line + '\n')
       keptPaths.add(clipPath)
     }
   }
 
-  fs.writeFileSync(clipsTsvPath, kept.join('\n') + '\n', 'utf-8')
+  await new Promise<void>((resolve, reject) => {
+    if (writeError) return reject(writeError)
+    ws.on('finish', resolve)
+    ws.on('error', reject)
+    ws.end()
+  })
+  await fs.promises.rename(tmpPath, clipsTsvPath)
   return keptPaths
 }
 
 /**
  * Extracts the set of clip filenames (path column) from a clips.tsv file.
  */
-const extractClipPaths = (clipsTsvPath: string): Set<string> => {
-  const content = fs.readFileSync(clipsTsvPath, 'utf-8')
-  const lines = content.split('\n')
+const extractClipPaths = async (clipsTsvPath: string): Promise<Set<string>> => {
+  const rl = createInterface({
+    input: fs.createReadStream(clipsTsvPath, { encoding: 'utf-8' }),
+    crlfDelay: Infinity,
+  })
   const paths = new Set<string>()
+  let isHeader = true
   // path is column index 1 (after client_id)
-  for (let i = 1; i < lines.length; i++) {
-    const line = lines[i]
+  for await (const line of rl) {
+    if (isHeader) { isHeader = false; continue }
     if (!line.trim()) continue
     const clipPath = line.split('\t')[1]
     if (clipPath) paths.add(clipPath)
@@ -526,7 +547,7 @@ export const processVariants = async (job: Job<ProcessLocaleJob>) => {
       logger.info('VARIANTS', `[${compoundLocale}] ${matchCount} clips matched`)
 
       // 5c. Hard-link matching MP3 files
-      let clipPaths = extractClipPaths(variantClipsTsv)
+      let clipPaths = await extractClipPaths(variantClipsTsv)
       const variantClipsDir = path.join(variantDir, 'clips')
       const linkResult = linkMatchingClips(srcClipsDir, variantClipsDir, clipPaths)
       logger.info('VARIANTS', `[${compoundLocale}] Linked ${linkResult.linked} MP3 files`)
@@ -539,7 +560,7 @@ export const processVariants = async (job: Job<ProcessLocaleJob>) => {
           `[${compoundLocale}] ${linkResult.missing.length} clip(s) in TSV but missing from source -- removing from clips.tsv`,
         )
         const missingSet = new Set(linkResult.missing)
-        clipPaths = reconcileClipsTsv(variantClipsTsv, missingSet)
+        clipPaths = await reconcileClipsTsv(variantClipsTsv, missingSet)
       }
 
       // 5d. Filter clip_durations.tsv
@@ -568,7 +589,7 @@ export const processVariants = async (job: Job<ProcessLocaleJob>) => {
       // 5g. UNDO HACK: Rewrite locale column back to original locale in CC output files.
       // CC wrote the compound locale (e.g. "cy-southwes") because it uses the locale column
       // for directory routing. Tarball consumers should see the real locale (e.g. "cy").
-      rewriteLocaleColumn(
+      await rewriteLocaleColumn(
         path.join(env.releaseDirPath, compoundLocale),
         CC_FILES_WITH_LOCALE,
         compoundLocale,
@@ -585,6 +606,9 @@ export const processVariants = async (job: Job<ProcessLocaleJob>) => {
         env.releaseDirPath,
         tarballsDir,
         'variants',
+        undefined,
+        variant.clipCount,
+        effectiveReleaseName, // GCS directory: ${baseReleaseName}-variants
       )()
 
       if (E.isLeft(compressResult)) {
@@ -593,14 +617,16 @@ export const processVariants = async (job: Job<ProcessLocaleJob>) => {
         continue
       }
 
-      const tarFilepath = compressResult.right
+      const cr = compressResult.right
 
-      // 5i. Upload tarball to ${releaseName}-variants/ GCS directory
-      const uploadResult = await uploadToGcsDir(tarFilepath, effectiveReleaseName)()
-      if (E.isLeft(uploadResult)) {
-        logger.error('VARIANTS', `[${compoundLocale}] Upload failed: ${String(uploadResult.left)}`)
-        await flushReleaseLogs(env, 'error')
-        continue
+      // 5i. Upload tarball to GCS -- skip when already streamed during compress
+      if (!cr.streamed) {
+        const uploadResult = await uploadDataset(cr.tarballFilepath, effectiveReleaseName)()
+        if (E.isLeft(uploadResult)) {
+          logger.error('VARIANTS', `[${compoundLocale}] Upload failed: ${String(uploadResult.left)}`)
+          await flushReleaseLogs(env, 'error')
+          continue
+        }
       }
 
       // 5j. Upload metadata
@@ -625,7 +651,7 @@ export const processVariants = async (job: Job<ProcessLocaleJob>) => {
         const statsResult = await statsPipeline(
           compoundLocale,
           scanResult.right,
-          tarFilepath,
+          cr,
           effectiveReleaseName,
         )()
         if (E.isRight(statsResult)) {
@@ -639,7 +665,7 @@ export const processVariants = async (job: Job<ProcessLocaleJob>) => {
       const cleanResult = await cleanUp(
         compoundLocale,
         env.releaseDirPath,
-        tarFilepath,
+        cr.tarballFilepath,
       )()
       if (E.isLeft(cleanResult)) {
         logger.warn('VARIANTS', `[${compoundLocale}] Cleanup failed: ${String(cleanResult.left)}`)

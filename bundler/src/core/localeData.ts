@@ -120,6 +120,7 @@ type ClipsScanResult = {
  */
 export const scanClipsTsv = (
   clipsFilePath: string,
+  predefinedAccentNames?: string[],
 ): TE.TaskEither<Error, ClipsScanResult> =>
   TE.tryCatch(
     () =>
@@ -140,6 +141,13 @@ export const scanClipsTsv = (
         let domainIdx = -1
         let variantIdx = -1
         let accentIdx = -1
+
+        // When predefined accents list is provided (even if empty), only those
+        // are counted individually. All others are grouped under "" (other).
+        // An empty list means "no predefined accents" -> ALL accents go to "".
+        const predefinedSet = predefinedAccentNames
+          ? new Set(predefinedAccentNames)
+          : null
 
         let clips = 0
         const clientIds = new Set<string>()
@@ -208,8 +216,10 @@ export const scanClipsTsv = (
             for (const accent of accents) {
               const trimmed = accent.trim()
               if (!trimmed) continue
-              accentCounts[trimmed] = (accentCounts[trimmed] ?? 0) + 1
-              if (cid) { ;(accentCids[trimmed] ??= new Set()).add(cid) }
+              // If predefined list is available, group non-predefined under ""
+              const key = predefinedSet && !predefinedSet.has(trimmed) ? '' : trimmed
+              accentCounts[key] = (accentCounts[key] ?? 0) + 1
+              if (cid) { ;(accentCids[key] ??= new Set()).add(cid) }
             }
           }
         })
@@ -360,7 +370,7 @@ export const scanSentenceFiles = (
         ),
       ])
 
-      const reportedSentences = countLinesInFile(
+      const reportedSentences = await countLinesInFile(
         path.join(localeDir, 'reported.tsv'),
       )
 
@@ -390,7 +400,7 @@ export const scanSentenceFiles = (
 
 // -- CC output line counts ---------------------------------------------------
 
-const scanBuckets = (localeDir: string): Buckets => {
+const scanBuckets = async (localeDir: string): Promise<Buckets> => {
   const buckets: Buckets = {
     dev: 0,
     invalidated: 0,
@@ -402,7 +412,7 @@ const scanBuckets = (localeDir: string): Buckets => {
 
   for (const file of CORPORA_CREATOR_FILES) {
     const key = file.replace('.tsv', '') as keyof Buckets
-    buckets[key] = countLinesInFile(path.join(localeDir, file))
+    buckets[key] = await countLinesInFile(path.join(localeDir, file))
   }
 
   return buckets
@@ -411,71 +421,81 @@ const scanBuckets = (localeDir: string): Buckets => {
 // -- Sentence sampling -------------------------------------------------------
 
 /**
- * Reservoir-samples N items from the given array.
+ * Streams a TSV file and performs reservoir sampling on the sentence column.
+ * If filterColumn/filterValue are given, only rows matching that filter are sampled.
+ * Returns up to `sampleSize` randomly selected sentences without loading the
+ * entire file into memory -- safe for multi-million-row files.
  */
-const reservoirSample = (items: string[], count: number): string[] => {
-  const sample: string[] = []
-  for (let i = 0; i < items.length; i++) {
-    if (i < count) {
-      sample.push(items[i])
-    } else {
-      const j = Math.floor(Math.random() * (i + 1))
-      if (j < count) {
-        sample[j] = items[i]
-      }
-    }
-  }
-  return sample
-}
-
-/**
- * Extracts the sentence column from a TSV file.
- * If filterColumn/filterValue are given, only rows matching that filter are included.
- */
-const extractSentences = (
+const streamSampleSentences = async (
   filepath: string,
+  sampleSize: number,
   filterColumn?: string,
   filterValue?: string,
-): string[] => {
-  try {
-    const content = fs.readFileSync(filepath, 'utf-8')
-    const lines = content.split('\n').filter(l => l.trim().length > 0)
-    if (lines.length <= 1) return []
+): Promise<string[]> => {
+  if (!fs.existsSync(filepath)) return []
 
-    const header = lines[0].split('\t')
-    const sentenceIdx = header.indexOf('sentence')
-    if (sentenceIdx < 0) return []
+  const inputStream = fs.createReadStream(filepath, { encoding: 'utf-8' })
+  const rl = readline.createInterface({
+    input: inputStream,
+    crlfDelay: Infinity,
+  })
 
-    const filterIdx =
-      filterColumn != null ? header.indexOf(filterColumn) : -1
+  let sentenceIdx = -1
+  let filterIdx = -1
+  let isHeader = true
+  let seen = 0
+  const reservoir: string[] = []
 
-    return lines
-      .slice(1)
-      .filter(line => {
-        if (filterIdx < 0) return true
-        return line.split('\t')[filterIdx] === filterValue
-      })
-      .map(line => line.split('\t')[sentenceIdx])
-      .filter(s => s && s.trim().length > 0)
-  } catch {
-    return []
+  for await (const line of rl) {
+    if (isHeader) {
+      isHeader = false
+      const cols = line.split('\t')
+      sentenceIdx = cols.indexOf('sentence')
+      if (sentenceIdx < 0) {
+        rl.close()
+        inputStream.destroy()
+        return []
+      }
+      filterIdx = filterColumn != null ? cols.indexOf(filterColumn) : -1
+      continue
+    }
+    if (!line.trim()) continue
+
+    const cols = line.split('\t')
+    if (filterIdx >= 0 && cols[filterIdx] !== filterValue) continue
+
+    const sentence = cols[sentenceIdx]
+    if (!sentence || !sentence.trim()) continue
+
+    // Reservoir sampling (Algorithm R)
+    if (seen < sampleSize) {
+      reservoir.push(sentence)
+    } else {
+      const j = Math.floor(Math.random() * (seen + 1))
+      if (j < sampleSize) {
+        reservoir[j] = sentence
+      }
+    }
+    seen++
   }
+
+  return reservoir
 }
 
 /**
  * Returns a random sample of N sentences from the locale directory.
+ * Uses streaming reservoir sampling -- safe for arbitrarily large files.
  * Tries sources in order:
  *   1. validated_sentences.tsv (is_used == "1")
  *   2. clips.tsv (last resort)
  */
-const sampleSentences = (localeDir: string, count = 5): string[] => {
+const sampleSentences = async (localeDir: string, count = 5): Promise<string[]> => {
   const vsPath = path.join(localeDir, 'validated_sentences.tsv')
-  const sentences = extractSentences(vsPath, 'is_used', '1')
-  if (sentences.length > 0) return reservoirSample(sentences, count)
+  const sentences = await streamSampleSentences(vsPath, count, 'is_used', '1')
+  if (sentences.length > 0) return sentences
 
   const clipsPath = path.join(localeDir, 'clips.tsv')
-  const allClips = extractSentences(clipsPath)
-  return reservoirSample(allClips, count)
+  return streamSampleSentences(clipsPath, count)
 }
 
 // -- Orchestrator ------------------------------------------------------------
@@ -488,16 +508,17 @@ const sampleSentences = (localeDir: string, count = 5): string[] => {
 export const scanLocaleData = (
   localeDir: string,
   totalDurationMs: number,
+  predefinedAccentNames?: string[],
 ): TE.TaskEither<Error, LocaleReleaseData> =>
   pipe(
     TE.Do,
     TE.bind('clipsScan', () =>
-      scanClipsTsv(path.join(localeDir, 'clips.tsv')),
+      scanClipsTsv(path.join(localeDir, 'clips.tsv'), predefinedAccentNames),
     ),
     TE.bind('sentenceScan', () => scanSentenceFiles(localeDir)),
-    TE.map(({ clipsScan, sentenceScan }) => {
-      const buckets = scanBuckets(localeDir)
-      const sentencesSample = sampleSentences(localeDir)
+    TE.chain(({ clipsScan, sentenceScan }) => TE.tryCatch(async () => {
+      const buckets = await scanBuckets(localeDir)
+      const sentencesSample = await sampleSentences(localeDir)
 
       const avgDurationMs =
         clipsScan.clips > 0 ? totalDurationMs / clipsScan.clips : 0
@@ -544,7 +565,7 @@ export const scanLocaleData = (
         // Samples
         sentencesSample,
       }
-    }),
+    }, reason => Error(String(reason)))),
   )
 
 // -- RTE pipeline step -------------------------------------------------------
@@ -558,12 +579,12 @@ export const runScanLocaleData = (
 ): RTE.ReaderTaskEither<AppEnv, Error, LocaleReleaseData> =>
   pipe(
     RTE.ask<AppEnv>(),
-    RTE.chainTaskEitherK(({ locale, releaseDirPath }) => {
+    RTE.chainTaskEitherK(({ locale, releaseDirPath, predefinedAccentNames }) => {
       const localeDir = path.join(releaseDirPath, locale)
       logger.info(
         'LOCALE_DATA',
         `[${locale}] Scanning locale data (clips + sentences + buckets)`,
       )
-      return scanLocaleData(localeDir, totalDurationMs)
+      return scanLocaleData(localeDir, totalDurationMs, predefinedAccentNames)
     }),
   )

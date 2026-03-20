@@ -834,10 +834,71 @@ describe('buildSourcesStatsTable', () => {
     expect(buildSourcesStatsTable({})).toBe('')
   })
 
-  it('shows zero-count sources', () => {
-    const result = buildSourcesStatsTable({ Wikipedia: 0, Tatoeba: 50 })
+  it('groups sources below 1% into Other', () => {
+    const result = buildSourcesStatsTable({
+      Wikipedia: 900,
+      Tatoeba: 95,
+      TinySource: 5,
+    })
     expect(result).toContain('Wikipedia')
     expect(result).toContain('Tatoeba')
+    expect(result).not.toContain('TinySource')
+    expect(result).toContain('Other')
+  })
+
+  it('limits table to 9 named rows plus Other', () => {
+    const counts: Record<string, number> = {}
+    // 12 sources each at 8% (above 1% threshold)
+    for (let i = 1; i <= 12; i++) {
+      counts[`Source${i}`] = 80
+    }
+    const result = buildSourcesStatsTable(counts)
+    // Only 9 named sources shown
+    for (let i = 1; i <= 9; i++) {
+      expect(result).toContain(`Source${i}`)
+    }
+    // Sources 10-12 grouped into Other
+    expect(result).toContain('Other')
+    // Count the data rows (excluding header and separator)
+    const lines = result.split('\n')
+    // header + separator + 9 named + 1 Other = 12
+    expect(lines).toHaveLength(12)
+  })
+
+  it('merges pre-existing Other with truncated sources', () => {
+    const result = buildSourcesStatsTable({
+      Wikipedia: 900,
+      Other: 50,
+      TinySource: 5,
+    })
+    expect(result).toContain('Wikipedia')
+    expect(result).not.toContain('TinySource')
+    // Other should contain 50 + 5 = 55
+    expect(result).toContain('Other')
+    expect(result).toContain('55 (5.8%)')
+  })
+
+  it('does not show Other row when all sources qualify', () => {
+    const result = buildSourcesStatsTable({ Wikipedia: 60, Tatoeba: 40 })
+    expect(result).not.toContain('Other')
+  })
+
+  it('handles single source at 100%', () => {
+    const result = buildSourcesStatsTable({ 'Own Submission': 970 })
+    expect(result).toContain('Own Submission')
+    expect(result).toContain('100.0%')
+    expect(result).not.toContain('Other')
+  })
+
+  it('filters out zero-count sources even when total is 0', () => {
+    const result = buildSourcesStatsTable({ Wikipedia: 0, Tatoeba: 0 })
+    expect(result).toBe('')
+  })
+
+  it('omits zero-count sources when total > 0', () => {
+    const result = buildSourcesStatsTable({ Wikipedia: 50, Empty: 0 })
+    expect(result).toContain('Wikipedia')
+    expect(result).not.toContain('Empty')
   })
 })
 

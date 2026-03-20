@@ -75,17 +75,17 @@ cd bundler/js/cli    # local
 
 ### Flags
 
-| Flag               | Required                         | Description                                             |
-| ------------------ | -------------------------------- | ------------------------------------------------------- |
-| `-t <type>`        | always                           | Release type: `full`, `delta`, `statistics`, `variants` |
-| `-u <datetime>`    | always                           | End of clip time window                                 |
-| `-r <name>`        | always                           | Release name (e.g. `cv-corpus-25.0-2026-03-09`)         |
-| `-p <name>`        | `full` only                      | Previous release to bootstrap clips from                |
-| `-d <file or URL>` | `full` only                      | Datasheets JSON filename or URL (see below)             |
-| `-f <datetime>`    | `delta` only                     | Start of clip time window (defaults to epoch)           |
-| `-l <locales...>`  | optional                         | Restrict to specific locales                            |
-| `--license-mode`   | optional (default: `unlicensed`) | `unlicensed`, `licensed`, or `both`                     |
-| `--force`          | optional                         | Re-create all tarballs, overwriting existing GCS files  |
+| Flag               | Required                         | Description                                                                                   |
+| ------------------ | -------------------------------- | --------------------------------------------------------------------------------------------- |
+| `-t <type>`        | always                           | Release type: `full`, `delta`, `statistics`, `variants`                                       |
+| `-u <datetime>`    | always                           | End of clip time window                                                                       |
+| `-r <name>`        | always                           | Release name (e.g. `cv-corpus-25.0-2026-03-09`)                                               |
+| `-p <name>`        | `full` only                      | Previous release to bootstrap clips from                                                      |
+| `-d <file or URL>` | `full` only                      | Datasheets JSON filename or URL (see below)                                                   |
+| `-f <datetime>`    | `delta` only                     | Start of clip time window (defaults to epoch)                                                 |
+| `-l <locales...>`  | optional                         | Restrict to specific locales                                                                  |
+| `--license-mode`   | optional (default: `unlicensed`) | `unlicensed`, `licensed`, or `both`                                                           |
+| `--force`          | optional                         | Kill any in-progress run, flush its logs, and re-create all tarballs from scratch (see below) |
 
 ### Datasheets (`-d`)
 
@@ -176,6 +176,43 @@ node start-dataset-release.js \
   -d 'datasheets-2026-03-09.json' \
   -l en tr --force
 ```
+
+---
+
+## `--force` mode
+
+Use `--force` to recover from a bad release run or re-generate tarballs after a pipeline bug.
+
+### Full force (`--force` without `-l`)
+
+Performs a complete reset -- use when the entire run is bad:
+
+1. **Flushes partial-run logs** (problem-clips, process-log) to GCS so they are not lost.
+2. **Obliterates the BullMQ queue** -- all active, waiting, and completed jobs are removed.
+3. **Clears all Redis state** (done SET, processing HASH) so every locale is re-scheduled.
+4. **Bypasses skip checks** -- tarballs are re-created and overwritten.
+
+### Selective force (`--force -l en tr`)
+
+Surgically re-processes only the specified locales without disrupting the rest of a running release:
+
+1. **Removes only the targeted locales** from the done SET and processing HASH.
+2. **Removes only their BullMQ jobs** (completed, failed, waiting, delayed). Other locales' jobs are untouched.
+3. **Schedules new jobs** only for the specified locales.
+4. Active jobs for targeted locales that are already running will finish harmlessly -- their Redis state was cleared, so the new jobs will supersede them.
+
+### Crash recovery (without `--force`)
+
+If a pod crashes mid-run, K8s restarts it and the worker resumes picking up jobs from the queue. Locales that were being processed by the crashed pod are automatically reclaimed after 20 minutes (stale-entry detection in the processing guard). No manual intervention is needed.
+
+### End-of-run cleanup
+
+After all locale jobs complete successfully, the bundler automatically:
+
+- Deletes all release-scoped Redis keys (logs, counters, done/processing state)
+- Drains all remaining BullMQ jobs from the queue
+
+Redis keys have a 24-hour TTL as a safety net in case cleanup fails or the process crashes before reaching the end.
 
 ---
 

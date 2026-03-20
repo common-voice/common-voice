@@ -319,6 +319,7 @@ qxt = Afaan Quechua Pasco Santa Ana de Tusi
 qxu = Afaan Quechua Arequipa-La Unión
 qxw = Afaan Quechua Jauja Wanka
 rif = Afaan Tarifit
+rki = Afaan Raakhaayin
 rm-sursilv = Afaan Romanish Sursilvan
 rm-vallader = Afaan Romansh Vallader
 rn = Afaan Kirundi
@@ -449,7 +450,7 @@ documentation = Dookimenteeshinii
 content-license-text = Qabiyyeen <licenseLink>hayyama Creative Commons</licenseLink> jalatti argama.
 share-title = Hawaasa keenyatti makamaa
 share-text = Maashinii barumsaa akkamitti namoonni dhugumaan dubbatan akka baratan gargaari, sagalee kee { $link } irratti kenni.
-link-copied = Hidhaan Coppii taheera
+link-copied = Hidhaan Koppii taheera
 back-top = Gara Olii Deebi'i
 logout = Cufii Bahi
 donate = Arjoomi
@@ -466,7 +467,7 @@ email-opt-in-privacy-v2 = Imeelii argachuuf filannoo gochuun, odeeffannoo kana a
 indicates-required = Dirreewwan mallattoo asterisk (*) dirqama barbaachisu.
 not-available-abbreviation = N/A
 # Text shown on a button that can be clicked to copy text to the clipboard
-copy = Coppii
+copy = Koppii
 # Text shown on a button that can be clicked to close a modal or panel
 close = Cufi
 # Text shown on a button that can be clicked to cancel an action
@@ -494,6 +495,21 @@ announcement-mdc-text = <strong>Daataa-seetota haaraa Common Voice</strong> amma
 announcement-mdc-button-text = Daataa Walitti Qabuu Mozilla'tti Makami
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = Taabii haaraan bani
+
+## Release Delay Announcement
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-delay = Kabajamtoota hawaasaa, yeroo ammaa kana gallakkifamuu irratti hojjechaa jirra. Guyyoota dhufan keessatti kutaa kutaadhaan <mdcLink>Mozilla Data Collective</mdcLink> irratti ifa ta'a jennee eegna.
+
+## Release Announcement
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release = Kabajamaa hawaasaa, gadhiifamni haaraan amma guutummaatti <mdcLink>Mozilla Data Collective</mdcLink> irratti argama. Kuusaa deetaa addunyaa 500+, hawaasaan ijaaramee fi hawaasaaf ijaarame argachuuf itti makamaa.
+
+## Pre-Release Announcement (dates TBD)
+
+# Text wrapped in <cvDatasheetsLink></cvDatasheetsLink> will be rendered as an external link to the cv-datasheets GitHub repo
+announcement-pre-release = Kabajamtoota hawaasaa, yeroon gadhiifamuu dhihaateera. Maaloo deemi mirkaneessi, barreessi, akkasumas <cvDatasheetsLink>cv-datasheets</cvDatasheetsLink> daawwadhu waraqaa deetaa kee haaromsi.
 
 ## Common Language/Dataset Selector & SearchBox Related
 

@@ -32,3 +32,4 @@ need-help-deciding-platform = Hangisini seçeceğinize karar veremediniz mi?
 need-help-deciding-platform-explanation-1 = <strong>Metin Okuma</strong> (şimdiye kadar Common Voice olarak bildiğiniz), dilinizdeki cümleleri sesli okuyabileceğiniz yerdir.
 need-help-deciding-platform-explanation-2 = <strong>Doğaçlama Konuşma</strong>, Common Voice’un yeni bölümüdür. Burada soruları daha doğal ve günlük dilde yanıtlayabilirsiniz.
 need-help-deciding-platform-explanation-3 = Platformun iki kısmında da dilinizi göremiyorsanız ikisini birden seçin.
+request-language-already-available-sps = Doğaçlama konuşma zaten mevcut

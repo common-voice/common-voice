@@ -1,7 +1,6 @@
 import * as fs from 'node:fs'
-import { rm as rmAsync } from 'node:fs/promises'
 import * as path from 'node:path'
-import { pipeline } from 'node:stream/promises'
+import { PassThrough } from 'node:stream'
 
 import * as tar from 'tar'
 import { readerTaskEither as RTE, taskEither as TE } from 'fp-ts'
@@ -11,7 +10,6 @@ import { AppEnv } from '../types'
 import { sanitizeLicenseName } from './compress'
 import { streamUploadToBucket } from '../infrastructure/storage'
 import { getDatasetBundlerBucketName } from '../config'
-import { prepareDir } from '../infrastructure/filesystem'
 import { logger } from '../infrastructure/logger'
 
 const uploadToDatasetBucket = streamUploadToBucket(getDatasetBundlerBucketName())
@@ -54,21 +52,17 @@ export const metadataPipeline = (
   locale: string,
   releaseName: string,
   releaseDirPath: string,
-  releaseTarballDir: string,
+  _releaseTarballDir: string,
   license?: string,
 ): TE.TaskEither<Error, string> => {
-  logger.info('METADATA', `[${locale}] Compressing metadata files`)
+  logger.info('METADATA', `[${locale}] Compressing + streaming metadata`)
   return pipe(
     TE.Do,
     TE.let('filename', () =>
       generateMetadataTarFilename(locale, releaseName, license),
     ),
-    TE.let('filepath', ({ filename }) =>
-      path.join(releaseTarballDir, filename),
-    ),
     TE.let('paths', () => getMetadataFiles(locale, releaseDirPath)),
-    TE.chainFirst(() => TE.fromIO(prepareDir(releaseTarballDir))),
-    TE.chainFirst(({ filepath, paths }) => {
+    TE.chainFirst(({ paths }) => {
       if (paths.length === 0) {
         return TE.left(
           new Error(
@@ -76,31 +70,22 @@ export const metadataPipeline = (
           ),
         )
       }
-      return TE.tryCatch(
-        async () => {
-          const readStream = tar.c(
-            { gzip: true, cwd: releaseDirPath, prefix: releaseName },
-            paths,
-          )
-          await pipeline(readStream, fs.createWriteStream(filepath))
-        },
-        reason => Error(String(reason)),
-      )
+      return TE.right(undefined)
     }),
-    // Upload to ${releaseName}/metadata/
-    TE.chainFirst(({ filename, filepath }) => {
+    TE.chainFirst(({ filename, paths }) => {
       const uploadPath = `${releaseName}/metadata/${filename}`
-      return uploadToDatasetBucket(uploadPath)(fs.createReadStream(filepath))
+      const tarStream = tar.c(
+        { gzip: true, cwd: releaseDirPath, prefix: releaseName },
+        paths,
+      )
+      // Pipe through PassThrough to satisfy Readable type (tar.Pack is not
+      // structurally compatible with Node.js Readable).
+      const readable = tarStream.pipe(new PassThrough())
+      tarStream.on('error', (err) => readable.destroy(err as Error))
+      logger.info('METADATA', `[${locale}] Streaming metadata to GCS: ${uploadPath}`)
+      return uploadToDatasetBucket(uploadPath)(readable)
     }),
-    // Remove the local metadata tarball --the main tarball is cleaned up
-    // separately by runCleanUp, but this file is only needed for upload.
-    TE.chainFirst(({ filepath }) =>
-      TE.tryCatch(
-        () => rmAsync(filepath),
-        reason => Error(String(reason)),
-      ),
-    ),
-    TE.map(({ filepath }) => filepath),
+    TE.map(({ filename }) => filename),
   )
 }
 

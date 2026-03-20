@@ -1,3 +1,7 @@
+jest.mock('../infrastructure/redis')
+jest.mock('../infrastructure/queue')
+jest.mock('../infrastructure/storage')
+
 import { deriveJobEnv } from './processor'
 import { ProcessLocaleJob } from '../types'
 

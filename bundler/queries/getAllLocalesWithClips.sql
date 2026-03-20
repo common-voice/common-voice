@@ -6,6 +6,7 @@ FROM
 JOIN
     locales l ON l.id = c.locale_id
 WHERE c.created_at BETWEEN ? AND ?
+  AND l.is_contributable = 1
 GROUP BY
     l.name
 ORDER BY

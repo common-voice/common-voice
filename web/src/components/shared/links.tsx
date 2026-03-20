@@ -106,6 +106,32 @@ export const ContactLink = ({ dispatch, ...props }: SharedLinkProps) => {
   )
 }
 
+export const MdcLink = ({ dispatch, ...props }: SharedLinkProps) => {
+  const [locale] = useLocale()
+  return (
+    <a
+      target="_blank"
+      href={URLS.MDC_ROOT}
+      rel="noopener noreferrer"
+      onClick={() => trackGlobal('mozilla-data-collective', locale)}
+      {...props}
+    />
+  )
+}
+
+export const CvDatasheetsLink = ({ dispatch, ...props }: SharedLinkProps) => {
+  const [locale] = useLocale()
+  return (
+    <a
+      target="_blank"
+      href={URLS.CV_DATASHEETS}
+      rel="noopener noreferrer"
+      onClick={() => trackGlobal('community-datasheets', locale)}
+      {...props}
+    />
+  )
+}
+
 export const EmailLink = ({ ...props }: SharedLinkProps) => {
   return (
     <a

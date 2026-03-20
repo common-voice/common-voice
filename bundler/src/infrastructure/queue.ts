@@ -48,24 +48,41 @@ const attachDatasheetPayload = (
   return job
 }
 
-/** For delta: only previous-release locales. For full/stats: all locales in window. */
-const getLocales = (settings: Settings) =>
-  settings.type === 'delta'
-    ? fetchDeltaLocales(settings.from, settings.until)
-    : fetchLocalesWithClips(settings.from, settings.until)
+/** Returns the -l languages array for DB filtering, or undefined when all locales are requested. */
+const getLangs = (settings: Settings): string[] | undefined =>
+  settings.languages.length > 0 ? settings.languages : undefined
 
-const getLicensedLocales = (settings: Settings) =>
-  settings.type === 'delta'
-    ? fetchDeltaLicensedLocales(settings.from, settings.until)
-    : fetchLocalesWithLicensedClips(settings.from, settings.until)
+/** For delta: only previous-release locales. For full/stats: all locales in window. */
+const getLocales = (settings: Settings) => {
+  const langs = getLangs(settings)
+  return settings.type === 'delta'
+    ? fetchDeltaLocales(settings.from, settings.until, langs)
+    : fetchLocalesWithClips(settings.from, settings.until, langs)
+}
+
+const getLicensedLocales = (settings: Settings) => {
+  const langs = getLangs(settings)
+  return settings.type === 'delta'
+    ? fetchDeltaLicensedLocales(settings.from, settings.until, langs)
+    : fetchLocalesWithLicensedClips(settings.from, settings.until, langs)
+}
 
 /**
- * Remove ALL completed/failed BullMQ jobs from previous runs (grace = 0).
- * Without this, deterministic job IDs cause queue.add() to silently no-op
- * when a previous run's completed jobs still exist in Redis.
- * Grace is intentionally 0: every old job must be gone before re-runs.
+ * Remove stale BullMQ jobs before a new run.
+ *
+ * - Normal init: cleans completed/failed only (grace = 0). Without this,
+ *   deterministic job IDs cause queue.add() to silently no-op.
+ * - --force init: obliterates the entire queue (active + waiting + delayed +
+ *   completed + failed) so a fresh run can fully replace a bad/in-progress one.
+ *   obliterate() pauses the queue internally; resume() restores it after.
  */
-export const cleanStaleJobs = async (): Promise<void> => {
+export const cleanStaleJobs = async (force?: boolean): Promise<void> => {
+  if (force) {
+    await datasetReleaseQueue.obliterate({ force: true })
+    await datasetReleaseQueue.resume()
+    logger.info('QUEUE', 'Obliterated all jobs in queue (--force)')
+    return
+  }
   const completed = await datasetReleaseQueue.clean(0, 0, 'completed')
   const failed = await datasetReleaseQueue.clean(0, 0, 'failed')
   if (completed.length > 0 || failed.length > 0) {
@@ -73,6 +90,69 @@ export const cleanStaleJobs = async (): Promise<void> => {
       'QUEUE',
       `Cleaned ${completed.length} completed + ${failed.length} failed jobs from previous run`,
     )
+  }
+}
+
+/**
+ * Remove ALL BullMQ jobs (completed, failed, delayed, waiting) from the queue.
+ * Called at the end of a successful run -- no jobs should be pending at that point.
+ */
+export const drainQueue = async (): Promise<void> => {
+  const completed = await datasetReleaseQueue.clean(0, 0, 'completed')
+  const failed = await datasetReleaseQueue.clean(0, 0, 'failed')
+  const delayed = await datasetReleaseQueue.clean(0, 0, 'delayed')
+  const waiting = await datasetReleaseQueue.clean(0, 0, 'wait')
+  const total = completed.length + failed.length + delayed.length + waiting.length
+  if (total > 0) {
+    logger.info('QUEUE', `Drained ${total} BullMQ jobs (end-of-run cleanup)`)
+  }
+}
+
+/**
+ * Remove BullMQ jobs for specific locales from all queue states.
+ * Used by --force -l to surgically remove only targeted locale jobs without
+ * affecting the rest of a running release.
+ *
+ * Scans completed, failed, waiting, and delayed jobs. Active jobs cannot
+ * be removed via queue.remove() (returns 0 if locked), but the processor's
+ * --force flag bypasses the done-SET and GCS checks, and the init handler
+ * already cleared their processing HASH entries, so they will be superseded
+ * by the new jobs once the active ones finish or stall.
+ */
+export const removeJobsForLocales = async (
+  releaseName: string,
+  locales: string[],
+): Promise<void> => {
+  const localeSet = new Set(locales)
+
+  // Job ID format: "{jobName}|{releaseName}|{locale}|{license}"
+  // Match both releaseName (2nd segment) and locale (3rd segment) so jobs
+  // from a different release sharing the same queue are never removed.
+  const isTargeted = (jobId: string | undefined): boolean => {
+    if (!jobId) return false
+    const parts = jobId.split('|')
+    return parts.length >= 3 && parts[1] === releaseName && localeSet.has(parts[2])
+  }
+
+  // Gather job IDs from all removable states
+  const states = ['completed', 'failed', 'wait', 'delayed'] as const
+  let removed = 0
+  for (const state of states) {
+    const jobs = await datasetReleaseQueue.getJobs([state])
+    for (const job of jobs) {
+      if (isTargeted(job.id)) {
+        try {
+          const result = await datasetReleaseQueue.remove(job.id!)
+          if (result === 1) removed++
+        } catch {
+          // Job locked or already gone -- fine
+        }
+      }
+    }
+  }
+
+  if (removed > 0) {
+    logger.info('QUEUE', `Removed ${removed} BullMQ job(s) for locales: ${locales.join(', ')}`)
   }
 }
 
@@ -93,22 +173,17 @@ export const addJobsToReleaseQueue = (settings: Settings) =>
       // carrying all variants for that locale. No license mode branching.
       if (settings.type === 'variants') {
         return pipe(
-          fetchLocalesWithVariantClips(settings.from, settings.until),
+          fetchLocalesWithVariantClips(settings.from, settings.until, getLangs(settings)),
           TE.map(groups => {
-            const filtered =
-              settings.languages.length > 0
-                ? groups.filter(g => settings.languages.includes(g.locale))
-                : groups
-
-            const summary = filtered
+            const summary = groups
               .map(g => `${g.locale} (${g.variants.length} variants, ~${g.totalClipCount} clips)`)
               .join(', ')
             logger.info(
               'QUEUE',
-              `${filtered.length} locale(s) with variants: ${summary}`,
+              `${groups.length} locale(s) with variants: ${summary}`,
             )
 
-            return filtered.map(
+            return groups.map(
               (group): ProcessLocaleJob => ({
                 ...settings,
                 locale: group.locale,
@@ -311,10 +386,19 @@ export const addJobsToReleaseQueue = (settings: Settings) =>
       }, err => Error(String(err))),
     ),
     // Set locale/clip totals and timeStart in Redis for pending jobs only.
-    // Uses SET (not INCRBY) so re-runs reflect only the remaining work,
-    // giving correct progress percentages and ETAs.
+    // Selective force (--force -l) skips this entirely to avoid corrupting
+    // progress tracking and pendingGroups for an in-progress run.
     TE.chainFirst(({ pendingJobs }) =>
       TE.tryCatch(async () => {
+        const isSelectiveForce = settings.force && settings.languages.length > 0
+        if (isSelectiveForce) {
+          logger.info(
+            'QUEUE',
+            `Selective --force: skipping counter reset, scheduling ${pendingJobs.length} locale(s)`,
+          )
+          return
+        }
+
         // Group job count and clip count by effective release name
         // (license -> "-licensed" suffix, variants -> "-variants" suffix).
         const totals = new Map<string, number>()
@@ -366,6 +450,10 @@ export const addJobsToReleaseQueue = (settings: Settings) =>
               (batchClips > 0 ? ` (~${batchClips.toLocaleString()} clips)` : ''),
           )
         }
+        // Track how many release name groups are active (e.g. base + licensed = 2).
+        // End-of-run cleanup only fires when the last group finishes.
+        await redisClient.set(redisKeys.pendingGroups(settings.releaseName), totals.size)
+        await redisClient.expire(redisKeys.pendingGroups(settings.releaseName), RELEASE_LOG_KEY_TTL_SEC)
       }, err => Error(String(err))),
     ),
     TE.map(({ pendingJobs }) =>

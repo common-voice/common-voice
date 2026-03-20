@@ -5,6 +5,7 @@ report-modal-subtitle = Kva problem opplever du med dette innholdet?
 offensive_speech = Krenkande innhald
 offensive_speech-detail = Setninga inneheld respektlaust eller krenkjande språk.
 empty_or_unintelligible = Tom eller uforståeleg
+empty_or_unintelligible-detail = Innhaldet er tomt, øydelagt, inneheld eit anna språk eller liknande
 personally_identifiable_information = Personleg identifiserbar informasjon
 personally_identifiable_information-detail = Dette innhaldet inneheld personleg identifiserbar informasjon knytt til identiteten til ein person, til dømes namn, e-postadresse, bustad, identifikasjonsnummer eller telefonnummer.
 personally_identifiable_information-answer-detail = Dette innhaldet ber om personleg identifiserbar informasjon knytt til identiteten til ein person, til dømes namn, e-postadresse, bustad, identifikasjonsnummer eller telefonnummer.
