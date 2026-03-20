@@ -80,10 +80,12 @@ const runStreamExtractTarPromise = (
       // GNU tar exits 2 when --wildcards patterns match nothing (e.g. delta
       // tar has an empty clips/ dir). This is not a real error -- it just
       // means there were no files to extract.
+      // "Not found in archive" -- specific named members (tar -x file.tar foo)
+      // "Pattern not matched" -- wildcard patterns matching nothing (our case)
       const isEmptyWildcardMatch =
         includePatterns.length > 0 &&
         code === 2 &&
-        stderr.includes('Not found in archive')
+        (stderr.includes('Not found in archive') || stderr.includes('Pattern not matched'))
       if (code !== 0 && !isEmptyWildcardMatch) {
         reject(
           new Error(

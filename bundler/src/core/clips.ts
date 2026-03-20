@@ -568,14 +568,14 @@ export const fetchAllClipsPipeline = (
       queryTask(),
     ])
 
+    // Prev and delta extraction failures are fatal: a mid-stream failure leaves
+    // truncated MP3s in the working directory that downstream steps would treat
+    // as valid cached clips. The job will retry from scratch (Phase 1 wipes
+    // the clips dir).
+    // Note: tar NOT FOUND in GCS returns Right(false) for both -- only actual
+    // extraction errors produce Left.
     if (E.isLeft(prevResult)) throw prevResult.left
     if (E.isLeft(queryResult)) throw queryResult.left
-    // Delta extraction failure is fatal: since prev and delta extract directly
-    // into the working directory, a mid-stream failure leaves truncated MP3s
-    // that downstream steps would treat as valid cached clips. The job will
-    // retry from scratch (Phase 1 wipes the clips dir).
-    // Note: delta tar NOT FOUND in GCS returns Right(false), which is fine --
-    // only extraction errors produce Left.
     if (E.isLeft(deltaResult)) throw deltaResult.left
     const hasDelta = deltaResult.right === true
     const hasPrev = E.isRight(prevResult) && prevResult.right === true
@@ -601,7 +601,7 @@ export const fetchAllClipsPipeline = (
     // Phase 4: GCS fallback -- only when delta is missing.
     // When both prev and delta exist, every valid clip is already local.
     // Anything still missing is a ghost clip (DB record without GCS object).
-    if (previousReleaseName && hasDelta) {
+    if (hasPrev && hasDelta) {
       logger.info(
         'CLIPS-DL',
         `[${locale}] Skipping GCS fallback (prev + delta covers all valid clips)`,
