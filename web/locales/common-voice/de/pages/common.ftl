@@ -499,12 +499,17 @@ announcement-mdc-button-aria-text = Wird in einem neuen Tab geöffnet
 ## Release Delay Announcement
 
 # Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
-announcement-release-delay = Liebe Gemeinschaft, wir arbeiten derzeit an der Veröffentlichung. Wir erwarten, dass sie in den kommenden Tagen in Teilen auf der <mdcLink>Mozilla-Datensammlung</mdcLink> eingeführt wird.
+announcement-release-delay = Liebe Gemeinschaft, wir arbeiten derzeit an der Veröffentlichung. Wir erwarten, dass sie in den kommenden Tagen in Teilen im <mdcLink>Mozilla Data Collective</mdcLink> eingeführt wird.
 
 ## Release Announcement
 
 # Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
 announcement-release = Liebe Gemeinschaft, die neue Version befindet sich jetzt vollständig im <mdcLink>Mozilla Data Collective</mdcLink>. Machen Sie mit, um auf über 500 Datensätze aus aller Welt zuzugreifen, die von und für die Gemeinschaft erstellt wurden.
+
+## Pre-Release Announcement (dates TBD)
+
+# Text wrapped in <cvDatasheetsLink></cvDatasheetsLink> will be rendered as an external link to the cv-datasheets GitHub repo
+announcement-pre-release = Liebe Gemeinschaft, die Zeit der Veröffentlichung nähert sich. Bitte validieren und transkribieren Sie und besuchen Sie auch die <cvDatasheetsLink>cv-Datenblätter</cvDatasheetsLink>, um Ihr Datenblatt zu aktualisieren.
 
 ## Common Language/Dataset Selector & SearchBox Related
 
