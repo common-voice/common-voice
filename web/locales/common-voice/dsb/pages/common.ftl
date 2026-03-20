@@ -496,6 +496,21 @@ announcement-mdc-button-text = Pśizamkniśo se k Mozilla Data Collective
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = Wócynja w nowem rejtariku
 
+## Release Delay Announcement
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-delay = Lube zgromaźeństwo, źěłamy tuchylu na wózjawjenju. Wócakujomy, až se w pśiducych dnjach w źělach na <mdcLink>Mozilla Data Collective</mdcLink> wózjawja.
+
+## Release Announcement
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release = Lube zgromaźeństwo, nowa wersija je něnto dopołnje na <mdcLink>Mozilla Data Collective</mdcLink>.  Wobźělśo se na pśistupje k wěcej ako 500 globalnym datowym sajźbam, kótarež su se napórali wót zgromaźeństwa a za zgromaźeństwo.
+
+## Pre-Release Announcement (dates TBD)
+
+# Text wrapped in <cvDatasheetsLink></cvDatasheetsLink> will be rendered as an external link to the cv-datasheets GitHub repo
+announcement-pre-release = Lube zgromaźeństwo, wózjawjeński cas se bližy. Pšosym pśeglědujśo a transkriběrujśo a woglědajśo se teke k <cvDatasheetsLink>datowym łopjenam cv</cvDatasheetsLink>, aby swóje datowe łopjeno aktualizěrował.
+
 ## Common Language/Dataset Selector & SearchBox Related
 
 # Generic search box defaults
