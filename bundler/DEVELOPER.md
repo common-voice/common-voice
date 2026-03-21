@@ -129,7 +129,7 @@ bundler/
 │   │   ├── mp3DurationReporter.ts  # Rust binary wrapper for MP3 duration
 │   │   ├── queue.ts                # BullMQ queue setup
 │   │   ├── redis.ts                # Shared ioredis client
-│   │   ├── storage.ts              # Google Cloud Storage adapter (32 MB upload chunks)
+│   │   ├── storage.ts              # Google Cloud Storage adapter (256 MB upload chunks)
 │   │   └── tar.ts                  # tar extraction (file-based and stream-based)
 │   ├── test-helpers/
 │   │   └── tsv.ts              # Shared TSV serialisation helpers for tests

@@ -9,9 +9,10 @@ export type Metadata = { size: string; crc32c: string }
 // Resumable uploads chunk data and wait for an HTTP ack per chunk.
 // The default (~5 MB) causes ~19,000 round-trips for a 95 GB tarball,
 // limiting throughput to ~5 MB/s regardless of network bandwidth.
-// 32 MB matches gsutil's default and cuts round-trips to ~3,000.
+// 256 MB cuts round-trips to ~380 for a 95 GB file and reaches ~94%
+// of available bandwidth (~24 MB/s on 200 Mbps same-region egress).
 // For files smaller than chunkSize the library sends a single chunk.
-const UPLOAD_CHUNK_SIZE = 32 * 1024 * 1024 // 32 MB
+const UPLOAD_CHUNK_SIZE = 256 * 1024 * 1024 // 256 MB
 
 const storage =
   getEnvironment() === 'local'
