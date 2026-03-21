@@ -84,7 +84,7 @@ read-more-about = Fuula Waa'ee keenya irratti bal'inaan dubbisaa
 ## NAV ITEMS
 
 answer-questions = Gaaffilee Deebisi
-review-transcriptions = Tiraanskriipshinii Gamaaggami
+review-transcriptions = Tiraaniskiriipshinii Gamaaggami
 add-questions = Gaaffii Dabalaa
 review-questions = Gaaffilee Gamaaggamaa
 transcribe-audio = Sagalee Barruutti Jijjiiri
@@ -181,7 +181,7 @@ validate-readings-link = Dubbisawwan mirkaneessuu
 contribute-link = Korpas barruu keessatti gumaachaa
 answer-questions-link = Gaaffii deebisaa
 transcribe-answers-link = Deebii barreessi
-review-transcriptions-link = Tiraanskriipshiniiwwan gamaaggami
+review-transcriptions-link = Tiraaniskiriipshiniiwwan gamaaggami
 contribute-text-link = Barreeffama gumaachuu
 press-and-stories-link = Pireesii fi seenaa
 
