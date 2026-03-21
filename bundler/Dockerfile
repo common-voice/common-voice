@@ -23,8 +23,9 @@ RUN git clone --depth 1 -b release-v1.0.0 \
     cargo install --path . --root /usr/local && \
     cd .. && rm -rf mp3-duration-reporter
 
-# CorporaCreator into the virtual environment (new v1.4.0 install method)
-RUN git clone --depth 1 -b release-v1.4.0 \
+# CorporaCreator into the virtual environment
+# Bumping to v1.4.1 with improvements to prevent OOM on large datasets
+RUN git clone --depth 1 -b release-v1.4.1 \
         https://github.com/common-voice/CorporaCreator.git && \
     cd CorporaCreator && \
     pip install . && \
