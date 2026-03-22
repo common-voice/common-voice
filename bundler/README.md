@@ -188,7 +188,7 @@ Use `--force` to recover from a bad release run or re-generate tarballs after a 
 
 Performs a complete reset -- use when the entire run is bad:
 
-1. **Flushes partial-run logs** (problem-clips, process-log) to GCS so they are not lost. Each run's logs are timestamped (e.g. `process-log-20260322-143005.tsv`), so re-runs never overwrite previous logs.
+1. **Flushes partial-run logs** (problem-clips, process-log) to GCS so they are not lost. Each run's logs are timestamped (e.g. `process-log-20260322T143005.tsv`), so re-runs never overwrite previous logs.
 2. **Obliterates the BullMQ queue** -- all active, waiting, and completed jobs are removed.
 3. **Clears all Redis state** (done SET, processing HASH) so every locale is re-scheduled.
 4. **Bypasses skip checks** -- tarballs are re-created and overwritten.
