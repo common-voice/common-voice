@@ -68,6 +68,64 @@ export const CLIP_DURATION_WARN_MS = 17_000 // clips above this duration are fla
 export const MAX_AUDIO_DURATION_MS = 30_000 // clips above this duration are excluded (TOO_LONG / EXCLUDED)
 
 // ---------------------------------------------------------------------------
+// Tarball file allowlists
+// ---------------------------------------------------------------------------
+
+/**
+ * Files allowed in metadata tarballs (TSVs + datasheet, no audio).
+ * Anything not in this set is silently skipped -- prevents intermediate
+ * files (clips.tsv, temp files) from leaking into shipped archives.
+ */
+export const METADATA_ALLOWED_FILES = new Set([
+  // DataSheet
+  'README.md',
+  // mp3-duration-reporter output (clip durations)
+  'clip_durations.tsv',
+  // CorporaCreator output files - main buckets
+  'validated.tsv',
+  'invalidated.tsv',
+  'other.tsv',
+  // CorporaCreator output files - training splits
+  'train.tsv',
+  'dev.tsv',
+  'test.tsv',
+  // Reported
+  'reported.tsv',
+  // Text Corpus
+  'validated_sentences.tsv',
+  'unvalidated_sentences.tsv',
+])
+
+/**
+ * Files allowed in main release tarballs (metadata + clips/ directory).
+ * The clips/ directory is handled separately (it's a directory, not a file).
+ */
+export const RELEASE_ALLOWED_FILES = new Set([
+  ...METADATA_ALLOWED_FILES,
+  'clips',  // directory -- included by tar traversal
+])
+
+/**
+ * Returns true if a filename (not path) is allowed in the release tarball.
+ * For delta releases, CC split files (dev/test/train) are also excluded.
+ */
+export const isAllowedInRelease = (filename: string, isDelta: boolean): boolean => {
+  if (!RELEASE_ALLOWED_FILES.has(filename)) return false
+  if (isDelta && (filename === 'dev.tsv' || filename === 'test.tsv' || filename === 'train.tsv')) return false
+  return true
+}
+
+/**
+ * Returns true if a filename (not path) is allowed in the metadata tarball.
+ * For delta releases, CC split files (dev/test/train) are also excluded.
+ */
+export const isAllowedInMetadata = (filename: string, isDelta: boolean): boolean => {
+  if (!METADATA_ALLOWED_FILES.has(filename)) return false
+  if (isDelta && (filename === 'dev.tsv' || filename === 'test.tsv' || filename === 'train.tsv')) return false
+  return true
+}
+
+// ---------------------------------------------------------------------------
 // Release logging
 // ---------------------------------------------------------------------------
 

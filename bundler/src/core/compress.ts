@@ -10,9 +10,8 @@ import * as tar from 'tar'
 import { io as IO, readerTaskEither as RTE, taskEither as TE } from 'fp-ts'
 import { pipe } from 'fp-ts/lib/function'
 
-import { CORPORA_CREATOR_SPLIT_FILES } from '../infrastructure/corporaCreator'
 import { streamUploadToBucket } from '../infrastructure/storage'
-import { getDatasetBundlerBucketName, STREAM_COMPRESS_CLIP_THRESHOLD } from '../config'
+import { getDatasetBundlerBucketName, STREAM_COMPRESS_CLIP_THRESHOLD, isAllowedInRelease } from '../config'
 import { AppEnv, ReleaseType } from '../types'
 import { logger } from '../infrastructure/logger'
 
@@ -189,14 +188,8 @@ export const pathsFilter =
   (releaseType: ReleaseType) =>
   (filepath: string): boolean => {
     const filename = path.basename(filepath)
-    // we never include the generated clips.tsv file
-    const clipsTsv = ['clips.tsv']
-    const excludeList =
-      releaseType === 'full' || releaseType === 'variants'
-        ? clipsTsv
-        : [...clipsTsv, ...CORPORA_CREATOR_SPLIT_FILES]
-
-    return !excludeList.includes(filename)
+    const isDelta = releaseType === 'delta'
+    return isAllowedInRelease(filename, isDelta)
   }
 
 const getPathsToAddToTarball =
