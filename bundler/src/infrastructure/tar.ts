@@ -4,14 +4,26 @@ import { Readable } from 'node:stream'
 import { taskEither as TE } from 'fp-ts'
 import { pipe } from 'fp-ts/lib/function'
 
+import { getVerbosity, logger } from './logger'
+import { createLineStream } from './lineStream'
+
 const runExtractTarPromise = (filepath: string, outDir: string) =>
   new Promise<void>((resolve, reject) => {
+    const verbosity = getVerbosity()
+    const isLive = verbosity === 'verbose' || verbosity === 'debug'
     const cc = spawn('tar', ['-C', outDir, '-xf', filepath])
 
     const stderrChunks: string[] = []
-    cc.stderr.on('data', data => stderrChunks.push(String(data)))
+    const ls = isLive
+      ? createLineStream(line => logger.debug('TAR', line))
+      : null
+    cc.stderr.on('data', (data: Buffer) => {
+      stderrChunks.push(String(data))
+      ls?.feed(data)
+    })
 
     cc.on('close', code => {
+      ls?.flush()
       if (code !== 0) {
         reject(new Error(`tar exited with code ${code}: ${stderrChunks.join('')}`))
       } else {
@@ -61,8 +73,16 @@ const runStreamExtractTarPromise = (
     }
     const proc = spawn('tar', args)
 
+    const verbosity = getVerbosity()
+    const isLive = verbosity === 'verbose' || verbosity === 'debug'
     const stderrChunks: string[] = []
-    proc.stderr.on('data', (data: Buffer) => stderrChunks.push(String(data)))
+    const ls = isLive
+      ? createLineStream(line => logger.debug('TAR', line))
+      : null
+    proc.stderr.on('data', (data: Buffer) => {
+      stderrChunks.push(String(data))
+      ls?.feed(data)
+    })
 
     let settled = false
     const fail = (err: Error) => {
@@ -76,6 +96,7 @@ const runStreamExtractTarPromise = (
     proc.on('close', code => {
       if (settled) return
       settled = true
+      ls?.flush()
       const stderr = stderrChunks.join('')
       // GNU tar exits 2 when --wildcards patterns match nothing (e.g. delta
       // tar has an empty clips/ dir). This is not a real error -- it just

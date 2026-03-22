@@ -5,7 +5,7 @@ import { spawn } from 'node:child_process'
 import { io as IO, taskEither as TE, array as Arr } from 'fp-ts'
 import { flow, pipe } from 'fp-ts/lib/function'
 import * as path from 'node:path'
-import { logger } from './logger'
+import { getVerbosity, logger } from './logger'
 
 const trimSpaces = (str: string) => str.trim()
 const splitOnSpace = (str: string) => str.split(' ')
@@ -59,7 +59,15 @@ const countLinesPromise = (filepaths: string[]) =>
     const buffers: Buffer[] = []
 
     cc.stdout.on('data', data => buffers.push(data))
-    cc.stderr.on('data', data => logger.warn('WC', String(data).trimEnd()))
+    cc.stderr.on('data', data => {
+      const msg = String(data).trimEnd()
+      // In quiet mode, only log wc errors as debug to reduce noise
+      if (getVerbosity() === 'quiet') {
+        logger.debug('WC', msg)
+      } else {
+        logger.warn('WC', msg)
+      }
+    })
 
     cc.on('close', () => {
       const result = pipe(
@@ -94,7 +102,14 @@ const concatFilesPromise = (
     const writeStream = fs.createWriteStream(outFilepath, { flags: 'a' })
 
     cc.stdout.pipe(writeStream)
-    cc.stderr.on('data', data => logger.warn('TAIL', String(data).trimEnd()))
+    cc.stderr.on('data', data => {
+      const msg = String(data).trimEnd()
+      if (getVerbosity() === 'quiet') {
+        logger.debug('TAIL', msg)
+      } else {
+        logger.warn('TAIL', msg)
+      }
+    })
 
     let exitCode: number | null = null
     let writeFinished = false

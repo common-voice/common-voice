@@ -32,7 +32,8 @@ import {
 } from '../config'
 import { generateTarFilename } from './compress'
 import { streamExtractTar } from '../infrastructure/tar'
-import { logger } from '../infrastructure/logger'
+import { getVerbosity, logger } from '../infrastructure/logger'
+import { createLineStream } from '../infrastructure/lineStream'
 
 const CLIPS_BUCKET = getClipsBucketName()
 
@@ -485,12 +486,19 @@ export const pruneOrphanClips = (
         stdout += String(data)
       })
 
+      const verbosity = getVerbosity()
+      const isLive = verbosity === 'verbose' || verbosity === 'debug'
       const stderrChunks: string[] = []
-      proc.stderr.on('data', (data: Buffer) =>
-        stderrChunks.push(String(data)),
-      )
+      const ls = isLive
+        ? createLineStream(line => logger.debug('PRUNE', `[${locale}] ${line}`))
+        : null
+      proc.stderr.on('data', (data: Buffer) => {
+        stderrChunks.push(String(data))
+        ls?.feed(data)
+      })
 
       proc.on('close', code => {
+        ls?.flush()
         if (code !== 0) {
           reject(
             new Error(

@@ -5,7 +5,8 @@ import { readerTaskEither as RTE, taskEither as TE } from 'fp-ts'
 import { pipe } from 'fp-ts/lib/function'
 
 import { AppEnv } from '../types'
-import { logger } from './logger'
+import { getVerbosity, logger } from './logger'
+import { createLineStream } from './lineStream'
 
 export const Mp3DurationFiles = ['clip_durations.tsv'] as const
 
@@ -24,6 +25,9 @@ const runMp3DurationReporterPromise = (
   releaseDirPath: string,
 ) =>
   new Promise<number>((resolve, reject) => {
+    const verbosity = getVerbosity()
+    const isLive = verbosity === 'verbose' || verbosity === 'debug'
+
     const cc = spawn(
       'mp3-duration-reporter',
       [path.join(releaseDirPath, locale, 'clips')],
@@ -32,36 +36,27 @@ const runMp3DurationReporterPromise = (
 
     let totalDurationInMs = 0
     let errorCount = 0
-    // stderr arrives in arbitrary chunks that may split across lines or
-    // contain multiple lines. Buffer partial lines and count per-line.
-    let stderrPartial = ''
 
     cc.stdout.on('data', data => (totalDurationInMs = Number(data)))
-    cc.stderr.on('data', data => {
-      stderrPartial += String(data)
-      const parts = stderrPartial.split('\n')
-      // Last element is either '' (line ended with \n) or a partial line
-      // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
-      stderrPartial = parts.pop()!
-      for (const raw of parts) {
-        // eslint-disable-next-line no-control-regex
-        const line = raw.replace(/\x1b\[[0-9;]*m/g, '').trim()
-        if (!line) continue
-        if (line.includes('ERROR')) {
-          errorCount++
+
+    const stderrLS = createLineStream(raw => {
+      // eslint-disable-next-line no-control-regex
+      const line = raw.replace(/\x1b\[[0-9;]*m/g, '')
+      if (line.includes('ERROR')) {
+        errorCount++
+        if (isLive) logger.warn('MP3-DURATION', `[${locale}] ${line}`)
+      } else {
+        if (isLive) {
+          logger.info('MP3-DURATION', `[${locale}] ${line}`)
         } else {
           logger.debug('MP3-DURATION', line)
         }
       }
     })
+    cc.stderr.on('data', (data: Buffer) => stderrLS.feed(data))
 
     cc.on('close', () => {
-      // Flush any remaining partial line
-      if (stderrPartial.trim()) {
-        // eslint-disable-next-line no-control-regex
-        const line = stderrPartial.replace(/\x1b\[[0-9;]*m/g, '').trim()
-        if (line.includes('ERROR')) errorCount++
-      }
+      stderrLS.flush()
       if (errorCount > 0) {
         logger.warn(
           'MP3-DURATION',

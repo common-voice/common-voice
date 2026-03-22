@@ -86,6 +86,7 @@ cd bundler/js/cli    # local
 | `-l <locales...>`  | optional                         | Restrict to specific locales                                                                  |
 | `--license-mode`   | optional (default: `unlicensed`) | `unlicensed`, `licensed`, or `both`                                                           |
 | `--force`          | optional                         | Kill any in-progress run, flush its logs, and re-create all tarballs from scratch (see below) |
+| `--verbosity`      | optional (default: `normal`)     | Output detail: `quiet`, `normal`, `verbose`, `debug` (see below)                              |
 
 ### Datasheets (`-d`)
 
@@ -213,6 +214,12 @@ After all locale jobs complete successfully, the bundler automatically:
 - Drains all remaining BullMQ jobs from the queue
 
 Redis keys have a 24-hour TTL as a safety net in case cleanup fails or the process crashes before reaching the end.
+
+---
+
+## `--verbosity` levels
+
+Controls both the log output level and subprocess output detail. Levels: `quiet`, `normal` (default), `verbose`, `debug`. Overrides `LOG_LEVEL` when not `normal`. See [DEVELOPER.md](DEVELOPER.md#verbosity) for the full behaviour matrix.
 
 ---
 
