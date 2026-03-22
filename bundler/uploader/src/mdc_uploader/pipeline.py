@@ -566,36 +566,8 @@ def run_batch(config: UploaderConfig) -> bool:
     if config.dry_run:
         logger.info("UPLOAD", "** DRY RUN MODE **")
 
-    # Initialize language registry (API + extras)
-    language.init()
-
-    # Build jobs
-    try:
-        jobs = build_jobs(config, release_spec)
-    except FileNotFoundError as exc:
-        logger.error("UPLOAD", str(exc))
-        return False
-
-    total_size = sum(j.file_size for j in jobs)
-    logger.info(
-        "UPLOAD",
-        "Found %d locales (%s total)",
-        len(jobs),
-        format_size(total_size),
-    )
-
-    if jobs:
-        logger.info(
-            "UPLOAD",
-            "Order (smallest-first): %s (%s) -> ... -> %s (%s)",
-            jobs[0].locale,
-            format_size(jobs[0].file_size),
-            jobs[-1].locale,
-            format_size(jobs[-1].file_size),
-        )
-
-    # Initialize MDC client and batch state
-    client = MDCClient(config.mdc_api_key, config.mdc_api_url) if not config.dry_run else None
+    # Initialize batch state early so save_logs_to_storage can persist
+    # the log file even if build_jobs or language.init() fails.
     state = BatchState(
         release=config.release_name,
         upload_target=config.upload_target,
@@ -603,51 +575,84 @@ def run_batch(config: UploaderConfig) -> bool:
         base_dir=config.base_dir,
     )
 
-    # Process locales with batch progress bar
-    progress = batch_progress(len(jobs))
-    for i, job in enumerate(jobs, 1):
-        result = process_locale(job, client, config.dry_run, config.base_dir)
-        state.record(result)
+    try:
+        # Initialize language registry (API + extras)
+        language.init()
 
-        status_label = result.status.upper()
-        if result.status == "success":
+        # Build jobs
+        try:
+            jobs = build_jobs(config, release_spec)
+        except FileNotFoundError as exc:
+            logger.error("UPLOAD", str(exc))
+            return False
+
+        total_size = sum(j.file_size for j in jobs)
+        logger.info(
+            "UPLOAD",
+            "Found %d locales (%s total)",
+            len(jobs),
+            format_size(total_size),
+        )
+
+        if jobs:
             logger.info(
                 "UPLOAD",
-                "[%d/%d] %s -- %s (%s in %.1fs)",
-                i,
-                len(jobs),
-                result.locale,
-                status_label,
-                format_size(result.size_bytes),
-                result.duration_seconds,
-            )
-        elif result.status == "failed":
-            logger.error(
-                "UPLOAD",
-                "[%d/%d] %s -- FAILED: %s",
-                i,
-                len(jobs),
-                result.locale,
-                result.error,
-            )
-        elif result.status == "skipped":
-            logger.info(
-                "UPLOAD",
-                "[%d/%d] %s -- SKIPPED (dry run)",
-                i,
-                len(jobs),
-                result.locale,
+                "Order (smallest-first): %s (%s) -> ... -> %s (%s)",
+                jobs[0].locale,
+                format_size(jobs[0].file_size),
+                jobs[-1].locale,
+                format_size(jobs[-1].file_size),
             )
 
-        progress.update(1)
+        # Initialize MDC client
+        client = MDCClient(config.mdc_api_key, config.mdc_api_url) if not config.dry_run else None
 
-    progress.close()
+        # Process locales with batch progress bar
+        progress = batch_progress(len(jobs))
+        for i, job in enumerate(jobs, 1):
+            result = process_locale(job, client, config.dry_run, config.base_dir)
+            state.record(result)
 
-    # Summary
-    print_summary(state)
+            status_label = result.status.upper()
+            if result.status == "success":
+                logger.info(
+                    "UPLOAD",
+                    "[%d/%d] %s -- %s (%s in %.1fs)",
+                    i,
+                    len(jobs),
+                    result.locale,
+                    status_label,
+                    format_size(result.size_bytes),
+                    result.duration_seconds,
+                )
+            elif result.status == "failed":
+                logger.error(
+                    "UPLOAD",
+                    "[%d/%d] %s -- FAILED: %s",
+                    i,
+                    len(jobs),
+                    result.locale,
+                    result.error,
+                )
+            elif result.status == "skipped":
+                logger.info(
+                    "UPLOAD",
+                    "[%d/%d] %s -- SKIPPED (dry run)",
+                    i,
+                    len(jobs),
+                    result.locale,
+                )
 
-    # Persist logs to GCS so they survive pod recycling
-    save_logs_to_storage(config.base_dir, config.release_name, state)
+            progress.update(1)
 
-    _, failed, _ = state.summary()
-    return failed == 0
+        progress.close()
+
+        # Summary
+        print_summary(state)
+
+        _, failed, _ = state.summary()
+        return failed == 0
+    finally:
+        # Persist logs to GCS so they survive pod recycling.
+        # Runs on all exit paths including early errors.
+        save_logs_to_storage(config.base_dir, config.release_name, state)

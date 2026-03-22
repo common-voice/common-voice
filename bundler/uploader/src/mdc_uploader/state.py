@@ -177,9 +177,9 @@ def save_logs_to_storage(
     if not files_to_save:
         return
 
-    dest_dir = os.path.join(release_name, "upload-logs")
-
     if is_gcs_uri(base_dir):
+        # Use POSIX separators for GCS blob paths (not os.path.join)
+        dest_dir = f"{release_name}/upload-logs"
         for local_path, filename in files_to_save:
             blob_path = f"{dest_dir}/{filename}"
             try:
@@ -187,12 +187,16 @@ def save_logs_to_storage(
             except Exception as exc:  # pylint: disable=broad-exception-caught
                 logger.warning("UPLOAD", "Failed to save %s to storage: %s", filename, exc)
     else:
-        storage_dir = os.path.join(base_dir, dest_dir)
-        os.makedirs(storage_dir, exist_ok=True)
+        storage_dir = os.path.join(base_dir, release_name, "upload-logs")
+        try:
+            os.makedirs(storage_dir, exist_ok=True)
+        except OSError as exc:
+            logger.warning("UPLOAD", "Cannot create %s: %s", storage_dir, exc)
+            return
         for local_path, filename in files_to_save:
             dest = os.path.join(storage_dir, filename)
             try:
                 shutil.copy2(local_path, dest)
-                logger.info("UPLOAD", "Log saved to %s", dest)
+                logger.info("UPLOAD", "Saved %s to %s", filename, dest)
             except Exception as exc:  # pylint: disable=broad-exception-caught
                 logger.warning("UPLOAD", "Failed to save %s: %s", filename, exc)
