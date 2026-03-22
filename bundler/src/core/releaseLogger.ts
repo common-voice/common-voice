@@ -22,16 +22,13 @@ const PROCESS_LOG_HEADER =
 
 
 /**
- * Formats an ISO timestamp into a compact filename-safe suffix: YYYYMMDD-HHmmss.
- * Falls back to current time if the input is null/undefined.
+ * Formats an ISO timestamp into a compact filename-safe suffix: YYYYMMDDTHHmmss.
+ * Falls back to current time if the input is nullish or an invalid date string.
  */
-export const formatRunTimestamp = (isoTimestamp: string | null): string => {
-  const d = isoTimestamp ? new Date(isoTimestamp) : new Date()
-  const pad = (n: number) => String(n).padStart(2, '0')
-  return (
-    `${d.getUTCFullYear()}${pad(d.getUTCMonth() + 1)}${pad(d.getUTCDate())}` +
-    `-${pad(d.getUTCHours())}${pad(d.getUTCMinutes())}${pad(d.getUTCSeconds())}`
-  )
+export const formatRunTimestamp = (isoTimestamp?: string | null): string => {
+  const parsed = isoTimestamp ? new Date(isoTimestamp) : null
+  const d = parsed && !isNaN(parsed.getTime()) ? parsed : new Date()
+  return d.toISOString().replace(/[-:]/g, '').slice(0, 15) // YYYYMMDD-HHmmss -> "20260322T143005"
 }
 
 /** Width of the ASCII progress bar (in characters). */
@@ -88,7 +85,7 @@ export const buildProcessLogRow = (
  *      `<releaseName>/logs/problem-clips-<runTs>.tsv`
  *      `<releaseName>/logs/process-log-<runTs>.tsv`
  *    where `<runTs>` is a compact UTC timestamp derived from `timeStart`
- *    (e.g. `20260322-143000`), ensuring batch re-runs don't overwrite each other.
+ *    (e.g. `20260322T143000`), ensuring batch re-runs don't overwrite each other.
  *
  * Because Redis INCR is atomic, exactly one pod triggers each flush --
  * no distributed lock needed.
