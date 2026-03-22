@@ -4,6 +4,7 @@ import { readerTaskEither as RTE, taskEither as TE } from 'fp-ts'
 import { pipe } from 'fp-ts/lib/function'
 import { AppEnv } from '../types'
 import { getVerbosity, logger } from './logger'
+import { createLineStream } from './lineStream'
 
 export const CORPORA_CREATOR_SPLIT_FILES = [
   'dev.tsv',
@@ -67,48 +68,34 @@ const runCorporaCreatorPromise = (locale: string, releaseDirPath: string) =>
     })
 
     // -- stdout handling --
-    if (verbosity === 'debug') {
-      // Stream stdout through logger so CC print() output is visible.
-      let stdoutPartial = ''
-      cc.stdout.on('data', (data: Buffer) => {
-        stdoutPartial += data.toString()
-        const parts = stdoutPartial.split('\n')
-        // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
-        stdoutPartial = parts.pop()!
-        for (const line of parts) {
-          if (line.trim()) logger.debug('CC', `[${locale}] stdout: ${line.trim()}`)
-        }
-      })
+    const stdoutLS = verbosity === 'debug'
+      ? createLineStream(line =>
+          logger.debug('CC', `[${locale}] stdout: ${line}`),
+        )
+      : null
+    if (stdoutLS) {
+      cc.stdout.on('data', (data: Buffer) => stdoutLS.feed(data))
     } else {
       // Drain stdout to prevent pipe buffer from filling and blocking the child.
       cc.stdout.resume()
     }
 
     // -- stderr handling --
-    if (isLive) {
-      // verbose/debug: stream stderr live through logger line by line.
-      let stderrPartial = ''
-      cc.stderr.on('data', (data: Buffer) => {
-        stderrPartial += data.toString()
-        const parts = stderrPartial.split('\n')
-        // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
-        stderrPartial = parts.pop()!
-        for (const raw of parts) {
-          const line = raw.replace(/\r/g, '').trim()
-          if (!isNoiseLine(line)) {
-            logger.debug('CC', `[${locale}] ${line}`)
+    const stderrLS = isLive
+      ? createLineStream(line => {
+          const clean = line.replace(/\r/g, '')
+          if (!isNoiseLine(clean)) {
+            logger.debug('CC', `[${locale}] ${clean}`)
           }
-        }
-      })
+        })
+      : null
+
+    if (isLive) {
+      cc.stderr.on('data', (data: Buffer) => stderrLS!.feed(data))
 
       cc.on('close', (code, signal) => {
-        // Flush remaining partial line
-        if (stderrPartial.trim()) {
-          const line = stderrPartial.replace(/\r/g, '').trim()
-          if (!isNoiseLine(line)) {
-            logger.debug('CC', `[${locale}] ${line}`)
-          }
-        }
+        stdoutLS?.flush()
+        stderrLS!.flush()
         if (code !== 0 || signal) {
           logger.error(
             'CC',

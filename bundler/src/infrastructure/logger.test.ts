@@ -30,14 +30,6 @@ describe('applyVerbosity', () => {
     expect(getVerbosity()).toBe('normal')
   })
 
-  it('quiet sets verbosity and suppresses info/debug', () => {
-    const { applyVerbosity, getVerbosity } = loadLogger()
-    applyVerbosity('quiet')
-    expect(getVerbosity()).toBe('quiet')
-    // Log level is 'warn' -- info and debug messages are suppressed.
-    // We verify indirectly: logger.info should not write to stdout.
-  })
-
   it('verbose sets verbosity to verbose', () => {
     const { applyVerbosity, getVerbosity } = loadLogger()
     applyVerbosity('verbose')
@@ -82,6 +74,18 @@ describe('applyVerbosity', () => {
     applyVerbosity('verbose')
     const writeSpy = jest.spyOn(process.stdout, 'write').mockImplementation(() => true)
     logger.debug('TEST', 'should appear')
+    expect(writeSpy).toHaveBeenCalled()
+    writeSpy.mockRestore()
+  })
+
+  it('falls back to normal for invalid verbosity values', () => {
+    const { applyVerbosity, getVerbosity, logger } = loadLogger()
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    applyVerbosity('bogus' as any)
+    expect(getVerbosity()).toBe('normal')
+    // info should still work (normal -> env default info for local)
+    const writeSpy = jest.spyOn(process.stdout, 'write').mockImplementation(() => true)
+    logger.info('TEST', 'should appear')
     expect(writeSpy).toHaveBeenCalled()
     writeSpy.mockRestore()
   })

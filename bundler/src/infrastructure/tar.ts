@@ -5,25 +5,24 @@ import { taskEither as TE } from 'fp-ts'
 import { pipe } from 'fp-ts/lib/function'
 
 import { getVerbosity, logger } from './logger'
+import { createLineStream } from './lineStream'
 
 const runExtractTarPromise = (filepath: string, outDir: string) =>
   new Promise<void>((resolve, reject) => {
-    const verbosity = getVerbosity()
+    const isLive = getVerbosity() === 'verbose' || getVerbosity() === 'debug'
     const cc = spawn('tar', ['-C', outDir, '-xf', filepath])
 
     const stderrChunks: string[] = []
+    const ls = isLive
+      ? createLineStream(line => logger.debug('TAR', line))
+      : null
     cc.stderr.on('data', (data: Buffer) => {
-      const chunk = String(data)
-      stderrChunks.push(chunk)
-      // In verbose/debug mode, stream stderr live for visibility
-      if (verbosity === 'verbose' || verbosity === 'debug') {
-        for (const line of chunk.split('\n')) {
-          if (line.trim()) logger.debug('TAR', line.trim())
-        }
-      }
+      stderrChunks.push(String(data))
+      ls?.feed(data)
     })
 
     cc.on('close', code => {
+      ls?.flush()
       if (code !== 0) {
         reject(new Error(`tar exited with code ${code}: ${stderrChunks.join('')}`))
       } else {
@@ -73,16 +72,14 @@ const runStreamExtractTarPromise = (
     }
     const proc = spawn('tar', args)
 
-    const verbosity = getVerbosity()
+    const isLive = getVerbosity() === 'verbose' || getVerbosity() === 'debug'
     const stderrChunks: string[] = []
+    const ls = isLive
+      ? createLineStream(line => logger.debug('TAR', line))
+      : null
     proc.stderr.on('data', (data: Buffer) => {
-      const chunk = String(data)
-      stderrChunks.push(chunk)
-      if (verbosity === 'verbose' || verbosity === 'debug') {
-        for (const line of chunk.split('\n')) {
-          if (line.trim()) logger.debug('TAR', line.trim())
-        }
-      }
+      stderrChunks.push(String(data))
+      ls?.feed(data)
     })
 
     let settled = false
@@ -97,6 +94,7 @@ const runStreamExtractTarPromise = (
     proc.on('close', code => {
       if (settled) return
       settled = true
+      ls?.flush()
       const stderr = stderrChunks.join('')
       // GNU tar exits 2 when --wildcards patterns match nothing (e.g. delta
       // tar has an empty clips/ dir). This is not a real error -- it just

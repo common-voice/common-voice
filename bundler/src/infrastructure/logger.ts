@@ -45,9 +45,14 @@ export const getVerbosity = (): Verbosity => currentVerbosity
  * (LOG_LEVEL env var / ENVIRONMENT), preserving existing behaviour.
  */
 export const applyVerbosity = (v: Verbosity): void => {
-  currentVerbosity = v
+  // Runtime guard: if an unexpected string is passed (e.g. from older jobs
+  // or a CLI bug), fall back to 'normal' to keep log filtering intact.
+  const safe: Verbosity =
+    v in VERBOSITY_LOG_LEVEL ? v : 'normal'
+
+  currentVerbosity = safe
   currentLevel =
-    v === 'normal' ? getLogLevel() : VERBOSITY_LOG_LEVEL[v]
+    safe === 'normal' ? getLogLevel() : VERBOSITY_LOG_LEVEL[safe]
 }
 
 /**
