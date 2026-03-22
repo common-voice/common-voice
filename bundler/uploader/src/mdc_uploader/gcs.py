@@ -102,6 +102,17 @@ def gcs_list_tarballs(
     return results
 
 
+def gcs_upload_file(gcs_uri: str, blob_path: str, local_path: str) -> None:
+    """Upload a local file to a GCS blob."""
+    bucket_name, base_prefix = _parse_gcs_uri(gcs_uri)
+    client = gcs_storage.Client()
+    bucket = client.bucket(bucket_name)
+    full_path = f"{base_prefix}/{blob_path}" if base_prefix else blob_path
+    blob = bucket.blob(full_path)
+    blob.upload_from_filename(local_path)
+    logger.info("GCS", "Uploaded -> gs://%s/%s", bucket_name, full_path)
+
+
 def gcs_read_text(gcs_uri: str, blob_path: str) -> str | None:
     """Read a text file from GCS. Returns None if not found."""
     bucket_name, base_prefix = _parse_gcs_uri(gcs_uri)
