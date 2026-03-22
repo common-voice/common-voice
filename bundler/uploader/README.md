@@ -21,7 +21,8 @@ For architecture and development details see [DEVELOPER.md](DEVELOPER.md).
 - Can recover orphaned drafts on retry -- if upload succeeded but metadata update failed, `--retry-failed` skips re-upload and resumes from step 3
 - Can log full HTTP request payloads and response bodies on error for debugging
 - Can write all output to a log file via `--log-file` (always captures DEBUG level)
-- Can persist batch state to JSON after each locale for `--retry-failed` support (local filesystem only, does not survive pod crashes for now)
+- Can persist batch state to JSON after each locale for `--retry-failed` support
+- Can save log file and state JSON to `<base-dir>/<release>/upload-logs/` after each batch so they survive pod recycling
 
 ## Data Pipeline
 
@@ -210,9 +211,12 @@ mdc-upload --retry-failed ./upload-state-cv-corpus-25.0-2026-03-09-20260313T1430
                |   +-- sps-corpus-3.0-2026-03-09-en.tar.gz
                |   +-- sps-corpus-3.0-2026-03-09-mt.tar.gz
                |   +-- datasheets/
-               |       +-- sps-corpus-3.0-2026-03-09-datasheet-ga-IE.md  <-- datasheet (per locale)
-               |       +-- sps-corpus-3.0-2026-03-09-datasheet-en.md
-               |       +-- sps-corpus-3.0-2026-03-09-datasheet-mt.md
+               |   |   +-- sps-corpus-3.0-2026-03-09-datasheet-ga-IE.md  <-- datasheet (per locale)
+               |   |   +-- sps-corpus-3.0-2026-03-09-datasheet-en.md
+               |   |   +-- sps-corpus-3.0-2026-03-09-datasheet-mt.md
+               |   +-- upload-logs/                                <-- auto-saved after each batch
+               |       +-- mdc-upload-sps-corpus-3.0-...-20260322T143000.log
+               |       +-- upload-state-sps-corpus-3.0-...-20260322T143000.json
                |
                +-- cv-corpus-25.0-2026-03-09/           <-- -r cv-corpus-25.0-2026-03-09
                |   +-- cv-corpus-25.0-2026-03-09-en.tar.gz
