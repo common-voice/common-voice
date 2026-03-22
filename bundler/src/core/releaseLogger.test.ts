@@ -19,6 +19,7 @@ import { AppEnv, ProblemClip, ProblemClipReason } from '../types'
 import {
   buildProcessLogRow,
   flushReleaseLogs,
+  formatRunTimestamp,
 } from './releaseLogger'
 
 // ---------------------------------------------------------------------------
@@ -43,6 +44,26 @@ const makeEnv = (overrides: Partial<AppEnv> = {}): AppEnv => ({
   clipCount: 0,
   startTimestamp: START,
   ...overrides,
+})
+
+// ---------------------------------------------------------------------------
+// formatRunTimestamp
+// ---------------------------------------------------------------------------
+
+describe('formatRunTimestamp', () => {
+  it('formats an ISO timestamp into YYYYMMDD-HHmmss', () => {
+    expect(formatRunTimestamp('2026-03-22T14:30:05.123Z')).toBe('20260322-143005')
+  })
+
+  it('handles midnight correctly', () => {
+    expect(formatRunTimestamp('2026-01-01T00:00:00.000Z')).toBe('20260101-000000')
+  })
+
+  it('falls back to current time when input is null', () => {
+    const result = formatRunTimestamp(null)
+    // Should be a 15-char string: YYYYMMDD-HHmmss
+    expect(result).toMatch(/^\d{8}-\d{6}$/)
+  })
 })
 
 // ---------------------------------------------------------------------------
