@@ -125,7 +125,7 @@ bundler/
 │   │   ├── database.ts             # MySQL connection
 │   │   ├── datasheetsFetcher.ts    # Fetch pre-compiled datasheets JSON
 │   │   ├── filesystem.ts           # Filesystem helpers (checksum, line count, tar extract)
-│   │   ├── logger.ts               # Structured logger (levels: debug/info/warn/error/silent)
+│   │   ├── logger.ts               # Structured logger (levels + verbosity: quiet/normal/verbose/debug)
 │   │   ├── mp3DurationReporter.ts  # Rust binary wrapper for MP3 duration
 │   │   ├── queue.ts                # BullMQ queue setup
 │   │   ├── redis.ts                # Shared ioredis client
@@ -213,6 +213,23 @@ Status tags: `ok`/`er`/`sk` for success, error, or skip.
 
 ---
 
+## Verbosity
+
+The `--verbosity` CLI flag controls both the logger output level and how subprocess output (CorporaCreator, mp3-duration-reporter, tar, wc/tail, prune script) is handled. It travels through BullMQ job data and is applied at job start via `applyVerbosity()`.
+
+| Level     | Log level   | CC stdout | CC stderr       | Other subprocesses            |
+| --------- | ----------- | --------- | --------------- | ----------------------------- |
+| `quiet`   | `warn`      | drained   | suppressed      | stderr demoted to debug       |
+| `normal`  | env default | drained   | on failure only | stderr as warn (default)      |
+| `verbose` | `debug`     | drained   | streamed live   | stderr streamed as debug      |
+| `debug`   | `debug`     | streamed  | streamed live   | stderr streamed, tqdm enabled |
+
+When `--verbosity` is not `normal`, it overrides the `LOG_LEVEL` environment variable. The verbosity state is stored in `logger.ts` alongside `currentLevel` and is read by subprocess handlers via `getVerbosity()`.
+
+In `debug` mode, `TQDM_DISABLE` is not set, so swifter/tqdm progress bars and CorporaCreator's own `print()` output are all visible. This reveals memory warnings, pandas diagnostics, and progress information that are normally suppressed.
+
+---
+
 ## Testing
 
 Tests use **Jest** with **ts-jest** (runs TypeScript directly, no pre-compile step).
@@ -236,7 +253,8 @@ npx jest src/core/datasheets.e2e.test.ts        # e2e (skipped in CI; requires n
 | `src/core/stats.test.ts`                       | `unitToHours` conversion, `buildLocale` mapping from `LocaleReleaseData`                        |
 | `src/core/utils.test.ts`                       | `countLinesInFile`, `unitToHours`, `formatDuration`, `renderBar`, `formatCompact`, `formatEta`  |
 | `src/infrastructure/datasheetsFetcher.test.ts` | Local file loading, modality mapping, error recovery                                            |
-| `src/worker/processor.test.ts`                 | Job environment derivation, `uploadPath` precomputation, `--force` passthrough                  |
+| `src/infrastructure/logger.test.ts`            | `applyVerbosity` log-level mapping, `getVerbosity` state, output suppression/promotion          |
+| `src/worker/processor.test.ts`                 | Job environment derivation, `uploadPath` precomputation, `--force`/`--verbosity` passthrough    |
 | `src/worker/processVariants.test.ts`           | Variant clip/duration filtering, env derivation, locale column rewriting                        |
 
 ---
