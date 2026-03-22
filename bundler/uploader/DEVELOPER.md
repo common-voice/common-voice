@@ -64,9 +64,9 @@ Dev and prod use separate MDC accounts. Set the key matching your `-ut` target.
 | `language.py`  | `LanguageRegistry` class -- fetches locale names from CV API + hardcoded extras      |
 | `mdc.py`       | `MDCClient` -- step-by-step SDK calls, recovery, error/response capture, 429 retry   |
 | `pipeline.py`  | Per-locale upload orchestration, recovery routing, GCS temp cleanup, batch runner    |
-| `state.py`     | `BatchState` JSON persistence, orphaned submission extraction for `--retry-failed`   |
+| `state.py`     | `BatchState` JSON persistence, orphaned submission extraction, log-to-storage upload |
 | `progress.py`  | tqdm batch progress bar, human-readable size formatting                              |
-| `log.py`       | Structured logging with optional file output (`--log-file`), datacollective capture  |
+| `log.py`       | Structured logging, auto log file, `flush_all`/`get_log_file_path` for storage save  |
 | `gcs.py`       | GCS fallback for `gs://` URIs (uses `google-cloud-storage` runtime dependency)       |
 
 ---
@@ -193,7 +193,9 @@ Example: `CC-BY 4.0` becomes `CC-BY_4.0` (dot is preserved).
 
 ## Retry and State Management
 
-Every batch run writes a state JSON file to `.state/` after each locale completes:
+Every batch run writes a state JSON file to `.state/` after each locale completes. After the batch, both the state JSON and log file are copied to `<base-dir>/<release>/upload-logs/` for persistence across pod recycling.
+
+Local state file path:
 
 ```txt
 .state/upload-state-{release}-{timestamp}.json
@@ -229,21 +231,27 @@ Use `--retry-failed <path>` to re-run only failed locales. Config is restored fr
 
 ## Runtime Files
 
-During and after a batch run, the uploader creates files in two locations:
+During and after a batch run, the uploader creates files in three locations:
 
 ```txt
-.state/                                        <-- persistent (survives pod restarts if on PVC)
+.state/                                        <-- local scratch (ephemeral on pod filesystem)
   upload-state-cv-corpus-25.0-...-20260319T170000.json   <-- batch state (per run)
   upload-state-cv-corpus-25.0-...-20260319T183000.json   <-- retry run state
   mdc-upload-br.json                                     <-- SDK upload state (copied on failure)
   mdc-upload-en.json                                     <-- one per failed locale
-  mdc-upload-cv25-20260319T170000.log                    <-- log file (if --log-file used)
+  mdc-upload-cv-corpus-25.0-...-20260319T170000.log      <-- log file (always created)
 
 /tmp/                                          <-- ephemeral (GCS download temp files)
   tmpXXXXXX/                                   <-- temp dir per locale (GCS mode only)
     cv-corpus-25.0-2026-03-09-br.tar.gz        <-- downloaded tarball (deleted after upload)
     cv-corpus-25.0-...-br.tar.gz.mdc-upload.json  <-- SDK resume state (during upload)
+
+<base-dir>/<release>/upload-logs/              <-- persistent (GCS, survives pod recycling)
+  mdc-upload-cv-corpus-25.0-...-20260319T170000.log      <-- copied from .state/ after batch
+  upload-state-cv-corpus-25.0-...-20260319T170000.json   <-- copied from .state/ after batch
 ```
+
+**Log persistence:** A DEBUG-level log file is always created in `.state/` (even without `--log-file`). After the batch completes, both the log file and state JSON are copied to `<base-dir>/<release>/upload-logs/` in GCS so they survive pod recycling. For `gs://` URIs, upload uses the GCS client; for GCSFuse mounts, the mount must be writable (see GCSFuse section below).
 
 **Tarball lifecycle (GCS mode):** downloaded from GCS -> uploaded to MDC -> always deleted (both success and failure). The `submission_id` and `file_upload_id` in batch state are sufficient for retry.
 
@@ -480,13 +488,13 @@ volumes:
 volumeMounts:
   - name: gcs-releases
     mountPath: /gcs
-    readOnly: true
+    readOnly: false   # writable -- uploader saves logs to <release>/upload-logs/
 ```
 
 Prerequisites:
 
 - GCSFuse CSI driver addon enabled on the GKE cluster
-- Service account with `storage.objectViewer` on the bucket
+- Service account with `storage.objectViewer` + `storage.objectCreator` on the bucket (objectCreator needed for upload-logs)
 - See [GCP docs](https://cloud.google.com/kubernetes-engine/docs/how-to/persistent-volumes/cloud-storage-fuse-csi-driver)
 
 ### Checking GCSFuse from inside a pod
@@ -556,5 +564,5 @@ Planned for the next iteration using the official BullMQ Python port (v2.19.6):
 - `mdc-upload dispatch` -- scan base-dir, sort by size DESC, push jobs to BullMQ queue
 - `mdc-upload worker` -- BullMQ Worker consumes and processes jobs
 - `mdc-upload status` -- show batch progress from Redis
-- **Redis-backed batch state** -- current `.state/` JSON files are local to the pod filesystem and do not survive pod crashes. Move state tracking to Redis so `--retry-failed` works across pod restarts.
+- **Redis-backed batch state** -- state JSON is now copied to GCS after each batch, but mid-batch crashes still lose progress. Move state tracking to Redis for real-time persistence across pod restarts.
 - Reuses existing Redis instance from bundler infrastructure

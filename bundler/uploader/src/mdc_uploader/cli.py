@@ -3,7 +3,9 @@
 from __future__ import annotations
 
 import os
+import re
 import sys
+from datetime import UTC, datetime
 
 import click
 
@@ -11,7 +13,7 @@ from mdc_uploader.config import UploaderConfig
 from mdc_uploader.log import logger, setup_logging
 from mdc_uploader.models import ReleaseType
 from mdc_uploader.pipeline import run_batch
-from mdc_uploader.state import load_state_for_retry
+from mdc_uploader.state import STATE_DIR, load_state_for_retry
 from mdc_uploader.typedef import MDCTarget
 
 EPILOG = """\b
@@ -120,6 +122,15 @@ def cli(
 
     Attaches datasheet metadata to each submission, displayed on the MDC dataset page.
     """
+    # Always capture logs to a file for storage persistence.
+    # User-specified --log-file takes priority; otherwise auto-create one.
+    # Include release name so SCS/SPS runs are distinguishable.
+    if not log_file:
+        os.makedirs(STATE_DIR, exist_ok=True)
+        ts = datetime.now(UTC).strftime("%Y%m%dT%H%M%S")
+        tag = re.sub(r"[^A-Za-z0-9._-]", "_", release) if release else "retry"
+        log_file = os.path.join(STATE_DIR, f"mdc-upload-{tag}-{ts}.log")
+
     setup_logging(verbose, log_file=log_file)
 
     try:
