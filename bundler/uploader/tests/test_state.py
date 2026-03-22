@@ -251,14 +251,19 @@ class TestSaveLogsToStorage:
 
         uploaded: list[tuple[str, str, str]] = []
 
-        def fake_upload(uri: str, blob_path: str, local: str) -> None:
+        def fake_upload(
+            uri: str, blob_path: str, local: str, client: object = None
+        ) -> None:
             uploaded.append((uri, blob_path, local))
+
+        mock_client = type("FakeClient", (), {})()
 
         with (
             patch("mdc_uploader.log.get_log_file_path", return_value=str(log_file)),
             patch("mdc_uploader.log.flush_all"),
             patch("mdc_uploader.gcs.is_gcs_uri", return_value=True),
             patch("mdc_uploader.gcs.gcs_upload_file", side_effect=fake_upload),
+            patch("google.cloud.storage.Client", return_value=mock_client),
         ):
             save_logs_to_storage("gs://bucket", "cv-corpus-25.0-2026-03-09", state)
 

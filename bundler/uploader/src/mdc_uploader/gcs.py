@@ -102,10 +102,22 @@ def gcs_list_tarballs(
     return results
 
 
-def gcs_upload_file(gcs_uri: str, blob_path: str, local_path: str) -> None:
-    """Upload a local file to a GCS blob."""
+def gcs_upload_file(
+    gcs_uri: str,
+    blob_path: str,
+    local_path: str,
+    client: gcs_storage.Client | None = None,
+) -> None:
+    """Upload a local file to a GCS blob.
+
+    Args:
+        client: Optional pre-created GCS client. When uploading multiple
+            files in a loop, pass a shared client to avoid repeated
+            auth/connection setup.
+    """
     bucket_name, base_prefix = _parse_gcs_uri(gcs_uri)
-    client = gcs_storage.Client()
+    if client is None:
+        client = gcs_storage.Client()
     bucket = client.bucket(bucket_name)
     full_path = f"{base_prefix}/{blob_path}" if base_prefix else blob_path
     blob = bucket.blob(full_path)

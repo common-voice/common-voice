@@ -178,12 +178,16 @@ def save_logs_to_storage(
         return
 
     if is_gcs_uri(base_dir):
-        # Use POSIX separators for GCS blob paths (not os.path.join)
+        # Use POSIX separators for GCS blob paths (not os.path.join).
+        # Create one GCS client for all uploads to avoid repeated auth/connection setup.
+        from google.cloud import storage as gcs_storage  # type: ignore[import-untyped]  # pylint: disable=import-outside-toplevel
+
+        gcs_client = gcs_storage.Client()
         dest_dir = f"{release_name}/upload-logs"
         for local_path, filename in files_to_save:
             blob_path = f"{dest_dir}/{filename}"
             try:
-                gcs_upload_file(base_dir, blob_path, local_path)
+                gcs_upload_file(base_dir, blob_path, local_path, client=gcs_client)
             except Exception as exc:  # pylint: disable=broad-exception-caught
                 logger.warning("UPLOAD", "Failed to save %s to storage: %s", filename, exc)
     else:
