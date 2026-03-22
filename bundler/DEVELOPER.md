@@ -125,6 +125,7 @@ bundler/
 │   │   ├── database.ts             # MySQL connection
 │   │   ├── datasheetsFetcher.ts    # Fetch pre-compiled datasheets JSON
 │   │   ├── filesystem.ts           # Filesystem helpers (checksum, line count, tar extract)
+│   │   ├── lineStream.ts            # Partial-line buffering helper for subprocess data events
 │   │   ├── logger.ts               # Structured logger (levels + verbosity: quiet/normal/verbose/debug)
 │   │   ├── mp3DurationReporter.ts  # Rust binary wrapper for MP3 duration
 │   │   ├── queue.ts                # BullMQ queue setup
@@ -253,6 +254,7 @@ npx jest src/core/datasheets.e2e.test.ts        # e2e (skipped in CI; requires n
 | `src/core/stats.test.ts`                       | `unitToHours` conversion, `buildLocale` mapping from `LocaleReleaseData`                        |
 | `src/core/utils.test.ts`                       | `countLinesInFile`, `unitToHours`, `formatDuration`, `renderBar`, `formatCompact`, `formatEta`  |
 | `src/infrastructure/datasheetsFetcher.test.ts` | Local file loading, modality mapping, error recovery                                            |
+| `src/infrastructure/lineStream.test.ts`        | Partial-line buffering, multi-chunk assembly, flush, empty-line skipping                        |
 | `src/infrastructure/logger.test.ts`            | `applyVerbosity` log-level mapping, `getVerbosity` state, output suppression/promotion          |
 | `src/worker/processor.test.ts`                 | Job environment derivation, `uploadPath` precomputation, `--force`/`--verbosity` passthrough    |
 | `src/worker/processVariants.test.ts`           | Variant clip/duration filtering, env derivation, locale column rewriting                        |
