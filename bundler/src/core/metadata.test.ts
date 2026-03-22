@@ -89,6 +89,18 @@ describe('getMetadataFiles', () => {
     expect(files).toEqual(['en/validated.tsv'])
   })
 
+  it('excludes directory with an allowlisted name', () => {
+    const localeDir = path.join(tmpDir, 'en')
+    fs.mkdirSync(localeDir)
+    // Directory named like an allowlisted file
+    fs.mkdirSync(path.join(localeDir, 'validated.tsv'))
+    fs.writeFileSync(path.join(localeDir, 'validated.tsv', 'nested.txt'), 'data')
+    fs.writeFileSync(path.join(localeDir, 'reported.tsv'), 'data')
+
+    const files = getMetadataFiles('en', tmpDir)
+    expect(files).toEqual(['en/reported.tsv'])
+  })
+
   it('returns empty array for missing locale directory', () => {
     const files = getMetadataFiles('nonexistent', tmpDir)
     expect(files).toEqual([])

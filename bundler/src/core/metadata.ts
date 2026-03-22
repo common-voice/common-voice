@@ -37,7 +37,10 @@ export const getMetadataFiles = (
   try {
     return fs
       .readdirSync(dir, { encoding: 'utf-8' })
-      .filter(entry => isAllowedInMetadata(entry, isDelta))
+      .filter(entry => {
+        const fullPath = path.join(dir, entry)
+        return isAllowedInMetadata(entry, isDelta) && fs.statSync(fullPath).isFile()
+      })
       .map(entry => path.join(locale, entry))
   } catch {
     logger.warn('METADATA', `Directory does not exist or is empty: ${dir}`)
