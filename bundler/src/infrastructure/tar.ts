@@ -4,12 +4,24 @@ import { Readable } from 'node:stream'
 import { taskEither as TE } from 'fp-ts'
 import { pipe } from 'fp-ts/lib/function'
 
+import { getVerbosity, logger } from './logger'
+
 const runExtractTarPromise = (filepath: string, outDir: string) =>
   new Promise<void>((resolve, reject) => {
+    const verbosity = getVerbosity()
     const cc = spawn('tar', ['-C', outDir, '-xf', filepath])
 
     const stderrChunks: string[] = []
-    cc.stderr.on('data', data => stderrChunks.push(String(data)))
+    cc.stderr.on('data', (data: Buffer) => {
+      const chunk = String(data)
+      stderrChunks.push(chunk)
+      // In verbose/debug mode, stream stderr live for visibility
+      if (verbosity === 'verbose' || verbosity === 'debug') {
+        for (const line of chunk.split('\n')) {
+          if (line.trim()) logger.debug('TAR', line.trim())
+        }
+      }
+    })
 
     cc.on('close', code => {
       if (code !== 0) {
@@ -61,8 +73,17 @@ const runStreamExtractTarPromise = (
     }
     const proc = spawn('tar', args)
 
+    const verbosity = getVerbosity()
     const stderrChunks: string[] = []
-    proc.stderr.on('data', (data: Buffer) => stderrChunks.push(String(data)))
+    proc.stderr.on('data', (data: Buffer) => {
+      const chunk = String(data)
+      stderrChunks.push(chunk)
+      if (verbosity === 'verbose' || verbosity === 'debug') {
+        for (const line of chunk.split('\n')) {
+          if (line.trim()) logger.debug('TAR', line.trim())
+        }
+      }
+    })
 
     let settled = false
     const fail = (err: Error) => {

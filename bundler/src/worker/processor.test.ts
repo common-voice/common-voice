@@ -194,5 +194,15 @@ describe('deriveJobEnv', () => {
       const env = deriveJobEnv(baseJob, TMP_DIR)
       expect(env.force).toBeUndefined()
     })
+
+    it('preserves verbosity flag when set', () => {
+      const env = deriveJobEnv({ ...baseJob, verbosity: 'debug' }, TMP_DIR)
+      expect(env.verbosity).toBe('debug')
+    })
+
+    it('verbosity is undefined by default', () => {
+      const env = deriveJobEnv(baseJob, TMP_DIR)
+      expect(env.verbosity).toBeUndefined()
+    })
   })
 })

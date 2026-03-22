@@ -5,7 +5,7 @@ import { readerTaskEither as RTE, taskEither as TE } from 'fp-ts'
 import { pipe } from 'fp-ts/lib/function'
 
 import { AppEnv } from '../types'
-import { logger } from './logger'
+import { getVerbosity, logger } from './logger'
 
 export const Mp3DurationFiles = ['clip_durations.tsv'] as const
 
@@ -24,6 +24,9 @@ const runMp3DurationReporterPromise = (
   releaseDirPath: string,
 ) =>
   new Promise<number>((resolve, reject) => {
+    const verbosity = getVerbosity()
+    const isLive = verbosity === 'verbose' || verbosity === 'debug'
+
     const cc = spawn(
       'mp3-duration-reporter',
       [path.join(releaseDirPath, locale, 'clips')],
@@ -49,8 +52,15 @@ const runMp3DurationReporterPromise = (
         if (!line) continue
         if (line.includes('ERROR')) {
           errorCount++
+          // In verbose/debug mode, emit each error line individually
+          if (isLive) logger.warn('MP3-DURATION', `[${locale}] ${line}`)
         } else {
-          logger.debug('MP3-DURATION', line)
+          // verbose/debug: promote to info so lines are visible at default level
+          if (isLive) {
+            logger.info('MP3-DURATION', `[${locale}] ${line}`)
+          } else {
+            logger.debug('MP3-DURATION', line)
+          }
         }
       }
     })

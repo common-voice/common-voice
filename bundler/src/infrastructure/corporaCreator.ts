@@ -3,7 +3,7 @@ import { spawn } from 'node:child_process'
 import { readerTaskEither as RTE, taskEither as TE } from 'fp-ts'
 import { pipe } from 'fp-ts/lib/function'
 import { AppEnv } from '../types'
-import { logger } from './logger'
+import { getVerbosity, logger } from './logger'
 
 export const CORPORA_CREATOR_SPLIT_FILES = [
   'dev.tsv',
@@ -42,8 +42,15 @@ export type CorporaCreaterFile = (typeof CORPORA_CREATOR_FILES)[number]
  * @param locale - The locale for which to generate corpora.
  * @returns A promise representing the result of running the create-corpora command.
  */
+/** Filters tqdm/swifter progress noise from a stderr line */
+const isNoiseLine = (line: string): boolean =>
+  !line || line.startsWith('Pandas Apply:') || line.startsWith('Dask Apply:')
+
 const runCorporaCreatorPromise = (locale: string, releaseDirPath: string) =>
   new Promise<void>((resolve, reject) => {
+    const verbosity = getVerbosity()
+    const isLive = verbosity === 'verbose' || verbosity === 'debug'
+
     const cc = spawn('create-corpora', [
       '-d',
       releaseDirPath,
@@ -52,51 +59,101 @@ const runCorporaCreatorPromise = (locale: string, releaseDirPath: string) =>
     ], {
       env: {
         ...process.env,
-        // Suppress tqdm/swifter progress bars -- they leak through
-        // multiprocessing worker stdout, bypassing spawn pipe capture.
-        TQDM_DISABLE: '1',
+        // In debug mode, keep tqdm enabled for full subprocess output.
+        // Otherwise suppress progress bars that leak through multiprocessing
+        // worker stdout, bypassing spawn pipe capture.
+        ...(verbosity !== 'debug' ? { TQDM_DISABLE: '1' } : {}),
       },
     })
 
-    // Drain stdout to prevent pipe buffer from filling and blocking the child.
-    // With TQDM_DISABLE=1 there should be minimal output, but CC or swifter
-    // multiprocessing workers may still write to stdout.
-    cc.stdout.resume()
+    // -- stdout handling --
+    if (verbosity === 'debug') {
+      // Stream stdout through logger so CC print() output is visible.
+      let stdoutPartial = ''
+      cc.stdout.on('data', (data: Buffer) => {
+        stdoutPartial += data.toString()
+        const parts = stdoutPartial.split('\n')
+        // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+        stdoutPartial = parts.pop()!
+        for (const line of parts) {
+          if (line.trim()) logger.debug('CC', `[${locale}] stdout: ${line.trim()}`)
+        }
+      })
+    } else {
+      // Drain stdout to prevent pipe buffer from filling and blocking the child.
+      cc.stdout.resume()
+    }
 
-    // Buffer stderr -- swifter/tqdm progress bars + pandas warnings.
-    // Only surfaced on failure; suppressed on success (pure noise).
-    const MAX_STDERR = 64 * 1024
-    let stderrBuf = ''
-    let stderrTruncated = false
-    cc.stderr.on('data', (data: Buffer) => {
-      if (stderrTruncated) return
-      stderrBuf += data.toString()
-      if (stderrBuf.length > MAX_STDERR) {
-        stderrBuf = stderrBuf.slice(0, MAX_STDERR)
-        stderrTruncated = true
-      }
-    })
-
-    cc.on('close', (code, signal) => {
-      if (code !== 0 || signal) {
-        // On failure: log stderr for diagnostics (filter out tqdm \r noise)
-        const lines = stderrBuf
-          .split('\n')
-          .flatMap(l => l.split('\r'))
-          .map(l => l.trim())
-          .filter(l => l && !l.startsWith('Pandas Apply:') && !l.startsWith('Dask Apply:'))
-        if (lines.length > 0) {
-          logger.warn('CC', `[${locale}] ${lines[0]}`)
-          if (lines.length > 1) {
-            logger.warn('CC', `[${locale}] ... (${lines.length - 1} more lines)`)
-            logger.warn('CC', `[${locale}] ${lines[lines.length - 1]}`)
+    // -- stderr handling --
+    if (isLive) {
+      // verbose/debug: stream stderr live through logger line by line.
+      let stderrPartial = ''
+      cc.stderr.on('data', (data: Buffer) => {
+        stderrPartial += data.toString()
+        const parts = stderrPartial.split('\n')
+        // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+        stderrPartial = parts.pop()!
+        for (const raw of parts) {
+          const line = raw.replace(/\r/g, '').trim()
+          if (!isNoiseLine(line)) {
+            logger.debug('CC', `[${locale}] ${line}`)
           }
         }
-        logger.error('CC', `[${locale}] create-corpora exited with code ${code}${signal ? ` signal ${signal}` : ''}`)
-      }
-      // Always resolve -- caller handles missing output files.
-      resolve()
-    })
+      })
+
+      cc.on('close', (code, signal) => {
+        // Flush remaining partial line
+        if (stderrPartial.trim()) {
+          const line = stderrPartial.replace(/\r/g, '').trim()
+          if (!isNoiseLine(line)) {
+            logger.debug('CC', `[${locale}] ${line}`)
+          }
+        }
+        if (code !== 0 || signal) {
+          logger.error(
+            'CC',
+            `[${locale}] create-corpora exited with code ${code}${signal ? ` signal ${signal}` : ''}`,
+          )
+        }
+        resolve()
+      })
+    } else {
+      // quiet/normal: buffer stderr, only surface on failure.
+      const MAX_STDERR = 64 * 1024
+      let stderrBuf = ''
+      let stderrTruncated = false
+      cc.stderr.on('data', (data: Buffer) => {
+        if (stderrTruncated) return
+        stderrBuf += data.toString()
+        if (stderrBuf.length > MAX_STDERR) {
+          stderrBuf = stderrBuf.slice(0, MAX_STDERR)
+          stderrTruncated = true
+        }
+      })
+
+      cc.on('close', (code, signal) => {
+        if (code !== 0 || signal) {
+          const lines = stderrBuf
+            .split('\n')
+            .flatMap(l => l.split('\r'))
+            .map(l => l.trim())
+            .filter(l => !isNoiseLine(l))
+          if (lines.length > 0) {
+            logger.warn('CC', `[${locale}] ${lines[0]}`)
+            if (lines.length > 1) {
+              logger.warn('CC', `[${locale}] ... (${lines.length - 1} more lines)`)
+              logger.warn('CC', `[${locale}] ${lines[lines.length - 1]}`)
+            }
+          }
+          logger.error(
+            'CC',
+            `[${locale}] create-corpora exited with code ${code}${signal ? ` signal ${signal}` : ''}`,
+          )
+        }
+        resolve()
+      })
+    }
+
     cc.on('error', reason => reject(reason))
   })
 
