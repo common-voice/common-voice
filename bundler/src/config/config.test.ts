@@ -75,6 +75,15 @@ describe('config defaults (no env vars)', () => {
   it('STREAM_COMPRESS_CLIP_THRESHOLD defaults to 2000000', () => {
     expect(loadConfig().STREAM_COMPRESS_CLIP_THRESHOLD).toBe(2_000_000)
   })
+
+  it('VERBOSITY_CHOICES contains all valid levels', () => {
+    expect(loadConfig().VERBOSITY_CHOICES).toEqual([
+      'quiet',
+      'normal',
+      'verbose',
+      'debug',
+    ])
+  })
 })
 
 describe('config with env vars', () => {

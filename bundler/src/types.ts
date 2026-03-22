@@ -1,4 +1,4 @@
-import { Modality } from './config'
+import { Modality, Verbosity } from './config'
 import type { LocaleReleaseData } from './core/localeData'
 
 export const ProblemClipReason = {
@@ -73,6 +73,7 @@ export type Settings = {
   modality?: Modality
   datasheetsFile?: string // e.g. "datasheets-2026-03-06.json"
   force?: boolean // bypass done-SET + GCS existence checks; re-create and overwrite
+  verbosity?: Verbosity // subprocess + log output level (default: 'normal')
 }
 
 export type DatasheetLocalePayload = {

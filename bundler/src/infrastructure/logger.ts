@@ -1,5 +1,5 @@
 import * as os from 'node:os'
-import { LogLevel, getLogLevel } from '../config'
+import { LogLevel, Verbosity, getLogLevel } from '../config'
 
 const LEVEL_RANK: Record<LogLevel, number> = {
   debug: 0,
@@ -18,6 +18,36 @@ let currentLevel: LogLevel = getLogLevel()
 
 export const setLogLevel = (level: LogLevel): void => {
   currentLevel = level
+}
+
+// ---------------------------------------------------------------------------
+// Verbosity -- controls both log level and subprocess output behaviour.
+// Set once per job via applyVerbosity(); read by subprocess handlers via
+// getVerbosity() to decide whether to stream/suppress child output.
+// ---------------------------------------------------------------------------
+
+const VERBOSITY_LOG_LEVEL: Record<Verbosity, LogLevel> = {
+  quiet: 'warn',
+  normal: 'info', // placeholder -- applyVerbosity uses env default
+  verbose: 'debug',
+  debug: 'debug',
+}
+
+let currentVerbosity: Verbosity = 'normal'
+
+export const getVerbosity = (): Verbosity => currentVerbosity
+
+/**
+ * Applies a verbosity level: sets both the subprocess output verbosity
+ * and the corresponding log level.
+ *
+ * For 'normal', the log level falls back to the environment-based default
+ * (LOG_LEVEL env var / ENVIRONMENT), preserving existing behaviour.
+ */
+export const applyVerbosity = (v: Verbosity): void => {
+  currentVerbosity = v
+  currentLevel =
+    v === 'normal' ? getLogLevel() : VERBOSITY_LOG_LEVEL[v]
 }
 
 /**
