@@ -31,7 +31,7 @@ from mdc_uploader.naming import (
     tarball_path,
 )
 from mdc_uploader.progress import batch_progress, format_size
-from mdc_uploader.state import STATE_DIR, BatchState
+from mdc_uploader.state import STATE_DIR, BatchState, save_logs_to_storage
 
 
 def _build_jobs_gcs(  # pylint: disable=too-many-locals
@@ -479,8 +479,11 @@ def print_summary(state: BatchState) -> None:
     success, failed, skipped = state.summary()
     total = success + failed + skipped
 
+    # Derive modality tag from release name for the summary header
+    modality_tag = "SPS" if state.release.startswith("sps-") else "SCS"
+
     logger.info("UPLOAD", "")
-    logger.info("UPLOAD", "-- Batch Summary " + "-" * 50)
+    logger.info("UPLOAD", "-- Batch Summary [%s] %s " + "-" * 20, modality_tag, state.release)
     logger.info(
         "UPLOAD",
         "Total: %d | Success: %d | Failed: %d | Skipped: %d",
@@ -521,6 +524,12 @@ def print_summary(state: BatchState) -> None:
                 sid,
             )
 
+    from mdc_uploader.log import get_log_file_path  # pylint: disable=import-outside-toplevel
+
+    log_path = get_log_file_path()
+    if log_path:
+        logger.info("UPLOAD", "Log file: %s", log_path)
+
     if failed > 0:
         logger.info("UPLOAD", "")
         logger.info(
@@ -539,6 +548,8 @@ def run_batch(config: UploaderConfig) -> bool:
     """Run the full batch upload. Returns True if all locales succeeded."""
     release_spec = parse_release_name(config.release_name)
 
+    from mdc_uploader.log import get_log_file_path  # pylint: disable=import-outside-toplevel
+
     logger.info(
         "UPLOAD",
         "Release: %s (%s, type=%s, target=%s)",
@@ -548,6 +559,9 @@ def run_batch(config: UploaderConfig) -> bool:
         config.upload_target,
     )
     logger.info("UPLOAD", "Base dir: %s", config.base_dir)
+    log_path = get_log_file_path()
+    if log_path:
+        logger.info("UPLOAD", "Log file: %s", log_path)
 
     if config.dry_run:
         logger.info("UPLOAD", "** DRY RUN MODE **")
@@ -631,6 +645,9 @@ def run_batch(config: UploaderConfig) -> bool:
 
     # Summary
     print_summary(state)
+
+    # Persist logs to GCS so they survive pod recycling
+    save_logs_to_storage(config.base_dir, config.release_name, state)
 
     _, failed, _ = state.summary()
     return failed == 0

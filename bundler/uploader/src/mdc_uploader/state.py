@@ -1,9 +1,10 @@
-"""Batch state persistence for --retry-failed support."""
+"""Batch state persistence for --retry-failed support and log storage."""
 
 from __future__ import annotations
 
 import json
 import os
+import shutil
 from datetime import UTC, datetime
 
 from mdc_uploader.log import logger
@@ -141,3 +142,57 @@ def load_state_for_retry(path: str) -> RetryStateData:
         failed_locales=failed_locales,
         orphaned_submissions=orphaned,
     )
+
+
+def save_logs_to_storage(
+    base_dir: str,
+    release_name: str,
+    state: BatchState,
+) -> None:
+    """Save log file and state JSON to persistent storage.
+
+    Copies to <base-dir>/<release>/upload-logs/ so they survive pod recycling.
+    Non-fatal: failures are logged as warnings but do not affect the exit code.
+    """
+    from mdc_uploader.gcs import (  # pylint: disable=import-outside-toplevel
+        gcs_upload_file,
+        is_gcs_uri,
+    )
+    from mdc_uploader.log import (  # pylint: disable=import-outside-toplevel
+        flush_all,
+        get_log_file_path,
+    )
+
+    flush_all()
+    log_file = get_log_file_path()
+    state_file = state.state_path
+
+    # Collect files to persist: (local_path, dest_filename)
+    files_to_save: list[tuple[str, str]] = []
+    if log_file and os.path.exists(log_file):
+        files_to_save.append((log_file, os.path.basename(log_file)))
+    if os.path.exists(state_file):
+        files_to_save.append((state_file, os.path.basename(state_file)))
+
+    if not files_to_save:
+        return
+
+    dest_dir = os.path.join(release_name, "upload-logs")
+
+    if is_gcs_uri(base_dir):
+        for local_path, filename in files_to_save:
+            blob_path = f"{dest_dir}/{filename}"
+            try:
+                gcs_upload_file(base_dir, blob_path, local_path)
+            except Exception as exc:  # pylint: disable=broad-exception-caught
+                logger.warning("UPLOAD", "Failed to save %s to storage: %s", filename, exc)
+    else:
+        storage_dir = os.path.join(base_dir, dest_dir)
+        os.makedirs(storage_dir, exist_ok=True)
+        for local_path, filename in files_to_save:
+            dest = os.path.join(storage_dir, filename)
+            try:
+                shutil.copy2(local_path, dest)
+                logger.info("UPLOAD", "Log saved to %s", dest)
+            except Exception as exc:  # pylint: disable=broad-exception-caught
+                logger.warning("UPLOAD", "Failed to save %s: %s", filename, exc)
