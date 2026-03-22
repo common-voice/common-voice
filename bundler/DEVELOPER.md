@@ -57,7 +57,7 @@ There are two `--force` variants depending on whether `-l` is also passed:
 
 The init handler performs a complete reset:
 
-1. **Force-flushes logs** -- any accumulated problem-clips and process-log rows from the previous (potentially bad) run are uploaded to GCS before being destroyed. Covers all release name variants (base, `-licensed`, `-variants`).
+1. **Force-flushes logs** -- any accumulated problem-clips and process-log rows from the previous (potentially bad) run are uploaded to GCS before being destroyed. Log filenames include a run timestamp (e.g. `process-log-20260322-143005.tsv`), so previous runs are preserved. Covers all release name variants (base, `-licensed`, `-variants`).
 2. **Obliterates the BullMQ queue** -- removes ALL jobs (active, waiting, delayed, completed, failed) via `queue.obliterate({ force: true })`. The queue is resumed immediately after.
 3. **Clears Redis state** -- deletes ALL entries in the done SET(s) and processing HASH(es) for the release.
 4. **Queue pre-filter** is skipped entirely -- all locales are scheduled regardless of state.
@@ -171,8 +171,8 @@ cv-corpus-25.0-2026-03-06/
 │   ├── cv-datasheet-25.0-2026-03-06-tr.md
 │   └── ...
 └── logs/
-    ├── problem-clips.tsv    # clips excluded or flagged during processing
-    └── process-log.tsv      # one row per locale: duration, clip count, speed, status
+    ├── problem-clips-20260322-143005.tsv   # clips excluded or flagged during processing
+    └── process-log-20260322-143005.tsv     # one row per locale: duration, clip count, speed, status
 ```
 
 Each locale `.tar.gz` contains a `README.md` (the datasheet) alongside the clip and sentence files.
@@ -192,8 +192,8 @@ cv-corpus-25.0-2026-03-06-variants/
 │   ├── cv-metadata-25.0-2026-03-06-cy-southwes.tar.gz
 │   └── ...
 └── logs/
-    ├── problem-clips.tsv
-    └── process-log.tsv
+    ├── problem-clips-20260322-143005.tsv
+    └── process-log-20260322-143005.tsv
 ```
 
 ---
