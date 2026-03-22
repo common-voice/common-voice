@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import os
+import re
 import sys
 from datetime import UTC, datetime
 
@@ -127,7 +128,7 @@ def cli(
     if not log_file:
         os.makedirs(STATE_DIR, exist_ok=True)
         ts = datetime.now(UTC).strftime("%Y%m%dT%H%M%S")
-        tag = release or "retry"
+        tag = re.sub(r"[^A-Za-z0-9._-]", "_", release) if release else "retry"
         log_file = os.path.join(STATE_DIR, f"mdc-upload-{tag}-{ts}.log")
 
     setup_logging(verbose, log_file=log_file)
