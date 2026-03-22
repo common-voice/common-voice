@@ -2,6 +2,7 @@ import * as fs from 'node:fs'
 import * as os from 'node:os'
 import * as path from 'node:path'
 import { generateMetadataTarFilename, getMetadataFiles } from './metadata'
+import { METADATA_ALLOWED_FILES } from '../config'
 
 describe('generateMetadataTarFilename', () => {
   it('generates unlicensed metadata filename', () => {
@@ -52,7 +53,7 @@ describe('getMetadataFiles', () => {
     fs.rmSync(tmpDir, { recursive: true, force: true })
   })
 
-  it('returns all regular files at locale root', () => {
+  it('includes only allowlisted files', () => {
     const localeDir = path.join(tmpDir, 'en')
     fs.mkdirSync(localeDir)
     fs.writeFileSync(path.join(localeDir, 'clips.tsv'), 'data')
@@ -61,10 +62,20 @@ describe('getMetadataFiles', () => {
 
     const files = getMetadataFiles('en', tmpDir)
     expect(files.sort()).toEqual([
-      'en/clips.tsv',
       'en/reported.tsv',
       'en/validated.tsv',
     ])
+  })
+
+  it('rejects clips.tsv and unknown files', () => {
+    const localeDir = path.join(tmpDir, 'en')
+    fs.mkdirSync(localeDir)
+    fs.writeFileSync(path.join(localeDir, 'clips.tsv'), 'data')
+    fs.writeFileSync(path.join(localeDir, 'debug_log.txt'), 'data')
+    fs.writeFileSync(path.join(localeDir, 'temp.json'), 'data')
+
+    const files = getMetadataFiles('en', tmpDir)
+    expect(files).toEqual([])
   })
 
   it('excludes directories (clips/ subdir)', () => {
@@ -91,7 +102,7 @@ describe('getMetadataFiles', () => {
     expect(files).toEqual([])
   })
 
-  it('includes all text file types', () => {
+  it('includes allowlisted files and ignores unknown extensions', () => {
     const localeDir = path.join(tmpDir, 'en')
     fs.mkdirSync(localeDir)
     fs.writeFileSync(path.join(localeDir, 'data.tsv'), '')
@@ -103,8 +114,6 @@ describe('getMetadataFiles', () => {
     expect(files.sort()).toEqual([
       'en/README.md',
       'en/clip_durations.tsv',
-      'en/data.csv',
-      'en/data.tsv',
     ])
   })
 
@@ -132,10 +141,61 @@ describe('getMetadataFiles', () => {
     fs.writeFileSync(path.join(localeDir, 'clips', 'audio2.mp3'), '')
 
     const result = getMetadataFiles('test1', tmpDir)
-    // All 11 text files, no clips/ directory
-    expect(result).toHaveLength(11)
+    // 10 allowlisted files (clips.tsv rejected), no clips/ directory or mp3s
+    expect(result).toHaveLength(10)
     expect(result.every(f => f.startsWith('test1/'))).toBe(true)
     expect(result.some(f => f.includes('clips/'))).toBe(false)
     expect(result.some(f => f.endsWith('.mp3'))).toBe(false)
+    expect(result.some(f => f.endsWith('clips.tsv'))).toBe(false)
+    // Every returned file must be in the allowlist
+    expect(result.every(f => METADATA_ALLOWED_FILES.has(path.basename(f)))).toBe(true)
+  })
+
+  it('delta release excludes dev/test/train splits', () => {
+    const localeDir = path.join(tmpDir, 'test2')
+    fs.mkdirSync(localeDir)
+    const files = [
+      'clips.tsv',
+      'clip_durations.tsv',
+      'dev.tsv',
+      'test.tsv',
+      'train.tsv',
+      'validated.tsv',
+      'invalidated.tsv',
+      'other.tsv',
+      'reported.tsv',
+      'validated_sentences.tsv',
+      'unvalidated_sentences.tsv',
+      'README.md',
+    ]
+    files.forEach(f => fs.writeFileSync(path.join(localeDir, f), ''))
+
+    const result = getMetadataFiles('test2', tmpDir, 'delta')
+    // 8 files: no clips.tsv, no dev/test/train (README.md is allowed but
+    // won't exist on disk in real delta runs since datasheets aren't generated)
+    expect(result).toHaveLength(8)
+    expect(result.some(f => f.endsWith('clips.tsv'))).toBe(false)
+    expect(result.some(f => f.endsWith('dev.tsv'))).toBe(false)
+    expect(result.some(f => f.endsWith('test.tsv'))).toBe(false)
+    expect(result.some(f => f.endsWith('train.tsv'))).toBe(false)
+    // These should be present
+    expect(result.some(f => f.endsWith('validated.tsv'))).toBe(true)
+    expect(result.some(f => f.endsWith('clip_durations.tsv'))).toBe(true)
+  })
+
+  it('full release includes dev/test/train splits', () => {
+    const localeDir = path.join(tmpDir, 'test3')
+    fs.mkdirSync(localeDir)
+    const files = [
+      'clip_durations.tsv', 'dev.tsv', 'test.tsv', 'train.tsv',
+      'validated.tsv', 'invalidated.tsv', 'other.tsv',
+      'reported.tsv', 'validated_sentences.tsv', 'unvalidated_sentences.tsv',
+    ]
+    files.forEach(f => fs.writeFileSync(path.join(localeDir, f), ''))
+
+    const result = getMetadataFiles('test3', tmpDir, 'full')
+    expect(result).toHaveLength(10)
+    expect(result.some(f => f.endsWith('dev.tsv'))).toBe(true)
+    expect(result.some(f => f.endsWith('train.tsv'))).toBe(true)
   })
 })

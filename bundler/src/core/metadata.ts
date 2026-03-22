@@ -6,10 +6,10 @@ import * as tar from 'tar'
 import { readerTaskEither as RTE, taskEither as TE } from 'fp-ts'
 import { pipe } from 'fp-ts/lib/function'
 
-import { AppEnv } from '../types'
+import { AppEnv, ReleaseType } from '../types'
 import { sanitizeLicenseName } from './compress'
 import { streamUploadToBucket } from '../infrastructure/storage'
-import { getDatasetBundlerBucketName } from '../config'
+import { getDatasetBundlerBucketName, isAllowedInMetadata } from '../config'
 import { logger } from '../infrastructure/logger'
 
 const uploadToDatasetBucket = streamUploadToBucket(getDatasetBundlerBucketName())
@@ -27,20 +27,17 @@ export const generateMetadataTarFilename = (
   return `cv-metadata-${version}-${locale}.tar.gz`
 }
 
-/**
- * Returns all regular files at the root of the locale directory.
- * Directories (e.g. clips/) are excluded --only text/metadata files
- * like TSV, CSV, MD, etc. are included.
- */
 export const getMetadataFiles = (
   locale: string,
   releaseDirPath: string,
+  releaseType: ReleaseType = 'full',
 ): string[] => {
   const dir = path.join(releaseDirPath, locale)
+  const isDelta = releaseType === 'delta'
   try {
     return fs
       .readdirSync(dir, { encoding: 'utf-8' })
-      .filter(entry => fs.statSync(path.join(dir, entry)).isFile())
+      .filter(entry => isAllowedInMetadata(entry, isDelta))
       .map(entry => path.join(locale, entry))
   } catch {
     logger.warn('METADATA', `Directory does not exist or is empty: ${dir}`)
@@ -53,6 +50,7 @@ export const metadataPipeline = (
   releaseName: string,
   releaseDirPath: string,
   _releaseTarballDir: string,
+  releaseType: ReleaseType = 'full',
   license?: string,
 ): TE.TaskEither<Error, string> => {
   logger.info('METADATA', `[${locale}] Compressing + streaming metadata`)
@@ -61,7 +59,7 @@ export const metadataPipeline = (
     TE.let('filename', () =>
       generateMetadataTarFilename(locale, releaseName, license),
     ),
-    TE.let('paths', () => getMetadataFiles(locale, releaseDirPath)),
+    TE.let('paths', () => getMetadataFiles(locale, releaseDirPath, releaseType)),
     TE.chainFirst(({ paths }) => {
       if (paths.length === 0) {
         return TE.left(
@@ -97,12 +95,13 @@ export const runCompressAndUploadMetadata = (): RTE.ReaderTaskEither<
   pipe(
     RTE.ask<AppEnv>(),
     RTE.chainTaskEitherK(
-      ({ locale, releaseName, releaseDirPath, releaseTarballsDirPath, license }) =>
+      ({ locale, releaseName, releaseDirPath, releaseTarballsDirPath, type, license }) =>
         metadataPipeline(
           locale,
           releaseName,
           releaseDirPath,
           releaseTarballsDirPath,
+          type,
           license,
         ),
     ),
