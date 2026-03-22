@@ -5,6 +5,9 @@ import { StringDecoder } from 'node:string_decoder'
  * trimmed lines to a callback. Handles the common case where a `data` chunk
  * splits in the middle of a line or delivers multiple lines at once.
  *
+ * Splits on both \n and \r (and \r\n) so tqdm/swifter progress-bar updates
+ * that use bare \r do not accumulate unbounded in the buffer.
+ *
  * Uses StringDecoder internally so multibyte UTF-8 characters that are
  * split across chunk boundaries are decoded correctly.
  *
@@ -29,7 +32,7 @@ export const createLineStream = (
     feed: (data: Buffer | string) => {
       const text = typeof data === 'string' ? data : decoder.write(data)
       const combined = partial + text
-      const lines = combined.split('\n')
+      const lines = combined.split(/\r\n|\n|\r/)
       partial = lines.pop() ?? ''
       for (const line of lines) {
         const trimmed = line.trim()

@@ -83,9 +83,8 @@ const runCorporaCreatorPromise = (locale: string, releaseDirPath: string) =>
     // -- stderr handling --
     const stderrLS = isLive
       ? createLineStream(line => {
-          const clean = line.replace(/\r/g, '')
-          if (!isNoiseLine(clean)) {
-            logger.debug('CC', `[${locale}] ${clean}`)
+          if (!isNoiseLine(line)) {
+            logger.debug('CC', `[${locale}] ${line}`)
           }
         })
       : null
