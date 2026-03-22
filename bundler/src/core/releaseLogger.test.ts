@@ -9,16 +9,18 @@ import { uploadToBucket } from '../infrastructure/storage'
 
 const mockRedis = redisClient as jest.Mocked<typeof redisClient>
 
-// Upload chain: uploadToBucket(bucket)(path)(buffer) -- mockUploadFn receives the Buffer
+// Upload chain: uploadToBucket(bucket)(path)(buffer) -- mockPathFn captures GCS path
 const mockUploadTE = jest.fn(async () => ({ _tag: 'Right' as const, right: undefined }))
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 const mockUploadFn = jest.fn((_buf: Buffer) => mockUploadTE)
-;(uploadToBucket as jest.Mock).mockReturnValue(jest.fn(() => mockUploadFn))
+const mockPathFn = jest.fn(() => mockUploadFn)
+;(uploadToBucket as jest.Mock).mockReturnValue(mockPathFn)
 
 import { AppEnv, ProblemClip, ProblemClipReason } from '../types'
 import {
   buildProcessLogRow,
   flushReleaseLogs,
+  formatRunTimestamp,
 } from './releaseLogger'
 
 // ---------------------------------------------------------------------------
@@ -43,6 +45,35 @@ const makeEnv = (overrides: Partial<AppEnv> = {}): AppEnv => ({
   clipCount: 0,
   startTimestamp: START,
   ...overrides,
+})
+
+// ---------------------------------------------------------------------------
+// formatRunTimestamp
+// ---------------------------------------------------------------------------
+
+describe('formatRunTimestamp', () => {
+  it('formats an ISO timestamp into YYYYMMDDTHHmmss', () => {
+    expect(formatRunTimestamp('2026-03-22T14:30:05.123Z')).toBe('20260322T143005')
+  })
+
+  it('handles midnight correctly', () => {
+    expect(formatRunTimestamp('2026-01-01T00:00:00.000Z')).toBe('20260101T000000')
+  })
+
+  it('falls back to current time when input is null', () => {
+    const result = formatRunTimestamp(null)
+    expect(result).toMatch(/^\d{8}T\d{6}$/)
+  })
+
+  it('falls back to current time when input is undefined', () => {
+    const result = formatRunTimestamp(undefined)
+    expect(result).toMatch(/^\d{8}T\d{6}$/)
+  })
+
+  it('falls back to current time when input is an invalid date string', () => {
+    const result = formatRunTimestamp('not-a-date')
+    expect(result).toMatch(/^\d{8}T\d{6}$/)
+  })
 })
 
 // ---------------------------------------------------------------------------
@@ -118,6 +149,9 @@ describe('buildProcessLogRow', () => {
 // ---------------------------------------------------------------------------
 
 describe('flushReleaseLogs', () => {
+  const TIME_START = '2026-03-06T10:00:00.000Z'
+  const RUN_TS = '20260306T100000' // expected formatRunTimestamp(TIME_START)
+
   beforeEach(() => {
     mockRedis.rpush.mockClear()
     mockRedis.expire.mockClear()
@@ -128,12 +162,15 @@ describe('flushReleaseLogs', () => {
     mockRedis.lrange.mockClear()
     mockUploadTE.mockClear()
     mockUploadFn.mockClear()
+    mockPathFn.mockClear()
     // Default: count = 1, total = 100 -> no flush
     mockRedis.incr.mockResolvedValue(1)
-    // Return '100' for totals, null for lastFlush (never flushed)
-    mockRedis.get.mockImplementation(async (key) =>
-      key.includes('last-flush') ? null : '100',
-    )
+    // Return '100' for totals, TIME_START for timeStart, null for lastFlush
+    mockRedis.get.mockImplementation(async (key) => {
+      if (key.includes('last-flush')) return null
+      if (key.includes('time:start')) return TIME_START
+      return '100'
+    })
     mockRedis.lrange.mockResolvedValue([])
   })
 
@@ -163,9 +200,11 @@ describe('flushReleaseLogs', () => {
   it('does not upload to GCS when count is below flush interval and not at total', async () => {
     mockRedis.incr.mockResolvedValue(3)   // 3 < 10, 3 ≠ 100
     // Recent flush -- prevents time-based trigger from firing
-    mockRedis.get.mockImplementation(async (key) =>
-      key.includes('last-flush') ? new Date().toISOString() : '100',
-    )
+    mockRedis.get.mockImplementation(async (key) => {
+      if (key.includes('last-flush')) return new Date().toISOString()
+      if (key.includes('time:start')) return TIME_START
+      return '100'
+    })
     await flushReleaseLogs(makeEnv(), 'success')
     expect(mockUploadFn).not.toHaveBeenCalled()
   })
@@ -179,9 +218,11 @@ describe('flushReleaseLogs', () => {
 
   it('uploads to GCS when count equals total (final locale of a run)', async () => {
     mockRedis.incr.mockResolvedValue(5)
-    mockRedis.get.mockImplementation(async (key) =>
-      key.includes('last-flush') ? new Date().toISOString() : '5',
-    )
+    mockRedis.get.mockImplementation(async (key) => {
+      if (key.includes('last-flush')) return new Date().toISOString()
+      if (key.includes('time:start')) return TIME_START
+      return '5'
+    })
     mockRedis.lrange.mockResolvedValue(['row1'])
     await flushReleaseLogs(makeEnv(), 'success')
     expect(mockUploadFn).toHaveBeenCalled()
@@ -216,6 +257,29 @@ describe('flushReleaseLogs', () => {
     await flushReleaseLogs(makeEnv(), 'success')
     const header = (mockUploadFn.mock.calls[0][0] as Buffer).toString('utf-8').split('\n')[0]
     expect(header).toBe('path\tlocale\treason\tstatus\ttimestamp\tvalue')
+  })
+
+  it('uploads process-log to a timestamped GCS path', async () => {
+    mockRedis.incr.mockResolvedValue(10)
+    mockRedis.lrange
+      .mockResolvedValueOnce([])          // problem-clips: empty
+      .mockResolvedValueOnce(['logrow'])   // process-log
+    await flushReleaseLogs(makeEnv(), 'success')
+    expect(mockPathFn).toHaveBeenCalledWith(
+      `cv-corpus-25.0-2026-03-06/logs/process-log-${RUN_TS}.tsv`,
+    )
+  })
+
+  it('uploads problem-clips to a timestamped GCS path', async () => {
+    mockRedis.incr.mockResolvedValue(10)
+    mockRedis.lrange.mockResolvedValue(['row1'])
+    await flushReleaseLogs(makeEnv(), 'success')
+    expect(mockPathFn).toHaveBeenCalledWith(
+      `cv-corpus-25.0-2026-03-06/logs/problem-clips-${RUN_TS}.tsv`,
+    )
+    expect(mockPathFn).toHaveBeenCalledWith(
+      `cv-corpus-25.0-2026-03-06/logs/process-log-${RUN_TS}.tsv`,
+    )
   })
 
   it('swallows errors without throwing (protects the locale job)', async () => {
