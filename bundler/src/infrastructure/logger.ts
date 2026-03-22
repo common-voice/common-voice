@@ -1,5 +1,5 @@
 import * as os from 'node:os'
-import { LogLevel, Verbosity, getLogLevel } from '../config'
+import { LogLevel, Verbosity, VERBOSITY_CHOICES, getLogLevel } from '../config'
 
 const LEVEL_RANK: Record<LogLevel, number> = {
   debug: 0,
@@ -48,7 +48,7 @@ export const applyVerbosity = (v: Verbosity): void => {
   // Runtime guard: if an unexpected string is passed (e.g. from older jobs
   // or a CLI bug), fall back to 'normal' to keep log filtering intact.
   const safe: Verbosity =
-    v in VERBOSITY_LOG_LEVEL ? v : 'normal'
+    (VERBOSITY_CHOICES as readonly string[]).includes(v) ? v : 'normal'
 
   currentVerbosity = safe
   currentLevel =

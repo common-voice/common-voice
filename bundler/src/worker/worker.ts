@@ -7,7 +7,7 @@ import { addJobsToReleaseQueue, cleanStaleJobs, removeJobsForLocales } from '../
 import { BULLMQ_LOCK_DURATION_MS, getRedisUrl, redisKeys } from '../config'
 import { generateStatistics } from './generateStatistics'
 import { forceFlushLogs } from '../core/releaseLogger'
-import { applyVerbosity, logger } from '../infrastructure/logger'
+import { applyVerbosity, getVerbosity, logger } from '../infrastructure/logger'
 import { redisClient } from '../infrastructure/redis'
 import { cleanCacheDir } from '../infrastructure/cleanCacheDir'
 
@@ -29,8 +29,9 @@ export const createWorker: IO.IO<void> = () => {
           if (s.previousReleaseName) {
             logger.info('', `  PREV: ${s.previousReleaseName}`)
           }
-          if (s.verbosity && s.verbosity !== 'normal') {
-            logger.info('', `  VERBOSITY: ${s.verbosity}`)
+          const effectiveVerbosity = getVerbosity()
+          if (effectiveVerbosity !== 'normal') {
+            logger.info('', `  VERBOSITY: ${effectiveVerbosity}`)
           }
           if (s.force && s.languages?.length > 0) {
             logger.info('', `  MODE: --force selective (reset + re-process locales: ${s.languages.join(', ')})`)

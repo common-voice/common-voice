@@ -9,7 +9,8 @@ import { createLineStream } from './lineStream'
 
 const runExtractTarPromise = (filepath: string, outDir: string) =>
   new Promise<void>((resolve, reject) => {
-    const isLive = getVerbosity() === 'verbose' || getVerbosity() === 'debug'
+    const verbosity = getVerbosity()
+    const isLive = verbosity === 'verbose' || verbosity === 'debug'
     const cc = spawn('tar', ['-C', outDir, '-xf', filepath])
 
     const stderrChunks: string[] = []
@@ -72,7 +73,8 @@ const runStreamExtractTarPromise = (
     }
     const proc = spawn('tar', args)
 
-    const isLive = getVerbosity() === 'verbose' || getVerbosity() === 'debug'
+    const verbosity = getVerbosity()
+    const isLive = verbosity === 'verbose' || verbosity === 'debug'
     const stderrChunks: string[] = []
     const ls = isLive
       ? createLineStream(line => logger.debug('TAR', line))

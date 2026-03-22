@@ -486,7 +486,8 @@ export const pruneOrphanClips = (
         stdout += String(data)
       })
 
-      const isLive = getVerbosity() === 'verbose' || getVerbosity() === 'debug'
+      const verbosity = getVerbosity()
+      const isLive = verbosity === 'verbose' || verbosity === 'debug'
       const stderrChunks: string[] = []
       const ls = isLive
         ? createLineStream(line => logger.debug('PRUNE', `[${locale}] ${line}`))
