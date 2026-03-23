@@ -5,6 +5,7 @@ import { pipe } from 'fp-ts/lib/function'
 import { AppEnv } from '../types'
 import { getVerbosity, logger } from './logger'
 import { createLineStream } from './lineStream'
+import { readProcMemory, getNodeMemSummary } from './resources'
 
 export const CORPORA_CREATOR_SPLIT_FILES = [
   'dev.tsv',
@@ -47,17 +48,34 @@ export type CorporaCreaterFile = (typeof CORPORA_CREATOR_FILES)[number]
 const isNoiseLine = (line: string): boolean =>
   !line || line.startsWith('Pandas Apply:') || line.startsWith('Dask Apply:')
 
+const MEM_LOG_INTERVAL_MS = 30_000
+
 const runCorporaCreatorPromise = (locale: string, releaseDirPath: string) =>
   new Promise<void>((resolve, reject) => {
     const verbosity = getVerbosity()
     const isLive = verbosity === 'verbose' || verbosity === 'debug'
 
-    const cc = spawn('create-corpora', [
-      '-d',
-      releaseDirPath,
-      '-f',
-      path.join(releaseDirPath, locale, 'clips.tsv'),
-    ], {
+    // Force V8 garbage collection before spawning CC to reclaim stale heap
+    // from earlier pipeline steps (e.g. clip download arrays). Requires
+    // --expose-gc on the Node CLI; silently skipped if unavailable.
+    if (global.gc) {
+      const before = process.memoryUsage()
+      global.gc()
+      const after = process.memoryUsage()
+      const freed = ((before.heapUsed - after.heapUsed) / 1024 / 1024).toFixed(0)
+      logger.info('CC', `[${locale}] GC before spawn: freed ${freed}MB heap (${getNodeMemSummary()})`)
+    }
+
+    // Build CC args -- pass verbosity flag so CC emits its own log messages.
+    // CC uses Python logging: -v = INFO, -vv = DEBUG.
+    const ccArgs = [
+      '-d', releaseDirPath,
+      '-f', path.join(releaseDirPath, locale, 'clips.tsv'),
+    ]
+    if (verbosity === 'debug') ccArgs.push('-vv')
+    else if (verbosity === 'verbose' || verbosity === 'normal') ccArgs.push('-v')
+
+    const cc = spawn('create-corpora', ccArgs, {
       env: {
         ...process.env,
         // In debug mode, keep tqdm enabled for full subprocess output.
@@ -67,10 +85,27 @@ const runCorporaCreatorPromise = (locale: string, releaseDirPath: string) =>
       },
     })
 
+    // -- periodic memory watchdog (debug level) --
+    // Logs Node + CC RSS every 30s so we can trace memory growth leading up
+    // to an OOM kill. These lines flush to stdout immediately, so even if the
+    // pod is killed, the most recent entries (up to 30s before death) survive
+    // in the log aggregator.
+    const memTimer = isLive
+      ? setInterval(() => {
+          const ccMem = cc.pid ? readProcMemory(cc.pid) : 'no-pid'
+          logger.debug(
+            'CC',
+            `[${locale}] MEM node(${getNodeMemSummary()}) cc(${ccMem})`,
+          )
+        }, MEM_LOG_INTERVAL_MS)
+      : null
+
     // -- stdout handling --
-    const stdoutLS = verbosity === 'debug'
+    // CC logs to stdout (Python logging.basicConfig stream=sys.stdout).
+    // Capture in verbose and debug modes so CC's info/debug messages are visible.
+    const stdoutLS = isLive
       ? createLineStream(line =>
-          logger.debug('CC', `[${locale}] stdout: ${line}`),
+          logger.info('CC', `[${locale}] ${line}`),
         )
       : null
     if (stdoutLS) {
@@ -84,7 +119,7 @@ const runCorporaCreatorPromise = (locale: string, releaseDirPath: string) =>
     const stderrLS = isLive
       ? createLineStream(line => {
           if (!isNoiseLine(line)) {
-            logger.debug('CC', `[${locale}] ${line}`)
+            logger.debug('CC', `[${locale}] stderr: ${line}`)
           }
         })
       : null
@@ -93,8 +128,11 @@ const runCorporaCreatorPromise = (locale: string, releaseDirPath: string) =>
       cc.stderr.on('data', (data: Buffer) => stderrLS!.feed(data))
 
       cc.on('close', (code, signal) => {
+        if (memTimer) clearInterval(memTimer)
         stdoutLS?.flush()
         stderrLS!.flush()
+        // Final memory snapshot after CC exits
+        logger.debug('CC', `[${locale}] EXIT node(${getNodeMemSummary()})`)
         if (code !== 0 || signal) {
           logger.error(
             'CC',
@@ -118,6 +156,7 @@ const runCorporaCreatorPromise = (locale: string, releaseDirPath: string) =>
       })
 
       cc.on('close', (code, signal) => {
+        if (memTimer) clearInterval(memTimer)
         if (code !== 0 || signal) {
           const lines = stderrBuf
             .split('\n')
@@ -140,7 +179,10 @@ const runCorporaCreatorPromise = (locale: string, releaseDirPath: string) =>
       })
     }
 
-    cc.on('error', reason => reject(reason))
+    cc.on('error', reason => {
+      if (memTimer) clearInterval(memTimer)
+      reject(reason)
+    })
   })
 
 export const corporaCreatorPipeline = (
