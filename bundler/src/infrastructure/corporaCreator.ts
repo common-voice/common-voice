@@ -73,7 +73,7 @@ const runCorporaCreatorPromise = (locale: string, releaseDirPath: string) =>
       '-f', path.join(releaseDirPath, locale, 'clips.tsv'),
     ]
     if (verbosity === 'debug') ccArgs.push('-vv')
-    else if (verbosity === 'verbose' || verbosity === 'normal') ccArgs.push('-v')
+    else if (verbosity === 'verbose') ccArgs.push('-v')
 
     const cc = spawn('create-corpora', ccArgs, {
       env: {
