@@ -183,6 +183,120 @@ class TestRunBatch:
         assert success is True
 
 
+class TestPosixFadvise:
+    """Tests for posix_fadvise cache management hints."""
+
+    def _make_local_job(self, tmp_path, locale: str = "br"):
+        """Create a job with a local tarball for fadvise testing."""
+        tarball = tmp_path / f"test-{locale}.tar.gz"
+        tarball.write_bytes(b"x" * 100)
+
+        spec = parse_release_name("sps-corpus-3.0-2026-03-09")
+        return LocaleUploadJob(
+            locale=locale,
+            release_spec=spec,
+            release_type=ReleaseType.FULL,
+            tarball_path=str(tarball),
+            datasheet_path=None,
+            file_size=100,
+        )
+
+    @patch("mdc_uploader.pipeline.language")
+    @patch("mdc_uploader.pipeline.is_gcs_uri")
+    @patch("mdc_uploader.pipeline._resolve_file_and_datasheet")
+    def test_sequential_fadvise_called_before_upload(
+        self, mock_resolve, mock_is_gcs, mock_lang, tmp_path
+    ) -> None:
+        """posix_fadvise(SEQUENTIAL) is called before upload starts."""
+        job = self._make_local_job(tmp_path)
+        mock_resolve.return_value = (job.tarball_path, "", None)
+        mock_is_gcs.return_value = False
+        mock_lang.find.return_value = {
+            "code": "br", "english_name": "Breton",
+            "native_name": "Brezhoneg",
+        }
+
+        mock_client = MagicMock()
+        mock_client.build_submission.return_value = MagicMock()
+        mock_client.create_and_upload.return_value = ("sub-1", True)
+
+        with patch("mdc_uploader.pipeline.os") as mock_os:
+            mock_os.path = os.path
+            mock_os.open.return_value = 99
+            mock_os.O_RDONLY = os.O_RDONLY
+            mock_os.POSIX_FADV_SEQUENTIAL = 2
+            mock_os.posix_fadvise = MagicMock()
+            mock_os.close = MagicMock()
+            # hasattr needs the attrs to exist on mock_os
+            process_locale(job, mock_client, dry_run=False)
+
+            mock_os.posix_fadvise.assert_called_once_with(99, 0, 0, 2)
+            mock_os.close.assert_called_once_with(99)
+
+    @patch("mdc_uploader.pipeline.language")
+    @patch("mdc_uploader.pipeline.is_gcs_uri")
+    @patch("mdc_uploader.pipeline._resolve_file_and_datasheet")
+    def test_fadvise_oserror_does_not_fail_upload(
+        self, mock_resolve, mock_is_gcs, mock_lang, tmp_path
+    ) -> None:
+        """OSError from posix_fadvise does not prevent upload."""
+        job = self._make_local_job(tmp_path)
+        mock_resolve.return_value = (job.tarball_path, "", None)
+        mock_is_gcs.return_value = False
+        mock_lang.find.return_value = {
+            "code": "br", "english_name": "Breton",
+            "native_name": "Brezhoneg",
+        }
+
+        mock_client = MagicMock()
+        mock_client.build_submission.return_value = MagicMock()
+        mock_client.create_and_upload.return_value = ("sub-1", True)
+
+        with patch("mdc_uploader.pipeline.os") as mock_os:
+            mock_os.path = os.path
+            mock_os.O_RDONLY = os.O_RDONLY
+            mock_os.POSIX_FADV_SEQUENTIAL = 2
+            mock_os.open.return_value = 99
+            mock_os.posix_fadvise.side_effect = OSError("EINVAL")
+            mock_os.close = MagicMock()
+
+            result = process_locale(job, mock_client, dry_run=False)
+
+        assert result.status == "success"
+        # fd must still be closed despite fadvise failure
+        mock_os.close.assert_called_once_with(99)
+
+    @patch("mdc_uploader.pipeline.language")
+    @patch("mdc_uploader.pipeline.is_gcs_uri")
+    @patch("mdc_uploader.pipeline._resolve_file_and_datasheet")
+    def test_fadvise_skipped_when_unavailable(
+        self, mock_resolve, mock_is_gcs, mock_lang, tmp_path
+    ) -> None:
+        """Upload proceeds when posix_fadvise is not available (e.g. Windows)."""
+        job = self._make_local_job(tmp_path)
+        mock_resolve.return_value = (job.tarball_path, "", None)
+        mock_is_gcs.return_value = False
+        mock_lang.find.return_value = {
+            "code": "br", "english_name": "Breton",
+            "native_name": "Brezhoneg",
+        }
+
+        mock_client = MagicMock()
+        mock_client.build_submission.return_value = MagicMock()
+        mock_client.create_and_upload.return_value = ("sub-1", True)
+
+        with patch("mdc_uploader.pipeline.os") as mock_os:
+            mock_os.path = os.path
+            mock_os.O_RDONLY = os.O_RDONLY
+            # Remove posix_fadvise and POSIX_FADV_SEQUENTIAL to simulate Windows
+            del mock_os.posix_fadvise
+            del mock_os.POSIX_FADV_SEQUENTIAL
+
+            result = process_locale(job, mock_client, dry_run=False)
+
+        assert result.status == "success"
+
+
 class TestGcsTempCleanup:
     """Tests for GCS temp file preservation on failure."""
 

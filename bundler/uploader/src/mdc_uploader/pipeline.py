@@ -208,15 +208,18 @@ def _resolve_file_and_datasheet(
             tmp_path = os.path.join(tmp_dir, original_name)
             blob.download_to_filename(tmp_path)
             # Drop page cache immediately after download. The kernel caches
-            # every written page; causes problems with largedatasets. DONTNEED tells
-            # the kernel these pages can be evicted instantly.  The upload
-            # will re-fault pages on demand, 256 MB at a time (CHUNK_SIZE).
-            try:
-                fd = os.open(tmp_path, os.O_RDONLY)
-                os.posix_fadvise(fd, 0, 0, os.POSIX_FADV_DONTNEED)
-                os.close(fd)
-            except OSError:
-                pass  # non-fatal -- Windows or restricted environments
+            # every written page; causes problems with large datasets. DONTNEED
+            # tells the kernel these pages can be evicted instantly.  The upload
+            # will re-fault pages on demand via the MDC uploader's part size.
+            if hasattr(os, "posix_fadvise") and hasattr(os, "POSIX_FADV_DONTNEED"):
+                try:
+                    fd = os.open(tmp_path, os.O_RDONLY)
+                    try:
+                        os.posix_fadvise(fd, 0, 0, os.POSIX_FADV_DONTNEED)
+                    finally:
+                        os.close(fd)
+                except OSError:
+                    pass  # non-fatal -- restricted environments
             logger.info("GCS", "[%s] Downloaded %s", job.locale, blob_path)
             tarball_local = tmp_path
         except Exception as exc:  # pylint: disable=broad-exception-caught
@@ -421,12 +424,15 @@ def process_locale(  # pylint: disable=too-many-return-statements,too-many-branc
 
         # Hint the kernel to use sequential readahead and drop pages behind
         # the read pointer.  Reduces page cache pressure during multi-GB uploads.
-        try:
-            fd = os.open(tarball_local, os.O_RDONLY)
-            os.posix_fadvise(fd, 0, 0, os.POSIX_FADV_SEQUENTIAL)
-            os.close(fd)
-        except OSError:
-            pass
+        if hasattr(os, "posix_fadvise") and hasattr(os, "POSIX_FADV_SEQUENTIAL"):
+            try:
+                fd = os.open(tarball_local, os.O_RDONLY)
+                try:
+                    os.posix_fadvise(fd, 0, 0, os.POSIX_FADV_SEQUENTIAL)
+                finally:
+                    os.close(fd)
+            except OSError:
+                pass
 
         if job.submission_id:
             # Version update mode
