@@ -14,7 +14,12 @@ profile-form-gender-2 =
     .label = A yɛla paɣ' bee doo
 hidden = Sɔɣimi
 visible = N yi polo
+profile-form-submit-save = Zaŋ sɔŋ aʒia
+profile-form-submit-saved = N pun zaŋ sɔŋ aʒia
 login = Kpɛma
 edit = Maliniŋ
 off = Kpihima
 on = Nyoma
+# Genders
+male_masculine = Doo/Dabilim
+female_feminine = Paɣa/Paɣatali
