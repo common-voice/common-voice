@@ -10,7 +10,9 @@ from mdc_uploader.mdc import OrphanedDraftError
 from mdc_uploader.models import LocaleUploadJob, ReleaseType
 from mdc_uploader.naming import parse_release_name
 from mdc_uploader.pipeline import (
+    _preserve_sdk_state_local,
     _resolve_file_and_datasheet,
+    _sdk_state_path,
     _try_fadvise,
     build_jobs,
     process_locale,
@@ -452,6 +454,77 @@ class TestResumeProcessLocale:
         assert result.status == "success"
         # Tarball should be cleaned up (GCS mode cleanup)
         assert not tarball.exists()
+
+
+class TestSdkStatePath:
+    """Tests for _sdk_state_path helper."""
+
+    def test_local_base_dir_uses_upload_logs(self, tmp_path) -> None:
+        """Local base-dir writes state to <base_dir>/<release>/upload-logs/."""
+        path = _sdk_state_path(str(tmp_path), "cv-corpus-25.0-2026-03-09", "fr")
+        assert "upload-logs" in path
+        assert path.endswith("mdc-upload-cv-corpus-25.0-2026-03-09-fr.json")
+        assert os.path.isdir(os.path.dirname(path))
+
+    def test_gcs_uri_falls_back_to_state_dir(self, tmp_path) -> None:
+        """gs:// base-dir falls back to .state/."""
+        state_dir = str(tmp_path / "state")
+        with patch("mdc_uploader.pipeline.is_gcs_uri", return_value=True), \
+             patch("mdc_uploader.pipeline.STATE_DIR", state_dir):
+            path = _sdk_state_path("gs://bucket", "cv-corpus-25.0-2026-03-09", "fr")
+        assert path.startswith(state_dir)
+        assert path.endswith("mdc-upload-cv-corpus-25.0-2026-03-09-fr.json")
+
+    def test_empty_base_dir_falls_back_to_state_dir(self, tmp_path) -> None:
+        """Empty base-dir falls back to .state/."""
+        state_dir = str(tmp_path / "state")
+        with patch("mdc_uploader.pipeline.STATE_DIR", state_dir):
+            path = _sdk_state_path("", "cv-corpus-25.0-2026-03-09", "fr")
+        assert path.startswith(state_dir)
+
+    def test_release_in_filename_prevents_collision(self, tmp_path) -> None:
+        """Different releases produce different state filenames."""
+        p1 = _sdk_state_path(str(tmp_path), "cv-corpus-25.0-2026-03-09", "fr")
+        p2 = _sdk_state_path(str(tmp_path), "cv-corpus-26.0-2026-06-15", "fr")
+        assert p1 != p2
+
+
+class TestPreserveSdkStateLocal:
+    """Tests for _preserve_sdk_state_local fallback."""
+
+    def test_copies_state_to_state_dir(self, tmp_path) -> None:
+        """SDK state file next to tarball is copied to .state/."""
+        tarball = tmp_path / "test-fr.tar.gz"
+        tarball.write_bytes(b"x" * 10)
+        sdk_state = tmp_path / "test-fr.tar.gz.mdc-upload.json"
+        sdk_state.write_text('{"test": true}', encoding="utf-8")
+
+        state_dir = str(tmp_path / "state_out")
+        with patch("mdc_uploader.pipeline.STATE_DIR", state_dir):
+            _preserve_sdk_state_local(str(tarball), "fr", "cv-corpus-25.0-2026-03-09")
+
+        dest = os.path.join(state_dir, "mdc-upload-cv-corpus-25.0-2026-03-09-fr.json")
+        assert os.path.exists(dest)
+
+    def test_noop_when_no_state_file(self, tmp_path) -> None:
+        """No error when SDK state file doesn't exist."""
+        tarball = tmp_path / "test-fr.tar.gz"
+        tarball.write_bytes(b"x" * 10)
+
+        # Should not raise
+        _preserve_sdk_state_local(str(tarball), "fr", "cv-corpus-25.0-2026-03-09")
+
+    def test_oserror_is_nonfatal(self, tmp_path) -> None:
+        """OSError during copy is logged but doesn't raise."""
+        tarball = tmp_path / "test-fr.tar.gz"
+        tarball.write_bytes(b"x" * 10)
+        sdk_state = tmp_path / "test-fr.tar.gz.mdc-upload.json"
+        sdk_state.write_text('{"test": true}', encoding="utf-8")
+
+        # Point to a non-writable dir
+        with patch("mdc_uploader.pipeline.STATE_DIR", "/proc/nonexistent"):
+            _preserve_sdk_state_local(str(tarball), "fr", "cv-corpus-25.0-2026-03-09")
+        # Should not raise
 
 
 class TestGcsTempCleanup:

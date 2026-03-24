@@ -1,9 +1,87 @@
-"""Tests for config.py -- UploaderConfig.from_cli."""
+"""Tests for config.py -- UploaderConfig.from_cli and validation."""
 
 from __future__ import annotations
 
+import pytest
+
 from mdc_uploader.config import UploaderConfig
 from mdc_uploader.models import ReleaseType
+
+
+class TestResumeValidation:
+    """Tests for __post_init__ resume invariants."""
+
+    def test_resume_fields_must_be_both_or_none(self) -> None:
+        """Setting only one resume field raises ValueError."""
+        with pytest.raises(ValueError, match="both be set"):
+            UploaderConfig(
+                release_name="cv-corpus-25.0-2026-03-09",
+                upload_target="dev",
+                mdc_api_url="http://test",
+                mdc_api_key="test",
+                base_dir="/gcs",
+                release_type=ReleaseType.FULL,
+                locales=["fr"],
+                submission_id=None,
+                dry_run=False,
+                verbose=False,
+                resume_state_path="/state/file.json",
+                resume_submission_id=None,  # mismatch
+            )
+
+    def test_resume_requires_single_locale(self) -> None:
+        """Resume mode with multiple locales raises ValueError."""
+        with pytest.raises(ValueError, match="exactly one locale"):
+            UploaderConfig(
+                release_name="cv-corpus-25.0-2026-03-09",
+                upload_target="dev",
+                mdc_api_url="http://test",
+                mdc_api_key="test",
+                base_dir="/gcs",
+                release_type=ReleaseType.FULL,
+                locales=["fr", "en"],
+                submission_id=None,
+                dry_run=False,
+                verbose=False,
+                resume_state_path="/state/file.json",
+                resume_submission_id="sub-123",
+            )
+
+    def test_resume_rejects_auto_detect_locales(self) -> None:
+        """Resume mode with locales=None raises ValueError."""
+        with pytest.raises(ValueError, match="exactly one locale"):
+            UploaderConfig(
+                release_name="cv-corpus-25.0-2026-03-09",
+                upload_target="dev",
+                mdc_api_url="http://test",
+                mdc_api_key="test",
+                base_dir="/gcs",
+                release_type=ReleaseType.FULL,
+                locales=None,
+                submission_id=None,
+                dry_run=False,
+                verbose=False,
+                resume_state_path="/state/file.json",
+                resume_submission_id="sub-123",
+            )
+
+    def test_valid_resume_config(self) -> None:
+        """Valid resume config with both fields and one locale passes."""
+        config = UploaderConfig(
+            release_name="cv-corpus-25.0-2026-03-09",
+            upload_target="dev",
+            mdc_api_url="http://test",
+            mdc_api_key="test",
+            base_dir="/gcs",
+            release_type=ReleaseType.FULL,
+            locales=["fr"],
+            submission_id=None,
+            dry_run=False,
+            verbose=False,
+            resume_state_path="/state/file.json",
+            resume_submission_id="sub-123",
+        )
+        assert config.resume_state_path == "/state/file.json"
 
 
 class TestUploaderConfigFromCli:
