@@ -207,6 +207,8 @@ def _run(
             logger.warning("UPLOAD", "--retry-failed is ignored when --resume is used")
         if submission_id:
             logger.warning("UPLOAD", "--submission-id is ignored when --resume is used")
+        if dry_run:
+            raise click.UsageError("--dry-run cannot be used with --resume")
         if not release:
             raise click.UsageError("--release is required with --resume")
         if not locales:
@@ -226,9 +228,10 @@ def _run(
 
         # Search for SDK state file: upload-logs (GCS-persistent) first, .state/ fallback
         resolved_base = base_dir or os.environ.get("UPLOAD_BASE_DIR") or DEFAULT_BASE_DIR
+        state_fname = f"mdc-upload-{release}-{resume_locale}.json"
         candidates = [
-            os.path.join(resolved_base, release, "upload-logs", f"mdc-upload-{resume_locale}.json"),
-            os.path.join(STATE_DIR, f"mdc-upload-{resume_locale}.json"),
+            os.path.join(resolved_base, release, "upload-logs", state_fname),
+            os.path.join(STATE_DIR, state_fname),
         ]
         state_file = next((p for p in candidates if os.path.exists(p)), None)
         if state_file is None:
@@ -239,7 +242,13 @@ def _run(
                 "State files are created automatically when an upload fails partway."
             )
 
-        sdk_state = load_upload_state(Path(state_file))
+        try:
+            sdk_state = load_upload_state(Path(state_file))
+        except Exception as exc:
+            raise click.UsageError(
+                f"Cannot read SDK state from {state_file}: {exc}\n"
+                "The file may be corrupt. Delete it and re-run the upload to generate a new one."
+            ) from exc
         if sdk_state is None:
             raise click.UsageError(f"Cannot parse SDK state from {state_file}")
 

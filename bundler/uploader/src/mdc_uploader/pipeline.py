@@ -338,15 +338,16 @@ def _sdk_state_path(base_dir: str, release_name: str, locale: str) -> str:
 
     For gs:// URIs or empty base_dir: falls back to .state/ on local disk.
     """
+    fname = f"mdc-upload-{release_name}-{locale}.json"
     if not base_dir or is_gcs_uri(base_dir):
         os.makedirs(STATE_DIR, exist_ok=True)
-        return os.path.join(STATE_DIR, f"mdc-upload-{locale}.json")
+        return os.path.join(STATE_DIR, fname)
     upload_logs = os.path.join(base_dir, release_name, "upload-logs")
     os.makedirs(upload_logs, exist_ok=True)
-    return os.path.join(upload_logs, f"mdc-upload-{locale}.json")
+    return os.path.join(upload_logs, fname)
 
 
-def _preserve_sdk_state_local(tarball_path: str, locale: str) -> None:
+def _preserve_sdk_state_local(tarball_path: str, locale: str, release_name: str) -> None:
     """Copy SDK state file to .state/ for --resume support (fallback).
 
     Only needed when state_path was NOT passed to upload_dataset_file
@@ -360,7 +361,7 @@ def _preserve_sdk_state_local(tarball_path: str, locale: str) -> None:
     try:
         import shutil  # pylint: disable=import-outside-toplevel
 
-        dest = os.path.join(STATE_DIR, f"mdc-upload-{locale}.json")
+        dest = os.path.join(STATE_DIR, f"mdc-upload-{release_name}-{locale}.json")
         os.makedirs(STATE_DIR, exist_ok=True)
         shutil.copy2(sdk_state, dest)
         logger.info("UPLOAD", "[%s] SDK upload state saved to: %s", locale, dest)
@@ -596,7 +597,7 @@ def process_locale(  # pylint: disable=too-many-return-statements,too-many-branc
         if tmp_file and os.path.exists(tmp_file):
             _cleanup_gcs_temp(tmp_file, locale, upload_succeeded)
         elif not upload_succeeded:
-            _preserve_sdk_state_local(job.tarball_path, locale)
+            _preserve_sdk_state_local(job.tarball_path, locale, job.release_spec.release_name)
 
 
 def print_summary(state: BatchState) -> None:
@@ -673,9 +674,11 @@ def print_summary(state: BatchState) -> None:
         for locale in state.locales:
             if state.locales[locale]["status"] != "failed":
                 continue
-            state_name = f"mdc-upload-{locale}.json"
-            has_state = os.path.exists(os.path.join(upload_logs_dir, state_name)) or \
-                os.path.exists(os.path.join(STATE_DIR, state_name))
+            state_name = f"mdc-upload-{state.release}-{locale}.json"
+            has_state = (
+                os.path.exists(os.path.join(upload_logs_dir, state_name))
+                or os.path.exists(os.path.join(STATE_DIR, state_name))
+            )
             if has_state:
                 logger.info(
                     "UPLOAD",
