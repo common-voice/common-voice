@@ -297,6 +297,7 @@ code-switching-tagging-error-3 = Ñe’ẽ ojehaíva haikatu hendape’ỹva reh
 # Using Correct Orthography for Each Language
 code-switching-orthography-header = Oiporúva hekópe haikatu peteĩteĩva ñe’ẽme
 code-switching-orthography-explanation = Ehai peteĩteĩva ñe’ẽ he’iháicha pe haikatu ñe’ẽ oúvagui ombohekoháicha. Techapyrã:
+code-switching-orthography-explanation-example-1 = Ñe’ẽ “kitchen” osẽramo castellano ñe’ẽmeguáicha, ojehaiva’erã inglés-peguáicha, ndaha’éi “quichen” ojehaiháicha.
 code-switching-orthography-explanation-example-2 = Pe ñe’ẽ quinceaño embo’ayvúrõ inglés ipuháicha, ehaiva’erã tai ñ ndive.
 # Use Pronunciation to Help Determine the Language
 code-switching-pronunciation-header = Eiporu ñe’ẽpu eipytyvõkuaa hag̃ua ñe’ẽ jeporavorã
@@ -315,6 +316,7 @@ code-switching-lookalikes-explanation-example-1 = “Footing” he’iseva ñeñ
 code-switching-lookalikes-explanation-example-2 = “Ndaipóri apañuái” ojeporúva inglés ñe’ẽme > embohéra inglés ramo
 # When Not to Tag Words
 code-switching-not-tag-header = Araka’épa ñe’ẽ reramoĩ emboykéta
+code-switching-not-tag-proper-names = <bold>Terakuéra tee.</bold> Ndojehaiva’erãi tapichakuéra, tenda térã atyguasu réra. Techapyrãramo:
 code-switching-not-tag-proper-names-example-1 = Yvypóra: María, Juan
 code-switching-not-tag-proper-names-example-2 = Tendakuéra: Los Ángeles, Florida
 code-switching-not-tag-proper-names-example-3 = Márka/Tendaguasu:  Target, Burger King
