@@ -35,10 +35,19 @@ tag = Dalinli
 ## Not Found Page
 
 not-found-page-header = Di Kani
+not-found-page-content = A ni bɔri yaɣi' shɛli maa kani
 # Privacy and Terms checkbox
 accept-privacy-and-terms = N saɣi n-ti Common Voice's <termsLink>zalisi</termsLink> ni di <privacyLink>ashili daŋsibu</privacyLink>
 # Locales-Variants
 ms-MY = Bahasa Malay
+el-CY = Cypriot Greek
+
+## Language search component
+
+language-search-placeholder = Vihi bo zuliya balli...
+language-search-aria-label = Vihi bo zuliya balli
+language-search-label = Di taɣiri la lahabali kpanjɔɣu tlhibu zuliya yɛltɔɣa kɔ
+language-search-no-results = Zuliya balli shɛli kani
 
 ## Transcription Player - Mode Buttons
 
@@ -48,3 +57,20 @@ transcription-mode-auto = Niŋdi n-tɔli
 player-speed-slow = Bɛla
 # Player - normal speed
 player-speed-normal = Din ku nyɛ shɛm
+# Player - faster
+player-speed-fast = Yom
+
+## Transcription Player Controls - Keyboard Shortcuts
+
+# Player control shortcut for play/pause: pressed with Ctrl/Cmd
+player-play-pause-shortcut = p
+player-play-pause-shortcut-key = Ctrl / Cmd + P
+player-play-pause-shortcut-name = Tumima / Zanima
+# Player control shortcut to go back 5 seconds: pressed with Ctrl/Cmd
+player-skip-backward-shortcut = 8
+player-skip-backward-shortcut-key = Ctrl / Cmd + 8
+player-skip-backward-shortcut-name = nyaaŋa polo
+# Player control shortcut to go forwards 5 seconds: pressed with Ctrl/Cmd
+player-skip-forward-shortcut = 9
+player-skip-forward-shortcut-key = Ctrl / Cmd + 9
+player-skip-forward-shortcut-name = Tooni polo
