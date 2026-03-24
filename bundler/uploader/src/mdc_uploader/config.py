@@ -30,6 +30,16 @@ class UploaderConfig:
     resume_state_path: str | None = None
     resume_submission_id: str | None = None
 
+    def __post_init__(self) -> None:
+        """Validate resume invariants."""
+        has_path = self.resume_state_path is not None
+        has_sid = self.resume_submission_id is not None
+        if has_path != has_sid:
+            raise ValueError("resume_state_path and resume_submission_id must both be set or both None")
+        if has_path:
+            if not self.locales or len(self.locales) != 1:
+                raise ValueError("Resume mode requires exactly one locale")
+
     @classmethod
     def from_cli(  # pylint: disable=too-many-arguments
         cls,
