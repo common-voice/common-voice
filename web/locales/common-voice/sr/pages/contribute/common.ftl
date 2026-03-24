@@ -117,6 +117,7 @@ contribution-misreadings-example-2-explanation = [Требало би да бу�
 contribution-misreadings-example-3-title = The giant dinosaurs of the Triassi-.
 contribution-misreadings-example-3-explanation = [Снимак је прекинут пре краја последње речи]
 contribution-misreadings-example-4-title = The giant dinosaurs of the Triassic. Yes.contribution-misreadings-example-4-explanation = [Снимљено је више од потребног текста]
+contribution-misreadings-example-4-explanation = [Снимљено је више од потребног текста]
 contribution-misreadings-example-5-title = We are going out to get coffee.
 contribution-misreadings-example-6-title = We’re going out to get coffee.
 contribution-misreadings-example-6-explanation = [Требало би да буде „We are“]
