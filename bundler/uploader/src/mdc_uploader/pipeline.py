@@ -336,9 +336,9 @@ def _sdk_state_path(base_dir: str, release_name: str, locale: str) -> str:
     For local/GCSFuse base dirs: writes to <base_dir>/<release>/upload-logs/
     so the state file is on GCS-backed storage and survives pod eviction.
 
-    For gs:// URIs (no writable filesystem): falls back to .state/ on local disk.
+    For gs:// URIs or empty base_dir: falls back to .state/ on local disk.
     """
-    if is_gcs_uri(base_dir):
+    if not base_dir or is_gcs_uri(base_dir):
         os.makedirs(STATE_DIR, exist_ok=True)
         return os.path.join(STATE_DIR, f"mdc-upload-{locale}.json")
     upload_logs = os.path.join(base_dir, release_name, "upload-logs")
@@ -357,12 +357,15 @@ def _preserve_sdk_state_local(tarball_path: str, locale: str) -> None:
     sdk_state = f"{tarball_path}.mdc-upload.json"
     if not os.path.exists(sdk_state):
         return
-    import shutil  # pylint: disable=import-outside-toplevel
+    try:
+        import shutil  # pylint: disable=import-outside-toplevel
 
-    dest = os.path.join(STATE_DIR, f"mdc-upload-{locale}.json")
-    os.makedirs(STATE_DIR, exist_ok=True)
-    shutil.copy2(sdk_state, dest)
-    logger.info("UPLOAD", "[%s] SDK upload state saved to: %s", locale, dest)
+        dest = os.path.join(STATE_DIR, f"mdc-upload-{locale}.json")
+        os.makedirs(STATE_DIR, exist_ok=True)
+        shutil.copy2(sdk_state, dest)
+        logger.info("UPLOAD", "[%s] SDK upload state saved to: %s", locale, dest)
+    except OSError as exc:
+        logger.warning("UPLOAD", "[%s] Failed to preserve SDK state (non-fatal): %s", locale, exc)
 
 
 def process_locale(  # pylint: disable=too-many-return-statements,too-many-branches,too-many-locals
