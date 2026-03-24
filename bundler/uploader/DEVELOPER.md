@@ -53,21 +53,21 @@ Dev and prod use separate MDC accounts. Set the key matching your `-ut` target.
 
 ## Module Responsibilities
 
-| Module         | Purpose                                                                              |
-| -------------- | ------------------------------------------------------------------------------------ |
-| `cli.py`       | Click CLI entry point, option parsing, `--retry-failed` handling, error formatting   |
-| `config.py`    | `UploaderConfig` dataclass, env var + CLI arg resolution                             |
-| `constants.py` | MDC API URLs, metadata templates, contact info                                       |
-| `typedef.py`   | Shared type aliases, Literal types, TypedDicts                                       |
-| `models.py`    | `Modality`, `ReleaseType`, `ReleaseSpec`, `LocaleUploadJob`, `UploadResult`          |
-| `naming.py`    | Release name parsing, tarball/datasheet path construction                            |
-| `language.py`  | `LanguageRegistry` class -- fetches locale names from CV API + hardcoded extras      |
-| `mdc.py`       | `MDCClient` -- step-by-step SDK calls, recovery, error/response capture, 429 retry   |
-| `pipeline.py`  | Per-locale upload orchestration, recovery routing, GCS temp cleanup, batch runner    |
-| `state.py`     | `BatchState` JSON persistence, orphaned submission extraction, log-to-storage upload |
-| `progress.py`  | tqdm batch progress bar, human-readable size formatting                              |
-| `log.py`       | Structured logging, auto log file, `flush_all`/`get_log_file_path` for storage save  |
-| `gcs.py`       | GCS fallback for `gs://` URIs (uses `google-cloud-storage` runtime dependency)       |
+| Module         | Purpose                                                                                       |
+| -------------- | --------------------------------------------------------------------------------------------- |
+| `cli.py`       | Click CLI entry point, option parsing, `--retry-failed`/`--resume` handling, error formatting |
+| `config.py`    | `UploaderConfig` dataclass, env var + CLI arg resolution                                      |
+| `constants.py` | MDC API URLs, metadata templates, contact info                                                |
+| `typedef.py`   | Shared type aliases, Literal types, TypedDicts                                                |
+| `models.py`    | `Modality`, `ReleaseType`, `ReleaseSpec`, `LocaleUploadJob`, `UploadResult`                   |
+| `naming.py`    | Release name parsing, tarball/datasheet path construction                                     |
+| `language.py`  | `LanguageRegistry` class -- fetches locale names from CV API + hardcoded extras               |
+| `mdc.py`       | `MDCClient` -- step-by-step SDK calls, resume, recovery, error/response capture, 429 retry    |
+| `pipeline.py`  | Per-locale upload orchestration, resume/recovery routing, GCS temp cleanup, batch runner      |
+| `state.py`     | `BatchState` JSON persistence, orphaned submission extraction, log-to-storage upload          |
+| `progress.py`  | tqdm batch progress bar, human-readable size formatting                                       |
+| `log.py`       | Structured logging, auto log file, `flush_all`/`get_log_file_path` for storage save           |
+| `gcs.py`       | GCS fallback for `gs://` URIs (uses `google-cloud-storage` runtime dependency)                |
 
 ---
 
@@ -135,6 +135,26 @@ When a previous run failed after step 2 (upload succeeded but metadata update or
 1. Fetch language data and read datasheet (no tarball download needed)
 2. `recover_submission()` -- calls steps 3+4 only, skipping draft creation and file upload
 3. Record result in batch state JSON
+
+### Resume Partial Upload (--resume)
+
+When step 2 (multipart upload) fails partway, the SDK saves per-part progress to a state file. On `--resume`:
+
+1. Search for SDK state file: `<base-dir>/<release>/upload-logs/mdc-upload-<locale>.json` first, `.state/` fallback
+2. Resolve tarball and datasheet (tarball is needed -- the SDK re-reads it for remaining parts)
+3. `resume_and_upload()` -- skips step 1 (draft already exists), calls `upload_dataset_file(state_path=...)` which uploads only missing parts, then runs steps 3+4
+4. Record result in batch state JSON
+
+The SDK validates that the state file matches (submissionId, filename, fileSize, mimeType) before resuming. If the file has changed, it starts a fresh upload instead.
+
+#### State file persistence
+
+During normal uploads, `_sdk_state_path()` determines where the SDK writes its per-part state:
+
+- **Local/GCSFuse base-dir**: `<base-dir>/<release>/upload-logs/mdc-upload-<locale>.json` -- on GCSFuse mounts this is GCS-backed and survives pod eviction. The SDK writes after every part, so progress is persisted in real time.
+- **gs:// base-dir**: `.state/mdc-upload-<locale>.json` -- local disk only (can't write to GCS via filesystem). Survives pod crashes (OOM kill) but NOT pod eviction.
+
+Additionally, `_preserve_sdk_state_local()` copies SDK state from next to the tarball to `.state/` as a fallback for code paths that don't pass `state_path` (e.g. `upload_new_version`).
 
 ### Version Update
 
@@ -211,7 +231,11 @@ The file contains all config needed to reproduce the run, plus per-locale result
   "base_dir": "/gcs",
   "started_at": "2026-03-13T14:30:00+00:00",
   "locales": {
-    "ga-IE": { "status": "success", "submission_id": "abc-123", "file_upload_id": "fup-456" },
+    "ga-IE": {
+      "status": "success",
+      "submission_id": "abc-123",
+      "file_upload_id": "fup-456"
+    },
     "en": {
       "status": "failed",
       "error": "Orphaned draft sub-789: Metadata update failed: 400 Bad Request",
@@ -255,7 +279,7 @@ During and after a batch run, the uploader creates files in three locations:
 
 **Tarball lifecycle (GCS mode):** downloaded from GCS -> uploaded to MDC -> always deleted (both success and failure). The `submission_id` and `file_upload_id` in batch state are sufficient for retry.
 
-**`.mdc-upload.json` lifecycle:** created by SDK during multipart upload -> deleted by SDK on upload success -> copied to `.state/mdc-upload-{locale}.json` on failure (for debugging).
+**`.mdc-upload.json` lifecycle:** For new uploads, `_sdk_state_path()` directs the SDK to write state to `upload-logs/` (GCSFuse) or `.state/` (`gs://` mode). The SDK writes after every part and deletes on success. For `gs://` downloads, `_cleanup_gcs_temp` also copies any leftover state from the temp dir to `.state/` on failure.
 
 ---
 
@@ -434,18 +458,18 @@ Ruff is the primary linter and formatter (replaces black, isort, flake8). Pylint
 
 ### Test Coverage
 
-| Test file          | Tests | Covers                                                             |
-| ------------------ | ----- | ------------------------------------------------------------------ |
-| `test_mdc.py`      | 37    | Exception wrapping, response extraction, step-by-step, recovery    |
-| `test_naming.py`   | 30    | Release parsing (incl. delta), paths, detect_locales               |
-| `test_language.py` | 11    | LanguageRegistry init/find/extras/variants/API failure             |
-| `test_pipeline.py` | 10    | Job building, process_locale, GCS temp cleanup, orphaned drafts    |
-| `test_gcs.py`      | 10    | URI detection, parsing, require guard                              |
-| `test_models.py`   | 9     | StrEnum values, ReleaseSpec props, defaults                        |
-| `test_state.py`    | 7     | BatchState record/summary, retry loading, orphaned extraction      |
-| `test_config.py`   | 7     | UploaderConfig.from_cli, locale parsing                            |
-| `test_log.py`      | 6     | File handler setup, DEBUG capture, datacollective logger routing   |
-| `test_progress.py` | 5     | format_size B/KB/MB/GB/TB                                          |
+| Test file          | Tests | Covers                                                           |
+| ------------------ | ----- | ---------------------------------------------------------------- |
+| `test_mdc.py`      | 37    | Exception wrapping, response extraction, step-by-step, recovery  |
+| `test_naming.py`   | 30    | Release parsing (incl. delta), paths, detect_locales             |
+| `test_language.py` | 11    | LanguageRegistry init/find/extras/variants/API failure           |
+| `test_pipeline.py` | 10    | Job building, process_locale, GCS temp cleanup, orphaned drafts  |
+| `test_gcs.py`      | 10    | URI detection, parsing, require guard                            |
+| `test_models.py`   | 9     | StrEnum values, ReleaseSpec props, defaults                      |
+| `test_state.py`    | 7     | BatchState record/summary, retry loading, orphaned extraction    |
+| `test_config.py`   | 7     | UploaderConfig.from_cli, locale parsing                          |
+| `test_log.py`      | 6     | File handler setup, DEBUG capture, datacollective logger routing |
+| `test_progress.py` | 5     | format_size B/KB/MB/GB/TB                                        |
 
 ### Project Dependencies
 
@@ -488,7 +512,7 @@ volumes:
 volumeMounts:
   - name: gcs-releases
     mountPath: /gcs
-    readOnly: false   # writable -- uploader saves logs to <release>/upload-logs/
+    readOnly: false # writable -- uploader saves logs to <release>/upload-logs/
 ```
 
 Prerequisites:

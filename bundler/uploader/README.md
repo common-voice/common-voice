@@ -14,6 +14,7 @@ For architecture and development details see [DEVELOPER.md](DEVELOPER.md).
 - Can attach datasheet metadata to each dataset submission for display on MDC
 - Can handle full (CC0), delta (CC0), licensed (e.g. CC-BY 4.0), and variant release types
 - Can retry only failed locales from a previous run via `--retry-failed`
+- Can resume a partially uploaded locale (multipart) via `--resume` -- only missing parts are re-sent
 - Can upload new file versions to existing MDC datasets via `--submission-id`
 - Can preview uploads without calling MDC via `--dry-run`
 - Can read files from local directories, GCS buckets (`gs://` URIs), or GCSFuse mounts (if available)
@@ -122,6 +123,7 @@ Optional:
        --base-dir TEXT                         Root directory with release files (default: /gcs)
        --submission-id TEXT                    Existing MDC submission ID (version update mode)
        --retry-failed FILE                     State JSON from a previous run (retries failed only)
+       --resume                                Resume a partial upload from saved SDK state (use with -r and -l)
        --dry-run                               Preview without uploading
        --log-file PATH                         Write log output to file (always DEBUG level)
   -v,  --verbose                               Debug logging on console
@@ -198,6 +200,17 @@ mdc-upload -r cv-corpus-26.0-2026-06-15 -l en --submission-id abc-123 -ut prod
 # After a batch run with failures, retry only the failed ones
 mdc-upload --retry-failed ./upload-state-cv-corpus-25.0-2026-03-09-20260313T143000.json
 ```
+
+### Resume a partial upload
+
+When a large locale fails midway through the multipart upload, the SDK saves per-part progress. On GCSFuse mounts (production), state is written directly to `<base-dir>/<release>/upload-logs/` so it survives pod eviction. Use `--resume` to pick up where it left off -- only the remaining parts are uploaded:
+
+```bash
+# Resume a failed fr upload (requires -r and -l)
+mdc-upload --resume -r cv-corpus-25.0-2026-03-09 -l fr -ut prod
+```
+
+The batch summary prints the exact `--resume` command for any locale that has a partial state file.
 
 ## Directory Structure
 
