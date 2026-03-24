@@ -26,6 +26,9 @@ class UploaderConfig:
     verbose: bool
     # Per-locale recovery data from --retry-failed (locale -> IDs)
     orphaned_submissions: dict[str, _OrphanedSubmission] | None = None
+    # SDK state file for --resume (resumes partial multipart upload)
+    resume_state_path: str | None = None
+    resume_submission_id: str | None = None
 
     @classmethod
     def from_cli(  # pylint: disable=too-many-arguments
@@ -42,6 +45,8 @@ class UploaderConfig:
         mdc_api_key: str,
         mdc_api_url: str | None,
         orphaned_submissions: dict[str, _OrphanedSubmission] | None = None,
+        resume_state_path: str | None = None,
+        resume_submission_id: str | None = None,
     ) -> UploaderConfig:
         """Build config from CLI args and environment variables."""
         resolved_url = mdc_api_url or MDC_API_URLS[upload_target]
@@ -68,4 +73,6 @@ class UploaderConfig:
             dry_run=dry_run,
             verbose=verbose,
             orphaned_submissions=orphaned_submissions,
+            resume_state_path=resume_state_path,
+            resume_submission_id=resume_submission_id,
         )

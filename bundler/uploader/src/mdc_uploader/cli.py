@@ -23,6 +23,7 @@ Examples:
   mdc-upload -r sps-corpus-3.0-2026-03-09 -l "en ga-IE mt" -ut dev
   mdc-upload -r cv-corpus-25.0-2026-03-09 -rt licensed -ut prod
   mdc-upload --retry-failed upload-state-...-20260313T143000.json
+  mdc-upload --resume -r cv-corpus-25.0-2026-03-09 -l fr -ut prod
   mdc-upload -r sps-corpus-3.0-2026-03-09 --base-dir ./test-releases --dry-run
 
 \b
@@ -96,6 +97,13 @@ Environment variables:
     help="Path to a state JSON file from a previous run. Only failed locales "
     "are retried; config is restored from the file.",
 )
+@click.option(
+    "--resume",
+    is_flag=True,
+    default=False,
+    help="Resume a partial upload from saved SDK state. "
+         "Requires -r and -l (single locale).",
+)
 @click.option("--dry-run", is_flag=True, help="Preview what would be uploaded without calling MDC.")
 @click.option(
     "--log-file",
@@ -114,6 +122,7 @@ def cli(
     base_dir: str | None,
     submission_id: str | None,
     retry_failed: str | None,
+    resume: bool,
     dry_run: bool,
     log_file: str | None,
     verbose: bool,
@@ -142,6 +151,7 @@ def cli(
             base_dir=base_dir,
             submission_id=submission_id,
             retry_failed=retry_failed,
+            resume=resume,
             dry_run=dry_run,
             verbose=verbose,
         )
@@ -183,12 +193,84 @@ def _run(
     base_dir: str | None,
     submission_id: str | None,
     retry_failed: str | None,
+    resume: bool,
     dry_run: bool,
     verbose: bool,
 ) -> None:
     """Inner logic separated for clean error handling."""
     mdc_api_url = os.environ.get("MDC_API_URL")
     resolved_target: MDCTarget = upload_target  # type: ignore[assignment]  # Click validates
+
+    # --resume mode: find SDK state file, resume partial upload
+    if resume:
+        if retry_failed:
+            logger.warning("UPLOAD", "--retry-failed is ignored when --resume is used")
+        if submission_id:
+            logger.warning("UPLOAD", "--submission-id is ignored when --resume is used")
+        if not release:
+            raise click.UsageError("--release is required with --resume")
+        if not locales:
+            raise click.UsageError("--resume requires exactly one locale via -l")
+        locale_parts = locales.strip().split()
+        if len(locale_parts) != 1:
+            raise click.UsageError("--resume requires exactly one locale via -l")
+        resume_locale = locale_parts[0]
+
+        from pathlib import Path  # pylint: disable=import-outside-toplevel
+
+        from datacollective.upload import (
+            load_upload_state,  # type: ignore # pylint: disable=import-outside-toplevel
+        )
+
+        from mdc_uploader.constants import DEFAULT_BASE_DIR  # pylint: disable=import-outside-toplevel
+
+        # Search for SDK state file: upload-logs (GCS-persistent) first, .state/ fallback
+        resolved_base = base_dir or os.environ.get("UPLOAD_BASE_DIR") or DEFAULT_BASE_DIR
+        candidates = [
+            os.path.join(resolved_base, release, "upload-logs", f"mdc-upload-{resume_locale}.json"),
+            os.path.join(STATE_DIR, f"mdc-upload-{resume_locale}.json"),
+        ]
+        state_file = next((p for p in candidates if os.path.exists(p)), None)
+        if state_file is None:
+            searched = "\n  ".join(candidates)
+            raise click.UsageError(
+                f"SDK state file not found for locale '{resume_locale}'. Searched:\n"
+                f"  {searched}\n"
+                "State files are created automatically when an upload fails partway."
+            )
+
+        sdk_state = load_upload_state(Path(state_file))
+        if sdk_state is None:
+            raise click.UsageError(f"Cannot parse SDK state from {state_file}")
+
+        resume_submission_id = sdk_state.submissionId
+
+        logger.info(
+            "RESUME",
+            "Loaded SDK state: locale=%s, submission=%s, %d/%d parts uploaded",
+            resume_locale,
+            resume_submission_id,
+            len(sdk_state.parts),
+            -(-sdk_state.fileSize // sdk_state.partSize),  # ceil division
+        )
+
+        mdc_api_key = _resolve_api_key(resolved_target, dry_run)
+        config = UploaderConfig.from_cli(
+            release=release,
+            upload_target=resolved_target,
+            base_dir=base_dir,
+            release_type=release_type,
+            locales=resume_locale,
+            submission_id=None,
+            dry_run=dry_run,
+            verbose=verbose,
+            mdc_api_key=mdc_api_key,
+            mdc_api_url=mdc_api_url,
+            resume_state_path=os.path.abspath(state_file),
+            resume_submission_id=resume_submission_id,
+        )
+        success = run_batch(config)
+        sys.exit(0 if success else 1)
 
     # --retry-failed mode: load config from state file
     if retry_failed:

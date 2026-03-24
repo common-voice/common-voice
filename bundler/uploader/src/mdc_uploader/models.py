@@ -65,6 +65,9 @@ class LocaleUploadJob:
     # Recovery data from --retry-failed: skip steps 1-2, go straight to 3+4
     orphaned_submission_id: str | None = None
     orphaned_file_upload_id: str | None = None
+    # Resume data from --resume: resume partial multipart upload from SDK state
+    resume_state_path: str | None = None
+    resume_submission_id: str | None = None
 
 
 @dataclass

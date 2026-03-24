@@ -93,6 +93,10 @@ def _build_jobs_gcs(  # pylint: disable=too-many-locals
         orphaned_sid = orphan["submission_id"] if orphan else None
         orphaned_fid = orphan["file_upload_id"] if orphan else None
 
+        # Resume state: only applies to the matching locale
+        resume_path = config.resume_state_path if config.resume_submission_id else None
+        resume_sid = config.resume_submission_id if resume_path else None
+
         jobs.append(
             LocaleUploadJob(
                 locale=locale,
@@ -105,6 +109,8 @@ def _build_jobs_gcs(  # pylint: disable=too-many-locals
                 license_type=license_name,
                 orphaned_submission_id=orphaned_sid,
                 orphaned_file_upload_id=orphaned_fid,
+                resume_state_path=resume_path,
+                resume_submission_id=resume_sid,
             )
         )
 
@@ -153,6 +159,10 @@ def _build_jobs_local(
         orphaned_sid = orphan["submission_id"] if orphan else None
         orphaned_fid = orphan["file_upload_id"] if orphan else None
 
+        # Resume state: only applies to the matching locale
+        resume_path = config.resume_state_path if config.resume_submission_id else None
+        resume_sid = config.resume_submission_id if resume_path else None
+
         jobs.append(
             LocaleUploadJob(
                 locale=locale,
@@ -165,6 +175,8 @@ def _build_jobs_local(
                 license_type=license_name,
                 orphaned_submission_id=orphaned_sid,
                 orphaned_file_upload_id=orphaned_fid,
+                resume_state_path=resume_path,
+                resume_submission_id=resume_sid,
             )
         )
 
@@ -318,6 +330,41 @@ def _cleanup_gcs_temp(
         logger.warning("UPLOAD", "[%s] Cleanup failed (non-fatal): %s", locale, exc)
 
 
+def _sdk_state_path(base_dir: str, release_name: str, locale: str) -> str:
+    """Return the path where the SDK should write multipart upload state.
+
+    For local/GCSFuse base dirs: writes to <base_dir>/<release>/upload-logs/
+    so the state file is on GCS-backed storage and survives pod eviction.
+
+    For gs:// URIs (no writable filesystem): falls back to .state/ on local disk.
+    """
+    if is_gcs_uri(base_dir):
+        os.makedirs(STATE_DIR, exist_ok=True)
+        return os.path.join(STATE_DIR, f"mdc-upload-{locale}.json")
+    upload_logs = os.path.join(base_dir, release_name, "upload-logs")
+    os.makedirs(upload_logs, exist_ok=True)
+    return os.path.join(upload_logs, f"mdc-upload-{locale}.json")
+
+
+def _preserve_sdk_state_local(tarball_path: str, locale: str) -> None:
+    """Copy SDK state file to .state/ for --resume support (fallback).
+
+    Only needed when state_path was NOT passed to upload_dataset_file
+    (e.g. upload_new_version). The default SDK location is
+    <tarball>.mdc-upload.json next to the tarball.
+    No-op when the SDK state file does not exist.
+    """
+    sdk_state = f"{tarball_path}.mdc-upload.json"
+    if not os.path.exists(sdk_state):
+        return
+    import shutil  # pylint: disable=import-outside-toplevel
+
+    dest = os.path.join(STATE_DIR, f"mdc-upload-{locale}.json")
+    os.makedirs(STATE_DIR, exist_ok=True)
+    shutil.copy2(sdk_state, dest)
+    logger.info("UPLOAD", "[%s] SDK upload state saved to: %s", locale, dest)
+
+
 def process_locale(  # pylint: disable=too-many-return-statements,too-many-branches,too-many-locals
     job: LocaleUploadJob,
     client: MDCClient | None,
@@ -371,6 +418,57 @@ def process_locale(  # pylint: disable=too-many-return-statements,too-many-branc
                 submission_id=job.orphaned_submission_id,
                 file_upload_id=job.orphaned_file_upload_id,
                 submission=submission,
+            )
+            upload_succeeded = True
+            return UploadResult(
+                locale=locale,
+                status="success",
+                submission_id=submission_id,
+                size_bytes=job.file_size,
+                duration_seconds=time.monotonic() - start,
+                attempts=1,
+            )
+
+        # Resume mode: reuse existing draft, resume partial multipart upload.
+        if job.resume_state_path and job.resume_submission_id:
+            assert client is not None
+
+            tarball_local, datasheet_text, resolve_error = _resolve_file_and_datasheet(
+                job, base_dir
+            )
+            if tarball_local is None:
+                return UploadResult(
+                    locale=locale,
+                    status="failed",
+                    size_bytes=job.file_size,
+                    duration_seconds=time.monotonic() - start,
+                    error=resolve_error or f"Tarball not found: {job.tarball_path}",
+                    attempts=0,
+                )
+            if is_gcs_uri(base_dir):
+                tmp_file = tarball_local
+
+            _try_fadvise(tarball_local, getattr(os, "POSIX_FADV_SEQUENTIAL", 0))
+
+            submission = client.build_submission(
+                release_spec=job.release_spec,
+                english_name=english_name,
+                native_name=native_name,
+                locale=locale,
+                license_name=job.license_type,
+                datasheet_text=datasheet_text,
+            )
+            logger.info(
+                "UPLOAD",
+                "[%s] RESUMING partial upload for draft %s",
+                locale,
+                job.resume_submission_id,
+            )
+            submission_id, _ = client.resume_and_upload(
+                file_path=tarball_local,
+                submission=submission,
+                resume_state_path=job.resume_state_path,
+                submission_id=job.resume_submission_id,
             )
             upload_succeeded = True
             return UploadResult(
@@ -456,9 +554,11 @@ def process_locale(  # pylint: disable=too-many-return-statements,too-many-branc
             locale,
             format_size(job.file_size),
         )
+        state_path = _sdk_state_path(base_dir, job.release_spec.release_name, locale)
         submission_id, _ = client.create_and_upload(
             file_path=tarball_local,
             submission=submission,
+            state_path=state_path,
         )
         upload_succeeded = True
         return UploadResult(
@@ -492,6 +592,8 @@ def process_locale(  # pylint: disable=too-many-return-statements,too-many-branc
     finally:
         if tmp_file and os.path.exists(tmp_file):
             _cleanup_gcs_temp(tmp_file, locale, upload_succeeded)
+        elif not upload_succeeded:
+            _preserve_sdk_state_local(job.tarball_path, locale)
 
 
 def print_summary(state: BatchState) -> None:
@@ -562,6 +664,25 @@ def print_summary(state: BatchState) -> None:
             "To retry failed: mdc-upload --retry-failed %s",
             state.state_path,
         )
+        # Check for SDK state files that support --resume (partial uploads).
+        # State may be in upload-logs/ (GCS-persistent) or .state/ (local).
+        upload_logs_dir = os.path.join(state.base_dir, state.release, "upload-logs")
+        for locale in state.locales:
+            if state.locales[locale]["status"] != "failed":
+                continue
+            state_name = f"mdc-upload-{locale}.json"
+            has_state = os.path.exists(os.path.join(upload_logs_dir, state_name)) or \
+                os.path.exists(os.path.join(STATE_DIR, state_name))
+            if has_state:
+                logger.info(
+                    "UPLOAD",
+                    "To resume %s (partial upload): mdc-upload --resume "
+                    "-r %s -l %s -ut %s",
+                    locale,
+                    state.release,
+                    locale,
+                    state.upload_target,
+                )
 
 
 def run_batch(config: UploaderConfig) -> bool:
