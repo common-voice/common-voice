@@ -74,3 +74,10 @@ player-skip-backward-shortcut-name = nyaaŋa polo
 player-skip-forward-shortcut = 9
 player-skip-forward-shortcut-key = Ctrl / Cmd + 9
 player-skip-forward-shortcut-name = Tooni polo
+
+## Transcription Player - Aria Labels
+
+# Play button accessibility/aria label
+player-play-button-aria-label = Ŋmɛmi kukɔli
+# Pause button accessibility/aria label
+player-pause-button-aria-label = Gbaami kukɔli ŋmebu zali
