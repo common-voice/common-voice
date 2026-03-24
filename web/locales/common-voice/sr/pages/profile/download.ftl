@@ -9,6 +9,12 @@ download-recordings-title = Снимци
 download-recordings-info = Укључује mp3 и повезане реченице
 download-recordings-size = Обично мегабајти
 download-recordings-unavailable = Не можете да захтевате ваше снимке док се други захтев већ обрађује.
+download-recently-requested =
+    { $days ->
+        [one] Можете затражити нови извоз својих снимака сваких { $days } дан.
+        [few] Можете затражити нови извоз својих снимака сваких { $days } дана.
+       *[other] Можете затражити нови извоз својих снимака сваких { $days } дана.
+    }
 download-size = Величина
 download-selected = Изабрано
 download-start = Започни преузимање
@@ -26,3 +32,4 @@ download-request-modal-title = Везе за преузимање
 download-request-modal-description = Ево веза за преузимање ваших ZIP датотека.
 download-request-link-text = Zip #{ $offset } од { $total }
 download-request-metadata-link = Текст реченице
+download-request-link-single = Такође можете копирати и налепити директне адресе у свог омиљеног управника преузимања. Они ће истећи за 12 сати, али се можете вратити на ову страницу да генеришете нове у било ком тренутку.

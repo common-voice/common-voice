@@ -16,3 +16,5 @@ partnerships-small-business-description = Увек смо жељни да чуј
 partnerships-corporates-header = Велике корпорације и платформске компаније
 partnerships-corporates-description = Ако желите да разговарате више о скупу података, инвестирате у планирана проширења платформе или тражите могућности за сарадњу, <emailFragment>контактирајте нас.</emailFragment>
 partnerships-our-partners = Наши партнери
+# menu item
+partners = Партнери

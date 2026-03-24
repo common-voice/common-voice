@@ -8,18 +8,30 @@ datasets-positioning =
     Common Voice, вишејезични гласовни скуп података, већ је највећи јавно доступни скуп података те врсте, али не и једини.
     
     Ова референтна страница наводи остале гласовне скупове података отвореног кода и, како Common Voice наставља да се развија, понудиће и наша следећа ажурирања.
+# New/upcoming datasets page headline
+datasets-headline-mdc = Mozilla Common Voice скупови података су сада ексклузивно доступни на Mozilla Data Collective.
+# New/upcoming datasets page headline text
+datasets-positioning-mdc =
+    Од Common Voice 23.0, сви Common Voice скупови података су ексклузивно доступни за преузимање преко Mozilla Data Collective!
+    
+    Ова страница служи као историјска архива за претходне верзије Mozilla Common Voice скупова података. Архива издања треба да се користи само у специфичним истраживачким сценаријима, а не за тренирање, како би се поштовале жеље оних који су тражили да њихови доприноси буду искључени.
+datasets-speech-bubble-content = Узбудљиве вести! Спонтани говор је на путу! Пратите новости и обавезно посетите наш <discordLink>Дискорд</discordLink> за најновије информације.
 language = Језик
 download-dataset-header = Преузми комплет података
+download-delta-explainer = Направили смо неке измене. Делта сегменти садрже само најновије снимке од последњег издања. <deltaLink>Прочитајте више о овом раду</deltaLink>.
+download-dataset-tag = Изаберите жељени скуп података језика и одаберите верзију коју желите да преузмете.
 # File size in gigabytes
 size = Величина
 validated-hr-total = Укупно потврђених сати
 overall-hr-total = Свеукупно сати
 cv-license = Лиценца
 audio-format = Звучни формат
+dataset-splits = Поделе (старост и пол)
 number-of-voices = Број гласова
 splits = Подељено
 email-to-download = Унесите е-пошту да започнете преузимање
 why-email = <b>Зашто е-пошту?</b> Можда ћемо требати да вас контактирамо у будућности због промена у скупу података, а ваша адреса е-поште ће то дозволити.
+why-donate-datasets-page = Mozilla Common Voice је најразноврснији отворени скуп говорних података на свету који се прикупља добровољно — и у потпуности се финансирамо донацијама. Хостовање скупова података и побољшање платформе за преко 100 језичких заједница које се ослањају на наш рад кошта скоро милион долара годишње. Ако цените отворене, инклузивне податке — <b>донирајте данас!</b>
 confirm-size = Спремни сте да покренете преузимање <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
@@ -37,6 +49,8 @@ subscribe = Пријавите се
 get-started-speech = Упознајте се са препознавањем говора
 other-datasets = Друге гласовне базе података
 feedback-q = Имате ли повратне информације?
+# This indicates that there is no data to display
+no-information = Нема информација
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ је <docsLink>скуп алата отвореног кода</docsLink> за истраживаче који развијају најнапредније моделе конверзационе вештачке интелигенције.
 resource-deepspeech-info = Deep Speech, Mozilla-ин механизам за препознавање говора отвореног кода, може се користити за израду апликација за препознавање говора. Прочитајте наш <githubLink>Github преглед</githubLink> или посетите <discourseLink>DeepSpeech Discourse</discourseLink> да сазнате како да почнете.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> је посвећен технологији отвореног говора. Њихови пројекти укључују STT и TTS машине засноване на дубоком учењу.
@@ -55,7 +69,18 @@ ready-to-validate = Спремни сте да потврдите речениц
 more = Више
 download = Преузми
 dataset-version = Издање
+sha256-checksum-copied = SHA256 контролна сума је копирана!
+sha256-checksum-copied-error = Неуспело копирање SHA256 контролне суме
 clipboard-not-supported = Привремена меморија није подржана
+no-information-available = Нема доступних информација
+dataset-metadata-sex = Пол
+# dataset metadata - age of contributor
+dataset-metadata-age = Старост
+donate-modal-message = Ваш скуп података се преузима!
+dataset-donate-modal-heading = Да ли сте знали…
+donate-modal-explanation-1 = Хостовање скупова података и побољшање платформе за преко 100 језичких заједница које се ослањају на наш рад кошта скоро милион долара годишње?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Ако цените отворене, инклузивне податке — донирајте данас!</bold>
 data-download-singleword-title = Преузмите циљни сегмент за једну реч
 data-download-singleword-callout-v2 = Ово је сегмент заснован на употреби који садржи податке који омогућавају препознавање изговорених цифара и да/не откривање.
 data-download-button = Преузмите Common Voice податке
@@ -75,3 +100,12 @@ release-version = Издање
 dataset-date = Датум
 license = Лиценца: <licenseLink>{ $license }</licenseLink>
 license-mixed = Помешано
+# Support old genders in older datasets
+male = Мушко
+female = Женско
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = Преузмите наше скупове говорних података
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = Опције преузимања за приступ Common Voice подацима
+datasets-show-more = Прикажи све скупове података
+datasets-show-less = Прикажи најновије скупове података
