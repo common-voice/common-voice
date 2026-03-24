@@ -20,9 +20,12 @@ continue-with-skipped = Zaŋ mi kpahi yaɣi n-tuɣi
 ## Navbar
 
 question = Bɔhigu
+validate = Dihitabili
 respond-to-prompt = Labisima
 respond-to-prompt-mobile = Labisima
 check-transcriptions = Labi lihi
+check-transcriptions-mobile = Labi lihi
+tag = Dalinli
 
 ## Not Found Page
 
