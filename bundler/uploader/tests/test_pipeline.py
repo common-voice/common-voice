@@ -9,7 +9,13 @@ from mdc_uploader.config import UploaderConfig
 from mdc_uploader.mdc import OrphanedDraftError
 from mdc_uploader.models import LocaleUploadJob, ReleaseType
 from mdc_uploader.naming import parse_release_name
-from mdc_uploader.pipeline import build_jobs, process_locale, run_batch
+from mdc_uploader.pipeline import (
+    _resolve_file_and_datasheet,
+    _try_fadvise,
+    build_jobs,
+    process_locale,
+    run_batch,
+)
 
 
 def _lang_entry(code: str, english: str, native: str) -> dict[str, object]:
@@ -181,6 +187,119 @@ class TestRunBatch:
 
         success = run_batch(dry_config)
         assert success is True
+
+
+class TestTryFadvise:
+    """Tests for _try_fadvise helper and its integration points."""
+
+    def test_calls_posix_fadvise_and_closes_fd(self, tmp_path):
+        """posix_fadvise is called with correct args; fd is always closed."""
+        f = tmp_path / "data.bin"
+        f.write_bytes(b"x" * 64)
+
+        with patch("mdc_uploader.pipeline.os", spec=os) as mock_os:
+            mock_os.open.return_value = 42
+            advice = os.POSIX_FADV_DONTNEED
+            _try_fadvise(str(f), advice)
+
+            mock_os.open.assert_called_once_with(str(f), mock_os.O_RDONLY)
+            mock_os.posix_fadvise.assert_called_once_with(42, 0, 0, advice)
+            mock_os.close.assert_called_once_with(42)
+
+    def test_closes_fd_on_oserror(self, tmp_path):
+        """fd is closed even when posix_fadvise raises OSError."""
+        f = tmp_path / "data.bin"
+        f.write_bytes(b"x" * 64)
+
+        with patch("mdc_uploader.pipeline.os", spec=os) as mock_os:
+            mock_os.open.return_value = 42
+            mock_os.posix_fadvise.side_effect = OSError("EINVAL")
+
+            _try_fadvise(str(f), os.POSIX_FADV_SEQUENTIAL)
+
+            mock_os.close.assert_called_once_with(42)
+
+    def test_noop_when_posix_fadvise_missing(self, tmp_path):
+        """No crash when posix_fadvise is unavailable (e.g. Windows)."""
+        f = tmp_path / "data.bin"
+        f.write_bytes(b"x" * 64)
+
+        with patch("mdc_uploader.pipeline.os", spec=os) as mock_os:
+            del mock_os.posix_fadvise
+
+            _try_fadvise(str(f), 0)
+
+            mock_os.open.assert_not_called()
+
+    @patch("mdc_uploader.pipeline.language")
+    @patch("mdc_uploader.pipeline.is_gcs_uri")
+    @patch("mdc_uploader.pipeline._resolve_file_and_datasheet")
+    @patch("mdc_uploader.pipeline._try_fadvise")
+    def test_process_locale_calls_sequential_hint(
+        self, mock_fadvise, mock_resolve, mock_is_gcs, mock_lang, tmp_path
+    ) -> None:
+        """process_locale calls _try_fadvise(SEQUENTIAL) before upload."""
+        tarball = tmp_path / "test-br.tar.gz"
+        tarball.write_bytes(b"x" * 100)
+        spec = parse_release_name("sps-corpus-3.0-2026-03-09")
+        job = LocaleUploadJob(
+            locale="br", release_spec=spec,
+            release_type=ReleaseType.FULL,
+            tarball_path=str(tarball), datasheet_path=None, file_size=100,
+        )
+
+        mock_resolve.return_value = (str(tarball), "", None)
+        mock_is_gcs.return_value = False
+        mock_lang.find.return_value = {
+            "code": "br", "english_name": "Breton",
+            "native_name": "Brezhoneg",
+        }
+        mock_client = MagicMock()
+        mock_client.build_submission.return_value = MagicMock()
+        mock_client.create_and_upload.return_value = ("sub-1", True)
+
+        result = process_locale(job, mock_client, dry_run=False)
+
+        assert result.status == "success"
+        mock_fadvise.assert_called_once_with(
+            str(tarball), os.POSIX_FADV_SEQUENTIAL,
+        )
+
+    @patch("mdc_uploader.pipeline._try_fadvise")
+    def test_resolve_gcs_calls_dontneed_hint(
+        self, mock_fadvise,
+    ) -> None:
+        """_resolve_file_and_datasheet calls _try_fadvise(DONTNEED) after GCS download."""
+        spec = parse_release_name("sps-corpus-3.0-2026-03-09")
+        job = LocaleUploadJob(
+            locale="br", release_spec=spec,
+            release_type=ReleaseType.FULL,
+            tarball_path="tarballs/test-br.tar.gz",
+            datasheet_path=None, file_size=100,
+        )
+
+        mock_blob = MagicMock()
+        mock_blob.exists.return_value = True
+        mock_blob.download_to_filename = MagicMock()
+
+        mock_bucket = MagicMock()
+        mock_bucket.blob.return_value = mock_blob
+
+        mock_gcs_client = MagicMock()
+        mock_gcs_client.bucket.return_value = mock_bucket
+
+        with patch("mdc_uploader.pipeline._parse_gcs_uri", return_value=("bucket", "prefix")), \
+             patch("mdc_uploader.pipeline.is_gcs_uri", return_value=True), \
+             patch("google.cloud.storage.Client", return_value=mock_gcs_client):
+            result_path, _, error = _resolve_file_and_datasheet(
+                job, "gs://bucket/prefix",
+            )
+
+        assert error is None
+        assert result_path is not None
+        mock_fadvise.assert_called_once()
+        call_args = mock_fadvise.call_args
+        assert call_args[0][1] == os.POSIX_FADV_DONTNEED
 
 
 class TestGcsTempCleanup:

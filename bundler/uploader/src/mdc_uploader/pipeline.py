@@ -34,6 +34,20 @@ from mdc_uploader.progress import batch_progress, format_size
 from mdc_uploader.state import STATE_DIR, BatchState, save_logs_to_storage
 
 
+def _try_fadvise(path: str, advice: int) -> None:
+    """Best-effort posix_fadvise hint; silently ignored when unavailable."""
+    if not hasattr(os, "posix_fadvise"):
+        return
+    try:
+        fd = os.open(path, os.O_RDONLY)
+        try:
+            os.posix_fadvise(fd, 0, 0, advice)
+        finally:
+            os.close(fd)
+    except OSError:
+        pass
+
+
 def _build_jobs_gcs(  # pylint: disable=too-many-locals
     config: UploaderConfig,
     release_spec: ReleaseSpec,
@@ -207,6 +221,9 @@ def _resolve_file_and_datasheet(
             tmp_dir = tempfile.mkdtemp()
             tmp_path = os.path.join(tmp_dir, original_name)
             blob.download_to_filename(tmp_path)
+            # Drop page cache after download -- large datasets fill the cache
+            # and cause pressure.  The upload re-faults pages on demand.
+            _try_fadvise(tmp_path, getattr(os, "POSIX_FADV_DONTNEED", 0))
             logger.info("GCS", "[%s] Downloaded %s", job.locale, blob_path)
             tarball_local = tmp_path
         except Exception as exc:  # pylint: disable=broad-exception-caught
@@ -408,6 +425,9 @@ def process_locale(  # pylint: disable=too-many-return-statements,too-many-branc
             license_name=job.license_type,
             datasheet_text=datasheet_text,
         )
+
+        # Sequential readahead hint -- reduces page cache pressure for multi-GB uploads.
+        _try_fadvise(tarball_local, getattr(os, "POSIX_FADV_SEQUENTIAL", 0))
 
         if job.submission_id:
             # Version update mode
