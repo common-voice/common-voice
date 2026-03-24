@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --forceExit",
-    "start": "node --max-old-space-size=8192 js/main.js",
+    "start": "node --max-old-space-size=8192 --expose-gc js/main.js",
     "build": "tsc -p tsconfig.json"
   },
   "author": "",
