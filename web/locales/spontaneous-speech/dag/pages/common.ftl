@@ -4,6 +4,8 @@
 error = Yɛlimuɣisirili
 action-click = Dihima
 action-tap = Shihima
+# Label for language switcher
+platform-language = Tahapɔŋ zuɣu zuliya balli
 # Toast message that is displayed when an item is skipped
 skipped = Kpahiyaɣi
 audioplayer-header = wumma
@@ -81,3 +83,9 @@ player-skip-forward-shortcut-name = Tooni polo
 player-play-button-aria-label = Ŋmɛmi kukɔli
 # Pause button accessibility/aria label
 player-pause-button-aria-label = Gbaami kukɔli ŋmebu zali
+# Skip back button accessibility/aria label
+player-skip-backward-aria-label = kpahiyaɣi kibikibi dibaa anu nyaaŋga polo
+# Skip forward button accessibility/aria label
+player-skip-forward-aria-label = kpahiyaɣi kibikibi dibaa anu tooni polo
+# Audio playback progress slider accessibility/aria label
+player-progress-slider-aria-label = Kukɔli labi ŋmɛ tooni chandi daabu bia
