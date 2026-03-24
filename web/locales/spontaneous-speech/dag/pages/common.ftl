@@ -33,3 +33,12 @@ tag = Dalinli
 accept-privacy-and-terms = N saɣi n-ti Common Voice's <termsLink>zalisi</termsLink> ni di <privacyLink>ashili daŋsibu</privacyLink>
 # Locales-Variants
 ms-MY = Bahasa Malay
+
+## Transcription Player - Mode Buttons
+
+# Transcription Player - Automatic Mode
+transcription-mode-auto = Niŋdi n-tɔli
+# Player - slower
+player-speed-slow = Bɛla
+# Player - normal speed
+player-speed-normal = Din ku nyɛ shɛm
