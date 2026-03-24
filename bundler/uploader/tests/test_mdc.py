@@ -342,6 +342,79 @@ class TestCreateAndUpload:
         assert exc_info.value.file_upload_id == "fup-4"
 
 
+class TestResumeAndUpload:
+    """Tests for resume_and_upload (resume partial multipart upload)."""
+
+    def _client(self) -> MDCClient:
+        return MDCClient(api_key="test", api_url="http://test")
+
+    @patch("mdc_uploader.mdc.submit_submission")
+    @patch("mdc_uploader.mdc.update_submission")
+    @patch("mdc_uploader.mdc.upload_dataset_file")
+    def test_success_skips_draft_and_finalizes(
+        self, mock_upload, mock_update, mock_submit,
+    ) -> None:
+        """Resume: skips step 1, uploads with state_path, runs steps 3+4."""
+        mock_upload_state = MagicMock()
+        mock_upload_state.fileUploadId = "fup-resume"
+        mock_upload.return_value = mock_upload_state
+        mock_update.return_value = {}
+        mock_submit.return_value = {"submission": {"status": "submitted"}}
+
+        sub_id, ok = self._client().resume_and_upload(
+            file_path="/fake/file.tar.gz",
+            submission=MagicMock(),
+            resume_state_path="/state/mdc-upload-fr.json",
+            submission_id="sub-existing",
+        )
+
+        assert sub_id == "sub-existing"
+        assert ok is True
+        mock_upload.assert_called_once_with(
+            file_path="/fake/file.tar.gz",
+            submission_id="sub-existing",
+            state_path="/state/mdc-upload-fr.json",
+        )
+        mock_update.assert_called_once()
+        mock_submit.assert_called_once()
+
+    @patch("mdc_uploader.mdc.upload_dataset_file")
+    def test_upload_failure_raises_orphaned_draft(self, mock_upload) -> None:
+        """Resume upload failure raises OrphanedDraftError with submission_id."""
+        mock_upload.side_effect = RuntimeError("connection lost")
+
+        with pytest.raises(OrphanedDraftError) as exc_info:
+            self._client().resume_and_upload(
+                file_path="/fake/file.tar.gz",
+                submission=MagicMock(),
+                resume_state_path="/state/mdc-upload-fr.json",
+                submission_id="sub-existing",
+            )
+        assert exc_info.value.submission_id == "sub-existing"
+        assert exc_info.value.file_upload_id is None
+
+    @patch("mdc_uploader.mdc.update_submission")
+    @patch("mdc_uploader.mdc.upload_dataset_file")
+    def test_metadata_failure_orphaned_with_file_upload_id(
+        self, mock_upload, mock_update,
+    ) -> None:
+        """Resume metadata failure captures file_upload_id."""
+        mock_upload_state = MagicMock()
+        mock_upload_state.fileUploadId = "fup-resume"
+        mock_upload.return_value = mock_upload_state
+        mock_update.side_effect = _make_http_error(400, '{"error":"bad"}')
+
+        with pytest.raises(OrphanedDraftError) as exc_info:
+            self._client().resume_and_upload(
+                file_path="/fake/file.tar.gz",
+                submission=MagicMock(),
+                resume_state_path="/state/mdc-upload-fr.json",
+                submission_id="sub-existing",
+            )
+        assert exc_info.value.submission_id == "sub-existing"
+        assert exc_info.value.file_upload_id == "fup-resume"
+
+
 class TestRecoverSubmission:
     """Tests for recover_submission (retry from step 3)."""
 

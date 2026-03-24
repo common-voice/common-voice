@@ -10,7 +10,9 @@ from mdc_uploader.mdc import OrphanedDraftError
 from mdc_uploader.models import LocaleUploadJob, ReleaseType
 from mdc_uploader.naming import parse_release_name
 from mdc_uploader.pipeline import (
+    _preserve_sdk_state_local,
     _resolve_file_and_datasheet,
+    _sdk_state_path,
     _try_fadvise,
     build_jobs,
     process_locale,
@@ -300,6 +302,235 @@ class TestTryFadvise:
         mock_fadvise.assert_called_once()
         call_args = mock_fadvise.call_args
         assert call_args[0][1] == os.POSIX_FADV_DONTNEED
+
+
+class TestResumeProcessLocale:
+    """Tests for --resume branch in process_locale."""
+
+    @patch("mdc_uploader.pipeline.language")
+    @patch("mdc_uploader.pipeline.is_gcs_uri")
+    @patch("mdc_uploader.pipeline._resolve_file_and_datasheet")
+    @patch("mdc_uploader.pipeline._try_fadvise")
+    def test_resume_success(
+        self, mock_fadvise, mock_resolve, mock_is_gcs, mock_lang, tmp_path
+    ) -> None:
+        """Resume mode calls resume_and_upload and returns success."""
+        tarball = tmp_path / "test-fr.tar.gz"
+        tarball.write_bytes(b"x" * 200)
+        spec = parse_release_name("cv-corpus-25.0-2026-03-09")
+        state_file = str(tmp_path / "mdc-upload-fr.json")
+
+        job = LocaleUploadJob(
+            locale="fr", release_spec=spec,
+            release_type=ReleaseType.FULL,
+            tarball_path=str(tarball), datasheet_path=None, file_size=200,
+            resume_state_path=state_file,
+            resume_submission_id="sub-resume",
+        )
+
+        mock_resolve.return_value = (str(tarball), "# Datasheet", None)
+        mock_is_gcs.return_value = False
+        mock_lang.find.return_value = {
+            "code": "fr", "english_name": "French", "native_name": "Fran\u00e7ais",
+        }
+        mock_client = MagicMock()
+        mock_client.build_submission.return_value = MagicMock()
+        mock_client.resume_and_upload.return_value = ("sub-resume", True)
+
+        result = process_locale(job, mock_client, dry_run=False)
+
+        assert result.status == "success"
+        assert result.submission_id == "sub-resume"
+        mock_client.resume_and_upload.assert_called_once_with(
+            file_path=str(tarball),
+            submission=mock_client.build_submission.return_value,
+            resume_state_path=state_file,
+            submission_id="sub-resume",
+        )
+        # Should NOT call create_and_upload
+        mock_client.create_and_upload.assert_not_called()
+
+    @patch("mdc_uploader.pipeline.language")
+    @patch("mdc_uploader.pipeline.is_gcs_uri")
+    @patch("mdc_uploader.pipeline._resolve_file_and_datasheet")
+    def test_resume_missing_tarball_fails(
+        self, mock_resolve, mock_is_gcs, mock_lang,
+    ) -> None:
+        """Resume mode with missing tarball returns failed result."""
+        spec = parse_release_name("cv-corpus-25.0-2026-03-09")
+        job = LocaleUploadJob(
+            locale="fr", release_spec=spec,
+            release_type=ReleaseType.FULL,
+            tarball_path="/nonexistent.tar.gz", datasheet_path=None, file_size=0,
+            resume_state_path="/state/mdc-upload-fr.json",
+            resume_submission_id="sub-resume",
+        )
+
+        mock_resolve.return_value = (None, "", "Tarball not found")
+        mock_is_gcs.return_value = False
+        mock_lang.find.return_value = {
+            "code": "fr", "english_name": "French", "native_name": "Fran\u00e7ais",
+        }
+
+        result = process_locale(job, MagicMock(), dry_run=False)
+
+        assert result.status == "failed"
+        assert "not found" in result.error.lower()
+        assert result.attempts == 0
+
+    @patch("mdc_uploader.pipeline.language")
+    @patch("mdc_uploader.pipeline.is_gcs_uri")
+    @patch("mdc_uploader.pipeline._resolve_file_and_datasheet")
+    @patch("mdc_uploader.pipeline._try_fadvise")
+    def test_resume_failure_returns_orphaned_result(
+        self, mock_fadvise, mock_resolve, mock_is_gcs, mock_lang, tmp_path
+    ) -> None:
+        """Resume upload failure produces orphaned_draft result."""
+        tarball = tmp_path / "test-fr.tar.gz"
+        tarball.write_bytes(b"x" * 200)
+        spec = parse_release_name("cv-corpus-25.0-2026-03-09")
+
+        job = LocaleUploadJob(
+            locale="fr", release_spec=spec,
+            release_type=ReleaseType.FULL,
+            tarball_path=str(tarball), datasheet_path=None, file_size=200,
+            resume_state_path="/state/mdc-upload-fr.json",
+            resume_submission_id="sub-resume",
+        )
+
+        mock_resolve.return_value = (str(tarball), "", None)
+        mock_is_gcs.return_value = False
+        mock_lang.find.return_value = {
+            "code": "fr", "english_name": "French", "native_name": "Fran\u00e7ais",
+        }
+        mock_client = MagicMock()
+        mock_client.build_submission.return_value = MagicMock()
+        mock_client.resume_and_upload.side_effect = OrphanedDraftError(
+            "sub-resume", "resume failed", file_upload_id="fup-partial",
+        )
+
+        result = process_locale(job, mock_client, dry_run=False)
+
+        assert result.status == "failed"
+        assert result.orphaned_draft is True
+        assert result.submission_id == "sub-resume"
+        assert result.file_upload_id == "fup-partial"
+
+    @patch("mdc_uploader.pipeline.language")
+    @patch("mdc_uploader.pipeline.is_gcs_uri")
+    @patch("mdc_uploader.pipeline._resolve_file_and_datasheet")
+    @patch("mdc_uploader.pipeline._try_fadvise")
+    def test_resume_gcs_mode_sets_tmp_file(
+        self, mock_fadvise, mock_resolve, mock_is_gcs, mock_lang, tmp_path
+    ) -> None:
+        """In GCS mode, resume sets tmp_file for cleanup."""
+        tmp_dir = tmp_path / "gcs_tmp"
+        tmp_dir.mkdir()
+        tarball = tmp_dir / "cv-corpus-25.0-2026-03-09-fr.tar.gz"
+        tarball.write_bytes(b"x" * 200)
+        spec = parse_release_name("cv-corpus-25.0-2026-03-09")
+
+        job = LocaleUploadJob(
+            locale="fr", release_spec=spec,
+            release_type=ReleaseType.FULL,
+            tarball_path=str(tarball), datasheet_path=None, file_size=200,
+            resume_state_path="/state/mdc-upload-fr.json",
+            resume_submission_id="sub-resume",
+        )
+
+        mock_resolve.return_value = (str(tarball), "", None)
+        mock_is_gcs.return_value = True
+        mock_lang.find.return_value = {
+            "code": "fr", "english_name": "French", "native_name": "Fran\u00e7ais",
+        }
+        mock_client = MagicMock()
+        mock_client.build_submission.return_value = MagicMock()
+        mock_client.resume_and_upload.return_value = ("sub-resume", True)
+
+        result = process_locale(
+            job, mock_client, dry_run=False, base_dir="gs://bucket"
+        )
+
+        assert result.status == "success"
+        # Tarball should be cleaned up (GCS mode cleanup)
+        assert not tarball.exists()
+
+
+class TestSdkStatePath:
+    """Tests for _sdk_state_path helper."""
+
+    def test_local_base_dir_uses_upload_logs(self, tmp_path) -> None:
+        """Local base-dir writes state to <base_dir>/<release>/upload-logs/."""
+        path = _sdk_state_path(str(tmp_path), "cv-corpus-25.0-2026-03-09", "full", "fr")
+        assert "upload-logs" in path
+        assert path.endswith("mdc-upload-cv-corpus-25.0-2026-03-09-full-fr.json")
+        assert os.path.isdir(os.path.dirname(path))
+
+    def test_gcs_uri_falls_back_to_state_dir(self, tmp_path) -> None:
+        """gs:// base-dir falls back to .state/."""
+        state_dir = str(tmp_path / "state")
+        with patch("mdc_uploader.pipeline.is_gcs_uri", return_value=True), \
+             patch("mdc_uploader.pipeline.STATE_DIR", state_dir):
+            path = _sdk_state_path("gs://bucket", "cv-corpus-25.0-2026-03-09", "full", "fr")
+        assert path.startswith(state_dir)
+        assert path.endswith("mdc-upload-cv-corpus-25.0-2026-03-09-full-fr.json")
+
+    def test_empty_base_dir_falls_back_to_state_dir(self, tmp_path) -> None:
+        """Empty base-dir falls back to .state/."""
+        state_dir = str(tmp_path / "state")
+        with patch("mdc_uploader.pipeline.STATE_DIR", state_dir):
+            path = _sdk_state_path("", "cv-corpus-25.0-2026-03-09", "full", "fr")
+        assert path.startswith(state_dir)
+
+    def test_release_in_filename_prevents_collision(self, tmp_path) -> None:
+        """Different releases produce different state filenames."""
+        p1 = _sdk_state_path(str(tmp_path), "cv-corpus-25.0-2026-03-09", "full", "fr")
+        p2 = _sdk_state_path(str(tmp_path), "cv-corpus-26.0-2026-06-15", "full", "fr")
+        assert p1 != p2
+
+    def test_release_type_in_filename_prevents_collision(self, tmp_path) -> None:
+        """Different release types for same release produce different filenames."""
+        p1 = _sdk_state_path(str(tmp_path), "cv-corpus-25.0-2026-03-09", "full", "fr")
+        p2 = _sdk_state_path(str(tmp_path), "cv-corpus-25.0-2026-03-09", "licensed", "fr")
+        assert p1 != p2
+
+
+class TestPreserveSdkStateLocal:
+    """Tests for _preserve_sdk_state_local fallback."""
+
+    def test_copies_state_to_state_dir(self, tmp_path) -> None:
+        """SDK state file next to tarball is copied to .state/."""
+        tarball = tmp_path / "test-fr.tar.gz"
+        tarball.write_bytes(b"x" * 10)
+        sdk_state = tmp_path / "test-fr.tar.gz.mdc-upload.json"
+        sdk_state.write_text('{"test": true}', encoding="utf-8")
+
+        state_dir = str(tmp_path / "state_out")
+        with patch("mdc_uploader.pipeline.STATE_DIR", state_dir):
+            _preserve_sdk_state_local(str(tarball), "fr", "cv-corpus-25.0-2026-03-09", "full")
+
+        dest = os.path.join(state_dir, "mdc-upload-cv-corpus-25.0-2026-03-09-full-fr.json")
+        assert os.path.exists(dest)
+
+    def test_noop_when_no_state_file(self, tmp_path) -> None:
+        """No error when SDK state file doesn't exist."""
+        tarball = tmp_path / "test-fr.tar.gz"
+        tarball.write_bytes(b"x" * 10)
+
+        # Should not raise
+        _preserve_sdk_state_local(str(tarball), "fr", "cv-corpus-25.0-2026-03-09", "full")
+
+    def test_oserror_is_nonfatal(self, tmp_path) -> None:
+        """OSError during copy is logged but doesn't raise."""
+        tarball = tmp_path / "test-fr.tar.gz"
+        tarball.write_bytes(b"x" * 10)
+        sdk_state = tmp_path / "test-fr.tar.gz.mdc-upload.json"
+        sdk_state.write_text('{"test": true}', encoding="utf-8")
+
+        # Point to a non-writable dir
+        with patch("mdc_uploader.pipeline.STATE_DIR", "/proc/nonexistent"):
+            _preserve_sdk_state_local(str(tarball), "fr", "cv-corpus-25.0-2026-03-09", "full")
+        # Should not raise
 
 
 class TestGcsTempCleanup:
