@@ -461,9 +461,9 @@ class TestSdkStatePath:
 
     def test_local_base_dir_uses_upload_logs(self, tmp_path) -> None:
         """Local base-dir writes state to <base_dir>/<release>/upload-logs/."""
-        path = _sdk_state_path(str(tmp_path), "cv-corpus-25.0-2026-03-09", "fr")
+        path = _sdk_state_path(str(tmp_path), "cv-corpus-25.0-2026-03-09", "full", "fr")
         assert "upload-logs" in path
-        assert path.endswith("mdc-upload-cv-corpus-25.0-2026-03-09-fr.json")
+        assert path.endswith("mdc-upload-cv-corpus-25.0-2026-03-09-full-fr.json")
         assert os.path.isdir(os.path.dirname(path))
 
     def test_gcs_uri_falls_back_to_state_dir(self, tmp_path) -> None:
@@ -471,21 +471,27 @@ class TestSdkStatePath:
         state_dir = str(tmp_path / "state")
         with patch("mdc_uploader.pipeline.is_gcs_uri", return_value=True), \
              patch("mdc_uploader.pipeline.STATE_DIR", state_dir):
-            path = _sdk_state_path("gs://bucket", "cv-corpus-25.0-2026-03-09", "fr")
+            path = _sdk_state_path("gs://bucket", "cv-corpus-25.0-2026-03-09", "full", "fr")
         assert path.startswith(state_dir)
-        assert path.endswith("mdc-upload-cv-corpus-25.0-2026-03-09-fr.json")
+        assert path.endswith("mdc-upload-cv-corpus-25.0-2026-03-09-full-fr.json")
 
     def test_empty_base_dir_falls_back_to_state_dir(self, tmp_path) -> None:
         """Empty base-dir falls back to .state/."""
         state_dir = str(tmp_path / "state")
         with patch("mdc_uploader.pipeline.STATE_DIR", state_dir):
-            path = _sdk_state_path("", "cv-corpus-25.0-2026-03-09", "fr")
+            path = _sdk_state_path("", "cv-corpus-25.0-2026-03-09", "full", "fr")
         assert path.startswith(state_dir)
 
     def test_release_in_filename_prevents_collision(self, tmp_path) -> None:
         """Different releases produce different state filenames."""
-        p1 = _sdk_state_path(str(tmp_path), "cv-corpus-25.0-2026-03-09", "fr")
-        p2 = _sdk_state_path(str(tmp_path), "cv-corpus-26.0-2026-06-15", "fr")
+        p1 = _sdk_state_path(str(tmp_path), "cv-corpus-25.0-2026-03-09", "full", "fr")
+        p2 = _sdk_state_path(str(tmp_path), "cv-corpus-26.0-2026-06-15", "full", "fr")
+        assert p1 != p2
+
+    def test_release_type_in_filename_prevents_collision(self, tmp_path) -> None:
+        """Different release types for same release produce different filenames."""
+        p1 = _sdk_state_path(str(tmp_path), "cv-corpus-25.0-2026-03-09", "full", "fr")
+        p2 = _sdk_state_path(str(tmp_path), "cv-corpus-25.0-2026-03-09", "licensed", "fr")
         assert p1 != p2
 
 
@@ -501,9 +507,9 @@ class TestPreserveSdkStateLocal:
 
         state_dir = str(tmp_path / "state_out")
         with patch("mdc_uploader.pipeline.STATE_DIR", state_dir):
-            _preserve_sdk_state_local(str(tarball), "fr", "cv-corpus-25.0-2026-03-09")
+            _preserve_sdk_state_local(str(tarball), "fr", "cv-corpus-25.0-2026-03-09", "full")
 
-        dest = os.path.join(state_dir, "mdc-upload-cv-corpus-25.0-2026-03-09-fr.json")
+        dest = os.path.join(state_dir, "mdc-upload-cv-corpus-25.0-2026-03-09-full-fr.json")
         assert os.path.exists(dest)
 
     def test_noop_when_no_state_file(self, tmp_path) -> None:
@@ -512,7 +518,7 @@ class TestPreserveSdkStateLocal:
         tarball.write_bytes(b"x" * 10)
 
         # Should not raise
-        _preserve_sdk_state_local(str(tarball), "fr", "cv-corpus-25.0-2026-03-09")
+        _preserve_sdk_state_local(str(tarball), "fr", "cv-corpus-25.0-2026-03-09", "full")
 
     def test_oserror_is_nonfatal(self, tmp_path) -> None:
         """OSError during copy is logged but doesn't raise."""
@@ -523,7 +529,7 @@ class TestPreserveSdkStateLocal:
 
         # Point to a non-writable dir
         with patch("mdc_uploader.pipeline.STATE_DIR", "/proc/nonexistent"):
-            _preserve_sdk_state_local(str(tarball), "fr", "cv-corpus-25.0-2026-03-09")
+            _preserve_sdk_state_local(str(tarball), "fr", "cv-corpus-25.0-2026-03-09", "full")
         # Should not raise
 
 

@@ -224,11 +224,11 @@ def _run(
             load_upload_state,  # type: ignore # pylint: disable=import-outside-toplevel
         )
 
-        from mdc_uploader.constants import DEFAULT_BASE_DIR  # pylint: disable=import-outside-toplevel
+        from mdc_uploader.config import resolve_base_dir  # pylint: disable=import-outside-toplevel
 
         # Search for SDK state file: upload-logs (GCS-persistent) first, .state/ fallback
-        resolved_base = base_dir or os.environ.get("UPLOAD_BASE_DIR") or DEFAULT_BASE_DIR
-        state_fname = f"mdc-upload-{release}-{resume_locale}.json"
+        resolved_base = resolve_base_dir(base_dir)
+        state_fname = f"mdc-upload-{release}-{release_type}-{resume_locale}.json"
         candidates = [
             os.path.join(resolved_base, release, "upload-logs", state_fname),
             os.path.join(STATE_DIR, state_fname),

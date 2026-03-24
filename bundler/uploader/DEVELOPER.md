@@ -140,7 +140,7 @@ When a previous run failed after step 2 (upload succeeded but metadata update or
 
 When step 2 (multipart upload) fails partway, the SDK saves per-part progress to a state file. `--resume` cannot be combined with `--dry-run`. On `--resume`:
 
-1. Search for SDK state file: `<base-dir>/<release>/upload-logs/mdc-upload-<release>-<locale>.json` first, `.state/` fallback
+1. Search for SDK state file: `<base-dir>/<release>/upload-logs/mdc-upload-<release>-<type>-<locale>.json` first, `.state/` fallback
 2. Resolve tarball and datasheet (tarball is needed -- the SDK re-reads it for remaining parts)
 3. `resume_and_upload()` -- skips step 1 (draft already exists), calls `upload_dataset_file(state_path=...)` which uploads only missing parts, then runs steps 3+4
 4. Record result in batch state JSON
@@ -151,8 +151,8 @@ The SDK validates that the state file matches (submissionId, filename, fileSize,
 
 During normal uploads, `_sdk_state_path()` determines where the SDK writes its per-part state:
 
-- **Local/GCSFuse base-dir**: `<base-dir>/<release>/upload-logs/mdc-upload-<release>-<locale>.json` -- on GCSFuse mounts this is GCS-backed and survives pod eviction. The SDK writes after every part, so progress is persisted in real time.
-- **gs:// base-dir**: `.state/mdc-upload-<release>-<locale>.json` -- local disk only (can't write to GCS via filesystem). Survives pod crashes (OOM kill) but NOT pod eviction.
+- **Local/GCSFuse base-dir**: `<base-dir>/<release>/upload-logs/mdc-upload-<release>-<type>-<locale>.json` -- on GCSFuse mounts this is GCS-backed and survives pod eviction. The SDK writes after every part, so progress is persisted in real time.
+- **gs:// base-dir**: `.state/mdc-upload-<release>-<type>-<locale>.json` -- local disk only (can't write to GCS via filesystem). Survives pod crashes (OOM kill) but NOT pod eviction.
 
 Additionally, `_preserve_sdk_state_local()` copies SDK state from next to the tarball to `.state/` as a fallback for code paths that don't pass `state_path` (e.g. `upload_new_version`).
 
@@ -261,8 +261,8 @@ During and after a batch run, the uploader creates files in three locations:
 .state/                                        <-- local scratch (ephemeral on pod filesystem)
   upload-state-cv-corpus-25.0-...-20260319T170000.json   <-- batch state (per run)
   upload-state-cv-corpus-25.0-...-20260319T183000.json   <-- retry run state
-  mdc-upload-cv-corpus-25.0-...-br.json                   <-- SDK upload state (per release+locale)
-  mdc-upload-cv-corpus-25.0-...-en.json                  <-- one per failed locale
+  mdc-upload-cv-corpus-25.0-...-full-br.json              <-- SDK upload state (per release+type+locale)
+  mdc-upload-cv-corpus-25.0-...-full-en.json             <-- one per failed locale
   mdc-upload-cv-corpus-25.0-...-20260319T170000.log      <-- log file (always created)
 
 /tmp/                                          <-- ephemeral (GCS download temp files)
@@ -458,18 +458,18 @@ Ruff is the primary linter and formatter (replaces black, isort, flake8). Pylint
 
 ### Test Coverage
 
-| Test file          | Tests | Covers                                                                      |
-| ------------------ | ----- | --------------------------------------------------------------------------- |
-| `test_mdc.py`      | 40    | Exception wrapping, response extraction, step-by-step, resume, recovery     |
-| `test_naming.py`   | 30    | Release parsing (incl. delta), paths, detect_locales                        |
-| `test_pipeline.py` | 21    | Job building, process_locale, resume, state path, GCS cleanup, orphans      |
-| `test_language.py` | 11    | LanguageRegistry init/find/extras/variants/API failure                      |
-| `test_config.py`   | 11    | UploaderConfig.from_cli, locale parsing, resume validation                  |
-| `test_gcs.py`      | 10    | URI detection, parsing, require guard                                       |
-| `test_models.py`   | 9     | StrEnum values, ReleaseSpec props, defaults                                 |
-| `test_state.py`    | 7     | BatchState record/summary, retry loading, orphaned extraction               |
-| `test_log.py`      | 6     | File handler setup, DEBUG capture, datacollective logger routing            |
-| `test_progress.py` | 5     | format_size B/KB/MB/GB/TB                                                   |
+| Test file          | Tests | Covers                                                                  |
+| ------------------ | ----- | ----------------------------------------------------------------------- |
+| `test_mdc.py`      | 40    | Exception wrapping, response extraction, step-by-step, resume, recovery |
+| `test_naming.py`   | 30    | Release parsing (incl. delta), paths, detect_locales                    |
+| `test_pipeline.py` | 22    | Job building, process_locale, resume, state path, GCS cleanup, orphans  |
+| `test_language.py` | 11    | LanguageRegistry init/find/extras/variants/API failure                  |
+| `test_config.py`   | 12    | UploaderConfig.from_cli, locale parsing, resume validation              |
+| `test_gcs.py`      | 10    | URI detection, parsing, require guard                                   |
+| `test_models.py`   | 9     | StrEnum values, ReleaseSpec props, defaults                             |
+| `test_state.py`    | 7     | BatchState record/summary, retry loading, orphaned extraction           |
+| `test_log.py`      | 6     | File handler setup, DEBUG capture, datacollective logger routing        |
+| `test_progress.py` | 5     | format_size B/KB/MB/GB/TB                                               |
 
 ### Project Dependencies
 

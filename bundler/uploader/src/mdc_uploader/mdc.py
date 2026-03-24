@@ -208,11 +208,13 @@ class MDCClient:
         # Step 2: Upload file
         logger.info("MDC", "Step 2/4: Uploading %s...", os.path.basename(file_path))
         try:
-            upload_state = upload_dataset_file(
-                file_path=file_path,
-                submission_id=submission_id,
-                state_path=state_path,
-            )
+            upload_kwargs: dict[str, str] = {
+                "file_path": file_path,
+                "submission_id": submission_id,
+            }
+            if state_path is not None:
+                upload_kwargs["state_path"] = state_path
+            upload_state = upload_dataset_file(**upload_kwargs)
         except Exception as exc:
             _log_step_error("Step 2/4: Upload failed", exc, submission)
             raise OrphanedDraftError(

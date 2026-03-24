@@ -10,6 +10,19 @@ from mdc_uploader.models import ReleaseType
 from mdc_uploader.typedef import MDCTarget, _OrphanedSubmission
 
 
+def resolve_base_dir(base_dir: str | None) -> str:
+    """Resolve the upload base directory.
+
+    Resolution order: explicit value > DATASETS_BUNDLER_BUCKET_NAME env > /gcs default.
+    """
+    if base_dir:
+        return base_dir
+    bundler_bucket = os.environ.get("DATASETS_BUNDLER_BUCKET_NAME")
+    if bundler_bucket:
+        return f"gs://{bundler_bucket}"
+    return DEFAULT_BASE_DIR
+
+
 @dataclass(frozen=True)
 class UploaderConfig:
     """Resolved configuration for an upload run."""
@@ -39,6 +52,8 @@ class UploaderConfig:
         if has_path:
             if not self.locales or len(self.locales) != 1:
                 raise ValueError("Resume mode requires exactly one locale")
+            if self.dry_run:
+                raise ValueError("Resume mode cannot be used with dry_run")
 
     @classmethod
     def from_cli(  # pylint: disable=too-many-arguments
@@ -60,15 +75,7 @@ class UploaderConfig:
     ) -> UploaderConfig:
         """Build config from CLI args and environment variables."""
         resolved_url = mdc_api_url or MDC_API_URLS[upload_target]
-        # Resolution order: --base-dir CLI > UPLOAD_BASE_DIR env (Click) >
-        # gs://DATASETS_BUNDLER_BUCKET_NAME env (shared with bundler) > /gcs mount
-        bundler_bucket = os.environ.get("DATASETS_BUNDLER_BUCKET_NAME")
-        if base_dir:
-            resolved_base_dir = base_dir
-        elif bundler_bucket:
-            resolved_base_dir = f"gs://{bundler_bucket}"
-        else:
-            resolved_base_dir = DEFAULT_BASE_DIR
+        resolved_base_dir = resolve_base_dir(base_dir)
         locale_list = [loc.strip() for loc in locales.split() if loc.strip()] if locales else None
 
         return cls(

@@ -330,7 +330,14 @@ def _cleanup_gcs_temp(
         logger.warning("UPLOAD", "[%s] Cleanup failed (non-fatal): %s", locale, exc)
 
 
-def _sdk_state_path(base_dir: str, release_name: str, locale: str) -> str:
+def _sdk_state_fname(release_name: str, release_type: str, locale: str) -> str:
+    """Build SDK state filename, namespaced by release + type + locale."""
+    return f"mdc-upload-{release_name}-{release_type}-{locale}.json"
+
+
+def _sdk_state_path(
+    base_dir: str, release_name: str, release_type: str, locale: str,
+) -> str:
     """Return the path where the SDK should write multipart upload state.
 
     For local/GCSFuse base dirs: writes to <base_dir>/<release>/upload-logs/
@@ -338,7 +345,7 @@ def _sdk_state_path(base_dir: str, release_name: str, locale: str) -> str:
 
     For gs:// URIs or empty base_dir: falls back to .state/ on local disk.
     """
-    fname = f"mdc-upload-{release_name}-{locale}.json"
+    fname = _sdk_state_fname(release_name, release_type, locale)
     if not base_dir or is_gcs_uri(base_dir):
         os.makedirs(STATE_DIR, exist_ok=True)
         return os.path.join(STATE_DIR, fname)
@@ -347,7 +354,9 @@ def _sdk_state_path(base_dir: str, release_name: str, locale: str) -> str:
     return os.path.join(upload_logs, fname)
 
 
-def _preserve_sdk_state_local(tarball_path: str, locale: str, release_name: str) -> None:
+def _preserve_sdk_state_local(
+    tarball_path: str, locale: str, release_name: str, release_type: str,
+) -> None:
     """Copy SDK state file to .state/ for --resume support (fallback).
 
     Only needed when state_path was NOT passed to upload_dataset_file
@@ -361,7 +370,7 @@ def _preserve_sdk_state_local(tarball_path: str, locale: str, release_name: str)
     try:
         import shutil  # pylint: disable=import-outside-toplevel
 
-        dest = os.path.join(STATE_DIR, f"mdc-upload-{release_name}-{locale}.json")
+        dest = os.path.join(STATE_DIR, _sdk_state_fname(release_name, release_type, locale))
         os.makedirs(STATE_DIR, exist_ok=True)
         shutil.copy2(sdk_state, dest)
         logger.info("UPLOAD", "[%s] SDK upload state saved to: %s", locale, dest)
@@ -558,7 +567,9 @@ def process_locale(  # pylint: disable=too-many-return-statements,too-many-branc
             locale,
             format_size(job.file_size),
         )
-        state_path = _sdk_state_path(base_dir, job.release_spec.release_name, locale)
+        state_path = _sdk_state_path(
+            base_dir, job.release_spec.release_name, job.release_type.value, locale,
+        )
         submission_id, _ = client.create_and_upload(
             file_path=tarball_local,
             submission=submission,
@@ -597,7 +608,9 @@ def process_locale(  # pylint: disable=too-many-return-statements,too-many-branc
         if tmp_file and os.path.exists(tmp_file):
             _cleanup_gcs_temp(tmp_file, locale, upload_succeeded)
         elif not upload_succeeded:
-            _preserve_sdk_state_local(job.tarball_path, locale, job.release_spec.release_name)
+            _preserve_sdk_state_local(
+                job.tarball_path, locale, job.release_spec.release_name, job.release_type.value,
+            )
 
 
 def print_summary(state: BatchState) -> None:
@@ -670,11 +683,16 @@ def print_summary(state: BatchState) -> None:
         )
         # Check for SDK state files that support --resume (partial uploads).
         # State may be in upload-logs/ (GCS-persistent) or .state/ (local).
+        from mdc_uploader.constants import DEFAULT_BASE_DIR  # pylint: disable=import-outside-toplevel
+
         upload_logs_dir = os.path.join(state.base_dir, state.release, "upload-logs")
+        base_dir_flag = ""
+        if state.base_dir != DEFAULT_BASE_DIR:
+            base_dir_flag = f" --base-dir {state.base_dir}"
         for locale in state.locales:
             if state.locales[locale]["status"] != "failed":
                 continue
-            state_name = f"mdc-upload-{state.release}-{locale}.json"
+            state_name = _sdk_state_fname(state.release, state.release_type, locale)
             has_state = (
                 os.path.exists(os.path.join(upload_logs_dir, state_name))
                 or os.path.exists(os.path.join(STATE_DIR, state_name))
@@ -683,11 +701,12 @@ def print_summary(state: BatchState) -> None:
                 logger.info(
                     "UPLOAD",
                     "To resume %s (partial upload): mdc-upload --resume "
-                    "-r %s -l %s -ut %s",
+                    "-r %s -l %s -ut %s%s",
                     locale,
                     state.release,
                     locale,
                     state.upload_target,
+                    base_dir_flag,
                 )
 
 

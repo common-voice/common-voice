@@ -65,6 +65,24 @@ class TestResumeValidation:
                 resume_submission_id="sub-123",
             )
 
+    def test_resume_rejects_dry_run(self) -> None:
+        """Resume mode with dry_run=True raises ValueError."""
+        with pytest.raises(ValueError, match="dry_run"):
+            UploaderConfig(
+                release_name="cv-corpus-25.0-2026-03-09",
+                upload_target="dev",
+                mdc_api_url="http://test",
+                mdc_api_key="test",
+                base_dir="/gcs",
+                release_type=ReleaseType.FULL,
+                locales=["fr"],
+                submission_id=None,
+                dry_run=True,
+                verbose=False,
+                resume_state_path="/state/file.json",
+                resume_submission_id="sub-123",
+            )
+
     def test_valid_resume_config(self) -> None:
         """Valid resume config with both fields and one locale passes."""
         config = UploaderConfig(
