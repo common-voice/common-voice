@@ -24,8 +24,8 @@ RUN git clone --depth 1 -b release-v1.0.0 \
     cd .. && rm -rf mp3-duration-reporter
 
 # CorporaCreator into the virtual environment
-# Bumping to v1.4.2 with improvements to prevent OOM on large datasets
-RUN git clone --depth 1 -b release-v1.4.2 \
+# v1.5.0: rewritten with polars (replaces pandas+swifter), fixes OOM on large datasets
+RUN git clone --depth 1 -b release-v1.5.0 \
         https://github.com/common-voice/CorporaCreator.git && \
     cd CorporaCreator && \
     pip install . && \
