@@ -496,6 +496,11 @@ announcement-mdc-button-text = Kpem Mozilla Data Collective
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = yooimi shijiri palli
 
+## Release Delay Announcement
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-delay = Ti laɣingu nima, saha ŋɔ, ti na maani la ti yoobahi kpanjɔɣu.
+
 ## Common Language/Dataset Selector & SearchBox Related
 
 # Generic search box defaults
