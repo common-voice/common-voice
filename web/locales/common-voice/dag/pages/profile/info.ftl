@@ -22,6 +22,11 @@ dashboard = Dundɔŋ karili ni
 accept-privacy-title = Ashili zalisi
 login = Kpɛma
 edit = Maliniŋ
+email-subscriptions = Iimeeli zaŋ ga nima
+download-profile = Yaami n deeta maa
+api-credentials = API
+api-credentials-header = A bin kpɛhira
+contribution-experience = Tɔhibu Milinsi
 off = Kpihima
 on = Nyoma
 # Genders
