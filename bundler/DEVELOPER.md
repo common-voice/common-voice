@@ -227,7 +227,7 @@ The `--verbosity` CLI flag controls both the logger output level and how subproc
 
 When `--verbosity` is not `normal`, it overrides the `LOG_LEVEL` environment variable. The verbosity state is stored in `logger.ts` alongside `currentLevel` and is read by subprocess handlers via `getVerbosity()`.
 
-In `debug` mode, `TQDM_DISABLE` is not set, so swifter/tqdm progress bars and CorporaCreator's own `print()` output are all visible. This reveals memory warnings, pandas diagnostics, and progress information that are normally suppressed.
+In `debug` mode, `TQDM_DISABLE` is not set and CorporaCreator's own `print()` output is visible. This reveals progress information that is normally suppressed.
 
 ---
 

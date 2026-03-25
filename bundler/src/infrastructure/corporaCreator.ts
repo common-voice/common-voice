@@ -44,9 +44,8 @@ export type CorporaCreaterFile = (typeof CORPORA_CREATOR_FILES)[number]
  * @param locale - The locale for which to generate corpora.
  * @returns A promise representing the result of running the create-corpora command.
  */
-/** Filters tqdm/swifter progress noise from a stderr line */
-const isNoiseLine = (line: string): boolean =>
-  !line || line.startsWith('Pandas Apply:') || line.startsWith('Dask Apply:')
+/** Filters progress noise from a stderr line */
+const isNoiseLine = (line: string): boolean => !line
 
 const MEM_LOG_INTERVAL_MS = 30_000
 
@@ -78,9 +77,8 @@ const runCorporaCreatorPromise = (locale: string, releaseDirPath: string) =>
     const cc = spawn('create-corpora', ccArgs, {
       env: {
         ...process.env,
-        // In debug mode, keep tqdm enabled for full subprocess output.
-        // Otherwise suppress progress bars that leak through multiprocessing
-        // worker stdout, bypassing spawn pipe capture.
+        // CC v1.5.0+ (polars) has no tqdm dependency, but keep the flag
+        // so older CC installs still suppress progress bars.
         ...(verbosity !== 'debug' ? { TQDM_DISABLE: '1' } : {}),
       },
     })
