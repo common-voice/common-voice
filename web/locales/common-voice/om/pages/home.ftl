@@ -137,7 +137,7 @@ answer = Deebisi
 
 ## Community section
 
-community-section-title-202601 = Hawaasa addunyaatiin kan humna qabu, hawaasa addunyaatiif — afaanota 290 fi guddachaa jiru!
+community-section-title-202601 = Hawaasa addunyaatiin kan humna qabu, hawaasa addunyaatiif — afaanota 290 fi guddachaa kan jiru!
 join-discord-community = Hawaasa Discord itti makamaa
 # label for button
 join-discord-community-action = Discord irratti nu waliin ta'aa
