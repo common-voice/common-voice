@@ -6,6 +6,7 @@ sentence-collection = Grumbullim Frazash
 question-collection = Koleksion Pyetjesh
 scripted-speech = E folur e Shkruar
 spontaneous-speech = E folur Spontane
+dont-subheader = Jo
 
 ## Voice Collection nav ids
 
@@ -147,9 +148,37 @@ answer-questions-tip-1 = Incizoni në një vend aq sa mundet të qetë
 answer-questions-tip-2 = Zgjidhni një vend me lidhje të mirë internet
 answer-questions-tip-3b = Mundohuni ta mbani përgjigjen tuaj në 15-30 sekonda
 answer-questions-tip-5 = Flisni në mënyrë të natyrshme, si do të bënit me një shok - përdorni variantin, dialektin dhe theksin tuaj të njëmendtë
+answer-questions-tip-6 = Mbajeni të njëtrajtshëm volumin e zërit tuaj - mos bërtisni, apo të këndoni
+# Transcribe the Audio
+transcribe-the-audio = Transkriptoni Audion
 transcribe-the-audio-subheader-1 = Drejtim i përgjithshëm
 transcribe-the-audio-subheader-2 = Numra dhe akronime
 transcribe-the-audio-subheader-3 = Etiketa të Posaçme
+transcribe-the-audio-subheader-1-explanation = Përgjithësisht, duhet të shkruani gjithçka që dëgjoni. Kjo përfshin:
+transcribe-the-audio-subheader-1-explanation-example-2 = Vendosje etikete për gjëra si kollitje, apo qeshje
+transcribe-the-audio-subheader-1-explanation-example-3 = Vendosje etikete për ndotje të madhe zanore, bie fjala, mërmëritje në sfond, apo bori makinash
+transcribe-the-audio-subheader-1-explanation-example-4 = Variante gramatikore dhe zhargon duhen regjistruar saktësisht si vijnë. Mos ndreqni apo përpunoni të folurën e njerëzve.
+transcribe-the-audio-subheader-2-explanation-1 = Numra dhe simbole duhen shqiptuar si fjalë, në vend se të përdoren numra apo shenja të posaçme. Shembull:
+transcribe-the-audio-subheader-2-explanation-2 = Akronimet duhen shkruar siç shkruhen normalisht te gjuha, duke ndjekur rregulla standarde shkrimi me shkronjë të madhe. S’duhen transkriptuar fonetikisht. Shembull:
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <correct> E saktë</correct>: Është një qind milje larg nga këtu
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Gabim</wrong>: Është 100 milje larg nga këtu
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correct> E saktë</correct>: Mirupafshim në <underline>njëzetepesën</underline>
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Gabim</wrong>: Mirupafshim në <underline>2015</underline>
+transcribe-the-audio-subheader-2-example-3-correct = <correct>E saktë</correct>: Qe njëzetepesë përqind më pak
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Gabim</wrong>: Qe 20% më pak
+transcribe-the-audio-subheader-2-example-4-correct = <correct>E saktë</correct>: Qenë arrestuar nga <underline>FBI</underline> të enjten e shkuar
+transcribe-the-audio-subheader-2-example-4-wrong = <wrong>Gabim</wrong>: Qenë arrestuar nga <underline>ef bi aj</underline> të enjten e shkuar
+tags-table-header-1 = Etiketë
+tags-table-header-2 = Kuptim
+tags-laugh = E qeshur
+tags-unclear = E paqartë
+tags-noise = Zhurmë
+tags-laugh-explanation = Tingujt e të qeshurës.
+tags-unclear-explanation = Një fjalë apo togfjalësh që s’mund të kuptohet.
 
 ## Review the Transcription
 
