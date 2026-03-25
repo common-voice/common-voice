@@ -223,7 +223,7 @@ The `--verbosity` CLI flag controls both the logger output level and how subproc
 | `quiet`   | `warn`      | drained   | suppressed      | stderr demoted to debug       |
 | `normal`  | env default | drained   | on failure only | stderr as warn (default)      |
 | `verbose` | `debug`     | drained   | streamed live   | stderr streamed as debug      |
-| `debug`   | `debug`     | streamed  | streamed live   | stderr streamed, tqdm enabled |
+| `debug`   | `debug`     | streamed  | streamed live   | stderr streamed               |
 
 When `--verbosity` is not `normal`, it overrides the `LOG_LEVEL` environment variable. The verbosity state is stored in `logger.ts` alongside `currentLevel` and is read by subprocess handlers via `getVerbosity()`.
 
