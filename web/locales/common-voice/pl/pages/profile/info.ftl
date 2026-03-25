@@ -57,6 +57,10 @@ skip-submission-description = Informacje zwrotne będą pomijane po kliknięciu 
 skip-submission-note = Uwaga: nadal będzie trzeba wybrać między nagrywaniem a słuchaniem, aby zmienić rodzaj pracy.
 off = Wyłączone
 on = Włączone
+help-accent = Potrzebujesz pomocy z akcentami?
+api-key-modal-confirmation-header = Czy na pewno?
+copy-api-credential-success-toast-message = Skopiowano pomyślnie
+copy-api-credential-error-toast-message = Błąd kopiowania
 other = Inna
 # Age Values
 teens = < 19

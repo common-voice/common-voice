@@ -294,6 +294,8 @@ indicates-required = * wskazuje pole obowiązkowe
 not-available-abbreviation = Niedostępne
 # Text shown on a button that can be clicked to copy text to the clipboard
 copy = Kopiuj
+# Text shown on a button that can be clicked to close a modal or panel
+close = Zamknij
 # Text shown on a button that can be clicked to cancel an action
 cancel = Anuluj
 # Text shown on a button that can be clicked to delete an item
@@ -310,3 +312,13 @@ donate-banner-cta-explanation = Roczny koszt przechowywania zestawów danych i u
 
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = Otwiera w nowej karcie
+
+## Common Language/Dataset Selector & SearchBox Related
+
+searchbox-default-placeholder = Szukaj…
+searchbox-default-aria-label = Szukaj
+dropdown-no-results = Nie znaleziono dopasowania
+dataset-searchbox-placeholder = Wyszukaj język…
+dataset-searchbox-aria-label = Wyszukaj język
+dataset-search-no-results = Nie znaleziono szukanego języka
+request-new-language = Zaproponuj nowy język

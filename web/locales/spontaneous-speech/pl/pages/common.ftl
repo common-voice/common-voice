@@ -7,6 +7,8 @@ action-tap = Stuknij
 # Label for language switcher
 platform-language = Język platformy
 platform-language-tooltip-text = Zmienia tylko tekst witryny
+# Toast message that is displayed when an item is skipped
+skipped = Pominięto
 # For the button to skip an item
 skip-button = Pomiń
 submit-button = Wyślij
@@ -30,3 +32,16 @@ accept-privacy-and-terms = Zgadzam się na <termsLink>warunki korzystania</terms
 language-search-placeholder = Wyszukaj język…
 language-search-aria-label = Wyszukaj język
 language-search-no-results = Nie znaleziono języków
+
+## Transcription Player - Mode Buttons
+
+# Player - slower
+player-speed-slow = Wolno
+# Player - normal speed
+player-speed-normal = Normalnie
+# Player - faster
+player-speed-fast = Szybko
+
+## Transcription Player Controls - Keyboard Shortcuts
+
+player-play-pause-shortcut-name = Odtwórz / Zatrzymaj
