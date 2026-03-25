@@ -634,7 +634,7 @@ export const VARIANTS: Variant[] = [
     variant_name: 'Jawa Kulon',
     variant_token: 'jv-kulon',
   },
-    {
+  {
     locale_name: 'qxq',
     variant_name: 'قشقایی فارس',
     variant_token: 'qxq-farsq',
@@ -658,5 +658,20 @@ export const VARIANTS: Variant[] = [
     locale_name: 'qxq',
     variant_name: 'قشقایی هَفتگِل',
     variant_token: 'qxq-haftkel',
+  },
+  {
+    locale_name: 'hr',
+    variant_name: 'Kajkavski',
+    variant_token: 'hr-kajkavsk',
+  },
+  {
+    locale_name: 'hr',
+    variant_name: 'Čakavski',
+    variant_token: 'hr-cakavsk',
+  },
+  {
+    locale_name: 'hr',
+    variant_name: 'Štokavski',
+    variant_token: 'hr-stokavsk',
   },
 ]
