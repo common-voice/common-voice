@@ -1,6 +1,8 @@
 ## Report Modal
 
 report-modal-title = Zaŋmi lahabali n-ti
+empty_or_unintelligible = Zaɣ'kuŋ
+empty_or_unintelligible-detail = Binsheli ka di ni, di saɣiim mi bali shɛli dabam n-bɛ dini
 report-other-comment =
     .placeholder = Tɔɣino
 # Label for textarea in report modal
