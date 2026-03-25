@@ -98,3 +98,13 @@ about-playbook-how-validate-content-1 = ယဝ်ရ မၞး <strong>မိင
 about-playbook-how-validate-content-2 = <strong>လ္ပ တးပါဲ ကလေပ်ရမျာၚ် ဒၞာဲ ညးတၞဟ်ဟီု ‘ဟွံတုပ်ကဵုရမျာၚ်’ မၞးညိ။</strong> - အရာဝွံ ကိစ္စဇၞော် သွက်စက်သမ္တီရမျာၚ် ဂွံကၠောန်ကမၠောန်ခိုဟ်တိုန် သွက်ဇၟာပ်မၞိဟ်ရ။
 about-playbook-how-validate-content-3 = ယဝ်ခါရ မၞးစှ်ေစိုတ် ရမျာၚ်ဟီုပ္တိတ်ဂှ် <strong>ကၠိုဟ်ကေတ်ဟွံမာန်</strong>၊ ဟွံသေင်မ္ဂး <strong>ရမျာၚ်ထုဲထံင်ဂၠိုင်</strong>၊ ဟွံသေင်မ္ဂး <strong>မၞိဟ်တၞဟ်တအ်လေဝ်ဟီုမံင်အရေဝ်နွံမံင်ကီု</strong> မ္ဂး၊ မၞး တးပါဲ ကလေပ်ရမျာၚ်ဂှ် ထေက်ရ။ <accuracyLink>ရံင်ကေတ်တင်ဂၞင်  တင်သ္ဂုတ်သွာတ် ပရေၚ်ပကိတ်ပညဳ ပိုယ်တအ်ညိ</accuracyLink>။
 about-playbook-how-validate-content-4 = ယဝ်ရ ကလေပ်ရမျာၚ်မွဲ ဒးဒုၚ်တးပါဲလဝ် နကဵုမၞိဟ် ၂ တၠမ္ဂး၊ ရမျာၚ်ဂှ် ဒးဒုၚ်ပ္တိတ် ပ္ဍဲကဏ္ဍဒေတာမတၞဟ်ခြာမွဲရ။
+
+## How to access dataset
+
+about-playbook-how-access-dataset = ဗီုလဵုအဲဂွံ လုပ်ကေတ် စကာ တင်ဂၞင်ဏအ်ရော?
+about-playbook-how-access-dataset-content-1 = မၞးအာပ္ဍဲ \<datasetsPage\>မုက်လိက်တၚ်ဂၞၚ်ဒေတာ\</datasetsPage\>တေံတုဲ၊ ရုဲစှ်ကေတ် မူ ကေုာံ အရေဝ်ဘာသာ မၞးမိက်ဂွံဂွံဂှ်တုဲ ဖျေဟ်ကေတ်မာန်ရ\ ဝှာၚ်တအ်ဂှ် နွံကဵု \<metadataLink\>တၚ်ဂၞက်မက်တာဒေတာ\</metadataLink\>၊ မပ္တံကဵု တၚ်နၚ်ပရူပရာမၞိဟ် ကေုာံ တၚ်နၚ်ဒေတာစၟဳစၟတ်ဒတန်တအ်ရ။ သွက်ဂွံဖျေဟ်ကေတ် တၚ်ဂၞၚ်ဒေတာဂှ် မၞးဒးကဵုလဝ် အဳမေလ်ရ။
+about-playbook-how-access-dataset-content-2 = ယဝ်ရမၞးဂၠာဲဒၟံၚ် ကိရိယာ သွက်ဂွံကၠောန်ဗဒှ် မဝ်ဒေဝ် ASR မ္ဂး၊ မၞးဆက်စၠောအ်ကဵု ညးသ္အာၚ်ပ္ဍဲဂကောံ <discourseLink>လ္တူ Discourse</discourseLink> တေံမာန်ရ။
+
+## How are decisions made
+
+about-playbook-how-project-governance = တၚ်သ္ဂုတ်သွာတ် ပရဝ်ဂျေတ်တအ်ဂှ် ဗီုလဵုဖျေံရော?
