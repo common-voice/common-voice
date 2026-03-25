@@ -179,6 +179,7 @@ tags-unclear = E paqartë
 tags-noise = Zhurmë
 tags-laugh-explanation = Tingujt e të qeshurës.
 tags-unclear-explanation = Një fjalë apo togfjalësh që s’mund të kuptohet.
+transcribe-the-audio-subheader-4-explanation-2 = Ndonjëherë folësi e përsërit një fjalë apo një pjesë fjale shumë herë. Edhe kjo duhet transkriptuar. Shembull:
 
 ## Review the Transcription
 
