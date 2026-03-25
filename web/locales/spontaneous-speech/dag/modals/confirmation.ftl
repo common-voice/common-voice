@@ -1,4 +1,4 @@
-confirmation-modal-title = Zaɣa
+confirmation-modal-title = Niŋmi zaɣa
 # Label for button to cancel navigation
 cancel-button = Nyahima
 # Label for button to continue navigation
