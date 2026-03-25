@@ -23,3 +23,5 @@ on = Nyoma
 # Genders
 male_masculine = Doo/Dabilim
 female_feminine = Paɣa/Paɣatali
+intersex = Paɣadoo
+transgender = Dopaɣa
