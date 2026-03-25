@@ -8,3 +8,9 @@ why-spontaneous-speech = ဟိုတ်ပိုယ် ဂွံကၠောန
 why-card-1-text = ဒှ်ဂုဏ်ဖဵု သွက်<mark>အကာဲအရာအရေဝ်ဟီုဗွဲသဘာဝ</mark> ကေုာံ အကာဲအရာသုၚ်စောဲဂမၠိုၚ် (ဥပမာ - အခိၚ်မၞးမိက်ဂွံကဵု စက်သမ္တီရမျာၚ် ကၠောန်ကမၠောန် ကုညးမဟီုအရေဝ်ဟွံဒးချူလဝ် ကေုာံ အရေဝ်ဟီုဓမ္မတာတအ်) ရ။
 # text wrapped with <mark></mark> will have a light red background
 why-card-2-text = ပရေင်ထံက်ပခိုၚ်ပခိုဟ်တိုန် သွက် အရေဝ်ဘာသာမဍာံစၟတ် ညံင်ရဴ ပရေင်စကာအရေဝ်ဘာသာနာနာ ကေုာံ <mark>ပရေင်ပြံင်လှာဲအရေဝ်ဘာသာ</mark>
+# text wrapped with <mark></mark> will have a light red background
+why-card-3-text = ပရေၚ်ထံက်ပခိုဟ်ပတိုန် သွက်အရေဝ်ဘာသာဂမၠိုၚ် မၞုံကဵုတၚ်နၚ်လိက်ပကောံအောန် ဟွံသေၚ်မ္ဂး <mark\>ဟွံမွဲကဵု တၚ်နၚ်လိက်ပကောံ</mark\> သွက်ဂွံသုၚ်စောဲ (ဥပမာ - အရေဝ်လဟီုဂကောံမၞိဟ်၊ အရေဝ်လဟီုတၞဟ်ခြာဂမၠိုၚ်၊ အရေဝ်ဘာသာ ဟွံမွဲကဵု လိက်ပတ် နူတမၠာတအ်ဂှ်ရ)
+how-spontaneous-speech-works = ဗီု Spontaneous Speech ကၠောန်ကမၠောန်
+# text wrapped in <mark></mark> will have a blue background
+prompt-bubble-title = <mark>တၚ်စၞောန်</mark>
+prompt-bubble-subtitle = ပိုဲ ထ္ၜးကဵုမၞး တၚ်စၞောန် ဟွံသေၚ်မ္ဂး ဂလာန်သၟာန်မွဲရောၚ်။
