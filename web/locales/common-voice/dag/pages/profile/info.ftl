@@ -35,7 +35,14 @@ on = Nyoma
 create-api-key-button = Nammi API bin kpɛhira
 your-api-keys = A API bin kpɛhira
 no-api-keys-header = <bold>Saha ŋɔ, a daa akaunti maa na ka API bin kpɛhira shɛli.</bold>
+api-key-name-input =
+    .label = API bin kpɛhira yuli
+generate-api-key-button = Nammi bin kpɛhira
+api-key-name-display-label = API bin kpɛhira yuli
 api-key-modal-confirmation-header = A niŋ dihitabili?
+delete-api-key-success-toast-message = API bin kpɛhira yiya ni achiika
+add-api-key-name-error = Pahimi API bin kpɛhira yuli
+max-api-keys-reached = Di yaɣi API bin kpɛhira tarisi kamani 10
 # Genders
 male_masculine = Doo/Dabilim
 female_feminine = Paɣa/Paɣatali
