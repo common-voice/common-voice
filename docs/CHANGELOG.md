@@ -76,6 +76,7 @@
 
 #### Data Changes after current release
 
+- Add Croatian (`hr`) variants by [@moz-bozden](https://github.com/moz-bozden) in [#5357](https://github.com/common-voice/common-voice/pull/5357) (in v.1.157.6)
 - Rename `tug` language from Tedaga to Tudaga (in v1.157.2)
 - Welcome new language Uspanteko (`usp`) (in v1.157.1)
 
@@ -87,10 +88,14 @@
 
 ##### SS Data Changes after current release
 
+- Add Picard (`pcd`) questions by [@moz-bozden](https://github.com/moz-bozden) in [#529](https://github.com/common-voice/spontaneous-speech/pull/529) (in v1.157.6)
 - Add Croatian (`hr`) questions by [@bandrandr](https://github.com/bandrandr) in [#517](https://github.com/common-voice/spontaneous-speech/pull/517) (in v1.157.2)
 
 #### Changes to Bundlers and related repos after current release
 
+- SCS-Bundler-Feat: Observability and release operations improvements — add verbosity levels to CLI, save logs to GCS with unique names, add resources module for memory debugging, upgrade CC to v1.5.0, add native uploader `--resume` option, add OS-level page-cache hints to reduce memory pressure, add `--expose-gc` to node start, by [@moz-bozden](https://github.com/moz-bozden) in [#5348](https://github.com/common-voice/common-voice/pull/5348), [#5349](https://github.com/common-voice/common-voice/pull/5349), [#5350](https://github.com/common-voice/common-voice/pull/5350), [#5351](https://github.com/common-voice/common-voice/pull/5351), [#5352](https://github.com/common-voice/common-voice/pull/5352), [#5354](https://github.com/common-voice/common-voice/pull/5354), [#5356](https://github.com/common-voice/common-voice/pull/5356) (in v.1.157.6)
+- SCS-Bundler-Feat: Add central control for metadata file inclusion via constants and helper functions, by [@moz-bozden](https://github.com/moz-bozden) in [#5347](https://github.com/common-voice/common-voice/pull/5347) (in v.1.157.6)
+- SPS-Bundler-QA: Add English support to QA validation pipeline — add foreign script check with extended Latin and Unicode punctuation, standardize English disfluency tags, by [@moz-bozden](https://github.com/moz-bozden) in [#530](https://github.com/common-voice/spontaneous-speech/pull/530) (in v1.157.6)
 - SPS-Bundler-Docs: Add data pipeline graph to bundler README.md, refactor and update DEVELOPER.md, by [@moz-bozden](https://github.com/moz-bozden) (in v1.157.5)
 - SCS-Bundler-Feat: Add streaming tar upload/download to/from GCS and MDC upload script, enhance uploader workflow, by [@moz-bozden](https://github.com/moz-bozden) in [#5339](https://github.com/common-voice/common-voice/pull/5339), [#5341](https://github.com/common-voice/common-voice/pull/5341), [#5333](https://github.com/common-voice/common-voice/pull/5333) (in v.1.157.5)
 - SCS-Bundler-Feat: Optimize bundler for large datasets — solve GCS access bottleneck, enhance locale filtering, limit streaming to largest datasets, reduce Bull queue buildup in Redis, enhance datasheets and stats, by [@moz-bozden](https://github.com/moz-bozden) in [#5337](https://github.com/common-voice/common-voice/pull/5337), [#5340](https://github.com/common-voice/common-voice/pull/5340), [#5331](https://github.com/common-voice/common-voice/pull/5331), [#5332](https://github.com/common-voice/common-voice/pull/5332), [#5330](https://github.com/common-voice/common-voice/pull/5330), fixes in [#5338](https://github.com/common-voice/common-voice/pull/5338), [#5335](https://github.com/common-voice/common-voice/pull/5335), [#5334](https://github.com/common-voice/common-voice/pull/5334), [#5344](https://github.com/common-voice/common-voice/pull/5344), [#5343](https://github.com/common-voice/common-voice/pull/5343) (in v.1.157.5)
@@ -112,7 +117,9 @@
 - `cv-datasheets` - Feat: Refactor and extend the repo to feed the bundler and MDC datasets page, by [@moz-bozden](https://github.com/moz-bozden) in [#67](https://github.com/common-voice/cv-datasheets/pull/67), [#68](https://github.com/common-voice/cv-datasheets/pull/68), [#69](https://github.com/common-voice/cv-datasheets/pull/69), [#70](https://github.com/common-voice/cv-datasheets/pull/70) (during v.1.157.3), [#71](https://github.com/common-voice/cv-datasheets/pull/71), [#72](https://github.com/common-voice/cv-datasheets/pull/72), [#73](https://github.com/common-voice/cv-datasheets/pull/73) (during v.1.157.3)
 - `cv-datasheets` - Feat: Add auto-compile workflow, preview workflow, markdownlint report support, and refactor docs, by [@moz-bozden](https://github.com/moz-bozden) in [#77](https://github.com/common-voice/cv-datasheets/pull/77), [#78](https://github.com/common-voice/cv-datasheets/pull/78) (during v.1.157.5)
 - `cv-datasheets` - Community: Add Abkhazian (`ab`) datasheet by [@danielinux7](https://github.com/danielinux7) in [#74](https://github.com/common-voice/cv-datasheets/pull/74), add Formosan languages template assignments by [@irvinfly](https://github.com/irvinfly) in [#75](https://github.com/common-voice/cv-datasheets/pull/75), [#76](https://github.com/common-voice/cv-datasheets/pull/76) (during v.1.157.5)
+- `cv-datasheets` - Fix: Fix and update field definitions in templates, by [@moz-bozden](https://github.com/moz-bozden) in [#79](https://github.com/common-voice/cv-datasheets/pull/79) (during v.1.157.6)
 - `cv-dataset` - Refactor to keep stats from any dataset type, by [@moz-bozden](https://github.com/moz-bozden) in [#47](https://github.com/common-voice/cv-dataset/pull/47) (during v.1.157.2), [#48](https://github.com/common-voice/cv-dataset/pull/48) (during v.1.157.3)
+- `cv-dataset` - Add SCS v25.0 full and delta stats, SPS v1.0/v2.0/v3.0 stats (retrospective), add per-type sub-READMEs and sub-CHANGELOGs for SCS/SPS/CS, refactor main README, by [@moz-bozden](https://github.com/moz-bozden) in [#49](https://github.com/common-voice/cv-dataset/pull/49) (during v.1.157.6)
 
 ---
 
