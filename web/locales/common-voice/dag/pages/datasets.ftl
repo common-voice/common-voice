@@ -45,6 +45,7 @@ resource-deepspeech-info = Mozila nyɛla yihibu shee din yooi n-ti kukoya baŋsi
 resource-coqui-info = <coquiLink>coqui<coquiLink>nyɛla din niŋ zaɣa ni bi yooi yɛltɔɣa tabibi baŋsim.Bi tuma ŋɔ pahila bɔhimbu din zilima ka be STT mini TTS mazina ni
 community-playbook = Zilenini Demabuku
 resource-playbook-info = <playbookLink>yala soŋsim tarisi<playbookLink>kukoya din laɣim sochenda ŋɔ zaa zuɣu,dunduŋni tuma tumbu n ti pahi ti ni yan niŋ shɛm zaŋgatabi ti fondi ni
+data-other-librispeech-description = LibriSpeech nyɛla kpanjɔɣu shɛli din kukɔya yaabu hawa kalinli 1000 hawa nima kamani 16Khz silimiinsili karimbu bini yaagi shɛli LibriVox tuma kukɔya bukunima la puuni la.
 data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = TED-LIM corpus sodolisi la daa yila yɛltɔɣa vulibu mini di lɛbiginsim n niŋli bayana TED dundɔŋ puuni ni.
 data-other-voxforge-description = Bi daa bola VoxForge zali ni di laɣimdi yaligi din lɛbigi ni di tumdi ypli n tiri yihibu sheei yaligu baŋbu mazinanima
