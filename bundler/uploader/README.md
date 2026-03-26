@@ -14,6 +14,7 @@ For architecture and development details see [DEVELOPER.md](DEVELOPER.md).
 - Can attach datasheet metadata to each dataset submission for display on MDC
 - Can handle full (CC0), delta (CC0), licensed (e.g. CC-BY 4.0), and variant release types
 - Can retry only failed locales from a previous run via `--retry-failed`
+- Can resume a partially uploaded locale (multipart) via `--resume` -- only missing parts are re-sent
 - Can upload new file versions to existing MDC datasets via `--submission-id`
 - Can preview uploads without calling MDC via `--dry-run`
 - Can read files from local directories, GCS buckets (`gs://` URIs), or GCSFuse mounts (if available)
@@ -21,7 +22,8 @@ For architecture and development details see [DEVELOPER.md](DEVELOPER.md).
 - Can recover orphaned drafts on retry -- if upload succeeded but metadata update failed, `--retry-failed` skips re-upload and resumes from step 3
 - Can log full HTTP request payloads and response bodies on error for debugging
 - Can write all output to a log file via `--log-file` (always captures DEBUG level)
-- Can persist batch state to JSON after each locale for `--retry-failed` support (local filesystem only, does not survive pod crashes for now)
+- Can persist batch state to JSON after each locale for `--retry-failed` support
+- Can save log file and state JSON to `<base-dir>/<release>/upload-logs/` after each batch so they survive pod recycling
 
 ## Data Pipeline
 
@@ -121,6 +123,7 @@ Optional:
        --base-dir TEXT                         Root directory with release files (default: /gcs)
        --submission-id TEXT                    Existing MDC submission ID (version update mode)
        --retry-failed FILE                     State JSON from a previous run (retries failed only)
+       --resume                                Resume a partial upload from saved SDK state (use with -r and -l)
        --dry-run                               Preview without uploading
        --log-file PATH                         Write log output to file (always DEBUG level)
   -v,  --verbose                               Debug logging on console
@@ -198,6 +201,17 @@ mdc-upload -r cv-corpus-26.0-2026-06-15 -l en --submission-id abc-123 -ut prod
 mdc-upload --retry-failed ./upload-state-cv-corpus-25.0-2026-03-09-20260313T143000.json
 ```
 
+### Resume a partial upload
+
+When a large locale fails midway through the multipart upload, the SDK saves per-part progress. On GCSFuse mounts (production), state is written directly to `<base-dir>/<release>/upload-logs/` so it survives pod eviction. Use `--resume` to pick up where it left off -- only the remaining parts are uploaded:
+
+```bash
+# Resume a failed fr upload (requires -r and -l)
+mdc-upload --resume -r cv-corpus-25.0-2026-03-09 -l fr -ut prod
+```
+
+The batch summary prints the exact `--resume` command for any locale that has a partial state file.
+
 ## Directory Structure
 
 `--base-dir` is the root directory containing release folders. The release name (`-r`) selects the subfolder. Tarballs and datasheets live inside it:
@@ -210,9 +224,12 @@ mdc-upload --retry-failed ./upload-state-cv-corpus-25.0-2026-03-09-20260313T1430
                |   +-- sps-corpus-3.0-2026-03-09-en.tar.gz
                |   +-- sps-corpus-3.0-2026-03-09-mt.tar.gz
                |   +-- datasheets/
-               |       +-- sps-corpus-3.0-2026-03-09-datasheet-ga-IE.md  <-- datasheet (per locale)
-               |       +-- sps-corpus-3.0-2026-03-09-datasheet-en.md
-               |       +-- sps-corpus-3.0-2026-03-09-datasheet-mt.md
+               |   |   +-- sps-corpus-3.0-2026-03-09-datasheet-ga-IE.md  <-- datasheet (per locale)
+               |   |   +-- sps-corpus-3.0-2026-03-09-datasheet-en.md
+               |   |   +-- sps-corpus-3.0-2026-03-09-datasheet-mt.md
+               |   +-- upload-logs/                                <-- auto-saved after each batch
+               |       +-- mdc-upload-sps-corpus-3.0-...-20260322T143000.log
+               |       +-- upload-state-sps-corpus-3.0-...-20260322T143000.json
                |
                +-- cv-corpus-25.0-2026-03-09/           <-- -r cv-corpus-25.0-2026-03-09
                |   +-- cv-corpus-25.0-2026-03-09-en.tar.gz

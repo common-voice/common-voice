@@ -6,3 +6,5 @@ contact-form-name =
 contact-form-message =
     .label = Wiadomość
 contact-required = * wymagane
+contact-form-success = Twoja wiadomość została wysłana. Dziękujemy!
+contact-form-error = Coś poszło nie tak. Spróbuj ponownie.

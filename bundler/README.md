@@ -86,6 +86,7 @@ cd bundler/js/cli    # local
 | `-l <locales...>`  | optional                         | Restrict to specific locales                                                                  |
 | `--license-mode`   | optional (default: `unlicensed`) | `unlicensed`, `licensed`, or `both`                                                           |
 | `--force`          | optional                         | Kill any in-progress run, flush its logs, and re-create all tarballs from scratch (see below) |
+| `--verbosity`      | optional (default: `normal`)     | Output detail: `quiet`, `normal`, `verbose`, `debug` (see below)                              |
 
 ### Datasheets (`-d`)
 
@@ -187,7 +188,7 @@ Use `--force` to recover from a bad release run or re-generate tarballs after a 
 
 Performs a complete reset -- use when the entire run is bad:
 
-1. **Flushes partial-run logs** (problem-clips, process-log) to GCS so they are not lost.
+1. **Flushes partial-run logs** (problem-clips, process-log) to GCS so they are not lost. Each run's logs are timestamped (e.g. `process-log-20260322T143005.tsv`), so re-runs never overwrite previous logs.
 2. **Obliterates the BullMQ queue** -- all active, waiting, and completed jobs are removed.
 3. **Clears all Redis state** (done SET, processing HASH) so every locale is re-scheduled.
 4. **Bypasses skip checks** -- tarballs are re-created and overwritten.
@@ -213,6 +214,12 @@ After all locale jobs complete successfully, the bundler automatically:
 - Drains all remaining BullMQ jobs from the queue
 
 Redis keys have a 24-hour TTL as a safety net in case cleanup fails or the process crashes before reaching the end.
+
+---
+
+## `--verbosity` levels
+
+Controls both the log output level and subprocess output detail. Levels: `quiet`, `normal` (default), `verbose`, `debug`. Overrides `LOG_LEVEL` when not `normal`. See [DEVELOPER.md](DEVELOPER.md#verbosity) for the full behaviour matrix.
 
 ---
 

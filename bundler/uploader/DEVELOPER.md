@@ -53,21 +53,21 @@ Dev and prod use separate MDC accounts. Set the key matching your `-ut` target.
 
 ## Module Responsibilities
 
-| Module         | Purpose                                                                              |
-| -------------- | ------------------------------------------------------------------------------------ |
-| `cli.py`       | Click CLI entry point, option parsing, `--retry-failed` handling, error formatting   |
-| `config.py`    | `UploaderConfig` dataclass, env var + CLI arg resolution                             |
-| `constants.py` | MDC API URLs, metadata templates, contact info                                       |
-| `typedef.py`   | Shared type aliases, Literal types, TypedDicts                                       |
-| `models.py`    | `Modality`, `ReleaseType`, `ReleaseSpec`, `LocaleUploadJob`, `UploadResult`          |
-| `naming.py`    | Release name parsing, tarball/datasheet path construction                            |
-| `language.py`  | `LanguageRegistry` class -- fetches locale names from CV API + hardcoded extras      |
-| `mdc.py`       | `MDCClient` -- step-by-step SDK calls, recovery, error/response capture, 429 retry   |
-| `pipeline.py`  | Per-locale upload orchestration, recovery routing, GCS temp cleanup, batch runner    |
-| `state.py`     | `BatchState` JSON persistence, orphaned submission extraction for `--retry-failed`   |
-| `progress.py`  | tqdm batch progress bar, human-readable size formatting                              |
-| `log.py`       | Structured logging with optional file output (`--log-file`), datacollective capture  |
-| `gcs.py`       | GCS fallback for `gs://` URIs (uses `google-cloud-storage` runtime dependency)       |
+| Module         | Purpose                                                                                       |
+| -------------- | --------------------------------------------------------------------------------------------- |
+| `cli.py`       | Click CLI entry point, option parsing, `--retry-failed`/`--resume` handling, error formatting |
+| `config.py`    | `UploaderConfig` dataclass, env var + CLI arg resolution                                      |
+| `constants.py` | MDC API URLs, metadata templates, contact info                                                |
+| `typedef.py`   | Shared type aliases, Literal types, TypedDicts                                                |
+| `models.py`    | `Modality`, `ReleaseType`, `ReleaseSpec`, `LocaleUploadJob`, `UploadResult`                   |
+| `naming.py`    | Release name parsing, tarball/datasheet path construction                                     |
+| `language.py`  | `LanguageRegistry` class -- fetches locale names from CV API + hardcoded extras               |
+| `mdc.py`       | `MDCClient` -- step-by-step SDK calls, resume, recovery, error/response capture, 429 retry    |
+| `pipeline.py`  | Per-locale upload orchestration, resume/recovery routing, GCS temp cleanup, batch runner      |
+| `state.py`     | `BatchState` JSON persistence, orphaned submission extraction, log-to-storage upload          |
+| `progress.py`  | tqdm batch progress bar, human-readable size formatting                                       |
+| `log.py`       | Structured logging, auto log file, `flush_all`/`get_log_file_path` for storage save           |
+| `gcs.py`       | GCS fallback for `gs://` URIs (uses `google-cloud-storage` runtime dependency)                |
 
 ---
 
@@ -136,6 +136,26 @@ When a previous run failed after step 2 (upload succeeded but metadata update or
 2. `recover_submission()` -- calls steps 3+4 only, skipping draft creation and file upload
 3. Record result in batch state JSON
 
+### Resume Partial Upload (--resume)
+
+When step 2 (multipart upload) fails partway, the SDK saves per-part progress to a state file. `--resume` cannot be combined with `--dry-run`. On `--resume`:
+
+1. Search for SDK state file: `<base-dir>/<release>/upload-logs/mdc-upload-<release>-<type>-<locale>.json` first, `.state/` fallback
+2. Resolve tarball and datasheet (tarball is needed -- the SDK re-reads it for remaining parts)
+3. `resume_and_upload()` -- skips step 1 (draft already exists), calls `upload_dataset_file(state_path=...)` which uploads only missing parts, then runs steps 3+4
+4. Record result in batch state JSON
+
+The SDK validates that the state file matches (submissionId, filename, fileSize, mimeType) before resuming. If the file has changed, it starts a fresh upload instead.
+
+#### State file persistence
+
+During normal uploads, `_sdk_state_path()` determines where the SDK writes its per-part state:
+
+- **Local/GCSFuse base-dir**: `<base-dir>/<release>/upload-logs/mdc-upload-<release>-<type>-<locale>.json` -- on GCSFuse mounts this is GCS-backed and survives pod eviction. The SDK writes after every part, so progress is persisted in real time.
+- **gs:// base-dir**: `.state/mdc-upload-<release>-<type>-<locale>.json` -- local disk only (can't write to GCS via filesystem). Survives pod crashes (OOM kill) but NOT pod eviction.
+
+Additionally, `_preserve_sdk_state_local()` copies SDK state from next to the tarball to `.state/` as a fallback for code paths that don't pass `state_path` (e.g. `upload_new_version`).
+
 ### Version Update
 
 1. Resolve tarball path
@@ -193,7 +213,9 @@ Example: `CC-BY 4.0` becomes `CC-BY_4.0` (dot is preserved).
 
 ## Retry and State Management
 
-Every batch run writes a state JSON file to `.state/` after each locale completes:
+Every batch run writes a state JSON file to `.state/` after each locale completes. After the batch, both the state JSON and log file are copied to `<base-dir>/<release>/upload-logs/` for persistence across pod recycling.
+
+Local state file path:
 
 ```txt
 .state/upload-state-{release}-{timestamp}.json
@@ -209,7 +231,11 @@ The file contains all config needed to reproduce the run, plus per-locale result
   "base_dir": "/gcs",
   "started_at": "2026-03-13T14:30:00+00:00",
   "locales": {
-    "ga-IE": { "status": "success", "submission_id": "abc-123", "file_upload_id": "fup-456" },
+    "ga-IE": {
+      "status": "success",
+      "submission_id": "abc-123",
+      "file_upload_id": "fup-456"
+    },
     "en": {
       "status": "failed",
       "error": "Orphaned draft sub-789: Metadata update failed: 400 Bad Request",
@@ -229,25 +255,31 @@ Use `--retry-failed <path>` to re-run only failed locales. Config is restored fr
 
 ## Runtime Files
 
-During and after a batch run, the uploader creates files in two locations:
+During and after a batch run, the uploader creates files in three locations:
 
 ```txt
-.state/                                        <-- persistent (survives pod restarts if on PVC)
+.state/                                        <-- local scratch (ephemeral on pod filesystem)
   upload-state-cv-corpus-25.0-...-20260319T170000.json   <-- batch state (per run)
   upload-state-cv-corpus-25.0-...-20260319T183000.json   <-- retry run state
-  mdc-upload-br.json                                     <-- SDK upload state (copied on failure)
-  mdc-upload-en.json                                     <-- one per failed locale
-  mdc-upload-cv25-20260319T170000.log                    <-- log file (if --log-file used)
+  mdc-upload-cv-corpus-25.0-...-full-br.json              <-- SDK upload state (per release+type+locale)
+  mdc-upload-cv-corpus-25.0-...-full-en.json             <-- one per failed locale
+  mdc-upload-cv-corpus-25.0-...-20260319T170000.log      <-- log file (always created)
 
 /tmp/                                          <-- ephemeral (GCS download temp files)
   tmpXXXXXX/                                   <-- temp dir per locale (GCS mode only)
     cv-corpus-25.0-2026-03-09-br.tar.gz        <-- downloaded tarball (deleted after upload)
     cv-corpus-25.0-...-br.tar.gz.mdc-upload.json  <-- SDK resume state (during upload)
+
+<base-dir>/<release>/upload-logs/              <-- persistent (GCS, survives pod recycling)
+  mdc-upload-cv-corpus-25.0-...-20260319T170000.log      <-- copied from .state/ after batch
+  upload-state-cv-corpus-25.0-...-20260319T170000.json   <-- copied from .state/ after batch
 ```
+
+**Log persistence:** A DEBUG-level log file is always created in `.state/` (even without `--log-file`). After the batch completes, both the log file and state JSON are copied to `<base-dir>/<release>/upload-logs/` in GCS so they survive pod recycling. For `gs://` URIs, upload uses the GCS client; for GCSFuse mounts, the mount must be writable (see GCSFuse section below).
 
 **Tarball lifecycle (GCS mode):** downloaded from GCS -> uploaded to MDC -> always deleted (both success and failure). The `submission_id` and `file_upload_id` in batch state are sufficient for retry.
 
-**`.mdc-upload.json` lifecycle:** created by SDK during multipart upload -> deleted by SDK on upload success -> copied to `.state/mdc-upload-{locale}.json` on failure (for debugging).
+**`.mdc-upload.json` lifecycle:** For new uploads, `_sdk_state_path()` directs the SDK to write state to `upload-logs/` (GCSFuse) or `.state/` (`gs://` mode). The SDK writes after every part and deletes on success. For `gs://` downloads, `_cleanup_gcs_temp` also copies any leftover state from the temp dir to `.state/` on failure.
 
 ---
 
@@ -305,10 +337,10 @@ print(f\"success={c['success']} failed={c['failed']} skipped={c['skipped']}\")
 
 ```bash
 # List preserved SDK state files
-ls -la .state/mdc-upload-*.json
+ls -la .state/mdc-upload-*-*.json
 
 # Show what IDs were used for a failed locale
-cat .state/mdc-upload-br.json | python3 -m json.tool
+cat .state/mdc-upload-cv-corpus-25.0-*-br.json | python3 -m json.tool
 ```
 
 ### Cleanup
@@ -426,18 +458,18 @@ Ruff is the primary linter and formatter (replaces black, isort, flake8). Pylint
 
 ### Test Coverage
 
-| Test file          | Tests | Covers                                                             |
-| ------------------ | ----- | ------------------------------------------------------------------ |
-| `test_mdc.py`      | 37    | Exception wrapping, response extraction, step-by-step, recovery    |
-| `test_naming.py`   | 30    | Release parsing (incl. delta), paths, detect_locales               |
-| `test_language.py` | 11    | LanguageRegistry init/find/extras/variants/API failure             |
-| `test_pipeline.py` | 10    | Job building, process_locale, GCS temp cleanup, orphaned drafts    |
-| `test_gcs.py`      | 10    | URI detection, parsing, require guard                              |
-| `test_models.py`   | 9     | StrEnum values, ReleaseSpec props, defaults                        |
-| `test_state.py`    | 7     | BatchState record/summary, retry loading, orphaned extraction      |
-| `test_config.py`   | 7     | UploaderConfig.from_cli, locale parsing                            |
-| `test_log.py`      | 6     | File handler setup, DEBUG capture, datacollective logger routing   |
-| `test_progress.py` | 5     | format_size B/KB/MB/GB/TB                                          |
+| Test file          | Tests | Covers                                                                  |
+| ------------------ | ----- | ----------------------------------------------------------------------- |
+| `test_mdc.py`      | 40    | Exception wrapping, response extraction, step-by-step, resume, recovery |
+| `test_naming.py`   | 30    | Release parsing (incl. delta), paths, detect_locales                    |
+| `test_pipeline.py` | 22    | Job building, process_locale, resume, state path, GCS cleanup, orphans  |
+| `test_language.py` | 11    | LanguageRegistry init/find/extras/variants/API failure                  |
+| `test_config.py`   | 12    | UploaderConfig.from_cli, locale parsing, resume validation              |
+| `test_gcs.py`      | 10    | URI detection, parsing, require guard                                   |
+| `test_models.py`   | 9     | StrEnum values, ReleaseSpec props, defaults                             |
+| `test_state.py`    | 7     | BatchState record/summary, retry loading, orphaned extraction           |
+| `test_log.py`      | 6     | File handler setup, DEBUG capture, datacollective logger routing        |
+| `test_progress.py` | 5     | format_size B/KB/MB/GB/TB                                               |
 
 ### Project Dependencies
 
@@ -480,13 +512,13 @@ volumes:
 volumeMounts:
   - name: gcs-releases
     mountPath: /gcs
-    readOnly: true
+    readOnly: false # writable -- uploader saves logs to <release>/upload-logs/
 ```
 
 Prerequisites:
 
 - GCSFuse CSI driver addon enabled on the GKE cluster
-- Service account with `storage.objectViewer` on the bucket
+- Service account with `storage.objectViewer` + `storage.objectCreator` on the bucket (objectCreator needed for upload-logs)
 - See [GCP docs](https://cloud.google.com/kubernetes-engine/docs/how-to/persistent-volumes/cloud-storage-fuse-csi-driver)
 
 ### Checking GCSFuse from inside a pod
@@ -556,5 +588,5 @@ Planned for the next iteration using the official BullMQ Python port (v2.19.6):
 - `mdc-upload dispatch` -- scan base-dir, sort by size DESC, push jobs to BullMQ queue
 - `mdc-upload worker` -- BullMQ Worker consumes and processes jobs
 - `mdc-upload status` -- show batch progress from Redis
-- **Redis-backed batch state** -- current `.state/` JSON files are local to the pod filesystem and do not survive pod crashes. Move state tracking to Redis so `--retry-failed` works across pod restarts.
+- **Redis-backed batch state** -- state JSON is now copied to GCS after each batch, but mid-batch crashes still lose progress. Move state tracking to Redis for real-time persistence across pod restarts.
 - Reuses existing Redis instance from bundler infrastructure

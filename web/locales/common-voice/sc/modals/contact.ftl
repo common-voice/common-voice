@@ -6,3 +6,5 @@ contact-form-name =
 contact-form-message =
     .label = Messàgiu
 contact-required = *rechèdidu
+contact-form-success = Messàgiu imbiadu. Gràtzias!
+contact-form-error = Ddoe est istadu unu problema. Torra a proare.

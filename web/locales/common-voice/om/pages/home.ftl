@@ -84,7 +84,7 @@ read-more-about = Fuula Waa'ee keenya irratti bal'inaan dubbisaa
 ## NAV ITEMS
 
 answer-questions = Gaaffilee Deebisi
-review-transcriptions = Tiraanskriipshinii Gamaaggami
+review-transcriptions = Tiraaniskiriipshinii Gamaaggami
 add-questions = Gaaffii Dabalaa
 review-questions = Gaaffilee Gamaaggamaa
 transcribe-audio = Sagalee Barruutti Jijjiiri
@@ -137,7 +137,7 @@ answer = Deebisi
 
 ## Community section
 
-community-section-title-202601 = Hawaasa addunyaatiin kan humna qabu, hawaasa addunyaatiif — afaanota 290 fi guddachaa jiru!
+community-section-title-202601 = Hawaasa addunyaatiin kan humna qabu, hawaasa addunyaatiif — afaanota 290 fi guddachaa kan jiru!
 join-discord-community = Hawaasa Discord itti makamaa
 # label for button
 join-discord-community-action = Discord irratti nu waliin ta'aa
@@ -181,7 +181,7 @@ validate-readings-link = Dubbisawwan mirkaneessuu
 contribute-link = Korpas barruu keessatti gumaachaa
 answer-questions-link = Gaaffii deebisaa
 transcribe-answers-link = Deebii barreessi
-review-transcriptions-link = Tiraanskriipshiniiwwan gamaaggami
+review-transcriptions-link = Tiraaniskiriipshiniiwwan gamaaggami
 contribute-text-link = Barreeffama gumaachuu
 press-and-stories-link = Pireesii fi seenaa
 

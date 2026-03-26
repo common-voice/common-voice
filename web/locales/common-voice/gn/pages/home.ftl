@@ -135,6 +135,7 @@ answer = Ñembohovái
 
 ## Community section
 
+community-section-title-202601 = Ojapóva tekoha tuichaháicha, tekoha tuichaháichape g̃uarã: ¡ 290 ñe’ẽ ha rokakuaave!
 join-discord-community = Eike Discord atýpe
 # label for button
 join-discord-community-action = Ejuaju orerehe Discord-pe

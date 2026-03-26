@@ -21,7 +21,7 @@ record-error-uploaded-clip-corrupted =
     • Cufamuu network yeroo galmee sagalee gochuu
     Maaliif akka ta’e yaadadhu, sagalee irra deebiin galchuu yaali.
 record-cancel = Waraabbii irra deebii haqi.
-record-instruction = { $actionType } <recordIcon> </recordIcon> achiis sagalee olkaasuun himicha dubbisaa.
+record-instruction = <recordIcon> </recordIcon> { $actionType } achiis sagalee olkaasuun himicha dubbisi.
 record-stop-instruction = Yeroo fixxan { $actionType } <stopIcon> </stopIcon>
 record-three-more-instruction = Sadiitu hafa!
 record-again-instruction = Dansa! <recordIcon> </recordIcon> kiliippiiwwan itti aanan galmeessaa

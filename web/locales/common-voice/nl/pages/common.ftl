@@ -496,6 +496,21 @@ announcement-mdc-button-text = Aansluiten bij Mozilla Data Collective
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = Opent in een nieuw tabblad
 
+## Release Delay Announcement
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-delay = Beste gemeenschap, we werken momenteel aan de uitgave. We verwachten dat dit de komende dagen in delen wordt uitgerold op <mdcLink>Mozilla Data Collective</mdcLink>.
+
+## Release Announcement
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release = Beste gemeenschap, de nieuwe release is nu volledig beschikbaar op <mdcLink>Mozilla Data Collective</mdcLink>. Doe mee voor toegang tot meer dan 500 wereldwijde gegevenssets, gebouwd door en voor de gemeenschap.
+
+## Pre-Release Announcement (dates TBD)
+
+# Text wrapped in <cvDatasheetsLink></cvDatasheetsLink> will be rendered as an external link to the cv-datasheets GitHub repo
+announcement-pre-release = Beste gemeenschap, de tijd van uitgave nadert. Ga valideren en transcriberen, en bezoek ook de <cvDatasheetsLink>cv-datasheets</cvDatasheetsLink> om uw datasheet bij te werken.
+
 ## Common Language/Dataset Selector & SearchBox Related
 
 # Generic search box defaults

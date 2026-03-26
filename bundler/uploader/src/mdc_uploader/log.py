@@ -68,6 +68,22 @@ class ComponentLogger:
 logger = ComponentLogger()
 
 
+def get_log_file_path() -> str | None:
+    """Return the path of the active file handler, if any."""
+    root = logging.getLogger("mdc_uploader")
+    for handler in root.handlers:
+        if isinstance(handler, logging.FileHandler):
+            return handler.baseFilename
+    return None
+
+
+def flush_all() -> None:
+    """Flush all handlers on the mdc_uploader logger."""
+    root = logging.getLogger("mdc_uploader")
+    for handler in root.handlers:
+        handler.flush()
+
+
 def setup_logging(verbose: bool = False, log_file: str | None = None) -> None:
     """Configure logging with bundler-style formatting.
 

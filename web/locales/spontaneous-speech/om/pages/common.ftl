@@ -107,4 +107,4 @@ player-speed-fast-aria-label = Saffisa taphachuu saffisaa
 # Auto transcription mode button accessibility/aria label
 transcription-mode-auto-aria-label = Jecha jechaan ufmaan taphachuu jijjiiri
 # Mode menu button accessibility/aria label
-transcription-mode-menu-aria-label = Meenuu haalata tiraanskriipshinii jijjiiri
+transcription-mode-menu-aria-label = Meenuu haalata tiraaniskiriipshinii jijjiiri

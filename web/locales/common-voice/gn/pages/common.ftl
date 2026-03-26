@@ -494,6 +494,11 @@ announcement-mdc-button-text = Ejuaju Mozilla Mba’ekuaarã Aty ndive
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = Ijuruja ovetã pyahúpe
 
+## Release Delay Announcement
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-delay = Tekohápe g̃uarã jehai, ko’ág̃aite rupi romba’apohína ñemyasãirãme. Roha’ãrõhína ojeporúvo opa’ỹre ára oútavape <mdcLink>Mozilla Data Collective</mdcLink> rupive.
+
 ## Common Language/Dataset Selector & SearchBox Related
 
 # Generic search box defaults

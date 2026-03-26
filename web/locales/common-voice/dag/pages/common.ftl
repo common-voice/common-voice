@@ -496,6 +496,21 @@ announcement-mdc-button-text = Kpem Mozilla Data Collective
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = yooimi shijiri palli
 
+## Release Delay Announcement
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-delay = Ti laɣingu nima, saha ŋɔ, ti na maani la ti yoobahi kpanjɔɣu.
+
+## Release Announcement
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release = Yaa laɣingu nima, ti ni yɛn bahi lahabali kpanjɔɣu shɛli maa zaɣa muni yi pa bɛ <mdcLink>Mozilla Data Collective</mdcLink>. Kpɛma ka nyɛ sɔli din yɛn nya dunia zaa lahabaya mini kukɔya kpanjɔɣu din kalinli gari 500+ ka di nyɛla salo maa n namli n lahi zaŋ ti salo laɣansi maa.
+
+## Pre-Release Announcement (dates TBD)
+
+# Text wrapped in <cvDatasheetsLink></cvDatasheetsLink> will be rendered as an external link to the cv-datasheets GitHub repo
+announcement-pre-release = Yaa yinima laɣingu nima, ti yoobahi la saha miri ti a. Dimsuɣulo, cham n-ti dihitabili ka sabi, ka lahi chaŋ n-ti nyɛ <cvDatasheetsLink>cv-datasheets</cvDatasheetsLink> ka taɣi a "datasheet".
+
 ## Common Language/Dataset Selector & SearchBox Related
 
 # Generic search box defaults
