@@ -6,3 +6,5 @@ contact-form-name =
 contact-form-message =
     .label = Порука
 contact-required = *обавезно
+contact-form-success = Ваша порука је послата. Хвала вам!
+contact-form-error = Нешто је пошло наопако. Покушајте поново.

@@ -10,6 +10,12 @@ datasets-positioning =
     Shiheni këtë faqe si  një referencë për grupe të tjera të dhënash zanore me burim të hapët dhe, teksa Common Voice vazhdon të fuqizohet,si një shtëpi për përditësime të hedhjeve tona në qarkullim.
 # New/upcoming datasets page headline
 datasets-headline-mdc = Grupe të dhënash Mozilla Common Voice tani mund të merren përjashtimisht te Mozilla Data Collective.
+# New/upcoming datasets page headline text
+datasets-positioning-mdc =
+    Që me Common Voice 23.0, krejt grupet e të dhënave Common Voice mund të kihen vetëm përmes shkarkimi prej Mozilla Data Collective!
+    
+    Kjo faqe shërbim si një arkiv historik për versione të kaluar të grupeve të të dhënave Mozilla Common Voice. Hedhje në qarkullim te arkivi duhen përdorur vetëm në rast skenarësh specifikë pune kërkimore, për të respektuar vullnetin e atyre që kanë kërkuar që kontributet e tyre të përjashtohen.
+datasets-speech-bubble-content = Lajme ngazëlluese! Po vjen Spontaneous Speech! Na ndiqni për përditësime dhe mos harroni të shihni instancën tonë <discordLink>Discord</discordLink> për informacionet më të reja.
 language = Gjuhë
 download-dataset-header = Shkarkoni Grupin e të Dhënave
 download-delta-explainer = Kemi bërë disa ndryshime. Segmentet Delta tani përmbajnë copëzat më të freskëta që nga hedhja e fundit në qarkullim. <deltaLink>Lexoni më tepër rreth kësaj pune</deltaLink>.

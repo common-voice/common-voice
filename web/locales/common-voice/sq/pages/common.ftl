@@ -247,6 +247,21 @@ announcement-mdc-button-text = Ejani te Mozilla Data Collective
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = Hapet në skedë të re
 
+## Release Delay Announcement
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-delay = E dashur bashkësi, po punojmë për hedhje në qarkullim. Presim të dalë me pjesë gjatë ditëve të ardhshme, te <mdcLink>Mozilla Data Collective</mdcLink>.
+
+## Release Announcement
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release = E dashur bashkësi, hedhja e re në qarkullim tanimë është e plotë te <mdcLink>Mozilla Data Collective</mdcLink>. Ejani të përdorni mbi 500 grupe të dhënash globale, të ndërtuara nga bashkësia dhe për bashkësinë.
+
+## Pre-Release Announcement (dates TBD)
+
+# Text wrapped in <cvDatasheetsLink></cvDatasheetsLink> will be rendered as an external link to the cv-datasheets GitHub repo
+announcement-pre-release = E dashur bashkësi, po afron koha për hedhje në qarkullim. Ju lutemi, shkoni dhe vleftësoni dhe transkriptoni dhe vizitoni gjishtashtu <cvDatasheetsLink>cv-datasheets</cvDatasheetsLink> që të përditësoni grupin tuaj të të dhënave.
+
 ## Common Language/Dataset Selector & SearchBox Related
 
 # Generic search box defaults
@@ -254,6 +269,8 @@ searchbox-default-label = Filloni të shtypni që të kërkohet
 searchbox-default-placeholder = Kërkoni…
 searchbox-default-aria-label = Kërko
 dropdown-no-results = S’u gjet përkim
+# Common Voice Dataset=Language search box
+dataset-searchbox-label = Ndryshon si gjuhën në ekran, ashtu edhe atë të grupit të të dhënave
 dataset-searchbox-placeholder = Kërkoni për një gjuhë…
 dataset-searchbox-aria-label = Kërkoni për një gjuhë
 dataset-search-no-results = S’u gjet gjuhë me përkim

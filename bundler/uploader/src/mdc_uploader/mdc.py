@@ -179,12 +179,17 @@ class MDCClient:
         self,
         file_path: str,
         submission: DatasetSubmission,
+        state_path: str | None = None,
     ) -> tuple[str, bool]:
         """Step-by-step submission using the SDK's documented public API.
 
         Steps: (1) create draft, (2) upload file, (3) update metadata,
         (4) submit for review.  Each step has per-step error handling so
         we capture the submission_id and file_upload_id for recovery.
+
+        Args:
+            state_path: Where the SDK should write multipart upload state.
+                        When on a GCS-backed mount this survives pod eviction.
 
         Returns (submission_id, success).
         """
@@ -203,15 +208,67 @@ class MDCClient:
         # Step 2: Upload file
         logger.info("MDC", "Step 2/4: Uploading %s...", os.path.basename(file_path))
         try:
-            upload_state = upload_dataset_file(
-                file_path=file_path,
-                submission_id=submission_id,
-            )
+            upload_kwargs: dict[str, str] = {
+                "file_path": file_path,
+                "submission_id": submission_id,
+            }
+            if state_path is not None:
+                upload_kwargs["state_path"] = state_path
+            upload_state = upload_dataset_file(**upload_kwargs)
         except Exception as exc:
             _log_step_error("Step 2/4: Upload failed", exc, submission)
             raise OrphanedDraftError(
                 submission_id=submission_id,
                 message=f"Upload failed: {exc}",
+            ) from exc
+        file_upload_id: str = upload_state.fileUploadId
+        logger.info(
+            "MDC",
+            "Step 2/4: Upload complete (file_upload_id=%s)",
+            file_upload_id,
+        )
+
+        # Steps 3+4: Update metadata and submit
+        return self._finalize_submission(
+            submission_id,
+            file_upload_id,
+            submission,
+        )
+
+    def resume_and_upload(
+        self,
+        file_path: str,
+        submission: DatasetSubmission,
+        resume_state_path: str,
+        submission_id: str,
+    ) -> tuple[str, bool]:
+        """Resume a partially uploaded file and finalize the submission.
+
+        Skips step 1 (draft already exists). Step 2 resumes from SDK state
+        file -- only missing parts are uploaded. Steps 3-4 proceed as normal.
+        """
+        logger.info(
+            "MDC",
+            "Step 1/4: Skipped -- reusing existing draft %s",
+            submission_id,
+        )
+        logger.info(
+            "MDC",
+            "Step 2/4: Resuming upload of %s (state: %s)...",
+            os.path.basename(file_path),
+            resume_state_path,
+        )
+        try:
+            upload_state = upload_dataset_file(
+                file_path=file_path,
+                submission_id=submission_id,
+                state_path=resume_state_path,
+            )
+        except Exception as exc:
+            _log_step_error("Step 2/4: Resume upload failed", exc, submission)
+            raise OrphanedDraftError(
+                submission_id=submission_id,
+                message=f"Resume upload failed: {exc}",
             ) from exc
         file_upload_id: str = upload_state.fileUploadId
         logger.info(

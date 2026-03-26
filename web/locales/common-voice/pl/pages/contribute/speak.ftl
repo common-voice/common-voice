@@ -1,4 +1,5 @@
 speak = Mów
+speak-now = Mów teraz
 record-cta = Zacznij nagrywanie
 record-platform-not-supported = Przepraszamy, używany system nie jest obecnie obsługiwany.
 record-platform-not-supported-desktop = Na komputerze można pobrać najnowszą wersję:
@@ -37,4 +38,14 @@ review-delete-recordings = Usuń moje nagrania
 review-terms = Korzystając z Common Voice, zgadzasz się na <termsLink>warunki korzystania</termsLink> i <privacyLink>zasady ochrony prywatności</privacyLink>
 terms-agree = Zgadzam się
 terms-disagree = Nie zgadzam się
+why-donate = Dlaczego pytasz?
+add-information-button = Dodaj informacje
+continue-speaking-button = Nie, dziękuję. Kontynuuj mówienie.
 first-cta-gender-select-default-option = Wybierz opcję
+create-profile-button = Utwórz profil
+# menu item
+read-sentences = Przeczytaj zdania
+
+## MENU ITEM TOOLTIPS
+
+speak-contribute-menu-tooltip = Przeczytaj zdania i odpowiedz na pytania.

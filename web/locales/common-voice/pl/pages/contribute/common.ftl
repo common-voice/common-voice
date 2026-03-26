@@ -32,6 +32,7 @@ vote-no = Nie
 datasets = Zbiory danych
 languages = Języki
 about = Informacje
+partner = Partner
 submit-form-action = Wyślij
 
 ## Reporting
@@ -91,6 +92,8 @@ shortcut-vote-no = n
 ## Validation criteria
 
 contribution-criteria-nav = Kryteria
+contribution-for-example = na przykład
+contribution-background-noise-title = Hałas w tle
 contribution-background-voices-title = Głosy w tle
 contribution-background-voices-description = Cichy gwar w tle jest w porządku, ale nie chcemy dodatkowych głosów, które mogłyby spowodować, że algorytm maszynowy zidentyfikuje słowa, których nie ma w tekście. Jeśli słyszysz odrębne słowa poza tekstem, klip powinien zostać odrzucony. Zazwyczaj dzieje się tak, gdy telewizor jest włączony lub w pobliżu trwa rozmowa.
 contribution-volume-title = Głośność

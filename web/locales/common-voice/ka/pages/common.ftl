@@ -496,6 +496,21 @@ announcement-mdc-button-text = გვეწვიეთ – Mozilla Data Collect
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = გახსნის ახალ ჩანართში
 
+## Release Delay Announcement
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-delay = ჩვენი ერთობის ძვირფასო წევრებო, მიმდინარეობს გამოშვებაზე მუშაობა. მოსალოდნელია ნაწილობრივი გამოქვეყნება უახლოეს დღეებში, იხილეთ <mdcLink>Mozilla Data Colective</mdcLink>.
+
+## Release Announcement
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release = ჩვენი ერთობის ძვირფასო წევრებო, ახალი გამოშვება უკვე სრულია და მის სანახავად იხილეთ <mdcLink>Mozilla Data Collective</mdcLink>. შემოუერთდით, 500-ზე მეტ საერთაშორისო მონაცემთა კრებულთან წვდომისთვის, საზოგადოების მიერ შექმნილი საზოგადოებისვე საკეთილდღეოდ.
+
+## Pre-Release Announcement (dates TBD)
+
+# Text wrapped in <cvDatasheetsLink></cvDatasheetsLink> will be rendered as an external link to the cv-datasheets GitHub repo
+announcement-pre-release = ჩვენი ერთობის ძვირფასო წევრებო, გამოშვების დრო ახლოვდება. გთხოვთ მოასწროთ ჩანაწერების შემოწმება და ნაწერად ქცევა, ასევე ეწვიოთ <cvDatasheetsLink>cv-მონაცემთა ცხრილებს</cvDatasheetsLink> საკუთარის განსაახლებლად.
+
 ## Common Language/Dataset Selector & SearchBox Related
 
 # Generic search box defaults

@@ -1,13 +1,16 @@
-"""Tests for state.py -- BatchState and load_state_for_retry."""
+"""Tests for state.py -- BatchState, load_state_for_retry, save_logs_to_storage."""
 
 from __future__ import annotations
 
 import json
+import os
+from pathlib import Path
+from unittest.mock import patch
 
 import pytest
 
 from mdc_uploader.models import UploadResult
-from mdc_uploader.state import BatchState, load_state_for_retry
+from mdc_uploader.state import BatchState, load_state_for_retry, save_logs_to_storage
 
 
 class TestBatchState:
@@ -189,3 +192,104 @@ class TestLoadStateForRetry:
 
         with pytest.raises(ValueError, match="No failed locales"):
             load_state_for_retry(str(state_file))
+
+
+class TestSaveLogsToStorage:
+    """Tests for save_logs_to_storage."""
+
+    def _make_state(self, tmp_path: Path) -> BatchState:
+        """Create a BatchState with one recorded result."""
+        state = BatchState(
+            "cv-corpus-25.0-2026-03-09", "dev", "full", "/gcs", output_dir=str(tmp_path)
+        )
+        state.record(
+            UploadResult(
+                locale="en", status="success", size_bytes=100, duration_seconds=1.0, attempts=1
+            )
+        )
+        return state
+
+    def test_copies_log_and_state_to_local_dir(self, tmp_path: Path) -> None:
+        """Both log file and state JSON are copied to <base-dir>/<release>/upload-logs/."""
+        base_dir = str(tmp_path / "storage")
+        os.makedirs(base_dir)
+        state = self._make_state(tmp_path)
+
+        # Create a fake log file and mock get_log_file_path to return it
+        log_file = tmp_path / "test.log"
+        log_file.write_text("some log content")
+
+        with (
+            patch("mdc_uploader.log.get_log_file_path", return_value=str(log_file)),
+            patch("mdc_uploader.log.flush_all"),
+        ):
+            save_logs_to_storage(base_dir, "cv-corpus-25.0-2026-03-09", state)
+
+        dest_dir = Path(base_dir) / "cv-corpus-25.0-2026-03-09" / "upload-logs"
+        assert dest_dir.is_dir()
+        assert (dest_dir / "test.log").read_text() == "some log content"
+        assert (dest_dir / os.path.basename(state.state_path)).exists()
+
+    def test_no_files_to_save_is_noop(self, tmp_path: Path) -> None:
+        """Does nothing when log file and state file do not exist."""
+        state = self._make_state(tmp_path)
+        # Remove the state file so there's nothing to save
+        os.unlink(state.state_path)
+
+        with (
+            patch("mdc_uploader.log.get_log_file_path", return_value=None),
+            patch("mdc_uploader.log.flush_all"),
+        ):
+            # Should not raise
+            save_logs_to_storage("/nonexistent", "cv-corpus-25.0-2026-03-09", state)
+
+    def test_gcs_mode_uses_posix_paths(self, tmp_path: Path) -> None:
+        """GCS mode calls gcs_upload_file with POSIX-style blob paths."""
+        state = self._make_state(tmp_path)
+        log_file = tmp_path / "test.log"
+        log_file.write_text("log data")
+
+        uploaded: list[tuple[str, str, str]] = []
+
+        def fake_upload(
+            uri: str, blob_path: str, local: str, client: object = None
+        ) -> None:
+            uploaded.append((uri, blob_path, local))
+
+        mock_client = type("FakeClient", (), {})()
+
+        with (
+            patch("mdc_uploader.log.get_log_file_path", return_value=str(log_file)),
+            patch("mdc_uploader.log.flush_all"),
+            patch("mdc_uploader.gcs.is_gcs_uri", return_value=True),
+            patch("mdc_uploader.gcs.gcs_upload_file", side_effect=fake_upload),
+            patch("google.cloud.storage.Client", return_value=mock_client),
+        ):
+            save_logs_to_storage("gs://bucket", "cv-corpus-25.0-2026-03-09", state)
+
+        assert len(uploaded) == 2
+        for _, blob_path, _ in uploaded:
+            # All path separators must be forward slashes (POSIX)
+            assert "\\" not in blob_path
+            assert blob_path.startswith("cv-corpus-25.0-2026-03-09/upload-logs/")
+
+    def test_copy_failure_is_nonfatal(self, tmp_path: Path) -> None:
+        """A copy failure logs a warning but does not raise."""
+        state = self._make_state(tmp_path)
+        log_file = tmp_path / "test.log"
+        log_file.write_text("log data")
+
+        # Point base_dir to a read-only location
+        read_only_dir = str(tmp_path / "readonly")
+        os.makedirs(read_only_dir)
+        os.chmod(read_only_dir, 0o444)
+
+        try:
+            with (
+                patch("mdc_uploader.log.get_log_file_path", return_value=str(log_file)),
+                patch("mdc_uploader.log.flush_all"),
+            ):
+                # Should not raise despite permission error
+                save_logs_to_storage(read_only_dir, "cv-corpus-25.0-2026-03-09", state)
+        finally:
+            os.chmod(read_only_dir, 0o755)

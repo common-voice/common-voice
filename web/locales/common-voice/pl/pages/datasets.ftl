@@ -40,6 +40,8 @@ subscribe = Subskrybuj
 get-started-speech = Poznaj rozpoznawanie mowy
 other-datasets = Inne zbiory danych
 feedback-q = Masz sugestie?
+# This indicates that there is no data to display
+no-information = Brak informacji
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ to <docsLink>zestaw narzędzi open source</docsLink> dla naukowców rozwijających najnowocześniejsze konwersacyjne modele sztucznej inteligencji.
 resource-deepspeech-info = Mechanizm rozpoznawania mowy open source o nazwie Deep Speech od Mozilli może być używany do tworzenia aplikacji rozpoznających mowę. Przeczytaj <githubLink>podsumowanie w serwisie GitHub</githubLink> lub dołącz do <discourseLink>DeepSpeech w serwisie Discourse</discourseLink>, aby dowiedzieć się, jak zacząć.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> jest poświęcony otwartym technologiom mowy. Ich projekty obejmują mechanizmy rozpoznawania i syntezy mowy oparte na głębokim uczeniu.
@@ -62,6 +64,7 @@ dataset-metadata-sex = Płeć
 # dataset metadata - age of contributor
 dataset-metadata-age = Wiek
 donate-modal-message = Trwa pobieranie zestawu danych!
+dataset-donate-modal-heading = Czy wiesz, że…
 data-download-singleword-title = Pobierz segment docelowy dla pojedynczego słowa
 data-download-singleword-callout-v2 = To segment przeznaczony do konkretnego użytku, zawierający dane wspomagające rozpoznawanie wymawianych cyfr i wykrywanie tak/nie.
 data-download-button = Pobierz dane Common Voice
@@ -81,6 +84,9 @@ release-version = Wersja
 dataset-date = Data
 license = Licencja: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mieszana
+# Support old genders in older datasets
+male = Mężczyzna
+female = Kobieta
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = Pobierz nasze zbiory danych głosowych
 datasets-show-more = Wyświetl wszystkie zbiory danych

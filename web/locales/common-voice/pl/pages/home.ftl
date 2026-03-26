@@ -98,6 +98,8 @@ get-started = Zaczynamy <ikona><ikona>
 action-items-section-title = Common Voice to darmowa platforma open source do tworzenia danych przez społeczność
 action-items-section-subtitle = Każdy może zachować, ożywić i podnieść rangę swojego języka poprzez udostępnianie, tworzenie i zarządzanie zbiorami danych tekstowych i mowy.
 coming-soon = Wkrótce
+add-text = Dodaj tekst
+answer = Odpowiedź
 
 ## Community section
 

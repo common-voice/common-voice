@@ -5,6 +5,23 @@ const TMP_DIR = '/cache'
 
 export type LogLevel = 'debug' | 'info' | 'warn' | 'error' | 'silent'
 
+/**
+ * CLI verbosity levels controlling both log output and subprocess output.
+ *
+ * - quiet:   LogLevel warn  -- warnings/errors only, all subprocess output suppressed
+ * - normal:  env default    -- standard operation (default)
+ * - verbose: LogLevel debug -- subprocess stderr streamed live
+ * - debug:   LogLevel debug -- full subprocess stdout + stderr, tqdm enabled
+ */
+export type Verbosity = 'quiet' | 'normal' | 'verbose' | 'debug'
+
+export const VERBOSITY_CHOICES: readonly Verbosity[] = [
+  'quiet',
+  'normal',
+  'verbose',
+  'debug',
+] as const
+
 export type DbConfig = {
   host: string
   port: number

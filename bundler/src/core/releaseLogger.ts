@@ -21,6 +21,16 @@ const PROCESS_LOG_HEADER =
   'locale\trelease_type\tfinal_path\tstart_timestamp\tfinish_timestamp\tduration_sec\tduration\tnum_clips\tspeed\tstatus\tproblem_clips\terror_message'
 
 
+/**
+ * Formats an ISO timestamp into a compact filename-safe suffix: YYYYMMDDTHHmmss.
+ * Falls back to current time if the input is nullish or an invalid date string.
+ */
+export const formatRunTimestamp = (isoTimestamp?: string | null): string => {
+  const parsed = isoTimestamp ? new Date(isoTimestamp) : null
+  const d = parsed && !isNaN(parsed.getTime()) ? parsed : new Date()
+  return d.toISOString().replace(/[-:]/g, '').slice(0, 15) // YYYYMMDD-HHmmss -> "20260322T143005"
+}
+
 /** Width of the ASCII progress bar (in characters). */
 const BAR_WIDTH = 100
 
@@ -72,8 +82,10 @@ export const buildProcessLogRow = (
  * 3. Emits a two-line progress summary for every completed job.
  * 4. Every `RELEASE_LOG_FLUSH_INTERVAL` completions, and when count reaches the
  *    total stored by the init job, uploads snapshots of both lists to GCS:
- *      `<releaseName>/logs/problem-clips.tsv`
- *      `<releaseName>/logs/process-log.tsv`
+ *      `<releaseName>/logs/problem-clips-<runTs>.tsv`
+ *      `<releaseName>/logs/process-log-<runTs>.tsv`
+ *    where `<runTs>` is a compact UTC timestamp derived from `timeStart`
+ *    (e.g. `20260322T143000`), ensuring batch re-runs don't overwrite each other.
  *
  * Because Redis INCR is atomic, exactly one pod triggers each flush --
  * no distributed lock needed.
@@ -159,12 +171,15 @@ export const flushReleaseLogs = async (
     }
     if (!isFinal && !isCountTrigger && !isTimeTrigger) return
 
-    // 6. Flush problem-clips snapshot to GCS (only when the list is non-empty).
+    // 6. Build unique log filename suffix from run start time.
+    const runTs = formatRunTimestamp(timeStartStr)
+
+    // 7. Flush problem-clips snapshot to GCS (only when the list is non-empty).
     const pcRows = await redisClient.lrange(redisKeys.problemClips(releaseName), 0, -1)
     if (pcRows.length > 0) {
       const pcTsv = [PROBLEM_CLIPS_HEADER, ...pcRows].join('\n') + '\n'
       await uploadToDatasetBucket(
-        `${releaseName}/logs/problem-clips.tsv`,
+        `${releaseName}/logs/problem-clips-${runTs}.tsv`,
       )(Buffer.from(pcTsv, 'utf-8'))()
       logger.info(
         'RELEASE-LOGGER',
@@ -172,11 +187,11 @@ export const flushReleaseLogs = async (
       )
     }
 
-    // 7. Flush process-log snapshot to GCS.
+    // 8. Flush process-log snapshot to GCS.
     const logRows = await redisClient.lrange(logKey, 0, -1)
     const logTsv = [PROCESS_LOG_HEADER, ...logRows].join('\n') + '\n'
     await uploadToDatasetBucket(
-      `${releaseName}/logs/process-log.tsv`,
+      `${releaseName}/logs/process-log-${runTs}.tsv`,
     )(Buffer.from(logTsv, 'utf-8'))()
     logger.info(
       'RELEASE-LOGGER',
@@ -188,7 +203,7 @@ export const flushReleaseLogs = async (
     await redisClient.set(redisKeys.lastFlush(releaseName), new Date().toISOString())
     await redisClient.expire(redisKeys.lastFlush(releaseName), RELEASE_LOG_KEY_TTL_SEC)
 
-    // 8. Print FINISHED summary when all jobs are done.
+    // 9. Print FINISHED summary when all jobs are done.
     if (total > 0 && count === total) {
       const elapsedMs = timeStartStr
         ? new Date(finishTimestamp).getTime() - new Date(timeStartStr).getTime()
@@ -217,7 +232,7 @@ export const flushReleaseLogs = async (
       )
       logger.info('', '== == == == == == == == == == == == == == == == == == ==')
 
-      // 9. End-of-run cleanup, gated on pending groups counter.
+      // 10. End-of-run cleanup, gated on pending groups counter.
       //    In --license-mode both, there are 2 groups (base + licensed) with
       //    independent counters. Only the last group to finish runs cleanup.
       const baseRelease = toBaseReleaseName(releaseName)
@@ -278,11 +293,14 @@ export const forceFlushLogs = async (releaseName: string): Promise<void> => {
 
   for (const name of names) {
     try {
+      const timeStartStr = await redisClient.get(redisKeys.timeStart(name))
+      const runTs = formatRunTimestamp(timeStartStr)
+
       const pcRows = await redisClient.lrange(redisKeys.problemClips(name), 0, -1)
       if (pcRows.length > 0) {
         const pcTsv = [PROBLEM_CLIPS_HEADER, ...pcRows].join('\n') + '\n'
         const pcResult = await uploadToDatasetBucket(
-          `${name}/logs/problem-clips.tsv`,
+          `${name}/logs/problem-clips-${runTs}.tsv`,
         )(Buffer.from(pcTsv, 'utf-8'))()
         if (pcResult._tag === 'Right') {
           logger.info(
@@ -301,7 +319,7 @@ export const forceFlushLogs = async (releaseName: string): Promise<void> => {
       if (logRows.length > 0) {
         const logTsv = [PROCESS_LOG_HEADER, ...logRows].join('\n') + '\n'
         const logResult = await uploadToDatasetBucket(
-          `${name}/logs/process-log.tsv`,
+          `${name}/logs/process-log-${runTs}.tsv`,
         )(Buffer.from(logTsv, 'utf-8'))()
         if (logResult._tag === 'Right') {
           logger.info(

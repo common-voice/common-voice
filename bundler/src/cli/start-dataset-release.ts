@@ -1,7 +1,7 @@
 import 'dotenv/config'
 import { program, Option } from 'commander'
 import { Queue } from 'bullmq'
-import { getRedisUrl } from '../config'
+import { getRedisUrl, VERBOSITY_CHOICES } from '../config'
 import type { Settings } from '../types'
 
 const startDatasetRelease = async (args: any) => {
@@ -65,6 +65,7 @@ const startDatasetRelease = async (args: any) => {
     licenseMode: args.licenseMode || 'unlicensed',
     datasheetsFile: args.datasheetsFile,
     force: args.force || false,
+    verbosity: args.verbosity || 'normal',
   }
 
   const queue = new Queue('datasetRelease', {
@@ -144,6 +145,20 @@ program
     )
       .choices(['unlicensed', 'licensed', 'both'])
       .default('unlicensed'),
+  )
+  .addOption(
+    new Option(
+      '--verbosity <level>',
+      `
+    Control output verbosity and subprocess log detail:
+    - 'quiet':   Warnings and errors only; all subprocess output suppressed
+    - 'normal':  Standard operation (default)
+    - 'verbose': Debug-level logs + subprocess stderr streamed live
+    - 'debug':   All output including subprocess stdout, tqdm progress bars
+    `,
+    )
+      .choices([...VERBOSITY_CHOICES])
+      .default('normal'),
   )
   .action(startDatasetRelease)
 

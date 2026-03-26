@@ -57,7 +57,7 @@ There are two `--force` variants depending on whether `-l` is also passed:
 
 The init handler performs a complete reset:
 
-1. **Force-flushes logs** -- any accumulated problem-clips and process-log rows from the previous (potentially bad) run are uploaded to GCS before being destroyed. Covers all release name variants (base, `-licensed`, `-variants`).
+1. **Force-flushes logs** -- any accumulated problem-clips and process-log rows from the previous (potentially bad) run are uploaded to GCS before being destroyed. Log filenames include a run timestamp (e.g. `process-log-20260322T143005.tsv`), so previous runs are preserved. Covers all release name variants (base, `-licensed`, `-variants`).
 2. **Obliterates the BullMQ queue** -- removes ALL jobs (active, waiting, delayed, completed, failed) via `queue.obliterate({ force: true })`. The queue is resumed immediately after.
 3. **Clears Redis state** -- deletes ALL entries in the done SET(s) and processing HASH(es) for the release.
 4. **Queue pre-filter** is skipped entirely -- all locales are scheduled regardless of state.
@@ -125,11 +125,12 @@ bundler/
 │   │   ├── database.ts             # MySQL connection
 │   │   ├── datasheetsFetcher.ts    # Fetch pre-compiled datasheets JSON
 │   │   ├── filesystem.ts           # Filesystem helpers (checksum, line count, tar extract)
-│   │   ├── logger.ts               # Structured logger (levels: debug/info/warn/error/silent)
+│   │   ├── lineStream.ts            # Partial-line buffering helper for subprocess data events
+│   │   ├── logger.ts               # Structured logger (levels + verbosity: quiet/normal/verbose/debug)
 │   │   ├── mp3DurationReporter.ts  # Rust binary wrapper for MP3 duration
 │   │   ├── queue.ts                # BullMQ queue setup
 │   │   ├── redis.ts                # Shared ioredis client
-│   │   ├── storage.ts              # Google Cloud Storage adapter (32 MB upload chunks)
+│   │   ├── storage.ts              # Google Cloud Storage adapter (256 MB upload chunks)
 │   │   └── tar.ts                  # tar extraction (file-based and stream-based)
 │   ├── test-helpers/
 │   │   └── tsv.ts              # Shared TSV serialisation helpers for tests
@@ -170,8 +171,8 @@ cv-corpus-25.0-2026-03-06/
 │   ├── cv-datasheet-25.0-2026-03-06-tr.md
 │   └── ...
 └── logs/
-    ├── problem-clips.tsv    # clips excluded or flagged during processing
-    └── process-log.tsv      # one row per locale: duration, clip count, speed, status
+    ├── problem-clips-20260322T143005.tsv   # clips excluded or flagged during processing
+    └── process-log-20260322T143005.tsv     # one row per locale: duration, clip count, speed, status
 ```
 
 Each locale `.tar.gz` contains a `README.md` (the datasheet) alongside the clip and sentence files.
@@ -191,8 +192,8 @@ cv-corpus-25.0-2026-03-06-variants/
 │   ├── cv-metadata-25.0-2026-03-06-cy-southwes.tar.gz
 │   └── ...
 └── logs/
-    ├── problem-clips.tsv
-    └── process-log.tsv
+    ├── problem-clips-20260322T143005.tsv
+    └── process-log-20260322T143005.tsv
 ```
 
 ---
@@ -210,6 +211,23 @@ Line 1: space-padded percentage + 100-char bar.
 Line 2: locale tag, metrics.
 Progress is clip-based so the bar advances proportionally to actual audio processed.
 Status tags: `ok`/`er`/`sk` for success, error, or skip.
+
+---
+
+## Verbosity
+
+The `--verbosity` CLI flag controls both the logger output level and how subprocess output (CorporaCreator, mp3-duration-reporter, tar, wc/tail, prune script) is handled. It travels through BullMQ job data and is applied at job start via `applyVerbosity()`.
+
+| Level     | Log level   | CC stdout | CC stderr       | Other subprocesses            |
+| --------- | ----------- | --------- | --------------- | ----------------------------- |
+| `quiet`   | `warn`      | drained   | suppressed      | stderr demoted to debug       |
+| `normal`  | env default | drained   | on failure only | stderr as warn (default)      |
+| `verbose` | `debug`     | drained   | streamed live   | stderr streamed as debug      |
+| `debug`   | `debug`     | streamed  | streamed live   | stderr streamed               |
+
+When `--verbosity` is not `normal`, it overrides the `LOG_LEVEL` environment variable. The verbosity state is stored in `logger.ts` alongside `currentLevel` and is read by subprocess handlers via `getVerbosity()`.
+
+In `debug` mode, `TQDM_DISABLE` is not set and CorporaCreator's own `print()` output is visible. This reveals progress information that is normally suppressed.
 
 ---
 
@@ -236,7 +254,9 @@ npx jest src/core/datasheets.e2e.test.ts        # e2e (skipped in CI; requires n
 | `src/core/stats.test.ts`                       | `unitToHours` conversion, `buildLocale` mapping from `LocaleReleaseData`                        |
 | `src/core/utils.test.ts`                       | `countLinesInFile`, `unitToHours`, `formatDuration`, `renderBar`, `formatCompact`, `formatEta`  |
 | `src/infrastructure/datasheetsFetcher.test.ts` | Local file loading, modality mapping, error recovery                                            |
-| `src/worker/processor.test.ts`                 | Job environment derivation, `uploadPath` precomputation, `--force` passthrough                  |
+| `src/infrastructure/lineStream.test.ts`        | Partial-line buffering, multi-chunk assembly, flush, empty-line skipping                        |
+| `src/infrastructure/logger.test.ts`            | `applyVerbosity` log-level mapping, `getVerbosity` state, output suppression/promotion          |
+| `src/worker/processor.test.ts`                 | Job environment derivation, `uploadPath` precomputation, `--force`/`--verbosity` passthrough    |
 | `src/worker/processVariants.test.ts`           | Variant clip/duration filtering, env derivation, locale column rewriting                        |
 
 ---
