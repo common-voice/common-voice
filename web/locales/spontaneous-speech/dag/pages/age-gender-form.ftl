@@ -1,12 +1,12 @@
 # Age and Gender form
 age-gender-form-title = Ni a kpaŋmaŋa a ni niŋ tɔɣano yɛltɔɣa ŋɔ ni
-age-gender-form-subtile = A yi yɛli ti zaŋ kpa a ni nyɛ so polo, di ni sɔŋ ka ba ban mɛri tabiibi baŋsima tanzahi me tanza' maŋa
+age-gender-form-subtile = A yi n-ti ti lahibali zaŋ chaŋ a ni n-nyɛ ninvuɣ' so polo, a sɔŋla ban m maalindi tabibitabibi maʒina din nyɛ daadam bia kam ni ni tooi n-zaŋ shɛli n-tum tuma la
 add-information-button = Pahimi lahabali
 continue-speaking-button = Tuɣimi yɛligu
-age-select-label = A yuma nyɛla ala
+age-select-label = A yuma ala?
 select-your-age = Piimi a yuma
 gender-select-label = A nyɛla doo bee paɣa
-select-your-gender = piima a nyɛla doo bee paɣa
+select-your-gender = piimi a ni n-nyɛ ninvuɣ' so, doo bee paɣa
 country-of-residence-label = A ya/bɔbili shɛli a ni be
 country-of-residence-placeholder =
     .placeholder = kpɛhimi a ya bee/bɔbili shɛli ani be

@@ -1,6 +1,6 @@
 ## Request Language Pages
 
-request-language-heading = bɔhimi nya balli palli
+request-language-heading = bɔhimi bal' palli yɛla
 request-language-form-email =
     .label = A iimaili Taliŋ adaka
 request-language-form-info =
