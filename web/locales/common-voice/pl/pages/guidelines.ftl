@@ -11,6 +11,7 @@ public-domain = Domena publiczna
 
 ## Sentence collection sidebar content
 
+citing-sentences-subheader-offline-sources = Materiały offline
 adding-sentences-subheader-length = Długość
 adding-sentences-subheader-length-explanation = Zdanie powinno zawierać mniej niż 15 słów.
 adding-sentences-subheader-numbers = Liczby
