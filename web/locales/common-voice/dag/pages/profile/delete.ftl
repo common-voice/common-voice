@@ -1,6 +1,6 @@
 ## Profile Delete
 
-delete-q = A ni bɔri ni  a kukoli yaabu gba nyahi, bee a bɔri ni a che li niŋ Common Voice dataset ni?
-keep = Gbubba
+delete-q = A gba bɔri ni a suhi soli ka kɔko' shɛŋa a ni n yaagi la nyahi, bee a suhu yuya ni di m-be Common Voice kpanjɔɣu la puuni?
+keep = Gbubibu
 remove = Yihima
-profile-form-delete = Nyahimi Profile
+profile-form-delete = Nyahimi maŋmaŋa lahibali jia
