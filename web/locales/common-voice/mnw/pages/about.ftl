@@ -70,10 +70,13 @@ about-playbook-how-add-language-translating-content-2 = သွက်ပရေၚ
 about-playbook-how-add-language-collecting-sentences-heading = ပကောံဒၟံၚ် ဝါကျ
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo\>ဗဵုရံၚ် နဲကဲစၞောန်ထ္ၜး စပ်ကဵု ဗီုဂွံသုၚ်စောဲ ကိရိယာပကောံဝါကျ ညိ</sentenceCollectorVideo\>။
 about-playbook-how-add-language-collecting-sentences-content-2 = မၞး <sentenceCollectorLinkAdd\>ထပ်စုတ် ဝါကျ နကဵု လၟိဟ်အောန်အောန်</sentenceCollectorLinkAdd\> မာန်ရ၊ ဟွံသေၚ်မ္ဂး မၞး <bulkImportDocsLink\>ပၠုပ်စုတ် လၟိဟ်ဂၠိုၚ်ဂၠိုၚ် နကဵု ဂေတ်ဟပ် (Github)</bulkImportDocsLink\> မာန်ရ။ သမ္တီလဝ်ညိ ဒဒှ်ရ ဝါကျတအ်ဂှ် သ္ဒးဒှ် <licenseLink\>CC0 (ဟွံသေၚ်မ္ဂး ဒြပ်ညးဂမၠိုၚ်)\</licenseLink\> ရ၊ ဟွံသေၚ်မ္ဂး မၞး ချူကေတ် နကဵု အလဵုအလဵုမၞးမာန်ရ။
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>ဆက်လ္ၚတ် ပရူပရာ ပရေၚ်ပကောံပကေဝ် ဝါကျ ညိ</sentenceCollectorFragment>။
 
 ## How does localization work
 
 about-playbook-how-localize = ဗီုလဵု ဂွံကၠာဲဘာသာ ဝေပ်သာက်ရော?
+about-playbook-how-localize-content-1 = ပရေၚ်ကၠာဲဘာသာ ဝေပ်ဆာက် Common Voice ဂှ် ကၠောန်ဒၟံၚ် လ္တူ <strong> Pontoon </strong> ရ။
+about-playbook-how-localize-content-2 = ယဝ်ခါရ မၞး အကံက်ဟွံမွဲဏီမ္ဂး <pontoonAccountLink>ခၞံဗဒှ်ထောံအကံက်မွဲညိ</pontoonAccountLink>။ တုဲမ္ဂး ရုဲစှ် အရေဝ်ဘာသာမၞး <strong>('ဂကောံ')</strong> တုဲပၠန် ဆက်ရုဲစှ်အာ ပရဝ်ဂျေတ်၊ <pontoonCvLink>Common Voice</pontoonCvLink> ညိ။ ဝှာၚ်သွက်ဂွံကၠာဲဘာသာတအ် နွံဒၟံၚ်ရောၚ်။ ဍဵုကေတ်မွဲညိ၊ တုဲမ္ဂး ဍေံထ္ၜးကဵု မအရေဝ်ဘာသာအၚ်္ဂလိက် ကေုာံ ဒၞာဲသွက်ဂွံတက်ကၠာဲစုတ်ဘာသာတအ်ဂှ်ရ။
 about-playbook-how-localize-content-5 = သွက်ဂွံဘိုၚ်ရီုဂှ် ဗဵုကေတ် ဗဳဒဳယိုသောၚ်ထ္ၜး ပိုဲညိ။
 
 ## How to add sentences
