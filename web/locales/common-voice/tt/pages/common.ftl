@@ -496,6 +496,11 @@ announcement-mdc-button-text = Mozilla Data Collective проектына куш
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = Яңа табта ачыла
 
+## Release Delay Announcement
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-delay = Хөрмәтле җәмгыять, без әле релиз ясау белән мәшгуль. Без релизның киләсе берничә көн эчендә, өлешләп-өлешләп, <mdcLink>Mozilla Data Collective</mdcLink> платформасында тәмамланыр дип өметләнәбез.
+
 ## Common Language/Dataset Selector & SearchBox Related
 
 # Generic search box defaults

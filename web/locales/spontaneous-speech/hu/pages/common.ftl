@@ -26,6 +26,10 @@ contribute = Közreműködés
 # Button text which appears when there are no more resources
 continue-with-skipped = Folytatás a kihagyottakkal
 
+## Common aria-labels
+
+keyboard-shortcuts-button-aria-label = Gyorsbillentyűk megjelenítése
+
 ## Navbar
 
 question = Kérdés
@@ -53,3 +57,54 @@ language-search-placeholder = Nyelv keresése…
 language-search-aria-label = Nyelv keresése
 language-search-label = Csak az adatkészlet közreműködési nyelvét módosítja
 language-search-no-results = Nem találhatók nyelvek
+
+## Transcription Player - Mode Buttons
+
+# Transcription Player - Automatic Mode
+transcription-mode-auto = Automatikus
+# Player - slower
+player-speed-slow = Lassú
+# Player - normal speed
+player-speed-normal = Normál
+# Player - faster
+player-speed-fast = Gyors
+
+## Transcription Player Controls - Keyboard Shortcuts
+
+# Player control shortcut for play/pause: pressed with Ctrl/Cmd
+player-play-pause-shortcut = p
+player-play-pause-shortcut-key = Ctrl / Cmd + P
+player-play-pause-shortcut-name = Lejátszás / szüneteltetés
+# Player control shortcut to go back 5 seconds: pressed with Ctrl/Cmd
+player-skip-backward-shortcut = 8
+player-skip-backward-shortcut-key = Ctrl / Cmd + 8
+player-skip-backward-shortcut-name = Visszafelé
+# Player control shortcut to go forwards 5 seconds: pressed with Ctrl/Cmd
+player-skip-forward-shortcut = 9
+player-skip-forward-shortcut-key = Ctrl / Cmd + 9
+player-skip-forward-shortcut-name = Előre
+
+## Transcription Player - Aria Labels
+
+# Play button accessibility/aria label
+player-play-button-aria-label = Hang lejátszása
+# Pause button accessibility/aria label
+player-pause-button-aria-label = Hang szüneteltetése
+# Skip back button accessibility/aria label
+player-skip-backward-aria-label = Ugrás visszafelé 5 másodperccel
+# Skip forward button accessibility/aria label
+player-skip-forward-aria-label = Ugrás előre 5 másodperccel
+# Audio playback progress slider accessibility/aria label
+player-progress-slider-aria-label = Hanglejátszás előrehaladási csúszkája
+# Toggle speed and transcription mode menu button
+player-toggle-mode-menu-aria-label = Mód menü be/ki
+# Slower playback speed button accessibility/aria label
+player-speed-slow-aria-label = Lassabb lejátszási sebesség
+# Normal playback speed button accessibility/aria label
+player-speed-normal-aria-label = Normál lejátszási sebesség
+# Faster playback speed button accessibility/aria label
+player-speed-fast-aria-label = Gyorsabb lejátszási sebesség
+# Auto transcription mode button accessibility/aria label
+transcription-mode-auto-aria-label = Automatikus szavankénti lejátszás be/ki
+# Mode menu button accessibility/aria label
+transcription-mode-menu-aria-label = Leiratozási mód menü be/ki

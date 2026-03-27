@@ -1,4 +1,5 @@
 add-information-button = Мәгълүмат өстәү
+age-select-label = Сезгә ничә яшь?
 select-your-age = Яшегезне сайлагыз
 why-are-you-asking = Ни өчен сорыйсыз?
 thank-you-for-your-information = Мәгълүматыгыз өчен рәхмәт
