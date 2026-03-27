@@ -11,6 +11,7 @@ country-of-residence-label = A ya/bɔbili shɛli a ni be
 country-of-residence-placeholder =
     .placeholder = kpɛhimi a ya bee/bɔbili shɛli ani be
 why-are-you-asking = Bɔzuɣu ka a bɔhira?
+why-are-you-asking-explanation = Lahibali ŋɔ nŋɛla piibu zaŋ ntaa-ani tooi pahi shɛli din dee yi ka muɣisigu ntaa.Ti nim dee yi bahi lahibali shɛli din nyɛ a dini,kpaŋmi a maŋa ka a niŋ ni nyambo din wuhi ni a suhi piɛla pirinla a yuli mini a sodoligu dundɔŋ kpɛrili ni naai noli ni a lahibali ni a yuma bee ni ni paɣa bee doo la.Poi ka tabiibi baŋsim yan tum tuma n ti sokam zaa,tuma din puun tumdaya ka suŋdi ban myɛra ni bi mye tabiibi baŋsim tuya ni bi yuli gbaai sochibi shɛŋa niribi ni doli.Bohammi yala pam din che ka metadata niŋ talahi ti.
 thank-you-for-your-information = M paɣiya ni a ni ti lahabali shɛli maa
 
 ## Gender dropdown
