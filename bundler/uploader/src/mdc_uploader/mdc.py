@@ -34,6 +34,7 @@ from mdc_uploader.constants import (
 )
 from mdc_uploader.log import logger
 from mdc_uploader.models import ReleaseSpec
+from mdc_uploader.streaming import stream_upload_from_gcs
 
 # -- Override SDK default part size --------------------------------------------
 # The MDC API does not return partSize in the initiate response, so the SDK
@@ -221,6 +222,67 @@ class MDCClient:
         logger.info(
             "MDC",
             "Step 2/4: Upload complete (file_upload_id=%s)",
+            file_upload_id,
+        )
+
+        # Steps 3+4: Update metadata and submit
+        return self._finalize_submission(
+            submission_id,
+            file_upload_id,
+            submission,
+        )
+
+    def stream_and_upload(
+        self,
+        bucket_name: str,
+        blob_path: str,
+        submission: DatasetSubmission,
+        state_path: str,
+    ) -> tuple[str, bool]:
+        """Stream upload from GCS: draft -> stream -> metadata -> submit.
+
+        Uses GCS range reads instead of downloading to a temp file.
+        Steps: (1) create draft, (2) stream upload, (3) update metadata,
+        (4) submit for review.
+
+        Returns (submission_id, success).
+        """
+        # Step 1: Create draft
+        logger.info("MDC", "Step 1/4: Creating draft submission...")
+        try:
+            draft = create_submission_draft(submission)
+        except Exception as exc:
+            _log_step_error("Step 1/4: Draft creation failed", exc, submission)
+            raise
+        submission_id: str = draft.get("submission", {}).get("id", "")
+        if not submission_id:
+            raise RuntimeError("Draft creation did not return a submission ID")
+        logger.info("MDC", "Step 1/4: Draft created (submission_id=%s)", submission_id)
+
+        # Step 2: Stream upload from GCS
+        logger.info(
+            "MDC",
+            "Step 2/4: Streaming gs://%s/%s...",
+            bucket_name,
+            blob_path,
+        )
+        try:
+            upload_state = stream_upload_from_gcs(
+                bucket_name=bucket_name,
+                blob_path=blob_path,
+                submission_id=submission_id,
+                state_path=state_path,
+            )
+        except Exception as exc:
+            _log_step_error("Step 2/4: Stream upload failed", exc, submission)
+            raise OrphanedDraftError(
+                submission_id=submission_id,
+                message=f"Stream upload failed: {exc}",
+            ) from exc
+        file_upload_id: str = upload_state.fileUploadId
+        logger.info(
+            "MDC",
+            "Step 2/4: Stream upload complete (file_upload_id=%s)",
             file_upload_id,
         )
 

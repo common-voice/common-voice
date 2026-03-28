@@ -383,6 +383,7 @@ def process_locale(  # pylint: disable=too-many-return-statements,too-many-branc
     client: MDCClient | None,
     dry_run: bool,
     base_dir: str = "",
+    use_streaming: bool = False,
 ) -> UploadResult:
     """Process a single locale upload."""
     locale = job.locale
@@ -493,52 +494,90 @@ def process_locale(  # pylint: disable=too-many-return-statements,too-many-branc
                 attempts=1,
             )
 
-        # Resolve file path and datasheet
-        tarball_local, datasheet_text, resolve_error = _resolve_file_and_datasheet(job, base_dir)
+        # -- Streaming path: skip download, read datasheet from GCS directly --
+        if use_streaming and is_gcs_uri(base_dir):
+            datasheet_text = ""
+            if job.datasheet_path:
+                datasheet_text = gcs_read_text(base_dir, job.datasheet_path) or ""
+                if not datasheet_text:
+                    logger.warning("UPLOAD", "[%s] No datasheet found in GCS", locale)
 
-        if tarball_local is None:
-            return UploadResult(
+            if dry_run:
+                logger.info(
+                    "UPLOAD",
+                    "[%s] DRY RUN (stream) -- would upload %s (%s) as '%s'",
+                    locale,
+                    os.path.basename(job.tarball_path),
+                    format_size(job.file_size),
+                    f"Common Voice {job.release_spec.modality_display} "
+                    f"{job.release_spec.version} - {english_name}",
+                )
+                return UploadResult(
+                    locale=locale,
+                    status="skipped",
+                    size_bytes=job.file_size,
+                    duration_seconds=time.monotonic() - start,
+                )
+
+            assert client is not None
+            submission = client.build_submission(
+                release_spec=job.release_spec,
+                english_name=english_name,
+                native_name=native_name,
                 locale=locale,
-                status="failed",
-                size_bytes=job.file_size,
-                duration_seconds=time.monotonic() - start,
-                error=resolve_error or f"Tarball not found: {job.tarball_path}",
-                attempts=0,
+                license_name=job.license_type,
+                datasheet_text=datasheet_text,
+            )
+            tarball_local = None  # no temp file in streaming mode
+        else:
+            # -- Non-streaming path: download to temp, resolve datasheet ------
+            tarball_local, datasheet_text, resolve_error = _resolve_file_and_datasheet(
+                job, base_dir
             )
 
-        # Track temp file for cleanup in GCS mode
-        if is_gcs_uri(base_dir):
-            tmp_file = tarball_local
+            if tarball_local is None:
+                return UploadResult(
+                    locale=locale,
+                    status="failed",
+                    size_bytes=job.file_size,
+                    duration_seconds=time.monotonic() - start,
+                    error=resolve_error or f"Tarball not found: {job.tarball_path}",
+                    attempts=0,
+                )
 
-        if dry_run:
-            logger.info(
-                "UPLOAD",
-                "[%s] DRY RUN -- would upload %s (%s) as '%s'",
-                locale,
-                os.path.basename(job.tarball_path),
-                format_size(job.file_size),
-                f"Common Voice {job.release_spec.modality_display} "
-                f"{job.release_spec.version} - {english_name}",
-            )
-            return UploadResult(
+            # Track temp file for cleanup in GCS mode
+            if is_gcs_uri(base_dir):
+                tmp_file = tarball_local
+
+            if dry_run:
+                logger.info(
+                    "UPLOAD",
+                    "[%s] DRY RUN -- would upload %s (%s) as '%s'",
+                    locale,
+                    os.path.basename(job.tarball_path),
+                    format_size(job.file_size),
+                    f"Common Voice {job.release_spec.modality_display} "
+                    f"{job.release_spec.version} - {english_name}",
+                )
+                return UploadResult(
+                    locale=locale,
+                    status="skipped",
+                    size_bytes=job.file_size,
+                    duration_seconds=time.monotonic() - start,
+                )
+
+            assert client is not None
+            submission = client.build_submission(
+                release_spec=job.release_spec,
+                english_name=english_name,
+                native_name=native_name,
                 locale=locale,
-                status="skipped",
-                size_bytes=job.file_size,
-                duration_seconds=time.monotonic() - start,
+                license_name=job.license_type,
+                datasheet_text=datasheet_text,
             )
 
-        assert client is not None
-        submission = client.build_submission(
-            release_spec=job.release_spec,
-            english_name=english_name,
-            native_name=native_name,
-            locale=locale,
-            license_name=job.license_type,
-            datasheet_text=datasheet_text,
-        )
-
-        # Sequential readahead hint -- reduces page cache pressure for multi-GB uploads.
-        _try_fadvise(tarball_local, getattr(os, "POSIX_FADV_SEQUENTIAL", 0))
+            # Sequential readahead hint for non-streaming path.
+            _try_fadvise(tarball_local, getattr(os, "POSIX_FADV_SEQUENTIAL", 0))
 
         if job.submission_id:
             # Version update mode
@@ -570,11 +609,28 @@ def process_locale(  # pylint: disable=too-many-return-statements,too-many-branc
         state_path = _sdk_state_path(
             base_dir, job.release_spec.release_name, job.release_type.value, locale,
         )
-        submission_id, _ = client.create_and_upload(
-            file_path=tarball_local,
-            submission=submission,
-            state_path=state_path,
-        )
+
+        if use_streaming and is_gcs_uri(base_dir):
+            # Streaming mode: GCS range reads -> MDC presigned URLs.
+            # No temp file, no download phase.
+            bucket_name, base_prefix = _parse_gcs_uri(base_dir)
+            blob_path = (
+                f"{base_prefix}/{job.tarball_path}"
+                if base_prefix
+                else job.tarball_path
+            )
+            submission_id, _ = client.stream_and_upload(
+                bucket_name=bucket_name,
+                blob_path=blob_path,
+                submission=submission,
+                state_path=state_path,
+            )
+        else:
+            submission_id, _ = client.create_and_upload(
+                file_path=tarball_local,
+                submission=submission,
+                state_path=state_path,
+            )
         upload_succeeded = True
         return UploadResult(
             locale=locale,
@@ -683,7 +739,9 @@ def print_summary(state: BatchState) -> None:
         )
         # Check for SDK state files that support --resume (partial uploads).
         # State may be in upload-logs/ (GCS-persistent) or .state/ (local).
-        from mdc_uploader.constants import DEFAULT_BASE_DIR  # pylint: disable=import-outside-toplevel
+        from mdc_uploader.constants import (
+            DEFAULT_BASE_DIR,  # pylint: disable=import-outside-toplevel
+        )
 
         upload_logs_dir = os.path.join(state.base_dir, state.release, "upload-logs")
         base_dir_flag = ""
@@ -773,10 +831,19 @@ def run_batch(config: UploaderConfig) -> bool:
         # Initialize MDC client
         client = MDCClient(config.mdc_api_key, config.mdc_api_url) if not config.dry_run else None
 
+        # Streaming is default for gs:// URIs; --no-stream disables it.
+        use_streaming = is_gcs_uri(config.base_dir) and not getattr(
+            config, "no_stream", False
+        )
+        if use_streaming:
+            logger.info("UPLOAD", "Streaming mode: GCS range-read -> MDC (no temp files)")
+
         # Process locales with batch progress bar
         progress = batch_progress(len(jobs))
         for i, job in enumerate(jobs, 1):
-            result = process_locale(job, client, config.dry_run, config.base_dir)
+            result = process_locale(
+                job, client, config.dry_run, config.base_dir, use_streaming,
+            )
             state.record(result)
 
             status_label = result.status.upper()
