@@ -27,6 +27,7 @@ from datacollective.upload_utils import (
     _complete_upload,
     _extract_etag,
     _get_presigned_part_url,
+    _load_upload_state,
     _save_upload_state,
     _upload_part_with_retry,
 )
@@ -194,10 +195,6 @@ def _load_or_resume(
     part_size: int,
 ) -> UploadState:
     """Load existing upload state or initiate a new multipart upload."""
-    from datacollective.upload_utils import (  # pylint: disable=import-outside-toplevel
-        _load_upload_state,
-    )
-
     state = _load_upload_state(state_file)
     if state is not None:
         # Validate that state matches this upload

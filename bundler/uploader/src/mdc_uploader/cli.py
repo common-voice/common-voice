@@ -6,10 +6,12 @@ import os
 import re
 import sys
 from datetime import UTC, datetime
+from pathlib import Path
 
 import click
+from datacollective.upload_utils import _load_upload_state as load_upload_state
 
-from mdc_uploader.config import UploaderConfig
+from mdc_uploader.config import UploaderConfig, resolve_base_dir
 from mdc_uploader.log import logger, setup_logging
 from mdc_uploader.models import ReleaseType
 from mdc_uploader.pipeline import run_batch
@@ -217,14 +219,6 @@ def _run(
         if len(locale_parts) != 1:
             raise click.UsageError("--resume requires exactly one locale via -l")
         resume_locale = locale_parts[0]
-
-        from pathlib import Path  # pylint: disable=import-outside-toplevel
-
-        from datacollective.upload_utils import (  # pylint: disable=import-outside-toplevel
-            _load_upload_state as load_upload_state,
-        )
-
-        from mdc_uploader.config import resolve_base_dir  # pylint: disable=import-outside-toplevel
 
         # Search for SDK state file: upload-logs (GCS-persistent) first, .state/ fallback
         resolved_base = resolve_base_dir(base_dir)
