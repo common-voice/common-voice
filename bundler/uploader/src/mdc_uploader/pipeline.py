@@ -834,22 +834,20 @@ def run_batch(config: UploaderConfig) -> bool:
         client = MDCClient(config.mdc_api_key, config.mdc_api_url) if not config.dry_run else None
 
         # Streaming is default for gs:// URIs; --no-stream disables it.
-        use_streaming = is_gcs_uri(config.base_dir) and not getattr(
-            config, "no_stream", False
-        )
+        use_streaming = is_gcs_uri(config.base_dir) and not config.no_stream
         if use_streaming:
             logger.info("UPLOAD", "Streaming mode: GCS range-read -> MDC (no temp files)")
 
         # Concurrency and retry settings.
         # Parallel only with streaming -- non-streaming downloads to temp
         # and concurrent downloads would exhaust ephemeral disk.
-        max_workers = getattr(config, "parallel", 4) if use_streaming else 1
+        max_workers = config.jobs if use_streaming else 1
         max_retries = 3
 
         if max_workers > 1 and not config.dry_run:
             logger.info("UPLOAD", "Parallel: %d workers, %d retries per locale",
                         max_workers, max_retries)
-        elif not use_streaming and getattr(config, "parallel", 4) > 1:
+        elif not use_streaming and config.jobs > 1:
             logger.info("UPLOAD", "Parallel disabled: non-streaming mode uses temp files")
 
         # Process locales

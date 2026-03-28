@@ -116,6 +116,22 @@ Environment variables:
     "Always captures DEBUG level regardless of -v.",
 )
 @click.option("-v", "--verbose", is_flag=True, help="Enable debug-level logging.")
+@click.option(
+    "-j",
+    "--jobs",
+    type=int,
+    default=4,
+    show_default=True,
+    help="Number of concurrent locale uploads (streaming mode only). "
+    "Ignored in non-streaming mode (temp files require sequential processing).",
+)
+@click.option(
+    "--no-stream",
+    is_flag=True,
+    default=False,
+    help="Disable GCS streaming; download tarballs to temp before uploading. "
+    "Streaming is the default for gs:// base dirs.",
+)
 def cli(
     release: str | None,
     upload_target: str,
@@ -128,6 +144,8 @@ def cli(
     dry_run: bool,
     log_file: str | None,
     verbose: bool,
+    jobs: int,
+    no_stream: bool,
 ) -> None:
     """Upload Common Voice release tarballs to Mozilla Data Collective (MDC) via API.
 
@@ -156,6 +174,8 @@ def cli(
             resume=resume,
             dry_run=dry_run,
             verbose=verbose,
+            jobs=jobs,
+            no_stream=no_stream,
         )
     except click.UsageError:
         raise  # let Click format these
@@ -198,6 +218,8 @@ def _run(
     resume: bool,
     dry_run: bool,
     verbose: bool,
+    jobs: int,
+    no_stream: bool,
 ) -> None:
     """Inner logic separated for clean error handling."""
     mdc_api_url = os.environ.get("MDC_API_URL")
@@ -267,6 +289,8 @@ def _run(
             submission_id=None,
             dry_run=dry_run,
             verbose=verbose,
+            jobs=jobs,
+            no_stream=no_stream,
             mdc_api_key=mdc_api_key,
             mdc_api_url=mdc_api_url,
             resume_state_path=os.path.abspath(state_file),
@@ -294,6 +318,8 @@ def _run(
             submission_id=submission_id,
             dry_run=dry_run,
             verbose=verbose,
+            jobs=jobs,
+            no_stream=no_stream,
             mdc_api_key=mdc_api_key,
             mdc_api_url=mdc_api_url,
             orphaned_submissions=state.get("orphaned_submissions"),
@@ -318,6 +344,8 @@ def _run(
             submission_id=submission_id,
             dry_run=dry_run,
             verbose=verbose,
+            jobs=jobs,
+            no_stream=no_stream,
             mdc_api_key=mdc_api_key,
             mdc_api_url=mdc_api_url,
         )
