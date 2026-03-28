@@ -220,8 +220,8 @@ def _run(
 
         from pathlib import Path  # pylint: disable=import-outside-toplevel
 
-        from datacollective.upload import (
-            load_upload_state,  # type: ignore # pylint: disable=import-outside-toplevel
+        from datacollective.upload_utils import (  # pylint: disable=import-outside-toplevel
+            _load_upload_state as load_upload_state,
         )
 
         from mdc_uploader.config import resolve_base_dir  # pylint: disable=import-outside-toplevel

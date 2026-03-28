@@ -6,7 +6,7 @@ import os
 import re
 from typing import Any
 
-import datacollective.upload as _dc_upload
+import datacollective.upload_utils as _dc_upload_utils
 from datacollective import (
     DatasetSubmission,
     License,
@@ -35,16 +35,12 @@ from mdc_uploader.constants import (
 from mdc_uploader.log import logger
 from mdc_uploader.models import ReleaseSpec
 
-# -- Override SDK defaults -----------------------------------------------------
-# Part size: 256 MB -- at 13.4 MB/s observed throughput, completes in ~19s per
-# part (well within MDC's 15-min deadline). 586 parts for 150 GB max file.
-# Max upload: 150 GB.
-_dc_upload.DEFAULT_PART_SIZE = (  # pyright: ignore[reportAttributeAccessIssue]
-    256 * 1024 * 1024  # 256 MB
-)
-_dc_upload.MAX_UPLOAD_BYTES = (  # pyright: ignore[reportAttributeAccessIssue]
-    150 * 1000 * 1000 * 1000  # 150 GB
-)
+# -- Override SDK default part size --------------------------------------------
+# The MDC API does not return partSize in the initiate response, so the SDK
+# falls back to DEFAULT_PART_SIZE.  256 MB keeps part count manageable
+# (390 parts for 100 GB vs 20,000 at 5 MB) and completes well within MDC's
+# per-part deadline.  Must target upload_utils (where _initiate_upload lives).
+_dc_upload_utils.DEFAULT_PART_SIZE = 256 * 1024 * 1024  # 256 MB
 
 # -- 429 / transient error detection ------------------------------------------
 
