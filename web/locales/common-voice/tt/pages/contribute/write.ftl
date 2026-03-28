@@ -70,6 +70,7 @@ sentence-variant-select-multiple-variants = Гомуми тел / берничә
 sc-bulk-upload-header = Иҗтимагый милектәге <icon></icon> җөмләләр йөкләгез
 sc-bulk-upload-instruction = Файлыгызны йөкләү өчен аны монда тартып күчерегез яки <uploadButton>монда басыгыз</uploadButton>
 sc-bulk-upload-instruction-drop = Йөкләү өчен файлны монда тартып күчерегез
+try-upload-again = Яңадан тырышып карау өчен файлны монда өстерәгез
 try-upload-again-md = Яңадан йөкләп карагыз
 select-file = Файлны сайлау
 select-file-mobile = Йөкләү өчен Файлны сайлау

@@ -57,6 +57,12 @@ create-profile-button = Профиль булдыру
 # menu item
 read-sentences = Җөмләләрне уку
 
+## MENU ITEM TOOLTIPS
+
+speak-contribute-menu-tooltip = Җөмләләрне укыгыз, сорауларга җавап бирегез
+read-sentences-menu-item-tooltip = Сайлаган телегездә җөмләләрне укып үзегезне яздырыгыз
+answer-questions-menu-item-tooltip = Сайлаган телегездә сорауларга һәм җөмләләргә җавап бирүегезне яздырыгыз
+
 ## MENU ITEM ARIA LABELS
 
 speak-contribute-menu-aria-label = Сөйләү көйләнмәләре менюсы
