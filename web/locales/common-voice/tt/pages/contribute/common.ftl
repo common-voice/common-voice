@@ -106,6 +106,7 @@ contribution-misreadings-title = Дөрес укымаулар
 contribution-misreadings-description = Сез тыңлаган аудиоязманың текстка туры килүен бик игътибар белән тикшерегез. Кечкенә генә хаталар булса да, аудиоязманы кире кагасыз. <br />Бик еш очраучы хата мисаллары:
 contribution-misreadings-description-extended-list-1 = Аудиоязма башында сүз яки сүзнең бер өлешен төшереп калдыру. Мәсәлән, "сәлам" урынына "әләм" дип яздыру.
 contribution-misreadings-description-extended-list-2 = Сүз ахырында <strong>"лар/ләр"</strong> төшеп калган.
+contribution-misreadings-description-extended-list-3 = Язылган сүзгә әйтелеше буенча охшаш башка сүз әйтелә. Мәсәлән «алдына» урынына «алдана» сүзе яки киресенчә.
 contribution-misreadings-description-extended-list-4 = Яздыруны иртәрәк тәмамлаганга соңгы сүзнең ахыры яздырылмыйча калган.
 contribution-misreadings-description-extended-list-5 = Бер үк сүзне берничә тапкыр укырга тырышу.
 contribution-misreadings-example-1-title = Бу балыклар базарда сатыла.
