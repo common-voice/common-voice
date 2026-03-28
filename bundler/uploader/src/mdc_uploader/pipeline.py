@@ -4,7 +4,9 @@ from __future__ import annotations
 
 import os
 import tempfile
+import threading
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from mdc_uploader import language
 from mdc_uploader.config import UploaderConfig
@@ -838,23 +840,59 @@ def run_batch(config: UploaderConfig) -> bool:
         if use_streaming:
             logger.info("UPLOAD", "Streaming mode: GCS range-read -> MDC (no temp files)")
 
-        # Process locales with batch progress bar
-        progress = batch_progress(len(jobs))
-        for i, job in enumerate(jobs, 1):
-            result = process_locale(
-                job, client, config.dry_run, config.base_dir, use_streaming,
-            )
-            state.record(result)
+        # Concurrency and retry settings.
+        # Parallel only with streaming -- non-streaming downloads to temp
+        # and concurrent downloads would exhaust ephemeral disk.
+        max_workers = getattr(config, "parallel", 4) if use_streaming else 1
+        max_retries = 3
 
-            status_label = result.status.upper()
+        if max_workers > 1 and not config.dry_run:
+            logger.info("UPLOAD", "Parallel: %d workers, %d retries per locale",
+                        max_workers, max_retries)
+        elif not use_streaming and getattr(config, "parallel", 4) > 1:
+            logger.info("UPLOAD", "Parallel disabled: non-streaming mode uses temp files")
+
+        # Process locales
+        progress = batch_progress(len(jobs))
+        completed_count = 0
+        completed_lock = threading.Lock()
+
+        def _process_with_retry(job: LocaleUploadJob) -> UploadResult:
+            """Run process_locale with auto-retry on failure."""
+            result: UploadResult | None = None
+            attempt = 0
+            for attempt in range(1, max_retries + 1):
+                result = process_locale(
+                    job, client, config.dry_run, config.base_dir,
+                    use_streaming,
+                )
+                if result.status != "failed":
+                    break
+                if attempt < max_retries:
+                    logger.warning(
+                        "UPLOAD",
+                        "[%s] Attempt %d/%d failed: %s -- retrying",
+                        job.locale,
+                        attempt,
+                        max_retries,
+                        result.error,
+                    )
+            assert result is not None
+            result.attempts = max(result.attempts, attempt)
+            return result
+
+        def _log_result(result: UploadResult) -> None:
+            nonlocal completed_count
+            state.record(result)
+            with completed_lock:
+                completed_count += 1
+                idx = completed_count
+            total = len(jobs)
             if result.status == "success":
                 logger.info(
                     "UPLOAD",
-                    "[%d/%d] %s -- %s (%s in %.1fs)",
-                    i,
-                    len(jobs),
-                    result.locale,
-                    status_label,
+                    "[%d/%d] %s -- SUCCESS (%s in %.1fs)",
+                    idx, total, result.locale,
                     format_size(result.size_bytes),
                     result.duration_seconds,
                 )
@@ -862,21 +900,39 @@ def run_batch(config: UploaderConfig) -> bool:
                 logger.error(
                     "UPLOAD",
                     "[%d/%d] %s -- FAILED: %s",
-                    i,
-                    len(jobs),
-                    result.locale,
-                    result.error,
+                    idx, total, result.locale, result.error,
                 )
             elif result.status == "skipped":
                 logger.info(
                     "UPLOAD",
                     "[%d/%d] %s -- SKIPPED (dry run)",
-                    i,
-                    len(jobs),
-                    result.locale,
+                    idx, total, result.locale,
                 )
-
             progress.update(1)
+
+        if max_workers <= 1 or config.dry_run:
+            # Sequential path (dry-run or -j 1)
+            for job in jobs:
+                _log_result(_process_with_retry(job))
+        else:
+            # Parallel path
+            with ThreadPoolExecutor(max_workers=max_workers) as pool:
+                futures = {
+                    pool.submit(_process_with_retry, job): job
+                    for job in jobs
+                }
+                for future in as_completed(futures):
+                    job = futures[future]
+                    try:
+                        result = future.result()
+                    except Exception as exc:  # pylint: disable=broad-exception-caught
+                        result = UploadResult(
+                            locale=job.locale,
+                            status="failed",
+                            size_bytes=job.file_size,
+                            error=f"Unhandled thread error: {exc}",
+                        )
+                    _log_result(result)
 
         progress.close()
 

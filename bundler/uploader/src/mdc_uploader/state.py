@@ -5,6 +5,7 @@ from __future__ import annotations
 import json
 import os
 import shutil
+import threading
 from datetime import UTC, datetime
 
 from mdc_uploader.log import logger
@@ -33,6 +34,7 @@ class BatchState:
         self.base_dir = base_dir
         self.started_at = datetime.now(UTC).isoformat()
         self.locales: dict[str, LocaleStateEntry] = {}
+        self._lock = threading.Lock()
         resolved_dir = output_dir if output_dir is not None else STATE_DIR
         os.makedirs(resolved_dir, exist_ok=True)
         self._state_path = self._build_path(release, resolved_dir)
@@ -48,7 +50,7 @@ class BatchState:
         return self._state_path
 
     def record(self, result: UploadResult) -> None:
-        """Record a locale result and flush to disk."""
+        """Record a locale result and flush to disk.  Thread-safe."""
         entry = LocaleStateEntry(
             status=result.status,
             size_bytes=result.size_bytes,
@@ -68,8 +70,9 @@ class BatchState:
             if result.file_upload_id:
                 entry["file_upload_id"] = result.file_upload_id
 
-        self.locales[result.locale] = entry
-        self._flush()
+        with self._lock:
+            self.locales[result.locale] = entry
+            self._flush()
 
     def _flush(self) -> None:
         """Write current state to JSON file."""
