@@ -300,29 +300,32 @@ def _cleanup_gcs_temp(
         if not tmp_dir or tmp_dir == os.getcwd():
             return
 
-        if not succeeded:
-            # Copy .mdc-upload.json to .state/ for --resume discovery.
-            import shutil  # pylint: disable=import-outside-toplevel
+        # Copy any SDK state files to STATE_DIR with canonical name
+        # (small files, useful for debugging and --resume).
+        import shutil  # pylint: disable=import-outside-toplevel
 
-            dest_fname = (
-                _sdk_state_fname(release_name, release_type, locale)
-                if release_name and release_type
-                else f"mdc-upload-{locale}.json"
-            )
-            for fname in os.listdir(tmp_dir):
-                if fname.endswith(".mdc-upload.json"):
-                    src = os.path.join(tmp_dir, fname)
-                    dest = os.path.join(STATE_DIR, dest_fname)
-                    os.makedirs(STATE_DIR, exist_ok=True)
-                    shutil.copy2(src, dest)
+        dest_fname = (
+            _sdk_state_fname(release_name, release_type, locale)
+            if release_name and release_type
+            else f"mdc-upload-{locale}.json"
+        )
+        for fname in os.listdir(tmp_dir):
+            if fname.endswith(".mdc-upload.json"):
+                src = os.path.join(tmp_dir, fname)
+                dest = os.path.join(STATE_DIR, dest_fname)
+                os.makedirs(STATE_DIR, exist_ok=True)
+                shutil.copy2(src, dest)
+                if not succeeded:
                     logger.info(
                         "UPLOAD",
                         "[%s] MDC upload state saved to: %s",
                         locale,
                         dest,
                     )
+                # Remove from temp dir so rmdir can succeed
+                os.unlink(src)
 
-        # Try to remove temp dir if empty (tarball gone, state files may remain)
+        # Remove the now-empty temp dir
         try:
             os.rmdir(tmp_dir)
         except OSError:

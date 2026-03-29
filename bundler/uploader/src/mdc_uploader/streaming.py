@@ -196,7 +196,12 @@ def stream_upload_from_gcs(
     ]
     _save_upload_state(state_file, state)
 
-    _complete_upload(state.fileUploadId, state.uploadId, state.parts, state.checksum)
+    _complete_upload(
+        state.fileUploadId,
+        state.uploadId or None,  # "" -> None so it's excluded from payload
+        state.parts,
+        state.checksum,
+    )
 
     elapsed = time.monotonic() - t0
     speed = file_size / elapsed if elapsed > 0 else 0
@@ -245,12 +250,12 @@ def _load_or_resume(
     )
     data = _initiate_upload_raw(submission_id, filename, file_size)
     file_upload_id = str(data.get("fileUploadId", ""))
+    # uploadId may be absent from the API response. UploadState requires str
+    # (Pydantic rejects None), so store "" when absent. _complete_upload
+    # accepts str | None -- convert "" -> None at call time so it's excluded
+    # from the completion payload.
     upload_id_raw = data.get("uploadId")
-    upload_id = (
-        upload_id_raw
-        if isinstance(upload_id_raw, str) and upload_id_raw
-        else None
-    )
+    upload_id = upload_id_raw if isinstance(upload_id_raw, str) else ""
     server_part_size = int(data.get("partSize", 0)) or part_size
 
     if not file_upload_id:

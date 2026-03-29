@@ -657,11 +657,11 @@ class TestGcsTempCleanup:
             )
 
         assert not os.path.exists(tarball), "Tarball must be deleted"
-        assert os.path.exists(state_file), "Original state file preserved"
+        assert not os.path.exists(state_file), "Original state file moved to .state/"
         copied = os.path.join(
             state_dir, "mdc-upload-sps-corpus-3.0-2026-03-09-full-br.json"
         )
-        assert os.path.exists(copied), "State file also copied to .state/"
+        assert os.path.exists(copied), "State file copied to .state/"
         from pathlib import Path  # pylint: disable=import-outside-toplevel
 
         assert "test" in Path(copied).read_text(encoding="utf-8")
