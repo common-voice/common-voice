@@ -115,7 +115,12 @@ Environment variables:
     help="Path to write log output (in addition to stderr). "
     "Always captures DEBUG level regardless of -v.",
 )
-@click.option("-v", "--verbose", is_flag=True, help="Enable debug-level logging.")
+@click.option(
+    "-v",
+    "--verbose",
+    is_flag=True,
+    help="Enable debug-level logging and MDC SDK logging/progress output.",
+)
 @click.option(
     "-j",
     "--jobs",
