@@ -16,6 +16,7 @@ import math
 import os
 import time
 from pathlib import Path
+from typing import Any
 
 import datacollective.upload_utils as _dc_upload_utils
 from datacollective.api_utils import _get_api_url, _send_api_request
@@ -42,7 +43,7 @@ def _initiate_upload_raw(
     filename: str,
     file_size: int,
     mime_type: str = DEFAULT_MIME_TYPE,
-) -> dict:
+) -> dict[str, Any]:
     """Initiate a multipart upload, bypassing the SDK's Pydantic model.
 
     The SDK's _initiate_upload() validates file_size via a Pydantic model

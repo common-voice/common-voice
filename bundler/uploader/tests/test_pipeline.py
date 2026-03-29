@@ -696,3 +696,172 @@ class TestGcsTempCleanup:
         assert result.orphaned_draft is True
         assert result.submission_id == "sub-X"
         assert result.file_upload_id == "fup-X"
+
+
+class TestRunBatchConcurrency:
+    """Tests for parallel execution, auto-retry, and orphaned-draft handling."""
+
+    def _make_config(self, tmp_path, jobs=2, no_stream=False, dry_run=False):
+        """Build a minimal UploaderConfig for batch tests."""
+        base = str(tmp_path / "base")
+        release = "cv-corpus-25.0-2026-03-09"
+        release_dir = os.path.join(base, release)
+        os.makedirs(release_dir, exist_ok=True)
+        # Create tarballs so build_jobs finds them
+        for loc in ("aa", "bb"):
+            with open(
+                os.path.join(release_dir, f"{release}-{loc}.tar.gz"), "wb"
+            ) as f:
+                f.write(b"x" * 100)
+
+        return UploaderConfig(
+            release_name=release,
+            upload_target="dev",
+            mdc_api_url="http://test",
+            mdc_api_key="test-key",
+            base_dir=base,
+            release_type=ReleaseType.FULL,
+            locales=["aa", "bb"],
+            submission_id=None,
+            dry_run=dry_run,
+            verbose=False,
+            jobs=jobs,
+            no_stream=no_stream,
+        )
+
+    @patch("mdc_uploader.pipeline.save_logs_to_storage")
+    @patch("mdc_uploader.pipeline.language")
+    @patch("mdc_uploader.pipeline.process_locale")
+    @patch("mdc_uploader.pipeline.build_jobs")
+    @patch("mdc_uploader.pipeline.is_gcs_uri", return_value=True)
+    def test_parallel_processes_all_locales(
+        self, _mock_gcs, mock_build, mock_process, mock_lang, _mock_save,
+        tmp_path,
+    ) -> None:
+        """With -j 2 and streaming, both locales are processed."""
+        mock_lang.init.return_value = None
+        config = self._make_config(tmp_path, jobs=2)
+
+        from mdc_uploader.models import UploadResult
+
+        spec = parse_release_name(config.release_name)
+        mock_build.return_value = [
+            LocaleUploadJob(
+                locale=loc, release_spec=spec,
+                release_type=ReleaseType.FULL,
+                tarball_path=f"/fake/{loc}.tar.gz",
+                datasheet_path=None, file_size=100,
+            )
+            for loc in ("aa", "bb")
+        ]
+        mock_process.side_effect = lambda job, *a, **kw: UploadResult(
+            locale=job.locale, status="success", size_bytes=100,
+            duration_seconds=0.1, attempts=1,
+        )
+
+        success = run_batch(config)
+
+        assert success is True
+        assert mock_process.call_count == 2
+
+    @patch("mdc_uploader.pipeline.save_logs_to_storage")
+    @patch("mdc_uploader.pipeline.language")
+    @patch("mdc_uploader.pipeline.process_locale")
+    def test_retry_on_transient_failure(
+        self, mock_process, mock_lang, _mock_save, tmp_path,
+    ) -> None:
+        """Transient failure is retried up to 3 times."""
+        mock_lang.init.return_value = None
+        config = self._make_config(tmp_path, jobs=1)
+
+        from mdc_uploader.models import UploadResult
+
+        call_count = {"aa": 0, "bb": 0}
+
+        def side_effect(job, *a, **kw):
+            call_count[job.locale] += 1
+            if job.locale == "aa" and call_count["aa"] < 3:
+                return UploadResult(
+                    locale=job.locale, status="failed",
+                    error="transient", size_bytes=100,
+                    duration_seconds=0.1, attempts=1,
+                )
+            return UploadResult(
+                locale=job.locale, status="success",
+                size_bytes=100, duration_seconds=0.1, attempts=1,
+            )
+
+        mock_process.side_effect = side_effect
+
+        success = run_batch(config)
+
+        assert success is True
+        # aa retried 3 times (fail, fail, success), bb once
+        assert call_count["aa"] == 3
+        assert call_count["bb"] == 1
+
+    @patch("mdc_uploader.pipeline.save_logs_to_storage")
+    @patch("mdc_uploader.pipeline.language")
+    @patch("mdc_uploader.pipeline.process_locale")
+    def test_orphaned_draft_not_retried(
+        self, mock_process, mock_lang, _mock_save, tmp_path,
+    ) -> None:
+        """OrphanedDraftError result is not retried (breaks immediately)."""
+        mock_lang.init.return_value = None
+        config = self._make_config(tmp_path, jobs=1)
+
+        from mdc_uploader.models import UploadResult
+
+        call_count = {"aa": 0, "bb": 0}
+
+        def side_effect(job, *a, **kw):
+            call_count[job.locale] += 1
+            if job.locale == "aa":
+                return UploadResult(
+                    locale=job.locale, status="failed",
+                    error="orphaned", orphaned_draft=True,
+                    submission_id="sub-orphan",
+                    size_bytes=100, duration_seconds=0.1, attempts=1,
+                )
+            return UploadResult(
+                locale=job.locale, status="success",
+                size_bytes=100, duration_seconds=0.1, attempts=1,
+            )
+
+        mock_process.side_effect = side_effect
+
+        success = run_batch(config)
+
+        assert success is False  # aa failed
+        # aa called only once -- orphaned draft breaks retry loop
+        assert call_count["aa"] == 1
+        assert call_count["bb"] == 1
+
+    @patch("mdc_uploader.pipeline.save_logs_to_storage")
+    @patch("mdc_uploader.pipeline.language")
+    @patch("mdc_uploader.pipeline.process_locale")
+    def test_no_stream_forces_sequential(
+        self, mock_process, mock_lang, _mock_save, tmp_path,
+    ) -> None:
+        """--no-stream with -j 4 still runs sequentially."""
+        mock_lang.init.return_value = None
+        config = self._make_config(tmp_path, jobs=4, no_stream=True)
+
+        from mdc_uploader.models import UploadResult
+
+        order = []
+
+        def side_effect(job, *a, **kw):
+            order.append(job.locale)
+            return UploadResult(
+                locale=job.locale, status="success",
+                size_bytes=100, duration_seconds=0.1, attempts=1,
+            )
+
+        mock_process.side_effect = side_effect
+
+        success = run_batch(config)
+
+        assert success is True
+        # Sequential: locales processed in order
+        assert order == ["aa", "bb"]
