@@ -46,7 +46,9 @@ class UploaderConfig:
     resume_submission_id: str | None = None
 
     def __post_init__(self) -> None:
-        """Validate resume invariants."""
+        """Validate config invariants."""
+        if self.jobs < 1:
+            raise ValueError("jobs must be >= 1")
         has_path = self.resume_state_path is not None
         has_sid = self.resume_submission_id is not None
         if has_path != has_sid:

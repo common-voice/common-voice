@@ -17,11 +17,11 @@ import os
 import time
 from pathlib import Path
 
+import datacollective.upload_utils as _dc_upload_utils
 from datacollective.api_utils import _get_api_url, _send_api_request
 from datacollective.models import UploadPart
 from datacollective.upload_utils import (
     DEFAULT_MIME_TYPE,
-    DEFAULT_PART_SIZE,
     MAX_UPLOAD_BYTES,
     UploadState,
     _complete_upload,
@@ -66,7 +66,7 @@ def stream_upload_from_gcs(
     blob_path: str,
     submission_id: str,
     state_path: str,
-    part_size: int = DEFAULT_PART_SIZE,
+    part_size: int | None = None,
 ) -> UploadState:
     """Upload a GCS blob to MDC without downloading to disk.
 
@@ -78,12 +78,16 @@ def stream_upload_from_gcs(
         blob_path: Full blob path within the bucket.
         submission_id: MDC submission ID (draft must already exist).
         state_path: Path to persist upload state for resume.
-        part_size: Chunk size in bytes (default from SDK, overridden to
-            256 MB by mdc.py at import time).
+        part_size: Chunk size in bytes.  Resolved at call time from
+            ``datacollective.upload_utils.DEFAULT_PART_SIZE`` (256 MB
+            after mdc.py override) when *None*.
 
     Returns:
         Completed UploadState with checksum and all part ETags.
     """
+    if part_size is None:
+        part_size = _dc_upload_utils.DEFAULT_PART_SIZE
+
     client = gcs_storage.Client()
     bucket = client.bucket(bucket_name)
     blob = bucket.blob(blob_path)
@@ -100,11 +104,15 @@ def stream_upload_from_gcs(
 
     filename = os.path.basename(blob_path)
     state_file = Path(state_path)
-    num_parts = int(math.ceil(file_size / part_size))
 
     # -- Resume: load existing state if available ----------------------------
     state = _load_or_resume(state_file, submission_id, filename, file_size,
                             part_size)
+    # Use state.partSize for the loop -- it may differ from the requested
+    # part_size if the server chose a different value or we resumed from
+    # an existing state file.
+    effective_part_size = state.partSize
+    num_parts = int(math.ceil(file_size / effective_part_size))
     parts_done: dict[int, str] = {p.partNumber: p.etag for p in state.parts}
 
     logger.info(
@@ -114,7 +122,7 @@ def stream_upload_from_gcs(
         blob_path,
         format_size(file_size),
         num_parts,
-        format_size(part_size),
+        format_size(effective_part_size),
     )
     if parts_done:
         logger.info(
@@ -129,8 +137,8 @@ def stream_upload_from_gcs(
     t0 = time.monotonic()
 
     for part_number in range(1, num_parts + 1):
-        start = (part_number - 1) * part_size
-        end = min(start + part_size, file_size)
+        start = (part_number - 1) * effective_part_size
+        end = min(start + effective_part_size, file_size)
         chunk_len = end - start
 
         # GCS range read -- only this chunk in memory
@@ -153,7 +161,7 @@ def stream_upload_from_gcs(
         _save_upload_state(state_file, state)
 
         elapsed = time.monotonic() - t0
-        speed = (part_number * part_size) / elapsed if elapsed > 0 else 0
+        speed = (part_number * effective_part_size) / elapsed if elapsed > 0 else 0
         logger.info(
             "STREAM",
             "Part %d/%d (%s) -- %.1f MB/s",

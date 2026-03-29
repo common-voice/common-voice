@@ -119,7 +119,7 @@ Environment variables:
 @click.option(
     "-j",
     "--jobs",
-    type=int,
+    type=click.IntRange(min=1),
     default=4,
     show_default=True,
     help="Number of concurrent locale uploads (streaming mode only). "
