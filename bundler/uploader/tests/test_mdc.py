@@ -494,6 +494,7 @@ class TestStreamAndUpload:
             blob_path="release/test-en.tar.gz",
             submission_id="sub-s1",
             state_path="/tmp/state.json",
+            locale="",
         )
         mock_update.assert_called_once()
         mock_submit.assert_called_once()

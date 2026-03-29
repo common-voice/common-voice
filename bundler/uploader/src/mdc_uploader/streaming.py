@@ -67,6 +67,7 @@ def stream_upload_from_gcs(
     submission_id: str,
     state_path: str,
     part_size: int | None = None,
+    locale: str = "",
 ) -> UploadState:
     """Upload a GCS blob to MDC without downloading to disk.
 
@@ -81,12 +82,17 @@ def stream_upload_from_gcs(
         part_size: Chunk size in bytes.  Resolved at call time from
             ``datacollective.upload_utils.DEFAULT_PART_SIZE`` (256 MB
             after mdc.py override) when *None*.
+        locale: Locale code for log tagging (e.g. "en"). When empty,
+            derived from the blob filename.
 
     Returns:
         Completed UploadState with checksum and all part ETags.
     """
     if part_size is None:
         part_size = _dc_upload_utils.DEFAULT_PART_SIZE
+
+    # Log tag: use locale if provided, otherwise extract from blob filename
+    tag = locale or os.path.basename(blob_path).split(".")[0]
 
     client = gcs_storage.Client()
     bucket = client.bucket(bucket_name)
@@ -122,7 +128,8 @@ def stream_upload_from_gcs(
 
     logger.info(
         "STREAM",
-        "Streaming gs://%s/%s (%s, %d parts of %s)",
+        "[%s] Streaming gs://%s/%s (%s, %d parts of %s)",
+        tag,
         bucket_name,
         blob_path,
         format_size(file_size),
@@ -132,7 +139,8 @@ def stream_upload_from_gcs(
     if parts_done:
         logger.info(
             "STREAM",
-            "Resuming: %d/%d parts already uploaded",
+            "[%s] Resuming: %d/%d parts already uploaded",
+            tag,
             len(parts_done),
             num_parts,
         )
@@ -171,7 +179,8 @@ def stream_upload_from_gcs(
         speed = bytes_uploaded / elapsed if elapsed > 0 else 0
         logger.info(
             "STREAM",
-            "Part %d/%d (%s, %s uploaded) -- %.1f MB/s",
+            "[%s] Part %d/%d (%s, %s uploaded) -- %.1f MB/s",
+            tag,
             part_number,
             num_parts,
             format_size(chunk_len),
@@ -193,7 +202,8 @@ def stream_upload_from_gcs(
     speed = file_size / elapsed if elapsed > 0 else 0
     logger.info(
         "STREAM",
-        "Upload complete: %s in %.0fs (%.1f MB/s avg), file_upload_id=%s",
+        "[%s] Upload complete: %s in %.0fs (%.1f MB/s avg), file_upload_id=%s",
+        tag,
         format_size(file_size),
         elapsed,
         speed / (1024 * 1024),

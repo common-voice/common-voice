@@ -241,6 +241,7 @@ class MDCClient:
         blob_path: str,
         submission: DatasetSubmission,
         state_path: str,
+        locale: str = "",
     ) -> tuple[str, bool]:
         """Stream upload from GCS: draft -> stream -> metadata -> submit.
 
@@ -275,6 +276,7 @@ class MDCClient:
                 blob_path=blob_path,
                 submission_id=submission_id,
                 state_path=state_path,
+                locale=locale,
             )
         except Exception as exc:
             _log_step_error("Step 2/4: Stream upload failed", exc, submission)

@@ -641,6 +641,7 @@ def process_locale(  # pylint: disable=too-many-return-statements,too-many-branc
                 blob_path=blob_path,
                 submission=submission,
                 state_path=state_path,
+                locale=locale,
             )
         else:
             submission_id, _ = client.create_and_upload(
