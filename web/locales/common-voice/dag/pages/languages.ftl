@@ -1,5 +1,6 @@
 ## Languages Overview
 
+language-section-in-progress = Di be soli
 language-section-launched = Palo yihibu
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
 language-section-last-updated = Lahibali pala din na bɛni{ $lastUpdatedTimeStamp }
