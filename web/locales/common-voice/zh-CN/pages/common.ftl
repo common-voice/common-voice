@@ -348,6 +348,8 @@ indicates-required = * 表示必填字段
 not-available-abbreviation = 不可用
 # Text shown on a button that can be clicked to copy text to the clipboard
 copy = 复制
+# Text shown on a button that can be clicked to close a modal or panel
+close = 关闭
 # Text shown on a button that can be clicked to cancel an action
 cancel = 取消
 # Text shown on a button that can be clicked to delete an item
@@ -377,5 +379,6 @@ announcement-mdc-button-aria-text = 新建标签页打开
 ## Common Language/Dataset Selector & SearchBox Related
 
 searchbox-default-placeholder = 搜索...
+searchbox-default-aria-label = 搜索
 dataset-searchbox-placeholder = 搜索语言…
 request-new-language = 申请新语言
