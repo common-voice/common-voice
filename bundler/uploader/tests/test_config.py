@@ -218,3 +218,69 @@ class TestUploaderConfigFromCli:
             mdc_api_url=None,
         )
         assert config.locales == ["en", "de"]
+
+    def test_jobs_default(self) -> None:
+        """Default jobs is 4."""
+        config = UploaderConfig.from_cli(
+            release="cv-corpus-25.0-2026-03-09",
+            upload_target="dev",
+            base_dir=None,
+            release_type="full",
+            locales=None,
+            submission_id=None,
+            dry_run=False,
+            verbose=False,
+            mdc_api_key="test",
+            mdc_api_url=None,
+        )
+        assert config.jobs == 4
+
+    def test_jobs_custom(self) -> None:
+        """Custom jobs value is passed through."""
+        config = UploaderConfig.from_cli(
+            release="cv-corpus-25.0-2026-03-09",
+            upload_target="dev",
+            base_dir=None,
+            release_type="full",
+            locales=None,
+            submission_id=None,
+            dry_run=False,
+            verbose=False,
+            jobs=8,
+            mdc_api_key="test",
+            mdc_api_url=None,
+        )
+        assert config.jobs == 8
+
+    def test_no_stream_default_false(self) -> None:
+        """Default no_stream is False."""
+        config = UploaderConfig.from_cli(
+            release="cv-corpus-25.0-2026-03-09",
+            upload_target="dev",
+            base_dir=None,
+            release_type="full",
+            locales=None,
+            submission_id=None,
+            dry_run=False,
+            verbose=False,
+            mdc_api_key="test",
+            mdc_api_url=None,
+        )
+        assert config.no_stream is False
+
+    def test_no_stream_set(self) -> None:
+        """no_stream=True is passed through."""
+        config = UploaderConfig.from_cli(
+            release="cv-corpus-25.0-2026-03-09",
+            upload_target="dev",
+            base_dir=None,
+            release_type="full",
+            locales=None,
+            submission_id=None,
+            dry_run=False,
+            verbose=False,
+            no_stream=True,
+            mdc_api_key="test",
+            mdc_api_url=None,
+        )
+        assert config.no_stream is True
