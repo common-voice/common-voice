@@ -135,6 +135,7 @@ def stream_upload_from_gcs(
     # -- Part loop -----------------------------------------------------------
     hasher = hashlib.sha256()
     t0 = time.monotonic()
+    bytes_uploaded = 0
 
     for part_number in range(1, num_parts + 1):
         start = (part_number - 1) * effective_part_size
@@ -152,6 +153,7 @@ def stream_upload_from_gcs(
         response = _upload_part_with_retry(presigned.url, chunk)
         etag = _extract_etag(response)
         parts_done[part_number] = etag
+        bytes_uploaded += chunk_len
 
         # Persist state for resume
         state.parts = [
@@ -161,13 +163,14 @@ def stream_upload_from_gcs(
         _save_upload_state(state_file, state)
 
         elapsed = time.monotonic() - t0
-        speed = (part_number * effective_part_size) / elapsed if elapsed > 0 else 0
+        speed = bytes_uploaded / elapsed if elapsed > 0 else 0
         logger.info(
             "STREAM",
-            "Part %d/%d (%s) -- %.1f MB/s",
+            "Part %d/%d (%s, %s uploaded) -- %.1f MB/s",
             part_number,
             num_parts,
             format_size(chunk_len),
+            format_size(bytes_uploaded),
             speed / (1024 * 1024),
         )
 
@@ -227,7 +230,8 @@ def _load_or_resume(
     )
     data = _initiate_upload_raw(submission_id, filename, file_size)
     file_upload_id = str(data.get("fileUploadId", ""))
-    upload_id = str(data.get("uploadId", ""))
+    upload_id_raw = data.get("uploadId")
+    upload_id = upload_id_raw if isinstance(upload_id_raw, str) else ""
     server_part_size = int(data.get("partSize", 0)) or part_size
 
     if not file_upload_id:

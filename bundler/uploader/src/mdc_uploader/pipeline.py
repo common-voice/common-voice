@@ -861,6 +861,11 @@ def run_batch(config: UploaderConfig) -> bool:
                 )
                 if result.status != "failed":
                     break
+                # Orphaned drafts should not be retried -- each retry
+                # would create a new draft, wasting API quota.
+                # Use --retry-failed to recover from step 3 instead.
+                if result.orphaned_draft:
+                    break
                 if attempt < max_retries:
                     logger.warning(
                         "UPLOAD",
