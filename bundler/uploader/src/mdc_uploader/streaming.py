@@ -246,7 +246,11 @@ def _load_or_resume(
     data = _initiate_upload_raw(submission_id, filename, file_size)
     file_upload_id = str(data.get("fileUploadId", ""))
     upload_id_raw = data.get("uploadId")
-    upload_id = upload_id_raw if isinstance(upload_id_raw, str) else ""
+    upload_id = (
+        upload_id_raw
+        if isinstance(upload_id_raw, str) and upload_id_raw
+        else None
+    )
     server_part_size = int(data.get("partSize", 0)) or part_size
 
     if not file_upload_id:
