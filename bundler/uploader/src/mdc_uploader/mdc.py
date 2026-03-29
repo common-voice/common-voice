@@ -124,11 +124,12 @@ LICENSE_MAP: dict[str, License] = {
 class MDCClient:
     """Wraps datacollective SDK functions with retry logic."""
 
-    def __init__(self, api_key: str, api_url: str) -> None:
+    def __init__(self, api_key: str, api_url: str, verbose: bool = False) -> None:
         # The datacollective SDK reads these env vars
         os.environ["MDC_API_KEY"] = api_key
         os.environ["MDC_API_URL"] = api_url
         self.api_url = api_url
+        self.verbose = verbose
 
     def build_submission(
         self,
@@ -205,9 +206,11 @@ class MDCClient:
         # Step 2: Upload file
         logger.info("MDC", "Step 2/4: Uploading %s...", os.path.basename(file_path))
         try:
-            upload_kwargs: dict[str, str] = {
+            upload_kwargs: dict = {
                 "file_path": file_path,
                 "submission_id": submission_id,
+                "enable_logging": self.verbose,
+                "show_progress": self.verbose,
             }
             if state_path is not None:
                 upload_kwargs["state_path"] = state_path
@@ -321,6 +324,8 @@ class MDCClient:
                 file_path=file_path,
                 submission_id=submission_id,
                 state_path=resume_state_path,
+                enable_logging=self.verbose,
+                show_progress=self.verbose,
             )
         except Exception as exc:
             _log_step_error("Step 2/4: Resume upload failed", exc, submission)
@@ -417,7 +422,12 @@ class MDCClient:
     def upload_new_version(self, file_path: str, submission_id: str) -> bool:
         """Upload a new file version to an existing dataset."""
         try:
-            upload_dataset_file(file_path=file_path, submission_id=submission_id)
+            upload_dataset_file(
+                file_path=file_path,
+                submission_id=submission_id,
+                enable_logging=self.verbose,
+                show_progress=self.verbose,
+            )
         except Exception as exc:
             raise _wrap_exception(exc) from exc
         logger.info("MDC", "New version uploaded to %s", submission_id)

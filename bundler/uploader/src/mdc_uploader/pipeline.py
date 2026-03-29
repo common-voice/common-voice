@@ -285,10 +285,9 @@ def _cleanup_gcs_temp(
     """Clean up GCS-downloaded temp files after a locale upload.
 
     Always removes the tarball to prevent disk exhaustion during batches.
-    On success: also removes .mdc-upload.json and the temp dir.
-    On failure: preserves .mdc-upload.json for debugging, logs its path.
-    With step-by-step uploads, submission_id and file_upload_id are saved
-    in BatchState for recovery -- the tarball is not needed for retry.
+    SDK state files (.mdc-upload.json) are always preserved -- they are
+    small and useful for debugging and --resume.
+    On failure: additionally copies state to .state/ for easy discovery.
     """
     try:
         tmp_dir = os.path.dirname(tmp_file)
@@ -298,17 +297,8 @@ def _cleanup_gcs_temp(
         if not tmp_dir or tmp_dir == os.getcwd():
             return
 
-        if succeeded:
-            for fname in os.listdir(tmp_dir):
-                if fname.endswith(".mdc-upload.json"):
-                    os.unlink(os.path.join(tmp_dir, fname))
-            try:
-                os.rmdir(tmp_dir)
-            except OSError:
-                pass
-        else:
-            # Copy .mdc-upload.json to .state/ with locale in the name,
-            # then clean up the temp dir entirely.
+        if not succeeded:
+            # Copy .mdc-upload.json to .state/ for easy --resume discovery.
             import shutil  # pylint: disable=import-outside-toplevel
 
             for fname in os.listdir(tmp_dir):
@@ -323,11 +313,12 @@ def _cleanup_gcs_temp(
                         locale,
                         dest,
                     )
-                    os.unlink(src)
-            try:
-                os.rmdir(tmp_dir)
-            except OSError:
-                pass
+
+        # Try to remove temp dir if empty (tarball gone, state files may remain)
+        try:
+            os.rmdir(tmp_dir)
+        except OSError:
+            pass
     except OSError as exc:
         logger.warning("UPLOAD", "[%s] Cleanup failed (non-fatal): %s", locale, exc)
 
@@ -831,7 +822,11 @@ def run_batch(config: UploaderConfig) -> bool:
             )
 
         # Initialize MDC client
-        client = MDCClient(config.mdc_api_key, config.mdc_api_url) if not config.dry_run else None
+        client = (
+            MDCClient(config.mdc_api_key, config.mdc_api_url, verbose=config.verbose)
+            if not config.dry_run
+            else None
+        )
 
         # Streaming is default for gs:// URIs; --no-stream disables it.
         use_streaming = is_gcs_uri(config.base_dir) and not config.no_stream
