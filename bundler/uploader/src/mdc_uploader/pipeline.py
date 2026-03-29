@@ -4,7 +4,9 @@ from __future__ import annotations
 
 import os
 import tempfile
+import threading
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from mdc_uploader import language
 from mdc_uploader.config import UploaderConfig
@@ -279,14 +281,16 @@ def _cleanup_gcs_temp(
     tmp_file: str,
     locale: str,
     succeeded: bool,
+    release_name: str = "",
+    release_type: str = "",
 ) -> None:
     """Clean up GCS-downloaded temp files after a locale upload.
 
     Always removes the tarball to prevent disk exhaustion during batches.
-    On success: also removes .mdc-upload.json and the temp dir.
-    On failure: preserves .mdc-upload.json for debugging, logs its path.
-    With step-by-step uploads, submission_id and file_upload_id are saved
-    in BatchState for recovery -- the tarball is not needed for retry.
+    SDK state files (.mdc-upload.json) are always preserved -- they are
+    small and useful for debugging and --resume.
+    On failure: additionally copies state to .state/ using the canonical
+    _sdk_state_fname so --resume can discover it.
     """
     try:
         tmp_dir = os.path.dirname(tmp_file)
@@ -296,36 +300,36 @@ def _cleanup_gcs_temp(
         if not tmp_dir or tmp_dir == os.getcwd():
             return
 
-        if succeeded:
-            for fname in os.listdir(tmp_dir):
-                if fname.endswith(".mdc-upload.json"):
-                    os.unlink(os.path.join(tmp_dir, fname))
-            try:
-                os.rmdir(tmp_dir)
-            except OSError:
-                pass
-        else:
-            # Copy .mdc-upload.json to .state/ with locale in the name,
-            # then clean up the temp dir entirely.
-            import shutil  # pylint: disable=import-outside-toplevel
+        # Copy any SDK state files to STATE_DIR with canonical name
+        # (small files, useful for debugging and --resume).
+        import shutil  # pylint: disable=import-outside-toplevel
 
-            for fname in os.listdir(tmp_dir):
-                if fname.endswith(".mdc-upload.json"):
-                    src = os.path.join(tmp_dir, fname)
-                    dest = os.path.join(STATE_DIR, f"mdc-upload-{locale}.json")
-                    os.makedirs(STATE_DIR, exist_ok=True)
-                    shutil.copy2(src, dest)
+        dest_fname = (
+            _sdk_state_fname(release_name, release_type, locale)
+            if release_name and release_type
+            else f"mdc-upload-{locale}.json"
+        )
+        for fname in os.listdir(tmp_dir):
+            if fname.endswith(".mdc-upload.json"):
+                src = os.path.join(tmp_dir, fname)
+                dest = os.path.join(STATE_DIR, dest_fname)
+                os.makedirs(STATE_DIR, exist_ok=True)
+                shutil.copy2(src, dest)
+                if not succeeded:
                     logger.info(
                         "UPLOAD",
                         "[%s] MDC upload state saved to: %s",
                         locale,
                         dest,
                     )
-                    os.unlink(src)
-            try:
-                os.rmdir(tmp_dir)
-            except OSError:
-                pass
+                # Remove from temp dir so rmdir can succeed
+                os.unlink(src)
+
+        # Remove the now-empty temp dir
+        try:
+            os.rmdir(tmp_dir)
+        except OSError:
+            pass
     except OSError as exc:
         logger.warning("UPLOAD", "[%s] Cleanup failed (non-fatal): %s", locale, exc)
 
@@ -383,6 +387,7 @@ def process_locale(  # pylint: disable=too-many-return-statements,too-many-branc
     client: MDCClient | None,
     dry_run: bool,
     base_dir: str = "",
+    use_streaming: bool = False,
 ) -> UploadResult:
     """Process a single locale upload."""
     locale = job.locale
@@ -493,55 +498,109 @@ def process_locale(  # pylint: disable=too-many-return-statements,too-many-branc
                 attempts=1,
             )
 
-        # Resolve file path and datasheet
-        tarball_local, datasheet_text, resolve_error = _resolve_file_and_datasheet(job, base_dir)
+        # -- Streaming path: skip download, read datasheet from GCS directly --
+        if use_streaming and is_gcs_uri(base_dir):
+            datasheet_text = ""
+            if job.datasheet_path:
+                datasheet_text = gcs_read_text(base_dir, job.datasheet_path) or ""
+                if not datasheet_text:
+                    logger.warning("UPLOAD", "[%s] No datasheet found in GCS", locale)
 
-        if tarball_local is None:
-            return UploadResult(
+            if dry_run:
+                logger.info(
+                    "UPLOAD",
+                    "[%s] DRY RUN (stream) -- would upload %s (%s) as '%s'",
+                    locale,
+                    os.path.basename(job.tarball_path),
+                    format_size(job.file_size),
+                    f"Common Voice {job.release_spec.modality_display} "
+                    f"{job.release_spec.version} - {english_name}",
+                )
+                return UploadResult(
+                    locale=locale,
+                    status="skipped",
+                    size_bytes=job.file_size,
+                    duration_seconds=time.monotonic() - start,
+                )
+
+            assert client is not None
+            submission = client.build_submission(
+                release_spec=job.release_spec,
+                english_name=english_name,
+                native_name=native_name,
                 locale=locale,
-                status="failed",
-                size_bytes=job.file_size,
-                duration_seconds=time.monotonic() - start,
-                error=resolve_error or f"Tarball not found: {job.tarball_path}",
-                attempts=0,
+                license_name=job.license_type,
+                datasheet_text=datasheet_text,
+            )
+            tarball_local = None  # no temp file in streaming mode
+        else:
+            # -- Non-streaming path: download to temp, resolve datasheet ------
+            tarball_local, datasheet_text, resolve_error = _resolve_file_and_datasheet(
+                job, base_dir
             )
 
-        # Track temp file for cleanup in GCS mode
-        if is_gcs_uri(base_dir):
-            tmp_file = tarball_local
+            if tarball_local is None:
+                return UploadResult(
+                    locale=locale,
+                    status="failed",
+                    size_bytes=job.file_size,
+                    duration_seconds=time.monotonic() - start,
+                    error=resolve_error or f"Tarball not found: {job.tarball_path}",
+                    attempts=0,
+                )
 
-        if dry_run:
-            logger.info(
-                "UPLOAD",
-                "[%s] DRY RUN -- would upload %s (%s) as '%s'",
-                locale,
-                os.path.basename(job.tarball_path),
-                format_size(job.file_size),
-                f"Common Voice {job.release_spec.modality_display} "
-                f"{job.release_spec.version} - {english_name}",
-            )
-            return UploadResult(
+            # Track temp file for cleanup in GCS mode
+            if is_gcs_uri(base_dir):
+                tmp_file = tarball_local
+
+            if dry_run:
+                logger.info(
+                    "UPLOAD",
+                    "[%s] DRY RUN -- would upload %s (%s) as '%s'",
+                    locale,
+                    os.path.basename(job.tarball_path),
+                    format_size(job.file_size),
+                    f"Common Voice {job.release_spec.modality_display} "
+                    f"{job.release_spec.version} - {english_name}",
+                )
+                return UploadResult(
+                    locale=locale,
+                    status="skipped",
+                    size_bytes=job.file_size,
+                    duration_seconds=time.monotonic() - start,
+                )
+
+            assert client is not None
+            submission = client.build_submission(
+                release_spec=job.release_spec,
+                english_name=english_name,
+                native_name=native_name,
                 locale=locale,
-                status="skipped",
-                size_bytes=job.file_size,
-                duration_seconds=time.monotonic() - start,
+                license_name=job.license_type,
+                datasheet_text=datasheet_text,
             )
 
-        assert client is not None
-        submission = client.build_submission(
-            release_spec=job.release_spec,
-            english_name=english_name,
-            native_name=native_name,
-            locale=locale,
-            license_name=job.license_type,
-            datasheet_text=datasheet_text,
-        )
-
-        # Sequential readahead hint -- reduces page cache pressure for multi-GB uploads.
-        _try_fadvise(tarball_local, getattr(os, "POSIX_FADV_SEQUENTIAL", 0))
+            # Sequential readahead hint for non-streaming path.
+            _try_fadvise(tarball_local, getattr(os, "POSIX_FADV_SEQUENTIAL", 0))
 
         if job.submission_id:
-            # Version update mode
+            # Version update mode -- requires a local file (SDK API).
+            # If streaming left tarball_local=None, download now.
+            if tarball_local is None and is_gcs_uri(base_dir):
+                tarball_local, _, resolve_error = _resolve_file_and_datasheet(
+                    job, base_dir
+                )
+                if tarball_local is None:
+                    return UploadResult(
+                        locale=locale,
+                        status="failed",
+                        size_bytes=job.file_size,
+                        duration_seconds=time.monotonic() - start,
+                        error=resolve_error or "Tarball download failed for version update",
+                        attempts=0,
+                    )
+                tmp_file = tarball_local
+            assert tarball_local is not None
             logger.info(
                 "UPLOAD",
                 "[%s] Uploading new version to %s (%s)",
@@ -570,11 +629,29 @@ def process_locale(  # pylint: disable=too-many-return-statements,too-many-branc
         state_path = _sdk_state_path(
             base_dir, job.release_spec.release_name, job.release_type.value, locale,
         )
-        submission_id, _ = client.create_and_upload(
-            file_path=tarball_local,
-            submission=submission,
-            state_path=state_path,
-        )
+
+        if use_streaming and is_gcs_uri(base_dir):
+            # Streaming mode: GCS range reads -> MDC presigned URLs.
+            # No temp file, no download phase.
+            bucket_name, base_prefix = _parse_gcs_uri(base_dir)
+            blob_path = (
+                f"{base_prefix}/{job.tarball_path}"
+                if base_prefix
+                else job.tarball_path
+            )
+            submission_id, _ = client.stream_and_upload(
+                bucket_name=bucket_name,
+                blob_path=blob_path,
+                submission=submission,
+                state_path=state_path,
+                locale=locale,
+            )
+        else:
+            submission_id, _ = client.create_and_upload(
+                file_path=tarball_local,
+                submission=submission,
+                state_path=state_path,
+            )
         upload_succeeded = True
         return UploadResult(
             locale=locale,
@@ -606,7 +683,10 @@ def process_locale(  # pylint: disable=too-many-return-statements,too-many-branc
         )
     finally:
         if tmp_file and os.path.exists(tmp_file):
-            _cleanup_gcs_temp(tmp_file, locale, upload_succeeded)
+            _cleanup_gcs_temp(
+                tmp_file, locale, upload_succeeded,
+                job.release_spec.release_name, job.release_type.value,
+            )
         elif not upload_succeeded:
             _preserve_sdk_state_local(
                 job.tarball_path, locale, job.release_spec.release_name, job.release_type.value,
@@ -683,7 +763,9 @@ def print_summary(state: BatchState) -> None:
         )
         # Check for SDK state files that support --resume (partial uploads).
         # State may be in upload-logs/ (GCS-persistent) or .state/ (local).
-        from mdc_uploader.constants import DEFAULT_BASE_DIR  # pylint: disable=import-outside-toplevel
+        from mdc_uploader.constants import (
+            DEFAULT_BASE_DIR,  # pylint: disable=import-outside-toplevel
+        )
 
         upload_logs_dir = os.path.join(state.base_dir, state.release, "upload-logs")
         base_dir_flag = ""
@@ -771,23 +853,75 @@ def run_batch(config: UploaderConfig) -> bool:
             )
 
         # Initialize MDC client
-        client = MDCClient(config.mdc_api_key, config.mdc_api_url) if not config.dry_run else None
+        client = (
+            MDCClient(config.mdc_api_key, config.mdc_api_url, verbose=config.verbose)
+            if not config.dry_run
+            else None
+        )
 
-        # Process locales with batch progress bar
+        # Streaming is default for gs:// URIs; --no-stream disables it.
+        use_streaming = is_gcs_uri(config.base_dir) and not config.no_stream
+        if use_streaming:
+            logger.info("UPLOAD", "Streaming mode: GCS range-read -> MDC (no temp files)")
+
+        # Concurrency and retry settings.
+        # Parallel only with streaming -- non-streaming downloads to temp
+        # and concurrent downloads would exhaust ephemeral disk.
+        max_workers = config.jobs if use_streaming else 1
+        max_retries = 3
+
+        if max_workers > 1 and not config.dry_run:
+            logger.info("UPLOAD", "Parallel: %d workers, %d retries per locale",
+                        max_workers, max_retries)
+        elif not use_streaming and config.jobs > 1:
+            logger.info("UPLOAD", "Parallel disabled: non-streaming mode uses temp files")
+
+        # Process locales
         progress = batch_progress(len(jobs))
-        for i, job in enumerate(jobs, 1):
-            result = process_locale(job, client, config.dry_run, config.base_dir)
-            state.record(result)
+        completed_count = 0
+        completed_lock = threading.Lock()
 
-            status_label = result.status.upper()
+        def _process_with_retry(job: LocaleUploadJob) -> UploadResult:
+            """Run process_locale with auto-retry on failure."""
+            result: UploadResult | None = None
+            attempt = 0
+            for attempt in range(1, max_retries + 1):
+                result = process_locale(
+                    job, client, config.dry_run, config.base_dir,
+                    use_streaming,
+                )
+                if result.status != "failed":
+                    break
+                # Orphaned drafts should not be retried -- each retry
+                # would create a new draft, wasting API quota.
+                # Use --retry-failed to recover from step 3 instead.
+                if result.orphaned_draft:
+                    break
+                if attempt < max_retries:
+                    logger.warning(
+                        "UPLOAD",
+                        "[%s] Attempt %d/%d failed: %s -- retrying",
+                        job.locale,
+                        attempt,
+                        max_retries,
+                        result.error,
+                    )
+            assert result is not None
+            result.attempts = max(result.attempts, attempt)
+            return result
+
+        def _log_result(result: UploadResult) -> None:
+            nonlocal completed_count
+            state.record(result)
+            with completed_lock:
+                completed_count += 1
+                idx = completed_count
+            total = len(jobs)
             if result.status == "success":
                 logger.info(
                     "UPLOAD",
-                    "[%d/%d] %s -- %s (%s in %.1fs)",
-                    i,
-                    len(jobs),
-                    result.locale,
-                    status_label,
+                    "[%d/%d] %s -- SUCCESS (%s in %.1fs)",
+                    idx, total, result.locale,
                     format_size(result.size_bytes),
                     result.duration_seconds,
                 )
@@ -795,21 +929,39 @@ def run_batch(config: UploaderConfig) -> bool:
                 logger.error(
                     "UPLOAD",
                     "[%d/%d] %s -- FAILED: %s",
-                    i,
-                    len(jobs),
-                    result.locale,
-                    result.error,
+                    idx, total, result.locale, result.error,
                 )
             elif result.status == "skipped":
                 logger.info(
                     "UPLOAD",
                     "[%d/%d] %s -- SKIPPED (dry run)",
-                    i,
-                    len(jobs),
-                    result.locale,
+                    idx, total, result.locale,
                 )
-
             progress.update(1)
+
+        if max_workers <= 1 or config.dry_run:
+            # Sequential path (dry-run or -j 1)
+            for job in jobs:
+                _log_result(_process_with_retry(job))
+        else:
+            # Parallel path
+            with ThreadPoolExecutor(max_workers=max_workers) as pool:
+                futures = {
+                    pool.submit(_process_with_retry, job): job
+                    for job in jobs
+                }
+                for future in as_completed(futures):
+                    job = futures[future]
+                    try:
+                        result = future.result()
+                    except Exception as exc:  # pylint: disable=broad-exception-caught
+                        result = UploadResult(
+                            locale=job.locale,
+                            status="failed",
+                            size_bytes=job.file_size,
+                            error=f"Unhandled thread error: {exc}",
+                        )
+                    _log_result(result)
 
         progress.close()
 

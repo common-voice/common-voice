@@ -17,7 +17,10 @@ For architecture and development details see [DEVELOPER.md](DEVELOPER.md).
 - Can resume a partially uploaded locale (multipart) via `--resume` -- only missing parts are re-sent
 - Can upload new file versions to existing MDC datasets via `--submission-id`
 - Can preview uploads without calling MDC via `--dry-run`
-- Can read files from local directories, GCS buckets (`gs://` URIs), or GCSFuse mounts (if available)
+- Can stream uploads directly from GCS to MDC without downloading to disk (default for `gs://` base dirs)
+- Can upload multiple locales concurrently via `-j` (default: 4 jobs, streaming mode only)
+- Can auto-retry failed locales up to 3 times before marking them as failed
+- Can read files from local directories or GCS buckets (`gs://` URIs)
 - Can handle 429 rate limiting with Retry-After awareness and automatic retries
 - Can recover orphaned drafts on retry -- if upload succeeded but metadata update failed, `--retry-failed` skips re-upload and resumes from step 3
 - Can log full HTTP request payloads and response bodies on error for debugging
@@ -125,8 +128,10 @@ Optional:
        --retry-failed FILE                     State JSON from a previous run (retries failed only)
        --resume                                Resume a partial upload from saved SDK state (use with -r and -l)
        --dry-run                               Preview without uploading
+  -j,  --jobs INTEGER                          Concurrent locale uploads (default: 4, streaming only)
+       --no-stream                             Disable GCS streaming; download to temp before upload
        --log-file PATH                         Write log output to file (always DEBUG level)
-  -v,  --verbose                               Debug logging on console
+  -v,  --verbose                               Debug logging on console + show MDC SDK output
   -h,  --help                                  Show help and exit
 ```
 
@@ -142,6 +147,17 @@ When MDC returns a 429 response, the tool:
 2. Retries the same locale up to 3 times
 3. If all retries fail, marks the locale as **failed** and continues to the next
 4. The batch never aborts -- all failures are collected and shown in the summary
+
+### GCS Streaming Mode
+
+When `--base-dir` is a `gs://` URI, streaming is enabled by default. Instead of downloading each tarball to a temp file before uploading, the tool reads 256 MB chunks directly from GCS and uploads each chunk to MDC via presigned URLs. This eliminates the multi-hour download phase for large files (85-100 GB) and enables concurrent uploads.
+
+- Memory: ~256 MB per concurrent job (constant regardless of file size)
+- Disk: zero (no temp files)
+- Progress: logged per chunk
+- Resume: supported via the same state file format as non-streaming mode
+
+Use `--no-stream` to fall back to the download-to-temp path. Concurrency (`-j`) is only available in streaming mode -- non-streaming mode runs sequentially to avoid disk exhaustion.
 
 ### Error Output
 
@@ -185,6 +201,19 @@ mdc-upload -r sps-corpus-3.0-2026-03-09 --base-dir ./test-releases -ut dev -l ga
 
 ```bash
 mdc-upload -r cv-corpus-25.0-2026-03-09 -ut prod -l "en ga-IE mt"
+```
+
+### Concurrent uploads (streaming)
+
+```bash
+# 8 concurrent streams from GCS (default is 4)
+mdc-upload -r cv-corpus-25.0-2026-03-09 --base-dir gs://common-voice-bundler -ut prod -j 8
+
+# Sequential (disable concurrency)
+mdc-upload -r cv-corpus-25.0-2026-03-09 --base-dir gs://common-voice-bundler -ut prod -j 1
+
+# Disable streaming entirely (download to temp, sequential only)
+mdc-upload -r cv-corpus-25.0-2026-03-09 --base-dir gs://common-voice-bundler -ut prod --no-stream
 ```
 
 ### Update an existing dataset
@@ -268,7 +297,7 @@ When `--locales` is omitted, the tool checks all known locales (from the CV API)
 
 The uploader reads tarballs from `--base-dir` and uploads them to MDC via the API. Each tarball is uploaded as a dataset submission, with the corresponding datasheet attached as metadata.
 
-For `gs://` URIs, `google-cloud-storage` is included as a runtime dependency. See [DEVELOPER.md](DEVELOPER.md) for details.
+For `gs://` URIs, GCS streaming is used by default -- chunks are read directly from GCS and uploaded to MDC without touching disk. For local directories, the SDK reads files directly. See [DEVELOPER.md](DEVELOPER.md) for details.
 
 ## Release Name Conventions
 

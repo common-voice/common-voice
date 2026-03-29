@@ -1,11 +1,11 @@
-"""Type stubs for datacollective.upload."""
+"""Type stubs for datacollective.upload (v0.4.5)."""
 
-from typing import Any
+from datacollective.upload_utils import UploadState
 
 def upload_dataset_file(
     file_path: str,
     submission_id: str,
     state_path: str | None = ...,
-    verbose: bool = ...,
     show_progress: bool = ...,
-) -> Any: ...
+    enable_logging: bool = ...,
+) -> UploadState: ...
