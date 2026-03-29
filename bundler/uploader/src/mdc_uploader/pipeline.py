@@ -581,7 +581,23 @@ def process_locale(  # pylint: disable=too-many-return-statements,too-many-branc
             _try_fadvise(tarball_local, getattr(os, "POSIX_FADV_SEQUENTIAL", 0))
 
         if job.submission_id:
-            # Version update mode
+            # Version update mode -- requires a local file (SDK API).
+            # If streaming left tarball_local=None, download now.
+            if tarball_local is None and is_gcs_uri(base_dir):
+                tarball_local, _, resolve_error = _resolve_file_and_datasheet(
+                    job, base_dir
+                )
+                if tarball_local is None:
+                    return UploadResult(
+                        locale=locale,
+                        status="failed",
+                        size_bytes=job.file_size,
+                        duration_seconds=time.monotonic() - start,
+                        error=resolve_error or "Tarball download failed for version update",
+                        attempts=0,
+                    )
+                tmp_file = tarball_local
+            assert tarball_local is not None
             logger.info(
                 "UPLOAD",
                 "[%s] Uploading new version to %s (%s)",

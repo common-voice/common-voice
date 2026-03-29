@@ -492,7 +492,7 @@ Ruff is the primary linter and formatter (replaces black, isort, flake8). Pylint
 
 Runtime:
 
-- `datacollective>=0.4.5` -- MDC Python SDK (150 GB upload limit)
+- `datacollective>=0.4.5,<1.0` -- MDC Python SDK (150 GB upload limit)
 - `click>=8.1` -- CLI framework
 - `tenacity>=8.2` -- retry with backoff
 - `httpx>=0.27` -- HTTP client for language API

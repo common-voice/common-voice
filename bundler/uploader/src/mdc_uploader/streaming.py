@@ -112,6 +112,11 @@ def stream_upload_from_gcs(
     # part_size if the server chose a different value or we resumed from
     # an existing state file.
     effective_part_size = state.partSize
+    if effective_part_size <= 0:
+        raise ValueError(
+            f"Invalid partSize ({effective_part_size}) in upload state -- "
+            "corrupt state file or unexpected server response"
+        )
     num_parts = int(math.ceil(file_size / effective_part_size))
     parts_done: dict[int, str] = {p.partNumber: p.etag for p in state.parts}
 
