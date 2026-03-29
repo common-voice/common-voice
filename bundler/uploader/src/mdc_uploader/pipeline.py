@@ -281,13 +281,16 @@ def _cleanup_gcs_temp(
     tmp_file: str,
     locale: str,
     succeeded: bool,
+    release_name: str = "",
+    release_type: str = "",
 ) -> None:
     """Clean up GCS-downloaded temp files after a locale upload.
 
     Always removes the tarball to prevent disk exhaustion during batches.
     SDK state files (.mdc-upload.json) are always preserved -- they are
     small and useful for debugging and --resume.
-    On failure: additionally copies state to .state/ for easy discovery.
+    On failure: additionally copies state to .state/ using the canonical
+    _sdk_state_fname so --resume can discover it.
     """
     try:
         tmp_dir = os.path.dirname(tmp_file)
@@ -298,13 +301,18 @@ def _cleanup_gcs_temp(
             return
 
         if not succeeded:
-            # Copy .mdc-upload.json to .state/ for easy --resume discovery.
+            # Copy .mdc-upload.json to .state/ for --resume discovery.
             import shutil  # pylint: disable=import-outside-toplevel
 
+            dest_fname = (
+                _sdk_state_fname(release_name, release_type, locale)
+                if release_name and release_type
+                else f"mdc-upload-{locale}.json"
+            )
             for fname in os.listdir(tmp_dir):
                 if fname.endswith(".mdc-upload.json"):
                     src = os.path.join(tmp_dir, fname)
-                    dest = os.path.join(STATE_DIR, f"mdc-upload-{locale}.json")
+                    dest = os.path.join(STATE_DIR, dest_fname)
                     os.makedirs(STATE_DIR, exist_ok=True)
                     shutil.copy2(src, dest)
                     logger.info(
@@ -655,7 +663,10 @@ def process_locale(  # pylint: disable=too-many-return-statements,too-many-branc
         )
     finally:
         if tmp_file and os.path.exists(tmp_file):
-            _cleanup_gcs_temp(tmp_file, locale, upload_succeeded)
+            _cleanup_gcs_temp(
+                tmp_file, locale, upload_succeeded,
+                job.release_spec.release_name, job.release_type.value,
+            )
         elif not upload_succeeded:
             _preserve_sdk_state_local(
                 job.tarball_path, locale, job.release_spec.release_name, job.release_type.value,
