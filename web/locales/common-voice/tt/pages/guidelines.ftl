@@ -37,6 +37,7 @@ contact-common-voice = Common Voice такымына мөрәҗәгать ите
 public-domain = Иҗтимагый милектә
 adding-sentences = Җөмләләр өстәү
 reviewing-sentences = Җөмләләрне тикшерү
+sentence-domain = Җөмләләр домены
 
 ## Sentence collection sidebar content
 
@@ -71,6 +72,17 @@ easy-to-understand = Аңларга җиңел
 spelling-and-pronunciation = Орфография һәм тыныш билгеләре
 length = Озынлык
 dont-add-subheader = Шуларны өстәмәгез
+
+## Spontaneous Speech sidebar content
+
+tags-table-header-1 = Билге
+tags-table-header-2 = Мәгънә
+tags-laugh = Көлү
+tags-noise = Шау-шу
+
+## Review the Transcription
+
+review-the-transcription = Транскрипцияне тикшерү
 
 ## Code-Switching
 

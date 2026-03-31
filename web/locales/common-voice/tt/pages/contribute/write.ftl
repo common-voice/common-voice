@@ -102,3 +102,8 @@ add-sentences = Җөмләләр өстәү
 add-sentences-menu-item-tooltip = Җөмләләр өстәү
 review-sentences-menu-item-tooltip = Җөмләләрне тикшерү
 add-questions-menu-item-tooltip = Сораулар өстәү
+review-questions-menu-item-tooltip = Сорауларны тикшерү
+
+## MENU ITEM ARIA LABELS
+
+write-contribute-menu-aria-label = Язу көйләүләре менюсы

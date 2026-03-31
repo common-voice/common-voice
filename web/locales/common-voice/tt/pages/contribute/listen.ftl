@@ -11,3 +11,13 @@ listen-loading-error =
 listen-abort-title = Клипларны тикшерү тәмамлансынмы?
 listen-abort-cancel = Тикшерүне дәвам итү
 listen-abort-confirm = Тикшерүне тәмамлау
+# Menu item
+validate-readings = Әйтелешне тикшерү
+
+## MENU ITEM TOOLTIPS
+
+listen-contribute-menu-tooltip = Әйтелешне тикшерү, транскрипцияләрне тикшерү
+
+## MENU ITEM ARIA LABELS
+
+listen-contribute-menu-aria-label = Тыңлау көйләүләре менюсы
