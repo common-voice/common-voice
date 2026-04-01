@@ -319,6 +319,7 @@ qxt = Quechua de Santa Ana de Tusi du Pasco
 qxu = Quechua d’Arequipa-La Unión
 qxw = Quechua de Jauja Wanka
 rif = Rifain
+rki = Arakanais
 rm-sursilv = Romanche sursilvan
 rm-vallader = Bas-engadinois
 rn = Kirundi
@@ -494,6 +495,16 @@ announcement-mdc-text = <strong>De nouveaux jeux de données Common Voice</stron
 announcement-mdc-button-text = Rejoindre le Mozilla Data Collective
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = S’ouvre dans un nouvel onglet
+
+## Release Delay Announcement
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-delay = Chère communauté, nous travaillons actuellement sur la prochaine version. Nous prévoyons qu’elle sera déployée progressivement dans les prochains jours sur <mdcLink>Mozilla Data Collective</mdcLink>.
+
+## Release Announcement
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release = Chère communauté, la nouvelle version est maintenant entièrement disponible sur <mdcLink>Mozilla Data Collective</mdcLink>. Inscrivez-vous pour accéder à plus de 500 jeux de données mondiaux, créés par et pour la communauté.
 
 ## Common Language/Dataset Selector & SearchBox Related
 
