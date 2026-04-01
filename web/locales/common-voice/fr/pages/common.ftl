@@ -506,6 +506,11 @@ announcement-release-delay = Chère communauté, nous travaillons actuellement s
 # Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
 announcement-release = Chère communauté, la nouvelle version est maintenant entièrement disponible sur <mdcLink>Mozilla Data Collective</mdcLink>. Inscrivez-vous pour accéder à plus de 500 jeux de données mondiaux, créés par et pour la communauté.
 
+## Pre-Release Announcement (dates TBD)
+
+# Text wrapped in <cvDatasheetsLink></cvDatasheetsLink> will be rendered as an external link to the cv-datasheets GitHub repo
+announcement-pre-release = Chère communauté, la prochaine version est en approche. Merci de valider et de retranscrire, et pensez également à consulter les <cvDatasheetsLink>cv-datasheets</cvDatasheetsLink> afin de mettre à jour votre fiche technique.
+
 ## Common Language/Dataset Selector & SearchBox Related
 
 # Generic search box defaults
