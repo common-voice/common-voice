@@ -98,3 +98,8 @@ too-many-files = ٻہوں ساریاں فائلاں
 
 # menu item
 add-sentences = جملے شامل کرو
+
+## MENU ITEM TOOLTIPS
+
+add-sentences-menu-item-tooltip = جملے شامل کرو
+review-sentences-menu-item-tooltip = جملیاں دا جائزہ گھنو
