@@ -27,8 +27,13 @@ contribute = Đóng góp
 ## Navbar
 
 question = Câu hỏi
+validate = Xác thực
 respond-to-prompt = Trả lời
+respond-to-prompt-mobile = Trả lời
+transcribe = Phiên âm
 check-transcriptions = Đánh giá
+check-transcriptions-mobile = Đánh giá
+tag = Tag
 
 ## Not Found Page
 

@@ -12,6 +12,7 @@ abq = Abaza
 ace = Aceh
 ady = Adyghe
 af = Nam Phi
+aii = Chắc chắn
 ajg = Adja
 aln = Albania Gheg
 am = Amhara
