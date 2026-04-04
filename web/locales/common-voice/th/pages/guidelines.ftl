@@ -302,3 +302,29 @@ code-switching-spelling-explanation = พยายามสะกดคำให
 # Don’t Clean Up or Simplify the Language
 code-switching-cleanup-header = อย่าตัดทอนหรือทำให้ภาษาเข้าใจง่ายขึ้น
 code-switching-cleanup-1 = แปลหรือถอดความ ให้เขียนสิ่งที่ผู้พูดพูดออกมา ไม่ใช่ความหมายที่ผู้พูดจะสื่อ
+code-switching-cleanup-2 = แก้ไขไวยการณ์หรือการออกเสียงให้ถูกต้อง ให้คงการใช้ตามธรรมชาติของผู้พูดเอาไว้
+code-switching-cleanup-3 = ข้ามการสลับภาษาที่ดูเหมือนเล็กน้อยหรือไม่สำคัญ แม้แต่คำที่ยืมมาก็มีความสำคัญ
+code-switching-cleanup-4 = ใส่เครื่องหมายวรรคตอนที่อาจเปลี่ยนความหมาย ให้รักษาความลื่นไหลตามธรรมชาติ
+code-switching-cleanup-5 = สันนิษฐานว่าคุณรู้จักภาษาของทุกคำ ให้ติดแท็กตามการใช้งาน
+# Tagging
+code-switching-tagging-subheader = การติดแท็ก
+code-switching-tagging-error-intro = ถ้าการถอดเสียงมีข้อผิดพลาด โปรดใช้ฟังก์ชันรายงานเพื่อแจ้งให้ทราบ ข้อผิดพลาดที่อาจเกิดขึ้นได้แก่:
+code-switching-tagging-error-1 = การใช้เครื่องหมายวรรคตอนหรือตัวพิมพ์ใหญ่ไม่ถูกต้อง
+code-switching-tagging-error-2 = การพิมพ์ผิด
+code-switching-tagging-error-3 = คำที่เขียนด้วยรูปสะกดที่ไม่ถูกต้อง
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = ใช้รูปสะกดที่ถูกต้องสำหรับแต่ละภาษา
+code-switching-orthography-explanation = เขียนแต่ละคำตามรูปสะกดของภาษาที่คำนั้นมาจาก ตัวอย่างเช่น:
+code-switching-orthography-explanation-example-1 = ถ้าคำว่า “kitchen” ออกเสียงเหมือนในภาษาสเปน ควรเขียนเหมือนในภาษาอังกฤษ ไม่ใช่เขียนว่า “quichen”
+code-switching-orthography-explanation-example-2 = ถ้าคำว่า quinceaños ออกเสียงเหมือนในภาษาอังกฤษ ให้เขียนด้วยตัว ñ
+# Use Pronunciation to Help Determine the Language
+code-switching-pronunciation-header = ใช้การออกเสียงเพื่อช่วยระบุภาษา
+code-switching-pronunciation-explanation = บางคำอาจดูเหมือนกันในทั้งสองภาษา แต่การออกเสียงอาจแตกต่างกัน ฟังการออกเสียงเพื่อช่วยให้ระบุคำได้อย่างถูกต้อง ตัวอย่างเช่น: cable, taco, actor, detective
+code-switching-pronunciation-explanation-example-1 = อังกฤษ: /ˈkeɪ.bəl/
+code-switching-pronunciation-explanation-example-2 = สเปน: /ˈkable/
+# Tagging in a Single Token
+code-switching-single-token-header = การติดแท็กในโทเค็นเดียว
+code-switching-single-token-explanation = โทเค็นเดียวที่คั่นด้วยช่องว่างควรมีสแปน (span) ที่ติดแท็กมากกว่าหนึ่งสแปน
+# Tag Punctuation Based on Nearby Language
+code-switching-punctuation-tagging-header = แท็กเครื่องหมายวรรคตอนตามภาษาใกล้เคียง
+code-switching-punctuation-tagging-explanation = ติดแท็กเครื่องหมายวรรคตอนโดยใช้ภาษาที่ใกล้เคียงที่สุดทางด้านซ้าย ตัวอย่างเช่น:
