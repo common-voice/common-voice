@@ -193,6 +193,7 @@ sq = Albán
 sr = Szerb
 ss = Szvázi
 st = Déli szeszotó
+su = Szundanéz
 sv-SE = Svéd
 sw = Szuahéli
 syr = Szír
