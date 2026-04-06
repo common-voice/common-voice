@@ -196,6 +196,12 @@ tags-unclear-explanation = Egy szó vagy szósorozat, amely nem érthető.
 tags-noise-explanation =
     Bármilyen más típusú zaj, például a beszélő köhög vagy köszörüli a torkát,
     egy autó dudál, valami megüti a mikrofont, csörög egy telefon, stb.
+# Note: do not translate any tag, like [noise] or [laugh]
+special-tags-example-2 =
+    És akkor [noise] elmentem nyaralni.
+    Nos, [noise] [laugh] ez nem épp nyaralás volt. [laugh]
+transcribe-the-audio-subheader-4-explanation-1 = A spontán beszéd természetesen tartalmaz hamis kezdéseket, ahol a teljes szónak csak egy töredéke jelenik meg. Ezekben az esetekben írja le a legjobb tudása szerint a szórészletet, és fűzzön egy kötőjelet a szó végéhez (-), jelezve, hogy a szó hibás. Példa:
+transcribe-the-audio-subheader-4-explanation-1-example = A neve <underline>Já- Ján-</underline> János volt.
 transcribe-the-audio-subheader-4-explanation-2 = Néha a beszélők többször megismételnek egy szót vagy szótöredéket. Ezt is át le kell iratozni. Példa:
 transcribe-the-audio-subheader-4-explanation-2-example = Aztán átmentem <underline>a háló- a</underline> hálószobába
 transcribe-the-audio-subheader-5-explanation-1 = A spontán beszéd természetesen tartalmaz nyelvtani hibákat. Ezeket nem szabad a leiratozáskor javítani. A leiratnak pontosan tükröznie kell az elhangzott tartalmat.
