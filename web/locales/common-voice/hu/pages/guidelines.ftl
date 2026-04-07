@@ -286,7 +286,23 @@ code-switching-answer-dont-force-switch = <bold>Kényszerítse a váltást, ha a
 code-switching-answer-dont-translate-repeat = <bold>Fordítson le vagy ismételjen meg mindent.</bold> Csak egyszer mondja, ahogyan egy beszélgetésben tenné. Nem kell minden nyelven megadnia a válasz egy verzióját.
 # Transcribing
 code-switching-transcribe-subheader = Leiratozás
+code-switching-transcribe-intro = Ha kódváltást tartalmazó válaszokat ír át, akkor a beszélő nyelvét úgy jelenítse meg, ahogyan az elhangzott – javítás, szerkesztés vagy egyszerűsítés nélkül. Ez a nyelvek, a kötetlen beszéd és a vegyes nyelvű szavak közti minden váltásra vonatkozik.
+code-switching-transcribe-do-1 = Játssza le többször a rövid szakaszokat, hogy észrevegye a finom váltásokat
+code-switching-transcribe-do-2 = Tartson szünetet minden mondat után, hogy ellenőrizze a váltásokat vagy a kevert szavakat
+# Capture Speech Exactly as Spoken
+code-switching-capture-header = Rögzítse a beszédet pontosan úgy, ahogyan az elhangzott
+code-switching-capture-explanation = Írja le mindkét nyelvet, ahogy az megjelent/elhangzott. Ne „javítsa ki” a nyelvet vagy módosítsa egyetlen nyelvre.
+# Include filler words and markers
+code-switching-filler-header = Tartsa meg a kitöltőszavakat és jelölőket
+# Use standard spelling for each language
+code-switching-spelling-header = Használjon szabványos helyesírást az összes nyelvnél
+code-switching-spelling-explanation = Próbálja meg helyesen írni a szavakat az összes nyelven, kivéve, ha a beszélő egyértelműen a szokásostól eltérő módon ejti őket.
+# Don’t Clean Up or Simplify the Language
+code-switching-cleanup-header = Ne javítsa ki vagy egyszerűsítse le a nyelvet
 code-switching-cleanup-1 = Fordítás vagy átfogalmazás – azt írja le, amit a beszélő mond, ne azt, amire gondolt.
+code-switching-cleanup-2 = „Javítsa ki” a nyelvtant vagy a kiejtést – tartsa meg a beszélő természetes nyelvhasználatát.
+code-switching-cleanup-3 = Hagyja ki a kisebbnek tűnő kódváltásokat – a jövevényszavak számítanak.
+code-switching-cleanup-4 = Jelentést megváltoztató írásjelek beszúrása – a folyama maradjon természetes.
 code-switching-orthography-explanation = Írjon minden szót annak a nyelvnek a helyesírása szerint, amelyből származnak. Például:
 code-switching-orthography-explanation-example-2 = Ha a quinceaños szót úgy ejtik ki, ahogy angolul mondják, akkor írja ñ betűvel.
 # When Not to Tag Words
