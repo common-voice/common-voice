@@ -302,9 +302,26 @@ code-switching-cleanup-header = Ne javítsa ki vagy egyszerűsítse le a nyelvet
 code-switching-cleanup-1 = Fordítás vagy átfogalmazás – azt írja le, amit a beszélő mond, ne azt, amire gondolt.
 code-switching-cleanup-2 = „Javítsa ki” a nyelvtant vagy a kiejtést – tartsa meg a beszélő természetes nyelvhasználatát.
 code-switching-cleanup-3 = Hagyja ki a kisebbnek tűnő kódváltásokat – a jövevényszavak számítanak.
-code-switching-cleanup-4 = Jelentést megváltoztató írásjelek beszúrása – a folyama maradjon természetes.
+code-switching-cleanup-4 = Szúrjon be Jelentést megváltoztató írásjeleket – a folyama maradjon természetes.
+code-switching-cleanup-5 = Feltételezze, hogy minden szó nyelvét ismeri – használat alapján címkézzen.
+# Tagging
+code-switching-tagging-subheader = Címkézés
+code-switching-tagging-error-intro = Ha a leirat hibát tartalmaz, akkor jelölje meg a jelentés függvénnyel. Lehetséges hibák többek között:
+code-switching-tagging-error-1 = Helytelen írásjelek vagy kis- és nagybetűk
+code-switching-tagging-error-2 = Elírások
+code-switching-tagging-error-3 = Hibás helyesírással írt szavak
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = Helyesírás az összes nyelven
 code-switching-orthography-explanation = Írjon minden szót annak a nyelvnek a helyesírása szerint, amelyből származnak. Például:
 code-switching-orthography-explanation-example-2 = Ha a quinceaños szót úgy ejtik ki, ahogy angolul mondják, akkor írja ñ betűvel.
+# Use Pronunciation to Help Determine the Language
+code-switching-pronunciation-header = Használja a kiejtést a nyelv meghatározására
+# Tag Punctuation Based on Nearby Language
+code-switching-punctuation-tagging-header = Központozás címkézése közeli nyelv alapján
+code-switching-punctuation-tagging-explanation = A központozást címkézze a bal oldalhoz legközelebbi nyelvvel. Példák:
+# Be Careful with Lookalikes
+code-switching-lookalikes-header = Legyen óvatos az azonos alakú szavakkal
+code-switching-lookalikes-explanation = Egyes szavak úgy nézhetnek ki, mintha egy nyelvből lennének, de egy másikban vannak használva. A jelentése és a használata alapján címkézze, ne a kinézete alapján. Példák:
 # When Not to Tag Words
 code-switching-not-tag-header = Mikor nem érdemes felcímkézni a szavakat
 code-switching-not-tag-explanation = Néhány szót <bold>nem kell címkézni</bold> nyelvi címkével, még akkor sem, ha kevertnek vagy átdolgozottnak tűnik.  Így kezeljen néhány példát:
