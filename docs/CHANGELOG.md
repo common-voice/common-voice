@@ -2,6 +2,88 @@
 
 ## Current release
 
+### [v1.158.0 (2025-04-07)](https://github.com/common-voice/common-voice/releases/tag/release-v1.158.0)
+
+- Fix: Add more error handling — handle undefined cases, add try-catch guards, show user-friendly notification for connection and server errors, by [@moz-bozden](https://github.com/moz-bozden) in [#5369](https://github.com/common-voice/common-voice/pull/5369)
+- Feat: Expand announcement module to support multiple announcements with tracking, by [@moz-bozden](https://github.com/moz-bozden) in [#5345](https://github.com/common-voice/common-voice/pull/5345) (in v.1.157.5)
+- Fix: Multiple BE fixes - guard accent arrays, coerce is_preferred_option to int, validate custom goal locale, skip orphaned votes, wrap OAuth callback, filter schema validation noise, classify client disconnects, by [@moz-bozden](https://github.com/moz-bozden) in [#5329](https://github.com/common-voice/common-voice/pull/5329) (in v.1.157.4)
+- Fix: Multiple FE fixes - harden state initialization, guard StatsCard tabs, map OverconstrainedError, add lazyWithRetry for dynamic imports, stale-chunk detection with auto-reload, safe sessionStorage helpers, by [@moz-bozden](https://github.com/moz-bozden) in [#5328](https://github.com/common-voice/common-voice/pull/5328) (in v.1.157.4)
+- Fix: Workflow image path, by [@moz-bozden](https://github.com/moz-bozden) in [#5315](https://github.com/common-voice/common-voice/pull/5315) (in v.1.157.3)
+- Feat: Fix UX issues on mobile devices by making the guidelines collapsible, by [@moz-bozden](https://github.com/moz-bozden) in [#5313](https://github.com/common-voice/common-voice/pull/5313) fixes [#5309](https://github.com/common-voice/common-voice/pull/5309) (in v.1.157.3)
+- Fix: Fix regression in Listen page where a warning is shown (again), by [@moz-bozden](https://github.com/moz-bozden) in [#5312](https://github.com/common-voice/common-voice/pull/5312) (in v.1.157.3)
+- Fix: Fix missing language info in the email sent in New Language Request page, by [@moz-bozden](https://github.com/moz-bozden) in [#5311](https://github.com/common-voice/common-voice/pull/5311) (in v.1.157.3)
+- Fix: Contact form was not working, by [@moz-bozden](https://github.com/moz-bozden) in [#5310](https://github.com/common-voice/common-voice/pull/5310) (in v.1.157.3)
+- Fix: Card animation not working, by [@VedantMadane](https://github.com/VedantMadane) in [#5252](https://github.com/common-voice/common-voice/pull/5252) (in v.1.157.3)
+- Feat: Add prefetching to statistics to be always up to date and prevent timeouts, by [@moz-bozden](https://github.com/moz-bozden) in [#5292](https://github.com/common-voice/common-voice/pull/5292) (in v.1.157.1)
+- Chore: Add more data checking guards in audio pipeline, by [@moz-bozden](https://github.com/moz-bozden) in [#5291](https://github.com/common-voice/common-voice/pull/5291) (in v.1.157.1)
+- Fix: Deadlock on local dev while getting SPS datasets, by [@moz-bozden](https://github.com/moz-bozden) in [#5295](https://github.com/common-voice/common-voice/pull/5295) (in v.1.157.1)
+- Fix: Two regressions on Speak page, by [@moz-bozden](https://github.com/moz-bozden) in [#5293](https://github.com/common-voice/common-voice/pull/5293) (in v.1.157.1)
+- Fix: Several fixes to audio pipeline, better error handling and transcoding resilience, by [@moz-bozden](https://github.com/moz-bozden) in [#5290](https://github.com/common-voice/common-voice/pull/5290) (in v.1.157.1)
+
+#### Data Changes in v1.158.0
+
+- Add Croatian (`hr`) variants by [@moz-bozden](https://github.com/moz-bozden) in [#5357](https://github.com/common-voice/common-voice/pull/5357) (in v.1.157.6)
+- Rename `tug` language from Tedaga to Tudaga (in v1.157.2)
+- Welcome new language Uspanteko (`usp`) (in v1.157.1)
+
+#### Spontaneous Speech v1.158.0
+
+- Feat: Expand announcement module to support multiple announcements about releases, by [@moz-bozden](https://github.com/moz-bozden) in [#528](https://github.com/common-voice/spontaneous-speech/pull/528) (in v1.157.5)
+- Fix: Add guard against metadata not yet loaded in advanced player on skip forward, by [@moz-bozden](https://github.com/moz-bozden) in [#532](https://github.com/common-voice/spontaneous-speech/pull/532)
+- Fix: Return a single random transcription for review to fix record not advancing after edit/vote, by [@moz-bozden](https://github.com/moz-bozden) in [#531](https://github.com/common-voice/spontaneous-speech/pull/531)
+- Fix: Statistics queries in Spontaneous Speech and Code-Siwtching should be based on audios, so that duplicate transcriptions should not be caounted, by [@moz-bozden](https://github.com/moz-bozden) in [#518](https://github.com/common-voice/spontaneous-speech/pull/518) (in v1.157.2)
+- Refactor: Report option to generalize the existing "different language", by [@moz-bozden](https://github.com/moz-bozden) in [#516](https://github.com/common-voice/spontaneous-speech/pull/516) (in v1.157.2)
+
+##### SS Data Changes in v1.158.0
+
+- Add Picard (`pcd`) questions by [@moz-bozden](https://github.com/moz-bozden) in [#529](https://github.com/common-voice/spontaneous-speech/pull/529) (in v1.157.6)
+- Add Croatian (`hr`) questions by [@bandrandr](https://github.com/bandrandr) in [#517](https://github.com/common-voice/spontaneous-speech/pull/517) (in v1.157.2)
+
+#### Changes to Bundlers and related repos in v1.158.0
+
+- SCS-Bundler-Feat: Update uploader for new MDC library and add multi-threaded streaming, add `--jobs` and `--no-stream` CLI options, by [@moz-bozden](https://github.com/moz-bozden) in [#5366](https://github.com/common-voice/common-voice/pull/5366)
+- SCS-Bundler-Feat: Observability and release operations improvements — add verbosity levels to CLI, save logs to GCS with unique names, add resources module for memory debugging, upgrade CC to v1.5.0, add native uploader `--resume` option, add OS-level page-cache hints to reduce memory pressure, add `--expose-gc` to node start, by [@moz-bozden](https://github.com/moz-bozden) in [#5348](https://github.com/common-voice/common-voice/pull/5348), [#5349](https://github.com/common-voice/common-voice/pull/5349), [#5350](https://github.com/common-voice/common-voice/pull/5350), [#5351](https://github.com/common-voice/common-voice/pull/5351), [#5352](https://github.com/common-voice/common-voice/pull/5352), [#5354](https://github.com/common-voice/common-voice/pull/5354), [#5356](https://github.com/common-voice/common-voice/pull/5356) (in v.1.157.6)
+- SCS-Bundler-Feat: Add central control for metadata file inclusion via constants and helper functions, by [@moz-bozden](https://github.com/moz-bozden) in [#5347](https://github.com/common-voice/common-voice/pull/5347) (in v.1.157.6)
+- SPS-Bundler-QA: Add English support to QA validation pipeline — add foreign script check with extended Latin and Unicode punctuation, standardize English disfluency tags, by [@moz-bozden](https://github.com/moz-bozden) in [#530](https://github.com/common-voice/spontaneous-speech/pull/530) (in v1.157.6)
+- SPS-Bundler-Docs: Add data pipeline graph to bundler README.md, refactor and update DEVELOPER.md, by [@moz-bozden](https://github.com/moz-bozden) (in v1.157.5)
+- SCS-Bundler-Feat: Add streaming tar upload/download to/from GCS and MDC upload script, enhance uploader workflow, by [@moz-bozden](https://github.com/moz-bozden) in [#5339](https://github.com/common-voice/common-voice/pull/5339), [#5341](https://github.com/common-voice/common-voice/pull/5341), [#5333](https://github.com/common-voice/common-voice/pull/5333) (in v.1.157.5)
+- SCS-Bundler-Feat: Optimize bundler for large datasets — solve GCS access bottleneck, enhance locale filtering, limit streaming to largest datasets, reduce Bull queue buildup in Redis, enhance datasheets and stats, by [@moz-bozden](https://github.com/moz-bozden) in [#5337](https://github.com/common-voice/common-voice/pull/5337), [#5340](https://github.com/common-voice/common-voice/pull/5340), [#5331](https://github.com/common-voice/common-voice/pull/5331), [#5332](https://github.com/common-voice/common-voice/pull/5332), [#5330](https://github.com/common-voice/common-voice/pull/5330), fixes in [#5338](https://github.com/common-voice/common-voice/pull/5338), [#5335](https://github.com/common-voice/common-voice/pull/5335), [#5334](https://github.com/common-voice/common-voice/pull/5334), [#5344](https://github.com/common-voice/common-voice/pull/5344), [#5343](https://github.com/common-voice/common-voice/pull/5343) (in v.1.157.5)
+- SPS-Bundler-Fix: Prevent deleted users' audios from leaking into new releases in bootstrap mode, sanitize TSV output, centralize audio-filename creation, and refactor payload handling, by [@moz-bozden](https://github.com/moz-bozden) in [#527](https://github.com/common-voice/spontaneous-speech/pull/527) (in v1.157.4)
+- SPS-Bundler-Fix: Fix duplicate question counts caused by left join in question count SQL query, add tests, by [@moz-bozden](https://github.com/moz-bozden) in [#526](https://github.com/common-voice/spontaneous-speech/pull/526) (in v1.157.4)
+- SPS-Bundler-Fix: More optimizations and fixes after test run — fix accent flow, add real question counts from DB, count non-other reports as invalidated, add demographics step with user accents/variants, add new tests, rename "type" to "releaseType", add --no-splitting flag, reduce memory via streaming, by [@moz-bozden](https://github.com/moz-bozden) in [#525](https://github.com/common-voice/spontaneous-speech/pull/525) (in v1.157.4)
+- SPS-Bundler-Feat: Optimize bundler flow — add --force option, progress tests, pre-exclude existing release files, add OOM cleanup, by [@moz-bozden](https://github.com/moz-bozden) in [#524](https://github.com/common-voice/spontaneous-speech/pull/524) (in v1.157.4)
+- SPS-Bundler-Feat: Staging test, fixes and upgrades — wrap stats for cv-dataset compatibility, add final report, optimize metadata compression, add bootstrap/delta pipeline integration, enhance GCS logging, by [@moz-bozden](https://github.com/moz-bozden) in [#523](https://github.com/common-voice/spontaneous-speech/pull/523) (in v1.157.4)
+- SPS-Bundler-Feat: Update bundler features to match SCS bundler — update CLI, simplify README, create DEVELOPER.md, drop compression level, update .dockerignore, by [@moz-bozden](https://github.com/moz-bozden) in [#522](https://github.com/common-voice/spontaneous-speech/pull/522) (in v1.157.4)
+- SPS-Bundler-CI: Upgrade bundler build-and-deploy workflow, fix GAR image path, by [@moz-bozden](https://github.com/moz-bozden) in [#521](https://github.com/common-voice/spontaneous-speech/pull/521) (in v1.157.4)
+- SPS-Bundler-Feat: Major rework of bundler to support different release modes, datasheets integration, fixes and performance improvements, by [@moz-bozden](https://github.com/moz-bozden) in [#520](https://github.com/common-voice/spontaneous-speech/pull/520) (in v.1.157.3)
+- SCS-Bundler-Feat: Optimize bundler flow with pre-filtering, --force flag, BullMQ lock extension, by [@moz-bozden](https://github.com/moz-bozden) in [#5323](https://github.com/common-voice/common-voice/pull/5323) (in v.1.157.3)
+- SCS-Bundler-Fix: Staging fixes — datasheets filename format, enhanced logging with ETA, delta release optimization for passive locales, by [@moz-bozden](https://github.com/moz-bozden) in [#5320](https://github.com/common-voice/common-voice/pull/5320) (in v.1.157.3)
+- SCS-Bundler-Feat: Implement stale BullMQ queue cleanup, reduce gzip level, enhance problem-clips logging, by [@moz-bozden](https://github.com/moz-bozden) in [#5317](https://github.com/common-voice/common-voice/pull/5317) (in v.1.157.3)
+- SCS-Bundler-Refactor: Lock mechanism overhaul with Redis processing SET guard, mandatory datasets-file param, reorganize docs, by [@moz-bozden](https://github.com/moz-bozden) in [#5316](https://github.com/common-voice/common-voice/pull/5316) (in v.1.157.3)
+- SCS-Bundler-Feat: Major rework of bundler to support different release modes, datasheets integration, fixes and performance improvements, by [@moz-bozden](https://github.com/moz-bozden) in [#5302](https://github.com/common-voice/common-voice/pull/5302), [#5314](https://github.com/common-voice/common-voice/pull/5314) (in v.1.157.3)
+- SPS-Feat: Add scrub_user script to remove a user/all data of a user if requested, by [@moz-bozden](https://github.com/moz-bozden) in [#519](https://github.com/common-voice/spontaneous-speech/pull/519) (in v1.157.2)
+- SCS-Bundler-Feat: Add cc0/licensed/both release modes to bundler, by [@moz-bozden](https://github.com/moz-bozden) in [#5297](https://github.com/common-voice/common-voice/pull/5297) (in v.1.157.2)
+- `cv-datasheets` - Feat: Refactor and extend the repo to feed the bundler and MDC datasets page, by [@moz-bozden](https://github.com/moz-bozden) in [#67](https://github.com/common-voice/cv-datasheets/pull/67), [#68](https://github.com/common-voice/cv-datasheets/pull/68), [#69](https://github.com/common-voice/cv-datasheets/pull/69), [#70](https://github.com/common-voice/cv-datasheets/pull/70) (during v.1.157.3), [#71](https://github.com/common-voice/cv-datasheets/pull/71), [#72](https://github.com/common-voice/cv-datasheets/pull/72), [#73](https://github.com/common-voice/cv-datasheets/pull/73) (during v.1.157.3)
+- `cv-datasheets` - Feat: Add auto-compile workflow, preview workflow, markdownlint report support, and refactor docs, by [@moz-bozden](https://github.com/moz-bozden) in [#77](https://github.com/common-voice/cv-datasheets/pull/77), [#78](https://github.com/common-voice/cv-datasheets/pull/78) (during v.1.157.5)
+- `cv-datasheets` - Community: Add Abkhazian (`ab`) datasheet by [@danielinux7](https://github.com/danielinux7) in [#74](https://github.com/common-voice/cv-datasheets/pull/74), add Formosan languages template assignments by [@irvinfly](https://github.com/irvinfly) in [#75](https://github.com/common-voice/cv-datasheets/pull/75), [#76](https://github.com/common-voice/cv-datasheets/pull/76) (during v.1.157.5)
+- `cv-datasheets` - Fix: Fix and update field definitions in templates, by [@moz-bozden](https://github.com/moz-bozden) in [#79](https://github.com/common-voice/cv-datasheets/pull/79) (during v.1.157.6)
+- `cv-dataset` - Refactor to keep stats from any dataset type, by [@moz-bozden](https://github.com/moz-bozden) in [#47](https://github.com/common-voice/cv-dataset/pull/47) (during v.1.157.2), [#48](https://github.com/common-voice/cv-dataset/pull/48) (during v.1.157.3)
+- `cv-dataset` - Add SCS v25.0 full and delta stats, SPS v1.0/v2.0/v3.0 stats (retrospective), add per-type sub-READMEs and sub-CHANGELOGs for SCS/SPS/CS, refactor main README, by [@moz-bozden](https://github.com/moz-bozden) in [#49](https://github.com/common-voice/cv-dataset/pull/49) (during v.1.157.6)
+
+---
+
+### Changes merged after current release
+
+#### Data Changes after current release
+
+#### Spontaneous Speech after current release
+
+##### SS Data Changes after current release
+
+---
+
+## Past releases
+
 ### [v1.157.0 (2025-02-12)](https://github.com/common-voice/common-voice/releases/tag/release-v1.157.0)
 
 - Chore: Rework New Language Request page to check for existing language datasets, give feedback, and only enable emails when some are missing, by [@bandrandr](https://github.com/bandrandr) in [#5253](https://github.com/common-voice/common-voice/pull/5253)
@@ -56,74 +138,6 @@
 - Add Dutch (`nl`) questions by [@bandrandr](https://github.com/bandrandr) in [#503](https://github.com/common-voice/spontaneous-speech/pull/503) (in v1.156.2)
 
 ---
-
-### Changes merged after current release
-
-- Feat: Expand announcement module to support multiple announcements with tracking, by [@moz-bozden](https://github.com/moz-bozden) in [#5345](https://github.com/common-voice/common-voice/pull/5345) (in v.1.157.5)
-- Fix: Multiple BE fixes - guard accent arrays, coerce is_preferred_option to int, validate custom goal locale, skip orphaned votes, wrap OAuth callback, filter schema validation noise, classify client disconnects, by [@moz-bozden](https://github.com/moz-bozden) in [#5329](https://github.com/common-voice/common-voice/pull/5329) (in v.1.157.4)
-- Fix: Multiple FE fixes - harden state initialization, guard StatsCard tabs, map OverconstrainedError, add lazyWithRetry for dynamic imports, stale-chunk detection with auto-reload, safe sessionStorage helpers, by [@moz-bozden](https://github.com/moz-bozden) in [#5328](https://github.com/common-voice/common-voice/pull/5328) (in v.1.157.4)
-- Fix: Workflow image path, by [@moz-bozden](https://github.com/moz-bozden) in [#5315](https://github.com/common-voice/common-voice/pull/5315) (in v.1.157.3)
-- Feat: Fix UX issues on mobile devices by making the guidelines collapsible, by [@moz-bozden](https://github.com/moz-bozden) in [#5313](https://github.com/common-voice/common-voice/pull/5313) fixes [#5309](https://github.com/common-voice/common-voice/pull/5309) (in v.1.157.3)
-- Fix: Fix regression in Listen page where a warning is shown (again), by [@moz-bozden](https://github.com/moz-bozden) in [#5312](https://github.com/common-voice/common-voice/pull/5312) (in v.1.157.3)
-- Fix: Fix missing language info in the email sent in New Language Request page, by [@moz-bozden](https://github.com/moz-bozden) in [#5311](https://github.com/common-voice/common-voice/pull/5311) (in v.1.157.3)
-- Fix: Contact form was not working, by [@moz-bozden](https://github.com/moz-bozden) in [#5310](https://github.com/common-voice/common-voice/pull/5310) (in v.1.157.3)
-- Fix: Card animation not working, by [@VedantMadane](https://github.com/VedantMadane) in [#5252](https://github.com/common-voice/common-voice/pull/5252) (in v.1.157.3)
-- Feat: Add prefetching to statistics to be always up to date and prevent timeouts, by [@moz-bozden](https://github.com/moz-bozden) in [#5292](https://github.com/common-voice/common-voice/pull/5292) (in v.1.157.1)
-- Chore: Add more data checking guards in audio pipeline, by [@moz-bozden](https://github.com/moz-bozden) in [#5291](https://github.com/common-voice/common-voice/pull/5291) (in v.1.157.1)
-- Fix: Deadlock on local dev while getting SPS datasets, by [@moz-bozden](https://github.com/moz-bozden) in [#5295](https://github.com/common-voice/common-voice/pull/5295) (in v.1.157.1)
-- Fix: Two regressions on Speak page, by [@moz-bozden](https://github.com/moz-bozden) in [#5293](https://github.com/common-voice/common-voice/pull/5293) (in v.1.157.1)
-- Fix: Several fixes to audio pipeline, better error handling and transcoding resilience, by [@moz-bozden](https://github.com/moz-bozden) in [#5290](https://github.com/common-voice/common-voice/pull/5290) (in v.1.157.1)
-
-#### Data Changes after current release
-
-- Add Croatian (`hr`) variants by [@moz-bozden](https://github.com/moz-bozden) in [#5357](https://github.com/common-voice/common-voice/pull/5357) (in v.1.157.6)
-- Rename `tug` language from Tedaga to Tudaga (in v1.157.2)
-- Welcome new language Uspanteko (`usp`) (in v1.157.1)
-
-#### Spontaneous Speech after current release
-
-- Feat: Expand announcement module to support multiple announcements about releases, by [@moz-bozden](https://github.com/moz-bozden) in [#528](https://github.com/common-voice/spontaneous-speech/pull/528) (in v1.157.5)
-- Fix: Statistics queries in Spontaneous Speech and Code-Siwtching should be based on audios, so that duplicate transcriptions should not be caounted, by [@moz-bozden](https://github.com/moz-bozden) in [#518](https://github.com/common-voice/spontaneous-speech/pull/518) (in v1.157.2)
-- Refactor: Report option to generalize the existing "different language", by [@moz-bozden](https://github.com/moz-bozden) in [#516](https://github.com/common-voice/spontaneous-speech/pull/516) (in v1.157.2)
-
-##### SS Data Changes after current release
-
-- Add Picard (`pcd`) questions by [@moz-bozden](https://github.com/moz-bozden) in [#529](https://github.com/common-voice/spontaneous-speech/pull/529) (in v1.157.6)
-- Add Croatian (`hr`) questions by [@bandrandr](https://github.com/bandrandr) in [#517](https://github.com/common-voice/spontaneous-speech/pull/517) (in v1.157.2)
-
-#### Changes to Bundlers and related repos after current release
-
-- SCS-Bundler-Feat: Observability and release operations improvements — add verbosity levels to CLI, save logs to GCS with unique names, add resources module for memory debugging, upgrade CC to v1.5.0, add native uploader `--resume` option, add OS-level page-cache hints to reduce memory pressure, add `--expose-gc` to node start, by [@moz-bozden](https://github.com/moz-bozden) in [#5348](https://github.com/common-voice/common-voice/pull/5348), [#5349](https://github.com/common-voice/common-voice/pull/5349), [#5350](https://github.com/common-voice/common-voice/pull/5350), [#5351](https://github.com/common-voice/common-voice/pull/5351), [#5352](https://github.com/common-voice/common-voice/pull/5352), [#5354](https://github.com/common-voice/common-voice/pull/5354), [#5356](https://github.com/common-voice/common-voice/pull/5356) (in v.1.157.6)
-- SCS-Bundler-Feat: Add central control for metadata file inclusion via constants and helper functions, by [@moz-bozden](https://github.com/moz-bozden) in [#5347](https://github.com/common-voice/common-voice/pull/5347) (in v.1.157.6)
-- SPS-Bundler-QA: Add English support to QA validation pipeline — add foreign script check with extended Latin and Unicode punctuation, standardize English disfluency tags, by [@moz-bozden](https://github.com/moz-bozden) in [#530](https://github.com/common-voice/spontaneous-speech/pull/530) (in v1.157.6)
-- SPS-Bundler-Docs: Add data pipeline graph to bundler README.md, refactor and update DEVELOPER.md, by [@moz-bozden](https://github.com/moz-bozden) (in v1.157.5)
-- SCS-Bundler-Feat: Add streaming tar upload/download to/from GCS and MDC upload script, enhance uploader workflow, by [@moz-bozden](https://github.com/moz-bozden) in [#5339](https://github.com/common-voice/common-voice/pull/5339), [#5341](https://github.com/common-voice/common-voice/pull/5341), [#5333](https://github.com/common-voice/common-voice/pull/5333) (in v.1.157.5)
-- SCS-Bundler-Feat: Optimize bundler for large datasets — solve GCS access bottleneck, enhance locale filtering, limit streaming to largest datasets, reduce Bull queue buildup in Redis, enhance datasheets and stats, by [@moz-bozden](https://github.com/moz-bozden) in [#5337](https://github.com/common-voice/common-voice/pull/5337), [#5340](https://github.com/common-voice/common-voice/pull/5340), [#5331](https://github.com/common-voice/common-voice/pull/5331), [#5332](https://github.com/common-voice/common-voice/pull/5332), [#5330](https://github.com/common-voice/common-voice/pull/5330), fixes in [#5338](https://github.com/common-voice/common-voice/pull/5338), [#5335](https://github.com/common-voice/common-voice/pull/5335), [#5334](https://github.com/common-voice/common-voice/pull/5334), [#5344](https://github.com/common-voice/common-voice/pull/5344), [#5343](https://github.com/common-voice/common-voice/pull/5343) (in v.1.157.5)
-- SPS-Bundler-Fix: Prevent deleted users' audios from leaking into new releases in bootstrap mode, sanitize TSV output, centralize audio-filename creation, and refactor payload handling, by [@moz-bozden](https://github.com/moz-bozden) in [#527](https://github.com/common-voice/spontaneous-speech/pull/527) (in v1.157.4)
-- SPS-Bundler-Fix: Fix duplicate question counts caused by left join in question count SQL query, add tests, by [@moz-bozden](https://github.com/moz-bozden) in [#526](https://github.com/common-voice/spontaneous-speech/pull/526) (in v1.157.4)
-- SPS-Bundler-Fix: More optimizations and fixes after test run — fix accent flow, add real question counts from DB, count non-other reports as invalidated, add demographics step with user accents/variants, add new tests, rename "type" to "releaseType", add --no-splitting flag, reduce memory via streaming, by [@moz-bozden](https://github.com/moz-bozden) in [#525](https://github.com/common-voice/spontaneous-speech/pull/525) (in v1.157.4)
-- SPS-Bundler-Feat: Optimize bundler flow — add --force option, progress tests, pre-exclude existing release files, add OOM cleanup, by [@moz-bozden](https://github.com/moz-bozden) in [#524](https://github.com/common-voice/spontaneous-speech/pull/524) (in v1.157.4)
-- SPS-Bundler-Feat: Staging test, fixes and upgrades — wrap stats for cv-dataset compatibility, add final report, optimize metadata compression, add bootstrap/delta pipeline integration, enhance GCS logging, by [@moz-bozden](https://github.com/moz-bozden) in [#523](https://github.com/common-voice/spontaneous-speech/pull/523) (in v1.157.4)
-- SPS-Bundler-Feat: Update bundler features to match SCS bundler — update CLI, simplify README, create DEVELOPER.md, drop compression level, update .dockerignore, by [@moz-bozden](https://github.com/moz-bozden) in [#522](https://github.com/common-voice/spontaneous-speech/pull/522) (in v1.157.4)
-- SPS-Bundler-CI: Upgrade bundler build-and-deploy workflow, fix GAR image path, by [@moz-bozden](https://github.com/moz-bozden) in [#521](https://github.com/common-voice/spontaneous-speech/pull/521) (in v1.157.4)
-- SPS-Bundler-Feat: Major rework of bundler to support different release modes, datasheets integration, fixes and performance improvements, by [@moz-bozden](https://github.com/moz-bozden) in [#520](https://github.com/common-voice/spontaneous-speech/pull/520) (in v.1.157.3)
-- SCS-Bundler-Feat: Optimize bundler flow with pre-filtering, --force flag, BullMQ lock extension, by [@moz-bozden](https://github.com/moz-bozden) in [#5323](https://github.com/common-voice/common-voice/pull/5323) (in v.1.157.3)
-- SCS-Bundler-Fix: Staging fixes — datasheets filename format, enhanced logging with ETA, delta release optimization for passive locales, by [@moz-bozden](https://github.com/moz-bozden) in [#5320](https://github.com/common-voice/common-voice/pull/5320) (in v.1.157.3)
-- SCS-Bundler-Feat: Implement stale BullMQ queue cleanup, reduce gzip level, enhance problem-clips logging, by [@moz-bozden](https://github.com/moz-bozden) in [#5317](https://github.com/common-voice/common-voice/pull/5317) (in v.1.157.3)
-- SCS-Bundler-Refactor: Lock mechanism overhaul with Redis processing SET guard, mandatory datasets-file param, reorganize docs, by [@moz-bozden](https://github.com/moz-bozden) in [#5316](https://github.com/common-voice/common-voice/pull/5316) (in v.1.157.3)
-- SCS-Bundler-Feat: Major rework of bundler to support different release modes, datasheets integration, fixes and performance improvements, by [@moz-bozden](https://github.com/moz-bozden) in [#5302](https://github.com/common-voice/common-voice/pull/5302), [#5314](https://github.com/common-voice/common-voice/pull/5314) (in v.1.157.3)
-- SPS-Feat: Add scrub_user script to remove a user/all data of a user if requested, by [@moz-bozden](https://github.com/moz-bozden) in [#519](https://github.com/common-voice/spontaneous-speech/pull/519) (in v1.157.2)
-- SCS-Bundler-Feat: Add cc0/licensed/both release modes to bundler, by [@moz-bozden](https://github.com/moz-bozden) in [#5297](https://github.com/common-voice/common-voice/pull/5297) (in v.1.157.2)
-- `cv-datasheets` - Feat: Refactor and extend the repo to feed the bundler and MDC datasets page, by [@moz-bozden](https://github.com/moz-bozden) in [#67](https://github.com/common-voice/cv-datasheets/pull/67), [#68](https://github.com/common-voice/cv-datasheets/pull/68), [#69](https://github.com/common-voice/cv-datasheets/pull/69), [#70](https://github.com/common-voice/cv-datasheets/pull/70) (during v.1.157.3), [#71](https://github.com/common-voice/cv-datasheets/pull/71), [#72](https://github.com/common-voice/cv-datasheets/pull/72), [#73](https://github.com/common-voice/cv-datasheets/pull/73) (during v.1.157.3)
-- `cv-datasheets` - Feat: Add auto-compile workflow, preview workflow, markdownlint report support, and refactor docs, by [@moz-bozden](https://github.com/moz-bozden) in [#77](https://github.com/common-voice/cv-datasheets/pull/77), [#78](https://github.com/common-voice/cv-datasheets/pull/78) (during v.1.157.5)
-- `cv-datasheets` - Community: Add Abkhazian (`ab`) datasheet by [@danielinux7](https://github.com/danielinux7) in [#74](https://github.com/common-voice/cv-datasheets/pull/74), add Formosan languages template assignments by [@irvinfly](https://github.com/irvinfly) in [#75](https://github.com/common-voice/cv-datasheets/pull/75), [#76](https://github.com/common-voice/cv-datasheets/pull/76) (during v.1.157.5)
-- `cv-datasheets` - Fix: Fix and update field definitions in templates, by [@moz-bozden](https://github.com/moz-bozden) in [#79](https://github.com/common-voice/cv-datasheets/pull/79) (during v.1.157.6)
-- `cv-dataset` - Refactor to keep stats from any dataset type, by [@moz-bozden](https://github.com/moz-bozden) in [#47](https://github.com/common-voice/cv-dataset/pull/47) (during v.1.157.2), [#48](https://github.com/common-voice/cv-dataset/pull/48) (during v.1.157.3)
-- `cv-dataset` - Add SCS v25.0 full and delta stats, SPS v1.0/v2.0/v3.0 stats (retrospective), add per-type sub-READMEs and sub-CHANGELOGs for SCS/SPS/CS, refactor main README, by [@moz-bozden](https://github.com/moz-bozden) in [#49](https://github.com/common-voice/cv-dataset/pull/49) (during v.1.157.6)
-
----
-
-## Past releases
 
 ### [v1.156.0 (2025-12-30)](https://github.com/common-voice/common-voice/releases/tag/release-v1.156.0)
 
