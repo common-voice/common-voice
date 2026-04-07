@@ -47,11 +47,19 @@ const useReview = ({ getString, showReportModal }: UseReviewParams) => {
     Sentences.actions.refillPendingSentences
   )
 
-  const handleFetch = () => {
-    if (localeId == null) return
+  const handleFetch = async () => {
+    if (localeId == null) {
+      dispatch(
+        Notifications.actions.addPill(
+          getString('sentences-fetch-error'),
+          'error'
+        )
+      )
+      return
+    }
 
     try {
-      fetchPendingSentences(localeId)
+      await fetchPendingSentences(localeId)
     } catch (error) {
       dispatch(
         Notifications.actions.addPill(
@@ -59,7 +67,6 @@ const useReview = ({ getString, showReportModal }: UseReviewParams) => {
           'error'
         )
       )
-      console.error(error)
     }
   }
 

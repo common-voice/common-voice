@@ -215,11 +215,11 @@ export namespace Sentences {
             pendingSentences: data?.pendingSentences ?? [],
           })
         } catch (err) {
-          console.error('could not fetch pending sentences', err)
           dispatch({
             type: ActionType.REFILL_PENDING_SENTENCES,
             pendingSentences: [],
           })
+          throw err
         }
       },
 
