@@ -37,6 +37,7 @@ import LocalizedErrorBoundary from './error-boundary/localized-error-boundary'
 import { AB_TESTING_SPLIT_KEY, SPLIT_A, SPLIT_B } from '../constants'
 import { FeatureProvider } from '../contexts/feature-context'
 import lazyWithRetry from '../lazy-with-retry'
+import useSystemErrorHandler from './use-system-error-handler'
 
 const ListenPage = lazyWithRetry(
   () => import('./pages/contribution/listen/listen')
@@ -305,6 +306,11 @@ LocalizedPage = withRouter(
   )
 )
 
+const SystemErrorHandler = ({ children }: { children: React.ReactNode }) => {
+  useSystemErrorHandler()
+  return <>{children}</>
+}
+
 const App = () => {
   const history = createBrowserHistory()
 
@@ -315,9 +321,11 @@ const App = () => {
           <FeatureProvider>
             <Router history={history}>
               <LanguagesProvider>
-                <LocalizedErrorBoundary>
-                  <LocalizedPage />
-                </LocalizedErrorBoundary>
+                <SystemErrorHandler>
+                  <LocalizedErrorBoundary>
+                    <LocalizedPage />
+                  </LocalizedErrorBoundary>
+                </SystemErrorHandler>
               </LanguagesProvider>
             </Router>
           </FeatureProvider>
