@@ -207,12 +207,20 @@ export namespace Sentences {
           type: ActionType.REFILL_PENDING_SENTENCES_LOADING,
         })
 
-        const data = await state.api.fetchPendingSentences(localeId)
+        try {
+          const data = await state.api.fetchPendingSentences(localeId)
 
-        dispatch({
-          type: ActionType.REFILL_PENDING_SENTENCES,
-          pendingSentences: data.pendingSentences,
-        })
+          dispatch({
+            type: ActionType.REFILL_PENDING_SENTENCES,
+            pendingSentences: data?.pendingSentences ?? [],
+          })
+        } catch (err) {
+          console.error('could not fetch pending sentences', err)
+          dispatch({
+            type: ActionType.REFILL_PENDING_SENTENCES,
+            pendingSentences: [],
+          })
+        }
       },
 
     voteSentence:
