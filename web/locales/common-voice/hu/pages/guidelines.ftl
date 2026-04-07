@@ -274,6 +274,20 @@ code-switching-answer-bullet-4 = Nincs „tökéletes” válasz
 code-switching-authentic-header = Válaszoljon természetesen és hitelesen
 code-switching-authentic-speak = <bold>Beszéljen úgy, ahogy a barátaival vagy családjával.</bold> Ha a való életben is kever nyelveket, itt is tegye ugyanezt. Példa:
 code-switching-use-both-languages = <bold>Használja mindkét nyelvet, ha általában úgy mondaná.</bold> Már az is hasznos, ha csak egy-két szót vált. Példa:
+code-switching-authentic-direct-quotes = <bold>Ne használjon közvetlen idézetet vagy párbeszédet.</bold> Pontosan azt mondja el, amit valaki mondott, ne a letisztázott vagy formális változatát. Példa:
+code-switching-authentic-reflect = <bold>Tükrözze az érzelmet, az identitást és a környezetet.</bold> Váltás általában akkor történik, amikor az emberek érzelmeket, sürgősséget vagy kulturális elképzeléseket fejeznek ki. Válaszadáskor ezekre érdemes támaszkodni.
+code-switching-authentic-full-context = <bold>Használjon teljes válaszokat, környezettel együtt.</bold> Legyen a lehető legrészletesebb, és adjon meg annyi részletet, amennyit csak tud. A válaszokban osszon meg egy történetet vagy példát.
+# Don’t Overthink or Overedit
+code-switching-answer-dont-subheader = Ne gondolja, vagy szerkessze túl
+code-switching-answer-dont-correct-language = <bold>„Javítsa ki” a nyelvhasználatát.</bold> Ez nem egy dolgozat. Itt nem a „helyesség” számít, hanem a természetes nyelv.
 code-switching-cleanup-1 = Fordítás vagy átfogalmazás – azt írja le, amit a beszélő mond, ne azt, amire gondolt.
 code-switching-orthography-explanation = Írjon minden szót annak a nyelvnek a helyesírása szerint, amelyből származnak. Például:
 code-switching-orthography-explanation-example-2 = Ha a quinceaños szót úgy ejtik ki, ahogy angolul mondják, akkor írja ñ betűvel.
+# When Not to Tag Words
+code-switching-not-tag-header = Mikor nem érdemes felcímkézni a szavakat
+code-switching-not-tag-explanation = Néhány szót <bold>nem kell címkézni</bold> nyelvi címkével, még akkor sem, ha kevertnek vagy átdolgozottnak tűnik.  Így kezeljen néhány példát:
+code-switching-not-tag-proper-names = <bold>Tulajdonnevek.</bold> Az emberek, helyek és intézmények neveit nem szabad címkézni. Példák:
+code-switching-not-tag-proper-names-example-1 = Személyek: Mária, János
+code-switching-not-tag-proper-names-example-2 = Helyek: Los Angeles, Florida
+code-switching-not-tag-proper-names-example-3 = Márkák/intézmények: Target, Burger King
+code-switching-not-tag-mixed-words = <bold>Kevert vagy alaktanilag átdolgozott szavak.</bold> Ne címkézzen meg szavakat, melyekben nyelvek keverednek, vagy más nyelvből származó végződéseket tartalmaznak. Példák:
