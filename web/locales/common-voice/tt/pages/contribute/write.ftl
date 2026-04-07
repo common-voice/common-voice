@@ -2,17 +2,28 @@
 
 write = Язу
 write-instruction = Иҗтимагый милектәге <icon></icon> җөмлә өстәгез
+write-page-subtitle = Монда тәкъдим ителгән җөмләләр сс-0 лицензияле ачык мәгълүмат җыелмасына өстәләчәк.
 sentence =
     .label = Җөмлә
 sentence-input-placeholder = Иҗтимагый милектәге җөмләгезне монда языгыз
 small-batch-sentence-input-placeholder = Иҗтимагый милектәге җөмләләрегезне монда языгыз
+citation-input-placeholder = Җөмләгезнең чыганагын күрсәтегез (бу мәҗбүри)
 citation =
     .label = Цитата
 sc-write-submit-confirm = Бу җөмләнең <wikipediaLink>иҗтимагый милектә</wikipediaLink> булуын раслыйм һәм аны йөкләргә рөхсәтем бар.
 sc-review-write-title = Мин нинди җөмләләр өсти алам?
+sc-review-small-batch-title = Берничә җөмләне ничек өстәргә
 new-sentence-rule-1 = <noCopyright>Авторлык хокуклары</noCopyright> чикләүләре юк (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = 15 сүздән кыскарак
 new-sentence-rule-3 = Дөрес грамматиканы кулланыгыз
+new-sentence-rule-4 = Дөрес орфография һәм пунктуация кулланыгыз
+new-sentence-rule-5 = Цифрларсыз һәм махсус символларсыз
+new-sentence-rule-6 = Чит телдәге символларсыз
+new-sentence-rule-7 = Чыганагын дөрес итеп күрсәтегез
+new-sentence-rule-8 = Иң яңшысы — табигый һәм сөйләүгә яраклы (җөмлә җиңел укылырга тиеш)
+login-instruction-multiple-sentences = Бер адымда берничә җөмлә өстәү өчен, <loginLink>керегез</loginLink> яки <loginLink>теркәлегез</loginLink>.
+how-to-cite = Цитаталауны ничек башкарырга?
+how-to-cite-explanation-bold = Цитаталау өчен, хезмәтнең URL сылтамасын яки тулы исемен языгыз.
 guidelines = Күрсәтмәләр
 contact-us = Элемтә
 add-sentence-success = 1 җөмлә тупланды
@@ -24,6 +35,7 @@ bulk-sentence-submission = Күп җөмлә җибәрү
 single-sentence = Бер җөмлә
 small-batch-sentence = Кечкенә бәйләм
 bulk-sentence = Зур бәйләм
+sentence-domain-combobox-label = Җөмләләр домены
 # Sentence Domain dropdown option
 agriculture_food = Авыл хуҗалыгы һәм азык-төлек
 # Sentence Domain dropdown option
@@ -58,6 +70,7 @@ sentence-variant-select-multiple-variants = Гомуми тел / берничә
 sc-bulk-upload-header = Иҗтимагый милектәге <icon></icon> җөмләләр йөкләгез
 sc-bulk-upload-instruction = Файлыгызны йөкләү өчен аны монда тартып күчерегез яки <uploadButton>монда басыгыз</uploadButton>
 sc-bulk-upload-instruction-drop = Йөкләү өчен файлны монда тартып күчерегез
+try-upload-again = Яңадан тырышып карау өчен файлны монда өстерәгез
 try-upload-again-md = Яңадан йөкләп карагыз
 select-file = Файлны сайлау
 select-file-mobile = Йөкләү өчен Файлны сайлау
@@ -88,3 +101,9 @@ add-sentences = Җөмләләр өстәү
 
 add-sentences-menu-item-tooltip = Җөмләләр өстәү
 review-sentences-menu-item-tooltip = Җөмләләрне тикшерү
+add-questions-menu-item-tooltip = Сораулар өстәү
+review-questions-menu-item-tooltip = Сорауларны тикшерү
+
+## MENU ITEM ARIA LABELS
+
+write-contribute-menu-aria-label = Язу көйләүләре менюсы

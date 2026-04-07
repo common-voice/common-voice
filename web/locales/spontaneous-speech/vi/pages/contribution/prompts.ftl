@@ -8,8 +8,14 @@ prompt-page-instruction = { $actionType } <micIcon></micIcon> và phản hồi t
 no-prompts-continue-skipped-message = Không còn câu hỏi nào cho ngôn ngữ này. Nếu bạn đã bỏ qua bất kỳ câu hỏi nào, bạn có thể tiếp tục với nội dung đã bỏ qua hoặc chuyển sang phần phiên âm âm thanh và thử lại sau.
 error-skipping = Đã xảy ra lỗi khi bỏ qua yêu cầu này
 error-recording = Đã xảy ra lỗi khi đang ghi âm
+error-recording-too-short = Thời lượng ghi quá ngắn. Thời lượng tối thiểu là { $minDurationSeconds }  giây.
+error-recording-too-long = Thời lượng ghi quá dài. Thời lượng tối đa là { $maxDurationMinutes }  phút.
 error-fetching-prompts = Đã xảy ra sự cố khi truy xuất yêu cầu. Vui lòng thử lại sau.
 error-uploading-response = Đã xảy ra lỗi khi đang tải lên phản hồi của bạn
+error-empty-audio = Quá trình ghi thất bại. Tập tin âm thanh dường như trống. Vui lòng thử lại.
+error-recording-too-short-seconds = Thời lượng ghi quá ngắn. Thời lượng tối thiểu là { $minDurationSeconds } giây.
+error-recording-too-long-minutes = Thời lượng ghi quá dài. Thời lượng tối đa là { $maxDurationMinutes } phút.
+cannot-play-audio = Không thể phát âm thanh. Vui lòng thử lại.
 prompt-submitted-success = Đã gửi phản hồi thành công
 prompt-response-deleted-success = Đã xoá phản hồi thành công
 # For the button to delete a response to a prompt

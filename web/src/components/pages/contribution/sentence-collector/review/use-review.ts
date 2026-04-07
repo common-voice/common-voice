@@ -37,9 +37,9 @@ const useReview = ({ getString, showReportModal }: UseReviewParams) => {
     el => el.isValid === null
   )
 
-  const localeId = languages.localeNameAndIDMapping.find(
+  const localeId = languages.localeNameAndIDMapping?.find(
     locale => locale.name === currentLocale
-  ).id
+  )?.id
 
   const voteSentence = useAction(Sentences.actions.voteSentence)
   const skipSentence = useAction(Sentences.actions.skipSentence)
@@ -47,9 +47,19 @@ const useReview = ({ getString, showReportModal }: UseReviewParams) => {
     Sentences.actions.refillPendingSentences
   )
 
-  const handleFetch = () => {
+  const handleFetch = async () => {
+    if (localeId == null) {
+      dispatch(
+        Notifications.actions.addPill(
+          getString('sentences-fetch-error'),
+          'error'
+        )
+      )
+      return
+    }
+
     try {
-      fetchPendingSentences(localeId)
+      await fetchPendingSentences(localeId)
     } catch (error) {
       dispatch(
         Notifications.actions.addPill(
@@ -57,7 +67,6 @@ const useReview = ({ getString, showReportModal }: UseReviewParams) => {
           'error'
         )
       )
-      console.error(error)
     }
   }
 

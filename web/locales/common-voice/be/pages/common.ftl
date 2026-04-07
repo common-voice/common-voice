@@ -235,6 +235,8 @@ email-opt-in-info-sub-with-challenge = Атрымлівайце лісты, та
 email-opt-in-privacy-v2 = Пагадзіўшыся атрымліваць лісты, вы заяўляеце, што згодны з апрацоўкай гэтай інфармацыі Mozilla так, як акрэслена ў <privacyLink>Палітыцы прыватнасці<privacyLink> Mozilla.
 indicates-required = * Палі, абавязковыя да запаўнення
 not-available-abbreviation = Н/Д
+# Text shown on a button that can be clicked to cancel an action
+cancel = Скасаваць
 
 ## Donate banner
 

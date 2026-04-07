@@ -85,3 +85,5 @@ release-version = Версія
 dataset-date = Дата
 license = Ліцэнзія: <licenseLink>{ $license }</licenseLink>
 license-mixed = Змешаная
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = Сцягнуць набор галасавых звестак

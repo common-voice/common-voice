@@ -196,6 +196,12 @@ tags-unclear-explanation = Egy szó vagy szósorozat, amely nem érthető.
 tags-noise-explanation =
     Bármilyen más típusú zaj, például a beszélő köhög vagy köszörüli a torkát,
     egy autó dudál, valami megüti a mikrofont, csörög egy telefon, stb.
+# Note: do not translate any tag, like [noise] or [laugh]
+special-tags-example-2 =
+    És akkor [noise] elmentem nyaralni.
+    Nos, [noise] [laugh] ez nem épp nyaralás volt. [laugh]
+transcribe-the-audio-subheader-4-explanation-1 = A spontán beszéd természetesen tartalmaz hamis kezdéseket, ahol a teljes szónak csak egy töredéke jelenik meg. Ezekben az esetekben írja le a legjobb tudása szerint a szórészletet, és fűzzön egy kötőjelet a szó végéhez (-), jelezve, hogy a szó hibás. Példa:
+transcribe-the-audio-subheader-4-explanation-1-example = A neve <underline>Já- Ján-</underline> János volt.
 transcribe-the-audio-subheader-4-explanation-2 = Néha a beszélők többször megismételnek egy szót vagy szótöredéket. Ezt is át le kell iratozni. Példa:
 transcribe-the-audio-subheader-4-explanation-2-example = Aztán átmentem <underline>a háló- a</underline> hálószobába
 transcribe-the-audio-subheader-5-explanation-1 = A spontán beszéd természetesen tartalmaz nyelvtani hibákat. Ezeket nem szabad a leiratozáskor javítani. A leiratnak pontosan tükröznie kell az elhangzott tartalmat.
@@ -223,8 +229,116 @@ code-switching-adding-question-note = Azt is megfontolhatja, hogy különböző 
 code-switching-types-subheader = Milyen típusú kérdéseket adjon hozzá?
 code-switching-use-bilingual-prompts-header = Használjon kétnyelvű kérdéseket
 code-switching-use-bilingual-prompts-explanation = Használjon olyan kétnyelvű kérdéseket, amelyek mindkét nyelvet tartalmazzák: Példa:
+code-switching-ask-bilingual-contexts-header = Kérdezzen rá a kétnyelvű környezetkre
 code-switching-ask-bilingual-contexts-explanation = Használjon olyan helyzeteket, ahol mindkét nyelvet gyakran használják (például otthon, iskola, közösségi események). Példa:
+code-switching-ask-bilingual-contexts-explanation-example = „Amikor az unokatestvéreiddel beszélgetsz, felváltva használod a spanyolt és az angolt?”
+code-switching-focus-emotional-header = Fókuszáljon az érzelmes vagy a nagy súlyú pillanatokra
 code-switching-focus-emotional-explanation = Az emberek gyakran váltanak kódot, amikor érzelmeket vagy sürgősséget fejeznek ki. Példa:
+code-switching-focus-emotional-explanation-example = „Mondd el, mit mondtak a szüleid, amikor elmondtad nekik a nagy hírt – pontosan úgy, ahogy mondták.”
+code-switching-direct-quotes-header = Kérjen közvetlen idézeteket vagy visszaemlékezéseket
+code-switching-direct-quotes-explanation = Ösztönözze a résztvevőket, hogy pontosan úgy mondják el, ahogy történt. Példa:
+code-switching-direct-quotes-explanation-example = „Milyen szavakat használtál pontosan, amikor megtudtad?”
+code-switching-cultural-topics-header = Válasszon kultúrafüggő témákat
+code-switching-cultural-topics-explanation = Az ételek, a hagyományok, az ünnepek és a családi dinamika gyakran kódváltásra ösztönöz.
+code-switching-cultural-topics-explanation-example = „Hogyan írnád le a Día de los Muertost egy olyan embernek, aki csak magyarul beszél?”
+code-switching-informal-scenarios-header = Fedezzen fel informális helyzeteket
+code-switching-informal-scenarios-explanation = A barátokkal folytatott beszélgetések vagy SMS-ek gyakran természetesebb váltást igényelnek. Példa:
+code-switching-informal-scenarios-explanation-example = „Milyen vicceket mondanak a barátaid – és hogyan mondják?”
+# What to Avoid
+code-switching-avoid-subheader = Elkerülendő:
+code-switching-avoid-intro = Kérdések, melyek esetleg:
+code-switching-avoid-1 = Személyazonosításra alkalmas információkat kérnek
+code-switching-avoid-2 = Gyűlöletbeszédet sarkallnak, vagy más elfogult vagy sértő érzéseket váltanak ki
+code-switching-avoid-3 = Bizalmas, potenciálisan felzaklató válaszok megosztását okozzák
+code-switching-dont-header = Ne
+code-switching-dont-1 = Ne használjon túlságosan formális nyelvezetet
+# Reviewing a Question
+code-switching-review-subheader = Kérdés áttekintése
+code-switching-review-intro = Győződjön meg róla, hogy a kérdés megfelel a feltételeknek:
+code-switching-review-criterion-1 = Legyen könnyen érthető és megválaszolható
+code-switching-review-criterion-2 = Legyen általánosságban releváns
+code-switching-review-criterion-3 = Ne használjon vagy várjon el ártalmas vagy sértő kifejezéseket
+code-switching-review-does-not-header = És <bold>NE</bold> tartalmazzon:
+code-switching-review-offensive-content = <bold>Sértő vagy érzékeny információkra vonatkozó kérdéseket</bold>
+code-switching-answer-header = Sértő vagy érzékeny információkra vonatkozó kérdéseket
+code-switching-review-no-1 = Olyan kérdéseket, amelyek személyazonosításra alkalmas információkat kérhetnek
+code-switching-review-no-2 = Olyan kérdéseket, amelyek gyűlöletbeszédet keltő, vagy más elfogult vagy sértő szándékúak lehetnek
+code-switching-review-no-3 = Olyan kérdéseket, amelyekre bizalmas, potenciálisan felzaklató válaszokat adhatnak
+# Answering a Question
+code-switching-answer-subheader = Kérdés megválaszolása
+code-switching-answer-intro = Amikor egy kérdésre válaszol, a cél a természetes válaszadás – akárcsak egy való életbeli beszélgetésben. Szeretnénk megragadni, hogy valójában hogyan keverednek a nyelvek a mindennapi beszédben.
+code-switching-answer-bullet-1 = Gondoljon valós pillanatokra vagy helyzetekre: viccek, viták, hagyományok
+code-switching-answer-bullet-2 = Képzelje el, hogy SMS-t küld egy ismerősének, vagy elmesél valakinek egy történetet
+code-switching-answer-bullet-3 = Használjon olyan szavakat, amelyeket valóban használna, még akkor is, ha jövevény- vagy vegyes szavak
+code-switching-answer-bullet-4 = Nincs „tökéletes” válasz
+code-switching-authentic-header = Válaszoljon természetesen és hitelesen
+code-switching-authentic-speak = <bold>Beszéljen úgy, ahogy a barátaival vagy családjával.</bold> Ha a való életben is kever nyelveket, itt is tegye ugyanezt. Példa:
+code-switching-use-both-languages = <bold>Használja mindkét nyelvet, ha általában úgy mondaná.</bold> Már az is hasznos, ha csak egy-két szót vált. Példa:
+code-switching-authentic-direct-quotes = <bold>Ne használjon közvetlen idézetet vagy párbeszédet.</bold> Pontosan azt mondja el, amit valaki mondott, ne a letisztázott vagy formális változatát. Példa:
+code-switching-authentic-reflect = <bold>Tükrözze az érzelmet, az identitást és a környezetet.</bold> Váltás általában akkor történik, amikor az emberek érzelmeket, sürgősséget vagy kulturális elképzeléseket fejeznek ki. Válaszadáskor ezekre érdemes támaszkodni.
+code-switching-authentic-full-context = <bold>Használjon teljes válaszokat, környezettel együtt.</bold> Legyen a lehető legrészletesebb, és adjon meg annyi részletet, amennyit csak tud. A válaszokban osszon meg egy történetet vagy példát.
+# Don’t Overthink or Overedit
+code-switching-answer-dont-subheader = Ne gondolja, vagy szerkessze túl
+code-switching-answer-dont-correct-language = <bold>„Javítsa ki” a nyelvhasználatát.</bold> Ez nem egy dolgozat. Itt nem a „helyesség” számít, hanem a természetes nyelv.
+code-switching-answer-dont-avoid-switching = <bold>Kerülje a váltást, ha általában ezt teszi.</bold> Rendben van, ha a mondat vagy gondolat közepén, vagy csak egyetlen szó erejéig vált.
+code-switching-answer-dont-formal-writing = <bold>Beszéljen úgy, mintha formálisan írna.</bold> Kerülje a formális, tudományos válaszokat. Maradjon társalgási.
+code-switching-answer-dont-force-switch = <bold>Kényszerítse a váltást, ha az nem természetes.</bold> Csak akkor váltson, ha ebben a helyzetben természetesen így tenne.
+code-switching-answer-dont-translate-repeat = <bold>Fordítson le vagy ismételjen meg mindent.</bold> Csak egyszer mondja, ahogyan egy beszélgetésben tenné. Nem kell minden nyelven megadnia a válasz egy verzióját.
+# Transcribing
+code-switching-transcribe-subheader = Leiratozás
+code-switching-transcribe-intro = Ha kódváltást tartalmazó válaszokat ír át, akkor a beszélő nyelvét úgy jelenítse meg, ahogyan az elhangzott – javítás, szerkesztés vagy egyszerűsítés nélkül. Ez a nyelvek, a kötetlen beszéd és a vegyes nyelvű szavak közti minden váltásra vonatkozik.
+code-switching-transcribe-do-1 = Játssza le többször a rövid szakaszokat, hogy észrevegye a finom váltásokat
+code-switching-transcribe-do-2 = Tartson szünetet minden mondat után, hogy ellenőrizze a váltásokat vagy a kevert szavakat
+# Capture Speech Exactly as Spoken
+code-switching-capture-header = Rögzítse a beszédet pontosan úgy, ahogyan az elhangzott
+code-switching-capture-explanation = Írja le mindkét nyelvet, ahogy az megjelent/elhangzott. Ne „javítsa ki” a nyelvet vagy módosítsa egyetlen nyelvre.
+# Include filler words and markers
+code-switching-filler-header = Tartsa meg a kitöltőszavakat és jelölőket
+# Use standard spelling for each language
+code-switching-spelling-header = Használjon szabványos helyesírást az összes nyelvnél
+code-switching-spelling-explanation = Próbálja meg helyesen írni a szavakat az összes nyelven, kivéve, ha a beszélő egyértelműen a szokásostól eltérő módon ejti őket.
+# Don’t Clean Up or Simplify the Language
+code-switching-cleanup-header = Ne javítsa ki vagy egyszerűsítse le a nyelvet
 code-switching-cleanup-1 = Fordítás vagy átfogalmazás – azt írja le, amit a beszélő mond, ne azt, amire gondolt.
+code-switching-cleanup-2 = „Javítsa ki” a nyelvtant vagy a kiejtést – tartsa meg a beszélő természetes nyelvhasználatát.
+code-switching-cleanup-3 = Hagyja ki a kisebbnek tűnő kódváltásokat – a jövevényszavak számítanak.
+code-switching-cleanup-4 = Szúrjon be Jelentést megváltoztató írásjeleket – a folyama maradjon természetes.
+code-switching-cleanup-5 = Feltételezze, hogy minden szó nyelvét ismeri – használat alapján címkézzen.
+# Tagging
+code-switching-tagging-subheader = Címkézés
+code-switching-tagging-error-intro = Ha a leirat hibát tartalmaz, akkor jelölje meg a jelentés függvénnyel. Lehetséges hibák többek között:
+code-switching-tagging-error-1 = Helytelen írásjelek vagy kis- és nagybetűk
+code-switching-tagging-error-2 = Elírások
+code-switching-tagging-error-3 = Hibás helyesírással írt szavak
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = Helyesírás az összes nyelven
 code-switching-orthography-explanation = Írjon minden szót annak a nyelvnek a helyesírása szerint, amelyből származnak. Például:
 code-switching-orthography-explanation-example-2 = Ha a quinceaños szót úgy ejtik ki, ahogy angolul mondják, akkor írja ñ betűvel.
+# Use Pronunciation to Help Determine the Language
+code-switching-pronunciation-header = Használja a kiejtést a nyelv meghatározására
+# Tag Punctuation Based on Nearby Language
+code-switching-punctuation-tagging-header = Központozás címkézése közeli nyelv alapján
+code-switching-punctuation-tagging-explanation = A központozást címkézze a bal oldalhoz legközelebbi nyelvvel. Példák:
+# Be Careful with Lookalikes
+code-switching-lookalikes-header = Legyen óvatos az azonos alakú szavakkal
+code-switching-lookalikes-explanation = Egyes szavak úgy nézhetnek ki, mintha egy nyelvből lennének, de egy másikban vannak használva. A jelentése és a használata alapján címkézze, ne a kinézete alapján. Példák:
+# When Not to Tag Words
+code-switching-not-tag-header = Mikor nem érdemes felcímkézni a szavakat
+code-switching-not-tag-explanation = Néhány szót <bold>nem kell címkézni</bold> nyelvi címkével, még akkor sem, ha kevertnek vagy átdolgozottnak tűnik.  Így kezeljen néhány példát:
+code-switching-not-tag-proper-names = <bold>Tulajdonnevek.</bold> Az emberek, helyek és intézmények neveit nem szabad címkézni. Példák:
+code-switching-not-tag-proper-names-example-1 = Személyek: Mária, János
+code-switching-not-tag-proper-names-example-2 = Helyek: Los Angeles, Florida
+code-switching-not-tag-proper-names-example-3 = Márkák/intézmények: Target, Burger King
+code-switching-not-tag-mixed-words = <bold>Kevert vagy alaktanilag átdolgozott szavak.</bold> Ne címkézzen meg szavakat, melyekben nyelvek keverednek, vagy más nyelvből származó végződéseket tartalmaznak. Példák:
+code-switching-not-tag-interjections = <bold>Indulatszavak.</bold> Az indulatszavaknak és a kitöltőszavaknak, a nyelvtől függetlenül, <bold>címke nélkül</bold> kell maradniuk. Példák:
+code-switching-not-tag-interjections-example-1 = „Eh”
+code-switching-not-tag-interjections-example-2 = „Nem”
+code-switching-not-tag-interjections-example-3 = „Ja”
+code-switching-not-tag-interjections-example-4 = „Öhm”
+
+## Reporting Content
+
+reporting-content = Tartalom jelentése
+reporting-content-subheader = Általános útmutatás
+reporting-content-explanation-1 = Meg kell jelölnie a sértő, káros vagy más módon aggasztó tartalmat. Nem tartalmazhat továbbá személyazonosításra alkalmas információkat, például telefonszámot vagy címet. El lesz távolítva az élményéből, amíg a Common Voice csapat át nem nézi, és tovább nem vizsgálja.
+reporting-content-explanation-2 = A tartalom jelentéséhez kattintson a „Jelentés” gombra, és válasszon egyet vagy az összes lehetőséget: Sértő tartalom, Más nyelv, Személyazonosításra alkalmas információ, Egyéb. Ezután a szövegmezőben adjon részletesebb információt arról, hogy miért jelentette be a tartalmat. Majd a Jelentés gombra kattintva küldje be a jelentést.

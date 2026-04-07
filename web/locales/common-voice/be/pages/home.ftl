@@ -73,3 +73,7 @@ help-contribute = Вы можаце дапамагчы пабудаваць ра
 login-company = Зарэгістравацца / ўвайсці з эл. поштай { $company }
 profile-not-required = Каб удзельнічаць, не абавязкова мець профіль, хаця гэта можа быць карысна (падрабязнасці ніжэй).
 read-more-about = Падрабязней на старонцы «Пра нас»
+
+## Community section
+
+download-contribution-certificate = Сцягнуць сэртыфікат аб вашым унёску

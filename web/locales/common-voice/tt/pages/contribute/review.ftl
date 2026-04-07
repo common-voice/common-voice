@@ -4,6 +4,8 @@ sc-review-title = Җөмләләрне тикшерү
 sc-review-loading = Җөмләләрне йөкләү…
 sc-review-select-language = Зинһар, җөмләләрне тикшерү өчен телне сайлагыз.
 sc-review-no-sentences = Тикшерү өчен җөмләләр юк. <addLink>Хәзер күбрәк җөмлә өстәгез!</addLink>
+sc-review-form-prompt =
+    .message = Тикшерелгән җөмләләр җибәрелмичә калган. Дәвам итәргәме?
 # Variables:
 #   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
 sc-review-form-source = Чыганак: { $sentenceSource }

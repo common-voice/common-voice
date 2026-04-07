@@ -6,10 +6,12 @@ import os
 import re
 import sys
 from datetime import UTC, datetime
+from pathlib import Path
 
 import click
+from datacollective.upload_utils import _load_upload_state as load_upload_state
 
-from mdc_uploader.config import UploaderConfig
+from mdc_uploader.config import UploaderConfig, resolve_base_dir
 from mdc_uploader.log import logger, setup_logging
 from mdc_uploader.models import ReleaseType
 from mdc_uploader.pipeline import run_batch
@@ -113,7 +115,28 @@ Environment variables:
     help="Path to write log output (in addition to stderr). "
     "Always captures DEBUG level regardless of -v.",
 )
-@click.option("-v", "--verbose", is_flag=True, help="Enable debug-level logging.")
+@click.option(
+    "-v",
+    "--verbose",
+    is_flag=True,
+    help="Enable debug-level logging and MDC SDK logging/progress output.",
+)
+@click.option(
+    "-j",
+    "--jobs",
+    type=click.IntRange(min=1),
+    default=4,
+    show_default=True,
+    help="Number of concurrent locale uploads (streaming mode only). "
+    "Ignored in non-streaming mode (temp files require sequential processing).",
+)
+@click.option(
+    "--no-stream",
+    is_flag=True,
+    default=False,
+    help="Disable GCS streaming; download tarballs to temp before uploading. "
+    "Streaming is the default for gs:// base dirs.",
+)
 def cli(
     release: str | None,
     upload_target: str,
@@ -126,6 +149,8 @@ def cli(
     dry_run: bool,
     log_file: str | None,
     verbose: bool,
+    jobs: int,
+    no_stream: bool,
 ) -> None:
     """Upload Common Voice release tarballs to Mozilla Data Collective (MDC) via API.
 
@@ -154,6 +179,8 @@ def cli(
             resume=resume,
             dry_run=dry_run,
             verbose=verbose,
+            jobs=jobs,
+            no_stream=no_stream,
         )
     except click.UsageError:
         raise  # let Click format these
@@ -196,6 +223,8 @@ def _run(
     resume: bool,
     dry_run: bool,
     verbose: bool,
+    jobs: int,
+    no_stream: bool,
 ) -> None:
     """Inner logic separated for clean error handling."""
     mdc_api_url = os.environ.get("MDC_API_URL")
@@ -217,14 +246,6 @@ def _run(
         if len(locale_parts) != 1:
             raise click.UsageError("--resume requires exactly one locale via -l")
         resume_locale = locale_parts[0]
-
-        from pathlib import Path  # pylint: disable=import-outside-toplevel
-
-        from datacollective.upload import (
-            load_upload_state,  # type: ignore # pylint: disable=import-outside-toplevel
-        )
-
-        from mdc_uploader.config import resolve_base_dir  # pylint: disable=import-outside-toplevel
 
         # Search for SDK state file: upload-logs (GCS-persistent) first, .state/ fallback
         resolved_base = resolve_base_dir(base_dir)
@@ -273,6 +294,8 @@ def _run(
             submission_id=None,
             dry_run=dry_run,
             verbose=verbose,
+            jobs=jobs,
+            no_stream=no_stream,
             mdc_api_key=mdc_api_key,
             mdc_api_url=mdc_api_url,
             resume_state_path=os.path.abspath(state_file),
@@ -300,6 +323,8 @@ def _run(
             submission_id=submission_id,
             dry_run=dry_run,
             verbose=verbose,
+            jobs=jobs,
+            no_stream=no_stream,
             mdc_api_key=mdc_api_key,
             mdc_api_url=mdc_api_url,
             orphaned_submissions=state.get("orphaned_submissions"),
@@ -324,6 +349,8 @@ def _run(
             submission_id=submission_id,
             dry_run=dry_run,
             verbose=verbose,
+            jobs=jobs,
+            no_stream=no_stream,
             mdc_api_key=mdc_api_key,
             mdc_api_url=mdc_api_url,
         )

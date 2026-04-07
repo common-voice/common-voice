@@ -16,18 +16,25 @@ cli.py -----------> config.py (resolve env vars + CLI args)
     v
 pipeline.py ------> naming.py (release parsing, path construction)
     |               language.py (locale name resolution via LanguageRegistry)
-    |               state.py (batch state persistence)
+    |               state.py (batch state persistence, thread-safe)
     |               progress.py (tqdm batch progress)
+    |               ThreadPoolExecutor (-j N concurrent workers)
+    |
+    +--[streaming]--> streaming.py --> GCS range reads --> MDC presigned URLs
+    |                                  (no temp files, 256 MB memory per stream)
+    |
+    +--[no-stream]--> mdc.py -------> datacollective SDK (upload_dataset_file)
+    |                                  (download to temp, then upload)
     |
     v
 mdc.py ------------> datacollective SDK (step-by-step public API)
     |                 (create_submission_draft,
-    |                  upload_dataset_file,
+    |                  upload_dataset_file / stream_upload_from_gcs,
     |                  update_submission,
     |                  submit_submission)
     |
     v
-gcs.py ------------> google-cloud-storage (optional, for gs:// URIs only)
+gcs.py ------------> google-cloud-storage (for gs:// URIs)
 ```
 
 Supporting modules:
@@ -63,8 +70,9 @@ Dev and prod use separate MDC accounts. Set the key matching your `-ut` target.
 | `naming.py`    | Release name parsing, tarball/datasheet path construction                                     |
 | `language.py`  | `LanguageRegistry` class -- fetches locale names from CV API + hardcoded extras               |
 | `mdc.py`       | `MDCClient` -- step-by-step SDK calls, resume, recovery, error/response capture, 429 retry    |
-| `pipeline.py`  | Per-locale upload orchestration, resume/recovery routing, GCS temp cleanup, batch runner      |
-| `state.py`     | `BatchState` JSON persistence, orphaned submission extraction, log-to-storage upload          |
+| `streaming.py` | GCS-to-MDC direct streaming: range reads -> presigned URL PUTs, resume via state file         |
+| `pipeline.py`  | Per-locale orchestration, streaming/non-streaming routing, ThreadPoolExecutor concurrency     |
+| `state.py`     | `BatchState` JSON persistence (thread-safe), orphaned extraction, log-to-storage upload       |
 | `progress.py`  | tqdm batch progress bar, human-readable size formatting                                       |
 | `log.py`       | Structured logging, auto log file, `flush_all`/`get_log_file_path` for storage save           |
 | `gcs.py`       | GCS fallback for `gs://` URIs (uses `google-cloud-storage` runtime dependency)                |
@@ -83,13 +91,21 @@ GCS bucket --[GCSFuse CSI]--> /gcs (local mount) --> SDK reads file --> MDC API
 
 In GKE, the GCS bucket is mounted as a local filesystem at `/gcs` via the GCSFuse CSI driver. The SDK reads tarballs directly from the mount point -- no downloads, no temp files, no extra libraries. This is the default (`--base-dir /gcs`).
 
-### 2. gs:// URI (optional fallback)
+### 2. gs:// URI with streaming (default)
+
+```txt
+GCS bucket --[range reads]--> 256 MB chunk --[presigned PUT]--> MDC storage (no disk)
+```
+
+When `--base-dir` is a `gs://` URI, streaming is the default. Each tarball is read in 256 MB chunks via GCS range reads and each chunk is PUT directly to an MDC presigned URL. No temp files, no disk usage. Supports `-j N` concurrent uploads.
+
+### 3. gs:// URI without streaming (--no-stream fallback)
 
 ```txt
 GCS bucket --[google-cloud-storage]--> temp file --> SDK reads file --> MDC API --> cleanup
 ```
 
-When `--base-dir` is a `gs://` URI, each tarball is downloaded to a temp file, uploaded to MDC, then cleaned up. The `google-cloud-storage` dependency is included at install time:
+When `--no-stream` is specified with a `gs://` URI, each tarball is downloaded to a temp file, uploaded to MDC, then cleaned up. Sequential only (`-j` is ignored). The `google-cloud-storage` dependency is included at install time:
 
 ```bash
 mdc-upload -r cv-corpus-25.0-2026-03-09 --base-dir gs://common-voice-bundler -ut dev
@@ -97,7 +113,7 @@ mdc-upload -r cv-corpus-25.0-2026-03-09 --base-dir gs://common-voice-bundler -ut
 
 This mode is useful for environments without GCSFuse (e.g. local machines with GCP credentials, CI runners).
 
-### 3. Local directory (testing)
+### 4. Local directory (testing)
 
 ```txt
 Local directory --> SDK reads file --> MDC API
@@ -458,24 +474,25 @@ Ruff is the primary linter and formatter (replaces black, isort, flake8). Pylint
 
 ### Test Coverage
 
-| Test file          | Tests | Covers                                                                  |
-| ------------------ | ----- | ----------------------------------------------------------------------- |
-| `test_mdc.py`      | 40    | Exception wrapping, response extraction, step-by-step, resume, recovery |
-| `test_naming.py`   | 30    | Release parsing (incl. delta), paths, detect_locales                    |
-| `test_pipeline.py` | 22    | Job building, process_locale, resume, state path, GCS cleanup, orphans  |
-| `test_language.py` | 11    | LanguageRegistry init/find/extras/variants/API failure                  |
-| `test_config.py`   | 12    | UploaderConfig.from_cli, locale parsing, resume validation              |
-| `test_gcs.py`      | 10    | URI detection, parsing, require guard                                   |
-| `test_models.py`   | 9     | StrEnum values, ReleaseSpec props, defaults                             |
-| `test_state.py`    | 7     | BatchState record/summary, retry loading, orphaned extraction           |
-| `test_log.py`      | 6     | File handler setup, DEBUG capture, datacollective logger routing        |
-| `test_progress.py` | 5     | format_size B/KB/MB/GB/TB                                               |
+| Test file | Tests | Covers |
+| --- | --- | --- |
+| `test_mdc.py` | 45 | Exception wrapping, response extraction, step-by-step, resume, recovery, stream_and_upload, verbose passthrough |
+| `test_naming.py` | 30 | Release parsing (incl. delta), paths, detect_locales |
+| `test_pipeline.py` | 22 | Job building, process_locale, resume, state path, GCS cleanup, orphans |
+| `test_streaming.py` | 9 | Initiate raw (bypasses Pydantic), load/resume state, single/multi-part, resume skip, empty blob |
+| `test_config.py` | 16 | UploaderConfig.from_cli, locale parsing, resume validation, jobs, no_stream |
+| `test_language.py` | 11 | LanguageRegistry init/find/extras/variants/API failure |
+| `test_gcs.py` | 10 | URI detection, parsing, require guard |
+| `test_models.py` | 9 | StrEnum values, ReleaseSpec props, defaults |
+| `test_state.py` | 7 | BatchState record/summary, retry loading, orphaned extraction |
+| `test_log.py` | 6 | File handler setup, DEBUG capture, datacollective logger routing |
+| `test_progress.py` | 5 | format_size B/KB/MB/GB/TB |
 
 ### Project Dependencies
 
 Runtime:
 
-- `datacollective>=0.4.2` -- MDC Python SDK
+- `datacollective>=0.4.5,<1.0` -- MDC Python SDK (150 GB upload limit)
 - `click>=8.1` -- CLI framework
 - `tenacity>=8.2` -- retry with backoff
 - `httpx>=0.27` -- HTTP client for language API
@@ -581,12 +598,16 @@ The shell script at `src/cli/mdc-upload.sh` must be executable (`chmod +x`). Git
 
 ---
 
-## Future: Multi-Pod with BullMQ (Iteration 2)
+## Future: Multi-Pod with BullMQ (Iteration 3)
 
-Planned for the next iteration using the official BullMQ Python port (v2.19.6):
+Planned for a future iteration using the official BullMQ Python port (v2.19.6):
 
 - `mdc-upload dispatch` -- scan base-dir, sort by size DESC, push jobs to BullMQ queue
 - `mdc-upload worker` -- BullMQ Worker consumes and processes jobs
 - `mdc-upload status` -- show batch progress from Redis
 - **Redis-backed batch state** -- state JSON is now copied to GCS after each batch, but mid-batch crashes still lose progress. Move state tracking to Redis for real-time persistence across pod restarts.
 - Reuses existing Redis instance from bundler infrastructure
+
+## Future: MDC SDK Metadata-First Flow
+
+The MDC team plans to update the SDK so metadata is saved before the file upload (steps 1+3 merged, then step 2, then step 4). When released, adapt `mdc.py` and `streaming.py` to the new step order. The streaming and concurrency architecture stays the same.
