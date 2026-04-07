@@ -37,9 +37,9 @@ const useReview = ({ getString, showReportModal }: UseReviewParams) => {
     el => el.isValid === null
   )
 
-  const localeId = languages.localeNameAndIDMapping.find(
+  const localeId = languages.localeNameAndIDMapping?.find(
     locale => locale.name === currentLocale
-  ).id
+  )?.id
 
   const voteSentence = useAction(Sentences.actions.voteSentence)
   const skipSentence = useAction(Sentences.actions.skipSentence)
@@ -48,6 +48,8 @@ const useReview = ({ getString, showReportModal }: UseReviewParams) => {
   )
 
   const handleFetch = () => {
+    if (localeId == null) return
+
     try {
       fetchPendingSentences(localeId)
     } catch (error) {
