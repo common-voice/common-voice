@@ -1,5 +1,6 @@
 ## Home page
 
+welcome-to-spontaneous-speech = Кинәт туган сөйләм проектына рәхим итегез
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>Башлам</mark>
 # text wrapped in <mark></mark> will have a blue background

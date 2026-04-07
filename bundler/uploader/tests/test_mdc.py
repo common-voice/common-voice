@@ -374,6 +374,8 @@ class TestResumeAndUpload:
             file_path="/fake/file.tar.gz",
             submission_id="sub-existing",
             state_path="/state/mdc-upload-fr.json",
+            enable_logging=False,
+            show_progress=False,
         )
         mock_update.assert_called_once()
         mock_submit.assert_called_once()
@@ -455,3 +457,119 @@ class TestRecoverSubmission:
             )
         assert exc_info.value.submission_id == "sub-orphan"
         assert exc_info.value.file_upload_id == "fup-orphan"
+
+
+class TestStreamAndUpload:
+    """Tests for stream_and_upload -- draft -> stream -> finalize."""
+
+    def _client(self, verbose: bool = False) -> MDCClient:
+        return MDCClient(api_key="test", api_url="http://test", verbose=verbose)
+
+    @patch("mdc_uploader.mdc.submit_submission")
+    @patch("mdc_uploader.mdc.update_submission")
+    @patch("mdc_uploader.mdc.stream_upload_from_gcs")
+    @patch("mdc_uploader.mdc.create_submission_draft")
+    def test_success_full_flow(
+        self, mock_draft, mock_stream, mock_update, mock_submit,
+    ) -> None:
+        """Full success: draft -> stream -> metadata -> submit."""
+        mock_draft.return_value = {"submission": {"id": "sub-s1"}}
+        mock_stream_state = MagicMock()
+        mock_stream_state.fileUploadId = "fup-s1"
+        mock_stream.return_value = mock_stream_state
+        mock_update.return_value = {}
+        mock_submit.return_value = {"submission": {"status": "submitted"}}
+
+        sub_id, ok = self._client().stream_and_upload(
+            bucket_name="my-bucket",
+            blob_path="release/test-en.tar.gz",
+            submission=MagicMock(),
+            state_path="/tmp/state.json",
+        )
+        assert sub_id == "sub-s1"
+        assert ok is True
+        mock_draft.assert_called_once()
+        mock_stream.assert_called_once_with(
+            bucket_name="my-bucket",
+            blob_path="release/test-en.tar.gz",
+            submission_id="sub-s1",
+            state_path="/tmp/state.json",
+            locale="",
+        )
+        mock_update.assert_called_once()
+        mock_submit.assert_called_once()
+
+    @patch("mdc_uploader.mdc.stream_upload_from_gcs")
+    @patch("mdc_uploader.mdc.create_submission_draft")
+    def test_stream_failure_orphaned_draft(
+        self, mock_draft, mock_stream,
+    ) -> None:
+        """Stream failure raises OrphanedDraftError."""
+        mock_draft.return_value = {"submission": {"id": "sub-s2"}}
+        mock_stream.side_effect = RuntimeError("GCS timeout")
+
+        with pytest.raises(OrphanedDraftError) as exc_info:
+            self._client().stream_and_upload(
+                bucket_name="b", blob_path="p",
+                submission=MagicMock(), state_path="/tmp/s.json",
+            )
+        assert exc_info.value.submission_id == "sub-s2"
+
+    @patch("mdc_uploader.mdc.create_submission_draft")
+    def test_draft_failure_no_orphan(self, mock_draft) -> None:
+        """Draft failure raises directly, no OrphanedDraftError."""
+        mock_draft.side_effect = RuntimeError("auth failed")
+
+        with pytest.raises(RuntimeError, match="auth failed"):
+            self._client().stream_and_upload(
+                bucket_name="b", blob_path="p",
+                submission=MagicMock(), state_path="/tmp/s.json",
+            )
+
+
+class TestVerbosePassthrough:
+    """Tests for verbose flag passthrough to SDK."""
+
+    @patch("mdc_uploader.mdc.submit_submission")
+    @patch("mdc_uploader.mdc.update_submission")
+    @patch("mdc_uploader.mdc.upload_dataset_file")
+    @patch("mdc_uploader.mdc.create_submission_draft")
+    def test_verbose_true_passed_to_sdk(
+        self, mock_draft, mock_upload, mock_update, mock_submit,
+    ) -> None:
+        """When verbose=True, enable_logging and show_progress are True."""
+        mock_draft.return_value = {"submission": {"id": "sub-v"}}
+        mock_upload_state = MagicMock()
+        mock_upload_state.fileUploadId = "fup-v"
+        mock_upload.return_value = mock_upload_state
+        mock_update.return_value = {}
+        mock_submit.return_value = {"submission": {"status": "submitted"}}
+
+        client = MDCClient(api_key="test", api_url="http://test", verbose=True)
+        client.create_and_upload("/fake/file.tar.gz", MagicMock())
+
+        call_kwargs = mock_upload.call_args[1]
+        assert call_kwargs["enable_logging"] is True
+        assert call_kwargs["show_progress"] is True
+
+    @patch("mdc_uploader.mdc.submit_submission")
+    @patch("mdc_uploader.mdc.update_submission")
+    @patch("mdc_uploader.mdc.upload_dataset_file")
+    @patch("mdc_uploader.mdc.create_submission_draft")
+    def test_verbose_false_passed_to_sdk(
+        self, mock_draft, mock_upload, mock_update, mock_submit,
+    ) -> None:
+        """When verbose=False (default), enable_logging and show_progress are False."""
+        mock_draft.return_value = {"submission": {"id": "sub-v2"}}
+        mock_upload_state = MagicMock()
+        mock_upload_state.fileUploadId = "fup-v2"
+        mock_upload.return_value = mock_upload_state
+        mock_update.return_value = {}
+        mock_submit.return_value = {"submission": {"status": "submitted"}}
+
+        client = MDCClient(api_key="test", api_url="http://test")
+        client.create_and_upload("/fake/file.tar.gz", MagicMock())
+
+        call_kwargs = mock_upload.call_args[1]
+        assert call_kwargs["enable_logging"] is False
+        assert call_kwargs["show_progress"] is False

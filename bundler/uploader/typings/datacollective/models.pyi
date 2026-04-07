@@ -46,6 +46,13 @@ class License(str, Enum):
     OGDL_TAIWAN_1_0 = "OGDL-Taiwan-1.0"
     UNLICENSE = "Unlicense"
 
+class NonEmptyStrModel: ...
+
+class UploadPart:
+    partNumber: int
+    etag: str
+    def __init__(self, *, partNumber: int, etag: str) -> None: ...
+
 class DatasetSubmission:
     name: str | None
     shortDescription: str | None

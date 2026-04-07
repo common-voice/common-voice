@@ -95,3 +95,6 @@ release-version = ورشن
 dataset-date = تریخ
 license = لائسنس: <licenseLink>{ $license }</licenseLink>
 license-mixed = مکس تھئے
+# Support old genders in older datasets
+male = مرد
+female = تریمت

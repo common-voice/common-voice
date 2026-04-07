@@ -1,6 +1,6 @@
 ## Request Language Pages
 
-request-language-heading = bɔhimi nya balli palli
+request-language-heading = bɔhimi bal' palli yɛla
 request-language-form-email =
     .label = A iimaili Taliŋ adaka
 request-language-form-info =
@@ -17,3 +17,6 @@ request-language-success-list-1 = Di tuya ni a deegi iimali din yina ti dundɔŋ
 request-language-success-list-3 = A yi bi wum ti lahabali dabisabihi sunsuuni,bɔmi ti shee na<emailLink>{ $email }</emailLink>ti ni labina
 request-for-scripted-speech-toggle = Suhimi lahabali din sabidɔya
 need-help-deciding-platform = A bɔri sɔŋsim zaŋchaŋ a ni yɛn pii shɛli?
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = <strong>lahabali din sabidɔya</strong>(ti ni mi shɛli common voice) n nyɛ luɣishɛli a ni tooi yihi karim yɛltɔɣa a balli puuni
+need-help-deciding-platform-explanation-3 = A yi bi nya a balli dundɔna ayi maa ni, nyin piimi di zaa

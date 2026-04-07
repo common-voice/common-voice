@@ -18,6 +18,7 @@ arn = Mapucse
 as = Asszámi
 ast = Asztúriai
 az = Azeri
+azz = Felföldi pueblai navatl
 ba = Baskír
 bas = Basza
 bax = Bamun
@@ -34,6 +35,7 @@ byv = Medumba
 ca = Katalán
 cak = Kacsikel
 cdo = Keleti min
+ce = Csecsen
 ckb = Közép-kurd
 cnh = Hakha Chin
 co = Korzikai
@@ -136,6 +138,7 @@ nhe = Keleti huastecai nahuatl
 nhi = Nyugat-Sierra Puebla-i navatl
 nia = Nias
 nl = Holland
+nlv = Orizaba navatl
 nn-NO = Norvég nynorsk
 nr = Ndebele (déli)
 nso = Északi szeszotó
@@ -153,9 +156,20 @@ ps = Pastu
 pt = Portugál
 quc = K'iche'
 qup = Déli pastazai kecsua
+qur = Kecsua, Yanahuanca
+qus = Kecsua, Santiago del Estero
+qux = Kecsua, Yauyos
 quy = Kecsua chanka
+qva = Kecsua, Ambo-Pasco
 qvi = Kecsua
+qvl = Kecsua, Cajatambo
+qwa = Kecsua, Corongo Ancash
+qws = Kecsua, Sihuas Ancash
+qxa = Kecsua, Chiquián
 qxp = Puno kecsua
+qxt = Kecsua, Pasco Santa Ana de Tusi
+qxu = Kecsua, Arequipa-La Unión
+qxw = Kecsua, Jauja Wanka
 rm-sursilv = Romans sursilvan
 rm-vallader = Romans vallader
 ro = Román
@@ -179,6 +193,7 @@ sq = Albán
 sr = Szerb
 ss = Szvázi
 st = Déli szeszotó
+su = Szundanéz
 sv-SE = Svéd
 sw = Szuahéli
 syr = Szír
@@ -257,6 +272,8 @@ indicates-required = * Kötelező mezőt jelez
 not-available-abbreviation = Nincs
 # Text shown on a button that can be clicked to copy text to the clipboard
 copy = Másolás
+# Text shown on a button that can be clicked to close a modal or panel
+close = Bezárás
 # Text shown on a button that can be clicked to cancel an action
 cancel = Mégse
 # Text shown on a button that can be clicked to delete an item
@@ -282,3 +299,32 @@ announcement-mdc-text = Az <strong>új Common Voice adatkészletek</strong> már
 announcement-mdc-button-text = Csatlakozás a Mozilla Data Collective-hez
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = Új lapon nyílik meg
+
+## Release Delay Announcement
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-delay = Tisztelt közösség, jelenleg dolgozunk a kiadáson. Reméljük, hogy részenként bevezetésre kerül a következő napokban a <mdcLink>Mozilla Data Collective</mdcLink> weboldalán.
+
+## Release Announcement
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release = Tisztelt közösség, az új kiadás már teljesen a <mdcLink>Mozilla Data Collective</mdcLink> weboldalán van. Csatlakozzon, hogy több mint 500 globális adatkészlethez férjen hozzá, mely a közösség által készül, a közösség számára.
+
+## Pre-Release Announcement (dates TBD)
+
+# Text wrapped in <cvDatasheetsLink></cvDatasheetsLink> will be rendered as an external link to the cv-datasheets GitHub repo
+announcement-pre-release = Tisztelt közösség, közeledik a megjelenés ideje. Kérjük, kezdjenek hozzá az ellenőrzéshez és a leiratozáshoz, valamint keressék fel a <cvDatasheetsLink>cv-datasheets</cvDatasheetsLink> tárolót az adatlap frissítéséhez.
+
+## Common Language/Dataset Selector & SearchBox Related
+
+# Generic search box defaults
+searchbox-default-label = Kezdjen gépelni a kereséshez
+searchbox-default-placeholder = Keresés…
+searchbox-default-aria-label = Keresés
+dropdown-no-results = Nincs találat
+# Common Voice Dataset=Language search box
+dataset-searchbox-label = Módosítja a megjelenítés és az adatkészlet nyelvét
+dataset-searchbox-placeholder = Nyelv keresése…
+dataset-searchbox-aria-label = Nyelv keresése
+dataset-search-no-results = Nem található egyező nyelv
+request-new-language = Új nyelv kérése

@@ -37,6 +37,8 @@ class UploaderConfig:
     submission_id: str | None  # None = new submission mode
     dry_run: bool
     verbose: bool
+    jobs: int = 4
+    no_stream: bool = False
     # Per-locale recovery data from --retry-failed (locale -> IDs)
     orphaned_submissions: dict[str, _OrphanedSubmission] | None = None
     # SDK state file for --resume (resumes partial multipart upload)
@@ -44,7 +46,9 @@ class UploaderConfig:
     resume_submission_id: str | None = None
 
     def __post_init__(self) -> None:
-        """Validate resume invariants."""
+        """Validate config invariants."""
+        if self.jobs < 1:
+            raise ValueError("jobs must be >= 1")
         has_path = self.resume_state_path is not None
         has_sid = self.resume_submission_id is not None
         if has_path != has_sid:
@@ -67,6 +71,8 @@ class UploaderConfig:
         submission_id: str | None,
         dry_run: bool,
         verbose: bool,
+        jobs: int = 4,
+        no_stream: bool = False,
         mdc_api_key: str,
         mdc_api_url: str | None,
         orphaned_submissions: dict[str, _OrphanedSubmission] | None = None,
@@ -89,6 +95,8 @@ class UploaderConfig:
             submission_id=submission_id,
             dry_run=dry_run,
             verbose=verbose,
+            jobs=jobs,
+            no_stream=no_stream,
             orphaned_submissions=orphaned_submissions,
             resume_state_path=resume_state_path,
             resume_submission_id=resume_submission_id,

@@ -40,6 +40,7 @@ x-years-short =
     }
 help-make-dataset = Hãy giúp chúng tôi xây dựng một bộ dữ liệu công khai, chất lượng cao
 sign-up-account = Đăng kí một tài khoản
+email-subscription-title-v3 = Đăng ký nhận thông tin cập nhật từ Common Voice và Mozilla Foundation
 
 ## Account Benefits
 
@@ -120,6 +121,7 @@ answer = Trả lời
 
 ## Community section
 
+community-section-title-202601 = Được cung cấp bởi các cộng đồng toàn cầu, cho các cộng đồng toàn cầu — 290 ngôn ngữ và vẫn tiếp tục tăng lên!
 join-discord-community = Tham gia cộng đồng Discord
 # label for button
 join-discord-community-action = Tham gia cùng chúng tôi trên Discord
