@@ -317,6 +317,7 @@ code-switching-lookalikes-explanation-example-1 = “Footing” he’iseva ñeñ
 code-switching-lookalikes-explanation-example-2 = “Ndaipóri apañuái” ojeporúva inglés ñe’ẽme > embohéra inglés ramo
 # When Not to Tag Words
 code-switching-not-tag-header = Araka’épa ñe’ẽ reramoĩ emboykéta
+code-switching-not-tag-explanation = Oĩ ndahetái ñe’ẽ noñemboheraiva’erã peteĩ ñe’ẽ mbohérape, taha’e jehe’apy térã mbohekopyre. Koʼápe ehecháta mba’éicha emboguatáta techapyrã:
 code-switching-not-tag-proper-names = <bold>Terakuéra tee.</bold> Ndojehaiva’erãi tapichakuéra, tenda térã atyguasu réra. Techapyrãramo:
 code-switching-not-tag-proper-names-example-1 = Yvypóra: María, Juan
 code-switching-not-tag-proper-names-example-2 = Tendakuéra: Los Ángeles, Florida
