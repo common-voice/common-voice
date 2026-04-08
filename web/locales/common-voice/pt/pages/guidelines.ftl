@@ -117,3 +117,22 @@ what-makes-a-good-question-explanation-criteria-3 = Não utilizar ou solicitar l
 what-makes-a-good-question-tip = Também pode considerar a possibilidade de abranger diferentes contextos e domínios.
 easy-to-understand = Fácil de entender
 spelling-and-pronunciation = Ortografia e pontuação
+spelling-and-pronunciation-explanation = Utilizar ortografia e gramática corretas.
+dont-add-subheader = Não adicione
+process-steps = Processo / Etapas
+offensive-content-sensitive-information = Conteúdo ofensivo ou informações sensíveis
+offensive-content-sensitive-information-explanation-explanation-3 = Perguntas que podem levar alguém a partilhar respostas sensíveis ou potencialmente inflamatórias
+example-questions-subheader = Exemplos de perguntas
+
+## Spontaneous Speech sidebar content
+
+# Answer Questions
+answer-questions = Responder a perguntas
+answer-questions-subheader = Orientações gerais
+answer-questions-tip-6 = Mantenha o volume constante - não grite nem cante
+# Transcribe the Audio
+transcribe-the-audio = Transcreva o áudio
+transcribe-the-audio-subheader-1 = Orientações gerais
+transcribe-the-audio-subheader-2 = Números e acrónimos
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Incorreto</wrong>: Fica a 160 quilómetros daqui
