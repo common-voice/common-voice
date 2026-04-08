@@ -170,3 +170,4 @@ code-switching-tagging-error-1 = Pontuação ou capitalização incorreta
 code-switching-not-tag-proper-names-example-1 = Pessoas: Maria, João
 code-switching-not-tag-proper-names-example-2 = Locais: Los Angeles, Florida
 code-switching-not-tag-interjections-example-2 = "Não"
+code-switching-not-tag-interjections-example-3 = "Sim"
