@@ -136,3 +136,37 @@ transcribe-the-audio-subheader-1 = Orientações gerais
 transcribe-the-audio-subheader-2 = Números e acrónimos
 # text wrapped in wrong will be shown as red text in the UI
 transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Incorreto</wrong>: Fica a 160 quilómetros daqui
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correto>Correto</correto>: Vejo-te em <sublinhado>dois mil e quinze</sublinhado>
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Incorreto</wrong>: Vejo-te em <underline>2015</underline>
+transcribe-the-audio-subheader-2-example-3-correct = <correto>Correto</correto>: Tinha vinte por cento de desconto
+transcribe-the-audio-subheader-2-example-3-wrong = <erro>Incorreto</erro>: Tinha 20% de desconto
+transcribe-the-audio-subheader-2-example-4-correct = <correct>Correto</correct>: Eles foram detidos pelo <underline>FBI</underline> na passada quinta-feira
+transcribe-the-audio-subheader-2-example-4-wrong = <errado>Incorreto</errado>: Eles foram detidos pelo <sublinhado>éfe-bê-í</sublinhado> na passada quinta-feira
+tags-table-header-2 = Significado
+tags-laugh = Rir
+tags-unclear = Não está claro
+tags-noise = Barulho
+tags-laugh-explanation = O som do riso.
+transcribe-the-audio-subheader-4-explanation-2-example = E então eu fui para <underline>a a a cama- o</underline> quarto
+
+## Code-Switching
+
+adding-a-question = Adicionar uma pergunta
+# Adding a Question
+code-switching-adding-question-subheader = O que define uma boa pergunta?
+code-switching-dont-1 = Não utilize linguagem demasiado formal
+# Reviewing a Question
+code-switching-review-subheader = Revisão de uma pergunta
+code-switching-review-offensive-content = <bold>Conteúdo ofensivo ou informação sensível</bold>
+# Answering a Question
+code-switching-answer-subheader = Responder a uma pergunta
+# Don’t Overthink or Overedit
+code-switching-answer-dont-subheader = Não complique nem edite em demasia
+# Transcribing
+code-switching-transcribe-subheader = Transcrever
+code-switching-tagging-error-1 = Pontuação ou capitalização incorreta
+code-switching-not-tag-proper-names-example-1 = Pessoas: Maria, João
+code-switching-not-tag-proper-names-example-2 = Locais: Los Angeles, Florida
+code-switching-not-tag-interjections-example-2 = "Não"
