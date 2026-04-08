@@ -104,3 +104,16 @@ reviewing-sentences-explanation-2 = Se a frase não atender aos critérios acima
 reviewing-sentences-explanation-3 = Se não tiver certeza sobre a frase, você também pode ignorar e passar para a próxima.
 reviewing-sentences-explanation-4 = Se não tiver mais frases para revisar, ajude-nos a coletar mais frases!
 domain-explanation = Domínio refere-se ao assunto da frase. Atualmente, você pode escolher entre:
+
+## Question collection ids
+
+adding-questions = Adicionar perguntas
+
+## Question collection sidebar content
+
+what-makes-a-good-question-subheader = O que define uma boa pergunta?
+what-makes-a-good-question-explanation-criteria-1 = Ser fácil de entender e de responder
+what-makes-a-good-question-explanation-criteria-3 = Não utilizar ou solicitar linguagem prejudicial ou ofensiva
+what-makes-a-good-question-tip = Também pode considerar a possibilidade de abranger diferentes contextos e domínios.
+easy-to-understand = Fácil de entender
+spelling-and-pronunciation = Ortografia e pontuação
