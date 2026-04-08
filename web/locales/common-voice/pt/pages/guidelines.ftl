@@ -3,6 +3,7 @@ guidelines-header = Diretrizes de contribuição
 guidelines-header-subtitle = Entenda como contribuir e validar frases e clipes de áudio para o conjunto de dados do Common Voice
 voice-collection = Coleta de voz
 sentence-collection = Coleção de frases
+dont-subheader = Não
 
 ## Voice Collection nav ids
 
