@@ -168,6 +168,8 @@ partner-section-title = Seja nosso parceiro
 partner-section-subtitle-tech-companies = <bold>Empresas de tecnologia</bold> - invistam na criação de conjuntos de dados abertos para impulsionar um ecossistema dinâmico de IA multi-idioma
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-civil-society = <bold>Sociedade civil e investigadores</bold> - criem, alojem e partilhem gratuitamente conjuntos de dados relevantes
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Filantropia</bold> - apoie a criação de conjuntos de dados para promover a inovação e o desenvolvimento locais
 # icon is an arrow that points to the right
 get-in-touch-button = Entre em contato <icon></icon>
 # Partners section
