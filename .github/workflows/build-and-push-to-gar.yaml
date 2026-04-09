@@ -28,7 +28,7 @@ jobs:
           echo "git_tag=${{ github.ref_name }}" >> $GITHUB_OUTPUT
 
       - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v3
+        uses: docker/setup-buildx-action@v4
 
       - name: Determine Deployment Environment from Tag
         id: deploy_env
