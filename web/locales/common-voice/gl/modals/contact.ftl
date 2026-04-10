@@ -6,3 +6,5 @@ contact-form-name =
 contact-form-message =
     .label = Mensaxe
 contact-required = *requirido
+contact-form-success = Enviouse a súa mensaxe.
+contact-form-error = Algo foi mal. Tentar de novo?

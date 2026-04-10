@@ -31,3 +31,10 @@ request-language-success-list-3 =
 request-language-error =
     Podemos não ter recebido esta solicitação. Envie um email diretamente
     para <emailLink>{ $email }</emailLink> e entraremos em contato com você!
+request-for-scripted-speech-toggle = Pedido de discurso com guião
+request-for-spontaneous-speech-toggle = Pedido de discurso espontâneo
+need-help-deciding-platform = Precisa de ajuda para decidir qual escolher?
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = <strong>Discurso com guião</strong> (tradicionalmente o que você conhece como Common Voice) é onde você pode ler frases em voz alta no seu idioma.
+need-help-deciding-platform-explanation-2 = <strong>Discurso espontâneo</strong> é uma nova parte do Common Voice onde você pode responder a perguntas de uma forma mais orgânica e coloquial.
+need-help-deciding-platform-explanation-3 = Caso não veja o seu idioma em nenhuma parte da plataforma, selecione ambos.

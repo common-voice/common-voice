@@ -6,6 +6,7 @@ offensive_speech = Conteúdo ofensivo
 offensive_speech-detail = O conteúdo contém linguagem desrespeitosa ou ofensiva.
 personally_identifiable_information = Informações de identificação pessoal
 personally_identifiable_information-detail = Este conteúdo contém informações de identificação pessoal relacionadas com a identidade de um indivíduo, tais como o nome, endereço de e-mail, localização, número de identificação ou número de telefone.
+personally_identifiable_information-answer-detail = Este conteúdo está a solicitar informações de identificação pessoal relacionadas com a identidade de um indivíduo, tais como o nome, endereço de e-mail, localização, número de identificação ou número de telefone.
 report-other-comment =
     .placeholder = Comentário
 # Label for textarea in report modal

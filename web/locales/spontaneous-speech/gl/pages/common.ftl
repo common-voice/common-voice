@@ -87,6 +87,10 @@ player-skip-forward-aria-label = Avanzar 5 segundos
 player-progress-slider-aria-label = Cursor do progreso da reprodución de audio
 # Toggle speed and transcription mode menu button
 player-toggle-mode-menu-aria-label = Activar/desactivar o menu de modos
+# Slower playback speed button accessibility/aria label
+player-speed-slow-aria-label = Diminuír a velocidade de reprodución
+# Normal playback speed button accessibility/aria label
+player-speed-normal-aria-label = Velocidade de reprodución normal
 # Faster playback speed button accessibility/aria label
 player-speed-fast-aria-label = Aumentar a velocidade de reprodución
 # Auto transcription mode button accessibility/aria label
