@@ -115,6 +115,7 @@ about-playbook-how-grow-language-content-4 = Socialne medije
 about-playbook-how-grow-language-content-5 = Móžośo socialne medije wužywaś, aby powěsć rozšyrjował. Źělśo pśinoski, kótarež rozjasnjuju, cogodla jo wažnje, a skontaktěrujśo druge luźe, aby se wó problemach akož rěcne pšawa, rěcna WI abo pśedsudkownosć w technice rozgranjał. Woglědajśo se dalšne rady wó <campaignLink>pśewjeźenju socialneje kampanje inkluziwnje wopśimjeśe, kótarež móžośo znowego wužywaś.</campaignLink>.
 about-playbook-how-grow-language-content-6 = Partnaŕstwa a seśi
 about-playbook-how-grow-language-content-7 = Namakajśo druge luźe, kótarymž to jo wažne. To mógu uniwersity, rěcne šule, kupki zajmow abo zgromaźeństwa datoweje wědomnosći. Skontaktěrujśo se a rozjasniśo, kak mógu pomagaś a cogodla. <outreachTemplates>Glejśo našu psedło´gu za skontaktěrowanje pśez e-mail</outreachTemplates>.
+about-playbook-how-grow-language-content-8-v2 = <strong>Buźćo kreatiwny!</strong> Wašo rěcne zgromaźeństwo buźo jadnorazowe byś a te su jano někotare móžnosći, aby zachopił. Pšosym rozwažćo <communitiesLink>dokumentoju COMMUNITIES.md na GitHub</communitiesLink> swóje kanale zgromaźeństwa pśidaś.
 
 ## How to validate
 
