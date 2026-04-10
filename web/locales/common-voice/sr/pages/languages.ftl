@@ -6,6 +6,7 @@ language-section-launched = Покренут
 language-section-launched-description = За ове језике веб страница је успешно <localizationGlossaryLink>локализована</localizationGlossaryLink>, и има довољно <sentenceCollectionGlossaryLink>прикупљених реченица</sentenceCollectionGlossaryLink> да би се омогућио стални допринос <speakLink>говора</speakLink> и <listenLink>слушања</listenLink> .
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
 language-section-last-updated = Последње ажурирање: { $lastUpdatedTimeStamp }
+language-communities = Размислите о додавању канала ваше заједнице у <communitiesLink>COMMUNITIES.md документ на GitHub-у</communitiesLink>.
 languages-show-more = Погледајте више
 languages-show-less = Погледајте мање
 language-meter-in-progress = Напредак
