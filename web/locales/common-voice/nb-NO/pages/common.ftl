@@ -238,6 +238,7 @@ ml = Malayalam
 mmc = Michoacán Mazahua
 mn = Mongolsk
 mni = Meitei-lon
+mnw = Mon
 mos = Mossi
 mqh = Tlazoyaltepec Mixtec
 mr = Marathi

@@ -238,6 +238,7 @@ ml = Malajálamčina
 mmc = Michoacán Mazahua
 mn = Mongolčina
 mni = Meetei Lon
+mnw = Mon
 mos = Mossi
 mqh = Tlazoyaltepec Mixtec
 mr = Maráthčina

@@ -124,12 +124,15 @@ join-discord-community-action = Participe no Discord
 join-discord-community-content = Participe de discussões na comunidade linguística, faça perguntas e saiba mais sobre os próximos eventos e palestras.
 find-us-on-matrix = Encontre-nos no Matrix
 ask-mozilla-share = Peça para a Mozilla compartilhar seus eventos
+ask-mozilla-share-content = Teve ou vai ter algum evento? Partilhe connosco e nós divulgamos à nossa comunidade ou escrevemos um artigo no nosso blogue sobre o mesmo!
 # label for button
 ask-mozilla-share-action = Compartilhe seu evento
 download-contribution-certificate = Baixe seu certificado de contribuição
+download-contribution-certificate-content = Descarregue um certificado para os seus eventos ou para si, caso tenha contribuído para o Common Voice — nada disto seria possível sem a sua participação!
 # label for button
 download-contribution-certificate-action = Obtenha seu certificado
 contribute-github = Contribua no GitHub
+contribute-github-content = Este projeto não seria possível sem pessoas como você. 🎉 Existem muitas maneiras de se envolver com o Common Voice - você não precisa saber programar para contribuir!
 # label for button
 contribute-github-action = Contribua no GitHub
 
@@ -142,6 +145,7 @@ download-press-pack = Baixe nosso pacote de imprensa <icon></icon>
 ## Developers section
 
 developers-section-title = Conjuntos de dados vocais abertos, acessíveis ao público em mais de 130 idiomas
+developers-section-subtitle = Conjuntos de dados para ASR, STT, TTS e outros contextos de PLN, desenvolvidos com a colaboração da comunidade.
 # icon is an arrow that points to the right
 explore-datasets = Explorar conjuntos de dados <icon></icon>
 
@@ -150,6 +154,7 @@ explore-datasets = Explorar conjuntos de dados <icon></icon>
 get-involved-section-title = Apoie conjuntos de dados abertos, gerenciados pela comunidade
 read-sentences-link = Ler frases
 validate-readings-link = Validar leituras
+contribute-link = Contribuir para o corpus de texto
 answer-questions-link = Responder perguntas
 transcribe-answers-link = Transcrever respostas
 review-transcriptions-link = Revisar transcrições
@@ -159,6 +164,12 @@ press-and-stories-link = Imprensa e histórias
 ## Partner section
 
 partner-section-title = Seja nosso parceiro
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Empresas de tecnologia</bold> - invistam na criação de conjuntos de dados abertos para impulsionar um ecossistema dinâmico de IA multi-idioma
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Sociedade civil e investigadores</bold> - criem, alojem e partilhem gratuitamente conjuntos de dados relevantes
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Filantropia</bold> - apoie a criação de conjuntos de dados para promover a inovação e o desenvolvimento locais
 # icon is an arrow that points to the right
 get-in-touch-button = Entre em contato <icon></icon>
 # Partners section

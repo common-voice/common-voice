@@ -6,6 +6,7 @@ language-section-launched = Launched
 language-section-launched-description = For these launched languages the website has been successfully <localizationGlossaryLink>localized</localizationGlossaryLink>, and has enough <sentenceCollectionGlossaryLink>sentences collected</sentenceCollectionGlossaryLink> to allow for ongoing <speakLink>Speak</speakLink> and <listenLink>Listen</listenLink> contributions.
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
 language-section-last-updated = Last Updated: { $lastUpdatedTimeStamp }
+language-communities = Please consider adding your community channels to <communitiesLink>COMMUNITIES.md document on GitHub</communitiesLink>.
 languages-show-more = See More
 languages-show-less = See Less
 language-meter-in-progress = Progress

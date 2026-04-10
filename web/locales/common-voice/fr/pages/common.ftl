@@ -238,6 +238,7 @@ ml = Malayalam
 mmc = Mazahua occidental
 mn = Mongol
 mni = Meitei Lon
+mnw = Môn
 mos = Moré
 mqh = Mixtèque de Tlazoyaltepec
 mr = Marathe

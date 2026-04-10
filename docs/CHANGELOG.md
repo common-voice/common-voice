@@ -2,7 +2,7 @@
 
 ## Current release
 
-### [v1.158.0 (2025-04-07)](https://github.com/common-voice/common-voice/releases/tag/release-v1.158.0)
+### [v1.158.0 (2026-04-07)](https://github.com/common-voice/common-voice/releases/tag/release-v1.158.0)
 
 - Fix: Add more error handling — handle undefined cases, add try-catch guards, show user-friendly notification for connection and server errors, by [@moz-bozden](https://github.com/moz-bozden) in [#5369](https://github.com/common-voice/common-voice/pull/5369)
 - Feat: Expand announcement module to support multiple announcements with tracking, by [@moz-bozden](https://github.com/moz-bozden) in [#5345](https://github.com/common-voice/common-voice/pull/5345) (in v.1.157.5)
@@ -74,9 +74,13 @@
 
 ### Changes merged after current release
 
+- Update MDC root URL, by [@moz-bozden](https://github.com/moz-bozden) in [#5373](https://github.com/common-voice/common-voice/pull/5373) (in v1.158.1)
+
 #### Data Changes after current release
 
 #### Spontaneous Speech after current release
+
+- Update MDC root URL, by [@moz-bozden](https://github.com/moz-bozden) in [#533](https://github.com/common-voice/spontaneous-speech/pull/533) (in v1.158.1)
 
 ##### SS Data Changes after current release
 

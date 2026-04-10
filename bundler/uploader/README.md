@@ -1,6 +1,6 @@
 # MDC Uploader
 
-CLI tool that uploads Common Voice release tarballs to [Mozilla Data Collective](https://datacollective.mozillafoundation.org/) (MDC) via the MDC API. Each upload includes a datasheet as metadata, displayed on the dataset page in MDC.
+CLI tool that uploads Common Voice release tarballs to [Mozilla Data Collective](https://mozilladatacollective.com/) (MDC) via the MDC API. Each upload includes a datasheet as metadata, displayed on the dataset page in MDC.
 
 Supports both SCS (Scripted Speech) and SPS (Spontaneous Speech) releases, including full, delta, and future licensed, and variant dataset types.
 
@@ -310,7 +310,7 @@ For `gs://` URIs, GCS streaming is used by default -- chunks are read directly f
 
 ## MDC Targets
 
-| Target | URL                                                    |
-| ------ | ------------------------------------------------------ |
-| dev    | `https://dev.datacollective.mozillafoundation.org/api` |
-| prod   | `https://datacollective.mozillafoundation.org/api`     |
+| Target | URL                                         |
+| ------ | ------------------------------------------- |
+| dev    | `https://dev.mozilladatacollective.com/api` |
+| prod   | `https://mozilladatacollective.com/api`     |

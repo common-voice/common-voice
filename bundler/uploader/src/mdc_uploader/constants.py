@@ -3,8 +3,8 @@
 from mdc_uploader.typedef import DescriptionTemplate, MDCTarget
 
 MDC_API_URLS: dict[MDCTarget, str] = {
-    "dev": "https://dev.datacollective.mozillafoundation.org/api",
-    "prod": "https://datacollective.mozillafoundation.org/api",
+    "dev": "https://dev.mozilladatacollective.com/api",
+    "prod": "https://mozilladatacollective.com/api",
 }
 
 # Common Voice language data API

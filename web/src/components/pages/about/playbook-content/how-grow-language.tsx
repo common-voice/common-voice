@@ -1,8 +1,8 @@
-import * as React from 'react';
-import { Localized } from '@fluent/react';
+import * as React from 'react'
+import { Localized } from '@fluent/react'
 
 const HowGrowLanguage = React.memo(() => {
-  const strong = <strong />;
+  const strong = <strong />
 
   return (
     <>
@@ -21,7 +21,7 @@ const HowGrowLanguage = React.memo(() => {
             <a
               href="https://drive.google.com/drive/folders/15eh2FIlgDZSQgnWGt3JDqKMA1fWRpdnP?usp=sharing"
               target="_blank"
-              rel="noopener noreferer"
+              rel="noopener noreferrer"
             />
           ),
         }}>
@@ -39,7 +39,7 @@ const HowGrowLanguage = React.memo(() => {
             <a
               href="https://github.com/common-voice/community-playbook/blob/master/assets/img/CV_Social_Media_Community_Campaign.pdf"
               target="_blank"
-              rel="noopener noreferer"
+              rel="noopener noreferrer"
             />
           ),
         }}>
@@ -57,19 +57,28 @@ const HowGrowLanguage = React.memo(() => {
             <a
               href="https://docs.google.com/document/d/19GcvuMfxtmV5V3ZXCYfQoqNl5-hFdi-mTmFjVW6TVho/edit?usp=sharing"
               target="_blank"
-              rel="noopener noreferer"
+              rel="noopener noreferrer"
             />
           ),
         }}>
         <p />
       </Localized>
       <Localized
-        id="about-playbook-how-grow-language-content-8"
-        elems={{ strong }}>
+        id="about-playbook-how-grow-language-content-8-v2"
+        elems={{
+          strong,
+          communitiesLink: (
+            <a
+              href="https://github.com/common-voice/common-voice/blob/main/docs/COMMUNITIES.md"
+              target="_blank"
+              rel="noopener noreferrer"
+            />
+          ),
+        }}>
         <p />
       </Localized>
     </>
-  );
-});
+  )
+})
 
-export default HowGrowLanguage;
+export default HowGrowLanguage

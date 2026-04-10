@@ -338,6 +338,20 @@ const LanguagesPage = ({ getString }: WithLocalizationProps) => {
                 />
               </p>
             )}
+            <Localized
+              id="language-communities"
+              elems={{
+                communitiesLink: (
+                  <a
+                    className="link"
+                    href="https://github.com/common-voice/common-voice/blob/main/docs/COMMUNITIES.md"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  />
+                ),
+              }}>
+              <p />
+            </Localized>
           </div>
           <div className="text">
             <div className="inner">

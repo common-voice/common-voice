@@ -238,6 +238,7 @@ ml = Malajalamšćina
 mmc = Michoacán Mazahua
 mn = Mongolšćina
 mni = Meetei Lon
+mnw = Mon
 mos = Mossišćina
 mqh = Mixtekšćina Tlazoyaltepec
 mr = Maratišćina

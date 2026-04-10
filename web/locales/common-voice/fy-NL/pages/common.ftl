@@ -238,6 +238,7 @@ ml = Malayalam
 mmc = Michoacán Mazahua
 mn = Mongoalsk
 mni = Meetei Lono
+mnw = Mon
 mos = More
 mqh = Tlazoyaltepec-Miksteeksk
 mr = Marathy
