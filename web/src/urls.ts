@@ -16,7 +16,7 @@ export default Object.freeze({
   DASHBOARD,
   DATA: '/data', // old, here for redirect purposes
   DATASETS:
-    'https://datacollective.mozillafoundation.org/organization/cmfh0j9o10006ns07jq45h7xk',
+    'https://mozilladatacollective.com/organization/cmfh0j9o10006ns07jq45h7xk',
   OLDDATASETS: '/olddatasets',
   DEMO,
   DEMO_ACCOUNT: DEMO + '/create-profile',
@@ -33,9 +33,9 @@ export default Object.freeze({
   LANGUAGE_REQUEST: '/language/request',
   LANGUAGE_REQUEST_SUCCESS: '/language/request/success',
   LISTEN: '/listen',
-  MDC_ROOT: 'https://datacollective.mozillafoundation.org',
+  MDC_ROOT: 'https://mozilladatacollective.com',
   MDC_DATASETS:
-    'https://datacollective.mozillafoundation.org/organization/cmfh0j9o10006ns07jq45h7xk',
+    'https://mozilladatacollective.com/organization/cmfh0j9o10006ns07jq45h7xk',
   MOZILLA_BLOG_ROOT: 'http://foundation.mozilla.org/blog',
   PARTNER: '/partner',
   PRIVACY: '/privacy',

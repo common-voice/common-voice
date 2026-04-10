@@ -60,7 +60,7 @@ def config(release_dir):
     return UploaderConfig(
         release_name="sps-corpus-3.0-2026-03-09",
         upload_target="dev",
-        mdc_api_url="https://dev.datacollective.mozillafoundation.org/api",
+        mdc_api_url="https://dev.mozilladatacollective.com/api",
         mdc_api_key="test-key",
         base_dir=str(release_dir),
         release_type=ReleaseType.FULL,
