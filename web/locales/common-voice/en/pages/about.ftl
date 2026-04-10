@@ -124,7 +124,7 @@ about-playbook-how-grow-language-content-4 = Social media
 about-playbook-how-grow-language-content-5 = You could use social media platforms to get the message out. Share posts that explain why it matters, and get in touch with other people talking about issues like language rights, voice AI, or bias in tech. See more advice on <campaignLink>running a social campaign, including content you can re-use</campaignLink>.
 about-playbook-how-grow-language-content-6 = Partnerships and networks
 about-playbook-how-grow-language-content-7 = Find others who care. That could be universities, language schools, advocacy groups or data science communities. Reach out and explain clearly how they can help and why. <outreachTemplates>See our template outreach emails</outreachTemplates>.
-about-playbook-how-grow-language-content-8 = <strong>Get creative!</strong> Your language community will be unique, and these are just a few ways to get started.
+about-playbook-how-grow-language-content-8-v2 = <strong>Get creative!</strong> Your language community will be unique, and these are just a few ways to get started. Please consider adding your community channels to <communitiesLink>COMMUNITIES.md document on GitHub</communitiesLink>.
 
 ## How to validate
 
