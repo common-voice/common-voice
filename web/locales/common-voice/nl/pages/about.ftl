@@ -118,7 +118,6 @@ about-playbook-how-grow-language-content-4 = Sociale media
 about-playbook-how-grow-language-content-5 = U kunt sociale mediaplatforms gebruiken om de boodschap naar buiten te brengen. Deel berichten die uitleggen waarom het belangrijk is, en kom in contact met andere mensen die praten over zaken als taalrechten, spraak-AI of vooroordelen in technologie. Bekijk meer advies over <campaignLink>het uitvoeren van een sociale campagne, inclusief inhoud die u opnieuw kunt gebruiken</campaignLink>.
 about-playbook-how-grow-language-content-6 = Partnerschappen en netwerken
 about-playbook-how-grow-language-content-7 = Zoek anderen die om taal geven. Dat kunnen universiteiten, taalscholen, belangengroepen of gemeenschappen voor gegevenswetenschappen zijn. Neem contact op en leg duidelijk uit hoe ze kunnen helpen en waarom. <outreachTemplates>Bekijk onze e-mailsjablonen om contact op te nemen</outreachTemplates>.
-about-playbook-how-grow-language-content-8 = <strong>Wees creatief!</strong> Uw taalgemeenschap zal uniek zijn, en dit zijn slechts een paar manieren om te beginnen.
 
 ## How to validate
 

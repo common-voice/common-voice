@@ -124,7 +124,6 @@ about-playbook-how-grow-language-content-4 = Swihangalasamahungu swa mani na man
 about-playbook-how-grow-language-content-5 = U nga tirhisa tipulatifomo ta ti-website to endla xinghana ku humesa rungula. Avelana ti post leti hlamuselaka leswaku hikokwalaho ka yini swi ri swa nkoka, naswona u tihlanganisa na vanhu van’wana va vulavula hi timhaka to fana na timfanelo ta ririmi, AI ya rito, kumbe xihlawuhlawu eka theknoloji. Vona switsundzuxo swin’wana eka <campaignLink>ku fambisa pfhumba ra swa ntshamisano, ku katsa na swilo leswi u nga swi tirhisaka nakambe</campaignLink>.
 about-playbook-how-grow-language-content-6 = Ntirhisano na tinetiweki
 about-playbook-how-grow-language-content-7 = Kuma van’wana lava nga na maka. Sweswo swi nga va tiyunivhesiti, swikolo swa tindzimi, mintlawa ya vuyimeri kumbe miganga ya sayense ya data. Fikelela mavoko u hlamusela kahle laha va nga pfunaka kona ni leswaku hi yini. <outreachTemplates>Vona ti-imeyili ta hina ta ku fikelela ta xifaniso</outreachTemplates>.
-about-playbook-how-grow-language-content-8 = <strong>Kuma vutshila byo tumbuluxa!</strong> Ntlawa wa tindzimi wa wena wu ta va wo hlawuleka, naswona leti i tindlela ti nga ri tingani ntsena to sungula.
 
 ## How to validate
 

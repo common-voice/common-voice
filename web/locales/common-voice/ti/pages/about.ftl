@@ -122,7 +122,6 @@ about-playbook-how-grow-language-content-3 = ሰባት ኣበርክቶ ንኽገ
 about-playbook-how-grow-language-content-4 = ማሕበረዊ ገጻት
 about-playbook-how-grow-language-content-5 = ነቲ መልእኽቲ ንምዝርጋሕ ማሕበራዊ መራኸቢታት ክትጥቀም ትኽእል ኢኻ። ስለምንታይ ኣገዳሲ ምዃኑ ዝገልጹ ጽሑፋት ኣካፍሉ፣ ከምኡ'ውን ምስ ካልኦት ሰባት ብምውካስ ብዛዕባ ናይ ቋንቋ መሰላት፣ ናይ ድምጺ AI፣ ወይ ኣብ ቴክኖሎጂ ዘሎ ኣድልዎ ዝብሉ ጉዳያት ተዘራረቡ። ኣብ <campaignLink> ማሕበራዊ ጎስጓስ ንምክያድ፡ እንተላይ ነቲ ዳግማይ ክትጥቀመሉ እትኽእል ትሕዝቶ</campaignLink> ተወሳኺ ምኽሪ ተመልከት።
 about-playbook-how-grow-language-content-6 = ምሕዝነትን መርበባትን
-about-playbook-how-grow-language-content-8 = <strong>ፈጠራ ውሰድ!</strong> ማሕበረሰብ ቋንቋኻ ፍሉይ ክኸውን እዩ፣ እዚኦም ድማ ውሑዳት መገድታት ጥራይ እዮም።
 
 ## How to validate
 

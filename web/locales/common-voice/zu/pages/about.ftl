@@ -112,7 +112,6 @@ about-playbook-how-grow-language-content-4 = Izinkundla zokuxhumana
 about-playbook-how-grow-language-content-5 = Ungasabenzisa izinkundla zokuxhumana ukudlulisa lo mlayezo. Yabelana ngemilayezo echaza ukubaluleka kwayo, uthintane nabanye abantu abakhuluma ngezinkinga ezifana namalungelo aphethelene nezilimi, nobuchwepheshe bamazwi, nokuchema kwesobuchwepheshe. Bheka isaluleko esengeziwe ku <campaignLink>ukuphatha umkhankaso wokuxhumana nabantu, nokuqukethwe ongaphinda ukusebenzise</campaignLink>.
 about-playbook-how-grow-language-content-6 = Ubambiswano namanethiwekhi
 about-playbook-how-grow-language-content-7 = Thola abanye abanendaba. Kungaba amanyuvesi, izikole zezilimi, amaqembu amela izilimi noma imiphakathi yedatha sayensi. Finyelela futhi uchaze kahle ukuthi bangasiza kanjani nkuthi kungani. <outreachTemplates> Bheka izifanekiso zama-emeyili wethu wokufinyelela ebantwini</outreachTemplates>.
-about-playbook-how-grow-language-content-8 = <strong>Yakha ubuciko!</strong> Umphakathi wakho wolimi uzohluka, futhi lezi izindlela ezimbalwa zokuqalisa.
 
 ## How to validate
 

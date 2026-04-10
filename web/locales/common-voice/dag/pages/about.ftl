@@ -114,7 +114,6 @@ about-playbook-how-grow-language-content-4 = pɔhim zuɣu
 about-playbook-how-grow-language-content-5 = A ni tooi zaŋ pɔhim zuɣu dundɔna n- yihi satara na.Tɔhimi a hankali n ti zama ban be pɔhim zuɣu ka yali din tu kamaata shɛm ka zaŋ a maŋa n ti dalim ninvuɣ' shɛb ban diri alizama gandi bala yiko,AI kukoya bee ban be kukoya tabiibi ni.Yulimi saɣsigu pam kpe<campaignLink>Bam mali zamatu yɛltɔɣa tumdi tuma n ti pahi tuma. <campaignLink>.
 about-playbook-how-grow-language-content-6 = kpalanzuya gbunibu mini tabi laɣimbu.
 about-playbook-how-grow-language-content-7 = Yulibo ninvuɣi shɛbi ban mali zaɣa,di ni tooi nyɛ yunivɛsiti nima,balla shikuruti,laɣisi ban mali kukoya bee tabiibi baŋsim yaɣ'.Bomi bi shee ka bi taɣisi kahiga bi ni soŋdi sham,ni bintahili.<outreachTemplates>yulimi di mŋahinli sodolisi ŋɔ zuɣu<outreachTemplates>.
-about-playbook-how-grow-language-content-8 = <strong>pilima!</strong>a zuliya balli nyɛla din yan yi di ko, ŋɔ maa mi kuli nyɛla so' shɛŋa a ni yɛn zaŋ pili.
 
 ## How to validate
 

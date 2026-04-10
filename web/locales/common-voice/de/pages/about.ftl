@@ -118,7 +118,6 @@ about-playbook-how-grow-language-content-4 = Soziale Medien
 about-playbook-how-grow-language-content-5 = Sie könnten Social-Media-Plattformen nutzen, um die Botschaft zu verbreiten. Teilen Sie Beiträge, die erklären, warum es wichtig ist, und treten Sie mit anderen in Kontakt, um über Themen wie Sprachrechte, Sprach-KI oder Voreingenommenheit in der Technik zu sprechen. Sehen Sie sich weitere Ratschläge zur <campaignLink>Durchführung einer sozialen Kampagne an, einschließlich Inhalten, die Sie wiederverwenden können</campaignLink>.
 about-playbook-how-grow-language-content-6 = Partnerschaften und Netzwerke
 about-playbook-how-grow-language-content-7 = Finden Sie andere, denen das Thema wichtig ist. Das könnten Universitäten, Sprachschulen, Interessenvertretungen oder datenwissenschaftliche Gemeinschaften sein. Stellen Sie den Kontakt her und erklären Sie, wie sie helfen können und warum. <outreachVorlagen>Hier finden Sie unsere Vorlagen zur Kontaktaufnahme.</outreachVorlagen>
-about-playbook-how-grow-language-content-8 = <strong>Werden Sie kreativ!</strong> Ihre Sprachgemeinschaft wird einzigartig sein, und dies sind nur einige Möglichkeiten, um loszulegen.
 
 ## How to validate
 

@@ -115,7 +115,6 @@ about-playbook-how-grow-language-content-4 = Mitjans de comunicació socials
 about-playbook-how-grow-language-content-5 = Podeu utilitzar les plataformes de xarxes socials per a fer arribar el missatge. Compartiu publicacions que expliquin per què és important i poseu-vos en contacte amb altres persones que parlen de qüestions com ara els drets lingüístics, la intel·ligència artificial de veu o els biaixos tecnològics. Vegeu més consells sobre com <campaignLink>executar una campanya social, inclòs el contingut que podeu reutilitzar</campaignLink>.
 about-playbook-how-grow-language-content-6 = Col·laboracions i xarxes
 about-playbook-how-grow-language-content-7 = Trobeu altres persones a qui els importa. Podrien ser universitats, escoles d'idiomes, grups de defensa o comunitats de ciències de dades. Poseu-vos en contacte i expliqueu clarament com us poden ajudar i per què. <outreachTemplates>Consulteu la plantilla de correus electrònics de divulgació</outreachTemplates>.
-about-playbook-how-grow-language-content-8 = <strong>Sigueu creatiu!</strong> La vostra comunitat lingüística serà única i aquestes són només algunes maneres de començar.
 
 ## How to validate
 

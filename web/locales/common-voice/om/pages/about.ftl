@@ -116,7 +116,6 @@ about-playbook-how-grow-language-content-4 = Miidiyaa hawaasaa
 about-playbook-how-grow-language-content-5 = Ergaa babal’isuuf marsariitii miidiyaa hawaasaa fayyadamuu dandeessa. Barreessuu fi maxxansoota waa’ee maaliif barbaachisu ibsan qooduu, akkasumas namoota kaayyoo afaanii, sagalee AI, yookaan yaada dogoggoraa tekinoolojii irratti dubbatan waliin qunnamuu. Gorsa dabalataa <campaignLink>sagantaa miidiyaa hawaasaa geggeessuu, akkasumas qooddachuu dandeessu ilaali</campaignLink>.”
 about-playbook-how-grow-language-content-6 = Hariiroowwanii fi neetworkii
 about-playbook-how-grow-language-content-7 = Namoota biroo fedhii qaban barbaadi. Yuunivarsiitiiwwan, manneen barnootaa afaanii, gareewwan abukaatummaa, ykn hawaasa saayinsii daataa ta’uu danda’u. Akkamitti gargaaruu akka danda’an fi maaliif akka ta’e ifatti ibsi. <outreachTemplates>Imeelii qunnamtii fakkeenya keenyaa</outreachTemplates> ilaali.
-about-playbook-how-grow-language-content-8 = <strong>Uumama argadhu!</strong> Hawaasni afaanii kee addaa dha, kanaafis karaalee muraasa jalqabsiisuun ni danda’ama.
 
 ## How to validate
 

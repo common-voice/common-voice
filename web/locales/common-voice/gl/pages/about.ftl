@@ -120,7 +120,6 @@ about-playbook-how-grow-language-content-4 = Redes sociais
 about-playbook-how-grow-language-content-5 = Pode empregar as redes sociais para transmitir a mensaxe. Comparta publicacións que expliquen por que é importante e póñase en contacto con outras persoas para falar de cuestións como os dereitos lingüísticos, a voz na Intelixencia Artificial ou os prexuízos tecnolóxicos. Saiba máis sobre como <campaignLink>desenvolver unha campaña social e o contido que pode reutilizar</campaignLink>.
 about-playbook-how-grow-language-content-6 = Asociacións e redes
 about-playbook-how-grow-language-content-7 = Busque outras persoas ou institucións interesadas (universidades, escolas de idiomas, comunidades orientadas cara á xestión de recursos e dos dereitos lingüísticos etc.) Póñase en contacto con eles e explíquelles claramente como poden axudar e por que. <outreachTemplates>Consulte os nosos modelos de correos electrónicos de divulgación</outreachTemplates>.
-about-playbook-how-grow-language-content-8 = <strong>Sexa creativo!</strong> A súa comunidade lingüística será única e estas son só algunhas formas de comezar.
 
 ## How to validate
 

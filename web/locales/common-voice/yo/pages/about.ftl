@@ -115,7 +115,6 @@ about-playbook-how-grow-language-content-4 = Ìkànì ìbánidọ́rẹ̀
 about-playbook-how-grow-language-content-5 = O lè lo ìkànì ìbánidọ́rẹ̀ láti gbé èròngbà náà síta. Pín àwọn àtẹ̀jíṣẹ́ tó ń ṣàlàye ìdí tó fi pọn dandan, kí o sì kàn sí àwọn ènìyàn mìíràn tí wọ́n ń sọ̀rọ̀ nípa àwọn àdojúkọ bíi òfin èdè, AI ajẹmọ́ ohùn, tàbí ìṣègbè nínú ìmọ̀-ẹ̀rọ. Wo àfikún àbá lórí <campaignLink>ṣíṣe ìpolongo ayélujára, pẹ̀lú àkónú tí o lè ṣàtúnlò</campaignLink>.
 about-playbook-how-grow-language-content-6 = Àjọṣepọ̀ àti Ìbáraẹniṣepọ̀
 about-playbook-how-grow-language-content-7 = Wá àwọn mìíràn tí wọ́n nítara. Ó lè jẹ́ àwọn fásitì, ilé-ẹ̀kọ́ èdè, àwọn ẹgbẹ́ ajìjàngbara tàbí àwọn àwùjọ ìmọ-sáyẹ́ǹsì oní dátà. Kàn sí wọn kí o sì ṣàlàyé tó yè koro bí wọ́n ṣe lè ṣèraànwọ́ àti ìdi rẹ̀. <outreachTemplates>Wo àwọn àwòṣe ímeèlì ìkànsíraẹni</outreachTemplates>.
-about-playbook-how-grow-language-content-8 = <strong>Nímọ̀ àtinúdá!</strong> Àwùjọ èdè rẹ yóò tayọ, àwọn wọ̀nyí kàn jẹ́ díẹ̀ nínú àwọn ọ̀nà láti bẹ̀rẹ̀.
 
 ## How to validate
 

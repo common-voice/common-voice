@@ -114,7 +114,6 @@ about-playbook-how-grow-language-content-4 = Réseaux sociaux
 about-playbook-how-grow-language-content-5 = Vous pouvez utiliser les réseaux sociaux pour faire passer le message. Partagez des messages qui expliquent pourquoi c’est important et contactez d’autres personnes qui s’intéressent aux droits linguistiques, à l’IA vocale ou aux préjugés dans la technologie. Obtenez plus de conseils sur <campaignLink>le lancement d’une campagne sur les réseaux sociaux, y compris par rapport au contenu que vous pouvez réutiliser</campaignLink>.
 about-playbook-how-grow-language-content-6 = Partenariats et réseaux
 about-playbook-how-grow-language-content-7 = Trouvez d’autres personnes qui s’en soucient. Il pourrait s’agir d’universités, d’écoles de langues, de groupes de défense des droits ou de communautés scientifiques autour des données. Contactez-les et expliquez clairement comment ces structures peuvent aider et pourquoi. <reachTemplates>Consultez nos modèles d’e-mails de sensibilisation</reachTemplates>.
-about-playbook-how-grow-language-content-8 = <strong>Faites preuve de créativité !</strong> Votre communauté linguistique sera unique, et ce ne sont là que quelques pistes pour commencer.
 
 ## How to validate
 

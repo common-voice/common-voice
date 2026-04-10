@@ -117,7 +117,6 @@ about-playbook-how-grow-language-content-4 = 소셜 미디어
 about-playbook-how-grow-language-content-5 = 소셜 미디어 플랫폼을 사용하여 메시지를 전달할 수 있습니다. 중요한 이유를 설명하는 게시물을 공유하고 언어 권리, 음성 AI 또는 기술의 편견과 같은 문제에 대해 이야기하는 다른 사람들과 연락하십시오. <campaignLink>재사용할 수 있는 콘텐츠를 포함하여 소셜 캠페인 실행</campaignLink>에 대한 추가 조언을 확인하세요.
 about-playbook-how-grow-language-content-6 = 파트너십 및 네트워크
 about-playbook-how-grow-language-content-7 = 관심있는 다른 사람들을 찾으십시오. 그것은 대학, 어학 학교, 옹호 단체 또는 데이터 과학 커뮤니티가 될 수 있습니다. 도움을 줄 수 있는 방법과 이유를 명확하게 설명하십시오. <outreachTemplates>지원 이메일 템플릿을 참조하세요</outreachTemplates>.
-about-playbook-how-grow-language-content-8 = <strong>창의력을 발휘하세요!</strong> 귀하의 언어 커뮤니티는 독특할 것이며 이는 시작하는 몇 가지 방법일 뿐입니다.
 
 ## How to validate
 

@@ -115,7 +115,6 @@ about-playbook-how-grow-language-content-4 = Sosyal medya
 about-playbook-how-grow-language-content-5 = Mesajı iletmek için sosyal medya platformlarını kullanabilirsiniz. Bunun önemini açıklayan gönderiler paylaşın; dil hakları, yapay zekâ veya teknolojide önyargı gibi konular üzerine konuşan ve yazan kişilerle iletişime geçin. <campaignLink>Yeniden kullanabileceğiniz içerikleri de kapsayan sosyal kampanya yürütme</campaignLink> önerilerimizi de inceleyin.
 about-playbook-how-grow-language-content-6 = Ortaklıklar ve ağlar
 about-playbook-how-grow-language-content-7 = Konuyla ilgilenen başkalarını bulun. Bunlar üniversiteler, dil okulları, ilgi alanı grupları veya veri bilimi toplulukları olabilir. Onlara ulaşıp nasıl ve neden yardımcı olabileceklerini açık bir şekilde anlatın. <outreachTemplates>Geniş kitlelerle iletişim için şablon e-postalarımıza bakın</outreachTemplates>.
-about-playbook-how-grow-language-content-8 = <strong>Yaratıcı olun!</strong> Dil topluluğunuz benzersiz olacak. Bunlar başlangıç için yalnızca birkaç yol.
 
 ## How to validate
 

@@ -110,7 +110,6 @@ about-playbook-how-grow-language-content-4 = kulupu pi jan toki
 about-playbook-how-grow-language-content-5 = sina ken kepeken kulupu pi jan mute tawa toki pi ilo ni! o pana e toki pi nasin ilo. o toki tawa jan ante lon toki mute ni: pona toki en ilo kalama toki en nasin ike ilo. o lukin e <campaignLink>lipu pi kulupu toki pona</campaignLink>. ona li jo e toki la sina ken kepeken ona.
 about-playbook-how-grow-language-content-6 = jan poka en kulupu
 about-playbook-how-grow-language-content-7 = o alasa e jan wile! ona li lon tomo sona suli, li lon tomo sona toki, li lon kulupu pona, li lon kulupu pi kulupu sona. o toki tawa ona, o pana pona e sona pona. <outreachTemplates>o lukin e lipu pana</outreachTemplates>.
-about-playbook-how-grow-language-content-8 = <strong>o pali pona!</strong> kulupu pi toki sina o pona. nasin mute la sina ken open pali e ni.
 
 ## How to validate
 

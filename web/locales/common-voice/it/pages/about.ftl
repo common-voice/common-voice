@@ -112,7 +112,6 @@ about-playbook-how-grow-language-content-4 = Social media
 about-playbook-how-grow-language-content-5 = Potresti usare piattaforme di social media per diffondere il messaggio. Condividi post che spiegano la sua importanza e mettiti in contatto con altre persone per discutere di temi come diritti linguistici, intelligenza artificiale vocale o pregiudizi nella tecnologia. Vedi altri consigli su come <campaignLink>organizzare una campagna social e ottenere contenuti che puoi utilizzare come punto di partenza</campaignLink>.
 about-playbook-how-grow-language-content-6 = Partnership e connessioni
 about-playbook-how-grow-language-content-7 = Trova altri soggetti interessati a questi temi. Potrebbero essere università, istituti linguistici, gruppi di sostegno o comunità che si occupano di data science. Mettiti in contatto con loro e spiega chiaramente come e perché possono aiutarti. <outreachTemplates>Consulta i nostri modelli di email per sensibilizzare sull’argomento</outreachTemplates>.
-about-playbook-how-grow-language-content-8 = <strong>Libera la tua creatività!</strong> La tua comunità linguistica sarà diversa da tutte le altre, questi sono solo alcuni dei modi in cui puoi iniziare.
 
 ## How to validate
 

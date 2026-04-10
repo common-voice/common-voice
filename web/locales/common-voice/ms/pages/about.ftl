@@ -124,7 +124,6 @@ about-playbook-how-grow-language-content-4 = Media Sosial
 about-playbook-how-grow-language-content-5 = Anda boleh menggunakan platform media sosial untuk sampaikan pesanan itu. Kongsi pos yang menerangkan sebab ia penting, dan berhubung dengan orang lain yang bercakap tentang isu seperti hak bahasa, AI suara atau berat sebelah dalam teknologi. Lihat lebih banyak nasihat tentang <campaignLink>menjalankan kempen sosial, termasuk kandungan yang boleh anda gunakan semula</campaignLink>.
 about-playbook-how-grow-language-content-6 = Perkongsian dan rangkaian
 about-playbook-how-grow-language-content-7 = Cari orang lain yang peduli. Itu boleh jadi universiti, sekolah bahasa, kumpulan advokasi atau komuniti sains data. Jangkau dan terangkan dengan jelas bagaimana mereka boleh membantu dan sebabnya. <outreachTemplates>Lihat e-mel jangkauan templat kami</outreachTemplates>.
-about-playbook-how-grow-language-content-8 = <strong>Jadilah kreatif!</strong> Komuniti bahasa anda akan menjadi unik, dan ini hanyalah beberapa cara untuk bermula.
 
 ## How to validate
 

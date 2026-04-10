@@ -87,7 +87,6 @@ about-playbook-how-record-content-4 = מאכט זיכער אז די פלאטפר
 about-playbook-how-grow-language = וויאזוי קענען מיר אפעקטיוו פארגרעסערן א שפרייך אויף קאמאן וואויס?
 about-playbook-how-grow-language-content-2 = אווענטן
 about-playbook-how-grow-language-content-4 = סאציאלע מידיע
-about-playbook-how-grow-language-content-8 = <strong>זיי שעפעריש!</strong> אייער שפרייך געמיינדע וועט זיין אייגנארטיג, און דאס איז בלויז עטליכע וועגן אנצופאנגען.
 
 ## How to validate
 

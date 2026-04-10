@@ -118,7 +118,6 @@ about-playbook-how-grow-language-content-4 = Medios de comunicación social
 about-playbook-how-grow-language-content-5 = Podrías usar plataformas de redes sociales para difundir el mensaje. Comparta publicaciones que expliquen por qué es importante y póngase en contacto con otras personas para hablar sobre temas como derechos lingüísticos, IA de voz o sesgo en tecnología. Vea más consejos sobre <campaignLink>ejecutar una campaña social, incluido el contenido que puede reutilizar</campaignLink>.
 about-playbook-how-grow-language-content-6 = Asociaciones y redes
 about-playbook-how-grow-language-content-7 = Encuentre a otros que se preocupen. Podrían ser universidades, escuelas de idiomas, grupos de defensa o comunidades de ciencia de datos. Comuníquese y explíqueles claramente cómo pueden ayudar y por qué. <outreachTemplates>Vea nuestra plantilla de correos electrónicos de divulgación</outreachTemplates>.
-about-playbook-how-grow-language-content-8 = <strong>¡Sea creativo!</strong> Su comunidad lingüística será única y estas son solo algunas formas de comenzar.
 
 ## How to validate
 

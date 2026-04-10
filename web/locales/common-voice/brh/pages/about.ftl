@@ -115,7 +115,6 @@ about-playbook-how-grow-language-content-4 = سوشل میڈیا
 about-playbook-how-grow-language-content-5 = نما کلہو ئے سر کننگ کن سوشل میڈیا نا پلیٹ فارم ئے استعمال کننگ کیرے۔ دونگا پوسٹس نا اشتراک کبو ہراکے پائک کہ دا انتئے اہمیت تخک، و زبان نا حق، توار AI، یا ٹیک ٹی تعصب کونا ویل آتا باروٹ ہیت کروکا ایلو بندغا تیتو رابطہ کیک۔ <campaignLink>چاگڑدی مہم چلیفنگ نا باروٹ ای پین سال و سوج ہوربو، ہمو مواد آتے ہم ہرافتے نم ولدا استعمال کننگ کیرے</campaignLink>۔
 about-playbook-how-grow-language-content-6 = شراکت داری اور نیٹ ورکس
 about-playbook-how-grow-language-content-7 = ایلو تے پٹبو ہراکے پرواہ کیرہ. دا یونیورسٹیک، زبان آتا اسکولک، وکالت گروپاک یا ڈیٹا سائنس کمیونٹیز مریرہ۔ انداڑسکان سر مننگ کن و وضاحب کبو کہ او امر کمک کننگ کیرہ و انتئے <outreachTemplates>ننا ٹیمپلیٹ آؤٹ ریچ ای میلز ہوربو</outreachTemplates>۔
-about-playbook-how-grow-language-content-8 = <strong>تخلیقی مبو!</strong> نما زبان نا خاہوت اسٹ مریک، و دادے شروع کننگ نا گڑاس ڈول او
 
 ## How to validate
 

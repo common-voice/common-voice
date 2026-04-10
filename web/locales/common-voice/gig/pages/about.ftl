@@ -105,7 +105,6 @@ about-playbook-how-grow-language-content-4 = سمآجي ميڊيآ
 about-playbook-how-grow-language-content-5 = تم نييآپو لي سآرو سوشل ميڊيآ پليٽ ڦآرم استهمآل ڪر سڪو ڇو ۔پوسٽيٚ شيئر ڪرو جۮيٚ وزآهت ڪري ڇي ۔ڪي اوٚ ڪآ زروريٚ ڇي، آئينٚ ۮوجيٚ منکونٚ سونٚ رآبتيٚ مينٚ يآ ٽيڪنآلآجي مينٚ تهسب ، AI هآسل ڪرو جۮيٚ مسلي پر ٻوٚل ري ڇي  جييٚو ٻوٚلي ريٚ هآڪين ،آوآز سمآجي مهم چلآئم ،جي مينٚ موآد تم دوبآرآ استهمآل ڪر سڪو ڇو<campaignLink> وڌيڪ سلآ ۮيکونٚ </campaignLink>ڇونٚ
 about-playbook-how-grow-language-content-6 = ڀآئيوآري آئينٚ نيٽ ورڪ
 about-playbook-how-grow-language-content-7 = ۮوجونٚ نيٚ ڊونٚڊو جيڪو کيآل رآکي ۔ اوٚ هو سڪي ڇي يونيورسٽيون ٻوٚلي اسڪول ،وڪيل گروپ يآ ڊيٽآ سآئنس برآدري ٻآري جآوٚي آئينٚ وآزي توري پر وزآهت ڪرو ڪي اوٚ ڪآ ايٚ ۮيکو همآري ٽيمپليٽ مدد <outreachTemplates>ڪر سڪي ڇي۔آئين ڪآ </outreachTemplates>ميلآ۔
-about-playbook-how-grow-language-content-8 = تمآري ٻوٚلي </strong>تکليٚڪ هآسل ڪروبرآدري آلگ هووٚي ،آئينٚ اوٚ ويٚ سورو ڪري رسرڦ ٻآ ٽيٚ</strong> تريڪآ ڇي۔
 
 ## How to validate
 

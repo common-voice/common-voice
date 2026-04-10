@@ -102,7 +102,6 @@ about-playbook-how-grow-language-content-4 = Mejans de comunicacion sociau
 about-playbook-how-grow-language-content-5 = Podetz utilizar es plataformes de hilats sociaus entà enviar eth messatge. Compartitz publicacions qu’expliquen perqué ei importanta e metetz-vos en contacte damb d’autes persones que parlen d'ahèrs coma es drets lingüistics, era intelligéncia artificiau de votz o es tendéncies tecnologiques. Vedetz mès conselhs sus com executar ua campanha sociau, includit eth contengut que podetz reutilizar.
 about-playbook-how-grow-language-content-6 = Collaboracions e hilats
 about-playbook-how-grow-language-content-7 = Trobatz d’autes persones a qui les impòrte. Poderien èster universitats, escòles d'idiòmes, grops de defensa o comunitats de sciéncia de donades. Metetz-vos en contacte e explicatz claraments com vos pòden ajudar e per qué. <outreachTemplates>Consultatz era plantilha de corrèus electronics de divulgacion</outreachTemplates>.
-about-playbook-how-grow-language-content-8 = <strong>Sigatz creatius!</strong> Era vòsta comunitat lingüistica serà unica e aguestes son sonque bères manères de començar.
 
 ## How to validate
 

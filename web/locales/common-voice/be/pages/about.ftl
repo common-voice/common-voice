@@ -98,7 +98,6 @@ about-playbook-how-grow-language = Як эфектыўна развіваць м
 about-playbook-how-grow-language-content-2 = Падзеі
 about-playbook-how-grow-language-content-4 = Сацыяльныя медыя
 about-playbook-how-grow-language-content-6 = Партнёрства і сеткі
-about-playbook-how-grow-language-content-8 = <strong>Будзьце творчымі!</strong> Ваша моўная суполка будзе ўнікальнай, і вось некалькі варыянтаў, з чаго пачаць.
 
 ## How to validate
 

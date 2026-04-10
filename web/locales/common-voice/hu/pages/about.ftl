@@ -115,7 +115,6 @@ about-playbook-how-grow-language-content-4 = Közösségi média
 about-playbook-how-grow-language-content-5 = Használhatja a közösségi médiát az üzenet eljuttatására. Osszon meg olyan bejegyzéseket, amelyek elmagyarázzák, hogy miért fontos ez, és lépjen kapcsolatba másokkal, akik olyan kérdésekről beszélnek, mint a nyelvi jogok, a hangalapú mesterséges intelligencia vagy a technológiai elfogultság. További tanácsokat talál a <campaignLink>közösségi kampányok futtatásához, és az újrafelhasználható tartalmakkal kapcsolatban</campaignLink>.
 about-playbook-how-grow-language-content-6 = Partnerségek és hálózatok
 about-playbook-how-grow-language-content-7 = Keressen másokat, akiket ez érdekel. Ezek lehetnek egyetemek, nyelviskolák, érdekképviseleti csoportok vagy adatelemzői közösségek. Vegye fel a kapcsolatot, és világosan magyarázza el, hogyan tudnak segíteni és miért. <outreachTemplates>Tekintse meg a tájékoztató e-mail-sablonjainkat</outreachTemplates>.
-about-playbook-how-grow-language-content-8 = <strong>Legyen kreatív!</strong> Nyelvi közössége egyedülálló lesz, és ez csak néhány módszer a kezdéshez.
 
 ## How to validate
 

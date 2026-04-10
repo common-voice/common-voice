@@ -105,7 +105,6 @@ about-playbook-how-grow-language-content-4 = سوشل میڈیا
 about-playbook-how-grow-language-content-5 = تُو تمو آنا کرومے کارا سوشل میڈیا استعمال تو بئیلا۔ سوشل میڈیا جا پوسٹس شئیر تھو بئیلا۔ سوشل میڈیا جاں اینی کمپینے کارا اینی مواد ݜک بئیلا۔ </campaignLink>
 about-playbook-how-grow-language-content-6 = شرکت داری اؤ نیٹ ورک
 about-playbook-how-grow-language-content-7 = سی خلگ ݜیکیا آنا کوروم در دلچسپی گھیننا۔ لا یونیورسٹی بو بئینی، سکول بو بئینو، یا گروپ بو بئینو۔ خلقو تیا آکو ابرئی سی تھئی آنا پراجیکٹ در مدد تھین۔ <outreachTemplates>۔ اینی ای میل یا ہُورے نمونا ڇاکے۔ </outreachTemplates>
-about-playbook-how-grow-language-content-8 = <strong> تخلیقی بو۔ </strong>۔ تھئی جیبے خلق لالو عیجنا یا کم یا زیاد بونو۔ سی نو جا مختلف طریقاو ست آنا کوروم شروع تھونو۔
 
 ## How to validate
 

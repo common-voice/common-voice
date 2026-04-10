@@ -126,7 +126,6 @@ about-playbook-how-grow-language-content-4 = Tinkhundla tekuchumana
 about-playbook-how-grow-language-content-5 = Ungasebentisa tinkhundla tekuchumana kute usakate lomlayeto. Yabelana ngalokutfunyelwe lokuchaza kutsi kubaluleke kanganani, bese utsintsana nalabanye bantfu labakhuluma ngetindzaba letinjengemalungelo etilwimi, i-voice AI, noma  imibono ngetebuchwephesha. Buka teluleko letiningi <campaignLink>ngekusebentisa umkhankhaso wekuchumana nebantfu, lonelwati longa phindze ulisebentise</campaignLink>.
 about-playbook-how-grow-language-content-6 = Kubambisana nekuchumana
 about-playbook-how-grow-language-content-7 = Tfola labanye labane ndzaba. Labo kungaba manyuvesi,tikolwa tetilwimi, emacembu lamele imiphakatsi noma imphikatsi lebuke lwati. Fika kibo phindze uchaze kahle kutsi bangasitakala njani futsi leni. <outreachTemplates>Buka sibonelo ku -email yetfu</outreachTemplates>.
-about-playbook-how-grow-language-content-8 = <strong>Get creative!</strong> Bani nemibono! umango wakho welulwimi utohluka, leti tindlela letincane nje tekucala.
 
 ## How to validate
 

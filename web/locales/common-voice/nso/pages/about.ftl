@@ -113,7 +113,6 @@ about-playbook-how-grow-language-content-4 = Poledišano ya  inthaneteng
 about-playbook-how-grow-language-content-5 = O ka šomiša lekgotla la poledišano ya inthaneteng go kgona go iša molaetša go batho ka moka. Abelana melaetša e hlalosago gore na ke baka la eng go le bohlokwa, gomme o ikgokaganye le batho ba bangwe bao ba bolelago ka mathata a go swana le ditokelo tša polelo, lentšu la AI, goba tshekamelo go theknolotši. Bona dikeletšo tše dingwe mabapi le<campaignLink> go tsamaiša lesolo  la setšhaba, go akaretša le diteng tšeo o ka di šomišago gape</campaignLink>.
 about-playbook-how-grow-language-content-6 = Tirišano le dinetweke
 about-playbook-how-grow-language-content-7 = Hwetša ba bagwe bao ba tshwenyegago. Seo se ka ba diyunibesithi, dikolo tša maleme, dihlopha sa bathekgi goba setšhaba sa thutamahlale ya datha. Katanela go fihlilela ditokelelo gomme o hlalose gabotse gore na na ka thuša bjang le gore na ke ka baka la eng.  <outreachTemplates>Lebelela di-emeile tša rena tša thempleite</outreachTemplates>.
-about-playbook-how-grow-language-content-8 = <strong>Diriša bohlale!!</strong> Polelo ya geno e tla ba moswananoši, tše ke ditsela tše mmalwa tša go thoma.
 
 ## How to validate
 
