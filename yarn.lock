@@ -4027,10 +4027,10 @@
   dependencies:
     undici-types "~5.26.4"
 
-"@types/nodemailer@6.4.22":
-  version "6.4.22"
-  resolved "https://registry.yarnpkg.com/@types/nodemailer/-/nodemailer-6.4.22.tgz#8d1b8415b30a9ddc6d2866923017159f64de0859"
-  integrity sha512-HV16KRsW7UyZBITE07B62k8PRAKFqRSFXn1T7vslurVjN761tMDBhk5Lbt17ehyTzK6XcyJnAgUpevrvkcVOzw==
+"@types/nodemailer@6.4.23":
+  version "6.4.23"
+  resolved "https://registry.yarnpkg.com/@types/nodemailer/-/nodemailer-6.4.23.tgz#2d6048342b66b804ae0c1e75b756321a2be043e2"
+  integrity sha512-aFV3/NsYFLSx9mbb5gtirBSXJnAlrusoKNuPbxsASWc7vrKLmIrTQRpdcxNcSFL3VW2A2XpeLEavwb2qMi6nlQ==
   dependencies:
     "@types/node" "*"
 
