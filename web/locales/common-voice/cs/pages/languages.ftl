@@ -6,6 +6,7 @@ language-section-launched = Spuštěno
 language-section-launched-description = V těchto jazycích už byly naše stránky <localizationGlossaryLink>přeloženy</localizationGlossaryLink> a mají i dostatek <sentenceCollectionGlossaryLink>nasbíraných vět</sentenceCollectionGlossaryLink> k tomu, aby bylo možné <speakLink>nahrávat</speakLink> a <listenLink>poslouchat</listenLink> hlasové příspěvky.
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
 language-section-last-updated = Poslední aktualizace: { $lastUpdatedTimeStamp }
+language-communities = Zvažte prosím přidání kanálů vaší komunity do dokumentu <communitiesLink>COMMUNITIES.md na GitHubu</communitiesLink>.
 languages-show-more = Zobrazit více
 languages-show-less = Zobrazit méně
 language-meter-in-progress = Postup

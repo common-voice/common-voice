@@ -121,6 +121,7 @@ about-playbook-how-grow-language-content-4 = Sociální sítě
 about-playbook-how-grow-language-content-5 = K předání zprávy můžete použít sociální platformy. Sdílejte příspěvky, které vysvětlují, proč je to důležité, a navažte kontakt s dalšími lidmi, kteří mluví o problémech, jako jsou jazyková práva, hlasová umělá inteligence nebo předsudky v technologii. Podívejte se na další rady pro <campaignLink>vedení kampaně na sociálních sítích, včetně obsahu, který můžete opětovně použít</campaignLink>.
 about-playbook-how-grow-language-content-6 = Partnerství a propojování
 about-playbook-how-grow-language-content-7 = Najděte další lidi, kterým na tom záleží. Mohou to být univerzity, jazykové školy, aktivistické skupiny nebo komunity zabývající se datovou vědou. Oslovte je a jasně vysvětlete, jak mohou pomoci a proč. <outreachTemplates>Podívejte se na naše vzorové e-maily pro oslovení</outreachTemplates>.
+about-playbook-how-grow-language-content-8-v2 = <strong>Buďte kreativní!</strong> Vaše jazyková komunita bude jedinečná a toto je jen několik tipů, jak začít. Zvažte prosím přidání kanálů vaší komunity do <communitiesLink>souboru COMMUNITIES.md na GitHubu</communitiesLink>.
 
 ## How to validate
 
