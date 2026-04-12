@@ -118,6 +118,7 @@ about-playbook-how-grow-language-content-4 = Sosiale medium
 about-playbook-how-grow-language-content-5 = Du kan bruke sosiale medium for å få ut bodskapen. Del innlegg som forklarer kvifor det er viktig, og ta kontakt med andre som snakkar om spørsmål som språkrettar, stemme-Ai eller skeivskap i teknologi. Sjå fleire råd om <campaignLink>køyring av ein sosial kampanje, inkludert innhald du kan gjenbruke</campaignLink>.
 about-playbook-how-grow-language-content-6 = Partnarskap og nettverk
 about-playbook-how-grow-language-content-7 = Finn andre som bryr seg. Det kan vere universitet, språkskular, påverknadsgrupper eller datavitskapsmiljø. Nå ut og forklar tydeleg korleis dei kan hjelpe og kvifor. <outreachTemplates>Sjå malane våre for oppsøkjande e-postar</outreachTemplates>.
+about-playbook-how-grow-language-content-8-v2 = <strong>Ver kreativ!</strong> Språkfellesskapen din vil vere unik, og dette er berre nokre få måtar å kome i gang på. Vurder å leggje til fellesskapskanalane dine i <communitiesLink>COMMUNITIES.md-dokumentet på GitHub</communitiesLink>.
 
 ## How to validate
 
