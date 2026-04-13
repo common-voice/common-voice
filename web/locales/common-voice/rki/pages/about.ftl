@@ -8,3 +8,12 @@ about-playbook-what-is-language-content-3 = ဘာသာစကားအချိ
 ## How do I add a language
 
 about-playbook-how-add-language = ဘာသာစကားတခုကို အကျွန် ဇာပိုင် ထည့်ရဖို့လဲ?
+about-playbook-how-add-language-content-1 =
+    ပထမဆုံး မိတ်ဆွေ ဘာသာစကား <languageLink>ဟိပြီးသား</languageLink> ဟုတ် မဟုတ် စစ်ဆေးပါ။
+    မဟိသိမ့်ကေ <languageRequestLink> မိတ်ဆွေ ဘာသာစကား ထည့်သွင်းနည်းနန့် ပတ်သတ်လို့ မေးမြန်းနိုင်ပါယေ။</languageRequestLink> 
+    အဆင့် နှစ်ဆင့် ဟိပါယေ။ ဝပ်ဆိုက်ကို ဘာသာပြန်စွာနန့် စာကြောင်းတိ စုဆောင်းစွာ ပါ။
+about-playbook-how-add-language-translating-heading = ဝပ်ဆိုက်ကို ဘာသာပြန်စွာ
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Pontoon ကို ဇာပိုင် အသုံးပြုရဖို့လဲဆိုယေ အကျွန်ရို့ လမ်းညွှန်ချက်ကို ကြည့်ရှုပါ။</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    ဘာသာပြန်ဆိုဖို့အတွက် Mozilla tool တခု ဖြစ်တေ<pontoonLink>Pontoon</pontoonLink> ကို အ ကျွန်ုပ်တို့အသုံးပြုပါသည်။ Pontoon တွင် ဘာသာစကားများစွာရှိသော်လည်း သင့်ဘာသာစကားမရှိပါက <pontoonRequestLink>သင့်ဘာသာစကားကိုထည့်သွင်းရန် တောင်းဆိုနိုင်သည်</pontoonRequestLink>။
+    ထို့နောက် Common Voice ပရောဂျက်တွင် ဘာသာစကားကိုရရှိနိုင်စေရန်အတွက် <githubRepoLink>GitHub တွင် ဘာသာစကားအသစ်ကို တောင်းဆိုပါ</githubRepoLink>။ <localizationFragment>ဆိုက်ဘာသာပြန်ဆိုချက်တွင် ပိုမိုကြည့်ရှုပါ</localizationFragment>။
