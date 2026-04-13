@@ -19,3 +19,13 @@ about-playbook-how-add-language-translating-content-2 =
     ဗြီးကေ Common Voice ပရောဂျက်မှာ ဘာသာစကားကို ရဟိနိုင်ဖို့အတွက် <githubRepoLink>GitHub မှာ ဘာသာစကားအသစ်ကို တောင်းဆိုပါ</githubRepoLink>။ <localizationFragment>ဝပ်ဆိုက် ဘာသာပြန်ဆိုချက်မှာ ပိုပနာ ကြည့်ရှုပါ</localizationFragment>။
 about-playbook-how-add-language-collecting-sentences-heading = စာကြောင်းတိ စုဆောင်းစွာ
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>စာကြောင်းစုဆောင်းကိရိယာကို အသုံးပြုဖို့အတွက် အကျွန်ရို့ လမ်းညွှန်ကို ကြည့်ရှုပါ</sentenceCollectorVideo>။
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    မိတ်ဆွေ <sentenceCollectorLinkAdd>စာကြောင်း တစိချေကို ထည့်နိုင်ပါယေ</sentenceCollectorLinkAdd>၊
+    ဝါ <bulkImportDocsLink>Github ကို သုံးပနာ အစုလိုက် တင်သွင်းစွာတိကို ပြုလုပ်နိုင်ပါယေ</bulkImportDocsLink>။
+    စာကြောင်းတိစွာ <licenseLink>CC0 (ဝါ public domain)</licenseLink> ဖြစ်ဖို့လိုယေဆိုစွာ သတိရပါ၊ ဝါ မိတ်ဆွေ ကိုယ်တိုင် ရီးသားနိုင်ပါယေ။
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>စာကြောင်းစုစည်းမှုအကြောင်း ပိုပနာ ကြည့်ရှုပါ</sentenceCollectorFragment>။
+
+## How does localization work
+
+about-playbook-how-localize = ဝပ်ဆိုက်ကို ဒေသအလိုက် ခွဲခြားသတ်မှတ်စွာက ဇာပိုင် အလုပ် လုပ်ပါလဲ?
+about-playbook-how-localize-content-1 = Common Voice ဝပ်ဆိုက် ဘာသာပြန်ဆိုချက်တိကို <strong>Pontoon</strong> မှာ ပြုလုပ်ပါယေ။
