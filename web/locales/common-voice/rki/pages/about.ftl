@@ -15,5 +15,7 @@ about-playbook-how-add-language-content-1 =
 about-playbook-how-add-language-translating-heading = ဝပ်ဆိုက်ကို ဘာသာပြန်စွာ
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Pontoon ကို ဇာပိုင် အသုံးပြုရဖို့လဲဆိုယေ အကျွန်ရို့ လမ်းညွှန်ချက်ကို ကြည့်ရှုပါ။</translateVideoLink>
 about-playbook-how-add-language-translating-content-2 =
-    ဘာသာပြန်ဆိုဖို့အတွက် Mozilla tool တခု ဖြစ်တေ<pontoonLink>Pontoon</pontoonLink> ကို အ ကျွန်ုပ်တို့အသုံးပြုပါသည်။ Pontoon တွင် ဘာသာစကားများစွာရှိသော်လည်း သင့်ဘာသာစကားမရှိပါက <pontoonRequestLink>သင့်ဘာသာစကားကိုထည့်သွင်းရန် တောင်းဆိုနိုင်သည်</pontoonRequestLink>။
-    ထို့နောက် Common Voice ပရောဂျက်တွင် ဘာသာစကားကိုရရှိနိုင်စေရန်အတွက် <githubRepoLink>GitHub တွင် ဘာသာစကားအသစ်ကို တောင်းဆိုပါ</githubRepoLink>။ <localizationFragment>ဆိုက်ဘာသာပြန်ဆိုချက်တွင် ပိုမိုကြည့်ရှုပါ</localizationFragment>။
+    ဘာသာပြန်ဆိုဖို့အတွက် Mozilla tool တခု ဖြစ်တေ<pontoonLink>Pontoon</pontoonLink> ကို အ ကျွန်ရို့ အသုံးပြုပါယေ။ Pontoon မှာ ဘာသာစကား အများကြီး ဟိကေလည်း မိတ်ဆွေ ဘာသာစကားမဟိကေ <pontoonRequestLink>မိတ်ဆွေ ဘာသာစကားကို ထည့်သွင်းပီးဖို့ တောင်းဆိုနိုင်ပါယေ။</pontoonRequestLink>
+    ဗြီးကေ Common Voice ပရောဂျက်မှာ ဘာသာစကားကို ရဟိနိုင်ဖို့အတွက် <githubRepoLink>GitHub မှာ ဘာသာစကားအသစ်ကို တောင်းဆိုပါ</githubRepoLink>။ <localizationFragment>ဝပ်ဆိုက် ဘာသာပြန်ဆိုချက်မှာ ပိုပနာ ကြည့်ရှုပါ</localizationFragment>။
+about-playbook-how-add-language-collecting-sentences-heading = စာကြောင်းတိ စုဆောင်းစွာ
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>စာကြောင်းစုဆောင်းကိရိယာကို အသုံးပြုဖို့အတွက် အကျွန်ရို့ လမ်းညွှန်ကို ကြည့်ရှုပါ</sentenceCollectorVideo>။
