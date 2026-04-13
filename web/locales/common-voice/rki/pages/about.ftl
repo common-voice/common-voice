@@ -29,3 +29,4 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 
 about-playbook-how-localize = ဝပ်ဆိုက်ကို ဒေသအလိုက် ခွဲခြားသတ်မှတ်စွာက ဇာပိုင် အလုပ် လုပ်ပါလဲ?
 about-playbook-how-localize-content-1 = Common Voice ဝပ်ဆိုက် ဘာသာပြန်ဆိုချက်တိကို <strong>Pontoon</strong> မှာ ပြုလုပ်ပါယေ။
+about-playbook-how-localize-content-2 = အကောင့် မဟိသိမ့်ကေ <pontoonAccountLink>အကောင့် တခု ဖန်တီးပါ</pontoonAccountLink>။ အဗြီးကေ မိတ်ဆွေ ဘာသာစကား <strong>(‘Team’)</strong> ကို ရွီးချယ်ပနာ၊ ပရောဂျက် <pontoonCvLink>Common Voice</pontoonCvLink> ကို ထပ်ရွီးချယ်ပါ။ ဘာသာပြန်ဖို့ ဖိုင်တိ ယင်းမှာ ဟိပါယေ။ တခုကို နှိပ်လိုက်ကေ၊ အင်္ဂလိပ်ဘာသာ စကားလုံးတိနန့် ဘာသာပြန်ဖို့ အကွက်တခုကို ပြပါလိမ့်မေ။
