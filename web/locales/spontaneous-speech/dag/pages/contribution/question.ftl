@@ -10,6 +10,7 @@ add-question-success-toast-message =
        *[other] { $uploadedQuestions } din { $totalQuestions } bɔhisi din yaai
     }
 add-question-error-message = Zan pahi maa bi niŋ, dimi suɣulo ka labi niŋ.
+add-question-too-many-questions-error = Di yaɣi bɔhisi 25. Piimi a bɔhisi maa kalinli m-bahi ka labi n-niŋ.
 # Guidelines
 add-question-guidelines-title = Bɔhisi dini nima ka n ni tooi pahi?
 do-section-title = Niŋma

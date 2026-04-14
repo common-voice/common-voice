@@ -98,3 +98,13 @@ player-skip-forward-aria-label = kpahiyaɣi kibikibi dibaa anu tooni polo
 player-progress-slider-aria-label = Kukɔli labi ŋmɛ tooni chandi daabu bia
 # Toggle speed and transcription mode menu button
 player-toggle-mode-menu-aria-label = Piibu saha bia
+# Slower playback speed button accessibility/aria label
+player-speed-slow-aria-label = Bɛla bɛla labi ŋmɛ tia
+# Normal playback speed button accessibility/aria label
+player-speed-normal-aria-label = Di maŋmaŋa labi ŋmɛ tia
+# Faster playback speed button accessibility/aria label
+player-speed-fast-aria-label = Yomyom labi ŋmɛ tia
+# Auto transcription mode button accessibility/aria label
+transcription-mode-auto-aria-label = Piimi niŋdi n-toli bachi-ni-bachi labi ŋmɛ
+# Mode menu button accessibility/aria label
+transcription-mode-menu-aria-label = Piimi sabbu yaɣili
