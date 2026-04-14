@@ -3,6 +3,7 @@
 language-section-in-progress = Di be soli
 language-section-in-progress-new-description = Zuliya bala  ŋa nim maa na nyɛla laɣansi maa ni na maani shɛli. <localizationGlossaryLink>Wɛbsieti nim lɛbigi</localizationGlossaryLink>ni <sentenceCollectionGlossaryLink>yɛltɔɣa laɣimbu </sentenceCollectionGlossaryLink> nyɛla din bɔri shɛli ni di niŋ li suuna
 language-section-launched = Palo yihibu
+language-section-launched-description = For these launched languages the website has been successfully <localizationGlossaryLink>localized</localizationGlossaryLink>, and has enough <sentenceCollectionGlossaryLink>sentences collected</sentenceCollectionGlossaryLink> to allow for ongoing <speakLink>Speak</speakLink> and <listenLink>Listen</listenLink> contributions.
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
 language-section-last-updated = Lahibali pala din na bɛni{ $lastUpdatedTimeStamp }
 language-communities = Dim suɣulo a ni tooi yi laɣingu maa pɔhim zuɣu yu' bolisi n-zaŋ n-niŋ ti <communitiesLink>COMMUNITIES.md kundi shɛli din be ti GitHub</communitiesLink>la zuɣu.
