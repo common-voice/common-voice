@@ -6,6 +6,13 @@ action-click = Dihima
 action-tap = Shihima
 # Label for language switcher
 platform-language = Tahapɔŋ zuɣu zuliya balli
+platform-language-tooltip-text = Di taɣiri la wɛbisiɛti sabbu kɔ
+# Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
+contribution-picker-label = Tɔhiri ti <bold>{ $language }</bold> kpanjɔɣu
+contribution-picker-tooltip-text = Di taɣiri la zuliya yɛltɔɣa kpanjɔɣu shɛli a ni tɔhiri tiri maa
+coming-soon = Zuliya yɛltɔɣa nima na kanna, di ku yuui
+media-recorder-api-not-supported = A birawiza maa bi saɣi ti MediaRecorder API.
 # Toast message that is displayed when an item is skipped
 skipped = Kpahiyaɣi
 audioplayer-header = wumma
@@ -89,3 +96,5 @@ player-skip-backward-aria-label = kpahiyaɣi kibikibi dibaa anu nyaaŋga polo
 player-skip-forward-aria-label = kpahiyaɣi kibikibi dibaa anu tooni polo
 # Audio playback progress slider accessibility/aria label
 player-progress-slider-aria-label = Kukɔli labi ŋmɛ tooni chandi daabu bia
+# Toggle speed and transcription mode menu button
+player-toggle-mode-menu-aria-label = Piibu saha bia
