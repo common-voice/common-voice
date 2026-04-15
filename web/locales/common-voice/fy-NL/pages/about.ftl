@@ -117,6 +117,7 @@ about-playbook-how-grow-language-content-4 = Sosjale media
 about-playbook-how-grow-language-content-5 = Jo kinne sosjale mediaplatfoarms brûke om de boadskip nei bûten te bringen. Diel berjochten dy’t útlizze wêrom it wichtich is, en kom yn kontakt mei oare minsken dy’t prate oer saken as taalrjochten, spraak-AI of foaroardielen yn technology. Besjoch mear advys oer <campaignLink>it útfieren fan in sosjale kampanje, ynklusyf ynhâld dy’t jo  opnij brûke kinne</campaignLink>.
 about-playbook-how-grow-language-content-6 = Partnerskippen en netwurken
 about-playbook-how-grow-language-content-7 = Sykje oaren dy’t om taal jouwe. Dat kinne universiteiten, taalskoallen, belangegroepen of mienskippen foar gegevenswittenskippen wêze. Nim kontakt op en lis dúdlik út hoe’t de helpe kinne en wêrom. <outreachTemplates>Besjoch ús e-mailsjabloanen om kontakt op te nimmen</outreachTemplates>.
+about-playbook-how-grow-language-content-8-v2 = <strong>Wês kreatyf!</strong> Jo taalmienskip sil unyk wêze, en dit binne mar in pear manieren om te begjinnen. Oerweagje om jo mienskipskanalen ta te foegjen oan it <communitiesLink>COMMUNITIES.md-dokumint op GitHub</communitiesLink>.
 
 ## How to validate
 
