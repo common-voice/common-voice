@@ -58,7 +58,7 @@ about-nav-playbook = Akkamitti akka qooda fudhattu baradhu.
 ## What is a language
 
 about-playbook-what-is-language = Common Voice irratti qooqa jechuun maali dha?
-about-playbook-what-is-language-content-1 = waa'ee qooqaa yaaduuf karaaleen hedduun jiru. Kaayyoo moodeelota beekumsa sagalee (speech recognition) tiif, Afaan Waloo’n “wal hubannaa waliigalaa” irratti xiyyeeffata. Kana jechuunis, “namoonni qooqa kana dubbatan yoo yaalan, wal hubachuu ni danda’uu?” jechuun of gaafata.
+about-playbook-what-is-language-content-1 = waa'ee qooqaa yaaduuf karaaleen hedduun jiru. Kaayyoo moodeelota beekamtii sagalee (speech recognition) tiif, Afaan Waloo’n “wal hubannaa waliigalaa” irratti xiyyeeffata. Kana jechuunis, “namoonni qooqa kana dubbatan yoo yaalan, wal hubachuu ni danda’uu?” jechuun of gaafata.
 about-playbook-what-is-language-content-2 = Moodeelonni sagalee akka caalaatti fooyya’anii hojjetaniif, sagalee fi aksentoota garaagaraa hubachuun barbaachisaadha. Kanaafuu, kuusaan odeeffannoo sagalee (voice dataset) namoota hedduu fi garaagarummaa hawaasaa bal’aa bakka bu’uu qaba.
 about-playbook-what-is-language-content-3 = Qooqni tokko tokko seera-jecha (grammar), fayyadama jechootaa fi sagaleedhaan garaagarummaa guddaa qabaachuu danda’a. Sababa kanaaf, bara 2022tti <ctaLink>“garaagarummaa qooqaa (variants)”</ctaLink> jedhaman beeksifne. Kun hawaasota akka qooqa isaaniitti kuusaa odeeffannoo guddaa keessatti addaan baafatan carraa ni kenna.
 
