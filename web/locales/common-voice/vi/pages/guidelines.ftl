@@ -299,6 +299,8 @@ code-switching-spelling-header = Sử dụng chính tả chuẩn cho từng ngô
 code-switching-spelling-explanation = Cố gắng đánh vần chính xác các từ cho từng ngôn ngữ, trừ khi người nói phát âm chúng theo cách không chuẩn.
 # Don’t Clean Up or Simplify the Language
 code-switching-cleanup-header = Đừng dọn dẹp hoặc đơn giản hóa ngôn ngữ
+code-switching-cleanup-2 = “Sửa” ngữ pháp hoặc phát âm – hãy giữ nguyên cách dùng tự nhiên của người nói.
+code-switching-cleanup-4 = Chèn các dấu câu có thể làm thay đổi ý nghĩa – hãy giữ cho luồng câu tự nhiên.
 code-switching-cleanup-5 = Giả sử bạn biết ngôn ngữ của từng từ – gắn tag dựa trên cách sử dụng.
 # Tagging
 code-switching-tagging-subheader = Tag
@@ -309,6 +311,8 @@ code-switching-tagging-error-3 = Từ được viết sai chính tả
 # Using Correct Orthography for Each Language
 code-switching-orthography-header = Sử dụng chính tả đúng cho từng ngôn ngữ
 code-switching-orthography-explanation = Viết mỗi từ theo đúng chính tả của ngôn ngữ gốc. Ví dụ:
+code-switching-orthography-explanation-example-1 = Nếu từ "kitchen" được phát âm giống như tiếng Tây Ban Nha, nó phải được viết như tiêng Anh, không phải là "quichen."
+code-switching-orthography-explanation-example-2 = Nếu từ quinceaños được đọc trong tiếng anh, viết nó bằng từ ñ.
 # Use Pronunciation to Help Determine the Language
 code-switching-pronunciation-header = Sử dụng cách phát âm để giúp xác định ngôn ngữ
 code-switching-pronunciation-explanation = Một số từ có thể trông giống nhau ở cả hai ngôn ngữ nhưng lại được phát âm khác nhau. Hãy nghe cách phát âm để giúp gắn tag chính xác. Ví dụ: cable, taco, actor, detective.

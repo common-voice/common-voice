@@ -18,3 +18,5 @@ do-not-section-title = không nên
 do-not-section-guideline-1 = Yêu cầu thông tin nhận dạng cá nhân (như tên hoặc thông tin tài chính)
 do-not-section-guideline-2 = Bày tỏ hoặc gợi ra những tình cảm có định kiến ​​hoặc xúc phạm
 do-not-section-guideline-3 = Đặt câu hỏi nhạy cảm
+# Code switching Guidelines
+cs-do-section-guideline-1 = Sử dụng câu hỏi hoặc ngữ cảnh song ngữ

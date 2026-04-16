@@ -3,6 +3,7 @@
 welcome-to-spontaneous-speech = Chào mừng đến với Lời nói tự phát
 # <br></br> represents a newline break
 wall-of-text = Dự án Common Voice đang ra mắt một nền tảng thứ hai, tập trung vào việc thu thập các bài nói tự nhiên, không theo kịch bản. Điều này sẽ giúp nhiều cộng đồng thu thập dữ liệu nhanh hơn, đồng thời giúp ích cho các nhà khoa học dữ liệu và nhà phát triển.
+why-spontaneous-speech = Vì sao chúng tôi xây dựng nguyên mẫu Lời nói tự phát này
 # text wrapped with <mark></mark> will have a light red background
 why-card-1-text = Hữu ích cho <mark>các ngữ cảnh nói tự nhiên<mark> và các trường hợp sử dụng (ví dụ: khi bạn muốn chức năng nhận dạng giọng nói hoạt động với những người nói không có kịch bản trước và theo cách nói thông thường)
 # text wrapped with <mark></mark> will have a light red background
