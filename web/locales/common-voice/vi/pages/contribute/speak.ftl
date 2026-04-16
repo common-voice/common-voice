@@ -12,6 +12,7 @@ record-no-mic-found = Không tìm thấy micrô.
 record-error-too-short = Bản ghi âm quá ngắn
 record-error-too-long = Bản ghi âm quá dài
 record-error-too-quiet = Bản ghi âm không có tiếng
+record-error-empty-recording = Không thu được âm thanh. Vui lòng kiểm tra micrô và thử lại.
 record-cancel = Hủy ghi lại
 record-instruction = { $actionType }<recordIcon></recordIcon> sau đó đọc to câu
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> khi hoàn thành
