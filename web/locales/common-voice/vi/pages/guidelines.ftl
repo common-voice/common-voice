@@ -4,6 +4,8 @@ guidelines-header-subtitle = Tìm hiểu cách đóng góp và xác thực các 
 voice-collection = Bộ sưu tập giọng nói
 sentence-collection = Bộ sưu tập câu
 question-collection = Bộ sưu tập câu hỏi
+scripted-speech = Lời nói theo kịch bản
+spontaneous-speech = Lời nói tự phát
 dont-subheader = Không nên
 
 ## Voice Collection nav ids
@@ -196,9 +198,11 @@ tags-noise-explanation =
 special-tags-example-2 =
     Và sau đó tôi [tiếng ồn] đã đi nghỉ.
     À, [tiếng ồn] [cười] nó không hẳn là một kỳ nghỉ [cười]
+transcribe-the-audio-subheader-4-explanation-1 = Lời nói tự phát thường chứa những đoạn 'vấp' (false starts) – nơi người nói chỉ phát ra một mảnh vụn của từ. Trong những trường hợp này, hãy ghi chép lại mảnh từ đó theo khả năng nghe tốt nhất của bạn, đồng thời thêm một dấu gạch nối (-) vào cuối từ để biểu thị rằng từ đó đã bị đọc dở. Ví dụ:
 transcribe-the-audio-subheader-4-explanation-1-example = Tên anh ấy là <underline>Jo- Jona-</underline> Jonathan.
 transcribe-the-audio-subheader-4-explanation-2 = Đôi khi người nói sẽ lặp lại một từ hoặc một cụm từ nhiều lần. Điều này cũng cần được ghi chép lại. Ví dụ:
 transcribe-the-audio-subheader-4-explanation-2-example = Và sau đó tôi đã đi đến <underline>chỗ chỗ chỗ giường- chỗ</underline> giường ngủ
+transcribe-the-audio-subheader-5-explanation-1 = Lời nói tự phát thường chứa các lỗi ngữ pháp. Không được sửa những lỗi này khi chuyển âm. Bản ghi chép phải phản ánh chính xác nội dung đã nói.
 transcribe-the-audio-subheader-5-explanation-2 = Người nói có thể sử dụng những từ ngữ thông tục (chẳng hạn như trong tiếng Anh, "gonna", "cuz", v.v.) mà có thể không được coi là chính xác về mặt hình thức. Những từ ngữ này nên được phiên âm nguyên văn, và không được thay đổi sang các từ tương đương trang trọng hơn.
 
 ## Review the Transcription

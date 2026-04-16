@@ -80,6 +80,8 @@ press-and-stories = Báo chí và tin tức
 community-and-languages = Cộng đồng và Ngôn ngữ
 coming-soon = Sắp ra mắt
 about-us = Về chúng tôi
+scripted-speech = LỜI NÓI THEO KỊCH BẢN
+spontaneous-speech = LỜI NÓI TỰ PHÁT
 
 ## MENU ITEMS TOOLTIPS
 
@@ -111,7 +113,9 @@ get-started = Bắt đầu <icon><icon>
 
 action-items-section-title = Common Voice là một nền tảng nguồn mở miễn phí để tạo dữ liệu do cộng đồng lãnh đạo
 action-items-section-subtitle = Bất kỳ ai cũng có thể bảo tồn, phục hồi và nâng cao ngôn ngữ của mình bằng cách chia sẻ, tạo và quản lý các tập dữ liệu văn bản và lời nói.
+scripted-card-header = Lời nói theo kịch bản
 scripted-card-content = Đọc to các câu bằng ngôn ngữ của bạn và đóng góp vào bộ dữ liệu bài phát biểu của công chúng đa dạng nhất trên thế giới.
+spontaneous-card-header = Lời nói tự phát
 spontaneous-card-content = Trả lời lời nhắc để tạo tập dữ liệu cho ngữ cảnh giao tiếp, tự nhiên. Hoàn hảo cho ngôn ngữ nói đầu tiên (oral-first languages).
 language-text-card-header = Ngôn ngữ văn bản
 language-text-card-content = Tạo hoặc chia sẻ lời nhắc, câu và văn bản thuộc phạm vi công cộng để dịch, mô hình ngôn ngữ nhỏ, và nhiều thứ khác.
