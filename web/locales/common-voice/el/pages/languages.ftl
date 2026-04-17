@@ -6,6 +6,7 @@ language-section-launched = Σε λειτουργία
 language-section-launched-description = Για αυτές τις εν λειτουργία γλώσσες, ο ιστότοπος έχει <localizationGlossaryLink>μεταφραστεί</localizationGlossaryLink> επιτυχώς και έχει αρκετές <sentenceCollectionGlossaryLink>συλλεγμένες προτάσεις</sentenceCollectionGlossaryLink> για να είναι η δυνατή η συνεχής συνεισφορά <speakLink>ομιλίας</speakLink> και <listenLink>ακρόασης</listenLink>.
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
 language-section-last-updated = Τελευταία ενημέρωση: { $lastUpdatedTimeStamp }
+language-communities = Σκεφτείτε το ενδεχόμενο να προσθέσετε τα κανάλια της κοινότητάς σας στο έγγραφο <communitiesLink>COMMUNITIES.md στο GitHub</communitiesLink>.
 languages-show-more = Προβολή περισσότερων
 languages-show-less = Προβολή λιγότερων
 language-meter-in-progress = Πρόοδος
