@@ -114,3 +114,7 @@ about-playbook-how-record-content-5 = <accuracyLink>တိကျမှု စံ
 ## How to grow language
 
 about-playbook-how-grow-language = Common Voice မှာ ဘာသာစကားတခုကို ဇာပိုင် ထိထိရောက်ရောက် ဖွံ့ဖြိုးတိုးတက်အောင် လုပ်ဖို့လဲ?
+about-playbook-how-grow-language-content-1 = Common Voice မှာ လူမျိုးစုံအတွက် အခွင့်အလမ်းတိ ဖန်တီးပီးပနာ ပါဝင်ကူညီဂတ်ကေ၊ ဒေတာစု dataset က လူအများကြီးကို အသေအချာ ဝန်ဆောင်မှုပီးလာနိုင်ပါဖို့။ မိတ်ဆွေ အသုံးပြုနိုင်ဖို့ အရင်းအမြစ်တိနန့် ပုံစံ template တိကို အကျွန်ရို့ ဖန်တီးထားပါယေ။
+about-playbook-how-grow-language-content-2 = ပွဲတိ
+about-playbook-how-grow-language-content-3 = လူတိ ပါဝင်ကူညီလာနိုင်အောင် ပွဲတိကို ကျင်းပနိုင်ပါယေ။ မိတ်ဆွေ ထင်ထားစွာထက် ပိုလွယ်ပါယေ။ ဗီဒီယိုကွန်ဖရင့်ကိရိယာနန့် အွန်လိုင်းမှာ လုပ်နိုင်ယေပိုင်၊ ဘေးကင်းကေ လူတိ ကိုယ်တိုင်လည်း လုပ်နိုင်ပါယေ။ <eventTemplate>ပွဲတိ ကျင်းပဖို့အတွက် အကျွန်ရို့ ပုံစံ တန်းပလိတ်တိနန့် အရင်းအမြစ်တိကို ကြည့်ရှုပါ</eventTemplate>။
+about-playbook-how-grow-language-content-4 = လူမှု မီဒီယာ
