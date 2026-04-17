@@ -98,3 +98,4 @@ about-playbook-how-localize-content-5 = အကူအညီရဖို့ အက
 ## How to add sentences
 
 about-playbook-how-add-sentences = အကျွန် စာကြောင်းတိကို ဇာပိုင် ထည့်ရပါဖို့လဲ?
+about-playbook-how-add-sentences-content-1 = <writePageLink>အရီး စာမျက်နှာ</writePageLink>မှာ စာကြောင်းတိကို ရီးထည့်နိုင်ပါယေ ဝါ <reviewPageLink>ပြန်သုံးသပ် စာမျက်နှာ</reviewPageLink>မှာ စာကြောင်းတိကို ပြန်ပနာ သုံးသပ်နိုင်ပါယေ။
