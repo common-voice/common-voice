@@ -24,3 +24,20 @@ todays-progress = အေနိ တိုးတက်မှု
 help-reach-goal = ရည်မှန်းချက် { $goal } ရောက်အောင် အကျွန်ရို့ကို ကူညီပီးပါ
 read-terms-q = အကျွန်ရို့ စည်းကမ်းချက်တိကို ဖတ်ဗြီးပါဗျာယ်လား?
 ready-to-record = မိတ်ဆွေ အသံကို လှူဒါန်းဖို့ အဆင်သင့် ဖြစ်ပါဗျာလ်လား?
+all-locales = အားလုံး
+today = အေနိ
+x-weeks-short =
+    { $count ->
+        [one] ပတ်
+       *[other] { $count } ပတ်
+    }
+x-months-short =
+    { $count ->
+        [one] လ
+       *[other] { $count } လ
+    }
+x-years-short =
+    { $count ->
+        [one] နှစ်
+       *[other] { $count } နှစ်
+    }
