@@ -99,3 +99,9 @@ about-playbook-how-localize-content-5 = အကူအညီရဖို့ အက
 
 about-playbook-how-add-sentences = အကျွန် စာကြောင်းတိကို ဇာပိုင် ထည့်ရပါဖို့လဲ?
 about-playbook-how-add-sentences-content-1 = <writePageLink>အရီး စာမျက်နှာ</writePageLink>မှာ စာကြောင်းတိကို ရီးထည့်နိုင်ပါယေ ဝါ <reviewPageLink>ပြန်သုံးသပ် စာမျက်နှာ</reviewPageLink>မှာ စာကြောင်းတိကို ပြန်ပနာ သုံးသပ်နိုင်ပါယေ။
+about-playbook-how-add-sentences-content-2 = Common Voice မှာ ထည့်သွင်းဖို့အတွက် စာကြောင်းတိကို လူနှစ်ယောက်က ပြန်သုံးသပ်ပနာ လက်ခံရပါဖို့။ မိတ်ဆွေဘာသာစကားအတွက် လမ်းညွှန်ချက်တိကို <languageGuidelinesLink> ဒေနိန်ရာ</languageGuidelinesLink>မှာ ဖန်တီးပါ။ စာကြောင်းတိစွာ <licenseLink>public domain</licenseLink>မှာ ဟိရဖို့ ဖြစ်ပနာ၊ စကားလုံး ၁၅ လုံးထက် တိုရပါဖို့။ စာသားပိုင်ရှင်ကို <waiverLink>အကျွန်ရို့  စွန့်လွတ်မှု လုပ်ငန်းစဉ် CC0</waiverLink>ကို သုံးဗျာယ် တောင်းဆိုနိုင်ပနာ၊ commonvoice@mozilla.com ကို လိပ်မှုပနာ ပီးပို့နိုင်ပါယေ။
+about-playbook-how-add-sentences-content-3 = ဝီကီပီးဒီးယားက စာကြောင်း အတိုချေတိကို အသုံးချဖို့ <scraperLink>စာကြောင်းထုတ်ယူ ကိရိယာ</scraperLink>ကို မိတ်ဆွေ အသုံးပြုနိုင်ပါယေ။
+
+## How to record quality
+
+about-playbook-how-record-quality = အရည်အသွေးမြင့် အသံကလစ်တခုကို ဇာပိုင် မှတ်တမ်းတင်ရပါဖို့လဲ?
