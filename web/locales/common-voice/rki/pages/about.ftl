@@ -146,3 +146,11 @@ about-playbook-how-project-governance-content-3 = ကိုယ်ရေးကိ
 about-playbook-how-project-governance-content-4 = လူထု အသိုင်းအဝိုင်း ပါဝင်မှုနန့် ဆုံးဖြတ်ချက် ချမှတ်စွာ။
 about-playbook-how-project-governance-content-5 = တန်ဖိုးနန့် အသိအမှတ်ပြုမှု။
 about-playbook-how-project-governance-content-6 = အပြန်အလှန် တာဝန်ခံမှု။
+about-playbook-how-project-governance-content-7 = <governanceLink>အကျွန်ရို့ ဇာပိုင် အုပ်ချုပ်တေ အကြောင်း ပိုပနာ ဖတ်ကြည့်ပါ</governanceLink>
+
+## How is Common Voice funded
+
+about-playbook-how-funded = Common Voice ကို ဇာပိုင် ရန်ပုံငွေ ထောက်ပံ့လဲ?
+about-playbook-how-funded-content-1 = Common Voice စွာ Mozilla Foundation က ပရောဂျက်တခုဖြစ်ပနာ US 501c3 တခု ဖြစ်ပါယေ။ လက်ဟိမှာ ပရောဂျက်ကို <philantropicGrantLink>ပရဟိတ ထောက်ပံ့ငွေတိ</philantropicGrantLink> နန့် ကမ္ဘာတစ်ဝှမ်းက အလှူရှင်တိဘားက လှူဒါန်းငွေတိနန့် အပြည့်အဝ ရန်ပုံငွေ ထောက်ပံ့ထားပါယေ။
+about-playbook-how-funded-content-2 = ဒေတာစုတိကို အဆက်မပြတ် လက်ခံထားဟိဖို့နန့် ထုတ်ပြန်ဖို့၊ ပလက်ဖောင်းကို တိုးတက်ကောင်းမွန်အောင် လုပ်ဆောင်ဖို့နန့်<africaMradiLink>လူထု အစီအစဉ်တိ</africaMradiLink>ကို လည်ပတ်ဖို့ ငွေကြေး အမြောက်အမြား ကုန်ကျပါယေ။
+about-playbook-how-funded-content-3 = မိတ်ဆွေ ဝါ မိတ်ဆွေရို့ အဖွဲ့အစည်းက ပရောဂျက်ကို ပြန်ပနာ လှူဒါန်းလိုပါကေ <donateLink>လှူဒါန်းမှု</donateLink> ပြုလုပ်နိုင်ပါယေ ဝါ <emailFragment>commonvoice@mozilla.com</emailFragment> က တဆင့် အကျွန်ရို့ မိတ်ဖက်အဖွဲ့ဘားကို ဆက်သွယ်နိုင်ပါယေ။
