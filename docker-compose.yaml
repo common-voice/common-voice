@@ -45,7 +45,7 @@ services:
       - redis
       - storage
     volumes:
-      - ./bundler:/home/node/code
+      - ./bundler:/code
     networks:
       - voice-web
     command: bash -c "npm ci && npm run build && npm start"
