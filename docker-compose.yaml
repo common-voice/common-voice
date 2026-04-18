@@ -12,8 +12,6 @@ services:
       - MYSQL_PASSWORD=voicecommons
       - MYSQL_ROOT_PASSWORD=voicewebroot
     command: mysqld --sql_mode="STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION"
-    ports:
-      - 3306:3306
   redis:
     image: redis:alpine
     container_name: redis
@@ -23,8 +21,6 @@ services:
   storage:
     image: fsouza/fake-gcs-server
     container_name: storage
-    ports:
-      - 8080:8080
     networks:
       - voice-web
     command:
@@ -52,8 +48,6 @@ services:
       - ./bundler:/home/node/code
     networks:
       - voice-web
-    ports:
-      - 9001:9001
     command: bash -c "npm ci && npm run build && npm start"
   web:
     build:
