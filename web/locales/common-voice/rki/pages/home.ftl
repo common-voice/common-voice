@@ -154,3 +154,24 @@ contribute-github-action = GitHub မှာ ပါဝင်ကူညီပါ
 ## Featured section
 
 featured-section-title = အထူးဖော်ပြထားစွာ ...
+# icon is an arrow that points downwards
+download-press-pack = အကျွန်ရို့ စာနယ်ဇင်း အထုပ်ကို ဒေါင်းလုဒ် လုပ်ပါ <icon></icon>
+
+## Developers section
+
+developers-section-title = ဘာသာစကား ၁၃၀+ နန့် အများပြည်သူ ဝင်ရောက်ကြည့်ရှုနိုင်ယေ open speech dataset တိ
+developers-section-subtitle = ASR၊ STT၊ TTS နန့် တခြား NLP အကြောင်းအရာတိအတွက် ဒေတာအစုတိကို အသိုင်းအဝိုင်း ပါဝင်မှုကတဆင့် ဖန်တီးထားပါယေ။
+# icon is an arrow that points to the right
+explore-datasets = ဒေတာစုတိကို စူးစမ်းလေ့လာကြည့်ပါ <icon></icon>
+
+## Get involved section
+
+get-involved-section-title = ပွင့်လင်းယေ၊ အသိုင်းအဝိုင်း ဦးဆောင်ယေ ဒေတစုတိကို ပံ့ပိုးကူညီပါ
+read-sentences-link = စာကြောင်းတိကို ဖတ်ပါ
+validate-readings-link = ဖတ်ကြည့်ပနာ အတည်ပြုပီးပါ
+contribute-link = စာသား corpus မှာ ပါဝင်ကူညီပါ
+answer-questions-link = မေးခွန်းတိကို ဖြေပီးပါ
+transcribe-answers-link = အဖြေတိကို စာနန့် ရီးပီးပါ
+review-transcriptions-link = စာသားမှတ်တမ်းတိကို ပြန်သုံးသပ်ပီးပါ
+contribute-text-link = စာသားကို ပံ့ပိုးပီးပါ
+press-and-stories-link = စာနယ်ဇင်းနန့် ဇာတ်လမ်းတိ
