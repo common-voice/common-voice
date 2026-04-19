@@ -4,3 +4,7 @@ partnerships-header-text = Common Voice ဖြစ်လာဖို့ အမျ
 partnerships-get-in-touch = ဆက်သွယ်ပါ
 partnerships-become-a-partner = Common Voice မိတ်ဖက် ဖြစ်လာပါဗျာလ်
 partnerships-community-header = အသိုင်းအဝိုင်း၊ ဖန်တီးမှုတိနန့် အရပ်ဘက် လူ့အဖွဲ့အစည်း
+partnerships-community-description = အသိုင်းအဝိုင်းက Common Voice အတွက် နှလုံးခုန်သံပါ - အသိုင်းအဝိုင်းတိစွာ ကမ္ဘာတဝှမ်းက လာကတ်ပနာ ဘာသာစကား တက်ကြွလှုပ်ရှားယေ လူတိ၊ သိပ္ပံပညာရှင်တိနန့် အနုပညာရှင်တိ ပါကတ်ပါယေ။ အကျွန်ရို့ <about>အကြောင်းအရာ</about> စာမျက်နှာနန့် အကျွန်ရို့ <community>အသိုင်းအဝိုင်း လမ်းညွှန်စာအုပ်</community>ထဲမှာ ဇာပိုင် ပါဝင်ရဖို့လဲဆိုစွာကို ပိုပနာ လေ့လာနိုင်ပါယေ။ ပို နက်ရှိုင်းယေ အဖွဲ့အစည်းနန့် ဆိုင်ယေ ပူးပေါင်းဆောင်ရွက်ဖို့စွာကို စိတ်ဝင်စားကေ <emailFragment>ဆက်သွယ်ပါ</emailFragment>က ဆက်သွယ်ပါ။
+partnerships-foundations-header = ဖောင်ဒေးရှန်းတိ
+partnerships-foundations-description = အကျွန်ရို့စွာ အရှိအာဖရိကကို ပိုအလေးထား အာရုံစိုက်ပနာ အင်တာနက် ပိုကောင်းယေေ နိန်ရာတခုဖြစ်လာဇီဖို့ ဖောင်ဒေးရှန်းတိ၊ အရပ်ဘက် လူ့အဖွဲ့အစည်းတိ၊ အသိုင်းအဝိုင်း မိတ်ဖက်တိနန့် ပူးပေါင်း ဆောင်ရွက်ပါယေ။ အကျွန်ရို့ <programmaticWork>ပရိုဂရမ် အလုပ်တိအကြောင်းကို ပို လေ့လာကြည့်ပါ။</programmaticWork>
+partnerships-governments-header = အစိုးရတိ
