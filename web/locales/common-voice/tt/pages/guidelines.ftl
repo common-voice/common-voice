@@ -36,6 +36,7 @@ background-noise-example-4 = [Шытыр-пытыр тавыш] балыклар
 background-voices-example-1 = Бу балыклар базарда сатыла. [бер тавыш белән укыла]
 background-voices-tip-1 = Син киләсеңме? [башка кеше әйтте]
 volume-explanation = Төрле язмаларда тавыш катылыгы да төрле була — бу табигый күренеш. Шуңа күрә аларны кире кагу өчен тавыш артык көчле булып язмага бозыклык кертергә тиеш яки (монысы ешрак очрый) тавыш бөтенләй ишетмәслек булып, сез текстка мөрәҗәгать итмичә берни дә аңламаска тиеш. Башка очракларда язманы кире кагарга кирәкми.
+reader-effects-explanation = Күпчелек язмаларда кешеләр гадәти табигый тавышлары белән сөйли. Сез кайвакыт очрый торган кычкырып, пышылдап яки артык «драматик» тавыш белән сөйләүле язмаларны кабул итә аласыз, әлбәттә. Ләкин, җырлаулы язмаларны яки компьютерда синтезланган тавышлы язмаларны кабул итмәгез.
 still-have-questions = Сорауларыгыз калдымы?
 contact-common-voice = Common Voice такымына мөрәҗәгать итегез
 
@@ -86,10 +87,12 @@ tags-table-header-1 = Билге
 tags-table-header-2 = Мәгънә
 tags-laugh = Көлү
 tags-noise = Шау-шу
+tags-laugh-explanation = Көлү тавышы.
 
 ## Review the Transcription
 
 review-the-transcription = Транскрипцияне тикшерү
+review-the-transcription-subheader = Гомуми күрсәтмәләр
 
 ## Code-Switching
 
@@ -99,3 +102,9 @@ code-switching-dont-header = Болай эшләмәгез
 # Tagging
 code-switching-tagging-subheader = Билгеләү
 code-switching-tagging-error-2 = Язу хаталары
+code-switching-not-tag-proper-names-example-1 = Кешеләр: Мәрьям, Булат
+code-switching-not-tag-proper-names-example-2 = Урыннар: Яр Чаллы, Казан
+code-switching-not-tag-proper-names-example-3 = Брендлар/Оешмалар:  Бәхетле, Түбәтәй
+code-switching-not-tag-interjections-example-1 = "Ә"
+code-switching-not-tag-interjections-example-2 = "Юк"
+code-switching-not-tag-interjections-example-4 = "Эм"
