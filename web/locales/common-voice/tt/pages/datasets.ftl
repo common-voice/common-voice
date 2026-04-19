@@ -97,3 +97,4 @@ female = Хатын-кыз
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = Тавыш мәгълүматы тупланмаларыбызны иңдерү
 datasets-show-more = Барлык мәгълүмат тупланмаларын да күрсәтү
+datasets-show-less = Соңгы мәгълүматлар җыелмаларын күрсәтү
