@@ -1,4 +1,8 @@
 services:
+  # To enable speaking for a locale: sudo docker exec db mysql -uvoicecommons -pvoicecommons voiceweb -e "UPDATE locales SET is_contributable=1 WHERE name='fr';"
+  # then:
+  # sudo docker exec -it redis redis-cli FLUSHALL
+  # sudo docker restart web
   db:
     image: mysql:8.0.31
     networks:
