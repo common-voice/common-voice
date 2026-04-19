@@ -11,6 +11,7 @@ transcribe-bubble-title = <mark>Транскрипцияләү</mark>
 check-bubble-title = <mark>Тикшерү</mark>
 # text wrapped in <mark></mark> will have a blue background
 data-bubble-title = <mark>Мәгълүмат</mark>
+data-bubble-subtitle = Без вакыт-вакыт мәгълүматлар җыелмаларын чыгарабыз
 contact-us = Безнең белән элемтәгә керү
 contact-us-email = Эл. почта: <emailFragment>commonvoice@mozilla.com</emailFragment>
 signup-form-title = Common Voice-ның Спонтан Сөйләшү проектын бета-тестлаучылар төркеменә кердегезме инде?

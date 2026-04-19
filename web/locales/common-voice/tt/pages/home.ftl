@@ -101,6 +101,8 @@ answer = Җавап бирү
 join-discord-community-action = Discord-та безгә кушылыгыз
 # label for button
 find-us-on-element-action-1 = Element
+# label for button
+download-contribution-certificate-action = Сертификатыгызны алыгыз
 
 ## Get involved section
 
