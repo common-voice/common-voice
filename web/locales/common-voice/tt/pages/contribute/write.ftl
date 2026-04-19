@@ -96,6 +96,7 @@ too-many-files = Артык күп файл
 small-batch-instruction = <icon></icon> Берничә иҗтимагый милектәге җөмлә өстәгез
 exceeds-small-batch-limit-error = 1000-нән артык җөмлә җибәреп булмый
 small-batch-sentences-rule-2 = Бер юлга бер җөмлә өстәү
+small-batch-sentences-rule-4 = 1000 кадәр җөмлә өстәү
 # menu item
 add-sentences = Җөмләләр өстәү
 
@@ -109,3 +110,4 @@ review-questions-menu-item-tooltip = Сорауларны тикшерү
 ## MENU ITEM ARIA LABELS
 
 write-contribute-menu-aria-label = Язу көйләүләре менюсы
+add-sentences-menu-item-aria-label = Җәмгыять уку өчен яңа җомләләр өстәгез
