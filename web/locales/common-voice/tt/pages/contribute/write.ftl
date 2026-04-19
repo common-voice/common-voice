@@ -36,6 +36,7 @@ single-sentence = Бер җөмлә
 small-batch-sentence = Кечкенә бәйләм
 bulk-sentence = Зур бәйләм
 sentence-domain-combobox-label = Җөмләләр домены
+sentence-domain-select-placeholder = Бер, ике яки өч домен сайлагыз
 # Sentence Domain dropdown option
 agriculture_food = Авыл хуҗалыгы һәм азык-төлек
 # Sentence Domain dropdown option
@@ -93,6 +94,7 @@ too-many-files = Артык күп файл
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = <icon></icon> Берничә иҗтимагый милектәге җөмлә өстәгез
+exceeds-small-batch-limit-error = 1000-нән артык җөмлә җибәреп булмый
 small-batch-sentences-rule-2 = Бер юлга бер җөмлә өстәү
 # menu item
 add-sentences = Җөмләләр өстәү

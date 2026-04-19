@@ -1,8 +1,10 @@
 ## Home page
 
 welcome-to-spontaneous-speech = Кинәт туган сөйләм проектына рәхим итегез
+why-spontaneous-speech = Бу Spontaneous Speech прототибын без нинди максат белән булдырдык
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>Башлам</mark>
+prompt-bubble-subtitle = Без Сезгә ярдәм итүче язма яки сорау күрсәтербез
 # text wrapped in <mark></mark> will have a blue background
 respond-bubble-title = <mark>Җавап бирү</mark>
 # text wrapped in <mark></mark> will have a blue background
