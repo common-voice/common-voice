@@ -15,3 +15,6 @@ validate-page-skip-button-shortcut = S
 
 validation-guidelines-title = လမ်းညွှန်ချက်တိ
 validation-guideline-1 = ကိုယ်ရေးကိုယ်တာ အချက်အလက်တိ (ဥပမာ- နာမေတိ၊ ငွေကြေးနန့်ဆိုင်ယေ အသေးစိတ် အချက်အလက်တိ) တောင်းခံစွာ မလုပ်ရ။
+validation-guideline-2 = စော်ကားယေ၊ ဘက်လိုက်ယေ မှတ်ချက်တိ ဝါ ထိလွယ်ရှလွယ်ယေ မေးခွန်းတိ မပါဝင်ရပါ
+validation-guideline-3 = ရိုးရှင်းပနာ အသူမဆို နားလည်ရ လွယ်ကူယေ
+validation-guideline-4 = စာကြောင်း အနည်းချေနန့် ဖြေနိုင်ပါယေ
