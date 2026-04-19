@@ -183,6 +183,9 @@ tags-disfluency-explanation =
     Peteĩ ñe’ẽ térã mba’epu myanyhẽha ojeporúva myengoviarã pe oñe’ẽva oñamindu’u aja mba’épa he’íta.
     Inglés ñe’ẽme, oĩ mba’epu oje’eméva ha’e «err», «um», «huh», oĩve.
 tags-unclear-explanation = Ñe’ẽ térã ñe’ẽ juaju oñeikumbykuaa’ỹva.
+tags-noise-explanation =
+    Oimeraẽ ambueichagua tyapu, ikatúva pe oñe’ẽva ihu’u térã ojeahy’opykarãi,
+    mba’yrumýi omopipĩ, peteĩ mba’e ryapu oinupãva ñe’ẽatãha, pumbyry pu jararã, ha ambue.
 # Note: do not translate any tag, like [noise] or [laugh]
 special-tags-example-2 =
     Ha upéi aha jepytu’urãme.
