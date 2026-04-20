@@ -81,6 +81,10 @@ coming-soon = Тиздән
 about-us = Безнең турында
 spontaneous-speech = КИНӘТ ТУГАН СӨЙЛӘМ
 
+## MENU ITEM ARIA LABELS
+
+about-us-menu-aria-label = "Безнең турында" менюсы
+
 ## Hero section
 
 # icon is an arrow that points downwards
@@ -99,6 +103,7 @@ answer = Җавап бирү
 
 # label for button
 join-discord-community-action = Discord-та безгә кушылыгыз
+find-us-on-matrix = Matrix'­та безне табыгыз
 # label for button
 find-us-on-element-action-1 = Element
 # label for button
