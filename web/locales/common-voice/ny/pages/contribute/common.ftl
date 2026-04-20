@@ -17,27 +17,31 @@ contribute-more =
        *[other] mwadzina
     }
 speak-empty-state = tathedwa ziganizo zoti tiike mawu muchilankhulo ichi
-no-sentences-for-variants = chiyankhulo chanu chitha kukhala kuti ziganizo zatha. ngati muli womasuka, mutha kusintha chiyankhulo kuti muwone ziganizo zina zili mu chiyankhulo china.
-speak-empty-state-cta = pelekani ziganizo
-speak-loading-error = sitinathe kupeza ziganizo zina kuti mulankhule. chonde yesaniso nthawi yina
+no-sentences-for-variants = mitundu yachilankhulo chanu  singathe kukupatsani ziganizo zonse, ngati mkotheka mutha kusintha ndi kuyetsa ziganizo zina mu chilankhulo chanu
+speak-empty-state-cta = ikani ziganizo zanu
 record-button-label = tepani mawu anu
-share-title-new = <bold>Tithandizeni</bold> kupeza mawu ambili
-keep-track-profile = Tsatilani tsatanetsatane wamomwe mukuchitira ndi pulofailo
+share-title-new = <bold>tithandizeni<bold>kupeza mawu wochuluka
 login-to-get-started = lowani kapena lembetsani kuti muyambe
 target-segment-first-card = Mukuonjezela ku nthambi yathu yoyamba
-target-segment-generic-card = mukuthandizila gawo la khumbo
-target-segment-first-banner = Thandizilani kupanga gawo loyamba la Common Voice mu{ $locale }
-target-segment-add-voice = Onjezela liwu lako
-target-segment-learn-more = Phunzirani zambiri
-change-preferences = Sinthani Khumbo
+target-segment-generic-card = mukuonjezela ku nthambi yathu yofunidwa
+target-segment-first-banner = Thandizani kupanga Common Voice nthambi yofunika { $locale }
+target-segment-add-voice = Onjezelani mawu anu
+target-segment-learn-more = Phunzira Zambiri
 login-signup = lowani/lembetsani
 vote-yes = eya
 vote-no = Ayi
 datasets = Nyumba yosungila mawu
-submit-form-action = kutumiza/kupeleka
+languages = Ziyankhulo
+about = zokhuza
+partner = mzako
+submit-form-action = Tumizani
 
 ## Reporting
 
+report = lipoti
+report-title = Pelekani lipoti
+report-offensive-language = chiyankhulo chosakhala bwino
+report-offensive-language-detail = chiganizo cho chili ndi mawu amwano kapena osakhala bwino
 report-different-language = Chilankhulo chosiyana
 report-difficult-pronounce = Zovuta kutchula
 continue = Pitiliza

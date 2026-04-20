@@ -25,6 +25,7 @@ sc-criteria-item-6 = Ngat ziganizo zofunika kuwunika zatha, chonde tithandizeni 
 sc-review-instruction = onani ngati chiganizochi chili cholondola<icon></icon>
 sc-review-rules-title = kodi chiganizochi chikugwilizana ndi ndondomeko yake?
 report-sc-different-language = Chilankhulo chosiyana
+review-error-rate-limit-exceeded = mukuchita mofulumila kwambiri. chonde tengani kamphindi kuti muwunikileso chiganizocho kut muwonesese kuti ndi cholondola
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Tikupanga kusintha kwakukulu
 # menu item

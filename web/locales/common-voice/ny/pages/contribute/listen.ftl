@@ -5,3 +5,6 @@ listen-again-instruction = Ntchito yabwino <playIcon><playIcon> umvetseleso ukak
 listen-3rd-time-instruction = Pansi, upitilize ntchito yabwino! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> yomaliza!
 listen-empty-state = nkutheka ma kanema atha. yetsaninso tsamba or muyesenso nthawi ina
+listen-empty-state-variants = chiyankhulo chanu chikuonesa kuti kanema wake watha. ngati ndinu omasuka, mukhoza kusintha dongosolo kut muone mawu ena a mchiyankhulo chanu
+listen-loading-error = sitinapeze mawu ena a kanema wanu kuti mumvetsele. chonde yesaninso nthawi ina
+listen-abort-title = mwamaliza kanema ofunikira?
