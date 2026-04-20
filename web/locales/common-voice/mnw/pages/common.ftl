@@ -482,6 +482,11 @@ announcement-mdc-button-text = ပါလုပ်ပ္ဍဲဂကောံ Moz
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = ပံက်ပ္ဍဲမုက်လိက်တၟိ
 
+## Release Delay Announcement
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-delay = ယွံ ကောန်ဂကောံတအ်၊ လၟုဟ်ပိုဲတအ် ကၠောန်ဒၟံၚ် သွက်ပရေၚ်ဂွံပတိတ်ဂမၠိုၚ်ရောၚ်။ <mdcLink>Mozilla Data Collective</mdcLink> ဂှ် ပိုဲတအ် ရန်တၟအ်လဝ် သွက်ဂွံ ပတိတ်ကဵု အကြာဏံမွဲၜါတ္ၚဲရောၚ်။
+
 ## Common Language/Dataset Selector & SearchBox Related
 
 # Generic search box defaults
