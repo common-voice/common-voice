@@ -19,8 +19,10 @@ partial-questions-upload-message =
 # Guidelines
 add-question-guidelines-title = Bɔhisi dini nima ka n ni tooi pahi?
 do-section-title = Niŋma
+do-section-guideline-1 = Zaŋ mi sabbu din tuhi ka lunzahim sabbu zalisi n tum' tuma
 do-not-section-title = di niŋ
 do-not-section-guideline-3 = Bɔhimi bɔhisi di mali kpahimbu
 # Code switching Guidelines
 cs-do-section-guideline-1 = Zaŋ mi bɔhisi din yi zuliya dibaayi ni na bee lahabali shɛli puuni bachi ni yina
+cs-do-not-section-guideline-2 = Bɔhimi zuliya yɛltɔɣa taɣibu bee di lɛbigibu yala
 cs-do-not-section-guideline-3 = Zaŋ mi zuliya yɛltɔɣa zaɣa maŋ li
