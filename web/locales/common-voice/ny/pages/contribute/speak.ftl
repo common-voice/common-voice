@@ -1,3 +1,4 @@
+speak = Yankhula
 speak-now = Lankhula pakadali pano
 speak-subtitle = Gawani mawu anu
 record-cta = Yambani kutepa
@@ -36,20 +37,20 @@ record-abort-title = Mumalize kaye kutepa?
 record-abort-text = Kuchoka tsopano kutanthauza kuti mukutaya kupita patsogolo kwanu
 record-abort-submit = perekani makanema
 record-abort-continue = tsilizani kutepa
-record-abort-delete = Tulukani ndi Kuchotsa makanema
+record-abort-delete = Tulukani komanso muchotse makanema
 review-aborted = Kutumiza kwayimitsidwa. Kodi mukufuna kuchotsa zojambulidwa zanu?
 review-submit-title = Unikani ndi Kutumiza
 review-submit-msg =
     Zikomo pojambula!<lineBreak>
     </lineBreak>Tsopano onaninso ndikutumiza makanema anu pansipa.
-review-recording = Unikilani
+review-recording = wunikilani
 review-rerecord = jambulani kenaso
 review-cancel = Letsani Kutumiza
 review-keep-recordings = Sungani zojambulidwa
 review-delete-recordings = Chotsani zojambulidwa zanga.
 review-terms = Pogwiritsa ntchito Common Voice, mukuvomereza <termsLink>Zogwirizana</termsLink> ndi <privacyLink>Zidziwitso Zachinsinsi</privacyLink> zathu.
 terms-agree = Ndavomera
-terms-disagree = Sindikuvomera
+terms-disagree = sindinagwirizane nazo
 # FIRST POST SUBMISSION CTA
 first-cta-header-text = Zikomo popereka mawu anu ojambulidwa!
 first-cta-subtitle-text = Potiuza za inu nokha, muthandiza opanga mapulogalamu  kupanga ukadaulo wophatikiza anthu onse
@@ -61,7 +62,7 @@ continue-speaking-button = Ayi zikomo, pitirizani kulankhula
 create-profile-text = Kodi mukufuna kusunga zambiri zanu?<createProfile> Pangani mbiri ya akaunti</createProfile>
 thanks-for-voice-toast = Zikomo chifukwa cha mawu anu
 thanks-for-voice-toast-error = Chinachake chinalakwika potumiza uthenga wa mawu anu
-first-cta-gender-select-default-option = Sankhani njira
+first-cta-gender-select-default-option = Sankhani chomwe mwafuna
 first-cta-gender-select-help-text =
     .label = Kodi mungafotokoze bwanji za ubadwidwe wanu?
 # SECOND POST SUBMISSION CTA
@@ -74,15 +75,16 @@ img-alt-success-checkmark = chizindikiro chotsimikizira kupambana
 # menu item
 read-sentences = Werengani ziganizo.
 # text wrapped in <small></small> will be shown in a smaller font size
-read-sentences-coming-soon = werengani Ziganizo <small>(Zibwera posachedwa )</small>
+read-sentences-coming-soon = Werengani Ziganizo <small>(Zikubwera posachedwa)</small>
 
 ## MENU ITEM TOOLTIPS
 
 speak-contribute-menu-tooltip = Werengani Ziganizo, Yankhani Mafunso
-read-sentences-menu-item-tooltip = Zijambuleni nokha mukuwerenga ziganizo m’chinenero chanu.
-answer-questions-menu-item-tooltip = dzijambuleni nokha mukuyankha mafunso muchiyankulo chanu
+read-sentences-menu-item-tooltip = Zijambuleni nokha mukuwerenga ziganizo m’chilankhulo chanu.
+answer-questions-menu-item-tooltip = Dzijambuleni nokha mukuyankha mafunso m'chinenero chanu
 
 ## MENU ITEM ARIA LABELS
 
-read-sentences-menu-item-aria-label = Werengani ziganizo zomwe anthu ammudzi apereka m'zilankhulo zosiyanasiyana
-answer-questions-menu-item-aria-label = funsani funso lina loti anthu a m'mudzi awerenge komanso ayankhe
+speak-contribute-menu-aria-label = Menyu ya zosankha zolankhulirana
+read-sentences-menu-item-aria-label = Werengani ziganizo zomwe anthu am'mudzi apereka m'zilankhulo zosiyanasiyana
+answer-questions-menu-item-aria-label = Tumizani funso latsopano kwa anthu ammudzi kuti awerenge ndi kuyankha
