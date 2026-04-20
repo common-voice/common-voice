@@ -127,6 +127,7 @@ contribution-background-noise-description = Безнең теләгебез — 
 contribution-background-noise-description-extended = Язма кинәт өзелү яки аның эчендә шытыр-пытыр тавышлар булу сәбәпле текст тулысынча ишетелмәсә, язманы кире кагыгыз.
 contribution-background-noise-example-1-fixed-title = <strong>[Төчкерү]</strong> Бу балыклар базарда <strong>[ютәл]</strong> сатыла.
 contribution-background-noise-example-2-fixed-title = Бу балыклар база <strong>[ютәл]</strong> сатыла.
+contribution-background-noise-example-2-explanation = [Текстның бер өлеше ишетелми]
 contribution-background-voices-title = Арткы планда тавышлар
 contribution-volume-title = Тавыш көче
 contribution-reader-effects-title = Укучы эффектлары
