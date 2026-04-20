@@ -14,5 +14,6 @@ about-new-lang-subtitle = Tikuyambitsa tsamba la Common Voice mu chilankhulo ich
 about-voice-contrib-title = Kupereka Mawu
 about-voice-contrib-subtitle = anthu amabwera ndikudzapereka mawu awo
 about-voice-validation-title = kutsimikizira mawu
+about-voice-validation-subtitle = anthu ena amatsimikizila mawu amenewo
 about-listen = Mvetsera
 about-yes-votes = Eya mavoti  awiri
