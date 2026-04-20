@@ -97,6 +97,7 @@ special-tags-example-2 =
     Ни инде, [шау-шу] [көлү] бу бөтенләй үк ял да түгел иде [көлү]
 transcribe-the-audio-subheader-4-explanation-1-example = Аның исеме <underline>Ис- Искән-</underline> Искәндәр.
 transcribe-the-audio-subheader-4-explanation-2 = Кайвакыт сөйләүчеләр сүзне яки сүз кисәген берничә тапкыр кабатлый. Моны да язып алырга кирәк. Мисал:
+transcribe-the-audio-subheader-4-explanation-2-example = Аннары мин <underline>йокы йокы йокы бүл- йокы</underline> бүлмәсенә бардым.
 
 ## Review the Transcription
 
