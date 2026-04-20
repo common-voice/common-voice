@@ -6,7 +6,8 @@ record-platform-webview = Ndikutheka mudafika kuno potobwanya linki pa tsamba la
 record-platform-not-supported-webview = Pa lamya yanu ya mmanja , mutha kuonjela gawo pogwilitsa ntchito tsamba la intaneti
 record-platform-not-supported-desktop = Pa makina anu, mutha kuthandiza potsitsa.
 record-platform-not-supported-ios-non-safari = pa makina anu a IOS chonde pitilizani ndi Safari kuti muthe kutepa
-record-no-mic-found = Palibe maikolofoni yomwe yapezeka.
+record-must-allow-microphone = mukuyenera kulola kugwiritsa ntchito makina otepera mawu.
+record-no-mic-found = makina otepera mawu sanapezeke.
 record-error-too-short = Kutepa kunali kwa nthawi yochepa kwambiri.
 record-error-too-long = kutepa kudali kwa nthawi yayitali.
 record-error-too-quiet = kutepa kudali kwa chete kwambiri.
@@ -31,18 +32,18 @@ share-common-voice = Perekani mawu ofanana
 review-instruction = Unikaninso ndi kujambulanso makanema ngati pakufunika kutero
 record-submit-tooltip = { $actionType } tumizani mukakonzeka
 clips-uploaded = Zojambulidwa zatumizidwa
-record-abort-title = Malizitsani kujambula kaye?
+record-abort-title = Mumalize kaye kutepa?
 record-abort-text = Kuchoka tsopano kutanthauza kuti mukutaya kupita patsogolo kwanu
-record-abort-submit = Tumizani makanema
-record-abort-continue = Malizani kutepa
+record-abort-submit = perekani makanema
+record-abort-continue = tsilizani kutepa
 record-abort-delete = Tulukani ndi Kuchotsa makanema
 review-aborted = Kutumiza kwayimitsidwa. Kodi mukufuna kuchotsa zojambulidwa zanu?
 review-submit-title = Unikani ndi Kutumiza
 review-submit-msg =
     Zikomo pojambula!<lineBreak>
     </lineBreak>Tsopano onaninso ndikutumiza makanema anu pansipa.
-review-recording = Unikila
-review-rerecord = Jambulaninso
+review-recording = Unikilani
+review-rerecord = jambulani kenaso
 review-cancel = Letsani Kutumiza
 review-keep-recordings = Sungani zojambulidwa
 review-delete-recordings = Chotsani zojambulidwa zanga.
@@ -59,11 +60,17 @@ add-information-button = Onjezerani uthenga wina
 continue-speaking-button = Ayi zikomo, pitirizani kulankhula
 create-profile-text = Kodi mukufuna kusunga zambiri zanu?<createProfile> Pangani mbiri ya akaunti</createProfile>
 thanks-for-voice-toast = Zikomo chifukwa cha mawu anu
-thanks-for-voice-toast-error = Panalakwika potumiza uthenga wa mawu anu
+thanks-for-voice-toast-error = Chinachake chinalakwika potumiza uthenga wa mawu anu
 first-cta-gender-select-default-option = Sankhani njira
+first-cta-gender-select-help-text =
+    .label = Kodi mungafotokoze bwanji za ubadwidwe wanu?
 # SECOND POST SUBMISSION CTA
-second-cta-header-text = Zikomo chifukwa chopereka mawu anu!
+second-cta-header-text = Zikomo popereka mawu anu ojambulidwa!
+second-cta-subtitle-text = Ndi mbiri yanu, mutha kutsatira zomwe mukuchita ndikulumikizana ndi gulu la anthu ena omwe amapereka mawu.
 already-have-an-account = Muli kale ndi akaunti? <login>Lowani</login>
+create-profile-button = Pangani mbiri yanu
+# IMAGE TAGS
+img-alt-success-checkmark = chizindikiro chotsimikizira kupambana
 # menu item
 read-sentences = Werengani ziganizo.
 # text wrapped in <small></small> will be shown in a smaller font size

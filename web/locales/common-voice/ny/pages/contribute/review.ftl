@@ -23,6 +23,14 @@ sc-review-form-button-skip-shortcut = S
 sc-review-form-keyboard-usage-custom = Mungagwiritsenso ntchito njira zazifupi za kiyibodi: { sc-review-form-button-approve-shortcut } kuti muvomereze, { sc-review-form-button-reject-shortcut } kuti mukane, { sc-review-form-button-skip-shortcut } kuti musinthe
 sc-review-form-button-submit =
     .submitText = malizitsan kuwunikila
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] { "" }
+        [one] ziganizo za { $sentences } zawunikilidwa
+       *[other] { "" }
+    }
 sc-review-form-review-failure = zowunikila zanu sizinasungidwe. Chonde yesaniso nthawi ina
 sc-review-link = Unikila
 
@@ -43,9 +51,12 @@ sc-review-rules-title = kodi chiganizochi chikugwilizana ndi ndondomeko yake?
 sc-review-empty-state = Pakadali pano palibe ziganizo zoti ziwunikidwenso m'chinenerochi.
 report-sc-different-language = Chilankhulo chosiyana
 report-sc-different-language-detail = Yalembedwa m'chinenero chosiyana ndi chimene ndimalankhula.
+sentences-fetch-error = panali zolakwika potenga ziganizo
+review-error = pachitika cholakwika powunikila ziganizo
 review-error-rate-limit-exceeded = mukuchita mofulumila kwambiri. chonde tengani kamphindi kuti muwunikileso chiganizocho kut muwonesese kuti ndi cholondola
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Tikupanga kusintha kwakukulu
 sc-redirect-page-subtitle-1 = Wosonkhanitsa Ziganizo akusamukira ku nsanja yayikulu ya Common Voice. Tsopano mutha <writeURL>kulemba</writeURL> chiganizo kapena <reviewURL>kuwunikira</reviewURL> kutumiza chiganizo chimodzi pa Common Voice.
+sc-redirect-page-subtitle-2 = Tifunseni mafunso pa <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> kapena <emailLink>imelo</emailLink>.
 # menu item
 review-sentences = unikilalani (onesesani) chiganizo

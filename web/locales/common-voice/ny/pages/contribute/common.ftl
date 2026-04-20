@@ -33,22 +33,22 @@ change-preferences = sinthani mwakukonda kwanu
 login-signup = lowani kapeni lembetsani
 vote-yes = ndavomela
 vote-no = ndakana
-datasets = Uthenga olumikizana
-languages = Ziyankhulo
-about = zokhudza
-partner = Bwenzi
-submit-form-action = Kupeleka
+datasets = uthenga wolumikizana
+languages = ziyankhulo
+about = zokhuzana
+partner = Mzanga
+submit-form-action = pelekani
 
 ## Reporting
 
-report = peleka uthenga
-report-title = peleka uthenga
-report-ask = Kodi ndimavuto anji omwe mukukumana nao ndi ziganizozi?
-report-offensive-language = Chiyankhulo Chotukwana
-report-offensive-language-detail = Chiganizo chili mu chiyanlo chotukwana
-report-grammar-or-spelling = Cholakwika MuChiyankhulo/Cholakwika Mukalembedwe
-report-grammar-or-spelling-detail = Chiganizo chili ndi zolakwika munkayankhulidwe kapena munkalembedwe
-report-different-language = Chilankhulo chosiyana
+report = kuwulura
+report-title = kupeleka uthenga
+report-ask = Kodi ndimavuto anji omwe mukukumana nawo ndi chiganizo ichi?
+report-offensive-language = mawu osayenera
+report-offensive-language-detail = Chiganizo chili ndi mawu osayenera
+report-grammar-or-spelling = Chiyankhulo cholakwika/ cholakwika mukalembedwe
+report-grammar-or-spelling-detail = chiganizo chili ndi chiyankhulo cholakwika kapena chokwika mukalembedwe
+report-different-language = chiyankhulo chosiyana
 report-different-language-detail = Zinalembedwa muchiyankhulo chosiyana ndi zomwe ndikuyankhula
 report-difficult-pronounce = Zovuta kutchula
 report-difficult-pronounce-detail = Zili ndi mawu kapena ziganizo zovuta kuwelenga kapena kulemba
