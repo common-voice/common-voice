@@ -445,3 +445,24 @@ privacy = ပရေင်တင်ဂၞင်ပူဂိုလ်
 terms = ပရေၚ်စကာသုၚ်စောဲ
 cookies = ခေါ်ကဳ
 faq = သၟာန်သွဟ်
+documentation = လိက်ကၞပ်စၞောန်
+content-license-text = သၟဝ် <licenseLink>လာၚ်ဇြေန် Creative Commons</licenseLink> ဂှ်ကလိဂွံ ပရူပရာမာန်ရ။
+share-title = ပါလုပ် ပ္ဍဲဂကောံပိုဲညိ။
+share-text = ဗီုမၞိဟ်ဇေတ်တ်တအ်ဟီုဂှ် ဘိုၚ်ရီုဗၚ်ဗ္တောန်ကဵုစက်ညိ၊ ကဵုဒါန်ရမျာၚ်မၞး ပ္ဍဲ { $link } ညိ။
+link-copied = ကၠာဲကေတ် လေၚ် တုဲရ။
+back-top = ကလေၚ်တိုန်လ္တူတေံ
+logout = တိတ်
+donate = ကဵုဒါန်
+return-to-cv = ကလေၚ်စဴဒၞာဲ Common Voice
+email-input =
+    .label = အဳမေဲလ်
+loading = ဂၠာဲဒၟံၚ်ဖိုဟ်…
+
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = <mark>ပိုဲနွံပၟိက်</mark><br/><mark>အရီုဗၚ်မၞးရ။</mark>
+
+## Common Language/Dataset Selector & SearchBox Related
+
+request-new-language = အာတ်မိက်ဘာသာတၟိ
