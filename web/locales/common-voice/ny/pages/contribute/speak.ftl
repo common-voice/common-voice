@@ -58,7 +58,7 @@ add-information-button = Onjezerani zambiri
 continue-speaking-button = Ayi zikomo, pitirizani kulankhula
 create-profile-text = kufuna kusunga zambiri yanu? <createProfile>Pangani mbiri</createProfile>
 thanks-for-voice-toast = Zikomo chifukwa cha mawu anu
-thanks-for-voice-toast-error = Panalakwika potumiza zambiri za mawu anu.
+thanks-for-voice-toast-error = Panalakwika potumiza uthenga wa mawu anu
 first-cta-gender-select-default-option = Sankhani njira
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Zikomo popereka mawu anu!
