@@ -91,6 +91,10 @@ tags-table-header-2 = Мәгънә
 tags-laugh = Көлү
 tags-noise = Шау-шу
 tags-laugh-explanation = Көлү тавышы.
+# Note: do not translate any tag, like [noise] or [laugh]
+special-tags-example-2 =
+    Аннары мин [шау-шу] ялга киттем.
+    Ни инде, [шау-шу] [көлү] бу бөтенләй үк ял да түгел иде [көлү]
 
 ## Review the Transcription
 
