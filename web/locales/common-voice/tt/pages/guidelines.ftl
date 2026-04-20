@@ -67,6 +67,8 @@ adding-sentences-subheader-special-characters = Махсус символлар 
 adding-sentences-subheader-offensive-content = Рәнҗеткеч эчтәлек
 reviewing-sentences-explanation-1 = Әгәр җөмлә югарыдагы критерийларга туры килсә, "Әйе" төймәсенә басыгыз.
 reviewing-sentences-explanation-2 = Әгәр җөмлә югарыдагы критерийларга туры килмәсә, "Юк" төймәсенә басыгыз.
+reviewing-sentences-explanation-3 = Әгәр дә сез җөмләгә карата шикләнсәгез, аны шулай ук калдырып торып, киләсесенә күчә аласыз.
+reviewing-sentences-explanation-4 = Әгәр тикшерү өчен җөмләләр бетсә, зинһар, безгә күбрәк җөмләләр җыярга ярдәм итегез!
 
 ## Question collection ids
 
