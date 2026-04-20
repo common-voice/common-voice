@@ -1,20 +1,20 @@
-action-click = tobwanya
-action-tap = dinani
-contribute = kuthandiza
-review = kuunika
-skip = dutsa
-shortcuts = njira ya madulira
+action-click = Dina
+action-tap = tobwanya
+contribute = tengapo mbali
+review = kuwonaso
+skip = kudumpha
+shortcuts = kudulira
 clips-with-count-pluralized =
     { $count ->
-        [one] imodzi
-       *[other] zambiri
+        [one] chimodzi
+       *[other] zina
     }
 goal-help-recording = mwathandiza mawu ofanana kufikila<goalPercentage></goalPercentage>yapatsiku{ $goalValue }ku mulingo wake otapa mawu!
 goal-help-validation = mwathandiza mawu ofanana kufikira<goalPercentage></goalPercentage>ya tsiku{ $goalValue }mulingo wotsimikiza wawo
 contribute-more =
     { $count ->
-        [one] okonzeka kupanga
-       *[other] zambiri?
+        [one] kamodzi
+       *[other] zina
     }
 speak-empty-state = tatheledwa ziganizo zoti tiike mawu muchilankhulo ichi
 no-sentences-for-variants = mitundu yachilankhulo chanu  singathe kukupatsani ziganizo zonse, ngati mkotheka mutha kusintha ndi kuyetsa ziganizo zina mu chilankhulo chanu
@@ -50,10 +50,10 @@ report-grammar-or-spelling = Chiyankhulo cholakwika/ cholakwitsa mukalembedwe
 report-grammar-or-spelling-detail = chiganizo chili ndi chiyankhulo cholakwika kapena chokwitsa mukalembedwe
 report-different-language = kusiyana chiyankhulo
 report-different-language-detail = zalembedwa mu chiyankhulo china chosiyana ndi chomwe ndimayankhula
-report-difficult-pronounce = chovuta kuyankhula
-report-difficult-pronounce-detail = Zili ndi mawu kapena chiganizo chovuta kuwelenga kapena kutchula
-report-offensive-speech = Kuyankhula monyoza
-report-offensive-speech-detail = kapenayi ali ndi mawu wolawula
+report-difficult-pronounce = chovuta kut uyankhule
+report-difficult-pronounce-detail = Zili ndi mawu kapena chiganizo chomwe ndichovuta kuwelenga kapena kutchula
+report-offensive-speech = kuyankhula mosakhala bwino
+report-offensive-speech-detail = kanemayi ali ndi mawu opanda ulemu kapena wolawula
 report-other-comment =
     .placeholder = mawu owonjezela
 success = kukwanilitsa
@@ -142,3 +142,8 @@ contribution-background-voices-example-1-explanation = ubwera?<strong>[kuyitanid
 contribution-volume-title = voluyumu
 contribution-volume-description = pakhala kusiyanisa kwachilengedwe kwa mlingo pakati pa owerenge.kanani ngati mlingo uli wokwera kwambiri kuti chojambulira chikusweka kapena ( kawirikawiri) ngati mlingo uli wotsika kwambiri kuti simungathe kumva zomwe zikukambidwa popanda zomwe zalembedwa
 contribution-reader-effects-title = zotsatira za wowerenga
+contribution-reader-effects-description = zojambulidwa zambiri zimakhala za anthu akuyankhula ndi mawu awo achilengedwe. mukhoza kulandira zojambulidwa zosazoloweleka nthawi zina zomwe zimafiula, kunong'onezedwa kapena zomwe zimafotikozedwa momveka bwino ndi mawu abwino. chonde pewani zojambula zomwe zimayimbidwa ndi zomwe zimagwiritsa ntchito mawu opangidwa ndi ma kompyuta
+contribution-just-unsure-title = sindikudziwitsitsa
+contribution-just-unsure-description = ngati mwakumanizana ndi china chake chomwe malangizo awo sakunena, chonde votani molingana ndi zomwe mwaganiza . ngati simutha kusankha, gwilitsani ntchito batani lodimoha ndikupitiliza zina
+see-more = <chevron></chevron> wonani zambiri
+see-less = <chevron></chevron> wonani zochepa
