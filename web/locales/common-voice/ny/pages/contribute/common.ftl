@@ -33,9 +33,9 @@ change-preferences = sinthani mwakukonda kwanu
 login-signup = lowani kapeni lembetsani ngati ndikoyamba
 vote-yes = eya
 vote-no = ayi
-datasets = uthenga wolumikizana
+datasets = uthenga wolumikiza
 languages = ziyankhulo
-about = zokhuzana
+about = zokhuza
 partner = Mzanga
 submit-form-action = pelekani
 
@@ -121,4 +121,5 @@ contribution-misreadings-example-7-explanation = ayi 'a' mumalemba enieni
 contribution-misreadings-example-8-title = njuchi zinadutsa mwachangu
 contribution-misreadings-example-8-explanation = zinthu zosemphana
 contribution-varying-pronunciations-title = kusiyanitsa kanenedwe
+contribution-varying-pronunciations-description = samalani musanakane kanema kuti wowerenga watchula mawu molakwika, wayika chizindikilo polakwika, kapena wanyalanyaza mfuuliro. pali katchulidwe kosiyanasiyana pa dziko la pansi, ena woti sumunawamvepo mu dera lanu. chonde pereka malire woyamikira omwe angayankhule mosiyana ndi inu
 contribution-volume-title = mlingo
