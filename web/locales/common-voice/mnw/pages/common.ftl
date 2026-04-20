@@ -457,12 +457,41 @@ return-to-cv = ကလေၚ်စဴဒၞာဲ Common Voice
 email-input =
     .label = အဳမေဲလ်
 loading = ဂၠာဲဒၟံၚ်ဖိုဟ်…
+# Text shown on a button that can be clicked to copy text to the clipboard
+copy = ချာဲကေတ်
+# Text shown on a button that can be clicked to close a modal or panel
+close = ကၟာတ်
+# Text shown on a button that can be clicked to cancel an action
+cancel = ပလီုထောံ
+# Text shown on a button that can be clicked to delete an item
+delete = ဇိုတ်
 
 ## Donate banner
 
 # Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>ပိုဲနွံပၟိက်</mark><br/><mark>အရီုဗၚ်မၞးရ။</mark>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>သုၚ်စောဲ CV သွက်</mark><br/><mark>ပရေၚ်ဂၠိုက်ဂၠာဲသုတေသနမၞးဟာ</mark>
+localization-select =
+    .label = ရုဲ ဘာသာ / ဒၞာဲ
+
+## MDC Announcement
+
+# Button text for MDC announcement
+announcement-mdc-button-text = ပါလုပ်ပ္ဍဲဂကောံ Mozilla Data Collective ညိ။
+# Aria text for button which opens MDC on a new page
+announcement-mdc-button-aria-text = ပံက်ပ္ဍဲမုက်လိက်တၟိ
 
 ## Common Language/Dataset Selector & SearchBox Related
 
+# Generic search box defaults
+searchbox-default-label = သွက်ဂွံဂၠာဲဂှ် စတက်စုတ်မလိက်ညိ။
+searchbox-default-placeholder = ဂၠာဲ...
+searchbox-default-aria-label = ဂၠာဲ
+dropdown-no-results = အရာမကိတ်ညဳဂှ် ဟွံဂွံဆဵုရ။
+# Common Voice Dataset=Language search box
+dataset-searchbox-label = သၠာဲ ဘာသာထ္ၜး ကေုာံ တၚ်ဂၞၚ်ဒေတာ သီုၜါ
+dataset-searchbox-placeholder = ဂၠာဲဘာသာမွဲမွဲ
+dataset-searchbox-aria-label = ဂၠာဲဘာသာမွဲမွဲ
+dataset-search-no-results = ဘာသာမကိတ်ညဳဂှ် ဟွံဆဵုရ။
 request-new-language = အာတ်မိက်ဘာသာတၟိ
