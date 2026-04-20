@@ -287,6 +287,7 @@ pa-IN = ပုန်ဂျာဗဳ
 pap = ပါပဳယာမေန်တဝ်
 pap-AW = ပါပဳယာမေန်တဝ် (အာရူဗာ)
 pau = ပါလောဲအာန်
+pcd = ပဳခါတ်
 pcm = အၚ်္ဂလိက် ပဳဂျေန် နိုက်ဂျဳရဳယျာ
 pez = ပေနာန် ဗမံက်
 phl = ပါလူလာ
@@ -462,6 +463,10 @@ email-input =
 loading = ဂၠာဲဒၟံၚ်ဖိုဟ်…
 email-opt-in-info = အဲသၟိက်မိက်ဂွံဒုၚ်တဲ အဳမေဝ် မပ္တံကဵု လိက်ကဵုသတိ တိုၚ်ပ္ကဴ၊ တၚ်ပလေဝ်ပလေတ် ပရေၚ်တဴတက်ဖောအ်ဗြေဝ်အဲ ကေုာံ လိက်ပရိုၚ် မဆေၚ်ကဵု Common Voice တအ်ရ။
 email-opt-in-info-title = ပါလုပ်ပ္ဍဲ စရၚ်အဳမေဝ် Common Voice ညိ။
+email-opt-in-info-sub-with-challenge = ဒုၚ်တဲ အဳမေဝ် မပ္တံကဵု လိက်ကဵုသတိ ပရေၚ်ပြိုၚ်ပကာန် ကေုာံ တၚ်ရန်တၟအ်၊ တၚ်ပလေဝ်ပလေတ် ပရေၚ်တဴတက်၊ ကေုာံ လိက်ပရိုၚ် မဆေၚ်ကဵု Common Voice တအ်ရ။
+email-opt-in-privacy-v2 = နကဵု ပွမရုဲစှ်တဴ သွက်ဂွံဒုၚ်တဲ အဳမေဝ်ဂှ် မၞးတုပ်စိုတ် ဒဒှ်ရ Mozilla ရပ်စပ် တၚ်နၚ်ပရိုၚ်ဏအ် အတိုၚ် မပသောင်ကလးလဝ် ပ္ဍဲ <privacyLink>ပရေင်တင်ဂၞင်ပူဂိုလ်</privacyLink> Mozilla ဂှ်ရ။
+indicates-required = ကဏ္ဍဒၞာဲမစၟတ်သမ္တီလဝ် နကဵု လက်သန်သၞံၚ် (*) တအ်ဂှ် ဒးဗပေၚ်စုတ်ဟေၚ်ရောၚ်။
+not-available-abbreviation = ဟွံမွဲ
 # Text shown on a button that can be clicked to copy text to the clipboard
 copy = ချာဲကေတ်
 # Text shown on a button that can be clicked to close a modal or panel
