@@ -183,6 +183,19 @@ Docker can be a very memory-intensive process. If you notice intermittent failur
 
 ## Troubleshooting
 
+### Language greyed out or "can't contribute to this locale" warning
+
+If a locale appears greyed out or you see a warning that you cannot yet contribute to a given language, you need to enable it in the database. For example, to enable French (`fr`):
+
+```sh
+sudo docker exec db mysql -uvoicecommons -pvoicecommons voiceweb -e "UPDATE locales SET is_contributable=1 WHERE name='fr';"
+sudo docker exec -it redis redis-cli FLUSHALL
+```
+
+Then restart the containers.
+
+Replace `fr` with the appropriate language code for your locale.
+
 ### Couldn't connect to Docker daemon 
 
 If you get an error like the following when running native Docker (not Docker for Desktop),
