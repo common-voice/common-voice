@@ -1,14 +1,38 @@
-keep-track-profile = londolozani mmene mukuchitira pogwiritsa nthito  profile yanu
-login-to-get-started = lowani kapena lembetsani kuti muyambepo
-target-segment-first-card = mukuthandizila mu gawo lathu loyamba
-target-segment-generic-card = mukusonkhezela mu gawo lathu loyambilira
-target-segment-first-banner = Thandizani kupanga common voice's mbali yawo yoyamba mu { $locale }
-target-segment-add-voice = ikani mawu anu
+action-click = tobwanya
+action-tap = dinani
+contribute = kuthandiza
+review = kuunika
+skip = dutsa
+shortcuts = njira ya madulira
+clips-with-count-pluralized =
+    { $count ->
+        [one] imodzi
+       *[other] zambiri
+    }
+goal-help-recording = mwathandiza mawu ofanana kufikila<goalPercentage></goalPercentage>yapatsiku{ $goalValue }ku mulingo wake otapa mawu!
+goal-help-validation = mwathandiza mawu ofanana kufikira<goalPercentage></goalPercentage>ya tsiku{ $goalValue }mulingo wotsimikiza wawo
+contribute-more =
+    { $count ->
+        [one] okonzeka kupanga
+       *[other] zambiri?
+    }
+speak-empty-state = tatheledwa ziganizo zoti tiike mawu muchilankhulo ichi
+no-sentences-for-variants = mitundu yachilankhulo chanu  singathe kukupatsani ziganizo zonse, ngati mkotheka mutha kusintha ndi kuyetsa ziganizo zina mu chilankhulo chanu
+speak-empty-state-cta = thandizila mawu
+speak-loading-error = sitikutha kupeza ziganizo zoti mungalankhule. chonde yetsaniso nthawi ina
+record-button-label = tepani mawu anu
+share-title-new = <bold>tithandizeni </bold>>kupedza mawu ena ochuluka
+keep-track-profile = londolozani mmene mukuchitira pogwiritsa nthito  chithuzi thuzi chanu
+login-to-get-started = lowani kapena lembetsani kuti muyambepo kugwilitsa ntchito
+target-segment-first-card = mukuthandizila mu gawo lathu loyamba mene tikufunila
+target-segment-generic-card = mukusonkhezela mu gawo lathu loyambilira mene tikufunira
+target-segment-first-banner = Thandizani kupanga mawu ofanana mbali yoyamba mu { $locale }
+target-segment-add-voice = onjezelani mawu anu
 target-segment-learn-more = phunzirani zambiri
 change-preferences = sinthani mwakukonda kwanu
-login-signup = lowani kapeni lembetsani
-vote-yes = ndavomela
-vote-no = ndakana
+login-signup = lowani kapeni lembetsani ngati ndikoyamba
+vote-yes = eya
+vote-no = ayi
 datasets = uthenga wolumikizana
 languages = ziyankhulo
 about = zokhuzana
@@ -78,4 +102,23 @@ contribution-criteria-page-description = Mversetsani zomwe timaona tikamaonera m
 contribution-for-example = mwachitsanzo
 contribution-misreadings-title = kuwerenga molakwika
 contribution-misreadings-description = tikamamvetsera, timaona bwinobwino kuti zomwe zatapidwa ndi zomwe zalembedwaso; kukana ngati pali zolakwika. <br />zolakwika monga
+contribution-misreadings-description-extended-list-1 = wasowa<strong>'A'<strong>kapena<strong>koyambilira ko tapa
+contribution-misreadings-description-extended-list-2 = kusowekela<strong>'s'<strong>komalizila kwa mawu
+contribution-misreadings-description-extended-list-4 = kuphonyana ndi mawu akumapeto podula kutepa mwachangu kwambiri
+contribution-misreadings-description-extended-list-5 = kuyesera kangapo kuwerenga liwu
+contribution-misreadings-example-1-title = ma dinosaurs akuluakulu a triassic
+contribution-misreadings-example-2-title = dinosaur yayikulu ya Triassic
+contribution-misreadings-example-2-explanation = zikuyenela kukhala 'dinosaurs'
+contribution-misreadings-example-3-title = ma dinosaur akuluakulu a Triassi-.
+contribution-misreadings-example-3-explanation = kujambula kwadulidwa mawu womaliza asananenedwe
+contribution-misreadings-example-4-title = ma dinosaurs akuluakulu a Triassic. Eya.
+contribution-misreadings-example-4-explanation = zambiri zatapidwa kuposela mulingo wa malemba
+contribution-misreadings-example-5-title = tikupita kukatenga khofi
+contribution-misreadings-example-6-title = tikupita kukatenga khofi
+contribution-misreadings-example-6-explanation = zikuyenera kukhala " ndife"
+contribution-misreadings-example-7-title = tikupita kukagula khofi
+contribution-misreadings-example-7-explanation = ayi 'a' mumalemba enieni
+contribution-misreadings-example-8-title = njuchi zinadutsa mwachangu
+contribution-misreadings-example-8-explanation = zinthu zosemphana
+contribution-varying-pronunciations-title = kusiyanitsa kanenedwe
 contribution-volume-title = mlingo
