@@ -38,6 +38,7 @@ terms-agree = Се согласувам
 terms-disagree = Не се согласувам
 why-donate = Зошто прашувате?
 add-information-button = Додадете информации
+first-cta-gender-select-default-option = Изберете опција
 create-profile-button = Создај профил
 # IMAGE TAGS
 img-alt-success-checkmark = ознака за успех
