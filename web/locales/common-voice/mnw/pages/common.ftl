@@ -460,6 +460,8 @@ return-to-cv = ကလေၚ်စဴဒၞာဲ Common Voice
 email-input =
     .label = အဳမေဲလ်
 loading = ဂၠာဲဒၟံၚ်ဖိုဟ်…
+email-opt-in-info = အဲသၟိက်မိက်ဂွံဒုၚ်တဲ အဳမေဝ် မပ္တံကဵု လိက်ကဵုသတိ တိုၚ်ပ္ကဴ၊ တၚ်ပလေဝ်ပလေတ် ပရေၚ်တဴတက်ဖောအ်ဗြေဝ်အဲ ကေုာံ လိက်ပရိုၚ် မဆေၚ်ကဵု Common Voice တအ်ရ။
+email-opt-in-info-title = ပါလုပ်ပ္ဍဲ စရၚ်အဳမေဝ် Common Voice ညိ။
 # Text shown on a button that can be clicked to copy text to the clipboard
 copy = ချာဲကေတ်
 # Text shown on a button that can be clicked to close a modal or panel
