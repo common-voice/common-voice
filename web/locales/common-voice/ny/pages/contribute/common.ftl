@@ -36,12 +36,11 @@ vote-no = ayi
 datasets = uthenga wolumikiza
 languages = ziyankhulo
 about = zokhuza
-partner = Mzanga
-submit-form-action = pelekani
+partner = opangila naye limodzi zinthu
+submit-form-action = tumizan
 
 ## Reporting
 
-report = kuwulura
 report-title = kupeleka uthenga
 report-ask = Kodi ndimavuto anji omwe mukukumana nawo ndi chiganizo ichi?
 report-offensive-language = mawu osayenera
@@ -122,4 +121,5 @@ contribution-misreadings-example-8-title = njuchi zinadutsa mwachangu
 contribution-misreadings-example-8-explanation = zinthu zosemphana
 contribution-varying-pronunciations-title = kusiyanitsa kanenedwe
 contribution-varying-pronunciations-description = samalani musanakane kanema kuti wowerenga watchula mawu molakwika, wayika chizindikilo polakwika, kapena wanyalanyaza mfuuliro. pali katchulidwe kosiyanasiyana pa dziko la pansi, ena woti sumunawamvepo mu dera lanu. chonde pereka malire woyamikira omwe angayankhule mosiyana ndi inu
+contribution-varying-pronunciations-description-extended = mbali yina, ngati mukuganiza kuti wowerenga sanakumabizanepo ndi mawu kayamba kale, ndipo akungoganiza molakwika pa katchulidwe, chonde kanani. ngati simukudziwa, gwilitsani ntchito batani lodumpha
 contribution-volume-title = mlingo
