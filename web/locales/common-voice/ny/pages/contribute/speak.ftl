@@ -1,4 +1,3 @@
-speak = Lankhula
 speak-now = Lankhula pakadali pano
 speak-subtitle = Gawani mawu anu
 record-cta = Yambani kutepa
@@ -28,7 +27,7 @@ record-again-instruction2 = Pitirizani, tepani kachikena <recordIcon></recordIco
 record-last-instruction = <recordIcon></recordIcon> Yotsiriza!
 review-tooltip = Unikaninso ndi kujambulanso makanema apa pamene mukupitiriza
 share-clip = Gawani kanema wanu
-share-common-voice = Gawani Mawu Ofanana
+share-common-voice = Perekani mawu ofanana
 review-instruction = Unikaninso ndi kujambulanso makanema ngati pakufunika kutero
 record-submit-tooltip = { $actionType } tumizani mukakonzeka
 clips-uploaded = Zojambulidwa zatumizidwa
@@ -54,18 +53,29 @@ terms-disagree = Sindikuvomera
 first-cta-header-text = Zikomo popereka mawu anu ojambulidwa!
 first-cta-subtitle-text = Potiuza za inu nokha, muthandiza opanga mapulogalamu  kupanga ukadaulo wophatikiza anthu onse
 why-donate = Mukufunsa chifukwa chiyani?
-add-information-button = Onjezerani zambiri
+why-donate-explanation-1 = Kupereka uthenga uwu ndikochita kusankha - mungathe kusiya opanda kutumiza ngati simukumva bwino nazo. Potulusa uthengawu, timabisa mwachinsisi za uthenga wanu, ndikuonetsetsa kuti zambiri monga dzina lanu ndi imelo sizikugwirizana ndi zambiri monga zaka kapena mbadwidwe.
+why-donate-explanation-2 = Kuti ukadaulo ugwire ntchito bwino kwa aliyense, deta yomwe imathandiza opanga mapulogalamu kupanga ukadaulo iyenera kuwonetsa anthu osiyanasiyana. Mwachitsanzo, ngati sitiphatikiza okamba mawu aliwonse okhala ndi kamvekedwe kena, ndiye kuti ukadaulowo sugwira ntchito bwino kwa anthu omwe ali ndi kamvekedwe kameneka. <phunzirani Zambiri>Dziwani zambiri za chifukwa chake metadata ndi yofunika.</learnMore>
+add-information-button = Onjezerani uthenga wina
 continue-speaking-button = Ayi zikomo, pitirizani kulankhula
-create-profile-text = kufuna kusunga zambiri yanu? <createProfile>Pangani mbiri</createProfile>
+create-profile-text = Kodi mukufuna kusunga zambiri zanu?<createProfile> Pangani mbiri ya akaunti</createProfile>
 thanks-for-voice-toast = Zikomo chifukwa cha mawu anu
 thanks-for-voice-toast-error = Panalakwika potumiza uthenga wa mawu anu
 first-cta-gender-select-default-option = Sankhani njira
 # SECOND POST SUBMISSION CTA
-second-cta-header-text = Zikomo popereka mawu anu!
+second-cta-header-text = Zikomo chifukwa chopereka mawu anu!
 already-have-an-account = Muli kale ndi akaunti? <login>Lowani</login>
 # menu item
-read-sentences = Werengani Ziganizo
+read-sentences = Werengani ziganizo.
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = werengani Ziganizo <small>(Zibwera posachedwa )</small>
 
 ## MENU ITEM TOOLTIPS
 
 speak-contribute-menu-tooltip = Werengani Ziganizo, Yankhani Mafunso
+read-sentences-menu-item-tooltip = Zijambuleni nokha mukuwerenga ziganizo m’chinenero chanu.
+answer-questions-menu-item-tooltip = dzijambuleni nokha mukuyankha mafunso muchiyankulo chanu
+
+## MENU ITEM ARIA LABELS
+
+read-sentences-menu-item-aria-label = Werengani ziganizo zomwe anthu ammudzi apereka m'zilankhulo zosiyanasiyana
+answer-questions-menu-item-aria-label = funsani funso lina loti anthu a m'mudzi awerenge komanso ayankhe
