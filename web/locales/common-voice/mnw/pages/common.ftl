@@ -480,8 +480,11 @@ delete = ဇိုတ်
 
 # Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>ပိုဲနွံပၟိက်</mark><br/><mark>အရီုဗၚ်မၞးရ။</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = သွက်ဂွံထိၚ်ဒဝ်လဝ် တၚ်ဂၞၚ်ဒေတာတအ်ကီု ကေုာံ သွက်ဂွံပခိုဟ်ပတိုန် ပလက်ဖံၚ် သွက်ဂကောံအရေဝ်ဘာသာ ၁၀၀ ပြၚ် မဗ္ဒာဲဒၟံၚ် လ္တူအရာ ပိုဲမကၠောန်ဒၟံၚ်ဂှ် ပ္ဍဲမွဲသၞာံ သြန်အိုတ်ဒၟံၚ် ကြပ်ပေၚ် မွဲပြကောတိကိုဋ်ဒဝ်လာရ။ <strong>ယဝ်ရ မၞး စွံၚုဟ်မး လ္တူဒေတာ မပံက်လဝ်ဗၠးၜး ကေုာံ မပါလုပ်သီုဖအိုတ်မ္ဂး - ကဵုဒါန် တ္ၚဲဏအ် ညိ</strong>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <mark>သုၚ်စောဲ CV သွက်</mark><br/><mark>ပရေၚ်ဂၠိုက်ဂၠာဲသုတေသနမၞးဟာ</mark>
+languages-donate-banner-cta-explanation = Common Voice ဂှ် ကလိဂွံလဝ် သြန်ဂအုံ နူကဵု မဒါန် ကေုာံ သြန်ထံက်ပၚ်ရ။ ပိုဲဒးစိုတ် ပရေၚ်ပံၚ်ကောံကၠောန်မွဲစွံ ကဵု တၠပညာ၊ ဂကောံမၞိဟ်အလုံဍုၚ် ကေုာံ ညးမလ္ၚတ်သုတေသန ပရေၚ်ကမၠောန်တအ်ရ။ Common Voice ဂှ် သုၚ်စောဲဟွံဒးကဵုၚုဟ်မးရ၊ ဆဂး ပရေၚ်ပါလုပ်ထံက်ပၚ် သွက်ၚုဟ်မး ပလက်ဖံၚ် ကေုာံ ပရေၚ်ထိၚ်ဒဝ်တအ် နူကဵု တၚ်ပတိုန်ထ္ၜး သြန်ထံက်ပၚ်ဂှ် ဒှ်အရီုအဗၚ် ဗွဲမဇၞော်ရ။
 localization-select =
     .label = ရုဲ ဘာသာ / ဒၞာဲ
 
