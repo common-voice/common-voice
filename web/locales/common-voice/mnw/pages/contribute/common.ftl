@@ -9,6 +9,7 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }</bold>ကလေပ်
        *[other] <bold>{ $count }</bold>ကလေပ်
     }
+goal-help-recording = မၞး ရီုဗၚ်လဝ် ညံၚ် Common Voice ဂွံစိုပ်အာ <goalPercentage></goalPercentage> သွက် တၚ်ရန်တၟအ် ပၠောပ်ရမျာၚ် လၟေၚ်တ္ၚဲ { $goalValue } ပိုဲတအ်ရ။
 contribute-more =
     { $count ->
         [one] သွက်ဂွံထပ်ကၠောန် { $count } ပၠန်ဂှ် တုဲဒှ်ရဟာ
