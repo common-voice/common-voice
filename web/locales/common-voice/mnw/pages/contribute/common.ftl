@@ -18,3 +18,5 @@ speak-empty-state = ဝါကျသွက်ဂွံပၠောပ်စုတ
 speak-empty-state-cta = ပါလုပ်ကဵုအရီုဗၚ်ဝါကျဂမၠိုၚ်
 record-button-label = ပၠောပ်ရမျာၚ်
 share-title-new = <bold>ရီုဗၚ်ပိုဲ</bold> ဂၠာဲရမျာၚ်ဂမၠိုၚ်ညိ။
+keep-track-profile = စၟတ်သမ္တီလဝ် ပရေၚ်တဴတက်ဖောံဗြေဝ်မၞး နကဵု ပရဝ်ဝှာဲညိ
+login-to-get-started = သွက်ဂွံစကၠောန်ဂှ် လုပ်အကံက် ဟွံသေၚ်မ္ဂး ကၠောန်အကံက်ညိ
