@@ -35,3 +35,8 @@ request-language-error =
 request-for-scripted-speech-toggle = စာဖွဲ့ပြော စကားအတွက် တောင်းဆိုချက်
 request-for-spontaneous-speech-toggle = လက်တန်းပြော စကားအတွက် တောင်းဆိုချက်
 need-help-deciding-platform = ဇာချင့်ကို ရွီးချယ်ရဖို့လဲ ဆုံးဖြတ်ဖို့အတွက် အကူအညီ လိုပါလား?
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = <strong>စာဖွဲ့ပြော စကား</strong> (အစဉ်အလာအရ Common Voice လို့ မိတ်ဆွေရို့ သိကတ်တေ) စွာ မိတ်ဆွေ ဘာသာစကားနန့် စာကြောင်းတိကို ကျယ်ကျယ်လောင်လောင် ဖတ်နိုင်ယေ နိန်ရာ ဖြစ်ပါယေ။
+need-help-deciding-platform-explanation-2 = <strong>လက်တန်းပြော စကား</strong> စွာ Common Voice က အစိတ်အပိုင်းအသစ်တခု ဖြစ်ပနာ မေးခွန်းတိကို ပိုသဘာဝကျဗျာယ် ယဉ်ကျေးယေ နည်းလမ်းနန့် ဖြေဆိုနိုင်ပါယေ။
+need-help-deciding-platform-explanation-3 = ပလက်ဖောင်းက ဇာအပိုင်းမှာမဆို မိတ်ဆွေ ဘာသာစကားကို မတွိရကေ၊ နှစ်ခုလုံးကို ရွီးချယ်ပါ။
+request-language-search-bar = မိတ်ဆွေ ဘာသာစကား နာမေကို ဒေနိန်ရာမှာ ရိုက်ထည့်နိုင်ပါယေ။ Common Voice မှာ မဟိသိမ့်ကေ၊ မိတ်ဆွေ ဘာသာစကား ဒေတာနန့် ပုံစံဖင်းတခုကို ဖြည့်စွက်နိုင်ပါလိမ့်မေ။
