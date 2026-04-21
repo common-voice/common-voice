@@ -21,4 +21,5 @@ download-request-assembling-description = Ti nyɛla ban n laɣim a gbana maa zaa
 download-request-refresh-button = Labi m pili
 download-request-modal-title = Zaŋ n-kpɛhi linkinima
 download-request-modal-description = N nyɛ linki' shɛŋa a ni yɛn n-zaŋ n-kpɛhi a ZIP gbana.
+download-request-link-text = { $total } puuni vaabu bun #{ $offset }
 download-request-metadata-link = Lahibali satarili
