@@ -7,6 +7,7 @@ download-profile-info = Chɛ ka yimeili, yu' paa mini lahibali jia zaŋ kpa a po
 download-profile-size = Bytes bela
 download-recordings-title = Yaabunima
 download-recordings-info = mp3 nima mini satara yi yɛn m pahi, di nyɛla din yɛn n di saha pɔi ka naan yi n niŋ
+download-recordings-size = Ka di tooi nyɛla mɛgabiɛti nima
 download-recordings-unavailable = A ku tooi m bɔri a yaabuninima sheei di yi n niŋ ka a pun m bɔri shɛli shɛli ka di na bi n naai
 download-size = Wula n-nyɛ di yɛlim bee pɔrilim?
 download-selected = Piiya

@@ -20,7 +20,7 @@ partial-questions-upload-message =
 add-question-guidelines-title = Bɔhisi dini nima ka n ni tooi pahi?
 do-section-title = Niŋma
 do-section-guideline-1 = Zaŋ mi sabbu din tuhi ka lunzahim sabbu zalisi n tum' tuma
-do-section-guideline-2 = Piimi bɔhisi ŋan bɛ alaha ka sokam ni tooi baŋ di gbunni ka di pala di dolila o ka ni ta'ada bee o ni bɛ biɛhi shɛli ni
+do-section-guideline-2 = Piimi bɔhisi ŋan bɛ alaha ka sokam ni tooi baŋ di gbunni ka di pala di dolila o ka ni ta'ada bee lahibali shɛli puuni bachinima maa ni yina
 do-section-guideline-3 = Chɛ ka di ni tooi zaŋ yɛltɔɣa dibaa shɛm n-labisi li
 do-not-section-title = di niŋ
 do-not-section-guideline-1 = Bɔhimi baŋ lahabali shɛli din ni tooi chɛ ka a baŋ so (kamani yuya bee laɣidibo lahabali)
@@ -28,5 +28,7 @@ do-not-section-guideline-2 = Din yɛra bee din bɔhiri filiŋ bee yɛltɔɣa fin
 do-not-section-guideline-3 = Bɔhimi bɔhisi di mali kpahimbu
 # Code switching Guidelines
 cs-do-section-guideline-1 = Zaŋ mi bɔhisi din yi zuliya dibaayi ni na bee lahabali shɛli puuni bachi ni yina
+cs-do-section-guideline-2 = Lihimi ʒilɛli shɛhira nima, di saha maa bee ʒɛmana kurili kpɛriti
+cs-do-not-section-guideline-1 = Bɔhimi baŋ lahabali shɛli din ni tooi chɛ ka a baŋ so (kamani yuya bee laɣidibo lahabali) bee yɛltɔɣa fina bee
 cs-do-not-section-guideline-2 = Bɔhimi zuliya yɛltɔɣa taɣibu bee di lɛbigibu yala
 cs-do-not-section-guideline-3 = Zaŋ mi zuliya yɛltɔɣa zaɣa maŋ li
