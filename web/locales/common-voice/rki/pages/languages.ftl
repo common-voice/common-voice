@@ -27,3 +27,5 @@ get-involved-text =
 get-involved-form-title = { $lang } အပ်ဒိတ်တိ အတွက် စာရင်းသွင်းပီးပါ -
 get-involved-email =
     .label = အီးမေးလ်
+get-involved-opt-in = ဟုတ်ပါယေ၊ အီးမေးလ် ပို့ပီးပါ။ Common Voice မှာ ဒေဘာသာစကား တိုးတက်မှုအကြောင်း အသိပီးနိန်စွာကို ရယူချင်ပါယေ။
+get-involved-submit = တင်သွင်းပါ
