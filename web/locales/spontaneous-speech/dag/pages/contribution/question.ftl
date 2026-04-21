@@ -20,6 +20,7 @@ partial-questions-upload-message =
 add-question-guidelines-title = Bɔhisi dini nima ka n ni tooi pahi?
 do-section-title = Niŋma
 do-section-guideline-1 = Zaŋ mi sabbu din tuhi ka lunzahim sabbu zalisi n tum' tuma
+do-section-guideline-2 = Piimi bɔhisi ŋan bɛ alaha ka sokam ni tooi baŋ di gbunni ka di pala di dolila o ka ni ta'ada bee o ni bɛ biɛhi shɛli ni
 do-not-section-title = di niŋ
 do-not-section-guideline-3 = Bɔhimi bɔhisi di mali kpahimbu
 # Code switching Guidelines
