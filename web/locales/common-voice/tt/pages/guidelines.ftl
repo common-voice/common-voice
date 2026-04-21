@@ -110,8 +110,10 @@ code-switching = Телләрне катыштыру
 adding-a-question = Сорау өстәү
 # What to Avoid
 code-switching-avoid-subheader = Нәрсәдән сакланырга кирәк
+code-switching-avoid-intro = Түбәндәгеләргә китерүе мөмкин булган сораулар:
 code-switching-avoid-1 = Шәхесне ачыклаучы мәгълүмат сорау
 code-switching-dont-header = Болай эшләмәгез
+code-switching-review-criterion-1 = Аңлаешлы һәм җавап бирүдә авырлыклар тудырмый
 # Tagging
 code-switching-tagging-subheader = Билгеләү
 code-switching-tagging-error-2 = Язу хаталары
