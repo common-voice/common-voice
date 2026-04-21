@@ -206,5 +206,7 @@ code-switching-pronunciation-explanation-example-2 = Spanish: /ˈkable/
 code-switching-lookalikes-header = Niŋmi zaɣa ni bin yɛra shɛŋa din mŋani taba
 code-switching-not-tag-proper-names-example-1 = Niriba: Maria, John
 code-switching-not-tag-proper-names-example-2 = Tiŋsi: Los Angeles, Florida
+code-switching-not-tag-interjections-example-1 = "Eh”
 code-switching-not-tag-interjections-example-2 = "Aayi"
 code-switching-not-tag-interjections-example-3 = "Iin"
+code-switching-not-tag-interjections-example-4 = “Er”

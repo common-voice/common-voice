@@ -27,3 +27,4 @@ download-request-modal-title = Zaŋ n-kpɛhi linkinima
 download-request-modal-description = N nyɛ linki' shɛŋa a ni yɛn n-zaŋ n-kpɛhi a ZIP gbana.
 download-request-link-text = { $total } puuni vaabu bun #{ $offset }
 download-request-metadata-link = Lahibali satarili
+download-request-link-single = A mii ni tooi lahi yaai URLs maa ka zaŋ na n-ti pa a suhuyubu bin yaarigu. Di nyɛla binshɛli din yɛn kpi hawa bin 12 saha, amaa a ni tooi labi na yaɣili ŋɔ n-ti labi kuri zaɣa pala.
