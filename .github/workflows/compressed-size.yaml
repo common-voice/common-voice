@@ -14,7 +14,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
-      - uses: preactjs/compressed-size-action@v2
+      - uses: preactjs/compressed-size-action@v3
         with:
           build-script: 'build:compressed-size'
           pattern: 'web/dist/**/*.{js,css,html,json,svg,png}'
