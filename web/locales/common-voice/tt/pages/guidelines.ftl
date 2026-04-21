@@ -117,6 +117,8 @@ code-switching-review-criterion-1 = Аңлаешлы һәм җавап бирү�
 # Tagging
 code-switching-tagging-subheader = Билгеләү
 code-switching-tagging-error-2 = Язу хаталары
+code-switching-pronunciation-explanation-example-1 = Татарча: /ɕemoˈdɒn/
+code-switching-pronunciation-explanation-example-2 = Русча: /tɕɪmɐˈdan/
 code-switching-not-tag-proper-names-example-1 = Кешеләр: Мәрьям, Булат
 code-switching-not-tag-proper-names-example-2 = Урыннар: Яр Чаллы, Казан
 code-switching-not-tag-proper-names-example-3 = Брендлар/Оешмалар:  Бәхетле, Түбәтәй
