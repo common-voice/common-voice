@@ -27,3 +27,4 @@ download-request-modal-title = ဒေါင်းလုဒ် လိင့်ခ
 download-request-modal-description = ZIP ဖိုင်တိကို ဒေါင်းလုဒ် လုပ်ဖို့ လိင့်ခ်တိက ဒေမှာပါ။
 download-request-link-text = { $total } အထဲက Zip #{ $offset }
 download-request-metadata-link = စာကြောင်း စာသား
+download-request-link-single = မိတ်ဆွေ အကြိုက်ဆုံး download manager ထဲကို ဒါရိုက် URL တိကို ကူးယူလားပနာ paste လုပ်နိုင်ပါယေ။ အေဟင့်တိစွာ ၁၂ နာရီအတွင်း သက်တမ်း ကုန်လားဖို့ ဖြစ်ကေလည်း ဇာအချိန်မှာမဆို အသစ်တိ ထုတ်ယူဖို့ ဒေစာမျက်နှာကို ပြန်လာနိုင်ပါယေ။
