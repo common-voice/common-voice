@@ -43,3 +43,12 @@ submit-form-action = ပတိုန်
 
 report = ပ္တိုန်ထ္ၜး
 report-title = ပတိုန်တၚ်နၚ်ပ္တိုန်ထ္ၜး
+report-ask = စပ်ကဵုဝါကျဏံတုဲ မုပြသၞာ မၞးဆဵုဂဗဒၟံၚ်ရော?
+report-offensive-language = အရေဝ်ဝေါဟာ ဟွံဆာဲ
+report-offensive-language-detail = ဝါကျဏအ်ဂှ် အရေဝ်ဟွံမွဲကဵု ဓဝ်ရှ်ေသှ်ေ ဟွံသေၚ်မ္ဂး အရေဝ်ဝေါဟာဟွံဆာဲတအ် ပါလုပ်ဒၟံၚ်ရ။
+report-grammar-or-spelling = သဒ္ဒါဗၠေတ် / ပံၚ်မလိက်ဗၠေတ်
+report-grammar-or-spelling-detail = ဝါကျဏံ သဒ္ဒါဗၠေတ် ဟွံသေၚ်မ္ဂး ပံၚ်လိက်ဗၠေတ်တအ်ဂှ် ပါဒၟံၚ်ရ။
+report-different-language = ဘာသာတၞဟ်ခြာ
+report-different-language-detail = ချူလဝ်ကဵုဘာသာ တၞဟ်ခြာနူ အဲဟီုဏီရ။
+report-difficult-pronounce = ပတိတ်ရမျာၚ်ဝါတ်ဂါတ်တဴရ။
+report-difficult-pronounce-detail = အရေဝ်ဝေါဟာ ဟွံသေၚ်မ္ဂး
