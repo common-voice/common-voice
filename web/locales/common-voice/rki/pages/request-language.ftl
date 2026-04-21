@@ -29,3 +29,9 @@ request-language-success-list-3 =
     ရက်အနည်းချေအတွင်း အကျွန်ရို့ဘားက အကြောင်းမကြားကေ
     <emailLink>{ $email }</emailLink>ကို ဆက်သွယ်ပါ။
     အကျွန်ရို့ ပြန်ဆက်သွယ်ပီးပါမေ။
+request-language-error =
+    အကျွန်ရို့ ယင်းတောင်းဆိုစွာကို မရခပါ။ အကျွန်ရို့ဘားကို ဒါရိုက် အီးမေးလ် ပို့ပါ၊ 
+    <emailLink> { $email } </emailLink>၊ အကျွန်ုပ်ရို့ ပြန်ဆက်သွယ်ပါမေ။
+request-for-scripted-speech-toggle = စာဖွဲ့ပြော စကားအတွက် တောင်းဆိုချက်
+request-for-spontaneous-speech-toggle = လက်တန်းပြော စကားအတွက် တောင်းဆိုချက်
+need-help-deciding-platform = ဇာချင့်ကို ရွီးချယ်ရဖို့လဲ ဆုံးဖြတ်ဖို့အတွက် အကူအညီ လိုပါလား?
