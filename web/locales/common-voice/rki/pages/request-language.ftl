@@ -2,7 +2,7 @@
 
 request-language-heading = ဘာသာစကားအသစ်တခုအကြောင်း မိန်းမြန်းပါ
 request-language-explanation-1 =
-    မိတ်ဆွေ ဘာသာစကားကို ဖော်ပြထားစွာ ရှိမရှိ
+    မိတ်ဆွေ ဘာသာစကားကို ဖော်ပြထားစွာ ဟိ မဟိ
     <languagesPageLink>Common Voice ဘာသာစကားတိ စာမျက်နှာ</languagesPageLink>မှာ စစ်ဆေးကြည့်ပါ။ 
     မဟုတ်ကေ၊ ဒေပုံစံကို ဖြည့်ပနာ အကျွန်ရို့ <strong>ဇာပိုင် ဘာသာစကားကို ထည့်ရဖို့လဲလို့ 
     ရှင်းပြထားယေ အီးမေးလ်တစောင်ကို မိတ်ဆွေဘားကို ပို့ပီးပါမေ</strong>။
@@ -49,3 +49,12 @@ request-language-found-pontoon-not-launched =
 request-language-found-cv-contribution =
     ဟူးရာ! မိတ်ဆွေ ဘာသာစကားကို Common Voice <strong>စာဖွဲ့ပြော စကား</strong> မှာ ဒါရိုက် ထုတ်လွှင့်ထားဗြီးပါဗျာလ်။
     မိတ်ဆွေ <homePage Link> ဒေနိန်ရာ</homePage Link>မှာ ပါဝင် ပံ့ပိုးကူညီနိုင်ပါယေ။
+request-language-found-cv-sentences-lack =
+    မိတ်ဆွေ ဘာသာစကားစွာ Common Voice ဘာသာစကား စာရင်းမှာ ဟိနိန်ဗြီး ဖြစ်ပါယေ။
+    <strong>စာဖွဲ့ပြော စကား</strong>မှာ ဘာသာစကား စပနာ အသုံးပြုနိုင်ဖို့
+    <sentencesContributionLink>ဒေနိန်ရာ</sentencesContributionLink>မှာ စာကြောင်းတိကို ပံ့ပိုးကူညီပနာ လွယ်ကူချောမွေ့ဇီနိုင်ပါယေ။
+request-language-found-spontaneous-speech =
+    မိတ်ဆွေ ဘာသာစကားကို Common Voice <strong>လက်တန်းပြော စကား</strong>မှာ ဒါရိုက် ထုတ်လွှင့်ထားဗြီးပါဗျာလ်။
+    ပံ့ပိုးကူညီဖို့ <spontaneousSpeechLink>ဒေနိန်ရာ</spontaneousSpeechLink>ကို နှိပ်ပါ - ပံ့ပိုးကူညီဖို့ မစခင်၊ ပံ့ပိုးကူညီမှု/ဒေတာစု ဘာသာစကားကို ပြောင်းဖို့ မမိပါကဲ့။
+request-language-already-available-scs = စာဖွဲ့ပြော စကား ရဟိနိန်ဗြီးသားပါ
+request-language-already-available-sps = လက်တန်းပြော စကား ရဟိနိန်ဗြီးသားပါ
