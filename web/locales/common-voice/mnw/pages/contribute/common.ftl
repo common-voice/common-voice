@@ -24,3 +24,22 @@ record-button-label = ပၠောပ်ရမျာၚ်
 share-title-new = <bold>ရီုဗၚ်ပိုဲ</bold> ဂၠာဲရမျာၚ်ဂမၠိုၚ်ညိ။
 keep-track-profile = စၟတ်သမ္တီလဝ် ပရေၚ်တဴတက်ဖောံဗြေဝ်မၞး နကဵု ပရဝ်ဝှာဲညိ
 login-to-get-started = သွက်ဂွံစကၠောန်ဂှ် လုပ်အကံက် ဟွံသေၚ်မ္ဂး ကၠောန်အကံက်ညိ
+target-segment-first-card = မၞးပါလုပ်ဘိုၚ်ရီုဗၚ်ဒၟံၚ် ပ္ဍဲတၚ်ရန်တၟံကဏ္ဍပထမ ပိုဲတအ်ရ။
+target-segment-generic-card = မၞး ပါလုပ်ဘိုၚ်ရီုဗၚ်ဒၟံၚ် ပ္ဍဲကဏ္ဍမပတဝ်လဝ်က္ဍိုပ်မွဲရ။
+target-segment-first-banner = ရီုဗၚ်ကၠောန်ဗဒှ် တၚ်ပတဝ်က္ဍိုပ်ကဏ္ဍပထမ Common Voice ပ္ဍဲ { $locale } ညိ။
+target-segment-add-voice = စုတ်စုတ်ရမျာၚ်မၞး
+target-segment-learn-more = ဆက်လ္ၚတ်အာ
+change-preferences = သၠာဲအရာသၠိုက်မၠိုက်
+login-signup = လုပ်အကံက် / ကၠောန်အကံက်
+vote-yes = ယွံ
+vote-no = ဟအှ်ေ
+datasets = တၚ်ဂၞၚ်ဒေတာ
+languages = ဘာသာဂမၠိုၚ်
+about = ပရူပရာ
+partner = ညးပံၚ်တောဲ
+submit-form-action = ပတိုန်
+
+## Reporting
+
+report = ပ္တိုန်ထ္ၜး
+report-title = ပတိုန်တၚ်နၚ်ပ္တိုန်ထ္ၜး
