@@ -7,6 +7,7 @@ tag-page-shortcut-tag-language-3 = 3
 tag-page-shortcut-tag-language-4 = 4
 tag-page-shortcut-tag-language-5 = 5
 tag-page-shortcut-remove-tags = 9
+remove-tags = Билгеләрне бетерү
 tag-page-shortcut-toogle-mouse-keyboard = 0
 tag-page-shortcut-tag-undo = Ctrl / CMD + Z
 undo = Кире алу
