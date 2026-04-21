@@ -91,6 +91,10 @@ tags-table-header-2 = Мәгънә
 tags-laugh = Көлү
 tags-noise = Шау-шу
 tags-laugh-explanation = Көлү тавышы.
+tags-disfluency-explanation =
+    Сөйләүче фикерен туплаганчы, паузаны тутыру өчен кулланыла торган сүз яки аваз.
+    Татар телендә иң киң таралган икеләнү авазларына «әмм», «м-м-м», «ә-ә-ә» керә.
+tags-unclear-explanation = Аңлашылмый торган сүз яки сүзләр тезмәсе.
 # Note: do not translate any tag, like [noise] or [laugh]
 special-tags-example-2 =
     Аннары мин [шау-шу] ялга киттем.
