@@ -80,3 +80,6 @@ shortcut-play-toggle-label = ပံက် / ကၟာတ်
 contribution-criteria-nav = တၚ်စၟတ်သမ္တီ
 contribution-criteria-link = ကၠိုဟ်တီကေတ် တၚ်စၟတ်သမ္တီ ပရေၚ်ပါလုပ်
 contribution-criteria-page-title = တၚ်စၟတ်သမ္တီ ပရေၚ်ပါလုပ်
+contribution-criteria-page-description = ကၠိုဟ်တီကေတ် အရာဒးဂိုၚ်သမ္တီစွံသတိ ကာလကလၚ် ကလေပ်ရမျှာၚ်ဂမၠိုၚ်ကီု တုဲပၠန် အရာမသ္ပကဵု ညံၚ်ပရေၚ်ပၠောပ်ရမျှာၚ် မၞး ဂွံဍိုက်ပေၚ်ခိုဟ်တိုန်တအ်ဂှ်ညိ။
+contribution-for-example = ဥပမာ
+contribution-misreadings-title = အရာဗှ်ဗၠေတ်ဂမၠိုၚ်
