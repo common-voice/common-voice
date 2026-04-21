@@ -108,6 +108,9 @@ review-the-transcription-subheader = Гомуми күрсәтмәләр
 
 code-switching = Телләрне катыштыру
 adding-a-question = Сорау өстәү
+# What to Avoid
+code-switching-avoid-subheader = Нәрсәдән сакланырга кирәк
+code-switching-avoid-1 = Шәхесне ачыклаучы мәгълүмат сорау
 code-switching-dont-header = Болай эшләмәгез
 # Tagging
 code-switching-tagging-subheader = Билгеләү
