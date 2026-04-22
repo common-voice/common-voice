@@ -113,3 +113,15 @@ about-playbook-how-record-content-5 = <accuracyLink>Onani zambiri zokhudza njira
 about-playbook-how-grow-language = Kodi tingatani kuti tikulitse bwino chilankhulo pa Common Voice?
 about-playbook-how-grow-language-content-1 = Kupanga mwayi kwa anthu osiyanasiyana kuti athandize pa Common Voice kumatsimikizira kuti deta imatumikira anthu ambiri momwe angathere. Tapanga zinthu ndi ma tempuleti omwe mungagwiritse ntchito!
 about-playbook-how-grow-language-content-2 = Zochitika
+about-playbook-how-grow-language-content-3 = Mukhoza kuyendetsa zochitika kuti muthandize anthu kupereka nawo mbali. N'zosavuta kuposa momwe mukuganizira. Mutha kuchita izi pa intaneti ndi chida cholumikizirana pakanema, kapena pamasom'pamaso ngati n'kotetezeka. <eventTemplate>Onani ma tempuleti athu ndi zinthu zoyendetsera zochitika</eventTemplate>.
+about-playbook-how-grow-language-content-4 = Malo ochezera a pa Intaneti
+about-playbook-how-grow-language-content-5 = Mungagwiritse ntchito malo ochezera a pa Intaneti kuti mufalitse uthengawo. Gawani zolemba zomwe zimafotokoza chifukwa chake zili zofunika, ndipo lankhulani ndi anthu ena omwe akulankhula za nkhani monga ufulu wa chilankhulo, luso lolankhula, kapena tsankho muukadaulo. Onani malangizo ena pa <campaignLink>kuyendetsa kampeni yochezera, kuphatikizapo zomwe mungagwiritsenso ntchito</campaignLink>.
+about-playbook-how-grow-language-content-6 = Mgwirizano ndi kulumikizana
+about-playbook-how-grow-language-content-7 = Pezani ena omwe amasamala. Akhoza kukhala mayunivesite, masukulu ophunzitsa zilankhulo, magulu olimbikitsa kapena magulu a sayansi ya deta. Lumikizanani nawo ndikufotokozera momveka bwino momwe angathandizire komanso chifukwa chake. <outreachTemplates>Onani maimelo athu ofikira anthu</outreachTemplates>.
+about-playbook-how-grow-language-content-8-v2 = <strong>Khalani opanga!</strong> Gulu lanu la zilankhulo lidzakhala lapadera, ndipo izi ndi njira zochepa chabe zoyambira. Chonde ganizirani kuwonjezera njira zanu zamagulu ku chikalata cha <communitiesLink>COMMUNITIES.md pa GitHub</communitiesLink>.
+
+## How to validate
+
+about-playbook-how-validate = Kodi ndingadziwe bwanji ngati ndiyenera kuvomereza voice clip?
+about-playbook-how-validate-content-1 = Ngati mungathe <strong>kuwamva</strong> <strong>ndikuwamvetsa,</strong> nthawi zambiri ndi <strong>bwino kuwavomereza.</strong>
+about-playbook-how-validate-content-2 = <strong>Musakane makanema omwe wokamba nkhani ‘ali ndi mawu’ osiyana ndi anu </strong>- izi ndizofunikira kuti kuzindikira mawu kugwire ntchito bwino kwa aliyense.
