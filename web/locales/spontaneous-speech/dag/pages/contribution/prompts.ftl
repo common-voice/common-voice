@@ -12,6 +12,7 @@ submit-all-button = Zaŋ di zaa kpɛhi
 
 ## Explainer text (Respond to Prompt)
 
+learn-how-to-use-prompts = Bɔhimmi a ni yɛn zaŋ yaɣili ŋɔ n-ku bukaata shɛm
 learn-how-to-use-prompts-guidance = Dihi mi <guidanceLink>kpe</guidanceLink> ka bɔhim a ni tooi zaŋ yaɣili ŋɔ n-ku bukaata shɛm
 learn-how-to-use-transcribe = Bɔhim mi a ni yɛn tooi sabi shɛm
 learn-how-to-use-transcribe-guidance = Dihi mi <guidanceLink>kpe</guidanceLink> ka bɔhim a ni tooi zaŋ yaɣili ŋɔ n-ku bukaata shɛm
