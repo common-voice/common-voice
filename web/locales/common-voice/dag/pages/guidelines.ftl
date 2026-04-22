@@ -27,6 +27,7 @@ varying-pronunciations-explanation-2 = Din lahi pahi,a yi tiɛhi ni ŋun karindi
 varying-pronunciations-example = Lala soli maa daa bi ne n do polo ni.
 varying-pronunciations-tip-1 = Kanada silimiinsili ni tooi mam "route"kumsi Kamani "rowt"]
 varying-pronunciations-tip-2 = Britin nim Silimiinsili ni tooi mam"wulli"]
+offensive-content-explanation = Yaltɔɣa mali dihitabili diyitikana tinkpansi -lɛbgimsi soya,amaa sodolisi ŋɔ bɛ zani n tuhi viɛnyɛla.Ayi nyɛ bee n wum yɛltɔɣa din kperi a nisalini beei din yiɣisiri a suhu.kamani mŋahinli ti <participationGuidelines> tinkpansi pahibu so gugulisi</participationGuidelines>
 misreadings-explanation-1 = paaji maani yɛltɔɣa maa zaa karimbu nyɛla din kpa.A yi wumda, lihimi viɛnyɛla  ka bɛ ni yɛli shɛli mini bɛ ni sabi shɛli zaa kuli nyɛ yim; zaɣisimli bɛ yi pahi shɛli, n nam shɛli bee n yihi shɛli.
 misreadings-explanation-2 = Chiriŋ shɛŋa din tooi bɛni n-nyɛ;
 misreadings-explanation-3 = A yi bi tooi boli 'A'bee 'The' vulibu maa piligu.
