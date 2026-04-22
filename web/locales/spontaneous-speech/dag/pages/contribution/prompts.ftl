@@ -12,8 +12,11 @@ error-recording-too-short = Kukoli sheli a ni yaa maa pɔra. Di tu niri yaɣi { 
 error-recording-too-long = A kukɔli maa yaabu saha maa lan waɣi yaɣi. Di waɣilim kpalinkpaa nyɛla minti bun { $maxDurationMinutes }.
 error-fetching-prompts = Binshɛli bi niŋ viɛnyɛla teesim nima maa bɔbu shee. Dim suɣulo labi niŋ di yi tooi bɛla.
 error-uploading-response = Yɛlmuɣisirili kamina a labisibu maa yaabu ni
+error-empty-audio = Kukɔli maa yaabu maa zaɣisi ya. Di ŋmani la a kukɔli faali maa nyɛla zaɣa kuŋ. Dim suɣulo labi n-niŋ.
+error-platform-webview = A birawiza din pɔra ŋɔ ni tooi bi saɣi n-ti kukɔli yaabu. Dim suɣulo zaŋ mi birawiza "app".
 cannot-play-audio = A kɔŋ la kukɔli ŋmɛbu. Dim suɣulo, labi n-niŋ.
 prompt-submitted-success = A labisibu kpɛya ni achiika
+prompt-response-deleted-success = A labisibu maa nyaa ni achiika
 # For the button to delete a response to a prompt
 delete = nyahima
 # For the disabled button on a prompt that indicates a prompt is already submitted
