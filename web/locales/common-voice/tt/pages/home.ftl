@@ -86,6 +86,7 @@ spontaneous-speech = КИНӘТ ТУГАН СӨЙЛӘМ
 ## MENU ITEM ARIA LABELS
 
 about-us-menu-aria-label = "Безнең турында" менюсы
+about-us-menu-item-aria-label = "Безнең турында" менюсы
 
 ## Hero section
 
@@ -108,12 +109,16 @@ join-discord-community-action = Discord-та безгә кушылыгыз
 find-us-on-matrix = Matrix'­та безне табыгыз
 # label for button
 find-us-on-element-action-1 = Element
+ask-mozilla-share = Mozilla'дан чараларыгыз белән уртаклашуын сорагыз
+# label for button
+ask-mozilla-share-action = Чарагыз белән уртаклашу
 # label for button
 download-contribution-certificate-action = Сертификатыгызны алыгыз
 
 ## Get involved section
 
 read-sentences-link = Җөмләләрне уку
+answer-questions-link = Сорауларга җавап бирү
 
 ## Partner section
 
