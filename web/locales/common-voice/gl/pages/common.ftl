@@ -277,6 +277,11 @@ announcement-mdc-button-text = Únase a Mozilla Data Collective
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = Ábrese nunha nova pestana
 
+## Pre-Release Announcement (dates TBD)
+
+# Text wrapped in <cvDatasheetsLink></cvDatasheetsLink> will be rendered as an external link to the cv-datasheets GitHub repo
+announcement-pre-release = Ola, comunidade! A nova versión está a caer. Por favor, axude validando e transcribindo, e visite tamén <cvDatasheetsLink>cv-datasheets</cvDatasheetsLink> para actualizar a súa folla de datos.
+
 ## Common Language/Dataset Selector & SearchBox Related
 
 # Generic search box defaults
