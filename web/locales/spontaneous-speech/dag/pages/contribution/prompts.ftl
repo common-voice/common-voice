@@ -34,4 +34,5 @@ learn-how-to-use-transcribe = Bɔhim mi a ni yɛn tooi sabi shɛm
 learn-how-to-use-transcribe-explanation = Sabimi lala nira maa ni yɛli yɛltɔɣa maa shɛm n-sɔŋ di bahi bahimdi o ni zaŋ binshɛŋa kaman 'um', bee 'errr'  .
 learn-how-to-use-transcribe-guidance = Dihi mi <guidanceLink>kpe</guidanceLink> ka bɔhim a ni tooi zaŋ yaɣili ŋɔ n-ku bukaata shɛm
 learn-how-to-use-check-transcript = Bɔhimmi bɛ ni lihiri sabbu zuɣu shɛm
+learn-how-to-use-check-transcript-explanation = Sabbu kam tu ni di sabi n gbaai bachi kam  lala nira ni zaŋ n di fiila bee o ningbuna ni di fiila maa shɛm, di bahi bahimdi o ni labi n-yɛli shɛŋa.
 learn-how-to-use-check-transcript-guidance = Dihi mi <guidanceLink>kpe</guidanceLink> ka bɔhim a ni tooi zaŋ yaɣili ŋɔ n-ku bukaata shɛm
