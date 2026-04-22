@@ -9,7 +9,7 @@ clips-with-count-pluralized =
         [one] kamodzi
        *[other] ena
     }
-goal-help-recording = mwathandiza mawu ofanana kufikila<goalPercentage></goalPercentage>yapatsiku{ $goalValue }ku mulingo wake otapa mawu!
+goal-help-recording = wmathandizira mawu ofanana kufikila<goalPercentage></goalPercentage>kufikila{ $goalValue }mlingo wake wa siku
 goal-help-validation = mwathandiza mawu ofanana kufikira<goalPercentage></goalPercentage>ya tsiku{ $goalValue }mulingo wotsimikiza wawo
 contribute-more =
     { $count ->
