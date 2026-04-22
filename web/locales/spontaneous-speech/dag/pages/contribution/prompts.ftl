@@ -1,8 +1,15 @@
 ## Prompts page
 
+record-player-header = Yaai mi a labisigu
+mic-access-error = Di tu ni a saɣi n-ti maakurofooni yoobu soli.
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon></micIcon> ka labisi li din kuli nyɛ shɛm a kpaŋmaŋa tariga
+# Message which appears when there are no more resources on this page
+no-prompts-continue-skipped-message = Bɔhisi shɛli lahi kani n-zaŋ ti zuliya yɛltɔɣa ŋɔ. A yi kpahi mi yaɣi di puuni shɛli yaa, a ni tooi tuɣi ni kpahi yaɣi lahabali bee ka a chaŋ sabi kukɔyaarili ka labi n-niŋ di yi tooi bela.
+error-skipping = Yɛlimuɣisirili kamina saha shɛli a ni kpahiri yaɣiri teesim ŋɔ maa
+error-recording = Yɛlimuɣisirili kamina kukɔli maa yaabu shee
 error-recording-too-short = Kukoli sheli a ni yaa maa pɔra. Di tu niri yaɣi { $minDurationSeconds }  tɔbu.
+cannot-play-audio = A kɔŋ la kukɔli ŋmɛbu. Dim suɣulo, labi n-niŋ.
 # For the button to delete a response to a prompt
 delete = nyahima
 # For the disabled button on a prompt that indicates a prompt is already submitted
