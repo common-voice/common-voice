@@ -40,10 +40,15 @@ sc-criteria-item-1 = Җөмләдә орфографик хаталар булм
 sc-criteria-item-2 = Җөмлә грамматик кагыйдәләр нигезендә язылырга тиеш.
 sc-criteria-item-3 = Җөмлә әйтемле булырга тиеш.
 sc-criteria-item-4 = Әгәр җөмлә критерийларга туры килсә, уңдагы &quot;Кабул итү&quot; төймәсенә басыгыз.
+sc-criteria-item-6 = Тикшерү өчен җөмләләр беткән булса, безгә күбрәк җөмләләр тупларга ярдәм итегезче!
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = <icon></icon> — бу җөмлә лингвистик яктан дөрес төзелгәнме?
+sc-review-rules-title = Җөмлә кулланмадагы принципларга туры киләме?
 report-sc-different-language = Башка тел
 report-sc-different-language-detail = Бу җөмлә мин тикшергән телдә түгел.
 sentences-fetch-error = Җөмләләр алганда хата килеп чыкты
 review-error = Бу җөмләне тикшерүдә хата килеп чыкты
+review-error-rate-limit-exceeded = Сез нык ашыгасыз. Җөмләнең дөреслеген тикшерү өчен игътибарлырак карагыз.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Без мөһим үзгәрешләр ясыйбыз
 sc-redirect-page-subtitle-2 = Сез безгә <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> яки <emailLink>электрон почта</emailLink> аша сораулар бирә аласыз.

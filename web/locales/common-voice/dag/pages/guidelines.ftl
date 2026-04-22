@@ -71,6 +71,7 @@ sentence-domain = Yɛltɔɣili ni yi yaɣ' shɛli na
 public-domain-explanation-1 = Di tu kamata ni satarili kam din yɛri yɛltɔɣa niŋ bayana n-ti sokam<publicDomain>sokam<publicDomain>(<cc0>cco<\<cc0>) kaman common voice tuma din laɣim taba ni bahi lansiisi ŋɔ gbunni cco.kuly vulimi yɛltɔɣa shɛŋa a ni dihitabili ka pahiri luɣi shɛli a ni nya li
 public-domain-explanation-2 = Yɛltɔɣi shɛli din gahim zaŋ kana yɛltɔɣa yalibu buŋbu mazena din yuli booni clloquial,mordern parlance.Pahigu shɛŋa din yɛn soŋa ka tooi bo yɛltɔɣa nya
 public-domain-explanation-3 = Malimi colloquial yɛltɔɣa a maŋmaŋa bee a zo bee yɛltɔɣa dundɔna- kamani Shahira din yi  daŋ sabbu beni boli shɛli write-a-thon'
+public-domain-explanation-4 = Bɔmi ban sabi buku,ban yuli ka sabi bee ban zaŋ nuchebaŋ mŋaa foto ka bɔhi n nya ban deei yi ni be tuma maa bɛla n ti sakam zaa
 public-domain-explanation-5 = Bɔmi satarili shɛli din lahi ka labiniŋ.mŋahinli buku sheŋa din daa sabi poi ni yuuni 1920
 public-domain-explanation-6 = kpaŋmi a maŋa m paai gomnanti,zen n gama laɣinsi bee poham zuɣu laɣinsi n nŋa a ni tooi zaŋ sodoligu ŋɔ wuhi bee ninvuɣ' shɛbi ni tooi wuhi ti sokam zaa.
 citing-sentences-explanation-1 = Di mali bukaata ni ti wuhiri ti tumma bɛhisi shee din yan che ka ti vihiri lala yɛltɔɣa be maa sokam zaa sa ni ka paɣasiriba bi tooi nŋari paɣasira
@@ -145,6 +146,7 @@ transcribe-the-audio-subheader-1 = So'dola
 transcribe-the-audio-subheader-2 = nambanima mini bachi ŋmahi
 transcribe-the-audio-subheader-3 = Tikpara gahinda
 transcribe-the-audio-subheader-4 = Bachi piribu,ʒiri pilli,labiyaai bachinima.
+transcribe-the-audio-subheader-5 = sabbu min yɛli chirim ni colloquialisms
 transcribe-the-audio-subheader-1-explanation = Sokam saɣi ti,ni di tu ni a sabi binshɛgu kam a ni wum.Din boŋɔ pahila;
 transcribe-the-audio-subheader-1-explanation-example-2 = Vuri yuya sabi pa laɣisi kamani kohigu bee lari
 # text wrapped in correct will be shown as green text in the UI

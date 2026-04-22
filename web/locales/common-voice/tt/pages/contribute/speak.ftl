@@ -54,6 +54,8 @@ first-cta-gender-select-help-text =
 second-cta-header-text = Тавышыгызны иганә иткәнегез өчен рәхмәт!
 already-have-an-account = Хисабыгыз бармы инде? <login>Керү</login>
 create-profile-button = Профиль булдыру
+# IMAGE TAGS
+img-alt-success-checkmark = уңышлы тәмамлану тамгасы
 # menu item
 read-sentences = Җөмләләрне уку
 
