@@ -125,3 +125,26 @@ about-playbook-how-grow-language-content-8-v2 = <strong>Khalani opanga!</strong>
 about-playbook-how-validate = Kodi ndingadziwe bwanji ngati ndiyenera kuvomereza voice clip?
 about-playbook-how-validate-content-1 = Ngati mungathe <strong>kuwamva</strong> <strong>ndikuwamvetsa,</strong> nthawi zambiri ndi <strong>bwino kuwavomereza.</strong>
 about-playbook-how-validate-content-2 = <strong>Musakane makanema omwe wokamba nkhani ‘ali ndi mawu’ osiyana ndi anu </strong>- izi ndizofunikira kuti kuzindikira mawu kugwire ntchito bwino kwa aliyense.
+about-playbook-how-validate-content-3 = Ngati mukuganiza kuti katchulidwe ka mawu kamapangitsa kuti kukhale <strong>kosatheka kumva<strong>, kapena pali<strong> phokoso lalikulu lakumbuyo</strong>, kapena palinso<strong> anthu ena omwe amalankhula</strong>, ndiye kuti muyenera kukana kanemayo. <accuracyLink>Onani zambiri mu njira zathu zolondola</accuracyLink>.
+about-playbook-how-validate-content-4 = Ngati kanema wakanidwa ndi anthu awiri, umatulutsidwa mu gawo lina la deta.
+
+## How to access dataset
+
+about-playbook-how-access-dataset = Kodi ndingapeze bwanji ndikugwiritsa ntchito bwanji deta?
+about-playbook-how-access-dataset-content-1 = Mukhoza kupita ku <datasetsPage>tsamba la ma datasets</datasetsPage>, kusankha mtundu ndi chilankhulo chomwe mukufuna, ndikuchitsitsa! Mafayilo ali ndi <metadataLink>metadata yogwirizana</metadataLink>, monga zambiri za anthu ndi deta yotsimikizira. Muyenera kupereka imelo adilesi kuti mutsitse detayo.
+about-playbook-how-access-dataset-content-2 = Ngati mukufuna zida zopangira ma ASR models, mutha kulumikizana ndi anthu ena mdera lanu <discourseLink>pa Discourse</discourseLink>.
+
+## How are decisions made
+
+about-playbook-how-project-governance = Kodi zisankho za polojekiti zimapangidwa bwanji?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice yapangidwa  kuthe ndi gulu losiyanasiyana la olimbikitsa ufulu wa anthu, akatswiri a zilankhulo, asayansi a deta, akatswiri a maphunziro ndi mainjiniya a mapulogalamu ochokera padziko lonse lapansi. Ntchitoyi ikuyendetsedwa ndi Mozilla Foundation.
+about-playbook-how-project-governance-content-2 = Ulamuliro wathu umachokera pa mizati ya:
+about-playbook-how-project-governance-content-3 = Zachinsinsi, chitetezo ndi kuwonekera poyera.
+about-playbook-how-project-governance-content-4 = Kutenga nawo mbali kwa anthu ammudzi komanso kupanga zisankho.
+about-playbook-how-project-governance-content-5 = Ubwino ndi kuzindikira.
+about-playbook-how-project-governance-content-6 = Kuyankha mlandu kwa onse awiri.
+about-playbook-how-project-governance-content-7 = <governanceLink>Werengani zambiri za momwe timalamuliridwira</governanceLink>
+
+## How is Common Voice funded
+
+about-playbook-how-funded = Kodi Common Voice imathandizidwa bwanji?
