@@ -9,7 +9,11 @@ no-prompts-continue-skipped-message = Bɔhisi shɛli lahi kani n-zaŋ ti zuliya 
 error-skipping = Yɛlimuɣisirili kamina saha shɛli a ni kpahiri yaɣiri teesim ŋɔ maa
 error-recording = Yɛlimuɣisirili kamina kukɔli maa yaabu shee
 error-recording-too-short = Kukoli sheli a ni yaa maa pɔra. Di tu niri yaɣi { $minDurationSeconds }  tɔbu.
+error-recording-too-long = A kukɔli maa yaabu saha maa lan waɣi yaɣi. Di waɣilim kpalinkpaa nyɛla minti bun { $maxDurationMinutes }.
+error-fetching-prompts = Binshɛli bi niŋ viɛnyɛla teesim nima maa bɔbu shee. Dim suɣulo labi niŋ di yi tooi bɛla.
+error-uploading-response = Yɛlmuɣisirili kamina a labisibu maa yaabu ni
 cannot-play-audio = A kɔŋ la kukɔli ŋmɛbu. Dim suɣulo, labi n-niŋ.
+prompt-submitted-success = A labisibu kpɛya ni achiika
 # For the button to delete a response to a prompt
 delete = nyahima
 # For the disabled button on a prompt that indicates a prompt is already submitted
