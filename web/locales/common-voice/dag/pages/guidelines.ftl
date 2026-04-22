@@ -78,6 +78,7 @@ citing-sentences-explanation-1 = Di mali bukaata ni ti wuhiri ti tumma bɛhisi s
 citing-sentences-subheader-websites = Wɛbsaatinima
 citing-sentences-subheader-websites-explanation = A ni tooi pahi wɛbsaati, kotomsi "Common Voice - https://commonvoice.mozilla.org/"
 citing-sentences-subheader-academic-reference = Kundivihira
+citing-sentences-subheader-academic-reference-explanation = Ani tooi zaŋ shikuru baŋsim soli,kami Harvard mini Mozila (2021)soli kukoli yinsi.org/(Accessed:15th September2021)
 citing-sentences-subheader-offline-sources = Din ka pɔhim zuɣu yibu na shee
 citation =
     .label = Dini yi shɛli na
