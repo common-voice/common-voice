@@ -10,3 +10,9 @@ sc-review-form-button-approve-shortcut = Y
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = S
+sc-review-link = ႁုပ်ႈတူၺ်းၶိုၼ်း
+
+## REVIEW CRITERIA
+
+sc-criteria-modal = ⓘ ၶေႃႈမၵ်းမၼ်ႈၵၢၼ်ထတ်း
+sc-criteria-title = ၶေႃႈမၵ်းမၼ်ႈၵၢၼ်ထတ်း
