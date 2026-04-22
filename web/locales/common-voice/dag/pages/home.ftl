@@ -7,6 +7,7 @@ show-wall-of-text = Karimma m pahi
 help-us-title = Sɔŋmi ti ka bo dihitabili n-ti satara!
 speak-goal-text = Klipunima din yaai
 listen-goal-text = Kilipinima dihitabili naaya
+hours-recorded = vɛlbu hawa
 hours-validated = Awanima dihitabili
 voices-online = Kukɔya pa du pɔhim zuɣu
 todays-progress = Zuŋɔ kpaŋmaŋa
