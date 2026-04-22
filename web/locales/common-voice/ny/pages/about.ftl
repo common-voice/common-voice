@@ -58,7 +58,58 @@ about-nav-playbook = Phunzilani momwe mungatengelepo mbali
 
 about-playbook-what-is-language = Kodi chilankhulo pa Common Voice n'chiyani?
 about-playbook-what-is-language-content-1 = Pali njira zambiri zoganizira za chilankhulo. Pofuna kuzindikira mawu, Common Voice ikupereka lingaliro loti tiganizire kwambiri pa 'kumvetsetsana kwa mawu', kapena 'kodi olankhula chilankhulochi nthawi zambiri amamvetsetsana ngati ayesa?'
+about-playbook-what-is-language-content-2 = Tikufuna kuti zitsanzo za mawu zikhale bwino pomvetsetsa olankhula osiyanasiyana. Kuti izi zitheke, deta ya mawu iyenera kuyimira anthu osiyanasiyana.
+about-playbook-what-is-language-content-3 = Zilankhulo zina zimakhala ndi kusiyana kwakukulu kwa galamala, mawu ndi katchulidwe. Pachifukwa ichi, <ctaLink>tikuyambitsa 'Zosintha'</ctaLink> mu 2022. Izi zimapatsa madera njira yosiyanitsira zilankhulo zawo mkati mwa deta yayikulu.
 
 ## How do I add a language
 
-about-playbook-how-add-language-translating-heading = kumasulila webusiyiti
+about-playbook-how-add-language = Kodi ndingawonjezere bwanji chilankhulo?
+about-playbook-how-add-language-content-1 =
+    Choyamba, onani ngati chinenero chanu <languageLink> chilipo kale</languageLink>.
+    Ngati palibe, mutha kufunsa <languageRequestLink> za kuwonjezera chinenero chanu</languageRequestLink>.
+    Pali magawo awiri: Kumasulira tsamba, ndi kusonkhanitsa ziganizo
+about-playbook-how-add-language-translating-heading = Kumasulira tsamba lawebusayiti
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Onani malangizo athu a momwe mungagwiritsire ntchito Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Timagwiritsa ntchito chida cha Mozilla chotchedwa <pontoonLink>Pontoon</pontoonLink> pomasulira. Pontoon ili ndi zilankhulo zambiri,
+    koma ngati ilibe yanu mutha <pontoonRequestLink>kupempha kuti chinenero chanu chiwonjezedwe</pontoonRequestLink>.
+    Kenako, kuti chinenerocho chipezeke pa pulojekiti ya Common Voice,
+    <githubRepoLink>pemphani chinenero chatsopano pa GitHub</githubRepoLink>. <localizationFragment>Onani zambiri pa kumasulira kwa tsamba</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Kusonkhanitsa ziganizo
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Yang'anirani kalozera wathu wogwiritsira ntchito Chiganizo Chosonkhanitsa</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Mukhoza <sentenceCollectorLinkAdd>kuwonjezera ziganizo zing'onozing'ono</sentenceCollectorLinkAdd>,
+    kapena mungathe kuchita <bulkImportDocsLink>kulowetsa zinthu zambiri pogwiritsa ntchito Github</bulkImportDocsLink>.
+    Kumbukirani kuti ziganizo ziyenera kukhala <licenseLink>CC0 (kapena public domain)</licenseLink>, kapena mutha kulemba zanu.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Onani zambiri pa kasonkhanitsidwe ka ziganizo</sentenceCollectorFragment>.
+
+## How does localization work
+
+about-playbook-how-localize = Kodi kutanthauzira malo a tsamba kumagwira ntchito bwanji?
+about-playbook-how-localize-content-1 = Kumasulira  Common Voice kumachitika pa <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Pangani akaunti</pontoonAccountLink> ngati mulibe. Kenako, sankhani chilankhulo chanu <strong>('Team')</strong> kenako sankhani pulojekiti, <pontoonCvLink>Common Voice</pontoonCvLink>. Padzakhala mafayilo oti muwamasulire. Dinani pa imodzi, kenako ikuwonetsa mawu mu Chingerezi ndi bokosi loti muwamasulire.
+about-playbook-how-localize-content-3 = Kumasulira ndi kochokera ku Chingerezi, koma mutha kuwona <strong>Maganizo</strong> m'zilankhulo zina. Dinani chizindikiro cha <strong>Profile</strong>chizindikiro, kenako  <strong>Zokonzera</strong> ndikuwonjezera zilankhulo zilizonse zomwe mumalankhula. Pansi pa ngodya yakumanja padzakhala mndandanda wa kumasulira kotchedwa <strong>Locales</strong>. Kumasulira kumawonekera patsamba lino patatha tsiku limodzi.
+about-playbook-how-localize-content-4 = Malowa ali okonzeka kutsegulidwa akafika 75% yakumalizika.
+about-playbook-how-localize-content-5 = Onerani kanema wathu wofotokozera kuti akuthandizeni
+
+## How to add sentences
+
+about-playbook-how-add-sentences = Kodi ndingawonjezere bwanji ziganizo?
+about-playbook-how-add-sentences-content-1 = Mukhoza kuwonjezera ziganizo pa <writePageLink>Lembani tsamba</writePageLink> kapena kuwunikanso ziganizo pa <reviewPageLink>Onani tsamba</reviewPageLink>.
+about-playbook-how-add-sentences-content-2 = Ziganizo ziyenera kuunikidwanso ndikuvomerezedwa ndi anthu awiri kuti ziphatikizidwe mu Common Voice. Mumapanga malangizo a chilankhulo chanu <languageGuidelinesLink>pano</languageGuidelinesLink>. Ziganizo ziyenera kukhala mu <licenseLink>public domain</licenseLink> ndipo zikhale zazifupi kuposa mawu 15. Mutha kupempha mwiniwake wa uthenga kuti awupange <waiverLink>CC0 pogwiritsa ntchito njira yathu yochotsera</waiverLink>, ndikutumiza kwa ife pa commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = Mungagwiritse ntchito <scraperLink>chochotsera mawur</scraperLink> kuti mugwiritse ntchito ziganizo zazifupi kuchokera ku Wikipedia.
+
+## How to record quality
+
+about-playbook-how-record-quality = Kodi ndingajambule bwanji mawu abwino kwambiri?
+about-playbook-how-record-content-1 = Lankhulani ndi mawu anu abwinobwino! Mmene mumalankhulira ndi olandiridwa pano - tikufuna kalankhulidwe kanu monga momwe kalili, ndipo tikufuna mphamvu yanu ya mawu, kalembedwe kanu, ndi kamvekedwe kanu ka nthawi zonse.
+about-playbook-how-record-content-2 = Pewani phokoso lakumbuyo kwambiri - ziyenera kukhala zosavuta kukumvani.
+about-playbook-how-record-content-3 = Werengani chiganizocho mosamala - musaphonye, kusintha kapena kuonjezerani mawu.
+about-playbook-how-record-content-4 = Onetsetsani kuti nsanja ikujambula musanayambe kulankhula, ndipo kuti yayima mukamaliza.
+about-playbook-how-record-content-5 = <accuracyLink>Onani zambiri zokhudza njira zolondola.</accuracyLink>
+
+## How to grow language
+
+about-playbook-how-grow-language = Kodi tingatani kuti tikulitse bwino chilankhulo pa Common Voice?
+about-playbook-how-grow-language-content-1 = Kupanga mwayi kwa anthu osiyanasiyana kuti athandize pa Common Voice kumatsimikizira kuti deta imatumikira anthu ambiri momwe angathere. Tapanga zinthu ndi ma tempuleti omwe mungagwiritse ntchito!
+about-playbook-how-grow-language-content-2 = Zochitika
