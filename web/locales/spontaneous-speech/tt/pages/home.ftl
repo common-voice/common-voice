@@ -1,6 +1,8 @@
 ## Home page
 
 welcome-to-spontaneous-speech = Кинәт туган сөйләм проектына рәхим итегез
+# <br></br> represents a newline break
+wall-of-text = Common Voice икенче платформаны гамәлгә кертә. Аның максаты - органик, кинәт туган, алдан язылмаган сөйләмне туплау. Нәтиҗәдә бу күп кенә берләшмәләргә мәгълүматларны тизрәк җыярга ярдәм итәчәк, шулай ук программистлар һәм мәгълүмат белгечләре өчен дә бик файдалы булачак.
 why-spontaneous-speech = Бу Spontaneous Speech прототибын без нинди максат белән булдырдык
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>Башлам</mark>
