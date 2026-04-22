@@ -15,6 +15,7 @@ example = Прыклад
 
 ## Voice collection sidebar content
 
+misreadings-explanation-3 = Брак «А» або «The» у пачатку запісу.
 misreadings-explanation-4 = Бракуе літары 's' у канцы слова.
 still-have-questions = Засталіся пытанні?
 contact-common-voice = Звяжыцеся з камандай Common Voice
