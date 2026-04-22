@@ -35,6 +35,7 @@ benefits = Anfaaninima
 
 whats-public = Bo ka salo maa ni tooi nya?
 email-not-public = Ti ku che ka salo nya a imeeli.
+username-email-not-demographic = yu shɛli ani pii ni email bi saɣi ti salo data
 
 ## Landing
 
