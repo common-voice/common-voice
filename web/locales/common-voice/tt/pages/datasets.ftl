@@ -96,5 +96,7 @@ male = Ир-ат
 female = Хатын-кыз
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = Тавыш мәгълүматы тупланмаларыбызны иңдерү
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = Common Voice мәгълүматларын куллану өчен йөкләп алу параметрлары
 datasets-show-more = Барлык мәгълүмат тупланмаларын да күрсәтү
 datasets-show-less = Соңгы мәгълүматлар җыелмаларын күрсәтү

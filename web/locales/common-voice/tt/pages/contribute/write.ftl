@@ -75,6 +75,7 @@ try-upload-again-md = Яңадан йөкләп карагыз
 select-file = Файлны сайлау
 select-file-mobile = Йөкләү өчен Файлны сайлау
 accepted-files = Кабул ителгән файл төрләре: .tsv гына
+minimum-sentences = Бер файлда булырга тиешле җөмләләрнең минималь саны: 1000
 maximum-file-size = Максималь файл үлчәме: 25 МБ
 what-needs-to-be-in-file = Минем файлда нәрсә булырга тиеш?
 upload-progress-text = Йөкләү дәвам итә...
@@ -93,9 +94,18 @@ too-many-files = Артык күп файл
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = <icon></icon> Берничә иҗтимагый милектәге җөмлә өстәгез
+multiple-sentences-error = Җөмләләрне берәмләп кенә җибәрергә ярый.
 exceeds-small-batch-limit-error = 1000-нән артык җөмлә җибәреп булмый
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $totalSentences } җөмләдән { $uploadedSentences } җөмлә җыелган
+       *[other] { $totalSentences } җөмләдән { $uploadedSentences } җөмлә җыелган
+    }
 small-batch-sentences-rule-2 = Бер юлга бер җөмлә өстәү
+small-batch-sentences-rule-3 = Җөмләләрне берәмләп аерым юлларга бүлегез. Моның өчен бер тапкыр «Enter» яки «Return» төймәсенә басыгыз.
 small-batch-sentences-rule-4 = 1000 кадәр җөмлә өстәү
+small-batch-sentences-rule-6 = Барлык җөмләләрдә бер үк цитаталау булырга тиеш
 # menu item
 add-sentences = Җөмләләр өстәү
 
