@@ -1,7 +1,8 @@
 ## Request Language Modal
 
+request-language-title = kupempha zilankhulo zina
 request-language-form-language =
-    .label = Chilankhulo
+    .label = chinenero
 request-language-success-title = Pempho la Chilankhula latumizika, Zikomo.
 request-language-success-content = Tikhala tikulumikizana nanu posachedwa mokhudza mmene mukhangaonjere chilankhulo ku Common Voice posachedwa
 select-language = Sankhani Chilankhulo...

@@ -32,16 +32,16 @@ change-preferences = sinthani mwakukonda kwanu
 login-signup = lowani kapena lembetsani
 vote-yes = inde
 vote-no = iyayi
-datasets = uthenga wolumikiza
-languages = ziyankhulo
-about = zokhuza
-partner = opangila naye limodzi zinthu
-submit-form-action = tumizan
+datasets = uthenga
+languages = zilankhulo
+about = zokhuzana
+partner = mzako opangila naye zinthu limodzi
+submit-form-action = pereka
 
 ## Reporting
 
-report = kuuza
-report-title = kutumiza uthenga
+report = kunenera
+report-title = kupereka uthenga
 report-ask = Kodi ndiziti  zomwe mukukumana nazo ndi chiganizo ichi?
 report-offensive-language = chiyankhulo chosayenera
 report-offensive-language-detail = Chiganizo chili ndi mawu opanda ulemu kapena chiyankhulo chosayenela

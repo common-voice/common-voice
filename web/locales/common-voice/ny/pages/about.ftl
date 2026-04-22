@@ -1,22 +1,27 @@
 ## ABOUT US
 
-about-title = N’chifukwa Chiyani Mawu Ofanana?
-how-does-it-work-title-v2 = Kodi Common Voice imagwila ntchito motani?
+about-title = Common Voice chifukwa Chiyani ?
+about-header-description-v2 =
+    <p>Common Voice ndi seti ya mawu yomwe imapezeka kwa aliyense, yoyendetsedwa ndi mawu a odzipereka padziko lonse lapansi. Anthu omwe akufuna kupanga mapulogalamu a mawu angagwiritse ntchito setiyi pophunzitsa mitundu yophunzirira makina.</p>
+    <p>Pakadali pano, ma seti ambiri a mawu ndi a makampani, zomwe zimalepheretsa kupanga zatsopano. Ma seti a mawu sayimiranso: osalankhula Chingerezi, anthu amitundu yosiyanasiyana, olumala, akazi ndi anthu a LGBTQIA+. Izi zikutanthauza kuti ukadaulo wogwiritsa ntchito mawu sugwira ntchito konse m'zilankhulo zambiri, ndipo komwe umagwira ntchito, sungachite bwino kwa aliyense. Tikufuna kusintha zimenezo polimbikitsa anthu kulikonse kuti agawane mawu awo.</p>
+how-does-it-work-title-v2 = Kodi Common Voice imagwira ntchito bwanji?
+how-does-it-work-text = Tikusonkhanitsa deta ya mawu kuchokera kwa anthu ambiri. Perekani mawu anu, tsimikizirani kulondola kwa makanema a anthu ena, pangani detayo kukhala yabwino kwa aliyense.
 
 ## How does it work section
 
-about-language-req-subtitle = Wina akupempha chilankhulo kuti chionjezeledwe
-about-localization-subtitle = Malemba a webusaiti amamasuliridwa mchilankhulo chimenecho.
-about-sentence-collection-title = Kukonza Chiganizo
-about-sentence-collection-subtitle = Kusintha samba muchilankhulo choyenela
-about-new-lang-title = kubwelesa chiyankhulo chatsopano
-about-new-lang-subtitle = Tikuyambitsa tsamba la Common Voice mu chilankhulo ichi
-about-voice-contrib-title = Kupereka Mawu
-about-voice-contrib-subtitle = anthu amabwera ndikudzapereka mawu awo
-about-voice-validation-title = kutsimikizira mawu
-about-voice-validation-subtitle = anthu ena amatsimikizila mawu amenewo
-about-dataset-release-title = kutulusa deta
-about-dataset-release-subtitle = timatulusa deta pamiyezi itatu iliyonse
+about-language-req-subtitle = Winawake akupempha kuti awonjezele chilankhulo.
+about-localization-title = Kusintha kwa Webusaiti
+about-localization-subtitle = Malemba a webusaitiyi amamasuliridwa m'chinenero chimenecho.
+about-sentence-collection-title = Kusonkhanitsa Ziganizo
+about-sentence-collection-subtitle = Ziganizo zimasonkhanitsidwa kuti anthu aziwerenga mokweza.
+about-new-lang-title = Kuyambitsa Chilankhulo Chatsopano
+about-new-lang-subtitle = Tikuyambitsa tsamba la Common Voice m'chinenerochi.
+about-voice-contrib-title = kuonjezera Mawu
+about-voice-contrib-subtitle = Anthu amabwera ndikupereka mawu awo.
+about-voice-validation-title = Kutsimikizira Mawu
+about-voice-validation-subtitle = Anthu ena amavomereza mawu amenewo.
+about-dataset-release-title = Kutulutsidwa kwa Seti ya Deta
+about-dataset-release-subtitle = Timatulutsa deta miyezi itatu iliyonse.
 about-subscribe-text = Mukufuna kulumikizana ndi Common Voice?
 about-speak = Yankhula
 about-speak-text = Olemba nawo amajambula mawu olembedwa powerenga ziganizo zambiri zomwe zaperekedwa.
@@ -148,3 +153,6 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Werengani zamb
 ## How is Common Voice funded
 
 about-playbook-how-funded = Kodi Common Voice imathandizidwa bwanji?
+about-playbook-how-funded-content-1 = Common Voice ndi pulojekiti ya Mozilla Foundation, bungwe la US 501c3. Pakadali pano pulojekitiyi ikuthandizidwa ndi <philantropicGrantLink>mphatso zachifundo</philantropicGrantLink>, komanso zopereka kuchokera kwa anthu padziko lonse lapansi.
+about-playbook-how-funded-content-2 = Zimawononga ndalama zambiri kusunga ndi kutulutsa deta nthawi zonse, kukonza nsanja ndikuyendetsa <africaMradiLink>mapulogalamu ammudzi</africaMradiLink>.
+about-playbook-how-funded-content-3 = Ngati inu kapena bungwe lanu mukufuna kupereka ndalama zothandizira pulojekitiyi, mutha kupereka <donateLink>chopereka</donateLink> kapena kulumikizana ndi gulu lathu la ogwirizana pa <emailFragment>commonvoice@mozilla.com</emailFragment>.
