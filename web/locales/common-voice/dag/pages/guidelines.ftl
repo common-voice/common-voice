@@ -80,6 +80,7 @@ citing-sentences-subheader-websites-explanation = A ni tooi pahi wɛbsaati, koto
 citing-sentences-subheader-academic-reference = Kundivihira
 citing-sentences-subheader-academic-reference-explanation = Ani tooi zaŋ shikuru baŋsim soli,kami Harvard mini Mozila (2021)soli kukoli yinsi.org/(Accessed:15th September2021)
 citing-sentences-subheader-offline-sources = Din ka pɔhim zuɣu yibu na shee
+citing-sentences-subheader-offline-sources-explanation = Zaŋ kpa sokam tɔhi sabi talim Poham zuɣu,a ni tooi zaŋ shikuru baŋsim sodolisi kamani Harvard ni Jess(2021)
 citation =
     .label = Dini yi shɛli na
 self-citation = Mammaŋ shɛhira
