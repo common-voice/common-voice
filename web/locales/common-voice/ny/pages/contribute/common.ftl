@@ -1,4 +1,3 @@
-action-click = Dina
 action-tap = tobwanya
 contribute = tengapo mbali
 review = kuwonaso

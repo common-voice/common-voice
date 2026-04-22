@@ -93,3 +93,4 @@ contribution-misreadings-example-1-title = ဒိုၚ်နဝ်သဝ် ဇ
 contribution-misreadings-example-2-title = ဒိုၚ်နဝ်သဝ် ဇၞော်ဇၞော် ပ္ဍဲခေတ် Triassic။
 contribution-misreadings-example-2-explanation = [ထေက်ကဵုဒးဒှ် ‘dinosaurs’ ရောၚ်]
 contribution-misreadings-example-3-title = ဒိုၚ်နဝ်သဝ် ဇၞော်ဇၞော်ဂမၠိုၚ် ပ္ဍဲခေတ် Triassi-။
+contribution-misreadings-example-3-explanation = [ပရေၚ်ပၠောပ်ရမျာၚ်ပိုတ်အာ ကိုပ်ကၠာနူ မအရေဝ်လက္ကရဴအိုတ် ဟွံအိုတ်ဏီရ။]
