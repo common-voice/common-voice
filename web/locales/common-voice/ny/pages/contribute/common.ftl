@@ -1,12 +1,13 @@
-action-tap = tobwanya
-contribute = tengapo mbali
-review = kuwonaso
-skip = kudumpha
-shortcuts = kudulira
+action-click = sindikiza
+action-tap = tabwanya
+contribute = panga nawo
+review = unikilanso
+skip = dumpha
+shortcuts = chidule
 clips-with-count-pluralized =
     { $count ->
-        [one] chimodzi
-       *[other] zina
+        [one] kamodzi
+       *[other] ena
     }
 goal-help-recording = mwathandiza mawu ofanana kufikila<goalPercentage></goalPercentage>yapatsiku{ $goalValue }ku mulingo wake otapa mawu!
 goal-help-validation = mwathandiza mawu ofanana kufikira<goalPercentage></goalPercentage>ya tsiku{ $goalValue }mulingo wotsimikiza wawo
