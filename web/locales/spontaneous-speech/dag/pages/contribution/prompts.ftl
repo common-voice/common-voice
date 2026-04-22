@@ -31,5 +31,7 @@ submit-all-button = Zaŋ di zaa kpɛhi
 learn-how-to-use-prompts = Bɔhimmi a ni yɛn zaŋ yaɣili ŋɔ n-ku bukaata shɛm
 learn-how-to-use-prompts-guidance = Dihi mi <guidanceLink>kpe</guidanceLink> ka bɔhim a ni tooi zaŋ yaɣili ŋɔ n-ku bukaata shɛm
 learn-how-to-use-transcribe = Bɔhim mi a ni yɛn tooi sabi shɛm
+learn-how-to-use-transcribe-explanation = Sabimi lala nira maa ni yɛli yɛltɔɣa maa shɛm n-sɔŋ di bahi bahimdi o ni zaŋ binshɛŋa kaman 'um', bee 'errr'  .
 learn-how-to-use-transcribe-guidance = Dihi mi <guidanceLink>kpe</guidanceLink> ka bɔhim a ni tooi zaŋ yaɣili ŋɔ n-ku bukaata shɛm
+learn-how-to-use-check-transcript = Bɔhimmi bɛ ni lihiri sabbu zuɣu shɛm
 learn-how-to-use-check-transcript-guidance = Dihi mi <guidanceLink>kpe</guidanceLink> ka bɔhim a ni tooi zaŋ yaɣili ŋɔ n-ku bukaata shɛm

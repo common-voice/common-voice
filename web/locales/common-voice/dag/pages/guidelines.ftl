@@ -42,6 +42,7 @@ misreadings-example-4 = Sodoligu
 misreadings-tip-1 = Sodoligu
 misreadings-tip-2 = ['a'ka tuuli yɛltɔɣa maa ni]
 misreadings-tip-3 = (lahabaya dim bi doli taba )
+background-noise-explanation = Di tumi ni a wum bachi kam ayi ti vulindi yɛltɔɣa.Ti bɔrila ma zin shɛŋa din yɛn tooi yihiri vuri mini yili bihi din be vulibu maa ni.Amaa yili shɛŋa mini vu shɛba din ku tooi taɣ' di wumbu ni  deei li.
 background-noise-example-1 = Sodoligu
 background-noise-example-2 = Sodoligu
 background-noise-example-3 = Sodoligu
