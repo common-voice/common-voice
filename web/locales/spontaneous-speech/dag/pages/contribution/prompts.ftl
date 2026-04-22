@@ -1,6 +1,6 @@
 ## Prompts page
 
-record-player-header = Yaai mi a labisigu
+record-player-header = Yaai mi a labisibu
 mic-access-error = Di tu ni a saɣi n-ti maakurofooni yoobu soli.
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon></micIcon> ka labisi li din kuli nyɛ shɛm a kpaŋmaŋa tariga
@@ -14,6 +14,8 @@ error-fetching-prompts = Binshɛli bi niŋ viɛnyɛla teesim nima maa bɔbu shee
 error-uploading-response = Yɛlmuɣisirili kamina a labisibu maa yaabu ni
 error-empty-audio = Kukɔli maa yaabu maa zaɣisi ya. Di ŋmani la a kukɔli faali maa nyɛla zaɣa kuŋ. Dim suɣulo labi n-niŋ.
 error-platform-webview = A birawiza din pɔra ŋɔ ni tooi bi saɣi n-ti kukɔli yaabu. Dim suɣulo zaŋ mi birawiza "app".
+error-recording-too-short-seconds = A kukɔli maa yaabu saha maa lan ji n yaɣi. Di waɣilim kpalinkpaa nyɛla kibikibi bun { $minDurationSeconds }
+error-recording-too-long-minutes = A kukɔli maa yaabu saha maa lan waɣi yaɣi. Di waɣilim kpalinkpaa nyɛla minti bun { $maxDurationMinutes }.
 cannot-play-audio = A kɔŋ la kukɔli ŋmɛbu. Dim suɣulo, labi n-niŋ.
 prompt-submitted-success = A labisibu kpɛya ni achiika
 prompt-response-deleted-success = A labisibu maa nyaa ni achiika
