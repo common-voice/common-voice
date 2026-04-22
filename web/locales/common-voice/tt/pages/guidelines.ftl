@@ -137,4 +137,5 @@ code-switching-not-tag-proper-names-example-2 = Урыннар: Яр Чаллы,
 code-switching-not-tag-proper-names-example-3 = Брендлар/Оешмалар:  Бәхетле, Түбәтәй
 code-switching-not-tag-interjections-example-1 = "Ә"
 code-switching-not-tag-interjections-example-2 = "Юк"
+code-switching-not-tag-interjections-example-3 = «Әһә»
 code-switching-not-tag-interjections-example-4 = "Эм"
