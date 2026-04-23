@@ -130,6 +130,7 @@ contribution-background-noise-example-2-fixed-title = Бу балыклар ба
 contribution-background-noise-example-2-explanation = [Текстның бер өлеше ишетелми]
 contribution-background-noise-example-3-fixed-title = <strong>[Шытыр-пытыр тавыш]</strong> балыклар базарда <strong>[шытыр-пытыр тавыш]</strong> -атыла.
 contribution-background-voices-title = Арткы планда тавышлар
+contribution-background-voices-description-extended = Язманың кинәт өзелүе яки шытыр-пытыр тавышлар аркасында текстның ниндидер өлеше ишетелмәсә, язманы кире кагыгыз.
 contribution-background-voices-example-1-title = Бу балыклар базарда сатыла. <strong>[бер тавыш белән укыла]</strong>
 contribution-volume-title = Тавыш көче
 contribution-reader-effects-title = Укучы эффектлары
