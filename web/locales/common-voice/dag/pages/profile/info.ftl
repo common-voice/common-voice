@@ -10,6 +10,7 @@ profile-form-language =
     .label = Balli
 profile-form-variant =
     .label = Bal dinisa{ $language }ka a lee taɣisira?
+profile-form-variant-default-value = Waligimsim shɛli ka dini pii shɛŋa maa ni
 profile-form-age =
     .label = A yuma
 profile-form-gender-2 =
