@@ -90,6 +90,9 @@ about-us-menu-item-aria-label = "Безнең турында" менюсы
 
 ## Hero section
 
+hero-title = Телегездә сөйләшүче технология
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Ни өчен ясалма фәһем дөньяның берничә телендә генә эшләргә тиеш?</bold>
 # icon is an arrow that points downwards
 get-started = Башлау <icon><icon>
 
