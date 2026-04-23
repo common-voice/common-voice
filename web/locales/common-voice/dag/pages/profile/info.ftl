@@ -35,6 +35,7 @@ avatar = Foto bee nahingbaŋ shɛli din ʒɛya n-ti a pɔhim zuɣu
 goals = Nianima
 settings = Binyɛra zaŋ kpɛhi
 edit-profile = Malimi daadam lahibali jia niŋ
+profile-create-success = Nasara, daadam lahibali jia maa namya!
 profile-close = Kparima
 accept-privacy = N saɣi n-ti ni a gbubi n lahabaya ŋɔ kamani a ni pun kahigi li Mozilla <privacyLink>Ashili Zalisi</privacyLink> la puuni shɛm maa
 accept-privacy-title = Ashili zalisi

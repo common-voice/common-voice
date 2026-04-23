@@ -14,3 +14,7 @@ everyone = Aliyense
 contribution-activity = Ntchito Yopereka
 top-contributors = Othandizira Apamwamba
 recorded-clips = kanema Ojambulidwa
+validated-clips = Makanema Ovomerezeka
+total-approved = Zonse Zavomerezedwa
+overall-accuracy = Kulondola Konse
+set-visibility = Konzani mawonekedwe anga
