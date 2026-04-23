@@ -11,3 +11,6 @@ stats = Ziwerengero
 awards = Mphoto
 you = Inu
 everyone = Aliyense
+contribution-activity = Ntchito Yopereka
+top-contributors = Othandizira Apamwamba
+recorded-clips = kanema Ojambulidwa
