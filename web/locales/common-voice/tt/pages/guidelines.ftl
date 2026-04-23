@@ -52,6 +52,8 @@ sentence-domain = Җөмләләр домены
 ## Sentence collection sidebar content
 
 public-domain-explanation-2 = Сөйләмне тану өчен иң яхшы җөмләләр - заманча сөйләм теле. Җөмләләрне уйлап табуны булышыр өчен кайбер идеяләр:
+public-domain-explanation-4 = Авторлар, драматурглар яки сценаристлар белән элемтәгә керегез һәм сорагыз: алар үзләренең әсәрләренең күпмедер өлешен җәмәгать милкенә тапшырырга әзерме?
+public-domain-explanation-5 = Авторлык хокуклары эшләүдән туктаган текстларны эзләгез. Авторы 70 ел элек вафат булган күпчелек әсәрләр шушы даирәгә керә.
 citing-sentences-subheader-websites = Веб-сайтлар
 citing-sentences-subheader-websites-explanation = Сез сайт билгели аласыз, мәсәлән: "Common Voice - https://commonvoice.mozilla.org/"
 citing-sentences-subheader-academic-reference = Академик өземтә китерү

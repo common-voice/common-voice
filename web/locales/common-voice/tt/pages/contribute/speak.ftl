@@ -10,6 +10,12 @@ record-no-mic-found = Микрофон табылмады.
 record-error-too-short = Аудиоязма артык кыска иде.
 record-error-too-long = Аудиоязма артык озын иде.
 record-error-too-quiet = Аудиоязмадагы тавыш артык тыныч иде.
+record-error-uploaded-clip-corrupted =
+    Аудиоязмагыз бозылган ахрысы. Моның сәбәпләре түбәндә тасвирланган булуы ихтимал:
+    • Браузерыгыз дөрес эшләми (башка браузерны кулланып карагыз)
+    • Микрофон яки аудиодрайвер белән проблемалар
+    • Яздыруны башкарганда интернетның өзелүләре
+    Яңадан яздырып карагызчы.
 record-cancel = Яңадан яздырудан баш тарту.
 record-instruction = <recordIcon></recordIcon> { $actionType }, шуннан соң җөмләне кычкырып укыгыз
 record-stop-instruction = Укып бетергәч, { $actionType }<stopIcon></stopIcon>
