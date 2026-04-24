@@ -44,3 +44,11 @@ set-a-goal = Khazikitsani cholinga
 help-share-goal = Tithandizeni kupeza mawu ochuluka, gawanani cholinga chanu
 confirm-goal = Tsimikizani Cholinga
 goal-interval-weekly = Pasabata
+
+## Goals
+
+days =
+    { $count ->
+        [one] Tsiku
+       *[other] Masiku
+    }
