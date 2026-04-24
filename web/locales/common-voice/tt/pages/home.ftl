@@ -113,6 +113,7 @@ answer = Җавап бирү
 
 ## Community section
 
+community-section-title-202601 = Дөньяның барлык берләшмәләрен хуплыйбыз: 290 телгә җиттек һәм бу сан үсә бара!
 # label for button
 join-discord-community-action = Discord-та безгә кушылыгыз
 find-us-on-matrix = Matrix'­та безне табыгыз
