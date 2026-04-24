@@ -119,6 +119,7 @@ join-discord-community = Discord берләшмәсенә кушылыгыз
 join-discord-community-action = Discord-та безгә кушылыгыз
 join-discord-community-content = Тел берләшмәсендәге фикер алышуларда катнашыгыз, сораулар бирегез һәм булачак чаралар, чыгышлар турында белеп торыгыз.
 find-us-on-matrix = Matrix'­та безне табыгыз
+find-us-on-matrix-content-v2 = Matrix - үзәкләштерелмәгән, реаль вакыттагы элемтә өчен ачык һәм җиңел протокол, шулай ук Mozilla өстенлек бирә торган ачык фикер алышу платформасы. Без "common-voice:mozilla.org" бүлмәсендә.
 # label for button
 find-us-on-element-action-1 = Element
 find-us-on-matrix-action-2 = Башка клиентлар
