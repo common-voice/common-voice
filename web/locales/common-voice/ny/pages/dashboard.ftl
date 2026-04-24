@@ -44,6 +44,7 @@ set-a-goal = Khazikitsani cholinga
 help-share-goal = Tithandizeni kupeza mawu ochuluka, gawanani cholinga chanu
 confirm-goal = Tsimikizani Cholinga
 goal-interval-weekly = Pasabata
+daily-goal-created = Cholinga chanu cha tsiku ndi tsiku chapangidwa
 
 ## Goals
 

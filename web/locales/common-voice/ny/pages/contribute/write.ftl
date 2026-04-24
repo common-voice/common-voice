@@ -13,3 +13,7 @@ new-sentence-rule-4 = Gwiritsani ntchito kalembedwe koyenera ndi zizindikiro zol
 new-sentence-rule-5 = Palibe manambala ndi zilembo zapadera
 contact-us = Lumikizanani nafe
 required-field = Chonde lembani gawo ili.
+# Sentence Domain dropdown option
+agriculture_food = Ulimi ndi Chakudya
+# Sentence Domain dropdown option
+finance = Zachuma
