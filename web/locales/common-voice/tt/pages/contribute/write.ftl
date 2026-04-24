@@ -71,6 +71,7 @@ sc-bulk-upload-header = Иҗтимагый милектәге <icon></icon> җө
 sc-bulk-upload-instruction = Файлыгызны йөкләү өчен аны монда тартып күчерегез яки <uploadButton>монда басыгыз</uploadButton>
 sc-bulk-upload-instruction-drop = Йөкләү өчен файлны монда тартып күчерегез
 bulk-upload-additional-information = Бу файл турында өстәмә мәгълүмат бирергә теләсәгез, бу адрес аркылы безнең белән элемтәгә керегез: <emailFragment>commonvoice@mozilla.com</emailFragment>
+template-file-additional-information = Бу файл турында шаблонга кертелмәгән өстәмә мәгълүмат бирергә теләсәгез, бу адрес аркылы безнең белән элемтәгә керегез: <emailFragment>commonvoice@mozilla.com</emailFragment>
 try-upload-again = Яңадан тырышып карау өчен файлны монда өстерәгез
 try-upload-again-md = Яңадан йөкләп карагыз
 select-file = Файлны сайлау
