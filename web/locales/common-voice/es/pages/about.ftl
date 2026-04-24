@@ -2,10 +2,25 @@
 
 about-title = ¿Por qué utilizar Common Voice?
 about-header-description-v2 = <p>Common Voice es una base de datos disponible al público, posibiltada por las voces de contribuyentes voluntarios alrededor del mundo. Las personas que desean desarrollar aplicaciones de voz puede usar esta base de datos para entrenar modelos de aprendizaje automático. </p> <p>Actualmente, la mayoría de bases de datos de voz son propiedad de empresas, lo que previene la innovación. Las bases de datos de voz tampoco son representativas de: hablantes de otras lenguas que no son Inglés, persons de color, personas con discapacidad, mujeres, y personas LGBTQIA+. Esto significa que las tecnología soportadas sobre voz no funcionan en absoluto en muchas lenguas, y donde funciona, pueden no tener el mismo desempeño para todos. Queremos cambiar eso movilizando a las personas en todo el mundo a compartir su voz.
+how-does-it-work-title-v2 = ¿Cómo funciona Common Voice?
 how-does-it-work-text = Nuestro objetivo es crear una base de datos de voces de código abierto. Dona tu voz, valida la precisión de las grabaciones de otros usuarios y ayuda a mejorar la base de datos.
 
 ## How does it work section
 
+about-language-req-subtitle = Alguien solicita que se añada un idioma.
+about-localization-title = Traducción de sitio web.
+about-localization-subtitle = El texto del sitio web se traduce a ese idioma.
+about-sentence-collection-title = Recopilación de oraciones
+about-sentence-collection-subtitle = Se recopilan oraciones para que las personas las lean en voz alta.
+about-new-lang-title = Lanzamiento de un nuevo idioma
+about-new-lang-subtitle = Lanzamos el sitio web de Common Voice en este idioma.
+about-voice-contrib-title = Contribución de voz
+about-voice-contrib-subtitle = Las personas vienen y contribuyen con sus voces.
+about-voice-validation-title = Validación de voz
+about-voice-validation-subtitle = Otras personas validan esas grabaciones de voz.
+about-dataset-release-title = Publicación del conjunto de datos
+about-dataset-release-subtitle = Publicamos el conjunto de datos cada tres meses.
+about-subscribe-text = ¿Quieres estar al día de las novedades de Common Voice?
 about-speak = Hablar
 about-speak-text = Los colaboradores graban su voz mientras leen frases donadas por los usuarios.
 about-listen-queue = Cola de escucha
