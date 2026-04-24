@@ -58,12 +58,28 @@ about-nav-playbook = Aprende cómo contribuir
 ## What is a language
 
 about-playbook-what-is-language = ¿Qué es una lenguaje en Common Voice?
+about-playbook-what-is-language-content-1 = Existen muchas maneras de pensar sobre el lenguaje. Para los propósitos de los modelos de reconocimiento de voz, Common Voice sugiere que hagamos foco en la ‘inteligibilidad mutua’, o en otras palabras, ‘¿pueden los hablantes de este idioma entenderse mutuamente sin problemas si lo intentan?’
+about-playbook-what-is-language-content-2 = Queremos que los modelos de voz comprendan mejor a una amplia gama de hablantes. Para que esto suceda, un conjunto de datos de voz debe representar a muchas personas diferentes.
+about-playbook-what-is-language-content-3 = Algunos idiomas presentan una enorme variación en cuanto a gramática, vocabulario y pronunciación. Por este motivo, en 2022 <ctaLink>introducimos las «Variantes»</ctaLink>. Esto ofrece a las comunidades una forma de distinguir sus idiomas dentro de un conjunto de datos más amplio.
 
 ## How do I add a language
 
+about-playbook-how-add-language = ¿Cómo puedo añadir un idioma?
+about-playbook-how-add-language-content-1 =
+    Primero, comprueba si tu idioma <languageLink>ya existe</languageLink>.
+    Si no es así, puedes <languageRequestLink>solicitar que se añada tu idioma</languageRequestLink>.
+    Hay dos etapas. Traducir el sitio y recopilar oraciones.
+about-playbook-how-add-language-translating-heading = Traducir el sitio web
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Mira nuestra guía sobre cómo usar Pontoon.</translateVideoLink>
 about-playbook-how-add-language-translating-content-2 = Usamos una herramienta de Mozilla llamada <pontoonLink>Pontoon</pontoonLink> para las traducciones. Pontoon tiene muchos idiomas, pero si no tiene el suyo, puede <pontoonRequestLink>solicitar que se agregue su idioma</pontoonRequestLink>. Luego, para que el idioma esté disponible en el proyecto Common Voice, <githubRepoLink>solicite el nuevo idioma en GitHub</githubRepoLink>. <localizationFragment>Ver más en la traducción del sitio</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Recolectando oraciones
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Vea nuestra guía sobre el uso de Sentence Collector</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-2 = Puede <sentenceCollectorLinkAdd>agregar una pequeña cantidad de oraciones</sentenceCollectorLinkAdd>, o puede realizar <bulkImportDocsLink>importaciones masivas usando Github</bulkImportDocsLink>. Recuerda que las oraciones deben ser <licenseLink>CC0 (o dominio público)</licenseLink>, o puedes escribir las tuyas propias.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Ver más sobre la colección de oraciones</sentenceCollectorFragment>.
+
+## How does localization work
+
+about-playbook-how-localize = ¿Cómo funciona la localización de sitios web?
+about-playbook-how-localize-content-1 = La traducción del sitio web de Common Voice se realiza en <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Crea una cuenta</pontoonAccountLink> si aún no tienes una. A continuación, selecciona tu idioma <strong>(«Equipo»)</strong> y elige el proyecto <pontoonCvLink>Common Voice</pontoonCvLink>. Habrán archivos para traducir. Haz click en uno y aparecerán las palabras en inglés y un cuadro para traducirlas.
+about-playbook-how-localize-content-3 = La traducción es del inglés, pero puedes ver <strong>Sugerencias</strong> en otros idiomas. Haz clic en el icono de<strong>Perfil</strong>, luego en el enlace <strong>Configuración</strong> y añade los idiomas que hablas. En la esquina inferior derecha aparecerá una lista de traducciones llamada <strong>Configuración regional</strong>. Las traducciones se muestran en el sitio después de un día.
