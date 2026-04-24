@@ -13,6 +13,7 @@ data-bubble-title = <chizindikiro>uthenga</chizindikiro>
 data-bubble-subtitle = Nthawi ndi nthawi timatulutsa uthenga
 contact-us = Lumikizani nafe
 contact-us-title = Mukufuna kutenga nawo mbali pa ntchitoyi, kapena kugwirizana nafe?
+contact-us-email = Imelo: <emailFragment>commonvoice@mozilla.com</emailFragment>
 signup-input-placeholder = Lowesani imelo yanu
 signup-button-value = Tumizani ulalo ku imelo yanga
 footer-text-privacy = <privacyLink>Zachinsinsi</privacyLink>

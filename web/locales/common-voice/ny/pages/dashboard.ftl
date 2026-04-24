@@ -41,3 +41,6 @@ finish-editing = Malizitsani kusintha kaye?
 lose-changes-warning = Kuchoka tsopano kumatanthauza kuti mudzataya zosintha zanu
 build-custom-goal = Pangani cholinga chanu
 set-a-goal = Khazikitsani cholinga
+help-share-goal = Tithandizeni kupeza mawu ochuluka, gawanani cholinga chanu
+confirm-goal = Tsimikizani Cholinga
+goal-interval-weekly = Pasabata
