@@ -27,6 +27,8 @@ services:
   storage:
     image: fsouza/fake-gcs-server
     container_name: storage
+    volumes:
+      - ./docker/voice-clips:/storage/common-voice-clips
     networks:
       - voice-web
     command:
