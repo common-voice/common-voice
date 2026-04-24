@@ -83,3 +83,17 @@ about-playbook-how-localize = ¿Cómo funciona la localización de sitios web?
 about-playbook-how-localize-content-1 = La traducción del sitio web de Common Voice se realiza en <strong>Pontoon</strong>.
 about-playbook-how-localize-content-2 = <pontoonAccountLink>Crea una cuenta</pontoonAccountLink> si aún no tienes una. A continuación, selecciona tu idioma <strong>(«Equipo»)</strong> y elige el proyecto <pontoonCvLink>Common Voice</pontoonCvLink>. Habrán archivos para traducir. Haz click en uno y aparecerán las palabras en inglés y un cuadro para traducirlas.
 about-playbook-how-localize-content-3 = La traducción es del inglés, pero puedes ver <strong>Sugerencias</strong> en otros idiomas. Haz clic en el icono de<strong>Perfil</strong>, luego en el enlace <strong>Configuración</strong> y añade los idiomas que hablas. En la esquina inferior derecha aparecerá una lista de traducciones llamada <strong>Configuración regional</strong>. Las traducciones se muestran en el sitio después de un día.
+about-playbook-how-localize-content-4 = El sitio estará listo para su lanzamiento cuando alcance el 75 % de progreso.
+about-playbook-how-localize-content-5 = Vea nuestro vídeo explicativo para obtener ayuda.
+
+## How to add sentences
+
+about-playbook-how-add-sentences = ¿Cómo añado oraciones?
+about-playbook-how-add-sentences-content-1 = Puedes añadir oraciones en la página <writePageLink>Escribir</writePageLink> o revisar oraciones en la página <reviewPageLink>Revisar</reviewPageLink>.
+about-playbook-how-add-sentences-content-2 = Las oraciones deben ser revisadas y aceptadas por dos personas para poder incluirse en Common Voice. Puedes crear lineamientos para tu idioma <languageGuidelinesLink>aquí</languageGuidelinesLink>. Las oraciones deben ser de <licenseLink>dominio público</licenseLink> y tener menos de 15 palabras. Puede solicitar al propietario de un texto que lo convierta en <waiverLink>CC0 mediante nuestro proceso de renuncia</waiverLink> y enviárnoslo a commonvoice@mozilla.com.
+about-playbook-how-add-sentences-content-3 = Puedes utilizar el <scraperLink>Extractor de oraciones</scraperLink> para extraer frases cortas de Wikipedia.
+
+## How to record quality
+
+about-playbook-how-record-quality = ¿Cómo puedo crear una grabación de voz de alta calidad?
+about-playbook-how-record-content-1 = ¡Habla con tu voz normal! Aquí tu forma de hablar es bienvenida: queremos tu acento tal y como es, y queremos tu volumen, estilo y entonación habituales.
