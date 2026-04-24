@@ -97,3 +97,11 @@ about-playbook-how-add-sentences-content-3 = Puedes utilizar el <scraperLink>Ext
 
 about-playbook-how-record-quality = ¿Cómo puedo crear una grabación de voz de alta calidad?
 about-playbook-how-record-content-1 = ¡Habla con tu voz normal! Aquí tu forma de hablar es bienvenida: queremos tu acento tal y como es, y queremos tu volumen, estilo y entonación habituales.
+about-playbook-how-record-content-2 = Evita demasiado ruido de fondo: debe ser fácil escucharte.
+about-playbook-how-record-content-3 = Lee la oración con atención: no omitas, cambies ni añadas palabras.
+about-playbook-how-record-content-4 = Asegúrate de que la plataforma esté grabando antes de empezar a hablar y de que solo se detenga una vez que hayas terminado.
+about-playbook-how-record-content-5 = <accuracyLink>Más información sobre los criterios de precisión.</accuracyLink>
+
+## How to grow language
+
+about-playbook-how-grow-language = ¿Cómo podemos desarrollar eficazmente un idioma en Common Voice?
