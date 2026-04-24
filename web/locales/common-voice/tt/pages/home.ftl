@@ -114,11 +114,14 @@ answer = Җавап бирү
 ## Community section
 
 community-section-title-202601 = Дөньяның барлык берләшмәләрен хуплыйбыз: 290 телгә җиттек һәм бу сан үсә бара!
+join-discord-community = Discord берләшмәсенә кушылыгыз
 # label for button
 join-discord-community-action = Discord-та безгә кушылыгыз
+join-discord-community-content = Тел берләшмәсендәге фикер алышуларда катнашыгыз, сораулар бирегез һәм булачак чаралар, чыгышлар турында белеп торыгыз.
 find-us-on-matrix = Matrix'­та безне табыгыз
 # label for button
 find-us-on-element-action-1 = Element
+find-us-on-matrix-action-2 = Башка клиентлар
 ask-mozilla-share = Mozilla'дан чараларыгыз белән уртаклашуын сорагыз
 # label for button
 ask-mozilla-share-action = Чарагыз белән уртаклашу
