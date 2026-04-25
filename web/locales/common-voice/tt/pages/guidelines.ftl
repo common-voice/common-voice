@@ -106,8 +106,8 @@ tags-disfluency-explanation =
 tags-unclear-explanation = Аңлашылмый торган сүз яки сүзләр тезмәсе.
 # Note: do not translate any tag, like [noise] or [laugh]
 special-tags-example-2 =
-    Аннары мин [шау-шу] ялга киттем.
-    Ни инде, [шау-шу] [көлү] бу бөтенләй үк ял да түгел иде [көлү]
+    Аннары мин [noise] ялга киттем.
+    Ни инде, [noise] [laugh] бу бөтенләй үк ял да түгел иде [laugh]
 transcribe-the-audio-subheader-4-explanation-1-example = Аның исеме <underline>Ис- Искән-</underline> Искәндәр.
 transcribe-the-audio-subheader-4-explanation-2 = Кайвакыт сөйләүчеләр сүзне яки сүз кисәген берничә тапкыр кабатлый. Моны да язып алырга кирәк. Мисал:
 transcribe-the-audio-subheader-4-explanation-2-example = Аннары мин <underline>йокы йокы йокы бүл- йокы</underline> бүлмәсенә бардым.
