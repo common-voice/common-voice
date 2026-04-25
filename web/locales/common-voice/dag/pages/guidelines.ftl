@@ -184,6 +184,7 @@ transcribe-the-audio-subheader-4-explanation-2 = Saha shɛŋa ban yɛri yɛltɔ�
 ## Review the Transcription
 
 review-the-transcription = lab lihi a tɔɣasibu maa
+review-the-transcription-subheader = Bɛn kam gubu
 
 ## Code-Switching
 
