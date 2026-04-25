@@ -20,6 +20,14 @@ finance = Zachuma
 # Sentence Domain dropdown option
 history_law_government = Mbiri, Malamulo ndi Boma
 
+## BULK SUBMISSION
+
+select-file-mobile = Sankhani fayilo yoti Mutumize
+what-needs-to-be-in-file = Kodi ndi chiyani chomwe chiyenera kukhala mu fayilo yanga?
+upload-progress-text = Kutumiza kukupitilira...
+file-too-large = fayilo ndiyayikulu kwambiri
+file-too-small = Fayilo ndi yaying'ono kwambiri
+
 ## MENU ITEM TOOLTIPS
 
 add-sentences-menu-item-tooltip = Wonjezelani ziganizo
