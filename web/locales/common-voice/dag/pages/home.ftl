@@ -3,6 +3,7 @@
 home-title = Common Voice nyɛla Mozilla tuma din sɔŋdi maʒina ninsal'nima ni yɛri yɛltɔɣa shɛm.
 default-tagline = Mozilla Common Voice nyɛla tuun shɛli din sɔŋdi maʒina ninsal'nima ni yɛri yɛltɔɣa shɛm.
 home-cta = Yɛlima, tɔhimi kpe!
+wall-of-text-first = kukɔli nyɛla din pahi sal' biɛhigu puuni, kukɔli n-nyɛ daadam. Dinzuɣu ka ti niŋ suhupiɛlli ni ti yina ti nam tabibi tabibi kukɔli  din yɛn sɔŋdi ninsalinima n-ti ti maʒina. Amaa di yi yɛn nam kukɔli kpanjɔɣu, ban yɛn tum lala tuma maa tu ni bɛ mali kukɔya bɔbigu
 show-wall-of-text = Karimma m pahi
 help-us-title = Sɔŋmi ti ka bo dihitabili n-ti satara!
 speak-goal-text = Klipunima din yaai
