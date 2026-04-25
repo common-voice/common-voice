@@ -181,6 +181,10 @@ special-tags-example-2 =
 transcribe-the-audio-subheader-4-explanation-1-example = O yuli nyɛla <underline>Jo- Jona-</underline> Jonathan.
 transcribe-the-audio-subheader-4-explanation-2 = Saha shɛŋa ban yɛri yɛltɔɣa ni tooi labi boli bachi shɛŋa bu shɛm shɛm.Dinbɔŋɔ gba tu ni di mali  sɔŋ.Shɛhira
 
+## Review the Transcription
+
+review-the-transcription = lab lihi a tɔɣasibu maa
+
 ## Code-Switching
 
 code-switching = Zuliya yɛltɔɣa taɣibu
