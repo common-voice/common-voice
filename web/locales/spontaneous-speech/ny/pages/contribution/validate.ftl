@@ -9,4 +9,5 @@ validate-page-skip-button-shortcut = S
 ## Validation guidelines
 
 validation-guidelines-title = ndondomeko
+validation-guideline-3 = zophweka komanso zosavuta kut aliyense amvetse
 validation-guideline-4 = Ingayankhidwe m'ziganizo zingapo
