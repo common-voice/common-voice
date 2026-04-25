@@ -17,3 +17,9 @@ required-field = Chonde lembani gawo ili.
 agriculture_food = Ulimi ndi Chakudya
 # Sentence Domain dropdown option
 finance = Zachuma
+# Sentence Domain dropdown option
+history_law_government = Mbiri, Malamulo ndi Boma
+
+## MENU ITEM TOOLTIPS
+
+add-sentences-menu-item-tooltip = Wonjezelani ziganizo
