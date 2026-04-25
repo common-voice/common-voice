@@ -152,6 +152,7 @@ transcribe-the-audio-subheader-5 = sabbu min yɛli chirim ni colloquialisms
 transcribe-the-audio-subheader-1-explanation = Sokam saɣi ti,ni di tu ni a sabi binshɛgu kam a ni wum.Din boŋɔ pahila;
 transcribe-the-audio-subheader-1-explanation-example-1 = sab sɔŋ dolibu mini zaɣasibu ni labyɛli
 transcribe-the-audio-subheader-1-explanation-example-2 = Vuri yuya sabi pa laɣisi kamani kohigu bee lari
+transcribe-the-audio-subheader-1-explanation-example-4 = yɛltɔɣa pubu balibu ni lɔŋgolisibu tu ni di vɛli din niŋ sham. Di be tu ni a maanda be n taɣra niriba yɛlgu.
 # text wrapped in correct will be shown as green text in the UI
 transcribe-the-audio-subheader-2-example-1-correct = Di yɛla maali kubiga zaŋna ni kpe
 # text wrapped in wrong will be shown as red text in the UI
