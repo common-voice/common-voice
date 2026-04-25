@@ -199,6 +199,7 @@ code-switching-adding-question-criteria-2 = Di tu ni di mali anfaani
 code-switching-types-subheader = Bɔhigu bal' bo n lee tu ni di pahi
 code-switching-use-bilingual-prompts-explanation-example = Mma a yi paai yiŋa dindalimaa?
 code-switching-ask-bilingual-contexts-header = Bɔhimi zaŋ kpa Bala waliginsim palo
+code-switching-ask-bilingual-contexts-explanation-example = "A yi yɛn yɛli a dachahi, a yɛrila spanish min siliminsili?''
 code-switching-focus-emotional-explanation-example = Yɛlimima a laabi ni yɛlishɛm ani daa ti ba lahibali karili_bi ni daa kuli yɛlli shɛm"
 code-switching-cultural-topics-header = piimi karim yaɣili din jɛndi kayani ta-ada
 # What to Avoid
