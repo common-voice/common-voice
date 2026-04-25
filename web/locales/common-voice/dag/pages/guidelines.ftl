@@ -192,6 +192,7 @@ code-switching = Zuliya yɛltɔɣa taɣibu
 adding-a-question = bɔhigu pahibu
 # Adding a Question
 code-switching-adding-question-subheader = Bɔ n lee che ka bɔhigu nye bɔhi' maŋli
+code-switching-adding-question-explanation = bɔha maŋli zaŋ ti solo pahibu ni yɛltɔɣa laɣambu tu:
 code-switching-adding-question-criteria-1 = maami ani m baŋ ka saɣi ti
 code-switching-adding-question-criteria-2 = Di tu ni di mali anfaani
 # What types of questions to add
