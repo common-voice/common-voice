@@ -1,4 +1,4 @@
-import React from 'react'
+import * as React from 'react'
 import { Localized, useLocalization } from '@fluent/react'
 import { Link } from 'react-router-dom'
 import { Tooltip } from 'react-tooltip'
@@ -7,6 +7,7 @@ import classNames from 'classnames'
 import { ArrowRight } from '../../../ui/icons'
 
 import { useLocale } from '../../../locale-helpers'
+import { useFeature } from '../../../../contexts/feature-context'
 
 import URLs from '../../../../urls'
 
@@ -21,6 +22,7 @@ export const GetInvolvedSection: React.FC<Props> = ({
 }) => {
   const { l10n } = useLocalization()
   const [_, toLocaleRoute] = useLocale()
+  const spsQuestionPageEnabled = useFeature('sps-question-page')
 
   return (
     <section className="get-involved-section">
@@ -92,16 +94,18 @@ export const GetInvolvedSection: React.FC<Props> = ({
           </Localized>
           <div className="card-image spontaneous" />
           <ul>
-            <li>
-              <a href={URLs.QUESTION} target="_blank" rel="noreferrer">
-                <Localized id="answer-questions-link">
-                  <span id="answer-questions-link" />
-                </Localized>
-              </a>
-              <div className="arrow-container">
-                <ArrowRight />
-              </div>
-            </li>
+            {spsQuestionPageEnabled && (
+              <li>
+                <a href={URLs.QUESTION} target="_blank" rel="noreferrer">
+                  <Localized id="answer-questions-link">
+                    <span id="answer-questions-link" />
+                  </Localized>
+                </a>
+                <div className="arrow-container">
+                  <ArrowRight />
+                </div>
+              </li>
+            )}
             <li>
               <a href={URLs.TRANSCRIBE} target="_blank" rel="noreferrer">
                 <Localized id="transcribe-answers-link">
