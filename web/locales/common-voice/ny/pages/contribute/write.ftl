@@ -1,8 +1,12 @@
 ## WRITE PAGE
 
 write = Lemba
+write-instruction = Onjezani <icon></icon> chiganizo cha public domain
+write-page-subtitle = Ziganizo zomwe zaperekedwa pano ziwonjezedwa ku deta yovomerezeka ya cc-0 yomwe ikupezeka poyera.
 sentence =
     .label = Chiganizo
+sentence-input-placeholder = Lowetsani chiganizo chanu cha public domain apa
+small-batch-sentence-input-placeholder = Lowetsani ziganizo zanu zachinsinsi apa
 citation =
     .label = Kutchula
 sc-review-write-title = Ndi ziganizo ziti zomwe ndingawonjezere?
