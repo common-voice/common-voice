@@ -136,6 +136,8 @@ code-switching-tagging-error-2 = Язу хаталары
 code-switching-pronunciation-explanation = Кайбер сүзләр ике телдә дә бер үк төрле күренергә, ләкин төрлечә әйтелергә мөмкин.  Дөрес билгеләргә ярдәм итсен өчен, аларның әйтелешен тыңлагыз.  Мәсәлән: чемодан, казан, театр, мотор.
 code-switching-pronunciation-explanation-example-1 = Татарча: /ɕemoˈdɒn/
 code-switching-pronunciation-explanation-example-2 = Русча: /tɕɪmɐˈdan/
+# text wrapped in purple and blue will be shown with a purple and blue background in the UI respectively
+code-switching-punctuation-tagging-explanation-example-1 = <purple>һәм</purple> Мәрьямнең <purple>миңа кычкырган бердәнбер вакыты шул иде,</purple> <blue>потому что</blue> <purple>ул</purple> <blue>один</blue> <purple>заказны</purple> принтить <purple>итәргә тырыша иде.</purple> (BangorTalk)
 code-switching-punctuation-tagging-explanation-example-2 = <purple>ләкин</purple> <blue>ты можешь купить их красными, черными, синими</blue>, <purple>теләсә нәрсә.</purple> (BangorTalk)
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = Охшаш сүзләр белән сак булыгыз
