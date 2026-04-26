@@ -292,6 +292,7 @@ phl = Palula
 phr = Pahari-Pothwari
 pl = Polish
 plk = Kohistani Shina
+prq = Asheninka Perene
 ps = Pashto
 pt = Portuguese
 pua = Western Highland Purepecha
@@ -354,6 +355,7 @@ tig = Tigre
 tk = Turkmen
 tl = Tagalog
 tn = Setswana
+tob = Toba Qom
 tok = Toki Pona
 tr = Turkish
 ts = Xitsonga
@@ -425,3 +427,7 @@ not-available-abbreviation = မဟိပါ
 
 # Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>မိတ်ဆွေ အကူအညီကို</mark> <br/> <mark>အကျွန်ရို့ လိုအပ်ပါယေ။</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = အကျွန်ရို့ လုပ်ဆောင်စွာတိကို မှီခိုအားထားနိန်ရယေ ဘာသာစကား ၁၀၀ ကျော် အသိုင်းအဝိုင်းတိအတွက်၊ ဒေတာစုတိကို လက်ခံထားဖို့နန့် ပလက်ဖောင်းကို တိုးတက်ကောင်းမွန်ဇီဖို့အတွက် တနှစ်ကို ဒေါ်လာတသန်းနီးပါး ကုန်ကျပါယေ။ <strong>ပွင့်လင်းပနာ အားလုံး ပါဝင်ယေ ဒေတာတိကို မိတ်ဆွေ တန်ဖိုးထားကေ - အေနိ လှူဒါန်းပီးပါ!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>CV ကို မိတ်ဆွေ သုတေသနအတွက် အသုံးပြုနိန်ပါလား?</mark>
