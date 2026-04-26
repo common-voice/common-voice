@@ -141,6 +141,8 @@ code-switching-punctuation-tagging-explanation-example-1 = <purple>һәм</purpl
 code-switching-punctuation-tagging-explanation-example-2 = <purple>ләкин</purple> <blue>ты можешь купить их красными, черными, синими</blue>, <purple>теләсә нәрсә.</purple> (BangorTalk)
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = Охшаш сүзләр белән сак булыгыз
+code-switching-lookalikes-explanation-example-1 = «Сабантуй» рус сленгында «шаулы эчү кичәсе» дигәнне аңлата иде > русча дип билгелә
+code-switching-lookalikes-explanation-example-2 = «Кәнишна» татарчада кулланыла > татарча дип билгелә
 code-switching-not-tag-proper-names-example-1 = Кешеләр: Мәрьям, Булат
 code-switching-not-tag-proper-names-example-2 = Урыннар: Яр Чаллы, Казан
 code-switching-not-tag-proper-names-example-3 = Брендлар/Оешмалар:  Бәхетле, Түбәтәй
