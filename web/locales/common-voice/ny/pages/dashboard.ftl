@@ -96,3 +96,8 @@ recordings =
         [one] Zojambulajambula
        *[other] { "" }
     }
+validations =
+    { $count ->
+        [one] Kutsimikizira
+       *[other] { "" }
+    }

@@ -158,3 +158,8 @@ transcribe-audio-menu-item-tooltip = Lembani zojambulidwa za mawu
 ## MENU ITEM ARIA LABELS
 
 write-contribute-menu-aria-label = Lembani menyu ya zosankha
+add-sentences-menu-item-aria-label = Onjezani ziganizo zatsopano kuti anthu ammudzi aziwerenga
+review-sentences-menu-item-aria-label = Unikani ziganizo zomwe zaperekedwa ndi anthu ammudzi
+add-questions-menu-item-aria-label = Tumizani mafunso atsopano kuti anthu ammudzi awerenge ndikuyankha
+review-questions-menu-item-aria-label = Unikani ndi kuvotera mafunso atsopano omwe anthu ammudzi apereka
+transcribe-audio-menu-item-aria-label = Sinthani zojambula za mawu kukhala zolemba
