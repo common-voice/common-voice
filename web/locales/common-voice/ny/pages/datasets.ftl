@@ -23,16 +23,56 @@ size = Kukula
 validated-hr-total = Chiwerengero Chonse cha Maola Chotsimikizika
 overall-hr-total = Chiwerengero Chonse cha Maola
 cv-license = Chilolezo
+audio-format = Mtundu wa Audio
+dataset-splits = Kugawanika (Zaka ndi Jenda)
 number-of-voices = Chiwerengero cha Mawu
+splits = Kugawanika
+email-to-download = Lowetsani Imelo Kuti Mutsitse
+why-email = <b>N’chifukwa chiyani tikufuna imelo?</b> Tingafunike kulankhula nanu mtsogolomu za kusintha kwa deta, imelo imatipatsa malo oti tilumikizane nanu.
+why-donate-datasets-page = Mozilla Common Voice ndi gulu la anthu ambiri padziko lonse lapansi lomwe limagwiritsa ntchito njira zosiyanasiyana zolankhulirana - ndipo timathandizidwa ndi zopereka. Zimawononga pafupifupi madola miliyoni pachaka kuti tisunge deta ndikuwongolera nsanja ya anthu olankhula zinenero zoposa 100 omwe amadalira zomwe timachita. Ngati mumayamikira deta yotseguka komanso yophatikizapo - <b>perekani lero!</b>
+confirm-size = Mwakonzeka kuyambitsa kutsitsa <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
+confirm-no-identify = <b>Mukuvomereza</b> kuti musayese kudziwa olankhula mu deta ya Common Voice
+confirm-join-mailing-list = Mukufuna kulowa nawo mndandanda wa maimelo a Common Voice
+download-language = Tsitsani { $language }
+validated-hours = Maola Ovomerezeka
+recorded-hours = Maola Ojambulidwa
+whats-inside = Kodi mkati mwa deta ya Common Voice muli chiyani?
+dataset-description-hours =
+    Cholembedwa chilichonse mu deta chimakhala ndi MP3 yapadera ndi fayilo yofanana nayo. Maola ambiri a <b>{ $total }</b> olembedwa mu deta amaphatikizaponso metadata ya anthu monga zaka, kugonana, ndi katchulidwe ka mawu zomwe zingathandize kuphunzitsa kulondola kwa injini zozindikira mawu.
+    
+    Dongosololi pakadali pano lili ndi maola a <b>{ $valid }</b> ovomerezeka mu zilankhulo za <b>{ $languages }</b>, koma nthawi zonse timawonjezera mawu ndi zilankhulo zambiri. Yang'anani tsamba lathu la <languagesLink>Zilankhulo</languagesLink> kuti mupemphe chinenero kapena kuyamba kupereka.
+want-dataset-update = Mukufuna zosintha zatsopano tikatulutsa mtundu watsopano wa deta ya Common Voice? Lembetsani ku nkhani zathu.
+subscribe = Lembetsani
+get-started-speech = Yambani ndi Kuzindikira Kulankhula
+other-datasets = Ma Dataseti Ena a Mawu
 feedback-q = Muli ndi Ndemanga?
 # This indicates that there is no data to display
 no-information = palibe uthenga
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ndi chida chotseguka cha <docsLink></docsLink> cha ofufuza omwe amapanga mitundu yaukadaulo wamakono wa AI.
+resource-deepspeech-info = Injini yotsegulira mawu ya Mozilla yotchedwa Deep Speech ingagwiritsidwe ntchito popanga mapulogalamu ozindikira mawu. Werengani <githubLink>Github chidule chathu</githubLink> kapena lowani nawo <discourseLink>DeepSpeech Discourse</discourseLink> kuti mudziwe momwe mungayambire.
+resource-coqui-info = <coquiLink>Coqui</coquiLink> ndi yodzipereka pa ukadaulo wolankhula momasuka. Mapulojekiti awo akuphatikizapo mainjini a STT ndi TTS ophunzirira mozama.
+community-playbook = Buku Losewerera la Anthu Onse
+resource-playbook-info = <playbookLink>Pezani malangizo othandiza</playbookLink> paulendo wonse wa Common Voice, kuyambira pakusintha malo mpaka kugwiritsa ntchito deta, komanso momwe mungalumikizane ndi gulu lathu.
+data-other-librispeech-description = LibriSpeech ndi gulu la maola pafupifupi 1000 a mawu owerenga Chingerezi a 16Khz ochokera m'mabuku owerengedwa kuchokera ku pulojekiti ya LibriVox.
+data-other-ted-name = TED-LIUM Corpus
+data-other-ted-description = Cholembera cha TED-LIUM chinapangidwa kuchokera ku nkhani zomvetsera ndipo zolemba zake zimapezeka patsamba la TED.
+data-other-voxforge-description = VoxForge idakhazikitsidwa kuti isonkhanitse mawu olembedwa kuti agwiritsidwe ntchito ndi Free and Open Source Speech Recognition Engines.
+data-other-tatoeba-description = Tatoeba ndi nkhokwe yayikulu ya ziganizo, matanthauzidwe, ndi mawu olankhulidwa omwe amagwiritsidwa ntchito pophunzira zilankhulo. Koperani iyi ili ndi Chingerezi cholankhulidwa chomwe chajambulidwa ndi anthu ammudzi mwawo.
+your-feedback = Kodi muli ndi malingaliro amomwe tingapangire kuti deta ya Common Voice ikhale yabwino? Tidziwitseni pa Discourse
+go-discourse = Pitani ku Nkhani
+missing-language = Kodi simukuona chilankhulo chanu chikuonekera mu Dataset? Kuti mupemphe chinenero pitani patsamba lathu la Zilankhulo.
 go-languages-page = Pitani ku Tsamba la Zilankhulo
 ready-to-validate = Kodi mwakonzeka kuthandiza kutsimikizira ziganizo?
 more = Zambiri
+download = Tsitsani
 dataset-version = Mtundu
+sha256-checksum-copied = SHA256 Checksum Yakopedwa!
+sha256-checksum-copied-error = Yalephera kukopera SHA256 Checksum
+clipboard-not-supported = Bolodi yolumikizirana siithandizidwa
+no-information-available = Palibe zambiri zomwe zikupezeka
+dataset-metadata-sex = jenda
 # dataset metadata - age of contributor
 dataset-metadata-age = Zaka
 dataset-donate-modal-heading = Kodi mukudziwa…
