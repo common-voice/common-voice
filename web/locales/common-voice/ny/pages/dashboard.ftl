@@ -58,6 +58,10 @@ which-goal-type = Kodi mukufuna kulankhula,kunvetsela kapena zonse ziwiri?
 help-share-goal = Tithandizeni kupeza mawu ochuluka, gawanani cholinga chanu
 confirm-goal = Tsimikizani Cholinga
 goal-interval-weekly = Pasabata
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = Gawani cholinga cha tsiku ndi tsiku cha
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = Gawani cholinga chanu cha sabata ndi sabata cha
 share-goal-type-speak = Kuyankhula
 share-goal-type-listen = Kunvetsera
 share-goal-type-both = Kuyankhula ndi kunvetsela
