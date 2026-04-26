@@ -40,7 +40,15 @@ want-to-continue = Kodi mukufuna kupitiriza?
 finish-editing = Malizitsani kusintha kaye?
 lose-changes-warning = Kuchoka tsopano kumatanthauza kuti mudzataya zosintha zanu
 build-custom-goal = Pangani cholinga chanu
+help-reach-hours-general-pluralized =
+    { $hours ->
+        [one] Thandizani Common Voice kufikira maola m'chinenero ndi cholinga chaumwini.
+       *[other] { "" }
+    }
 set-a-goal = Khazikitsani cholinga
+cant-decide = Simungathe kusintha?
+activity-needed-calculation-fixed = Anthu 100 omwe amalemba ziganizo 100 patsiku amatha kupanga mawu maola 13. Kupitiriza ndi izi, maola 1000 akhoza kufikika pasanathe miyezi itatu.
+how-many-per-day = zabwino kwambiri! Kodi ma clip angati pa tsiku?
 which-goal-type = Kodi mukufuna kulankhula,kunvetsela kapena zonse ziwiri?
 help-share-goal = Tithandizeni kupeza mawu ochuluka, gawanani cholinga chanu
 confirm-goal = Tsimikizani Cholinga
