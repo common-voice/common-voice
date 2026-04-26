@@ -55,6 +55,11 @@ cant-decide = Simungathe kusintha?
 activity-needed-calculation-fixed = Anthu 100 omwe amalemba ziganizo 100 patsiku amatha kupanga mawu maola 13. Kupitiriza ndi izi, maola 1000 akhoza kufikika pasanathe miyezi itatu.
 how-many-per-day = zabwino kwambiri! Kodi ma clip angati pa tsiku?
 which-goal-type = Kodi mukufuna kulankhula,kunvetsela kapena zonse ziwiri?
+n-clips-pluralized =
+    { $count ->
+        [one] makanema
+       *[other] { "" }
+    }
 help-share-goal = Tithandizeni kupeza mawu ochuluka, gawanani cholinga chanu
 confirm-goal = Tsimikizani Cholinga
 goal-interval-weekly = Pasabata
@@ -65,8 +70,11 @@ share-n-weekly-contribution-goal = Gawani cholinga chanu cha sabata ndi sabata c
 share-goal-type-speak = Kuyankhula
 share-goal-type-listen = Kunvetsera
 share-goal-type-both = Kuyankhula ndi kunvetsela
+# LINK will be replaced with the current URL
+goal-share-text = Ndangopanga cholinga changa chopereka mawu ku #commonvoice- ndigwirizane nane ndikuthandizira kuphunzitsa makina momwee anthu enieni amalankhulira
 weekly-goal-created = cholinga chanu cha pa sabata iliyonse chapangidwa
 daily-goal-created = Cholinga chanu cha tsiku ndi tsiku chapangidwa
+track-progress = Tsatirani momwe zinthu  zikuyendera pano komanso patsamba lanu la ziwerengero.
 return-to-edit-goal = Bwererani kuno kuti musinthe cholinga chanu nthawi iliyonse.
 share-goal = Gawani cholinga changa
 
@@ -77,6 +85,11 @@ days =
     { $count ->
         [one] Tsiku
        *[other] Masiku
+    }
+recordings =
+    { $count ->
+        [one] Zojambulajambula
+       *[other] { "" }
     }
 validations =
     { $count ->
