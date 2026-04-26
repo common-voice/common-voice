@@ -104,6 +104,7 @@ contribution-misreadings-title = kuwerenga molakwika
 contribution-misreadings-description = tikamamvetsera, timaona bwinobwino kuti zomwe zatapidwa ndi zomwe zalembedwaso; kukana ngati pali zolakwika. <br />zolakwika monga
 contribution-misreadings-description-extended-list-1 = wasowa<strong>'A'<strong>kapena<strong>koyambilira ko tapa
 contribution-misreadings-description-extended-list-2 = kusowekela<strong>'s'<strong>komalizila kwa mawu
+contribution-misreadings-description-extended-list-3 = Kuwerenga mawu ofupikitsa omwe salipo kwenikweni, monga "Ife tili" m'malo mwa "Ife tili", kapena mosemphanitsa.
 contribution-misreadings-description-extended-list-4 = kuphonyana ndi mawu akumapeto podula kutepa mwachangu kwambiri
 contribution-misreadings-description-extended-list-5 = kuyesera kangapo kuwerenga liwu
 contribution-misreadings-example-1-title = ma dinosaurs akuluakulu a triassic

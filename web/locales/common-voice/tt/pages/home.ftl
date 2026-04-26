@@ -137,6 +137,7 @@ featured-section-title = Безнең турында язалар...
 
 read-sentences-link = Җөмләләрне уку
 answer-questions-link = Сорауларга җавап бирү
+press-and-stories-link = Матбугат һәм мәкаләләр
 
 ## Partner section
 
