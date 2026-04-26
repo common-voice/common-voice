@@ -325,7 +325,8 @@
                         fill: var(--blue);
                     }
 
-                    &.review-icon path {
+                    &.review-icon path,
+                    &.thumbsup-icon path {
                         fill: var(--light-purple);
                     }
                 }
