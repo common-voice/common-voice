@@ -3,6 +3,7 @@ speak-now = Хәзер сөйләгез
 speak-subtitle = Тавышыгызны иганә итегез
 record-cta = Яздыра башлау
 record-platform-not-supported = Гафу итегез, әмма Сезнең платформа әлегә танылмый.
+record-platform-webview = Бу биткә кушмтада социаль челтәрләр сылтамасы аркылы керергә була. Сез кушымтаның эчке браузерын кулланасыз, һәм ул аудио яздыру өчен кулланыла алмый.
 record-platform-not-supported-desktop = Өстәл компьютерларында Сез түбәндәгеләрнең иң соңгы версияләрен йөкләп ала аласыз:
 record-platform-not-supported-ios-non-safari = iOS'та тавыш яздыру өчен, зинһар Safari'ны кулланыгыз…
 record-must-allow-microphone = Сезнең микрофоныгызны куллануны рөхсәт итүегез кирәк.
@@ -10,6 +11,7 @@ record-no-mic-found = Микрофон табылмады.
 record-error-too-short = Аудиоязма артык кыска иде.
 record-error-too-long = Аудиоязма артык озын иде.
 record-error-too-quiet = Аудиоязмадагы тавыш артык тыныч иде.
+record-error-empty-recording = Бер тавыш та яздырылмады. Микрофоныгызның эшләвен тикшерегез һәм яңадан кабатлагызчы.
 record-error-unknown-format = Аудиоформатны танып булмады. Башка браузерны кулланып карагызчы.
 record-error-uploaded-clip-corrupted =
     Аудиоязмагыз бозылган ахрысы. Моның сәбәпләре түбәндә тасвирланган булуы ихтимал:

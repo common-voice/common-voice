@@ -13,11 +13,15 @@ listen-abort-cancel = Тикшерүне дәвам итү
 listen-abort-confirm = Тикшерүне тәмамлау
 # Menu item
 validate-readings = Әйтелешне тикшерү
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = Әйтелешне тикшерү <small>(Тиздән булачак)</small>
 
 ## MENU ITEM TOOLTIPS
 
 listen-contribute-menu-tooltip = Әйтелешне тикшерү, транскрипцияләрне тикшерү
+validate-readings-menu-item-tooltip = Кулланучылар телегездә ничек сөйләгәннәрен тикшерегез
 
 ## MENU ITEM ARIA LABELS
 
 listen-contribute-menu-aria-label = Тыңлау көйләүләре менюсы
+validate-readings-menu-item-aria-label = Берләшмә катнашучылары җибәргән әйтелешләрне тикшерү
