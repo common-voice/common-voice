@@ -4,7 +4,6 @@
 
 ## Languages
 
-aa = { "" }
 aat = Arvanitika
 ab = Abkhaz
 abb = Bankon
