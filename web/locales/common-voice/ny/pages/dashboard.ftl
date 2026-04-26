@@ -40,6 +40,11 @@ want-to-continue = Kodi mukufuna kupitiriza?
 finish-editing = Malizitsani kusintha kaye?
 lose-changes-warning = Kuchoka tsopano kumatanthauza kuti mudzataya zosintha zanu
 build-custom-goal = Pangani cholinga chanu
+help-reach-hours-pluralized =
+    { $hours ->
+        [one] Thandizani kufikira maola mu chiyankhulo ndi cholinga chanu.
+       *[other] { "" }
+    }
 help-reach-hours-general-pluralized =
     { $hours ->
         [one] Thandizani Common Voice kufikira maola m'chinenero ndi cholinga chaumwini.
@@ -53,6 +58,9 @@ which-goal-type = Kodi mukufuna kulankhula,kunvetsela kapena zonse ziwiri?
 help-share-goal = Tithandizeni kupeza mawu ochuluka, gawanani cholinga chanu
 confirm-goal = Tsimikizani Cholinga
 goal-interval-weekly = Pasabata
+share-goal-type-speak = Kuyankhula
+share-goal-type-listen = Kunvetsera
+share-goal-type-both = Kuyankhula ndi kunvetsela
 weekly-goal-created = cholinga chanu cha pa sabata iliyonse chapangidwa
 daily-goal-created = Cholinga chanu cha tsiku ndi tsiku chapangidwa
 return-to-edit-goal = Bwererani kuno kuti musinthe cholinga chanu nthawi iliyonse.
@@ -60,8 +68,14 @@ share-goal = Gawani cholinga changa
 
 ## Goals
 
+streaks = Mizere
 days =
     { $count ->
         [one] Tsiku
        *[other] Masiku
+    }
+validations =
+    { $count ->
+        [one] Kutsimikizira
+       *[other] { "" }
     }
