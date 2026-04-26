@@ -54,7 +54,12 @@ set-a-goal = Khazikitsani cholinga
 cant-decide = Simungathe kusintha?
 activity-needed-calculation-fixed = Anthu 100 omwe amalemba ziganizo 100 patsiku amatha kupanga mawu maola 13. Kupitiriza ndi izi, maola 1000 akhoza kufikika pasanathe miyezi itatu.
 how-many-per-day = zabwino kwambiri! Kodi ma clip angati pa tsiku?
+how-many-a-week = Zabwino kwambiri! Kodi ma clip angati pa sabata?
 which-goal-type = Kodi mukufuna kulankhula,kunvetsela kapena zonse ziwiri?
+receiving-emails-info = Pakadali pano mwakonzeka kulandira maimelo monga zikumbutso za zolinga, zosintha zanga pakupita patsogolo ndi makalata okhudza Common Voice.
+not-receiving-emails-info =
+    Pakadali pano mwakonzeka <bold>OSATI</bold> kulandira maimelo monga zikumbutso za zolinga,
+    zosintha zanga za kupita patsogolo ndi makalata okhudza Common Voice
 n-clips-pluralized =
     { $count ->
         [one] makanema
@@ -89,10 +94,5 @@ days =
 recordings =
     { $count ->
         [one] Zojambulajambula
-       *[other] { "" }
-    }
-validations =
-    { $count ->
-        [one] Kutsimikizira
        *[other] { "" }
     }
