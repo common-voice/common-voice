@@ -265,6 +265,10 @@ nhe = Eastern Huasteca Nahuatl
 nhi = Western Sierra Puebla Nahuatl
 nia = Nias
 nl = Dutch
+nla = Ngombale
+nlv = Orizaba Nahuatl
+nmg = Kwasio
+nmz = Losso
 nn-NO = Norwegian Nynorsk
 nnh = Ngiembon
 nqo = NKo
@@ -379,3 +383,18 @@ zza = Zaza
 
 # [/]
 
+
+## Layout
+
+profile = ပြိုဖိုင်း
+help = အကူအညီ
+contact = ဆက်သွယ်ဖို့
+privacy = ကိုယ်ရေးကိုယ်တာ
+terms = စည်းကမ်းချက်တိ
+cookies = ကုတ်ကီးတိ
+faq = မိန်းလေ့မိန်းထဟိယေ မေးခွန်းတိ
+documentation = စာရွက်စာတမ်း
+content-license-text = <licenseLink>Creative Commons လိုင်စင်</licenseLink> အောက်မှာ ရဟိနိုင်ယေ အကြောင်းအရာ
+share-title = အကျွန်ရို့ အသိုင်းအဝိုင်းနန့် ပူးပေါင်းပါ
+share-text = တကယ့်လူတိ ဇာပိုင် ပြောလဲဆိုစွာ စက်တိကို သင်ပီးဖို့ ကူညီပီးပါ၊ { $link } မှာ မိတ်ဆွေ အသံကို လှူဒါန်းပီးပါ။
+link-copied = လိင့်ခ်ကို ကူးယူဗြီးပါဗျာလ်
