@@ -286,8 +286,10 @@ os = Ossetian
 pa-IN = Punjabi
 pap = Papiamento
 pap-AW = Papiamento (Aruba)
+pcd = Picard
 pcm = Nigerian Pidgin English
 phl = Palula
+phr = Pahari-Pothwari
 pl = Polish
 plk = Kohistani Shina
 ps = Pashto
@@ -414,3 +416,12 @@ email-input =
 loading = တင်နိန်ပါယေ...
 email-opt-in-info = ရည်မှန်းချက် သတိပေးချက်တိ၊ အကျွန့် တိုးတက်မှု အပ်ဒိတ်တိနန့် Common Voice အကြောင်း သတင်းလွှာတိပိုင် အီးမေးလ်တိကို အကျွန် လက်ခံရယူချင်ပါယေ။
 email-opt-in-info-title = Common Voice မေးလ် စာရင်းထဲမှာ ပါဝင်ဖို့
+email-opt-in-info-sub-with-challenge = စိန်ခေါ်မှုတိနန့် ရည်မှန်းချက် သတိပေးချက်တိ၊ တိုးတက်မှု အပ်ဒိတ်တိနန့် Common Voice အကြောင်း သတင်းလွှာတိပိုင် အီးမေးလ်တိကို လက်ခံရယူပါ။
+email-opt-in-privacy-v2 = အီးမေးလ်တိ လက်ခံရယူဖို့ ရွေးချယ်စွာနန့် မိတ်ဆွေစွာ Mozilla <privacy Link>ကိုယ်ရေးအချက်အလက် မူဝါဒ</privacy Link> မှာ ရှင်းပြထားယေအတိုင်း Mozilla က ဒေအချက်အလက်ကို ကိုင်တွယ်စွာကို မိတ်ဆွေ သဘောတူယေလို့ ဖော်ပြရာ ရောက်ပါယေ။
+indicates-required = ကြယ်ပွင့် (*) နန့် မှတ်သားထားယေ နိန်ရာတိကို မဖြစ်မနိန် ဖြည့်ဖို့ လိုပါယေ။
+not-available-abbreviation = မဟိပါ
+
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = <mark>မိတ်ဆွေ အကူအညီကို</mark> <br/> <mark>အကျွန်ရို့ လိုအပ်ပါယေ။</mark>
