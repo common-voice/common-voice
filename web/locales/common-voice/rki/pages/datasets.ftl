@@ -51,4 +51,6 @@ feedback-q = တုံ့ပြန်ချက် ဟိပါလား?
 # This indicates that there is no data to display
 no-information = အချက်အလက်တိ မဟိပါ
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ စွာ ခေတ်မီ စကားပြောဆိုယေ AI မော်ဒယ်တိကို တီထွင်နိန်ယေ သုတေသီတိအတွက် <docsLink>open-source toolkit</docsLink> တခု ဖြစ်ပါယေ။
-resource-deepspeech-info = Mozilla က open source အသံ မှတ်မိယေ အင်ဂျင် Deep Speech ကို အသံမှတ်မိယေ အပလီကေးရှင်းတိ တည်ဆောက်ဖို့အတွက် အသုံးပြုနိုင်ပါယေ။ အကျွန်ရို့ <githubLink>Github ခြုံငုံသုံးသပ်ချက်</githubLink> ကို ဖတ်ကြည့်ပါ ဝါ စပနာ အသုံးပြုနည်းကို လေ့လာဖို့ <discourseLink>DeepSpeech Discourse</discourseLink> မှာ ပါဝင်ပါ။
+resource-deepspeech-info = Mozilla က open source အသံ မှတ်မိယေ အိန်ဂျိန် Deep Speech ကို အသံမှတ်မိယေ အပလီကေးရှင်းတိ တည်ဆောက်ဖို့အတွက် အသုံးပြုနိုင်ပါယေ။ အကျွန်ရို့ <githubLink>Github ခြုံငုံသုံးသပ်ချက်</githubLink> ကို ဖတ်ကြည့်ပါ ဝါ စပနာ အသုံးပြုနည်းကို လေ့လာဖို့ <discourseLink>DeepSpeech Discourse</discourseLink> မှာ ပါဝင်ပါ။
+resource-coqui-info = <coquiLink>Coqui</coquiLink> စွာ open speech နည်းပညာအတွက် ရည်ရွယ်ပါယေ။ ယင်းသူရို့ ပရောဂျက်တိမှာ deep learning ကို အခြေခံထားယေ STT နန့် TTS အိန်ဂျိန်တိ ပါဝင်ပါယေ။
+community-playbook = အသိုင်းအဝိုင်း လမ်းညွှန်စာအုပ်
