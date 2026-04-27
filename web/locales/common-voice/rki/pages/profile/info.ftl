@@ -1,0 +1,45 @@
+## ProfileForm
+
+profile-form-username =
+    .label = အသုံးပြုယေ လူ နာမေ
+profile-form-native-language =
+    .label = မွီးရပ် ပြောယေ ဘာသာစကား
+profile-form-additional-language =
+    .label = တခြား ပြောယေ ဘာသာစကား
+profile-form-variant =
+    .label = ဇာ { $language } က ခွဲထွက်လာယေ စကားကို ပြောစွာပါလဲ?
+profile-form-variant-default-value = ဇာ မူကွဲစကားလည်း ရွီးမထားပါ
+profile-form-accent =
+    .label = လီယူလီသိမ်း
+profile-form-custom-accent-help-text =
+    .label = မိတ်ဆွေ လီယူလီသိမ်းကို ဇာပိုင် ဖော်ပြပါဖို့လဲ?
+profile-form-custom-accent-placeholder-2 = မိတ်ဆွေေ လီယူလီသိမ်းကို ဖော်ပြဖို့ စပနာ စာရိုက်ပါ
+profile-form-age =
+    .label = အသက်
+profile-form-gender-2 =
+    .label = ကျားမ ဝါ လိင်
+leaderboard-visibility =
+    .label = Leaderboard Visibility
+hidden = ကွယ်ထားယေ
+visible = မြင်နိုင်ယေ
+native-language =
+    .label = မွီးရပ် ပြောယေ ဘာသာစကား
+profile-form-add-accent = စိတ်ကြိုက် အသံထွက် အသစ် "{ $inputValue }" ထည့်ပါ
+profile-form-submit-save = သိမ်းဆည်းပါ
+profile-form-submit-saved = သိမ်းဆည်းဗြီးပါဗျာလ်
+why-profile-title = ဇာဖြစ်လို့ ပြိုဖိုင်း တခု လိုလဲ?
+why-profile-text = မိတ်ဆွေ ကိုယ်တိုင်အကြောင်း အချက်အလက်တချို့ကို ပီးပနာ Common Voice ကို မိတ်ဆွေ တင်သွင်းယေ အသံဒေတာ တိကျမှုကို မြှင့်တင်ဖို့ ဒေဒေတာကို အသုံးပြုယေ Speech Recognition အင်ဂျင်တိအတွက် ပိုပနာ အသုံးဝင်ပါဖို့။
+dashboard = ဒက်ရှ်ဘိုး
+build-profile = ပြိုဖိုင်း တည်ဆောက်ပါ
+avatar = အာ့ဗာတာ
+goals = ရည်မှန်းချက်တိ
+settings = ဆတ်တိန်းတိ
+edit-profile = ပြိုဖိုင်းကို ပြန်ပြင်ပါ
+# Genders
+male_masculine = ယောက်ျား/ယောက်ျား ပီသယေ
+female_feminine = မမက်/မမက် ပီသယေ
+intersex = ယောက်ျား မမက် တွဲယေ လူ
+transgender = လိင်ပြောင်းထားယေ လူ
+non-binary = ယောက်ျား မမက် မဟုတ်ယေ လူ
+do_not_wish_to_say = မပြောချင်ပါ
+other = တခြား
