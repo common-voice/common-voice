@@ -3,6 +3,7 @@ import { Localized, WithLocalizationProps } from '@fluent/react'
 
 import { ContributeMenuItem } from '.'
 import { MenuItemRenderer } from './menu-item-renderer'
+import { useAllFeatures } from '../../../../contexts/feature-context'
 
 type Props = {
   contributeMenuItems: ContributeMenuItem[]
@@ -18,8 +19,12 @@ export const MenuContent = ({
   getString,
   toggleMenu,
 }: Props) => {
-  const isItemVisible = (item: ContributeMenuItem) =>
-    (item.requiresAuth && isUserLoggedIn) || !item.requiresAuth
+  const features = useAllFeatures()
+
+  const isItemVisible = (item: ContributeMenuItem) => {
+    if (item.requiresFeature && !features[item.requiresFeature]) return false
+    return (item.requiresAuth && isUserLoggedIn) || !item.requiresAuth
+  }
 
   const visibleMenuItems = contributeMenuItems.filter(isItemVisible)
 
