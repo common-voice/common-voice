@@ -50,7 +50,6 @@ x-years-short =
        *[other] سال { $count }
     }
 help-make-dataset = اعلٰی معیار کی ، عوامی طور پر کھلا ڈیٹاسیٹ بنانے میں ہماری مدد کریں
-sign-up-account = ایک اکاؤنٹ کے لئے سائن اپ کریں
 
 ## Account Benefits
 
