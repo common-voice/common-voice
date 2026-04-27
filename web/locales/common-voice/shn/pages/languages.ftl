@@ -1,6 +1,8 @@
 ## Languages Overview
 
 language-section-launched = ပိုတ်ႇတူဝ်ယဝ်ႉ
+language-search-input =
+    .placeholder = သွၵ်ႈႁႃ
 contribute = ၸွႆႈထႅမ်
 get-involved-button = ၶဝ်ႈႁူမ်ႈပႃး
 get-involved-title = ၸွႆႈထႅမ်ပၼ်ၽႃႇသႃႇ { $lang }

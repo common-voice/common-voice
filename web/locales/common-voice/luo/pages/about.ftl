@@ -92,7 +92,6 @@ about-playbook-how-grow-language-content-1 = Yawo thuolo ne oganda mopogore opog
 about-playbook-how-grow-language-content-2 = Chenro
 about-playbook-how-grow-language-content-4 = Oinga mag tudruok e mbui
 about-playbook-how-grow-language-content-6 = Riuruok kod tudruok
-about-playbook-how-grow-language-content-8 = <strong>Ti gi rieko!</strong> Joma wacho dhou biro bedo mopogore kod mamoko, kendo magi mana yore matin manyalo konyou chako.
 
 ## How to validate
 

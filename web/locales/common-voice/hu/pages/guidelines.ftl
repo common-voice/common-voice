@@ -205,6 +205,7 @@ transcribe-the-audio-subheader-4-explanation-1-example = A neve <underline>Já- 
 transcribe-the-audio-subheader-4-explanation-2 = Néha a beszélők többször megismételnek egy szót vagy szótöredéket. Ezt is át le kell iratozni. Példa:
 transcribe-the-audio-subheader-4-explanation-2-example = Aztán átmentem <underline>a háló- a</underline> hálószobába
 transcribe-the-audio-subheader-5-explanation-1 = A spontán beszéd természetesen tartalmaz nyelvtani hibákat. Ezeket nem szabad a leiratozáskor javítani. A leiratnak pontosan tükröznie kell az elhangzott tartalmat.
+transcribe-the-audio-subheader-5-explanation-2 = A beszélők használhatnak olyan kollokvializmusokat (például: „azér”, „vót” stb.), amelyek formailag nem tekinthetőek helyesnek. Ezeket úgy kell leiratozni, ahogy vannak, és nem szabad a formális megfelelőjükre cserélni őket.
 
 ## Review the Transcription
 

@@ -105,7 +105,6 @@ about-playbook-how-grow-language-content-4 = social media
 about-playbook-how-grow-language-content-5 = Maa social media platformićing cum taxpan oocuas maamaybaan. nukirimin oor oocin daa osin ke gute bes awaaji bila nuse ḍaa baaṣine haqate, ućhare AI, techulo skills ate hihin cum ḍuġaruśume hurutiṅ. mazeed śalda hamase gane daa social campaignan egucarćar ulum content hike duro sućar khole bareniṅ [campaign link]
 about-playbook-how-grow-language-content-6 = gati numa duro etas daa networks
 about-playbook-how-grow-language-content-7 = men osulu balaaśo baan ke u duysin. akʰiljuko univiersitimiulo, baaṣe schoolingulo, ḍaa advocacy group daa data science ulo umayman. maa bes daa belate mariin ce duunṣ oomaybaan ke oopaćar namaanin osulo obiśain. mii outreach templatar ke barenin [outreach template]
-about-playbook-how-grow-language-content-8 = maa baaṣ etas sis xaas omayman daa kaman ṭariqan bican duro ce duuyar
 
 ## How to validate
 

@@ -6,6 +6,7 @@ language-section-launched = Lanserad
 language-section-launched-description = För dessa lanserade språk har webbplatsen blivit <localizationGlossaryLink>översatt</localizationGlossaryLink> och har tillräckligt med <sentenceCollectionGlossaryLink>meningar insamlade</sentenceCollectionGlossaryLink> för att tillåta bidrag för <talkLink>Röst</speakLink> och <listenLink>Lyssna</listenLink>.
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
 language-section-last-updated = Senast uppdaterad: { $lastUpdatedTimeStamp }
+language-communities = Vänligen överväg att lägga till dina community-kanaler i <communitiesLink>COMMUNITIES.md dokumentet på GitHub</communitiesLink>.
 languages-show-more = Visa mer
 languages-show-less = Visa mindre
 language-meter-in-progress = Förlopp

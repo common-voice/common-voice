@@ -119,7 +119,6 @@ about-playbook-how-grow-language-content-4 = Media sokial
 about-playbook-how-grow-language-content-5 = Gallout a rit implijout ar rouedadoù sokial evit bezañ klevet gwelloc'h. Embann traoù evit displegañ perak eo pouezus d'an dud kemer perzh ha mont e darempred gant tud all dedennet gant, da skouer, ar gwirioù yezhel, an naouegezh artifisiel pe ar c'hraksoñjoù e-keñver an deknologiezh. Sellit ouzh kuzulioù ouzhpenn war <campaignLink>aozañ ur c'houlzad war ar rouedadoù, o lakaat e-barzh elfennoù a c'hallit adimplijout war-lerc'h</campaignLink>.
 about-playbook-how-grow-language-content-6 = Kevelerien ha rouedadoù
 about-playbook-how-grow-language-content-7 = Kavit tud all zo prederiet evedoc'h ivez. Gallout a ra bezañ skolioù-meur, skolioù yezh, strolladoù stourm evit ar yezh pe kumuniezhioù skiantel diwar-benn ar roadennoù. Kit e darempred ganto ha displegit dezho penaos e c'hallont sikour ac'hanoc'h ha perak. <outreachTemplates>Taolit ur sell war hor patromoù  posteloù kizidikaat</outreachTemplates>.
-about-playbook-how-grow-language-content-8 = <strong>Un tamm ijin !</strong> Dibar e vo ho kumuniezh yezh deoc'h hag an dra-se n'eo nemet un nebeud alioù evit kregiñ ganti.
 
 ## How to validate
 

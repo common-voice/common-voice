@@ -117,7 +117,6 @@ about-playbook-how-grow-language-content-4 = Sociaj retoj
 about-playbook-how-grow-language-content-5 = Vi povas uzi viajn sociajn reton por diskonigi la mesaĝon. Dividu mesaĝojn, kiuj klarigas kial ĝi gravas kaj kontaktu aliajn personojn kiuj priparolas temojn, kiel ekzemple lingvajn rajtojn, A.I. voĉon, aŭ antaŭjuĝojn en teknologio. Vidu pli da konsiloj pri <campaignLink>kiel ruli socian kampanjon, kun enhavo kiun vi povas reuzi</campaignLink>.
 about-playbook-how-grow-language-content-6 = Kunlaboro kaj retoj
 about-playbook-how-grow-language-content-7 = Trovu aliajn homojn, kiuj zorgas. Povus temi pri universitatoj, lingvolernejoj, aktivulaj grupoj aŭ datumsciencaj komunumoj. Kontaktu ilin kaj bone klarigu kiel ili povas helpi kaj kial. <outreachTemplates>Vidu niajn ŝablonajn varbajn retmesaĝojn</outreachTemplates>.
-about-playbook-how-grow-language-content-8 = <strong>Estu kreema!</strong> Via lingva komunumo estos unika, kaj ĉi tiuj estas nur kelkaj manieroj komenci.
 
 ## How to validate
 

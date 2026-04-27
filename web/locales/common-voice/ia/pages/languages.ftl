@@ -6,6 +6,7 @@ language-section-launched = Lanceate
 language-section-launched-description = Le sito web ha essite <localizationGlossaryLink>localisate</localizationGlossaryLink> con successo pro iste linguas lanceate, e il ha satis <sentenceCollectionGlossaryLink>phrases colligite</sentenceCollectionGlossaryLink> pro permitter le contributiones continue de <speakLink>Parlar</speakLink> e <listenLink>Ascoltar</listenLink>.
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
 language-section-last-updated = Ultime actualisation: { $lastUpdate }
+language-communities = Considera adder tu canales de communitate al documento <communitiesLink>COMMUNITIES.md sur GitHub</communitiesLink>.
 languages-show-more = Vider plus
 languages-show-less = Vider minus
 language-meter-in-progress = Progresso

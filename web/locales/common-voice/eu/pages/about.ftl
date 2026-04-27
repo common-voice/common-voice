@@ -102,7 +102,6 @@ about-playbook-how-grow-language-content-1 = Jende anitzari Common Voicen ekarpe
 about-playbook-how-grow-language-content-2 = Ekitaldiak
 about-playbook-how-grow-language-content-4 = Sare sozialak
 about-playbook-how-grow-language-content-6 = Lankidetzak eta sareak
-about-playbook-how-grow-language-content-8 = <strong>Izan sortzailea!</strong> Zure hizkuntza-komunitatea bakarra da eta hauek lanean hasteko modu batzuk baino ez dira.
 
 ## How to validate
 

@@ -69,6 +69,8 @@ cjk = Chokwe
 ckb = Soranice
 cnh = Hakha Chin
 co = Korsikaca
+cpx = Heng Hua
+cpy = Asheninka Güney Ucayali
 crh = Kırım Tatarcası
 cs = Çekçe
 cut = Teutila Cuicatec
@@ -117,8 +119,12 @@ gaa = Ga
 gej = Mina
 ggg = Gurgula
 gid = Guidar
+gig = Goaria
+giz = Guiziga
+gjk = Kachhi
 gju = Gujari
 gl = Galiçyaca
+glk = Gilaki
 gn = Guarani
 gom = Goan Konkani
 gos = Gronings
@@ -131,6 +137,8 @@ gwt = Gawarbaiti
 gya = Kuzeybatı Gbaya
 ha = Hausaca
 hac = Goranice
+hak = Hakka
+haz = Hazargi
 hch = Wixárika
 he = İbranice
 hem = Kihemba
@@ -145,6 +153,7 @@ hu = Macarca
 hux = Nüpode Huitoto
 hy-AM = Ermenice
 ia = Interlingua
+iba = Iban
 ibb = Ibibio
 id = Endonezce
 ie = Interlingue
@@ -154,6 +163,7 @@ is = İzlandaca
 it = İtalyanca
 izh = İngrice
 ja = Japonca
+jam = Jamaika Patois'i
 jbo = Lojban
 jgo = Ngomba
 jqr = Jaqaru
@@ -416,6 +426,21 @@ announcement-mdc-text = <strong>Yeni Common Voice veri kümeleri</strong> artık
 announcement-mdc-button-text = Mozilla Data Collective'e Katılın
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = Yeni sekmede açılır
+
+## Release Delay Announcement
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-delay = Sevgili topluluk, şu anda bu sürümün yayınlanması için çalışıyoruz. Önümüzdeki günlerde <mdcLink>Mozilla Data Collective</mdcLink>'te aşamalı olarak kullanıma sunulmasını bekliyoruz.
+
+## Release Announcement
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release = Sevgili topluluk üyeleri, yeni sürüm artık <mdcLink>Mozilla Data Collective</mdcLink>'te tam olarak kullanıma sunuldu. Topluluk tarafından ve topluluk için oluşturulan 500'den fazla küresel veri setine erişmek için üye olun.
+
+## Pre-Release Announcement (dates TBD)
+
+# Text wrapped in <cvDatasheetsLink></cvDatasheetsLink> will be rendered as an external link to the cv-datasheets GitHub repo
+announcement-pre-release = Sevgili topluluk, sürüm yayınlanma zamanı yaklaşıyor. Lütfen doğrulama ve transkripsiyon işlemlerini gerçekleştirin ve ayrıca <cvDatasheetsLink>cv-datasheets</cvDatasheetsLink> sayfasını ziyaret ederek veri sayfanızı güncelleyin.
 
 ## Common Language/Dataset Selector & SearchBox Related
 

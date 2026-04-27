@@ -1,0 +1,30 @@
+## Profile Download
+
+download-q = မိတ်ဆွေ ဒေတာကို ဒေါင်းလုဒ် လုပ်ဖို့ လိုအပ်ပါလာ?
+download-info = ဇာကို ဒေါင်းလုဒ် လုပ်ချင်စွာလဲဆိုစွာ ပြောပြပါ -
+download-profile-title = ပြိုဖိုင်း
+download-profile-info = အီးမေးလ်၊ အသုံးပြုယေ လူ နာမေနန့် လူဦးရေဆိုင်ယေ အချက်အလက်တိ ပါဝင်ပနာ၊ ချက်ချင်း ရဟိနိုင်ပါယေ
+download-profile-size = bytes အနည်းချေ
+download-recordings-title = အသံသွင်းထားစွာတိ
+download-recordings-info = mp3 တိနန့် ဆက်စပ် စာကြောင်းတိ ပါဝင်ယေအတွက်၊ ပြင်ဆင်ဖို့ အချိန် တစိချေ ကြာနိုင်ပါယေ
+download-recordings-size = ပုံမှန်ဆိုကေ megabytes တိ
+download-recordings-unavailable = တခြား တောင်းဆိုမှုတခု လုပ်နိန်ချိန်မှာ၊ မိတ်ဆွေ အသံသွင်းစွာကို တောင်းဆိုလို့ မရပါ။
+download-recently-requested = မိတ်ဆွေ အသံသွင်းထားစွာတိကို { $days } ရက်တိုင်းမှာ အသစ် ထုတ်ယူဖို့ တောင်းဆိုနိုင်ပါယေ။
+download-size = အရွယ်အစား
+download-selected = ရွီးထားယေ
+download-start = ပြိုဖိုင်း ဒေတာကို ဒေါင်းလုဒ် လုပ်ပါ
+download-request = အသံသွင်းထားစွာတိကို တောင်းဆိုပါ
+download-requests = အယင် အသံသွင်းထားစွာတိကို ဒေါင်းလုဒ် လုပ်ဖို့ တောင်းဆိုစွာတိ
+download-requests-info = မိတ်ဆွေ အသံသွင်းထားစွာတိကို တောင်းဆိုယေခါ၊ အကျွန်ရို့ ယင်းကို ZIP ဖိုင်တခု ဝါ တခုထက် ပိုယေ ဖိုင်တိအဖြစ် စုစည်းပီးပါယေ။ မိတ်ဆွေ အယင် တောင်းဆိုထားစွာတိက အောက်ကအတိုင်း ဖြစ်ပါယေ -
+download-request-button = ဒေါင်းလုဒ် လုပ်ပါ
+download-request-title = { $created }
+download-request-description = { $clipCount } အသံဖိုင်တိ၊ ထိန်းသိမ်းထားယေ မှတ်တမ်းတိ၊ စုစုပေါင်း အရွယ်အစား { $size }။ သက်တမ်း ကုန်ဖို့ရက် { $expires }။
+download-request-archive-single = ZIP ဖိုင်တခုတည်းမှာ ပါနိန်ယေ
+download-request-archive-multiple = ZIP ဖိုင်တိအဖြစ် { $archiveCount } ခု ပိုင်းထားပနာ ပါနိန်ယေ
+download-request-assembling-description = မိတ်ဆွေ ဖိုင်တိကို စုစည်းနိန်ပါယေ။ နောက်မှ ထပ်စစ်ကြည့်ပါ။
+download-request-refresh-button = ပြန်ပနာ အသစ် စလုပ်ပါ
+download-request-modal-title = ဒေါင်းလုဒ် လိင့်ခ်တိ
+download-request-modal-description = ZIP ဖိုင်တိကို ဒေါင်းလုဒ် လုပ်ဖို့ လိင့်ခ်တိက ဒေမှာပါ။
+download-request-link-text = { $total } အထဲက Zip #{ $offset }
+download-request-metadata-link = စာကြောင်း စာသား
+download-request-link-single = မိတ်ဆွေ အကြိုက်ဆုံး download manager ထဲကို ဒါရိုက် URL တိကို ကူးယူလားပနာ paste လုပ်နိုင်ပါယေ။ အေဟင့်တိစွာ ၁၂ နာရီအတွင်း သက်တမ်း ကုန်လားဖို့ ဖြစ်ကေလည်း ဇာအချိန်မှာမဆို အသစ်တိ ထုတ်ယူဖို့ ဒေစာမျက်နှာကို ပြန်လာနိုင်ပါယေ။

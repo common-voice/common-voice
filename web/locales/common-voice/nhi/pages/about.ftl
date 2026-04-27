@@ -83,7 +83,6 @@ about-playbook-how-grow-language-content-2 = ilhuitl
 about-playbook-how-grow-language-content-3 = huilis ticchihuas ilhuitl para tiquin palehuis masehualmeh matech palehuican. cachi isiuhca quenitinimilia, huilis quichihuas ichin linea icase tipospalehuil nexitlahtol o sehseh masehual tlaohcon cachicuali <eventTemplate> xiquita tu plantillas huan icatleno secpalehuia sechihuas ilhuitl</eventTemplate
 about-playbook-how-grow-language-content-5 = huilis ticuis plataformas de redes sociales para ticxixinis tlahtol. xitemaca publicaciones campa muquihto queye simi importante huan ximonohnotsa ihuan ocsiqueh masehualmeh para tiquinohnotsas quemen derechos den tlahtol. tlahtol o tenunuts ican tiposmeh. xiquita cachi yectlahtol ika <campaignLink> xicchihua se campaña masehual ican tiquitl tlen ochuilis tiquicuis </campaignLink>
 about-playbook-how-grow-language-content-7 = xiquimahsi ocsiqueh masehualmeh tlen monimilican. huilis isqui ichin universidades, calmachtilistlahtol, nichico masehual palehuani o nichicomasehual ciencia. ximonohnotza huan xictelhui coali queni huilisqueh palehuisqueh huan queyeh <outreachTemplates> xiquimita tu plantillas de correos electronicos de tlanonots</outreachTemplates>
-about-playbook-how-grow-language-content-8 = <strong>xi tlanimililyuli</strong>munichicomasehual tlahtol isqui sanse, huan nicancateh sansiqui forma de quenin pehuas
 
 ## How to validate
 

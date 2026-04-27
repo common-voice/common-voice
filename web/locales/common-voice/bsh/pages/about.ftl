@@ -105,7 +105,6 @@ about-playbook-how-grow-language-content-4 = معاشرتی میڈیا
 about-playbook-how-grow-language-content-5 = شا یاستہ وری پل ورں تہ پعواستہ کہ معاشرتی میڈیا استعمال کو بتعں۔ اوجستہ پوسٹ شیئر کشعں چہ امیکاں ستہ اہمیت کائ اسہ، ورے ستہ حقوق، اے آئ کوٹہ ستہ مسائلہ بارا تہ ولہتت با امکیاں مع ربطہ کشعں۔ <campaignLink> سماجی مہم چلاستہ کہ مذید مشورہ ایݩش کشعں امیکاں مع ارگݩہ امکی موادہ دبارہ استعمال کو بتعں۔</campaignLink>
 about-playbook-how-grow-language-content-6 = پلائی وار دے نیٹورک
 about-playbook-how-grow-language-content-7 = امکیاں ویݩش کشیعں کاچی پرواہ کوتہت با۔ یونیورسٹی، ورے ستہ سکول، وکالتہ ستہ گروپ یا ڈیٹا سائنس کمیونٹی بولہ آئی۔ امکیاں تہ پاعں چہ امکی کا مدد کوتہت او کائی کہ مدد کوتہت۔<outreachTemplates>ایموستہ ٹیمپلیٹ اوٹ ریچ ای میل ایݩش کشعݩ۔</outreachTemplates>
-about-playbook-how-grow-language-content-8 = <strong>تحلیق ایپعں</strong> شاستہ ورے وا منچی منفرد بولہ، او اچی شروع کوستہ ستہ طریقہ آئی۔
 
 ## How to validate
 

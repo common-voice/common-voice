@@ -1,7 +1,9 @@
 ## Home page
 
+welcome-to-spontaneous-speech = Chào mừng đến với Lời nói tự phát
 # <br></br> represents a newline break
 wall-of-text = Dự án Common Voice đang ra mắt một nền tảng thứ hai, tập trung vào việc thu thập các bài nói tự nhiên, không theo kịch bản. Điều này sẽ giúp nhiều cộng đồng thu thập dữ liệu nhanh hơn, đồng thời giúp ích cho các nhà khoa học dữ liệu và nhà phát triển.
+why-spontaneous-speech = Vì sao chúng tôi xây dựng nguyên mẫu Lời nói tự phát này
 # text wrapped with <mark></mark> will have a light red background
 why-card-1-text = Hữu ích cho <mark>các ngữ cảnh nói tự nhiên<mark> và các trường hợp sử dụng (ví dụ: khi bạn muốn chức năng nhận dạng giọng nói hoạt động với những người nói không có kịch bản trước và theo cách nói thông thường)
 # text wrapped with <mark></mark> will have a light red background
@@ -27,6 +29,8 @@ data-bubble-subtitle = Chúng tôi phát hành tập dữ liệu định kỳ
 contact-us = Liên hệ với chúng tôi
 contact-us-title = Bạn quan tâm đến việc tham gia vào dự án này hoặc hợp tác với chúng tôi?
 contact-us-email = Email: <emailFragment>commonvoice@mozilla.com</emailFragment>
+signup-form-title = Bạn đã tham gia nhóm Thử nghiệm beta cho dự án Lời nói tự phát của Common Voice chưa?
+signup-terms = Bằng cách nhấp vào “Gửi liên kết đến email của tôi”, bạn đồng ý với <termsLink>Điều khoản dịch vụ</termsLink> và <privacyLink>Chính sách bảo mật</privacyLink> của chúng tôi và Mozilla có thể gửi email cho bạn thông tin về cách tham gia Nhóm Thử nghiệm beta cho dự án Lời nói tự phát thuộc Common Voice.
 signup-input-placeholder = Nhập email của bạn
 signup-button-value = Gửi liên kết đến email của tôi
 footer-text-privacy = <privacyLink>Quyền riêng tư</privacyLink>

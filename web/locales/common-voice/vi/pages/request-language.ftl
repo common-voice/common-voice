@@ -33,5 +33,29 @@ request-language-success-list-3 =
 request-language-error =
     Chúng tôi có thể đã không nhận được yêu cầu đó. Vui lòng gửi email trực tiếp cho chúng tôi
     trên <emailLink>{ $email }</emailLink> và chúng tôi sẽ liên hệ lại với bạn!
+request-for-scripted-speech-toggle = Yêu cầu cho Lời nói theo kịch bản
+request-for-spontaneous-speech-toggle = Yêu cầu cho Lời nói tự phát
 need-help-deciding-platform = Bạn cần trợ giúp để quyết định nên chọn cái nào?
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = <strong>Lời nói theo kịch bản</strong> (theo truyền thống, đó là điều mà bạn biết đến với tên gọi Common Voice) là nơi bạn có thể đọc to các câu bằng ngôn ngữ của mình.
+need-help-deciding-platform-explanation-2 = <strong>Lời nói tự phát</strong> là một tính năng mới của Common Voice, nơi bạn có thể trả lời các câu hỏi một cách tự nhiên và gần gũi hơn.
 need-help-deciding-platform-explanation-3 = Nếu bạn không thấy ngôn ngữ của mình ở bất kỳ phần nào của nền tảng, hãy chọn cả hai.
+request-language-search-bar = Bạn có thể bắt đầu nhập tên ngôn ngữ của mình tại đây; nếu ngôn ngữ đó chưa có trên Common Voice, bạn có thể điền vào biểu mẫu với dữ liệu về ngôn ngữ của mình.
+request-language-found-pontoon-not-launched =
+    Ngôn ngữ của bạn đã có trong danh sách ngôn ngữ Common Voice. 
+    Bạn có thể hỗ trợ việc ra mắt ngôn ngữ cho <strong>lời nói theo kịch bản (Scripted Speech)</strong> bằng cách bản địa hoá
+    giao diện nền tảng <pontoonLink>tại đây</pontoonLink>. Giao diện cần được bản địa hóa 60%; 
+    ngoài ra, bạn cũng có thể chỉ bản địa hoá các chuỗi ký tự cơ bản trong ‘web/locales/en/pages/contribute/*.ftl’ đạt tiến độ 100% 
+    (có năm tập tin như vậy), và giao diện đã dịch sẽ được khởi chạy tự động.
+request-language-found-cv-contribution =
+    Chúc mừng! Ngôn ngữ của bạn đã có mặt trên Common Voice <strong>lời nói theo kịch bản</strong>. 
+    Bạn có thể đóng góp <homePageLink>tại đây</homePageLink>.
+request-language-found-cv-sentences-lack =
+    Ngôn ngữ của bạn đã có trong danh sách ngôn ngữ Common Voice.
+    Bạn có thể hỗ trợ việc ra mắt ngôn ngữ cho <strong>lời nói theo kịch bản</strong> bằng
+    các câu đóng góp <sentencesContributionLink>tại đây</sentencesContributionLink>.
+request-language-found-spontaneous-speech =
+    Ngôn ngữ của bạn hiện đã có trên Common Voice <strong>lời nói tự phát</strong>. 
+    Nhấp <spontaneousSpeechLink>vào đây</spontaneousSpeechLink> để đóng góp: dừng quên thay đổi ngôn ngữ đóng góp/bộ dữ liệu trước khi bắt đầu đóng góp!
+request-language-already-available-scs = Đã có sẵn Lời nói theo kịch bản
+request-language-already-available-sps = Đã có sẵn Lời nói tự phát

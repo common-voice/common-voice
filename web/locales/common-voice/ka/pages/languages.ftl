@@ -6,6 +6,7 @@ language-section-launched = გაშვებულია
 language-section-launched-description = მოცემულ ენებზე ვებსაიტი სრულადაა <localizationGlossaryLink>თარგმნილი</localizationGlossaryLink> და <sentenceCollectionGlossaryLink>წინადადებებიც საკმარისადაა </sentenceCollectionGlossaryLink>შეგროვებული ხმის <speakLink>ჩაწერისა</speakLink> და ჩანაწერების <listenLink>მოსმენისთვის</listenLink>.
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
 language-section-last-updated = ბოლო განახლება: { $lastUpdatedTimeStamp }
+language-communities = სასურველია, ერთობასთან დასაკავშირებელი არხები დაამატოთ <communitiesLink>დოკუმენტში COMMUNITIES.md GitHub-ზე</communitiesLink>.
 languages-show-more = ვრცლად
 languages-show-less = შემოკლებულად
 language-meter-in-progress = მიმდინარეობა

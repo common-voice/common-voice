@@ -121,7 +121,6 @@ about-playbook-how-grow-language-content-4 = Media shoqërore
 about-playbook-how-grow-language-content-5 = Mund të përdorni platforma mediash shoqërore për të përhapur fjalën. Ndani me të tjerët postime që shpjegojnë pse kjo punë ka rëndësi dhe lidhuni me persona të tjerë që flasin për çështje të tilla si të drejta gjuhësore, AI zërash, ose anësi në fushën e teknologjisë. Shihni më tepër këshilla mbi <campaignLink>zhvillimin e një fushate shoqërore, përfshi lëndë që mund ta ripërdorni</campaignLink>.
 about-playbook-how-grow-language-content-6 = Partneritete dhe rrjete
 about-playbook-how-grow-language-content-7 = Gjeni të tjerë që e kanë për zemër këtë punë. Mund të jenë universitete, shkolla gjuhësh, grupe veprimtarësh apo bashkësi shkencash që merren me të dhëna. Drejtojuni dhe shpjegoni qartë se si mund t’ju ndihmojnë dhe pse. <outreachTemplates>Shihni gjedhet tona email për të shtrirë përfshirjen</outreachTemplates>.
-about-playbook-how-grow-language-content-8 = <strong>Bëhuni krijues!</strong> Bashkësia e gjuhës tuaj do të jetë unike dhe këto janë thjesht vetëm pak rrugë si t’ia fillohet.
 
 ## How to validate
 

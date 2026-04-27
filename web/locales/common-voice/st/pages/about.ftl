@@ -124,7 +124,6 @@ about-playbook-how-grow-language-content-4 = Metjha ya ditaba ya setjhaba
 about-playbook-how-grow-language-content-5 = O ka sebedisa marang-rang a setjhaba ho fetisa molaetsa. Arolelana diposo tse hlalosang hore na ke hobaneng ho le bohlokwa, mme ikopanye le batho ba bang ba buang ka ditaba tse kang ditokelo tsa puo, AI ya lentswe, kapa leeme kahara thekenoloji. Sheba dikeletso tse ding mabapi le<campaignLink> ho tsamaisa letsholo la setjhaba, ho kenyelletsa le ditaba tseo o ka di sebedisang hape</campaignLink>.
 about-playbook-how-grow-language-content-6 = Dikamano le marang-rang
 about-playbook-how-grow-language-content-7 = Batla ba bang ba tsotellang. Bao e ka ba diunivesithi, dihlopha tsa babuelelli kapa dihlopha tsa mahlale a data. Ikopanye le bona mme o hlalose hantle na bona ba ka thusa jwang le hobaneng. <outreachTemplates>Sheba mehlala ya rona ho di-imeile tsa phihlello</outreachTemplates>.
-about-playbook-how-grow-language-content-8 = <strong>E-ba le boiqapi!</strong> Puo ya heno e tla ikgetha, mme tsena ke ditsela tse seng kae feela tsa ho qalalella.
 
 ## How to validate
 

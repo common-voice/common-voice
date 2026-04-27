@@ -12,6 +12,14 @@ record-no-mic-found = Không tìm thấy micrô.
 record-error-too-short = Bản ghi âm quá ngắn
 record-error-too-long = Bản ghi âm quá dài
 record-error-too-quiet = Bản ghi âm không có tiếng
+record-error-empty-recording = Không thu được âm thanh. Vui lòng kiểm tra micrô và thử lại.
+record-error-unknown-format = Không thể xác định định dạng âm thanh. Vui lòng thử sử dụng một trình duyệt khác.
+record-error-uploaded-clip-corrupted =
+    Bản ghi âm của bạn dường như đã bị lỗi. Điều này có thể xảy ra do:
+    • Vấn đề tương thích trình duyệt (hãy thử sử dụng một trình duyệt khác)
+    • Sự cố với micrô hoặc trình điều khiển (driver) âm thanh
+    • Gián đoạn kết nối mạng trong quá trình ghi âm
+    Vui lòng thử ghi âm lại.
 record-cancel = Hủy ghi lại
 record-instruction = { $actionType }<recordIcon></recordIcon> sau đó đọc to câu
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> khi hoàn thành

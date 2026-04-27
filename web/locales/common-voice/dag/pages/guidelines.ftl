@@ -27,6 +27,7 @@ varying-pronunciations-explanation-2 = Din lahi pahi,a yi tiɛhi ni ŋun karindi
 varying-pronunciations-example = Lala soli maa daa bi ne n do polo ni.
 varying-pronunciations-tip-1 = Kanada silimiinsili ni tooi mam "route"kumsi Kamani "rowt"]
 varying-pronunciations-tip-2 = Britin nim Silimiinsili ni tooi mam"wulli"]
+offensive-content-explanation = Yaltɔɣa mali dihitabili diyitikana tinkpansi -lɛbgimsi soya,amaa sodolisi ŋɔ bɛ zani n tuhi viɛnyɛla.Ayi nyɛ bee n wum yɛltɔɣa din kperi a nisalini beei din yiɣisiri a suhu.kamani mŋahinli ti <participationGuidelines> tinkpansi pahibu so gugulisi</participationGuidelines>
 misreadings-explanation-1 = paaji maani yɛltɔɣa maa zaa karimbu nyɛla din kpa.A yi wumda, lihimi viɛnyɛla  ka bɛ ni yɛli shɛli mini bɛ ni sabi shɛli zaa kuli nyɛ yim; zaɣisimli bɛ yi pahi shɛli, n nam shɛli bee n yihi shɛli.
 misreadings-explanation-2 = Chiriŋ shɛŋa din tooi bɛni n-nyɛ;
 misreadings-explanation-3 = A yi bi tooi boli 'A'bee 'The' vulibu maa piligu.
@@ -41,6 +42,7 @@ misreadings-example-4 = Sodoligu
 misreadings-tip-1 = Sodoligu
 misreadings-tip-2 = ['a'ka tuuli yɛltɔɣa maa ni]
 misreadings-tip-3 = (lahabaya dim bi doli taba )
+background-noise-explanation = Di tumi ni a wum bachi kam ayi ti vulindi yɛltɔɣa.Ti bɔrila ma zin shɛŋa din yɛn tooi yihiri vuri mini yili bihi din be vulibu maa ni.Amaa yili shɛŋa mini vu shɛba din ku tooi taɣ' di wumbu ni  deei li.
 background-noise-example-1 = Sodoligu
 background-noise-example-2 = Sodoligu
 background-noise-example-3 = Sodoligu
@@ -67,13 +69,18 @@ sentence-domain = Yɛltɔɣili ni yi yaɣ' shɛli na
 ## Sentence collection sidebar content
 
 public-domain-explanation-1 = Di tu kamata ni satarili kam din yɛri yɛltɔɣa niŋ bayana n-ti sokam<publicDomain>sokam<publicDomain>(<cc0>cco<\<cc0>) kaman common voice tuma din laɣim taba ni bahi lansiisi ŋɔ gbunni cco.kuly vulimi yɛltɔɣa shɛŋa a ni dihitabili ka pahiri luɣi shɛli a ni nya li
+public-domain-explanation-2 = Yɛltɔɣi shɛli din gahim zaŋ kana yɛltɔɣa yalibu buŋbu mazena din yuli booni clloquial,mordern parlance.Pahigu shɛŋa din yɛn soŋa ka tooi bo yɛltɔɣa nya
+public-domain-explanation-3 = Malimi colloquial yɛltɔɣa a maŋmaŋa bee a zo bee yɛltɔɣa dundɔna- kamani Shahira din yi  daŋ sabbu beni boli shɛli write-a-thon'
+public-domain-explanation-4 = Bɔmi ban sabi buku,ban yuli ka sabi bee ban zaŋ nuchebaŋ mŋaa foto ka bɔhi n nya ban deei yi ni be tuma maa bɛla n ti sakam zaa
 public-domain-explanation-5 = Bɔmi satarili shɛli din lahi ka labiniŋ.mŋahinli buku sheŋa din daa sabi poi ni yuuni 1920
 public-domain-explanation-6 = kpaŋmi a maŋa m paai gomnanti,zen n gama laɣinsi bee poham zuɣu laɣinsi n nŋa a ni tooi zaŋ sodoligu ŋɔ wuhi bee ninvuɣ' shɛbi ni tooi wuhi ti sokam zaa.
 citing-sentences-explanation-1 = Di mali bukaata ni ti wuhiri ti tumma bɛhisi shee din yan che ka ti vihiri lala yɛltɔɣa be maa sokam zaa sa ni ka paɣasiriba bi tooi nŋari paɣasira
 citing-sentences-subheader-websites = Wɛbsaatinima
 citing-sentences-subheader-websites-explanation = A ni tooi pahi wɛbsaati, kotomsi "Common Voice - https://commonvoice.mozilla.org/"
 citing-sentences-subheader-academic-reference = Kundivihira
+citing-sentences-subheader-academic-reference-explanation = Ani tooi zaŋ shikuru baŋsim soli,kami Harvard mini Mozila (2021)soli kukoli yinsi.org/(Accessed:15th September2021)
 citing-sentences-subheader-offline-sources = Din ka pɔhim zuɣu yibu na shee
+citing-sentences-subheader-offline-sources-explanation = Zaŋ kpa sokam tɔhi sabi talim Poham zuɣu,a ni tooi zaŋ shikuru baŋsim sodolisi kamani Harvard ni Jess(2021)
 citation =
     .label = Dini yi shɛli na
 self-citation = Mammaŋ shɛhira
@@ -141,8 +148,11 @@ transcribe-the-audio-subheader-1 = So'dola
 transcribe-the-audio-subheader-2 = nambanima mini bachi ŋmahi
 transcribe-the-audio-subheader-3 = Tikpara gahinda
 transcribe-the-audio-subheader-4 = Bachi piribu,ʒiri pilli,labiyaai bachinima.
+transcribe-the-audio-subheader-5 = sabbu min yɛli chirim ni colloquialisms
 transcribe-the-audio-subheader-1-explanation = Sokam saɣi ti,ni di tu ni a sabi binshɛgu kam a ni wum.Din boŋɔ pahila;
+transcribe-the-audio-subheader-1-explanation-example-1 = sab sɔŋ dolibu mini zaɣasibu ni labyɛli
 transcribe-the-audio-subheader-1-explanation-example-2 = Vuri yuya sabi pa laɣisi kamani kohigu bee lari
+transcribe-the-audio-subheader-1-explanation-example-4 = yɛltɔɣa pubu balibu ni lɔŋgolisibu tu ni di vɛli din niŋ sham. Di be tu ni a maanda be n taɣra niriba yɛlgu.
 # text wrapped in correct will be shown as green text in the UI
 transcribe-the-audio-subheader-2-example-1-correct = Di yɛla maali kubiga zaŋna ni kpe
 # text wrapped in wrong will be shown as red text in the UI
@@ -171,18 +181,25 @@ special-tags-example-2 =
 transcribe-the-audio-subheader-4-explanation-1-example = O yuli nyɛla <underline>Jo- Jona-</underline> Jonathan.
 transcribe-the-audio-subheader-4-explanation-2 = Saha shɛŋa ban yɛri yɛltɔɣa ni tooi labi boli bachi shɛŋa bu shɛm shɛm.Dinbɔŋɔ gba tu ni di mali  sɔŋ.Shɛhira
 
+## Review the Transcription
+
+review-the-transcription = lab lihi a tɔɣasibu maa
+review-the-transcription-subheader = Bɛn kam gubu
+
 ## Code-Switching
 
 code-switching = Zuliya yɛltɔɣa taɣibu
 adding-a-question = bɔhigu pahibu
 # Adding a Question
 code-switching-adding-question-subheader = Bɔ n lee che ka bɔhigu nye bɔhi' maŋli
+code-switching-adding-question-explanation = bɔha maŋli zaŋ ti solo pahibu ni yɛltɔɣa laɣambu tu:
 code-switching-adding-question-criteria-1 = maami ani m baŋ ka saɣi ti
 code-switching-adding-question-criteria-2 = Di tu ni di mali anfaani
 # What types of questions to add
 code-switching-types-subheader = Bɔhigu bal' bo n lee tu ni di pahi
 code-switching-use-bilingual-prompts-explanation-example = Mma a yi paai yiŋa dindalimaa?
 code-switching-ask-bilingual-contexts-header = Bɔhimi zaŋ kpa Bala waliginsim palo
+code-switching-ask-bilingual-contexts-explanation-example = "A yi yɛn yɛli a dachahi, a yɛrila spanish min siliminsili?''
 code-switching-focus-emotional-explanation-example = Yɛlimima a laabi ni yɛlishɛm ani daa ti ba lahibali karili_bi ni daa kuli yɛlli shɛm"
 code-switching-cultural-topics-header = piimi karim yaɣili din jɛndi kayani ta-ada
 # What to Avoid
@@ -206,5 +223,7 @@ code-switching-pronunciation-explanation-example-2 = Spanish: /ˈkable/
 code-switching-lookalikes-header = Niŋmi zaɣa ni bin yɛra shɛŋa din mŋani taba
 code-switching-not-tag-proper-names-example-1 = Niriba: Maria, John
 code-switching-not-tag-proper-names-example-2 = Tiŋsi: Los Angeles, Florida
+code-switching-not-tag-interjections-example-1 = "Eh”
 code-switching-not-tag-interjections-example-2 = "Aayi"
 code-switching-not-tag-interjections-example-3 = "Iin"
+code-switching-not-tag-interjections-example-4 = “Er”

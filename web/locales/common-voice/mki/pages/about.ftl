@@ -124,7 +124,6 @@ about-playbook-how-grow-language-content-4 = سماجي ميڊيا
 about-playbook-how-grow-language-content-5 = اوهان پيغام حاصل ڪرڻ لاء سوشل ميڊيا پليٽ فارم استعمال ڪري سگهو ٿا. پوسٽون شيئر ڪرو جڪي وضاحت ڪي ٿا ته او ڪئ ضروري هي، ۽ ٻين ماڻهن سان رابطي ۾ حاصل ڪرو جيڪي مسئلن بابت ڳالهائي رهيا هي،  جهڙوڪ ٻولي ري حقن، آواز AI، يا ٽيڪنالاجي ۾ تعصب. وڌيڪ صلاح ڏسو <campaignLink>سماجي مهم هلائڻ، جڪي ۾ مواد اوهان ٻيهر استعمال ڪري سگهو ٿا</campaignLink>.
 about-playbook-how-grow-language-content-6 = ڀائيواري ۽ نيٽ ورڪ
 about-playbook-how-grow-language-content-7 = ٻيجا نا ڳوليو جيڪي خيال رکي. او ٿي سگهي ٿو يونيورسٽيون، ٻولي اسڪول، وڪيل گروپ يا ڊيٽا سائنس ڪميونٽي. ٻاهر وڃو ۽ واضح طور تي وضاحت ڪرو ته هي ڪيئن مدد ڪري سگهي ٿا ۽ ڪئ. <outreachTemplates>ڏ يکو اسان ري ٽيمپليٽ outreach اي ميلون</outreachTemplates>.
-about-playbook-how-grow-language-content-8 = <strong>تخليق حاصل ڪرو!</strong> اوهان ري ٻولي ڪميونٽي منفرد هوسي، ۽ اي شروع ڪرڻ را صرف چند طريقا ھي.
 
 ## How to validate
 

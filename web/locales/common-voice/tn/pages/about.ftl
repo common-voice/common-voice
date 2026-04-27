@@ -124,7 +124,6 @@ about-playbook-how-grow-language-content-4 = Metswedi ya go Ikgolaganya
 about-playbook-how-grow-language-content-5 = O ka dirisa metswedi ya mafaratlhatlha a boitapoloso go fetisa molaetsa. Abalana mekwalo e e bontshang gore ke eng go le botlhokwa, mme o golagane le batho ba bangwe ba ba buang ka dikgang tse di jaaka ditshwanelo tsa puo, lentswe, kgotsa go tlhoka tekatekano mo thekenolojing. Bona dikakantsho tse dingwe ka <campaignLink>go dira letsholo, go akaretsa tshedimosetso e o ka e dirisang gape</campaignLink>.
 about-playbook-how-grow-language-content-6 = Ditirisanommogo le dineteweke
 about-playbook-how-grow-language-content-7 = Bona ba bangwe ba ba amegang. E ka nna diyunibesithi, dikolo tsa dipuo, ditlhopha tsa dikemedi kgotsa merafe ya tshedimosetso ya saense. Dira sengwe mme o tlhalose sentle gore ba ka thusa jang le gore ka ntlha yang. <outreachTemplates>Bona diimeile tsa rona tsa thempoleite ya go thusa</outreachTemplates>.
-about-playbook-how-grow-language-content-8 = <strong>Itlhamele!</strong> Batho ba ba buang puo ya gago ba tlile go tlhomologa, mme tseno ke ditsela di le mmalwa tsa go simolola.
 
 ## How to validate
 

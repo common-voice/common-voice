@@ -21,6 +21,7 @@ export type ContributeMenuItem = {
   externalHref?: string
   icon: React.ComponentType
   requiresAuth?: boolean
+  requiresFeature?: string
   menuItemTooltip: string
   menuItemAriaLabel: string
   type: 'scripted' | 'spontaneous' | 'general'
@@ -92,12 +93,6 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
     )
   }
 
-  const visibleMenuItems = isUserLoggedIn
-    ? menuItems
-    : menuItems.filter(
-        item => (item.requiresAuth && isUserLoggedIn) || !item.requiresAuth
-      )
-
   return (
     <div className="contribute-wrapper">
       <div id="contribute-btn-wrapper">
@@ -139,7 +134,7 @@ const ContributeMenu: React.FC<ContributeMenuProps> = ({
           <div
             className="menu-wrapper-mobile"
             data-testid="contribute-mobile-menu"
-            style={{ height: `${48 * visibleMenuItems.length}px` }}>
+>
             <ContributeMenuContent
               pathname={location.pathname}
               className="mobile-menu-list"

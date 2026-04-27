@@ -107,7 +107,6 @@ about-playbook-how-grow-language-content-2 = Aktîvîteyî
 about-playbook-how-grow-language-content-4 = Medyaya sosyale
 about-playbook-how-grow-language-content-6 = Hemparî û torrî
 about-playbook-how-grow-language-content-7 = Kesê ke na babete de eleqedar benê, înan bivîne. Ha unîversîte bo, ha mektebê ziwanî bo, ha grûbêka eleqedare yan zî komelêkê zanyarî bo. Birese înan û bi teferuat îzah bike ke çira û senî eşkenê hetkarî bikerê. <outreachTemplates>Seba têkilîronayîşî, tîya nimûneyê ma yê e-maîlî est ê</outreachTemplates>.
-about-playbook-how-grow-language-content-8 = <strong>Viraştox be!</strong> Komelê ziwanê to do bêemsal bo û nê tena tayê rayîrê destpêkerdişî yê.
 
 ## How to validate
 

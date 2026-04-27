@@ -121,7 +121,6 @@ about-playbook-how-grow-language-content-4 = سوشل میڈیا
 about-playbook-how-grow-language-content-5 = تُو حال پُہچاݨ واسطے سوشل میڈیا تا استعمال کر سڳدا ہیں۔ ہو پوسٹس لال جا ڈسیندیان کہ ہے چھے ݙے ضروری ہے۔ ٻیا ٻولی تے حقوق، ٻولی اے آئی، یا ٹیک تی وِچ ضِد جینے مسئلے تے باریک ڳاھلݨ واسطے ٻئے تُمن ساں حال وال کر۔ <campaignLink>سماجی مہم تے باریک مزید حال کر، بشمول ہو مواد جا تو وتا استعمال کر سڳدا ہیں</campaignLink>۔
 about-playbook-how-grow-language-content-6 = سنڳت ٻیا نیٹ ورکس
 about-playbook-how-grow-language-content-7 = ٻے کہینک بَھنؤا جا پروا کندین ہے۔ یونیورستیاں، ٻولی تے سکول، وکالت والے ٹولے یا ڈیٹا سائنس برادری تھی سڳدیاں ہین۔ توڑیں پہنچے ٻیا صحیح ݙس کہ ہو کُکر مدد کر سڳدے ہین ٻیا چھے ݙے <outreachTemplates>اَساں جی آؤٹ ریچ سانچہ حد ای میلز لال</outreachTemplates>۔
-about-playbook-how-grow-language-content-8 = <strong>جوڑݨ والا جوڑ!</strong> تا جی ٻولی تی برادری ہِک جینی وئے، ٻیا ہے شروع کرݨ تی کُجھ طریقے ہِن۔
 
 ## How to validate
 

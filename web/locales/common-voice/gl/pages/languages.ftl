@@ -6,6 +6,7 @@ language-section-launched = En produción
 language-section-launched-description = Os idiomas en produción teñen a páxina web completamente <localizationGlossaryLink>traducida</localizationGlossaryLink> e contan con suficientes <sentenceCollectionGlossaryLink>frases recollidas</sentenceCollectionGlossaryLink> para aceptar contribucións de <speakLink>Fala</speakLink> e <listenLink>Escoita</listenLink>.
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
 language-section-last-updated = Última actualización: { $lastUpdatedTimeStamp }
+language-communities = Pode engadir as canles da súa comunidade ao <communitiesLink>documento COMMUNITIES.md en GitHub</communitiesLink>.
 languages-show-more = Ver máis
 languages-show-less = Ver menos
 language-meter-in-progress = Progreso

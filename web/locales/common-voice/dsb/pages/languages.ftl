@@ -6,6 +6,7 @@ language-section-launched = Startowany
 language-section-launched-description = Za toś te aktiwizěrowane rěcy jo se websedło wuspěšnje <localizationGlossaryLink>lokalizěrowane</localizationGlossaryLink>, a ma dosć <sentenceCollectionGlossaryLink>zběranych sadow</sentenceCollectionGlossaryLink>. aby se pśichodne pśinoski za <speakLink>powědanje</speakLink> a <listenLink>słuchanje</listenLink> dowólili.
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
 language-section-last-updated = Slědna aktualizacija: { $lastUpdatedTimeStamp }
+language-communities = Pšosym rozwažćo <communitiesLink>dokumentoju COMMUNITIES.md na GitHub</communitiesLink> swóje kanale zgromaźeństwa pśidaś.
 languages-show-more = Wěcej pokazaś
 languages-show-less = Mjenjej pokazaś
 language-meter-in-progress = Póstup

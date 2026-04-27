@@ -118,7 +118,7 @@ about-playbook-how-grow-language-content-4 = Medios social
 about-playbook-how-grow-language-content-5 = Tu pote usar platteformas de medios social pro diffunder le message. Comparti messages que explica su importantia e entra in contacto con altere personas pro discuter problemas como derectos linguistic,  intelligentia artificial vocal, o prejudicios in le technologia. Vide plus de consilios sur <campaignLink>gerer un campania social e obtener contento que tu pote re-usar</campaignLink>.
 about-playbook-how-grow-language-content-6 = Societates e retes
 about-playbook-how-grow-language-content-7 = Trova alteres qui cura. Que pote esser universitates, scholas de linguas, gruppos de propugnation o communitates de scientia de datos. Attinge les e explica clarmente como illes pote adjutar e perque. <outreachTemplates>Vide nostre e-mails modello de divulgation</outreachTemplates>.
-about-playbook-how-grow-language-content-8 = <strong>Sia creative!</strong> Tu communitate linguistic sera unic, e istos es solo alcun manieras pro comenciar.
+about-playbook-how-grow-language-content-8-v2 = <strong>Sia creative!</strong> Tu communitate linguistic sera unic, e ecce justo alcun manieras pro initiar. Considera adder tu canales de communitate al documento <communitiesLink>COMMUNITIES.md sur GitHub</communitiesLink>.
 
 ## How to validate
 

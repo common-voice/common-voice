@@ -110,7 +110,6 @@ about-playbook-how-grow-language-content-4 = سوشل میڈیو
 about-playbook-how-grow-language-content-5 = تم پیغام چلان واسطے سوشل میڈیا کو طریقو بے استعمال کر سکے ۔اپنی پوسٹ دوجاں تا پوہچا سکے تے وضاحت کر سکے کہ مسلو کیوں ہے، تے رابطہ ما رہ سکے دُوجا لوکاں کے نال جہڑا مسائل پو گل کرے جس طرح زبان کو حق ، اے ون وا ز  یا ٹیکنالوجی ما خرابی ۔۔مزید نصیحت دیکھوں <campaignLink>سوشل میڈیا مہم چلاتاں واں اس متن نا شامل کر کے جہڑو تم دوبارا استعمال کرسکے </campaignLink>
 about-playbook-how-grow-language-content-6 = مل کے کم کرنو تے آپس کو جوڑ
 about-playbook-how-grow-language-content-7 = اُنہاں نا ڈھونڈو جہڑا خیال کرے ۔یاہ یونیورسٹی ما ہو سکے زبان کا سکول تے ایڈووکیسی گروپ یا ڈیٹا سائنس کمیونٹی ۔۔پوہچو تے وضاحت کروں کہ وِہ کس  طرح مدد کرسکے تے کیوں ۔<outreachTemplates>مھاری ٹمپلیٹس نا ای میل کے ذریعے دیکھو </outreachTemplates>
-about-playbook-how-grow-language-content-8 = <strong>تخلیقی ہو جاؤں ۔</strong>تھاری زبان کی کمیونٹی مثالی ہو سکے  تے یہ کُج ذریعا ہے شروع کرن کا
 
 ## How to validate
 

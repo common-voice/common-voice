@@ -116,7 +116,6 @@ about-playbook-how-grow-language-content-4 = מדיה חברתית
 about-playbook-how-grow-language-content-5 = אתם יכולים להשתמש בפלטפורמות מדיה חברתית כדי לפזר את הבשורה. שתפו פוסטים שמסבירים למה זה חשוב, וצרו קשר עם אנשים אחרים על נושאים כמו זכויות שפה, AI קולי או הטיה ואפליה בטכנולוגיה. ראו עצות נוספות על <campaignLink>הפעלת קמפיין פרסום חברתי, כולל תוכן שניתן לעשות בו שימוש חוזר</campaignLink>.
 about-playbook-how-grow-language-content-6 = שותפויות ורשתות
 about-playbook-how-grow-language-content-7 = מצא אחרים שאכפת להם. אלה יכולים להיות אוניברסיטאות, בתי ספר לשפה, קבוצות הסברה או קהילות מדעיות. הושיטו יד והסבירו בבירור כיצד הם יכולים לעזור ומדוע כדאי להם. <outreachTemplates>הציצו בתבניות הדוא"ל שלנו לדוגמאות ליצירת קשר</outreachTemplates>.
-about-playbook-how-grow-language-content-8 = <strong>היו יצירתיים!</strong> כל קהילה היא ייחודית, וזאת רק ההתחלה.
 
 ## How to validate
 

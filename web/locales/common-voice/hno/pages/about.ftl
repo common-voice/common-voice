@@ -112,7 +112,6 @@ about-playbook-how-grow-language-content-4 = سوشل میڈیا
 about-playbook-how-grow-language-content-5 = تسیں پیغام پچانڑ واسطے سوشل میڈیا پلیٹ فارمز دا استعمال کر سکدے ہو۔ او پوسٹس شیئرکرو جڑی دسے کہ ایہ کیاں ضروری اہم ہے، ہور دوسرے لوگاں نال رابطے بچ رہو مسائل دے بارے گل کردیاں ہویاں جسطرح کہ زبان دے حقوق، AI آواز، ٹیکنالوجی بچ تعصپ۔ مزید نصیحت دکھو <campaignLink>سماجی مہم چلینڑا تے، بشمول مواد جڑھا دوبارا تسیں استعمال کر سکدے ہو</campaignLink>۔
 about-playbook-how-grow-language-content-6 = حصہ داریاں تے نیٹ ورکس
 about-playbook-how-grow-language-content-7 = ڈھونڈو اُناں کو جِڑے خیال رکھدے ہن۔ او یونیورسٹیاں، زبان دے سکول۔ وکالت گروپس یا ڈیٹا سائنس کمیونٹیز ہو سکدیاں ہن۔ اُناں تک پہنچو ہور واضح طور تے وضاحت کرو کہ اُو کسطرے ہور کیاں مدد کر سکدے ہن۔ <outreachTemplates>اسدی ٹمپلیٹ آوٹ ریچ ای میل دکھو</outreachTemplates>۔
-about-playbook-how-grow-language-content-8 = <strong>تخلیقی بنڑو!</strong> تسدی زبان برادری منفرد ہوسی، تے ایہ شروع کرنا دے چند ہک طریقے ہن۔
 
 ## How to validate
 
