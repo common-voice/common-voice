@@ -8,6 +8,14 @@ datasets-positioning =
     Common Voice күптелле мәгълүмат тупланмасы үз төрендә инде иң зур ачык мәгълүмат тупланмасына әверелергә өлгерде, әммә ул ялгыз түгел.
     
     Бу биттә Сез башка ачык чыганаклы аудиомәгълүмат тупланмаларына сылтамалар таба алырсыз. Моннан тыш, Common Voice релизлары турындагы яңалыклар да шушы биткә урнаштырылачак.
+# New/upcoming datasets page headline
+datasets-headline-mdc = Mozilla Common Voice мәгълүматлар җыелмалары эксклюзив рәвештә Mozilla Data Collective платформасында бар.
+# New/upcoming datasets page headline text
+datasets-positioning-mdc =
+    Common Voice 23.0 башлап, барлык Common Voice мәгълүматлар җыелмаларын Mozilla Data Collective платформасыннан эксклюзив рәвештә йөкләп алырга була!
+    
+    Бу биттә Mozilla Common Voice мәгълүматлар җыелмаларының элекке версияләре архивлана. Архив чыгарышларын өйрәтү максатларыннан түгел, ә бары тик махсус тикшеренүләр сценарийлары өчен генә кулланырга кирәк. Чөнки кайбер катнашучылар үз кертемнәрен кулланмаска үтенгән булуы мөмкин.
+datasets-speech-bubble-content = Шәп яңалыклар! Тиздән Spontaneous Speech булдырылачак! Яңартуларны күзәтеп торыгыз һәм соңгы яңалыкларны белү өчен кичекмәстән <discordLink>Discord платформабызга</discordLink> кереп чыгыгыз.
 language = Тел
 download-dataset-header = Мәгълүмат тупланмасын йөкләп алу
 download-delta-explainer = Без бераз үзгәрешләр керттек. Дельта сегментлары соңгы чыгарылыштан соң өстәлгән яңа клипларны гына үз эченә ала. <deltaLink>Бу эш турында күбрәк укыгыз</deltaLink>.
@@ -70,6 +78,7 @@ dataset-metadata-sex = Җенес
 dataset-metadata-age = Яшь
 donate-modal-message = Мәгълүмат тупланмагыз иңдерелә!
 dataset-donate-modal-heading = Беләсезме…
+donate-modal-explanation-1 = Мәглүматлар җыелмаларын урнаштыруга һәм 100 артык тел берләшмәләре өчен платформаны яхшыртуга елына миллион доллар акча китәме?
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold>Ачык, инклюзив мәгълүматның кадерен беләсез икән — бүген иганә итегез!</bold>
 data-download-singleword-title = Берсүзле максат сегментны йөкләгез
