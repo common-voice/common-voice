@@ -51,3 +51,29 @@ help-reach-hours-general-pluralized =
 set-a-goal = ရည်မှန်းချက်တခု သတ်မှတ်ပါ
 cant-decide = ဆုံးဖြတ်လို့ မရပါလား?
 activity-needed-calculation-fixed = တနိကို စာကြောင်း ၁၀၀ မှတ်တမ်းတင်နိန်ယေ လူ ၁၀၀ က အသံဖိုင် ၁၃ နာရီ ဖန်တီးနိုင်ပါယေ။ ဒေစွမ်းဆောင်ရည်ကို ဆက်ပနာ ထိန်းသိမ်းထားဖို့ဆိုကေ ၃ လ အတွင်းမှာ ၁,၀၀၀ နာရီ ရဟိလာနိုင်ပါယေ။
+how-many-per-day = ကကောင်း ကောင်းပါယေ! တရက်ကို အသံဖိုင် ဇာလောက် သွင်းပါဖို့လဲ?
+how-many-a-week = ကကောင်း ကောင်းပါယေ! တပတ်ကို အသံဖိုင် ဇာလောက် သွင်းပါဖို့လဲ?
+receiving-emails-info =
+    ရည်မှန်းချက် သတိပီးချက်တိ၊ ကိုယ့်တိုးတက်မှု အပ်ဒိတ်တိနန့် Common Voice အကြောင်း 
+    သတင်းလွှာတိပိုင် အီးမေးလ်တိကို လက်ခံရဟိဖို့ လက်ဟိမှာ မိတ်ဆွေ သတ်မှတ်ထားဗြီးပါဗျာလ်။
+not-receiving-emails-info =
+    ရည်မှန်းချက် သတိပီးချက်တိ၊ ကိုယ့်တိုးတက်မှု အပ်ဒိတ်တိနန့် Common Voice အကြောင်း 
+    သတင်းလွှာတိပိုင် အီးမေးလ်တိကို လက်ခံရဟိဖို့ လက်ဟိမှာ မိတ်ဆွေ <bold>မသတ်မှတ်</bold> ထားပါ။
+n-clips-pluralized =
+    { $count ->
+        [one] { $count } ဖိုင်
+       *[other] { $count } ဖိုင်တိ
+    }
+help-share-goal = အကျွန်ရို အသံတိ ပိုရှာနိုင်အောင်၊ မိတ်ဆွေ ရည်မှန်းချက်ကို မျှဝီပနာ  ကူညီပီးပါ။
+confirm-goal = ရည်မှန်းချက်ကို အတည်ပြုပါ
+goal-interval-weekly = အပတ်စဉ်
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = { $type } အတွက် မိတ်ဆွေ နိတိုင်း ရည်မှန်းချက် { $count } ကို မျှဝီပါ
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = { $type } အတွက် မိတ်ဆွေ အပတ်တိုင်း ရည်မှန်းချက် { $count } ကို မျှဝီပါ
+share-goal-type-speak = အပြော
+share-goal-type-listen = အကြား
+share-goal-type-both = အပြော နန့် အကြား
+# LINK will be replaced with the current URL
+goal-share-text = #CommonVoice အတွက် အသံ လှူဒါန်းဖို့ ကိုယ်ရေးကိုယ်တာ ရည်မှန်းချက်တခု အကျွန်် ဖန်တီးလိုက်ပါဗျာလ် -- အကျွန်နန့် ပူးပေါင်းပနာ တကယ့် လူတိ ဇာပိုင် ပြောလဲဆိုစွာ စက်တိကို သင်ကြားပီးဖို့ ကူညီပီးပါ { $link }
+weekly-goal-created = မိတ်ဆွေ အပတ်စဉ် ရည်မှန်းချက်ကို ဖန်တီးဗြီးပါဗျာလ်
