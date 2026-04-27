@@ -8,6 +8,18 @@ datasets-positioning =
     ဒေစာမျက်နှာယေ အခြား open-source အသံ ဒေတာစုတိအတွက် ရည်ညွှန်းချက် ဗဟိုချက်အဖြစ်နန့် Common Voice ကြီးထွားလာစွာနန့်အမျှ အကျွန်ရို့ ထုတ်ဝေမှု အပ်ဒိတ်တိအတွက် နိန်ရာတခုအဖြစ် ဆောင်ရွက်ပါဖို့။
 # New/upcoming datasets page headline
 datasets-headline-mdc = Mozilla Common Voice datasets တိကို Mozilla Data Collective မှာ သီးသန့် ရဟိနိုင်ပါဗျာလ်။
+# New/upcoming datasets page headline text
+datasets-positioning-mdc =
+    Common Voice 23.0 က စပနာ၊ Common Voice dataset အားလုံးကို Mozilla Data Collective က တဆင့် ဒေါင်းလုဒ်လုပ်နိုင်ပါယေ။
+    
+    ဒေစာမျက်နှာစွာ Mozilla Common Voice dataset တိ အယင်ဗားရှင်းတိအတွက် သမိုင်းဝင် မော်ကွန်းတိုက်အဖြစ် ဆောင်ရွက်ပါယေ။ မော်ကွန်းတိုက် ထုတ်ဝေမှုတိကို လေ့ကျင့်ရေးအတွက် မဟုတ်ဘဲ၊ သတ်မှတ်ထားယေ သုတေသနအခြေအနေတိမှာရာ အသုံးပြုသင့်ပနာ၊ ယင်းပံ့ပိုးမှုတိကို ချန်လှပ်ထားဖို့ တောင်းဆိုထားယေ လူတိ ဆန္ဒကို လေးစားလိုက်နာလို့ ဖြစ်ပါယေ။
 datasets-speech-bubble-content = စိတ်လှုပ်ရှားစရာ သတင်းပါ။ လက်တန်းပြော စကား လာပါဖို့ဗျာလ်။ အပ်ဒိတ်တိအတွက် စောင့်မျှော်ကြည့်ရှုပနာ နောက်ဆုံးရ သတင်းအချက်အလက်တိအတွက် မိတ်ဆွေ <discord Link>Discord</discord Link> ကို စစ်ဆေးဖို့ မမိပါကဲ့။
 language = ဘာသာစကား
 download-dataset-header = ဒေတာစုကို ဒေါင်းလုဒ် လုပ်ပါ
+download-delta-explainer = အကျွန်ရို့ ပြောင်းလဲမှု တချို့ ပြုလုပ်ထားပါယေ။ Delta Segments မှာ နောက်ဆုံး ထွက်ဟိချိန်ကပင် နောက်ဆုံးပေါ်  အသံဖိုင်တိရာ ပါဝင်ပါယေ။ <deltaLink>ဒေအလုပ်အကြောင်း ပိုဖတ်ပါ</deltaLink>။
+download-dataset-tag = လိုချင်ယေ ဘာသာစကား ဒေတာစုကို ရွီးပနာ၊ ဒေါင်းလုဒ် လုပ်ချင်ယေ ဗားရှန်းကို ရွီးပါ။
+# File size in gigabytes
+size = အရွယ်အစား
+validated-hr-total = အတည်ပြုထားယေ နာရီ စုစုပေါင်း
+overall-hr-total = အားလုံး နာရီ စုစုပေါင်း
+cv-license = လိုင်စင်
