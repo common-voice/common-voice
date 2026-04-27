@@ -1,5 +1,7 @@
 ## Report Modal
 
+report-modal-title = kupereka uthenga
+report-modal-subtitle = Kodi mukukumana ndi mavuto otani ndi nkhaniyi?
 empty_or_unintelligible = Chopanda kanthu kapena Chosamveka
 report-other-comment =
     .placeholder = ndemanga
