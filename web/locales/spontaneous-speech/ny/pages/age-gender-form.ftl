@@ -16,4 +16,5 @@ thank-you-for-your-information = zikomo chifukwa cha uthenga wanu
 male_masculine = Mwamuna/wachimuna
 female_feminine = Mkazi/Wachikazi
 intersex = wobadwa ndi thupi losiyana ndi la mwamuna kapena mkazi
+transgender = munthu amene jenda yake siyigwirizana ndiyomwe anabadwa nayo
 do_not_wish_to_say = Sindikufuna kunena
