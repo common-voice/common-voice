@@ -28,3 +28,4 @@ demo-listen-subtitle = Kodi mwakonzeka kuthandiza?
 ## Demo Dashboard
 
 demo-dashboard-card-header = Ma dashboard aumwini amakusungani kuti mudziwe za kupita patsogolo kwa munthu payekha komanso kwa anthu ammudzi.
+demo-dashboard-card-body = Pa mawu aliwonse operekedwa, ndi mawu aliwonse ovomerezedwa, ma dashboard a akaunti yanu amasinthidwa kuti awonetse kupita patsogolo kwanu kwaposachedwa m'chinenero chilichonse chomwe mumapereka. Inde, mutha kupereka zambiri!<br/><br/> Gwiritsani ntchito ma dashboard kuti mutsatire ziwerengero zanu, muwone momwe mukuchitira limodzi ndi ena mdera lanu, ndikukhazikitsa zolinga zoperekera tsiku lililonse kapena sabata iliyonse.
