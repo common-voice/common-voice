@@ -4,6 +4,7 @@ speak-subtitle = Тавышыгызны иганә итегез
 record-cta = Яздыра башлау
 record-platform-not-supported = Гафу итегез, әмма Сезнең платформа әлегә танылмый.
 record-platform-webview = Бу биткә кушмтада социаль челтәрләр сылтамасы аркылы керергә була. Сез кушымтаның эчке браузерын кулланасыз, һәм ул аудио яздыру өчен кулланыла алмый.
+record-platform-not-supported-webview = Мобиль җиһазларда сез система браузерын кулланып ярдәм итә аласыз...
 record-platform-not-supported-desktop = Өстәл компьютерларында Сез түбәндәгеләрнең иң соңгы версияләрен йөкләп ала аласыз:
 record-platform-not-supported-ios-non-safari = iOS'та тавыш яздыру өчен, зинһар Safari'ны кулланыгыз…
 record-must-allow-microphone = Сезнең микрофоныгызны куллануны рөхсәт итүегез кирәк.
@@ -67,6 +68,8 @@ create-profile-button = Профиль булдыру
 img-alt-success-checkmark = уңышлы тәмамлану тамгасы
 # menu item
 read-sentences = Җөмләләрне уку
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = Җөмләләрне уку <small>(Тиздән булачак)</small>
 
 ## MENU ITEM TOOLTIPS
 

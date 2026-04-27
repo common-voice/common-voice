@@ -104,6 +104,12 @@ add-small-batch-success =
         [one] { $totalSentences } җөмләдән { $uploadedSentences } җөмлә җыелган
        *[other] { $totalSentences } җөмләдән { $uploadedSentences } җөмлә җыелган
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] 1 җөмләдән { $uploadedSentences } җөмлә җыелган. Кире кагылган җөмләләрне йөкләп алу өчен <downloadLink>монда</downloadLink> басыгыз.
+       *[other] { $totalSentences } җөмләдән { $uploadedSentences } җөмлә җыелган. Кире кагылган җөмләләрне йөкләп алу өчен <downloadLink>монда</downloadLink> басыгыз.
+    }
 small-batch-sentences-rule-2 = Бер юлга бер җөмлә өстәү
 small-batch-sentences-rule-3 = Җөмләләрне берәмләп аерым юлларга бүлегез. Моның өчен бер тапкыр «Enter» яки «Return» төймәсенә басыгыз.
 small-batch-sentences-rule-4 = 1000 кадәр җөмлә өстәү
