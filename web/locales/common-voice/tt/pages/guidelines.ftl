@@ -72,6 +72,7 @@ citing-sentences-subheader-offline-sources-explanation = Интернетта б
 citation =
     .label = Цитата
 self-citation = Үз-үзеңне цитаталау
+self-citation-explanation = Контент сезнең тарафтан язылган булса, үзегезгә менә ничек сылтама бирә аласыз.
 adding-sentences-subheader-length = Озынлык
 adding-sentences-subheader-length-explanation = Җөмлә 15 сүздән кыскарак булырга тиеш.
 adding-sentences-subheader-spelling-punctuation = Орфография һәм тыныш билгеләре

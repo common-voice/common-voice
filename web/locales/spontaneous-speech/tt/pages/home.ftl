@@ -15,6 +15,7 @@ transcribe-bubble-title = <mark>Транскрипцияләү</mark>
 transcribe-bubble-subtitle = Аудиоклипларда нәрсә ишетәсез - шуны язасыз.
 # text wrapped in <mark></mark> will have a blue background
 check-bubble-title = <mark>Тикшерү</mark>
+check-bubble-subtitle = Сез транскрипциянең аудио язмасына туры киләме, юкмы икәнен тикшерәсез.
 # text wrapped in <mark></mark> will have a blue background
 data-bubble-title = <mark>Мәгълүмат</mark>
 data-bubble-subtitle = Без вакыт-вакыт мәгълүматлар җыелмаларын чыгарабыз
