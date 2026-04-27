@@ -2,6 +2,8 @@
 
 report-modal-title = kupereka uthenga
 report-modal-subtitle = Kodi mukukumana ndi mavuto otani ndi nkhaniyi?
+offensive_speech = zokhumudwisa
+offensive_speech-detail = kanemayi ali ndi mawu opanda ulemu kapena wolawula
 empty_or_unintelligible = Chopanda kanthu kapena Chosamveka
 report-other-comment =
     .placeholder = ndemanga
@@ -11,3 +13,4 @@ other = Zina
 continue = Pitiliza
 # Header for report modal after successful reporting
 success = chipambano
+report-success-message = uthenga unapelekedwa bwino
