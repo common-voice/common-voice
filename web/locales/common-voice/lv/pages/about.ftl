@@ -123,7 +123,6 @@ about-playbook-how-grow-language-content-4 = Sociālie mēdiji
 about-playbook-how-grow-language-content-5 = Varat izmantot sociālo mediju platformas, lai nosūtītu ziņojumu. Dalieties ar ziņām, kurās paskaidrots, kāpēc tas ir svarīgi, un sazinieties ar cilvēkiem, kas runā par tādām kā valodas tiesības, balss izmantošana mākslīgajos intelektos vai neobjektivitāte tehnoloģiju jomā. Skatiet vairāk padomu par <campaignLink>sociālās kampaņas vadīšanu, tostarp saturu, ko varat izmantot</campaignLink>.
 about-playbook-how-grow-language-content-6 = Partnerības un tīkli
 about-playbook-how-grow-language-content-7 = Atrodiet citus, kuriem tas rūp. Tās varētu būt universitātes, valodu skolas, interešu aizstāvības grupas vai datu zinātnes kopienas. Sazinieties un skaidri paskaidrojiet, kā viņi var palīdzēt un kāpēc. <outreachTemplates>Skatiet mūsu informatīvo e-pasta ziņojumu veidnes</outreachTemplates>.
-about-playbook-how-grow-language-content-8 = <strong>Esiet radoši!</strong> Jūsu valodu kopiena būs unikāla, un šie ir tikai daži veidi, kā sākt.
 
 ## How to validate
 

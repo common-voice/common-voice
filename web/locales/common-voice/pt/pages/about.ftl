@@ -118,7 +118,6 @@ about-playbook-how-grow-language-content-4 = Mídia social
 about-playbook-how-grow-language-content-5 = Você pode usar plataformas de mídia social para divulgar a mensagem. Compartilhe publicações que explicam por que isso é importante e entre em contato com outras pessoas para falar sobre questões como direitos de idioma, inteligência artificial de voz ou preconceito em tecnologia. Veja mais conselhos sobre <campaignLink>como realizar uma campanha em mídias sociais, incluindo conteúdo que você pode reutilizar</campaignLink>.
 about-playbook-how-grow-language-content-6 = Parcerias e redes
 about-playbook-how-grow-language-content-7 = Encontre outras pessoas que se importam. Pode ser em universidades, escolas de idiomas, grupos de defesa ou comunidades de ciência de dados. Entre em contato e explique com clareza como eles podem ajudar e por quê. <outreachTemplates>Veja nossos modelos de email de divulgação</outreachTemplates>.
-about-playbook-how-grow-language-content-8 = <strong>Seja criativo!</strong> Sua comunidade de idioma será única. Essas são apenas algumas maneiras de começar.
 
 ## How to validate
 

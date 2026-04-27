@@ -6,3 +6,5 @@ contact-form-name =
 contact-form-message =
     .label = хаам
 contact-required = кхочуш дан дезарг
+contact-form-success = Хьан хаам дIахьажийна. Баркалла!
+contact-form-error = хьа гIалат даьлла. Юха хьажа.

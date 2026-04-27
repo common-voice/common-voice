@@ -124,7 +124,6 @@ about-playbook-how-grow-language-content-4 = Social media
 about-playbook-how-grow-language-content-5 = Ni nga shumisa social media platforms u itela u ḓivhadza vhaṅwe nga ha zwenezwi. Vha rumeleni milaedze i ṱalutshedzaho uri ndi ngani zwi zwa ndeme, nahone ni kwamane na vhaṅwe uri ni kone u amba navho nga ha pfanelo dza dzi nyambo, voice AI, kana tshiṱalula tshi re hone kha zwishumiswa zwa thekhinolodzhi. Vhonani nyeletshedzo dzo engedzeaho nga ha <campaignLink>u ita dzi campaign, na u vhona mafhungo ane na nga dovha na a shumisa </campaignLink>.
 about-playbook-how-grow-language-content-6 = Vhushumisani na dzinetiworke
 about-playbook-how-grow-language-content-7 = Wanani vhaṅwe vha re na ndavha. Vha nga vha dzi yunivesithi, zwikolo zwi funzaho luambo, zwigwada zwa vha ambeli kana zwigwada zwa vhorasantsi. Ambani navho nahone ni vha ṱalutshedze zwavhuḓi nḓila ine vha nga ni thusa ngayo na uri ndi ngani. <outreachTemplates>Vhonani themphuḽethi yashu ya email ya nḓila ine ra swikelela vhathu </outreachTemplates>.
-about-playbook-how-grow-language-content-8 = <strong>Ivhani na Vhutsila!</strong> Community ya luambo lwaṋu a i nga fani na dziṅwe, nahone hedzi ndi dziṅwe dza nḓila dzi si gathi dza u ni thusa u thoma.
 
 ## How to validate
 

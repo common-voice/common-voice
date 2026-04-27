@@ -428,6 +428,8 @@ announcement-mdc-button-aria-text = Дар варақаи нав кушода м
 
 ## Common Language/Dataset Selector & SearchBox Related
 
+searchbox-default-placeholder = Ҷустуҷӯ...
+searchbox-default-aria-label = Ҷустуҷӯ
 dataset-searchbox-placeholder = Ҷустуҷӯи забон...
 dataset-searchbox-aria-label = Ҷустуҷӯи забон
 dataset-search-no-results = Ягон забони мувофиқ ёфт нашуд

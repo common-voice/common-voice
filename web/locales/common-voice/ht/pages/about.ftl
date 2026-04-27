@@ -124,7 +124,6 @@ about-playbook-how-grow-language-content-4 = Rezo Sosyo
 about-playbook-how-grow-language-content-5 = Ou ta ka itilize platfòm medya sosyal pou fè mesaj la soti. Pataje pòs ki eksplike poukisa li enpòtan, epi pran kontak ak lòt moun k ap pale sou pwoblèm tankou dwa langaj, AI vwa, oswa patipri nan teknoloji. Gade plis konsèy sou <campaignLink>kouri yon kanpay sosyal, enkli kontni ou ka re-itilize</campaignLink>.
 about-playbook-how-grow-language-content-6 = Patenarya ak rezo
 about-playbook-how-grow-language-content-7 = Jwenn lòt moun ki pran swen. Sa ta ka inivèsite, lekòl lang, gwoup defans oswa kominote syans done. Lonje men epi eksplike klèman kijan yo ka ede ak poukisa. <outreachTemplates>Gade modèl imel kontak nou yo</outreachTemplates>.
-about-playbook-how-grow-language-content-8 = <strong>Fè kreyatif!</strong> Kominote lang ou a pral inik, epi sa yo se jis kèk fason pou kòmanse.
 
 ## How to validate
 

@@ -120,7 +120,6 @@ about-playbook-how-grow-language-content-4 = ټولنیز رسنۍ
 about-playbook-how-grow-language-content-5 = تاسو کولی شئ د پیغام ترلاسه کولو لپاره د ټولنیزو رسنیو پلیټ فارمونه وکاروئ. پوسټونه شریک کړئ چې تشریح کړي چې ولې دا مهم دي، او د نورو خلکو سره اړیکه ونیسئ لکه د ژبې حقونه، غږ AI، یا په ټیکنالوژۍ کې تعصب. د <compaignLink> د ټولنیز کمپاین د چلولو په اړه نور مشورې وګورئ، په شمول هغه مواد چې تاسو یې بیا کارولی شئ</campaignLink>.
 about-playbook-how-grow-language-content-6 = شراکتونه او شبکې
 about-playbook-how-grow-language-content-7 = نور پیدا کړئ څوک چې پاملرنه کوي. دا کیدای شي پوهنتونونه، د ژبې ښوونځي، د مدافعې ډلې یا د معلوماتو ساینس ټولنې وي. ورشئ او په واضح ډول تشریح کړئ چې دوی څنګه مرسته کولی شي او ولې. <outreachTemplates>زموږ د بریښنالیکونه د رسونې ټیمپلیټ وګورئ</outreachTemplates>.
-about-playbook-how-grow-language-content-8 = <strong>تخلیق پیدا کړئ!</strong> ستاسو د ژبې ټولنه به ځانګړې وي، او دا د پیل کولو لپاره یوازې یو څو لارې دي.
 
 ## How to validate
 

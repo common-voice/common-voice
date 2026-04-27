@@ -121,7 +121,6 @@ about-playbook-how-grow-language-content-4 = Retes sotziales
 about-playbook-how-grow-language-content-5 = Podes impreare is prataformas de is redes sotziales pro ispaniare su messàgiu. Cumpartzi publicatziones chi acrarent pro ite est de importu, e intra in cuntatu cun àtera gente pro chistionare de chistiones che a deretos linguìsticos, IA de boghe, o pregiudìtzios in sa tecnologia. Àteros cussìgios in subra de <campaignLink>incarrerare una campagna sotziale, incluende cuntenutos chi podes torrare a impreare</campaignLink>.
 about-playbook-how-grow-language-content-6 = Alleàntzias e retes
 about-playbook-how-grow-language-content-7 = Agata a àtera gente chi nde tenet coidadu. Podent èssere universidades, iscolas de limba, grupos de defensa o comunidades de sièntzias de datos. Pone·ti in cuntatu e acrara·ddis comente podent agiudare e pro ite. <outreachTemplates>Càstia is modellos nostros de messàgios de posta pro tamburinare</outreachTemplates>.
-about-playbook-how-grow-language-content-8 = <strong>Iscàpia sa fantasia!</strong> Sa comunidade linguìstica tua at a èssere ùnica, e custas sunt isceti pagas maneras pro incarrerare.
 
 ## How to validate
 

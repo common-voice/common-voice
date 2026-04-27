@@ -112,7 +112,6 @@ about-playbook-how-grow-language-content-2 = Dogodki
 about-playbook-how-grow-language-content-4 = Družbena omrežja
 about-playbook-how-grow-language-content-6 = Partnerstva in mreže
 about-playbook-how-grow-language-content-7 = Poiščite druge, ki jim je mar. To so lahko univerze, jezikovne šole, skupine za zagovorništvo ali skupnosti podatkovnih ved. Stopite v stik z njimi in jim jasno razložite, kako lahko pomagajo in zakaj. <outreachTemplates>Oglejte si naše predloge e-poštnih sporočil za javnost</outreachTemplates>.
-about-playbook-how-grow-language-content-8 = <strong>Bodite ustvarjalni!</strong> Vaša jezikovna skupnost bo edinstvena. Našteli smo le nekaj načinov, kako lahko začnete.
 
 ## How to validate
 

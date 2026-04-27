@@ -6,6 +6,7 @@ language-section-launched = Lansearre
 language-section-launched-description = Foar dizze beskikbere talen is de website mei sukses <localizationGlossaryLink>oerset</localizationGlossaryLink>, en binne der genôch <sentenceCollectionGlossaryLink>sinnen sammele</sentenceCollectionGlossaryLink> foar trochgeande bydragen oan it <speakLink>sprekken</speakLink> en <listenLink>harkjen</listenLink>.
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
 language-section-last-updated = Lêst bywurke: { $lastUpdatedTimeStamp }
+language-communities = Oerweagje om jo mienskipskanalen ta te foegjen oan it <communitiesLink>COMMUNITIES.md-dokumint op GitHub</communitiesLink>.
 languages-show-more = Mear besjen
 languages-show-less = Minder besjen
 language-meter-in-progress = Yn útfiering

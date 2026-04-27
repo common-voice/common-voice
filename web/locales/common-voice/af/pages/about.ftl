@@ -115,7 +115,6 @@ about-playbook-how-grow-language-content-4 = Sosiale media
 about-playbook-how-grow-language-content-5 = Jy kan sosiale media-platforms gebruik om die boodskap te versprei. Deel plasings wat verduidelik hoekom hierdie projekte belangrik is, en kom in kontak met ander mense wat praat oor kwessies soos taalregte en stemtegnologie. Kry meer raad oor <campaignLink>die bestuur van 'n sosiale veldtog</campaignLink>.
 about-playbook-how-grow-language-content-6 = Vennootskappe en netwerke
 about-playbook-how-grow-language-content-7 = Soek ander wat omgee. Dit kan universiteite, taalskole of aktivistiese groepe wees. Reik uit en verduidelik hoe hulle kan help. <outreachTemplates>Sien ons e-postemplaat</outreachTemplates>.
-about-playbook-how-grow-language-content-8 = <strong>Wees kreatief!</strong> Jou taalgemeenskap sal uniek wees, en hierdie is net 'n paar maniere om te begin.
 
 ## How to validate
 

@@ -105,7 +105,6 @@ about-playbook-how-grow-language-content-4 = سوشل میڈیا
 about-playbook-how-grow-language-content-5 = بی سوشل میڈیا تہ پلٹ فام استعمل کری تانو میسج ݜائن بئیہ ۔ منو پوسٹ ݜیر کُرائی تے سے وضاحت کُرو تے یہ کو اہم درو۔ باݜہ تہ حق آں مسائل تہ بارا مُشکُل بال ماڜہ ملی رابطہ کُرا، کاڻ اے ائی آں بائس ان ٹیک، سماجی مہم تہ بارا ورے ایس مشورہ دڇھا<campaignLink> تیں موادہ ملی کیرا بی کُرین بئیبہ۔</campaignLink>
 about-playbook-how-grow-language-content-6 = شراکت داری نم آں نیٹورک نم
 about-playbook-how-grow-language-content-7 = دڇھا ورے تیں یونیورسٹی، باݜہ تہ اسکول ، پوئی کرالگروپیا ڈیٹآا سائنس تہ ماݜ تیں مدد کرین بئین آں کو۔<outreachTemplates> امونہ ٹیمپلیٹ  دڇھا ای میل نامہ۔ </outreachTemplates>
-about-playbook-how-grow-language-content-8 = <strong> تخلیقی ژوپا</strong> مینہ کمیونٹی نوروگارہ تھین آں میں ایک کتی پھن درو شروع کریں کی۔
 
 ## How to validate
 

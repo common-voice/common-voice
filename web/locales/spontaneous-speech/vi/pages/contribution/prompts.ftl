@@ -13,6 +13,7 @@ error-recording-too-long = Thời lượng ghi quá dài. Thời lượng tối 
 error-fetching-prompts = Đã xảy ra sự cố khi truy xuất yêu cầu. Vui lòng thử lại sau.
 error-uploading-response = Đã xảy ra lỗi khi đang tải lên phản hồi của bạn
 error-empty-audio = Quá trình ghi thất bại. Tập tin âm thanh dường như trống. Vui lòng thử lại.
+error-platform-webview = Chức năng ghi âm có thể không được hỗ trợ trên trình duyệt có hạn chế này. Vui lòng sử dụng ứng dụng trình duyệt đầy đủ.
 error-recording-too-short-seconds = Thời lượng ghi quá ngắn. Thời lượng tối thiểu là { $minDurationSeconds } giây.
 error-recording-too-long-minutes = Thời lượng ghi quá dài. Thời lượng tối đa là { $maxDurationMinutes } phút.
 cannot-play-audio = Không thể phát âm thanh. Vui lòng thử lại.

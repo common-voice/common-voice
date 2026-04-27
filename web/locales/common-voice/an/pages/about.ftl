@@ -116,7 +116,6 @@ about-playbook-how-grow-language-content-4 = Medios de comunicación socials
 about-playbook-how-grow-language-content-5 = Puez fer servir las plataformas de rez socials pa fer arribar lo mensache. Comparte publicacions que expliqeuen per qué ye important y mete-te en contacto con atras personas que parles de cuestions como los dreitos lingüisticos, la intelichencia artificial de voz u los sesgos tecnolochicos. Mira mas consellos sobre cómo <campaignLink>executar una campanya social, incluyiu contenius que puez reutilizar</campaignLink>.
 about-playbook-how-grow-language-content-6 = Colaboracions y rez
 about-playbook-how-grow-language-content-7 = Troba atros a qui les importe. Podrían estar universidaz, escuelas d'idiomas, grupoas d'activistas u comunidaz de ciencias de datos. Mete-te en contacto y explica-les clarament cómo y per qué pueden aduyar. <outreachTemplates>Mira la plantilla de correus electronicos de divulgación</outreachTemplates>.
-about-playbook-how-grow-language-content-8 = <strong>Sé creativo!</strong> La tuya comunidat lingüistica será unica y estas son belunas d'as maneras de encomenzar.
 
 ## How to validate
 

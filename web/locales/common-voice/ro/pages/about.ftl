@@ -124,7 +124,6 @@ about-playbook-how-grow-language-content-4 = Rețele sociale
 about-playbook-how-grow-language-content-5 = Poți folosi platformele de socializare pentru a le spune și altora despre acest proiect. Distribuie postări care explică de ce este important și ia legătura cu alte persoane care vorbesc despre probleme precum drepturile lingvistice, inteligența artificială vocală, sau răspândirea prejudecăților prin intermediul tehnologiei. Vezi aici mai multe sugestii pentru <campaignLink>desfășurarea unei campanii sociale, inclusiv conținut pe care îl poți refolosi</campaignLink>.
 about-playbook-how-grow-language-content-6 = Parteneriate și rețele
 about-playbook-how-grow-language-content-7 = Caută și alți susținători în universități, școli de limbi străine, grupuri de apărare și promovare a drepturilor și intereselor (advocacy), sau comunități de data science. Contactează-i și explică-le clar cum pot ajuta proiectul Mozilla Common Voice și de ce. <outreachTemplates>Folosește șabloanele noastre pentru e-mailuri de informare și promovare</outreachTemplates>.
-about-playbook-how-grow-language-content-8 = <strong>Fii inventiv!</strong> Comunitatea ta lingvistică este unică, iar sugestiile noastre nu sunt decât câteva feluri în care poți începe.
 
 ## How to validate
 

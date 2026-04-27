@@ -124,7 +124,6 @@ about-playbook-how-grow-language-content-4 = Reso sosio yi
 about-playbook-how-grow-language-content-5 = Mën nga jëfandikoo platform reso sosio ngir tassare mesaas bi. Séddoo ay mbind yuy leeral li tax mu am solo, nga jokkool ak ñeneen ñuy wax ci mbir yu melni yelleefi làkk, xarala IA yi, wala ci xarala yu bees yi. Xool yeneen xelal ci <campaignLink>doxal ab kàmpaañu mbooloo, boole ci ëmbiit yi nga mën a jëfandikoowaat</campaignLink>.
 about-playbook-how-grow-language-content-6 = Partenariat ak reso
 about-playbook-how-grow-language-content-7 = Wutal ñeneen ñu la bëgg jàppale ci liigéey bi. Mën na nekk daara yu kawe yi, daara yi di jàngale lakk yi, kuréel yuy xeex wala askanu siyaas ci done yi. Jokkoo ak ñoom leeral leen bu baax ni ñu mëna jàppale ak luko waral. <outreachTemplates>Xool sunu modèlu imeel yiy yegg ci nit ñi</outreachTemplates>.
-about-playbook-how-grow-language-content-8 = <strong>Sosal lu bees!</strong> Sa làkk dina wuute ak yeneen yi, lii yenn mbir la yoo mëna tàmbalee.
 
 ## How to validate
 

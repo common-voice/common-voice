@@ -123,7 +123,6 @@ about-playbook-how-grow-language-content-4 = Amakhasi onxibelelwano
 about-playbook-how-grow-language-content-5 = Unokusebenzisa amakhasi onxibelelwano ukuhambisa umyalezo. Yabelana ngee-posts ezichaza ukuba kutheni kubalulekile, kwaye uqhagamshelane nabanye abantu abathetha ngemiba efana namalungelo olwimi, iVoice AI, okanye utyekelo kwicala le tech. Bona iingcebiso ezingakumbi <campaignLink>ukuqhuba iphulo loluntu, kuquka umxholo onokuphinda uwusebenzise</campaignLink>.
 about-playbook-how-grow-language-content-6 = Intsebenziswano kunye nothungelwano
 about-playbook-how-grow-language-content-7 = Fumana abanye abakhathalayo. Kusenokuba ziiyunivesithi, izikolo zolwimi, amaqela athethelela abanye abantu okanye uluntu lwenzululwazi yedatha. Fikelela kubo uze ucacise ngokucacileyo ukuba banokunceda njani kwaye kutheni. <outreachTemplates>Jonga ii-imeyile zethu zokufikelela kwitemplate</outreachTemplates>.
-about-playbook-how-grow-language-content-8 = <strong>Yiba nobuchule!</strong> Uluntu lwakho lolwimi luya kwahluka, kwaye ezi ziindlela ezimbalwa zokuqalisa.
 
 ## How to validate
 

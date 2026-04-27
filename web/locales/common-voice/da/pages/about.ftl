@@ -119,7 +119,6 @@ about-playbook-how-grow-language-content-4 = Sociale medier
 about-playbook-how-grow-language-content-5 = Du kan bruge sociale medieplatforme til at få budskabet ud. Del opslag, der forklarer, hvorfor det er vigtigt, og kom i kontakt med andre, der diskuterer spørgsmål som sprogrettigheder, stemme-AI eller hvilken rolle fordomme spiller i udvikling af teknologi. Se flere råd om <campaignLink>afholdelse af sociale kampagner, inklusive indhold, du kan genbruge</campaignLink>.
 about-playbook-how-grow-language-content-6 = Partnerskaber og netværk
 about-playbook-how-grow-language-content-7 = Find andre, der interesserer sig for de samme ting. Det kunne være universiteter, sprogskoler, græsrodsbevægelser eller videnskabssamfund. Kontakt dem og forklar klart, hvordan de kan hjælpe og hvorfor. <outreachTemplates>Se vores skabeloner for opsøgende e-mails</outreachTemplates>.
-about-playbook-how-grow-language-content-8 = <strong>Vær kreativ!</strong> Dit sprogfællesskab er unikt, og dette er blot nogle få måder at komme i gang på.
 
 ## How to validate
 

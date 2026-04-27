@@ -118,7 +118,7 @@ about-playbook-how-grow-language-content-4 = Cyfryngau cymdeithasol
 about-playbook-how-grow-language-content-5 = Gallwch ddefnyddio llwyfannau cyfryngau cymdeithasol i ledu'r neges. Rhannwch negeseuon sy'n esbonio pam ei fod yn bwysig, a chysylltwch â phobl eraill i siarad am faterion fel hawliau iaith, deallusrwydd artiffisial llais neu ragfarn o fewn technoleg. Dyma ragor o gyngor ar gael ar sut i <campaignLink>gynnal ymgyrch gymdeithasol, gan gynnwys cynnwys y gallwch ei ailddefnyddio</campaignLink>.
 about-playbook-how-grow-language-content-6 = Partneriaethau a rhwydweithiau
 about-playbook-how-grow-language-content-7 = Dewch o hyd i eraill sy'n frwdfrydig. Gall hynny fod yn brifysgolion, ysgolion iaith, grwpiau eiriolaeth neu gymunedau gwyddor data. Cysylltwch ac eglurwch yn glir sut y gallan nhw helpu a pham. <outreachTemplates>Edrychwch ar ein templedi e-byst chwilio am gymorth</outreachTemplates>.
-about-playbook-how-grow-language-content-8 = <strong>Byddwch yn greadigol!</strong> Bydd eich cymuned iaith yn unigryw - dyma rhai ffyrdd i ddechrau arni.
+about-playbook-how-grow-language-content-8-v2 = <strong>Byddwch yn greadigol!</strong> Bydd eich cymuned iaith yn unigryw, a dyma ychydig o ffyrdd i ddechrau arni. Ystyriwch ychwanegu eich sianeli cymunedol at ddogfen <communitiesLink>COMMUNITIES.md ar GitHub</communitiesLink>.
 
 ## How to validate
 

@@ -105,7 +105,6 @@ about-playbook-how-grow-language-content-4 = Social Media
 about-playbook-how-grow-language-content-5 = Tu social Media una asta tay to mon, khabar, paigam anzek bhas. warek mochan som asta mon dek bhas. tasi pi puchik asta bhas. Awaz AI asta jonik bhas. kia newishis haw geri istimal karik bhas
 about-playbook-how-grow-language-content-6 = Yawan ze Network
 about-playbook-how-grow-language-content-7 = warek asta khoji kura khial karin, te University, zuban as school, warek da'al moch, kura ki data science una krom karin day. tasi pi phuchi, khe'n kay te madat karin, tasi kay mas, mashkulgi kari, homa nishan jagai, email as thara
-about-playbook-how-grow-language-content-8 = Hosla gati, tay zuban jonaw moch bo ajati, shemi tichak phon shian emi karikas bati
 
 ## How to validate
 

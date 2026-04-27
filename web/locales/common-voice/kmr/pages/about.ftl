@@ -105,7 +105,6 @@ about-playbook-how-grow-language = Em çawa dikarin li ser Common Voiceê zimane
 about-playbook-how-grow-language-content-2 = Çalakî
 about-playbook-how-grow-language-content-4 = Medyaya civakî
 about-playbook-how-grow-language-content-6 = Tor û Hevkar
-about-playbook-how-grow-language-content-8 = <strong>Afirîner be!</strong> Civaka zimanê te ew ê bêhempa be, û ev ji bo destpêkê tenê çendek rê ne.
 
 ## How to validate
 

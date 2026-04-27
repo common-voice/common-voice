@@ -124,7 +124,6 @@ about-playbook-how-grow-language-content-4 = media sosial
 about-playbook-how-grow-language-content-5 = Sampeyan bisa nggunakake platform media sosial kanggo ngirim pesen kasebut. Nudhuhake kiriman sing nerangake kenapa penting, lan hubungi wong liya babagan masalah kaya hak basa, AI swara, utawa bias ing teknologi. Deleng saran liyane babagan <campaignLink>nglakokake kampanye sosial, termasuk konten sing bisa digunakake maneh</campaignLink>.
 about-playbook-how-grow-language-content-6 = Kekancan lan jaringan
 about-playbook-how-grow-language-content-7 = Golek liyane sing peduli. Bisa uga universitas, sekolah basa, grup advokasi utawa komunitas ilmu data. Temokake lan jelasake kanthi jelas kepiye carane bisa mbantu lan sebabe. <outreachTemplates>Deleng email penjangkau cithakan kita</outreachTemplates>.
-about-playbook-how-grow-language-content-8 = <strong>Kreatif!</strong> Komunitas basa sampeyan bakal unik, lan iki mung sawetara cara kanggo miwiti.
 
 ## How to validate
 

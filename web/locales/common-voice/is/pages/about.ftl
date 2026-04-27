@@ -115,7 +115,6 @@ about-playbook-how-grow-language-content-4 = Samfélagsmiðlar
 about-playbook-how-grow-language-content-5 = Þú gætir notað samfélagsmiðla til að koma skilaboðunum á framfæri. Deildu færslum sem útskýra hvers vegna þetta skiptir máli og hafðu samband við annað fólk sem talar um málefni eins og réttindi tungumála, raddgervigreind eða hlutdrægni í tæknigeiranum. Sjáðu fleiri ráð um <campaignLink>hvernig hægt er að keyra herferðir á samfélagsmiðlum, þar á meðal efni sem þú getur endurnýtt</campaignLink>.
 about-playbook-how-grow-language-content-6 = Samstarf og tengslanet
 about-playbook-how-grow-language-content-7 = Finndu aðra sem eru sama sinnis. Það gætu verið háskólar, tungumálaskólar, hagsmunasamtök eða gagnavísindasamfélög. Láttu í þér heyra og útskýrðu hvernig viðkomandi geta hjálpað og hvers vegna. <outreachTemplates>Sjáðu til dæmis sniðmátið okkar fyrir kynningarpóst</outreachTemplates>.
-about-playbook-how-grow-language-content-8 = <strong>Vertu skapandi!</strong> Samfélagið í kringum tungumálið þitt verður alltaf einstakt, og þetta eru aðeins nokkrar leiðir til að byrja.
 
 ## How to validate
 

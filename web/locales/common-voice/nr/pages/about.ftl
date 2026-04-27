@@ -147,7 +147,6 @@ about-playbook-how-grow-language-content-4 = Zokuthintana
 about-playbook-how-grow-language-content-5 = Ungasebenzisa amahlelo wezethungelelwano ukurhatjha umlayezo. Faka umlayezo ohlathululako bona kubayini lokhu kuqakathekile, thintana nabanye abantu abakhuluma ngamalungelo wamalimi,I-voice AI, namkha i-bias in tech. Fumana iinyeleliso ezingeziweko <campaignLink> zokuthi ungaliraga njani ijima lezokuthintana, kuhlanganise nezinto ongazisebenzisa ngokubuyelelweko</campaignLink>.
 about-playbook-how-grow-language-content-6 = Ukubambisana nezokuthintana
 about-playbook-how-grow-language-content-7 = Fumana abanye abanendaba. Kungaba mayunivesithi, iinkolo zelimi, abasekeli bemiphakathi namkha abososayensi bokwaziswa kwemiphakathi. Thintana nabo ubahlathululele kuhle bona bangasiza ngayiphi indlela nokuthi kubayini. <outreachTemplates>Qala ukwaziswa kwethu bona ufumane ama-emails</outreachTemplates>.
-about-playbook-how-grow-language-content-8 = <strong>Yiba sikghwari!</strong> Ilimi elikhulunywa mphakathi wangekhenu lizokuhluka begodu nanzi iindlela ezimbalwa zokuthoma.
 
 ## How to validate
 

@@ -107,7 +107,6 @@ about-playbook-how-grow-language-content-4 = سوشل میڈیا
 about-playbook-how-grow-language-content-5 = تُو با ئے پیغام گرے سو دن سوشل میڈیا پلیٹ فام استعمال گرھاں۔ پوسٹ ݜئیر گر چہء وضاحت گرے او چیں اہم تھو آ لوں مِل رابطہ مہ ھوں بیاد گر مسئلیوں رے،لکہ زیب سو حق،اوز یا bias in tech بھال جل نصیحت <campaignLink> سوشل کمپین رے چلئ سو دن، سےء کانٹنٹ چہء تو دوبارہ استعمال گرا</campaignLink>
 about-playbook-how-grow-language-content-6 = ملگرتیا آ نیٹ ورک
 about-playbook-how-grow-language-content-7 = جل لو ٹنڈ چہء سے خیال گرہ تہ۔ سے یونیورسٹی ،زیب سو اسکول،وکیلوں سو گروپ یا سائنسی معلوات سو کمیونٹی ھوئیں۔اماں اوڑا  آ وضاحت گر صاف طریقہ رے چہء سے کش مدد گرہ تھہ آ چیئں۔<outreachTemplates> اسیئں ایمیل رے ٹمپلیٹ بھال </outreachTemplates>
-about-playbook-how-grow-language-content-8 = <strong>  حاصل گر سندی والہ </strong> تیں زیب سو کمیونٹی یک اَن ھویئں بزینݜ آ اے شروعگرے سو چندطریقئ تھے
 
 ## How to validate
 

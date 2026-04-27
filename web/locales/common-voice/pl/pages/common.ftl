@@ -307,14 +307,21 @@ delete = Usuń
 donate-banner-cta = <mark>Potrzebujemy</mark><br/><mark>Twojej pomocy!</mark>
 # Text wrapped in <strong></strong> will be rendered on bold font
 donate-banner-cta-explanation = Roczny koszt przechowywania zestawów danych i ulepszania platformy dla ponad 100 społeczności językowych, które polegają na naszej działalności, wynosi prawie milion dolarów. <strong>Jeśli cenisz otwarte, inkluzywne dane – przekaż darowiznę już dziś!</strong>
+languages-donate-banner-cta-explanation = Common Voice jest finansowany z darowizn i grantów! Bardzo chętnie współpracujemy z naukowcami akademickimi, przedstawicielami społeczeństwa obywatelskiego oraz badaczami z branży. Korzystanie z Common Voice jest bezpłatne, ale wsparcie finansowe na pokrycie kosztów platformy i hostingu poprzez wnioski o dotacje jest dla nas bardzo pomocne.
 
 ## MDC Announcement
 
+# Main text for MDC announcement. Text wrapped in <strong></strong> will be rendered with bold font
+announcement-mdc-text = <strong>Nowe zestawy danych Common Voice</strong> są już dostępne do pobrania wyłącznie za pośrednictwem naszej siostrzanej platformy, Mozilla Data Collective. Dołącz, aby uzyskać dostęp do ponad 300 globalnych zestawów danych, stworzonych przez i dla społeczności.
+# Button text for MDC announcement
+announcement-mdc-button-text = Dołącz do Mozilla Data Collective
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = Otwiera w nowej karcie
 
 ## Common Language/Dataset Selector & SearchBox Related
 
+# Generic search box defaults
+searchbox-default-label = Zacznij pisać, by wyszukać
 searchbox-default-placeholder = Szukaj…
 searchbox-default-aria-label = Szukaj
 dropdown-no-results = Nie znaleziono dopasowania

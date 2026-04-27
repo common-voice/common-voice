@@ -6,6 +6,7 @@ language-section-launched = Lakkifameera
 language-section-launched-description = Afaanota jalqabaman kanaaf marsariitichi milkaa'inaan <localizationGlossaryLink>naannootti akka jijjiiramu</localizationGlossaryLink> ta'eera, akkasumas <sentenceCollectionGlossaryLink>himoota walitti qabaman</sentenceCollectionGlossaryLink> gahaa qaba, kunis gumaacha itti fufiinsa qabu <speakLink>Dubbachuu</speakLink> fi <listenLink>Dhaggeeffachuu</listenLink>f hayyamuufi.
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
 language-section-last-updated = Jabanee Isa Dhumaa: { $lastUpdatedTimeStamp }
+language-communities = Maaloo, chaanaalii hawaasaa gara galmee <communitiesLink>COMMUNITIES.md GitHub</communitiesLink> irratti dabaluu itti yaadaa.
 languages-show-more = Daran Ilaali
 languages-show-less = Xiqqeessii ilaali
 language-meter-in-progress = Adeemsa

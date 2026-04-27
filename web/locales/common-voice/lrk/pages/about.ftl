@@ -117,7 +117,6 @@ about-playbook-how-grow-language-content-4 = سماجي دڌيا
 about-playbook-how-grow-language-content-5 = تمي پيغوم حاصل ڪريا ھارو ݾوݾل مڌيا ٽليٽ فارم استعما ڪرو سگھو ھون پوسٽو ݾيئير ڪرو جي سھي مون وضاحت ڪري ھي تو ڪين ضروري ھي ھين ٻآجو منيکو مون رابطا ۾ لاوہ جي مسلو ھارو آپس ۾ ٻولي رھيا ھي جيم ڪي ٻولي ري سماجي مھم ھلاوي جي ۾ پواد تمي ٻيجي دفا استعمال<campaignLink> يا ٽوڪنالاجي ۾ حيرون ئديڪ صلاح ني جواي آئي ري حق ري آواز</campaignLink> ڪري ھگو
 about-playbook-how-grow-language-content-6 = ڀائيواري ھين نيٽ ورڪ
 about-playbook-how-grow-language-content-7 = ٻيجو ني جو جي خيال رحي رکي ايم ھوئي سگھي ھي ڪي يونيورسٽي ، ٻولي ري اسڪول گروپ يا ڌيٽا جو <outreachTemplates>ساونس ڪميوٽي ، ٻاري جاو ھين واضح طور تي وضاحت ڪرو ڪي ايئي ڪيڪر مدد ڪري ھگي ھين ڪون </outreachTemplates>اي ميلون outreach امو ري تيمپليٽ
-about-playbook-how-grow-language-content-8 = تمو ري ٻولي ڪميونٽي الگ ھوئيئي  ھين اي </strong> ھين تسلي ڪري ليو <strong> ݾروع ڪريا را صرف ڪوئي تريقا ھي
 
 ## How to validate
 

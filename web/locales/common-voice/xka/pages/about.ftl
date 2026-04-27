@@ -105,7 +105,6 @@ about-playbook-how-grow-language-content-4 = سوشل میڈیا
 about-playbook-how-grow-language-content-5 = کیرا ا منندر  ویس کلپ رجکٹ تون۔۔رو قطار پر بون۔۔۔ دیرا رجکٹ بیل تے۔۔۔رو۔دیر کٹر ام
 about-playbook-how-grow-language-content-6 = مرگرتیا تےنٹ ورک
 about-playbook-how-grow-language-content-7 = تخلیقی بہ۔تسے جیب ام دراوال  ران آشہ۔تے اون تہ شرو بال ا ے الد پان دی
-about-playbook-how-grow-language-content-8 = مہ ا جیب  منظوری دال رل کتہ پو۔بم
 
 ## How to validate
 

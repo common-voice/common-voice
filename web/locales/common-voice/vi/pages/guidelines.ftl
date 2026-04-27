@@ -4,6 +4,8 @@ guidelines-header-subtitle = Tìm hiểu cách đóng góp và xác thực các 
 voice-collection = Bộ sưu tập giọng nói
 sentence-collection = Bộ sưu tập câu
 question-collection = Bộ sưu tập câu hỏi
+scripted-speech = Lời nói theo kịch bản
+spontaneous-speech = Lời nói tự phát
 dont-subheader = Không nên
 
 ## Voice Collection nav ids
@@ -196,9 +198,11 @@ tags-noise-explanation =
 special-tags-example-2 =
     Và sau đó tôi [tiếng ồn] đã đi nghỉ.
     À, [tiếng ồn] [cười] nó không hẳn là một kỳ nghỉ [cười]
+transcribe-the-audio-subheader-4-explanation-1 = Lời nói tự phát thường chứa những đoạn 'vấp' (false starts) – nơi người nói chỉ phát ra một mảnh vụn của từ. Trong những trường hợp này, hãy ghi chép lại mảnh từ đó theo khả năng nghe tốt nhất của bạn, đồng thời thêm một dấu gạch nối (-) vào cuối từ để biểu thị rằng từ đó đã bị đọc dở. Ví dụ:
 transcribe-the-audio-subheader-4-explanation-1-example = Tên anh ấy là <underline>Jo- Jona-</underline> Jonathan.
 transcribe-the-audio-subheader-4-explanation-2 = Đôi khi người nói sẽ lặp lại một từ hoặc một cụm từ nhiều lần. Điều này cũng cần được ghi chép lại. Ví dụ:
 transcribe-the-audio-subheader-4-explanation-2-example = Và sau đó tôi đã đi đến <underline>chỗ chỗ chỗ giường- chỗ</underline> giường ngủ
+transcribe-the-audio-subheader-5-explanation-1 = Lời nói tự phát thường chứa các lỗi ngữ pháp. Không được sửa những lỗi này khi chuyển âm. Bản ghi chép phải phản ánh chính xác nội dung đã nói.
 transcribe-the-audio-subheader-5-explanation-2 = Người nói có thể sử dụng những từ ngữ thông tục (chẳng hạn như trong tiếng Anh, "gonna", "cuz", v.v.) mà có thể không được coi là chính xác về mặt hình thức. Những từ ngữ này nên được phiên âm nguyên văn, và không được thay đổi sang các từ tương đương trang trọng hơn.
 
 ## Review the Transcription
@@ -295,6 +299,8 @@ code-switching-spelling-header = Sử dụng chính tả chuẩn cho từng ngô
 code-switching-spelling-explanation = Cố gắng đánh vần chính xác các từ cho từng ngôn ngữ, trừ khi người nói phát âm chúng theo cách không chuẩn.
 # Don’t Clean Up or Simplify the Language
 code-switching-cleanup-header = Đừng dọn dẹp hoặc đơn giản hóa ngôn ngữ
+code-switching-cleanup-2 = “Sửa” ngữ pháp hoặc phát âm – hãy giữ nguyên cách dùng tự nhiên của người nói.
+code-switching-cleanup-4 = Chèn các dấu câu có thể làm thay đổi ý nghĩa – hãy giữ cho luồng câu tự nhiên.
 code-switching-cleanup-5 = Giả sử bạn biết ngôn ngữ của từng từ – gắn tag dựa trên cách sử dụng.
 # Tagging
 code-switching-tagging-subheader = Tag
@@ -305,6 +311,8 @@ code-switching-tagging-error-3 = Từ được viết sai chính tả
 # Using Correct Orthography for Each Language
 code-switching-orthography-header = Sử dụng chính tả đúng cho từng ngôn ngữ
 code-switching-orthography-explanation = Viết mỗi từ theo đúng chính tả của ngôn ngữ gốc. Ví dụ:
+code-switching-orthography-explanation-example-1 = Nếu từ "kitchen" được phát âm giống như tiếng Tây Ban Nha, nó phải được viết như tiêng Anh, không phải là "quichen."
+code-switching-orthography-explanation-example-2 = Nếu từ quinceaños được đọc trong tiếng anh, viết nó bằng từ ñ.
 # Use Pronunciation to Help Determine the Language
 code-switching-pronunciation-header = Sử dụng cách phát âm để giúp xác định ngôn ngữ
 code-switching-pronunciation-explanation = Một số từ có thể trông giống nhau ở cả hai ngôn ngữ nhưng lại được phát âm khác nhau. Hãy nghe cách phát âm để giúp gắn tag chính xác. Ví dụ: cable, taco, actor, detective.

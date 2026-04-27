@@ -118,7 +118,6 @@ about-playbook-how-grow-language-content-4 = 社交媒体
 about-playbook-how-grow-language-content-5 = 您可以使用社交平台来发布帖子，分享解释其重要性，并与其他人联系以讨论语言权利、语音 AI 和技术偏见等问题。查看有关<campaignLink>开展社会活动的更多建议，其中包括您可以参考使用的内容</campaignLink>。
 about-playbook-how-grow-language-content-6 = 合作伙伴网络
 about-playbook-how-grow-language-content-7 = 寻找其他同您一样关心此项目的人。这其中可能有大学、语言学校、社会活动团体或数据科学社区。联系他们，并清楚地解释他们为何以及如何提供帮助。<outreachTemplates>参见我们的外联电子邮件模板</outreachTemplates>。
-about-playbook-how-grow-language-content-8 = <strong>发挥创意！</strong>您的语言社区将是独一无二的，并且这些只是几种入门的方法。
 
 ## How to validate
 

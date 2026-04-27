@@ -124,7 +124,6 @@ about-playbook-how-grow-language-content-4 = سماجي ميڊيا
 about-playbook-how-grow-language-content-5 = توهان پيغام حاصل ڪرڻ لاء سوشل ميڊيا پليٽ فارم استعمال ڪري سگهو ٿا. پوسٽون شيئر ڪريو جيڪي وضاحت ڪن ٿا ته اهو ڇو ضروري آهي، ۽ ٻين ماڻهن سان رابطي ۾ حاصل ڪريو جيڪي مسئلن بابت ڳالهائي رهيا آهن جهڙوڪ ٻولي جي حقن، آواز AI، يا ٽيڪنالاجي ۾ تعصب. وڌيڪ صلاح ڏسو <campaignLink>سماجي مهم هلائڻ، جنهن ۾ مواد توهان ٻيهر استعمال ڪري سگهو ٿا</campaignLink>.
 about-playbook-how-grow-language-content-6 = ڀائيواري ۽ نيٽ ورڪ
 about-playbook-how-grow-language-content-7 = ٻين کي ڳوليو جيڪي خيال رکندا. اهو ٿي سگهي ٿو يونيورسٽيون، ٻولي اسڪول، وڪيل گروپ يا ڊيٽا سائنس ڪميونٽي. ٻاهر وڃو ۽ واضح طور تي وضاحت ڪريو ته اهي ڪيئن مدد ڪري سگهن ٿا ۽ ڇو. <outreachTemplates>ڏسو اسان جي ٽيمپليٽ outreach اي ميلون</outreachTemplates>.
-about-playbook-how-grow-language-content-8 = <strong>تخليق حاصل ڪريو!</strong> توهان جي ٻولي ڪميونٽي منفرد هوندي، ۽ اهي شروع ڪرڻ جا صرف چند طريقا آهن.
 
 ## How to validate
 

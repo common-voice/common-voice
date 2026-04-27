@@ -1,5 +1,6 @@
 speak = လၢတ်ႈ
 speak-subtitle = လူႇပၼ်သဵင်ၸဝ်ႈၵဝ်ႇ
+record-cta = တႄႇဢတ်းသဵင်
 terms-agree = ႁၼ်လီၸွမ်း
 terms-disagree = ဢမ်ႇႁၼ်လီၸွမ်း
 why-donate = ယွၼ်ႉသင်လႄႈသူၸဝ်ႈထၢမ်?

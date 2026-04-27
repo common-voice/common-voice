@@ -58,7 +58,7 @@ about-nav-playbook = Akkamitti akka qooda fudhattu baradhu.
 ## What is a language
 
 about-playbook-what-is-language = Common Voice irratti qooqa jechuun maali dha?
-about-playbook-what-is-language-content-1 = waa'ee qooqaa yaaduuf karaaleen hedduun jiru. Kaayyoo moodeelota beekumsa sagalee (speech recognition) tiif, Afaan Waloo’n “wal hubannaa waliigalaa” irratti xiyyeeffata. Kana jechuunis, “namoonni qooqa kana dubbatan yoo yaalan, wal hubachuu ni danda’uu?” jechuun of gaafata.
+about-playbook-what-is-language-content-1 = waa'ee qooqaa yaaduuf karaaleen hedduun jiru. Kaayyoo moodeelota beekamtii sagalee (speech recognition) tiif, Afaan Waloo’n “wal hubannaa waliigalaa” irratti xiyyeeffata. Kana jechuunis, “namoonni qooqa kana dubbatan yoo yaalan, wal hubachuu ni danda’uu?” jechuun of gaafata.
 about-playbook-what-is-language-content-2 = Moodeelonni sagalee akka caalaatti fooyya’anii hojjetaniif, sagalee fi aksentoota garaagaraa hubachuun barbaachisaadha. Kanaafuu, kuusaan odeeffannoo sagalee (voice dataset) namoota hedduu fi garaagarummaa hawaasaa bal’aa bakka bu’uu qaba.
 about-playbook-what-is-language-content-3 = Qooqni tokko tokko seera-jecha (grammar), fayyadama jechootaa fi sagaleedhaan garaagarummaa guddaa qabaachuu danda’a. Sababa kanaaf, bara 2022tti <ctaLink>“garaagarummaa qooqaa (variants)”</ctaLink> jedhaman beeksifne. Kun hawaasota akka qooqa isaaniitti kuusaa odeeffannoo guddaa keessatti addaan baafatan carraa ni kenna.
 
@@ -116,7 +116,7 @@ about-playbook-how-grow-language-content-4 = Miidiyaa hawaasaa
 about-playbook-how-grow-language-content-5 = Ergaa babal’isuuf marsariitii miidiyaa hawaasaa fayyadamuu dandeessa. Barreessuu fi maxxansoota waa’ee maaliif barbaachisu ibsan qooduu, akkasumas namoota kaayyoo afaanii, sagalee AI, yookaan yaada dogoggoraa tekinoolojii irratti dubbatan waliin qunnamuu. Gorsa dabalataa <campaignLink>sagantaa miidiyaa hawaasaa geggeessuu, akkasumas qooddachuu dandeessu ilaali</campaignLink>.”
 about-playbook-how-grow-language-content-6 = Hariiroowwanii fi neetworkii
 about-playbook-how-grow-language-content-7 = Namoota biroo fedhii qaban barbaadi. Yuunivarsiitiiwwan, manneen barnootaa afaanii, gareewwan abukaatummaa, ykn hawaasa saayinsii daataa ta’uu danda’u. Akkamitti gargaaruu akka danda’an fi maaliif akka ta’e ifatti ibsi. <outreachTemplates>Imeelii qunnamtii fakkeenya keenyaa</outreachTemplates> ilaali.
-about-playbook-how-grow-language-content-8 = <strong>Uumama argadhu!</strong> Hawaasni afaanii kee addaa dha, kanaafis karaalee muraasa jalqabsiisuun ni danda’ama.
+about-playbook-how-grow-language-content-8-v2 = <strong>Kalaqummaa argadhu!</strong> Hawaasni afaanii kee adda ta'a, kanas karaalee muraasa qofa jalqabuuf. Maaloo chaanaalii hawaasaa kee <communitiesLink>COMMUNITIES.md galmee GitHub</communitiesLink> irratti dabali.
 
 ## How to validate
 

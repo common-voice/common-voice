@@ -118,7 +118,7 @@ about-playbook-how-grow-language-content-4 = Truyền thông xã hội
 about-playbook-how-grow-language-content-5 = Bạn có thể sử dụng các nền tảng mạng xã hội để truyền tải thông điệp. Chia sẻ các bài đăng giải thích tại sao điều đó lại quan trọng và liên hệ với những người khác nói về các vấn đề như quyền ngôn ngữ, AI giọng nói hoặc thành kiến trong công nghệ. Xem thêm lời khuyên về <campaignLink>chạy chiến dịch xã hội, bao gồm nội dung bạn có thể sử dụng lại</campaignLink>.
 about-playbook-how-grow-language-content-6 = Quan hệ đối tác và mạng lưới
 about-playbook-how-grow-language-content-7 = Tìm những người khác quan tâm. Đó có thể là các trường đại học, trường ngôn ngữ, nhóm vận động hoặc cộng đồng khoa học dữ liệu. Hãy liên hệ và giải thích rõ ràng họ có thể trợ giúp như thế nào và tại sao. <outreachTemplates>Xem các mẫu email tiếp cận của chúng tôi</outreachTemplates>.
-about-playbook-how-grow-language-content-8 = <strong>Hãy sáng tạo!</strong> Cộng đồng ngôn ngữ của bạn sẽ là duy nhất và đây chỉ là một số cách để bắt đầu.
+about-playbook-how-grow-language-content-8-v2 = <strong>Hãy sáng tạo!</strong> Cộng đồng ngôn ngữ của bạn sẽ rất độc đáo, và đây chỉ là một vài cách để bắt đầu. Vui lòng cân nhắc thêm các kênh cộng đồng của bạn vào <communitiesLink>tài liệu COMMUNITIES.md trên GitHub</communitiesLink>.
 
 ## How to validate
 

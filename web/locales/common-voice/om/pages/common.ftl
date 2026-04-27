@@ -238,6 +238,7 @@ ml = Afaan Malayalam
 mmc = Afaan Michoacán Mazahua
 mn = Afaan Mongooliyaa
 mni = Afaan Meeteyi Lon
+mnw = Wiix
 mos = Afaan Mossii
 mqh = Afaan Tlazoyaltepec Mixtec
 mr = Afaan Maraazii

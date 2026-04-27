@@ -6,6 +6,7 @@ language-section-launched = Elindítva
 language-section-launched-description = Az elindított nyelvek esetén a webhely már sikeresen <localizationGlossaryLink>lokalizálva lett</localizationGlossaryLink>, és elég <sentenceCollectionGlossaryLink>összegyűjtött mondat</sentenceCollectionGlossaryLink> van, hogy lehetővé tegye a <speakLink>Beszéd</speakLink> és <listenLink>Hallgatás</listenLink> közreműködéseket.
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
 language-section-last-updated = Legutóbb frissítve: { $lastUpdatedTimeStamp }
+language-communities = Fontolja meg a közösségi csatornái hozzáadását a <communitiesLink>COMMUNITIES.md dokumentumhoz a GitHubon</communitiesLink>.
 languages-show-more = Több
 languages-show-less = Kevesebb
 language-meter-in-progress = Előrehaladás

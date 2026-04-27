@@ -6,6 +6,7 @@ language-section-launched = Spustené jazyky
 language-section-launched-description = Pre tieto spustené jazyky bola webová stránka úspešne <localizationGlossaryLink>lokalizovaná</localizationGlossaryLink> a má dostatok <sentenceCollectionGlossaryLink>zozbieraných viet</sentenceCollectionGlossaryLink>, aby bolo možné <speakLink>nahrávať</speakLink> a <listenLink>počúvať</listenLink> hlasové príspevky.
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
 language-section-last-updated = Posledná aktualizácia: { $lastUpdatedTimeStamp }
+language-communities = Zvážte pridanie vašich komunitných kanálov do dokumentu <communitiesLink>COMMUNITIES.md na GitHube</communitiesLink>.
 languages-show-more = Zobraziť viac
 languages-show-less = Zobraziť menej
 language-meter-in-progress = Pokrok

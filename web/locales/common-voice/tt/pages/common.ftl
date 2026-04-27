@@ -238,6 +238,7 @@ ml = Малаялам
 mmc = Мичоакан масауа
 mn = Монгол
 mni = Манипури
+mnw = Мон
 mos = Мосси
 mqh = Тлазоялтепек Миштек
 mr = Маратһи
@@ -500,6 +501,16 @@ announcement-mdc-button-aria-text = Яңа табта ачыла
 
 # Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
 announcement-release-delay = Хөрмәтле җәмгыять, без әле релиз ясау белән мәшгуль. Без релизның киләсе берничә көн эчендә, өлешләп-өлешләп, <mdcLink>Mozilla Data Collective</mdcLink> платформасында тәмамланыр дип өметләнәбез.
+
+## Release Announcement
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release = Хөрмәтле җәмгыять, яңа чыгарылыш хәзер тулысынча <mdcLink>Mozilla Data Collective</mdcLink> эчендә урнаштырылган. Кушылыгыз һәм җәмгыять тарафыннан һәм җәмгыять өчен булдырылган 500-дән артык глобаль мәгълүматлар җыелмасын куллана башлагыз.
+
+## Pre-Release Announcement (dates TBD)
+
+# Text wrapped in <cvDatasheetsLink></cvDatasheetsLink> will be rendered as an external link to the cv-datasheets GitHub repo
+announcement-pre-release = Хәрмәтле җәмгыять, чыгарылыш вакыты якынлаша. Зинһар, аудиоларны раслагыз һәм транскрипцияләгез. Һәм, шулай ук, үзегезнең datasheet җәдвәлен яңарту өчен <cvDatasheetsLink>cv-җәдвәлләрне</cvDatasheetsLink> дә карагыз.
 
 ## Common Language/Dataset Selector & SearchBox Related
 

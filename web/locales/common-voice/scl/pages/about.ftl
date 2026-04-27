@@ -108,7 +108,6 @@ about-playbook-how-grow-language-content-4 = سوشل میڈیا
 about-playbook-how-grow-language-content-5 = ژھو سے موجی گینیو نو  سوشل میڈیا استعمال تھیون بانت۔ ادائے پوسٹے چینڈا کوئی سے تفصیل تھینائیے۔  باشو خپ، اے آیئی شونگو کاریو جکو سانتی موجی تھیون بئیا ۔ سوشل میڈیانی جکوڑے رجونو، یا موجی یو تھیونو آنے </campaignLink>. چکے
 about-playbook-how-grow-language-content-6 = سانتی گہ رابطائی
 about-playbook-how-grow-language-content-7 = شونگ تھینیک جک اُڑارے۔ یونیورسٹئیے بو تھن، سکولی بوتھن، یا باش سیچارینیک یا ڈیٹا سائیسو جک بوتھن۔ جینو کچی گئیے سم تھے رزا زیسے تھو کروم کدا تھے تھیون بینا یا کئیے تھیونو اواجئ <outreachTemplates>۔ اسی ای میل ٹمپلیٹ آنے</outreachTemplates> چکیا
-about-playbook-how-grow-language-content-8 = <strong> سوکیچو با </strong>  تھئی باش تھینین جک پُرونیو مُتے ہاں۔ کروم تھیونو انی جیک طریقائی ہاں
 
 ## How to validate
 

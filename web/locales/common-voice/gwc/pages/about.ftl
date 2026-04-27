@@ -105,7 +105,6 @@ about-playbook-how-grow-language-content-4 = سوشل میڈیا
 about-playbook-how-grow-language-content-5 = تو پیغام حاصیل کٞروگیں کیر سوشل میڈیا آں پلیٹ فارم استعمال کرباں، تے کاٞں خلک مسلاٞں باٞراٞ مئ مثلاً جِبوناٞں حٞق، ہوازاں اے آئ، یا ٹیکنالوجی مئ تعصباں باٞراٞ مئ جولاٞنش تہ توم سٞہ راٞبطآٞ مئ ہو۔ معاشرتی مہم چلاگیں کیر، بشمول دوبارہ استمال کرجوگاں <campaignLink> مواد رہ مزید مشورہ بیراٞ </campaignLink>
 about-playbook-how-grow-language-content-6 = شراکاٞت تے ارتباط
 about-playbook-how-grow-language-content-7 = دی خلک پا باٞتاٞ کوم فِکرمن تھو تہ۔ توم مئ یونیورسٹیاٞن، جِباٞں مکتباٞ، وکالِتاٞں ڈل، تے ڈیٹا سینسیں کمیونٹی تھی۔ اوم کٞہ پھݭ تے اوم کٞہ واضح کٞروں اوم کھیکی تے کا مداٞد کٞرباٞں۔ <outreachTemplates> مِݭ کٞہ پھݭوگاٞں نمونہ ای میلز بیراٞ۔ </outreachTemplates>
-about-playbook-how-grow-language-content-8 = <strong> تخلیقی ہو! </strong> چھیں جِبیں کمیونٹی خاص ہوئ، تے اومی اٞلاٞت طریقاٞ تھو شورو کٞروگاٞں۔
 
 ## How to validate
 

@@ -74,15 +74,24 @@
 
 ### Changes merged after current release
 
+- Remove SPS Questions item from menu, by [@moz-bozden](https://github.com/moz-bozden) in [#5383](https://github.com/common-voice/common-voice/pull/5383) (in v1.158.2)
+- Make communities md reachable from front-end, by [@moz-bozden](https://github.com/moz-bozden) in [#5374](https://github.com/common-voice/common-voice/pull/5374) (in v1.158.2)
 - Update MDC root URL, by [@moz-bozden](https://github.com/moz-bozden) in [#5373](https://github.com/common-voice/common-voice/pull/5373) (in v1.158.1)
 
 #### Data Changes after current release
 
-#### Spontaneous Speech after current release
+- Welcome to new language Mon (`mnw`)
 
+#### Spontaneous Speech Changes after current release
+
+- Remove Questions page from menu and make it inanncessible in code, by [@moz-bozden](https://github.com/moz-bozden) in [#536](https://github.com/common-voice/spontaneous-speech/pull/536) (in v1.158.2)
+- Update SPS bundler to remove PII related reports completely, by [@moz-bozden](https://github.com/moz-bozden) in [#535](https://github.com/common-voice/spontaneous-speech/pull/535) (in v1.158.2)
 - Update MDC root URL, by [@moz-bozden](https://github.com/moz-bozden) in [#533](https://github.com/common-voice/spontaneous-speech/pull/533) (in v1.158.1)
 
 ##### SS Data Changes after current release
+
+- Remove some Galician (`gl`) questions asking for PII info by adding reports directly into DB which will fully exclude them, by [@moz-bozden](https://github.com/moz-bozden)
+- Update some Galician (`gl`) questions with a migration to fix grammar issues, by [@moz-bozden](https://github.com/moz-bozden) in [#534](https://github.com/common-voice/spontaneous-speech/pull/534) (in v1.158.2)
 
 ---
 
