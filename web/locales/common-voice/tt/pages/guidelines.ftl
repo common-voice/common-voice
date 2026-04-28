@@ -85,6 +85,7 @@ adding-sentences-subheader-spelling-punctuation = Орфография һәм т
 adding-sentences-subheader-spelling-punctuation-explanation = Җөмләдә орфографик хаталар булмаска тиеш.
 adding-sentences-subheader-speakable = Кычкырып укып була
 adding-sentences-subheader-numbers = Саннар
+adding-sentences-subheader-numbers-explanation = Идеаль очракта чыганак текстта цифрлар булмаска тиеш, чөнки кычкырып укыганда алар кыенлыклар тудырырга мөмкин. Санның ничек укылуы контекстка бәйле һәм бу мәгълүмат тупланмасында буталчыклык китереп чыгарырга мөмкин. Мәсәлән, «2409» санын «ике дүрт ноль тугыз» дип тә, шулай ук «ике мең дүрт йөз тугыз» дип тә дөрес укып була.
 adding-sentences-subheader-abbreviations = Кыскартмалар һәм акронимнар
 adding-sentences-subheader-punctuation = Тыныш билгеләре
 adding-sentences-subheader-special-characters = Махсус символлар һәм чит тел хәрефләре
