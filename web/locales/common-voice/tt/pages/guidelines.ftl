@@ -103,7 +103,21 @@ dont-add-subheader = Шуларны өстәмәгез
 
 ## Spontaneous Speech sidebar content
 
+transcribe-the-audio-subheader-1 = Гомуми күрсәтмәләр
+transcribe-the-audio-subheader-2 = Саннар һәм акронимнар
 transcribe-the-audio-subheader-3 = Махсус билгеләр
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <correct>Дөрес</correct>: Бу урыннан бер йөз километр еракта
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Ялгыш</wrong>: Бу урыннан 100 километр еракта
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correct>Дөрес</correct>: <underline>Ике мең унбиш</underline> елда күрешербез
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Ялгыш</wrong>: <underline>2015</underline> елда күрешербез
+transcribe-the-audio-subheader-2-example-3-correct = <correct>Дөрес</correct>: Ул егерме процентлы ташлама булды
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Ялгыш</wrong>: Ул 20%-лы ташлама булды
+transcribe-the-audio-subheader-2-example-4-correct = <correct>Дөрес</correct>: Узган пәнҗешәмбе көнне <underline>ФБР</underline> аларны кулга алды
+transcribe-the-audio-subheader-2-example-4-wrong = <wrong>Ялгыш</wrong>: Узган пәнҗешәмбе көнне <underline>эф бэ эр</underline> аларны кулга алды
 tags-table-header-1 = Билге
 tags-table-header-2 = Мәгънә
 tags-laugh = Көлү

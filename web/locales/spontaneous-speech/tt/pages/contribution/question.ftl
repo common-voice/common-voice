@@ -1,5 +1,6 @@
 ## Question Page
 
+add-questions-terms-checkbox = * Бу сорауның <publicDomainLink>иҗтимагый милектә</publicDomainLink> булуын раслыйм һәм аны йөкләргә рөхсәтем бар.
 question-dataset-language = Мәгълүмат тупланмасы: { $datasetLanguage }
 add-question-error-message = Йөкләү уңышсыз булды, зинһар, янәдән тырышып карагыз.
 # Guidelines
