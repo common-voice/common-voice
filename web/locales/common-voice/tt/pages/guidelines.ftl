@@ -202,3 +202,7 @@ code-switching-not-tag-interjections-example-1 = "Ә"
 code-switching-not-tag-interjections-example-2 = "Юк"
 code-switching-not-tag-interjections-example-3 = «Әһә»
 code-switching-not-tag-interjections-example-4 = "Эм"
+
+## Reporting Content
+
+reporting-content-subheader = Гомуми күрсәтмәләр
