@@ -62,7 +62,7 @@ public-domain = အများပြည်သူပိုင် ဒိုမိ
 citing-sentences = ကိုးကား စာကြောင်းတိ
 adding-sentences = စာကြောင်းတိ ပေါင်းထည့်စွာ
 reviewing-sentences = စာကြောင်းတိကို ပြန်သုံးသပ်စွာ
-sentence-domain = စာကြောင်း ဒိုမိန်း
+sentence-domain = စာကြောင်း နယ်ပယ်
 
 ## Sentence collection sidebar content
 
