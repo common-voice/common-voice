@@ -143,6 +143,7 @@ explore-datasets = Мәгълүмат тупланмаларын карау <ico
 
 ## Get involved section
 
+get-involved-section-title = Җәмгыять тарафыннан ачык мәгълүмат тупланмаларына ярдәм итегез
 read-sentences-link = Җөмләләрне уку
 answer-questions-link = Сорауларга җавап бирү
 press-and-stories-link = Матбугат һәм мәкаләләр
