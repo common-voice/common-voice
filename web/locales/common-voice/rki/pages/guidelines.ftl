@@ -162,3 +162,5 @@ transcribe-the-audio-subheader-1-explanation = ပုံမှန်ဆိုက
 transcribe-the-audio-subheader-1-explanation-example-1 = တွန့်ဆုတ်တွန့်ဆုတ် ဖြစ်စွာနန့် ထပ်ခါတလဲလဲ ပြောစွာ အပါအဝင် မပြေလည်စွာတိကို ရီးမှတ်ထားပါ
 transcribe-the-audio-subheader-1-explanation-example-2 = ချောင်းဆိုးစွာ ဝါ ရယ်စွာရို့ပိုင် ဆူသံတိကို အညွှန်းစာ တပ်ပီးပါ
 transcribe-the-audio-subheader-1-explanation-example-3 = နောက်ခံ စကားပြောသံ ဝါ ကားဟွန်းတီးသံ ရို့ပိုင် သိသာ ထင်ရှားယေ ကကောင်း ဆူသံ လွှမ်းမိုးနိန်ယေလို့ အညွှန်းစာ တပ်ပီးပါ
+transcribe-the-audio-subheader-1-explanation-example-4 = သဒ္ဒါ ကွဲလွဲစွာနန့် ဗန်းစကားတိကို အရှိအတိုင်း တိတိကျကျ မှတ်တမ်းတင်သင့်ပါယေ။ လူများတိ ပြောဆိုစွာကို မပြင်ဆင်ပါကဲ့ ဝါ တည်းဖြတ်စွာ မလုပ်ပါကဲ့။
+transcribe-the-audio-subheader-2-explanation-1 = နံပါတ်တိနန့် သင်္ကေတတိကို ဂဏန်းတိ ဝါ အထူး အက္ခရာတိကို အသုံးပြုဖို့အစား စကားလုံးတိနန့် ရီးမှတ်သင့်ပါယေ။ ဥပမာ -
