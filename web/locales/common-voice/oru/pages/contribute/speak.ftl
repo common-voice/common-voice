@@ -1,5 +1,5 @@
 speak = غؤس/ یو/ ژغ
-speak-now = پېری غؤس
+speak-now = پېری غؤس/ژغ
 speak-subtitle = ا خوئ آواز پېش کَۀ
 record-cta = ا ریکارډِنګ شُوري کَۀ
 record-platform-not-supported = معافي يې بو زېن، ایزیره بو ترتو ا پلېټ فارم نک چلا

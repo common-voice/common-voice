@@ -502,6 +502,16 @@ announcement-mdc-button-aria-text = نیوو ټېب نره وه میوز
 # Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
 announcement-release-delay = خوېڒی ته کمیونېټی واله وئ، ایزیره بُو ماخ ریلیزکؤ زر کر کيېن۔ ترماخ يې یمېند هۀ که پئ څُون رݫی نره سُو ماخ پَلَۀ پسے ریلیز کيېن Mozilla Data Collective کی۔
 
+## Release Announcement
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release = خوېڒی ته کمیونیټی واله وئ، ا نیوو ریلیز پېری پُورۀ ”آن” هۀ Mozilla Data Collective نر۔ پېری ل بُو پېنځ سوه لاسته ݫات ګلوبل ډېټاسېټس کی ګډ اېنڅئ Mozilla Data Collectiv که ا کمیونېټی يې ته کمیونېټی پاره جوړ دوک هۀ
+
+## Pre-Release Announcement (dates TBD)
+
+# Text wrapped in <cvDatasheetsLink></cvDatasheetsLink> will be rendered as an external link to the cv-datasheets GitHub repo
+announcement-pre-release = خوېڒی ته کمیونېټی واله وئ، ته ریلیز ا وخت بویٛ هۀ۔ ته توثیق کؤ او ته خوئ زبان کی وه ته پلټؤ ا کر شُوري کوئ، او ا cv-datasheets ګۀ جیر کوئ که ا ډېټاشیټن اپډېټ سَۀ
+
 ## Common Language/Dataset Selector & SearchBox Related
 
 # Generic search box defaults
