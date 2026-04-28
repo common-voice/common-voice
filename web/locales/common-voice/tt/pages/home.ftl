@@ -133,6 +133,10 @@ download-contribution-certificate-action = Сертификатыгызны ал
 
 featured-section-title = Безнең турында язалар...
 
+## Developers section
+
+developers-section-title = 130+ телдә һәркем өчен ачык тавыш мәгълүматы тупланмалары
+
 ## Get involved section
 
 read-sentences-link = Җөмләләрне уку

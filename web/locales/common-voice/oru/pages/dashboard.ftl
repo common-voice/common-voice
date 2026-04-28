@@ -52,6 +52,7 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = ا مقصد دل ټېپن
 cant-decide = فیصلۀ يې بُو نک اېنچِم
+activity-needed-calculation-fixed = که ا سُو تماله دی ریوزانۀ سُو جملی جوړ کَوِن آ يې بُو ته ګهېټۀ اډیو جوړ سَۀ۔ په پۀ رفتار يې بُو تُو 1000 ګهېنټه کر ڒی مایٛ نر پُورۀ اېنچی
 how-many-per-day = څُون کلِپ ریوزانۀ؟
 how-many-a-week = زبردست۔ څُون کلِپ ریوزانۀ؟
 which-goal-type = تُو بُو غؤس که ژغ، امر، یا ا دُوګډ؟
