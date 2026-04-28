@@ -135,3 +135,12 @@ offensive-content-sensitive-information-explanation-explanation-1 = ကိုယ
 offensive-content-sensitive-information-explanation-explanation-2 = အမုန်းစကား ဝါ တခြား ဘက်လိုက်ယေ ဝါ စော်ကားယေ ခံစားချက်တိကို လှုံ့ဆော်ပီးနိုင်ယေ မေးခွန်းတိ
 offensive-content-sensitive-information-explanation-explanation-3 = တယောက်ယောက်ကို ထိလွယ်ရှလွယ်ယေ၊ ဒေါသတကြီး တုံ့ပြန်ဖို့ လှုံ့ဆော်ပီးနိုင်ယေ မေးခွန်းတိ
 example-questions-subheader = ဥပမာ မေးခွန်းတိ
+example-questions-explanation-1 = ဒေ <examplePromptsLink>ဥပမာ ညွှန်ကြားချက် ၁၂၀ စာရွက် </examplePromptsLink> မှာ ရှာတွိနိုင်ပါယေ။
+example-questions-explanation-2 = မေးခွန်း တစုတဝေးတည်းကို မက်ဆေ့ချ် ပို့ဖို့အတွက် တင်သွင်းချင်က၊ မိတ်ဆွေ <githubLink> အကျွန်ရို့ GitHub က တဆင့် </githubLink>  ပြုလုပ်နိုင်ပါယေ ဝါ မိတ်ဆွေ စာရင်းကို <emailFragment>commonvoice@mozilla.com</emailFragment> ကို အီးမေးလ် ပို့နိုင်ပါယေ။
+
+## Spontaneous Speech sidebar content
+
+# Answer Questions
+answer-questions = မေးခွန်းတိကို ဖြေပီးပါ
+answer-questions-subheader = အထွေထွေ လမ်းညွှန်ချက်
+answer-questions-explanation-1 = ညွှန်ကြားချက် အကြောင်း တနားချေ စဉ်းစားကြည့်ပါ၊ ဇာပိုင် စကားမျိုး ပြောချင်လဲဆိုစွာ စဉ်းစားပါ၊ ဝါ ကိုယ့်ကိုယ်ကိုယ် စာတိ အများကြီး မရီးပါကဲ့။ ‘အသံသွင်းပါ’ အိုင်ကင်ကို နှိပ်ပါ။ အသံသွင်းဗြီးစွာနန့် ကိုယ်တိုင် နားထောင်နိုင်ယေပိုင်၊ ပြန်လို့ အသံ သွင်းနိုင်၊ ဖျက်နိုင်၊ တင်သွင်းစွာလည်း လုပ်နိုင်ပါယေ။
