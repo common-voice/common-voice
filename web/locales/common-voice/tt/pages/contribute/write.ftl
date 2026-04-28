@@ -148,6 +148,7 @@ add-sentences-menu-item-tooltip = Җөмләләр өстәү
 review-sentences-menu-item-tooltip = Җөмләләрне тикшерү
 add-questions-menu-item-tooltip = Сораулар өстәү
 review-questions-menu-item-tooltip = Сорауларны тикшерү
+transcribe-audio-menu-item-tooltip = Аудиоязмаларны текстка үзгәртү
 
 ## MENU ITEM ARIA LABELS
 

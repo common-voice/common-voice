@@ -68,3 +68,12 @@ player-skip-backward-shortcut-key = Ctrl / Cmd + 8
 player-skip-forward-shortcut = 9
 player-skip-forward-shortcut-key = Ctrl / Cmd + 9
 player-skip-forward-shortcut-name = Алга
+
+## Transcription Player - Aria Labels
+
+# Slower playback speed button accessibility/aria label
+player-speed-slow-aria-label = Әкренрәк уйнату тизлеге
+# Normal playback speed button accessibility/aria label
+player-speed-normal-aria-label = Гадәти уйнату тизлеге
+# Faster playback speed button accessibility/aria label
+player-speed-fast-aria-label = Тизрәк уйнату тизлеге
