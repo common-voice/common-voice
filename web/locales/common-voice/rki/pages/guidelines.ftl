@@ -174,7 +174,13 @@ tags-laugh-explanation = ရယ်ယေ အသံ။
 
 ## Code-Switching
 
+# What to Avoid
+code-switching-avoid-subheader = ဇာ ရှောင်ရဖို့
+code-switching-avoid-intro = ဖြစ်လာနိုင်ယေ မေးခွန်းတိ -
+code-switching-avoid-1 = ကိုယ်ရေးကိုယ်တာ ခွဲခြားနိုင်ယေ အချက်အလက်တိကို တောင်းခံယေ
+code-switching-avoid-3 = တယောက်ယောက်ကို ထိလွယ်ရှလွယ်ယေ၊ ဒေါသတကြီး တုံ့ပြန်ဖို့ လှုံ့ဆော်ပီးစွာ ဖြစ်ဇီနိုင်ယေ
 code-switching-dont-header = မလုပ်ပါကဲ့
+code-switching-dont-1 = ပုံမှန် ဘာသာစကားကို အလွန်အကျွံ မသုံးပါကဲ့
 # Reviewing a Question
 code-switching-review-subheader = မေးခွန်း တခုကို ပြန်သုံးသပ်ပီးစွာ
 code-switching-review-criterion-1 = နားလည်ရ လွယ်ကူပနာ၊ တုံ့ပြန်ရ လွယ်ကူရဖို့
