@@ -7,3 +7,8 @@ error-recording = Яздырганда хата килеп чыкты
 delete = Бетерү
 # For the disabled button on a prompt that indicates a prompt is already submitted
 submitted = Җибәрелде
+
+## Explainer text (Respond to Prompt)
+
+learn-how-to-use-prompts-guidance = Бу битне ничек кулланырга өйрәнү өчен <guidanceLink>монда</guidanceLink> басыгыз
+learn-how-to-use-check-transcript-guidance = Бу битне ничек кулланырга өйрәнү өчен <guidanceLink>монда</guidanceLink> басыгыз

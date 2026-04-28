@@ -28,6 +28,7 @@ respond-to-prompt-mobile = Җавап бирү
 transcribe = Текстка күчерү
 check-transcriptions = Тикшерү
 check-transcriptions-mobile = Тикшерү
+tag = Билге
 
 ## Not Found Page
 
@@ -71,6 +72,10 @@ player-skip-forward-shortcut-name = Алга
 
 ## Transcription Player - Aria Labels
 
+# Play button accessibility/aria label
+player-play-button-aria-label = Аудио уйнату
+# Pause button accessibility/aria label
+player-pause-button-aria-label = Аудио туктату
 # Slower playback speed button accessibility/aria label
 player-speed-slow-aria-label = Әкренрәк уйнату тизлеге
 # Normal playback speed button accessibility/aria label

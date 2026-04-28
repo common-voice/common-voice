@@ -104,11 +104,13 @@ adding-questions = Сораулар өстәү
 what-makes-a-good-question-subheader = Яхшы сорау нинди булырга тиеш?
 what-makes-a-good-question-explanation = Ачык мәгълүматлар җыелмасы өчен яхшы сорау:
 what-makes-a-good-question-explanation-criteria-1 = Аңлаешлы һәм җавап бирүдә авырлыклар тудырмый
+what-makes-a-good-question-explanation-criteria-2 = Гомумән алганда урынлы булырга тиеш
 easy-to-understand = Аңларга җиңел
 spelling-and-pronunciation = Орфография һәм тыныш билгеләре
 spelling-and-pronunciation-explanation = Орфография һәм грамматика кагыйдәләрен үтәгез
 length = Озынлык
 dont-add-subheader = Шуларны өстәмәгез
+process-steps = Процесс / адымнар
 example-questions-subheader = Сорау үрнәкләре
 
 ## Spontaneous Speech sidebar content
@@ -168,6 +170,9 @@ code-switching = Телләрне катыштыру
 adding-a-question = Сорау өстәү
 # Adding a Question
 code-switching-adding-question-subheader = Яхшы сорау нинди булырга тиеш?
+code-switching-adding-question-explanation = Ачык мәгълүматлар җыелмасы өчен яхшы сорау:
+code-switching-adding-question-criteria-1 = Аңлаешлы һәм җавап бирүдә авырлыклар тудырмый
+code-switching-adding-question-criteria-2 = Гомумән алганда урынлы булырга тиеш
 code-switching-use-bilingual-prompts-explanation-example = "Что тебе сказала мама, шул көнне өйгә кайткач?"
 # What to Avoid
 code-switching-avoid-subheader = Нәрсәдән сакланырга кирәк
@@ -177,11 +182,14 @@ code-switching-dont-header = Болай эшләмәгез
 # Reviewing a Question
 code-switching-review-subheader = Сорауны тикшерү
 code-switching-review-criterion-1 = Аңлаешлы һәм җавап бирүдә авырлыклар тудырмый
+code-switching-review-criterion-2 = Гомумән алганда урынлы булырга тиеш
 # Answering a Question
 code-switching-answer-subheader = Сорауга җавап бирү
 code-switching-answer-intro = Сорауга җавап биргәндә, нәкъ чын тормыштагы әңгәмәдәге кебек табигый итеп сөйләшергә тырышыгыз. Без көндәлек сөйләмдә телләрнең чынлыкта ничек кушылуын чагылдырырга телибез.
 code-switching-use-both-languages-example = "Ул бик нык ачуланды, потому что мин аңа кире шалтыратмадым."
 code-switching-authentic-direct-quotes-example = «Әнием әйтте: "Син моны уен дип уйлыйсыңмы?", а я такой: "Окей, остынь!"»
+# Transcribing
+code-switching-transcribe-subheader = Текстка күчерү
 # Tagging
 code-switching-tagging-subheader = Билгеләү
 code-switching-tagging-error-2 = Язу хаталары
