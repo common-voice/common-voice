@@ -45,6 +45,7 @@ x-years-short =
     }
 help-make-dataset = Безгә югары сыйфатлы, һәркемгә ачык мәгълүмат тупланмасын булдырырга ярдәм итегез
 sign-up-account = Аккаунт булдырыр өчен теркәлегез
+email-subscription-title-v3 = Common Voice һәм Mozilla Foundation яңалыкларына язылу
 
 ## Account Benefits
 
@@ -136,6 +137,9 @@ featured-section-title = Безнең турында язалар...
 ## Developers section
 
 developers-section-title = 130+ телдә һәркем өчен ачык тавыш мәгълүматы тупланмалары
+developers-section-subtitle = ASR, STT, TTS һәм башка NLP өлкәләре өчен мәгълүмат тупланмалары - берләшмә катнашында булдырылган.
+# icon is an arrow that points to the right
+explore-datasets = Мәгълүмат тупланмаларын карау <icon></icon>
 
 ## Get involved section
 
@@ -146,4 +150,6 @@ press-and-stories-link = Матбугат һәм мәкаләләр
 ## Partner section
 
 # icon is an arrow that points to the right
-get-in-touch-button = Элемтәгә керегез <icon></icon>
+get-in-touch-button = Элемтәгә керү <icon></icon>
+# Partners section
+our-partners-include = Безнең партнерлар арасында...
