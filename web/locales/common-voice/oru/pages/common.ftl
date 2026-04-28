@@ -238,6 +238,7 @@ ml = ملیالمئے
 mmc = مِچواکان مزاهُوا
 mn = منګولئے
 mni = مېتیلونئے
+mnw = مون
 mos = موݭئے
 mqh = تلازویالپېک مِکسفېک
 mr = مراټئے
@@ -319,6 +320,7 @@ qxt = قیوچُوا پاسکو سانتا آنا دی تُوسی
 qxu = قیوچُوا ارېقویپا لا یونئن
 qxw = قیوچُوا جاؤجا وانکا
 rif = ظاری فِتئے
+rki = راخائن
 rm-sursilv = رومانش سرسِلونئے
 rm-vallader = رومانش ولادرئے
 rn = کیرُنډدی
@@ -400,6 +402,7 @@ uk = یوکرنئے
 ukv = کُوکُو
 ur = اردو
 ush = اوشوجو
+usp = اُسپانتیکو
 uz = اُزبک
 var = هُواریجو
 ve = تاشوندئے
@@ -466,6 +469,8 @@ indicates-required = فیلډ ته ستُرک * ای نشان ګیرډ يې ضر
 not-available-abbreviation = ن/ا
 # Text shown on a button that can be clicked to copy text to the clipboard
 copy = کوپی
+# Text shown on a button that can be clicked to close a modal or panel
+close = بند
 # Text shown on a button that can be clicked to cancel an action
 cancel = کېنسل
 # Text shown on a button that can be clicked to delete an item
