@@ -153,6 +153,12 @@ press-and-stories-link = Матбугат һәм мәкаләләр
 
 ## Partner section
 
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Технологик компанияләр</bold> - күптелле ЯФ экосистемасының уңышлы үсеше өчен ачык мәгълүмат тупланмаларын булдыруга инвестицияләр кертегез.
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Гражданлык җәмгыяте һәм фәнни хезмәткәрләр</bold> - әһәмиятле мәгълүмат тупланмаларын бушлай булдырыгыз, урнаштырыгыз һәм уртаклашыгыз
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Хәйриячеләр</bold> - җирле инновацияләргә һәм үсешкә ярдәм итү өчен мәгълүмат тупланмалары булдыруга спонсорлык итегез.
 # icon is an arrow that points to the right
 get-in-touch-button = Элемтәгә керү <icon></icon>
 # Partners section
