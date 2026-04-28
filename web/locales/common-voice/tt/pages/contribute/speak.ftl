@@ -62,6 +62,7 @@ first-cta-gender-select-help-text =
     .label = Җенесегезне ничек тасвирлар идегез?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Тавышыгызны иганә иткәнегез өчен рәхмәт!
+second-cta-subtitle-text = Профиль ярдәмендә сез активлыгыгызны күзәтеп тора аласыз һәм тавыш мәгълүматы авторлары берләшмәсенә кушыла аласыз.
 already-have-an-account = Хисабыгыз бармы инде? <login>Керү</login>
 create-profile-button = Профиль булдыру
 # IMAGE TAGS

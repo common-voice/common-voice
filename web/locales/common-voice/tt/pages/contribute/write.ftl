@@ -98,6 +98,24 @@ too-many-files = Артык күп файл
 small-batch-instruction = <icon></icon> Берничә иҗтимагый милектәге җөмлә өстәгез
 multiple-sentences-error = Җөмләләрне берәмләп кенә җибәрергә ярый.
 exceeds-small-batch-limit-error = 1000-нән артык җөмлә җибәреп булмый
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] Тагын да тизрәк җибәреп булмый. 1 секундтан яңадан кабатлагызчы.
+       *[other] Тагын да тизрәк җибәреп булмый. { $retryLimit } секундтан яңадан кабатлагызчы.
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] Бу биттән тагын да тизрәк җибәреп булмый. Яңа җөмләне җибәргәнче 1 минут көтегезче. Түземлегегез өчен рәхмәт!
+       *[other] Бу биттән тагын да тизрәк җибәреп булмый. Яңа җөмләне җибәргәнче { $retryLimit } минут көтегезче. Түземлегегез өчен рәхмәт!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] Бу биттән тагын да тизрәк җибәреп булмый. Яңа җөмләне җибәргәнче 1 секунд көтегезче. Түземлегегез өчен рәхмәт!
+       *[other] Бу биттән тагын да тизрәк җибәреп булмый. Яңа җөмләне җибәргәнче { $retryLimit } секунд көтегезче. Түземлегегез өчен рәхмәт!
+    }
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $totalSentences ->
