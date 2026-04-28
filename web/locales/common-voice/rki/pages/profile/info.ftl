@@ -35,6 +35,8 @@ avatar = အာ့ဗာတာ
 goals = ရည်မှန်းချက်တိ
 settings = ဆတ်တိန်းတိ
 edit-profile = ပြိုဖိုင်းကို ပြန်ပြင်ပါ
+profile-create-success = အောင်မြင်ပါယေ၊ ပြိုဖိုင်း ဖန်တီးဗြီးပါဗျာလ်!
+profile-close = ပိတ်ပါ
 # Genders
 male_masculine = ယောက်ျား/ယောက်ျား ပီသယေ
 female_feminine = မမက်/မမက် ပီသယေ
