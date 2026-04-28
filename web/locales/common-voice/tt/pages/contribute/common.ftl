@@ -118,6 +118,7 @@ contribution-misreadings-example-4-title = Бу балыклар базарда 
 contribution-misreadings-example-4-explanation = [Кирәкле тексттан күбрәк яздырылган]
 contribution-misreadings-example-5-title = Без кофе алырга тышка чыгып керергә җыенабыз.
 contribution-misreadings-example-6-title = Без кофе алырга тышка чыгып керергә җыенабыз.
+contribution-misreadings-example-7-title = Без чәй алып кайтабыз.
 contribution-misreadings-example-8-explanation = [Туры килмәгән эчтәлек]
 contribution-varying-pronunciations-title = Төрле әйтелешләр
 contribution-varying-pronunciations-description = Укучының сүзне дөрес әйтмәве, басымны урынсыз калдыруы яки сорау билгесенә игътибар итмәве нигезендә язуны кире кагар алдыннан сак булыгыз. Дөньяның һәм илнең төрле почмакларында кулланылган төрле акцентлар һәм әйтелешләр булырга мөмкин. Зинһар, сездән башкача сөйләшә алганнарны кире какмагыз.

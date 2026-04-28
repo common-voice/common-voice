@@ -25,7 +25,7 @@ question = Сорау
 validate = Раслау
 respond-to-prompt = Җавап бирү
 respond-to-prompt-mobile = Җавап бирү
-transcribe = Транскрипцияләү
+transcribe = Текстка күчерү
 check-transcriptions = Тикшерү
 check-transcriptions-mobile = Тикшерү
 

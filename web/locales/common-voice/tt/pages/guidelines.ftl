@@ -33,6 +33,7 @@ misreadings-explanation-4 = Сүзнең азагы әйтелмичә кала,
 misreadings-explanation-5 = Язылган сүзгә охшаш, ләкин аерылып торган сүз әйтелә. Мәсәлән, "җәмәгать" урынына "җәмгыять" дип әйтү, яки киресенчә.
 misreadings-explanation-6 = Яздыруны артык иртә туктату аркасында соңгы сүзнең азагы яздырылмыйча калу.
 misreadings-explanation-7 = Бер үк сүзне берничә тапкыр укырга тырышу.
+misreadings-example-2 = Без чәй апкайтабыз.
 misreadings-tip-3 = [Туры килмәгән эчтәлек]
 background-noise-explanation = Язмадагы һәрбер сүз ачык ишетелергә тиеш. Безнең теләгебез — фонда төрле чит тавышлар булганда да машина өйрәтү алгоритмнарының эшли алуы. Шуңа күрә хәтта нык яңгыраган чит тавышлар кергән язмалар да кабул ителә ала. Бары тик шунысы шарт — андый тавышлар сезгә барлык текстны ишетергә комачауламаска тиеш. Текстны ишетергә комачаулаучы чатырдаулар яки «өзелүләр» булса, сез клипны кулланудан баш тартырга тиешсез.
 background-noise-example-1 = Бу балыклар базарда сатыла.
@@ -115,6 +116,8 @@ answer-questions-tip-2 = Яхшы интернет элемтәсе булган
 answer-questions-tip-3b = Җавабыгызны 15-30 секунд эчендә тотарга тырышыгыз
 answer-questions-tip-5 = Дустыгыз белән сөйләшкән кебек, табигый итеп сөйләшегез - үзегезнең чын сөйләшегезне, диалектыгызны һәм акцентыгызны кулланыгыз
 answer-questions-tip-6 = Тавышыгызны бертигез тотыгыз - кычкырмагыз һәм җырламагыз
+# Transcribe the Audio
+transcribe-the-audio = Аудионы текстка күчерү
 transcribe-the-audio-subheader-1 = Гомуми күрсәтмәләр
 transcribe-the-audio-subheader-2 = Саннар һәм акронимнар
 transcribe-the-audio-subheader-3 = Махсус билгеләр
@@ -151,7 +154,7 @@ transcribe-the-audio-subheader-4-explanation-2-example = Аннары мин <un
 
 ## Review the Transcription
 
-review-the-transcription = Транскрипцияне тикшерү
+review-the-transcription = Транскриптны тикшерү
 review-the-transcription-subheader = Гомуми күрсәтмәләр
 
 ## Code-Switching

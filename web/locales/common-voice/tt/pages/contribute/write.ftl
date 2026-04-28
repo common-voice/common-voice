@@ -153,3 +153,4 @@ review-questions-menu-item-tooltip = Сорауларны тикшерү
 
 write-contribute-menu-aria-label = Язу көйләүләре менюсы
 add-sentences-menu-item-aria-label = Җәмгыять уку өчен яңа җомләләр өстәгез
+transcribe-audio-menu-item-aria-label = Аудиоязмаларны текстка үзгәртү

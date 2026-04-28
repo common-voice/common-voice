@@ -80,6 +80,7 @@ answer-questions = Сорауларга җавап бирү
 review-transcriptions = Транскриптларны тикшерү
 add-questions = Сораулар өстәү
 review-questions = Сорауларны тикшерү
+transcribe-audio = Аудионы текстка күчерү
 press-and-stories = Матбугат һәм мәкаләләр
 community-and-languages = Берләшмә һәм телләр
 coming-soon = Тиздән

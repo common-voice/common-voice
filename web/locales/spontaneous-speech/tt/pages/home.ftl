@@ -11,11 +11,11 @@ prompt-bubble-subtitle = Без Сезгә ярдәм итүче язма яки
 # text wrapped in <mark></mark> will have a blue background
 respond-bubble-title = <mark>Җавап бирү</mark>
 # text wrapped in <mark></mark> will have a blue background
-transcribe-bubble-title = <mark>Транскрипцияләү</mark>
+transcribe-bubble-title = <mark>Текстка күчерү</mark>
 transcribe-bubble-subtitle = Аудиоклипларда нәрсә ишетәсез - шуны язасыз.
 # text wrapped in <mark></mark> will have a blue background
 check-bubble-title = <mark>Тикшерү</mark>
-check-bubble-subtitle = Сез транскрипциянең аудио язмасына туры киләме, юкмы икәнен тикшерәсез.
+check-bubble-subtitle = Сез транскриптның аудио язмасына туры киләме, юкмы икәнен тикшерәсез.
 # text wrapped in <mark></mark> will have a blue background
 data-bubble-title = <mark>Мәгълүмат</mark>
 data-bubble-subtitle = Без вакыт-вакыт мәгълүматлар җыелмаларын чыгарабыз
