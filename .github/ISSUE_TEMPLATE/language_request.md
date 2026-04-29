@@ -4,7 +4,7 @@ about: Request a language for localisation on Common Voice that is currently not
 title: 'LOCALISATION REQUEST: '
 labels: 'Localisation'
 type: task
-assignees: 'ftyers,bandrandr'
+assignees: 'ftyers,moz-acfort'
 ---
 
 # Welcome to the Common Voice Community!

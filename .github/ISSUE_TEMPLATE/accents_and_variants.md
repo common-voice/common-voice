@@ -3,7 +3,7 @@ name: Add accents or variants
 about: Add accents or variants to a language on Common Voice
 title: 'Accents/Variants request: '
 type: task
-assignees: 'bandrandr'
+assignees: 'moz-acfort'
 ---
 
 ## Language you're requesting for

@@ -1,6 +1,8 @@
 ## Profile Delete
 
 delete-q = kodi inuyo mukufuna titachosanso mawu amene mwalankhula, kapena tiwasunge mawuwo mu data
+keep = sungani
+remove = Chotsani
 keep-info = Kujambula mawu kwanu kosadziwika kudzakhalabe mu deta ya Common Voice. Mukachotsa mbiri yanu simudzathanso kutumiza pempho loti muchotse zojambula zanu mu deta yanu.
 remove-info = Tidzawunikanso pempho lanu loti tichotse mawu anu ojambulidwa kuchokera mu deta. Ngati pempho lanu lavomerezedwa, tidzalankhula ndi omwe adatsitsa detayo ndikupempha kuti achotsenso mawu anu ojambulidwa.
 why-delete-recordings =

@@ -29,9 +29,82 @@ number-of-voices = အသံ အရေအတွက်
 splits = ခွဲခြားချက်တိ
 email-to-download = ဒေါင်းလုဒ် လုပ်ဖို့ အီးမေးလ် ထည့်ပါ
 why-email = <b>ဇာအတွက် အီးမေးလ် လိုစွာလဲ။</b> ဒေတာစု ပြောင်းလဲစွာတိနန့် ပတ်သက်လို့ အနာဂတ်မှာ မိတ်ဆွေကို ဆက်သွယ်ဖို့ လိုအပ်နိုင်ပနာ၊ အီးမေးလ်က အကျွန်ရို့ ဆက်သွယ်နိုင်ဖို့ လိုအပ်ချက်တခု ဖြစ်ပါယေ။
+why-donate-datasets-page = Mozilla Common Voice စွာ ကမ္ဘာမှာ အကွဲပြားဆုံး လူအုပ်စု ရင်းမြစ်က ထွက်ပေါ်လာယေ ပွင့်လင်းယေ စကား ဒေတာစုဖြစ်ပနာ၊ အကျွန်ရို့စွာ အလှူငွေတိနန့် အပြည့်အဝ လည်ပတ်နိန်ပါယေ။ အကျွန်ရို့ လုပ်ဆောင်စွာတိကို မှီခိုနိန်ရယေ ဘာသာစကား ၁၀၀ ကျော် ဟိယေ အသိုင်းအဝိုင်းတိအတွက် ဒေတာစုတိကို လက်ခံထိန်းပီးထားဖို့နန့် ပလက်ဖောင်းကို တိုးတက်ကောင်းမွန်ဇီဖို့အတွက် တနှစ်ကို ဒေါ်လာတသန်းနီးပါး ကုန်ကျပါယေ။ ပွင့်လင်းပနာ အားလုံး ပါဝင်ယေ ဒေတာကို မိတ်ဆွေ တန်ဖိုးထားကေ - <b> အေနိပင် အလှူငွေ ထည့်ဝင်ပီးပါ။</b>
+confirm-size = <b>{ $size }</b> ကို ဒေါင်းလုဒ် လုပ်ဖို့ မိတ်ဆွေ ပြင်ဆင်နိန်စွာပါ။
 size-gigabyte = GB
 size-megabyte = MB
+confirm-no-identify = Common Voice ဒေတာစုမှာ စကားပြောယေ လူတိ အထောက်အထားကို ရယူဖို့ မကြိုးစားပါလို့ <b>မိတ်ဆွေ သဘောတူပါယေ</b>
+confirm-join-mailing-list = Common Voice မေးလ်စာရင်းထဲမှာ ပါဝင်ချင်ပါလား
+download-language = { $language } ကို ဒေါင်းလုဒ် လုပ်ပါ
 validated-hours = အတည်ပြုထားယေ နာရီတိ
 recorded-hours = အသံသွားထားယေ နာရီတိ
 whats-inside = Common Voice ဒေတာစု အထဲမှာ ဇာတိ ပါလဲ?
+dataset-description-hours =
+    ဒေတာစုထဲက entry တခုချင်းစီမှာ ထူးခြားယေ MP3 နန့် သက်ဆိုင်ယေ text file ပါဝင်ပါယေ။ ဒေတာစုထဲက မှတ်တမ်းတင်ထားယေ <b>{ $total }</b> နာရီအများစုမှာ အသက်၊ လိင်နဲ့ အသံထွက်တိပိုင် ဒေသနန့်ဆိုင်ယေ metadata တိ ပါဝင်နိန်ယေအတွက်၊ speech recognition engine တိ တိကျမှုကို လေ့ကျင့်ပီးနိုင်ပါယေ။
+    
+    ဒေတာစုတိမှာ လက်ဟိ <b> { $languages } </b> ဘာသာစကားတိနန့် အတည်ပြုထားယေ <b> { $valid } </b> နာရီတိ ပါဝင်ကေလည်း အသံနန့် ဘာသာစကားတိကို အမြဲတမ်း ပိုပနာ ထည့်သွင်းနိန်ပါယေ။ ဘာသာစကားတခု တောင်းဆိုဖို့ ဝါ ပံ့ပိုးကူညီဖို့ အကျွန်ရို့ <languagesLink>ဘာသာစကားတိ ​​စာမျက်နှာ</languagesLink> ကို ကြည့်ပါ။
+want-dataset-update = Common Voice ဒေတာစု ဗားရှန်းအသစ်ကို ထုတ်ပြန်ယေအခါ အပ်ဒိတ်တိ လိုချင်ပါလား? အကျွန်ရို့ သတင်းလွှာကို ရယူဖို့ စာရင်းသွင်းလိုက်ပါ။
 subscribe = စာရင်းသွင်းပါ
+get-started-speech = စကားသံ မှတ်မိစွာနန့် စကြည့်လိုက်ပါ
+other-datasets = အခြား အသံ ဒေတာစုတိ
+feedback-q = တုံ့ပြန်ချက် ဟိပါလား?
+# This indicates that there is no data to display
+no-information = အချက်အလက်တိ မဟိပါ
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ စွာ ခေတ်မီ စကားပြောဆိုယေ AI မော်ဒယ်တိကို တီထွင်နိန်ယေ သုတေသီတိအတွက် <docsLink>open-source toolkit</docsLink> တခု ဖြစ်ပါယေ။
+resource-deepspeech-info = Mozilla က open source အသံ မှတ်မိယေ အိန်ဂျိန် Deep Speech ကို အသံမှတ်မိယေ အပလီကေးရှင်းတိ တည်ဆောက်ဖို့အတွက် အသုံးပြုနိုင်ပါယေ။ အကျွန်ရို့ <githubLink>Github ခြုံငုံသုံးသပ်ချက်</githubLink> ကို ဖတ်ကြည့်ပါ ဝါ စပနာ အသုံးပြုနည်းကို လေ့လာဖို့ <discourseLink>DeepSpeech Discourse</discourseLink> မှာ ပါဝင်ပါ။
+resource-coqui-info = <coquiLink>Coqui</coquiLink> စွာ open speech နည်းပညာအတွက် ရည်ရွယ်ပါယေ။ ယင်းသူရို့ ပရောဂျက်တိမှာ deep learning ကို အခြေခံထားယေ STT နန့် TTS အိန်ဂျိန်တိ ပါဝင်ပါယေ။
+community-playbook = အသိုင်းအဝိုင်း လမ်းညွှန်စာအုပ်
+resource-playbook-info = ဒေသအသုံးအနှုန်း ပြောင်းလဲစွာကနိန် ဒေတာစု အသုံးပြုစွာအထိ Common Voice ခရီးစဉ်တခုလုံးအကြောင်း၊ အကျွန်ရို့ အသိုင်းအဝိုင်းနန့် ဇာပိုင် ချိတ်ဆက်ရဖို့ဆိုစွာကို <playbookLink>အထောက်အကူ ဖြစ်စီယေ လမ်းညွှန်ချက်ကို ရှာကြည့်ပါ</playbookLink>။
+data-other-librispeech-description = LibriSpeech စွာ LibriVox ပရောဂျက်က ဖတ်ထားယေ အသံစာအုပ်တိက ဆင်းသက်လာယေ 16Khz အင်္ဂလိပ်စကားပြော နာရီ ၁၀၀၀ လောက် ပါဝင်ယေ စုစည်းမှုတခု ဖြစ်ပါယေ။
+data-other-ted-name = TED-LIUM Corpus
+data-other-ted-description = TED-LIUM corpus ကို TED ဝက်ဘ်ဆိုက်မှာ ရဟိနိုင်ယေ အသံဆွေးနွေးပွဲတိနန့် ယင်းသူရို့ စာသားမှတ်တမ်းတိက ပြုလုပ်ထားပါယေ။
+data-other-voxforge-description = VoxForge ကို အခမဲ့နှင့် ပွင့်လင်းယေ ရင်းမြစ် စကားသံမှတ်မိယေ အိန်ဂျိန်တိမှာ အသုံးပြုဖို့အတွက် စာသားပြန်ဆိုထားယေ စကားသံတိကို စုဆောင်းဖို့ တည်ဆောက်ထားပါယေ။
+data-other-tatoeba-description = Tatoeba စွာ ဘာသာစကား သင်ယူစွာမှာ အသုံးပြုဖို့အတွက် စာကြောင်းတိ၊ ဘာသာပြန်တိနန့် စကားပြောအသံတိ ပါဝင်ယေ ကြီးမားယေ ဒေတာဘေ့စ်တစ်ခု ဖြစ်ပါယေ။ ဒေဒေါင်းလုဒ်မှာ ယင်းသူရို့ အသိုင်းအဝိုင်းက မှတ်တမ်းတင်ထားယေ စကားပြော အင်္ဂလိပ်စာ ပါဝင်ပါယေ။
+your-feedback = Common Voice ဒေတာစုကို ဇာပိုင် ပိုကောင်းအောင် လုပ်နိုင်ဖို့လဲဆိုယေ အကြံဥာဏ်တိ ဟိပါလား? Discourse မှာ အကျွန်ရို့ကို အသိပီးပါ။
+go-discourse = Discourse ကို လားပါ
+missing-language = မိတ်ဆွေ ဘာသာစကားကို Dataset မှာ မတွိရသိမ့်ပါလား? ဘာသာစကားတခု တောင်းဆိုဖို့ အကျွန်ရို့ ဘာသာစကားတိ စာမျက်နှာကို လားပါ။
+go-languages-page = ဘာသာစကားတိ စာမျက်နှာကို လားပါ
+ready-to-validate = စာကြောင်းတိကို အတည်ပြုပီးဖို့ အဆင်သင့် ဖြစ်ပါဗျာလ်လား?
+more = နောက်ထပ်
+download = ဒေါင်းလုဒ် လုပ်ပါ
+dataset-version = ဗားရှန်း
+sha256-checksum-copied = SHA256 Checksum ကူးယူဗြီးပါဗျာလ်။
+sha256-checksum-copied-error = SHA256 Checksum ကို ကူးယူလို့ မရပါ
+clipboard-not-supported = Clipboard ကို မပံ့ပိုးပါ
+no-information-available = သတင်းအချက်အလက် မရဟိနိုင်ပါ
+dataset-metadata-sex = ကျားမ
+# dataset metadata - age of contributor
+dataset-metadata-age = အသက်
+donate-modal-message = မိတ်ဆွေ ဒေတာစုကို ဒေါင်းလုဒ် လုပ်နိန်ပါယေ။
+dataset-donate-modal-heading = မိတ်ဆွေ သိခပါလား…
+donate-modal-explanation-1 = အကျွန်ရို့ လုပ်စွာတိကို မှီခိုအားထားယေ ဘာသာစကား ၁၀၀ ကျော် ဟိယေ အသိုင်းအဝိုင်းတိအတွက် ဒေတာစုတိကို လက်ခံသိမ်းဆည်းဖို့နန့် ပလက်ဖောင်းကို တိုးတက်ကောင်းမွန်အောင် လုပ်ဖို့ တနှစ်ကို ဒေါ်လာ တသန်းနီးပါး ကုန်ကျပါယေ။
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>ပွင့်လင်းပနာ အားလုံး ပါဝင်ယေ ဒေတာကို မိတ်ဆွေ တန်ဖိုးထားကေ - အေနိပင် လှူဒါန်းပီးပါ။</bold>
+data-download-singleword-title = Single Word Target Segment ကို ဒေါင်းလုဒ် လုပ်ပါ
+data-download-singleword-callout-v2 = အေဟင့်စွာ စကားပြော ဂဏန်းတိကို မှတ်မိစွာနန့် ဟုတ်တေ / မဟုတ် ရှာစွာတိကို အထောက်အကူပြုယေ ဒေတာတိ ပါဝင်ယေ အသုံးချ အခြေပြု အပိုင်းတခု ဖြစ်ပါယေ။
+data-download-button = Common Voice Data ကို ဒေါင်းလုဒ် လုပ်ပါ
+data-download-yes = ဟုတ်တေ
+data-download-deny = မဟုတ်
+data-download-license = လိုင်စင် - <licenseLink> CC-0 </licenseLink>
+data-download-modal = မိတ်ဆွေ <size>{ $size }GB</size> ကို ဒေါင်းလုဒ် လုပ်ဖို့ ပြင်နိန်ပါယေ၊ ဆက်လုပ်ပါဖို့လား?
+data-subtitle = အကျွန်ရို့ လူတိုင်း စကားသံကို အသုံးပြုပနာ အပလီကေးရှန်းတိကို လေ့ကျင့်ဖို့၊ ပွင့်လင်းပနာ အများပြည်သူ အသုံးပြုနိုင်ယေ dataset တခုကို တည်ဆောက်နိန်ပါယေ။
+data-explanatory-text = စက် သင်ယူမှု အခြေခံ စကားပြော နည်းပညာမှာ ကြီးမားပနာ အများပြည်သူ ရဟိနိုင်ယေ အသံ ဒေတာစုတိစွာ ဆန်းသစ်တီထွင်မှုနန့် ကျန်းမာယေ စီးပွားဖြစ် ပြိုင်ဆိုင်မှုကို မြှင့်တင်ပီးယေလို့ အကျွန်ရို့ ယုံကြည်ပါယေ။ အေဟင့်တိစွာ ကမ္ဘာလုံးဆိုင်ယေ ကြိုးပမ်းအားထုတ်မှုတခု ဖြစ်ပနာ၊ လူတိုင်း ပါဝင်ဖို့ အကျွန်ရို့ ဖိတ်ခေါ်ပါယေ။ ကမ္ဘာတဝှမ်းက အသံတိက မတူကွဲပြားမှုကို ထင်ဟပ်ဇီယေ စကားပြော နည်းပညာကို ပိုပနာ ပါဝင်လာဇီဖို့ ကူညီပီးဖို့စွာက အကျွန်ရို့ ရည်ရွယ်ချက် ဖြစ်ပါယေ။
+data-get-started = <speechBlogLink>စကားသံ မှတ်မိစွာက စကြည့်ပါ</speechBlogLink>
+data-other-title = အခြား အသံ ဒေတာစုတိ...
+data-other-goto = { $name } ကို လားပါ
+data-other-download = ဒေတာကို ဒေါင်းလုဒ် လုပ်ပါ
+data-bundle-button = ဒေတာစု အတွဲလိုက်ကို ဒေါင်းလုဒ် လုပ်ပါ
+data-bundle-description = Common Voice ဒေတာအပြင် အထက်က အခြား အသံ ဒေတာစု အားလုံး။
+release-version = ဗားရှန်း
+dataset-date = ရက်စွဲ
+license = လိုင်စင် - <licenseLink> { $license } </licenseLink>
+license-mixed = ရောနှောထားဗြီးသား
+# Support old genders in older datasets
+male = ယောကျ်ား
+female = မမက်
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = အကျွန်ရို့ အသံ ဒေတာစုတိကို ဒေါင်းလုဒ် လုပ်ပါ
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = Common Voice ဒေတာကို ဝင်ပနာ ဒေါင်းလုဒ် လုပ်ဖို့ ရွီးချယ်စရာတိ
+datasets-show-more = ဒေတာစုတိ အားလုံးကို ပြပါ
+datasets-show-less = နောက်ဆုံးပေါ် ဒေတာစုတိကို ပြပါ

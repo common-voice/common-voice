@@ -3,7 +3,7 @@ name: Add a language to Spontaneous Speech
 about: Add your language to the Spontaneous Speech platform and dataset
 title: 'Spontaneous Speech New Language: '
 type: task
-assignees: 'bandrandr'
+assignees: 'moz-acfort'
 ---
 
 # Welcome to the Common Voice Community!
