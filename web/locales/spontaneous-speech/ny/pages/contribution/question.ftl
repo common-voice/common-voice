@@ -3,6 +3,7 @@
 question-page-instruction = Onjezalani funso <icon></icon> mu { $currentLocale } kuti anthu ayankhe
 add-question-textarea-placeholder = mwachitsanzo, “Mukufuna kuti mugwiritse ntchito ukadaulo wa tekinologe pa chiyani?
 add-questions-terms-checkbox = * Ndikutsimikiza kuti funso ili ndi <publicDomainLink>public domain</publicDomainLink> ndipo ndili ndi chilolezo kuyika
+question-dataset-language = Seti ya deta: { $datasetLanguage }
 add-question-success-toast-message =
     { $totalQuestions ->
         [one] Mafunso { $uploadedQuestions } mwa mafunso { $totalQuestions } omwe asonkhanitsidwa
