@@ -6,3 +6,5 @@ contact-form-name =
 contact-form-message =
     .label = کِريې
 contact-required = *ضروری
+contact-form-success = ترتُو ا کِريې م رَسَوَک
+contact-form-error = څۀ يې خه ویران ݭیوک، څُټکی وه بيې کوشِش کَۀ

@@ -25,9 +25,10 @@ question = Сорау
 validate = Раслау
 respond-to-prompt = Җавап бирү
 respond-to-prompt-mobile = Җавап бирү
-transcribe = Транскрипцияләү
+transcribe = Текстка күчерү
 check-transcriptions = Тикшерү
 check-transcriptions-mobile = Тикшерү
+tag = Билге
 
 ## Not Found Page
 
@@ -67,3 +68,17 @@ player-skip-backward-shortcut-key = Ctrl / Cmd + 8
 # Player control shortcut to go forwards 5 seconds: pressed with Ctrl/Cmd
 player-skip-forward-shortcut = 9
 player-skip-forward-shortcut-key = Ctrl / Cmd + 9
+player-skip-forward-shortcut-name = Алга
+
+## Transcription Player - Aria Labels
+
+# Play button accessibility/aria label
+player-play-button-aria-label = Аудио уйнату
+# Pause button accessibility/aria label
+player-pause-button-aria-label = Аудио туктату
+# Slower playback speed button accessibility/aria label
+player-speed-slow-aria-label = Әкренрәк уйнату тизлеге
+# Normal playback speed button accessibility/aria label
+player-speed-normal-aria-label = Гадәти уйнату тизлеге
+# Faster playback speed button accessibility/aria label
+player-speed-fast-aria-label = Тизрәк уйнату тизлеге

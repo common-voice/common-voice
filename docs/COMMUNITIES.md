@@ -13,6 +13,8 @@ Many language communities are self organising and have their contact channels on
   - Common Voice on [Discourse](https://discourse.mozilla.org/t/about-common-voice-readme-first/17218) [Official] learn more about how you can request a language specific sub-discourse thread on our readme.
   - Common Voice on [Discord](https://discord.gg/9QTj9zwn) [Official]
   - Common Voice on [Telegram](https://t.me/mozilla_common_voice)
+- Afaan Oromo (`om`):
+  - [Telegram](https://t.me/Wango2016)
 - Arabic (`ar`):
   - [Discord](https://discord.gg/QQ5vHBK24Y)
 - Bashqort (`ba`):

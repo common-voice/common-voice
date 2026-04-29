@@ -128,6 +128,7 @@ process-steps = Soya
 offensive-content-sensitive-information = yɛltɔɣa tula bee hankali yɛltɔɣa
 offensive-content-sensitive-information-explanation-explanation-1 = Bɔhishɛŋa din bɔri mammaŋa labisibu baŋbu lahibali
 offensive-content-sensitive-information-explanation-explanation-2 = Bɔhisi shɛŋa din ni tooi tahi yɛltɔɣa din yiɣisiri  suhi bee yɛltɔɣa din tahiri zaba na
+offensive-content-sensitive-information-explanation-explanation-3 = bɔhasi din ni che ka niri labsili  hankali labisibu
 example-questions-subheader = Kotomsi bɔhisi
 example-questions-explanation-1 = A ni tooi nya <examplePromptsLink> kɔbigi ni pishi kotomsi gbaŋ ŋɔ ni.</examplePromptsLink>
 
