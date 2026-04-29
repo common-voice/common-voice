@@ -80,16 +80,19 @@
 
 #### Data Changes after current release
 
-- Welcome to new language Mon (`mnw`)
+- Welcome to new languages Mon (`mnw`) and Shimaore (`swb`)
 
 #### Spontaneous Speech Changes after current release
 
-- Remove Questions page from menu and make it inanncessible in code, by [@moz-bozden](https://github.com/moz-bozden) in [#536](https://github.com/common-voice/spontaneous-speech/pull/536) (in v1.158.2)
+- Update question validation votes (1 NO invalidates, for validation 3 YES votes will be needed), by [@moz-bozden](https://github.com/moz-bozden) in [#539](https://github.com/common-voice/spontaneous-speech/pull/539) (in v1.158.3)
+- Remove Questions page from menu and make it inaccessible in code, by [@moz-bozden](https://github.com/moz-bozden) in [#536](https://github.com/common-voice/spontaneous-speech/pull/536) (in v1.158.2)
 - Update SPS bundler to remove PII related reports completely, by [@moz-bozden](https://github.com/moz-bozden) in [#535](https://github.com/common-voice/spontaneous-speech/pull/535) (in v1.158.2)
 - Update MDC root URL, by [@moz-bozden](https://github.com/moz-bozden) in [#533](https://github.com/common-voice/spontaneous-speech/pull/533) (in v1.158.1)
 
 ##### SS Data Changes after current release
 
+- Add Shimaore (`swb`) questions by [@moz-acfort](https://github.com/moz-acfort) in [#538](https://github.com/common-voice/spontaneous-speech/pull/538) (in v1.158.3)
+- Add Mon (`mnw`) questions by [@moz-acfort](https://github.com/moz-acfort) in [#537](https://github.com/common-voice/spontaneous-speech/pull/537) (in v1.158.3)
 - Remove some Galician (`gl`) questions asking for PII info by adding reports directly into DB which will fully exclude them, by [@moz-bozden](https://github.com/moz-bozden)
 - Update some Galician (`gl`) questions with a migration to fix grammar issues, by [@moz-bozden](https://github.com/moz-bozden) in [#534](https://github.com/common-voice/spontaneous-speech/pull/534) (in v1.158.2)
 
