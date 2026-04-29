@@ -176,6 +176,7 @@ transcribe-the-audio-subheader-2-example-3-correct = <correct>မှန်ယေ
 transcribe-the-audio-subheader-2-example-3-wrong = <wrong>မှားယေ</wrong> ယင်းချင့် ၂၀% စျီးလျှော့ခယေ
 transcribe-the-audio-subheader-2-example-4-correct = <correct>မှန်ယေ</correct>: ယင်းသူရို့ကို ဗြီးခယေ ကြာသပတေးနိက <underline>FBI</underline> က ဖမ်းလားယေ။
 transcribe-the-audio-subheader-2-example-4-wrong = <wrong>မှားယေ</wrong>: ယင်းသူရို့ကို ဗြီးခယေ ကြာသပတေးနိက <underline>eff bee eye</underline> က ဖမ်းလားယေ။
+transcribe-the-audio-subheader-3-explanation = အောက်က အထူး အညွှန်းစာတိကို မပီပြင်စွာတိ၊ ဖြည့်စွက်စွာတိ၊ တခြား စကားလုံး မဟုတ်တေ အကြောင်းအရာ အမျိုးအစားတိ(အင်္ဂလိပ်ဘာသာနန့်)ကို မှတ်သားဖို့အတွက် အသုံးပြုသင့်ပါယေ။
 tags-table-header-1 = အညွှန်းတပ်ပါ
 tags-table-header-2 = အဓိပ္ပာယ်
 tags-laugh = ရယ်ယေ
