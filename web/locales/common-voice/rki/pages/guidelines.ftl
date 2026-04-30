@@ -268,8 +268,11 @@ code-switching-authentic-header = သဘာဝကျကျနန့် အစစ
 code-switching-answer-dont-subheader = အတွေး လွန်စွာ ဝါ အလွန်အကျွံ ပြင်စွာ မလုပ်ပါကဲ့
 # Transcribing
 code-switching-transcribe-subheader = စာနန့်ပြန်ရီးယေ
+code-switching-transcribe-do-1 = သိမ်မွေ့ယေ စကားလုံးပြောင်းတိကို ဖမ်းယူဖို့ တိုတောင်းယေ အပိုင်းတိကို အကြိမ် အများကြီး ဖွင့်ပါ
+code-switching-transcribe-do-2 = စကားလုံးပြောင်းတိ ဝါ ရောနှောနိန်ယေ စကားလုံးတိ ဟိမဟိ နှစ်ခါ စစ်ဆေးဖို့ စာကြောင်းတကြောင်းဗြီးတိုင်း တနားချေ ရပ်ပါ။
 # Capture Speech Exactly as Spoken
 code-switching-capture-header = ပြောယေအတိုင်း တိတိကျကျ စကားပြောကို ဖမ်းယူပါ
+code-switching-capture-explanation = ဘာသာစကားနှစ်မျိုးလုံးကို ပေါ်လာယေအတိုင်း / အသံထွက်တေအတိုင်း ပြန်ရီးပါ။ ဘာသာစကားကို “ပြင်” စွာ ဝါ ဘာသာစကားတခုတည်းကို ပြောင်းစွာ မလုပ်ပါကဲ့။
 # Include filler words and markers
 code-switching-filler-header = ဖြည့်စွက် စကားလုံးတိနန့် အမှတ်အသားတိ ထည့်သွင်းပါ
 # Use standard spelling for each language
