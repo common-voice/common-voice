@@ -54,6 +54,7 @@ download-profile = Yaami n deeta maa
 api-credentials = API
 api-credentials-header = A bin kpɛhira
 contribution-experience = Tɔhibu Milinsi
+skip-submission-feedback = Kpihi yaɣi zaŋ wuhi ka gbulisiri tibili
 skip-submission-note = Niŋmi zaɣa: yɛlibu bee wumbu sunsuuni yini n na kuli yɛn m pii a ni bɔri shɛli ka di taɣi a tɔhibu.
 off = Kpihima
 on = Nyoma
