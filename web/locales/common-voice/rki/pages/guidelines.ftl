@@ -313,8 +313,12 @@ code-switching-punctuation-tagging-explanation-example-1 = <purple> ဗြီး
 code-switching-punctuation-tagging-explanation-example-2 = <purple>but</purple> <blue>tú los puedes comprar rojo, negro, azul</blue>, <purple>whatever.</purple> (BangorTalk)
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = ဆင်တူစွာတိကို သတိထားပီးပါ
+code-switching-lookalikes-explanation = စကားလုံး တချို့စွာ ဘာသာစကားတခုနန့် တူကေလည်း တခြား ဘာသာစကားမှာ အသုံးပြုနိုင်ပါယေ။ အသွင်အပြင်ကို အခြေခံလို့ မဟုတ်ဘဲ အဓိပ္ပာယ်နန့် အသုံးပြုယေပုံကို အခြေခံပနာ အညွှန်းစာ တပ်ပါ။ ဥပမာ -
+code-switching-lookalikes-explanation-example-1 = “Footing” ဆိုစွာ စပိန်ပိုင် ဗြီးစွာကို ရည်ညွှန်းလေ့ ဟိပနာ စပိန်ပိုင် အညွှန်းစာ တပ်ပါ
+code-switching-lookalikes-explanation-example-2 = “No problemo” ကို အင်္ဂလိပ်စာမှာ သုံးလို့ > အင်္ဂလိပ်ပိုင် အညွှန်းစာ တပ်ပါ
 # When Not to Tag Words
 code-switching-not-tag-header = စကားလုံးတိကို အညွှန်းစာ မတပ်သင့်ယေ အချိန်တိ
+code-switching-not-tag-explanation = စကားလုံး တချို့စွာ ရောနှောထားပုံ ဝါ လိုက်လျောညီထွေဖြစ်အောင် ပြုထားပုံ ရကေလည်း ဘာသာစကားတံဆိပ်နန့် <bold> အညွှန်းစာ မတပ်သင့်ပါ။ </bold> ဇာပိုင် ကိုင်တွယ်ဖြေရှင်းရဖို့လဲ ဥပမာ တချို့မှာ -
 code-switching-not-tag-proper-names-example-1 = လူတိ - မာရီယာ၊ ဂျွင်
 code-switching-not-tag-proper-names-example-2 = နေရာတိ - လော့စ်အိန်ဂျလိစ်၊ ဖလော်ရီဒါ
 code-switching-not-tag-proper-names-example-3 = အမှတ်တံဆိပ်တိ/အဖွဲ့အစည်းတိ - Target ၊ Burger King
