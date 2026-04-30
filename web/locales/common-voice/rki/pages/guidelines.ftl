@@ -275,6 +275,10 @@ code-switching-authentic-header = သဘာဝကျကျနန့် အစစ
 code-switching-authentic-speak = <bold>သူငယ်ချင်းတိ ဝါ မိသားစုနန့် စကားပြောနိန်ယေပိုင်မျိုးပါ။</bold> လက်တွိဘဝမှာ ဘာသာစကားတိ ရောနှောပြောဆိုနိန်ကေ အေမှာလည်း ယင်းအတိုင်း ပြောပါ။ ဥပမာ -
 code-switching-authentic-speak-example = "Pues, အကျွန် မလားနိုင်လို့ ပြောကေလည်း၊ ယင်းကလိမ့်မေက 'မင်း လာခပါ!' လို့ ပြောပါယေ။"
 code-switching-use-both-languages = <bold>မိတ်ဆွေ ပုံမှန်ပြောနိန်ကျအတိုင်းဆိုကေ ဘာသာစကား နှစ်မျိုးလုံးကို သုံးပါ။</bold> စကားလုံး တလုံး ဝါ နှစ်လုံးလောက် ပြောင်းလဲစွာကပင် အသုံးဝင်ပါယေ။ ဥပမာ -
+code-switching-use-both-languages-example = "ကလိမ့်မေ အဂင့်ဂင့် ဒေါသထွက်နိန်ယေ porque ငါ ယင်းသူ့ကို ပြန်မခေါ်ဝံ့။"
+code-switching-authentic-direct-quotes = <bold>တိုက်ရိုက်ကိုးကားချက်တိ ဝါ စကားပြောဆိုချက်တိ ထည့်သွင်းပါ။</bold> တယောက်ယောက် ပြောယေအတိုင်း တိတိကျကျ ပြောပါ၊ ရှင်းလင်းထားယေ ဝါ သမားရိုးကျ ပုံစံနန့် မပြောပါနှင့်။ ဥပမာ -
+code-switching-authentic-direct-quotes-example = "Mi mamá dijo၊ 'Tú crees que esto es un juego?" ဗြီးကေ ငါက 'အိုကေ အီးအီးဆေးဆေး!"
+code-switching-authentic-reflect = <bold>စိတ်ခံစားမှု၊ ကိုယ်ပိုင်လက္ခဏာနန့် အခြေအနေတိကို ထင်ဟပ်ဇီပါ။</bold> လူတိက စိတ်ခံစားမှု၊ အရေးတကြီးဖြစ်မှု ဝါ ယဉ်ကျေးမှုနန့်ဆိုင်ယေ အတွေးအခေါ်တိကို ဖော်ပြယေခါ ပြောင်းလဲမှုတိ ဖြစ်လေ့ဟိပါယေ။ မေးခွန်းတိကို ဖြေဆိုယေခါ အေဟင့်တိကို အာရုံစိုက်ပါ။
 # Don’t Overthink or Overedit
 code-switching-answer-dont-subheader = အတွေး လွန်စွာ ဝါ အလွန်အကျွံ ပြင်စွာ မလုပ်ပါကဲ့
 # Transcribing
