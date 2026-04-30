@@ -16,6 +16,7 @@ demo-account = Akaunti
 ## Demo Account
 
 demo-account-card-header = Kukhala ndi akaunti sikofunikira kuti mulipire ndalama, ngakhale kuti n'kothandiza.
+demo-account-card-body = Kumanja tikufotokoza ubwino wake ndikufotokozera zomwe timalengeza kwa anthu onse. Gwiritsani ntchito maulalo omwe ali pansipa kuti muyambe kugwiritsa ntchito akaunti ya Common Voice pa chipangizo chanu.
 demo-account-enter-email =
     .label = Lowetsani imelo kuti mutumize ulalo wolembetsa
 demo-account-sign-up = Tumizani ulalo wolembetsa
