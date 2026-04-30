@@ -272,6 +272,10 @@ code-switching-transcribe-subheader = စာနန့်ပြန်ရီးယ
 code-switching-capture-header = ပြောယေအတိုင်း တိတိကျကျ စကားပြောကို ဖမ်းယူပါ
 # Include filler words and markers
 code-switching-filler-header = ဖြည့်စွက် စကားလုံးတိနန့် အမှတ်အသားတိ ထည့်သွင်းပါ
+# Use standard spelling for each language
+code-switching-spelling-header = ဘာသာစကား တခုစီအတွက် စံသတ်မှတ်ထားယေ စာလုံးပေါင်းကို အသုံးပြုပါ
+# Don’t Clean Up or Simplify the Language
+code-switching-cleanup-header = ဘာသာစကားကို မရှင်းလင်းပါကဲ့ ဝါ ရိုးရှင်းအောင် မလုပ်ပါကဲ့
 # Tagging
 code-switching-tagging-subheader = အညွှန်းတပ်ယေ
 code-switching-tagging-error-1 = မှားယွင်းယေ ပုဒ်ဖြတ်ပုဒ်ရပ် ဝါ စာလုံးကြီးတိနန့် ရီးထားယေ
@@ -284,6 +288,14 @@ code-switching-pronunciation-explanation-example-1 = English: /ˈkeɪ.bəl/
 code-switching-pronunciation-explanation-example-2 = Spanish: /ˈkable/
 # Tagging in a Single Token
 code-switching-single-token-header = တိုကင် တခုတည်းမှာ အညွှန်းစာတပ်စွာ
+# Tag Punctuation Based on Nearby Language
+code-switching-punctuation-tagging-header = အနားက ဘာသာစကားကို အခြေခံပနာ ပုဒ်ဖြတ်ပုဒ်ရပ်တိကို အညွှန်းတပ်ပီးပါ
+code-switching-punctuation-tagging-explanation = ဘယ်ဖက်နန့် အနီးစပ်ဆုံး ဘာသာစကားကို အသုံးပြုပနာ ပုဒ်ဖြတ်ပုဒ်ရပ်တိကို အညွှန်းတပ်ပီးပါ။ ဥပမာတိ -
+# Be Careful with Lookalikes
+code-switching-lookalikes-header = ဆင်တူစွာတိကို သတိထားပီးပါ
+code-switching-not-tag-proper-names-example-1 = လူတိ - မာရီယာ၊ ဂျွင်
+code-switching-not-tag-proper-names-example-2 = နေရာတိ - လော့စ်အိန်ဂျလိစ်၊ ဖလော်ရီဒါ
+code-switching-not-tag-proper-names-example-3 = အမှတ်တံဆိပ်တိ/အဖွဲ့အစည်းတိ - Target ၊ Burger King
 code-switching-not-tag-interjections-example-1 = "အင်း"
 code-switching-not-tag-interjections-example-2 = "မဟုတ်"
 code-switching-not-tag-interjections-example-3 = "ဟုတ်တေ"
