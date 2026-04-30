@@ -42,6 +42,7 @@ profile-close = Kparima
 profile-explanation = Zaŋmi a zaɣa n niŋ a yuli mini a tuma din be pohim zuɣu ka di soŋ kukoya tuma din pun tum doya ka di niŋ viɛnyɛla.
 thanks-for-account = Ti puhiya ka paɣa ni a ni niŋ dihitabili ni a daa akauti maa, punpɔŋɔ chɛ ka ti nam a lahibali jia.
 why-demographic = Bɔzuɣu ka ŋɔ kpa talahi?
+why-demographic-explanation-2 = Suɣimi ŋun mali tumdi tuma ashi shɛŋa kama o yuma,o yi nyɛla paɣa bee doo ni o kukoli kumsi din yan sɔŋ n duhi o yɛltɔɣa shɛŋa din pun vuli sɔŋ ka ni tooi zaŋ wuhiri baŋbu mazenanima.A ni mali yu shɛli n tumdi tuma mini ku saɣi yina  a ni pun tum tuun' shɛŋa n sɔŋ puuni,ka a ni tooi lahi peegi ni a bɔri ni a yuli pahi bee didi pahi ka sokam nyɛrili.
 accept-privacy = N saɣi n-ti ni a gbubi n lahabaya ŋɔ kamani a ni pun kahigi li Mozilla <privacyLink>Ashili Zalisi</privacyLink> la puuni shɛm maa
 accept-privacy-title = Ashili zalisi
 accept-privacy-and-terms = N saɣi n-ti Common Voice's <termsLink>zalisi</termsLink> ni di <privacyLink>ashili daŋsibu</privacyLink>
