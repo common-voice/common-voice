@@ -39,6 +39,7 @@ settings = Binyɛra zaŋ kpɛhi
 edit-profile = Malimi daadam lahibali jia niŋ
 profile-create-success = Nasara, daadam lahibali jia maa namya!
 profile-close = Kparima
+profile-explanation = Zaŋmi a zaɣa n niŋ a yuli mini a tuma din be pohim zuɣu ka di soŋ kukoya tuma din pun tum doya ka di niŋ viɛnyɛla.
 thanks-for-account = Ti puhiya ka paɣa ni a ni niŋ dihitabili ni a daa akauti maa, punpɔŋɔ chɛ ka ti nam a lahibali jia.
 why-demographic = Bɔzuɣu ka ŋɔ kpa talahi?
 accept-privacy = N saɣi n-ti ni a gbubi n lahabaya ŋɔ kamani a ni pun kahigi li Mozilla <privacyLink>Ashili Zalisi</privacyLink> la puuni shɛm maa
