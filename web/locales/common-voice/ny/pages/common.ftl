@@ -146,6 +146,7 @@ hi = Chihindi
 hil = Chihiligaynon
 hno = Kumpoto kwa Hindko
 hr = Chikroatia
+hrx = Hunsrik
 hsb = Chisorbian, Upper
 ht = Chihaiti
 hu = Chihangare
@@ -196,6 +197,10 @@ mbo = Mbo
 mdf = Moksha
 mg = Chimalagasy
 mhr = Meadow Mari
+mk = Chimakedoniya
+ml = Chimalayalam
+mn = Chimongoliya
+mni = Meetei Lon
 
 # [/]
 
