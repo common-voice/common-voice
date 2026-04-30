@@ -197,9 +197,23 @@ special-tags-example-2 =
     အင်း၊ [ဆူညံသံ] [ရယ်သံ] အားလပ်ရက်လို့ တိတိကျကျ မဟုတ်ခပါ [ရယ်သံ]
 transcribe-the-audio-subheader-4-explanation-1 = လက်တန်းပြော စကားမှာ စကားလုံး အပြည့်အစုံထဲက အပိုင်းတပိုင်းချေရာ ပါလာယေ မှားယွင်းယေ အစပျိုးစွာတိ ယပြတ် ဖြစ်တတ်ပါယေ။ ဒေပိုင် ကိစ္စမျိုးတိအတွက်၊ စကားလုံး အပိုင်းအစကို အတတ်နိုင်ဆုံး ကူးယူပနာ စကားလုံး အဆုံးသတ်မှာ (-) hyphen တခု ကပ်ဗျာယ် ယင်းစကားလုံးစွာ မှားယွင်းယေ အစပျိုးစွာ ဖြစ်တေလို့ ဖော်ပြပီးပါ။ ဥပမာ -
 transcribe-the-audio-subheader-4-explanation-1-example = ယင်းသူ့နာမေက <underline>ဂျို- ဂျိုနာ-</underline> ဂျိုနာသန် ပါ။
+transcribe-the-audio-subheader-4-explanation-2 = တခါတခါမှာ စကားပြောယေ လူစွာ စကားလုံးတလုံး ဝါ စကားလုံး တပိုင်းတစကို အကြိမ်ကြိမ် ထပ်ခါတလဲလဲ ပြောဆိုလေ့ ဟိပါယေ။ ယင်းကိုလည်း စာသား ပြန်ရီးသင့်ပါယေ။ ဥပမာ -
+transcribe-the-audio-subheader-4-explanation-2-example = အဗြီးကေ အကျွန် <underline> အ အ အ အိပ်- အ </underline> အိပ်ခန်းကို လားခယေ
 
 ## Code-Switching
 
+code-switching = ကုဒ် ပြောင်းလဲစွာ
+adding-a-question = မေးခွန်း တခု ထည့်ပီးစွာ
+# Adding a Question
+code-switching-adding-question-subheader = မေးခွန်းကောင်းတခုကို ဇာက ဖြစ်ဇီစွာလဲ?
+code-switching-adding-question-explanation = အများပြည်သူ ပါဝင်ယေ ဒေတာစုတိအတွက် ကောင်းမွန်ယေ မေးခွန်းတခုမှာ ဟိသင့်စွာ-
+code-switching-adding-question-criteria-1 = နားလည်ရ လွယ်ကူပနာ၊ တုံ့ပြန်ရ လွယ်ကူရဖို့
+code-switching-adding-question-criteria-2 = ယေဘုယျ အားဖြင့် သက်ဆိုင်မှု ဟိပါဇီ
+code-switching-adding-question-criteria-3 = အန္တရာယ် ဟိယေ ဝါ ရိုင်းစိုင်းယေ ဘာသာစကားကို မသုံးပါကဲ့၊ ဝါ မတောင်းဆိုပါကဲ့
+code-switching-adding-question-note = မတူညီယေ အခြေအနေတိနန့် နယ်ပယ်တိကို လွှမ်းခြုံဖို့လည်း မိတ်ဆွေ စဉ်းစားချင်ပါလိမ့်မေ။
+# What types of questions to add
+code-switching-types-subheader = ဇာပိုင် မေးခွန်းမျိုးတိ ထည့်ရဖို့လဲ?
+code-switching-use-bilingual-prompts-header = နှစ်ဘာသာ ညွှန်ကြားချက်တိကို အသုံးပြုပါ
 # What to Avoid
 code-switching-avoid-subheader = ဇာ ရှောင်ရဖို့
 code-switching-avoid-intro = ဖြစ်လာနိုင်ယေ မေးခွန်းတိ -
