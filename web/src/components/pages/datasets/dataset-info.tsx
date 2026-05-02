@@ -36,19 +36,21 @@ const DatasetInfo: React.FC<PropsFromState> = ({
   const [globalLocale] = useLocale();
 
   useEffect(() => {
-    // Both fetches must resolve before render; otherwise `initialLanguage`
-    // sees an empty list and falls back to `'en'`.
+    // Both fetches must settle before render; otherwise `initialLanguage`
+    // sees an empty list and falls back to `'en'`. Each catches its own
+    // failure so one error does not discard the other's result.
     Promise.all([
-      api.getLanguagesWithDatasets(),
-      api.getDatasets('complete') as Promise<Dataset[]>,
-    ]).then(
-      ([languagesData, datasetsData]) => {
-        setLanguagesWithDatasets(languagesData);
-        setAllDatasets(datasetsData);
-        setIsLoading(false);
-      },
-      () => setIsLoading(false)
-    );
+      api
+        .getLanguagesWithDatasets()
+        .catch(() => [] as { id: number; name: string }[]),
+      (api.getDatasets('complete') as Promise<Dataset[]>).catch(
+        () => [] as Dataset[]
+      ),
+    ]).then(([languagesData, datasetsData]) => {
+      setLanguagesWithDatasets(languagesData);
+      setAllDatasets(datasetsData);
+      setIsLoading(false);
+    });
   }, []);
 
   const hasGlobalLocaleDataset = languagesWithDatasets.some(
@@ -73,6 +75,7 @@ const DatasetInfo: React.FC<PropsFromState> = ({
               const fullMatch = allDatasets.find(d => d.id === dataset_id);
               setPanelDataset(fullMatch ?? null);
             }}
+            onLanguageChange={() => setPanelDataset(null)}
           />
         )}
       </div>

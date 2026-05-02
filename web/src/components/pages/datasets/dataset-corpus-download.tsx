@@ -32,6 +32,7 @@ interface Props extends WithLocalizationProps {
     dataset_id: number
     release_dir: string
   }) => void
+  onLanguageChange?: () => void
 }
 
 const DatasetCorpusDownload = ({
@@ -40,6 +41,7 @@ const DatasetCorpusDownload = ({
   initialLanguage,
   isSubscribedToMailingList,
   onSelectDataset,
+  onLanguageChange,
 }: Props) => {
   const [isLoading, setIsLoading] = useState(true)
   const [selectedDataset, setSelectedDataset] = useState<LanguageDataset>()
@@ -61,6 +63,7 @@ const DatasetCorpusDownload = ({
   const handleLanguageChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const newLocale = event.target.value
     setLocale(newLocale)
+    onLanguageChange?.()
   }
 
   const handleRowSelect = (selectedId: number, index: number) => {
