@@ -29,30 +29,27 @@ const DatasetInfo: React.FC<PropsFromState> = ({
     { id: number; name: string }[]
   >([]);
   const [allDatasets, setAllDatasets] = useState<Dataset[]>([]);
-  const [selectedDatasetId, setSelectedDatasetId] = useState<number>();
+  // null = panel hidden; only set when the user clicks a full-release row.
+  const [panelDataset, setPanelDataset] = useState<Dataset | null>(null);
 
   const api = useAPI();
   const [globalLocale] = useLocale();
 
   useEffect(() => {
-    setIsLoading(true);
-
-    //get all languages w/ dataset releases
-    api.getLanguagesWithDatasets().then(data => {
-      setLanguagesWithDatasets(data);
-    });
-
-    //get stats for every full release; the description panel reflects the
-    //currently selected row in the corpus download table.
-    api.getDatasets('complete').then((data: Dataset[]) => {
-      setAllDatasets(data);
-      setSelectedDatasetId(data[0]?.id);
-      setIsLoading(false);
-    });
+    // Both fetches must resolve before render; otherwise `initialLanguage`
+    // sees an empty list and falls back to `'en'`.
+    Promise.all([
+      api.getLanguagesWithDatasets(),
+      api.getDatasets('complete') as Promise<Dataset[]>,
+    ]).then(
+      ([languagesData, datasetsData]) => {
+        setLanguagesWithDatasets(languagesData);
+        setAllDatasets(datasetsData);
+        setIsLoading(false);
+      },
+      () => setIsLoading(false)
+    );
   }, []);
-
-  const currentDataset =
-    allDatasets.find(d => d.id === selectedDatasetId) ?? allDatasets[0];
 
   const hasGlobalLocaleDataset = languagesWithDatasets.some(
     l => l.name === globalLocale
@@ -71,22 +68,17 @@ const DatasetInfo: React.FC<PropsFromState> = ({
             languagesWithDatasets={languagesWithDatasets}
             initialLanguage={hasGlobalLocaleDataset ? globalLocale : 'en'}
             isSubscribedToMailingList={isSubscribedToMailingList}
-            onSelectDataset={datasetId => {
-              // Only update the description panel when the row maps to a
-              // full-release dataset; delta selections leave it on the most
-              // recent full release.
-              if (allDatasets.some(d => d.id === datasetId)) {
-                setSelectedDatasetId(datasetId);
-              }
+            onSelectDataset={({ dataset_id }) => {
+              // Delta or unknown row → hide panel.
+              const fullMatch = allDatasets.find(d => d.id === dataset_id);
+              setPanelDataset(fullMatch ?? null);
             }}
           />
         )}
       </div>
 
-      {isLoading ? (
-        <Spinner isFloating={false} />
-      ) : (
-        <DatasetDescription releaseData={currentDataset} />
+      {!isLoading && panelDataset && (
+        <DatasetDescription releaseData={panelDataset} />
       )}
 
       <div className="donate-banner-wrapper">

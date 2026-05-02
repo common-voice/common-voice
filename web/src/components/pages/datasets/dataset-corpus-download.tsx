@@ -28,7 +28,10 @@ interface Props extends WithLocalizationProps {
   languagesWithDatasets: { id: number; name: string }[]
   initialLanguage: string
   isSubscribedToMailingList: boolean
-  onSelectDataset?: (datasetId: number) => void
+  onSelectDataset?: (selection: {
+    dataset_id: number
+    release_dir: string
+  }) => void
 }
 
 const DatasetCorpusDownload = ({
@@ -45,8 +48,7 @@ const DatasetCorpusDownload = ({
   )
 
   const [selectedTableRowIndex, setSelectedTableRowIndex] = useState(0)
-  // Lifted out of the table so the user's expand choice survives the table
-  // unmount that happens when the locale changes.
+  // Lifted out of the table so the choice survives locale-change remounts.
   const [showAllDownloads, setShowAllDownloads] = useState(false)
   const api = useAPI()
 
@@ -72,7 +74,10 @@ const DatasetCorpusDownload = ({
 
     setSelectedDataset(newSelection)
     setSelectedTableRowIndex(index)
-    onSelectDataset?.(newSelection.dataset_id)
+    onSelectDataset?.({
+      dataset_id: newSelection.dataset_id,
+      release_dir: newSelection.release_dir,
+    })
   }
 
   useEffect(() => {
@@ -86,9 +91,7 @@ const DatasetCorpusDownload = ({
       const initialSelection = filtered[0] ?? data[0]
       setSelectedDataset(initialSelection)
       setSelectedTableRowIndex(0)
-      if (initialSelection) {
-        onSelectDataset?.(initialSelection.dataset_id)
-      }
+      // Don't auto-fire onSelectDataset; the panel only reacts to user clicks.
       setIsLoading(false)
     })
   }, [locale])
@@ -140,7 +143,16 @@ const DatasetCorpusDownload = ({
             )}
 
             {!isLoading && languageDatasets && (
-              <MobileDatasetMetadataViewer releaseData={languageDatasets} />
+              <MobileDatasetMetadataViewer
+                releaseData={languageDatasets}
+                selectedId={selectedDataset?.id ?? null}
+                onSelect={selectedId => {
+                  const index = languageDatasets.findIndex(
+                    d => d.id === selectedId
+                  )
+                  if (index >= 0) handleRowSelect(selectedId, index)
+                }}
+              />
             )}
 
             {selectedDataset && selectedDataset.download_path && (

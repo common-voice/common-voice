@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Localized } from '@fluent/react'
 
 import { LanguageDataset } from '../types'
@@ -10,16 +10,16 @@ import './metadata-viewer.css'
 
 type Props = {
   releaseData: LanguageDataset[]
+  selectedId: number | null
+  onSelect: (selectedId: number) => void
 }
 
-export const MobileDatasetMetadataViewer = ({ releaseData }: Props) => {
-  const [selected, setSelected] = useState<LanguageDataset>()
-
+export const MobileDatasetMetadataViewer = ({
+  releaseData,
+  selectedId,
+  onSelect,
+}: Props) => {
   const [locale] = useLocale()
-
-  const handleSelect = (selectedId: number) => {
-    setSelected(releaseData.find(el => el.id === selectedId))
-  }
 
   return (
     <div className="metadata-viewer-container-md hidden-lg-up">
@@ -36,8 +36,8 @@ export const MobileDatasetMetadataViewer = ({ releaseData }: Props) => {
           releaseData={el}
           locale={locale}
           key={el.id}
-          onSelect={handleSelect}
-          selectedId={selected?.id || releaseData[0].id}
+          onSelect={onSelect}
+          selectedId={selectedId ?? releaseData[0].id}
         />
       ))}
     </div>
