@@ -363,6 +363,7 @@ su = Sundašćina
 sv-SE = Šwedšćina
 sva = Swańšćina
 sw = Swahilišćina, Swahili
+swb = Shimaore
 syr = Syrišćina
 szy = Sakizaya
 ta = Tamilšćina
