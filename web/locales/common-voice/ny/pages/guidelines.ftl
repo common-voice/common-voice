@@ -56,13 +56,24 @@ self-citation = Kudzitchula Wekha
 self-citation-explanation = Umu ndi momwe mumazitchulira nokha ngati munalemba zomwe zili mkati mwa nkhani yanu .
 adding-sentences-subheader-length = Utali
 adding-sentences-subheader-length-explanation = Chiganizocho chiyenera kukhala ndi mawu osapitirira khumi ndi asanu.
+adding-sentences-subheader-spelling-punctuation = Kalembedwe ndi Zizindikiro za mkalembedwe
 adding-sentences-subheader-spelling-punctuation-explanation = chiganizo chiyenera kuwerengadwa molondola
 adding-sentences-subheader-speakable = Zolankhulidwa
 adding-sentences-subheader-numbers = Manambala
 adding-sentences-subheader-punctuation = Zizindikiro za mkalembedwe
+adding-sentences-subheader-offensive-content = zokhumudwisa
+
+## Question collection ids
+
+adding-questions = kuwonjezela mafunso
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = Kodi funso labwino limakhala lotani?
+what-makes-a-good-question-explanation-criteria-1 = zikhale zosavuta kumvetsetsa ndi kuyankhula
+what-makes-a-good-question-explanation-criteria-2 = zikhale zogwirizana thawi zambiri
+what-makes-a-good-question-explanation-criteria-3 = Osagwiritsa ntchito, kapena kupempha, chilankhulo choipa kapena chonyansa
+what-makes-a-good-question-tip = Mungafunenso kuganizira za kufalikira kwa nkhani ndi madera osiyanasiyana.
 easy-to-understand = Zosavuta Kumvetsa
 easy-to-understand-explanation = Sankhani mafunso osavuta omwe aliyense angamvetse, mosasamala kanthu za chikhalidwe kapena momwe zinthu zilili.
 length = Utali
