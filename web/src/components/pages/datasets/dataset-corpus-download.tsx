@@ -28,6 +28,7 @@ interface Props extends WithLocalizationProps {
   languagesWithDatasets: { id: number; name: string }[]
   initialLanguage: string
   isSubscribedToMailingList: boolean
+  onSelectDataset?: (datasetId: number) => void
 }
 
 const DatasetCorpusDownload = ({
@@ -35,6 +36,7 @@ const DatasetCorpusDownload = ({
   languagesWithDatasets,
   initialLanguage,
   isSubscribedToMailingList,
+  onSelectDataset,
 }: Props) => {
   const [isLoading, setIsLoading] = useState(true)
   const [selectedDataset, setSelectedDataset] = useState<LanguageDataset>()
@@ -43,6 +45,9 @@ const DatasetCorpusDownload = ({
   )
 
   const [selectedTableRowIndex, setSelectedTableRowIndex] = useState(0)
+  // Lifted out of the table so the user's expand choice survives the table
+  // unmount that happens when the locale changes.
+  const [showAllDownloads, setShowAllDownloads] = useState(false)
   const api = useAPI()
 
   const [locale, setLocale] = useState(initialLanguage)
@@ -57,25 +62,33 @@ const DatasetCorpusDownload = ({
   }
 
   const handleRowSelect = (selectedId: number, index: number) => {
-    const selectedDataset = languageDatasets.find(d => d.id === selectedId)
+    const newSelection = languageDatasets.find(d => d.id === selectedId)
+    if (!newSelection) return
 
     trackGtag('datasets-table-row-click', {
-      datasetLocaleId: selectedDataset.locale_id,
-      datasetId: selectedDataset.dataset_id,
+      datasetLocaleId: newSelection.locale_id,
+      datasetId: newSelection.dataset_id,
     })
 
-    setSelectedDataset(languageDatasets.find(d => d.id === selectedId))
+    setSelectedDataset(newSelection)
     setSelectedTableRowIndex(index)
+    onSelectDataset?.(newSelection.dataset_id)
   }
 
   useEffect(() => {
     setIsLoading(true)
 
     api.getLanguageDatasetStats(locale).then(data => {
-      setLanguageDatasets(
-        data.filter((dataset: LanguageDataset) => !!dataset.download_path)
+      const filtered = data.filter(
+        (dataset: LanguageDataset) => !!dataset.download_path
       )
-      setSelectedDataset(data[0])
+      setLanguageDatasets(filtered)
+      const initialSelection = filtered[0] ?? data[0]
+      setSelectedDataset(initialSelection)
+      setSelectedTableRowIndex(0)
+      if (initialSelection) {
+        onSelectDataset?.(initialSelection.dataset_id)
+      }
       setIsLoading(false)
     })
   }, [locale])
@@ -119,6 +132,10 @@ const DatasetCorpusDownload = ({
                 onRowSelect={handleRowSelect}
                 releaseData={languageDatasets}
                 selectedId={selectedDataset?.id || languageDatasets[0].id}
+                showAllDownloads={showAllDownloads}
+                onToggleShowAllDownloads={() =>
+                  setShowAllDownloads(prev => !prev)
+                }
               />
             )}
 

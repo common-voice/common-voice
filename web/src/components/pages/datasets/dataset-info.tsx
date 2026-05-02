@@ -25,8 +25,11 @@ const DatasetInfo: React.FC<PropsFromState> = ({
 }) => {
   const [isLoading, setIsLoading] = useState(true);
 
-  const [languagesWithDatasets, setLanguagesWithDatasets] = useState([]);
-  const [currentDataset, setCurrentDataset] = useState<Dataset>();
+  const [languagesWithDatasets, setLanguagesWithDatasets] = useState<
+    { id: number; name: string }[]
+  >([]);
+  const [allDatasets, setAllDatasets] = useState<Dataset[]>([]);
+  const [selectedDatasetId, setSelectedDatasetId] = useState<number>();
 
   const api = useAPI();
   const [globalLocale] = useLocale();
@@ -39,12 +42,21 @@ const DatasetInfo: React.FC<PropsFromState> = ({
       setLanguagesWithDatasets(data);
     });
 
-    //get stats for latest full release
-    api.getDatasets('complete').then(data => {
-      setCurrentDataset(data[0]);
+    //get stats for every full release; the description panel reflects the
+    //currently selected row in the corpus download table.
+    api.getDatasets('complete').then((data: Dataset[]) => {
+      setAllDatasets(data);
+      setSelectedDatasetId(data[0]?.id);
       setIsLoading(false);
     });
   }, []);
+
+  const currentDataset =
+    allDatasets.find(d => d.id === selectedDatasetId) ?? allDatasets[0];
+
+  const hasGlobalLocaleDataset = languagesWithDatasets.some(
+    l => l.name === globalLocale
+  );
 
   return (
     <div className="dataset-info">
@@ -57,8 +69,16 @@ const DatasetInfo: React.FC<PropsFromState> = ({
         ) : (
           <DatasetCorpusDownload
             languagesWithDatasets={languagesWithDatasets}
-            initialLanguage={languagesWithDatasets.includes(globalLocale) ? globalLocale : 'en'}
+            initialLanguage={hasGlobalLocaleDataset ? globalLocale : 'en'}
             isSubscribedToMailingList={isSubscribedToMailingList}
+            onSelectDataset={datasetId => {
+              // Only update the description panel when the row maps to a
+              // full-release dataset; delta selections leave it on the most
+              // recent full release.
+              if (allDatasets.some(d => d.id === datasetId)) {
+                setSelectedDatasetId(datasetId);
+              }
+            }}
           />
         )}
       </div>

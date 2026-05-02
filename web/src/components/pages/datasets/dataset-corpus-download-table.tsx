@@ -17,6 +17,8 @@ interface Props {
   releaseData: any[]
   onRowSelect: (selectedId: number, index: number) => void
   selectedId: number | null
+  showAllDownloads: boolean
+  onToggleShowAllDownloads: () => void
 }
 
 // map columns to localized string id
@@ -78,15 +80,11 @@ const DatasetCorpusDownloadTable = ({
   releaseData,
   onRowSelect,
   selectedId,
+  showAllDownloads,
+  onToggleShowAllDownloads,
   getString,
 }: Props & WithLocalizationProps) => {
   const [locale] = useLocale()
-
-  const [showAllDownloads, setShowAllDownloads] = React.useState(false)
-
-  const toggleShowAllDownloads = () => {
-    setShowAllDownloads(!showAllDownloads)
-  }
 
   const datasetsToShow = showAllDownloads
     ? releaseData
@@ -99,7 +97,7 @@ const DatasetCorpusDownloadTable = ({
       ) : (
         <div
           className="show-all-datasets hidden-md-down"
-          onClick={toggleShowAllDownloads}>
+          onClick={onToggleShowAllDownloads}>
           <Localized
             id={'datasets-show-' + (showAllDownloads ? 'less' : 'more')}
           />
