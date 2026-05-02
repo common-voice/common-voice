@@ -66,10 +66,20 @@ export const deleteDatasetsByName = async (
   await db.runSql(`DELETE FROM datasets WHERE name IN (${list})`)
 }
 
+// `locale_datasets` has no UNIQUE(dataset_id, locale_id), so plain INSERT
+// would create duplicates if the migration is re-run after an interruption.
+// We delete-then-insert per dataset to keep the helper idempotent without
+// requiring a schema change.
+const LOCALE_DATASETS_INSERT_CHUNK = 200
+
+const clampNonNegative = (n: number) => (n < 0 ? 0 : n)
+
 export const insertLocaleDatasetStats = async (
   db: any,
   stats: DatasetStat[]
 ): Promise<any> => {
+  if (stats.length === 0) return
+
   const languageQuery = await db.runSql(
     `SELECT id, name FROM locales where name is not null`
   )
@@ -84,38 +94,48 @@ export const insertLocaleDatasetStats = async (
     obj[current.release_dir] = current.id
     return obj
   }, {})
-  // The bundler emits negative `size` / `validDurationSecs` for delta locales
-  // with no new clips; the locale_datasets columns are BIGINT UNSIGNED, so
-  // clamp every numeric field to 0 before insert.
-  const clampNonNegative = (n: number) => (n < 0 ? 0 : n)
-  for (const row of stats) {
-    const {
-      release_dir,
-      locale_name,
-      ld_total_clips_duration,
-      ld_valid_clips_duration,
-      average_clips_duration,
-      total_users,
-      size,
-      checksum,
-    } = row
-    const dataset_id = datasets[release_dir]
-    const locale_id = locales[locale_name]
-    if (!locale_id || !dataset_id) continue
-    const locale_dataset_values = [
-      dataset_id,
-      locale_id,
-      clampNonNegative(ld_total_clips_duration),
-      clampNonNegative(ld_valid_clips_duration),
-      clampNonNegative(average_clips_duration),
-      clampNonNegative(total_users),
-      clampNonNegative(size),
-      checksum ? sqlString(checksum) : 'NULL',
-    ]
+
+  const targetDatasetIds = Array.from(
+    new Set(
+      stats
+        .map(row => datasets[row.release_dir])
+        .filter((id): id is number => Boolean(id))
+    )
+  )
+  if (targetDatasetIds.length > 0) {
     await db.runSql(
-      `INSERT INTO locale_datasets (dataset_id,locale_id,total_clips_duration,valid_clips_duration,average_clips_duration,total_users,size,checksum) VALUES (${locale_dataset_values.join(
-        ', '
+      `DELETE FROM locale_datasets WHERE dataset_id IN (${targetDatasetIds.join(
+        ','
       )})`
+    )
+  }
+
+  // The bundler emits negative `size` / `validDurationSecs` for delta locales
+  // with no new clips (compression noise, GDPR deletions, re-validations);
+  // the locale_datasets columns are BIGINT UNSIGNED, so clamp every numeric
+  // field to 0 before insert.
+  const valueTuples: string[] = []
+  for (const row of stats) {
+    const dataset_id = datasets[row.release_dir]
+    const locale_id = locales[row.locale_name]
+    if (!locale_id || !dataset_id) continue
+    valueTuples.push(
+      `(${dataset_id}, ${locale_id}, ${clampNonNegative(
+        row.ld_total_clips_duration
+      )}, ${clampNonNegative(row.ld_valid_clips_duration)}, ${clampNonNegative(
+        row.average_clips_duration
+      )}, ${clampNonNegative(row.total_users)}, ${clampNonNegative(
+        row.size
+      )}, ${row.checksum ? sqlString(row.checksum) : 'NULL'})`
+    )
+  }
+
+  for (let i = 0; i < valueTuples.length; i += LOCALE_DATASETS_INSERT_CHUNK) {
+    const chunk = valueTuples.slice(i, i + LOCALE_DATASETS_INSERT_CHUNK)
+    await db.runSql(
+      `INSERT INTO locale_datasets (dataset_id,locale_id,total_clips_duration,valid_clips_duration,average_clips_duration,total_users,size,checksum) VALUES ${chunk.join(
+        ','
+      )}`
     )
   }
 }
