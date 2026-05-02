@@ -17,6 +17,18 @@ example = Chitsanzo
 
 varying-pronunciations-example = Njirayo sinali yodziwika bwino.
 varying-pronunciations-tip-1 = [Chingerezi cha ku Canada chingapange "njira" kumveka ngati "rowt"]
+varying-pronunciations-tip-2 = [Chingerezi cha ku Britain chingapange "muzu"]
+misreadings-explanation-4 = Kusowa 's' kumapeto kwa liwu.
+misreadings-explanation-5 = Kuwerenga mawu ofupikitsa omwe salipo kwenikweni, monga "Ife tili" m'malo mwa "Ife tili", kapena mosemphanitsa.
+misreadings-explanation-6 = kuphonyana ndi mawu akumapeto podula kutepa mwachangu kwambiri
+misreadings-explanation-7 = kuyesera kangapo kuwerenga liwu
+misreadings-example-1 = tikupita kukatenga khofi
+misreadings-example-2 = tikupita kukatenga khofi
+misreadings-example-3 = tikupita kukagula khofi
+misreadings-example-4 = njuchi zinadutsa mwachangu
+misreadings-tip-1 = zikuyenera kukhala " ndife"
+misreadings-tip-2 = ayi 'a' mumalemba enieni
+misreadings-tip-3 = zinthu zosemphana
 background-noise-tip-1 = [kusokonezedwa ndi phokoso lakumbuyo]
 background-noise-tip-2 = gawo lina la mawu silikumveka
 background-voices-tip-1 = Kodi mukubwera? [anayimbidwa ndi wina]
@@ -33,7 +45,11 @@ sentence-domain = Chigawo cha Zilango
 ## Sentence collection sidebar content
 
 citing-sentences-subheader-websites = Mawebusayiti
+citing-sentences-subheader-websites-explanation = Mungathe kuphatikiza tsamba lawebusayiti, mwachitsanzo "Common Voice - https://commonvoice.mozilla.org/"
+citing-sentences-subheader-academic-reference = Buku Lophunzitsira
+citing-sentences-subheader-academic-reference-explanation = Mungagwiritse ntchito kalembedwe ka maphunziro, mwachitsanzo kalembedwe ka Harvard "Mozilla (2021) Common Voice. Ikupezeka pa https://commonvoice.mozilla.org/ (Yapezeka: 15 Seputembala 2021)"
 citing-sentences-subheader-offline-sources = Magwero Osagwiritsa Ntchito Intaneti
+citing-sentences-subheader-offline-sources-explanation = Pa zolemba za anthu onse zomwe sizikupezeka pa intaneti, mungagwiritse ntchito kalembedwe ka maphunziro mwachitsanzo ka Harvard "Jess (2021) My Public license poems"
 citation =
     .label = Kutchula
 self-citation = Kudzitchula Wekha
