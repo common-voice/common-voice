@@ -498,6 +498,11 @@ announcement-mdc-button-text = موزیلا ڈیٹا کولیکٹیو دہ ٹل 
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = نوں ٹیب دہ پتوڑ تِھیا
 
+## Release Delay Announcement
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-delay = رزالیْ کمیونٹی، بیُس فی الحال ریلیزِجیْ کوْم تھوݨَس۔ اسے ڈاڈِن چہ ایئن دیزو مجی آئے <mdcLink>Mozilla Data Collective</mdcLink> مرحلہ وار جاری تِھجبوٰ۔
+
 ## Common Language/Dataset Selector & SearchBox Related
 
 # Generic search box defaults
