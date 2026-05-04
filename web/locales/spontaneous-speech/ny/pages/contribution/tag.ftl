@@ -22,3 +22,5 @@ select-all = Sankhani zonse
 tag-success-toast-message = Cholembedwa chatumizidwa bwino
 tag-error-toast-message = vuto potumiza ma tagi
 cs-tag-shortcuts-section-title = Kugwiritsa ntchito kiyibodi
+cs-tag-shortcuts-guideline-1 = <key>1</key>-<key>{ $numLanguages }</key> Chizindikiro chokhala ndi chilankhulo
+cs-tag-shortcuts-guideline-2 = <key>{ tag-page-shortcut-toogle-mouse-keyboard }</key> { toogle-mouse-keyboard }

@@ -7,10 +7,12 @@ demo-welcome-subheader = Kodi mukufuna kudziwa zambiri ndikupereka nawo gawo pa 
 ## Demo Datasets
 
 demo-language-select-card-header = Common Voice ndi seti yayikulu kwambiri padziko lonse lapansi ya mawu yomwe imapezeka poyera komanso ya zilankhulo zambiri.
+demo-language-select-card-body = zikomo potengapo mbari  kuchokera kwa anthu oposera 25900 kuchokera kuzinenero 50 . uthengayu uthandiza kuphunzisira makina ozindikira mawu kulumikizana ndi anthu
 card-button-next = kena
 card-button-back = Kubwerera
 demo-language-select-label = Sakatulani Zilankhulo
 demo-eofy-header = Kutulutsidwa kwa Mapeto a Chaka cha 2019
+demo-eofy-sub_header = Seti ya Deta ya Mawu, Yokonzeka Kutsitsidwa
 demo-account = Akaunti
 
 ## Demo Account

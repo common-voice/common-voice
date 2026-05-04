@@ -4,7 +4,7 @@
 
 ## Languages
 
-aa = kutali
+aa = Chiafar
 aat = Arvanitika
 ab = Abkhaz
 abb = Bankon
@@ -150,8 +150,10 @@ hrx = Hunsrik
 hsb = Chisorbian, Upper
 ht = Chihaiti
 hu = Chihangare
+hux = Nüpode Huitoto
 hy-AM = Chiameniya
 ia = Zilankhulo za Chilankhulo chapakati
+iba = Iban
 ibb = ibibio
 id = indonesian
 ie = Zilankhulo za Chilankhulo chapakati
@@ -173,6 +175,7 @@ khw = Khowar
 ki = Chikuyu
 kk = Chikazakh
 kln = Kalenjin
+kls = Kalasha
 km = khmer
 kmr = Kurmanji Chikurdi
 kn = Chikannada
@@ -201,6 +204,12 @@ mk = Chimakedoniya
 ml = Chimalayalam
 mn = Chimongoliya
 mni = Meetei Lon
+mos = Mooré
+mr = Marathi
+mrj = Hill Mari
+ms = Malay
+mt = Maltese
+mxu = Mada
 
 # [/]
 
