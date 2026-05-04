@@ -363,6 +363,7 @@ su = Sundaneg
 sv-SE = Swedeg
 sva = Svan
 sw = Swahili
+swb = Shimaore
 syr = Syriac
 szy = Sakizaya
 ta = Tamil
