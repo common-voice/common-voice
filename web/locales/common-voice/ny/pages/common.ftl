@@ -186,8 +186,10 @@ ksf = Bafia
 kw = Chikornish
 ky = Chikyrgyz
 lb = Chiluxembourg
+leu = Kara
 lg = Chiluganda
 lij = Chiligurian
+lke = Kenyi
 ln = Chilingala
 lo = Chilao
 lt = Chilituaniya
@@ -210,6 +212,12 @@ mrj = Hill Mari
 ms = Malay
 mt = Maltese
 mxu = Mada
+my = Burmese
+myv = Erzya
+nan-tw = Chitayiwani (Minnan)
+nb-NO = Norwegian Bokmål
+nd = IsiNdebele (Kumpoto)
+ne-NP = Nepali
 
 # [/]
 
