@@ -12,5 +12,20 @@ error-recording-too-short = ရမျာၚ်ပၠောပ်ဂှ် ဂၠ
 error-recording-too-long = ရမျာၚ်ပၠောပ်ဂှ် ဂၠိၚ်လောန်အာရ။ ဗၞတ်အခိၚ်ဂၠိုၚ်အိုတ်ဂှ် ဒးဒှ် { $maxDurationMinutes } မိနေတ်ရ။
 error-fetching-prompts = အဃောကေတ်ဒၟံၚ် တၚ်စၞောန်ဂှ် ပြသၞာမွဲမွဲ ကတဵုဒှ်အာရ။ လက္ကရဴ ကလေၚ်ဂစာန်ရံၚ် မွဲဝါပၠန်ညိ။
 error-uploading-response = အဃောပတိုန်ဒၟံၚ်သွဟ်မၞးဂှ် ပြသၞာမွဲမွဲ ကတဵုဒှ်အာရ။
+error-empty-audio = ပရေၚ်ပၠောပ်ရမျာၚ်ဂှ် ဟွံအံၚ်ဇၞးရ။ ဝှာၚ်ရမျာၚ်ဂှ် သၠးဒၟံၚ် ထေၚ်ကေတ်ရ။ ထပ်ဂ္စါန်မွဲဝါပၠန်ညိ။
+error-platform-webview = ဗရံက်ဇြာဏံ ပၠောပ်ရမျာၚ် ဟွံသၟဟ်အစောန်ရ။ သုၚ်စောဲ အာပ် ဗရံက်ဇြာ မဍိုက်ပေၚ်ဂှ်ညိ။
+error-recording-too-short-seconds = ရမျာၚ်ပၠောပ်ဂှ် ဂၠေံလောန်အာရ။ ဗၞတ်အခိၚ်အောန်အိုတ်ဂှ် ဒးဒှ် { $minDurationSeconds } စက္ကရောၚ်။
+error-recording-too-long-minutes = ရမျာၚ်ပၠောပ်ဂှ် ဂၠိၚ်လောန်အာရ။ ဗၞတ်အခိၚ်ဂၠိုၚ်အိုတ်ဂှ် ဒးဒှ် { $maxDurationMinutes } မိနေတ်ရ။
 prompt-submitted-success = ပတိုန် သွဟ် တုဲဒှ်အာ ဗွဲမအံၚ်ဇၞးရ။
 prompt-response-deleted-success = ဇိုတ်ထောံ သွဟ် တုဲဒှ်အာ ဗွဲမအံၚ်ဇၞးရ။
+# For the button to delete a response to a prompt
+delete = ဇိုတ်
+# For the disabled button on a prompt that indicates a prompt is already submitted
+submitted = ပတိုန်တုဲဒှ်
+# For the button on the Respond to prompts page which can be used to submit all responses at once
+submit-all-button = ပတိုန်သီုဖအိုတ်
+
+## Explainer text (Respond to Prompt)
+
+learn-how-to-use-prompts = ကတ်လ္ၚတ်ဗီုပြၚ်ဂွံစကာသုၚ်စောဲမုက်လိက်ဏံညိ။
+learn-how-to-use-check-transcript-guidance = သွက်ဂွံလ္ၚတ်အာဗီုဂွံပြၚ်စကာသုၚ်စောဲမုက်လိက်ဏံဂှ် ဍဵု <guidanceLink>ဒၞာဲဏံ</guidanceLink> ညိ။
