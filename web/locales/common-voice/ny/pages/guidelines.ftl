@@ -17,6 +17,18 @@ example = Chitsanzo
 
 varying-pronunciations-example = Njirayo sinali yodziwika bwino.
 varying-pronunciations-tip-1 = [Chingerezi cha ku Canada chingapange "njira" kumveka ngati "rowt"]
+varying-pronunciations-tip-2 = [Chingerezi cha ku Britain chingapange "muzu"]
+misreadings-explanation-4 = Kusowa 's' kumapeto kwa liwu.
+misreadings-explanation-5 = Kuwerenga mawu ofupikitsa omwe salipo kwenikweni, monga "Ife tili" m'malo mwa "Ife tili", kapena mosemphanitsa.
+misreadings-explanation-6 = kuphonyana ndi mawu akumapeto podula kutepa mwachangu kwambiri
+misreadings-explanation-7 = kuyesera kangapo kuwerenga liwu
+misreadings-example-1 = tikupita kukatenga khofi
+misreadings-example-2 = tikupita kukatenga khofi
+misreadings-example-3 = tikupita kukagula khofi
+misreadings-example-4 = njuchi zinadutsa mwachangu
+misreadings-tip-1 = zikuyenera kukhala " ndife"
+misreadings-tip-2 = ayi 'a' mumalemba enieni
+misreadings-tip-3 = zinthu zosemphana
 background-noise-tip-1 = [kusokonezedwa ndi phokoso lakumbuyo]
 background-noise-tip-2 = gawo lina la mawu silikumveka
 background-voices-tip-1 = Kodi mukubwera? [anayimbidwa ndi wina]
@@ -33,20 +45,35 @@ sentence-domain = Chigawo cha Zilango
 ## Sentence collection sidebar content
 
 citing-sentences-subheader-websites = Mawebusayiti
+citing-sentences-subheader-websites-explanation = Mungathe kuphatikiza tsamba lawebusayiti, mwachitsanzo "Common Voice - https://commonvoice.mozilla.org/"
+citing-sentences-subheader-academic-reference = Buku Lophunzitsira
+citing-sentences-subheader-academic-reference-explanation = Mungagwiritse ntchito kalembedwe ka maphunziro, mwachitsanzo kalembedwe ka Harvard "Mozilla (2021) Common Voice. Ikupezeka pa https://commonvoice.mozilla.org/ (Yapezeka: 15 Seputembala 2021)"
 citing-sentences-subheader-offline-sources = Magwero Osagwiritsa Ntchito Intaneti
+citing-sentences-subheader-offline-sources-explanation = Pa zolemba za anthu onse zomwe sizikupezeka pa intaneti, mungagwiritse ntchito kalembedwe ka maphunziro mwachitsanzo ka Harvard "Jess (2021) My Public license poems"
 citation =
     .label = Kutchula
 self-citation = Kudzitchula Wekha
 self-citation-explanation = Umu ndi momwe mumazitchulira nokha ngati munalemba zomwe zili mkati mwa nkhani yanu .
 adding-sentences-subheader-length = Utali
 adding-sentences-subheader-length-explanation = Chiganizocho chiyenera kukhala ndi mawu osapitirira khumi ndi asanu.
+adding-sentences-subheader-spelling-punctuation = Kalembedwe ndi Zizindikiro za mkalembedwe
 adding-sentences-subheader-spelling-punctuation-explanation = chiganizo chiyenera kuwerengadwa molondola
 adding-sentences-subheader-speakable = Zolankhulidwa
 adding-sentences-subheader-numbers = Manambala
 adding-sentences-subheader-punctuation = Zizindikiro za mkalembedwe
+adding-sentences-subheader-offensive-content = zokhumudwisa
+
+## Question collection ids
+
+adding-questions = kuwonjezela mafunso
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = Kodi funso labwino limakhala lotani?
+what-makes-a-good-question-explanation-criteria-1 = zikhale zosavuta kumvetsetsa ndi kuyankhula
+what-makes-a-good-question-explanation-criteria-2 = zikhale zogwirizana thawi zambiri
+what-makes-a-good-question-explanation-criteria-3 = Osagwiritsa ntchito, kapena kupempha, chilankhulo choipa kapena chonyansa
+what-makes-a-good-question-tip = Mungafunenso kuganizira za kufalikira kwa nkhani ndi madera osiyanasiyana.
 easy-to-understand = Zosavuta Kumvetsa
 easy-to-understand-explanation = Sankhani mafunso osavuta omwe aliyense angamvetse, mosasamala kanthu za chikhalidwe kapena momwe zinthu zilili.
 length = Utali

@@ -363,6 +363,7 @@ su = Sundánština
 sv-SE = Švédština
 sva = Swan
 sw = Swahilština
+swb = Shimaore
 syr = Syrština
 szy = Sakizaya
 ta = Tamilština

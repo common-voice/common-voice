@@ -25,26 +25,37 @@ const DatasetInfo: React.FC<PropsFromState> = ({
 }) => {
   const [isLoading, setIsLoading] = useState(true);
 
-  const [languagesWithDatasets, setLanguagesWithDatasets] = useState([]);
-  const [currentDataset, setCurrentDataset] = useState<Dataset>();
+  const [languagesWithDatasets, setLanguagesWithDatasets] = useState<
+    { id: number; name: string }[]
+  >([]);
+  const [allDatasets, setAllDatasets] = useState<Dataset[]>([]);
+  // null = panel hidden; only set when the user clicks a full-release row.
+  const [panelDataset, setPanelDataset] = useState<Dataset | null>(null);
 
   const api = useAPI();
   const [globalLocale] = useLocale();
 
   useEffect(() => {
-    setIsLoading(true);
-
-    //get all languages w/ dataset releases
-    api.getLanguagesWithDatasets().then(data => {
-      setLanguagesWithDatasets(data);
-    });
-
-    //get stats for latest full release
-    api.getDatasets('complete').then(data => {
-      setCurrentDataset(data[0]);
+    // Both fetches must settle before render; otherwise `initialLanguage`
+    // sees an empty list and falls back to `'en'`. Each catches its own
+    // failure so one error does not discard the other's result.
+    Promise.all([
+      api
+        .getLanguagesWithDatasets()
+        .catch(() => [] as { id: number; name: string }[]),
+      (api.getDatasets('complete') as Promise<Dataset[]>).catch(
+        () => [] as Dataset[]
+      ),
+    ]).then(([languagesData, datasetsData]) => {
+      setLanguagesWithDatasets(languagesData);
+      setAllDatasets(datasetsData);
       setIsLoading(false);
     });
   }, []);
+
+  const hasGlobalLocaleDataset = languagesWithDatasets.some(
+    l => l.name === globalLocale
+  );
 
   return (
     <div className="dataset-info">
@@ -57,16 +68,20 @@ const DatasetInfo: React.FC<PropsFromState> = ({
         ) : (
           <DatasetCorpusDownload
             languagesWithDatasets={languagesWithDatasets}
-            initialLanguage={languagesWithDatasets.includes(globalLocale) ? globalLocale : 'en'}
+            initialLanguage={hasGlobalLocaleDataset ? globalLocale : 'en'}
             isSubscribedToMailingList={isSubscribedToMailingList}
+            onSelectDataset={({ dataset_id }) => {
+              // Delta or unknown row → hide panel.
+              const fullMatch = allDatasets.find(d => d.id === dataset_id);
+              setPanelDataset(fullMatch ?? null);
+            }}
+            onLanguageChange={() => setPanelDataset(null)}
           />
         )}
       </div>
 
-      {isLoading ? (
-        <Spinner isFloating={false} />
-      ) : (
-        <DatasetDescription releaseData={currentDataset} />
+      {!isLoading && panelDataset && (
+        <DatasetDescription releaseData={panelDataset} />
       )}
 
       <div className="donate-banner-wrapper">

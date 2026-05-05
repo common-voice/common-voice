@@ -238,6 +238,7 @@ ml = ملایالم
 mmc = مِچواچَن مزَہُوا
 mn = منگولین
 mni = میتی لون
+mnw = مون
 mos = موسی
 mqh = تلازویلتیپک مکستک
 mr = مرہٹی
@@ -362,6 +363,7 @@ su = سندانیسے
 sv-SE = سویڈش
 sva = سوان
 sw = سواحلی
+swb = شِیماؤرے
 syr = سریانی
 szy = ساکیزایا
 ta = تامل
@@ -495,6 +497,11 @@ announcement-mdc-text = <strong>نوں کامن وائس ڈیٹاسیٹس</stron
 announcement-mdc-button-text = موزیلا ڈیٹا کولیکٹیو دہ ٹل بِیا
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = نوں ٹیب دہ پتوڑ تِھیا
+
+## Release Delay Announcement
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-delay = رزالیْ کمیونٹی، بیُس فی الحال ریلیزِجیْ کوْم تھوݨَس۔ اسے ڈاڈِن چہ ایئن دیزو مجی آئے <mdcLink>Mozilla Data Collective</mdcLink> مرحلہ وار جاری تِھجبوٰ۔
 
 ## Common Language/Dataset Selector & SearchBox Related
 

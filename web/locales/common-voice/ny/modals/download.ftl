@@ -1,9 +1,9 @@
 ## Download Modal
 
-download-title = Kutsitsa zinthu pa makina a intaneti kwayamba
-download-helpus = Tithandizeni kumanga mudzi wa anthu moyang'anila ukadalo wa mawu, khalani olumikizana nafe kudzela pa imelo
+download-title = kudawuniloda kwayamba.
+download-helpus = Tithandizeni kumanga gulu logwirizana ndi ukadaulo wa mawu, pitirizani kulumikizana nafe kudzera pa imelo.
 download-form-email =
     .label = lowetsani imelo yanu
-    .value = Zikomo , Tilumikizana nanu
-download-back = Bwelelani ku Dataseti odziwika
+    .value = Zikomo , Tizilumikizana nanu
+download-back = Bwererani ku Ma Dataset a Common Voice
 download-no = Ayi , Zikomo
