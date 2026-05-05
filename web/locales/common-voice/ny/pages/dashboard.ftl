@@ -94,10 +94,10 @@ days =
 recordings =
     { $count ->
         [one] Zojambulajambula
-       *[other] { "" }
+       *[other] kujambula
     }
 validations =
     { $count ->
         [one] Kutsimikizira
-       *[other] { "" }
+       *[other] kutsimikizila
     }

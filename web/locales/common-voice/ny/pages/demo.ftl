@@ -7,15 +7,18 @@ demo-welcome-subheader = Kodi mukufuna kudziwa zambiri ndikupereka nawo gawo pa 
 ## Demo Datasets
 
 demo-language-select-card-header = Common Voice ndi seti yayikulu kwambiri padziko lonse lapansi ya mawu yomwe imapezeka poyera komanso ya zilankhulo zambiri.
+demo-language-select-card-body = zikomo potengapo mbari  kuchokera kwa anthu oposera 25900 kuchokera kuzinenero 50 . uthengayu uthandiza kuphunzisira makina ozindikira mawu kulumikizana ndi anthu
 card-button-next = kena
 card-button-back = Kubwerera
 demo-language-select-label = Sakatulani Zilankhulo
 demo-eofy-header = Kutulutsidwa kwa Mapeto a Chaka cha 2019
+demo-eofy-sub_header = Seti ya Deta ya Mawu, Yokonzeka Kutsitsidwa
 demo-account = Akaunti
 
 ## Demo Account
 
 demo-account-card-header = Kukhala ndi akaunti sikofunikira kuti mulipire ndalama, ngakhale kuti n'kothandiza.
+demo-account-card-body = Kumanja tikufotokoza ubwino wake ndikufotokozera zomwe timalengeza kwa anthu onse. Gwiritsani ntchito maulalo omwe ali pansipa kuti muyambe kugwiritsa ntchito akaunti ya Common Voice pa chipangizo chanu.
 demo-account-enter-email =
     .label = Lowetsani imelo kuti mutumize ulalo wolembetsa
 demo-account-sign-up = Tumizani ulalo wolembetsa

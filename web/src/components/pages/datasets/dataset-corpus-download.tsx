@@ -28,6 +28,11 @@ interface Props extends WithLocalizationProps {
   languagesWithDatasets: { id: number; name: string }[]
   initialLanguage: string
   isSubscribedToMailingList: boolean
+  onSelectDataset?: (selection: {
+    dataset_id: number
+    release_dir: string
+  }) => void
+  onLanguageChange?: () => void
 }
 
 const DatasetCorpusDownload = ({
@@ -35,6 +40,8 @@ const DatasetCorpusDownload = ({
   languagesWithDatasets,
   initialLanguage,
   isSubscribedToMailingList,
+  onSelectDataset,
+  onLanguageChange,
 }: Props) => {
   const [isLoading, setIsLoading] = useState(true)
   const [selectedDataset, setSelectedDataset] = useState<LanguageDataset>()
@@ -43,6 +50,8 @@ const DatasetCorpusDownload = ({
   )
 
   const [selectedTableRowIndex, setSelectedTableRowIndex] = useState(0)
+  // Lifted out of the table so the choice survives locale-change remounts.
+  const [showAllDownloads, setShowAllDownloads] = useState(false)
   const api = useAPI()
 
   const [locale, setLocale] = useState(initialLanguage)
@@ -54,28 +63,38 @@ const DatasetCorpusDownload = ({
   const handleLanguageChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const newLocale = event.target.value
     setLocale(newLocale)
+    onLanguageChange?.()
   }
 
   const handleRowSelect = (selectedId: number, index: number) => {
-    const selectedDataset = languageDatasets.find(d => d.id === selectedId)
+    const newSelection = languageDatasets.find(d => d.id === selectedId)
+    if (!newSelection) return
 
     trackGtag('datasets-table-row-click', {
-      datasetLocaleId: selectedDataset.locale_id,
-      datasetId: selectedDataset.dataset_id,
+      datasetLocaleId: newSelection.locale_id,
+      datasetId: newSelection.dataset_id,
     })
 
-    setSelectedDataset(languageDatasets.find(d => d.id === selectedId))
+    setSelectedDataset(newSelection)
     setSelectedTableRowIndex(index)
+    onSelectDataset?.({
+      dataset_id: newSelection.dataset_id,
+      release_dir: newSelection.release_dir,
+    })
   }
 
   useEffect(() => {
     setIsLoading(true)
 
     api.getLanguageDatasetStats(locale).then(data => {
-      setLanguageDatasets(
-        data.filter((dataset: LanguageDataset) => !!dataset.download_path)
+      const filtered = data.filter(
+        (dataset: LanguageDataset) => !!dataset.download_path
       )
-      setSelectedDataset(data[0])
+      setLanguageDatasets(filtered)
+      const initialSelection = filtered[0] ?? data[0]
+      setSelectedDataset(initialSelection)
+      setSelectedTableRowIndex(0)
+      // Don't auto-fire onSelectDataset; the panel only reacts to user clicks.
       setIsLoading(false)
     })
   }, [locale])
@@ -119,11 +138,24 @@ const DatasetCorpusDownload = ({
                 onRowSelect={handleRowSelect}
                 releaseData={languageDatasets}
                 selectedId={selectedDataset?.id || languageDatasets[0].id}
+                showAllDownloads={showAllDownloads}
+                onToggleShowAllDownloads={() =>
+                  setShowAllDownloads(prev => !prev)
+                }
               />
             )}
 
             {!isLoading && languageDatasets && (
-              <MobileDatasetMetadataViewer releaseData={languageDatasets} />
+              <MobileDatasetMetadataViewer
+                releaseData={languageDatasets}
+                selectedId={selectedDataset?.id ?? null}
+                onSelect={selectedId => {
+                  const index = languageDatasets.findIndex(
+                    d => d.id === selectedId
+                  )
+                  if (index >= 0) handleRowSelect(selectedId, index)
+                }}
+              />
             )}
 
             {selectedDataset && selectedDataset.download_path && (

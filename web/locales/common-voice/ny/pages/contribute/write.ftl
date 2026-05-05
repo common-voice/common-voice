@@ -1,15 +1,15 @@
 ## WRITE PAGE
 
-write = Lemba
+write = Lembani
 write-instruction = Onjezani <icon></icon> chiganizo cha public domain
 write-page-subtitle = Ziganizo zomwe zaperekedwa pano ziwonjezedwa ku deta yovomerezeka ya cc-0 yomwe ikupezeka poyera.
 sentence =
-    .label = Chiganizo
+    .label = chiganizo
 sentence-input-placeholder = Lowetsani chiganizo chanu cha public domain apa
 small-batch-sentence-input-placeholder = Lowetsani ziganizo zanu zachinsinsi apa
 citation-input-placeholder = Tchulani komwe kwachokera chiganizo chanu (chofunikira)
 citation =
-    .label = Kutchula
+    .label = tchulani
 sc-write-submit-confirm = Ndikutsimikiza kuti chiganizochi ndi <wikipediaLink>public domain</wikipediaLink> ndipo ndili ndi chilolezo chochikweza.
 sc-review-write-title = Ndi ziganizo ziti zomwe ndingawonjezere?
 sc-review-small-batch-title = Momwe mungawonjezere ziganizo zambiri

@@ -126,6 +126,7 @@ about-playbook-how-grow-language-content-4 = سوشل میڈیا
 about-playbook-how-grow-language-content-5 = څھوْس پیغام اُڇِھیونے کِرِیا سوشل میڈیا فارم استعمال تھوبانَت۔ ادی پوسٹے اشتراک تِھیا کھاݩس دہ آ پشیجانیْ چہ  آ کیْہ اہمِن، آ جِبے حقوق، وائس اے آئی، یا ٹیک دہ تعصب ہا مسائلو بارَد موْݜ کال تھین جگو سے رابطہ تِھیا۔ شناک گہ مشورائے کِرِیا ڇکِیا <campaignLink>آں اسہ مواد گہ کھاں څھوْس ست دوبار استعمال تھوبانَت۔</campaignLink>
 about-playbook-how-grow-language-content-6 = شراکت داری گہ نٹ ورکس
 about-playbook-how-grow-language-content-7 = اسہ جک اوروڑ تِھیا کھاݩس تصور تھینَن۔ ییݨو مجیْ یونی ورسٹی، جِبو اسکولیْ، وکیلو گروپی یا ڈیٹا سائنس قامے جک بوبانَن۔ سیݨودیْ اُڇھی سم شان گیْ وضاحت تِھیا چہ کاتھ سیݨے امداد تھوبانَت آں کیْہ۔ <outreachTemplates>  اسے ٹیمپلیٹ آؤٹ ریچ ای میلز ڇکِیا </outreachTemplates>
+about-playbook-how-grow-language-content-8-v2 = تخلیقی سَنِجہ!</strong>  څھے جِبے کمیونٹی لئی منفرد بُو، آ شِناکَک کوئے کوئے طریقائین کھاں گلہ دون دہ څھوڑ مِݜٹان۔ مہربانی تھے توموْ کمیونٹی چینلوڑ  <communitiesLink>GitHub  جی موجود COMMUNITIES.md دستاویز</communitiesLink> ٹل تھون غور تِھیا۔
 
 ## How to validate
 

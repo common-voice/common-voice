@@ -5,6 +5,8 @@ dataset-label = Mba’ekuaarã aty
 accept-vote-toast-message = Porandu ñemoneĩmbyre
 reject-vote-toast-message = Porandu oñemboykéva hekopete
 add-vote-error-message = Oiko jejavy evotakuévo pe mba’ejerure rehe
+# Message which appears when there are no more resources on this page
+no-questions-continue-skipped-message = Ndaiporivéima porandu ko ñe’ẽme g̃uarã. Oiméramo repo peteĩva, ikatu eku’e jey tetepy ñomíva térã ehaívo mba’epukue ha eha’ã jey upe rire.
 validate-page-yes-button-shortcut = Y
 validate-page-no-button-shortcut = N
 validate-page-skip-button-shortcut = S

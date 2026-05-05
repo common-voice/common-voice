@@ -21,8 +21,10 @@ validate-readings-coming-soon = Әйтелешне тикшерү <small>(Тиз
 
 listen-contribute-menu-tooltip = Әйтелешне тикшерү, транскриптларны тикшерү
 validate-readings-menu-item-tooltip = Кулланучылар телегездә ничек сөйләгәннәрен тикшерегез
+review-transcriptions-menu-item-tooltip = Кулланучылар сезнең телегездә керткән транскипцияләрне тикшерегез
 
 ## MENU ITEM ARIA LABELS
 
 listen-contribute-menu-aria-label = Тыңлау көйләүләре менюсы
 validate-readings-menu-item-aria-label = Берләшмә катнашучылары җибәргән әйтелешләрне тикшерү
+review-transcriptions-menu-item-aria-label = Яздырылган сөйләмнәрнең транскрипция дөреслеген тикшерегез
