@@ -22,3 +22,7 @@ demo-account-card-body = လပါ်ပုၚ်ဏအ် ပိုဲထ္ၜ
 demo-account-enter-email =
     .label = သွက်ဂွံကလိဂွံ လေၚ် ကၠောန်အကံက်ဂှ် တက်စုတ် အီမေဲလ် ညိ
 demo-account-sign-up = ပလံၚ် လၚ် ကၠောန်အကံက်
+
+## Demo Contribute
+
+demo-contribute-card-header = သွက်ဂွံ ပၠောပ်ရမျာၚ် ဟွံသေၚ်မ္ဂး ကလၚ်စၟဳစၟတ်ဂှ် တုဲဒှ်ရဟာ?
