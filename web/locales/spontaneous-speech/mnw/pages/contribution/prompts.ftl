@@ -16,6 +16,7 @@ error-empty-audio = ပရေၚ်ပၠောပ်ရမျာၚ်ဂှ်
 error-platform-webview = ဗရံက်ဇြာဏံ ပၠောပ်ရမျာၚ် ဟွံသၟဟ်အစောန်ရ။ သုၚ်စောဲ အာပ် ဗရံက်ဇြာ မဍိုက်ပေၚ်ဂှ်ညိ။
 error-recording-too-short-seconds = ရမျာၚ်ပၠောပ်ဂှ် ဂၠေံလောန်အာရ။ ဗၞတ်အခိၚ်အောန်အိုတ်ဂှ် ဒးဒှ် { $minDurationSeconds } စက္ကရောၚ်။
 error-recording-too-long-minutes = ရမျာၚ်ပၠောပ်ဂှ် ဂၠိၚ်လောန်အာရ။ ဗၞတ်အခိၚ်ဂၠိုၚ်အိုတ်ဂှ် ဒးဒှ် { $maxDurationMinutes } မိနေတ်ရ။
+cannot-play-audio = ပံက်ရမျာၚ်ဟွံဂွံရ။ ထပ်ဂ္စါန်မွဲဝါပၠန်ညိ။
 prompt-submitted-success = ပတိုန် သွဟ် တုဲဒှ်အာ ဗွဲမအံၚ်ဇၞးရ။
 prompt-response-deleted-success = ဇိုတ်ထောံ သွဟ် တုဲဒှ်အာ ဗွဲမအံၚ်ဇၞးရ။
 # For the button to delete a response to a prompt
@@ -28,4 +29,10 @@ submit-all-button = ပတိုန်သီုဖအိုတ်
 ## Explainer text (Respond to Prompt)
 
 learn-how-to-use-prompts = ကတ်လ္ၚတ်ဗီုပြၚ်ဂွံစကာသုၚ်စောဲမုက်လိက်ဏံညိ။
+learn-how-to-use-prompts-explanation = ညံၚ်ဂွံစှ်ေဗွဲသဘာဝကဵု တၚ်စၞောန်ဂှ် ကလေၚ်သွဟ်ကဵု ၜါပိဝါကျ  အိုတ်ညိ။ အရေဝ်ဝေါဟာမၞးသုၚ်စောဲဂှ် ညံၚ်ဂွံဒှ် အရေဝ်ဝေါဟာ မနွံတဴကဵု ဓဝ်ရှ်ေသှ်ေ ကေုာံ ဓဝ်ရာၚ်ဆာဲတအ်ညိ။
+learn-how-to-use-prompts-guidance = သွက်ဂွံလ္ၚတ်အာဗီုဂွံပြၚ်စကာသုၚ်စောဲမုက်လိက်ဏံဂှ် ဍဵု <guidanceLink>ဒၞာဲဏံ</guidanceLink> ညိ။
+learn-how-to-use-transcribe = ကတ်လ္ၚတ်အာဗီုပြၚ်ဂွံချူပတိတ်ရမျာၚ်
+learn-how-to-use-transcribe-explanation = အတိုၚ်ညးမဟီုလဝ်ဂှ်ချူစုတ်ညိ ပါလုပ် သီုကဵု မအရေဝ်ဗပေၚ်လဒေါဝ် ဗီုကဵု 'အဝ်'၊ ဟွံသေၚ်မ္ဂး 'အေ' တအ်ကီုညိ။
+learn-how-to-use-transcribe-guidance = သွက်ဂွံလ္ၚတ်အာဗီုဂွံပြၚ်စကာသုၚ်စောဲမုက်လိက်ဏံဂှ် ဍဵု <guidanceLink>ဒၞာဲဏံ</guidanceLink> ညိ။
+learn-how-to-use-check-transcript = ကတ်လ္ၚတ်အာ ဗီုပြၚ်ဂွံစၟဳစၟတ် လိက်မချူပတိတ်နူရမျာၚ်
 learn-how-to-use-check-transcript-guidance = သွက်ဂွံလ္ၚတ်အာဗီုဂွံပြၚ်စကာသုၚ်စောဲမုက်လိက်ဏံဂှ် ဍဵု <guidanceLink>ဒၞာဲဏံ</guidanceLink> ညိ။
