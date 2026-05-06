@@ -1,9 +1,11 @@
 # GUIDELINES PAGE
 guidelines-header = Malangizo Othandizira
+guidelines-header-subtitle = Mvetsetsani momwe mungathandizire ndikutsimikizira pa seti ya data ya Common Voice
 voice-collection = kusonkhanitsa Mawu
 sentence-collection = Kusonkhanitsa Ziganizo
 question-collection = Kusonkhanitsa Mafunso
 scripted-speech = zoyankhula zolembedwa
+spontaneous-speech = Kulankhula Mwachibadwa
 dont-subheader = Osachita
 
 ## Voice Collection nav ids
@@ -12,14 +14,23 @@ varying-pronunciations = kusiyanitsa kanenedwe
 misreadings = kuwerenga molakwika
 offensive-content = zokhumudwisa
 background-noise = phokoso lakumbuyo
+background-voices = phokoso lakumbuyo
 volume = voluyumu
+reader-effects = zotsatira za wowerenga
+just-unsure = sindikudziwitsitsa
 example = Chitsanzo
 
 ## Voice collection sidebar content
 
+varying-pronunciations-explanation-1 = Timalandira mawu osiyanasiyana! Samalani kwambiri musanakane kachidutswa kosonyeza kuti mukuganiza kuti wowerenga watchula mawu molakwika, waika chizindikiro pamalo olakwika, kapena wanyalanyaza zizindikiro. Pali mitundu yosiyanasiyana ya matchulidwe omwe amagwiritsidwa ntchito padziko lonse lapansi, ena mwa iwo omwe mwina simunawamve m'dera lanu. Chonde perekani chiyamiko chachikulu kwa iwo omwe angalankhule mosiyana ndi inu.
+varying-pronunciations-explanation-2 = Kumbali inayi, ngati mukuganiza kuti wowerenga sanapezepo mawuwo kale, ndipo akuganiza molakwika pa katchulidwe kake, chonde musawakane. Ngati simukudziwa, gwiritsani ntchito batani lodumpha.
 varying-pronunciations-example = Njirayo sinali yodziwika bwino.
 varying-pronunciations-tip-1 = [Chingerezi cha ku Canada chingapange "njira" kumveka ngati "rowt"]
 varying-pronunciations-tip-2 = [Chingerezi cha ku Britain chingapange "muzu"]
+offensive-content-explanation = Ziganizo zimayesedwa kudzera mu njira yowongolera anthu ammudzi, komabe njira imeneyi si yangwiro. Ngati muwona kapena kumva chiganizo chomwe chimakukhumudwitsani kapena kukukhumudwitsani - mwachitsanzo chifukwa chakuti chikuphwanya malangizo athu a <participationGuidelines>okhudza kutenga nawo mbali anthu ammudzi</participationGuidelines> - chonde gwiritsani ntchito batani la mbendera mu UI. Muthanso kulumikizana nafe pa <emailFragment>commonvoice@mozilla.com</emailFragment>.
+misreadings-explanation-1 = Kuwerenga mawu onse patsamba molondola n'kofunika. Mukamamvetsera, onetsetsani mosamala kuti zomwe zalembedwa ndi zomwe zalembedwa; musawakane ngati awonjezera, alemba mawu ofupikitsidwa kapena alephera.
+misreadings-explanation-2 = Zolakwika zomwe zimafala kwambiri ndi izi:
+misreadings-explanation-3 = Pakusowekera 'A' kapena 'The' koyambirira kwa kujambula.
 misreadings-explanation-4 = Kusowa 's' kumapeto kwa liwu.
 misreadings-explanation-5 = Kuwerenga mawu ofupikitsa omwe salipo kwenikweni, monga "Ife tili" m'malo mwa "Ife tili", kapena mosemphanitsa.
 misreadings-explanation-6 = kuphonyana ndi mawu akumapeto podula kutepa mwachangu kwambiri
