@@ -8,3 +8,7 @@ prompt-page-instruction = { $actionType } <micIcon></micIcon> ndipo yankhani mwa
 no-prompts-continue-skipped-message = Palibe mafunso ena okhudza chilankhulochi. Ngati mwasiya chilichonse, mutha kupitiriza ndi zomwe mwasiya kapena kupita kukalemba mawu ndikuyesanso pambuyo pake.
 error-skipping = Pakhala cholakwika podumpha/kusiya ndondomeko izi
 error-recording = Pachitika cholakwika pojambula
+error-recording-too-short = Kujambula ndi kochepa kwambiri. Nthawi yochepesesa ndi masekondi { $minDurationSeconds }.
+error-recording-too-long = Kujambula ndi kwakutali kwambiri. Kutalika kwakukulu ndi mphindi { $maxDurationMinutes }.
+error-fetching-prompts = chinthi chinachake chalakwika pamene tikutenga malangizo. chonde Yesaninso nthawi ina.
+error-uploading-response = Pakhala cholakwika potumiza yankho lanu

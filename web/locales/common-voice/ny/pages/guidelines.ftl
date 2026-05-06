@@ -1,3 +1,5 @@
+# GUIDELINES PAGE
+guidelines-header = Malangizo Othandizira
 voice-collection = kusonkhanitsa Mawu
 sentence-collection = Kusonkhanitsa Ziganizo
 question-collection = Kusonkhanitsa Mafunso

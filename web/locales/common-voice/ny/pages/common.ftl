@@ -4,7 +4,7 @@
 
 ## Languages
 
-aa = Chiafar
+aa = kutali
 aat = Arvanitika
 ab = Abkhaz
 abb = Bankon
