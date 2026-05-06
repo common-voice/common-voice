@@ -119,3 +119,10 @@ about-playbook-how-grow-language-content-8-v2 = ¡Sé creativo! Tu comunidad lin
 about-playbook-how-validate = ¿Cómo sé si debo aprobar un clip de voz?
 about-playbook-how-validate-content-1 = Si pudieras <strong>oírlos</strong> y <strong>entenderlos</strong>, lo mejor suele ser <strong>darles el visto bueno</strong>.
 about-playbook-how-validate-content-2 = <strong>No rechaces clips en los que el hablante "tenga un acento" diferente al tuyo</strong>: esto es importante para que el reconocimiento de voz funcione mejor para todos.
+about-playbook-how-validate-content-3 = Si crees que la pronunciación hace que sea <strong>imposible entenderlo</strong>, o hay <strong>mucho ruido de fondo</strong>, o hay <strong>otras personas hablando también</strong>, entonces debes rechazar el clip. <accuracyLink>Consulta más información en nuestros criterios de precisión</accuracyLink>.
+about-playbook-how-validate-content-4 = Si un clip es rechazado por dos personas, se publica en un subconjunto diferente del conjunto de datos.
+
+## How to access dataset
+
+about-playbook-how-access-dataset = ¿Cómo puedo acceder y utilizar el conjunto de datos?
+about-playbook-how-access-dataset-content-1 = Puedes ir a la página <datasetsPage>Conjunto de Datos</datasetsPage>, seleccionar la versión y el idioma o idiomas que desees y descargarlo. Los archivos tienen <metadataLink>metadatos asociados</metadataLink>, como información demográfica y datos de validación. Deberás proporcionar una dirección de correo electrónico para descargar el conjunto de datos.
