@@ -363,6 +363,7 @@ su = Soedaneesk
 sv-SE = Sweedsk
 sva = Svanetysk
 sw = Swahili
+swb = Shimaore
 syr = Syrysk
 szy = Sakizaya
 ta = Tamilsk
