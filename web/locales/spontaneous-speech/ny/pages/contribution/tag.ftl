@@ -14,6 +14,7 @@ tag-page-shortcut-tag-language-5 = 5
 tag-page-shortcut-remove-tags = 9
 remove-tags = Chotsani zizindikiro
 tag-page-shortcut-toogle-mouse-keyboard = 0
+toogle-mouse-keyboard = Tsegulani kapena kutseka zenera laling'ono
 tag-page-shortcut-tag-undo = Ctrl / CMD + Z
 undo = Sinthani
 tag-page-shortcut-select-all = A
@@ -21,6 +22,11 @@ select-all = Sankhani zonse
 # Messages
 tag-success-toast-message = Cholembedwa chatumizidwa bwino
 tag-error-toast-message = vuto potumiza ma tagi
+tag-empty-submit-error = Palibe uthenga woti mutumize. Chonde sakhani mawu ena kaye.
+# Code switching Guidelines
+cs-tag-do-guideline-1 = Gwiritsani ntchito kalembedwe kolondola
+cs-tag-do-guideline-2 = Gwiritsani ntchito katchulidwe kuti muthandize
+cs-tag-do-guideline-3 = Samalani ndi mawu ofanana m'maonekedwe
 cs-tag-shortcuts-section-title = Kugwiritsa ntchito kiyibodi
 cs-tag-shortcuts-guideline-1 = <key>1</key>-<key>{ $numLanguages }</key> Chizindikiro chokhala ndi chilankhulo
 cs-tag-shortcuts-guideline-2 = <key>{ tag-page-shortcut-toogle-mouse-keyboard }</key> { toogle-mouse-keyboard }
