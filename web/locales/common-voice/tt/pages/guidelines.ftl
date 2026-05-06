@@ -73,6 +73,7 @@ citing-sentences-explanation-1 = Чыганакларны күрсәтү бик 
 citing-sentences-subheader-websites = Веб-сайтлар
 citing-sentences-subheader-websites-explanation = Сез сайт билгели аласыз, мәсәлән: "Common Voice - https://commonvoice.mozilla.org/"
 citing-sentences-subheader-academic-reference = Академик өземтә китерү
+citing-sentences-subheader-academic-reference-explanation = Сез сылтамаларны цитаталау өчен академик стиль куллана аласыз, мәсәлән, Harvard style стилен: «Mozilla (2021) Common Voice. https://commonvoice.mozilla.org/ адресы буенча ирешелмәле. (Мөрәҗәгать итү датасы: 15 сентябрь 2021 ел.)»
 citing-sentences-subheader-offline-sources = Интернетта булмаган чыганаклар
 citing-sentences-subheader-offline-sources-explanation = Интернетта булмаган, ләкин иҗтимагый милектә булган текст өчен академик стильдәге сылтамаларны кулланырга була. Мәсәлән, Harvard style стилен: «Дҗесс (2021) Ачык лицензия астында минем шигырьләрем».
 citation =
