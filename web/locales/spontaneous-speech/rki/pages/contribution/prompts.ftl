@@ -22,9 +22,9 @@ prompt-response-deleted-success = တုံ့ပြန်ချက်ကို 
 # For the button to delete a response to a prompt
 delete = ဖျက်ပီးပါ
 # For the disabled button on a prompt that indicates a prompt is already submitted
-submitted = တင်သွင်းဗြီးပါဗျာလ်
+submitted = တင်ပီးဗြီးပါဗျာလ်
 # For the button on the Respond to prompts page which can be used to submit all responses at once
-submit-all-button = အားလုံးကို တင်သွင်းပီးပါ
+submit-all-button = အားလုံးကို တင်ပီးပါ
 
 ## Explainer text (Respond to Prompt)
 
