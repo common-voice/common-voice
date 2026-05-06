@@ -112,3 +112,10 @@ about-playbook-how-grow-language-content-4 = Redes sociales
 about-playbook-how-grow-language-content-5 = Puedes usar plataformas de redes sociales para difundir el mensaje. Comparte publicaciones que expliquen por qué es importante y contacta a otras personas que hablen sobre temas como los derechos lingüísticos, la inteligencia artificial de voz o el sesgo en la tecnología. Consulta más consejos sobre <campaignLink>cómo llevar a cabo una campaña social, incluyendo contenido que puedes reutilizar</campaignLink>.
 about-playbook-how-grow-language-content-6 = Alianzas y redes
 about-playbook-how-grow-language-content-7 = Encuentra a otras personas a las que les importe. Pueden ser universidades, escuelas de idiomas, grupos de apoyo o comunidades de ciencia de datos. Ponte en contacto con ellas y explícales claramente cómo pueden ayudar y por qué. <outreachTemplates>Consulta nuestras plantillas de correos electrónicos de divulgación</outreachTemplates>.
+about-playbook-how-grow-language-content-8-v2 = ¡Sé creativo! Tu comunidad lingüística será única, y estas son solo algunas maneras de empezar. Considera agregar los canales de tu comunidad al documento <communitiesLink>COMMUNITIES.md document en GitHub</communitiesLink>.
+
+## How to validate
+
+about-playbook-how-validate = ¿Cómo sé si debo aprobar un clip de voz?
+about-playbook-how-validate-content-1 = Si pudieras <strong>oírlos</strong> y <strong>entenderlos</strong>, lo mejor suele ser <strong>darles el visto bueno</strong>.
+about-playbook-how-validate-content-2 = <strong>No rechaces clips en los que el hablante "tenga un acento" diferente al tuyo</strong>: esto es importante para que el reconocimiento de voz funcione mejor para todos.
