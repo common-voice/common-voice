@@ -153,13 +153,13 @@ add-sentences-menu-item-tooltip = စာကြောင်းတိ ထည့်
 review-sentences-menu-item-tooltip = စာကြောင်းတိကို ပြန်သုံးသပ်ပါ
 add-questions-menu-item-tooltip = မေးခွန်းတိ ထည့်ပါ
 review-questions-menu-item-tooltip = မေးခွန်းတိ ပြန်သုံးသပ်ပါ
-transcribe-audio-menu-item-tooltip = အသံမှတ်တမ်းတိ သွင်းယူပါ
+transcribe-audio-menu-item-tooltip = အသံမှတ်တမ်းတိကို စာနန့် ရီးပီးပါ
 
 ## MENU ITEM ARIA LABELS
 
 write-contribute-menu-aria-label = ရီးဖို့ စိတ်ကြိုက်ရွီးစရာ မီနူး
-add-sentences-menu-item-aria-label = အသိုင်းအဝိုင်း ဖတ်ရှုနိုင်ဖို့ စာကြောင်းအသစ်တိ ထည့်ပါ
+add-sentences-menu-item-aria-label = ရခိုင်အသိုင်းအဝိုင်း ဖတ်နိုင်ဖို့ စာကြောင်းအသစ်တိ ထည့်ပါ
 review-sentences-menu-item-aria-label = အသိုင်းအဝိုင်းက တင်သွင်းထားယေ ဟိပြီးသား စာကြောင်းတိကို ပြန်သုံးသပ်ပီးပါ
-add-questions-menu-item-aria-label = အသိုင်းအဝိုင်းက ဖတ်ရှုပနာ တုံ့ပြန်နိုင်ဖို့အတွက် မေးခွန်းအသစ်တိ တင်သွင်းပီးပါ
+add-questions-menu-item-aria-label = အသိုင်းအဝိုင်းက ဖတ်ပနာ တုံ့ပြန်နိုင်ဖို့အတွက် မေးခွန်းအသစ်တိ တင်သွင်းပီးပါ
 review-questions-menu-item-aria-label = အသိုင်းအဝိုင်းက တင်သွင်းယေ မေးခွန်းအသစ်တိကို ပြန်သုံးသပ်ပနာ မဲပီးပါ
 transcribe-audio-menu-item-aria-label = အသံသွင်းချက်တိကို စာသားအဖြစ် ပြောင်းပီးပါ
