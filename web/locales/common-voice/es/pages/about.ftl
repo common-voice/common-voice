@@ -126,3 +126,22 @@ about-playbook-how-validate-content-4 = Si un clip es rechazado por dos personas
 
 about-playbook-how-access-dataset = ¿Cómo puedo acceder y utilizar el conjunto de datos?
 about-playbook-how-access-dataset-content-1 = Puedes ir a la página <datasetsPage>Conjunto de Datos</datasetsPage>, seleccionar la versión y el idioma o idiomas que desees y descargarlo. Los archivos tienen <metadataLink>metadatos asociados</metadataLink>, como información demográfica y datos de validación. Deberás proporcionar una dirección de correo electrónico para descargar el conjunto de datos.
+about-playbook-how-access-dataset-content-2 = Si estás buscando herramientas para crear modelos de reconocimiento automático de voz, puedes conectarte con otras personas de la comunidad <discourseLink>en Discourse</discourseLink>.
+
+## How are decisions made
+
+about-playbook-how-project-governance = ¿Cómo se toman las decisiones sobre los proyectos?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice es posible gracias a una comunidad diversa de activistas, lingüistas, científicos de datos, académicos e ingenieros de software de todo el mundo. El proyecto está gestionado por la Fundación Mozilla.
+about-playbook-how-project-governance-content-2 = Nuestra gestión se basa en los siguientes pilares:
+about-playbook-how-project-governance-content-3 = Privacidad, seguridad y transparencia.
+about-playbook-how-project-governance-content-4 = Participación comunitaria y toma de decisiones.
+about-playbook-how-project-governance-content-5 = Valor y reconocimiento.
+about-playbook-how-project-governance-content-6 = Responsabilidad mutua.
+about-playbook-how-project-governance-content-7 = <governanceLink>Más información sobre cómo nos gobernamos</governanceLink>
+
+## How is Common Voice funded
+
+about-playbook-how-funded = ¿Cómo se financia Common Voice?
+about-playbook-how-funded-content-1 = Common Voice es un proyecto de la Fundación Mozilla, una organización estadounidense 501c3. Actualmente, el proyecto se financia íntegramente mediante <philantropicGrantLink>subvenciones filantrópicas</philantropicGrantLink> y donaciones de personas de todo el mundo.
+about-playbook-how-funded-content-2 = Cuesta mucho dinero alojar y publicar continuamente los conjuntos de datos, en conjunto con mejorar la plataforma y ejecutar <africaMradiLink>programas comunitarios</africaMradiLink>.
+about-playbook-how-funded-content-3 = Si usted o su organización desean contribuir al proyecto, pueden realizar una <donateLink>donación</donateLink> o ponerse en contacto con nuestro equipo de colaboraciones en <emailFragment>commonvoice@mozilla.com</emailFragment>.
