@@ -36,3 +36,80 @@ x-weeks-short =
         [one] sabata
        *[other] zina
     }
+x-months-short =
+    { $count ->
+        [one] { $count }mo
+       *[other] mwezi { $count }
+    }
+x-years-short =
+    { $count ->
+        [one] mwezi { $count }
+       *[other] { $count }y
+    }
+help-make-dataset = Tithandizeni kupanga deta yapamwamba komanso yopezeka paliponse poyera
+sign-up-account = Lembetsani dzina lanu kuti mukhale ndi akaunti
+email-subscription-title-v3 = Lembetsani kuti muzilandira nkhani zatsopano kuchokera ku Common Voice komanso Mozilla Foundation
+
+## Account Benefits
+
+benefits = Phindu
+rich-data = Thandizani kuti zotsatira za ntchitoyi zikhale zozama mwa kutipatsa zidziwitso zina za inu popanda kutchula dzina lanu. Timachotsa zidziwitso zonse zomwe zingadziwitse anthu za inu tisanatulutse zotsatirazi ku gulu la anthu ena.
+improve-audio = Chidziwitso cha mbiri yanu chimawongolera deta ya mawu yomwe imagwiritsidwa ntchito pophunzitsa kuzindikira mawu molondola.
+keep-track = Yang'anirani kupita patsogolo kwanu ndi ziwerengero zanu m'zilankhulo zosiyanasiyana.
+compare-progress = Onani momwe kupita patsogolo kwanu kukufananira ndi kwa ena omwe apereka chithandizo padziko lonse lapansi.
+view-goals = Onani kupita chitsogolo chanunu poyerekeza ndi zolinga zanu komanso za polojekiti yanu.
+join-newsletter = Ngati mukufuna, lowani nawo pamndandanda wathu wa imelo kuti mupeze zosintha ndi zambiri zatsopano zokhudza polojekitiyi.
+
+## What's public
+
+whats-public = pagulu chiyani?
+email-not-public = Sitidzalengeza imelo yanu ku gulu la athu.
+recordings-and-locale-public = Chiwerengero cha zojambulidwa ndi zilankhulo zomwe mungaperekerepo chidzakhala cha anthu onse.
+username-optin-public = Mutha kusankha kuti dzina lanu  likhale lodziwika kapena losadziwika.
+demographic-deidentified-clarity-2 = Zidziwitso zina zomwe mungasankhe kutipatsa (monga zaka, mwamuna kapena mkazi, chilankhulo, komanso m’mene mumalankhulira) sizidzaonetsedwa pa mbiri yanu (profile), ndipo sizidzalumikizidwa ndi dzina lanu m'nkhokwe ya zotsatirazi. Mawu aliwonse omwe mwajambula adzalumikizidwa ndi zidziwitsozi pofuna kuthandiza ofufuza; mwachitsanzo, wofufuza akhoza kufuna kupanga makina omwe amadziwa bwino kalankhulidwe ka gulu linalake la anthu.
+username-email-not-demographic = Dzina lanu lolowera ndi imelo sizidzagwirizanitsidwa ndi deta yofalitsidwa.
+
+## Landing
+
+welcome-staff = Takulandirani antchito a { $company }!
+help-contribute = Mungathandize kupanga deta yosiyana siyana komanso yotseguka mwa kupanga mbiri ya Common Voice ndikupereka mawu anu.
+login-company = Lowani / Lembetsani pogwiritsa ntchito imelo ya { $company }
+profile-not-required = Sikofunika kwambiri kukhala ndi mbiri (profile) kuti muthandize, koma kukhala nayo n’kopindulitsa. Onani chifukwa chake m’munsimu
+read-more-about = Werengani zambiri patsamba lathu
+
+## NAV ITEMS
+
+answer-questions = Yankhani Mafunso
+review-transcriptions = Onaninso  zolembedwa
+add-questions = Wonjezelani mafunso
+review-questions = onanisso mafunso kachikena
+transcribe-audio = kusandutsa mawu
+press-and-stories = Atolankhani ndi Nkhani
+community-and-languages = mudzi ndi zilankhulo
+about-us = Zambiri zaife
+scripted-speech = Zolankhula zolembedwa
+spontaneous-speech = KULANKHULA MWACHIDULE
+
+## MENU ITEMS TOOLTIPS
+
+about-menu-tooltip = Mgwirizano, Atolankhani ndi Nkhani, Gulu ndi Zilankhulo
+about-us-menu-item-tooltip = Dziwani zambiri za cholinga ndi gulu lomwe lili kumbuyo kwa Common Voice
+partnerships-menu-item-tooltip = Fufuzani mabungwe omwe akuthandiza Common Voice padziko lonse lapansi
+press-and-stories-menu-item-tooltip = Werengani nkhani, nkhani za nyuwani, ndi nkhani zofalitsidwa ndi Common Voice
+community-and-languages-menu-item-tooltip = Lumikizanani ndi gulu lathu ndipo muwone zilankhulo zomwe zikuthandizidwa
+
+## MENU ITEM ARIA LABELS
+
+about-menu-aria-label = Menyu kuti mupeze Mgwirizano, Nkhani ndi Nkhani, Anthu ndi Zilankhulo
+about-us-menu-aria-label = Lembani menyu ya zosankha
+about-us-menu-item-aria-label = Lembani menyu ya zosankha
+partnerships-menu-item-aria-label = Dziwani zambiri za mgwirizano ndi Common Voice
+press-and-stories-menu-item-aria-label = Pezani nkhani za atolankhani komanso nkhani zina zokhudzana ndi Common Voice
+community-and-languages-menu-item-aria-label = Fufuzani anthu ammudzi ndi zilankhulo zomwe zimathandizidwa ndi Common Voice
+
+## Hero section
+
+hero-title = Ukadaulo  wa tekinologe wolankhula chilankhulo chanu
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = Chifukwa chiyani AI iyenera kugwira ntchito m'zilankhulo zochepa chabe padziko lonse lapansi?
+hero-subtitle-2 = Chilankhulo chathu ndi nkhani yathu, dera lathu, ndi chikhalidwe chathu. Tiyeni tipange ma data omwe tikufuna kuwaona padziko lonse lapansi.
