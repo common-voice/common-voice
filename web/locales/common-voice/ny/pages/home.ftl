@@ -86,6 +86,7 @@ review-questions = onanisso mafunso kachikena
 transcribe-audio = kusandutsa mawu
 press-and-stories = Atolankhani ndi Nkhani
 community-and-languages = mudzi ndi zilankhulo
+coming-soon = kubwera posachedwa
 about-us = Zambiri zaife
 scripted-speech = Zolankhula zolembedwa
 spontaneous-speech = KULANKHULA MWACHIDULE
@@ -113,3 +114,67 @@ hero-title = Ukadaulo  wa tekinologe wolankhula chilankhulo chanu
 # Text wrapped in <bold></bold> will be shown in bold font
 hero-subtitle-1 = Chifukwa chiyani AI iyenera kugwira ntchito m'zilankhulo zochepa chabe padziko lonse lapansi?
 hero-subtitle-2 = Chilankhulo chathu ndi nkhani yathu, dera lathu, ndi chikhalidwe chathu. Tiyeni tipange ma data omwe tikufuna kuwaona padziko lonse lapansi.
+# icon is an arrow that points downwards
+get-started = Yambani <icon><icon>
+
+## Action items section
+
+action-items-section-title = Common Voice ndi nsanja yaulere komanso yotseguka yopangira deta yotsogozedwa ndi anthu ammudzi
+action-items-section-subtitle = Aliyense akhoza kusunga, kutsitsimutsa ndi kukweza chilankhulo chake mwa kugawana, kupanga ndi kusunga deta ya zolemba ndi mawu.
+scripted-card-header = zoyankhula zolembedwa
+scripted-card-content = Werengani ziganizo mokweza m'chinenero chanu ndipo perekani chithandizo ku deta yosiyana kwambiri yolankhulira anthu padziko lonse lapansi.
+spontaneous-card-header = Kulankhula Mwachibadwa
+spontaneous-card-content = Yankhani mafunso kuti mupange ma dataseti a nkhani zachikhalidwe komanso zolankhulidwa. Zabwino kwambiri pa zilankhulo zolankhulidwa ndi anthu oyamba.
+language-text-card-header = Zolemba za Chilankhulo
+language-text-card-content = Pangani kapena gawani mawu ofunikira pagulu, ziganizo, ndi mawu omasuliridwa, zitsanzo zazing'ono za zilankhulo, ndi zina zambiri.
+coming-soon = kubwera posachedwa
+add-text = Onjezani Malemba
+answer = Yankho
+
+## Community section
+
+community-section-title-202601 = Yoyendetsedwa ndi magulu apadziko lonse lapansi, ya magulu apadziko lonse lapansi — zilankhulo 290 ndipo ikukula!
+join-discord-community = Lowani nawo Gulu la Discord
+# label for button
+join-discord-community-action = Tigwirizaneni pa Discord
+join-discord-community-content = Tengani nawo mbali pazokambirana za anthu olankhula chinenero china, funsani mafunso, ndipo phunzirani za zochitika ndi nkhani zomwe zikubwera.
+find-us-on-matrix = Tipezeni pa Matrix
+find-us-on-matrix-content-v2 = Matrix ndi njira yopepuka komanso yotseguka yoyankhulirana pomwepomwa yomwe Mozilla imakonda kuigwiritsa ntchito. Tili m'chipinda chotchedwa 'common-voice:mozilla.org
+# label for button
+find-us-on-element-action-1 = Chinthu
+find-us-on-matrix-action-2 = Makasitomala Ena
+ask-mozilla-share = Pemphani Mozilla kuti igawane zochitika zanu
+ask-mozilla-share-content = Kodi muli ndi chochitika cham'mbuyomu kapena chomwe chikubwera? Gawani nafe ndipo tidzachilengeza kwa anthu ammudzi mwathu kapena kulemba blog yokhudza icho!
+# label for button
+ask-mozilla-share-action = Gawiraniko ena za mwambo wanu
+download-contribution-certificate = Tsitsani satifiketi yanu ya thandizo
+download-contribution-certificate-content = Tsitsani satifiketi ya mwambo wanu kapena yanu inu mwini ngati mwatenga nawo mbali pa Common Voice — izi sizikadapangika popanda thandizo lanu!
+# label for button
+download-contribution-certificate-action = Tengani satifiketi yanu
+contribute-github = Thandizani pa  makina GitHub
+contribute-github-content = Ntchitoyi siikadapita patsogolo popanda anthu monga inu. 🎉 Pali njira zambiri zomwe mungatengere nawo mbali pa Common Voice — sikofunika kuti mukhale katswiri wa makompyuta kuti muthandize!
+# label for button
+contribute-github-action = Thandizani pa GitHub
+
+## Featured section
+
+featured-section-title = Zowonetsedwa mu...
+# icon is an arrow that points downwards
+download-press-pack = Tsitsani phukusi lathu la atolankhani <icon></icon>
+
+## Developers section
+
+developers-section-title = Ma data a mawu otseguka omwe amapezeka pagulu m'zilankhulo zoposa 130
+developers-section-subtitle = Ma data a ASR, STT, TTS, ndi zina zokhudzana ndi NLP - adapangidwa kudzera mu kutenga nawo mbali kwa anthu ammudzi.
+# icon is an arrow that points to the right
+explore-datasets = Fufuzani ma dataseti <icon></icon>
+
+## Get involved section
+
+get-involved-section-title = Thandizani ma data poyela, otsogozedwa ndi anthu ammudzi
+read-sentences-link = Werengani ziganizo.
+validate-readings-link = Tsimikizani Mawerengedwe
+contribute-link = Thandizani ku corpus yolemba
+answer-questions-link = Yankhani mafunso
+transcribe-answers-link = Lembani mayankho
+review-transcriptions-link = Unikani zolemba
