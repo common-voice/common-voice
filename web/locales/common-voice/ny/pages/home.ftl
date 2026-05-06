@@ -178,3 +178,19 @@ contribute-link = Thandizani ku corpus yolemba
 answer-questions-link = Yankhani mafunso
 transcribe-answers-link = Lembani mayankho
 review-transcriptions-link = Unikani zolemba
+contribute-text-link = Perekani mawu
+press-and-stories-link = Atolankhani ndi nkhani
+
+## Partner section
+
+partner-section-title = Gwirizanani nafe
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = Makampani aukadaulo <bold></bold> - yika ndalama popanga deta yotseguka kuti pakhale njira yolumikizirana ya AI ya zilankhulo zambiri
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Mabungwe a anthu wamba ndi ofufuza</bold> - pangani, sungani ndikugawana ma data opindulitsa mwaulele
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Uthandizi wachifundo</bold> - kuthandizira (kuthandiza ndi ndalama) kupanga dataset kuti zilimbikitse luso la m’dera ndi chitukuko
+# icon is an arrow that points to the right
+get-in-touch-button = Lumikizanani nafe <icon></icon>
+# Partners section
+our-partners-include = Ogwirizana nafe akuphatikizapo...
