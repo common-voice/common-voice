@@ -127,3 +127,6 @@ contribution-varying-pronunciations-description-extended = မွဲသာ်ပ
 contribution-varying-pronunciations-example-1-title = ပ္ဍဲက္ဍိုပ်ညး ညးဓလဝ်လဝ် ဗေရက် (ခမံက်ဒစေၚ်) ရ။
 contribution-varying-pronunciations-example-1-explanation = [‘ဗေရက်’ (ခမံၚ်စေၚ်) ဂှ် စွံရမျာၚ်ဇြိုၚ် ပ္ဍဲမအက္ခရ်ကၠာ (UK) ဟွံသေၚ်မ္ဂး မအက္ခရ်ဒုတိယ (US) လေဝ် ဂွံဒၟံၚ်ရ]
 contribution-varying-pronunciations-example-2-title = တဲညးဂှ် ပစူ-ပ္တိုန်လဝ်ရ။
+contribution-varying-pronunciations-example-2-explanation = [ပ္ဍဲ ဘာသာအၚ်္ဂလိက် ‘ပစူ-ပ္တိုန်လဝ်’ ဂှ် ဇၟာပ်အခိၚ်ဒးပတိတ် မွဲရမျာၚ်ဟေၚ်၊ ၜါရမျှာၚ် ဟွံသေၚ်ရောၚ်]
+contribution-background-noise-title = ရမျာၚ် လက္ကရဴ
+contribution-background-noise-description = ပိုဲမိက်ဂွံကဵု လၟေၚ်အခိုက်နဲကဲ စက်ဗ္တောန်တအ် ညံၚ်ဂွံ ဒုၚ်ဒဝ် ရမျာၚ်လ္ပာ်လက္ကရဴ နာနာသာ်မာန်ရ။ ယဝ်ခါရ ရမျာၚ်တအ်ဂှ် ဟွံကၟာတ်လဒဵု ညံၚ်ဟွံဂွံမိၚ် အလုံမွဲကလေပ်ဂှ်မ္ဂး၊ ရမျာၚ် မညာန်ထတ်တအ်ဂှ်လေဝ် ဒုၚ်တဲမာန်ရ။ ရမျာၚ်ဒွက် လက္ကရဴ သာသာဂှ် ဒုၚ်တဲမာန်ရ၊ ဆဂး ရမျာၚ်ဒွက် ထတ်ထတ် မကၟာတ်လဒဵုထောံ ညံၚ်ဟွံဂွံမိၚ်ဇၟာပ်ပ်မအရေဝ်တအ်ဂှ်မ္ဂး ဒုၚ်တဲ ဟွံဂွံရ။
