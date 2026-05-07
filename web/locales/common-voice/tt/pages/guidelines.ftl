@@ -120,6 +120,7 @@ length = Озынлык
 length-explanation = Сорауга бер-ике җөмлә белән җавап бирерлек булырга тиеш.
 dont-add-subheader = Шуларны өстәмәгез
 culturally-specific-questions = Мәдәнияткә хас сораулар
+length-avoid-explanation = 15 секунд эчендә (клипның максималь озынлыгы) җавап бирү авыр булган сораулар
 process-steps = Процесс / адымнар
 offensive-content-sensitive-information = Мыскыллаучы эчтәлек яки тыелган мәгълүмат
 offensive-content-sensitive-information-explanation-explanation-2 = Нәфрәт сөйләме яисә башка бер яклы яки мыскыллаучы фикерләр тудыра алган сораулар
