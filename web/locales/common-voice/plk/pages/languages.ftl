@@ -9,6 +9,7 @@ language-section-launched = لانچ بِلیْ
 language-section-launched-description = آ لانچ تِھیلیْ جِبو ویب سائٹ کامیابی گیْ چلِیجانیْ <localizationGlossaryLink>مقامی </localizationGlossaryLink> آں لئی نیْ <sentenceCollectionGlossaryLink> ٹول بِلہ جُلمائے </sentenceCollectionGlossaryLink> جاری تھونے اجازہ دونے کِرِیا <speakLink> سپیک </speakLink> آں <listenLink> کوْݨ دِیا </listenLink> شراکتہ
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
 language-section-last-updated = آخری اپ ڈیٹس { $lastUpdatedTimeStamp }
+language-communities = مہربانی تھے تومی کمیونٹی چینل ٹل تھونے کِریِا آئے لنک<communitiesLink> دہ گیے کمیونٹی ایم ڈی ڈاکومنٹ گِٹ ہب</communitiesLink> دہ لنک تِھیا۔
 languages-show-more = شِنا مُتیْ ڇکِیا
 languages-show-less = اپیْ ڇکِیا
 language-meter-in-progress = پروگریس
