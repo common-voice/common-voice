@@ -60,9 +60,18 @@ success = အံၚ်ဇၞး
 continue = ဆက်အာ
 report-success = ပလံၚ်ဗစိုပ် တၚ်နၚ်ပ္တိုန်ထ္ၜး တုဲဒှ်အာဗွဲမအံၚ်ဇၞးရ။
 
+## Speak & Listen Shortcuts
+
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = s
+
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = r
 shortcut-record-toggle-label = ပၠောပ်ရမျာၚ် / ဒေါံ
+shortcut-rerecord-toggle = [၁-၅]
 shortcut-rerecord-toggle-label = ကလေပ်ပၠောပ် ကလေပ်
 shortcut-discard-ongoing-recording = တိတ်
 shortcut-discard-ongoing-recording-label = တးပါဲထောံ ရမျာၚ်ပၠောပ်ဒၟံၚ်လၟုဟ်
@@ -73,7 +82,16 @@ request-language-button = အာတ်မိက်ဘာသာညိ။
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
 shortcut-play-toggle-label = ပံက် / ကၟာတ်
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
 
 ## Validation criteria
 
