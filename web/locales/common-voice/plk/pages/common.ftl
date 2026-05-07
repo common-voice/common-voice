@@ -503,6 +503,11 @@ announcement-mdc-button-aria-text = نوں ٹیب دہ پتوڑ تِھیا
 # Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
 announcement-release-delay = رزالیْ کمیونٹی، بیُس فی الحال ریلیزِجیْ کوْم تھوݨَس۔ اسے ڈاڈِن چہ ایئن دیزو مجی آئے <mdcLink>Mozilla Data Collective</mdcLink> مرحلہ وار جاری تِھجبوٰ۔
 
+## Release Announcement
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release = عزتمند کمیونٹی ڙاروئے چیئے نئی ریلیز تام شان گیْ <mdcLink>Mozilla Data Collective</mdcLink> جیْ موجودِن (ہشِینیْ)۔ 500 شلوجیْ بسکہ عالمی ڈیٹا سیٹس بُجَیش اُڇھونے کِرِیا اسو سے ٹل بِیا، کھاں کمیونٹی ذریعہ گیْ آں کمیونٹی کِرِیا سنجِلان۔
+
 ## Common Language/Dataset Selector & SearchBox Related
 
 # Generic search box defaults
