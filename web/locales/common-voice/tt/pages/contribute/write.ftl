@@ -140,7 +140,7 @@ small-batch-response-message =
 small-batch-sentences-rule-2 = Бер юлга бер җөмлә өстәү
 small-batch-sentences-rule-3 = Җөмләләрне берәмләп аерым юлларга бүлегез. Моның өчен бер тапкыр «Enter» яки «Return» төймәсенә басыгыз.
 small-batch-sentences-rule-4 = 1000 кадәр җөмлә өстәү
-small-batch-sentences-rule-5 = Барлык җөмләләр бер үк домендан булырга тиеш
+small-batch-sentences-rule-5 = Барлык җөмләләр бер үк доменнан булырга тиеш
 small-batch-sentences-rule-6 = Барлык җөмләләрдә бер үк цитаталау булырга тиеш
 # menu item
 add-sentences = Җөмләләр өстәү
