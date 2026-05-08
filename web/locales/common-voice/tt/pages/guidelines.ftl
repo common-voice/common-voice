@@ -134,6 +134,7 @@ example-questions-subheader = Сорау үрнәкләре
 # Answer Questions
 answer-questions = Сорауларга җавап бирү
 answer-questions-subheader = Гомуми күрсәтмәләр
+answer-questions-explanation-2 = Истә тотыгыз: әгәр тотлыксагыз, тукталып калсагыз яки берәр сүзне кабатласагыз, борчылмагыз. Болар барысы да инклюзив, реаль шартларда эшли торган сөйләм тану коралларын ясарга тырышучы инженерлар өчен файдалы мәгълүмат.
 answer-questions-tip-1 = Ярыйсы ук тыныч урында яздырыгыз
 answer-questions-tip-2 = Яхшы интернет элемтәсе булган урын сайлагыз
 answer-questions-tip-3b = Җавабыгызны 15-30 секунд эчендә тотарга тырышыгыз
@@ -144,6 +145,8 @@ transcribe-the-audio = Аудионы текстка күчерү
 transcribe-the-audio-subheader-1 = Гомуми күрсәтмәләр
 transcribe-the-audio-subheader-2 = Саннар һәм акронимнар
 transcribe-the-audio-subheader-3 = Махсус билгеләр
+transcribe-the-audio-subheader-5 = Грамматик хаталар һәм көнкүреш сөйләм әйтелмәләре
+transcribe-the-audio-subheader-1-explanation = Гомумән алганда, сез ишеткән бар нәрсәне дә язып барырга тиешсез. Моңа түбәндәгеләр керә:
 # text wrapped in correct will be shown as green text in the UI
 transcribe-the-audio-subheader-2-example-1-correct = <correct>Дөрес</correct>: Бу урыннан бер йөз километр еракта
 # text wrapped in wrong will be shown as red text in the UI
