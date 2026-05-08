@@ -149,6 +149,7 @@ transcribe-the-audio-subheader-5 = Грамматик хаталар һәм кө
 transcribe-the-audio-subheader-1-explanation = Гомумән алганда, сез ишеткән бар нәрсәне дә язып барырга тиешсез. Моңа түбәндәгеләр керә:
 transcribe-the-audio-subheader-1-explanation-example-1 = Сөйләмдәге тоткарлыкларны, шул исәптән тукталып торуларны һәм кабатлауларны язып бару
 transcribe-the-audio-subheader-1-explanation-example-2 = Ютәлләү яки көлү кебек тавышларны билгеләү
+transcribe-the-audio-subheader-1-explanation-example-4 = Грамматик үзгәрешләр һәм сленг ничек әйтелсә, нәкъ шулай язып алынырга тиеш. Кешеләрнең сөйләмен төзәтмәгез яки үзгәртмәгез.
 # text wrapped in correct will be shown as green text in the UI
 transcribe-the-audio-subheader-2-example-1-correct = <correct>Дөрес</correct>: Бу урыннан бер йөз километр еракта
 # text wrapped in wrong will be shown as red text in the UI
