@@ -147,6 +147,8 @@ transcribe-the-audio-subheader-2 = Саннар һәм акронимнар
 transcribe-the-audio-subheader-3 = Махсус билгеләр
 transcribe-the-audio-subheader-5 = Грамматик хаталар һәм көнкүреш сөйләм әйтелмәләре
 transcribe-the-audio-subheader-1-explanation = Гомумән алганда, сез ишеткән бар нәрсәне дә язып барырга тиешсез. Моңа түбәндәгеләр керә:
+transcribe-the-audio-subheader-1-explanation-example-1 = Сөйләмдәге тоткарлыкларны, шул исәптән тукталып торуларны һәм кабатлауларны язып бару
+transcribe-the-audio-subheader-1-explanation-example-2 = Ютәлләү яки көлү кебек тавышларны билгеләү
 # text wrapped in correct will be shown as green text in the UI
 transcribe-the-audio-subheader-2-example-1-correct = <correct>Дөрес</correct>: Бу урыннан бер йөз километр еракта
 # text wrapped in wrong will be shown as red text in the UI
