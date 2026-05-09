@@ -124,6 +124,7 @@ dont-add-subheader = Шуларны өстәмәгез
 culturally-specific-questions = Мәдәнияткә хас сораулар
 length-avoid-explanation = 15 секунд эчендә (клипның максималь озынлыгы) җавап бирү авыр булган сораулар
 process-steps = Процесс / адымнар
+process-steps-explanation = Җавапны берничә адымда сөйләүне таләп итүче сораулар. Андый сораулар җавапны гадәттәгечә сөйләү урынына аны берәркайдан укып сөйләү теләген уята.
 offensive-content-sensitive-information = Мыскыллаучы эчтәлек яки тыелган мәгълүмат
 offensive-content-sensitive-information-explanation-explanation-1 = Шәхси мәгълүматны сорый алучы сораулар
 offensive-content-sensitive-information-explanation-explanation-2 = Нәфрәт сөйләме яисә башка бер яклы яки мыскыллаучы фикерләр тудыра алган сораулар

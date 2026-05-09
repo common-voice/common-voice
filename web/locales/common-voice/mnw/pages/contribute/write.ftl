@@ -82,5 +82,18 @@ accepted-files = ဂကူဝှာၚ် .tsv တအ်ဂှ်ဟေၚ်ဒ
 minimum-sentences = လၟိဟ်အောန်အိုတ် ပ္ဍဲ ဝှာၚ် - ၁၀၀၀ ဝါကျ
 maximum-file-size = အယျဲဝှာၚ်ဇၞော်အိုတ်ဂှ် ၂၅ MB ရ။
 what-needs-to-be-in-file = ပ္ဍဲဝှာၚ်အဲဂှ် မုအရာဒးပါလုပ်ရော?
+what-needs-to-be-in-file-explanation = လ္ၚတ်ရံၚ် <templateFileLink>ဗီုပြၚ်တၞးလိက်</templateFileLink> ပိုဲညိ။ ဝါကျမၞးတအ်ဂှ် ဒးဗၠးၜး နူအခေါၚ်တၠမူ (CC0 ဟွံသေၚ်မ္ဂး ကမၠောန်တမ်မူလ မကလိဂွံလဝ်အခေါၚ် နူညးမပလံၚ်ဗစိုပ်) တုဲ၊ ဒးကၠးဖ္ဍး၊ သဒ္ဒါ ဒးဍာံပြတုဲ သ္ဒးဗှ်လောဲသွာရောၚ်။ ဝါကျ မပလံၚ်ဗစိုပ်လဝ်တအ်ဂှ် ဗှ်မ္ဂး ဒးကေတ်အခိၚ် ၜိုတ် ၁၀-၁၅ စက္က တုဲ၊ ဂၞန်၊ ယၟုတၟေၚ် ကေုာံ သင်္ကေတတၟေၚ်တအ် ညံၚ်ဟွံဂွံပါလုပ်ဂှ် ထေက်ကဵု ဒးဝေၚ်ပါဲရောၚ်။
 upload-progress-text = ပတိုန်ဒၟံၚ်ဖိုဟ်...
 sc-bulk-submit-confirm = အဲသ္ပဒတန် ဒဒှ်ရ ဝါကျတအ်ဏအ်ဂှ် ဒှ် <wikipediaLink>ဒြပ်ညးဂမၠိုၚ်</wikipediaLink> တုဲ သွက်ဂွံ ပတိုန်ပၠုပ်စုတ်ဝါကျတအ်ဏံဂှ် အဲကလိဂွံလဝ်အခေါၚ်ရ။
+bulk-upload-success-toast = ဝါကျ ဗွဲမဂၠိုၚ် ပတိုန်လဝ် တုဲယျ
+bulk-upload-failed-toast = ပတိုန်ဟွံစိုပ်ဒဒတုဲ၊ ဆက်ဂ္စါန်မွဲဝါပၠန်ညိ။
+bulk-submission-success-header = ဟိုတ်ဂွံဘိုၚ်ပါလုပ်ပတိုန်လဝ်ကဵုဝါကျဂမၠိုၚ်ဂှ် တၚ်ဂုဏ်ရ။
+upload-more-btn-text = မိက်ဂွံထပ်ပတိုန်ဝါကျဂမၠိုၚ်ပၠန်ဟာ
+file-too-large = ဝှာၚ်ဇၞော်လောန်အာရ။
+file-too-small = ဝှာၚ်ဍောတ်လောန်အာရ။
+too-many-files = ဝှာၚ်ဂၠိုၚ်အာရ။
+
+## SMALL BATCH SUBMISSION
+
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = ထပ်စုတ် <icon></icon> ဝါကျညးဂမၠိုၚ်
