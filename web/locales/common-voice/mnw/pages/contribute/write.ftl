@@ -113,3 +113,21 @@ rate-limit-toast-message-seconds =
         [one] လၟိဟ်ကၠောန်ဂွံ ၜက်အာယျ။ မွဲ စက္ကတုဲမ္ဂး ကလေၚ်စမ်ရံၚ်ၠပၠန်ညိ။
        *[other] လၟိဟ်ကၠောန်ဂွံ ၜက်အာယျ။ { $retryLimit } စက္ကတုဲမ္ဂး ကလေၚ်စမ်ရံၚ်ၠပၠန်ညိ။
     }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] သွက်မုက်လိက်ဏအ် မၞးပလံၚ်ဗစိုပ်လဝ် စိုပ်အာလၟိဟ်အပိုၚ်အခြာယျ။ ကိုပ်ကၠာနူ ဟွံဂွံပလံၚ်ဗစိုပ် ဝါကျတၞဟ်မွဲဏီဂှ် မၚ်ကဵု ပွိုၚ် မွဲ မိနေတ်ညိ။ ဟိုတ်နူ အေၚ်ဒုၚ်မၚ်စၟဳကဵုဂှ် တၚ်ဂုဏ်ရ။
+       *[other] သွက်မုက်လိက်ဏအ် မၞးပလံၚ်ဗစိုပ်လဝ် စိုပ်အာလၟိဟ်အပိုၚ်အခြာယျ။ ကိုပ်ကၠာနူ ဟွံဂွံပလံၚ်ဗစိုပ် ဝါကျတၞဟ်မွဲဏီဂှ် မၚ်ကဵု ပွိုၚ် { $retryLimit } မိနေတ်ညိ။ ဟိုတ်နူ အေၚ်ဒုၚ်မၚ်စၟဳကဵုဂှ် တၚ်ဂုဏ်ရ။
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] သွက်မုက်လိက်ဏအ် မၞးပလံၚ်ဗစိုပ်လဝ် စိုပ်အာလၟိဟ်အပိုၚ်အခြာယျ။ ကိုပ်ကၠာနူ ဟွံဂွံပလံၚ်ဗစိုပ် ဝါကျတၞဟ်မွဲဏီဂှ် မၚ်ကဵု ပွိုၚ် မွဲ စက္ကညိ။ ဟိုတ်နူ အေၚ်ဒုၚ်မၚ်စၟဳကဵုဂှ် တၚ်ဂုဏ်ရ။
+       *[other] သွက်မုက်လိက်ဏအ် မၞးပလံၚ်ဗစိုပ်လဝ် စိုပ်အာလၟိဟ်အပိုၚ်အခြာယျ။ ကိုပ်ကၠာနူ ဟွံဂွံပလံၚ်ဗစိုပ် ဝါကျတၞဟ်မွဲဏီဂှ် မၚ်ကဵု ပွိုၚ် { $retryLimit } စက္ကညိ။ ဟိုတ်နူ အေၚ်ဒုၚ်မၚ်စၟဳကဵုဂှ် တၚ်ဂုဏ်ရ။
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } ပကောံဂွံလဝ် မွဲ ဝါကျ
+       *[other] { $uploadedSentences } ပကောံဂွံလဝ် { $totalSentences } ဝါကျ
+    }
