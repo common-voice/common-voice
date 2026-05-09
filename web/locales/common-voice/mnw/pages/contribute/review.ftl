@@ -21,3 +21,24 @@ sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = S
 sc-review-form-keyboard-usage-custom = { sc-review-form-button-skip-shortcut }သွက်ဂွံသရုၚ်ထောံ { sc-review-form-button-reject-shortcut } သွက်ဂွံတးပါဲထောံ { sc-review-form-button-approve-shortcut } သွက်ဂွံဒုၚ်တဲတအ်ဂှ် မၞးစကာသုၚ်စောဲ ကောန်ဍေၚ် ကရတ်မာန်ရ။
+sc-review-form-button-submit =
+    .submitText = စၟဳစၟတ်တုဲ
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] ဝါကျစၟဳစၟတ်လဝ်ဟွံမွဲဏီရ။
+        [one] စၟဳစၟတ်လဝ် ၁ ဝါကျတုဲရ။ တၚ်ဂုဏ်ရ။
+       *[other] { $sentences } ဝါကျ စၟဳစၟတ်လဝ်တုဲဂမၠိုၚ်။ တၚ်ဂုဏ်ရ။
+    }
+sc-review-form-review-failure = အရာစၟဳစၟဝ်လဝ်ဂှ် သီုဂိုၚ်ဟွံဂွံရောၚ်။ ထပ်ဂ္စါန်မွဲဝါပၠန်ညိ။
+sc-review-link = ဗ္စာစၟဳစၟတ်
+
+## REVIEW CRITERIA
+
+sc-criteria-modal = ⓘ တၚ်နၚ်စၟတ်သမ္တီစၟဳစၟတ်
+sc-criteria-title = တၚ်နၚ်စၟတ်သမ္တီစၟဳစၟတ်
+sc-criteria-make-sure = ဝါကျဂှ် ကိတ်ညဳကဵု တၚ်နၚ်စၟတ်သမ္တီ ဗွဲသၟဝ်ဏအ် ညံၚ်ဂွံစှ်ေဂှ် သ္ပကဵုချိုတ်ပၠိုတ် ညိ -
+sc-criteria-item-1 = ဝါကျဂှ် ဒးချူပံၚ်လဝ်အက္ခရ်ဒးဍာံပြဟေၚ်ရောၚ်
+sc-criteria-item-2 = ဝါကျဂှ် သဒ္ဒါ ဒးဍာံပြဟေၚ်ရောၚ်
+sc-criteria-item-3 = ဝါကျဂှ် ဒးဟီုပတိတ်ဂွံရောၚ်
