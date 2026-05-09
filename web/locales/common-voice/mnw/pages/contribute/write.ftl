@@ -100,3 +100,16 @@ too-many-files = ဝှာၚ်ဂၠိုၚ်အာရ။
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = ထပ်စုတ် <icon></icon> ဝါကျညးဂမၠိုၚ်
 multiple-sentences-error = ပ္ဍဲပလံၚ်ဗစိုပ် မွဲအလန်ဂှ် ထပ်စုတ် ဝါကျ ဗွဲမဂၠိုၚ် ဟွံဂွံရောၚ်။
+exceeds-small-batch-limit-error = ပတိုန်ဂၠိုၚ်နူ ၁၀၀၀ ဝါကျဟွံဂွံရောၚ်။
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] လၟိဟ်ကၠောန်ဂွံ ၜက်အာယျ။ မွဲ မိနေတ်တုဲမ္ဂး ကလေၚ်စမ်ရံၚ်ၠပၠန်ညိ။
+       *[other] လၟိဟ်ကၠောန်ဂွံ ၜက်အာယျ။ { $retryLimit } မိနေတ်တုဲမ္ဂး ကလေၚ်စမ်ရံၚ်ၠပၠန်ညိ။
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] လၟိဟ်ကၠောန်ဂွံ ၜက်အာယျ။ မွဲ စက္ကတုဲမ္ဂး ကလေၚ်စမ်ရံၚ်ၠပၠန်ညိ။
+       *[other] လၟိဟ်ကၠောန်ဂွံ ၜက်အာယျ။ { $retryLimit } စက္ကတုဲမ္ဂး ကလေၚ်စမ်ရံၚ်ၠပၠန်ညိ။
+    }
