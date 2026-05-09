@@ -161,3 +161,5 @@ write-contribute-menu-aria-label = စရၚ်တၚ်ရုဲစှ်ချ
 add-sentences-menu-item-aria-label = သွက်ကောန်ဂကောံတအ်ဂွံဗှ်ဂှ် ထပ်စုတ်ဝါကျတၟိဂမၠိုၚ်ညိ။
 review-sentences-menu-item-aria-label = ကလေၚ်စၟဳစၟတ် ဝါကျမပတိုန်လဝ်နကဵုကောန်ဂကောံဂမၠိုၚ်ညိ။
 add-questions-menu-item-aria-label = သွက်ဂကောံဂွံဗှ် ကေုာံ ဂွံကလေၚ်သှ်ကဵုဂှ် ပ္တိုန်ကဵုအရေဝ်သၟာန်တၟိဂမၠိုၚ်ညိ။
+review-questions-menu-item-aria-label = ကလေၚ်စၟဳစၟတ် ကေုာံ စုတ်ကဵုမာဲ သွက်အရေဝ်သၟာန် မပတိုန်လဝ်နကဵုကောန်ဂကောံဂမၠိုၚ်ညိ။
+transcribe-audio-menu-item-aria-label = ချူပတိတ်ရမျာၚ်မပၠောပ်လဝ်ပ္ဍဲမလိက်ညိ။
