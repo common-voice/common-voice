@@ -131,3 +131,33 @@ add-small-batch-success =
         [one] { $uploadedSentences } ပကောံဂွံလဝ် မွဲ ဝါကျ
        *[other] { $uploadedSentences } ပကောံဂွံလဝ် { $totalSentences } ဝါကျ
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } ပကောံဂွံလဝ် မွဲ ဝါကျရ။ သွက်ဂွံဂၠေါၚ်ဖျေံ ဝါကျ တးပါဲလဝ်တအ်ဂှ် ဍဵု <downloadLink>ဒၞာဲဏံ</downloadLink>ညိ။
+       *[other] { $uploadedSentences }ပကောံဂွံလဝ် { $totalSentences } ဝါကျရ။ သွက်ဂွံဂၠေါၚ်ဖျေံ ဝါကျ တးပါဲလဝ်တအ်ဂှ် ဍဵု <downloadLink>ဒၞာဲဏံ</downloadLink>ညိ။
+    }
+small-batch-sentences-rule-1 = ဒ္ဂေတ်ဗက် စေဝ်ပၞောန် နူ “ဝါကျ ဗီုလဵု အဲ ထပ်စုတ် ဂွံရော?” ညိ။
+small-batch-sentences-rule-2 = စုတ်မွဲပၞောန်မ္ဂးမွဲဝါကျညိ။
+small-batch-sentences-rule-3 = ပါ်ဝါကျမွဲပၞောန်မွဲဝါကျမ္ဂး ဍဵုတဴ “Enter” ဟွံသေၚ်မ္ဂး “Return” မွဲဝါညိ။
+small-batch-sentences-rule-4 = ထပ်စုတ်စဵုကဵု ၁၀၀၀ ဝါကျမာန်ရ။
+small-batch-sentences-rule-5 = ဝါကျ သီုဖအိုတ်ဂှ် သ္ဒးဒှ် ပရေၚ်အုပ်ဓုပ် တုပ်တုပ် ရောၚ်။
+small-batch-sentences-rule-6 = ဝါကျ သီုဖအိုတ်ဂှ် သ္ဒးနွံကဵု ပရေၚ်နိဿဲ တုပ်တုပ် ရောၚ်။
+# menu item
+add-sentences = ထပ်စုတ်ဝါကျဂမၠိုၚ်
+
+## MENU ITEM TOOLTIPS
+
+write-contribute-menu-tooltip = ထပ်စုတ် ကေုာံ စၟဳစၟတ် ဝါကျ၊ ထပ်စုတ် အရေဝ်သၟာန်၊ ချူပတိတ်ရမျာၚ်
+add-sentences-menu-item-tooltip = ထပ်စုတ်ဝါကျဂမၠိုၚ်
+review-sentences-menu-item-tooltip = ကလေၚ်စၟဳစၟတ်ဝါကျဂမၠိုၚ်
+add-questions-menu-item-tooltip = ထပ်စုတ်အရေဝ်သၟာန်ဂမၠိုၚ်
+review-questions-menu-item-tooltip = ကလေၚ်စၟဳစၟတ်အရေဝ်သၟာန်ဂမၠိုၚ်
+transcribe-audio-menu-item-tooltip = ချူပတိတ်မလိက်နူရမျာၚ်မပၠောပ်လဝ်ဂမၠိုၚ်
+
+## MENU ITEM ARIA LABELS
+
+write-contribute-menu-aria-label = စရၚ်တၚ်ရုဲစှ်ချူဂမၠိုၚ်။
+add-sentences-menu-item-aria-label = သွက်ကောန်ဂကောံတအ်ဂွံဗှ်ဂှ် ထပ်စုတ်ဝါကျတၟိဂမၠိုၚ်ညိ။
+review-sentences-menu-item-aria-label = ကလေၚ်စၟဳစၟတ် ဝါကျမပတိုန်လဝ်နကဵုကောန်ဂကောံဂမၠိုၚ်ညိ။
+add-questions-menu-item-aria-label = သွက်ဂကောံဂွံဗှ် ကေုာံ ဂွံကလေၚ်သှ်ကဵုဂှ် ပ္တိုန်ကဵုအရေဝ်သၟာန်တၟိဂမၠိုၚ်ညိ။
