@@ -189,9 +189,11 @@ tags-noise-explanation =
 special-tags-example-2 =
     Аннары мин [noise] ялга киттем.
     Ни инде, [noise] [laugh] бу бөтенләй үк ял да түгел иде [laugh]
+transcribe-the-audio-subheader-4-explanation-1 = Кинәт туган сөйләмдә, гадәттә, фальстартлар була. Андый очракларда тулы сүзнең бер кисәге генә ишетелә. Моңа тап булсагыз, сүзнең фальстартлы икәнен күрсәтер өчен сүз фрагментын мөмкин кадәр яхшырак транскриблагыз һәм сүз ахырына дефис (-) өстәгез. Мәсәлән:
 transcribe-the-audio-subheader-4-explanation-1-example = Аның исеме <underline>Ис- Искән-</underline> Искәндәр.
 transcribe-the-audio-subheader-4-explanation-2 = Кайвакыт сөйләүчеләр сүзне яки сүз кисәген берничә тапкыр кабатлый. Моны да язып алырга кирәк. Мисал:
 transcribe-the-audio-subheader-4-explanation-2-example = Аннары мин <underline>йокы йокы йокы бүл- йокы</underline> бүлмәсенә бардым.
+transcribe-the-audio-subheader-5-explanation-1 = Кинәт туган сөйләмдә әлбәттә грамматик хаталар да булырга мөмкин. Транскриблаганда аларны төзәтергә кирәкми. Транскрипция сөйләм контентына төп-төгәл туры килергә тиеш.
 
 ## Review the Transcription
 
