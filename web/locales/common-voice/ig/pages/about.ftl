@@ -1,6 +1,10 @@
 ## ABOUT US
 
 about-title = Gị́nị́ kpàlìtèrè Common Voice?
+about-header-description-v2 =
+    <p>Common Voice bụ ntọala data olu dị n'ọha, nke olu ndị ọrụ nkwado nke efu na-eme ntụnye n'ụwa niile gbara gburugburu na-akwado. Ndị chọrọ ịmepụta ngwa olu nwere ike iji ntọala data ahụ zụọ mọdelu meshịn lenin.</p>
+    <p>Ugbu a, ọ bụ ụlọ ọrụ nwere ọtụtụ ntọala data olu, nke na-egbochi ihe ọhụrụ. Ntọala data olu anaghị anọchite anya ndị a nke ọma: ndị anaghị asụ Bekee, ndị nwere agba, ndị nwere nkwarụ, ụmụ nwanyị na ndị LGBTQIA+. Nke a pụtara na teknụzụ olu kwadoro anaghị arụ ọrụ ma ọlị maka ọtụtụ asụsụ, ebe ọ na-arụ ọrụ, ọ nwere ike ọ gaghị arụ ọrụ nke ọma maka onye ọ bụla. Anyị chọrọ ịgbanwe nke ahụ site n'ịkpalite ndị mmadụ ebe niile ka ha kesaa olu ha.</p>
+how-does-it-work-title-v2 = Kedu ka Common Voice si arụ ọrụ?
 
 ## How does it work section
 
