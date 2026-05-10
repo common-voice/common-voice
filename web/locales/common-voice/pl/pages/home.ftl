@@ -116,6 +116,7 @@ find-us-on-element-action-1 = Element
 find-us-on-matrix-action-2 = Inne klienty
 # label for button
 download-contribution-certificate-action = Odbierz swój certyfikat
+contribute-github-content = Ten projekt nie byłby możliwy bez ludzi takich jak Ty. 🎉 Istnieje wiele sposobów, aby zaangażować się w projekt Common Voice – nie musisz umieć kodować, aby się włączyć!
 
 ## Featured section
 

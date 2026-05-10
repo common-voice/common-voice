@@ -220,6 +220,7 @@ code-switching-ask-bilingual-contexts-header = Билингваль контек
 code-switching-ask-bilingual-contexts-explanation = Гадәттә, ике тел дә кулланыла торган ситуацияләрне тасвирлагыз (мәсәлән, өйдә, мәктәптә, җәмгыять чараларында). Мәсәлән:
 code-switching-ask-bilingual-contexts-explanation-example = «Тудыка белән сөйләшкәндә, сез татар телендә рус теле белән катнаш сөйләшәсезме?»
 code-switching-focus-emotional-header = Сезне илһамландырган моментларга игътибар итегез
+code-switching-focus-emotional-explanation = Кешеләр үзләренең хисләрен яки нәрсәнедер ашыгыч тасвирларга кирәк булганда, еш кына кодлар арасында күченә. Мәсәлән:
 # What to Avoid
 code-switching-avoid-subheader = Нәрсәдән сакланырга кирәк
 code-switching-avoid-intro = Түбәндәгеләргә китерүе мөмкин булган сораулар:
