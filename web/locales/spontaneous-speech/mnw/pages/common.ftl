@@ -45,6 +45,8 @@ tag = ဆက်စပ်
 
 not-found-page-header = ဟွံဆဵု
 not-found-page-content = မုက်လိက်မၞးဂၠာဲဒၟံၚ်ဂှ် ဟွံဆဵုရောၚ်။
+# Privacy and Terms checkbox
+accept-privacy-and-terms = အဲဒုၚ်တဲတုပ်စိုတ် <termsLink>ပရေၚ်စကာသုၚ်စောဲ</termsLink> ကေုာံ <privacyLink>ပရေင်တင်ဂၞင်ပူဂိုလ်</privacyLink>Common Voice ရောၚ်။
 # Locales-Variants
 ms-MY = ဗာဟာသ မာလေ
 el-CY = သာဲပရဳယာတ် ဂရိတ်
@@ -92,9 +94,17 @@ player-pause-button-aria-label = ပဒေါံရမျာၚ်
 player-skip-backward-aria-label = ကလေၚ်ဆုတ် ၅ စက္က
 # Skip forward button accessibility/aria label
 player-skip-forward-aria-label = အာဂတ ၅ စက္က
+# Audio playback progress slider accessibility/aria label
+player-progress-slider-aria-label = မဍဵုပဆုဲ လၟေၚ်ကလေၚ် ဗလးရမျာၚ်
+# Toggle speed and transcription mode menu button
+player-toggle-mode-menu-aria-label = စရၚ် ပြံၚ်လှာဲ ဗီုပြၚ်
 # Slower playback speed button accessibility/aria label
 player-speed-slow-aria-label = ပံက် ဒမြိပ်အသိၚ် သိုက်က်
 # Normal playback speed button accessibility/aria label
 player-speed-normal-aria-label = ပံက် ဒမြိပ်အသိၚ် သဘာဝ
 # Faster playback speed button accessibility/aria label
 player-speed-fast-aria-label = ပံက် ဒမြိပ်အသိၚ် ပြဟ်ဟ်
+# Auto transcription mode button accessibility/aria label
+transcription-mode-auto-aria-label = ပြံၚ်လှာဲ ပွမဗလးရမျာၚ် မွဲမတုဲမွဲမ အလဵုလဵု
+# Mode menu button accessibility/aria label
+transcription-mode-menu-aria-label = စရၚ် ပြံၚ်လှာဲ ဗီုပြၚ် ချူပတိတ်ရမျာၚ်
