@@ -218,6 +218,8 @@ code-switching-types-subheader = Нинди төрдәге сорауларны 
 code-switching-use-bilingual-prompts-explanation-example = "Что тебе сказала мама, шул көнне өйгә кайткач?"
 code-switching-ask-bilingual-contexts-header = Билингваль контекстлар турында сорарга
 code-switching-ask-bilingual-contexts-explanation = Гадәттә, ике тел дә кулланыла торган ситуацияләрне тасвирлагыз (мәсәлән, өйдә, мәктәптә, җәмгыять чараларында). Мәсәлән:
+code-switching-ask-bilingual-contexts-explanation-example = «Тудыка белән сөйләшкәндә, сез татар телендә рус теле белән катнаш сөйләшәсезме?»
+code-switching-focus-emotional-header = Сезне илһамландырган моментларга игътибар итегез
 # What to Avoid
 code-switching-avoid-subheader = Нәрсәдән сакланырга кирәк
 code-switching-avoid-intro = Түбәндәгеләргә китерүе мөмкин булган сораулар:
