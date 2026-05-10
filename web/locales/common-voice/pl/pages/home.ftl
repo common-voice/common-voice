@@ -95,11 +95,12 @@ get-started = Zaczynamy <ikona><ikona>
 
 ## Action items section
 
-action-items-section-title = Common Voice to darmowa platforma open source do tworzenia danych przez społeczność
+action-items-section-title = Common Voice to darmowa platforma open source do tworzenia danych głosowych przez społeczność
 action-items-section-subtitle = Każdy może zachować, ożywić i podnieść rangę swojego języka poprzez udostępnianie, tworzenie i zarządzanie zbiorami danych tekstowych i mowy.
+scripted-card-content = Czytaj zdania na głos w swoim języku i przyczyń się do stworzenia najbardziej zróżnicowanego zbioru danych głosowych na świecie.
 coming-soon = Wkrótce
 add-text = Dodaj tekst
-answer = Odpowiedź
+answer = Odpowiedz
 
 ## Community section
 
