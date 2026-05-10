@@ -15,8 +15,14 @@ request-language-google-recaptcha-error = စပ်ကဵု reCAPTCHA တုဲ
 # Success page
 request-language-success-heading = တင်ဂုဏ်ရ။ မၞးပလံင်လဝ် ပရေင်သၟာန်သၟုက် အရေဝ်ဘာသာတၟိမွဲရ။
 request-language-success-list-1 = သွက်ဂွံ ထပ်စုတ်အရေဝ်ဘာသာမၞး ပ္ဍဲ Common Voice ဂှ် အဳမေလ် မပသောင်ကလးလဝ် ကဆံၚ်လၟေၚ်ၚ်တအ် နူကဵု ညးက္ဍိုက်ပ်ဂကောံပိုဲဂှ် မၞးကလိဂွံဏောၚ်။
+request-language-success-list-2 = ညးက္ဍိုက်ပ်ဂကောံပိုဲ ဆက်စၠောံဏာကဵုမၞး သွက်ဂွံကဵုအရီုအဗၚ်ဂမၠိုၚ် ကေုာံ ဂကောံမကၠောန်ဒၟံၚ်ကမၠောန် ပ္ဍဲအရေဝ်ဘာသာမၞး နွံဒၟံၚ်တုဲတုဲရဟာဂှ် လဴပူစကဵုမၞးဏောၚ်။
+request-language-success-list-3 = ယဝ်ခါရ မၞးဟွံဂွံမိၚ်ကေတ်နူပိုဲ အပ္ဍဲအကြာ ၜါပိတ္ၚဲမ္ဂး ကေတ်အဆက်ပ္ဍဲ <emailLink>{ $email }</emailLink>တုဲ ပိုဲကလေၚ်ဆက်စၠောံကဵုမၞးပၠန်ရောၚ်။
 request-for-scripted-speech-toggle = အာတ်မိက်သွက် Scripted Speech
 request-for-spontaneous-speech-toggle = အာတ်မိက်သွက် Spontaneous Speech
 need-help-deciding-platform = ဂွံရုဲစှ်အရာလဵုရောဂှ် နွံပၟိက်ကဵုအရီုဗၚ်ဟာ
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = <strong>Scripted Speech</strong> (ကိုပ်ကၠာတေံ မၞးတအ် တီလဝ် နဒဒှ် Common Voice) ဂှ် ဒှ်ဒၞာဲ မၞးတအ် ဗှ်ပတိတ်ရမျာၚ်ဝါကျတအ် နကဵု အရေဝ်ဘာသာ မၞးတအ် ဂွံရ။
+need-help-deciding-platform-explanation-2 = <strong>Spontaneous Speech</strong> ဂှ် ဒှ်ကဏ္ဍတၟိ ပ္ဍဲ Common Voice မွဲတုဲ၊ ဒှ်ဒၞာဲ မၞးတအ် ကလေၚ်သှ်ကဵု အရေဝ်သၟာန်တအ် နကဵု ဗီုပြၚ်သဘာဝစှ်ေစှ်ေ ကေုာံ အတိုၚ်အရေဝ်ဟီုဂလာန်ဓမ္မတာ ဂွံမာန်ရ။
+need-help-deciding-platform-explanation-3 = ယဝ်ခါရ မၞးဟွံဆဵုအရေဝ်ဘာသာမၞးပ္ဍဲကဵုသီုၜါပ္ဍဲ ပလက်ဖံၚ်ဏံမ္ဂး ရုဲစုတ်သီုၜါညိ။
 request-language-already-available-scs = Scripted Speech ဂှ်နွံဒၟံၚ်တုဲတုဲရ။
 request-language-already-available-sps = Spontaneous Speech ဂှ်နွံဒၟံၚ်တုဲတုဲရ။
