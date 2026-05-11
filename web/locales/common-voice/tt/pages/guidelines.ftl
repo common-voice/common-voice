@@ -250,6 +250,8 @@ code-switching-answer-bullet-1 = Реаль тормыш моментлары я
 code-switching-answer-bullet-2 = Дустыгызга текстлы хәбәр җибәрәсез яки кемгәдер нәрсәдер сөйлисез дип күзаллагыз
 code-switching-answer-bullet-3 = Сез чынлап та кулланган сүзләрне кулланыгыз, алар башка телдән алынган булсалар да
 code-switching-answer-bullet-4 = Җавап бирүнең бернинди «камил» ысулы юк
+code-switching-authentic-header = Табигый һәм аутентик формада җавап бирегез
+code-switching-authentic-speak = <bold>Дусларыгыз яки гаиләгез белзн ничек сөйләр идегез — шулай сөйләгез.</bold> Көндәлек тормышта төрле телләрне катнаштырып сөйләшсәгез, шулай ук эшләгез. Мәсәлән:
 code-switching-use-both-languages-example = "Ул бик нык ачуланды, потому что мин аңа кире шалтыратмадым."
 code-switching-authentic-direct-quotes-example = «Әнием әйтте: "Син моны уен дип уйлыйсыңмы?", а я такой: "Окей, остынь!"»
 # Transcribing
