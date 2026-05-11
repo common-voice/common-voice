@@ -124,12 +124,12 @@ class Layout extends React.PureComponent<LayoutProps, LayoutState> {
   }
 
   private visitHash() {
-    if (location.hash) {
-      const hash = location.hash.split('?')[0]
-      const node = document.querySelector(hash)
-      if (node) {
-        node.scrollIntoView({ behavior: 'smooth' })
-      }
+    if (!location.hash) return
+    const id = decodeURIComponent(location.hash.split('?')[0]).slice(1)
+    if (!id) return
+    const node = document.getElementById(id)
+    if (node) {
+      node.scrollIntoView({ behavior: 'smooth' })
     }
   }
 
