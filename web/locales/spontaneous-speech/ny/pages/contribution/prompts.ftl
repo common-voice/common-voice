@@ -35,3 +35,5 @@ learn-how-to-use-transcribe = Phunzirani momwe mungalembere
 learn-how-to-use-transcribe-explanation = Lembani ndendende zomwe munthuyo wanena, kuphatikizapo mawu onse monga 'um', kapena 'errr'.
 learn-how-to-use-transcribe-guidance = Dinani <guidanceLink>pano</guidanceLink> kuti mudziwe momwe mungagwiritsire ntchito tsamba ili
 learn-how-to-use-check-transcript = Phunzirani mmene mungayang’anire zolemba
+learn-how-to-use-check-transcript-explanation = Cholembedwacho chiyenera kulemba mawu aliwonse kapena mawu osakhala a mawu omwe munthuyo adalankhula, kuphatikizapo kubwerezabwereza.
+learn-how-to-use-check-transcript-guidance = Dinani <guidanceLink>pano</guidanceLink> kuti mudziwe momwe mungagwiritsire ntchito tsamba ili
