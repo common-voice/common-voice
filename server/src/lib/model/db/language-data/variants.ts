@@ -6,6 +6,21 @@ export type Variant = {
 
 export const VARIANTS: Variant[] = [
   {
+    locale_name: 'ny',
+    variant_name: 'Pakati - Central',
+    variant_token: 'ny-pakati',
+  },
+  {
+    locale_name: 'ny',
+    variant_name: 'Mwera - Southern',
+    variant_token: 'ny-mwera',
+  },
+  {
+    locale_name: 'ny',
+    variant_name: 'Mpoto - Northern',
+    variant_token: 'ny-mpoto',
+  },
+  {
     locale_name: 'cy',
     variant_name: 'North-Western Welsh',
     variant_token: 'cy-northwes',
