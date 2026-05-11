@@ -17,3 +17,9 @@ error-content-502 = လၟုဟ် မၞး ဆက်စၠောံ အဆက
 error-title-503 = ပိုယ် ဒးဆဵုဂဗမံၚ် ပရေၚ်ဝေပ်သာ်စှ်ေအရာဟွံစၟဳလဝ်ရ။
 error-content-503 = ဝေပ်သာ်ဂှ် ခြာဟွံလအ် ကလေင်စကာဂွံပၠန်ရောင်။ သွက်ဂွံကလိဂွံတင်ဂၞင်ပရူပရာတၟိတၟိဂှ် လုပ်ပါလုပ် ပ္ဍဲ <matrixLink>ဒၞာဲတက်ကျာ Matrix ဂကောံ </matrixLink>ညိ၊ လ္ၚတ်ရံၚ် ပြသၞာ ဝေပ်သာက်တအ် နူကဵု <githubLink>GitHub</githubLink> ညိ၊ ဟွံသေၚ်မ္ဂး လုပ်ဗဵု <discourseLink>ဝှဝ်ရာမ် Discourse</discourseLink> ပိုဲ ညိ။
 error-code = ယောၚ်ယာ { $code }
+# Warning message shown when none of the clips could be uploaded
+error-duplicate-clips-all =
+    { $total ->
+        [one] ပိုယ်ပတိုန် ကလေပ်မၞး ဟွံဂွံရ။ ကလေပ်ဂှ် ပတိုန်လဝ် ကိုပ်ကၠာတေံတုဲတုဲရ။ ဆက်ပတိုန်အာ သုတ် ဂတဂှ်ညိ။
+       *[other] ကလေပ် { $total } ကလေပ်ဂမၠိုၚ်တအ်ဂှ် ပိုယ်ပတိုန် ဟွံဂွံရ။ ကလေပ်တအ်ဂှ် ပတိုန်လဝ် ကိုပ်ကၠာတေံတုဲတုဲရ။ ဆက်ပတိုန်အာ သုတ် ဂတဂှ်ညိ။
+    }
