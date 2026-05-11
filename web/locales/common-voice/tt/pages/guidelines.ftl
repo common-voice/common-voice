@@ -223,6 +223,9 @@ code-switching-focus-emotional-header = Сезне илһамландырган 
 code-switching-focus-emotional-explanation = Кешеләр үзләренең хисләрен яки нәрсәнедер ашыгыч тасвирларга кирәк булганда, еш кына кодлар арасында күченә. Мәсәлән:
 code-switching-focus-emotional-explanation-example = «Ата-анагыз сездән зур яңалыклар белгәч нәрсә әйткәнен сөйләгез — алар ничек әйткән, нәкъ шулай итеп».
 code-switching-direct-quotes-header = Туры цитаталарны яки реконструкцияләрне сорагыз
+code-switching-direct-quotes-explanation = Катнашучылардан чынлыкта нәрсә әйтелгәнен кабатларга сорагыз.Мәсәлән:
+code-switching-cultural-topics-header = Мәдәнияткә хас темаларны сайлагыз
+code-switching-informal-scenarios-header = Формаль булмаган сценарийларны тикшерегез
 # What to Avoid
 code-switching-avoid-subheader = Нәрсәдән сакланырга кирәк
 code-switching-avoid-intro = Түбәндәгеләргә китерүе мөмкин булган сораулар:
