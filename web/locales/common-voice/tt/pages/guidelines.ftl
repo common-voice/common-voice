@@ -259,6 +259,10 @@ code-switching-authentic-direct-quotes = <bold>Туры куштырнаклар
 code-switching-authentic-direct-quotes-example = «Әнием әйтте: "Син моны уен дип уйлыйсыңмы?", а я такой: "Окей, остынь!"»
 # Transcribing
 code-switching-transcribe-subheader = Текстка күчерү
+# Capture Speech Exactly as Spoken
+code-switching-capture-header = Сөйләмне нәкъ ишетелгәнчә туплагыз
+# Use standard spelling for each language
+code-switching-spelling-header = Һәр тел өчен стандартлы орфографияне кулланыгыз
 # Tagging
 code-switching-tagging-subheader = Билгеләү
 code-switching-tagging-error-2 = Язу хаталары
