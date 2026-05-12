@@ -123,6 +123,21 @@ example-questions-explanation-1 = Mungapeze zitsanzo 120 za <examplePromptsLink>
 
 # Answer Questions
 answer-questions = Yankhani mafunso
+answer-questions-subheader = ndondomeko yonse
+answer-questions-explanation-1 = Ganizirani kaye za mafunso omwe aperekedwa, lingalirani mtundu wa zomwe mukufuna kunena, koma musakonzekere kwambiri. Dinani chizindikiro cha ‘record’. Mukamaliza kutepa, mutha kumvera zomwe munanena, kutepanso, kuchotsa kapena kutumiza.
+answer-questions-explanation-2 = Kumbukirani - musadandaule ngati mungachite chibwibwi, kuyima pang’ono kapena kubwereza mawu. Zonsezi ndi deta yofunika kwa mainjiniya omwe akuyesera kupanga zida zodziwira mawu zomwe zimaphatikiza aliyense komanso zimagwira ntchito pa moyo watsiku ndi tsiku.
+answer-questions-tip-1 = tepani pamalo opanda phokoso
+answer-questions-tip-2 = Sankhani malo okhala ndi intaneti yabwino
+answer-questions-tip-3b = Yesetsani kuti yankho lanu likhale pakati pa masekondi khumi ndi asanu mpaka makumi atatu
+answer-questions-tip-4 = Pewani kulankhula mawu onyoza, okwiyitsa kapena okhumudwitsa
+answer-questions-tip-5 = Lankhulani mwachibadwa, monga momwe mungalankhulire ndi bwenzi lanu - gwiritsani ntchito mtundu, chilankhulo, ndi kalankhulidwe kanu kenikeni
+answer-questions-tip-6 = Sungani mawu anu kukhala ofanana nthawi zonse - musafuule kapena kuimba
+transcribe-the-audio-subheader-1 = ndondomeko yonse
+transcribe-the-audio-subheader-2 = Manambala ndi zilembo zazifupi
+transcribe-the-audio-subheader-3 = Ma tagi apadera
+transcribe-the-audio-subheader-4 = Magawo a mawu, kuyamba kolakwika, mawu obwerezedwa
+transcribe-the-audio-subheader-5 = Zolakwika za mawu a chilankhulo ndi mawu achizolowezi
+transcribe-the-audio-subheader-1-explanation = Kawirikawiri, muyenera kulemba zonse zomwe mwamva. Izi zikuphatikizapo;
 
 ## Reporting Content
 
