@@ -139,6 +139,29 @@ transcribe-the-audio-subheader-4 = Magawo a mawu, kuyamba kolakwika, mawu obwere
 transcribe-the-audio-subheader-5 = Zolakwika za mawu a chilankhulo ndi mawu achizolowezi
 transcribe-the-audio-subheader-1-explanation = Kawirikawiri, muyenera kulemba zonse zomwe mwamva. Izi zikuphatikizapo;
 
+## Code-Switching
+
+code-switching-cultural-topics-header = Sankhani Nkhani Zokhudza Chikhalidwe Chanu
+code-switching-cultural-topics-explanation = Zakudya, miyambo, masiku a tchuthi, komanso mmene mabanja amayendera nthawi zambiri zimapangitsa anthu kugwiritsa ntchito zilankhulo zosiyanasiyana.
+code-switching-cultural-topics-explanation-example = "Kodi mumamufotokozera bwanji Día de los Muertos kwa munthu amene amangolankhula Chingerezi?"
+code-switching-informal-scenarios-header = Fufuzani Zochitika Zosavomerezeka
+code-switching-informal-scenarios-explanation = Kukambirana ndi abwenzi kapena kutumizirana mauthenga nthawi zambiri kumakhala ndi kusinthana kwachilengedwe. Chitsanzo:
+code-switching-informal-scenarios-explanation-example = "Kodi nthabwala yanji imene anzanu nthawi zonse amachita - ndipo amanena bwanji?"
+# What to Avoid
+code-switching-avoid-subheader = Zoyenera Kupewa
+code-switching-avoid-intro = Mafunso omwe angakhale:
+code-switching-avoid-1 = Funsani zambiri zomwe zingathe kuzindikiritsa munthu payekha
+code-switching-avoid-2 = Pemphani mawu odana kapena malingaliro ena okondera kapena okhumudwitsa
+code-switching-avoid-3 = Chititsani munthu kuti agawane mayankho omwe ali achinsinsi komanso omwe angayambitse kusagwirizana
+code-switching-dont-header = Osachita
+code-switching-dont-1 = Musagwiritse ntchito mawu okhwima kwambiri
+# Reviewing a Question
+code-switching-review-subheader = onanisso mafunso kachikena
+code-switching-review-intro = Onetsetsani kuti funsoli likukwaniritsa zofunikira:
+code-switching-review-criterion-1 = zikhale zosavuta kumvetsetsa ndi kuyankhula
+code-switching-review-criterion-2 = zikhale zogwirizana thawi zambiri
+code-switching-review-criterion-3 = Osagwiritsa ntchito, kapena kupempha, chilankhulo choipa kapena chonyansa
+
 ## Reporting Content
 
 reporting-content-subheader = ndondomeko yonse
