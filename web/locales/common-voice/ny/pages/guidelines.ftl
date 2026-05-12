@@ -85,6 +85,9 @@ adding-sentences-subheader-offensive-content = zokhumudwisa
 adding-sentences-subheader-offensive-content-explanation = Ngati chiganizo chili ndi mawu achipongwe kapena osokoneza maganizo—mwachitsanzo chifukwa cha zinthu zonyoza kapena kuphwanya malamulo athu a <communityGuidelines>malangizo a kutenga nawo mbali m’gulu</communityGuidelines>—muyenera kukana chiganizocho. Muthanso kutifikira pa <emailFragment>commonvoice@mozilla.com</emailFragment> kuti mutidziwitse za vutoli.
 reviewing-sentences-explanation-1 = Ngati chiganizo chikukwaniritsa zofunikira zomwe zatchulidwa pamwambapa, dinani batani la "Inde".
 reviewing-sentences-explanation-2 = Ngati chiganizocho sichikwaniritsa zofunikira zomwe zatchulidwa pamwambapa, dinani batani la "Ayi".
+reviewing-sentences-explanation-3 = Ngati simukutsimikiza za chiganizocho, mutha kuchisiya ndikupitiliza pa chotsatira.
+reviewing-sentences-explanation-4 = Ngat ziganizo zofunika kuwunika zatha, chonde tithandizeni kupeza ziganizo zina
+domain-explanation = Domeni imatanthauza mutu wa chiganizo. Pakadali pano, mutha kusankha pakati pa:
 
 ## Question collection ids
 
@@ -93,16 +96,33 @@ adding-questions = kuwonjezela mafunso
 ## Question collection sidebar content
 
 what-makes-a-good-question-subheader = Kodi funso labwino limakhala lotani?
+what-makes-a-good-question-explanation = Funso labwino la mndandanda wa deta yokhudza kutenga nawo mbali kwa anthu onse liyenera kukhala:
 what-makes-a-good-question-explanation-criteria-1 = zikhale zosavuta kumvetsetsa ndi kuyankhula
 what-makes-a-good-question-explanation-criteria-2 = zikhale zogwirizana thawi zambiri
 what-makes-a-good-question-explanation-criteria-3 = Osagwiritsa ntchito, kapena kupempha, chilankhulo choipa kapena chonyansa
 what-makes-a-good-question-tip = Mungafunenso kuganizira za kufalikira kwa nkhani ndi madera osiyanasiyana.
 easy-to-understand = Zosavuta Kumvetsa
 easy-to-understand-explanation = Sankhani mafunso osavuta omwe aliyense angamvetse, mosasamala kanthu za chikhalidwe kapena momwe zinthu zilili.
+spelling-and-pronunciation = Kalembedwe ndi Zizindikiro za mkalembedwe
+spelling-and-pronunciation-explanation = Gwiritsani ntchito kalembedwe koyenera ndi galamala
 length = Utali
+length-explanation = Funso liyenera kuyankhidwa m'ziganizo zingapo.
 dont-add-subheader = Osawonjezera
 culturally-specific-questions = Mafunso okhudzana ndi chikhalidwe
 culturally-specific-questions-explanation = Mafunso omwe ali okhudzana ndi chikhalidwe, kapena omwe amachititsa kuti munthu aganizire zambiri za woyankhayo
+length-avoid-explanation = Mafunso omwe munthu angavutika kuyankha mkati mwa masekondi khumi ndi anayi (kutalika kwakukulu kwa kanema)
+process-steps = Njira / Masitepe
+process-steps-explanation = Mafunso omwe amafuna kuti wina afotokoze njira zingapo. Kulemba njira kumalimbikitsa wogwiritsa ntchito kubwereza yankho m'malo moyankha mwachibadwa.
+offensive-content-sensitive-information = Zinthu zonyoza kapena zambiri zofunika kusamala
+offensive-content-sensitive-information-explanation-explanation-1 = Mafunso omwe angafunsa za zambiri zomwe zingadziwike kuti ndi za munthu payekha
+offensive-content-sensitive-information-explanation-explanation-2 = Mafunso omwe angayambitse mawu odana kapena malingaliro ena okondera kapena okhumudwitsa
+example-questions-subheader = Mafunso a chitsanzo
+example-questions-explanation-1 = Mungapeze zitsanzo 120 za <examplePromptsLink> patsamba lino.</examplePromptsLink>
+
+## Spontaneous Speech sidebar content
+
+# Answer Questions
+answer-questions = Yankhani mafunso
 
 ## Reporting Content
 
