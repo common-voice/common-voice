@@ -161,6 +161,21 @@ code-switching-review-intro = Onetsetsani kuti funsoli likukwaniritsa zofunikira
 code-switching-review-criterion-1 = zikhale zosavuta kumvetsetsa ndi kuyankhula
 code-switching-review-criterion-2 = zikhale zogwirizana thawi zambiri
 code-switching-review-criterion-3 = Osagwiritsa ntchito, kapena kupempha, chilankhulo choipa kapena chonyansa
+code-switching-review-does-not-header = Ndipo <bold>SICHIKUFUNIKA</bold> kuphatikizapo:
+code-switching-review-offensive-content = <bold>Zomwe zili zonyansa kapena zachinsinsi</bold>
+code-switching-answer-header = Zinthu zonyoza kapena zambiri zofunika kusamala
+code-switching-review-no-1 = Mafunso omwe angafunsa za zambiri zomwe zingadziwike kuti ndi za munthu payekha
+code-switching-review-no-2 = Mafunso omwe angayambitse mawu odana kapena malingaliro ena okondera kapena okhumudwitsa
+code-switching-review-no-3 = Chititsani munthu kuti agawane mayankho omwe ali achinsinsi komanso omwe angayambitse kusagwirizana
+# Answering a Question
+code-switching-answer-subheader = kuyankha funso
+code-switching-answer-intro = Poyankha funso, cholinga chake ndi kuyankha mwachibadwa - monga momwe mungachitire pokambirana zenizeni. Tikufuna kujambula momwe zilankhulo zimasakanikirana m'mawu a tsiku ndi tsiku.
+code-switching-answer-bullet-1 = Ganizirani za zochitika zenizeni: nthabwala, mikangano, miyambo
+code-switching-answer-bullet-2 = Tangoganizirani mukutumizirana uthenga ndi mnzanu kapena kuuza wina nkhani
+code-switching-answer-bullet-3 = Gwiritsani ntchito mawu omwe mungagwiritse ntchito, ngakhale atakhala obwereka kapena osakanikirana
+code-switching-answer-bullet-4 = Palibe njira "yangwiro" yoyankhira
+code-switching-authentic-header = Yankhani Mwachibadwa Ndiponso Moona
+code-switching-authentic-speak = <bold>Lankhulani momwe mungachitire ndi anzanu kapena abale anu.</bold> Ngati mumasakaniza zilankhulo m'moyo weniweni, chitani chimodzimodzi apa. Chitsanzo:
 
 ## Reporting Content
 
