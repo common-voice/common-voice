@@ -44,7 +44,8 @@ misreadings-tip-2 = ayi 'a' mumalemba enieni
 misreadings-tip-3 = zinthu zosemphana
 background-noise-tip-1 = [kusokonezedwa ndi phokoso lakumbuyo]
 background-noise-tip-2 = gawo lina la mawu silikumveka
-background-voices-tip-1 = Kodi mukubwera? [anayimbidwa ndi wina]
+background-voices-example-1 = ma dinosaurs a Triassic<strong>[ wowerengedwa ndi mawu amodzi<strong>
+background-voices-tip-1 = Kodi mukubwera? [anayimbilidwadwa ndi wina]
 volume-explanation = pakhala kusiyanisa kwachilengedwe kwa mlingo pakati pa owerenge.kanani ngati mlingo uli wokwera kwambiri kuti chojambulira chikusweka kapena ( kawirikawiri) ngati mlingo uli wotsika kwambiri kuti simungathe kumva zomwe zikukambidwa popanda zomwe zalembedwa
 still-have-questions = mukadali ndi mafunso
 contact-common-voice = Lumikizanani ndi gulu la Common Voice
@@ -57,6 +58,12 @@ sentence-domain = Chigawo cha Zilango
 
 ## Sentence collection sidebar content
 
+public-domain-explanation-2 = Ziganizo zabwino kwambiri zopangira injini yothandiza yozindikira mawu ndi mawu olankhulidwa ndi anthu wamba komanso amakono. Malingaliro ena okuthandizani kupanga ziganizo ndi awa;
+public-domain-explanation-3 = Pangani ziganizo zamakono, zogwiritsidwa ntchito nthawi zonse nokha kapena ndi anzanu kapena gulu la anthu olankhula zinenero zina - mwachitsanzo kudzera mu 'write-a-thon'
+public-domain-explanation-4 = Lumikizanani ndi olemba mabuku, olemba masewero kapena olemba mafilimu ndipo mufunseni ngati angavomereze kupereka gawo laling'ono la ntchito zawo ku malo a anthu onse.
+public-domain-explanation-5 = Yang'anani zolemba zomwe ufulu wa olemba sunachitikenso - mwachitsanzo, mabuku ambiri omwe adasindikizidwa asanafike chaka cha 1920
+public-domain-explanation-6 = Lumikizanani ndi maboma, mabungwe osachita phindu kapena mabungwe ofalitsa nkhani kuti muwone ngati zina mwa zomwe zili pa intaneti, malipoti kapena zinthu zina zitha kuperekedwa ku gawo la anthu onse.
+citing-sentences-explanation-1 = Ndikofunikira kuphatikiza maumboni kuti titha kutsimikizira kuti ziganizo zili m’gulu la anthu onse ndipo palibe malamulo a ufulu wa kukopera omwe akugwira ntchito.
 citing-sentences-subheader-websites = Mawebusayiti
 citing-sentences-subheader-websites-explanation = Mungathe kuphatikiza tsamba lawebusayiti, mwachitsanzo "Common Voice - https://commonvoice.mozilla.org/"
 citing-sentences-subheader-academic-reference = Buku Lophunzitsira
@@ -75,6 +82,9 @@ adding-sentences-subheader-speakable = Zolankhulidwa
 adding-sentences-subheader-numbers = Manambala
 adding-sentences-subheader-punctuation = Zizindikiro za mkalembedwe
 adding-sentences-subheader-offensive-content = zokhumudwisa
+adding-sentences-subheader-offensive-content-explanation = Ngati chiganizo chili ndi mawu achipongwe kapena osokoneza maganizo—mwachitsanzo chifukwa cha zinthu zonyoza kapena kuphwanya malamulo athu a <communityGuidelines>malangizo a kutenga nawo mbali m’gulu</communityGuidelines>—muyenera kukana chiganizocho. Muthanso kutifikira pa <emailFragment>commonvoice@mozilla.com</emailFragment> kuti mutidziwitse za vutoli.
+reviewing-sentences-explanation-1 = Ngati chiganizo chikukwaniritsa zofunikira zomwe zatchulidwa pamwambapa, dinani batani la "Inde".
+reviewing-sentences-explanation-2 = Ngati chiganizocho sichikwaniritsa zofunikira zomwe zatchulidwa pamwambapa, dinani batani la "Ayi".
 
 ## Question collection ids
 
