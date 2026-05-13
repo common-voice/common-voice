@@ -74,12 +74,17 @@
 
 ### Changes merged after current release
 
+- Fix: Prevent security scanners with fuzzy parameters to log errors, by [@moz-bozden](https://github.com/moz-bozden) in [#5398](https://github.com/common-voice/common-voice/pull/5398) (in v1.158.4)
+- Fix state handling problems in datasets page (only open to researchers), by [@moz-bozden](https://github.com/moz-bozden) in [#5387](https://github.com/common-voice/common-voice/pull/5387) (in v1.158.4)
+- Add v23.0 and v24.0 data (only open to researchers), by [@moz-bozden](https://github.com/moz-bozden) in [#5386](https://github.com/common-voice/common-voice/pull/5386) (in v1.158.4)
 - Remove SPS Questions item from menu, by [@moz-bozden](https://github.com/moz-bozden) in [#5383](https://github.com/common-voice/common-voice/pull/5383) (in v1.158.2)
 - Make communities md reachable from front-end, by [@moz-bozden](https://github.com/moz-bozden) in [#5374](https://github.com/common-voice/common-voice/pull/5374) (in v1.158.2)
 - Update MDC root URL, by [@moz-bozden](https://github.com/moz-bozden) in [#5373](https://github.com/common-voice/common-voice/pull/5373) (in v1.158.1)
 
 #### Data Changes after current release
 
+- Add Sundanese (`su`) variants by [@moz-acfort](https://github.com/moz-acfort) in [#5397](https://github.com/common-voice/common-voice/pull/5397) (in v.1.158.5)
+- Add Chichewa (`ny`) variants by [@moz-acfort](https://github.com/moz-acfort) in [#5396](https://github.com/common-voice/common-voice/pull/5396) (in v.1.158.5)
 - Welcome to new languages Mon (`mnw`) and Shimaore (`swb`)
 
 #### Spontaneous Speech Changes after current release
@@ -91,6 +96,7 @@
 
 ##### SS Data Changes after current release
 
+- Add Afaan Oromo (`om`) questions by [@moz-acfort](https://github.com/moz-acfort) in [#540](https://github.com/common-voice/spontaneous-speech/pull/540) (in v1.158.4)
 - Add Shimaore (`swb`) questions by [@moz-acfort](https://github.com/moz-acfort) in [#538](https://github.com/common-voice/spontaneous-speech/pull/538) (in v1.158.3)
 - Add Mon (`mnw`) questions by [@moz-acfort](https://github.com/moz-acfort) in [#537](https://github.com/common-voice/spontaneous-speech/pull/537) (in v1.158.3)
 - Remove some Galician (`gl`) questions asking for PII info by adding reports directly into DB which will fully exclude them, by [@moz-bozden](https://github.com/moz-bozden)
