@@ -159,5 +159,6 @@ transcribe-audio-menu-item-tooltip = Аудиоязмаларны текстка
 write-contribute-menu-aria-label = Язу көйләүләре менюсы
 add-sentences-menu-item-aria-label = Җәмгыять уку өчен яңа җомләләр өстәгез
 review-sentences-menu-item-aria-label = Берләшмә тарафыннан җибәргән җөмләләрне тикшерегез
+add-questions-menu-item-aria-label = Җәмгыять укысын һәм тикшерсен өчен яңа сорауларны җибәрегез
 review-questions-menu-item-aria-label = Берләшмә тарафыннан җибәргән яңа сорауларны тикшереп, тавыш бирегез.
 transcribe-audio-menu-item-aria-label = Аудиоязмаларны текстка үзгәртү

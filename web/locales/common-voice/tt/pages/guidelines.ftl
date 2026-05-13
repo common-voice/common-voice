@@ -58,6 +58,7 @@ contact-common-voice = Common Voice такымына мөрәҗәгать ите
 ## Sentence collection nav ids
 
 public-domain = Иҗтимагый милектә
+citing-sentences = Җөмләләрне цитаталау
 adding-sentences = Җөмләләр өстәү
 reviewing-sentences = Җөмләләрне тикшерү
 sentence-domain = Җөмләләр домены
@@ -97,6 +98,7 @@ adding-sentences-subheader-special-characters = Махсус символлар 
 adding-sentences-subheader-special-characters-explanation-1 = Хәрефләр укылучы текст теленә хас булырга тиеш. Мәсәлән, «ж» – рус әлифбасы хәрефе, ләкин ул инглиз телендә кулланылмый һәм шуңа күрә инглиз телендәге бернинди башлангыч текстта да булырга тиеш түгел.
 adding-sentences-subheader-special-characters-explanation-2 = Телләрдә локальләштерү өчен махсус шартлары булган аерым тикшерү кагыйдәләре булуы мөмкин. Тел өчен махсус тикшерү файлы булмаса, катнашучылар өчен инглиз телендәге кагыйдәләр күрсәтеләчәк.
 adding-sentences-subheader-offensive-content = Рәнҗеткеч эчтәлек
+adding-sentences-subheader-offensive-content-explanation = Җөмлә әдәпсез яки рәнҗеткеч булса — мәсәлән, артык шәрран эчтәлеге яки <communityGuidelines>башка кагыйдәләрне</communityGuidelines> бозу аркасында — сез җөмләне кабул итмәскә тиеш. Проблеманы чишү өчен сез безнең белән шулай ук <emailFragment>commonvoice@mozilla.com</emailFragment> адресы буенча элемтәгә керә аласыз.
 reviewing-sentences-explanation-1 = Әгәр җөмлә югарыдагы критерийларга туры килсә, "Әйе" төймәсенә басыгыз.
 reviewing-sentences-explanation-2 = Әгәр җөмлә югарыдагы критерийларга туры килмәсә, "Юк" төймәсенә басыгыз.
 reviewing-sentences-explanation-3 = Әгәр дә сез җөмләгә карата шикләнсәгез, аны шулай ук калдырып торып, киләсесенә күчә аласыз.
@@ -122,6 +124,7 @@ length = Озынлык
 length-explanation = Сорауга бер-ике җөмлә белән җавап бирерлек булырга тиеш.
 dont-add-subheader = Шуларны өстәмәгез
 culturally-specific-questions = Мәдәнияткә хас сораулар
+culturally-specific-questions-explanation = Мәдәният үзенчәлекләренә бик нык бәйле булган яки респондент турында күпсанлы фаразлауларга нигезләнгән сораулар
 length-avoid-explanation = 15 секунд эчендә (клипның максималь озынлыгы) җавап бирү авыр булган сораулар
 process-steps = Процесс / адымнар
 process-steps-explanation = Җавапны берничә адымда сөйләүне таләп итүче сораулар. Андый сораулар җавапны гадәттәгечә сөйләү урынына аны берәркайдан укып сөйләү теләген уята.
