@@ -263,9 +263,18 @@ code-switching-transcribe-subheader = Текстка күчерү
 code-switching-capture-header = Сөйләмне нәкъ ишетелгәнчә туплагыз
 # Use standard spelling for each language
 code-switching-spelling-header = Һәр тел өчен стандартлы орфографияне кулланыгыз
+code-switching-spelling-explanation = Кулланылган һәр тел өчен сүзләрне дөрес язарга тырышыгыз. Әлбәттә, сөйләүче аларны махсус итеп стандартлы булмаган итеп укымаса.
+# Don’t Clean Up or Simplify the Language
+code-switching-cleanup-header = Телне чистартмагыз һәм гадиләштермәгез.
+code-switching-cleanup-1 = Тәрҗемә итәргә яки фразаларны яңадан төзергә – сөйләйчүнең нәкъ нәрсә әйткәнен языгыз, аның нинди фикер белдергәнен түгел.
+code-switching-cleanup-2 = «Дөрес» грамматика яки әйтелеш – телнең табигыйлыгын саклагыз.
 # Tagging
 code-switching-tagging-subheader = Билгеләү
+code-switching-tagging-error-1 = Дөрес булмаган пунктуация яки регистр
 code-switching-tagging-error-2 = Язу хаталары
+code-switching-tagging-error-3 = Сүзләр хаталы орфография белән язылган
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = Һәр тел өчен дөрес орфография кулланырга
 code-switching-pronunciation-explanation = Кайбер сүзләр ике телдә дә бер үк төрле күренергә, ләкин төрлечә әйтелергә мөмкин.  Дөрес билгеләргә ярдәм итсен өчен, аларның әйтелешен тыңлагыз.  Мәсәлән: чемодан, казан, театр, мотор.
 code-switching-pronunciation-explanation-example-1 = Татарча: /ɕemoˈdɒn/
 code-switching-pronunciation-explanation-example-2 = Русча: /tɕɪmɐˈdan/
