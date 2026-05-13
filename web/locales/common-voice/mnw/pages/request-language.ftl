@@ -1,0 +1,34 @@
+## Request Language Pages
+
+request-language-heading = သၟာန်ပရူပရာ အရေဝ်ဘာသာတၟိ
+request-language-explanation-1 = အရေဝ်ဘာသာမၞး ပါလုပ်ဒၟံၚ် ပ္ဍဲ <languagesPageLink>မုက်လိက်အရေဝ်ဘာသာ</languagesPageLink> Common Voice ယျဟာဂှ် စၟဳစၟတ်ရံၚ်ညိ။ ယဝ်ရ ဟွံပါလုပ်ဏီမ္ဂး၊ ဗပေၚ်စုတ် တၞးလိက်ဏအ်တုဲ ဗီုပြၚ် ဂွံပၠောပ်ထပ်စုတ်အရေဝ်ဘာသာမၞးဂှ် ပိုဲ <strong>ပလံၚ်ဗစိုပ်ကဵု အဳမေလ် ပရေၚ်ပသောၚ်ကလးရောၚ်။</strong>
+request-language-form-email =
+    .label = အီမေဲလ်မၞး
+request-language-form-info =
+    .label = ပရူပရာစပ်ကဵုအရေဝ်ဘာသာ
+request-language-form-info-explanation = စပ်ကဵုဘာသာဂှ်တုဲ ၜိုတ်မာန်မာန်ဂှ် စုတ်တ်ပရာပရူာဘာသာဂှ်ညိ။ အရာဏံဂှ် ပါလုပ်မပ္တံကဵု -
+request-language-form-info-explanation-list-1 = ယၟုအရေဝ်ဘာသာမၞး
+request-language-form-info-explanation-list-2 = ယဝ်ခါရတီမ္ဂး <isoCodeLink>စုတ်မဂၞန် ISO</isoCodeLink>
+request-language-form-info-explanation-list-3 = ပ္ညုၚ်ထ္ၜးကဵုပိုဲ ဝေပ်သာ် မဒှ်အထံက်အပၚ်သွက်ပိုဲဂွံတီကၠိုဟ်ပရူပရာဘာသာဂှ်ညိ။
+request-language-google-recaptcha-required = ယဝ်ခါရ မၞးမိက်ဂွံဆက်ကၠောန်မ္ဂး ဒးတက်စုတ်မလိက် reCAPTCHA ရောၚ်။
+request-language-google-recaptcha-error = စပ်ကဵု reCAPTCHA တုဲ ဗၠေတ်ယောင်ယာအာမွဲမွဲရ။ ကလေင်ဂစာန်ရံင် မွဲဝါပၠန်ညိ။
+# Success page
+request-language-success-heading = တင်ဂုဏ်ရ။ မၞးပလံင်လဝ် ပရေင်သၟာန်သၟုက် အရေဝ်ဘာသာတၟိမွဲရ။
+request-language-success-list-1 = သွက်ဂွံ ထပ်စုတ်အရေဝ်ဘာသာမၞး ပ္ဍဲ Common Voice ဂှ် အဳမေလ် မပသောင်ကလးလဝ် ကဆံၚ်လၟေၚ်ၚ်တအ် နူကဵု ညးက္ဍိုက်ပ်ဂကောံပိုဲဂှ် မၞးကလိဂွံဏောၚ်။
+request-language-success-list-2 = ညးက္ဍိုက်ပ်ဂကောံပိုဲ ဆက်စၠောံဏာကဵုမၞး သွက်ဂွံကဵုအရီုအဗၚ်ဂမၠိုၚ် ကေုာံ ဂကောံမကၠောန်ဒၟံၚ်ကမၠောန် ပ္ဍဲအရေဝ်ဘာသာမၞး နွံဒၟံၚ်တုဲတုဲရဟာဂှ် လဴပူစကဵုမၞးဏောၚ်။
+request-language-success-list-3 = ယဝ်ခါရ မၞးဟွံဂွံမိၚ်ကေတ်နူပိုဲ အပ္ဍဲအကြာ ၜါပိတ္ၚဲမ္ဂး ကေတ်အဆက်ပ္ဍဲ <emailLink>{ $email }</emailLink>တုဲ ပိုဲကလေၚ်ဆက်စၠောံကဵုမၞးပၠန်ရောၚ်။
+request-language-error = ပိုဲ ဟွံကလိဂွံလဝ် တၚ်ပၟိက်အာတ်မိက်ဂှ် ဒှ်မာန် ရ။ ပလံင်နင် အဳမေဝ် တိုက်ရိုက် ကု ပိုဲ ပ္ဍဲ <emailLink>{ $email }</emailLink> ညိ၊ တုဲမ္ဂး ပိုဲကလေင်ဆက် ကဵုမၞးရောင်။
+request-for-scripted-speech-toggle = အာတ်မိက်သွက် Scripted Speech
+request-for-spontaneous-speech-toggle = အာတ်မိက်သွက် Spontaneous Speech
+need-help-deciding-platform = ဂွံရုဲစှ်အရာလဵုရောဂှ် နွံပၟိက်ကဵုအရီုဗၚ်ဟာ
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = <strong>Scripted Speech</strong> (ကိုပ်ကၠာတေံ မၞးတအ် တီလဝ် နဒဒှ် Common Voice) ဂှ် ဒှ်ဒၞာဲ မၞးတအ် ဗှ်ပတိတ်ရမျာၚ်ဝါကျတအ် နကဵု အရေဝ်ဘာသာ မၞးတအ် ဂွံရ။
+need-help-deciding-platform-explanation-2 = <strong>Spontaneous Speech</strong> ဂှ် ဒှ်ကဏ္ဍတၟိ ပ္ဍဲ Common Voice မွဲတုဲ၊ ဒှ်ဒၞာဲ မၞးတအ် ကလေၚ်သှ်ကဵု အရေဝ်သၟာန်တအ် နကဵု ဗီုပြၚ်သဘာဝစှ်ေစှ်ေ ကေုာံ အတိုၚ်အရေဝ်ဟီုဂလာန်ဓမ္မတာ ဂွံမာန်ရ။
+need-help-deciding-platform-explanation-3 = ယဝ်ခါရ မၞးဟွံဆဵုအရေဝ်ဘာသာမၞးပ္ဍဲကဵုသီုၜါပ္ဍဲ ပလက်ဖံၚ်ဏံမ္ဂး ရုဲစုတ်သီုၜါညိ။
+request-language-search-bar = မၞးစတက်စုတ် ယၟု အရေဝ်ဘာသာမၞး ပ္ဍဲ ဒၞာဲဏအ်မာန်ရ၊ ယဝ်ရ အရေဝ်ဘာသာမၞး ဟွံမွဲ ပ္ဍဲ Common Voice ဏီ မ္ဂး၊ မၞး ဗပေၚ်စုတ် တၞးလိက် နကဵု တင်ဂၞင် အရေဝ်ဘာသာ မၞး ဂွံ ရောင်။
+request-language-found-pontoon-not-launched = အရေဝ်ဘာသာမၞးဂှ် ပါလုပ်ဒၟံၚ် ပ္ဍဲစရၚ် အရေဝ်ဘာသာ Common Voice တုဲယျ။ နကဵုပွမကၠာဲဘာသာ ဗလးမုက် ပလက်ဖံၚ် <pontoonLink>ဒၞာဲဏအ်</pontoonLink> ဂှ် မၞး ရီုဗၚ် သွက်ဂွံပံက် အရေဝ်ဘာသာ  <strong>Scripted Speech</strong> မာန်ရ။ ဗလးမုက်ဂှ် အောန်အိုတ် ဒးကၠာဲဘာသာလဝ် ၆၀% ရ။ ဟွံသေၚ်မ္ဂး မၞး ကၠာဲဘာသာ သ္ဇိုၚ်ဇန်လၟေၚ်လိက် ပ္ဍဲ ‘web/locales/en/pages/contribute/*.ftl’ ဂှ်ဟေၚ် စဵုကဵု ၁၀၀% (ဝှာၚ်ဗီုဏအ် နွံမသုန်ဝှာၚ်) လေဝ်ဂွံရ၊ တုဲမ္ဂး ဗလးမုက်လိက်ဂှ် ပံက်အာအလဵုအလဵုရ။
+request-language-found-cv-contribution = ခိုဟ်ရအဴ။ အရေဝ်ဘာသာမၞး နွံမံၚ် ပ္ဍဲ Common Voice <strong>Scripted Speech</strong>တုဲရ။  မၞးဘိုၚ်ပါလုပ်ရီုဗၚ် <homePageLink>ဒၞာဲဏံ</homePageLink>မာန်ရ။
+request-language-found-cv-sentences-lack = အရေဝ်ဘာသာမၞးဂှ် ပါလုပ်ဒၟံၚ် ပ္ဍဲစရၚ် အရေဝ်ဘာသာ Common Voice တုဲယျ။ နကဵုပွမပလံၚ်ဗစိုပ် ဝါကျတအ်ပ္ဍဲ<sentencesContributionLink>ဒၞာဲဏအ်</sentencesContributionLink>ဂှ် မၞးရီုဗၚ်ကဵု သွက်ဂွံပံက် အရေဝ်ဘာသာ ပ္ဍဲ <strong>Scripted Speech</strong> ဂွံရ။
+request-language-found-spontaneous-speech = အရေဝ်ဘာသာမၞးဂှ် ပါလုပ်ဒၟံၚ် ပ္ဍဲ Common Voice <strong>Spontaneous Speech</strong> တုဲယျ။ သွက်ဂွံ ပါလုပ်ပလံၚ်ဗစိုပ်ဂှ် ဍဵု <spontaneousSpeechLink>ဒၞာဲဏအ်</spontaneousSpeechLink> ညိ - ကိုပ်ကၠာနူ ဟွံဂွံစ ပါလုပ်ပလံၚ်ဗစိုပ်ဏီ ဂွံပြံၚ်လှာဲ အရေဝ်ဘာသာ ပလံၚ်ဗစိုပ်/တၚ်ဂၞၚ်ဒေတာတအ်ဂှ် လ္ပဝိုတ်ထောံညိ။
+request-language-already-available-scs = Scripted Speech ဂှ်နွံဒၟံၚ်တုဲတုဲရ။
+request-language-already-available-sps = Spontaneous Speech ဂှ်နွံဒၟံၚ်တုဲတုဲရ။

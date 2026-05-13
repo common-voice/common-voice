@@ -95,19 +95,28 @@ get-started = Zaczynamy <ikona><ikona>
 
 ## Action items section
 
-action-items-section-title = Common Voice to darmowa platforma open source do tworzenia danych przez społeczność
+action-items-section-title = Common Voice to darmowa platforma open source do tworzenia danych głosowych przez społeczność
 action-items-section-subtitle = Każdy może zachować, ożywić i podnieść rangę swojego języka poprzez udostępnianie, tworzenie i zarządzanie zbiorami danych tekstowych i mowy.
+scripted-card-content = Czytaj zdania na głos w swoim języku i przyczyń się do stworzenia najbardziej zróżnicowanego zbioru danych głosowych na świecie.
+language-text-card-content = Twórz lub udostępniaj komunikaty, zdania i teksty z domeny publicznej na potrzeby tłumaczenia, małych modeli językowych i nie tylko.
 coming-soon = Wkrótce
 add-text = Dodaj tekst
-answer = Odpowiedź
+answer = Odpowiedz
 
 ## Community section
 
+community-section-title-202601 = Wspierani przez globalne społeczności, dla globalnych społeczności — 290 języków i wciąż rośniemy!
 join-discord-community = Dołącz do naszej społeczności na Discord
 # label for button
 join-discord-community-action = Dołącz do nas na Discordzie
+find-us-on-matrix = Znajdź nas w Matriksie
+find-us-on-matrix-content-v2 = Matrix to otwarty, lekki protokół do zdecentralizowanej komunikacji w czasie rzeczywistym i preferowana przez Mozillę otwarta platforma dyskusyjna. Jesteśmy w pokoju „common-voice:mozilla.org”.
+# label for button
+find-us-on-element-action-1 = Element
+find-us-on-matrix-action-2 = Inne klienty
 # label for button
 download-contribution-certificate-action = Odbierz swój certyfikat
+contribute-github-content = Ten projekt nie byłby możliwy bez ludzi takich jak Ty. 🎉 Istnieje wiele sposobów, aby zaangażować się w projekt Common Voice – nie musisz umieć kodować, aby się włączyć!
 
 ## Featured section
 
@@ -127,5 +136,11 @@ press-and-stories-link = Prasa i historie
 ## Partner section
 
 partner-section-title = Zostań naszym partnerem
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Firmy technologiczne</bold> – inwestuj w tworzenie otwartych zbiorów danych dla prężnie rozwijającego się wielojęzycznego ekosystemu sztucznej inteligencji
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Społeczeństwo obywatelskie i badacze</bold> — twórz, hostuj i bezpłatnie udostępniaj wartościowe zbiory danych
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Filantropia</bold> – sponsoruj tworzenie zbiorów danych w celu wspierania lokalnych innowacji i rozwoju
 # Partners section
 our-partners-include = Naszymi partnerami są między innymi...

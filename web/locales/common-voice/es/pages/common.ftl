@@ -4,10 +4,17 @@
 
 ## Languages
 
+aa = Afar
+aat = Arvanitika
 ab = Abjasio
+abb = Bankon
+abq = Abaza
 ace = achenés
 ady = Adigué
 af = Africano
+aii = Suret
+ajg = Adja
+aln = Albanés de Gheg
 am = Amárico
 an = Aragonés
 ar = Árabe
@@ -15,10 +22,23 @@ arn = Mapuche
 as = Asamés
 ast = Asturiano
 az = Azerí
+azz = Nahuatl de las tierras altas de Puebla
 ba = Bashkir
+bag = Tuki
+bal = Baluchi
 bas = Basaa
+bax = Bamun
+bba = Bariba
+bbj = Ghomala
+bbl = Tush
+bce = Mengambo
+bci = Baoule
 be = Bieloruso
+beb = Bamvele
+bew = Betawi
+bfd = Bafut
 bg = búlgaro
+bkm = Kom
 bm = Bambara
 bn = Bengalí
 br = Bretón
@@ -213,3 +233,8 @@ email-opt-in-info-sub-with-challenge = Recibe correos con recordatorios de objet
 email-opt-in-privacy-v2 = Al aceptar recibir correos entendemos que das permiso a Mozilla para utilizar la información tal y como se explica en la <privacyLink>Política de Privacidad</privacyLink> de Mozilla.
 indicates-required = * Indica un campo obligatorio
 not-available-abbreviation = N/A
+
+## Pre-Release Announcement (dates TBD)
+
+# Text wrapped in <cvDatasheetsLink></cvDatasheetsLink> will be rendered as an external link to the cv-datasheets GitHub repo
+announcement-pre-release = Estimada comunidad, se acerca la fecha de lanzamiento. Por favor, validen y transcriban, y también visiten <cvDatasheetsLink>cv-datasheets</cvDatasheetsLink> para actualizar su hoja de datos.

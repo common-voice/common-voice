@@ -1,6 +1,6 @@
 ## Validate Page
 
-validate-page-instruction = စၟဳစၟတ် \<validateIcon\>\</validateIcon\> ဂလာန်သၟာန်တအ်ဝွံ ကိတ်ညဳဒၟံၚ်ကဵု စေဝ်စၞောန်ဂမၠိုၚ်ကီုဟာ?
+validate-page-instruction = စၟဳစၟတ် <validateIcon></validateIcon> ဂလာန်သၟာန်တအ်ဝွံ ကိတ်ညဳဒၟံၚ်ကဵု စေဝ်စၞောန်ဂမၠိုၚ်ကီုဟာ?
 dataset-label = တၚ်ဂၞၚ်ဒေတာ
 accept-vote-toast-message = ဒုၚ်တဲ ဂလာန်သၟာန် တုဲဒှ်အာ ဗွဲမအံၚ်ဇၞးရ
 reject-vote-toast-message = တးပါဲ ဂလာန်သၟာန် တုဲဒှ်အာ ဗွဲမအံၚ်ဇၞးရ

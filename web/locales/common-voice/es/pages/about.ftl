@@ -105,3 +105,43 @@ about-playbook-how-record-content-5 = <accuracyLink>Más información sobre los 
 ## How to grow language
 
 about-playbook-how-grow-language = ¿Cómo podemos desarrollar eficazmente un idioma en Common Voice?
+about-playbook-how-grow-language-content-1 = Crear oportunidades para que una diversidad de personas contribuyan a Common Voice asegura que el conjunto de datos sirva a la mayor cantidad de personas posible. ¡Hemos creado recursos y plantillas que puedes utilizar!
+about-playbook-how-grow-language-content-2 = Eventos
+about-playbook-how-grow-language-content-3 = Puedes organizar eventos para ayudar a las personas a contribuir. Es más fácil de lo que crees. Puedes hacerlo en línea con una herramienta de videoconferencia o en persona si es seguro. <eventTemplate>Echa un vistazo a nuestras plantillas y recursos para organizar eventos</eventTemplate>.
+about-playbook-how-grow-language-content-4 = Redes sociales
+about-playbook-how-grow-language-content-5 = Puedes usar plataformas de redes sociales para difundir el mensaje. Comparte publicaciones que expliquen por qué es importante y contacta a otras personas que hablen sobre temas como los derechos lingüísticos, la inteligencia artificial de voz o el sesgo en la tecnología. Consulta más consejos sobre <campaignLink>cómo llevar a cabo una campaña social, incluyendo contenido que puedes reutilizar</campaignLink>.
+about-playbook-how-grow-language-content-6 = Alianzas y redes
+about-playbook-how-grow-language-content-7 = Encuentra a otras personas a las que les importe. Pueden ser universidades, escuelas de idiomas, grupos de apoyo o comunidades de ciencia de datos. Ponte en contacto con ellas y explícales claramente cómo pueden ayudar y por qué. <outreachTemplates>Consulta nuestras plantillas de correos electrónicos de divulgación</outreachTemplates>.
+about-playbook-how-grow-language-content-8-v2 = ¡Sé creativo! Tu comunidad lingüística será única, y estas son solo algunas maneras de empezar. Considera agregar los canales de tu comunidad al documento <communitiesLink>COMMUNITIES.md document en GitHub</communitiesLink>.
+
+## How to validate
+
+about-playbook-how-validate = ¿Cómo sé si debo aprobar un clip de voz?
+about-playbook-how-validate-content-1 = Si pudieras <strong>oírlos</strong> y <strong>entenderlos</strong>, lo mejor suele ser <strong>darles el visto bueno</strong>.
+about-playbook-how-validate-content-2 = <strong>No rechaces clips en los que el hablante "tenga un acento" diferente al tuyo</strong>: esto es importante para que el reconocimiento de voz funcione mejor para todos.
+about-playbook-how-validate-content-3 = Si crees que la pronunciación hace que sea <strong>imposible entenderlo</strong>, o hay <strong>mucho ruido de fondo</strong>, o hay <strong>otras personas hablando también</strong>, entonces debes rechazar el clip. <accuracyLink>Consulta más información en nuestros criterios de precisión</accuracyLink>.
+about-playbook-how-validate-content-4 = Si un clip es rechazado por dos personas, se publica en un subconjunto diferente del conjunto de datos.
+
+## How to access dataset
+
+about-playbook-how-access-dataset = ¿Cómo puedo acceder y utilizar el conjunto de datos?
+about-playbook-how-access-dataset-content-1 = Puedes ir a la página <datasetsPage>Conjunto de Datos</datasetsPage>, seleccionar la versión y el idioma o idiomas que desees y descargarlo. Los archivos tienen <metadataLink>metadatos asociados</metadataLink>, como información demográfica y datos de validación. Deberás proporcionar una dirección de correo electrónico para descargar el conjunto de datos.
+about-playbook-how-access-dataset-content-2 = Si estás buscando herramientas para crear modelos de reconocimiento automático de voz, puedes conectarte con otras personas de la comunidad <discourseLink>en Discourse</discourseLink>.
+
+## How are decisions made
+
+about-playbook-how-project-governance = ¿Cómo se toman las decisiones sobre los proyectos?
+about-playbook-how-project-governance-content-1 = Mozilla Common Voice es posible gracias a una comunidad diversa de activistas, lingüistas, científicos de datos, académicos e ingenieros de software de todo el mundo. El proyecto está gestionado por la Fundación Mozilla.
+about-playbook-how-project-governance-content-2 = Nuestra gestión se basa en los siguientes pilares:
+about-playbook-how-project-governance-content-3 = Privacidad, seguridad y transparencia.
+about-playbook-how-project-governance-content-4 = Participación comunitaria y toma de decisiones.
+about-playbook-how-project-governance-content-5 = Valor y reconocimiento.
+about-playbook-how-project-governance-content-6 = Responsabilidad mutua.
+about-playbook-how-project-governance-content-7 = <governanceLink>Más información sobre cómo nos gobernamos</governanceLink>
+
+## How is Common Voice funded
+
+about-playbook-how-funded = ¿Cómo se financia Common Voice?
+about-playbook-how-funded-content-1 = Common Voice es un proyecto de la Fundación Mozilla, una organización estadounidense 501c3. Actualmente, el proyecto se financia íntegramente mediante <philantropicGrantLink>subvenciones filantrópicas</philantropicGrantLink> y donaciones de personas de todo el mundo.
+about-playbook-how-funded-content-2 = Cuesta mucho dinero alojar y publicar continuamente los conjuntos de datos, en conjunto con mejorar la plataforma y ejecutar <africaMradiLink>programas comunitarios</africaMradiLink>.
+about-playbook-how-funded-content-3 = Si usted o su organización desean contribuir al proyecto, pueden realizar una <donateLink>donación</donateLink> o ponerse en contacto con nuestro equipo de colaboraciones en <emailFragment>commonvoice@mozilla.com</emailFragment>.

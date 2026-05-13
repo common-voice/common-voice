@@ -6,6 +6,56 @@ export type Variant = {
 
 export const VARIANTS: Variant[] = [
   {
+    locale_name: 'su',
+    variant_name: 'Sunda Banten',
+    variant_token: 'su-banten',
+  },
+  {
+    locale_name: 'su',
+    variant_name: 'Sunda Bogor',
+    variant_token: 'su-bogor',
+  },
+  {
+    locale_name: 'su',
+    variant_name: 'Sunda Priangan',
+    variant_token: 'su-priangan',
+  },
+  {
+    locale_name: 'su',
+    variant_name: 'Sunda Ciamis',
+    variant_token: 'su-ciamis',
+  },
+  {
+    locale_name: 'su',
+    variant_name: 'Sunda Majalengka',
+    variant_token: 'su-majalengka',
+  },
+  {
+    locale_name: 'su',
+    variant_name: 'Sunda Cirebon',
+    variant_token: 'su-cirebon',
+  },
+  {
+    locale_name: 'su',
+    variant_name: 'Sunda Brebes',
+    variant_token: 'su-brebes',
+  },
+  {
+    locale_name: 'ny',
+    variant_name: 'Pakati - Central',
+    variant_token: 'ny-pakati',
+  },
+  {
+    locale_name: 'ny',
+    variant_name: 'Mwera - Southern',
+    variant_token: 'ny-mwera',
+  },
+  {
+    locale_name: 'ny',
+    variant_name: 'Mpoto - Northern',
+    variant_token: 'ny-mpoto',
+  },
+  {
     locale_name: 'cy',
     variant_name: 'North-Western Welsh',
     variant_token: 'cy-northwes',
