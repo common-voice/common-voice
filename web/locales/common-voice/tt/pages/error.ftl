@@ -17,3 +17,11 @@ error-content-502 = Сез хәзер серверларыбыз белән то
 error-title-503 = Көтелмәгән буш торуга юлыктык
 error-content-503 = Сайт мөмкин булганча тиз арада янәдән эшли башлаячак. Иң соңгы мәгълүмат алу өчен, зинһар <matrixLink>Matrix чатына</matrixLink> кушылыгыз, яисә, сайт эшендә булган җитешсезлекләр турында хәбәр итү я хәбәрдар булып тору өчен, <githubLink>GitHub</githubLink>'ка я <discourseLink>безнең Discourse форумнарыбызга</discourseLink> үтегез.
 error-code = Хата { $code }
+# Warning message shown when none of the clips could be uploaded
+error-duplicate-clips-all =
+    { $total ->
+        [one] Без { $total } клибыгызны төяп җибәрә алмадык. Ул элегрәк җибәрелгән булган. Әйдәгез яңа җыелма белән дәвам итик!
+       *[other] Без { $total } клибыгызны төяп җибәрә алмадык. Алар элегрәк җибәрелгән булган. Әйдәгез яңа җыелма белән дәвам итик!
+    }
+# Warning message shown when only some of the clips could be uploaded (uploaded count will be <5)
+error-duplicate-clips-some = Без { $uploaded } клибыгызны төяп җибәрдек — калганнары инде төяп җибәрелгән. Әйдәгез яңа җыелма белән дәвам итик!

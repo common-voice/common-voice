@@ -32,11 +32,11 @@ request-language-success-list-3 =
 request-language-error =
     အကျွန်ရို့ ယင်းတောင်းဆိုစွာကို မရခပါ။ အကျွန်ရို့ဘားကို ဒါရိုက် အီးမေးလ် ပို့ပါ၊ 
     <emailLink> { $email } </emailLink>၊ အကျွန်ုပ်ရို့ ပြန်ဆက်သွယ်ပါမေ။
-request-for-scripted-speech-toggle = စာဖွဲ့ပြော စကားအတွက် တောင်းဆိုချက်
+request-for-scripted-speech-toggle = စာဖတ်ပြော စကားအတွက် တောင်းဆိုချက်
 request-for-spontaneous-speech-toggle = လက်တန်းပြော စကားအတွက် တောင်းဆိုချက်
 need-help-deciding-platform = ဇာချင့်ကို ရွီးချယ်ရဖို့လဲ ဆုံးဖြတ်ဖို့အတွက် အကူအညီ လိုပါလား?
 # text wrapped in <strong></strong> will be shown as bold
-need-help-deciding-platform-explanation-1 = <strong>စာဖွဲ့ပြော စကား</strong> (အစဉ်အလာအရ Common Voice လို့ မိတ်ဆွေရို့ သိကတ်တေ) စွာ မိတ်ဆွေ ဘာသာစကားနန့် စာကြောင်းတိကို ကျယ်ကျယ်လောင်လောင် ဖတ်နိုင်ယေ နိန်ရာ ဖြစ်ပါယေ။
+need-help-deciding-platform-explanation-1 = <strong>စာဖတ်ပြော စကား</strong> (အစဉ်အလာအရ Common Voice လို့ မိတ်ဆွေရို့ သိကတ်တေ) စွာ မိတ်ဆွေ ဘာသာစကားနန့် စာကြောင်းတိကို ကျယ်ကျယ်လောင်လောင် ဖတ်နိုင်ယေ နိန်ရာ ဖြစ်ပါယေ။
 need-help-deciding-platform-explanation-2 = <strong>လက်တန်းပြော စကား</strong> စွာ Common Voice က အစိတ်အပိုင်းအသစ်တခု ဖြစ်ပနာ မေးခွန်းတိကို ပိုသဘာဝကျဗျာယ် ယဉ်ကျေးယေ နည်းလမ်းနန့် ဖြေဆိုနိုင်ပါယေ။
 need-help-deciding-platform-explanation-3 = ပလက်ဖောင်းက ဇာအပိုင်းမှာမဆို မိတ်ဆွေ ဘာသာစကားကို မတွိရကေ၊ နှစ်ခုလုံးကို ရွီးချယ်ပါ။
 request-language-search-bar = မိတ်ဆွေ ဘာသာစကား နာမေကို ဒေနိန်ရာမှာ ရိုက်ထည့်နိုင်ပါယေ။ Common Voice မှာ မဟိသိမ့်ကေ၊ မိတ်ဆွေ ဘာသာစကား ဒေတာနန့် ပုံစံဖင်းတခုကို ဖြည့်စွက်နိုင်ပါလိမ့်မေ။
@@ -56,5 +56,5 @@ request-language-found-cv-sentences-lack =
 request-language-found-spontaneous-speech =
     မိတ်ဆွေ ဘာသာစကားကို Common Voice <strong>လက်တန်းပြော စကား</strong>မှာ ဒါရိုက် ထုတ်လွှင့်ထားဗြီးပါဗျာလ်။
     ပံ့ပိုးကူညီဖို့ <spontaneousSpeechLink>ဒေနိန်ရာ</spontaneousSpeechLink>ကို နှိပ်ပါ - ပံ့ပိုးကူညီဖို့ မစခင်၊ ပံ့ပိုးကူညီမှု/ဒေတာစု ဘာသာစကားကို ပြောင်းဖို့ မမိပါကဲ့။
-request-language-already-available-scs = စာဖွဲ့ပြော စကား ရဟိနိန်ဗြီးသားပါ
+request-language-already-available-scs = စာဖတ်ပြော စကား ရဟိနိန်ဗြီးသားပါ
 request-language-already-available-sps = လက်တန်းပြော စကား ရဟိနိန်ဗြီးသားပါ

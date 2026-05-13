@@ -363,6 +363,7 @@ su = Soundanais
 sv-SE = Suédois
 sva = Svane
 sw = Swahili
+swb = Mahorais
 syr = Syriaque
 szy = Sakizaya
 ta = Tamoul

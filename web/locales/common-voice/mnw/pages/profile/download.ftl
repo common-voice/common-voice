@@ -1,0 +1,30 @@
+## Profile Download
+
+download-q = နွံပၟိက်မိက်ဂွံဂၠေါၚ်ဖျေံ ဒေတာ မၞးဟာ
+download-info = အရာမၞးမိက်ဂွံဂၠေါၚ်ဖျေံဂှ်လဴထ္ၜးကဵုပိုဲညိ။
+download-profile-title = ပရဝ်ဝှာၚ်
+download-profile-info = အဳမေလ်၊ ယၟုညးရပ်စကာ ကေုာံ တၚ်နၚ်ပရူပရာမၞိဟ်တအ် ပါလုပ်တအ်ဂှ် မကလိဂွံ လဝါဲဂှ်မာန်ရ။
+download-profile-size = အယျဲ ဗိုက် (bytes) အောန်န်
+download-recordings-title = ရမျာၚ်ပၠောပ်လဝ်ဂမၠိုၚ်
+download-recordings-info = ဝှာၚ် mp3 တအ် ကေုာံ ဝါကျ မဆက်စပ်တအ် ပါလုပ်တအ်ဂှ် သွက်ဂွံပြုပြေၚ်ဂှ် ဒးကဵုအခိၚ်ညိဏောၚ်။
+download-recordings-size = မဒှ်တိုၚ် မဳဂါဗိုက် (megabytes)
+download-recordings-unavailable = အဃောတၚ်အာတ်မိက်တၞဟ်ကၠောန်ဒၟံၚ်ကမၠောန်တဴဒၟံၚ်ကမၠောန်ဂှ် မၞးအာတ်မိက် ရမျာၚ်ပၠောပ်လဝ်တၞဟ်ဟ်တအ်ဟွံဂွံရောၚ်။
+download-recently-requested = ဇၟာပ် { $days } တ္ၚဲ မၞးအာတ်မိက်ပတိတ်ရမျာၚ်ပၠောပ်လဝ်တၟိတအ်ဂှ်မာန်ရ။
+download-size = အယျဲ
+download-selected = ရုဲလဝ်တုဲ
+download-start = ဂၠေါၚ်ဖေံ ဒေတာ ပရဝ်ဝှာၚ်
+download-request = အာတ်မိက် ရမျာၚ်ပၠောပ်လဝ်ဂမၠိုၚ်
+download-requests = အရာအာတ်မိက်ဂၠေါၚ်ဖျေံလဝ်တုဲတုဲတအ်ဂမၠိုၚ်
+download-requests-info = ကာလ မၞး အာတ်မိက် ရမျာၚ်မၞးပၠောပ်စၟတ်သမ္တီလဝ်တအ်မ္ဂး ပိုဲပံၚ်ပကောံ ဝှာၚ်တအ် နဒဒှ် ဝှာင် ZIP မွဲဝှာၚ် ဟွံသေင်မ္ဂး ဝှာၚ်ဗွဲမဂၠိုင် ရ။ အဏအ်ဂှ် ဒှ်တင်အာတ်မိက် မၞး မတုဲကၠုင်တအ်ဂှ်ရ -
+download-request-button = ဂၠေါၚ်ဖျေံ
+download-request-title = { $created }
+download-request-description = ကလေပ်ရမျာၚ် { $clipCount } ကလေပ်၊ အယျဲဖိုၚ်သီုဖအိုတ် { $size } မဒှ်ရ။ { $expires } ဒှ်စၟတ်တ္ၚဲအိုတ်ရ။
+download-request-archive-single = ပါလုပ် ဝှာၚ် ZIP မွဲမရ။
+download-request-archive-multiple = ဝှာၚ် ZIP ပါလုပ်တအ်ဂှ် ပါ်စုတ်ထောံ { $archiveCount } ကရေက်
+download-request-assembling-description = ဝှာင်မၞးတအ်ဂှ်ပကောံမံင်ရ။ ဗွဲကြဴ ကလေင်စၟဳစၟတ်ရံင် မွဲဝါပၠန်ညိ။
+download-request-refresh-button = ပံက်တၟိ
+download-request-modal-title = လေၚ် သွက်ဂွံဂၠေါၚ်ဖျေံ
+download-request-modal-description = ဣဏံဂှ် လေၚ် သွက်ဂွံဂၠေါၚ်ဖျေံ ဝှာၚ် ZIP မၞးရ။
+download-request-link-text = ဝှာၚ် ZIP #{ $offset } ပၞောဝ်ကဵု { $total }
+download-request-metadata-link = မလိက်ဝါကျ
+download-request-link-single = မၞး သီုစၠောအ်ကပ်ပဳတုဲ ဖျာ်စုတ် URLs တိုက်ရိုက်  ပ္ဍဲ ဒံင်လုဒ်မန်နေဂျာမၞး မဒးစိုတ်အိုတ်ဂှ်မာန်ရ။ ၁၂ နာဍဳ တုဲမ္ဂး ဍေံတအ် အာယုက်အိုတ်ရောၚ်၊ ဆဂး မၞး ကလေင်ကၠုင် ဇရေင် မုက်လိက် ဏအ် သွက်ဂွံ ကၠောန်ဗဒှ် ဍေံတအ် တၟိ ဇၟာပ် အခိင် မာန် ရ။

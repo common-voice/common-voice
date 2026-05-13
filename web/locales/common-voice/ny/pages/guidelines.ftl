@@ -1,7 +1,11 @@
+# GUIDELINES PAGE
+guidelines-header = Malangizo Othandizira
+guidelines-header-subtitle = Mvetsetsani momwe mungathandizire ndikutsimikizira pa seti ya data ya Common Voice
 voice-collection = kusonkhanitsa Mawu
 sentence-collection = Kusonkhanitsa Ziganizo
 question-collection = Kusonkhanitsa Mafunso
 scripted-speech = zoyankhula zolembedwa
+spontaneous-speech = Kulankhula Mwachibadwa
 dont-subheader = Osachita
 
 ## Voice Collection nav ids
@@ -10,14 +14,23 @@ varying-pronunciations = kusiyanitsa kanenedwe
 misreadings = kuwerenga molakwika
 offensive-content = zokhumudwisa
 background-noise = phokoso lakumbuyo
+background-voices = phokoso lakumbuyo
 volume = voluyumu
+reader-effects = zotsatira za wowerenga
+just-unsure = sindikudziwitsitsa
 example = Chitsanzo
 
 ## Voice collection sidebar content
 
+varying-pronunciations-explanation-1 = Timalandira mawu osiyanasiyana! Samalani kwambiri musanakane kachidutswa kosonyeza kuti mukuganiza kuti wowerenga watchula mawu molakwika, waika chizindikiro pamalo olakwika, kapena wanyalanyaza zizindikiro. Pali mitundu yosiyanasiyana ya matchulidwe omwe amagwiritsidwa ntchito padziko lonse lapansi, ena mwa iwo omwe mwina simunawamve m'dera lanu. Chonde perekani chiyamiko chachikulu kwa iwo omwe angalankhule mosiyana ndi inu.
+varying-pronunciations-explanation-2 = Kumbali inayi, ngati mukuganiza kuti wowerenga sanapezepo mawuwo kale, ndipo akuganiza molakwika pa katchulidwe kake, chonde musawakane. Ngati simukudziwa, gwiritsani ntchito batani lodumpha.
 varying-pronunciations-example = Njirayo sinali yodziwika bwino.
 varying-pronunciations-tip-1 = [Chingerezi cha ku Canada chingapange "njira" kumveka ngati "rowt"]
 varying-pronunciations-tip-2 = [Chingerezi cha ku Britain chingapange "muzu"]
+offensive-content-explanation = Ziganizo zimayesedwa kudzera mu njira yowongolera anthu ammudzi, komabe njira imeneyi si yangwiro. Ngati muwona kapena kumva chiganizo chomwe chimakukhumudwitsani kapena kukukhumudwitsani - mwachitsanzo chifukwa chakuti chikuphwanya malangizo athu a <participationGuidelines>okhudza kutenga nawo mbali anthu ammudzi</participationGuidelines> - chonde gwiritsani ntchito batani la mbendera mu UI. Muthanso kulumikizana nafe pa <emailFragment>commonvoice@mozilla.com</emailFragment>.
+misreadings-explanation-1 = Kuwerenga mawu onse patsamba molondola n'kofunika. Mukamamvetsera, onetsetsani mosamala kuti zomwe zalembedwa ndi zomwe zalembedwa; musawakane ngati awonjezera, alemba mawu ofupikitsidwa kapena alephera.
+misreadings-explanation-2 = Zolakwika zomwe zimafala kwambiri ndi izi:
+misreadings-explanation-3 = Pakusowekera 'A' kapena 'The' koyambirira kwa kujambula.
 misreadings-explanation-4 = Kusowa 's' kumapeto kwa liwu.
 misreadings-explanation-5 = Kuwerenga mawu ofupikitsa omwe salipo kwenikweni, monga "Ife tili" m'malo mwa "Ife tili", kapena mosemphanitsa.
 misreadings-explanation-6 = kuphonyana ndi mawu akumapeto podula kutepa mwachangu kwambiri
@@ -31,7 +44,8 @@ misreadings-tip-2 = ayi 'a' mumalemba enieni
 misreadings-tip-3 = zinthu zosemphana
 background-noise-tip-1 = [kusokonezedwa ndi phokoso lakumbuyo]
 background-noise-tip-2 = gawo lina la mawu silikumveka
-background-voices-tip-1 = Kodi mukubwera? [anayimbidwa ndi wina]
+background-voices-example-1 = ma dinosaurs a Triassic<strong>[ wowerengedwa ndi mawu amodzi<strong>
+background-voices-tip-1 = Kodi mukubwera? [anayimbilidwadwa ndi wina]
 volume-explanation = pakhala kusiyanisa kwachilengedwe kwa mlingo pakati pa owerenge.kanani ngati mlingo uli wokwera kwambiri kuti chojambulira chikusweka kapena ( kawirikawiri) ngati mlingo uli wotsika kwambiri kuti simungathe kumva zomwe zikukambidwa popanda zomwe zalembedwa
 still-have-questions = mukadali ndi mafunso
 contact-common-voice = Lumikizanani ndi gulu la Common Voice
@@ -44,6 +58,12 @@ sentence-domain = Chigawo cha Zilango
 
 ## Sentence collection sidebar content
 
+public-domain-explanation-2 = Ziganizo zabwino kwambiri zopangira injini yothandiza yozindikira mawu ndi mawu olankhulidwa ndi anthu wamba komanso amakono. Malingaliro ena okuthandizani kupanga ziganizo ndi awa;
+public-domain-explanation-3 = Pangani ziganizo zamakono, zogwiritsidwa ntchito nthawi zonse nokha kapena ndi anzanu kapena gulu la anthu olankhula zinenero zina - mwachitsanzo kudzera mu 'write-a-thon'
+public-domain-explanation-4 = Lumikizanani ndi olemba mabuku, olemba masewero kapena olemba mafilimu ndipo mufunseni ngati angavomereze kupereka gawo laling'ono la ntchito zawo ku malo a anthu onse.
+public-domain-explanation-5 = Yang'anani zolemba zomwe ufulu wa olemba sunachitikenso - mwachitsanzo, mabuku ambiri omwe adasindikizidwa asanafike chaka cha 1920
+public-domain-explanation-6 = Lumikizanani ndi maboma, mabungwe osachita phindu kapena mabungwe ofalitsa nkhani kuti muwone ngati zina mwa zomwe zili pa intaneti, malipoti kapena zinthu zina zitha kuperekedwa ku gawo la anthu onse.
+citing-sentences-explanation-1 = Ndikofunikira kuphatikiza maumboni kuti titha kutsimikizira kuti ziganizo zili m’gulu la anthu onse ndipo palibe malamulo a ufulu wa kukopera omwe akugwira ntchito.
 citing-sentences-subheader-websites = Mawebusayiti
 citing-sentences-subheader-websites-explanation = Mungathe kuphatikiza tsamba lawebusayiti, mwachitsanzo "Common Voice - https://commonvoice.mozilla.org/"
 citing-sentences-subheader-academic-reference = Buku Lophunzitsira
@@ -62,6 +82,12 @@ adding-sentences-subheader-speakable = Zolankhulidwa
 adding-sentences-subheader-numbers = Manambala
 adding-sentences-subheader-punctuation = Zizindikiro za mkalembedwe
 adding-sentences-subheader-offensive-content = zokhumudwisa
+adding-sentences-subheader-offensive-content-explanation = Ngati chiganizo chili ndi mawu achipongwe kapena osokoneza maganizo—mwachitsanzo chifukwa cha zinthu zonyoza kapena kuphwanya malamulo athu a <communityGuidelines>malangizo a kutenga nawo mbali m’gulu</communityGuidelines>—muyenera kukana chiganizocho. Muthanso kutifikira pa <emailFragment>commonvoice@mozilla.com</emailFragment> kuti mutidziwitse za vutoli.
+reviewing-sentences-explanation-1 = Ngati chiganizo chikukwaniritsa zofunikira zomwe zatchulidwa pamwambapa, dinani batani la "Inde".
+reviewing-sentences-explanation-2 = Ngati chiganizocho sichikwaniritsa zofunikira zomwe zatchulidwa pamwambapa, dinani batani la "Ayi".
+reviewing-sentences-explanation-3 = Ngati simukutsimikiza za chiganizocho, mutha kuchisiya ndikupitiliza pa chotsatira.
+reviewing-sentences-explanation-4 = Ngat ziganizo zofunika kuwunika zatha, chonde tithandizeni kupeza ziganizo zina
+domain-explanation = Domeni imatanthauza mutu wa chiganizo. Pakadali pano, mutha kusankha pakati pa:
 
 ## Question collection ids
 
@@ -70,16 +96,86 @@ adding-questions = kuwonjezela mafunso
 ## Question collection sidebar content
 
 what-makes-a-good-question-subheader = Kodi funso labwino limakhala lotani?
+what-makes-a-good-question-explanation = Funso labwino la mndandanda wa deta yokhudza kutenga nawo mbali kwa anthu onse liyenera kukhala:
 what-makes-a-good-question-explanation-criteria-1 = zikhale zosavuta kumvetsetsa ndi kuyankhula
 what-makes-a-good-question-explanation-criteria-2 = zikhale zogwirizana thawi zambiri
 what-makes-a-good-question-explanation-criteria-3 = Osagwiritsa ntchito, kapena kupempha, chilankhulo choipa kapena chonyansa
 what-makes-a-good-question-tip = Mungafunenso kuganizira za kufalikira kwa nkhani ndi madera osiyanasiyana.
 easy-to-understand = Zosavuta Kumvetsa
 easy-to-understand-explanation = Sankhani mafunso osavuta omwe aliyense angamvetse, mosasamala kanthu za chikhalidwe kapena momwe zinthu zilili.
+spelling-and-pronunciation = Kalembedwe ndi Zizindikiro za mkalembedwe
+spelling-and-pronunciation-explanation = Gwiritsani ntchito kalembedwe koyenera ndi galamala
 length = Utali
+length-explanation = Funso liyenera kuyankhidwa m'ziganizo zingapo.
 dont-add-subheader = Osawonjezera
 culturally-specific-questions = Mafunso okhudzana ndi chikhalidwe
 culturally-specific-questions-explanation = Mafunso omwe ali okhudzana ndi chikhalidwe, kapena omwe amachititsa kuti munthu aganizire zambiri za woyankhayo
+length-avoid-explanation = Mafunso omwe munthu angavutika kuyankha mkati mwa masekondi khumi ndi anayi (kutalika kwakukulu kwa kanema)
+process-steps = Njira / Masitepe
+process-steps-explanation = Mafunso omwe amafuna kuti wina afotokoze njira zingapo. Kulemba njira kumalimbikitsa wogwiritsa ntchito kubwereza yankho m'malo moyankha mwachibadwa.
+offensive-content-sensitive-information = Zinthu zonyoza kapena zambiri zofunika kusamala
+offensive-content-sensitive-information-explanation-explanation-1 = Mafunso omwe angafunsa za zambiri zomwe zingadziwike kuti ndi za munthu payekha
+offensive-content-sensitive-information-explanation-explanation-2 = Mafunso omwe angayambitse mawu odana kapena malingaliro ena okondera kapena okhumudwitsa
+example-questions-subheader = Mafunso a chitsanzo
+example-questions-explanation-1 = Mungapeze zitsanzo 120 za <examplePromptsLink> patsamba lino.</examplePromptsLink>
+
+## Spontaneous Speech sidebar content
+
+# Answer Questions
+answer-questions = Yankhani mafunso
+answer-questions-subheader = ndondomeko yonse
+answer-questions-explanation-1 = Ganizirani kaye za mafunso omwe aperekedwa, lingalirani mtundu wa zomwe mukufuna kunena, koma musakonzekere kwambiri. Dinani chizindikiro cha ‘record’. Mukamaliza kutepa, mutha kumvera zomwe munanena, kutepanso, kuchotsa kapena kutumiza.
+answer-questions-explanation-2 = Kumbukirani - musadandaule ngati mungachite chibwibwi, kuyima pang’ono kapena kubwereza mawu. Zonsezi ndi deta yofunika kwa mainjiniya omwe akuyesera kupanga zida zodziwira mawu zomwe zimaphatikiza aliyense komanso zimagwira ntchito pa moyo watsiku ndi tsiku.
+answer-questions-tip-1 = tepani pamalo opanda phokoso
+answer-questions-tip-2 = Sankhani malo okhala ndi intaneti yabwino
+answer-questions-tip-3b = Yesetsani kuti yankho lanu likhale pakati pa masekondi khumi ndi asanu mpaka makumi atatu
+answer-questions-tip-4 = Pewani kulankhula mawu onyoza, okwiyitsa kapena okhumudwitsa
+answer-questions-tip-5 = Lankhulani mwachibadwa, monga momwe mungalankhulire ndi bwenzi lanu - gwiritsani ntchito mtundu, chilankhulo, ndi kalankhulidwe kanu kenikeni
+answer-questions-tip-6 = Sungani mawu anu kukhala ofanana nthawi zonse - musafuule kapena kuimba
+transcribe-the-audio-subheader-1 = ndondomeko yonse
+transcribe-the-audio-subheader-2 = Manambala ndi zilembo zazifupi
+transcribe-the-audio-subheader-3 = Ma tagi apadera
+transcribe-the-audio-subheader-4 = Magawo a mawu, kuyamba kolakwika, mawu obwerezedwa
+transcribe-the-audio-subheader-5 = Zolakwika za mawu a chilankhulo ndi mawu achizolowezi
+transcribe-the-audio-subheader-1-explanation = Kawirikawiri, muyenera kulemba zonse zomwe mwamva. Izi zikuphatikizapo;
+
+## Code-Switching
+
+code-switching-cultural-topics-header = Sankhani Nkhani Zokhudza Chikhalidwe Chanu
+code-switching-cultural-topics-explanation = Zakudya, miyambo, masiku a tchuthi, komanso mmene mabanja amayendera nthawi zambiri zimapangitsa anthu kugwiritsa ntchito zilankhulo zosiyanasiyana.
+code-switching-cultural-topics-explanation-example = "Kodi mumamufotokozera bwanji Día de los Muertos kwa munthu amene amangolankhula Chingerezi?"
+code-switching-informal-scenarios-header = Fufuzani Zochitika Zosavomerezeka
+code-switching-informal-scenarios-explanation = Kukambirana ndi abwenzi kapena kutumizirana mauthenga nthawi zambiri kumakhala ndi kusinthana kwachilengedwe. Chitsanzo:
+code-switching-informal-scenarios-explanation-example = "Kodi nthabwala yanji imene anzanu nthawi zonse amachita - ndipo amanena bwanji?"
+# What to Avoid
+code-switching-avoid-subheader = Zoyenera Kupewa
+code-switching-avoid-intro = Mafunso omwe angakhale:
+code-switching-avoid-1 = Funsani zambiri zomwe zingathe kuzindikiritsa munthu payekha
+code-switching-avoid-2 = Pemphani mawu odana kapena malingaliro ena okondera kapena okhumudwitsa
+code-switching-avoid-3 = Chititsani munthu kuti agawane mayankho omwe ali achinsinsi komanso omwe angayambitse kusagwirizana
+code-switching-dont-header = Osachita
+code-switching-dont-1 = Musagwiritse ntchito mawu okhwima kwambiri
+# Reviewing a Question
+code-switching-review-subheader = onanisso mafunso kachikena
+code-switching-review-intro = Onetsetsani kuti funsoli likukwaniritsa zofunikira:
+code-switching-review-criterion-1 = zikhale zosavuta kumvetsetsa ndi kuyankhula
+code-switching-review-criterion-2 = zikhale zogwirizana thawi zambiri
+code-switching-review-criterion-3 = Osagwiritsa ntchito, kapena kupempha, chilankhulo choipa kapena chonyansa
+code-switching-review-does-not-header = Ndipo <bold>SICHIKUFUNIKA</bold> kuphatikizapo:
+code-switching-review-offensive-content = <bold>Zomwe zili zonyansa kapena zachinsinsi</bold>
+code-switching-answer-header = Zinthu zonyoza kapena zambiri zofunika kusamala
+code-switching-review-no-1 = Mafunso omwe angafunsa za zambiri zomwe zingadziwike kuti ndi za munthu payekha
+code-switching-review-no-2 = Mafunso omwe angayambitse mawu odana kapena malingaliro ena okondera kapena okhumudwitsa
+code-switching-review-no-3 = Chititsani munthu kuti agawane mayankho omwe ali achinsinsi komanso omwe angayambitse kusagwirizana
+# Answering a Question
+code-switching-answer-subheader = kuyankha funso
+code-switching-answer-intro = Poyankha funso, cholinga chake ndi kuyankha mwachibadwa - monga momwe mungachitire pokambirana zenizeni. Tikufuna kujambula momwe zilankhulo zimasakanikirana m'mawu a tsiku ndi tsiku.
+code-switching-answer-bullet-1 = Ganizirani za zochitika zenizeni: nthabwala, mikangano, miyambo
+code-switching-answer-bullet-2 = Tangoganizirani mukutumizirana uthenga ndi mnzanu kapena kuuza wina nkhani
+code-switching-answer-bullet-3 = Gwiritsani ntchito mawu omwe mungagwiritse ntchito, ngakhale atakhala obwereka kapena osakanikirana
+code-switching-answer-bullet-4 = Palibe njira "yangwiro" yoyankhira
+code-switching-authentic-header = Yankhani Mwachibadwa Ndiponso Moona
+code-switching-authentic-speak = <bold>Lankhulani momwe mungachitire ndi anzanu kapena abale anu.</bold> Ngati mumasakaniza zilankhulo m'moyo weniweni, chitani chimodzimodzi apa. Chitsanzo:
 
 ## Reporting Content
 

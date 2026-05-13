@@ -210,6 +210,7 @@ code-switching-dont-header = Mira
 # Reviewing a Question
 code-switching-review-subheader = labi yuli bɔhisi
 code-switching-review-criterion-2 = Di tu ni di mali anfaani
+code-switching-review-no-3 = bɔhasi din ni che ka niri labsili  hankali labisibu
 # Answering a Question
 code-switching-answer-subheader = Bɔhigu labsibu
 code-switching-answer-bullet-3 = zaŋmi bachi shɛŋa a ni shirikuli yɛn zaŋ ku bukaata hali di yi nyɛla bachipaŋdili  bee bachi gaba
