@@ -554,22 +554,21 @@ const UserClient = {
 
     const clientIds = clients.map((c: any) => c.client_id).concat(client_id)
 
-    const userData = await Promise.all(
-      Object.entries({
-        has_login: true,
-        email,
-        ...pick(data, ['username', 'skip_submission_feedback', 'visible']),
-      }).map(async ([key, value]) => key + ' = ' + (await db.escape(value)))
-    )
+    const fields = {
+      has_login: true,
+      email,
+      ...pick(data, ['username', 'skip_submission_feedback', 'visible']),
+    }
+    const cols = Object.keys(fields)
+    const vals = Object.values(fields)
     await db.query(
       `
         UPDATE user_clients
-        SET ${userData.join(', ')}
-        WHERE client_id = '${clientId}'
-      `
+        SET ${cols.map(c => `${c} = ?`).join(', ')}
+        WHERE client_id = ?
+      `,
+      [...vals, clientId]
     )
-    // the clientId can't be a placeholder value otherwise it'll
-    // treat any ? in the username or email as a placeholder also and the query will break
     const updateDemographicsPromise = updateDemographics(
       clientId,
       data.age,
