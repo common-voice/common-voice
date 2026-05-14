@@ -137,6 +137,7 @@ small-batch-response-message =
         [one] 1 җөмләдән { $uploadedSentences } җөмлә җыелган. Кире кагылган җөмләләрне йөкләп алу өчен <downloadLink>монда</downloadLink> басыгыз.
        *[other] { $totalSentences } җөмләдән { $uploadedSentences } җөмлә җыелган. Кире кагылган җөмләләрне йөкләп алу өчен <downloadLink>монда</downloadLink> басыгыз.
     }
+small-batch-sentences-rule-1 = «Нинди җөмләләрне җибәрергә була?» кулланмасының күрсәтмәләре буенча эшләгез
 small-batch-sentences-rule-2 = Бер юлга бер җөмлә өстәү
 small-batch-sentences-rule-3 = Җөмләләрне берәмләп аерым юлларга бүлегез. Моның өчен бер тапкыр «Enter» яки «Return» төймәсенә басыгыз.
 small-batch-sentences-rule-4 = 1000 кадәр җөмлә өстәү
