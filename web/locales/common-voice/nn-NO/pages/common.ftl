@@ -117,6 +117,7 @@ fuf = Fulfulde
 fy-NL = Frisisk
 ga-IE = Irsk
 gaa = Ga
+gcf = Martinesisk kreol
 gej = Mina
 ggg = Gurgula
 gid = Guidar
