@@ -373,6 +373,8 @@ const UserClient = {
     client_id: string
     email: string
   }) {
+    const filterColumn = client_id ? 'client_id' : 'email'
+    const filterValue = client_id || email
     const [rows] = await db.query(
       `
         SELECT
@@ -398,9 +400,7 @@ const UserClient = {
           (SELECT demographics.age_id, demographics.gender_id
             FROM user_clients
             LEFT JOIN demographics ON user_clients.client_id = demographics.client_id
-            WHERE user_clients.${
-              client_id ? `client_id = "${client_id}"` : `email = "${email}"`
-            }
+            WHERE user_clients.${filterColumn} = ?
               AND user_clients.has_login
             ORDER BY updated_at DESC
             LIMIT 1
@@ -409,7 +409,7 @@ const UserClient = {
         LEFT JOIN genders on d.gender_id = genders.id
         WHERE (u.client_id = ? OR email = ?) AND !has_login
       `,
-      [client_id, email]
+      [filterValue, client_id, email]
     )
 
     const userObj = Object.values(
