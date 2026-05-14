@@ -117,6 +117,7 @@ fuf = Ginejska Pularšćina
 fy-NL = Frizišćina
 ga-IE = Iršćina
 gaa = Ga
+gcf = Martinikska kreolšćina
 gej = Mina
 ggg = Gurgula
 gid = Guidar
