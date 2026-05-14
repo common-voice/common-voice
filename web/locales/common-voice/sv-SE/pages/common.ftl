@@ -117,6 +117,7 @@ fuf = Pular Guinea
 fy-NL = Frisiska
 ga-IE = Irländska
 gaa = Ga
+gcf = Martinikansk kreolsk
 gej = Mina
 ggg = Gurgula
 gid = Guidar
