@@ -38,6 +38,7 @@ about-no-votes-text = Mgbe ojieme jụrụ mkpụrụ ndekọ olu ọ laghachi n
 about-dataset-new = Ntọala Data Common Voice
 about-dataset-new-text = Ntọala Data Common Voice nwere ọtụtụ narị nke puku nke ngosi olu nke na-enyere ndị developa aka wulite ngwaọrụ e ji a mata olu.
 about-clip-graveyard = Grevyaadi Klip
+about-clip-graveyard-text = Grevyaadi Klip
 about-get-involved = Sònyé
 about-nav-why-common-voice = Màkà gị́nị́?
 about-nav-how-it-works = Ètú ólé?
