@@ -16,6 +16,8 @@ error-title-502 = Тоташу өзелде
 error-content-502 = Сез хәзер серверларыбыз белән тотрыклы элемтәдә була алмыйсыз. Бераз көтегез һәм яңадан кабатлагызчы. Ярдәм кирәк булса, <matrixLink>җәмгыятьнең Matrix платформасындагы әңгәмәсенә</matrixLink> кушылыгыз, читенлекләрне <githubLink>GitHub</githubLink> сайты аша күзәтегез яки <discourseLink>Discourse-форумнарыбызга</discourseLink> кереп чыгыгыз.
 error-title-503 = Көтелмәгән буш торуга юлыктык
 error-content-503 = Сайт мөмкин булганча тиз арада янәдән эшли башлаячак. Иң соңгы мәгълүмат алу өчен, зинһар <matrixLink>Matrix чатына</matrixLink> кушылыгыз, яисә, сайт эшендә булган җитешсезлекләр турында хәбәр итү я хәбәрдар булып тору өчен, <githubLink>GitHub</githubLink>'ка я <discourseLink>безнең Discourse форумнарыбызга</discourseLink> үтегез.
+error-title-504 = Сервердан җавапны көтү вакыты узды
+error-content-504 = Сервердан җавапны көтү артык күп вакыт алды. Гадәттә, бу вакытлы күренеш. Яңадан кабатлагызчы. Ярдәм кирәк булса, <matrixLink>җәмгыятьнең Matrix платформасындагы әңгәмәсенә</matrixLink> кушылыгыз, читенлекләрне <githubLink>GitHub</githubLink> сайты аша күзәтегез яки <discourseLink>Discourse-форумнарыбызга</discourseLink> кереп чыгыгыз.
 error-code = Хата { $code }
 # Warning message shown when none of the clips could be uploaded
 error-duplicate-clips-all =
