@@ -56,6 +56,8 @@ about-nav-playbook = Mụta etu e si esonye
 ## What is a language
 
 about-playbook-what-is-language = Gịnị bụ asụsụ na Common Voice?
+about-playbook-what-is-language-content-1 = E nwere ọtụtụ ụzọ e si eche maka asụsụ. N'ihi ebumnuche mọdelụ mmata olu, Common Voice na-atụ aro ilekwasị anya na 'nghọta ibe', ma ọ bụ 'ndị na-asụ asụsụ a hà nwere ike ịghọta ibe ha ma ha gbalịa ime ótù ahụ?'
+about-playbook-what-is-language-content-2 = Anyị chọrọ ka mọdelụ okwu ka mma n'ịghọta ọtụtụ ndị na-ekwu okwu dị iche iche. Nke a ime, ntọala data olu ga-anọchite anya ọtụtụ mmadụ dị iche iche.
 
 ## How to access dataset
 
