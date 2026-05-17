@@ -41,7 +41,13 @@ about-clip-graveyard = Grevyaadi Klip
 about-clip-graveyard-text = Grevyaadi Klip
 about-get-involved = Sònyé
 about-get-involved-text-2 = Chọrọ inye aka ime Common Voice ka ọ dịwanye mma?
+about-stay-in-touch = Kedu ka m ga-esi enwe mmetụta?
+about-stay-in-touch-button = Debanye
 about-nav-why-common-voice = Màkà gị́nị́?
 about-nav-how-it-works = Ètú ólé?
 about-nav-partners = Ńdí ḿmékọ́
 about-nav-get-involved = Sònyé
+
+## How to access dataset
+
+about-playbook-how-access-dataset = Kedu ka m ga-esi enweta ma jiri ntọala data rụọ ọrụ?
