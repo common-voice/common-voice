@@ -40,6 +40,7 @@ about-dataset-new-text = Ntọala Data Common Voice nwere ọtụtụ narị nke
 about-clip-graveyard = Grevyaadi Klip
 about-clip-graveyard-text = Grevyaadi Klip
 about-get-involved = Sònyé
+about-get-involved-text-2 = Chọrọ inye aka ime Common Voice ka ọ dịwanye mma?
 about-nav-why-common-voice = Màkà gị́nị́?
 about-nav-how-it-works = Ètú ólé?
 about-nav-partners = Ńdí ḿmékọ́
