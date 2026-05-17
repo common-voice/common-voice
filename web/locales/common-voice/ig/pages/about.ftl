@@ -43,10 +43,19 @@ about-get-involved = Sònyé
 about-get-involved-text-2 = Chọrọ inye aka ime Common Voice ka ọ dịwanye mma?
 about-stay-in-touch = Kedu ka m ga-esi enwe mmetụta?
 about-stay-in-touch-button = Debanye aha
+about-stay-in-touch-text-1 = <emailFragment>Debanye aha</emailFragment> n'ahịrị nzipụ ozi anyị iji mụta otu ị ga-esi sonye n'ozi nkwalite, ihe omume ma sonye n'ịrụ atụmatụ dị na Common Voice.
+about-stay-in-touch-text-2 = I nwere ike zute ndị ọzọ n'otu asụsụ Mozilla dị iche iche site n'isonye <discordLink>Discord</discordLink> ma ọ bụ <discourseLink>Discourse</discourseLink> maka mkparịta ụka isiokwu, ma ọ bụ <matrixLink>Matrix</matrixLink> maka ndụmọdụ ngwá ngwá.
 about-nav-why-common-voice = Màkà gị́nị́?
 about-nav-how-it-works = Ètú ólé?
 about-nav-partners = Ńdí ḿmékọ́
 about-nav-get-involved = Sònyé
+about-nav-how-it-works-2 = Kedu ka Common Voice si arụ ọrụ?
+about-nav-playbook = Mụta etu e si esonye
+
+## Community Playbook Content
+## What is a language
+
+about-playbook-what-is-language = Gịnị bụ asụsụ na Common Voice?
 
 ## How to access dataset
 
