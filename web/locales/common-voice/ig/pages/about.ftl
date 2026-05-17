@@ -58,6 +58,17 @@ about-nav-playbook = Mụta etu e si esonye
 about-playbook-what-is-language = Gịnị bụ asụsụ na Common Voice?
 about-playbook-what-is-language-content-1 = E nwere ọtụtụ ụzọ e si eche maka asụsụ. N'ihi ebumnuche mọdelụ mmata olu, Common Voice na-atụ aro ilekwasị anya na 'nghọta ibe', ma ọ bụ 'ndị na-asụ asụsụ a hà nwere ike ịghọta ibe ha ma ha gbalịa ime ótù ahụ?'
 about-playbook-what-is-language-content-2 = Anyị chọrọ ka mọdelụ okwu ka mma n'ịghọta ọtụtụ ndị na-ekwu okwu dị iche iche. Nke a ime, ntọala data olu ga-anọchite anya ọtụtụ mmadụ dị iche iche.
+about-playbook-what-is-language-content-3 = Ụfọdụ asụsụ nwere nnukwu ndịiche n'ụtọasụsụ, nchịkọta okwu na mkpọpụta okwu. N'ihi nke a, anyị <ctaLink>na-ewebata 'Variants'</ctaLink> na 2022. Nke a na-enye ótù dị iche iche ụzọ isi ịmata asụsụ ha n'ime nnukwu ntọala data.
+
+## How do I add a language
+
+about-playbook-how-add-language = Kedu etu m ga-esi tinye asụsụ?
+about-playbook-how-add-language-content-1 =
+    Nke mbụ, lelee ma asụsụ gị <languageLink>adịlarị</languageLink>.
+    Ọ bụrụ na ọ dịghị, ị nwere ike <languageRequestLink>jụọ maka itinye asụsụ gị</languageRequestLink>.
+    E nwere usoro abụọ. Ịtụgharị saịtị ahụ, na ịchịkọta ahịrịokwu
+about-playbook-how-add-language-translating-heading = Ịtụgharị saịtị ahụ
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Lelee ntụziaka anyị gbasara etu e si e ji Pontoon.</translateVideoLink>
 
 ## How to access dataset
 
