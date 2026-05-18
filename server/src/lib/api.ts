@@ -1,4 +1,5 @@
 import { PassThrough } from 'stream'
+import { randomBytes } from 'crypto'
 import * as path from 'path'
 import * as bodyParser from 'body-parser'
 import { MD5 } from 'crypto-js'
@@ -48,6 +49,7 @@ import validate, {
   anonUserMetadataSchema,
   userClientPatchSchema,
   clientIdParamSchema,
+  bucketParamsSchema,
 } from './validation'
 import Statistics from './statistics'
 import SentencesRouter from '../api/sentences'
@@ -185,6 +187,7 @@ export default class API {
     router.get(
       '/bucket/:bucket_type/:path',
       rateLimiter('/bucket', { points: 10, duration: 60 }),
+      validate({ params: bucketParamsSchema }),
       this.getPublicUrl
     )
 
@@ -319,6 +322,17 @@ export default class API {
     router.post(
       '/user_clients/:client_id/claim',
       validate({ params: clientIdParamSchema }),
+      // Legit signup-claim runs once per device; daily caps deter enumeration.
+      rateLimiter(
+        '/user_clients/claim:byUser',
+        { points: 3, duration: 86400 },
+        req => `u:${req.session.user!.client_id}`
+      ),
+      rateLimiter(
+        '/user_clients/claim:byTarget',
+        { points: 5, duration: 86400 },
+        req => `t:${req.params.client_id}`
+      ),
       this.claimUserClient
     )
 
@@ -904,9 +918,7 @@ export default class API {
     const { type: imageUploadType } = params
     if (imageUploadType === 'file') {
       const rawImageData = body
-      const prefix = (new Date().getUTCMilliseconds() * Math.random())
-        .toString(36)
-        .slice(-5)
+      const prefix = randomBytes(8).toString('hex')
       const fileName = `${client_id}/${prefix}-avatar.jpeg`
       try {
         const bucketName = getConfig().CLIP_BUCKET_NAME
@@ -1162,10 +1174,7 @@ export default class API {
   //
 
   getPublicUrl = async (request: Request, response: Response) => {
-    const path = request?.params?.path
-    if (!path) {
-      return response.sendStatus(StatusCodes.BAD_REQUEST)
-    }
+    const path = request.params.path
 
     // Check for datasets-old feature flag
     const { feature } = request.query
@@ -1208,12 +1217,12 @@ export default class API {
       'https://localhost',
     ]
 
-    const isLegitimateOrigin = allowedOrigins.some(origin =>
-      referer.startsWith(origin)
+    const isLegitimateOrigin = allowedOrigins.some(
+      origin => referer === origin || referer.startsWith(origin + '/')
     )
 
-    if (!isLegitimateOrigin && referer) {
-      // If there's a referer but it's not from an allowed origin, reject the request
+    // Empty Referer/Origin is treated as untrusted: non-browser callers must identify themselves.
+    if (!isLegitimateOrigin) {
       return response.status(403).json({
         message: 'Access denied: Invalid origin',
         error: 'Origin validation failed',
@@ -1221,10 +1230,7 @@ export default class API {
     }
 
     const bucket_type = request?.params?.bucket_type
-    const url = await this.bucket.getPublicUrl(
-      decodeURIComponent(path),
-      bucket_type
-    )
+    const url = await this.bucket.getPublicUrl(path, bucket_type)
     response.json({ url })
   }
 
