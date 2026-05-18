@@ -87,7 +87,7 @@ export default class Server {
         )
       },
     }
-    app.set('trust proxy', true)
+    app.set('trust proxy', 1)
     app.use(express.json())
 
     app.use(compression())
@@ -153,9 +153,13 @@ export default class Server {
               request.originalUrl,
               JSON.stringify(error.validationErrors)
             )
-            return response.status(StatusCodes.BAD_REQUEST).json({
-              errors: error.validationErrors,
-            })
+            return response
+              .status(StatusCodes.BAD_REQUEST)
+              .json(
+                ENVIRONMENT === 'prod'
+                  ? { error: 'invalid request' }
+                  : { errors: error.validationErrors }
+              )
           }
           next(error)
         }
