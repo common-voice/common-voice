@@ -222,7 +222,7 @@ describe('DatasetDownloadEmailPrompt', () => {
     )
 
     const loginLink = getByRole('link')
-    expect(loginLink).toHaveAttribute('href', '/login')
+    expect(loginLink.getAttribute('href')).toBe('/login')
     expect(queryByLabelText(/Email/)).toBeNull()
     expect(mockGetPublicUrl).not.toHaveBeenCalled()
   })
