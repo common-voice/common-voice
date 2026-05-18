@@ -177,19 +177,6 @@ export default class API {
       this.saveAnonymousAccountLanguages
     )
 
-    //
-    // Storage & File Access
-    //
-
-    // Get public URL for legacy dataset bucket files (feature-flagged)
-    // Params: bucket_type, path
-    // TODO: Consider to move this to protected router and add under user profile
-    router.get(
-      '/bucket/:bucket_type/:path',
-      rateLimiter('/bucket', { points: 10, duration: 60 }),
-      validate({ params: bucketParamsSchema }),
-      this.getPublicUrl
-    )
 
     //
     // Languages
@@ -312,6 +299,25 @@ export default class API {
     // Get status of background job (e.g., avatar image upload)
     // Params: jobId
     router.get('/job/:jobId', validate({ params: jobSchema }), this.getJob)
+
+    //
+    // Dataset Access
+    //
+
+    // Get signed URL for legacy dataset bucket files (feature-flagged)
+    // Params: bucket_type, path
+    router.get(
+      '/bucket/:bucket_type/:path',
+      validate({ params: bucketParamsSchema }),
+      // Issuing a URL = potentially GB-scale download; researchers fetch a handful per session, not per minute.
+      rateLimiter('/bucket:byIp', { points: 3, duration: 60 }),
+      rateLimiter(
+        '/bucket:byPath',
+        { points: 30, duration: 3600 },
+        req => `p:${req.params.path}`
+      ),
+      this.getPublicUrl
+    )
 
     //
     // User Account Management
@@ -1198,17 +1204,17 @@ export default class API {
         return response.redirect(
           'https://mozilladatacollective.com/organization/cmfh0j9o10006ns07jq45h7xk'
         )
-      } else {
-        // Return error for scripts/API clients
-        return response.status(403).json({
-          message:
-            'This endpoint is no longer available. Please visit https://mozilladatacollective.com/organization/cmfh0j9o10006ns07jq45h7xk to download datasets.',
-          error: 'Access restricted',
-        })
       }
+      // Return error for scripts/API clients
+      return response.status(403).json({
+        message:
+          'This endpoint is no longer available. Please visit https://mozilladatacollective.com/organization/cmfh0j9o10006ns07jq45h7xk to download datasets.',
+        error: 'Access restricted',
+      })
     }
 
-    // Validate request origin to prevent unauthorized access
+    // CSRF cover: session cookie still travels cross-origin without sameSite=lax.
+    // TODO: remove once the session cookie is sameSite=lax or a CSRF header is required.
     const referer = request.get('Referer') || request.get('Origin') || ''
     const allowedOrigins = [
       'https://commonvoice.mozilla.org', // production
@@ -1216,11 +1222,9 @@ export default class API {
       'http://localhost',
       'https://localhost',
     ]
-
     const isLegitimateOrigin = allowedOrigins.some(
       origin => referer === origin || referer.startsWith(origin + '/')
     )
-
     // Empty Referer/Origin is treated as untrusted: non-browser callers must identify themselves.
     if (!isLegitimateOrigin) {
       return response.status(403).json({
@@ -1229,7 +1233,7 @@ export default class API {
       })
     }
 
-    const bucket_type = request?.params?.bucket_type
+    const bucket_type = request.params.bucket_type
     const url = await this.bucket.getPublicUrl(path, bucket_type)
     response.json({ url })
   }
