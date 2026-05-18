@@ -7,7 +7,7 @@ import {
 } from '@fluent/react'
 import classNames from 'classnames'
 
-import { useAPI } from '../../../../hooks/store-hooks'
+import { useAPI, useAccount } from '../../../../hooks/store-hooks'
 import useCopyToClipboard from '../../../../hooks/use-copy-to-clipboard'
 import useIsMaxWindowWidth from '../../../../hooks/use-is-max-window-width'
 import { CloudIcon } from '../../../ui/icons'
@@ -57,6 +57,7 @@ const DatasetDownloadEmailPrompt = ({
   isSubscribedToMailingList,
 }: DownloadFormProps) => {
   const api = useAPI()
+  const account = useAccount()
 
   const isMaxWidth = useIsMaxWindowWidth(MAX_WIDTH_FOR_DONATE_MODAL)
 
@@ -145,13 +146,14 @@ const DatasetDownloadEmailPrompt = ({
   }
 
   useEffect(() => {
+    if (!account) return
     updateLink().then(downloadLink => {
       setFormState(prevState => ({
         ...prevState,
         downloadLink,
       }))
     })
-  }, [downloadPath, selectedLocale])
+  }, [downloadPath, selectedLocale, account])
 
   // check if email is valid
   useEffect(() => {
@@ -160,6 +162,17 @@ const DatasetDownloadEmailPrompt = ({
       isEmailValid: email.includes('@') && email.includes('.'),
     }))
   }, [email])
+
+  if (!account) {
+    return (
+      <div className={datasetDownloadPromptClassName}>
+        <LinkButton href="/login" rounded className="download-language">
+          <Localized id="login-signup" />
+          <CloudIcon />
+        </LinkButton>
+      </div>
+    )
+  }
 
   return (
     <div className={datasetDownloadPromptClassName}>
