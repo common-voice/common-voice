@@ -1215,16 +1215,20 @@ export default class API {
 
     // CSRF cover: session cookie still travels cross-origin without sameSite=lax.
     // TODO: remove once the session cookie is sameSite=lax or a CSRF header is required.
-    const referer = request.get('Referer') || request.get('Origin') || ''
+    const refererHeader = request.get('Referer') || request.get('Origin') || ''
+    let refererOrigin = ''
+    try {
+      refererOrigin = new URL(refererHeader).origin
+    } catch {
+      // malformed or missing header — refererOrigin stays ''
+    }
     const allowedOrigins = [
       'https://commonvoice.mozilla.org', // production
       'https://commonvoice.allizom.org', // staging + sandbox
-      'http://localhost',
-      'https://localhost',
     ]
-    const isLegitimateOrigin = allowedOrigins.some(
-      origin => referer === origin || referer.startsWith(origin + '/')
-    )
+    const isLegitimateOrigin =
+      allowedOrigins.includes(refererOrigin) ||
+      /^https?:\/\/localhost(:\d+)?$/.test(refererOrigin)
     // Empty Referer/Origin is treated as untrusted: non-browser callers must identify themselves.
     if (!isLegitimateOrigin) {
       return response.status(403).json({

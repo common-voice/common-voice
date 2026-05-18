@@ -155,11 +155,9 @@ export default class Server {
             )
             return response
               .status(StatusCodes.BAD_REQUEST)
-              .json(
-                ENVIRONMENT === 'prod'
-                  ? { error: 'invalid request' }
-                  : { errors: error.validationErrors }
-              )
+              .json({
+                errors: PROD ? ['invalid request'] : error.validationErrors,
+              })
           }
           next(error)
         }

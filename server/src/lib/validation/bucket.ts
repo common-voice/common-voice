@@ -6,7 +6,7 @@ export const bucketParamsSchema: AllowedSchema = {
   properties: {
     bucket_type: {
       type: 'string',
-      enum: ['dataset', 'clip'],
+      enum: ['dataset'],
     },
     path: {
       type: 'string',
