@@ -137,6 +137,7 @@ small-batch-response-message =
         [one] 1 җөмләдән { $uploadedSentences } җөмлә җыелган. Кире кагылган җөмләләрне йөкләп алу өчен <downloadLink>монда</downloadLink> басыгыз.
        *[other] { $totalSentences } җөмләдән { $uploadedSentences } җөмлә җыелган. Кире кагылган җөмләләрне йөкләп алу өчен <downloadLink>монда</downloadLink> басыгыз.
     }
+small-batch-sentences-rule-1 = «Нинди җөмләләрне җибәрергә була?» кулланмасының күрсәтмәләре буенча эшләгез
 small-batch-sentences-rule-2 = Бер юлга бер җөмлә өстәү
 small-batch-sentences-rule-3 = Җөмләләрне берәмләп аерым юлларга бүлегез. Моның өчен бер тапкыр «Enter» яки «Return» төймәсенә басыгыз.
 small-batch-sentences-rule-4 = 1000 кадәр җөмлә өстәү
@@ -159,5 +160,6 @@ transcribe-audio-menu-item-tooltip = Аудиоязмаларны текстка
 write-contribute-menu-aria-label = Язу көйләүләре менюсы
 add-sentences-menu-item-aria-label = Җәмгыять уку өчен яңа җомләләр өстәгез
 review-sentences-menu-item-aria-label = Берләшмә тарафыннан җибәргән җөмләләрне тикшерегез
+add-questions-menu-item-aria-label = Җәмгыять укысын һәм тикшерсен өчен яңа сорауларны җибәрегез
 review-questions-menu-item-aria-label = Берләшмә тарафыннан җибәргән яңа сорауларны тикшереп, тавыш бирегез.
 transcribe-audio-menu-item-aria-label = Аудиоязмаларны текстка үзгәртү

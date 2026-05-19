@@ -74,6 +74,8 @@
 
 ### Changes merged after current release
 
+- Chore: Several security hardening changes, by [@moz-bozden](https://github.com/moz-bozden) in [#5400](https://github.com/common-voice/common-voice/pull/5400) (in v1.158.6)
+- Fix: Add validation to user-client requests, by [@moz-bozden](https://github.com/moz-bozden) in [#5399](https://github.com/common-voice/common-voice/pull/5399) (in v1.158.6)
 - Fix: Prevent security scanners with fuzzy parameters to log errors, by [@moz-bozden](https://github.com/moz-bozden) in [#5398](https://github.com/common-voice/common-voice/pull/5398) (in v1.158.4)
 - Fix state handling problems in datasets page (only open to researchers), by [@moz-bozden](https://github.com/moz-bozden) in [#5387](https://github.com/common-voice/common-voice/pull/5387) (in v1.158.4)
 - Add v23.0 and v24.0 data (only open to researchers), by [@moz-bozden](https://github.com/moz-bozden) in [#5386](https://github.com/common-voice/common-voice/pull/5386) (in v1.158.4)
@@ -83,6 +85,7 @@
 
 #### Data Changes after current release
 
+- Welcome to new languages Edo (`bin`), Martinican Creole (`gcf`), Sango (`sg`), and Tiv (`tiv`)
 - Add Sundanese (`su`) variants by [@moz-acfort](https://github.com/moz-acfort) in [#5397](https://github.com/common-voice/common-voice/pull/5397) (in v.1.158.5)
 - Add Chichewa (`ny`) variants by [@moz-acfort](https://github.com/moz-acfort) in [#5396](https://github.com/common-voice/common-voice/pull/5396) (in v.1.158.5)
 - Welcome to new languages Mon (`mnw`) and Shimaore (`swb`)
@@ -96,6 +99,7 @@
 
 ##### SS Data Changes after current release
 
+- Add Sango (`sg`) questions by [@moz-acfort](https://github.com/moz-acfort) in [#541](https://github.com/common-voice/spontaneous-speech/pull/541) (in v1.158.4)
 - Add Afaan Oromo (`om`) questions by [@moz-acfort](https://github.com/moz-acfort) in [#540](https://github.com/common-voice/spontaneous-speech/pull/540) (in v1.158.4)
 - Add Shimaore (`swb`) questions by [@moz-acfort](https://github.com/moz-acfort) in [#538](https://github.com/common-voice/spontaneous-speech/pull/538) (in v1.158.3)
 - Add Mon (`mnw`) questions by [@moz-acfort](https://github.com/moz-acfort) in [#537](https://github.com/common-voice/spontaneous-speech/pull/537) (in v1.158.3)

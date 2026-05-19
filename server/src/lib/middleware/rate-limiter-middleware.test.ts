@@ -116,6 +116,41 @@ describe('rateLimitedMiddleware', () => {
     expect(mockNextFunction).not.toBeCalled()
   })
 
+  it('uses keyFn result as the rate limit key when provided', async () => {
+    mockRateLimiterConsume.mockResolvedValue(undefined)
+    const keyFn = jest.fn(() => 'custom-key')
+    const limiter = rateLimiter(
+      'fake-key',
+      { points: 100, duration: 60 },
+      keyFn
+    )
+
+    await limiter(
+      mockRequest as Request,
+      mockResponse as Response,
+      mockNextFunction as NextFunction
+    )
+
+    expect(keyFn).toBeCalledWith(mockRequest)
+    expect(mockRateLimiterConsume).toBeCalledWith('custom-key')
+    expect(mockNextFunction).toBeCalledWith()
+  })
+
+  it('falls back to "unknown" when request.ip is undefined', async () => {
+    mockRateLimiterConsume.mockResolvedValue(undefined)
+    const requestWithoutIp = {} as Request
+    const limiter = rateLimiter('fake-key', { points: 100, duration: 60 })
+
+    await limiter(
+      requestWithoutIp,
+      mockResponse as Response,
+      mockNextFunction as NextFunction
+    )
+
+    expect(mockRateLimiterConsume).toBeCalledWith('unknown')
+    expect(mockNextFunction).toBeCalledWith()
+  })
+
   it('handles errors from rateLimiter.consume', async () => {
     const mockError = new Error('Something went wrong...')
     mockRateLimiterConsume.mockImplementation(() => {

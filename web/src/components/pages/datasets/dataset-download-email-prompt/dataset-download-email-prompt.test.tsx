@@ -16,6 +16,11 @@ const mockGetPublicUrl = jest.fn(() =>
 const mockSaveHasDownload = jest.fn()
 const mockSubscribeToNewsLetter = jest.fn()
 
+let mockAccountValue: { client_id: string; email: string } | null = {
+  client_id: 'test-client-id',
+  email: 'user@example.com',
+}
+
 jest.mock('../../../../hooks/store-hooks', () => ({
   useAPI: () => {
     return {
@@ -24,6 +29,8 @@ jest.mock('../../../../hooks/store-hooks', () => ({
       subscribeToNewsletter: mockSubscribeToNewsLetter,
     }
   },
+  useAccount: () => mockAccountValue,
+  useIsFetchingAccount: () => false,
   useAction: () => jest.fn(),
 }))
 
@@ -40,6 +47,10 @@ const selectedDataset = {
   checksum: 'checksumtest1234',
   size: '100000',
 }
+
+beforeEach(() => {
+  mockAccountValue = { client_id: 'test-client-id', email: 'user@example.com' }
+})
 
 afterEach(() => {
   jest.clearAllMocks()
@@ -195,6 +206,26 @@ describe('DatasetDownloadEmailPrompt', () => {
       'en',
       '1'
     )
+  })
+
+  it('shows login button when user is not authenticated', async () => {
+    mockAccountValue = null
+
+    const { getByRole, queryByLabelText } = renderWithProviders(
+      <DatasetDownloadEmailPrompt
+        selectedLocale={locale}
+        downloadPath={selectedDataset.download_path}
+        releaseId={selectedDataset.id.toString()}
+        checksum={selectedDataset.checksum}
+        size={selectedDataset.size}
+        isSubscribedToMailingList={false}
+      />
+    )
+
+    const loginLink = getByRole('link')
+    expect(loginLink.getAttribute('href')).toBe('/login')
+    expect(queryByLabelText(/Email/)).toBeNull()
+    expect(mockGetPublicUrl).not.toHaveBeenCalled()
   })
 
   it('shows the donate modal after download button is clicked', async () => {
