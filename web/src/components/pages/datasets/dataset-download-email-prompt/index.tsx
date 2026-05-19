@@ -7,7 +7,11 @@ import {
 } from '@fluent/react'
 import classNames from 'classnames'
 
-import { useAPI, useAccount } from '../../../../hooks/store-hooks'
+import {
+  useAPI,
+  useAccount,
+  useIsFetchingAccount,
+} from '../../../../hooks/store-hooks'
 import useCopyToClipboard from '../../../../hooks/use-copy-to-clipboard'
 import useIsMaxWindowWidth from '../../../../hooks/use-is-max-window-width'
 import { CloudIcon } from '../../../ui/icons'
@@ -58,18 +62,19 @@ const DatasetDownloadEmailPrompt = ({
 }: DownloadFormProps) => {
   const api = useAPI()
   const account = useAccount()
+  const isFetchingAccount = useIsFetchingAccount()
 
   const isMaxWidth = useIsMaxWindowWidth(MAX_WIDTH_FOR_DONATE_MODAL)
 
-  const [formState, setFormState] = useState({
+  const [formState, setFormState] = useState<FormState>({
     email: '',
     isEmailValid: false,
     confirmNoIdentify: false,
     confirmSize: false,
     confirmJoinMailingList: false,
-    downloadLink: null,
+    downloadLink: undefined,
     hideEmailForm: false,
-  } as FormState)
+  })
 
   const [showDonateModal, setShowDonateModal] = useState(false)
 
@@ -93,7 +98,7 @@ const DatasetDownloadEmailPrompt = ({
 
   const updateLink = async () => {
     // disable link while we load a new one
-    setFormState(prevState => ({ ...prevState, downloadLink: null }))
+    setFormState(prevState => ({ ...prevState, downloadLink: undefined }))
 
     const key = downloadPath.replace('{locale}', selectedLocale)
     const { url } = await api.getPublicUrl(encodeURIComponent(key), 'dataset')
@@ -162,6 +167,10 @@ const DatasetDownloadEmailPrompt = ({
       isEmailValid: email.includes('@') && email.includes('.'),
     }))
   }, [email])
+
+  if (isFetchingAccount) {
+    return null
+  }
 
   if (!account) {
     return (

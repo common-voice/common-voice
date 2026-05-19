@@ -153,11 +153,18 @@ export default class Server {
               request.originalUrl,
               JSON.stringify(error.validationErrors)
             )
+            const errors: string[] = PROD
+              ? ['invalid request']
+              : (
+                  Object.values(
+                    error.validationErrors as Record<string, { message?: string }[]>
+                  ) as { message?: string }[][]
+                )
+                  .flat()
+                  .map(e => e.message ?? 'invalid value')
             return response
               .status(StatusCodes.BAD_REQUEST)
-              .json({
-                errors: PROD ? ['invalid request'] : error.validationErrors,
-              })
+              .json({ errors })
           }
           next(error)
         }

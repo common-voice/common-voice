@@ -30,6 +30,7 @@ jest.mock('../../../../hooks/store-hooks', () => ({
     }
   },
   useAccount: () => mockAccountValue,
+  useIsFetchingAccount: () => false,
   useAction: () => jest.fn(),
 }))
 

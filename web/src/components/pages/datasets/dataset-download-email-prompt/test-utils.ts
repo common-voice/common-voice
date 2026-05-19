@@ -12,14 +12,8 @@ type DownloadDatasetParams = {
     role: ByRoleMatcher,
     options?: ByRoleOptions
   ) => HTMLElement | null
-  getByLabelText: (
-    id: Matcher,
-    options?: SelectorMatcherOptions
-  ) => HTMLElement | null
-  getByRole: (
-    role: ByRoleMatcher,
-    options?: ByRoleOptions
-  ) => HTMLElement | null
+  getByLabelText: (id: Matcher, options?: SelectorMatcherOptions) => HTMLElement
+  getByRole: (role: ByRoleMatcher, options?: ByRoleOptions) => HTMLElement
   isSubscribedToMailingList?: boolean
   queryByLabelText?: (
     id: Matcher,
@@ -41,16 +35,16 @@ export const downloadDataset = ({
   expect(disabledDownloadLink).toBeNull() // not exist as a link
 
   // type in email address
-  userEvent.type(getByLabelText(/Email/)!, 'testemail@example.com')
+  userEvent.type(getByLabelText(/Email/), 'testemail@example.com')
 
   // check the checkboxes
-  userEvent.click(getByLabelText(/You are prepared to initiate a download of /)!)
+  userEvent.click(getByLabelText(/You are prepared to initiate a download of /))
 
-  userEvent.click(getByLabelText(/You agree to not attempt to determine/)!)
+  userEvent.click(getByLabelText(/You agree to not attempt to determine/))
 
   if (!isSubscribedToMailingList) {
     userEvent.click(
-      getByLabelText(/You want to join the Common Voice mailing list/)!
+      getByLabelText(/You want to join the Common Voice mailing list/)
     )
   } else {
     expect(
@@ -61,7 +55,7 @@ export const downloadDataset = ({
   // now has the link
   const downloadLink = getByRole('button', {
     name: /Download Dataset Bundle/,
-  })!
+  })
 
   expect(downloadLink.getAttribute('href')).toBe('https://example.com/fake/url')
 
