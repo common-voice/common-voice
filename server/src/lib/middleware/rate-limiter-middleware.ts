@@ -2,6 +2,7 @@ import { NextFunction, Request, Response } from 'express'
 import {
   RateLimiterRedis,
   IRateLimiterStoreOptions,
+  RateLimiterRes,
 } from 'rate-limiter-flexible'
 import { redis as redisClient } from '../redis-cache'
 
@@ -32,7 +33,8 @@ function rateLimitResponse(response: Response, msBeforeNext: number) {
 
 function rateLimiterMiddleware(
   keyPrefix: string,
-  rateLimiterOptions?: Partial<IRateLimiterStoreOptions>
+  rateLimiterOptions?: Partial<IRateLimiterStoreOptions>,
+  keyFn?: (request: Request) => string
 ) {
   const rateLimiter = createRateLimiter(keyPrefix, rateLimiterOptions)
 
@@ -47,7 +49,7 @@ function rateLimiterMiddleware(
     }
 
     try {
-      const key = request.ip
+      const key = keyFn ? keyFn(request) : request.ip ?? 'unknown'
       await rateLimiter.consume(key)
     } catch (exception) {
       if (exception instanceof Error) {
@@ -56,7 +58,18 @@ function rateLimiterMiddleware(
         return
       }
 
-      rateLimitResponse(response, exception?.msBeforeNext)
+      const rlRes = exception as RateLimiterRes
+      console.warn(
+        '[ratelimit] 429',
+        request.method,
+        request.originalUrl,
+        JSON.stringify({
+          keyPrefix,
+          authUserId: request.session?.user?.client_id ?? null,
+          targetClientId: request.params?.client_id ?? null,
+        })
+      )
+      rateLimitResponse(response, rlRes?.msBeforeNext)
       return
     }
 

@@ -46,7 +46,7 @@ export default class Challenge {
           challenge,
         ])
       );
-    } else if (bonus_type == 'invite') {
+    } else if (bonus_type === 'invite') {
       // return { showInviteSendToast: boolean, hasEarnedSessionToast: boolean } in the json
       // NOTE: easy to get confused about how should return true or false
       // if invite_send achievement is not earned yet, earn that achievement and return showInviteSendToast: true

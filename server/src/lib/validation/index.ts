@@ -30,5 +30,6 @@ export * from './statistics';
 export * from './clips';
 export * from './languages';
 export * from './user-client';
+export * from './bucket';
 
 export default validate;
