@@ -18,6 +18,10 @@ export function useAccount() {
   return useTypedSelector(({ user }) => user.account);
 }
 
+export function useIsFetchingAccount() {
+  return useTypedSelector(({ user }) => user.isFetchingAccount);
+}
+
 export function useAPI() {
   return useTypedSelector(({ api }) => api);
 }
