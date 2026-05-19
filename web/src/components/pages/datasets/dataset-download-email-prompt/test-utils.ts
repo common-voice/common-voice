@@ -8,14 +8,17 @@ import {
 import userEvent from '@testing-library/user-event'
 
 type DownloadDatasetParams = {
-  queryByRole: (role: ByRoleMatcher, options?: ByRoleOptions) => HTMLElement
+  queryByRole: (
+    role: ByRoleMatcher,
+    options?: ByRoleOptions
+  ) => HTMLElement | null
   getByLabelText: (id: Matcher, options?: SelectorMatcherOptions) => HTMLElement
   getByRole: (role: ByRoleMatcher, options?: ByRoleOptions) => HTMLElement
   isSubscribedToMailingList?: boolean
   queryByLabelText?: (
     id: Matcher,
     options?: SelectorMatcherOptions
-  ) => HTMLElement
+  ) => HTMLElement | null
 }
 
 export const downloadDataset = ({
@@ -45,7 +48,7 @@ export const downloadDataset = ({
     )
   } else {
     expect(
-      queryByLabelText(/You want to join the Common Voice mailing list/)
+      queryByLabelText?.(/You want to join the Common Voice mailing list/)
     ).toBeNull()
   }
 
