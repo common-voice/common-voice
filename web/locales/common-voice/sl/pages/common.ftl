@@ -149,6 +149,7 @@ rw = ruandščina
 sah = jakutščina
 sc = sardinščina
 scn = sicilijanščina
+sco = skotščina
 sd = sindščina
 sdh = južna kurdščina
 si = singalščina
@@ -162,6 +163,7 @@ sr = srbščina
 ss = svazijščina
 st = južna sotojščina
 sv-SE = švedščina
+sva = svanščina
 sw = svahili
 syr = sirščina
 ta = tamilščina
@@ -192,6 +194,7 @@ wep = vestfalščina
 wes = kamerunski pidžin
 wo = volofščina
 xh = kojsanščina
+xmf = mingrelščina
 yi = jidiš
 yo = jorubščina
 yue = kantonščina
@@ -234,6 +237,8 @@ indicates-required = * Zahtevano polje
 not-available-abbreviation = Ni na voljo
 # Text shown on a button that can be clicked to copy text to the clipboard
 copy = Kopiraj
+# Text shown on a button that can be clicked to close a modal or panel
+close = Zapri
 # Text shown on a button that can be clicked to cancel an action
 cancel = Prekliči
 # Text shown on a button that can be clicked to delete an item
@@ -243,6 +248,8 @@ delete = Izbriši
 
 # Text wrapped in <mark></mark> will have a white background.
 donate-banner-cta = <mark>Potrebujemo</mark><br/><mark>vašo pomoč!</mark>
+localization-select =
+    .label = Izberite jezik/območno nastavitev
 
 ## MDC Announcement
 

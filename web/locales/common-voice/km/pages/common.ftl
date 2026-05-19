@@ -40,6 +40,7 @@ bfd = បាហ្វុត
 bft = បាល់ទី
 bg = ប៊ុលហ្គារី
 bgp = បាឡូជីខាងកើត
+bin = Edo
 bkh = បាកូកូ
 bkm = កុម
 bm = បាំបារ៉ា
@@ -238,6 +239,7 @@ ml = ម៉ាឡាយ៉ាឡាម
 mmc = មីឆូអាកាន់ ម៉ាហ្សាហួ
 mn = ម៉ុងហ្គោលី
 mni = មីទី លន់
+mnw = Mon
 mos = ម៉ូស៊ី
 mqh = តឡាហ្សូយ៉ាល់តេប៉ិច មីកតិច
 mr = ម៉ារ៉ាធី
@@ -342,6 +344,7 @@ sdh = ជនជាតិឃឺដខាងត្បូង
 sdo = ស៊ីរីយ៉ាន ប៊ីដាយូហ
 seh = សេណា
 sei = ស៊េរី
+sg = សង់ហ្គោ
 shi = តាសលហ៊ីត
 shn = សាន
 si = ស៊ីនហាឡា
@@ -361,6 +364,7 @@ su = ស៊ុនដា
 sv-SE = ស៊ុយអែត
 sva = ស្វាន
 sw = ស្វាហ៊ីលី
+swb = ស៊ីម៉ាអ័រ
 syr = ស៊ីរីយ៉ាក
 szy = សាគីហ្សាយ៉ា
 ta = ភាសាតាមីល
@@ -372,6 +376,7 @@ tg = តាជីគី
 th = ថៃ
 ti = ទីរិនយ៉ា
 tig = ទីហ្គ្រេ
+tiv = ទីវ
 tk = តួកមេន
 tl = តាហ្គាឡុក
 tli = ទីលីងហ្គីត
@@ -494,6 +499,11 @@ announcement-mdc-text = <strong>សំណុំទិន្នន័យ Common V
 announcement-mdc-button-text = ចូលរួមជាមួយ Mozilla Data Collective
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = បើកនៅក្នុងផ្ទាំងថ្មី
+
+## Release Delay Announcement
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-delay = សហគមន៍ជាទីគោរព យើងកំពុងធ្វើការលើការចេញផ្សាយនេះ។ យើងរំពឹងថាវានឹងត្រូវបានដាក់ឱ្យប្រើប្រាស់ជាផ្នែកៗក្នុងរយៈពេលប៉ុន្មានថ្ងៃខាងមុខនៅលើ <mdcLink>Mozilla Data Collective</mdcLink>។
 
 ## Common Language/Dataset Selector & SearchBox Related
 

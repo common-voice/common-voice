@@ -46,6 +46,8 @@ import validate, {
   sendContactRequestSchema,
   datasetSchema,
   anonUserMetadataSchema,
+  userClientPatchSchema,
+  clientIdParamSchema,
 } from './validation'
 import Statistics from './statistics'
 import SentencesRouter from '../api/sentences'
@@ -314,10 +316,18 @@ export default class API {
 
     // Claim contributions from another client_id
     // Params: client_id
-    router.post('/user_clients/:client_id/claim', this.claimUserClient)
+    router.post(
+      '/user_clients/:client_id/claim',
+      validate({ params: clientIdParamSchema }),
+      this.claimUserClient
+    )
 
     // Update user account settings (email, username, visibility, etc.)
-    router.patch('/user_client', this.saveAccount)
+    router.patch(
+      '/user_client',
+      validate({ body: userClientPatchSchema }),
+      this.saveAccount
+    )
 
     //
     // User Profile - Avatars

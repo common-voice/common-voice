@@ -1,5 +1,12 @@
 sentence-collection = Zbiranje stavkov
 
+## Voice Collection nav ids
+
+background-noise = Hrup v ozadju
+background-voices = Glasovi v ozadju
+just-unsure = Samo niste prepričani?
+example = Primer
+
 ## Voice collection sidebar content
 
 background-voices-explanation = Malo hrupa v ozadju je sprejemljivega, če pa se sliši drugo osebo izgovarjati razločne besede, posnetek zavrnite. To se lahko zgodi, če se je na primer v bližini odvijal pogovor ali je bil prižgan TV.

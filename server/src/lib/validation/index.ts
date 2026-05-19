@@ -4,6 +4,10 @@ const formats = {
     validate: /^[0-9]*$/,
     type: 'number',
   },
+  uuidFormat: {
+    validate: /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i,
+    type: 'string',
+  },
 };
 
 const { validate } = new Validator({
@@ -25,5 +29,6 @@ export * from './datasets';
 export * from './statistics';
 export * from './clips';
 export * from './languages';
+export * from './user-client';
 
 export default validate;

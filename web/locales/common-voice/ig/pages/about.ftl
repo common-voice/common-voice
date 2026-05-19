@@ -37,8 +37,39 @@ about-no-votes = Mbinye aka adịghi
 about-no-votes-text = Mgbe ojieme jụrụ mkpụrụ ndekọ olu ọ laghachi na Queue ahụ. Ọ bụrụ na a jụrụ ya nke ugboro abụọ, e buje mkpụrụ ndekọ olu ahụ na Clip Graveyard.
 about-dataset-new = Ntọala Data Common Voice
 about-dataset-new-text = Ntọala Data Common Voice nwere ọtụtụ narị nke puku nke ngosi olu nke na-enyere ndị developa aka wulite ngwaọrụ e ji a mata olu.
+about-clip-graveyard = Grevyaadi Klip
+about-clip-graveyard-text = Grevyaadi Klip
 about-get-involved = Sònyé
+about-get-involved-text-2 = Chọrọ inye aka ime Common Voice ka ọ dịwanye mma?
+about-stay-in-touch = Kedu ka m ga-esi enwe mmetụta?
+about-stay-in-touch-button = Debanye aha
+about-stay-in-touch-text-1 = <emailFragment>Debanye aha</emailFragment> n'ahịrị nzipụ ozi anyị iji mụta otu ị ga-esi sonye n'ozi nkwalite, ihe omume ma sonye n'ịrụ atụmatụ dị na Common Voice.
+about-stay-in-touch-text-2 = I nwere ike zute ndị ọzọ n'otu asụsụ Mozilla dị iche iche site n'isonye <discordLink>Discord</discordLink> ma ọ bụ <discourseLink>Discourse</discourseLink> maka mkparịta ụka isiokwu, ma ọ bụ <matrixLink>Matrix</matrixLink> maka ndụmọdụ ngwá ngwá.
 about-nav-why-common-voice = Màkà gị́nị́?
 about-nav-how-it-works = Ètú ólé?
 about-nav-partners = Ńdí ḿmékọ́
 about-nav-get-involved = Sònyé
+about-nav-how-it-works-2 = Kedu ka Common Voice si arụ ọrụ?
+about-nav-playbook = Mụta etu e si esonye
+
+## Community Playbook Content
+## What is a language
+
+about-playbook-what-is-language = Gịnị bụ asụsụ na Common Voice?
+about-playbook-what-is-language-content-1 = E nwere ọtụtụ ụzọ e si eche maka asụsụ. N'ihi ebumnuche mọdelụ mmata olu, Common Voice na-atụ aro ilekwasị anya na 'nghọta ibe', ma ọ bụ 'ndị na-asụ asụsụ a hà nwere ike ịghọta ibe ha ma ha gbalịa ime ótù ahụ?'
+about-playbook-what-is-language-content-2 = Anyị chọrọ ka mọdelụ okwu ka mma n'ịghọta ọtụtụ ndị na-ekwu okwu dị iche iche. Nke a ime, ntọala data olu ga-anọchite anya ọtụtụ mmadụ dị iche iche.
+about-playbook-what-is-language-content-3 = Ụfọdụ asụsụ nwere nnukwu ndịiche n'ụtọasụsụ, nchịkọta okwu na mkpọpụta okwu. N'ihi nke a, anyị <ctaLink>na-ewebata 'Variants'</ctaLink> na 2022. Nke a na-enye ótù dị iche iche ụzọ isi ịmata asụsụ ha n'ime nnukwu ntọala data.
+
+## How do I add a language
+
+about-playbook-how-add-language = Kedu etu m ga-esi tinye asụsụ?
+about-playbook-how-add-language-content-1 =
+    Nke mbụ, lelee ma asụsụ gị <languageLink>adịlarị</languageLink>.
+    Ọ bụrụ na ọ dịghị, ị nwere ike <languageRequestLink>jụọ maka itinye asụsụ gị</languageRequestLink>.
+    E nwere usoro abụọ. Ịtụgharị saịtị ahụ, na ịchịkọta ahịrịokwu
+about-playbook-how-add-language-translating-heading = Ịtụgharị saịtị ahụ
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Lelee ntụziaka anyị gbasara etu e si e ji Pontoon.</translateVideoLink>
+
+## How to access dataset
+
+about-playbook-how-access-dataset = Kedu ka m ga-esi enweta ma jiri ntọala data rụọ ọrụ?
