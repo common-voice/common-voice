@@ -69,6 +69,13 @@ about-playbook-how-add-language-content-1 =
     E nwere usoro abụọ. Ịtụgharị saịtị ahụ, na ịchịkọta ahịrịokwu
 about-playbook-how-add-language-translating-heading = Ịtụgharị saịtị ahụ
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Lelee ntụziaka anyị gbasara etu e si e ji Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 =
+    Anyị na-eji ngwaọrụ Mozilla a kpọrọ <pontoonLink>Pontoon</pontoonLink> maka ntụgharị asụsụ. Pontoon nwere ọtụtụ asụsụ,
+    mana ọ bụrụ na o nweghị nke gị, ị nwere ike <pontoonRequestLink>rịọ ka e tinye asụsụ gị</pontoonRequestLink>.
+    Mgbe ahụ, iji mee ka asụsụ ahụ dị n'ọrụ Common Voice,
+    <githubRepoLink>rịọ asụsụ ọhụrụ na GitHub</githubRepoLink>. <localizationFragment>Lee ihe ndị ọzọ na ntụgharị asụsụ saịtị</localizationFragment>.
+about-playbook-how-add-language-collecting-sentences-heading = Ịchịkọta ahịrịokwu
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Lelee ntụziaka anyị maka iji Ihe Nchịkọta Ahịrịokwu</sentenceCollectorVideo>.
 
 ## How to access dataset
 
