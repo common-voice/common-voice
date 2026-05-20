@@ -346,6 +346,13 @@ export default class API {
     router.patch(
       '/user_client',
       validate({ body: userClientPatchSchema }),
+      // Profile saves are occasional; a per-user hourly cap throttles abuse of the
+      // account-linking path without affecting normal edits.
+      rateLimiter(
+        '/user_client:byUser',
+        { points: 20, duration: 3600 },
+        req => `u:${req.session.user!.client_id}`
+      ),
       this.saveAccount
     )
 
@@ -785,7 +792,22 @@ export default class API {
     if (!body) {
       return response.sendStatus(StatusCodes.BAD_REQUEST)
     }
-    response.json(await UserClient.saveAccount(user.email, body))
+    // A client_id naming a different account than the session never comes from the
+    // app; reject and log it as a direct-API tampering attempt.
+    if (body.client_id && body.client_id !== user.client_id) {
+      console.warn('[security] user_client PATCH client_id mismatch', {
+        session: user.client_id,
+        body: body.client_id,
+      })
+      return response.sendStatus(StatusCodes.FORBIDDEN)
+    }
+    // Always write the caller's own identity, never a client_id taken from the body.
+    response.json(
+      await UserClient.saveAccount(user.email, {
+        ...body,
+        client_id: user.client_id,
+      })
+    )
   }
 
   getAccount = async (request: Request, response: Response) => {
