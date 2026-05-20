@@ -76,6 +76,11 @@ about-playbook-how-add-language-translating-content-2 =
     <githubRepoLink>rịọ asụsụ ọhụrụ na GitHub</githubRepoLink>. <localizationFragment>Lee ihe ndị ọzọ na ntụgharị asụsụ saịtị</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Ịchịkọta ahịrịokwu
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Lelee ntụziaka anyị maka iji Ihe Nchịkọta Ahịrịokwu</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 =
+    Ị nwere ike <sentenceCollectorLinkAdd>tinye ahịrịokwu dị obere n'ọnụọgugụ </sentenceCollectorLinkAdd>,
+    ma ọ bụ ị nwere ike mee<bulkImportDocsLink>mbubata buru ibu site n'iji Github</bulkImportDocsLink>.
+    Cheta na ahịrịokwu kwesịrị ịbụ <licenseLink>CC0 (ma ọ bụ public domain)</licenseLink>, ma ọ bụ ị nwere ike dee nke gị.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Lee ihe ndị ọzọ gbasara nchịkọta ahịrịokwu</sentenceCollectorFragment>.
 
 ## How to access dataset
 
