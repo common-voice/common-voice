@@ -12,6 +12,14 @@ record-no-mic-found = مىكروفون تېپىلمىدى.
 record-error-too-short = خاتىرىلەش بەك قىسقا بولۇپ قالدى.
 record-error-too-long = خاتىرىلەش بەك ئۇزۇن بولۇپ قالدى.
 record-error-too-quiet = خاتىرىلەش بەك پەس بولۇپ قالدى.
+record-error-empty-recording = ئاۋاز خاتىرىلەنمىدى. مىكروفونىڭىزنى تەكشۈرۈپ قايتا سىناڭ.
+record-error-unknown-format = ئاۋاز پىچىمىنى بېكىتەلمىدى. باشقا تور كۆرگۈ ئىشلىتىپ كۆرۈڭ.
+record-error-uploaded-clip-corrupted =
+    ئاۋاز خاتىرىڭىز بۇزۇلغاندەك قىلىدۇ. بۇ تۆۋەندىكى ئىشلار سەۋەبىدىن بولۇشى مۇمكىن:
+    • تور كۆرگۈنىڭ ماسلىشىشچانلىق مەسىلىسى (باشقا تور كۆرگۈ ئىشلىتىپ كۆرۈڭ)
+    • مىكروفون ياكى ئاۋاز قوزغاتقۇچ مەسىلىسى
+    • خاتىرىلەش جەريانىدا تور ئۈزۈلۈپ قېلىش
+    قايتا خاتىرىلەپ سىناپ بېقىڭ.
 record-cancel = قايتا ئۈنگە ئېلىشنى بىكار قىل
 record-instruction = { $actionType }<recordIcon></recordIcon> ئاندىن جۈملىنى ئۈنلۈك ئوقۇڭ
 record-stop-instruction = { $actionType }<stopIcon></stopIcon>  تاماملانغاندىن كېيىن
