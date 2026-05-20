@@ -27,7 +27,7 @@ varying-pronunciations-explanation-2 = يەنە بىر جەھەتتىن، ئەگ
 varying-pronunciations-example = يول ئېنىق ئەمەس.
 varying-pronunciations-tip-1 = [كانادا ئىنگلىزچىسىدا «route» نى «rowt» تەلەپپۇز قىلىشى مۇمكىن]
 varying-pronunciations-tip-2 = [ئەنگلىيە ئىنگلىزچىسىدا «root» تەلەپپۇز قىلىنىشى مۇمكىن]
-offensive-content-explanation = جۈملىلەر جامائەت دەلىللەش جەريانى ئارقىلىق تەكشۈرۈلىدۇ ، ئەمما بۇ جەرياننىڭ مۇكەممەل بولۇشى ناتايىن. ئەگەر سىزنى رەنجىتىدىغان ياكى بىئارام قىلىدىغان جۈملىنى كۆرسىڭىز ياكى ئاڭلىسىڭىز، مەسىلەن، ئۇ بىزنىڭ<participationGuidelines>جامائەتكە قاتنىشىش كۆرسەتمىسى </participationGuidelines>گە خىلاپلىق قىلغانلىقى ئۈچۈن، ئارايۈزدىكى بايراق توپچەنى ئىشلىتىڭ. سىز يەنە <emailFragment>commonvoice@mozilla.com</emailFragment> ئارقىلىق بىز بىلەن ئالاقىلىشالايسىز.
+offensive-content-explanation = جۈملىلەر جامائەت دەلىللەش جەريانى ئارقىلىق تەكشۈرۈلىدۇ ، ئەمما بۇ جەرياننىڭ مۇكەممەل بولۇشى ناتايىن. ئەگەر سىزنى رەنجىتىدىغان ياكى بىئارام قىلىدىغان جۈملىنى كۆرسىڭىز ياكى ئاڭلىسىڭىز، مەسىلەن، ئۇ بىزنىڭ<participationGuidelines>جامائەتكە قاتنىشىش كۆرسەتمىسى </participationGuidelines>گە خىلاپلىق قىلغان بولسا، ئارايۈزدىكى «بايراق» نى چىكىپ،  <emailFragment>commonvoice@mozilla.com</emailFragment> ئارقىلىق بىز بىلەن ئالاقىلىشالايسىز.
 misreadings-explanation-1 = بەتتىكى بارلىق سۆزلەرنى توغرا ئوقۇش مۇھىم. ئاڭلىغاندا، ئۈنگە ئېلىنغاننىڭ يېزىلغىنى ئىكەنلىكىنى ئىنچىكىلىك بىلەن تەكشۈرۈڭ. ئەگەر ئۇنىڭدا قوشۇلغان، قىسقارتىلغان ياكى كەم قالغان سۆزلەر بولسا رەت قىلىڭ.
 misreadings-explanation-2 = كۆپ ئۇچرايدىغان خاتالىقلار:
 misreadings-explanation-3 = ئۈنگە ئېلىشنىڭ بېشىدىكى «A» ياكى «The» كەم.
@@ -189,7 +189,10 @@ code-switching-dont-header = قىلمايدىغىنى
 code-switching-dont-1 = ھەددىدىن زىيادە رەسمىي تىل ئىشلەتمەڭ
 # Reviewing a Question
 code-switching-review-subheader = سوئال تەكشۈرۇش
+# Answering a Question
+code-switching-answer-subheader = سوئالغا جاۋاب
 code-switching-answer-bullet-4 = جاۋاب بېرىشنىڭ «مۇكەممەل» ئۇسۇلى يوق
+code-switching-authentic-header = تەبىئىي ۋە ئىشەنچلىك جاۋاب بېرىڭ
 # Transcribing
 code-switching-transcribe-subheader = خەت پۈتۈش
 code-switching-pronunciation-explanation-example-1 = ئىنگلىزچە: /ˈkeɪ.bəl/

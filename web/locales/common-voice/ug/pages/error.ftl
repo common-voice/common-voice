@@ -6,6 +6,7 @@ banner-error-slow-link = ھالەت بېتى
 error-something-went-wrong = كەچۈرۈڭ، ئازراق چاتاق چىقتى
 error-clip-upload = بۇ قىسقۇچنى يۈكلەش مەغلۇپ بولدى ، قايتا سىنامسىز؟
 error-clip-upload-server = بۇ ئاۋاز خاتىرىسىنى مۇلازىمېتىرغا يۈكلىگىلى بولمايۋاتىدۇ. بەتنى يېڭىلاڭ ياكى كېيىن قايتا سىناپ بېقىڭ.
+error-clip-upload-too-large = ئۈن-خاتىرە ھۆججىتىڭىز بەك چوڭ بولغاچقا، يۈكلەشكە ئامال بولمىدى. قىسقاراق خاتىرىلەپ سىناڭ.
 error-title-404 = ئىزدىگەن بېتىڭىز تېپىلمىدى
 error-content-404 = بەلكىم بىزنىڭ  <homepageLink>تور بېتىمىز</homepageLink> نىڭ ياردىمى بولۇشى مۇمكىن؟  <matrixLink>Matrix</matrixLink> قا كىرىپ سوئال سوراڭ، <githubLink>GitHub</githubLink> دىن تور بەتتىكى مەسىلىلەرنى كۆرۈڭ ياكى  <discourseLink>مۇنازىرە مۇنبىرى</discourseLink> نى زىيارەت قىلىڭ.
 error-title-500 = كەچۈرۈڭ، ئازراق چاتاق چىقتى
