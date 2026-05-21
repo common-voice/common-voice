@@ -107,7 +107,7 @@ community-and-languages-menu-item-aria-label = Utforsk fellesskapet og språka s
 
 hero-title = Teknologi som snakkar ditt språk
 # Text wrapped in <bold></bold> will be shown in bold font
-hero-subtitle-1 = <bold>Kvifor skal kunstig intelligens berre fungere for nokre få av språka i verda?</bold>
+hero-subtitle-1 = <bold>Kvifor skal KI berre fungere for nokre få av språka i verda?</bold>
 hero-subtitle-2 = Språket vårt er historia vår, fellesskapet vårt, kulturen vår. La oss lage datasetta vi ønskjer å sjå i verda.
 # icon is an arrow that points downwards
 get-started = Kom i gang <icon><icon>
@@ -180,7 +180,7 @@ press-and-stories-link = Presse
 
 partner-section-title = Bli partnar med oss
 # Text wrapped in <bold></bold> will be shown in bold font
-partner-section-subtitle-tech-companies = <bold>Teknologiske selskap</bold> - invester i skiping av opne datasett for eit blomstrande fleirspråkleg AI-økosystem
+partner-section-subtitle-tech-companies = <bold>Teknologiske selskap</bold> - invester i skiping av opne datasett for eit blomstrande fleirspråkleg KI-økosystem
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-civil-society = <bold>Sivilsamfunn og forskarar</bold> – lag og del effektive gratis datasett
 # Text wrapped in <bold></bold> will be shown in bold font
