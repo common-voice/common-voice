@@ -285,6 +285,7 @@ code-switching-tagging-error-2 = Язу хаталары
 code-switching-tagging-error-3 = Сүзләр хаталы орфография белән язылган
 # Using Correct Orthography for Each Language
 code-switching-orthography-header = Һәр тел өчен дөрес орфография кулланырга
+code-switching-orthography-explanation-example-2 = Әгәр "концерт" сүзе татарча әйтелсә, аны "ц" белән языгыз.
 code-switching-pronunciation-explanation = Кайбер сүзләр ике телдә дә бер үк төрле күренергә, ләкин төрлечә әйтелергә мөмкин.  Дөрес билгеләргә ярдәм итсен өчен, аларның әйтелешен тыңлагыз.  Мәсәлән: чемодан, казан, театр, мотор.
 code-switching-pronunciation-explanation-example-1 = Татарча: /ɕemoˈdɒn/
 code-switching-pronunciation-explanation-example-2 = Русча: /tɕɪmɐˈdan/
