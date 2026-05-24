@@ -219,6 +219,7 @@ code-switching-adding-question-subheader = Яхшы сорау нинди бул
 code-switching-adding-question-explanation = Ачык мәгълүматлар җыелмасы өчен яхшы сорау:
 code-switching-adding-question-criteria-1 = Аңлаешлы һәм җавап бирүдә авырлыклар тудырмый
 code-switching-adding-question-criteria-2 = Гомумән алганда урынлы булырга тиеш
+code-switching-adding-question-note = Сез шулай ук төрле контекстлар һәм өлкәләрне үз эченә алу турында уйлый аласыз.
 # What types of questions to add
 code-switching-types-subheader = Нинди төрдәге сорауларны кертергә?
 code-switching-use-bilingual-prompts-explanation-example = "Что тебе сказала мама, шул көнне өйгә кайткач?"
