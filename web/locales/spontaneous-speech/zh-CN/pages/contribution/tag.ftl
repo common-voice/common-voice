@@ -2,6 +2,7 @@
 
 tag-terms-checkbox = 我同意 Common Voice 的条款和隐私政策。
 tag-popover-title = 选择一个标签
+select-a-tag = 选择一个标签
 edit-tag = 编辑标签
 # Shortcuts modal
 tag-page-shortcut-tag-language-1 = 1
@@ -16,6 +17,7 @@ tag-page-shortcut-tag-undo = Ctrl / CMD + Z
 undo = 撤销
 tag-page-shortcut-select-all = A
 select-all = 全选
+cs-tag-shortcuts-section-title = 键盘使用说明
 cs-tag-shortcuts-guideline-2 = <key>{ tag-page-shortcut-toogle-mouse-keyboard }</key> { toogle-mouse-keyboard }
 cs-tag-shortcuts-guideline-3 = <key>{ tag-page-shortcut-remove-tags }</key> { remove-tags }
 cs-tag-shortcuts-guideline-4 = <key>{ tag-page-shortcut-select-all }</key> { select-all }

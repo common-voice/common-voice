@@ -90,6 +90,10 @@ player-skip-forward-shortcut-name = 快进
 player-play-button-aria-label = 播放音频
 # Pause button accessibility/aria label
 player-pause-button-aria-label = 暂停音频
+# Skip back button accessibility/aria label
+player-skip-backward-aria-label = 向后跳 5 秒
+# Skip forward button accessibility/aria label
+player-skip-forward-aria-label = 向前跳 5 秒
 # Slower playback speed button accessibility/aria label
 player-speed-slow-aria-label = 慢放
 # Faster playback speed button accessibility/aria label

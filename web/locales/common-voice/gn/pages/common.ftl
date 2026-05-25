@@ -505,6 +505,11 @@ announcement-mdc-button-aria-text = Ijuruja ovetã pyahúpe
 # Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
 announcement-release-delay = Tekohápe g̃uarã jehai, ko’ág̃aite rupi romba’apohína ñemyasãirãme. Roha’ãrõhína ojeporúvo opa’ỹre ára oútavape <mdcLink>Mozilla Data Collective</mdcLink> rupive.
 
+## Release Announcement
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release = Che rekoha, apopyre pyahu eiporukuaáma <mdcLink>Mozilla Data Collective</mdcLink>-pe. Eike eiporu hag̃ua 500 mba’ekuaarã aty arapyguápe, oñemoheñóiva tekohápe g̃uarã.
+
 ## Common Language/Dataset Selector & SearchBox Related
 
 # Generic search box defaults
