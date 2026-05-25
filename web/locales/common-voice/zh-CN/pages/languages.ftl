@@ -6,6 +6,7 @@ language-section-launched = 已上线
 language-section-launched-description = 推出的语言代表网站已成功<localizationGlossaryLink>本地化</localizationGlossaryLink>，也收集了足够多<sentenceCollectionGlossaryLink>句子</sentenceCollectionGlossaryLink>，足以支持<speakLink>说话</speakLink>及<listenLink>聆听</listenLink>的贡献。
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
 language-section-last-updated = 最后更新：{ $lastUpdatedTimeStamp }
+language-communities = 请考虑将您的社区频道添加到 <communitiesLink>GitHub 上的 COMMUNITIES.md 文档</communitiesLink>中。
 languages-show-more = 显示更多
 languages-show-less = 显示更少
 language-meter-in-progress = 进度

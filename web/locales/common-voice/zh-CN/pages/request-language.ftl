@@ -31,5 +31,6 @@ need-help-deciding-platform = 不确定要选择哪项？
 need-help-deciding-platform-explanation-1 = <strong>朗读文本：</strong>以自己的语言朗读语句（Common Voice 原有模式）。
 need-help-deciding-platform-explanation-2 = <strong>即兴发言：</strong>更自然、口语化地回答问题（Common Voice 新增部分）。
 need-help-deciding-platform-explanation-3 = 若在平台的两部分中都未看到您的语言，请同时选择两项。
+request-language-search-bar = 您可以在此键入语言名称。如果该语言尚未收录于 Common Voice，则可填写表格，提供该语言的数据。
 request-language-already-available-scs = “朗读文本”已推出
 request-language-already-available-sps = “即兴发言”已推出
