@@ -12,6 +12,14 @@ record-no-mic-found = 未找到麦克风
 record-error-too-short = 这份录音太短了。
 record-error-too-long = 这份录音太长了。
 record-error-too-quiet = 这份录音声音太小了。
+record-error-empty-recording = 未捕获到音频，请检查您的麦克风并重试。
+record-error-unknown-format = 无法确定音频格式，请尝试使用其他浏览器。
+record-error-uploaded-clip-corrupted =
+    您的录音似乎已损坏。 这可能是因为：
+    • 浏览器兼容性有问题（请尝试更换浏览器）
+    • 麦克风或音频驱动有问题
+    • 录音过程中网络中断
+    请重新尝试录音。
 record-cancel = 取消重新录音
 record-instruction = { $actionType }<recordIcon></recordIcon> 朗读句子
 record-stop-instruction = 完成后{ $actionType }<stopIcon></stopIcon>

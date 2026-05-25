@@ -378,8 +378,11 @@ announcement-mdc-button-aria-text = 新建标签页打开
 
 ## Common Language/Dataset Selector & SearchBox Related
 
+# Generic search box defaults
+searchbox-default-label = 开始键入来搜索
 searchbox-default-placeholder = 搜索...
 searchbox-default-aria-label = 搜索
+dropdown-no-results = 未找到符合条件的结果
 dataset-searchbox-placeholder = 搜索语言…
 dataset-searchbox-aria-label = 搜索语言
 request-new-language = 申请新语言

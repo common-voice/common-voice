@@ -7,12 +7,15 @@ error-something-went-wrong = 抱歉，出了点问题
 error-clip-upload = 多次尝试上传这个片段均失败，要继续尝试吗？
 error-clip-upload-server = 多次尝试上传此片段到服务器均失败。请刷新页面或稍后重试。
 error-clip-upload-too-large = 您的录音文件太大，无法上传。请尝试录制较短的片段。
+error-clip-upload-server-error = 服务器处理您的片段时出错，请刷新页面或稍后再试。
 error-title-404 = 找不到您要查看的页面
 error-content-404 = 也许回到我们的<homepageLink>主页</homepageLink>会有所帮助？若要询问问题，可以加入<matrixLink>Matrix 社区聊天频道</matrixLink>、关注 <githubLink>GitHub</githubLink> 上的网站问题反馈，或到<discourseLink>我们的 Discourse 论坛</discourseLink>让我们知道。
+error-title-500 = 抱歉，出了点问题
 error-title-502 = 连接中断
 error-title-503 = 发生了意外的宕机
 error-content-503 = 网站将尽快恢复正常。请到我们的 <matrixLink>Matrix 社区聊天频道</matrixLink>、<githubLink>GitHub</githubLink> 上的网站问题反馈，或到 <discourseLink>Discourse 论坛</discourseLink>向我们反馈，获取最新信息。
 error-title-504 = 请求超时
+error-content-504 = 请求超时，这通常只是暂时情况，请重试。如需帮助，请加入 <matrixLink>Matrix 社区聊天房间</matrixLink>、在 <githubLink>GitHub</githubLink> 上关注网站问题，或访问<discourseLink>我们的 Discourse 论坛</discourseLink>。
 error-code = { $code } 错误
 # Warning message shown when none of the clips could be uploaded
 error-duplicate-clips-all = 无法上传您的 { $total } 个片段，因为此前已经上传过。继续上传下一批吧！
