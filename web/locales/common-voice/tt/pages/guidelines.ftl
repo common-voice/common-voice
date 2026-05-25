@@ -1,8 +1,8 @@
 # GUIDELINES PAGE
 guidelines-header = Катнашу күрсәтмәләре
 guidelines-header-subtitle = Common Voice мәгълүматлар тупланмасына өлеш кертү һәм керткән мәгълүматның раслауны ничек башкарырга икәнен ачыклагыз.
-voice-collection = Тавыш туплау
-sentence-collection = Җөмләләр тупланмасы
+voice-collection = Тавышлар тупланмасы
+sentence-collection = Фразалар тупланмасы
 question-collection = Сораулар тупланмасы
 scripted-speech = Сценарий буенча сөйләү
 spontaneous-speech = Кинәт туган сөйләм
@@ -118,6 +118,7 @@ what-makes-a-good-question-subheader = Яхшы сорау нинди булыр
 what-makes-a-good-question-explanation = Ачык мәгълүматлар җыелмасы өчен яхшы сорау:
 what-makes-a-good-question-explanation-criteria-1 = Аңлаешлы һәм җавап бирүдә авырлыклар тудырмый
 what-makes-a-good-question-explanation-criteria-2 = Гомумән алганда урынлы булырга тиеш
+what-makes-a-good-question-explanation-criteria-3 = Әдәпсез яки рәнҗеткеч лексиканы кулланмаска һәм хупламаска
 what-makes-a-good-question-tip = Сез шулай ук төрле контекстлар һәм өлкәләрне үз эченә алу турында уйлый аласыз.
 easy-to-understand = Аңларга җиңел
 easy-to-understand-explanation = Мәдәниятькә яки контекстка карамастан теләсә кем аңлый алырлык гади сораулар сайлагыз.
@@ -177,6 +178,7 @@ transcribe-the-audio-subheader-2-example-3-correct = <correct>Дөрес</correc
 transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Ялгыш</wrong>: Ул 20%-лы ташлама булды
 transcribe-the-audio-subheader-2-example-4-correct = <correct>Дөрес</correct>: Узган пәнҗешәмбе көнне <underline>ФБР</underline> аларны кулга алды
 transcribe-the-audio-subheader-2-example-4-wrong = <wrong>Ялгыш</wrong>: Узган пәнҗешәмбе көнне <underline>эф бэ эр</underline> аларны кулга алды
+transcribe-the-audio-subheader-3-explanation = Киләсе махсус тэглар вербаль булмаган өстәмләрне, тутырткычларны һәм вербаль булмаган (инглиз телендәге) контентның башка төрләрен билгеләү өчен кулланылырга тиеш.
 tags-table-header-1 = Билге
 tags-table-header-2 = Мәгънә
 tags-laugh = Көлү
@@ -219,6 +221,7 @@ code-switching-adding-question-subheader = Яхшы сорау нинди бул
 code-switching-adding-question-explanation = Ачык мәгълүматлар җыелмасы өчен яхшы сорау:
 code-switching-adding-question-criteria-1 = Аңлаешлы һәм җавап бирүдә авырлыклар тудырмый
 code-switching-adding-question-criteria-2 = Гомумән алганда урынлы булырга тиеш
+code-switching-adding-question-criteria-3 = Әдәпсез яки рәнҗеткеч лексиканы кулланмаска һәм хупламаска
 code-switching-adding-question-note = Сез шулай ук төрле контекстлар һәм өлкәләрне үз эченә алу турында уйлый аласыз.
 # What types of questions to add
 code-switching-types-subheader = Нинди төрдәге сорауларны кертергә?
