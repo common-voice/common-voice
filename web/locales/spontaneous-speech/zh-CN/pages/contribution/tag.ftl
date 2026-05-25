@@ -1,6 +1,6 @@
 ## Tagging Page
 
-tag-page-instruction = 选择 <icon></icon> 文本开始
+tag-page-instruction = 选择 <icon></icon> 文本以开始
 tag-terms-checkbox = 我同意 Common Voice 的条款和隐私政策。
 tag-popover-title = 选择一个标签
 select-a-tag = 选择一个标签

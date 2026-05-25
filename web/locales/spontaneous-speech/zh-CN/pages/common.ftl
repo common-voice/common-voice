@@ -94,7 +94,11 @@ player-pause-button-aria-label = 暂停音频
 player-skip-backward-aria-label = 向后跳 5 秒
 # Skip forward button accessibility/aria label
 player-skip-forward-aria-label = 向前跳 5 秒
+# Audio playback progress slider accessibility/aria label
+player-progress-slider-aria-label = 音频播放进度条滑块
 # Slower playback speed button accessibility/aria label
 player-speed-slow-aria-label = 慢放
+# Normal playback speed button accessibility/aria label
+player-speed-normal-aria-label = 正常播放速度
 # Faster playback speed button accessibility/aria label
 player-speed-fast-aria-label = 快放

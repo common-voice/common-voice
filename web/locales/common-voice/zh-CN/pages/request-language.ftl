@@ -44,5 +44,5 @@ request-language-found-cv-sentences-lack =
 request-language-found-spontaneous-speech =
     您的语言已经上线 Common Voice <strong>即兴发言</strong>。
     点击<spontaneousSpeechLink>此处</spontaneousSpeechLink>即可参与贡献，开始前请记得更改贡献/数据集语言！
-request-language-already-available-scs = “朗读文本”已推出
-request-language-already-available-sps = “即兴发言”已推出
+request-language-already-available-scs = “朗读文本”已可使用
+request-language-already-available-sps = “即兴发言”已可使用
