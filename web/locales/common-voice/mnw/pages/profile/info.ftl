@@ -78,8 +78,16 @@ api-credentials-description-conclusion = ဘိုၚ်ရီုဗၚ်ပါ
 create-api-key-button = ခၞံဗဒှ် API Credentials
 your-api-keys = API Credentials မၞး
 no-api-keys-header = <bold> ပစ္စုပ္ပန်ဏံ API credentials ဆက်စပ်ကဵုအကံက်ဏံဂှ် ဟွံမွဲတဴရ။</bold>
+no-api-keys-description = သွက်ဂွံခၞံဗဒှ် API key မၞး ကိုပ်ကၠာအိုတ်ဂှ် ဍဵု "ခၞံဗဒှ် API Credentials" တုဲမ္ဂး စုတ်ကဵုယၟု API Credentials မၞး ကေုာံ ခၞံဗဒှ်ပတိတ် API Credentials တၟေင် နကဵုပွမဍဵု “ခၞံဗဒှ်ပတိတ် Credentials” ညိ။ တုဲမ္ဂး စၠောအ်ကေတ် ကသအ်ဓလုက်ဂှ် ဗွဲမပြဟ်ညိ၊ ဟိုတ်နူဍေံမလေပ်ထ္ၜးကဵု အယာံမာတ်မွဲအလန်ဓဝ်ဟေၚ်ရရောၚ်။
 api-key-name-input =
     .label = ယၟု API credentials
+create-api-key-header = <bold>တင်စၟတ်သမ္တီ ကိစ္စဇၞော်၊ ခၞံဗဒှ်ပတိတ် API Credentials</bold>
+create-api-key-description = ဍဵု "ခၞံဗဒှ်ပတိတ် Credentials" မ္ဂး ဍေံသ္ဂောအ်ခၞံဗဒှ်ကဵု Credentials တၟေင် သွက်အကံက်မၞးရ။ ဟိုတ်နူ ဟိုတ်ဖဵုဂီုကၠီုတုဲ ကသအ်ဓလုက်ဂှ် ဍေံထ္ၜးကဵု ဆအယာံမာတ်မွဲအလန်ဓဝ်ဟေၚ်ရ။ စၠောအ်ကေတ် တုဲ ဂိုင်ဒေပ်လဝ် ဗွဲမဂီုကၠီုညိ။ ယဝ်ရကၠေအ်အာမ္ဂး ဟိုတ်နူကလေင်ကေတ်ဟွံဂွံတုဲ မၞးဒးခၞံဗဒှ် ကသအ်တၟိမွဲပၠန်ရောၚ်။
+create-api-key-agreement = အဲတုပ်စိုတ် ဒဒှ်ရ အဲဟွံဂစာန် ဂၠာဲတီကေတ် ညးဟီုအရေဝ် ပ္ဍဲတၚ်ဂၞၚ်ဒေတာ Common Voice ဝွံရောၚ်။
+generate-api-key-button = ခၞံဗဒှ်ပတိတ် Credentials
+save-api-key-info = <bold>သီဂိုၚ်ကေတ် ကသအ်ဓလုက်မၞး ဗွဲမဂီုကၠီုညိ။</bold>
+api-key-name-display-label = ယၟု API credentials
+api-client-secret-display-label = ဓလုက် API Client
 # Genders
 male_masculine = မၞိဟ်တြုံ
 female_feminine = မၞိဟ်ဗြဴ
