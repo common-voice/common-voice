@@ -41,4 +41,35 @@ other-datasets = တၚ်ဂၞၚ်ဒေတာရမျာၚ်တၞဟ်
 feedback-q = ဒးပတိုန်ထ္ၜးကဵုကသပ်နွံဟာ
 # This indicates that there is no data to display
 no-information = တၚ်နၚ်ပရူပရာဟွံမွဲ
+go-discourse = အာ Discourse
 go-languages-page = အာပ္ဍဲမုက်လိက် အရေဝ်ဘာသာညိ။
+ready-to-validate = သွက်ဂွံစၟဳစၟတ်ဝါကျတအ်ဂှ် တုဲဒှ်ရဟာ
+download = ဂၠေါၚ်ဖျေံ
+dataset-version = လၟေၚ်ဗာယှေန်
+clipboard-not-supported = Clipboard ဒၞာဲဂိုၚ်ဒေပ် ဟွံကၠောန်ကမၠောန်ရောၚ်။
+no-information-available = တၚ်နၚ်ပရူပရာဟွံမွဲရောၚ်။
+dataset-metadata-sex = လိၚ်
+# dataset metadata - age of contributor
+dataset-metadata-age = အာယုက်
+donate-modal-message = ဂၠေါၚ်ဖျေံဒၟံၚ် တၚ်ဂၞၚ်ဒေတာမၞးဖိုဟ်ရ။
+dataset-donate-modal-heading = မၞးတီဟာ…
+data-download-button = ဂၠေါၚ်ဖျေံကေတ် ဒေတာ Common Voice
+data-download-yes = ယွံ
+data-download-deny = ဟအှ်ေ
+data-download-license = လာၚ်ဇြေန် <licenseLink>CC-0</licenseLink>
+data-download-modal = မၞးကြပ်စဂၠေါၚ်ဖျေံအယျဲ <size>{ $size }ဂေတ်</size> ရောၚ်၊ ဆက်ကၠောန်ဟာ
+data-other-title = တၚ်ဂၞၚ်ဒေတာရမျာၚ်တၞဟ်ဟ်ဂမၠိုၚ်…
+data-other-goto = အာပ္ဍဲ { $name }
+data-other-download = ဂၠေါၚ်ဖျေံ ဒေတာ
+data-bundle-button = ဂၠေါၚ်ဖျေံ စိုက်တၚ်ဂၞၚ်ဒေတာ
+release-version = လၟေၚ်ဗာယှေန်
+dataset-date = စၟတ်တ္ၚဲ
+license = လာၚ်ဇြေန်<licenseLink>{ $license }</licenseLink>
+license-mixed = ပံၚ်လဝ်
+# Support old genders in older datasets
+male = မၞိဟ်တြုံ
+female = မၞိဟ်ဗြဴ
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = ဂၠေါၚ်ဖျေံ တၚ်ဂၞၚ်ဒေတာ ရမျာၚ်ပိုဲ
+datasets-show-more = ဓမံၚ်ထ္ၜး တၚ်ဂၞၚ်ဒေတာသီုဖအိုတ်
+datasets-show-less = ဓမံၚ်ထ္ၜး တၚ်ဂၞၚ်ဒေတာတၟိတၟိဂမၠိုၚ်
