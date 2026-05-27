@@ -7,9 +7,15 @@ datasets-positioning =
     မုက်လိက်ဏအ်ဂှ် ဒှ်ဗဟဵုနိဿဲမွဲ သွက် ဒေတာသေတ်ရမျာၚ် ပံက်သၠး open-source တၞဟ်တအ်ကီု ကေုာံ သီုကဵုဒှ်မုက်လိက် သွက်ဒၞာဲပရေၚ်ပတိတ်တၟိပိုဲတအ် အတိုၚ် Common Voice မဇၞော်မောဝ်တိုန်ကၠုၚ်လဝ်ဂှ်ရ။
 # New/upcoming datasets page headline
 datasets-headline-mdc = လၟုဟ် တၚ်ဂၞၚ်ဒေတာ Mozilla Common Voice တအ်ဂှ် ကေတ်ကလိဂွံမာန် ပ္ဍဲ Mozilla Data Collective ဟေၚ်ရောၚ်။
+# New/upcoming datasets page headline text
+datasets-positioning-mdc =
+    စတမ်နူ Common Voice 23.0၊ တၚ်ဂၞၚ်ဒေတာ Common Voice အိုတ်သီုတအ်ဂှ် သွက်ဂွံဂၠေါၚ်ဖျေံကေတ်ဂှ် ကလိကေတ်ဂွံမာန် နူကဵု Mozilla Data Collective ဟေၚ်ရောၚ်။ 
+    မုက်လိက်ဏအ်ဂှ် ဒှ်တိုက်စၟတ်သမ္တီဝင်မွဲ သွက်တၚ်ဂၞၚ်ဒေတာ Mozilla Common Voice လၟေၚ်ဗာယှေန်အတိတ်တအ်ရ။ တိုက်စၟတ်သမ္တီလၟေၚ်ပတိတ်တအ်ဂှ် ထေက်ကဵုဒးစကာ ပ္ဍဲအကာဲအရာ သုတေသနတၟေၚ်ဟေၚ်ရ၊ သွက် ဂွံဗတောန် ဟွံသေၚ်ရောၚ်၊ သွက်ဂွံ ရှ်ေသှ်ေ ကေုာံ ​ဒ္ဂေတ်ဗက် ပၟိက်အလိုက် ညးမဘိုၚ်ပါလုပ်လဝ်တအ်တအ် မအာတ်မိက်လဝ်သွက်ဂွံ ပ္တိတ်ထောံဂှ် ဒးဒ္ဂေတ်ဗက်ရောၚ်။
 datasets-speech-bubble-content = ပရိုင်ခိုဟ်ရ။ Spontaneous Speech လဟီုပကတိ စိုပ်ကၠုင်မံင်ယျ။ ဆက်မင်စၟဳမံင် တင်ဂၞင်တၟိတၟိတအ်ညိ တုဲပၠန် သွက်ဂွံတီ တင်ဂၞင်လက္ကရဴအိုတ်တအ်ဂှ် စၟဳစၟတ်ရံင် ပ္ဍဲ <discordLink>Discord</discordLink> ပိုဲညိ။
 language = အရေဝ်ဘာသာ
 download-dataset-header = ဂၠေါၚ်ဖျေံ တၚ်ဂၞၚ်ဒေတာ
+download-delta-explainer = ပိုဲ ကၠောန်သ္ပလဝ် ပရေင်ပြံင်လှာဲ ညိညဇြိုၚ်သာရ။ ပ္ဍဲ Delta Segments ဂှ် ပါလုပ်ဆအယာံမတ် ကလေပ်ရမျာၚ် တၟိတၟိ စပ္တံနူ အလန်မပတိတ်လဝ် လက္ကရဴအိုတ်ဂှ်ရ။ <deltaLink>ဆက်ဗှ်ကေတ် ပရူကမၠောန်ဏအ်ညိ</deltaLink>။
+download-dataset-tag = တၚ်ဂၞၚ်ဒေတာ အရေဝ်ဘာသာနွံပၟိက်ဂှ် ရုဲစှ်ကေတ်တုဲ လၟေၚ်ဗာယှေန်နွံပၟိက်မိက်ဂွံဂၠေါၚ်ဖျေံဂှ် ရုဲကေတ်ညိ။
 # File size in gigabytes
 size = အယျဲ
 number-of-voices = လၟိဟ်ရမျာၚ်ဂမၠိုၚ်
