@@ -3,13 +3,16 @@
 welcome-to-spontaneous-speech = Кинәт туган сөйләм проектына рәхим итегез
 # <br></br> represents a newline break
 wall-of-text = Common Voice икенче платформаны гамәлгә кертә. Аның максаты - органик, кинәт туган, алдан язылмаган сөйләмне туплау. Нәтиҗәдә бу күп кенә берләшмәләргә мәгълүматларны тизрәк җыярга ярдәм итәчәк, шулай ук программистлар һәм мәгълүмат белгечләре өчен дә бик файдалы булачак.
-why-spontaneous-speech = Бу Spontaneous Speech прототибын без нинди максат белән булдырдык
+why-spontaneous-speech = Бу Кинәт туган сөйләм проекты прототибын без нинди максат белән булдырдык
+# text wrapped with <mark></mark> will have a light red background
+why-card-3-text = Текст корпуслары кечкенә булган яки <mark>бөтенләй булмаган</mark> телләр (мәсәлән, социолектлар, тарих дәвамында телләр арасына кертелмәгәннәр һ. б. ш.) белән эшләүнең яхшыртылган мөмкинлеге.
 how-spontaneous-speech-works = "Кинәт туган сөйләм" ничек эшли
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>Башлам</mark>
 prompt-bubble-subtitle = Без Сезгә ярдәм итүче язма яки сорау күрсәтербез
 # text wrapped in <mark></mark> will have a blue background
 respond-bubble-title = <mark>Җавап бирү</mark>
+respond-bubble-subtitle = Сезнең реакциягез иң табигый
 # text wrapped in <mark></mark> will have a blue background
 transcribe-bubble-title = <mark>Текстка күчерү</mark>
 transcribe-bubble-subtitle = Аудиоклипларда нәрсә ишетәсез - шуны язасыз.
