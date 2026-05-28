@@ -6,6 +6,7 @@ language-section-launched = Эшли башлаганнар
 language-section-launched-description = Эшкә кушылган әлеге телләр өчен сайт уңышлы <localizationGlossaryLink>тәрҗемә ителеп</localizationGlossaryLink>, <speakLink>Сөйләү</speakLink> һәм <listenLink>Тыңлау</listenLink> өчен җитәрлек күләмдә <sentenceCollectionGlossaryLink>җөмләләр җыелды</sentenceCollectionGlossaryLink>.
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
 language-section-last-updated = Соңгы яңартылу: { $lastUpdatedTimeStamp }
+language-communities = Җәмгыятегез каналларын <communityLink>GitHub платформасындагы COMMUNITES.md</communitiesLink> документына өстәгезче.
 languages-show-more = Күбрәк
 languages-show-less = Әзрәк
 language-meter-in-progress = Прогресс
