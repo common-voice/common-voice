@@ -75,6 +75,8 @@ dataset-metadata-age = အာယုက်
 donate-modal-message = ဂၠေါၚ်ဖျေံဒၟံၚ် တၚ်ဂၞၚ်ဒေတာမၞးဖိုဟ်ရ။
 dataset-donate-modal-heading = မၞးတီဟာ…
 donate-modal-explanation-1 = သွက်ဂွံ မၚ်မွဲ တၚ်ဂၞၚ်ဒေတာသေတ်တအ် ကေုာံ ဂွံပခိုဟ်ပတိုန် ပလက်ဖံၚ် သွက် ဂကောံအရေဝ်ဘာသာဗၞတ် ၁၀၀ ပြၚ်ၚ် မဗ္ဒဗ္ဒာဲတန်တဴဒၟံၚ် လ္တူကမၠောန်ပိုဲမကၠောန်လဝ်တအ်ဂှ် ပ္ဍဲမွဲသၞာံ အိုတ်သြန် ကြပ်စိုပ် မွဲပြကောဋိကိုဋ် ဒဝ်လာဟာ?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>ယဝ်ရ မၞး စွံၚုဟ်မး ကု တင်ဂၞင်သၠးပွး တၚ်ဂၞၚ်မပါလုပ်သီုဖအိုတ်မ္ဂး - ကဵုဒါန် တ္ၚဲဏအ် ညိ</bold>
 data-download-button = ဂၠေါၚ်ဖျေံကေတ် ဒေတာ Common Voice
 data-download-yes = ယွံ
 data-download-deny = ဟအှ်ေ
