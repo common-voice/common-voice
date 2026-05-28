@@ -1,5 +1,5 @@
 action-click = Чиртегез
-action-tap = Төймәгә басып алыгыз,
+action-tap = басып алыгыз
 contribute = Үз өлешеңне кертү
 review = Тикшерү
 skip = Калдырып тору
