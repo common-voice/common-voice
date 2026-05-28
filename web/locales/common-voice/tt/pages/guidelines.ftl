@@ -281,6 +281,7 @@ code-switching-answer-dont-subheader = Артык уйлап тормагыз һ
 code-switching-answer-dont-correct-language = <bold>Телегезне «төзәтергә».</bold> Бу тест түгел. Форма «дөреслегенең» бернинди дә әһәмияте юк. Телнең табигый булуы — шунысы гына мөһим.
 # Transcribing
 code-switching-transcribe-subheader = Текстка күчерү
+code-switching-transcribe-do-1 = Сизелмәслек күчүләрне табу өчен кыска кисәкләрне берничә тапкыр уйнатыгыз
 # Capture Speech Exactly as Spoken
 code-switching-capture-header = Сөйләмне нәкъ ишетелгәнчә туплагыз
 # Use standard spelling for each language
