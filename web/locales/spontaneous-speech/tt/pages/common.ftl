@@ -6,7 +6,12 @@ action-click = Чиртү
 action-tap = Төймәгә басып алыгыз
 # Label for language switcher
 platform-language = Платформа теле
-coming-soon = Башка телләр тиздән өстәләчәк
+platform-language-tooltip-text = Веб-сайт текстын гына үзгәртә.
+# Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
+contribution-picker-label = <bold>{ $language }</bold> мәгълүматлар җыелмасын туплауда катнашу
+contribution-picker-tooltip-text = Сез тупларга булышкан мәгълүматлар җыелмасының телен үзгәртә
+coming-soon = Тиздән башка телләр өстәләчәк
 media-recorder-api-not-supported = MediaRecorder API браузерыгызда тәэмин ителми.
 # Toast message that is displayed when an item is skipped
 skipped = Калдырып торылды

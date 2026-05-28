@@ -30,6 +30,7 @@ contact-us = Безнең белән элемтәгә керү
 contact-us-title = Бу проектта катнашасыгыз киләме яки партнер булырга телисезме?
 contact-us-email = Эл. почта: <emailFragment>commonvoice@mozilla.com</emailFragment>
 signup-form-title = Common Voice-ның Спонтан Сөйләшү проектын бета-тестлаучылар төркеменә кердегезме инде?
+signup-terms = «Сылтаманы электрон почтама җибәрү» дигәненә басып, сез безнең <termsLink>Куллану шартларыбыз</termsLink> һәм <privacyLink>Хосусыйлык сәясәтебез</privacyLink> белән килешүне белдерәсез. Шулай ук, бу шуны аңлата ки, Common Voice тарафыннан булдырылган Кинәт туган сөйләм проектын бета-тестлауда ничек катнашырга икәнлеге турындагы хат җибәрүне Mozilla үз карамагында калдыра.
 signup-input-placeholder = Эл. почтагызны кертегез
 signup-button-value = Эл. почта адресыма сылтама җибәрү
 footer-text-privacy = <privacyLink>Хосусыйлык</privacyLink>
