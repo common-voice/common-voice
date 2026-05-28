@@ -47,8 +47,8 @@ help-reach-hours-pluralized =
     }
 help-reach-hours-general-pluralized =
     { $hours ->
-        [one] Үзегезгә бер шәхси максат куеп, Common Voice'ка{ $hours } сәгатьаудиоязма җыярга ярдәм итегез
-       *[other] Үзегезгә бер шәхси максат куеп, Common Voice'ка{ $hours } сәгатьаудиоязма җыярга ярдәм итегез
+        [one] Үзегезгә бер шәхси максат куеп, Common Voice'ка { $hours } сәгать аудиоязма җыярга ярдәм итегез
+       *[other] Үзегезгә бер шәхси максат куеп, Common Voice'ка { $hours } сәгать аудиоязма җыярга ярдәм итегез
     }
 set-a-goal = Максат кую
 cant-decide = Бер карарга килә алмыйсызмы?
