@@ -21,7 +21,7 @@ record-error-uploaded-clip-corrupted =
     • Яздыруны башкарганда интернетның өзелүләре
     Яңадан яздырып карагызчы.
 record-cancel = Яңадан яздырудан баш тарту.
-record-instruction = <recordIcon></recordIcon> { $actionType }, шуннан соң җөмләне кычкырып укыгыз
+record-instruction = <recordIcon></recordIcon> { $actionType } шуннан соң җөмләне кычкырып укыгыз
 record-stop-instruction = Укып бетергәч, { $actionType }<stopIcon></stopIcon>
 record-three-more-instruction = Өчәү калды!
 record-again-instruction = Шәп! <recordIcon></recordIcon> Киләсе клибыгызны яздырыгыз

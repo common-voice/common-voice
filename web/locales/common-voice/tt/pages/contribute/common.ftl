@@ -98,7 +98,7 @@ shortcut-vote-no = n
 ## Validation criteria
 
 contribution-criteria-nav = Критерийлар
-contribution-criteria-link = Катнашу критерийларын аңлау
+contribution-criteria-link = Катнашу критерийларын карау
 contribution-criteria-page-title = Катнашу критерийлары
 contribution-criteria-page-description = Аудиоязмаларны тыңлаганда нәрсәгә игътибар итәргә кирәклеген, һәм үзегезнең аудиоязмаларыгызны да ничек баетып булганын өйрәнегез.
 contribution-for-example = мәсәлән
