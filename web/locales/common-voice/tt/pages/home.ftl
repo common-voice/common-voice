@@ -85,12 +85,21 @@ press-and-stories = Матбугат һәм мәкаләләр
 community-and-languages = Берләшмә һәм телләр
 coming-soon = Тиздән
 about-us = Безнең турында
+scripted-speech = ӘЗЕРЛӘП КУЙГАН СӨЙЛӘМ
 spontaneous-speech = КИНӘТ ТУГАН СӨЙЛӘМ
+
+## MENU ITEMS TOOLTIPS
+
+about-menu-tooltip = Партнерлыклар, матбугат һәм мәкаләләр, җәмгыять һәм телләр
+partnerships-menu-item-tooltip = Common Voice проектына ярдәмлек күрсәтүче оешмалар
+press-and-stories-menu-item-tooltip = Блогыбызны укуыгыз яки безнең турында үзегез языгыз
+community-and-languages-menu-item-tooltip = Җәмгыятебезгә кушылыгыз һәм гамәлдә нинди телләр барлыгын күрегез
 
 ## MENU ITEM ARIA LABELS
 
 about-us-menu-aria-label = "Безнең турында" менюсы
 about-us-menu-item-aria-label = "Безнең турында" менюсы
+partnerships-menu-item-aria-label = Common Voice белән партнерлык турында
 
 ## Hero section
 
