@@ -50,5 +50,19 @@ email-subscription-title-v3 = သွက်ပရိုၚ်တၟိ Common Voi
 
 ## NAV ITEMS
 
+answer-questions = သွဟ်အရေဝ်သၟာန်ဂမၠိုၚ်
+review-transcriptions = ကလေၚ်စၟဳစၟတ်အရာချူချာဲဂမၠိုၚ်
 add-questions = ထပ်စုတ်အရေဝ်သၟာန်ဂမၠိုၚ်
 review-questions = ကလေၚ်စၟဳစၟတ်အရေဝ်သၟာန်ဂမၠိုၚ်
+transcribe-audio = ချူပတိတ်ရမျာၚ်ဟီု
+press-and-stories = ပရိုၚ် ကေုာံ ပရူပရာ
+community-and-languages = ဂကောံ ကေုာံ အရေဝ်ဘာသာဂမၠိုၚ်
+about-us = ပရူပရာပိုဲ
+
+## MENU ITEMS TOOLTIPS
+
+about-menu-tooltip = ပရေၚ်ပံၚ်တောဲ၊ ပရိုၚ် ကေုာံ ပရူပရာ၊ ဂကောံ ကေုာံ အရေဝ်ဘာသာဂမၠိုၚ်
+
+## MENU ITEM ARIA LABELS
+
+partnerships-menu-item-aria-label = ကတ်လ္ၚတ်ပရူပရာပရေၚ်ပံၚ်တောဲကဵု Common Voice
