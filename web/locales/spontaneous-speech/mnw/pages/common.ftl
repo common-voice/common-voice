@@ -24,7 +24,7 @@ skip-button = သရုၚ်ထောံ
 submit-button = ပတိုန်
 contribute = ပါလုပ်
 # Button text which appears when there are no more resources
-continue-with-skipped = ဆက်ကၠောန်အာအရာသရုၚ်လဝ်
+continue-with-skipped = ဆက်ကၠောန်အာကဵု အရာသရုၚ်လဝ်
 
 ## Common aria-labels
 
