@@ -149,6 +149,9 @@ download-contribution-certificate-content = Common Voice проектына ке
 # label for button
 download-contribution-certificate-action = Сертификатны алу
 contribute-github = GitHub платформасында кертем ясау.
+contribute-github-content = Сезнең кебек кешеләр булмаса, бу проект та булмас иде. 🎉 Common Voice проектында төрлечә катнашырга була — файдалы кертем ясау өчен программист булу зарур түгел!
+# label for button
+contribute-github-action = GitHub платформасында кертем ясау.
 
 ## Featured section
 
@@ -165,12 +168,17 @@ explore-datasets = Мәгълүмат тупланмаларын карау <ico
 
 get-involved-section-title = Җәмгыять тарафыннан ачык мәгълүмат тупланмаларына ярдәм итегез
 read-sentences-link = Җөмләләрне уку
+validate-readings-link = Укуны тикшерү
+contribute-link = Текстларны җыюга өлеш кертү
 answer-questions-link = Сорауларга җавап бирү
+transcribe-answers-link = Җавапларны транскриблау
 review-transcriptions-link = Транскриптларны тикшерү
+contribute-text-link = Текст тәкъдим итү
 press-and-stories-link = Матбугат һәм мәкаләләр
 
 ## Partner section
 
+partner-section-title = Партнёрыбызга әйләнү
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-tech-companies = <bold>Технологик компанияләр</bold> - күптелле ЯФ экосистемасының уңышлы үсеше өчен ачык мәгълүмат тупланмаларын булдыруга инвестицияләр кертегез.
 # Text wrapped in <bold></bold> will be shown in bold font
