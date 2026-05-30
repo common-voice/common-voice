@@ -145,8 +145,10 @@ ask-mozilla-share-content = Узган яки булачак чаралар ту
 # label for button
 ask-mozilla-share-action = Чарагыз белән уртаклашу
 download-contribution-certificate = Катнашу сертификатыгызны күчереп алу
+download-contribution-certificate-content = Common Voice проектына кертемегезне күрсәтүче сертификат күчереп алыгыз, аны чараларыгыздә файдаланыгыз яки үзегез сокланыгыз. Кертемегез булмаса — бу проект та булмас иде!
 # label for button
 download-contribution-certificate-action = Сертификатны алу
+contribute-github = GitHub платформасында кертем ясау.
 
 ## Featured section
 
