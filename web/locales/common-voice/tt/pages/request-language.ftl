@@ -34,3 +34,4 @@ request-language-success-list-3 =
 request-language-error =
     Без бу таләпне бәлки алмаганбыздыр. Зинһар, безгә <emailLink>{ $email }</emailLink> адресына турыдан-туры
     хат җибәрегез, һәм без Сезнең белән элемтәгә керербез!
+request-for-scripted-speech-toggle = Сценарий буенча сөйләүне сорау
