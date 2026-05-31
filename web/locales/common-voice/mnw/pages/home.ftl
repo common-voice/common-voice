@@ -132,3 +132,5 @@ press-and-stories-link = ပရိုၚ် ကေုာံ ပရူပရာ
 ## Partner section
 
 partner-section-title = ပံၚ်တောဲကရောံပိုယ်
+# Partners section
+our-partners-include = ညးပံၚ်တောဲဖက်ဆောပိုယ်ဂမၠိုၚ်...
