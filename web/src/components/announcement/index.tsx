@@ -64,14 +64,14 @@ const ANNOUNCEMENTS: AnnouncementItem[] = [
     buttonTextKey: 'announcement-mdc-button-text',
     buttonHref: URLS.MDC_ROOT,
     startDate: '2026-05-31T00:00:00Z',
-    endDate: '2026-06-11T23:59:59Z',
+    endDate: '2026-06-12T23:59:59Z',
   },
   {
     id: 'release-commencing-202606',
     textKey: 'announcement-release-commencing',
     buttonTextKey: 'announcement-mdc-button-text',
     buttonHref: URLS.MDC_ROOT,
-    startDate: '2026-06-12T00:00:00Z',
+    startDate: '2026-06-13T00:00:00Z',
     endDate: '2026-06-17T23:59:59Z',
   },
   {
