@@ -36,5 +36,8 @@ request-language-error =
     хат җибәрегез, һәм без Сезнең белән элемтәгә керербез!
 request-for-scripted-speech-toggle = Сценарий буенча сөйләүне сорау
 need-help-deciding-platform = Кайсысын сайларга белмисезме?
+request-language-found-spontaneous-speech =
+    Телегез Common Voice эчендәге <strong>Кинәт туган сөйләм</strong> проектында инде бар.  
+    Файдалы кертем ясау өчен <spontaniousSpeechLink>монда</spontaniousSpeechLink> басыгыз: кертем ясау/мәгълүматлар җыелмасы өчен телне алыштырырга онытмагыз!
 request-language-already-available-scs = Сценарий буенча сөйләүне куллану мөмкинлеге ачылган
 request-language-already-available-sps = Кинәт туган сөйләмне куллану мөмкинлеге ачылган
