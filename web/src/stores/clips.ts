@@ -204,7 +204,7 @@ export namespace Clips {
             hasEarnedSessionToast,
             showFirstStreakToast,
             challengeEnded,
-          } = await state.api.saveVote(id, isValid)
+          } = (await state.api.saveVote(id, isValid)) || {}
 
           if (!state.user.account) {
             dispatch(User.actions.tallyVerification())

@@ -132,7 +132,14 @@ class UnconnectedLeaderboard extends React.Component<Props, State> {
 
     const { api, globalLocale, locale, type } = this.props
     trackDashboard('leaderboard-load-more', globalLocale)
-    const newRows = await api.forLocale(locale).fetchLeaderboard(type, cursor)
+    let newRows: any[] // eslint-disable-line @typescript-eslint/no-explicit-any
+    try {
+      newRows = await api.forLocale(locale).fetchLeaderboard(type, cursor)
+    } catch (err) {
+      if (!isProduction()) console.warn('Leaderboard paginate failed', err)
+      return
+    }
+    if (!this._isMounted) return
     this.setState(
       ({ rows }) => {
         const allRows = [
