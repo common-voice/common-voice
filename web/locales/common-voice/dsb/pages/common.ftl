@@ -37,6 +37,7 @@ be = Běłorušćina
 beb = Bamvele
 bew = Betawi
 bfd = Bafut
+bfq = Badaga
 bft = Balti
 bg = Bułgaršćina
 bgp = Pódzajtšna belučišćina

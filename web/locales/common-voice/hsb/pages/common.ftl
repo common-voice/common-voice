@@ -37,6 +37,7 @@ be = Běłorušćina
 beb = Bamvele
 bew = Betawi
 bfd = Bafut
+bfq = Badaga
 bft = Balti
 bg = Bołharšćina
 bgp = Wuchodna belučišćina
@@ -516,6 +517,11 @@ announcement-release = Lube zhromadźenstwo, nowa wersija je nětko dospołnje n
 
 # Text wrapped in <cvDatasheetsLink></cvDatasheetsLink> will be rendered as an external link to the cv-datasheets GitHub repo
 announcement-pre-release = Lube zhromadźenstwo, wozjewjenski čas so bliži. Prošu přepruwujće a transkribujće a wopytajće tež <cvDatasheetsLink>datowe łopjena cv</cvDatasheetsLink>, zo byšće swoje datowe łopjeno aktualizował.
+
+## Release Commencing
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-commencing = Lube zhromadźenstwo, smy rozsudny datum za wozjewjenje docpěli a zjednoćamy datowe sadźby. Nowe wozjewjenje budźe na <mdcLink>Mozilla Data Collective</mdcLink> za por dnjow k dispoziciji.
 
 ## Common Language/Dataset Selector & SearchBox Related
 
