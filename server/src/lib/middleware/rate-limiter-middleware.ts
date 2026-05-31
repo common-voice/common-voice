@@ -6,6 +6,10 @@ import {
 } from 'rate-limiter-flexible'
 import { redis as redisClient } from '../redis-cache'
 
+// Feature flag: log every 429 to the server console
+// Set to true to track rate-limited requests for debugging
+const ENABLE_RATELIMIT_LOG = false
+
 function createRateLimiter(
   keyPrefix: string,
   rateLimiterOptions?: Partial<IRateLimiterStoreOptions>
@@ -59,16 +63,19 @@ function rateLimiterMiddleware(
       }
 
       const rlRes = exception as RateLimiterRes
-      console.warn(
-        '[ratelimit] 429',
-        request.method,
-        request.originalUrl,
-        JSON.stringify({
-          keyPrefix,
-          authUserId: request.session?.user?.client_id ?? null,
-          targetClientId: request.params?.client_id ?? null,
-        })
-      )
+      if (ENABLE_RATELIMIT_LOG) {
+        console.warn(
+          '[ratelimit] 429',
+          request.method,
+          request.originalUrl,
+          JSON.stringify({
+            keyPrefix,
+            locale: request.params?.locale ?? null,
+            authUserId: request.session?.user?.client_id ?? null,
+            targetClientId: request.params?.client_id ?? null,
+          })
+        )
+      }
       rateLimitResponse(response, rlRes?.msBeforeNext)
       return
     }
