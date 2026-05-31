@@ -37,6 +37,7 @@ be = Vitryska
 beb = Bamvele
 bew = Betawi
 bfd = Bafut
+bfq = Badaga
 bft = Balti
 bg = Bulgariska
 bgp = Östra Balochi
