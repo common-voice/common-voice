@@ -86,11 +86,17 @@ transcribe-audio = ချူပတိတ်ရမျာၚ်ဟီု
 press-and-stories = ပရိုၚ် ကေုာံ ပရူပရာ
 community-and-languages = ဂကောံ ကေုာံ အရေဝ်ဘာသာဂမၠိုၚ်
 about-us = ပရူပရာပိုဲ
+scripted-speech = လဟီုစၞောန်
+spontaneous-speech = လဟီုသဘာဝ
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = ပရေၚ်ပံၚ်တောဲ၊ ပရိုၚ် ကေုာံ ပရူပရာ၊ ဂကောံ ကေုာံ အရေဝ်ဘာသာဂမၠိုၚ်
+partnerships-menu-item-tooltip = လ္ၚတ်ရံင် ဂကောံမထံက်ပင် Common Voice နူအလုံဂၠးတိဂမၠိုင်
+press-and-stories-menu-item-tooltip = ဗှ်ရံင် ပရူပရာ၊ ပရိုင်တၟိ ကေုာံ ပရေင်ပရိုင်ပရူပရာ Common Voice ဂမၠိုၚ်
+community-and-languages-menu-item-tooltip = ဆက်စၠောအ်ကဵုဂကောံပိုယ်တုဲ ရံင်ကေတ် အရေဝ်ဘာသာမနွံပါလုပ်တအ်ဂှ်ညိ။
 
 ## MENU ITEM ARIA LABELS
 
 partnerships-menu-item-aria-label = ကတ်လ္ၚတ်ပရူပရာပရေၚ်ပံၚ်တောဲကဵု Common Voice
+press-and-stories-menu-item-aria-label = လုပ်ကေတ် လၟေၚ်ပရိုၚ် ကေုာံ ပရူပရာဆက်စပ်ကဵု Common Voice ဂမၠိုၚ်ညိ။
