@@ -36,3 +36,5 @@ request-language-error =
     хат җибәрегез, һәм без Сезнең белән элемтәгә керербез!
 request-for-scripted-speech-toggle = Сценарий буенча сөйләүне сорау
 need-help-deciding-platform = Кайсысын сайларга белмисезме?
+request-language-already-available-scs = Сценарий буенча сөйләүне куллану мөмкинлеге ачылган
+request-language-already-available-sps = Кинәт туган сөйләмне куллану мөмкинлеге ачылган
