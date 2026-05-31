@@ -1,10 +1,10 @@
 ## Datasets Page
 
 datasets-heading = တၚ်ဂၞၚ်ဒေတာ
-datasets-headline = ပိုဲတအ်ခၞံဗဒှ်ဒၟံင် ဒတန်တင်ဂၞင်ရမျာၚ်ပံက်သၠး open-source အရေဝ်ဘာသာနာနာ သွက်ဂွံ ဗ္တောန်ကဵု အပ်ပလီကေယှေန် မရပ်စပ်တဴရမျာၚ်ဂမၠိုင်ရ။
+datasets-headline = ပိုဲတအ်ခၞံဗဒှ်ဒၟံင် ဒတန်တင်ဂၞင်ရမျာၚ်ပံက်လဟိုက် အရေဝ်ဘာသာနာနာ သွက်ဂွံ ဗ္တောန်ကဵု အပ်ပလီကေယှေန် မရပ်စပ်တဴရမျာၚ်ဂမၠိုင်ရ။
 datasets-positioning =
     တၚ်ဂၞၚ်ဒေတာရမျာၚ်ဇၞော်ဇၞော် ညးဂမၠိုၚ် မကလိဂွံမာန်တအ်ဂှ် မလေပ်ဇၞော်မောဝ်ပတိုန်ကဵု ပရေၚ်ဖန်ဗဒှ်ကွတ်တၟိ ကေုာံ ပရေၚ်ပြိုၚ်ပကာန်ခိုဟ်မွဲ ပ္ဍဲကဵု နဲကဲပညာရမျာၚ် စက်-ဗတောန် ရောၚ်။ တၚ်ဂၞၚ်ဒေတာ Common Voice ဂှ် ဒှ်အရာဇၞော်အိုတ် ပ္ဍဲကဵုဂကူဍေံကီုလေဝ်၊ ဆဍေံမွဲဓဝ် ဟွံသေၚ်ရ။ 
-    မုက်လိက်ဏအ်ဂှ် ဒှ်ဗဟဵုနိဿဲမွဲ သွက် ဒေတာသေတ်ရမျာၚ် ပံက်သၠး open-source တၞဟ်တအ်ကီု ကေုာံ သီုကဵုဒှ်မုက်လိက် သွက်ဒၞာဲပရေၚ်ပတိတ်တၟိပိုဲတအ် အတိုၚ် Common Voice မဇၞော်မောဝ်တိုန်ကၠုၚ်လဝ်ဂှ်ရ။
+    မုက်လိက်ဏအ်ဂှ် ဒှ်ဗဟဵုနိဿဲမွဲ သွက် ဒေတာသေတ်ရမျာၚ်ပံက်လဟိုက်တၞဟ်ဟ်တအ်ကီု ကေုာံ သီုကဵုဒှ်မုက်လိက် သွက်ဒၞာဲပရေၚ်ပတိတ်တၟိပိုဲတအ် အတိုၚ် Common Voice မဇၞော်မောဝ်တိုန်ကၠုၚ်လဝ်ဂှ်ရ။
 # New/upcoming datasets page headline
 datasets-headline-mdc = လၟုဟ် တၚ်ဂၞၚ်ဒေတာ Mozilla Common Voice တအ်ဂှ် ကေတ်ကလိဂွံမာန် ပ္ဍဲ Mozilla Data Collective ဟေၚ်ရောၚ်။
 # New/upcoming datasets page headline text
@@ -47,7 +47,7 @@ other-datasets = တၚ်ဂၞၚ်ဒေတာရမျာၚ်တၞဟ်
 feedback-q = ဒးပတိုန်ထ္ၜးကဵုကသပ်နွံဟာ
 # This indicates that there is no data to display
 no-information = တၚ်နၚ်ပရူပရာဟွံမွဲ
-resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ဂှ် ဒှ် <docsLink>ကိရိယာတမ်ရိုဟ်-ပံက်သၠးလဝ်</docsLink> မွဲ သွက် ညးသုတေသနတအ် ဂွံဖန်ဗဒှ်တဴ မဝ်ဒေဝ် AI ပရေၚ်ဟီုဂး ကဆံၚ်သၠုၚ်တအ်ရ။
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ဂှ် ဒှ် <docsLink>ကိရိယာပံက်လဟိုက်</docsLink> မွဲ သွက် ညးသုတေသနတအ် ဂွံဖန်ဗဒှ်တဴ မဝ်ဒေဝ် AI ပရေၚ်ဟီုဂး ကဆံၚ်သၠုၚ်တအ်ရ။
 resource-deepspeech-info = စက်စၟတ်သမ္တီရမျာၚ် တမ်ရိုဟ်-ပံက်သၠးလဝ် Mozilla, Deep Speech ဂှ် သုၚ်စောဲစကာ သွက်ဂွံဖန်ဗဒှ် အပ်ပလီကေယှေန် စၟတ်သမ္တီရမျာၚ်တအ်မာန်ရ။ ဗှ်ရံၚ် <githubLink>တၚ်သ္ၚဳဂၠိပ် Github</githubLink> ပိုဲ ဟွံသေၚ်မ္ဂး ပါလုပ် ပ္ဍဲ <discourseLink>DeepSpeech Discourse</discourseLink> သွက်ဂွံ လ္ၚတ်ကေတ် ဗီုပြၚ် ဂွံစကၠောန်ဂှ်ညိ။
 resource-coqui-info = <coquiLink>Coqui</coquiLink> ဂှ် ကဵုလဝ်ဇြဟတ် သွက် နဲကဲပညာရမျာၚ် သၠးပွး ရ။ ပ္ဍဲ ပရေင်ကမၠောန် ညးတအ်ဂှ် ပါလုပ်မပ္တံကဵု စက် STT ကေုာံ TTS တအ်ဂှ် ဒုင်သဇိုင်ကဵု deep learning တအ်ရ။
 community-playbook = လိက်စၞောန် ဂကောံ

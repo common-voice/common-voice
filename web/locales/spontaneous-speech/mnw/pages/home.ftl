@@ -35,4 +35,4 @@ signup-input-placeholder = စုတ် အဳမေလ်မၞးညိ။
 signup-button-value = ပလံၚ်ဏာ အဆက် (link) ကဵု အဳမေလ်မၞးညိ။
 footer-text-privacy = <privacyLink>ပရေင်တင်ဂၞင်ပူဂိုလ်</privacyLink>
 footer-text-terms = <termsLink>စဳပၞောန်</termsLink>
-footer-text-cookies = <cookiesLink>ခေါ်ကဳ<cookiesLink>
+footer-text-cookies = <cookiesLink>တၚ်တုပ်စိုတ်ဂမၠိုၚ်<cookiesLink>
