@@ -45,6 +45,7 @@ x-years-short =
         [one] { $count } သၞာံ
        *[other] { $count } သၞာံ
     }
+help-make-dataset = ရီုဗၚ်ပိုဲဒက်ပ္တန် မူလပစ္စယ် ပံၚ်လဟိုက် ကဆံၚ်သၠုၚ် သွက်မၞိဟ်ဂမၠိုၚ်ညိ။
 sign-up-account = ပၠောပ်စရၚ် သွက်ဂွံကၠောန် အကံက် မွဲ
 email-subscription-title-v3 = သွက်ပရိုၚ်တၟိ Common Voice ကေုာံ Mozilla Foundation ဂမၠိုၚ်ဂှ် ပၠောပ်စရၚ်ညိ။
 

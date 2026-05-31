@@ -46,7 +46,7 @@ tag = ဆက်စပ်
 not-found-page-header = ဟွံဆဵု
 not-found-page-content = မုက်လိက်မၞးဂၠာဲဒၟံၚ်ဂှ် ဟွံဆဵုရောၚ်။
 # Privacy and Terms checkbox
-accept-privacy-and-terms = အဲဒုၚ်တဲတုပ်စိုတ်ကဵု <termsLink>စေဝ်ပၞောန်</termsLink> ကေုာံ <privacyLink>တၚ်သမ္တီပရေၚ်ပၞုက်ဓလုက်</privacyLink>Common Voice ရောၚ်။
+accept-privacy-and-terms = အဲဒုၚ်တဲတုပ်စိုတ်ကဵု <termsLink>စေဝ်ပၞောန်</termsLink> ကေုာံ <privacyLink>တၚ်သမ္တီပရေင်စဵုဒၞာပူဂဵု</privacyLink>Common Voice ရောၚ်။
 # Locales-Variants
 ms-MY = ဗာဟာသ မာလေ
 el-CY = သာဲပရဳယာတ် ဂရိတ်
