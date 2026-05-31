@@ -37,6 +37,7 @@ be = Weißrussisch
 beb = Bamvele
 bew = Betawi
 bfd = Bafut
+bfq = Badaga
 bft = Balti
 bg = Bulgarisch
 bgp = Ost-Belutschi
@@ -516,6 +517,11 @@ announcement-release = Liebe Gemeinschaft, die neue Version befindet sich jetzt 
 
 # Text wrapped in <cvDatasheetsLink></cvDatasheetsLink> will be rendered as an external link to the cv-datasheets GitHub repo
 announcement-pre-release = Liebe Gemeinschaft, die Zeit der Veröffentlichung nähert sich. Bitte validieren und transkribieren Sie und besuchen Sie auch die <cvDatasheetsLink>cv-Datenblätter</cvDatasheetsLink>, um Ihr Datenblatt zu aktualisieren.
+
+## Release Commencing
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-commencing = Liebe Gemeinschaft, wir haben das Stichdatum für die Veröffentlichung erreicht und wir bündeln die Datensätze. Die neue Version wird in ein paar Tagen auf <mdcLink>Mozilla Data Collective</mdcLink> verfügbar sein.
 
 ## Common Language/Dataset Selector & SearchBox Related
 
