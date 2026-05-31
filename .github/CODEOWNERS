@@ -1,2 +1,23 @@
-* @common-voice/cv-engineers 
-*.ftl @ftyers
+# Default ownership — anything not claimed by a rule below
+* @common-voice/cv-engineers
+
+# Code ownership — source files reviewed by @moz-bozden
+*.ts          @moz-bozden
+*.tsx         @moz-bozden
+*.js          @moz-bozden
+*.jsx         @moz-bozden
+*.py          @moz-bozden
+*.pyi         @moz-bozden
+*.sh          @moz-bozden
+*.sql         @moz-bozden
+*.css         @moz-bozden
+*.html        @moz-bozden
+*.yaml        @moz-bozden
+*.yml         @moz-bozden
+*.json        @moz-bozden
+*.toml        @moz-bozden
+Dockerfile    @moz-bozden
+Dockerfile.*  @moz-bozden
+
+# Translation files — must stay LAST so this rule wins for *.ftl
+*.ftl         @ftyers
