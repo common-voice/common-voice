@@ -34,6 +34,7 @@ be = Belarusian
 beb = Bamvele
 bew = Betawi
 bfd = Bafut
+bfq = Badaga
 bft = Balti
 bg = Bulgarian
 bgp = Eastern Balochi
@@ -514,6 +515,11 @@ announcement-release = Dear community, the new release is now fully on <mdcLink>
 
 # Text wrapped in <cvDatasheetsLink></cvDatasheetsLink> will be rendered as an external link to the cv-datasheets GitHub repo
 announcement-pre-release = Dear community, release time is nearing. Please go validate and transcribe, and also visit the <cvDatasheetsLink>cv-datasheets</cvDatasheetsLink> to update your datasheet.
+
+## Release Commencing
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-commencing = Dear community, we reached the cutoff date for the release and we are bundling the datasets. The new release will be available on <mdcLink>Mozilla Data Collective</mdcLink> in a couple of days.
 
 ## Common Language/Dataset Selector & SearchBox Related
 

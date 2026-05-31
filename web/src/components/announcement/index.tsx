@@ -58,6 +58,30 @@ const ANNOUNCEMENTS: AnnouncementItem[] = [
     startDate: '2026-03-25T00:00:00Z',
     endDate: '2026-04-04T23:59:59Z',
   },
+  {
+    id: 'release-pre-202606',
+    textKey: 'announcement-pre-release',
+    buttonTextKey: 'announcement-mdc-button-text',
+    buttonHref: URLS.MDC_ROOT,
+    startDate: '2026-05-31T00:00:00Z',
+    endDate: '2026-06-12T23:59:59Z',
+  },
+  {
+    id: 'release-commencing-202606',
+    textKey: 'announcement-release-commencing',
+    buttonTextKey: 'announcement-mdc-button-text',
+    buttonHref: URLS.MDC_ROOT,
+    startDate: '2026-06-13T00:00:00Z',
+    endDate: '2026-06-17T23:59:59Z',
+  },
+  {
+    id: 'release-202606',
+    textKey: 'announcement-release',
+    buttonTextKey: 'announcement-mdc-button-text',
+    buttonHref: URLS.MDC_ROOT,
+    startDate: '2026-06-18T00:00:00Z',
+    endDate: '2026-06-30T23:59:59Z',
+  },
 ]
 
 const getDismissedIds = (): string[] => {
@@ -65,7 +89,9 @@ const getDismissedIds = (): string[] => {
   return cookie ? cookie.split('|') : []
 }
 
-const getActiveAnnouncement = (dismissedIds: string[]): AnnouncementItem | null => {
+const getActiveAnnouncement = (
+  dismissedIds: string[]
+): AnnouncementItem | null => {
   const now = new Date()
   return (
     ANNOUNCEMENTS.find(
@@ -90,11 +116,18 @@ export const Announcement = ({ position = 'header', hide = false }: Props) => {
 
   const handleClose = () => {
     if (!announcement) return
-    setCookie(DISMISSED_COOKIE_NAME, [...dismissedIds, announcement.id].join('|'), {
-      days: announcement.cookieDays ?? DEFAULT_COOKIE_DURATION,
-    })
+    setCookie(
+      DISMISSED_COOKIE_NAME,
+      [...dismissedIds, announcement.id].join('|'),
+      {
+        days: announcement.cookieDays ?? DEFAULT_COOKIE_DURATION,
+      }
+    )
     setIsActive(false)
-    trackGtag('close-announcement-button', { position, announcement_id: announcement.id })
+    trackGtag('close-announcement-button', {
+      position,
+      announcement_id: announcement.id,
+    })
   }
 
   if (hide || position !== 'header' || !announcement) {
@@ -102,7 +135,10 @@ export const Announcement = ({ position = 'header', hide = false }: Props) => {
   }
 
   return (
-    <div className={['announcement-wrapper', announcement.style].filter(Boolean).join(' ')}>
+    <div
+      className={['announcement-wrapper', announcement.style]
+        .filter(Boolean)
+        .join(' ')}>
       <div className="announcement-container">
         <div className="announcement-container-left">
           <Localized
@@ -124,7 +160,10 @@ export const Announcement = ({ position = 'header', hide = false }: Props) => {
             rounded
             blank
             onClick={() =>
-              trackGtag('join-announcement-button', { position, announcement_id: announcement.id })
+              trackGtag('join-announcement-button', {
+                position,
+                announcement_id: announcement.id,
+              })
             }>
             <span className="join-button__content">
               <Localized id={announcement.buttonTextKey} />
