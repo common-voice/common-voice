@@ -5,8 +5,8 @@ import { User } from './user'
 import { Clip } from 'common'
 
 // Feature flag: Enable detailed error telemetry in Sentry
-// Set to false to reduce Sentry costs (only critical errors will be tracked)
-const ENABLE_ERROR_TELEMETRY = true
+// Set to true to track handled clip-load and clip-vote failures in Sentry
+const ENABLE_ERROR_TELEMETRY = false
 
 function extractErrorDetails(err: unknown): {
   errMessage: string
