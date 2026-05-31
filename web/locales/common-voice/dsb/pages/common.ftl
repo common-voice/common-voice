@@ -518,6 +518,11 @@ announcement-release = Lube zgromaźeństwo, nowa wersija je něnto dopołnje na
 # Text wrapped in <cvDatasheetsLink></cvDatasheetsLink> will be rendered as an external link to the cv-datasheets GitHub repo
 announcement-pre-release = Lube zgromaźeństwo, wózjawjeński cas se bližy. Pšosym pśeglědujśo a transkriběrujśo a woglědajśo se teke k <cvDatasheetsLink>datowym łopjenam cv</cvDatasheetsLink>, aby swóje datowe łopjeno aktualizěrował.
 
+## Release Commencing
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-commencing = Lube zgromaźeństwo, smy dojśpili póstajony datum za wózjawjenje a zjadnośujomy datowe sajźby. Nowe wózjawjenje buźo na <mdcLink>Mozilla Data Collective</mdcLink> za pór dnjow k dispoziciji.
+
 ## Common Language/Dataset Selector & SearchBox Related
 
 # Generic search box defaults
