@@ -225,6 +225,7 @@ nan-tw = Taiwaneză (Minnan)
 nb-NO = Norvegiană Bokmål
 nd = Ndebele de nord
 ne-NP = Nepaleză
+nhe = Nahuatlul Huasteca de Est
 nia = Nias
 nl = Olandeză
 nlv = Orizaba Nahuatl
