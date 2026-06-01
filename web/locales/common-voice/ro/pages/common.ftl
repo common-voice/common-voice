@@ -226,6 +226,7 @@ nb-NO = Norvegiană Bokmål
 nd = Ndebele de nord
 ne-NP = Nepaleză
 nhe = Nahuatlul Huasteca de Est
+nhi = Nahuatlul Sierra Puebla de Vest
 nia = Nias
 nl = Olandeză
 nlv = Orizaba Nahuatl
