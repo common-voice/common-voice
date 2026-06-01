@@ -141,7 +141,7 @@ contribute-github-action = ဘိုၚ်ပါလုပ်လ္တူ GitHub
 
 featured-section-title = ပါလုပ်လဝ် ပ္ဍဲ...
 # icon is an arrow that points downwards
-download-press-pack = ဂၠေါၚ်ဖျေံကေတ် ကပေါတ်ပရိုၚ်ပိုယ်
+download-press-pack = ဂၠေါၚ်ဖျေံကေတ် တၞးလိက်ပရိုၚ်ပိုယ်
 
 ## Developers section
 
