@@ -146,10 +146,11 @@ download-press-pack = ဂၠေါၚ်ဖျေံကေတ် ကပေါတ
 ## Developers section
 
 # icon is an arrow that points to the right
-explore-datasets = ဂၠာဲလ္ၚတ်တၚ်ဂၞၚ်ပစ္စယ်ဂမၠိုင်<icon></icon>
+explore-datasets = ဂၠာဲလ္ၚတ်တၚ်ဂၞၚ်မူလပစ္စယ်ဂမၠိုင်<icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = ကဵုအခေါၚ်ထံက်ပၚ် တၚ်ဂၞၚ်မူလပစ္စယ် ဂကောံမက္ဍိုက်လဝ်က္ဍိုပ်ဂမၠိုၚ်
 read-sentences-link = ဗှ်ဝါကျဂမၠိုၚ်
 validate-readings-link = စၟဳစၟတ်ရမျာၚ်မဗှ်ပ္တိတ်တအ်ဂှ်ညိ။
 contribute-link = ပါလုပ်ပ္ဍဲခၞံဗဒှ်ဝေါဟာရလိက်
