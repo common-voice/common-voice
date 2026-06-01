@@ -24,9 +24,17 @@ export default function useSystemErrorHandler() {
 
       event.preventDefault()
 
+      const messageId =
+        code === '429'
+          ? retryAfter > 0
+            ? 'error-title-429-with-time'
+            : 'error-title-429-no-time'
+          : `error-title-${code}`
+      const args = code === '429' && retryAfter > 0 ? { retryAfter } : null
+
       const message = l10n.getString(
-        `error-title-${code}`,
-        { retryAfter },
+        messageId,
+        args,
         l10n.getString('error-something-went-wrong')
       )
 
