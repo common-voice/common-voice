@@ -10,14 +10,6 @@ error-clip-upload-too-large = Waša natočenska dataja je přewulka za nahraće.
 error-clip-upload-server-error = Serwerowy zmylk při předźěłowanju wašeho klipa. Prošu začitajće stronu znowa abo spytajće pozdźišo hišće raz.
 error-title-404 = Njemóžachmy tu stronu za was namakać
 error-content-404 = Snano budźe naša <homepageLink>startowa strona</homepageLink> pomhać? Zo byšće prašenje stajił, wobdźělće so prošu na <matrixLink>chaće Matrix zhromadźenstwa</matrixLink>, wobkedźbujće sydłowe problemy přez <githubLink>GitHub</githubLink> abo wopytajće <discourseLink>naše forumy Discourse</discourseLink>.
-error-title-429 =
-    { $retryAfter ->
-        [0] Sće přespěšny. Prošu budźće pomalši a spytajće za wokomik hišće raz.
-        [one] Sće přespěšny. Prošu spytajće za { NUMBER($retryAfter) } sekundu hišće raz.
-        [two] Sće přespěšny. Prošu spytajće za { NUMBER($retryAfter) } sekundźe hišće raz.
-        [few] Sće přespěšny. Prošu spytajće za { NUMBER($retryAfter) } sekundy hišće raz.
-       *[other] Sće přespěšny. Prošu spytajće za { NUMBER($retryAfter) } sekundow hišće raz.
-    }
 error-title-500 = Hopla, něšto je so nimokuliło
 error-content-500 = Njewočakowany zmylk je nastał. Prošu spytajće pozdźišo hišće raz. Wobdźělće so prošu za pomoc na <matrixLink>chaće Matrix zhromadźenstwa</matrixLink>, wobkedźbujće sydłowe problemy přez <githubLink>GitHub</githubLink> abo wopytajće <discourseLink>naše forumy Discourse</discourseLink>.
 error-title-502 = Zwisk přetorhnjeny
