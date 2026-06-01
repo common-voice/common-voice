@@ -10,6 +10,12 @@ error-clip-upload-too-large = Your recording file is too large to upload. Please
 error-clip-upload-server-error = Server error processing your clip. Please reload the page or try again later.
 error-title-404 = We couldn’t find that page for you
 error-content-404 = Maybe our <homepageLink>homepage</homepageLink> will help? To ask a question, please join the <matrixLink>Matrix community chat</matrixLink>, monitor site issues via <githubLink>GitHub</githubLink> or visit <discourseLink>our Discourse forums</discourseLink>.
+error-title-429-no-time = You’re going too fast. Please slow down and try again in a moment.
+error-title-429-with-time =
+  { $retryAfter ->
+    [one] You’re going too fast. Please try again in { $retryAfter } second.
+   *[other] You’re going too fast. Please try again in { $retryAfter } seconds.
+  }
 error-title-500 = Sorry, something went wrong
 error-content-500 = An unexpected error occurred. Please try again later. For help, please join the <matrixLink>Matrix community chat</matrixLink>, monitor site issues via <githubLink>GitHub</githubLink> or visit <discourseLink>our Discourse forums</discourseLink>.
 error-title-502 = Connection interrupted

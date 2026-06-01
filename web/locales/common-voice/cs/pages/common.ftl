@@ -37,9 +37,11 @@ be = Běloruština
 beb = Bamvele
 bew = Betawi
 bfd = Bafut
+bfq = Badaga
 bft = Balti
 bg = Bulharština
 bgp = Východní Balúčistán
+bin = Edo
 bkh = Bakoko
 bkm = Komijština
 bm = Bambarština
@@ -116,6 +118,7 @@ fuf = Pulární Guinea
 fy-NL = Fríština
 ga-IE = Irština
 gaa = Ga
+gcf = Martinská kreolština
 gej = Mina
 ggg = Gurgula
 gid = Guidar
@@ -344,6 +347,7 @@ sdh = Jižní kurdština
 sdo = Serian Bidayuh
 seh = Sena
 sei = Seri
+sg = Sangoština
 shi = Shilha
 shn = Shan
 si = Sinhalština
@@ -375,6 +379,7 @@ tg = Tádžičtina
 th = Thajština
 ti = Tigriňa
 tig = Tigre
+tiv = Tiv
 tk = Turkmenština
 tl = Tagalština
 tli = Tlingit
@@ -512,6 +517,11 @@ announcement-release = Vážená komunito, nová verze je nyní plně k dispozic
 
 # Text wrapped in <cvDatasheetsLink></cvDatasheetsLink> will be rendered as an external link to the cv-datasheets GitHub repo
 announcement-pre-release = Vážená komunito, datum vydání se blíží. Prosím, zkontrolujte a přepište údaje a navštivte také stránku <cvDatasheetsLink>cv-datasheets</cvDatasheetsLink>, abyste aktualizovali svůj datový list.
+
+## Release Commencing
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-commencing = Vážená komunito, termín pro vydání již uplynul a v současné době připravujeme datové sady. Nová verze bude k dispozici na <mdcLink>Mozilla Data Collective</mdcLink> již za pár dní.
 
 ## Common Language/Dataset Selector & SearchBox Related
 

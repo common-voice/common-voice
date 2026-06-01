@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import { DAILY_GOALS } from '../../../../constants';
 import { useAccount, useAPI } from '../../../../hooks/store-hooks';
 import { trackDashboard } from '../../../../services/tracker';
+import { isProduction } from '../../../../utility';
 import URLS from '../../../../urls';
 import {
   LocaleLink,
@@ -47,7 +48,9 @@ export default function ProgressCard({
   }
 
   useEffect(() => {
-    fetchAndSetOverallCount();
+    fetchAndSetOverallCount().catch(err => {
+      if (!isProduction()) console.warn('Daily count fetch failed', err);
+    });
   }, []);
 
   const overallGoal = DAILY_GOALS[type][0];

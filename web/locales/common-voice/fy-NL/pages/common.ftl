@@ -37,6 +37,7 @@ be = Wit-Russysk
 beb = Bamvele
 bew = Betawi
 bfd = Bafut
+bfq = Badaga
 bft = Balti
 bg = Bulgaarsk
 bgp = East-Beloetsji

@@ -37,6 +37,7 @@ be = Vitryska
 beb = Bamvele
 bew = Betawi
 bfd = Bafut
+bfq = Badaga
 bft = Balti
 bg = Bulgariska
 bgp = Östra Balochi
@@ -516,6 +517,11 @@ announcement-release = Kära community, den nya versionen finns nu helt tillgän
 
 # Text wrapped in <cvDatasheetsLink></cvDatasheetsLink> will be rendered as an external link to the cv-datasheets GitHub repo
 announcement-pre-release = Kära community, lanseringstiden närmar sig. Vänligen validera och transkribera, och besök även <cvDatasheetsLink>cv-datasheets</cvDatasheetsLink> för att uppdatera ditt datablad.
+
+## Release Commencing
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-commencing = Kära community, vi har nått sista datum för lanseringen och vi bygger nu datamängderna. Den nya versionen kommer att finnas tillgänglig på <mdcLink>Mozilla Data Collective</mdcLink> om ett par dagar.
 
 ## Common Language/Dataset Selector & SearchBox Related
 

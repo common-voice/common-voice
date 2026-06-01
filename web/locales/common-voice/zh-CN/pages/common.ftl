@@ -58,6 +58,7 @@ byv = 美敦巴语
 ca = 加泰罗尼亚语
 cak = 喀克其奎语
 cdo = 闽东语
+ce = 车臣语
 cgg = 芝加语
 ckb = 中库尔德语
 cnh = 哈卡钦语
@@ -119,6 +120,7 @@ guc = 瓦尤语
 gv = 马恩岛语
 gya = 西北格巴亚语
 ha = 豪萨语
+hak = 客家话
 hch = 维沙里卡语
 he = 希伯来语
 hi = 印地语
@@ -263,6 +265,7 @@ sq = 阿尔巴尼亚语
 sr = 塞尔维亚语
 ss = 斯威士兰语
 st = 南索托语
+su = 巽他语
 sv-SE = 瑞典语
 sva = 斯凡语
 sw = 斯瓦希里语
@@ -378,8 +381,14 @@ announcement-mdc-button-aria-text = 新建标签页打开
 
 ## Common Language/Dataset Selector & SearchBox Related
 
+# Generic search box defaults
+searchbox-default-label = 开始键入来搜索
 searchbox-default-placeholder = 搜索...
 searchbox-default-aria-label = 搜索
+dropdown-no-results = 未找到符合条件的结果
+# Common Voice Dataset=Language search box
+dataset-searchbox-label = 同时更改显示语言和数据集语言
 dataset-searchbox-placeholder = 搜索语言…
 dataset-searchbox-aria-label = 搜索语言
+dataset-search-no-results = 未找到匹配的语言
 request-new-language = 申请新语言

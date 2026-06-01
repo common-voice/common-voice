@@ -40,6 +40,7 @@ x-years-short =
     }
 help-make-dataset = 帮助我们构建高质量、可公开使用的数据集
 sign-up-account = 注册账户
+email-subscription-title-v3 = 订阅 Common Voice 和 Mozilla 基金会的最新消息
 
 ## Account Benefits
 
@@ -124,11 +125,13 @@ answer = 回答
 
 ## Community section
 
+community-section-title-202601 = 由全球社区予力，为全球社区服务。现已支持 290 门语言，且仍在不断扩增！
 join-discord-community = 加入 Discord 社区
 # label for button
 join-discord-community-action = 通过 Discord 加入我们
 join-discord-community-content = 参与语言社区讨论、提问、掌握活动与研讨动态。
 find-us-on-matrix = 在 Matrix 上找到我们
+find-us-on-matrix-content-v2 = Matrix 是开源且轻量的去中心化实时通信协议，也是 Mozilla 的首选公开讨论平台。我们的房间是“common-voice:mozilla.org”。
 # label for button
 find-us-on-element-action-1 = Element
 find-us-on-matrix-action-2 = 其他客户端

@@ -52,7 +52,7 @@ other-datasets = Andre stemmedatasett
 feedback-q = Har du ei tilbakemelding?
 # This indicates that there is no data to display
 no-information = Ingen informasjon
-resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ er eit <docsLink>open-kjeldekodeverktøy</docsLink> for forskarar som utviklar moderne kunstig intelligens-modellar for samtalerobotar.
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ er eit <docsLink>open-kjeldekodeverktøy</docsLink> for forskarar som utviklar toppmoderne konversasjons-KI-modellar.
 resource-deepspeech-info = Mozilla Deep Speech er ein open kjeldekode-motor for taleattkjenning som kan brukast i taleattkjenningsapplikasjonar. Les  <githubLink>oppsummeringa på Github</githubLink> eller bli med på <discourseLink>DeepSpeech Discourse</discourseLink> for å lære meir om korleis du kjem i gang med systemet.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> jobbar for open taleteknologi. Prosjekta deira inkluderer system for tale-til-tekst og tekst-til-tale basert på djup læring.
 community-playbook = Fellesskapsguide

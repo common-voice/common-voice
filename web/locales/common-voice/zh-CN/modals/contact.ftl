@@ -6,3 +6,5 @@ contact-form-name =
 contact-form-message =
     .label = 信息
 contact-required = * 必填
+contact-form-success = 已发送您的消息。谢谢！
+contact-form-error = 出了点问题，请重试。

@@ -85,12 +85,25 @@ press-and-stories = Матбугат һәм мәкаләләр
 community-and-languages = Берләшмә һәм телләр
 coming-soon = Тиздән
 about-us = Безнең турында
+scripted-speech = ӘЗЕРЛӘП КУЙГАН СӨЙЛӘМ
 spontaneous-speech = КИНӘТ ТУГАН СӨЙЛӘМ
+
+## MENU ITEMS TOOLTIPS
+
+about-menu-tooltip = Партнерлыклар, матбугат һәм мәкаләләр, җәмгыять һәм телләр
+about-us-menu-item-tooltip = Common Voice проекты өстендә эшләүче команда һәм аларның миссиясе турында күбрәк белегез
+partnerships-menu-item-tooltip = Common Voice проектына ярдәмлек күрсәтүче оешмалар
+press-and-stories-menu-item-tooltip = Блогыбызны укуыгыз яки безнең турында үзегез языгыз
+community-and-languages-menu-item-tooltip = Җәмгыятебезгә кушылыгыз һәм гамәлдә нинди телләр барлыгын күрегез
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = Партнерлык, матбугат, вакыйгалар, җәмгыять һәм телләр буенча мәгълүмат алу өчен меню
 about-us-menu-aria-label = "Безнең турында" менюсы
 about-us-menu-item-aria-label = "Безнең турында" менюсы
+partnerships-menu-item-aria-label = Common Voice белән партнерлык турында
+press-and-stories-menu-item-aria-label = Common Voice проекты белән бәйле пресс-релизлар һәм мәкаләләрне карагыз
+community-and-languages-menu-item-aria-label = Common Voice проекты белән эш итүче җәмгыять һәм телләр турында күбрәк белегез
 
 ## Hero section
 
@@ -128,10 +141,17 @@ find-us-on-matrix-content-v2 = Matrix - үзәкләштерелмәгән, ре
 find-us-on-element-action-1 = Element
 find-us-on-matrix-action-2 = Башка клиентлар
 ask-mozilla-share = Mozilla'дан чараларыгыз белән уртаклашуын сорагыз
+ask-mozilla-share-content = Узган яки булачак чаралар турында сөйлисегез киләме? Безнең белән уртаклашыгыз! Без аның турында җәмгыятебездә сөйләрбез яки блогта язарбыз!
 # label for button
 ask-mozilla-share-action = Чарагыз белән уртаклашу
+download-contribution-certificate = Катнашу сертификатыгызны күчереп алу
+download-contribution-certificate-content = Common Voice проектына кертемегезне күрсәтүче сертификат күчереп алыгыз, аны чараларыгыздә файдаланыгыз яки үзегез сокланыгыз. Кертемегез булмаса — бу проект та булмас иде!
 # label for button
 download-contribution-certificate-action = Сертификатны алу
+contribute-github = GitHub платформасында кертем ясау.
+contribute-github-content = Сезнең кебек кешеләр булмаса, бу проект та булмас иде. 🎉 Common Voice проектында төрлечә катнашырга була — файдалы кертем ясау өчен программист булу зарур түгел!
+# label for button
+contribute-github-action = GitHub платформасында кертем ясау.
 
 ## Featured section
 
@@ -148,12 +168,17 @@ explore-datasets = Мәгълүмат тупланмаларын карау <ico
 
 get-involved-section-title = Җәмгыять тарафыннан ачык мәгълүмат тупланмаларына ярдәм итегез
 read-sentences-link = Җөмләләрне уку
+validate-readings-link = Укуны тикшерү
+contribute-link = Текстларны җыюга өлеш кертү
 answer-questions-link = Сорауларга җавап бирү
+transcribe-answers-link = Җавапларны транскриблау
 review-transcriptions-link = Транскриптларны тикшерү
+contribute-text-link = Текст тәкъдим итү
 press-and-stories-link = Матбугат һәм мәкаләләр
 
 ## Partner section
 
+partner-section-title = Партнёрыбызга әйләнү
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-tech-companies = <bold>Технологик компанияләр</bold> - күптелле ЯФ экосистемасының уңышлы үсеше өчен ачык мәгълүмат тупланмаларын булдыруга инвестицияләр кертегез.
 # Text wrapped in <bold></bold> will be shown in bold font
