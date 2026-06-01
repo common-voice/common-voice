@@ -37,6 +37,7 @@ be = Belarusian
 beb = Bamvele
 bew = Betawi
 bfd = Bafut
+bfq = Badaga
 bft = Balti
 bg = Bulgaria ñe’ẽ
 bgp = Baluchi oriental
