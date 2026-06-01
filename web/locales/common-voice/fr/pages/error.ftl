@@ -10,6 +10,12 @@ error-clip-upload-too-large = Le fichier de votre enregistrement est trop volumi
 error-clip-upload-server-error = Erreur du serveur lors du traitement de votre échantillon. Veuillez actualiser la page ou réessayer plus tard.
 error-title-404 = Page introuvable
 error-content-404 = Peut-être que notre <homepageLink>page d’accueil</homepageLink> vous aidera ? Pour poser une question, rejoignez la <matrixLink>discussion communautaire Matrix</matrixLink>, surveillez les problèmes du site sur <githubLink>GitHub</githubLink> ou visitez nos <discourseLink>forums Discourse</discourseLink>.
+error-title-429 =
+    { $retryAfter ->
+        [0] Vous allez trop vite. Veuillez réessayer dans un moment.
+        [one] seconde
+       *[other] Vous allez trop vite. Veuillez réessayer dans { NUMBER($retryAfter) } secondes.
+    }
 error-title-500 = Désolé, une erreur s’est produite
 error-content-500 = Une erreur inattendue s’est produite. Veuillez réessayer plus tard. Pour obtenir de l’aide, rejoignez la <matrixLink>discussion communautaire sur Matrix</matrixLink>, surveillez les problèmes du site via <githubLink>GitHub</githubLink> ou visitez <discourseLink>nos forums Discourse</discourseLink>.
 error-title-502 = La connexion a été réinitialisée
