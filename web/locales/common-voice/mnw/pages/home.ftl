@@ -130,6 +130,8 @@ find-us-on-matrix = ဂၠာဲပိုဲလ္တူ Matrix
 find-us-on-element-action-1 = ကဏ္ဍ
 find-us-on-matrix-action-2 = ညးသုၚ်စောဲတၞဟ်ဂမၠိုၚ်
 # label for button
+ask-mozilla-share-action = ပါ်ပြအ် ကမၠောန်ကိစ္စမၞး
+# label for button
 download-contribution-certificate-action = ကေတ်တၞးလိက်စၟတ်သမ္တီမၞး
 contribute-github = ဘိုၚ်ပါလုပ်လ္တူ GitHub
 # label for button
@@ -140,6 +142,11 @@ contribute-github-action = ဘိုၚ်ပါလုပ်လ္တူ GitHub
 featured-section-title = ပါလုပ်လဝ် ပ္ဍဲ...
 # icon is an arrow that points downwards
 download-press-pack = ဂၠေါၚ်ဖျေံကေတ် ကပေါတ်ပရိုၚ်ပိုယ်
+
+## Developers section
+
+# icon is an arrow that points to the right
+explore-datasets = ဂၠာဲလ္ၚတ်တၚ်ဂၞၚ်ပစ္စယ်ဂမၠိုင်<icon></icon>
 
 ## Get involved section
 
