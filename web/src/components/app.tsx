@@ -63,6 +63,34 @@ Sentry.init({
   integrations: [Sentry.browserTracingIntegration()],
   environment: isProduction() ? 'prod' : 'stage',
   release: process.env.GIT_COMMIT_SHA || null,
+  ignoreErrors: [
+    'AbortError', // User navigated away mid-fetch
+    /^Connection error: cancelled$/, // iOS Safari wording for user navigation
+    /Error invoking postMessage: Java object is gone/, // Facebook Android webview bridge GC
+    /window\.checkLogin is not a function/, // External bookmarklet / extension, not our code
+    /undefined is not an object \(evaluating 'window\.webkit\.messageHandlers'\)/, // Facebook iOS in-app browser probe
+  ],
+  // Replace '<unknown>' rejections with the real reason text so they're triageable
+  beforeSend(event, hint) {
+    const reason = (hint as { originalException?: unknown } | undefined)
+      ?.originalException
+    const first = event.exception?.values?.[0]
+    if (first && (first.value === '<unknown>' || !first.value) && reason != null) {
+      let text: string
+      if (typeof reason === 'string') {
+        text = reason
+      } else {
+        try {
+          text = JSON.stringify(reason)
+        } catch {
+          // Circular refs (DOM Event, framework error wrappers) — fall back
+          text = String(reason)
+        }
+      }
+      first.value = text.slice(0, 200)
+    }
+    return event
+  },
 })
 
 interface PropsFromState {
