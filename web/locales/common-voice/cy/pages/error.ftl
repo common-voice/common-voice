@@ -10,6 +10,16 @@ error-clip-upload-too-large = Mae eich ffeil recordio'n rhy fawr i'w llwytho i f
 error-clip-upload-server-error = Gwall gweinydd wrth brosesu'ch clip. Ail-lwythwch y dudalen neu geisio eto yn nes ymlaen.
 error-title-404 = Nid oedd modd i ni ddod o hyd i'r dudalen honno i chi
 error-content-404 = Efallai y bydd ein <homepageLink>tudalen cartref</homepageLink> yn gallu eich helpu? I ofyn cwestiwn, ymunwch â'n sgwrs gymunedol yn <matrixLink>Matrix</matrixLink>, monitro materion gwefan trwy <githubLink>GitHub</githubLink> neu ewch i'n <discourseLink>fforymau Discours</discourseLink>.
+error-title-429-no-time = Rydych chi'n mynd yn rhy gyflym. Arafwch a rhowch gynnig arall arni ymhen eiliad neu ddau.
+error-title-429-with-time =
+    { $retryAfter ->
+        [zero] Rydych chi'n mynd yn rhy gyflym. Ceisiwch eto ymhen { $retryAfter } eiliadau.
+        [one] Rydych chi'n mynd yn rhy gyflym. Ceisiwch eto ymhen { $retryAfter } eiliad.
+        [two] Rydych chi'n mynd yn rhy gyflym. Ceisiwch eto ymhen { $retryAfter } eiliad.
+        [few] Rydych chi'n mynd yn rhy gyflym. Ceisiwch eto ymhen { $retryAfter } eiliad.
+        [many] Rydych chi'n mynd yn rhy gyflym. Ceisiwch eto ymhen { $retryAfter } eiliad.
+       *[other] Rydych chi'n mynd yn rhy gyflym. Ceisiwch eto ymhen { $retryAfter } eiliad.
+    }
 error-title-500 = Ymddiheuriadau, aeth rhywbeth o'i le
 error-content-500 = Digwyddodd gwall annisgwyl. Ceisiwch eto yn nes ymlaen. I gael cymorth, ymunwch â <matrixLink>sgwrs gymunedol Matrix</matrixLink>, monitro materion safle trwy <githubLink>GitHub</githubLink> neu ewch i'n <discourseLink>fforymau Discourse</discourseLink>.
 error-title-502 = Cysylltiad wedi'i darfu
