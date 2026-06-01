@@ -130,7 +130,7 @@ find-us-on-matrix = ဂၠာဲပိုဲလ္တူ Matrix
 find-us-on-element-action-1 = ကဏ္ဍ
 find-us-on-matrix-action-2 = ညးသုၚ်စောဲတၞဟ်ဂမၠိုၚ်
 # label for button
-download-contribution-certificate-action = ကေတ်တၞးလိက်တဆိပ်စၟတ်သမ္တီမၞး
+download-contribution-certificate-action = ကေတ်တၞးလိက်စၟတ်သမ္တီမၞး
 contribute-github = ဘိုၚ်ပါလုပ်လ္တူ GitHub
 # label for button
 contribute-github-action = ဘိုၚ်ပါလုပ်လ္တူ GitHub
