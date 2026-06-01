@@ -195,7 +195,7 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
   private handleKeyDown = (event: any) => {
     if (isTyping()) return
 
-    const { getString, isSubmitted, locale, onReset, onSubmit, type } =
+    const { getString, hasErrors, isSubmitted, locale, onReset, onSubmit, type } =
       this.props
 
     if (
@@ -203,6 +203,7 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
       event.altKey ||
       event.shiftKey ||
       event.metaKey ||
+      hasErrors ||
       this.state.showReportModal ||
       this.props.shouldShowFirstCTA ||
       this.props.showPrivacyModal
