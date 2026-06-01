@@ -112,6 +112,7 @@ get-started = စကၠောန်ဏောၚ်
 
 ## Action items section
 
+action-items-section-title = Common Voice ဂှ် ဒှ်ပလက်ဖံက် ပံၚ်လဟိုက် သၠးပွးမွဲ သွက်ပရေင်ဂွံဗဒှ် မူလပစ္စယ် မပၠလဝ်တရဴ နကဵု ဂကောံရ။
 scripted-card-header = လဟီုစၞောန်
 spontaneous-card-header = လဟီုသဘာဝ
 language-text-card-header = မလိက်အရေဝ်ဘာသာ
