@@ -130,9 +130,17 @@ find-us-on-matrix = ဂၠာဲပိုဲလ္တူ Matrix
 ## Featured section
 
 featured-section-title = ပါလုပ်လဝ် ပ္ဍဲ...
+# icon is an arrow that points downwards
+download-press-pack = ဂၠေါၚ်ဖျေံကေတ် ကပေါတ်ပရိုၚ်ပိုယ်
 
 ## Get involved section
 
+read-sentences-link = ဗှ်ဝါကျဂမၠိုၚ်
+validate-readings-link = စၟဳစၟတ်ရမျာၚ်မဗှ်ပ္တိတ်တအ်ဂှ်ညိ။
+answer-questions-link = သွဟ်အရေဝ်သၟာန်ဂမၠိုၚ်
+transcribe-answers-link = ချူချာဲပတိတ်ရမျာၚ်သွဟ်ဂမၠိုၚ်
+review-transcriptions-link = ကလေၚ်စၟဳစၟတ်အရာချူချာဲဂမၠိုၚ်
+contribute-text-link = ဘိုၚ်စုတ်မလိက်
 press-and-stories-link = ပရိုၚ် ကေုာံ ပရူပရာ
 
 ## Partner section
