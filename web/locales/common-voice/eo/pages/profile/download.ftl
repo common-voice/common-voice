@@ -20,5 +20,6 @@ download-request-button = Elŝuti
 download-request-title = { $created }
 download-request-refresh-button = Refreŝigi
 download-request-modal-title = Elŝutaj ligiloj
+download-request-modal-description = Jen la ligiloj por elŝuti viajn dosierojn ZIP.
 download-request-link-text = Zip #{ $offset } de { $total }
 download-request-metadata-link = Teksto de frazo

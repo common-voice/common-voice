@@ -24,7 +24,7 @@ skip-button = သရုၚ်ထောံ
 submit-button = ပတိုန်
 contribute = ပါလုပ်
 # Button text which appears when there are no more resources
-continue-with-skipped = ဆက်ကၠောန်အာ နကဵု အရာမသရုၚ်ထောံလဝ်
+continue-with-skipped = ဆက်ကၠောန်အာကဵု အရာသရုၚ်လဝ်
 
 ## Common aria-labels
 
@@ -46,7 +46,7 @@ tag = ဆက်စပ်
 not-found-page-header = ဟွံဆဵု
 not-found-page-content = မုက်လိက်မၞးဂၠာဲဒၟံၚ်ဂှ် ဟွံဆဵုရောၚ်။
 # Privacy and Terms checkbox
-accept-privacy-and-terms = အဲဒုၚ်တဲတုပ်စိုတ် <termsLink>ပရေၚ်စကာသုၚ်စောဲ</termsLink> ကေုာံ <privacyLink>ပရေင်တင်ဂၞင်ပူဂိုလ်</privacyLink>Common Voice ရောၚ်။
+accept-privacy-and-terms = အဲဒုၚ်တဲတုပ်စိုတ်ကဵု <termsLink>စေဝ်ပၞောန်</termsLink> ကေုာံ <privacyLink>တၚ်သမ္တီပရေင်စဵုဒၞာပူဂဵု</privacyLink>Common Voice ရောၚ်။
 # Locales-Variants
 ms-MY = ဗာဟာသ မာလေ
 el-CY = သာဲပရဳယာတ် ဂရိတ်

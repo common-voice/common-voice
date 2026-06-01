@@ -10,6 +10,12 @@ error-clip-upload-too-large = Il file della tua registrazione è troppo grande p
 error-clip-upload-server-error = Si è verificato un errore del server durante l’elaborazione della registrazione. Ricarica la pagina o riprova più tardi.
 error-title-404 = Pagina non trovata
 error-content-404 = Vuoi tornare alla <homepageLink>pagina iniziale</homepageLink>? Puoi anche chiedere assistenza nella <matrixLink>chat della community Matrix</matrixLink>, consultare i problemi noti del sito su <githubLink>GitHub</githubLink> o seguire la discussione sul <discourseLink>forum Discourse</discourseLink>.
+error-title-429-no-time = Stai andando troppo veloce. Rallenta e riprova tra qualche istante.
+error-title-429-with-time =
+    { $retryAfter ->
+        [one] Stai andando troppo veloce. Rallenta e riprova tra { $retryAfter } secondo.
+       *[other] Stai andando troppo veloce. Rallenta e riprova tra { $retryAfter } secondi.
+    }
 error-title-500 = Siamo spiacenti, si è verificato un errore
 error-content-500 = Si è verificato un errore imprevisto. Riprova più tardi. Puoi chiedere assistenza nella <matrixLink>chat della community su Matrix</matrixLink>, consultare i problemi noti del sito su <githubLink>GitHub</githubLink> o seguire la discussione nel <discourseLink>forum su Discourse</discourseLink>.
 error-title-502 = Connessione interrotta

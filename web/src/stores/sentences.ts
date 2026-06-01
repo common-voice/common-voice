@@ -249,10 +249,12 @@ export namespace Sentences {
         const pendingSentence =
           currentLocaleState?.pendingSentences?.[sentenceVote.sentenceIndex]
         if (pendingSentence?.localeId) {
-          actions.refillPendingSentences(pendingSentence.localeId)(
-            dispatch,
-            getState
-          )
+          actions
+            .refillPendingSentences(pendingSentence.localeId)(
+              dispatch,
+              getState
+            )
+            .catch(() => undefined)
         }
       },
 
@@ -281,10 +283,12 @@ export namespace Sentences {
           s => s.sentenceId === sentenceId
         )
         if (pendingSentence?.localeId) {
-          actions.refillPendingSentences(pendingSentence.localeId)(
-            dispatch,
-            getState
-          )
+          actions
+            .refillPendingSentences(pendingSentence.localeId)(
+              dispatch,
+              getState
+            )
+            .catch(() => undefined)
         }
       },
 

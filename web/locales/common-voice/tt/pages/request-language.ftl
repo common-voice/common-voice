@@ -34,3 +34,15 @@ request-language-success-list-3 =
 request-language-error =
     Без бу таләпне бәлки алмаганбыздыр. Зинһар, безгә <emailLink>{ $email }</emailLink> адресына турыдан-туры
     хат җибәрегез, һәм без Сезнең белән элемтәгә керербез!
+request-for-scripted-speech-toggle = Сценарий буенча сөйләүне сорау
+request-for-spontaneous-speech-toggle = Сценарий буенча сөйләүне куллану мөмкинлеге ачуны сорау
+need-help-deciding-platform = Кайсысын сайларга белмисезме?
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = <strong>Сценарий буенча сөйләү</strong> (сез аны гадәттә Common Voice проектының нәкъ үзе итеп беләсез) — монда сез җөмләләрне телегездә кычкырып укый аласыз.
+need-help-deciding-platform-explanation-2 = <strong>Кинәт туган сөйләм</strong> — Common Voice проектының яңа өлеше. Монда сез сорауларга табигыйрак һәм гадәти әңгәмәгә охшашрак рәвештә җавап бирә аласыз.
+need-help-deciding-platform-explanation-3 = Телегезне бер платформада да күрмәсәгез, икесен дә сайлагыз.
+request-language-found-spontaneous-speech =
+    Телегез Common Voice эчендәге <strong>Кинәт туган сөйләм</strong> проектында инде бар.  
+    Файдалы кертем ясау өчен <spontaniousSpeechLink>монда</spontaniousSpeechLink> басыгыз: кертем ясау/мәгълүматлар җыелмасы өчен телне алыштырырга онытмагыз!
+request-language-already-available-scs = Сценарий буенча сөйләүне куллану мөмкинлеге ачылган
+request-language-already-available-sps = Кинәт туган сөйләмне куллану мөмкинлеге ачылган

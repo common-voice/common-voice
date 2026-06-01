@@ -46,7 +46,7 @@ review-rerecord = ကလေၚ်ရပ်ပၠောပ်ရမျာၚ်
 review-cancel = ပလီုပရေၚ်ပလံၚ်ဗ္စိုပ်
 review-keep-recordings = ဂိုၚ်စွံ ရမျာၚ်မရပ်ပၠောပ်လဝ်ဂမၠိုၚ်။
 review-delete-recordings = ဇိုတ်ကၠေံ ရမျာၚ်အဲမရပ်ပၠောပ်လဝ်ဂမၠိုၚ်
-review-terms = ပွမသုၚ်စောဲတဴ Common Voice ဂှ် မၞးတုပ်စိုတ်ကဵု <termsLink> ပရေၚ်စကာသုၚ်စောဲ </termsLink> ကေုာံ <privacyLink> တၚ်လလောၚ်တြးပရေၚ်ပူဂဵု </privacyLink> ပိုယ်တအ်ရောၚ်။
+review-terms = ပွမသုၚ်စောဲတဴ Common Voice ဂှ် မၞးဒးတုပ်စိုတ်ကဵု <termsLink> စေဝ်ပၞောန် </termsLink> ကေုာံ <privacyLink> တၚ်သမ္တီ ပရေင်စဵုဒၞာပူဂဵု </privacyLink> ပိုယ်တအ်ရောၚ်။
 terms-agree = အဲတုပ်စိုတ်ရောၚ်။
 terms-disagree = အဲဟွံတုပ်စိုတ်ရောၚ်။
 # FIRST POST SUBMISSION CTA

@@ -37,9 +37,11 @@ be = Belarusian
 beb = Bamvele
 bew = Betawi
 bfd = Bafut
+bfq = Badaga
 bft = Balti
 bg = Bulgaria ñe’ẽ
 bgp = Baluchi oriental
+bin = Edo
 bkh = Bakoko
 bkm = Kom
 bm = Bambara
@@ -116,6 +118,7 @@ fuf = Pular Guinea
 fy-NL = Frisón ñe’ẽ
 ga-IE = Irlanda ñe’ẽ
 gaa = Ga
+gcf = Martinicaygua
 gej = Mina
 ggg = Gurgula
 gid = Guidar
@@ -344,6 +347,7 @@ sdh = Kurdo del sur
 sdo = Serian Bidayuh
 seh = Kóva
 sei = Seri
+sg = Sango
 shi = Shilha
 shn = Shan
 si = Sinhala ñe’ẽ
@@ -363,6 +367,7 @@ su = Sundanese
 sv-SE = Suecia ñe’ẽ
 sva = Svan
 sw = Swahili ñe’ẽ
+swb = Shimaore
 syr = Syriac ñe’ẽ
 szy = Sakizaya
 ta = Tamil ñe’ẽ
@@ -374,6 +379,7 @@ tg = Tajik ñe’ẽ
 th = Tailandia ñe’ẽ
 ti = Etiopía ñe’ẽ
 tig = Jaguarete
+tiv = Tiv
 tk = Turkmenistán-gua
 tl = Tagalo ñe’ẽ
 tli = Tlingit
@@ -499,6 +505,11 @@ announcement-mdc-button-aria-text = Ijuruja ovetã pyahúpe
 
 # Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
 announcement-release-delay = Tekohápe g̃uarã jehai, ko’ág̃aite rupi romba’apohína ñemyasãirãme. Roha’ãrõhína ojeporúvo opa’ỹre ára oútavape <mdcLink>Mozilla Data Collective</mdcLink> rupive.
+
+## Release Announcement
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release = Che rekoha, apopyre pyahu eiporukuaáma <mdcLink>Mozilla Data Collective</mdcLink>-pe. Eike eiporu hag̃ua 500 mba’ekuaarã aty arapyguápe, oñemoheñóiva tekohápe g̃uarã.
 
 ## Common Language/Dataset Selector & SearchBox Related
 

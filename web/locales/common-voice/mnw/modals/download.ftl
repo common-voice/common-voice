@@ -5,5 +5,5 @@ download-helpus = ရီုဗင်ပိုဲ ဒက်ပ္တန် ဂက
 download-form-email =
     .label = စုတ် အဳမေလ်မၞးညိ။
     .value = တင်ဂုဏ်ရ၊ ပိုဲကလေင်ကေတ်အာအဆက်ပၠန်ရောင်။
-download-back = ကလေင်အာ ဇရေင် တင်ဂၞင် Common Voice ဂမၠိုၚ်
+download-back = ကလေင်အာ ဇရေင် တင်ဂၞင်ဒေတာ Common Voice ဂမၠိုၚ်
 download-no = ဟွံမွဲပၟိက်ရ။

@@ -3,13 +3,20 @@
 welcome-to-spontaneous-speech = Кинәт туган сөйләм проектына рәхим итегез
 # <br></br> represents a newline break
 wall-of-text = Common Voice икенче платформаны гамәлгә кертә. Аның максаты - органик, кинәт туган, алдан язылмаган сөйләмне туплау. Нәтиҗәдә бу күп кенә берләшмәләргә мәгълүматларны тизрәк җыярга ярдәм итәчәк, шулай ук программистлар һәм мәгълүмат белгечләре өчен дә бик файдалы булачак.
-why-spontaneous-speech = Бу Spontaneous Speech прототибын без нинди максат белән булдырдык
+why-spontaneous-speech = Бу Кинәт туган сөйләм проекты прототибын без нинди максат белән булдырдык
+# text wrapped with <mark></mark> will have a light red background
+why-card-1-text = <mark>Органик сөйләм контекстлары</mark> һәм куллану сценарийлары өчен файдалы (мәсәлән, сөйләмне тану механизмының алдан уйланып әзерләмәгән сөйләм өчен эшләвен теләсәгез).
+# text wrapped with <mark></mark> will have a light red background
+why-card-2-text = Башка телгә күчү һәм <mark>кодлар арасында күченү</mark> кебек күренешләр белән эшләүнең яхшыртылган мөмкинлеге.
+# text wrapped with <mark></mark> will have a light red background
+why-card-3-text = Текст корпуслары кечкенә булган яки <mark>бөтенләй булмаган</mark> телләр (мәсәлән, социолектлар, тарих дәвамында телләр арасына кертелмәгәннәр һ. б. ш.) белән эшләүнең яхшыртылган мөмкинлеге.
 how-spontaneous-speech-works = "Кинәт туган сөйләм" ничек эшли
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>Башлам</mark>
 prompt-bubble-subtitle = Без Сезгә ярдәм итүче язма яки сорау күрсәтербез
 # text wrapped in <mark></mark> will have a blue background
 respond-bubble-title = <mark>Җавап бирү</mark>
+respond-bubble-subtitle = Сезнең реакциягез иң табигый
 # text wrapped in <mark></mark> will have a blue background
 transcribe-bubble-title = <mark>Текстка күчерү</mark>
 transcribe-bubble-subtitle = Аудиоклипларда нәрсә ишетәсез - шуны язасыз.
@@ -23,6 +30,7 @@ contact-us = Безнең белән элемтәгә керү
 contact-us-title = Бу проектта катнашасыгыз киләме яки партнер булырга телисезме?
 contact-us-email = Эл. почта: <emailFragment>commonvoice@mozilla.com</emailFragment>
 signup-form-title = Common Voice-ның Спонтан Сөйләшү проектын бета-тестлаучылар төркеменә кердегезме инде?
+signup-terms = «Сылтаманы электрон почтама җибәрү» дигәненә басып, сез безнең <termsLink>Куллану шартларыбыз</termsLink> һәм <privacyLink>Хосусыйлык сәясәтебез</privacyLink> белән килешүне белдерәсез. Шулай ук, бу шуны аңлата ки, Common Voice тарафыннан булдырылган Кинәт туган сөйләм проектын бета-тестлауда ничек катнашырга икәнлеге турындагы хат җибәрүне Mozilla үз карамагында калдыра.
 signup-input-placeholder = Эл. почтагызны кертегез
 signup-button-value = Эл. почта адресыма сылтама җибәрү
 footer-text-privacy = <privacyLink>Хосусыйлык</privacyLink>

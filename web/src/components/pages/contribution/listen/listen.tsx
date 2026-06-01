@@ -152,6 +152,10 @@ class ListenPage extends React.Component<Props, State> {
       return
     }
 
+    // Guard: a stray shortcut could otherwise replay the buffered clip after all are validated
+    const clipIndex = this.getClipIndex()
+    if (clipIndex < 0 || !this.state.clips[clipIndex]) return
+
     // No attached audio or failing audio (bad file/codec?)
     const audio = this.audioRef.current
     if (!audio) return
@@ -435,6 +439,7 @@ class ListenPage extends React.Component<Props, State> {
             </NavigationPrompt>
           )}
           <audio
+            key={activeClip?.id ?? 'no-clip'}
             {...(activeClip && { src: activeClip.audioSrc })}
             preload="auto"
             onEnded={this.hasPlayed}

@@ -88,6 +88,9 @@ about-playbook-how-add-sentences = Jak dodawać zdania?
 
 ## How to record quality
 
+about-playbook-how-record-quality = Jak nagrać wysokiej jakości klip głosowy?
+about-playbook-how-record-content-1 = Mów normalnym głosem! Twój sposób mówienia jest tu mile widziany – chcemy, żebyś mówił normalnie, z normalną głośnością, stylem i intonacją.
+about-playbook-how-record-content-2 = Unikaj zbyt dużego hałasu w tle – powinno być łatwo Cię usłyszeć.
 about-playbook-how-record-content-3 = Przeczytaj zdanie uważnie – nie pomijaj, nie zmieniaj i nie dodawaj słów.
 about-playbook-how-record-content-4 = Zanim zaczniesz mówić, upewnij się, że platforma nagrywa i że przestaje nagrywać dopiero po tym, jak skończysz.
 about-playbook-how-record-content-5 = <accuracyLink>Więcej informacji na temat kryteriów dokładności.</accuracyLink>
@@ -100,6 +103,10 @@ about-playbook-how-grow-language-content-4 = Serwisy społecznościowe
 about-playbook-how-grow-language-content-5 = Możesz wykorzystać media społecznościowe, aby rozpowszechnić tę wiadomość. Udostępniaj posty, które wyjaśniają, dlaczego to ważne, i nawiąż kontakt z innymi osobami poruszającymi takie tematy, jak prawa językowe, sztuczna inteligencja głosowa czy stronniczość w technologii. Przeczytaj więcej porad na temat <campaignLink>prowadzenia kampanii w mediach społecznościowych, w tym treści, które można ponownie wykorzystać</campaignLink>.
 about-playbook-how-grow-language-content-6 = Współpraca i sieci
 about-playbook-how-grow-language-content-7 = Znajdź osoby, którym zależy. Mogą to być uniwersytety, szkoły językowe, grupy wsparcia lub społeczności zajmujące się nauką o danych. Skontaktuj się z nimi i jasno wyjaśnij, jak mogą pomóc i dlaczego. <outreachTemplates>Zobacz nasze szablony e-maili informacyjnych</outreachTemplates>.
+
+## How to validate
+
+about-playbook-how-validate-content-4 = Jeżeli klip zostanie odrzucony przez 2 osoby, zostanie on wydany w innym podzbiorze zbioru danych.
 
 ## How are decisions made
 

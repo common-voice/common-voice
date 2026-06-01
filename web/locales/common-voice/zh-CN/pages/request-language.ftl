@@ -31,3 +31,18 @@ need-help-deciding-platform = 不确定要选择哪项？
 need-help-deciding-platform-explanation-1 = <strong>朗读文本：</strong>以自己的语言朗读语句（Common Voice 原有模式）。
 need-help-deciding-platform-explanation-2 = <strong>即兴发言：</strong>更自然、口语化地回答问题（Common Voice 新增部分）。
 need-help-deciding-platform-explanation-3 = 若在平台的两部分中都未看到您的语言，请同时选择两项。
+request-language-search-bar = 您可以在此键入语言名称。如果该语言尚未收录到 Common Voice，则可填写表格，提供该语言的数据。
+request-language-found-pontoon-not-launched =
+    您的语言已收录到 Common Voice 语言列表。 
+    您可以在<pontoonLink>此处</pontoonLink>本地化平台界面，助力该语言上线<strong>朗读文本</strong>（界面本地化完成度需要达到 60%）。或者，也可以仅将“web/locales/en/pages/contribute/*.ftl”（共 5 个文件）中的基础字符串本地化至 100% 完成，界面会自动上线。
+request-language-found-cv-contribution =
+    好消息！您的语言已经上线 Common Voice <strong>朗读文本</strong>。
+    点击<homePageLink>此处</homePageLink>即可参与贡献。
+request-language-found-cv-sentences-lack =
+    您的语言已经收录到 Common Voice 语言列表。
+    您可以在<sentencesContributionLink>此处</sentencesContributionLink>贡献句子，助力该语言上线<strong>朗读文本</strong>。
+request-language-found-spontaneous-speech =
+    您的语言已经上线 Common Voice <strong>即兴发言</strong>。
+    点击<spontaneousSpeechLink>此处</spontaneousSpeechLink>即可参与贡献，开始前请记得更改贡献/数据集语言！
+request-language-already-available-scs = “朗读文本”已可使用
+request-language-already-available-sps = “即兴发言”已可使用

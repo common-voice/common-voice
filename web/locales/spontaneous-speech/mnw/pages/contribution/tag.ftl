@@ -1,7 +1,7 @@
 ## Tagging Page
 
 tag-page-instruction = သွက်ဂွံစဂှ် ရုဲကေတ် <icon></icon> မလိက်ညိ။
-tag-terms-checkbox = အဲဒုၚ်တဲတုပ်စိုတ် ကု ပရေၚ်စကာသုၚ်စောဲ ကေုာံ ပရေၚ်တၚ်ဂၞၚ်ပူဂိုလ် Common Voice တအ်ရောၚ်။
+tag-terms-checkbox = အဲဒုၚ်တဲတုပ်စိုတ်ကဵု စေဝ်ပၞောန် ကေုာံ ပရေင်စဵုဒၞာပူဂဵု Common Voice တအ်ရောၚ်။
 tag-popover-title = ရုဲကေတ် တၚ်သမ္တီ မွဲညိ။
 select-a-tag = ရုဲကေတ် တၚ်သမ္တီ မွဲညိ။
 edit-tag = ပလေဝ်ပလေတ် တၚ်သမ္တီ

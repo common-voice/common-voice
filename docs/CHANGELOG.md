@@ -2,6 +2,65 @@
 
 ## Current release
 
+### [v1.159.0 (2026-06-01)](https://github.com/common-voice/common-voice/releases/tag/release-v1.159.0)
+
+- Fix: Correct the rate-limit (429) message display — split into separate message keys, by [@moz-bozden](https://github.com/moz-bozden) in [#5415](https://github.com/common-voice/common-voice/pull/5415)
+- Chore: Show a clearer message when the server is busy (429), including how many seconds to wait; stop dashboard and review background loads from logging spurious errors when a request fails; stop logging errors that come from outside our app (browser extensions, third-party in-app browsers) and show the real reason instead of "&lt;unknown&gt;" when something fails; on the Listen page, stop the keyboard shortcuts from replaying audio or attempting to vote once there are no more clips to validate, by [@moz-bozden](https://github.com/moz-bozden) in [#5414](https://github.com/common-voice/common-voice/pull/5414)
+- Reduce noisy logging: turn off handled clip-load/clip-vote Sentry messages and the rate-limiter 429 console warning, by [@moz-bozden](https://github.com/moz-bozden) in [#5413](https://github.com/common-voice/common-voice/pull/5413)
+- Update release announcement content for SCS v26.0, by [@moz-bozden](https://github.com/moz-bozden) in [#5412](https://github.com/common-voice/common-voice/pull/5412)
+- Fix: URL reload from /datasets to MDC, by [@moz-bozden](https://github.com/moz-bozden)
+- Fix: Security issue, by [@moz-bozden](https://github.com/moz-bozden) in [#5401](https://github.com/common-voice/common-voice/pull/5401) (in v1.158.7)
+- Chore: Several security hardening changes, by [@moz-bozden](https://github.com/moz-bozden) in [#5400](https://github.com/common-voice/common-voice/pull/5400) (in v1.158.6)
+- Fix: Add validation to user-client requests, by [@moz-bozden](https://github.com/moz-bozden) in [#5399](https://github.com/common-voice/common-voice/pull/5399) (in v1.158.6)
+- Fix: Prevent security scanners with fuzzy parameters to log errors, by [@moz-bozden](https://github.com/moz-bozden) in [#5398](https://github.com/common-voice/common-voice/pull/5398) (in v1.158.4)
+- Fix state handling problems in datasets page (only open to researchers), by [@moz-bozden](https://github.com/moz-bozden) in [#5387](https://github.com/common-voice/common-voice/pull/5387) (in v1.158.4)
+- Add v23.0 and v24.0 data (only open to researchers), by [@moz-bozden](https://github.com/moz-bozden) in [#5386](https://github.com/common-voice/common-voice/pull/5386) (in v1.158.4)
+- Remove SPS Questions item from menu, by [@moz-bozden](https://github.com/moz-bozden) in [#5383](https://github.com/common-voice/common-voice/pull/5383) (in v1.158.2)
+- Make communities md reachable from front-end, by [@moz-bozden](https://github.com/moz-bozden) in [#5374](https://github.com/common-voice/common-voice/pull/5374) (in v1.158.2)
+- Update MDC root URL, by [@moz-bozden](https://github.com/moz-bozden) in [#5373](https://github.com/common-voice/common-voice/pull/5373) (in v1.158.1)
+
+#### Data Changes in v1.159.0
+
+- Welcome to new languages Edo (`bin`), Martinican Creole (`gcf`), Sango (`sg`), and Tiv (`tiv`), and Badaga (`bfq`)
+- Add Sundanese (`su`) variants by [@moz-acfort](https://github.com/moz-acfort) in [#5397](https://github.com/common-voice/common-voice/pull/5397) (in v.1.158.5)
+- Add Chichewa (`ny`) variants by [@moz-acfort](https://github.com/moz-acfort) in [#5396](https://github.com/common-voice/common-voice/pull/5396) (in v.1.158.5)
+- Welcome to new languages Mon (`mnw`) and Shimaore (`swb`)
+
+#### Spontaneous Speech v1.159.0
+
+- Update release announcement content for SPS v4.0, by [@moz-bozden](https://github.com/moz-bozden) in [#544](https://github.com/common-voice/spontaneous-speech/pull/544)
+- Update question validation votes (1 NO invalidates, for validation 3 YES votes will be needed), by [@moz-bozden](https://github.com/moz-bozden) in [#539](https://github.com/common-voice/spontaneous-speech/pull/539) (in v1.158.3)
+- Remove Questions page from menu and make it inaccessible in code, by [@moz-bozden](https://github.com/moz-bozden) in [#536](https://github.com/common-voice/spontaneous-speech/pull/536) (in v1.158.2)
+- Update SPS bundler to remove PII related reports completely, by [@moz-bozden](https://github.com/moz-bozden) in [#535](https://github.com/common-voice/spontaneous-speech/pull/535) (in v1.158.2)
+- Update MDC root URL, by [@moz-bozden](https://github.com/moz-bozden) in [#533](https://github.com/common-voice/spontaneous-speech/pull/533) (in v1.158.1)
+
+##### SS Data Changes in v1.159.0
+
+- Add Corsican (`co`) questions by [@moz-acfort](https://github.com/moz-acfort) in [#543](https://github.com/common-voice/spontaneous-speech/pull/543)
+- Add Amharic (`am`) questions by [@moz-acfort](https://github.com/moz-acfort) in [#542](https://github.com/common-voice/spontaneous-speech/pull/542)
+- Add Sango (`sg`) questions by [@moz-acfort](https://github.com/moz-acfort) in [#541](https://github.com/common-voice/spontaneous-speech/pull/541) (in v1.158.6)
+- Add Afaan Oromo (`om`) questions by [@moz-acfort](https://github.com/moz-acfort) in [#540](https://github.com/common-voice/spontaneous-speech/pull/540) (in v1.158.4)
+- Add Shimaore (`swb`) questions by [@moz-acfort](https://github.com/moz-acfort) in [#538](https://github.com/common-voice/spontaneous-speech/pull/538) (in v1.158.3)
+- Add Mon (`mnw`) questions by [@moz-acfort](https://github.com/moz-acfort) in [#537](https://github.com/common-voice/spontaneous-speech/pull/537) (in v1.158.3)
+- Remove some Galician (`gl`) questions asking for PII info by adding reports directly into DB which will fully exclude them, by [@moz-bozden](https://github.com/moz-bozden)
+- Update some Galician (`gl`) questions with a migration to fix grammar issues, by [@moz-bozden](https://github.com/moz-bozden) in [#534](https://github.com/common-voice/spontaneous-speech/pull/534) (in v1.158.2)
+
+#### Changes to Bundlers and related repos in v1.159.0
+
+---
+
+### Changes merged after current release
+
+#### Data Changes after current release
+
+#### Spontaneous Speech Changes after current release
+
+##### SS Data Changes after current release
+
+---
+
+## Past releases
+
 ### [v1.158.0 (2026-04-07)](https://github.com/common-voice/common-voice/releases/tag/release-v1.158.0)
 
 - Fix: Add more error handling — handle undefined cases, add try-catch guards, show user-friendly notification for connection and server errors, by [@moz-bozden](https://github.com/moz-bozden) in [#5369](https://github.com/common-voice/common-voice/pull/5369)
@@ -71,44 +130,6 @@
 - `cv-dataset` - Add SCS v25.0 full and delta stats, SPS v1.0/v2.0/v3.0 stats (retrospective), add per-type sub-READMEs and sub-CHANGELOGs for SCS/SPS/CS, refactor main README, by [@moz-bozden](https://github.com/moz-bozden) in [#49](https://github.com/common-voice/cv-dataset/pull/49) (during v.1.157.6)
 
 ---
-
-### Changes merged after current release
-
-- Chore: Several security hardening changes, by [@moz-bozden](https://github.com/moz-bozden) in [#5400](https://github.com/common-voice/common-voice/pull/5400) (in v1.158.6)
-- Fix: Add validation to user-client requests, by [@moz-bozden](https://github.com/moz-bozden) in [#5399](https://github.com/common-voice/common-voice/pull/5399) (in v1.158.6)
-- Fix: Prevent security scanners with fuzzy parameters to log errors, by [@moz-bozden](https://github.com/moz-bozden) in [#5398](https://github.com/common-voice/common-voice/pull/5398) (in v1.158.4)
-- Fix state handling problems in datasets page (only open to researchers), by [@moz-bozden](https://github.com/moz-bozden) in [#5387](https://github.com/common-voice/common-voice/pull/5387) (in v1.158.4)
-- Add v23.0 and v24.0 data (only open to researchers), by [@moz-bozden](https://github.com/moz-bozden) in [#5386](https://github.com/common-voice/common-voice/pull/5386) (in v1.158.4)
-- Remove SPS Questions item from menu, by [@moz-bozden](https://github.com/moz-bozden) in [#5383](https://github.com/common-voice/common-voice/pull/5383) (in v1.158.2)
-- Make communities md reachable from front-end, by [@moz-bozden](https://github.com/moz-bozden) in [#5374](https://github.com/common-voice/common-voice/pull/5374) (in v1.158.2)
-- Update MDC root URL, by [@moz-bozden](https://github.com/moz-bozden) in [#5373](https://github.com/common-voice/common-voice/pull/5373) (in v1.158.1)
-
-#### Data Changes after current release
-
-- Welcome to new languages Edo (`bin`), Martinican Creole (`gcf`), Sango (`sg`), and Tiv (`tiv`)
-- Add Sundanese (`su`) variants by [@moz-acfort](https://github.com/moz-acfort) in [#5397](https://github.com/common-voice/common-voice/pull/5397) (in v.1.158.5)
-- Add Chichewa (`ny`) variants by [@moz-acfort](https://github.com/moz-acfort) in [#5396](https://github.com/common-voice/common-voice/pull/5396) (in v.1.158.5)
-- Welcome to new languages Mon (`mnw`) and Shimaore (`swb`)
-
-#### Spontaneous Speech Changes after current release
-
-- Update question validation votes (1 NO invalidates, for validation 3 YES votes will be needed), by [@moz-bozden](https://github.com/moz-bozden) in [#539](https://github.com/common-voice/spontaneous-speech/pull/539) (in v1.158.3)
-- Remove Questions page from menu and make it inaccessible in code, by [@moz-bozden](https://github.com/moz-bozden) in [#536](https://github.com/common-voice/spontaneous-speech/pull/536) (in v1.158.2)
-- Update SPS bundler to remove PII related reports completely, by [@moz-bozden](https://github.com/moz-bozden) in [#535](https://github.com/common-voice/spontaneous-speech/pull/535) (in v1.158.2)
-- Update MDC root URL, by [@moz-bozden](https://github.com/moz-bozden) in [#533](https://github.com/common-voice/spontaneous-speech/pull/533) (in v1.158.1)
-
-##### SS Data Changes after current release
-
-- Add Sango (`sg`) questions by [@moz-acfort](https://github.com/moz-acfort) in [#541](https://github.com/common-voice/spontaneous-speech/pull/541) (in v1.158.4)
-- Add Afaan Oromo (`om`) questions by [@moz-acfort](https://github.com/moz-acfort) in [#540](https://github.com/common-voice/spontaneous-speech/pull/540) (in v1.158.4)
-- Add Shimaore (`swb`) questions by [@moz-acfort](https://github.com/moz-acfort) in [#538](https://github.com/common-voice/spontaneous-speech/pull/538) (in v1.158.3)
-- Add Mon (`mnw`) questions by [@moz-acfort](https://github.com/moz-acfort) in [#537](https://github.com/common-voice/spontaneous-speech/pull/537) (in v1.158.3)
-- Remove some Galician (`gl`) questions asking for PII info by adding reports directly into DB which will fully exclude them, by [@moz-bozden](https://github.com/moz-bozden)
-- Update some Galician (`gl`) questions with a migration to fix grammar issues, by [@moz-bozden](https://github.com/moz-bozden) in [#534](https://github.com/common-voice/spontaneous-speech/pull/534) (in v1.158.2)
-
----
-
-## Past releases
 
 ### [v1.157.0 (2025-02-12)](https://github.com/common-voice/common-voice/releases/tag/release-v1.157.0)
 

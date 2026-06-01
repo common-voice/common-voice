@@ -98,7 +98,7 @@ export default function Content({ location }: { location: any }) {
         />
         <SentryRoute
           exact
-          path={toLocaleRoute(URLS.DATASETS)}
+          path={toLocaleRoute('/datasets')}
           render={() => <ExternalRedirect to={URLS.MDC_DATASETS} />}
         />
         <SentryRoute

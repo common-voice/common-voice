@@ -16,6 +16,8 @@ import {
   SPSLocalesResponse,
 } from 'common'
 import {
+  ClientHandledError,
+  SystemError,
   createBadGatewayError,
   createServiceUnavailableError,
   createGatewayTimeoutError,
@@ -207,6 +209,10 @@ export default class API {
    * These are treated as system errors and trigger Error Boundary
    */
   private handleNetworkError(error: Error): never {
+    if (error instanceof SystemError || error instanceof ClientHandledError) {
+      throw error
+    }
+
     if (error.name === 'AbortError') {
       throw createGatewayTimeoutError('Request timeout')
     }
