@@ -76,10 +76,18 @@ Sentry.init({
       ?.originalException
     const first = event.exception?.values?.[0]
     if (first && (first.value === '<unknown>' || !first.value) && reason != null) {
-      first.value =
-        typeof reason === 'string'
-          ? reason
-          : JSON.stringify(reason).slice(0, 200)
+      let text: string
+      if (typeof reason === 'string') {
+        text = reason
+      } else {
+        try {
+          text = JSON.stringify(reason)
+        } catch {
+          // Circular refs (DOM Event, framework error wrappers) — fall back
+          text = String(reason)
+        }
+      }
+      first.value = text.slice(0, 200)
     }
     return event
   },
