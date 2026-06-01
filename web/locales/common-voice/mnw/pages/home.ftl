@@ -117,7 +117,7 @@ scripted-card-header = လဟီုစၞောန်
 spontaneous-card-header = လဟီုသဘာဝ
 language-text-card-header = မလိက်အရေဝ်ဘာသာ
 coming-soon = ခြာဟွံလအ်စၟဳ
-add-text = ထပ်စုတ်မလိက်
+add-text = စုတ်မလိက်
 answer = သွဟ်
 
 ## Community section
