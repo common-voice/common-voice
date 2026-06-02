@@ -118,7 +118,7 @@ get-started = စတမ်
 
 ## Action items section
 
-action-items-section-title = Common Voice ဂှ် ဒှ်ပလက်ဖံက် ပံၚ်လဟိုက် သၠးပွးမွဲ သွက်ပရေင်ဂွံခၞံဗဒှ်မူလပစ္စယ် မပၠလဝ်တရဴ နကဵု ဂကောံရ။
+action-items-section-title = Common Voice ဂှ် ဒှ်ပလက်ဖံက် ပံက်လဟာ် သၠးပွးမွဲ သွက်ပရေင်ဂွံခၞံဗဒှ်မူလပစ္စယ် မပၠလဝ်တရဴ နကဵု ဂကောံရ။
 action-items-section-subtitle = ပွမ ပါ်ပရအ် ကၠောန်ဗဒှ် ကေုာံ ထိင်ဒဝ် မူလပစ္စယ် မလိက် ကေုာံ ရမျာၚ်တအ်ဂှ် ညးလဵုမွဲဟွံဟီု မင်မွဲ ကလေင်ပၠောပ်လမျီု ကေုာံ သၠုင်ပတိုန်ကဆံၚ် အရေဝ်ဘာသာဇကု မာန်ရ။
 scripted-card-header = လဟီုစၞောန်
 scripted-card-content = ဗှ်ပ္တိတ်ရမျာၚ်ဝါကျဂမၠိုင် နကဵုအရေဝ်ဘာသာမၞးတုဲ ပါလုပ်ကၠောန် ပ္ဍဲကဵု တၚ်ဂၞၚ်မူလပစ္စယ်ရမျာၚ် ညးဍုၚ်ကွာန် မပါလုပ် မၞုံကဵုဗီုပြၚ်တၞဟ်ဟ်သာ် ပ္ဍဲဂၠးတိဏံညိ။
@@ -178,6 +178,8 @@ press-and-stories-link = ပရိုၚ် ကေုာံ ပရူပရာ
 partner-section-title = ပံၚ်တောဲကရောံပိုယ်
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-tech-companies = <bold>ကမ္ပဏဳ သိပ္ပံတအ်</bold> - ပတိတ်တမ်ရိုဟ် ပ္ဍဲပရေင်ခၞံဗဒှ်သၠဲတၚ်ဂၞၚ်မူလပစ္စယ် နဲကဲ AI စုၚ်လေၚ် အရၚ်အရေဝ်ဘာသာမဇၞော်မောဝ်ဒၟံၚ်နာနာတအ်ရ။
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>ဂကောံညးဍုင်ကွာန် ကေုာံ သၟာသုတေသဳဂမၠိုင်</bold> - ခၞံဗဒှ်၊ ဂိုင်ဒေပ် ကေုာံ ပါ်ပရအ် တၚ်ဂၞၚ်မူလပစ္စယ် မၞုံကဵုဖဵုဂၠိုၚ် မသက္ကုၚုဟ်ဂမၠိုင်
 # icon is an arrow that points to the right
 get-in-touch-button = ဆက်စၠောအ်ကၠုၚ်ညိအဴ
 # Partners section
