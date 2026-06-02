@@ -8,6 +8,8 @@ select-your-age = Яшегезне сайлагыз
 gender-select-label = Җенесегез яки гендерыгыз нинди?
 select-your-gender = Җенесегезне яки гендерыгызны сайлагыз
 country-of-residence-label = Яшәгән илегез/өлкәгез
+country-of-residence-placeholder =
+    .placeholder = Хәзер яшәгән илегезне/өлкәгезне кертегез
 why-are-you-asking = Ни өчен сорыйсыз?
 thank-you-for-your-information = Мәгълүматыгыз өчен рәхмәт
 
