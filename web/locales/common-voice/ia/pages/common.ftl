@@ -37,6 +37,7 @@ be = Bielorusso
 beb = Bamvele
 bew = Betawi
 bfd = Bafut
+bfq = Badaga
 bft = Balti
 bg = Bulgaro
 bgp = Beluci oriental
