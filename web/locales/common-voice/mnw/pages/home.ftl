@@ -132,6 +132,7 @@ answer = သွဟ်
 
 ## Community section
 
+community-section-title-202601 = တၞဟ်နဖဵု အရေဝ်ဘာသာ — ၂၉၀ ဘာသာ ဂကောံမၞိဟ်ဂၠးတိဂမၠိုၚ် ဂၠိုင်တိုန်ဒၟံင်တုဲ ဂကောံမၞိဟ်ဂၠးတိတအ် ထံက်ပၚ်လဝ်ရ။
 join-discord-community = ပါလုပ်ဒၞာဲသဳကၠဳဂကောံ
 # label for button
 join-discord-community-action = ပါလုပ်ကရောံပိုဲ လ္တူ Discord
@@ -140,6 +141,7 @@ find-us-on-matrix = ဂၠာဲပိုဲလ္တူ Matrix
 # label for button
 find-us-on-element-action-1 = ကဏ္ဍ
 find-us-on-matrix-action-2 = ညးသုၚ်စောဲတၞဟ်ဂမၠိုၚ်
+ask-mozilla-share = သွက်ဂွံပါ်ပရအ်ပရေၚ်ချဳဒရာၚ်မၞးဂှ် အာတ်မိက် Mozilla ညိအဴ။
 # label for button
 ask-mozilla-share-action = ပါ်ပြအ် ကမၠောန်ကိစ္စမၞး
 # label for button
@@ -175,6 +177,6 @@ press-and-stories-link = ပရိုၚ် ကေုာံ ပရူပရာ
 
 partner-section-title = ပံၚ်တောဲကရောံပိုယ်
 # icon is an arrow that points to the right
-get-in-touch-button = ဆက်စၠောအ်ကၠုၚ်ညိ
+get-in-touch-button = ဆက်စၠောအ်ကၠုၚ်ညိအဴ
 # Partners section
 our-partners-include = ညးပံၚ်တောဲဖက်ဆောပိုယ်ဂမၠိုၚ်...
