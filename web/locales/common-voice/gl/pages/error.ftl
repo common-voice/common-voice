@@ -10,6 +10,12 @@ error-clip-upload-too-large = O ficheiro da súa gravación é demasiado grande.
 error-clip-upload-server-error = Produciuse un erro no servidor ao procesar a súa gravación. Recargue a páxina ou ténteo de novo máis tarde.
 error-title-404 = Non foi posible atopar esa páxina
 error-content-404 = Se cadra a nosa<homepageLink>páxina principal</homepageLink> axudaría? Para facer unha pregunta, únase ao <matrixLink>chat da comunidade Matrix</matrixLink>, siga as incidencias da páxina por <githubLink>GitHub</githubLink> ou visite <discourseLink>os nosos foros Discourse</discourseLink>.
+error-title-429-no-time = Parece que vai demasiado rápido. Por favor, vaia máis amodo e volva tentalo dentro dun momento.
+error-title-429-with-time =
+    { $retryAfter ->
+        [one] Parece que vai demasiado rápido. Por favor, vaia máis amodo e volva tentalo dentro de { $retryAfter } segundo.
+       *[other] Parece que vai demasiado rápido. Por favor, vaia máis amodo e volva tentalo dentro de { $retryAfter } segundos.
+    }
 error-title-500 = Sentímolo, algo saíu mal.
 error-content-500 = Produciuse un erro inesperado. Inténteo de novo máis tarde. Se precisa axuda, únase á conversa da <matrixLink>comunidade Matrix</matrixLink>, revise os problemas do sitio web a través de <githubLink>GitHub</githubLink> ou visite <discourseLink>os nosos foros de Discourse</discourseLink><discourseLink>.
 error-title-502 = Interrompeuse a conexión
