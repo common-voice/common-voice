@@ -100,6 +100,8 @@ community-and-languages-menu-item-tooltip = ဆက်စၠောအ်ကဵု
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = စရၚ်ရုဲစှ် ဒၞာဲ ပရေင်ပံင်တောဲ၊ ပရိုင်၊ ပရူပရာဂကောံ ကေုာံ အရေဝ်ဘာသာဂမၠိုင်
+about-us-menu-item-aria-label = စရၚ်ရုဲစှ် ပရူပရာပိုယ်
 partnerships-menu-item-aria-label = ကတ်လ္ၚတ်ပရူပရာပရေၚ်ပံၚ်တောဲကဵု Common Voice
 press-and-stories-menu-item-aria-label = လုပ်ကေတ် လၟေၚ်ပရိုၚ် ကေုာံ ပရူပရာဆက်စပ်ကဵု Common Voice ဂမၠိုၚ်ညိ။
 community-and-languages-menu-item-aria-label = လ္ၚတ်ရံၚ် ဂကောံ ကေုာံ အရေဝ်ဘာသာမနွံပါလုပ်ပ္ဍဲ Common Voice တအ်ညိ။
@@ -112,7 +114,7 @@ get-started = စတမ်
 
 ## Action items section
 
-action-items-section-title = Common Voice ဂှ် ဒှ်ပလက်ဖံက် ပံၚ်လဟိုက် သၠးပွးမွဲ သွက်ပရေင်ဂွံဗဒှ် မူလပစ္စယ် မပၠလဝ်တရဴ နကဵု ဂကောံရ။
+action-items-section-title = Common Voice ဂှ် ဒှ်ပလက်ဖံက် ပံၚ်လဟိုက် သၠးပွးမွဲ သွက်ပရေင်ဂွံခၞံဗဒှ်မူလပစ္စယ် မပၠလဝ်တရဴ နကဵု ဂကောံရ။
 scripted-card-header = လဟီုစၞောန်
 spontaneous-card-header = လဟီုသဘာဝ
 language-text-card-header = မလိက်အရေဝ်ဘာသာ
