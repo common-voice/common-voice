@@ -1,6 +1,6 @@
 ## Contact Modal
 
-contact-title = Kontaktu inprimakia
+contact-title = Harremanetarako inprimakia
 contact-form-name =
     .label = Izena
 contact-form-message =

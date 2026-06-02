@@ -1,3 +1,5 @@
+speak = Hitz egin
+speak-now = Hitz egin orain
 record-cta = Hasi grabazioa
 record-platform-not-supported = Sentitzen dugu baina orain ez diogu plataforma horri euskarririk ematen.
 record-platform-not-supported-desktop = Mahaigaineko ordenagailuetan, azkena deskarga dezakezu:
@@ -45,3 +47,7 @@ thanks-for-voice-toast = Eskerrik asko zure ahots-informazioagatik
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Eskerrik asko zure ahotsarekin parte hartzeagatik!
 create-profile-button = Sortu profil bat
+
+## MENU ITEM ARIA LABELS
+
+speak-contribute-menu-aria-label = Hizketaren aukeren menua
