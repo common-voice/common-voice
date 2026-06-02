@@ -125,6 +125,7 @@ answer = جاۋاب
 
 ## Community section
 
+community-section-title-202601 = دۇنياۋى جامائەت ئىشلىگەن، دۇنياۋى جامائەت ئۈچۈن مۇلازىمەت قىلىدۇ — 290 تىلنى قوللايدۇ ھەمدە كېڭىيىۋاتىدۇ!
 join-discord-community = Discord جامائىتىگە قوشۇلۇڭ
 # label for button
 join-discord-community-action = Discord تا بىزگە قوشۇلۇڭ
