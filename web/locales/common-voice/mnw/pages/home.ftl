@@ -180,6 +180,8 @@ partner-section-title = ပံၚ်တောဲကရောံပိုယ်
 partner-section-subtitle-tech-companies = <bold>ကမ္ပဏဳ သိပ္ပံတအ်</bold> - ပတိတ်တမ်ရိုဟ် ပ္ဍဲပရေင်ခၞံဗဒှ်သၠဲတၚ်ဂၞၚ်မူလပစ္စယ် နဲကဲ AI စုၚ်လေၚ် အရၚ်အရေဝ်ဘာသာမဇၞော်မောဝ်ဒၟံၚ်နာနာတအ်ရ။
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-civil-society = <bold>ဂကောံညးဍုင်ကွာန် ကေုာံ သၟာသုတေသဳဂမၠိုင်</bold> - ခၞံဗဒှ်၊ ဂိုင်ဒေပ် ကေုာံ ပါ်ပရအ် တၚ်ဂၞၚ်မူလပစ္စယ် မၞုံကဵုဖဵုဂၠိုၚ် မသက္ကုၚုဟ်ဂမၠိုင်
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>ပရဟိတ</bold> ထံက်ပၚ် ပရေၚ်ခၞံဗဒှ်တၚ်ဂၞၚ်မူလပစ္စယ် ကဵုဇြဟတ်ကုညးဒေသ သွက်ဂွံပ္တန်ဗဒှ် ကေုာံ ဗဂဵုလဟဵုတိုန်အာ
 # icon is an arrow that points to the right
 get-in-touch-button = ဆက်စၠောအ်ကၠုၚ်ညိအဴ
 # Partners section
