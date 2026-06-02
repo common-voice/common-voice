@@ -5,7 +5,9 @@ report-modal-subtitle = Бу эчтәлеккә бәйле нинди кыенл
 offensive_speech = Рәнҗеткеч эчтәлек
 offensive_speech-detail = Эчтәлектә кимсетүле яки рәнҗеткеч сүзләр бар.
 empty_or_unintelligible = Буш яки аңлаешсыз
+empty_or_unintelligible-detail = Эчтәлек буш, бозык, чит телдә язылган һ. б. ш.
 personally_identifiable_information = Шәхесне ачыклаучы мәгълүмат
+personally_identifiable_information-detail = Бу контентта кешенең шәхси мәгълүматы бар: исем, электрон почта адресы, геолокациясе, таныклык номеры яки телефон номеры.
 report-other-comment =
     .placeholder = Комментарий
 # Label for textarea in report modal
