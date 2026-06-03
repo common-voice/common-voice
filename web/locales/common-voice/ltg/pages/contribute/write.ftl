@@ -1,12 +1,17 @@
 ## WRITE PAGE
 
 write = Roksti
+write-instruction = Dalīcit <icon></icon> publiskuo eipašuma teikumu
 write-page-subtitle = Ite dalyktī teikumi tiks davīnuoti publiski daīmamai cc-0 liceņcātai datu kūpai.
 sentence =
     .label = Teikums
+sentence-input-placeholder = Īvodit ite sovu publiski daīmamū teikumu, kas nav aizsorguots ar autortīseibom.
+small-batch-sentence-input-placeholder = Īvodit ite sovu publiski daīmamū teikumu, kas nav aizsorguots ar autortīseibom.
+citation-input-placeholder = Nūruodit sova teikuma olūtu (obligati)
 citation =
     .label = Atsauce
 sc-review-write-title = Kaidus teikumus es varu dalikt?
+sc-review-small-batch-title = Kai dalikt vairuokus teikumus
 new-sentence-rule-1 = <noCopyright>Nav autortīseibu</noCopyright> īrūbežuojumu (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Muozuok par 15 vuordim
 new-sentence-rule-3 = Ir gramatiski pareizi
