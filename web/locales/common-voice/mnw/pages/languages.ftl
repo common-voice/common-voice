@@ -3,6 +3,7 @@
 language-section-in-progress = အဃောကၠောန်ဒၟံင်
 language-section-in-progress-new-description = အရေဝ်ဘာသာတအ်ဂှ် လၟုဟ်ဏံ ဂကောံအဃောခၞံဗဒှ်ဒၟံၚ်ရ။ သွက်ဂွံစပ္တံပ္တိတ်မာန်ဂှ် နွံပၟိက်ကဵု <localizationGlossaryLink>ပွမကၠာဲစၠောံမုက်ဝေပ်သာ်</localizationGlossaryLink> ကေုာံ <sentenceCollectionGlossaryLink>ပွမဒုၚ်သဇိုၚ်ပကောံဝါကျ</sentenceCollectionGlossaryLink> တအ်ရ။
 language-section-launched = ပံက်လဝ်တုဲ
+language-section-launched-description = အရေဝ်ဘာသာမပ္တိတ်လဝ်တအ်ဏအ်ဂှ် သွက်မုက်ဝေပ်သာ်မ္ဂး <localizationGlossaryLink>ကၠာဲစၠောံလဝ်</localizationGlossaryLink> ဗွဲမအံၚ်ဇၞးတုဲဒှ်တုဲ သွက်ဂွံဆက်ပါလုပ် ထံက်ပၚ်အာ ပ္ဍဲကဵု <speakLink>ဟီု</speakLink> ကေုာံ <listenLink>ကလၚ်</listenLink> တအ်ဂှ်<sentenceCollectionGlossaryLink>ဝါကျမပကောံလဝ်ဂမၠိုၚ်</sentenceCollectionGlossaryLink>ရုံဂပ်တဴဒၟံၚ်ရ။
 languages-show-more = ရံၚ်ဗွဲတြး
 languages-show-less = ရံၚ်ဗွဲခမၞောန်
 language-total-progress = လၟိဟ်သီုဖအိုတ်
