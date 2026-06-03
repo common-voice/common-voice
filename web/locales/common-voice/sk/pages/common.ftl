@@ -37,6 +37,7 @@ be = Bieloruština
 beb = Bamvele
 bew = Betawi
 bfd = Bafut
+bfq = Badaga
 bft = Balti
 bg = Bulharčina
 bgp = Východné Balúdže
