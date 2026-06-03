@@ -3,6 +3,7 @@ speak-now = Runoj tagad
 speak-subtitle = Īroksti sovu bolsu
 record-cta = Suoc īraksteišonu
 record-platform-not-supported = Dīvamžāļ jiusu platforma itūšaļt nateik atbaļsteita.
+record-platform-not-supported-webview = Mobilajuos īreicēs varit snēgt sovu īguļdejumu, lītojūt sistemys puorlyukprogramu…
 record-platform-not-supported-desktop = Datorūs varit zamynluodēt jaunuokū:
 record-platform-not-supported-ios-non-safari = Operātuojsistemā iOS, lyudzu, turpynojit ar Safari, lai atļautu īraksteišonu…
 record-must-allow-microphone = Jums juoatļaun datikt mikrofonam.
