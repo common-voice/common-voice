@@ -10,6 +10,12 @@ error-clip-upload-too-large = Opptaksfilen din er for stor til å lastes opp. Pr
 error-clip-upload-server-error = Serverfeil under behandling av klippet ditt. Last inn siden på nytt eller prøv på nytt senere.
 error-title-404 = Vi fant ikke siden for deg
 error-content-404 = Kanskje vil <homepageLink>startsiden</homepageLink> hjelpe? For å stille et spørsmål, kan du bli med på <matrixLink>Matrix fellesskapsprat</matrixLink> eller besøke <githubLink>GitHub</githubLink> eller <discourseLink>våre Discourse-forum</discourseLink>.
+error-title-429-no-time = Du gjør dette for raskt. Vent litt og prøv igjen.
+error-title-429-with-time =
+    { $retryAfter ->
+        [one] Du gjør dette for raskt. Prøv igjen om { $retryAfter } sekund.
+       *[other] Du gjør dette for raskt. Prøv igjen om { $retryAfter } sekunder.
+    }
 error-title-500 = Beklager, noe gikk galt.
 error-content-500 = Det oppstod en uventet feil. Prøv igjen senere. For hjelp kan du bli med i <matrixLink>Matrix-fellesskapschatten</matrixLink>, følge med på nettstedproblemer via <githubLink>GitHub</githubLink> eller besøke <discourseLink>våre Discourse-forum</discourseLink>.
 error-title-502 = Tilkobling avbrutt
