@@ -142,8 +142,11 @@ find-us-on-matrix = ဂၠာဲပိုဲလ္တူ Matrix
 find-us-on-element-action-1 = ကဏ္ဍ
 find-us-on-matrix-action-2 = ညးသုၚ်စောဲတၞဟ်ဂမၠိုၚ်
 ask-mozilla-share = သွက်ဂွံပါ်ပရအ်ပရေၚ်ချဳဒရာၚ်မၞးဂှ် အာတ်မိက် Mozilla ညိအဴ။
+ask-mozilla-share-content = ပရေၚ်ချဳဒရာၚ်တုဲတုဲ ဟွံသေၚ်မ္ဂး လၟေၚ်ဂတတအ်နွံဒၟံၚ်ဟာ? ပါ်ပရအ်ကဵုပိုဲတုဲ ပိုဲလလောၚ်တြးကဵုဂကောံပိုဲ ဟွံသေၚ်မ္ဂး ချူပတိုန်ကဵုပရူပရာဂှ်ရောၚ်။
 # label for button
 ask-mozilla-share-action = ပါ်ပြအ် ကမၠောန်ကိစ္စမၞး
+download-contribution-certificate = ဂၠေါၚ်ဖျေံကေတ်တၞးလိက်စၟတ်သမ္တီပရေၚ်ပါလုပ်ထံက်ပၚ်မၞးညိ။
+download-contribution-certificate-content = ဂၠေါၚ်ဖျေံကေတ်တၞးလိက်စၟတ်သမ္တီ သွက်ပရေၚ်ချဳဒရာၚ်မၞး ဟွံသေၚ်မ္ဂး သွက်မၞးညိ ယဝ်ခါရ မၞးပါလုပ်ထံက်ပၚ်လဝ် ပ္ဍဲ Common Voice မ္ဂး — အရာဏအ်ဂှ် ယဝ်မၞးဟွံမွဲမ္ဂး ကတဵုဒှ်ကၠုၚ်မာန်ဟွံသေၚ်ရ။
 # label for button
 download-contribution-certificate-action = ကေတ်တၞးလိက်စၟတ်သမ္တီမၞး
 contribute-github = ဘိုၚ်ပါလုပ်လ္တူ GitHub
