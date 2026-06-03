@@ -16,6 +16,13 @@ offensive-content = ဂလာန်ပရောပရာဟွံဂပ်ဝ်
 background-noise = ရမျာၚ်ညာန် လက္ကရဴ
 background-voices = ရမျာၚ်ညာန် လက္ကရဴဂမၠိုၚ်
 volume = ချိၚ်ရမျှာၚ်
+reader-effects = အရာဖန်ဗဒှ် ရမျှာၚ်ညးဗှ်ဂမၠိုၚ်
+just-unsure = ဟွံချိုတ်ပၠိုတ်စကွေံကွေံဟာ
+example = ဥပမာ
+
+## Voice collection sidebar content
+
+misreadings-explanation-2 = တၚ်ဗၠေတ်ဂမၠိုၚ်ကၠောန်တဴဗွဲမဂၠိုၚ်ဂှ် ပါလုပ်မပ္တံကဵု
 
 ## Spontaneous Speech sidebar content
 
