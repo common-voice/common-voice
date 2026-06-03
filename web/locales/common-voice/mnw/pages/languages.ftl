@@ -1,6 +1,7 @@
 ## Languages Overview
 
 language-section-in-progress = အဃောကၠောန်ဒၟံင်
+language-section-in-progress-new-description = အရေဝ်ဘာသာတအ်ဂှ် လၟုဟ်ဏံ ဂကောံအဃောခၞံဗဒှ်ဒၟံၚ်ရ။ သွက်ဂွံစပ္တံပ္တိတ်မာန်ဂှ် နွံပၟိက်ကဵု <localizationGlossaryLink>ပွမကၠာဲစၠောံမုက်ဝေပ်သာ်</localizationGlossaryLink> ကေုာံ <sentenceCollectionGlossaryLink>ပွမဒုၚ်သဇိုၚ်ပကောံဝါကျ</sentenceCollectionGlossaryLink> တအ်ရ။
 language-section-launched = ပံက်လဝ်တုဲ
 languages-show-more = ရံၚ်ဗွဲတြး
 languages-show-less = ရံၚ်ဗွဲခမၞောန်
