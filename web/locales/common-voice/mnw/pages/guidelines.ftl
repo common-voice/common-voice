@@ -23,6 +23,9 @@ example = ဥပမာ
 ## Voice collection sidebar content
 
 misreadings-explanation-2 = တၚ်ဗၠေတ်ဂမၠိုၚ်ကၠောန်တဴဗွဲမဂၠိုၚ်ဂှ် ပါလုပ်မပ္တံကဵု
+misreadings-explanation-6 = ဟိုတ်နူ ဒေါအ်ထောံ ပရေၚ်ပၠောပ်ရမျှာၚ် ပြဟ်လောန်အာတုဲ ကၞောတ် မအရေဝ် လက္ကရဴအိုတ်ဂှ် လလုဲသှ်ေၜက်အာရ။
+misreadings-explanation-7 = သွက်ဂွံဗှ် မအရေဝ်မွဲမဂှ် ဂစာန်တဴဒၟံၚ် ဂၠိုၚ်ကဵုအလန်ရ။
+misreadings-example-1 = ပိုဲတိတ်ဒၟံၚ်မ္ၚးသွက်ဂွံရာန်သုၚ်ကဝ်ဖဳရ။
 
 ## Spontaneous Speech sidebar content
 
