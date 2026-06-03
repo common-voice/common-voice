@@ -1,7 +1,7 @@
-speak = Runojit
-speak-now = Runojit tagad
-speak-subtitle = Īrokstit sovu bolsu
-record-cta = Suocit īraksteišonu
+speak = Runoj
+speak-now = Runoj tagad
+speak-subtitle = Īroksti sovu bolsu
+record-cta = Suoc īraksteišonu
 record-platform-not-supported = Dīvamžāļ jiusu platforma itūšaļt nateik atbaļsteita.
 record-platform-not-supported-desktop = Datorūs varit zamynluodēt jaunuokū:
 record-platform-not-supported-ios-non-safari = Operātuojsistemā iOS, lyudzu, turpynojit ar Safari, lai atļautu īraksteišonu…
