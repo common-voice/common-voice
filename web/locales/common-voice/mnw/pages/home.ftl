@@ -158,6 +158,7 @@ download-press-pack = ဂၠေါၚ်ဖျေံကေတ် တၞးလိ
 
 ## Developers section
 
+developers-section-title = တၚ်ဂၞၚ်မူလပစ္စယ်ရမျာၚ်မပံက်လဝ်တအ်ဂှ် ညးလဵုမွဲဟွံဟီု လုပ်ကေတ်နကဵုအရေဝ်ဘာသာ ၁၃၀ ဘာသာပြင်င်မာန်ရောၚ်။
 # icon is an arrow that points to the right
 explore-datasets = ဂၠာဲလ္ၚတ်တၚ်ဂၞၚ်မူလပစ္စယ်ဂမၠိုင်<icon></icon>
 
