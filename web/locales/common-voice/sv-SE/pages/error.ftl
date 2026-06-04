@@ -11,6 +11,11 @@ error-clip-upload-server-error = Serverfel vid bearbetning av ditt klipp. Ladda 
 error-title-404 = Vi kunde inte hitta den sidan åt dig
 error-content-404 = Kanske kan vår <homepageLink>hemsida</homepageLink> hjälpa dig? För att ställa en fråga, gå med i <matrixLink>Matrix community chat</matrixLink>, övervaka webbplatsfrågor via <githubLink>GitHub</githubLink> eller besök <discourseLink>våra Discourse-forum</discourseLink>.
 error-title-429-no-time = Du är för snabb. Sakta ner och försök igen om en stund.
+error-title-429-with-time =
+    { $retryAfter ->
+        [one] Du är för snabb. Försök igen om { $retryAfter } sekund.
+       *[other] Du är för snabb. Försök igen om { $retryAfter } sekunder.
+    }
 error-title-500 = Förlåt, något gick fel
 error-content-500 = Ett oväntat fel uppstod. Försök igen senare. För hjälp, gå med i <matrixLink>Matrix-communityns chatt</matrixLink>, övervaka webbplatsproblem via <githubLink>GitHub</githubLink> eller besök <discourseLink>våra Discourse-forum</discourseLink>.
 error-title-502 = Anslutningen avbröts
