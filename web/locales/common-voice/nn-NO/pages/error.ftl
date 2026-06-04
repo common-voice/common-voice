@@ -11,6 +11,11 @@ error-clip-upload-server-error = Serverfeil under handsaming av klippet ditt. La
 error-title-404 = Denne sida klarte vi ikkje å finne
 error-content-404 = Kanskje vil <homepageLink>startsida</homepageLink> hjelpe? For å stille et spørsmål, kan du bli med på <matrixLink>Matrix fellesskapsprat</matrixLink> eller besøke <githubLink>GitHub</githubLink> eller <discourseLink>Discourse-foruma våre</discourseLink>.
 error-title-429-no-time = Du gjer dette for raskt. Vent litt og prøv igjen.
+error-title-429-with-time =
+    { $retryAfter ->
+        [one] Du gjer dette for raskt. Prøv igjen om { $retryAfter } sekund.
+       *[other] Du gjer dette for raskt. Prøv igjen om { $retryAfter } sekund.
+    }
 error-title-500 = Noko gjekk gale
 error-content-500 = Det oppstod ein uventet feil. Prøv igjen seinare. For hjelp kan du bli med i <matrixLink>Matrix-fellesskapschatten</matrixLink>, følgje med på nettstadproblem via <githubLink>GitHub</githubLink> eller besøke <discourseLink>Discourse-foruma</discourseLink> våre.
 error-title-502 = Tilkopling avbroten
