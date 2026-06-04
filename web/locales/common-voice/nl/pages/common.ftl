@@ -518,6 +518,11 @@ announcement-release = Beste gemeenschap, de nieuwe release is nu volledig besch
 # Text wrapped in <cvDatasheetsLink></cvDatasheetsLink> will be rendered as an external link to the cv-datasheets GitHub repo
 announcement-pre-release = Beste gemeenschap, de tijd van uitgave nadert. Ga valideren en transcriberen, en bezoek ook de <cvDatasheetsLink>cv-datasheets</cvDatasheetsLink> om uw datasheet bij te werken.
 
+## Release Commencing
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-commencing = Beste gemeenschap, we hebben de uiterste datum voor de uitgave bereikt en we zijn de gegevenssets aan het bundelen. De nieuwe uitgave komt over een paar dagen beschikbaar op <mdcLink>Mozilla Data Collective</mdcLink>.
+
 ## Common Language/Dataset Selector & SearchBox Related
 
 # Generic search box defaults
