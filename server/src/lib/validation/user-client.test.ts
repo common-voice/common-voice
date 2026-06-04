@@ -50,6 +50,71 @@ describe('user-client schema validation', () => {
       run()
       expect(next).toBeCalledWith(expect.any(ValidationError))
     })
+
+    it('accepts valid gender values', () => {
+      for (const gender of [
+        'female_feminine',
+        'male_masculine',
+        'intersex',
+        'transgender',
+        'non-binary',
+        'do_not_wish_to_say',
+        '',
+      ]) {
+        next.mockClear()
+        mockRequest.body = { gender }
+        run()
+        expect(next).toBeCalledWith()
+      }
+    })
+
+    it('rejects invalid gender (attack pattern)', () => {
+      mockRequest.body = { gender: 'hittsiiqeaqpg.blid.site' }
+      run()
+      expect(next).toBeCalledWith(expect.any(ValidationError))
+    })
+
+    it('rejects arbitrary string gender', () => {
+      mockRequest.body = { gender: 'male' }
+      run()
+      expect(next).toBeCalledWith(expect.any(ValidationError))
+    })
+
+    it('accepts valid age values', () => {
+      for (const age of ['teens', 'twenties', 'thirties', 'nineties', '']) {
+        next.mockClear()
+        mockRequest.body = { age }
+        run()
+        expect(next).toBeCalledWith()
+      }
+    })
+
+    it('rejects invalid age', () => {
+      mockRequest.body = { age: 'old' }
+      run()
+      expect(next).toBeCalledWith(expect.any(ValidationError))
+    })
+
+    it('rejects unknown fields', () => {
+      mockRequest.body = { unknownField: 'value' }
+      run()
+      expect(next).toBeCalledWith(expect.any(ValidationError))
+    })
+
+    it('accepts full valid profile body', () => {
+      mockRequest.body = {
+        client_id: VALID_UUID,
+        username: 'jane',
+        visible: 0,
+        age: 'thirties',
+        gender: 'female_feminine',
+        languages: [],
+        enrollment: { challenge: null, invite: null, team: null },
+        skip_submission_feedback: false,
+      }
+      run()
+      expect(next).toBeCalledWith()
+    })
   })
 
   describe('clientIdParamSchema (claim param stays strict)', () => {

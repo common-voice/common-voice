@@ -547,7 +547,7 @@ const UserClient = {
             'SELECT client_id FROM user_clients WHERE email = ? AND !has_login',
             [email]
           )
-        : [],
+        : [[]], // no email → no anonymous rows to claim; [[]] so [clients] destructures to []
     ])
 
     const clientId = accountClientId || client_id
