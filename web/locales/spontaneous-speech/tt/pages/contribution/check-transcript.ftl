@@ -1,5 +1,7 @@
 ## Check Transcriptions page
 
+# actionType will be Click (for desktop devices) or Tap (for mobile devices)
+transcription-page-instruction = { $actionType } <playIcon></playIcon> Аудиоклипны тыңлап карагыз һәм транскрипцияне тикшерегез. Ул туры киләме? Туры килмәсә, аны төзәтегез. Аудиоклип һәм транскрипция бер-берсенә туры килергә тиеш.
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = Тикшерү
 vote-transcript-success = Тавышны транскриблау өчен тавыш уңышлы бирелде
