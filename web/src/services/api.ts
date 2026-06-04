@@ -217,6 +217,11 @@ export default class API {
       throw createGatewayTimeoutError('Request timeout')
     }
 
+    // iOS in-app browsers (Facebook, Instagram) throw for 429 instead of returning a proper Response.
+    if (error.message === 'Too Many Requests') {
+      throw new RateLimitError()
+    }
+
     if (
       error.message.includes('Failed to fetch') ||
       error.message.includes('Network Error')
