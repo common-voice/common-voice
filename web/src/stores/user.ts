@@ -1,6 +1,7 @@
 import { Dispatch } from 'redux'
 import { UserClient, UserLanguage } from 'common'
 import { generateGUID, generateToken } from '../utility'
+import { RateLimitError } from '../services/app-error'
 import StateTree from './tree'
 
 export const VISIBLE_FOR_NONE = 0
@@ -148,7 +149,13 @@ export namespace User {
     ) => {
       const { api, user } = getState()
       if (user.account && user.userId) {
-        await api.claimAccount()
+        try {
+          await api.claimAccount()
+        } catch (error) {
+          // Rate-limited: contributions stay in DB; retry on next page load when window resets.
+          if (error instanceof RateLimitError) return
+          throw error
+        }
         dispatch({
           type: ActionType.UPDATE,
           state: {
