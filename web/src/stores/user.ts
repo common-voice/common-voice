@@ -114,13 +114,18 @@ export namespace User {
           type: ActionType.UPDATE,
           state: { isFetchingAccount: true },
         })
-        dispatch({
-          type: ActionType.UPDATE,
-          state: {
-            account: await api.saveAccount(data),
-            isFetchingAccount: false,
-          },
-        })
+        try {
+          dispatch({
+            type: ActionType.UPDATE,
+            state: {
+              account: await api.saveAccount(data),
+              isFetchingAccount: false,
+            },
+          })
+        } catch (error) {
+          dispatch({ type: ActionType.UPDATE, state: { isFetchingAccount: false } })
+          throw error
+        }
         await actions.claimLocalUser(dispatch, getState)
       },
 
