@@ -72,3 +72,17 @@ shortcut-skip = s
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Anrejistre/Stopé
 shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Anrejistre klip la ankò
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Anile anrejistreman ki ka kontinye.
+shortcut-submit = Retounen
+shortcut-submit-label = Soumèt lé môso a.
+request-language-text = Ou poko wè lang ou a sou Common Voice?
+request-language-button = Mande an Lang
+
+## Listen Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+shortcut-play-toggle-label = Jwe/Sispann
