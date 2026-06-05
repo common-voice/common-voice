@@ -47,6 +47,8 @@ background-noise-tip-2 = gawo lina la mawu silikumveka
 background-voices-example-1 = ma dinosaurs a Triassic<strong>[ wowerengedwa ndi mawu amodzi<strong>
 background-voices-tip-1 = Kodi mukubwera? [anayimbilidwadwa ndi wina]
 volume-explanation = pakhala kusiyanisa kwachilengedwe kwa mlingo pakati pa owerenge.kanani ngati mlingo uli wokwera kwambiri kuti chojambulira chikusweka kapena ( kawirikawiri) ngati mlingo uli wotsika kwambiri kuti simungathe kumva zomwe zikukambidwa popanda zomwe zalembedwa
+reader-effects-explanation = Zojambulidwa zambiri zimakhala za anthu omwe amalankhula ndi mawu awo achibadwa. Mutha kulandira zojambulidwa zosazolowereka nthawi zina zomwe zimafuula, kunong'onezedwa, kapena zomwe zimafotokozedwa momveka bwino ndi mawu 'ochititsa chidwi'. Chonde pewani zojambulidwa zomwe zimaimbidwa ndi zomwe zimagwiritsa ntchito mawu opangidwa ndi kompyuta.
+just-unsure-explanation = Ngati mwapeza china chake chomwe malangizo awa sakunena, chonde votani molingana ndi zomwe mwaganiza bwino. Ngati simungathe kusankha, gwiritsani ntchito batani lodumpha ndikupitilira kujambula kwina.
 still-have-questions = mukadali ndi mafunso
 contact-common-voice = Lumikizanani ndi gulu la Common Voice
 
