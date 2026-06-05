@@ -86,3 +86,18 @@ request-language-button = Mande an Lang
 # Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
 shortcut-play-toggle = p
 shortcut-play-toggle-label = Jwe/Sispann
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
+
+## Validation criteria
+
+contribution-criteria-nav = Kritè yo
+contribution-criteria-link = Konprann kritè kontribisyon yo
+contribution-criteria-page-title = Kritè Kontribisyon
+contribution-criteria-page-description = Konprann sa pou w chèche lè w ap koute klip vokal epi ede fè anrejistreman vokal ou  pou enrichir  tou!
+contribution-for-example = pa egzanp
+contribution-misreadings-title = Move entèpretasyon
