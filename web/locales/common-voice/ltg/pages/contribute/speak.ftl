@@ -14,7 +14,12 @@ record-error-too-long = Īroksts beja par garu.
 record-error-too-quiet = Īroksts beja par cīš kluss.
 record-error-empty-recording = Skaņa natyka īraksteita. Lyudzu, puorbaudit mikrofonu  raugit vēļ reizi.
 record-error-unknown-format = Nav īspiejams nūsaceit audio formatu. Lyudzu, paraugit lītuot cytu puorlyuku.
-record-error-uploaded-clip-corrupted = Ruodīs, ka jiusu audio īroksts ir būjuots. Tys var nūtikt itaidu īmesļu deļ:
+record-error-uploaded-clip-corrupted =
+    Ruodīs, ka jiusu audio īroksts ir būjuots. Tys var nūtikt itaidu īmesļu deļ:
+    • Problemys ar puorlyuka sadareibu (raugit lītuot cytu puorlyuku)
+    • Problemys ar mikrofona voi audio draiveri
+    • Teikla puortraukumi īroksta laikā
+    Lyudzu, raugit īraksteit vēļreiz.
 record-cancel = Atceļt atkuortuotu īraksteišonu
 record-instruction = { $actionType }<recordIcon></recordIcon> piec tam bolsā puorskaiti teikumu
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> kod vyss gotovs
