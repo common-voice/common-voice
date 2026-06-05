@@ -54,6 +54,7 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = Izvierzeit mierki
 cant-decide = Navarit nūsprīst?
+activity-needed-calculation-fixed = 100 cylvāku, kas īroksta 100 teikumu dīnā, var izveiduot 13 stuņžu skaņu īrokstu. Ar taidu snāgumu, 1000 stuņdis var sasnēgt mazuok nakai 3 mienešūs.
 how-many-per-day = Breineigi! Cik īrokstu dīnā?
 how-many-a-week = Breineigi! Cik īrokstu nedeļā?
 which-goal-type = Voi gribit runuot, klauseitīs voi obejus?
