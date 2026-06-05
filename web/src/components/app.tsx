@@ -66,6 +66,7 @@ Sentry.init({
   ignoreErrors: [
     'AbortError', // User navigated away mid-fetch
     /^Connection error: cancelled$/, // iOS Safari wording for user navigation
+    /^Connection error: Load failed$/, // iOS/WebKit wording for the same class of navigation-cancelled requests
     /Error invoking postMessage: Java object is gone/, // Facebook Android webview bridge GC
     /window\.checkLogin is not a function/, // External bookmarklet / extension, not our code
     /undefined is not an object \(evaluating 'window\.webkit\.messageHandlers'\)/, // Facebook iOS in-app browser probe
