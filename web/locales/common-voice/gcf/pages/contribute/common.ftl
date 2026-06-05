@@ -101,3 +101,5 @@ contribution-criteria-page-title = Kritè Kontribisyon
 contribution-criteria-page-description = Konprann sa pou w chèche lè w ap koute klip vokal epi ede fè anrejistreman vokal ou  pou enrichir  tou!
 contribution-for-example = pa egzanp
 contribution-misreadings-title = Move entèpretasyon
+contribution-misreadings-description = Lè ou ka koute, verifye épi anpil atansyon ke sa ki anrejistre a se ekzakteman sa ki ekri a; rijté  menm si  tini erè. <br />Erè ki trè komen yo enkli:
+contribution-misreadings-description-extended-list-1 = I mantché <strong>'A'</strong>or<strong>'The'</strong>kòmansman anrejistreman an.
