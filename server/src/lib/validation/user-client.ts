@@ -43,7 +43,17 @@ export const userClientPatchSchema: AllowedSchema = {
     age: { type: 'string', enum: AGE_VALUES as unknown as string[] },
     gender: { type: 'string', enum: GENDER_VALUES as unknown as string[] },
     skip_submission_feedback: { type: 'boolean' },
-    languages: { type: 'array', items: { type: 'object' } },
+    languages: {
+      type: 'array',
+      items: {
+        type: 'object',
+        properties: {
+          locale: { type: 'string' },
+          accents: { type: 'array' },
+          variant: { type: 'object' },
+        },
+      },
+    },
     enrollment: { type: ['object', 'null'] },
   },
 }

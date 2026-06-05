@@ -137,6 +137,20 @@ describe('user-client schema validation', () => {
       expect(next).toBeCalledWith(expect.any(ValidationError))
     })
 
+    it('rejects languages where accents is not an array', () => {
+      mockRequest.body = { languages: [{ locale: 'en', accents: 'not-an-array' }] }
+      run()
+      expect(next).toBeCalledWith(expect.any(ValidationError))
+    })
+
+    it('accepts a non-empty languages array with valid structure', () => {
+      mockRequest.body = {
+        languages: [{ locale: 'en', accents: [{ id: 1, name: 'General American' }] }],
+      }
+      run()
+      expect(next).toBeCalledWith()
+    })
+
     it('accepts full valid profile body', () => {
       mockRequest.body = {
         client_id: VALID_UUID,
@@ -144,7 +158,7 @@ describe('user-client schema validation', () => {
         visible: 0,
         age: 'thirties',
         gender: 'female_feminine',
-        languages: [],
+        languages: [{ locale: 'en', accents: [{ id: 1, name: 'General American' }] }],
         enrollment: { challenge: 'pilot', team: 'mozilla' },
         skip_submission_feedback: false,
       }
