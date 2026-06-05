@@ -64,6 +64,11 @@ file-too-large = Fails ir par lelu
 file-too-small = Fails ir par mozu
 too-many-files = Par daudzi failu
 
+## MENU ITEM TOOLTIPS
+
+review-questions-menu-item-tooltip = Puorsavērt vaicuojumus
+transcribe-audio-menu-item-tooltip = Puorrokstit audio īrokstus
+
 ## MENU ITEM ARIA LABELS
 
 transcribe-audio-menu-item-aria-label = Puorrokstit audio īrokstus
