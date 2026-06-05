@@ -102,4 +102,6 @@ contribution-criteria-page-description = Konprann sa pou w chèche lè w ap kout
 contribution-for-example = pa egzanp
 contribution-misreadings-title = Move entèpretasyon
 contribution-misreadings-description = Lè ou ka koute, verifye épi anpil atansyon ke sa ki anrejistre a se ekzakteman sa ki ekri a; rijté  menm si  tini erè. <br />Erè ki trè komen yo enkli:
-contribution-misreadings-description-extended-list-1 = I mantché <strong>'A'</strong>or<strong>'The'</strong>kòmansman anrejistreman an.
+contribution-misreadings-description-extended-list-1 = I mantjé <strong>'A'</strong>or<strong>'The'</strong>kòmansman anrejistreman an.
+contribution-misreadings-description-extended-list-2 = I mantjé yon<strong> 's' </strong> a la  fin  mo a .
+contribution-misreadings-description-extended-list-3 = Li kontraksyon ki pa la vre, tankou "We're" olye de "We are", oubyen vis vèsa.
