@@ -3,6 +3,7 @@ speak-now = Runoj tagad
 speak-subtitle = Īroksti sovu bolsu
 record-cta = Suoc īraksteišonu
 record-platform-not-supported = Dīvamžāļ jiusu platforma itūšaļt nateik atbaļsteita.
+record-platform-webview = Var byut, ka jius ite tikot, nūklykstynojūt iz saitis socialū medeju lītuotnē. Jius lītojat puorlyukprogramu, kas naatbolsta audio īraksteišonu.
 record-platform-not-supported-webview = Mobilajuos īreicēs varit snēgt sovu īguļdejumu, lītojūt sistemys puorlyukprogramu…
 record-platform-not-supported-desktop = Datorūs varit zamynluodēt jaunuokū:
 record-platform-not-supported-ios-non-safari = Operātuojsistemā iOS, lyudzu, turpynojit ar Safari, lai atļautu īraksteišonu…
@@ -11,6 +12,9 @@ record-no-mic-found = Nav atrosts nivīns mikrofons.
 record-error-too-short = Īroksts beja par eisu.
 record-error-too-long = Īroksts beja par garu.
 record-error-too-quiet = Īroksts beja par cīš kluss.
+record-error-empty-recording = Skaņa natyka īraksteita. Lyudzu, puorbaudit mikrofonu  raugit vēļ reizi.
+record-error-unknown-format = Nav īspiejams nūsaceit audio formatu. Lyudzu, paraugit lītuot cytu puorlyuku.
+record-error-uploaded-clip-corrupted = Ruodīs, ka jiusu audio īroksts ir būjuots. Tys var nūtikt itaidu īmesļu deļ:
 record-cancel = Atceļt atkuortuotu īraksteišonu
 record-instruction = { $actionType }<recordIcon></recordIcon> piec tam bolsā puorskaiti teikumu
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> kod vyss gotovs
@@ -51,6 +55,7 @@ continue-speaking-button = Nā, paļdis, turpynuošu īraksteit
 create-profile-text = Voi gribit saglobuot sovu informaceju? <createProfile>Sataisit profilu</createProfile>
 thanks-for-voice-toast = Paļdis par bolsa informaceju
 thanks-for-voice-toast-error = Īsnādzūt jiusu bolsa informaceju, nūtyka klaida
+first-cta-gender-select-default-option = Lyudzu, izalosit
 first-cta-gender-select-help-text =
     .label = Kai jius raksturuotu sovu dzymumu?
 # SECOND POST SUBMISSION CTA
@@ -70,3 +75,9 @@ read-sentences-coming-soon = Skaiteit teikumus <small>(dreizumā)</small>
 speak-contribute-menu-tooltip = Skaitit teikumus, atbiļdit iz vaicuojumim
 read-sentences-menu-item-tooltip = Īrokstit, kai skaitit teikumus sovā volūdā
 answer-questions-menu-item-tooltip = Īrokstit, kai atbiļdit iz vaicuojumim sovā volūdā
+
+## MENU ITEM ARIA LABELS
+
+speak-contribute-menu-aria-label = Runuošonys īspieju izvēļne
+read-sentences-menu-item-aria-label = Skaitit kūpīnys īsnāgtūs teikumus vysaiduos volūduos
+answer-questions-menu-item-aria-label = Īsnīdzit jaunu vaicuojumu īlaseišonai i atbiļdiešonai
