@@ -10,6 +10,12 @@ error-clip-upload-too-large = Jo opnamebestân is te grut om op te laden. Probea
 error-clip-upload-server-error = Serverflater by it ferwurkjen fan jo fragmint. Laad de side opnij of probearje it letter nochris.
 error-title-404 = Wy kinne dizze side net foar jo fine
 error-content-404 = Miskien helpt ús <homepageLink>startside</homepageLink>? As jo in fraach stelle wolle, kinne jo lid wurde fan de <matrixLink>Matrix-mienskip-chat</matrixLink>, siteproblemen folgje fia <githubLink>GitHub</githubLink> of besykje <discourseLink>ús Discourse-foarums</discourseLink>.
+error-title-429-no-time = Jo geane te hurd. Gean wat stadiger en probearje it oer in amerijke nochris.
+error-title-429-with-time =
+    { $retryAfter ->
+        [one] Jo geane te hurd. Probearje it oer { $retryAfter } sekonde opnij.
+       *[other] Jo geane te hurd. Probearje it oer { $retryAfter } sekonden opnij.
+    }
 error-title-500 = Sorry, der gie wat mis
 error-content-500 = Der is in ûnferwachte flater bard. Probearje it letter nochris. Foar help, doch mei oan de <matrixLink>Matrix-mienskipschat</matrixLink>, kontrolearje problemen mei de side fia <githubLink>GitHub</githubLink> of besykje <discourseLink>ús Discourse-foarums</discourseLink>.
 error-title-502 = Ferbining ûnderbrutsen
