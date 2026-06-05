@@ -38,13 +38,13 @@ export const userClientPatchSchema: AllowedSchema = {
     // The profile form sends client_id: user.userId, which the web store sets to null once an
     // account exists; accept null so the save isn't 400'd before the handler resolves identity.
     client_id: { type: ['string', 'null'], format: 'uuidFormat' },
-    username: { type: 'string', maxLength: 255 },
-    visible: { type: ['number', 'boolean', 'integer'] },
+    username: { type: 'string', minLength: 1, maxLength: 255 },
+    visible: { type: 'integer', minimum: 0, maximum: 2 },
     age: { type: 'string', enum: AGE_VALUES as unknown as string[] },
     gender: { type: 'string', enum: GENDER_VALUES as unknown as string[] },
     skip_submission_feedback: { type: 'boolean' },
-    languages: { type: 'array' },
-    enrollment: { type: 'object' },
+    languages: { type: 'array', items: { type: 'object' } },
+    enrollment: { type: ['object', 'null'] },
   },
 }
 

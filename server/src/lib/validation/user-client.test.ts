@@ -34,13 +34,13 @@ describe('user-client schema validation', () => {
     })
 
     it('accepts null client_id (logged-in profile save)', () => {
-      mockRequest.body = { client_id: null, username: 'jane', visible: true }
+      mockRequest.body = { client_id: null, username: 'jane', visible: 1 }
       run()
       expect(next).toBeCalledWith()
     })
 
     it('accepts an absent client_id', () => {
-      mockRequest.body = { visible: true }
+      mockRequest.body = { visible: 1 }
       run()
       expect(next).toBeCalledWith()
     })
@@ -101,6 +101,42 @@ describe('user-client schema validation', () => {
       expect(next).toBeCalledWith(expect.any(ValidationError))
     })
 
+    it('accepts visible 0, 1, 2', () => {
+      for (const visible of [0, 1, 2]) {
+        next.mockClear()
+        mockRequest.body = { visible }
+        run()
+        expect(next).toBeCalledWith()
+      }
+    })
+
+    it('rejects visible out of range', () => {
+      for (const visible of [-1, 3, 1.5]) {
+        next.mockClear()
+        mockRequest.body = { visible }
+        run()
+        expect(next).toBeCalledWith(expect.any(ValidationError))
+      }
+    })
+
+    it('rejects empty username', () => {
+      mockRequest.body = { username: '' }
+      run()
+      expect(next).toBeCalledWith(expect.any(ValidationError))
+    })
+
+    it('accepts enrollment: null', () => {
+      mockRequest.body = { enrollment: null }
+      run()
+      expect(next).toBeCalledWith()
+    })
+
+    it('rejects languages with non-object items', () => {
+      mockRequest.body = { languages: [1, 'x'] }
+      run()
+      expect(next).toBeCalledWith(expect.any(ValidationError))
+    })
+
     it('accepts full valid profile body', () => {
       mockRequest.body = {
         client_id: VALID_UUID,
@@ -109,7 +145,7 @@ describe('user-client schema validation', () => {
         age: 'thirties',
         gender: 'female_feminine',
         languages: [],
-        enrollment: { challenge: null, invite: null, team: null },
+        enrollment: { challenge: 'pilot', team: 'mozilla' },
         skip_submission_feedback: false,
       }
       run()
