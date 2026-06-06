@@ -22,7 +22,7 @@ def is_gcs_uri(path: str) -> bool:
     return path.startswith("gs://")
 
 
-def _parse_gcs_uri(uri: str) -> tuple[str, str]:
+def parse_gcs_uri(uri: str) -> tuple[str, str]:
     """Parse gs://bucket/prefix into (bucket, prefix)."""
     without_scheme = uri[5:]  # strip "gs://"
     parts = without_scheme.split("/", 1)
@@ -40,7 +40,7 @@ def gcs_temp_download(
 
     Cleans up the temp file on exit.
     """
-    bucket_name, base_prefix = _parse_gcs_uri(gcs_uri)
+    bucket_name, base_prefix = parse_gcs_uri(gcs_uri)
 
     client = gcs_storage.Client()
     bucket = client.bucket(bucket_name)
@@ -50,6 +50,7 @@ def gcs_temp_download(
     if not blob.exists():
         raise FileNotFoundError(f"GCS blob not found: gs://{bucket_name}/{full_path}")
 
+    blob.reload()
     size = blob.size or 0
     logger.info("GCS", "Downloading gs://%s/%s (%s)", bucket_name, full_path, format_size(size))
 
@@ -82,7 +83,7 @@ def gcs_list_tarballs(
     from mdc_uploader import language  # pylint: disable=import-outside-toplevel
     from mdc_uploader.naming import tarball_filename  # pylint: disable=import-outside-toplevel
 
-    bucket_name, base_prefix = _parse_gcs_uri(gcs_uri)
+    bucket_name, base_prefix = parse_gcs_uri(gcs_uri)
 
     client = gcs_storage.Client()
     bucket = client.bucket(bucket_name)
@@ -115,7 +116,7 @@ def gcs_upload_file(
             files in a loop, pass a shared client to avoid repeated
             auth/connection setup.
     """
-    bucket_name, base_prefix = _parse_gcs_uri(gcs_uri)
+    bucket_name, base_prefix = parse_gcs_uri(gcs_uri)
     if client is None:
         client = gcs_storage.Client()
     bucket = client.bucket(bucket_name)
@@ -127,7 +128,7 @@ def gcs_upload_file(
 
 def gcs_read_text(gcs_uri: str, blob_path: str) -> str | None:
     """Read a text file from GCS. Returns None if not found."""
-    bucket_name, base_prefix = _parse_gcs_uri(gcs_uri)
+    bucket_name, base_prefix = parse_gcs_uri(gcs_uri)
 
     client = gcs_storage.Client()
     bucket = client.bucket(bucket_name)
