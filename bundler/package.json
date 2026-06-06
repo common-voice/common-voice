@@ -15,9 +15,9 @@
     "@types/jest": "^30.0.0",
     "@types/node": "^25.5.0",
     "@types/redlock": "^4.0.8",
-    "jest": "^30.3.0",
-    "prettier": "^3.8.1",
-    "ts-jest": "^29.4.6",
+    "jest": "^30.4.2",
+    "prettier": "^3.8.3",
+    "ts-jest": "^29.4.11",
     "typescript": "^5.9.3"
   },
   "overrides": {
@@ -26,18 +26,18 @@
   "dependencies": {
     "@google-cloud/storage": "^7.19.0",
     "@types/tar": "^6.1.13",
-    "bullmq": "^5.71.0",
+    "bullmq": "^5.78.0",
     "commander": "^14.0.3",
     "config": "^4.4.1",
     "csv-parse": "^6.2.1",
     "csv-stringify": "^6.7.0",
-    "dotenv": "^17.3.1",
+    "dotenv": "^17.4.2",
     "fp-ts": "^2.16.11",
-    "ioredis": "^5.10.1",
+    "ioredis": "^5.11.1",
     "mp3-duration": "^1.1.0",
-    "mysql2": "^3.20.0",
+    "mysql2": "^3.22.4",
     "redlock": "^4.2.0",
     "stream-transform": "^3.4.1",
-    "tar": "^7.5.12"
+    "tar": "^7.5.16"
   }
 }
