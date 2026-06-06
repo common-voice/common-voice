@@ -138,3 +138,15 @@ def gcs_read_text(gcs_uri: str, blob_path: str) -> str | None:
 
     text: str = blob.download_as_text()
     return text
+
+
+def gcs_write_text(gcs_uri: str, blob_path: str, content: str) -> None:
+    """Write text content to a GCS blob (UTF-8, plain text)."""
+    bucket_name, base_prefix = parse_gcs_uri(gcs_uri)
+
+    client = gcs_storage.Client()
+    bucket = client.bucket(bucket_name)
+    full_path = f"{base_prefix}/{blob_path}" if base_prefix else blob_path
+    blob = bucket.blob(full_path)
+    blob.upload_from_string(content, content_type="text/plain; charset=utf-8")
+    logger.info("GCS", "Written -> gs://%s/%s", bucket_name, full_path)

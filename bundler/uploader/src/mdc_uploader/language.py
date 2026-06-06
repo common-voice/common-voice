@@ -138,7 +138,9 @@ class LanguageRegistry:
             code = raw.get("code", "")
             if not code:
                 continue
-            # Store as LanguageData -- the API response matches our TypedDict
+            if not isinstance(raw.get("native_name"), str) or not raw["native_name"]:
+                logger.warning("LANG", "Skipping locale %r: missing native_name", code)
+                continue
             entry: LanguageData = raw  # type: ignore[assignment]
             self._registry[code] = entry
 
