@@ -7,6 +7,10 @@ directly to an MDC presigned URL.  Memory usage is constant at ~part_size
 Resume is supported via the same UploadState format used by the SDK:
 completed part ETags are persisted after each chunk, and on retry only
 missing parts are uploaded (all bytes are still read for SHA-256).
+
+Note: uses private datacollective SDK functions (_complete_upload,
+_get_presigned_part_url, etc.) -- the SDK has no public streaming API.
+Pinned to a fixed version in pyproject.toml; verify signatures on bump.
 """
 
 from __future__ import annotations

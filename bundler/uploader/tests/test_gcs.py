@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from mdc_uploader.gcs import _parse_gcs_uri, is_gcs_uri
+from mdc_uploader.gcs import parse_gcs_uri, is_gcs_uri
 
 
 class TestIsGcsUri:
@@ -34,29 +34,29 @@ class TestIsGcsUri:
 
 
 class TestParseGcsUri:
-    """Tests for _parse_gcs_uri."""
+    """Tests for parse_gcs_uri."""
 
     def test_bucket_and_prefix(self) -> None:
         """Parses bucket and prefix from gs:// URI."""
-        bucket, prefix = _parse_gcs_uri("gs://my-bucket/path/to/data")
+        bucket, prefix = parse_gcs_uri("gs://my-bucket/path/to/data")
         assert bucket == "my-bucket"
         assert prefix == "path/to/data"
 
     def test_bucket_only(self) -> None:
         """Bucket-only URI returns empty prefix."""
-        bucket, prefix = _parse_gcs_uri("gs://my-bucket")
+        bucket, prefix = parse_gcs_uri("gs://my-bucket")
         assert bucket == "my-bucket"
         assert prefix == ""
 
     def test_bucket_with_trailing_slash(self) -> None:
         """Trailing slash in bucket gives empty-ish prefix."""
-        bucket, prefix = _parse_gcs_uri("gs://my-bucket/")
+        bucket, prefix = parse_gcs_uri("gs://my-bucket/")
         assert bucket == "my-bucket"
         assert prefix == ""
 
     def test_deep_prefix(self) -> None:
         """Deep nested prefix is preserved."""
-        bucket, prefix = _parse_gcs_uri("gs://cv-data/releases/v25/full")
+        bucket, prefix = parse_gcs_uri("gs://cv-data/releases/v25/full")
         assert bucket == "cv-data"
         assert prefix == "releases/v25/full"
 

@@ -1,4 +1,4 @@
-"""Type stubs for datacollective.api_utils (v0.4.5)."""
+"""Type stubs for datacollective.api_utils (v0.5.1)."""
 
 from typing import Any
 

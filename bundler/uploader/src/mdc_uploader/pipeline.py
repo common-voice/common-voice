@@ -11,7 +11,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from mdc_uploader import language
 from mdc_uploader.config import UploaderConfig
 from mdc_uploader.gcs import (
-    _parse_gcs_uri,
+    parse_gcs_uri,
     gcs_list_tarballs,
     gcs_read_text,
     is_gcs_uri,
@@ -62,7 +62,7 @@ def _build_jobs_gcs(  # pylint: disable=too-many-locals
         # Fetch sizes for explicit locales from GCS
         from google.cloud import storage as gcs_storage  # type: ignore[import-untyped]  # pylint: disable=import-outside-toplevel  # noqa: I001
 
-        bucket_name, base_prefix = _parse_gcs_uri(config.base_dir)
+        bucket_name, base_prefix = parse_gcs_uri(config.base_dir)
         client = gcs_storage.Client()
         bucket = client.bucket(bucket_name)
         locale_sizes: list[tuple[str, int]] = []
@@ -89,7 +89,7 @@ def _build_jobs_gcs(  # pylint: disable=too-many-locals
         # For GCS mode, tarball_path is the relative blob path
         # (downloaded to a temp file in _resolve_file_and_datasheet)
         tb_blob = f"{subdir}/{tarball_filename(locale, config.release_name, license_name)}"
-        ds_blob = os.path.relpath(datasheet_path("", release_spec, locale, license_name), "")
+        ds_blob = datasheet_path("", release_spec, locale, license_name)
 
         orphan = (config.orphaned_submissions or {}).get(locale)
         orphaned_sid = orphan["submission_id"] if orphan else None
@@ -221,7 +221,7 @@ def _resolve_file_and_datasheet(
                 storage as gcs_storage,
             )
 
-            bucket_name, base_prefix = _parse_gcs_uri(base_dir)
+            bucket_name, base_prefix = parse_gcs_uri(base_dir)
             gcs_client = gcs_storage.Client()
             bucket = gcs_client.bucket(bucket_name)
             blob_path = f"{base_prefix}/{job.tarball_path}" if base_prefix else job.tarball_path
@@ -287,49 +287,50 @@ def _cleanup_gcs_temp(
     """Clean up GCS-downloaded temp files after a locale upload.
 
     Always removes the tarball to prevent disk exhaustion during batches.
-    SDK state files (.mdc-upload.json) are always preserved -- they are
-    small and useful for debugging and --resume.
-    On failure: additionally copies state to .state/ using the canonical
-    _sdk_state_fname so --resume can discover it.
+    SDK state files (.mdc-upload.json) are always copied to STATE_DIR using
+    the canonical _sdk_state_fname so --resume can discover them. The copy
+    destination is logged only on failure to avoid noise on the happy path.
     """
     try:
         tmp_dir = os.path.dirname(tmp_file)
-        # Always remove the tarball to save disk
+
+        # Preserve state files to STATE_DIR BEFORE touching the tarball so they
+        # survive even if the tarball removal fails.
+        if tmp_dir and tmp_dir != os.getcwd():
+            import shutil  # pylint: disable=import-outside-toplevel
+
+            dest_fname = (
+                _sdk_state_fname(release_name, release_type, locale)
+                if release_name and release_type
+                else f"mdc-upload-{locale}.json"
+            )
+            try:
+                for fname in os.listdir(tmp_dir):
+                    if fname.endswith(".mdc-upload.json"):
+                        src = os.path.join(tmp_dir, fname)
+                        dest = os.path.join(STATE_DIR, dest_fname)
+                        os.makedirs(STATE_DIR, exist_ok=True)
+                        shutil.copy2(src, dest)
+                        if not succeeded:
+                            logger.info(
+                                "UPLOAD",
+                                "[%s] MDC upload state saved to: %s",
+                                locale,
+                                dest,
+                            )
+                        os.unlink(src)
+            except OSError:
+                pass
+
+        # Remove the tarball (data file) to prevent disk exhaustion
         os.unlink(tmp_file)
 
-        if not tmp_dir or tmp_dir == os.getcwd():
-            return
+        if tmp_dir and tmp_dir != os.getcwd():
+            try:
+                os.rmdir(tmp_dir)
+            except OSError:
+                pass
 
-        # Copy any SDK state files to STATE_DIR with canonical name
-        # (small files, useful for debugging and --resume).
-        import shutil  # pylint: disable=import-outside-toplevel
-
-        dest_fname = (
-            _sdk_state_fname(release_name, release_type, locale)
-            if release_name and release_type
-            else f"mdc-upload-{locale}.json"
-        )
-        for fname in os.listdir(tmp_dir):
-            if fname.endswith(".mdc-upload.json"):
-                src = os.path.join(tmp_dir, fname)
-                dest = os.path.join(STATE_DIR, dest_fname)
-                os.makedirs(STATE_DIR, exist_ok=True)
-                shutil.copy2(src, dest)
-                if not succeeded:
-                    logger.info(
-                        "UPLOAD",
-                        "[%s] MDC upload state saved to: %s",
-                        locale,
-                        dest,
-                    )
-                # Remove from temp dir so rmdir can succeed
-                os.unlink(src)
-
-        # Remove the now-empty temp dir
-        try:
-            os.rmdir(tmp_dir)
-        except OSError:
-            pass
     except OSError as exc:
         logger.warning("UPLOAD", "[%s] Cleanup failed (non-fatal): %s", locale, exc)
 
@@ -351,10 +352,8 @@ def _sdk_state_path(
     """
     fname = _sdk_state_fname(release_name, release_type, locale)
     if not base_dir or is_gcs_uri(base_dir):
-        os.makedirs(STATE_DIR, exist_ok=True)
         return os.path.join(STATE_DIR, fname)
     upload_logs = os.path.join(base_dir, release_name, "upload-logs")
-    os.makedirs(upload_logs, exist_ok=True)
     return os.path.join(upload_logs, fname)
 
 
@@ -409,7 +408,8 @@ def process_locale(  # pylint: disable=too-many-return-statements,too-many-branc
         # Recovery mode: skip tarball download, go straight to steps 3+4.
         # Only needs language data + submission metadata, not the tarball.
         if job.orphaned_submission_id and job.orphaned_file_upload_id:
-            assert client is not None
+            if client is None:
+                raise RuntimeError("MDC client required for recovery (not dry-run)")
             # Read datasheet without downloading the tarball
             datasheet_text = ""
             if job.datasheet_path:
@@ -449,7 +449,8 @@ def process_locale(  # pylint: disable=too-many-return-statements,too-many-branc
 
         # Resume mode: reuse existing draft, resume partial multipart upload.
         if job.resume_state_path and job.resume_submission_id:
-            assert client is not None
+            if client is None:
+                raise RuntimeError("MDC client required for resume (not dry-run)")
 
             tarball_local, datasheet_text, resolve_error = _resolve_file_and_datasheet(
                 job, base_dir
@@ -523,7 +524,8 @@ def process_locale(  # pylint: disable=too-many-return-statements,too-many-branc
                     duration_seconds=time.monotonic() - start,
                 )
 
-            assert client is not None
+            if client is None:
+                raise RuntimeError("MDC client required for streaming upload (not dry-run)")
             submission = client.build_submission(
                 release_spec=job.release_spec,
                 english_name=english_name,
@@ -570,7 +572,8 @@ def process_locale(  # pylint: disable=too-many-return-statements,too-many-branc
                     duration_seconds=time.monotonic() - start,
                 )
 
-            assert client is not None
+            if client is None:
+                raise RuntimeError("MDC client required for upload (not dry-run)")
             submission = client.build_submission(
                 release_spec=job.release_spec,
                 english_name=english_name,
@@ -629,11 +632,12 @@ def process_locale(  # pylint: disable=too-many-return-statements,too-many-branc
         state_path = _sdk_state_path(
             base_dir, job.release_spec.release_name, job.release_type.value, locale,
         )
+        os.makedirs(os.path.dirname(state_path), exist_ok=True)
 
         if use_streaming and is_gcs_uri(base_dir):
             # Streaming mode: GCS range reads -> MDC presigned URLs.
             # No temp file, no download phase.
-            bucket_name, base_prefix = _parse_gcs_uri(base_dir)
+            bucket_name, base_prefix = parse_gcs_uri(base_dir)
             blob_path = (
                 f"{base_prefix}/{job.tarball_path}"
                 if base_prefix

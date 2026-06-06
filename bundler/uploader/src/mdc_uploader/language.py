@@ -30,7 +30,7 @@ class LanguageRegistry:
     """
 
     # Locales not present in the CV languagedata API.
-    # Same data as cv-datasheets/metadata/locale-extras.json.
+    # Must match cv-datasheets/metadata/locale-extras.json — update both when adding a locale.
     EXTRAS: dict[str, LanguageData] = {
         "el-CY": LanguageData(
             id=0,
