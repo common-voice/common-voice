@@ -294,46 +294,46 @@ def _cleanup_gcs_temp(
     """
     try:
         tmp_dir = os.path.dirname(tmp_file)
-        # Always remove the tarball to save disk
+
+        # Preserve state files to STATE_DIR BEFORE touching the tarball so they
+        # survive even if the tarball removal fails.
+        if tmp_dir and tmp_dir != os.getcwd():
+            import shutil  # pylint: disable=import-outside-toplevel
+
+            dest_fname = (
+                _sdk_state_fname(release_name, release_type, locale)
+                if release_name and release_type
+                else f"mdc-upload-{locale}.json"
+            )
+            try:
+                for fname in os.listdir(tmp_dir):
+                    if fname.endswith(".mdc-upload.json"):
+                        src = os.path.join(tmp_dir, fname)
+                        dest = os.path.join(STATE_DIR, dest_fname)
+                        os.makedirs(STATE_DIR, exist_ok=True)
+                        shutil.copy2(src, dest)
+                        if not succeeded:
+                            logger.info(
+                                "UPLOAD",
+                                "[%s] MDC upload state saved to: %s",
+                                locale,
+                                dest,
+                            )
+                        os.unlink(src)
+            except OSError:
+                pass
+
+        # Remove the tarball (data file) to prevent disk exhaustion
         os.unlink(tmp_file)
 
-        if not tmp_dir or tmp_dir == os.getcwd():
-            return
+        if tmp_dir and tmp_dir != os.getcwd():
+            try:
+                os.rmdir(tmp_dir)
+            except OSError:
+                pass
 
-        # Copy any SDK state files to STATE_DIR with canonical name
-        # (small files, useful for debugging and --resume).
-        import shutil  # pylint: disable=import-outside-toplevel
-
-        dest_fname = (
-            _sdk_state_fname(release_name, release_type, locale)
-            if release_name and release_type
-            else f"mdc-upload-{locale}.json"
-        )
-        for fname in os.listdir(tmp_dir):
-            if fname.endswith(".mdc-upload.json"):
-                src = os.path.join(tmp_dir, fname)
-                dest = os.path.join(STATE_DIR, dest_fname)
-                os.makedirs(STATE_DIR, exist_ok=True)
-                shutil.copy2(src, dest)
-                if not succeeded:
-                    logger.info(
-                        "UPLOAD",
-                        "[%s] MDC upload state saved to: %s",
-                        locale,
-                        dest,
-                    )
-                # Remove from temp dir so rmdir can succeed
-                os.unlink(src)
-
-        # Remove the now-empty temp dir
-        try:
-            os.rmdir(tmp_dir)
-        except OSError:
-            pass
     except OSError as exc:
         logger.warning("UPLOAD", "[%s] Cleanup failed (non-fatal): %s", locale, exc)
-        import shutil  # pylint: disable=import-outside-toplevel
-        shutil.rmtree(tmp_dir, ignore_errors=True)
 
 
 def _sdk_state_fname(release_name: str, release_type: str, locale: str) -> str:
