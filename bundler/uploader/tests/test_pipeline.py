@@ -290,7 +290,7 @@ class TestTryFadvise:
         mock_gcs_client = MagicMock()
         mock_gcs_client.bucket.return_value = mock_bucket
 
-        with patch("mdc_uploader.pipeline._parse_gcs_uri", return_value=("bucket", "prefix")), \
+        with patch("mdc_uploader.pipeline.parse_gcs_uri", return_value=("bucket", "prefix")), \
              patch("mdc_uploader.pipeline.is_gcs_uri", return_value=True), \
              patch("google.cloud.storage.Client", return_value=mock_gcs_client):
             result_path, _, error = _resolve_file_and_datasheet(
@@ -464,7 +464,7 @@ class TestSdkStatePath:
         path = _sdk_state_path(str(tmp_path), "cv-corpus-25.0-2026-03-09", "full", "fr")
         assert "upload-logs" in path
         assert path.endswith("mdc-upload-cv-corpus-25.0-2026-03-09-full-fr.json")
-        assert os.path.isdir(os.path.dirname(path))
+        assert not os.path.isdir(os.path.dirname(path))  # dir not created until write
 
     def test_gcs_uri_falls_back_to_state_dir(self, tmp_path) -> None:
         """gs:// base-dir falls back to .state/."""

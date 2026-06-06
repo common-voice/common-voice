@@ -11,7 +11,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from mdc_uploader import language
 from mdc_uploader.config import UploaderConfig
 from mdc_uploader.gcs import (
-    _parse_gcs_uri,
+    parse_gcs_uri,
     gcs_list_tarballs,
     gcs_read_text,
     is_gcs_uri,
@@ -62,7 +62,7 @@ def _build_jobs_gcs(  # pylint: disable=too-many-locals
         # Fetch sizes for explicit locales from GCS
         from google.cloud import storage as gcs_storage  # type: ignore[import-untyped]  # pylint: disable=import-outside-toplevel  # noqa: I001
 
-        bucket_name, base_prefix = _parse_gcs_uri(config.base_dir)
+        bucket_name, base_prefix = parse_gcs_uri(config.base_dir)
         client = gcs_storage.Client()
         bucket = client.bucket(bucket_name)
         locale_sizes: list[tuple[str, int]] = []
@@ -89,7 +89,7 @@ def _build_jobs_gcs(  # pylint: disable=too-many-locals
         # For GCS mode, tarball_path is the relative blob path
         # (downloaded to a temp file in _resolve_file_and_datasheet)
         tb_blob = f"{subdir}/{tarball_filename(locale, config.release_name, license_name)}"
-        ds_blob = os.path.relpath(datasheet_path("", release_spec, locale, license_name), "")
+        ds_blob = datasheet_path("", release_spec, locale, license_name)
 
         orphan = (config.orphaned_submissions or {}).get(locale)
         orphaned_sid = orphan["submission_id"] if orphan else None
@@ -221,7 +221,7 @@ def _resolve_file_and_datasheet(
                 storage as gcs_storage,
             )
 
-            bucket_name, base_prefix = _parse_gcs_uri(base_dir)
+            bucket_name, base_prefix = parse_gcs_uri(base_dir)
             gcs_client = gcs_storage.Client()
             bucket = gcs_client.bucket(bucket_name)
             blob_path = f"{base_prefix}/{job.tarball_path}" if base_prefix else job.tarball_path
@@ -332,6 +332,8 @@ def _cleanup_gcs_temp(
             pass
     except OSError as exc:
         logger.warning("UPLOAD", "[%s] Cleanup failed (non-fatal): %s", locale, exc)
+        import shutil  # pylint: disable=import-outside-toplevel
+        shutil.rmtree(tmp_dir, ignore_errors=True)
 
 
 def _sdk_state_fname(release_name: str, release_type: str, locale: str) -> str:
@@ -351,10 +353,8 @@ def _sdk_state_path(
     """
     fname = _sdk_state_fname(release_name, release_type, locale)
     if not base_dir or is_gcs_uri(base_dir):
-        os.makedirs(STATE_DIR, exist_ok=True)
         return os.path.join(STATE_DIR, fname)
     upload_logs = os.path.join(base_dir, release_name, "upload-logs")
-    os.makedirs(upload_logs, exist_ok=True)
     return os.path.join(upload_logs, fname)
 
 
@@ -409,7 +409,8 @@ def process_locale(  # pylint: disable=too-many-return-statements,too-many-branc
         # Recovery mode: skip tarball download, go straight to steps 3+4.
         # Only needs language data + submission metadata, not the tarball.
         if job.orphaned_submission_id and job.orphaned_file_upload_id:
-            assert client is not None
+            if client is None:
+                raise RuntimeError("MDC client required for recovery (not dry-run)")
             # Read datasheet without downloading the tarball
             datasheet_text = ""
             if job.datasheet_path:
@@ -449,7 +450,8 @@ def process_locale(  # pylint: disable=too-many-return-statements,too-many-branc
 
         # Resume mode: reuse existing draft, resume partial multipart upload.
         if job.resume_state_path and job.resume_submission_id:
-            assert client is not None
+            if client is None:
+                raise RuntimeError("MDC client required for resume (not dry-run)")
 
             tarball_local, datasheet_text, resolve_error = _resolve_file_and_datasheet(
                 job, base_dir
@@ -523,7 +525,8 @@ def process_locale(  # pylint: disable=too-many-return-statements,too-many-branc
                     duration_seconds=time.monotonic() - start,
                 )
 
-            assert client is not None
+            if client is None:
+                raise RuntimeError("MDC client required for streaming upload (not dry-run)")
             submission = client.build_submission(
                 release_spec=job.release_spec,
                 english_name=english_name,
@@ -570,7 +573,8 @@ def process_locale(  # pylint: disable=too-many-return-statements,too-many-branc
                     duration_seconds=time.monotonic() - start,
                 )
 
-            assert client is not None
+            if client is None:
+                raise RuntimeError("MDC client required for upload (not dry-run)")
             submission = client.build_submission(
                 release_spec=job.release_spec,
                 english_name=english_name,
@@ -629,11 +633,12 @@ def process_locale(  # pylint: disable=too-many-return-statements,too-many-branc
         state_path = _sdk_state_path(
             base_dir, job.release_spec.release_name, job.release_type.value, locale,
         )
+        os.makedirs(os.path.dirname(state_path), exist_ok=True)
 
         if use_streaming and is_gcs_uri(base_dir):
             # Streaming mode: GCS range reads -> MDC presigned URLs.
             # No temp file, no download phase.
-            bucket_name, base_prefix = _parse_gcs_uri(base_dir)
+            bucket_name, base_prefix = parse_gcs_uri(base_dir)
             blob_path = (
                 f"{base_prefix}/{job.tarball_path}"
                 if base_prefix
