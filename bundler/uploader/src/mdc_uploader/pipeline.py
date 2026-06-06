@@ -8,7 +8,7 @@ import threading
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-from mdc_uploader import language
+from mdc_uploader import language, prior as prior_module
 from mdc_uploader.config import UploaderConfig
 from mdc_uploader.gcs import (
     parse_gcs_uri,
@@ -19,6 +19,7 @@ from mdc_uploader.gcs import (
 from mdc_uploader.log import logger
 from mdc_uploader.mdc import MDCClient, OrphanedDraftError
 from mdc_uploader.models import (
+    DisableMode,
     LocaleUploadJob,
     ReleaseSpec,
     ReleaseType,
@@ -284,18 +285,11 @@ def _cleanup_gcs_temp(
     release_name: str = "",
     release_type: str = "",
 ) -> None:
-    """Clean up GCS-downloaded temp files after a locale upload.
-
-    Always removes the tarball to prevent disk exhaustion during batches.
-    SDK state files (.mdc-upload.json) are always copied to STATE_DIR using
-    the canonical _sdk_state_fname so --resume can discover them. The copy
-    destination is logged only on failure to avoid noise on the happy path.
-    """
+    """Remove GCS temp tarball and copy SDK state files (.mdc-upload.json) to STATE_DIR for --resume."""
     try:
         tmp_dir = os.path.dirname(tmp_file)
 
-        # Preserve state files to STATE_DIR BEFORE touching the tarball so they
-        # survive even if the tarball removal fails.
+        # Copy state files before touching tarball so they survive on tarball removal failure.
         if tmp_dir and tmp_dir != os.getcwd():
             import shutil  # pylint: disable=import-outside-toplevel
 
@@ -357,16 +351,41 @@ def _sdk_state_path(
     return os.path.join(upload_logs, fname)
 
 
+def _disable_prior_version(
+    locale: str,
+    prior_ids: list[str],
+    client: MDCClient,
+) -> tuple[list[str], list[str], list[str]]:
+    """Disable prior MDC submissions for one locale.
+
+    Returns (disabled_ids, failed_ids, pending_ids).
+    Never raises -- all exceptions are caught and logged.
+    """
+    from mdc_uploader.constants import (  # pylint: disable=import-outside-toplevel
+        MDC_DISABLE_ENDPOINT,
+    )
+
+    if MDC_DISABLE_ENDPOINT is None:
+        for sid in prior_ids:
+            logger.info("MDC", "[%s] PENDING: would disable %s", locale, sid)
+        return [], [], list(prior_ids)
+
+    disabled: list[str] = []
+    failed: list[str] = []
+    for sid in prior_ids:
+        try:
+            ok = client.disable_submission(sid)
+            (disabled if ok else failed).append(sid)
+        except Exception as exc:  # pylint: disable=broad-exception-caught
+            logger.warning("MDC", "[%s] Failed to disable %s: %s", locale, sid, exc)
+            failed.append(sid)
+    return disabled, failed, []
+
+
 def _preserve_sdk_state_local(
     tarball_path: str, locale: str, release_name: str, release_type: str,
 ) -> None:
-    """Copy SDK state file to .state/ for --resume support (fallback).
-
-    Only needed when state_path was NOT passed to upload_dataset_file
-    (e.g. upload_new_version). The default SDK location is
-    <tarball>.mdc-upload.json next to the tarball.
-    No-op when the SDK state file does not exist.
-    """
+    """Copy <tarball>.mdc-upload.json to .state/ for --resume (fallback for upload_new_version)."""
     sdk_state = f"{tarball_path}.mdc-upload.json"
     if not os.path.exists(sdk_state):
         return
@@ -379,6 +398,104 @@ def _preserve_sdk_state_local(
         logger.info("UPLOAD", "[%s] SDK upload state saved to: %s", locale, dest)
     except OSError as exc:
         logger.warning("UPLOAD", "[%s] Failed to preserve SDK state (non-fatal): %s", locale, exc)
+
+
+def _process_orphan_recovery(
+    job: LocaleUploadJob,
+    client: MDCClient,
+    english_name: str,
+    native_name: str,
+    base_dir: str,
+    start: float,
+) -> UploadResult:
+    """Steps 3-4 only: recover an orphaned draft without re-downloading the tarball."""
+    datasheet_text = ""
+    if job.datasheet_path:
+        if is_gcs_uri(base_dir):
+            datasheet_text = gcs_read_text(base_dir, job.datasheet_path) or ""
+        elif os.path.exists(job.datasheet_path):
+            with open(job.datasheet_path, encoding="utf-8") as f:
+                datasheet_text = f.read()
+    submission = client.build_submission(
+        release_spec=job.release_spec,
+        english_name=english_name,
+        native_name=native_name,
+        locale=job.locale,
+        license_name=job.license_type,
+        datasheet_text=datasheet_text,
+    )
+    logger.info(
+        "UPLOAD",
+        "[%s] RETRYING orphaned draft %s (steps 3-4 only)",
+        job.locale,
+        job.orphaned_submission_id,
+    )
+    submission_id, _ = client.recover_submission(
+        submission_id=job.orphaned_submission_id,  # type: ignore[arg-type]
+        file_upload_id=job.orphaned_file_upload_id,  # type: ignore[arg-type]
+        submission=submission,
+    )
+    return UploadResult(
+        locale=job.locale,
+        status="success",
+        submission_id=submission_id,
+        size_bytes=job.file_size,
+        duration_seconds=time.monotonic() - start,
+        attempts=1,
+    )
+
+
+def _process_resume(
+    job: LocaleUploadJob,
+    client: MDCClient,
+    english_name: str,
+    native_name: str,
+    base_dir: str,
+    start: float,
+) -> tuple[UploadResult, str | None]:
+    """Resume a partial upload from SDK state. Returns (result, tmp_file); caller owns cleanup."""
+    tarball_local, datasheet_text, resolve_error = _resolve_file_and_datasheet(job, base_dir)
+    if tarball_local is None:
+        return UploadResult(
+            locale=job.locale,
+            status="failed",
+            size_bytes=job.file_size,
+            duration_seconds=time.monotonic() - start,
+            error=resolve_error or f"Tarball not found: {job.tarball_path}",
+            attempts=0,
+        ), None
+
+    tmp_file: str | None = tarball_local if is_gcs_uri(base_dir) else None
+    _try_fadvise(tarball_local, getattr(os, "POSIX_FADV_SEQUENTIAL", 0))
+
+    submission = client.build_submission(
+        release_spec=job.release_spec,
+        english_name=english_name,
+        native_name=native_name,
+        locale=job.locale,
+        license_name=job.license_type,
+        datasheet_text=datasheet_text,
+    )
+    logger.info(
+        "UPLOAD",
+        "[%s] RESUMING partial upload for draft %s",
+        job.locale,
+        job.resume_submission_id,
+    )
+    submission_id, _ = client.resume_and_upload(
+        file_path=tarball_local,
+        submission=submission,
+        resume_state_path=job.resume_state_path,  # type: ignore[arg-type]
+        submission_id=job.resume_submission_id,  # type: ignore[arg-type]
+    )
+    return UploadResult(
+        locale=job.locale,
+        status="success",
+        submission_id=submission_id,
+        size_bytes=job.file_size,
+        duration_seconds=time.monotonic() - start,
+        attempts=1,
+    ), tmp_file
 
 
 def process_locale(  # pylint: disable=too-many-return-statements,too-many-branches,too-many-locals
@@ -405,99 +522,25 @@ def process_locale(  # pylint: disable=too-many-return-statements,too-many-branc
         english_name = lang_entry.get("english_name", lang_entry["code"])
         native_name = lang_entry["native_name"]
 
-        # Recovery mode: skip tarball download, go straight to steps 3+4.
-        # Only needs language data + submission metadata, not the tarball.
+        # Recovery mode: steps 3-4 only, no tarball needed.
         if job.orphaned_submission_id and job.orphaned_file_upload_id:
             if client is None:
                 raise RuntimeError("MDC client required for recovery (not dry-run)")
-            # Read datasheet without downloading the tarball
-            datasheet_text = ""
-            if job.datasheet_path:
-                if is_gcs_uri(base_dir):
-                    datasheet_text = gcs_read_text(base_dir, job.datasheet_path) or ""
-                elif os.path.exists(job.datasheet_path):
-                    with open(job.datasheet_path, encoding="utf-8") as f:
-                        datasheet_text = f.read()
-            submission = client.build_submission(
-                release_spec=job.release_spec,
-                english_name=english_name,
-                native_name=native_name,
-                locale=locale,
-                license_name=job.license_type,
-                datasheet_text=datasheet_text,
+            result = _process_orphan_recovery(
+                job, client, english_name, native_name, base_dir, start
             )
-            logger.info(
-                "UPLOAD",
-                "[%s] RETRYING orphaned draft %s (steps 3-4 only)",
-                locale,
-                job.orphaned_submission_id,
-            )
-            submission_id, _ = client.recover_submission(
-                submission_id=job.orphaned_submission_id,
-                file_upload_id=job.orphaned_file_upload_id,
-                submission=submission,
-            )
-            upload_succeeded = True
-            return UploadResult(
-                locale=locale,
-                status="success",
-                submission_id=submission_id,
-                size_bytes=job.file_size,
-                duration_seconds=time.monotonic() - start,
-                attempts=1,
-            )
+            upload_succeeded = result.status == "success"
+            return result
 
         # Resume mode: reuse existing draft, resume partial multipart upload.
         if job.resume_state_path and job.resume_submission_id:
             if client is None:
                 raise RuntimeError("MDC client required for resume (not dry-run)")
-
-            tarball_local, datasheet_text, resolve_error = _resolve_file_and_datasheet(
-                job, base_dir
+            result, tmp_file = _process_resume(
+                job, client, english_name, native_name, base_dir, start
             )
-            if tarball_local is None:
-                return UploadResult(
-                    locale=locale,
-                    status="failed",
-                    size_bytes=job.file_size,
-                    duration_seconds=time.monotonic() - start,
-                    error=resolve_error or f"Tarball not found: {job.tarball_path}",
-                    attempts=0,
-                )
-            if is_gcs_uri(base_dir):
-                tmp_file = tarball_local
-
-            _try_fadvise(tarball_local, getattr(os, "POSIX_FADV_SEQUENTIAL", 0))
-
-            submission = client.build_submission(
-                release_spec=job.release_spec,
-                english_name=english_name,
-                native_name=native_name,
-                locale=locale,
-                license_name=job.license_type,
-                datasheet_text=datasheet_text,
-            )
-            logger.info(
-                "UPLOAD",
-                "[%s] RESUMING partial upload for draft %s",
-                locale,
-                job.resume_submission_id,
-            )
-            submission_id, _ = client.resume_and_upload(
-                file_path=tarball_local,
-                submission=submission,
-                resume_state_path=job.resume_state_path,
-                submission_id=job.resume_submission_id,
-            )
-            upload_succeeded = True
-            return UploadResult(
-                locale=locale,
-                status="success",
-                submission_id=submission_id,
-                size_bytes=job.file_size,
-                duration_seconds=time.monotonic() - start,
-                attempts=1,
-            )
+            upload_succeeded = result.status == "success"
+            return result
 
         # -- Streaming path: skip download, read datasheet from GCS directly --
         if use_streaming and is_gcs_uri(base_dir):
@@ -587,8 +630,7 @@ def process_locale(  # pylint: disable=too-many-return-statements,too-many-branc
             _try_fadvise(tarball_local, getattr(os, "POSIX_FADV_SEQUENTIAL", 0))
 
         if job.submission_id:
-            # Version update mode -- requires a local file (SDK API).
-            # If streaming left tarball_local=None, download now.
+            # Version update: needs local file; download now if streaming left tarball_local=None.
             if tarball_local is None and is_gcs_uri(base_dir):
                 tarball_local, _, resolve_error = _resolve_file_and_datasheet(
                     job, base_dir
@@ -635,8 +677,7 @@ def process_locale(  # pylint: disable=too-many-return-statements,too-many-branc
         os.makedirs(os.path.dirname(state_path), exist_ok=True)
 
         if use_streaming and is_gcs_uri(base_dir):
-            # Streaming mode: GCS range reads -> MDC presigned URLs.
-            # No temp file, no download phase.
+            # Streaming: GCS range reads -> MDC presigned URLs, no temp file.
             bucket_name, base_prefix = parse_gcs_uri(base_dir)
             blob_path = (
                 f"{base_prefix}/{job.tarball_path}"
@@ -753,6 +794,31 @@ def print_summary(state: BatchState) -> None:
     if log_path:
         logger.info("UPLOAD", "Log file: %s", log_path)
 
+    # Disable-prior footer (only shown when mode is not skip)
+    if state.disable_mode != DisableMode.SKIP:
+        logger.info("UPLOAD", "")
+        if state.disable_mode == DisableMode.PRE:
+            logger.info("UPLOAD", "Pre-disabled prior versions: %d", state.disabled_total)
+        else:
+            logger.info(
+                "UPLOAD",
+                "Post-disabled prior versions: %d / %d",
+                state.disabled_total,
+                state.locales_with_prior,
+            )
+        if state.disable_pending_total > 0:
+            logger.info(
+                "UPLOAD",
+                "Pending (endpoint TBD): %d",
+                state.disable_pending_total,
+            )
+        if state.disable_failed_ids:
+            logger.info(
+                "UPLOAD",
+                "Failed to disable: %s",
+                state.disable_failed_ids,
+            )
+
     if failed > 0:
         logger.info("UPLOAD", "")
         logger.info(
@@ -765,8 +831,7 @@ def print_summary(state: BatchState) -> None:
             "To retry failed: mdc-upload --retry-failed %s",
             state.state_path,
         )
-        # Check for SDK state files that support --resume (partial uploads).
-        # State may be in upload-logs/ (GCS-persistent) or .state/ (local).
+        # SDK state files support --resume; may be in upload-logs/ (GCS) or .state/ (local).
         from mdc_uploader.constants import (
             DEFAULT_BASE_DIR,  # pylint: disable=import-outside-toplevel
         )
@@ -818,13 +883,13 @@ def run_batch(config: UploaderConfig) -> bool:
     if config.dry_run:
         logger.info("UPLOAD", "** DRY RUN MODE **")
 
-    # Initialize batch state early so save_logs_to_storage can persist
-    # the log file even if build_jobs or language.init() fails.
+    # BatchState early so logs are persisted even when build_jobs or language.init() fails.
     state = BatchState(
         release=config.release_name,
         upload_target=config.upload_target,
         release_type=config.release_type.value,
         base_dir=config.base_dir,
+        disable_mode=config.disable_mode.value,
     )
 
     try:
@@ -863,14 +928,56 @@ def run_batch(config: UploaderConfig) -> bool:
             else None
         )
 
+        # Prior version map: loaded once for both pre and post modes.
+        # Empty for skip mode or when org page is unavailable.
+        prior_map: dict[str, list[str]] = {}
+        if config.disable_mode != DisableMode.SKIP:
+            prior_map = prior_module.load_prior_map(
+                disable_mode=config.disable_mode,
+                base_dir=config.base_dir,
+                release_spec=release_spec,
+                force_rescrape=config.force_rescrape,
+            )
+            state.locales_with_prior = len(prior_map)
+
+        # Pre-mode: bulk disable all prior versions before starting uploads.
+        if config.disable_mode == DisableMode.PRE and prior_map:
+            all_prior = [sid for ids in prior_map.values() for sid in ids]
+            logger.info(
+                "UPLOAD",
+                "Pre-disabling %d submission(s) across %d locale(s)...",
+                len(all_prior),
+                len(prior_map),
+            )
+            if config.dry_run:
+                logger.info(
+                    "UPLOAD",
+                    "DRY RUN -- would pre-disable %d submission(s): %s",
+                    len(all_prior),
+                    all_prior,
+                )
+                state.disable_pending_total += len(all_prior)
+            elif client is not None:
+                for locale_code, ids in prior_map.items():
+                    dis, fail, pend = _disable_prior_version(locale_code, ids, client)
+                    state.disabled_total += len(dis)
+                    state.disable_failed_ids.extend(fail)
+                    state.disable_pending_total += len(pend)
+                logger.info(
+                    "UPLOAD",
+                    "Pre-disable complete: %d disabled, %d pending, %d failed",
+                    state.disabled_total,
+                    state.disable_pending_total,
+                    len(state.disable_failed_ids),
+                )
+                state.flush()  # persist before batch starts — survives pod recycle
+
         # Streaming is default for gs:// URIs; --no-stream disables it.
         use_streaming = is_gcs_uri(config.base_dir) and not config.no_stream
         if use_streaming:
             logger.info("UPLOAD", "Streaming mode: GCS range-read -> MDC (no temp files)")
 
-        # Concurrency and retry settings.
-        # Parallel only with streaming -- non-streaming downloads to temp
-        # and concurrent downloads would exhaust ephemeral disk.
+        # Parallel only with streaming — concurrent temp downloads would exhaust disk.
         max_workers = config.jobs if use_streaming else 1
         max_retries = 3
 
@@ -896,9 +1003,7 @@ def run_batch(config: UploaderConfig) -> bool:
                 )
                 if result.status != "failed":
                     break
-                # Orphaned drafts should not be retried -- each retry
-                # would create a new draft, wasting API quota.
-                # Use --retry-failed to recover from step 3 instead.
+                # Orphaned drafts: don't retry — each retry creates a new draft; use --retry-failed.
                 if result.orphaned_draft:
                     break
                 if attempt < max_retries:
@@ -911,23 +1016,57 @@ def run_batch(config: UploaderConfig) -> bool:
                         result.error,
                     )
             assert result is not None
-            result.attempts = max(result.attempts, attempt)
+            result.attempts = attempt
             return result
 
         def _log_result(result: UploadResult) -> None:
             nonlocal completed_count
+
+            # Post-mode: disable prior version immediately after a successful upload.
+            if (
+                config.disable_mode == DisableMode.POST
+                and result.status == "success"
+                and result.locale in prior_map
+            ):
+                prior_ids = prior_map[result.locale]
+                if config.dry_run:
+                    logger.info(
+                        "UPLOAD",
+                        "[%s] DRY RUN -- would disable %d prior: %s",
+                        result.locale,
+                        len(prior_ids),
+                        prior_ids,
+                    )
+                    result.disable_pending_ids = list(prior_ids)
+                elif client is not None:
+                    dis, fail, pend = _disable_prior_version(result.locale, prior_ids, client)
+                    result.disabled_ids = dis
+                    result.disable_failed_ids = fail
+                    result.disable_pending_ids = pend
+
             state.record(result)
             with completed_lock:
                 completed_count += 1
                 idx = completed_count
             total = len(jobs)
+
+            # Build optional disable suffix for the log line
+            disable_suffix = ""
+            if result.disabled_ids:
+                disable_suffix = f"  [disabled {len(result.disabled_ids)} prior]"
+            elif result.disable_pending_ids:
+                disable_suffix = f"  [disable pending: {len(result.disable_pending_ids)}]"
+            elif result.disable_failed_ids:
+                disable_suffix = f"  [disable failed: {result.disable_failed_ids}]"
+
             if result.status == "success":
                 logger.info(
                     "UPLOAD",
-                    "[%d/%d] %s -- SUCCESS (%s in %.1fs)",
+                    "[%d/%d] %s -- SUCCESS (%s in %.1fs)%s",
                     idx, total, result.locale,
                     format_size(result.size_bytes),
                     result.duration_seconds,
+                    disable_suffix,
                 )
             elif result.status == "failed":
                 logger.error(
@@ -938,8 +1077,8 @@ def run_batch(config: UploaderConfig) -> bool:
             elif result.status == "skipped":
                 logger.info(
                     "UPLOAD",
-                    "[%d/%d] %s -- SKIPPED (dry run)",
-                    idx, total, result.locale,
+                    "[%d/%d] %s -- SKIPPED (dry run)%s",
+                    idx, total, result.locale, disable_suffix,
                 )
             progress.update(1)
 
@@ -975,6 +1114,5 @@ def run_batch(config: UploaderConfig) -> bool:
         _, failed, _ = state.summary()
         return failed == 0
     finally:
-        # Persist logs to GCS so they survive pod recycling.
-        # Runs on all exit paths including early errors.
+        # Persist logs to GCS on all exit paths (pod recycle safety).
         save_logs_to_storage(config.base_dir, config.release_name, state)
