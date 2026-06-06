@@ -36,11 +36,7 @@ from mdc_uploader.log import logger
 from mdc_uploader.models import ReleaseSpec
 from mdc_uploader.streaming import stream_upload_from_gcs
 
-# -- Override SDK default part size --------------------------------------------
-# The MDC API does not return partSize in the initiate response, so the SDK
-# falls back to DEFAULT_PART_SIZE.  256 MB keeps part count manageable
-# (390 parts for 100 GB vs 20,000 at 5 MB) and completes well within MDC's
-# per-part deadline.  Must target upload_utils (where _initiate_upload lives).
+# 256 MB parts: MDC doesn't return partSize so SDK falls back to this default (must target upload_utils).
 _dc_upload_utils.DEFAULT_PART_SIZE = 256 * 1024 * 1024  # 256 MB
 
 # -- 429 / transient error detection ------------------------------------------
@@ -59,14 +55,7 @@ class TransientError(Exception):
 
 
 def _is_retryable(exc: BaseException) -> bool:
-    """Return True for errors worth retrying.
-
-    Only our custom wrapper types are retryable. All exceptions in retry-decorated
-    methods go through _wrap_exception first, which wraps transient/network errors
-    as TransientError. Raw SDK exceptions (e.g. requests.HTTPError for 401/403)
-    inherit from OSError in Python 3, so we must NOT use isinstance(exc, OSError)
-    here -- that would retry auth failures and create orphaned drafts.
-    """
+    """Return True for RateLimitError/TransientError only (NOT bare OSError — HTTPError inherits it)."""
     if isinstance(exc, RateLimitError):
         return exc.retry_after <= MAX_RETRY_AFTER_SECONDS
     return isinstance(exc, TransientError)
@@ -107,6 +96,22 @@ def _extract_response_detail(exc: Exception) -> tuple[int | None, str | None]:
         return resp.status_code, resp.text
     except (AttributeError, TypeError):  # noqa: BLE001
         return None, None
+
+
+def _extract_retry_after(exc: Exception, default: int = 60) -> int:
+    """Extract Retry-After seconds from response headers or exception text."""
+    resp = getattr(exc, "response", None)
+    if resp is not None:
+        try:
+            header = resp.headers.get("Retry-After", "")
+            if str(header).isdigit():
+                return int(header)
+        except (AttributeError, TypeError):
+            pass
+    match = re.search(r"retry.after[:\s]+(\d+)", str(exc), re.IGNORECASE)
+    if match:
+        return int(match.group(1))
+    return default
 
 
 # -- License mapping ----------------------------------------------------------
@@ -435,6 +440,67 @@ class MDCClient:
         logger.info("MDC", "New version uploaded to %s", submission_id)
         return True
 
+    def disable_submission(self, submission_id: str) -> bool:
+        """Disable one MDC dataset submission.
+
+        Returns False (logged as PENDING) when MDC_DISABLE_ENDPOINT is not yet
+        confirmed. Returns True on success, False on API failure (non-fatal;
+        caller decides whether to abort or continue).
+        """
+        from mdc_uploader.constants import (  # pylint: disable=import-outside-toplevel
+            MDC_DISABLE_ENDPOINT,
+        )
+
+        if MDC_DISABLE_ENDPOINT is None:
+            logger.info(
+                "MDC",
+                "PENDING: would disable %s (endpoint not yet confirmed)",
+                submission_id,
+            )
+            return False
+
+        method, path_template = MDC_DISABLE_ENDPOINT
+        path = path_template.format(id=submission_id)
+        logger.info("MDC", "Disabling %s via %s %s", submission_id, method, path)
+        try:
+            # TODO: implement actual call once endpoint is confirmed.
+            # Example: requests.request(method, f"{self.api_url}{path}")
+            raise NotImplementedError(
+                f"MDC_DISABLE_ENDPOINT is set to {MDC_DISABLE_ENDPOINT!r} "
+                "but the HTTP call is not implemented yet. "
+                "Add the call here once the endpoint is confirmed."
+            )
+        except Exception as exc:  # pylint: disable=broad-exception-caught
+            logger.error("MDC", "Failed to disable %s: %s", submission_id, exc)
+            return False
+
+    def disable_submissions(
+        self, submission_ids: list[str]
+    ) -> dict[str, bool]:
+        """Disable multiple MDC dataset submissions.
+
+        Returns {submission_id -> success}. Non-fatal per entry: failures are
+        logged and included in the result map as False.
+        """
+        results: dict[str, bool] = {}
+        for sid in submission_ids:
+            try:
+                results[sid] = self.disable_submission(sid)
+            except Exception as exc:  # pylint: disable=broad-exception-caught
+                logger.warning("MDC", "Unhandled error disabling %s: %s", sid, exc)
+                results[sid] = False
+
+        success = sum(1 for v in results.values() if v)
+        pending_or_failed = len(results) - success
+        logger.info(
+            "MDC",
+            "disable_submissions: %d succeeded, %d pending/failed (of %d total)",
+            success,
+            pending_or_failed,
+            len(submission_ids),
+        )
+        return results
+
 
 class OrphanedDraftError(Exception):
     """Raised when a draft was created but the upload/submit failed."""
@@ -484,23 +550,20 @@ def _wrap_exception(exc: Exception) -> Exception:
             body += f"... ({len(response_body)} chars total)"
         logger.error("MDC", "HTTP %s | Response body: %s", status_code, body)
     logger.error("MDC", "SDK exception [%s]: %s", type(exc).__name__, exc)
-    exc_str = str(exc).lower()
-    # Check for 429
-    if "429" in exc_str or "too many requests" in exc_str or "rate limit" in exc_str:
-        # Try to extract Retry-After value
-        retry_after = 60  # default
-        match = re.search(r"retry.after[:\s]+(\d+)", exc_str, re.IGNORECASE)
-        if match:
-            retry_after = int(match.group(1))
-        return RateLimitError(retry_after, str(exc))
-    # Check for transient server errors (by message content)
-    if any(code in exc_str for code in ("500", "502", "503", "504", "timeout", "connection")):
+
+    # Status code is authoritative; string matching is fallback for no-response errors.
+    if status_code == 429:
+        return RateLimitError(_extract_retry_after(exc), str(exc))
+    if status_code is not None and 500 <= status_code < 600:
         return TransientError(str(exc))
-    # Check by exception type for network-level errors whose message may not
-    # contain the keywords above (e.g. bare ConnectionError, TimeoutError).
-    # Note: Python's builtin ConnectionError/TimeoutError are OSError subclasses,
-    # but we must NOT catch OSError broadly -- requests.HTTPError also inherits
-    # from OSError and that would make auth errors (401/403) retryable.
+
+    # String fallback for bare network errors (no response object).
+    exc_str = str(exc).lower()
+    if "too many requests" in exc_str or "rate limit" in exc_str:
+        return RateLimitError(_extract_retry_after(exc), str(exc))
+    if any(kw in exc_str for kw in ("500", "502", "503", "504", "timeout", "connection")):
+        return TransientError(str(exc))
+    # Type check for bare network errors (NOT OSError — requests.HTTPError inherits it).
     if isinstance(exc, (ConnectionError, TimeoutError)):
         return TransientError(str(exc))
     # Non-retryable (includes 401/403 auth errors, 404, etc.)
