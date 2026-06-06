@@ -45,12 +45,10 @@ def gcs_temp_download(
     client = gcs_storage.Client()
     bucket = client.bucket(bucket_name)
     full_path = f"{base_prefix}/{blob_path}" if base_prefix else blob_path
-    blob = bucket.blob(full_path)
-
-    if not blob.exists():
+    blob = bucket.get_blob(full_path)
+    if blob is None:
         raise FileNotFoundError(f"GCS blob not found: gs://{bucket_name}/{full_path}")
 
-    blob.reload()
     size = blob.size or 0
     logger.info("GCS", "Downloading gs://%s/%s (%s)", bucket_name, full_path, format_size(size))
 

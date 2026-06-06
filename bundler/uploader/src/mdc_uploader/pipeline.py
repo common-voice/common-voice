@@ -287,10 +287,9 @@ def _cleanup_gcs_temp(
     """Clean up GCS-downloaded temp files after a locale upload.
 
     Always removes the tarball to prevent disk exhaustion during batches.
-    SDK state files (.mdc-upload.json) are always preserved -- they are
-    small and useful for debugging and --resume.
-    On failure: additionally copies state to .state/ using the canonical
-    _sdk_state_fname so --resume can discover it.
+    SDK state files (.mdc-upload.json) are always copied to STATE_DIR using
+    the canonical _sdk_state_fname so --resume can discover them. The copy
+    destination is logged only on failure to avoid noise on the happy path.
     """
     try:
         tmp_dir = os.path.dirname(tmp_file)
