@@ -41,7 +41,7 @@ class BatchState:
 
     @staticmethod
     def _build_path(release: str, output_dir: str) -> str:
-        ts = datetime.now(UTC).strftime("%Y%m%dT%H%M%S")
+        ts = datetime.now(UTC).strftime("%Y%m%dT%H%M%S%f")[:-3]
         return os.path.join(output_dir, f"upload-state-{release}-{ts}.json")
 
     @property
