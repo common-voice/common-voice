@@ -527,6 +527,55 @@ class TestStreamAndUpload:
             )
 
 
+class TestDisableSubmission:
+    """Tests for disable_submission and disable_submissions."""
+
+    def _client(self) -> MDCClient:
+        return MDCClient(api_key="test", api_url="http://test")
+
+    def test_disable_submission_pending_when_endpoint_none(self) -> None:
+        """When MDC_DISABLE_ENDPOINT is None, returns False and logs PENDING."""
+        import mdc_uploader.constants as consts
+        original = consts.MDC_DISABLE_ENDPOINT
+        try:
+            consts.MDC_DISABLE_ENDPOINT = None
+            result = self._client().disable_submission("sub-123")
+        finally:
+            consts.MDC_DISABLE_ENDPOINT = original
+        assert result is False
+
+    def test_disable_submissions_returns_map(self) -> None:
+        """disable_submissions returns {id -> result} map."""
+        import mdc_uploader.constants as consts
+        original = consts.MDC_DISABLE_ENDPOINT
+        try:
+            consts.MDC_DISABLE_ENDPOINT = None
+            result = self._client().disable_submissions(["sub-a", "sub-b"])
+        finally:
+            consts.MDC_DISABLE_ENDPOINT = original
+        assert set(result.keys()) == {"sub-a", "sub-b"}
+        assert result["sub-a"] is False
+        assert result["sub-b"] is False
+
+    def test_disable_submissions_empty_list(self) -> None:
+        """disable_submissions on empty list returns empty dict."""
+        result = self._client().disable_submissions([])
+        assert result == {}
+
+    def test_disable_submissions_nonfatal_on_exception(self) -> None:
+        """Unhandled exception in disable_submission is caught; result is False."""
+        client = self._client()
+        import mdc_uploader.constants as consts
+        original = consts.MDC_DISABLE_ENDPOINT
+        try:
+            consts.MDC_DISABLE_ENDPOINT = ("DELETE", "/submissions/{id}")
+            result = client.disable_submissions(["sub-fail"])
+        finally:
+            consts.MDC_DISABLE_ENDPOINT = original
+        # NotImplementedError is caught as broad exception, result = False
+        assert result["sub-fail"] is False
+
+
 class TestVerbosePassthrough:
     """Tests for verbose flag passthrough to SDK."""
 
