@@ -102,6 +102,8 @@ class BatchState:
             "base_dir": self.base_dir,
             "started_at": self.started_at,
             "locales": self.locales,
+            "disable_mode": self.disable_mode,
+            "locales_with_prior": self.locales_with_prior,
             "disabled_total": self.disabled_total,
             "disable_failed_ids": self.disable_failed_ids,
             "disable_pending_total": self.disable_pending_total,

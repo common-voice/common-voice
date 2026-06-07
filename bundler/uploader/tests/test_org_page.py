@@ -6,8 +6,6 @@ import json
 import os
 from unittest.mock import MagicMock, patch
 
-import pytest
-
 from mdc_uploader.models import Modality, OrgDataset
 from mdc_uploader.org_page import (
     _parse_org_page,
@@ -17,7 +15,6 @@ from mdc_uploader.org_page import (
     load_org_snapshot,
     save_org_snapshot,
 )
-
 
 # ---------------------------------------------------------------------------
 # Fixtures
@@ -108,7 +105,11 @@ class TestParseOrgPage:
         assert result[0].locale_code == "en"
 
     def test_deduplicates_same_id(self) -> None:
-        row = '<tr><td>en</td><td><a href="/datasets/cmndapwry02jnmh07dyo46mot">Common Voice Scripted Speech 25.0 - English</a></td></tr>'
+        row = (
+            '<tr><td>en</td>'
+            '<td><a href="/datasets/cmndapwry02jnmh07dyo46mot">'
+            "Common Voice Scripted Speech 25.0 - English</a></td></tr>"
+        )
         html = "<table>" + row + row + "</table>"
         result = _parse_org_page(html)
         assert len(result) == 1
@@ -116,10 +117,11 @@ class TestParseOrgPage:
     def test_skips_row_without_locale(self) -> None:
         # Row has no cell that looks like a locale code
         html = (
-            '<table>'
-            '<tr><td>NOT-A-LOCALE-CODE-TOO-LONG</td>'
-            '<td><a href="/datasets/cmndapwry02jnmh07dyo46mot">Common Voice Scripted Speech 25.0 - English</a></td></tr>'
-            '</table>'
+            "<table>"
+            "<tr><td>NOT-A-LOCALE-CODE-TOO-LONG</td>"
+            '<td><a href="/datasets/cmndapwry02jnmh07dyo46mot">'
+            "Common Voice Scripted Speech 25.0 - English</a></td></tr>"
+            "</table>"
         )
         result = _parse_org_page(html)
         assert len(result) == 0
@@ -129,7 +131,8 @@ class TestParseOrgPage:
 
     def test_hyphenated_locale_code(self) -> None:
         html = _make_html([
-            ("rm-vallader", "cmn1aaaaaaaaaaaaaaaaaaaaa", "Common Voice Scripted Speech 25.0 - Romansh Vallader"),
+            ("rm-vallader", "cmn1aaaaaaaaaaaaaaaaaaaaa",
+             "Common Voice Scripted Speech 25.0 - Romansh Vallader"),
         ])
         result = _parse_org_page(html)
         assert len(result) == 1
@@ -315,7 +318,7 @@ class TestBuildPriorMap:
     def test_preserves_one_time_uploads(self) -> None:
         datasets = [
             _make_dataset("en", "scs", "24.0", "cmn1aaaaaaaaaaaaaaaaaaaaa"),
-            _make_dataset("xx", "sps", "1.0", "cmn2bbbbbbbbbbbbbbbbbbbb"),  # SPS -- different modality
+            _make_dataset("xx", "sps", "1.0", "cmn2bbbbbbbbbbbbbbbbbbbb"),  # SPS
         ]
         result = build_prior_map(datasets, Modality.SCS, "25.0")
         assert "xx" not in result

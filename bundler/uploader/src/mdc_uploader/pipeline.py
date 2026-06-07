@@ -802,7 +802,7 @@ def print_summary(state: BatchState) -> None:
         else:
             logger.info(
                 "UPLOAD",
-                "Post-disabled prior versions: %d / %d",
+                "Post-disabled prior versions: %d submission(s) in %d locale(s)",
                 state.disabled_total,
                 state.locales_with_prior,
             )
@@ -938,6 +938,13 @@ def run_batch(config: UploaderConfig) -> bool:
                 release_spec=release_spec,
                 force_rescrape=config.force_rescrape,
             )
+            # Exclude the target submission when --submission-id is used with --disable-prior.
+            if config.submission_id:
+                prior_map = {
+                    loc: [s for s in ids if s != config.submission_id]
+                    for loc, ids in prior_map.items()
+                    if any(s != config.submission_id for s in ids)
+                }
             state.locales_with_prior = len(prior_map)
 
         # Pre-mode: bulk disable all prior versions before starting uploads.

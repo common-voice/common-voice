@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from unittest.mock import patch
 
-from mdc_uploader.models import DisableMode, Modality, OrgDataset
+from mdc_uploader.models import DisableMode, OrgDataset
 from mdc_uploader.naming import parse_release_name
 from mdc_uploader.prior import load_prior_map
 
