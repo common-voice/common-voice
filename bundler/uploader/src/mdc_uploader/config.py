@@ -6,7 +6,7 @@ import os
 from dataclasses import dataclass
 
 from mdc_uploader.constants import DEFAULT_BASE_DIR, MDC_API_URLS
-from mdc_uploader.models import ReleaseType
+from mdc_uploader.models import DisableMode, ReleaseType
 from mdc_uploader.typedef import MDCTarget, _OrphanedSubmission
 
 
@@ -44,6 +44,9 @@ class UploaderConfig:
     # SDK state file for --resume (resumes partial multipart upload)
     resume_state_path: str | None = None
     resume_submission_id: str | None = None
+    # Disable-prior mode and cache control
+    disable_mode: DisableMode = DisableMode.SKIP
+    force_rescrape: bool = False
 
     def __post_init__(self) -> None:
         """Validate config invariants."""
@@ -78,6 +81,8 @@ class UploaderConfig:
         orphaned_submissions: dict[str, _OrphanedSubmission] | None = None,
         resume_state_path: str | None = None,
         resume_submission_id: str | None = None,
+        disable_mode: str = "skip",
+        force_rescrape: bool = False,
     ) -> UploaderConfig:
         """Build config from CLI args and environment variables."""
         resolved_url = mdc_api_url or MDC_API_URLS[upload_target]
@@ -100,4 +105,6 @@ class UploaderConfig:
             orphaned_submissions=orphaned_submissions,
             resume_state_path=resume_state_path,
             resume_submission_id=resume_submission_id,
+            disable_mode=DisableMode(disable_mode),
+            force_rescrape=force_rescrape,
         )

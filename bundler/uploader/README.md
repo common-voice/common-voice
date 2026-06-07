@@ -27,6 +27,7 @@ For architecture and development details see [DEVELOPER.md](DEVELOPER.md).
 - Can write all output to a log file via `--log-file` (always captures DEBUG level)
 - Can persist batch state to JSON after each locale for `--retry-failed` support
 - Can save log file and state JSON to `<base-dir>/<release>/upload-logs/` after each batch so they survive pod recycling
+- Can disable prior MDC dataset versions automatically via `--disable-prior pre` (bulk before upload) or `--disable-prior post` (per-locale after success) -- disabled by default (`skip`)
 
 ## Data Pipeline
 

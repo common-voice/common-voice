@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from enum import StrEnum
 
 from mdc_uploader.typedef import UploadStatus
@@ -13,6 +13,14 @@ class Modality(StrEnum):
 
     SCS = "scs"
     SPS = "sps"
+
+
+class DisableMode(StrEnum):
+    """Controls whether and when prior MDC dataset versions are disabled."""
+
+    SKIP = "skip"
+    PRE = "pre"
+    POST = "post"
 
 
 class ReleaseType(StrEnum):
@@ -51,6 +59,19 @@ class ReleaseSpec:
 
 
 @dataclass
+class OrgDataset:
+    """A dataset submission scraped from the MDC org page."""
+
+    locale_code: str   # primary — e.g. "en", "rm-vallader" (from page table)
+    modality: str      # "scs" | "sps" (parsed from name)
+    version: str       # e.g. "25.0" (parsed from name)
+    submission_id: str  # e.g. "cmfh0j9o10006ns07jq45h7xk"
+    name: str          # full display name, e.g. "Common Voice Scripted Speech 25.0 - English"
+    locale_name: str   # English locale name extracted from name field
+    href: str          # "/datasets/{submission_id}"
+
+
+@dataclass
 class LocaleUploadJob:
     """A single locale upload job."""
 
@@ -83,3 +104,7 @@ class UploadResult:
     error: str | None = None
     orphaned_draft: bool = False
     attempts: int = 0
+    # Disable-prior results (post-mode: set after successful upload)
+    disabled_ids: list[str] = field(default_factory=list)
+    disable_failed_ids: list[str] = field(default_factory=list)
+    disable_pending_ids: list[str] = field(default_factory=list)
