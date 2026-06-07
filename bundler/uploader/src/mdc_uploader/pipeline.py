@@ -804,7 +804,7 @@ def print_summary(state: BatchState) -> None:
                 "UPLOAD",
                 "Post-disabled prior versions: %d submission(s) in %d locale(s)",
                 state.disabled_total,
-                state.locales_with_prior,
+                state.locales_disabled_count,
             )
         if state.disable_pending_total > 0:
             logger.info(

@@ -41,7 +41,8 @@ class BatchState:
         self.disabled_total: int = 0
         self.disable_failed_ids: list[str] = []
         self.disable_pending_total: int = 0
-        self.locales_with_prior: int = 0  # for post-mode M count
+        self.locales_with_prior: int = 0  # eligible locale count (set after prior_map load)
+        self.locales_disabled_count: int = 0  # locales where at least one disable succeeded
         resolved_dir = output_dir if output_dir is not None else STATE_DIR
         os.makedirs(resolved_dir, exist_ok=True)
         self._state_path = self._build_path(release, resolved_dir)
@@ -82,6 +83,7 @@ class BatchState:
             # Accumulate disable-prior stats
             if result.disabled_ids:
                 self.disabled_total += len(result.disabled_ids)
+                self.locales_disabled_count += 1
             if result.disable_failed_ids:
                 self.disable_failed_ids.extend(result.disable_failed_ids)
             if result.disable_pending_ids:
@@ -104,6 +106,7 @@ class BatchState:
             "locales": self.locales,
             "disable_mode": self.disable_mode,
             "locales_with_prior": self.locales_with_prior,
+            "locales_disabled_count": self.locales_disabled_count,
             "disabled_total": self.disabled_total,
             "disable_failed_ids": self.disable_failed_ids,
             "disable_pending_total": self.disable_pending_total,

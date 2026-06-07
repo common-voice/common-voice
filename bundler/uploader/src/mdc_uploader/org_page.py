@@ -238,6 +238,7 @@ def save_org_snapshot(datasets: list[OrgDataset], gcs_base: str) -> None:
                 "version": d.version,
                 "id": d.submission_id,
                 "name": d.name,
+                "locale_name": d.locale_name,
             }
             for d in datasets
         ],
