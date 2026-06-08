@@ -60,7 +60,7 @@ about-nav-playbook = Les om korleis du deltek
 ## What is a language
 
 about-playbook-what-is-language = Kva er eit språk på Common Voice?
-about-playbook-what-is-language-content-1 = Det er mange måtar å tenkje språk på. Når det gjeld talegjenkjenningsmodellar, foreslår Common Voice å fokusere på «gjensidig forståing», eller «kan dei som snakkar dette språket stort sett forstå kvarandre viss dei prøver?»
+about-playbook-what-is-language-content-1 = Det er mange måtar å tenkje språk på. Når det gjeld talegjenkjenningsmodellar, føreslår Common Voice å fokusere på «gjensidig forståing», eller «kan dei som snakkar dette språket stort sett forstå kvarandre viss dei prøver?»
 about-playbook-what-is-language-content-2 = Vi ønskjer at talemodellar skal bli betre til å forstå eit mangfald av talarar. For at dette skal skje, må eit stemmedatasett representere mange ulike personar.
 about-playbook-what-is-language-content-3 = Nokre språk har enorm variasjon i grammatikk, ordtilfang og uttale. Av denne grunn <ctaLink>introduserer vi «Variantar»</ctaLink> i 2022. Dette gir fellesskap ein måte å skilje språka sine i det større datasettet.
 
