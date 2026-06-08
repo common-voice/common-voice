@@ -52,6 +52,7 @@ about-get-involved-text-2 =
 about-stay-in-touch = Kheihta e eimâ zao parei thei aw?
 about-stay-in-touch-button = mohsaih athu
 about-stay-in-touch-text-1 = Common Voice liata kempeizy, event-zy, nata co-design features-zy liata kheihta e nâ hlao thei aw tahpa pahno nawpa ta, eima mailing list liata <emailFragment>mohsaih athu</emailFragment> teh..
+about-stay-in-touch-text-2 = Mozilla reih kawiti liata mohropazy nata ahmô nawpa ta <discordLink>Discord</discordLink> chvk pachia byuhpa tlâhpizy châta <discourseLink>Discourse</discourseLink> chvk pachâna hia chatlei nawpa châta <matrixLink>Matrix</matrixLink> he nâ pazao thei.
 
 ## How is Common Voice funded
 
