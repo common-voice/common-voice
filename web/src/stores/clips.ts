@@ -277,10 +277,8 @@ export namespace Clips {
 
           // 429: clip already restored above — show a toast and keep voting.
           if (errName === 'RateLimitError') {
-            const retryAfter = parseInt(
-              (error as RateLimitError).retryAfter ?? '',
-              10
-            )
+            const retryAfter =
+              parseInt((error as RateLimitError).retryAfter ?? '', 10) || 0
             const content = React.createElement(
               Localized,
               retryAfter > 0
