@@ -251,6 +251,8 @@ indicates-required = * Indica un campo requirido
 not-available-abbreviation = N/D
 # Text shown on a button that can be clicked to copy text to the clipboard
 copy = Copiar
+# Text shown on a button that can be clicked to close a modal or panel
+close = Pechar
 # Text shown on a button that can be clicked to cancel an action
 cancel = Cancelar
 # Text shown on a button that can be clicked to delete an item
@@ -291,6 +293,11 @@ announcement-release = Ola, comunidade! A nova versión xa está dispoñible por
 
 # Text wrapped in <cvDatasheetsLink></cvDatasheetsLink> will be rendered as an external link to the cv-datasheets GitHub repo
 announcement-pre-release = Ola, comunidade! A nova versión está a caer. Por favor, axude validando e transcribindo, e visite tamén <cvDatasheetsLink>cv-datasheets</cvDatasheetsLink> para actualizar a súa folla de datos.
+
+## Release Commencing
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-commencing = Grazas polas vosas contribucións! Chegamos á data límite para esta publicación e estamos a preparar os conxuntos de datos. A nova versión estará dispoñible en <mdcLink>Mozilla Data Collective</mdcLink> nos próximos días.
 
 ## Common Language/Dataset Selector & SearchBox Related
 

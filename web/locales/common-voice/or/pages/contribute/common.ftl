@@ -1,7 +1,7 @@
 action-click = କ୍ଲିକ
 action-tap = ଟ୍ୟାପ
 contribute = ଯୋଗଦିଅନ୍ତୁ
-review = ସମୀକ୍ଷଣ
+review = ସମୀକ୍ଷା
 skip = ଛାଡ଼ନ୍ତୁ
 shortcuts = ସର୍ଟକଟ
 clips-with-count-pluralized =

@@ -1,4 +1,4 @@
-"""Type stubs for datacollective SDK v0.4.2."""
+"""Type stubs for datacollective SDK v0.5.1."""
 
 from datacollective.models import DatasetSubmission as DatasetSubmission
 from datacollective.models import License as License

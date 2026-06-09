@@ -41,6 +41,22 @@ need-help-deciding-platform = Кайсысын сайларга белмисез
 need-help-deciding-platform-explanation-1 = <strong>Сценарий буенча сөйләү</strong> (сез аны гадәттә Common Voice проектының нәкъ үзе итеп беләсез) — монда сез җөмләләрне телегездә кычкырып укый аласыз.
 need-help-deciding-platform-explanation-2 = <strong>Кинәт туган сөйләм</strong> — Common Voice проектының яңа өлеше. Монда сез сорауларга табигыйрак һәм гадәти әңгәмәгә охшашрак рәвештә җавап бирә аласыз.
 need-help-deciding-platform-explanation-3 = Телегезне бер платформада да күрмәсәгез, икесен дә сайлагыз.
+request-language-search-bar = Сез монда телегезнең исемен яза башлый аласыз; әгәр дә ул Common Voice проектында әлегә юк икән, сез телегез турында мәгълүматларны формага тутыра аласыз.
+request-language-found-pontoon-not-launched =
+    Телегез Common Voice проектындагы телләр арасында бар инде. 
+    Сез <strong>Сценарий буенча сөйләү</strong> проектында телегезнең эшли башлавын
+    тизләтә аласыз. Аның өчен <pontoonLink>монда</pontoonLink> платформа интерфейсын
+    локальлештерергә кирәк. Интерфейс 60%-ка локальләштерелгән булырга тиеш; 
+    яисә «web/locales/en/pages/contribute/*.ftl» эчендә бары тик төп юлларны 
+    100%-ка локальләштерү белән чикләнергә була 
+    (барлыгы биш файл), һәм интерфейс автоматик рәвештә телегездә ачылачак.
+request-language-found-cv-contribution =
+    Ура! Ниһаять, телегезне Common Voice эчендәге <strong>Сценарий буенча сөйләү</strong> проектында кулланырга була.
+    Сез <homePageLink>монда</homePageLink> файдалы кертем ясый аласыз.
+request-language-found-cv-sentences-lack =
+    Телегез Common Voice проекты телләре арасында бар инде.
+    Сез <strong>Сценарий буенча сөйләү</strong> проектында телегезнең кулланыла башлавын тизләтә аласыз.
+    Аның өчен <sentencesContributionLink>монда</sentencesContributionLink> җөмләләрне өстәгез.
 request-language-found-spontaneous-speech =
     Телегез Common Voice эчендәге <strong>Кинәт туган сөйләм</strong> проектында инде бар.  
     Файдалы кертем ясау өчен <spontaniousSpeechLink>монда</spontaniousSpeechLink> басыгыз: кертем ясау/мәгълүматлар җыелмасы өчен телне алыштырырга онытмагыз!

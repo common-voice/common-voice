@@ -10,6 +10,12 @@ error-clip-upload-too-large = Faayilii waraabbii sagalee kee olka’uuf baay’e
 error-clip-upload-server-error = Dogoggora serveraa galmee sagalee kee irratti uumame. Fuula haaromsii yookaan booda deebi’ii yaali.
 error-title-404 = Fuula kana siif arguu hin dandeenye.
 error-content-404 = Tarii <homepageLink>fuulli jalqabaa keenya</homepageLink> si gargaaruu danda’a? Gaaffii gaafachuuf, mee <matrixLink>haasaa hawaasaa Matrix</matrixLink>itti makami; rakkoolee marsariitii <githubLink>GitHub</githubLink> irratti hordofi yookaan <discourseLink>minjaala marii keenya</discourseLink> daawwadhu.
+error-title-429-no-time = Saffisaan deemaa jirta. Mee suuta jedhii yeroo muraasa booda irra deebi'ii yaali.
+error-title-429-with-time =
+    { $retryAfter ->
+        [one] Saffisaan deemaa jirta. Maaloo sekondii { $retryAfter } keessatti irra deebi'ii yaali.
+       *[other] Saffisaan deemaa jirta. Maaloo sekondoota { $retryAfter } keessatti irra deebi'ii yaali.
+    }
 error-title-500 = Dhiifama, rakkoon ta'e uumameera
 error-content-500 = Dogoggorri hin eegamne uumameera. Mee booda deebi’ii yaali. Gargaarsaaf, <matrixLink>Matrix community chat</matrixLink> keessatti hirmaadhu, rakkoo marsariitii <githubLink>GitHub</githubLink> irratti hordofi yookaan <discourseLink>forums Discourse keenya</discourseLink> daawwadhu.
 error-title-502 = Qunnamtiin cituu danda’eera

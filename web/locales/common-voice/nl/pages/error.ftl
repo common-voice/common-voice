@@ -10,6 +10,12 @@ error-clip-upload-too-large = Uw opnamebestand is te groot om te uploaden. Probe
 error-clip-upload-server-error = Serverfout bij het verwerken van uw fragment. Laad de pagina opnieuw of probeer het later nog eens.
 error-title-404 = We kunnen deze pagina niet voor u vinden
 error-content-404 = Misschien helpt onze <homepageLink>startpagina</homepageLink>? Als u een vraag wilt stellen, kunt u lid worden van de <matrixLink>Matrix-gemeenschap-chat</matrixLink>, siteproblemen volgen via <githubLink>GitHub</githubLink> of bezoek <discourseLink>onze Discourse-forums</discourseLink>.
+error-title-429-no-time = U gaat te snel. Ga iets langzamer en probeer het over enkele ogenblikken opnieuw.
+error-title-429-with-time =
+    { $retryAfter ->
+        [one] U gaat te snel. Probeer het over { $retryAfter } seconde opnieuw.
+       *[other] U gaat te snel. Probeer het over { $retryAfter } seconden opnieuw.
+    }
 error-title-500 = Sorry, er is iets misgegaan
 error-content-500 = Er is een onverwachte fout opgetreden. Probeer het later nogmaals. Voor hulp kunt u lid worden van de <matrixLink>Matrix-gemeenschap-chat</matrixLink>, websiteproblemen volgen via <githubLink>GitHub</githubLink> of <discourseLink>onze Discourse-forums</discourseLink> bezoeken.
 error-title-502 = Verbinding onderbroken

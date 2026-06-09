@@ -27,21 +27,29 @@ class BatchState:
         release_type: str,
         base_dir: str,
         output_dir: str | None = None,
+        disable_mode: str = "skip",
     ) -> None:
         self.release = release
         self.upload_target = upload_target
         self.release_type = release_type
         self.base_dir = base_dir
+        self.disable_mode = disable_mode
         self.started_at = datetime.now(UTC).isoformat()
         self.locales: dict[str, LocaleStateEntry] = {}
         self._lock = threading.Lock()
+        # Disable-prior accumulators (updated under lock in record())
+        self.disabled_total: int = 0
+        self.disable_failed_ids: list[str] = []
+        self.disable_pending_total: int = 0
+        self.locales_with_prior: int = 0  # eligible locale count (set after prior_map load)
+        self.locales_disabled_count: int = 0  # locales where at least one disable succeeded
         resolved_dir = output_dir if output_dir is not None else STATE_DIR
         os.makedirs(resolved_dir, exist_ok=True)
         self._state_path = self._build_path(release, resolved_dir)
 
     @staticmethod
     def _build_path(release: str, output_dir: str) -> str:
-        ts = datetime.now(UTC).strftime("%Y%m%dT%H%M%S%f")
+        ts = datetime.now(UTC).strftime("%Y%m%dT%H%M%S%f")[:-3]
         return os.path.join(output_dir, f"upload-state-{release}-{ts}.json")
 
     @property
@@ -72,6 +80,19 @@ class BatchState:
 
         with self._lock:
             self.locales[result.locale] = entry
+            # Accumulate disable-prior stats
+            if result.disabled_ids:
+                self.disabled_total += len(result.disabled_ids)
+                self.locales_disabled_count += 1
+            if result.disable_failed_ids:
+                self.disable_failed_ids.extend(result.disable_failed_ids)
+            if result.disable_pending_ids:
+                self.disable_pending_total += len(result.disable_pending_ids)
+            self._flush()
+
+    def flush(self) -> None:
+        """Force-flush state to disk (thread-safe). Call after bulk operations."""
+        with self._lock:
             self._flush()
 
     def _flush(self) -> None:
@@ -83,6 +104,12 @@ class BatchState:
             "base_dir": self.base_dir,
             "started_at": self.started_at,
             "locales": self.locales,
+            "disable_mode": self.disable_mode,
+            "locales_with_prior": self.locales_with_prior,
+            "locales_disabled_count": self.locales_disabled_count,
+            "disabled_total": self.disabled_total,
+            "disable_failed_ids": self.disable_failed_ids,
+            "disable_pending_total": self.disable_pending_total,
         }
         with open(self._state_path, "w", encoding="utf-8") as f:
             json.dump(data, f, indent=2)

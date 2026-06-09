@@ -62,6 +62,7 @@ about-nav-playbook = Ikasi nola parte hartu
 
 about-playbook-what-is-language = Zer da hizkuntza bat Common Voicen?
 about-playbook-what-is-language-content-1 = Hizkuntza bat zer den pentsatzeko era asko dago. Hizketaren ezagutzako ereduak kontuan hartuz, Common Voicek ‘elkarrekiko ulergarritasunari‘ erreparatzen dio, hau da, ‘hizkuntza honetako hiztunek beste batekoek dioten gehiena uler dezakete, saiatzen badira?’
+about-playbook-what-is-language-content-2 = Ahots-ereduak hobeak izatea nahi dugu hainbat hizlari ulertzeko. Horretarako, ahots-datu multzo batek pertsona ezberdin asko irudikatu behar ditu.
 about-playbook-what-is-language-content-3 = Hizkuntza batzuek sekulako aldaketak dituzte gramatika, hiztegi eta ahoskera aldetik. Arrazoi honengatik, <ctaLink>‘Aldaerak’ aurkezten</ctaLink> ari gara 2022an. Honek komunitateei beraien hizkuntzak datu-sorta handiagoetan bereizteko aukera ematen die.
 
 ## How do I add a language

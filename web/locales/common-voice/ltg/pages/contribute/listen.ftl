@@ -12,7 +12,19 @@ listen-loading-error =
 listen-abort-title = Voi pabeigt apstyprynuošonu?
 listen-abort-cancel = Turpynuot apstyprynuošonu
 listen-abort-confirm = Beigt apstyprynuošonu
+# Menu item
+validate-readings = Apstyprynuot īrunuotū
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = Apstyprynuot īrunuotū <small>(dreizumā)</small>
 
 ## MENU ITEM TOOLTIPS
 
 listen-contribute-menu-tooltip = Apstyprynoj īrunuotū, puorsaver transkripcejis
+validate-readings-menu-item-tooltip = Apstyprynuot lītuotuoju īrunuotū sovā volūdā
+review-transcriptions-menu-item-tooltip = Puorsaverit lītuotuoju īsnīgtuos transkripcejis sovā volūdā
+
+## MENU ITEM ARIA LABELS
+
+listen-contribute-menu-aria-label = Klauseišonuos īspieju izvēļne
+validate-readings-menu-item-aria-label = Apstyprynojit kūpīnys daleibnīku īsnīgtūs skaitejumus
+review-transcriptions-menu-item-aria-label = Puorsaverit īraksteitūs teikumu transkripcejis, lai nūdrūsynuotu precizitati

@@ -10,6 +10,14 @@ error-clip-upload-too-large = Waša nagrawańska dataja jo pśewjelika za nagra�
 error-clip-upload-server-error = Zmólka serwera pśi pśeźěłowanju wašogo klipa. Pšosym zacytajśo bok znowego abo wopytajśo pózdźej hyšći raz.
 error-title-404 = Njejsmy mógli ten bok za was namakaś
 error-content-404 = Snaź buźo naš <homepageLink>startowy bok</homepageLink> pomagaś? Aby pšašanje stajił, wobdělśo se pšosym na <matrixLink>chaśe Matrix zgromaźeństwa</matrixLink>, wobglědujśo sedłowe problemy pśez <githubLink>GitHub</githubLink> abo woglědajśo se k <discourseLink>našym forumam Discourse</discourseLink>.
+error-title-429-no-time = Sćo pśemalsny. Pšosym buźćo pómałčejšy a wopytajśo za wokognuśe hyšći raz.
+error-title-429-with-time =
+    { $retryAfter ->
+        [one] Sćo pśemalsny. Pšosym wopytajśo za { $retryAfter } sekundu hyšći raz.
+        [two] Sćo pśemalsny. Pšosym wopytajśo za { $retryAfter } sekunźe hyšći raz.
+        [few] Sćo pśemalsny. Pšosym wopytajśo za { $retryAfter } sekundy hyšći raz.
+       *[other] Sćo pśemalsny. Pšosym wopytajśo za { $retryAfter } sekundow hyšći raz.
+    }
 error-title-500 = Hopla, něco njejo se raźiło
 error-content-500 = Njewócakana zmólka jo nastała. Pšosym wopytajśo pózdźej hyšći raz. Wobdělśo se pšosym za pomoc na <matrixLink>chaśe Matrix zgromaźeństwa</matrixLink>, wobglědujśo sedłowe problemy pśez <githubLink>GitHub</githubLink> abo woglědajśo se k <discourseLink>našym forumam Discourse</discourseLink>.
 error-title-502 = Zwisk psétergnjony

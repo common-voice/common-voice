@@ -10,6 +10,12 @@ error-clip-upload-too-large = Το αρχείο ηχογράφησής σας ε
 error-clip-upload-server-error = Σφάλμα διακομιστή κατά την επεξεργασία του αποσπάσματός σας. Ανανεώστε τη σελίδα ή δοκιμάστε ξανά αργότερα.
 error-title-404 = Δεν ήταν δυνατή η εύρεση αυτής της σελίδας
 error-content-404 = Ίσως σας βοηθήσει η <homepageLink>αρχική μας σελίδα</homepageLink>; Για να θέσετε μια ερώτηση, γίνετε μέλος της <matrixLink>συνομιλίας της κοινότητας Matrix</matrixLink>, παρακολουθήστε τα ζητήματα της σελίδας μέσω του <githubLink>GitHub</githubLink> ή επισκεφτείτε το <discourseLink>φόρουμ στο Discourse</discourseLink>.
+error-title-429-no-time = Προχωράτε πολύ γρήγορα. Μειώστε την ταχύτητα και δοκιμάστε ξανά σε λίγο.
+error-title-429-with-time =
+    { $retryAfter ->
+        [one] Προχωράτε πολύ γρήγορα. Δοκιμάστε ξανά σε { $retryAfter } δευτερόλεπτο.
+       *[other] Προχωράτε πολύ γρήγορα. Δοκιμάστε ξανά σε { $retryAfter } δευτερόλεπτα.
+    }
 error-title-500 = Δυστυχώς, κάτι πήγε στραβά
 error-content-500 = Προέκυψε απρόσμενο σφάλμα. Δοκιμάστε ξανά αργότερα. Για βοήθεια, γίνετε μέλος της <matrixLink>συνομιλίας της κοινότητας στο Matrix</matrixLink>, παρακολουθήστε τα ζητήματα του ιστοτόπου μέσω του <githubLink>GitHub</githubLink> ή επισκεφθείτε το <discourseLink>φόρουμ στο Discourse</discourseLink>.
 error-title-502 = Η σύνδεση διακόπηκε

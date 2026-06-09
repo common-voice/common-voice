@@ -10,6 +10,14 @@ error-clip-upload-too-large = Váš súbor nahrávky je na nahranie príliš ve�
 error-clip-upload-server-error = Chyba servera pri spracovaní vášho klipu. Znova načítajte stránku alebo to skúste neskôr.
 error-title-404 = Túto stránku sa nám nepodarilo nájsť
 error-content-404 = Možno pomôže naša <homepageLink>domovská stránka</homepageLink>? Ak chcete položiť otázku, pripojte sa k četu na <matrixLink>Matrixe</matrixLink>, monitorujte problémy prostredníctvom <githubLink>GitHubu</githubLink> alebo navštívte <discourseLink>naše diskusné fóra</discourseLink>.
+error-title-429-no-time = Idete príliš rýchlo. Prosím, spomaľte a skúste to znova o chvíľu.
+error-title-429-with-time =
+    { $retryAfter ->
+        [one] Idete príliš rýchlo. Skúste to znova o { $retryAfter } sekundu.
+        [few] Idete príliš rýchlo. Skúste to znova o { $retryAfter } sekundy.
+        [many] Idete príliš rýchlo. Skúste to znova o { $retryAfter } sekúnd.
+       *[other] Idete príliš rýchlo. Skúste to znova o { $retryAfter } sekúnd.
+    }
 error-title-500 = Ospravedlňujeme sa, niečo sa pokazilo
 error-content-500 = Vyskytla sa neočakávaná chyba. Skúste to znova neskôr. Ak potrebujete pomoc, pripojte sa k <matrixLink>komunitnému chatu Matrix</matrixLink>, sledujte problémy stránky na <githubLink>GitHube</githubLink> alebo navštívte <discourseLink>naše fóra Discourse</discourseLink>.
 error-title-502 = Spojenie prerušené

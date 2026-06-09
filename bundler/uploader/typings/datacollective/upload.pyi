@@ -1,4 +1,4 @@
-"""Type stubs for datacollective.upload (v0.4.5)."""
+"""Type stubs for datacollective.upload (v0.5.1)."""
 
 from datacollective.upload_utils import UploadState
 
