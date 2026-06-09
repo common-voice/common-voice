@@ -7,7 +7,6 @@ import { Clip } from 'common'
 import { RateLimitError } from '../services/app-error'
 import * as React from 'react'
 import { Localized } from '@fluent/react'
-import { secondsToMinutes } from 'date-fns'
 
 // Feature flag: Enable detailed error telemetry in Sentry
 // Set to true to track handled clip-load and clip-vote failures in Sentry
@@ -278,30 +277,17 @@ export namespace Clips {
 
           // 429: clip already restored above — show a toast and keep voting.
           if (errName === 'RateLimitError') {
-            const retryAfter = Number((error as RateLimitError).retryAfter)
-            // Localized rate-limit strings; no Retry-After → generic message.
-            const content = Number.isFinite(retryAfter)
-              ? React.createElement(
-                  Localized,
-                  {
-                    id:
-                      retryAfter > 60
-                        ? 'rate-limit-toast-message-minutes'
-                        : 'rate-limit-toast-message-seconds',
-                    vars: {
-                      retryLimit:
-                        retryAfter > 60
-                          ? secondsToMinutes(retryAfter)
-                          : retryAfter,
-                    },
-                  },
-                  React.createElement('span')
-                )
-              : React.createElement(
-                  Localized,
-                  { id: 'review-error-rate-limit-exceeded' },
-                  React.createElement('span')
-                )
+            const retryAfter = parseInt(
+              (error as RateLimitError).retryAfter ?? '',
+              10
+            )
+            const content = React.createElement(
+              Localized,
+              retryAfter > 0
+                ? { id: 'error-title-429-with-time', vars: { retryAfter } }
+                : { id: 'error-title-429-no-time' },
+              React.createElement('span')
+            )
             dispatch(
               Notifications.actions.addPill(content, 'error') as Notifications.Action
             )
