@@ -1,6 +1,6 @@
 import addSentenceHandler from './handler/add-sentence-handler'
 import PromiseRouter from 'express-promise-router'
-import rateLimiter from '../../lib/middleware/rate-limiter-middleware'
+import rateLimiter, { byClientId } from '../../lib/middleware/rate-limiter-middleware'
 import {
   AddSentenceRequest,
   AddSentenceVoteRequest,
@@ -15,19 +15,19 @@ import addSmallSentenceBatchHandler from './handler/add-small-sentence-batch-han
 export default PromiseRouter({ mergeParams: true })
   .post(
     '/',
-    rateLimiter('api/v1/sentences/', { points: 10, duration: 60 }),
+    rateLimiter('api/v1/sentences/', { points: 10, duration: 60 }, byClientId),
     validateStrict({ body: AddSentenceRequest }),
     addSentenceHandler
   )
   .post(
     '/batch',
-    rateLimiter('api/v1/sentences/batch', { points: 1, duration: 180 }),
+    rateLimiter('api/v1/sentences/batch', { points: 1, duration: 180 }, byClientId),
     validateStrict({ body: AddSmallSentenceBatchRequest }),
     addSmallSentenceBatchHandler
   )
   .post(
     '/vote',
-    rateLimiter('api/v1/sentences/vote', { points: 30, duration: 60 }),
+    rateLimiter('api/v1/sentences/vote', { points: 40, duration: 60 }, byClientId),
     validateStrict({ body: AddSentenceVoteRequest }),
     addSentenceVoteHandler
   )
