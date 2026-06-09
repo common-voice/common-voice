@@ -2,7 +2,12 @@ import { Action as ReduxAction, Dispatch } from 'redux'
 import * as Sentry from '@sentry/react'
 import StateTree from './tree'
 import { User } from './user'
+import { Notifications } from './notifications'
 import { Clip } from 'common'
+import { RateLimitError } from '../services/app-error'
+import * as React from 'react'
+import { Localized } from '@fluent/react'
+import { secondsToMinutes } from 'date-fns'
 
 // Feature flag: Enable detailed error telemetry in Sentry
 // Set to true to track handled clip-load and clip-vote failures in Sentry
@@ -186,7 +191,7 @@ export namespace Clips {
     vote:
       (isValid: boolean, clipId?: string) =>
       async (
-        dispatch: Dispatch<Action | User.Action>,
+        dispatch: Dispatch<Action | User.Action | Notifications.Action>,
         getState: () => StateTree
       ) => {
         const state = getState()
@@ -252,6 +257,7 @@ export namespace Clips {
           // Error types come from backend API responses (see server/src/lib/clip.ts):
           // - NotFoundError: HTTP 404 - clip doesn't exist in database
           // - BusinessLogicError: HTTP 400 - validation failed (e.g., already voted)
+          // - RateLimitError: HTTP 429 - request rejected before processing (vote was NOT saved)
           //
           // Network errors (timeout, connection lost) are NOT definite failures because:
           // - Vote may have been saved on backend before response was sent
@@ -260,13 +266,46 @@ export namespace Clips {
           // Our strategy against comms errors: Only restore on errors where we KNOW vote didn't succeed
           const isDefiniteFailure =
             errName === 'NotFoundError' || // 404: Clip doesn't exist
-            errName === 'BusinessLogicError' // 400: Business rule violation
+            errName === 'BusinessLogicError' || // 400: Business rule violation
+            errName === 'RateLimitError' // 429: Rejected before processing — safe to restore
 
           if (clipToRemove && isDefiniteFailure) {
             dispatch({
               type: ActionType.REFILL_CACHE,
               clips: [clipToRemove],
             })
+          }
+
+          // 429: clip already restored above — show a toast and keep voting.
+          if (errName === 'RateLimitError') {
+            const retryAfter = Number((error as RateLimitError).retryAfter)
+            // Localized rate-limit strings; no Retry-After → generic message.
+            const content = Number.isFinite(retryAfter)
+              ? React.createElement(
+                  Localized,
+                  {
+                    id:
+                      retryAfter > 60
+                        ? 'rate-limit-toast-message-minutes'
+                        : 'rate-limit-toast-message-seconds',
+                    vars: {
+                      retryLimit:
+                        retryAfter > 60
+                          ? secondsToMinutes(retryAfter)
+                          : retryAfter,
+                    },
+                  },
+                  React.createElement('span')
+                )
+              : React.createElement(
+                  Localized,
+                  { id: 'review-error-rate-limit-exceeded' },
+                  React.createElement('span')
+                )
+            dispatch(
+              Notifications.actions.addPill(content, 'error') as Notifications.Action
+            )
+            return
           }
 
           dispatch({ type: ActionType.LOAD_ERROR })
@@ -342,7 +381,7 @@ export namespace Clips {
             hasEarnedSessionToast: false,
             showFirstContributionToast: false,
             showFirstStreakToast: false,
-            challengeEnded: true,
+            challengeEnded: localeState.challengeEnded,
           },
         }
       }
