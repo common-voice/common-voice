@@ -16,3 +16,5 @@ partnerships-small-business-description = Mes vysod gribim dzierdēt nu datu lī
 partnerships-corporates-header = Lela mārūga korporacejis i platformu uzjāmumi
 partnerships-corporates-description = Ka gribit runuot vaira par datu kūpu, leidza iņvestēt plānuotuos platformys paplašynuošonā voi vaicojit sadarbeibys vareibu, <emailFragment>rokstit mums.</emailFragment>
 partnerships-our-partners = Myusu partneri
+# menu item
+partners = Partneri

@@ -22,7 +22,7 @@ def is_gcs_uri(path: str) -> bool:
     return path.startswith("gs://")
 
 
-def _parse_gcs_uri(uri: str) -> tuple[str, str]:
+def parse_gcs_uri(uri: str) -> tuple[str, str]:
     """Parse gs://bucket/prefix into (bucket, prefix)."""
     without_scheme = uri[5:]  # strip "gs://"
     parts = without_scheme.split("/", 1)
@@ -40,14 +40,13 @@ def gcs_temp_download(
 
     Cleans up the temp file on exit.
     """
-    bucket_name, base_prefix = _parse_gcs_uri(gcs_uri)
+    bucket_name, base_prefix = parse_gcs_uri(gcs_uri)
 
     client = gcs_storage.Client()
     bucket = client.bucket(bucket_name)
     full_path = f"{base_prefix}/{blob_path}" if base_prefix else blob_path
-    blob = bucket.blob(full_path)
-
-    if not blob.exists():
+    blob = bucket.get_blob(full_path)
+    if blob is None:
         raise FileNotFoundError(f"GCS blob not found: gs://{bucket_name}/{full_path}")
 
     size = blob.size or 0
@@ -82,7 +81,7 @@ def gcs_list_tarballs(
     from mdc_uploader import language  # pylint: disable=import-outside-toplevel
     from mdc_uploader.naming import tarball_filename  # pylint: disable=import-outside-toplevel
 
-    bucket_name, base_prefix = _parse_gcs_uri(gcs_uri)
+    bucket_name, base_prefix = parse_gcs_uri(gcs_uri)
 
     client = gcs_storage.Client()
     bucket = client.bucket(bucket_name)
@@ -115,7 +114,7 @@ def gcs_upload_file(
             files in a loop, pass a shared client to avoid repeated
             auth/connection setup.
     """
-    bucket_name, base_prefix = _parse_gcs_uri(gcs_uri)
+    bucket_name, base_prefix = parse_gcs_uri(gcs_uri)
     if client is None:
         client = gcs_storage.Client()
     bucket = client.bucket(bucket_name)
@@ -127,7 +126,7 @@ def gcs_upload_file(
 
 def gcs_read_text(gcs_uri: str, blob_path: str) -> str | None:
     """Read a text file from GCS. Returns None if not found."""
-    bucket_name, base_prefix = _parse_gcs_uri(gcs_uri)
+    bucket_name, base_prefix = parse_gcs_uri(gcs_uri)
 
     client = gcs_storage.Client()
     bucket = client.bucket(bucket_name)
@@ -139,3 +138,15 @@ def gcs_read_text(gcs_uri: str, blob_path: str) -> str | None:
 
     text: str = blob.download_as_text()
     return text
+
+
+def gcs_write_text(gcs_uri: str, blob_path: str, content: str) -> None:
+    """Write text content to a GCS blob (UTF-8, plain text)."""
+    bucket_name, base_prefix = parse_gcs_uri(gcs_uri)
+
+    client = gcs_storage.Client()
+    bucket = client.bucket(bucket_name)
+    full_path = f"{base_prefix}/{blob_path}" if base_prefix else blob_path
+    blob = bucket.blob(full_path)
+    blob.upload_from_string(content, content_type="text/plain; charset=utf-8")
+    logger.info("GCS", "Written -> gs://%s/%s", bucket_name, full_path)

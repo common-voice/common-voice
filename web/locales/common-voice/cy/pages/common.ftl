@@ -37,6 +37,7 @@ be = Belarusieg
 beb = Bamvele
 bew = Betawi
 bfd = Bafut
+bfq = Badaga
 bft = Balti
 bg = Bwlgareg
 bgp = Balochi Dwyreiniol
@@ -516,6 +517,11 @@ announcement-release = Annwyl gymuned, mae'r fersiwn newydd bellach ar gael yn l
 
 # Text wrapped in <cvDatasheetsLink></cvDatasheetsLink> will be rendered as an external link to the cv-datasheets GitHub repo
 announcement-pre-release = Annwyl gymuned, mae amser rhyddhau'r fersiwn nesaf yn agosáu. Ewch i ddilysu a thrawsgrifio, ac ymweld hefyd â'r <cvDatasheetsLink>cv-datasheets</cvDatasheetsLink> i ddiweddaru eich taflen ddata.
+
+## Release Commencing
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-commencing = Annwyl gymuned, rydym wedi cyrraedd y dyddiad cau ar gyfer fersiwn nesaf ac yn bwndelu'r setiau data. Bydd y fersiwn newydd ar gael ar <mdcLink>Mozilla Data Collective</mdcLink> ymhen ychydig ddyddiau.
 
 ## Common Language/Dataset Selector & SearchBox Related
 

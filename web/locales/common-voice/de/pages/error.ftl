@@ -10,6 +10,12 @@ error-clip-upload-too-large = Ihre Aufnahme ist zu groß zum Hochladen. Bitte ve
 error-clip-upload-server-error = Serverfehler beim Verarbeiten Ihres Clips. Bitte laden Sie die Seite neu oder versuchen Sie es später erneut.
 error-title-404 = Wir konnten diese Seite nicht finden
 error-content-404 = Vielleicht hilft unsere <homepageLink>Startseite</ homepageLink> weiter. Um eine Frage zu stellen, nehmen Sie bitte am <matrixLink>Matrix-Community-Chat</matrixLink> teil, melden Sie Probleme mit der Website über <githubLink>GitHub</githubLink> oder besuchen Sie <discourseLink>unsere Discourse-Foren</discourseLink>.
+error-title-429-no-time = Sie sind zu schnell. Bitte verlangsamen Sie die Geschwindigkeit und versuchen Sie es später erneut.
+error-title-429-with-time =
+    { $retryAfter ->
+        [one] Sie sind zu schnell. Bitte versuchen Sie es in { $retryAfter } Sekunde erneut.
+       *[other] Sie sind zu schnell. Bitte versuchen Sie es in { $retryAfter } Sekunden erneut.
+    }
 error-title-500 = Entschuldigung, etwas ist schiefgegangen!
 error-content-500 = Ein unerwarteter Fehler ist aufgetreten. Bitte versuchen Sie es später erneut. Wenn Sie Hilfe benötigen, besuchen Sie bitte den <matrixLink>Matrix-Community-Chat</matrixLink>, melden Sie Probleme mit der Website über <githubLink>GitHub</githubLink> oder besuchen Sie <discourseLink>unsere Discourse-Foren</discourseLink>.
 error-title-502 = Verbindung unterbrochen

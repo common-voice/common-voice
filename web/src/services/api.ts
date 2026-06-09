@@ -217,6 +217,11 @@ export default class API {
       throw createGatewayTimeoutError('Request timeout')
     }
 
+    // iOS in-app browsers (Facebook, Instagram) throw for 429 instead of returning a proper Response.
+    if (error.message === 'Too Many Requests') {
+      throw new RateLimitError()
+    }
+
     if (
       error.message.includes('Failed to fetch') ||
       error.message.includes('Network Error')
@@ -420,10 +425,10 @@ export default class API {
     return this.fetch(API_PATH + '/user_client')
   }
 
-  saveAccount(data: UserClient): Promise<UserClient> {
+  saveAccount({ client_id, username, visible, age, gender, skip_submission_feedback, languages, enrollment }: UserClient): Promise<UserClient> {
     return this.fetch(API_PATH + '/user_client', {
       method: 'PATCH',
-      body: data,
+      body: { client_id, username, visible, age, gender, skip_submission_feedback, languages, enrollment },
     })
   }
 

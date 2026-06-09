@@ -51,6 +51,19 @@ about-get-involved-text-2 =
     <matrixLink>Matrix</matrixLink> community chat liana chhao maniah vaw hlao teh.
 about-stay-in-touch = Kheihta e eimâ zao parei thei aw?
 about-stay-in-touch-button = mohsaih athu
+about-stay-in-touch-text-1 = Common Voice liata kempeizy, event-zy, nata co-design features-zy liata kheihta e nâ hlao thei aw tahpa pahno nawpa ta, eima mailing list liata <emailFragment>mohsaih athu</emailFragment> teh..
+about-stay-in-touch-text-2 = Mozilla reih kawiti liata mohropazy nata ahmô nawpa ta <discordLink>Discord</discordLink> chvk pachia byuhpa tlâhpizy châta <discourseLink>Discourse</discourseLink> chvk pachâna hia chatlei nawpa châta <matrixLink>Matrix</matrixLink> he nâ pazao thei.
+about-nav-why-common-voice = Khazia?
+about-nav-how-it-works = Kheihta?
+about-nav-partners = Akaolâhpazy
+about-nav-get-involved = A hlao
+about-nav-how-it-works-2 = Common Voice cha kheihta e rai a hria?
+about-nav-playbook = Ahlao dâh achu teh
+
+## Community Playbook Content
+## What is a language
+
+about-playbook-what-is-language = Common Voice lia reihchâ tahpa cha khâpa maw?
 
 ## How is Common Voice funded
 

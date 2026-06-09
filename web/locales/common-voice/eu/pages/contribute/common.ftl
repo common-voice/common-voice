@@ -28,6 +28,7 @@ target-segment-generic-card = Esparru zehatzerako atal batean laguntza ari zara
 target-segment-first-banner = Lagundu esparru zehatzerako lehen { $locale } atala sortzen
 target-segment-add-voice = Gehitu zure ahotsa
 target-segment-learn-more = Ikasi gehiago
+about = Honi buruz
 
 ## Reporting
 

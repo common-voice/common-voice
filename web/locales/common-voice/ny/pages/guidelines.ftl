@@ -47,6 +47,8 @@ background-noise-tip-2 = gawo lina la mawu silikumveka
 background-voices-example-1 = ma dinosaurs a Triassic<strong>[ wowerengedwa ndi mawu amodzi<strong>
 background-voices-tip-1 = Kodi mukubwera? [anayimbilidwadwa ndi wina]
 volume-explanation = pakhala kusiyanisa kwachilengedwe kwa mlingo pakati pa owerenge.kanani ngati mlingo uli wokwera kwambiri kuti chojambulira chikusweka kapena ( kawirikawiri) ngati mlingo uli wotsika kwambiri kuti simungathe kumva zomwe zikukambidwa popanda zomwe zalembedwa
+reader-effects-explanation = Zojambulidwa zambiri zimakhala za anthu omwe amalankhula ndi mawu awo achibadwa. Mutha kulandira zojambulidwa zosazolowereka nthawi zina zomwe zimafuula, kunong'onezedwa, kapena zomwe zimafotokozedwa momveka bwino ndi mawu 'ochititsa chidwi'. Chonde pewani zojambulidwa zomwe zimaimbidwa ndi zomwe zimagwiritsa ntchito mawu opangidwa ndi kompyuta.
+just-unsure-explanation = Ngati mwapeza china chake chomwe malangizo awa sakunena, chonde votani molingana ndi zomwe mwaganiza bwino. Ngati simungathe kusankha, gwiritsani ntchito batani lodumpha ndikupitilira kujambula kwina.
 still-have-questions = mukadali ndi mafunso
 contact-common-voice = Lumikizanani ndi gulu la Common Voice
 
@@ -79,6 +81,7 @@ adding-sentences-subheader-length-explanation = Chiganizocho chiyenera kukhala n
 adding-sentences-subheader-spelling-punctuation = Kalembedwe ndi Zizindikiro za mkalembedwe
 adding-sentences-subheader-spelling-punctuation-explanation = chiganizo chiyenera kuwerengadwa molondola
 adding-sentences-subheader-speakable = Zolankhulidwa
+adding-sentences-subheader-speakable-explanation = Mau abwino kwambiri ndi amene ali achilengedwe komanso oyankhulika — ayenera kukhala osavuta kuwerenga ndi munthu aliyense. Ngakhale kuti kusiyanasiyana kwa mawu ndi mawu osiyanasiyana m’ziganizo n’kofunika, tikufunanso kuti kulemba ziganizo kukhale kosangalatsa komanso kokopa kwa gulu lathu la anthu odzipereka momwe tingathere.
 adding-sentences-subheader-numbers = Manambala
 adding-sentences-subheader-punctuation = Zizindikiro za mkalembedwe
 adding-sentences-subheader-offensive-content = zokhumudwisa
@@ -138,9 +141,36 @@ transcribe-the-audio-subheader-3 = Ma tagi apadera
 transcribe-the-audio-subheader-4 = Magawo a mawu, kuyamba kolakwika, mawu obwerezedwa
 transcribe-the-audio-subheader-5 = Zolakwika za mawu a chilankhulo ndi mawu achizolowezi
 transcribe-the-audio-subheader-1-explanation = Kawirikawiri, muyenera kulemba zonse zomwe mwamva. Izi zikuphatikizapo;
+tags-table-header-1 = Chilembo
+tags-table-header-2 = Tanthauzo
+tags-laugh = Seka
+tags-disfluency = Kusokonezeka maganizo
+tags-unclear = Zosamveka bwino
+tags-noise = Phokoso
+tags-laugh-explanation = Phokoso la kuseka.
 
 ## Code-Switching
 
+code-switching = Kusintha Makodi
+adding-a-question = kuwonjezela funso
+# Adding a Question
+code-switching-adding-question-subheader = Kodi funso labwino limakhala lotani?
+code-switching-adding-question-explanation = Funso labwino la mndandanda wa deta yokhudza kutenga nawo mbali kwa anthu onse liyenera kukhala:
+code-switching-adding-question-criteria-1 = zikhale zosavuta kumvetsetsa ndi kuyankhula
+code-switching-adding-question-criteria-2 = zikhale zogwirizana thawi zambiri
+code-switching-adding-question-criteria-3 = Osagwiritsa ntchito, kapena kupempha, chilankhulo choipa kapena chonyansa
+code-switching-adding-question-note = Mungafunenso kuganizira za kufalikira kwa nkhani ndi madera osiyanasiyana.
+# What types of questions to add
+code-switching-types-subheader = Ndi mitundu yanji ya mafunso oti muwonjezere?
+code-switching-use-bilingual-prompts-header = Gwiritsani Ntchito Malangizo Olankhula Zinenero Ziwiri
+code-switching-use-bilingual-prompts-explanation = Gwiritsani ntchito mafunso a zilankhulo ziwiri omwe aphatikiza zilankhulo zonse mu funso lanu: Chitsanzo:
+code-switching-use-bilingual-prompts-explanation-example = "¿Qué te dijo tu mamá utafika kunyumba tsiku lija?"
+code-switching-ask-bilingual-contexts-header = Funsani Zokhudza Nkhani Zolankhula Zilankhulo Ziwiri
+code-switching-ask-bilingual-contexts-explanation = Gwiritsani ntchito malo kapena zochitika zomwe zilankhulo zonse ziwiri zimagwiritsidwa ntchito nthawi zambiri (monga kunyumba, kusukulu, kapena pa zochitika za m’dera). Chitsanzo:
+code-switching-ask-bilingual-contexts-explanation-example = "Mukamalankhula ndi azibale anu, kodi mumasakaniza Chisipanishi ndi Chingerezi?"
+code-switching-focus-emotional-header = Yang'anani pa Nthawi Zokhudza Malingaliro kapena Zofunika Kwambiri
+code-switching-focus-emotional-explanation = Anthu nthawi zambiri amasinthasintha mawu akamafotokoza za momwe akumvera kapena zomwe akuchita mwachangu. Chitsanzo:
+code-switching-focus-emotional-explanation-example = "Ndiuzeni zomwe makolo anu ananena pamene munawauza nkhani yanu yaikulu — momwe ananenera."
 code-switching-cultural-topics-header = Sankhani Nkhani Zokhudza Chikhalidwe Chanu
 code-switching-cultural-topics-explanation = Zakudya, miyambo, masiku a tchuthi, komanso mmene mabanja amayendera nthawi zambiri zimapangitsa anthu kugwiritsa ntchito zilankhulo zosiyanasiyana.
 code-switching-cultural-topics-explanation-example = "Kodi mumamufotokozera bwanji Día de los Muertos kwa munthu amene amangolankhula Chingerezi?"

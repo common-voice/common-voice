@@ -37,9 +37,11 @@ be = Afaan Beelaaruus
 beb = Afaan Baamviil
 bew = Afaan Betawi
 bfd = Afaan Bafut
+bfq = Afaan Bagadaa
 bft = Afaan Baltii
 bg = Afaan Bulgaariyaa
 bgp = Afaan Baha Baloochii
+bin = Afaan Edoo
 bkh = Afaan Bakokoo
 bkm = Afaan Kom
 bm = Afaan Bambaraa
@@ -116,6 +118,7 @@ fuf = Afaa Pular Giinii
 fy-NL = Afaan Faarsiyaa
 ga-IE = Afaan Iriish
 gaa = Afaan Gaa
+gcf = Afaan Maartinikaan Kiriyool
 gej = Afaan Minaa
 ggg = Afaan Gurgula
 gid = Afaan Guyidaar
@@ -344,6 +347,7 @@ sdh = Afaan Kibba Kurdish
 sdo = Afaan Seriyaa Bidayuh
 seh = Afaan Sena
 sei = Afaan Seri
+sg = Afaan Sangoo
 shi = Afaan Tashlhiyt
 shn = Afaan Shaan
 si = Afaan Sinhala
@@ -363,6 +367,7 @@ su = Afaan Sundaan
 sv-SE = Afaan Siwudin
 sva = Afaan Isvaan
 sw = Afaan Iswaahilii
+swb = Afaan Shimaworee
 syr = Afaan Sooriyaa
 szy = Afaan Saakiyaa
 ta = Afaan Taamiil
@@ -374,6 +379,7 @@ tg = Afaan Taajik
 th = Afaan Taayi
 ti = Afaan Tigriffaa
 tig = Afaan Tagaruu
+tiv = Afaan Tiiv
 tk = Afaan Turkimeen
 tl = Afaan Tagaloog
 tli = Afaan Tilingit
@@ -511,6 +517,11 @@ announcement-release = Kabajamaa hawaasaa, gadhiifamni haaraan amma guutummaatti
 
 # Text wrapped in <cvDatasheetsLink></cvDatasheetsLink> will be rendered as an external link to the cv-datasheets GitHub repo
 announcement-pre-release = Kabajamtoota hawaasaa, yeroon gadhiifamuu dhihaateera. Maaloo deemi mirkaneessi, barreessi, akkasumas <cvDatasheetsLink>cv-datasheets</cvDatasheetsLink> daawwadhu waraqaa deetaa kee haaromsi.
+
+## Release Commencing
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-commencing = Kabajamtoota hawaasaa guyyaan cufamee/cutoff gadhiifamuu irra geenyee daataaseetota bissii gochaa jirra. Gadhiifamni haaraan kun guyyoota lama booda <mdcLink>Mozilla Data Collective</mdcLink> irratti ni argama.
 
 ## Common Language/Dataset Selector & SearchBox Related
 

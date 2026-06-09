@@ -6,6 +6,21 @@ export type Variant = {
 
 export const VARIANTS: Variant[] = [
   {
+    locale_name: 'ee',
+    variant_name: 'Tongu',
+    variant_token: 'ee-tongu',
+  },
+  {
+    locale_name: 'ee',
+    variant_name: 'Aŋlɔ',
+    variant_token: 'ee-anlo',
+  },
+  {
+    locale_name: 'ee',
+    variant_name: 'Eʋedomɛ',
+    variant_token: 'ee-evedome',
+  },
+  {
     locale_name: 'su',
     variant_name: 'Sunda Banten',
     variant_token: 'su-banten',

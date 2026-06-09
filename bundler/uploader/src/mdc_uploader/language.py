@@ -30,7 +30,7 @@ class LanguageRegistry:
     """
 
     # Locales not present in the CV languagedata API.
-    # Same data as cv-datasheets/metadata/locale-extras.json.
+    # Must match cv-datasheets/metadata/locale-extras.json — update both when adding a locale.
     EXTRAS: dict[str, LanguageData] = {
         "el-CY": LanguageData(
             id=0,
@@ -138,7 +138,9 @@ class LanguageRegistry:
             code = raw.get("code", "")
             if not code:
                 continue
-            # Store as LanguageData -- the API response matches our TypedDict
+            if not isinstance(raw.get("native_name"), str) or not raw["native_name"]:
+                logger.warning("LANG", "Skipping locale %r: missing native_name", code)
+                continue
             entry: LanguageData = raw  # type: ignore[assignment]
             self._registry[code] = entry
 

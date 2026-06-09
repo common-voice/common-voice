@@ -72,3 +72,36 @@ shortcut-skip = s
 shortcut-record-toggle = r
 shortcut-record-toggle-label = Anrejistre/Stopé
 shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = Anrejistre klip la ankò
+shortcut-discard-ongoing-recording = ESC
+shortcut-discard-ongoing-recording-label = Anile anrejistreman ki ka kontinye.
+shortcut-submit = Retounen
+shortcut-submit-label = Soumèt lé môso a.
+request-language-text = Ou poko wè lang ou a sou Common Voice?
+request-language-button = Mande an Lang
+
+## Listen Shortcuts
+
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = p
+shortcut-play-toggle-label = Jwe/Sispann
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = y
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = n
+
+## Validation criteria
+
+contribution-criteria-nav = Kritè yo
+contribution-criteria-link = Konprann kritè kontribisyon yo
+contribution-criteria-page-title = Kritè Kontribisyon
+contribution-criteria-page-description = Konprann sa pou w chèche lè w ap koute klip vokal epi ede fè anrejistreman vokal ou  pou enrichir  tou!
+contribution-for-example = pa egzanp
+contribution-misreadings-title = Move entèpretasyon
+contribution-misreadings-description = Lè ou ka koute, verifye épi anpil atansyon ke sa ki anrejistre a se ekzakteman sa ki ekri a; rijté  menm si  tini erè. <br />Erè ki trè komen yo enkli:
+contribution-misreadings-description-extended-list-1 = I mantjé <strong>'A'</strong>or<strong>'The'</strong>kòmansman anrejistreman an.
+contribution-misreadings-description-extended-list-2 = I mantjé yon<strong> 's' </strong> a la  fin  mo a .
+contribution-misreadings-description-extended-list-3 = Li kontraksyon ki pa  vre, fokou "We're" olye de "We are", oubyen vis vèsa.

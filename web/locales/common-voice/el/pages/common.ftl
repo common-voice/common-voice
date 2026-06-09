@@ -37,6 +37,7 @@ be = Λευκορωσικά
 beb = Μπεμπέλε
 bew = Μπετάβι
 bfd = Μπαφούτ
+bfq = Μπαντάγκα
 bft = Μπάλτι
 bg = Βουλγαρικά
 bgp = Βαλουχικά (Ανατολικά)
@@ -516,6 +517,11 @@ announcement-release = Αγαπητή κοινότητα, η νέα έκδοση
 
 # Text wrapped in <cvDatasheetsLink></cvDatasheetsLink> will be rendered as an external link to the cv-datasheets GitHub repo
 announcement-pre-release = Αγαπητή κοινότητα, ο χρόνος κυκλοφορίας πλησιάζει. Παρακαλούμε προχωρήστε στην επικύρωση και μεταγραφή και επισκεφθείτε επίσης τα <cvDatasheetsLink>cv-datasheets</cvDatasheetsLink> για να ενημερώσετε το φύλλο δεδομένων σας.
+
+## Release Commencing
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-commencing = Αγαπητή κοινότητα, έχουμε φτάσει στην καταληκτική ημερομηνία για την κυκλοφορία και ομαδοποιούμε τα σύνολα δεδομένων. Η νέα έκδοση θα είναι διαθέσιμη στο <mdcLink>Mozilla Data Collective</mdcLink> σε μερικές ημέρες.
 
 ## Common Language/Dataset Selector & SearchBox Related
 

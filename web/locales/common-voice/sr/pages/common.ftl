@@ -37,6 +37,7 @@ be = Белоруски
 beb = бамвеле
 bew = бетави
 bfd = бафут
+bfq = Бадага
 bft = Балти
 bg = Бугарски
 bgp = Источни балочи
@@ -516,6 +517,11 @@ announcement-release = Драга заједницо, ново издање је
 
 # Text wrapped in <cvDatasheetsLink></cvDatasheetsLink> will be rendered as an external link to the cv-datasheets GitHub repo
 announcement-pre-release = Драга заједницо, време новог издања се приближава. Молимо вас идите да потврдите и транскрибујете, а такође посетите <cvDatasheetsLink>cv-datasheets</cvDatasheetsLink> да ажурирате свој лист са подацима.
+
+## Release Commencing
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-commencing = Драга заједнице, стигли смо до крајњег рока за објављивање и обједињујемо скупове података. Ново издање ће бити доступно на <mdcLink>Mozilla Data Collective</mdcLink> за неколико дана.
 
 ## Common Language/Dataset Selector & SearchBox Related
 

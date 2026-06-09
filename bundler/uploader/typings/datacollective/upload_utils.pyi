@@ -1,4 +1,4 @@
-"""Type stubs for datacollective.upload_utils (v0.4.5)."""
+"""Type stubs for datacollective.upload_utils (v0.5.1)."""
 
 from pathlib import Path
 from typing import Any

@@ -10,6 +10,12 @@ error-clip-upload-too-large = Tu file de registration es troppo grande a cargar.
 error-clip-upload-server-error = Error de servitor durante le processamento de tu clip. Recarga le pagina o reproba plus tarde.
 error-title-404 = Impossibile trovar iste pagina pro te.
 error-content-404 = Forsan nostre <homepageLink>pagina initial</homepageLink> pote adjutar? Pro poner un question, junge te al <matrixLink>chat del communitate Matrix</matrixLink>, survelia le problemas per <githubLink>GitHub</githubLink> o visita <discourseLink>nostre foros Discourse</discourseLink>.
+error-title-429-no-time = Tu va troppo velocemente. Relenta e retenta post un momento.
+error-title-429-with-time =
+    { $retryAfter ->
+        [one] Tu va troppo velocemente. Retenta in { $retryAfter } secunde.
+       *[other] Tu va troppo velocemente. Retenta in { $retryAfter } secundas.
+    }
 error-title-500 = Desolate, alco errate eveniva
 error-content-500 = Un error impreviste occurreva. Retenta plus tarde. Pro adjuta, junge te al <matrixLink>chat del communitate Matrix</matrixLink>, survelia le problemas per <githubLink>GitHub</githubLink> o visita <discourseLink>nostre foros Discourse</discourseLink>.
 error-title-502 = Connexion interrupte

@@ -10,6 +10,13 @@ error-clip-upload-too-large = Ваш файл записи слишком бол
 error-clip-upload-server-error = Ошибка сервера при обработке вашего клипа. Пожалуйста, обновите страницу или попробуйте ещё раз позже.
 error-title-404 = Мы не смогли найти эту страницу
 error-content-404 = Возможно, поможет наша <homepageLink>домашняя страница</homepageLink>? Чтобы задать вопрос, пожалуйста, присоединитесь к <matrixLink>чату сообщества в Matrix</matrixLink>, отслеживайте проблемы на сайте через <githubLink>GitHub</githubLink> или посетите <discourseLink>наши Discourse-форумы</discourseLink>.
+error-title-429-no-time = Вы слишком торопитесь. Пожалуйста, притормозите и попробуйте снова через пару минут.
+error-title-429-with-time =
+    { $retryAfter ->
+        [one] Вы слишком торопитесь. Пожалуйста, попробуйте снова через { $retryAfter } секунду.
+        [few] Вы слишком торопитесь. Пожалуйста, попробуйте снова через { $retryAfter } секунды.
+       *[many] Вы слишком торопитесь. Пожалуйста, попробуйте снова через { $retryAfter } секунд.
+    }
 error-title-500 = Ой, что-то пошло не так
 error-content-500 = Произошла непредвиденная ошибка. Подождите некоторое время и попробуйте снова. Для получения помощи, пожалуйста, присоединитесь к <matrixLink>чату сообщества в Matrix</matrixLink>, отслеживайте проблемы на сайте через <githubLink>GitHub</githubLink> или посетите <discourseLink>наши Discourse-форумы</discourseLink>.
 error-title-502 = Соединение прервано

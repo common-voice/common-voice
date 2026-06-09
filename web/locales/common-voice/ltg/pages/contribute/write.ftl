@@ -1,12 +1,17 @@
 ## WRITE PAGE
 
 write = Roksti
+write-instruction = Dalīcit <icon></icon> publiskuo eipašuma teikumu
 write-page-subtitle = Ite dalyktī teikumi tiks davīnuoti publiski daīmamai cc-0 liceņcātai datu kūpai.
 sentence =
     .label = Teikums
+sentence-input-placeholder = Īvodit ite sovu publiski daīmamū teikumu, kas nav aizsorguots ar autortīseibom.
+small-batch-sentence-input-placeholder = Īvodit ite sovu publiski daīmamū teikumu, kas nav aizsorguots ar autortīseibom.
+citation-input-placeholder = Nūruodit sova teikuma olūtu (obligati)
 citation =
     .label = Atsauce
 sc-review-write-title = Kaidus teikumus es varu dalikt?
+sc-review-small-batch-title = Kai dalikt vairuokus teikumus
 new-sentence-rule-1 = <noCopyright>Nav autortīseibu</noCopyright> īrūbežuojumu (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = Muozuok par 15 vuordim
 new-sentence-rule-3 = Ir gramatiski pareizi
@@ -59,6 +64,22 @@ file-too-large = Fails ir par lelu
 file-too-small = Fails ir par mozu
 too-many-files = Par daudzi failu
 
+## SMALL BATCH SUBMISSION
+
+exceeds-small-batch-limit-error = Navar īsnīgt vaira par 1000 teikumu
+small-batch-sentences-rule-2 = Kotrā ryndā dalīcit vīnu teikumu
+small-batch-sentences-rule-5 = Vysim teikumim ir juobyut nu vīnys jūmys
+small-batch-sentences-rule-6 = Vysim teikumim juobyut nu vīna olūta
+
+## MENU ITEM TOOLTIPS
+
+review-questions-menu-item-tooltip = Puorsavērt vaicuojumus
+transcribe-audio-menu-item-tooltip = Puorrokstit audio īrokstus
+
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = Raksteišonys īspieju izvēļne
+add-sentences-menu-item-aria-label = Dalīcit jaunus teikumus skaiteišonai
+review-sentences-menu-item-aria-label = Puorsaverit cytu daleibnīku īsnāgtūs teikumus
+add-questions-menu-item-aria-label = Īsnēdzit jaunus vaicuojumus īlaseišonai i atbiļdiešonai
 transcribe-audio-menu-item-aria-label = Puorrokstit audio īrokstus

@@ -2,11 +2,20 @@
 
 from __future__ import annotations
 
+from collections.abc import Generator
 from unittest.mock import MagicMock, patch
 
 import pytest
 
+from mdc_uploader import language as _lang_module
 from mdc_uploader.language import LanguageRegistry
+
+
+@pytest.fixture(autouse=True)
+def _reset_language_singleton() -> Generator[None, None, None]:
+    yield
+    _lang_module._instance._initialized = False
+    _lang_module._instance._registry.clear()
 
 
 def _api_entry(
