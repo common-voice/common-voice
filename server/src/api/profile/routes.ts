@@ -1,5 +1,5 @@
 import PromiseRouter from 'express-promise-router'
-import rateLimiter from '../../lib/middleware/rate-limiter-middleware'
+import rateLimiter, { byClientId } from '../../lib/middleware/rate-limiter-middleware'
 import { validateStrict } from '../../lib/validation'
 import { CreateApiCredentialsRequest } from './validation/create-api-credentials-request'
 import { createApiCredentialsHandler } from './handler/create-api-credentials-handler'
@@ -16,10 +16,14 @@ const requireFeatureMiddleware =
 export const profilesRouter = PromiseRouter({ mergeParams: true })
   .post(
     '/api-credentials',
-    rateLimiter('api/v1/profiles/api-credentials', {
-      points: 1,
-      duration: 60,
-    }),
+    rateLimiter(
+      'api/v1/profiles/api-credentials',
+      {
+        points: 1,
+        duration: 60,
+      },
+      byClientId
+    ),
     validateStrict({ body: CreateApiCredentialsRequest }),
     requireUserMiddleware.handle,
     requireFeatureMiddleware,

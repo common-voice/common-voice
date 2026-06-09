@@ -49,12 +49,13 @@
 
 ### Changes merged after current release
 
+- Chore: Rework rate limiting to be keyed by user client_id (with IP fallback) across several server endpoints, and improve the client UX to prevent/handle accidental duplicate submissions and rate-limit responses during contribution flows, by [@moz-bozden](https://github.com/moz-bozden) in [#5424](https://github.com/common-voice/common-voice/pull/5424) (in v.1.159.2)
 - Chore: Update bundler dependencies [#5417](https://github.com/common-voice/common-voice/pull/5417), update uploader dependencies and adjust code [#5418](https://github.com/common-voice/common-voice/pull/5418), upgrade uploader to disable previous versions via CLI [#5419](https://github.com/common-voice/common-voice/pull/5419), by [@moz-bozden](https://github.com/moz-bozden) (in v.1.159.1)
 - Fix: Addressed several reliability issues around user profile updates and account-claiming, improving error handling for rate-limits/network edge cases and tightening the /user_client PATCH contract between web and server, by [@moz-bozden](https://github.com/moz-bozden), in [#5416](https://github.com/common-voice/common-voice/pull/5416) (in v.1.159.1)
 
 #### Data Changes after current release
 
-- Added Ewe (`ee`) variants by [@moz-bozden](https://github.com/moz-bozden) in [#5421](https://github.com/common-voice/common-voice/pull/5421) (in v.1.159.1)
+- Added Ewe (`ee`) variants by [@moz-bozden](https://github.com/moz-bozden) in [#5421](https://github.com/common-voice/common-voice/pull/5421) (in v.1.159.1) and moved existing sentences to the new variant with a migration, by [@moz-bozden](https://github.com/moz-bozden) in [#5425](https://github.com/common-voice/common-voice/pull/5425) (in v.1.159.2)
 
 #### Spontaneous Speech Changes after current release
 
