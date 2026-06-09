@@ -183,6 +183,19 @@ Docker can be a very memory-intensive process. If you notice intermittent failur
 
 ## Troubleshooting
 
+### Language greyed out or "can't contribute to this locale" warning
+
+If a locale appears greyed out or you see a warning that you cannot yet contribute to a given language, you need to enable it in the database. For example, to enable French (`fr`):
+
+```sh
+sudo docker exec db mysql -uvoicecommons -pvoicecommons voiceweb -e "UPDATE locales SET is_contributable=1 WHERE name='fr';"
+sudo docker exec -it redis redis-cli FLUSHALL
+```
+
+Then restart the containers.
+
+Replace `fr` with the appropriate language code for your locale.
+
 ### Couldn't connect to Docker daemon 
 
 If you get an error like the following when running native Docker (not Docker for Desktop),
@@ -256,11 +269,11 @@ yarn lint
 
 ## Authentication
 
-If you want to work with login-related features (Profile, Dashboard, Goals, ...) you'll need to set up authentication:
+Currently, it is necessary to setup authentication via `Auth0` to self host this project because of login-related features (Profile, Dashboard, Goals, ...):
 
 1. Create an [Auth0](https://auth0.com/) account.
-2. Click "Applications" from the dashboard. Create a new one, or use the default application.
-3. On "Applications" still, next to your application, click the "three dots" icon, then Settings.
+2. Click "Applications" from the left sidebar of the dashboard. Create a new one, or use the default application.
+3. On "Applications" still, next to your application, click the "three dots" icon, then "Settings".
 4. Add `http://localhost:9000/callback` to the "Allowed Callback URLs" list.
 5. Copy the Auth0 application settings into your configuration file. These are found in the same Settings tab as the "Allowed Callback URLs".
 
