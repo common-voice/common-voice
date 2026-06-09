@@ -29,6 +29,10 @@ function createRateLimiter(
   }
 }
 
+// Rate-limit key: per-user client_id, falling back to IP.
+export const byClientId = (request: Request): string =>
+  request.session?.user?.client_id ?? request.ip ?? 'unknown'
+
 function rateLimitResponse(response: Response, msBeforeNext: number) {
   const nextRequestSeconds = Math.round(msBeforeNext / 1000) || 1
   response.set('Retry-After', nextRequestSeconds.toString())
