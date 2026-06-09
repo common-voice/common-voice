@@ -227,20 +227,20 @@ export const useSentenceWrite = (mode: WriteMode) => {
       })
     } catch (error) {
       if (error.message === TOO_MANY_REQUESTS) {
-        const retryLimit =
-          Number(error.retryAfter) > 60
-            ? secondsToMinutes(error.retryAfter)
-            : Number(error.retryAfter)
+        const retryAfterSeconds = Number(error.retryAfter) || 0
+        const useMinutes = retryAfterSeconds > 60
+        const retryLimit = useMinutes
+          ? secondsToMinutes(retryAfterSeconds)
+          : retryAfterSeconds
 
         dispatchError({
           errorType: SentenceSubmissionError.RATE_LIMIT_EXCEEDED,
-          localizedMessageKey:
-            Number(error.retryAfter) > 60
-              ? 'rate-limit-toast-message-minutes'
-              : 'rate-limit-toast-message-seconds',
+          localizedMessageKey: useMinutes
+            ? 'rate-limit-toast-message-minutes'
+            : 'rate-limit-toast-message-seconds',
           localizedMessageVars: { retryLimit },
           errorIcon: AlertIcon,
-          errorData: { retryLimit: Number(error.retryAfter) },
+          errorData: { retryLimit: retryAfterSeconds },
         })
       } else {
         dispatchError({

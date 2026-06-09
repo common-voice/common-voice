@@ -5,7 +5,7 @@ import { getConfig } from '../config-helper'
 import Model from './model'
 import getLeaderboard from './model/leaderboard'
 import { earnBonus, hasEarnedBonus } from './model/achievements'
-import rateLimiter from './middleware/rate-limiter-middleware'
+import rateLimiter, { byClientId } from './middleware/rate-limiter-middleware'
 // Basket import removed: currently bulk-mail facility is not supported
 // import * as Basket from './basket'
 import * as Sentry from '@sentry/node'
@@ -87,38 +87,33 @@ export default class Clip {
       }
     )
 
-    // Voting is fast (listen + click)
-    // Fast voter: ~10 votes/minute = 600/hour
-    // But if audio is bad, they may vote faster to get a new clip
-    // => Rate limiting for clip voting: ~900 votes/hour
-    // => Relax for shared IPs => 200 votes per 10 minutes (1200/hour max)
-    // + block for 1 minutes if limit exceeded
+    // Clip voting: 300 per 10 min per person, keyed by client_id.
     router.post(
       '/:clipId/votes',
-      rateLimiter('clips/vote', {
-        points: 200, // 200 votes
-        duration: 600, // per 10 minutes (1200/hour max)
-        blockDuration: 60, // Block for 1 minute
-      }),
+      rateLimiter(
+        'clips/vote',
+        {
+          points: 300, // 300 votes
+          duration: 600, // per 10 minutes
+          blockDuration: 60, // pause for 1 minute if exceeded
+        },
+        byClientId
+      ),
       this.saveClipVote
     )
 
-    // Rate limiting for clip recording: Account for retries (bad NW)/headroom and batch submissions
-    // Usual scripter sends 1 per second, so we must set it below that.
-    // Flow: 25 sentences loaded => record 5 => submit 5
-    // Recording: 1-15 sec/clip (avg 5sec) + UI time => 10sec/clip
-    // Batch of 5 clips: ~50 seconds
-    // 5 batches (25 clips): ~4+ minutes
-    // => Allow 70 uploads per 10 minutes (7 uploads/minute, 420 uploads/hour < 600))
-    // => Relax for shared IPs => 150 uploads per 10 minutes (900/hour max)
-    // + block for 1 minutes if limit exceeded
+    // Clip recording: 200 per 10 min per person (short clips record fast).
     router.post(
       '*',
-      rateLimiter('clips/record', {
-        points: 150, // 150 uploads
-        duration: 600, // per 10 minutes
-        blockDuration: 60, // Block for 1 minute
-      }),
+      rateLimiter(
+        'clips/record',
+        {
+          points: 200, // 200 uploads
+          duration: 600, // per 10 minutes
+          blockDuration: 60, // Block for 1 minute
+        },
+        byClientId
+      ),
       this.saveClip
     )
 

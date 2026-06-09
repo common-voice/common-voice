@@ -194,6 +194,8 @@ class ContributionPage extends React.Component<ContributionPageProps, State> {
 
   private handleKeyDown = (event: any) => {
     if (isTyping()) return
+    // Ignore key auto-repeat to avoid duplicate submissions.
+    if (event.repeat) return
 
     const { getString, hasErrors, isSubmitted, locale, onReset, onSubmit, type } =
       this.props

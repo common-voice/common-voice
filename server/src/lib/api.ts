@@ -13,7 +13,7 @@ import {
 } from './ffmpeg-transcoder'
 
 import { FEATURES_COOKIE, Sentence, UserClient as UserClientType } from 'common'
-import rateLimiter from './middleware/rate-limiter-middleware'
+import rateLimiter, { byClientId } from './middleware/rate-limiter-middleware'
 import { authMiddleware } from '../auth-router'
 import { RequireUserMiddleware } from './middleware/requireUserMiddleware'
 import { HandleFeatureMiddleware } from './middleware/handleFeatureMiddleware'
@@ -173,7 +173,9 @@ export default class API {
     router.patch(
       '/anonymous_user',
       validate({ body: anonUserMetadataSchema }),
-      rateLimiter('/anonymous_user', { points: 1, duration: 60 }),
+      // Per-IP ceiling + per-person limiter (client_id is mintable).
+      rateLimiter('/anonymous_user:byIp', { points: 10, duration: 60 }),
+      rateLimiter('/anonymous_user', { points: 3, duration: 60 }, byClientId),
       this.saveAnonymousAccountLanguages
     )
 
@@ -190,7 +192,9 @@ export default class API {
     // Body: email, name (optional), message
     router.post(
       '/contact',
-      rateLimiter('/contact', { points: 5, duration: 60 }),
+      // Per-IP ceiling + per-person limiter (client_id is mintable; sends email).
+      rateLimiter('/contact:byIp', { points: 20, duration: 60 }),
+      rateLimiter('/contact', { points: 5, duration: 60 }, byClientId),
       validate({ body: sendContactRequestSchema }),
       this.sendContactRequest
     )
@@ -199,7 +203,9 @@ export default class API {
     // Body: email, languageInfo, languageLocale, platforms
     router.post(
       '/language/request',
-      rateLimiter('/language/request', { points: 10, duration: 60 }),
+      // Per-IP ceiling + per-person limiter (client_id is mintable).
+      rateLimiter('/language/request:byIp', { points: 30, duration: 60 }),
+      rateLimiter('/language/request', { points: 10, duration: 60 }, byClientId),
       validate({ body: sendLanguageRequestSchema }),
       this.sendLanguageRequest
     )
