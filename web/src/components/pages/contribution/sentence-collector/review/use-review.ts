@@ -185,6 +185,7 @@ const useReview = ({ getString, showReportModal }: UseReviewParams) => {
 
   const handleKeyDown = (evt: KeyboardEvent) => {
     if (isTyping()) return
+    if (evt.repeat) return
 
     if (
       evt.ctrlKey ||

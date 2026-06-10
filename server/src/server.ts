@@ -87,7 +87,8 @@ export default class Server {
         )
       },
     }
-    app.set('trust proxy', 1)
+    // 'true' = trust left-most X-Forwarded-For. TODO: set precise value once proxy chain confirmed.
+    app.set('trust proxy', true)
     app.use(express.json())
 
     app.use(compression())

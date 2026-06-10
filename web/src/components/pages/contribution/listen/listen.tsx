@@ -111,6 +111,8 @@ class ListenPage extends React.Component<Props, State> {
   // try to disable double clicks/taps
   private playLockDurationMs = 600 // mobile devices already introduce ~300 ms lag
   private isPlayLocked = false
+  // Block double-submit of the same clip before setState commits.
+  private isVotingInProgress = false
 
   static getDerivedStateFromProps(props: Props, state: State) {
     const unvalidatedClips = state.clips.filter(
@@ -217,6 +219,9 @@ class ListenPage extends React.Component<Props, State> {
   }
 
   private vote = (isValid: boolean) => {
+    if (this.isVotingInProgress) return
+    this.isVotingInProgress = true
+
     const { clips } = this.state
 
     const {
@@ -232,58 +237,70 @@ class ListenPage extends React.Component<Props, State> {
     // Guard against invalid clip index
     if (clipIndex < 0 || clipIndex >= clips.length || !clips[clipIndex]) {
       console.error('Invalid clip index:', clipIndex)
+      this.isVotingInProgress = false
       return
     }
 
-    this.stop()
-    this.props.vote(isValid, clips[clipIndex].id)
-
+    // Release the lock even if something below throws before setState.
     try {
-      sessionStorage.setItem('challengeEnded', JSON.stringify(challengeEnded))
-      sessionStorage.setItem('hasContributed', 'true')
-    } catch (e) {
-      console.warn(`A sessionStorage error occurred ${e.message}`)
-    }
+      this.stop()
+      this.props.vote(isValid, clips[clipIndex].id)
 
-    if (showFirstContributionToast) {
-      addAchievement(
-        50,
-        "You're on your way! Congrats on your first contribution.",
-        'success'
+      try {
+        sessionStorage.setItem('challengeEnded', JSON.stringify(challengeEnded))
+        sessionStorage.setItem('hasContributed', 'true')
+      } catch (e) {
+        console.warn(`A sessionStorage error occurred ${e.message}`)
+      }
+
+      if (showFirstContributionToast) {
+        addAchievement(
+          50,
+          "You're on your way! Congrats on your first contribution.",
+          'success'
+        )
+      }
+      if (showFirstStreakToast) {
+        addAchievement(
+          50,
+          'You completed a three-day streak! Keep it up.',
+          'success'
+        )
+      }
+      if (
+        !JSON.parse(sessionStorage.getItem('challengeEnded')) &&
+        JSON.parse(sessionStorage.getItem('hasShared')) &&
+        !hasEarnedSessionToast
+      ) {
+        addAchievement(
+          50,
+          "You're on a roll! You sent an invite and contributed in the same session.",
+          'success'
+        )
+        sessionStorage.removeItem('hasShared')
+        // Tell back-end user get unexpected achievement: invite + contribute in the same session
+        // Each user can only get once.
+        api.setInviteContributeAchievement()
+      }
+      clearInterval(this.playedSomeInterval)
+      this.setState(
+        {
+          hasPlayed: false,
+          hasPlayedSome: false,
+          isPlaying: false,
+          isSubmitted: clipIndex === SET_COUNT - 1,
+          clips: clips.map((clip, i) =>
+            i === clipIndex ? { ...clip, isValid } : clip
+          ),
+        },
+        () => {
+          this.isVotingInProgress = false
+        }
       )
+    } catch (e) {
+      console.error('Vote handling failed:', e)
+      this.isVotingInProgress = false
     }
-    if (showFirstStreakToast) {
-      addAchievement(
-        50,
-        'You completed a three-day streak! Keep it up.',
-        'success'
-      )
-    }
-    if (
-      !JSON.parse(sessionStorage.getItem('challengeEnded')) &&
-      JSON.parse(sessionStorage.getItem('hasShared')) &&
-      !hasEarnedSessionToast
-    ) {
-      addAchievement(
-        50,
-        "You're on a roll! You sent an invite and contributed in the same session.",
-        'success'
-      )
-      sessionStorage.removeItem('hasShared')
-      // Tell back-end user get unexpected achievement: invite + contribute in the same session
-      // Each user can only get once.
-      api.setInviteContributeAchievement()
-    }
-    clearInterval(this.playedSomeInterval)
-    this.setState({
-      hasPlayed: false,
-      hasPlayedSome: false,
-      isPlaying: false,
-      isSubmitted: clipIndex === SET_COUNT - 1,
-      clips: clips.map((clip, i) =>
-        i === clipIndex ? { ...clip, isValid } : clip
-      ),
-    })
   }
 
   private voteYes = () => {
