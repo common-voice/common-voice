@@ -80,6 +80,7 @@ citing-sentences-subheader-websites-explanation = မၞးစုတ်စုတ
 citing-sentences-subheader-academic-reference = ပရေၚ်နိဿဲ သုတေသန
 citing-sentences-subheader-academic-reference-explanation = ဗီုပြၚ် နိဿဲသုတေသန မၞးစကာသုၚ်စောဲတဴမာန်ဂှ်၊ ဥပမာ ဗီုပြင် ဟာဗာတ်  "Mozilla (2021) Common Voice. Available at https://commonvoice.mozilla.org/ (Accessed: 15th September 2021)"
 citing-sentences-subheader-offline-sources = တမ်ရိုဟ် အပ်လာၚ် ဂမၠိုၚ်
+citing-sentences-subheader-offline-sources-explanation = ဟိုတ်လိက် ဒြပ်ညးဟလိုၚ်ဟွံမွဲ ပ္ဍဲအာန်လာၚ်တုဲ မၞး သုၚ်စောဲစကာ နဲကဲနိဿဲသုတေသန ဗီုပြၚ် ဟာဗာတ် ဂွံမံၚ်ရ၊ ဥပမာ ဗီုပြင် ဟာဗတ် "Jess (2021) My Public license poems"
 citation =
     .label = တၚ်နၚ်သာဓက
 self-citation = နိဿဲစကေတ်တ်
