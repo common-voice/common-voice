@@ -3683,10 +3683,10 @@
   dependencies:
     classnames "*"
 
-"@types/commonmark@0.27.9":
-  version "0.27.9"
-  resolved "https://registry.npmjs.org/@types/commonmark/-/commonmark-0.27.9.tgz"
-  integrity sha512-d3+57WgyPCcIc6oshmcPkmP4+JqRRot9eeZLsBsutWtIxwWivpoyc2wEcolOp8MyO3ZWN846mMdoR02kdHSMCw==
+"@types/commonmark@0.27.10":
+  version "0.27.10"
+  resolved "https://registry.yarnpkg.com/@types/commonmark/-/commonmark-0.27.10.tgz#79b1cc817a9d2e28cf875a19ef5002ca25aa4e09"
+  integrity sha512-iEZobUnvlM+UX5fXWCmC4eQXwCs01Z8Xa1W0VjiWUF/XsNy4BHtskqJ9MyLZVMHbA0ezhyonCDqz3hMvsCm6Hg==
 
 "@types/compression@1.8.1":
   version "1.8.1"
