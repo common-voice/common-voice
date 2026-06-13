@@ -181,6 +181,8 @@ code-switching-adding-question-note = Farklı bağlamları ve alanları da kapsa
 # What types of questions to add
 code-switching-types-subheader = Ne tür sorular eklemelisiniz?
 code-switching-cultural-topics-header = Kültüre özgü konuları seçin
+# What to Avoid
+code-switching-avoid-subheader = Kaçınılması gerekenler
 code-switching-dont-header = Bunları yapmayın
 # Reviewing a Question
 code-switching-review-subheader = Soru inceleme
