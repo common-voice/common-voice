@@ -152,3 +152,4 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Izzynojat vair
 ## How is Common Voice funded
 
 about-playbook-how-funded = Kas finansej Common Voice?
+about-playbook-how-funded-content-1 = Common Voice ir Mozilla Fonda projekts, ASV 501c3. Itūšaļt projektu piļneibā finansej nu <philantropicGrantLink>filantropiskom dotacejom</philantropicGrantLink> i cylvāku zīdojumim vysā pasaulī.
