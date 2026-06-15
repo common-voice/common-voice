@@ -77,7 +77,12 @@ read-more-about = Skaitit vaira myusu lopā Par mums
 ## NAV ITEMS
 
 answer-questions = Atbiļdēt iz vaicuojumim
+press-and-stories = Prese i stuosti
 coming-soon = Dreiži
+
+## MENU ITEMS TOOLTIPS
+
+about-menu-tooltip = Partnereibys, prese i stuosti, kūpīna i volūdys
 
 ## MENU ITEM ARIA LABELS
 
@@ -101,6 +106,7 @@ find-us-on-matrix = Meklej myus Matrix
 
 read-sentences-link = Skaiti teikumus
 answer-questions-link = Atbiļdi iz vaicuojumim
+press-and-stories-link = Prese i stuosti
 
 ## Partner section
 
