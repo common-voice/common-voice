@@ -37,6 +37,15 @@ single-sentence = Vīns teikums
 small-batch-sentence = Nalela parteja
 bulk-sentence = Lela apmāra parteja
 sentence-domain-combobox-label = Teikuma jūma
+sentence-domain-select-placeholder = Izalosit leidz trejom jūmom (piec izvielis)
+# Sentence Domain dropdown option
+agriculture_food = Lauksaimnīceiba i puortyka
+# Sentence Domain dropdown option
+automotive_transport = Automobili i transports
+# Sentence Domain dropdown option
+finance = Finansis
+# Sentence Domain dropdown option
+service_retail = Pakolpuojumi i mozumtierdznīceiba
 # Sentence Domain dropdown option
 general = Vyspuoreigi
 # Sentence Domain dropdown option
@@ -54,9 +63,12 @@ news_current_affairs = Zinis i aktualitatis
 # Sentence Domain dropdown option
 technology_robotics = Tehnologejis i robotika
 sentence-variant-select-label = Teikuma variants
+sentence-variant-select-placeholder = Izalaseit variantu (nav obligats)
 
 ## BULK SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Augšynluodejit <icon></icon> publiskuo eipašuma teikumus
 try-upload-again-md = Raugit augšynluodēt vēļreiz
 select-file = Izalosi failu
 select-file-mobile = Izavielej failu, kuru augšynluodēt
