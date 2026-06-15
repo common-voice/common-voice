@@ -1,4 +1,4 @@
-listen = Тыңнап алыңар
+listen = Истіңер
 listen-subtitle = Пазылған нимелерні сыныхтирға полыс пиріңер
 listen-instruction = { $actionType }<playIcon></playIcon> чоохтағ орта адалған ма?
 listen-again-instruction = Чахсы тоғыс!<playIcon></playIcon> Хаҷан тимде ползар, хатап истіңер
