@@ -62,6 +62,7 @@ help-accent = Voi vajadzeiga paleidzeiba ar akcentu?
 help-accent-explanation = Jiusu akcents ir veids, kai jius izrunojit vuordus. Tū var ītekmēt jiusu dzeivisvīta, cytys volūdys, kurys runojit, i daudzi cyti faktori. Ite varit pasadaleit ar sevkuru informaceju, kas, jiusupruot, ir svareiga.
 help-variants = Voi vajadzeiga paleidzeiba ar variantim?
 help-variants-explanation = Varianti ir nūsaceita volūdys forma, par pīmāru, tīm, kas dzeivoj kaidā geografiskajā vītā voi kūpīnā. Dažreiz tūs sauc par dialektim.
+variant-contribution-option-2 = Ruodeit maņ tikai teikumus i klipus nu muna volūdys varianta
 copy-api-credential-error-toast-message = Klaida kopejūt
 do_not_wish_to_say = Nagrybu atkluot
 other = Cyts
