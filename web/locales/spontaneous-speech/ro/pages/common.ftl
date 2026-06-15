@@ -26,6 +26,10 @@ contribute = Contribuie
 # Button text which appears when there are no more resources
 continue-with-skipped = Continuă cu secvențele omise
 
+## Common aria-labels
+
+keyboard-shortcuts-button-aria-label = Arată comenzile rapide din tastatură
+
 ## Navbar
 
 question = Întrebare
@@ -53,3 +57,29 @@ language-search-placeholder = Caută o limbă...
 language-search-aria-label = Caută o limbă
 language-search-label = Modifică doar limba de contribuție la setul de date
 language-search-no-results = Nu s-a găsit nicio limbă
+
+## Transcription Player - Mode Buttons
+
+# Transcription Player - Automatic Mode
+transcription-mode-auto = Auto
+# Player - slower
+player-speed-slow = Încet
+# Player - normal speed
+player-speed-normal = Normal
+# Player - faster
+player-speed-fast = Rapid
+
+## Transcription Player Controls - Keyboard Shortcuts
+
+# Player control shortcut for play/pause: pressed with Ctrl/Cmd
+player-play-pause-shortcut = p
+player-play-pause-shortcut-key = Ctrl / Cmd + P
+player-play-pause-shortcut-name = Redare / Pauză
+# Player control shortcut to go back 5 seconds: pressed with Ctrl/Cmd
+player-skip-backward-shortcut = 8
+player-skip-backward-shortcut-key = Ctrl / Cmd + 8
+player-skip-backward-shortcut-name = Înapoi
+# Player control shortcut to go forwards 5 seconds: pressed with Ctrl/Cmd
+player-skip-forward-shortcut = 9
+player-skip-forward-shortcut-key = Ctrl / Cmd + 9
+player-skip-forward-shortcut-name = Înainte
