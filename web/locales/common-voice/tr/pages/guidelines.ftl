@@ -183,6 +183,9 @@ code-switching-types-subheader = Ne tür sorular eklemelisiniz?
 code-switching-cultural-topics-header = Kültüre özgü konuları seçin
 # What to Avoid
 code-switching-avoid-subheader = Kaçınılması gerekenler
+code-switching-avoid-intro = Aşağıdakileri içerebilecek sorular:
+code-switching-avoid-1 = Kişisel bilgi isteme
+code-switching-avoid-2 = Nefret söylemi, önyargılı veya saldırgan ifadeler kullanma
 code-switching-dont-header = Bunları yapmayın
 # Reviewing a Question
 code-switching-review-subheader = Soru inceleme
