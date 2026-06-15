@@ -202,6 +202,7 @@ leu = Kara
 lg = Luganda
 lij = Ligură
 lke = Kenyi
+lld = Ladină
 ln = Lingala
 lo = Laoțiană
 lss = Lassi
@@ -379,6 +380,8 @@ indicates-required = Asteriscul (*) indică un câmp obligatoriu.
 not-available-abbreviation = Nu e cazul
 # Text shown on a button that can be clicked to copy text to the clipboard
 copy = Copiază
+# Text shown on a button that can be clicked to close a modal or panel
+close = Închide
 # Text shown on a button that can be clicked to cancel an action
 cancel = Anulează
 # Text shown on a button that can be clicked to delete an item

@@ -1,5 +1,6 @@
 ## Request Language Pages
 
+request-language-heading = Întreabă despre o limbă nouă
 request-language-form-email =
     .label = Adresa de e-mail
 request-language-form-info =
