@@ -123,6 +123,7 @@ about-playbook-how-grow-language-content-4 = Socialī medeji
 about-playbook-how-grow-language-content-5 = Varit lītuot socialū medeju platformys, lai nūsyuteitu ziņuojumu. Pasadolit ar ziņom, kuruos paskaidruots, deļkuo tys ir svareigi, i sasazynojit ar cylvākim, kas runoj par taidim vaicuojumim kai volūdys tīseibys, bolsa lītuošona muoksleigajā intelektā voi naobjektivitate tehnologeju sferā. Veritēs vaira padūmu par <campaignLink>socialuos kampanis vadeišonu, tamā vydā saturu, kū varit lītuot</campaignLink>.
 about-playbook-how-grow-language-content-6 = Partnereibys i teikli
 about-playbook-how-grow-language-content-7 = Atrūnit cytus, kurim tys ryup. Tuos varātu byut universitatis, volūdu školys, interešu aizstuoveibys grupys voi datu zynuotnis kūpīnys. Sasazynojit i skaidri paskaidrojit, kai jī var paleidzēt i deļkuo. <outreachTemplates>Veritēs myusu informativū e-posta ziņuojumu veidnis</outreachTemplates>.
+about-playbook-how-grow-language-content-8-v2 = <strong>Esit rodūši!</strong> Jiusu volūdys kūpīna byus unikala, i itī ir tikai puors veidi, kai suokt dorbu. Lyudzu, pīvīnojit sovys kūpīnys kanalus dokumentā <communitiesLink>COMMUNITIES.md teiklavītā GitHub</communitiesLink>.
 
 ## How to validate
 
@@ -153,3 +154,5 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Izzynojat vair
 
 about-playbook-how-funded = Kas finansej Common Voice?
 about-playbook-how-funded-content-1 = Common Voice ir Mozilla Fonda projekts, ASV 501c3. Itūšaļt projektu piļneibā finansej nu <philantropicGrantLink>filantropiskom dotacejom</philantropicGrantLink> i cylvāku zīdojumim vysā pasaulī.
+about-playbook-how-funded-content-2 = Datu kūpys uzturiešona, platformys atteisteišona i <africaMradiLink>kūpīnys programu</africaMradiLink> atbolsts prosa lelys izmoksys.
+about-playbook-how-funded-content-3 = Ka jius voi jiusu organizaceja gribit pīsadaleit projektā, varit veikt <donateLink>zīdojumu</donateLink> voi sasazynuot ar myusu partnereibys komandu, rokstūt iz e-posta adresi <emailFragment>commonvoice@mozilla.com</emailFragment>.
