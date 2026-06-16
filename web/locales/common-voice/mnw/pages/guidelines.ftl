@@ -96,6 +96,8 @@ adding-sentences-subheader-numbers-explanation = ပ္ဍဲ မလိက်တ
 adding-sentences-subheader-abbreviations = မလိက်ခမၞန် ကေုာံ အက္ခရ်ခမၞန်
 adding-sentences-subheader-abbreviations-explanation = မလိက်ခမၞန် ကေုာံ အက္ခရ်ခမၞန် မပ္တံကဵု “USA” ဟွံသေၚ်မ္ဂး “ICE” တအ်ဂှ် ထေက်ကဵု ဒးပါဲဝေင် ပ္ဍဲ မလိက်တမ်ရ၊ ဟိုတ်နူ မလိက်တအ်ဂှ် ဒးဗှ် ကဵုဗီုပြင်ဟွံကိတ်ညဳ ကဵုမလိက်ပံၚ်တအ်မာန်ရ။ ပဵုနူဏံပၠန် သွက်မလိက်ခမၞန်မွဲမွဲမဂှ် နွံကဵုဗီုပြင် ဗှ် စှ်ေစှ်ေဒးဒး ဂၠိုင်ကဵုနဲမာန်ရ။
 adding-sentences-subheader-punctuation = ဖျေံပိုတ်
+adding-sentences-subheader-punctuation-explanation = လက်သန် ကေုာံ သင်္ကေတ တၟေင်တအ်ဂှ် အခိၚ်ကာလ နွံပၟိက် ဒးစကာသုၚ်စောဲဟေင် ထေက်ကဵု ဒးစုတ် ရ။ ဥပမာ - သင်္ကေတ သကေံတဲလ္တူ (apostrophe) ဂှ် ပါလုပ် ပ္ဍဲ မလိက်အင်္ဂလိက် ဥပမာ “don’t” ဟွံသေၚ်မ္ဂး “we’re” တုဲ ဒးပါလုပ် ပ္ဍဲ မလိက်တမ် ကီုလေဝ်၊ သွက် သင်္ကေတ တၟေင် မပ္တံကဵု “@” ဟွံသေၚ်မ္ဂး “#” တအ်ဂှ် ဒှ်အရာမနွံပၟိက်စကာသုၚ်စောဲအောန်တဴရ။
+adding-sentences-subheader-special-characters = အက္ခရ်တၟေင် ကေုာံ မလိက်သအာၚ်ဂမၠိုင်
 
 ## Spontaneous Speech sidebar content
 
