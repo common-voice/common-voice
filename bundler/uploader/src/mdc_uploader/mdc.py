@@ -460,13 +460,8 @@ class MDCClient:
             )
         except Exception as exc:  # pylint: disable=broad-exception-caught
             status_code, _ = _extract_response_detail(exc)
-            logger.error(
-                "MDC",
-                "Failed to disable %s (HTTP %s): %s",
-                submission_id,
-                status_code,
-                exc,
-            )
+            detail = f" (HTTP {status_code})" if status_code is not None else ""
+            logger.error("MDC", "Failed to disable %s%s: %s", submission_id, detail, exc)
             return False
         return True
 
