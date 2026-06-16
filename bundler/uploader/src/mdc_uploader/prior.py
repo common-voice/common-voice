@@ -17,20 +17,21 @@ def load_prior_map(
     base_dir: str,
     release_spec: ReleaseSpec,
     force_rescrape: bool = False,
+    locales: set[str] | None = None,
+    site_base: str = MDC_SITE_BASE,
+    org_id: str = MDC_ORG_ID,
 ) -> dict[str, list[str]]:
-    """Return {locale_code -> [prior_submission_ids]}.
+    """Scrape the org page and return {locale_code -> [prior_submission_ids]}.
 
-    Returns {} when disable_mode is SKIP or the org page cannot be loaded.
-    Calls org_page.load_or_fetch() for both pre and post modes.
-
-    Note: version filter in build_prior_map already excludes current-version entries.
+    {} when disable_mode is SKIP or the page can't be loaded. `locales` (if given)
+    restricts the map to those codes.
     """
     if disable_mode == DisableMode.SKIP:
         return {}
 
     datasets = org_page.load_or_fetch(
-        site_base=MDC_SITE_BASE,
-        org_id=MDC_ORG_ID,
+        site_base=site_base,
+        org_id=org_id,
         gcs_base=base_dir,
         force_rescrape=force_rescrape,
     )
@@ -43,4 +44,5 @@ def load_prior_map(
         datasets=datasets,
         modality=release_spec.modality,
         current_version=release_spec.version,
+        locales=locales,
     )

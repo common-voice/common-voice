@@ -5,10 +5,12 @@ from __future__ import annotations
 from unittest.mock import MagicMock, patch
 
 import pytest
+from datacollective import Visibility
 from requests import Response
 from requests.exceptions import HTTPError
 
 from mdc_uploader.mdc import (
+    UPLOAD_PART_SIZE,
     MDCClient,
     OrphanedDraftError,
     RateLimitError,
@@ -374,6 +376,7 @@ class TestResumeAndUpload:
             file_path="/fake/file.tar.gz",
             submission_id="sub-existing",
             state_path="/state/mdc-upload-fr.json",
+            part_size=UPLOAD_PART_SIZE,
             enable_logging=False,
             show_progress=False,
         )
@@ -533,29 +536,27 @@ class TestDisableSubmission:
     def _client(self) -> MDCClient:
         return MDCClient(api_key="test", api_url="http://test")
 
-    def test_disable_submission_pending_when_endpoint_none(self) -> None:
-        """When MDC_DISABLE_ENDPOINT is None, returns False and logs PENDING."""
-        import mdc_uploader.constants as consts
-        original = consts.MDC_DISABLE_ENDPOINT
-        try:
-            consts.MDC_DISABLE_ENDPOINT = None
+    def test_disable_submission_sets_visibility_private(self) -> None:
+        """disable_submission PATCHes visibility=private via update_submission and returns True."""
+        with patch("mdc_uploader.mdc.update_submission") as mock_update:
             result = self._client().disable_submission("sub-123")
-        finally:
-            consts.MDC_DISABLE_ENDPOINT = original
+        assert result is True
+        mock_update.assert_called_once()
+        call_args, _ = mock_update.call_args
+        assert call_args[0] == "sub-123"
+        assert call_args[1].visibility == Visibility.PRIVATE
+
+    def test_disable_submission_returns_false_on_error(self) -> None:
+        """API failure is caught; disable_submission returns False (non-fatal)."""
+        with patch("mdc_uploader.mdc.update_submission", side_effect=RuntimeError("boom")):
+            result = self._client().disable_submission("sub-123")
         assert result is False
 
     def test_disable_submissions_returns_map(self) -> None:
-        """disable_submissions returns {id -> result} map."""
-        import mdc_uploader.constants as consts
-        original = consts.MDC_DISABLE_ENDPOINT
-        try:
-            consts.MDC_DISABLE_ENDPOINT = None
+        """disable_submissions returns {id -> success} map."""
+        with patch("mdc_uploader.mdc.update_submission"):
             result = self._client().disable_submissions(["sub-a", "sub-b"])
-        finally:
-            consts.MDC_DISABLE_ENDPOINT = original
-        assert set(result.keys()) == {"sub-a", "sub-b"}
-        assert result["sub-a"] is False
-        assert result["sub-b"] is False
+        assert result == {"sub-a": True, "sub-b": True}
 
     def test_disable_submissions_empty_list(self) -> None:
         """disable_submissions on empty list returns empty dict."""
@@ -563,16 +564,9 @@ class TestDisableSubmission:
         assert result == {}
 
     def test_disable_submissions_nonfatal_on_exception(self) -> None:
-        """Unhandled exception in disable_submission is caught; result is False."""
-        client = self._client()
-        import mdc_uploader.constants as consts
-        original = consts.MDC_DISABLE_ENDPOINT
-        try:
-            consts.MDC_DISABLE_ENDPOINT = ("DELETE", "/submissions/{id}")
-            result = client.disable_submissions(["sub-fail"])
-        finally:
-            consts.MDC_DISABLE_ENDPOINT = original
-        # NotImplementedError is caught as broad exception, result = False
+        """An exception for one id is caught; that id maps to False."""
+        with patch("mdc_uploader.mdc.update_submission", side_effect=RuntimeError("boom")):
+            result = self._client().disable_submissions(["sub-fail"])
         assert result["sub-fail"] is False
 
 

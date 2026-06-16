@@ -356,20 +356,11 @@ def _disable_prior_version(
     prior_ids: list[str],
     client: MDCClient,
 ) -> tuple[list[str], list[str], list[str]]:
-    """Disable prior MDC submissions for one locale.
+    """Set each prior submission for one locale to private.
 
-    Returns (disabled_ids, failed_ids, pending_ids).
-    Never raises -- all exceptions are caught and logged.
+    Returns (disabled, failed, pending); pending is always empty (kept for the
+    dry-run result shape). Never raises.
     """
-    from mdc_uploader.constants import (  # pylint: disable=import-outside-toplevel
-        MDC_DISABLE_ENDPOINT,
-    )
-
-    if MDC_DISABLE_ENDPOINT is None:
-        for sid in prior_ids:
-            logger.info("MDC", "[%s] PENDING: would disable %s", locale, sid)
-        return [], [], list(prior_ids)
-
     disabled: list[str] = []
     failed: list[str] = []
     for sid in prior_ids:
@@ -932,20 +923,34 @@ def run_batch(config: UploaderConfig) -> bool:
         # Empty for skip mode or when org page is unavailable.
         prior_map: dict[str, list[str]] = {}
         if config.disable_mode != DisableMode.SKIP:
-            prior_map = prior_module.load_prior_map(
-                disable_mode=config.disable_mode,
-                base_dir=config.base_dir,
-                release_spec=release_spec,
-                force_rescrape=config.force_rescrape,
-            )
-            # Exclude the target submission when --submission-id is used with --disable-prior.
-            if config.submission_id:
-                prior_map = {
-                    loc: [s for s in ids if s != config.submission_id]
-                    for loc, ids in prior_map.items()
-                    if any(s != config.submission_id for s in ids)
-                }
-            state.locales_with_prior = len(prior_map)
+            if not config.org_id:
+                # No org id for this target -> skip (avoid scraping the wrong env).
+                logger.warning(
+                    "UPLOAD",
+                    "--disable-prior set but no org id resolved for target '%s' -- "
+                    "skipping disable. Set MDC_ORG_ID or add the org id to constants.",
+                    config.upload_target,
+                )
+            else:
+                # Disable only the locales uploaded this run (modality already enforced).
+                run_locales = {job.locale for job in jobs}
+                prior_map = prior_module.load_prior_map(
+                    disable_mode=config.disable_mode,
+                    base_dir=config.base_dir,
+                    release_spec=release_spec,
+                    force_rescrape=config.force_rescrape,
+                    locales=run_locales,
+                    site_base=config.site_base,
+                    org_id=config.org_id,
+                )
+                # Exclude the target submission when --submission-id is used with --disable-prior.
+                if config.submission_id:
+                    prior_map = {
+                        loc: [s for s in ids if s != config.submission_id]
+                        for loc, ids in prior_map.items()
+                        if any(s != config.submission_id for s in ids)
+                    }
+                state.locales_with_prior = len(prior_map)
 
         # Pre-mode: bulk disable all prior versions before starting uploads.
         if config.disable_mode == DisableMode.PRE and prior_map:
