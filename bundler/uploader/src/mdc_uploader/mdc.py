@@ -180,6 +180,9 @@ class MDCClient:
             other=datasheet_text or "No datasheet available for this release.",
             pointOfContactFullName=POINT_OF_CONTACT_NAME,
             pointOfContactEmail=POINT_OF_CONTACT_EMAIL,
+            # Required for final submission since datacollective 0.5.2.
+            showContactInfo=True,
+            visibility=Visibility.PUBLIC,
             agreeToSubmit=True,
         )
 

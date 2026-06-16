@@ -19,6 +19,7 @@ from mdc_uploader.mdc import (
     _is_retryable,
     _wrap_exception,
 )
+from mdc_uploader.models import Modality, ReleaseSpec
 
 
 class TestWrapException:
@@ -228,6 +229,31 @@ class TestOrphanedDraftError:
         )
         assert exc.file_upload_id == "upload-456"
         assert exc.response_body == '{"error":"bad locale"}'
+
+
+class TestBuildSubmission:
+    """build_submission must set the fields that gate final submission (0.5.2+)."""
+
+    def test_sets_required_final_fields(self) -> None:
+        """visibility, showContactInfo and agreeToSubmit are populated."""
+        client = MDCClient(api_key="test", api_url="http://test")
+        spec = ReleaseSpec(
+            release_name="sps-corpus-4.0-2026-06-12",
+            modality=Modality.SPS,
+            version="4.0",
+            date="2026-06-12",
+        )
+        sub = client.build_submission(
+            release_spec=spec,
+            english_name="Turkish",
+            native_name="Türkçe",
+            locale="tr",
+            license_name=None,
+            datasheet_text="datasheet",
+        )
+        assert sub.visibility == Visibility.PUBLIC
+        assert sub.showContactInfo is True
+        assert sub.agreeToSubmit is True
 
 
 class TestCreateAndUpload:
