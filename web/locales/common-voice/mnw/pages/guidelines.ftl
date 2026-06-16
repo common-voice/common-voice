@@ -87,13 +87,15 @@ self-citation = နိဿဲစကေတ်တ်
 self-citation-explanation = ယဝ်ခါရ မၞးချူလဝ်လိက်ဂှ်အလဵုမၞးမ္ဂး ဣဏံဂှ် ဒှ်ဗီုဂွံသ္ပနိဿဲအလဵုမၞးကေတ်တ်ရ။
 adding-sentences-subheader-length = ဇမၠိၚ်
 adding-sentences-subheader-length-explanation = ဝါကျဂှ် မလိက်ထေက်ကဵုဒးအောန်နူ ၁၅ မရောၚ်။
-adding-sentences-subheader-spelling-punctuation = ပံၚ်အက္ခရ် ကေုာံ ဖျေံပိုဒ်
+adding-sentences-subheader-spelling-punctuation = ပံၚ်အက္ခရ် ကေုာံ ဖျေံပိုတ်
 adding-sentences-subheader-spelling-punctuation-explanation = ဝါကျဂှ် ဒးချူပံၚ်လဝ်အက္ခရ်ဗွဲမဍာံပြဟေၚ်ရောၚ်
 adding-sentences-subheader-speakable = ဟီုဂးမာန်
 adding-sentences-subheader-speakable-explanation = ဝါကျခိုဟ်အိုတ်တအ်ဂှ် ဒှ်ဝါကျ မစှ်ေသဘာဝ ကေုာံ ဗီုပြင်ဟီုဂးစမြဟ် ရ — ဝါကျတအ်ဂှ် သွက်မၞိဟ်မွဲမွဲ ဂွံဗှ် ဒးလောဲသွာရောၚ်။ ရမျှာၚ်တၞဟ်ခြာ ကေုာံ မအရေဝ်ဟွံတုပ်တအ် ၜိုန်ရ ဒှ်အရာကိစ္စဇၞော်ကီုလေဝ်၊ ပိုယ် ဂစာန်ကၠောန်ဒၟံင် သွက် ပရေၚ်ပၠောပ်ရမျှာၚ် ဝါကျတအ် ဂွံဒှ် အရာ စိုတ်ဂွံလုပ်စ ကေုာံ စိုတ်ဂွံမိပ်ဇြိပ် သွက် ဂကောံညးတၠစေတနာ လုပ်ကမၠောန်ပိုယ် ဂၠိုင်အိုတ် ရ။
 adding-sentences-subheader-numbers = လၟိဟ်ဂၞန်ဂမၠိုင်
 adding-sentences-subheader-numbers-explanation = ပ္ဍဲ မလိက်တမ်ဂှ် ဗွဲမဂၠိုင် လၟိဟ်ဂၞန်တအ် ဟွံမိက်ကဵုပါလုပ်နွံတဴရ၊ ဟိုတ်နူ မဂၞန်တအ်ဂှ် ဖန်ကဵု ပြသၞာမာန် ကာလ ဗှ် ရ။ ဗီုပြင် ဗှ်ဂၞန်မွဲမွဲဂှ် တန်တဴကဵု အကာဲအရာ တုဲ ဍေဟ် က္တဵုဗဒှ်ကဵု ပရေင်ထုဲထံင် ပ္ဍဲ တၚ်ဂၞၚ်မူလပစ္စယ် မာန်ရ။ ဥပမာ - ဂၞန် “2409” ဂှ် ဗှ် ဗွဲမဒး နကဵု “ၜါစှော်ပန် သုည ဒ္စိတ်” ကီု သီုကဵု “ၜါလ္ၚီ ပန်ကၠံ ဒ္စိတ်” မာန် သီုၜါ ရ။
-adding-sentences-subheader-abbreviations = အရေဝ်က္ဍန်န် ကေုာံ မလိက်က္ဍန်န်
+adding-sentences-subheader-abbreviations = မလိက်ခမၞန် ကေုာံ အက္ခရ်ခမၞန်
+adding-sentences-subheader-abbreviations-explanation = မလိက်ခမၞန် ကေုာံ အက္ခရ်ခမၞန် မပ္တံကဵု “USA” ဟွံသေၚ်မ္ဂး “ICE” တအ်ဂှ် ထေက်ကဵု ဒးပါဲဝေင် ပ္ဍဲ မလိက်တမ်ရ၊ ဟိုတ်နူ မလိက်တအ်ဂှ် ဒးဗှ် ကဵုဗီုပြင်ဟွံကိတ်ညဳ ကဵုမလိက်ပံၚ်တအ်မာန်ရ။ ပဵုနူဏံပၠန် သွက်မလိက်ခမၞန်မွဲမွဲမဂှ် နွံကဵုဗီုပြင် ဗှ် စှ်ေစှ်ေဒးဒး ဂၠိုင်ကဵုနဲမာန်ရ။
+adding-sentences-subheader-punctuation = ဖျေံပိုတ်
 
 ## Spontaneous Speech sidebar content
 
