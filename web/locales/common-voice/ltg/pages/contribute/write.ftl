@@ -77,7 +77,10 @@ minimum-sentences = Minimalais teikumu skaits failā: 1000
 maximum-file-size = Maksimalais faila izmārs: 25 MB
 what-needs-to-be-in-file = Kam juobyut munā failā?
 upload-progress-text = Nūteik augšynluode...
+bulk-upload-success-toast = Teikumi augšynluodāti
 bulk-upload-failed-toast = Augšynluode naizadeve, lyudzu, raugi vēļreiz.
+bulk-submission-success-header = Paļdis par teikumu dalikšonu!
+bulk-submission-success-subheader = Jius paleidzit Common Voice sasnēgt kasdīnys teikumu pīvīnuošonys mierki!
 upload-more-btn-text = Augšynluodēt vaira teikumu?
 file-invalid-type = Nadereigs fails
 file-too-large = Fails ir par lelu
@@ -90,9 +93,14 @@ exceeds-small-batch-limit-error = Navar īsnīgt vaira par 1000 teikumu
 small-batch-sentences-rule-2 = Kotrā ryndā dalīcit vīnu teikumu
 small-batch-sentences-rule-5 = Vysim teikumim ir juobyut nu vīnys jūmys
 small-batch-sentences-rule-6 = Vysim teikumim juobyut nu vīna olūta
+# menu item
+add-sentences = Dalikt teikumus
 
 ## MENU ITEM TOOLTIPS
 
+add-sentences-menu-item-tooltip = Dalikt teikumus sovā volūdā
+review-sentences-menu-item-tooltip = Puorsaverit teikumus sovā volūdā
+add-questions-menu-item-tooltip = Dalikt vaicuojumus sovā volūdā
 review-questions-menu-item-tooltip = Puorsavērt vaicuojumus
 transcribe-audio-menu-item-tooltip = Puorrokstit audio īrokstus
 
@@ -102,4 +110,5 @@ write-contribute-menu-aria-label = Raksteišonys īspieju izvēļne
 add-sentences-menu-item-aria-label = Dalīcit jaunus teikumus skaiteišonai
 review-sentences-menu-item-aria-label = Puorsaverit cytu daleibnīku īsnāgtūs teikumus
 add-questions-menu-item-aria-label = Īsnēdzit jaunus vaicuojumus īlaseišonai i atbiļdiešonai
+review-questions-menu-item-aria-label = Puorsavērt i bolsuot par jaunim kūpīnys īsnāgtajim vaicuojumim
 transcribe-audio-menu-item-aria-label = Puorrokstit audio īrokstus
