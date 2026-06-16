@@ -1,8 +1,9 @@
-"""Type stubs for datacollective SDK v0.5.1."""
+"""Type stubs for datacollective SDK v0.5.2."""
 
 from datacollective.models import DatasetSubmission as DatasetSubmission
 from datacollective.models import License as License
 from datacollective.models import Task as Task
+from datacollective.models import Visibility as Visibility
 from datacollective.submissions import (
     create_submission_draft as create_submission_draft,
 )
