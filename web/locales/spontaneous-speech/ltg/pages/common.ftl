@@ -47,6 +47,12 @@ accept-privacy-and-terms = Es pīkreitu Common Voice <termsLink>nūsacejumim</te
 # Locales-Variants
 ms-MY = Bahasa Malay
 
+## Language search component
+
+language-search-placeholder = Meklej volūdu...
+language-search-aria-label = Meklēt volūdu
+language-search-no-results = Volūda nav atrosta
+
 ## Transcription Player - Mode Buttons
 
 # Transcription Player - Automatic Mode
@@ -66,6 +72,8 @@ player-play-pause-shortcut-key = Ctrl / Cmd + P
 # Player control shortcut to go back 5 seconds: pressed with Ctrl/Cmd
 player-skip-backward-shortcut = 8
 player-skip-backward-shortcut-key = Ctrl / Cmd + 8
+player-skip-backward-shortcut-name = Atpakaļ
 # Player control shortcut to go forwards 5 seconds: pressed with Ctrl/Cmd
 player-skip-forward-shortcut = 9
 player-skip-forward-shortcut-key = Ctrl / Cmd + 9
+player-skip-forward-shortcut-name = Iz prīšku
