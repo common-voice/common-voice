@@ -1,5 +1,6 @@
 """Type stubs for datacollective SDK v0.5.2."""
 
+from datacollective.datasets import get_dataset_details as get_dataset_details
 from datacollective.models import DatasetSubmission as DatasetSubmission
 from datacollective.models import License as License
 from datacollective.models import Task as Task

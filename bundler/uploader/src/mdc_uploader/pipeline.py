@@ -8,18 +8,17 @@ import threading
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-from mdc_uploader import language, prior as prior_module
+from mdc_uploader import language
 from mdc_uploader.config import UploaderConfig
 from mdc_uploader.gcs import (
-    parse_gcs_uri,
     gcs_list_tarballs,
     gcs_read_text,
     is_gcs_uri,
+    parse_gcs_uri,
 )
 from mdc_uploader.log import logger
 from mdc_uploader.mdc import MDCClient, OrphanedDraftError
 from mdc_uploader.models import (
-    DisableMode,
     LocaleUploadJob,
     ReleaseSpec,
     ReleaseType,
@@ -218,9 +217,7 @@ def _resolve_file_and_datasheet(
         tmp_dir: str | None = None
         try:
             # File must persist for the upload -- caller handles cleanup.
-            from google.cloud import (  # type: ignore[import-untyped]  # pylint: disable=import-outside-toplevel
-                storage as gcs_storage,
-            )
+            from google.cloud import storage as gcs_storage  # noqa: E501,I001  # pylint: disable=import-outside-toplevel
 
             bucket_name, base_prefix = parse_gcs_uri(base_dir)
             gcs_client = gcs_storage.Client()
@@ -245,8 +242,8 @@ def _resolve_file_and_datasheet(
             # Clean up temp dir/file on download failure to avoid leaking disk space
             if tmp_dir:
                 try:
-                    for f in os.listdir(tmp_dir):
-                        os.unlink(os.path.join(tmp_dir, f))
+                    for name in os.listdir(tmp_dir):
+                        os.unlink(os.path.join(tmp_dir, name))
                     os.rmdir(tmp_dir)
                 except OSError:
                     pass
@@ -285,7 +282,10 @@ def _cleanup_gcs_temp(
     release_name: str = "",
     release_type: str = "",
 ) -> None:
-    """Remove GCS temp tarball and copy SDK state files (.mdc-upload.json) to STATE_DIR for --resume."""
+    """Remove the GCS temp tarball and copy SDK state files to STATE_DIR for --resume.
+
+    State files (.mdc-upload.json) are preserved so a later --resume can find them.
+    """
     try:
         tmp_dir = os.path.dirname(tmp_file)
 
@@ -349,28 +349,6 @@ def _sdk_state_path(
         return os.path.join(STATE_DIR, fname)
     upload_logs = os.path.join(base_dir, release_name, "upload-logs")
     return os.path.join(upload_logs, fname)
-
-
-def _disable_prior_version(
-    locale: str,
-    prior_ids: list[str],
-    client: MDCClient,
-) -> tuple[list[str], list[str], list[str]]:
-    """Set each prior submission for one locale to private.
-
-    Returns (disabled, failed, pending); pending is always empty (kept for the
-    dry-run result shape). Never raises.
-    """
-    disabled: list[str] = []
-    failed: list[str] = []
-    for sid in prior_ids:
-        try:
-            ok = client.disable_submission(sid)
-            (disabled if ok else failed).append(sid)
-        except Exception as exc:  # pylint: disable=broad-exception-caught
-            logger.warning("MDC", "[%s] Failed to disable %s: %s", locale, sid, exc)
-            failed.append(sid)
-    return disabled, failed, []
 
 
 def _preserve_sdk_state_local(
@@ -683,6 +661,7 @@ def process_locale(  # pylint: disable=too-many-return-statements,too-many-branc
                 locale=locale,
             )
         else:
+            assert tarball_local is not None
             submission_id, _ = client.create_and_upload(
                 file_path=tarball_local,
                 submission=submission,
@@ -785,31 +764,6 @@ def print_summary(state: BatchState) -> None:
     if log_path:
         logger.info("UPLOAD", "Log file: %s", log_path)
 
-    # Disable-prior footer (only shown when mode is not skip)
-    if state.disable_mode != DisableMode.SKIP:
-        logger.info("UPLOAD", "")
-        if state.disable_mode == DisableMode.PRE:
-            logger.info("UPLOAD", "Pre-disabled prior versions: %d", state.disabled_total)
-        else:
-            logger.info(
-                "UPLOAD",
-                "Post-disabled prior versions: %d submission(s) in %d locale(s)",
-                state.disabled_total,
-                state.locales_disabled_count,
-            )
-        if state.disable_pending_total > 0:
-            logger.info(
-                "UPLOAD",
-                "Pending (endpoint TBD): %d",
-                state.disable_pending_total,
-            )
-        if state.disable_failed_ids:
-            logger.info(
-                "UPLOAD",
-                "Failed to disable: %s",
-                state.disable_failed_ids,
-            )
-
     if failed > 0:
         logger.info("UPLOAD", "")
         logger.info(
@@ -880,7 +834,6 @@ def run_batch(config: UploaderConfig) -> bool:
         upload_target=config.upload_target,
         release_type=config.release_type.value,
         base_dir=config.base_dir,
-        disable_mode=config.disable_mode.value,
     )
 
     try:
@@ -918,71 +871,6 @@ def run_batch(config: UploaderConfig) -> bool:
             if not config.dry_run
             else None
         )
-
-        # Prior version map: loaded once for both pre and post modes.
-        # Empty for skip mode or when org page is unavailable.
-        prior_map: dict[str, list[str]] = {}
-        if config.disable_mode != DisableMode.SKIP:
-            if not config.org_id:
-                # No org id for this target -> skip (avoid scraping the wrong env).
-                logger.warning(
-                    "UPLOAD",
-                    "--disable-prior set but no org id resolved for target '%s' -- "
-                    "skipping disable. Set MDC_ORG_ID or add the org id to constants.",
-                    config.upload_target,
-                )
-            else:
-                # Disable only the locales uploaded this run (modality already enforced).
-                run_locales = {job.locale for job in jobs}
-                prior_map = prior_module.load_prior_map(
-                    disable_mode=config.disable_mode,
-                    base_dir=config.base_dir,
-                    release_spec=release_spec,
-                    force_rescrape=config.force_rescrape,
-                    locales=run_locales,
-                    site_base=config.site_base,
-                    org_id=config.org_id,
-                )
-                # Exclude the target submission when --submission-id is used with --disable-prior.
-                if config.submission_id:
-                    prior_map = {
-                        loc: [s for s in ids if s != config.submission_id]
-                        for loc, ids in prior_map.items()
-                        if any(s != config.submission_id for s in ids)
-                    }
-                state.locales_with_prior = len(prior_map)
-
-        # Pre-mode: bulk disable all prior versions before starting uploads.
-        if config.disable_mode == DisableMode.PRE and prior_map:
-            all_prior = [sid for ids in prior_map.values() for sid in ids]
-            logger.info(
-                "UPLOAD",
-                "Pre-disabling %d submission(s) across %d locale(s)...",
-                len(all_prior),
-                len(prior_map),
-            )
-            if config.dry_run:
-                logger.info(
-                    "UPLOAD",
-                    "DRY RUN -- would pre-disable %d submission(s): %s",
-                    len(all_prior),
-                    all_prior,
-                )
-                state.disable_pending_total += len(all_prior)
-            elif client is not None:
-                for locale_code, ids in prior_map.items():
-                    dis, fail, pend = _disable_prior_version(locale_code, ids, client)
-                    state.disabled_total += len(dis)
-                    state.disable_failed_ids.extend(fail)
-                    state.disable_pending_total += len(pend)
-                logger.info(
-                    "UPLOAD",
-                    "Pre-disable complete: %d disabled, %d pending, %d failed",
-                    state.disabled_total,
-                    state.disable_pending_total,
-                    len(state.disable_failed_ids),
-                )
-                state.flush()  # persist before batch starts — survives pod recycle
 
         # Streaming is default for gs:// URIs; --no-stream disables it.
         use_streaming = is_gcs_uri(config.base_dir) and not config.no_stream
@@ -1034,51 +922,19 @@ def run_batch(config: UploaderConfig) -> bool:
         def _log_result(result: UploadResult) -> None:
             nonlocal completed_count
 
-            # Post-mode: disable prior version immediately after a successful upload.
-            if (
-                config.disable_mode == DisableMode.POST
-                and result.status == "success"
-                and result.locale in prior_map
-            ):
-                prior_ids = prior_map[result.locale]
-                if config.dry_run:
-                    logger.info(
-                        "UPLOAD",
-                        "[%s] DRY RUN -- would disable %d prior: %s",
-                        result.locale,
-                        len(prior_ids),
-                        prior_ids,
-                    )
-                    result.disable_pending_ids = list(prior_ids)
-                elif client is not None:
-                    dis, fail, pend = _disable_prior_version(result.locale, prior_ids, client)
-                    result.disabled_ids = dis
-                    result.disable_failed_ids = fail
-                    result.disable_pending_ids = pend
-
             state.record(result)
             with completed_lock:
                 completed_count += 1
                 idx = completed_count
             total = len(jobs)
 
-            # Build optional disable suffix for the log line
-            disable_suffix = ""
-            if result.disabled_ids:
-                disable_suffix = f"  [disabled {len(result.disabled_ids)} prior]"
-            elif result.disable_pending_ids:
-                disable_suffix = f"  [disable pending: {len(result.disable_pending_ids)}]"
-            elif result.disable_failed_ids:
-                disable_suffix = f"  [disable failed: {result.disable_failed_ids}]"
-
             if result.status == "success":
                 logger.info(
                     "UPLOAD",
-                    "[%d/%d] %s -- SUCCESS (%s in %.1fs)%s",
+                    "[%d/%d] %s -- SUCCESS (%s in %.1fs)",
                     idx, total, result.locale,
                     format_size(result.size_bytes),
                     result.duration_seconds,
-                    disable_suffix,
                 )
             elif result.status == "failed":
                 logger.error(
@@ -1089,8 +945,8 @@ def run_batch(config: UploaderConfig) -> bool:
             elif result.status == "skipped":
                 logger.info(
                     "UPLOAD",
-                    "[%d/%d] %s -- SKIPPED (dry run)%s",
-                    idx, total, result.locale, disable_suffix,
+                    "[%d/%d] %s -- SKIPPED (dry run)",
+                    idx, total, result.locale,
                 )
             progress.update(1)
 

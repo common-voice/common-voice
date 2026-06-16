@@ -60,7 +60,10 @@ class TransientError(Exception):
 
 
 def _is_retryable(exc: BaseException) -> bool:
-    """Return True for RateLimitError/TransientError only (NOT bare OSError — HTTPError inherits it)."""
+    """Return True only for RateLimitError/TransientError.
+
+    Not bare OSError -- requests.HTTPError inherits it.
+    """
     if isinstance(exc, RateLimitError):
         return exc.retry_after <= MAX_RETRY_AFTER_SECONDS
     return isinstance(exc, TransientError)
@@ -219,7 +222,7 @@ class MDCClient:
         # Step 2: Upload file
         logger.info("MDC", "Step 2/4: Uploading %s...", os.path.basename(file_path))
         try:
-            upload_kwargs: dict = {
+            upload_kwargs: dict[str, Any] = {
                 "file_path": file_path,
                 "submission_id": submission_id,
                 "part_size": UPLOAD_PART_SIZE,
@@ -394,7 +397,7 @@ class MDCClient:
         submission: DatasetSubmission,
     ) -> tuple[str, bool]:
         """Steps 3+4: update metadata and submit for review."""
-        submission.fileUploadId = file_upload_id  # type: ignore[attr-defined]
+        submission.fileUploadId = file_upload_id
 
         # Step 3: Update metadata
         logger.info("MDC", "Step 3/4: Updating metadata for %s...", submission_id)
@@ -450,50 +453,6 @@ class MDCClient:
             raise _wrap_exception(exc) from exc
         logger.info("MDC", "New version uploaded to %s", submission_id)
         return True
-
-    def disable_submission(self, submission_id: str) -> bool:
-        """Make one prior submission private via update_submission (MDC has no
-        disable endpoint). PATCHes only `visibility`; returns False on failure (non-fatal).
-        """
-        logger.info("MDC", "Disabling %s (visibility=private)", submission_id)
-        try:
-            update_submission(
-                submission_id,
-                DatasetSubmission(visibility=Visibility.PRIVATE),
-            )
-        except Exception as exc:  # pylint: disable=broad-exception-caught
-            status_code, _ = _extract_response_detail(exc)
-            detail = f" (HTTP {status_code})" if status_code is not None else ""
-            logger.error("MDC", "Failed to disable %s%s: %s", submission_id, detail, exc)
-            return False
-        return True
-
-    def disable_submissions(
-        self, submission_ids: list[str]
-    ) -> dict[str, bool]:
-        """Disable multiple MDC dataset submissions.
-
-        Returns {submission_id -> success}. Non-fatal per entry: failures are
-        logged and included in the result map as False.
-        """
-        results: dict[str, bool] = {}
-        for sid in submission_ids:
-            try:
-                results[sid] = self.disable_submission(sid)
-            except Exception as exc:  # pylint: disable=broad-exception-caught
-                logger.warning("MDC", "Unhandled error disabling %s: %s", sid, exc)
-                results[sid] = False
-
-        success = sum(1 for v in results.values() if v)
-        failed = len(results) - success
-        logger.info(
-            "MDC",
-            "disable_submissions: %d succeeded, %d failed (of %d total)",
-            success,
-            failed,
-            len(submission_ids),
-        )
-        return results
 
 
 class OrphanedDraftError(Exception):
