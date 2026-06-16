@@ -1,10 +1,8 @@
-"""MDC org page scraping: discover all dataset submissions for our organization.
+"""MDC org page scraping: discover the organization's published datasets.
 
 Fetches the server-side-rendered org page and regex-parses locale codes,
-submission IDs, and dataset names. Saves/loads a stable GCS snapshot so
+dataset ids, and dataset names. Saves/loads a stable GCS snapshot so
 subsequent runs reuse the cached data without re-scraping.
-
-T0.2: Validate regex patterns against actual MDC org page HTML before activating disable calls.
 """
 
 from __future__ import annotations
@@ -12,14 +10,14 @@ from __future__ import annotations
 import json
 import os
 import re
+from dataclasses import dataclass
 from datetime import UTC, datetime
 
 import httpx
 
-from mdc_uploader.constants import MDC_ORG_ID, MDC_SITE_BASE
+from mdc_disabler.constants import MDC_ORG_ID, MDC_SITE_BASE
 from mdc_uploader.gcs import gcs_read_text, gcs_write_text, is_gcs_uri
 from mdc_uploader.log import logger
-from mdc_uploader.models import Modality, OrgDataset
 
 # Stable snapshot blob paths relative to base_dir (no timestamp, no release)
 _SNAPSHOT_JSON = ".state/org-snapshot.json"
@@ -32,11 +30,9 @@ _SNAPSHOT_MAX_AGE_HOURS = 48
 _TAG_RE = re.compile(r"<[^>]+>")
 
 # Dataset name format: "Common Voice Scripted Speech 25.0 - English"
-_NAME_RE = re.compile(
-    r"^Common Voice (Scripted|Spontaneous) Speech (\d+\.\d+) - (.+)$"
-)
+_NAME_RE = re.compile(r"^Common Voice (Scripted|Spontaneous) Speech (\d+\.\d+) - (.+)$")
 
-# href="/datasets/{id}" with DOTALL to capture anchor content including inner HTML; caller strips via _TAG_RE.
+# href="/datasets/{id}" with DOTALL to capture anchor inner HTML; caller strips via _TAG_RE.
 _LINK_RE = re.compile(
     r'href="/datasets/([a-z0-9]{15,})"[^>]*>(.*?)</a>',
     re.DOTALL | re.IGNORECASE,
@@ -52,6 +48,19 @@ _CELL_RE = re.compile(r"<td[^>]*>\s*([^<\s][^<]*?)\s*</td>", re.IGNORECASE)
 _LOCALE_CODE_RE = re.compile(r"^[a-z]{2,3}(?:-[a-zA-Z0-9]+)*$")
 
 
+@dataclass
+class OrgDataset:
+    """A dataset scraped from the MDC org page (the id is a dataset id)."""
+
+    locale_code: str   # e.g. "en", "rm-vallader"
+    modality: str      # "scs" | "sps" (parsed from name)
+    version: str       # e.g. "25.0" (parsed from name)
+    dataset_id: str    # the /datasets/{id} value -- a dataset id, not a submission id
+    name: str          # full display name
+    locale_name: str   # English locale name from the name field
+    href: str          # "/datasets/{dataset_id}"
+
+
 def fetch_org_datasets(
     site_base: str = MDC_SITE_BASE,
     org_id: str = MDC_ORG_ID,
@@ -59,8 +68,7 @@ def fetch_org_datasets(
 ) -> list[OrgDataset]:
     """GET /organization/{org_id} and regex-parse datasets from HTML.
 
-    Returns [] on any HTTP or parse failure — caller decides how to proceed.
-    T0.2: Validate and adjust regex patterns against actual MDC org page HTML.
+    Returns [] on any HTTP or parse failure -- caller decides how to proceed.
     """
     url = f"{site_base}/organization/{org_id}"
     try:
@@ -81,10 +89,8 @@ def fetch_org_datasets(
 def _parse_org_page(html: str) -> list[OrgDataset]:
     """Parse org page HTML into an OrgDataset list.
 
-    Expected HTML structure: a table where each row contains a dataset link
-    (href="/datasets/{id}") and a locale code in an adjacent cell.
-
-    T0.2: Adjust regex patterns after inspecting actual MDC org page HTML.
+    Each row contains a dataset link (href="/datasets/{id}") and a locale code
+    in an adjacent cell.
     """
     results: list[OrgDataset] = []
     seen_ids: set[str] = set()
@@ -92,43 +98,40 @@ def _parse_org_page(html: str) -> list[OrgDataset]:
     for row_m in _ROW_RE.finditer(html):
         row_html = row_m.group(1)
 
-        # Find dataset link: href + anchor text (dataset name)
         link_m = _LINK_RE.search(row_html)
         if not link_m:
             continue
-        submission_id = link_m.group(1)
-        if submission_id in seen_ids:
+        dataset_id = link_m.group(1)
+        if dataset_id in seen_ids:
             continue
         name = _TAG_RE.sub("", link_m.group(2)).strip()
 
-        # Parse name: "Common Voice {Scripted|Spontaneous} Speech {version} - {locale_name}"
         name_m = _NAME_RE.match(name)
         if not name_m:
             continue
         modality_word, version, locale_name = name_m.groups()
         modality = "scs" if modality_word == "Scripted" else "sps"
 
-        # Extract locale code: look for a standalone locale-code value in table cells
         locale_code = _extract_locale_code(row_html)
         if not locale_code:
             logger.warning(
                 "ORG",
                 "Could not extract locale code for %s (%s) -- skipping",
-                submission_id,
+                dataset_id,
                 name,
             )
             continue
 
-        seen_ids.add(submission_id)
+        seen_ids.add(dataset_id)
         results.append(
             OrgDataset(
                 locale_code=locale_code,
                 modality=modality,
                 version=version,
-                submission_id=submission_id,
+                dataset_id=dataset_id,
                 name=name,
                 locale_name=locale_name,
-                href=f"/datasets/{submission_id}",
+                href=f"/datasets/{dataset_id}",
             )
         )
 
@@ -137,18 +140,18 @@ def _parse_org_page(html: str) -> list[OrgDataset]:
 
 def _extract_locale_code(row_html: str) -> str:
     """Extract locale code from a table row's cells or data attributes."""
-    # Primary: look for a <td> containing only a locale-code value
+    # Primary: a <td> containing only a locale-code value
     for cell_m in _CELL_RE.finditer(row_html):
         cell_text = cell_m.group(1).strip()
         if _LOCALE_CODE_RE.match(cell_text):
             return cell_text
 
-    # Fallback 1: data-locale="..." attribute on any element
+    # Fallback 1: data-locale="..." attribute
     attr_m = re.search(r'data-locale="([a-z][a-z0-9-]+)"', row_html, re.IGNORECASE)
     if attr_m:
         return attr_m.group(1)
 
-    # Fallback 2: strip HTML and scan text tokens for a locale-shaped value.
+    # Fallback 2: scan plain-text tokens for a locale-shaped value
     plain = _TAG_RE.sub(" ", row_html)
     for token in plain.split():
         if _LOCALE_CODE_RE.match(token):
@@ -160,7 +163,7 @@ def _extract_locale_code(row_html: str) -> str:
 def load_org_snapshot(gcs_base: str) -> list[OrgDataset] | None:
     """Load org-snapshot.json from GCS or local .state/.
 
-    Returns None on cache miss or parse error — caller should scrape fresh.
+    Returns None on cache miss, parse error, or staleness -- caller scrapes fresh.
     """
     raw: str | None
     if is_gcs_uri(gcs_base):
@@ -196,13 +199,13 @@ def load_org_snapshot(gcs_base: str) -> list[OrgDataset] | None:
                     )
                     return None
             except ValueError:
-                pass  # malformed scraped_at — treat snapshot as fresh
+                pass  # malformed scraped_at -- treat snapshot as fresh
         datasets = [
             OrgDataset(
                 locale_code=entry["locale"],
                 modality=entry["modality"],
                 version=entry["version"],
-                submission_id=entry["id"],
+                dataset_id=entry["id"],
                 name=entry["name"],
                 locale_name=entry.get("locale_name", ""),
                 href=f'/datasets/{entry["id"]}',
@@ -236,7 +239,7 @@ def save_org_snapshot(datasets: list[OrgDataset], gcs_base: str) -> None:
                 "locale": d.locale_code,
                 "modality": d.modality,
                 "version": d.version,
-                "id": d.submission_id,
+                "id": d.dataset_id,
                 "name": d.name,
                 "locale_name": d.locale_name,
             }
@@ -247,7 +250,7 @@ def save_org_snapshot(datasets: list[OrgDataset], gcs_base: str) -> None:
 
     tsv_lines = ["locale\tmodality\tversion\tid\tname"]
     tsv_lines.extend(
-        f"{d.locale_code}\t{d.modality}\t{d.version}\t{d.submission_id}\t{d.name}"
+        f"{d.locale_code}\t{d.modality}\t{d.version}\t{d.dataset_id}\t{d.name}"
         for d in datasets
     )
     tsv_content = "\n".join(tsv_lines) + "\n"
@@ -276,7 +279,7 @@ def load_or_fetch(
     gcs_base: str = "",
     force_rescrape: bool = False,
 ) -> list[OrgDataset]:
-    """Return datasets from GCS cache, or scrape + save if missing or force_rescrape.
+    """Return datasets from cache, or scrape + save when missing or force_rescrape.
 
     Returns [] on total failure (all errors are logged).
     """
@@ -289,41 +292,3 @@ def load_or_fetch(
     if datasets and gcs_base:
         save_org_snapshot(datasets, gcs_base)
     return datasets
-
-
-def build_prior_map(
-    datasets: list[OrgDataset],
-    modality: Modality,
-    current_version: str,
-    current_submission_ids: set[str] | None = None,
-    locales: set[str] | None = None,
-) -> dict[str, list[str]]:
-    """Return {locale_code -> [prior_submission_ids]}.
-
-    Keeps entries matching `modality`, version != current_version, not in
-    `current_submission_ids`, and (when given) locale in `locales`.
-    """
-    modality_val = modality.value
-    exclude = current_submission_ids or set()
-    prior_map: dict[str, list[str]] = {}
-
-    for d in datasets:
-        if d.modality != modality_val:
-            continue
-        if locales is not None and d.locale_code not in locales:
-            continue
-        if d.version == current_version:
-            continue
-        if d.submission_id in exclude:
-            continue
-        prior_map.setdefault(d.locale_code, []).append(d.submission_id)
-
-    if prior_map:
-        total_ids = sum(len(ids) for ids in prior_map.values())
-        logger.info(
-            "ORG",
-            "Prior map: %d locale(s), %d submission(s) to potentially disable",
-            len(prior_map),
-            total_ids,
-        )
-    return prior_map
