@@ -6,7 +6,7 @@ class Task(str, Enum):
     NA = "N/A"
     NLP = "NLP"
     ASR = "ASR"
-    LI = "LI"
+    LID = "LID"
     TTS = "TTS"
     MT = "MT"
     LM = "LM"
@@ -17,7 +17,7 @@ class Task(str, Enum):
     RAG = "RAG"
     CV = "CV"
     ML = "ML"
-    OTHER = "Other"
+    OTH = "OTH"
 
 class License(str, Enum):
     APACHE_2_0 = "Apache-2.0"
@@ -45,6 +45,11 @@ class License(str, Enum):
     OPUBL_1_0 = "OPUBL-1.0"
     OGDL_TAIWAN_1_0 = "OGDL-Taiwan-1.0"
     UNLICENSE = "Unlicense"
+
+class Visibility(str, Enum):
+    PUBLIC = "public"
+    PRIVATE = "private"
+    RESTRICTED = "restricted"
 
 class NonEmptyStrModel: ...
 
@@ -77,6 +82,8 @@ class DatasetSubmission:
     createdByEmail: str | None
     intendedUsage: str | None
     ethicalReviewProcess: str | None
+    showContactInfo: bool | None
+    visibility: Visibility | None
     exclusivityOptOut: bool | None
     agreeToSubmit: bool | None
     id: str | None
@@ -115,6 +122,8 @@ class DatasetSubmission:
         createdByEmail: str | None = ...,
         intendedUsage: str | None = ...,
         ethicalReviewProcess: str | None = ...,
+        showContactInfo: bool | None = ...,
+        visibility: Visibility | None = ...,
         exclusivityOptOut: bool | None = ...,
         agreeToSubmit: bool | None = ...,
         id: str | None = ...,

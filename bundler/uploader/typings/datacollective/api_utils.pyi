@@ -1,4 +1,4 @@
-"""Type stubs for datacollective.api_utils (v0.5.1)."""
+"""Type stubs for datacollective.api_utils (v0.5.2)."""
 
 from typing import Any
 
@@ -11,4 +11,4 @@ def _send_api_request(
     json_body: dict[str, Any] | None = ...,
     **kwargs: Any,
 ) -> requests.Response: ...
-def _format_bytes(size: int) -> str: ...
+def _format_bytes(bytes_val: int, base: int = ...) -> str: ...

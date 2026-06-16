@@ -11,6 +11,7 @@ from datacollective import (
     DatasetSubmission,
     License,
     Task,
+    Visibility,
     create_submission_draft,
     submit_submission,
     update_submission,
@@ -36,8 +37,12 @@ from mdc_uploader.log import logger
 from mdc_uploader.models import ReleaseSpec
 from mdc_uploader.streaming import stream_upload_from_gcs
 
-# 256 MB parts: MDC doesn't return partSize so SDK falls back to this default (must target upload_utils).
-_dc_upload_utils.DEFAULT_PART_SIZE = 256 * 1024 * 1024  # 256 MB
+# 256 MB multipart parts. Passed explicitly to upload_dataset_file because its part_size
+# default is import-bound (0.5.2), so the patch below only reaches the streaming path.
+UPLOAD_PART_SIZE = 256 * 1024 * 1024
+
+# Fallback when MDC omits partSize. Patch the module attribute, not a from-import copy.
+_dc_upload_utils.DEFAULT_PART_SIZE = UPLOAD_PART_SIZE
 
 # -- 429 / transient error detection ------------------------------------------
 
@@ -214,6 +219,7 @@ class MDCClient:
             upload_kwargs: dict = {
                 "file_path": file_path,
                 "submission_id": submission_id,
+                "part_size": UPLOAD_PART_SIZE,
                 "enable_logging": self.verbose,
                 "show_progress": self.verbose,
             }
@@ -331,6 +337,7 @@ class MDCClient:
                 file_path=file_path,
                 submission_id=submission_id,
                 state_path=resume_state_path,
+                part_size=UPLOAD_PART_SIZE,  # ignored by SDK when resuming (keeps state.partSize)
                 enable_logging=self.verbose,
                 show_progress=self.verbose,
             )
@@ -432,6 +439,7 @@ class MDCClient:
             upload_dataset_file(
                 file_path=file_path,
                 submission_id=submission_id,
+                part_size=UPLOAD_PART_SIZE,
                 enable_logging=self.verbose,
                 show_progress=self.verbose,
             )
@@ -441,38 +449,21 @@ class MDCClient:
         return True
 
     def disable_submission(self, submission_id: str) -> bool:
-        """Disable one MDC dataset submission.
-
-        Returns False (logged as PENDING) when MDC_DISABLE_ENDPOINT is not yet
-        confirmed. Returns True on success, False on API failure (non-fatal;
-        caller decides whether to abort or continue).
+        """Make one prior submission private via update_submission (MDC has no
+        disable endpoint). PATCHes only `visibility`; returns False on failure (non-fatal).
         """
-        from mdc_uploader.constants import (  # pylint: disable=import-outside-toplevel
-            MDC_DISABLE_ENDPOINT,
-        )
-
-        if MDC_DISABLE_ENDPOINT is None:
-            logger.info(
-                "MDC",
-                "PENDING: would disable %s (endpoint not yet confirmed)",
-                submission_id,
-            )
-            return False
-
-        method, path_template = MDC_DISABLE_ENDPOINT
-        path = path_template.format(id=submission_id)
-        logger.info("MDC", "Disabling %s via %s %s", submission_id, method, path)
+        logger.info("MDC", "Disabling %s (visibility=private)", submission_id)
         try:
-            # TODO: implement actual call once endpoint is confirmed.
-            # Example: requests.request(method, f"{self.api_url}{path}")
-            raise NotImplementedError(
-                f"MDC_DISABLE_ENDPOINT is set to {MDC_DISABLE_ENDPOINT!r} "
-                "but the HTTP call is not implemented yet. "
-                "Add the call here once the endpoint is confirmed."
+            update_submission(
+                submission_id,
+                DatasetSubmission(visibility=Visibility.PRIVATE),
             )
         except Exception as exc:  # pylint: disable=broad-exception-caught
-            logger.error("MDC", "Failed to disable %s: %s", submission_id, exc)
+            status_code, _ = _extract_response_detail(exc)
+            detail = f" (HTTP {status_code})" if status_code is not None else ""
+            logger.error("MDC", "Failed to disable %s%s: %s", submission_id, detail, exc)
             return False
+        return True
 
     def disable_submissions(
         self, submission_ids: list[str]
@@ -491,12 +482,12 @@ class MDCClient:
                 results[sid] = False
 
         success = sum(1 for v in results.values() if v)
-        pending_or_failed = len(results) - success
+        failed = len(results) - success
         logger.info(
             "MDC",
-            "disable_submissions: %d succeeded, %d pending/failed (of %d total)",
+            "disable_submissions: %d succeeded, %d failed (of %d total)",
             success,
-            pending_or_failed,
+            failed,
             len(submission_ids),
         )
         return results

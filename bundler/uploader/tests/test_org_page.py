@@ -331,3 +331,23 @@ class TestBuildPriorMap:
         ]
         result = build_prior_map(datasets, Modality.SCS, "25.0")
         assert len(result["en"]) == 2
+
+    def test_filters_by_locales_when_provided(self) -> None:
+        """With locales given, only those locale codes are kept (e.g. -l 'en tr')."""
+        datasets = [
+            _make_dataset("en", "scs", "24.0", "cmn1aaaaaaaaaaaaaaaaaaaaa"),
+            _make_dataset("tr", "scs", "24.0", "cmn2bbbbbbbbbbbbbbbbbbbb"),
+            _make_dataset("de", "scs", "24.0", "cmn3ccccccccccccccccccccc"),
+        ]
+        result = build_prior_map(datasets, Modality.SCS, "25.0", locales={"en", "tr"})
+        assert set(result.keys()) == {"en", "tr"}
+        assert "de" not in result
+
+    def test_locales_none_includes_all(self) -> None:
+        """locales=None (default) keeps every prior locale for the modality."""
+        datasets = [
+            _make_dataset("en", "scs", "24.0", "cmn1aaaaaaaaaaaaaaaaaaaaa"),
+            _make_dataset("de", "scs", "24.0", "cmn3ccccccccccccccccccccc"),
+        ]
+        result = build_prior_map(datasets, Modality.SCS, "25.0")
+        assert set(result.keys()) == {"en", "de"}

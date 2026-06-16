@@ -35,6 +35,7 @@ Environment variables:
   MDC_API_KEY_DEV   MDC API key for dev target (required for -ut dev)
   MDC_API_KEY_PROD  MDC API key for prod target (required for -ut prod)
   MDC_API_URL       Override MDC API base URL (default: from -ut)
+  MDC_ORG_ID        Override org id scraped for --disable-prior (default: per -ut; dev unset)
   UPLOAD_BASE_DIR              Override --base-dir (highest priority after CLI flag)
   UPLOAD_LOG_FILE              Override --log-file
   DATASETS_BUNDLER_BUCKET_NAME Auto-resolves to gs://<value> (shared with bundler)

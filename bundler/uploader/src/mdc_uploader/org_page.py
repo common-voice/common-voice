@@ -296,12 +296,12 @@ def build_prior_map(
     modality: Modality,
     current_version: str,
     current_submission_ids: set[str] | None = None,
+    locales: set[str] | None = None,
 ) -> dict[str, list[str]]:
-    """Return {locale_code -> [prior_submission_ids]} for the given modality.
+    """Return {locale_code -> [prior_submission_ids]}.
 
-    A "prior" entry matches on modality, has a version != current_version,
-    and is not in current_submission_ids. Entries with a different modality
-    are left untouched (one-time uploads preserved).
+    Keeps entries matching `modality`, version != current_version, not in
+    `current_submission_ids`, and (when given) locale in `locales`.
     """
     modality_val = modality.value
     exclude = current_submission_ids or set()
@@ -309,6 +309,8 @@ def build_prior_map(
 
     for d in datasets:
         if d.modality != modality_val:
+            continue
+        if locales is not None and d.locale_code not in locales:
             continue
         if d.version == current_version:
             continue
