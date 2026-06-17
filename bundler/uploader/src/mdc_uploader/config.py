@@ -5,15 +5,8 @@ from __future__ import annotations
 import os
 from dataclasses import dataclass
 
-from mdc_uploader.constants import (
-    DEFAULT_BASE_DIR,
-    MDC_API_URLS,
-    MDC_ORG_ID,
-    MDC_ORG_IDS,
-    MDC_SITE_BASE,
-    MDC_SITE_URLS,
-)
-from mdc_uploader.models import DisableMode, ReleaseType
+from mdc_uploader.constants import DEFAULT_BASE_DIR, MDC_API_URLS
+from mdc_uploader.models import ReleaseType
 from mdc_uploader.typedef import MDCTarget, _OrphanedSubmission
 
 
@@ -51,12 +44,6 @@ class UploaderConfig:
     # SDK state file for --resume (resumes partial multipart upload)
     resume_state_path: str | None = None
     resume_submission_id: str | None = None
-    # Disable-prior mode and cache control
-    disable_mode: DisableMode = DisableMode.SKIP
-    force_rescrape: bool = False
-    # Org-page scrape target (resolved from upload_target; org_id may be "" if unknown)
-    site_base: str = MDC_SITE_BASE
-    org_id: str = MDC_ORG_ID
 
     def __post_init__(self) -> None:
         """Validate config invariants."""
@@ -65,7 +52,9 @@ class UploaderConfig:
         has_path = self.resume_state_path is not None
         has_sid = self.resume_submission_id is not None
         if has_path != has_sid:
-            raise ValueError("resume_state_path and resume_submission_id must both be set or both None")
+            raise ValueError(
+                "resume_state_path and resume_submission_id must both be set or both None"
+            )
         if has_path:
             if not self.locales or len(self.locales) != 1:
                 raise ValueError("Resume mode requires exactly one locale")
@@ -91,16 +80,11 @@ class UploaderConfig:
         orphaned_submissions: dict[str, _OrphanedSubmission] | None = None,
         resume_state_path: str | None = None,
         resume_submission_id: str | None = None,
-        disable_mode: str = "skip",
-        force_rescrape: bool = False,
     ) -> UploaderConfig:
         """Build config from CLI args and environment variables."""
         resolved_url = mdc_api_url or MDC_API_URLS[upload_target]
         resolved_base_dir = resolve_base_dir(base_dir)
         locale_list = [loc.strip() for loc in locales.split() if loc.strip()] if locales else None
-        # Org-page scrape target; MDC_ORG_ID env overrides the org id.
-        resolved_site_base = MDC_SITE_URLS.get(upload_target, MDC_SITE_BASE)
-        resolved_org_id = os.environ.get("MDC_ORG_ID") or MDC_ORG_IDS.get(upload_target, "")
 
         return cls(
             release_name=release,
@@ -118,8 +102,4 @@ class UploaderConfig:
             orphaned_submissions=orphaned_submissions,
             resume_state_path=resume_state_path,
             resume_submission_id=resume_submission_id,
-            disable_mode=DisableMode(disable_mode),
-            force_rescrape=force_rescrape,
-            site_base=resolved_site_base,
-            org_id=resolved_org_id,
         )

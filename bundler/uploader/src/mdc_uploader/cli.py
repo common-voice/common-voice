@@ -27,15 +27,12 @@ Examples:
   mdc-upload --retry-failed upload-state-...-20260313T143000.json
   mdc-upload --resume -r cv-corpus-25.0-2026-03-09 -l fr -ut prod
   mdc-upload -r sps-corpus-3.0-2026-03-09 --base-dir ./test-releases --dry-run
-  mdc-upload -r cv-corpus-26.0-2026-06-15 -ut prod --disable-prior post
-  mdc-upload -r cv-corpus-26.0-2026-06-15 -ut prod --disable-prior pre --force-rescrape
 
 \b
 Environment variables:
   MDC_API_KEY_DEV   MDC API key for dev target (required for -ut dev)
   MDC_API_KEY_PROD  MDC API key for prod target (required for -ut prod)
   MDC_API_URL       Override MDC API base URL (default: from -ut)
-  MDC_ORG_ID        Override org id scraped for --disable-prior (default: per -ut; dev unset)
   UPLOAD_BASE_DIR              Override --base-dir (highest priority after CLI flag)
   UPLOAD_LOG_FILE              Override --log-file
   DATASETS_BUNDLER_BUCKET_NAME Auto-resolves to gs://<value> (shared with bundler)
@@ -140,29 +137,6 @@ Environment variables:
     help="Disable GCS streaming; download tarballs to temp before uploading. "
     "Streaming is the default for gs:// base dirs.",
 )
-@click.option(
-    "--disable-prior",
-    "disable_mode",
-    type=click.Choice(["skip", "pre", "post"]),
-    default="skip",
-    show_default=True,
-    help=(
-        "Disable prior version(s) of each locale's dataset on MDC. "
-        "'pre': bulk-disable all before uploading. "
-        "'post': disable immediately after each successful upload. "
-        "Both modes use the cached GCS org snapshot, re-scraped only when missing "
-        "or when --force-rescrape is set."
-    ),
-)
-@click.option(
-    "--force-rescrape",
-    is_flag=True,
-    default=False,
-    help=(
-        "Force a fresh scrape of the MDC org page even if a cached snapshot exists in GCS. "
-        "Only relevant when --disable-prior is pre or post."
-    ),
-)
 def cli(
     release: str | None,
     upload_target: str,
@@ -177,8 +151,6 @@ def cli(
     verbose: bool,
     jobs: int,
     no_stream: bool,
-    disable_mode: str,
-    force_rescrape: bool,
 ) -> None:
     """Upload Common Voice release tarballs to Mozilla Data Collective (MDC) via API.
 
@@ -195,12 +167,6 @@ def cli(
 
     setup_logging(verbose, log_file=log_file)
 
-    if force_rescrape and disable_mode == "skip":
-        logger.warning(
-            "UPLOAD",
-            "--force-rescrape has no effect without --disable-prior pre or post",
-        )
-
     try:
         _run(
             release=release,
@@ -215,8 +181,6 @@ def cli(
             verbose=verbose,
             jobs=jobs,
             no_stream=no_stream,
-            disable_mode=disable_mode,
-            force_rescrape=force_rescrape,
         )
     except click.UsageError:
         raise  # let Click format these
@@ -261,8 +225,6 @@ def _run(
     verbose: bool,
     jobs: int,
     no_stream: bool,
-    disable_mode: str = "skip",
-    force_rescrape: bool = False,
 ) -> None:
     """Inner logic separated for clean error handling."""
     mdc_api_url = os.environ.get("MDC_API_URL")
@@ -338,8 +300,6 @@ def _run(
             mdc_api_url=mdc_api_url,
             resume_state_path=os.path.abspath(state_file),
             resume_submission_id=resume_submission_id,
-            disable_mode=disable_mode,
-            force_rescrape=force_rescrape,
         )
         success = run_batch(config)
         sys.exit(0 if success else 1)
@@ -368,8 +328,6 @@ def _run(
             mdc_api_key=mdc_api_key,
             mdc_api_url=mdc_api_url,
             orphaned_submissions=state.get("orphaned_submissions"),
-            disable_mode=disable_mode,
-            force_rescrape=force_rescrape,
         )
         logger.info(
             "RETRY",
@@ -395,8 +353,6 @@ def _run(
             no_stream=no_stream,
             mdc_api_key=mdc_api_key,
             mdc_api_url=mdc_api_url,
-            disable_mode=disable_mode,
-            force_rescrape=force_rescrape,
         )
 
     success = run_batch(config)

@@ -4,6 +4,8 @@ CLI tool that uploads Common Voice release tarballs to [Mozilla Data Collective]
 
 Supports both SCS (Scripted Speech) and SPS (Spontaneous Speech) releases, including full, delta, and future licensed, and variant dataset types.
 
+This package also ships a companion tool, **`mdc-disable`**, which sets prior dataset versions to private on MDC (used before publishing a new version). See [Companion Tool: mdc-disable](#companion-tool-mdc-disable).
+
 For architecture and development details see [DEVELOPER.md](DEVELOPER.md).
 
 ## Capabilities
@@ -27,7 +29,6 @@ For architecture and development details see [DEVELOPER.md](DEVELOPER.md).
 - Can write all output to a log file via `--log-file` (always captures DEBUG level)
 - Can persist batch state to JSON after each locale for `--retry-failed` support
 - Can save log file and state JSON to `<base-dir>/<release>/upload-logs/` after each batch so they survive pod recycling
-- Can disable prior MDC dataset versions -- sets each to `visibility=private` via `--disable-prior pre` (before upload) or `post` (after each success), scoped to the locales being uploaded -- off by default (`skip`). On `-ut dev` the org id differs from prod, so set `MDC_ORG_ID`.
 
 ## Data Pipeline
 
@@ -315,3 +316,58 @@ For `gs://` URIs, GCS streaming is used by default -- chunks are read directly f
 | ------ | ------------------------------------------- |
 | dev    | `https://dev.mozilladatacollective.com/api` |
 | prod   | `https://mozilladatacollective.com/api`     |
+
+## Companion Tool: `mdc-disable`
+
+`mdc-disable` sets **prior** dataset versions to private (`visibility=private`) on MDC. Run it before publishing a new version so users don't see two versions of the same locale side by side. It is a separate entry point installed by the same `pip install -e .`.
+
+It scrapes the organization page for published datasets, resolves each dataset id to its submission id, and PATCHes `visibility=private`. It is serial, resumable, and 429-aware by design — exactly two MDC calls per dataset (one resolve + one PATCH), so a large run stays well under rate limits.
+
+Authentication uses the **same** keys as `mdc-upload` (`MDC_API_KEY_DEV` / `MDC_API_KEY_PROD`). The org id is resolved per target; dev has no default org id, so set `MDC_ORG_ID` for dev runs.
+
+### Quick Start
+
+```bash
+# Always dry-run first -- lists what would be disabled, makes no changes, needs no key
+mdc-disable -ut prod -m sps --version 3.0 --dry-run
+
+# Disable all SPS 3.0 datasets on prod (prompts for confirmation; requires MDC_API_KEY_PROD)
+mdc-disable -ut prod -m sps --version 3.0
+
+# Disable only specific locales of a version
+mdc-disable -ut prod -m scs --version 25.0 -l "en ga-IE mt"
+```
+
+### CLI Reference
+
+```txt
+mdc-disable [OPTIONS]
+
+Required:
+  -ut, --target [dev|prod]        MDC environment to operate on
+  -m,  --modality [sps|scs]       Speech modality
+       --version TEXT             Dataset version to disable (e.g. 3.0)
+
+Optional:
+  -l,  --locales TEXT             Space-separated locale codes (default: all of the version)
+       --base-dir TEXT            Base dir for org snapshot/state/logs (default: gs://$DATASETS_BUNDLER_BUCKET_NAME)
+       --state-file PATH          Resume state path (default: .state/mdc-disable-<modality>-<version>-state.json)
+       --fresh                    Force a fresh org-page scrape instead of the cached snapshot
+       --dry-run                  List what would be disabled; make no changes
+       --yes                      Skip the prod confirmation prompt
+       --log-file PATH            Write a full debug log to this path
+  -v,  --verbose                  Verbose console logging
+  -h,  --help                     Show help and exit
+```
+
+Note: `-v` is `--verbose` (consistent with `mdc-upload`); the dataset version is the long-only `--version`.
+
+### Org Snapshot & Resume
+
+The org page is scraped once and cached to `<base-dir>/.state/org-snapshot.{json,tsv}`. Subsequent runs reuse the snapshot (re-scraped automatically when older than 48h, or on demand with `--fresh`), so repeated runs don't re-hit the org page.
+
+Progress is written to the state file after every dataset. Re-running the **same** command resumes automatically: datasets already marked `done` are skipped, and a resolved submission id is reused without re-resolving. On exit, when `--base-dir` is a `gs://` bucket, the state file (and the log, if `--log-file` was set) is copied to `<base-dir>/mdc-disable-logs/` for audit. The command exits non-zero if any dataset failed, so a re-run retries only the failures.
+
+### 429 Rate Limiting
+
+On a 429, the tool reads the `Retry-After` header and waits (capped at 1h), retrying transient/5xx errors with exponential backoff before giving up on a dataset and continuing. A fixed one-second pause between datasets adds proactive headroom against bursting.

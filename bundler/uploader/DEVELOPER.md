@@ -40,10 +40,8 @@ gcs.py ------------> google-cloud-storage (for gs:// URIs)
 Supporting modules:
 
 - `typedef.py` -- shared type definitions (`UploadStatus`, `MDCTarget`, `LanguageNames`, TypedDicts)
-- `models.py` -- data models (`Modality`, `DisableMode`, `ReleaseType`, `ReleaseSpec`, `LocaleUploadJob`, `OrgDataset`, `UploadResult`)
+- `models.py` -- data models (`Modality`, `ReleaseType`, `ReleaseSpec`, `LocaleUploadJob`, `UploadResult`)
 - `log.py` -- structured logging matching the bundler's `[TIMESTAMP] [LEVEL] [COMPONENT]` format
-- `org_page.py` -- MDC org page scraping: fetch, parse, GCS snapshot save/load, prior map builder
-- `prior.py` -- entry point for loading the prior version map (used by pre and post modes)
 
 ## Environment Variables
 
@@ -66,20 +64,31 @@ Dev and prod use separate MDC accounts. Set the key matching your `-ut` target.
 | -------------- | --------------------------------------------------------------------------------------------- |
 | `cli.py`       | Click CLI entry point, option parsing, `--retry-failed`/`--resume` handling, error formatting |
 | `config.py`    | `UploaderConfig` dataclass, env var + CLI arg resolution                                      |
-| `constants.py` | MDC API URLs, metadata templates, contact info, disable-prior constants                       |
+| `constants.py` | MDC API URLs, metadata templates, contact info                                            |
 | `typedef.py`   | Shared type aliases, Literal types, TypedDicts                                                |
-| `models.py`    | Data models: `Modality`, `DisableMode`, `OrgDataset`, `UploadResult`, release/job types       |
+| `models.py`    | Data models: `Modality`, `UploadResult`, release/job types                                |
 | `naming.py`    | Release name parsing, tarball/datasheet path construction                                     |
 | `language.py`  | `LanguageRegistry` class -- fetches locale names from CV API + hardcoded extras               |
-| `mdc.py`       | `MDCClient` -- step-by-step SDK calls, resume, recovery, 429 retry, disable methods           |
+| `mdc.py`       | `MDCClient` -- step-by-step SDK calls, resume, recovery, 429 retry           |
 | `streaming.py` | GCS-to-MDC direct streaming: range reads -> presigned URL PUTs, resume via state file         |
-| `pipeline.py`  | Per-locale orchestration, streaming/non-streaming routing, concurrency, pre/post disable      |
+| `pipeline.py`  | Per-locale orchestration, streaming/non-streaming routing, concurrency      |
 | `state.py`     | `BatchState` JSON persistence (thread-safe), orphaned extraction, log-to-storage upload       |
 | `progress.py`  | tqdm batch progress bar, human-readable size formatting                                       |
 | `log.py`       | Structured logging, auto log file, `flush_all`/`get_log_file_path` for storage save           |
 | `gcs.py`       | GCS fallback for `gs://` URIs (uses `google-cloud-storage` runtime dependency)                |
-| `org_page.py`  | MDC org page scraping, GCS snapshot save/load, prior version map builder                      |
-| `prior.py`     | Entry point: loads prior version map for pre and post disable modes                           |
+
+### `mdc_disabler` package (`mdc-disable`)
+
+Companion tool that sets prior dataset versions to private. Reuses the uploader's `log`, `gcs`, `config.resolve_base_dir`, `mdc` (error classes + 429 helpers), and `constants` (`MDC_API_URLS`, `MAX_RETRY_AFTER_SECONDS`). The dependency is one-way: `mdc_disabler` → `mdc_uploader`.
+
+| Module         | Purpose                                                                                       |
+| -------------- | --------------------------------------------------------------------------------------------- |
+| `cli.py`       | Click CLI entry point (`mdc-disable`), prod confirmation, best-effort artifact upload         |
+| `config.py`    | `DisablerConfig` dataclass, env var + CLI arg resolution                                      |
+| `constants.py` | Org-page host + org id per target (`MDC_SITE_URLS`, `MDC_ORG_IDS`)                             |
+| `org_page.py`  | Org-page scrape + cached GCS snapshot (`OrgDataset`, load/fetch, 48h staleness)               |
+| `client.py`    | `DisableClient` -- resolve dataset id -> submission id, PATCH visibility=private, 429 backoff  |
+| `core.py`      | Target selection (modality + exact version), resumable serial disable loop, JSON resume state |
 
 ---
 

@@ -5,7 +5,7 @@ from __future__ import annotations
 import pytest
 
 from mdc_uploader.config import UploaderConfig
-from mdc_uploader.models import DisableMode, ReleaseType
+from mdc_uploader.models import ReleaseType
 
 
 class TestResumeValidation:
@@ -284,86 +284,3 @@ class TestUploaderConfigFromCli:
             mdc_api_url=None,
         )
         assert config.no_stream is True
-
-    def test_disable_mode_default_skip(self) -> None:
-        """disable_mode defaults to skip."""
-        config = UploaderConfig.from_cli(
-            release="cv-corpus-25.0-2026-03-09",
-            upload_target="dev",
-            base_dir=None,
-            release_type="full",
-            locales=None,
-            submission_id=None,
-            dry_run=False,
-            verbose=False,
-            mdc_api_key="test",
-            mdc_api_url=None,
-        )
-        assert config.disable_mode == DisableMode.SKIP
-
-    def test_disable_mode_pre(self) -> None:
-        """disable_mode='pre' is parsed to DisableMode.PRE."""
-        config = UploaderConfig.from_cli(
-            release="cv-corpus-25.0-2026-03-09",
-            upload_target="dev",
-            base_dir=None,
-            release_type="full",
-            locales=None,
-            submission_id=None,
-            dry_run=False,
-            verbose=False,
-            mdc_api_key="test",
-            mdc_api_url=None,
-            disable_mode="pre",
-        )
-        assert config.disable_mode == DisableMode.PRE
-
-    def test_disable_mode_post(self) -> None:
-        """disable_mode='post' is parsed to DisableMode.POST."""
-        config = UploaderConfig.from_cli(
-            release="cv-corpus-25.0-2026-03-09",
-            upload_target="dev",
-            base_dir=None,
-            release_type="full",
-            locales=None,
-            submission_id=None,
-            dry_run=False,
-            verbose=False,
-            mdc_api_key="test",
-            mdc_api_url=None,
-            disable_mode="post",
-        )
-        assert config.disable_mode == DisableMode.POST
-
-    def test_force_rescrape_default_false(self) -> None:
-        """force_rescrape defaults to False."""
-        config = UploaderConfig.from_cli(
-            release="cv-corpus-25.0-2026-03-09",
-            upload_target="dev",
-            base_dir=None,
-            release_type="full",
-            locales=None,
-            submission_id=None,
-            dry_run=False,
-            verbose=False,
-            mdc_api_key="test",
-            mdc_api_url=None,
-        )
-        assert config.force_rescrape is False
-
-    def test_force_rescrape_true(self) -> None:
-        """force_rescrape=True is passed through."""
-        config = UploaderConfig.from_cli(
-            release="cv-corpus-25.0-2026-03-09",
-            upload_target="dev",
-            base_dir=None,
-            release_type="full",
-            locales=None,
-            submission_id=None,
-            dry_run=False,
-            verbose=False,
-            mdc_api_key="test",
-            mdc_api_url=None,
-            force_rescrape=True,
-        )
-        assert config.force_rescrape is True

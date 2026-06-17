@@ -29,6 +29,7 @@ dev = [
 
 [project.scripts]
 mdc-upload = "mdc_uploader.cli:cli"
+mdc-disable = "mdc_disabler.cli:cli"
 
 [tool.setuptools.packages.find]
 where = ["src"]
