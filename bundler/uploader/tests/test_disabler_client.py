@@ -61,3 +61,13 @@ class TestRetry:
         assert _client().set_private("s-1") is False
         # max_attempts=3 -> 2 sleeps between 3 tries
         assert mock_sleep.call_count == 2
+
+    @patch("mdc_disabler.client.time.sleep")
+    @patch("mdc_disabler.client.update_submission")
+    def test_gives_up_when_retry_after_exceeds_cap(
+        self, mock_update: MagicMock, mock_sleep: MagicMock
+    ) -> None:
+        # retry_after 700 > max_retry_after 600 -> not honored -> no sleep, give up
+        mock_update.side_effect = RateLimitError(700, "429")
+        assert _client().set_private("s-1") is False
+        mock_sleep.assert_not_called()

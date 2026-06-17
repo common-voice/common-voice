@@ -100,3 +100,21 @@ class TestRunDisable:
 
         assert summary.failed == 1 and "d-tr" in summary.failed_ids
         client.set_private.assert_not_called()
+
+    @patch("mdc_disabler.core.org_page.load_or_fetch")
+    @patch("mdc_disabler.core.time.sleep")
+    def test_set_private_failure_records_failed(
+        self, mock_sleep: MagicMock, mock_fetch: MagicMock, tmp_path: Any
+    ) -> None:
+        mock_fetch.return_value = [_ds("tr", "sps", "3.0", "d-tr")]
+        client = MagicMock()
+        client.resolve_submission_id.return_value = "s-tr"
+        client.set_private.return_value = False  # PATCH failed
+
+        summary = run_disable(_config(tmp_path), client)
+
+        assert summary.failed == 1 and "d-tr" in summary.failed_ids
+        assert summary.disabled == 0
+        state = json.loads((tmp_path / "state.json").read_text())
+        assert state["d-tr"]["status"] == "failed"
+        assert state["d-tr"]["submission_id"] == "s-tr"
