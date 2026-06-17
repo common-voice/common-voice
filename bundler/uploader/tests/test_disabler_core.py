@@ -26,7 +26,7 @@ def _ds(locale: str, modality: str, version: str, sid: str) -> OrgDataset:
 def _config(tmp_path: Any, **over: Any) -> DisablerConfig:
     base: dict[str, Any] = dict(
         target="prod", modality="sps", version="3.0", locales="",
-        base_dir=str(tmp_path), delay=0.0,
+        base_dir=str(tmp_path),
         dry_run=False, verbose=False, assume_yes=True, force_rescrape=False,
         state_file=str(tmp_path / "state.json"), log_file=None, api_key="k",
     )
@@ -53,7 +53,10 @@ class TestSelectTargets:
 
 class TestRunDisable:
     @patch("mdc_disabler.core.org_page.load_or_fetch")
-    def test_disables_and_writes_state(self, mock_fetch: MagicMock, tmp_path: Any) -> None:
+    @patch("mdc_disabler.core.time.sleep")
+    def test_disables_and_writes_state(
+        self, mock_sleep: MagicMock, mock_fetch: MagicMock, tmp_path: Any
+    ) -> None:
         mock_fetch.return_value = [_ds("tr", "sps", "3.0", "d-tr"), _ds("en", "sps", "3.0", "d-en")]
         client = MagicMock()
         client.resolve_submission_id.side_effect = lambda did: {"d-tr": "s-tr", "d-en": "s-en"}[did]

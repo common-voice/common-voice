@@ -32,6 +32,8 @@ def _classify(exc: Exception) -> Exception:
     Mirrors mdc_uploader.mdc._wrap_exception's classification without its logging,
     so retried 429s don't emit spurious error lines.
     """
+    if isinstance(exc, (RateLimitError, TransientError)):
+        return exc
     status_code, _ = _extract_response_detail(exc)
     if status_code == 429:
         return RateLimitError(_extract_retry_after(exc), str(exc))
@@ -55,11 +57,13 @@ class DisableClient:
         api_key: str,
         api_url: str,
         max_attempts: int = 5,
+        max_retry_after: int = MAX_RETRY_AFTER_SECONDS,
     ) -> None:
         # The datacollective SDK reads these env vars.
         os.environ["MDC_API_KEY"] = api_key
         os.environ["MDC_API_URL"] = api_url
         self.max_attempts = max_attempts
+        self.max_retry_after = max_retry_after
 
     def _call(self, fn: Callable[..., T], *args: Any, what: str) -> T:
         """Call an SDK function, waiting on 429 Retry-After and retrying transients."""
@@ -72,7 +76,7 @@ class DisableClient:
                 wrapped = _classify(exc)
                 if (
                     isinstance(wrapped, RateLimitError)
-                    and wrapped.retry_after <= MAX_RETRY_AFTER_SECONDS
+                    and wrapped.retry_after <= self.max_retry_after
                     and attempt < self.max_attempts
                 ):
                     logger.warning(

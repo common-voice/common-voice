@@ -60,14 +60,17 @@ def load_state(path: str) -> dict[str, dict[str, str]]:
 
 
 def save_state(path: str, state: dict[str, dict[str, str]]) -> None:
-    """Write resume state as JSON (best-effort)."""
+    """Write resume state as JSON (best-effort; logs and continues on failure)."""
     if not path:
         return
-    state_dir = os.path.dirname(path)
-    if state_dir:
-        os.makedirs(state_dir, exist_ok=True)
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(state, f, indent=2, ensure_ascii=False)
+    try:
+        state_dir = os.path.dirname(path)
+        if state_dir:
+            os.makedirs(state_dir, exist_ok=True)
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(state, f, indent=2, ensure_ascii=False)
+    except OSError as exc:
+        logger.warning("DISABLE", "Could not write state %s: %s -- resume disabled", path, exc)
 
 
 def run_disable(config: DisablerConfig, client: DisableClient | None) -> DisableSummary:

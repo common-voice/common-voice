@@ -351,7 +351,6 @@ Required:
 Optional:
   -l,  --locales TEXT             Space-separated locale codes (default: all of the version)
        --base-dir TEXT            Base dir for org snapshot/state/logs (default: gs://$DATASETS_BUNDLER_BUCKET_NAME)
-       --delay FLOAT              Seconds between datasets, proactive pacing (default: 0.5)
        --state-file PATH          Resume state path (default: .state/mdc-disable-<modality>-<version>-state.json)
        --fresh                    Force a fresh org-page scrape instead of the cached snapshot
        --dry-run                  List what would be disabled; make no changes
@@ -367,8 +366,8 @@ Note: `-v` is `--verbose` (consistent with `mdc-upload`); the dataset version is
 
 The org page is scraped once and cached to `<base-dir>/.state/org-snapshot.{json,tsv}`. Subsequent runs reuse the snapshot (re-scraped automatically when older than 48h, or on demand with `--fresh`), so repeated runs don't re-hit the org page.
 
-Progress is written to the state file after every dataset. Re-running the **same** command resumes automatically: datasets already marked `done` are skipped, and a resolved submission id is reused without re-resolving. On exit the log and state file are copied to `<base-dir>/mdc-disable-logs/` for audit. The command exits non-zero if any dataset failed, so a re-run retries only the failures.
+Progress is written to the state file after every dataset. Re-running the **same** command resumes automatically: datasets already marked `done` are skipped, and a resolved submission id is reused without re-resolving. On exit, when `--base-dir` is a `gs://` bucket, the state file (and the log, if `--log-file` was set) is copied to `<base-dir>/mdc-disable-logs/` for audit. The command exits non-zero if any dataset failed, so a re-run retries only the failures.
 
 ### 429 Rate Limiting
 
-On a 429, the tool reads the `Retry-After` header and waits (capped at 1h), retrying transient/5xx errors with exponential backoff before giving up on a dataset and continuing. `--delay` adds a small proactive pause between datasets to avoid bursting.
+On a 429, the tool reads the `Retry-After` header and waits (capped at 1h), retrying transient/5xx errors with exponential backoff before giving up on a dataset and continuing. A fixed one-second pause between datasets adds proactive headroom against bursting.

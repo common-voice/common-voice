@@ -88,13 +88,6 @@ def _upload_artifacts(config: DisablerConfig) -> None:
     help="Base dir for org snapshot/state/logs. Default: gs://$DATASETS_BUNDLER_BUCKET_NAME.",
 )
 @click.option(
-    "--delay",
-    type=float,
-    default=0.5,
-    show_default=True,
-    help="Seconds between datasets (proactive rate-limit pacing).",
-)
-@click.option(
     "--state-file",
     default=None,
     help="Resume state path. Default: .state/mdc-disable-<modality>-<version>-state.json.",
@@ -133,7 +126,6 @@ def cli(  # pylint: disable=too-many-arguments
     version: str,
     locales: str | None,
     base_dir: str | None,
-    delay: float,
     state_file: str | None,
     force_rescrape: bool,
     dry_run: bool,
@@ -155,7 +147,6 @@ def cli(  # pylint: disable=too-many-arguments
         version=version,
         locales=locales,
         base_dir=base_dir,
-        delay=delay,
         dry_run=dry_run,
         verbose=verbose,
         assume_yes=assume_yes,
