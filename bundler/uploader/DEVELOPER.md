@@ -64,9 +64,9 @@ Dev and prod use separate MDC accounts. Set the key matching your `-ut` target.
 | -------------- | --------------------------------------------------------------------------------------------- |
 | `cli.py`       | Click CLI entry point, option parsing, `--retry-failed`/`--resume` handling, error formatting |
 | `config.py`    | `UploaderConfig` dataclass, env var + CLI arg resolution                                      |
-| `constants.py` | MDC API URLs, metadata templates, contact info                       |
+| `constants.py` | MDC API URLs, metadata templates, contact info                                            |
 | `typedef.py`   | Shared type aliases, Literal types, TypedDicts                                                |
-| `models.py`    | Data models: `Modality`, `UploadResult`, release/job types       |
+| `models.py`    | Data models: `Modality`, `UploadResult`, release/job types                                |
 | `naming.py`    | Release name parsing, tarball/datasheet path construction                                     |
 | `language.py`  | `LanguageRegistry` class -- fetches locale names from CV API + hardcoded extras               |
 | `mdc.py`       | `MDCClient` -- step-by-step SDK calls, resume, recovery, 429 retry           |
