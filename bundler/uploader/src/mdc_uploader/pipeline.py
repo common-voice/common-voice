@@ -661,7 +661,8 @@ def process_locale(  # pylint: disable=too-many-return-statements,too-many-branc
                 locale=locale,
             )
         else:
-            assert tarball_local is not None
+            if tarball_local is None:
+                raise RuntimeError(f"No local tarball resolved for {locale}")
             submission_id, _ = client.create_and_upload(
                 file_path=tarball_local,
                 submission=submission,

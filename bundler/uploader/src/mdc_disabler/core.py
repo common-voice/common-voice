@@ -136,30 +136,31 @@ def run_disable(config: DisablerConfig, client: DisableClient | None) -> Disable
                 "error": "resolve failed",
             }
             save_state(config.state_file, state)
-            continue
-
-        ok = client.set_private(submission_id)
-        state[dataset_id] = {
-            "locale": d.locale_code,
-            "submission_id": submission_id,
-            "status": "done" if ok else "failed",
-            "error": "" if ok else "patch failed",
-        }
-        save_state(config.state_file, state)
-        if ok:
-            summary.disabled += 1
-            logger.info(
-                "DISABLE",
-                "[%d/%d] %s disabled (submission %s)",
-                idx,
-                total,
-                d.locale_code,
-                submission_id,
-            )
         else:
-            summary.failed += 1
-            summary.failed_ids.append(dataset_id)
+            ok = client.set_private(submission_id)
+            state[dataset_id] = {
+                "locale": d.locale_code,
+                "submission_id": submission_id,
+                "status": "done" if ok else "failed",
+                "error": "" if ok else "patch failed",
+            }
+            save_state(config.state_file, state)
+            if ok:
+                summary.disabled += 1
+                logger.info(
+                    "DISABLE",
+                    "[%d/%d] %s disabled (submission %s)",
+                    idx,
+                    total,
+                    d.locale_code,
+                    submission_id,
+                )
+            else:
+                summary.failed += 1
+                summary.failed_ids.append(dataset_id)
 
+        # Pace after any dataset that touched the API (resolve and/or PATCH);
+        # already-done datasets skip this via the early continue above.
         if idx < total:
             time.sleep(DELAY_BETWEEN_DATASETS_SECONDS)
 
