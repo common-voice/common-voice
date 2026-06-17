@@ -13,3 +13,6 @@ validate-page-skip-button-shortcut = S
 ## Validation guidelines
 
 validation-guidelines-title = Күрсәтмәләр
+validation-guideline-1 = Шәхси мәгълүматны сорарга ярамый (мәсәлән, исемнәр, финанс мәгълүматлары)
+validation-guideline-3 = Гади һәм аңлау өчен җиңел
+validation-guideline-4 = Берничә җөмлә белән җавап бирергә була.

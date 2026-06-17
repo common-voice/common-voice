@@ -30,3 +30,4 @@ cs-tag-dataset-name = Мәгълүмат тупланмасы [{ $datasetName }]
 ## Guidelines
 
 learn-how-to-use = Бу битне ничек кулланып булганын өйрәнегез
+read-full-guidelines-here = <guidanceLink>Тулы күрсәтмәләрне монда укыгыз</guidanceLink>
