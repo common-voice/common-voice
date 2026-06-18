@@ -106,10 +106,18 @@ reviewing-sentences-explanation-1 = ယဝ်ခါရ ဝါကျဂှ် က
 reviewing-sentences-explanation-2 = ယဝ်ခါရ ဝါကျဂှ် ဟွံကိတ်ညဳကဵု သၞောတ်ဝ် လတူဏအ်မ္ဂး၊ ဍဵု စုတ် မဍဵု "ဟအှ်ေ" ညိ။
 reviewing-sentences-explanation-3 = စပ်ကဵုဝါကျဂှ်တုဲ ယဝ်ခါရ မၞးဟွံချိုတ်ပၠိုတ်မ္ဂး မၞးသရုၚ်ထောံတုဲ မၞးဆက်အာဂတတေံမွဲပၠန်ညိ။
 reviewing-sentences-explanation-4 = ယဝ်ခါရ ဝါကျသွက်ဂွံစၟဳစၟတ်တအ်ဂှ် အိုတ်အာမ္ဂး ရီုဗၚ်ဘိုၚ်ဆက်ပကောံကဵုပိုဲဝါကျဂမၠိုၚ်ညိ။
+domain-explanation = ဝေါဟာရ "Domain " ဂှ် စၞောန်ထ္ၜးကဵု ကဏ္ဍ အရာ မဆေင်စပ်ကုဝါကျဂှ်ရ။ ပ္ဍဲအခိင်လၟုဟ် မၞး ရုဲစှ်ကေတ် အကြာ တင်ဏအ် မာန်မံင်ရ -
 
 ## Question collection ids
 
 adding-questions = ထပ်စုတ်ဒၟံၚ်အရေဝ်သၟာန်ဂမၠိုၚ်
+
+## Question collection sidebar content
+
+what-makes-a-good-question-subheader = တင်သၟာန် ခိုဟ်မွဲဂှ် ဒှ်တဴ ဗီုပြင် သာ်လဵု ရော
+what-makes-a-good-question-explanation = တင်သၟာန် မခိုဟ် သွက် တၚ်ဂၞၚ်မူလပစ္စယ် ညးဂမၠိုၚ်ပါလုပ်မွဲဂှ် ဒးဒှ် နကဵုဗီုပြင်ဏအ် ရ -
+what-makes-a-good-question-explanation-criteria-1 = ဒးကၠိုဟ် ကေုာံ ဒးကလေၚ်သွဟ် လောဲသွာ
+what-makes-a-good-question-explanation-criteria-2 = ဗွဲယျေဘုယျမ္ဂး ဒးကိတ်ညဳ
 
 ## Spontaneous Speech sidebar content
 
