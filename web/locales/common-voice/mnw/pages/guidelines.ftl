@@ -104,6 +104,12 @@ adding-sentences-subheader-offensive-content = ဂလာန်ဟွံဂပ်
 adding-sentences-subheader-offensive-content-explanation = ယဝ်ရ ဝါကျဂှ် ဒှ်အရာဟွံဂပ်ဝ်ယေန်သၞာၚ် ဟွံသေင်မ္ဂး ပလီုပလာ်တဴစိုတ်ဓါတ် — ဥပမာ ဟိုတ်နူ မလိက်ဟွံဂပ်ဝ်ယေန်သၞာင် ဟွံသေင်မ္ဂး ဒစဵုဒစး <communityGuidelines>သၞောတ်ဝ် ပါလုပ် ဂကောံပိုယ်မ္ဂး</communityGuidelines> မၞးထေက်ကဵု ဒးတးပဲါထောံဝါကျဂှ်ရောၚ်။ သွက်ဂွံ လၟိင်ပရိုင် တင်ခက်ခုဲဏအ်ဂှ် မၞးဆက်စၠောအ်ကဵုပိုယ် ပ္ဍဲကဵု <emailFragment>commonvoice@mozilla.com</emailFragment> ညိအဴ။
 reviewing-sentences-explanation-1 = ယဝ်ခါရ ဝါကျဂှ် ကိတ်ညဳကဵု သၞောတ်ဝ် လတူဏအ်မ္ဂး၊ ဍဵု စုတ် မဍဵု "ယွံ" ညိ။
 reviewing-sentences-explanation-2 = ယဝ်ခါရ ဝါကျဂှ် ဟွံကိတ်ညဳကဵု သၞောတ်ဝ် လတူဏအ်မ္ဂး၊ ဍဵု စုတ် မဍဵု "ဟအှ်ေ" ညိ။
+reviewing-sentences-explanation-3 = စပ်ကဵုဝါကျဂှ်တုဲ ယဝ်ခါရ မၞးဟွံချိုတ်ပၠိုတ်မ္ဂး မၞးသရုၚ်ထောံတုဲ မၞးဆက်အာဂတတေံမွဲပၠန်ညိ။
+reviewing-sentences-explanation-4 = ယဝ်ခါရ ဝါကျသွက်ဂွံစၟဳစၟတ်တအ်ဂှ် အိုတ်အာမ္ဂး ရီုဗၚ်ဘိုၚ်ဆက်ပကောံကဵုပိုဲဝါကျဂမၠိုၚ်ညိ။
+
+## Question collection ids
+
+adding-questions = ထပ်စုတ်ဒၟံၚ်အရေဝ်သၟာန်ဂမၠိုၚ်
 
 ## Spontaneous Speech sidebar content
 
