@@ -39,9 +39,13 @@ healthcare = Annaren n usgunfu
 # Sentence Domain dropdown option
 history_law_government = Amezruy, Asaḍuf akked Unabaḍ
 # Sentence Domain dropdown option
+language_fundamentals = Igejdanen n tutlayt (amedya. Izwilen, Isekkilen, Idrimen)
+# Sentence Domain dropdown option
 nature_environment = Agama d twennaḍt
 # Sentence Domain dropdown option
 technology_robotics = Tatiknulujit akked tsenṛubut
+sentence-variant-select-label = Tasenfelt n tefyirt
+sentence-variant-select-placeholder = Fren tasenfelt (d taxetṛant)
 
 ## BULK SUBMISSION
 
@@ -49,6 +53,7 @@ technology_robotics = Tatiknulujit akked tsenṛubut
 sc-bulk-upload-header = Sali-d <icon></icon> tafyirt n taɣult tazayazt
 sc-bulk-upload-instruction = Zuɣer-d afaylu-inek·inem ɣer da neɣ <uploadButton>kenned i wakken ad tt-ceyyeɛḍṭ</uploadButton>
 sc-bulk-upload-instruction-drop = Sers afaylu dagi i usali
+try-upload-again = Ɛreḍ tikelt-nniḍen s uzuɣer n ufaylu-inek da
 try-upload-again-md = Ɛreḍ asali tikkelt niḍen
 select-file = Fren afaylu
 select-file-mobile = Fren afaylu ara d-tsaliḍ
@@ -68,6 +73,7 @@ too-many-files = Aṭas n yifuyla
 
 ## SMALL BATCH SUBMISSION
 
+small-batch-sentences-rule-2 = Rnu yiwet n tefyirt deg yal izirig
 small-batch-sentences-rule-4 = Rnu alamma d 1,000 tefyar
 # menu item
 add-sentences = Rnu tifyar
@@ -78,7 +84,10 @@ add-sentences-menu-item-tooltip = Rnu tifyar
 review-sentences-menu-item-tooltip = Senqed tifyar
 add-questions-menu-item-tooltip = Rnu isteqsiyen
 review-questions-menu-item-tooltip = Senqed isteqsiyen
+transcribe-audio-menu-item-tooltip = Seskel ikalasen n umeslaw
 
 ## MENU ITEM ARIA LABELS
 
 write-contribute-menu-aria-label = Aru umuɣ n textiṛiyin
+add-sentences-menu-item-aria-label = Rnu tifyar timaynutin i temɣiwant akken ad ten-id-tɣer
+transcribe-audio-menu-item-aria-label = Seskel ikalasen n umeslaw ɣer uḍris
