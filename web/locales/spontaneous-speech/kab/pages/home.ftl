@@ -10,7 +10,7 @@ check-bubble-title = <mark>Senqed</mark>
 # text wrapped in <mark></mark> will have a blue background
 data-bubble-title = <mark>Isefka</mark>
 contact-us = Nermes-aɣ-d
-contact-us-email = Tansa n yiamyl: <emailFragment>commonvoice@mozilla.com</emailFragment>
+contact-us-email = Tansa n yimayl: <emailFragment>commonvoice@mozilla.com</emailFragment>
 signup-input-placeholder = Sekcem imayl-inek·inem
 signup-button-value = Azen aseɣwen ɣer yimayl inu
 footer-text-privacy = <privacyLink>Tabaḍnit</privacyLink>

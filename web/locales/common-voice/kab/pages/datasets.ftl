@@ -9,6 +9,7 @@ datasets-positioning =
     
     Wali asebter-agi akken ad tafeḍ tigrummiwin-nniḍen n uɣbalu yeldin daɣen, am Common Voice ttnernint, d axxam i yileqman-nneɣ.
 language = Tutlayt
+download-dataset-header = Sader-d tagrumma n yisefka
 # File size in gigabytes
 size = Teɣzi
 validated-hr-total = Amḍan n yisragen yettwasnetmen. Amatu
@@ -85,3 +86,7 @@ license-mixed = Uxliḍ
 # Support old genders in older datasets
 male = Awtem
 female = Tawtemt
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = Sader-d tigrummiwin-nneɣ tiɣectanin
+datasets-show-more = Sken-d akk tigrummiwin n yisefka
+datasets-show-less = Sken-d tigrummiwin n yisefka tineggura
