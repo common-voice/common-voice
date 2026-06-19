@@ -6,6 +6,7 @@ language-section-launched = Yekker
 language-section-launched-description = I tutlayt-a asmel <localizationGlossaryLink> ittwasideg akken iwata </localizationGlossaryLink>, isεa <sentenceCollectionGlossaryLink> ddeqs n tefyar </sentenceCollectionGlossaryLink> akken ad ittwasireg <speakLink> asekles </speakLink> akked <listenLink> usentem </listenLink> n ittekiyen n iwiziwen
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
 language-section-last-updated = Aleqqem aneggaru: { $lastUpdatedTimeStamp }
+language-communities = Ma ulac aɣilif, wali ma ad ternum abadu-nwen n temɣiwant ɣer <communitiesLink>yisemli COMMUNITIES.md deg Github</communitiesLink>.
 languages-show-more = Wali ugar
 languages-show-less = Wali drus
 language-meter-in-progress = Asfari

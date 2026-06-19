@@ -7,6 +7,7 @@ respond-bubble-title = <mark>Err</mark>
 transcribe-bubble-subtitle = Aru ayen i tselleḍ deg umeslaw
 # text wrapped in <mark></mark> will have a blue background
 check-bubble-title = <mark>Senqed</mark>
+check-bubble-subtitle = Wali ma yella useskel yemṣada d ameslaw
 # text wrapped in <mark></mark> will have a blue background
 data-bubble-title = <mark>Isefka</mark>
 contact-us = Nermes-aɣ-d

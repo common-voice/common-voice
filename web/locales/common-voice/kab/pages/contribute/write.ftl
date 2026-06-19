@@ -37,7 +37,11 @@ general = Amatu
 # Sentence Domain dropdown option
 healthcare = Annaren n usgunfu
 # Sentence Domain dropdown option
+history_law_government = Amezruy, Asaḍuf akked Unabaḍ
+# Sentence Domain dropdown option
 nature_environment = Agama d twennaḍt
+# Sentence Domain dropdown option
+technology_robotics = Tatiknulujit akked tsenṛubut
 
 ## BULK SUBMISSION
 
