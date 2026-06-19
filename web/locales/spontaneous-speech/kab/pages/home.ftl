@@ -4,6 +4,8 @@
 prompt-bubble-title = <mark>Tuttra</mark>
 # text wrapped in <mark></mark> will have a blue background
 respond-bubble-title = <mark>Err</mark>
+# text wrapped in <mark></mark> will have a blue background
+transcribe-bubble-title = <mark>Seksel</mark>
 transcribe-bubble-subtitle = Aru ayen i tselleḍ deg umeslaw
 # text wrapped in <mark></mark> will have a blue background
 check-bubble-title = <mark>Senqed</mark>

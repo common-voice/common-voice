@@ -90,4 +90,5 @@ transcribe-audio-menu-item-tooltip = Seskel ikalasen n umeslaw
 
 write-contribute-menu-aria-label = Aru umuɣ n textiṛiyin
 add-sentences-menu-item-aria-label = Rnu tifyar timaynutin i temɣiwant akken ad ten-id-tɣer
+add-questions-menu-item-aria-label = Azen-d isteqsiyen imaynuten i temɣiwant akken ad tt-tizmir ad ten-ɣeṛ u ad err tiririt fell-asen
 transcribe-audio-menu-item-aria-label = Seskel ikalasen n umeslaw ɣer uḍris

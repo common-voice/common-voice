@@ -34,6 +34,7 @@ bxr = Taburyat
 byv = Medumba
 ca = Takatalant
 cak = Kaqčikel
+ce = Tačičant
 ckb = Takurdit Talemmast
 cnh = Haxa Cin
 co = Takuṛsit
