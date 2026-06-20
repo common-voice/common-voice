@@ -128,6 +128,7 @@ length = ဇမၠိၚ်
 length-explanation = တင်သၟာန်ဂှ် ထေက်ကဵု ဒးကလေင်သွဟ် နကဵုဝါကျ ၜါပိဝါကျဓဝ်ဟေင်ရောၚ်။
 dont-add-subheader = လ္ပထပ်စုတ်
 culturally-specific-questions = တင်သၟာန် မကိတ်ညဳကဵုအခိုက်ကၞာပြဝေဏဳဂမၠိုင်
+culturally-specific-questions-explanation = တင်သၟာန် မကိတ်ညဳကဵု အခိုက်ကၞာပြဝေဏဳ ဟွံသေင်မ္ဂး တၚ်စှ်ေစိုတ်ဂမၠိုင် ဒုင်သဇိုင်လတူ ညးမကလေင်သွဟ်ဂှ် ဂၠိုင်တဴဗွဲမလောန် ရ။
 
 ## Spontaneous Speech sidebar content
 
