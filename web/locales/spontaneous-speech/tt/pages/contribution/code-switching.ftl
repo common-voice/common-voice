@@ -30,6 +30,7 @@ cs-no-transcriptions-continue-skipped = Хәзергә бу мәгълүматл
 
 ## Tag Page Items
 
+cs-no-transcriptions-to-tag-continue-skipped = Бу мәгълүматлар тупланмасын тамгалау өчен транскрипцияләр әлегә юк.
 cs-tag-dataset-name = Мәгълүмат тупланмасы [{ $datasetName }]
 
 ## Guidelines
