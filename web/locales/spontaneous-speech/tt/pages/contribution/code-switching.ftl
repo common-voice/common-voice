@@ -41,3 +41,7 @@ read-full-guidelines-here = <guidanceLink>Тулы күрсәтмәләрне м
 ## Answer Page Guidelines
 
 cs-learn-how-to-use-answer-explanation = Сорауга мөмкин кадәр гадәти һәм табигый рәвештә җавап бирегез. Гадәттәгечә сөйләү өчен башка телгә күчү кирәк булса, күчегез. Сөйләмегез хөрмәт итүчән һәм хурлаусыз булырга тиеш.
+
+## Review Page Guidelines
+
+cs-learn-how-to-use-check-transcript-explanation = Транскрипциядә сөйләмнең һәрбер аерым сүзе яки лексикага кермәгән һәрбер аерым аваз билгеләнергә тиеш, шул исәптән, кабатлаулар да.
