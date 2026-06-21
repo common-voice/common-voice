@@ -31,3 +31,7 @@ cs-tag-dataset-name = Мәгълүмат тупланмасы [{ $datasetName }]
 
 learn-how-to-use = Бу битне ничек кулланып булганын өйрәнегез
 read-full-guidelines-here = <guidanceLink>Тулы күрсәтмәләрне монда укыгыз</guidanceLink>
+
+## Answer Page Guidelines
+
+cs-learn-how-to-use-answer-explanation = Сорауга мөмкин кадәр гадәти һәм табигый рәвештә җавап бирегез. Гадәттәгечә сөйләү өчен башка телгә күчү кирәк булса, күчегез. Сөйләмегез хөрмәт итүчән һәм хурлаусыз булырга тиеш.
