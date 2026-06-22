@@ -2,6 +2,7 @@
 
 question-page-instruction = Rnu asteqsi <icon></icon> deg { $currentLocale } i wakken ad izmiren yimdanen ad d-rren
 add-question-textarea-placeholder = am., “Acu i tebɣiḍ ad t-tgeḍ d tetiknulujit?”
+question-dataset-language = Tagrumma n yisefka: { $datasetLanguage }
 add-question-success-toast-message =
     { $totalQuestions ->
         [one] { $uploadedQuestions } n 1 usteqsi i d-yettwaleqḍen
