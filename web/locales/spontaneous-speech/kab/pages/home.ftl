@@ -2,8 +2,10 @@
 
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>Tuttra</mark>
+prompt-bubble-subtitle = Ad ak-d-nessken a aneftaɣ neɣ yiwen n usteqsi.
 # text wrapped in <mark></mark> will have a blue background
 respond-bubble-title = <mark>Err</mark>
+respond-bubble-subtitle = Tzemreḍ ad d-terreḍ neɣ ad as-terreḍ s wudem agmawan akken tzemreḍ
 # text wrapped in <mark></mark> will have a blue background
 transcribe-bubble-title = <mark>Seksel</mark>
 transcribe-bubble-subtitle = Aru ayen i tselleḍ deg umeslaw
