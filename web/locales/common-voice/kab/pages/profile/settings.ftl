@@ -5,3 +5,4 @@ manage-email-subscriptions = Sefrek ijerriden ɣer yimaylen
 email-already-used = Imayl ittuseqdec yakan i umiḍan nniḍen
 add-language = Rnu tutlayt
 change-email-setings = Beddel tansa-ik imayl deg yiɣewwaṛen, tigezmi Timagit n tuqqna
+email-change-information = Akken ad tbeddleḍ neɣ ad tẓergeḍ imayl-inek, azen-aɣ-d imayl ɣer <emailFragment>commonvoice@mozilla.com</emailFragment>
