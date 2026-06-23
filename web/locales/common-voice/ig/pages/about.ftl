@@ -82,6 +82,10 @@ about-playbook-how-add-language-collecting-sentences-content-2 =
     Cheta na ahịrịokwu kwesịrị ịbụ <licenseLink>CC0 (ma ọ bụ public domain)</licenseLink>, ma ọ bụ ị nwere ike dee nke gị.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Lee ihe ndị ọzọ gbasara nchịkọta ahịrịokwu</sentenceCollectorFragment>.
 
+## How does localization work
+
+about-playbook-how-localize = Kedu ka nkachisi saịtị si arụ ọrụ?{ " " }
+
 ## How to access dataset
 
 about-playbook-how-access-dataset = Kedu ka m ga-esi enweta ma jiri ntọala data rụọ ọrụ?
