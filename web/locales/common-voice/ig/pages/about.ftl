@@ -88,6 +88,7 @@ about-playbook-how-localize = Kedu ka nkachisi saịtị si arụ ọrụ?{ " " 
 about-playbook-how-localize-content-1 = Ntụgharị saịtị Common Voice na-eme na<strong>Pontoon</strong>
 about-playbook-how-localize-content-2 = <pontoonAccountLink>Meghee akaụntụ </pontoonAccountLink>ọ bụrụ na I nweghị otu. Mgbe ahụ, họrọ asụsụ gị <strong>('Team') </strong>ma họrọkwa ọrụ, <pontoonCvLink>Common Voice </pontoonCvLink>. A ga-enwe faịlụ a ga-atụgharị. Pịa aka n'otu, mgbe ahụ ọ ga-egosi mkpụrụokwu na Bekee na igbe ịtụgharị ha.{ " " }
 about-playbook-how-localize-content-3 = Ntụgharị bụ site na Bekee, mana ị ga-ahụ <strong>aro </strong>n'asụsụ ọzọ. Pịa <strong>Profaịlụ</strong>akara, mgbe ahụ <strong>nhazi</strong>jikọọ ma tinye asụsụ ọ bụla ị na-asụ. N'okpuru akụkụ aka nri, a ga-enwe ndetu ntụgharị a kpọrọ <strong>Locales</strong>. Ntụgharị na-egosi na saịtị ma otu ụbọchị gachaa.{ " " }
+about-playbook-how-localize-content-4 = A dịla njikere iweputa saịtị ahụ mgbe o ruru 75% ngwụcha.{ " " }
 
 ## How to access dataset
 
