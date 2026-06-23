@@ -96,6 +96,7 @@ about-playbook-how-localize-content-5 = Kirie vidio nkọwa anyị iji nye aka{ 
 about-playbook-how-add-sentences = Kedu ka m ga-esi tinye ahịrịokwu?{ " " }
 about-playbook-how-add-sentences-content-1 = I nwere ike tinye ahịrịokwu na <writePageLink>Dee peeji</writePageLink>ma ọ bụ nyochaa ahịrịokwu na <reviewPageLink>Nyochaa peeji </reviewPageLink>.{ " " }
 about-playbook-how-add-sentences-content-2 = Mmadụ abụọ ga-enyochariri ma nabata ahịrịokwu iji tinye ya na Common Voice. I ga-emepụta ntuziaka nye asụsụ gị <languageGuidelinesLink>ebe a </languageGuidelinesLink> Ahịrịokwu ga-adịriri na <licenseLink>ebe ọha </licenseLink> ma pekarịa mkpụrụokwu 15. I nwere ike ịgwa onye nwe ederede ahụ ka o mee ya<waiverLink> CC0 site n'iji usoro nhapụ ikike </waiverLink>, ma zitere anyị ya nacommonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = I nwere ike iji <scraperLink> Ihe mwepụta ahịrịokwu</scraperLink>  iji nkenke ahịrịokwu ka nkwado site na Wikipedia
 
 ## How to access dataset
 
