@@ -85,6 +85,8 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 ## How does localization work
 
 about-playbook-how-localize = Kedu ka nkachisi saịtị si arụ ọrụ?{ " " }
+about-playbook-how-localize-content-1 = Ntụgharị saịtị Common Voice na-eme na<strong>Pontoon</strong>
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Meghee akaụntụ </pontoonAccountLink>ọ bụrụ na I nweghị otu. Mgbe ahụ, họrọ asụsụ gị <strong>('Team') </strong>ma họrọkwa ọrụ, <pontoonCvLink>Common Voice </pontoonCvLink>. A ga-enwe faịlụ a ga-atụgharị. Pịa aka n'otu, mgbe ahụ ọ ga-egosi mkpụrụokwu na Bekee na igbe ịtụgharị ha.{ " " }
 
 ## How to access dataset
 
