@@ -105,6 +105,7 @@ answer = Tiririt
 
 ## Community section
 
+community-section-title-202601 = Yella ilmend n temɣiwanin timaḍlanin, i temɣiwanin timaḍlanin. 290 n tutlayin yakan, u mazal irennu!
 join-discord-community = Ttekki deg temɣiwant n Discord
 # label for button
 join-discord-community-action = Ttekki yid-neɣ ɣef Discord
