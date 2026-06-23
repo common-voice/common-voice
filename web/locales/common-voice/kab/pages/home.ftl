@@ -96,7 +96,9 @@ get-started = Aha bdu <icon><icon>
 ## Action items section
 
 action-items-section-title = Common Voice d tiɣeṛɣeṛt tilellit, n uɣbalu yeldin i usnulfu n yisefka s tmuɣli n temɣiwant
+action-items-section-subtitle = Yal yiwen yezmer ad iḥrez, ad d-yessider, u ad yessali tutlayt-is s uzuzer, s usnulfu d ussedger n tegrummiwin n yiḍrisen d yimeslayen.
 scripted-card-header = Awal yettwarun
+scripted-card-content = Ɣret-d tifyar s taɣect-nwen s tmeslayt-nwen u tekkit deg ubeṭṭu n tegrummiwin n yisefka timeqqranin akk deg ddunit.
 language-text-card-header = Aḍris
 language-text-card-content = Snulfu-d neɣ bḍu ineftaɣen i yellan deg taɣult tazayezt, tifyar, d uḍris i tsuqilt, timudmiwin n tutlayt timecṭaḥ, d wayen nniḍen.
 coming-soon = Ad yili
@@ -109,6 +111,7 @@ community-section-title-202601 = Yella ilmend n temɣiwanin timaḍlanin, i tem�
 join-discord-community = Ttekki deg temɣiwant n Discord
 # label for button
 join-discord-community-action = Ttekki yid-neɣ ɣef Discord
+join-discord-community-content = Tekkit deg yidiwenniyen n tutlayt n temɣiwant, steqsit, lemdet ugar ɣef tedyanin timaynutin i d-iteddun.
 find-us-on-matrix = Af-aɣ-d deg Matrix
 # label for button
 find-us-on-element-action-1 = Element
