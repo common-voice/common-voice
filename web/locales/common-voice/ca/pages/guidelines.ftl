@@ -164,8 +164,19 @@ transcribe-the-audio-subheader-1-explanation = En general, heu d'escriure tot el
 transcribe-the-audio-subheader-1-explanation-example-1 = Escriviu les disfluències, incloses les vacil·lacions i les repeticions
 transcribe-the-audio-subheader-1-explanation-example-2 = Etiqueteu els sorolls, com la tos o el riure
 transcribe-the-audio-subheader-1-explanation-example-3 = Etiqueteu la contaminació acústica notòria, com ara xerrameca de fons o el clàxon d'un cotxe
-transcribe-the-audio-subheader-1-explanation-example-4 = Les variacions gramaticals i l'argot s'han de registrar exactament tal com es produeixen. No corregiu ni editeu la forma de parlar de les persones.
+transcribe-the-audio-subheader-1-explanation-example-4 = Registreu les variacions gramaticals i l'argot exactament tal com es produeixen. No corregiu ni editeu la forma de parlar de les persones.
+transcribe-the-audio-subheader-2-explanation-1 = Escriviu els nombres i els símbols amb lletres en lloc d'utilitzar xifres o caràcters especials. Per exemple:
+transcribe-the-audio-subheader-2-explanation-2 = Escriviu els acrònims tal com s'escriuen normalment en la llengua, seguint les regles estàndard de majúscules. No els transcriviu fonèticament. Per exemple:
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <correct>Correcte</correct>: És a cent quilòmetres d'aquí
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Incorrecte</wrong>: És a 100 quilòmetres d'aquí
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correct>Correcte</correct>: Ens veiem el <underline>dos mil quinze</underline>
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Incorrecte</wrong>: Ens veiem el <underline>2015</underline>
 transcribe-the-audio-subheader-2-example-3-correct = <correct>Correcte</correct>: Tenia un vint per cent de descompte
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Incorrecte</wrong>: Tenia un 20% de descompte
 transcribe-the-audio-subheader-2-example-4-correct = <correct>Correcte</correct>: Van ser arrestats per l'<underline>FBI</underline> dijous passat
 transcribe-the-audio-subheader-2-example-4-wrong = <wrong>Incorrecte</wrong>: Van ser arrestats per l'<underline>efa be i</underline> dijous passat
 tags-table-header-1 = Etiqueta
