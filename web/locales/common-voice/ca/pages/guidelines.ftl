@@ -187,6 +187,9 @@ tags-disfluency = Disfluència
 tags-unclear = Poc clar
 tags-noise = Soroll
 tags-laugh-explanation = El so del riure.
+tags-disfluency-explanation =
+    Falca o so de farciment que un parlant intercala mentre decideix què dir.
+    En català, alguns sons de dubte habituals són «eeh», «mmm», «aah», etc.
 
 ## Code-Switching
 
