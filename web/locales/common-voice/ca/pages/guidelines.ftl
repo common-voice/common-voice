@@ -150,6 +150,7 @@ answer-questions-explanation-2 = Recordeu - no us amoïneu si quequegeu, feu una
 answer-questions-tip-1 = Enregistreu en un lloc raonablement tranquil
 answer-questions-tip-2 = Trieu un lloc amb una bona connexió a Internet
 answer-questions-tip-3b = Intenteu que la vostra resposta duri entre 15 i 30 segons.
+answer-questions-tip-4 = Eviteu el discurs que inciti a l'odi, a la provocació o que sigui ofensiu
 answer-questions-tip-5 = Parleu de forma natural, com ho faria amb un amic - utilitzeu els vostres variant dialecte i accent reals
 answer-questions-tip-6 = Mantingueu un volum constant: no crideu ni canteu
 # Transcribe the Audio
