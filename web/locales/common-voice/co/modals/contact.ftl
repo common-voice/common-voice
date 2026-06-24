@@ -6,3 +6,4 @@ contact-form-name =
 contact-form-message =
     .label = Missaghju
 contact-required = *richiestu
+contact-form-error = Un sbagliu hè accadutu. Ci vole à pruvà torna.
