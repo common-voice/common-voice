@@ -5,3 +5,4 @@ listen-again-instruction = Hienoa työtä! <playIcon></playIcon> Kuuntele uudest
 listen-3rd-time-instruction = 2 tehty, jatka samaan malliin! <playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> Viimeinen!
 listen-empty-state = Kaikki klipit tällä kielellä on tarkastettu…
+listen-abort-confirm = Viimeistele vahvistus

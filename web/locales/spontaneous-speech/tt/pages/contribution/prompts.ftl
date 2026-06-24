@@ -10,5 +10,6 @@ submitted = Җибәрелде
 
 ## Explainer text (Respond to Prompt)
 
+learn-how-to-use-prompts = Бу битне ничек кулланып булганын өйрәнегез
 learn-how-to-use-prompts-guidance = Бу битне ничек кулланырга өйрәнү өчен <guidanceLink>монда</guidanceLink> басыгыз
 learn-how-to-use-check-transcript-guidance = Бу битне ничек кулланырга өйрәнү өчен <guidanceLink>монда</guidanceLink> басыгыз
