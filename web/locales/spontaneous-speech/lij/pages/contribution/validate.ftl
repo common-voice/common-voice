@@ -1,5 +1,6 @@
 ## Validate Page
 
+validate-page-instruction = Valida <validateIcon></validateIcon> Sta domanda a rispeta e linie guidda?
 dataset-label = Dataset
 accept-vote-toast-message = Domanda acetâ con sucesso
 reject-vote-toast-message = Domanda refuâ con sucesso
