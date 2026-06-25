@@ -1,6 +1,7 @@
 action-click = Preme
 action-tap = Appughjà
 contribute = Cuntribuisce
+review = Verificà
 skip = Scappà
 shortcuts = Scurtatoghji
 clips-with-count-pluralized =
@@ -22,6 +23,11 @@ login-to-get-started = Cunnittiti vi o iscrivite vi pà cummincià
 target-segment-first-banner = Aiuteti à creà u primu segmentu d’ugettivu di Common Voice in { $locale }
 target-segment-add-voice = Aghjustà a vostra voce
 target-segment-learn-more = Sapene di più
+change-preferences = Cambià e preferenze
+languages = Lingue
+about = Apprupositu
+partner = Partenariu
+submit-form-action = Mandà
 
 ## Reporting
 
