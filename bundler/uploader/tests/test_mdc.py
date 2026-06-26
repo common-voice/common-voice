@@ -5,10 +5,12 @@ from __future__ import annotations
 from unittest.mock import MagicMock, patch
 
 import pytest
+from datacollective import Visibility
 from requests import Response
 from requests.exceptions import HTTPError
 
 from mdc_uploader.mdc import (
+    UPLOAD_PART_SIZE,
     MDCClient,
     OrphanedDraftError,
     RateLimitError,
@@ -17,6 +19,7 @@ from mdc_uploader.mdc import (
     _is_retryable,
     _wrap_exception,
 )
+from mdc_uploader.models import Modality, ReleaseSpec
 
 
 class TestWrapException:
@@ -228,6 +231,31 @@ class TestOrphanedDraftError:
         assert exc.response_body == '{"error":"bad locale"}'
 
 
+class TestBuildSubmission:
+    """build_submission must set the fields that gate final submission (0.5.2+)."""
+
+    def test_sets_required_final_fields(self) -> None:
+        """visibility, showContactInfo and agreeToSubmit are populated."""
+        client = MDCClient(api_key="test", api_url="http://test")
+        spec = ReleaseSpec(
+            release_name="sps-corpus-4.0-2026-06-12",
+            modality=Modality.SPS,
+            version="4.0",
+            date="2026-06-12",
+        )
+        sub = client.build_submission(
+            release_spec=spec,
+            english_name="Turkish",
+            native_name="Türkçe",
+            locale="tr",
+            license_name=None,
+            datasheet_text="datasheet",
+        )
+        assert sub.visibility == Visibility.PUBLIC
+        assert sub.showContactInfo is True
+        assert sub.agreeToSubmit is True
+
+
 class TestCreateAndUpload:
     """Tests for step-by-step create_and_upload flow."""
 
@@ -374,6 +402,7 @@ class TestResumeAndUpload:
             file_path="/fake/file.tar.gz",
             submission_id="sub-existing",
             state_path="/state/mdc-upload-fr.json",
+            part_size=UPLOAD_PART_SIZE,
             enable_logging=False,
             show_progress=False,
         )
@@ -525,55 +554,6 @@ class TestStreamAndUpload:
                 bucket_name="b", blob_path="p",
                 submission=MagicMock(), state_path="/tmp/s.json",
             )
-
-
-class TestDisableSubmission:
-    """Tests for disable_submission and disable_submissions."""
-
-    def _client(self) -> MDCClient:
-        return MDCClient(api_key="test", api_url="http://test")
-
-    def test_disable_submission_pending_when_endpoint_none(self) -> None:
-        """When MDC_DISABLE_ENDPOINT is None, returns False and logs PENDING."""
-        import mdc_uploader.constants as consts
-        original = consts.MDC_DISABLE_ENDPOINT
-        try:
-            consts.MDC_DISABLE_ENDPOINT = None
-            result = self._client().disable_submission("sub-123")
-        finally:
-            consts.MDC_DISABLE_ENDPOINT = original
-        assert result is False
-
-    def test_disable_submissions_returns_map(self) -> None:
-        """disable_submissions returns {id -> result} map."""
-        import mdc_uploader.constants as consts
-        original = consts.MDC_DISABLE_ENDPOINT
-        try:
-            consts.MDC_DISABLE_ENDPOINT = None
-            result = self._client().disable_submissions(["sub-a", "sub-b"])
-        finally:
-            consts.MDC_DISABLE_ENDPOINT = original
-        assert set(result.keys()) == {"sub-a", "sub-b"}
-        assert result["sub-a"] is False
-        assert result["sub-b"] is False
-
-    def test_disable_submissions_empty_list(self) -> None:
-        """disable_submissions on empty list returns empty dict."""
-        result = self._client().disable_submissions([])
-        assert result == {}
-
-    def test_disable_submissions_nonfatal_on_exception(self) -> None:
-        """Unhandled exception in disable_submission is caught; result is False."""
-        client = self._client()
-        import mdc_uploader.constants as consts
-        original = consts.MDC_DISABLE_ENDPOINT
-        try:
-            consts.MDC_DISABLE_ENDPOINT = ("DELETE", "/submissions/{id}")
-            result = client.disable_submissions(["sub-fail"])
-        finally:
-            consts.MDC_DISABLE_ENDPOINT = original
-        # NotImplementedError is caught as broad exception, result = False
-        assert result["sub-fail"] is False
 
 
 class TestVerbosePassthrough:

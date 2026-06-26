@@ -317,7 +317,12 @@ code-switching-pronunciation-explanation-example-1 = ພາສາອັງກິ
 code-switching-pronunciation-explanation-example-2 = ແອສປາໂຍນ: /ˈkable/
 # When Not to Tag Words
 code-switching-not-tag-header = ເມື່ອບໍ່ແທັກຄຳສັບ
+code-switching-not-tag-interjections-example-1 = "Eh”
+code-switching-not-tag-interjections-example-2 = “No”
+code-switching-not-tag-interjections-example-3 = “Yeah”
+code-switching-not-tag-interjections-example-4 = “Er”
 
 ## Reporting Content
 
 reporting-content = ເນື້ອໃນລາຍງານ
+reporting-content-subheader = ຄຳແນະນຳທົ່ວໄປ

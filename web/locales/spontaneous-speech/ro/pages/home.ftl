@@ -1,6 +1,10 @@
 ## Home page
 
 welcome-to-spontaneous-speech = Bine ai venit în secțiunea dedicată discursului spontan
+# text wrapped in <mark></mark> will have a blue background
+check-bubble-title = <mark>Verificare</mark>
+# text wrapped in <mark></mark> will have a blue background
+data-bubble-title = <mark>Date</mark>
 contact-us = Contactează-ne
 contact-us-title = Ești interesat(ă) să te implici în acest proiect sau să începi un parteneriat cu noi?
 contact-us-email = E-mail: <emailFragment>commonvoice@mozilla.com</emailFragment>

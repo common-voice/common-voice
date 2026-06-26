@@ -12,7 +12,7 @@ dont-subheader = လ္ပ
 
 varying-pronunciations = ဗီုပတိတ်ရမျာၚ် တၞဟ်ခြာဂမၠိုၚ်
 misreadings = အရာဗှ်ဗၠေတ်ဂမၠိုၚ်
-offensive-content = ဂလာန်ပရောပရာဟွံဂပ်ဝ်
+offensive-content = ဂလာန်ဟွံဂပ်ဝ်ယေန်သၞာၚ်{ " " }
 background-noise = ရမျာၚ်ညာန် လက္ကရဴ
 background-voices = ရမျာၚ်ညာန် လက္ကရဴဂမၠိုၚ်
 volume = ချိၚ်ရမျှာၚ်
@@ -69,6 +69,67 @@ sentence-domain = ကဏ္ဍ ဝါကျ
 ## Sentence collection sidebar content
 
 public-domain-explanation-1 = ဟိုတ်နူကဵု တၚ်ဂၞၚ်မူလပစ္စယ် Common Voice ပတိတ်လဝ် ကဵုလာၚ်ဇြေန် cc0 တုဲ ဝါကျလိက်တအ်သီုဖအိုတ် အရာပၟိက်ဇၞော်အိုတ်ဂှ် ဒးဒှ် <cc0>(cc0) </cc0> <publicDomain>ဒြပ်ညးဂမၠိုင်</publicDomain>ရောၚ်။ ပတိုန် ဝါကျမွဲမွဲ အခိင်ကာလမၞးစှ်ေစိုတ်တုဲဟေင်မှပတိုန်ညိ၊ တုဲပၠန် လိက်နိဿဲမဆေင်စပ်ဂှ် ဒးစုတ်လၟိုန်ကာလရောၚ်။
+public-domain-explanation-2 = ဝါကျခိုဟ်အိုတ် သွက်ဂွံသြိုၚ်ဗဒှ် စက်စၟတ်သမ္တီရမျှာၚ် မနွံကဵုဖဵုဂှ် ဒှ်အရေဝ်ဝေါဟာရ ခေတ်လၟုဟ်ရ။ ကသပ်လ္ၚဵုလ္ၚဵုမဖန်ဗဒှ်ပတိတ်ကဵုဝါကျတအ်ဂှ် -
+public-domain-explanation-3 = ဖန်ဗဒှ် ဝါကျခေတ်လၟုဟ် ကေုာံ အရေဝ်ဟီုဓမ္မတာ နကဵုအလဵုဇကု ဟွံသေၚ်မ္ဂး ကရောံရဲမိတ်သဟာဲမၞးတအ် ဟွံသေၚ်မ္ဂး ကရောံဂကောံအရေဝ်ဘာသာမၞးညိ - ဥပမာ နကဵု အစဳအဇန် ‘ပ္တံချူလိက်ပြိုၚ်ပ္ကာန်’ မွဲ ရ။
+public-domain-explanation-4 = ဆက်စၠောံ ညးချူလိက်၊ ညးချူပြဝေဏဳပြဇာတ် ဟွံသေၚ်မ္ဂး ညးချူဇာတ်ရုပ်တုဲ အာတ်မိက်ရံၚ် ညံၚ်ညးတအ် ဂွံဒုၚ်စွံကဵုသဇိုၚ်ဂကောံမၞိဟ်မပိုင်ပြဳညးဂမၠိုင် သွက်ကဏ္ဍခန်လ္ၚဵုဍောတ်တ်အောန်န် ပ္ဍဲကဵုပရေၚ်ချူခၞံညးတအ်ညိ။
+public-domain-explanation-5 = ဂၠာဲသ္ၚဳမွဲရံၚ် လိက်ပရေၚ် မဟွံဒး copyright တအ်ညိ - ဥပမာ ဗွဲမဂၠိုၚ် ဒှ်လိက်အုပ် မပ္တိတ်လဝ် ကိုပ်ကၠာ နူသၞာံ ၁၉၂၀ တေံရ။
+public-domain-explanation-6 = ဆက်စၠောံ ဇရေၚ် အလဵုအသဳ၊ ဂကောံပရဟိတ ဟွံသေၚ်မ္ဂး ဂကောံပရိုၚ်ဂမၠိုၚ်တုဲ အာတ်မိက်စမ်ရံၚ် လိက်ဝေပ်သာ်၊ လိက်ဒုၚ်စဳရေၚ် ဟွံသေၚ်မ္ဂး လိက်ပရေၚ်ညးတအ်တၞဟ်ဟ် မပတဝ်လဝ်ကဵုနဒဒှ် (public domain) ဒြပ်ညးဂမၠိုၚ် မာန်ရ။
+citing-sentences-explanation-1 = အရာမကိစ္စဇၞော်ဗွဲမလောန်ဂှ် ဒးစုတ်လဝ် လိက်နိဿဲညိ၊ ကာလဂှ်ဟေင် ပိုဲညးတအ်စၟဳစၟတ်မာန် ဒဒှ်ရ ဝါကျတအ်ဂှ် နွံဒၟံၚ် ပ္ဍဲကဵု မပိုင်ပြဳညးဂမၠိုင် (public domain) တုဲ ဟၟဲတဴကဵု (copyright restriction) သၞောဝ်ဆဵုဒဝ်ရ။
+citing-sentences-subheader-websites = ​ဝေပ်သာ်ဂမၠိုၚ်
+citing-sentences-subheader-websites-explanation = မၞးစုတ်စုတ် ဝေပ်သာ် ဂွံမံၚ်ရ၊ ဥပမာ "Common Voice - (https://commonvoice.mozilla.org/)"
+citing-sentences-subheader-academic-reference = ပရေၚ်နိဿဲ သုတေသန
+citing-sentences-subheader-academic-reference-explanation = ဗီုပြၚ် နိဿဲသုတေသန မၞးစကာသုၚ်စောဲတဴမာန်ဂှ်၊ ဥပမာ ဗီုပြင် ဟာဗာတ်  "Mozilla (2021) Common Voice. Available at https://commonvoice.mozilla.org/ (Accessed: 15th September 2021)"
+citing-sentences-subheader-offline-sources = တမ်ရိုဟ် အပ်လာၚ် ဂမၠိုၚ်
+citing-sentences-subheader-offline-sources-explanation = ဟိုတ်လိက် ဒြပ်ညးဟလိုၚ်ဟွံမွဲ ပ္ဍဲအာန်လာၚ်တုဲ မၞး သုၚ်စောဲစကာ နဲကဲနိဿဲသုတေသန ဗီုပြၚ် ဟာဗာတ် ဂွံမံၚ်ရ၊ ဥပမာ ဗီုပြင် ဟာဗတ် "Jess (2021) My Public license poems"
+citation =
+    .label = တၚ်နၚ်သာဓက
+self-citation = နိဿဲစကေတ်တ်
+self-citation-explanation = ယဝ်ခါရ မၞးချူလဝ်လိက်ဂှ်အလဵုမၞးမ္ဂး ဣဏံဂှ် ဒှ်ဗီုဂွံသ္ပနိဿဲအလဵုမၞးကေတ်တ်ရ။
+adding-sentences-subheader-length = ဇမၠိၚ်
+adding-sentences-subheader-length-explanation = ဝါကျဂှ် မလိက်ထေက်ကဵုဒးအောန်နူ ၁၅ မရောၚ်။
+adding-sentences-subheader-spelling-punctuation = ပံၚ်အက္ခရ် ကေုာံ ဖျေံပိုတ်
+adding-sentences-subheader-spelling-punctuation-explanation = ဝါကျဂှ် ဒးချူပံၚ်လဝ်အက္ခရ်ဗွဲမဍာံပြဟေၚ်ရောၚ်
+adding-sentences-subheader-speakable = ဟီုဂးမာန်
+adding-sentences-subheader-speakable-explanation = ဝါကျခိုဟ်အိုတ်တအ်ဂှ် ဒှ်ဝါကျ မစှ်ေသဘာဝ ကေုာံ ဗီုပြင်ဟီုဂးစမြဟ် ရ — ဝါကျတအ်ဂှ် သွက်မၞိဟ်မွဲမွဲ ဂွံဗှ် ဒးလောဲသွာရောၚ်။ ရမျှာၚ်တၞဟ်ခြာ ကေုာံ မအရေဝ်ဟွံတုပ်တအ် ၜိုန်ရ ဒှ်အရာကိစ္စဇၞော်ကီုလေဝ်၊ ပိုယ် ဂစာန်ကၠောန်ဒၟံင် သွက် ပရေၚ်ပၠောပ်ရမျှာၚ် ဝါကျတအ် ဂွံဒှ် အရာ စိုတ်ဂွံလုပ်စ ကေုာံ စိုတ်ဂွံမိပ်ဇြိပ် သွက် ဂကောံညးတၠစေတနာ လုပ်ကမၠောန်ပိုယ် ဂၠိုင်အိုတ် ရ။
+adding-sentences-subheader-numbers = လၟိဟ်ဂၞန်ဂမၠိုင်
+adding-sentences-subheader-numbers-explanation = ပ္ဍဲ မလိက်တမ်ဂှ် ဗွဲမဂၠိုင် လၟိဟ်ဂၞန်တအ် ဟွံမိက်ကဵုပါလုပ်နွံတဴရ၊ ဟိုတ်နူ မဂၞန်တအ်ဂှ် ဖန်ကဵု ပြသၞာမာန် ကာလ ဗှ် ရ။ ဗီုပြင် ဗှ်ဂၞန်မွဲမွဲဂှ် တန်တဴကဵု အကာဲအရာ တုဲ ဍေဟ် က္တဵုဗဒှ်ကဵု ပရေင်ထုဲထံင် ပ္ဍဲ တၚ်ဂၞၚ်မူလပစ္စယ် မာန်ရ။ ဥပမာ - ဂၞန် “2409” ဂှ် ဗှ် ဗွဲမဒး နကဵု “ၜါစှော်ပန် သုည ဒ္စိတ်” ကီု သီုကဵု “ၜါလ္ၚီ ပန်ကၠံ ဒ္စိတ်” မာန် သီုၜါ ရ။
+adding-sentences-subheader-abbreviations = မလိက်ခမၞန် ကေုာံ အက္ခရ်ခမၞန်
+adding-sentences-subheader-abbreviations-explanation = မလိက်ခမၞန် ကေုာံ အက္ခရ်ခမၞန် မပ္တံကဵု “USA” ဟွံသေၚ်မ္ဂး “ICE” တအ်ဂှ် ထေက်ကဵု ဒးပါဲဝေင် ပ္ဍဲ မလိက်တမ်ရ၊ ဟိုတ်နူ မလိက်တအ်ဂှ် ဒးဗှ် ကဵုဗီုပြင်ဟွံကိတ်ညဳ ကဵုမလိက်ပံၚ်တအ်မာန်ရ။ ပဵုနူဏံပၠန် သွက်မလိက်ခမၞန်မွဲမွဲမဂှ် နွံကဵုဗီုပြင် ဗှ် စှ်ေစှ်ေဒးဒး ဂၠိုင်ကဵုနဲမာန်ရ။
+adding-sentences-subheader-punctuation = ဖျေံပိုတ်
+adding-sentences-subheader-punctuation-explanation = လက်သန် ကေုာံ သင်္ကေတ တၟေင်တအ်ဂှ် အခိၚ်ကာလ နွံပၟိက် ဒးစကာသုၚ်စောဲဟေင် ထေက်ကဵု ဒးစုတ် ရ။ ဥပမာ - သင်္ကေတ သကေံတဲလ္တူ (apostrophe) ဂှ် ပါလုပ် ပ္ဍဲ မလိက်အင်္ဂလိက် ဥပမာ “don’t” ဟွံသေၚ်မ္ဂး “we’re” တုဲ ဒးပါလုပ် ပ္ဍဲ မလိက်တမ် ကီုလေဝ်၊ သွက် သင်္ကေတ တၟေင် မပ္တံကဵု “@” ဟွံသေၚ်မ္ဂး “#” တအ်ဂှ် ဒှ်အရာမနွံပၟိက်စကာသုၚ်စောဲအောန်တဴရ။
+adding-sentences-subheader-special-characters = အက္ခရ်တၟေင် ကေုာံ မလိက်သအာၚ်ဂမၠိုင်
+adding-sentences-subheader-special-characters-explanation-1 = အက္ခရ်တအ်ဂှ် ဒးဒှ်အရာ မသုင်စောဲ အတိုၚ်သၞောဝ် ပ္ဍဲအရေဝ်ဘာသာ မဟီုဂးတဴဒၟံင်ဂှ်ရ။ ဥပမာ - “ж” ဂှ် ဒှ်အက္ခရ် ပ္ဍဲအက္ခရ်ရုရှာ ကီုလေဝ် အက္ခရ်ဂှ်  ပ္ဍဲဘာသာအင်္ဂလိက် ဟွံစကာသုၚ်စောဲရ၊ ဟိုတ်ဂှ်ရ အက္ခရ်ဂှ် ဟွံထေက်ကဵု ဒးပါလုပ် ပ္ဍဲမလိက်တမ် အင်္ဂလိက် လးလးရ။
+adding-sentences-subheader-special-characters-explanation-2 = အခိင် ကၠာဲဘာသာဒေသဂှ် ဇၟာပ်အရေဝ်ဘာသာ နွံကဵု နဲကဲဒုင်တဲ စၟဳစၟတ် ကေုာံ တင်နွံပၟိက်တၟေင် အိုတ်ရ။ ယဝ်ရ ဝှာင်ဒုင်တဲ စၟဳစၟတ် သွက် အရေဝ်ဘာသာဂှ် ဟွံမံက်မ္ဂး၊ ဍေံ ထ္ၜးကဵု စေဝ်ပၞောန် အင်္ဂလိက် သွက် ညးမပါလုပ်တအ်ရ။
+adding-sentences-subheader-offensive-content = ဂလာန်ဟွံဂပ်ဝ်ယေန်သၞာၚ်{ " " }
+adding-sentences-subheader-offensive-content-explanation = ယဝ်ရ ဝါကျဂှ် ဒှ်အရာဟွံဂပ်ဝ်ယေန်သၞာၚ် ဟွံသေင်မ္ဂး ပလီုပလာ်တဴစိုတ်ဓါတ် — ဥပမာ ဟိုတ်နူ မလိက်ဟွံဂပ်ဝ်ယေန်သၞာင် ဟွံသေင်မ္ဂး ဒစဵုဒစး <communityGuidelines>သၞောတ်ဝ် ပါလုပ် ဂကောံပိုယ်မ္ဂး</communityGuidelines> မၞးထေက်ကဵု ဒးတးပဲါထောံဝါကျဂှ်ရောၚ်။ သွက်ဂွံ လၟိင်ပရိုင် တင်ခက်ခုဲဏအ်ဂှ် မၞးဆက်စၠောအ်ကဵုပိုယ် ပ္ဍဲကဵု <emailFragment>commonvoice@mozilla.com</emailFragment> ညိအဴ။
+reviewing-sentences-explanation-1 = ယဝ်ခါရ ဝါကျဂှ် ကိတ်ညဳကဵု သၞောတ်ဝ် လတူဏအ်မ္ဂး၊ ဍဵု စုတ် မဍဵု "ယွံ" ညိ။
+reviewing-sentences-explanation-2 = ယဝ်ခါရ ဝါကျဂှ် ဟွံကိတ်ညဳကဵု သၞောတ်ဝ် လတူဏအ်မ္ဂး၊ ဍဵု စုတ် မဍဵု "ဟအှ်ေ" ညိ။
+reviewing-sentences-explanation-3 = စပ်ကဵုဝါကျဂှ်တုဲ ယဝ်ခါရ မၞးဟွံချိုတ်ပၠိုတ်မ္ဂး မၞးသရုၚ်ထောံတုဲ မၞးဆက်အာဂတတေံမွဲပၠန်ညိ။
+reviewing-sentences-explanation-4 = ယဝ်ခါရ ဝါကျသွက်ဂွံစၟဳစၟတ်တအ်ဂှ် အိုတ်အာမ္ဂး ရီုဗၚ်ဘိုၚ်ဆက်ပကောံကဵုပိုဲဝါကျဂမၠိုၚ်ညိ။
+domain-explanation = ဝေါဟာရ "Domain " ဂှ် စၞောန်ထ္ၜးကဵု ကဏ္ဍ အရာ မဆေင်စပ်ကုဝါကျဂှ်ရ။ ပ္ဍဲအခိင်လၟုဟ် မၞး ရုဲစှ်ကေတ် အကြာ တင်ဏအ် မာန်မံင်ရ -
+
+## Question collection ids
+
+adding-questions = ထပ်စုတ်ဒၟံၚ်အရေဝ်သၟာန်ဂမၠိုၚ်
+
+## Question collection sidebar content
+
+what-makes-a-good-question-subheader = တင်သၟာန် ခိုဟ်မွဲဂှ် ဒှ်တဴ ဗီုပြင် သာ်လဵု ရော
+what-makes-a-good-question-explanation = တင်သၟာန် မခိုဟ် သွက် တၚ်ဂၞၚ်မူလပစ္စယ် ညးဂမၠိုၚ်ပါလုပ်မွဲဂှ် ဒးဒှ် နကဵုဗီုပြင်ဏအ် ရ -
+what-makes-a-good-question-explanation-criteria-1 = ဒးကၠိုဟ် ကေုာံ ဒးကလေၚ်သွဟ် လောဲသွာ
+what-makes-a-good-question-explanation-criteria-2 = ဗွဲယျေဘုယျမ္ဂး ဒးကိတ်ညဳ
+what-makes-a-good-question-explanation-criteria-3 = ဟွံစကာသုၚ်စောဲ ဟွံသေင်မ္ဂး ဟွံဆဝ်မ္ၚုဟ် ဂလာန် ဟွံဂပ်ဝ်ယေန်သၞာင် ကေုာံ ပလီုစိုတ်ဓါတ်တအ် ရ။
+what-makes-a-good-question-tip = မၞးလေဝ်ထေက်ကဵု ဒးစၚ်ခြၚ်သ္ၚဳဂၠိပ်အာ ကဏ္ဍ ကေုာံ အကာဲအရာ တၞဟ်ခြာသအာင်ဂမၠိုင်ကီုရောၚ်။
+easy-to-understand = ကၠိုဟ်တဴလောဲသွာ
+easy-to-understand-explanation = ယေန်သၞာၚ်ကဵုဒှ် ဟွံသေၚ်မ္ဂး အဆက်အစပ်ကဵုဒှ်ဂှ် ဟွံဒးရုဲ၊ ရုဲစှ်ကေတ် အရေဝ်သၟာန် မလောဲသွာ သွက်ဇၟာပ်မၞိဟ်တအ်ကၠိုဟ်ကေတ်လောဲလောဲမာန်တအ်ဂှ်ညိ။
+spelling-and-pronunciation = ပံၚ်အက္ခရ် ကေုာံ ဖျေံပိုတ်
+spelling-and-pronunciation-explanation = သုၚ်စောဲ အက္ခရ်ပံၚ် ကေုာံ သဒ္ဒါ ဍာံစၟတ်ဂှ်ညိ။
+length = ဇမၠိၚ်
+length-explanation = တင်သၟာန်ဂှ် ထေက်ကဵု ဒးကလေင်သွဟ် နကဵုဝါကျ ၜါပိဝါကျဓဝ်ဟေင်ရောၚ်။
+dont-add-subheader = လ္ပထပ်စုတ်
+culturally-specific-questions = တင်သၟာန် မကိတ်ညဳကဵုအခိုက်ကၞာပြဝေဏဳဂမၠိုင်
+culturally-specific-questions-explanation = တင်သၟာန် မကိတ်ညဳကဵု အခိုက်ကၞာပြဝေဏဳ ဟွံသေင်မ္ဂး တၚ်စှ်ေစိုတ်ဂမၠိုင် ဒုင်သဇိုင်လတူ ညးမကလေင်သွဟ်ဂှ် ဂၠိုင်တဴဗွဲမလောန် ရ။
+length-avoid-explanation = အရေဝ်သၟာန်ဂမၠိုင် မၞိဟ်မွဲမွဲ သွက်ဂွံ ကလေင်သှ် ဝါတ်ဂါတ် ပ္ဍဲအခိင် ၁၅ သက္က (ပွိုၚ်အခိင် ကလေပ် ဂၠိင်အိုတ်){ " " }
 
 ## Spontaneous Speech sidebar content
 

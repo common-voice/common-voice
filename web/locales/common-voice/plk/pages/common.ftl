@@ -37,6 +37,7 @@ be = بیلارشین
 beb = بَمویلے
 bew = بیتاوی
 bfd = بَفُت
+bfq = بداگا
 bft = بلتی
 bg = بلغارین
 bgp = مشرقی بلوچی
@@ -516,6 +517,11 @@ announcement-release = عزتمند کمیونٹی ڙاروئے چیئے نئی 
 
 # Text wrapped in <cvDatasheetsLink></cvDatasheetsLink> will be rendered as an external link to the cv-datasheets GitHub repo
 announcement-pre-release = رزالہ ڙاروئے، نئی ریلیزے وخ ایلِیلُن۔ مہربانی تھے گیے ویلیڈیٹ گہ ٹرانسکرائب تِھیا، آں وزٹ تھے <cvDatasheetsLink> تومیْ سی وی ڈیٹا شیٹ</cvDatasheetsLink>اپڈیٹ تِھیا۔
+
+## Release Commencing
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-commencing = وو قام، بیئے کٹ آف وختڑ اُڇھاتانَس آں بیْس ڈیٹا سیٹس سنوݨَس۔ نئی ریلیز آئے لنک دہ <mdcLink> موزیلا ڈیٹا کولکٹیو </mdcLink> دہ اپہ دیزوجیْ دستیاب بُو۔
 
 ## Common Language/Dataset Selector & SearchBox Related
 

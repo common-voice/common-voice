@@ -45,11 +45,3 @@ DESCRIPTIONS: dict[str, DescriptionTemplate] = {
 
 # Max Retry-After value (seconds) before giving up on a 429
 MAX_RETRY_AFTER_SECONDS = 3600
-
-# MDC org page (disable-prior feature)
-# Set once MDC team confirms endpoint. E.g. ("DELETE", "/submissions/{id}")
-# or ("PATCH", "/submissions/{id}") with body {"status": "disabled"}.
-# When None: all disable calls are logged no-ops (Q1 guard).
-MDC_DISABLE_ENDPOINT: tuple[str, str] | None = None
-MDC_ORG_ID = "cmfh0j9o10006ns07jq45h7xk"
-MDC_SITE_BASE = "https://mozilladatacollective.com"

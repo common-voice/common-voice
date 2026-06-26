@@ -10,6 +10,12 @@ error-clip-upload-too-large = თქვენი ჩანაწერი ზე
 error-clip-upload-server-error = სერვერის შეცდომა ჩანაწერის დამუშავებისას. გთხოვთ განაახლოთ გვერდი ან სცადოთ მოგვიანებით.
 error-title-404 = გვერდი ვერ მოიძებნა
 error-content-404 = იქნებ ჩვენი <homepageLink>მთავარი გვერდი</homepageLink> დაგეხმაროთ? კითხვის დასასმელად, შემოუერთდით <matrixLink>Matrix-ის ერთობის სასაუბროს</matrixLink>, საიტის ხარვეზების შესახებ იხილეთ <githubLink>GitHub</githubLink> ან ეწვიეთ <discourseLink>ჩვენს Discourse-ფორუმებს</discourseLink>.
+error-title-429-no-time = ზედმეტად ჩქარობთ. გთხოვთ შეანელოთ და კვლავ სცადოთ ცოტა ხანში.
+error-title-429-with-time =
+    { $retryAfter ->
+        [one] ზედმეტად ჩქარობთ. გთხოვთ კვლავ სცადოთ { $retryAfter } წამში.
+       *[other] ზედმეტად ჩქარობთ. გთხოვთ კვლავ სცადოთ { $retryAfter } წამში.
+    }
 error-title-500 = სამწუხაროდ, რაღაც ხარვეზი წარმოიქმნა
 error-content-500 = მოულოდნელი შეცდომა წარმოიშვა, სცადეთ მოგვიანებით. დახმარების მისაღებად შემოუერთდით <matrixLink>Matrix-ის ერთობის სასაუბროს</matrixLink>, საიტის ხარვეზების შესახებ იხილეთ <githubLink>GitHub</githubLink> ან ეწვიეთ <discourseLink>ჩვენს Discourse-ფორუმებს</discourseLink>.
 error-title-502 = კავშირი გაწყდა

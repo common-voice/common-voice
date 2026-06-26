@@ -57,6 +57,12 @@ const saveToMessages = (languages: any) => {
   fs.writeFileSync(messagesPath, newMessages)
 }
 
+const normalizeApostrophes = (name: string): string =>
+  name.replace(
+    /[\u2018\u2019\u201A\u201B\u02B9\u02BB\u02BC\u02BD\u02CA\u0060\u00B4\uFF07\u055A]/g,
+    "'"
+  )
+
 const buildLocaleEnglishNameMapping = (): Record<string, string> => {
   const englishNames: Record<string, string> = {}
   // Read from English file - it contains the reference names
@@ -96,8 +102,7 @@ const buildLocaleEnglishNameMapping = (): Record<string, string> => {
       if (match) {
         const [, code, name] = match
         if (code && name) {
-          // FIXME: Quick & hacky workaround for apostrophes in names - needs downtime migrations for proper fix
-          englishNames[code.trim()] = name.replace(/[\u2018\u2019\u201A\u201B\u02B9\u02BB\u02BC\u02BD\u02CA\u0060\u00B4\uFF07\u055A]/g, "’").trim()
+          englishNames[code.trim()] = normalizeApostrophes(name).trim()
         }
       }
     }
@@ -136,13 +141,14 @@ const buildLocaleNativeNameMapping: any = () => {
       const regex = new RegExp(`^${locale}\\s*=\\s*(.+)$`, 'mi')
       const match = normalizedContent.match(regex)
 
-      nativeNames[locale] = match ? match[1].trim() : locale
+      if (match) {
+        nativeNames[locale] = normalizeApostrophes(match[1]).trim()
+      }
     } catch (error) {
       console.warn(
         `[LANG-ERROR] Failed to parse native name for ${locale}:`,
         error
       )
-      nativeNames[locale] = locale
     }
   }
   return nativeNames
@@ -405,7 +411,7 @@ export async function importLocales() {
             `,
             [
               englishNames[lang.code] ?? lang.code,
-              nativeNames[lang.code] ?? lang.code,
+              nativeNames[lang.code] ?? normalizeApostrophes(lang.name),
               newLanguageData[lang.code].is_contributable,
               newLanguageData[lang.code].is_translated,
               lang.direction,
@@ -422,7 +428,7 @@ export async function importLocales() {
                 lang.code,
                 newLanguageData[lang.code].target_sentence_count,
                 englishNames[lang.code] ?? lang.code,
-                nativeNames[lang.code] ?? lang.code,
+                nativeNames[lang.code] ?? normalizeApostrophes(lang.name),
                 newLanguageData[lang.code].is_contributable,
                 newLanguageData[lang.code].is_translated,
                 lang.direction,

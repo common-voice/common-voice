@@ -27,9 +27,9 @@ from datacollective.api_utils import _get_api_url, _send_api_request
 from datacollective.models import UploadPart
 from datacollective.upload_utils import (
     DEFAULT_MIME_TYPE,
-    MAX_UPLOAD_BYTES,
     UploadState,
     _complete_upload,
+    _ensure_part_size_is_valid,
     _extract_etag,
     _get_presigned_part_url,
     _load_upload_state,
@@ -107,11 +107,8 @@ def stream_upload_from_gcs(
     file_size = blob.size
     if not file_size or file_size <= 0:
         raise ValueError(f"Blob has no content: gs://{bucket_name}/{blob_path}")
-    if file_size > MAX_UPLOAD_BYTES:
-        raise ValueError(
-            f"Blob exceeds upload limit ({format_size(file_size)} > "
-            f"{format_size(MAX_UPLOAD_BYTES)})"
-        )
+    # Validate part_size vs the SDK's limits (this path bypasses _initiate_upload).
+    _ensure_part_size_is_valid(file_size, part_size)
 
     filename = os.path.basename(blob_path)
     state_file = Path(state_path)

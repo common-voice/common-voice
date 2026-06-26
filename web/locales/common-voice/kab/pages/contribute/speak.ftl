@@ -3,6 +3,7 @@ speak-now = Mmeslay tura
 speak-subtitle = Mudd-d taɣect-ik
 record-cta = Bdu asekles
 record-platform-not-supported = Suref-aɣ, anagraw-ik ur yettwasefrak ara akka tura.
+record-platform-not-supported-webview = Deg yibenkan izirazen, tzemreḍ ad tettekkiḍ s yiminig-ik n unagraw…
 record-platform-not-supported-desktop = I yiselkimen n tnrait, tzemreḍ ad tessidreḍ imaynuten:
 record-platform-not-supported-ios-non-safari = Deg iOS ttxil kemmel s Safari akken ad tremdeḍ asekles…
 record-must-allow-microphone = Ilaq ad tsirgeḍ anekcum i usawaḍ.
@@ -63,3 +64,7 @@ read-sentences-coming-soon = Ɣeṛ tifyar <small>(Sya ɣer sdat)</small>
 
 speak-contribute-menu-tooltip = Ɣeṛ tifyar, err-d ɣef yisteqsiyen
 read-sentences-menu-item-tooltip = Sekles iman-k⋅im mi ara d-teqqareḍ tifyar deg tutlayt-ik⋅im
+
+## MENU ITEM ARIA LABELS
+
+answer-questions-menu-item-aria-label = Azen-d asteqsi amaynut i temɣiwant akken ad tt-tizmir ad d-ɣeṛ-it u ad err tiririt fell-as
