@@ -49,19 +49,29 @@
 
 ### Changes merged after current release
 
+- Fix: Revert to the English translation as a fallback when a native-language translation does not exist (instead of showing the language code), add an apostrophe-normalization helper, by [@moz-bozden](https://github.com/moz-bozden) in [#5439](https://github.com/common-voice/common-voice/pull/5439) (in v.1.159.3)
 - Chore: Rework rate limiting to be keyed by user client_id (with IP fallback) across several server endpoints, and improve the client UX to prevent/handle accidental duplicate submissions and rate-limit responses during contribution flows, by [@moz-bozden](https://github.com/moz-bozden) in [#5424](https://github.com/common-voice/common-voice/pull/5424) (in v.1.159.2)
 - Chore: Update bundler dependencies [#5417](https://github.com/common-voice/common-voice/pull/5417), update uploader dependencies and adjust code [#5418](https://github.com/common-voice/common-voice/pull/5418), upgrade uploader to disable previous versions via CLI [#5419](https://github.com/common-voice/common-voice/pull/5419), by [@moz-bozden](https://github.com/moz-bozden) (in v.1.159.1)
 - Fix: Addressed several reliability issues around user profile updates and account-claiming, improving error handling for rate-limits/network edge cases and tightening the /user_client PATCH contract between web and server, by [@moz-bozden](https://github.com/moz-bozden), in [#5416](https://github.com/common-voice/common-voice/pull/5416) (in v.1.159.1)
 
 #### Data Changes after current release
 
+- Welcome to new languages: Dzongkha (dz), Kalaallisut (kl), and Musi (mui) (in v.1.159.3)
 - Added Ewe (`ee`) variants by [@moz-bozden](https://github.com/moz-bozden) in [#5421](https://github.com/common-voice/common-voice/pull/5421) (in v.1.159.1) and moved existing sentences to the new variant with a migration, by [@moz-bozden](https://github.com/moz-bozden) in [#5425](https://github.com/common-voice/common-voice/pull/5425) (in v.1.159.2)
 
 #### Spontaneous Speech Changes after current release
 
-- Chore: Update bundler dependencies [#545](https://github.com/common-voice/spontaneous-speech/pull/545), multiple optimizations, enhancements, and reliability/resilience changes [#546](https://github.com/common-voice/spontaneous-speech/pull/546), [#547](https://github.com/common-voice/spontaneous-speech/pull/547), by [@moz-bozden](https://github.com/moz-bozden) (in v.1.159.1)
-
 ##### SS Data Changes after current release
+
+- Add Bengali (`bn`) questions by [@moz-acfort](https://github.com/moz-acfort) in [#548](https://github.com/common-voice/spontaneous-speech/pull/548) (in v.1.159.3)
+
+#### Changes to Bundlers and related repos
+
+- SCS-Bundler-Chore: Uploader — upgrade `datacollective` SDK (v0.5.1 → v0.5.2) and rework "disable prior versions" handling (now via `visibility=private`) [#5432](https://github.com/common-voice/common-voice/pull/5432), fix a missing field [#5434](https://github.com/common-voice/common-voice/pull/5434), and extract the disable-prior functionality out of the uploader into a separate `mdc-disable` CLI tool [#5435](https://github.com/common-voice/common-voice/pull/5435), by [@moz-bozden](https://github.com/moz-bozden) (during v.1.159.3)
+- `cv-datasheets` - Feat: Add missing QA tags with translations into templates [#80](https://github.com/common-voice/cv-datasheets/pull/80), add API snapshot and compiled datasheets for the 2026-06-12 release [#81](https://github.com/common-voice/cv-datasheets/pull/81), by [@moz-bozden](https://github.com/moz-bozden) (during v.1.159.3)
+- `cv-datasheets` - Community: Update Aragonese (`an`) language documentation and email address, by [@Juanpabl](https://github.com/Juanpabl) in [#83](https://github.com/common-voice/cv-datasheets/pull/83) (during v.1.159.3)
+- `cv-dataset` - Add SCS v26.0 and SPS v4.0 release info — refreshed release counts, language totals, and release-history visuals, by [@moz-bozden](https://github.com/moz-bozden) in [#52](https://github.com/common-voice/cv-dataset/pull/52) (during v.1.159.3)
+- SPS-Bundler-Chore: Update bundler dependencies [#545](https://github.com/common-voice/spontaneous-speech/pull/545), multiple optimizations, enhancements, and reliability/resilience changes [#546](https://github.com/common-voice/spontaneous-speech/pull/546), [#547](https://github.com/common-voice/spontaneous-speech/pull/547), by [@moz-bozden](https://github.com/moz-bozden) (in v.1.159.1)
 
 ---
 
