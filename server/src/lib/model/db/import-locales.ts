@@ -136,13 +136,14 @@ const buildLocaleNativeNameMapping: any = () => {
       const regex = new RegExp(`^${locale}\\s*=\\s*(.+)$`, 'mi')
       const match = normalizedContent.match(regex)
 
-      nativeNames[locale] = match ? match[1].trim() : locale
+      if (match) {
+        nativeNames[locale] = match[1].trim()
+      }
     } catch (error) {
       console.warn(
         `[LANG-ERROR] Failed to parse native name for ${locale}:`,
         error
       )
-      nativeNames[locale] = locale
     }
   }
   return nativeNames
@@ -405,7 +406,7 @@ export async function importLocales() {
             `,
             [
               englishNames[lang.code] ?? lang.code,
-              nativeNames[lang.code] ?? lang.code,
+              nativeNames[lang.code] ?? lang.name,
               newLanguageData[lang.code].is_contributable,
               newLanguageData[lang.code].is_translated,
               lang.direction,
@@ -422,7 +423,7 @@ export async function importLocales() {
                 lang.code,
                 newLanguageData[lang.code].target_sentence_count,
                 englishNames[lang.code] ?? lang.code,
-                nativeNames[lang.code] ?? lang.code,
+                nativeNames[lang.code] ?? lang.name,
                 newLanguageData[lang.code].is_contributable,
                 newLanguageData[lang.code].is_translated,
                 lang.direction,
