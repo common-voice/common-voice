@@ -92,6 +92,7 @@ dsb = Bas-sorabe
 dua = Duala
 dv = Maldivien
 dyu = Dioula
+dz = Dzongkha
 ebr = Tchaman
 ee = Éwé
 efk = Efik
