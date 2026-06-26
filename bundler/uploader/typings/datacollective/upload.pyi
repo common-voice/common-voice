@@ -1,4 +1,4 @@
-"""Type stubs for datacollective.upload (v0.5.1)."""
+"""Type stubs for datacollective.upload (v0.5.2)."""
 
 from datacollective.upload_utils import UploadState
 
@@ -8,4 +8,5 @@ def upload_dataset_file(
     state_path: str | None = ...,
     show_progress: bool = ...,
     enable_logging: bool = ...,
+    part_size: int = ...,
 ) -> UploadState: ...

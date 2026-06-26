@@ -9,7 +9,8 @@ def create_submission_with_upload(
     file_path: str,
     submission: DatasetSubmission,
     state_path: str | None = ...,
-    verbose: bool = ...,
+    enable_logging: bool = ...,
+    part_size: int = ...,
 ) -> dict[str, Any]: ...
 def update_submission(submission_id: str, submission: DatasetSubmission) -> dict[str, Any]: ...
 def submit_submission(submission_id: str, submission: DatasetSubmission) -> dict[str, Any]: ...

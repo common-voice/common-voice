@@ -4,6 +4,8 @@ language-section-in-progress = Procesā
 language-section-in-progress-new-description = Ituos volūdys itūšaļt ir kūpīnys atteisteibā. Progresa jūslys nūruoda, cik lelā mārā kotrai volūdai ir veikta <localizationGlossaryLink>teiklavītys lokalizaceja</localizationGlossaryLink> i <sentenceCollectionGlossaryLink>teikumu kolekcejis izveide</sentenceCollectionGlossaryLink>.
 language-section-launched = Aizsuokts
 language-section-launched-description = Itom volūdom teiklavīta ir veiksmeigi <localizationGlossaryLink>lokalizāta</localizationGlossaryLink>, i tamā ir gona daudz <sentenceCollectionGlossaryLink>teikumu</sentenceCollectionGlossaryLink>, lai varātu turpynuot <speakLink>runuot</speakLink> i <listenLink>klauseitīs</ listenLink>.
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = Pādejū reizi atjaunynuots: { $lastUpdatedTimeStamp }
 languages-show-more = Ruodeit vaira
 languages-show-less = Ruodeit mozuok
 language-meter-in-progress = Progress

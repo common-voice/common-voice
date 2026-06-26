@@ -150,6 +150,7 @@ answer-questions-explanation-2 = Recordeu - no us amoïneu si quequegeu, feu una
 answer-questions-tip-1 = Enregistreu en un lloc raonablement tranquil
 answer-questions-tip-2 = Trieu un lloc amb una bona connexió a Internet
 answer-questions-tip-3b = Intenteu que la vostra resposta duri entre 15 i 30 segons.
+answer-questions-tip-4 = Eviteu el discurs que inciti a l'odi, a la provocació o que sigui ofensiu
 answer-questions-tip-5 = Parleu de forma natural, com ho faria amb un amic - utilitzeu els vostres variant dialecte i accent reals
 answer-questions-tip-6 = Mantingueu un volum constant: no crideu ni canteu
 # Transcribe the Audio
@@ -159,17 +160,36 @@ transcribe-the-audio-subheader-2 = Nombres i acrònims
 transcribe-the-audio-subheader-3 = Etiquetes especials
 transcribe-the-audio-subheader-4 = Segments de paraules, inicis falsos, paraules repetides
 transcribe-the-audio-subheader-5 = Errors gramaticals i col·loquialismes
-transcribe-the-audio-subheader-1-explanation = En general, heu d'escriure tot el que sentiu. Això inclou;
+transcribe-the-audio-subheader-1-explanation = En general, heu d'escriure tot el que sentiu. Això inclou:
 transcribe-the-audio-subheader-1-explanation-example-1 = Escriviu les disfluències, incloses les vacil·lacions i les repeticions
+transcribe-the-audio-subheader-1-explanation-example-2 = Etiqueteu els sorolls, com la tos o el riure
+transcribe-the-audio-subheader-1-explanation-example-3 = Etiqueteu la contaminació acústica notòria, com ara xerrameca de fons o el clàxon d'un cotxe
+transcribe-the-audio-subheader-1-explanation-example-4 = Registreu les variacions gramaticals i l'argot exactament tal com es produeixen. No corregiu ni editeu la forma de parlar de les persones.
+transcribe-the-audio-subheader-2-explanation-1 = Escriviu els nombres i els símbols amb lletres en lloc d'utilitzar xifres o caràcters especials. Per exemple:
+transcribe-the-audio-subheader-2-explanation-2 = Escriviu els acrònims tal com s'escriuen normalment en la llengua, seguint les regles estàndard de majúscules. No els transcriviu fonèticament. Per exemple:
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <correct>Correcte</correct>: És a cent quilòmetres d'aquí
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Incorrecte</wrong>: És a 100 quilòmetres d'aquí
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correct>Correcte</correct>: Ens veiem el <underline>dos mil quinze</underline>
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Incorrecte</wrong>: Ens veiem el <underline>2015</underline>
 transcribe-the-audio-subheader-2-example-3-correct = <correct>Correcte</correct>: Tenia un vint per cent de descompte
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Incorrecte</wrong>: Tenia un 20% de descompte
 transcribe-the-audio-subheader-2-example-4-correct = <correct>Correcte</correct>: Van ser arrestats per l'<underline>FBI</underline> dijous passat
 transcribe-the-audio-subheader-2-example-4-wrong = <wrong>Incorrecte</wrong>: Van ser arrestats per l'<underline>efa be i</underline> dijous passat
+transcribe-the-audio-subheader-3-explanation = Utilitzeu les etiquetes especials següents per a marcar disfluències, farciments i altres tipus de contingut no verbal (en anglès).
 tags-table-header-1 = Etiqueta
 tags-table-header-2 = Significat
 tags-laugh = Riure
+tags-disfluency = Disfluència
 tags-unclear = Poc clar
 tags-noise = Soroll
 tags-laugh-explanation = El so del riure.
+tags-disfluency-explanation =
+    Falca o so de farciment que un parlant intercala mentre decideix què dir.
+    En català, alguns sons de dubte habituals són «eeh», «mmm», «aah», etc.
 
 ## Code-Switching
 

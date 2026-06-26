@@ -2,7 +2,7 @@
 
 from __future__ import annotations
 
-from mdc_uploader.gcs import parse_gcs_uri, is_gcs_uri
+from mdc_uploader.gcs import is_gcs_uri, parse_gcs_uri
 
 
 class TestIsGcsUri:

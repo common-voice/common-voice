@@ -1,5 +1,6 @@
 ## Question Page
 
+question-dataset-language = Set de date: { $datasetLanguage }
 add-question-error-message = Încărcarea a eșuat. Te rugăm să mai încerci o dată.
 # Guidelines
 add-question-guidelines-title = Ce întrebări pot adăuga?

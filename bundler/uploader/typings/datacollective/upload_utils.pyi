@@ -1,4 +1,4 @@
-"""Type stubs for datacollective.upload_utils (v0.5.1)."""
+"""Type stubs for datacollective.upload_utils (v0.5.2)."""
 
 from pathlib import Path
 from typing import Any
@@ -11,7 +11,8 @@ MAX_UPLOAD_RETRIES: int
 RETRY_BACKOFF_SECONDS: int
 DEFAULT_PART_SIZE: int
 DEFAULT_MIME_TYPE: str
-MAX_UPLOAD_BYTES: int
+MINIMUM_PART_SIZE: int
+MAX_UPLOAD_PARTS: int
 
 class UploadSession:
     fileUploadId: str
@@ -49,8 +50,9 @@ class PresignedPartUrl:
     expiresAt: str | None
 
 def _initiate_upload(
-    submission_id: str, filename: str, file_size: int, mime_type: str
+    submission_id: str, filename: str, file_size: int, mime_type: str, part_size: int
 ) -> UploadSession: ...
+def _ensure_part_size_is_valid(file_size: int, part_size: int) -> None: ...
 def _get_presigned_part_url(
     file_upload_id: str, part_number: int
 ) -> PresignedPartUrl: ...
@@ -68,6 +70,7 @@ def _load_or_create_state(
     submission_id: str,
     final_filename: str,
     file_size: int,
+    part_size: int,
 ) -> UploadState: ...
 def _init_progress_bar(
     show_progress: bool,

@@ -16,6 +16,7 @@ as = Assamese
 ast = Asturīšu
 az = Azeirbaidžanu
 ba = Baškiru
+bag = Tuki
 bas = Basaa
 be = Boltkrīvu
 bg = Bulgaru

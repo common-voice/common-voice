@@ -391,6 +391,11 @@ announcement-release = Kính gửi cộng đồng, phiên bản mới đã chín
 # Text wrapped in <cvDatasheetsLink></cvDatasheetsLink> will be rendered as an external link to the cv-datasheets GitHub repo
 announcement-pre-release = Kính gửi cộng đồng, thời gian phát hành sắp đến rồi. Vui lòng xác thực và phiên âm, đồng thời truy cập vào <cvDatasheetsLink>cv-datasheets</cvDatasheetsLink> để cập nhật bảng dữ liệu của bạn.
 
+## Release Commencing
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-commencing = Kính gửi cộng đồng, chúng tôi đã đến hạn chót để phát hành và đang tiến hành đóng gói các bộ dữ liệu. Phiên bản mới sẽ có sẵn vào <mdcLink>Mozilla Data Collective</mdcLink> trong vài ngày nữa.
+
 ## Common Language/Dataset Selector & SearchBox Related
 
 # Generic search box defaults

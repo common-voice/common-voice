@@ -140,6 +140,7 @@ class TestStreamUploadFromGcs:
         blob.download_as_bytes = MagicMock(side_effect=download_range)
         return blob
 
+    @patch("mdc_uploader.streaming._ensure_part_size_is_valid")
     @patch("mdc_uploader.streaming._complete_upload")
     @patch("mdc_uploader.streaming._extract_etag")
     @patch("mdc_uploader.streaming._upload_part_with_retry")
@@ -149,7 +150,7 @@ class TestStreamUploadFromGcs:
     @patch("mdc_uploader.streaming.gcs_storage")
     def test_small_file_single_part(
         self, mock_gcs, mock_save, mock_init, mock_presigned,
-        mock_put, mock_etag, mock_complete, tmp_path,
+        mock_put, mock_etag, mock_complete, mock_ensure, tmp_path,
     ) -> None:
         """A file smaller than part_size uploads in one part."""
         data = b"hello world" * 100  # 1100 bytes
@@ -179,6 +180,7 @@ class TestStreamUploadFromGcs:
         mock_put.assert_called_once()
         mock_complete.assert_called_once()
 
+    @patch("mdc_uploader.streaming._ensure_part_size_is_valid")
     @patch("mdc_uploader.streaming._complete_upload")
     @patch("mdc_uploader.streaming._extract_etag")
     @patch("mdc_uploader.streaming._upload_part_with_retry")
@@ -188,7 +190,7 @@ class TestStreamUploadFromGcs:
     @patch("mdc_uploader.streaming.gcs_storage")
     def test_multi_part_upload(
         self, mock_gcs, mock_save, mock_init, mock_presigned,
-        mock_put, mock_etag, mock_complete, tmp_path,
+        mock_put, mock_etag, mock_complete, mock_ensure, tmp_path,
     ) -> None:
         """A file larger than part_size splits into multiple parts."""
         data = b"x" * 1000
@@ -217,6 +219,7 @@ class TestStreamUploadFromGcs:
         assert mock_put.call_count == 4
         assert state.checksum == hashlib.sha256(data).hexdigest()
 
+    @patch("mdc_uploader.streaming._ensure_part_size_is_valid")
     @patch("mdc_uploader.streaming._complete_upload")
     @patch("mdc_uploader.streaming._extract_etag")
     @patch("mdc_uploader.streaming._upload_part_with_retry")
@@ -225,7 +228,7 @@ class TestStreamUploadFromGcs:
     @patch("mdc_uploader.streaming.gcs_storage")
     def test_resume_skips_uploaded_parts(
         self, mock_gcs, mock_save, mock_presigned,
-        mock_put, mock_etag, mock_complete, tmp_path,
+        mock_put, mock_etag, mock_complete, mock_ensure, tmp_path,
     ) -> None:
         """Resuming skips already-uploaded parts but still reads for hash."""
         data = b"y" * 600
@@ -276,4 +279,18 @@ class TestStreamUploadFromGcs:
                 bucket_name="b", blob_path="p",
                 submission_id="s",
                 state_path=str(tmp_path / "state.json"),
+            )
+
+    @patch("mdc_uploader.streaming.gcs_storage")
+    def test_invalid_part_size_raises(self, mock_gcs, tmp_path) -> None:
+        """A part_size below the SDK minimum is rejected before initiating."""
+        blob = self._setup_blob(b"z" * 1000)
+        mock_gcs.Client.return_value.bucket.return_value.blob.return_value = blob
+
+        with pytest.raises(ValueError):
+            stream_upload_from_gcs(
+                bucket_name="b", blob_path="p",
+                submission_id="s",
+                state_path=str(tmp_path / "state.json"),
+                part_size=300,  # < MINIMUM_PART_SIZE (5 MB)
             )

@@ -13,6 +13,7 @@ tag-page-shortcut-tag-undo = Ctrl / CMD + Z
 undo = Кире алу
 tag-page-shortcut-select-all = A
 select-all = Барысын да сайлау
+cs-tag-do-guideline-3 = Охшаш сүзләр белән сак булыгыз
 cs-tag-shortcuts-guideline-2 = <key>{ tag-page-shortcut-toogle-mouse-keyboard }</key> { toogle-mouse-keyboard }
 cs-tag-shortcuts-guideline-3 = <key>{ tag-page-shortcut-remove-tags }</key> { remove-tags }
 cs-tag-shortcuts-guideline-4 = <key>{ tag-page-shortcut-select-all }</key> { select-all }

@@ -6,3 +6,5 @@ contact-form-name =
 contact-form-message =
     .label = Messaggio
 contact-required = *obrigatöio
+contact-form-success = O teu comento o l'é stæto mandou. Graçie!
+contact-form-error = S'é verificou n'erô. Pe piaxei preuva torna.

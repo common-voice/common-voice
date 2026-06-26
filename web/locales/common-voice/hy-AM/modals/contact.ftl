@@ -6,3 +6,4 @@ contact-form-name =
 contact-form-message =
     .label = Հաղորդագրություն
 contact-required = *պարտադիր է
+contact-form-success = Ձեր հաղորդագրությունն ուղարկված է։ Շնորհակալություն։

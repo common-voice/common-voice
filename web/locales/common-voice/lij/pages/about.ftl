@@ -122,6 +122,7 @@ about-playbook-how-grow-language-content-4 = Social media
 about-playbook-how-grow-language-content-5 = Ti peu addeuviâ e ciattaforme de social media pe spantegâ o messaggio. Scompartisci di pòst che mostran l’importansa de l’evento, e contatta de atre persoñe che s’interessan a-i driti linguistichi, a-e tecnologie vocale de I.A. , ò a-i pregiudiçi inta tecnologia. Ammia di atri conseggi in sce comme <campaignLink>inandiâ unna campagna  in scî social media, compreiso di contegnui che ti peu addeuviâ</campaignLink>.
 about-playbook-how-grow-language-content-6 = Partnership e connescioin
 about-playbook-how-grow-language-content-7 = Treuva de atre gente che gh’é cao st’argomento. Porrieiva ëse de universcitæ, de scheue de lengua, di gruppi de attivisti ò de communitæ de data science. Contattili e mostrighe perché e comme peuan dâ unna man d’aggiutto. <outreachTemplates>Ammia i nòstri modelli de email</outreachTemplates>.
+about-playbook-how-grow-language-content-8-v2 = <strong>Seggi creativo!</strong> A comunitæ da teu lengoa saiâ unica e sti chi en sòlo quarche mòddi pe comensâ. Pe piaxei pensa a azonze i canali da teu comunitæ chi a-o <communitiesLink>COMMUNITIES.md document in sce GitHub</communitiesLink>.
 
 ## How to validate
 

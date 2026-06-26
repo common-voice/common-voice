@@ -1,5 +1,8 @@
 ## Tagging Page
 
+tag-page-instruction = Fren <icon></icon> aḍris akken ad tebduḍ
+tag-terms-checkbox = Qebleɣ tiwtilin n tbaḍnit n Common Voice.
+tag-popover-title = Fren tabzimt
 select-a-tag = Fren tabzimt
 edit-tag = Ẓreg tabzimt
 # Shortcuts modal
@@ -15,6 +18,10 @@ tag-page-shortcut-tag-undo = Ctrl / CMD + Z
 undo = Sefsex
 tag-page-shortcut-select-all = A
 select-all = Fren akk
+# Code switching Guidelines
+cs-tag-do-guideline-1 = Seqdec taɣdirawt tameɣtut
+cs-tag-shortcuts-section-title = Aseqdec n unasiw
+cs-tag-shortcuts-guideline-1 = <key>1</key>-<key>{ $numLanguages }</key> Creḍ s tutlayt
 cs-tag-shortcuts-guideline-2 = <key>{ tag-page-shortcut-toogle-mouse-keyboard }</key> { toogle-mouse-keyboard }
 cs-tag-shortcuts-guideline-3 = <key>{ tag-page-shortcut-remove-tags }</key> { remove-tags }
 cs-tag-shortcuts-guideline-4 = <key>{ tag-page-shortcut-select-all }</key> { select-all }

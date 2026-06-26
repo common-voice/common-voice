@@ -11,6 +11,7 @@ from datacollective import (
     DatasetSubmission,
     License,
     Task,
+    Visibility,
     create_submission_draft,
     submit_submission,
     update_submission,
@@ -36,8 +37,12 @@ from mdc_uploader.log import logger
 from mdc_uploader.models import ReleaseSpec
 from mdc_uploader.streaming import stream_upload_from_gcs
 
-# 256 MB parts: MDC doesn't return partSize so SDK falls back to this default (must target upload_utils).
-_dc_upload_utils.DEFAULT_PART_SIZE = 256 * 1024 * 1024  # 256 MB
+# 256 MB multipart parts. Passed explicitly to upload_dataset_file because its part_size
+# default is import-bound (0.5.2), so the patch below only reaches the streaming path.
+UPLOAD_PART_SIZE = 256 * 1024 * 1024
+
+# Fallback when MDC omits partSize. Patch the module attribute, not a from-import copy.
+_dc_upload_utils.DEFAULT_PART_SIZE = UPLOAD_PART_SIZE
 
 # -- 429 / transient error detection ------------------------------------------
 
@@ -55,7 +60,10 @@ class TransientError(Exception):
 
 
 def _is_retryable(exc: BaseException) -> bool:
-    """Return True for RateLimitError/TransientError only (NOT bare OSError — HTTPError inherits it)."""
+    """Return True only for RateLimitError/TransientError.
+
+    Not bare OSError -- requests.HTTPError inherits it.
+    """
     if isinstance(exc, RateLimitError):
         return exc.retry_after <= MAX_RETRY_AFTER_SECONDS
     return isinstance(exc, TransientError)
@@ -175,6 +183,9 @@ class MDCClient:
             other=datasheet_text or "No datasheet available for this release.",
             pointOfContactFullName=POINT_OF_CONTACT_NAME,
             pointOfContactEmail=POINT_OF_CONTACT_EMAIL,
+            # Required for final submission since datacollective 0.5.2.
+            showContactInfo=True,
+            visibility=Visibility.PUBLIC,
             agreeToSubmit=True,
         )
 
@@ -211,9 +222,10 @@ class MDCClient:
         # Step 2: Upload file
         logger.info("MDC", "Step 2/4: Uploading %s...", os.path.basename(file_path))
         try:
-            upload_kwargs: dict = {
+            upload_kwargs: dict[str, Any] = {
                 "file_path": file_path,
                 "submission_id": submission_id,
+                "part_size": UPLOAD_PART_SIZE,
                 "enable_logging": self.verbose,
                 "show_progress": self.verbose,
             }
@@ -331,6 +343,7 @@ class MDCClient:
                 file_path=file_path,
                 submission_id=submission_id,
                 state_path=resume_state_path,
+                part_size=UPLOAD_PART_SIZE,  # ignored by SDK when resuming (keeps state.partSize)
                 enable_logging=self.verbose,
                 show_progress=self.verbose,
             )
@@ -384,7 +397,7 @@ class MDCClient:
         submission: DatasetSubmission,
     ) -> tuple[str, bool]:
         """Steps 3+4: update metadata and submit for review."""
-        submission.fileUploadId = file_upload_id  # type: ignore[attr-defined]
+        submission.fileUploadId = file_upload_id
 
         # Step 3: Update metadata
         logger.info("MDC", "Step 3/4: Updating metadata for %s...", submission_id)
@@ -432,6 +445,7 @@ class MDCClient:
             upload_dataset_file(
                 file_path=file_path,
                 submission_id=submission_id,
+                part_size=UPLOAD_PART_SIZE,
                 enable_logging=self.verbose,
                 show_progress=self.verbose,
             )
@@ -439,67 +453,6 @@ class MDCClient:
             raise _wrap_exception(exc) from exc
         logger.info("MDC", "New version uploaded to %s", submission_id)
         return True
-
-    def disable_submission(self, submission_id: str) -> bool:
-        """Disable one MDC dataset submission.
-
-        Returns False (logged as PENDING) when MDC_DISABLE_ENDPOINT is not yet
-        confirmed. Returns True on success, False on API failure (non-fatal;
-        caller decides whether to abort or continue).
-        """
-        from mdc_uploader.constants import (  # pylint: disable=import-outside-toplevel
-            MDC_DISABLE_ENDPOINT,
-        )
-
-        if MDC_DISABLE_ENDPOINT is None:
-            logger.info(
-                "MDC",
-                "PENDING: would disable %s (endpoint not yet confirmed)",
-                submission_id,
-            )
-            return False
-
-        method, path_template = MDC_DISABLE_ENDPOINT
-        path = path_template.format(id=submission_id)
-        logger.info("MDC", "Disabling %s via %s %s", submission_id, method, path)
-        try:
-            # TODO: implement actual call once endpoint is confirmed.
-            # Example: requests.request(method, f"{self.api_url}{path}")
-            raise NotImplementedError(
-                f"MDC_DISABLE_ENDPOINT is set to {MDC_DISABLE_ENDPOINT!r} "
-                "but the HTTP call is not implemented yet. "
-                "Add the call here once the endpoint is confirmed."
-            )
-        except Exception as exc:  # pylint: disable=broad-exception-caught
-            logger.error("MDC", "Failed to disable %s: %s", submission_id, exc)
-            return False
-
-    def disable_submissions(
-        self, submission_ids: list[str]
-    ) -> dict[str, bool]:
-        """Disable multiple MDC dataset submissions.
-
-        Returns {submission_id -> success}. Non-fatal per entry: failures are
-        logged and included in the result map as False.
-        """
-        results: dict[str, bool] = {}
-        for sid in submission_ids:
-            try:
-                results[sid] = self.disable_submission(sid)
-            except Exception as exc:  # pylint: disable=broad-exception-caught
-                logger.warning("MDC", "Unhandled error disabling %s: %s", sid, exc)
-                results[sid] = False
-
-        success = sum(1 for v in results.values() if v)
-        pending_or_failed = len(results) - success
-        logger.info(
-            "MDC",
-            "disable_submissions: %d succeeded, %d pending/failed (of %d total)",
-            success,
-            pending_or_failed,
-            len(submission_ids),
-        )
-        return results
 
 
 class OrphanedDraftError(Exception):

@@ -34,6 +34,7 @@ bxr = Taburyat
 byv = Medumba
 ca = Takatalant
 cak = Kaqčikel
+ce = Tačičant
 ckb = Takurdit Talemmast
 cnh = Haxa Cin
 co = Takuṛsit
@@ -249,6 +250,8 @@ indicates-required = * Yemmal-d urti ilaqen
 not-available-abbreviation = N/A
 # Text shown on a button that can be clicked to copy text to the clipboard
 copy = Nɣel
+# Text shown on a button that can be clicked to close a modal or panel
+close = Mdel
 # Text shown on a button that can be clicked to cancel an action
 cancel = Sefsex
 # Text shown on a button that can be clicked to delete an item
@@ -275,6 +278,7 @@ announcement-mdc-button-aria-text = Ldi deg yiccer amaynut
 ## Common Language/Dataset Selector & SearchBox Related
 
 searchbox-default-placeholder = Nadi...
+searchbox-default-aria-label = Nadi
 dataset-searchbox-placeholder = Nadi tutlayt...
 dataset-searchbox-aria-label = Nadi tutlayt
 request-new-language = Suter tutlayt tamaynut

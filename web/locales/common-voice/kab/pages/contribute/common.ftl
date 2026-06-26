@@ -17,6 +17,7 @@ contribute-more =
        *[other] Theggaḍ i { $count } nniḍen?
     }
 speak-empty-state = Ur nesɛi ara tifyar ara nsekles deg tutlayt-a...
+no-sentences-for-variants = Yezmer ahat fukkent-as tefyar i tsenfelt n tutlayt-ik ! Ma tufiḍ, tzemreḍ ad tbeddleḍ iɣewwaren-ik akken ad twaliḍ tifyar-nniḍen deg tutlayt-nniḍen.
 speak-empty-state-cta = Sumer-d tifyar
 speak-loading-error = Ur nezmir ara ad d-awi tifyar kken ara d-tessusruḍ. ¶ Ttxil ɛreḍ tikkelt-nniḍen ticki.
 record-button-label = Sekles taɣect-ik

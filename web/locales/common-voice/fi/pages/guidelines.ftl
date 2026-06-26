@@ -1,5 +1,6 @@
 voice-collection = Äänikokoelma
 sentence-collection = Virkekokoelma
+dont-subheader = Älä
 
 ## Voice Collection nav ids
 

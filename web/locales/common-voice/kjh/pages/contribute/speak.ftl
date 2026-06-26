@@ -71,9 +71,9 @@ create-profile-button = Профиль тӧстирге
 # IMAGE TAGS
 img-alt-success-checkmark = тӱзімніг тоозылғанының таңмазы
 # menu item
-read-sentences = Чоохтағларны хығырыбызарға
+read-sentences = Чоохтағларны хығырарға
 # text wrapped in <small></small> will be shown in a smaller font size
-read-sentences-coming-soon = Чоохтағларны хығырыбызарға <small> (Табырах) </small>
+read-sentences-coming-soon = Чоохтағларны хығырарға <small> (Тӱрчедең) </small>
 
 ## MENU ITEM TOOLTIPS
 
