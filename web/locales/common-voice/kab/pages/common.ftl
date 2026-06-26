@@ -5,6 +5,7 @@
 ## Languages
 
 aa = Tafarit
+aat = Tarvanitikayt
 ab = Tabxazit
 abb = Bankon
 ace = Acehnese
@@ -18,6 +19,7 @@ as = Tasamizt
 ast = Tasturit
 az = Tazerbiǧanit
 ba = Tabackirit
+bag = Tatukit
 bal = Baluči
 bas = Basaa
 bax = Bamun
