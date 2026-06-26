@@ -64,7 +64,7 @@ username-email-not-demographic = Il tuo nome utente e il tuo indirizzo email non
 
 ## Landing
 
-welcome-staff = Benvenuto, membro di { $company }.
+welcome-staff = Ti diamo il benvenuto, membro di { $company }.
 help-contribute = Crea un profilo Common Voice e dona la tua voce per aiutarci a costruire un dataset diversificato e open source.
 login-company = Accedi / Registrati con l’email di { $company }
 profile-not-required = Registrare un profilo non è obbligatorio per collaborare, ma incoraggiato
