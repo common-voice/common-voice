@@ -7,7 +7,7 @@
 aa = 阿法尔语
 aat = 阿尔瓦尼提卡语
 ab = 阿布哈兹语
-abb = Bankon 语
+abb = （班图）班孔语
 abq = （西北高加索）阿巴扎语
 ace = 亚齐语
 ady = 阿迪格语
