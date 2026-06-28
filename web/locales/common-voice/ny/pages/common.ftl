@@ -242,6 +242,8 @@ mrj = Hill Mari
 ms = Malay
 mse = Moussey
 mt = Maltese
+mua = Mundang
+mug = Musgum
 mui = Nyimbo
 mvy = Indus Kohistani
 mxu = Mada
@@ -280,6 +282,7 @@ qvi = Chikichwa
 qxp = Chiquechua cha Puno
 qxt = Quechua Pasco Santa Ana de Tusi
 qxu = Quechua Arequipa-La Unión
+qxw = Quechua Jauja Wanka
 rif = Tarifit
 rm-sursilv = Chiromansh Sursilvan
 rm-vallader = Vallader wa ku Roma
@@ -315,6 +318,7 @@ uk = Chiyukireniya
 ur = Chiurdu
 uz = Chiuzbek
 ve = Chitsivenda
+vec = Chiveneti
 
 # [/]
 
