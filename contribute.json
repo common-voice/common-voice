@@ -10,7 +10,7 @@
     "home": "https://commonvoice.mozilla.org",
     "docs": "https://github.com/mozilla/common-voice/blob/main/CONTRIBUTING.md",
     "forum": "https://discourse.mozilla.org/c/voice",
-    "matrix": "https://chat.mozilla.org/#/room/#common-voice:mozilla.org"
+    "matrix": "https://matrix.to/#/#common-voice:mozilla.org"
   },
   "bugs": {
     "list": "https://github.com/mozilla/common-voice/issues",

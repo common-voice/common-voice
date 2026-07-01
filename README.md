@@ -17,7 +17,7 @@ This is the web app for [Mozilla Common Voice](https://commonvoice.mozilla.org),
 - [Language workflow](./docs/LANGUAGE.md)
 - [Sentences workflow](./docs/SENTENCES.md)
 - [Discourse forum](https://discourse.mozilla-community.org/c/voice)
-- [Matrix chat](https://chat.mozilla.org/#/room/#common-voice:mozilla.org)
+- Common Voice on [Matrix (Official)](https://chat.mozilla.org/#/room/#common-voice:mozilla.org) — or open room `#common-voice:mozilla.org` in [other Matrix clients](https://matrix.to/#/#common-voice:mozilla.org)
 - [License](./LICENSE)
 
 ## How to contribute
@@ -40,7 +40,7 @@ For general discussion (feedback, ideas, random musings), head to our [Discourse
 
 For bug reports or specific feature, please use the [GitHub issue tracker](https://github.com/mozilla/common-voice/issues).
 
-For live chat, [join us on Matrix](https://chat.mozilla.org/#/room/#common-voice:mozilla.org).
+For live chat, join us on [Matrix (Official)](https://chat.mozilla.org/#/room/#common-voice:mozilla.org) — or open room `#common-voice:mozilla.org` in [other Matrix clients](https://matrix.to/#/#common-voice:mozilla.org).
 
 ## Licensing and content source
 
