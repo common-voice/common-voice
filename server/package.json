@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "@aws-sdk/client-ses": "3.637.0",
+    "@aws-sdk/client-ses": "3.1078.0",
     "@google-cloud/storage": "^6.9.5",
     "@sentry/node": "8.49.0",
     "@sentry/profiling-node": "8.47.0",
