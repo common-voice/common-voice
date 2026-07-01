@@ -83,3 +83,10 @@ player-skip-backward-shortcut-name = Înapoi
 player-skip-forward-shortcut = 9
 player-skip-forward-shortcut-key = Ctrl / Cmd + 9
 player-skip-forward-shortcut-name = Înainte
+
+## Transcription Player - Aria Labels
+
+# Play button accessibility/aria label
+player-play-button-aria-label = Redare audio
+# Pause button accessibility/aria label
+player-pause-button-aria-label = Pune sonorul în pauză
