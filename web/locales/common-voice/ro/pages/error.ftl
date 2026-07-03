@@ -6,8 +6,17 @@ banner-error-slow-link = Pagina de stare
 error-something-went-wrong = Din păcate ceva nu a funcționat
 error-clip-upload = Încărcarea acestui clip eșuează în continuare. Continui să încerci?
 error-clip-upload-server = Încărcarea acestui clip eșuează în mod repetat pe server. Reîncarcă pagina sau încearcă din nou mai târziu.
+error-clip-upload-too-large = Fișierul de înregistrare este prea mare ca să fie încărcat. Te rugăm să încerci să înregistrezi un clip mai scurt.
+error-clip-upload-server-error = Eroare de server la procesarea clipului. Te rugăm să reîncarci pagina sau să încerci din nou mai târziu.
 error-title-404 = Nu am găsit pagina pe care o cauți
 error-content-404 = Poate că te ajută <homepageLink>pagina noastră de start</homepageLink>? Pentru a adresa o întrebare, intră pe <matrixLink>chatul Matrix al comunității</matrixLink>. Poți monitoriza problemele site-ului prin <githubLink>GitHub</githubLink> și poți intra pe <discourseLink>forumurile noastre Discourse</discourseLink> pentru a discuta.
+error-title-429-no-time = Mergi prea repede. Te rugăm să mergi mai încet și să încerci din nou în câteva clipe.
+error-title-429-with-time =
+    { $retryAfter ->
+        [one] Mergi prea repede. Te rugăm să încerci din nou în { $retryAfter } secundă.
+        [few] Mergi prea repede. Te rugăm să încerci din nou în { $retryAfter } secunde.
+       *[other] Mergi prea repede. Te rugăm să încerci din nou în { $retryAfter } de secunde.
+    }
 error-title-500 = Din păcate ceva nu a funcționat.
 error-content-500 = Întâmpinăm probleme neprevăzute. Te rugăm să încerci din nou mai târziu. Pentru a adresa o întrebare, intră pe <matrixLink>chatul comunității Matrix</matrixLink>, monitorizează problemele site-ului prin <githubLink>GitHub</githubLink> sau intră pe <discourseLink>forumurile noastre Discourse</discourseLink>.
 error-title-502 = Conexiune întreruptă

@@ -338,6 +338,7 @@ rw = Kinyarwanda
 rwm = Amba
 sah = Sakha
 sat = Santali (Ol Chiki)
+sbn = Sindhi Bhil
 sc = Sardă
 scl = Shina
 scn = Siciliană
@@ -409,6 +410,8 @@ xh = Xhosa
 xhe = Khetrani
 xka = Kalkoti
 xkl = Kenyah
+xmf = Mingreliană
+yaq = Yaqui
 yi = Idiș
 yo = Yoruba
 yue = Cantoneză
@@ -480,6 +483,26 @@ announcement-mdc-text = <strong>Noile seturi de date Common Voice</strong> pot f
 announcement-mdc-button-text = Înscrie-te în Mozilla Data Collective.
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = Se deschide într-o filă nouă.
+
+## Release Delay Announcement
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-delay = Dragă comunitate, lucrăm la versiunea viitoare. Preconizăm că va fi lansată pe bucăți în zilele următoare pe <mdcLink>Mozilla Data Collective</mdcLink>.
+
+## Release Announcement
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release = Dragă comunitate, noua versiune este acum disponibilă integrap pe <mdcLink>Mozilla Data Collective</mdcLink>. Înscrieți-vă pentru acces la 500+ de seturi de date globale, create de și pentru comunitate.
+
+## Pre-Release Announcement (dates TBD)
+
+# Text wrapped in <cvDatasheetsLink></cvDatasheetsLink> will be rendered as an external link to the cv-datasheets GitHub repo
+announcement-pre-release = Dragă comunitate, se apropie data de lansare. Vă rugăm să mergeți să validați și să transcrieți și intrați și pe <cvDatasheetsLink>cv-datasheets</cvDatasheetsLink> pentru actualizarea fișelor individuale de date.
+
+## Release Commencing
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-commencing = Dragă comunitate, am ajuns la data-limită pentru lansare și grupăm seturile de date. Noua versiune va fi disponibilă pe <mdcLink>Mozilla Data Collective</mdcLink> în câteva zile.
 
 ## Common Language/Dataset Selector & SearchBox Related
 

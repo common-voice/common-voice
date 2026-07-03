@@ -12,6 +12,8 @@ record-no-mic-found = Nu a fost găsit niciun microfon.
 record-error-too-short = Înregistrarea a fost prea scurtă.
 record-error-too-long = Înregistrarea a fost prea lungă.
 record-error-too-quiet = Volumul înregistrării a fost prea scăzut.
+record-error-empty-recording = Nu a fost captat niciun fel de audio. Te rugăm să îți verifici microfonul și să încerci din nou.
+record-error-unknown-format = Nu s-a putut determina formatul audio. Te rugăm să încerci să folosești alt browser.
 record-error-uploaded-clip-corrupted =
     Înregistrarea audio este coruptă. Aceasta se poate întâmpla din motivele următoare:
     • probleme de compatibilitate cu browserul (folosește alt browser);
