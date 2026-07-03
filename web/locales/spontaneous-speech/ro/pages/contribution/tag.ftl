@@ -1,5 +1,7 @@
 ## Tagging Page
 
+tag-page-instruction = Selectează <icon></icon> textul pentru a începe
+tag-terms-checkbox = Sunt de acord cu termenii și condițiile de confidențialitate Common Voice.
 tag-popover-title = Selectează o etichetă
 select-a-tag = Selectează o etichetă
 edit-tag = Editează eticheta
@@ -12,6 +14,7 @@ tag-page-shortcut-tag-language-5 = 5
 tag-page-shortcut-remove-tags = 9
 remove-tags = Elimină etichetele
 tag-page-shortcut-toogle-mouse-keyboard = 0
+toogle-mouse-keyboard = Afișează/ascunde ferestrele contextuale
 tag-page-shortcut-tag-undo = Ctrl / CMD + Z
 undo = Anulează
 tag-page-shortcut-select-all = A
