@@ -10,6 +10,12 @@ error-clip-upload-too-large = Ses dosyanız yüklenemeyecek kadar büyük. Lütf
 error-clip-upload-server-error = Kaydınız işlenirken sunucu hata verdi. Lütfen sayfayı tazeleyin ya da daha sonra tekrar deneyin.
 error-title-404 = Aradığınız sayfayı bulamadık
 error-content-404 = <homepageLink>Ana sayfamız</homepageLink> işinize yarayabilir. Soru sormak için <matrixLink>Matrix topluluk sohbetine</matrixLink> katılabilir, <githubLink>GitHub</githubLink> aracılığıyla site sorunlarını takip edebilir ve <discourseLink>Discourse forumlarımızı</discourseLink> ziyaret edebilirsiniz.
+error-title-429-no-time = Çok hızlı ilerliyorsunuz. Lütfen yavaşlayıp birazdan tekrar deneyin.
+error-title-429-with-time =
+    { $retryAfter ->
+        [one] Çok hızlı ilerliyorsunuz. Lütfen { NUMBER($retryAfter) } saniye sonra tekrar deneyin.
+       *[other] Çok hızlı ilerliyorsunuz. Lütfen { NUMBER($retryAfter) } saniye sonra tekrar deneyin.
+    }
 error-title-500 = Üzgünüz, bir şeyler ters gitti
 error-content-500 = Beklenmeyen bir hata oluştu. Lütfen daha sonra tekrar deneyin. Yardım için lütfen <matrixLink>Matrix topluluk sohbetine</matrixLink> katılın, <githubLink>GitHub</githubLink> aracılığıyla site sorunlarını takip edin veya <discourseLink>Discourse forumlarımızı</discourseLink> ziyaret edin.
 error-title-502 = Bağlantı kesildi

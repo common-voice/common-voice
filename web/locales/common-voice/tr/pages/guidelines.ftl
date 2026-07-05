@@ -154,6 +154,14 @@ transcribe-the-audio = Ses kayıtlarını metne çevirme
 transcribe-the-audio-subheader-1 = Genel yönergeler
 transcribe-the-audio-subheader-2 = Sayılar ve kısaltmalar
 transcribe-the-audio-subheader-3 = Özel etiketler
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <correct> Doğru</correct>: Buradan yüz kilometre uzakta
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Yanlış</wrong>: Buradan 100 kilometre uzakta
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correct> Doğru</correct>: <underline>İki bin on beşte</underline> görüşürüz
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Yanlış</wrong>: <underline>2015’te</underline> görüşürüz
 tags-table-header-1 = Etiket
 tags-table-header-2 = Anlam
 tags-laugh = Gülme
