@@ -6,6 +6,26 @@ export type Variant = {
 
 export const VARIANTS: Variant[] = [
   {
+    locale_name: 'kab',
+    variant_name: 'Taqbaylit n Umalu',
+    variant_token: 'kab-west',
+  },
+  {
+    locale_name: 'kab',
+    variant_name: 'Taqbaylit n Usammar',
+    variant_token: 'kab-east',
+  },
+  {
+    locale_name: 'kab',
+    variant_name: 'Tasaḥlit',
+    variant_token: 'kab-fareast',
+  },
+  {
+    locale_name: 'kab',
+    variant_name: 'Taqbaylit n yiri n Umalu',
+    variant_token: 'kab-farwest',
+  },
+  {
     locale_name: 'ee',
     variant_name: 'Tongu',
     variant_token: 'ee-tongu',
