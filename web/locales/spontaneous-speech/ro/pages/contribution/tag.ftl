@@ -19,4 +19,7 @@ tag-page-shortcut-tag-undo = Ctrl / CMD + Z
 undo = Anulează
 tag-page-shortcut-select-all = A
 select-all = Selectează tot
+cs-tag-shortcuts-guideline-2 = <key>{ tag-page-shortcut-toogle-mouse-keyboard }</key> { toogle-mouse-keyboard }
+cs-tag-shortcuts-guideline-3 = <key>{ tag-page-shortcut-remove-tags }</key> { remove-tags }
+cs-tag-shortcuts-guideline-4 = <key>{ tag-page-shortcut-select-all }</key> { select-all }
 cs-tag-shortcuts-guideline-5 = <key>{ tag-page-shortcut-tag-undo }</key> { undo }
