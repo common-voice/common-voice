@@ -26,3 +26,5 @@ review-transcriptions-menu-item-tooltip = Neukalön lom transkripsi nyang geupeu
 ## MENU ITEM ARIA LABELS
 
 listen-contribute-menu-aria-label = Menu peuniléh deungo
+validate-readings-menu-item-aria-label = Peusahèh neubeuet nyang geupeuét lé anggèeta masyarakat
+review-transcriptions-menu-item-aria-label = Kalön lom transkripsi kalimat teureukam
