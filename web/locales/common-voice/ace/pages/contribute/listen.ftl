@@ -9,3 +9,20 @@ listen-empty-state-variants = Jeunèh bahsa droeneuh mungkén ka abéh klip! Meu
 listen-loading-error =
     Kamoe hana meuteumèe klip audio keu neudeungo.
     Neuci lom euntreuk.
+listen-abort-title = Ka lheueh neupeusahèh klip?
+listen-abort-cancel = Lanjut peusahèh
+listen-abort-confirm = Ka lheueh peusahèh
+# Menu item
+validate-readings = Peusahèh Neubeuet
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = Peusahèh Neubeuet <small>(Sigra na)</small>
+
+## MENU ITEM TOOLTIPS
+
+listen-contribute-menu-tooltip = Peusahèh Neubeuet, Kalön Transkripsi
+validate-readings-menu-item-tooltip = Peusahèh neubeuet nyang geureukam lé ureueng ngui lam bahsa droeneuh
+review-transcriptions-menu-item-tooltip = Neukalön lom transkripsi nyang geupeuét lé ureueng ngui lam bahsa droeneuh
+
+## MENU ITEM ARIA LABELS
+
+listen-contribute-menu-aria-label = Menu peuniléh deungo
