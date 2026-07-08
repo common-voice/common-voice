@@ -334,7 +334,7 @@ code-switching-punctuation-tagging-explanation = Etichetează punctuația folosi
 code-switching-punctuation-tagging-explanation-example-1 = <purple>singura dată când</purple> Maria <purple>a strigat la mine a fost</purple> <blue>porque</blue> <purple>încerca</purple> printear <blue>un</blue> <purple>comandă.</purple> (BangorTalk)
 code-switching-punctuation-tagging-explanation-example-2 = <purple>dar</purple> <blue>tú los puedes comprar rojo, negro, azul</blue>, <purple>în fine.</purple> (BangorTalk)
 # Be Careful with Lookalikes
-code-switching-lookalikes-header = Atenție la „pasageri clandestini”!
+code-switching-lookalikes-header = Atenție la cuvintele care seamănă între ele
 code-switching-lookalikes-explanation = Unele cuvinte pot apărea ca aparținând unei limbi, dar de fapt sunt folosite într-o alta. Etichetează-le în funcție de înțelesul și uzul lor și nu în funcție de cum apar. De exemplu:
 code-switching-lookalikes-explanation-example-1 = „Footing” folosit cu sensul de „a alerga” în română > etichetează-l drept cuvânt în spaniolă
 code-switching-lookalikes-explanation-example-2 = italianul „no problemo” folosit în engleză > etichetează ca engleză
