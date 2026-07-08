@@ -18,6 +18,7 @@ record-button-label = Reukam su droeneuh
 share-title-new = <bold>Bantu kamoe</bold> mita su leubèh le lom
 keep-track-profile = Kalön beuneuri droeneuh ngon profil
 login-to-get-started = Tamong atawa dapeuta keu mulai
+target-segment-first-card = Droeneuh neubri keu bagian sasaran phôn kamoe
 
 ## Speak Shortcuts
 
