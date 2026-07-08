@@ -35,7 +35,7 @@ export const VARIANTS: Variant[] = [
   },
   {
     locale_name: 'mui',
-    variant_name: 'Penesa\'',
+    variant_name: "Penesa'",
     variant_token: 'mui-penesak',
   },
   {
