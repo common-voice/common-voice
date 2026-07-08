@@ -1,6 +1,13 @@
 ## Home page
 
 welcome-to-spontaneous-speech = Bine ai venit în secțiunea dedicată discursului spontan
+# <br></br> represents a newline break
+wall-of-text = Common Voice lansează o a doua platformă axată pe colectarea de discurs liber, spontan, organic. Va ajuta multe comunități să adune date mai rapid și va fi și de ajutor pentru oamenii de știință a datelor și dezvoltatori.
+why-spontaneous-speech = De ce construim acest prototip de Discurs spontan
+# text wrapped with <mark></mark> will have a light red background
+why-card-1-text = Util pentru <mark>contexte de discurs organic</mark> și folosește cazuri (de ex., când vrei ca recunoașterea vocală să funcționeze și la persoane care vorbesc liber și colocvial)
+# text wrapped with <mark></mark> will have a light red background
+why-card-2-text = Suport mai bun pentru realități lingvistice precum translingvismul și <mark>alternanța lingvistică</mark>
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>Prompt</mark>
 # text wrapped in <mark></mark> will have a blue background
