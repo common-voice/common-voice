@@ -47,4 +47,12 @@ request-language-found-pontoon-not-launched =
     (sunt cinci astfel de fișiere), iar interfața va fi lansată automat.
 request-language-found-cv-contribution =
     Ura! Limba ta este deja disponibilă pe Common Voice <strong>Text citit</strong>. 
-    Po <homePageLink>here</homePageLink>.
+    Poți contribui <homePageLink>aici</homePageLink>.
+request-language-found-cv-sentences-lack =
+    Limba ta este deja pe lista cu limbile din Common Voice.
+    Poți facilita lansarea limbii pe <strong>Text citit</strong> contribuind cu propoziții <sentencesContributionLink>aici</sentencesContributionLink>.
+request-language-found-spontaneous-speech =
+    Limba ta este deja disponibilă pe Common Voice <strong>Discurs spontan</strong>. 
+    Dă clic <spontaneousSpeechLink>aici</spontaneousSpeechLink> ca să contribui: nu uita să modifici limba contribuției/setului de date înainte de a începe!
+request-language-already-available-scs = Text citit deja disponibil
+request-language-already-available-sps = Discurs spontan deja disponibil
