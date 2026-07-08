@@ -23,3 +23,4 @@ request-language-success-heading = Îți mulțumim! Ai trimis o cerere pentru o 
 request-language-success-list-1 = Ar trebui să primești un mesaj pe e-mail din partea managerului comunității cu explicații despre pașii de urmat pentru adăugarea limbii tale în Common Voice
 request-for-scripted-speech-toggle = Cerere pentru discurs scris
 request-for-spontaneous-speech-toggle = Cerere pentru discurs spontan
+need-help-deciding-platform-explanation-3 = Dacă nu îți vezi limba în niciuna dintre părțile platformei, selectează-le pe ambele.

@@ -2,6 +2,12 @@
 
 welcome-to-spontaneous-speech = Bine ai venit în secțiunea dedicată discursului spontan
 # text wrapped in <mark></mark> will have a blue background
+prompt-bubble-title = <mark>Prompt</mark>
+# text wrapped in <mark></mark> will have a blue background
+respond-bubble-title = <mark>Răspuns</mark>
+# text wrapped in <mark></mark> will have a blue background
+transcribe-bubble-title = <mark>Transcrie</mark>
+# text wrapped in <mark></mark> will have a blue background
 check-bubble-title = <mark>Verificare</mark>
 # text wrapped in <mark></mark> will have a blue background
 data-bubble-title = <mark>Date</mark>
