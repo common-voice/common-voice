@@ -19,7 +19,7 @@ export const VARIANTS: Variant[] = [
   {
     locale_name: 'mui',
     variant_name: 'Pelèmbang',
-    variant_token: 'mui-palembang',
+    variant_token: 'mui-plmbg',
   },
 
   {
