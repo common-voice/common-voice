@@ -11,7 +11,7 @@ cs-locale-change-modal-subtitle = Ai modificări nesalvate pe această pagină. 
 ## Question Page Items
 
 cs-question-page-instruction = Adaugă până la 25 de întrebări <icon></icon> la setul de date { $currentLocale } la care să răspundă alții
-cs-add-question-textarea-placeholder = Introdu întrebările cu alternanță lingvistică, una pe rând. Este mai probabil să primești răspunsuri cu alternanță lingvistică când întrebările conțin și ele alternanțe lingvistice.
+cs-add-question-textarea-placeholder = Introdu întrebările cu alternanță lingvistică, una pe rând. Este mai probabil să primești răspunsuri cu alternanțe lingvistice când întrebările conțin și ele alternanțe lingvistice.
 cs-question-dataset-name = Set de date: { $datasetName }
 
 ## Validate Page Items

@@ -32,5 +32,5 @@ do-not-section-guideline-3 = Pune întrebări sensibile
 cs-do-section-guideline-1 = Folosește întrebări sau context bilingv(e)
 cs-do-section-guideline-2 = Explorează scenarii, situații sau reconstituiri informale
 cs-do-not-section-guideline-1 = Solicită informații de identificare personală (cum ar fi nume sau informații financiare) sau incită la sentimente jignitoare
-cs-do-not-section-guideline-2 = Cere schimbarea codului sau cere traducere
+cs-do-not-section-guideline-2 = Cere alternanță lingvistică sau cere traducere
 cs-do-not-section-guideline-3 = Folosește un limbaj prea formal
