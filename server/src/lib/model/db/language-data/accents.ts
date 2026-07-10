@@ -8,22 +8,22 @@ export const ACCENTS: Accent[] = [
   {
     locale_name: 'fy-NL',
     accent_name: 'Klaaifrysk',
-    accent_token: 'Clay Frisian',
+    accent_token: 'fy-clayfr',
   },
   {
     locale_name: 'fy-NL',
     accent_name: 'Wâldfrysk',
-    accent_token: 'Wood Frisian',
+    accent_token: 'fy-woodfr',
   },
   {
     locale_name: 'fy-NL',
     accent_name: 'Súdwesthoeksk',
-    accent_token: 'South or Southwest Frisian',
+    accent_token: 'fy-south-southwest',
   },
   {
     locale_name: 'fy-NL',
     accent_name: 'Noardhoeksk',
-    accent_token: 'Northern Frisian',
+    accent_token: 'fy-north',
   },
   {
     locale_name: 'xmf',
