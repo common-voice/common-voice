@@ -6,6 +6,26 @@ export type Variant = {
 
 export const VARIANTS: Variant[] = [
   {
+    locale_name: 'kab',
+    variant_name: 'Taqbaylit n Umalu',
+    variant_token: 'kab-west',
+  },
+  {
+    locale_name: 'kab',
+    variant_name: 'Taqbaylit n Usammar',
+    variant_token: 'kab-east',
+  },
+  {
+    locale_name: 'kab',
+    variant_name: 'Tasaḥlit',
+    variant_token: 'kab-fareast',
+  },
+  {
+    locale_name: 'kab',
+    variant_name: 'Taqbaylit n yiri n Umalu',
+    variant_token: 'kab-farwest',
+  },
+  {
     locale_name: 'mui',
     variant_name: 'Belidè',
     variant_token: 'mui-belide',
@@ -15,19 +35,16 @@ export const VARIANTS: Variant[] = [
     variant_name: 'Kelingi',
     variant_token: 'mui-kelingi',
   },
-
   {
     locale_name: 'mui',
     variant_name: 'Pelèmbang',
     variant_token: 'mui-plmbg',
   },
-
   {
     locale_name: 'mui',
     variant_name: 'Lematang Ilir',
     variant_token: 'mui-lematang',
   },
-
   {
     locale_name: 'mui',
     variant_name: 'Pegagan',
