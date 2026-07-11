@@ -215,7 +215,7 @@ review-the-transcription-explanation-3 = Poți semnala conținutul ofensator, vi
 
 ## Code-Switching
 
-code-switching = Combinarea mai multor limbi
+code-switching = Alternanță lingvistică
 adding-a-question = Cum să contribui cu întrebări
 # Adding a Question
 code-switching-adding-question-subheader = Ce reprezintă „o întrebare bună”?
@@ -239,10 +239,10 @@ code-switching-direct-quotes-header = Solicită citate sau reconstituiri
 code-switching-direct-quotes-explanation = Încurajează participanții să redea exact ce s-a spus în acea situație. De exemplu:
 code-switching-direct-quotes-explanation-example = „Ce ai spus exact, atunci când ai aflat?”
 code-switching-cultural-topics-header = Alege subiecte cu specific cultural
-code-switching-cultural-topics-explanation = Discuțiile despre mâncare, tradiții, sărbători și familie se pretează adesea la folosirea cuvintelor și expresiilor din mai multe limbi în aceeași intervenție.
+code-switching-cultural-topics-explanation = Mâncarea, tradițiile, sărbătorile și dinamica familială predispun adesea la alternanță lingvistică.
 code-switching-cultural-topics-explanation-example = „Cum descrii mersul cu capra la colindat unei persoane care vorbește doar engleză?”
 code-switching-informal-scenarios-header = Alege situații informale
-code-switching-informal-scenarios-explanation = Conversațiile cu prietenii sau mesajele SMS includ adesea cuvinte și expresii în mai multe limbi. De exemplu:
+code-switching-informal-scenarios-explanation = Conversațiile cu prietenii sau mesajele text includ adesea o alternanță lingvistică mai naturală. De exemplu:
 code-switching-informal-scenarios-explanation-example = „Ce glume fac mereu prietenii tăi sau ce expresii haioase folosesc adesea?”
 # What to Avoid
 code-switching-avoid-subheader = Ce să eviți:
@@ -274,22 +274,22 @@ code-switching-answer-bullet-4 = Nu există un fel „perfect” de a răspunde.
 code-switching-authentic-header = Răspunde într-un mod natural și autentic
 code-switching-authentic-speak = <bold>Vorbește așa cum ai face-o cu prietenii sau familia.</bold> Dacă amesteci mai multe limbi în viața reală, fă la fel și aici. De exemplu:
 code-switching-authentic-speak-example = „Next i-am spus că nu mai pot merge, dar ea mi-a zis: «You'd better show up, frate!»”
-code-switching-use-both-languages = <bold>Folosește ambele limbi dacă așa ai face-o în mod normal.</bold> Chiar și doar unul sau două cuvinte într-o altă limbă sunt utile. De exemplu:
+code-switching-use-both-languages = <bold>Folosește ambele limbi dacă așa ai spune în mod normal.</bold> Chiar dacă schimbi un cuvânt sau două e util. Exemplu:
 code-switching-use-both-languages-example = „S-a supărat grozav because nu am sunat-o.”
 code-switching-authentic-direct-quotes = <bold>Folosește ghilimelele sau liniile de dialog.</bold> Redă exact ce a spus cineva, nu o versiune modificată sau formală. De exemplu:
 code-switching-authentic-direct-quotes-example = „M-a întrebat boyfriendul, ‘Do you think this is a game?’ și eu i-am răspuns: ‘Ok, chill!’”
-code-switching-authentic-reflect = <bold>Păstrează emoția, identitatea și contextul.</bold> Întrepătrunderea de limbi se întâmplă atunci când cineva exprimă emoții puternice, sau povestește situații de criză, sau relatează aspecte cu specific cultural. Lasă-te inspirat de aceste practici atunci când răspunzi la întrebări.
+code-switching-authentic-reflect = <bold>Reflectă emoția, identitatea și contextul.</bold> Alternanța lingvistică apare de obicei când exprimăm emoții, urgențe sau idei culturale. Bazează-te pe ele când răspunzi la întrebări.
 code-switching-authentic-full-context = <bold>Răspunde complet, detaliat, oferind cât mai mult context.</bold> Poți să incluzi și o întâmplare sau un exemplu în răspunsul tău.
 # Don’t Overthink or Overedit
 code-switching-answer-dont-subheader = Nu-ți edita prea mult răspunsul și nu te gândi prea mult la cum sună.
 code-switching-answer-dont-correct-language = <bold>Nu îți corecta exprimarea!</bold> Când te înregistrezi pentru Common Voice, nu dai un examen. Forma „corectă” sau „elevată” de a vorbi nu este esențială. Ceea ce contează este felul cum vorbești de obicei.
-code-switching-answer-dont-avoid-switching = <bold>Nu înceta să combini mai multe limbi dacă așa vorbești tu de obicei!</bold> Nu este nici o problemă dacă introduci unul sau mai multe cuvinte din altă limbă la un moment dat.
+code-switching-answer-dont-avoid-switching = <bold>Evită alternanța lingvistică dacă o faci în mod normal.</bold> Este în regulă să schimbi la mijlocul propoziției, la mijlocul gândului sau doar un cuvânt.
 code-switching-answer-dont-formal-writing = <bold>Nu vorbi de parcă ai redacta o scrisoare oficială!</bold> Evită răspunsurile academice, formale! Păstrează un ton conversațional!
-code-switching-answer-dont-force-switch = <bold>Nu folosi cuvinte din alte limbi dacă de obicei nu o faci!</bold> Combină limbile doar dacă așa ai face-o în mod obișnuit!
+code-switching-answer-dont-force-switch = <bold>Forțează alternanța lingvistică dacă nu este naturală.</bold> Alternează doar dacă așa ai vorbi în mod natural în situația respectivă.
 code-switching-answer-dont-translate-repeat = <bold>Nu tradu și nu repeta tot ce spui într-o limbă și în cealaltă!</bold> Spune ce ai de spus o singură dată, folosing cuvintele tale obișnuite, așa cum ai face-o într-o conversație! Nu este nevoie să înregistrezi în fiecare limbă o versiune separată a răspunsului.
 # Transcribing
 code-switching-transcribe-subheader = Cum să transcrii înregistrările existente
-code-switching-transcribe-intro = Când transcrii răspunsuri în care vorbitorul folosește mai multe limbi, sarcina ta este de a reprezenta felul autentic în care s-a vorbit: nu corecta, schimba, sau simplifica ce auzi! Aceasta include toate combinațiile de cuvinte din diverse limbi, precum și construcțiile colocviale.
+code-switching-transcribe-intro = Când transcrii răspunsuri care includ alternanța lingvistică, reprezintă limbajul vorbitorului așa cum a fost rostit – fără corecții, editări sau simplificări. Este valabil pentru toate trecerile de la o limbă la alta, vorbirea informală și cuvintele din mixaj de limbi.
 code-switching-transcribe-do-1 = Ascultă înregistrarea de mai multe ori pentru a nu scăpa astfel de particularități!
 code-switching-transcribe-do-2 = Pune pauză după fiecare propoziție și verifică în caz că vorbitorul a folosit în vreun fel subtil și alte limbi în răspunsul său.
 # Capture Speech Exactly as Spoken
@@ -334,7 +334,7 @@ code-switching-punctuation-tagging-explanation = Etichetează punctuația folosi
 code-switching-punctuation-tagging-explanation-example-1 = <purple>singura dată când</purple> Maria <purple>a strigat la mine a fost</purple> <blue>porque</blue> <purple>încerca</purple> printear <blue>un</blue> <purple>comandă.</purple> (BangorTalk)
 code-switching-punctuation-tagging-explanation-example-2 = <purple>dar</purple> <blue>tú los puedes comprar rojo, negro, azul</blue>, <purple>în fine.</purple> (BangorTalk)
 # Be Careful with Lookalikes
-code-switching-lookalikes-header = Atenție la „pasageri clandestini”!
+code-switching-lookalikes-header = Atenție la cuvintele care seamănă între ele
 code-switching-lookalikes-explanation = Unele cuvinte pot apărea ca aparținând unei limbi, dar de fapt sunt folosite într-o alta. Etichetează-le în funcție de înțelesul și uzul lor și nu în funcție de cum apar. De exemplu:
 code-switching-lookalikes-explanation-example-1 = „Footing” folosit cu sensul de „a alerga” în română > etichetează-l drept cuvânt în spaniolă
 code-switching-lookalikes-explanation-example-2 = italianul „no problemo” folosit în engleză > etichetează ca engleză

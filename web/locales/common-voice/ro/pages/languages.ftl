@@ -6,6 +6,7 @@ language-section-launched = Lansate
 language-section-launched-description = Pentru aceste limbi lansate, site-ul web a fost <localizationGlossaryLink>localizat</localizationGlossaryLink> cu succes și are suficiente <sentenceCollectionGlossaryLink>propoziții adunate</sentenceCollectionGlossaryLink> pentru a permite contribuții de <speakLink>Înregistrare</speakLink> și <listenLink>Ascultare</listenLink>.
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
 language-section-last-updated = Ultima actualizare: { $lastUpdatedTimeStamp }
+language-communities = Te rugăm să iei în calcul adăugarea canalelor comunității tale în <communitiesLink> documentul COMMUNITIES.md de pe GitHub</communitiesLink>.
 languages-show-more = Vezi mai multe
 languages-show-less = Vezi mai puține
 language-meter-in-progress = Progres

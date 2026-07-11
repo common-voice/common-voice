@@ -83,3 +83,28 @@ player-skip-backward-shortcut-name = Înapoi
 player-skip-forward-shortcut = 9
 player-skip-forward-shortcut-key = Ctrl / Cmd + 9
 player-skip-forward-shortcut-name = Înainte
+
+## Transcription Player - Aria Labels
+
+# Play button accessibility/aria label
+player-play-button-aria-label = Redare audio
+# Pause button accessibility/aria label
+player-pause-button-aria-label = Pune sonorul în pauză
+# Skip back button accessibility/aria label
+player-skip-backward-aria-label = Sari înapoi cu 5 secunde
+# Skip forward button accessibility/aria label
+player-skip-forward-aria-label = Sari înainte cu 5 secunde
+# Audio playback progress slider accessibility/aria label
+player-progress-slider-aria-label = Cursor de progres de redare audio
+# Toggle speed and transcription mode menu button
+player-toggle-mode-menu-aria-label = Activează/dezactivează meniul de moduri
+# Slower playback speed button accessibility/aria label
+player-speed-slow-aria-label = Viteză de redare mai lentă
+# Normal playback speed button accessibility/aria label
+player-speed-normal-aria-label = Viteză de redare normală
+# Faster playback speed button accessibility/aria label
+player-speed-fast-aria-label = Viteză de redare mai rapidă
+# Auto transcription mode button accessibility/aria label
+transcription-mode-auto-aria-label = Activează/dezactivează redarea automată cuvânt cu cuvânt
+# Mode menu button accessibility/aria label
+transcription-mode-menu-aria-label = Activează/dezactivează meniul modului de transcriere

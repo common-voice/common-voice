@@ -56,6 +56,8 @@
 
 #### Data Changes after current release
 
+- Add Musi (`mui`) variants [#5440](https://github.com/common-voice/common-voice/pull/5440), Kabyle (`kab`) variants [#5445](https://github.com/common-voice/common-voice/pull/5445), and Frisian (`fy`) accents [#5448](https://github.com/common-voice/common-voice/pull/5448) by [@moz-acfort](https://github.com/moz-acfort) (in v.1.159.4)
+- Welcome to new languages: West Flemish (`vls`) (in v.1.159.4)
 - Welcome to new languages: Dzongkha (dz), Kalaallisut (kl), and Musi (mui) (in v.1.159.3)
 - Added Ewe (`ee`) variants by [@moz-bozden](https://github.com/moz-bozden) in [#5421](https://github.com/common-voice/common-voice/pull/5421) (in v.1.159.1) and moved existing sentences to the new variant with a migration, by [@moz-bozden](https://github.com/moz-bozden) in [#5425](https://github.com/common-voice/common-voice/pull/5425) (in v.1.159.2)
 

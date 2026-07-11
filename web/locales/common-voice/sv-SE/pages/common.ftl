@@ -417,6 +417,7 @@ var = Huarijo
 ve = Venda
 vec = Venetianska
 vi = Vietnamesiska
+vls = västflamländska
 vmw = Emakhuwa
 vot = Votiska
 wbl = Wakhi

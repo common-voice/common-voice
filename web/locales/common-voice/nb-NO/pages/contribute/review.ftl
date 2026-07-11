@@ -20,7 +20,7 @@ sc-review-form-button-approve-shortcut = J
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = H
-sc-review-form-keyboard-usage-custom = Du kan også bruke tastatursnarveier: { sc-review-form-button-approve-shortcut } for å godkjenne, { sc-review-form-button-reject-shortcut } for å avvise, { sc-review-form-button-skip-shortcut } for å hoppe over
+sc-review-form-keyboard-usage-custom = Du kan også bruke hurtigtaster: { sc-review-form-button-approve-shortcut } for å godkjenne, { sc-review-form-button-reject-shortcut } for å avvise, { sc-review-form-button-skip-shortcut } for å hoppe over
 sc-review-form-button-submit =
     .submitText = Fullfør gjennomgangen
 # Variables:
