@@ -417,6 +417,7 @@ var = Guarijio
 ve = Venda
 vec = Vénitien
 vi = Vietnamien
+vls = Flamand occidental
 vmw = Makua
 vot = Vote
 wbl = Wakhi
