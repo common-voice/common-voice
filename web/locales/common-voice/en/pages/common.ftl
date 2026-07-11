@@ -414,6 +414,7 @@ var = Huarijio
 ve = Tshivenda
 vec = Venetian
 vi = Vietnamese
+vls = West Flemish
 vmw = Emakhuwa
 vot = Votic
 wbl = Wakhi
