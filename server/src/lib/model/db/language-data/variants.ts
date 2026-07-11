@@ -6,6 +6,71 @@ export type Variant = {
 
 export const VARIANTS: Variant[] = [
   {
+    locale_name: 'kab',
+    variant_name: 'Taqbaylit n Umalu',
+    variant_token: 'kab-west',
+  },
+  {
+    locale_name: 'kab',
+    variant_name: 'Taqbaylit n Usammar',
+    variant_token: 'kab-east',
+  },
+  {
+    locale_name: 'kab',
+    variant_name: 'Tasaḥlit',
+    variant_token: 'kab-fareast',
+  },
+  {
+    locale_name: 'kab',
+    variant_name: 'Taqbaylit n yiri n Umalu',
+    variant_token: 'kab-farwest',
+  },
+  {
+    locale_name: 'mui',
+    variant_name: 'Belidè',
+    variant_token: 'mui-belide',
+  },
+  {
+    locale_name: 'mui',
+    variant_name: 'Kelingi',
+    variant_token: 'mui-kelingi',
+  },
+  {
+    locale_name: 'mui',
+    variant_name: 'Pelèmbang',
+    variant_token: 'mui-plmbg',
+  },
+  {
+    locale_name: 'mui',
+    variant_name: 'Lematang Ilir',
+    variant_token: 'mui-lematang',
+  },
+  {
+    locale_name: 'mui',
+    variant_name: 'Pegagan',
+    variant_token: 'mui-pegagan',
+  },
+  {
+    locale_name: 'mui',
+    variant_name: "Penesa'",
+    variant_token: 'mui-penesak',
+  },
+  {
+    locale_name: 'mui',
+    variant_name: 'Penukal',
+    variant_token: 'mui-penukal',
+  },
+  {
+    locale_name: 'mui',
+    variant_name: 'Rawas',
+    variant_token: 'mui-rawas',
+  },
+  {
+    locale_name: 'mui',
+    variant_name: 'Sekayu',
+    variant_token: 'mui-sekayu',
+  },
+  {
     locale_name: 'ee',
     variant_name: 'Tongu',
     variant_token: 'ee-tongu',

@@ -6,6 +6,26 @@ export type Accent = {
 
 export const ACCENTS: Accent[] = [
   {
+    locale_name: 'fy-NL',
+    accent_name: 'Klaaifrysk',
+    accent_token: 'fy-clayfr',
+  },
+  {
+    locale_name: 'fy-NL',
+    accent_name: 'Wâldfrysk',
+    accent_token: 'fy-woodfr',
+  },
+  {
+    locale_name: 'fy-NL',
+    accent_name: 'Súdwesthoeksk',
+    accent_token: 'fy-south-southwest',
+  },
+  {
+    locale_name: 'fy-NL',
+    accent_name: 'Noardhoeksk',
+    accent_token: 'fy-north',
+  },
+  {
     locale_name: 'xmf',
     accent_name: 'ზუგიდური, ზუგიდური',
     accent_token: 'zugid',

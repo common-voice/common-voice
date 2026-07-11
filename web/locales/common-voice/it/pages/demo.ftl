@@ -1,7 +1,7 @@
 ## DemoLayout
 
 demo-get-started = Iniziamo
-demo-welcome = Benvenuto in Common Voice
+demo-welcome = Ti diamo il benvenuto in Common Voice
 demo-welcome-subheader = Ti interessa saperne di più e contribuire al progetto?
 
 ## Demo Datasets

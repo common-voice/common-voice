@@ -5,7 +5,7 @@ audio-page-instruction = { $actionType } <playIcon></playIcon> și transcrie ce 
 editbox-header = Transcrie
 editbox-placeholder = Transcrie ce auzi că spune persoana aici
 # Message which appears when there are no more resources on this page
-no-audio-continue-skipped-message = Nu există deocamdată nicio înregistrare audio de transcris pentru această limbă. Dacă ai sărit peste vreuna, te poți întoarce la ea, sau te poți duce să verifici transcrierile existente și poți reveni aici mai târziu.
+no-audio-continue-skipped-message = Nu mai sunt înregistrări audio de transcris pentru această limbă. Dacă ai omis vreuna, poți continua cu conținutul omis sau poți merge să revizuiești transcrieri și să încerci din nou mai târziu.
 create-transcript-success = Transcriere trimisă cu succes
 create-transcript-error = A intervenit o eroare la crearea acestei transcrieri
 error-playing-audio = Eroare la redarea fișierului audio.

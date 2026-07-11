@@ -95,7 +95,7 @@ about-playbook-how-localize = Cum funcționează localizarea site-ului?
 about-playbook-how-localize-content-1 = Traducerea site-ului Common Voice are loc pe platforma de traducere <strong>Pontoon</strong>.
 about-playbook-how-localize-content-2 = <pontoonAccountLink>Creează un cont pe Pontoon</pontoonAccountLink> dacă nu ai deja unul. Apoi, alege limba în care vrei să traduci - <strong> Team (Echipă)</strong>. La final, alege și proiectul <pontoonCvLink>Common Voice</pontoonCvLink> la care vrei să lucrezi. Fiecare proiect are un număr de fișiere de tradus. Apasă pe unul dintre ele și vei vedea textul în engleză care trebuie tradus, precum și căsuța în care trebuie să scrii traducerea.
 about-playbook-how-localize-content-3 = Traducerea e din engleză, însă poți consulta <strong>Sugestii</strong> din alte limbi. Apasă pe pictograma de <strong>Profil</strong>, apoi pe linkul <strong>Setări</strong> și adaugă limbile pe care le cunoști. În colțul din dreapta jos vei găsi o listă cu traduceri denumită <strong>Setări regionale</strong>. Traducerile vor apărea pe site a doua zi.
-about-playbook-how-localize-content-4 = Saite-ul va fi gata de publicare atunci când este tradus în proporție de cel puțin 75%.
+about-playbook-how-localize-content-4 = Site-ul va fi gata de publicare când este tradus în proporție de cel puțin 75%.
 about-playbook-how-localize-content-5 = Vizionează videoclipul nostru explicativ pentru îndrumare
 
 ## How to add sentences
@@ -124,6 +124,7 @@ about-playbook-how-grow-language-content-4 = Rețele sociale
 about-playbook-how-grow-language-content-5 = Poți folosi platformele de socializare pentru a le spune și altora despre acest proiect. Distribuie postări care explică de ce este important și ia legătura cu alte persoane care vorbesc despre probleme precum drepturile lingvistice, inteligența artificială vocală, sau răspândirea prejudecăților prin intermediul tehnologiei. Vezi aici mai multe sugestii pentru <campaignLink>desfășurarea unei campanii sociale, inclusiv conținut pe care îl poți refolosi</campaignLink>.
 about-playbook-how-grow-language-content-6 = Parteneriate și rețele
 about-playbook-how-grow-language-content-7 = Caută și alți susținători în universități, școli de limbi străine, grupuri de apărare și promovare a drepturilor și intereselor (advocacy), sau comunități de data science. Contactează-i și explică-le clar cum pot ajuta proiectul Mozilla Common Voice și de ce. <outreachTemplates>Folosește șabloanele noastre pentru e-mailuri de informare și promovare</outreachTemplates>.
+about-playbook-how-grow-language-content-8-v2 = <strong>Fii creativ!</strong> Cominitatea ta lingvistică va fi unică și aceastea sunt doar câteva moduri pentru a începe. Te rugăm să iei în considerare adăugarea canalelor comunității tale în <communitiesLink>documentul COMMUNITIES.md de pe GitHub</communitiesLink>.
 
 ## How to validate
 
