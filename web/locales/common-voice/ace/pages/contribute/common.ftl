@@ -22,6 +22,7 @@ target-segment-first-card = Droeneuh neubri keu bagian sasaran phôn kamoe
 target-segment-generic-card = Droeneuh neubri keu bagian sasaran
 target-segment-first-banner = Neubantu peugöt bagian sasaran phôn Common Voice lam bahsa { $locale }
 target-segment-add-voice = Tamah Su Droeneuh
+target-segment-learn-more = Meurunoe Lom
 
 ## Speak Shortcuts
 
