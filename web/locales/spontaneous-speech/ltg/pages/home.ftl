@@ -25,6 +25,7 @@ data-bubble-subtitle = Mes periodiski publicejam savuoktūs datus
 contact-us = Sasazynuot
 contact-us-title = Voi gribit īsasaisteit itymā projektā voi sasadorbuot ar mums?
 contact-us-email = E-posts: <emailFragment>commonvoice@mozilla.com</emailFragment>
+signup-form-title = Voi jau esit myusu Common Voice spontanuos runys projekta beta testiešonys grupā?
 signup-input-placeholder = Īvodi sova e-posta adresi
 signup-button-value = Syuteit saiti iz munu e-postu
 footer-text-privacy = <privacyLink>Konfidencialitate</privacyLink>
