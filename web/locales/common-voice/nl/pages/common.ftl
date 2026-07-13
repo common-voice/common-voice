@@ -417,6 +417,7 @@ var = Guarijio
 ve = Venda
 vec = Venetiaans
 vi = Vietnamees
+vls = West-Vlaams
 vmw = Emakhuwa
 vot = Wotisch
 wbl = Wachi
