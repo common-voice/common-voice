@@ -3,6 +3,8 @@
 welcome-to-spontaneous-speech = Vasali spontanajā runā
 why-spontaneous-speech = Parkū mes sataisejom itū spontanuos runys prototipu
 # text wrapped with <mark></mark> will have a light red background
+why-card-1-text = Nūder <mark>dabiskuos runys kontekstūs</mark> i lītuošonys gadejumūs (par pīmāru, ka gribit, lai runys atpazeišona struoduotu, kod cylvāki runoj bez īprīkšejis sagatavuošonuos voi sarunvolūdā).
+# text wrapped with <mark></mark> will have a light red background
 why-card-2-text = Lobuokai realuos dzeivis runys atpazeišonai, par pīmāru, ka teik lītuoti <mark>svešvuordi</mark> voi dažaidys volūdys
 # text wrapped with <mark></mark> will have a light red background
 why-card-3-text = Vīgluokai datu īvuokšonai nu steidzeigu voi vacu cylvāku, kam <mark>nav laika</mark>
@@ -25,7 +27,8 @@ data-bubble-subtitle = Mes periodiski publicejam savuoktūs datus
 contact-us = Sasazynuot
 contact-us-title = Voi gribit īsasaisteit itymā projektā voi sasadorbuot ar mums?
 contact-us-email = E-posts: <emailFragment>commonvoice@mozilla.com</emailFragment>
-signup-form-title = Voi jau esit myusu Common Voice spontanuos runys projekta beta testiešonys grupā?
+signup-form-title = Voi jau esit myusu Common Voice spontanuos runys projekta Beta testiešonys grupā?
+signup-terms = Nūklykstynojūt iz “Syuteit saiti iz munu e-postu”, jius pīkreitat myusu <termsLink>pakolpuojuma sniegšonys nūsacejumim</termsLink> i <privacyLink>privatuma politikai</privacyLink>, kai ari tam, ka Mozilla var jums e-postā snēgt informaceju par tū, kai pīsadaleit Common Voice spontanuos runys projekta Beta testiešonā.
 signup-input-placeholder = Īvodi sova e-posta adresi
 signup-button-value = Syuteit saiti iz munu e-postu
 footer-text-privacy = <privacyLink>Konfidencialitate</privacyLink>
