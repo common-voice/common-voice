@@ -116,6 +116,10 @@ find-us-on-matrix = Meklej myus Matrix
 # label for button
 ask-mozilla-share-action = Pastuostit par sovu nūtykumu
 
+## Developers section
+
+developers-section-title = Publiski daīmamys atvārtuos runys datu kūpys vaira nakai 130+ volūduos
+
 ## Get involved section
 
 read-sentences-link = Skaiti teikumus
@@ -124,5 +128,8 @@ press-and-stories-link = Prese i stuosti
 
 ## Partner section
 
+partner-section-title = Sasadorbojit ar mums
 # icon is an arrow that points to the right
 get-in-touch-button = Sasazynojit ar mums <icon></icon>
+# Partners section
+our-partners-include = Myusu partneru vydā ir...
