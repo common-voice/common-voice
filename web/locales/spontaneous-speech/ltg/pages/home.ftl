@@ -1,6 +1,8 @@
 ## Home page
 
 welcome-to-spontaneous-speech = Vasali spontanajā runā
+# <br></br> represents a newline break
+wall-of-text = Common Voice publicej ūtru platformu, kas fokusejās iz dabiskys, spontanys i nasagatavuotys runys apkūpuošonu. Tys paleidzēs savuokt papyldu datus runys tehnologeju atteisteibai i zynuotniskim pietejumim.
 why-spontaneous-speech = Parkū mes sataisejom itū spontanuos runys prototipu
 # text wrapped with <mark></mark> will have a light red background
 why-card-1-text = Nūder <mark>dabiskuos runys kontekstūs</mark> i lītuošonys gadejumūs (par pīmāru, ka gribit, lai runys atpazeišona struoduotu, kod cylvāki runoj bez īprīkšejis sagatavuošonuos voi sarunvolūdā).
