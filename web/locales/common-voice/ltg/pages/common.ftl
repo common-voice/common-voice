@@ -4,6 +4,7 @@
 
 ## Languages
 
+aa = Afaru
 ab = Abhazīšu
 ace = Acehnese
 ady = Adyghe
