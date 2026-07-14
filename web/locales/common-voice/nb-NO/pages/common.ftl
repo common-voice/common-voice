@@ -417,6 +417,7 @@ var = Huarigio
 ve = Tshivenda
 vec = Venetiansk
 vi = Vietnamesisk
+vls = Vestflamsk
 vmw = Makua
 vot = Votisk
 wbl = Wakhi
