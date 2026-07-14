@@ -77,8 +77,12 @@ read-more-about = Skaitit vaira myusu lopā Par mums
 ## NAV ITEMS
 
 answer-questions = Atbiļdēt iz vaicuojumim
+review-questions = Puorsavērt vaicuojumus
+transcribe-audio = Puorraksteit audio
 press-and-stories = Prese i stuosti
+community-and-languages = Kūpīna i volūdys
 coming-soon = Dreiži
+about-us = Par mums
 
 ## MENU ITEMS TOOLTIPS
 
@@ -91,16 +95,26 @@ partnerships-menu-item-aria-label = Izzynojit vaira par sadarbeibu ar Common Voi
 ## Hero section
 
 hero-title = Tehnologeja, kas runoj jiusu volūdā
+# icon is an arrow that points downwards
+get-started = Suokt dorbu <icon><icon>
 
 ## Action items section
 
+scripted-card-header = Sagatavuota runa
 spontaneous-card-header = Spontana runa
+language-text-card-header = Volūdys teksti
 coming-soon = Dreiži
 add-text = Dalikt tekstu
+answer = Atbiļde
 
 ## Community section
 
+join-discord-community = Pīsavīnuot Discord kūpīnai
+# label for button
+join-discord-community-action = Pīsavīnuot Discord
 find-us-on-matrix = Meklej myus Matrix
+# label for button
+ask-mozilla-share-action = Pastuostit par sovu nūtykumu
 
 ## Get involved section
 
