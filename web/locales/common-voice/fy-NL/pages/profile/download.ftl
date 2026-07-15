@@ -27,4 +27,4 @@ download-request-modal-title = Downloadkeppelingen
 download-request-modal-description = Hjir binne de keppelingen om jo ZIP-bestannen te downloaden.
 download-request-link-text = ZIP-bestân { $offset } fan { $total }
 download-request-metadata-link = Sintekst
-download-request-link-single = Jo kinne ek de streekrjochte URL’s kopiearje en yn jo favorite downloadbehearder plakken. Se ferrinne oer 12 oer, mar jo kinne op elk momint weromkeare nei dizze side om nije oan te meitsjen.
+download-request-link-single = Jo kinne ek de streekrjochte URL’s kopiearje en yn jo favorite downloadbehearder plakken. Se ferrinne oer 12 oeren, mar jo kinne op elk momint weromkeare nei dizze side om nije oan te meitsjen.
