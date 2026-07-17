@@ -15,6 +15,8 @@ assignees: 'moz-acfort'
 - [ ] Accent
 - [ ] Variant (e.g. dialect)
 
+Please see [this page](common-voice.github.io/community-playbook/sub_pages/Lang_Variant.html) for more information about Accent vs. Variant.
+
 ## Necessary data
 
 ### Accents
