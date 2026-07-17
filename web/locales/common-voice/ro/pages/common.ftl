@@ -417,6 +417,7 @@ var = Huarijio
 ve = Venda
 vec = Venețiană
 vi = Vietnameză
+vls = Flandra de Vest
 vmw = Emakhuwa
 vot = Votică
 wbl = Wakhi
