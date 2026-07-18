@@ -12,6 +12,8 @@ krc = Karachay-Balkar
 ks = Kashmiri
 kvx = Parkari Koli
 kxp = Wadiyara Koli
+kzi = Kelabit
+led = Lendu
 mau = Huautla Mazatec
 meh = Mixteco Yucuhiti
 mmc = Michoacán Mazahua
@@ -38,6 +40,7 @@ ru = Russian
 rw = Kinyarwanda
 sah = Sakha
 sat = Santali (Ol Chiki)
+sc = Sardinian
 
 # [/]
 
