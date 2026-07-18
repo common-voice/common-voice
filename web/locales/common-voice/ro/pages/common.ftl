@@ -515,7 +515,7 @@ announcement-release-delay = Dragă comunitate, lucrăm la versiunea viitoare. P
 ## Release Announcement
 
 # Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
-announcement-release = Dragă comunitate, noua versiune este acum disponibilă integrap pe <mdcLink>Mozilla Data Collective</mdcLink>. Înscrieți-vă pentru acces la 500+ de seturi de date globale, create de și pentru comunitate.
+announcement-release = Dragă comunitate, noua versiune este acum disponibilă integral pe <mdcLink>Mozilla Data Collective</mdcLink>. Înscrieți-vă pentru acces la 500+ de seturi de date globale, create de și pentru comunitate.
 
 ## Pre-Release Announcement (dates TBD)
 
