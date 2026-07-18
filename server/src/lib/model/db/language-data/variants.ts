@@ -6,6 +6,76 @@ export type Variant = {
 
 export const VARIANTS: Variant[] = [
   {
+    locale_name: 'ha',
+    variant_name: 'Hausar kanawa',
+    variant_token: 'ha-kanawa',
+  },
+  {
+    locale_name: 'ha',
+    variant_name: 'Hausar Katsinawa',
+    variant_token: 'ha-katsi',
+  },
+  {
+    locale_name: 'ha',
+    variant_name: 'hausar sakkwatawa',
+    variant_token: 'ha-sakkw',
+  },
+  {
+    locale_name: 'ha',
+    variant_name: 'Zazzagancin Hausa',
+    variant_token: 'ha-zazza',
+  },
+  {
+    locale_name: 'ha',
+    variant_name: 'Hausar Bauchi',
+    variant_token: 'ha-bauchi',
+  },
+  {
+    locale_name: 'ha',
+    variant_name: 'Hausar Borno',
+    variant_token: 'ha-borno',
+  },
+  {
+    locale_name: 'ha',
+    variant_name: 'Hausar Maraɗi',
+    variant_token: 'ha-maradi',
+  },
+  {
+    locale_name: 'ha',
+    variant_name: 'Hausar Zinder',
+    variant_token: 'ha-zinder',
+  },
+  {
+    locale_name: 'ha',
+    variant_name: 'Hausar Tahoua',
+    variant_token: 'ha-tahoua',
+  },
+  {
+    locale_name: 'ha',
+    variant_name: 'Hausar Agadez',
+    variant_token: 'ha-agadez',
+  },
+  {
+    locale_name: 'ha',
+    variant_name: 'Hausar Ghana',
+    variant_token: 'ha-GH',
+  },
+  {
+    locale_name: 'ha',
+    variant_name: 'Hausar Kamaru',
+    variant_token: 'ha-CM',
+  },
+  {
+    locale_name: 'ha',
+    variant_name: 'Hausar Chadi',
+    variant_token: 'ha-TD',
+  },
+  {
+    locale_name: 'ha',
+    variant_name: 'Hausar Sudan',
+    variant_token: 'ha-SD',
+  },
+  {
     locale_name: 'kab',
     variant_name: 'Taqbaylit n Umalu',
     variant_token: 'kab-west',
