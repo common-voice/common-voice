@@ -101,3 +101,8 @@ reviewing-sentences-explanation-1 = Ka teikums atbylst agruok nūsauktajim krite
 reviewing-sentences-explanation-2 = Ka teikums naatbylst agruok nūsauktajim kriterejim, klykstynojit iz pūgys "Nā".
 reviewing-sentences-explanation-3 = Ka naasat puorlīcynuots par teikumu, varit tū izlaist i puorīt iz nuokušū.
 reviewing-sentences-explanation-4 = Ka vysi teikumi jau ir puorbaudeiti, lyudzu, paleidzit mums savuokt jaunus teikumus!
+
+## Spontaneous Speech sidebar content
+
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Napareizi</wrong>: Sasateikam piec <underline>9:30</underline>

@@ -123,15 +123,31 @@ find-us-on-matrix-action-2 = Cyti klienti
 ask-mozilla-share-action = Pastuostit par sovu nūtykumu
 # label for button
 download-contribution-certificate-action = Sajemit sovu sertifikatu
+contribute-github = Atbolstit teiklavītā GitHub
+# label for button
+contribute-github-action = Atbolstit teiklavītā GitHub
+
+## Featured section
+
+# icon is an arrow that points downwards
+download-press-pack = Zamynluodejit myusu presis materialus <icon></icon>
 
 ## Developers section
 
 developers-section-title = Publiski daīmamys atvārtuos runys datu kūpys vaira nakai 130+ volūduos
+# icon is an arrow that points to the right
+explore-datasets = Izpietejit datu kūpys <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = Atbolstit valejis, kūpīnys taiseitys datu kūpys
 read-sentences-link = Skaiti teikumus
-answer-questions-link = Atbiļdi iz vaicuojumim
+validate-readings-link = Apstyprynuot īrunuotū
+contribute-link = Papyldynojat tekstu korpusu
+answer-questions-link = Atbiļdit iz vaicuojumim
+transcribe-answers-link = Puorrakstit atbiļdis
+review-transcriptions-link = Puorsaverit pīraksteitū
+contribute-text-link = Īsnēdzit tekstu
 press-and-stories-link = Prese i stuosti
 
 ## Partner section
