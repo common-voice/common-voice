@@ -154,6 +154,8 @@ transcribe-the-audio = Ses kayıtlarını metne çevirme
 transcribe-the-audio-subheader-1 = Genel yönergeler
 transcribe-the-audio-subheader-2 = Sayılar ve kısaltmalar
 transcribe-the-audio-subheader-3 = Özel etiketler
+transcribe-the-audio-subheader-1-explanation-example-4 = Dil kullanımındaki çeşitlilik ve argo olduğu gibi kaydedilmelidir. Kişilerin konuşmasını düzeltmeye çalışmayın.
+transcribe-the-audio-subheader-2-explanation-1 = Sayılar ve semboller harflerle açıkça yazılmalıdır. Rakam ve özel karakter kullanmaktan kaçının. Örnek:
 # text wrapped in correct will be shown as green text in the UI
 transcribe-the-audio-subheader-2-example-1-correct = <correct> Doğru</correct>: Buradan yüz kilometre uzakta
 # text wrapped in wrong will be shown as red text in the UI
@@ -170,6 +172,8 @@ tags-unclear = Net değil
 tags-noise = Gürültü
 tags-laugh-explanation = Gülme sesi.
 tags-unclear-explanation = Anlaşılamayan bir sözcük ya da sözcük dizisi.
+transcribe-the-audio-subheader-4-explanation-2 = Bazen konuşmacılar bir kelimenin kendisini ya da bir kısmını tekrarlar. Bunların da yazıya geçirilmesi gerekir. Örnek:
+transcribe-the-audio-subheader-4-explanation-2-example = Sonra da yatak odasına <underline>gi- gi- git-</underline> gittim
 
 ## Review the Transcription
 
