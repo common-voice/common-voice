@@ -126,3 +126,6 @@ contribution-varying-pronunciations-description = Fè atansyon anvan ou rejte an
 contribution-varying-pronunciations-description-extended = Si ou panse lektè a pwobableman pa janm rankontre mo a avan, epi li tou senpleman ka devine pwononsyasyon an mal, tanpi rejete w . Si ou pa sèten, sèvi an bouton soti la.
 contribution-varying-pronunciations-example-1-title = Y te ka poté an bere  a sou tèt li.
 contribution-varying-pronunciations-example-1-explanation = [Mo "Beret" ya bon kit se aksan asou premye silab la (UK) oubien dezyèm lan (US)]
+contribution-varying-pronunciations-example-2-title = Y te leve lan min.
+contribution-varying-pronunciations-example-2-explanation = [An Angle, yo toujou pwononse 'Raised' épi an  sèl silab, pa de]
+contribution-background-noise-title = Bri Anba Tè
