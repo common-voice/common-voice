@@ -131,6 +131,7 @@ example-questions-explanation-1 = Itamā lopā varit atrast <examplePromptsLink>
 
 answer-questions-subheader = Vyspuoreigi nūruodejumi
 answer-questions-tip-1 = Īrokstit gona klusā vītā
+transcribe-the-audio-subheader-1 = Vyspuoreigi nūruodejumi
 # text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
 transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Napareizi</wrong>: Sasateikam piec <underline>9:30</underline>
 transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Napareizi</wrong>: Tei beja 20% atlaide
