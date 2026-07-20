@@ -129,3 +129,4 @@ contribution-varying-pronunciations-example-1-explanation = [Mo "Beret" ya bon k
 contribution-varying-pronunciations-example-2-title = Y te leve lan min.
 contribution-varying-pronunciations-example-2-explanation = [An Angle, yo toujou pwononse 'Raised' épi an  sèl silab, pa de]
 contribution-background-noise-title = Bri Anba Tè
+contribution-background-noise-description = Nou vle algoritm aprantisaj machin yo kapab jere yon varyete bri anbyans, e menm bri relativman fò yo ka aksepte depi yo pa anpeche w tande tout tèks la. Mizik anbyans ki ba se oke; mizik ki ase fò pou anpeche w tande chak mo pa oke.
