@@ -46,6 +46,7 @@ x-years-short =
     }
 help-make-dataset = Paleidzit sataiseit kvalitativu, publiski daīmamu datu kūpu
 sign-up-account = Registrej sovu kontu
+email-subscription-title-v3 = Registrejitēs, lai sajimtu jaunumus par Common Voice i Mozilla Foundation
 
 ## Account Benefits
 
@@ -83,10 +84,12 @@ press-and-stories = Prese i stuosti
 community-and-languages = Kūpīna i volūdys
 coming-soon = Dreiži
 about-us = Par mums
+spontaneous-speech = SPONTANUO RUNA
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = Partnereibys, prese i stuosti, kūpīna i volūdys
+about-us-menu-item-tooltip = Izzynojat vaira Common Voice miseju i komandu
 
 ## MENU ITEM ARIA LABELS
 
@@ -114,7 +117,12 @@ join-discord-community = Pīsavīnuot Discord kūpīnai
 join-discord-community-action = Pīsavīnuot Discord
 find-us-on-matrix = Meklej myus Matrix
 # label for button
+find-us-on-element-action-1 = Elements
+find-us-on-matrix-action-2 = Cyti klienti
+# label for button
 ask-mozilla-share-action = Pastuostit par sovu nūtykumu
+# label for button
+download-contribution-certificate-action = Sajemit sovu sertifikatu
 
 ## Developers section
 
