@@ -123,3 +123,6 @@ contribution-misreadings-example-8-title = Bourdon an la te pase ak tout vitès.
 contribution-misreadings-example-8-explanation = [Kontni an ki pa koresponn]
 contribution-varying-pronunciations-title = Pwononsyasyon Diferan
 contribution-varying-pronunciations-description = Fè atansyon anvan ou rejte an klip paske lektè a mal pwononse an mo, y mete aksan an adan move plas la, oswa y ka sanble inyore an pwen entèwogasyon. Gen an gran varyete pwononsyasyon ki itilize atravè lemond, gen kèk adan yo ou ka pa tande an kominote lokal ou a. Tanpri bay yon maj apresyasyon pou moun ki ka pale yan fason diferan de ou.
+contribution-varying-pronunciations-description-extended = Si ou panse lektè a pwobableman pa janm rankontre mo a avan, epi li tou senpleman ka devine pwononsyasyon an mal, tanpi rejete w . Si ou pa sèten, sèvi an bouton soti la.
+contribution-varying-pronunciations-example-1-title = Y te ka poté an bere  a sou tèt li.
+contribution-varying-pronunciations-example-1-explanation = [Mo "Beret" ya bon kit se aksan asou premye silab la (UK) oubien dezyèm lan (US)]
