@@ -135,6 +135,13 @@ transcribe-the-audio-subheader-1 = Vyspuoreigi nūruodejumi
 # text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
 transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Napareizi</wrong>: Sasateikam piec <underline>9:30</underline>
 transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Napareizi</wrong>: Tei beja 20% atlaide
+tags-table-header-1 = Birka
+tags-table-header-2 = Nūzeime
+tags-laugh = smīklys
+tags-disfluency = Naskaidra runa
+tags-unclear = Naskaidri
+tags-noise = Trūksnis
+tags-laugh-explanation = Dzierdama smīšonuos
 
 ## Code-Switching
 
