@@ -49,6 +49,7 @@
 
 ### Changes merged after current release
 
+- Feat: Add migration helper for new predefined-accent inclusion, which solves collisions with user-defined accents, also re-apply the Frisian (`fy`) accent additions -which failed previously due to collisions- using this workflow by [@moz-bozden](https://github.com/moz-bozden) in [#5453](https://github.com/common-voice/common-voice/pull/5453) (in v.1.159.5)
 - Fix: Revert to the English translation as a fallback when a native-language translation does not exist (instead of showing the language code), add an apostrophe-normalization helper, by [@moz-bozden](https://github.com/moz-bozden) in [#5439](https://github.com/common-voice/common-voice/pull/5439) (in v.1.159.3)
 - Chore: Rework rate limiting to be keyed by user client_id (with IP fallback) across several server endpoints, and improve the client UX to prevent/handle accidental duplicate submissions and rate-limit responses during contribution flows, by [@moz-bozden](https://github.com/moz-bozden) in [#5424](https://github.com/common-voice/common-voice/pull/5424) (in v.1.159.2)
 - Chore: Update bundler dependencies [#5417](https://github.com/common-voice/common-voice/pull/5417), update uploader dependencies and adjust code [#5418](https://github.com/common-voice/common-voice/pull/5418), upgrade uploader to disable previous versions via CLI [#5419](https://github.com/common-voice/common-voice/pull/5419), by [@moz-bozden](https://github.com/moz-bozden) (in v.1.159.1)
@@ -56,8 +57,10 @@
 
 #### Data Changes after current release
 
+- Welcome to new language: Pa'O (`blk`) (in v.1.159.5)
+- Add Hausa (`ha`) variants [#5451](https://github.com/common-voice/common-voice/pull/5451) by [@moz-acfort](https://github.com/moz-acfort) (in v.1.159.5)
 - Add Musi (`mui`) variants [#5440](https://github.com/common-voice/common-voice/pull/5440), Kabyle (`kab`) variants [#5445](https://github.com/common-voice/common-voice/pull/5445), and Frisian (`fy`) accents [#5448](https://github.com/common-voice/common-voice/pull/5448) by [@moz-acfort](https://github.com/moz-acfort) (in v.1.159.4)
-- Welcome to new languages: West Flemish (`vls`) (in v.1.159.4)
+- Welcome to new language: West Flemish (`vls`) (in v.1.159.4)
 - Welcome to new languages: Dzongkha (dz), Kalaallisut (kl), and Musi (mui) (in v.1.159.3)
 - Added Ewe (`ee`) variants by [@moz-bozden](https://github.com/moz-bozden) in [#5421](https://github.com/common-voice/common-voice/pull/5421) (in v.1.159.1) and moved existing sentences to the new variant with a migration, by [@moz-bozden](https://github.com/moz-bozden) in [#5425](https://github.com/common-voice/common-voice/pull/5425) (in v.1.159.2)
 

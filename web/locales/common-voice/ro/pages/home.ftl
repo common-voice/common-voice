@@ -45,8 +45,8 @@ x-years-short =
        *[other] { $count } de ani
     }
 help-make-dataset = Ajută-ne să construim un set de date de înaltă calitate, disponibil tuturor.
-sign-up-account = Înscrie-te pentru un cont.
-email-subscription-title-v3 = Înscrie-te pentru a primi noutăți despre Mozilla Foundation și proiectul Common Voice.
+sign-up-account = Înscrie-te pentru un cont
+email-subscription-title-v3 = Înscrie-te pentru a primi noutăți despre Mozilla Foundation și proiectul Common Voice
 
 ## Account Benefits
 

@@ -417,6 +417,7 @@ var = Huarijio
 ve = Tshivenda
 vec = Venetieg
 vi = Fietnameg
+vls = Fflemineg Gorllewinol
 vmw = Emakhuwa
 vot = Votig
 wbl = Wakhi

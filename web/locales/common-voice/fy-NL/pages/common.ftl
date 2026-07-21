@@ -417,6 +417,7 @@ var = Guarijio
 ve = Fenda
 vec = Fenetiaansk
 vi = Fjetnameesk
+vls = West-Flaamsk
 vmw = Emakhuwa
 vot = Wotysk
 wbl = Wachi

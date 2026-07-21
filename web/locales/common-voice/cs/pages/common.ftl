@@ -417,6 +417,7 @@ var = Huarijio
 ve = Tshivenda
 vec = Benátština
 vi = Vietnamština
+vls = Západní vlámština
 vmw = Emakhuwa
 vot = Votština
 wbl = Wakhi

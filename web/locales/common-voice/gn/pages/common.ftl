@@ -417,6 +417,7 @@ var = Huarijio
 ve = Tshivenda
 vec = Venecia ñe’ẽ
 vi = Vietnam ñe’ẽ
+vls = flamenco Occidental
 vmw = Emakhuwa
 vot = Votic ñe’ẽ
 wbl = Wakhi

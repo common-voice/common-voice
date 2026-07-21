@@ -28,7 +28,7 @@ continue-with-skipped = Hald fram med hoppa over
 
 ## Common aria-labels
 
-keyboard-shortcuts-button-aria-label = Vis tastatursnarvegar
+keyboard-shortcuts-button-aria-label = Vis hurtigtastar
 
 ## Navbar
 

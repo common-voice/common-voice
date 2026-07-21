@@ -417,6 +417,7 @@ var = Huarijio
 ve = Tshivenda
 vec = Venezianisch
 vi = Vietnamesisch
+vls = Westflämisch
 vmw = Makua
 vot = Wotisch
 wbl = Wakhi

@@ -417,6 +417,7 @@ var = Huarijio
 ve = Tshivenda
 vec = Veneto
 vi = Vietnamita
+vls = Fiammingo occidentale
 vmw = Emakhuwa
 vot = Votico
 wbl = Wakhi

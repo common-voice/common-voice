@@ -52,6 +52,7 @@ edit = Lobuot
 email-subscriptions = Jaunumu aboniešona e-postā
 download-profile = Zamynluodēt munus datus
 api-credentials = API
+api-credentials-header = Pīsasliegšonys dati
 contribution-experience = Pīsadaleišonys pīredze
 skip-submission-feedback = Izlaist atsauksmis
 skip-submission-description = Īsnāguma īsnīgšonys laikā atgrīzeniskuo saite tiks izlaista piec nūklykstynuošonys iz 'Īsnēgt'. Īguļdejums tiks turpynuots tīši ar nuokušajim 5 īrokstim voi apstyprynuojumim.
@@ -67,6 +68,12 @@ save-api-key-info = <bold>Globoj sovys atslāgys drūsā veidā</bold>
 api-key-name-display-label = API dasaceišonuos datu nūsaukums
 api-client-secret-display-label = API klienta nūslāpums
 copy-api-credential-error-toast-message = Klaida kopejūt
+# Genders
+male_masculine = Veirīts/Veiriškeigs
+female_feminine = Sīvīte/sīviškeigs
+intersex = Interseksuals
+transgender = Transpersona
+non-binary = Nabinars
 do_not_wish_to_say = Nagrybu atkluot
 other = Cyts
 # Age Values
