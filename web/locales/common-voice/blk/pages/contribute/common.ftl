@@ -25,6 +25,7 @@ vote-yes = မွေး
 vote-no = မွေးတောဝ်း
 languages = ဘာႏသာႏငေါဝ်းငွါဖုံႏ
 about = အကျောင်ꩻခရာႏ
+submit-form-action = ဒင်ႏပသာ
 
 ## Reporting
 
@@ -34,3 +35,12 @@ report-other-comment =
     .placeholder = မုဲင်ခါꩻ
 success = အောင်ႏမျင်ႏ
 continue = သွုပ်ငါ
+
+## Speak Shortcuts
+
+shortcut-record-toggle-label = ဒင်ႏမုဲင်တောင်ꩻ/အုံဆွိုး
+shortcut-rerecord-toggle = [1-5]
+
+## Listen Shortcuts
+
+shortcut-play-toggle-label = ခွုမ်လွူꩻ/အုံဆွိုး
