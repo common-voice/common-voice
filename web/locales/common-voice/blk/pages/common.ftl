@@ -2,6 +2,15 @@
 # [Languages]
 
 
+## Languages
+
+aa = ညာꩻ
+my = မန်း
+pl = ပိုလန်
+
+# [/]
+
+
 ## Layout
 
 help = စွဲးကို
