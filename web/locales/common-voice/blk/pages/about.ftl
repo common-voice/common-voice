@@ -9,6 +9,7 @@ about-listen = နာႏငေါဝ်း
 about-yes-votes = ≥ 2 နေးမဲး
 about-no-votes = ≥ 2 စူꩻတောဝ်းမဲး
 about-dataset-new = ကောင်မွဉ်းဗွဲက် (Common Voice ) ခြွဉ်းဗူႏအပင်အလာႏ
+about-get-involved = နွို့ပါငီꩻခန်း
 about-stay-in-touch-button = ဒင်ႏမဉ်ꩻ
 about-nav-why-common-voice = ပွိုးတမုဲင်ꩻ?
 about-nav-how-it-works = နုဲင်းမုဲင်ꩻ?
