@@ -44,6 +44,7 @@ bgp = Östra Balochi
 bin = Edo
 bkh = Bakoko
 bkm = Kom
+blk = Pa'O
 bm = Bambara
 bn = Bengaliska
 bnm = Batanga
