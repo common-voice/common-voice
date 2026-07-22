@@ -14,3 +14,7 @@ terms-agree = ခွေ သꩻအောဝ်ႏဗွိုန်ဒျာႏ
 terms-disagree = ခွေ သꩻ တဗွိုန်ပီတောဝ်း
 why-donate = ကွပ်ပွိုးတမုဲင်ꩻ နာꩻရီဗာႏဟောင်း
 add-information-button = သော့ꩻ အဆင်ႏအဗာႏ
+continue-speaking-button = အောဝ်ႏလꩻဒျာႏ ကေႏဇူꩻတင်ႏငါႏ၊ ဒေါ့ꩻသွုပ်ထဲင်းဟုဲင်း
+create-profile-button = မာꩻထွာလွဉ် နမ်းအအဲဉ်ႏ တဗာႏ
+# menu item
+read-sentences = ထွားဒေါ့ꩻ လိတ်ရဲဉ်ႏဖုံႏ
