@@ -130,6 +130,7 @@ dont-add-subheader = လ္ပထပ်စုတ်
 culturally-specific-questions = တင်သၟာန် မကိတ်ညဳကဵုအခိုက်ကၞာပြဝေဏဳဂမၠိုင်
 culturally-specific-questions-explanation = တင်သၟာန် မကိတ်ညဳကဵု အခိုက်ကၞာပြဝေဏဳ ဟွံသေင်မ္ဂး တၚ်စှ်ေစိုတ်ဂမၠိုင် ဒုင်သဇိုင်လတူ ညးမကလေင်သွဟ်ဂှ် ဂၠိုင်တဴဗွဲမလောန် ရ။
 length-avoid-explanation = အရေဝ်သၟာန်ဂမၠိုင် မၞိဟ်မွဲမွဲ သွက်ဂွံ ကလေင်သှ် ဝါတ်ဂါတ် ပ္ဍဲအခိင် ၁၅ သက္က (ပွိုၚ်အခိင် ကလေပ် ဂၠိင်အိုတ်){ " " }
+process-steps = လၟေၚ်ကမၠောန်  / ကဆံၚ်
 
 ## Spontaneous Speech sidebar content
 

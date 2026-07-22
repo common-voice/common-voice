@@ -256,6 +256,8 @@ email-opt-in-info-sub-with-challenge = 도전이나 개인 목표 알림, 진행
 email-opt-in-privacy-v2 = 이메일을 받기로 수락함으로서 Mozilla의 <privacyLink>개인정보 정책</privacyLink>에 따라 Mozilla가 이 정보를 처리하는 것에 동의하게 됩니다.
 indicates-required = * 표시는 필수 항목
 not-available-abbreviation = 해당 없음
+# Text shown on a button that can be clicked to close a modal or panel
+close = 닫기
 
 ## Donate banner
 

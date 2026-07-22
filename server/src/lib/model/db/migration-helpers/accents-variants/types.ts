@@ -12,3 +12,8 @@ export type AA_MAPPING_TYPE = [string, string, boolean?][]
 // array of tuples [old_accent_token, new_accent_token, new_variant_token, delete_old?]
 // If delete_old is true (default), unreferenced accents will be deleted
 export type AAV_MAPPING_TYPE = [string, string, string, boolean?][]
+
+// new predefined accent insertion
+// array of tuples [accent_token, accent_name]
+// Used by insertNewAccents() — discovers and migrates any blocking user-submitted accents automatically
+export type NEW_ACCENT_TYPE = [string, string][]

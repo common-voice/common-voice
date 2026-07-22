@@ -417,6 +417,7 @@ var = Huarijio
 ve = Venda
 vec = Wenecianišćina
 vi = Vietnamšćina
+vls = Zapadna flamišćina
 vmw = Emakhuwa
 vot = Wotšćina
 wbl = Wakhi

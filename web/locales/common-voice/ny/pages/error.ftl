@@ -5,11 +5,16 @@ banner-error-slow-2 = Tikulandira anthu ambiri ndipo pakadali pano tikufufuza ma
 banner-error-slow-link = Tsamba Loyenera
 error-something-went-wrong = Pepani, china chake chalakwika
 error-clip-upload = Kukweza kanemayu kukupitirirabe kulephera, pitirizani kuyesanso?
+error-clip-upload-server = Yeseraniso kapena muyeseso kanthawi kena. kanemayi akukanika kusungigwa pa makinaya osundira zinthu pa yintaneti.
+error-clip-upload-too-large = Fayilo yanu yojambulira ndi yayikulu kwambiri moti simungathe kuipangaapulodi. Chonde yesani kujambula kanema waufupi.
 error-title-404 = Sitinathe kukupezerani tsamba limenelo
+error-content-404 = Mwina <homepageLink>tsamba lathu loyamba</homepageLink> lingakuthandizeni? Kuti mufunse mafunso, chonde lowani mu <matrixLink>Matrix community chat</matrixLink>, tsatirani mavuto a tsamba kudzera pa <githubLink>GitHub</githubLink> kapena pitani ku <discourseLink>mabwalo athu a Discourse</discourseLink>.
+error-title-429-no-time = Mukuchita mwachangu kwambiri. Chonde chepetsani liwiro ndiyesani kachiwiri pakapita nthawi pang'ono.
 error-title-500 = Pepani, china chake chalakwika
 error-title-502 = Kulumikizana kwasokonekera
 error-content-502 = Simungathe kukhazikitsa kulumikizana kokhazikika ndi ma seva athu pakadali pano. Chonde yesaninso mtsogolo. Kuti mupeze thandizo, chonde lowani nawo <matrixLink>Matrix community chat</matrixLink>, yang'anirani mavuto a tsamba kudzera pa <githubLink>GitHub</githubLink> kapena pitani ku <discourseLink>mabwalo athu a Nkhani</discourseLink>.
 error-title-504 = Pempho la nthawi yoti lithe
+error-content-504 = Pempholi linatenga nthawi yayitali kuti limalizidwe. Izi nthawi zambiri zimakhala zakanthawi. Yesaninso. Kuti mupeze thandizo, chonde lowani nawo <matrixLink>Matrix community chat</matrixLink>, yang'anirani mavuto a tsamba kudzera pa <githubLink>GitHub</githubLink> kapena pitani ku <discourseLink>mabwalo athu a Nkhani</discourseLink>.
 error-code = Cholakwika { $code }
 # Warning message shown when only some of the clips could be uploaded (uploaded count will be <5)
 error-duplicate-clips-some = Takweza { $uploaded } ya makanema anu — Zotsalazo zakwezedwa kale. Tiyeni tipitirize ndi gulu lotsatira!

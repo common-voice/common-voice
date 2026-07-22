@@ -417,6 +417,7 @@ var = Huarijio
 ve = tshivenda
 vec = Venetian
 vi = Vietnamese
+vls = Flamingo occidental
 vmw = Makua
 vot = Votico
 wbl = Wakhi

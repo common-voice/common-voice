@@ -46,6 +46,7 @@ x-years-short =
     }
 help-make-dataset = Paleidzit sataiseit kvalitativu, publiski daīmamu datu kūpu
 sign-up-account = Registrej sovu kontu
+email-subscription-title-v3 = Registrejitēs, lai sajimtu jaunumus par Common Voice i Mozilla Foundation
 
 ## Account Benefits
 
@@ -77,12 +78,18 @@ read-more-about = Skaitit vaira myusu lopā Par mums
 ## NAV ITEMS
 
 answer-questions = Atbiļdēt iz vaicuojumim
+review-questions = Puorsavērt vaicuojumus
+transcribe-audio = Puorraksteit audio
 press-and-stories = Prese i stuosti
+community-and-languages = Kūpīna i volūdys
 coming-soon = Dreiži
+about-us = Par mums
+spontaneous-speech = SPONTANUO RUNA
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = Partnereibys, prese i stuosti, kūpīna i volūdys
+about-us-menu-item-tooltip = Izzynojat vaira Common Voice miseju i komandu
 
 ## MENU ITEM ARIA LABELS
 
@@ -91,24 +98,62 @@ partnerships-menu-item-aria-label = Izzynojit vaira par sadarbeibu ar Common Voi
 ## Hero section
 
 hero-title = Tehnologeja, kas runoj jiusu volūdā
+# icon is an arrow that points downwards
+get-started = Suokt dorbu <icon><icon>
 
 ## Action items section
 
+scripted-card-header = Sagatavuota runa
 spontaneous-card-header = Spontana runa
+language-text-card-header = Volūdys teksti
 coming-soon = Dreiži
 add-text = Dalikt tekstu
+answer = Atbiļde
 
 ## Community section
 
+join-discord-community = Pīsavīnuot Discord kūpīnai
+# label for button
+join-discord-community-action = Pīsavīnuot Discord
 find-us-on-matrix = Meklej myus Matrix
+# label for button
+find-us-on-element-action-1 = Elements
+find-us-on-matrix-action-2 = Cyti klienti
+# label for button
+ask-mozilla-share-action = Pastuostit par sovu nūtykumu
+# label for button
+download-contribution-certificate-action = Sajemit sovu sertifikatu
+contribute-github = Atbolstit teiklavītā GitHub
+# label for button
+contribute-github-action = Atbolstit teiklavītā GitHub
+
+## Featured section
+
+# icon is an arrow that points downwards
+download-press-pack = Zamynluodejit myusu presis materialus <icon></icon>
+
+## Developers section
+
+developers-section-title = Publiski daīmamys atvārtuos runys datu kūpys vaira nakai 130+ volūduos
+# icon is an arrow that points to the right
+explore-datasets = Izpietejit datu kūpys <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = Atbolstit valejis, kūpīnys taiseitys datu kūpys
 read-sentences-link = Skaiti teikumus
-answer-questions-link = Atbiļdi iz vaicuojumim
+validate-readings-link = Apstyprynuot īrunuotū
+contribute-link = Papyldynojat tekstu korpusu
+answer-questions-link = Atbiļdit iz vaicuojumim
+transcribe-answers-link = Puorrakstit atbiļdis
+review-transcriptions-link = Puorsaverit pīraksteitū
+contribute-text-link = Īsnēdzit tekstu
 press-and-stories-link = Prese i stuosti
 
 ## Partner section
 
+partner-section-title = Sasadorbojit ar mums
 # icon is an arrow that points to the right
 get-in-touch-button = Sasazynojit ar mums <icon></icon>
+# Partners section
+our-partners-include = Myusu partneru vydā ir...

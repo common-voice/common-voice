@@ -289,7 +289,7 @@ code-switching-answer-dont-force-switch = <bold>Forțează alternanța lingvisti
 code-switching-answer-dont-translate-repeat = <bold>Nu tradu și nu repeta tot ce spui într-o limbă și în cealaltă!</bold> Spune ce ai de spus o singură dată, folosing cuvintele tale obișnuite, așa cum ai face-o într-o conversație! Nu este nevoie să înregistrezi în fiecare limbă o versiune separată a răspunsului.
 # Transcribing
 code-switching-transcribe-subheader = Cum să transcrii înregistrările existente
-code-switching-transcribe-intro = Când transcrii răspunsuri care includ alternanța lingvistică, reprezintă limbajul vorbitorului așa cum a fost rostit – fără corecții, editări sau simplificări. Este valabil pentru toate trecerile de la o limbă la alta, vorbirea informală și cuvintele din mixaj de limbi.
+code-switching-transcribe-intro = Când transcrii răspunsuri care includ alternanțe lingvistice, reprezintă limbajul vorbitorului așa cum a fost rostit – fără corecții, editări sau simplificări. Este valabil pentru toate trecerile de la o limbă la alta, vorbirea informală și cuvintele din mixaj de limbi.
 code-switching-transcribe-do-1 = Ascultă înregistrarea de mai multe ori pentru a nu scăpa astfel de particularități!
 code-switching-transcribe-do-2 = Pune pauză după fiecare propoziție și verifică în caz că vorbitorul a folosit în vreun fel subtil și alte limbi în răspunsul său.
 # Capture Speech Exactly as Spoken

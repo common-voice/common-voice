@@ -417,6 +417,7 @@ var = Huarijio
 ve = Čivenda
 vec = Benátčina
 vi = Vietnamčina
+vls = Západná flámčina
 vmw = Emakhuwa
 vot = Votic
 wbl = Wakhi

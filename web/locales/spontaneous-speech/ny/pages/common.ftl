@@ -60,6 +60,8 @@ language-search-no-results = Palibe zilankhulo zomwe zapezeka
 
 ## Transcription Player - Mode Buttons
 
+# Transcription Player - Automatic Mode
+transcription-mode-auto = Zokha
 # Player - slower
 player-speed-slow = Pang'onopang'ono
 # Player - normal speed
@@ -80,6 +82,7 @@ player-skip-backward-shortcut-name = Kubwerera m'mbuyo
 # Player control shortcut to go forwards 5 seconds: pressed with Ctrl/Cmd
 player-skip-forward-shortcut = 9
 player-skip-forward-shortcut-key = Ctrl / Cmd + 9
+player-skip-forward-shortcut-name = Patsogolo
 
 ## Transcription Player - Aria Labels
 
@@ -91,3 +94,5 @@ player-pause-button-aria-label = Imitsani mawu
 player-skip-backward-aria-label = Dumphani kubwerera m'mbuyo kwa masekondi 5
 # Skip forward button accessibility/aria label
 player-skip-forward-aria-label = Pitani patsogolo masekondi 5
+# Toggle speed and transcription mode menu button
+player-toggle-mode-menu-aria-label = Sinthani menyu ya modi
