@@ -1,5 +1,10 @@
 speak = ဒေါ့ꩻငေါဝ်း
 speak-now = ဒေါ့ꩻငေါဝ်း ယိုခါ
 speak-subtitle = လူႏသွော့ꩻ နာꩻငေါဝ်းငွါ
+record-cta = ကောႏစ ဒင်ႏမုဲင်ခါꩻ ငေါဝ်း
 record-platform-not-supported = နီသွဉ်းသီး တောင်ꩻပြန်ႏဒျာႏဩ၊ ယိုခါခါ နာꩻ ခြေင်ႏထိုꩻလောင်း(ပလတ်ဖောင်း) နောဝ်ꩻ တစွဲးကမ်းခါꩻဗာႏတောဝ်းသွူဩ။
 record-cancel = မာꩻတောဝ်းဒွုမ် ဒင်ႏမုဲင်တောင်ꩻချာသွူ
+record-three-more-instruction = လွေꩻထဲင်းသွံဗာႏ!
+share-common-voice = ဖန်းဖြယ်လွေꩻ ကောင်မွဉ်းဗွဲက် ယို
+review-submit-title = ထွားစဲစ်ချာထွူ ဒင်ႏပသာ
+review-recording = ထွားစဲစ်
