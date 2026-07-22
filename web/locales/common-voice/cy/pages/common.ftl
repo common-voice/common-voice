@@ -44,6 +44,7 @@ bgp = Balochi Dwyreiniol
 bin = Edo
 bkh = Bakoko
 bkm = Kom
+blk = Pa'O
 bm = Bambara
 bn = Bengaleg
 bnm = Batanga
