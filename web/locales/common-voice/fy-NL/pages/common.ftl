@@ -44,6 +44,7 @@ bgp = East-Beloetsji
 bin = Edo
 bkh = Bakoko
 bkm = Kom
+blk = Pa’O
 bm = Bambara
 bn = Bingaalsk
 bnm = Batanga
