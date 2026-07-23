@@ -15,6 +15,13 @@ speak-empty-state-cta = Oqaaseqatigiinnik ilanngussaqarit
 speak-loading-error = Massakkut oqaaseqatigiinnik immiussinnaasannik peqanngilagut. Kingusinnerusukkut misileqqilaariuk.
 record-button-label = Immiussigit
 share-title-new = Immiussinnaasatsinnik allanik nassaarlutit <bold>ikiortigut</bold>
+login-to-get-started = Aallartinniarlutit iserit atuisutulluunniit nalunaarit
+target-segment-add-voice = Illit nipit ilanngutsiguk
+target-segment-learn-more = Allanik ilikkagaqarit
+login-signup = Iserfissaq / Atuisutut nalunaarfissaq
+vote-yes = Aap
+vote-no = Naamik
+languages = Oqaatsit
 
 ## Listen Shortcuts
 
@@ -30,6 +37,7 @@ shortcut-vote-no = n
 
 contribution-criteria-nav = Piumasaqaatit
 contribution-for-example = assersuutigalugu
+contribution-misreadings-example-5-title = Kaffimik aallerpugut.
 contribution-volume-title = Nipitussuseq
 see-more = <chevron></chevron>Amerlanerulersikkit
 see-less = <chevron></chevron>Ikinnerulersikkit
