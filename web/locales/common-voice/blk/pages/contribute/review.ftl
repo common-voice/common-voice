@@ -14,6 +14,12 @@ sc-review-form-source = အရွီးအခိုႏ:{ $sentenceSource }
 sc-review-form-button-reject = စူꩻတောဝ်း
 sc-review-form-button-skip = ကာႏ
 sc-review-form-button-approve = အွဉ်ႏတိဉ်ႏလွေꩻ
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = မွေး
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = တောဝ်း
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = ကာႏ
 sc-review-form-button-submit =
     .submitText = အွဉ်ႏထွူသွတ်ꩻ ထာꩻထွားစဲစ်
 # Variables:
