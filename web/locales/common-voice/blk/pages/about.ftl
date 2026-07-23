@@ -25,6 +25,7 @@ about-playbook-how-add-language = သော့ꩻဗာႏ ဘာႏသာႏင
 about-playbook-how-add-language-translating-heading = အောဝ်ႏလုဲင်ႏချာႏဘာႏသာႏ  ပွိုင်ကို(သုဲက်)
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>သွုံꩻဗာႏ ပွန်တွန်း နုဲင်းမုဲင်ꩻနောဝ်ꩻ ထွားသွော့ꩻ နီသွဉ်းသီး ကအွဉ်ႏနယ်ကိုယို</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = အောဝ်ႏထိုမ်ႏရွမ် လိတ်ရဲဉ်ႏဖုံႏ
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>ထွားဖေႏသွော့ ထူႏရွမ် လိတ်ဖြုံႏရဲဉ်ႏသား သွုံꩻတဖူꩻနယ်ꩻယိုဩ။</sentenceCollectorVideo>
 
 ## How to add sentences
 
