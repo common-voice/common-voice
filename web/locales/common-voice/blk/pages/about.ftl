@@ -1,9 +1,14 @@
 ## ABOUT US
 
 about-title = ကောင်မွဉ်းဗွဲက်(Common Voice)ယို ကွပ်ပွိုး တမုဲင်ꩻ?
+how-does-it-work-title-v2 = ကောင်မွဉ်းဗွဲက်နောဝ်ꩻ အမာꩻထာꩻမာꩻ နုဲင်းမုဲင်ꩻ?
 
 ## How does it work section
 
+about-localization-title = သုဲက်ပွိုင် တွူးထွောင်းကို
+about-localization-subtitle = သုဲက်ပွိုင် လိတ်ယာႏယိုနောဝ်ꩻ ချာႏပြန်ႏဘာႏသာႏလွေꩻဖေႏ ဘာႏသာႏငေါဝ်းငွါ သူꩻသွူ။
+about-sentence-collection-title = ထိုမ်ႏလွောင်ႏရွမ် လိတ်ရဲဉ်ႏ
+about-sentence-collection-subtitle = လိုꩻသီး ဒေါ့ꩻထန်ႏအငေါဝ်းတာႏ ထိုမ်ႏရွမ်ဗာႏ လိတ်ဖြုံႏရဲဉ်ႏဖုံႏနဝ်ꩻသွူ။
 about-voice-validation-title = နေးထူႏ အငေါဝ်း
 about-speak = ဒေါ့ꩻငေါဝ်း
 about-listen-queue = အုံရဲဉ်ႏနေး-နာႏငေါဝ်း
@@ -33,6 +38,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 
 about-playbook-how-localize = သုဲက်ပွိုင်အကိုဖဲ့ꩻ အမာꩻထာꩻမာꩻ နုဲင်းမုဲင်ꩻ?
 about-playbook-how-localize-content-1 = ထာꩻမာꩻပြန်ႏဘာႏသာႏ ကောင်မွဉ်းဗွဲက် သုဲက်ပွိုင် ယိုဖုံႏနောဝ်ꩻ ခွုမ်မာꩻလွေꩻဒျာႏ <strong>ပွန်တွန်း</strong> ကိုသွူဩ။
+about-playbook-how-localize-content-2 = နမ်းမဉ်ꩻဖြာꩻ မိဉ်ႏတအောဝ်ႏဒွိုန်းနောဝ်ꩻ <pontoonAccountLink> မာꩻထွာ နမ်းမဉ်ꩻဖြာꩻ တဗာႏ </pontoonAccountLink>ယိုနေား။ နောဝ်ꩻမိဉ်ႏထွူတဲင်  နာꩻဘာႏသာႏငေါဝ်းငွါအစွိုꩻ<strong> (‘Team’)</strong>ကိုယို လွိုက်ထူႏပါ ထာꩻမာꩻခြပ်ရဲဉ်ႏ ကောင်မွဉ်းဗွဲက်<pontoonCvLink>Common Voice</pontoonCvLink>ယိုနေား။ နောဝ်ꩻမိဉ်ႏထွူ အီႏထီႏဗာႏ ပြန်ႏဘာႏသာႏအတာႏ ဖုဲင်လာႏဖုံႏယိုသွူ။ မိဉ်ႏနျꩻဖုဲင် တဗာႏနောဝ်ꩻ အဲင်းဂလေတ် လိတ်ရဲဉ်ႏဖုံႏတွမ်ႏ ကအီႏချာႏပြန်ႏဘာႏသာႏယိုတာႏ တဲမ်းလိတ်ခင် တဗာႏ အီႏထန်ႏလွဉ်သွူ။
 
 ## How to add sentences
 

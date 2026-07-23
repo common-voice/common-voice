@@ -44,6 +44,7 @@ bgp = Beluci orientale
 bin = Edo
 bkh = Bakoko
 bkm = Kom
+blk = Pa'O
 bm = Bambara
 bn = Bengalese
 bnm = Batanga
