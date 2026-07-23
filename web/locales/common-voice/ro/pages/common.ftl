@@ -44,6 +44,7 @@ bgp = Balochi orientală
 bin = Edo
 bkh = Bakoko
 bkm = Kom
+blk = Pa'O
 bm = Bambară
 bn = Bengali
 bnm = Batanga
