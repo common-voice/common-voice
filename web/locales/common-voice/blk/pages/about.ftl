@@ -36,6 +36,13 @@ about-nav-why-common-voice = ပွိုးတမုဲင်ꩻ?
 about-nav-how-it-works = နုဲင်းမုဲင်ꩻ?
 about-nav-partners = ဖဲ့ꩻတွာ
 about-nav-get-involved = နွို့ပါငီꩻခန်း
+about-nav-how-it-works-2 = ကောင်မွဉ်းဗွဲက်နောဝ်ꩻ အမာꩻထာꩻမာꩻ နုဲင်းမုဲင်ꩻ?
+about-nav-playbook = သွဉ်ထူႏသွော့ꩻ နွို့ပါငီꩻနုဲင်းမုဲင်ꩻ
+
+## Community Playbook Content
+## What is a language
+
+about-playbook-what-is-language = ကောင်မွဉ်းဗွဲက်ကိုနောဝ်ꩻ ဘာႏသာႏငေါဝ်းငွါ တမုဲင်ꩻ?
 
 ## How do I add a language
 
