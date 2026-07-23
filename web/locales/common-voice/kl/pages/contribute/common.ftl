@@ -10,6 +10,7 @@ clips-with-count-pluralized =
        *[other] <bold>{ $count }</bold> immiussat
     }
 goal-help-recording = Common Voicep ullormut immiunneqartussatut anguniarpai { $goalValue }, taakkua <goalPercentage></goalPercentage>-ii immiullugit ikiorpatit!
+goal-help-validation = Common Voicep ullormut misissugassatut anguniarpai { $goalValue }-t, taakkua <goalPercentage></goalPercentage>-ii misissorlugit ikiorpatit!
 speak-empty-state = Oqaatsini taakkunani immiusseqqinnissammut oqaaseqatigiinnik immiussassanik nunguutsisoorpugut...
 speak-empty-state-cta = Oqaaseqatigiinnik ilanngussaqarit
 speak-loading-error = Massakkut oqaaseqatigiinnik immiussinnaasannik peqanngilagut. Kingusinnerusukkut misileqqilaariuk.
