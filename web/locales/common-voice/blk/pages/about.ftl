@@ -56,6 +56,10 @@ about-playbook-how-localize-content-2 = နမ်းမဉ်ꩻဖြာꩻ မ
 
 about-playbook-how-add-sentences = သော့ꩻဗာႏ ဝါကျလိတ်ရဲဉ်ႏ နုဲင်းမုဲင်ꩻ?
 
+## How to record quality
+
+about-playbook-how-record-content-3 = ထွားဒေါ့ꩻ စဲင်းစဲင်းသွော့ လိတ်ရဲဉ်ႏယိုနေား- ဖေႏကအွဉ်ႏကုဲင်မွိုန်း၊ ပြောင်ꩻလုဲင်ႏ မွေးတောဝ်းလဲ့ သော့ꩻ ငေါဝ်းဖြုံႏ။
+
 ## How to grow language
 
 about-playbook-how-grow-language-content-4 = လိုꩻသီးခွဲးသွုပ်(သိုဆယ်မီဒီယာ)
