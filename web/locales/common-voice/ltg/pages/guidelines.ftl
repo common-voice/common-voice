@@ -144,7 +144,12 @@ answer-questions = Atbiļdēt iz vaicuojumim
 answer-questions-subheader = Vyspuoreigi nūruodejumi
 answer-questions-tip-1 = Īrokstit gona klusā vītā
 answer-questions-tip-2 = Izavielejit vītu ar lobu škārsteikla daslāgumu
+# Transcribe the Audio
+transcribe-the-audio = Puorraksteit audio
 transcribe-the-audio-subheader-1 = Vyspuoreigi nūruodejumi
+transcribe-the-audio-subheader-3 = Eipašys birkys
+transcribe-the-audio-subheader-4 = Vuordu segmenti, ar klaidom suokti vuordi, atkuortuoti vuordi
+transcribe-the-audio-subheader-5 = Gramatiskys klaidys i sarunvolūdys vuordi
 # text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
 transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Napareizi</wrong>: Sasateikam piec <underline>9:30</underline>
 transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Napareizi</wrong>: Tei beja 20% atlaide
@@ -156,8 +161,17 @@ tags-unclear = Naskaidri
 tags-noise = Trūksnis
 tags-laugh-explanation = Dzierdama smīšonuos
 
+## Review the Transcription
+
+review-the-transcription = Puorsaverit transkripceju
+review-the-transcription-subheader = Vyspuoreigi nūruodejumi
+
 ## Code-Switching
 
+code-switching = Koda puorsliegšona
+adding-a-question = Vaicuojumu dalikšona
+# Adding a Question
+code-switching-adding-question-subheader = Kaids ir lobs vaicuojums?
 code-switching-tagging-error-2 = Drukys klaidys
 
 ## Reporting Content

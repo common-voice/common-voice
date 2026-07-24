@@ -105,6 +105,7 @@ about-playbook-how-record-content-1 = KKwuo okwu n'ezigbo olu gị! A nabatara e
 about-playbook-how-record-content-2 = Zeere ókè mkpọtụ n'azụ - ọ ga-adị mfé ịnụ ihe i na-ekwu.
 about-playbook-how-record-content-3 = Kpachapụ anya gụọ ahịrịokwu ahụ - amafela, gbanwee ma ọ bụ gbakwunye mkpụrụokwu.
 about-playbook-how-record-content-4 = Hụ na platfọọm ahụ na-edekọ tupu I malite kwuo okwu, nakwa na ọ kwụsịrị ozigbo i mechara.
+about-playbook-how-record-content-5 = <<accuracyLink>hụ ihe ndị ọzọ gbasara ihe nlebanya izi ezi. </accuracyLink>
 
 ## How to access dataset
 
