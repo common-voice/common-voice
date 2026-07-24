@@ -44,6 +44,7 @@ bgp = Východní Balúčistán
 bin = Edo
 bkh = Bakoko
 bkm = Komijština
+blk = Pa’O
 bm = Bambarština
 bn = Bengálština
 bnm = Batanga
