@@ -119,11 +119,17 @@ what-makes-a-good-question-explanation = Lobam spontanuos runys vaicuojumam vaja
 what-makes-a-good-question-explanation-criteria-1 = Saprūtamam i iz tū ir vīgli atbiļdēt
 what-makes-a-good-question-explanation-criteria-2 = Aktualam sevkuram cylvākam
 what-makes-a-good-question-explanation-criteria-3 = Taidam, kas nalītoj i navadynoj iz aiztīkūšu volūdu
+what-makes-a-good-question-tip = Apdūmojit, voi vaicuojums varātu atsatīkt iz vairuokim kontekstim voi sferom.
 easy-to-understand = Vīgli saprūtams
 spelling-and-pronunciation = Pareizraksteiba i pīturzeimis
+spelling-and-pronunciation-explanation = Īvārojit pareizraksteibys i gramatikys nūsacejumus
 length = Garums
 length-explanation = Iz vaicuojumu vajadzātu varēt atbiļdēt puors teikumūs.
+culturally-specific-questions = Kulturai rakstureigi vaicuojumi
 process-steps = Process / sūli
+offensive-content-sensitive-information = Aizvainojūšs saturs voi sensitiva informaceja
+offensive-content-sensitive-information-explanation-explanation-1 = Vaicuojumi, kas varātu izmuoneit personu identificiejūšu informaceju
+offensive-content-sensitive-information-explanation-explanation-2 = Vaicuojumi, kas varātu vadynuot iz naida runu voi cytim aizsprīdumim voi aizvainojūšim redzīnim
 example-questions-subheader = Vaicuojumu pīmāri
 example-questions-explanation-1 = Itamā lopā varit atrast <examplePromptsLink>120 vaicuojumu pīmārus.</examplePromptsLink>
 
