@@ -6,6 +6,8 @@
 
 aa = Afaru
 ab = Abhazīšu
+abb = Bankon
+abq = Abaza
 ace = Acehnese
 ady = Adyghe
 af = Afrikaņu

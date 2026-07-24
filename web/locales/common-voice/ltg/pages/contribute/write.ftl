@@ -77,6 +77,7 @@ minimum-sentences = Minimalais teikumu skaits failā: 1000
 maximum-file-size = Maksimalais faila izmārs: 25 MB
 what-needs-to-be-in-file = Kam juobyut munā failā?
 upload-progress-text = Nūteik augšynluode...
+sc-bulk-submit-confirm = Es apstyprynoju, ka itī ir <wikipediaLink>publiskuo domena</wikipediaLink> teikumi, i maņ ir atļuove tūs augšynluodēt.
 bulk-upload-success-toast = Teikumi augšynluodāti
 bulk-upload-failed-toast = Augšynluode naizadeve, lyudzu, raugi vēļreiz.
 bulk-submission-success-header = Paļdis par teikumu dalikšonu!
