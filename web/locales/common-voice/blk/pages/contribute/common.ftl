@@ -36,6 +36,11 @@ report-other-comment =
 success = အောင်ႏမျင်ႏ
 continue = သွုပ်ငါ
 
+## Speak & Listen Shortcuts
+
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = ကာႏ
+
 ## Speak Shortcuts
 
 shortcut-record-toggle-label = ဒင်ႏမုဲင်တောင်ꩻ/အုံဆွိုး
