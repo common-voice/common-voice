@@ -25,6 +25,7 @@ vote-yes = မွေး
 vote-no = မွေးတောဝ်း
 languages = ဘာႏသာႏငေါဝ်းငွါဖုံႏ
 about = အကျောင်ꩻခရာႏ
+partner = ဖဲ့ꩻဖက်တွာ
 submit-form-action = ဒင်ႏပသာ
 
 ## Reporting
@@ -43,9 +44,30 @@ shortcut-skip = ကာႏ
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = ဟဲ့ꩻချာ
 shortcut-record-toggle-label = ဒင်ႏမုဲင်တောင်ꩻ/အုံဆွိုး
 shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = မာꩻချာယင်း ဒင်ႏမုဲင်တောင်ꩻ အကွို့ꩻ
+shortcut-discard-ongoing-recording = အီးအဲစ်သီ
+shortcut-submit = သဲင်ꩻလွဉ်ချာ
+shortcut-submit-label = ဒင်ႏပသာနယ် အကွို့ꩻဖုံႏ
+request-language-button = ကွီကော့ꩻ ဘာႏသာႏငေါဝ်းငွါတဗာႏ
 
 ## Listen Shortcuts
 
 shortcut-play-toggle-label = ခွုမ်လွူꩻ/အုံဆွိုး
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = မွေး
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = တောဝ်း
+
+## Validation criteria
+
+contribution-criteria-nav = အွဉ်ႏထွော့ဆင်ႏ
+contribution-criteria-link = သေနာႏသွော့ꩻ နွို့စွဲးထဲမ်သား တဖူꩻနယ်ꩻ
+contribution-criteria-page-title = နွို့စွဲးထဲမ်သား အွဉ်ႏထွော့ဆင်ႏ
+contribution-for-example = ဗွိုန်နုဲင်းပွုံႏစံႏ အတာႏ
