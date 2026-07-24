@@ -81,12 +81,14 @@ about-playbook-how-record-content-3 = ထွားဒေါ့ꩻ စဲင်�
 
 ## How to grow language
 
+about-playbook-how-grow-language-content-2 = ပွယ်ꩻရဲဉ်ႏ
 about-playbook-how-grow-language-content-4 = လိုꩻသီးခွဲးသွုပ်(သိုဆယ်မီဒီယာ)
 about-playbook-how-grow-language-content-6 = အဖဲ့ꩻဖဲ့ꩻခွုမ်စံႏမာꩻငီꩻဝင်ꩻဖုံႏတွမ်ႏ ထာꩻမာꩻပွိုင်ဖုံႏ
 
 ## How to validate
 
 about-playbook-how-validate = အငေါဝ်းကွို့ꩻယို အီႏနေးထူႏလက်ခံႏ အွဉ်ႏတိဉ်ႏလွေꩻဖေႏဗာႏနဲ့ ကရိုꩻနောဝ်ꩻ ခွေအီႏသေဗာႏနုဲင်းမုဲင်ꩻ?
+about-playbook-how-validate-content-1 = နာꩻမိဉ်ႏအောဝ်ႏ <strong>ဟွိုန်စဲင်းဒျာႏ</strong> တွမ်ႏ <strong>သေနာႏဒျာႏ</strong> ဝွေꩻသီး အငေါဝ်းဖုံႏနောဝ်ꩻ အောဝ်ႏလိုႏ <strong>လက်ခံႏနေးထူႏအွဉ်ႏတိန်ႏဖေႏဒျာႏ</strong> သွူ။
 about-playbook-how-validate-content-4 = လိုꩻ2ဖြာꩻ မိဉ်ႏတနေးထူႏတောဝ်း ပယ်ႏထေထိုꩻ အငေါဝ်းကွို့ꩻနောဝ်ꩻ အီႏထေထန်ႏဖန်းဖြယ်လွေꩻဖေႏယင်း အဆင်ႏခြွဉ်းဗူႏ အလင်ကိုနောဝ်ꩻသွူ။
 
 ## How to access dataset
