@@ -107,6 +107,10 @@ about-playbook-how-record-content-3 = Kpachapụ anya gụọ ahịrịokwu ah�
 about-playbook-how-record-content-4 = Hụ na platfọọm ahụ na-edekọ tupu I malite kwuo okwu, nakwa na ọ kwụsịrị ozigbo i mechara.
 about-playbook-how-record-content-5 = <<accuracyLink>hụ ihe ndị ọzọ gbasara ihe nlebanya izi ezi. </accuracyLink>
 
+## How to grow language
+
+about-playbook-how-grow-language = Kedu ka anyị ga-esi mee ka asụsụ too na Common Voice siriri werere?
+
 ## How to access dataset
 
 about-playbook-how-access-dataset = Kedu ka m ga-esi enweta ma jiri ntọala data rụọ ọrụ?
