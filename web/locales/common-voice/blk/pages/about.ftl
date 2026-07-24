@@ -41,6 +41,7 @@ about-clip-graveyard = တထူႏတောဝ်းဒွုမ် ငေါ�
 about-get-involved = နွို့ပါငီꩻခန်း
 about-stay-in-touch = အီႏ သွုပ်ထေ့ဗာႏ နုဲင်းမုဲင်ꩻ?
 about-stay-in-touch-button = ဒင်ႏမဉ်ꩻ
+about-stay-in-touch-text-1 = ကောင်မွဉ်းဗွဲက်ကို ရုဲင်ꩻတသွိုးပွယ်ꩻရဲဉ်ႏ၊ ပွယ်ꩻရမ်ꩻ တွမ်ႏ ပွုံႏငုဲင်ꩻ ခွုမ်မာꩻတာႏဖုံႏယို ဖေႏကပါသော့ꩻနွောင်ꩻအတာႏ <emailFragment>ဒင်ႏမဉ်ꩻ</emailFragment>သော့ꩻလွေꩻဖေႏသွော့ နီသွဉ်းသီး အီးမေး လိတ်လာႏစာႏရင်ꩻကိုယိုဩ။
 about-nav-why-common-voice = ပွိုးတမုဲင်ꩻ?
 about-nav-how-it-works = နုဲင်းမုဲင်ꩻ?
 about-nav-partners = ဖဲ့ꩻတွာ

@@ -126,17 +126,24 @@ spelling-and-pronunciation-explanation = Īvārojit pareizraksteibys i gramatiky
 length = Garums
 length-explanation = Iz vaicuojumu vajadzātu varēt atbiļdēt puors teikumūs.
 culturally-specific-questions = Kulturai rakstureigi vaicuojumi
+culturally-specific-questions-explanation = Vaicuojumus, kas ir cīši kulturspecifiski voi caur kurim var izdareit pījāmumus par cylvāku, kas iz tim atbiļd
+length-avoid-explanation = Vaicuojumus, iz kurim byutu gryuts atbiļdēt 15 sekundēs (minimalais īroksta garums)
 process-steps = Process / sūli
+process-steps-explanation = Vaicuojumi, kurūs juouzskaita konkreti sūli. Itaidi vaicuojumi mudynoj lītuotuojus puorsaukt konkretys lītys, na veiduot dabiskys sarunvolūdys atbiļdis.
 offensive-content-sensitive-information = Aizvainojūšs saturs voi sensitiva informaceja
 offensive-content-sensitive-information-explanation-explanation-1 = Vaicuojumi, kas varātu izmuoneit personu identificiejūšu informaceju
 offensive-content-sensitive-information-explanation-explanation-2 = Vaicuojumi, kas varātu vadynuot iz naida runu voi cytim aizsprīdumim voi aizvainojūšim redzīnim
+offensive-content-sensitive-information-explanation-explanation-3 = Vaicuojumi, kas kaidam varātu likt izpaust sensitivu informaceju voi radeit emocionalu reakceju
 example-questions-subheader = Vaicuojumu pīmāri
 example-questions-explanation-1 = Itamā lopā varit atrast <examplePromptsLink>120 vaicuojumu pīmārus.</examplePromptsLink>
 
 ## Spontaneous Speech sidebar content
 
+# Answer Questions
+answer-questions = Atbiļdēt iz vaicuojumim
 answer-questions-subheader = Vyspuoreigi nūruodejumi
 answer-questions-tip-1 = Īrokstit gona klusā vītā
+answer-questions-tip-2 = Izavielejit vītu ar lobu škārsteikla daslāgumu
 transcribe-the-audio-subheader-1 = Vyspuoreigi nūruodejumi
 # text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
 transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Napareizi</wrong>: Sasateikam piec <underline>9:30</underline>
