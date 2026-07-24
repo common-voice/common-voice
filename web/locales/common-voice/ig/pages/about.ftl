@@ -101,6 +101,7 @@ about-playbook-how-add-sentences-content-3 = I nwere ike iji <scraperLink> Ihe m
 ## How to record quality
 
 about-playbook-how-record-quality = Kedu ka m ga-esi dekọọ mkpụrụ olu chara acha?
+about-playbook-how-record-content-1 = KKwuo okwu n'ezigbo olu gị! A nabatara etu I siri kwuo okwu - anyị chọrọ ogoolu gị etu ahụ ọ dị, anyị chọkwara volumu gị ahụ, ọdịdị na ogoolu.
 
 ## How to access dataset
 
