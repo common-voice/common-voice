@@ -6,15 +6,22 @@ record-platform-not-supported = နီသွဉ်းသီး တောင်�
 record-cancel = မာꩻတောဝ်းဒွုမ် ဒင်ႏမုဲင်တောင်ꩻချာသွူ
 record-three-more-instruction = လွေꩻထဲင်းသွံဗာႏ!
 share-common-voice = ဖန်းဖြယ်လွေꩻ ကောင်မွဉ်းဗွဲက် ယို
+record-abort-submit = ဒင်ႏပသာ အကွို့ꩻဖုံႏ
 review-submit-title = ထွားစဲစ်ချာထွူ ဒင်ႏပသာ
 review-recording = ထွားစဲစ်
 review-rerecord = ဒင်ႏမုဲင်တောင်ꩻချာယင်း
 review-cancel = မာꩻတောဝ်းဒွုမ် ထာꩻဒင်ႏပသာ
+review-delete-recordings = ယားထိုꩻ ခွေ ဒင်ႏမုဲင်တောင်ꩻဖုံႏ
 terms-agree = ခွေ သꩻအောဝ်ႏဗွိုန်ဒျာႏ
 terms-disagree = ခွေ သꩻ တဗွိုန်ပီတောဝ်း
 why-donate = ကွပ်ပွိုးတမုဲင်ꩻ နာꩻရီဗာႏဟောင်း
 add-information-button = သော့ꩻ အဆင်ႏအဗာႏ
 continue-speaking-button = အောဝ်ႏလꩻဒျာႏ ကေႏဇူꩻတင်ႏငါႏ၊ ဒေါ့ꩻသွုပ်ထဲင်းဟုဲင်း
+first-cta-gender-select-default-option = လွိုက်ထူႏသွော့ꩻတဗာႏ
 create-profile-button = မာꩻထွာလွဉ် နမ်းအအဲဉ်ႏ တဗာႏ
 # menu item
 read-sentences = ထွားဒေါ့ꩻ လိတ်ရဲဉ်ႏဖုံႏ
+
+## MENU ITEM ARIA LABELS
+
+speak-contribute-menu-aria-label = ဒေါ့ꩻသွော့ꩻ လွိုက်ထူႏ ကတူႏရဲဉ်ႏ
