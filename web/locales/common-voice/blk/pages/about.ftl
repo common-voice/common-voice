@@ -90,6 +90,7 @@ about-playbook-how-record-content-5 = ​<accuracyLink>ထွားထဲင်�
 
 ## How to grow language
 
+about-playbook-how-grow-language = ကောင်မွဉ်းဗွဲက်လောင်း ဘာႏသာႏငေါဝ်းငွါ တဗာႏယို ယံဖေႏကတွိုႏခြောင်ꩻ လွိုင်ႏကွိုန်ꩻလွဉ်အတာႏ နီသွဉ်းသီး မာꩻလွေꩻဗာႏနုဲင်းမုဲင်ꩻဟောင်း?
 about-playbook-how-grow-language-content-2 = ပွယ်ꩻရဲဉ်ႏ
 about-playbook-how-grow-language-content-4 = လိုꩻသီးခွဲးသွုပ်(သိုဆယ်မီဒီယာ)
 about-playbook-how-grow-language-content-6 = အဖဲ့ꩻဖဲ့ꩻခွုမ်စံႏမာꩻငီꩻဝင်ꩻဖုံႏတွမ်ႏ ထာꩻမာꩻပွိုင်ဖုံႏ
