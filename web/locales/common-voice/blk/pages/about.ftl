@@ -82,9 +82,11 @@ about-playbook-how-localize-content-2 = နမ်းမဉ်ꩻဖြာꩻ မ
 ## How to add sentences
 
 about-playbook-how-add-sentences = သော့ꩻဗာႏ ဝါကျလိတ်ရဲဉ်ႏ နုဲင်းမုဲင်ꩻ?
+about-playbook-how-add-sentences-content-3 = နာꩻ ထူႏသွုံꩻနွောင်ꩻဒျာႏ <scraperLink>ထူႏထန်ႏလိတ်ရဲဉ်ႏ နယ်ꩻခြွိုင်း </scraperLink> ယိုတဲင် နေးထူႏအီနွောင်ꩻဒျာႏ ဝီခီပီးဒီးယား ကို ကအောဝ်ႏဒါႏ လိတ်ရဲဉ်ႏဒွေါင်ႏဖုံႏနောဝ်ꩻသွူ။
 
 ## How to record quality
 
+about-playbook-how-record-quality = အီႏ ဒင်ႏမုဲင်တောင်ꩻဗာႏ အထီအသွီႏထို အငေါဝ်းကွို့ꩻတဗာႏနုဲင်းမုဲင်ꩻဟောင်း?
 about-playbook-how-record-content-3 = ထွားဒေါ့ꩻ စဲင်းစဲင်းသွော့ လိတ်ရဲဉ်ႏယိုနေား- ဖေႏကအွဉ်ႏကုဲင်မွိုန်း၊ ပြောင်ꩻလုဲင်ႏ မွေးတောဝ်းလဲ့ သော့ꩻ ငေါဝ်းဖြုံႏ။
 about-playbook-how-record-content-5 = ​<accuracyLink>ထွားထဲင်း အဆင်ႏအဗာႏဖုံႏ နီသွဉ်းသီး ထွားစဲစ်အွဉ်ႏတိဉ်ႏစွူလွေꩻတာႏ တဖွောင်ꩻရဲးကိုယို</accuracyLink>။
 
