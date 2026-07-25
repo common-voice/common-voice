@@ -57,6 +57,9 @@ request-language-button = ကွီကော့ꩻ ဘာႏသာႏငေါ�
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = ဗွောင်
 shortcut-play-toggle-label = ခွုမ်လွူꩻ/အုံဆွိုး
 # Must be one letter that appears in the { vote-yes } string.
 # Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
@@ -71,3 +74,5 @@ contribution-criteria-nav = အွဉ်ႏထွော့ဆင်ႏ
 contribution-criteria-link = သေနာႏသွော့ꩻ နွို့စွဲးထဲမ်သား တဖူꩻနယ်ꩻ
 contribution-criteria-page-title = နွို့စွဲးထဲမ်သား အွဉ်ႏထွော့ဆင်ႏ
 contribution-for-example = ဗွိုန်နုဲင်းပွုံႏစံႏ အတာႏ
+contribution-misreadings-title = ထာꩻထီႏတရွို့ꩻဖုံႏ
+contribution-background-noise-title = ဗꩻချာ တိန်ႏနား
