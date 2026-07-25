@@ -61,6 +61,10 @@ about-playbook-what-is-language-content-2 = နီသွဉ်းသီး မ�
 ## How do I add a language
 
 about-playbook-how-add-language = သော့ꩻဗာႏ ဘာႏသာႏငေါဝ်းငွါ နုဲင်းမုဲင်ꩻ?
+about-playbook-how-add-language-content-1 =
+    အရီးသွတ်ꩻ၊ နာꩻဘာႏသာႏငေါဝ်းငွါ  <languageLink>ပါသော့ꩻထွူလဲဉ်းဟောင်း</languageLink> ကရိုꩻနောဝ်ꩻ ထွားစဲစ်သွော့။
+    မိဉ်ႏပါသော့ꩻတောဝ်းဒွိုန်းနောဝ်ꩻ နာꩻ <languageRequestLink>ဒေါ့ꩻရီဒင်ႏနယ်နွောင်ꩻဒျာႏ ယံသော့ꩻထဲင်းဖေႏ နာꩻဘာႏသာႏငေါဝ်းငွါ</languageRequestLink>တာႏ သွူ။
+    အရန်းအောဝ်ႏနီရန်းသွူ။ နောဝ်ꩻနောဝ်ꩻ ပြန်ႏဘာႏသာႏ သုဲက်ပွိုင် တွမ်ႏ တဲမ်းရွမ်လိတ်ရဲဉ်ႏဝါကျဖုံႏနောဝ်ꩻသွူ။
 about-playbook-how-add-language-translating-heading = အောဝ်ႏလုဲင်ႏချာႏဘာႏသာႏ  ပွိုင်ကို(သုဲက်)
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>သွုံꩻဗာႏ ပွန်တွန်း နုဲင်းမုဲင်ꩻနောဝ်ꩻ ထွားသွော့ꩻ နီသွဉ်းသီး ကအွဉ်ႏနယ်ကိုယို</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = အောဝ်ႏထိုမ်ႏရွမ် လိတ်ရဲဉ်ႏဖုံႏ
