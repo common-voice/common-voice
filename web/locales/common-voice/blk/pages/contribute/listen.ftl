@@ -1,7 +1,7 @@
 listen = နာႏငေါဝ်း
-listen-subtitle = အငေါဝ်းဖုံႏ ယံကတိဉ်ႏစွူလွေꩻ စွဲးကမ်းသွော့ꩻ နီသွဉ်းသီး
+listen-subtitle = အငေါဝ်းဖုံႏ ယံကတိဉ်ႏစွူလွေꩻ စွဲးကမ်းသွော့ နီသွဉ်းသီး
 listen-instruction = { $actionType }<playIcon></playIcon> ဝွေꩻသီး ဒေါ့ꩻထန်ႏဒါႏ လိတ်ရဲဉ်ႏဝါကျယို မဲန်ႏဒျာႏနဲ့?
-listen-again-instruction = ယံမွေးငါႏ!<playIcon></playIcon> နာꩻ မိဉ်ႏဖုဲင်ႏရော့ꩻလဲ့ နာႏယင်းသွော့ꩻတလဲင်ႏ
+listen-again-instruction = ယံမွေးငါႏ!<playIcon></playIcon> နာꩻ မိဉ်ႏဖုဲင်ႏရော့ꩻလဲ့ နာႏယင်းသွော့ တလဲင်ႏ
 listen-3rd-time-instruction = အောင်ႏလွေꩻလဲဉ်း 2 ပွုဒ်၊ ကျိုꩻစာꩻလွေꩻထဲင်းသွော့!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> အဆုဲင်ꩻသွတ်ꩻ တပွုဒ်ဒျာႏ!
 listen-empty-state = အငေါဝ်းကွို့ꩻဖုံႏလို့လွေꩻလဲဉ်း  - ဒင်ႏကောႏယင်းသွော့ လိတ်မဲ့ငါယို တလဲင်ႏ၊ မွေးတောဝ်းလဲ့ ဆုဲင်ꩻမꩻကျိုꩻစာꩻယင်း။
@@ -25,3 +25,4 @@ review-transcriptions-menu-item-tooltip = နာꩻဘာႏသာႏငေါ�
 
 listen-contribute-menu-aria-label = နာႏငေါဝ်းတာႏ လွိုက်ထူႏခရာႏ ကတူႏရဲဉ်ႏ
 validate-readings-menu-item-aria-label = ထွားစဲစ်အွဉ်ႏတိဉ်ႏဖေႏသွော့ အသောင်ရင်ꩻလိုꩻဗူႏအကို ကေားနွို့ပါသား ကဒင်ႏပသာဖေႏဒါႏ ငေါဝ်းဖုံႏ။
+review-transcriptions-menu-item-aria-label = ထွားစဲစ်ချာယင်းသွော့ ကဒင်ႏထွူလဲဉ်းဒါႏ ငေါဝ်းလိတ်ရဲဉ်ႏကို လိတ်ယာႏဖုံႏ ထီႏမဲန်ႏတနꩻအောဝ်ႏလို့နေဟောင်း
