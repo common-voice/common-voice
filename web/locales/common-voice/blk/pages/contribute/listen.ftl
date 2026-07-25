@@ -24,3 +24,4 @@ review-transcriptions-menu-item-tooltip = နာꩻဘာႏသာႏငေါ�
 ## MENU ITEM ARIA LABELS
 
 listen-contribute-menu-aria-label = နာႏငေါဝ်းတာႏ လွိုက်ထူႏခရာႏ ကတူႏရဲဉ်ႏ
+validate-readings-menu-item-aria-label = ထွားစဲစ်အွဉ်ႏတိဉ်ႏဖေႏသွော့ အသောင်ရင်ꩻလိုꩻဗူႏအကို ကေားနွို့ပါသား ကဒင်ႏပသာဖေႏဒါႏ ငေါဝ်းဖုံႏ။
