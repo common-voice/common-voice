@@ -86,6 +86,7 @@ about-playbook-how-add-sentences = သော့ꩻဗာႏ ဝါကျလိ�
 ## How to record quality
 
 about-playbook-how-record-content-3 = ထွားဒေါ့ꩻ စဲင်းစဲင်းသွော့ လိတ်ရဲဉ်ႏယိုနေား- ဖေႏကအွဉ်ႏကုဲင်မွိုန်း၊ ပြောင်ꩻလုဲင်ႏ မွေးတောဝ်းလဲ့ သော့ꩻ ငေါဝ်းဖြုံႏ။
+about-playbook-how-record-content-5 = ​<accuracyLink>ထွားထဲင်း အဆင်ႏအဗာႏဖုံႏ နီသွဉ်းသီး ထွားစဲစ်အွဉ်ႏတိဉ်ႏစွူလွေꩻတာႏ တဖွောင်ꩻရဲးကိုယို</accuracyLink>။
 
 ## How to grow language
 
