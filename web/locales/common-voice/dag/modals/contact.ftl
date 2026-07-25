@@ -1,8 +1,6 @@
 ## Contact Modal
 
 contact-title = Bɔlimi ti
-contact-form-name =
-    .label = Yuli
 contact-form-message =
     .label = satarilli
 contact-required = Talahi
