@@ -96,6 +96,7 @@ about-playbook-how-grow-language = ကောင်မွဉ်းဗွဲက်
 about-playbook-how-grow-language-content-2 = ပွယ်ꩻရဲဉ်ႏ
 about-playbook-how-grow-language-content-4 = လိုꩻသီးခွဲးသွုပ်(သိုဆယ်မီဒီယာ)
 about-playbook-how-grow-language-content-6 = အဖဲ့ꩻဖဲ့ꩻခွုမ်စံႏမာꩻငီꩻဝင်ꩻဖုံႏတွမ်ႏ ထာꩻမာꩻပွိုင်ဖုံႏ
+about-playbook-how-grow-language-content-8-v2 = <strong>မာꩻထွာလွေꩻသွော့!</strong> နာꩻ ဘာႏသာႏငေါဝ်းငွါ အသောင်ရင်ꩻယို တပီဗွိုန်တောဝ်းဝင်ꩻ တသာခေါ်ဒျာႏသွူ၊ ယိုဖုံႏနောဝ်ꩻ အီႏကောႏတဲႏစအတာႏ တဖူꩻနယ်ꩻဒါႏ ယင်ဟန်ႏဖုံႏနောဝ်ꩻသွူ။ နာꩻ အသောင်ရင်ꩻ ဗွောင်လင်ꩻဖုံႏယို ယံဖေႏကသော့ꩻ ဖန်းဖြယ်ပါ <communitiesLink>ဂစ်ဟုတ် လောင်း ကအောဝ်ႏဒါႏ COMMUNITIES.md လိတ်ရွမ်လိတ်လာႏကို</communitiesLink> အောဝ်ႏလိုႏယူႏလွေꩻပါနောဝ်ꩻသွူ။
 
 ## How to validate
 
