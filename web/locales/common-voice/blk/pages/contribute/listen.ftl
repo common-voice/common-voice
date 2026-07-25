@@ -1,5 +1,6 @@
 listen = နာႏငေါဝ်း
 listen-subtitle = အငေါဝ်းဖုံႏ ယံကတိဉ်ႏစွူလွေꩻ စွဲးကမ်းသွော့ꩻ နီသွဉ်းသီး
+listen-instruction = { $actionType }<playIcon></playIcon> ဝွေꩻသီး ဒေါ့ꩻထန်ႏဒါႏ လိတ်ရဲဉ်ႏဝါကျယို မဲန်ႏဒျာႏနဲ့?
 listen-3rd-time-instruction = အောင်ႏလွေꩻလဲဉ်း 2 ပွုဒ်၊ ကျိုꩻစာꩻလွေꩻထဲင်းသွော့!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon> အဆုဲင်ꩻသွတ်ꩻ တပွုဒ်ဒျာႏ!
 listen-abort-title = မာꩻထွူသွတ်ꩻ အွဉ်ႏတိဉ်ႏစွူလွေꩻ အကွို့ꩻဖုံႏနဲ့?
