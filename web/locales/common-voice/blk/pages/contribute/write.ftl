@@ -1,6 +1,7 @@
 ## WRITE PAGE
 
 write = တဲမ်း
+write-instruction = ထဲမ်သော့ꩻပါ <icon></icon> ခမ်းသားလိုꩻအာပဲင်ႏလꩻ လိတ်ရဲဉ်ႏဝါကျတပွုဒ်
 sentence =
     .label = ဝါကျလိတ်ရဲဉ်ႏ
 citation =
