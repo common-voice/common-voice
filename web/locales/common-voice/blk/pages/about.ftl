@@ -87,6 +87,8 @@ about-playbook-how-localize-content-5 = ယံဖေႏကစွဲးကမ်�
 ## How to add sentences
 
 about-playbook-how-add-sentences = သော့ꩻဗာႏ ဝါကျလိတ်ရဲဉ်ႏ နုဲင်းမုဲင်ꩻ?
+about-playbook-how-add-sentences-content-1 = နာꩻ တဲမ်းထဲမ်သော့ꩻနွောင်ꩻဒျာႏ လိတ်ရဲဉ်ႏဝါကျဖုံႏ <writePageLink>တဲမ်းလိတ်မဲ့ငါ </writePageLink> ကို မွေးတောဝ်းလဲ့ ထွားစဲစ်ချာနွောင်ꩻဒျာႏ လိတ်ရဲဉ်ႏဝါကျဖုံႏ <reviewPageLink>ထွားစဲစ်လိတ်မဲ့ငါ</reviewPageLink> ကိုနောဝ်ꩻသွူ။
+about-playbook-how-add-sentences-content-2 = ယံဖေႏကပါသော့ꩻနွောင်ꩻ ကောင်မွဉ်းဗွဲက် ကိုအတာႏ လိတ်ရဲဉ်ႏဝါကျဖုံႏယို လိုꩻနီဖြာꩻ ထွားစဲစ်အွဉ်ႏတိဉ်ႏထွူဖေႏဗာႏနောဝ်ꩻသွူ။ နာꩻဘာႏသာႏငေါဝ်းငွါအတာႏ တဖွောင်ꩻရဲးကမ်းတဖူꩻနယ်ꩻဖုံႏယို တဲမ်းထူႏဖေႏနွောင်ꩻ<languageGuidelinesLink>ယိုကို</languageGuidelinesLink> နောဝ်ꩻသွူ။ လိတ်ရဲဉ်ႏဝါကျဖုံႏယို အောဝ်ႏဗာႏဒျာႏ <licenseLink>ခမ်းသားလိုꩻအာပဲင်ႏလꩻ</licenseLink> အကို တွမ်ႏ ငေါဝ်းရာႏအဒွေါင်ႏ အောဝ်ႏဗာႏဒျာႏ ၁၅ ဖြုံႏမာꩻလꩻနောဝ်ꩻသွူ။ နာꩻ ကွီကော့ꩻဖေႏနွောင်ꩻ တဲမ်းလိတ်ယာႏဗွေႏ ဖေႏကမာꩻ <waiverLink>နီသွဉ်းသီး ထာꩻမာꩻရဲဉ်ႏ သီသီအို</waiverLink>၊ ထွူ ပသာလွေꩻသွော့ နီသွဉ်းသီး commonvoice@mozilla.com ကိုနောဝ်ꩻသွူ။
 about-playbook-how-add-sentences-content-3 = နာꩻ ထူႏသွုံꩻနွောင်ꩻဒျာႏ <scraperLink>ထူႏထန်ႏလိတ်ရဲဉ်ႏ နယ်ꩻခြွိုင်း </scraperLink> ယိုတဲင် နေးထူႏအီနွောင်ꩻဒျာႏ ဝီခီပီးဒီးယား ကို ကအောဝ်ႏဒါႏ လိတ်ရဲဉ်ႏဒွေါင်ႏဖုံႏနောဝ်ꩻသွူ။
 
 ## How to record quality
