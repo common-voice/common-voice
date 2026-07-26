@@ -20,6 +20,8 @@ record-error-uploaded-clip-corrupted =
 record-cancel = မာꩻတောဝ်းဒွုမ် ဒင်ႏမုဲင်တောင်ꩻချာသွူ
 record-stop-instruction = { $actionType }<stopIcon></stopIcon>မိဉ်ႏထွူနောဝ်ꩻလဲင်ႏ
 record-three-more-instruction = လွေꩻထဲင်းသွံဗာႏ!
+record-last-instruction = <recordIcon></recordIcon>အဆုဲင်ꩻသွတ်ꩻ တလဲင်ႏ!
+review-tooltip = နာꩻမိဉ်ႏ လွေꩻသဲင်ꩻချာငါဗာႏ  ထွားစဲစ်ချာပါသွော့ အငေါဝ်းဖုံႏယို အောဝ်ႏလိုႏဒါႏ အထွောင်းမုဲင်ꩻ ထဲမ်သော့ꩻယင်းလꩻဒျာႏနေား။
 share-clip = ဖန်းဖြယ်လွေꩻ နာꩻ ငေါဝ်းကွို့ꩻ
 share-common-voice = ဖန်းဖြယ်လွေꩻ ကောင်မွဉ်းဗွဲက် ယို
 review-instruction = ထွားစဲစ်ချာသွော့ မိဉ်ႏအောဝ်ႏလိုႏဒါႏနောဝ်ꩻ  ဒင်ႏမုဲင်ချာဖေႏယင်း အငေါဝ်းဟုဲင်း။
@@ -39,6 +41,8 @@ add-information-button = သော့ꩻ အဆင်ႏအဗာႏ
 continue-speaking-button = အောဝ်ႏလꩻဒျာႏ ကေႏဇူꩻတင်ႏငါႏ၊ ဒေါ့ꩻသွုပ်ထဲင်းဟုဲင်း
 first-cta-gender-select-default-option = လွိုက်ထူႏသွော့ꩻတဗာႏ
 create-profile-button = မာꩻထွာလွဉ် နမ်းအအဲဉ်ႏ တဗာႏ
+# IMAGE TAGS
+img-alt-success-checkmark = အောင်ႏဗꩻလဲဉ်း စဲစ်မဲန်ႏ
 # menu item
 read-sentences = ထွားဒေါ့ꩻ လိတ်ရဲဉ်ႏဖုံႏ
 
