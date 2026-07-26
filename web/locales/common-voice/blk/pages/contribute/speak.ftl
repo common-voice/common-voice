@@ -4,6 +4,8 @@ speak-subtitle = လူႏသွော့ꩻ နာꩻငေါဝ်းငွ�
 record-cta = ကောႏစ ဒင်ႏမုဲင်ခါꩻ ငေါဝ်း
 record-platform-not-supported = နီသွဉ်းသီး တောင်ꩻပြန်ႏဒျာႏဩ၊ ယိုခါခါ နာꩻ ခြေင်ႏထိုꩻလောင်း(ပလတ်ဖောင်း) နောဝ်ꩻ တစွဲးကမ်းခါꩻဗာႏတောဝ်းသွူဩ။
 record-platform-webview = နီဗွေႏနောဝ်ꩻ အောဝ်ႏဒီစစ်တယ်လိုꩻသီးခွဲးသွုပ်အပ်ကို ကပါဒါႏ လိဉ့်ဖြွီꩻဆꩻလတဗာႏယို နျꩻလွဉ်တဲင် ထွိုင်ႏတွိုႏလွဉ်ယိုကို ထွားစဲစ်ထီႏဗာႏဒျာႏသွူ။ အပ်ကိုကပါဒါႏ ဗရောင်သာယိုနောဝ်ꩻ ဒင်ႏမုဲင်အငေါဝ်းတာႏ ခွင်ꩻဖေႏလꩻတောဝ်းနောဝ်ꩻသွူ။
+record-platform-not-supported-webview = ထူႏသွုံꩻလွေꩻ မိုဗုဲင်းဖုံးစက်အကို ကပါဒါႏ နီဗွေႏ ဗရောင်သာတဖူꩻနယ်ꩻကိုယိုတဲင် နွို့စွဲးကမ်းနွောင်ꩻဒျာႏသွူဩ...
+record-platform-not-supported-desktop = ငင်ႏထူႏ ဒစ်သတော့ အကိုတဲင် နွို့စွဲးကမ်းနွောင်ꩻဒျာႏသွူ...
 record-platform-not-supported-ios-non-safari = အုဲင်အိုအဲစ် ဖုန်းကို ဒင်ႏမုဲင်တောင်ꩻ အငေါဝ်းဖေႏကလꩻတာႏ သွုံꩻလွေꩻသွော့ Safari ယိုဩ။
 record-must-allow-microphone = နာꩻ ဖေႏသွော့ꩻ မဲက်ခရို သွုံꩻခွင်ꩻတာႏဩ။
 record-no-mic-found = ထိုမ်ႏ မဲက်ခရို မော့ꩻတောဝ်း။
@@ -18,6 +20,7 @@ record-error-uploaded-clip-corrupted =
     • ဒင်ႏမုဲင်အငေါဝ်းကျာꩻ အိဉ်တာနဲစ်လုဲင်းထဲ့ကုဲင်ထိုꩻ
     ကျိုꩻစာꩻ ဒင်ႏမုဲင်ချာယင်းသွော့ အငေါဝ်းတလဲင်ႏဩ။
 record-cancel = မာꩻတောဝ်းဒွုမ် ဒင်ႏမုဲင်တောင်ꩻချာသွူ
+record-instruction = { $actionType }<recordIcon></recordIcon>နျꩻယိုထွူတဲင် ထွားဒေါ့ꩻသွော့ ငေါဝ်းလိတ်ရဲဉ်ႏ
 record-stop-instruction = { $actionType }<stopIcon></stopIcon>မိဉ်ႏထွူနောဝ်ꩻလဲင်ႏ
 record-three-more-instruction = လွေꩻထဲင်းသွံဗာႏ!
 record-last-instruction = <recordIcon></recordIcon>အဆုဲင်ꩻသွတ်ꩻ တလဲင်ႏ!
