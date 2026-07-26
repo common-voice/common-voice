@@ -76,6 +76,7 @@ read-sentences-coming-soon = ထွားဒေါ့ꩻ ငေါဝ်းလ�
 ## MENU ITEM TOOLTIPS
 
 speak-contribute-menu-tooltip = ထွားဒေါ့ꩻဖေႏသွော့ ငေါဝ်းလိတ်ရဲဉ်ႏဖုံႏ၊ စေလောဝ်းဖေႏသွော့ ငေါဝ်းရီဖုံႏ။
+read-sentences-menu-item-tooltip = ငေါဝ်းလိတ်ရဲဉ်ႏဖုံႏယို ထွားဒေါ့ꩻ ဒင်ႏမုဲင်တောင်ꩻခါꩻသွော့ တွမ်ႏ နီဗွေႏ ဘာႏသာႏငေါဝ်းငွါနေားဩ။
 
 ## MENU ITEM ARIA LABELS
 
