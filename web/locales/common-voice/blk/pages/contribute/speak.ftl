@@ -83,3 +83,4 @@ answer-questions-menu-item-tooltip = ငေါဝ်းရီဖုံႏ တွ
 
 speak-contribute-menu-aria-label = ဒေါ့ꩻသွော့ꩻ လွိုက်ထူႏ ကတူႏရဲဉ်ႏ
 read-sentences-menu-item-aria-label = ထွားစဲစ်ဖေႏသွော့ အသောင်ရင်ꩻ လိုꩻစွိုꩻဗူႏသီး ကဒင်ႏပသာခါꩻဒါႏ ဘာႏသာႏငေါဝ်းငွါ အစွိုးစွိုး ငေါဝ်းလိတ်ရဲဉ်ႏဖုံႏယိုဩ။
+answer-questions-menu-item-aria-label = အသောင်ရင်ꩻ လိုꩻစွိုꩻဗူႏသီး ယံထွားဒေါ့ꩻ စေလောဝ်းချာနွောင်ꩻအတာႏ ဒင်ႏပသာဖေႏ ငေါဝ်းရီတသာ။
