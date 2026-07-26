@@ -17,6 +17,7 @@ add-sentence-success = ရွမ်ခြွဉ်းဗာႏ လိတ်ရ�
 add-sentence-error = အောဝ်ႏသော့ꩻ လိတ်ရဲဉ်ႏကျာꩻ ထွာလွဉ်အမာႏ
 sentence-variant-select-label = တပီဗွိုန်တောဝ်း လိတ်ရဲဉ်ႏ
 sentence-variant-select-placeholder = လွိုက်ထူႏသွော့ တပီဗွိုန်တောဝ်းဝင်ꩻ တဗာႏ
+sentence-variant-select-multiple-variants = ဘာႏသာႏငေါဝ်းငွါ ခွိုꩻသွုပ်လင်ꩻ /တပီတောဝ်းဒါႏ ပꩻလီဖုံႏ
 
 ## BULK SUBMISSION
 

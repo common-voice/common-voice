@@ -55,6 +55,7 @@ first-cta-subtitle-text = ဒေါ့ꩻနယ်ဖေႏ နာꩻအကျ�
 why-donate = ကွပ်ပွိုးတမုဲင်ꩻ နာꩻရီဗာႏဟောင်း
 add-information-button = သော့ꩻ အဆင်ႏအဗာႏ
 continue-speaking-button = အောဝ်ႏလꩻဒျာႏ ကေႏဇူꩻတင်ႏငါႏ၊ ဒေါ့ꩻသွုပ်ထဲင်းဟုဲင်း
+create-profile-text = မဲဉ်ထူႏသိမ်ꩻခါꩻ နီဗွေႏ အဆင်ႏလာႏဖုံႏနဲ့ဟောင်း? <createProfile>မာꩻလွဉ်သွော့ နမ်းအအဲဉ်ႏတဗာႏ</createProfile>ဟုဲင်း။
 thanks-for-voice-toast = နာꩻ ငေါဝ်းငွါအဆင်ႏလာႏအတာႏ ကေႏဇူꩻတင်ႏငါႏသွူ
 first-cta-gender-select-default-option = လွိုက်ထူႏသွော့ꩻတဗာႏ
 first-cta-gender-select-help-text =
