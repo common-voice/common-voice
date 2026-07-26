@@ -39,15 +39,26 @@ review-cancel = မာꩻတောဝ်းဒွုမ် ထာꩻဒင်ႏ
 review-delete-recordings = ယားထိုꩻ ခွေ ဒင်ႏမုဲင်တောင်ꩻဖုံႏ
 terms-agree = ခွေ သꩻအောဝ်ႏဗွိုန်ဒျာႏ
 terms-disagree = ခွေ သꩻ တဗွိုန်ပီတောဝ်း
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = ကလူႏစွဲးကမ်းသော့ꩻဖေႏဒါႏ နီဗွေႏငေါဝ်းအတာႏ ကေႏဇူꩻတင်ႏငါႏသွူဩ!
 why-donate = ကွပ်ပွိုးတမုဲင်ꩻ နာꩻရီဗာႏဟောင်း
 add-information-button = သော့ꩻ အဆင်ႏအဗာႏ
 continue-speaking-button = အောဝ်ႏလꩻဒျာႏ ကေႏဇူꩻတင်ႏငါႏ၊ ဒေါ့ꩻသွုပ်ထဲင်းဟုဲင်း
+thanks-for-voice-toast = နာꩻ ငေါဝ်းငွါအဆင်ႏလာႏအတာႏ ကေႏဇူꩻတင်ႏငါႏသွူ
 first-cta-gender-select-default-option = လွိုက်ထူႏသွော့ꩻတဗာႏ
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = ကနွို့စွဲးကမ်းဖေႏဒါႏ နီဗွေႏငေါဝ်းငွါအတာႏ ကေႏဇူꩻတင်ႏငါႏသွူဩ!
 create-profile-button = မာꩻထွာလွဉ် နမ်းအအဲဉ်ႏ တဗာႏ
 # IMAGE TAGS
 img-alt-success-checkmark = အောင်ႏဗꩻလဲဉ်း စဲစ်မဲန်ႏ
 # menu item
 read-sentences = ထွားဒေါ့ꩻ လိတ်ရဲဉ်ႏဖုံႏ
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = ထွားဒေါ့ꩻ ငေါဝ်းလိတ်ရဲဉ်ႏဖုံႏ<small>(တညတောဝ်းအီႏလွဉ်)</small>
+
+## MENU ITEM TOOLTIPS
+
+speak-contribute-menu-tooltip = ထွားဒေါ့ꩻဖေႏသွော့ ငေါဝ်းလိတ်ရဲဉ်ႏဖုံႏ၊ စေလောဝ်းဖေႏသွော့ ငေါဝ်းရီဖုံႏ။
 
 ## MENU ITEM ARIA LABELS
 
