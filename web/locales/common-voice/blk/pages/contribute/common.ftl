@@ -75,4 +75,7 @@ contribution-criteria-link = သေနာႏသွော့ꩻ နွို့�
 contribution-criteria-page-title = နွို့စွဲးထဲမ်သား အွဉ်ႏထွော့ဆင်ႏ
 contribution-for-example = ဗွိုန်နုဲင်းပွုံႏစံႏ အတာႏ
 contribution-misreadings-title = ထာꩻထီႏတရွို့ꩻဖုံႏ
+contribution-varying-pronunciations-example-1-title = ဝွေꩻကတူႏလောင်းနောဝ်ꩻ အောဝ်ႏခူးခါꩻ ဗရဲက်ကုံႏနောဝ်ꩻသွူ။
+contribution-varying-pronunciations-example-2-title = ယွိုင်ႏကီခါꩻ ဝွေꩻစူနောဝ်ꩻသွူ။
 contribution-background-noise-title = ဗꩻချာ တိန်ႏနား
+contribution-background-voices-title = အသောင်ဗꩻချာ အငေါဝ်းဖုံႏ
