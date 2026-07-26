@@ -4,12 +4,19 @@
 
 ## Languages
 
-aa = ညာꩻ
+aa = အဖြာ
+ar = အာရဗိက်
+blk = ပအိုဝ်ႏ
+bo = တိဗဲက်
+ja = စပန်
+km = ခမာ
+lo = လာအို
 mnw = မဲင်ꩻ
 my = မန်း
 nmz = သွတ်ꩻသွုမ်ꩻ
 pl = ပိုလန်
 th = ထုဲင်ꩻ
+uk = ယူကရေင်း
 zh-CN = ခယ်ႏ
 
 # [/]
@@ -30,8 +37,13 @@ share-title = နွို့ပါငီꩻသွော့ꩻ နီသွဉ�
 logout = ထန်ႏထိုꩻ
 email-input =
     .label = အီးမေး
+loading = အောဝ်ႏခွုမ်မာꩻကျာꩻ...
+# Text shown on a button that can be clicked to copy text to the clipboard
+copy = ထူႏဗွိုန်
 # Text shown on a button that can be clicked to close a modal or panel
 close = ပေ့ꩻ
+# Text shown on a button that can be clicked to cancel an action
+cancel = မာꩻဒွုမ်
 # Text shown on a button that can be clicked to delete an item
 delete = ယားထိုꩻ
 

@@ -24,11 +24,13 @@ share-title-new = <bold>စွဲးကမ်းကိုဖေႏ နီသွ�
 keep-track-profile = သွုံꩻတွမ်ႏ နမ်းအအဲဉ်ႏ မဉ်ꩻဖြာꩻတဲင် ထွားနွောင်ꩻဒျာႏ နာꩻတဖြာꩻထာꩻထင်ႏထိုခြောင်ꩻဖုံႏနေား။
 login-to-get-started = တဲႏကောႏလွေꩻခန်း နွို့ငါမဉ်ꩻဖြာꩻ မွေးတောဝ်းလဲ့ ဒင်ႏဗွောင်တသာမဉ်ꩻဖြာꩻ
 target-segment-first-card = အရီးသွတ်ꩻ ကရေႏခါꩻဒါႏ အဖဲ့ꩻထွောင်းကိုနောဝ်ꩻ နာꩻအောဝ်ႏနွို့စွဲးကမ်းဖေႏဗာႏလဲဉ်း နီသွဉ်းသီးယိုသွူ။
+target-segment-generic-card = ကရေႏခါꩻဒါႏ အဖဲ့ꩻထွောင်းကိုနဝ်ꩻ နာꩻအောဝ်ႏနွို့စွဲးကမ်းဖေႏဗာႏလဲဉ်းနောဝ်ꩻသွူ
 target-segment-add-voice = သော့ꩻ နာꩻ ငေါဝ်း
 target-segment-learn-more = ဖေႏကသေထဲင်း
 login-signup = နွို့ငါ / ဒင်ႏမဉ်ꩻ
 vote-yes = မွေး
 vote-no = မွေးတောဝ်း
+datasets = အဆင်ႏခြွဉ်းဗူႏဖုံႏ
 languages = ဘာႏသာႏငေါဝ်းငွါဖုံႏ
 about = အကျောင်ꩻခရာႏ
 partner = ဖဲ့ꩻဖက်တွာ
@@ -36,6 +38,8 @@ submit-form-action = ဒင်ႏပသာ
 
 ## Reporting
 
+report = ဒင်ႏနယ်ချာ
+report-title = ဒင်ႏပသာဖေႏ ဒင်ႏနယ်ချာတဗာႏ
 report-grammar-or-spelling = သဒ္ဒါႏဖဲ့ꩻ/ခြွဉ်းလိတ်ဆင်း အမာႏ
 report-different-language = ဗွိုန်ပီတောဝ်း ဘာႏသာႏငေါဝ်းငွါ
 report-other-comment =
@@ -85,3 +89,5 @@ contribution-varying-pronunciations-example-1-title = ဝွေꩻကတူႏ�
 contribution-varying-pronunciations-example-2-title = ယွိုင်ႏကီခါꩻ ဝွေꩻစူနောဝ်ꩻသွူ။
 contribution-background-noise-title = ဗꩻချာ တိန်ႏနား
 contribution-background-voices-title = အသောင်ဗꩻချာ အငေါဝ်းဖုံႏ
+see-more = <chevron></chevron>ထွားထဲင်းယင်း
+see-less = <chevron></chevron>ထွားယွမ်ꩻလင်ꩻ
