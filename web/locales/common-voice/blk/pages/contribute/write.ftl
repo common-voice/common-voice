@@ -24,6 +24,15 @@ sentence-variant-select-multiple-variants = ဘာႏသာႏငေါဝ်း
 select-file = လွိုက် ဖုဲင်
 select-file-mobile = လွိုက်ဖုဲင် ဒင်ႏသော့ꩻတာႏ
 
+## SMALL BATCH SUBMISSION
+
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] လိတ်မဲ့ငါယိုအတာႏ ဒင်ႏပသာခွင်ꩻလꩻ ဗွေတွိုႏလဲဉ်းသွူ ရဲးထွော့ခါꩻကိုသွူ။ ခလား ကဒင်ႏပသာလိတ်ရဲဉ်ႏတသာတွင်ꩻကို ယံဖေႏ ကအုံပွေါးသွော့ ၁ မိနစ်နေား။ ယွိုန်းသꩻဆွာꩻဆွာꩻဖေႏအတာႏ ကေႏဇူꩻတင်ႏငါႏသွူဩ။
+       *[other] လိတ်မဲ့ငါယိုအတာႏ ဒင်ႏပသာခွင်ꩻလꩻ ဗွေတွိုႏလဲဉ်းသွူ ရဲးထွော့ခါꩻကိုသွူ။ ခလား ကဒင်ႏပသာလိတ်ရဲဉ်ႏတသာတွင်ꩻကို ယံဖေႏ ကအုံပွေါးသွော့ { $retryLimit } မိနစ်နေား။ ယွိုန်းသꩻဆွာꩻဆွာꩻဖေႏအတာႏ ကေႏဇူꩻတင်ႏငါႏသွူဩ။
+    }
+
 ## MENU ITEM TOOLTIPS
 
 add-sentences-menu-item-tooltip = သော့ꩻ ဝါကျလိတ်ရဲဉ်ႏ

@@ -18,6 +18,7 @@ contribute-more =
 speak-empty-state = အီႏဒင်ႏထူႏ မုဲင်ꩻတောင်ꩻတာႏ တွမ်ႏ ဘာႏသာႏငေါဝ်းငွါယို လိတ်ရဲဉ်ႏဖုံႏ လို့ထိုꩻလဲဉ်းသွူ...
 speak-empty-state-cta = စွဲးကမ်းကို လိတ်ရဲဉ်ႏဖုံႏ
 record-button-label = ဒင်ႏမုဲင်တောင်ꩻခါꩻ နာꩻ ငေါဝ်း
+share-title-new = <bold>စွဲးကမ်းကိုဖေႏ နီသွဉ်းသီး</bold> ထိုမ်ႏထဲင်း အငေါဝ်းတသာတာႏဖုံႏနေား
 target-segment-add-voice = သော့ꩻ နာꩻ ငေါဝ်း
 target-segment-learn-more = ဖေႏကသေထဲင်း
 login-signup = နွို့ငါ / ဒင်ႏမဉ်ꩻ
