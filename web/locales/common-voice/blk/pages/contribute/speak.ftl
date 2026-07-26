@@ -32,6 +32,7 @@ clips-uploaded = ဒင်ႏထင်ႏလဲဉ်း အကွို့ꩻ�
 record-abort-title = မာꩻထွူရီးခန်း ဒင်ႏမုဲင်အငေါဝ်းယိုနဲ့?
 record-abort-submit = ဒင်ႏပသာ အကွို့ꩻဖုံႏ
 record-abort-continue = မာꩻထွူသွတ်ꩻ ဒင်ႏမုဲင်အငေါဝ်း
+record-abort-delete = ယားထိုꩻပါအငေါဝ်းကွို့ꩻဖုံႏထွူ ထန်ႏထိုꩻ
 review-submit-title = ထွားစဲစ်ချာထွူ ဒင်ႏပသာ
 review-recording = ထွားစဲစ်
 review-rerecord = ဒင်ႏမုဲင်တောင်ꩻချာယင်း
