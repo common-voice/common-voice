@@ -57,11 +57,13 @@ add-information-button = သော့ꩻ အဆင်ႏအဗာႏ
 continue-speaking-button = အောဝ်ႏလꩻဒျာႏ ကေႏဇူꩻတင်ႏငါႏ၊ ဒေါ့ꩻသွုပ်ထဲင်းဟုဲင်း
 create-profile-text = မဲဉ်ထူႏသိမ်ꩻခါꩻ နီဗွေႏ အဆင်ႏလာႏဖုံႏနဲ့ဟောင်း? <createProfile>မာꩻလွဉ်သွော့ နမ်းအအဲဉ်ႏတဗာႏ</createProfile>ဟုဲင်း။
 thanks-for-voice-toast = နာꩻ ငေါဝ်းငွါအဆင်ႏလာႏအတာႏ ကေႏဇူꩻတင်ႏငါႏသွူ
-first-cta-gender-select-default-option = လွိုက်ထူႏသွော့ꩻတဗာႏ
+thanks-for-voice-toast-error = အောဝ်ႏဒင်ႏပသာငေါဝ်း အဆင်ႏအလာႏကျာꩻ အမာႏတဗာႏထွာလွဉ်နောဝ်ꩻသွူ။
+first-cta-gender-select-default-option = လွိုက်ထူႏသွော့တဗာႏ
 first-cta-gender-select-help-text =
     .label = လိုꩻသီး လေင်အင်္ဂါႏဖုံႏ အမူႏတွမ်ႏအခိုယို နာꩻခြုဲင်းနယ်ဖေႏနုဲင်းမုဲင်ꩻ?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = ကနွို့စွဲးကမ်းဖေႏဒါႏ နီဗွေႏငေါဝ်းငွါအတာႏ ကေႏဇူꩻတင်ႏငါႏသွူဩ!
+second-cta-subtitle-text = နေးတွမ်ႏ နီဗွေႏ နမ်းအအဲဉ်ႏယိုတဲင် ထာꩻမာꩻရုဲင်ꩻတသွိုးခြောင်ꩻဖုံႏယို ထွားစဲစ်လွေꩻနွောင်ꩻထွူ၊ ကလူႏစွဲးကမ်းဖေႏဒါႏ အငေါဝ်းအဆင်ႏလာႏသား တွမ်ႏ အသောင်ရင်ꩻ လိုꩻစွိုꩻဗူႏသီးဖုံႏယိုလဲ့ သွုပ်ထေ့ဒေါ့ꩻရီနွောင်ꩻဒျာႏ နုဲင်းနောဝ်ꩻသွူဩ။
 already-have-an-account = ကေားသွုံꩻမဉ်ꩻဖြာꩻ အောဝ်ႏထွူလဲဉ်းနဲ့<login>နွို့သွုံꩻဖြာꩻ</login>ဟုဲင်း
 create-profile-button = မာꩻထွာလွဉ် နမ်းအအဲဉ်ႏ တဗာႏ
 # IMAGE TAGS
