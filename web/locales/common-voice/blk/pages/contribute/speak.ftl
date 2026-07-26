@@ -13,6 +13,7 @@ record-error-too-short = ဒင်ႏမုဲင်အငေါဝ်း ဒွ
 record-error-too-long = ဒင်ႏမုဲင်အငေါဝ်း ဆွာꩻလွဉ်ꩻငါႏ။
 record-error-too-quiet = ဒင်ႏမုဲင်အငေါဝ်း ယေန်ဗွီႏလွဉ်ꩻငါႏ။
 record-error-empty-recording = အငေါဝ်းဖုဲင် တဒင်ႏမုဲင်ခါꩻလꩻတောဝ်း။ ထွားစဲစ်ချာဖေႏ နာꩻမဲက်ခရိုတဲင် ကျိုꩻစာꩻဆုဲင်ꩻယင်းသွော့တလဲင်ႏ။
+record-error-unknown-format = ထွားဖြယ်ဖေႏ အငေါဝ်းစွိုးခွိုꩻ တလꩻတောဝ်း။ သွုံꩻအီဖေႏသွော့ ဗရောင်သာ အလင်ကိုနေား။
 record-error-uploaded-clip-corrupted =
     နာꩻအငေါဝ်းဖုဲင်ယို ရကုဲင်လီထိုꩻလဲဉ်းဗာႏ။ ပွိုးစွဉ်ႏ အဆင်ႏဖုံႏယိုမꩻ ထွာနွောင်ꩻဒါႏ -
     • ဗရောင်သာ သွုံꩻတနꩻတောဝ်းလို့ဝင်ꩻ(ဖျင်ကောႏချာယင်းသွော့ ဗရောင်သာ)
@@ -23,11 +24,14 @@ record-cancel = မာꩻတောဝ်းဒွုမ် ဒင်ႏမုဲ
 record-instruction = { $actionType }<recordIcon></recordIcon>နျꩻယိုထွူတဲင် ထွားဒေါ့ꩻသွော့ ငေါဝ်းလိတ်ရဲဉ်ႏ
 record-stop-instruction = { $actionType }<stopIcon></stopIcon>မိဉ်ႏထွူနောဝ်ꩻလဲင်ႏ
 record-three-more-instruction = လွေꩻထဲင်းသွံဗာႏ!
+record-again-instruction = ယံငါႏ!<recordIcon></recordIcon>ဒင်ႏမုဲင်ထဲင်းယင်းသွော့ နာꩻငေါဝ်းကွို့ꩻဟုဲင်း
+record-again-instruction2 = မာꩻသွုပ်ထဲင်းဟုဲင်း၊ ဒင်ႏမုဲင်ယင်းသွော့ တလဲင်ႏ<recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon>အဆုဲင်ꩻသွတ်ꩻ တလဲင်ႏ!
 review-tooltip = နာꩻမိဉ်ႏ လွေꩻသဲင်ꩻချာငါဗာႏ  ထွားစဲစ်ချာပါသွော့ အငေါဝ်းဖုံႏယို အောဝ်ႏလိုႏဒါႏ အထွောင်းမုဲင်ꩻ ထဲမ်သော့ꩻယင်းလꩻဒျာႏနေား။
 share-clip = ဖန်းဖြယ်လွေꩻ နာꩻ ငေါဝ်းကွို့ꩻ
 share-common-voice = ဖန်းဖြယ်လွေꩻ ကောင်မွဉ်းဗွဲက် ယို
 review-instruction = ထွားစဲစ်ချာသွော့ မိဉ်ႏအောဝ်ႏလိုႏဒါႏနောဝ်ꩻ  ဒင်ႏမုဲင်ချာဖေႏယင်း အငေါဝ်းဟုဲင်း။
+record-submit-tooltip = { $actionType }မိဉ်ႏဖုဲင်ႏရော့ꩻလဲ့ ဒင်ႏပသာခန်း
 clips-uploaded = ဒင်ႏထင်ႏလဲဉ်း အကွို့ꩻဖုံႏ
 record-abort-title = မာꩻထွူရီးခန်း ဒင်ႏမုဲင်အငေါဝ်းယိုနဲ့?
 record-abort-submit = ဒင်ႏပသာ အကွို့ꩻဖုံႏ
