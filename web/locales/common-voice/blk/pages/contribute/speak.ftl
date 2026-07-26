@@ -22,6 +22,7 @@ record-stop-instruction = { $actionType }<stopIcon></stopIcon>မိဉ်ႏထ
 record-three-more-instruction = လွေꩻထဲင်းသွံဗာႏ!
 share-clip = ဖန်းဖြယ်လွေꩻ နာꩻ ငေါဝ်းကွို့ꩻ
 share-common-voice = ဖန်းဖြယ်လွေꩻ ကောင်မွဉ်းဗွဲက် ယို
+review-instruction = ထွားစဲစ်ချာသွော့ မိဉ်ႏအောဝ်ႏလိုႏဒါႏနောဝ်ꩻ  ဒင်ႏမုဲင်ချာဖေႏယင်း အငေါဝ်းဟုဲင်း။
 clips-uploaded = ဒင်ႏထင်ႏလဲဉ်း အကွို့ꩻဖုံႏ
 record-abort-title = မာꩻထွူရီးခန်း ဒင်ႏမုဲင်အငေါဝ်းယိုနဲ့?
 record-abort-submit = ဒင်ႏပသာ အကွို့ꩻဖုံႏ
