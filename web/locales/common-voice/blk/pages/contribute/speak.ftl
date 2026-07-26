@@ -33,6 +33,7 @@ record-abort-title = မာꩻထွူရီးခန်း ဒင်ႏမု�
 record-abort-submit = ဒင်ႏပသာ အကွို့ꩻဖုံႏ
 record-abort-continue = မာꩻထွူသွတ်ꩻ ဒင်ႏမုဲင်အငေါဝ်း
 record-abort-delete = ယားထိုꩻပါအငေါဝ်းကွို့ꩻဖုံႏထွူ ထန်ႏထိုꩻ
+review-aborted = အောဝ်ႏအွဉ်ႏဆွိုးလဲဉ်း ထာꩻဒင်ႏထင်ႏယိုတဲင် နာꩻမဲဉ် ယားထိုꩻပါ မုဲင်တောင်ꩻငေါဝ်းဖုံႏနဲ့?
 review-submit-title = ထွားစဲစ်ချာထွူ ဒင်ႏပသာ
 review-recording = ထွားစဲစ်
 review-rerecord = ဒင်ႏမုဲင်တောင်ꩻချာယင်း
