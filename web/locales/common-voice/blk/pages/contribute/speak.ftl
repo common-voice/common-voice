@@ -46,8 +46,11 @@ add-information-button = သော့ꩻ အဆင်ႏအဗာႏ
 continue-speaking-button = အောဝ်ႏလꩻဒျာႏ ကေႏဇူꩻတင်ႏငါႏ၊ ဒေါ့ꩻသွုပ်ထဲင်းဟုဲင်း
 thanks-for-voice-toast = နာꩻ ငေါဝ်းငွါအဆင်ႏလာႏအတာႏ ကေႏဇူꩻတင်ႏငါႏသွူ
 first-cta-gender-select-default-option = လွိုက်ထူႏသွော့ꩻတဗာႏ
+first-cta-gender-select-help-text =
+    .label = လိုꩻသီး လေင်အင်္ဂါႏဖုံႏ အမူႏတွမ်ႏအခိုယို နာꩻခြုဲင်းနယ်ဖေႏနုဲင်းမုဲင်ꩻ?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = ကနွို့စွဲးကမ်းဖေႏဒါႏ နီဗွေႏငေါဝ်းငွါအတာႏ ကေႏဇူꩻတင်ႏငါႏသွူဩ!
+already-have-an-account = ကေားသွုံꩻမဉ်ꩻဖြာꩻ အောဝ်ႏထွူလဲဉ်းနဲ့<login>နွို့သွုံꩻဖြာꩻ</login>ဟုဲင်း
 create-profile-button = မာꩻထွာလွဉ် နမ်းအအဲဉ်ႏ တဗာႏ
 # IMAGE TAGS
 img-alt-success-checkmark = အောင်ႏဗꩻလဲဉ်း စဲစ်မဲန်ႏ
