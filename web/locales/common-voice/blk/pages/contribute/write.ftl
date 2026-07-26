@@ -15,6 +15,8 @@ new-sentence-rule-6 = ခမ်းလင်သား လိတ်ဖုံႏ �
 contact-us = သွုပ်ထေ့ဒေါ့ꩻရီသွော့ꩻ နီ
 add-sentence-success = ရွမ်ခြွဉ်းဗာႏ လိတ်ရဲဉ်ႏ 1
 add-sentence-error = အောဝ်ႏသော့ꩻ လိတ်ရဲဉ်ႏကျာꩻ ထွာလွဉ်အမာႏ
+sentence-variant-select-label = တပီဗွိုန်တောဝ်း လိတ်ရဲဉ်ႏ
+sentence-variant-select-placeholder = လွိုက်ထူႏသွော့ တပီဗွိုန်တောဝ်းဝင်ꩻ တဗာႏ
 
 ## BULK SUBMISSION
 
