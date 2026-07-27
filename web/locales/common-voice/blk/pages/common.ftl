@@ -8,11 +8,15 @@ aa = အဖြာ
 ar = အာရဗိက်
 blk = ပအိုဝ်ႏ
 bo = တိဗဲက်
+fr = ပိဉ်တိစ်
+id = အေန်ဒိုနီးဆျား
 ja = စပန်
 km = ခမာ
 lo = လာအို
 mnw = မဲင်ꩻ
+ms = မလေး
 my = မန်း
+nan-tw = ထုဲင်ဝန်(မေန်း နန်)
 nmz = သွတ်ꩻသွုမ်ꩻ
 pl = ပိုလန်
 ru = ရုသျား
@@ -48,6 +52,16 @@ close = ပေ့ꩻ
 cancel = မာꩻဒွုမ်
 # Text shown on a button that can be clicked to delete an item
 delete = ယားထိုꩻ
+
+## Donate banner
+
+localization-select =
+    .label = လွိုက်သွော့ ဘာႏသာႏငေါဝ်းငွါ/ဒေႏသကိုအလွောက်ꩻ
+
+## MDC Announcement
+
+# Aria text for button which opens MDC on a new page
+announcement-mdc-button-aria-text = ဗွောင်သွော့ တတ် တသာတဗာႏကို
 
 ## Common Language/Dataset Selector & SearchBox Related
 
