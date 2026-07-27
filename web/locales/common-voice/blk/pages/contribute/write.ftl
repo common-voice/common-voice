@@ -72,6 +72,7 @@ sentence-variant-select-multiple-variants = ဘာႏသာႏငေါဝ်း
 sc-bulk-upload-header = ဒင်ႏထင်ႏသွော့  <icon></icon> လိုꩻအာပဲင်ႏ လိတ်ရဲဉ်ႏဖုံႏယို
 sc-bulk-upload-instruction = ထူႏငင်ႏသွော့ နာꩻဖုဲင်လာႏယိုကို မွေးတောဝ်းလဲ့ နျꩻ<uploadButton>ဒင်ႏထင်ႏ</uploadButton>ယိုနေား
 sc-bulk-upload-instruction-drop = ဒင်ႏထင်ႏဖေႏကလꩻနွောင်ꩻအတာႏ အွဉ်ႏလင်ꩻဖေႏသွော့ နာꩻဖုဲင်လာႏယိုကို
+bulk-upload-additional-information = ပွိုင်းဝွို့တွမ်ႏ ဖုဲင်လာႏယိုတဲင် မိဉ်ႏလိုႏဖေႏပသာထဲင်းဒါႏ အဆင်ႏအဗာႏဖုံႏနောဝ်ꩻ သွုပ်ထေ့ဒေါ့ꩻရီသွော့<emailFragment>commonvoice@mozilla.com</emailFragment>ယို
 try-upload-again-md = ကျိုꩻစာꩻ ဒင်ႏချာယင်းသွော့ တလဲင်ႏဩ
 select-file = လွိုက် ဖုဲင်
 select-file-mobile = လွိုက်ဖုဲင် ဒင်ႏသော့ꩻတာႏ
