@@ -159,6 +159,10 @@ press-and-stories-link = Prese i stuosti
 partner-section-title = Sasadorbojit ar mums
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-tech-companies = <bold>Tehnologeju uzjāmumi</bold> — īguļdit valeju datu kūpu izveidē plaukstūšai vairuokvolūdu MI ekosistemai
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Piļsuoniskuo sabīdreiba i pietnīki</bold> — veidojit, publicejit i pasadolit ar dereigom datu kūpom
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Filantropi</bold> — sponsorejit datu kūpys izveidi, lai veicynuotu lokaluos inovacejis i jūs atteisteibu
 # icon is an arrow that points to the right
 get-in-touch-button = Sasazynojit ar mums <icon></icon>
 # Partners section

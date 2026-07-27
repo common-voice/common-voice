@@ -42,6 +42,7 @@ submit-form-action = ဒင်ႏပသာ
 
 report = ဒင်ႏနယ်ချာ
 report-title = ဒင်ႏပသာဖေႏ ဒင်ႏနယ်ချာတဗာႏ
+report-offensive-language = ငေါဝ်းဆာငေါဝ်းရွိုင်ꩻ ဘာႏသာႏငေါဝ်းငွါ
 report-grammar-or-spelling = သဒ္ဒါႏဖဲ့ꩻ/ခြွဉ်းလိတ်ဆင်း အမာႏ
 report-different-language = ဗွိုန်ပီတောဝ်း ဘာႏသာႏငေါဝ်းငွါ
 report-other-comment =
