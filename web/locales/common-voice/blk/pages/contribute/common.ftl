@@ -49,10 +49,14 @@ report-grammar-or-spelling-detail = ငေါဝ်းလိတ်ရဲဉ်�
 report-different-language = ဗွိုန်ပီတောဝ်း ဘာႏသာႏငေါဝ်းငွါ
 report-different-language-detail = ဘာႏသာႏငေါဝ်းငွါယိုနောဝ်ꩻ​ တဲမ်းခါꩻဒျာႏ တဗွိုန်ပီတောဝ်း တွမ်ႏ ခွေကဒေါ့ꩻဒါႏ ဘာႏသာႏငေါဝ်းငွါနောဝ်ꩻသွူ။
 report-difficult-pronounce = အငေါဝ်းထန်ႏဗာႏယပ်ꩻ
+report-difficult-pronounce-detail = ငေါဝ်းရာႏဖြုံႏ တွမ်ႏ ငေါဝ်းဗူႏဖုံႏ ယိုအကို ဒေါ့ꩻထန်ႏအငေါဝ်းယပ်ꩻဖုံႏ အောဝ်ႏပါသော့ꩻနောဝ်ꩻသွူ။
+report-offensive-speech = ဒေါ့ꩻ ငေါဝ်းဆာငေါဝ်းရွိုင်ꩻ
+report-offensive-speech-detail = ငေါဝ်းကွို့ꩻယိုအကို ထာꩻရိုႏသေႏဝင်ꩻ တအောဝ်ႏတောဝ်း တွမ်ႏ ငေါဝ်းဆာငေါဝ်းရွိုင်ꩻ ဘာႏသာႏငေါဝ်းငွါဖုံႏ အောဝ်ႏပါသော့ꩻနောဝ်ꩻသွူ။
 report-other-comment =
     .placeholder = မုဲင်ခါꩻ
 success = အောင်ႏမျင်ႏ
 continue = သွုပ်ငါ
+report-success = ဒင်ႏပသာထင်ႏထေ့ လိတ်လောဝ်းဟွုန် အစီႏရင်ႏခံႏ ထွူဗꩻအောင်ႏမျင်ႏလဲဉ်းသွူ။
 
 ## Speak & Listen Shortcuts
 
