@@ -96,6 +96,8 @@ too-many-files = ဖုဲင်လာႏဖုံႏ အာလွဉ်ꩻင�
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> ထဲမ်သော့ꩻဖေႏ အာအာသွော့ ခမ်းသားလိုꩻအာပဲင်ႏလꩻ ငေါဝ်းလိတ်ရဲဉ်ႏဖုံႏနေား
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-message-minutes =
     { $retryLimit ->
