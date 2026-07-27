@@ -32,6 +32,7 @@ add-sentence-error = အောဝ်ႏသော့ꩻ လိတ်ရဲဉ်�
 required-field = ထဲမ်သွော့ အတခြေင်ကိုယို။
 single-sentence-submission = ဒင်ႏပသာနယ် ငေါဝ်းလိတ်တရဲဉ်ႏ
 small-batch-sentence-submission = ဒင်ႏပသာနယ် ငေါဝ်းလိတ်ရဲဉ်ႏ အလဲင်ႏပေႏ
+bulk-sentence-submission = ဒင်ႏပသာနယ် လိတ်ရဲဉ်ႏအာအာ
 single-sentence = တဗာႏ
 small-batch-sentence = အလဲင်ႏပေႏ
 bulk-sentence = အလဲင်ႏအာ
@@ -67,6 +68,8 @@ sentence-variant-select-multiple-variants = ဘာႏသာႏငေါဝ်း
 
 ## BULK SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = ဒင်ႏထင်ႏသွော့  <icon></icon> လိုꩻအာပဲင်ႏ လိတ်ရဲဉ်ႏဖုံႏယို
 try-upload-again-md = ကျိုꩻစာꩻ ဒင်ႏချာယင်းသွော့ တလဲင်ႏဩ
 select-file = လွိုက် ဖုဲင်
 select-file-mobile = လွိုက်ဖုဲင် ဒင်ႏသော့ꩻတာႏ
