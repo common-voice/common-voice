@@ -4,7 +4,7 @@ guidelines-header-subtitle = Izprūtit, kai dalikt i apstyprynuot teikumus i īr
 voice-collection = Īrokstu vuokšona
 sentence-collection = Teikumu kolekceja
 question-collection = Vaicuojumu kolekceja
-scripted-speech = Sagatavuota runa
+scripted-speech = Sagataveita runa
 spontaneous-speech = Spontana runa
 dont-subheader = Nadareit
 

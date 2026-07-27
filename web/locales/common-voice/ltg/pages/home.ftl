@@ -103,7 +103,7 @@ get-started = Suokt dorbu <icon><icon>
 
 ## Action items section
 
-scripted-card-header = Sagatavuota runa
+scripted-card-header = Sagataveita runa
 spontaneous-card-header = Spontana runa
 language-text-card-header = Volūdys teksti
 coming-soon = Dreiži

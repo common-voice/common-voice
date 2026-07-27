@@ -130,6 +130,13 @@ add-small-batch-success =
         [one] ရွမ်ခြွဉ်းဗူႏလꩻလဲဉ်း ငေါဝ်းလိတ်ရဲဉ်ႏ ၁ ပွုဒ်အကို အောဝ်ႏပါသော့ꩻ { $uploadedSentences } ပွုဒ်။
        *[other] ရွမ်ခြွဉ်းဗူႏလꩻလဲဉ်း ငေါဝ်းလိတ်ရဲဉ်ႏ { $totalSentences } ပွုဒ်အကို အောဝ်ႏပါသော့ꩻ { $uploadedSentences } ပွုဒ်။
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] ရွမ်ခြွဉ်းဗူႏလꩻလဲဉ်း ငေါဝ်းလိတ်ရဲဉ်ႏ ၁ ပွုဒ်အကို အောဝ်ႏပါသော့ꩻ { $uploadedSentences } ပွုဒ်။ တနေးထူႏတောဝ်းကပယ်ႏထန်ႏဒါႏ ငေါဝ်းလိတ်ရဲဉ်ႏဖုံႏ ယို ငင်ႏလင်ꩻနေးထူႏအတာႏ နျꩻဖေႏသွော့ <downloadLink>ယိုကို</downloadLink>
+       *[other] ရွမ်ခြွဉ်းဗူႏလꩻလဲဉ်း ငေါဝ်းလိတ်ရဲဉ်ႏ { $totalSentences } ပွုဒ်အကို အောဝ်ႏပါသော့ꩻ { $uploadedSentences } ပွုဒ်။ တနေးထူႏတောဝ်းကပယ်ႏထန်ႏဒါႏ ငေါဝ်းလိတ်ရဲဉ်ႏဖုံႏ ယို နေးထူႏငင်ႏလင်ꩻအတာႏ နျꩻဖေႏသွော့ <downloadLink>ယိုကို</downloadLink>
+    }
+small-batch-sentences-rule-1 = လွေꩻထွားနာႏလွဉ်ꩻဖေႏသွော့ “ခွေထဲမ်သော့ꩻလꩻနွောင်ꩻဒါႏ ငေါဝ်းလိတ်ရဲဉ်ႏ တမုဲင်ꩻ?” ကရိုꩻဒါႏ တဖူꩻယီးနယ်ကိုယို။
 small-batch-sentences-rule-2 = တလုဲင်းနောဝ်ꩻ သော့ꩻသွော့ ငေါဝ်းလိတ်ရဲဉ်ႏ တရဲဉ်ႏ။
 small-batch-sentences-rule-3 = နျꩻဖေႏ “တဒေါက်ꩻ” မွေးတောဝ်းလဲ့ “သဲင်ꩻချာ” ယို တလဲင်ႏတဲင် လိတ်ရဲဉ်ႏဖုံႏယို ဖြယ်ထန်ႏဖေႏ တဗာႏလဲင်ႏရဲဉ်ႏဩ။
 small-batch-sentences-rule-4 = ထဲမ်သော့ꩻ ဗꩻတွိုႏ လွေꩻသွော့ လိတ်ရဲဉ်ႏ ၁,၀၀၀။
@@ -140,6 +147,7 @@ add-sentences = ထဲမ်သော့ꩻ ငေါဝ်းလိတ်ရဲ
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = ထဲမ်သော့ꩻ တွမ်ႏ ထွားစဲစ်ချာ ငေါဝ်းလိတ်ရဲဉ်ႏဖုံႏ၊ ထဲမ်သော့ꩻငေါဝ်းရီဖုံႏ၊ထေပြောင်ꩻလုဲင်ႏထန်ႏ လိတ်ငေါဝ်းငွါ
 add-sentences-menu-item-tooltip = သော့ꩻ ဝါကျလိတ်ရဲဉ်ႏ
 review-sentences-menu-item-tooltip = ထွားစဲစ်ချာ ဝါကျလိတ်ရဲဉ်ႏ
 add-questions-menu-item-tooltip = သော့ꩻ ငေါဝ်းရီဖုံႏ
