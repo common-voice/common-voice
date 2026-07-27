@@ -124,6 +124,12 @@ rate-limit-message-seconds =
         [one] လိတ်မဲ့ငါယိုအတာႏ ဒင်ႏပသာထင်ႏ ဗွေတွိုႏလွေꩻလဲဉ်း ကအွဉ်ႏထွော့ဒါႏအဆင်ႏနောဝ်ꩻသွူ။ အီႏဒင်ႏပသာထင်ႏဖေႏထဲင်း ငေါဝ်းလိတ်ရဲဉ်ႏ တပွုဒ်ယိုအတာႏနောဝ်ꩻ ပွေါးဆောင်းဖေႏသွော့ ၁ သဲက္ကန့်ယိုနေား။ ယွိုန်းသꩻဆွာꩻဆွာꩻဖေႏအတာႏ ကေႏဇူꩻတင်ႏငါႏသွူဩ။
        *[other] လိတ်မဲ့ငါယိုအတာႏ ဒင်ႏပသာထင်ႏ ဗွေတွိုႏလွေꩻလဲဉ်း ကအွဉ်ႏထွော့ဒါႏအဆင်ႏနောဝ်ꩻသွူ။ အီႏဒင်ႏပသာထင်ႏဖေႏထဲင်း ငေါဝ်းလိတ်ရဲဉ်ႏ တပွုဒ်ယိုအတာႏနောဝ်ꩻ ပွေါးဆောင်းဖေႏသွော့ { $retryLimit } သဲက္ကန့်ယိုနေား။ ယွိုန်းသꩻဆွာꩻဆွာꩻဖေႏအတာႏ ကေႏဇူꩻတင်ႏငါႏသွူဩ။
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] ရွမ်ခြွဉ်းဗူႏလꩻလဲဉ်း ငေါဝ်းလိတ်ရဲဉ်ႏ ၁ ပွုဒ်အကို အောဝ်ႏပါသော့ꩻ { $uploadedSentences } ပွုဒ်။
+       *[other] ရွမ်ခြွဉ်းဗူႏလꩻလဲဉ်း ငေါဝ်းလိတ်ရဲဉ်ႏ { $totalSentences } ပွုဒ်အကို အောဝ်ႏပါသော့ꩻ { $uploadedSentences } ပွုဒ်။
+    }
 small-batch-sentences-rule-2 = တလုဲင်းနောဝ်ꩻ သော့ꩻသွော့ ငေါဝ်းလိတ်ရဲဉ်ႏ တရဲဉ်ႏ။
 small-batch-sentences-rule-3 = နျꩻဖေႏ “တဒေါက်ꩻ” မွေးတောဝ်းလဲ့ “သဲင်ꩻချာ” ယို တလဲင်ႏတဲင် လိတ်ရဲဉ်ႏဖုံႏယို ဖြယ်ထန်ႏဖေႏ တဗာႏလဲင်ႏရဲဉ်ႏဩ။
 small-batch-sentences-rule-4 = ထဲမ်သော့ꩻ ဗꩻတွိုႏ လွေꩻသွော့ လိတ်ရဲဉ်ႏ ၁,၀၀၀။
