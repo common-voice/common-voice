@@ -75,6 +75,7 @@ rate-limit-message-minutes =
        *[other] လိတ်မဲ့ငါယိုအတာႏ ဒင်ႏပသာခွင်ꩻလꩻ ဗွေတွိုႏလဲဉ်းသွူ ရဲးထွော့ခါꩻကိုသွူ။ ခလား ကဒင်ႏပသာလိတ်ရဲဉ်ႏတသာတွင်ꩻကို ယံဖေႏ ကအုံပွေါးသွော့ { $retryLimit } မိနစ်နေား။ ယွိုန်းသꩻဆွာꩻဆွာꩻဖေႏအတာႏ ကေႏဇူꩻတင်ႏငါႏသွူဩ။
     }
 small-batch-sentences-rule-2 = တလုဲင်းနောဝ်ꩻ သော့ꩻသွော့ ငေါဝ်းလိတ်ရဲဉ်ႏ တရဲဉ်ႏ။
+small-batch-sentences-rule-3 = နျꩻဖေႏ “တဒေါက်ꩻ” မွေးတောဝ်းလဲ့ “သဲင်ꩻချာ” ယို တလဲင်ႏတဲင် လိတ်ရဲဉ်ႏဖုံႏယို ဖြယ်ထန်ႏဖေႏ တဗာႏလဲင်ႏရဲဉ်ႏဩ။
 small-batch-sentences-rule-4 = ထဲမ်သော့ꩻ ဗꩻတွိုႏ လွေꩻသွော့ လိတ်ရဲဉ်ႏ ၁,၀၀၀။
 small-batch-sentences-rule-5 = လိတ်ရဲဉ်ႏ ကားကအောဝ်ႏနောဝ်ꩻ ကဗွိုန်တရျားဒါႏ ခင်ႏလမ်းအုံအောဝ်ႏလꩻဗာႏ။
 small-batch-sentences-rule-6 = လိတ်ရဲဉ်ႏကားကအောဝ်ႏယို ထူႏကွိုꩻအုံနောင်တာႏ ဗွိုန်ပီလို့ဗာႏဝင်ꩻ
@@ -87,8 +88,10 @@ add-sentences-menu-item-tooltip = သော့ꩻ ဝါကျလိတ်ရဲ
 review-sentences-menu-item-tooltip = ထွားစဲစ်ချာ ဝါကျလိတ်ရဲဉ်ႏ
 add-questions-menu-item-tooltip = သော့ꩻ ငေါဝ်းရီဖုံႏ
 review-questions-menu-item-tooltip = ထွားစဲစ်ချာ ငေါဝ်းရီဖုံႏ
+transcribe-audio-menu-item-tooltip = ပြောင်ꩻထွာလွေꩻ ဒင်ႏမုဲင်တောင်ꩻအငေါဝ်းဖုံႏ
 
 ## MENU ITEM ARIA LABELS
 
 write-contribute-menu-aria-label = တဲမ်းသွော့ လွိုက်ထူႏခရာႏ အကတူႏရဲဉ်ႏဖုံႏ။
+add-sentences-menu-item-aria-label = အသောင်ရင်ꩻလိုꩻဗူႏသီး ယံထွားဒေါ့ꩻနွောင်ꩻအီတာႏ သော့ꩻထဲင်းသွော့ လိတ်ရဲဉ်ႏတသာဩ
 transcribe-audio-menu-item-aria-label = ဒင်ႏမုဲင်တောင်ꩻအငေါဝ်းဖုံႏယို ပြောင်ꩻထွာလွေꩻသွော့ လိတ်ယာႏ
