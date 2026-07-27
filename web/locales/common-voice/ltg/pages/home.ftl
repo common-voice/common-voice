@@ -124,6 +124,7 @@ find-us-on-element-action-1 = Elements
 find-us-on-matrix-action-2 = Cyti klienti
 # label for button
 ask-mozilla-share-action = Pastuostit par sovu nūtykumu
+download-contribution-certificate = Zamynluodejit sova īguļdejuma sertifikatu
 # label for button
 download-contribution-certificate-action = Sajemit sovu sertifikatu
 contribute-github = Atbolstit teiklavītā GitHub
@@ -156,6 +157,8 @@ press-and-stories-link = Prese i stuosti
 ## Partner section
 
 partner-section-title = Sasadorbojit ar mums
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Tehnologeju uzjāmumi</bold> — īguļdit valeju datu kūpu izveidē plaukstūšai vairuokvolūdu MI ekosistemai
 # icon is an arrow that points to the right
 get-in-touch-button = Sasazynojit ar mums <icon></icon>
 # Partners section
