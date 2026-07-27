@@ -10,7 +10,11 @@ small-batch-sentence-input-placeholder = တဲမ်းသော့ꩻ နာ�
 citation-input-placeholder = အုံနောင်အွဉ်ႏနယ်ဗာႏ  နာꩻလိတ်ရဲဉ်ႏယို အရွီးအခိုႏ (အောဝ်ႏလိုႏဒါႏ)
 citation =
     .label = ထူႏအုံနောင်
+sc-write-submit-confirm = ငေါဝ်းလိတ်ရဲဉ်ႏယိုနောဝ်ꩻ ထွာဒျာႏ <wikipediaLink>ခမ်းသားလိုꩻအာသီးပဲင်ႏ</wikipediaLink> အကျောင်ꩻ တွမ်ႏ ဒင်ႏထင်ႏသော့ꩻယိုအတာႏ အခွင်ꩻလꩻအောဝ်ႏဒျာႏအကျောင်ꩻ ခွေသွဉ်း အွဉ်ႏတိဉ်ႏလွေꩻဒျာႏသွူဩ။
 sc-review-write-title = လိတ်ရဲဉ်ႏဖုံႏယို ခွေသော့ꩻနွောင်ꩻတမုဲင်ꩻ?
+sc-review-small-batch-title = သော့ꩻဗာႏ ငေါဝ်းလိတ်ရဲဉ်ႏအာအာ နုဲင်းမုဲင်ꩻ
+new-sentence-rule-1 = <noCopyright>ခွုမ်ပဲင်ႏလꩻခွင်ꩻ ဒို့ꩻပေ့ꩻရဲးခါꩻဖုံႏ တအောဝ်ႏတောဝ်းဩ</noCopyright> (<cc0>cc-0</cc0>)
+new-sentence-rule-2 = လိတ်ရဲဉ်ႏယို မိဉ်ႏဆေ့ꩻကယ်ꩻလဲဉ်း ငေါဝ်းရာႏ ၁၅ ဖြုံႏနောဝ်ꩻ
 new-sentence-rule-3 = သွုံꩻမဲန်ႏမဲန်ႏသွော့ꩻ သဒ္ဒါႏ
 new-sentence-rule-6 = ခမ်းလင်သား လိတ်ဖုံႏ တပါတောဝ်း
 how-to-cite = ထွားကွိုꩻဗာႏ နုဲင်းမုဲင်ꩻ?
@@ -87,3 +91,4 @@ review-questions-menu-item-tooltip = ထွားစဲစ်ချာ ငေါ
 ## MENU ITEM ARIA LABELS
 
 write-contribute-menu-aria-label = တဲမ်းသွော့ လွိုက်ထူႏခရာႏ အကတူႏရဲဉ်ႏဖုံႏ။
+transcribe-audio-menu-item-aria-label = ဒင်ႏမုဲင်တောင်ꩻအငေါဝ်းဖုံႏယို ပြောင်ꩻထွာလွေꩻသွော့ လိတ်ယာႏ
