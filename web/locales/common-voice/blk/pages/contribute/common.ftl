@@ -72,8 +72,10 @@ shortcut-record-toggle-label = ဒင်ႏမုဲင်တောင်ꩻ/အ
 shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = မာꩻချာယင်း ဒင်ႏမုဲင်တောင်ꩻ အကွို့ꩻ
 shortcut-discard-ongoing-recording = အီးအဲစ်သီ
+shortcut-discard-ongoing-recording-label = ဝေါင်းထိုꩻ ကအောဝ်ႏ ဒင်ႏမုဲင်တောင်ꩻဒါႏ အငေါဝ်း ယိုခါ
 shortcut-submit = သဲင်ꩻလွဉ်ချာ
 shortcut-submit-label = ဒင်ႏပသာနယ် အကွို့ꩻဖုံႏ
+request-language-text = ထီႏတောဝ်း နာꩻဘာႏသာႏငေါဝ်းငွါ ကောင်မွဉ်းဗွဲက်ကိုနဲ့?
 request-language-button = ကွီကော့ꩻ ဘာႏသာႏငေါဝ်းငွါတဗာႏ
 
 ## Listen Shortcuts
@@ -94,6 +96,7 @@ shortcut-vote-no = တောဝ်း
 contribution-criteria-nav = အွဉ်ႏထွော့ဆင်ႏ
 contribution-criteria-link = သေနာႏသွော့ꩻ နွို့စွဲးထဲမ်သား တဖူꩻနယ်ꩻ
 contribution-criteria-page-title = နွို့စွဲးထဲမ်သား အွဉ်ႏထွော့ဆင်ႏ
+contribution-criteria-page-description = နာႏအငေါဝ်းကွို့ꩻဖုံႏမိဉ်ႏထွူနောဝ်ꩻ လိုႏသေနာႏဗာႏအဆင်ႏယိုတဲင် ကအီႏထိုမ်ႏဗာႏ ကဒင်ႏခါꩻဒါႏ နာꩻငေါဝ်းငွါဖုံႏယို ယံဖေႏကဗွေစွုမ်ႏလွဉ်နောဝ်ꩻ စွဲးကမ်းကိုဖေႏသွော့ဩ။
 contribution-for-example = ဗွိုန်နုဲင်းပွုံႏစံႏ အတာႏ
 contribution-misreadings-title = ထာꩻထီႏတရွို့ꩻဖုံႏ
 contribution-varying-pronunciations-example-1-title = ဝွေꩻကတူႏလောင်းနောဝ်ꩻ အောဝ်ႏခူးခါꩻ ဗရဲက်ကုံႏနောဝ်ꩻသွူ။
