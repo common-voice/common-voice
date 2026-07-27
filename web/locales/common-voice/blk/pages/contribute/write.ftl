@@ -20,6 +20,28 @@ small-batch-sentence = အလဲင်ႏပေႏ
 bulk-sentence = အလဲင်ႏအာ
 sentence-domain-combobox-label = ငေါဝ်းလိတ်ရဲဉ်ႏ ဒိုမေင်း
 sentence-domain-select-placeholder = လွိုက်ထူႏနွောင်ꩻဒျာႏ ဒိုမေင်း အောဝ်ႏသွံဗာႏ
+# Sentence Domain dropdown option
+agriculture_food = ဆို့ꩻရုဲင်တာႏတွမ်ႏအအံႏအအွꩻ
+# Sentence Domain dropdown option
+automotive_transport = ပသာတွမ်ႏစက်ထာꩻမာꩻ
+# Sentence Domain dropdown option
+finance = ရွဉ်ဘဏ္ဍာႏရေꩻ
+# Sentence Domain dropdown option
+service_retail = လုဲင်ႏစူတွမ်ႏခွုမ်မာꩻဖေႏတာႏ
+# Sentence Domain dropdown option
+general = ခွိုꩻသွုပ်
+# Sentence Domain dropdown option
+healthcare = နေးထွားခြွိုင်ႏသန်ꩻရေꩻ
+# Sentence Domain dropdown option
+history_law_government = သမဲင်ꩻခြောင်ꩻလီꩻ၊ ဥပဒေႏတွမ်ႏအစိုႏရ
+# Sentence Domain dropdown option
+language_fundamentals = တဲႏဆို့ꩻ ဘာႏသာႏငေါဝ်းငွါ အခင်ႏမွဉ်ဖုံႏ (ပွုံႏစံႏ ။ ဂဏန်ꩻ၊ လိတ်ဖြုံႏ၊ ရွဉ်)
+# Sentence Domain dropdown option
+media_entertainment = ခွဲးသွုပ်အာတွမ်ႏ စေမွန်းသꩻ
+# Sentence Domain dropdown option
+nature_environment = သဘာဝ တွမ်ႏ အသောင်ရင်ꩻ
+# Sentence Domain dropdown option
+news_current_affairs = သတင်ꩻတသာ တွမ်ႏ အထွာမဲန်ႏဖုံႏယိုခါ
 sentence-variant-select-label = တပီဗွိုန်တောဝ်း လိတ်ရဲဉ်ႏ
 sentence-variant-select-placeholder = လွိုက်ထူႏသွော့ တပီဗွိုန်တောဝ်းဝင်ꩻ တဗာႏ
 sentence-variant-select-multiple-variants = ဘာႏသာႏငေါဝ်းငွါ ခွိုꩻသွုပ်လင်ꩻ /တပီတောဝ်းဒါႏ ပꩻလီဖုံႏ
