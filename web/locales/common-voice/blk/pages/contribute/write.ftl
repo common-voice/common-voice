@@ -10,11 +10,17 @@ small-batch-sentence-input-placeholder = တဲမ်းသော့ꩻ နာ�
 citation-input-placeholder = အုံနောင်အွဉ်ႏနယ်ဗာႏ  နာꩻလိတ်ရဲဉ်ႏယို အရွီးအခိုႏ (အောဝ်ႏလိုႏဒါႏ)
 citation =
     .label = ထူႏအုံနောင်
+sc-review-write-title = လိတ်ရဲဉ်ႏဖုံႏယို ခွေသော့ꩻနွောင်ꩻတမုဲင်ꩻ?
 new-sentence-rule-3 = သွုံꩻမဲန်ႏမဲန်ႏသွော့ꩻ သဒ္ဒါႏ
 new-sentence-rule-6 = ခမ်းလင်သား လိတ်ဖုံႏ တပါတောဝ်း
+how-to-cite = ထွားကွိုꩻဗာႏ နုဲင်းမုဲင်ꩻ?
+guidelines = မာꩻပွုံႏမာꩻနယ်ꩻ
 contact-us = သွုပ်ထေ့ဒေါ့ꩻရီသွော့ꩻ နီ
 add-sentence-success = ရွမ်ခြွဉ်းဗာႏ လိတ်ရဲဉ်ႏ 1
 add-sentence-error = အောဝ်ႏသော့ꩻ လိတ်ရဲဉ်ႏကျာꩻ ထွာလွဉ်အမာႏ
+required-field = ထဲမ်သွော့ အတခြေင်ကိုယို။
+single-sentence-submission = ဒင်ႏပသာနယ် ငေါဝ်းလိတ်တရဲဉ်ႏ
+small-batch-sentence-submission = ဒင်ႏပသာနယ် ငေါဝ်းလိတ်ရဲဉ်ႏ အလဲင်ႏပေႏ
 single-sentence = တဗာႏ
 small-batch-sentence = အလဲင်ႏပေႏ
 bulk-sentence = အလဲင်ႏအာ
@@ -42,6 +48,8 @@ media_entertainment = ခွဲးသွုပ်အာတွမ်ႏ စေမ
 nature_environment = သဘာဝ တွမ်ႏ အသောင်ရင်ꩻ
 # Sentence Domain dropdown option
 news_current_affairs = သတင်ꩻတသာ တွမ်ႏ အထွာမဲန်ႏဖုံႏယိုခါ
+# Sentence Domain dropdown option
+technology_robotics = နယ်ꩻပညာႏ တွမ်ႏ စက်ရွုတ်ဖုံႏ
 sentence-variant-select-label = တပီဗွိုန်တောဝ်း လိတ်ရဲဉ်ႏ
 sentence-variant-select-placeholder = လွိုက်ထူႏသွော့ တပီဗွိုန်တောဝ်းဝင်ꩻ တဗာႏ
 sentence-variant-select-multiple-variants = ဘာႏသာႏငေါဝ်းငွါ ခွိုꩻသွုပ်လင်ꩻ /တပီတောဝ်းဒါႏ ပꩻလီဖုံႏ
