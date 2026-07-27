@@ -101,6 +101,18 @@ small-batch-instruction = <icon></icon> ထဲမ်သော့ꩻဖေႏ အ
 multiple-sentences-error = ဒင်ႏပသာထင်ႏ တလဲင်ႏတာႏ ထဲမ်သော့ꩻ အာအာ ငေါဝ်းလိတ်ရဲဉ်ႏဖုံႏ လꩻနွောင်ꩻတောဝ်းသွူ။
 exceeds-small-batch-limit-error = ငေါဝ်းလိတ်ရဲဉ်ႏဖုံႏ ပေါႏလွို ၁၀၀၀ ယို ဒင်ႏပသာထင်ႏ လꩻနွောင်ꩻတောဝ်းသွူ။
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] ကာႏလွိုထိုꩻလဲဉ်း အွဉ်ႏထွော့ဒါႏ အဆင်ႏဖုံႏတဲင်။ ပွေါးဗာႏည ၁ မိနေတ်ထွူ ကျိုꩻစာꩻချာယင်းသွော့တလဲင်ႏဩ
+       *[other] ကာႏလွိုထိုꩻလဲဉ်း အွဉ်ႏထွော့ဒါႏ အဆင်ႏဖုံႏတဲင်။ ပွေါးဗာႏည { $retryLimit } မိနေတ်ထွူ ကျိုꩻစာꩻချာယင်းသွော့တလဲင်ႏဩ
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] ကာႏလွိုထိုꩻလဲဉ်း အွဉ်ႏထွော့ဒါႏ အဆင်ႏဖုံႏတဲင်။ ပွေါးဗာႏ ၁ သဲက္ကန့်ထွူ ကျိုꩻစာꩻချာယင်းသွော့တလဲင်ႏဩ။
+       *[other] ကာႏလွိုထိုꩻလဲဉ်း အွဉ်ႏထွော့ဒါႏ အဆင်ႏဖုံႏတဲင်။ ပွေါးဗာႏ { $retryLimit } သဲက္ကန့်ထွူ ကျိုꩻစာꩻချာယင်းသွော့တလဲင်ႏဩ။
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-message-minutes =
     { $retryLimit ->
         [one] လိတ်မဲ့ငါယိုအတာႏ ဒင်ႏပသာခွင်ꩻလꩻ ဗွေတွိုႏလဲဉ်းသွူ ရဲးထွော့ခါꩻကိုသွူ။ ခလား ကဒင်ႏပသာလိတ်ရဲဉ်ႏတသာတွင်ꩻကို ယံဖေႏ ကအုံပွေါးသွော့ ၁ မိနစ်နေား။ ယွိုန်းသꩻဆွာꩻဆွာꩻဖေႏအတာႏ ကေႏဇူꩻတင်ႏငါႏသွူဩ။
