@@ -70,9 +70,13 @@ sentence-variant-select-multiple-variants = ဘာႏသာႏငေါဝ်း
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = ဒင်ႏထင်ႏသွော့  <icon></icon> လိုꩻအာပဲင်ႏ လိတ်ရဲဉ်ႏဖုံႏယို
+sc-bulk-upload-instruction = ထူႏငင်ႏသွော့ နာꩻဖုဲင်လာႏယိုကို မွေးတောဝ်းလဲ့ နျꩻ<uploadButton>ဒင်ႏထင်ႏ</uploadButton>ယိုနေား
+sc-bulk-upload-instruction-drop = ဒင်ႏထင်ႏဖေႏကလꩻနွောင်ꩻအတာႏ အွဉ်ႏလင်ꩻဖေႏသွော့ နာꩻဖုဲင်လာႏယိုကို
 try-upload-again-md = ကျိုꩻစာꩻ ဒင်ႏချာယင်းသွော့ တလဲင်ႏဩ
 select-file = လွိုက် ဖုဲင်
 select-file-mobile = လွိုက်ဖုဲင် ဒင်ႏသော့ꩻတာႏ
+maximum-file-size = အတန်သွတ်ꩻ ဖုဲင်လာႏအရွယ်ႏ : ၂၅ MB(အဲမ်ဗီ)
+what-needs-to-be-in-file = ခွေသွဉ်း ဖုဲင်လာႏအကိုနောဝ်ꩻ အောဝ်ႏလိုႏပါသော့ꩻ အဆင်ႏဗာႏတမုဲင်ꩻ
 upload-more-btn-text = ဒင်ႏထင်ႏ ထဲင်းယင်း ငေါဝ်းလိတ်ရဲဉ်ႏဖုံႏနဲ့?
 file-invalid-type = ဖုဲင်လာႏ တမဲန်ႏတောဝ်း
 file-too-large = ဖုဲင်လာႏနောဝ်ꩻ တန်လွဉ်ꩻငါႏ
