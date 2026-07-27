@@ -77,6 +77,7 @@ select-file = လွိုက် ဖုဲင်
 select-file-mobile = လွိုက်ဖုဲင် ဒင်ႏသော့ꩻတာႏ
 maximum-file-size = အတန်သွတ်ꩻ ဖုဲင်လာႏအရွယ်ႏ : ၂၅ MB(အဲမ်ဗီ)
 what-needs-to-be-in-file = ခွေသွဉ်း ဖုဲင်လာႏအကိုနောဝ်ꩻ အောဝ်ႏလိုႏပါသော့ꩻ အဆင်ႏဗာႏတမုဲင်ꩻ
+upload-progress-text = အောဝ်ႏဒင်ႏထင်ႏဖေႏကျာꩻ...
 upload-more-btn-text = ဒင်ႏထင်ႏ ထဲင်းယင်း ငေါဝ်းလိတ်ရဲဉ်ႏဖုံႏနဲ့?
 file-invalid-type = ဖုဲင်လာႏ တမဲန်ႏတောဝ်း
 file-too-large = ဖုဲင်လာႏနောဝ်ꩻ တန်လွဉ်ꩻငါႏ
