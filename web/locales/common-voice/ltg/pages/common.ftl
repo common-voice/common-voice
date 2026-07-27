@@ -34,6 +34,7 @@ bs = Bosnīšu
 bsh = Kateviri
 bsk = Brushaski
 bum = Bulu
+bxk = Bukusu
 bxr = Burjatu
 byv = Medumba
 ca = Katalaņu
@@ -41,6 +42,7 @@ cak = Kaqchikel
 ckb = Central Kurdish
 cnh = Hakha Chin
 co = Korsikāņu
+cpx = Heng Hua
 crh = Krymys tataru
 cs = Čehu
 cut = Teutila Cuicatec
@@ -50,6 +52,9 @@ cy = Velsīšu
 da = Dāņu
 dag = Dagbani
 de = Vuocu
+din = Dinka
+dml = Dameli
+dru = Rukai
 dsb = Sorbian, Lower
 dv = Dhivehi
 dyu = Dioula
@@ -63,6 +68,7 @@ et = Igauņu
 eu = Basku
 ewo = Ewondo
 fa = Persīšu
+fan = Fang
 ff = Fulah
 fi = Suomu
 fmp = Feʼefeʼe
@@ -125,6 +131,7 @@ lg = Luganda
 lij = Ligurian
 ln = Lingala
 lo = Lao
+lss = Lassi
 lt = Leitovīšu
 ltg = Latgalīšu
 lth = Thur
@@ -143,6 +150,7 @@ mr = Marathi
 mrj = Hill Mari
 ms = Malay
 mt = Maltīšu
+mui = Musi
 my = Birmīšu
 myv = Erzya
 nan-tw = Taiwanese (Minnan)
@@ -153,6 +161,8 @@ nhe = Eastern Huasteca Nahuatl
 nhi = Western Sierra Puebla Nahuatl
 nia = Nias
 nl = Holandīšu
+nmg = Kwasio
+nmz = Losso
 nn-NO = Jaunnorveģu volūda
 nnh = Ngiembon
 nqo = NKo
@@ -160,7 +170,9 @@ nr = IsiNdebele (South)
 nso = IsiNdebele (South)
 ny = Chinyanja
 nyn = Runyankole
+nyu = Nyungwe
 oc = Occitan
+odk = Oadki
 om = Afaan Oromo
 or = Odia
 os = Osetinu volūda
@@ -171,6 +183,7 @@ ps = Puštu
 pt = Portugaļu
 quc = K'iche'
 quy = Quechua Chanka
+qxq = Qashqai
 rm-sursilv = Romansh Sursilvan
 rm-vallader = Romansh Vallader
 ro = Rumaņu
@@ -193,8 +206,10 @@ sr = Serbu
 ss = Sisvatu
 st = Dīnvydsoto
 sv-SE = Zvīdru
+sva = Svan
 sw = Svahilīšu
 syr = Sīrīšu
+szy = Sakizaya
 ta = Tamil
 te = Telugu
 tg = Tadžiku
@@ -204,6 +219,7 @@ tig = Tigre
 tk = Turkmeņu
 tl = Tagalog
 tn = Setswana
+tob = Toba Qom
 tok = Toki Pona
 tr = Turku
 ts = Xitsonga
@@ -245,6 +261,7 @@ privacy = Privatums
 terms = Lītuošonys nūsacejumi
 cookies = Seikdatnis
 faq = BUJ
+documentation = Dokumentaceja
 content-license-text = Saturs liceņzāts ar <licenseLink>Creative Commons liceņzi</licenseLink>
 share-title = Paleidzit mums atrast cytus, kas pazīduotu sovu bolsa īrokstu!
 share-text = Paleidzi atteisteit tehnologejis latgalīšu volūdā - pazīdoj sovu bolsu! { $link }
@@ -264,8 +281,24 @@ email-opt-in-info-sub-with-challenge = Sajemit e-postus par saceņseibom voi pas
 email-opt-in-privacy-v2 = Izalosūt sajimt e-posta ziņuojumus, jius asat mīrā, ka Mozilla apstruoduos tūs tai, kai tys ir nūruodeits Mozilla <privacyLink>privatuma politikā<privacyLink>.
 indicates-required = * Obligatī lauki
 not-available-abbreviation = N/P
+# Text shown on a button that can be clicked to close a modal or panel
+close = Aiztaiseit
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Voi lītojat CV</mark><br/><mark>sovūs pietejumūs?</mark>
 localization-select =
     .label = Izavielejit volūdu/lokalizaceju
+
+## MDC Announcement
+
+# Button text for MDC announcement
+announcement-mdc-button-text = Pīsavīnojit Mozilla datu kolektivam
+# Aria text for button which opens MDC on a new page
+announcement-mdc-button-aria-text = Atsataisa jaunā ciļnē
+
+## Common Language/Dataset Selector & SearchBox Related
+
+dataset-search-no-results = Natyka atrosta atbylstūša volūda
+request-new-language = Pīpraseit jaunu volūdu

@@ -84,6 +84,7 @@ press-and-stories = Prese i stuosti
 community-and-languages = Kūpīna i volūdys
 coming-soon = Dreiži
 about-us = Par mums
+scripted-speech = SAGATAVEITUO RUNA
 spontaneous-speech = SPONTANUO RUNA
 
 ## MENU ITEMS TOOLTIPS
@@ -94,6 +95,8 @@ about-us-menu-item-tooltip = Izzynojat vaira Common Voice miseju i komandu
 ## MENU ITEM ARIA LABELS
 
 partnerships-menu-item-aria-label = Izzynojit vaira par sadarbeibu ar Common Voice
+press-and-stories-menu-item-aria-label = Īsapazeistit ar presis relizem i stuostim, kas saisteiti ar Common Voice
+community-and-languages-menu-item-aria-label = Izpietit Common Voice atbaļsteitū kūpīnu i volūdys
 
 ## Hero section
 

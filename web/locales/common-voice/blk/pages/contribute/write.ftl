@@ -158,4 +158,7 @@ transcribe-audio-menu-item-tooltip = ပြောင်ꩻထွာလွေꩻ 
 
 write-contribute-menu-aria-label = တဲမ်းသွော့ လွိုက်ထူႏခရာႏ အကတူႏရဲဉ်ႏဖုံႏ။
 add-sentences-menu-item-aria-label = အသောင်ရင်ꩻလိုꩻဗူႏသီး ယံထွားဒေါ့ꩻနွောင်ꩻအီတာႏ သော့ꩻထဲင်းသွော့ လိတ်ရဲဉ်ႏတသာဩ
+review-sentences-menu-item-aria-label = ထွားစဲစ်ချာဖေႏသွော့ အသောင်ရင်ꩻလိုꩻဗူႏသီး ကဒင်ႏပသာထင်ႏလဲဉ်းဒါႏ ငေါဝ်းလိတ်ရဲဉ်ႏဖုံႏ။
+add-questions-menu-item-aria-label = အသောင်ရင်ꩻ လိုꩻစွိုꩻဗူႏသီး ယံထွားဒေါ့ꩻ စေလောဝ်းချာနွောင်ꩻအတာႏ ဒင်ႏပသာဖေႏ ငေါဝ်းရီတသာဖုံႏ။
+review-questions-menu-item-aria-label = ထွားစဲစ်ချာ တွမ်ႏ အသောင်ရင်ꩻလိုꩻဗူႏသီး ကဒင်ႏပသာထင်ႏဒါႏ ငေါဝ်းရီတသာဖုံႏအတာႏ မဲး
 transcribe-audio-menu-item-aria-label = ဒင်ႏမုဲင်တောင်ꩻအငေါဝ်းဖုံႏယို ပြောင်ꩻထွာလွေꩻသွော့ လိတ်ယာႏ
