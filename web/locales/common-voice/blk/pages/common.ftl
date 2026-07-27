@@ -65,6 +65,8 @@ announcement-mdc-button-aria-text = ဗွောင်သွော့ တတ် 
 
 ## Common Language/Dataset Selector & SearchBox Related
 
+# Generic search box defaults
+searchbox-default-label = ထိုမ်ႏထွားလွေꩻတာႏ တဲမ်းသော့ꩻရီးသွော့လိတ်
 searchbox-default-placeholder = ထိုမ်ႏထွား...
 searchbox-default-aria-label = ထိုမ်ႏထွား
 dropdown-no-results = ထီႏမော့ꩻတောဝ်း ဗွိုန်နုဲင်းယို
