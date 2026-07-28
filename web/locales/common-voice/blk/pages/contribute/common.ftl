@@ -127,6 +127,7 @@ contribution-varying-pronunciations-example-1-explanation = [<strong>'Beret'</st
 contribution-varying-pronunciations-example-2-title = ယွိုင်ႏကီခါꩻ ဝွေꩻစူနောဝ်ꩻသွူ။
 contribution-varying-pronunciations-example-2-explanation = [အဲင်းဂလေတ်ငေါဝ်းအကို <strong>'Raised'</strong> ယို အငေါဝ်းထန်ႏနာမ်ႏတင် တသေႏသေႏ ဝဒွီႏတဗာႏဒျာႏ၊ ဝဒွီႏနီဗာႏ မွေးတောဝ်းသွူ]
 contribution-background-noise-title = ဗꩻချာ တိန်ႏနား
+contribution-background-noise-description-extended = ဒင်ႏမုဲင်အငေါဝ်းယို မိဉ်ႏတကွို့ꩻထဲ့ထိုꩻ မွေးတောဝ်းလဲ့ လိတ်ရဲဉ်ႏတဗာႏလွုမ်း အငေါဝ်းဒက်ခြီခေါဝ်ဖုံႏ မိဉ်ႏပါလွဉ်နောဝ်ꩻ နာႏဟွုန်တလꩻဗာႏဒွိုန်းဖုံႏယို လက်ခံႏနေးစူꩻဗာႏတောဝ်း (နုဲင်ႏဝေါင်းထိုꩻဗာႏ) သွူ။
 contribution-background-noise-example-2-explanation = [လိတ်ရဲဉ်ႏ အကွို့ꩻယို တဟွုန်လꩻတောဝ်းသွူ]
 contribution-background-noise-example-3-fixed-title = <strong>[ခြီခေါဝ်ငေါဝ်း]</strong> ဒုဲင်နိုသောတန်ဖုံႏနောဝ်ꩻ <strong>[ခြီခေါဝ်ငေါဝ်း]</strong> - ထရုဲင်အဲစ်သစ် ကာႏလဒျာႏသွူ။
 contribution-background-voices-title = အသောင်ဗꩻချာ အငေါဝ်းဖုံႏ
