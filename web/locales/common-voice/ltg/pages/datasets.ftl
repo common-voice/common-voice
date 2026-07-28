@@ -95,5 +95,9 @@ license-mixed = Jaukts
 # Support old genders in older datasets
 male = Veirīts
 female = Sīvīte
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = Zamynluodejit myusu bolsa datu kūpys
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = Zamynluodis opcejis, lai tyktu pi Common Voice datu
 datasets-show-more = Ruodeit vysys datu kūpys
 datasets-show-less = Ruodeit jaunuokuos datu kūpys
