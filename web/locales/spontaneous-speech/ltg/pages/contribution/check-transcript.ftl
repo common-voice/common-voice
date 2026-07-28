@@ -6,6 +6,7 @@ vote-transcript-success = Puorbaude saglobuota
 transcript-edited-success = Lobuojums saglobuots
 transcript-edited-error = Saglobojūt lobuojumu, nūtykuse klaida
 transcript-skipped-success = Puorbaude izlaista
+transcript-skipped-error = Izlaižūt puorbaudi, nūtykuse klaida
 # For the button on the Check Transcriptions page to assert that a transcription is correct
 correct = Ir pareizi
 # For the button on the Check Transcriptions page to indicate that a user has finished editing a transcription
