@@ -1,5 +1,6 @@
 ## Validate Page
 
+validate-page-instruction = Apstyprynuot <validateIcon></validateIcon>, voi itys vaicuojums atbylst vodlinejom?
 dataset-label = Datu kūpa
 accept-vote-toast-message = Vaicuojums veiksmeigi pījimts
 reject-vote-toast-message = Vaicuojums veiksmeigi nūraideits
