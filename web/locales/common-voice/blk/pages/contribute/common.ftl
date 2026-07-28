@@ -126,6 +126,7 @@ contribution-varying-pronunciations-example-1-title = ဝွေꩻကတူႏ�
 contribution-varying-pronunciations-example-2-title = ယွိုင်ႏကီခါꩻ ဝွေꩻစူနောဝ်ꩻသွူ။
 contribution-background-noise-title = ဗꩻချာ တိန်ႏနား
 contribution-background-noise-example-2-explanation = [လိတ်ရဲဉ်ႏ အကွို့ꩻယို တဟွုန်လꩻတောဝ်းသွူ]
+contribution-background-noise-example-3-fixed-title = <strong>[ခြီခေါဝ်ငေါဝ်း]</strong> ဒုဲင်နိုသောတန်ဖုံႏနောဝ်ꩻ <strong>[ခြီခေါဝ်ငေါဝ်း]</strong> - ထရုဲင်အဲစ်သစ် ကာႏလဒျာႏသွူ။
 contribution-background-voices-title = အသောင်ဗꩻချာ အငေါဝ်းဖုံႏ
 contribution-background-voices-example-1-explanation = နာꩻအီႏလွဉ်နဲ့?<strong>[လိုꩻလင်သား ကေားဟဲ့ꩻ]</strong>
 contribution-volume-title = အငေါဝ်းအာႏ
