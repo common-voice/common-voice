@@ -101,6 +101,7 @@ contribution-criteria-page-description = နာႏအငေါဝ်းကွိ
 contribution-for-example = ဗွိုန်နုဲင်းပွုံႏစံႏ အတာႏ
 contribution-misreadings-title = ထာꩻထီႏတရွို့ꩻဖုံႏ
 contribution-misreadings-description = နာႏအငေါဝ်းခိန်ႏကို ကဒင်ႏမုဲင်ခါꩻဒါႏ အငေါဝ်းယို တွမ်ႏကယဲက်ထွားခါꩻဒါႏ လိတ်ရဲဉ်ႏတဗာႏ မဲန်ႏတရျားဒျာႏအကျောင်ꩻ ကရိုꩻနောဝ်ꩻ ထွားစဲစ်ဟောဝ်ဟောဝ်သွော့။အမာႏပေႏပေႏမိဉ်ႏပါလွဉ်ဒါႏနောဝ်ꩻ နေးစူꩻတောဝ်း နုဲင်ႏဝေါင်းထိုꩻဗာႏသွူ။ <br />ဆင်ႏဆင်ႏကထွာတသေႏဒါႏ အမာႏဖုံႏနောဝ်ꩻ -
+contribution-misreadings-description-extended-list-1 = ဒင်ႏမုဲင်ငေါဝ်း တဲႏအရီးကို <strong>'A'</strong> မဲန်ႏတောဝ်း မွေးတောဝ်းလဲ့ အောဝ်ႏလိုႏနေက <strong>'The'</strong> ယင်ကယ်ႏသွူ။
 contribution-misreadings-description-extended-list-2 = ငေါဝ်းအဆုဲင်ꩻသွတ်ꩻကို အောဝ်ႏလိုႏဒွိုန်း<strong> 's'</strong> လိတ်ဖြုံႏသွူ။
 contribution-misreadings-description-extended-list-3 = ငေါဝ်းဒွေါင်ႏဖုံႏ တမဲန်ႏတနꩻတောဝ်း၊ အောဝ်ႏလိုႏဒေါ့ꩻဒျာႏ"နီအောဝ်ႏ" နောဝ်ꩻ ဒေါ့ꩻမာႏတေားဒျာႏ ငေါဝ်းဒွေါင်ႏ "နီအဝ်ႏ" မွေးတောဝ်းလဲ့ အတဗန်ႏချာငါဝင်ꩻနောဝ်ꩻသွူ။
 contribution-misreadings-description-extended-list-4 = ဒင်ႏမုဲင်အငေါဝ်းယို အွဉ်ႏထွူမွိုင်လွဉ်ꩻငါႏထာꩻမꩻ အဆုဲင်ꩻသွတ်ꩻငေါဝ်းယို  ထိုꩻမားဒါႏသွူ။
