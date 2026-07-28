@@ -128,6 +128,7 @@ contribution-varying-pronunciations-example-1-explanation = [<strong>'Beret'</st
 contribution-varying-pronunciations-example-2-title = ယွိုင်ႏကီခါꩻ ဝွေꩻစူနောဝ်ꩻသွူ။
 contribution-varying-pronunciations-example-2-explanation = [အဲင်းဂလေတ်ငေါဝ်းအကို <strong>'Raised'</strong> ယို အငေါဝ်းထန်ႏနာမ်ႏတင် တသေႏသေႏ ဝဒွီႏတဗာႏဒျာႏ၊ ဝဒွီႏနီဗာႏ မွေးတောဝ်းသွူ]
 contribution-background-noise-title = ဗꩻချာ တိန်ႏနား
+contribution-background-noise-description = နီသွဉ်းသီး မဲဉ်လꩻဒျာႏ စက်ဒါႏလွူꩻထွားဗာႏ (Machine Learning) အယ်လဂိုရီတမ်ဖုံႏယို ဆꩻချာဖဲ့ꩻ အငေါဝ်းတိန်ႏနား အစွိုးအဒေါဝ်ႏဖုံႏယို ယံကထိန်ꩻရဲးနွောင်ꩻအီတာႏသွူ။ တဲမ်းခါꩻဒါႏ လိတ်ယာႏလို့လို့ယို နာꩻမိဉ်ႏအောဝ်ႏ နာႏဟွုန်နွောင်ꩻဒျာႏနောဝ်ꩻ အငေါဝ်းသန် အတန်အဗွီႏဖုံႏယိုလဲ့ လက်ခံႏနေးစူꩻဖေႏ လꩻဒျာႏသွူ။ ဆꩻချာဖဲ့ꩻ အဒုံႏအအူ ယေန်စွူဖုံႏနောဝ်ꩻ အဆင်ႏပြေႏဒျာႏ၊ ကွဲးတွော့ꩻ ငေါဝ်းရာႏ စွုမ်ႏဖြုံႏယို နာႏဟွုန်နွောင်ꩻတောဝ်း ကမာꩻအီဒါႏ အဒုံႏအအူ အငေါဝ်းထိုလွဉ်ꩻဖုံႏနောဝ်ꩻ လက်ခံႏနေးစူꩻမွုန်းဩ။
 contribution-background-noise-description-extended = ဒင်ႏမုဲင်အငေါဝ်းယို မိဉ်ႏတကွို့ꩻထဲ့ထိုꩻ မွေးတောဝ်းလဲ့ လိတ်ရဲဉ်ႏတဗာႏလွုမ်း အငေါဝ်းဒက်ခြီခေါဝ်ဖုံႏ မိဉ်ႏပါလွဉ်နောဝ်ꩻ နာႏဟွုန်တလꩻဗာႏဒွိုန်းဖုံႏယို လက်ခံႏနေးစူꩻဗာႏတောဝ်း (နုဲင်ႏဝေါင်းထိုꩻဗာႏ) သွူ။
 contribution-background-noise-example-1-fixed-title = <strong>[ဆွိုင်ꩻအငေါဝ်း]</strong> <strong>[ငေါဝ်းကဟဲ့ꩻ]</strong> ထရုဲင်အဲစ်သစ် ကာႏလခိန်ႏ ဒုဲင်နိုသောတန်ဖုံႏသွူ။
 contribution-background-noise-example-2-fixed-title = ဒုဲင်နိုသောတန်နောဝ်ꩻ <strong>[ငေါဝ်းကဟဲ့ꩻ]</strong> ထရုဲင်အဲစ်သစ် ကာႏလဒျာႏသွူ။
