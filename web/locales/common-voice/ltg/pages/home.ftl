@@ -78,6 +78,8 @@ read-more-about = Skaitit vaira myusu lopā Par mums
 ## NAV ITEMS
 
 answer-questions = Atbiļdēt iz vaicuojumim
+review-transcriptions = Puorsavērt transkripcejis
+add-questions = Dalikt vaicuojumus <small>(dreiži)</small>
 review-questions = Puorsavērt vaicuojumus
 transcribe-audio = Puorraksteit audio
 press-and-stories = Prese i stuosti
@@ -91,6 +93,9 @@ spontaneous-speech = SPONTANUO RUNA
 
 about-menu-tooltip = Partnereibys, prese i stuosti, kūpīna i volūdys
 about-us-menu-item-tooltip = Izzynojat vaira Common Voice miseju i komandu
+partnerships-menu-item-tooltip = Īsapazeistit ar organizacejom vysā pasaulī, kas atbolsta Common Voice
+press-and-stories-menu-item-tooltip = Skaitit stuostus, jaunumus i publikacejis presē par Common Voice
+community-and-languages-menu-item-tooltip = Pīsavīnoj myusu kūpīnai i izzynoj, kaidys volūdys teik atbaļsteitys
 
 ## MENU ITEM ARIA LABELS
 
