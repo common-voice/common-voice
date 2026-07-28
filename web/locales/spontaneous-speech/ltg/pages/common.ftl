@@ -10,7 +10,9 @@ platform-language-tooltip-text = Maina tik teiklavītys tekstu.
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
 contribution-picker-label = Īguļdejums { $language } datu kūpā
+contribution-picker-tooltip-text = Maina volūdu datu kūpai, kurā snādzat īguļdejumu
 coming-soon = Dreizumā byus daīmamys papyldu volūdys
+media-recorder-api-not-supported = MediaRecorder API jiusu puorlyukprogramā nateik atbaļsteita.
 # Toast message that is displayed when an item is skipped
 skipped = Izlaists
 audioplayer-header = Klauseitīs
@@ -42,6 +44,7 @@ tag = Birka
 ## Not Found Page
 
 not-found-page-header = Nav atrosts
+not-found-page-content = Maklātuo lopa natyka atrosta
 # Privacy and Terms checkbox
 accept-privacy-and-terms = Es pīkreitu Common Voice <termsLink>nūsacejumim</termsLink> i <privacyLink>konfidencialitatis politikai</privacyLink>
 # Locales-Variants
