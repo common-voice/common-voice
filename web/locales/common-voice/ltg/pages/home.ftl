@@ -130,12 +130,14 @@ find-us-on-matrix = Meklej myus Matrix
 # label for button
 find-us-on-element-action-1 = Elements
 find-us-on-matrix-action-2 = Cyti klienti
+ask-mozilla-share = Pavaicojit Mozilla pastuosteit cytim par jiusu nūtykumu
 # label for button
 ask-mozilla-share-action = Pastuostit par sovu nūtykumu
 download-contribution-certificate = Zamynluodejit sova īguļdejuma sertifikatu
 # label for button
 download-contribution-certificate-action = Sajemit sovu sertifikatu
 contribute-github = Atbolstit teiklavītā GitHub
+contribute-github-content = Itys projekts nabyutu īspiejams bez taidu cylvāku kai jius . 🎉 Ir daudzi veidu, kai īsasaisteit Common Voice, — jums nav juoprūt programēt, lai dūtu sovu īguļdejumu!
 # label for button
 contribute-github-action = Atbolstit teiklavītā GitHub
 
