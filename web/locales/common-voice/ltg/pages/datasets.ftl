@@ -18,6 +18,7 @@ validated-hr-total = Puorbaudeitys st. kūpā
 overall-hr-total = Pavysam kūpā st.
 cv-license = Liceņze
 audio-format = Audio formats
+dataset-splits = Dalejums (vacums i dzymums)
 number-of-voices = Bolsu skaits
 splits = Statistika
 email-to-download = Īvodit sovu e-postu, lai zamynluodātu
@@ -40,6 +41,8 @@ subscribe = Pīsaraksteit
 get-started-speech = Suokt runys atpazeišonu
 other-datasets = Cytys bolsa datu kūpys
 feedback-q = Voi jums ir atsauksmis?
+# This indicates that there is no data to display
+no-information = Nav informacejis
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ir <docsLink>valejuo koda reikkūpa</docsLink> pietnīkim, kas izstruodoj jaunuokūs sarunvolūdys muoksleiguo intelekta modeļus.
 resource-deepspeech-info = Common Voice datu kūpa papyldynoj Mozilla valejuo koda bolsa atpazeišonys dzinieju Deep Speech, kū var lītuot, lai sataiseitu runys atpazeišonys programys. Paskaitit myusu <githubLink>Github puorskotu</githubLink> voi pīsavīnojit <discourseLink>DeepSpeech Discourse</discourseLink>, lai izzynuotu, kai suokt dorbu.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> struodoj valejuos runys tehnologejis atteisteibai. Jūs projekti apjam dziļā vuiceišonā baļsteitus STT i TTS dziniejus.
@@ -61,6 +64,15 @@ dataset-version = Verseja
 sha256-checksum-copied = SHA256 kontrolsumma nūkopēta!
 sha256-checksum-copied-error = Naizadeve nūkopēt SHA256 kontrolsummu
 clipboard-not-supported = Storpliktuve nateik atbaļsteita
+no-information-available = Nav informacejis
+dataset-metadata-sex = Dzymums
+# dataset metadata - age of contributor
+dataset-metadata-age = Vacums
+donate-modal-message = Jiusu datu kūpa teik zamynluodāta!
+dataset-donate-modal-heading = Voi zynuojot...
+donate-modal-explanation-1 = Datu kūpys uzturiešona i platformys uzlobuošona vaira nakai 100 volūdu kūpīnom, kurys pasaļaun iz myusu dorbu, izmoksoj gondreiž miļjonu dolaru godā?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Ka jums ir svareigi valeji, īkļaujūši dati, zīdojit jau šudiņ!</bold>
 data-download-singleword-title = Zamynluodēt vīna vuorda mierka segmentu
 data-download-singleword-callout-v2 = Itys ir iz lītuošonys gadejumu pabaļsteits segments, kurā ir dati, kas nūdrūsynoj īrunuotū skaitļu atpazeišonu i nui/nā nūsaceišonu.
 data-download-button = Zamynuodejit Common Voice datus
@@ -80,3 +92,8 @@ release-version = Verseja
 dataset-date = Datums
 license = Liceņze: <licenseLink> { $license } </licenseLink>
 license-mixed = Jaukts
+# Support old genders in older datasets
+male = Veirīts
+female = Sīvīte
+datasets-show-more = Ruodeit vysys datu kūpys
+datasets-show-less = Ruodeit jaunuokuos datu kūpys

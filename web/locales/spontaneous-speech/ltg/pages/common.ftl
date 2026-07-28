@@ -90,6 +90,14 @@ player-skip-forward-shortcut-name = Iz prīšku
 player-play-button-aria-label = Atskaņuot audio
 # Pause button accessibility/aria label
 player-pause-button-aria-label = Puortraukt audio
+# Skip back button accessibility/aria label
+player-skip-backward-aria-label = Puorlēkt 5 sekuņdis atpakaļ
+# Skip forward button accessibility/aria label
+player-skip-forward-aria-label = Puorlēkt 5 sekuņdis iz prīšku
+# Audio playback progress slider accessibility/aria label
+player-progress-slider-aria-label = Audio atskaņuošonys progresa kursors
+# Toggle speed and transcription mode menu button
+player-toggle-mode-menu-aria-label = Attaiseit režima izvēlis īspiejis
 # Slower playback speed button accessibility/aria label
 player-speed-slow-aria-label = Lānuoks atskaņuošonys dreizums
 # Normal playback speed button accessibility/aria label
