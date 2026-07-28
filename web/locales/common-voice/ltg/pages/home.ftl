@@ -114,6 +114,8 @@ get-started = Suokt dorbu <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice ir bezmoksys valeja pyrmkoda platforma kūpīnys vadeitai datu izveidei
+action-items-section-subtitle = Kotrys var saglobuot, atdzeivynuot i padareit lobuoku sovu volūdu, kūpeigojūt, veidojūt i puorbaudūt teksta i runys datu kūpys.
 scripted-card-header = Sagataveita runa
 spontaneous-card-header = Spontana runa
 language-text-card-header = Volūdys teksti
@@ -123,17 +125,21 @@ answer = Atbiļde
 
 ## Community section
 
+community-section-title-202601 = Globalūs kūpīnu radeits vysam pasauļam – 290 volūdys, i tūs skaits turpynoj augt!
 join-discord-community = Pīsavīnuot Discord kūpīnai
 # label for button
 join-discord-community-action = Pīsavīnuot Discord
+join-discord-community-content = Pīsadolit volūdys kūpīnu diskusejuos, aizdūdit vaicuojumus i izzynojit par gaidomajim pasuokumim i prezentacejom.
 find-us-on-matrix = Meklej myus Matrix
 # label for button
 find-us-on-element-action-1 = Elements
 find-us-on-matrix-action-2 = Cyti klienti
 ask-mozilla-share = Pavaicojit Mozilla pastuosteit cytim par jiusu nūtykumu
+ask-mozilla-share-content = Jums ir bejs voi vēļ byus kaids lobs pasuokums? Pastuostit mums par tū, i mes par itū nūtykumu paziņuosim cytim, kam tys varātu interesēt!
 # label for button
 ask-mozilla-share-action = Pastuostit par sovu nūtykumu
 download-contribution-certificate = Zamynluodejit sova īguļdejuma sertifikatu
+download-contribution-certificate-content = Zamynluodejit sertifikatu sovim nūtykumim voi sev, ka esit pīsadalejs Common Voice – tys nabyutu īspiejams bez jiusu!
 # label for button
 download-contribution-certificate-action = Sajemit sovu sertifikatu
 contribute-github = Atbolstit teiklavītā GitHub
