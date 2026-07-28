@@ -123,6 +123,7 @@ contribution-misreadings-example-8-explanation = [ကတူႏရဲဉ်ႏဖ
 contribution-varying-pronunciations-title = တဗွိုန်ပီတောဝ်း အငေါဝ်းထန်ႏဖုံႏ
 contribution-varying-pronunciations-description = ထွားဒေါ့ꩻလိတ်သားတဖြာꩻယို ငေါဝ်းဖြုံႏအငေါဝ်းထန်ႏ မာႏထိုꩻဒါႏ၊ သꩻခံႏအငေါဝ်းထန်ႏ ခင်ႏလမ်းမာႏထိုꩻဒါႏ မွေးတောဝ်းလဲ့ ငေါဝ်းရီသင်္ကေႏတယို ထွားလွိုထိုꩻဒါႏ စတဲင်အကျောင်ꩻခရာႏအလုဲင်းဖုံႏ ခလား တနေးစူꩻတောဝ်း (နုဲင်းဝေါင်းထိုꩻ)  ငေါဝ်းကွို့ꩻယို အခိန်ႏကို ဖေႏသေခါꩻဗာႏသွူ။ ကမ္ဘာႏအသောင်ခူလိမ်ꩻကို အငေါဝ်းထန်ႏဖုံႏ ခွိုꩻလီအောဝ်ႏအာငါႏတဲင်၊ ယင်ဟန်ႏဖုံႏနောဝ်ꩻ နာꩻဒေႏသခံႏ အသောင်ရင်ꩻလိုꩻဗူႏသီးအကို ဟွုန်ထွꩻဖိုဗာႏတောဝ်းလဲ့ ထင်းနွောင်ꩻဗာႏသွူ။ တွမ်ႏနာꩻ ဒေါ့ꩻငေါဝ်း တဗွိုန်ပီတောဝ်းဒါႏ လိုꩻဖုံႏအတာႏ အွဉ်ႏသꩻဗွာဗွာ စွဲးထဲမ်ဖေႏဗဲင်း အခွင်ꩻလꩻတာႏဩ။
 contribution-varying-pronunciations-example-1-title = ဝွေꩻကတူႏလောင်းနောဝ်ꩻ အောဝ်ႏခူးခါꩻ ဗရဲက်ကုံႏနောဝ်ꩻသွူ။
+contribution-varying-pronunciations-example-1-explanation = [<strong>'Beret'</strong> အငေါဝ်းထန်ႏယို အရီးသွတ်ꩻဝဒွီႏ (UK) မွေးတောဝ်းလဲ့ ဒုတိယဝဒွီႏ (US) နီဗာႏလွုမ်း ရလꩻဒျာႏ]
 contribution-varying-pronunciations-example-2-title = ယွိုင်ႏကီခါꩻ ဝွေꩻစူနောဝ်ꩻသွူ။
 contribution-varying-pronunciations-example-2-explanation = [အဲင်းဂလေတ်ငေါဝ်းအကို <strong>'Raised'</strong> ယို အငေါဝ်းထန်ႏနာမ်ႏတင် တသေႏသေႏ ဝဒွီႏတဗာႏဒျာႏ၊ ဝဒွီႏနီဗာႏ မွေးတောဝ်းသွူ]
 contribution-background-noise-title = ဗꩻချာ တိန်ႏနား

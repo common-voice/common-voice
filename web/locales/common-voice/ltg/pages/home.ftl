@@ -101,6 +101,9 @@ community-and-languages-menu-item-aria-label = Izpietit Common Voice atbaļsteit
 ## Hero section
 
 hero-title = Tehnologeja, kas runoj jiusu volūdā
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Deļkuo MI vajadzātu struoduot tik puors pasauļa volūduos?</bold>
+hero-subtitle-2 = Myusu volūda ir myusu stuosts, myusu kūpīna, myusu kultura. Sataiseisim datu kūpys, kurys gribim redzēt pasaulī.
 # icon is an arrow that points downwards
 get-started = Suokt dorbu <icon><icon>
 
@@ -133,12 +136,14 @@ contribute-github-action = Atbolstit teiklavītā GitHub
 
 ## Featured section
 
+featured-section-title = Pīmynāts...
 # icon is an arrow that points downwards
 download-press-pack = Zamynluodejit myusu presis materialus <icon></icon>
 
 ## Developers section
 
 developers-section-title = Publiski daīmamys atvārtuos runys datu kūpys vaira nakai 130+ volūduos
+developers-section-subtitle = Datu kūpys ASR, STT, TTS i cytim NLP aizdavumim — sataiseitys ar kūpīnys spākim.
 # icon is an arrow that points to the right
 explore-datasets = Izpietejit datu kūpys <icon></icon>
 
