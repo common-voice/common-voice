@@ -1,6 +1,7 @@
 ## Report Modal
 
 report-modal-title = Īsnēdzit viesti
+report-modal-subtitle = Kaidys problemys jums rūnās ar itū teikumu?
 offensive_speech = Aizskarūšs saturs
 report-other-comment =
     .placeholder = Komentēt
