@@ -17,4 +17,5 @@ native-language =
     .label = ဒေႏသခံႏ ဘာႏသာႏငေါဝ်းငွါ
 profile-form-submit-save = ထူႏဟောဝ်
 profile-form-submit-saved = ထူႏဟောဝ်လဲဉ်း
+profile-close = ပေ့ꩻ
 other = အလင်
