@@ -29,6 +29,7 @@ settings = စက်ပန်ႏ
 edit-profile = မွဉ်းဖျင် နမ်းအအဲဉ်ႏ
 profile-create-success = မာꩻထွာလွဉ် နမ်းအအဲဉ်ႏ၊အောင်ႏဗꩻလဲဉ်း!
 profile-close = ပေ့ꩻ
+login-identity = တောင်ꩻမုဲင်အီ နွို့ငါတာႏ
 login = နွို့ငါ
 edit = မွဉ်းဖျင်
 download-profile = ငင်ႏထူႏ ခွေ အဆင်ႏအဗာႏ
