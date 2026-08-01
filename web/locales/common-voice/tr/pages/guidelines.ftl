@@ -174,7 +174,7 @@ tags-laugh-explanation = Gülme sesi.
 tags-unclear-explanation = Anlaşılamayan bir sözcük ya da sözcük dizisi.
 transcribe-the-audio-subheader-4-explanation-2 = Bazen konuşmacılar bir kelimenin kendisini ya da bir kısmını tekrarlar. Bunların da yazıya geçirilmesi gerekir. Örnek:
 transcribe-the-audio-subheader-4-explanation-2-example = Sonra da yatak odasına <underline>gi- gi- git-</underline> gittim
-transcribe-the-audio-subheader-5-explanation-2 = Konuşmacılar ölçünlü dile göre doğru kabul edilmeyen ifadeler (“bilmiyom”, “gelcen mi?” vb.) kullanabilir. Bu ifadeler düzetilmeden ve değiştirilmeden, olduğu gibi yazıya geçirilmelidir.
+transcribe-the-audio-subheader-5-explanation-2 = Konuşmacılar ölçünlü dile göre doğru kabul edilmeyen ifadeler (“bilmiyom”, “gelcen mi?” vb.) kullanabilir. Bu ifadeler düzeltilmeden ve değiştirilmeden, olduğu gibi yazıya geçirilmelidir.
 
 ## Review the Transcription
 
