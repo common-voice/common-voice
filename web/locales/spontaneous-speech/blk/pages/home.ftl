@@ -1,7 +1,10 @@
 ## Home page
 
 welcome-to-spontaneous-speech = အောဝ်ႏ ဒေါ့ꩻငေါဝ်းလွစ်တခြင် ကိုယို ကျိုႏဆွုမ်ႏဒျာႏဩ!
+# text wrapped in <mark></mark> will have a blue background
+data-bubble-title = <mark>အဆင်ႏဗာႏ</mark>
 contact-us = သွုပ်ထေ့ ဒေါ့ꩻရီသွော့ꩻနီ
+contact-us-email = အီးမေး: <emailFragment>commonvoice@mozilla.com</emailFragment>
 signup-input-placeholder = သော့ꩻနာꩻ အီးမေးဟုဲင်း
 signup-button-value = ပသာဖေႏသွော့ နီအီးမေးကို လိဉ့်ဖြွီꩻတဗာႏ
 footer-text-privacy = <privacyLink>နမ်းကိုရေꩻ</privacyLink>

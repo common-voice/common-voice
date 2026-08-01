@@ -1,5 +1,7 @@
 ## Check Transcriptions page
 
+# actionType will be Click (for desktop devices) or Tap (for mobile devices)
+transcription-page-instruction = { $actionType } <playIcon></playIcon> နာႏသွော့ ငေါဝ်းအကွို့ꩻယိုတဲင် စဲစ်စဲင်းသွော့ တဲမ်းချာလိတ်ဖြုံႏယိုနေား။ မဲန်ႏတရျားဒျာႏနဲ့? မိဉ်ႏတမဲန်ႏတရျားတောဝ်းလဲ့ ဖေႏကမဲန်ႏတရျား ဗွေစွုမ်ႏနောဝ်ꩻ မွန်းဖျင်ချာသွော့။
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = ထွားစဲစ်စဲင်း
 # Message which appears when there are no more resources on this page
