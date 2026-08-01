@@ -2,7 +2,8 @@
 
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = ထွားစဲစ်စဲင်း
-vote-transcript-success = မုဲင်တောင်ꩻယို ဖေႏမဲး အောင်ႏဗꩻလဲဉ်းသွူ
+vote-transcript-success = ဖေႏမဲး မုဲင်တောင်ꩻယို အောင်ႏဗꩻလဲဉ်းသွူ
+vote-transcript-error = အောဝ်ႏဖေႏမဲး မုဲင်တောင်ꩻယိုကျာꩻ အမာႏထွာလွဉ်နောဝ်ꩻသွူ။
 transcript-edited-success = မွဉ်းဖျင် မုဲင်တောင်ꩻယို အောင်ႏဗꩻလဲဉ်းသွူ
 transcript-edited-error = အောဝ်ႏမွဉ်းဖျင် မုဲင်တောင်ꩻယိုကျာꩻ အမာႏထွာလွဉ်နောဝ်ꩻသွူ။
 transcript-skipped-success = မုဲင်တောင်ꩻယို ကာႏငါ အောင်ႏဗꩻလဲဉ်းသွူ
