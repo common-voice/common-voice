@@ -2,6 +2,8 @@
 
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = ထွားစဲစ်စဲင်း
+# Message which appears when there are no more resources on this page
+no-transcriptions-continue-skipped-message = ယိုခါခါ ဘာႏသာႏငေါဝ်းငွါယိုတာႏ ထွားစဲစ်အီ တဲမ်းမုဲင်လိတ်ယာႏ တအောဝ်ႏတောဝ်းဒွိုန်း။ မုဲင်ꩻမုဲင်ꩻခန်းတယောဝ်း မိဉ်ႏနျꩻသွုပ်ငါလွေꩻ'ကာႏငါ' ယိုလꩻနွောင်ꩻဒျာႏ တွမ်ႏ ကကာႏငါခါꩻဒါႏ ကတူႏရဲဉ်ႏဖုံႏ မွေးတောဝ်းလဲ့ လွေꩻကျိုꩻစာꩻထွားစဲစ်ချာသွော့ တဲမ်းမုဲင်လိတ်ယာႏကိုနေား။
 vote-transcript-success = ဖေႏမဲး မုဲင်တောင်ꩻယို အောင်ႏဗꩻလဲဉ်းသွူ
 vote-transcript-error = အောဝ်ႏဖေႏမဲး မုဲင်တောင်ꩻယိုကျာꩻ အမာႏထွာလွဉ်နောဝ်ꩻသွူ။
 transcript-edited-success = မွဉ်းဖျင် မုဲင်တောင်ꩻယို အောင်ႏဗꩻလဲဉ်းသွူ
