@@ -318,6 +318,8 @@ localization-select =
 
 ## MDC Announcement
 
+# Button text for MDC announcement
+announcement-mdc-button-text = နွို့ပါငီꩻ  မိုသီလာ အဆင်ႏအဗာႏခြွဉ်းဗူႏကို
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = ဗွောင်သွော့ တတ် တသာတဗာႏကို
 
@@ -328,6 +330,8 @@ searchbox-default-label = ထိုမ်ႏထွားလွေꩻတာႏ �
 searchbox-default-placeholder = ထိုမ်ႏထွား...
 searchbox-default-aria-label = ထိုမ်ႏထွား
 dropdown-no-results = ထီႏမော့ꩻတောဝ်း ဗွိုန်နုဲင်းယို
+# Common Voice Dataset=Language search box
+dataset-searchbox-label = ပြောင်ꩻလုဲင်ႏဖေႏ မဲ့ငါလောင်း တောမ်ႏ အဆင်ႏအဗာႏစွုမ်ႏ ဘာႏသာႏငေါဝ်းငွါ။
 dataset-searchbox-placeholder = ထိုမ်ႏထွား ဘာႏသာႏငေါဝ်းငွါတဗာႏ...
 dataset-searchbox-aria-label = ထိုမ်ႏထွား ဘာႏသာႏငေါဝ်းငွါတဗာႏ
 dataset-search-no-results = ထီႏမော့ꩻတောဝ်း ကမဲန်ႏတနꩻဒါႏ ဘာႏသာႏငေါဝ်းငွါသွူ
