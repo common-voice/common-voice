@@ -78,32 +78,45 @@ read-more-about = Skaitit vaira myusu lopā Par mums
 ## NAV ITEMS
 
 answer-questions = Atbiļdēt iz vaicuojumim
+review-transcriptions = Puorsavērt transkripcejis
+add-questions = Dalikt vaicuojumus <small>(dreiži)</small>
 review-questions = Puorsavērt vaicuojumus
 transcribe-audio = Puorraksteit audio
 press-and-stories = Prese i stuosti
 community-and-languages = Kūpīna i volūdys
 coming-soon = Dreiži
 about-us = Par mums
+scripted-speech = SAGATAVEITUO RUNA
 spontaneous-speech = SPONTANUO RUNA
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = Partnereibys, prese i stuosti, kūpīna i volūdys
 about-us-menu-item-tooltip = Izzynojat vaira Common Voice miseju i komandu
+partnerships-menu-item-tooltip = Īsapazeistit ar organizacejom vysā pasaulī, kas atbolsta Common Voice
+press-and-stories-menu-item-tooltip = Skaitit stuostus, jaunumus i publikacejis presē par Common Voice
+community-and-languages-menu-item-tooltip = Pīsavīnoj myusu kūpīnai i izzynoj, kaidys volūdys teik atbaļsteitys
 
 ## MENU ITEM ARIA LABELS
 
 partnerships-menu-item-aria-label = Izzynojit vaira par sadarbeibu ar Common Voice
+press-and-stories-menu-item-aria-label = Īsapazeistit ar presis relizem i stuostim, kas saisteiti ar Common Voice
+community-and-languages-menu-item-aria-label = Izpietit Common Voice atbaļsteitū kūpīnu i volūdys
 
 ## Hero section
 
 hero-title = Tehnologeja, kas runoj jiusu volūdā
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>Deļkuo MI vajadzātu struoduot tik puors pasauļa volūduos?</bold>
+hero-subtitle-2 = Myusu volūda ir myusu stuosts, myusu kūpīna, myusu kultura. Sataiseisim datu kūpys, kurys gribim redzēt pasaulī.
 # icon is an arrow that points downwards
 get-started = Suokt dorbu <icon><icon>
 
 ## Action items section
 
-scripted-card-header = Sagatavuota runa
+action-items-section-title = Common Voice ir bezmoksys valeja pyrmkoda platforma kūpīnys vadeitai datu izveidei
+action-items-section-subtitle = Kotrys var saglobuot, atdzeivynuot i padareit lobuoku sovu volūdu, kūpeigojūt, veidojūt i puorbaudūt teksta i runys datu kūpys.
+scripted-card-header = Sagataveita runa
 spontaneous-card-header = Spontana runa
 language-text-card-header = Volūdys teksti
 coming-soon = Dreiži
@@ -112,29 +125,38 @@ answer = Atbiļde
 
 ## Community section
 
+community-section-title-202601 = Globalūs kūpīnu radeits vysam pasauļam – 290 volūdys, i tūs skaits turpynoj augt!
 join-discord-community = Pīsavīnuot Discord kūpīnai
 # label for button
 join-discord-community-action = Pīsavīnuot Discord
+join-discord-community-content = Pīsadolit volūdys kūpīnu diskusejuos, aizdūdit vaicuojumus i izzynojit par gaidomajim pasuokumim i prezentacejom.
 find-us-on-matrix = Meklej myus Matrix
 # label for button
 find-us-on-element-action-1 = Elements
 find-us-on-matrix-action-2 = Cyti klienti
+ask-mozilla-share = Pavaicojit Mozilla pastuosteit cytim par jiusu nūtykumu
+ask-mozilla-share-content = Jums ir bejs voi vēļ byus kaids lobs pasuokums? Pastuostit mums par tū, i mes par itū nūtykumu paziņuosim cytim, kam tys varātu interesēt!
 # label for button
 ask-mozilla-share-action = Pastuostit par sovu nūtykumu
+download-contribution-certificate = Zamynluodejit sova īguļdejuma sertifikatu
+download-contribution-certificate-content = Zamynluodejit sertifikatu sovim nūtykumim voi sev, ka esit pīsadalejs Common Voice – tys nabyutu īspiejams bez jiusu!
 # label for button
 download-contribution-certificate-action = Sajemit sovu sertifikatu
 contribute-github = Atbolstit teiklavītā GitHub
+contribute-github-content = Itys projekts nabyutu īspiejams bez taidu cylvāku kai jius . 🎉 Ir daudzi veidu, kai īsasaisteit Common Voice, — jums nav juoprūt programēt, lai dūtu sovu īguļdejumu!
 # label for button
 contribute-github-action = Atbolstit teiklavītā GitHub
 
 ## Featured section
 
+featured-section-title = Pīmynāts...
 # icon is an arrow that points downwards
 download-press-pack = Zamynluodejit myusu presis materialus <icon></icon>
 
 ## Developers section
 
 developers-section-title = Publiski daīmamys atvārtuos runys datu kūpys vaira nakai 130+ volūduos
+developers-section-subtitle = Datu kūpys ASR, STT, TTS i cytim NLP aizdavumim — sataiseitys ar kūpīnys spākim.
 # icon is an arrow that points to the right
 explore-datasets = Izpietejit datu kūpys <icon></icon>
 
@@ -153,6 +175,12 @@ press-and-stories-link = Prese i stuosti
 ## Partner section
 
 partner-section-title = Sasadorbojit ar mums
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Tehnologeju uzjāmumi</bold> — īguļdit valeju datu kūpu izveidē plaukstūšai vairuokvolūdu MI ekosistemai
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Piļsuoniskuo sabīdreiba i pietnīki</bold> — veidojit, publicejit i pasadolit ar dereigom datu kūpom
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Filantropi</bold> — sponsorejit datu kūpys izveidi, lai veicynuotu lokaluos inovacejis i jūs atteisteibu
 # icon is an arrow that points to the right
 get-in-touch-button = Sasazynojit ar mums <icon></icon>
 # Partners section

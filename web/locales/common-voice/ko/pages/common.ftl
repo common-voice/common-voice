@@ -278,4 +278,5 @@ announcement-mdc-button-aria-text = 새 탭에서 열기
 
 ## Common Language/Dataset Selector & SearchBox Related
 
+searchbox-default-aria-label = 검색
 request-new-language = 새 언어 요청

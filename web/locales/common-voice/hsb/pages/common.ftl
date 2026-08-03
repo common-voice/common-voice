@@ -44,6 +44,7 @@ bgp = Wuchodna belučišćina
 bin = Edo
 bkh = Bakoko
 bkm = Kom
+blk = Pa'O
 bm = Bambaršćina, Bambara
 bn = Bengalšćina
 bnm = Batanga

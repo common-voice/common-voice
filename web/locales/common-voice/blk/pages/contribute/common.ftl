@@ -16,31 +16,134 @@ contribute-more =
        *[other] မာꩻထဲင်းယင်း { $count } တာႏ ဖုဲင်ႏလဲဉ်းနဲ့?
     }
 speak-empty-state = အီႏဒင်ႏထူႏ မုဲင်ꩻတောင်ꩻတာႏ တွမ်ႏ ဘာႏသာႏငေါဝ်းငွါယို လိတ်ရဲဉ်ႏဖုံႏ လို့ထိုꩻလဲဉ်းသွူ...
+no-sentences-for-variants = နီဗွေႏ ကသွုံꩻဒါႏ တပီတောဝ်း ဘာႏသာႏငေါဝ်းငွါပꩻလီယို လိတ်ရဲဉ်ႏဖုံႏ အီႏလို့ဒါႏနောဝ်ꩻသွူ! နီဗွေႏသꩻဖေါ်ꩻမိဉ်ႏဗွိုန်ဒျာႏနောဝ်ꩻ ပြောင်ꩻလုဲင်ႏဖေႏ စက်ပန်ႏရဲပ်မဲဉ်ႏခါꩻကို ထွူတဲင် ထွားထဲင်းနွောင်ꩻဒျာႏ ဘာႏသာႏငေါဝ်းငွါယိုအကို ကအောဝ်ႏဒါႏ လိတ်ရဲဉ်ႏအလင်ဖုံႏနောဝ်ꩻသွူဩ။
 speak-empty-state-cta = စွဲးကမ်းကို လိတ်ရဲဉ်ႏဖုံႏ
+speak-loading-error = နာꩻ ကအီႏဒေါ့ꩻငေါဝ်းတာႏ ထီႏမော့ꩻတောဝ်း လိတ်ရဲဉ်ႏဖုံႏသွူ။ ကျိုꩻစာꩻဆုဲင်ꩻယင်း တလဲင်ႏဟုဲင်း။
 record-button-label = ဒင်ႏမုဲင်တောင်ꩻခါꩻ နာꩻ ငေါဝ်း
+share-title-new = <bold>စွဲးကမ်းကိုဖေႏ နီသွဉ်းသီး</bold> ထိုမ်ႏထဲင်း အငေါဝ်းတသာတာႏဖုံႏနေား
+keep-track-profile = သွုံꩻတွမ်ႏ နမ်းအအဲဉ်ႏ မဉ်ꩻဖြာꩻတဲင် ထွားနွောင်ꩻဒျာႏ နာꩻတဖြာꩻထာꩻထင်ႏထိုခြောင်ꩻဖုံႏနေား။
+login-to-get-started = တဲႏကောႏလွေꩻခန်း နွို့ငါမဉ်ꩻဖြာꩻ မွေးတောဝ်းလဲ့ ဒင်ႏဗွောင်တသာမဉ်ꩻဖြာꩻ
+target-segment-first-card = အရီးသွတ်ꩻ ကရေႏခါꩻဒါႏ အဖဲ့ꩻထွောင်းကိုနောဝ်ꩻ နာꩻအောဝ်ႏနွို့စွဲးကမ်းဖေႏဗာႏလဲဉ်း နီသွဉ်းသီးယိုသွူ။
+target-segment-generic-card = ကရေႏခါꩻဒါႏ အဖဲ့ꩻထွောင်းကိုနဝ်ꩻ နာꩻအောဝ်ႏနွို့စွဲးကမ်းဖေႏဗာႏလဲဉ်းနောဝ်ꩻသွူ
+target-segment-first-banner = ယံဖေႏ စွဲးကမ်းကိုဖေႏသွော့ အရီးသွတ်ꩻကောင်မွဉ်းဗွဲက်ယို ကရေႏခါꩻဒါႏ အဖဲ့ꩻထွောင်း { $locale } ကိုနေား။
 target-segment-add-voice = သော့ꩻ နာꩻ ငေါဝ်း
 target-segment-learn-more = ဖေႏကသေထဲင်း
+change-preferences = ပြောင်ꩻလုဲင်ႏဖေႏ အွဉ်ႏအထျꩻတာႏ
 login-signup = နွို့ငါ / ဒင်ႏမဉ်ꩻ
 vote-yes = မွေး
 vote-no = မွေးတောဝ်း
+datasets = အဆင်ႏခြွဉ်းဗူႏဖုံႏ
 languages = ဘာႏသာႏငေါဝ်းငွါဖုံႏ
 about = အကျောင်ꩻခရာႏ
+partner = ဖဲ့ꩻဖက်တွာ
 submit-form-action = ဒင်ႏပသာ
 
 ## Reporting
 
+report = ဒင်ႏနယ်ချာ
+report-title = ဒင်ႏပသာဖေႏ ဒင်ႏနယ်ချာတဗာႏ
+report-ask = လိတ်ရဲဉ်ႏယိုအကို နာꩻမော့ꩻခွဲးလွဉ်ဗာႏ အယပ်ꩻခုဲင်ႏ တမုဲင်ꩻ?
+report-offensive-language = ငေါဝ်းဆာငေါဝ်းရွိုင်ꩻ ဘာႏသာႏငေါဝ်းငွါ
+report-offensive-language-detail = ငေါဝ်းလိတ်ရဲဉ်ႏယိုအကို ကပါသော့ꩻဒါႏ ထာꩻရိုႏသေႏဝင်ꩻ တအောဝ်ႏတောဝ်း တွမ်ႏ ငေါဝ်းဆာငေါဝ်းရွိုင်ꩻ ဘာႏသာႏငေါဝ်းငွါဖုံႏသွူ။
 report-grammar-or-spelling = သဒ္ဒါႏဖဲ့ꩻ/ခြွဉ်းလိတ်ဆင်း အမာႏ
+report-grammar-or-spelling-detail = ငေါဝ်းလိတ်ရဲဉ်ႏယိုအကို ကပါသော့ꩻဒါႏ သဒ္ဒါႏမဲန်ႏတောဝ်း မွေးတောဝ်းလဲ့ တဲမ်းမာႏလိတ်ဖြုံႏဖုံႏ အမာႏတဗာႏသွူ။
 report-different-language = ဗွိုန်ပီတောဝ်း ဘာႏသာႏငေါဝ်းငွါ
+report-different-language-detail = ဘာႏသာႏငေါဝ်းငွါယိုနောဝ်ꩻ​ တဲမ်းခါꩻဒျာႏ တဗွိုန်ပီတောဝ်း တွမ်ႏ ခွေကဒေါ့ꩻဒါႏ ဘာႏသာႏငေါဝ်းငွါနောဝ်ꩻသွူ။
+report-difficult-pronounce = အငေါဝ်းထန်ႏဗာႏယပ်ꩻ
+report-difficult-pronounce-detail = ငေါဝ်းရာႏဖြုံႏ တွမ်ႏ ငေါဝ်းဗူႏဖုံႏ ယိုအကို ဒေါ့ꩻထန်ႏအငေါဝ်းယပ်ꩻဖုံႏ အောဝ်ႏပါသော့ꩻနောဝ်ꩻသွူ။
+report-offensive-speech = ဒေါ့ꩻ ငေါဝ်းဆာငေါဝ်းရွိုင်ꩻ
+report-offensive-speech-detail = ငေါဝ်းကွို့ꩻယိုအကို ထာꩻရိုႏသေႏဝင်ꩻ တအောဝ်ႏတောဝ်း တွမ်ႏ ငေါဝ်းဆာငေါဝ်းရွိုင်ꩻ ဘာႏသာႏငေါဝ်းငွါဖုံႏ အောဝ်ႏပါသော့ꩻနောဝ်ꩻသွူ။
 report-other-comment =
     .placeholder = မုဲင်ခါꩻ
 success = အောင်ႏမျင်ႏ
 continue = သွုပ်ငါ
+report-success = ဒင်ႏပသာထင်ႏထေ့ လိတ်လောဝ်းဟွုန် အစီႏရင်ႏခံႏ ထွူဗꩻအောင်ႏမျင်ႏလဲဉ်းသွူ။
+
+## Speak & Listen Shortcuts
+
+# Must be one letter that appears in the translated { skip } string.
+shortcut-skip = ကာႏ
 
 ## Speak Shortcuts
 
+# Must be one letter that appears in the translated record-string inside of { shortcut-record-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-record-toggle = ဟဲ့ꩻချာ
 shortcut-record-toggle-label = ဒင်ႏမုဲင်တောင်ꩻ/အုံဆွိုး
 shortcut-rerecord-toggle = [1-5]
+shortcut-rerecord-toggle-label = မာꩻချာယင်း ဒင်ႏမုဲင်တောင်ꩻ အကွို့ꩻ
+shortcut-discard-ongoing-recording = အီးအဲစ်သီ
+shortcut-discard-ongoing-recording-label = ဝေါင်းထိုꩻ ကအောဝ်ႏ ဒင်ႏမုဲင်တောင်ꩻဒါႏ အငေါဝ်း ယိုခါ
+shortcut-submit = သဲင်ꩻလွဉ်ချာ
+shortcut-submit-label = ဒင်ႏပသာနယ် အကွို့ꩻဖုံႏ
+request-language-text = ထီႏတောဝ်း နာꩻဘာႏသာႏငေါဝ်းငွါ ကောင်မွဉ်းဗွဲက်ကိုနဲ့?
+request-language-button = ကွီကော့ꩻ ဘာႏသာႏငေါဝ်းငွါတဗာႏ
 
 ## Listen Shortcuts
 
+# Must be one letter that appears in the translated play-string inside of { shortcut-play-toggle-label }.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-vote-no }
+shortcut-play-toggle = ဗွောင်
 shortcut-play-toggle-label = ခွုမ်လွူꩻ/အုံဆွိုး
+# Must be one letter that appears in the { vote-yes } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-no } and { shortcut-play-toggle }
+shortcut-vote-yes = မွေး
+# Must be one letter that appears in the { vote-no } string.
+# Must be different from { shortcut-skip }, { shortcut-vote-yes } and { shortcut-play-toggle }
+shortcut-vote-no = တောဝ်း
+
+## Validation criteria
+
+contribution-criteria-nav = အွဉ်ႏထွော့ဆင်ႏ
+contribution-criteria-link = သေနာႏသွော့ꩻ နွို့စွဲးထဲမ်သား တဖူꩻနယ်ꩻ
+contribution-criteria-page-title = နွို့စွဲးထဲမ်သား အွဉ်ႏထွော့ဆင်ႏ
+contribution-criteria-page-description = နာႏအငေါဝ်းကွို့ꩻဖုံႏမိဉ်ႏထွူနောဝ်ꩻ လိုႏသေနာႏဗာႏအဆင်ႏယိုတဲင် ကအီႏထိုမ်ႏဗာႏ ကဒင်ႏခါꩻဒါႏ နာꩻငေါဝ်းငွါဖုံႏယို ယံဖေႏကဗွေစွုမ်ႏလွဉ်နောဝ်ꩻ စွဲးကမ်းကိုဖေႏသွော့ဩ။
+contribution-for-example = ဗွိုန်နုဲင်းပွုံႏစံႏ အတာႏ
+contribution-misreadings-title = ထာꩻထီႏတရွို့ꩻဖုံႏ
+contribution-misreadings-description = နာႏအငေါဝ်းခိန်ႏကို ကဒင်ႏမုဲင်ခါꩻဒါႏ အငေါဝ်းယို တွမ်ႏကယဲက်ထွားခါꩻဒါႏ လိတ်ရဲဉ်ႏတဗာႏ မဲန်ႏတရျားဒျာႏအကျောင်ꩻ ကရိုꩻနောဝ်ꩻ ထွားစဲစ်ဟောဝ်ဟောဝ်သွော့။အမာႏပေႏပေႏမိဉ်ႏပါလွဉ်ဒါႏနောဝ်ꩻ နေးစူꩻတောဝ်း နုဲင်ႏဝေါင်းထိုꩻဗာႏသွူ။ <br />ဆင်ႏဆင်ႏကထွာတသေႏဒါႏ အမာႏဖုံႏနောဝ်ꩻ -
+contribution-misreadings-description-extended-list-1 = ဒင်ႏမုဲင်ငေါဝ်း တဲႏအရီးကို <strong>'A'</strong> မဲန်ႏတောဝ်း မွေးတောဝ်းလဲ့ အောဝ်ႏလိုႏနေက <strong>'The'</strong> ယင်ကယ်ႏသွူ။
+contribution-misreadings-description-extended-list-2 = ငေါဝ်းအဆုဲင်ꩻသွတ်ꩻကို အောဝ်ႏလိုႏဒွိုန်း<strong> 's'</strong> လိတ်ဖြုံႏသွူ။
+contribution-misreadings-description-extended-list-3 = ငေါဝ်းဒွေါင်ႏဖုံႏ တမဲန်ႏတနꩻတောဝ်း၊ အောဝ်ႏလိုႏဒေါ့ꩻဒျာႏ"နီအောဝ်ႏ" နောဝ်ꩻ ဒေါ့ꩻမာႏတေားဒျာႏ ငေါဝ်းဒွေါင်ႏ "နီအဝ်ႏ" မွေးတောဝ်းလဲ့ အတဗန်ႏချာငါဝင်ꩻနောဝ်ꩻသွူ။
+contribution-misreadings-description-extended-list-4 = ဒင်ႏမုဲင်အငေါဝ်းယို အွဉ်ႏထွူမွိုင်လွဉ်ꩻငါႏထာꩻမꩻ အဆုဲင်ꩻသွတ်ꩻငေါဝ်းယို  ထိုꩻမားဒါႏသွူ။
+contribution-misreadings-description-extended-list-5 = ငေါဝ်းငွါတဖြုံႏတာႏ ကျိုꩻစာꩻသောင်ႏသာ ထွားဒေါ့ꩻဗာႏအလဲင်ႏအာအာသွူ။
+contribution-misreadings-example-1-title = ထရုဲင်အဲစ်သစ် စိုးခေတ်ကို ကအောဝ်ႏဒါႏ အနမ်းဗာႏတန်တန် ဒုဲင်နိုသောဖုံႏ။
+contribution-misreadings-example-2-title = ထရုဲင်အဲစ်သစ် စိုးခေတ်ကို ကအောဝ်ႏဒါႏ အနမ်းဗာႏတန်တန် ဒုဲင်နိုသောတဗာႏ။
+contribution-misreadings-example-2-explanation = [အောဝ်ႏလိုႏထွာဒျာႏ 'ဒုဲင်နိုသောဖုံႏ’]
+contribution-misreadings-example-3-title = ထရုဲင်အဲစ်သစ် စိုးခေတ်ကို ကအောဝ်ႏဒါႏ အနမ်းဗာႏတန်တန် ဒုဲင်နိုသောဖုံႏနောဝ်ꩻ ထရုဲင်အဲစ်သ...။
+contribution-misreadings-example-3-explanation = [အဆုဲင်ꩻသွတ်ꩻငေါဝ်း တထွူဒွိုန်းအခိန်ႏကို ဒင်ႏမုဲင်အငေါဝ်းယို ထိုꩻမားဒါႏသွူ]
+contribution-misreadings-example-4-title = ထရုဲင်အဲစ်သစ် စိုးခေတ်ကို ကအောဝ်ႏဒါႏ အနမ်းဗာႏတန်တန် ဒုဲင်နိုသောဖုံႏ။ မွေးဩ။
+contribution-misreadings-example-4-explanation = [ဒင်ႏမုဲင်ခါꩻလွိုကယ်ꩻလဲဉ်း ကအောဝ်ႏလိုႏဒင်ႏမုဲင်ဒါႏ လိတ်ရဲဉ်ႏဖုံႏသွူ]
+contribution-misreadings-example-5-title = နီအီႏထန်ႏ လွေꩻ အွꩻကော်ဖီသွူ။
+contribution-misreadings-example-6-title = နီအီႏထန်ႏ လွေꩻ အွꩻကော်ဖီသွူ။
+contribution-misreadings-example-6-explanation = [အောဝ်ႏလိုႏထွာဒျာႏ "နီအောဝ်ႏ"]
+contribution-misreadings-example-7-title = နီအီႏထန်ႏ လွေꩻ အွꩻကော်ဖီသွူ။
+contribution-misreadings-example-7-explanation = [မူလလိတ်ရဲဉ်ႏအလီꩻကို <strong>'a'</strong> တပါတောဝ်းဒွိုန်းသွူ]
+contribution-misreadings-example-8-title = တမူနောဝ်ꩻ ကွင်ႏထာꩻမွိုင်ငါႏသွူ။
+contribution-misreadings-example-8-explanation = [ကတူႏရဲဉ်ႏဖုံႏ မဲန်ႏတရျားတောဝ်းလို့ဝင်ꩻသွူ]
+contribution-varying-pronunciations-title = တဗွိုန်ပီတောဝ်း အငေါဝ်းထန်ႏဖုံႏ
+contribution-varying-pronunciations-description = ထွားဒေါ့ꩻလိတ်သားတဖြာꩻယို ငေါဝ်းဖြုံႏအငေါဝ်းထန်ႏ မာႏထိုꩻဒါႏ၊ သꩻခံႏအငေါဝ်းထန်ႏ ခင်ႏလမ်းမာႏထိုꩻဒါႏ မွေးတောဝ်းလဲ့ ငေါဝ်းရီသင်္ကေႏတယို ထွားလွိုထိုꩻဒါႏ စတဲင်အကျောင်ꩻခရာႏအလုဲင်းဖုံႏ ခလား တနေးစူꩻတောဝ်း (နုဲင်းဝေါင်းထိုꩻ)  ငေါဝ်းကွို့ꩻယို အခိန်ႏကို ဖေႏသေခါꩻဗာႏသွူ။ ကမ္ဘာႏအသောင်ခူလိမ်ꩻကို အငေါဝ်းထန်ႏဖုံႏ ခွိုꩻလီအောဝ်ႏအာငါႏတဲင်၊ ယင်ဟန်ႏဖုံႏနောဝ်ꩻ နာꩻဒေႏသခံႏ အသောင်ရင်ꩻလိုꩻဗူႏသီးအကို ဟွုန်ထွꩻဖိုဗာႏတောဝ်းလဲ့ ထင်းနွောင်ꩻဗာႏသွူ။ တွမ်ႏနာꩻ ဒေါ့ꩻငေါဝ်း တဗွိုန်ပီတောဝ်းဒါႏ လိုꩻဖုံႏအတာႏ အွဉ်ႏသꩻဗွာဗွာ စွဲးထဲမ်ဖေႏဗဲင်း အခွင်ꩻလꩻတာႏဩ။
+contribution-varying-pronunciations-description-extended = တဖဲ့ꩻကိုနောဝ်ꩻ မိဉ်ႏထင်းဒျာႏ ထွားဒေါ့ꩻလိတ်သားယို တခွဲးကျုံႏဖိုတောဝ်း ငေါဝ်းရာႏဖြုံႏယိုတဲင် အငေါဝ်းထန်ႏယို ရမ်ꩻမာႏကြွို့ꩻဒျာႏနောဝ်ꩻ လက်ခံႏနေးစူꩻမွုန်း (နုဲင်ႏဝေါင်းထိုꩻဗာႏ) သွူ။ မိဉ်ႏတသေႏချာႏစဲင်းစဲ့တောဝ်းနောဝ်ꩻ နျꩻလွေꩻဗော့ꩻ 'ကာႏငါ' အနေန်နေား။
+contribution-varying-pronunciations-example-1-title = ဝွေꩻကတူႏလောင်းနောဝ်ꩻ အောဝ်ႏခူးခါꩻ ဗရဲက်ကုံႏနောဝ်ꩻသွူ။
+contribution-varying-pronunciations-example-1-explanation = [<strong>'Beret'</strong> အငေါဝ်းထန်ႏယို အရီးသွတ်ꩻဝဒွီႏ (UK) မွေးတောဝ်းလဲ့ ဒုတိယဝဒွီႏ (US) နီဗာႏလွုမ်း ရလꩻဒျာႏ]
+contribution-varying-pronunciations-example-2-title = ယွိုင်ႏကီခါꩻ ဝွေꩻစူနောဝ်ꩻသွူ။
+contribution-varying-pronunciations-example-2-explanation = [အဲင်းဂလေတ်ငေါဝ်းအကို <strong>'Raised'</strong> ယို အငေါဝ်းထန်ႏနာမ်ႏတင် တသေႏသေႏ ဝဒွီႏတဗာႏဒျာႏ၊ ဝဒွီႏနီဗာႏ မွေးတောဝ်းသွူ]
+contribution-background-noise-title = ဗꩻချာ တိန်ႏနား
+contribution-background-noise-description = နီသွဉ်းသီး မဲဉ်လꩻဒျာႏ စက်ဒါႏလွူꩻထွားဗာႏ (Machine Learning) အယ်လဂိုရီတမ်ဖုံႏယို ဆꩻချာဖဲ့ꩻ အငေါဝ်းတိန်ႏနား အစွိုးအဒေါဝ်ႏဖုံႏယို ယံကထိန်ꩻရဲးနွောင်ꩻအီတာႏသွူ။ တဲမ်းခါꩻဒါႏ လိတ်ယာႏလို့လို့ယို နာꩻမိဉ်ႏအောဝ်ႏ နာႏဟွုန်နွောင်ꩻဒျာႏနောဝ်ꩻ အငေါဝ်းသန် အတန်အဗွီႏဖုံႏယိုလဲ့ လက်ခံႏနေးစူꩻဖေႏ လꩻဒျာႏသွူ။ ဆꩻချာဖဲ့ꩻ အဒုံႏအအူ ယေန်စွူဖုံႏနောဝ်ꩻ အဆင်ႏပြေႏဒျာႏ၊ ကွဲးတွော့ꩻ ငေါဝ်းရာႏ စွုမ်ႏဖြုံႏယို နာႏဟွုန်နွောင်ꩻတောဝ်း ကမာꩻအီဒါႏ အဒုံႏအအူ အငေါဝ်းထိုလွဉ်ꩻဖုံႏနောဝ်ꩻ လက်ခံႏနေးစူꩻမွုန်းဩ။
+contribution-background-noise-description-extended = ဒင်ႏမုဲင်အငေါဝ်းယို မိဉ်ႏတကွို့ꩻထဲ့ထိုꩻ မွေးတောဝ်းလဲ့ လိတ်ရဲဉ်ႏတဗာႏလွုမ်း အငေါဝ်းဒက်ခြီခေါဝ်ဖုံႏ မိဉ်ႏပါလွဉ်နောဝ်ꩻ နာႏဟွုန်တလꩻဗာႏဒွိုန်းဖုံႏယို လက်ခံႏနေးစူꩻဗာႏတောဝ်း (နုဲင်ႏဝေါင်းထိုꩻဗာႏ) သွူ။
+contribution-background-noise-example-1-fixed-title = <strong>[ဆွိုင်ꩻအငေါဝ်း]</strong> <strong>[ငေါဝ်းကဟဲ့ꩻ]</strong> ထရုဲင်အဲစ်သစ် ကာႏလခိန်ႏ ဒုဲင်နိုသောတန်ဖုံႏသွူ။
+contribution-background-noise-example-2-fixed-title = ဒုဲင်နိုသောတန်နောဝ်ꩻ <strong>[ငေါဝ်းကဟဲ့ꩻ]</strong> ထရုဲင်အဲစ်သစ် ကာႏလဒျာႏသွူ။
+contribution-background-noise-example-2-explanation = [လိတ်ရဲဉ်ႏ အကွို့ꩻယို တဟွုန်လꩻတောဝ်းသွူ]
+contribution-background-noise-example-3-fixed-title = <strong>[ခြီခေါဝ်ငေါဝ်း]</strong> ဒုဲင်နိုသောတန်ဖုံႏနောဝ်ꩻ <strong>[ခြီခေါဝ်ငေါဝ်း]</strong> - ထရုဲင်အဲစ်သစ် ကာႏလဒျာႏသွူ။
+contribution-background-voices-title = အသောင်ဗꩻချာ အငေါဝ်းဖုံႏ
+contribution-background-voices-description = ဆꩻချာဖဲ့ꩻ အငေါဝ်းတိန်ႏနား ယေန်စွူဖုံႏနောဝ်ꩻ အဆင်ႏပြေႏဒျာႏ၊ ကွဲးတွော့ꩻ တဲမ်းခါꩻဒါႏ လိတ်ယာႏအကို ကတပါတောဝ်းဒါႏ ငေါဝ်းဖြုံႏဖုံႏယို စက်အယ်လဂိုရီတမ် ကထွားဖြယ်လီဒါႏ အထျꩻထောင်ꩻ ကထွာအီဒါႏ သော့ꩻလွိုအငေါဝ်းဖုံႏယို နီမဲဉ်လꩻတောဝ်းသွူ။ မိဉ်ႏနာႏဟွုန်ဗာႏ လိတ်ယာႏအကို ကပါတောဝ်းဒါႏ အငေါဝ်း တဲးဝါးခေါ်ဖုံႏနောဝ်ꩻ ငေါဝ်းကွို့ꩻယို လက်ခံႏနေးစူꩻမွုန်း (နုဲင်ႏဝေါင်းထိုꩻဗာႏ) သွူ။ ကဲဉ်းအအာနောဝ်ꩻ ယိုနောဝ်ꩻ တီဗွီဗွောင်ပေ့ꩻခါꩻဒါႏ ခင်ႏလမ်း မွေးတောဝ်းလဲ့ အောဝ်ႏဗော့ꩻအထျꩻ ဒေါ့ꩻရိုꩻငေါဝ်းအောဝ်ႏဒါႏ ခင်ႏလမ်းဖုံႏအကို ထွာကုဲင်လွေꩻဒျာႏသွူ။
+contribution-background-voices-description-extended = ဒင်ႏမုဲင်အငေါဝ်းယို မိဉ်ႏတကွို့ꩻထဲ့ထိုꩻ မွေးတောဝ်းလဲ့ လိတ်ရဲဉ်ႏတဗာႏလွုမ်း အငေါဝ်းဒက်ခြီခေါဝ်ဖုံႏ မိဉ်ႏပါလွဉ်နောဝ်ꩻ နာႏဟွုန်တလꩻဗာႏဒွိုန်းဖုံႏယို လက်ခံႏနေးစူꩻဗာႏတောဝ်း (နုဲင်ႏဝေါင်းထိုꩻဗာႏ) သွူ။
+contribution-background-voices-example-1-title = ဗွိုန်တွမ်ႏ ထရုဲင်အဲစ်သစ် ကာႏလခိန်ႏ ဒုဲင်နိုသောတန်ဖုံႏသွူ။ <strong>[အငေါဝ်းထန်ႏထွားဒေါ့ꩻနေး ကေားထွားဒေါ့ꩻလိတ်သား တဖြာꩻလုဲင်း]</strong>
+contribution-background-voices-example-1-explanation = နာꩻအီႏလွဉ်နဲ့?<strong>[လိုꩻလင်သား ကေားဟဲ့ꩻ]</strong>
+contribution-volume-title = အငေါဝ်းအာႏ
+contribution-volume-description = ထွားဒေါ့ꩻ လိတ်သားသီးအခါႏကို အငေါဝ်းထန်ႏ အတန်အပေႏယို သဘာဝအလꩻ တဗွိုန်ပီတောဝ်းဝင်ꩻဖုံႏ အီႏအောဝ်ႏဒါႏသွူ။ အငေါဝ်း မိဉ်ႏထိုလွဉ်ꩻငါႏတဲင် ဒင်ႏမုဲင်အငေါဝ်းယို မိဉ်ႏတကွို့ꩻထဲ့ထိုꩻ မွေးတောဝ်းလဲ့ (ထွာအာလွိုထဲင်းဒါႏ) မိဉ်ႏထဲ့ဖွိုႏလင်ꩻလွဉ်ꩻငါႏတဲင် တဲမ်းဒါႏလိတ်ယာႏယို တပါတောဝ်းနောဝ်ꩻ ကဒေါ့ꩻဗာႏဒါႏအငေါဝ်းယို နာႏဟွုန် ဖေႏနွောင်ꩻတောဝ်းနောဝ်ꩻမꩻ လက်ခံႏနေးစူꩻမွုန်းတောဝ်း (နုဲင်းဝေါင်းထိုꩻဗာႏ) သွူ။
+contribution-reader-effects-title = ထွားဒေါ့ꩻလိတ်သား ကတွိုႏခြောင်ꩻဒါႏအကျိုꩻဖုံႏ
+contribution-reader-effects-description = ဒင်ႏမုဲင်အငေါဝ်း ကဲဉ်းအအာနောဝ်ꩻ ထွာဒျာႏ လိုꩻသီးသဘာဝအငေါဝ်းတာႏ မုဲင်တောင်ꩻဒေါ့ꩻရိုꩻငေါဝ်းဖုံႏသွူ။ အငေါဝ်းခြီခြောဝ်၊ အငေါဝ်းဗွီႏ မွေးတောဝ်းလဲ့ ထွားဒေါ့ꩻနေးအငေါဝ်း 'ဇာတ်ရဲဉ်ႏတဖူꩻကို' သေငါꩻထွူစဲင်းဒါႏ ပွုံႏမဲန်ႏ တမွေးတောဝ်းဒါႏ ဒင်ႏမုဲင်အငေါဝ်း ဆင်ႏဆင်ႏအလဲင်ႏအာယို နာꩻလက်ခံႏနေးစူꩻ လꩻဒျာႏသွူ။ မိဉ်ႏထွာ အဒုံႏအအူ ကရွစ်နေးဒါႏတွမ်ႏ ငေါဝ်းသꩻချင်ꩻဖုံႏ ဒင်ႏမုဲင်အငေါဝ်းဖုံႏတွမ်ႏ စက်ကွန်ပျူတာမာꩻထွာလွဉ်ခါꩻဒါႏ အငေါဝ်းဖုံႏယို နေးစူꩻမွုန်းတောဝ်း (နုဲင်ႏဝေါင်းထိုꩻဗာႏ) သွူ။
+contribution-just-unsure-title = ယိုခါ စဲင်းစဲ့တောဝ်းဒွုမ်နဲ့?
+contribution-just-unsure-description = မိဉ်ႏခွဲးကျုံႏဗာႏ တဖူꩻယီးနယ် မာꩻပွုံႏမာꩻနယ်ꩻယိုနောဝ်ꩻ ကတပါတောဝ်းဒါႏ အကျောင်ꩻခရာႏဖုံႏယို နာꩻဉာဏ်ႏကထီႏဒါႏ အဟောဝ်သွတ်ꩻအတွိုင်ꩻ  သော့ꩻဖေႏဗော့ꩻ မဲးလꩻဒျာႏသွူ။ မိဉ်ႏဆွုံꩻဖျတ်ဒေါ့ꩻထွူဖေႏဒါႏတောဝ်း  တဲးတဲးဝါးဝါးနောဝ်ꩻ နျꩻလွေꩻဗော့ꩻ 'ကာႏငါ' အနေန်တဲင် လွေꩻငါထဲင်းယင်း ဒင်ႏမုဲင်အငေါဝ်းတဗာႏကိုနေား။
+see-more = <chevron></chevron>ထွားထဲင်းယင်း
+see-less = <chevron></chevron>ထွားယွမ်ꩻလင်ꩻ

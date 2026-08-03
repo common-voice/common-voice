@@ -44,6 +44,7 @@ bgp = Baloutchi oriental
 bin = Édo
 bkh = Bakoko
 bkm = Kom
+blk = Pa’O
 bm = Bambara
 bn = Bengali
 bnm = Batanga

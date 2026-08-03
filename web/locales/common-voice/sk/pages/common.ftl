@@ -44,6 +44,7 @@ bgp = Východné Balúdže
 bin = Edo
 bkh = Bakoko
 bkm = Kom
+blk = Pa'O
 bm = Bambarčina
 bn = Bengálčina
 bnm = Batanga

@@ -131,6 +131,10 @@ culturally-specific-questions = တင်သၟာန် မကိတ်ညဳ�
 culturally-specific-questions-explanation = တင်သၟာန် မကိတ်ညဳကဵု အခိုက်ကၞာပြဝေဏဳ ဟွံသေင်မ္ဂး တၚ်စှ်ေစိုတ်ဂမၠိုင် ဒုင်သဇိုင်လတူ ညးမကလေင်သွဟ်ဂှ် ဂၠိုင်တဴဗွဲမလောန် ရ။
 length-avoid-explanation = အရေဝ်သၟာန်ဂမၠိုင် မၞိဟ်မွဲမွဲ သွက်ဂွံ ကလေင်သှ် ဝါတ်ဂါတ် ပ္ဍဲအခိင် ၁၅ သက္က (ပွိုၚ်အခိင် ကလေပ် ဂၠိင်အိုတ်){ " " }
 process-steps = လၟေၚ်ကမၠောန်  / ကဆံၚ်
+process-steps-explanation = သၟာန် မနွံပၟိက် ကုညးမွဲမွဲ သွက်ဂွံ ဗၟံက်ထ္ၜး ကဆံၚ် ဗွဲမဂၠိုၚ်ဂမၠိုၚ်။ ပွမဗၟံက်ထ္ၜး ကဆံၚ်တအ်ဂှ် ဖန်ဗဒှ်ကဵု ညးသုၚ်စောဲ သွက်ဂွံ ကၠေံစိုတ်ဟီုပတိတ်သွဟ် ပဵုနူကဵု ဟီုစကေတ်တ်ဏီရ။
+offensive-content-sensitive-information = လိက်ဟွံဂပ်ဝ်ယေန်သၞာၚ် ဟွံသေၚ်မ္ဂး ပရိုၚ်ပလီုအာရီု
+offensive-content-sensitive-information-explanation-explanation-1 = တင်သၟာန် မနွံကဵုအကာဲအရာ အာတ်မိက် တင်နၚ်ပရိုင်မတီကေတ်ပရူပရာ မၞိဟ်မွဲမွဲ ဂမၠိုၚ်
+offensive-content-sensitive-information-explanation-explanation-2 = တင်သၟာန် မနွံအကာဲအရာ ဆဝ်မ္ၚုဟ် လဟီုပျုတ်ဗ္ဒေက်၊ ဒစေၚ်မွဲလ္ပာ် ကေုာံ စိုတ်ဆန္ဒပလီုအာရီု ဂမၠိုင်
 
 ## Spontaneous Speech sidebar content
 

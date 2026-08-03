@@ -4,7 +4,7 @@ guidelines-header-subtitle = Izprūtit, kai dalikt i apstyprynuot teikumus i īr
 voice-collection = Īrokstu vuokšona
 sentence-collection = Teikumu kolekceja
 question-collection = Vaicuojumu kolekceja
-scripted-speech = Sagatavuota runa
+scripted-speech = Sagataveita runa
 spontaneous-speech = Spontana runa
 dont-subheader = Nadareit
 
@@ -119,19 +119,37 @@ what-makes-a-good-question-explanation = Lobam spontanuos runys vaicuojumam vaja
 what-makes-a-good-question-explanation-criteria-1 = Saprūtamam i iz tū ir vīgli atbiļdēt
 what-makes-a-good-question-explanation-criteria-2 = Aktualam sevkuram cylvākam
 what-makes-a-good-question-explanation-criteria-3 = Taidam, kas nalītoj i navadynoj iz aiztīkūšu volūdu
+what-makes-a-good-question-tip = Apdūmojit, voi vaicuojums varātu atsatīkt iz vairuokim kontekstim voi sferom.
 easy-to-understand = Vīgli saprūtams
 spelling-and-pronunciation = Pareizraksteiba i pīturzeimis
+spelling-and-pronunciation-explanation = Īvārojit pareizraksteibys i gramatikys nūsacejumus
 length = Garums
 length-explanation = Iz vaicuojumu vajadzātu varēt atbiļdēt puors teikumūs.
+culturally-specific-questions = Kulturai rakstureigi vaicuojumi
+culturally-specific-questions-explanation = Vaicuojumus, kas ir cīši kulturspecifiski voi caur kurim var izdareit pījāmumus par cylvāku, kas iz tim atbiļd
+length-avoid-explanation = Vaicuojumus, iz kurim byutu gryuts atbiļdēt 15 sekundēs (minimalais īroksta garums)
 process-steps = Process / sūli
+process-steps-explanation = Vaicuojumi, kurūs juouzskaita konkreti sūli. Itaidi vaicuojumi mudynoj lītuotuojus puorsaukt konkretys lītys, na veiduot dabiskys sarunvolūdys atbiļdis.
+offensive-content-sensitive-information = Aizvainojūšs saturs voi sensitiva informaceja
+offensive-content-sensitive-information-explanation-explanation-1 = Vaicuojumi, kas varātu izmuoneit personu identificiejūšu informaceju
+offensive-content-sensitive-information-explanation-explanation-2 = Vaicuojumi, kas varātu vadynuot iz naida runu voi cytim aizsprīdumim voi aizvainojūšim redzīnim
+offensive-content-sensitive-information-explanation-explanation-3 = Vaicuojumi, kas kaidam varātu likt izpaust sensitivu informaceju voi radeit emocionalu reakceju
 example-questions-subheader = Vaicuojumu pīmāri
 example-questions-explanation-1 = Itamā lopā varit atrast <examplePromptsLink>120 vaicuojumu pīmārus.</examplePromptsLink>
 
 ## Spontaneous Speech sidebar content
 
+# Answer Questions
+answer-questions = Atbiļdēt iz vaicuojumim
 answer-questions-subheader = Vyspuoreigi nūruodejumi
 answer-questions-tip-1 = Īrokstit gona klusā vītā
+answer-questions-tip-2 = Izavielejit vītu ar lobu škārsteikla daslāgumu
+# Transcribe the Audio
+transcribe-the-audio = Puorraksteit audio
 transcribe-the-audio-subheader-1 = Vyspuoreigi nūruodejumi
+transcribe-the-audio-subheader-3 = Eipašys birkys
+transcribe-the-audio-subheader-4 = Vuordu segmenti, ar klaidom suokti vuordi, atkuortuoti vuordi
+transcribe-the-audio-subheader-5 = Gramatiskys klaidys i sarunvolūdys vuordi
 # text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
 transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Napareizi</wrong>: Sasateikam piec <underline>9:30</underline>
 transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Napareizi</wrong>: Tei beja 20% atlaide
@@ -143,8 +161,17 @@ tags-unclear = Naskaidri
 tags-noise = Trūksnis
 tags-laugh-explanation = Dzierdama smīšonuos
 
+## Review the Transcription
+
+review-the-transcription = Puorsaverit transkripceju
+review-the-transcription-subheader = Vyspuoreigi nūruodejumi
+
 ## Code-Switching
 
+code-switching = Koda puorsliegšona
+adding-a-question = Vaicuojumu dalikšona
+# Adding a Question
+code-switching-adding-question-subheader = Kaids ir lobs vaicuojums?
 code-switching-tagging-error-2 = Drukys klaidys
 
 ## Reporting Content
