@@ -44,6 +44,7 @@ bgp = Austlege Balochi
 bin = Edo
 bkh = Bakoko
 bkm = Kom
+blk = Pa'O
 bm = Bambara
 bn = Bengali
 bnm = Batanga

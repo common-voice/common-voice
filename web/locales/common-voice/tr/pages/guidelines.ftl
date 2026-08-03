@@ -174,11 +174,13 @@ tags-laugh-explanation = Gülme sesi.
 tags-unclear-explanation = Anlaşılamayan bir sözcük ya da sözcük dizisi.
 transcribe-the-audio-subheader-4-explanation-2 = Bazen konuşmacılar bir kelimenin kendisini ya da bir kısmını tekrarlar. Bunların da yazıya geçirilmesi gerekir. Örnek:
 transcribe-the-audio-subheader-4-explanation-2-example = Sonra da yatak odasına <underline>gi- gi- git-</underline> gittim
+transcribe-the-audio-subheader-5-explanation-2 = Konuşmacılar ölçünlü dile göre doğru kabul edilmeyen ifadeler (“bilmiyom”, “gelcen mi?” vb.) kullanabilir. Bu ifadeler düzeltilmeden ve değiştirilmeden, olduğu gibi yazıya geçirilmelidir.
 
 ## Review the Transcription
 
 review-the-transcription = Çeviri metinleri inceleme
 review-the-transcription-subheader = Genel yönergeler
+review-the-transcription-explanation-1 = Genel olarak, transkripsiyonu kontrol eden kişinin transkripsiyonu yapan kişiden farklı biri olmasını öneriyoruz. Kendi yaptığınız işleri kontrol etmeniz zor bir iştir. Çok aşamalı bir değerlendirme süreci hem kaliteyi artırır hem de yanlılıkları ve olası sorunları azaltabilir.
 
 ## Code-Switching
 

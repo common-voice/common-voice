@@ -64,9 +64,16 @@ help-accent-explanation = Jiusu akcents ir veids, kai jius izrunojit vuordus. T�
 help-variants = Voi vajadzeiga paleidzeiba ar variantim?
 help-variants-explanation = Varianti ir nūsaceita volūdys forma, par pīmāru, tīm, kas dzeivoj kaidā geografiskajā vītā voi kūpīnā. Dažreiz tūs sauc par dialektim.
 variant-contribution-option-2 = Ruodeit maņ tikai teikumus i klipus nu muna volūdys varianta
+api-credentials-use-case-2 = Dabuot datu kūpys
+your-api-keys = Jiusu API dasaceišonuos dati
+api-key-name-input =
+    .label = API dasaceišonuos datu nūsaukums
 save-api-key-info = <bold>Globoj sovys atslāgys drūsā veidā</bold>
 api-key-name-display-label = API dasaceišonuos datu nūsaukums
 api-client-secret-display-label = API klienta nūslāpums
+api-client-id-display-label = API klienta ID
+api-key-modal-confirmation-header = Voi esit puorlīcynuots?
+cancel-api-key-confirmation-description = Voi eistyn atceļt API dasaceišonuos datu izveiduošonu?
 copy-api-credential-error-toast-message = Klaida kopejūt
 # Genders
 male_masculine = Veirīts/Veiriškeigs

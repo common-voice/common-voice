@@ -68,6 +68,7 @@
 
 ##### SS Data Changes after current release
 
+- Add Palauan (`pau`) and Sundanese (`su`) questions by [@moz-acfort](https://github.com/moz-acfort) in [#549](https://github.com/common-voice/spontaneous-speech/pull/549) and [#550](https://github.com/common-voice/spontaneous-speech/pull/550) (in v.1.159.6)
 - Add Bengali (`bn`) questions by [@moz-acfort](https://github.com/moz-acfort) in [#548](https://github.com/common-voice/spontaneous-speech/pull/548) (in v.1.159.3)
 
 #### Changes to Bundlers and related repos

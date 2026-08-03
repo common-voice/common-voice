@@ -26,3 +26,7 @@ cs-tag-dataset-name = Mba’ekuaarã aty: { $datasetName }
 
 learn-how-to-use = Mba’éicha eiporukuaáta ko kuatiarogue
 read-full-guidelines-here = <guidanceLink>Emoñe’ẽ jeguatarã ko’ápe</guidanceLink>
+
+## Review Page Guidelines
+
+cs-learn-how-to-use-check-transcript-explanation = Upe jehaipyre ogueroikeva’erã peteĩteĩva ñe’ẽ térã ñe’ẽpu ha’e’ỹva ñe’ẽ he’íva tapicha, ikatuva hína umi je’ejey.

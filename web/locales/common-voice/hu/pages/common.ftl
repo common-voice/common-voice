@@ -174,6 +174,7 @@ rm-sursilv = Romans sursilvan
 rm-vallader = Romans vallader
 ro = Román
 ru = Orosz
+rup = Aromán
 rw = Ruandai
 sah = Szaha
 sat = Szantáli
@@ -222,6 +223,7 @@ uz = Üzbég
 ve = Venda
 vec = Velencei
 vi = Vietnámi
+vls = Nyugat-flamand
 vmw = Makua
 vot = Vót
 wep = Vesztfáliai
@@ -314,6 +316,11 @@ announcement-release = Tisztelt közösség, az új kiadás már teljesen a <mdc
 
 # Text wrapped in <cvDatasheetsLink></cvDatasheetsLink> will be rendered as an external link to the cv-datasheets GitHub repo
 announcement-pre-release = Tisztelt közösség, közeledik a megjelenés ideje. Kérjük, kezdjenek hozzá az ellenőrzéshez és a leiratozáshoz, valamint keressék fel a <cvDatasheetsLink>cv-datasheets</cvDatasheetsLink> tárolót az adatlap frissítéséhez.
+
+## Release Commencing
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-commencing = Tisztelt közösség, elértük a kiadás záró dátumát, ezért csomagoljuk az adatkészleteket. Az új kiadás pár napon belül elérhető lesz a <mdcLink>Mozilla Data Collective</mdcLink> oldalon.
 
 ## Common Language/Dataset Selector & SearchBox Related
 
