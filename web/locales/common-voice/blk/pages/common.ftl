@@ -270,6 +270,8 @@ tn = သစ်သွာနာ
 tob = တိုဗာကွဉ်
 tok = တိုကီ ပိုနာ
 tr = တူရကီ
+trv = သီဒိဉ်
+trw = တောဝါလီ
 ts = သေတ်သောင်း
 tt = တာတား
 ttj = ရူတိုရို
@@ -302,8 +304,10 @@ xkl = ကိဉ်ညာ
 xmf = မိင်းကရီလာ
 xsm = ကာသိမ်း
 yaq = ယာကျွီ
+yav = နျူသု
 ydg = ယစ်ဂါ
 yo = ယိုရုဗာ
+yue = ကန်တိုနီ
 zgh = တာမာသုဲက်
 zh-CN = ခယ်ႏ
 zh-HK = ခယ်ႏ (ဟောင်ကောင်)
@@ -336,6 +340,7 @@ email-input =
     .label = အီးမေး
 loading = အောဝ်ႏခွုမ်မာꩻကျာꩻ...
 email-opt-in-info-title = နွို့ငီꩻသွော့ ကောင်မွဉ်းဗွဲက် ပသာလိတ်စာႏရင်ꩻ
+not-available-abbreviation = အဲဉ်ထောဝ်း
 # Text shown on a button that can be clicked to copy text to the clipboard
 copy = ထူႏဗွိုန်
 # Text shown on a button that can be clicked to close a modal or panel
@@ -347,6 +352,8 @@ delete = ယားထိုꩻ
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = <mark>နီအောဝ်ႏလိုႏ</mark><br/><mark>နာꩻ စွဲးကမ်း အကူႏအညီႏ!</mark>
 localization-select =
     .label = လွိုက်သွော့ ဘာႏသာႏငေါဝ်းငွါ/ဒေႏသကိုအလွောက်ꩻ
 
