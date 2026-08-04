@@ -3,11 +3,13 @@ guidelines-header = စွဲးကမ်းသား တဖူꩻယီးန�
 voice-collection = အငေါဝ်း ခြွဉ်းဗူႏ
 sentence-collection = ငေါဝ်းလိတ်ရဲဉ်ႏ ခြွဉ်းဗူႏ
 question-collection = ငေါဝ်းရီ ခြွဉ်းဗူႏ
+scripted-speech = လိတ်အက္ခရာႏ ဒေါ့ꩻငေါဝ်း
 dont-subheader = မာꩻမွိုန်း
 
 ## Voice Collection nav ids
 
 varying-pronunciations = တဗွိုန်ပီတောဝ်း အငေါဝ်းထန်ႏဖုံႏ
+misreadings = ထာꩻထီႏတရွို့ꩻဖုံႏ
 background-voices = အသောင်ဗꩻချာ အငေါဝ်းဖုံႏ
 volume = အငေါဝ်းအာႏ
 reader-effects = ထွားဒေါ့ꩻလိတ်သား ကတွိုႏခြောင်ꩻဒါႏအကျိုꩻဖုံႏ
