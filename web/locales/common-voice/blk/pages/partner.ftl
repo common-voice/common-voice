@@ -6,6 +6,7 @@ partnerships-become-a-partner = ထွာလွဉ်ဗာႏ ကောင်�
 partnerships-community-header = လိုꩻဗူႏအသောင်ရင်ꩻ၊ ကေားမာꩻထွာလွဉ်သား တောမ်ႏ လိုꩻသီးဖဲ့ꩻအစွိုꩻအဗူႏ
 partnerships-foundations-header = တဲႏဆို့ꩻအရွီးအောင်ဖုံႏ
 partnerships-governments-header = အစိုႏရ(ဒို့ꩻခမ်း)ဖုံႏ
+partnerships-corporates-description = မိဉ်ႏမဲဉ်ဒေါ့ꩻရီထဲင်း အဆင်ႏအဗာႏစွုမ်ႏအကျောင်ꩻ၊ မိဉ်ႏမဲဉ်နွို့ဆို့ꩻငီꩻ လောဝ်းခါꩻဒါႏ ခြေင်ႏထိုလောင်း လိုꩻအာဖေႏကသွုံꩻနွောင်ꩻအီတာႏ မာꩻလုဲင်းလွေꩻအနယ်ꩻတဖူꩻကို မွေးတောဝ်းလဲ့ မိဉ်ႏအောဝ်ႏထိုမ်ႏ ခွုမ်စံႏမာꩻငီꩻ အခွင်ꩻအရေꩻလꩻဖုံႏယိုနောဝ်ꩻ <emailFragment>သွုပ်ထေ့ဒေါ့ꩻရီ တဲမ်းပသာနွောင်ꩻဒျာႏ အီးမေး နီသွဉ်းသီးအထျꩻယိုဩ ။</emailFragment>
 partnerships-our-partners = နီသွဉ်းသီး ထာꩻမာꩻဖက်ဖုံႏ
 # menu item
 partners = ထာꩻမာꩻဖက်
