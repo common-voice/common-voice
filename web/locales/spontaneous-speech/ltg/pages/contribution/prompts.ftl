@@ -1,6 +1,10 @@
 ## Prompts page
 
+record-player-header = Īraksteit atbiļdi
 mic-access-error = Jums juoatļaun datikt mikrofonam.
+# actionType will be Click (for desktop devices) or Tap (for mobile devices)
+prompt-page-instruction = { $actionType } <micIcon></micIcon> i atbiļdit iz vaicuojumu piec vareibys dabiskuok
+error-skipping = Izlaižūt vaicuojumu, nūtykuse klaida
 error-recording = Īraksteišonys laikā nūtykuse klaida
 error-recording-too-short = Īroksts ir par eisu. Minimalais ilgums ir { $minDurationSeconds } sekuņdis.
 error-recording-too-long = Īroksts ir par garu. Maksimalais ilgums ir { $minDurationSeconds } minutys.
@@ -23,3 +27,11 @@ submit-all-button = Saglobuot vysu
 ## Explainer text (Respond to Prompt)
 
 learn-how-to-use-prompts = Izzynojit, kai lītuot itū lopu
+learn-how-to-use-prompts-explanation = Vīnkuorši, piec vareibys dabiskuok atsokit iz vaicuojumim puors teikumūs. Puorsalīcynojit, ka jiusu volūda ir cīņpylna i nav aizvainojūša.
+learn-how-to-use-prompts-guidance = Klykstynojit <guidanceLink>ite</guidanceLink>, lai izzynuotu, kai lītuot itū lopu.
+learn-how-to-use-transcribe = Izzynojit, kai veikt puorraksteišonu
+learn-how-to-use-transcribe-explanation = Pīrokstit taišni tū, kas dzieržams īrokstā, tamā storpā aizpiļdeituos pauzis, par pīmāru, "um" voi "ēēē".
+learn-how-to-use-transcribe-guidance = Klykstynojit <guidanceLink>ite</guidanceLink>, lai izzynuotu, kai lītuot itū lopu.
+learn-how-to-use-check-transcript = Izzynojit, kai puorbaudeit pīraksteitū
+learn-how-to-use-check-transcript-explanation = Transkripcejā juopasaruoda sevkuram īrokstā dzieržamajam vuordam i skaņai, īskaitūt atkuortuojumus.
+learn-how-to-use-check-transcript-guidance = Klykstynojit <guidanceLink>ite</guidanceLink>, lai izzynuotu, kai lītuot itū lopu.
