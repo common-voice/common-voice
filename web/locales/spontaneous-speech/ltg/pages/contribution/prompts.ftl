@@ -4,6 +4,8 @@ record-player-header = Īraksteit atbiļdi
 mic-access-error = Jums juoatļaun datikt mikrofonam.
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon></micIcon> i atbiļdit iz vaicuojumu piec vareibys dabiskuok
+# Message which appears when there are no more resources on this page
+no-prompts-continue-skipped-message = Itamā volūdā vaira nav vaicuojumu. Ka kaidu esit izlaidas, varit turpynuot ar izlaistū saturu voi īt iz audio puorraksteišonys sadaļu.
 error-skipping = Izlaižūt vaicuojumu, nūtykuse klaida
 error-recording = Īraksteišonys laikā nūtykuse klaida
 error-recording-too-short = Īroksts ir par eisu. Minimalais ilgums ir { $minDurationSeconds } sekuņdis.
