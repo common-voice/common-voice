@@ -2,8 +2,13 @@
 
 mic-access-error = Jums juoatļaun datikt mikrofonam.
 error-recording = Īraksteišonys laikā nūtykuse klaida
+error-recording-too-short = Īroksts ir par eisu. Minimalais ilgums ir { $minDurationSeconds } sekuņdis.
+error-recording-too-long = Īroksts ir par garu. Maksimalais ilgums ir { $minDurationSeconds } minutys.
+error-fetching-prompts = Īluodejūt nūruodis, nūtykuse klaida. Lyudzu, raugit vēļreiz nadaudz vāluok.
 error-uploading-response = Saglobojūt jiusu atbiļdi, nūtykuse klaida
 error-empty-audio = Īroksts naizadeve. Ruodīs, ka audio fails ir tukšs. Lyudzu, raugit vēļreiz.
+error-recording-too-short-seconds = Īroksts ir par eisu. Minimalais ilgums ir { $minDurationSeconds } sekuņdis.
+error-recording-too-long-minutes = Īroksts ir par garu. Maksimalais ilgums ir { $minDurationSeconds } minutys.
 cannot-play-audio = Naizadeve atskaņuot audio. Lyudzu, raugit vēļreiz.
 prompt-submitted-success = Atbiļde ir veiksmeigi saglobuota
 prompt-response-deleted-success = Atbiļde veiksmeigi dzāsta
