@@ -3,6 +3,10 @@
 welcome-to-spontaneous-speech = အောဝ်ႏ ဒေါ့ꩻငေါဝ်းလွစ်တခြင် ကိုယို ကျိုႏဆွုမ်ႏဒျာႏဩ!
 # <br></br> represents a newline break
 wall-of-text = ကောင်မွဉ်းဗွဲက် ယို ကအုံထွားဒါႏ အောဝ်ႏလွိုႏကာႏ၊ လိတ်ဖြုံႏတပါတောဝ်းဒါႏ ငေါဝ်းထွဉ်ႏဖုံႏ ခြွဉ်းဗူႏတာႏ ဒုတိယ ခြေင်ႏထိုလောင်းတဗာႏကို အွဉ်ကောႏမာꩻသက်မွန်လွေꩻလဲဉ်းသွူ။ ယိုနောဝ်ꩻ အသောင်ရင်ꩻလိုꩻဗူႏအာအာသီးဖုံႏ ထူႏရွမ် အဆင်ႏအဗာႏ ဖေႏကယိန်းမွိုင်မွိုင်တာႏ အီႏစွဲးကမ်းဖေႏနွောင်ꩻတဲင်၊ အဆင်ႏဗာႏခြွဉ်းသိပ္ပံပညာႏသျင်ႏ တောမ်ႏ ပြွူႏဖြိုလွဉ်တာႏ(ကတဲမ်းဖန်ဆင်ꩻဒါႏ သော့ဝဲးသား) ဖုံႏတာႏလဲ့ အကျိုꩻအောဝ်ႏအီဒျာႏသွူ။
+why-spontaneous-speech = ကွပ်ပွိုးတမုဲင်ꩻ နီတဲႏဆို့ꩻဗာႏ ခါလဲင်ႏဒေါ့ꩻငေါဝ်း ပွုံႏစံႏပေႏယိုဟောင်း
+how-spontaneous-speech-works = ခါလဲင်ႏဒေါ့ꩻငေါဝ်း အောဝ်ႏခွုမ်မာꩻထာꩻနုဲင်းမုဲင်ꩻ
+# text wrapped in <mark></mark> will have a blue background
+prompt-bubble-title = <mark>ထောင်ႏနယ်</mark>
 # text wrapped in <mark></mark> will have a blue background
 transcribe-bubble-title = <mark>ဖျင်တဲမ်းလိတ်</mark>
 # text wrapped in <mark></mark> will have a blue background
