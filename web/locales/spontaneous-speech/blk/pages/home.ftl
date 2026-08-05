@@ -7,6 +7,10 @@ why-spontaneous-speech = ကွပ်ပွိုးတမုဲင်ꩻ နီ
 how-spontaneous-speech-works = ခါလဲင်ႏဒေါ့ꩻငေါဝ်း အောဝ်ႏခွုမ်မာꩻထာꩻနုဲင်းမုဲင်ꩻ
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>ထောင်ႏနယ်</mark>
+prompt-bubble-subtitle = နီအီႏအွဉ်ႏနယ်ဖေႏနာꩻ ငေါဝ်းထောင်ႏနယ် မွေးတောဝ်းလဲ့ ငေါဝ်းရီဖုံႏသွူ
+# text wrapped in <mark></mark> will have a blue background
+respond-bubble-title = <mark>ဒေါ့ꩻလောဝ်းချာ</mark>
+respond-bubble-subtitle = ခွုင်းကနွောင်ꩻ နာꩻ ဒေါ့ꩻလောဝ်းချာဖေႏဗာႏ ပွုံႏမဲန်ႏ ပီပီသဘာဝ နောဝ်ꩻသွူ
 # text wrapped in <mark></mark> will have a blue background
 transcribe-bubble-title = <mark>ဖျင်တဲမ်းလိတ်</mark>
 # text wrapped in <mark></mark> will have a blue background
