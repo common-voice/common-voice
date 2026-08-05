@@ -10,3 +10,4 @@ validate-page-skip-button-shortcut = ကာႏ
 ## Validation guidelines
 
 validation-guidelines-title = မာꩻပွုံႏမာꩻနယ်ꩻ
+validation-guideline-4 = စေလောဝ်းချာနွောင်ꩻဒျာႏ ငေါဝ်းရဲဉ်ႏ ဆေ့ꩻဆေ့ꩻပေႏအကို
