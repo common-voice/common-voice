@@ -2,6 +2,8 @@
 
 home-cta = ဒေါ့ꩻငေါဝ်းဟုဲင်း၊ နွို့စွဲးကမ်းသွော့ ယိုကို!
 show-wall-of-text = ထွားဒေါ့ꩻ ထဲင်းယင်း
+todays-progress = ဒင်ႏသွုပ်ထင်ႏ ယို ဟန်ႏနီꩻတာႏဖုံႏ
+help-reach-goal = လွေꩻ စွဲးကမ်းဖေႏသွော့ နီသွဉ်းသီး { $goal }
 all-locales = ကားကအောဝ်ႏ
 today = ဟန်ႏနီꩻ
 x-weeks-short =
@@ -29,6 +31,10 @@ benefits = လꩻအဟောဝ်ဖဲ့ꩻဖုံႏ
 ## What's public
 
 whats-public = ခမ်းသားလိုꩻအာ ကရိုꩻနောဝ်ꩻတမုဲင်ꩻ?
+
+## Landing
+
+welcome-staff = မင်္ဂလာႏ ကျိုႏဆွုမ်ႏဒျာႏ { $company } ထာꩻမာꩻ ထေင်းထမ်ႏသီးဖုံႏဩ!
 
 ## NAV ITEMS
 
