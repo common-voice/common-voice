@@ -13,10 +13,12 @@ respond-bubble-title = <mark>ဒေါ့ꩻလောဝ်းချာ</mark>
 respond-bubble-subtitle = ခွုင်းကနွောင်ꩻ နာꩻ ဒေါ့ꩻလောဝ်းချာဖေႏဗာႏ ပွုံႏမဲန်ႏ ပီပီသဘာဝ နောဝ်ꩻသွူ
 # text wrapped in <mark></mark> will have a blue background
 transcribe-bubble-title = <mark>ဖျင်တဲမ်းလိတ်</mark>
+transcribe-bubble-subtitle = အငေါဝ်းကွို့ꩻဖုံႏအကို ကဟွုန်ဒါႏငေါဝ်းအတွိုင်ꩻ တဲမ်းမုဲင်လင်ꩻခါꩻဖေႏသွော့
 # text wrapped in <mark></mark> will have a blue background
 check-bubble-title = <mark>ကဲစ်ꩻမဲန်ႏ</mark>
 # text wrapped in <mark></mark> will have a blue background
 data-bubble-title = <mark>အဆင်ႏဗာႏ</mark>
+data-bubble-subtitle = အလဲင်ႏမဲန်ႏမဲန်ႏ နီအောဝ်ႏတုတ်ꩻလီဖေႏ အဆင်ႏခြွဉ်းဗူႏယိုသွူ
 contact-us = သွုပ်ထေ့ ဒေါ့ꩻရီသွော့ꩻနီ
 contact-us-email = အီးမေး: <emailFragment>commonvoice@mozilla.com</emailFragment>
 signup-input-placeholder = သော့ꩻနာꩻ အီးမေးဟုဲင်း
