@@ -22,6 +22,14 @@ x-years-short =
 help-make-dataset = စွဲးကမ်းသွော့ နီသွဉ်းသီး တဲႏဆို့ꩻဖေႏ အထီသွီႏယံ၊ လိုꩻအာသွုံꩻ ဗွောင် အဆင်ႏခြွဉ်းဗူႏယိုသွူ
 sign-up-account = နမ်းသွုံꩻဖြာꩻတဗာႏအတာႏ လွေꩻ ဒင်ႏမဉ်ꩻ
 
+## Account Benefits
+
+benefits = လꩻအဟောဝ်ဖဲ့ꩻဖုံႏ
+
+## What's public
+
+whats-public = ခမ်းသားလိုꩻအာ ကရိုꩻနောဝ်ꩻတမုဲင်ꩻ?
+
 ## NAV ITEMS
 
 answer-questions = ငေါဝ်းစေလောဝ်းတွမ်ႏ ငေါဝ်းရီဖုံႏ
@@ -58,3 +66,14 @@ ask-mozilla-share-action = ဖန်းဖြယ်လွေꩻ နာꩻ ပွ
 ## Get involved section
 
 read-sentences-link = ထွားဒေါ့ꩻ လိတ်ရဲဉ်ႏဖုံႏ
+validate-readings-link = အွဉ်ႏတိဉ်ႏလဲဉ်း ကအောဝ်ႏထွားဒေါ့ꩻဖုံႏ
+answer-questions-link = ငေါဝ်းစေလောဝ်း တွမ်ႏ ငေါဝ်းရီဖုံႏ
+transcribe-answers-link = တဲမ်းမုဲင်လိတ်ယာႏ ငေါဝ်းစေလောဝ်းဖုံႏ
+review-transcriptions-link = ထွားစဲစ်ချာ လိတ်ယာႏမုဲင်ခြောင်ꩻ
+contribute-text-link = စွဲးထဲမ်သော့ꩻ လိတ်ယာႏ
+
+## Partner section
+
+partner-section-title = မာꩻဖက်ငီꩻ တွမ်ႏ နီသွဉ်းသီး
+# icon is an arrow that points to the right
+get-in-touch-button = လွေꩻသွုပ်ထေ့ဒေါ့ꩻရီ
