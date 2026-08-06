@@ -1,5 +1,7 @@
 ## Datasets Page
 
+datasets-heading = အဆင်ႏခြွဉ်းဗူႏဖုံႏ
+language = ဘာႏသာႏငေါဝ်းငွါ
 cv-license = အွဉ်ႏလꩻ
 more = ထဲင်း
 # dataset metadata - age of contributor

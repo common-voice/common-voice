@@ -17,6 +17,11 @@ difficult-difficulty = ယပ်ꩻခုဲင်ႏ
 pro-difficulty = လဲပ်ယံ
 want-to-continue = နာꩻမဲဉ်လွေꩻငါနဲ့?
 build-custom-goal = တဲႏဆို့ꩻ ကမ်းသꩻကစွယ်ꩻ ကောဝ်ႏထွန်ႏတဗာႏ
+n-clips-pluralized =
+    { $count ->
+        [one] { $count }ကွို့ꩻ
+       *[other] { $count }ကွို့ꩻဖုံႏ
+    }
 share-goal-type-speak = အောဝ်ႏဒေါ့ꩻငေါဝ်း
 share-goal-type-listen = အောဝ်ႏနာႏငေါဝ်း
 share-goal-type-both = အောဝ်ႏဒေါ့ꩻငေါဝ်း တွမ်ႏ အောဝ်ႏနာႏငေါဝ်း
