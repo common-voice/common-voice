@@ -16,6 +16,7 @@ transcribe-bubble-title = <mark>ဖျင်တဲမ်းလိတ်</mark>
 transcribe-bubble-subtitle = အငေါဝ်းကွို့ꩻဖုံႏအကို ကဟွုန်ဒါႏငေါဝ်းအတွိုင်ꩻ တဲမ်းမုဲင်လင်ꩻခါꩻဖေႏသွော့
 # text wrapped in <mark></mark> will have a blue background
 check-bubble-title = <mark>ကဲစ်ꩻမဲန်ႏ</mark>
+check-bubble-subtitle = တဲမ်းမုဲင်လိတ်ယို မဲန်ႏတနꩻနေတွမ်ႏ အငေါဝ်း ကအောဝ်ႏ/တအောဝ်ႏတောဝ်းနောဝ်ꩻကို ထွားစဲစ်ဖေႏသွော့
 # text wrapped in <mark></mark> will have a blue background
 data-bubble-title = <mark>အဆင်ႏဗာႏ</mark>
 data-bubble-subtitle = အလဲင်ႏမဲန်ႏမဲန်ႏ နီအောဝ်ႏတုတ်ꩻလီဖေႏ အဆင်ႏခြွဉ်းဗူႏယိုသွူ
