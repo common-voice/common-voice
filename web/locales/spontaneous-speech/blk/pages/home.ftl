@@ -6,6 +6,8 @@ wall-of-text = ကောင်မွဉ်းဗွဲက် ယို ကအု
 why-spontaneous-speech = ကွပ်ပွိုးတမုဲင်ꩻ နီတဲႏဆို့ꩻဗာႏ ခါလဲင်ႏဒေါ့ꩻငေါဝ်း ပွုံႏစံႏပေႏယိုဟောင်း
 # text wrapped with <mark></mark> will have a light red background
 why-card-2-text = ယံလွိုထဲင်းဒါႏ ထာꩻစွဲးထဲမ် တာႏ ပြောင်ꩻလုဲင်ႏဘာႏသာႏငေါဝ်းငွါ တွမ်ႏ <mark>ပြောင်ꩻလုဲင်ႏကိုဒ်</mark> ပီနုဲင်းဒါႏ ဘာႏသာႏငေါဝ်းငွါဖဲ့ꩻရာꩻ စူစံႏအအုံအောဝ်ႏထွာဖုံႏ
+# text wrapped with <mark></mark> will have a light red background
+why-card-3-text = ကအီႏထူႏသွုံꩻ<mark>လိတ်အက္ခရာႏအခြွဉ်းဗူႏ</mark>တာႏ ဆေ့ꩻခြေားငါႏ မွေးတောဝ်းလဲ့ တအောဝ်ႏတောဝ်းဒွိုန်းလာꩻလာꩻ ကထွာဒါႏ ဘာႏသာႏငေါဝ်းငွါဖုံႏ (ဥပမာႏ - လိုꩻအစွိုꩻသွုံꩻငေါဝ်းငွါ၊ ငေါဝ်းခွိုꩻလီဖုံႏ၊ သမဲင်ꩻအလွောက်ꩻ လိတ်မူတထွာတောဝ်းဒါႏ ဘာႏသာႏငေါဝ်းငွါဖုံႏ) တာႏ ယံဖေႏဟောဝ်လွိုထဲင်းတဲင် စွဲးထဲမ်ဖေႏဗာႏသွူ
 how-spontaneous-speech-works = ခါလဲင်ႏဒေါ့ꩻငေါဝ်း အောဝ်ႏခွုမ်မာꩻထာꩻနုဲင်းမုဲင်ꩻ
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>ထောင်ႏနယ်</mark>
