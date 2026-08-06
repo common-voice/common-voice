@@ -20,6 +20,7 @@ check-bubble-title = <mark>ကဲစ်ꩻမဲန်ႏ</mark>
 data-bubble-title = <mark>အဆင်ႏဗာႏ</mark>
 data-bubble-subtitle = အလဲင်ႏမဲန်ႏမဲန်ႏ နီအောဝ်ႏတုတ်ꩻလီဖေႏ အဆင်ႏခြွဉ်းဗူႏယိုသွူ
 contact-us = သွုပ်ထေ့ ဒေါ့ꩻရီသွော့ꩻနီ
+contact-us-title = မဲဉ်နွို့စွဲးကမ်းငီꩻ ထာꩻမာꩻခြပ်ရဲဉ်ႏယိုနဲ့၊ မဲဉ်ထွာနီသွဉ်းသီး ထာꩻမာꩻဖက်နဲ့?
 contact-us-email = အီးမေး: <emailFragment>commonvoice@mozilla.com</emailFragment>
 signup-input-placeholder = သော့ꩻနာꩻ အီးမေးဟုဲင်း
 signup-button-value = ပသာဖေႏသွော့ နီအီးမေးကို လိဉ့်ဖြွီꩻတဗာႏ
