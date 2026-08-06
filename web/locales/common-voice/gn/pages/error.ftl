@@ -11,6 +11,11 @@ error-clip-upload-server-error = Ojavy mohendahavusu oñongatúvo nde clip. Embo
 error-title-404 = Ndorojuhúi upe togue rehekáva.
 error-content-404 = Oiméne rejuhukuaa ore <homepageLink>ñandutirenda ñepyrũha</homepageLink>-pe reikotevẽva. Eporandu hag̃ua, eikemína <matrixLink>Pytyvõhára Aty Ñemongetarenda’i</matrixLink>-pe, ehechami ehóvo apañuái oikóva <githubLink>GitHub</githubLink>-pe térã eikemi <discourseLink>ore Ñemongetaguasu rendakuéra</discourseLink>-pe.
 error-title-429-no-time = Eho pya’eterei hína. Ikatúpa eguata mbegueve ha eha’ã jey ag̃ave.
+error-title-429-with-time =
+    { $retryAfter ->
+        [one] Eho pyae’eterei. Eha’ãjey { $retryAfter } aravo’ive haguépe.
+       *[other] Eho pyae’eterei. Eha’ãjey { $retryAfter } aravo’iveita haguépe.
+    }
 error-title-500 = Che ñyrõmína, oĩhína osẽvaíva
 error-content-500 = Oiko jejavy eha’ãrõ’ỹva. Eha’ã jey ag̃ave. Eñepytyvõ hag̃ua, ejuaju <matrixLink>echatea Matrix rekoha ndive</matrixLink> rehe, ehecha tenda apañuái oikóva <githubLink>GitHub</githubLink> rupive térã eike <discourseLink>ore atyguasu Discourse</discourseLink>-pe.
 error-title-502 = Jeike oñemondohóva
