@@ -22,6 +22,7 @@ data-bubble-subtitle = အလဲင်ႏမဲန်ႏမဲန်ႏ နီ�
 contact-us = သွုပ်ထေ့ ဒေါ့ꩻရီသွော့ꩻနီ
 contact-us-title = မဲဉ်နွို့စွဲးကမ်းငီꩻ ထာꩻမာꩻခြပ်ရဲဉ်ႏယိုနဲ့၊ မဲဉ်ထွာနီသွဉ်းသီး ထာꩻမာꩻဖက်နဲ့?
 contact-us-email = အီးမေး: <emailFragment>commonvoice@mozilla.com</emailFragment>
+signup-form-title = ကောင်မွဉ်းဗွဲက် ခါလဲင်ႏဒေါ့ꩻငေါဝ်း ထာꩻမာꩻခြပ်ရဲဉ်ႏယို စံꩻအွဉ်ရီးသားအစွိုꩻကိုနောဝ်ꩻ နာꩻအောဝ်ႏနွို့ပါငီꩻထွူလဲဉ်းနဲ့?
 signup-input-placeholder = သော့ꩻနာꩻ အီးမေးဟုဲင်း
 signup-button-value = ပသာဖေႏသွော့ နီအီးမေးကို လိဉ့်ဖြွီꩻတဗာႏ
 footer-text-privacy = <privacyLink>နမ်းကိုရေꩻ</privacyLink>
