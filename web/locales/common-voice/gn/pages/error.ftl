@@ -23,6 +23,7 @@ error-content-502 = Ndaikatúi eñomongeta porã ore mohendahavusu ndive ko’á
 error-title-503 = Ore apañuái ko’ag̃aite, ho’ávaicha mohendahavusu
 error-content-503 = Ñandutirogue oĩjeýta vokoieténte. Eikuaasevéramo, eikemi <matrixLink>Atyrusu ñemongeta renda</matrixLink>-pe térã <githubLink>GitHub</githubLink> ỹramo katu <discourseLink>Ñomongetaguasu renda</discourseLink>pe eñeñandukami hag̃ua rejuhúramo apañuái.
 error-title-504 = Mba’ejerure oñeha’ãrõva
+error-content-504 = Upe mba’ejerure hi’areterei henyhẽ hag̃ua. Kóva ndahi’aréi. Eha’ã jey ag̃amieve. Eñepytyvõ hag̃ua, ejuaju <matrixLink>Matrix rekoha jechateaha rehe</matrixLink>, ehecha tenda apañuái oikóva <githubLink>GitHub</githubLink>-pe térã eike ore atyguasu Discourse-pegua.
 error-code = Javy { $code }
 # Warning message shown when none of the clips could be uploaded
 error-duplicate-clips-all =
