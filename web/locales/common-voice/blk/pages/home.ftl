@@ -49,11 +49,17 @@ review-transcriptions = ထွားစဲစ်ချာ လိတ်ယာႏ�
 add-questions = သော့ꩻ ငေါဝ်းရီဖုံႏ
 review-questions = ထွားစဲစ်ချာ ငေါဝ်းရီဖုံႏ
 transcribe-audio = တဲမ်းမုဲင်လင်ꩻ အငေါဝ်းဟွုန်လꩻ
+press-and-stories = ဒင်ႏသွုပ်လောဝ်းချာတွမ်ႏ ငေါဝ်းခြုဲင်းဖုံႏ
 community-and-languages = အသောင်ရင်ꩻစွိုꩻဗူႏ တွမ်ႏ ဘာႏသာႏငေါဝ်းငွါဖုံႏ
 coming-soon = တညတောဝ်း အီႏလွဉ်
 about-us = နီသွဉ်းသီး အကျောင်ꩻ
 scripted-speech = လိတ်ယာႏ ဒေါ့ꩻငေါဝ်း
 spontaneous-speech = ခါလဲင်ႏ ဒေါ့ꩻငေါဝ်း
+
+## MENU ITEM ARIA LABELS
+
+about-us-menu-aria-label = လွိုက်ထူႏသွော့ အကျောင်ꩻခရာႏ ကတူႏရဲဉ်ႏ
+about-us-menu-item-aria-label = လွိုက်ထူႏသွော့ နီသွဉ်းသီး အကျောင်ꩻခရာႏ ကတူႏရဲဉ်ႏ
 
 ## Hero section
 
@@ -71,9 +77,16 @@ answer = စေလောဝ်း
 
 ## Community section
 
+# label for button
+join-discord-community-action = နွို့ပါငီꩻသွော့ နီသွဉ်းသီး ဒစ်သကော့လောင်း
 find-us-on-matrix-action-2 = ကေားနျꩻသား အလင်ဖုံႏ
 # label for button
 ask-mozilla-share-action = ဖန်းဖြယ်လွေꩻ နာꩻ ပွယ်ꩻရဲဉ်ႏ
+
+## Developers section
+
+# icon is an arrow that points to the right
+explore-datasets = ထောင်ထွားစောႏတနာႏသွော့ အဆင်ႏခြွဉ်းဗူႏဖုံႏ <icon></icon>
 
 ## Get involved section
 
@@ -83,6 +96,7 @@ answer-questions-link = ငေါဝ်းစေလောဝ်း တွမ်�
 transcribe-answers-link = တဲမ်းမုဲင်လိတ်ယာႏ ငေါဝ်းစေလောဝ်းဖုံႏ
 review-transcriptions-link = ထွားစဲစ်ချာ လိတ်ယာႏမုဲင်ခြောင်ꩻ
 contribute-text-link = စွဲးထဲမ်သော့ꩻ လိတ်ယာႏ
+press-and-stories-link = ဒင်ႏသွုပ်လောဝ်းချာတွမ်ႏ ငေါဝ်းခြုဲင်းဖုံႏ
 
 ## Partner section
 
