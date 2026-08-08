@@ -5,6 +5,7 @@ language-section-launched = မာꩻနွို့သက်မွန်လဲ�
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
 language-section-last-updated = အဆုဲင်ꩻသွတ်ꩻ မွဉ်းဖျင်ခါꩻ:{ $lastUpdatedTimeStamp }
 languages-show-more = ထွားထဲင်း
+languages-show-less = ထွားငါ ဆေ့ꩻဆေ့ꩻ
 language-meter-in-progress = ထင်ႏထိုငါငါ
 language-total-progress = ခြွဉ်းဗူႏ
 language-search-input =
