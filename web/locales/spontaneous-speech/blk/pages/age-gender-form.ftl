@@ -6,6 +6,11 @@ continue-speaking-button = သွုပ်လွေꩻငါ ဒေါ့ꩻင�
 age-select-label = နာꩻသက်လꩻခွိုင်းမုဲင်ꩻ?
 select-your-age = လွိုက်သွော့ နာꩻသက်
 gender-select-label = နာꩻ ခြွိုင်းနောဝ်ꩻ လိုꩻခိုနဲ့/လိုꩻမူႏနဲ့ အစွိုးတမုဲင်ꩻဟောင်း?
+select-your-gender = လွိုက်ထူႏသွော့ နာꩻ ခြွိုင်း မွေးတောဝ်းလဲ့ လိုꩻခိုနဲ့ လိုꩻမူႏနဲ့
+country-of-residence-label = အုံအောဝ်ႏဒါႏ ခမ်းထီ/ဟံႏနယ်ႏ ဒေႏသ
+country-of-residence-placeholder =
+    .placeholder = သော့ꩻနာꩻ အုံအောဝ်ႏဒါႏ ခမ်းထီ/ဟံႏနယ်ႏဒေႏသ ယိုဟုဲင်း
+why-are-you-asking = ကွပ်ပွိုးတမုဲင်ꩻ နာꩻရီဗာႏဟောင်း?
 thank-you-for-your-information = နာꩻ အဆင်ႏအလာႏအတာႏ ကေႏဇူꩻတင်ႏငါႏဩ
 
 ## Gender dropdown
