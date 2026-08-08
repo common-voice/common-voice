@@ -81,9 +81,14 @@ answer = စေလောဝ်း
 # label for button
 join-discord-community-action = နွို့ပါငီꩻသွော့ နီသွဉ်းသီး ဒစ်သကော့လောင်း
 find-us-on-matrix = ထိုမ်ႏသွော့ နီသွဉ်းသီး မေတ်ထရစ်လောင်း
+# label for button
+find-us-on-element-action-1 = အခြွိုင်း
 find-us-on-matrix-action-2 = ကေားနျꩻသား အလင်ဖုံႏ
+ask-mozilla-share = ယံဖေႏကဖန်းဖြယ်ဖေႏ နာꩻပွယ်ꩻရဲဉ်ႏဖုံႏတာႏ ရီကွီလွေꩻသွော့ မိုသီလာထျꩻ
 # label for button
 ask-mozilla-share-action = ဖန်းဖြယ်လွေꩻ နာꩻ ပွယ်ꩻရဲဉ်ႏ
+# label for button
+download-contribution-certificate-action = ထူႏနေးသွော့ နာꩻသက်သေႏ အောင်ႏလိတ်မုဲင်တောင်ꩻ
 contribute-github = လွေꩻနွို့စွဲးကမ်းကိုသွော့ ဂစ်ဟတ်ကိုဩ
 # label for button
 contribute-github-action = လွေꩻနွို့စွဲးကမ်းကိုသွော့ ဂစ်ဟတ်ကိုဩ
