@@ -4,6 +4,7 @@ home-title = ကောင်မွဉ်းဗွဲက်ယိုနောဝ�
 default-tagline = ​မိုသီလာ ကောင်မွဉ်းဗွဲက်ယိုနောဝ်ꩻ လိုꩻစဲစ်မဲန်ႏဖုံႏ အီႏဒေါ့ꩻလွေꩻငေါဝ်း နုဲင်းမုဲင်ꩻကရိုꩻနောဝ်ꩻ ယံဖေႏ စက်ဖုံႏ သေနာႏသွဉ်ထူႏဒါႏအီတာႏ ရေႏရွယ်ႏနောဝ်ꩻတဲင် ထဲမ်မာꩻသော့ꩻ ထာꩻမာꩻတဗာႏနောဝ်ꩻသွူ။
 home-cta = ဒေါ့ꩻငေါဝ်းဟုဲင်း၊ နွို့စွဲးကမ်းသွော့ ယိုကို!
 show-wall-of-text = ထွားဒေါ့ꩻ ထဲင်းယင်း
+voices-online = အငေါဝ်းဖုံႏ အောဝ်ႏလဲင်းလောင်း ယိုခါ
 todays-progress = ဒင်ႏသွုပ်ထင်ႏ ယို ဟန်ႏနီꩻတာႏဖုံႏ
 help-reach-goal = လွေꩻ စွဲးကမ်းဖေႏသွော့ နီသွဉ်းသီး { $goal }
 read-terms-q = နာꩻဒေါ့ꩻထွားဗာႏထွူလဲဉ်း နီသွဉ်းသီး တဖွောင်ꩻရဲးကမ်းယိုနဲ့?
@@ -79,9 +80,17 @@ answer = စေလောဝ်း
 
 # label for button
 join-discord-community-action = နွို့ပါငီꩻသွော့ နီသွဉ်းသီး ဒစ်သကော့လောင်း
+find-us-on-matrix = ထိုမ်ႏသွော့ နီသွဉ်းသီး မေတ်ထရစ်လောင်း
 find-us-on-matrix-action-2 = ကေားနျꩻသား အလင်ဖုံႏ
 # label for button
 ask-mozilla-share-action = ဖန်းဖြယ်လွေꩻ နာꩻ ပွယ်ꩻရဲဉ်ႏ
+contribute-github = လွေꩻနွို့စွဲးကမ်းကိုသွော့ ဂစ်ဟတ်ကိုဩ
+# label for button
+contribute-github-action = လွေꩻနွို့စွဲးကမ်းကိုသွော့ ဂစ်ဟတ်ကိုဩ
+
+## Featured section
+
+featured-section-title = နောဝ်ꩻကို အောဝ်ႏပါ...
 
 ## Developers section
 
@@ -92,6 +101,7 @@ explore-datasets = ထောင်ထွားစောႏတနာႏသွေ�
 
 read-sentences-link = ထွားဒေါ့ꩻ လိတ်ရဲဉ်ႏဖုံႏ
 validate-readings-link = အွဉ်ႏတိဉ်ႏလဲဉ်း ကအောဝ်ႏထွားဒေါ့ꩻဖုံႏ
+contribute-link = တဲမ်းသော့ꩻကိုသွော့ လိတ်ယာႏခြွဉ်းဗူႏ
 answer-questions-link = ငေါဝ်းစေလောဝ်း တွမ်ႏ ငေါဝ်းရီဖုံႏ
 transcribe-answers-link = တဲမ်းမုဲင်လိတ်ယာႏ ငေါဝ်းစေလောဝ်းဖုံႏ
 review-transcriptions-link = ထွားစဲစ်ချာ လိတ်ယာႏမုဲင်ခြောင်ꩻ
@@ -103,3 +113,5 @@ press-and-stories-link = ဒင်ႏသွုပ်လောဝ်းချာ�
 partner-section-title = မာꩻဖက်ငီꩻ တွမ်ႏ နီသွဉ်းသီး
 # icon is an arrow that points to the right
 get-in-touch-button = လွေꩻသွုပ်ထေ့ဒေါ့ꩻရီ
+# Partners section
+our-partners-include = နီသွဉ်းသီး သွꩻဖက် အစွိုꩻဖုံႏနောဝ်ꩻ...
