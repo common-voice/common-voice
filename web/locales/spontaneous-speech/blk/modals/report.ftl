@@ -1,6 +1,8 @@
 ## Report Modal
 
 report-modal-title = ဒင်ႏပသာဖေႏ ဒင်ႏနယ်ချာတဗာႏ
+offensive_speech = မွိုက်ရွိုင်ꩻ ကတူႏရဲဉ်ႏ
+offensive_speech-detail = အကျောင်ꩻခရာႏကို တအံႏသွင်ꩻတောဝ်းဒါႏဝင်ꩻ မွိုက်ရွိုင်ꩻဒါႏ ဘာႏသာႏငေါဝ်းငွါဖုံႏ အောဝ်ႏပါသော့ꩻသွူ။
 report-other-comment =
     .placeholder = မုဲင်ခါꩻ
 # Label for textarea in report modal
