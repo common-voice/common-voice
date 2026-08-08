@@ -3,6 +3,7 @@
 language-section-in-progress = အောဝ်ႏဒင်ႏသွုပ်သော့ꩻ
 language-section-in-progress-new-description = ဘာႏသာႏငေါဝ်းငွါယိုဖုံႏနောဝ်ꩻ ယိုခါအောဝ်ႏ အသောင်ရင်ꩻစွိုꩻဗူႏ တဲႏဆို့ꩻလုဲင်းထင်ႏထိုလွေꩻဒျာႏနောဝ်ꩻသွူ။ ဖေႏကဒင်ႏထန်ႏသက်မွန်စနွောင်ꩻအတာႏ အောဝ်ႏလိုႏဒျာႏ <localizationGlossaryLink>ချာႏပြန်ႏဘာႏသာႏလွေꩻ ဝဲက်သုဲက်ပွိုင်</localizationGlossaryLink> တွမ်ႏ <sentenceCollectionGlossaryLink>ရွမ်ခြွဉ်းဖေႏ ငေါဝ်းလိတ်ရဲဉ်ႏဝါကျ</sentenceCollectionGlossaryLink> ယို နောဝ်ꩻသွူ။
 language-section-launched = မာꩻနွို့သက်မွန်လဲဉ်း
+language-section-launched-description = ဒင်ႏထန်ႏသက်မွန်ထွူဒါႏ ဘာႏသာႏငေါဝ်းငွါဖုံႏယိုအတာႏ  <localizationGlossaryLink>ချာႏပြန်ႏဘာႏသာႏလွေꩻ</localizationGlossaryLink> ဝဲက်သုဲက်ပွိုင်ယို အောဝ်ႏအောင်ႏမျင်ႏဗꩻထွူလဲဉ်းဒျာႏသွူ၊ အောဝ်ႏနောဝ်ꩻထွူ ယံဖေႏကစွဲးကမ်းသွုပ်လွေꩻနွောင်ꩻဖေႏ <speakLink>ဒေါ့ꩻငေါဝ်း</speakLink> တွမ်ႏ <listenLink>နာႏငေါဝ်း</listenLink> ဖုံႏအတာႏ <sentenceCollectionGlossaryLink>ရွမ်ခြွဉ်းခါꩻ ငေါဝ်းလိတ်ရဲဉ်ႏဝါကျ</sentenceCollectionGlossaryLink> ဖုံႏလဲ့ လိုမ်းဗွေစွုမ်ႏတာႏ အောဝ်ႏထွူလဲဉ်းနောဝ်ꩻသွူ။
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
 language-section-last-updated = အဆုဲင်ꩻသွတ်ꩻ မွဉ်းဖျင်ခါꩻ:{ $lastUpdatedTimeStamp }
 languages-show-more = ထွားထဲင်း
