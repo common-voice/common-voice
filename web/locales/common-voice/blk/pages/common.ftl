@@ -353,6 +353,7 @@ return-to-cv = သဲင်ꩻလွေꩻချာ ကောင်မွဉ်�
 email-input =
     .label = အီးမေး
 loading = အောဝ်ႏခွုမ်မာꩻကျာꩻ...
+email-opt-in-info = ခွေသွဉ်းနောဝ်ꩻ ကောင်မွဉ်းဗွဲက်ဖဲ့ꩻခရာႏ လိတ်စောင်ႏတသာဖုံႏ၊အဆုဲင်ꩻသွတ်ꩻ ထာꩻထင်ႏထိုတသာဖုံႏတွမ်ႏ ယံတွိုႏကောဝ်ႏထွန်ႏ ထာꩻဖေႏသေဖုံႏ ကပီနုဲင်းဒါႏယို အီးမေးဖုံႏနောဝ်ꩻလဲ့  ခွေသွဉ်း အောဝ်ႏမဲဉ်နေးထူႏလꩻပါဗာႏသွူ။
 email-opt-in-info-title = နွို့ငီꩻသွော့ ကောင်မွဉ်းဗွဲက် ပသာလိတ်စာႏရင်ꩻ
 not-available-abbreviation = အဲဉ်ထောဝ်း
 # Text shown on a button that can be clicked to copy text to the clipboard
