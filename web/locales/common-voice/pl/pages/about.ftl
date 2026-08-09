@@ -113,6 +113,11 @@ about-playbook-how-validate-content-4 = Jeżeli klip zostanie odrzucony przez 2 
 about-playbook-how-project-governance = Jak podejmowane są decyzje projektowe?
 about-playbook-how-project-governance-content-1 = Projekt Mozilla Common Voice jest możliwy dzięki zróżnicowanej społeczności aktywistów, językoznawców, analityków danych, naukowców i inżynierów oprogramowania z całego świata. Projekt jest zarządzany przez Fundację Mozilla.
 about-playbook-how-project-governance-content-2 = Nasze zasady zarządzania opierają się na następujących filarach:
+about-playbook-how-project-governance-content-3 = Prywatność, bezpieczeństwo i przejrzystość.
+about-playbook-how-project-governance-content-4 = Udział społeczności w procesie podejmowania decyzji.
+about-playbook-how-project-governance-content-5 = Wartość i uznanie.
+about-playbook-how-project-governance-content-6 = Wzajemna odpowiedzialność.
+about-playbook-how-project-governance-content-7 = <governanceLink>Dowiedz się więcej o tym, jak jesteśmy zarządzani</governanceLink>
 
 ## How is Common Voice funded
 
