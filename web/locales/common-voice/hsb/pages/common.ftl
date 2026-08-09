@@ -262,6 +262,7 @@ mvy = Indusowe Kohistani
 mxu = Mada
 my = Burmašćina
 myv = Erzya
+mzn = Mazandarani
 nan-tw = Taiwanšćina (Minnan)
 nb-NO = Norwegski Bokmål
 ncx = Nahuatl centralneho Puebla
