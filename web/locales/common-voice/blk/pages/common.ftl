@@ -73,9 +73,11 @@ ckb = ကားဒဲစ်
 cnh = ဟားခါး ဆေန်း
 co = ခေါသီကန်
 cpx = ဟဲင်ႏဟွာ
+cpy = အသိဉ်နိဉ်ကာ ဆꩻနောဝ်ယူကျာလီ
 crh = ကရိမ်မဲန် တာတာ
 cs = ဆျက်
 cut = တျူတီလာ  ခွီကထဲက်
+cux = တီပျုသီလာ ခွီကတဲက်
 cv = ဆူဗာ
 cy = ဝျော
 da = ဒိန်းမတ်
@@ -98,6 +100,7 @@ efk = အီဖစ်
 eko = အီကိုတီ
 el = ဂရိ
 en = အဲင်းဂလေတ်
+eo = အဲစ်ဖရန်တို
 es = သပေင်
 et = အဲစ်သတွန်နီယန်
 eto = အီတွန်
@@ -110,6 +113,8 @@ fi = ဖြိဉ်နစ်
 fmp = ဖီးဖဲး
 fo = ဖြာရီ
 fr = ပိဉ်တိစ်
+fub = အဒါမာဝဖျူဒီ
+fue = ဗော်ဂု ဖျူဒီ
 fuf = ပူလာ ကွီနီယာ
 fy-NL = ဖြီဆန်း
 ga-IE = အုဲင်းရစ်
@@ -187,6 +192,8 @@ mel = မဲလန်နျ
 mgg = ခွန်းအဗဲမ်
 mhk = မန်ဂခါ
 mki = ဒဟတ်ကီ
+ml = မလေးယာလမ်
+mn = မိုန်ဂိုလီယား
 mni = မီတဲလွန်
 mnw = မဲင်ꩻ
 mos = မောရီ
@@ -364,10 +371,32 @@ localization-select =
 
 ## MDC Announcement
 
+# Main text for MDC announcement. Text wrapped in <strong></strong> will be rendered with bold font
+announcement-mdc-text = <strong>ကောင်မွဉ်းဗွဲက် အဆင်ႏဗာႏခြွဉ်းတသာဖုံႏ</strong>ယို နုဲင်းယိုခါ အောဝ်ႏနီသွဉ်းသီးဖူးမူႏ ခြေင်ႏထိုလောင်းကထွာဒါႏ မိုသီလာ အဆင်ႏဗာႏရွမ်ခြွဉ်း ကဟဲ့ꩻဒါႏ Mozilla Data Collective သီးထျꩻယိုတရန်း ငင်ႏထူႏလꩻနွောင်ꩻလဲဉ်းဒျာႏနောဝ်ꩻသွူ။ အသောင်ရင်ꩻစွိုꩻဗူႏအတာႏ ယံဖေႏကထူႏသွုံꩻလꩻနွောင်ꩻဗာႏ အောဝ်ႏအသောင်ရင်ꩻစွိုꩻဗူႏနမ်း ကမာꩻထွာလင်ꩻဒါႏ  ကမ္ဘာႏအလောင်းတဖြုံႏလွုမ်း အဆင်ႏဗာႏခြွဉ်း ၃၀၀+ လွိုယိုတာႏနောဝ်ꩻ နွို့ပါစွဲးကမ်းငီꩻသွော့ဩ။
 # Button text for MDC announcement
 announcement-mdc-button-text = နွို့ပါငီꩻ  မိုသီလာ အဆင်ႏအဗာႏခြွဉ်းဗူႏကို
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = ဗွောင်သွော့ တတ် တသာတဗာႏကို
+
+## Release Delay Announcement
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-delay = ရက်ပဲင်ႏဗာႏဒါႏ အသောင်ရင်ꩻစွိုꩻဗူႏသီးဩ၊ နီသွဉ်းသီးနောဝ်ꩻ နုဲင်းယိုခါ အောဝ်ႏခွုမ်မာꩻလွေꩻဖေႏ ထေထန်ႏတသာနွောင်ꩻအဆင်ႏဗာႏတာႏနောဝ်ꩻသွူ။ ကအီႏတွိုႏလွဉ်ဒါႏ မွူးနီꩻဖုံႏအကို  <mdcLink>မိုသီလာ အဆင်ႏဗာႏရွမ်ခြွဉ်း (Mozilla Data Collective)</mdcLink>လောင်းကီ ယံကအီႏဖန်းခေါ်ထေထန်ႏလွေꩻဖေႏနွောင်ꩻဗာႏ အကွို့ꩻခေါဝ်လွောက်ꩻ လဲင်ႏဗာႏကရိုꩻယိုနောဝ်ꩻ အောဝ်ႏကော့ꩻမောင်ꩻဒျာႏသွူဩ။
+
+## Release Announcement
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release = ရက်ပဲင်ႏဗာႏဒါႏ အသောင်ရင်ꩻစွိုꩻဗူႏသီးဩ၊ အဆုဲင်ꩻသွတ်ꩻကထေထန်ႏလွဉ်ဒါႏ အတသာယို နုဲင်းယိုခါ အဗွေစွုမ်ႏတဗာႏ လွေꩻထူႏနွောင်ꩻလဲဉ်း <mdcLink>မိုသီလာ အဆင်ႏဗာႏရွမ်ခြွဉ်း (Mozilla Data Collective)</mdcLink>ကိုနောဝ်ꩻသွူ။ အသောင်ရင်ꩻစွိုꩻဗူႏအတာႏ တွမ်ႏ အသောင်ရင်ꩻစွိုꩻဗူႏနမ်း ကမာꩻထွာလင်ꩻဒါႏ ကမ္ဘာႏအလောင်းတဖြုံႏလွုမ်း အဆင်ႏဗာႏခြွဉ်း ၅၀၀+ လွိုယို ယံဖေႏကထူႏသွုံꩻလꩻနွောင်ႏတာႏ နွို့ပါစွဲးကမ်းငီꩻသွော့ဩ။
+
+## Pre-Release Announcement (dates TBD)
+
+# Text wrapped in <cvDatasheetsLink></cvDatasheetsLink> will be rendered as an external link to the cv-datasheets GitHub repo
+announcement-pre-release = ရက်ပဲင်ႏဗာႏဒါႏ အသောင်ရင်ꩻစွိုꩻဗူႏသီးဩ၊ ကအီႏထေထန်ႏဒါႏအဆင်ႏဗာႏခြွဉ်း ခိန်ႏယို ဗော့ꩻလွဉ်လဲဉ်းသွူ။ ယံကလွေꩻခွုမ်မာꩻဖေႏရောင်သွော့ ထာꩻစဲစ်ထွားအွဉ်ႏတိဉ်ႏဖုံႏ တွမ်ႏ တဲမ်းထူႏအငေါဝ်းဖုံႏယိုဟုဲင်း၊ နာꩻအဆင်ႏဗာႏလိတ်ရဲဉ်ႏယို ယံမွဉ်းဖျင်တသာထဲင်းအတာႏ လွေꩻထွားပါသွော့<cvDatasheetsLink>cv-datasheets</cvDatasheetsLink>ကိုယိုဩ။
+
+## Release Commencing
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-commencing = ရက်ပဲင်ႏဗာႏဒါႏ အသောင်ရင်ꩻစွိုꩻဗူႏသီးဩ၊ ထေထန်ႏအဆင်ႏဗာႏအတာႏ အဆုဲင်ꩻသွတ်ꩻ ကအွဉ်ႏထွော့ဒါႏ မွူးနီꩻပေ့ꩻယို တွိုႏလွဉ်လဲဉ်းတဲင် နီသွဉ်းသီးနောဝ်ꩻ အောဝ်ႏထွို့ꩻခြွဉ်း လွောင်ႏလွမ်လွေꩻဖေႏ အဆင်ႏဗာႏခြွဉ်းဖုံႏယိုနောဝ်ꩻသွူ။ ထေထန်ႏတသာအဆင်ႏဗာႏယို မွူးနီꩻဆေ့ꩻဆေ့ꩻအကို အီႏထူႏသွုံꩻလꩻနွောင်ꩻလွေꩻ <mdcLink>မိုသီလာ အဆင်ႏဗာႏရွမ်ခြွဉ်း (Mozilla Data Collective)</mdcLink> ကိုနောဝ်ꩻသွူ။
 
 ## Common Language/Dataset Selector & SearchBox Related
 
