@@ -24,6 +24,7 @@ download-request-button = ငင်ႏထူႏ
 download-request-title = { $created }
 download-request-description = အငေါဝ်းကွို့ꩻဖုံႏ{ $clipCount } ဗာႏ ၊ ခြွဉ်းဗူႏဖုဲင်ပမာဏနောဝ်ꩻ { $size }။ သက်တန်ꩻအီႏလို့{ $expires } နောဝ်ꩻသွူ။
 download-request-archive-single = သဲစ်အုဲင်ပီ ဖုဲင်လာႏတဗာႏကို ကပါဒါႏ
+download-request-archive-multiple = ဖန်းခေါ်လွေꩻခါꩻ သဲစ်အုဲင်ပီဖုဲင်  { $archiveCount } ဗာႏထွူတဲင် ကပါသော့ꩻဒါႏ -
 download-request-assembling-description = အောဝ်ႏလွောင်ႏခြွဉ်းဗူႏဖေႏ နာꩻဖုဲင်လာႏဖုံႏယိုသွူ။ ဆုဲင်ꩻမꩻ ကျိုꩻစာꩻချာယင်းသွော့ဩ။
 download-request-refresh-button = ကောႏယင်းအထျꩻ
 download-request-modal-title = ထူႏငင်ႏလင်ꩻတာႏ လိဉ့်ဖြွီꩻဖုံႏ
