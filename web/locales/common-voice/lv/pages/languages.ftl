@@ -3,7 +3,7 @@
 language-section-in-progress = Procesā
 language-section-in-progress-new-description = Šīs valodas pašlaik ir kopienas attīstībā. Progresa joslas norāda, cik lielā mērā katrai valodai ir veikta <localizationGlossaryLink>vietnes lokalizācija</localizationGlossaryLink> un <sentenceCollectionGlossaryLink>teikumu kolekcijas izveide</sentenceCollectionGlossaryLink>.
 language-section-launched = Uzsākts
-language-section-launched-description = Šīm valodām vietne ir veiksmīgi <localizationGlossaryLink>lokalizēta</localizationGlossaryLink>, un tajā ir pietiekami daudz <sentenceCollectionGlossaryLink>teikumu</sentenceCollectionGlossaryLink>, lai varētu turpināt <speakLink>runāt</speakLink> un <listenLink>klausīties</ listenLink>.
+language-section-launched-description = Šīm valodām vietne ir sekmīgi <localizationGlossaryLink>lokalizēta</localizationGlossaryLink>, un tajā ir pietiekami daudz <sentenceCollectionGlossaryLink>teikumu</sentenceCollectionGlossaryLink>, lai varētu turpināt <speakLink>runāt</speakLink> un <listenLink>klausīties</ listenLink>.
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
 language-section-last-updated = Pēdējo reizi atjaunināts: { $lastUpdatedTimeStamp }
 languages-show-more = Rādīt vairāk
@@ -30,6 +30,6 @@ get-involved-opt-in = Jā, sūtiet man e-pastus. Es vēlētos būt informēts pa
 get-involved-submit = Iesniegt
 get-involved-stayintouch = Mēs Mozilla veidojam kopienu balss tehnoloģiju jomā. Mēs vēlētos saglabāt kontaktus ar jums, lai informētu jūs par jaunumiem un iegūtu informāciju par to, kā jūs lietojat šeit pieejamās datu kopas.
 get-involved-privacy-info = Mēs apsolām rīkoties ar jūsu informāciju uzmanīgi. Lasiet vairāk mūsu <privacyLink>privātuma politikā</privacyLink>.
-get-involved-success-title = Esat veiksmīgi reģistrējies, lai veiktu ieguldījumu { $language } valodā. Paldies.
+get-involved-success-title = Tu sekmīgi reģistrējies, lai līdzdarbotos { $language } valodā. Paldies!
 get-involved-success-text = Mēs sazināsimies ar jums, kad būs pieejama papildu informācija.
 get-involved-return-to-languages = Atgriezties pie valodām
