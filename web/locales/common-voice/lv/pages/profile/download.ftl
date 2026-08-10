@@ -27,4 +27,4 @@ download-request-modal-title = Lejupielāžu saites
 download-request-modal-description = Šeit ir saites, lai lejupielādētu jūsu ZIP failus.
 download-request-link-text = Zip #{ $offset } no { $total }
 download-request-metadata-link = Teikuma teksts
-download-request-link-single = Varat arī kopēt un ielīmēt šīs adreses savā iecienītākajā lejupielāžu pārvaldniekā. To derīguma termiņš beigsies pēc 12 stundām, taču jebkurā laikā varat atgriezties šajā lapā, lai ģenerētu jaunas saites.
+download-request-link-single = Var arī ievietot starpliktuvē un ielīmēt šīs adreses savā iecienītākajā lejupielāžu pārvaldniekā. To derīgums beigsies pēc 12 stundām, taču jebkurā laikā var atgriezties šajā lapā, lai izveidotu jaunas saites.

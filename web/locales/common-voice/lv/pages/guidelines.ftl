@@ -69,7 +69,7 @@ sentence-domain = Teikuma joma
 ## Sentence collection sidebar content
 
 public-domain-explanation-1 = Ir ļoti svarīgi, lai visi teikumi būtu <publicDomain>publiskais domēns</publicDomain> (<cc0>cc0</cc0>), jo Common Voice datu kopa tiek izlaista ar cc0 licenci. Augšupielādējiet teikumu tikai tad, ja esat pārliecināts par tā publiskumu, un vienmēr iekļaujiet atsauci uz avotu.
-public-domain-explanation-2 = Labākie teikumi noderīga runas atpazīšanas rīka izveidei ir sarunvaloda, mūsdienīga valoda. Dažas idejas, kas palīdzēs ģenerēt teikumus, ir;
+public-domain-explanation-2 = Labākie teikumi noderīga runas atpazīšanas rīka izveidei ir sarunvaloda, mūsdienīga valoda. Dažas idejas, kas palīdzēs veidot teikumus, ir;
 public-domain-explanation-3 = Izveidojiet mūsdienīgus sarunvalodas teikumus pats vai kopā ar draugiem vai valodu kopienu, piemēram, rīkojot “rakstīšanas maratonu”
 public-domain-explanation-4 = Sazinieties ar autoriem, dramaturgiem vai scenāristiem un jautājiet, vai viņi būtu gatavi nodot nelielu daļu no saviem darbiem publiskajā īpašumā. Teikumus var publicēt alfabētiskā secībā, lai tas netraucētu kādiem darba autora mērķiem.
 public-domain-explanation-5 = Meklējiet tekstu, uz kuru autortiesības vairs neattiecas, piemēram, vairums grāmatu, kas izdotas pirms 1920. gada, šobrīd ir brīvi pieejamas ikvienam.
