@@ -17,6 +17,11 @@ download-selected = လွိုက်ထူႏဗာႏ
 download-start = ငင်ႏထူႏ နမ်းအအဲဉ်ႏ အဆင်ႏဗာႏ
 download-request = ကွီသွော့ ဒင်ႏမုဲင်အငေါဝ်းဖုံႏ
 download-requests = ငင်ႏထူႏလင်ꩻ အငေါဝ်းမုဲင်တောင်ꩻနောဝ်ꩻခါဟွဉ်ႏဖုံႏအတာႏ ထာꩻကွီကော့ꩻဖုံႏ
+download-requests-info =
+    နာꩻ ကကွီကော့ꩻဒါႏ နာꩻအငေါဝ်းမုဲင်တောင်ꩻဖုံႏအခိန်ႏ နီသွဉ်းသီး လွောင်ႏခြွဉ်းဗူႏဖေႏဒျာႏ သဲစ်အုဲင်ပီ ဖုဲင်တဗာႏ မွေးတောဝ်းလဲ့ ကလွိုကယ်ꩻလဲဉ်းတဗာႏဖုံႏသွူ။
+    နာꩻထာꩻကွီကော့ꩻ နောဝ်ꩻခါဟွဉ်ႏဖုံႏနောဝ်ꩻ အောဝ်ႏနုဲင်းဆꩻလယိုအတွိုင်ꩻသွူ -
 download-request-button = ငင်ႏထူႏ
+download-request-title = { $created }
 download-request-refresh-button = ကောႏယင်းအထျꩻ
+download-request-link-text = သဲစ်အုဲင်ပီ #{ $offset }ယို{ $total }
 download-request-metadata-link = ငေါဝ်းရဲဉ်ႏဝါကျ လိတ်ယာႏ
