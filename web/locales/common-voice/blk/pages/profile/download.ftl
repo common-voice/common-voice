@@ -16,6 +16,7 @@ download-size = အရွယ်ႏပွိုင်
 download-selected = လွိုက်ထူႏဗာႏ
 download-start = ငင်ႏထူႏ နမ်းအအဲဉ်ႏ အဆင်ႏဗာႏ
 download-request = ကွီသွော့ ဒင်ႏမုဲင်အငေါဝ်းဖုံႏ
+download-requests = ငင်ႏထူႏလင်ꩻ အငေါဝ်းမုဲင်တောင်ꩻနောဝ်ꩻခါဟွဉ်ႏဖုံႏအတာႏ ထာꩻကွီကော့ꩻဖုံႏ
 download-request-button = ငင်ႏထူႏ
 download-request-refresh-button = ကောႏယင်းအထျꩻ
 download-request-metadata-link = ငေါဝ်းရဲဉ်ႏဝါကျ လိတ်ယာႏ
