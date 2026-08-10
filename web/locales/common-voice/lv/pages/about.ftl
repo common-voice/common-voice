@@ -49,7 +49,7 @@ about-get-involved-text-2 =
     forumu, ziņojiet par submit problēmām <githubLink>GitHub</githubLink>, vai pievienojieties <matrixLink>Matrix</matrixLink> kopienas tērzētavai.
 about-stay-in-touch = Kā es varu sazināties?
 about-stay-in-touch-button = Pierakstīties
-about-stay-in-touch-text-1 = <emailFragment>Reģistrējieties</emailFragment> mūsu e-pasta jaunumiem, lai uzzinātu, kā varat piedalīties kampaņās, pasākumos un Common Voice kopprojektēšanas aktivitātēs.
+about-stay-in-touch-text-1 = <emailFragment>Pieraksties</emailFragment> mūsu e-pasta jaunumiem, lai uzzinātu, kā vari piedalīties kampaņās, pasākumos un Common Voice kopprojektēšanas darbībās.
 about-stay-in-touch-text-2 = Jūs varat satikt citus Mozilla valodu kopienas dalībniekus, pievienojoties <discourseLink>Discourse</discourseLink> aktuālajām sarunām vai <matrixLink>Matrix</matrixLink>, lai saņemtu ātrus padomus.
 about-nav-why-common-voice = Kāpēc?
 about-nav-how-it-works = Kā?

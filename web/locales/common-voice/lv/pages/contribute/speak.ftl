@@ -57,7 +57,7 @@ first-cta-gender-select-help-text =
     .label = Kā jūs raksturotu savu dzimumu?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Paldies, ka pievienojāt savas balss ierakstus!
-second-cta-subtitle-text = Izmantojot profilu, varēsiet sekot līdzi savai aktivitātei un sazināties ar balss datu vācēju kopienu.
+second-cta-subtitle-text = Ar profilu var sekot līdzi savām darbībām un sazināties ar balss datu līdzdalībnieku kopienu.
 already-have-an-account = Jums jau ir konts? <login>Pieslēdzieties</login>
 create-profile-button = Izveidot profilu
 # IMAGE TAGS
