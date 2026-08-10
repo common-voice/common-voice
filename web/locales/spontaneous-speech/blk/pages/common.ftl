@@ -6,15 +6,24 @@ action-click = နျꩻ
 action-tap = တေက်ꩻ
 # Label for language switcher
 platform-language = ခြေင်ႏထိုလောင်း ဘာႏသာႏငေါဝ်းငွါ
+platform-language-tooltip-text = ပြောင်ꩻလုဲင်ႏကွို့ꩻ ဝဲက်သုဲက်ပွိုင်လိတ်ယာႏ လွုမ်ꩻငါ
+coming-soon = ထဲင်းယင်း ဘာႏသာႏငေါဝ်းငွါဖုံႏ တညတောဝ်းအီႏလွဉ်သွူ
 # Toast message that is displayed when an item is skipped
 skipped = ကာႏလဲဉ်း
 audioplayer-header = နာႏငေါဝ်း
+guidelines = မာꩻပွုံႏမာꩻနယ်ꩻ
 # For the button to report an item
 report-button = ဒင်ႏနယ်ချာ
 # For the button to skip an item
 skip-button = ကာႏ
 submit-button = ဒင်ႏပသာ
 contribute = စွဲးကမ်းထဲမ်ကို
+# Button text which appears when there are no more resources
+continue-with-skipped = ကာႏငါထွူ လွေꩻသွုပ်ထဲင်း
+
+## Common aria-labels
+
+keyboard-shortcuts-button-aria-label = အွဉ်ႏနယ် ကီးဗုတ် တဖူꩻနယ်ꩻဒွေါင်ႏ
 
 ## Navbar
 
@@ -22,5 +31,43 @@ question = ငေါဝ်းရီ
 validate = အွဉ်ႏတိဉ်ႏလွေꩻ
 respond-to-prompt = စေလောဝ်း
 respond-to-prompt-mobile = စေလောဝ်း
+transcribe = လိတ်ယာႏမုဲင်တောင်ꩻ
 check-transcriptions = ထွားစဲစ်
 check-transcriptions-mobile = ထွားစဲစ်ချာ
+tag = ဟဲ့ꩻရဲန်ႏ
+
+## Not Found Page
+
+not-found-page-header = မော့ꩻတောဝ်း
+
+## Transcription Player - Mode Buttons
+
+# Transcription Player - Automatic Mode
+transcription-mode-auto = အောဝ်ႏလွိုႏကာႏ
+# Player - slower
+player-speed-slow = ယွယုံ
+# Player - normal speed
+player-speed-normal = အမဲန်ႏတွိုင်ꩻ
+# Player - faster
+player-speed-fast = ကျင်ႏ
+
+## Transcription Player Controls - Keyboard Shortcuts
+
+# Player control shortcut for play/pause: pressed with Ctrl/Cmd
+player-play-pause-shortcut = မာꩻလွူꩻ
+player-play-pause-shortcut-key = Ctrl / Cmd + P
+player-play-pause-shortcut-name = မာꩻလွူꩻ/အုံဆွိုး
+# Player control shortcut to go back 5 seconds: pressed with Ctrl/Cmd
+player-skip-backward-shortcut = ၈
+player-skip-backward-shortcut-name = သဲင်ꩻခွုန်ချာ
+# Player control shortcut to go forwards 5 seconds: pressed with Ctrl/Cmd
+player-skip-forward-shortcut = ၉
+player-skip-forward-shortcut-key = Ctrl / Cmd + 9
+player-skip-forward-shortcut-name = လꩻဆုꩻဟောဝ်ဖုံႏ
+
+## Transcription Player - Aria Labels
+
+# Play button accessibility/aria label
+player-play-button-aria-label = ဗွောင်လွူꩻ အငေါဝ်း
+# Pause button accessibility/aria label
+player-pause-button-aria-label = အွဉ်ႏဆွိုး အငေါဝ်း
