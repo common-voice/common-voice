@@ -1,6 +1,7 @@
 ## Profile Download
 
 download-q = အောဝ်ႏလိုႏ ငင်ႏထူႏ နာꩻအဆင်ႏဗာႏနဲ့?
+download-info = နာꩻ ကမဲဉ်လိုႏ ငင်ႏထူႏဒါႏ အဗာႏမုဲင်ꩻနောဝ်ꩻ ဒေါ့ꩻနယ်ဖေႏသွော့ နီသွဉ်းသီးယိုဩ -
 download-profile-title = နမ်းအအဲဉ်ႏ
 download-recordings-title = ဒင်ႏမုဲင်တောင်ꩻအငေါဝ်းဖုံႏ
 download-size = အရွယ်ႏပွိုင်
