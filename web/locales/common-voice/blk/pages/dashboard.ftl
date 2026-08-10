@@ -1,12 +1,16 @@
 ## Dashboard
 
 your-languages = နာꩻ ဘာႏသာႏငေါဝ်းငွါဖုံႏ
+toward-next-goal = လွေꩻငါထဲင်း ကောဝ်ႏထွန်ႏထျꩻ
 goal-reached = တွိုႏလဲဉ်းဒါႏ ကောဝ်ႏထွန်ႏ
 stats = အအုံအောဝ်ႏ စာႏရင်ꩻ
 awards = လꩻဆုꩻဟောဝ်ဖုံႏ
 you = နာꩻ
 everyone = လိုꩻတွိုင်ꩻစွုမ်ႏဖြာꩻ
 top-contributors = အမော့နာသွတ်ꩻ ကေားစွဲးထဲမ်သားဖုံႏ
+recorded-clips = ဒင်ႏမုဲင်ခါꩻဒါႏ အငေါဝ်းကွို့ꩻဖုံႏ
+validated-clips = အွဉ်ႏတိဉ်ႏထွူလဲဉ်း ငေါဝ်းကွို့ꩻဖုံႏ
+total-approved = ခြွဉ်းဗူႏလို့ အွဉ်ႏတိဉ်ႏဗာႏလဲဉ်း
 
 ## Custom Goals
 

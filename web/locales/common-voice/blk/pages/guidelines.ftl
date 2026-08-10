@@ -4,12 +4,15 @@ voice-collection = အငေါဝ်း ခြွဉ်းဗူႏ
 sentence-collection = ငေါဝ်းလိတ်ရဲဉ်ႏ ခြွဉ်းဗူႏ
 question-collection = ငေါဝ်းရီ ခြွဉ်းဗူႏ
 scripted-speech = လိတ်အက္ခရာႏ ဒေါ့ꩻငေါဝ်း
+spontaneous-speech = တောင်ꩻခါလဲင်ႏ ဒေါ့ꩻငေါဝ်း
 dont-subheader = မာꩻမွိုန်း
 
 ## Voice Collection nav ids
 
 varying-pronunciations = တဗွိုန်ပီတောဝ်း အငေါဝ်းထန်ႏဖုံႏ
 misreadings = ထာꩻထီႏတရွို့ꩻဖုံႏ
+offensive-content = မွိုက်ရွိုင်ꩻဒါႏ ကတူႏရဲဉ်ႏ
+background-noise = ဗꩻချာဖဲ့ꩻ ထာꩻတိန်ႏနား
 background-voices = အသောင်ဗꩻချာ အငေါဝ်းဖုံႏ
 volume = အငေါဝ်းအာႏ
 reader-effects = ထွားဒေါ့ꩻလိတ်သား ကတွိုႏခြောင်ꩻဒါႏအကျိုꩻဖုံႏ
@@ -22,6 +25,8 @@ public-domain = ခမ်းသားလိုꩻအာပဲင်ႏ
 
 ## Sentence collection sidebar content
 
+citing-sentences-subheader-websites = သုဲက်ပွိုင်ဖုံႏ
+self-citation = နမ်း ထူႏကွိုꩻအုံနောင်
 adding-sentences-subheader-numbers = အမုဲင်ဖုံႏ
 
 ## Question collection ids
