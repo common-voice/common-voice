@@ -26,6 +26,8 @@ public-domain = ခမ်းသားလိုꩻအာပဲင်ႏ
 ## Sentence collection sidebar content
 
 citing-sentences-subheader-websites = သုဲက်ပွိုင်ဖုံႏ
+citation =
+    .label = ထူႏကွိုꩻအုံနောင်
 self-citation = နမ်း ထူႏကွိုꩻအုံနောင်
 adding-sentences-subheader-numbers = အမုဲင်ဖုံႏ
 
