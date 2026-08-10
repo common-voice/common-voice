@@ -22,8 +22,12 @@ download-requests-info =
     နာꩻထာꩻကွီကော့ꩻ နောဝ်ꩻခါဟွဉ်ႏဖုံႏနောဝ်ꩻ အောဝ်ႏနုဲင်းဆꩻလယိုအတွိုင်ꩻသွူ -
 download-request-button = ငင်ႏထူႏ
 download-request-title = { $created }
+download-request-description = အငေါဝ်းကွို့ꩻဖုံႏ{ $clipCount } ဗာႏ ၊ ခြွဉ်းဗူႏဖုဲင်ပမာဏနောဝ်ꩻ { $size }။ သက်တန်ꩻအီႏလို့{ $expires } နောဝ်ꩻသွူ။
+download-request-archive-single = သဲစ်အုဲင်ပီ ဖုဲင်လာႏတဗာႏကို ကပါဒါႏ
+download-request-assembling-description = အောဝ်ႏလွောင်ႏခြွဉ်းဗူႏဖေႏ နာꩻဖုဲင်လာႏဖုံႏယိုသွူ။ ဆုဲင်ꩻမꩻ ကျိုꩻစာꩻချာယင်းသွော့ဩ။
 download-request-refresh-button = ကောႏယင်းအထျꩻ
 download-request-modal-title = ထူႏငင်ႏလင်ꩻတာႏ လိဉ့်ဖြွီꩻဖုံႏ
+download-request-modal-description = ထူႏငင်ႏလင်ꩻ နာꩻသဲစ်အုဲင်ပီ ဖုဲင်လာႏဖုံႏအတာႏ လိဉ့်ဖြွီꩻဖုံႏနောဝ်ꩻ အောဝ်ႏယိုကိုသွူ -
 download-request-link-text = သဲစ်အုဲင်ပီ #{ $offset }ယို{ $total }
 download-request-metadata-link = ငေါဝ်းရဲဉ်ႏဝါကျ လိတ်ယာႏ
 download-request-link-single = ထူႏဗွိုန်ထွူ တလူႏစွဉ်ႏ ယူအာအျော် လိဉ့်ဖြွီꩻစားဖုံႏယိုတဲင် လွေꩻအွဉ်ႏလင်ꩻနွောင်ꩻဒျာႏ နာꩻသꩻကစွယ်ꩻဒါႏ ထာꩻငင်ႏထူႏဖန်းဖြယ်သားကိုသွူ။ နုဲင်းယိုဖုံႏနောဝ်ꩻ ၁၂ နားရီႏအကို သက်တန်ꩻအီႏလို့သွတ်ꩻထိုꩻစွဉ်ႏလဲ့ ထူႏထေတသာယင်းအတာႏ အခိန်ႏမုဲင်ꩻတရိုꩻတောဝ်း သဲင်ꩻလွဉ်နွောင်ꩻဒျာႏ လိတ်မဲ့ငါယိုသွူ။
