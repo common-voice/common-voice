@@ -39,6 +39,15 @@ tag = ဟဲ့ꩻရဲန်ႏ
 ## Not Found Page
 
 not-found-page-header = မော့ꩻတောဝ်း
+# Locales-Variants
+ms-MY = ဗဟာသာ မာလေး
+el-CY = သုဲက်ပရပ် ဂရိ
+
+## Language search component
+
+language-search-placeholder = ထိုမ်ႏထွား ဘာႏသာႏငေါဝ်းငွါတဗာႏ...
+language-search-aria-label = ထိုမ်ႏထွား ဘာႏသာႏငေါဝ်းငွါတဗာႏ
+language-search-no-results = တမော့ꩻတောဝ်း ဘာႏသာႏငေါဝ်းငွါဖုံႏ
 
 ## Transcription Player - Mode Buttons
 
@@ -59,6 +68,7 @@ player-play-pause-shortcut-key = Ctrl / Cmd + P
 player-play-pause-shortcut-name = မာꩻလွူꩻ/အုံဆွိုး
 # Player control shortcut to go back 5 seconds: pressed with Ctrl/Cmd
 player-skip-backward-shortcut = ၈
+player-skip-backward-shortcut-key = Ctrl / Cmd + 8
 player-skip-backward-shortcut-name = သဲင်ꩻခွုန်ချာ
 # Player control shortcut to go forwards 5 seconds: pressed with Ctrl/Cmd
 player-skip-forward-shortcut = ၉
