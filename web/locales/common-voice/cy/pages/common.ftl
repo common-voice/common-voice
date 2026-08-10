@@ -262,6 +262,7 @@ mvy = Indus Kohistani
 mxu = Mada
 my = Byrmaneg
 myv = Erzya
+mzn = Mazandarani
 nan-tw = Taiwanëeg (Minnan)
 nb-NO = Bokmål Norwyeg
 ncx = Puebla Nahuatl Ganol
