@@ -27,6 +27,7 @@ go-languages-page = လွေꩻ ဘာႏသာႏငေါဝ်းငွါ�
 more = ထဲင်း
 download = ထူႏငင်ႏလင်ꩻ
 dataset-version = ဗားသိဉ်း
+no-information-available = တထီႏမော့ꩻတောဝ်း သတင်ꩻအဆင်ႏအလာႏ
 dataset-metadata-sex = လိုꩻခြွိုင်း
 # dataset metadata - age of contributor
 dataset-metadata-age = သက်
@@ -35,6 +36,7 @@ data-download-button = ထူႏငင်ႏလင်ꩻ ကောင်းမ�
 data-download-yes = မွေး
 data-download-deny = မွေးတောဝ်း
 data-download-license = အွဉ်ႏလꩻ:<licenseLink>-CC-0</licenseLink>
+data-other-title = အလောင်းလင်သား အငေါဝ်း အဆင်ႏဗာႏခြွဉ်းဗူႏဖုံႏ...
 data-other-goto = လွေꩻ{ $name }ကို
 data-other-download = ထူႏငင်ႏလင်ꩻ အဆင်ႏဗာႏ
 data-bundle-button = ထူႏငင်ႏလင်ꩻ အဆင်ႏခြွဉ်းဗူႏလွမ် ဟုဲင်း
