@@ -96,7 +96,7 @@ spontaneous-speech = SPONTĀNĀ RUNA
 about-menu-tooltip = Partnerības, prese un stāsti, kopiena un valodas
 about-us-menu-item-tooltip = Uzziniet par Common Voice misiju un komandu
 partnerships-menu-item-tooltip = Sadarbojieties ar mums
-press-and-stories-menu-item-tooltip = Apmeklējiet mūsu emuāru vai rakstiet par mums
+press-and-stories-menu-item-tooltip = Lasi stāstus, atjauninājumus un mediju segumu par Common Voice
 community-and-languages-menu-item-tooltip = Atklājiet valodas, kopienas un kopīgo balsi
 
 ## MENU ITEM ARIA LABELS
