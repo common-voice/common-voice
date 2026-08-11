@@ -19,6 +19,13 @@ reader-effects = ထွားဒေါ့ꩻလိတ်သား ကတွိ�
 just-unsure = ယိုခါ စဲင်းစဲ့တောဝ်းဒွုမ်နဲ့?
 example = ပွုံႏစံႏဥပမာႏ
 
+## Voice collection sidebar content
+
+varying-pronunciations-example = တဖူꩻခြောင်ꩻ တစဲင်းလေတောဝ်း တကြောင်းတောဝ်းသွူ။
+misreadings-explanation-2 =
+    ကထွာအာဒါႏအမာႏနောဝ်ꩻ
+    ဗွိုန်နုဲင်းဆꩻလယိုဖုံႏသွူ။
+
 ## Sentence collection nav ids
 
 public-domain = ခမ်းသားလိုꩻအာပဲင်ႏ
