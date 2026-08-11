@@ -145,7 +145,7 @@ example-questions-explanation-2 = Ja vēlaties pievienot lielāku jautājumu kop
 # Answer Questions
 answer-questions = Atbildēt uz jautājumiem
 answer-questions-subheader = Vispārīgi norādījumi
-answer-questions-explanation-1 = Padomājiet mirkli par uzdevumu, apsveriet, ko vēlaties pateikt, bet nepārspīlējiet ar scenāriju. Noklikšķiniet uz ikonas “ierakstīt”. Kad esat ierakstījis, varat sevi noklausīties, ierakstīt atkārtoti, dzēst vai iesniegt.
+answer-questions-explanation-1 = Mirkli jāpadomā par uzvedni, jāapsver, ko ir vēlme pateikt, bet nevajag pārcensties ar scenāriju. Jāklikšķina uz ikonas “ierakstīt”. Tiklīdz ierakstīšana ir pabeigta, ierakstu var noklausīties, ierakstīt atkārtoti, izdzēst vai iesniegt.
 answer-questions-explanation-2 = Atcerieties — neuztraucieties, ja stostāties, pārtraucat vai atkārtojat vārdu. Šie visi ir noderīgi dati inženieriem, kuri cenšas izveidot iekļaujošus, reālās pasaules runas atpazīšanas rīkus.
 answer-questions-tip-1 = Ieraksti pietiekami klusā vietā
 answer-questions-tip-2 = Izvēlies vietu ar labu interneta pieslēgumu
