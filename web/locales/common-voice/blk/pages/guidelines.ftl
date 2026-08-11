@@ -47,7 +47,7 @@ public-domain = ခမ်းသားလိုꩻအာပဲင်ႏ
 citing-sentences-subheader-websites = သုဲက်ပွိုင်ဖုံႏ
 citation =
     .label = ထူႏကွိုꩻအုံနောင်
-self-citation = နမ်း ထူႏကွိုꩻအုံနောင်
+self-citation = ထူႏကွိုꩻအုံနောင်ချာနမ်းပဲင်ႏ
 adding-sentences-subheader-numbers = အမုဲင်ဖုံႏ
 
 ## Question collection ids
