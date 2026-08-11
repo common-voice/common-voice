@@ -1,5 +1,7 @@
 ## Tagging Page
 
+tag-page-instruction = တဲႏကောႏတာႏ လွိုက်ထူႏသွော့ꩻ<icon></icon>လိတ်ယာႏ
+tag-terms-checkbox = ကောင်မွဉ်းဗွဲက် တဖွောင်ꩻရဲးကမ်းဖုံႏတွမ်ႏ နမ်းပဲင်ႏလိုမ်းဗိဉ်ႏတာႏ မူဝါဒဖုံႏယို ခွေသွဉ်း သꩻဖေါ်ꩻအောဝ်ႏဗွိုန်ဒျာႏသွူ။
 tag-popover-title = လွိုက်ထူႏ ဟဲ့ꩻရဲန်ႏတဗာႏ
 select-a-tag = လွိုက်ထူႏ ဟဲ့ꩻရဲန်ႏတဗာႏ
 edit-tag = မွဉ်းဖျင် ဟဲ့ꩻရဲန်ႏ
@@ -12,5 +14,9 @@ tag-page-shortcut-tag-language-5 = ၅
 tag-page-shortcut-remove-tags = ၉
 remove-tags = ယားလီထိုꩻ ဟဲ့ꩻရဲန်ႏဖုံႏ
 tag-page-shortcut-toogle-mouse-keyboard = ၀
+toogle-mouse-keyboard = ပြောင်ꩻထာꩻအွဉ်ႏနယ်
+tag-page-shortcut-tag-undo = Ctrl / CMD + Z
+undo = မာꩻထွာတောဝ်း
 select-all = လွိုက်ထူႏလို့ ကားကအောဝ်ႏ
+tag-error-toast-message = အောဝ်ႏ ဒင်ႏပသာ ဟဲ့ꩻရဲဉ်ႏဖုံႏတွင်ꩻ ထွာအမာႏ
 cs-tag-shortcuts-section-title = သွုံꩻအီ ကီးဗုတ်
