@@ -39,3 +39,11 @@ adding-questions = သော့ꩻလွေꩻ ငေါဝ်းရီဖုံ
 
 # Answer Questions
 answer-questions = ငေါဝ်းစေလောဝ်း ငေါဝ်းရီဖုံႏ
+answer-questions-subheader = တဖူꩻယီႏနယ်ꩻ အစွိုးစွိုးအသွုပ်သွုပ်
+transcribe-the-audio-subheader-3 = ကတဲးဝါးဒါႏ ဟဲ့ꩻရဲဉ်ႏဖုံႏ
+
+## Code-Switching
+
+# Transcribing
+code-switching-transcribe-subheader = လိတ်ယာႏမုဲင်တောင်ꩻ
+code-switching-not-tag-interjections-example-2 = “တောဝ်း”
