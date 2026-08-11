@@ -7,13 +7,13 @@ sentence =
     .label = ဝါကျလိတ်ရဲဉ်ႏ
 sentence-input-placeholder = တဲမ်းသော့ꩻ နာꩻခမ်းသားလိုꩻအာပဲင်ႏလꩻ လိတ်ရဲဉ်ႏဝါကျ ယိုကို
 small-batch-sentence-input-placeholder = တဲမ်းသော့ꩻ နာꩻခမ်းသားလိုꩻအာပဲင်ႏလꩻ လိတ်ရဲဉ်ႏဝါကျဖုံႏ ယိုကို
-citation-input-placeholder = အုံနောင်အွဉ်ႏနယ်ဗာႏ  နာꩻလိတ်ရဲဉ်ႏယို အရွီးအခိုႏ (အောဝ်ႏလိုႏဒါႏ)
+citation-input-placeholder = ထူႏကွိုꩻအုံနောင်သွော့ နာꩻလိတ်ရဲဉ်ႏယို အရွီးအခိုႏ (အောဝ်ႏလိုႏဗာႏ)
 citation =
     .label = ထူႏအုံနောင်
 sc-write-submit-confirm = ငေါဝ်းလိတ်ရဲဉ်ႏယိုနောဝ်ꩻ ထွာဒျာႏ <wikipediaLink>ခမ်းသားလိုꩻအာသီးပဲင်ႏ</wikipediaLink> အကျောင်ꩻ တွမ်ႏ ဒင်ႏထင်ႏသော့ꩻယိုအတာႏ အခွင်ꩻလꩻအောဝ်ႏဒျာႏအကျောင်ꩻ ခွေသွဉ်း အွဉ်ႏတိဉ်ႏလွေꩻဒျာႏသွူဩ။
 sc-review-write-title = လိတ်ရဲဉ်ႏဖုံႏယို ခွေသော့ꩻနွောင်ꩻတမုဲင်ꩻ?
 sc-review-small-batch-title = သော့ꩻဗာႏ ငေါဝ်းလိတ်ရဲဉ်ႏအာအာ နုဲင်းမုဲင်ꩻ
-new-sentence-rule-1 = <noCopyright>ခွုမ်ပဲင်ႏလꩻခွင်ꩻ ဒို့ꩻပေ့ꩻရဲးခါꩻဖုံႏ တအောဝ်ႏတောဝ်းဩ</noCopyright> (<cc0>cc-0</cc0>)
+new-sentence-rule-1 = <noCopyright>အွဉ်ႏထွော့ခါꩻဗာႏတောဝ်း ခွုမ်ပဲင်ႏလꩻခွင်ꩻဩ</noCopyright> (<cc0>သီသီ-၀</cc0>)
 new-sentence-rule-2 = လိတ်ရဲဉ်ႏယို မိဉ်ႏဆေ့ꩻကယ်ꩻလဲဉ်း ငေါဝ်းရာႏ ၁၅ ဖြုံႏနောဝ်ꩻ
 new-sentence-rule-3 = သွုံꩻမဲန်ႏမဲန်ႏသွော့ꩻ သဒ္ဒါႏ
 new-sentence-rule-4 = တဲမ်းသွုံꩻ မဲန်ႏမဲန်ႏသွော့ လိတ်ဖြုံႏ အသွတ်ꩻပွုံႏတွမ်ႏ ပွုဒ်ကွို့ꩻ ပွုဒ်အုံ တဖူꩻနယ်ꩻမဲန်ႏမဲန်ႏနေား။
@@ -37,7 +37,7 @@ single-sentence = တဗာႏ
 small-batch-sentence = အလဲင်ႏပေႏ
 bulk-sentence = အလဲင်ႏအာ
 sentence-domain-combobox-label = ငေါဝ်းလိတ်ရဲဉ်ႏ ဒိုမေင်း
-sentence-domain-select-placeholder = လွိုက်ထူႏနွောင်ꩻဒျာႏ ဒိုမေင်း အောဝ်ႏသွံဗာႏ
+sentence-domain-select-placeholder = လွိုက်ထူႏနွောင်ꩻဒျာႏ ဗꩻတွိုႏ ဒိုမေင်း သွံဗာႏ
 # Sentence Domain dropdown option
 agriculture_food = ဆို့ꩻရုဲင်တာႏတွမ်ႏအအံႏအအွꩻ
 # Sentence Domain dropdown option
