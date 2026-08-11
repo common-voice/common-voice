@@ -18,4 +18,5 @@ request-language-success-heading =
     ဘာႏသာႏငေါဝ်းငွါအတသာတာႏ ကွီကော့ꩻလိတ်ယိုသွူ။
 request-for-scripted-speech-toggle = ကွီကော့ꩻ ဒေါ့ꩻငေါဝ်းအက္ခရာႏအတာႏ
 request-for-spontaneous-speech-toggle = ကွီကော့ꩻ တောင်ꩻခါလဲင်ႏ ဒေါ့ꩻငေါဝ်းဖုံႏ အတာႏ
+request-language-already-available-scs = ယိုခါနောဝ်ꩻ လိတ်ယာႏ ဒေါ့ꩻငေါဝ်း အောဝ်ႏလꩻနွောင်ꩻလဲဉ်းသွူ။
 request-language-already-available-sps = ယိုခါနောဝ်ꩻ တောင်ꩻခါလဲင်ႏဒေါ့ꩻငေါဝ်း အောဝ်ႏလꩻနွောင်ꩻလဲဉ်းသွူ။
