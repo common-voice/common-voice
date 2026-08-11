@@ -46,6 +46,9 @@ just-unsure-explanation = မိဉ်ႏခွဲးကျုံႏဗာႏ �
 ## Sentence collection nav ids
 
 public-domain = ခမ်းသားလိုꩻအာပဲင်ႏ
+adding-sentences = အောဝ်ႏထဲမ်သော့ꩻ ငေါဝ်းလိတ်ရဲဉ်ႏဖုံႏ
+reviewing-sentences = အောဝ်ႏထွားစဲစ် ဝါကျလိတ်ရဲဉ်ႏ
+sentence-domain = ငေါဝ်းလိတ်ရဲဉ်ႏ ဒိုမေင်း
 
 ## Sentence collection sidebar content
 
