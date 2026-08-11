@@ -18,5 +18,12 @@ toogle-mouse-keyboard = ပြောင်ꩻထာꩻအွဉ်ႏနယ်
 tag-page-shortcut-tag-undo = Ctrl / CMD + Z
 undo = မာꩻထွာတောဝ်း
 select-all = လွိုက်ထူႏလို့ ကားကအောဝ်ႏ
+# Messages
+tag-success-toast-message = ဒင်ႏပသာထင်ႏ ဟဲ့ꩻရဲဉ်ႏဖုံႏ အောင်ႏဗꩻလဲဉ်း။
 tag-error-toast-message = အောဝ်ႏ ဒင်ႏပသာ ဟဲ့ꩻရဲဉ်ႏဖုံႏတွင်ꩻ ထွာအမာႏ
 cs-tag-shortcuts-section-title = သွုံꩻအီ ကီးဗုတ်
+cs-tag-shortcuts-guideline-1 = <key>၁</key>-<key>{ $numLanguages }</key> တွမ်ႏဘာႏသာႏငေါဝ်းငွါ ဟဲ့ꩻရဲဉ်ႏ
+cs-tag-shortcuts-guideline-2 = <key>{ tag-page-shortcut-toogle-mouse-keyboard }</key> { toogle-mouse-keyboard }
+cs-tag-shortcuts-guideline-3 = <key>{ tag-page-shortcut-remove-tags }</key>{ remove-tags }
+cs-tag-shortcuts-guideline-4 = <key>{ tag-page-shortcut-select-all }</key>{ select-all }
+cs-tag-shortcuts-guideline-5 = <key>{ tag-page-shortcut-tag-undo }</key>{ undo }
