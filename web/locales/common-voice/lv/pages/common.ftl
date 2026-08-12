@@ -62,6 +62,7 @@ byv = Medumba
 ca = Katalāņu
 cak = Kaqchikel
 cdo = Austrumminu
+ce = Čečenu
 cgg = Chiga
 cjk = Chokwe
 ckb = Centrālā kurdi
@@ -460,6 +461,8 @@ indicates-required = * Obligātie lauki
 not-available-abbreviation = N/A
 # Text shown on a button that can be clicked to copy text to the clipboard
 copy = Ievietot starpliktuvē
+# Text shown on a button that can be clicked to close a modal or panel
+close = Aizvērt
 # Text shown on a button that can be clicked to cancel an action
 cancel = Atcelt
 # Text shown on a button that can be clicked to delete an item
@@ -485,3 +488,15 @@ announcement-mdc-text = <strong>Jaunās Common Voice datu kopas</strong> tagad i
 announcement-mdc-button-text = Pievienojieties Mozilla datu kolektīvam
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = Atveras jaunā cilnē
+
+## Common Language/Dataset Selector & SearchBox Related
+
+searchbox-default-placeholder = Meklēt...
+searchbox-default-aria-label = Meklēt
+dropdown-no-results = Nekas netika atrasts
+# Common Voice Dataset=Language search box
+dataset-searchbox-label = Maina gan attēlojamo, gan datu kopas valodu
+dataset-searchbox-placeholder = Meklēt valodu...
+dataset-searchbox-aria-label = Meklēt valodu
+dataset-search-no-results = Netika atrasta neviena atbilstoša valoda
+request-new-language = Pieprasīt jaunu valodu
