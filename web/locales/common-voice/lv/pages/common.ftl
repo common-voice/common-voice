@@ -491,6 +491,8 @@ announcement-mdc-button-aria-text = Atveras jaunā cilnē
 
 ## Common Language/Dataset Selector & SearchBox Related
 
+# Generic search box defaults
+searchbox-default-label = Sāc rakstīt, lai meklētu
 searchbox-default-placeholder = Meklēt...
 searchbox-default-aria-label = Meklēt
 dropdown-no-results = Nekas netika atrasts
