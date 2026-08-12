@@ -87,3 +87,5 @@ player-play-button-aria-label = Atskaņot skaņu
 player-pause-button-aria-label = Pārtraukt atskaņošanu
 # Normal playback speed button accessibility/aria label
 player-speed-normal-aria-label = Parasts atskaņošanas ātrums
+# Auto transcription mode button accessibility/aria label
+transcription-mode-auto-aria-label = Pārslēgt automātisko vārds pa vārdam atskaņošanu
