@@ -22,9 +22,14 @@ select-all = လွိုက်ထူႏလို့ ကားကအောဝ်
 # Messages
 tag-success-toast-message = ဒင်ႏပသာထင်ႏ ဟဲ့ꩻရဲဉ်ႏဖုံႏ အောင်ႏဗꩻလဲဉ်း။
 tag-error-toast-message = အောဝ်ႏ ဒင်ႏပသာ ဟဲ့ꩻရဲဉ်ႏဖုံႏတွင်ꩻ ထွာအမာႏ
+tag-empty-submit-error =
+    ဖေႏပသာတာႏ လိတ်ယာႏအဲဉ်ထောဝ်း။ 
+    မာꩻအွဉ်ရီးသွော့ ဟဲ့ꩻရဲန်ႏ လိတ်ယာႏယင်ဟန်ႏ။
 # Code switching Guidelines
 cs-tag-do-guideline-1 = တဲမ်းသွုံꩻမဲန်ႏမဲန်ႏသွော့ တဲမ်းဆင်းလိတ်ဖြုံႏယို
 cs-tag-do-guideline-2 = လွေꩻစွဲးကမ်း သွုံꩻအီ အငေါဝ်းထန်ႏ
+cs-tag-do-guideline-3 = အွဉ်ႏတသွောင်သွောင်သွော့ ငေါဝ်းရာႏလိတ်ဖြုံႏပီဗွိုန်ဝင်ꩻဖုံႏ
+cs-tag-do-not-guideline-1 = ဟဲ့ꩻရဲန်ႏဖေႏသွော့ ရော့ꩻဟောဝ်ဒါႏ မဉ်ꩻဖုံႏ၊ အောဝ်ႏရောဝ်းငီꩻဒါႏ ငေါဝ်းငွါဖုံႏ မွေးတောဝ်းလဲ့ ဒေါ့ꩻရိုꩻသော့ꩻ ငေါဝ်းအွဉ်ဖုံႏဟုဲင်း။
 cs-tag-shortcuts-section-title = သွုံꩻအီ ကီးဗုတ်
 cs-tag-shortcuts-guideline-1 = <key>၁</key>-<key>{ $numLanguages }</key> တွမ်ႏဘာႏသာႏငေါဝ်းငွါ ဟဲ့ꩻရဲဉ်ႏ
 cs-tag-shortcuts-guideline-2 = <key>{ tag-page-shortcut-toogle-mouse-keyboard }</key> { toogle-mouse-keyboard }
