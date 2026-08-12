@@ -75,6 +75,7 @@ variant-contribution-warning-subtitle = تۆھپە قوشۇشتا مەسىلىگ
 api-credentials-use-case-1 = ئاۋاز ئەۋرىشكىسىنى يوللاش
 api-credentials-use-case-2 = سانلىق مەلۇمات توپلىمىنى سۈرۈشتۈرۈش
 api-credentials-use-case-3 = ئاۋاز مودېلىنى تەھلىل قىلىش ۋە ياخشىلاش
+api-key-modal-confirmation-header = جەزملەشتۈرەمسىز؟
 # Genders
 male_masculine = ئەر
 female_feminine = ئايال

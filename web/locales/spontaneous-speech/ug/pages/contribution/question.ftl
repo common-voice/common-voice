@@ -2,6 +2,7 @@
 
 question-page-instruction = كىشىلەرنىڭ جاۋاب بېرىشى ئۈچۈن { $currentLocale } غا <icon></icon> سوئال قوشىدۇe
 add-question-textarea-placeholder = مەسىلەن، «تېخنىكىنى نېمىگە ئىشلىتىشنى خالايسىز؟»
+question-dataset-language = سانلىق مەلۇمات توپلىمى: { $datasetLanguage }
 add-question-error-message = يۈكلىيەلمىدى، قايتا سىناڭ.
 add-question-too-many-questions-error = سوئال 25 تىن ئېشىپ كەتتى. سوئالنى ئازايتىپ ئاندىن قايتا سىناڭ.
 # Guidelines
