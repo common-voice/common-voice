@@ -17,10 +17,14 @@ tag-page-shortcut-toogle-mouse-keyboard = ၀
 toogle-mouse-keyboard = ပြောင်ꩻထာꩻအွဉ်ႏနယ်
 tag-page-shortcut-tag-undo = Ctrl / CMD + Z
 undo = မာꩻထွာတောဝ်း
+tag-page-shortcut-select-all = အေ
 select-all = လွိုက်ထူႏလို့ ကားကအောဝ်ႏ
 # Messages
 tag-success-toast-message = ဒင်ႏပသာထင်ႏ ဟဲ့ꩻရဲဉ်ႏဖုံႏ အောင်ႏဗꩻလဲဉ်း။
 tag-error-toast-message = အောဝ်ႏ ဒင်ႏပသာ ဟဲ့ꩻရဲဉ်ႏဖုံႏတွင်ꩻ ထွာအမာႏ
+# Code switching Guidelines
+cs-tag-do-guideline-1 = တဲမ်းသွုံꩻမဲန်ႏမဲန်ႏသွော့ တဲမ်းဆင်းလိတ်ဖြုံႏယို
+cs-tag-do-guideline-2 = လွေꩻစွဲးကမ်း သွုံꩻအီ အငေါဝ်းထန်ႏ
 cs-tag-shortcuts-section-title = သွုံꩻအီ ကီးဗုတ်
 cs-tag-shortcuts-guideline-1 = <key>၁</key>-<key>{ $numLanguages }</key> တွမ်ႏဘာႏသာႏငေါဝ်းငွါ ဟဲ့ꩻရဲဉ်ႏ
 cs-tag-shortcuts-guideline-2 = <key>{ tag-page-shortcut-toogle-mouse-keyboard }</key> { toogle-mouse-keyboard }

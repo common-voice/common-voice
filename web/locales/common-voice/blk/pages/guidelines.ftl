@@ -56,14 +56,23 @@ sentence-domain = ငေါဝ်းလိတ်ရဲဉ်ႏ ဒိုမေ�
 ## Sentence collection sidebar content
 
 citing-sentences-subheader-websites = သုဲက်ပွိုင်ဖုံႏ
+citing-sentences-subheader-offline-sources = ပေ့ꩻနေးလုဲင်း အရွီးအခိုႏဖုံႏ
 citation =
     .label = ထူႏကွိုꩻအုံနောင်
 self-citation = ထူႏကွိုꩻအုံနောင်ချာနမ်းပဲင်ႏ
+adding-sentences-subheader-spelling-punctuation = ဆင်းလိတ်ဖြုံႏ တွမ်ႏ အွဉ်ႏသွတ်ꩻနယ်ꩻ
+adding-sentences-subheader-spelling-punctuation-explanation = တဲမ်းဆင်းခြွဉ်း မဲန်ႏမဲန်ႏဗာႏ လိတ်ရဲဉ်ႏ နေား။
+adding-sentences-subheader-speakable = ဒေါ့ꩻငေါဝ်းဒါႏ
 adding-sentences-subheader-numbers = အမုဲင်ဖုံႏ
 
 ## Question collection ids
 
 adding-questions = သော့ꩻလွေꩻ ငေါဝ်းရီဖုံႏ
+
+## Question collection sidebar content
+
+dont-add-subheader = သော့ꩻမွိုန်းတောဝ်း
+example-questions-subheader = ငေါဝ်းရီဖုံႏ ပွုံႏစံႏဥပမာႏ
 
 ## Spontaneous Speech sidebar content
 
@@ -71,9 +80,19 @@ adding-questions = သော့ꩻလွေꩻ ငေါဝ်းရီဖုံ
 answer-questions = ငေါဝ်းစေလောဝ်း ငေါဝ်းရီဖုံႏ
 answer-questions-subheader = တဖူꩻယီႏနယ်ꩻ အစွိုးစွိုးအသွုပ်သွုပ်
 transcribe-the-audio-subheader-3 = ကတဲးဝါးဒါႏ ဟဲ့ꩻရဲဉ်ႏဖုံႏ
+tags-table-header-1 = ဟဲ့ꩻရဲန်ႏ
+tags-table-header-2 = ကမဲဉ်ရိုꩻ အဓိပ္ပာယ်ႏ
+tags-unclear = တစဲင်းလေတောဝ်း
 
 ## Code-Switching
 
+adding-a-question = အောဝ်ႏသော့ꩻ ငေါဝ်းရီတဗာႏ
+code-switching-dont-header = မာꩻမွိုန်း
 # Transcribing
 code-switching-transcribe-subheader = လိတ်ယာႏမုဲင်တောင်ꩻ
 code-switching-not-tag-interjections-example-2 = “တောဝ်း”
+
+## Reporting Content
+
+reporting-content = အောဝ်ႏဒင်ႏလောဝ်းချာ အကျောင်ꩻခရာႏ
+reporting-content-subheader = တဖူꩻယီႏနယ်ꩻ အစွိုးစွိုးအသွုပ်သွုပ်
