@@ -49,7 +49,7 @@ why-donate-explanation-1 = Šī informācija nav jāsniedz obligāti - pievieno
 why-donate-explanation-2 = Lai balss tehnoloģija labi darbotos ikvienam, datiem, kas palīdz izstrādātājiem izveidot šo tehnoloģiju, ir jāatspoguļo daudzveidīgs cilvēku loks. Piemēram, ja mēs neiekļaujam nevienu runātāju ar noteiktu akcentu, tehnoloģija nedarbosies labi cilvēkiem ar šo akcentu. <learnMore>Uzziniet vairāk par to, kāpēc metadati ir svarīgi.</learnMore>
 add-information-button = Pievienot informāciju
 continue-speaking-button = Nē, paldies, turpināšu ierakstīt
-create-profile-text = Vai vēlaties saglabāt savu informāciju? <createProfile>Izveidojiet profilu</createProfile>
+create-profile-text = Vēlies saglabāt savu informāciju? <createProfile>Izveido profilu</createProfile>
 thanks-for-voice-toast = Paldies par balss informāciju
 thanks-for-voice-toast-error = Iesniedzot jūsu balss informāciju, radās kļūda
 first-cta-gender-select-default-option = Lūdzu izvēlieties
@@ -57,7 +57,7 @@ first-cta-gender-select-help-text =
     .label = Kā jūs raksturotu savu dzimumu?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Paldies, ka pievienojāt savas balss ierakstus!
-second-cta-subtitle-text = Izmantojot profilu, varēsiet sekot līdzi savai aktivitātei un sazināties ar balss datu vācēju kopienu.
+second-cta-subtitle-text = Ar profilu var sekot līdzi savām darbībām un sazināties ar balss datu līdzdalībnieku kopienu.
 already-have-an-account = Jums jau ir konts? <login>Pieslēdzieties</login>
 create-profile-button = Izveidot profilu
 # IMAGE TAGS

@@ -26,6 +26,10 @@ contribute = Veic ieguldījumu
 # Button text which appears when there are no more resources
 continue-with-skipped = Turpināt ar izlaistajiem
 
+## Common aria-labels
+
+keyboard-shortcuts-button-aria-label = Rādīt īsinājumtaustiņus
+
 ## Navbar
 
 question = Jautājums

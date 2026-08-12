@@ -10,8 +10,8 @@ error-skipping = Izlaižot jautājumu notikusi kļūda
 error-recording = Ierakstīšanas laikā notikusi kļūda
 error-fetching-prompts = Ielādējot jautājumu, radās kļūda. Lūdzu, mēģiniet vēlreiz nedaudz vēlāk.
 error-uploading-response = Saglabājot jūsu atbildi, notikusi kļūda
-prompt-submitted-success = Atbilde ir veiksmīgi saglabāta
-prompt-response-deleted-success = Atbilde veiksmīgi izdzēsta
+prompt-submitted-success = Atbilde sekmīgi iesniegta
+prompt-response-deleted-success = Atbilde sekmīgi izdzēsta
 # For the button to delete a response to a prompt
 delete = Dzēst
 # For the disabled button on a prompt that indicates a prompt is already submitted

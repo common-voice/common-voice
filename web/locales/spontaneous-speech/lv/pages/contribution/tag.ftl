@@ -20,7 +20,7 @@ undo = Atsaukt
 tag-page-shortcut-select-all = A
 select-all = Atlasīt visu
 # Messages
-tag-success-toast-message = Tagi veiksmīgi saglabāti
+tag-success-toast-message = Birkas sekmīgi iesniegtas
 tag-error-toast-message = Kļūda, iesniedzot tagus
 tag-empty-submit-error = Nav iesniedzama teksta. Lūdzu, vispirms pievienojiet tagus tekstam.
 # Code switching Guidelines

@@ -57,6 +57,7 @@
 
 #### Data Changes after current release
 
+- Welcome to new language: Mazandarani (`mzn`) (in v.1.159.7)
 - Welcome to new language: Pa'O (`blk`) (in v.1.159.5)
 - Add Hausa (`ha`) variants [#5451](https://github.com/common-voice/common-voice/pull/5451) by [@moz-acfort](https://github.com/moz-acfort) (in v.1.159.5)
 - Add Musi (`mui`) variants [#5440](https://github.com/common-voice/common-voice/pull/5440), Kabyle (`kab`) variants [#5445](https://github.com/common-voice/common-voice/pull/5445), and Frisian (`fy`) accents [#5448](https://github.com/common-voice/common-voice/pull/5448) by [@moz-acfort](https://github.com/moz-acfort) (in v.1.159.4)
@@ -68,6 +69,7 @@
 
 ##### SS Data Changes after current release
 
+- Fix problems in Corsican (`co`) questions by [@moz-acfort](https://github.com/moz-acfort) in [#551](https://github.com/common-voice/spontaneous-speech/pull/551) (in v.1.159.7)
 - Add Palauan (`pau`) and Sundanese (`su`) questions by [@moz-acfort](https://github.com/moz-acfort) in [#549](https://github.com/common-voice/spontaneous-speech/pull/549) and [#550](https://github.com/common-voice/spontaneous-speech/pull/550) (in v.1.159.6)
 - Add Bengali (`bn`) questions by [@moz-acfort](https://github.com/moz-acfort) in [#548](https://github.com/common-voice/spontaneous-speech/pull/548) (in v.1.159.3)
 

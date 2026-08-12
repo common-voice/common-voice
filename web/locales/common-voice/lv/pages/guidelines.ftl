@@ -69,14 +69,14 @@ sentence-domain = Teikuma joma
 ## Sentence collection sidebar content
 
 public-domain-explanation-1 = Ir ļoti svarīgi, lai visi teikumi būtu <publicDomain>publiskais domēns</publicDomain> (<cc0>cc0</cc0>), jo Common Voice datu kopa tiek izlaista ar cc0 licenci. Augšupielādējiet teikumu tikai tad, ja esat pārliecināts par tā publiskumu, un vienmēr iekļaujiet atsauci uz avotu.
-public-domain-explanation-2 = Labākie teikumi noderīga runas atpazīšanas rīka izveidei ir sarunvaloda, mūsdienīga valoda. Dažas idejas, kas palīdzēs ģenerēt teikumus, ir;
+public-domain-explanation-2 = Labākie teikumi noderīga runas atpazīšanas rīka izveidei ir sarunvaloda, mūsdienīga valoda. Dažas ierosinājumi, kas palīdzēs veidot teikumus, ir:
 public-domain-explanation-3 = Izveidojiet mūsdienīgus sarunvalodas teikumus pats vai kopā ar draugiem vai valodu kopienu, piemēram, rīkojot “rakstīšanas maratonu”
 public-domain-explanation-4 = Sazinieties ar autoriem, dramaturgiem vai scenāristiem un jautājiet, vai viņi būtu gatavi nodot nelielu daļu no saviem darbiem publiskajā īpašumā. Teikumus var publicēt alfabētiskā secībā, lai tas netraucētu kādiem darba autora mērķiem.
 public-domain-explanation-5 = Meklējiet tekstu, uz kuru autortiesības vairs neattiecas, piemēram, vairums grāmatu, kas izdotas pirms 1920. gada, šobrīd ir brīvi pieejamas ikvienam.
 public-domain-explanation-6 = Sazinieties ar valdībām, pašvaldībām, bezpeļņas organizācijām vai plašsaziņas līdzekļu organizācijām, lai noskaidrotu, vai kāda daļa no to tīmekļa zinām, ziņojumiem, atskaitēm vai citam saturam varētu būt nodots sabiedrības lietošanā.
 citing-sentences-explanation-1 = Ir svarīgi iekļaut atsauces, lai mēs varētu pārbaudīt, vai teikumi ir publiski pieejami un netiek piemēroti kādi autortiesību ierobežojumi.
-citing-sentences-subheader-websites = Mājaslapas
-citing-sentences-subheader-websites-explanation = Varat iekļaut mājaslapas adresi, piemēram, "Common Voice - https://commonvoice.mozilla.org/"
+citing-sentences-subheader-websites = Tīmekļvietnes
+citing-sentences-subheader-websites-explanation = Var iekļaut tīmekļvietnes adresi, piemēram, "Common Voice - https://commonvoice.mozilla.org/"
 citing-sentences-subheader-academic-reference = Akadēmiskā atsauce
 citing-sentences-subheader-academic-reference-explanation = Varat izmantot akadēmisko atsauces stilu, piemēram, Hārvardas stilu "Mozilla (2021) Common Voice. Pieejams vietnē https://commonvoice.mozilla.org/ (Piekļuve: 2021. gada 15. septembrī)"
 citing-sentences-subheader-offline-sources = Bezsaistes avoti
@@ -145,7 +145,7 @@ example-questions-explanation-2 = Ja vēlaties pievienot lielāku jautājumu kop
 # Answer Questions
 answer-questions = Atbildēt uz jautājumiem
 answer-questions-subheader = Vispārīgi norādījumi
-answer-questions-explanation-1 = Padomājiet mirkli par uzdevumu, apsveriet, ko vēlaties pateikt, bet nepārspīlējiet ar scenāriju. Noklikšķiniet uz ikonas “ierakstīt”. Kad esat ierakstījis, varat sevi noklausīties, ierakstīt atkārtoti, dzēst vai iesniegt.
+answer-questions-explanation-1 = Mirkli jāpadomā par uzvedni, jāapsver, ko ir vēlme pateikt, bet nevajag pārcensties ar scenāriju. Jāklikšķina uz ikonas “ierakstīt”. Tiklīdz ierakstīšana ir pabeigta, ierakstu var noklausīties, ierakstīt atkārtoti, izdzēst vai iesniegt.
 answer-questions-explanation-2 = Atcerieties — neuztraucieties, ja stostāties, pārtraucat vai atkārtojat vārdu. Šie visi ir noderīgi dati inženieriem, kuri cenšas izveidot iekļaujošus, reālās pasaules runas atpazīšanas rīkus.
 answer-questions-tip-1 = Ieraksti pietiekami klusā vietā
 answer-questions-tip-2 = Izvēlies vietu ar labu interneta pieslēgumu
