@@ -14,4 +14,4 @@ do-section-guideline-3 = ئۇلارنىڭ بىر قانچە جۈملە بىلە�
 do-not-section-title = قىلماي
 do-not-section-guideline-1 = شەخسنى پەرقلەندۈرىدىغان ئۇچۇر (ئىسىم ياكى مالىيە ئۇچۇرى) نى تەلەپ قىلماڭ
 do-not-section-guideline-2 = بىر تەرەپلىمە ۋە باشقىلارنى تېرىكتۈرىدىغان جۈملە يوللاش ياكى يېتەكلەشتىن ساقلىنىڭ
-do-not-section-guideline-3 = سەزگۈر سوئاللارنى سوراش
+do-not-section-guideline-3 = سەزگۈر سوئال سوراش
