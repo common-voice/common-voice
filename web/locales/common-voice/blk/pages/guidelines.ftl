@@ -56,14 +56,18 @@ sentence-domain = ငေါဝ်းလိတ်ရဲဉ်ႏ ဒိုမေ�
 ## Sentence collection sidebar content
 
 citing-sentences-subheader-websites = သုဲက်ပွိုင်ဖုံႏ
+citing-sentences-subheader-academic-reference = ပညာႏဖဲ့ꩻထွောင်း ထာꩻထူႏကွိုꩻအုံနောင်ခရာႏ
 citing-sentences-subheader-offline-sources = ပေ့ꩻနေးလုဲင်း အရွီးအခိုႏဖုံႏ
 citation =
     .label = ထူႏကွိုꩻအုံနောင်
 self-citation = ထူႏကွိုꩻအုံနောင်ချာနမ်းပဲင်ႏ
+adding-sentences-subheader-length = ထိုဆွာꩻ
 adding-sentences-subheader-spelling-punctuation = ဆင်းလိတ်ဖြုံႏ တွမ်ႏ အွဉ်ႏသွတ်ꩻနယ်ꩻ
 adding-sentences-subheader-spelling-punctuation-explanation = တဲမ်းဆင်းခြွဉ်း မဲန်ႏမဲန်ႏဗာႏ လိတ်ရဲဉ်ႏ နေား။
 adding-sentences-subheader-speakable = ဒေါ့ꩻငေါဝ်းဒါႏ
 adding-sentences-subheader-numbers = အမုဲင်ဖုံႏ
+adding-sentences-subheader-punctuation = အွဉ်ႏသွတ်ꩻနယ်ꩻ
+adding-sentences-subheader-offensive-content = ထာꩻမွိုက်ရွိုင်ꩻ အကျောင်ꩻခရာႏ
 
 ## Question collection ids
 
@@ -71,7 +75,11 @@ adding-questions = သော့ꩻလွေꩻ ငေါဝ်းရီဖုံ
 
 ## Question collection sidebar content
 
+easy-to-understand = သေနာႏယိုꩻယိုꩻဗာႏ
+spelling-and-pronunciation = ဆင်းလိတ်ဖြုံႏ တွမ်ႏ အွဉ်ႏသွတ်ꩻနယ်ꩻ
+length = ထိုဆွာꩻ
 dont-add-subheader = သော့ꩻမွိုန်းတောဝ်း
+process-steps = ထာꩻမာꩻရဲဉ်ႏ/အရန်းဖုံႏ
 example-questions-subheader = ငေါဝ်းရီဖုံႏ ပွုံႏစံႏဥပမာႏ
 
 ## Spontaneous Speech sidebar content
@@ -79,17 +87,31 @@ example-questions-subheader = ငေါဝ်းရီဖုံႏ ပွုံ�
 # Answer Questions
 answer-questions = ငေါဝ်းစေလောဝ်း ငေါဝ်းရီဖုံႏ
 answer-questions-subheader = တဖူꩻယီႏနယ်ꩻ အစွိုးစွိုးအသွုပ်သွုပ်
+transcribe-the-audio-subheader-1 = တဖူꩻယီႏနယ်ꩻ အစွိုးစွိုးအသွုပ်သွုပ်
 transcribe-the-audio-subheader-3 = ကတဲးဝါးဒါႏ ဟဲ့ꩻရဲဉ်ႏဖုံႏ
 tags-table-header-1 = ဟဲ့ꩻရဲန်ႏ
 tags-table-header-2 = ကမဲဉ်ရိုꩻ အဓိပ္ပာယ်ႏ
+tags-laugh = ထိုဆွာꩻ
 tags-unclear = တစဲင်းလေတောဝ်း
+
+## Review the Transcription
+
+review-the-transcription = ထွားစဲစ်ချာ လိတ်ယာႏမုဲင်ခြောင်ꩻ
+review-the-transcription-subheader = တဖူꩻယီႏနယ်ꩻ အစွိုးစွိုးအသွုပ်သွုပ်
 
 ## Code-Switching
 
+code-switching = အောဝ်ႏလုဲင်ႏလွေꩻ ကိုဒ်
 adding-a-question = အောဝ်ႏသော့ꩻ ငေါဝ်းရီတဗာႏ
 code-switching-dont-header = မာꩻမွိုန်း
+# Reviewing a Question
+code-switching-review-subheader = အောဝ်ႏထွားစဲစ်ချာ ငေါဝ်းရီတဗာႏ
+# Answering a Question
+code-switching-answer-subheader = အောဝ်ႏစေလောဝ်းချာ ငေါဝ်းရီတဗာႏ
 # Transcribing
 code-switching-transcribe-subheader = လိတ်ယာႏမုဲင်တောင်ꩻ
+# Tagging
+code-switching-tagging-subheader = အောဝ်ႏဟဲ့ꩻရဲန်ႏ
 code-switching-not-tag-interjections-example-2 = “တောဝ်း”
 
 ## Reporting Content
