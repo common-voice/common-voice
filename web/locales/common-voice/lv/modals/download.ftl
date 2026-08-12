@@ -1,6 +1,6 @@
 ## Download Modal
 
-download-title = Jūsu lejupielāde ir sākusies.
+download-title = Lejupielāde ir uzsākta.
 download-helpus = Palīdziet mums veidot balss tehnoloģiju kopienu, sazināties ar e-pastu.
 download-form-email =
     .label = Ievadi savu e-pastu

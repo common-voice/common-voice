@@ -259,6 +259,7 @@ mvy = Indus Kohistani
 mxu = Mada
 my = Burmese
 myv = Erzya
+mzn = Mazandarani
 nan-tw = Taiwanese (Minnan)
 nb-NO = Norwegian Bokmål
 ncx = Central Puebla Nahuatl

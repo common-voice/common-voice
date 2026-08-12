@@ -37,7 +37,7 @@ avatar = Avatārs
 goals = Mērķi
 settings = Iestatījumi
 edit-profile = Rediģēt profilu
-profile-create-success = Profils izveidots veiksmīgi!
+profile-create-success = Profils izveidots sekmīgi.
 profile-close = Aizvērt
 profile-explanation = Sekojiet savam progresam ar savu profilu un palīdziet mūsu balss datiem būt precīzākiem.
 thanks-for-account = Paldies, ka apstiprinājāt savu kontu, tagad izveidosim jūsu profilu.
@@ -79,11 +79,14 @@ api-credentials-description-conclusion = Pievienojieties mums, lai attīstītu b
 create-api-key-button = Izveidot API pieteikšanās datus
 your-api-keys = Tavi API pieteikšanās dati
 no-api-keys-header = <bold>Pašlaik jūsu kontam nav piesaistīti API akreditācijas dati.</bold>
-no-api-keys-description = Lai izveidotu savu pirmo API atslēgu, noklikšķiniet uz "Izveidot API akreditācijas datus", pēc tam piešķiriet nosaukumus saviem API akreditācijas datiem un ģenerējiet unikālus API akreditācijas datus, noklikšķinot uz "Ģenerēt akreditācijas datus". Pēc tam nekavējoties nokopējiet slepeno atslēgu, jo tā tiks parādīta tikai vienu reizi.
+no-api-keys-description =
+    Lai izveidotu savu pirmo API atslēgu, jāklikšķina uz “Izveidot API pieteikšanās datus”,
+    pēc tam jāpiešķir nosaukums saviem API pieteikšanās datiem un jāveido neatkārtojami API pieteikšanās dati ar klikšķināšanu uz "Veidot pieteikšanās datus". Pēc tam slepenā atslēga jākopē,
+    jo tā tiks parādīta tikai vienu reizi.
 api-key-name-input =
     .label = API pieteikšanās datu nosaukums
-create-api-key-header = <bold>Svarīgs paziņojums: API akreditācijas datu ģenerēšana</bold>
-create-api-key-description = Noklikšķinot uz “Ģenerēt akreditācijas datus”, jūsu kontam tiks izveidoti unikāli akreditācijas dati. Drošības apsvērumu dēļ slepenā atslēga tiek parādīta <bold>tikai vienu reizi</bold>. Lūdzu, nokopējiet un glabājiet to droši. Ja tā tiek pazaudēta, jums ir jāģenerē jauna atslēga, jo to nevar atgūt.
+create-api-key-header = <bold>Svarīgs paziņojums: API pieteikšanās datu veidošana</bold>
+create-api-key-description = Pēc klikšķināšanas uz “Izveidot pieteikšanās datus” kontā tiks izveidoti neatkārtojami pieteikšanās dati. Drošības apsvērumu dēļ slepenā atslēga tiek parādīta <bold>tikai vienu reizi</bold>. Lūgums kopēt un glabāt to drošā vietā. Ja tā tiek pazaudēta, ir jāizveido jauna atslēga, jo to nevar atgūt.
 create-api-key-agreement = Apstiprinu, ka nemēģināšu atpazīt runātājus Common Voice datu kopā.
 generate-api-key-button = Izveidot pieteikšanās datus
 save-api-key-info = <bold>Glabā savas atslēgas drošā veidā</bold>
@@ -91,7 +94,7 @@ save-api-key-info-description = Glabājiet savas atslēgas droši un izvairietie
 api-key-name-display-label = API pieteikšanās datu nosaukums
 api-client-secret-display-label = API klienta noslēpums
 api-client-id-display-label = API klienta ID
-api-key-modal-confirmation-header = Vai esi pārliecināts?
+api-key-modal-confirmation-header = Vai tiešām?
 cancel-api-key-confirmation-description = Vai tiešām atcelt API pieteikšanās datu izveidošanu?
 delete-api-key-confirmation-description = Vai tiešām vēlaties dzēst API akreditācijas datus <bold>{ $apiKeyName } </bold>? Šo darbību nevar atsaukt.
 create-api-key-error-toast-message = Kļūda API piekļuves datu izveidošanā

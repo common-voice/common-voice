@@ -60,7 +60,7 @@ report-offensive-speech = Aizvainojoša runa
 report-offensive-speech-detail = Ierakstā izmantota necienīga vai aizskaroša valoda.
 report-other-comment =
     .placeholder = Komentēt
-success = Veiksmīgi
+success = Sekmīgi
 continue = Turpināt
 report-success = Ziņojums sekmīgi nosūtīts!
 

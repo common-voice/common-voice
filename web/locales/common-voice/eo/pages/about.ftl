@@ -91,6 +91,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 
 about-playbook-how-localize = Kiel funkcias la traduko de la retejo?
 about-playbook-how-localize-content-1 = La traduko de la retejo de Common Voice okazas ĉe <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Kreu konton</pontoonAccountLink>, se vi ne havas unu. Poste, elektu la <strong>(‘teamon’)</strong> de via lingvo kaj poste la projekton <pontoonCvLink>Common Voice</pontoonCvLink>. Tie estos dosieroj por traduki. Alklaku iun, kaj videblos la vortojn en la angla kaj tekstan kampo por skribi la tradukon.
 about-playbook-how-localize-content-4 = La retejo estos preta por lanĉo kiam ĝi atingos 75%-an kompletigon.
 about-playbook-how-localize-content-5 = Spektu nian klarigan video kiel helpon
 

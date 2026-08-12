@@ -262,6 +262,7 @@ mvy = Indus Kohistani
 mxu = Mada
 my = Barmština
 myv = Erzja
+mzn = Mazandarani
 nan-tw = Tchajwanština (Minnan)
 nb-NO = Norština (Bokmål)
 ncx = Střední Puebla Nahuatl

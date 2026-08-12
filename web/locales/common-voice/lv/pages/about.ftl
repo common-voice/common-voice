@@ -49,7 +49,7 @@ about-get-involved-text-2 =
     forumu, ziņojiet par submit problēmām <githubLink>GitHub</githubLink>, vai pievienojieties <matrixLink>Matrix</matrixLink> kopienas tērzētavai.
 about-stay-in-touch = Kā es varu sazināties?
 about-stay-in-touch-button = Pierakstīties
-about-stay-in-touch-text-1 = <emailFragment>Reģistrējieties</emailFragment> mūsu e-pasta jaunumiem, lai uzzinātu, kā varat piedalīties kampaņās, pasākumos un Common Voice kopprojektēšanas aktivitātēs.
+about-stay-in-touch-text-1 = <emailFragment>Pieraksties</emailFragment> mūsu e-pasta jaunumiem, lai uzzinātu, kā vari piedalīties kampaņās, pasākumos un Common Voice kopprojektēšanas darbībās.
 about-stay-in-touch-text-2 = Jūs varat satikt citus Mozilla valodu kopienas dalībniekus, pievienojoties <discourseLink>Discourse</discourseLink> aktuālajām sarunām vai <matrixLink>Matrix</matrixLink>, lai saņemtu ātrus padomus.
 about-nav-why-common-voice = Kāpēc?
 about-nav-how-it-works = Kā?
@@ -110,7 +110,7 @@ about-playbook-how-record-quality = Kā ierakstīt augstas kvalitātes ierakstu?
 about-playbook-how-record-content-1 = Runājiet savā parastajā balsī! Jūsu runas veids ir apsveicams - mēs vēlamies, lai jūsu akcents būtu tāds, kāds tas ir, un mēs vēlamies jūsu ierasto skaļumu, stilu un intonāciju.
 about-playbook-how-record-content-2 = Izvairieties no pārāk liela fona trokšņa — Jūs jāvar viegli saklausīt.
 about-playbook-how-record-content-3 = Uzmanīgi izlasiet teikumus - neizlaidiet, nemainiet un nepievienojiet vārdus.
-about-playbook-how-record-content-4 = Pārliecinieties, ka ieraksts ir sācies, pirms sākat runāt, un apturiet ierakstu tikai tad, kad esat pabeiguši runāt.
+about-playbook-how-record-content-4 = Jāpārliecinās, ka ieraksts ir sācies, pirms sāc runāt, un ierakstu apturi tikai tad, kad beidzi.
 about-playbook-how-record-content-5 = <accuracyLink>Skatiet vairāk par to kā pareizi ierakstīt.</accuracyLink>
 
 ## How to grow language
