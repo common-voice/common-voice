@@ -4,7 +4,7 @@ tag-page-instruction = Atlasiet <icon></icon> tekstu, lai sāktu
 tag-terms-checkbox = Es piekrītu Common Voice noteikumiem un konfidencialitātes politikai.
 tag-popover-title = Atlasiet tagu
 select-a-tag = Atlasiet tagu
-edit-tag = Rediģēt tagu
+edit-tag = Labot tagu
 # Shortcuts modal
 tag-page-shortcut-tag-language-1 = 1
 tag-page-shortcut-tag-language-2 = 2

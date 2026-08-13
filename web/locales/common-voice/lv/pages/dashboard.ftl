@@ -83,7 +83,7 @@ goal-share-text = Es tikko izveidoju savu balss talkas mērķi #CommonVoice - pi
 weekly-goal-created = Jūsu nedēļas mērķis ir izveidots
 daily-goal-created = Jūsu ikdienas mērķis ir izveidots
 track-progress = Sekojiet progresam šeit statistikas lapā.
-return-to-edit-goal = Atgriezieties šeit, lai jebkurā laikā rediģētu mērķi.
+return-to-edit-goal = Atgriezies šeit, lai jebkurā laikā labotu savu mērķi!
 share-goal = Dalies ar savu mērķi
 
 ## Goals
