@@ -7,7 +7,12 @@ action-tap = တေက်ꩻ
 # Label for language switcher
 platform-language = ခြေင်ႏထိုလောင်း ဘာႏသာႏငေါဝ်းငွါ
 platform-language-tooltip-text = ပြောင်ꩻလုဲင်ႏကွို့ꩻ ဝဲက်သုဲက်ပွိုင်လိတ်ယာႏ လွုမ်ꩻငါ
+# Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
+contribution-picker-label = စွဲးကမ်းကိုလွေꩻ <bold>{ $language }</bold> အဆင်ႏဗာႏခြွဉ်း
+contribution-picker-tooltip-text = ပြောင်ꩻလုဲင်ႏဖေႏသွော့ နာꩻကအောဝ်ႏစွဲးကမ်းကိုဒါႏ ဘာႏသာႏငေါဝ်းငွါ အဆင်ႏခြွဉ်းဗူႏယိုဟုဲင်း
 coming-soon = ထဲင်းယင်း ဘာႏသာႏငေါဝ်းငွါဖုံႏ တညတောဝ်းအီႏလွဉ်သွူ
+media-recorder-api-not-supported = မီဒီယာရီကောဒါ အေပီအုဲင် ယိုနောဝ်ꩻ တစွဲးထဲမ်ဖေႏတောဝ်း နာꩻဗရောင်သာကိုသွူ။
 # Toast message that is displayed when an item is skipped
 skipped = ကာႏလဲဉ်း
 audioplayer-header = နာႏငေါဝ်း
@@ -39,6 +44,9 @@ tag = ဟဲ့ꩻရဲန်ႏ
 ## Not Found Page
 
 not-found-page-header = မော့ꩻတောဝ်း
+not-found-page-content = နာꩻကအောဝ်ႏထိုမ်ႏထွားဒါႏ လိတ်မဲ့ငါအတာႏ တမော့ꩻတောဝ်းသွူ
+# Privacy and Terms checkbox
+accept-privacy-and-terms = ကောင်မွဉ်းဗွဲက် <termsLink>တဖွောင်ꩻရဲးကမ်းဖုံႏ</termsLink> တွမ်ႏ <privacyLink>ဖေႏသေဗာႏ နမ်းလိုမ်းဗိဉ်ႏဖဲ့ꩻခေါ်ခေါ်တာႏ</privacyLink>ဖုံႏယို ခွေ သꩻဖေါ်ꩻအောဝ်ႏဗွိုန်ပီဒျာႏသွူ
 # Locales-Variants
 ms-MY = ဗဟာသာ မာလေး
 el-CY = သုဲက်ပရပ် ဂရိ
