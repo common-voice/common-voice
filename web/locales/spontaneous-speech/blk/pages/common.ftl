@@ -55,6 +55,7 @@ el-CY = သုဲက်ပရပ် ဂရိ
 
 language-search-placeholder = ထိုမ်ႏထွား ဘာႏသာႏငေါဝ်းငွါတဗာႏ...
 language-search-aria-label = ထိုမ်ႏထွား ဘာႏသာႏငေါဝ်းငွါတဗာႏ
+language-search-label = ပြောင်ꩻလုဲင်ႏဗာႏကွို့ꩻ ကစွဲးကမ်းကိုဒါႏ ဘာႏသာႏငေါဝ်းငွါသီး အဆင်ႏခြွဉ်းဗူႏလွုမ်ꩻသွူ
 language-search-no-results = တမော့ꩻတောဝ်း ဘာႏသာႏငေါဝ်းငွါဖုံႏ
 
 ## Transcription Player - Mode Buttons
@@ -89,3 +90,9 @@ player-skip-forward-shortcut-name = လꩻဆုꩻဟောဝ်ဖုံႏ
 player-play-button-aria-label = ဗွောင်လွူꩻ အငေါဝ်း
 # Pause button accessibility/aria label
 player-pause-button-aria-label = အွဉ်ႏဆွိုး အငေါဝ်း
+# Skip back button accessibility/aria label
+player-skip-backward-aria-label = ကာႏသဲင်ꩻချာ ၅ သဲက္ကန့်
+# Skip forward button accessibility/aria label
+player-skip-forward-aria-label = ကာႏလွေꩻငါ ၅ သဲက္ကန့်
+# Audio playback progress slider accessibility/aria label
+player-progress-slider-aria-label = ဗွောင်လွူꩻချာအငေါဝ်း  မာꩻထင်ႏထိုအီတာႏ စူပက်
