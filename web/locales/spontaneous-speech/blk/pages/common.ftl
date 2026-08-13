@@ -96,3 +96,9 @@ player-skip-backward-aria-label = ကာႏသဲင်ꩻချာ ၅ သဲ�
 player-skip-forward-aria-label = ကာႏလွေꩻငါ ၅ သဲက္ကန့်
 # Audio playback progress slider accessibility/aria label
 player-progress-slider-aria-label = ဗွောင်လွူꩻချာအငေါဝ်း  မာꩻထင်ႏထိုအီတာႏ စူပက်
+# Toggle speed and transcription mode menu button
+player-toggle-mode-menu-aria-label = လုဲင်ႏသွော့ လွိုက်ခရာႏ အနေန်
+# Slower playback speed button accessibility/aria label
+player-speed-slow-aria-label = ဗွောင်လွူꩻချာ ယွယွစား
+# Faster playback speed button accessibility/aria label
+player-speed-fast-aria-label = ဗွောင်လွူꩻချာ အမွိုင်သွတ်ꩻစား
