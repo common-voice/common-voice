@@ -85,7 +85,11 @@ player-skip-forward-shortcut-key = Ctrl/Cmd + 9
 player-play-button-aria-label = Atskaņot skaņu
 # Pause button accessibility/aria label
 player-pause-button-aria-label = Pārtraukt atskaņošanu
+# Slower playback speed button accessibility/aria label
+player-speed-slow-aria-label = Mazāks atskaņošanas ātrums
 # Normal playback speed button accessibility/aria label
 player-speed-normal-aria-label = Parasts atskaņošanas ātrums
+# Faster playback speed button accessibility/aria label
+player-speed-fast-aria-label = Lielāks atskaņošanas ātrums
 # Auto transcription mode button accessibility/aria label
 transcription-mode-auto-aria-label = Pārslēgt automātisko vārds pa vārdam atskaņošanu
