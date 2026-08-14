@@ -85,5 +85,6 @@ about-playbook-how-add-sentences = 我可以點樣新增句子？
 
 ## How to grow language
 
+about-playbook-how-grow-language = 如何在 Common Voice 上有效地發展一種語言？
 about-playbook-how-grow-language-content-2 = 活動
 about-playbook-how-grow-language-content-4 = 社交媒體
