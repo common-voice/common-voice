@@ -57,7 +57,7 @@ review-error = Pārskatot teikumu, notikusi kļūda
 review-error-rate-limit-exceeded = Jūs strādājat pārāk ātri. Lūdzu veltiet mirkli, lai pārliecinātos, ka teikumi ir pareizi.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Mēs veicam dažas lielas izmaiņas
-sc-redirect-page-subtitle-1 = Teikumu apkopošanas rīks pāriet uz Common Voice platformu. Tagad varat <writeURL>pievienot</writeURL> un <reviewURL>pārbaudīt</reviewURL> teikumus Common Voice sistēmā.
+sc-redirect-page-subtitle-1 = Teikumu apkopošanas rīks pāriet uz Common Voice platformu. Tagad teikumus var<writeURL>pievienot</writeURL> un <reviewURL>pārbaudīt</reviewURL> Common Voice.
 sc-redirect-page-subtitle-2 = Uzdodiet mums jautājumus <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> vai rakstot <emailLink>e-pastu</emailLink>.
 # menu item
 review-sentences = Pārbaudīt teikumus
