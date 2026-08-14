@@ -100,5 +100,11 @@ player-progress-slider-aria-label = ဗွောင်လွူꩻချာအ�
 player-toggle-mode-menu-aria-label = လုဲင်ႏသွော့ လွိုက်ခရာႏ အနေန်
 # Slower playback speed button accessibility/aria label
 player-speed-slow-aria-label = ဗွောင်လွူꩻချာ ယွယွစား
+# Normal playback speed button accessibility/aria label
+player-speed-normal-aria-label = ဗွောင်လွူꩻချာ အမဲန်ႏ
 # Faster playback speed button accessibility/aria label
 player-speed-fast-aria-label = ဗွောင်လွူꩻချာ အမွိုင်သွတ်ꩻစား
+# Auto transcription mode button accessibility/aria label
+transcription-mode-auto-aria-label = ပြောင်ꩻလွေꩻ အောဝ်ႏလွိုႏကာႏ ဗွောင်လွူꩻချာ လဲင်ႏငွါငွါစား
+# Mode menu button accessibility/aria label
+transcription-mode-menu-aria-label = လုဲင်ႏသွော့ ထူႏလွိုက်လꩻ တဲမ်းလိတ်ယာႏ
