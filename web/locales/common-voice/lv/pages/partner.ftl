@@ -13,7 +13,7 @@ partnerships-academia-header = Universitātes, akadēmiķi un pētnieki
 partnerships-academia-description = Atvērta inovācija ir mūsu darbības pamatā. Lai sadarbotos pētniecībā, vāktu datus vai veiktu intervijas, <emailFragment>sazinieties ar mums.</emailFragment>
 partnerships-small-business-header = Mazie uzņēmumi, tostarp tehnoloģiju un mākslīgā intelekta jaunuzņēmumi
 partnerships-small-business-description = Mēs vienmēr vēlamies dzirdēt no datu patērētājiem par viņu vajadzībām un kontekstu - no sadarbības datu vākšanas platformā līdz datu veselības ieskatu sniegšanai, mēs vēlamies <emailFragment>uzklausīt jūs.</emailFragment>
-partnerships-corporates-header = Liela mēroga korporācijas un platformu uzņēmumi
+partnerships-corporates-header = Liela mēroga uzņēmumi un platformu uzņēmumi
 partnerships-corporates-description = Ja vēlaties runāt vairāk par datu kopu, līdzinvestēt plānotos platformas paplašināšanā vai meklēt sadarbības iespējas, <emailFragment>rakstiet mums.</emailFragment>
 partnerships-our-partners = Mūsu partneri
 # menu item
