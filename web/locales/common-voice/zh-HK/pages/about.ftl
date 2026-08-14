@@ -58,6 +58,7 @@ about-nav-playbook = 了解點樣成爲我哋一份子
 
 about-playbook-what-is-language = Common Voice 入面嘅「語言」係乜嘢？
 about-playbook-what-is-language-content-1 = 對語言嘅睇法有好多種。以語音識別模型嘅用途嚟講，Common Voice 建議集中喺「容易互相理解」或者「如果呢種語言嘅講者想互相理解，佢哋做唔做得到？」
+about-playbook-what-is-language-content-2 = 我們希望語音模型能更擅長理解各種不同的說話者。要達成這一點，語音資料集必須涵蓋大量不同背景的人。
 about-playbook-what-is-language-content-3 = 有啲語言嘅文法、詞彙同發音差異可以好大。因此，我哋喺 2022 年<ctaLink>引入咗「語言變體」</ctaLink>。令各個社群能夠喺更完善嘅數據集中準確識別語言。
 
 ## How do I add a language
@@ -77,11 +78,23 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 
 about-playbook-how-localize = 網站本地化點樣做㗎？
 about-playbook-how-localize-content-1 = Common Voice 網站嘅翻譯喺 <strong>Pontoon</strong> 平台上面進行。
+about-playbook-how-localize-content-2 = 如果您還沒有帳戶，請在<pontoonAccountLink>建立帳戶</pontoonAccountLink>。接著，選擇您的語言（<strong>「團隊」</strong>），然後選擇專案<pontoonCvLink>Common Voice</pontoonCvLink>。系統會顯示待翻譯的檔案，點選其中一個，畫面就會顯示英文內容以及供您輸入翻譯的方塊。
+about-playbook-how-localize-content-3 = 翻譯的來源語是英文，但您可以看到其他語言的<strong>建議譯文</strong>。點選<strong>個人檔案</strong>圖示，再點選<strong>設定</strong>連結，然後新增您會說的任何語言。右下角會有一個稱為<strong>語系</strong>的翻譯清單。翻譯內容會在一天後顯示在網站上。
 about-playbook-how-localize-content-4 = 網站完成度達到75%時，即可準備上線。
+about-playbook-how-localize-content-5 = 睇吓我哋簡介嘅影片
 
 ## How to add sentences
 
 about-playbook-how-add-sentences = 我可以點樣新增句子？
+about-playbook-how-add-sentences-content-1 = 您可以在 <writePageLink> 撰寫頁面 </writePageLink> 添加句子，或在 <reviewPageLink> 審查頁面 </reviewPageLink> 檢查句子。
+about-playbook-how-add-sentences-content-2 = 句子必須經過兩人審核並通過後，才能納入 Common Voice。您可以透過<languageGuidelinesLink>此處</languageGuidelinesLink>制訂您所使用語言的指導原則。句子必須屬於<licenseLink>公共領域</licenseLink>，且字數少於15個字。您可以要求文本所有者透過我們的放棄程序將其改為<waiverLink>CC0 授權</waiverLink>，並寄送至 commonvoice@mozilla.com。
+about-playbook-how-add-sentences-content-3 = 您可以使用<scraperLink>句子提取工具</scraperLink>從維基百科中提取短句。
+
+## How to record quality
+
+about-playbook-how-record-quality = 如何錄製高品質的語音片段？
+about-playbook-how-record-content-1 = 用您平常的語氣說話就好！您說話的方式在這裡都是受歡迎的——我們希望保留您原本的口音，也希望呈現您平常的音量、風格與語調。
+about-playbook-how-record-content-2 = 避免過多的背景雜音——要讓人能輕易地聽清您的聲音。
 
 ## How to grow language
 
