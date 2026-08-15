@@ -87,6 +87,7 @@ answer = စေလောဝ်း
 
 ## Community section
 
+community-section-title-202601 = နေးတွမ်ႏ ကမ္ဘာႏလောင်း ကအောဝ်ႏဒါႏ အသောင်ရင်ꩻလိုꩻစွိုꩻဗူႏသီးဖုံႏ စွဲးကမ်းဖေႏအာႏတဲင်၊ ကမ္ဘာႏလောင်း အသောင်ရင်ꩻလိုꩻစွိုꩻဗူႏသီးဖုံႏအတာႏ — အောဝ်ႏထင်ႏထိုငါငါထဲင်းစွဉ်ႏတွမ်ႏ ဘာႏသာႏငေါဝ်းငွါခြွဉ်းဗူႏ ၂၉၀ ဗာႏသွူ!
 join-discord-community = နွို့ငီꩻ ဒစ်သကော့ အသောင်ရင်ꩻလိုꩻဗူႏ
 # label for button
 join-discord-community-action = နွို့ပါငီꩻသွော့ နီသွဉ်းသီး ဒစ်သကော့လောင်း
@@ -107,6 +108,8 @@ contribute-github-action = လွေꩻနွို့စွဲးကမ်း�
 ## Featured section
 
 featured-section-title = နောဝ်ꩻကို အောဝ်ႏပါ...
+# icon is an arrow that points downwards
+download-press-pack = ထူႏငင်ႏလင်ꩻသွော့ နီသွဉ်းသီး ကဒင်ႏထေထန်ႏဒါႏ အလွမ်ယိုဟုဲင်း<icon></icon>
 
 ## Developers section
 
