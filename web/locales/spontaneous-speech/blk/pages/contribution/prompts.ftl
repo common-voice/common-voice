@@ -4,6 +4,8 @@ record-player-header = ဒင်ႏမုဲင်ခါꩻသွော့ န�
 mic-access-error = ဖေႏဗဲင်းသွော့ နာꩻ မဲက်ခရို သွုံꩻခွင်ꩻလꩻတာႏဩ။
 error-skipping = အောဝ်ႏကာႏငါ ငေါဝ်းထွဉ်ႏနယ် ယိုတွင်ꩻ အမာႏထွာလွဉ်ထိုꩻ
 error-recording = အောဝ်ႏဒင်ႏမုဲင်တောင်ꩻ အငေါဝ်းယိုကျာꩻ ထွာလွဉ်အမာႏ
+prompt-submitted-success = ဒင်ႏပသာထင်ႏ ထာꩻလောဝ်းဟွုန်ဖုံႏ အောင်ႏဗꩻလဲဉ်း။
+prompt-response-deleted-success = ယားကုဲင်ထိုꩻ ထာꩻလောဝ်းဟွုန်ဖုံႏ အောင်ႏဗꩻလဲဉ်း။
 # For the button to delete a response to a prompt
 delete = ယားထိုꩻ
 # For the disabled button on a prompt that indicates a prompt is already submitted
