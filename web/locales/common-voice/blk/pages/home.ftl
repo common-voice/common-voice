@@ -97,6 +97,7 @@ find-us-on-matrix-action-2 = ကေားနျꩻသား အလင်ဖု�
 ask-mozilla-share = ယံဖေႏကဖန်းဖြယ်ဖေႏ နာꩻပွယ်ꩻရဲဉ်ႏဖုံႏတာႏ ရီကွီလွေꩻသွော့ မိုသီလာထျꩻ
 # label for button
 ask-mozilla-share-action = ဖန်းဖြယ်လွေꩻ နာꩻ ပွယ်ꩻရဲဉ်ႏ
+download-contribution-certificate = ထူႏငင်ႏလင်ꩻသွော့ အွဉ်ႏမုဲင်တောင်ꩻဖေႏ နာꩻ ထာꩻစွဲးကမ်းယိုဟုဲင်း
 # label for button
 download-contribution-certificate-action = ထူႏနေးသွော့ နာꩻသက်သေႏ အောင်ႏလိတ်မုဲင်တောင်ꩻ
 contribute-github = လွေꩻနွို့စွဲးကမ်းကိုသွော့ ဂစ်ဟတ်ကိုဩ
@@ -114,6 +115,7 @@ explore-datasets = ထောင်ထွားစောႏတနာႏသွေ�
 
 ## Get involved section
 
+get-involved-section-title = ဗွောင်လေဖေႏဒါႏ၊ ကေားအွဉ်ငါ အသောင်ရင်ꩻလိုꩻဗူႏသီး အဆင်ႏဗာႏခြွဉ်းဗူႏဖုံႏ
 read-sentences-link = ထွားဒေါ့ꩻ လိတ်ရဲဉ်ႏဖုံႏ
 validate-readings-link = အွဉ်ႏတိဉ်ႏလဲဉ်း ကအောဝ်ႏထွားဒေါ့ꩻဖုံႏ
 contribute-link = တဲမ်းသော့ꩻကိုသွော့ လိတ်ယာႏခြွဉ်းဗူႏ
