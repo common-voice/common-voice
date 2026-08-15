@@ -70,6 +70,8 @@ about-us-menu-item-aria-label = လွိုက်ထူႏသွော့ န�
 ## Hero section
 
 hero-title = နယ်ꩻပညာႏယို ဒေါ့ꩻဒါႏဒျာႏ နာꩻ ဘာႏသာႏငေါဝ်းငွါ
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>ပွိုးထမုဲင်ꩻ အေအုဲင် နယ်ꩻပညာႏယို အီႏမာꩻဖေႏဗာႏဒျာႏ ဟံႏတန်လောင်းကီ ဘာႏသာႏငေါဝ်းငွါ ဆေ့ꩻဆေ့ꩻအတာႏလွုမ်ꩻဟောင်း?</bold>
 hero-subtitle-2 = နီသွဉ်းသီး ဘာႏသာႏငေါဝ်းငွါနောဝ်ꩻ နီသွဉ်းသီး မုဲင်တောင်ꩻသမဲင်ꩻတဖူꩻ၊ ထွာဒျာႏ နီသွဉ်းသီး အသောင်ရင်ꩻတွမ်ႏ နီသွဉ်းသီး ထာꩻယေန်ႏငဲးသွူ၊ ဟံႏတန်အလောင်း နီသွဉ်းသီး ကမဲဉ်ထီႏဒါႏ အဆင်ႏဗာႏခြွဉ်းဗူႏဖုံႏယို နီမာꩻထွာလွဉ် ငီꩻငီꩻရောင်ခန်းသွော့ဝင်ꩻဖုံႏဟောင်း။
 # icon is an arrow that points downwards
 get-started = တဲႏကောႏလွေꩻခန်း<icon><icon>
@@ -85,6 +87,7 @@ answer = စေလောဝ်း
 
 ## Community section
 
+join-discord-community = နွို့ငီꩻ ဒစ်သကော့ အသောင်ရင်ꩻလိုꩻဗူႏ
 # label for button
 join-discord-community-action = နွို့ပါငီꩻသွော့ နီသွဉ်းသီး ဒစ်သကော့လောင်း
 find-us-on-matrix = ထိုမ်ႏသွော့ နီသွဉ်းသီး မေတ်ထရစ်လောင်း
