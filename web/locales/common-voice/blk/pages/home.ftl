@@ -78,6 +78,7 @@ get-started = တဲႏကောႏလွေꩻခန်း<icon><icon>
 
 ## Action items section
 
+action-items-section-title = ကောင်မွဉ်းဗွဲက်နောဝ်ꩻ လိုꩻစွိုꩻဗူႏသီး အွဉ်ငါတဲင် ဖေႏကမာꩻထွာလွဉ်နွောင်ꩻ အဆင်ႏဗာႏခြွဉ်းဗူႏအတာႏ ဗွောင်လေဖေႏ လွစ်တခင် အရွီးခိုႏ ခြေင်ႏထိုလောင်းတဗာႏဒျာႏသွူ။
 scripted-card-header = လိတ်အက္ခရာႏ ဒေါ့ꩻငေါဝ်း
 spontaneous-card-header = ခါလဲင်ႏ ဒေါ့ꩻငေါဝ်း
 language-text-card-header = ဘာႏသာႏငေါဝ်းငွါ လိတ်ယာႏ
