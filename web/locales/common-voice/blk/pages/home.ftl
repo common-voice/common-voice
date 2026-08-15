@@ -113,6 +113,7 @@ download-press-pack = ထူႏငင်ႏလင်ꩻသွော့ နီသ
 
 ## Developers section
 
+developers-section-title = ခမ်းသားလိုꩻအာ နွို့ထွား ထူႏသွုံꩻနွောင်ꩻဒါႏ ဘာႏသာႏငေါဝ်းငွါ ၁၃၀+ လွိုအကို ကအောဝ်ႏဒါႏ ဗွောင်လေဖေႏ အငေါဝ်းအဆင်ႏဗာႏခြွဉ်းဗူႏဖုံႏသွူ
 # icon is an arrow that points to the right
 explore-datasets = ထောင်ထွားစောႏတနာႏသွော့ အဆင်ႏခြွဉ်းဗူႏဖုံႏ <icon></icon>
 
