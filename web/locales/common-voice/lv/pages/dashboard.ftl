@@ -18,7 +18,7 @@ validated-clips = Pārbaudītie ieraksti
 total-approved = Kopā apstiprinātie
 overall-accuracy = Kopējā precizitāte
 set-visibility = Iestatiet manu redzamību
-visibility-explainer = Šis iestatījums kontrolē jūsu redzamību rezultātu topā. Slēpjot, jūsu progress būs privāts. Tas nozīmē, ka jūsu attēls, lietotājvārds un progress netiks parādīts rezultātu topā. Ņemiet vērā, ka uzvarētāju saraksta atsvaidzināšana prasa ~ { $minutes } minūtes.
+visibility-explainer = Šis iestatījums pārvalda redzamību panākumu sarakstā. Kad paslēpts, virzība būs privāta. Tas nozīmē, ka attēls, lietotājvārds un virzība netiks parādīts panākumu sarakstā. Jāņem vērā, ka panākumu saraksta atsvaidzināšana aizņemt ~{ $minutes } min., lai parādītu izmaiņas.
 visibility-overlay-note = Piezīme: ja tas ir iestatīts uz “Redzams”, šo iestatījumu var mainīt <profileLink> profila lapā </profileLink>.
 show-ranking = Rādīt manu rangu
 
