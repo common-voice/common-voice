@@ -262,6 +262,7 @@ mvy = Indus Kohistani
 mxu = Mada
 my = Burma ñe’ẽ
 myv = Erzya ñe’ẽ
+mzn = Mazandarani
 nan-tw = Taiwán ñe’ẽ (Minnan)
 nb-NO = Noruega ñe’ẽ
 ncx = Náhuatl Puebla mbytegua
