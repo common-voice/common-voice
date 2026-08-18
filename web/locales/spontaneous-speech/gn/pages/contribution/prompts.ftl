@@ -32,4 +32,5 @@ learn-how-to-use-transcribe = Eñeha’ã embokuatia
 learn-how-to-use-transcribe-explanation = Ehai pe he’iva’ekue tapicha, oĩhápe ñe’ẽ ñemigua ikatukuaáva 'um' térã 'errr'.
 learn-how-to-use-transcribe-guidance = Eikutu <guidanceLink>ápe</guidanceLink> eiporukuaa hag̃ua ko kuatiarogue
 learn-how-to-use-check-transcript = Eñeha’ã ñembokuatia ehechajey
+learn-how-to-use-check-transcript-explanation = Upe mba’epu jehaipyre ogueroikeva’erã opaite ñe’ẽ ha opavave ñe’ẽpukuéra he’íva tapicha, ikatuva hína umi ñe’ẽ je’e jeyjey.
 learn-how-to-use-check-transcript-guidance = Eikutu <guidanceLink>ápe</guidanceLink> eiporukuaa hag̃ua ko kuatiarogue
