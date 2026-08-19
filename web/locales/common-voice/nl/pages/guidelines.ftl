@@ -84,7 +84,7 @@ citing-sentences-subheader-academic-reference-explanation =
 citing-sentences-subheader-offline-sources = Offline bronnen
 citing-sentences-subheader-offline-sources-explanation =
     Voor publiek-domeintekst die niet online beschikbaar is, kunt u de academische referentiestijl gebruiken,
-    b.v. Harvard-stijl ‘Jess (2021) Mijn openbare licentiegedichten’
+    bijv. Harvard-stijl ‘Jess (2021) Mijn openbare licentiegedichten’
 citation =
     .label = Citaat
 self-citation = Zelfcitatie
