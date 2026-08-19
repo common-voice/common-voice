@@ -70,7 +70,7 @@ welcome-staff = Welkom medewerkers van { $company }!
 help-contribute = U kunt een diverse, open-source gegevensset helpen bouwen door een Common Voice-profiel te maken en uw stem te doneren.
 login-company = Aanmelden / inschrijven met { $company }-e-mailadres
 profile-not-required = Een profiel is niet nodig om bij te dragen, hoewel het wel nuttig is
-read-more-about = Meer info op onze pagina Over
+read-more-about = Lees meer op onze pagina Over
 
 ## NAV ITEMS
 
