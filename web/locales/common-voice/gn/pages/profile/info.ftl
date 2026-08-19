@@ -85,6 +85,7 @@ create-api-key-header = <bold>Marandu’i iporãrasáva: API réra ñemoheñói<
 create-api-key-agreement = Amoneĩ nañeha’ãmo’ãiha ahechakuaa umi oñe’ẽva Común Voice mba’ekuaarã atypegua.
 generate-api-key-button = Emoheñói terachaukaha
 save-api-key-info = <bold>Eñongatu nde pe’aha tekorosãme</bold>
+save-api-key-info-description = Eñongatu ne ñe’ẽ ñemieta tekorosãme ha ani ehechauka umi ñongatuha públicope. Pe ñe’ẽ ñemi SECRET ko’ág̃a año eikéta ha ndojehechaukamo’ãvéima.
 api-key-name-display-label = API réra ohechaukáva
 api-client-secret-display-label = API ñemuha ñemimby
 api-client-id-display-label = ID API ñemuha
