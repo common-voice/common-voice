@@ -10,6 +10,7 @@ how-does-it-work-text = Rializemu una banca di dati vucale cù è fonte aperte c
 ## How does it work section
 
 about-language-req-subtitle = Qualcunu dumanda l’aghjustu d’una lingua.
+about-localization-title = Traduzzione di u situ web
 about-localization-subtitle = U testu di u situ web hè traduttu in sta lingua.
 about-sentence-collection-title = Racolta d'infrasate
 about-sentence-collection-subtitle = Infrasate sò raccolte pà esse lette ad’alta voce.
@@ -59,6 +60,7 @@ about-nav-playbook = Amparate comu participà
 about-playbook-what-is-language = Cosa hè una lingua in Common Voice ?
 about-playbook-what-is-language-content-1 = Ci sò tanti maneri di pinsà à a lingua. Pà i mudeli di ricuniscenza vucale, Common Voice arricumanda di cuncintrassi sopr’a « capiscitura mutuale » o di risponde à a quistioni « e parsone chì parlani sta lingua poni capisciesi s’eddi si parlani ? »
 about-playbook-what-is-language-content-2 = Vulemu chì i mudeli vucali siini meglii à capisce locutori variati. Pà questu, una banca di dati vucale hà da raprisentà mori di parsoni sfarenti.
+about-playbook-what-is-language-content-3 = Certe lingue anu variazioni tamante di grammatica, di vucabulariu è di prununzia. Per sta ragione, avemu da <ctaLink>introduce e  « variante linguistiche »</ctaLink> in u 2022. Què permette à tutte e cumunità di distingue e so lingue à mezzu à a banca di dati più larga.
 
 ## How do I add a language
 
