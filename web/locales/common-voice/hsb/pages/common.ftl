@@ -17,6 +17,7 @@ ajg = Adja
 aln = Gegiska albanšćina
 am = Amharšćina
 an = Aragonšćina
+apc = Lewantinska arabšćina
 ar = Arabšćina
 arn = Mapudungun
 as = Asamšćina

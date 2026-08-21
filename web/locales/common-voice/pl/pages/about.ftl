@@ -72,14 +72,18 @@ about-playbook-how-add-language-content-1 =
     Jeśli nie, możesz <languageRequestLink>poprosić o dodanie swojego języka</languageRequestLink>.
     Etapy są dwa: tłumaczenie strony i zbieranie zdań
 about-playbook-how-add-language-translating-heading = Tłumaczenie strony
-about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Obejrzyj nasz poradnik korzystania z Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Obejrzyj nasz poradnik dotyczący korzystania z Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 = Do tłumaczeń używamy narzędzia Mozilli o nazwie <pontoonLink>Pontoon</pontoonLink>. Pontoon zawiera wiele języków, ale jeśli nie ma wśród nich Twojego, <pontoonRequestLink>możesz poprosić o dodanie go</pontoonRequestLink>. Następnie, aby język ten stał się dostępny w projekcie Common Voice, <githubRepoLink>zgłoś prośbę o dodanie nowego języka przez GitHub</githubRepoLink>. <localizationFragment>Dowiedz się więcej o tłumaczeniu strony</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Zbieranie zdań
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Obejrzyj nasz poradnik dotyczący korzystania z narzędzia Sentence Collector</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Więcej informacji na temat zbierania zdań</sentenceCollectorFragment>.
 
 ## How does localization work
 
 about-playbook-how-localize = Jak wygląda lokalizacja witryny?
 about-playbook-how-localize-content-1 = Tłumaczenie witryny Common Voice odbywa się na <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Załóż konto</pontoonAccountLink>, jeśli jeszcze go nie masz. Następnie wybierz język <strong>(„Team”)</strong>, a potem projekt <pontoonCvLink>Common Voice</pontoonCvLink>. Znajdziesz tam pliki do tłumaczenia. Wybierz jeden z nich, a wyświetlą się słowa w języku angielskim oraz pole do ich tłumaczenia.
+about-playbook-how-localize-content-3 = Tłumaczenie odbywa się z języka angielskiego, ale możesz sprawdzić tłumaczenia na inne języki. Kliknij ikonę <strong>profilu</strong>, a następnie link <strong>Ustawienia</strong> i dodaj języki, którymi się posługujesz. W prawym dolnym rogu pojawi się lista tłumaczeń o nazwie <strong>Locales</strong>. Tłumaczenia pojawiają się na stronie po upływie jednego dnia.
 about-playbook-how-localize-content-4 = Strona będzie gotowa do uruchomienia, gdy jej tłumaczenie osiągnie 75%.
 about-playbook-how-localize-content-5 = Obejrzyj film instruktażowy
 
@@ -109,7 +113,14 @@ about-playbook-how-grow-language-content-7 = Znajdź osoby, którym zależy. Mog
 
 ## How to validate
 
+about-playbook-how-validate = Skąd mam wiedzieć, czy zatwierdzić klip głosowy?
 about-playbook-how-validate-content-4 = Jeżeli klip zostanie odrzucony przez 2 osoby, zostanie on wydany w innym podzbiorze zbioru danych.
+
+## How to access dataset
+
+about-playbook-how-access-dataset = Jak uzyskać dostęp do zbioru danych i z niego korzystać?
+about-playbook-how-access-dataset-content-1 = Możesz przejść do <datasetsPage>strony zbiorów danych</datasetsPage>, wybrać żądaną wersję i język(i), a następnie pobrać je. Pliki zawierają <metadataLink>powiązane metadane</metadataLink>, takie jak informacje demograficzne i dane walidacyjne. Aby pobrać zbiór danych, konieczne będzie podanie adresu e-mail.
+about-playbook-how-access-dataset-content-2 = Jeśli szukasz narzędzi do tworzenia modeli ASR, możesz nawiązać kontakt z innymi członkami społeczności na <discourseLink>platformie Discourse</discourseLink>.
 
 ## How are decisions made
 
