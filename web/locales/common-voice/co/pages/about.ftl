@@ -99,6 +99,8 @@ about-playbook-how-add-sentences = Comu possu aghjunghje infrasate ?
 
 ## How to record quality
 
+about-playbook-how-record-quality = Cumu possu arrighjistrà campioni vucali d'alta qualità ?
+about-playbook-how-record-content-1 = Parlate cù a vostra voce nurmale ! A vostra manera di parlà hè benvenuta quì, vulemu chì u vostru accentu sia cum’ellu hè, è vulemu u vostru vulume, u vostru stile è a vostra intunazione abituali.
 about-playbook-how-record-content-2 = Evitate troppu di rumore di fondu - duverebbe esse facile di sente vi.
 about-playbook-how-record-content-3 = Leghjite a frase cun cura - ùn scurdate nunda, ùn cambiate nunda è ùn aghjunghjite micca parolle.
 
