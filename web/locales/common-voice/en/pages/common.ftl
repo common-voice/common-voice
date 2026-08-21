@@ -14,6 +14,7 @@ ajg = Adja
 aln = Gheg Albanian
 am = Amharic
 an = Aragonese
+apc = Levantine Arabic
 ar = Arabic
 arn = Mapudungun
 as = Assamese
