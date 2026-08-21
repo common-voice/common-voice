@@ -22,8 +22,8 @@ speak-empty-state = Mums ir beigušies teikumi, ko ierakstīt šajā valodā...
 no-sentences-for-variants = Iespējams, jūsu izvēlētajā valodā vairs nav teikumu! Ja zināt vēl kādu valodu, varat mainīt iestatījumus, lai redzētu citus teikumus.
 speak-empty-state-cta = Pievienot teikumus
 speak-loading-error =
-    Mēs nevarējām iegūt nevienu teikumu, lai jūs varētu ierunāt.
-    Lūdzu, mēģiniet vēlreiz nedaudz vēlāk.
+    Mēs nevarējām iegūt nevienu teikumu ierunāšanai.
+    Lūgums nedaudz vēlāk mēģināt vēlreiz.
 record-button-label = Ierakstiet savu balsi
 share-title-new = <bold> Palīdziet mums </bold> atrast vairāk balsu
 keep-track-profile = Sekojiet līdzi progresam, izmantojot profilu

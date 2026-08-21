@@ -104,16 +104,16 @@ exceeds-small-batch-limit-error = Nevar iesniegt vairāk par 1000 teikumiem
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-toast-message-minutes =
     { $retryLimit ->
-        [zero] Pārsniegts iesniegšanas ātruma limits. Mēģiniet vēlreiz pēc 1  minūtes
-        [one] Pārsniegts iesniegšanas ātruma limits. Mēģiniet vēlreiz pēc { $retryLimit } minūtēm
-       *[other] Pārsniegts iesniegšanas ātruma limits. Mēģiniet vēlreiz pēc { $retryLimit } minūtēm
+        [zero] Pārsniegts piekļuves biežuma ierobežojums. Pēc { $retryLimit }  minūtēm jāmēģina vēlreiz.
+        [one] Pārsniegts piekļuves biežuma ierobežojums. Pēc { $retryLimit }  minūtes jāmēģina vēlreiz.
+       *[other] Pārsniegts piekļuves biežuma ierobežojums. Pēc { $retryLimit }  minūtēm jāmēģina vēlreiz.
     }
 # $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
 rate-limit-toast-message-seconds =
     { $retryLimit ->
-        [zero] Pārsniegts iesniegšanas ātruma limits. Mēģiniet vēlreiz pēc 1  sekundes
-        [one] Pārsniegts iesniegšanas ātruma limits. Mēģiniet vēlreiz pēc { $retryLimit } sekundēm
-       *[other] Pārsniegts iesniegšanas ātruma limits. Mēģiniet vēlreiz pēc { $retryLimit } sekundēm
+        [zero] Pārsniegts piekļuves biežuma ierobežojums. Pēc { $retryLimit }  sekundēm jāmēģina vēlreiz.
+        [one] Pārsniegts piekļuves biežuma ierobežojums. Pēc { $retryLimit }  sekundes jāmēģina vēlreiz.
+       *[other] Pārsniegts piekļuves biežuma ierobežojums. Pēc { $retryLimit }  sekundēm jāmēģina vēlreiz.
     }
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-message-minutes =
