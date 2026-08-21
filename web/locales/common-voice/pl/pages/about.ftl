@@ -74,6 +74,7 @@ about-playbook-how-add-language-content-1 =
 about-playbook-how-add-language-translating-heading = Tłumaczenie strony
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Obejrzyj nasz poradnik korzystania z Pontoon.</translateVideoLink>
 about-playbook-how-add-language-collecting-sentences-heading = Zbieranie zdań
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Obejrzyj nasz poradnik dotyczący korzystania z narzędzia Sentence Collector</sentenceCollectorVideo>.
 
 ## How does localization work
 
@@ -97,6 +98,8 @@ about-playbook-how-record-content-5 = <accuracyLink>Więcej informacji na temat 
 
 ## How to grow language
 
+about-playbook-how-grow-language = Jak możemy skutecznie rozwijać język w ramach Common Voice?
+about-playbook-how-grow-language-content-1 = Stworzenie możliwości, aby różnorodne osoby mogły wnieść swój wkład w Common Voice, gwarantuje, że zbiór danych będzie służył jak największej liczbie osób. Przygotowaliśmy zasoby i szablony, z których możesz skorzystać!
 about-playbook-how-grow-language-content-2 = Wydarzenia
 about-playbook-how-grow-language-content-3 = Możesz organizować wydarzenia, aby pomóc ludziom w zaangażowaniu się. To prostsze niż myślisz. Możesz to zrobić online za pomocą narzędzia do wideokonferencji lub osobiście, jeśli jest to bezpieczne. <eventTemplate>Sprawdź nasze szablony i zasoby do organizacji wydarzeń</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Serwisy społecznościowe
