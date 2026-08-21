@@ -76,6 +76,7 @@ about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Obej
 about-playbook-how-add-language-translating-content-2 = Do tłumaczeń używamy narzędzia Mozilli o nazwie <pontoonLink>Pontoon</pontoonLink>. Pontoon zawiera wiele języków, ale jeśli nie ma wśród nich Twojego, <pontoonRequestLink>możesz poprosić o dodanie go</pontoonRequestLink>. Następnie, aby język ten stał się dostępny w projekcie Common Voice, <githubRepoLink>zgłoś prośbę o dodanie nowego języka przez GitHub</githubRepoLink>. <localizationFragment>Dowiedz się więcej o tłumaczeniu strony</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Zbieranie zdań
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Obejrzyj nasz poradnik dotyczący korzystania z narzędzia Sentence Collector</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 = Możesz dodawać <sentenceCollectorLinkAdd>pojedyncze zdania</sentenceCollectorLinkAdd> lub <bulkImportDocsLink>importować je zbiorczo za pomocą serwisu GitHub</bulkImportDocsLink>. Pamiętaj, że zdania muszą być objęte <licenseLink>licencją CC0 (lub należeć do domeny publicznej)</licenseLink>, albo możesz napisać własne.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Więcej informacji na temat zbierania zdań</sentenceCollectorFragment>.
 
 ## How does localization work
