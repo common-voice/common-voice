@@ -91,6 +91,7 @@ about-playbook-how-localize-content-5 = Obejrzyj film instruktażowy
 ## How to add sentences
 
 about-playbook-how-add-sentences = Jak dodawać zdania?
+about-playbook-how-add-sentences-content-3 = Możesz skorzystać z narzędzia <scraperLink>Sentence extractor</scraperLink>, aby pozyskać krótkie zdania z Wikipedii.
 
 ## How to record quality
 
@@ -115,6 +116,9 @@ about-playbook-how-grow-language-content-7 = Znajdź osoby, którym zależy. Mog
 ## How to validate
 
 about-playbook-how-validate = Skąd mam wiedzieć, czy zatwierdzić klip głosowy?
+about-playbook-how-validate-content-1 = Jeśli możesz je <strong>usłyszeć</strong> i <strong>zrozumieć</strong>, zazwyczaj <strong>najlepiej jest je zatwierdzić</strong>.
+about-playbook-how-validate-content-2 = <strong>Nie odrzucaj klipów, w których mówca „ma akcent” inny niż twój</strong> - jest to ważne, aby rozpoznawanie głosu działało lepiej dla wszystkich.
+about-playbook-how-validate-content-3 = Jeśli uważasz, że wymowa sprawia, że <strong>nie da się zrozumieć</strong> materiału, lub w tle jest <strong>dużo szumu</strong>, albo <strong>mówią też inne osoby</strong>, odrzuć ten klip. <accuracyLink>Więcej informacji znajdziesz w naszych kryteriach dokładności</accuracyLink>.
 about-playbook-how-validate-content-4 = Jeżeli klip zostanie odrzucony przez 2 osoby, zostanie on wydany w innym podzbiorze zbioru danych.
 
 ## How to access dataset
