@@ -17,6 +17,7 @@ ajg = Adja
 aln = Gegisch
 am = Amhaars
 an = Aragonees
+apc = Levantijns-Arabisch
 ar = Arabisch
 arn = Mapudungun
 as = Assamees
