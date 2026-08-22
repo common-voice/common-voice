@@ -1,7 +1,7 @@
 ## Tagging Page
 
 tag-page-instruction = Atlasiet <icon></icon> tekstu, lai sāktu
-tag-terms-checkbox = Es piekrītu Common Voice noteikumiem un konfidencialitātes politikai.
+tag-terms-checkbox = Es piekrītu Common Voice noteikumiem un privātuma atrunai.
 tag-popover-title = Atlasiet tagu
 select-a-tag = Atlasiet tagu
 edit-tag = Labot tagu

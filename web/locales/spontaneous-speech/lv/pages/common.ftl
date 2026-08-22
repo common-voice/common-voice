@@ -46,7 +46,7 @@ tag = Birka
 not-found-page-header = Nav atrasts
 not-found-page-content = Lapa, kuru meklējat, netika atrasta
 # Privacy and Terms checkbox
-accept-privacy-and-terms = Es piekrītu Common Voice <termsLink>noteikumiem</termsLink> un <privacyLink>konfidencialitātes politikai</privacyLink>
+accept-privacy-and-terms = Es piekrītu Common Voice <termsLink>noteikumiem</termsLink> un <privacyLink>privātuma atrunai</privacyLink>
 # Locales-Variants
 ms-MY = Bahasa Malay
 el-CY = Kipras grieķu
