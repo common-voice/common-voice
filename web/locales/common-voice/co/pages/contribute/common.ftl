@@ -18,6 +18,9 @@ contribute-more =
     }
 speak-empty-state = Ùn avemu più infrasate à arrighjistrà in issa lingua...
 speak-empty-state-cta = Prupone incù altre infrasate
+speak-loading-error =
+    Ùn emu micca pussutu truvà infrasate da arrighjistrà.
+    Pruvate torna un altra volta.
 record-button-label = Arrighjistrà a vostra voce
 share-title-new = <bold>Aiutate ci</bold> à truvà voci in più
 keep-track-profile = Seguiteti i vostri prugressi creendu un prufilu
