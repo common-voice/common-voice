@@ -109,6 +109,7 @@ community-section-title-202601 = Wspierani przez globalne społeczności, dla gl
 join-discord-community = Dołącz do naszej społeczności na Discord
 # label for button
 join-discord-community-action = Dołącz do nas na Discordzie
+join-discord-community-content = Bierz udział w dyskusjach społeczności językowej, zadawaj pytania i dowiaduj się o nadchodzących wydarzeniach i prelekcjach.
 find-us-on-matrix = Znajdź nas w Matriksie
 find-us-on-matrix-content-v2 = Matrix to otwarty, lekki protokół do zdecentralizowanej komunikacji w czasie rzeczywistym i preferowana przez Mozillę otwarta platforma dyskusyjna. Jesteśmy w pokoju „common-voice:mozilla.org”.
 # label for button
