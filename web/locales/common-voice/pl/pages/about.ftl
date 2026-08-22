@@ -91,6 +91,7 @@ about-playbook-how-localize-content-5 = Obejrzyj film instruktażowy
 ## How to add sentences
 
 about-playbook-how-add-sentences = Jak dodawać zdania?
+about-playbook-how-add-sentences-content-1 = Na stronie <writePageLink>Pisz</writePageLink> możesz dodawać zdania, a na stronie <reviewPageLink>Sprawdzaj</reviewPageLink> – je przeglądać.
 about-playbook-how-add-sentences-content-3 = Możesz skorzystać z narzędzia <scraperLink>Sentence extractor</scraperLink>, aby pozyskać krótkie zdania z Wikipedii.
 
 ## How to record quality
