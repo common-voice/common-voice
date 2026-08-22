@@ -92,6 +92,7 @@ about-playbook-how-localize-content-5 = Obejrzyj film instruktażowy
 
 about-playbook-how-add-sentences = Jak dodawać zdania?
 about-playbook-how-add-sentences-content-1 = Na stronie <writePageLink>Pisz</writePageLink> możesz dodawać zdania, a na stronie <reviewPageLink>Sprawdzaj</reviewPageLink> – je przeglądać.
+about-playbook-how-add-sentences-content-2 = Aby zdania zostały uwzględnione w projekcie Common Voice, musi zostać sprawdzone i zaakceptowane przez dwie osoby. <languageGuidelinesLink>Tutaj</languageGuidelinesLink> możesz utworzyć wytyczne dla swojego języka. Zdania muszą należeć do <licenseLink>domeny publicznej</licenseLink> i zawierać mniej niż 15 słów. Możesz poprosić właściciela tekstu o udostępnienie go na licencji CC0, korzystając z <waiverLink>naszej procedury zrzeczenia się praw</waiverLink>, a następnie przesłanie go do nas na adres commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Możesz skorzystać z narzędzia <scraperLink>Sentence extractor</scraperLink>, aby pozyskać krótkie zdania z Wikipedii.
 
 ## How to record quality
@@ -113,6 +114,7 @@ about-playbook-how-grow-language-content-4 = Serwisy społecznościowe
 about-playbook-how-grow-language-content-5 = Możesz wykorzystać media społecznościowe, aby rozpowszechnić tę wiadomość. Udostępniaj posty, które wyjaśniają, dlaczego to ważne, i nawiąż kontakt z innymi osobami poruszającymi takie tematy, jak prawa językowe, sztuczna inteligencja głosowa czy stronniczość w technologii. Przeczytaj więcej porad na temat <campaignLink>prowadzenia kampanii w mediach społecznościowych, w tym treści, które można ponownie wykorzystać</campaignLink>.
 about-playbook-how-grow-language-content-6 = Współpraca i sieci
 about-playbook-how-grow-language-content-7 = Znajdź osoby, którym zależy. Mogą to być uniwersytety, szkoły językowe, grupy wsparcia lub społeczności zajmujące się nauką o danych. Skontaktuj się z nimi i jasno wyjaśnij, jak mogą pomóc i dlaczego. <outreachTemplates>Zobacz nasze szablony e-maili informacyjnych</outreachTemplates>.
+about-playbook-how-grow-language-content-8-v2 = <strong>Bądź kreatywny!</strong> Twoja społeczność językowa będzie wyjątkowa, a to tylko kilka sposobów na początek. Rozważ dodanie kanałów społecznościowych do dokumentu <communitiesLink>COMMUNITIES.md w serwisie GitHub</communitiesLink>.
 
 ## How to validate
 

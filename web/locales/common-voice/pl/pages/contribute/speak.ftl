@@ -30,6 +30,7 @@ record-abort-delete = Wyjdź i usuń nagrania
 review-aborted = Przerwano wysyłanie. Czy chcesz usunąć swoje nagrania?
 review-submit-title = Sprawdź i wyślij
 review-submit-msg = Dziękujemy za nagranie!<lineBreak></lineBreak>Teraz sprawdź i wyślij swoje nagrania poniżej.
+review-recording = Sprawdź
 review-rerecord = Nagraj ponownie
 review-cancel = Anuluj wysyłanie
 review-keep-recordings = Zachowaj nagrania
