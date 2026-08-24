@@ -9,6 +9,13 @@ error-clip-upload-server = Šī ieraksta augšupielāde serverī joprojām neizd
 error-clip-upload-too-large = Ieraksta datne ir pārāk liela, lai augšupielādētu. Lūgums mēģināt ierakstīt īsāku gabalu.
 error-title-404 = Mēs nevarējām atrast šo lapu
 error-content-404 = Varbūt mūsu <homepageLink>mājaslapa</homepageLink> palīdzēs? Lai uzdotu jautājumu, lūgums pievienoties <matrixLink>Matrix kopienas tērzētavā</matrixLink>, pārraudzīt vietnes nepilnības <githubLink>GitHub</githubLink>, vai apmeklēt <discourseLink>mūsu Discourse forumus</discourseLink>.
+error-title-429-no-time = Tu darbojies pārāk ātri. Lūgums piebremzēt un pēc brīža mēģināt vēlreiz.
+error-title-429-with-time =
+    { $retryAfter ->
+        [zero] Tu darbojies pārāk ātri. Lūgums pēc { $retryAfter } sekundēm mēģināt vēlreiz.
+        [one] Tu darbojies pārāk ātri. Lūgums pēc { $retryAfter } sekundes mēģināt vēlreiz.
+       *[other] Tu darbojies pārāk ātri. Lūgums pēc { $retryAfter } sekundēm mēģināt vēlreiz.
+    }
 error-title-500 = Piedodiet, kaut kas nogāja greizi
 error-content-500 = Radās negaidīta kļūda. Lūdzu, mēģiniet vēlreiz. Lai saņemtu palīdzību, lūdzu, pievienojieties <matrixLink>Matrix kopienas tērzēšanai</matrixLink>, uzraugiet vietnes problēmas, izmantojot <githubLink>GitHub</githubLink>, vai apmeklējiet <discourseLink>mūsu Discourse forumus</discourseLink>.
 error-title-502 = Savienojums pārtraukts
