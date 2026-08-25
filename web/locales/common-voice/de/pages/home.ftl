@@ -159,6 +159,7 @@ download-press-pack = Laden Sie unsere Presseunterlagen <icon></icon> herunter
 
 ## Developers section
 
+developers-section-title-202608 = Frei zugängliche Open-Speech-Datensätze in über 330 Sprachen
 # icon is an arrow that points to the right
 explore-datasets = Datensätze entdecken <icon></icon>
 
