@@ -81,7 +81,6 @@ review-questions = Fragen überprüfen
 transcribe-audio = Audio transkribieren <small>(kommt in Kürze)</small>
 press-and-stories = Presse und Geschichten
 community-and-languages = Gemeinschaft und Sprachen
-coming-soon = Erscheint in Kürze
 about-us = Über uns
 scripted-speech = VORBEREITETE REDE
 spontaneous-speech = SPONTANE REDE
@@ -160,6 +159,7 @@ download-press-pack = Laden Sie unsere Presseunterlagen <icon></icon> herunter
 ## Developers section
 
 developers-section-title-202608 = Frei zugängliche Open-Speech-Datensätze in über 330 Sprachen
+developers-section-subtitle-v2 = Datensätze für ASR und andere NLP-Anwendungsbereiche – erstellt unter Mitwirkung der Gemeinschaft.
 # icon is an arrow that points to the right
 explore-datasets = Datensätze entdecken <icon></icon>
 

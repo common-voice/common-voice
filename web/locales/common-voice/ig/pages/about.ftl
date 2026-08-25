@@ -38,7 +38,9 @@ about-no-votes-text = Mgbe ojieme jụrụ mkpụrụ ndekọ olu ọ laghachi n
 about-dataset-new = Ntọala Data Common Voice
 about-dataset-new-text = Ntọala Data Common Voice nwere ọtụtụ narị nke puku nke ngosi olu nke na-enyere ndị developa aka wulite ngwaọrụ e ji a mata olu.
 about-clip-graveyard = Grevyaadi Klip
-about-clip-graveyard-text = Grevyaadi Klip
+about-clip-graveyard-text =
+    Clip Graveyard nwere ndekọ mkpụrụ olu ndị na-abanyeghị na ntọala data Common Voice. Dịka ntọala data ahụ, e nwere Clip Graveyard maka mbudata.
+    Anyị nwere mmasị ikele mmadụ ndị a na òtù ndị a maka enyemaka ha na ọrụ a:
 about-get-involved = Sònyé
 about-get-involved-text-2 = Chọrọ inye aka ime Common Voice ka ọ dịwanye mma?
 about-stay-in-touch = Kedu ka m ga-esi enwe mmetụta?
@@ -117,6 +119,7 @@ about-playbook-how-grow-language-content-4 = Soshul midia
 about-playbook-how-grow-language-content-5 = Ị ga-ejinwu ntọala soshul midia zipụ ya bụ ozi. Kesaa ozi na-akọwa ihe mere o jiri dị mkpa, ma kpọturukwa mmadụ ndị ọzọ na-ekwu ihe dịka ikike asụsụ, AI olu, ma ọ bụ mmasị ezighị ezi dị na tek. Lee ndụmọdụ ndị ọzọ <campaignLink> n'iji mee mkpọsa ozi soshul, na ndịnaya i nwere ike iji mee ihe ọzọ</campaignLink>
 about-playbook-how-grow-language-content-6 = Nrụkọrịta na njikọ
 about-playbook-how-grow-language-content-7 = Chọta ndị ọzọ nwere mmasị. Nke ahụ nwere ike ịbụ mahadum, ụlọ akwụkwọ asụsụ, ótù ndị nkwuchite ma ọ bụ ọgbakọ ndị ọrụ sayensị data. Kpọtụrụ ha ma kọwaa nke ọma otu ha ga-esi nye aka na ihe kpatara ya. <outreachTemplates>Lee ndebiri ímèèlụ̀ anyị na-ezigara ndị mmadụ</outreachTemplates>.
+about-playbook-how-grow-language-content-8-v2 = <strong>Mee ihe ọhụrụ!</strong> ọgbakọ ọrụ asụsụ gị ga-adị iche, ndị a bụkwa naanị ụzọ ole na ole iji malite. Biko tụlee itinye ọwa ọgbakọ ọrụ gị na <communitiesLink> akwụkwọ COMMUNITIES.md na GitHub</communitiesLink>.
 
 ## How to access dataset
 
