@@ -17,6 +17,7 @@ ajg = Adja
 aln = Albaneză Gheg
 am = Amhară
 an = Aragoneză
+apc = Arabă levantină
 ar = Arabă
 arn = Mapudungun
 as = Assameză

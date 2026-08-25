@@ -7,7 +7,7 @@ request-language-explanation-1 =
     Если нет, заполните эту форму, и мы <strong>вышлем вам полезное электронное письмо,
     объясняющее, как настроить язык</strong>.
 request-language-form-email =
-    .label = Ваш e-mail:
+    .label = Ваш адрес эл. почты:
 request-language-form-info =
     .label = Информация о языке
 request-language-form-info-explanation =

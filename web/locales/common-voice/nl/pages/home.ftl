@@ -61,7 +61,7 @@ whats-public = Wat is openbaar?
 email-not-public = We maken uw e-mailadres niet openbaar.
 recordings-and-locale-public = Het aantal opnamen en de talen waaraan u bijdraagt zijn openbaar.
 username-optin-public = U kunt kiezen of uw gebruikersnaam openbaar of anoniem is.
-demographic-deidentified-clarity-2 = Optioneel ingediende demografische gegevens (b.v. leeftijd, gender, taal en accent) worden nooit openbaar gemaakt op uw profiel en worden niet gekoppeld aan uw account in de gegevensset. Afzonderlijke geluidsopnamen worden gekoppeld aan demografische gegevens voor een nauwkeurigere analyse – een onderzoeker kan bijvoorbeeld een trainingsmodel op een specifiek demografisch segment richten.
+demographic-deidentified-clarity-2 = Optioneel ingediende demografische gegevens (bijv. leeftijd, gender, taal en accent) worden nooit openbaar gemaakt op uw profiel en worden niet gekoppeld aan uw account in de gegevensset. Afzonderlijke geluidsopnamen worden gekoppeld aan demografische gegevens voor een nauwkeurigere analyse – een onderzoeker kan bijvoorbeeld een trainingsmodel op een specifiek demografisch segment richten.
 username-email-not-demographic = Uw gebruikersnaam en e-mailadres zullen niet met de gepubliceerde gegevens worden gekoppeld.
 
 ## Landing
@@ -70,7 +70,7 @@ welcome-staff = Welkom medewerkers van { $company }!
 help-contribute = U kunt een diverse, open-source gegevensset helpen bouwen door een Common Voice-profiel te maken en uw stem te doneren.
 login-company = Aanmelden / inschrijven met { $company }-e-mailadres
 profile-not-required = Een profiel is niet nodig om bij te dragen, hoewel het wel nuttig is
-read-more-about = Meer info op onze pagina Over
+read-more-about = Lees meer op onze pagina Over
 
 ## NAV ITEMS
 
@@ -159,8 +159,6 @@ download-press-pack = Download ons perspakket <icon></icon>
 
 ## Developers section
 
-developers-section-title = Publiek toegankelijke open spraakgegevenssets in meer dan 130 talen
-developers-section-subtitle = Gegevenssets voor ASR, STT, TTS en andere NLP-contexten – gemaakt via deelname van de gemeenschap.
 # icon is an arrow that points to the right
 explore-datasets = Gegevenssets verkennen <icon></icon>
 

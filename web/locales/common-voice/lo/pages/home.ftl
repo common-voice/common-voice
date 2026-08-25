@@ -169,8 +169,6 @@ download-press-pack = ດາວໂຫລດຊຸດຂ່າວຂອງພວ�
 
 ## Developers section
 
-developers-section-title = ຊຸດຂໍ້ມູນສຽງເວົ້າເປີດໃຫ້ສາທາລະນະເຂົ້າເຖິງໄດ້ໃນ 130+ ພາສາ
-developers-section-subtitle = ຊຸດຂໍ້ມູນສໍາລັບ ASR, STT, TTS, ແລະ ສະພາບການ NLP ອື່ນໆ - ສ້າງໂດຍຜ່ານການມີສ່ວນຮ່ວມຂອງຊຸມຊົນ.
 # icon is an arrow that points to the right
 explore-datasets = ສຳຫຼວດຊຸດຂໍ້ມູນ <icon></icon>
 

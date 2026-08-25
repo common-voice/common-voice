@@ -171,8 +171,6 @@ download-press-pack = ดาวน์โหลดชุดข่าวแจก�
 
 ## Developers section
 
-developers-section-title = ชุดข้อมูลเสียงพูดแบบเปิดที่เข้าถึงได้แบบสาธารณะใน 130+ ภาษา
-developers-section-subtitle = ชุดข้อมูลสำหรับงานด้าน ASR, STT, TTS และงานด้าน NLP อื่นๆ ที่สร้างขึ้นผ่านการมีส่วนร่วมจากชุมชน
 # icon is an arrow that points to the right
 explore-datasets = สำรวจชุดข้อมูล <icon></icon>
 

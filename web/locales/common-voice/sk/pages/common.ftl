@@ -17,6 +17,7 @@ ajg = Adja
 aln = Gheg albánsky
 am = Amharčina
 an = Aragónčina
+apc = Levantská arabčina
 ar = Arabčina
 arn = Mapudungun
 as = Ásámčina

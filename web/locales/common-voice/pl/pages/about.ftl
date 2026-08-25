@@ -72,19 +72,28 @@ about-playbook-how-add-language-content-1 =
     Jeśli nie, możesz <languageRequestLink>poprosić o dodanie swojego języka</languageRequestLink>.
     Etapy są dwa: tłumaczenie strony i zbieranie zdań
 about-playbook-how-add-language-translating-heading = Tłumaczenie strony
-about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Obejrzyj nasz poradnik korzystania z Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Obejrzyj nasz poradnik dotyczący korzystania z Pontoon.</translateVideoLink>
+about-playbook-how-add-language-translating-content-2 = Do tłumaczeń używamy narzędzia Mozilli o nazwie <pontoonLink>Pontoon</pontoonLink>. Pontoon zawiera wiele języków, ale jeśli nie ma wśród nich Twojego, <pontoonRequestLink>możesz poprosić o dodanie go</pontoonRequestLink>. Następnie, aby język ten stał się dostępny w projekcie Common Voice, <githubRepoLink>zgłoś prośbę o dodanie nowego języka przez GitHub</githubRepoLink>. <localizationFragment>Dowiedz się więcej o tłumaczeniu strony</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Zbieranie zdań
+about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Obejrzyj nasz poradnik dotyczący korzystania z narzędzia Sentence Collector</sentenceCollectorVideo>.
+about-playbook-how-add-language-collecting-sentences-content-2 = Możesz dodawać <sentenceCollectorLinkAdd>pojedyncze zdania</sentenceCollectorLinkAdd> lub <bulkImportDocsLink>importować je zbiorczo za pomocą serwisu GitHub</bulkImportDocsLink>. Pamiętaj, że zdania muszą być objęte <licenseLink>licencją CC0 (lub należeć do domeny publicznej)</licenseLink>, albo możesz napisać własne.
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Więcej informacji na temat zbierania zdań</sentenceCollectorFragment>.
 
 ## How does localization work
 
 about-playbook-how-localize = Jak wygląda lokalizacja witryny?
 about-playbook-how-localize-content-1 = Tłumaczenie witryny Common Voice odbywa się na <strong>Pontoon</strong>.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Załóż konto</pontoonAccountLink>, jeśli jeszcze go nie masz. Następnie wybierz język <strong>(„Team”)</strong>, a potem projekt <pontoonCvLink>Common Voice</pontoonCvLink>. Znajdziesz tam pliki do tłumaczenia. Wybierz jeden z nich, a wyświetlą się słowa w języku angielskim oraz pole do ich tłumaczenia.
+about-playbook-how-localize-content-3 = Tłumaczenie odbywa się z języka angielskiego, ale możesz sprawdzić tłumaczenia na inne języki. Kliknij ikonę <strong>profilu</strong>, a następnie link <strong>Ustawienia</strong> i dodaj języki, którymi się posługujesz. W prawym dolnym rogu pojawi się lista tłumaczeń o nazwie <strong>Locales</strong>. Tłumaczenia pojawiają się na stronie po upływie jednego dnia.
 about-playbook-how-localize-content-4 = Strona będzie gotowa do uruchomienia, gdy jej tłumaczenie osiągnie 75%.
 about-playbook-how-localize-content-5 = Obejrzyj film instruktażowy
 
 ## How to add sentences
 
 about-playbook-how-add-sentences = Jak dodawać zdania?
+about-playbook-how-add-sentences-content-1 = Na stronie <writePageLink>Pisz</writePageLink> możesz dodawać zdania, a na stronie <reviewPageLink>Sprawdzaj</reviewPageLink> – je przeglądać.
+about-playbook-how-add-sentences-content-2 = Aby zdania zostały uwzględnione w projekcie Common Voice, musi zostać sprawdzone i zaakceptowane przez dwie osoby. <languageGuidelinesLink>Tutaj</languageGuidelinesLink> możesz utworzyć wytyczne dla swojego języka. Zdania muszą należeć do <licenseLink>domeny publicznej</licenseLink> i zawierać mniej niż 15 słów. Możesz poprosić właściciela tekstu o udostępnienie go na licencji CC0, korzystając z <waiverLink>naszej procedury zrzeczenia się praw</waiverLink>, a następnie przesłanie go do nas na adres commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = Możesz skorzystać z narzędzia <scraperLink>Sentence extractor</scraperLink>, aby pozyskać krótkie zdania z Wikipedii.
 
 ## How to record quality
 
@@ -97,16 +106,29 @@ about-playbook-how-record-content-5 = <accuracyLink>Więcej informacji na temat 
 
 ## How to grow language
 
+about-playbook-how-grow-language = Jak możemy skutecznie rozwijać język w ramach Common Voice?
+about-playbook-how-grow-language-content-1 = Stworzenie możliwości, aby różnorodne osoby mogły wnieść swój wkład w Common Voice, gwarantuje, że zbiór danych będzie służył jak największej liczbie osób. Przygotowaliśmy zasoby i szablony, z których możesz skorzystać!
 about-playbook-how-grow-language-content-2 = Wydarzenia
 about-playbook-how-grow-language-content-3 = Możesz organizować wydarzenia, aby pomóc ludziom w zaangażowaniu się. To prostsze niż myślisz. Możesz to zrobić online za pomocą narzędzia do wideokonferencji lub osobiście, jeśli jest to bezpieczne. <eventTemplate>Sprawdź nasze szablony i zasoby do organizacji wydarzeń</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Serwisy społecznościowe
 about-playbook-how-grow-language-content-5 = Możesz wykorzystać media społecznościowe, aby rozpowszechnić tę wiadomość. Udostępniaj posty, które wyjaśniają, dlaczego to ważne, i nawiąż kontakt z innymi osobami poruszającymi takie tematy, jak prawa językowe, sztuczna inteligencja głosowa czy stronniczość w technologii. Przeczytaj więcej porad na temat <campaignLink>prowadzenia kampanii w mediach społecznościowych, w tym treści, które można ponownie wykorzystać</campaignLink>.
 about-playbook-how-grow-language-content-6 = Współpraca i sieci
 about-playbook-how-grow-language-content-7 = Znajdź osoby, którym zależy. Mogą to być uniwersytety, szkoły językowe, grupy wsparcia lub społeczności zajmujące się nauką o danych. Skontaktuj się z nimi i jasno wyjaśnij, jak mogą pomóc i dlaczego. <outreachTemplates>Zobacz nasze szablony e-maili informacyjnych</outreachTemplates>.
+about-playbook-how-grow-language-content-8-v2 = <strong>Bądź kreatywny!</strong> Twoja społeczność językowa będzie wyjątkowa, a to tylko kilka sposobów na początek. Rozważ dodanie kanałów społecznościowych do dokumentu <communitiesLink>COMMUNITIES.md w serwisie GitHub</communitiesLink>.
 
 ## How to validate
 
+about-playbook-how-validate = Skąd mam wiedzieć, czy zatwierdzić klip głosowy?
+about-playbook-how-validate-content-1 = Jeśli możesz je <strong>usłyszeć</strong> i <strong>zrozumieć</strong>, zazwyczaj <strong>najlepiej jest je zatwierdzić</strong>.
+about-playbook-how-validate-content-2 = <strong>Nie odrzucaj klipów, w których mówca „ma akcent” inny niż twój</strong> - jest to ważne, aby rozpoznawanie głosu działało lepiej dla wszystkich.
+about-playbook-how-validate-content-3 = Jeśli uważasz, że wymowa sprawia, że <strong>nie da się zrozumieć</strong> materiału, lub w tle jest <strong>dużo szumu</strong>, albo <strong>mówią też inne osoby</strong>, odrzuć ten klip. <accuracyLink>Więcej informacji znajdziesz w naszych kryteriach dokładności</accuracyLink>.
 about-playbook-how-validate-content-4 = Jeżeli klip zostanie odrzucony przez 2 osoby, zostanie on wydany w innym podzbiorze zbioru danych.
+
+## How to access dataset
+
+about-playbook-how-access-dataset = Jak uzyskać dostęp do zbioru danych i z niego korzystać?
+about-playbook-how-access-dataset-content-1 = Możesz przejść do <datasetsPage>strony zbiorów danych</datasetsPage>, wybrać żądaną wersję i język(i), a następnie pobrać je. Pliki zawierają <metadataLink>powiązane metadane</metadataLink>, takie jak informacje demograficzne i dane walidacyjne. Aby pobrać zbiór danych, konieczne będzie podanie adresu e-mail.
+about-playbook-how-access-dataset-content-2 = Jeśli szukasz narzędzi do tworzenia modeli ASR, możesz nawiązać kontakt z innymi członkami społeczności na <discourseLink>platformie Discourse</discourseLink>.
 
 ## How are decisions made
 
@@ -122,4 +144,6 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Dowiedz się w
 ## How is Common Voice funded
 
 about-playbook-how-funded = Jak finansowany jest projekt Common Voice?
+about-playbook-how-funded-content-1 = Common Voice to projekt Fundacji Mozilla, organizacji typu 501c3 z siedzibą w Stanach Zjednoczonych. Projekt jest obecnie finansowany w całości z <philantropicGrantLink>grantów filantropijnych</philantropicGrantLink> oraz darowizn od osób z całego świata.
+about-playbook-how-funded-content-2 = Ciągłe utrzymywanie i udostępnianie zbiorów danych, ulepszanie platformy oraz prowadzenie <africaMradiLink>programów społecznościowych</africaMradiLink> wiąże się z dużymi kosztami.
 about-playbook-how-funded-content-3 = Jeśli Ty lub Twoja organizacja chcielibyście wesprzeć projekt, możecie dokonać <donateLink>darowizny</donateLink> lub skontaktować się z naszym zespołem ds. partnerstw pod adresem <emailFragment>commonvoice@mozilla.com</emailFragment>.

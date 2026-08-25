@@ -15,3 +15,4 @@ cs-tag-dataset-name = အဆင်ႏခြွဉ်း[{ $datasetName }]
 ## Guidelines
 
 learn-how-to-use = သွဉ်ထူႏ လိတ်မဲ့ငါယိုနောဝ်ꩻ သွုံꩻဗာႏနုဲင်းမုဲင်ꩻ
+read-full-guidelines-here = <guidanceLink> ထွားဒေါ့ꩻဗွေလို့ တဖူꩻယီႏနယ်ဖုံႏ ယိုကို</guidanceLink>

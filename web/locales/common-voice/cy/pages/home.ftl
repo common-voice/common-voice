@@ -173,8 +173,6 @@ download-press-pack = Llwythwch i lawr ein pecyn i'r wasg <icon></icon>
 
 ## Developers section
 
-developers-section-title = Setiau data lleferydd agored sy'n hygyrch i'r cyhoedd mewn 130+ o ieithoedd
-developers-section-subtitle = Setiau data ar gyfer ASR, STT, TTS, a chyd-destunau NLP eraill - wedi'u creu trwy gyfranogiad cymunedol.
 # icon is an arrow that points to the right
 explore-datasets = Archwiliwch setiau data <icon></icon>
 

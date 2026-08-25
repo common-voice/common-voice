@@ -151,8 +151,6 @@ download-press-pack = Xiktlajtlani tlen ika titlatematiltis <icon></icon>
 
 ## Developers section
 
-developers-section-title = Tlajtolnechikoli tlen nochtin uelis kitekitiltiskej ika 130+ tlajtolkopaj
-developers-section-subtitle = Tlajtolnechikoli tlen non ika uelis kichiuaskej ASR, STT, TTS, uan okseki tlen poui itech NLP.
 # icon is an arrow that points to the right
 explore-datasets = Xitlatemo itech tlajtolnechikoli <icon></icon>
 

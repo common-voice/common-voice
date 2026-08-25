@@ -5,6 +5,16 @@ export type Variant = {
 }
 
 export const VARIANTS: Variant[] = [
+    {
+    locale_name: 'apc',
+    variant_name: 'اللبناني',
+    variant_token: 'apc-LB',
+  },
+  {
+    locale_name: 'apc',
+    variant_name: 'Lebneneh',
+    variant_token: 'apc-Latn-LB',
+  },
   {
     locale_name: 'ha',
     variant_name: 'Hausar kanawa',

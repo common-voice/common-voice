@@ -162,8 +162,6 @@ download-press-pack = Basın paketimizi indirin <icon></icon>
 
 ## Developers section
 
-developers-section-title = 130’dan fazla dilde kamuya açık konuşma veri kümeleri
-developers-section-subtitle = Topluluk katılımıyla oluşturulan ASR, STT, TTS ve diğer NLP bağlamlarına ait veri kümeleri.
 # icon is an arrow that points to the right
 explore-datasets = Veri kümelerini keşfedin <icon></icon>
 

@@ -160,8 +160,6 @@ download-press-pack = Unduh paket pers kita <icon></icon>
 
 ## Developers section
 
-developers-section-title = Kumpulan data wicara terbuka sing bisa diakses publik ing luwih saka 130 basa
-developers-section-subtitle = Kumpulan data kanggo ASR, STT, TTS, lan konteks NLP liyane - digawe liwat partisipasi komunitas.
 # icon is an arrow that points to the right
 explore-datasets = Jelajahi kumpulan data <icon></icon>
 

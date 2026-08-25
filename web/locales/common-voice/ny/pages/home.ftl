@@ -164,8 +164,6 @@ download-press-pack = Tsitsani phukusi lathu la atolankhani <icon></icon>
 
 ## Developers section
 
-developers-section-title = Ma data a mawu otseguka omwe amapezeka pagulu m'zilankhulo zoposa 130
-developers-section-subtitle = Ma data a ASR, STT, TTS, ndi zina zokhudzana ndi NLP - adapangidwa kudzera mu kutenga nawo mbali kwa anthu ammudzi.
 # icon is an arrow that points to the right
 explore-datasets = Fufuzani ma dataseti <icon></icon>
 

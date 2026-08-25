@@ -162,8 +162,6 @@ download-press-pack = Descarcă dosarul nostru pentru presă <icon></icon>
 
 ## Developers section
 
-developers-section-title = Seturi de date vocale cu sursă deschisă accesibile publicului în peste 130 de limbi
-developers-section-subtitle = Seturi de date pentru recunoaștere și sinteză vocală automate, precum și alte domenii ale procesării limbajului natural. Aceste date au fost create cu ajutorul comunității.
 # icon is an arrow that points to the right
 explore-datasets = Explorează seturile de date <icon></icon>
 

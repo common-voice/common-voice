@@ -10,8 +10,8 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }</bold> ieraksti
        *[other] <bold>{ $count }</bold> ierakstu
     }
-goal-help-recording = Jūs esat palīdzējuši sasniegt <goalPercentage> </goalPercentage> no mūsu mērķa - { $goalValue } ierakstu dienā!
-goal-help-validation = Jūs esat palīdzējuši sasniegt <goalPercentage> </goalPercentage> no mūsu mērķa - { $goalValue } pārbaudīto ierakstu dienā!
+goal-help-recording = Jūs esat palīdzējuši Common Voice sasniegt <goalPercentage> </goalPercentage> no mūsu ikdienas ierakstīšanas mērķa – { $goalValue }.
+goal-help-validation = Jūs esat palīdzējuši Common Voice sasniegt <goalPercentage> </goalPercentage> no mūsu ikdienas pārbaudīšanas mērķa – { $goalValue }.
 contribute-more =
     { $count ->
         [zero] Vai esat gatavi vēl { $count }?
@@ -22,8 +22,8 @@ speak-empty-state = Mums ir beigušies teikumi, ko ierakstīt šajā valodā...
 no-sentences-for-variants = Iespējams, jūsu izvēlētajā valodā vairs nav teikumu! Ja zināt vēl kādu valodu, varat mainīt iestatījumus, lai redzētu citus teikumus.
 speak-empty-state-cta = Pievienot teikumus
 speak-loading-error =
-    Mēs nevarējām iegūt nevienu teikumu, lai jūs varētu ierunāt.
-    Lūdzu, mēģiniet vēlreiz nedaudz vēlāk.
+    Mēs nevarējām iegūt nevienu teikumu ierunāšanai.
+    Lūgums nedaudz vēlāk mēģināt vēlreiz.
 record-button-label = Ierakstiet savu balsi
 share-title-new = <bold> Palīdziet mums </bold> atrast vairāk balsu
 keep-track-profile = Sekojiet līdzi progresam, izmantojot profilu
@@ -55,7 +55,7 @@ report-grammar-or-spelling-detail = Teikumā ir gramatiska vai pareizrakstības 
 report-different-language = Nepareiza valoda
 report-different-language-detail = Tas ir uzrakstīts valodā, kas atšķiras no tās, ko runāju.
 report-difficult-pronounce = Grūti izrunāt
-report-difficult-pronounce-detail = Tajā ir vārdi vai frāzes, kurus ir grūti lasīt vai izrunāt.
+report-difficult-pronounce-detail = Tajā ir vārdi vai vārdkopas, kuras ir grūti lasīt vai izrunāt.
 report-offensive-speech = Aizvainojoša runa
 report-offensive-speech-detail = Ierakstā izmantota necienīga vai aizskaroša valoda.
 report-other-comment =
@@ -147,7 +147,7 @@ contribution-background-voices-example-1-explanation = Vai tu nāc? <strong>[sak
 contribution-volume-title = Skaļums
 contribution-volume-description = Starp lasītājiem būs dabiskas ieraksta skaļuma atšķirības. Noraidīt tikai tad, ja skaļums ir tik liels, ka ierakstā ir krakšķi vai tas pārtrūkst, vai arī, ja tas ir tik kluss, ka nevar saklausīt dzirdēt teikto bez atsauces uz rakstīto tekstu.
 contribution-reader-effects-title = Ierunātāja izrunas īpatnības
-contribution-reader-effects-description = Lielākā daļa ierakstu ir no cilvēkiem, kas runā savā dabiskajā balsī. Varat pieņemt nelielas atkāpes, piemēram, ja kāda frāze tiek pateikta skaļāk, klusāk vai tiek pasniegta ‘dramatiskā’ balsī. Lūdzu, noraidiet dziedātos ierakstus un tos, kas ierunāti robotiskā datora balsī.
+contribution-reader-effects-description = Lielākajā daļā ierakstu ir cilvēki, kas runā savā dabiskajā balsī. Reizēm ierakstos ir pieļaujamas nelielas atkāpes — izkliegšana, čukstēšana vai acīmredzami “dramatiska" balss. Lūgums noraidīt dziedātos ierakstus un tos, kas ierunāti ar datora radītu balsi.
 contribution-just-unsure-title = Vienkārši neesat pārliecināti?
 contribution-just-unsure-description = Ja saskaraties ar kaut ko, kas šajās vadlīnijās nav ietverts, lūdzu, balsojiet kā jums šķiet pareizi. Atcerieties, kvalitāte un precizitāte ir svarīgāka par ierakstu skaitu. Ja tiešām nevarat izlemt, izmantojiet izlaišanas pogu un pārejiet uz nākamo ierakstu.
 see-more = <chevron></chevron>Rādīt vairāk

@@ -18,7 +18,7 @@ submit-button = Wyślij
 question = Pytanie
 respond-to-prompt = Odpowiedź
 respond-to-prompt-mobile = Odpowiedź
-check-transcriptions-mobile = Recenzja
+check-transcriptions-mobile = Do sprawdzenia
 tag = Etykieta
 
 ## Not Found Page

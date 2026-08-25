@@ -161,8 +161,6 @@ download-press-pack = Téléchargez notre dossier de presse <icon></icon>
 
 ## Developers section
 
-developers-section-title = Jeux de données vocales ouvertes et publics dans plus de 130 langues
-developers-section-subtitle = Jeux de données pour les contextes ASR, STT, TTS et NLP - créés grâce à la participation de la communauté.
 # icon is an arrow that points to the right
 explore-datasets = Parcourir les jeux de données <icon></icon>
 

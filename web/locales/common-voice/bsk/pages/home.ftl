@@ -144,8 +144,6 @@ download-press-pack = Mii press pack download etin
 
 ## Developers section
 
-developers-section-title = Tʰa altar toorumo baaśinulo uyoonar deṣqaltas dataset
-developers-section-subtitle = ASR, STT, TTS daa NLP context gane Kuyooće emasuminate desmanum datasets
 # icon is an arrow that points to the right
 explore-datasets = Dataset diyusin.
 

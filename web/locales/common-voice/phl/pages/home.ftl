@@ -148,8 +148,6 @@ download-press-pack = اسی پریس پیک ڈاؤن لوڈ تھوئی <icon></
 
 ## Developers section
 
-developers-section-title = 130+ زُبینیمی  عوامی سطح کی  قابل رسائی اوپن اسپیچ ڈیٹا سیٹس
-developers-section-subtitle = ASR، STT، TTS، او دوئی NLP سیاق و سباق دپارہ ڈیٹا سیٹس - کمیونٹی  شرکتی دپارہ سمولو ہنو
 # icon is an arrow that points to the right
 explore-datasets = ڈیٹا سیٹس دریافت تھوئی۔ <icon></icon>
 

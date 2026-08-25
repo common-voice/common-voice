@@ -49,6 +49,7 @@
 
 ### Changes merged after current release
 
+- Docs: Expand sentence correction and migration guidance by [@VedantMadane](https://github.com/VedantMadane), in [#5471](https://github.com/common-voice/common-voice/pull/5471) (in v.1.159.8)
 - Feat: Add migration helper for new predefined-accent inclusion, which solves collisions with user-defined accents, also re-apply the Frisian (`fy`) accent additions -which failed previously due to collisions- using this workflow by [@moz-bozden](https://github.com/moz-bozden) in [#5453](https://github.com/common-voice/common-voice/pull/5453) (in v.1.159.5)
 - Fix: Revert to the English translation as a fallback when a native-language translation does not exist (instead of showing the language code), add an apostrophe-normalization helper, by [@moz-bozden](https://github.com/moz-bozden) in [#5439](https://github.com/common-voice/common-voice/pull/5439) (in v.1.159.3)
 - Chore: Rework rate limiting to be keyed by user client_id (with IP fallback) across several server endpoints, and improve the client UX to prevent/handle accidental duplicate submissions and rate-limit responses during contribution flows, by [@moz-bozden](https://github.com/moz-bozden) in [#5424](https://github.com/common-voice/common-voice/pull/5424) (in v.1.159.2)
@@ -57,6 +58,8 @@
 
 #### Data Changes after current release
 
+- Levantine Arabic (`apc`) variants [#5473](https://github.com/common-voice/common-voice/pull/5473) by [@moz-acfort](https://github.com/moz-acfort) (in v.1.159.8)
+- Welcome to new language: Levantine Arabic (`apc`) (in v.1.159.8)
 - Welcome to new language: Mazandarani (`mzn`) (in v.1.159.7)
 - Welcome to new language: Pa'O (`blk`) (in v.1.159.5)
 - Add Hausa (`ha`) variants [#5451](https://github.com/common-voice/common-voice/pull/5451) by [@moz-acfort](https://github.com/moz-acfort) (in v.1.159.5)
@@ -69,6 +72,7 @@
 
 ##### SS Data Changes after current release
 
+- Add Swahili (`sw`) questions by [@moz-acfort](https://github.com/moz-acfort) in [#552](https://github.com/common-voice/spontaneous-speech/pull/552) (in v.1.159.8)
 - Fix problems in Corsican (`co`) questions by [@moz-acfort](https://github.com/moz-acfort) in [#551](https://github.com/common-voice/spontaneous-speech/pull/551) (in v.1.159.7)
 - Add Palauan (`pau`) and Sundanese (`su`) questions by [@moz-acfort](https://github.com/moz-acfort) in [#549](https://github.com/common-voice/spontaneous-speech/pull/549) and [#550](https://github.com/common-voice/spontaneous-speech/pull/550) (in v.1.159.6)
 - Add Bengali (`bn`) questions by [@moz-acfort](https://github.com/moz-acfort) in [#548](https://github.com/common-voice/spontaneous-speech/pull/548) (in v.1.159.3)

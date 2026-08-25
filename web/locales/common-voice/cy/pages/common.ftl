@@ -17,6 +17,7 @@ ajg = { "" }
 aln = Gheg Albania
 am = Amharig
 an = Aragoneg
+apc = Arabeg y Lafant
 ar = Arabeg
 arn = Mapudungun
 as = Asameg

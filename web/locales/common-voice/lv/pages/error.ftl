@@ -5,9 +5,17 @@ banner-error-slow-2 = Mēs saņemam daudz pieprasījumu un pašlaik risinām pro
 banner-error-slow-link = Statusa lapa
 error-something-went-wrong = Piedodiet, kaut kas nogāja greizi
 error-clip-upload = Šī ieraksts augšupielāde joprojām neizdodas. Vai mēģināt vēlreiz?
-error-clip-upload-server = Šī ieraksta augšupielāde serverī joprojām neizdodas. Pārlādējiet lapu vai vēlāk mēģiniet vēlreiz.
+error-clip-upload-server = Šī ieraksta augšupielāde serverī joprojām neizdodas. Pārlādē lapu vai vēlāk mēģini vēlreiz!
+error-clip-upload-too-large = Ieraksta datne ir pārāk liela, lai augšupielādētu. Lūgums mēģināt ierakstīt īsāku gabalu.
 error-title-404 = Mēs nevarējām atrast šo lapu
 error-content-404 = Varbūt mūsu <homepageLink>mājaslapa</homepageLink> palīdzēs? Lai uzdotu jautājumu, lūgums pievienoties <matrixLink>Matrix kopienas tērzētavā</matrixLink>, pārraudzīt vietnes nepilnības <githubLink>GitHub</githubLink>, vai apmeklēt <discourseLink>mūsu Discourse forumus</discourseLink>.
+error-title-429-no-time = Tu darbojies pārāk ātri. Lūgums piebremzēt un pēc brīža mēģināt vēlreiz.
+error-title-429-with-time =
+    { $retryAfter ->
+        [zero] Tu darbojies pārāk ātri. Lūgums pēc { $retryAfter } sekundēm mēģināt vēlreiz.
+        [one] Tu darbojies pārāk ātri. Lūgums pēc { $retryAfter } sekundes mēģināt vēlreiz.
+       *[other] Tu darbojies pārāk ātri. Lūgums pēc { $retryAfter } sekundēm mēģināt vēlreiz.
+    }
 error-title-500 = Piedodiet, kaut kas nogāja greizi
 error-content-500 = Radās negaidīta kļūda. Lūdzu, mēģiniet vēlreiz. Lai saņemtu palīdzību, lūdzu, pievienojieties <matrixLink>Matrix kopienas tērzēšanai</matrixLink>, uzraugiet vietnes problēmas, izmantojot <githubLink>GitHub</githubLink>, vai apmeklējiet <discourseLink>mūsu Discourse forumus</discourseLink>.
 error-title-502 = Savienojums pārtraukts
@@ -15,7 +23,7 @@ error-content-502 = Šobrīd nevar izveidot stabilu savienojumu ar mūsu serveri
 error-title-503 = Mēs piedzīvojam negaidītu dīkstāvi
 error-content-503 = Vietne tiks atjaunota, cik drīz vien iespējams. Lai iegūtu jaunāko informāciju, lūdzu, pievienojieties <matrixLink>Matrix kopienas tērzētavai</matrixLink> vai apmeklējiet <githubLink>GitHub</githubLink> vai <discourseLink>mūsu diskusiju forumus</discourseLink>, lai ziņotu par vietnes problēmām un uzzinātu par aktuālo problēmu risināšanas statusu.
 error-title-504 = Pieprasījuma noildze
-error-content-504 = Pieprasījuma izpilde aizņēma pārāk ilgu laiku. Tas parasti ir īslaicīgi. Lūdzu, mēģiniet vēlreiz. Lai saņemtu palīdzību, lūdzu, pievienojieties <matrixLink>Matrix kopienas tērzēšanai</matrixLink>, uzraugiet vietnes problēmas, izmantojot <githubLink>GitHub</githubLink>, vai apmeklējiet <discourseLink>mūsu Discourse forumus</discourseLink>.
+error-content-504 = Pieprasījuma izpilde aizņēma pārāk ilgu laiku. Tas parasti ir īslaicīgi. Lūgums mēģināt vēlreiz. Palīdzības saņemšanai lūgums pievienoties <matrixLink>Matrix kopienas tērzēšanai</matrixLink>, pārskatīt vietnes pieteikumus <githubLink>GitHub</githubLink>, vai apmeklēt <discourseLink>mūsu Discourse forumus</discourseLink>.
 error-code = Kļūda { $code }
 # Warning message shown when none of the clips could be uploaded
 error-duplicate-clips-all =
