@@ -38,10 +38,12 @@ email-subscription-title-v3 = ယံဖေႏကလꩻ အဆုဲင်ꩻသ�
 ## Account Benefits
 
 benefits = လꩻအဟောဝ်ဖဲ့ꩻဖုံႏ
+view-goals = ထွားချာ နာꩻနမ်းပဲင်ႏ ထာꩻထင်ႏထို တွမ်ႏ ထာꩻမာꩻရဲဉ်ႏ ကောဝ်ႏထွန်ႏဖုံႏ
 
 ## What's public
 
 whats-public = ခမ်းသားလိုꩻအာ ကရိုꩻနောဝ်ꩻတမုဲင်ꩻ?
+email-not-public = နာꩻအီးမေးယို နီဒင်ႏနယ်နွောင်ꩻတောဝ်း ခမ်းသားလိုꩻအာထျꩻသွူ။
 
 ## Landing
 
@@ -67,6 +69,8 @@ spontaneous-speech = ခါလဲင်ႏ ဒေါ့ꩻငေါဝ်း
 
 about-us-menu-aria-label = လွိုက်ထူႏသွော့ အကျောင်ꩻခရာႏ ကတူႏရဲဉ်ႏ
 about-us-menu-item-aria-label = လွိုက်ထူႏသွော့ နီသွဉ်းသီး အကျောင်ꩻခရာႏ ကတူႏရဲဉ်ႏ
+partnerships-menu-item-aria-label = သွဉ်ထူႏ ထောင်ထွားဖေႏ ကောင်မွဉ်းဗွဲက် တွမ်ႏ ထာꩻမာꩻစွဲးကမ်းဖက်သီးအခရာႏဖုံႏ
+press-and-stories-menu-item-aria-label = နွို့ထွား ထူႏနွောင်ꩻဒျာႏ ကောင်မွဉ်းဗွဲက် ကထေလောဝ်းချာဒါႏ အတသာဖုံႏ တွမ်ႏ ဇာတ်တဖူꩻထွာခြောင်ꩻဖုံႏ
 
 ## Hero section
 
