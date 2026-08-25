@@ -112,6 +112,8 @@ about-playbook-how-record-content-5 = <<accuracyLink>hụ ihe ndị ọzọ gbas
 about-playbook-how-grow-language = Kedu ka anyị ga-esi mee ka asụsụ too na Common Voice siriri werere?
 about-playbook-how-grow-language-content-1 = Kepụta ohere nyere mmadụ dị iche iche ịtụnye ụtụ na Common Voice iji hụ na ntọala data na-arụ ọrụ nyere ọtụtụ ndị mmadụ ka o nwere ike! Anyị ekepụtala njieme ihe na ihe nduzi Ị ga-ejinwu mee ihe!
 about-playbook-how-grow-language-content-2 = Ihe omume
+about-playbook-how-grow-language-content-3 = Ị ga-ahazinwu ihe omume inyere ndị mmadụ aka tụnye ụtụ. Ọ dị mfe karịa ka i che. Ị ga-emenwu ya n'ị́ntánet site n'iji akụrụngwa nzukọ vidio, ma ọ bụ ihu na ihu ọ bụrụ na udo ga-adị.<eventTemplate>Lelee íhé nduzi na njieme ihe anyị maka ịhazi ihe omume </eventTemplate>.
+about-playbook-how-grow-language-content-4 = Soshul midia
 
 ## How to access dataset
 
