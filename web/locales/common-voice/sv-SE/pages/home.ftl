@@ -162,8 +162,6 @@ download-press-pack = Ladda ner vårt presspaket <icon></icon>
 
 ## Developers section
 
-developers-section-title = Allmänt tillgängliga öppna datamängder för tal på över 130 språk
-developers-section-subtitle = Datamängder för ASR, STT, TTS och andra NLP-kontexter - skapad genom communitydeltagande.
 # icon is an arrow that points to the right
 explore-datasets = Utforska datamängder <icon></icon>
 

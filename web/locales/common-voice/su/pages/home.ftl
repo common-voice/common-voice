@@ -147,8 +147,6 @@ download-press-pack = Unduh paket warta <icon></icon>
 
 ## Developers section
 
-developers-section-title = Kumpulan data soanten nu tiasa diakses ku masarakat umum dina 130+ basa
-developers-section-subtitle = Kumpulan data kanggo ASR, STT, TTS, sareng konteks NLP anu sanesna - dipidamel  partisipasi komunitas.
 # icon is an arrow that points to the right
 explore-datasets = Jalajah kumpulan data <icon></icon>
 

@@ -159,8 +159,6 @@ download-press-pack = امارون پريس پيڪ ڍائونَ لوڍ ڪرو</i
 
 ## Developers section
 
-developers-section-title = 130 ٻولِيان ٿِي وڌارين مان عوامِي طور ٿِي اوپِنَ اِسپيچ ڍيٽاسيٽ رسائِي ۿارُو سي۔
-developers-section-subtitle = ڀِراڌرِي نِي شموليت نيَ زريئيَ ٿِي ASR ،STT ،TTS انين NLP نيَ حواليَ ٿِي ڍيٽاسيٽ ٺاۿيُون جھون۔
 # icon is an arrow that points to the right
 explore-datasets = ڍيٽاسيٽ نِي ڳوچ ڪرو</icon><icon>
 

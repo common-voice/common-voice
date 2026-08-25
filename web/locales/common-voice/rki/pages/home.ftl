@@ -176,8 +176,6 @@ download-press-pack = အကျွန်ရို့ စာနယ်ဇင်း
 
 ## Developers section
 
-developers-section-title = ဘာသာစကား ၁၃၀+ နန့် အများပြည်သူ ဝင်ရောက်ကြည့်ရှုနိုင်ယေ open speech dataset တိ
-developers-section-subtitle = ASR၊ STT၊ TTS နန့် တခြား NLP အကြောင်းအရာတိအတွက် ဒေတာအစုတိကို အသိုင်းအဝိုင်း ပါဝင်မှုကတဆင့် ဖန်တီးထားပါယေ။
 # icon is an arrow that points to the right
 explore-datasets = ဒေတာစုတိကို စူးစမ်းလေ့လာကြည့်ပါ <icon></icon>
 

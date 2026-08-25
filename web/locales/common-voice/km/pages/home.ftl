@@ -153,8 +153,6 @@ download-press-pack = ទាញយកកញ្ចប់សារព័ត៌ម�
 
 ## Developers section
 
-developers-section-title = សំណុំទិន្នន័យសុន្ទរកថាបើកចំហដែលអាចចូលមើលបានជាសាធារណៈជាង 130+ ភាសា
-developers-section-subtitle = សំណុំទិន្នន័យសម្រាប់ ASR, STT, TTS និងបរិបទ NLP ផ្សេងទៀត - បង្កើតឡើងតាមរយៈការចូលរួមរបស់សហគមន៍។
 # icon is an arrow that points to the right
 explore-datasets = រុករកសំណុំទិន្នន័យ <icon></icon>
 

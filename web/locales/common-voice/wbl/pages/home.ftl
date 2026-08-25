@@ -144,8 +144,6 @@ download-press-pack = Spo pres pekẽ (press pack) downlowd̃ <icon></icon>
 
 ## Developers section
 
-developers-section-title = mẽdumri  k̃henakẽ d̃at̃a hẽt130+zikisht
-developers-section-subtitle = ASR, STT, TTS woz dihar NLP javẽ d̃at̃aset̃- cẽ jẽmoat̃ mẽdadẽn k̃hatk
 # icon is an arrow that points to the right
 explore-datasets = D̃at̃set̃ẽ got<icon></icon>
 

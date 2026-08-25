@@ -169,8 +169,6 @@ download-press-pack = زموږ د پریس پیک ډاونلوډ کړئ <icon></
 
 ## Developers section
 
-developers-section-title = په ۱۳۰+ ژبو کې د عامه لاسرسي وړ خلاصې وینا ډیټاسیټونه
-developers-section-subtitle = د ASR، STT، TTS، او نورو NLP شرایطو لپاره ډیټاسیټونه - د ټولنې د ګډون له لارې رامینځته شوي.
 # icon is an arrow that points to the right
 explore-datasets = د ډیټاسیټونو سپړنه  <icon></icon>
 

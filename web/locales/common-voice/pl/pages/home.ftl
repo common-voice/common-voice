@@ -124,11 +124,6 @@ contribute-github-content = Ten projekt nie byłby możliwy bez ludzi takich jak
 # icon is an arrow that points downwards
 download-press-pack = Pobierz nasz pakiet prasowy <icon></icon>
 
-## Developers section
-
-developers-section-title = Publicznie dostępne otwarte zbiory danych w ponad 130 językach
-developers-section-subtitle = Zestawy danych dla ASR, STT, TTS i innych kontekstów NLP - tworzone przy udziale społeczności.
-
 ## Get involved section
 
 read-sentences-link = Czytaj zdania

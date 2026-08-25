@@ -151,8 +151,6 @@ download-press-pack = Бастаи матбуоти моро боргирӣ на
 
 ## Developers section
 
-developers-section-title = Маҷмуъҳои маълумоти овозӣ дар зиёда аз 130 забон дар манбаи ҷамъиятии дастрас
-developers-section-subtitle = Маҷмуи маълумот барои «ASR», «STT», «TTS» ва мазмунҳои дигари «NLP», ки тавассути иштироки ҷомеа сохта шудаанд.
 # icon is an arrow that points to the right
 explore-datasets = Маҷмуи маълумотро озмоед <icon></icon>
 

@@ -173,8 +173,6 @@ download-press-pack = Stiahnite si náš tlačový balík <icon></icon>
 
 ## Developers section
 
-developers-section-title = Verejne prístupné otvorené kolekcie údajov o reči vo viac ako 130 jazykoch
-developers-section-subtitle = Súbory údajov pre ASR, STT, TTS a ďalšie kontexty NLP – vytvorené zúčastnenou komunitou.
 # icon is an arrow that points to the right
 explore-datasets = Preskúmajte kolekcie údajov <icon></icon>
 

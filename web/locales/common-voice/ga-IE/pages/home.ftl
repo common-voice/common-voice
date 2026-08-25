@@ -143,7 +143,6 @@ download-press-pack = Íosluchtaigh ár bpacáiste preas <icon></icon>
 
 ## Developers section
 
-developers-section-title = Tacar sonraí cainte oscailte atá inrochtana go poiblí i 130+ teanga
 # icon is an arrow that points to the right
 explore-datasets = Taiscéal na tacair sonraí <icon></icon>
 

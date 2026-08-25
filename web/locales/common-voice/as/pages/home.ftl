@@ -155,8 +155,6 @@ download-press-pack = আমাৰ প্ৰেছ পেক ডাউনল’�
 
 ## Developers section
 
-developers-section-title = 130টাৰো অধিক ভাষাত ৰাজহুৱাভাৱে সুগম্য মুক্ত ভাষণৰ ডেটাছেট
-developers-section-subtitle = ASR, STT, TTS আৰু অন্যান্য NLP প্ৰসংগৰ বাবে ডেটাছেট - সামাজিক অংশগ্ৰহণৰ দ্বাৰা সৃষ্ট।
 # icon is an arrow that points to the right
 explore-datasets = ডেটাছেটবোৰ অন্বেষণ কৰক <icon></icon>
 

@@ -163,8 +163,6 @@ download-press-pack = Lejupielādējiet mūsu preses pakotni <icon></icon>
 
 ## Developers section
 
-developers-section-title = Publiski pieejamas atvērtās runas datu kopas vairāk nekā 130+ valodās
-developers-section-subtitle = Datu kopas ASR, STT, TTS un citiem NLP uzdevumiem — izveidotas, ar kopienas spēkiem.
 # icon is an arrow that points to the right
 explore-datasets = Izpētiet datu kopas <icon></icon>
 

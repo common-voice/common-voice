@@ -156,8 +156,6 @@ download-press-pack = 下载新闻资料包 <icon></icon>
 
 ## Developers section
 
-developers-section-title = 可公开访问的开放式语音数据集，涵盖 130 余种语言
-developers-section-subtitle = 由社区打造，适用于 ASR、STT、TTS 等 NLP 用途的数据集。
 # icon is an arrow that points to the right
 explore-datasets = 探索数据集 <icon></icon>
 

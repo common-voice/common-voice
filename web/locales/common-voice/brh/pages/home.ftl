@@ -165,8 +165,6 @@ download-press-pack = ننا پریس بیک ئے ڈاؤن لوڈ کبو <icon><
 
 ## Developers section
 
-developers-section-title = 130+ زبان تیٹی الس آ سر مننگ کن اوپن اسپیچ ڈیٹا سیٹس
-developers-section-subtitle = ASR، STT، TTS، و ایلو  NLP سیاق و سباق کن ڈیٹا سیٹس - مخلوق نا اواری نا وسیلہ جوڑ کننگانے۔
 # icon is an arrow that points to the right
 explore-datasets = ڈیٹا سیٹاکے پٹبو <icon></icon>
 

@@ -161,8 +161,6 @@ download-press-pack = Pellgargañ hor strobad pennadoù kazetennoù <icon></icon
 
 ## Developers section
 
-developers-section-title = Strobadoù roadennoù mouezh digor d'an holl en ouzhpenn 130+ yezh
-developers-section-subtitle = Strobadoù roadennoù evit anaoudegezh emgefre ar vouezh, sintezenn ar gomz ha doareoù all da blediñ gant ar yezhoù naturel - savet a-drugarez da berzh dud a-youl-vat
 # icon is an arrow that points to the right
 explore-datasets = Furchal e strobadoù roadennoù <icon></icon>
 

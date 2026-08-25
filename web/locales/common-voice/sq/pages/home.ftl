@@ -150,8 +150,6 @@ download-press-pack = Shkarkoni paketën tonë për shtypin <icon></icon>
 
 ## Developers section
 
-developers-section-title = Grupe të dhënash të foluri, të hapët, të përdorshëm publikisht, në mbi 130+ gjuhë
-developers-section-subtitle = Grupe të dhënash për ASR, STT, TTS dhe kontekste të tjerë NLP - krijuar përmes pjesëmarrjes së bashkësisë.
 # icon is an arrow that points to the right
 explore-datasets = Eksploroni grupe të dhënash <icon></icon>
 

@@ -157,8 +157,6 @@ download-press-pack = مہارا پریس پیک نا ڈاون لوڈ کرو<ico
 
 ## Developers section
 
-developers-section-title = 130 تے زیادہ زباناں ما عوامی طور اپر قابل رسائی کھلی گفتگو کو ڈیٹا سیٹ
-developers-section-subtitle = اے ایس آر ، ایس ٹی ٹی ، ٹی ٹی ایس ، تے دوجا  این ایل پی سیاق و سباق وسطے ڈیٹا سیٹ - کمیونٹی کی شرکت کے ذریعہ بنایو گیو ہے
 # icon is an arrow that points to the right
 explore-datasets = ڈیٹا سیٹ نا ڈھونڈو<icon></icon>
 

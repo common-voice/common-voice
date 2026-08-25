@@ -150,8 +150,6 @@ download-press-pack = همرو پريس پيڪ ڊآئونلوڊ ڪرو
 
 ## Developers section
 
-developers-section-title = 130 دي وڌيٚڪ ٻوليآنٚ مي اوآمي تو پر موجود کُلري ٻآت چيٚت ڊيٽا سيٽ
-developers-section-subtitle = ASR، STT، TTS، اور دوُسريٚ NLP سورتي هآل ڊيٽآ سيٽ - جيڪي ڪميونٽيٚو ڪي شآملآيو دي هٽآرآ گوآ هينٚ
 # icon is an arrow that points to the right
 explore-datasets = ڊيٽا سيٽسو ڪوُ ڍونڊو<icon></icon>
 

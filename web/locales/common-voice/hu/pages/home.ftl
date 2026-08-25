@@ -169,8 +169,6 @@ download-press-pack = Sajtócsomag letöltése <icon></icon>
 
 ## Developers section
 
-developers-section-title = Nyilvánosan elérhető nyílt beszédadatkészletek több mint 130 nyelven
-developers-section-subtitle = Adatkészletek ASR-hez, STT-hez, TTS-hez és más NLP kontextusokhoz – közösségi részvétel segítségével létrehozva.
 # icon is an arrow that points to the right
 explore-datasets = Adatkészletek felfedezése <icon></icon>
 

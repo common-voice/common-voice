@@ -159,8 +159,6 @@ download-press-pack = اسانجا پریس پیک بھر <icon></icon>
 
 ## Developers section
 
-developers-section-title = عوامی سَوکھا کُھلا ڳالھ وار والا ڈیٹا سیٹ 130+ وا زیادہ ٻولیں تے وِچ
-developers-section-subtitle = ڈیٹا سیٹس اے ایس آر، ایس ٹی ٹی، ٹی ٹی ایس ٻِیا ٻئے این ایل پی سیاق و سباق واسطے برادری تی وِچ حِصّہ گُھلّݨ ساں پیدا تھیا ہِے۔
 # icon is an arrow that points to the right
 explore-datasets = ڈیٹا سیٹس ایکسپلور کر <icon></icon>
 

@@ -159,8 +159,6 @@ download-press-pack = Download ons perspakket <icon></icon>
 
 ## Developers section
 
-developers-section-title = Publiek toegankelijke open spraakgegevenssets in meer dan 130 talen
-developers-section-subtitle = Gegevenssets voor ASR, STT, TTS en andere NLP-contexten – gemaakt via deelname van de gemeenschap.
 # icon is an arrow that points to the right
 explore-datasets = Gegevenssets verkennen <icon></icon>
 
