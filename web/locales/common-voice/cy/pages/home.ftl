@@ -173,6 +173,8 @@ download-press-pack = Llwythwch i lawr ein pecyn i'r wasg <icon></icon>
 
 ## Developers section
 
+developers-section-title-202608 = Setiau data lleferydd agored sy'n hygyrch i'r cyhoedd mewn 330+ o ieithoedd
+developers-section-subtitle-v2 = Setiau data ar gyfer ASR a chyd-destunau NLP eraill - wedi'u creu trwy gyfranogiad cymunedol.
 # icon is an arrow that points to the right
 explore-datasets = Archwiliwch setiau data <icon></icon>
 
