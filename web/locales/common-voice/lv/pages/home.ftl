@@ -163,6 +163,8 @@ download-press-pack = Lejupielādējiet mūsu preses pakotni <icon></icon>
 
 ## Developers section
 
+developers-section-title-202608 = Visiem pieejamas atvērtās runas datu kopas 330+ valodās
+developers-section-subtitle-v2 = Datu kopas ASR un citiem NLP kontekstiem – veidotas ar kopienas līdzdalību.
 # icon is an arrow that points to the right
 explore-datasets = Izpētiet datu kopas <icon></icon>
 
