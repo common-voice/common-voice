@@ -58,6 +58,7 @@ sentence-domain = ငေါဝ်းလိတ်ရဲဉ်ႏ ဒိုမေ�
 ## Sentence collection sidebar content
 
 citing-sentences-subheader-websites = သုဲက်ပွိုင်ဖုံႏ
+citing-sentences-subheader-websites-explanation = နာꩻသော့ꩻပါနွောင်ꩻဒျာႏ ဝဲက်သုဲက်ပွိုင်လိဉ့်ဖြွီꩻ၊ ဗွိုန်နုဲင်းပွုံႏစံႏ "ကောင်မွဉ်းဗွဲက် - https://commonvoice.mozilla.org/"
 citing-sentences-subheader-academic-reference = ပညာႏဖဲ့ꩻထွောင်း ထာꩻထူႏကွိုꩻအုံနောင်ခရာႏ
 citing-sentences-subheader-offline-sources = ပေ့ꩻနေးလုဲင်း အရွီးအခိုႏဖုံႏ
 citation =
