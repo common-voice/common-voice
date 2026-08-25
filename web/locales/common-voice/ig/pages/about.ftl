@@ -125,6 +125,7 @@ about-playbook-how-grow-language-content-8-v2 = <strong>Mee ihe ọhụrụ!</st
 
 about-playbook-how-validate = Kedu ka m ga-esi mara ma a ga-akwado ndekọ mkpụrụ olu?
 about-playbook-how-validate-content-1 = Ọ bụrụ na ị nwere ike <strong>nụ ha<strong>ma<strong>ghọta ha</strong>, ọ na-adịkari<strong>mmá ịkwado</strong>
+about-playbook-how-validate-content-2 = <strong>Ajụla mkpụrụ ndekọ ebe onye na-ekwu okwu 'nwere ngweolu' dị iche na nke gị</strong> - nke a dị mkpa ka njirimara olu rụọ ọrụ nke ọma maka onye ọ bụla.
 
 ## How to access dataset
 
