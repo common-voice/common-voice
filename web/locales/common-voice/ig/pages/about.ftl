@@ -121,6 +121,11 @@ about-playbook-how-grow-language-content-6 = Nrụkọrịta na njikọ
 about-playbook-how-grow-language-content-7 = Chọta ndị ọzọ nwere mmasị. Nke ahụ nwere ike ịbụ mahadum, ụlọ akwụkwọ asụsụ, ótù ndị nkwuchite ma ọ bụ ọgbakọ ndị ọrụ sayensị data. Kpọtụrụ ha ma kọwaa nke ọma otu ha ga-esi nye aka na ihe kpatara ya. <outreachTemplates>Lee ndebiri ímèèlụ̀ anyị na-ezigara ndị mmadụ</outreachTemplates>.
 about-playbook-how-grow-language-content-8-v2 = <strong>Mee ihe ọhụrụ!</strong> ọgbakọ ọrụ asụsụ gị ga-adị iche, ndị a bụkwa naanị ụzọ ole na ole iji malite. Biko tụlee itinye ọwa ọgbakọ ọrụ gị na <communitiesLink> akwụkwọ COMMUNITIES.md na GitHub</communitiesLink>.
 
+## How to validate
+
+about-playbook-how-validate = Kedu ka m ga-esi mara ma a ga-akwado ndekọ mkpụrụ olu?
+about-playbook-how-validate-content-1 = Ọ bụrụ na ị nwere ike <strong>nụ ha<strong>ma<strong>ghọta ha</strong>, ọ na-adịkari<strong>mmá ịkwado</strong>
+
 ## How to access dataset
 
 about-playbook-how-access-dataset = Kedu ka m ga-esi enweta ma jiri ntọala data rụọ ọrụ?
