@@ -110,6 +110,8 @@ about-playbook-how-record-content-5 = <<accuracyLink>hụ ihe ndị ọzọ gbas
 ## How to grow language
 
 about-playbook-how-grow-language = Kedu ka anyị ga-esi mee ka asụsụ too na Common Voice siriri werere?
+about-playbook-how-grow-language-content-1 = Kepụta ohere nyere mmadụ dị iche iche ịtụnye ụtụ na Common Voice iji hụ na ntọala data na-arụ ọrụ nyere ọtụtụ ndị mmadụ ka o nwere ike! Anyị ekepụtala njieme ihe na ihe nduzi Ị ga-ejinwu mee ihe!
+about-playbook-how-grow-language-content-2 = Ihe omume
 
 ## How to access dataset
 
