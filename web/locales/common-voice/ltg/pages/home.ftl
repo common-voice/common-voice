@@ -155,8 +155,6 @@ download-press-pack = Zamynluodejit myusu presis materialus <icon></icon>
 
 ## Developers section
 
-developers-section-title = Publiski daīmamys atvārtuos runys datu kūpys vaira nakai 130+ volūduos
-developers-section-subtitle = Datu kūpys ASR, STT, TTS i cytim NLP aizdavumim — sataiseitys ar kūpīnys spākim.
 # icon is an arrow that points to the right
 explore-datasets = Izpietejit datu kūpys <icon></icon>
 

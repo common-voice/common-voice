@@ -3,7 +3,7 @@
 download-q = Vēlaties lejupielādēt savus datus?
 download-info = Pastāstiet mums, ko vēlaties lejupielādēt:
 download-profile-title = Profilu
-download-profile-info = Ietver e-pastu, lietotājvārdu un demogrāfisko informāciju, pieejama uzreiz
+download-profile-info = Ietver e-pasta adresi, lietotājvārdu un demogrāfisko informāciju, pieejama uzreiz
 download-profile-size = Daži baiti
 download-recordings-title = Ieraksti
 download-recordings-info = Ietver mp3 failus un teikumus. Sagatavošanās var aizņemt kādu laiku

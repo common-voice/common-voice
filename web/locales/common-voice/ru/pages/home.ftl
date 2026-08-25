@@ -162,8 +162,6 @@ download-press-pack = Скачайте наш пресс-пакет <icon></icon
 
 ## Developers section
 
-developers-section-title = Публично доступные открытые наборы данных речи на более чем 130 языках
-developers-section-subtitle = Наборы данных для ASR, STT, TTS и других контекстов NLP, созданные при участии сообщества.
 # icon is an arrow that points to the right
 explore-datasets = Просмотрите наборы данных <icon></icon>
 

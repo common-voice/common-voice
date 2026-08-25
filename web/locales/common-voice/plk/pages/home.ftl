@@ -173,8 +173,6 @@ download-press-pack = اسے پریس پیک ڈاؤن لوڈ تِھیا <icon></
 
 ## Developers section
 
-developers-section-title = 130+ جِبوْ مجیْ عوامی شان گیْ قابل رسائی اوپن سورس ڈیٹا سیٹس
-developers-section-subtitle = ASR، STT، TTS، آں مُتہ NLP سیاق گہ سباق اےْ کِرِیا ڈیٹا سیٹس - کمیونٹی  شرکت گیْ سنجِلان۔
 # icon is an arrow that points to the right
 explore-datasets = ڈیٹا سیٹس اورڑِیا <icon></icon>
 

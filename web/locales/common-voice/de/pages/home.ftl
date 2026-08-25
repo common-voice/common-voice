@@ -159,8 +159,6 @@ download-press-pack = Laden Sie unsere Presseunterlagen <icon></icon> herunter
 
 ## Developers section
 
-developers-section-title = Öffentlich zugängliche offene Sprachdatensätze in über 130 Sprachen
-developers-section-subtitle = Datensätze für ASR, STT, TTS und andere NLP-Kontexte – erstellt durch Mitwirkung der Gemeinschaft.
 # icon is an arrow that points to the right
 explore-datasets = Datensätze entdecken <icon></icon>
 

@@ -166,8 +166,6 @@ download-press-pack = <icon>امو رو پريس پيڪ ڊائون لوڊ ڪرو
 
 ## Developers section
 
-developers-section-title = 130+ ٻوليو ۾ عوامي طور تي پوچيا ري لائق اوپن اسپيچ ڊيٽاسيٽس
-developers-section-subtitle = ASR، STT، TTS، ھين ٻيجا NLP حوالو مون ڊيٽا سيٽ - ڪميونٽي ري شموليت ذريعي ٺاهيا گيا.
 # icon is an arrow that points to the right
 explore-datasets = ڊيٽا سيٽ ري جويا ري ڪريو<icon></icon>
 

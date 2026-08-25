@@ -9,6 +9,8 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }</bold>Campionu
        *[other] <bold>{ $count }</bold>Campioni
     }
+goal-help-recording = Avete aiutatu Common Voice à ghjunghje à <goalPercentage></goalPercentage> di u so scopu ghjurnalieru di { $goalValue } arrighjistramenti !
+goal-help-validation = Avete aiutatu Common Voice à ghjunghje à <goalPercentage></goalPercentage> di u so scopu ghjurnalieru di { $goalValue } cunvalidazione !
 contribute-more =
     { $count ->
         [one] Prontu pà fanne { $count } di più ?
@@ -16,14 +18,22 @@ contribute-more =
     }
 speak-empty-state = Ùn avemu più infrasate à arrighjistrà in issa lingua...
 speak-empty-state-cta = Prupone incù altre infrasate
+speak-loading-error =
+    Ùn emu micca pussutu truvà infrasate da arrighjistrà.
+    Pruvate torna un altra volta.
 record-button-label = Arrighjistrà a vostra voce
 share-title-new = <bold>Aiutate ci</bold> à truvà voci in più
 keep-track-profile = Seguiteti i vostri prugressi creendu un prufilu
 login-to-get-started = Cunnittiti vi o iscrivite vi pà cummincià
+target-segment-first-card = Cuntribuite à u nostru primu segmentu d’ugettivu.
+target-segment-generic-card = Cuntribuite à un segmentu d’ugettivu.
 target-segment-first-banner = Aiuteti à creà u primu segmentu d’ugettivu di Common Voice in { $locale }
 target-segment-add-voice = Aghjustà a vostra voce
 target-segment-learn-more = Sapene di più
 change-preferences = Cambià e preferenze
+vote-yes = Sì
+vote-no = Nò
+datasets = Banche di dati
 languages = Lingue
 about = Apprupositu
 partner = Partenariu

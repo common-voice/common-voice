@@ -149,8 +149,6 @@ download-press-pack = اسپہ نیویشیروان پیکیجو ڈونلوڈ ک
 
 ## Developers section
 
-developers-section-title = سفو پچین میسر وریغ 130 سار زیاد زبانان ڈیٹاسیٹ
-developers-section-subtitle = اے ایس آر، ایس ٹی ٹی، ٹی ٹی ایس وا خور این ایل پی ماحولو ڈیٹاسیٹ- کمیونیٹیو مدد سورا ساوزے اسوس
 # icon is an arrow that points to the right
 explore-datasets = ڈیٹا سیٹان پتہ کو<icon></icon>
 

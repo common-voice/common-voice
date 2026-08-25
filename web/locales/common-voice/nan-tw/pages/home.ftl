@@ -153,8 +153,6 @@ download-press-pack = 下載咱的媒體包裹<icon></icon>
 
 ## Developers section
 
-developers-section-title = 公開予逐家用的，有 130+ 語言的開放講話內容資料集
-developers-section-subtitle = 會當用佇咧 ASR、STT、TTS，佮其他 NLP 技術 - 用社群參與的方式來產生。
 # icon is an arrow that points to the right
 explore-datasets = 瀏覽資料集<icon></icon>
 

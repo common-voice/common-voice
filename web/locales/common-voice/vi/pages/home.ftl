@@ -156,8 +156,6 @@ download-press-pack = Tải bộ tài liệu báo chí của chúng tôi <icon><
 
 ## Developers section
 
-developers-section-title = Bộ dữ liệu phát biểu khai mạc (open speech) có thể truy cập công khai với hơn 130 ngôn ngữ
-developers-section-subtitle = Bộ dữ liệu cho ASR, STT, TTS, và bối cảnh NLP khác - được tạo ra thông qua đóng góp của cộng đồng.
 # icon is an arrow that points to the right
 explore-datasets = Khám phá các tập dữ liệu <icon></icon>
 

@@ -49,3 +49,25 @@ ms-MY = باخاسا مالاي
 language-search-placeholder = تىل ئىزدە…
 language-search-aria-label = تىل ئىزدە
 language-search-no-results = تىل تېپىلمىدى
+
+## Transcription Player - Mode Buttons
+
+# Transcription Player - Automatic Mode
+transcription-mode-auto = ئاپتوماتىك
+# Player - slower
+player-speed-slow = ئاستا
+# Player - normal speed
+player-speed-normal = ئادەتتىكى
+# Player - faster
+player-speed-fast = تېز
+
+## Transcription Player Controls - Keyboard Shortcuts
+
+player-play-pause-shortcut-key = Ctrl / Cmd + P
+player-play-pause-shortcut-name = ياڭرات / ۋاقىتلىق توختات
+# Player control shortcut to go back 5 seconds: pressed with Ctrl/Cmd
+player-skip-backward-shortcut = 8
+player-skip-backward-shortcut-key = Ctrl / Cmd + 8
+# Player control shortcut to go forwards 5 seconds: pressed with Ctrl/Cmd
+player-skip-forward-shortcut = 9
+player-skip-forward-shortcut-key = Ctrl / Cmd + 9

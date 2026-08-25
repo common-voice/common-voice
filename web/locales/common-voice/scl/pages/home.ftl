@@ -144,8 +144,6 @@ download-press-pack = اَسئیی پرس پیک ڈاؤن لوڈ تھے۔
 
 ## Developers section
 
-developers-section-title = عام جَکوڑے شونگو ڈیٹاسیٹ (130) ایک شل گہ بی گہ دَیو نیو گہ لائیے باشو نی
-developers-section-subtitle = اے-ایس-آر،ایس ایس ٹی،  ٹی ٹی ایس، گہ مُوے این ایل پییو پروگرامو کاری۔ کمیونٹی سے یو بو سَنیا
 # icon is an arrow that points to the right
 explore-datasets = ڈیٹا سیٹ اوڈور تھے چَکے <icon></icon>
 

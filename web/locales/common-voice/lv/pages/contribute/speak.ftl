@@ -12,6 +12,8 @@ record-no-mic-found = Nav atrasts neviens mikrofons.
 record-error-too-short = Ieraksts bija pārāk īss.
 record-error-too-long = Ieraksts bija pārāk garš.
 record-error-too-quiet = Ieraksts bija pārāk kluss.
+record-error-empty-recording = Ierakstā nav skaņas. Lūgums pārbaudīt savu mikrofonu un mēģināt vēlreiz.
+record-error-unknown-format = Nevarēja noteikt skaņas veidolu. Lūgums mēģināt izmantot citu pārlūku.
 record-cancel = Atcelt atkārtotu ierakstīšanu
 record-instruction = { $actionType }<recordIcon></recordIcon> pēc tam skaļi nolasi teikumu
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> kad viss gatavs
@@ -38,7 +40,7 @@ review-rerecord = Atkārtoti ierakstiet
 review-cancel = Atcelt iesniegšanu
 review-keep-recordings = Saglabāt ierakstus
 review-delete-recordings = Dzēst manus ierakstus
-review-terms = Izmantojot Common Voice, jūs piekrītat mūsu <termsLink>noteikumiem</termsLink> un <privacyLink>konfidencialitātes atrunai</privacyLink>
+review-terms = Common Voice izmantošana apliecina piekrišanu mūsu <termsLink>noteikumiem</termsLink> un <privacyLink>privātuma atrunai</privacyLink>
 terms-agree = Es piekrītu
 terms-disagree = Es nepiekrītu
 # FIRST POST SUBMISSION CTA

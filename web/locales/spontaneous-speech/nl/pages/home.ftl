@@ -5,7 +5,7 @@ welcome-to-spontaneous-speech = Welkom bij Spontane spraak
 wall-of-text = Common Voice lanceert een tweede platform gericht op het verzamelen van organische, spontane spraak zonder script. Dit helpt veel gemeenschappen om sneller gegevens te verzamelen, en is nuttig voor gegevenswetenschappers en ontwikkelaars.
 why-spontaneous-speech = Waarom we dit Spontane spraak-prototype hebben gebouwd
 # text wrapped with <mark></mark> will have a light red background
-why-card-1-text = Nuttig voor <mark>organische spraakcontexten</mark> en gebruiksgevallen (b.v. wanneer u wilt dat spraakherkenning werkt met mensen die zonder script en in de omgangstaal spreken)
+why-card-1-text = Nuttig voor <mark>organische spraakcontexten</mark> en gebruiksgevallen (bijv. wanneer u wilt dat spraakherkenning werkt met mensen die zonder script en in de omgangstaal spreken)
 # text wrapped with <mark></mark> will have a light red background
 why-card-2-text = Betere ondersteuning voor taalrealiteiten zoals taalvermenging en <mark>code-omschakeling</mark>
 # text wrapped with <mark></mark> will have a light red background

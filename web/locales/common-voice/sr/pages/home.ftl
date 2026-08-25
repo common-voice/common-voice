@@ -162,8 +162,6 @@ download-press-pack = Преузмите наш пакет за медије <ic
 
 ## Developers section
 
-developers-section-title = Јавно доступни отворени скупови говорних података на више од 130 језика
-developers-section-subtitle = Скупови података за ASR, STT, TTS и друге NLP контексте — креирани кроз учешће заједнице.
 # icon is an arrow that points to the right
 explore-datasets = Истражите скупове података <icon></icon>
 

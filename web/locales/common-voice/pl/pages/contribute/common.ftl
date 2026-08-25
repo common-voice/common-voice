@@ -1,7 +1,7 @@
 action-click = Kliknij
 action-tap = Stuknij
 contribute = Nagraj
-review = Zweryfikuj
+review = Sprawdzaj
 skip = Pomiń
 shortcuts = Skróty
 clips-with-count-pluralized =

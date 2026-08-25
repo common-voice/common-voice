@@ -79,14 +79,14 @@ try-upload-again-md = Mēģiniet augšupielādēt vēlreiz
 select-file = Izvēlieties datni
 select-file-mobile = Atlasiet augšupielādējamo datni
 accepted-files = Atbalstītie datņu veidi: tikai .tsv
-minimum-sentences = Minimālais teikumu skaits failā: 1000
+minimum-sentences = Mazākais pieļaujamais teikumu skaits datnē: 1000
 maximum-file-size = Maksimālais datnes izmērs: 25 MB
 what-needs-to-be-in-file = Kam ir jābūt manā datnē?
 what-needs-to-be-in-file-explanation = Lūdzu aplūkojiet mūsu <templateFileLink>šablona datni</templateFileLink>. Jūsu teikumiem jābūt brīviem no autortiesībām (CC0 vai ar autora atļaujau izmantot viņu darbu), tāpat tiem jābūt skaidriem, gramatiski pareiziem un viegli ierunājamiem. Pievienojamajiem teikumiem jābūt tādiem, lai tos varētu ierunāt 10-15 sekundēs, tajos nedrīkst būt cipari un speciālās rakstu zīmes.
 upload-progress-text = Notiek augšupielāde...
 sc-bulk-submit-confirm = Es apstiprinu, ka šie ir <wikipediaLink>publiskā īpašuma</wikipediaLink> teikumi, un man ir atļauja tos augšupielādēt.
 bulk-upload-success-toast = Teikumi augšupielādēti
-bulk-upload-failed-toast = Augšupielāde neizdevās, lūdzu, mēģiniet vēlreiz.
+bulk-upload-failed-toast = Augšupielāde neizdevās, lūgums mēģināt vēlreiz.
 bulk-submission-success-header = Paldies, ka pievienojāt šos teikumus!
 bulk-submission-success-subheader = Jūs palīdzat Common Voice sasniegt ikdienas teikumu ielādes mērķi!
 upload-more-btn-text = Vai augšupielādēt vēl kādu teikumu?
@@ -104,16 +104,16 @@ exceeds-small-batch-limit-error = Nevar iesniegt vairāk par 1000 teikumiem
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-toast-message-minutes =
     { $retryLimit ->
-        [zero] Pārsniegts iesniegšanas ātruma limits. Mēģiniet vēlreiz pēc 1  minūtes
-        [one] Pārsniegts iesniegšanas ātruma limits. Mēģiniet vēlreiz pēc { $retryLimit } minūtēm
-       *[other] Pārsniegts iesniegšanas ātruma limits. Mēģiniet vēlreiz pēc { $retryLimit } minūtēm
+        [zero] Pārsniegts piekļuves biežuma ierobežojums. Pēc { $retryLimit }  minūtēm jāmēģina vēlreiz.
+        [one] Pārsniegts piekļuves biežuma ierobežojums. Pēc { $retryLimit }  minūtes jāmēģina vēlreiz.
+       *[other] Pārsniegts piekļuves biežuma ierobežojums. Pēc { $retryLimit }  minūtēm jāmēģina vēlreiz.
     }
 # $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
 rate-limit-toast-message-seconds =
     { $retryLimit ->
-        [zero] Pārsniegts iesniegšanas ātruma limits. Mēģiniet vēlreiz pēc 1  sekundes
-        [one] Pārsniegts iesniegšanas ātruma limits. Mēģiniet vēlreiz pēc { $retryLimit } sekundēm
-       *[other] Pārsniegts iesniegšanas ātruma limits. Mēģiniet vēlreiz pēc { $retryLimit } sekundēm
+        [zero] Pārsniegts piekļuves biežuma ierobežojums. Pēc { $retryLimit }  sekundēm jāmēģina vēlreiz.
+        [one] Pārsniegts piekļuves biežuma ierobežojums. Pēc { $retryLimit }  sekundes jāmēģina vēlreiz.
+       *[other] Pārsniegts piekļuves biežuma ierobežojums. Pēc { $retryLimit }  sekundēm jāmēģina vēlreiz.
     }
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-message-minutes =

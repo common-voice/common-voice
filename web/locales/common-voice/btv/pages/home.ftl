@@ -150,8 +150,6 @@ download-press-pack = اسوں خبر سو پیک ڈونلوڈ گر <icon> </ico
 
 ## Developers section
 
-developers-section-title = عوامی رسائ سو کھلاو تقریر سو ڈیٹا سیٹ 130+ زہبوں مہ
-developers-section-subtitle = ASR, STT, TTS آ پَروں  NLP  متن۔ کمیونٹی سو شرکت رے سَند۔
 # icon is an arrow that points to the right
 explore-datasets = ڈیٹا سیٹ خور گر <icon></icon>
 

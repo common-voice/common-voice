@@ -18,17 +18,23 @@ validated-clips = အွဉ်ႏတိဉ်ႏထွူလဲဉ်း ငေ�
 total-approved = ခြွဉ်းဗူႏလို့ အွဉ်ႏတိဉ်ႏဗာႏလဲဉ်း
 overall-accuracy = ရဲပ်ဗူႏလို့ ထာꩻမဲန်ႏတနꩻဖုံႏ ကားကအောဝ်ႏ
 set-visibility = အွဉ်ႏထွော့ ခွေ ထာꩻထီႏနွောင်ꩻစွန်ꩻထီယို
+show-ranking = အွဉ်ႏနယ် ခွေအောဝ်ႏအရန်း
 
 ## Custom Goals
 
+get-started-goals = တဲႏလွေꩻအွဉ်တွမ်ႏ ကောဝ်ႏထွန်ႏဖုံႏ
+create-custom-goal = မာꩻထွာလွဉ် ကမ်းသꩻလꩻ ကောဝ်ႏထွန်ႏတဗာႏ
+goal-type = နာꩻမဲဉ်တဲႏဆို့ꩻလွေꩻ ထာꩻအင်းရေႏ ကောဝ်ႏထွန်ႏစားမုဲင်ꩻဟောင်း?
 both-speak-and-listen = နီဗာႏလွုမ်း
 both-speak-and-listen-long = နီဗာႏလွုမ်း (ဒေါ့ꩻငေါဝ်း တွမ်ႏ နာႏငေါဝ်း)
 daily-goal = စွုမ်ႏနီꩻ ကောဝ်ႏထွန်ႏ
+weekly-goal = စွုမ်ႏမွူးနီꩻခွပ် ကောဝ်ႏထွန်ႏ
 easy-difficulty = ယိုꩻမာꩻ
 average-difficulty = ပသာႏ
 difficult-difficulty = ယပ်ꩻခုဲင်ႏ
 pro-difficulty = လဲပ်ယံ
 want-to-continue = နာꩻမဲဉ်လွေꩻငါနဲ့?
+finish-editing = မာꩻထွူရီးခန်း အောဝ်ႏမွဉ်းဖျင်ယိုနဲ့?
 build-custom-goal = တဲႏဆို့ꩻ ကမ်းသꩻကစွယ်ꩻ ကောဝ်ႏထွန်ႏတဗာႏ
 set-a-goal = အွဉ်ႏထွော့လွေꩻ ကောဝ်ႏထွန်ႏတဗာႏ
 which-goal-type = နာꩻမဲဉ်လိုႏဒေါ့ꩻငေါဝ်းနဲ့၊ နာꩻမဲဉ်နာႏငေါဝ်းနဲ့ မွေးတောဝ်းလဲ့ ခွုမ်မာꩻလို့ နီဗာႏလွုမ်းနဲ့?

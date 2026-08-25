@@ -159,8 +159,6 @@ download-press-pack = Last ned pressepakken vår <icon></icon>
 
 ## Developers section
 
-developers-section-title = Offentleg tilgjengelege opne taledatasett på over 130 språk
-developers-section-subtitle = Datasett for automatisk talegjenkjenning (ASR), tale-til-tekst (STT), tekst-til-tale (TTs) og andre innan naturleg språkbehandling (NLP) – oppretta gjennom samfunnsdeltaking.
 # icon is an arrow that points to the right
 explore-datasets = Utforsk datasett <icon></icon>
 

@@ -144,8 +144,6 @@ download-press-pack = زاں پرېس پېک <icon></icon> منی والہ
 
 ## Developers section
 
-developers-section-title = 130 نہ بُوئ ژِبوں مہ بُٹ خلکؤں ہتے اے اوپن سپیچ ڈېٹاسیٹ۔
-developers-section-subtitle = اے ایس آر (امَیں اواز معلوم کرؤں)، ایس ٹی ٹی (بلیُوں نہ لکیلیۡ سن٘دؤں)، ٹی ٹی ایس (لِکیلیۡ نہ بال سن٘دؤں)، اور آں مُت قدرتی بلی واں محلاں (این ایل پی) کریا ڈیٹا سیٹہ - چے سَیں خلکہ وَیں مدتی ہِن سن٘دژېل ہوں۔
 # icon is an arrow that points to the right
 explore-datasets = ڈېٹا سیٹہ کن٘گالہ <icon></icon>
 

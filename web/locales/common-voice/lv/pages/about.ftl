@@ -83,9 +83,9 @@ about-playbook-how-add-language-translating-content-2 =
 about-playbook-how-add-language-collecting-sentences-heading = Teikumu apkopošana
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Skatieties mūsu ceļvedi par teikumu apkopotāja lietošanu</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-2 =
-    Varat <sentenceCollectorLinkAdd>pievienot nelielu skaitu teikumu</sentenceCollectorLinkAdd>,
-    vai arī varat veikt <bulkImportDocsLink>lielapjoma importēšanu, izmantojot Github</bulkImportDocsLink>.
-    Atcerieties, ka teikumiem ir jābūt <licenseLink>CC0 (vai publiskajam īpašumam)</licenseLink>, vai arī varat rakstīt savus.
+    Var <sentenceCollectorLinkAdd>pievienot nelielu daudzumu teikumu</sentenceCollectorLinkAdd>,
+    vai arī veikt <bulkImportDocsLink>lielapjoma ievietošanu ar Github</bulkImportDocsLink>.
+    Jāatceras, ka teikumiem ir jābūt <licenseLink>CC0 (vai publiskajam īpašumam)</licenseLink>, vai arī var rakstīt savus.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Skatiet vairāk par teikumu apkopošanu</sentenceCollectorFragment>.
 
 ## How does localization work

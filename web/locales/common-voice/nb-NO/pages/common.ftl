@@ -17,6 +17,7 @@ ajg = Adja
 aln = Gheg albansk
 am = Amharisk
 an = Aragonesisk
+apc = Levantinsk-arabisk
 ar = Arabisk
 arn = Mapudungun
 as = Assamesisk

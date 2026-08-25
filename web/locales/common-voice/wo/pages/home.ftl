@@ -95,7 +95,6 @@ featured-section-title = Fësal ci...
 
 ## Developers section
 
-developers-section-subtitle = Ay jumtukaay ngir ASR, STT, TTS, ak yeneen mbir yu jëm ci NLP - ñu defaree ko ak askan wi.
 # icon is an arrow that points to the right
 explore-datasets = Saay jumtukaay yi<icon></icon>
 

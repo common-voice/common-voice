@@ -159,8 +159,6 @@ download-press-pack = Λήψη πακέτου τύπου <icon></icon>
 
 ## Developers section
 
-developers-section-title = Δημοσίως προσβάσιμα και ανοικτά σύνολα δεδομένων ομιλίας σε 130+ γλώσσες
-developers-section-subtitle = Σύνολα δεδομένων, φτιαγμένα με τη συμμετοχή της κοινότητας, για ASR, STT, TTS και άλλες περιπτώσεις χρήσης NLP.
 # icon is an arrow that points to the right
 explore-datasets = Εξερεύνηση συνόλων δεδομένων <icon></icon>
 

@@ -153,8 +153,6 @@ download-press-pack = გაგმოხარგეთ ჩქინი პრ�
 
 ## Developers section
 
-developers-section-title = ოჯარეთ ხემიოჭირინაფალი გონჯამილი ჩიებაში მუნაჩემეფიში კათელი 130+ ნინაშა
-developers-section-subtitle = მუნაჩემეფიში კათელი ASR, STT, TTS, დო შხვა  NLP საშუალებეფიშოთ - აკოქიმინელი ართობაში მოხვარათ.
 # icon is an arrow that points to the right
 explore-datasets = ქოძირით კათელეფი <icon></icon>
 

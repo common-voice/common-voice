@@ -84,17 +84,17 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 
 ## How does localization work
 
-about-playbook-how-localize = Kedu ka nkachisi saịtị si arụ ọrụ?{ " " }
+about-playbook-how-localize = Kedu ka nkachisi saịtị si arụ ọrụ?
 about-playbook-how-localize-content-1 = Ntụgharị saịtị Common Voice na-eme na<strong>Pontoon</strong>
-about-playbook-how-localize-content-2 = <pontoonAccountLink>Meghee akaụntụ </pontoonAccountLink>ọ bụrụ na I nweghị otu. Mgbe ahụ, họrọ asụsụ gị <strong>('Team') </strong>ma họrọkwa ọrụ, <pontoonCvLink>Common Voice </pontoonCvLink>. A ga-enwe faịlụ a ga-atụgharị. Pịa aka n'otu, mgbe ahụ ọ ga-egosi mkpụrụokwu na Bekee na igbe ịtụgharị ha.{ " " }
-about-playbook-how-localize-content-3 = Ntụgharị bụ site na Bekee, mana ị ga-ahụ <strong>aro </strong>n'asụsụ ọzọ. Pịa <strong>Profaịlụ</strong>akara, mgbe ahụ <strong>nhazi</strong>jikọọ ma tinye asụsụ ọ bụla ị na-asụ. N'okpuru akụkụ aka nri, a ga-enwe ndetu ntụgharị a kpọrọ <strong>Locales</strong>. Ntụgharị na-egosi na saịtị ma otu ụbọchị gachaa.{ " " }
-about-playbook-how-localize-content-4 = A dịla njikere iweputa saịtị ahụ mgbe o ruru 75% ngwụcha.{ " " }
-about-playbook-how-localize-content-5 = Kirie vidio nkọwa anyị iji nye aka{ " " }
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Meghee akaụntụ </pontoonAccountLink>ọ bụrụ na I nweghị otu. Mgbe ahụ, họrọ asụsụ gị <strong>('Team') </strong>ma họrọkwa ọrụ, <pontoonCvLink>Common Voice </pontoonCvLink>. A ga-enwe faịlụ a ga-atụgharị. Pịa aka n'otu, mgbe ahụ ọ ga-egosi mkpụrụokwu na Bekee na igbe ịtụgharị ha.
+about-playbook-how-localize-content-3 = Ntụgharị bụ site na Bekee, mana ị ga-ahụ <strong>aro </strong>n'asụsụ ọzọ. Pịa <strong>Profaịlụ</strong>akara, mgbe ahụ <strong>nhazi</strong>jikọọ ma tinye asụsụ ọ bụla ị na-asụ. N'okpuru akụkụ aka nri, a ga-enwe ndetu ntụgharị a kpọrọ <strong>Locales</strong>. Ntụgharị na-egosi na saịtị ma otu ụbọchị gachaa.
+about-playbook-how-localize-content-4 = A dịla njikere iweputa saịtị ahụ mgbe o ruru 75% na nrụcha.
+about-playbook-how-localize-content-5 = Kirie vidio nkọwa anyị iji nye aka
 
 ## How to add sentences
 
-about-playbook-how-add-sentences = Kedu ka m ga-esi tinye ahịrịokwu?{ " " }
-about-playbook-how-add-sentences-content-1 = I nwere ike tinye ahịrịokwu na <writePageLink>Dee peeji</writePageLink>ma ọ bụ nyochaa ahịrịokwu na <reviewPageLink>Nyochaa peeji </reviewPageLink>.{ " " }
+about-playbook-how-add-sentences = Kedu ka m ga-esi tinye ahịrịokwu?
+about-playbook-how-add-sentences-content-1 = I nwere ike tinye ahịrịokwu na <writePageLink>Dee peeji</writePageLink>ma ọ bụ nyochaa ahịrịokwu na <reviewPageLink>Nyochaa peeji </reviewPageLink>.
 about-playbook-how-add-sentences-content-2 = Mmadụ abụọ ga-enyochariri ma nabata ahịrịokwu iji tinye ya na Common Voice. I ga-emepụta ntuziaka nye asụsụ gị <languageGuidelinesLink>ebe a </languageGuidelinesLink> Ahịrịokwu ga-adịriri na <licenseLink>ebe ọha </licenseLink> ma pekarịa mkpụrụokwu 15. I nwere ike ịgwa onye nwe ederede ahụ ka o mee ya<waiverLink> CC0 site n'iji usoro nhapụ ikike </waiverLink>, ma zitere anyị ya nacommonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = I nwere ike iji <scraperLink> Ihe mwepụta ahịrịokwu</scraperLink>  iji nkenke ahịrịokwu ka nkwado site na Wikipedia
 

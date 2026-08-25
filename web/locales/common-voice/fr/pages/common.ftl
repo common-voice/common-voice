@@ -17,6 +17,7 @@ ajg = Aja
 aln = Guègue
 am = Amharique
 an = Aragonais
+apc = Arabe levantin
 ar = Arabe
 arn = Mapuche
 as = Assamais

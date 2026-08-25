@@ -152,8 +152,6 @@ download-press-pack = مھوريَ ڇپائيَ ريَ پيڪ نيَ ڊائون 
 
 ## Developers section
 
-developers-section-title = 130+ ٻوليون ۾ عوامي طور تيَ رسائي لائق اوپن اسپيچ ڊيٽاسيٽ
-developers-section-subtitle = ٽي ٽي ايس،ايس ٽي ٽي، اي ايس آر ھان ٻيجيَ اين ايل پي حوالي ھون مواد رو سيٽ۔ برادري رِي شراڪت زريعي ٺايا گيا۔
 # icon is an arrow that points to the right
 explore-datasets = مواد ريَ سيٽ نيَ جونچو<icon></icon>
 
