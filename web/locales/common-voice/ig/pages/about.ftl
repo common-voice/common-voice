@@ -114,6 +114,8 @@ about-playbook-how-grow-language-content-1 = Kepụta ohere nyere mmadụ dị i
 about-playbook-how-grow-language-content-2 = Ihe omume
 about-playbook-how-grow-language-content-3 = Ị ga-ahazinwu ihe omume inyere ndị mmadụ aka tụnye ụtụ. Ọ dị mfe karịa ka i che. Ị ga-emenwu ya n'ị́ntánet site n'iji akụrụngwa nzukọ vidio, ma ọ bụ ihu na ihu ọ bụrụ na udo ga-adị.<eventTemplate>Lelee íhé nduzi na njieme ihe anyị maka ịhazi ihe omume </eventTemplate>.
 about-playbook-how-grow-language-content-4 = Soshul midia
+about-playbook-how-grow-language-content-5 = Ị ga-ejinwu ntọala soshul midia zipụ ya bụ ozi. Kesaa ozi na-akọwa ihe mere o jiri dị mkpa, ma kpọturukwa mmadụ ndị ọzọ na-ekwu ihe dịka ikike asụsụ, AI olu, ma ọ bụ mmasị ezighị ezi dị na tek. Lee ndụmọdụ ndị ọzọ <campaignLink> n'iji mee mkpọsa ozi soshul, na ndịnaya i nwere ike iji mee ihe ọzọ</campaignLink>
+about-playbook-how-grow-language-content-6 = Nrụkọrịta na njikọ
 
 ## How to access dataset
 
