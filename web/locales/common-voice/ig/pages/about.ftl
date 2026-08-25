@@ -132,3 +132,9 @@ about-playbook-how-validate-content-4 = Ọ bụrụ na mmadụ abụọ ajụ c
 ## How to access dataset
 
 about-playbook-how-access-dataset = Kedu ka m ga-esi enweta ma jiri ntọala data rụọ ọrụ?
+about-playbook-how-access-dataset-content-1 = I nwere ike ịga na peeji <datasetsPage>ntọala data</datasetsPage>, họrọ ụdị na asụsụ ị chọrọ, wee budata ya! Faịlụ ndị ahụ nwere<metadataLink>metadata jikọtara ya</metadataLink>, dịka ozi gbasara ndị mmadụ na nkwenabata data. Ị ga-achọ inye adreesị ímèèlụ̀ iji budata ntọala data.
+about-playbook-how-access-dataset-content-2 = Ọ bụrụ na ị na-achọ ngwaọrụ iji wuo ụdị ASR, gị na ndị ọzọ n'ọgbakọ ndị ọrụ nwere ike jikọta <discourseLink>na Discourse</discourseLink>.
+
+## How are decisions made
+
+about-playbook-how-project-governance = Kedu otu e si eme mkpebi ọrụ?
