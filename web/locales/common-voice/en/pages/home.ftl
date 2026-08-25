@@ -166,8 +166,8 @@ featured-section-title = Featured in...
 download-press-pack = Download our press pack <icon></icon>
 
 ## Developers section
-developers-section-title = Publicly accessible open speech datasets in 330+ languages
-developers-section-subtitle = Datasets for ASR and other NLP contexts - created through community participation.
+developers-section-title-202608 = Publicly accessible open speech datasets in 330+ languages
+developers-section-subtitle-v2 = Datasets for ASR and other NLP contexts - created through community participation.
 # icon is an arrow that points to the right
 explore-datasets = Explore datasets <icon></icon>
 
