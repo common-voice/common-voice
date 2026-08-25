@@ -169,6 +169,8 @@ download-press-pack = Download ús parsepakket <icon></icon>
 
 ## Developers section
 
+developers-section-title-202608 = Publyk tagonklike iepen spraakgegevenssets yn mear as 330 talen
+developers-section-subtitle-v2 = Gegevenssets foar ASR en oare NLP-konteksten – makke fia dielnimming fan de mienskip.
 # icon is an arrow that points to the right
 explore-datasets = Gegevenssets ferkenne <icon></icon>
 
