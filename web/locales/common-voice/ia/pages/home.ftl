@@ -81,7 +81,6 @@ review-questions = Revider questiones
 transcribe-audio = Transcriber audio <small>(Tosto veniente)</small>
 press-and-stories = Pressa e articulos
 community-and-languages = Communitate e linguas
-coming-soon = Veniente tosto
 about-us = A proposito de nos
 scripted-speech = DISCURSO CON TRANSCRIPTION
 spontaneous-speech = DISCURSO SPONTANEE
@@ -160,6 +159,7 @@ download-press-pack = Discarga nostre pacchetto pressa <icon></icon>
 ## Developers section
 
 developers-section-title-202608 = Collectiones de datos vocal publicamente accessibile in plus que 330 linguas
+developers-section-subtitle-v2 = Collectiones de datos pro RVA (Recognition Verbal Automatic) e altere contextos de TLN  (Tractamento del Lingua Natural) - create per participation de communitates.
 # icon is an arrow that points to the right
 explore-datasets = Explorar collectiones de datos <icon></icon>
 
