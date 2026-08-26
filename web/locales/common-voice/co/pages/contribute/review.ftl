@@ -21,3 +21,9 @@ sc-review-form-reviewed-message =
         [one] 1 infrasata cunvalidata. Vi ringraziemu !
        *[other] { $sentences } infrasate cunvalidate. Vi ringraziemu !
     }
+
+## REVIEW CRITERIA
+
+sc-criteria-item-1 = L'infrasata deve esse ortograffata currettamente.
+sc-criteria-item-2 = L'infrasata deve esse grammaticalmente curretta.
+sc-criteria-item-3 = L'infrasata deve esse prununzievule.
