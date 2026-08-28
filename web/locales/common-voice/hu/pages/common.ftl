@@ -13,6 +13,7 @@ af = Afrikaans
 aln = Gheg albán
 am = Amhara
 an = Aragóniai
+apc = Levantei arab
 ar = Arab
 arn = Mapucse
 as = Asszámi
@@ -53,6 +54,7 @@ el = Görög
 en = Angol
 eo = Eszperantó
 es = Spanyol
+esu = Közép-alaszkai yupʼik
 et = Észt
 eu = Baszk
 ewo = Ewondo
@@ -64,6 +66,7 @@ fr = Francia
 fuf = Guineai ful
 fy-NL = Fríz
 ga-IE = Ír
+gcf = Martinique-i kreol
 gl = Galícia
 gn = Guarani
 gom = Goan konkani
@@ -239,9 +242,6 @@ zh-HK = Kínai (Hong Kong)
 zh-TW = Kínai (Tajvan)
 zu = Zulu
 zza = Zaza
-
-# [/]
-
 
 ## Layout
 
