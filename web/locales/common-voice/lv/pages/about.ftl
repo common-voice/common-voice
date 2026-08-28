@@ -108,7 +108,7 @@ about-playbook-how-add-sentences-content-3 = Varat izmantot <scraperLink>teikumu
 
 about-playbook-how-record-quality = Kā ierakstīt augstas kvalitātes ierakstu?
 about-playbook-how-record-content-1 = Runājiet savā parastajā balsī! Jūsu runas veids ir apsveicams - mēs vēlamies, lai jūsu akcents būtu tāds, kāds tas ir, un mēs vēlamies jūsu ierasto skaļumu, stilu un intonāciju.
-about-playbook-how-record-content-2 = Izvairieties no pārāk liela fona trokšņa — Jūs jāvar viegli saklausīt.
+about-playbook-how-record-content-2 = Izvairies no pārāk liela fona trokšņa — Tevi jāvar viegli saklausīt.
 about-playbook-how-record-content-3 = Uzmanīgi izlasiet teikumus - neizlaidiet, nemainiet un nepievienojiet vārdus.
 about-playbook-how-record-content-4 = Jāpārliecinās, ka ieraksts ir sācies, pirms sāc runāt, un ierakstu apturi tikai tad, kad beidzi.
 about-playbook-how-record-content-5 = <accuracyLink>Skatiet vairāk par to kā pareizi ierakstīt.</accuracyLink>
