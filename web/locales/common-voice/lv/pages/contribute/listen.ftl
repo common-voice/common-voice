@@ -7,8 +7,8 @@ listen-last-time-instruction = <playIcon> </playIcon> Pēdējais!
 listen-empty-state = Iespējams, ka visi ieraksti jau ir apstrādāti - pārlādē lapu vai vēlāk mēģini atkal!
 listen-empty-state-variants = Iespējams, jūsu izvēlētajā valodā vairs nav teikumu! Ja zināt vēl kādu valodu, varat mainīt iestatījumus, lai redzētu citus teikumus.
 listen-loading-error =
-    Mēs nevarējām iegūt nevienu ierakstu, ko jums klausīties.
-    Lūdzu, mēģiniet vēlreiz nedaudz vēlāk.
+    Mēs nevarējām iegūt nevienu ierakstu, ko noklausīties.
+    Lūgums vēlāk mēģināt vēlreiz.
 listen-abort-title = Vai pabeigt klipu apstiprināšanu?
 listen-abort-cancel = Turpināt apstiprināšanu
 listen-abort-confirm = Beigt apstiprināšanu
