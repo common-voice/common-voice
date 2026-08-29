@@ -15,6 +15,7 @@ datasets-positioning-mdc =
     החל מגרסה 23.0 של Common Voice, כל מערכי הנתונים של Common Voice זמינים להורדה באופן בלעדי דרךData Collective של מוזילה!
     
     דף זה משמש כארכיון היסטורי לגרסאות קודמות של מערכי הנתונים של Common Voice. יש להשתמש בגירסאות ארכיון רק בתרחישי מחקר ספציפיים, ולא לצורך הדרכה, כדי לכבד את רצון אלו שביקשו שלא לכלול את תרומתם.
+datasets-speech-bubble-content = חדשות נהדרות! "דיבור ספונטני" כבר בדרך! הישארו איתנו לעוד עדכונים והכנסו ל<discordLink>דיסקורד</discordLink> שלנו לקבלת המידע העדכני ביותר.
 language = שפה
 download-dataset-header = הורידו את מערך הנתונים
 download-delta-explainer = ביצענו כמה שינויים. מקטעי דלתא (Delta Segments) מכילים רק את המקטעים העדכניים ביותר מאז הגרסה האחרונה. <deltaLink>קראו עוד לגבי שינוי זה</deltaLink>.
@@ -100,7 +101,12 @@ release-version = גרסה
 dataset-date = תאריך
 license = רישיון: <licenseLink>{ $license }</licenseLink>
 license-mixed = מעורב
+# Support old genders in older datasets
+male = זכר
+female = נקבה
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = הורידו את מערכי הנתונים הקוליים שלנו
 # MENU ITEM ARIA LABELS
 download-contribute-menu-aria-label = אפשרויות הורדה של נתוני Common Voice
+datasets-show-more = הצגת כל מערכי הנתונים
+datasets-show-less = הצגת מערכי הנתונים החדשים ביותר

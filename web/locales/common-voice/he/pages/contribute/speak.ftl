@@ -3,6 +3,8 @@ speak-now = דברו כעת
 speak-subtitle = תרמו את קולכם
 record-cta = התחלת ההקלטה
 record-platform-not-supported = הפלטפורמה שלך אינה נתמכת בשלב זה, עמך הסליחה.
+record-platform-webview = ייתכן שהגעת לכאן על ידי לחיצה על קישור במדיה חברתית. הדפדפן-בתוך-האפליקציה אינו תומך בהקלטת אודיו.
+record-platform-not-supported-webview = במכשירים ניידים ניתן לתרום באמצעות דפדפן המערכת...
 record-platform-not-supported-desktop = במחשבים שולחניים, ניתן להוריד את העדכני ביותר:
 record-platform-not-supported-ios-non-safari = ב־iOS נא להמשיך עם Safari כדי לאפשר הקלטה…
 record-must-allow-microphone = עליך לאפשר גישה למיקרופון.
@@ -10,6 +12,14 @@ record-no-mic-found = לא אותר מיקרופון.
 record-error-too-short = ההקלטה הייתה קצרה מדי.
 record-error-too-long = ההקלטה הייתה ארוכה מדי.
 record-error-too-quiet = ההקלטה הייתה שקטה מדי.
+record-error-empty-recording = לא הוקלט שמע. נא לבדוק את המיקרופון, ואז לנסות שנית.
+record-error-unknown-format = לא ניתן לפענח את נתוני השמע. נסו להשתמש בדפדפן אחר.
+record-error-uploaded-clip-corrupted =
+    נראה שהקלטת השמע שלך פגומה. זה יכול לקרות בגלל:
+    • בעיות עם הדפדפן (במקרה זה, נסו דפדפן אחר)
+    • בעיות במיקרופון או במנהל התקן השמע
+    • ניתוק רשת במהלך ההקלטה
+    נסו להקליט שנית.
 record-cancel = ביטול הקלטה מחדש
 record-instruction = { $actionType } <recordIcon></recordIcon> ולאחר מכן להקריא את המשפט בקול
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> כשסיימת
