@@ -175,3 +175,18 @@ answer-questions-link = מענה על שאלות
 transcribe-answers-link = תמלול תשובות
 review-transcriptions-link = סקירת תמלולים
 contribute-text-link = תרומת טקסט
+press-and-stories-link = עיתונות וידיעות
+
+## Partner section
+
+partner-section-title = הפכו לשותפים שלנו
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>חברות טכנולוגיה</bold> - השקיעו ביצירת מערכי נתונים פתוחים עבור סביבה משגשגת של בינה מלאכותית רב-לשונית
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>חברה אזרחית וחוקרים</bold> - צרו, אחסנו ושתפו מערכי נתונים משמעותיים - בחינם
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>תרומות כספיות</bold> - ממנו יצירה של מערך נתונים על-מנת לטפח חדשנות ופיתוח מקומיים
+# icon is an arrow that points to the right
+get-in-touch-button = צרו קשר <icon></icon>
+# Partners section
+our-partners-include = בין השותפים שלנו תוכלו למצוא את...
