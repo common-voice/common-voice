@@ -98,6 +98,8 @@ community-and-languages-menu-item-tooltip = גלו שפות וקהילות
 ## MENU ITEM ARIA LABELS
 
 about-menu-aria-label = תפריט גישה לשותפויות, עיתונות וסיפורים, קהילה ושפות
+about-us-menu-aria-label = תפריט גישה על אודות
+about-us-menu-item-aria-label = פריט בתפריט: מי אנחנו
 partnerships-menu-item-aria-label = גלו עוד על שותפיות עם Common View
 press-and-stories-menu-item-aria-label = גישה להודעות לעיתונות ולידיעות הקשורות ל-Common Voice
 community-and-languages-menu-item-aria-label = גלו עוד על הקהילה והשפות של Common Voice
@@ -108,10 +110,22 @@ hero-title = טכנולוגיה שמדברת בשפה שלך
 # Text wrapped in <bold></bold> will be shown in bold font
 hero-subtitle-1 = <bold>למה שבינה מלאכותית תעבוד רק בחלק מהשפות בעולם?</bold>
 hero-subtitle-2 = השפה שלנו היא הסיפור שלנו, הקהילה שלנו, התרבות שלנו. בואו ניצור את מערכי הנתונים שאנחנו רוצים לראות בעולם.
+# icon is an arrow that points downwards
+get-started = התחל<icon><icon>
 
 ## Action items section
 
 action-items-section-title = ‏Common Voice היא פלטפורמת קוד פתוח חינמית ליצירת נתונים בהובלת הקהילה
+action-items-section-subtitle = כולם יכולים לשמר, להחיות ולשפר את השפה שלהם על ידי שיתוף, יצירה ואוצרות של מערכי נתונים של טקסט ודיבור.
+scripted-card-header = דיבור מתוסרט
+scripted-card-content = קראו בקול משפטים בשפה שלכם, ותרמו למערך נתוני הדיבור המגוון ביותר בעולם בשיתוף פעולה ציבורי.
+spontaneous-card-header = דיבור ספונטני
+spontaneous-card-content = הגיבו להנחיות ליצירת מערכי נתונים עבור הקשרים אורגניים ודיבוריים. מושלם לשפות מדוברות.
+language-text-card-header = כתבים בשפה
+language-text-card-content = צרו או שתפו משפטים, הנחיות או טקסטים ברשות הציבור עבור תרגום, מודלים קטנים של שפה (SLM) ועוד.
+coming-soon = בקרוב
+add-text = הוספת טקסט
+answer = מתן תשובות
 
 ## Community section
 
