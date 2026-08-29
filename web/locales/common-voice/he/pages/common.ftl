@@ -191,10 +191,12 @@ qvi = קיצ'ואה
 qvj = קיצ'ואה של רמות לוחה
 qvl = קצ'ואה (קחאטמבו)
 qwa = קצ'ואה (קורונגו, אנקש)
+qws = קצ'ואה (סיוואס, אנקש)
 qxa = קצ'ואה (צ׳יקיאן)
 qxp = קצ'ואה (פונו)
 qxt = קצ'ואה (סנטה אנה דה טוסי, פסקו)
 qxu = קצ'ואה (ארקיפה-לה אוניון)
+qxw = קצ'ואה (חאוחה-וואנקה)
 rif = טאריפִיט
 rm-sursilv = רומאנש סורסילבן
 rm-vallader = רומאנס וואלאדר
@@ -283,7 +285,7 @@ link-copied = קישור הועתק
 back-top = חזרה למעלה
 logout = התנתקות
 donate = תרומה כספית
-stayintouch = אנו ב־Mozilla בונים קהילה סביב טכנולוגיות קול. נשמח להישאר איתך בקשר ולעניין אותך בעדכונים, מקורות נתונים חדשים ולשמוע עוד על אופן השימוש שלך בנתונים האלה.
+stayintouch = אנו במוזילה בונים קהילה סביב טכנולוגיות קול. נשמח להישאר איתך בקשר ולעניין אותך בעדכונים, מקורות נתונים חדשים ולשמוע עוד על אופן השימוש שלך בנתונים האלה.
 privacy-info = אנו מבטיחים לטפל במידע שלכם במלוא הזהירות. ניתן לקרוא עוד ב<privacyLink>מדיניות הפרטיות</privacyLink> שלנו.
 return-to-cv = חזרה אל Common Voice
 email-input =
@@ -292,7 +294,7 @@ loading = בטעינה…
 email-opt-in-info = ברצוני לקבל הודעות בדוא"ל כגון תזכורות על יעדים, עדכונים על ההתקדמות שלי ומבזקי חדשות על Common Voice.
 email-opt-in-info-title = הצטרפות לרשימת הדיוור של Common Voice
 email-opt-in-info-sub-with-challenge = קבלת הודעות בדוא"ל כגון תזכורות על אתגרים ויעדים, עדכונים על התקדמות ומבזקי חדשות על Common Voice.
-email-opt-in-privacy-v2 = בחירה בקבלת הודעות דוא"ל מביעה את הסכמתכם ש־Mozilla תטפל במידע זה כפי שמוסבר ב<privacyLink>מדיניות הפרטיות</privacyLink> של Mozilla.
+email-opt-in-privacy-v2 = בחירה בקבלת הודעות דוא"ל מביעה את הסכמתכם שמוזילה תטפל במידע זה כפי שמוסבר ב<privacyLink>מדיניות הפרטיות</privacyLink> של מוזילה.
 indicates-required = * מסמן שדה נחוץ
 not-available-abbreviation = לא רלוונטי
 
@@ -307,3 +309,10 @@ languages-donate-banner-cta = <mark>משתמשים ב-CV</mark><br/><mark>במח
 languages-donate-banner-cta-explanation = מיזם Common Voice ממומן באמצעות תרומות ומענקים! אנחנו אוהבים שיתופי פעולה עם חוקרים אקדמאיים, מהתעשייה ושל חברה אזרחית. Common Voice הינו חינם לשימוש, אך תרומה לעלויות אחזקת המערכת ואחסון הנתונים דרך בקשות למענקים תעזור מאוד.
 localization-select =
     .label = בחירה בשפה/תרגום
+
+## MDC Announcement
+
+# Main text for MDC announcement. Text wrapped in <strong></strong> will be rendered with bold font
+announcement-mdc-text = <strong>מערכי נתונים חדשים של Common Voice</strong> זמינים כעת להורדה באופן בלעדי דרך המערכת האחרת שלנו, Data Collective של מוזילה. הצטרפו על-מנת לגשת ליותר מ-300 מערכי נתונים גלובליים, שנבנו על-ידי ועבור הקהילה.
+# Button text for MDC announcement
+announcement-mdc-button-text = הצטרפו ל-Data Collective של מוזילה

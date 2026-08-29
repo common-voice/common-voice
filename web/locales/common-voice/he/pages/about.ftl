@@ -47,7 +47,7 @@ about-get-involved-text-2 =
 about-stay-in-touch = איך אפשר לשמור על קשר?
 about-stay-in-touch-button = הרשמה
 about-stay-in-touch-text-1 = <emailFragment>הירשמו</emailFragment> לרשימת התפוצה שלנו על-מנת ללמוד כיצד לקחת חלק בתוכניות ואירועים, ולהשתתף בעיצוב המוצר של Common Voice.
-about-stay-in-touch-text-2 = אפשר לפגוש אחרים בקהילות השפה של Mozilla על ידי הצטרפות ל־<discourseLink>Discourse</discourseLink> לדיונים לפי נושאים או ל־<matrixLink>Matrix</matrixLink> להתייעצות זריזה.
+about-stay-in-touch-text-2 = אפשר לפגוש אחרים בקהילות השפה של מוזילה על ידי הצטרפות ל־<discourseLink>דיסקורס</discourseLink> לדיונים לפי נושאים או ל<matrixLink>מטריקס</matrixLink> להתייעצות זריזה.
 about-nav-why-common-voice = למה?
 about-nav-how-it-works = איך?
 about-nav-partners = שותפים
@@ -70,9 +70,9 @@ about-playbook-how-add-language-content-1 = ראשית יש לבדוק אם הש
 about-playbook-how-add-language-translating-heading = תרגום האתר
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>צפו במדריך שלנו על אופן השימוש ב-Pontoon.</translateVideoLink>
 about-playbook-how-add-language-translating-content-2 =
-    אנו משתמשים בכלי של Mozilla הקרוי <pontoonLink>פוֹנטוּן (Pontoon)</pontoonLink> על מנת לתרגם הכל. בפונטון קיימות שפות רבות, אך אם שלכם אינה קיימת באפשרותכם <pontoonRequestLink>לבקש שיוסיפו אותה</pontoonRequestLink>.
+    אנו משתמשים בכלי של מוזילה הקרוי <pontoonLink>פוֹנטוּן (Pontoon)</pontoonLink> על מנת לתרגם הכל. בפונטון קיימות שפות רבות, אך אם שלכם אינה קיימת באפשרותכם <pontoonRequestLink>לבקש שיוסיפו אותה</pontoonRequestLink>.
     לאחר מכן, כדי להפוך את השפה לזמינה ב-Common Voice 
-    <githubRepoLink>פתחו בקשה ב-GitHub</githubRepoLink>. <localizationFragment>קראו עוד אודות תרגום האתר</localizationFragment>.
+    <githubRepoLink>פתחו בקשה בגיטהאב (GitHub)</githubRepoLink>. <localizationFragment>קראו עוד אודות תרגום האתר</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = איסוף משפטים
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>להסבר על השימוש במנגנון איסוף המשפטים</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-2 =
@@ -135,7 +135,7 @@ about-playbook-how-access-dataset-content-2 = אם אתם מחפשים כלים 
 ## How are decisions made
 
 about-playbook-how-project-governance = איך מתקבלות החלטות במיזם?
-about-playbook-how-project-governance-content-1 = Common Voice של Mozilla מתאפשר על ידי קהילה מגוונת של פעילים, בלשנים, מדעני נתונים, אקדמאים ומהנדסי תוכנה מכל רחבי העולם. הפרויקט מנוהל על ידי קרן Mozilla.
+about-playbook-how-project-governance-content-1 = Common Voice של מוזילה מתאפשר על ידי קהילה מגוונת של פעילים, בלשנים, מדעני נתונים, אקדמאים ומהנדסי תוכנה מכל רחבי העולם. הפרויקט מנוהל על ידי קרן מוזילה.
 about-playbook-how-project-governance-content-2 = אופן ניהול הקהילה שלנו מושתת על עמודי התווך של:
 about-playbook-how-project-governance-content-3 = פרטיות, אבטחה ושקיפות.
 about-playbook-how-project-governance-content-4 = מעורבות בקהילה וקבלת החלטות.
@@ -146,6 +146,6 @@ about-playbook-how-project-governance-content-7 = <governanceLink>קראו עו�
 ## How is Common Voice funded
 
 about-playbook-how-funded = כיצד Common Voice ממומן?
-about-playbook-how-funded-content-1 = מיזם Common Voice שייך לקרן Mozilla, עמותה לפי סעיף ‎501(c)(3)‎ בארה"ב. המיזם ממומן כיום לחלוטין באמצעות <philantropicGrantLink>מענקים פילנתרופיים</philantropicGrantLink>, ותרומות מאנשים ברחבי העולם.
+about-playbook-how-funded-content-1 = מיזם Common Voice שייך לקרן מוזילה, עמותה לפי סעיף ‎501(c)(3)‎ בארה"ב. המיזם ממומן כיום לחלוטין באמצעות <philantropicGrantLink>מענקים פילנתרופיים</philantropicGrantLink>, ותרומות מאנשים ברחבי העולם.
 about-playbook-how-funded-content-2 = עולה לנו הרבה כסף לאחסן ולהפיץ את מערכי הנתונים באופן רציף, לשפר את המערכת ולהפעיל <africaMradiLink>תוכניות קהילה</africaMradiLink>.
 about-playbook-how-funded-content-3 = אם אתם או הארגון אליו אתם קשורים תרצו לתרום חזרה למיזם, תוכלו לתרום <donateLink>תרומה כספית</donateLink> או ליצור קשר עם צוות השותפויות שלנו בכתובת <emailFragment>commonvoice@mozilla.com</emailFragment>.
