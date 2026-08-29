@@ -111,7 +111,7 @@ hero-title = טכנולוגיה שמדברת בשפה שלך
 hero-subtitle-1 = <bold>למה שבינה מלאכותית תעבוד רק בחלק מהשפות בעולם?</bold>
 hero-subtitle-2 = השפה שלנו היא הסיפור שלנו, הקהילה שלנו, התרבות שלנו. בואו ניצור את מערכי הנתונים שאנחנו רוצים לראות בעולם.
 # icon is an arrow that points downwards
-get-started = התחל<icon><icon>
+get-started = התחל <icon></icon>
 
 ## Action items section
 
@@ -129,10 +129,49 @@ answer = מתן תשובות
 
 ## Community section
 
+community-section-title-202601 = מופעל על ידי קהילות גלובליות, עבור קהילות גלובליות - עם 290 שפות ובצמיחה!
 join-discord-community = הצטרפו לקהילת דיסקורד
 # label for button
 join-discord-community-action = הצטרפו אלינו בדיסקורד
 join-discord-community-content = השתתפו בדיונים בקהילת השפה, שאלו שאלות והתעדכנו אודות אירועים והרצאות קרובים.
 find-us-on-matrix = מצאו אותנו במטריקס
 find-us-on-matrix-content-v2 = מטריקס (Matrix) הוא פרוטוקול פתוח וקל משקל לתקשורת מבוזרת בזמן אמת, ופלטפורמת הדיון הפתוחה המועדפת על מוזילה. אנחנו בחדר "common-voice:mozilla.org".
+# label for button
+find-us-on-element-action-1 = אלמנט
+find-us-on-matrix-action-2 = כלים אחרים
 ask-mozilla-share = בקשו ממוזילה לשתף את האירועים שלכם
+ask-mozilla-share-content = מתכננים אירוע? או שכבר עשיתם אחד? שתפו אותו איתנו ואנחנו נעדכן אותו בקהילה שלנו או נכתוב עליו בלוג!
+# label for button
+ask-mozilla-share-action = שיתוף האירוע
+download-contribution-certificate = הורדת תעודת התרומה שלך
+download-contribution-certificate-content = אם תרמתם ל-Common Voice - הורידו תעודה עבור האירועים שלכם או לעצמכם  - זה לא היה אפשרי בלעדיכם!
+# label for button
+download-contribution-certificate-action = קבלו את התעודה שלכם
+contribute-github = תרמו בגיטהאב
+contribute-github-content = הפרויקט הזה לא היה אפשרי בלי אנשים כמוכם. 🎉 ישנן דרכים רבות להצטרף ל-Common Voice - אתם לא צריכים לדעת לכתוב קוד כדי לתרום!
+# label for button
+contribute-github-action = תרמו בגיטהאב
+
+## Featured section
+
+featured-section-title = תוכלו למצוא סיקור שלנו ב...
+# icon is an arrow that points downwards
+download-press-pack = הורידו את חבילת העיתונות שלנו <icon></icon>
+
+## Developers section
+
+developers-section-title-202608 = מערכי נתונים של דיבור הפתוחים לציבור ביותר מ-330 שפות
+developers-section-subtitle-v2 = מערכי נתונים עבור זיהוי דיבור (ASR) והקשרים אחרים של עיבוד שפה (NLP) שנוצרו באמצעות השתתפות הקהילה.
+# icon is an arrow that points to the right
+explore-datasets = לכל מערכי הנתונים <icon></icon>
+
+## Get involved section
+
+get-involved-section-title = תמיכה במערכי נתונים פתוחים ובהובלת הקהילה
+read-sentences-link = קריאת משפטים
+validate-readings-link = אימות הקראות
+contribute-link = תרומה לאוספי הכתבים
+answer-questions-link = מענה על שאלות
+transcribe-answers-link = תמלול תשובות
+review-transcriptions-link = סקירת תמלולים
+contribute-text-link = תרומת טקסט
