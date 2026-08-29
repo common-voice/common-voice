@@ -1,7 +1,7 @@
 ## Home Page
 
-home-title = מיזם Common Voice הוא יזמה של Mozilla לטובת סיוע ללימוד מכונות איך מדברים אנשים אמיתיים.
-default-tagline = Common Voice של Mozilla היא יוזמה העוזרת ללמד מכונות איך אנשים אמתיים מדברים.
+home-title = מיזם Common Voice של מוזילה מסייע ללמד מכונות איך אנשים אמיתיים מדברים.
+default-tagline = Common Voice של מוזילה היא יוזמה העוזרת ללמד מכונות איך אנשים אמתיים מדברים.
 home-cta = דברו בקול רם, כאן ניתן לתרום!
 wall-of-text-start = קול הוא דבר טבעי, קול הוא דבר אנושי. משום כך מרתק אותנו ליצור טכנולוגיית קול עבור המכונות שלנו שתהיה שמישה. אך כדי ליצור מערכות קול, נדרשת כמות עצומה של נתוני קול.
 wall-of-text-more-mobile = רוב הנתונים בהם ארגונים גדולים משתמשים אינם זמינים לקהל הרחב. אנו חושבים שנדרשת כאן חשיבה מחדש. לכן, השקנו את מיזם Common Voice, מיזם שיסייע לפתוח את עולם הזיהוי הקולי לכולם.
@@ -45,6 +45,7 @@ x-years-short =
     }
 help-make-dataset = מזמינים אותך לבנות מערך נתונים איכותי ופתוח לציבור
 sign-up-account = יצירת חשבון
+email-subscription-title-v3 = הירשמו לעדכונים של Common Voice וקרן מוזילה
 
 ## Account Benefits
 
@@ -109,3 +110,8 @@ hero-subtitle-2 = השפה שלנו היא הסיפור שלנו, הקהילה �
 ## Action items section
 
 action-items-section-title = ‏Common Voice היא פלטפורמת קוד פתוח חינמית ליצירת נתונים בהובלת הקהילה
+
+## Community section
+
+find-us-on-matrix-content-v2 = מטריקס (Matrix) הוא פרוטוקול פתוח וקל משקל לתקשורת מבוזרת בזמן אמת, ופלטפורמת הדיון הפתוחה המועדפת על מוזילה. אנחנו בחדר "common-voice:mozilla.org".
+ask-mozilla-share = בקשו ממוזילה לשתף את האירועים שלכם

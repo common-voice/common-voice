@@ -316,3 +316,33 @@ localization-select =
 announcement-mdc-text = <strong>מערכי נתונים חדשים של Common Voice</strong> זמינים כעת להורדה באופן בלעדי דרך המערכת האחרת שלנו, Data Collective של מוזילה. הצטרפו על-מנת לגשת ליותר מ-300 מערכי נתונים גלובליים, שנבנו על-ידי ועבור הקהילה.
 # Button text for MDC announcement
 announcement-mdc-button-text = הצטרפו ל-Data Collective של מוזילה
+
+## Release Delay Announcement
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-delay = קהילה יקרה, אנו עובדים כעת על שחרור הגרסה. אנו מצפים שהיא תפורסם בחלקים בימים הקרובים ב-<mdcLink>Data Collective של מוזילה</mdcLink>.
+
+## Release Announcement
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release = קהילה יקרה, הגרסה החדשה נמצאת כעת במלואה ב-<mdcLink>Data Collective של מוזילה</mdcLink>. הצטרפו על-מנת לגשת ליותר מ-500 מערכי נתונים גלובליים, שנבנו על ידי ועבור הקהילה.
+
+## Pre-Release Announcement (dates TBD)
+
+# Text wrapped in <cvDatasheetsLink></cvDatasheetsLink> will be rendered as an external link to the cv-datasheets GitHub repo
+announcement-pre-release = קהילה יקרה, זמן שחרור הגרסה קרב. אנא לכו לאמת ולתמלל, וגם בקרו ב-<cvDatasheetsLink>cv-datasheets</cvDatasheetsLink> כדי לעדכן את גיליון הנתונים שלכם.
+
+## Release Commencing
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-commencing = קהילה יקרה, הגענו לתאריך היעד לשחרור הגרסה ואנחנו מאחדים את מערכי הנתונים. הגרסה החדשה תהיה זמינה ב-<mdcLink>Data Collective של מוזילה</mdcLink> בעוד מספר ימים.
+
+## Common Language/Dataset Selector & SearchBox Related
+
+# Generic search box defaults
+searchbox-default-label = הקלידו כדי לחפש
+searchbox-default-placeholder = חיפוש…
+searchbox-default-aria-label = חיפוש
+dropdown-no-results = לא נמצאו תוצאות
+# Common Voice Dataset=Language search box
+dataset-searchbox-label = משנה הן את שפת התצוגה והן את שפת מאגר הנתונים
