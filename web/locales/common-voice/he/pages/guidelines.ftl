@@ -183,6 +183,13 @@ transcribe-the-audio-subheader-3-explanation = יש להשתמש בתגיות ה
 tags-table-header-1 = תגית
 tags-table-header-2 = משמעות
 tags-laugh = צחוק
+tags-disfluency = הפרעה-בשטף
+tags-unclear = לא-ברור
+tags-noise = רעש
+tags-laugh-explanation = צלילים של צחוק
+tags-disfluency-explanation =
+    מילת מילוי או צליל המשמשים כממלא מקום בזמן שדובר מחליט מה לומר.
+    בעברית, כמה צלילי היסוס נפוצים הם "אממ", "אהה" וכו'.
 tags-unclear-explanation = מילה או רצף מילים שאי אפשר להבין.
 tags-noise-explanation = כל סוג אחר של רעש, כמו כאשר הדוברים מכחכחים בגרונם, משתעלים, רכב צופר, קול של משהו נוגע במיקרופון, טלפון רוטט וכיוצא-בזה.
 # Note: do not translate any tag, like [noise] or [laugh]
@@ -296,6 +303,7 @@ code-switching-cleanup-1 = אל תתרגמו או תנסחו מחדש – רשמ
 code-switching-cleanup-2 = אל "תתקנו" דקדוק או הגייה – שמרו על המשלב הטבעי של הדוברים.
 code-switching-cleanup-3 = אל תדלגו על החלפות קוד שנראות קטנות או חסרי חשיבות - אפילו מילים שאולות חשובות.
 code-switching-cleanup-4 = אל תוסיפו סימני פיסוק שעשויים לשנות את המשמעות – שמרו על הזרימה הטבעית.
+code-switching-cleanup-5 = אל תניחו שאתם יודעים את השפה של כל מילה - תייגו בהתבסס על שימוש.
 # Tagging
 code-switching-tagging-subheader = דיווח
 code-switching-tagging-error-intro = אם התמלול מכיל שגיאה, השתמשו בפונקציית הדיווח כדי לציין זאת. שגיאות אפשריות כוללות:
