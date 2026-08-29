@@ -20,9 +20,12 @@ new-sentence-rule-4 = Użyj poprawnej pisowni i interpunkcji
 new-sentence-rule-5 = Bez cyfr ani znaków specjalnych
 new-sentence-rule-6 = Bez obcych znaków
 new-sentence-rule-7 = Podaj właściwe źródło
+how-to-cite = Jak poprawnie cytować?
+how-to-cite-explanation-bold = Podaj w cytowaniu adres URL lub pełny tytuł dzieła.
 how-to-cite-explanation = Jeśli treść jest Twojego autorstwa, wpisz po prostu <italicizedText>„Self Citation”</italicizedText>. Musimy wiedzieć, skąd pochodzi, aby sprawdzić, czy należy do domeny publicznej i nie podlega ograniczeniom wynikającym z praw autorskich. Więcej informacji o cytowaniu znajdziesz na naszej <guidelinesLink>stronie z wytycznymi</guidelinesLink>.
 guidelines = Wytyczne
 contact-us = Skontaktuj się z nami
+add-sentence-success = Dodano 1 zdanie
 add-sentence-error = Błąd podczas dodawania zdania
 required-field = Proszę wypełnić to pole.
 
@@ -47,6 +50,10 @@ too-many-files = Zbyt wiele plików
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = <icon></icon> Dodaj wiele zdań z domeny publicznej
+small-batch-sentences-rule-2 = Dodaj jedno zdanie w każdym wierszu
+small-batch-sentences-rule-4 = Dodaj maksymalnie 1000 zdań
+small-batch-sentences-rule-5 = Wszystkie zdania muszą należeć do tej samej dziedziny
+small-batch-sentences-rule-6 = Wszystkie zdania muszą mieć to samo źródło
 # menu item
 add-sentences = Dodaj zdania
 
