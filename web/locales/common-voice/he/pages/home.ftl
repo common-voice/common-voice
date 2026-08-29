@@ -79,6 +79,7 @@ read-more-about = מידע נוסף בעמוד על אודותינו
 answer-questions = ענו על שאלות <small>(בקרוב)</small>
 review-transcriptions = בדיקת תמלולים <small>(בקרוב)</small>
 add-questions = הוספת שאלות <small>(בקרוב)</small>
+review-questions = סקירת שאלות
 transcribe-audio = תמלול שמע <small>(בקרוב)</small>
 press-and-stories = עיתונות וידיעות
 community-and-languages = קהילה ושפות
@@ -96,6 +97,7 @@ community-and-languages-menu-item-tooltip = גלו שפות וקהילות
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = תפריט גישה לשותפויות, עיתונות וסיפורים, קהילה ושפות
 partnerships-menu-item-aria-label = גלו עוד על שותפיות עם Common View
 press-and-stories-menu-item-aria-label = גישה להודעות לעיתונות ולידיעות הקשורות ל-Common Voice
 community-and-languages-menu-item-aria-label = גלו עוד על הקהילה והשפות של Common Voice
@@ -113,5 +115,10 @@ action-items-section-title = ‏Common Voice היא פלטפורמת קוד פת
 
 ## Community section
 
+join-discord-community = הצטרפו לקהילת דיסקורד
+# label for button
+join-discord-community-action = הצטרפו אלינו בדיסקורד
+join-discord-community-content = השתתפו בדיונים בקהילת השפה, שאלו שאלות והתעדכנו אודות אירועים והרצאות קרובים.
+find-us-on-matrix = מצאו אותנו במטריקס
 find-us-on-matrix-content-v2 = מטריקס (Matrix) הוא פרוטוקול פתוח וקל משקל לתקשורת מבוזרת בזמן אמת, ופלטפורמת הדיון הפתוחה המועדפת על מוזילה. אנחנו בחדר "common-voice:mozilla.org".
 ask-mozilla-share = בקשו ממוזילה לשתף את האירועים שלכם
