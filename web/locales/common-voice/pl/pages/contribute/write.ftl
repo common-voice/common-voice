@@ -1,8 +1,16 @@
 ## WRITE PAGE
 
 write = Pisz
+write-instruction = Dodaj <icon></icon> zdanie z domeny publicznej
+write-page-subtitle = Dodane tutaj zdania trafią do publicznie dostępnego zbioru danych na licencji cc-0.
 sentence =
     .label = Zdanie
+sentence-input-placeholder = Wpisz tutaj zdanie z domeny publicznej
+small-batch-sentence-input-placeholder = Wpisz tutaj zdania z domeny publicznej
+citation-input-placeholder = Wskaż źródło cytowanego zdania (wymagane)
+citation =
+    .label = Cytowanie
+sc-write-submit-confirm = Oświadczam, że to zdanie należy do <wikipediaLink>domeny publicznej</wikipediaLink> i mam zgodę na jego przesłanie.
 sc-review-write-title = Jakie zdania mogę dodać?
 new-sentence-rule-3 = Użyj poprawnej gramatyki
 guidelines = Wytyczne
