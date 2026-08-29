@@ -168,7 +168,21 @@ transcribe-the-audio-subheader-1-explanation-example-4 = דקדוק שונה מ�
 transcribe-the-audio-subheader-2-explanation-1 = מספרים וסימנים צריכים להיות רשומים כמילים שלמות, במקום להשתמש בסימני מספר או תוים מיוחדים. לדוגמא:
 transcribe-the-audio-subheader-2-explanation-2 = יש לרשום ראשי תיבות כפי שהם רשומים בדרך-כלל בשפה, ולא להרחיבם. למשל:
 # text wrapped in correct will be shown as green text in the UI
-transcribe-the-audio-subheader-2-example-1-correct = <correct>נכון</correct>: המרחק של זה מכאן הוא מאה קילומטר
+transcribe-the-audio-subheader-2-example-1-correct = <correct>נכון</correct>: המרחק של זה מכאן הוא <underline>מאה</underline> קילומטר
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <wrong>לא נכון</wrong>: המרחק של זה מכאן הוא <underline>100</underline> קילומטר
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correct>נכון</correct>: נתראה ב<underline>אלפיים וחמש-עשרה</underline>
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>לא נכון</wrong>: נתראה ב-<underline>2015</underline>
+transcribe-the-audio-subheader-2-example-3-correct = <correct>נכון</correct>: זה היה בהנחה של <underline>עשרים אחוז</underline>
+transcribe-the-audio-subheader-2-example-3-wrong = <correct>נכון</correct>: זה היה בהנחה של <underline>20%</underline>
+transcribe-the-audio-subheader-2-example-4-correct = <correct>נכון</correct>: הם נעצרו על ידי <underline>השב"כ</underline> ביום חמישי האחרון
+transcribe-the-audio-subheader-2-example-4-wrong = <wrong>לא נכון</wrong>: הם נעצרו על ידי <underline>שירות הבטחון הכללי</underline> ביום חמישי האחרון
+transcribe-the-audio-subheader-3-explanation = יש להשתמש בתגיות המיוחדות הבאות כדי לסמן הפרעה בשטף, מילות מילוי וסוגים אחרים של תוכן לא מילולי.
+tags-table-header-1 = תגית
+tags-table-header-2 = משמעות
+tags-laugh = צחוק
 tags-unclear-explanation = מילה או רצף מילים שאי אפשר להבין.
 tags-noise-explanation = כל סוג אחר של רעש, כמו כאשר הדוברים מכחכחים בגרונם, משתעלים, רכב צופר, קול של משהו נוגע במיקרופון, טלפון רוטט וכיוצא-בזה.
 # Note: do not translate any tag, like [noise] or [laugh]

@@ -31,3 +31,5 @@ error-duplicate-clips-all =
         [one] לא הצלחנו להעלות את המקטע שלך. הוא כבר הועלה בעבר. בואו נמשיך עם המקבץ הבאה!
        *[other] לא הצלחנו להעלות { $total } מקטעים. הם כבר הועלו בעבר. בואו נמשיך עם המקבץ הבאה!
     }
+# Warning message shown when only some of the clips could be uploaded (uploaded count will be <5)
+error-duplicate-clips-some = העלינו { $uploaded } מהמקטעים שלך - השאר כבר הועלו. בואו נמשיך עם המקטע הבאה!
