@@ -46,6 +46,7 @@ x-years-short =
     }
 help-make-dataset = Pomóż nam zbudować wysokiej jakości, publicznie otwarty zbiór danych
 sign-up-account = Zarejestruj konto
+email-subscription-title-v3 = Zapisz się, aby otrzymywać aktualności od Common Voice i Fundacji Mozilla
 
 ## Account Benefits
 
@@ -122,6 +123,10 @@ find-us-on-matrix-content-v2 = Matrix to otwarty, lekki protokół do zdecentral
 # label for button
 find-us-on-element-action-1 = Element
 find-us-on-matrix-action-2 = Inne klienty
+ask-mozilla-share = Poproś Mozillę o promowanie Twoich wydarzeń
+ask-mozilla-share-content = Organizujesz wydarzenie lub masz już jakieś za sobą? Daj nam znać, a poinformujemy o nim naszą społeczność albo opiszemy je na blogu!
+# label for button
+ask-mozilla-share-action = Udostępnij swoje wydarzenie
 download-contribution-certificate = Pobierz certyfikat za swój wkład
 download-contribution-certificate-content = Pobierz certyfikat dla swojego wydarzenia lub dla siebie, jeśli wspierasz Common Voice — bez Ciebie ten projekt nie mógłby istnieć!
 # label for button
