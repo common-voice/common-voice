@@ -100,9 +100,11 @@ get-started = Zaczynamy <ikona><ikona>
 
 action-items-section-title = Common Voice to darmowa platforma open source do tworzenia danych głosowych przez społeczność
 action-items-section-subtitle = Każdy może zachować, ożywić i podnieść rangę swojego języka poprzez udostępnianie, tworzenie i zarządzanie zbiorami danych tekstowych i mowy.
+scripted-card-header = Wypowiedź odczytana
 scripted-card-content = Czytaj zdania na głos w swoim języku i przyczyń się do stworzenia najbardziej zróżnicowanego zbioru danych głosowych na świecie.
 spontaneous-card-header = Wypowiedź spontaniczna
 spontaneous-card-content = Odpowiadaj na pytania, aby tworzyć zbiory danych odzwierciedlające naturalne, potoczne konteksty. Idealne rozwiązanie dla języków używanych głównie w mowie.
+language-text-card-header = Tekst pisany
 language-text-card-content = Twórz lub udostępniaj komunikaty, zdania i teksty z domeny publicznej na potrzeby tłumaczenia, małych modeli językowych i nie tylko.
 coming-soon = Wkrótce
 add-text = Dodaj tekst
@@ -120,6 +122,8 @@ find-us-on-matrix-content-v2 = Matrix to otwarty, lekki protokół do zdecentral
 # label for button
 find-us-on-element-action-1 = Element
 find-us-on-matrix-action-2 = Inne klienty
+download-contribution-certificate = Pobierz certyfikat za swój wkład
+download-contribution-certificate-content = Pobierz certyfikat dla swojego wydarzenia lub dla siebie, jeśli wspierasz Common Voice — bez Ciebie ten projekt nie mógłby istnieć!
 # label for button
 download-contribution-certificate-action = Odbierz swój certyfikat
 contribute-github-content = Ten projekt nie byłby możliwy bez ludzi takich jak Ty. 🎉 Istnieje wiele sposobów, aby zaangażować się w projekt Common Voice – nie musisz umieć kodować, aby się włączyć!
@@ -133,9 +137,12 @@ download-press-pack = Pobierz nasz pakiet prasowy <icon></icon>
 
 developers-section-title-202608 = Publicznie dostępne otwarte zbiory danych w ponad 330 językach
 developers-section-subtitle-v2 = Zestawy danych dla ASR i innych kontekstów NLP - tworzone przy udziale społeczności.
+# icon is an arrow that points to the right
+explore-datasets = Przeglądaj zestawy danych <icon></icon>
 
 ## Get involved section
 
+get-involved-section-title = Wspieraj otwarte zbiory danych rozwijane przez społeczność
 read-sentences-link = Czytaj zdania
 press-and-stories-link = Prasa i historie
 
