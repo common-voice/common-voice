@@ -77,8 +77,11 @@ read-more-about = Przeczytaj więcej na stronie informacji o nas
 ## NAV ITEMS
 
 answer-questions = Odpowiadaj na pytania
-coming-soon = Wkrótce
+press-and-stories = Media i historie
+community-and-languages = Społeczność i języki
 about-us = O nas
+scripted-speech = WYPOWIEDŹ ODCZYTANA
+spontaneous-speech = WYPOWIEDŹ SPONTANICZNA
 
 ## MENU ITEMS TOOLTIPS
 
@@ -98,6 +101,8 @@ get-started = Zaczynamy <ikona><ikona>
 action-items-section-title = Common Voice to darmowa platforma open source do tworzenia danych głosowych przez społeczność
 action-items-section-subtitle = Każdy może zachować, ożywić i podnieść rangę swojego języka poprzez udostępnianie, tworzenie i zarządzanie zbiorami danych tekstowych i mowy.
 scripted-card-content = Czytaj zdania na głos w swoim języku i przyczyń się do stworzenia najbardziej zróżnicowanego zbioru danych głosowych na świecie.
+spontaneous-card-header = Wypowiedź spontaniczna
+spontaneous-card-content = Odpowiadaj na pytania, aby tworzyć zbiory danych odzwierciedlające naturalne, potoczne konteksty. Idealne rozwiązanie dla języków używanych głównie w mowie.
 language-text-card-content = Twórz lub udostępniaj komunikaty, zdania i teksty z domeny publicznej na potrzeby tłumaczenia, małych modeli językowych i nie tylko.
 coming-soon = Wkrótce
 add-text = Dodaj tekst
