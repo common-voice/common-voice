@@ -25,8 +25,10 @@ feedback-q = လောဝ်းချာခရာႏ အောဝ်ႏနဲ့
 # This indicates that there is no data to display
 no-information = အဆင်ႏလာႏ အဲဉ်ထောဝ်း
 community-playbook = အသောင်ꩻရင်ꩻစွိုꩻဗူႏသီး တဖူꩻလွေꩻလိတ်ဖွူꩻ
+data-other-ted-name = ငေါဝ်းရွမ် TED-LIUM ဖုံႏ
 go-discourse = လွေꩻ ဒစ်သကော့သီ ကို
 go-languages-page = လွေꩻ ဘာႏသာႏငေါဝ်းငွါလိတ်မဲ့ငါ ကို
+ready-to-validate = စွဲးကမ်း အွဉ်ႏတိဉ်ႏဖေႏ ဝါကျလိတ်ရဲဉ်ႏတာႏ ဖုဲင်ႏတံꩻလဲဉ်းနဲ့ ?
 more = ထဲင်း
 download = ထူႏငင်ႏလင်ꩻ
 dataset-version = ဗားသိဉ်း
