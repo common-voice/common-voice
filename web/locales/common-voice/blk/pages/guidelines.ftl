@@ -90,12 +90,17 @@ example-questions-subheader = ငေါဝ်းရီဖုံႏ ပွုံ�
 # Answer Questions
 answer-questions = ငေါဝ်းစေလောဝ်း ငေါဝ်းရီဖုံႏ
 answer-questions-subheader = တဖူꩻယီႏနယ်ꩻ အစွိုးစွိုးအသွုပ်သွုပ်
+# Transcribe the Audio
+transcribe-the-audio = တဲမ်းနယ်ချာသွော့ အငေါဝ်း
 transcribe-the-audio-subheader-1 = တဖူꩻယီႏနယ်ꩻ အစွိုးစွိုးအသွုပ်သွုပ်
 transcribe-the-audio-subheader-3 = ကတဲးဝါးဒါႏ ဟဲ့ꩻရဲဉ်ႏဖုံႏ
 tags-table-header-1 = ဟဲ့ꩻရဲန်ႏ
 tags-table-header-2 = ကမဲဉ်ရိုꩻ အဓိပ္ပာယ်ႏ
 tags-laugh = ထိုဆွာꩻ
+tags-disfluency = အငေါဝ်းသယ်ꩻ
 tags-unclear = တစဲင်းလေတောဝ်း
+tags-noise = တိန်ႏနား
+tags-laugh-explanation = ထာꩻငသင်ႏ
 
 ## Review the Transcription
 
@@ -106,6 +111,8 @@ review-the-transcription-subheader = တဖူꩻယီႏနယ်ꩻ အစွ
 
 code-switching = အောဝ်ႏလုဲင်ႏလွေꩻ ကိုဒ်
 adding-a-question = အောဝ်ႏသော့ꩻ ငေါဝ်းရီတဗာႏ
+# What to Avoid
+code-switching-avoid-subheader = ထိုꩻလဲ့ဗာႏ တမုဲင်ꩻ
 code-switching-dont-header = မာꩻမွိုန်း
 # Reviewing a Question
 code-switching-review-subheader = အောဝ်ႏထွားစဲစ်ချာ ငေါဝ်းရီတဗာႏ
