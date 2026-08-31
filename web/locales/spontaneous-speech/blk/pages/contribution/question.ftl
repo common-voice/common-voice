@@ -15,4 +15,5 @@ do-section-title = မာꩻ
 do-section-guideline-1 = တဲမ်းသွုံꩻ မဲန်ႏမဲန်ႏသွော့ လိတ်ဖြုံႏ အသွတ်ꩻပွုံႏတွမ်ႏ သဒ္ဒါႏ တဖူꩻနယ်ꩻမဲန်ႏမဲန်ႏနေား။
 do-not-section-title = မာꩻမွိုန်း
 do-not-section-guideline-3 = ရီသွော့ ငေါဝ်းရီယိုꩻယိုꩻ
+cs-do-not-section-guideline-2 = ရီသွော့ ပွတ်လုဲင်ႏကိုဒ် မွေးတောဝ်းလဲ့ ကွီချာႏပြန်ႏဘာႏသာႏ အတာႏ
 cs-do-not-section-guideline-3 = သွုံꩻလွေꩻလို့ ဘာႏသာႏငေါဝ်းငွါယို
