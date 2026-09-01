@@ -11,6 +11,11 @@ add-question-success-toast-message =
     }
 add-question-error-message = ဒင်ႏထင်ႏ ဗꩻလꩻတောဝ်း၊ ကျိုꩻစာꩻချာယင်းသွော့ တလဲင်ႏ
 add-question-too-many-questions-error = ငေါဝ်းရီ လွိုထိုꩻလဲဉ်း ၂၅ ဗာႏသွူ ။ အွဉ်ႏယွမ်ꩻချာထွူ ငေါဝ်းရီတဲင် သောင်ႏသာချာယင်း တလဲင်ႏဟုဲင်း။
+partial-questions-upload-message =
+    { $totalQuestions ->
+        [one] ငေါဝ်းရီ { $uploadedQuestions }အကို ရွမ်ခါꩻဗာႏလဲဉ်း ၁ ဗာႏသွူ။ ထွားလွဉ်ꩻသွော့ နီသွဉ်းသီး သွဉ်ထူႏထဲင်းခရာႏ သော့ꩻငေါဝ်းရီ နုဲင်းမုဲင်ꩻ <guidelinesLink>မာꩻပွုံႏမာꩻနယ်ꩻ</guidelinesLink> ယို လိတ်မဲ့ငါအခရာႏဖုံႏ
+       *[other] ငေါဝ်းရီ { $uploadedQuestions }အကို ရွမ်ခါꩻဗာႏလဲဉ်း { $totalQuestions } ဗာႏသွူ။ ထွားလွဉ်ꩻသွော့ နီသွဉ်းသီး သွဉ်ထူႏထဲင်းခရာႏ သော့ꩻငေါဝ်းရီ နုဲင်းမုဲင်ꩻ<guidelinesLink>မာꩻပွုံႏမာꩻနယ်ꩻ</guidelinesLink> ယို လိတ်မဲ့ငါအခရာႏဖုံႏ
+    }
 # Guidelines
 add-question-guidelines-title = ငေါဝ်းရီဖုံႏယို ခွေသော့ꩻနွောင်ꩻတမုဲင်ꩻ?
 do-section-title = မာꩻ
