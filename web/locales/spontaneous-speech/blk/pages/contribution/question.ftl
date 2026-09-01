@@ -9,11 +9,14 @@ add-question-success-toast-message =
        *[other] ခြွဉ်းဗူႏဗာႏလဲဉ်း { $uploadedQuestions } ငေါဝ်းရီ { $totalQuestions } ဗာႏ
     }
 add-question-error-message = ဒင်ႏထင်ႏ ဗꩻလꩻတောဝ်း၊ ကျိုꩻစာꩻချာယင်းသွော့ တလဲင်ႏ
+add-question-too-many-questions-error = ငေါဝ်းရီ လွိုထိုꩻလဲဉ်း ၂၅ ဗာႏသွူ ။ အွဉ်ႏယွမ်ꩻချာထွူ ငေါဝ်းရီတဲင် သောင်ႏသာချာယင်း တလဲင်ႏဟုဲင်း။
 # Guidelines
 add-question-guidelines-title = ငေါဝ်းရီဖုံႏယို ခွေသော့ꩻနွောင်ꩻတမုဲင်ꩻ?
 do-section-title = မာꩻ
 do-section-guideline-1 = တဲမ်းသွုံꩻ မဲန်ႏမဲန်ႏသွော့ လိတ်ဖြုံႏ အသွတ်ꩻပွုံႏတွမ်ႏ သဒ္ဒါႏ တဖူꩻနယ်ꩻမဲန်ႏမဲန်ႏနေား။
 do-not-section-title = မာꩻမွိုန်း
 do-not-section-guideline-3 = ရီသွော့ ငေါဝ်းရီယိုꩻယိုꩻ
+# Code switching Guidelines
+cs-do-section-guideline-1 = သွုံꩻဖေႏ ဘာႏသာႏငေါဝ်းငွါနီစွိုး ငေါဝ်းရီဖုံႏ မွေးတောဝ်းလဲ့ အခရာႏလိတ်ရဲဉ်ႏ ဟုဲင်း
 cs-do-not-section-guideline-2 = ရီသွော့ ပွတ်လုဲင်ႏကိုဒ် မွေးတောဝ်းလဲ့ ကွီချာႏပြန်ႏဘာႏသာႏ အတာႏ
 cs-do-not-section-guideline-3 = သွုံꩻလွေꩻလို့ ဘာႏသာႏငေါဝ်းငွါယို
