@@ -78,6 +78,7 @@ adding-questions = သော့ꩻလွေꩻ ငေါဝ်းရီဖုံ
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = အဗာႏမုဲင်ꩻ ထွာငေါဝ်းရီဟောဝ်ဟောင်း ?
 easy-to-understand = သေနာႏယိုꩻယိုꩻဗာႏ
 spelling-and-pronunciation = ဆင်းလိတ်ဖြုံႏ တွမ်ႏ အွဉ်ႏသွတ်ꩻနယ်ꩻ
 length = ထိုဆွာꩻ
@@ -93,6 +94,7 @@ answer-questions-subheader = တဖူꩻယီႏနယ်ꩻ အစွို�
 # Transcribe the Audio
 transcribe-the-audio = တဲမ်းနယ်ချာသွော့ အငေါဝ်း
 transcribe-the-audio-subheader-1 = တဖူꩻယီႏနယ်ꩻ အစွိုးစွိုးအသွုပ်သွုပ်
+transcribe-the-audio-subheader-2 = အမုဲင်ဗာႏဖုံႏ တွမ်ႏ ထူႏအဒွေါင်ႏဖုံႏ
 transcribe-the-audio-subheader-3 = ကတဲးဝါးဒါႏ ဟဲ့ꩻရဲဉ်ႏဖုံႏ
 tags-table-header-1 = ဟဲ့ꩻရဲန်ႏ
 tags-table-header-2 = ကမဲဉ်ရိုꩻ အဓိပ္ပာယ်ႏ
