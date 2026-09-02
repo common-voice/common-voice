@@ -28,7 +28,7 @@ varying-pronunciations-example = Man garšo mērce un desa.
 varying-pronunciations-tip-1 = [Dažādās Latvijas malās "mērce" izrunā dažādi, visas izrunas ir pareizas]
 varying-pronunciations-tip-2 = [Arī vārdu "desa" dažādi cilvēki izrunā dažādi]
 offensive-content-explanation = Teikumi tiek pārbaudīti, izmantojot brīvprātīgo labākos nodomus, taču šis process nav ideāls. Ja redzat vai dzirdat teikumu, kas jūs aizvaino vai satrauc, piemēram, tāpēc, ka tas pārkāpj mūsu <participationGuidelines>kopienas līdzdalības vadlīnijas</participationGuidelines>, lūdzu, izmantojiet karodziņa pogu lietotāja saskarnē. Varat arī sazināties ar mums, izmantojot e-pasta adresi <emailFragment>commonvoice@mozilla.com</emailFragment>.
-misreadings-explanation-1 = Ir svarīgi pareizi izlasīt katru vārdu. Klausoties ļoti rūpīgi pārbaudiet, vai ierakstītais ir tieši tas, kas prasīts; noraidīt, ja runātāji ir pievienojuši vai palaiduši garām kādu vārdu vai, ja divi vārdi ir samainīti vietām.
+misreadings-explanation-1 = Ir svarīgi pareizi izlasīt katru vārdu. Klausoties ļoti rūpīgi jāpārbauda, kā ierakstītais ir tieši tas, kas prasīts; jānoraida, ja ierunātāji ir pievienojuši vai izlaiduši kādu vārdu vai ja divi vārdi ir samainīti vietām.
 misreadings-explanation-2 = Biežāk sastopamās kļūdas:
 misreadings-explanation-3 = Norauts vārda sākums, piemēram, "an garšo desa"
 misreadings-explanation-4 = Norautas vārda beigas, piemēram, "bija" vietā ierunāts "bij" vai teikumā izlaists vārds "ir"
@@ -334,7 +334,7 @@ code-switching-punctuation-tagging-explanation = Atzīmējiet pieturzīmes, izma
 code-switching-punctuation-tagging-explanation-example-1 = <purple>un vienīgo reizi, kad</purple> Marija <purple>uz mani kliedza,</purple> <blue>tika</blue> <purple>mēģināta</purple> izdrukāt <blue>nevienu</blue> <purple>pasūtījumu.</purple> (BangorTalk)
 code-switching-punctuation-tagging-explanation-example-2 = <purple>bet</purple> <blue>tú los puedes comprar rojo, negro, azul</blue>, <purple>viss.</purple> (BangorTalk)
 # Be Careful with Lookalikes
-code-switching-lookalikes-header = Esiet uzmanīgi ar līdziniekiem
+code-switching-lookalikes-header = Jāuzmanās no līdziniekiem
 code-switching-lookalikes-explanation = Daži vārdi var izskatīties līdzīgi kā vienā valodā, bet tiek lietoti citā. Atzīmējiet, pamatojoties uz nozīmi un lietojumu, nevis izskatu. Piemēri:
 code-switching-lookalikes-explanation-example-1 = “Footing” spāņu valodā agrāk nozīmēja skriešanu > atzīmēt kā spāņu
 code-switching-lookalikes-explanation-example-2 = “No problemo” lietots angļu valodā > atzīmēt kā angļu valodu
