@@ -33,6 +33,7 @@ type AnnouncementItem = {
 // Non-overlapping list -- the first in-window, non-dismissed entry is shown.
 // Add new entries here; do not remove old ones (they are naturally excluded by date).
 const ANNOUNCEMENTS: AnnouncementItem[] = [
+  // MDC
   {
     id: 'mdc-2025',
     textKey: 'announcement-mdc-text',
@@ -42,6 +43,7 @@ const ANNOUNCEMENTS: AnnouncementItem[] = [
     endDate: '2025-12-31T23:59:59Z',
     showIcon: true,
   },
+  // Release announcements for 2026-03
   {
     id: 'release-delay-2026',
     textKey: 'announcement-release-delay',
@@ -58,6 +60,7 @@ const ANNOUNCEMENTS: AnnouncementItem[] = [
     startDate: '2026-03-25T00:00:00Z',
     endDate: '2026-04-04T23:59:59Z',
   },
+  // Release announcements for 2026-06
   {
     id: 'release-pre-202606',
     textKey: 'announcement-pre-release',
@@ -81,6 +84,40 @@ const ANNOUNCEMENTS: AnnouncementItem[] = [
     buttonHref: URLS.MDC_ROOT,
     startDate: '2026-06-18T00:00:00Z',
     endDate: '2026-06-30T23:59:59Z',
+  },
+  // Downtime announcement for 2026-09
+  {
+    id: 'release-pre-202609',
+    textKey: 'announcement-scheduled-downtime',
+    buttonTextKey: 'find-us-on-matrix',
+    buttonHref: 'https://chat.mozilla.org/#/room/#common-voice:mozilla.org',
+    startDate: '2026-09-03T12:00:00Z',
+    endDate: '2026-09-06T06:00:00Z',
+  },
+  // Release announcements for 2026-09
+  {
+    id: 'release-pre-202609',
+    textKey: 'announcement-pre-release',
+    buttonTextKey: 'announcement-mdc-button-text',
+    buttonHref: URLS.MDC_ROOT,
+    startDate: '2026-09-06T08:00:00Z',
+    endDate: '2026-09-11T23:59:59Z',
+  },
+  {
+    id: 'release-commencing-202609',
+    textKey: 'announcement-release-commencing',
+    buttonTextKey: 'announcement-mdc-button-text',
+    buttonHref: URLS.MDC_ROOT,
+    startDate: '2026-09-12T00:00:00Z',
+    endDate: '2026-09-16T23:59:59Z',
+  },
+  {
+    id: 'release-202609',
+    textKey: 'announcement-release',
+    buttonTextKey: 'announcement-mdc-button-text',
+    buttonHref: URLS.MDC_DATASETS,
+    startDate: '2026-09-17T00:00:00Z',
+    endDate: '2026-09-30T23:59:59Z',
   },
 ]
 
