@@ -115,7 +115,7 @@ const ANNOUNCEMENTS: AnnouncementItem[] = [
     id: 'release-202609',
     textKey: 'announcement-release',
     buttonTextKey: 'announcement-mdc-button-text',
-    buttonHref: URLS.MDC_ROOT,
+    buttonHref: URLS.MDC_DATASETS,
     startDate: '2026-09-17T00:00:00Z',
     endDate: '2026-09-30T23:59:59Z',
   },
