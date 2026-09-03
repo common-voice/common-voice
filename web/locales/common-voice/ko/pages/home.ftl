@@ -82,3 +82,20 @@ about-us = 소개
 
 # icon is an arrow that points downwards
 get-started = 시작하기<icon><icon>
+
+## Action items section
+
+language-text-card-header = 언어 텍스트
+add-text = 텍스트 추가
+answer = 답변
+
+## Community section
+
+join-discord-community = Discord 커뮤니티 가입
+# label for button
+join-discord-community-action = Discord에서 가입
+find-us-on-matrix = Matrix에서 찾아보기
+find-us-on-matrix-content-v2 = Matrix는 탈중앙화 실시간 커뮤니케이션을 위한 가벼운 개방형 프로토콜이며, Mozilla가 선호하는 공개 토론 플랫폼입니다. "common-voice:mozilla.org" 방을 이용하고 있습니다.
+contribute-github = GitHub에서 기여하기
+# label for button
+contribute-github-action = GitHub에서 기여하기

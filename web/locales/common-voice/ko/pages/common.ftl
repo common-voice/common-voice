@@ -37,6 +37,7 @@ be = 벨로루시어
 beb = 밤벨레어
 bew = 베타위어
 bfd = 바풋어
+bfq = 바다가어
 bft = 발티어
 bg = 불가리아어
 bkm = 콤어
@@ -227,9 +228,6 @@ zh-TW = 중국어(대만)
 zu = 줄루어
 zza = 자자어
 
-# [/]
-
-
 ## Layout
 
 profile = 프로필
@@ -239,6 +237,7 @@ privacy = 개인 정보
 terms = 이용 약관
 cookies = 쿠키
 faq = 자주 묻는 질문
+documentation = 문서
 content-license-text = 콘텐츠는 <licenseLink>크리에이티브 커먼즈 라이센스</licenseLink> 하에 사용할 수 있음
 share-title = 다른 사람들이 목소리를 기부할 수 있게 도와주세요!
 share-text = 실제로 사람들이 말하는 방식을 프로그램에 추가하고, 자신의 목소리를 { $Link }에 기부해주세요
@@ -258,8 +257,14 @@ email-opt-in-info-sub-with-challenge = 도전이나 개인 목표 알림, 진행
 email-opt-in-privacy-v2 = 이메일을 받기로 수락함으로서 Mozilla의 <privacyLink>개인정보 정책</privacyLink>에 따라 Mozilla가 이 정보를 처리하는 것에 동의하게 됩니다.
 indicates-required = * 표시는 필수 항목
 not-available-abbreviation = 해당 없음
+# Text shown on a button that can be clicked to copy text to the clipboard
+copy = 복사
 # Text shown on a button that can be clicked to close a modal or panel
 close = 닫기
+# Text shown on a button that can be clicked to cancel an action
+cancel = 취소
+# Text shown on a button that can be clicked to delete an item
+delete = 삭제
 
 ## Donate banner
 
@@ -280,5 +285,14 @@ announcement-mdc-button-aria-text = 새 탭에서 열기
 
 ## Common Language/Dataset Selector & SearchBox Related
 
+# Generic search box defaults
+searchbox-default-label = 입력을 시작하여 검색하기
+searchbox-default-placeholder = 검색...
 searchbox-default-aria-label = 검색
+dropdown-no-results = 일치하는 것 없음
+# Common Voice Dataset=Language search box
+dataset-searchbox-label = 표시 언어와 데이터셋 언어 모두 변경
+dataset-searchbox-placeholder = 언어 검색...
+dataset-searchbox-aria-label = 언어 검색
+dataset-search-no-results = 일치하는 언어 없음
 request-new-language = 새 언어 요청

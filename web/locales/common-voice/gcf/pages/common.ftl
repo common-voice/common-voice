@@ -41,6 +41,3 @@ rw = Kinyarwanda
 sah = Sakha
 sat = Santali (Ol Chiki)
 sc = Sardinian
-
-# [/]
-

@@ -26,7 +26,7 @@ tag-empty-submit-error = Nav iesniedzama teksta. Lūdzu, vispirms pievienojiet t
 # Code switching Guidelines
 cs-tag-do-guideline-1 = Izmantojiet pareizu ortogrāfiju
 cs-tag-do-guideline-2 = Izmantojiet izrunu, lai palīdzētu
-cs-tag-do-guideline-3 = Esiet uzmanīgi ar līdzīgiem vārdiem
+cs-tag-do-guideline-3 = Jāuzmanās ar līdzīgiem vārdiem
 cs-tag-do-not-guideline-1 = Atzīmējiet īpašvārdus, jauktus vārdus vai starpsaucienus
 cs-tag-shortcuts-section-title = Tastatūras lietošana
 cs-tag-shortcuts-guideline-1 = <key>1</key>-<key>{ $numLanguages }</key> Birka ar valodu

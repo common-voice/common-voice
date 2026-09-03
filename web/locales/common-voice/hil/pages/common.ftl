@@ -17,9 +17,6 @@ ast = Asturian
 az = Azerbaijani
 ba = Bashkir
 
-# [/]
-
-
 ## Layout
 
 email-input =

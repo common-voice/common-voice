@@ -142,9 +142,6 @@ zh-CN = Chinu (China)
 zh-HK = Chinu (Ḥong Kong)
 zh-TW = Chinu (Taiwán)
 
-# [/]
-
-
 ## Layout
 
 profile = Perfil

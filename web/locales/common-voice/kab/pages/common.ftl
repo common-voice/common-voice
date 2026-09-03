@@ -222,9 +222,6 @@ zh-TW = Tacinwat (Taywan)
 zu = Tazulut
 zza = Zaza
 
-# [/]
-
-
 ## Layout
 
 profile = Amaɣnu

@@ -1,7 +1,7 @@
 ## Home Page
 
-home-title = Le projecto Common Voice es un initiativa de Mozilla pro adjutar a inseniar a machinas como personas real parla.
-default-tagline = Mozilla Common Voice es un initiativa pro adjutar a inseniar a machinas como personas real parla.
+home-title = Le projecto Common Voice es un initiativa de Mozilla pro adjutar a inseniar a machinas como le personas real parla.
+default-tagline = Mozilla Common Voice es un initiativa pro adjutar a inseniar a machinas como le personas real parla.
 home-cta = Face audir de te, contribue ora!
 wall-of-text-start = Le voce es natural, le voce es human. Ecce proque nos es fascinate del idea de crear technologia vocal utile pro nostre machinas. Ma pro crear systemas vocal es necessari un grandissime quantitate de datos vocal.
 wall-of-text-more-mobile = Le major parte del datos usate per le grande companias non es disponibile al majoritate del personas. Nos pensa que isto suffoca le innovation. Dunque nos ha lanceate le projecto Common Voice, un projecto pro adjutar a render le recognition de voce disponibile pro omnes.
@@ -81,7 +81,6 @@ review-questions = Revider questiones
 transcribe-audio = Transcriber audio <small>(Tosto veniente)</small>
 press-and-stories = Pressa e articulos
 community-and-languages = Communitate e linguas
-coming-soon = Veniente tosto
 about-us = A proposito de nos
 scripted-speech = DISCURSO CON TRANSCRIPTION
 spontaneous-speech = DISCURSO SPONTANEE
@@ -159,6 +158,8 @@ download-press-pack = Discarga nostre pacchetto pressa <icon></icon>
 
 ## Developers section
 
+developers-section-title-202608 = Collectiones de datos vocal publicamente accessibile in plus que 330 linguas
+developers-section-subtitle-v2 = Collectiones de datos pro RVA (Recognition Verbal Automatic) e altere contextos de TLN  (Tractamento del Lingua Natural) - create per participation de communitates.
 # icon is an arrow that points to the right
 explore-datasets = Explorar collectiones de datos <icon></icon>
 

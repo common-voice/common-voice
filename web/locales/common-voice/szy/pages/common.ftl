@@ -11,9 +11,6 @@ ace = Acehnese
 ady = Adyghe (West Circassian)
 szy = Sakizaya
 
-# [/]
-
-
 ## Layout
 
 profile = ngangan nu udip

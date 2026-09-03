@@ -208,9 +208,6 @@ zh-TW = Xineexi (Tayiwani)
 zu = Sulu
 zza = Sasa
 
-# [/]
-
-
 ## Layout
 
 profile = ePerefile

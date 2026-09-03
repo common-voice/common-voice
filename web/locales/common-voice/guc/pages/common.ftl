@@ -201,9 +201,6 @@ zh-TW = Chino (Taiwán)
 zu = Zulu
 zza = Zaza
 
-# [/]
-
-
 ## Layout
 
 profile = Ka’yataayakuwa’ipakalü

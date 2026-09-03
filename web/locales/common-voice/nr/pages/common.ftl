@@ -177,9 +177,6 @@ zh-HK = IsiChinese (Hong Kong)
 zh-TW = IsiChinese (Taiwan)
 zu = IsiZulu
 
-# [/]
-
-
 ## Layout
 
 profile = Iphrofayili

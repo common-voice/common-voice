@@ -6,6 +6,3 @@
 
 aa = Afar
 tar = Rarámuri
-
-# [/]
-

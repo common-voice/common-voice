@@ -18,6 +18,3 @@ pl = Polakozugun
 pt = Portugalzugun
 ru = Rusiazugun
 sv-SE = Suesiazugun
-
-# [/]
-

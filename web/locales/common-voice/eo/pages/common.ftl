@@ -420,9 +420,6 @@ zoc = Copainalá Zoque
 zu = Zulua
 zza = Zaza
 
-# [/]
-
-
 ## Layout
 
 profile = Profilo

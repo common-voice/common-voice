@@ -142,9 +142,6 @@ zh-CN = Cinanci (Sin)
 zh-HK = Yaren chananci (Hong Kong)
 zh-TW = Yaren chananci (Taiwan)
 
-# [/]
-
-
 ## Layout
 
 profile = Bayananka

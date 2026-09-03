@@ -170,9 +170,6 @@ zh-CN = mandarin (China)
 zh-HK = mandarin (Hong Kong)
 zh-TW = mandarin (Taiwan)
 
-# [/]
-
-
 ## Layout
 
 profile = Perfil

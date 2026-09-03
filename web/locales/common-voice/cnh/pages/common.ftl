@@ -123,9 +123,6 @@ zh-CN = Tuluk holh
 zh-HK = Tuluk holh (Hong Kong)
 zh-TW = Tuluk holh (Taiwan)
 
-# [/]
-
-
 ## Layout
 
 profile = Nangmah Kong

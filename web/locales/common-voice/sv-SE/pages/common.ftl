@@ -448,9 +448,6 @@ zoc = Copainalá Zoque
 zu = Zulu
 zza = { "" }
 
-# [/]
-
-
 ## Layout
 
 profile = Profil
@@ -529,6 +526,11 @@ announcement-pre-release = Kära community, lanseringstiden närmar sig. Vänlig
 
 # Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
 announcement-release-commencing = Kära community, vi har nått sista datum för lanseringen och vi bygger nu datamängderna. Den nya versionen kommer att finnas tillgänglig på <mdcLink>Mozilla Data Collective</mdcLink> om ett par dagar.
+
+## Downtime Announcements
+
+# Generic scheduled downtime for next Sunday early hours
+announcement-scheduled-downtime = Bästa community, för att optimera våra system schemalägger vi korta driftstopp, vanligtvis inom några timmar. Nästa driftstopp inträffar i början av söndagen. Kontakta oss på Matrix om du stöter på problem.
 
 ## Common Language/Dataset Selector & SearchBox Related
 

@@ -209,9 +209,6 @@ zh-TW = Dhochaina  miwacho Taiwan
 zu = Dhozulu
 zza = Dhozaza
 
-# [/]
-
-
 ## Layout
 
 profile = Picha

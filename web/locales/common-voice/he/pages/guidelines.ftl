@@ -78,7 +78,7 @@ citing-sentences-explanation-1 = חשוב לכלול ציטוטים למקורו
 citing-sentences-subheader-websites = אתרי אינטרנט
 citing-sentences-subheader-websites-explanation = ניתן לכלול את הכתובת, למשל "קול משותף - https://commonvoice.mozilla.org/"
 citing-sentences-subheader-academic-reference = ציטוט למקור אקדמי
-citing-sentences-subheader-academic-reference-explanation = ניתן להשתמש בסגנון הפניה אקדמי, למשל בסגנון הרווארד "Mozilla (2021) Common Voice. זמין בכתובת https://commonvoice.mozilla.org/ (גישה: 15 בספטמבר 2021)"
+citing-sentences-subheader-academic-reference-explanation = ניתן להשתמש בסגנון הפניה אקדמי, למשל בסגנון הרווארד "מוזילה (2021) Common Voice. זמין בכתובת https://commonvoice.mozilla.org/ (גישה: 15 בספטמבר 2021)"
 citing-sentences-subheader-offline-sources = מקורות לא-מקוונים
 citing-sentences-subheader-offline-sources-explanation = עבור טקסט המצוי בנחלת הכלל שאינו זמין באופן מקוון, תוכלו להשתמש בסגנון הפניה אקדמי, למשל בסגנון הרווארד, "ישראל ישראלי (2021) מיטב שיריו הציבוריים"
 citation =
@@ -168,7 +168,28 @@ transcribe-the-audio-subheader-1-explanation-example-4 = דקדוק שונה מ�
 transcribe-the-audio-subheader-2-explanation-1 = מספרים וסימנים צריכים להיות רשומים כמילים שלמות, במקום להשתמש בסימני מספר או תוים מיוחדים. לדוגמא:
 transcribe-the-audio-subheader-2-explanation-2 = יש לרשום ראשי תיבות כפי שהם רשומים בדרך-כלל בשפה, ולא להרחיבם. למשל:
 # text wrapped in correct will be shown as green text in the UI
-transcribe-the-audio-subheader-2-example-1-correct = <correct>נכון</correct>: המרחק של זה מכאן הוא מאה קילומטר
+transcribe-the-audio-subheader-2-example-1-correct = <correct>נכון</correct>: המרחק של זה מכאן הוא <underline>מאה</underline> קילומטר
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <wrong>לא נכון</wrong>: המרחק של זה מכאן הוא <underline>100</underline> קילומטר
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correct>נכון</correct>: נתראה ב<underline>אלפיים וחמש-עשרה</underline>
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>לא נכון</wrong>: נתראה ב-<underline>2015</underline>
+transcribe-the-audio-subheader-2-example-3-correct = <correct>נכון</correct>: זה היה בהנחה של <underline>עשרים אחוז</underline>
+transcribe-the-audio-subheader-2-example-3-wrong = <correct>נכון</correct>: זה היה בהנחה של <underline>20%</underline>
+transcribe-the-audio-subheader-2-example-4-correct = <correct>נכון</correct>: הם נעצרו על ידי <underline>השב"כ</underline> ביום חמישי האחרון
+transcribe-the-audio-subheader-2-example-4-wrong = <wrong>לא נכון</wrong>: הם נעצרו על ידי <underline>שירות הבטחון הכללי</underline> ביום חמישי האחרון
+transcribe-the-audio-subheader-3-explanation = יש להשתמש בתגיות המיוחדות הבאות כדי לסמן הפרעה בשטף, מילות מילוי וסוגים אחרים של תוכן לא מילולי.
+tags-table-header-1 = תגית
+tags-table-header-2 = משמעות
+tags-laugh = צחוק
+tags-disfluency = הפרעה-בשטף
+tags-unclear = לא-ברור
+tags-noise = רעש
+tags-laugh-explanation = צלילים של צחוק
+tags-disfluency-explanation =
+    מילת מילוי או צליל המשמשים כממלא מקום בזמן שדובר מחליט מה לומר.
+    בעברית, כמה צלילי היסוס נפוצים הם "אממ", "אהה" וכו'.
 tags-unclear-explanation = מילה או רצף מילים שאי אפשר להבין.
 tags-noise-explanation = כל סוג אחר של רעש, כמו כאשר הדוברים מכחכחים בגרונם, משתעלים, רכב צופר, קול של משהו נוגע במיקרופון, טלפון רוטט וכיוצא-בזה.
 # Note: do not translate any tag, like [noise] or [laugh]
@@ -282,6 +303,7 @@ code-switching-cleanup-1 = אל תתרגמו או תנסחו מחדש – רשמ
 code-switching-cleanup-2 = אל "תתקנו" דקדוק או הגייה – שמרו על המשלב הטבעי של הדוברים.
 code-switching-cleanup-3 = אל תדלגו על החלפות קוד שנראות קטנות או חסרי חשיבות - אפילו מילים שאולות חשובות.
 code-switching-cleanup-4 = אל תוסיפו סימני פיסוק שעשויים לשנות את המשמעות – שמרו על הזרימה הטבעית.
+code-switching-cleanup-5 = אל תניחו שאתם יודעים את השפה של כל מילה - תייגו בהתבסס על שימוש.
 # Tagging
 code-switching-tagging-subheader = דיווח
 code-switching-tagging-error-intro = אם התמלול מכיל שגיאה, השתמשו בפונקציית הדיווח כדי לציין זאת. שגיאות אפשריות כוללות:
@@ -292,5 +314,6 @@ code-switching-tagging-error-3 = איות שגוי
 code-switching-orthography-header = שימוש באיות תקין לכל שפה
 code-switching-orthography-explanation = כתבו כל מילה לפי האיות של השפה שממנה היא מגיעה. לדוגמה:
 code-switching-orthography-explanation-example-1 = אם המילה "gym" מבוטאת כמו באנגלית, יש לכתוב אותה כמו באנגלית, ולא כ-"ג'ים".
+code-switching-orthography-explanation-example-2 = אם הביטוי "נובי גוד" נהגה כחלק משטף ברוסית, שקלו לכתוב אותו במקור הרוסי Новый Год.
 # Use Pronunciation to Help Determine the Language
 code-switching-pronunciation-header = השתמש בהגייה כדי לעזור לקבוע איזו שפה מדוברת

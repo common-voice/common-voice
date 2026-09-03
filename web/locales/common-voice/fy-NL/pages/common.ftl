@@ -448,9 +448,6 @@ zoc = Copainalá Zoque
 zu = Zoeloe
 zza = Zazaki
 
-# [/]
-
-
 ## Layout
 
 profile = Profyl

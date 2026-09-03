@@ -414,9 +414,6 @@ zoc = zoque de Copainalá
 zu = zulu
 zza = zaza
 
-# [/]
-
-
 ## Layout
 
 profile = Perfil

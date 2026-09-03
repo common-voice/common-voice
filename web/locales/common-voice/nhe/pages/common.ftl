@@ -193,9 +193,6 @@ zh-TW = Chino(Taiwan)
 zu = Zulú
 zza = Zazo
 
-# [/]
-
-
 ## Layout
 
 profile = Perfil

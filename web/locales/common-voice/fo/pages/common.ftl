@@ -65,9 +65,6 @@ zh-CN = Kinesiskt (Kina)
 zh-HK = Kinesiskt (Hong Kong)
 zh-TW = Kinesiskt (Taivan)
 
-# [/]
-
-
 ## Layout
 
 profile = Profilur

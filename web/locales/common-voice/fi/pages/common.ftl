@@ -140,9 +140,6 @@ zh-CN = kiina (Kiina)
 zh-HK = kiina (Hong Kong)
 zh-TW = kiina (Taiwan)
 
-# [/]
-
-
 ## Layout
 
 profile = Profiili

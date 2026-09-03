@@ -159,9 +159,6 @@ zh-CN = Ásụ̀sụ́ Chàị̀níìsì (Cháị́nà)
 zh-HK = Ásụ̀sụ́ Chàị̀níìsì (Họ̀n̄kọ́n̄gụ̀)
 zh-TW = Ásụ̀sụ́ Chàị̀níìsì (Tàị̀wáànụ̀)
 
-# [/]
-
-
 ## Layout
 
 profile = Ǹjììmárá-ónyé (Profile)

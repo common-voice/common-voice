@@ -38,7 +38,9 @@ about-no-votes-text = Mgbe ojieme jụrụ mkpụrụ ndekọ olu ọ laghachi n
 about-dataset-new = Ntọala Data Common Voice
 about-dataset-new-text = Ntọala Data Common Voice nwere ọtụtụ narị nke puku nke ngosi olu nke na-enyere ndị developa aka wulite ngwaọrụ e ji a mata olu.
 about-clip-graveyard = Grevyaadi Klip
-about-clip-graveyard-text = Grevyaadi Klip
+about-clip-graveyard-text =
+    Clip Graveyard nwere ndekọ mkpụrụ olu ndị na-abanyeghị na ntọala data Common Voice. Dịka ntọala data ahụ, e nwere Clip Graveyard maka mbudata.
+    Anyị nwere mmasị ikele mmadụ ndị a na òtù ndị a maka enyemaka ha na ọrụ a:
 about-get-involved = Sònyé
 about-get-involved-text-2 = Chọrọ inye aka ime Common Voice ka ọ dịwanye mma?
 about-stay-in-touch = Kedu ka m ga-esi enwe mmetụta?
@@ -110,7 +112,29 @@ about-playbook-how-record-content-5 = <<accuracyLink>hụ ihe ndị ọzọ gbas
 ## How to grow language
 
 about-playbook-how-grow-language = Kedu ka anyị ga-esi mee ka asụsụ too na Common Voice siriri werere?
+about-playbook-how-grow-language-content-1 = Kepụta ohere nyere mmadụ dị iche iche ịtụnye ụtụ na Common Voice iji hụ na ntọala data na-arụ ọrụ nyere ọtụtụ ndị mmadụ ka o nwere ike! Anyị ekepụtala njieme ihe na ihe nduzi Ị ga-ejinwu mee ihe!
+about-playbook-how-grow-language-content-2 = Ihe omume
+about-playbook-how-grow-language-content-3 = Ị ga-ahazinwu ihe omume inyere ndị mmadụ aka tụnye ụtụ. Ọ dị mfe karịa ka i che. Ị ga-emenwu ya n'ị́ntánet site n'iji akụrụngwa nzukọ vidio, ma ọ bụ ihu na ihu ọ bụrụ na udo ga-adị.<eventTemplate>Lelee íhé nduzi na njieme ihe anyị maka ịhazi ihe omume </eventTemplate>.
+about-playbook-how-grow-language-content-4 = Soshul midia
+about-playbook-how-grow-language-content-5 = Ị ga-ejinwu ntọala soshul midia zipụ ya bụ ozi. Kesaa ozi na-akọwa ihe mere o jiri dị mkpa, ma kpọturukwa mmadụ ndị ọzọ na-ekwu ihe dịka ikike asụsụ, AI olu, ma ọ bụ mmasị ezighị ezi dị na tek. Lee ndụmọdụ ndị ọzọ <campaignLink> n'iji mee mkpọsa ozi soshul, na ndịnaya i nwere ike iji mee ihe ọzọ</campaignLink>
+about-playbook-how-grow-language-content-6 = Nrụkọrịta na njikọ
+about-playbook-how-grow-language-content-7 = Chọta ndị ọzọ nwere mmasị. Nke ahụ nwere ike ịbụ mahadum, ụlọ akwụkwọ asụsụ, ótù ndị nkwuchite ma ọ bụ ọgbakọ ndị ọrụ sayensị data. Kpọtụrụ ha ma kọwaa nke ọma otu ha ga-esi nye aka na ihe kpatara ya. <outreachTemplates>Lee ndebiri ímèèlụ̀ anyị na-ezigara ndị mmadụ</outreachTemplates>.
+about-playbook-how-grow-language-content-8-v2 = <strong>Mee ihe ọhụrụ!</strong> ọgbakọ ọrụ asụsụ gị ga-adị iche, ndị a bụkwa naanị ụzọ ole na ole iji malite. Biko tụlee itinye ọwa ọgbakọ ọrụ gị na <communitiesLink> akwụkwọ COMMUNITIES.md na GitHub</communitiesLink>.
+
+## How to validate
+
+about-playbook-how-validate = Kedu ka m ga-esi mara ma a ga-akwado ndekọ mkpụrụ olu?
+about-playbook-how-validate-content-1 = Ọ bụrụ na ị nwere ike <strong>nụ ha<strong>ma<strong>ghọta ha</strong>, ọ na-adịkari<strong>mmá ịkwado</strong>
+about-playbook-how-validate-content-2 = <strong>Ajụla mkpụrụ ndekọ ebe onye na-ekwu okwu 'nwere ngweolu' dị iche na nke gị</strong> - nke a dị mkpa ka njirimara olu rụọ ọrụ nke ọma maka onye ọ bụla.
+about-playbook-how-validate-content-3 = Ọ bụrụ na ị chere na mkpọpụta mere<strong>ka ọ ghara ikwe nghọta</strong>, ma ọ bụ e nwere<strong>ọtụtụ mkpọtụ n'azụ</strong>, ma ọ bụ e nwere<strong>ndị ọzọ na-ekwukwa okwu</strong>, oge ahụ jụ nkwado mkpụrụ ndekọ ahụ. <accuracyLink>Lee ozi ọzọ na njirisi izi ezi anyị</accuracyLink>.
+about-playbook-how-validate-content-4 = Ọ bụrụ na mmadụ abụọ ajụ clip, a ga-ewepụta ya na nkebi obere dị iche nke ntọala data ahụ.
 
 ## How to access dataset
 
 about-playbook-how-access-dataset = Kedu ka m ga-esi enweta ma jiri ntọala data rụọ ọrụ?
+about-playbook-how-access-dataset-content-1 = I nwere ike ịga na peeji <datasetsPage>ntọala data</datasetsPage>, họrọ ụdị na asụsụ ị chọrọ, wee budata ya! Faịlụ ndị ahụ nwere<metadataLink>metadata jikọtara ya</metadataLink>, dịka ozi gbasara ndị mmadụ na nkwenabata data. Ị ga-achọ inye adreesị ímèèlụ̀ iji budata ntọala data.
+about-playbook-how-access-dataset-content-2 = Ọ bụrụ na ị na-achọ ngwaọrụ iji wuo ụdị ASR, gị na ndị ọzọ n'ọgbakọ ndị ọrụ nwere ike jikọta <discourseLink>na Discourse</discourseLink>.
+
+## How are decisions made
+
+about-playbook-how-project-governance = Kedu otu e si eme mkpebi ọrụ?

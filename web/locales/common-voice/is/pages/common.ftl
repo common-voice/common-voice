@@ -209,9 +209,6 @@ zh-TW = Kínverska (Taívan)
 zu = Súlú
 zza = Zaza
 
-# [/]
-
-
 ## Layout
 
 profile = Notkunarsnið

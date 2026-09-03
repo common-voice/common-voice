@@ -209,9 +209,6 @@ zh-TW = kutit ab Chinese chebo Taiwan
 zu = kutit ab  Zulu
 zza = kutit ab Zaza
 
-# [/]
-
-
 ## Layout
 
 profile = kegereet

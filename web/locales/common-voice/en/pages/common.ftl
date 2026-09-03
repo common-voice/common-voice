@@ -528,6 +528,11 @@ announcement-pre-release = Dear community, release time is nearing. Please go va
 # Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
 announcement-release-commencing = Dear community, we reached the cutoff date for the release and we are bundling the datasets. The new release will be available on <mdcLink>Mozilla Data Collective</mdcLink> in a couple of days.
 
+## Downtime Announcements
+
+# Generic scheduled downtime for next Sunday early hours
+announcement-scheduled-downtime = Dear community, to optimize our systems, we schedule short downtime periods, usually completed within a few hours. The next downtime period will occur early this Sunday. Reach out to us on Matrix if you encounter a problem.
+
 ## Common Language/Dataset Selector & SearchBox Related
 
 # Generic search box defaults

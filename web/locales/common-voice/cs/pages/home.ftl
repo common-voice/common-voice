@@ -162,6 +162,8 @@ download-press-pack = Stáhněte si náš novinářský balíček <icon></icon>
 
 ## Developers section
 
+developers-section-title-202608 = Veřejně přístupné otevřené řečové datasety ve více než 330 jazycích
+developers-section-subtitle-v2 = Datasety pro ASR a další NLP kontexty - vytvořené za účasti komunity.
 # icon is an arrow that points to the right
 explore-datasets = Prozkoumejte datasety <icon></icon>
 

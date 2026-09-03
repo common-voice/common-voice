@@ -448,9 +448,6 @@ zoc = Copainalá Zoque
 zu = Zulu
 zza = Zazaisk
 
-# [/]
-
-
 ## Layout
 
 profile = Profil

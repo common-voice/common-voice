@@ -209,9 +209,6 @@ zh-TW = Shiina af (Taywaan)
 zu = Zuulu
 zza = Zaza
 
-# [/]
-
-
 ## Layout
 
 profile = Weelayso

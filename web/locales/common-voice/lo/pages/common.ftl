@@ -443,9 +443,6 @@ zoc = Copainalá Zoque
 zu = ພາສາຊູລູ
 zza = Zaza
 
-# [/]
-
-
 ## Layout
 
 profile = ໂປ​ຣ​ໄຟ​ລ

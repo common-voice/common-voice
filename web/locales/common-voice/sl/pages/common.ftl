@@ -203,9 +203,6 @@ zh-HK = kitajščina (Hong Kong)
 zh-TW = kitajščina (Tajvan)
 zu = zulujščina
 
-# [/]
-
-
 ## Layout
 
 profile = Profil

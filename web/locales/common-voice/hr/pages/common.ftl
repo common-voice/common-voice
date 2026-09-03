@@ -259,9 +259,6 @@ zh-TW = Kineski (Tajvan)
 zu = Zulu
 zza = Zaza
 
-# [/]
-
-
 ## Layout
 
 profile = Profil

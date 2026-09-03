@@ -402,9 +402,6 @@ zoc = Copainalá Zoque
 zu = Sulu
 zza = Sasa
 
-# [/]
-
-
 ## Layout
 
 profile = Melokaan (Profil)

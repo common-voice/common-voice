@@ -123,9 +123,6 @@ zh-CN = Ċiniż (Ċina)
 zh-HK = Ċiniż (Hong Kong)
 zh-TW = Ċiniż (Tajwan)
 
-# [/]
-
-
 ## Layout
 
 profile = Profil

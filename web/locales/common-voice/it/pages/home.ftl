@@ -157,6 +157,8 @@ download-press-pack = Scarica il nostro pacchetto stampa <icon></icon>
 
 ## Developers section
 
+developers-section-title-202608 = Dataset aperto di dati vocali pubblicamente accessibili in oltre 330 lingue
+developers-section-subtitle-v2 = Dataset per ASR e altri contesti NLP, creati grazie alla partecipazione della comunità.
 # icon is an arrow that points to the right
 explore-datasets = Esplora i dataset <icon></icon>
 

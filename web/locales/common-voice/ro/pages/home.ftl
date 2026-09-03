@@ -162,6 +162,8 @@ download-press-pack = Descarcă dosarul nostru pentru presă <icon></icon>
 
 ## Developers section
 
+developers-section-title-202608 = Seturi de date vocale cu acces deschis publicului în peste 330 de limbi
+developers-section-subtitle-v2 = Seturi de date pentru ASR și alte contexte NLP - create prin participarea comunității.
 # icon is an arrow that points to the right
 explore-datasets = Explorează seturile de date <icon></icon>
 

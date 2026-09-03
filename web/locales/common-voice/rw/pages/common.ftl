@@ -96,9 +96,6 @@ zh-CN = Igishinwa (cyo mu Bushinwa)
 zh-HK = Igishinwa (cyo muri Hongukongo)
 zh-TW = Igishinwa (cyo muri Tayiwani)
 
-# [/]
-
-
 ## Layout
 
 profile = Isura ndanga

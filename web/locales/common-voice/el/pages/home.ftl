@@ -81,7 +81,6 @@ review-questions = Έλεγχος ερωτήσεων
 transcribe-audio = Μεταγραφή ήχου <small>(Προσεχώς)</small>
 press-and-stories = Τύπος και άρθρα
 community-and-languages = Κοινότητα και γλώσσες
-coming-soon = Προσεχώς
 about-us = Σχετικά με εμάς
 scripted-speech = ΟΜΙΛΙΑ ΜΕ ΣΕΝΑΡΙΟ
 spontaneous-speech = ΑΥΘΟΡΜΗΤΗ ΟΜΙΛΙΑ
@@ -159,6 +158,8 @@ download-press-pack = Λήψη πακέτου τύπου <icon></icon>
 
 ## Developers section
 
+developers-section-title-202608 = Δημοσίως προσβάσιμα και ανοικτά σύνολα δεδομένων ομιλίας σε 330+ γλώσσες
+developers-section-subtitle-v2 = Σύνολα δεδομένων, φτιαγμένα με τη συμμετοχή της κοινότητας, για ASR και άλλες περιπτώσεις χρήσης NLP.
 # icon is an arrow that points to the right
 explore-datasets = Εξερεύνηση συνόλων δεδομένων <icon></icon>
 

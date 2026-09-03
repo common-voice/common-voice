@@ -162,6 +162,8 @@ download-press-pack = Скачайте наш пресс-пакет <icon></icon
 
 ## Developers section
 
+developers-section-title-202608 = Публично доступные датасеты на 330+ языках.
+developers-section-subtitle-v2 = Датасеты для ASR, STT, TTS, и других контекстов NLP, созданные при участии сообщества.
 # icon is an arrow that points to the right
 explore-datasets = Просмотрите наборы данных <icon></icon>
 

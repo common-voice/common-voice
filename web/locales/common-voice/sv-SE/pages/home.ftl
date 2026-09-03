@@ -84,7 +84,6 @@ review-questions = Granska frågor
 transcribe-audio = Transkribera ljud
 press-and-stories = Press och berättelser
 community-and-languages = Gemenskap och språk
-coming-soon = Kommer snart
 about-us = Om oss
 scripted-speech = SKRIVET TAL
 spontaneous-speech = SPONTANT TAL
@@ -162,7 +161,7 @@ download-press-pack = Ladda ner vårt presspaket <icon></icon>
 
 ## Developers section
 
-developers-section-title-202608 = Allmänt tillgängliga öppna datamängder för tal på över 330 språk
+developers-section-title-202608 = Offentligt tillgängliga öppna taldatamängder på över 330 språk
 developers-section-subtitle-v2 = Datamängder för ASR och andra NLP-kontexter - skapad genom communitydeltagande.
 # icon is an arrow that points to the right
 explore-datasets = Utforska datamängder <icon></icon>

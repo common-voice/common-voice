@@ -194,9 +194,6 @@ zh-TW = ଚାଇନିଜ (ତାଇୱାନ)
 zu = ଜୁଲୁ
 zza = Zaza
 
-# [/]
-
-
 ## Layout
 
 profile = ପ୍ରୋଫାଇଲ

@@ -181,9 +181,6 @@ zh-TW = 中文（臺灣）
 zu = 祖魯話
 zza = 扎扎文
 
-# [/]
-
-
 ## Layout
 
 profile = 個人檔案

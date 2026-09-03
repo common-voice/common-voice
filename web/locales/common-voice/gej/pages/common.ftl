@@ -18,6 +18,3 @@ ar = arabiagbè
 arn = mapusigbe
 as = asamgbe
 ast = asturigbe
-
-# [/]
-

@@ -189,9 +189,6 @@ zh-TW = Sinuwaw (Hong Kong) .
 zu = Zulukan na
 zza = Zulukan na
 
-# [/]
-
-
 ## Layout
 
 profile = Porofili

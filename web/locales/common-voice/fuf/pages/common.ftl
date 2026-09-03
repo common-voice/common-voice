@@ -198,9 +198,6 @@ zh-TW = Chinese (Taiwan)
 zu = Zulu
 zza = Zaza
 
-# [/]
-
-
 ## Layout
 
 profile = Heftinirde
