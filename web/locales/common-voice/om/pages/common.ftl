@@ -441,9 +441,6 @@ zoc = Afaan Copainalá Zoque
 zu = Afaan Zuuluu
 zza = Afaan Zaazaa
 
-# [/]
-
-
 ## Layout
 
 profile = Piroofaalii

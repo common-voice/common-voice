@@ -319,9 +319,6 @@ zh-TW = 汉语（台湾地区）
 zu = 祖鲁语
 zza = 扎扎语
 
-# [/]
-
-
 ## Layout
 
 profile = 用户资料

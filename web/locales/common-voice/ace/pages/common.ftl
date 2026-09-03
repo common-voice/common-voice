@@ -165,9 +165,6 @@ zh-CN = Bahsa Cina (Cina)
 zh-HK = Bahsa Cina (Hong Kong)
 zh-TW = Bahsa Cina (Taiwan)
 
-# [/]
-
-
 ## Layout
 
 profile = Profil

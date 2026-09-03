@@ -165,6 +165,8 @@ download-press-pack = Ześěgniśo naše casnikaŕske pódłožki <icon></icon>
 
 ## Developers section
 
+developers-section-title-202608 = Zjawnje pśistupne wótwórjone powědańske datowe sajźby we wěcej ako 330 rěcach
+developers-section-subtitle-v2 = Datowe sajźby za ASR a druge konteksty NLP – napórane pśez sobuźěło zgromaźeństwa.
 # icon is an arrow that points to the right
 explore-datasets = Datowe sajźby wuslěźiś <icon></icon>
 

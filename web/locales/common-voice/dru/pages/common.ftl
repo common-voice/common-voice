@@ -6,9 +6,6 @@
 
 dru = Drekay
 
-# [/]
-
-
 ## Layout
 
 terms = hulrice

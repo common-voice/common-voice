@@ -6,9 +6,6 @@
 
 ncx = Nahuat
 
-# [/]
-
-
 ## Donate banner
 
 # Text wrapped in <strong></strong> will be rendered on bold font

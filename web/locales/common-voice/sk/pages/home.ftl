@@ -95,7 +95,6 @@ review-questions = Kontrolujte otázky
 transcribe-audio = Prepisujte zvuk <small>(už čoskoro)</small>
 press-and-stories = Tlač a príbehy
 community-and-languages = Komunita a jazyky
-coming-soon = Už čoskoro
 about-us = O nás
 scripted-speech = SKRIPTOVANÁ REČ
 spontaneous-speech = SPONTÁNNA REČ
@@ -173,6 +172,8 @@ download-press-pack = Stiahnite si náš tlačový balík <icon></icon>
 
 ## Developers section
 
+developers-section-title-202608 = Verejne prístupné otvorené kolekcie údajov o reči vo viac ako 330 jazykoch
+developers-section-subtitle-v2 = Súbory údajov pre ASR a ďalšie kontexty NLP – vytvorené zúčastnenou komunitou.
 # icon is an arrow that points to the right
 explore-datasets = Preskúmajte kolekcie údajov <icon></icon>
 

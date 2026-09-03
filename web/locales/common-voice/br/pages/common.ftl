@@ -334,9 +334,6 @@ zoc = Zokeeg Copainalá
 zu = Zouloueg
 zza = Zazaeg
 
-# [/]
-
-
 ## Layout
 
 profile = Profil

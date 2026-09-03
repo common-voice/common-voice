@@ -448,9 +448,6 @@ zoc = Copainalá Zoque
 zu = Sulu
 zza = { "" }
 
-# [/]
-
-
 ## Layout
 
 profile = Toguetee

@@ -209,9 +209,6 @@ zh-TW = Kichina (Taiwani)
 zu = Kizulu
 zza = KIzaza
 
-# [/]
-
-
 ## Layout
 
 profile = Fwana

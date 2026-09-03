@@ -32,3 +32,46 @@ ms-MY = 바하사 말레이어
 ## Language search component
 
 language-search-no-results = 언어를 찾을 수 없음
+
+## Transcription Player - Mode Buttons
+
+# Transcription Player - Automatic Mode
+transcription-mode-auto = 자동
+# Player - slower
+player-speed-slow = 느림
+# Player - normal speed
+player-speed-normal = 보통
+# Player - faster
+player-speed-fast = 빠름
+
+## Transcription Player Controls - Keyboard Shortcuts
+
+# Player control shortcut for play/pause: pressed with Ctrl/Cmd
+player-play-pause-shortcut = p
+player-play-pause-shortcut-key = Ctrl / Cmd + P
+player-play-pause-shortcut-name = 재생 / 중지
+# Player control shortcut to go back 5 seconds: pressed with Ctrl/Cmd
+player-skip-backward-shortcut = 8
+player-skip-backward-shortcut-key = Ctrl / Cmd + 8
+player-skip-backward-shortcut-name = 뒤로
+# Player control shortcut to go forwards 5 seconds: pressed with Ctrl/Cmd
+player-skip-forward-shortcut = 9
+player-skip-forward-shortcut-key = Ctrl / Cmd + 9
+player-skip-forward-shortcut-name = 앞으로
+
+## Transcription Player - Aria Labels
+
+# Play button accessibility/aria label
+player-play-button-aria-label = 오디오 재생
+# Pause button accessibility/aria label
+player-pause-button-aria-label = 오디오 중지
+# Skip back button accessibility/aria label
+player-skip-backward-aria-label = 5초 뒤로 건너뛰기
+# Skip forward button accessibility/aria label
+player-skip-forward-aria-label = 5초 앞으로 건너뛰기
+# Slower playback speed button accessibility/aria label
+player-speed-slow-aria-label = 재생 속도 느리게
+# Normal playback speed button accessibility/aria label
+player-speed-normal-aria-label = 일반 재생 속도
+# Faster playback speed button accessibility/aria label
+player-speed-fast-aria-label = 재생 속도 빠르게

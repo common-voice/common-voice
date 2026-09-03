@@ -123,9 +123,6 @@ zh-CN = Cinexe (Cina)
 zh-HK = Cinexe (Hong Kong)
 zh-TW = Cinexe (Taiwan)
 
-# [/]
-
-
 ## Layout
 
 profile = Profiƚo

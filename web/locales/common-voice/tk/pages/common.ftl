@@ -159,9 +159,6 @@ zh-CN = Hytaýça (Hytaý)
 zh-HK = Hytaýça (Gonkong)
 zh-TW = Hytaýça (Taýwan)
 
-# [/]
-
-
 ## Layout
 
 profile = Profil

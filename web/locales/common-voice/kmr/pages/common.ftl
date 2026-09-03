@@ -427,9 +427,6 @@ zoc = Copainalá Zoque
 zu = Zulu
 zza = Kurdî (Zazakî)
 
-# [/]
-
-
 ## Layout
 
 profile = Profîl

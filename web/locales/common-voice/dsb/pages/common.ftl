@@ -448,9 +448,6 @@ zoc = Copainalá Zoque
 zu = Zulušćina, Zulu
 zza = Zaza
 
-# [/]
-
-
 ## Layout
 
 profile = Profil
@@ -529,6 +526,11 @@ announcement-pre-release = Lube zgromaźeństwo, wózjawjeński cas se bližy. P
 
 # Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
 announcement-release-commencing = Lube zgromaźeństwo, smy dojśpili póstajony datum za wózjawjenje a zjadnośujomy datowe sajźby. Nowe wózjawjenje buźo na <mdcLink>Mozilla Data Collective</mdcLink> za pór dnjow k dispoziciji.
+
+## Downtime Announcements
+
+# Generic scheduled downtime for next Sunday early hours
+announcement-scheduled-downtime = Lube zgromaźeństwo, aby swóje systemy optiměrowali, planujomy krotke wupadne case, kótarež zwětšego mało góźinow traju. Pśiducy wupadny cas buźo toś tu njeźelu rano. Stajśo se z nami na Matrix do zwiska, jolic problem maśo.
 
 ## Common Language/Dataset Selector & SearchBox Related
 

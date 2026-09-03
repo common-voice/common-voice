@@ -17,7 +17,7 @@ arn = מפודונגון
 as = אסאמית
 ast = אסטורית
 az = אזרית
-azz = נהואטל (הרי ‏צפון פואבלה)‏
+azz = נָאווַאטְל של הרי ‏צפון פואבלה‏
 ba = בשקירית
 bal = בלוצ'ית
 bas = באסאאית
@@ -153,12 +153,15 @@ my = בורמזית
 myv = ארזיה
 nan-tw = טייוואנית (מינן)
 nb-NO = נורווגית ספרותית
+ncx = נָאווַאטְל של מרכז פואבלה
 nd = נדבלה צפונית
 ne-NP = נפאלית
-nhe = נאוואטל אואסטקה מזרחית
+new = נווארית
+nhe = נָאווַאטְל של אואסטקה המזרחית
 nhi = נָאווַאטְל של הסיירה המערבית של פואבלה
 nia = ניאס
 nl = הולנדית
+nlv = נָאווַאטְל אוריסאבית
 nn-NO = נורווגית חדשה
 nnh = נגיאמבון
 nqo = נ'קו
@@ -172,14 +175,28 @@ or = אורייה
 os = אוסטית
 pa-IN = פנג׳אבי
 pap-AW = פפיאמנטו (ארובה)
+pcd = פיקארדית
 pcm = פידג'ין ניגרי
 pl = פולנית
 ps = פשטו
 pt = פורטוגלית
 quc = קיצ'ה
+qup = קצ'ואה (דרום פסטסה)
+qur = קצ'ואה (יאנאוואנקה)
+qus = קצ'ואה (סנטיאגו דל אסטרו)
+qux = קצ'ואה (יאויוס)
 quy = צ'אנקה-קצ'ואה
+qva = קצ'ואה (אמבו-פסקו)
 qvi = קיצ'ואה
+qvj = קיצ'ואה של רמות לוחה
+qvl = קצ'ואה (קחאטמבו)
+qwa = קצ'ואה (קורונגו, אנקש)
+qws = קצ'ואה (סיוואס, אנקש)
+qxa = קצ'ואה (צ׳יקיאן)
 qxp = קצ'ואה (פונו)
+qxt = קצ'ואה (סנטה אנה דה טוסי, פסקו)
+qxu = קצ'ואה (ארקיפה-לה אוניון)
+qxw = קצ'ואה (חאוחה-וואנקה)
 rif = טאריפִיט
 rm-sursilv = רומאנש סורסילבן
 rm-vallader = רומאנס וואלאדר
@@ -252,9 +269,6 @@ zh-TW = סינית (טאיוואן)
 zu = זולו
 zza = זאזא
 
-# [/]
-
-
 ## Layout
 
 profile = פרופיל
@@ -271,7 +285,7 @@ link-copied = קישור הועתק
 back-top = חזרה למעלה
 logout = התנתקות
 donate = תרומה כספית
-stayintouch = אנו ב־Mozilla בונים קהילה סביב טכנולוגיות קול. נשמח להישאר איתך בקשר ולעניין אותך בעדכונים, מקורות נתונים חדשים ולשמוע עוד על אופן השימוש שלך בנתונים האלה.
+stayintouch = אנו במוזילה בונים קהילה סביב טכנולוגיות קול. נשמח להישאר איתך בקשר ולעניין אותך בעדכונים, מקורות נתונים חדשים ולשמוע עוד על אופן השימוש שלך בנתונים האלה.
 privacy-info = אנו מבטיחים לטפל במידע שלכם במלוא הזהירות. ניתן לקרוא עוד ב<privacyLink>מדיניות הפרטיות</privacyLink> שלנו.
 return-to-cv = חזרה אל Common Voice
 email-input =
@@ -280,7 +294,7 @@ loading = בטעינה…
 email-opt-in-info = ברצוני לקבל הודעות בדוא"ל כגון תזכורות על יעדים, עדכונים על ההתקדמות שלי ומבזקי חדשות על Common Voice.
 email-opt-in-info-title = הצטרפות לרשימת הדיוור של Common Voice
 email-opt-in-info-sub-with-challenge = קבלת הודעות בדוא"ל כגון תזכורות על אתגרים ויעדים, עדכונים על התקדמות ומבזקי חדשות על Common Voice.
-email-opt-in-privacy-v2 = בחירה בקבלת הודעות דוא"ל מביעה את הסכמתכם ש־Mozilla תטפל במידע זה כפי שמוסבר ב<privacyLink>מדיניות הפרטיות</privacyLink> של Mozilla.
+email-opt-in-privacy-v2 = בחירה בקבלת הודעות דוא"ל מביעה את הסכמתכם שמוזילה תטפל במידע זה כפי שמוסבר ב<privacyLink>מדיניות הפרטיות</privacyLink> של מוזילה.
 indicates-required = * מסמן שדה נחוץ
 not-available-abbreviation = לא רלוונטי
 
@@ -295,3 +309,44 @@ languages-donate-banner-cta = <mark>משתמשים ב-CV</mark><br/><mark>במח
 languages-donate-banner-cta-explanation = מיזם Common Voice ממומן באמצעות תרומות ומענקים! אנחנו אוהבים שיתופי פעולה עם חוקרים אקדמאיים, מהתעשייה ושל חברה אזרחית. Common Voice הינו חינם לשימוש, אך תרומה לעלויות אחזקת המערכת ואחסון הנתונים דרך בקשות למענקים תעזור מאוד.
 localization-select =
     .label = בחירה בשפה/תרגום
+
+## MDC Announcement
+
+# Main text for MDC announcement. Text wrapped in <strong></strong> will be rendered with bold font
+announcement-mdc-text = <strong>מערכי נתונים חדשים של Common Voice</strong> זמינים כעת להורדה באופן בלעדי דרך המערכת האחרת שלנו, Data Collective של מוזילה. הצטרפו על-מנת לגשת ליותר מ-300 מערכי נתונים גלובליים, שנבנו על-ידי ועבור הקהילה.
+# Button text for MDC announcement
+announcement-mdc-button-text = הצטרפו ל-Data Collective של מוזילה
+
+## Release Delay Announcement
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-delay = קהילה יקרה, אנו עובדים כעת על שחרור הגרסה. אנו מצפים שהיא תפורסם בחלקים בימים הקרובים ב-<mdcLink>Data Collective של מוזילה</mdcLink>.
+
+## Release Announcement
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release = קהילה יקרה, הגרסה החדשה נמצאת כעת במלואה ב-<mdcLink>Data Collective של מוזילה</mdcLink>. הצטרפו על-מנת לגשת ליותר מ-500 מערכי נתונים גלובליים, שנבנו על ידי ועבור הקהילה.
+
+## Pre-Release Announcement (dates TBD)
+
+# Text wrapped in <cvDatasheetsLink></cvDatasheetsLink> will be rendered as an external link to the cv-datasheets GitHub repo
+announcement-pre-release = קהילה יקרה, זמן שחרור הגרסה קרב. אנא לכו לאמת ולתמלל, וגם בקרו ב-<cvDatasheetsLink>cv-datasheets</cvDatasheetsLink> כדי לעדכן את גיליון הנתונים שלכם.
+
+## Release Commencing
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-commencing = קהילה יקרה, הגענו לתאריך היעד לשחרור הגרסה ואנחנו מאחדים את מערכי הנתונים. הגרסה החדשה תהיה זמינה ב-<mdcLink>Data Collective של מוזילה</mdcLink> בעוד מספר ימים.
+
+## Common Language/Dataset Selector & SearchBox Related
+
+# Generic search box defaults
+searchbox-default-label = הקלידו כדי לחפש
+searchbox-default-placeholder = חיפוש…
+searchbox-default-aria-label = חיפוש
+dropdown-no-results = לא נמצאו תוצאות
+# Common Voice Dataset=Language search box
+dataset-searchbox-label = משנה הן את שפת התצוגה והן את שפת מערך הנתונים
+dataset-searchbox-placeholder = חיפוש שפה…
+dataset-searchbox-aria-label = חיפוש שפה
+dataset-search-no-results = לא נמצאו שפות
+request-new-language = בקשת שפה חדשה

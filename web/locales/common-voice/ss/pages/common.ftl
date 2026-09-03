@@ -185,9 +185,6 @@ zh-HK = Chinese (Hong Kong)
 zh-TW = Chinese (Taiwan)
 zu = Si-Zulu
 
-# [/]
-
-
 ## Layout
 
 profile = Likhasi lelichaza kabanti ngawe

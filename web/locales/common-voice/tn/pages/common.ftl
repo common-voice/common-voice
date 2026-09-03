@@ -177,9 +177,6 @@ zh-HK = Se-China (Hong Kong)
 zh-TW = Se-China (Taiwan)
 zu = Se-Zulu
 
-# [/]
-
-
 ## Layout
 
 profile = Porofaele

@@ -6,9 +6,6 @@
 
 bnn = Bunun
 
-# [/]
-
-
 ## Layout
 
 terms = sinqaqasam

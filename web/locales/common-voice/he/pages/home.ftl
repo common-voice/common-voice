@@ -1,7 +1,7 @@
 ## Home Page
 
-home-title = מיזם Common Voice הוא יזמה של Mozilla לטובת סיוע ללימוד מכונות איך מדברים אנשים אמיתיים.
-default-tagline = Common Voice של Mozilla היא יוזמה העוזרת ללמד מכונות איך אנשים אמתיים מדברים.
+home-title = מיזם Common Voice של מוזילה מסייע ללמד מכונות איך אנשים אמיתיים מדברים.
+default-tagline = Common Voice של מוזילה היא יוזמה העוזרת ללמד מכונות איך אנשים אמתיים מדברים.
 home-cta = דברו בקול רם, כאן ניתן לתרום!
 wall-of-text-start = קול הוא דבר טבעי, קול הוא דבר אנושי. משום כך מרתק אותנו ליצור טכנולוגיית קול עבור המכונות שלנו שתהיה שמישה. אך כדי ליצור מערכות קול, נדרשת כמות עצומה של נתוני קול.
 wall-of-text-more-mobile = רוב הנתונים בהם ארגונים גדולים משתמשים אינם זמינים לקהל הרחב. אנו חושבים שנדרשת כאן חשיבה מחדש. לכן, השקנו את מיזם Common Voice, מיזם שיסייע לפתוח את עולם הזיהוי הקולי לכולם.
@@ -45,6 +45,7 @@ x-years-short =
     }
 help-make-dataset = מזמינים אותך לבנות מערך נתונים איכותי ופתוח לציבור
 sign-up-account = יצירת חשבון
+email-subscription-title-v3 = הירשמו לעדכונים של Common Voice וקרן מוזילה
 
 ## Account Benefits
 
@@ -78,6 +79,7 @@ read-more-about = מידע נוסף בעמוד על אודותינו
 answer-questions = ענו על שאלות <small>(בקרוב)</small>
 review-transcriptions = בדיקת תמלולים <small>(בקרוב)</small>
 add-questions = הוספת שאלות <small>(בקרוב)</small>
+review-questions = סקירת שאלות
 transcribe-audio = תמלול שמע <small>(בקרוב)</small>
 press-and-stories = עיתונות וידיעות
 community-and-languages = קהילה ושפות
@@ -95,6 +97,9 @@ community-and-languages-menu-item-tooltip = גלו שפות וקהילות
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = תפריט גישה לשותפויות, עיתונות וסיפורים, קהילה ושפות
+about-us-menu-aria-label = תפריט גישה על אודות
+about-us-menu-item-aria-label = פריט בתפריט: מי אנחנו
 partnerships-menu-item-aria-label = גלו עוד על שותפיות עם Common View
 press-and-stories-menu-item-aria-label = גישה להודעות לעיתונות ולידיעות הקשורות ל-Common Voice
 community-and-languages-menu-item-aria-label = גלו עוד על הקהילה והשפות של Common Voice
@@ -105,7 +110,83 @@ hero-title = טכנולוגיה שמדברת בשפה שלך
 # Text wrapped in <bold></bold> will be shown in bold font
 hero-subtitle-1 = <bold>למה שבינה מלאכותית תעבוד רק בחלק מהשפות בעולם?</bold>
 hero-subtitle-2 = השפה שלנו היא הסיפור שלנו, הקהילה שלנו, התרבות שלנו. בואו ניצור את מערכי הנתונים שאנחנו רוצים לראות בעולם.
+# icon is an arrow that points downwards
+get-started = התחל <icon></icon>
 
 ## Action items section
 
 action-items-section-title = ‏Common Voice היא פלטפורמת קוד פתוח חינמית ליצירת נתונים בהובלת הקהילה
+action-items-section-subtitle = כולם יכולים לשמר, להחיות ולשפר את השפה שלהם על ידי שיתוף, יצירה ואוצרות של מערכי נתונים של טקסט ודיבור.
+scripted-card-header = דיבור מתוסרט
+scripted-card-content = קראו בקול משפטים בשפה שלכם, ותרמו למערך נתוני הדיבור המגוון ביותר בעולם בשיתוף פעולה ציבורי.
+spontaneous-card-header = דיבור ספונטני
+spontaneous-card-content = הגיבו להנחיות ליצירת מערכי נתונים עבור הקשרים אורגניים ודיבוריים. מושלם לשפות מדוברות.
+language-text-card-header = כתבים בשפה
+language-text-card-content = צרו או שתפו משפטים, הנחיות או טקסטים ברשות הציבור עבור תרגום, מודלים קטנים של שפה (SLM) ועוד.
+coming-soon = בקרוב
+add-text = הוספת טקסט
+answer = מתן תשובות
+
+## Community section
+
+community-section-title-202601 = מופעל על ידי קהילות גלובליות, עבור קהילות גלובליות - עם 290 שפות ובצמיחה!
+join-discord-community = הצטרפו לקהילת דיסקורד
+# label for button
+join-discord-community-action = הצטרפו אלינו בדיסקורד
+join-discord-community-content = השתתפו בדיונים בקהילת השפה, שאלו שאלות והתעדכנו אודות אירועים והרצאות קרובים.
+find-us-on-matrix = מצאו אותנו במטריקס
+find-us-on-matrix-content-v2 = מטריקס (Matrix) הוא פרוטוקול פתוח וקל משקל לתקשורת מבוזרת בזמן אמת, ופלטפורמת הדיון הפתוחה המועדפת על מוזילה. אנחנו בחדר "common-voice:mozilla.org".
+# label for button
+find-us-on-element-action-1 = אלמנט
+find-us-on-matrix-action-2 = כלים אחרים
+ask-mozilla-share = בקשו ממוזילה לשתף את האירועים שלכם
+ask-mozilla-share-content = מתכננים אירוע? או שכבר עשיתם אחד? שתפו אותו איתנו ואנחנו נעדכן אותו בקהילה שלנו או נכתוב עליו בלוג!
+# label for button
+ask-mozilla-share-action = שיתוף האירוע
+download-contribution-certificate = הורדת תעודת התרומה שלך
+download-contribution-certificate-content = אם תרמתם ל-Common Voice - הורידו תעודה עבור האירועים שלכם או לעצמכם  - זה לא היה אפשרי בלעדיכם!
+# label for button
+download-contribution-certificate-action = קבלו את התעודה שלכם
+contribute-github = תרמו בגיטהאב
+contribute-github-content = הפרויקט הזה לא היה אפשרי בלי אנשים כמוכם. 🎉 ישנן דרכים רבות להצטרף ל-Common Voice - אתם לא צריכים לדעת לכתוב קוד כדי לתרום!
+# label for button
+contribute-github-action = תרמו בגיטהאב
+
+## Featured section
+
+featured-section-title = תוכלו למצוא סיקור שלנו ב...
+# icon is an arrow that points downwards
+download-press-pack = הורידו את חבילת העיתונות שלנו <icon></icon>
+
+## Developers section
+
+developers-section-title-202608 = מערכי נתונים של דיבור הפתוחים לציבור ביותר מ-330 שפות
+developers-section-subtitle-v2 = מערכי נתונים עבור זיהוי דיבור (ASR) והקשרים אחרים של עיבוד שפה (NLP) שנוצרו באמצעות השתתפות הקהילה.
+# icon is an arrow that points to the right
+explore-datasets = לכל מערכי הנתונים <icon></icon>
+
+## Get involved section
+
+get-involved-section-title = תמיכה במערכי נתונים פתוחים ובהובלת הקהילה
+read-sentences-link = קריאת משפטים
+validate-readings-link = אימות הקראות
+contribute-link = תרומה לאוספי הכתבים
+answer-questions-link = מענה על שאלות
+transcribe-answers-link = תמלול תשובות
+review-transcriptions-link = סקירת תמלולים
+contribute-text-link = תרומת טקסט
+press-and-stories-link = עיתונות וידיעות
+
+## Partner section
+
+partner-section-title = הפכו לשותפים שלנו
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>חברות טכנולוגיה</bold> - השקיעו ביצירת מערכי נתונים פתוחים עבור סביבה משגשגת של בינה מלאכותית רב-לשונית
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>חברה אזרחית וחוקרים</bold> - צרו, אחסנו ושתפו מערכי נתונים משמעותיים - בחינם
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>תרומות כספיות</bold> - ממנו יצירה של מערך נתונים על-מנת לטפח חדשנות ופיתוח מקומיים
+# icon is an arrow that points to the right
+get-in-touch-button = צרו קשר <icon></icon>
+# Partners section
+our-partners-include = בין השותפים שלנו תוכלו למצוא את...

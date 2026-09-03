@@ -33,9 +33,6 @@ so = Somalian
 sv-SE = Svedese
 zh-CN = Chinese (China)
 
-# [/]
-
-
 ## Layout
 
 profile = Profil

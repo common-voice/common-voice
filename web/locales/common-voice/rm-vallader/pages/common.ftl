@@ -122,9 +122,6 @@ zh-CN = Chinais (China)
 zh-HK = Chinais (Hong Kong)
 zh-TW = Chinais (Taiwan)
 
-# [/]
-
-
 ## Layout
 
 profile = Profil

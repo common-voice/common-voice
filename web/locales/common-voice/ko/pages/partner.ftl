@@ -16,3 +16,5 @@ partnerships-small-business-description = 저희는 언제나 데이터 소비�
 partnerships-corporates-header = 대규모 기업 및 플랫폼 기업
 partnerships-corporates-description = 데이터 세트에 대한 추가 의견이 있거나 계획된 플랫폼 확장에 공동 투자 또는 협업을 원한다면 <emailFragment>연락 주세요</emailFragment>.
 partnerships-our-partners = 우리의 협력사
+# menu item
+partners = 파트너

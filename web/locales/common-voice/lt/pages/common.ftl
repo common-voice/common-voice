@@ -125,9 +125,6 @@ zh-CN = Kinų (Kinija)
 zh-HK = Kinų (Honkongas)
 zh-TW = Kinų (Taivanas)
 
-# [/]
-
-
 ## Layout
 
 profile = Profilis

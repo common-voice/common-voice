@@ -49,6 +49,7 @@
 
 ### Changes merged after current release
 
+- Update announcements for upcoming downtime and release schedule by [@moz-bozden](https://github.com/moz-bozden) in [#5483](https://github.com/common-voice/common-voice/pull/5483) (in v.1.159.9)
 - Docs: Expand sentence correction and migration guidance by [@VedantMadane](https://github.com/VedantMadane), in [#5471](https://github.com/common-voice/common-voice/pull/5471) (in v.1.159.8)
 - Feat: Add migration helper for new predefined-accent inclusion, which solves collisions with user-defined accents, also re-apply the Frisian (`fy`) accent additions -which failed previously due to collisions- using this workflow by [@moz-bozden](https://github.com/moz-bozden) in [#5453](https://github.com/common-voice/common-voice/pull/5453) (in v.1.159.5)
 - Fix: Revert to the English translation as a fallback when a native-language translation does not exist (instead of showing the language code), add an apostrophe-normalization helper, by [@moz-bozden](https://github.com/moz-bozden) in [#5439](https://github.com/common-voice/common-voice/pull/5439) (in v.1.159.3)
@@ -70,8 +71,12 @@
 
 #### Spontaneous Speech Changes after current release
 
+- Update announcements for upcoming downtime and release schedule by [@moz-bozden](https://github.com/moz-bozden) in [#554](https://github.com/common-voice/spontaneous-speech/pull/554) (in v.1.159.9)
+- Chore: Update bundler dependencies [#545](https://github.com/common-voice/spontaneous-speech/pull/545), multiple optimizations, enhancements, and reliability/resilience changes [#546](https://github.com/common-voice/spontaneous-speech/pull/546), [#547](https://github.com/common-voice/spontaneous-speech/pull/547), by [@moz-bozden](https://github.com/moz-bozden) (in v.1.159.1)
+
 ##### SS Data Changes after current release
 
+- Add Chinese (China) (`zh-CN`) questions by [@moz-acfort](https://github.com/moz-acfort) in [#553](https://github.com/common-voice/spontaneous-speech/pull/553) (in v.1.159.9)
 - Add Swahili (`sw`) questions by [@moz-acfort](https://github.com/moz-acfort) in [#552](https://github.com/common-voice/spontaneous-speech/pull/552) (in v.1.159.8)
 - Fix problems in Corsican (`co`) questions by [@moz-acfort](https://github.com/moz-acfort) in [#551](https://github.com/common-voice/spontaneous-speech/pull/551) (in v.1.159.7)
 - Add Palauan (`pau`) and Sundanese (`su`) questions by [@moz-acfort](https://github.com/moz-acfort) in [#549](https://github.com/common-voice/spontaneous-speech/pull/549) and [#550](https://github.com/common-voice/spontaneous-speech/pull/550) (in v.1.159.6)

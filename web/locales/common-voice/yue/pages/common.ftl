@@ -165,9 +165,6 @@ zh-HK = 中文（香港）
 zh-TW = 中文（台灣）
 zu = 祖魯語
 
-# [/]
-
-
 ## Layout
 
 profile = 個人檔案

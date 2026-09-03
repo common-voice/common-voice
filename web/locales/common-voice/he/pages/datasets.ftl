@@ -8,6 +8,14 @@ datasets-positioning =
     מערך הנתונים הרב-לשוני של Common Voice הוא כבר מערך נתוני הקול הפומבי הגדול ביותר מסוגו, אך הוא אינו היחיד.
     
     ראו בדף זה נקודת מוצא עבור מאגרי מידע קוליים אחרים בקוד פתוח ובעתיד, יחד עם צמחיתו של Common Voice, בית לעדכון פרסומי המערך שלנו.
+# New/upcoming datasets page headline
+datasets-headline-mdc = מערכי הנתונים של Common Voice זמינים כעת באופן בלעדי ב-Data Collective של מוזילה.
+# New/upcoming datasets page headline text
+datasets-positioning-mdc =
+    החל מגרסה 23.0 של Common Voice, כל מערכי הנתונים של Common Voice זמינים להורדה באופן בלעדי דרךData Collective של מוזילה!
+    
+    דף זה משמש כארכיון היסטורי לגרסאות קודמות של מערכי הנתונים של Common Voice. יש להשתמש בגירסאות ארכיון רק בתרחישי מחקר ספציפיים, ולא לצורך הדרכה, כדי לכבד את רצון אלו שביקשו שלא לכלול את תרומתם.
+datasets-speech-bubble-content = חדשות נהדרות! "דיבור ספונטני" כבר בדרך! הישארו איתנו לעוד עדכונים והכנסו ל<discordLink>דיסקורד</discordLink> שלנו לקבלת המידע העדכני ביותר.
 language = שפה
 download-dataset-header = הורידו את מערך הנתונים
 download-delta-explainer = ביצענו כמה שינויים. מקטעי דלתא (Delta Segments) מכילים רק את המקטעים העדכניים ביותר מאז הגרסה האחרונה. <deltaLink>קראו עוד לגבי שינוי זה</deltaLink>.
@@ -23,7 +31,7 @@ number-of-voices = מספר קולות
 splits = פיצולים
 email-to-download = נא להזין כתובת דוא״ל כדי להוריד
 why-email = <b>מדוע דוא"ל?</b> ייתכן שנצטרך ליצור איתך קשר בעתיד בנוגע לשינויים במערך הנתונים, דוא"ל מספק לנו נקודת קשר.
-why-donate-datasets-page = Common Voice של Mozilla הוא מערך נתוני הקול המגוון ביותר בעולם שנאסף במיקור המונים - ואנחנו פועלים לחלוטין באמצעות תרומות. העלות מגיעה כמעט למליון דולר ארה"ב בשנה על מנת לאחסן את מערכי הנתונים ולשפר את המערכת עבור 100+ קהילות השפה הנסמכות על עבודתינו. אם מידע פתוח ואינקלוסיבי חשוב עבורכם - <b>תרמו עוד היום!</b>
+why-donate-datasets-page = Common Voice של מוזילה הוא מערך נתוני הקול המגוון ביותר בעולם שנאסף במיקור המונים - ואנחנו פועלים לחלוטין באמצעות תרומות. העלות מגיעה כמעט למליון דולר ארה"ב בשנה על מנת לאחסן את מערכי הנתונים ולשפר את המערכת עבור 100+ קהילות השפה הנסמכות על עבודתינו. אם מידע פתוח ואינקלוסיבי חשוב עבורכם - <b>תרמו עוד היום!</b>
 confirm-size = עומדת להתחיל הורדה של <b>{ $size }</b>
 size-gigabyte = ג״ב
 size-megabyte = מ״ב
@@ -45,7 +53,7 @@ feedback-q = יש לכם משוב?
 # This indicates that there is no data to display
 no-information = אין מידע
 resource-nemo-info = ™<githubLink>NVIDIA NeMo</githubLink> היא <docsLink>ערכת כלים בקוד פתוח</docsLink> עבור חוקרים המפתחים מודלים מתקדמים של AI לשיחות.
-resource-deepspeech-info = ניתן להשתמש במנוע הקוד הפתוח לזיהוי קול Deep Speech של Mozilla לבניית יישומי זיהוי דיבור. קראו את <githubLink>הסקירה הכללית שלנו ב- Github</githubLink> או הצטרפו ל<discourseLink>DeepSpeech Discourse</discourseLink> כדי ללמוד כיצד להתחיל.
+resource-deepspeech-info = ניתן להשתמש במנוע הקוד הפתוח לזיהוי קול Deep Speech של מוזילה לבניית יישומי זיהוי דיבור. קראו את <githubLink>הסקירה הכללית שלנו בגיטהאב (GitHub)</githubLink> או הצטרפו ל<discourseLink>דיסקורס (DeepSpeech Discource)</discourseLink> כדי ללמוד כיצד להתחיל.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> מוקדש לטכנולוגיות דיבור פתוחות. הפרויקטים שלהם כוללים מנועי STT ו-TTS מבוססי למידה עמוקה.
 community-playbook = ספרון הקהילה
 resource-playbook-info = <playbookLink>מצאו הדרכה מועילה</playbookLink> אודות המסע השלם של Common Voice, החל מלוקליזציה וכלה בשימוש במערך הנתונים, כמו גם כיצד להתחבר עם הקהילה שלנו.
@@ -93,7 +101,12 @@ release-version = גרסה
 dataset-date = תאריך
 license = רישיון: <licenseLink>{ $license }</licenseLink>
 license-mixed = מעורב
+# Support old genders in older datasets
+male = זכר
+female = נקבה
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = הורידו את מערכי הנתונים הקוליים שלנו
 # MENU ITEM ARIA LABELS
 download-contribute-menu-aria-label = אפשרויות הורדה של נתוני Common Voice
+datasets-show-more = הצגת כל מערכי הנתונים
+datasets-show-less = הצגת מערכי הנתונים החדשים ביותר

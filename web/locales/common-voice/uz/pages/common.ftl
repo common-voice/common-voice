@@ -162,9 +162,6 @@ zh-CN = Xitoy (Xitoy)
 zh-HK = Xitoy (Gongkong)
 zh-TW = Xitoy (Tayvan)
 
-# [/]
-
-
 ## Layout
 
 profile = Profile

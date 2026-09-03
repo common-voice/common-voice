@@ -315,9 +315,6 @@ zh-TW = Trung (Đài Loan)
 zu = Zulu
 zza = Zaza
 
-# [/]
-
-
 ## Layout
 
 profile = Hồ sơ

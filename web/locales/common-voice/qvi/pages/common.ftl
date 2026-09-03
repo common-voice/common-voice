@@ -188,9 +188,6 @@ ve = Tshivenda
 vec = Veneciano
 vi = Vietnamita
 
-# [/]
-
-
 ## Layout
 
 stayintouch = Morzillapika shuk ayllullaktata shinanakunchik shimikunata ñawpaman apankapa. Mushuk ruraykunata kikinman willachinkapa munanchik, mushuk riksichikunatapash shinallata yachankapa munanchik ima shina kay yachaykunawan llankakunkita.

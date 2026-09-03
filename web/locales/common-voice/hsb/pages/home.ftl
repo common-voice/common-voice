@@ -165,6 +165,8 @@ download-press-pack = Sćehńće naše nowinske podłožki <icon></icon>
 
 ## Developers section
 
+developers-section-title-202608 = Zjawnje přistupne wotewrjene rěčenske datowe sadźby we wjace hač 330 rěčach
+developers-section-subtitle-v2 = Datowe sadźby za ASR a druhe konteksty NLP – wutworjene přez sobudźěło zhromadźenstwa.
 # icon is an arrow that points to the right
 explore-datasets = Datowe sadźby wuslědźić <icon></icon>
 

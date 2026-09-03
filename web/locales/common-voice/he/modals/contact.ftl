@@ -6,3 +6,5 @@ contact-form-name =
 contact-form-message =
     .label = הודעה
 contact-required = *נדרש
+contact-form-success = ההודעה שלך נשלחה. תודה רבה!
+contact-form-error = משהו השתבש. נא לנסות שוב.

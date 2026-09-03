@@ -196,9 +196,6 @@ zh-TW = Siniwakan (Tayiwani)
 zu = Zulukan
 zza = Zazakan
 
-# [/]
-
-
 ## Layout
 
 profile = Porofili

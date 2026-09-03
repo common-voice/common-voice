@@ -53,6 +53,7 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = הגדרת יעד
 cant-decide = לא הצלחת להחליט?
+activity-needed-calculation-fixed = 100 אנשים המקליטים 100 משפטים ביום יכולים לייצר 13 שעות של שמע. בקצב כזה, אפשר להגיע ל-1000 שעות בפחות מ-3 חודשים.
 how-many-per-day = מצוין! כמה מקטעים ביום?
 how-many-a-week = נהדר! כמה מקטעים בשבוע?
 which-goal-type = מעניין אותך לדבר, להאזין או גם וגם?

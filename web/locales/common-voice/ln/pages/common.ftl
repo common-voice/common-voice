@@ -12,9 +12,6 @@ zh-HK = Ki chinois (Hong Kong)
 zh-TW = Ki chinois (Taiwan)
 zu = Ki zulu
 
-# [/]
-
-
 ## Layout
 
 help = Lisalisi

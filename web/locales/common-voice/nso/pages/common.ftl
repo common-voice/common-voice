@@ -177,9 +177,6 @@ zh-HK = Se-China (Hong Kong)
 zh-TW = Se-China (Taiwan)
 zu = SeZulu
 
-# [/]
-
-
 ## Layout
 
 profile = Setshwanso

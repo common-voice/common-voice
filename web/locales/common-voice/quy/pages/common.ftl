@@ -185,9 +185,6 @@ zh-HK = Chinese (Hong Kong)
 zh-TW = Chinese (Taiwan)
 zu = Zulu simi
 
-# [/]
-
-
 ## Layout
 
 profile = Runapa kaynin

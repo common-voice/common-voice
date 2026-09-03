@@ -261,9 +261,6 @@ zh-TW = Çinuri (Tayvanuri)
 zu = Zuluri
 zza = Zazanuri
 
-# [/]
-
-
 ## Layout
 
 profile = Profili

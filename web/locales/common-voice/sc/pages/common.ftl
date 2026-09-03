@@ -251,9 +251,6 @@ zh-TW = Tzinesu (Taiwan)
 zu = Zulù
 zza = Zaza
 
-# [/]
-
-
 ## Layout
 
 profile = Profilu

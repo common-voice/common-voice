@@ -319,6 +319,3 @@ ur = Chiurdu
 uz = Chiuzbek
 ve = Chitsivenda
 vec = Chiveneti
-
-# [/]
-

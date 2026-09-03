@@ -68,11 +68,7 @@ about-playbook-how-add-language = Как мне добавить язык?
 about-playbook-how-add-language-content-1 = Сначала убедитесь, <languageLink>не добавлен ли уже</languageLink> ваш язык. Если его ещё нет, вам надо <strong>перевести сайт и собрать предложения</strong>.
 about-playbook-how-add-language-translating-heading = Перевод сайта
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Посмотрите наш обучающий ролик о том, как использовать Pontoon.</translateVideoLink>
-about-playbook-how-add-language-translating-content-2 =
-    Перевод происходит через <pontoonLink>Pontoon</pontoonLink> - инструмент Mozilla специально предназначенный для переводов. Pontoon поддерживает множество языков,
-    но если вашего все еще нет, вы можете <pontoonRequestLink>запросить его добавление</pontoonRequestLink>.
-    Затем, чтобы сделать язык доступным в проекте Common Voice,
-    <githubRepoLink>запросите новый язык на GitHub</githubRepoLink>. <localizationFragment>Подробнее о переводе сайтов</localizationFragment>.
+about-playbook-how-add-language-translating-content-2 = Перевод происходит через <pontoonLink>Pontoon</pontoonLink> — инструмент Mozilla специально предназначенный для переводов. Pontoon поддерживает множество языков, но если вашего всё ещё нет, вы можете <pontoonRequestLink>запросить его добавление</pontoonRequestLink>. Затем, чтобы сделать язык доступным в проекте Common Voice, <githubRepoLink>запросите новый язык на GitHub</githubRepoLink>. <localizationFragment>Подробнее о переводе сайтов</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Сбор предложений
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Посмотрите наш обучающий ролик об использовании «Коллектора предложений»</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-2 =

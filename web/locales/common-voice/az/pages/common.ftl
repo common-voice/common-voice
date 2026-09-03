@@ -85,9 +85,6 @@ zh-CN = Çincə (Çin)
 zh-HK = Çincə (Honq Konq)
 zh-TW = Çincə (Tayvan)
 
-# [/]
-
-
 ## Layout
 
 profile = Profil

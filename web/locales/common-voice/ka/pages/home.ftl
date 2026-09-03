@@ -161,6 +161,8 @@ download-press-pack = ჩამოტვირთეთ ჩვენი პრ�
 
 ## Developers section
 
+developers-section-title-202608 = საჯაროდ ხელმისაწვდომი, მეტყველების მონაცემთა ღია კრებული 330-ზე მეტ ენაზე
+developers-section-subtitle-v2 = მონაცემთა კრებული ASR- და სხვა NLP-დანიშნულებისთვის – შექმნილი სახალხო ერთობის მონაწილეობით.
 # icon is an arrow that points to the right
 explore-datasets = იხილეთ კრებულები <icon></icon>
 

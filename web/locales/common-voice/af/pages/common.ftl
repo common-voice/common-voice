@@ -195,9 +195,6 @@ zh-TW = Chinees (Taiwan)
 zu = isiZulu
 zza = Zaza
 
-# [/]
-
-
 ## Layout
 
 profile = Profiel

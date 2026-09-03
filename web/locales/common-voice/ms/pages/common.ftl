@@ -172,9 +172,6 @@ zh-CN = Bahasa Cina
 zh-HK = Bahasa Kantonis Hong Kong
 zh-TW = Bahasa Cina (Taiwan)
 
-# [/]
-
-
 ## Layout
 
 profile = Profil
