@@ -260,9 +260,6 @@ zh-TW = chiński (Tajwan)
 zu = zulu
 zza = zazaki
 
-# [/]
-
-
 ## Layout
 
 profile = Profil

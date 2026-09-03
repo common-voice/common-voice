@@ -6,6 +6,3 @@
 
 aa = Ye'e
 cut = Dbaku
-
-# [/]
-

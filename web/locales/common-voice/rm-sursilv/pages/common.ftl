@@ -120,9 +120,6 @@ zh-CN = chines (China)
 zh-HK = chines (Hongkong)
 zh-TW = chines (Taivan)
 
-# [/]
-
-
 ## Layout
 
 profile = Profil

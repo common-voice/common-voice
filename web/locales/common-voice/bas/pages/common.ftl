@@ -134,9 +134,6 @@ zh-CN = Tjaina
 zh-HK = Tjaina i Hong Kong
 zh-TW = Tjaina i Taiwan
 
-# [/]
-
-
 ## Layout
 
 profile = Mayimbne

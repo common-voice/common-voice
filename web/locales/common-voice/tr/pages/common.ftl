@@ -380,9 +380,6 @@ zoc = Copainalá Zoque
 zu = Zuluca
 zza = Zazaca
 
-# [/]
-
-
 ## Layout
 
 profile = Profil

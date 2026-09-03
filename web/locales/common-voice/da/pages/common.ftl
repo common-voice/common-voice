@@ -219,9 +219,6 @@ zh-TW = Kinesisk (Taiwan)
 zu = Zulu
 zza = Zaza
 
-# [/]
-
-
 ## Layout
 
 profile = Profil

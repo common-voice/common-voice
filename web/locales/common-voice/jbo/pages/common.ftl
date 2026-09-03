@@ -55,9 +55,6 @@ vi = vietnama
 yue = banje'u'e
 zh-CN = jugbau
 
-# [/]
-
-
 ## Layout
 
 profile = datni be mi

@@ -185,9 +185,6 @@ zh-HK = Xichayina (Hong Kong)
 zh-TW = Xichayina (Taiwan)
 zu = Xizulu
 
-# [/]
-
-
 ## Layout
 
 profile = Phurofayili

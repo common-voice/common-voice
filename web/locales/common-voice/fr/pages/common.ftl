@@ -448,9 +448,6 @@ zoc = Zoque du Chiapas
 zu = Zoulou
 zza = { "" }
 
-# [/]
-
-
 ## Layout
 
 profile = Profil

@@ -173,9 +173,6 @@ zh-HK = Chino (Hong Kong)
 zh-TW = Chino (Taiwan)
 zu = Zulu
 
-# [/]
-
-
 ## Layout
 
 profile = Ruwäch b'i'aj

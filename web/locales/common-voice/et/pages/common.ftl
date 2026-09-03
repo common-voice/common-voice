@@ -107,9 +107,6 @@ zh-CN = hiina (Hiina)
 zh-HK = hiina (Hong Kong)
 zh-TW = hiina (Hiina Vabariik)
 
-# [/]
-
-
 ## Layout
 
 profile = Profiil

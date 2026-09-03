@@ -144,9 +144,6 @@ zh-CN = Bahasa Tionghoa (Tiongkok)
 zh-HK = Bahasa Tiongkok (Hong Kong)
 zh-TW = Bahasa Tionghoa (Taiwan)
 
-# [/]
-
-
 ## Layout
 
 profile = Profil

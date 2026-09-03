@@ -383,9 +383,6 @@ zoc = ኮፓናላ ዞክ
 zu = ዙሉ
 zza = ዛዛ
 
-# [/]
-
-
 ## Layout
 
 profile = መገለጫ

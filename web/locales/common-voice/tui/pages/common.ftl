@@ -46,6 +46,3 @@ hsb = Sɔrbi ma ciŋ
 ht = Hayti
 tui = t'pur
 zu = Sulu
-
-# [/]
-

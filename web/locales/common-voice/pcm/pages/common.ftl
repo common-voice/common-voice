@@ -7,6 +7,3 @@
 aa = afa
 ab = Abkhaz
 abb = Banko
-
-# [/]
-

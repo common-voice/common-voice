@@ -249,9 +249,6 @@ zh-TW = Kinīšu (Taivana)
 zu = Zulu
 zza = Zaza
 
-# [/]
-
-
 ## Layout
 
 profile = Profils

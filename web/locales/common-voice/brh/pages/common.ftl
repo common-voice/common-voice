@@ -325,9 +325,6 @@ zoc = Copainalá Zoque
 zu = زولو
 zza = ززا
 
-# [/]
-
-
 ## Layout
 
 profile = پروفائل

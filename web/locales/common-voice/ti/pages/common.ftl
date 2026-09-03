@@ -200,9 +200,6 @@ zh-TW = ቻይኒዝ (ታይዋን)
 zu = ዙዙ
 zza = ዛዛ
 
-# [/]
-
-
 ## Layout
 
 profile = ቅርጺ

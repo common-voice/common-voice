@@ -5,6 +5,3 @@
 ## Languages
 
 bax = Shüpamom
-
-# [/]
-

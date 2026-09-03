@@ -200,9 +200,6 @@ zh-TW = Chinwa (Taywann)
 zu = Zoulou
 zza = Zaza
 
-# [/]
-
-
 ## Layout
 
 profile = Pwofil

@@ -189,9 +189,6 @@ zh-TW = Chinek (Taiwan)
 zu = Zulu
 zza = Zaza
 
-# [/]
-
-
 ## Layout
 
 profile = Profil

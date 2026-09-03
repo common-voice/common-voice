@@ -165,9 +165,6 @@ zh-CN = Kichina (Uchina)
 zh-HK = Kichina (Hong Kong)
 zh-TW = Kichina (Taiwan)
 
-# [/]
-
-
 ## Layout
 
 profile = Wasifu

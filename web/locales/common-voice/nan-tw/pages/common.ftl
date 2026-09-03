@@ -323,9 +323,6 @@ zh-TW = 華語（台灣）
 zu = Zulu 祖魯語
 zza = Zaza 扎扎其語
 
-# [/]
-
-
 ## Layout
 
 profile = 帳號

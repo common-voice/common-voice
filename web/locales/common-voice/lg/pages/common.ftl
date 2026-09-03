@@ -131,9 +131,6 @@ zh-CN = Lucayina (Cayina)
 zh-HK = Lucayina (Hongo Kongo)
 zh-TW = Lucayina (Tayiwan)
 
-# [/]
-
-
 ## Layout
 
 profile = Pulofayiro

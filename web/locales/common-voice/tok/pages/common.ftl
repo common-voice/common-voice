@@ -208,9 +208,6 @@ zh-TW = toki Tawan
 zu = toki Sulu
 zza = toki Sasa
 
-# [/]
-
-
 ## Layout
 
 profile = lipu jan

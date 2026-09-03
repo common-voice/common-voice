@@ -16,9 +16,6 @@ as = { "" }
 ast = { "" }
 az = { "" }
 
-# [/]
-
-
 ## Layout
 
 stayintouch = Hati kuwakwenda kugyezaho, nokikora ota?

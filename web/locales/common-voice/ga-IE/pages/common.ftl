@@ -120,9 +120,6 @@ zh-HK = Sínis (Hong Cong)
 zh-TW = Sínis (An Téaváin)
 zu = Súlúis
 
-# [/]
-
-
 ## Layout
 
 profile = Próifíl

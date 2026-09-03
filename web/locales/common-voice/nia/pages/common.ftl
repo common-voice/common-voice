@@ -142,9 +142,6 @@ zh-CN = Li China
 zh-HK = Li Hong Kong
 zh-TW = Li Taiwan
 
-# [/]
-
-
 ## Layout
 
 profile = Profil

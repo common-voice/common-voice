@@ -40,9 +40,6 @@ ur = Oordooish
 yi = Ewdish
 yue = Cantoanish
 
-# [/]
-
-
 ## Layout
 
 profile = Duillag

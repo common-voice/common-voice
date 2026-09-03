@@ -179,9 +179,6 @@ zh-HK = Chinese (Hong Kong)
 zh-TW = Chinese (Taiwan)
 zu = Zulu
 
-# [/]
-
-
 ## Layout
 
 profile = Heftinirde

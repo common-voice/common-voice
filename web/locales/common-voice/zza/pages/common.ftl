@@ -209,9 +209,6 @@ zh-TW = Çînkî (Taywan)
 zu = Zulu
 zza = Kurdkî (Zazakî)
 
-# [/]
-
-
 ## Layout
 
 profile = Profîl

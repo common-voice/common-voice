@@ -448,9 +448,6 @@ zoc = Copainalá Zoque
 zu = Zulušćina, Zulu
 zza = Zaza
 
-# [/]
-
-
 ## Layout
 
 profile = Profil

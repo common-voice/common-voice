@@ -200,9 +200,6 @@ zh-TW = Txinera (Taiwan)
 zu = Zuluera
 zza = Zazera
 
-# [/]
-
-
 ## Layout
 
 profile = Profila
