@@ -527,6 +527,11 @@ announcement-pre-release = Kjære fellesskap, lanseringstidspunktet nærmar seg.
 # Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
 announcement-release-commencing = Kjære fellesskap, vi har nådd fristen for utgivinga, og vi samlar datasetta. Den nye utgivinga vil vere tilgjengeleg på <mdcLink>Mozilla Data Collective</mdcLink> om eit par dagar.
 
+## Downtime Announcements
+
+# Generic scheduled downtime for next Sunday early hours
+announcement-scheduled-downtime = Kjære fellesskap, for å optimalisere systema våre planlegg vi korte nedetidperiodar, som vanlegvis vert fullførde på nokre timar. Den neste nedetidperioden skjer tidleg denne sundagen. Ta kontakt med oss på Matrix om du støyter på problem.
+
 ## Common Language/Dataset Selector & SearchBox Related
 
 # Generic search box defaults
