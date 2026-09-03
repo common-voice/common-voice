@@ -527,6 +527,11 @@ announcement-pre-release = Lube zhromadźenstwo, wozjewjenski čas so bliži. Pr
 # Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
 announcement-release-commencing = Lube zhromadźenstwo, smy rozsudny datum za wozjewjenje docpěli a zjednoćamy datowe sadźby. Nowe wozjewjenje budźe na <mdcLink>Mozilla Data Collective</mdcLink> za por dnjow k dispoziciji.
 
+## Downtime Announcements
+
+# Generic scheduled downtime for next Sunday early hours
+announcement-scheduled-downtime = Lube zhromadźenstwo, zo bychmy swoje systemy optimowali, planujemy krótke wupadne časy, kotrež zwjetša mało hodźin traja. Přichodny wupadny čas budźe tutu njedźelu rano. Stajće so z nami na Matrix do zwiska, jeli problem maće.
+
 ## Common Language/Dataset Selector & SearchBox Related
 
 # Generic search box defaults
