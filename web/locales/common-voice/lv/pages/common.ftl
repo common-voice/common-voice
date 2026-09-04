@@ -486,6 +486,14 @@ announcement-mdc-button-text = Pievienojieties Mozilla datu kolektīvam
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = Atveras jaunā cilnē
 
+## Downtime Announcements
+
+# Generic scheduled downtime for next Sunday early hours
+announcement-scheduled-downtime =
+    Dārgā kopiena!
+    
+    Lai optimizētu savas sistēmas, mēs ieplānojam īsus dīkstāves laika posmus, kuri parasti beidzas dažu stundu laikā. Nākamā dīkstāve paredzama šīs svētdienas agrumā. Jāvēršas pie mums [matrix], ja ir saskaršanās ar kādu sarežģījumu.
+
 ## Common Language/Dataset Selector & SearchBox Related
 
 # Generic search box defaults
