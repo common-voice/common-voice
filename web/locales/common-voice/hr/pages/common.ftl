@@ -318,6 +318,11 @@ announcement-mdc-button-text = Pridruži se platformi „Mozilla Data Collective
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = Otvara se u novoj kartici
 
+## Downtime Announcements
+
+# Generic scheduled downtime for next Sunday early hours
+announcement-scheduled-downtime = Poštovani članovi zajednice, kako bismo optimirali naše sustave, planiramo kratka razdoblja zastoja, koja obično traju par sati. Sljedeće razdoblje zastoja nastupit će rano ove nedjelje. Kontaktirajte nas na Matrixu ako naiđete na problem.
+
 ## Common Language/Dataset Selector & SearchBox Related
 
 # Generic search box defaults
