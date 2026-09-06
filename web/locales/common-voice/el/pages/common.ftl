@@ -527,6 +527,11 @@ announcement-pre-release = Αγαπητή κοινότητα, ο χρόνος κ
 # Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
 announcement-release-commencing = Αγαπητή κοινότητα, έχουμε φτάσει στην καταληκτική ημερομηνία για την κυκλοφορία και ομαδοποιούμε τα σύνολα δεδομένων. Η νέα έκδοση θα είναι διαθέσιμη στο <mdcLink>Mozilla Data Collective</mdcLink> σε μερικές ημέρες.
 
+## Downtime Announcements
+
+# Generic scheduled downtime for next Sunday early hours
+announcement-scheduled-downtime = Αγαπητή κοινότητα, για τη βελτιστοποίηση των συστημάτων μας προγραμματίζουμε σύντομες διακοπές λειτουργίας, οι οποίες συνήθως διαρκούν λίγες ώρες. Η επόμενη προγραμματισμένη διακοπή θα πραγματοποιηθεί τις πρώτες πρωινές ώρες αυτής της Κυριακής. Εάν αντιμετωπίσετε κάποιο πρόβλημα, επικοινωνήστε μαζί μας μέσω του Matrix.
+
 ## Common Language/Dataset Selector & SearchBox Related
 
 # Generic search box defaults

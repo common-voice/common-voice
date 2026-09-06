@@ -527,6 +527,11 @@ announcement-pre-release = Уважаемое сообщество, время �
 # Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
 announcement-release-commencing = Уважаемое сообщество, мы достигли даты окончания выпуска, и мы упаковываем наборы данных. Новый релиз будет доступен на <mdcLink>Mozilla Datacollective</mdcLink> через пару дней.
 
+## Downtime Announcements
+
+# Generic scheduled downtime for next Sunday early hours
+announcement-scheduled-downtime = Уважаемые участники сообщества, для оптимизации работы наших систем мы периодически проводим кратковременные технические работы, которые обычно занимают не более нескольких часов. Ближайшие работы пройдут ранним утром в это воскресенье. Если у вас возникнут проблемы, напишите нам в Matrix.
+
 ## Common Language/Dataset Selector & SearchBox Related
 
 # Generic search box defaults
