@@ -527,6 +527,11 @@ announcement-pre-release = Car communitate, le tempore del nove version se appro
 # Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
 announcement-release-commencing = Car communitate, nos attingeva le data limite de publication pro le version e nos sta a pacchettar le collectiones de datos. Le nove version sera disponibile sur <mdcLink>Mozilla Datos Collective</mdcLink> in un par de dies.
 
+## Downtime Announcements
+
+# Generic scheduled downtime for next Sunday early hours
+announcement-scheduled-downtime = Car communitate, pro optimisar nostre systemas, nos planifica breve periodos de tempore de halto, usualmente completate in poc horas. Le successive periodo de tempore de halto evenira tosto iste dominica. Contacta nos sur Matrix si tu incontra problema.
+
 ## Common Language/Dataset Selector & SearchBox Related
 
 # Generic search box defaults

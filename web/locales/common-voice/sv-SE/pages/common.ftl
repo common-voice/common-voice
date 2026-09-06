@@ -530,7 +530,7 @@ announcement-release-commencing = Kära community, vi har nått sista datum för
 ## Downtime Announcements
 
 # Generic scheduled downtime for next Sunday early hours
-announcement-scheduled-downtime = Bästa community, för att optimera våra system schemalägger vi korta driftstopp, vanligtvis inom några timmar. Nästa driftstopp inträffar i början av söndagen. Kontakta oss på Matrix om du stöter på problem.
+announcement-scheduled-downtime = Kära community, för att optimera våra system schemalägger vi korta driftstopp, vanligtvis avslutade inom några timmar. Nästa driftstoppsperiod kommer att inträffa tidigt nu på söndag. Kontakta oss på Matrix om du stöter på problem.
 
 ## Common Language/Dataset Selector & SearchBox Related
 
