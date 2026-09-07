@@ -80,7 +80,6 @@ review-questions = سوئالنى تەكشۈر
 transcribe-audio = ئۈننى تېكىستكە خاتىرىلە<small>(پات يېقىندا قوشۇلىدۇ)</small>
 press-and-stories = خەۋەر ۋە ماقالە
 community-and-languages = جامائەت ۋە تىل
-coming-soon = پات يېقىندا قوشۇلىدۇ
 about-us = بىز ھەققىدە
 scripted-speech = قوليازما نۇتقى
 spontaneous-speech = تەبىئىي نۇتۇق
@@ -133,6 +132,7 @@ join-discord-community-content = تىل جامائىتى سۆھبىتىگە قا
 find-us-on-matrix = بىزنى Matrix تىن ئىزدەڭ
 # label for button
 find-us-on-element-action-1 = ئېلېمېنت
+find-us-on-matrix-action-2 = باشقا خېرىدار
 ask-mozilla-share = Mozilla دا پائالىيەتلىرىڭىزنى ئورتاقلىشىڭ
 ask-mozilla-share-content = ئالدىنقى ياكى پات يېقىندا ئۆتكۈزۈلىدىغان پائالىيەت بارمۇ؟ بىزگە ھەمبەھىرلەڭ، ئۇنى جامائىتىمىزگە ئۇقتۇرىمىز ياكى شۇ توغرۇلۇق بىلوگ يازىمىز!
 # label for button
@@ -154,6 +154,7 @@ download-press-pack = خەۋەر بولىقىمىزنى <icon> </icon> چۈشۈ�
 
 ## Developers section
 
+developers-section-title-202608 = +330 تىلدىكى ئاشكارا زىيارەت قىلغىلى بولىدىغان ئوچۇق تىل سانلىق مەلۇمات توپلىمى
 # icon is an arrow that points to the right
 explore-datasets = سانلىق مەلۇمات توپلىمى <icon></icon> بايقاش
 
