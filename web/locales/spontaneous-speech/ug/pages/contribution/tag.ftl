@@ -21,6 +21,11 @@ select-all = ھەممىنى تاللا
 # Messages
 tag-success-toast-message = بەلگە مۇۋەپپەقىيەتلىك تاپشۇرۇلدى
 tag-error-toast-message = بەلگە تاپشۇرۇۋاتقاندا خاتالىق كۆرۈلدى
+tag-empty-submit-error = تاپشۇرىدىغان تېكىست يوق. ئالدى بىلەن بىر قىسىم تېكىستكە بەلگە سېلىڭ.
+# Code switching Guidelines
+cs-tag-do-guideline-1 = توغرا ئىملا قائىدىسى ئىشلىتىڭ
+cs-tag-do-guideline-2 = تەلەپپۇزدىن پايدىلىنىپ ياردەم قىلىڭ
+cs-tag-do-guideline-3 = شەكىلداش سۆزلەرگە دىققەت قىلىڭ
 cs-tag-shortcuts-guideline-2 = <key>{ tag-page-shortcut-toogle-mouse-keyboard }</key> { toogle-mouse-keyboard }
 cs-tag-shortcuts-guideline-3 = <key>{ tag-page-shortcut-remove-tags }</key> { remove-tags }
 cs-tag-shortcuts-guideline-4 = <key>{ tag-page-shortcut-select-all }</key> { select-all }
