@@ -527,6 +527,11 @@ announcement-pre-release = Annwyl gymuned, mae amser rhyddhau'r fersiwn nesaf yn
 # Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
 announcement-release-commencing = Annwyl gymuned, rydym wedi cyrraedd y dyddiad cau ar gyfer fersiwn nesaf ac yn bwndelu'r setiau data. Bydd y fersiwn newydd ar gael ar <mdcLink>Mozilla Data Collective</mdcLink> ymhen ychydig ddyddiau.
 
+## Downtime Announcements
+
+# Generic scheduled downtime for next Sunday early hours
+announcement-scheduled-downtime = Annwyl gymuned, i wneud y gorau o'n systemau, rydym yn trefnu cyfnodau amser segur byr, fel arfer yn cael eu cwblhau o fewn ychydig oriau. Bydd y cyfnod amser segur nesaf yn digwydd yn gynnar ddydd Sul yma. Cysylltwch â ni ar Matrix os ydych chi'n dod ar draws problem.
+
 ## Common Language/Dataset Selector & SearchBox Related
 
 # Generic search box defaults
