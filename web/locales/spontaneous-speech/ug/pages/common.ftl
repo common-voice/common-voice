@@ -94,3 +94,15 @@ player-pause-button-aria-label = ئاۋازنى ۋاقىتلىق توختات
 player-skip-backward-aria-label = كەينىگە 5 سېكۇنت ئاتلا
 # Skip forward button accessibility/aria label
 player-skip-forward-aria-label = ئالدىغا 5 سېكۇنت ئاتلا
+# Audio playback progress slider accessibility/aria label
+player-progress-slider-aria-label = ئاۋاز ياڭرىتىش ئىلگىرىلەش سىيرىغۇچ
+# Toggle speed and transcription mode menu button
+player-toggle-mode-menu-aria-label = ھالەت تىزىملىكىنى ئالماشتۇر
+# Slower playback speed button accessibility/aria label
+player-speed-slow-aria-label = ئاستىراق ياڭرىتىش سۈرئىتى
+# Normal playback speed button accessibility/aria label
+player-speed-normal-aria-label = ئادەتتىكى ياڭرىتىش سۈرئىتى
+# Faster playback speed button accessibility/aria label
+player-speed-fast-aria-label = تېزرەك ياڭرىتىش سۈرئىتى
+# Auto transcription mode button accessibility/aria label
+transcription-mode-auto-aria-label = ئۆزلۈكىدىن سۆزمۇ-سۆز ياڭرىتىشنى ئالماشتۇر
