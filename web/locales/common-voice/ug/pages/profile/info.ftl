@@ -91,6 +91,8 @@ copy-api-credential-success-toast-message = مۇۋەپپەقىيەتلىك كۆ�
 copy-api-credential-error-toast-message = كۆچۈرۈۋاتقاندا خاتالىق كۆرۈلدى
 delete-api-key-success-toast-message = API ئىسپاتى مۇۋەپپەقىيەتلىك ئۆچۈرۈلدى
 add-api-key-name-error = API ئىسپات ئاتى قوشىدۇ
+max-api-keys-reached = API ئىسپات چەكلىمىسى 10 دىن ئېشىپ كەتتى
+duplicate-api-key-name-error = API ئاچقۇچ ئاتى تەكرار
 # Genders
 male_masculine = ئەر
 female_feminine = ئايال
