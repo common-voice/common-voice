@@ -155,6 +155,7 @@ download-press-pack = خەۋەر بولىقىمىزنى <icon> </icon> چۈشۈ�
 ## Developers section
 
 developers-section-title-202608 = +330 تىلدىكى ئاشكارا زىيارەت قىلغىلى بولىدىغان ئوچۇق تىل سانلىق مەلۇمات توپلىمى
+developers-section-subtitle-v2 = جامائەتنىڭ ھەمكارلىقىدا ۋۇجۇدقا كەلگەن، ASR ۋە باشقا NLP مەزمۇنغا ئىشلىتىشكە ماس كېلىدىغان سانلىق مەلۇمات توپلىمى.
 # icon is an arrow that points to the right
 explore-datasets = سانلىق مەلۇمات توپلىمى <icon></icon> بايقاش
 
