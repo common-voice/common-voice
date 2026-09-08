@@ -104,3 +104,5 @@ player-speed-normal-aria-label = Normal oynatma hızı
 player-speed-fast-aria-label = Daha hızlı oynatma hızı
 # Auto transcription mode button accessibility/aria label
 transcription-mode-auto-aria-label = Kelime kelime otomatik oynatmayı aç/kapat
+# Mode menu button accessibility/aria label
+transcription-mode-menu-aria-label = Çeviri metin modunu aç/kapat
