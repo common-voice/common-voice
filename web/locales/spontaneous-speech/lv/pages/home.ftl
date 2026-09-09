@@ -35,4 +35,4 @@ signup-input-placeholder = Ievadiet savu epastu
 signup-button-value = Sūtīt saiti uz manu e-pastu
 footer-text-privacy = <privacyLink>Konfidencialitāte</privacyLink>
 footer-text-terms = <termsLink>Noteikumi</termsLink>
-footer-text-cookies = <cookiesLink>Sīkfaili<cookiesLink>
+footer-text-cookies = <cookiesLink>Sīkdatnes<cookiesLink>

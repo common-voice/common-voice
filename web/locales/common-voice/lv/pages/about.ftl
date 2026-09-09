@@ -135,7 +135,7 @@ about-playbook-how-validate-content-4 = Ja ierakstu noraida 2 cilvēki, tas tie
 ## How to access dataset
 
 about-playbook-how-access-dataset = Kā piekļūt un izmantot datu kopu?
-about-playbook-how-access-dataset-content-1 = Varat doties uz <datasetsPage>datu kopu lapu</datasetsPage>, atlasīt vajadzīgo versiju un valodu un lejupielādēt to! Failiem ir <metadataLink>saistīti metadati</metadataLink>, piemēram, demogrāfiskā informācija un validācijas dati. Lai lejupielādētu datu kopu, jums būs jānorāda e-pasta adrese.
+about-playbook-how-access-dataset-content-1 = Vari doties uz <datasetsPage>datu kopu lapu</datasetsPage>, atlasīt vajadzīgo versiju un valodu(as) un lejupielādēt to. Datnēm ir <metadataLink>saistīti metadati</metadataLink>, piemēram, demogrāfiskā informācija un pārbaudes dati. Būs jānorāda e-pasta adrese, lai lejupielādētu datu kopu.
 about-playbook-how-access-dataset-content-2 = Ja meklējat gatavus rīkus, kas izmanto šo datu kopu, varat sazināties ar kopienas dalībniekiem <discourseLink>Discourse sistēmā</discourseLink>.
 
 ## How are decisions made
