@@ -164,7 +164,7 @@ transcribe-the-audio-subheader-1-explanation = Kopumā vajadzētu pierakstīt vi
 transcribe-the-audio-subheader-1-explanation-example-1 = Sarežģītu vārdu, tostarp vilcināšanās un atkārtojumu, pierakstīšana
 transcribe-the-audio-subheader-1-explanation-example-2 = Trokšņu, piemēram, klepus vai smiešanās, marķēšana
 transcribe-the-audio-subheader-1-explanation-example-3 = Būtiska trokšņa piesārņojuma, piemēram, fona pļāpāšanas vai automašīnu signālu, marķēšana
-transcribe-the-audio-subheader-1-explanation-example-4 = Gramatiskās variācijas un slengs jāreģistrē tieši tā, kā tie parādās. Nelabojiet un nerediģējiet cilvēku runu.
+transcribe-the-audio-subheader-1-explanation-example-4 = Gramatiskās variācijas un slengs jāieraksta tieši tā, kā tas parādās. Nevajag pielāgot labot cilvēku runu.
 transcribe-the-audio-subheader-2-explanation-1 = Skaitļi un simboli jāraksta vārdos, nevis izmantojot ciparus vai speciālās rakstzīmes. Piemērs:
 transcribe-the-audio-subheader-2-explanation-2 = Saīsinājumi jāraksta tā, kā tie parasti tiek rakstīti attiecīgajā valodā, ievērojot standarta lielo burtu lietošanas noteikumus. Tie nav jātranskribē fonētiski. Piemērs:
 # text wrapped in correct will be shown as green text in the UI
