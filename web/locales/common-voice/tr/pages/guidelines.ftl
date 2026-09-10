@@ -148,6 +148,7 @@ answer-questions-subheader = Genel yönergeler
 answer-questions-tip-1 = Olabildiğince sessiz bir yerde kayıt yapın
 answer-questions-tip-2 = İnternet bağlantısı iyi olan bir yer seçin
 answer-questions-tip-3b = Yanıtınızı 15-30 saniye arasında tutmaya çalışın
+answer-questions-tip-4 = Nefret içeren, kışkırtıcı veya başka şekilde rahatsız edici ifadelerden kaçının
 answer-questions-tip-6 = Ses seviyenizi stabil tutun: Bağırmayın ve şarkı söylemeyin
 # Transcribe the Audio
 transcribe-the-audio = Ses kayıtlarını metne çevirme
