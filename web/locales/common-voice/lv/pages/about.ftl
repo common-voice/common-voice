@@ -76,10 +76,10 @@ about-playbook-how-add-language-content-1 =
 about-playbook-how-add-language-translating-heading = Vietnes tulkošana
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Skatiet mūsu ceļvedi par Pontoon lietošanu.</translateVideoLink>
 about-playbook-how-add-language-translating-content-2 =
-    Tulkošanai mēs izmantojam Mozilla rīku <pontoonLink>Pontoon</pontoonLink>. Šajā rīkā ir daudz valodu,
-    bet, ja tajā nav jūsu, varat <pontoonRequestLink>pieprasīt savas valodas pievienošanu</pontoonRequestLink>.
+    Tulkošanai mēs izmantojam Mozilla rīku <pontoonLink>Pontoon</pontoonLink>. Pontoon ir daudz valodu,
+    bet, ja tajā nav Tavas, vari <pontoonRequestLink>pieprasīt savas valodas pievienošanu</pontoonRequestLink>.
     Pēc tam, lai pievienotu valodu Common Voice,
-    <githubRepoLink>pieprasiet jauno valodu vietnē GitHub</githubRepoLink>. <localizationFragment>Uzziniet vairāk par vietņu tulkošanu</localizationFragment>.
+    <githubRepoLink>jāpieprasa jaunā valoda GitHub</githubRepoLink>. <localizationFragment>Uzzināt vairāk par vietņu tulkošanu</localizationFragment>.
 about-playbook-how-add-language-collecting-sentences-heading = Teikumu apkopošana
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Skatieties mūsu ceļvedi par teikumu apkopotāja lietošanu</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-2 =
@@ -147,7 +147,7 @@ about-playbook-how-project-governance-content-3 = Privātums, drošība un pārr
 about-playbook-how-project-governance-content-4 = Kopienas līdzdalība lēmumu pieņemšanā.
 about-playbook-how-project-governance-content-5 = Vērtība un atzinība.
 about-playbook-how-project-governance-content-6 = Savstarpēja atbildība.
-about-playbook-how-project-governance-content-7 = <governanceLink>Uzziniet vairāk par to, kā mēs tiekam pārvaldīti</governanceLink>
+about-playbook-how-project-governance-content-7 = <governanceLink>Uzzināt vairāk par to, kā mēs tiekam pārvaldīti</governanceLink>
 
 ## How is Common Voice funded
 
