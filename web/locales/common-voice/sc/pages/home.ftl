@@ -85,7 +85,6 @@ answer-questions = Risponde preguntas
 add-questions = Agiunghe preguntas <small>(luego)</small>
 press-and-stories = Istampa e istòrias
 community-and-languages = Comunidade e limbas
-coming-soon = Luego
 
 ## MENU ITEMS TOOLTIPS
 

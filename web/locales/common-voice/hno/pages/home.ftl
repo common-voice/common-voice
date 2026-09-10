@@ -81,7 +81,6 @@ add-questions = سوال شامل کرو<small>(جلدی آرہے ہن)</small
 transcribe-audio = آڈیو ٹرانسکرائب کرو<small>(جلدی آ ری اے)</small>
 press-and-stories = پریس ہور کہانڑیاں
 community-and-languages = کمیونٹی ہور زباناں
-coming-soon = جلدی آ رے آ
 
 ## MENU ITEMS TOOLTIPS
 

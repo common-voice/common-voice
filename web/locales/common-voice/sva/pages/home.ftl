@@ -79,7 +79,6 @@ add-questions = ჟესაქმ შეკითხუ̂ა̄̈ლ
 transcribe-audio = ახა̈სყ აუდიოშ ტრასკრიფცია
 press-and-stories = პრესა ი ისტორია̄̈ლ
 community-and-languages = საზოგადოება ი ნინა̈რ
-coming-soon = დო̄სგ
 about-us = ნიშგუ̂ეჲ ბედჟი
 scripted-speech = სგალჷჲრ ლიგჷრგა̈ლი
 spontaneous-speech = სპონტანურ გა̈რგლა

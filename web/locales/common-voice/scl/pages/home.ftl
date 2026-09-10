@@ -79,7 +79,6 @@ add-questions = کھوجینیک آنے یو/مشک تھے <small> لوکو ان
 transcribe-audio = شونگے ٹرانسکرائیب تھے <small> لوکو انو ہُوں</small>
 press-and-stories = پریس گہ چگائیے/شِلوکے
 community-and-languages = کویوچ گہ باشے
-coming-soon = لوکو اِیُوں ہِیں/ہُوں
 
 ## MENU ITEMS TOOLTIPS
 

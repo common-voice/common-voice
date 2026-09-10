@@ -80,7 +80,6 @@ review-questions = Gennemgå spørgsmål
 transcribe-audio = Transskriber lyd
 press-and-stories = Presse og historier
 community-and-languages = Fællesskab og sprog
-coming-soon = Kommer snart
 about-us = Om os
 
 ## MENU ITEMS TOOLTIPS

@@ -85,7 +85,6 @@ review-questions = ကလေၚ်စၟဳစၟတ်အရေဝ်သၟာ�
 transcribe-audio = ချူပတိတ်ရမျာၚ်ဟီု
 press-and-stories = ပရိုၚ် ကေုာံ ပရူပရာ
 community-and-languages = ဂကောံ ကေုာံ အရေဝ်ဘာသာဂမၠိုၚ်
-coming-soon = ခြာဟွံလအ်စၟဳ
 about-us = ပရူပရာပိုဲ
 scripted-speech = လဟီုစၞောန်
 spontaneous-speech = လဟီုသဘာဝ

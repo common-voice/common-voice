@@ -79,7 +79,6 @@ add-questions = sawaaline juwaap mićʰiin
 transcribe-audio = audio transcribe etin (choor diya)
 press-and-stories = minaśiṅ ke press
 community-and-languages = kuyooć daa baaṣiṅ
-coming-soon = Chor diya.
 
 ## MENU ITEMS TOOLTIPS
 

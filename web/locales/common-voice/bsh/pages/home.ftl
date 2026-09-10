@@ -79,7 +79,6 @@ add-questions = سوال سنا<small>(نوݜٹہ اڅہتی)</small>
 transcribe-audio = آڈیو نقل کشی<small>(نوݜٹہ اڅتہ)</small>
 press-and-stories = وسپلہ دے پرݩجیکہ
 community-and-languages = کمیونٹی (اوگعمہ) دے ورے
-coming-soon = نݜٹو ازیا
 
 ## MENU ITEMS TOOLTIPS
 

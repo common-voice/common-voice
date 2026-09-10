@@ -80,7 +80,6 @@ review-questions = Senqed isteqsiyen
 transcribe-audio = Aru aḍris n umeslaw
 press-and-stories = Taɣamsa akked yimagraden
 community-and-languages = Timɣiwnin akked tutlayin
-coming-soon = Ad yili
 about-us = Fell-aɣ
 scripted-speech = AWAL YETTWARUN
 

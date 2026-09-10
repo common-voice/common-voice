@@ -80,7 +80,6 @@ review-questions = جائِزي چي سوال
 transcribe-audio = آڊيوئِي چِي نقل ڪرا
 press-and-stories = پريس ائُون ڪهاڻِيان
 community-and-languages = برادرِي ائُو ٻولِيا
-coming-soon = جلدِي آوَڻي هاڙا ڇَي
 about-us = اٽڪل اَمچي باري ۾
 scripted-speech = لِکوڙِي تقرِير
 spontaneous-speech = بي بقا تقرِير

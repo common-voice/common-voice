@@ -82,7 +82,6 @@ review-questions = Amia torna e domande
 transcribe-audio = Trascrivi audio <small>(disponibile fito)</small>
 press-and-stories = Stampa e stöie
 community-and-languages = Communitæ e lengue
-coming-soon = Disponibile fito
 about-us = In sce niatri
 scripted-speech = DISCORSO CON TRASCRIÇION
 spontaneous-speech = DISCORSO SPONTANEO

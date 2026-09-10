@@ -80,7 +80,6 @@ review-questions = سوالون رو جائزو ليو
 transcribe-audio = آڊيو نيَ لکو
 press-and-stories = ڇپائي ھان وارتائون
 community-and-languages = برادري ھان ٻوليَ
-coming-soon = جلدِي آڻ آݪِي ھيَ
 about-us = مھوريَ باريَ ۾
 scripted-speech = لکوڙِي وات
 spontaneous-speech = بي ساخته وات (بي ترتِيب آݪِي وات)

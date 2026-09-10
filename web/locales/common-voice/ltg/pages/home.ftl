@@ -84,7 +84,6 @@ review-questions = Puorsavērt vaicuojumus
 transcribe-audio = Puorraksteit audio
 press-and-stories = Prese i stuosti
 community-and-languages = Kūpīna i volūdys
-coming-soon = Dreiži
 about-us = Par mums
 scripted-speech = SAGATAVEITUO RUNA
 spontaneous-speech = SPONTANUO RUNA

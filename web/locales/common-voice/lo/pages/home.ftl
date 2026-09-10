@@ -94,7 +94,6 @@ review-questions = ຄຳຖາມທົບທວນຄືນ
 transcribe-audio = ຖອດຂໍ້ຄວາມສຽງ
 press-and-stories = ກົດ ແລະ ເລື່ອງ
 community-and-languages = ຊຸມຊົນ ແລະ ພາສາ
-coming-soon = ໄວໆນີ້
 about-us = ກ່ຽວກັບເຮົາ
 scripted-speech = ຄໍາເວົ້າທີ່ຂຽນ
 spontaneous-speech = ຄຳເວົ້າແບບເປັນຕົວຕົນ

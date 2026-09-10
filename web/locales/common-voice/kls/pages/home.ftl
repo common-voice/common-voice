@@ -77,7 +77,6 @@ add-questions = Sawal jama kari ( ghans' en dai)
 transcribe-audio = Sawal ze Jawab ( ghans' en dai)
 press-and-stories = Press (khabar) ze Oc'oh'ink
 community-and-languages = Comety ze Zuban
-coming-soon = Gha'ns' ew dai
 
 ## MENU ITEMS TOOLTIPS
 

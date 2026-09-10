@@ -91,7 +91,6 @@ review-questions = Kérdések áttekintése
 transcribe-audio = Hangok leiratozása
 press-and-stories = Sajtó és történetek
 community-and-languages = Közösség és nyelvek
-coming-soon = Hamarosan
 about-us = Névjegy
 scripted-speech = ELŐRE MEGÍRT BESZÉD
 spontaneous-speech = SPONTÁN BESZÉD

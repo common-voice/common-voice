@@ -89,7 +89,6 @@ review-questions = Gwiriañ ar goulennoù
 transcribe-audio = Treuzskrivañ enrolladennoù <small>(a-raok pell)</small>
 press-and-stories = Kazetennoù ha pennadoù
 community-and-languages = Kumuniezhioù ha yezhoù
-coming-soon = Dizale
 about-us = Diwar hor penn
 scripted-speech = KOMZOÙ LENNET
 spontaneous-speech = KOMZ NATUREL

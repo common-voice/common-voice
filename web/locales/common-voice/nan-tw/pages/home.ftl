@@ -79,7 +79,6 @@ review-questions = 審核問題
 transcribe-audio = 轉錄語音 <small>(近期推出)</small>
 press-and-stories = 媒體佮故事
 community-and-languages = 社群佮語言
-coming-soon = 咧欲推出
 about-us = 關於咱
 scripted-speech = 有記錄的講話內容
 spontaneous-speech = 家己的講話內容

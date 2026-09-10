@@ -86,7 +86,6 @@ review-questions = Pārskatīt jautājumus
 transcribe-audio = Pārrakstīt audio
 press-and-stories = Prese un stāsti
 community-and-languages = Kopiena un valodas
-coming-soon = Drīzumā
 about-us = Par mums
 scripted-speech = SAGATAVOTĀ RUNA
 spontaneous-speech = SPONTĀNĀ RUNA

@@ -79,7 +79,6 @@ add-questions = سوال شامل گر
 transcribe-audio = آڈیو سو نقل
 press-and-stories = دباؤ گر آ قصے
 community-and-languages = کمیونٹی  آ زِب
-coming-soon = ھلہ یا
 about-us = اسئیں متعلق
 scripted-speech = نقل ھویئنل تقریر
 spontaneous-speech = ناڅاپہ تقریر

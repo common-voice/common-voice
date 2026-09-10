@@ -92,7 +92,6 @@ review-questions = የግምገማ ጥያቄዎች
 transcribe-audio = ድምጹን ወደ ፅሁፍ ይገልብጡ
 press-and-stories = ህትመት እና ታሪኮች
 community-and-languages = ማህበረሰብ እና ቋንቋዎች
-coming-soon = በቅርብ ቀን
 about-us = ስለ እኛ
 
 ## MENU ITEMS TOOLTIPS

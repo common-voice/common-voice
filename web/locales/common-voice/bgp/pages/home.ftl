@@ -94,7 +94,6 @@ add-questions = جستاں ھوار کن اِت <small>(زوت آھگ ءَ اِ�
 transcribe-audio = آڈیو ءِ نبشتہ کنگ <small>(زوت آھگ ءَ اِنت)</small>
 press-and-stories = پریس ءُ کسہ
 community-and-languages = چاگرد ءُ زبان .
-coming-soon = زوت پیداکیں
 
 ## MENU ITEMS TOOLTIPS
 

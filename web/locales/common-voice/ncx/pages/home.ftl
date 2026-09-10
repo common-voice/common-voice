@@ -86,7 +86,6 @@ add-questions = Xikinmijkuilo seki Tlajtlanilmej <small>(Yikin yetos)</small>
 transcribe-audio = Xikkaki uan Xikijkuilo <small>(Yikin yetos)</small>
 press-and-stories = Tlen yikin omochi
 community-and-languages = Akinmej Tlajtoaj
-coming-soon = Yikin yetos
 
 ## MENU ITEMS TOOLTIPS
 

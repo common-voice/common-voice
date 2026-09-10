@@ -87,7 +87,6 @@ review-questions = Prašenja přepruwować
 transcribe-audio = Awdijo transkribować
 press-and-stories = Nowiny a stawiznički
 community-and-languages = Zhromadźenstwo a rěče
-coming-soon = Bórze k dispoziciji
 about-us = Wo nas
 scripted-speech = RĚČENJE ZE SKRIPTOM
 spontaneous-speech = SPONTANE RĚČENJE

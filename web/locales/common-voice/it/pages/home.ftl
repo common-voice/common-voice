@@ -79,7 +79,6 @@ review-questions = Convalida domande
 transcribe-audio = Trascrivere audio <small>(disponibile a breve)</small>
 press-and-stories = Stampa e storie
 community-and-languages = Comunità e lingue
-coming-soon = Disponibile a breve
 about-us = Informazioni
 scripted-speech = DISCORSO LETTO
 spontaneous-speech = DISCORSO SPONTANEO

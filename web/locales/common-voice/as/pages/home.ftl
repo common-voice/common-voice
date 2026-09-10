@@ -83,7 +83,6 @@ review-questions = প্ৰশ্ন পৰ্যালোচনা কৰক
 transcribe-audio = অডিঅ’ লিপিবদ্ধ কৰক
 press-and-stories = সংবাদ আৰু গল্প
 community-and-languages = সমাজ আৰু ভাষা
-coming-soon = শীঘ্ৰেই আহি আছে
 about-us = আমাৰ বিষয়ে
 scripted-speech = লিখিত ভাষণ
 spontaneous-speech = স্বতঃস্ফূৰ্ত ভাষণ

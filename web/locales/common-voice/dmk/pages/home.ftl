@@ -94,7 +94,6 @@ add-questions = سݸݳلݸݣ خَرِشݳرݳ <small>(ڞَگݳ آݣݺ)</small>
 transcribe-audio = پݸرجِنݳ چھݸت گِرمِنݳنݳشݸ <small>(ڞَگݳ آݣݺ)</small>
 press-and-stories = مݵڈِݵݳ نݸ کہݳنݵݣ
 community-and-languages = کمݵݸنٹݵ نݸ بݳݽݸݣ
-coming-soon = ڞَگݳ آگݳ چھݳ
 
 ## MENU ITEMS TOOLTIPS
 

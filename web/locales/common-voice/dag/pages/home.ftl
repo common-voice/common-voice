@@ -52,7 +52,6 @@ add-questions = Pahimi bɔhisi
 review-questions = Labi lihi bɔhisi
 transcribe-audio = Lɛbigimi kukɔli
 community-and-languages = Tingbana mini Bala
-coming-soon = Di be sɔli
 about-us = zaŋ kpa ti polo
 
 ## Action items section

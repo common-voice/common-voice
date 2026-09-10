@@ -76,7 +76,6 @@ add-questions = 新增問題 <small>(近期推出)</small>
 transcribe-audio = 轉錄語音 <small>(近期推出)</small>
 press-and-stories = 媒體與故事
 community-and-languages = 社群與語言
-coming-soon = 即將推出
 
 ## MENU ITEMS TOOLTIPS
 

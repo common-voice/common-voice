@@ -80,7 +80,6 @@ review-questions = ქიგნაჯინით ოკითხირეეფ
 transcribe-audio = აუდიოში ნაჭარათ მოჩამა
 press-and-stories = პრესა დო სიახალეეფი
 community-and-languages = საზოგადოება დო ნინეფი
-coming-soon = მალას
 about-us = ჩქინ გურშენი
 scripted-speech = ჭარილი ნინა
 spontaneous-speech = სპონტანური ჩიება

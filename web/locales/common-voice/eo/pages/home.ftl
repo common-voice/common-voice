@@ -80,7 +80,6 @@ review-questions = Kontroli demandojn
 transcribe-audio = Transkribi sonon
 press-and-stories = Gazetaro kaj artikoloj
 community-and-languages = Komunumoj kaj lingvoj
-coming-soon = Baldaŭ
 about-us = Pri ni
 scripted-speech = SKRIPTITA PAROLADO
 spontaneous-speech = SPONTANEA PAROLADO

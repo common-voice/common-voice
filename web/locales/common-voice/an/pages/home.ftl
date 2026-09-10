@@ -79,7 +79,6 @@ add-questions = Anyadir preguntas <small>(disponible luego)</small>
 transcribe-audio = Transcribir audio
 press-and-stories = Prensa y articlos
 community-and-languages = Comunidat y idiomas
-coming-soon = Disponible luego
 
 ## MENU ITEMS TOOLTIPS
 

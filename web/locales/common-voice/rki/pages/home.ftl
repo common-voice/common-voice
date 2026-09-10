@@ -98,7 +98,6 @@ review-questions = မေးခွန်းတိကို ပြန်သုံ
 transcribe-audio = အသံကို စာနန့် ပြန်ရီးပီးပါ
 press-and-stories = စာနယ်ဇင်းနန့် ဇာတ်လမ်းတိ
 community-and-languages = အသိုင်းအဝိုင်းနန့် ဘာသာစကားတိ
-coming-soon = မကြာခင် လာပါဖို့
 about-us = အကျွန်ရို့ အကြောင်း
 scripted-speech = စာဖတ်ပြော စကား
 spontaneous-speech = လက်တန်းပြော စကား

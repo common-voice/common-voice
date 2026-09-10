@@ -87,7 +87,6 @@ review-questions = Pšašanja pśeglědowaś
 transcribe-audio = Awdio transkriběrowaś
 press-and-stories = Casnikaŕstwo a tšojenja
 community-and-languages = Zgromaźeństwo a rěcy
-coming-soon = Skóro k dispoziciji
 about-us = Wó nas
 scripted-speech = POWĚDANJE ZE SKRIPTOM
 spontaneous-speech = SPONTANE POWĚDANJE

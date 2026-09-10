@@ -82,7 +82,6 @@ add-questions = افزودن پرسش‌ها
 transcribe-audio = صداها را رونویسی کنید
 press-and-stories = مطبوعات و داستان‌ها
 community-and-languages = اجتماع و زبان‌ها
-coming-soon = به زودی
 about-us = دربارهٔ ما
 scripted-speech = گفتار نوشته‌شده
 spontaneous-speech = گفتار فی‌البداهه

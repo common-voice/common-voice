@@ -78,7 +78,6 @@ review-questions = 审核问题
 transcribe-audio = 转录音频<small>（即将推出）</small>
 press-and-stories = 新闻和文章
 community-and-languages = 社区和语言
-coming-soon = 即将推出
 about-us = 关于我们
 scripted-speech = 朗读文本
 spontaneous-speech = 即兴发言

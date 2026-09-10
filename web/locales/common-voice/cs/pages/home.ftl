@@ -84,7 +84,6 @@ review-questions = Kontrolujte otázky
 transcribe-audio = Přepis zvuku <small>(již brzy)</small>
 press-and-stories = Tisk a příběhy
 community-and-languages = Komunita a jazyky
-coming-soon = Již brzy
 about-us = O nás
 scripted-speech = SKRIPOVANÁ ŘEČ
 spontaneous-speech = SPONTÁNNÍ ŘEČ

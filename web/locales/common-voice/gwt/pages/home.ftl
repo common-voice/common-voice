@@ -79,7 +79,6 @@ add-questions = کھُد نامہ لُبُسَؤ<small>( ݭُورہ ژِمان)<
 transcribe-audio = آڈیوَہ نقل کېرِؤ<small>( ݭُورہ ژِمان)</small>
 press-and-stories = پرېس اؤ ہیڄان نام
 community-and-languages = برادری اؤ باتی نام
-coming-soon = دَدُپی ژِمان
 
 ## MENU ITEMS TOOLTIPS
 

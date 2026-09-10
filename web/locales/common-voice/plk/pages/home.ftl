@@ -95,7 +95,6 @@ review-questions = سوالاتو جائزہ ہرہ
 transcribe-audio = آڈِیو نَل تِھیا <small> (جِنیْ اِیوݨَس) </small>
 press-and-stories = پریس گہ قصائے
 community-and-languages = کمیونٹی گہ جِبہ
-coming-soon = جِنیْ اِینوْ
 about-us = اسے بارَد
 scripted-speech = لِکِیلیْ تقریر
 spontaneous-speech = بے ساختہ تقریر

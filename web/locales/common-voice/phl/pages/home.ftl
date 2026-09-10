@@ -83,7 +83,6 @@ add-questions = سویلی جمع تھئنی  <small>(لپ یھین )</small>
 transcribe-audio = ٹرانسکائیب ہاواز  <small>(لپ یھین )</small>
 press-and-stories = پریس او شلوکہ
 community-and-languages = کمیونٹی او زبینی
-coming-soon = لپ یِھین
 
 ## MENU ITEMS TOOLTIPS
 

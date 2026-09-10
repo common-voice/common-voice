@@ -75,7 +75,6 @@ read-more-about = 去關於我哋嘅頁面瞭解更多
 answer-questions = 回答問題
 review-transcriptions = 審核轉寫
 transcribe-audio = 轉寫語音
-coming-soon = 即將上線
 
 ## Hero section
 

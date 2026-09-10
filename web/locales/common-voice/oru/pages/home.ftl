@@ -79,7 +79,6 @@ add-questions = سؤلی ل دی ګډ کَۀ <small> څوار بُو سېره </
 transcribe-audio = ا ډیو نقل کَۀ <small>څوار بُو سېره </small>
 press-and-stories = پرېس او کهانيے
 community-and-languages = کمیونېټی او زبنی
-coming-soon = سېره ر بُو څوا
 about-us = ترماخ بارۀ نر
 scripted-speech = لیکيېک تقریر
 spontaneous-speech = بې ديېڅن تقریر

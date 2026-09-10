@@ -97,7 +97,6 @@ review-questions = Pregledaj pitanja
 transcribe-audio = Transkribiraj audio snimke
 press-and-stories = Objave i priče
 community-and-languages = Zajednica i jezici
-coming-soon = Uskoro stiže
 about-us = O nama
 scripted-speech = PRIPREMLJEN GOVOR
 spontaneous-speech = SPONTANI GOVOR
