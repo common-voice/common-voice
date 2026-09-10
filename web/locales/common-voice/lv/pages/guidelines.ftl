@@ -249,7 +249,7 @@ code-switching-avoid-subheader = No kā izvairīties
 code-switching-avoid-intro = Jautājumi, kas varētu:
 code-switching-avoid-1 = Pieprasīt personu identificējošu informāciju
 code-switching-avoid-2 = Izraisīt naida runu vai citus neobjektīvus vai aizskarošus uzskatus
-code-switching-avoid-3 = Likt kādam dalīties ar jutīgām, potenciāli izraisošām reakcijām
+code-switching-avoid-3 = Likt kādam dalīties ar jūtīgām, iespējami uzkurinošām atbildēm
 code-switching-dont-header = Nedarīt
 code-switching-dont-1 = Nelietojiet pārāk formālu valodu
 # Reviewing a Question
