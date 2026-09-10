@@ -1,6 +1,6 @@
 ## Error pages
 
-banner-error-slow-1 = Atvainojiet, Common Voice darbojas lēni. Paldies par interesi.
+banner-error-slow-1 = Atvainojamies! Common Voice darbojas lēni. Paldies par interesi!
 banner-error-slow-2 = Mēs saņemam daudz pieprasījumu un pašlaik risinām problēmas.
 banner-error-slow-link = Statusa lapa
 error-something-went-wrong = Piedodiet, kaut kas nogāja greizi
