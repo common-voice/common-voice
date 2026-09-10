@@ -475,7 +475,7 @@ donate-banner-cta-explanation = Datu kopu uzturēšana un platformas uzlabošana
 languages-donate-banner-cta = <mark>Vai izmantojat CV</mark><br/><mark>savos pētījumos?</mark>
 languages-donate-banner-cta-explanation = Common Voice tiek finansēta no ziedojumiem un dotācijām! Mums patīk sadarboties ar akadēmiķiem, pilsonisko sabiedrību un nozares pētniekiem. Common Voice var izmantot bez maksas, taču platformas un serveru izmaksu segšana, izmantojot pētījumu programmu dotācijas, ir patiešām noderīga.
 localization-select =
-    .label = Izvēlieties valodu/lokalizāciju
+    .label = Izvēlies valodu/lokalizāciju
 
 ## MDC Announcement
 

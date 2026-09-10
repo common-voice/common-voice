@@ -54,7 +54,7 @@ continue-speaking-button = Nē, paldies, turpināšu ierakstīt
 create-profile-text = Vēlies saglabāt savu informāciju? <createProfile>Izveido profilu</createProfile>
 thanks-for-voice-toast = Paldies par balss informāciju
 thanks-for-voice-toast-error = Iesniedzot jūsu balss informāciju, radās kļūda
-first-cta-gender-select-default-option = Lūdzu izvēlieties
+first-cta-gender-select-default-option = Atlasīt iespēju
 first-cta-gender-select-help-text =
     .label = Kā jūs raksturotu savu dzimumu?
 # SECOND POST SUBMISSION CTA

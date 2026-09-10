@@ -37,7 +37,7 @@ single-sentence = Viens teikums
 small-batch-sentence = Maza partija
 bulk-sentence = Lielapjoma partija
 sentence-domain-combobox-label = Teikuma joma
-sentence-domain-select-placeholder = Izvēlieties līdz trim jomām
+sentence-domain-select-placeholder = Jāatlasa līdz trim jomām (pēc izvēles)
 # Sentence Domain dropdown option
 agriculture_food = Lauksaimniecība un pārtika
 # Sentence Domain dropdown option
@@ -63,7 +63,7 @@ news_current_affairs = Ziņas un aktualitātes
 # Sentence Domain dropdown option
 technology_robotics = Tehnoloģijas un robotika
 sentence-variant-select-label = Teikuma variants
-sentence-variant-select-placeholder = Izvēlieties variantu (neobligāti)
+sentence-variant-select-placeholder = Atlasi variantu (pēc izvēles)
 sentence-variant-select-multiple-variants = Vispārējā valoda / vairāki varianti
 
 ## BULK SUBMISSION
@@ -76,7 +76,7 @@ bulk-upload-additional-information = Ja vēlaties sniegt papildu informāciju pa
 template-file-additional-information = Ja par šo datni vēlaties sniegt papildu informāciju, kas nav iekļauta veidnē, lūdzu, sazinieties ar <emailFragment>commonvoice@mozilla.com</emailFragment>.
 try-upload-again = Mēģiniet vēlreiz ievilkt šeit datni ko augšupielādēt
 try-upload-again-md = Mēģiniet augšupielādēt vēlreiz
-select-file = Izvēlieties datni
+select-file = Atlasi datni
 select-file-mobile = Atlasiet augšupielādējamo datni
 accepted-files = Atbalstītie datņu veidi: tikai .tsv
 minimum-sentences = Mazākais pieļaujamais teikumu skaits datnē: 1000
