@@ -71,13 +71,18 @@ player-speed-fast = Ātri
 
 ## Transcription Player Controls - Keyboard Shortcuts
 
+# Player control shortcut for play/pause: pressed with Ctrl/Cmd
+player-play-pause-shortcut = p
+player-play-pause-shortcut-key = Ctrl / Cmd + P
 player-play-pause-shortcut-name = Atskaņot/pārtraukt
 # Player control shortcut to go back 5 seconds: pressed with Ctrl/Cmd
 player-skip-backward-shortcut = 8
 player-skip-backward-shortcut-key = Ctrl/Cmd + 8
+player-skip-backward-shortcut-name = Atpakaļ
 # Player control shortcut to go forwards 5 seconds: pressed with Ctrl/Cmd
 player-skip-forward-shortcut = 9
 player-skip-forward-shortcut-key = Ctrl/Cmd + 9
+player-skip-forward-shortcut-name = Uz priekšu
 
 ## Transcription Player - Aria Labels
 
@@ -85,6 +90,14 @@ player-skip-forward-shortcut-key = Ctrl/Cmd + 9
 player-play-button-aria-label = Atskaņot skaņu
 # Pause button accessibility/aria label
 player-pause-button-aria-label = Pārtraukt atskaņošanu
+# Skip back button accessibility/aria label
+player-skip-backward-aria-label = Pārlēkt atpakaļ 5 sekundes
+# Skip forward button accessibility/aria label
+player-skip-forward-aria-label = Pārlēkt uz priekšu 5 sekundes
+# Audio playback progress slider accessibility/aria label
+player-progress-slider-aria-label = Audio atskaņošanas virzības slīdnis
+# Toggle speed and transcription mode menu button
+player-toggle-mode-menu-aria-label = Pārslēgt režīma izvēlni
 # Slower playback speed button accessibility/aria label
 player-speed-slow-aria-label = Mazāks atskaņošanas ātrums
 # Normal playback speed button accessibility/aria label
@@ -93,3 +106,5 @@ player-speed-normal-aria-label = Parasts atskaņošanas ātrums
 player-speed-fast-aria-label = Lielāks atskaņošanas ātrums
 # Auto transcription mode button accessibility/aria label
 transcription-mode-auto-aria-label = Pārslēgt automātisko vārds pa vārdam atskaņošanu
+# Mode menu button accessibility/aria label
+transcription-mode-menu-aria-label = Pārslēgt transkripcijas režīma izvēlni
