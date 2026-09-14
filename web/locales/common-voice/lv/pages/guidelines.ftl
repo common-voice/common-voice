@@ -281,7 +281,7 @@ code-switching-authentic-direct-quotes-example = “Mamma teica: ‘Tu ko?’ un
 code-switching-authentic-reflect = <bold>Atspoguļojiet emocijas, identitāti un kontekstu.</bold> Pārslēgšanās parasti notiek, kad cilvēki pauž emocijas, steidzamību vai kultūras idejas. Atbildot uz jautājumiem, ņemiet vērā šos aspektus.
 code-switching-authentic-full-context = <bold>Izmantojiet pilnīgas atbildes ar kontekstu.</bold> Esiet pēc iespējas detalizētāka, sniedzot pēc iespējas vairāk detaļu. Savās atbildēs dalieties ar stāstu vai piemēru.
 # Don’t Overthink or Overedit
-code-switching-answer-dont-subheader = Nepārdomājiet un nepārrediģējiet
+code-switching-answer-dont-subheader = Nedomā pārāk daudz un nepārcenties ar labošanu
 code-switching-answer-dont-correct-language = <bold>“Izlabojiet” savu valodu.</bold> Šis nav tests. Šeit nav svarīga “pareiza” forma, svarīga ir dabiskā valoda.
 code-switching-answer-dont-avoid-switching = <bold>Izvairieties no vārdu maiņas, ja parasti to darāt.</bold> Ir pilnīgi pareizi mainīt vārdus teikuma vidū, domas vidū vai tikai viena vārda ietvaros.
 code-switching-answer-dont-formal-writing = <bold>Runājiet tā, it kā rakstītu formāli.</bold> Izvairieties no formālām, akadēmiskām atbildēm. Saglabājiet sarunvalodas stilu.
