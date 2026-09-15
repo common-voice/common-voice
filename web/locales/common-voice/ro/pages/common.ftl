@@ -198,6 +198,7 @@ kpv = Komi-ziriană
 krc = Karachay-Balkar
 ks = Kașmiră
 ksf = Bafia
+kum = kumîcă
 kvx = Parkari Koli
 kw = Cornică
 kxp = Wadiyara Koli
