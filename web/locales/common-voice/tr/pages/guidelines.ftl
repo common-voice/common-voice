@@ -145,6 +145,7 @@ example-questions-explanation-2 = Besleme için çok sayıda soru göndermek ist
 # Answer Questions
 answer-questions = Soru yanıtlama
 answer-questions-subheader = Genel yönergeler
+answer-questions-explanation-1 = Yönerge üzerinde biraz düşünüp ne söylemek istediğinizi göz önünde bulundurun, ancak söyleyeceklerinizi fazla planlamayın. ‘Kayıt’ simgesine tıklayın. Kaydı tamamladıktan sonra dinleyebilir, yeniden kaydedebilir, silebilir veya gönderebilirsiniz.
 answer-questions-tip-1 = Olabildiğince sessiz bir yerde kayıt yapın
 answer-questions-tip-2 = İnternet bağlantısı iyi olan bir yer seçin
 answer-questions-tip-3b = Yanıtınızı 15-30 saniye arasında tutmaya çalışın
