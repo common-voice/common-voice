@@ -7,6 +7,7 @@ error-something-went-wrong = Piedodiet, kaut kas nogāja greizi
 error-clip-upload = Šī ieraksta augšupielāde joprojām neizdodas. Mēģināt vēlreiz?
 error-clip-upload-server = Šī ieraksta augšupielāde serverī joprojām neizdodas. Jāpārlādē lapa vai vēlāk jāmēģina vēlreiz.
 error-clip-upload-too-large = Ieraksta datne ir pārāk liela, lai augšupielādētu. Lūgums mēģināt ierakstīt īsāku gabalu.
+error-clip-upload-server-error = Servera kļūda ieraksta apstrādāšanā. Lūgums pārlādēt lapu un vēlāk mēģināt vēlreiz.
 error-title-404 = Mēs nevarējām atrast šo lapu
 error-content-404 = Varbūt mūsu <homepageLink>mājaslapa</homepageLink> palīdzēs? Lai uzdotu jautājumu, lūgums pievienoties <matrixLink>Matrix kopienas tērzētavā</matrixLink>, pārraudzīt vietnes nepilnības <githubLink>GitHub</githubLink>, vai apmeklēt <discourseLink>mūsu Discourse forumus</discourseLink>.
 error-title-429-no-time = Tu darbojies pārāk ātri. Lūgums piebremzēt un pēc brīža mēģināt vēlreiz.
