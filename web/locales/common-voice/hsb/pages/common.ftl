@@ -198,6 +198,7 @@ kpv = Komi-syrjenšćina
 krc = Karačajsko-balkaršćina
 ks = Kašmiršćina
 ksf = Bafia
+kum = Kumykšćina
 kvx = Parkari Koli
 kw = Kornišćina
 kxp = Wadiyara Koli
