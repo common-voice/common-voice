@@ -198,6 +198,7 @@ kpv = Komi-Zyrian
 krc = Karachay-Balkar
 ks = Kashmiri
 ksf = Bafia
+kum = Cumucco
 kvx = Parkari Koli
 kw = Cornico
 kxp = Wadiyara Koli
