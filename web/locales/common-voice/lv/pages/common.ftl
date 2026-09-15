@@ -188,6 +188,7 @@ kpv = Komi-Zīriju
 krc = Karachay-Balkar
 ks = Kašmiru
 ksf = Bafia
+kum = Kumiku
 kvx = Parkari Koli
 kw = Kornvolu
 kxp = Wadiyara Koli
