@@ -10,6 +10,8 @@ error-fetching-prompts = Сорауларны алганда нәрсәдер д
 delete = Бетерү
 # For the disabled button on a prompt that indicates a prompt is already submitted
 submitted = Җибәрелде
+# For the button on the Respond to prompts page which can be used to submit all responses at once
+submit-all-button = Барысын да җибәрү
 
 ## Explainer text (Respond to Prompt)
 

@@ -284,6 +284,7 @@ code-switching-transcribe-subheader = Текстка күчерү
 code-switching-transcribe-do-1 = Сизелмәслек күчүләрне табу өчен кыска кисәкләрне берничә тапкыр уйнатыгыз
 # Capture Speech Exactly as Spoken
 code-switching-capture-header = Сөйләмне нәкъ ишетелгәнчә туплагыз
+code-switching-filler-explanation = «Эээ», «ягъни», «шул», «беләсең бит» һәм «инде» кебек сүзләрнең үз мәгънәсе бар. Мисал өчен: «Шулай итеп, эээ, мин аңа, ягъни: 'шул, белмим инде, бәлки соңрактыр', дидем».
 # Use standard spelling for each language
 code-switching-spelling-header = Һәр тел өчен стандартлы орфографияне кулланыгыз
 code-switching-spelling-explanation = Кулланылган һәр тел өчен сүзләрне дөрес язарга тырышыгыз. Әлбәттә, сөйләүче аларны махсус итеп стандартлы булмаган итеп укымаса.
