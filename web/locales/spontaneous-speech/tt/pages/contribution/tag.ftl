@@ -17,6 +17,7 @@ undo = Кире алу
 tag-page-shortcut-select-all = A
 select-all = Барысын да сайлау
 cs-tag-do-guideline-3 = Охшаш сүзләр белән сак булыгыз
+cs-tag-shortcuts-section-title = Клавиатура куллану
 cs-tag-shortcuts-guideline-1 = <key>1</key>-<key>{ $numLanguages }</key> Тел белән билге
 cs-tag-shortcuts-guideline-2 = <key>{ tag-page-shortcut-toogle-mouse-keyboard }</key> { toogle-mouse-keyboard }
 cs-tag-shortcuts-guideline-3 = <key>{ tag-page-shortcut-remove-tags }</key> { remove-tags }
