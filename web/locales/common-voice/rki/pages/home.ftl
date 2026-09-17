@@ -175,6 +175,8 @@ download-press-pack = အကျွန်ရို့ စာနယ်ဇင်း
 
 ## Developers section
 
+developers-section-title-202608 = ဘာသာစကား 330+ နန့် အများသူငှာ အသုံးပြုနိုင်ယေ ပွင့်လင်းယေ စကားပြောဒေတာအတွဲတိ
+developers-section-subtitle-v2 = ASR နန့် တခြား NLP ဆက်စပ်အကြောင်းအရာတိအတွက် ဒေတာအတွဲတိ - အသိုင်းအဝိုင်းပါဝင်မှုကတစ်ဆင့် ဖန်တီးထားရေ။
 # icon is an arrow that points to the right
 explore-datasets = ဒေတာစုတိကို စူးစမ်းလေ့လာကြည့်ပါ <icon></icon>
 
