@@ -6,6 +6,7 @@ mic-access-error = Сезнең микрофоныгызны куллануны 
 no-prompts-continue-skipped-message = Бу тел өчен башка сораулар юк. Нәрсәнедер карамыйча үтеп киткән булсагыз, сез, андый контентны шул килеш калдырып, аудионы транскриблауга күчә аласыз яки соңрак яңадан кабатлый аласыз.
 error-recording = Яздырганда хата килеп чыкты
 error-fetching-prompts = Сорауларны алганда нәрсәдер дөрес бармады. Бераз гына көтегез һәм аннары яңадан кабатлагыз.
+cannot-play-audio = Аудионы уйнатып булмый. Зинһар, кабатлап карагыз.
 # For the button to delete a response to a prompt
 delete = Бетерү
 # For the disabled button on a prompt that indicates a prompt is already submitted
