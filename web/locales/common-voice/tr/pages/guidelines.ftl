@@ -215,6 +215,10 @@ code-switching-review-no-2 = Nefret söylemi, önyargılı ya da saldırgan ifad
 code-switching-review-no-3 = Birisinin hassas, potansiyel olarak tetikleyici yanıtları paylaşmasına neden olabilecek sorular
 # Answering a Question
 code-switching-answer-subheader = Soru cevaplama
+code-switching-answer-bullet-2 = Arkadaşınızla mesajlaşıyormuş ya da birine hikâye anlatıyormuş gibi düşünün
+code-switching-answer-bullet-4 = Hiçbir yanıtın “mükemmel” olması gerekmez
+code-switching-authentic-header = Doğal ve içten yanıt verin
+code-switching-authentic-speak = <bold>Arkadaşlarınızla veya ailenizle konuştuğunuz gibi konuşun.</bold> Günlük hayatta dilleri karıştırıyorsanız burada da öyle yapın. Örnek:
 # Transcribing
 code-switching-transcribe-subheader = Metne çevirme
 # Tagging
