@@ -225,6 +225,7 @@ code-switching-adding-question-criteria-3 = Әдәпсез яки рәнҗетк
 code-switching-adding-question-note = Сез шулай ук төрле контекстлар һәм өлкәләрне үз эченә алу турында уйлый аласыз.
 # What types of questions to add
 code-switching-types-subheader = Нинди төрдәге сорауларны кертергә?
+code-switching-use-bilingual-prompts-header = Ике телдәге сорауларны кулланыгыз
 code-switching-use-bilingual-prompts-explanation-example = "Что тебе сказала мама, шул көнне өйгә кайткач?"
 code-switching-ask-bilingual-contexts-header = Билингваль контекстлар турында сорарга
 code-switching-ask-bilingual-contexts-explanation = Гадәттә, ике тел дә кулланыла торган ситуацияләрне тасвирлагыз (мәсәлән, өйдә, мәктәптә, җәмгыять чараларында). Мәсәлән:
