@@ -160,8 +160,8 @@ explore-datasets = Izpietejit datu kūpys <icon></icon>
 ## Get involved section
 
 get-involved-section-title = Atbolstit valejis, kūpīnys taiseitys datu kūpys
-read-sentences-link = Skaiti teikumus
-validate-readings-link = Apstyprynuot īrunuotū
+read-sentences-link = Skaitit teikumus
+validate-readings-link = Apstyprynojat īrunuotū
 contribute-link = Papyldynojat tekstu korpusu
 answer-questions-link = Atbiļdit iz vaicuojumim
 transcribe-answers-link = Puorrakstit atbiļdis
