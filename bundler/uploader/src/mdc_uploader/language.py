@@ -50,6 +50,15 @@ class LanguageRegistry:
             variants=[],
             predefined_accents=[],
         ),
+        "pt-BR": LanguageData(
+            id=0,
+            code="pt-BR",
+            native_name="português brasileiro",
+            english_name="Brazilian Portuguese",
+            text_direction="LTR",
+            variants=[],
+            predefined_accents=[],
+        ),
     }
 
     def __init__(self) -> None:
