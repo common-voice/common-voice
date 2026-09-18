@@ -198,6 +198,7 @@ kpv = Komi-zyriène
 krc = Karatchaï balkar
 ks = Cachemiri
 ksf = Bafia
+kum = Koumyk
 kvx = Parkari
 kw = Cornique
 kxp = Wadiyari
