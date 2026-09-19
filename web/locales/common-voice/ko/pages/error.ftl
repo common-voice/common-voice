@@ -19,4 +19,9 @@ error-content-502 = 지금은 서버와 안정적인 연결을 할 수 없습니
 error-title-503 = 예기치 않은 작동 중단 발생 중
 error-content-503 = 본 사이트는 가능한 한 빨리 백업됩니다. 최신 정보를 보려면 <matrixLink>Matrix 커뮤니티 채팅</matrixLink>에 참여하거나 <githubLink>GitHub</githubLink> 또는 <discourseLink>Discourse 포럼 </discourseLink>을 방문하여 사이트 경험 문제를 제출하고 모니터링하세요.
 error-title-504 = 요청 시간 초과
+error-content-504 = 요청을 완료하는 데 시간이 너무 오래 걸렸습니다. 이는 대개 일시적입니다. 다시 시도하세요. 도움이 필요하면 <matrixLink>Matrix 커뮤니티 채팅</matrixLink>에 참여하거나 <githubLink>GitHub</githubLink>을 통해 사이트 문제를 모니터링하거나 <discourseLink>Discourse 포럼</discourseLink>을 방문하세요.
 error-code = 오류 { $code }
+# Warning message shown when none of the clips could be uploaded
+error-duplicate-clips-all = { $total } 클립을 업로드할 수 없습니다. 이전에 이미 업로드 되었습니다. 다음 배치에서 계속합시다!
+# Warning message shown when only some of the clips could be uploaded (uploaded count will be <5)
+error-duplicate-clips-some = 클립 중 { $uploaded }개를 업로드했습니다 — 나머지가 이미 업로드 되었습니다. 다음 배치에서 계속합시다!

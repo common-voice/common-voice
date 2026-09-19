@@ -14,6 +14,8 @@ listen-abort-cancel = 검증 계속하기
 listen-abort-confirm = 검증 마치기
 # Menu item
 validate-readings = 낭독 검증
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = 읽기 검증 <small>(지원 예정)</small>
 
 ## MENU ITEM TOOLTIPS
 
