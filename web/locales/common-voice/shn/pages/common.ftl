@@ -254,10 +254,60 @@ rwm = ဢႅမ်ႇၿႃႇ
 sah = ၸၵ်းၶႃႇ
 sat = သၼ်းတႃႇရီႇ(ဢူဝ်းလ် ၵျီႇၵီႇ)
 sba = ငမ်းၿၢႆႇ
+sbn = သိၼ်းၻီႇၿီႊလ်
+sc = သႃႊၻီႇၼီႇယႅၼ်း
+scl = သျီႊၼႃႇ
+scn = ၸီႇသီႇလႅၼ်း
+sco = သၵွတ်ႉသ်
+sd = သိၼ်းၻီႇ
+sdh = ၶိူတ်ႉသျ်(ပွတ်းၸၢၼ်း)
+sdo = သေႇရီႇယႅၼ်း ၿီႇၻႃႇယုၵ်ႉ
+seh = သေႇၼႃႇ
+sei = သေႇရီႇ
+sg = သၼ်ႇၵူဝ်ႇ
+shi = တႃႇသျႅၼ်ႇႁိတ်ႉသ်
+shn = တႆး
+si = သိၼ်းႁႃႇလႃႇ
+sk = သလူဝ်ႇဝႅၵ်ႉ
+skr = သရေႇၶီႇ
+sl = သလူဝ်ႇဝေးၼီႇယၼ်ႇ
+sn = သျူဝ်းၼႃႇ
+snk = သူၼ်းဢိၼ်းၶေး
+snv = သျႃႊၿၢၼ်ႊ
+so = သူဝ်ႇမႃးလီႇ
+usp = ဢုတ်ႉပၼ်ႇတေႇၵူဝ်ႇ
+uz = ဢုတ်ႉသ်ပဵၵ်ႇ
+var = ဝႃႇရီႇႁီႇဢူဝ်ႇ
+ve = သျီႇဝႅၼ်ႇၻႃႇ
+vec = ဝေႇၼေႇသျႅၼ်ႇ
+vi = ဝႅတ်ႉၼၢမ်း
+vls = ၾလႅမ်ႇမိသျ် ပွတ်းတူၵ်း
+vmw = ဢေႇမႃႇၶူႇဝႃႇ
+vot = ဝူဝ်ႇတိၵ်ႉ
+wbl = ဝႃႇၶီႇ
+wep = ဝႅတ်ႉသ်ႉၾႃႇလိၼ်ႇ
+wes = ၵႃႇမႃႇရူးၼ်ႇ ၽိတ်ႉၵျိၼ်ႇ
+wo = ဝူဝ်ႇလူဝ်ႇၾ်
+xdq = ၶၢႆႇတႅတ်ႉၵ်
+xh = ၶူဝ်ႇသႃႇ
+xhe = ၶေႇတရႃႇၼီႇ
+xka = ၵၼ်ႇၵူဝ်ႇတီႇ
+xkl = ၵဵၼ်ႇၺႃႇ
+xmf = မိင်ႇၵရေႇလျိၼ်ႇ
+xsm = ၵႃႇသႅမ်ႇ
+yaq = ယႃႇၵုၺ်ႇ
+yav = ၼူႇဢႃႇသူႇဢေႇ
+ydg = ယၢၻ်ႉၵႃႇ
+yi = ယိတ်ႉတိတ်ႉသျ်
+yo = ယူဝ်ႇရူႇၿႃႇ
 yue = ၵႂၢၼ်ႇတူင်း
+zgh = တႃႇမႃႇသျႅတ်ႉ
 zh-CN = ၶႄႇ (ၶႄႇ)
 zh-HK = ၶႄႇ (ႁွင်ႇၵွင်ႇ)
 zh-TW = ၶႄႇ (ထႆႇဝၼ်ႇ)
+zoc = ၵူဝ်ႇပၢႆႇၼႃႇလႃႇ သူဝ်ႇၵႄႇ
+zu = ၸူႇလူႇ
+zza = ၸႃႇၸႃႇ
 
 ## Layout
 
@@ -288,6 +338,14 @@ email-opt-in-info-sub-with-challenge = ႁပ်ႉဢီးမေးလ် မ�
 email-opt-in-privacy-v2 = လူၺ်ႈၵၢၼ်လိူၵ်ႈႁပ်ႉဢီးမေးလ် သူၸဝ်ႈၽွမ်ႉၸွမ်းတႃႇႁႂ်ႈ Mozilla ယိပ်းၵမ်ၶေႃႈမုၼ်းဢၼ်ၼႆႉ ၼင်ႇသပ်းၸႅင်ႈဝႆႉၼႂ်း <privacyLink>ၶေႃႈပိုၼ်ၽၢဝ်ႇလွင်ႈသုၼ်ႇတူဝ်</privacyLink> ၶွင် Mozilla
 indicates-required = * ပဵၼ်ဢွင်ႈတီႈဢၼ်ဢမ်ႇထႅမ်ဢမ်ႇလႆႈ
 not-available-abbreviation = ဢ/မ
+# Text shown on a button that can be clicked to copy text to the clipboard
+copy = ၵေႃႇပီႇ
+# Text shown on a button that can be clicked to close a modal or panel
+close = ပိၵ်ႉ
+# Text shown on a button that can be clicked to cancel an action
+cancel = ယႃႉသိမ်း
+# Text shown on a button that can be clicked to delete an item
+delete = မွတ်ႇ
 
 ## Donate banner
 
