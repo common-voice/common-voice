@@ -11,6 +11,7 @@ record-must-allow-microphone = ၸဝ်ႈၵဝ်ႇ တေလႆႈပၼ်
 record-no-mic-found = ဢမ်ႇႁၼ်ၶိူင်ႈတီႉသဵင်။
 record-error-too-short = သဵင်ဢၼ်ဢတ်းဝႆႉၼၼ်ႉ ၶၢဝ်းယၢမ်းပွတ်းပူၼ်ႉတီႈၼႃႇၶႃႇ။
 record-error-too-long = သဵင်ဢၼ်ဢတ်းဝႆႉၼၼ်ႉ ၶၢဝ်းယၢမ်းယၢဝ်းပူၼ်ႉတီႈၼႃႇၶႃႇ။
+record-error-too-quiet = သဵင်ဢၼ်ဢတ်းဝႆႉၼၼ်ႉ သဵင်မဝ်ပူၼ်ႉတီႈၼႃႇ။
 terms-agree = ႁၼ်လီၸွမ်း
 terms-disagree = ဢမ်ႇႁၼ်လီၸွမ်း
 why-donate = ယွၼ်ႉသင်လႄႈသူၸဝ်ႈထၢမ်?
