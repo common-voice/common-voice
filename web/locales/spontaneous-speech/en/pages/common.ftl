@@ -51,6 +51,7 @@ accept-privacy-and-terms = I agree to Common Voice's <termsLink>Terms</termsLink
 # Locales-Variants
 ms-MY = Bahasa Malay
 el-CY = Cypriot Greek
+pt-BR = Brazilian Portuguese
 
 ## Language search component
 
