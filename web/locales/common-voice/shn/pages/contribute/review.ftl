@@ -35,3 +35,7 @@ review-error = မီးလွင်ႈၽိတ်းပိူင်ႈ မိ�
 review-error-rate-limit-exceeded = ၸဝ်ႈၵဝ်ႇၼႅတ်ႈဝႆးပူၼ်ႉတီႈၼႃႇ။ ၶႅၼ်းတေႃဢဝ်ၶၢဝ်းယၢမ်းသေထတ်းတူၺ်းၶေႃႈၵႂၢမ်း ႁႂ်ႈမၼ်ႈၸႂ်ဝႃႈမၼ်းထုၵ်ႇမႅၼ်ႈ။
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = ၸိူဝ်းႁဝ်းၶႃႈတိုၵ်ႉႁဵတ်းလွင်ႈလႅၵ်ႈလၢႆႈဢၼ်ယႂ်ႇလူင်ယူႇ။
+sc-redirect-page-subtitle-1 = ပိူင်ၵၢၼ်ၵဵပ်းႁွမ်ၶေႃႈၵႂၢမ်း (Sentence Collector) တိုၵ်ႉၶၢႆႉၵႂႃႇၸူးၼႃႈၵၢၼ်ပိူင်လူင် Common Voice ယဝ်ႉၶႃႈ။ ယၢမ်းလဵဝ်ၸဝ်ႈၵဝ်ႇၸၢင်ႈ <writeURL>တႅမ်ႈ </writeURL>ၶေႃႈၵႂၢမ်း ဢမ်ႇၼၼ် <reviewURL>ၵူတ်ႇထတ်း</reviewURL>      ၶေႃႈၵႂၢမ်းလဵဝ် ဢၼ်သူင်ႇမႃး တီႈ Common Voice လႆႈယဝ်ႉၶႃႈ။
+sc-redirect-page-subtitle-2 = သူင်ႇထၢမ်ၶေႃႈထၢမ်ၸူးႁဝ်းၶႃႈလႆႈ တီႈၼိူဝ်<matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> ဢမ်ႇၼၼ်<emailLink>ဢီးမေးလ် </emailLink>ၶႃႈ။
+# menu item
+review-sentences = ၶိုၼ်းထတ်းသၢင်ၶေႃႈၵႂၢမ်း
