@@ -10,23 +10,23 @@ how-does-it-work-text = ႁဝ်းၶႃႈတိုၵ်ႉႁူမ်ႈ�
 ## How does it work section
 
 about-language-req-subtitle = မီးၵူၼ်းသေၵေႃႉၵေႃႉတုၵ်းယွၼ်းႁႂ်ႈထႅမ်သႂ်ႇၽႃႇသႃႇထႅင်ႈ။
-about-localization-title = ၵၢၼ်ပိၼ်ႇၽႃႇသႃႇဝႅပ်ႉသၢႆႉသ်
-about-localization-subtitle = လိၵ်ႈၼႂ်းဝႅပ်ႉသၢႆႉလႆႈပိၼ်ႇပဵၼ်ၽႃႇသႃႇၼၼ်ႉယဝ်ႉ။
+about-localization-title = ၵၢၼ်ပိၼ်ႇၶေႃႈၵႂၢမ်းပိုၼ်ႉတီႈ ဝႅပ်ႉသၢႆႉတ်
+about-localization-subtitle = ၶေႃႈၵႂၢမ်းၼႂ်းဝႅပ်ႉသၢႆႉတ်လႆႈပိၼ်ႇပဵၼ်ၽႃႇသႃႇၼၼ်ႉယဝ်ႉ။
 about-sentence-collection-title = ၵၢၼ်ၵဵပ်းႁွမ်တူၼ်ႈထႅဝ်လိၵ်ႈ
 about-sentence-collection-subtitle = တူၼ်ႈထႅဝ်လိၵ်ႈ လႆႈၵဵပ်းႁွမ်တႃႇႁႂ်ႈၵူၼ်းဢၢၼ်ႇဢွၵ်ႇသဵင်။
 about-new-lang-title = ပိုတ်ႇၽုၺ်ႇၽႃႇသႃႇမႂ်ႇ
 about-new-lang-subtitle = ႁဝ်းၶေႃႈပိုတ်ႇၽုၺ်ႇဝႅပ်ႉသၢႆႉ Common Voice ၼႂ်းၽႃႇသႃႇၼႆႉ။
 about-voice-contrib-title = ၸွႆႈထႅမ်ပၼ်သဵင်
-about-voice-contrib-subtitle = ၵူၼ်းၶဝ်ႈမႃးလႄႈၸွႆႈထႅမ်ပၼ်သဵင်ၶဝ်။
+about-voice-contrib-subtitle = ၽူႈၵူၼ်းၶဝ်ႈမႃးလႄႈၸွႆႈထႅမ်ပၼ်သဵင်ၶဝ်။
 about-voice-validation-title = ၵူတ်ႇထတ်းသဵင်
 about-voice-validation-subtitle = ၵူၼ်းတၢင်ႇၵေႃႉၵူတ်ႇထတ်းပၼ်ၶလိပ်ႉသဵင်ၸိူဝ်းၼၼ်ႉ။
-about-dataset-release-title = ပွႆႇပၼ်ၸုမ်ႇၶေႃႈမုၼ်း
-about-dataset-release-subtitle = ႁဝ်းၶႃႈပွႆႇပၼ်ၸုမ်ႇၶေႃႈမုၼ်းၼႂ်းၵူႈ 3 လိူၼ်။
+about-dataset-release-title = ပွႆႇဢွၵ်ႇၸုမ်ႇၶေႃႈမုၼ်း
+about-dataset-release-subtitle = ႁဝ်းၶႃႈပွႆႇဢွၵ်ႇၸုမ်ႇၶေႃႈမုၼ်းၼႂ်းၵူႈ 3 လိူၼ်။
 about-subscribe-text = ၶႂ်ႈၵပ်းသိုပ်ႇၸွမ်း Common Voice ယူႇႁႃႉ?
 about-speak = လၢတ်ႈ
 about-speak-text = ၽူႈၸွႆႈထႅမ်ဢတ်းၶလိပ်ႈသဵင် လူၺ်ႈၵၢၼ်ဢၢၼ်ႇဢဝ်တီႈၸုမ်ႇတူၼ်ႈထႅဝ်လိၵ်ႈ ဢၼ်လႆႈလူႇၶၢမ်ႇမႃး။
 about-listen-queue = ၶိဝ်းၵၢၼ်ထွမ်ႇ
-about-listen-queue-text = ၶလိပ်ႉသဵင် တေထုၵ်ႇသႂ်ႇၶဝ်ႈၼႂ်းၶိဝ်းဢၼ်ႁဵတ်းႁႂ်ႈၽွမ်ႈတႃႇတေထွမ်ႇလႆႈ။
+about-listen-queue-text = ၶလိပ်ႉသဵင် တေထုၵ်ႇသႂ်ႇၶဝ်ႈၼႂ်းၶိဝ်းတႃႇတေသူင်ႇဢၼ်ႁၢင်ႈႁႅၼ်းဝႆႉတႃႇတေထွမ်ႇ။
 about-listen = ထွမ်ႇ
 about-listen-text = ၽူႈၸႂ်ႉတိုဝ်းၶဝ်တေၵူတ်ႇထတ်းတူၺ်း လွင်ႈမၢၼ်ႇမႅၼ်ႈၶလိပ်ႉဢၼ်လူႇတၢၼ်းဝႆႉၼၼ်ႉ၊ ထတ်းတူၺ်းဝႃႈ ၽူႈလၢတ်ႈၼၼ်ႉ ဢၢၼ်ႇတူၼ်ႈထႅဝ်မၢၼ်ႇမႅၼ်ႈယူႇ။
 about-is-it-valid = ၶလိပ်ႉသဵင်ၼႆႉၸွင်ႇၸႂ်ႉလႆႈ?
@@ -34,7 +34,7 @@ about-is-it-valid-text = ၶလိပ်ႉသဵင်တေလႆႈႁပ်�
 about-yes-votes = ≥ 2 ၼႄၵၢင်ၸႂ် ၸႂ်ႈ
 about-yes-votes-text = တႃႇတေႁႂ်ႈၶဝ်ႈပဵၼ်ၸုမ်ႇၶေႃႈမုၼ်း Common Voice၊ ၶလိပ်ႉသဵင်ၼၼ်ႉတေလႆႈထုၵ်ႇၵူတ်ႇထတ်းယဝ်ႉတူဝ်ႈလူၺ်ႈၽူႈၸႂ်ႉတိုဝ်းသွင်ၵေႃႉ။
 about-no-votes = ≥ 2 ၼႄၵၢင်ၸႂ် ဢမ်ႇ
-about-no-votes-text = မိူဝ်ႈၽူႈၸႂ်ႉတိုဝ်း ဢမ်ႇယွမ်းႁပ်ႉ ၶလိပ်ႉသဵင်ၼၼ်ႉ မၼ်းတေၶိုၼ်းၵႂႃႇတီႈၶိဝ်း။ သင်ဝႃႈ လႆႈထုၵ်ႇဢမ်ႇယွမ်းႁပ်ႉ ပွၵ်ႈၵမ်းသွင်ၼႆၸိုင် ၶလိပ်ႉသဵင်ၼၼ်ႉ တေၶၢႆႉၵႂႃႇတီႈ ပႃႇႁဵဝ်ႈၶလိပ်ႉသဵင်။
+about-no-votes-text = မိူဝ်ႈၽူႈၸႂ်ႉတိုဝ်း ဢမ်ႇယွမ်းႁပ်ႉ ၶလိပ်ႉသဵင်ၼၼ်ႉ မၼ်းတေၶိုၼ်းၵႂႃႇတီႈၶိဝ်း။ သင်ဝႃႈ လႆႈထုၵ်ႇပၢႆႇပႅတ်ႈပွၵ်ႈၵမ်းသွင်ၼႆၸိုင် ၶလိပ်ႉသဵင်ၼၼ်ႉ တေၶၢႆႉၵႂႃႇတီႈ ပႃႇႁဵဝ်ႈၶလိပ်ႉသဵင်။
 about-dataset-new = ၸုမ်ႇၶေႃႈမုၼ်း Common Voice
 about-dataset-new-text = ၸုမ်ႇၶေႃႈမုၼ်း Common Voice မီးတူဝ်ယၢင်ႇသဵင်ၼပ်ႉႁူဝ်သႅၼ် ဢၼ်ၸွႆႈႁႂ်ႈၽူႈၶူင်သၢင်ႈ ၵေႃႇသၢင်ႈၶိူင်ႈမိုဝ်းႁူႉတွင်းသဵင်။
 about-clip-graveyard = ပႃႇႁဵဝ်ႈၶလိပ်ႉသဵင်
@@ -74,7 +74,7 @@ about-playbook-how-add-language-content-1 =
     ဢွၼ်တၢင်းသုတ်း၊ ထတ်းတူၺ်းဝႃႈ <languageLink>မီးၽႃႇသႃႇၶွင်သူၸဝ်ႈယဝ်ႉႁိုဝ်</languageLink>။
     ပေႃးဢမ်ႇပႆႇမီး၊ သူၸဝ်ႈၸၢင်ႈ<languageRequestLink>ယွၼ်းထႅမ်ထႅင်ႈၽႃႇသႃႇသူၸဝ်ႈ</languageRequestLink>။
     တေမီးယူႇသွင်ၶၵ်ႉတွၼ်ႈ ၵၢၼ်ပိၼ်ႇၽႃႇသႃႇဝႅပ်ႉသၢႆႉသ် လႄႈၵၢၼ်ၵဵပ်းႁွမ်တူၼ်ႈထႅဝ်လိၵ်ႈ
-about-playbook-how-add-language-translating-heading = ပိၼ်ႇၽႃႇသႃႇဝႅပ်ႉသၢႆႉသ်
+about-playbook-how-add-language-translating-heading = ပိၼ်ႇၽႃႇသႃႇဝႅပ်ႉသၢႆႉတ်
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>တူၺ်းဝီႊတီႊဢူဝ်ႊ လွၵ်းလၢႆးၸႂ်ႉတိုဝ်း Pontoon။</translateVideoLink>
 about-playbook-how-add-language-translating-content-2 =
     ႁဝ်းၸႂ်ႉတိုဝ်းၶိူင်ႈမိုဝ်းၶွင် Mozilla ဢၼ်ႁွင်ႉဝႃႈ <pontoonLink>Pontoon</pontoonLink> တွၼ်ႈတႃႇပိၼ်ႇၽႃႇသႃႇ။ Pontoon မီးၽႃႇသႃႇတင်းၼမ်၊ 
