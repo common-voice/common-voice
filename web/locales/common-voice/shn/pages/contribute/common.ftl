@@ -29,6 +29,8 @@ target-segment-generic-card = ၸဝ်ႈၵဝ်ႇတိုၵ်ႉၸွ�
 target-segment-first-banner = မႃးႁူမ်ႈၵၼ်သၢင်ႈ ၸုမ်းတႃႈယိူင်းဢွၼ်တၢင်းသုတ်း ၶွင် Common Voice တီႈၼႂ်း { $locale } ၵႂၢမ်းတႆးႁဝ်းၶႃႈသေၵမ်း။
 target-segment-add-voice = ထႅမ်သႂ်ႇသဵင်သူၸဝ်ႈ
 target-segment-learn-more = လဵပ်ႈႁဵတ်းထႅင်ႈ
+change-preferences = လႅၵ်ႈလၢႆႈၶေႃႈလိူၵ်ႈသူၼ်ၸႂ်
+login-signup = လွၵ်ႉၶဝ်ႈ / လူင်းသဵၼ်ႈၸိုဝ်ႈ
 vote-yes = ၸႂ်ႈ
 vote-no = ဢမ်ႇ
 datasets = ၸုမ်ႇၶေႃႈမုၼ်း
@@ -39,14 +41,24 @@ submit-form-action = သူင်ႇ
 
 ## Reporting
 
+report = လၢႆးငၢၼ်း
+report-title = သူင်ႇလၢႆးငၢၼ်း
+report-ask = ၸဝ်ႈၵဝ်ႇထူပ်းၺႃးပၼ်ႁႃသင်တေႃႇၶေႃႈၵႂၢမ်းဢၼ်ၼႆႉယူႇႁႃႉ?
 report-offensive-language = ၽႃႇသႃႇဢၼ်ဢမ်ႇၵိုင်ႇလႅပ်ႈ
+report-offensive-language-detail = ၶေႃႈၵႂၢမ်းၼႆႉ မီးၵႂၢမ်းဢၼ်ဢမ်ႇၼပ်ႉယမ် ဢမ်ႇၼၼ် ၵႂၢမ်းလူလၢႆပႃးဝႆႉယူႇ
+report-grammar-or-spelling = မီးလွင်ႈၽိတ်းပိူင်ႁၢင်ႈလိၵ်ႈ / ၵပ်းလေႃးတူဝ်လိၵ်ႈၽိတ်း
+report-grammar-or-spelling-detail = ၶေႃႈၵႂၢမ်းၼႆႉ မီးလွင်ႈၽိတ်းပိူင်ႁၢင်ႈလိၵ်ႈ ဢမ်ႇၼၼ် ၵပ်းလေႃးတူဝ်လိၵ်ႈၽိတ်းဝႆႉယူႇ
 report-different-language = တၢင်ႇၽႃႇသႃႇ
 report-different-language-detail = တႅမ်ႇဝႆႉပဵၼ်တၢင်ႇၽႃႇသႃႇ ဢၼ်ဢမ်ႇၸႂ်ႈၽႃႇသႃႇဢၼ်ၵဝ်ၶႃႈလၢတ်ႈ။
 report-difficult-pronounce = လၢတ်ႈသဵင်ဢွၵ်ႇယၢပ်ႇ
+report-difficult-pronounce-detail = မၼ်းပႃးၶေႃႈၵႂၢမ်း ဢမ်ႇၼၼ် တွၼ်ႈၵႂၢမ်း ဢၼ်ဢၢၼ်ႇယၢပ်ႇ ဢမ်ႇၼၼ် ဢွၵ်ႇသဵင်ယၢပ်ႇဝႆႉၶႃႈ။
 report-offensive-speech = ၵႂၢမ်းလၢတ်ႈဢမ်ႇၵိုင်ႇလႅပ်ႈ
+report-offensive-speech-detail = ၶႅပ်းသဵင်ၼႆႉ မီးၶေႃႈၵႂၢမ်းဢမ်ႇယဵၼ်ငႄႈ ဢမ်ႇၼၼ် ၶေႃႈၵႂၢမ်းလူလၢႆပႃးဝႆႉယူႇ။
 report-other-comment =
     .placeholder = ၶေႃႈႁၼ်ထိုင်
+success = ဢွင်ႇမၢၼ်
 continue = သိုပ်ႇထႅင်ႈ
+report-success = ၽိုၼ်တၢမ်းငဝ်းလၢႆးလႆႈသူင်ႇယဝ်ႉတူဝ်ႈလီငၢမ်းယဝ်ႉ။
 
 ## Speak & Listen Shortcuts
 
@@ -83,6 +95,10 @@ shortcut-vote-no = n
 
 ## Validation criteria
 
+contribution-criteria-nav = ပိူင်တႅပ်းတတ်း
+contribution-criteria-link = ႁူႉပွင်ႇပိူင်တႅပ်းတတ်း ၵၢၼ်ၶဝ်ႈႁူမ်ႈၸွႆႈထႅမ်
+contribution-criteria-page-title = ပိူင်တႅပ်းတတ်း ၵၢၼ်ၶဝ်ႈႁူမ်ႈၸွႆႈထႅမ်
+contribution-criteria-page-description = ႁူႉပွင်ႇလွင်ႈတၢင်းဢၼ်လူဝ်ႇလႆႈထတ်း မိူဝ်ႈထွမ်ႇၶႅပ်းသဵင် လႄႈ ၸွႆႈႁဵတ်းႁႂ်ႈၵၢၼ်ဢတ်းသဵင်ၶွင်ၸဝ်ႈၵဝ်ႇမီးၼမ်ႉၵတ်ႉလီလိူဝ်တိူဝ်းမႃးပႃး!
 contribution-for-example = ပိူင်တႅၵ်ႈ
 contribution-misreadings-title = လူဢၢၼ်ႇၽိတ်း
 contribution-misreadings-description-extended-list-2 = တူၵ်းႁၢႆ <strong>'s'</strong> တီႈၽၢႆႇလင်ၶေႃႈၵႂၢမ်း (တွၼ်ႈတႃႇၽႃႇသႃႇဢိင်းၵလဵတ်ႈ)
