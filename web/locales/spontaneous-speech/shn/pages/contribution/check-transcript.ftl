@@ -4,6 +4,8 @@
 transcription-page-instruction = { $actionType }<playIcon></playIcon> ထွမ်ႇၶလိပ်ႉသဵင် လႄႈၵူတ်ႇထတ်းၵၢၼ်ထွတ်ႇသဵင်။ ၸွင်ႇမၼ်းမႅၼ်ႈၵၼ်? ပေႃးဝႃႈဢမ်ႇၼႆ၊ မႄးၶပ်ႉႁႂ်ႈမၼ်းမႅၼ်ႈၵၼ်လီလီ။
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = ၵူတ်ႇထတ်း
+# Message which appears when there are no more resources on this page
+no-transcriptions-continue-skipped-message = ယၢမ်းလဵဝ် ဢမ်ႇပႆႇမီး ၶေႃႈတႅမ်ႈ တႃႇတေၵူတ်ႇထတ်းတူၺ်း ၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈၼႆႉ။ သင်ဝႃႈ ၸဝ်ႈၵဝ်ႇ ၶၢမ်ႈပူၼ်ႉၵႂႃႇသေဢၼ်ဢၼ်ၼႆၸိုင် ၸၢင်ႈသိုပ်ႇႁဵတ်းၸွမ်း ၶေႃႈၼမ်းဢၼ်ၶၢမ်ႈပူၼ်ႉၵႂႃႇၼၼ်ႉ ဢမ်ႇၼၼ် ၵႂႃႇတီႈ ၵၢၼ်ထွတ်ႇသဵင်ၾၢႆႇသဵင်သေ ၶိုၼ်းၶတ်းၸႂ်တူၺ်းထႅင်ႈ ဝၢႆးလင်ၼၼ်ႉလႆႈယူႇ။
 vote-transcript-success = ပၼ်ၵၢင်ၸႂ်ၵၢၼ်ထွတ်ႇသဵင်ယဝ်ႉတူဝ်ႈလီငၢမ်း
 vote-transcript-error = မီးၶေႃႈၽိတ်းပိူင်ႈမိူဝ်ႈတိုၵ်ႉပၼ်ၵၢင်ၸႂ်ၵၢၼ်ထွတ်ႇသဵင်
 transcript-edited-success = မႄးၶပ်ႉၵၢၼ်ထွတ်ႇသဵင်ယဝ်ႉတူဝ်ႈလီငၢမ်း
