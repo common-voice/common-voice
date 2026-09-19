@@ -8,6 +8,13 @@ datasets-positioning =
     Common Voice의 다국어 데이터 세트는 이미 동종의 공개 데이터 세트 중에서 가장 큰 규모이지만, 그 밖에도 다른 데이터 세트가 존재합니다.
     
     이 페이지는 다른 오픈 소스 음성 데이터 세트의 참조처이자, Common Voice가 성장해 감에 따라 공개될 업데이트를 위한 장소가 될 것입니다.
+# New/upcoming datasets page headline
+datasets-headline-mdc = Mozilla Common Voice 데이터 세트는 이제 Mozilla Data Collective에서만 독점적으로 사용 가능합니다.
+# New/upcoming datasets page headline text
+datasets-positioning-mdc =
+    Common Voice 23.0부터, 모든 Common Voice 데이터 세트는 Mozilla Data Collective를 통해서만 다운로드 할 수 있습니다!
+    
+    이 페이지는 이전 버전의 Mozilla Common Voice 데이터 세트에 대한 기록 아카이브로 사용됩니다. 아카이브 버전은 기여에서 제외되기를 요청한 사람들의 요구를 존중하기 위해 교육용이 아닌 특정 연구 시나리오에서만 사용해야 합니다.
 datasets-speech-bubble-content = 흥미로운 소식입니다! 자연 음성이 곧 출시됩니다! 최신 정보를 받으시려면 <discordLink>Discord</discordLink>에 가입하세요.
 language = 언어
 download-dataset-header = 데이터세트 다운로드

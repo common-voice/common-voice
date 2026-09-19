@@ -128,6 +128,7 @@ write-contribute-menu-tooltip = 문장 추가 및 검토, 질문 추가, 오디�
 add-sentences-menu-item-tooltip = 내 언어로 문장 추가
 review-sentences-menu-item-tooltip = 내 언어로 문장 검토
 add-questions-menu-item-tooltip = 내 언어로 질문 추가
+review-questions-menu-item-tooltip = 질문 검토
 transcribe-audio-menu-item-tooltip = 내 언어로 오디오를 텍스트로 변환
 
 ## MENU ITEM ARIA LABELS
@@ -136,4 +137,5 @@ write-contribute-menu-aria-label = 쓰기 옵션 메뉴
 add-sentences-menu-item-aria-label = 커뮤니티가 읽을 새 문장 추가
 review-sentences-menu-item-aria-label = 커뮤니티가 제출한 기존 문장 검토
 add-questions-menu-item-aria-label = 커뮤니티가 읽고 답할 새 질문 제출
+review-questions-menu-item-aria-label = 커뮤니티에서 제출한 새로운 질문을 검토하고 투표해주세요.
 transcribe-audio-menu-item-aria-label = 오디오 녹음을 텍스트로 변환

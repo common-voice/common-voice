@@ -50,6 +50,7 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = 목표를 설정하기
 cant-decide = 결정할 수 없습니까?
+activity-needed-calculation-fixed = 100명이 하루에 100개의 문장을 녹음하면 13시간 분량의 오디오를 만들 수 있습니다. 이 성능을 유지하면 3개월 이내에 1000시간 달성도 가능합니다.
 how-many-per-day = 좋습니다! 하루에 몇 개의 클립을 하시겠습니까?
 how-many-a-week = 좋습니다! 일주일에 몇 개의 클립을 하시겠습니까?
 which-goal-type = 말하기, 듣기 또는 둘 다를 원하십니까?
