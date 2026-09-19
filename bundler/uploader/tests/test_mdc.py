@@ -149,6 +149,40 @@ def _make_http_error(status_code: int, body: str) -> HTTPError:
     return exc
 
 
+def _make_response(
+    status_code: int, headers: dict[str, str] | None = None, body: str = ""
+) -> Response:
+    """Build a bare requests.Response with status, headers, and body."""
+    resp = Response()
+    resp.status_code = status_code
+    resp._content = body.encode("utf-8")  # noqa: SLF001  # pylint: disable=protected-access
+    if headers:
+        resp.headers.update(headers)
+    return resp
+
+
+class TestWrapExceptionSdk057:
+    """datacollective 0.5.7 raises its own RateLimitError (keyword-only `response`) on 429; verify
+    _wrap_exception maps it to a retryable uploader RateLimitError via status code + header."""
+
+    def test_sdk_rate_limit_error_maps_to_retryable(self) -> None:
+        """SDK RateLimitError.response(429, Retry-After) -> uploader RateLimitError, retryable."""
+        from datacollective.errors import RateLimitError as SdkRateLimitError
+
+        resp = _make_response(429, {"Retry-After": "90"}, "rate limited")
+        wrapped = _wrap_exception(SdkRateLimitError(response=resp))
+        assert isinstance(wrapped, RateLimitError)
+        assert wrapped.retry_after == 90
+        assert _is_retryable(wrapped) is True
+
+    def test_sdk_rate_limit_error_message_fallback(self) -> None:
+        """Without a response, the SDK message ('Rate limit exceeded') hits the string fallback."""
+        from datacollective.errors import RateLimitError as SdkRateLimitError
+
+        wrapped = _wrap_exception(SdkRateLimitError())
+        assert isinstance(wrapped, RateLimitError)
+
+
 class TestExtractResponseDetail:
     """Tests for _extract_response_detail."""
 

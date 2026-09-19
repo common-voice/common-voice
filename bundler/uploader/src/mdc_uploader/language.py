@@ -2,7 +2,7 @@
 
 Source of truth: Common Voice languagedata API.
 Stores full LanguageData entries (mirrors common/language.ts).
-Extras appended for locales missing from the API (el-CY, ms-MY).
+Extras appended for locales missing from the API (el-CY, ms-MY, pt-BR).
 
 Usage:
     language.init()
