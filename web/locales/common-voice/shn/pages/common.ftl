@@ -358,3 +358,51 @@ languages-donate-banner-cta = <mark>ၸႂ်ႈတိုဝ်း CV တွၼ�
 languages-donate-banner-cta-explanation = Common Voice လႆႈႁပ်ႉတိုၼ်းလၢင်းတီႈ ၵၢၼ်လူႇတၢၼ်းလႄႈငိုၼ်းၵမ်ႉၸွႆႈ! ႁဝ်းၶႃႈၺိၼ်းလီတေႁူမ်ႈမိုဝ်းၸွမ်း ၽူႈလူင်ႉလႅၼ်ႇပၢႆးပၺ်ႇၺႃႇ တူင်ႇဝူင်းၵူၼ်း လႄႈၽူႈၶူၼ်ႉၶႂႃႉတႃႇပၢႆးမၢၵ်ႈမီးၶဝ်။ Common Voice ၼႆႉၸႂ်ႉတိုဝ်းလႆႈလၢႆလၢႆ ၵူၺ်းၵႃႈ သင်ႁူမ်ႈၸွႆႈထႅမ်ၽလႅတ်ႉၾွမ်း လႄႈၵႃႈၸႂ်ႉၸၢႆႇတႃႇၵၢၼ်ႁူတ်ႉသ် လူၺ်ႈ ၶေႃႈတၢင်ႇၼႄယွၼ်းငိုၼ်းၵမ်ႉၸွႆႈၼၼ်ႉ တေၸွႆႈလႆႈၼမ်တႄႉတႄႉ။
 localization-select =
     .label = လိူၵ်ႈၽႃႇသႃႇ/ၵၢၼ်ပိၼ်ႇၽႃႇသႃႇ
+
+## MDC Announcement
+
+# Main text for MDC announcement. Text wrapped in <strong></strong> will be rendered with bold font
+announcement-mdc-text = <strong>ၸုမ်ႇၶေႃႈမုၼ်းသဵင်မႂ်ႇ</strong> ၽွမ်ႉတႃႇလူတ်ႇလူင်းလႆႈယဝ်ႉ တီႈ ပလႅတ်ႉၾွမ်း  Mozilla Data Collective ဢၼ်ပဵၼ်ၼႂ်းၶိူဝ်းလဵဝ်ၵၼ်။   ၶဝ်ႈႁူမ်ႈပုၼ်ႈတႃႇၶဝ်ႈထိုင်လႆႈၸုမ်ႇၶေႃႈမုၼ်းတူဝ်ႈလုမ်ႈၾႃႉဢၼ်မီး 300 ၸုမ်ႇပၢႆ၊ ဢၼ်ပဵၼ် ၸုမ်ႇၶေႃႈမုၼ်းသၢင်ႈဝႆႉပၼ်တႃႇ တူင်ႇဝူင်းၸိူဝ်းႁဝ်း။
+# Button text for MDC announcement
+announcement-mdc-button-text = ၶဝ်ႈႁူမ်ႈ Mozilla Data Collective
+# Aria text for button which opens MDC on a new page
+announcement-mdc-button-aria-text = ပိုတ်ႇၼႂ်းထႅပ်ႉမႂ်ႇ
+
+## Release Delay Announcement
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-delay = ထိုင်ပီႈၼွင်ႉတူင်ႇဝူင်းၸိူဝ်းႁဝ်းၶႃႈ၊ မိူဝ်ႈလဵဝ် ႁဝ်းၶႃႈတိုၵ်ႉႁၢင်ႈႁႅၼ်း တွၼ်ႈတႃႇဢွၵ်ႇ (Release) ဢၼ်မႂ်ႇဝႆႉယူႇၶႃႈ။ ႁဝ်းၶႃႈမုင်ႈမွင်းဝႃႈ တေၸၢင်ႈဢွၵ်ႇပဵၼ်တွၼ်ႈတွၼ်ႈမႃးလွႆးလွႆးၼႂ်းဝၼ်းတေမႃးၼႆႉ တီႈၼိူဝ် <mdcLink> Mozilla Data Collective </mdcLink> ၼၼ်ႉၶႃႈ။
+
+## Release Announcement
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release = ထိုင်ပီႈၼွင်ႉတူင်ႇဝူင်းၸိူဝ်းႁဝ်းၶႃႈတင်းသဵင်ႈ၊ ဝႃးသျိၼ်းဢၼ်မႂ်ႇၼႆႉ လႆႈပိုတ်ႇပၼ်ၸႂ်ႉတိုဝ်း တီႈၼႂ်း<mdcLink> Mozilla Data Collective ယဝ်ႉတူဝ်ႈလီငၢမ်းယဝ်ႉၶႃႈ</mdcLink>. မႃးၶဝ်ႈႁူမ်ႈၸွမ်းႁဝ်း တီႈၼႆႈ တႃႇလႆႈၸႂ်ႉတိုဝ်း ၶေႃႈမုၼ်းသဵၼ်ႈမၢႆၵူႈလွင်ႈလွင်ႈ တီႈၼႂ်းလူၵ်ႈ 500+ ပၢႆ၊ ဢၼ်လႆႈႁူမ်ႈၵၼ်သၢင်ႈဝႆႉ တႃႇတူင်ႇဝူင်းၸိူဝ်းႁဝ်းတင်းသဵင်ႈၶႃႈ။
+
+## Pre-Release Announcement (dates TBD)
+
+# Text wrapped in <cvDatasheetsLink></cvDatasheetsLink> will be rendered as an external link to the cv-datasheets GitHub repo
+announcement-pre-release = ထိုင်ပီႈၼွင်ႉတူင်ႇဝူင်းၸိူဝ်းႁဝ်းၶႃႈတင်းသဵင်ႈ၊ ၶၢဝ်းယၢမ်းတႃႇပိုတ်ႇပၼ်ၸႂ်ႉတိုဝ်း ဝႃးသျိၼ်းဢၼ်မႂ်ႇ ၸမ်ၶဝ်ႈမႃးယဝ်ႉၶႃႈ။ ၶႅၼ်းတေႃႈ ၵႂႃႇၸွႆႈၵၼ်ၵူတ်ႇထတ်းလႄႈ ထွတ်ႇသဵင်ပဵၼ်တူဝ်လိၵ်ႈသေၵမ်း၊ ယဝ်ႉၵေႃႈ ၶဝ်ႈၵႂႃႇတီႈၼႂ်း<cvDatasheetsLink>  cv-datasheets </cvDatasheetsLink> တႃႇၵႂႃႇဢၢပ်ႉတဵတ်ႉၽိုၼ်မၢႆၶေႃႈမုၼ်းၶႃႈ။
+
+## Release Commencing
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-commencing = ထိုင်ပီႈၼွင်ႉတူင်ႇဝူင်းၸိူဝ်းႁဝ်းၶႃႈတင်းသဵင်ႈ၊ ႁဝ်းၶႃႈ ႁွတ်ႈထိုင် ဝၼ်းမၵ်းမၢႆတႃႇတေပိုၼ်ၽႄဝႃးသျိၼ်းဢၼ်မႂ်ႇလႄႈႁဝ်းၶႃႈတိုၵ်ႉႁူမ်ႈႁွမ်းၸုမ်ႇၶေႃႈမုၼ်းၸိူဝ်းၼၼ်ႉယူႇၶႃႈ။ ဝႃးသျိၼ်းဢၼ်မႂ်ႇၼႆႉ တေပိုတ်ႇပၼ်ၸႂ်ႉတိုဝ်း တီႈၼႂ်း<mdcLink>  Mozilla Data Collective  </mdcLink>ၼႂ်းဝၼ်းသွင်ဝၼ်းၼႆႉယဝ်ႉၶႃႈ။
+
+## Downtime Announcements
+
+# Generic scheduled downtime for next Sunday early hours
+announcement-scheduled-downtime = ထိုင်ပီႈၼွင်ႉတူင်ႇဝူင်းၵူၼ်းၸိူဝ်းႁဝ်းၶႃႈတင်းသဵิင်ႈ၊ တႃႇႁဵတ်းႁႂ်ႈပၵ်းပိူင်လႅၼ်ႈလီလိူဝ်မႃးၼၼ်ႉ ႁဝ်းၶႃႈလႆႈမီးၶပ်ႉမၢႆၶၢဝ်းယၢမ်းၵိုတ်းၸႂ်ႉတိုဝ်းပၵ်းပိူင်ပွတ်းဢွၼ်ႇဝႆႉၶႃႈ၊ ၵႆႉၸၢင်ႈတေယဝ်ႉတူဝ်ႈၼႂ်းၶၢဝ်းတၢင်းၸူဝ်ႈမူင်းဢေႇဢေႇၵူၺ်းၶႃႈ။ ၶၢဝ်းယၢမ်းတႃႇၵိုတ်းဢၼ်တေမႃးၼႆႉ တေပဵၼ်ၼႂ်းတွၼ်ႈၸဝ်ႉၸဝ်ႉ ဝၼ်းဢႃတိတ်ႉၼႆႉၶႃႈယဝ်ႉ။ သင်ဝႃႈ ထူပ်းၺႃးပၼ်ႁႃၼႆ ၵပ်းသိုပ်ႇမႃးလႆႈတီႈ Matrix ၶႃႈ။
+
+## Common Language/Dataset Selector & SearchBox Related
+
+# Generic search box defaults
+searchbox-default-label = တႄႇပေႃႉတႅမ်ႈတႃႉၶူၼ်ႉႁႃ
+searchbox-default-placeholder = ၶူၼ်ႉႁႃ
+searchbox-default-aria-label = ၶူၼ်ႉႁႃ
+dropdown-no-results = ဢမ်ႇထူပ်းႁၼ်ၶေႃႈမုၼ်းသင်
+# Common Voice Dataset=Language search box
+dataset-searchbox-label = လႅၵ်ႈလၢႆႈပႃးတင်းၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈဢၼ်ၼႄလႄႈၸုမ်ႇၶေႃႈမုၼ်း
+dataset-searchbox-placeholder = ၶူၼ်ႉႁႃၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈ
+dataset-searchbox-aria-label = လိူၵ်ႈၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈ
+dataset-search-no-results = ဢမ်ႇထူပ်းႁၼ် ၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈဢၼ်ၵိုၵ်းၵၼ်
+request-new-language = တုၵ်းယွၼ်းၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈမႂ်ႇ
