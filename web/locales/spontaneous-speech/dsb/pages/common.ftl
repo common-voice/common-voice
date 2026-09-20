@@ -50,6 +50,7 @@ accept-privacy-and-terms = Zwólijom do <termsLink>wužywańskich wuměnjenjow</
 # Locales-Variants
 ms-MY = Bahasa Malay
 el-CY = Cypriska grichišćina
+pt-BR = Brazilska portugišćina
 
 ## Language search component
 

@@ -7,6 +7,11 @@ action-tap = ထႅပ်ႉ
 # Label for language switcher
 platform-language = ၽႃႇသႃႇပိူင်သၢင်ႈ(Platform)
 platform-language-tooltip-text = လႅၵ်ႈလၢႆႈၶေႃႈၵႂၢမ်းၼိူဝ်ဝႅပ်ႉသၢႆႉတ်ၵူၺ်း
+# Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
+# Text wrapped in <strong></strong> will be shown in bold
+contribution-picker-label = တိုၵ်ႉၶဝ်ႈႁူမ်ႈၸွႆႈထႅမ်ပၼ် ၸုမ်ႇၶေႃႈမုၼ်းၽႃႇသႃႇ<bold>{ $language }</bold>ယူႇၶႃႈ
+contribution-picker-tooltip-text = လႅၵ်ႈလၢႆႈၸုမ်ႇၶေႃႈမုၼ်း ၽႃႇသႃႇဢၼ်ၸဝ်ႈၵဝ်ႇ တိုၵ်ႉၶဝ်ႈႁူမ်ႈၸွႆႈထႅမ်ပၼ်ဝႆႉၼၼ်ႉၶႃႈ။
+coming-soon = ဢမ်ႇႁိုင်သင်တေမီးၽႃႇသႃႇတၢင်ႇၸိူဝ်းဢွၵ်ႇမႃးထႅင်ႈၶႃႈ။
 audioplayer-header = ထွမ်ႇ
 # For the button to skip an item
 skip-button = ၶၢမ်ႈ
