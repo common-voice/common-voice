@@ -26,3 +26,5 @@ do-not-section-title = ယႃႇႁဵတ်း
 do-not-section-guideline-1 = ထၢမ်ယွၼ်းၶေႃႈမုၼ်းဢၼ်ၸၢင်ႈယိုၼ်းထိုင်တူဝ်ၵူၼ်းလႆႈ (မိူၼ်ၼင်ႇ ၸိုဝ်ႈ ဢမ်ႇၼၼ် ၶေႃႈမုၼ်းၵၢၼ်ငိုၼ်း)
 do-not-section-guideline-2 = ၼႄၽၢင်ဢမ်ႇၼၼ်ၸုင်ၸၼ်ႁႂ်ႈၸပ်းၽၢၵ်ႇ ဢမ်ႇၼၼ်ႁဵတ်းႁႂ်ႈပဵၼ်လွင်ႈၸႂ်ဢမ်ႇလီ
 do-not-section-guideline-3 = ထၢမ်ၶေႃႈထၢမ်ဢၼ်တုမ်ႉတိူဝ်ႉငၢႆႈ
+# Code switching Guidelines
+cs-do-section-guideline-1 = ၸႂ်ႉၶေႃႈထၢမ် ဢမ်ႇၼၼ် ငိူၼ်ႈငဝ်ႈသွင်ၽႃႇသႃႇ။
