@@ -4,6 +4,9 @@ sc-review-lang-not-selected = ၸဝ်ႈၵဝ်ႇဢမ်ႇလႆႈလ�
 sc-review-title = ႁုပ်ႈတူၺ်းၶိုၼ်းတူၼ်ႈထႅဝ်
 sc-review-loading = တိုၵ်ႉလူတ်ႇၶေႃႈၵႂၢမ်းယူႇ...
 sc-review-select-language = ၶႅၼ်းတေႃႈလိူၵ်ႈၽႃႇသႃႇတွၼ်ႈတႃႇႁုပ်ႈတူၺ်းၶိုၼ်းတူၼ်ႈထႅဝ်။
+sc-review-no-sentences = ဢမ်ႇမီးၶေႃႈၵႂၢမ်းတႃႇထတ်းသၢင်၊<addLink>ထႅမ်ၶေႃႈၵႂၢမ်းလႆႈထႅင်ႈယၢမ်းလဵဝ်။</addLink>
+sc-review-form-prompt =
+    .message = ၶေႃႈၵႂၢမ်းဢၼ်ထတ်းသၢင်ယဝ်ႉ ယင်းပႆႇလႆႈသူင်ႇ၊ တေဢွၵ်ႇတႄႉယူႇႁႃႉ?
 sc-review-form-button-skip = ၶၢမ်ႈ
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = Y
