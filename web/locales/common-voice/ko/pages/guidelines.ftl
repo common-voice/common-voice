@@ -3,6 +3,10 @@ guidelines-header = 기여 기준
 guidelines-header-subtitle = Common Voice 데이터 세트에 문장과 오디오 클립을 기부하고 검증하는 방법 이해하기
 voice-collection = 음성 모음
 sentence-collection = 문장 모음
+question-collection = 질문 모음
+scripted-speech = 스크립트 음성
+spontaneous-speech = 자연 음성
+dont-subheader = 하지 않음
 
 ## Voice Collection nav ids
 
@@ -69,10 +73,14 @@ public-domain-explanation-2 = 유용한 음성 인식 엔진을 구축하기 위
 public-domain-explanation-3 = 글쓰기 마라톤 등을 통해 혼자서 또는 친구, 언어 커뮤니티와 함께 현대적인 구어체 문장을 만들어 보세요.
 public-domain-explanation-4 = 작가나 극작가, 시나리오 작가에게 연락하여 그들의 작품 중 일부를 공공 영역에 기여할 의향이 있는지 물어보십시오.
 public-domain-explanation-5 = 저작권이 더 이상 적용되지 않는 텍스트를 찾으세요(예: 1920년 이전에 출판된 대부분의 책).
+public-domain-explanation-6 = 정부, 비영리 단체 또는 미디어 단체와 연락하여 웹 콘텐츠, 보고서 또는 기타 콘텐츠가 공공 도메인에 할당될 수 있는지 확인
+citing-sentences-explanation-1 = 문장이 공개 도메인이고 저작권 제한이 적용되지 않는지 확인할 수 있도록 인용을 포함하는 것이 중요합니다.
 citing-sentences-subheader-websites = 웹사이트
 citing-sentences-subheader-websites-explanation = 웹사이트를 포함할 수 있습니다. 예를 들어 "Common Voice - https://commonvoice.mozilla.org/"
 citing-sentences-subheader-academic-reference = 학계 참고
+citing-sentences-subheader-academic-reference-explanation = 학문적 참조 양식을 사용할 수 있습니다. 예를 들어, 하바드 양식 "Mozilla (2021) Common Voice. 사용 가능 주소: https://commonvoice.mozilla.org/ (접근: 2021년 9월 15일)"
 citing-sentences-subheader-offline-sources = 오프라인 출처
+citing-sentences-subheader-offline-sources-explanation = 온라인에서 사용할 수 없는 공개 도메인 텍스트의 경우, Harvard 스타일 "Jess (2021) My Public license 시"와 같은 학술적 참조 스타일을 사용할 수 있습니다.
 citation =
     .label = 인용
 self-citation = 자기 인용
@@ -82,8 +90,11 @@ adding-sentences-subheader-length-explanation = 문장은 15단어 미만이어�
 adding-sentences-subheader-spelling-punctuation = 철자와 구두점
 adding-sentences-subheader-spelling-punctuation-explanation = 문장의 철자가 정확해야 합니다.
 adding-sentences-subheader-speakable = 말할 수 있는
+adding-sentences-subheader-speakable-explanation = 가장 좋은 문장은 자연스럽고 대화적입니다 — 누군가가 읽기 쉬워야 합니다. 발음의 다양성과 문장의 다른 단어도 중요하지만, 자원 봉사자 커뮤니티가 가능한 매력적이고 재미있는 문장을 녹음하려고 노력합니다.
 adding-sentences-subheader-numbers = 숫자
+adding-sentences-subheader-numbers-explanation = 큰 소리로 읽을 때 문제가 될 수 있기 때문에 이상적으로는 원본 텍스트에 숫자가 없어야 합니다. 숫자를 읽는 방법은 문맥에 따라 다르며 데이터 세트에 혼란이 발생할 수 있습니다. 예를 들어, 숫자 "2409"는 "이사공구"와 "이천사백구"로 정확히 읽을 수 있습니다.
 adding-sentences-subheader-abbreviations = 축약어와 두문자어
+adding-sentences-subheader-abbreviations-explanation = “USA” 또는 “ICE”와 같은 약어 및 머리 글자는 철자가 일치하지 않을 수 있으므로 원본 텍스트에서 사용하지 않아야 합니다. 또한, 단일 약어에 대해 여러 정확한 판독 값이 있을 수 있습니다.
 adding-sentences-subheader-punctuation = 구두점
 adding-sentences-subheader-special-characters = 특수 문자 및 외국 문자
 adding-sentences-subheader-offensive-content = 공격적인 콘텐츠
