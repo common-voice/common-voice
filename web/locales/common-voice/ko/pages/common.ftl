@@ -130,6 +130,7 @@ giz = 기지가어
 gjk = 카치어
 gju = 구자리어
 gl = 갈리시아어
+glk = 길라키어
 gn = 과라니어
 gom = 고안 콘칸어
 gu-IN = 구자라트어
@@ -340,10 +341,23 @@ var = 화리히오어
 ve = 벤다어
 vec = 베네치아어
 vi = 베트남어
+vls = 서플람스어
 vmw = 마쿠와어
 vot = 바트어
+wbl = 와키어
+wep = 베스트팔렌어
+wes = 카메룬 피진어
 wo = 월로프어
+xdq = 카이타크어
 xh = 코사어
+xhe = 케트라니어
+xka = 칼코티어
+xkl = 케냐어
+xmf = 밍그렐어
+xsm = 카셈어
+yaq = 야키어
+yav = 누아수에어
+ydg = 야드가어
 yi = 이디시어
 yo = 요루바어
 yue = 광동어
@@ -351,6 +365,7 @@ zgh = 타마지트어
 zh-CN = 중국어(중국)
 zh-HK = 중국어(홍콩)
 zh-TW = 중국어(대만)
+zoc = 코파이날라 조케어
 zu = 줄루어
 zza = 자자어
 
@@ -406,8 +421,37 @@ localization-select =
 
 ## MDC Announcement
 
+# Main text for MDC announcement. Text wrapped in <strong></strong> will be rendered with bold font
+announcement-mdc-text = <strong>새로운 Common Voice 데이터 세트</strong>는 자매 플랫폼인 Mozilla Data Collective를 통해서만 독점적으로 다운로드 할 수 있습니다. 커뮤니티에 의해 그리고 커뮤니티를 위해 만들어진 300개 이상의 글로벌 데이터 세트 접근에 참여하세요.
+# Button text for MDC announcement
+announcement-mdc-button-text = Mozilla Data Collective 가입
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = 새 탭에서 열기
+
+## Release Delay Announcement
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-delay = 커뮤니티 여러분, 현재 출시 작업이 한창입니다. 앞으로 <mscLink>Mozilla Data Collective</mscLink>를 통해 부분적으로 배포될 예정입니다.
+
+## Release Announcement
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release = 커뮤니티 여러분, 새로운 버전이 <mscLink>Mozilla Data Collective</mscLink>에서 완료됐습니다. 커뮤니티에 의해 그리고 커뮤니티를 위해서 만들어진 500개 이상의 글로벌 데이터 세트 접근에 참여하세요.
+
+## Pre-Release Announcement (dates TBD)
+
+# Text wrapped in <cvDatasheetsLink></cvDatasheetsLink> will be rendered as an external link to the cv-datasheets GitHub repo
+announcement-pre-release = 커뮤니티 여러분, 출시가 얼마 남지 않았습니다. 유효성을 검사하고 변환하고, <cvDatasheetsLink>cv-datasheets</cvDatasheetsLink>도 방문하여 데이터시트를 업데이트하십시오.
+
+## Release Commencing
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-commencing = 커뮤니티 여러분, 출시 마감일이 되어 데이터 세트를 번들로 제공하고 있습니다. 새로운 버전은 며칠 내로 <mscLink>Mozilla Data Collective</mscLink>에서 확인할 수 있습니다.
+
+## Downtime Announcements
+
+# Generic scheduled downtime for next Sunday early hours
+announcement-scheduled-downtime = 커뮤니티 여러분, 시스템을 최적화하기 위해 잠깐 연결이 되지 않을 예정입니다. 보통 몇 시간 안에 완료됩니다. 다음 중단 시간은 이번 주 일요일 초에 발생합니다. 문제가 발생하면 Matrix에 문의해 주세요.
 
 ## Common Language/Dataset Selector & SearchBox Related
 
