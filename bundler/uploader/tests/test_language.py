@@ -77,7 +77,7 @@ class TestLanguageRegistryInit:
 
     @patch("mdc_uploader.language.httpx.Client")
     def test_extras_appended(self, mock_client_cls: MagicMock) -> None:
-        """Extras (el-CY, ms-MY) are appended after API fetch."""
+        """Extras (el-CY, ms-MY, pt-BR) are appended after API fetch."""
         _mock_api(
             mock_client_cls,
             [
@@ -92,6 +92,8 @@ class TestLanguageRegistryInit:
         assert el["english_name"] == "Cypriot Greek"
         ms = reg.find("ms-MY")
         assert ms["english_name"] == "Bahasa Malay"
+        pt = reg.find("pt-BR")
+        assert pt["english_name"] == "Brazilian Portuguese"
 
     @patch("mdc_uploader.language.httpx.Client")
     def test_extras_dont_override_api(self, mock_client_cls: MagicMock) -> None:
