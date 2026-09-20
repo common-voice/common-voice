@@ -281,6 +281,7 @@ code-switching-authentic-full-context = <bold>Тулы һәм контекстл
 code-switching-answer-dont-subheader = Артык уйлап тормагыз һәм үзгәртүләр белән мавыкмагыз
 code-switching-answer-dont-correct-language = <bold>Телегезне «төзәтергә».</bold> Бу тест түгел. Форма «дөреслегенең» бернинди дә әһәмияте юк. Телнең табигый булуы — шунысы гына мөһим.
 code-switching-answer-dont-formal-writing = <bold>Рәсми рәвештә язган кебек сөйләшегез.</bold> Рәсми, мәктәптәге кебек җаваплар бирүдән сакланыгыз. Сөйләүгә яраклы стилен саклагыз.
+code-switching-answer-dont-translate-repeat = <bold>Барысын да тәрҗемә итегез яки кабатлагыз.</bold> Аны сөйләшүдә ничек булса, шулай бер генә тапкыр әйтегез. Җавапны һәр телдә әйтергә кирәкми.
 # Transcribing
 code-switching-transcribe-subheader = Текстка күчерү
 code-switching-transcribe-do-1 = Сизелмәслек күчүләрне табу өчен кыска кисәкләрне берничә тапкыр уйнатыгыз
