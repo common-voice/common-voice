@@ -28,3 +28,4 @@ do-not-section-guideline-2 = ၼႄၽၢင်ဢမ်ႇၼၼ်ၸုင်
 do-not-section-guideline-3 = ထၢမ်ၶေႃႈထၢမ်ဢၼ်တုမ်ႉတိူဝ်ႉငၢႆႈ
 # Code switching Guidelines
 cs-do-section-guideline-1 = ၸႂ်ႉၶေႃႈထၢမ် ဢမ်ႇၼၼ် ငိူၼ်ႈငဝ်ႈသွင်ၽႃႇသႃႇ။
+cs-do-section-guideline-2 = ၶူၼ်ႉႁႃ ၾၢင်ႁၢင်ႈငဝ်းလၢႆး၊ သၢႆငၢႆ ဢမ်ႇၼၼ် လွင်ႈတၢင်းႁဵတ်းယိူင်ႈသၢႆငၢႆၸိူဝ်းဢၼ်ဢမ်ႇၶဝ်ႈပိူင်။
