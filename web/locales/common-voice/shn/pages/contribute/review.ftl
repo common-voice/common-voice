@@ -7,13 +7,30 @@ sc-review-select-language = ၶႅၼ်းတေႃႈလိူၵ်ႈၽႃ�
 sc-review-no-sentences = ဢမ်ႇမီးၶေႃႈၵႂၢမ်းတႃႇထတ်းသၢင်၊<addLink>ထႅမ်ၶေႃႈၵႂၢမ်းလႆႈထႅင်ႈယၢမ်းလဵဝ်။</addLink>
 sc-review-form-prompt =
     .message = ၶေႃႈၵႂၢမ်းဢၼ်ထတ်းသၢင်ယဝ်ႉ ယင်းပႆႇလႆႈသူင်ႇ၊ တေဢွၵ်ႇတႄႉယူႇႁႃႉ?
+sc-review-form-usage = ပတ်းၵႂႃႇၽၢႆႇၶႂႃ တႃႇမၵ်းမၼ်ႈ။ ပတ်းၵႂႃႇၽၢႆႇသၢႆႉ တႃႇပၢၵ်ႈပႅတ်ႈ။ ပတ်းၶိုၼ်းၼိူဝ် တႃႇၶၢမ်ႈၵႂႃႇ။ <strong>ယႃႇပေလိုမ်း   သူင်ႇ ၶေႃႈထတ်းသၢင်ၸဝ်ႈၵဝ်ႇၼႃႈ!"</strong>
+# Variables:
+#   $sentenceSource (Number) - Associated source the user filled out when uploading the sentence
+sc-review-form-source = ငဝ်ႈတိုၼ်းတီႈမႃး{ $sentenceSource }
+sc-review-form-button-reject = ပၢၵ်ႈပႅတ်ႈ
 sc-review-form-button-skip = ၶၢမ်ႈ
+sc-review-form-button-approve = မၵ်းမၼ်ႈ
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
 sc-review-form-button-approve-shortcut = Y
 # Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
 sc-review-form-button-reject-shortcut = N
 # Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
 sc-review-form-button-skip-shortcut = S
+sc-review-form-keyboard-usage-custom = ၸဝ်ႈၵဝ်ႇ ၸၢင်ႈၸႂ်ႉတိုဝ်း လၢႆးလတ်းလွၵ်းမိုဝ်းလႆႈယူႇၶႃႈ၊ ၼဵၵ်း { sc-review-form-button-approve-shortcut } တႃႇမၵ်းမၼ်ႈ၊ ၼဵၵ်း { sc-review-form-button-reject-shortcut } တႃႇပၢၵ်ႈပႅတ်ႈ၊ ၼဵၵ်း{ sc-review-form-button-skip-shortcut } တႃႇၶၢမ်ႈပူၼ်ႉ။
+sc-review-form-button-submit =
+    .submitText = ၵၢၼ်ၵူတ်ႇထတ်းယဝ်ႉတူဝ်လီငၢမ်းယဝ်ႉ။
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] ဢမ်ႇမီးထႅဝ်လိၵ်ႈၶေႃႈၵႂၢမ်းသင်ထုၵ်ႇၵူတ်ႇထတ်း။
+        [one] 1 ၵူတ်ႇထတ်းၶေႃႈၵႂၢမ်းယဝ်ႉတူဝ်ႈယဝ်ႉၶႃႈႉ။ ယိၼ်းၸူမ်းၶႃႈ!
+       *[other] { $sentences } ၵူတ်ႇထတ်းၶေႃႈၵႂၢမ်းယဝ်ႉတူဝ်ႈယဝ်ႉၶႃႈႉ။
+    }
 sc-review-form-review-failure = ဢမ်ႇၸၢင်ႈၵဵပ်းသိမ်းလွင်ႈၵူတ်ႇထတ်းလႆႈၶႃႈ။ ၶႅၼ်းတေႃႈ ၶိုၼ်းၶတ်းၸႂ်တူၺ်းထႅင်းဝၢႆးလင်ၶႃႈ။
 sc-review-link = ႁုပ်ႈတူၺ်းၶိုၼ်း
 
