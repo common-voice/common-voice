@@ -50,6 +50,7 @@ accept-privacy-and-terms = Súhlasím s <termsLink>Podmienkami používania slu�
 # Locales-Variants
 ms-MY = Bahasa malajčina
 el-CY = Cyperská gréčtina
+pt-BR = Brazílska portugalčina
 
 ## Language search component
 
