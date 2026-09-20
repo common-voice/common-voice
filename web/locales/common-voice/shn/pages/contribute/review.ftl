@@ -2,6 +2,7 @@
 
 sc-review-lang-not-selected = ၸဝ်ႈၵဝ်ႇဢမ်ႇလႆႈလိူၵ်ႈၽႃႇသႃႇသင်ဝႆႉ။ ၶႅၼ်းတေႃႈၵႂႃႇတီႈ <profileLink> Profile </profileLink> ၸဝ်ႈၵဝ်ႇတႃႇလိူၵ်ႈၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈ။
 sc-review-title = ႁုပ်ႈတူၺ်းၶိုၼ်းတူၼ်ႈထႅဝ်
+sc-review-loading = တိုၵ်ႉလူတ်ႇၶေႃႈၵႂၢမ်းယူႇ...
 sc-review-select-language = ၶႅၼ်းတေႃႈလိူၵ်ႈၽႃႇသႃႇတွၼ်ႈတႃႇႁုပ်ႈတူၺ်းၶိုၼ်းတူၼ်ႈထႅဝ်။
 sc-review-form-button-skip = ၶၢမ်ႈ
 # Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
