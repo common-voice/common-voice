@@ -96,7 +96,10 @@ adding-sentences-subheader-numbers-explanation = 큰 소리로 읽을 때 문제
 adding-sentences-subheader-abbreviations = 축약어와 두문자어
 adding-sentences-subheader-abbreviations-explanation = “USA” 또는 “ICE”와 같은 약어 및 머리 글자는 철자가 일치하지 않을 수 있으므로 원본 텍스트에서 사용하지 않아야 합니다. 또한, 단일 약어에 대해 여러 정확한 판독 값이 있을 수 있습니다.
 adding-sentences-subheader-punctuation = 구두점
+adding-sentences-subheader-punctuation-explanation = 특수 기호와 구두점은 꼭 필요한 경우에만 포함되어야 합니다. 예를 들어, 아포스트로피는 “don't” 및 “We're”와 같은 영어 단어에 포함되고 원본 텍스트에 포함되어야 하지만 “@” 또는 “#”과 같은 특수 기호는 필요하지 않을 것입니다.
 adding-sentences-subheader-special-characters = 특수 문자 및 외국 문자
+adding-sentences-subheader-special-characters-explanation-1 = 문자는 사용된 언어로 유효해야 합니다. 예를 들어, “ж”는 러시아 알파벳의 문자이지만 영어에서는 사용되지 않으므로 영어 원본 텍스트에 나타나지 않아야 합니다.
+adding-sentences-subheader-special-characters-explanation-2 = 언어마다 지역화 시 추가적인 요구사항이 있는 자체 유효성 검사 규칙을 가질 수 있습니다. 언어에 대한 특정 유효성 검사 파일이 없는 경우, 영어 규칙이 기여자에게 표시됩니다.
 adding-sentences-subheader-offensive-content = 공격적인 콘텐츠
 adding-sentences-subheader-offensive-content-explanation = 유해 콘텐츠이거나 <communityGuidelines>커뮤니티 참여 지침</communityGuidelines>을 위반하는 등 불쾌감을 주거나 기분을 상하게 하는 문장이라면 이를 거부해야 합니다. <emailFragment>commonvoice@mozilla.com</emailFragment>으로 연락하여 이슈를 보고할 수도 있습니다.
 reviewing-sentences-explanation-1 = 문장이 위의 기준에 부합하면 "예" 버튼을 클릭하세요.
@@ -104,6 +107,34 @@ reviewing-sentences-explanation-2 = 문장이 위의 기준에 부합하지 않�
 reviewing-sentences-explanation-3 = 잘 모르겠다면 해당 문장을 건너뛰고 다음 문장으로 넘어가도 됩니다.
 reviewing-sentences-explanation-4 = 검토할 문장이 부족하면 더 많은 문장을 수집할 수 있도록 도와주세요!
 domain-explanation = 도메인은 문장의 주제를 뜻합니다. 현재 다음 내용 중에서 선택할 수 있습니다.
+
+## Question collection ids
+
+adding-questions = 질문 추가
+
+## Question collection sidebar content
+
+what-makes-a-good-question-subheader = 좋은 질문은 어떤 것인가요?
+what-makes-a-good-question-explanation = 공공 참여 데이터 세트에 대한 좋은 질문은:
+what-makes-a-good-question-explanation-criteria-1 = 이해하고 응답하기 쉬움
+what-makes-a-good-question-explanation-criteria-2 = 일반적으로 관련있음
+what-makes-a-good-question-explanation-criteria-3 = 유해하거나 모욕적인 언어를 사용하거나 요청하지 않음
+what-makes-a-good-question-tip = 다른 문맥과 도메인에 걸쳐 있는 것도 고려할 수 있습니다.
+easy-to-understand = 이해하기 쉬운
+easy-to-understand-explanation = 문화나 맥락에 관계없이 누구나 이해할 수 있는 간단한 질문을 선택하세요.
+spelling-and-pronunciation = 철자와 구두점
+spelling-and-pronunciation-explanation = 올바른 철자와 문법을 사용하세요.
+length = 길이
+length-explanation = 이 질문에 몇 문장으로 대답할 수 있어야 합니다.
+dont-add-subheader = 추가하지 않음
+culturally-specific-questions = 특정 문화권에 대한 질문들
+culturally-specific-questions-explanation = 매우 문화적으로 구체적이거나 응답자에 대해 많은 추측을 하는 질문
+length-avoid-explanation = 15초 이내에 답변하기 어려운 질문(최대 클립 길이)
+process-steps = 진행과정 / 단계
+process-steps-explanation = 여러 단계를 나열해야 하는 질문입니다.  단계를 나열하면 더 자연스러운 응답보다는 사용자가 답변을 암송하라는 메시지가 표시됩니다.
+offensive-content-sensitive-information = 공격적인 내용 또는 민감한 정보
+offensive-content-sensitive-information-explanation-explanation-1 = 개인 식별 정보를 요구할 수 있는 질문
+offensive-content-sensitive-information-explanation-explanation-2 = 증오심 표현 또는 기타 편향되거나 공격적인 감정을 조장할 수 있는 질문
 
 ## Spontaneous Speech sidebar content
 
