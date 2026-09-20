@@ -4,6 +4,9 @@
 error = လွင်ႈၽိတ်းပိူင်ႈ
 action-click = ၼဵၵ်း
 action-tap = ထႅပ်ႉ
+# Label for language switcher
+platform-language = ၽႃႇသႃႇပိူင်သၢင်ႈ(Platform)
+platform-language-tooltip-text = လႅၵ်ႈလၢႆႈၶေႃႈၵႂၢမ်းၼိူဝ်ဝႅပ်ႉသၢႆႉတ်ၵူၺ်း
 audioplayer-header = ထွမ်ႇ
 # For the button to skip an item
 skip-button = ၶၢမ်ႈ
