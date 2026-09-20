@@ -1,5 +1,9 @@
 ## General
 
+# Toast message that is displayed when an error occurs
+error = လွင်ႈၽိတ်းပိူင်ႈ
+action-click = ၼဵၵ်း
+action-tap = ထႅပ်ႉ
 audioplayer-header = ထွမ်ႇ
 # For the button to skip an item
 skip-button = ၶၢမ်ႈ
