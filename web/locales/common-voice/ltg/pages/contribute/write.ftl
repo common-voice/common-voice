@@ -73,6 +73,7 @@ sc-bulk-upload-header = Augšynluodejit <icon></icon> publiskuo eipašuma teikum
 sc-bulk-upload-instruction = Īveļcit sovu datni ite voi <uploadButton>klykstynojit, lai izalaseitu</uploadButton>
 sc-bulk-upload-instruction-drop = Lai augšynluodātu failu, īlicit tū ite
 bulk-upload-additional-information = Ka gribit dūt papyldinformaceju par itū datni, lyudzu, sasazynojit ar <emailFragment>commonvoice@mozilla.com</emailFragment>.
+template-file-additional-information = Ka par itū datni gribit dūt papyldinformaceju, kas nav īlykta veidnē , lyudzu, sasazynojit ar <emailFragment>commonvoice@mozilla.com</emailFragment>.
 try-upload-again = Raugit vēļreiz īviļkt datni, kū gribit augšynluodēt
 try-upload-again-md = Raugit augšynluodēt vēļreiz
 select-file = Izalosi failu
@@ -95,9 +96,13 @@ too-many-files = Par daudzi failu
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> Dalīcit vairuokus breivi daīmamus teikumus, kas nav aizsorguoti ar autortīseibom
+multiple-sentences-error = Vīnā reizē navar dalikt vairuokus teikumus
 exceeds-small-batch-limit-error = Navar īsnīgt vaira par 1000 teikumu
 small-batch-sentences-rule-1 = Īvārojit vodlinejis sadaļā "Kaidus teikumus varu dalikt?"
 small-batch-sentences-rule-2 = Kotrā ryndā dalīcit vīnu teikumu
+small-batch-sentences-rule-3 = Atdolit teikumus, kas saraksteiti vīnā ryndā, vīnreiz nūmīdzūt "Enter"
 small-batch-sentences-rule-4 = Dalīcit leidz 1000 teikumim
 small-batch-sentences-rule-5 = Vysim teikumim ir juobyut nu vīnys jūmys
 small-batch-sentences-rule-6 = Vysim teikumim juobyut nu vīna olūta

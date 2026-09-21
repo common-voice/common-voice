@@ -1,12 +1,12 @@
 ## WRITE PAGE
 
 write = တႅမ်ႈ
-write-instruction = သႂ်ႇ <icon></icon> ၶေႃႈၵႂၢမ်း ဢၼ်ပဵၼ်ၶွင်ၵူၼ်းတင်းၼမ်
+write-instruction = သႂ်ႇ <icon></icon> ၶေႃႈၵႂၢမ်း ဢၼ်ပဵၼ်ဝုၼ်ႇၵူၼ်းတင်းၼမ်
 write-page-subtitle = ၶေႃႈၵႂၢမ်း ဢၼ်မႃးၶဝ်ႈႁူမ်ႈၵမ်ႉထႅမ် တီႈၼႆႈ တေထုၵ်ႇဢဝ်ၵႂႃႇထႅမ်သႂ်ႇၼႂ်း ၸုမ်ႇၶေႃႈမုၼ်း (Dataset) ဢၼ်မီးဝႂ်သူၼ်ႇသၢင်ႈCC0 ပုၼ်ႈတႃႇၵူၼ်းတင်းၼမ် ၸၢင်ႈဢဝ်ၵႂႃႇၸႂ်ႉလႆႈလွတ်ႈလႅဝ်းၶႃႈ။
 sentence =
     .label = ၶေႃႈၵႂၢမ်း
-sentence-input-placeholder = သႂ်ႇပၼ် ၶေႃႈၵႂၢမ်း ဢၼ်ပဵၼ် ၶွင်ၵူၼ်းတင်းၼမ် တီႈၼႆႈ
-small-batch-sentence-input-placeholder = သႂ်ႇပၼ် ၶေႃႈၵႂၢမ်း ဢၼ်ပဵၼ် ၶွင်ၵူၼ်းတင်းၼမ် တီႈၼႆႈ
+sentence-input-placeholder = သႂ်ႇပၼ် ၶေႃႈၵႂၢမ်း ဢၼ်ပဵၼ် သုၼ်ႇၵူၼ်းတင်းၼမ်တီႈၼႆႈ
+small-batch-sentence-input-placeholder = သႂ်ႇပၼ် ၶေႃႈၵႂၢမ်း ဢၼ်ပဵၼ်သုၼ်ႇၵူၼ်းတင်းၼမ် တီႈၼႆႈ
 citation-input-placeholder = လူဝ်ႇလႆႈမီးတီႈဢၢင်ႈဢိင်ငဝ်ႈႁၢၵ်ႈၶေႃႈၵႂၢမ်းၸဝ်ႈၵဝ်ႇ (လူဝ်ႇ)
 citation =
     .label = ဢၢင်ႈဢိင်
@@ -72,7 +72,12 @@ sentence-variant-select-multiple-variants = ၽႃႇသႃႇၵႂၢမ်း
 sc-bulk-upload-header = သူင်ႇၶိုၼ်ႈ<icon></icon> ၶေႃႈၵႂၢမ်းသုၼ်ႇၵူၼ်းတင်းၼမ်
 sc-bulk-upload-instruction = လၢၵ်ႈၾၢႆႇလ်ၸဝ်ႈၵဝ်ႇမႃးသႂ်ႇတီႈၼႆႈ ဢမ်ႇၼၼ်  <uploadButton>ၼဵၵ်းတႃႇသူင်ႇၶိုၼ်ႈ</uploadButton>
 sc-bulk-upload-instruction-drop = ဝၢင်းၾၢႆႇလ်တီႈၼႆႈ တႃႇသူင်ႇၶိုၼ်ႈ
+bulk-upload-additional-information = သင်ဝႃႈမီးၶေႃႈမုၼ်းထႅင်ႈ ဢၼ်ၸဝ်ႈၵဝ်ႇၶႂ်ႈပၼ်ၵဵဝ်ႇလူၺ်ႈၾၢႆႇလ်ၼႆႉ၊ ၶႅၼ်းတေႃႈၵပ်းသိုပ်ႇ <emailFragment>commonvoice@mozilla.com</emailFragment>
 select-file = လိူၵ်ႈၾၢႆႇ
 file-too-large = ၾၢႆႇၼႆႉယႂ်ႇႁႅင်းၼႃႇ
 file-too-small = ၾၢႆႇၼႆႉလဵၵ်ႉႁႅင်းၼႃႇ
 too-many-files = ၾၢႆႇၼမ်ပူၼ်ႉတီႈ
+
+## MENU ITEM ARIA LABELS
+
+transcribe-audio-menu-item-aria-label = ထွတ်ႇသဵင်ဢတ်း ႁႂ်ႈပဵၼ်တူဝ်လိၵ်ႈ
