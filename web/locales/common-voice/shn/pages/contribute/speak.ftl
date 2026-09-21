@@ -85,3 +85,4 @@ answer-questions-menu-item-tooltip = ဢတ်းသဵင်တူဝ်ၵဝ�
 
 speak-contribute-menu-aria-label = မေႇၼူးတၢင်းလိူၵ်ႈလွင်ႈလၢတ်ႈ
 read-sentences-menu-item-aria-label = လူဢၢၼ်ႇၶေႃႈၵႂၢမ်း ဢၼ်တူင်ႇဝူင်းတၢင်ႇထိုင်မႃး လၢႆလၢႆၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈ
+answer-questions-menu-item-aria-label = သူင်ႇၶေႃႈထၢမ်မႂ်ႇ ႁႂ်ႈတူင်ႇဝူင်းၵူၼ်းလႆႈဢၢၼ်ႇလႄႈတွပ်ႇပၼ်
