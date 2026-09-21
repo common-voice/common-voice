@@ -7,6 +7,9 @@ sentence =
     .label = ၶေႃႈၵႂၢမ်း
 sentence-input-placeholder = သႂ်ႇပၼ် ၶေႃႈၵႂၢမ်း ဢၼ်ပဵၼ် ၶွင်ၵူၼ်းတင်းၼမ် တီႈၼႆႈ
 small-batch-sentence-input-placeholder = သႂ်ႇပၼ် ၶေႃႈၵႂၢမ်း ဢၼ်ပဵၼ် ၶွင်ၵူၼ်းတင်းၼမ် တီႈၼႆႈ
+citation-input-placeholder = လူဝ်ႇလႆႈဢၢင်ႈဢိင်ငဝ်ႈႁၢၵ်ႈၶေႃႈၵႂၢမ်းၸဝ်ႈၵဝ်ႇ (လူဝ်ႇ)
+citation =
+    .label = ဢၢင်ႈဢိင်
 contact-us = ၵပ်းသိုပ်ႉႁဝ်းၶႃႈ
 # Sentence Domain dropdown option
 healthcare = ၵၢၼ်လုမ်းလႃးပၢႆးယူႇလီ
