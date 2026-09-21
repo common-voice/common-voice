@@ -63,3 +63,8 @@ thanks-for-voice-toast-error = မီးလွင်ႈၽိတ်းပိူ�
 first-cta-gender-select-default-option = လိူၵ်ႈဢဝ်တၢင်းလိူၵ်ႈ
 first-cta-gender-select-help-text =
     .label = ၸဝ်ႈၵဝ်ႇ ၶႂ်ႈလၢတ်ႈၼႄ လွင်ႈငႅင်ႈ(ၸၢႆး-ယိင်း)ၸဝ်ႈၵဝ်ႇ ၸိူင်ႉၼင်ႇႁိုဝ်ၶႃႈ?
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = ယိၼ်းၸူမ်းၶွပ်ႈၸႂ်ထိုင် တွၼ်ႈတႃႇၵၢၼ်ၶဝ်ႈႁူမ်ႈၵမ်ႉထႅမ် သဵင်ၸဝ်ႈၵဝ်!
+second-cta-subtitle-text = ၵၢၼ်မီးပရူဝ်ႊၾၢႆႊလ် (Profile) ၼၼ်ႉ တေႁဵတ်းႁႂ်ႈၸဝ်ႈၵဝ်ႇ ၸၢင်ႈၵပ်းသိုပ်ႇၵွင်ႉၵၢႆႇၵၼ်တင်းတူင်ႇဝူင်း ၽူႈၶဝ်ႈႁူမ်ႈၵမ်ႉထႅမ်ၶေႃႈမုၼ်းသဵင်ၶဝ်လႆႈၶႃႈ။"
+already-have-an-account = မီးသဵၼ်ႈမၢႆဝႆႉယဝ်ႉႁႃႉ? <login>လွၵ်ႉၶဝ်ႈ</login>
+create-profile-button = သၢင်ႈပရူဝ်ႊၾၢႆႊလ်
