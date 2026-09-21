@@ -55,7 +55,11 @@ history_law_government = ပိုၼ်း၊ မၢႆမီႈ လႄႈၵ�
 # Sentence Domain dropdown option
 language_fundamentals = ပိုၼ်ႉထၢၼ်ၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈ (မိူၼ်ၼင်ႇ တူဝ်ၼပ်ႉ၊ တူဝ်လိၵ်ႈ၊ ငိုၼ်းတွင်း)
 # Sentence Domain dropdown option
+media_entertainment = ၵၢၼ်သိုဝ်ႇၶၢဝ်ႇ လႄႈလွင်ႈလဝ်ႇမူၼ်ႈတူၼ်ႈၸႂ်
+# Sentence Domain dropdown option
 nature_environment = သၽႃႇဝ လႄႈ သိင်ႇဝႅတ်ႉလွမ်ႉ
+# Sentence Domain dropdown option
+news_current_affairs = ၶၢဝ်ႇငၢဝ်း လႄႈ လွင်ႈတၢင်းမိူဝ်ႈလဵဝ်
 
 ## BULK SUBMISSION
 

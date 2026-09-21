@@ -14,5 +14,6 @@ do-section-guideline-3 = Puorsalīcynojit, ka iz vaicuojumim var atbiļdēt puor
 do-not-section-guideline-3 = Aizdūdit sensitivus vaicuojumus
 # Code switching Guidelines
 cs-do-section-guideline-1 = Lītojit divvolūdu vaicuojumus voi kontekstu
+cs-do-section-guideline-2 = Apsaverit naformalus scenarejus, situacejis voi inscinejumus
 cs-do-not-section-guideline-2 = Lyudzit koda maiņu voi vaicojit tulkuojuma
 cs-do-not-section-guideline-3 = Nalītojit puoruok formalu volūdu
