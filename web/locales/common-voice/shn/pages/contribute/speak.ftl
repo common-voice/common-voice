@@ -46,8 +46,12 @@ review-rerecord = ဢတ်းသဵင်မႂ်ႇ
 review-cancel = ယႃႉသိမ်းပႅတ်ႈ လွင်ႈတၢင်ႇယိုၼ်ႈ
 review-keep-recordings = သိမ်းဝႆႉသဵင်ဢတ်း
 review-delete-recordings = မွတ်ႇပႅတ်ႈသဵင်ဢတ်းၶွင်ၶႃႈ
+review-terms = ၵၢၼ်ၶဝ်ႈၸႂ်ႉတိုဝ်း Common Voice ၼႆႉ ပွင်ႇဝႃႈ ၸဝ်ႈၵဝ်ႇယွမ်းႁပ်ႉၸွမ်း<termsLink>ၶေႃႈမၢႆမီႈ </termsLink> လႄႈ <privacyLink>ၶေႃႈၸီႉသင်ႇလွင်ႈပဵၼ်သုၼ်ႇတူဝ် ၶွင်ႁဝ်းၶႃႈယဝ်ႉ။</privacyLink>
 terms-agree = ႁၼ်လီၸွမ်း
 terms-disagree = ဢမ်ႇႁၼ်လီၸွမ်း
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = ယိၼ်းၸူမ်းၶွပ်ႈၸႂ်ထိုင် တွၼ်ႈတႃႇၵၢၼ်လူႇတၢၼ်းၶလိပ်ႇသဵင်ဢတ်းၸဝ်ႈၵဝ်ႇ!
+first-cta-subtitle-text = ၵၢၼ်လၢတ်ႈၼႄ ၶေႃႈမုၼ်းသုၼ်ႇတူဝ်ၸဝ်ႈၵဝ်ႇၼၼ်ႉ တေၸွႆႈပၼ်ၽူႈသၢင်ႈပိူင်ၵၢၼ်ႁဵတ်းသၢင်ႈပၢႆးၸၢင်ႊ (Technology) ဢၼ်ၵမ်ႉထႅမ်ပၼ်ၵူၼ်းၵူႈၸၼ်ႉလႆႈၶႃႈ။
 why-donate = ယွၼ်ႉသင်လႄႈသူၸဝ်ႈထၢမ်?
 add-information-button = ၽိူမ်ႉထႅမ်ၶေႃႈမုၼ်း
 continue-speaking-button = ဢမ်ႇ ၸူမ်းယဝ်ႉ! သိုပ်ႇလၢတ်ႈထႅင်ႈ
