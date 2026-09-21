@@ -30,6 +30,12 @@ contact-us = ၵပ်းသိုပ်ႉႁဝ်းၶႃႈ
 add-sentence-success = 1 ၵဵပ်းသိမ်းၶေႃႈၵႂၢမ်းယဝ်ႉတူဝ်ႈယဝ်ႉ
 add-sentence-error = မီးလွင်ႈၽိတ်းပိူင်း (Error) ၼႂ်းၵၢၼ်သႂ်ႇၶေႃႈၵႂၢမ်းၶႃႈ။
 required-field = ၶႅၼ်းတေႃႈထႅမ်သႂ်ႇလွၵ်းၼႆႉၶႃႈ။
+single-sentence-submission = ၵၢၼ်သူင်ႇၶေႃႈၵႂၢမ်းထႅဝ်လဵဝ်
+small-batch-sentence-submission = ၵၢၼ်သူင်ႇၶေႃႈၵႂၢမ်းပဵၼ်ၸုပ်ႈယွႆႈ
+bulk-sentence-submission = ၵၢၼ်သူင်ႇၶေႃႈၵႂၢမ်းပဵၼ်ၸုပ်ႈလူင်တင်းၼမ်တင်းလၢႆ
+single-sentence = ထႅဝ်လဵဝ်
+small-batch-sentence = ၸုပ်ႈယွႆႈ
+bulk-sentence = ၸုပ်ႈၼမ်
 # Sentence Domain dropdown option
 healthcare = ၵၢၼ်လုမ်းလႃးပၢႆးယူႇလီ
 # Sentence Domain dropdown option
