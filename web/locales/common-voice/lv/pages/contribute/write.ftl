@@ -24,7 +24,7 @@ new-sentence-rule-8 = Dabiski sarunvalodas teikumi (tiem jābūt viegli ierunāj
 login-instruction-multiple-sentences = <loginLink>Pieslēdzieties</loginLink> vai <loginLink>reģistrējieties</loginLink>, lai pievienotu vairākus teikumus
 how-to-cite = Kā norādīt avotu?
 how-to-cite-explanation-bold = Jānorāda ar saiti vai pilnu darba nosaukumu.
-how-to-cite-explanation = Ja šis ir jūsu izdomāts teikums, vienkārši norādiet <italicizedText>“Pašatsauce”</italicizedText>. Mums ir jāzina teikumu avoti, lai varētu pārbaudīt, vai tas ir publiski pieejams un uz to neattiecas nekādi autortiesību ierobežojumi. Papildu informāciju par atsaucēm skatiet mūsu <guidelinesLink>vadlīniju lapā</guidelinesLink>.
+how-to-cite-explanation = Ja šie ir paša(s) vārdiem, tad vienkārši jāsaka <italicizedText>“Pašatsauce"</italicizedText>. Mums ir jāzina, kur atradi šo saturu, lai mēs varētu pārliecināties, ka tas pieejams publiski un uz to neattiecas nekādi autortiesību ierobežojumi. Vairāk informācijas par atsaucēm var apskatīt mūsu <guidelinesLink>vadlīniju lapā</guidelinesLink>.
 guidelines = Vadlīnijas
 contact-us = Sazināties ar mums
 add-sentence-success = Savākts 1 teikums
@@ -37,7 +37,7 @@ single-sentence = Viens teikums
 small-batch-sentence = Maza partija
 bulk-sentence = Lielapjoma partija
 sentence-domain-combobox-label = Teikuma joma
-sentence-domain-select-placeholder = Izvēlieties līdz trim jomām
+sentence-domain-select-placeholder = Jāatlasa līdz trim jomām (pēc izvēles)
 # Sentence Domain dropdown option
 agriculture_food = Lauksaimniecība un pārtika
 # Sentence Domain dropdown option
@@ -63,7 +63,7 @@ news_current_affairs = Ziņas un aktualitātes
 # Sentence Domain dropdown option
 technology_robotics = Tehnoloģijas un robotika
 sentence-variant-select-label = Teikuma variants
-sentence-variant-select-placeholder = Izvēlieties variantu (neobligāti)
+sentence-variant-select-placeholder = Atlasi variantu (pēc izvēles)
 sentence-variant-select-multiple-variants = Vispārējā valoda / vairāki varianti
 
 ## BULK SUBMISSION
@@ -76,7 +76,7 @@ bulk-upload-additional-information = Ja vēlaties sniegt papildu informāciju pa
 template-file-additional-information = Ja par šo datni vēlaties sniegt papildu informāciju, kas nav iekļauta veidnē, lūdzu, sazinieties ar <emailFragment>commonvoice@mozilla.com</emailFragment>.
 try-upload-again = Mēģiniet vēlreiz ievilkt šeit datni ko augšupielādēt
 try-upload-again-md = Mēģiniet augšupielādēt vēlreiz
-select-file = Izvēlieties datni
+select-file = Atlasi datni
 select-file-mobile = Atlasiet augšupielādējamo datni
 accepted-files = Atbalstītie datņu veidi: tikai .tsv
 minimum-sentences = Mazākais pieļaujamais teikumu skaits datnē: 1000

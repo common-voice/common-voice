@@ -48,13 +48,13 @@ first-cta-header-text = Paldies, ka pievienojāt savas balss ierakstus!
 first-cta-subtitle-text = Vai vēlaties pastāstīt par to, kā runājat?
 why-donate = Kāpēc jūs jautājat?
 why-donate-explanation-1 = Šī informācija nav jāsniedz obligāti - pievienojiet to tikai tad, ja jūtaties ērti. Kad mēs izlaižam datu kopu, mēs pseidonimizējam visu personas informāciju un pārliecināmies, ka informācija, piemēram, jūsu vārds un e-pasts, nav saistīta ar demogrāfisko informāciju, piemēram, vecumu vai dzimumu.
-why-donate-explanation-2 = Lai balss tehnoloģija labi darbotos ikvienam, datiem, kas palīdz izstrādātājiem izveidot šo tehnoloģiju, ir jāatspoguļo daudzveidīgs cilvēku loks. Piemēram, ja mēs neiekļaujam nevienu runātāju ar noteiktu akcentu, tehnoloģija nedarbosies labi cilvēkiem ar šo akcentu. <learnMore>Uzziniet vairāk par to, kāpēc metadati ir svarīgi.</learnMore>
+why-donate-explanation-2 = Lai tehnoloģija labi darbotos ikvienam, datiem, kas palīdz izstrādātājiem izveidot to, ir jāatspoguļo daudzveidīgs cilvēku loks. Piemēram, ja mēs neiekļaujam nevienu runātāju ar noteiktu akcentu, tehnoloģija nedarbosies labi cilvēkiem ar šo akcentu. <learnMore>Uzzināt vairāk par to, kāpēc metadatiem ir nozīme.</learnMore>
 add-information-button = Pievienot informāciju
 continue-speaking-button = Nē, paldies, turpināšu ierakstīt
 create-profile-text = Vēlies saglabāt savu informāciju? <createProfile>Izveido profilu</createProfile>
 thanks-for-voice-toast = Paldies par balss informāciju
 thanks-for-voice-toast-error = Iesniedzot jūsu balss informāciju, radās kļūda
-first-cta-gender-select-default-option = Lūdzu izvēlieties
+first-cta-gender-select-default-option = Atlasīt iespēju
 first-cta-gender-select-help-text =
     .label = Kā jūs raksturotu savu dzimumu?
 # SECOND POST SUBMISSION CTA

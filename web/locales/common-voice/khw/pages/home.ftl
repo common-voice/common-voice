@@ -84,7 +84,6 @@ add-questions = سوال شامل کو <small> (شاو گویان)</small>
 transcribe-audio = ہوازو نیویشیکا غیراوے<small> (شاو گویان)</small>
 press-and-stories = اخبار وا مضمون
 community-and-languages = کمیونیٹی وا وار
-coming-soon = شاؤ گویان
 
 ## MENU ITEMS TOOLTIPS
 

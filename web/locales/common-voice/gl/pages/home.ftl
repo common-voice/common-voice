@@ -81,7 +81,6 @@ review-questions = Revisar preguntas
 transcribe-audio = Transcribir gravacións
 press-and-stories = Comunicación, novas
 community-and-languages = Comunidade, idiomas
-coming-soon = Proximamente
 about-us = Sobre nós
 scripted-speech = FALA GUIADA
 spontaneous-speech = FALA ESPONTÁNEA
@@ -159,6 +158,8 @@ download-press-pack = Descargue o noso paquete de prensa <icon></icon>
 
 ## Developers section
 
+developers-section-title-202608 = Conxuntos de datos de voz, libres e publicamente accesibles, en máis de 330 linguas
+developers-section-subtitle-v2 = Conxuntos de datos para ASR (recoñecemento da fala) e outros contextos de PLN (procesamento da linguaxe natural), creados grazas á participación da comunidade.
 # icon is an arrow that points to the right
 explore-datasets = Explore os conxuntos de datos <icon></icon>
 

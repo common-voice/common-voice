@@ -79,7 +79,6 @@ add-questions = سوآل بهڙي ڪرو
 transcribe-audio = آڊيو نڪل ڪرو
 press-and-stories = پريس آئين ڪهآڻي
 community-and-languages = برآدري آئين ٻولي
-coming-soon = جلدي آئيوآڙو ڇي
 about-us = همآري ري بآري مين
 scripted-speech = ليکوڙي تڪرير
 spontaneous-speech = بي سآڪته تڪرير

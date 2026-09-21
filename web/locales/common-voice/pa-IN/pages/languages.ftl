@@ -2,6 +2,8 @@
 
 language-section-in-progress = ਜਾਰੀ ਹੈ
 language-section-launched = ਲਾਂਚ ਕੀਤਾ ਗਿਆ
+# lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
+language-section-last-updated = ਆਖਰੀ ਵਾਰ ਅੱਪਡੇਟ ਕੀਤਾ: { $lastUpdatedTimeStamp }
 languages-show-more = ਹੋਰ ਵੇਖੋ
 languages-show-less = ਘੱਟ ਵੇਖੋ
 language-meter-in-progress = ਤਰੱਕੀ
@@ -11,6 +13,7 @@ language-search-input =
 language-speakers = ਬੋਲਣ ਵਾਲੇ
 localized = ਉਲੱਥਾ ਕੀਤਾ
 sentences = ਵਾਕ
+language-validation-hours = ਘੰਟੇ
 contribute = ਯੋਗਦਾਨ
 get-involved-button = ਸ਼ਾਮਲ ਹੋਵੋ
 get-involved-title = { $lang } ਵਿੱਚ ਯੋਗਦਾਨ ਦਿਓ

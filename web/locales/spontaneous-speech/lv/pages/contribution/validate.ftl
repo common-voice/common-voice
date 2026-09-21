@@ -4,7 +4,7 @@ validate-page-instruction = Apstiprināt, <validateIcon></validateIcon>, vai ši
 dataset-label = Datu kopa
 accept-vote-toast-message = Jautājums sekmīgi pieņemts
 reject-vote-toast-message = Jautājums sekmīgi noraidīts
-add-vote-error-message = Atgadījās kļūda balsojot par uzvedni
+add-vote-error-message = Balsošanas par uzvedni laikā atgadījās kļūda
 # Message which appears when there are no more resources on this page
 no-questions-continue-skipped-message = Šajā valodā vairs nav jautājumu. Ja kāds tika izlaists, var turpināt ar izlaisto saturu vai doties uz skaņas ierakstu transkribēšanu un vēlāk mēģināt vēlreiz.
 validate-page-yes-button-shortcut = J

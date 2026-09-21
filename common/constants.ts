@@ -4,7 +4,7 @@ export const COMMON_VOICE_EMAIL = 'commonvoice@mozilla.com'
 export const FEATURES_COOKIE = 'mcv_features'
 export const FEATURES = [
   'code-switch',
-  'datasets-old',
+  'datasets-202608',
   'papi-credentials',
   'bulk-upload',
 ]

@@ -79,7 +79,6 @@ add-questions = سوآل لگآوو
 transcribe-audio = نڪلينٚ ڪيٚ آڊيو
 press-and-stories = پريس اور ڪهآڻيونٚ
 community-and-languages = ڪميونٽيٚ اور ٻوليٚ
-coming-soon = جلدي آرهيورو هي
 about-us = همرآ بآرآ مي
 scripted-speech = لِکريٚ تڪريٚر
 spontaneous-speech = ڪُدرتيٚ ٻآت چيٚت

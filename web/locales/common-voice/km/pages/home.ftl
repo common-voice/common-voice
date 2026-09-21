@@ -75,7 +75,6 @@ review-questions = ពិនិត្យសំណួរ
 transcribe-audio = បម្លែងសំឡេងជាអត្ថបទ
 press-and-stories = សារព័ត៌មាន និងរឿងរ៉ាវ
 community-and-languages = សហគមន៍ និងភាសា
-coming-soon = ឆាប់ៗនេះ
 about-us = អំពីយើង
 scripted-speech = សុន្ទរកថាដែលមានស្គ្រីប
 spontaneous-speech = សុន្ទរកថាដោយឯកឯង

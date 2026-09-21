@@ -3,6 +3,8 @@ speak-now = 지금 말하기
 speak-subtitle = 목소리를 기부해주세요
 record-cta = 녹음 시작
 record-platform-not-supported = 죄송합니다. 현재 지원되지 않는 플랫폼입니다.
+record-platform-webview = 소셜 미디어 앱 안의 링크를 클릭하면 여기로 올 수도 있습니다. 오디오 녹음을 지원하지 않는 앱 내부 브라우저를 사용하고 있습니다.
+record-platform-not-supported-webview = 모바일 기기에서는 시스템 브라우저를 사용해서 기여할 수 있습니다…
 record-platform-not-supported-desktop = 데스크 톱 컴퓨터에서 최신 버전을 다운로드할 수 있음:
 record-platform-not-supported-ios-non-safari = iOS에서는 Safari에서 녹음을 계속해 주세요…
 record-must-allow-microphone = 마이크 사용 접근을 허용해야 합니다.
@@ -10,6 +12,14 @@ record-no-mic-found = 마이크를 찾을 수 없습니다.
 record-error-too-short = 녹음이 너무 짧습니다.
 record-error-too-long = 녹음이 너무 깁니다.
 record-error-too-quiet = 녹음이 너무 조용합니다.
+record-error-empty-recording = 캡처된 오디오가 없습니다. 마이크를 확인하고 다시 시도하세요.
+record-error-unknown-format = 오디오 형식을 확인할 수 없습니다. 다른 브라우저를 사용해 주세요.
+record-error-uploaded-clip-corrupted =
+    녹음된 오디오가 손상된 것 같습니다. 다음 원인으로 인해 발생할 수 있습니다:
+    • 브라우저 호환성 문제(다른 브라우저를 사용해 보세요)
+    • 마이크나 오디오 드라이버 문제
+    • 녹음 중 네트워크 중단
+    다시 녹음 해 주세요.
 record-cancel = 재 녹음 취소
 record-instruction = { $actionType } <recordIcon></recordIcon> 후에 문장을 큰 소리로 읽어주세요
 record-stop-instruction = 끝나면 { $actionType } <stopIcon></stopIcon> 하세요

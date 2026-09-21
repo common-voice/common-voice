@@ -78,7 +78,6 @@ review-questions = Duyệt câu hỏi
 transcribe-audio = Phiên âm âm thanh
 press-and-stories = Báo chí và tin tức
 community-and-languages = Cộng đồng và Ngôn ngữ
-coming-soon = Sắp ra mắt
 about-us = Về chúng tôi
 scripted-speech = LỜI NÓI THEO KỊCH BẢN
 spontaneous-speech = LỜI NÓI TỰ PHÁT

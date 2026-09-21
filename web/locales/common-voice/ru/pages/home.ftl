@@ -84,7 +84,6 @@ review-questions = Рецензировать вопросы
 transcribe-audio = Транскрибируйте аудио <small>(Скоро)</small>
 press-and-stories = Пресса и истории
 community-and-languages = Сообщество и языки
-coming-soon = Скоро
 about-us = О нас
 scripted-speech = ПОДГОТОВЛЕННАЯ РЕЧЬ
 spontaneous-speech = СПОНТАННАЯ РЕЧЬ

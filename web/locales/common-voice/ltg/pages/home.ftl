@@ -84,7 +84,6 @@ review-questions = Puorsavērt vaicuojumus
 transcribe-audio = Puorraksteit audio
 press-and-stories = Prese i stuosti
 community-and-languages = Kūpīna i volūdys
-coming-soon = Dreiži
 about-us = Par mums
 scripted-speech = SAGATAVEITUO RUNA
 spontaneous-speech = SPONTANUO RUNA
@@ -161,8 +160,8 @@ explore-datasets = Izpietejit datu kūpys <icon></icon>
 ## Get involved section
 
 get-involved-section-title = Atbolstit valejis, kūpīnys taiseitys datu kūpys
-read-sentences-link = Skaiti teikumus
-validate-readings-link = Apstyprynuot īrunuotū
+read-sentences-link = Skaitit teikumus
+validate-readings-link = Apstyprynojat īrunuotū
 contribute-link = Papyldynojat tekstu korpusu
 answer-questions-link = Atbiļdit iz vaicuojumim
 transcribe-answers-link = Puorrakstit atbiļdis
@@ -174,7 +173,7 @@ press-and-stories-link = Prese i stuosti
 
 partner-section-title = Sasadorbojit ar mums
 # Text wrapped in <bold></bold> will be shown in bold font
-partner-section-subtitle-tech-companies = <bold>Tehnologeju uzjāmumi</bold> — īguļdit valeju datu kūpu izveidē plaukstūšai vairuokvolūdu MI ekosistemai
+partner-section-subtitle-tech-companies = <bold>Tehnologeju uzjāmumi</bold> — īguldit valeju datu kūpu izveidē plaukstūšai vairuokvolūdu MI ekosistemai
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-civil-society = <bold>Piļsuoniskuo sabīdreiba i pietnīki</bold> — veidojit, publicejit i pasadolit ar dereigom datu kūpom
 # Text wrapped in <bold></bold> will be shown in bold font

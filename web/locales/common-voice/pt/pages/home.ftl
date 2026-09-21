@@ -79,7 +79,6 @@ add-questions = Adicionar perguntas <small>(em breve)</small>
 transcribe-audio = Transcrever áudio <small>(em breve)</small>
 press-and-stories = Imprensa e histórias
 community-and-languages = Comunidade e idiomas
-coming-soon = Em breve
 
 ## MENU ITEMS TOOLTIPS
 

@@ -82,7 +82,6 @@ review-questions = Mrikso Pitakonan
 transcribe-audio = Transkripsi Swara
 press-and-stories = Pencet lan Crita
 community-and-languages = Komunitas lan Basa
-coming-soon = Bakal Tekan Sakcepete
 about-us = Babagan kita
 scripted-speech = OMONGAN KATULIS
 spontaneous-speech = OMONGAN SPONTAN

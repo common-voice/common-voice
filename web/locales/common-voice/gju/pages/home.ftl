@@ -85,7 +85,6 @@ add-questions = سوالاں کو اضافو کرو<small>(بہلاں آوے گ�
 transcribe-audio = آڈیو کو تجزیو کرو<small>(بہلاں آوے گو</small>)
 press-and-stories = دباو تے کہانی
 community-and-languages = برادری تے زبان
-coming-soon = جھب آوے گی
 about-us = مہارا بارہ ما
 scripted-speech = سکرپٹڈ گل
 spontaneous-speech = بے ساختہ گل

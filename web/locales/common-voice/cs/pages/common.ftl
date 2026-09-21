@@ -198,6 +198,7 @@ kpv = Komi-zyrjanština
 krc = Karachay-Balkar
 ks = Kašmírština
 ksf = Bafia
+kum = Kumyčtina
 kvx = Parkari Koli
 kw = Kornština
 kxp = Wadiyara Koli

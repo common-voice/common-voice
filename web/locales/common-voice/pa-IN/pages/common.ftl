@@ -17,6 +17,7 @@ as = ਆਸਾਮੀ
 ast = ਅਸਟੂਰੀਅਨ
 az = ਅਜ਼ਰਬਾਈਜਾਨੀ
 ba = ਬਸ਼ਕੀਰਸ
+bal = ਬਲੋਚੀ
 bas = ਬਾਸਾ
 be = ਬੇਲਾਰੂਸੀ
 bg = ਬੁਲਗਾਰੀਅਨ
@@ -77,7 +78,9 @@ ka = ਜਾਰਜੀਆਈ
 kaa = ਕਰਕਲਪਕ
 kab = ਕਾਬੇਲੇ
 kbd = ਕਬਾਰਡੀਅਨ
+khw = ਖੋਵਾਰ
 ki = ਕੀਕੂਯੂ
+kjh = ਖਾਕਸ
 kk = ਕਾਜ਼ਾਖ
 km = ਖਮੇਰ
 kmr = ਕੁਰਮਾਂਜੀ ਕੁਰਦਿਸ਼
@@ -85,14 +88,19 @@ kn = ਕੰਨੜ
 knn = ਕੋਂਕਣੀ (ਦੇਵਨਾਗਰੀ)
 ko = ਕੋਰੀਆਈ
 kpv = ਕੋਮੀ-ਜ਼ੀਰੀਅਨ
+ks = ਕਸ਼ਮੀਰੀ
 kw = ਕੋਰਨਿਸ਼
 ky = ਕਿਰਗਿਜ਼
 lb = ਲਕਸ਼ਮਬਰਗ
+led = ਲੈਂਡੂ
+leu = ਕਾਰਾ
 lg = ਲੁਗਾਂਡਾ
 lij = ਲਿਗੁਰੀਆਂ
+lke = ਕੇਨੀ
 ln = ਲਿਨਗਾਲਾ
 lo = ਲਾਓਸ
 lt = ਲਿਥੂਨੀਅਨ
+lth = ਥੁਰ
 lv = ਲਾਟਵੀਅਨ
 mai = ਮੈਥਲੀ
 mdf = ਮੋਕਸ਼
@@ -102,11 +110,13 @@ mk = ਮੈਕਡੋਨੀਅਨ
 ml = ਮਲਿਆਲਮ
 mn = ਮੰਗੋਲੀਅਨ
 mni = ਮੀਤੇਈ ਲੋਨ
+mnw = ਮੋਨ
 mos = ਮੋਸੀ
 mr = ਮਰਾਠੀ
 mrj = ਹਿਲ ਮਾਰੀ
 ms = ਮਾਲਾਯਾ
 mt = ਮਾਲਟੀਇਸ
+mve = ਮਾਰਵਾੜੀ
 my = ਬੂਰਮਿਸੀ
 myv = ਇਰਜ਼ਿਆ
 nan-tw = ਤਾਈਵਾਨੀ (ਮਿਨਾਨ)
@@ -124,6 +134,7 @@ om = ਅਫਾਨ ਓਰਮੋ
 or = ਓੜੀਆ
 pa-IN = ਪੰਜਾਬੀ
 pap-AW = ਪਾਪੀਮੀਂਟੋ (ਅਰੂਬਾ)
+phr = ਪਹਾੜੀ-ਪੋਠੋਹਾਰੀ
 pl = ਪੋਲੈਂਡੀ
 ps = ਪੁਸਤੋ
 pt = ਪੁਰਤਗਾਲੀ
@@ -219,8 +230,35 @@ email-opt-in-info-sub-with-challenge = ਕਾਮਨ ਵੌਇਸ ਬਾਰੇ �
 email-opt-in-privacy-v2 = ਈਮੇਲਾਂ ਪ੍ਰਾਪਤ ਕਰਨ ਦੀ ਚੋਣ ਕਰਕੇ ਤੁਸੀਂ Mozilla ਦੀ <privacyLink>ਪਰਦੇਦਾਰੀ ਨੀਤੀ<privacyLink> ਤਹਿਤ ਦਰਸਾਏ ਮੁਤਾਬਕ Mozilla ਵਲੋਂ ਇਹ ਜਾਣਕਾਰੀ ਦੇ ਇੰਤਜ਼ਾਮ ਨਾਲ ਸਹਿਮਤ ਹੋ।
 indicates-required = * ਲਗਾਏ ਖ਼ੇਤਰ ਚਾਹੀਦੇ ਹਨ
 not-available-abbreviation = ਲਾਗੂ ਨਹੀਂ
+# Text shown on a button that can be clicked to copy text to the clipboard
+copy = ਕਾਪੀ ਕਰੋ
+# Text shown on a button that can be clicked to close a modal or panel
+close = ਬੰਦ ਕਰੋ
+# Text shown on a button that can be clicked to cancel an action
+cancel = ਰੱਦ ਕਰੋ
+# Text shown on a button that can be clicked to delete an item
+delete = ਹਟਾਓ
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = <mark>ਸਾਨੂੰ ਤੁਹਾਡੀ</mark><br/><mark>ਮਦਦ ਚਾਹੀਦੀ ਹੈ!</mark>
 localization-select =
     .label = ਭਾਸ਼ਾ/ਇਲਾਕਾਈਕਰਨ ਚੁਣੋ
+
+## MDC Announcement
+
+# Aria text for button which opens MDC on a new page
+announcement-mdc-button-aria-text = ਨਵੇਂ ਟੈਬ ਵਿੱਚ ਖੋਲ੍ਹਦਾ ਹੈ
+
+## Common Language/Dataset Selector & SearchBox Related
+
+# Generic search box defaults
+searchbox-default-label = ਖੋਜਣ ਲਈ ਲਿਖਣਾ ਸ਼ੁਰੂ ਕਰੋ
+searchbox-default-placeholder = ਖੋਜ...
+searchbox-default-aria-label = ਖੋਜ
+dropdown-no-results = ਕੋਈ ਮੇਲ ਨਹੀਂ ਲੱਭਿਆ
+dataset-searchbox-placeholder = ਕੋਈ ਭਾਸ਼ਾ ਲੱਭੋ...
+dataset-searchbox-aria-label = ਕੋਈ ਭਾਸ਼ਾ ਲੱਭੋ
+dataset-search-no-results = ਕੋਈ ਮਿਲਦੀ ਭਾਸ਼ਾ ਨਹੀਂ ਲੱਭੀ ਹੈ
+request-new-language = ਨਵੀਂ ਭਾਸ਼ਾ ਲਈ ਬੇਨਤੀ ਕਰੋ

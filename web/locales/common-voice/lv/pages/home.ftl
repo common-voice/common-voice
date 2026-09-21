@@ -73,7 +73,7 @@ username-email-not-demographic = Lietotājvārds un e-pasta adrese netiks piesai
 
 welcome-staff = Sveicināti { $company } darbinieki!
 help-contribute = Jūs varat palīdzēt veidot daudzveidīgu atvērtā pirmkoda datu kopu, izveidojot Common Voice profilu un ierakstot savu balsi.
-login-company = Piesakieties / pierakstieties ar { $company } e-pastu
+login-company = Pieteikties/reģistrēties ar { $company } e-pasta adresi
 profile-not-required = Lai veiktu ieguldījumu, profilu veidot nevajag, bet tas var būt noderīgi ja jūs to izveidosiet
 read-more-about = Lasiet vairāk mūsu lapā Par mums
 
@@ -86,7 +86,6 @@ review-questions = Pārskatīt jautājumus
 transcribe-audio = Pārrakstīt audio
 press-and-stories = Prese un stāsti
 community-and-languages = Kopiena un valodas
-coming-soon = Drīzumā
 about-us = Par mums
 scripted-speech = SAGATAVOTĀ RUNA
 spontaneous-speech = SPONTĀNĀ RUNA

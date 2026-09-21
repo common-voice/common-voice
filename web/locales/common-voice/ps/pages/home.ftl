@@ -91,7 +91,6 @@ review-questions = د پوښتنو بیاکتنه
 transcribe-audio = آډیو نقل کړئ <small>(ډیر ژر راځي)</small>
 press-and-stories = مطبوعات او کیسې
 community-and-languages = ټولنه او ژبې
-coming-soon = ژر راځي
 about-us = زموږ په اړه
 scripted-speech = لیکل شوې وینا
 spontaneous-speech = په خپله خوښه وینا

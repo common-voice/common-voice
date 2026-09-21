@@ -11,7 +11,7 @@ import {
 import URLS from '../../../urls'
 
 const Datasets = () => {
-  const hasOldDatasetsFeature = useFeature('datasets-old')
+  const hasOldDatasetsFeature = useFeature('datasets-202608')
   const featureContextLoaded = useFeatureContextLoaded()
 
   // Show spinner while feature context is loading

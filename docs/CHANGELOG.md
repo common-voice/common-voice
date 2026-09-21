@@ -2,6 +2,63 @@
 
 ## Current release
 
+### [v1.160.0 (2026-09-21)](https://github.com/common-voice/common-voice/releases/tag/release-v1.160.0)
+
+- Add Brazilian Portuguese (`pt-BR`) variant-dataset support to Pontoon and bundler by [@moz-acfort](https://github.com/moz-acfort) in [#5517](https://github.com/common-voice/common-voice/pull/5517)
+- Add SCS v25.0 and v26.0 release statistics by [@moz-bozden](https://github.com/moz-bozden) in [#5516](https://github.com/common-voice/common-voice/pull/5516)
+- Add index for sentence validation performance problems by [@moz-bozden](https://github.com/moz-bozden) in [#5485](https://github.com/common-voice/common-voice/pull/5485) (in v.1.159.10)
+- Update announcements for upcoming downtime and release schedule by [@moz-bozden](https://github.com/moz-bozden) in [#5483](https://github.com/common-voice/common-voice/pull/5483) (in v.1.159.9)
+- Docs: Expand sentence correction and migration guidance by [@VedantMadane](https://github.com/VedantMadane), in [#5471](https://github.com/common-voice/common-voice/pull/5471) (in v.1.159.8)
+- Feat: Add migration helper for new predefined-accent inclusion, which solves collisions with user-defined accents, also re-apply the Frisian (`fy`) accent additions -which failed previously due to collisions- using this workflow by [@moz-bozden](https://github.com/moz-bozden) in [#5453](https://github.com/common-voice/common-voice/pull/5453) (in v.1.159.5)
+- Fix: Revert to the English translation as a fallback when a native-language translation does not exist (instead of showing the language code), add an apostrophe-normalization helper, by [@moz-bozden](https://github.com/moz-bozden) in [#5439](https://github.com/common-voice/common-voice/pull/5439) (in v.1.159.3)
+- Chore: Rework rate limiting to be keyed by user client_id (with IP fallback) across several server endpoints, and improve the client UX to prevent/handle accidental duplicate submissions and rate-limit responses during contribution flows, by [@moz-bozden](https://github.com/moz-bozden) in [#5424](https://github.com/common-voice/common-voice/pull/5424) (in v.1.159.2)
+- Chore: Update bundler dependencies [#5417](https://github.com/common-voice/common-voice/pull/5417), update uploader dependencies and adjust code [#5418](https://github.com/common-voice/common-voice/pull/5418), upgrade uploader to disable previous versions via CLI [#5419](https://github.com/common-voice/common-voice/pull/5419), by [@moz-bozden](https://github.com/moz-bozden) (in v.1.159.1)
+- Fix: Addressed several reliability issues around user profile updates and account-claiming, improving error handling for rate-limits/network edge cases and tightening the /user_client PATCH contract between web and server, by [@moz-bozden](https://github.com/moz-bozden), in [#5416](https://github.com/common-voice/common-voice/pull/5416) (in v.1.159.1)
+
+#### Data Changes in v1.160.0
+
+- Welcome to new language: Kumyk (`kum`)
+- Levantine Arabic (`apc`) variants [#5473](https://github.com/common-voice/common-voice/pull/5473) by [@moz-acfort](https://github.com/moz-acfort) (in v.1.159.8)
+- Welcome to new language: Levantine Arabic (`apc`) (in v.1.159.8)
+- Welcome to new language: Mazandarani (`mzn`) (in v.1.159.7)
+- Welcome to new language: Pa'O (`blk`) (in v.1.159.5)
+- Add Hausa (`ha`) variants [#5451](https://github.com/common-voice/common-voice/pull/5451) by [@moz-acfort](https://github.com/moz-acfort) (in v.1.159.5)
+- Add Musi (`mui`) variants [#5440](https://github.com/common-voice/common-voice/pull/5440), Kabyle (`kab`) variants [#5445](https://github.com/common-voice/common-voice/pull/5445), and Frisian (`fy`) accents [#5448](https://github.com/common-voice/common-voice/pull/5448) by [@moz-acfort](https://github.com/moz-acfort) (in v.1.159.4)
+- Welcome to new language: West Flemish (`vls`) (in v.1.159.4)
+- Welcome to new languages: Dzongkha (dz), Kalaallisut (kl), and Musi (mui) (in v.1.159.3)
+- Added Ewe (`ee`) variants by [@moz-bozden](https://github.com/moz-bozden) in [#5421](https://github.com/common-voice/common-voice/pull/5421) (in v.1.159.1) and moved existing sentences to the new variant with a migration, by [@moz-bozden](https://github.com/moz-bozden) in [#5425](https://github.com/common-voice/common-voice/pull/5425) (in v.1.159.2)
+
+#### Spontaneous Speech v1.160.0
+
+- Infra: Upgrade Docker OS images to the latest version by [@moz-bozden](https://github.com/moz-bozden) in [#560](https://github.com/common-voice/spontaneous-speech/pull/560)
+- Bundler: Fix SQL returning multiple rows per audio if demographics changed by [@moz-bozden](https://github.com/moz-bozden) in [#556](https://github.com/common-voice/spontaneous-speech/pull/556)
+- Update announcements for upcoming downtime and release schedule by [@moz-bozden](https://github.com/moz-bozden) in [#554](https://github.com/common-voice/spontaneous-speech/pull/554) (in v.1.159.9)
+- Chore: Update bundler dependencies [#545](https://github.com/common-voice/spontaneous-speech/pull/545), multiple optimizations, enhancements, and reliability/resilience changes [#546](https://github.com/common-voice/spontaneous-speech/pull/546), [#547](https://github.com/common-voice/spontaneous-speech/pull/547), by [@moz-bozden](https://github.com/moz-bozden) (in v.1.159.1)
+
+##### SS Data Changes in v1.160.0
+
+- Add Brazilian Portuguese (`pt-BR`) questions by [@moz-acfort](https://github.com/moz-acfort) in [#559](https://github.com/common-voice/spontaneous-speech/pull/559)
+- Add Shan (`shn`) questions by [@moz-acfort](https://github.com/moz-acfort) in [#555](https://github.com/common-voice/spontaneous-speech/pull/555)
+- Add Chinese (China) (`zh-CN`) questions by [@moz-acfort](https://github.com/moz-acfort) in [#553](https://github.com/common-voice/spontaneous-speech/pull/553) (in v.1.159.9)
+- Add Swahili (`sw`) questions by [@moz-acfort](https://github.com/moz-acfort) in [#552](https://github.com/common-voice/spontaneous-speech/pull/552) (in v.1.159.8)
+- Fix problems in Corsican (`co`) questions by [@moz-acfort](https://github.com/moz-acfort) in [#551](https://github.com/common-voice/spontaneous-speech/pull/551) (in v.1.159.7)
+- Add Palauan (`pau`) and Sundanese (`su`) questions by [@moz-acfort](https://github.com/moz-acfort) in [#549](https://github.com/common-voice/spontaneous-speech/pull/549) and [#550](https://github.com/common-voice/spontaneous-speech/pull/550) (in v.1.159.6)
+- Add Bengali (`bn`) questions by [@moz-acfort](https://github.com/moz-acfort) in [#548](https://github.com/common-voice/spontaneous-speech/pull/548) (in v.1.159.3)
+
+---
+
+### Changes merged after current release
+
+#### Data Changes after current release
+
+#### Spontaneous Speech Changes after current release
+
+##### SS Data Changes after current release
+
+---
+
+## Past releases
+
 ### [v1.159.0 (2026-06-01)](https://github.com/common-voice/common-voice/releases/tag/release-v1.159.0)
 
 - Fix: Correct the rate-limit (429) message display — split into separate message keys, by [@moz-bozden](https://github.com/moz-bozden) in [#5415](https://github.com/common-voice/common-voice/pull/5415)
@@ -45,43 +102,6 @@
 - Remove some Galician (`gl`) questions asking for PII info by adding reports directly into DB which will fully exclude them, by [@moz-bozden](https://github.com/moz-bozden)
 - Update some Galician (`gl`) questions with a migration to fix grammar issues, by [@moz-bozden](https://github.com/moz-bozden) in [#534](https://github.com/common-voice/spontaneous-speech/pull/534) (in v1.158.2)
 
----
-
-### Changes merged after current release
-
-- Update announcements for upcoming downtime and release schedule by [@moz-bozden](https://github.com/moz-bozden) in [#5483](https://github.com/common-voice/common-voice/pull/5483) (in v.1.159.9)
-- Docs: Expand sentence correction and migration guidance by [@VedantMadane](https://github.com/VedantMadane), in [#5471](https://github.com/common-voice/common-voice/pull/5471) (in v.1.159.8)
-- Feat: Add migration helper for new predefined-accent inclusion, which solves collisions with user-defined accents, also re-apply the Frisian (`fy`) accent additions -which failed previously due to collisions- using this workflow by [@moz-bozden](https://github.com/moz-bozden) in [#5453](https://github.com/common-voice/common-voice/pull/5453) (in v.1.159.5)
-- Fix: Revert to the English translation as a fallback when a native-language translation does not exist (instead of showing the language code), add an apostrophe-normalization helper, by [@moz-bozden](https://github.com/moz-bozden) in [#5439](https://github.com/common-voice/common-voice/pull/5439) (in v.1.159.3)
-- Chore: Rework rate limiting to be keyed by user client_id (with IP fallback) across several server endpoints, and improve the client UX to prevent/handle accidental duplicate submissions and rate-limit responses during contribution flows, by [@moz-bozden](https://github.com/moz-bozden) in [#5424](https://github.com/common-voice/common-voice/pull/5424) (in v.1.159.2)
-- Chore: Update bundler dependencies [#5417](https://github.com/common-voice/common-voice/pull/5417), update uploader dependencies and adjust code [#5418](https://github.com/common-voice/common-voice/pull/5418), upgrade uploader to disable previous versions via CLI [#5419](https://github.com/common-voice/common-voice/pull/5419), by [@moz-bozden](https://github.com/moz-bozden) (in v.1.159.1)
-- Fix: Addressed several reliability issues around user profile updates and account-claiming, improving error handling for rate-limits/network edge cases and tightening the /user_client PATCH contract between web and server, by [@moz-bozden](https://github.com/moz-bozden), in [#5416](https://github.com/common-voice/common-voice/pull/5416) (in v.1.159.1)
-
-#### Data Changes after current release
-
-- Levantine Arabic (`apc`) variants [#5473](https://github.com/common-voice/common-voice/pull/5473) by [@moz-acfort](https://github.com/moz-acfort) (in v.1.159.8)
-- Welcome to new language: Levantine Arabic (`apc`) (in v.1.159.8)
-- Welcome to new language: Mazandarani (`mzn`) (in v.1.159.7)
-- Welcome to new language: Pa'O (`blk`) (in v.1.159.5)
-- Add Hausa (`ha`) variants [#5451](https://github.com/common-voice/common-voice/pull/5451) by [@moz-acfort](https://github.com/moz-acfort) (in v.1.159.5)
-- Add Musi (`mui`) variants [#5440](https://github.com/common-voice/common-voice/pull/5440), Kabyle (`kab`) variants [#5445](https://github.com/common-voice/common-voice/pull/5445), and Frisian (`fy`) accents [#5448](https://github.com/common-voice/common-voice/pull/5448) by [@moz-acfort](https://github.com/moz-acfort) (in v.1.159.4)
-- Welcome to new language: West Flemish (`vls`) (in v.1.159.4)
-- Welcome to new languages: Dzongkha (dz), Kalaallisut (kl), and Musi (mui) (in v.1.159.3)
-- Added Ewe (`ee`) variants by [@moz-bozden](https://github.com/moz-bozden) in [#5421](https://github.com/common-voice/common-voice/pull/5421) (in v.1.159.1) and moved existing sentences to the new variant with a migration, by [@moz-bozden](https://github.com/moz-bozden) in [#5425](https://github.com/common-voice/common-voice/pull/5425) (in v.1.159.2)
-
-#### Spontaneous Speech Changes after current release
-
-- Update announcements for upcoming downtime and release schedule by [@moz-bozden](https://github.com/moz-bozden) in [#554](https://github.com/common-voice/spontaneous-speech/pull/554) (in v.1.159.9)
-- Chore: Update bundler dependencies [#545](https://github.com/common-voice/spontaneous-speech/pull/545), multiple optimizations, enhancements, and reliability/resilience changes [#546](https://github.com/common-voice/spontaneous-speech/pull/546), [#547](https://github.com/common-voice/spontaneous-speech/pull/547), by [@moz-bozden](https://github.com/moz-bozden) (in v.1.159.1)
-
-##### SS Data Changes after current release
-
-- Add Chinese (China) (`zh-CN`) questions by [@moz-acfort](https://github.com/moz-acfort) in [#553](https://github.com/common-voice/spontaneous-speech/pull/553) (in v.1.159.9)
-- Add Swahili (`sw`) questions by [@moz-acfort](https://github.com/moz-acfort) in [#552](https://github.com/common-voice/spontaneous-speech/pull/552) (in v.1.159.8)
-- Fix problems in Corsican (`co`) questions by [@moz-acfort](https://github.com/moz-acfort) in [#551](https://github.com/common-voice/spontaneous-speech/pull/551) (in v.1.159.7)
-- Add Palauan (`pau`) and Sundanese (`su`) questions by [@moz-acfort](https://github.com/moz-acfort) in [#549](https://github.com/common-voice/spontaneous-speech/pull/549) and [#550](https://github.com/common-voice/spontaneous-speech/pull/550) (in v.1.159.6)
-- Add Bengali (`bn`) questions by [@moz-acfort](https://github.com/moz-acfort) in [#548](https://github.com/common-voice/spontaneous-speech/pull/548) (in v.1.159.3)
-
 #### Changes to Bundlers and related repos
 
 - SCS-Bundler-Chore: Uploader — upgrade `datacollective` SDK (v0.5.1 → v0.5.2) and rework "disable prior versions" handling (now via `visibility=private`) [#5432](https://github.com/common-voice/common-voice/pull/5432), fix a missing field [#5434](https://github.com/common-voice/common-voice/pull/5434), and extract the disable-prior functionality out of the uploader into a separate `mdc-disable` CLI tool [#5435](https://github.com/common-voice/common-voice/pull/5435), by [@moz-bozden](https://github.com/moz-bozden) (during v.1.159.3)
@@ -89,10 +109,6 @@
 - `cv-datasheets` - Community: Update Aragonese (`an`) language documentation and email address, by [@Juanpabl](https://github.com/Juanpabl) in [#83](https://github.com/common-voice/cv-datasheets/pull/83) (during v.1.159.3)
 - `cv-dataset` - Add SCS v26.0 and SPS v4.0 release info — refreshed release counts, language totals, and release-history visuals, by [@moz-bozden](https://github.com/moz-bozden) in [#52](https://github.com/common-voice/cv-dataset/pull/52) (during v.1.159.3)
 - SPS-Bundler-Chore: Update bundler dependencies [#545](https://github.com/common-voice/spontaneous-speech/pull/545), multiple optimizations, enhancements, and reliability/resilience changes [#546](https://github.com/common-voice/spontaneous-speech/pull/546), [#547](https://github.com/common-voice/spontaneous-speech/pull/547), by [@moz-bozden](https://github.com/moz-bozden) (in v.1.159.1)
-
----
-
-## Past releases
 
 ### [v1.158.0 (2026-04-07)](https://github.com/common-voice/common-voice/releases/tag/release-v1.158.0)
 

@@ -4,12 +4,16 @@ record-player-header = Җавабыгызны яздырыгыз
 mic-access-error = Сезнең микрофоныгызны куллануны рөхсәт итүегез кирәк.
 # Message which appears when there are no more resources on this page
 no-prompts-continue-skipped-message = Бу тел өчен башка сораулар юк. Нәрсәнедер карамыйча үтеп киткән булсагыз, сез, андый контентны шул килеш калдырып, аудионы транскриблауга күчә аласыз яки соңрак яңадан кабатлый аласыз.
+error-skipping = Сорауны калдырып торганда хата булды
 error-recording = Яздырганда хата килеп чыкты
 error-fetching-prompts = Сорауларны алганда нәрсәдер дөрес бармады. Бераз гына көтегез һәм аннары яңадан кабатлагыз.
+cannot-play-audio = Аудионы уйнатып булмый. Зинһар, кабатлап карагыз.
 # For the button to delete a response to a prompt
 delete = Бетерү
 # For the disabled button on a prompt that indicates a prompt is already submitted
 submitted = Җибәрелде
+# For the button on the Respond to prompts page which can be used to submit all responses at once
+submit-all-button = Барысын да җибәрү
 
 ## Explainer text (Respond to Prompt)
 

@@ -1,4 +1,4 @@
-action-click = Klykstynoj
+action-click = Klykstynojit
 action-tap = Pīsaskar
 contribute = Dūt īguļdejumu
 review = Puorbaudi

@@ -198,6 +198,7 @@ kpv = Komi-Syrjänisch
 krc = Karatschai-balkarisch
 ks = Kaschmiri
 ksf = Bafia
+kum = Kumykisch
 kvx = Koli, Parkari
 kw = Cornish
 kxp = Koli, Wadiyara

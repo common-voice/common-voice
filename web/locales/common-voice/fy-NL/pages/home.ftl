@@ -91,7 +91,6 @@ review-questions = Fragen beoardiele
 transcribe-audio = Audio transkribearje
 press-and-stories = Parse en ferhalen
 community-and-languages = Mienskip en talen
-coming-soon = Ynkoarten beskikber
 about-us = Oer ús
 scripted-speech = SCRIPTE SPRAAK
 spontaneous-speech = SPONTANE SPRAAK

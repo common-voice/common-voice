@@ -1,8 +1,88 @@
 speak = လၢတ်ႈ
-speak-subtitle = လူႇပၼ်သဵင်ၸဝ်ႈၵဝ်ႇ
+speak-now = လၢတ်ႈလႆႈယဝ်ႉ
+speak-subtitle = လူႇတၢၼ်းသဵင်ၸဝ်ႈၵဝ်ႇ
 record-cta = တႄႇဢတ်းသဵင်
+record-platform-not-supported = ၶႂၢင်းပၼ်ဢိတ်းၼိုင်ႈၶႃႈ၊ ပိူင်ၵၢၼ် (Platform) ၸဝ်ႈၵဝ်ႇၼၼ်ႉ ယၢမ်းလဵဝ်ပႆႇၸၢင်ႈၸႂ်ႉတိုဝ်းလႆႈၶႃႈ။
+record-platform-webview = ၸဝ်ႈၵဝ်ႇ ၸၢင်ႈတေလုၵ်ႉတီႈ လိင်ႉၼႂ်းဢႅပ်ႉသူဝ်ႇသျႄႇမီႇတီႇယႃႇသေ ၶဝ်ႈမႃးတီႈၼႆႈၶႃႈ။ ယၢမ်းလဵဝ် ၸဝ်ႈၵဝ်ႇတိုၵ်ႉၸႂ်ႉဝႆႉ ပရၢဝ်ႇသႃႇၼႂ်းဢႅပ်ႉ (In-app browser) ဢၼ်ပႆႇၵမ်ႉထႅမ်ပၼ် ၵၢၼ်ဢတ်းသဵင်ၶႃႈ။
+record-platform-not-supported-webview = တီႈၼိူဝ်ၶိူင်ႈၾူၼ်းၼၼ်ႉ ၸဝ်ႈၵဝ်ႇၸၢင်ႈၸႂ်ႉပရၢဝ်ႇသႃႇပိူင်ၵၢၼ် (System browser) သေ ၶဝ်ႈႁူမ်ႈၸွႆႈထႅမ်လႆႈယူႇၶႃႈ။
+record-platform-not-supported-desktop = တီႈၼိူဝ်ၶွမ်ႇပိဝ်ႇတႃႇ (Desktop) ၼၼ်ႉ ၸဝ်ႈၵဝ်ႇၸၢင်ႈၶဝ်ႈႁူမ်ႈၸွႆႈထႅမ် လူၺ်ႈၵၢၼ်လူတ်ႇလူင်း (Download) ဢဝ်လႆႈ   ယူႇၶႃႈ။
+record-platform-not-supported-ios-non-safari = ပုၼ်ႈတႃႇ iOS ၶႂ်ႈႁႂ်ႈၸႂ်ႉ Safari သေ သိုပ်ႇႁဵတ်းၵၢၼ် ၼင်ႇႁႂ်ႈပေႃးတေဢတ်းသဵင်လႆႈၶႃႈ။
+record-must-allow-microphone = ၸဝ်ႈၵဝ်ႇ တေလႆႈပၼ်ၶႂၢင်ႉ တႃႇၸႂ်ႉၶိူင်ႈတီႉသဵင်ၶႃႈ
+record-no-mic-found = ဢမ်ႇႁၼ်ၶိူင်ႈတီႉသဵင်။
+record-error-too-short = သဵင်ဢၼ်ဢတ်းဝႆႉၼၼ်ႉ ၶၢဝ်းယၢမ်းပွတ်းပူၼ်ႉတီႈၼႃႇၶႃႇ။
+record-error-too-long = သဵင်ဢၼ်ဢတ်းဝႆႉၼၼ်ႉ ၶၢဝ်းယၢမ်းယၢဝ်းပူၼ်ႉတီႈၼႃႇၶႃႇ။
+record-error-too-quiet = သဵင်ဢၼ်ဢတ်းဝႆႉၼၼ်ႉ သဵင်မဝ်ပူၼ်ႉတီႈၼႃႇ။
+record-error-empty-recording = ဢမ်ႇၸၢင်ႈဢတ်းသဵင်လႆႈၶႃႈ၊ ၶႅၼ်းတေႃႈၵူတ်ႇထတ်းၶိူင်ႈတီႉသဵင်ၸဝ်ႈၵဝ်ႇသေဢတ်းတူၺ်းထႅင်ႈၵမ်းၼိုင်ႈၶႃႈ။
+record-error-unknown-format = ဢမ်ႇၸၢင်ႈတႅပ်းတတ်းၾၢႆႇလ်သဵင်လႆႈၶႃႈ။ ၶႅၼ်းတေႃႈၸၢမ်းၸႂ်ႉတူၺ်းပရၢဝ်ႇသႃႇ (Browser) တၢင်ႇဢၼ်ၶႃႈလႄႈ။
+record-error-uploaded-clip-corrupted =
+    သဵင်ဢၼ်ၸဝ်ႈၵဝ်ႇဢတ်းဝႆႉၼၼ်ႉ မိူၼ်တေလူႉလႅဝ်ဝႆႉၶႃႈ။ လွင်ႈၼႆႉ ၸၢင်ႈပဵၼ်ယွၼ်ႉ -
+    • ပၼ်ႁႃလွင်ႈၵမ်ႉထႅမ်ၶွင် ပရၢဝ်ႇသိူဝ်ႇရ် (ၶႅၼ်းတေႃႈ ၸၢမ်းၸႂ်ႉတူၺ်း Browser တၢင်ႇဢၼ်ၶႃႈလႄႈ)
+    • ပၼ်ႁႃၶိူင်ႈတီႉသဵင် ဢမ်ႇၼၼ် တွၼ်ႈၸတ်းၵၢၼ်သဵင် (Audio driver)
+    • သၢႆၼႅတ်ႉၶၢတ်ႇ ၽွင်းတိုၵ်ႉဢတ်းသဵင်ယူႇႉ
+    ၶႅၼ်းတေႃႈ ၸၢမ်းဢတ်းတူၺ်းထႅင်ႈၵမ်းၼိုင်ႈၶႃႈ။
+record-cancel = ပၢႆႇပႅတ်ႈ ဢတ်းသဵင်မႂ်ႇ
+record-instruction = { $actionType }<recordIcon></recordIcon> ယဝ်ႉၵေႃႈ ဢၢၼ်ႇဢွၵ်ႇသဵင်ၶေႃႈၵႂၢမ်းႁႂ်ႈလင်လင်
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> မိူဝ်ႈယဝ်ႉတူဝ်ႈယဝ်ႉ
+record-three-more-instruction = လိူဝ်ထႅင်ႈ 3 ၶေႃႈၵူၺ်းၶႃႈ
+record-again-instruction = ၶႅမ်ႉတေႉၶႃႈ! <recordIcon></recordIcon> ဢတ်းသဵင်တွၼ်ႈၼႃႈၶွင်ၸဝ်ႈၵဝ်ႇထႅင်ႈ
+record-again-instruction2 = သိုပ်ႇႁဵတ်းၵႂႃႇ၊ ၸၢမ်းဢတ်းထႅင်ႈၵမ်းၼိုင်ႈၶႃႈ။<recordIcon></recordIcon>
+record-last-instruction = <recordIcon></recordIcon> ဢၼ်လိုၼ်းသုတ်း!
+review-tooltip = ၵူတ်ႇထတ်းၶိုၼ်း လႄႈၶိုၼ်းဢတ်းသဵင်မႂ်ႇတီႈၼႆႈၵႂႃႇၸွမ်းလႆႈၵမ်းလဵဝ်ၶႃႈ။
+share-clip = ၸႅၵ်ႇၽၼ်ႈၶလိပ်ႉသဵင်ဢတ်းၸဝ်ႈၵဝ်ႇ
+share-common-voice = ၸႅၵ်ႇၽၼ်ႈ Common Voice
+review-instruction = ၵူတ်ႇထတ်းၶိုၼ်း ေ ၶိုၼ်းဢတ်းသဵင်မႂ်ႇ သင်ၸိူဝ်ႉလူဝ်ႇ
+record-submit-tooltip = { $actionType } သူင်ႇမိူဝ်ႈတူဝ်ႈတၼ်း
+clips-uploaded = သဵင်ဢၼ်ဢတ်းဝႆႉသူင်ႇၶိုၼ်ႈယဝ်ႉၶႃႈ။
+record-abort-title = ဢမ်ႇဢတ်းသဵင်ႁႂ်ႈယဝ်ႉတူဝ်ႈၵွၼ်ႇၶႃႈႁႃႉ?
+record-abort-text = သင်ဢွၵ်ႇၵႂႃႇတေႃႈလဵဝ် ၶေႃႈမုၼ်းဢၼ်ၸဝ်ႈၵဝ်ႇႁဵတ်းဝႆႉၸိူဝ်းၼၼ်ႉ တေႁၢႆၵႂႃႇပႅတ်ႈၶႃႈၼႃ။
+record-abort-submit = သူင်ႇၶလိပ်ႉသဵင်
+record-abort-continue = ၵၢၼ်ဢတ်းသဵင် ယဝ်ႉတူဝ်ႈယဝ်ႉၶႃႈ။
+record-abort-delete = ဢွၵ်ႇ လႄႈ ယႃႉမွတ်ႇပႅတ်ႈသဵင်ဢတ်း
+review-aborted = ၵၢၼ်သူင်ႇၶိုၼ်ႈ လႆႈထုၵ်ႇၵိုတ်းပႅတ်ႈယဝ်ႉ၊ ၶႂ်ႈမွတ်ႇပႅတ်ႈ သဵင်ဢတ်းၸဝ်ႈၵဝ်ႇယူႇႁႃႉ?
+review-submit-title = ၵူတ်ႇထတ်းၶိုၼ်း လႄႈ သူင်ႇၶႃႈ။
+review-submit-msg = ယိၼ်းလီတေႉၶႃႈ တွၼ်ႈတႃႇၵၢၼ်ဢတ်းသဵင်! ယၢမ်းလဵဝ် ၸဝ်ႈၵဝ်ႇၸၢင်ႈၵူတ်ႇထတ်းၶိုၼ်း လႄႈ သူင်ႇၶလိပ်ႉသဵင် ၽၢႆႇတႂ်ႈ ၼႆႉလႆႈယဝ်ႉၶႃႈ။
+review-recording = ၵူတ်ႇထတ်းၶိုၼ်း
+review-rerecord = ဢတ်းသဵင်မႂ်ႇ
+review-cancel = ယႃႉသိမ်းပႅတ်ႈ လွင်ႈတၢင်ႇယိုၼ်ႈ
+review-keep-recordings = သိမ်းဝႆႉသဵင်ဢတ်း
+review-delete-recordings = မွတ်ႇပႅတ်ႈသဵင်ဢတ်းၶွင်ၶႃႈ
+review-terms = ၵၢၼ်ၶဝ်ႈၸႂ်ႉတိုဝ်း Common Voice ၼႆႉ ပွင်ႇဝႃႈ ၸဝ်ႈၵဝ်ႇယွမ်းႁပ်ႉၸွမ်း<termsLink>ၶေႃႈမၢႆမီႈ </termsLink> လႄႈ <privacyLink>ၶေႃႈၸီႉသင်ႇလွင်ႈပဵၼ်သုၼ်ႇတူဝ် ၶွင်ႁဝ်းၶႃႈယဝ်ႉ။</privacyLink>
 terms-agree = ႁၼ်လီၸွမ်း
 terms-disagree = ဢမ်ႇႁၼ်လီၸွမ်း
+# FIRST POST SUBMISSION CTA
+first-cta-header-text = ယိၼ်းၸူမ်းၶွပ်ႈၸႂ်ထိုင် တွၼ်ႈတႃႇၵၢၼ်လူႇတၢၼ်းၶလိပ်ႇသဵင်ဢတ်းၸဝ်ႈၵဝ်ႇ!
+first-cta-subtitle-text = ၵၢၼ်လၢတ်ႈၼႄ ၶေႃႈမုၼ်းသုၼ်ႇတူဝ်ၸဝ်ႈၵဝ်ႇၼၼ်ႉ တေၸွႆႈပၼ်ၽူႈသၢင်ႈပိူင်ၵၢၼ်ႁဵတ်းသၢင်ႈပၢႆးၸၢင်ႊ (Technology) ဢၼ်ၵမ်ႉထႅမ်ပၼ်ၵူၼ်းၵူႈၸၼ်ႉလႆႈၶႃႈ။
 why-donate = ယွၼ်ႉသင်လႄႈသူၸဝ်ႈထၢမ်?
+why-donate-explanation-1 = ၵၢၼ်ပၼ်ၶေႃႈမုၼ်းဢၼ်ၼႆႉ မၼ်းလိူၵ်ႈလႆႈႁင်းၵူၺ်းၶႃႈ- ၸဝ်ႈၵဝ်ႇ လူဝ်ႇထႅမ်သႂ်ႇ မိူဝ်ႈႁၼ်ထိုင်ဝႃႈ တူဝ်ႈၸႂ်ၵူၺ်းလႆႈယူႇၶႃႈ။ မိူဝ်ႈႁဝ်းၶႃႈ ပိုၼ်ၽႄၸုမ်ႇၶေႃႈမုၼ်း (Dataset) ၼၼ်ႉ ႁဝ်းၶႃႈတေၸႂ်ႉၸိုဝ်ႈလပ်ႉသုၼ်ႇတူဝ်တင်းသဵင်ႈ လႄႈ ၵူတ်ႇထတ်းႁႂ်ႈမၼ်ႈၸႂ်ဝႃႈ ၶေႃႈမုၼ်းမိူၼ်ၼင်ႇ ၸိုဝ်ႈ လႄႈ ဢီးမေးလ် ၸဝ်ႈၵဝ်ႇ ၸိူဝ်းၼၼ်ႉ တေဢမ်ႇမီးလွင်ႈၵွင်ႉၵၢႆႇၵၼ်တင်း ၶေႃႈမုၼ်းၽူႈၵူၼ်း မိူၼ်ၼင်ႇ ဢႃႇယု ဢမ်ႇၼၼ်ငႅင်ႈၶႃႈ။
+why-donate-explanation-2 = ၼင်ႇႁႂ်ႈပၢႆးၸၢင်ႈ (Technology) တေႁဵတ်းၵၢၼ်လႆႈလီ ပုၼ်ႈတႃႇၵူၼ်းၵူႈၵေႃႉ ၼၼ်ႉ ၶေႃႈမုၼ်း ဢၼ်ၸွႆႈထႅမ် ၽူႈၶူင်ႊသၢင်ႈ တႃႇႁဵတ်းဢွၵ်ႇပၢႆးၸၢင်ႊၼၼ်ႉ လူဝ်ႇလႆႈ ၼႄပၼ် ၵူၼ်းၵူႊမဵဝ်းမဵဝ်းၼၼ်ႉယဝ်ႉ။ သင်ဝႃႈႁဝ်းၶႃႈ ဢမ်ႇပႃးသဵင်ၵူၼ်းလၢတ်ႈ ဢၼ်မီးသဵင်ဢွၵ်ႇ (Accent) ပႅၵ်ႇပိူင်ႈၵၼ်ၼႆၸိုင် ပၢႆးၸၢင်ႊ တေဢမ်ႇၸၢင်ႈႁဵတ်း ၵၢၼ်လႆႈလီ ပုၼ်ႈတႃႇၵူၼ်းဢၼ်မီးသဵင်ဢွၵ်ႇၼၼ်ႉ။  <learnMore> သိုပ်ႇလဵပ်ႈႁဵၼ်းထႅင်ႈ လွင်ႈဝႃႈ ယွၼ်ႉသင် မေႇတႃႇၻႃႇတႃႇ metadata  မီးတၢင်းလမ်ႇလွင်ႈၼၵ်ႈၼႃ။ </learnMore>
 add-information-button = ၽိူမ်ႉထႅမ်ၶေႃႈမုၼ်း
 continue-speaking-button = ဢမ်ႇ ၸူမ်းယဝ်ႉ! သိုပ်ႇလၢတ်ႈထႅင်ႈ
+create-profile-text = ၶႂ်ႈၵဵပ်းသိမ်းၶေႃႈမုၼ်းၸဝ်ႈၵဝ်ႇဝႆႉယူႇႁႃႉၶႃႈ? <createProfile>သၢင်ႈပရူဝ်ႊၾၢႆႊလ် </createProfile>
+thanks-for-voice-toast = ယိၼ်းၸူမ်းတေႉၶႃႈ တွၼ်ႈတႃႇၶေႃႈမုၼ်းသဵင်ၸဝ်ႈၵဝ်ႇ!
+thanks-for-voice-toast-error = မီးလွင်ႈၽိတ်းပိူင်ႈမိူဝ်ႈသူင်ႇၶေႃႈမုၼ်းသဵင်ၸဝ်ႈၵဝ်ႇ
+first-cta-gender-select-default-option = လိူၵ်ႈဢဝ်တၢင်းလိူၵ်ႈ
+first-cta-gender-select-help-text =
+    .label = ၸဝ်ႈၵဝ်ႇ ၶႂ်ႈလၢတ်ႈၼႄ လွင်ႈငႅင်ႈ(ၸၢႆး-ယိင်း)ၸဝ်ႈၵဝ်ႇ ၸိူင်ႉၼင်ႇႁိုဝ်ၶႃႈ?
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = ယိၼ်းၸူမ်းၶွပ်ႈၸႂ်ထိုင် တွၼ်ႈတႃႇၵၢၼ်ၶဝ်ႈႁူမ်ႈၵမ်ႉထႅမ် သဵင်ၸဝ်ႈၵဝ်!
+second-cta-subtitle-text = ၵၢၼ်မီးပရူဝ်ႊၾၢႆႊလ် (Profile) ၼၼ်ႉ တေႁဵတ်းႁႂ်ႈၸဝ်ႈၵဝ်ႇ ၸၢင်ႈၵပ်းသိုပ်ႇၵွင်ႉၵၢႆႇၵၼ်တင်းတူင်ႇဝူင်း ၽူႈၶဝ်ႈႁူမ်ႈၵမ်ႉထႅမ်ၶေႃႈမုၼ်းသဵင်ၶဝ်လႆႈၶႃႈ။"
+already-have-an-account = မီးသဵၼ်ႈမၢႆဝႆႉယဝ်ႉႁႃႉ? <login>လွၵ်ႉၶဝ်ႈ</login>
+create-profile-button = သၢင်ႈပရူဝ်ႊၾၢႆႊလ်
+# IMAGE TAGS
+img-alt-success-checkmark = ၶိူင်ႈမၢႆထုၵ်ႇဢၼ်ၼႄလွင်ႈဢွင်ႇမၢၼ်
+# menu item
+read-sentences = လူဢၢၼ်ႇၶေႃႈၵႂၢမ်း
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = လူဢၢၼ်ႇၶေႃႈၵႂၢမ်း <small>(ဢၼ်တေမႃး)</small>
+
+## MENU ITEM TOOLTIPS
+
+speak-contribute-menu-tooltip = လူဢၢၼ်ႇၶေႃႈၵႂၢမ်း၊ တွပ်ႇၶေႃႈထၢမ်
+read-sentences-menu-item-tooltip = ဢတ်းသဵင်တူဝ်ၵဝ်ႇ ဢၢၼ်ႇၶေႃႈၵႂၢမ်းလူၺ်ႈၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈၸဝ်ႈၵဝ်ႇ။
+answer-questions-menu-item-tooltip = ဢတ်းသဵင်တူဝ်ၵဝ်ႇ တွပ်ႇၶေႃႈထၢမ် လႄႈၶေႃႈတိုၵ်းသူၼ်း ၼႂ်းၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈၸဝ်ႈၵဝ်ႇၶႃႈ။
+
+## MENU ITEM ARIA LABELS
+
+speak-contribute-menu-aria-label = မေႇၼူးတၢင်းလိူၵ်ႈလွင်ႈလၢတ်ႈ
+read-sentences-menu-item-aria-label = လူဢၢၼ်ႇၶေႃႈၵႂၢမ်း ဢၼ်တူင်ႇဝူင်းတၢင်ႇထိုင်မႃး လၢႆလၢႆၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈ
+answer-questions-menu-item-aria-label = သူင်ႇၶေႃႈထၢမ်မႂ်ႇ ႁႂ်ႈတူင်ႇဝူင်းၵူၼ်းလႆႈဢၢၼ်ႇလႄႈတွပ်ႇပၼ်

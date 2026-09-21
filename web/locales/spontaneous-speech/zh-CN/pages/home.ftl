@@ -18,7 +18,7 @@ prompt-bubble-subtitle = 我们会向您展示一道引导语或问题
 respond-bubble-title = <mark>回答</mark>
 respond-bubble-subtitle = 请尽量自然地作出回答
 # text wrapped in <mark></mark> will have a blue background
-transcribe-bubble-title = <mark>转写</mark>
+transcribe-bubble-title = <mark>转录</mark>
 transcribe-bubble-subtitle = 请记录从音频片段中听到的内容
 # text wrapped in <mark></mark> will have a blue background
 check-bubble-title = <mark>检查</mark>

@@ -50,6 +50,7 @@ accept-privacy-and-terms = Io concorda con le <termsLink>Terminos</termsLink> e 
 # Locales-Variants
 ms-MY = Bahasa Malay
 el-CY = Greco cypriota
+pt-BR = Portugese brasilian
 
 ## Language search component
 

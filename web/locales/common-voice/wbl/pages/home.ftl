@@ -79,7 +79,6 @@ add-questions = sowolvẽ shomil<small>jaldẽs̃h wezin</small>.
 transcribe-audio = od̃iyoẽ naql<small>jaldẽb wezit</small>
 press-and-stories = pakhch woz zhindagisht.
 community-and-languages = Jẽmoat woz zikisht.
-coming-soon = Jaldẽb wizit
 
 ## MENU ITEMS TOOLTIPS
 

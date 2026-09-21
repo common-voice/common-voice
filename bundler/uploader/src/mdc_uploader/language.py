@@ -2,7 +2,7 @@
 
 Source of truth: Common Voice languagedata API.
 Stores full LanguageData entries (mirrors common/language.ts).
-Extras appended for locales missing from the API (el-CY, ms-MY).
+Extras appended for locales missing from the API (el-CY, ms-MY, pt-BR).
 
 Usage:
     language.init()
@@ -46,6 +46,15 @@ class LanguageRegistry:
             code="ms-MY",
             native_name="Bahasa Melayu",
             english_name="Bahasa Malay",
+            text_direction="LTR",
+            variants=[],
+            predefined_accents=[],
+        ),
+        "pt-BR": LanguageData(
+            id=0,
+            code="pt-BR",
+            native_name="português brasileiro",
+            english_name="Brazilian Portuguese",
             text_direction="LTR",
             variants=[],
             predefined_accents=[],

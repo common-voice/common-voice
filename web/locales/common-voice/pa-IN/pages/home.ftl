@@ -78,5 +78,33 @@ read-more-about = ਸਾਡੇ ਇਸ ਬਾਰੇ ਸਫ਼ੇ ਉੱਤੇ ਹ
 
 ## NAV ITEMS
 
+answer-questions = ਜਵਾਬ ਸਵਾਲ
 add-questions = ਸਵਾਲਾਂ ਨੂੰ ਜੋੜੋ
+review-questions = ਸਵਾਲਾਂ ਦੀ ਪੜਤਾਲ
+transcribe-audio = ਆਡੀਓ ਨੂੰ ਲਿਖੋ
+press-and-stories = ਪ੍ਰੈਸ ਅਤੇ ਲੇਖ
 community-and-languages = ਸਮਾਜ ਅਤੇ ਭਾਸ਼ਾਵਾਂ
+about-us = ਸਾਡੇ ਬਾਰੇ
+scripted-speech = ਲਿਖਤੀ ਭਾਸ਼ਣ
+spontaneous-speech = ਨਿਰੰਤਰ ਭਾਸ਼ਣ
+
+## Action items section
+
+coming-soon = ਛੇਤੀ ਆ ਰਿਹਾ ਹੈ
+add-text = ਲਿਖਤ ਜੋੜੋ
+answer = ਜਵਾਬ
+
+## Community section
+
+find-us-on-matrix-action-2 = ਹੋਰ ਕਲਾਈਂਟ
+download-contribution-certificate = ਆਪਣੇ ਯੋਗਦਾਨ ਸਰਟੀਫਿਕੇਟ ਨੂੰ ਡਾਊਨਲੋਡ ਕਰੋ
+# label for button
+download-contribution-certificate-action = ਆਪਣਾ ਸਰਟੀਫਿਕੇਟ ਲਵੋ
+contribute-github = GitHub ਉੱਤੇ ਹਿੱਸਾ ਪਾਓ
+# label for button
+contribute-github-action = GitHub ਉੱਤੇ ਹਿੱਸਾ ਪਾਓ
+
+## Get involved section
+
+contribute-text-link = ਲਿਖਤ ਲਈ ਹਿੱਸਾ ਪਾਓ
+press-and-stories-link = ਪ੍ਰੈਸ ਅਤੇ ਲੇਖ

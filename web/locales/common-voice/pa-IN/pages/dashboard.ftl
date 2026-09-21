@@ -2,6 +2,7 @@
 
 your-languages = ਤੁਹਾਡੀ ਭਾਸ਼ਾ
 toward-next-goal = ਅਗਲੇ ਟੀਚੇ ਵੱਲ
+goal-reached = ਟੀਚਾ ਪੂਰਾ ਹੋਇਆ
 clips-you-recorded = ਕਲਿੱਪਾਂ ਜੋ ਤੁਸੀਂ ਰਿਕਾਰਡ ਕੀਤੀਆਂ ਹਨ
 clips-you-validated = ਕਲਿੱਪ ਜੋ ਤੁਸੀਂ ਪ੍ਰਮਾਣਿਤ ਕੀਤੇ ਹਨ
 stats = ਅੰਕੜੇ

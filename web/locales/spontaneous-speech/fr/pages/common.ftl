@@ -50,6 +50,7 @@ accept-privacy-and-terms = J’accepte les <termsLink>conditions d’utilisation
 # Locales-Variants
 ms-MY = Bahasa Malay
 el-CY = Grec chypriote
+pt-BR = Portugais du Brésil
 
 ## Language search component
 

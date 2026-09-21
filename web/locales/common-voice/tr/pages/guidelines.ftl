@@ -145,9 +145,11 @@ example-questions-explanation-2 = Besleme için çok sayıda soru göndermek ist
 # Answer Questions
 answer-questions = Soru yanıtlama
 answer-questions-subheader = Genel yönergeler
+answer-questions-explanation-1 = Yönerge üzerinde biraz düşünüp ne söylemek istediğinizi göz önünde bulundurun, ancak söyleyeceklerinizi fazla planlamayın. ‘Kayıt’ simgesine tıklayın. Kaydı tamamladıktan sonra dinleyebilir, yeniden kaydedebilir, silebilir veya gönderebilirsiniz.
 answer-questions-tip-1 = Olabildiğince sessiz bir yerde kayıt yapın
 answer-questions-tip-2 = İnternet bağlantısı iyi olan bir yer seçin
 answer-questions-tip-3b = Yanıtınızı 15-30 saniye arasında tutmaya çalışın
+answer-questions-tip-4 = Nefret içeren, kışkırtıcı veya başka şekilde rahatsız edici ifadelerden kaçının
 answer-questions-tip-6 = Ses seviyenizi stabil tutun: Bağırmayın ve şarkı söylemeyin
 # Transcribe the Audio
 transcribe-the-audio = Ses kayıtlarını metne çevirme
@@ -213,6 +215,10 @@ code-switching-review-no-2 = Nefret söylemi, önyargılı ya da saldırgan ifad
 code-switching-review-no-3 = Birisinin hassas, potansiyel olarak tetikleyici yanıtları paylaşmasına neden olabilecek sorular
 # Answering a Question
 code-switching-answer-subheader = Soru cevaplama
+code-switching-answer-bullet-2 = Arkadaşınızla mesajlaşıyormuş ya da birine hikâye anlatıyormuş gibi düşünün
+code-switching-answer-bullet-4 = Hiçbir yanıtın “mükemmel” olması gerekmez
+code-switching-authentic-header = Doğal ve içten yanıt verin
+code-switching-authentic-speak = <bold>Arkadaşlarınızla veya ailenizle konuştuğunuz gibi konuşun.</bold> Günlük hayatta dilleri karıştırıyorsanız burada da öyle yapın. Örnek:
 # Transcribing
 code-switching-transcribe-subheader = Metne çevirme
 # Tagging

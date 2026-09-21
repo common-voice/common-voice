@@ -98,7 +98,6 @@ review-questions = မေးခွန်းတိကို ပြန်သုံ
 transcribe-audio = အသံကို စာနန့် ပြန်ရီးပီးပါ
 press-and-stories = စာနယ်ဇင်းနန့် ဇာတ်လမ်းတိ
 community-and-languages = အသိုင်းအဝိုင်းနန့် ဘာသာစကားတိ
-coming-soon = မကြာခင် လာပါဖို့
 about-us = အကျွန်ရို့ အကြောင်း
 scripted-speech = စာဖတ်ပြော စကား
 spontaneous-speech = လက်တန်းပြော စကား
@@ -176,6 +175,8 @@ download-press-pack = အကျွန်ရို့ စာနယ်ဇင်း
 
 ## Developers section
 
+developers-section-title-202608 = ဘာသာစကား 330+ နန့် အများသူငှာ အသုံးပြုနိုင်ယေ ပွင့်လင်းယေ စကားပြောဒေတာအတွဲတိ
+developers-section-subtitle-v2 = ASR နန့် တခြား NLP ဆက်စပ်အကြောင်းအရာတိအတွက် ဒေတာအတွဲတိ - အသိုင်းအဝိုင်းပါဝင်မှုကတစ်ဆင့် ဖန်တီးထားရေ။
 # icon is an arrow that points to the right
 explore-datasets = ဒေတာစုတိကို စူးစမ်းလေ့လာကြည့်ပါ <icon></icon>
 

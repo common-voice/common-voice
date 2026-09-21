@@ -93,7 +93,6 @@ review-questions = سوجاتے ولدا ہوربو
 transcribe-audio = آڈیو نا درشانی کبو
 press-and-stories = پریس و کسہ غاک
 community-and-languages = مخلوق و زبانک
-coming-soon = زوت بریک
 about-us = ننا باروٹ
 scripted-speech = نوشتہ کروکا تران
 spontaneous-speech = سٹی انگا تران

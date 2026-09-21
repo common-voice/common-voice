@@ -198,6 +198,7 @@ kpv = Zurjeens
 krc = Karachay-Balkar
 ks = Kashmiri
 ksf = Bafia
+kum = Kumyks
 kvx = Parkari Koli
 kw = Cornish
 kxp = Wadiyara Koli
@@ -526,6 +527,11 @@ announcement-pre-release = Beste gemeenschap, de tijd van uitgave nadert. Ga val
 
 # Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
 announcement-release-commencing = Beste gemeenschap, we hebben de uiterste datum voor de uitgave bereikt en we zijn de gegevenssets aan het bundelen. De nieuwe uitgave komt over een paar dagen beschikbaar op <mdcLink>Mozilla Data Collective</mdcLink>.
+
+## Downtime Announcements
+
+# Generic scheduled downtime for next Sunday early hours
+announcement-scheduled-downtime = Beste gemeenschap, om onze systemen te optimaliseren plannen we korte downtime, doorgaans binnen een paar uur. De volgende downtime-periode is begin deze zondag. Neem contact op met ons op Matrix als u tegen een probleem aanloopt.
 
 ## Common Language/Dataset Selector & SearchBox Related
 

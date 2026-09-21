@@ -83,7 +83,6 @@ review-questions = კითხვების შემოწმება
 transcribe-audio = ხმის ნაწერად ქცევა
 press-and-stories = პრესა და სიახლეები
 community-and-languages = საზოგადოებები და ენები
-coming-soon = მალე
 about-us = ჩვენ შესახებ
 scripted-speech = ᲬᲔᲠᲘᲗᲘ ᲛᲔᲢᲧᲕᲔᲚᲔᲑᲐ
 spontaneous-speech = ᲖᲔᲞᲘᲠᲘ ᲛᲔᲢᲧᲕᲔᲚᲔᲑᲐ

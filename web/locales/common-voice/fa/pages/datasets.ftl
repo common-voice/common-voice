@@ -45,7 +45,7 @@ other-datasets = دیگر مجموعه‌های داده صوتی
 feedback-q = نظری دارید؟
 # This indicates that there is no data to display
 no-information = بدون هیچگونه اطلاعاتی
-resource-nemo-info = <githubLink> NVIDIA NeMo </githubLink>™ یک <docsLink> مجموعه ابزار متن باز </docsLink> برای محققانی است که در حال توسعه مدل‌های هوش مصنوعی پیشرفته هستند..
+resource-nemo-info = <githubLink> NVIDIA NeMo </githubLink>™ یک <docsLink> مجموعه ابزار متن باز </docsLink> برای محققانی است که در حال توسعه مدل‌های  پیشرفته هوشواره هستند.
 resource-deepspeech-info = موتور تشخیص صدای متن‌باز موزیلا Deep Speech، می‌تواند برای ساخت برنامه‌های تشخیص گفتار استفاده شود. برای شروع، <githubLink>نمای کلی ما در گیت‌هاب</githubLink> را بخوانید یا به <discourseLink>گفتگوهای DeepSpeech</discourseLink> بپیوندید.
 resource-coqui-info = <coquiLink>Coqui</coquiLink> به فناوری گفتار باز اختصاص دارد. پروژه‌های آن‌ها شامل موتورهای تبدیل گفتار به متن (STT) و تبدیل متن به گفتار (TTS) مبتنی بر یادگیری عمیق است.
 community-playbook = کتاب راهنمای اجتماع

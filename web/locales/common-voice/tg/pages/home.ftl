@@ -79,7 +79,6 @@ review-questions = Бознигарӣ кардани саволҳо
 transcribe-audio = Аудиоро ба матн табдил диҳед <small>(Ба наздикӣ дастрас мешавад)</small>
 press-and-stories = Матбуот ва ҳикояҳо
 community-and-languages = Ҷомеа ва забонҳо
-coming-soon = Ба наздикӣ дастрас мешавад
 about-us = Дар бораи мо
 scripted-speech = НУТҚИ НАМОИШНОМА
 spontaneous-speech = НУТҚИ БЕВОСИТА

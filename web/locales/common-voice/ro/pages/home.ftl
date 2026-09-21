@@ -84,7 +84,6 @@ review-questions = Verifică întrebări
 transcribe-audio = Transcrie înregistrări audio
 press-and-stories = Presă și relatări
 community-and-languages = Comunitate și limbi
-coming-soon = În curând
 about-us = Despre noi
 scripted-speech = Discurs scris
 spontaneous-speech = Discurs spontan

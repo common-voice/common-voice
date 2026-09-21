@@ -78,7 +78,6 @@ review-transcriptions = Revisar transcripciones
 transcribe-audio = Transcribir audio
 press-and-stories = Prensa e historias
 community-and-languages = Comunidades e idiomas
-coming-soon = ¡Muy pronto!
 
 ## MENU ITEMS TOOLTIPS
 

@@ -80,7 +80,6 @@ review-questions = შეკითხვი დაყყჲარ
 transcribe-audio = იშა́რეჩო̆  ჩანაწე́რეღ დე́რწარ <small> (ქასტეჼ) </small>
 press-and-stories = პრესააჲ წინი̆ ა́მბუჲაჲ
 community-and-languages = საზოგადოებია́ მატტიშა́
-coming-soon = ქასტეჼ
 about-us = თხოხ
 scripted-speech = დაწე́რადოშ ა́ლ'არ
 spontaneous-speech = ზე́პირ ლე́ვარ

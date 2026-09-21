@@ -79,7 +79,6 @@ add-questions = سوال جمع کوا <small>شیرتے ینیِن
 transcribe-audio = آڈیو لیِگا <small> شیرتے ینیِن
 press-and-stories = پریس او سٹوری
 community-and-languages = کمیونیٹی او جیِب
-coming-soon = شیرتے ینیِن
 
 ## MENU ITEMS TOOLTIPS
 

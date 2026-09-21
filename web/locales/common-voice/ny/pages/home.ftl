@@ -86,7 +86,6 @@ review-questions = onanisso mafunso kachikena
 transcribe-audio = kusandutsa mawu
 press-and-stories = Atolankhani ndi Nkhani
 community-and-languages = mudzi ndi zilankhulo
-coming-soon = kubwera posachedwa
 about-us = Zambiri zaife
 scripted-speech = Zolankhula zolembedwa
 spontaneous-speech = KULANKHULA MWACHIDULE

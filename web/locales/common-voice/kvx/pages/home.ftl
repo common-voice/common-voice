@@ -80,7 +80,6 @@ review-questions = ڌوهرائي را سوئال
 transcribe-audio = آڊيو نئہ لکيا رِي صُورت ۾ ڀڌلو
 press-and-stories = اخبارِي اطلاعون انَ وارتائون
 community-and-languages = قوم ان ٻولي
-coming-soon = جلڌِي آوئه ريو
 about-us = امارا ڀارام
 scripted-speech = لکل تقرِير
 spontaneous-speech = تيارئي ڪريا وڳر ڪرل تقرِير
