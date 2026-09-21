@@ -63,12 +63,20 @@ language-search-no-results = ဢမ်ႇႁၼ်ၽႃႇသႃႇသင်
 transcription-mode-auto = ႁဵတ်းၵၢၼ်ႁင်းၵူၺ်း
 # Player - slower
 player-speed-slow = လွႆးလွႆး
+# Player - normal speed
+player-speed-normal = ပိူင်ၵဝ်ႇ
+# Player - faster
+player-speed-fast = ဝႆး
 
 ## Transcription Player Controls - Keyboard Shortcuts
 
 # Player control shortcut for play/pause: pressed with Ctrl/Cmd
 player-play-pause-shortcut = p
 player-play-pause-shortcut-key = Ctrl / Cmd + P
+player-play-pause-shortcut-name = လဵၼ်ႈ / ၵိုတ်း
+# Player control shortcut to go back 5 seconds: pressed with Ctrl/Cmd
+player-skip-backward-shortcut = 8
+player-skip-backward-shortcut-key = Ctrl / Cmd + 8
 player-skip-forward-shortcut-name = ၵႂႃႇတၢင်းၼႃႈ
 
 ## Transcription Player - Aria Labels
