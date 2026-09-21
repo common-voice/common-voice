@@ -12,10 +12,17 @@ platform-language-tooltip-text = လႅၵ်ႈလၢႆႈၶေႃႈၵႂ�
 contribution-picker-label = တိုၵ်ႉၶဝ်ႈႁူမ်ႈၸွႆႈထႅမ်ပၼ် ၸုမ်ႇၶေႃႈမုၼ်းၽႃႇသႃႇ<bold>{ $language }</bold>ယူႇၶႃႈ
 contribution-picker-tooltip-text = လႅၵ်ႈလၢႆႈၸုမ်ႇၶေႃႈမုၼ်း ၽႃႇသႃႇဢၼ်ၸဝ်ႈၵဝ်ႇ တိုၵ်ႉၶဝ်ႈႁူမ်ႈၸွႆႈထႅမ်ပၼ်ဝႆႉၼၼ်ႉၶႃႈ။
 coming-soon = ဢမ်ႇႁိုင်သင်တေမီးၽႃႇသႃႇတၢင်ႇၸိူဝ်းဢွၵ်ႇမႃးထႅင်ႈၶႃႈ။
+media-recorder-api-not-supported = ပရၢဝ်ႇသိူဝ်ႇရ် (Browser) ၸဝ်ႈၵဝ်ႇ ဢမ်ႇၵမ်ႉထႅမ်ပၼ် ပိူင်ၵၢၼ်ဢတ်းသဵင် (MediaRecorder API) ၶႃႈ။"
+# Toast message that is displayed when an item is skipped
+skipped = ၶၢမ်ႈပူၼ်ႉ
 audioplayer-header = ထွမ်ႇ
+guidelines = ပိူင်ၸီႉသင်ႇ
+# For the button to report an item
+report-button = လၢႆးငၢၼ်း
 # For the button to skip an item
 skip-button = ၶၢမ်ႈ
 submit-button = သူင်ႇ
+contribute = ၶဝ်ႈႁူမ်ႈၸွႆႈထႅမ်
 
 ## Navbar
 
