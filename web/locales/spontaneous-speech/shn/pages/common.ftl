@@ -26,10 +26,24 @@ contribute = ၶဝ်ႈႁူမ်ႈၸွႆႈထႅမ်
 # Button text which appears when there are no more resources
 continue-with-skipped = ၶၢမ်ႈၵႂႃႇသေသိုပ်ႇႁဵတ်းၸွမ်း
 
+## Common aria-labels
+
+keyboard-shortcuts-button-aria-label = ၼႄလွၵ်းလတ်းပႅၼ်ႈၼဵၼ်
+
 ## Navbar
 
 question = ၶေႃႈထၢမ်
+validate = ထတ်းလွင်ႈထုၵ်ႇမႅၼ်ႈ
+respond-to-prompt = ၶေႃႈတွပ်ႇ
+respond-to-prompt-mobile = ၶေႃႈတွပ်ႇ
 transcribe = ထွတ်ႇသဵင်
+check-transcriptions = ၵူတ်ႇထတ်းၶိုၼ်း
+check-transcriptions-mobile = ၵူတ်ႇထတ်းၶိုၼ်း
+tag = ထႅၵ်ႉ
+
+## Not Found Page
+
+not-found-page-header = ဢမ်ႇႁၼ်ၶေႃႈမုၼ်းသင်
 
 ## Language search component
 
