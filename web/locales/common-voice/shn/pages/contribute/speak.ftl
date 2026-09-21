@@ -68,3 +68,14 @@ second-cta-header-text = ယိၼ်းၸူမ်းၶွပ်ႈၸႂ်�
 second-cta-subtitle-text = ၵၢၼ်မီးပရူဝ်ႊၾၢႆႊလ် (Profile) ၼၼ်ႉ တေႁဵတ်းႁႂ်ႈၸဝ်ႈၵဝ်ႇ ၸၢင်ႈၵပ်းသိုပ်ႇၵွင်ႉၵၢႆႇၵၼ်တင်းတူင်ႇဝူင်း ၽူႈၶဝ်ႈႁူမ်ႈၵမ်ႉထႅမ်ၶေႃႈမုၼ်းသဵင်ၶဝ်လႆႈၶႃႈ။"
 already-have-an-account = မီးသဵၼ်ႈမၢႆဝႆႉယဝ်ႉႁႃႉ? <login>လွၵ်ႉၶဝ်ႈ</login>
 create-profile-button = သၢင်ႈပရူဝ်ႊၾၢႆႊလ်
+# IMAGE TAGS
+img-alt-success-checkmark = ၶိူင်ႈမၢႆထုၵ်ႇဢၼ်ၼႄလွင်ႈဢွင်ႇမၢၼ်
+# menu item
+read-sentences = လူဢၢၼ်ႇၶေႃႈၵႂၢမ်း
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = လူဢၢၼ်ႇၶေႃႈၵႂၢမ်း <small>(ဢၼ်တေမႃး)</small>
+
+## MENU ITEM TOOLTIPS
+
+speak-contribute-menu-tooltip = လူဢၢၼ်ႇၶေႃႈၵႂၢမ်း၊ တွပ်ႇၶေႃႈထၢမ်
+read-sentences-menu-item-tooltip = ဢတ်းသဵင်တူဝ်ၵဝ်ႇ ဢၢၼ်ႇၶေႃႈၵႂၢမ်းလူၺ်ႈၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈၸဝ်ႈၵဝ်ႇ။
