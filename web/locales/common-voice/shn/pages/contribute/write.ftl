@@ -2,6 +2,11 @@
 
 write = တႅမ်ႈ
 write-instruction = သႂ်ႇ <icon></icon> ၶေႃႈၵႂၢမ်း ဢၼ်ပဵၼ်ၶွင်ၵူၼ်းတင်းၼမ်
+write-page-subtitle = ၶေႃႈၵႂၢမ်း ဢၼ်မႃးၶဝ်ႈႁူမ်ႈၵမ်ႉထႅမ် တီႈၼႆႈ တေထုၵ်ႇဢဝ်ၵႂႃႇထႅမ်သႂ်ႇၼႂ်း ၸုမ်ႇၶေႃႈမုၼ်း (Dataset) ဢၼ်မီးဝႂ်သူၼ်ႇသၢင်ႈCC0 ပုၼ်ႈတႃႇၵူၼ်းတင်းၼမ် ၸၢင်ႈဢဝ်ၵႂႃႇၸႂ်ႉလႆႈလွတ်ႈလႅဝ်းၶႃႈ။
+sentence =
+    .label = ၶေႃႈၵႂၢမ်း
+sentence-input-placeholder = သႂ်ႇပၼ် ၶေႃႈၵႂၢမ်း ဢၼ်ပဵၼ် ၶွင်ၵူၼ်းတင်းၼမ် တီႈၼႆႈ
+small-batch-sentence-input-placeholder = သႂ်ႇပၼ် ၶေႃႈၵႂၢမ်း ဢၼ်ပဵၼ် ၶွင်ၵူၼ်းတင်းၼမ် တီႈၼႆႈ
 contact-us = ၵပ်းသိုပ်ႉႁဝ်းၶႃႈ
 # Sentence Domain dropdown option
 healthcare = ၵၢၼ်လုမ်းလႃးပၢႆးယူႇလီ
