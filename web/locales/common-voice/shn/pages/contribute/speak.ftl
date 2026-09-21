@@ -61,3 +61,5 @@ create-profile-text = ၶႂ်ႈၵဵပ်းသိမ်းၶေႃႈမ�
 thanks-for-voice-toast = ယိၼ်းၸူမ်းတေႉၶႃႈ တွၼ်ႈတႃႇၶေႃႈမုၼ်းသဵင်ၸဝ်ႈၵဝ်ႇ!
 thanks-for-voice-toast-error = မီးလွင်ႈၽိတ်းပိူင်ႈမိူဝ်ႈသူင်ႇၶေႃႈမုၼ်းသဵင်ၸဝ်ႈၵဝ်ႇ
 first-cta-gender-select-default-option = လိူၵ်ႈဢဝ်တၢင်းလိူၵ်ႈ
+first-cta-gender-select-help-text =
+    .label = ၸဝ်ႈၵဝ်ႇ ၶႂ်ႈလၢတ်ႈၼႄ လွင်ႈငႅင်ႈ(ၸၢႆး-ယိင်း)ၸဝ်ႈၵဝ်ႇ ၸိူင်ႉၼင်ႇႁိုဝ်ၶႃႈ?
