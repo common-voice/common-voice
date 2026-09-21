@@ -36,6 +36,14 @@ bulk-sentence-submission = ၵၢၼ်သူင်ႇၶေႃႈၵႂၢမ�
 single-sentence = ထႅဝ်လဵဝ်
 small-batch-sentence = ၸုပ်ႈယွႆႈ
 bulk-sentence = ၸုပ်ႈၼမ်
+sentence-domain-combobox-label = ၶွပ်ႇလႅၼ်ၶေႃႈၵႂၢမ်း
+sentence-domain-select-placeholder = လိူၵ်ႈၶွပ်ႇလႅၼ်ၶေႃႈၵႂၢမ်းလႆႈ 3 ဢၼ် (ဢမ်ႇလိူၵ်ႈၵေႃႈလႆႈ)
+# Sentence Domain dropdown option
+agriculture_food = ၵၢၼ်ၽုၵ်ႇသွမ်ႈ လႄႈ တၢင်းၵိၼ်တၢင်းယႅမ်ႉ
+# Sentence Domain dropdown option
+automotive_transport = ၵၢၼ်လူတ်ႉၵႃး လႄႈ ၵၢၼ်တေႃႉသူင်ႇ
+# Sentence Domain dropdown option
+finance = ၵၢၼ်ငိုၼ်းတွင်း
 # Sentence Domain dropdown option
 healthcare = ၵၢၼ်လုမ်းလႃးပၢႆးယူႇလီ
 # Sentence Domain dropdown option
