@@ -8,6 +8,7 @@ reject-vote-toast-message = Vaicuojums veiksmeigi nūraideits
 ## Validation guidelines
 
 validation-guidelines-title = Vodlinejis
+validation-guideline-1 = Bez personeiguos informacejis (pīm., vuordu, moksuojumu veikšonys leidzekļu informacejis) pīpraseišonys
 validation-guideline-2 = Bez aiztīkūšom, aizsprīdumainom pīzeimem voi sensitivim vaicuojumim
 validation-guideline-3 = Vīnkuoršs i vīgli saprūtams kotram
 validation-guideline-4 = Var atbiļdēt ar puors teikumim

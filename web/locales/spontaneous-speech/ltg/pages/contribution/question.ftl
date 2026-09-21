@@ -1,5 +1,8 @@
 ## Question Page
 
+question-page-instruction = Dalīcit vaicuojumu <icon></icon> { $currentLocale } volūdā, lai cylvāki varātu iz tū atsaceit
+add-question-textarea-placeholder = par pīmāru, "Kaidim mierkim jius grybātu lītuot jaunuos tehnologejis?"
+add-questions-terms-checkbox = * Es apstyprynoju, ka itys vaicuojums ir <publicDomainLink>bez autortīseibu</publicDomainLink> i maņ ir atļuove tū dalikt.
 question-dataset-language = Datu kūpa: { $datasetLanguage }
 add-question-error-message = Augšynluode naizadeve, lyudzu, raugit vēļreiz.
 add-question-too-many-questions-error = Puorsnāgts 500 vaicuojumu limits. Samazynojat vaicuojumu skaitu i raugit vēļreiz.
