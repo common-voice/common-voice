@@ -8,6 +8,8 @@ datasets-positioning =
     Common Voice vairuokvolūdu datu baze jau ir leluokuo itaida veida publiski daīmamuo bolsa datu kūpa, bet tei nav vīneiguo. 
     
     Pasaverit iz itū lopu kai informacejis centru par cytom valejuo pyrmkoda bolsa datu kūpom i, tai kai Common Voice turpynoj augt, ari kai iz myusu nuokūtnis atjaunynuojumu vītu.
+# New/upcoming datasets page headline
+datasets-headline-mdc = Mozilla Common Voice datu kūpys niu ir daīmamys viņ teiklavītā Mozilla Data Collective.
 language = Volūda
 download-dataset-header = Zamynluodejit datu kūpu
 download-delta-explainer = Mes asam sataisejuši puors izmainis. Delta segmenti satur tikai jaunuokūs īrokstus nu pādejuos izlaisšonys. <deltaLink>Skaitit vaira par itū dorbu</deltaLink>.
