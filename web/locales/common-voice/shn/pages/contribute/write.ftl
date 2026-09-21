@@ -22,6 +22,8 @@ new-sentence-rule-6 = ဢမ်ႇႁႂ်ႈမီးတူဝ်လိၵ်�
 new-sentence-rule-7 = သႂ်ႇပႃးလွင်ႈဢၢင်ႈဢိင် ဢၼ်ထုၵ်ႇမႅၼ်ႈ
 new-sentence-rule-8 = ထုၵ်ႇလီပဵၼ်ၵႂၢမ်းလၢတ်ႈဢၼ်ပဵၼ်သၽႃႇဝ (ႁႂ်ႈဢၢၼ်ႇၶေႃႈၵႂၢမ်းလႆႈငၢႆႈၶႃႈ)
 login-instruction-multiple-sentences = <loginLink>လွၵ်ႉၶဝ်ႈ</loginLink> ဢမ်ႇၼၼ် <loginLink>လူင်းသၢႆမၢႆ</loginLink> တႃႇထႅမ်သႂ်ႇၶေႃႈၵႂၢမ်းလၢႆလၢႆၶေႃႈၵမ်းလဵဝ်
+how-to-cite = ၵၢၼ်သႂ်ႇလွင်ႈဢၢင်ႈဢိင်
+how-to-cite-explanation-bold = သႂ်ႇလိင်ႉ URL ဢမ်ႇၼၼ် ၸိုဝ်ႈတဵမ်ၶွင်ၵၢၼ်တႅမ်ႈၽိုၼ်လိၵ်ႈ
 contact-us = ၵပ်းသိုပ်ႉႁဝ်းၶႃႈ
 # Sentence Domain dropdown option
 healthcare = ၵၢၼ်လုမ်းလႃးပၢႆးယူႇလီ
