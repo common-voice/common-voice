@@ -95,3 +95,11 @@ player-skip-backward-aria-label = ႁူၼ်ၶၢမ်ႈၶိုၼ်း�
 player-skip-forward-aria-label = ၶၢမ်ႈၵႂႃႇၽၢႆႇၼႃႈ 5 သႅၵ်ႉၵၢၼ်ႉ
 # Audio playback progress slider accessibility/aria label
 player-progress-slider-aria-label = ထႅဝ်လၢၵ်ႈ လွင်ႈၶိုပ်ႈၼႃႈၵၢၼ်လဵၼ်ႈသဵင်
+# Toggle speed and transcription mode menu button
+player-toggle-mode-menu-aria-label = ၼဵၼ်ပၢႆႇပိုတ်ႇ/ပိၵ်ႉမေႇၼူး
+# Slower playback speed button accessibility/aria label
+player-speed-slow-aria-label = လဵၼ်ႈတၢင်းဝႆးသဵင်ႁႂ်ႈထိူင်းလူင်း
+# Normal playback speed button accessibility/aria label
+player-speed-normal-aria-label = လဵၼ်ႈတၢင်းဝႆးသဵင်ပိူင်ၵဝ်ႇ
+# Faster playback speed button accessibility/aria label
+player-speed-fast-aria-label = လဵၼ်ႈတၢင်းဝႆးသဵင်ႁႂ်ႈဝႆးၶိုၼ်ႈ
