@@ -94,7 +94,6 @@ add-questions = سوال وِڄ <small>(جلدی چِیسن)</small>
 transcribe-audio = آڈیو تی نقل کر <small>(جلدی چِیسن)</small>
 press-and-stories = پریس ٻِیا کہاݨییں
 community-and-languages = برادری ٻِیا ٻولیاں
-coming-soon = جلدی چِیسے
 
 ## MENU ITEMS TOOLTIPS
 

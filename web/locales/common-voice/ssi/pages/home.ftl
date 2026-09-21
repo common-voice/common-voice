@@ -88,7 +88,6 @@ add-questions = سُئال سیمل کرو
 transcribe-audio = نکݪ آڈیو
 press-and-stories = پریس اور کُہاݨِیاں
 community-and-languages = پڑاو اور ٻولِیان
-coming-soon = ٻیگا آݨواڑا
 about-us = مھارے باریم
 scripted-speech = لِکھوڑے بھاشݨ
 spontaneous-speech = ٻولݨیں کی آدت

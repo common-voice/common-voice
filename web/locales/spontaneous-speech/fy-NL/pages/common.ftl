@@ -50,6 +50,7 @@ accept-privacy-and-terms = Ik gean akkoard mei de <termsLink>Betingsten</termsLi
 # Locales-Variants
 ms-MY = Bahasa-Maleisk
 el-CY = Syprioatysk Gryksk
+pt-BR = Braziliaansk-Portugeesk
 
 ## Language search component
 

@@ -95,7 +95,6 @@ review-questions = Adolygu Cwestiynau
 transcribe-audio = Trawsgrifio Sain
 press-and-stories = Y Wasg a Straeon
 community-and-languages = Cymuned ac Ieithoedd
-coming-soon = Yn Dod yn Cyn Hir
 about-us = Amdanom ni
 scripted-speech = LLEFARU TESTUN
 spontaneous-speech = LLEFARU RHYDD

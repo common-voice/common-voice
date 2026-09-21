@@ -92,6 +92,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 about-playbook-how-localize = Kiel funkcias la traduko de la retejo?
 about-playbook-how-localize-content-1 = La traduko de la retejo de Common Voice okazas ĉe <strong>Pontoon</strong>.
 about-playbook-how-localize-content-2 = <pontoonAccountLink>Kreu konton</pontoonAccountLink>, se vi ne havas unu. Poste, elektu la <strong>(‘teamon’)</strong> de via lingvo kaj poste la projekton <pontoonCvLink>Common Voice</pontoonCvLink>. Tie estos dosieroj por traduki. Alklaku iun, kaj videblos la vortojn en la angla kaj tekstan kampo por skribi la tradukon.
+about-playbook-how-localize-content-3 = Tradukado estas el la angla, sed vi povas vidi <strong>sugestojn</strong> en aliaj lingvoj. Alklaku sur la bildeto “<strong>Profilo</strong>”, poste sur la ligilo “<strong>Agordoj</strong>” kaj aldonu ĉiujn lingvojn, kiujn vi parolas. Sur la malsupra dekstra angulo estos listo de tradukoj, nomita “<strong>Lingvoj</strong>”. Tradukoj aperas en la retejo post unu tago.
 about-playbook-how-localize-content-4 = La retejo estos preta por lanĉo kiam ĝi atingos 75%-an kompletigon.
 about-playbook-how-localize-content-5 = Spektu nian klarigan video kiel helpon
 
@@ -99,6 +100,8 @@ about-playbook-how-localize-content-5 = Spektu nian klarigan video kiel helpon
 
 about-playbook-how-add-sentences = Kiel aldoni frazojn?
 about-playbook-how-add-sentences-content-1 = Vi povas aldoni frazojn en <writePageLink>Skribi paĝon</writePageLink> aŭ kontroli frazojn en <reviewPageLink>Kontroli paĝon</reviewPageLink>.
+about-playbook-how-add-sentences-content-2 = Frazoj devas esti reviziitaj kaj akceptitaj de du homoj por esti inkluzivitaj en la projekto Common Voice. Vi povas krei gvidliniojn por via lingvo <languageGuidelinesLink>ĉi tie<languageGuidelinesLink>. Frazoj devas esti sub la permesilo <licenseLink>publika havaĵo</licenseLink> kaj pli mallongaj ol 15 vortoj. Vi povas peti al la aŭtoro de la teksto <waiverLink>liveri ĝin per permesilo CC0 uzante nian renuncan proceduron</waiverLink>, kaj sendi ĝin al ni ĉe commonvoice@mozilla.com
+about-playbook-how-add-sentences-content-3 = Vi povas uzi la <scraperLink>ekstraktilon de frazoj</scraperLink> por alporti mallongajn frazojn el Vikipedio.
 
 ## How to record quality
 
@@ -114,6 +117,7 @@ about-playbook-how-record-content-5 = <accuracyLink>Pli da informo pri precizeca
 about-playbook-how-grow-language = Kiel ni povas efike kreskigi lingvon en Common Voice?
 about-playbook-how-grow-language-content-1 = Krei ŝancojn por ke diverseco da homoj kontribuu al Common Voice certigas, ke la datumbazo servu kiel eble plej multajn homojn. Ni kreis rimedojn kaj ŝablonojn, kiujn vi povas uzi!
 about-playbook-how-grow-language-content-2 = Eventoj
+about-playbook-how-grow-language-content-3 = Vi povas organizi eventojn por helpi al homoj kontribui. Estas pli simple ol vi pensas. Vi povas tion fari en la reto, per videa konfereca programo, aŭ persone, se tio ne estas danĝera. <eventTemplate>Rigardu niajn ŝablonojn kaj rimedojn por organizado de eventoj</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Sociaj retoj
 about-playbook-how-grow-language-content-5 = Vi povas uzi viajn sociajn reton por diskonigi la mesaĝon. Dividu mesaĝojn, kiuj klarigas kial ĝi gravas kaj kontaktu aliajn personojn kiuj priparolas temojn, kiel ekzemple lingvajn rajtojn, A.I. voĉon, aŭ antaŭjuĝojn en teknologio. Vidu pli da konsiloj pri <campaignLink>kiel ruli socian kampanjon, kun enhavo kiun vi povas reuzi</campaignLink>.
 about-playbook-how-grow-language-content-6 = Kunlaboro kaj retoj

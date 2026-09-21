@@ -80,7 +80,6 @@ review-questions = سوال ني دهرائي
 transcribe-audio = آڊيو نقل نويسي
 press-and-stories = ڪهاڻيون هانَ پريس
 community-and-languages = برادري هانَ ٻوليون
-coming-soon = جلدي آوشي
 about-us = امارا ڀارا مان
 scripted-speech = لکل تقرير
 spontaneous-speech = اختياري تقرير

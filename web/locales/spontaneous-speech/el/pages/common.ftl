@@ -50,6 +50,7 @@ accept-privacy-and-terms = Αποδέχομαι τους <termsLink>Όρους</
 # Locales-Variants
 ms-MY = Μαλαϊκά
 el-CY = Ελληνικά (Κύπρος)
+pt-BR = Πορτογαλικά (Βραζιλία)
 
 ## Language search component
 

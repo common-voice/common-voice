@@ -94,7 +94,6 @@ review-questions = سوالو رو جائزو ليو
 transcribe-audio = آڊيو نقل ڪرو
 press-and-stories = پريس ھين ڪهاڻيون
 community-and-languages = ڪميونٽي ھين زبون
-coming-soon = جلدي آوئي
 about-us = بارا ۾
 scripted-speech = ليکيوڙي تقرير
 spontaneous-speech = بي ساخته تقرير

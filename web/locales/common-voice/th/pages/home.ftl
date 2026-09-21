@@ -93,7 +93,6 @@ review-questions = ตรวจทานคำถาม
 transcribe-audio = ถอดเสียง
 press-and-stories = ข่าวแจกและเรื่องราว
 community-and-languages = ชุมชนและภาษา
-coming-soon = เร็วๆ นี้
 about-us = เกี่ยวกับเรา
 scripted-speech = เสียงพูดตามบท
 spontaneous-speech = เสียงพูดธรรมชาติ

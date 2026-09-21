@@ -1,5 +1,6 @@
 ## Datasets Page
 
+datasets-heading = ਡਾਟਾ-ਸਮੂਹ
 language = ਭਾਸ਼ਾ
 # File size in gigabytes
 size = ਆਕਾਰ
@@ -21,6 +22,8 @@ subscribe = ਮੈਂਬਰ ਬਣੋ
 get-started-speech = ਆਵਾਜ਼ ਪਛਾਣ ਨਾਲ ਸ਼ੁਰੂ ਕਰੋ
 other-datasets = ਹੋਰ ਆਵਾਜ਼ ਡਾਟਾ-ਸਮੂਹ
 feedback-q = ਸੁਝਾਅ ਹਨ?
+# This indicates that there is no data to display
+no-information = ਕੋਈ ਜਾਣਕਾਰੀ ਨਹੀਂ
 data-other-ted-name = TED-LIUM ਕਾਰਪਸ
 go-discourse = ਭਾਸ਼ਣ ‘ਤੇ ਜਾਓ
 go-languages-page = ਭਾਸ਼ਾ ਸਫ਼ੇ ‘ਤੇ ਜਾਓ
@@ -28,6 +31,11 @@ ready-to-validate = ਕੀ ਵਾਕਾਂ ਨੂੰ ਪ੍ਰਮਾਣਿਤ �
 more = ਹੋਰ
 download = ਡਾਊਨਲੋਡ ਕਰੋ
 dataset-version = ਵਰਜ਼ਨ
+clipboard-not-supported = ਕਲਿੱਪਬੋਰਡ ਸਹਾਇਕ ਨਹੀਂ ਹੈ
+no-information-available = ਕੋਈ ਜਾਣਕਾਰੀ ਮੌਜੂਦ ਨਹੀਂ ਹੈ
+dataset-metadata-sex = ਲਿੰਗ
+# dataset metadata - age of contributor
+dataset-metadata-age = ਉਮਰ
 data-download-button = ਆਮ ਆਵਾਜ਼ ਡਾਟਾ ਡਾਊਨਲੋਡ ਕਰੋ
 data-download-yes = ਹਾਂ
 data-download-deny = ਨਹੀਂ
@@ -41,5 +49,8 @@ release-version = ਵਰਜ਼ਨ
 dataset-date = ਤਾਰੀਖ
 license = ਲਸੰਸ: <licenseLink>{ $license }</licenseLink>
 license-mixed = ਰਲਵੇਂ
+# Support old genders in older datasets
+male = ਮਰਦ
+female = ਔਰਤ
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = ਸਾਡੇ ਆਵਾਜ਼ ਡਾਟਾ-ਸੈੱਟ ਨੂੰ ਡਾਊਨਲੋਡ ਕਰੋ

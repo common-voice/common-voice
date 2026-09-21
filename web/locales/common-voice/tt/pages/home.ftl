@@ -83,7 +83,6 @@ review-questions = Сорауларны тикшерү
 transcribe-audio = Аудионы текстка күчерү
 press-and-stories = Матбугат һәм мәкаләләр
 community-and-languages = Берләшмә һәм телләр
-coming-soon = Тиздән
 about-us = Безнең турында
 scripted-speech = ӘЗЕРЛӘП КУЙГАН СӨЙЛӘМ
 spontaneous-speech = КИНӘТ ТУГАН СӨЙЛӘМ

@@ -50,6 +50,7 @@ accept-privacy-and-terms = Jag godkänner Common Voices <termsLink>villkor</term
 # Locales-Variants
 ms-MY = Malajiska Bahasa
 el-CY = Cypriotisk grekiska
+pt-BR = Brasiliansk portugisiska
 
 ## Language search component
 

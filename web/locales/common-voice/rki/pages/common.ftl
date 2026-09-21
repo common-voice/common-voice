@@ -17,6 +17,7 @@ ajg = Adja
 aln = Gheg Albanian
 am = Amharic
 an = Aragonese
+apc = Levantine Arabic
 ar = Arabic
 arn = Mapudungun
 as = Assamese
@@ -197,6 +198,7 @@ kpv = Komi-Zyrian
 krc = Karachay-Balkar
 ks = Kashmiri
 ksf = Bafia
+kum = Kumyk
 kvx = Parkari Koli
 kw = Cornish
 kxp = Wadiyara Koli
@@ -262,6 +264,7 @@ mvy = Indus Kohistani
 mxu = Mada
 my = Burmese
 myv = Erzya
+mzn = Mazandarani
 nan-tw = Taiwanese (Minnan)
 nb-NO = Norwegian Bokmål
 ncx = Central Puebla Nahuatl
@@ -524,6 +527,11 @@ announcement-pre-release = ခင်မင်ရပါယေ အသိုင်�
 
 # Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
 announcement-release-commencing = ချစ်တေ ရခိုင်အသိုင်းအဝိုင်း၊ အကျွန်ရို့ ထုတ်ဝီရဖို့ နောက်ဆုံးရက်ကို ရောက်ဟိပြီးဖြစ်လို့ ဒေတာအစုအဝေးတိကို စုစည်းနိန်ပါရေ။ ထုတ်ဝီမှုအသစ်ကို ရက်ပိုင်းအတွင်း <mdcLink>Mozilla Data Collective</mdcLink> မှာ ရဟိနိုင်ပါဖို့။
+
+## Downtime Announcements
+
+# Generic scheduled downtime for next Sunday early hours
+announcement-scheduled-downtime = လေးစားအပ်တေ မိတ်ဆွေ အသိုက်အဝန်း၊ အကျွန်ရို့ စနစ်တိကို အကောင်းဆုံးဖြစ်လာအောင် လုပ်ဆောင်ဖို့အတွက်၊ ပုံမှန်အားဖြင့် နာရီအနည်းချေအတွင်း ပြီးမြောက်အောင်၊ အချိန်တိုကာလတိကို စီစဉ်ပီးပါရေ။ နောက်တစ်ကြိမ် စက်ရပ်ချိန်စွာ အဂု တနင်္ဂနီနိ စစောပိုင်းမှာ ဖြစ်ပါဖို့။ ပြဿနာတစ်ခုကြုံတွိပါက Matrix မှာ အကျွန်ရို့ဘားကို ဆက်သွယ်ပါ။
 
 ## Common Language/Dataset Selector & SearchBox Related
 

@@ -64,14 +64,14 @@ Dev and prod use separate MDC accounts. Set the key matching your `-ut` target.
 | -------------- | --------------------------------------------------------------------------------------------- |
 | `cli.py`       | Click CLI entry point, option parsing, `--retry-failed`/`--resume` handling, error formatting |
 | `config.py`    | `UploaderConfig` dataclass, env var + CLI arg resolution                                      |
-| `constants.py` | MDC API URLs, metadata templates, contact info                                            |
+| `constants.py` | MDC API URLs, metadata templates, contact info                                                |
 | `typedef.py`   | Shared type aliases, Literal types, TypedDicts                                                |
-| `models.py`    | Data models: `Modality`, `UploadResult`, release/job types                                |
+| `models.py`    | Data models: `Modality`, `UploadResult`, release/job types                                    |
 | `naming.py`    | Release name parsing, tarball/datasheet path construction                                     |
 | `language.py`  | `LanguageRegistry` class -- fetches locale names from CV API + hardcoded extras               |
-| `mdc.py`       | `MDCClient` -- step-by-step SDK calls, resume, recovery, 429 retry           |
+| `mdc.py`       | `MDCClient` -- step-by-step SDK calls, resume, recovery, 429 retry                            |
 | `streaming.py` | GCS-to-MDC direct streaming: range reads -> presigned URL PUTs, resume via state file         |
-| `pipeline.py`  | Per-locale orchestration, streaming/non-streaming routing, concurrency      |
+| `pipeline.py`  | Per-locale orchestration, streaming/non-streaming routing, concurrency                        |
 | `state.py`     | `BatchState` JSON persistence (thread-safe), orphaned extraction, log-to-storage upload       |
 | `progress.py`  | tqdm batch progress bar, human-readable size formatting                                       |
 | `log.py`       | Structured logging, auto log file, `flush_all`/`get_log_file_path` for storage save           |
@@ -85,9 +85,9 @@ Companion tool that sets prior dataset versions to private. Reuses the uploader'
 | -------------- | --------------------------------------------------------------------------------------------- |
 | `cli.py`       | Click CLI entry point (`mdc-disable`), prod confirmation, best-effort artifact upload         |
 | `config.py`    | `DisablerConfig` dataclass, env var + CLI arg resolution                                      |
-| `constants.py` | Org-page host + org id per target (`MDC_SITE_URLS`, `MDC_ORG_IDS`)                             |
+| `constants.py` | Org-page host + org id per target (`MDC_SITE_URLS`, `MDC_ORG_IDS`)                            |
 | `org_page.py`  | Org-page scrape + cached GCS snapshot (`OrgDataset`, load/fetch, 48h staleness)               |
-| `client.py`    | `DisableClient` -- resolve dataset id -> submission id, PATCH visibility=private, 429 backoff  |
+| `client.py`    | `DisableClient` -- resolve dataset id -> submission id, PATCH visibility=private, 429 backoff |
 | `core.py`      | Target selection (modality + exact version), resumable serial disable loop, JSON resume state |
 
 ---
@@ -198,7 +198,7 @@ Additionally, `_preserve_sdk_state_local()` copies SDK state from next to the ta
 `language.py` uses a `LanguageRegistry` class to resolve locale codes to English/native name pairs.
 
 1. Fetches all locales from `commonvoice.mozilla.org/api/v1/languagedata`
-2. Appends hardcoded extras for locales missing from the API (el-CY, ms-MY)
+2. Appends hardcoded extras for locales missing from the API (el-CY, ms-MY, pt-BR)
 3. API entries take priority -- extras only fill gaps
 4. All locales are kept regardless of `is_contributable` flag (SPS locales may have `is_contributable=0`)
 5. API failure is fatal -- language names are required for correct MDC metadata
@@ -487,19 +487,19 @@ Ruff is the primary linter and formatter (replaces black, isort, flake8). Pylint
 
 ### Test Coverage
 
-| Test file | Tests | Covers |
-| --- | --- | --- |
-| `test_mdc.py` | 45 | Exception wrapping, response extraction, step-by-step, resume, recovery, stream_and_upload, verbose passthrough |
-| `test_naming.py` | 30 | Release parsing (incl. delta), paths, detect_locales |
-| `test_pipeline.py` | 22 | Job building, process_locale, resume, state path, GCS cleanup, orphans |
-| `test_streaming.py` | 9 | Initiate raw (bypasses Pydantic), load/resume state, single/multi-part, resume skip, empty blob |
-| `test_config.py` | 16 | UploaderConfig.from_cli, locale parsing, resume validation, jobs, no_stream |
-| `test_language.py` | 11 | LanguageRegistry init/find/extras/variants/API failure |
-| `test_gcs.py` | 10 | URI detection, parsing, require guard |
-| `test_models.py` | 9 | StrEnum values, ReleaseSpec props, defaults |
-| `test_state.py` | 7 | BatchState record/summary, retry loading, orphaned extraction |
-| `test_log.py` | 6 | File handler setup, DEBUG capture, datacollective logger routing |
-| `test_progress.py` | 5 | format_size B/KB/MB/GB/TB |
+| Test file           | Tests | Covers                                                                                                          |
+| ------------------- | ----- | --------------------------------------------------------------------------------------------------------------- |
+| `test_mdc.py`       | 45    | Exception wrapping, response extraction, step-by-step, resume, recovery, stream_and_upload, verbose passthrough |
+| `test_naming.py`    | 30    | Release parsing (incl. delta), paths, detect_locales                                                            |
+| `test_pipeline.py`  | 22    | Job building, process_locale, resume, state path, GCS cleanup, orphans                                          |
+| `test_streaming.py` | 9     | Initiate raw (bypasses Pydantic), load/resume state, single/multi-part, resume skip, empty blob                 |
+| `test_config.py`    | 16    | UploaderConfig.from_cli, locale parsing, resume validation, jobs, no_stream                                     |
+| `test_language.py`  | 11    | LanguageRegistry init/find/extras/variants/API failure                                                          |
+| `test_gcs.py`       | 10    | URI detection, parsing, require guard                                                                           |
+| `test_models.py`    | 9     | StrEnum values, ReleaseSpec props, defaults                                                                     |
+| `test_state.py`     | 7     | BatchState record/summary, retry loading, orphaned extraction                                                   |
+| `test_log.py`       | 6     | File handler setup, DEBUG capture, datacollective logger routing                                                |
+| `test_progress.py`  | 5     | format_size B/KB/MB/GB/TB                                                                                       |
 
 ### Project Dependencies
 

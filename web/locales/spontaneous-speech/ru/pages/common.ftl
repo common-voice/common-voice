@@ -9,7 +9,7 @@ platform-language = Язык платформы:
 platform-language-tooltip-text = Изменяет только текст веб-сайта.
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
-contribution-picker-label = Участие в наборе данных для { $language }
+contribution-picker-label = <bold>{ $language }</bold>: участие в наборе данных языка
 contribution-picker-tooltip-text = Изменяет языковой набор данных, созданию которого вы помогаете
 coming-soon = Скоро добавим ещё больше языков
 media-recorder-api-not-supported = MediaRecorder API не поддерживается вашим браузером.
@@ -50,6 +50,7 @@ accept-privacy-and-terms = Я согласен с <termsLink>Условиями<
 # Locales-Variants
 ms-MY = Бахаса Малай
 el-CY = Греческий кипрский
+pt-BR = Бразильский португальский
 
 ## Language search component
 

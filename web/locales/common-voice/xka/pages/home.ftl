@@ -79,7 +79,6 @@ add-questions = دی پہ سوالونی <small> تیپہ پݭہ</small>
 transcribe-audio = بوجل نقل تیپہ پݭہ۔
 press-and-stories = سیپ دے
 community-and-languages = تانی خلق تے  تنے جیب
-coming-soon = یندر
 
 ## MENU ITEMS TOOLTIPS
 

@@ -81,7 +81,6 @@ add-questions = سوآل شآمل ڪرو
 transcribe-audio = آڊيٚو کي لکو
 press-and-stories = اکبآر ائيٚݩ آکهآڻيٚوݩ
 community-and-languages = برآدريٚ ائيٚݩ ٻوليٚ
-coming-soon = جلديٚ آڻ وآريٚ اهي
 about-us = اسآݩ ري باري ميݩ
 scripted-speech = لکل تڪريٚر
 spontaneous-speech = بي سآکتآ تڪريٚر

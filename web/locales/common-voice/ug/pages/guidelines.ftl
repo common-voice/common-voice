@@ -195,6 +195,11 @@ code-switching-answer-bullet-4 = جاۋاب بېرىشنىڭ «مۇكەممەل�
 code-switching-authentic-header = تەبىئىي ۋە ئىشەنچلىك جاۋاب بېرىڭ
 # Transcribing
 code-switching-transcribe-subheader = خەت پۈتۈش
+code-switching-tagging-error-2 = يېزىق خاتالىقى
+code-switching-tagging-error-3 = خاتا ئىملا قائىدىسىدە يېزىلغان سۆز
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = ھەر بىر تىلغا توغرا ئىملا قائىدىسى قوللىنىش
+code-switching-orthography-explanation = ھەر بىر سۆزنى ئۆز تىلىدىكى ئىملا قائىدىسىگە ئاساسەن يېزىڭ. مەسىلەن:
 code-switching-pronunciation-explanation-example-1 = ئىنگلىزچە: /ˈkeɪ.bəl/
 code-switching-pronunciation-explanation-example-2 = ئىسپانچە: /ˈkable/
 code-switching-not-tag-proper-names-example-1 = كىشى: پالانچى، پۇستانچى

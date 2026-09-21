@@ -198,6 +198,7 @@ kpv = კომი
 krc = ყარაჩაულ-ბალყარული
 ks = ქაშმირი
 ksf = ბაფია
+kum = ყუმუხური
 kvx = პარკარი-კოლი
 kw = კორნული
 kxp = ვადიარა-კოლი
@@ -526,6 +527,11 @@ announcement-pre-release = ჩვენი ერთობის ძვირფ
 
 # Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
 announcement-release-commencing = ძვირფასო მონაწილენო, ნიმუშების ჩამატება მოახლოებული გამოშვებისთვის შეწყვეტილია და იწყება მონაცემთა კრებულების აწყობა. ახალ გამოშვებას რამდენიმე დღეში გამოაქვეყნებს <mdcLink>Mozilla Data Collective</mdcLink>.
+
+## Downtime Announcements
+
+# Generic scheduled downtime for next Sunday early hours
+announcement-scheduled-downtime = ძვირფასო საზოგადოებავ, ჩვენი სამუშაო გარემოს ტექნიკური გამართულობისთვის დაგეგმილია მომსახურების ხანმოკლე შეჩერება, რომელიც რამდენიმე საათს გასტანს ხოლმე. უახლოესი მათგანი მოსალოდნელია კვირას დილით. შეგვეხმიანეთ Matrix-ზე, თუ რამე დაბრკოლებას წააწყდებით.
 
 ## Common Language/Dataset Selector & SearchBox Related
 

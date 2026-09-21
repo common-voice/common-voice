@@ -283,5 +283,5 @@ code-switching-not-tag-interjections-example-4 = “呃”
 
 reporting-content = 举报内容
 reporting-content-subheader = 通用指南
-reporting-content-explanation-1 = 请举报存在伤害、冒犯性等问题，以及包含个人身份信息（例如电话号码和地址）的内容。举报后，您将不会再看到相关内容，直至 Common Voice 团队对其进行审核并作进一步处理。
+reporting-content-explanation-1 = 请举报存在伤害、冒犯性等问题，以及包含识别个人身份的信息（例如电话号码和地址）的内容。举报后，您将不会再看到相关内容，直至 Common Voice 团队对其进行审核并作进一步处理。
 reporting-content-explanation-2 = 若要举报内容，请选择“反馈”按钮，然后从以下情况中选择一项或多项：冒犯性内容、其他语言、个人身份信息、其他，并在文本框中详述举报理由，最后点击“反馈”按钮即可提交举报。

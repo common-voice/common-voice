@@ -50,6 +50,7 @@ accept-privacy-and-terms = Common Voice-ның <termsLink>Шартларын</te
 # Locales-Variants
 ms-MY = Бахаса Малай
 el-CY = Кипр грек
+pt-BR = Бразилия португал
 
 ## Language search component
 

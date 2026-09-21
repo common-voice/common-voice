@@ -12,7 +12,7 @@ why-card-2-text = Башка телгә күчү һәм <mark>кодлар ар�
 why-card-3-text = Текст корпуслары кечкенә булган яки <mark>бөтенләй булмаган</mark> телләр (мәсәлән, социолектлар, тарих дәвамында телләр арасына кертелмәгәннәр һ. б. ш.) белән эшләүнең яхшыртылган мөмкинлеге.
 how-spontaneous-speech-works = "Кинәт туган сөйләм" ничек эшли
 # text wrapped in <mark></mark> will have a blue background
-prompt-bubble-title = <mark>Башлам</mark>
+prompt-bubble-title = <mark>Сорау</mark>
 prompt-bubble-subtitle = Без Сезгә ярдәм итүче язма яки сорау күрсәтербез
 # text wrapped in <mark></mark> will have a blue background
 respond-bubble-title = <mark>Җавап бирү</mark>

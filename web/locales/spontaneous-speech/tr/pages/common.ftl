@@ -71,6 +71,9 @@ player-speed-fast = Hızlı
 
 ## Transcription Player Controls - Keyboard Shortcuts
 
+# Player control shortcut for play/pause: pressed with Ctrl/Cmd
+player-play-pause-shortcut = p
+player-play-pause-shortcut-key = Ctrl / Cmd + P
 player-play-pause-shortcut-name = Oynat / duraklat
 # Player control shortcut to go back 5 seconds: pressed with Ctrl/Cmd
 player-skip-backward-shortcut = 8
@@ -91,9 +94,15 @@ player-pause-button-aria-label = Sesi duraklat
 player-skip-backward-aria-label = 5 saniye geri atla
 # Skip forward button accessibility/aria label
 player-skip-forward-aria-label = 5 saniye ileri atla
+# Audio playback progress slider accessibility/aria label
+player-progress-slider-aria-label = Ses oynatma ilerleme kaydırıcısı
 # Slower playback speed button accessibility/aria label
 player-speed-slow-aria-label = Daha yavaş oynatma hızı
 # Normal playback speed button accessibility/aria label
 player-speed-normal-aria-label = Normal oynatma hızı
 # Faster playback speed button accessibility/aria label
 player-speed-fast-aria-label = Daha hızlı oynatma hızı
+# Auto transcription mode button accessibility/aria label
+transcription-mode-auto-aria-label = Kelime kelime otomatik oynatmayı aç/kapat
+# Mode menu button accessibility/aria label
+transcription-mode-menu-aria-label = Çeviri metin modunu aç/kapat

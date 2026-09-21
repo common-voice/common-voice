@@ -225,6 +225,7 @@ code-switching-adding-question-criteria-3 = Әдәпсез яки рәнҗетк
 code-switching-adding-question-note = Сез шулай ук төрле контекстлар һәм өлкәләрне үз эченә алу турында уйлый аласыз.
 # What types of questions to add
 code-switching-types-subheader = Нинди төрдәге сорауларны кертергә?
+code-switching-use-bilingual-prompts-header = Ике телдәге сорауларны кулланыгыз
 code-switching-use-bilingual-prompts-explanation-example = "Что тебе сказала мама, шул көнне өйгә кайткач?"
 code-switching-ask-bilingual-contexts-header = Билингваль контекстлар турында сорарга
 code-switching-ask-bilingual-contexts-explanation = Гадәттә, ике тел дә кулланыла торган ситуацияләрне тасвирлагыз (мәсәлән, өйдә, мәктәптә, җәмгыять чараларында). Мәсәлән:
@@ -279,11 +280,14 @@ code-switching-authentic-full-context = <bold>Тулы һәм контекстл
 # Don’t Overthink or Overedit
 code-switching-answer-dont-subheader = Артык уйлап тормагыз һәм үзгәртүләр белән мавыкмагыз
 code-switching-answer-dont-correct-language = <bold>Телегезне «төзәтергә».</bold> Бу тест түгел. Форма «дөреслегенең» бернинди дә әһәмияте юк. Телнең табигый булуы — шунысы гына мөһим.
+code-switching-answer-dont-formal-writing = <bold>Рәсми рәвештә язган кебек сөйләшегез.</bold> Рәсми, мәктәптәге кебек җаваплар бирүдән сакланыгыз. Сөйләүгә яраклы стилен саклагыз.
+code-switching-answer-dont-translate-repeat = <bold>Барысын да тәрҗемә итегез яки кабатлагыз.</bold> Аны сөйләшүдә ничек булса, шулай бер генә тапкыр әйтегез. Җавапны һәр телдә әйтергә кирәкми.
 # Transcribing
 code-switching-transcribe-subheader = Текстка күчерү
 code-switching-transcribe-do-1 = Сизелмәслек күчүләрне табу өчен кыска кисәкләрне берничә тапкыр уйнатыгыз
 # Capture Speech Exactly as Spoken
 code-switching-capture-header = Сөйләмне нәкъ ишетелгәнчә туплагыз
+code-switching-filler-explanation = «Эээ», «ягъни», «шул», «беләсең бит» һәм «инде» кебек сүзләрнең үз мәгънәсе бар. Мисал өчен: «Шулай итеп, эээ, мин аңа, ягъни: 'шул, белмим инде, бәлки соңрактыр', дидем».
 # Use standard spelling for each language
 code-switching-spelling-header = Һәр тел өчен стандартлы орфографияне кулланыгыз
 code-switching-spelling-explanation = Кулланылган һәр тел өчен сүзләрне дөрес язарга тырышыгыз. Әлбәттә, сөйләүче аларны махсус итеп стандартлы булмаган итеп укымаса.

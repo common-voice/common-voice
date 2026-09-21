@@ -50,6 +50,7 @@ accept-privacy-and-terms = ვეთანხმები Common Voice-ის <t
 # Locales-Variants
 ms-MY = ბაჰასა-მალაური
 el-CY = კვიპროსული ბერძნული
+pt-BR = ბრაზილიის პორტუგალიური
 
 ## Language search component
 

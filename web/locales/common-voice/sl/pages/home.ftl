@@ -88,7 +88,6 @@ review-transcriptions = Preglejte prepise
 add-questions = Dodajte vprašanja
 press-and-stories = Novice in zgodbe
 community-and-languages = Skupnost in jeziki
-coming-soon = Kmalu na voljo
 about-us = O nas
 scripted-speech = PISANI GOVOR
 spontaneous-speech = SPONTANI GOVOR

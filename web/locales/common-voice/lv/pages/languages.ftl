@@ -23,7 +23,7 @@ get-involved-title = Sniedz ieguldījumu { $lang } valodā
 get-involved-text =
     Paldies par jūsu interesi piedalīties { $lang } valodā. Mēs cītīgi strādājam, lai ikviena valoda būtu gatava startam un regulāri
     informējam komandas ar e-pasta palīdzību. Ja vēlaties piedalīties, lūdzu, norādiet savu e-pasta adresi zemāk.
-get-involved-form-title = Pierakstieties uz { $lang } valodas jaunumiem:
+get-involved-form-title = Pieraksties { $lang } valodas jaunumiem:
 get-involved-email =
     .label = E-pasts
 get-involved-opt-in = Jā, sūtiet man e-pastus. Es vēlētos būt informēts par šīs valodas progresu projektā Common Voice.

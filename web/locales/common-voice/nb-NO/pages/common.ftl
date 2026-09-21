@@ -198,6 +198,7 @@ kpv = Komi-syriansk
 krc = Karatsjajbalkarsk
 ks = Kasjmiri
 ksf = Bafia
+kum = Kumyk
 kvx = Parkari Koli
 kw = Cornisk
 kxp = Wadiyara Koli

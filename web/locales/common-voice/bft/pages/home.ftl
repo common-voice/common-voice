@@ -79,7 +79,6 @@ add-questions = سوال کن ہرژوق، سوال کن شیزدے بیوس
 transcribe-audio = سکت کن ربیس (شوخمو اونگین یود)
 press-and-stories = تم خلونگ کن نا زدرونگ کن
 community-and-languages = کمیونٹی نا سکت کن
-coming-soon = شوخمو اونگین یود
 
 ## MENU ITEMS TOOLTIPS
 

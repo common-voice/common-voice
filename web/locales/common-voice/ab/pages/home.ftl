@@ -81,7 +81,6 @@ review-questions = Азҵаарақәа арецензиа рзура
 transcribe-audio = Аудио атранскрипциа азыжәу <small>(Лассы)</small>
 press-and-stories = Апрессеи аҭоурыхқәеи
 community-and-languages = Аилазаареи абызшәақәеи
-coming-soon = Лассы
 about-us = Ҳара иҳазкны
 scripted-speech = ЗАА ИХИОУ АЖӘАҲӘА
 spontaneous-speech = АСПОНТАНТӘ ЖӘАҲӘА

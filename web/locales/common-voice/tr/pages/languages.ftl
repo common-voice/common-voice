@@ -6,6 +6,7 @@ language-section-launched = Yayımlandı
 language-section-launched-description = Bu başlatılan diller için web sitesi başarıyla <localizationGlossaryLink>yerelleştirilmiştir</localizationGlossaryLink> ve devam eden <speakLink>Konuşma</speakLink> ve <listenLink>Dinleme</listenLink> katkılarına izin vermek için yeterli sayıda <sentenceCollectionGlossaryLink>cümle toplanmıştır</sentenceCollectionGlossaryLink>.
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
 language-section-last-updated = Son güncelleme: { $lastUpdatedTimeStamp }
+language-communities = Topluluk kanallarınızı <communitiesLink>GitHub’daki COMMUNITIES.md belgesine</communitiesLink> eklemeyi düşünün.
 languages-show-more = Daha fazlasını göster
 languages-show-less = Daha az göster
 language-meter-in-progress = İlerleme

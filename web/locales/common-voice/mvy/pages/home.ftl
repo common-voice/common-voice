@@ -79,7 +79,6 @@ add-questions = سوالہ ٹل کرہ<small>(ہن٘گس ایں یاں تھو)</
 transcribe-audio = بنژیل اواز لِکہ<small>(ہن٘گس ایں یاں تھو)</small>
 press-and-stories = اخبار تے خبری
 community-and-languages = خلکہ تے ژِبہۡ
-coming-soon = ہن٘گس اېن٘یۡیاں تُھو
 
 ## MENU ITEMS TOOLTIPS
 

@@ -6,6 +6,7 @@ language-section-launched = ئېلان قىلىندى
 language-section-launched-description = ئېلان قىلىنغان تىللارنىڭ تور بىتى مۇۋەپپەقىيەتلىك ھالدا <localizationGlossaryLink> يەرلىكلەشتۈرۈلگەن </localizationGlossaryLink>، شۇنداقلا يېتەرلىك  <sentenceCollectionGlossaryLink>توپلانغان جۈملىلىرى</sentenceCollectionGlossaryLink> بولسا <speakLink>سۆزلەپ</speakLink> ۋە <listenLink>ئاڭلاپ</listenLink> تۆھپە قوشۇش باسقۇچىغا ئىلگىرىلىيەلەيدۇ.
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
 language-section-last-updated = ئاخىرقى يېڭىلانغان ۋاقتى: { $lastUpdatedTimeStamp }
+language-communities = جامائىتىڭىزنىڭ قانىلىنى <communitiesLink>GitHub دىكى COMMUNITIES.md پۈتۈك</communitiesLink> كە قوشۇشنى ئويلىشىڭ.
 languages-show-more = تەپسىلاتى
 languages-show-less = ئاز كۆرسەت
 language-meter-in-progress = ئىلگىرىلەش

@@ -69,7 +69,6 @@ review-questions = Ulas Patarosan
 transcribe-audio = Transkrip Audio
 press-and-stories = Pers sareng Carita
 community-and-languages = Komunitas sareng Basa
-coming-soon = Bade Sumping
 about-us = Tentang Kami
 scripted-speech = BIANTARA NASKAH
 spontaneous-speech = BIANTARA SPONTAN

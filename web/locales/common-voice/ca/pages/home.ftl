@@ -81,7 +81,6 @@ review-questions = Reviseu les preguntes
 transcribe-audio = Transcriviu àudio
 press-and-stories = Premsa i articles
 community-and-languages = Comunitat i llengües
-coming-soon = Pròximament
 about-us = Quant a Mozilla
 scripted-speech = PARLA GUIONADA
 spontaneous-speech = PARLA ESPONTÀNIA

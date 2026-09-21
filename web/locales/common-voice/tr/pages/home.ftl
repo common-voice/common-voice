@@ -84,7 +84,6 @@ review-questions = Soruları incele
 transcribe-audio = Ses kayıtlarını metne çevir
 press-and-stories = Basın ve Haberler
 community-and-languages = Topluluk ve Diller
-coming-soon = Çok yakında
 about-us = Hakkımızda
 scripted-speech = YAZILARI SESLENDİRME
 spontaneous-speech = DOĞAÇLAMA KONUŞMA
@@ -162,6 +161,8 @@ download-press-pack = Basın paketimizi indirin <icon></icon>
 
 ## Developers section
 
+developers-section-title-202608 = 330’dan fazla dilde kamuya açık konuşma veri kümeleri
+developers-section-subtitle-v2 = Topluluk katılımıyla oluşturulan ASR ve diğer NLP bağlamlarına ait veri kümeleri.
 # icon is an arrow that points to the right
 explore-datasets = Veri kümelerini keşfedin <icon></icon>
 

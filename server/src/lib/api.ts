@@ -1210,17 +1210,17 @@ export default class API {
   getPublicUrl = async (request: Request, response: Response) => {
     const path = request.params.path
 
-    // Check for datasets-old feature flag
+    // Check for feature flag
     const { feature } = request.query
     const features_cookie = request.cookies[FEATURES_COOKIE]
     const features = features_cookie?.split(',') || []
 
     const hasFeature =
-      features.includes('datasets-old') ||
+      features.includes('datasets-202608') ||
       (feature &&
         (Array.isArray(feature)
-          ? (feature as string[]).includes('datasets-old')
-          : feature === 'datasets-old'))
+          ? (feature as string[]).includes('datasets-202608')
+          : feature === 'datasets-202608'))
 
     if (!hasFeature) {
       // Check if request is from a web browser (has Accept header with text/html)

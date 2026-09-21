@@ -5,6 +5,7 @@ report-modal-subtitle = Bu içerikle ilgili ne tür sorun yaşıyorsunuz?
 offensive_speech = Saldırgan İçerik
 offensive_speech-detail = İçerik saygısız ya da saldırgan dil kullanıyor.
 empty_or_unintelligible = Boş veya anlaşılmıyor
+empty_or_unintelligible-detail = İçerik boş, bozuk, farklı bir dilde vb.
 personally_identifiable_information = Kişiyi Belirleyebilecek İçerik
 personally_identifiable_information-detail = Bu içerikte ad, e-posta adresi, adres, kimlik numarası, telefon numarası gibi kişiyi tanımlayabilecek özel bilgiler var.
 personally_identifiable_information-answer-detail = Bu içerik ad, e-posta adresi, adres, kimlik numarası, telefon numarası gibi kişiyi tanımlayabilecek özel bilgiler talep ediyor.

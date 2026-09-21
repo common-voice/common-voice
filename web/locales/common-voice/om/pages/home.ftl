@@ -90,7 +90,6 @@ review-questions = Gaaffilee Gamaaggamaa
 transcribe-audio = Sagalee Barruutti Jijjiiri
 press-and-stories = Pireesii fi Seenaa
 community-and-languages = Hawaasaa fi Afaanota
-coming-soon = Yeroo Dhiyootti
 about-us = Waa'ee keenya
 scripted-speech = DUBBii BARREEFFAMAA
 spontaneous-speech = HAASAA UUMAMAA (UTUU HIN QOPHAA’IN)

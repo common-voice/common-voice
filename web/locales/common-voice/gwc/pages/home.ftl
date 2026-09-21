@@ -79,7 +79,6 @@ add-questions = سواٞل مِلاٞ <small> (سواٞل شردہ اخکارہ 
 transcribe-audio = آڈیو چُنڑیل کٞہ گِراٞ
 press-and-stories = چاپ تے قصاٞ
 community-and-languages = کمیونٹی تے جِب
-coming-soon = شاٞردہ ینت
 
 ## MENU ITEMS TOOLTIPS
 

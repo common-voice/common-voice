@@ -84,7 +84,6 @@ review-questions = Прегледајте питања
 transcribe-audio = Транскрибујте звук
 press-and-stories = Штампа и приче
 community-and-languages = Заједница и језици
-coming-soon = Ускоро
 about-us = О нама
 scripted-speech = ПРИПРЕМЉЕНИ ГОВОР
 spontaneous-speech = СПОНТАНИ ГОВОР
