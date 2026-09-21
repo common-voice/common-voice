@@ -21,6 +21,7 @@ az = Azeirbaidžanu
 ba = Baškiru
 bag = Tuki
 bas = Basaa
+bax = Bamun
 be = Boltkrīvu
 bg = Bulgaru
 bin = Edo

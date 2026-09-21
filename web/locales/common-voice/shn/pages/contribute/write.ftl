@@ -60,6 +60,10 @@ media_entertainment = ၵၢၼ်သိုဝ်ႇၶၢဝ်ႇ လႄႈလ
 nature_environment = သၽႃႇဝ လႄႈ သိင်ႇဝႅတ်ႉလွမ်ႉ
 # Sentence Domain dropdown option
 news_current_affairs = ၶၢဝ်ႇငၢဝ်း လႄႈ လွင်ႈတၢင်းမိူဝ်ႈလဵဝ်
+# Sentence Domain dropdown option
+technology_robotics = ပၢႆးၸၢင်ႊ လႄႈ ပၢႆးႁၢင်ႈၸၢၵ်ႈ
+sentence-variant-select-label = ၶေႃႈၵႂၢမ်းဢၼ်လႅၵ်ႈလၢႆႈ
+sentence-variant-select-placeholder = လိူၵ်ႈဢဝ် ၶေႃႈၵႂၢမ်းဢၼ်လႅၵ်ႈလၢႆႈ (ဢမ်ႇလိူၵ်ႈၵေႃႈလႆႈ)
 
 ## BULK SUBMISSION
 
