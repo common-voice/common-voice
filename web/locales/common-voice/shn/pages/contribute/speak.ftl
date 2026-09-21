@@ -27,6 +27,7 @@ record-three-more-instruction = လိူဝ်ထႅင်ႈ 3 ၶေႃႈၵ
 record-again-instruction = ၶႅမ်ႉတေႉၶႃႈ! <recordIcon></recordIcon> ဢတ်းသဵင်တွၼ်ႈၼႃႈၶွင်ၸဝ်ႈၵဝ်ႇထႅင်ႈ
 record-again-instruction2 = သိုပ်ႇႁဵတ်းၵႂႃႇ၊ ၸၢမ်းဢတ်းထႅင်ႈၵမ်းၼိုင်ႈၶႃႈ။<recordIcon></recordIcon>
 record-last-instruction = <recordIcon></recordIcon> ဢၼ်လိုၼ်းသုတ်း!
+review-tooltip = ၵူတ်ႇထတ်းၶိုၼ်း လႄႈၶိုၼ်းဢတ်းသဵင်မႂ်ႇတီႈၼႆႈၵႂႃႇၸွမ်းလႆႈၵမ်းလဵဝ်ၶႃႈ။
 terms-agree = ႁၼ်လီၸွမ်း
 terms-disagree = ဢမ်ႇႁၼ်လီၸွမ်း
 why-donate = ယွၼ်ႉသင်လႄႈသူၸဝ်ႈထၢမ်?
