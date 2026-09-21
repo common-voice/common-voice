@@ -49,6 +49,8 @@ not-found-page-content = ၼႃႈလိၵ်ႈဢၼ်ၸဝ်ႈၵဝ်�
 accept-privacy-and-terms = ၵဝ်ၶႃႈ ၽွမ်ႉၸႂ်ၸွမ်း <termsLink>ၶေႃႈမၢႆမီႈ </termsLink>လႄႈ <privacyLink>ၶေႃႈၸီႉသင်ႇလွင်ႈပဵၼ်သုၼ်ႇတူဝ်</privacyLink>ၶွင် Common Voice ၶႃႈ။
 # Locales-Variants
 ms-MY = ၿႃႇႁႃႇသႃႇမလေး
+el-CY = သိပ်ႇပရီဢဵတ်ႉ ၵရိတ်ႉ
+pt-BR = ပရႃႇသီးလီးယႅၼ်း ပေႃႇတူႇၵီႇ
 
 ## Language search component
 
