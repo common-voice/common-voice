@@ -31,6 +31,7 @@ bn = Bengaļu
 bnn = Bunun
 bo = Tibetīšu
 br = Bretoņu
+brx = Bodo
 bs = Bosnīšu
 bsh = Kateviri
 bsk = Brushaski

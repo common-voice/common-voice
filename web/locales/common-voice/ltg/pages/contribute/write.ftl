@@ -72,6 +72,7 @@ sentence-variant-select-multiple-variants = Vyspuoreiga volūda / vairuoki varia
 sc-bulk-upload-header = Augšynluodejit <icon></icon> publiskuo eipašuma teikumus
 sc-bulk-upload-instruction = Īveļcit sovu datni ite voi <uploadButton>klykstynojit, lai izalaseitu</uploadButton>
 sc-bulk-upload-instruction-drop = Lai augšynluodātu failu, īlicit tū ite
+bulk-upload-additional-information = Ka gribit dūt papyldinformaceju par itū datni, lyudzu, sasazynojit ar <emailFragment>commonvoice@mozilla.com</emailFragment>.
 try-upload-again = Raugit vēļreiz īviļkt datni, kū gribit augšynluodēt
 try-upload-again-md = Raugit augšynluodēt vēļreiz
 select-file = Izalosi failu

@@ -64,9 +64,14 @@ news_current_affairs = ၶၢဝ်ႇငၢဝ်း လႄႈ လွင်ႈ�
 technology_robotics = ပၢႆးၸၢင်ႊ လႄႈ ပၢႆးႁၢင်ႈၸၢၵ်ႈ
 sentence-variant-select-label = ၶေႃႈၵႂၢမ်းဢၼ်လႅၵ်ႈလၢႆႈ
 sentence-variant-select-placeholder = လိူၵ်ႈဢဝ် ၶေႃႈၵႂၢမ်းဢၼ်လႅၵ်ႈလၢႆႈ (ဢမ်ႇလိူၵ်ႈၵေႃႈလႆႈ)
+sentence-variant-select-multiple-variants = ၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈၵူႈလွင်ႈလွင်ႈ / လၢႆၸိူဝ်ႉလၢႆပိူင်
 
 ## BULK SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = သူင်ႇၶိုၼ်ႈ<icon></icon> ၶေႃႈၵႂၢမ်းသုၼ်ႇၵူၼ်းတင်းၼမ်
+sc-bulk-upload-instruction = လၢၵ်ႈၾၢႆႇလ်ၸဝ်ႈၵဝ်ႇမႃးသႂ်ႇတီႈၼႆႈ ဢမ်ႇၼၼ်  <uploadButton>ၼဵၵ်းတႃႇသူင်ႇၶိုၼ်ႈ</uploadButton>
+sc-bulk-upload-instruction-drop = ဝၢင်းၾၢႆႇလ်တီႈၼႆႈ တႃႇသူင်ႇၶိုၼ်ႈ
 select-file = လိူၵ်ႈၾၢႆႇ
 file-too-large = ၾၢႆႇၼႆႉယႂ်ႇႁႅင်းၼႃႇ
 file-too-small = ၾၢႆႇၼႆႉလဵၵ်ႉႁႅင်းၼႃႇ
