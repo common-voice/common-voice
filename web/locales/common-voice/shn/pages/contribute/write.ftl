@@ -45,9 +45,15 @@ automotive_transport = ၵၢၼ်လူတ်ႉၵႃး လႄႈ ၵၢၼ�
 # Sentence Domain dropdown option
 finance = ၵၢၼ်ငိုၼ်းတွင်း
 # Sentence Domain dropdown option
+service_retail = ၵၢၼ်ႁၢပ်ႇသၢင်ႈလႄႈၵၢၼ်ၶၢႆယွႆႈ
+# Sentence Domain dropdown option
+general = ၵူႈလွင်ႈလွင်ႈ
+# Sentence Domain dropdown option
 healthcare = ၵၢၼ်လုမ်းလႃးပၢႆးယူႇလီ
 # Sentence Domain dropdown option
 history_law_government = ပိုၼ်း၊ မၢႆမီႈ လႄႈၵၢၼ်ၽွင်းငမ်း
+# Sentence Domain dropdown option
+language_fundamentals = ပိုၼ်ႉထၢၼ်ၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈ (မိူၼ်ၼင်ႇ တူဝ်ၼပ်ႉ၊ တူဝ်လိၵ်ႈ၊ ငိုၼ်းတွင်း)
 # Sentence Domain dropdown option
 nature_environment = သၽႃႇဝ လႄႈ သိင်ႇဝႅတ်ႉလွမ်ႉ
 
