@@ -44,6 +44,7 @@ tag = ထႅၵ်ႉ
 ## Not Found Page
 
 not-found-page-header = ဢမ်ႇႁၼ်ၶေႃႈမုၼ်းသင်
+not-found-page-content = ၼႃႈလိၵ်ႈဢၼ်ၸဝ်ႈၵဝ်ႇႁႃၼၼ်ႉဢမ်ႇႁၼ်
 
 ## Language search component
 
