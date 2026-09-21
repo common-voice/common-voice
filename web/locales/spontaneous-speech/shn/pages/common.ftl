@@ -23,6 +23,8 @@ report-button = လၢႆးငၢၼ်း
 skip-button = ၶၢမ်ႈ
 submit-button = သူင်ႇ
 contribute = ၶဝ်ႈႁူမ်ႈၸွႆႈထႅမ်
+# Button text which appears when there are no more resources
+continue-with-skipped = ၶၢမ်ႈၵႂႃႇသေသိုပ်ႇႁဵတ်းၸွမ်း
 
 ## Navbar
 
