@@ -54,7 +54,15 @@ ms-MY = ၿႃႇႁႃႇသႃႇမလေး
 
 language-search-placeholder = ၶူၼ်ႉႁႃ ၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈ...
 language-search-aria-label = ၶူၼ်ႉႁႃ ၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈ....
+language-search-label = လႅၵ်ႈလၢႆႈ ၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈဢၼ်ၶဝ်ႈႁူမ်ႈၵမ်ႉထႅမ် ၶွင်ၸုမ်ႇၶေႃႈမုၼ်း (Dataset) ၵူၺ်းၶႃႈ။
 language-search-no-results = ဢမ်ႇႁၼ်ၽႃႇသႃႇသင်
+
+## Transcription Player - Mode Buttons
+
+# Transcription Player - Automatic Mode
+transcription-mode-auto = ႁဵတ်းၵၢၼ်ႁင်းၵူၺ်း
+# Player - slower
+player-speed-slow = လွႆးလွႆး
 
 ## Transcription Player Controls - Keyboard Shortcuts
 
