@@ -93,3 +93,5 @@ player-pause-button-aria-label = ၵိုတ်းသဵင်
 player-skip-backward-aria-label = ႁူၼ်ၶၢမ်ႈၶိုၼ်းလင် 5 သႅၵ်ႉၵၢၼ်ႉ
 # Skip forward button accessibility/aria label
 player-skip-forward-aria-label = ၶၢမ်ႈၵႂႃႇၽၢႆႇၼႃႈ 5 သႅၵ်ႉၵၢၼ်ႉ
+# Audio playback progress slider accessibility/aria label
+player-progress-slider-aria-label = ထႅဝ်လၢၵ်ႈ လွင်ႈၶိုပ်ႈၼႃႈၵၢၼ်လဵၼ်ႈသဵင်
