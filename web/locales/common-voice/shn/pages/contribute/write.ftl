@@ -13,6 +13,7 @@ citation =
 sc-write-submit-confirm = ၶႃႈႁဝ်း ယိုၼ်ယၼ်ဝႃႈၶေႃႈၵႂၢမ်းဢၼ်ၼႆႉ  ပဵၼ်<wikipediaLink>သုၼ်ႇၵူၼ်းတင်းၼမ်</wikipediaLink> လလႄႈ ၶႃႈႁဝ်းမီးသုၼ်ႇသူင်ႇၶိုၼ်ႈလႆႈယူႇၶႃႈ။
 sc-review-write-title = ၶေႃႈၵႂၢမ်းၸိူင်ႉႁိုဝ်ဢၼ်တေၸၢင်ႈသႂ်ႇလႆႈ?
 sc-review-small-batch-title = လၢႆးထႅမ်သႂ်ႇၶေႃႈၵႂၢမ်းလၢႆလၢႆၶေႃႈၵမ်းလဵဝ်
+new-sentence-rule-1 = <noCopyright>ဢမ်ႇမီး</noCopyright> ၶေႃႈၵႅတ်ႇၵင်ႈ (<cc0>cc-0</cc0>) သုၼ်ႇၸဝ်ႈၶွင်
 contact-us = ၵပ်းသိုပ်ႉႁဝ်းၶႃႈ
 # Sentence Domain dropdown option
 healthcare = ၵၢၼ်လုမ်းလႃးပၢႆးယူႇလီ
