@@ -15,6 +15,9 @@ sc-review-write-title = ၶေႃႈၵႂၢမ်းၸိူင်ႉႁိ�
 sc-review-small-batch-title = လၢႆးထႅမ်သႂ်ႇၶေႃႈၵႂၢမ်းလၢႆလၢႆၶေႃႈၵမ်းလဵဝ်
 new-sentence-rule-1 = <noCopyright>ဢမ်ႇမီး</noCopyright> ၶေႃႈၵႅတ်ႇၵင်ႈ (<cc0>cc-0</cc0>) သုၼ်ႇၸဝ်ႈၶွင်
 new-sentence-rule-2 = ဢမ်ႇပၼ်လိူဝ် 15 ၶေႃႈ တေႃႇၼိုင်ႈတူၼ်ႈထႅဝ်
+new-sentence-rule-3 = ၸႂ်ႉတိုဝ်းႁႂ်ႈထုၵ်ႇမႅၼ်ႈၸွမ်း ပိူင်လိၵ်ႈတႆး
+new-sentence-rule-4 = ၵပ်းလေႃးတူဝ်လိၵ်ႈ လႄႈ ၸႂ်ႉမၢႆတွၼ်ႈလိၵ်ႈ ႁႂ်ႈထုၵ်ႇမႅၼ်ႈ။
+new-sentence-rule-5 = ဢမ်ႇႁႂ်ႈမီးတူဝ်ၼပ်ႉ လႄႈ ၶိူင်ႈမၢႆၶိုၵ်ႉတွၼ်း
 contact-us = ၵပ်းသိုပ်ႉႁဝ်းၶႃႈ
 # Sentence Domain dropdown option
 healthcare = ၵၢၼ်လုမ်းလႃးပၢႆးယူႇလီ
