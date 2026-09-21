@@ -77,6 +77,10 @@ player-play-pause-shortcut-name = လဵၼ်ႈ / ၵိုတ်း
 # Player control shortcut to go back 5 seconds: pressed with Ctrl/Cmd
 player-skip-backward-shortcut = 8
 player-skip-backward-shortcut-key = Ctrl / Cmd + 8
+player-skip-backward-shortcut-name = ႁူၼ်ၽၢႆႇလင်ၶိုၼ်း
+# Player control shortcut to go forwards 5 seconds: pressed with Ctrl/Cmd
+player-skip-forward-shortcut = 9
+player-skip-forward-shortcut-key = Ctrl / Cmd + 9
 player-skip-forward-shortcut-name = ၵႂႃႇတၢင်းၼႃႈ
 
 ## Transcription Player - Aria Labels
@@ -85,3 +89,7 @@ player-skip-forward-shortcut-name = ၵႂႃႇတၢင်းၼႃႈ
 player-play-button-aria-label = လဵၼ်ႈသဵင်
 # Pause button accessibility/aria label
 player-pause-button-aria-label = ၵိုတ်းသဵင်
+# Skip back button accessibility/aria label
+player-skip-backward-aria-label = ႁူၼ်ၶၢမ်ႈၶိုၼ်းလင် 5 သႅၵ်ႉၵၢၼ်ႉ
+# Skip forward button accessibility/aria label
+player-skip-forward-aria-label = ၶၢမ်ႈၵႂႃႇၽၢႆႇၼႃႈ 5 သႅၵ်ႉၵၢၼ်ႉ
