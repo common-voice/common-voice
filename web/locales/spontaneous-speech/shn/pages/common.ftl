@@ -45,9 +45,15 @@ tag = ထႅၵ်ႉ
 
 not-found-page-header = ဢမ်ႇႁၼ်ၶေႃႈမုၼ်းသင်
 not-found-page-content = ၼႃႈလိၵ်ႈဢၼ်ၸဝ်ႈၵဝ်ႇႁႃၼၼ်ႉဢမ်ႇႁၼ်
+# Privacy and Terms checkbox
+accept-privacy-and-terms = ၵဝ်ၶႃႈ ၽွမ်ႉၸႂ်ၸွမ်း <termsLink>ၶေႃႈမၢႆမီႈ </termsLink>လႄႈ <privacyLink>ၶေႃႈၸီႉသင်ႇလွင်ႈပဵၼ်သုၼ်ႇတူဝ်</privacyLink>ၶွင် Common Voice ၶႃႈ။
+# Locales-Variants
+ms-MY = ၿႃႇႁႃႇသႃႇမလေး
 
 ## Language search component
 
+language-search-placeholder = ၶူၼ်ႉႁႃ ၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈ...
+language-search-aria-label = ၶူၼ်ႉႁႃ ၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈ....
 language-search-no-results = ဢမ်ႇႁၼ်ၽႃႇသႃႇသင်
 
 ## Transcription Player Controls - Keyboard Shortcuts
