@@ -10,6 +10,8 @@ small-batch-sentence-input-placeholder = သႂ်ႇပၼ် ၶေႃႈၵ�
 citation-input-placeholder = လူဝ်ႇလႆႈဢၢင်ႈဢိင်ငဝ်ႈႁၢၵ်ႈၶေႃႈၵႂၢမ်းၸဝ်ႈၵဝ်ႇ (လူဝ်ႇ)
 citation =
     .label = ဢၢင်ႈဢိင်
+sc-write-submit-confirm = ၶႃႈႁဝ်း ယိုၼ်ယၼ်ဝႃႈၶေႃႈၵႂၢမ်းဢၼ်ၼႆႉ  ပဵၼ်<wikipediaLink>သုၼ်ႇၵူၼ်းတင်းၼမ်</wikipediaLink> လလႄႈ ၶႃႈႁဝ်းမီးသုၼ်ႇသူင်ႇၶိုၼ်ႈလႆႈယူႇၶႃႈ။
+sc-review-write-title = ၶေႃႈၵႂၢမ်းၸိူင်ႉႁိုဝ်ဢၼ်တေၸၢင်ႈသႂ်ႇလႆႈ?
 contact-us = ၵပ်းသိုပ်ႉႁဝ်းၶႃႈ
 # Sentence Domain dropdown option
 healthcare = ၵၢၼ်လုမ်းလႃးပၢႆးယူႇလီ
