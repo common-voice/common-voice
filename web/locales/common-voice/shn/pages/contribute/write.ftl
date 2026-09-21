@@ -19,6 +19,9 @@ new-sentence-rule-3 = ၸႂ်ႉတိုဝ်းႁႂ်ႈထုၵ်ႇ�
 new-sentence-rule-4 = ၵပ်းလေႃးတူဝ်လိၵ်ႈ လႄႈ ၸႂ်ႉမၢႆတွၼ်ႈလိၵ်ႈ ႁႂ်ႈထုၵ်ႇမႅၼ်ႈ။
 new-sentence-rule-5 = ဢမ်ႇႁႂ်ႈမီးတူဝ်ၼပ်ႉ လႄႈ ၶိူင်ႈမၢႆၶိုၵ်ႉတွၼ်း
 new-sentence-rule-6 = ဢမ်ႇႁႂ်ႈမီးတူဝ်လိၵ်ႈတၢင်ႇၽႃႇသႃႇလေႃး
+new-sentence-rule-7 = သႂ်ႇပႃးလွင်ႈဢၢင်ႈဢိင် ဢၼ်ထုၵ်ႇမႅၼ်ႈ
+new-sentence-rule-8 = ထုၵ်ႇလီပဵၼ်ၵႂၢမ်းလၢတ်ႈဢၼ်ပဵၼ်သၽႃႇဝ (ႁႂ်ႈဢၢၼ်ႇၶေႃႈၵႂၢမ်းလႆႈငၢႆႈၶႃႈ)
+login-instruction-multiple-sentences = <loginLink>လွၵ်ႉၶဝ်ႈ</loginLink> ဢမ်ႇၼၼ် <loginLink>လူင်းသၢႆမၢႆ</loginLink> တႃႇထႅမ်သႂ်ႇၶေႃႈၵႂၢမ်းလၢႆလၢႆၶေႃႈၵမ်းလဵဝ်
 contact-us = ၵပ်းသိုပ်ႉႁဝ်းၶႃႈ
 # Sentence Domain dropdown option
 healthcare = ၵၢၼ်လုမ်းလႃးပၢႆးယူႇလီ
