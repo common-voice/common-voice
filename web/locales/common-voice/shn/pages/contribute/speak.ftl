@@ -21,6 +21,9 @@ record-error-uploaded-clip-corrupted =
     • သၢႆၼႅတ်ႉၶၢတ်ႇ ၽွင်းတိုၵ်ႉဢတ်းသဵင်ယူႇႉ
     ၶႅၼ်းတေႃႈ ၸၢမ်းဢတ်းတူၺ်းထႅင်ႈၵမ်းၼိုင်ႈၶႃႈ။
 record-cancel = ပၢႆႇပႅတ်ႈ ဢတ်းသဵင်မႂ်ႇ
+record-instruction = { $actionType }<recordIcon></recordIcon> ယဝ်ႉၵေႃႈ ဢၢၼ်ႇဢွၵ်ႇသဵင်ၶေႃႈၵႂၢမ်းႁႂ်ႈလင်လင်
+record-stop-instruction = { $actionType }<stopIcon></stopIcon> မိူဝ်ႈယဝ်ႉတူဝ်ႈယဝ်ႉ
+record-three-more-instruction = လိူဝ်ထႅင်ႈ 3 ၶေႃႈၵူၺ်းၶႃႈ
 terms-agree = ႁၼ်လီၸွမ်း
 terms-disagree = ဢမ်ႇႁၼ်လီၸွမ်း
 why-donate = ယွၼ်ႉသင်လႄႈသူၸဝ်ႈထၢမ်?
