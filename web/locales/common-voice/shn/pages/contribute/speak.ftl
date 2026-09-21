@@ -79,3 +79,9 @@ read-sentences-coming-soon = လူဢၢၼ်ႇၶေႃႈၵႂၢမ်း
 
 speak-contribute-menu-tooltip = လူဢၢၼ်ႇၶေႃႈၵႂၢမ်း၊ တွပ်ႇၶေႃႈထၢမ်
 read-sentences-menu-item-tooltip = ဢတ်းသဵင်တူဝ်ၵဝ်ႇ ဢၢၼ်ႇၶေႃႈၵႂၢမ်းလူၺ်ႈၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈၸဝ်ႈၵဝ်ႇ။
+answer-questions-menu-item-tooltip = ဢတ်းသဵင်တူဝ်ၵဝ်ႇ တွပ်ႇၶေႃႈထၢမ် လႄႈၶေႃႈတိုၵ်းသူၼ်း ၼႂ်းၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈၸဝ်ႈၵဝ်ႇၶႃႈ။
+
+## MENU ITEM ARIA LABELS
+
+speak-contribute-menu-aria-label = မေႇၼူးတၢင်းလိူၵ်ႈလွင်ႈလၢတ်ႈ
+read-sentences-menu-item-aria-label = လူဢၢၼ်ႇၶေႃႈၵႂၢမ်း ဢၼ်တူင်ႇဝူင်းတၢင်ႇထိုင်မႃး လၢႆလၢႆၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈ
