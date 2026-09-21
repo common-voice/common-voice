@@ -104,4 +104,6 @@ player-speed-normal-aria-label = လဵၼ်ႈတၢင်းဝႆးသဵ�
 # Faster playback speed button accessibility/aria label
 player-speed-fast-aria-label = လဵၼ်ႈတၢင်းဝႆးသဵင်ႁႂ်ႈဝႆးၶိုၼ်ႈ
 # Auto transcription mode button accessibility/aria label
-transcription-mode-auto-aria-label = ၼဵၼ်ပိၼ်ႇပၢႆႇ လွင်ႈလဵၼ်ႈသဵင်ၶေႃႈၵႂၢမ်းႁင်းၵူၺ်း။
+transcription-mode-auto-aria-label = ၼဵၼ်ပၢႆႇ လွင်ႈလဵၼ်ႈသဵင်ၶေႃႈၵႂၢမ်းႁင်းၵူၺ်း။
+# Mode menu button accessibility/aria label
+transcription-mode-menu-aria-label = ၼဵၼ်ပၢႆႇ မေႇၼူးပိူင်ၵၢၼ်ထွတ်ႇလိၵ်ႈ
