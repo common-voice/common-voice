@@ -1,6 +1,7 @@
 ## WRITE PAGE
 
 write = တႅမ်ႈ
+write-instruction = သႂ်ႇ <icon></icon> ၶေႃႈၵႂၢမ်း ဢၼ်ပဵၼ်ၶွင်ၵူၼ်းတင်းၼမ်
 contact-us = ၵပ်းသိုပ်ႉႁဝ်းၶႃႈ
 # Sentence Domain dropdown option
 healthcare = ၵၢၼ်လုမ်းလႃးပၢႆးယူႇလီ
