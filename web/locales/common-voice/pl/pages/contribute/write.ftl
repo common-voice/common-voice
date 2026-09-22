@@ -28,9 +28,39 @@ contact-us = Skontaktuj się z nami
 add-sentence-success = Dodano 1 zdanie
 add-sentence-error = Błąd podczas dodawania zdania
 required-field = Proszę wypełnić to pole.
+sentence-domain-select-placeholder = Wybierz maksymalnie trzy domeny (opcjonalnie)
+# Sentence Domain dropdown option
+agriculture_food = Rolnictwo i żywność
+# Sentence Domain dropdown option
+automotive_transport = Motoryzacja i transport
+# Sentence Domain dropdown option
+finance = Finanse
+# Sentence Domain dropdown option
+service_retail = Usługi i handel detaliczny
+# Sentence Domain dropdown option
+general = Ogólne
+# Sentence Domain dropdown option
+healthcare = Ochrona zdrowia
+# Sentence Domain dropdown option
+history_law_government = Historia, prawo i administracja publiczna
+# Sentence Domain dropdown option
+language_fundamentals = Podstawowe elementy języka (np. cyfry, litery, pieniądze)
+# Sentence Domain dropdown option
+media_entertainment = Media i rozrywka
+# Sentence Domain dropdown option
+nature_environment = Przyroda i środowisko
+# Sentence Domain dropdown option
+news_current_affairs = Wiadomości i bieżące wydarzenia
+# Sentence Domain dropdown option
+technology_robotics = Technologia i robotyka
+sentence-variant-select-label = Wariant zdania
+sentence-variant-select-placeholder = Wybierz wariant (opcjonalnie)
+sentence-variant-select-multiple-variants = Język ogólny / różne warianty
 
 ## BULK SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Prześlij <icon></icon> zdania z domeny publicznej
 sc-bulk-upload-instruction-drop = Przeciągnij plik tutaj, aby go przesłać
 try-upload-again = Spróbuj ponownie, przeciągając plik tutaj
 try-upload-again-md = Spróbuj przesłać ponownie
