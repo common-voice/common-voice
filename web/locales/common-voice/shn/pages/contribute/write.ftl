@@ -128,8 +128,14 @@ rate-limit-message-seconds =
 # $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
 add-small-batch-success =
     { $totalSentences ->
-        [one] ၵဵပ်းႁွမ်ၶေႃႈၵႂၢမ်းလႆႈ { $uploadedSentences } ထႅဝ်
+        [one] ၵဵပ်းႁွမ်ၶေႃႈၵႂၢမ်းလႆႈ { $uploadedSentences } 1ထႅဝ်
        *[other] "ၵဵပ်းႁွမ်ၶေႃႈၵႂၢမ်းလႆႈ { $uploadedSentences } ထႅဝ် ၼႂ်းတီႈတင်းမူတ်း { $totalSentences }ထႅဝ်
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] ၵဵပ်းႁွမ်ၶေႃႈၵႂၢမ်းလႆႈ{ $uploadedSentences } 1 ထႅဝ်၊ ၼဵၵ်း <downloadLink> တီႈၼႆႈ </downloadLink> တႃႇလူတ်းလူင်းၶေႃႈၵႂၢမ်းဢၼ်ထုၵ်ႇပၢႆႇပႅတ်ႈၶႃႈ။
+       *[other] ၵဵပ်းႁွမ်ၶေႃႈၵႂၢမ်း { $uploadedSentences } တီႈ { $totalSentences } ထႅဝ်ယဝ်ႉ၊ ၼဵၵ်း <downloadLink>တီႈၼႆႈ </downloadLink> တႃႇလူတ်းလူင်းၶေႃႈ ၵႂၢမ်းဢၼ်ထုၵ်ႇပၢႆႇပႅတ်ႈၶႃႈ။
     }
 
 ## MENU ITEM ARIA LABELS
