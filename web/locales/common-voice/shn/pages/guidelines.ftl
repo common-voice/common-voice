@@ -1,5 +1,9 @@
 # GUIDELINES PAGE
 guidelines-header = ၶေႃႈၸီႉသင်ႇ ၵၢၼ်ၶဝ်ႈႁူမ်ႈၵမ်ႉထႅမ်⁠
+guidelines-header-subtitle = ႁူႉပွင်ႇလွင်ႈလၢႆးၶဝ်ႈႁူမ်ႈၵမ်ႉထႅမ် လႄႈ ၵၢၼ်ၵူတ်ႇထတ်းမၵ်းမၼ်ႈ ၼႂ်းၸုမ်ႇၶေႃႈမုၼ်း Common Voice
+voice-collection = ၵၢၼ်ၵဵပ်းႁွမ်သဵင်
+sentence-collection = ⁠ၵၢၼ်ၵဵပ်းႁွမ်တူၼ်ႈထႅဝ်ၶေႃႈၵႂၢမ်း
+question-collection = ⁠ၵၢၼ်ၵဵပ်းႁွမ် ၶေႃႈထၢမ်⁠
 dont-subheader = ယႃႇ
 
 ## Voice Collection nav ids
