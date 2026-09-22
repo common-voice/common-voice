@@ -83,4 +83,11 @@ code-switching-dont-header = ယႃႉပေႉႉႉ
 # Reviewing a Question
 code-switching-review-subheader = ထတ်းသၢင်ႈၶိုၼ်း ၶေႃႈထၢမ်
 code-switching-review-does-not-header = လႄႈ <bold>ယႃႇပေ</bold> ႁႂ်ႈပႃး
+# Answering a Question
+code-switching-answer-subheader = ၵၢၼ်တွပ်ႇၶေႃႈထၢမ်
+code-switching-answer-bullet-4 = ဢမ်ႇမီးၶေႃႈတွပ်ႇဢၼ်“တဵမ်ထူၼ်ႈ”
+code-switching-authentic-header = တွပ်ႇႁႂ်ႈပဵၼ်သၽႃႇဝ လႄႈ ႁႂ်ႈၸိုဝ်ႈၸႂ်ႈတေႉ။
+# Don’t Overthink or Overedit
+code-switching-answer-dont-subheader = ယႃႇပေဝူၼ်ႉပူၼ်ႉတီႈ ဢမ်ႇၼၼ် မႄးထတ်းပူၼ်ႉတီႈ။
+code-switching-pronunciation-explanation-example-1 = လၢႆးဢွၵ်ႇသဵင်ဢင်းၵိတ်း /ˈkeɪ.bəl/
 code-switching-not-tag-interjections-example-2 = "ဢမ်ႇ"
