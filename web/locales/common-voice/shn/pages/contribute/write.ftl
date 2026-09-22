@@ -159,4 +159,7 @@ transcribe-audio-menu-item-tooltip = ထွတ်ႇသဵင်ဢတ်း ႁ
 
 write-contribute-menu-aria-label = တႅမ်ႈမေႇၼူး တၢင်းလိူၵ်ႈ
 add-sentences-menu-item-aria-label = ထႅမ်သႂ်ႇၶေႃႈၵႂၢမ်းမႂ်ႇ ႁႂ်ႈတူင်ႇဝူင်းလႆႈလူဢၢၼ်ႇ။
+review-sentences-menu-item-aria-label = ၵူတ်ႇထတ်းၶေႃႈၵႂၢမ်း ဢၼ်တူင်ႇဝူင်းလႆႈသူင်ႇၶဝ်ႈမႃးဝႆႉ
+add-questions-menu-item-aria-label = သူင်ႇၶေႃႈထၢမ်မႂ်ႇ ႁႂ်ႈတူင်ႇဝူင်းၵူၼ်း လႆႈလူဢၢၼ်ႇလႄႈတွပ်ႇ။
+review-questions-menu-item-aria-label = ထတ်းသၢင် လႄႈ ပၼ်ၵၢင်ၸႂ် တႃႇၶေႃႈထၢမ်မႂ်ႇ ဢၼ်တူင်ႇဝူင်းလႆႈသူင်ႇၶဝ်ႈမႃးဝႆႉ။
 transcribe-audio-menu-item-aria-label = ထွတ်ႇသဵင်ဢတ်း ႁႂ်ႈပဵၼ်တူဝ်လိၵ်ႈ
