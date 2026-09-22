@@ -11,7 +11,14 @@ dont-subheader = ယႃႇပေႉႉ
 ## Voice Collection nav ids
 
 varying-pronunciations = လွင်ႈဢွၵ်ႇသဵင်ဢၼ်ပႅၵ်ႇပိူင်ႈ
+misreadings = လွင်ႈလူဢၢၼ်ႇၽိတ်း
 volume = ၸၼ်ႉသဵင်
+just-unsure = ဢမ်ႇမၼ်ႈၸႂ်ၵူၺ်းႁႃႉ?
+example = တူဝ်ယၢင်ႇ
+
+## Voice collection sidebar content
+
+misreadings-example-1 = ႁဝ်းၶႃႈတေဢွၵ်ႇၵႂႃႇၵိၼ်ၵေႃႇၾီႇၶႃႈ။
 
 ## Sentence collection sidebar content
 
