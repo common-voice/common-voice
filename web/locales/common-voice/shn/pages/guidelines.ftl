@@ -48,6 +48,8 @@ answer-questions = ၵၢၼ်တွပ်ႇၶေႃႈထၢမ်
 transcribe-the-audio = ထွတ်ႇသဵင်ဢတ်း ႁႂ်ႈပဵၼ်တူဝ်လိၵ်ႈ
 # text wrapped in correct will be shown as green text in the UI
 transcribe-the-audio-subheader-2-example-1-correct = <correct>ထုၵ်ၢမႅၼ်ႈ</correct> ၵႆၵၼ်တင်းတီႈၼႆႈ ပၢၵ်ႇလၵ်း
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <wrong>ၽိတ်း</wrong>ၵႆၵၼ် 100 လၵ်းတင်းတီႈၼႆ [ၽိတ်းယွၼ်ႉဝႃႈမီးတူဝ်ၼပ်ႉ 100]
 tags-table-header-2 = တီႈပွင်ႇ
 tags-laugh = ၶူဝ်
 tags-unclear = ဢမ်ႇၸႅင်ႈလႅင်း
