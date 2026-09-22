@@ -38,6 +38,8 @@ confirm-no-identify = <b>ၸဝ်ႈၵဝ်ႇ ၽွမ်ႉၸႂ်</b>�
 confirm-join-mailing-list = ၸဝ်ႈၵဝ်ႇ ၶႂ်ႈၶဝ်ႈပႃးၼႂ်း သဵၼ်ႈမၢႆတိတ်းတေႃႇ (Mailing list) ၶွင် Common Voice ႁႃႉ?
 download-language = လူတ်ႇဢဝ်ၶေႃႈမူၼ်း
 validated-hours = ၸူဝ်ႈမူင်းလႆႈထတ်းထုၵ်ႇမႅၼ်ႈယဝ်ႉ
+recorded-hours = ၸူဝ်ႈမူင်းဢတ်းသဵင်
+whats-inside = ၼႂ်းၶေႃႈၸုမ်ႇမုၼ်း Common Voice ၼၼ်ႉ မီးသင်?
 data-download-yes = ၸႂ်ႈ
 data-download-deny = ဢမ်ႇ
 # Support old genders in older datasets
