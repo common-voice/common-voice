@@ -1,8 +1,12 @@
 ## Datasets Page
 
 datasets-heading = ၸုမ်ႇၶေႃႈမုၼ်းတၢင်းမူတ်း
+language = ၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈ
+download-dataset-header = လူတ်ႇဢဝ်ၸုမ်ႇၶေႃႈမုၼ်း
 # File size in gigabytes
-size = တၢင်းယႂ်ႇ
+size = သႅၼ်း
+cv-license = ဝႂ်ၶႂၢင်ႉ
+email-to-download = ၶဝ်ႈဢီးမေးလ် တႃႇလူတ်ႇ
 confirm-size = သူၸဝ်ႈႁၢင်ႈႁႅၼ်းယဝ်ႉတူဝ်ႈတႃႇတေလူတ်ႇလူင်း <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
