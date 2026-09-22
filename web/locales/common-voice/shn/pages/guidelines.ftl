@@ -4,10 +4,13 @@ guidelines-header-subtitle = ႁူႉပွင်ႇလွင်ႈလၢႆး
 voice-collection = ၵၢၼ်ၵဵပ်းႁွမ်သဵင်
 sentence-collection = ⁠ၵၢၼ်ၵဵပ်းႁွမ်တူၼ်ႈထႅဝ်ၶေႃႈၵႂၢမ်း
 question-collection = ⁠ၵၢၼ်ၵဵပ်းႁွမ် ၶေႃႈထၢမ်⁠
-dont-subheader = ယႃႇ
+scripted-speech = ၵၢၼ်လၢတ်ႈၸွမ်းတူဝ်လိၵ်ႈဢၼ်ႁၢင်ႈႁႅၼ်းဝႆႉ
+spontaneous-speech = ၵၢၼ်လၢတ်ႈဢွၵ်ႇမႃးႁင်းၵူၺ်းဢမ်ႇမီးတူဝ်လိၵ်ႈ
+dont-subheader = ယႃႇပေႉႉ
 
 ## Voice Collection nav ids
 
+varying-pronunciations = လွင်ႈဢွၵ်ႇသဵင်ဢၼ်ပႅၵ်ႇပိူင်ႈ
 volume = ၸၼ်ႉသဵင်
 
 ## Sentence collection sidebar content
