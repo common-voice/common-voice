@@ -137,6 +137,8 @@ small-batch-response-message =
         [one] ၵဵပ်းႁွမ်ၶေႃႈၵႂၢမ်းလႆႈ{ $uploadedSentences } 1 ထႅဝ်၊ ၼဵၵ်း <downloadLink> တီႈၼႆႈ </downloadLink> တႃႇလူတ်းလူင်းၶေႃႈၵႂၢမ်းဢၼ်ထုၵ်ႇပၢႆႇပႅတ်ႈၶႃႈ။
        *[other] ၵဵပ်းႁွမ်ၶေႃႈၵႂၢမ်း { $uploadedSentences } တီႈ { $totalSentences } ထႅဝ်ယဝ်ႉ၊ ၼဵၵ်း <downloadLink>တီႈၼႆႈ </downloadLink> တႃႇလူတ်းလူင်းၶေႃႈ ၵႂၢမ်းဢၼ်ထုၵ်ႇပၢႆႇပႅတ်ႈၶႃႈ။
     }
+small-batch-sentences-rule-1 = ႁဵတ်းၸွမ်းၼင်ႇ ၶေႃႈၸီႉသင်ႇ ဢၼ်မီးတီႈႁူဝ်ၶေႃႈ “ၶေႃႈၵႂၢမ်းသင်တေၸၢင်ႈသႂ်ႇလႆႈ?”
+small-batch-sentences-rule-2 = ထႅမ်သႂ်ႇ 1 ၶေႃႈၵႂၢမ်း တေႃႇၼိုင်ႈထႅဝ်"
 
 ## MENU ITEM ARIA LABELS
 
