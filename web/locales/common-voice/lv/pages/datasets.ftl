@@ -45,7 +45,7 @@ dataset-description-hours =
     Katrs datu kopas ieraksts sastāv no unikāla MP3 un atbilstoša teksta faila. Daudzās no <b>{ $total }</b> ierakstu stundām datu kopā ir arī demogrāfiskie metadati, piemēram, vecums, dzimums un akcents, kas var palīdzēt apmācīt runas atpazīšanas dzinēju precizitāti.
     
     Datu kopums pašlaik sastāv no <b>{ $valid }</b> pārbaudītām stundām <b>{ $languages }</b> valodās, bet mēs vienmēr pievienojam vairāk balsu un valodu. Apskatiet mūsu <languagesLink>valodu lapu</languagesLink>, lai pieprasītu valodu vai sāktu sniegt ieguldījumu.
-want-dataset-update = Vēlaties zināt, kad mēs izlaižam jaunu kopējās balss datu kopas versiju? Pierakstieties jaunumiem.
+want-dataset-update = Vēlies uzzināt, kad mēs izlaižan jaunu Common Voice datu kopas versiju? Abonē mūsu biļetenu!
 subscribe = Pierakstīties
 get-started-speech = Darba sākšana ar runas atpazīšanu
 other-datasets = Citas balss datu kopas
