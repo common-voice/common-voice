@@ -36,9 +36,18 @@ adding-questions = ၵၢၼ်ၽိူမ်ႉၶေႃႈထၢမ်
 what-makes-a-good-question-subheader = ဢီႊသင်ႁဵတ်းႁႂ်ႈၶေႃႈထၢမ်ဢၼ်လီ?
 easy-to-understand = ပွင်ႇၸႂ်ငၢႆႈ
 length = တၢင်းယၢဝ်း
+dont-add-subheader = ယႃႇပေသႂ်ႇ
+process-steps = လၢႆးႁဵတ်းလၢႆးသၢင်ႈ / ၶၵ်ႉတွၼ်ႊ
+example-questions-subheader = တူဝ်ယၢင်ႇၶေႃႈထၢမ်
 
 ## Spontaneous Speech sidebar content
 
+# Answer Questions
+answer-questions = ၵၢၼ်တွပ်ႇၶေႃႈထၢမ်
+# Transcribe the Audio
+transcribe-the-audio = ထွတ်ႇသဵင်ဢတ်း ႁႂ်ႈပဵၼ်တူဝ်လိၵ်ႈ
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <correct>ထုၵ်ၢမႅၼ်ႈ</correct> ၵႆၵၼ်တင်းတီႈၼႆႈ ပၢၵ်ႇလၵ်း
 tags-table-header-2 = တီႈပွင်ႇ
 tags-laugh = ၶူဝ်
 tags-unclear = ဢမ်ႇၸႅင်ႈလႅင်း
