@@ -146,6 +146,17 @@ small-batch-sentences-rule-6 = ၶေႃႈၵႂၢမ်းတင်းသဵ�
 # menu item
 add-sentences = ထႅမ်သႂ်ႇၶေႃႈၵႂၢမ်း
 
+## MENU ITEM TOOLTIPS
+
+write-contribute-menu-tooltip = ထႅမ်သႂ်ႇ လႄႈ ၵူတ်ႇထတ်းၶေႃႈၵႂၢမ်း၊ ထႅမ်သႂ်ႇၶေႃႈထၢမ်၊ ထွတ်ႇသဵင်ပဵၼ်တူဝ်လိၵ်ႈ"
+add-sentences-menu-item-tooltip = ထႅမ်သႂ်ႇၶေႃႈၵႂၢမ်း
+review-sentences-menu-item-tooltip = ၶိုၼ်းထတ်းသၢင်ၶေႃႈၵႂၢမ်း
+add-questions-menu-item-tooltip = ထႅမ်သႂ်ႇၶေႃႈထၢမ်
+review-questions-menu-item-tooltip = ၵူတ်ႇထတ်းၶေႃႈသင်ႇ
+transcribe-audio-menu-item-tooltip = ထွတ်ႇသဵင်ဢတ်း ႁႂ်ႈပဵၼ်တူဝ်လိၵ်ႈ
+
 ## MENU ITEM ARIA LABELS
 
+write-contribute-menu-aria-label = တႅမ်ႈမေႇၼူး တၢင်းလိူၵ်ႈ
+add-sentences-menu-item-aria-label = ထႅမ်သႂ်ႇၶေႃႈၵႂၢမ်းမႂ်ႇ ႁႂ်ႈတူင်ႇဝူင်းလႆႈလူဢၢၼ်ႇ။
 transcribe-audio-menu-item-aria-label = ထွတ်ႇသဵင်ဢတ်း ႁႂ်ႈပဵၼ်တူဝ်လိၵ်ႈ
