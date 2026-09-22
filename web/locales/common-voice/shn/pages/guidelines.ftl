@@ -73,4 +73,14 @@ code-switching = ၵၢၼ်လၢတ်ႈလေႃးလၢႆၽႃႇသႃ
 adding-a-question = ၵၢၼ်ၽိူမ်ႉထႅမ်ၶေႃႈထၢမ်
 # Adding a Question
 code-switching-adding-question-subheader = ဢၼ်ႁဵတ်းႁႂ်ႈၶေႃႈထၢမ်လီၼၼ်ႉ ပဵၼ်သင်?
+code-switching-adding-question-criteria-1 = ႁူႉပွင်ႇငၢႆႈလႄႈတွပ်ႇၶိုၼ်းငၢႆႈ
+# What types of questions to add
+code-switching-types-subheader = တေလႆႈထႅမ်ၶေႃႈထၢမ်ၸိူင်ႉႁိုဝ်၊
+# What to Avoid
+code-switching-avoid-subheader = ထုၵ်ႇလီငိူင်ႉဝႄႈသင်?
+code-switching-avoid-intro = ၶေႃႈထၢမ် ဢၼ်ၸၢင်ႈတေ-
+code-switching-dont-header = ယႃႉပေႉႉႉ
+# Reviewing a Question
+code-switching-review-subheader = ထတ်းသၢင်ႈၶိုၼ်း ၶေႃႈထၢမ်
+code-switching-review-does-not-header = လႄႈ <bold>ယႃႇပေ</bold> ႁႂ်ႈပႃး
 code-switching-not-tag-interjections-example-2 = "ဢမ်ႇ"
