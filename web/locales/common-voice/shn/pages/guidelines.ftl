@@ -19,11 +19,23 @@ example = တူဝ်ယၢင်ႇ
 ## Voice collection sidebar content
 
 misreadings-example-1 = ႁဝ်းၶႃႈတေဢွၵ်ႇၵႂႃႇၵိၼ်ၵေႃႇၾီႇၶႃႈ။
+background-voices-tip-1 = ၸဝ်ႈၵဝ်ႇတေမႃးယူႇႁႃႉ?[တၢင်ႇၵေႃႉသိုပ်ႇမႃး]
+still-have-questions = ယင်းတိုၵ်ႉမီးၶေႃႈထၢမ်ယူႇႁႃႇ?
 
 ## Sentence collection sidebar content
 
 adding-sentences-subheader-length = တၢင်းယၢဝ်း
 adding-sentences-subheader-numbers = တူဝ်ၼပ်ႉ
+
+## Question collection ids
+
+adding-questions = ၵၢၼ်ၽိူမ်ႉၶေႃႈထၢမ်
+
+## Question collection sidebar content
+
+what-makes-a-good-question-subheader = ဢီႊသင်ႁဵတ်းႁႂ်ႈၶေႃႈထၢမ်ဢၼ်လီ?
+easy-to-understand = ပွင်ႇၸႂ်ငၢႆႈ
+length = တၢင်းယၢဝ်း
 
 ## Spontaneous Speech sidebar content
 
