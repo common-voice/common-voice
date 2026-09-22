@@ -88,6 +88,7 @@ sc-bulk-submit-confirm = ၶႃႈႁဝ်း ယိုၼ်ယၼ်ဝႃႈ
 bulk-upload-success-toast = သူင်ႇၶိုၼ်ႈၶေႃႈၵႂၢမ်းပဵၼ်ၸုပ်ႈ ယဝ်ႉတူဝ်ႈလီငၢမ်းယဝ်ႉၶႃႈ
 bulk-upload-failed-toast = သူင်ႇၶိုၼ်ႈဢမ်ႇလႆႈၶႃႈ၊ၶႅၼ်းတေႃႈၸၢမ်းထႅင်ႈၵမ်းၼိုင်ႈၶႃႈ။
 bulk-submission-success-header = ဢၼ်မႃးၶဝ်ႈႁူမ်ႈၵမ်ႉထႅမ်သူင်ႇၶေႃႈၵႂၢမ်းပဵၼ်ၸုပ်ႈၶႃႈ!
+bulk-submission-success-subheader = ၸဝ်ႈၵဝ်ႇ တိုၵ်ႉၸွႆႈထႅမ်ပၼ် Common Voice ႁႂ်ႈထိုင်ယိူင်းမၢႆတၢင်းၼမ်ၶေႃႈၵႂၢမ်းၵူႈဝၼ်းဝၼ်းၶႃႈၼႃႈ။
 file-too-large = ၾၢႆႇၼႆႉယႂ်ႇႁႅင်းၼႃႇ
 file-too-small = ၾၢႆႇၼႆႉလဵၵ်ႉႁႅင်းၼႃႇ
 too-many-files = ၾၢႆႇၼမ်ပူၼ်ႉတီႈ
