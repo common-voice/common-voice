@@ -89,9 +89,16 @@ bulk-upload-success-toast = သူင်ႇၶိုၼ်ႈၶေႃႈၵႂ�
 bulk-upload-failed-toast = သူင်ႇၶိုၼ်ႈဢမ်ႇလႆႈၶႃႈ၊ၶႅၼ်းတေႃႈၸၢမ်းထႅင်ႈၵမ်းၼိုင်ႈၶႃႈ။
 bulk-submission-success-header = ဢၼ်မႃးၶဝ်ႈႁူမ်ႈၵမ်ႉထႅမ်သူင်ႇၶေႃႈၵႂၢမ်းပဵၼ်ၸုပ်ႈၶႃႈ!
 bulk-submission-success-subheader = ၸဝ်ႈၵဝ်ႇ တိုၵ်ႉၸွႆႈထႅမ်ပၼ် Common Voice ႁႂ်ႈထိုင်ယိူင်းမၢႆတၢင်းၼမ်ၶေႃႈၵႂၢမ်းၵူႈဝၼ်းဝၼ်းၶႃႈၼႃႈ။
+upload-more-btn-text = သူင်ႇၶိုၼ်ႈၶေႃႈၵႂၢမ်းထႅင်ႈလႆႈယူႇႁႃႉ?
+file-invalid-type = ၾၢႆႇလ် ဢမ်ႇထုၵ်ႇမႅၼ်ႈၸွမ်းပိူင်ၶႃႈ
 file-too-large = ၾၢႆႇၼႆႉယႂ်ႇႁႅင်းၼႃႇ
 file-too-small = ၾၢႆႇၼႆႉလဵၵ်ႉႁႅင်းၼႃႇ
 too-many-files = ၾၢႆႇၼမ်ပူၼ်ႉတီႈ
+
+## SMALL BATCH SUBMISSION
+
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> ထႅမ်သႂ်ႇၶေႃႈၵႂၢမ်းဢၼ်ပဵၼ်သုၼ်ႇၵူၼ်းတင်းၼမ်။
 
 ## MENU ITEM ARIA LABELS
 
