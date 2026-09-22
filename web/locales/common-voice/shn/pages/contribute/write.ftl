@@ -139,6 +139,8 @@ small-batch-response-message =
     }
 small-batch-sentences-rule-1 = ႁဵတ်းၸွမ်းၼင်ႇ ၶေႃႈၸီႉသင်ႇ ဢၼ်မီးတီႈႁူဝ်ၶေႃႈ “ၶေႃႈၵႂၢမ်းသင်တေၸၢင်ႈသႂ်ႇလႆႈ?”
 small-batch-sentences-rule-2 = ထႅမ်သႂ်ႇ 1 ၶေႃႈၵႂၢမ်း တေႃႇၼိုင်ႈထႅဝ်"
+small-batch-sentences-rule-3 = ၸႅၵ်ႇၽႄၶေႃႈၵႂၢမ်း ႁႂ်ႈပဵၼ်ထႅဝ်မႂ်ႇ လူၺ်ႈၼဵၵ်း “Enter” ဢမ်ႇၼၼ် “Return” ၼိုင်ႈၵမ်း။
+small-batch-sentences-rule-4 = ထႅမ်သႂ်ႇၶေႃႈၵႂၢမ်းလႆႈသုင်သုတ်း 1,000 ထႅဝ်။
 
 ## MENU ITEM ARIA LABELS
 
