@@ -50,6 +50,12 @@ transcribe-the-audio = ထွတ်ႇသဵင်ဢတ်း ႁႂ်ႈပ�
 transcribe-the-audio-subheader-2-example-1-correct = <correct>ထုၵ်ၢမႅၼ်ႈ</correct> ၵႆၵၼ်တင်းတီႈၼႆႈ ပၢၵ်ႇလၵ်း
 # text wrapped in wrong will be shown as red text in the UI
 transcribe-the-audio-subheader-2-example-1-wrong = <wrong>ၽိတ်း</wrong>ၵႆၵၼ် 100 လၵ်းတင်းတီႈၼႆ [ၽိတ်းယွၼ်ႉဝႃႈမီးတူဝ်ၼပ်ႉ 100]
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correct> ထုၵ်ႇမႅၼ်ႈ </correct>: ႁူပ်ႉၵၼ်ၼႂ်းပီ  <underline>သွင်ႁဵင်သိပ်းႁႃႈ</underline>
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Wrong</wrong> ထူပ်းၵၼ်ၼႂ်းပီႊ<underline>2015</underline>
+transcribe-the-audio-subheader-2-example-3-correct = <correct>ထုၵ်ႇမႅၼ်ႈ</correct> လႆႈလူတ်းယွမ်းပၼ်သၢဝ်းပိူဝ်ႊသႅၼ်ႊ
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>ၽိတ်း</wrong>လႆႈလူတ်းယွမ်းပၼ် 20%
 tags-table-header-2 = တီႈပွင်ႇ
 tags-laugh = ၶူဝ်
 tags-unclear = ဢမ်ႇၸႅင်ႈလႅင်း
