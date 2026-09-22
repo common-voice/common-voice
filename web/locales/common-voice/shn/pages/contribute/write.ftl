@@ -99,6 +99,8 @@ too-many-files = ၾၢႆႇၼမ်ပူၼ်ႉတီႈ
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = <icon></icon> ထႅမ်သႂ်ႇၶေႃႈၵႂၢမ်းဢၼ်ပဵၼ်သုၼ်ႇၵူၼ်းတင်းၼမ်။
+multiple-sentences-error = ၸဝ်ႈၵဝ်ႇ ဢမ်ႇၸၢင်ႈထႅမ်သႂ်ႇၶေႃႈၵႂၢမ်းလၢႆလၢႆထႅဝ် ၼႂ်းလွၵ်းတႃႇသူင်ႇၶေႃႈၵႂၢမ်းထႅဝ်လဵဝ်ၶႃႈ။
+exceeds-small-batch-limit-error = ဢမ်ႇၸၢင်ႈသူင်ႇၶေႃႈၵႂၢမ်းလႆႈလိူဝ် 1000 ထႅဝ်
 
 ## MENU ITEM ARIA LABELS
 
