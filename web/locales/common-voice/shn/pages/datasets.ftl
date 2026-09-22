@@ -18,6 +18,7 @@ datasets-speech-bubble-content = ၶၢဝ်ႇလီတိုၼ်ႇတဵ�
 language = ၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈ
 download-dataset-header = လူတ်ႇဢဝ်ၸုမ်ႇၶေႃႈမုၼ်း
 download-delta-explainer = ႁဝ်းၶႃႈ လႆႈလႅၵ်ႈလၢႆႈဝႆႉၵမ်ႈၽွင်ႈယဝ်ႉ၊ တီႈၼႂ်း Delta Segments ၼႆႉ ပႃးဝႆႉ ၶလိပ်ႉ ဢၼ်ဢွၵ်ႇမႃး ၵမ်းလိုၼ်းသုတ်း     ၼၼ်ႉၵူၺ်း။ <deltaLink>ဢၢၼ်ႇလွင်ႈၵၢၼ်ၼႆႉထႅင်ႈ</deltaLink>။
+download-dataset-tag = လိူၵ်ႈဢဝ် ၸုမ်ႇၶေႃႈမုၼ်းၽႃႇသႃႇၵႂၢမ်း ဢၼ်ၸဝ်ႈၵဝ်ႇၶႂ်ႈလႆႈၼၼ်ႉသေ လိူၵ်ႈဢဝ် ဝႅပ်ႇယၢင်ႇ ဢၼ်ၸဝ်ႈၵဝ်ႇၶႂ်ႈလူတ်ႇၼၼ်ႉတႃႉ။
 # File size in gigabytes
 size = သႅၼ်း
 cv-license = ဝႂ်ၶႂၢင်ႉ
