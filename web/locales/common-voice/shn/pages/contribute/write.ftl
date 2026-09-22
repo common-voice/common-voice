@@ -101,6 +101,18 @@ too-many-files = ၾၢႆႇၼမ်ပူၼ်ႉတီႈ
 small-batch-instruction = <icon></icon> ထႅမ်သႂ်ႇၶေႃႈၵႂၢမ်းဢၼ်ပဵၼ်သုၼ်ႇၵူၼ်းတင်းၼမ်။
 multiple-sentences-error = ၸဝ်ႈၵဝ်ႇ ဢမ်ႇၸၢင်ႈထႅမ်သႂ်ႇၶေႃႈၵႂၢမ်းလၢႆလၢႆထႅဝ် ၼႂ်းလွၵ်းတႃႇသူင်ႇၶေႃႈၵႂၢမ်းထႅဝ်လဵဝ်ၶႃႈ။
 exceeds-small-batch-limit-error = ဢမ်ႇၸၢင်ႈသူင်ႇၶေႃႈၵႂၢမ်းလႆႈလိူဝ် 1000 ထႅဝ်
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] ပူၼ်ႉထၢၼ်ႈၶၼ်ဢၼ်မၵ်းၶၼ်ႈ ၶႅၼ်းတေႃႈၸၢမ်းထႅင်ႈၵမ်းၼိုင်ႈၼႂ်း 1 မိၼိတ်ႉ
+       *[other] ပူၼ်ႉထၢၼ်ႈၶၼ်ဢၼ်မၵ်းၶၼ်ႈ ၶႅၼ်းတေႃႈၸၢမ်းထႅင်ႈၵမ်းၼိုင်ႈၼႂ်း  { $retryLimit } မိၼိတ်ႉ
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] ပူၼ်ႉထၢၼ်ႈၶၼ်ဢၼ်မၵ်းၶၼ်ႈ ၶႅၼ်းတေႃႈၸၢမ်းထႅင်ႈၵမ်းၼိုင်ႈၼႂ်း 1 သႅၵ်ႉၵၢၼ်ႉ
+       *[other] ပူၼ်ႉထၢၼ်ႈၶၼ်ဢၼ်မၵ်းၶၼ်ႈ ၶႅၼ်းတေႃႈၸၢမ်းထႅင်ႈၵမ်းၼိုင်ႈၼႂ်း { $retryLimit } သႅၵ်ႉၵၢၼ်ႉ
+    }
 
 ## MENU ITEM ARIA LABELS
 
