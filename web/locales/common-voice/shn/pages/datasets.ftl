@@ -21,7 +21,10 @@ download-delta-explainer = ႁဝ်းၶႃႈ လႆႈလႅၵ်ႈလၢ�
 download-dataset-tag = လိူၵ်ႈဢဝ် ၸုမ်ႇၶေႃႈမုၼ်းၽႃႇသႃႇၵႂၢမ်း ဢၼ်ၸဝ်ႈၵဝ်ႇၶႂ်ႈလႆႈၼၼ်ႉသေ လိူၵ်ႈဢဝ် ဝႅပ်ႇယၢင်ႇ ဢၼ်ၸဝ်ႈၵဝ်ႇၶႂ်ႈလူတ်ႇၼၼ်ႉတႃႉ။
 # File size in gigabytes
 size = သႅၼ်း
+validated-hr-total = ႁူဝ်ၼပ်ႉၸူဝ်ႈမူင်းတင်းသဵင်ဢၼ်မၼ်ႈၵိုမ်းယဝ်ႉ
+overall-hr-total = ႁူဝ်ၼပ်ႉၸူဝ်ႈမူင်းတင်းသဵင်ႈ
 cv-license = ဝႂ်ၶႂၢင်ႉ
+audio-format = ႁၢင်ႊပိူင်သဵင်
 email-to-download = ၶဝ်ႈဢီးမေးလ် တႃႇလူတ်ႇ
 confirm-size = သူၸဝ်ႈႁၢင်ႈႁႅၼ်းယဝ်ႉတူဝ်ႈတႃႇတေလူတ်ႇလူင်း <b>{ $size }</b>
 size-gigabyte = GB
