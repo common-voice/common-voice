@@ -1,7 +1,7 @@
 ## Prompts page
 
 record-player-header = Ierakstīt atbildi
-mic-access-error = Jums ir jāatļauj piekļuve mikrofonam.
+mic-access-error = Jāatļauj piekļuve mikrofonam
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType } <micIcon></micIcon> un atbildiet runājot dabiski
 # Message which appears when there are no more resources on this page

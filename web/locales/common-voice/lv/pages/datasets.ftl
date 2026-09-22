@@ -46,7 +46,7 @@ dataset-description-hours =
     
     Datu kopums pašlaik sastāv no <b>{ $valid }</b> pārbaudītām stundām <b>{ $languages }</b> valodās, bet mēs vienmēr pievienojam vairāk balsu un valodu. Apskatiet mūsu <languagesLink>valodu lapu</languagesLink>, lai pieprasītu valodu vai sāktu sniegt ieguldījumu.
 want-dataset-update = Vēlies uzzināt, kad mēs izlaižan jaunu Common Voice datu kopas versiju? Abonē mūsu biļetenu!
-subscribe = Pierakstīties
+subscribe = Abonēt
 get-started-speech = Darba sākšana ar runas atpazīšanu
 other-datasets = Citas balss datu kopas
 feedback-q = Vai jums ir atsauksmes?
