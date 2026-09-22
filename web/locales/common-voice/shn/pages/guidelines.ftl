@@ -1,3 +1,5 @@
+# GUIDELINES PAGE
+guidelines-header = ၶေႃႈၸီႉသင်ႇ ၵၢၼ်ၶဝ်ႈႁူမ်ႈၵမ်ႉထႅမ်⁠
 dont-subheader = ယႃႇ
 
 ## Voice Collection nav ids

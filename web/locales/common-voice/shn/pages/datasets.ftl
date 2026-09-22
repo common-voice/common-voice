@@ -1,6 +1,7 @@
 ## Datasets Page
 
 datasets-heading = ၸုမ်ႇၶေႃႈမုၼ်းတၢင်းမူတ်း
+datasets-headline = ႁဝ်းၶႃႈ တိုၵ်ႉသၢင်ႈၸုမ်ႇၶေႃႈမုၼ်းသဵင်ဢၼ်ပိုတ်ႇၽုၺ်ႇ (Open-source)  ဢၼ်ၸႂ်ႉသဵင်ၵႂၢမ်းလၢတ်ႈလႆႈလၢႆၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈၼၼ်ႉယူႇၶႃႈ။
 language = ၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈ
 download-dataset-header = လူတ်ႇဢဝ်ၸုမ်ႇၶေႃႈမုၼ်း
 # File size in gigabytes
