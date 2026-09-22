@@ -63,6 +63,14 @@ tags-noise = သဵင်ဢူၼ်မေႃး
 tags-laugh-explanation = သဵင်ၶူဝ်
 tags-unclear-explanation = ၶေႃႈၵႂၢမ်း ဢမ်ႇၼၼ် ၶေႃႈၵႂၢမ်းဢၼ်သွၼ်ႉၵၼ် ဢၼ်ဢမ်ႇၸၢင်ႈပွင်ႇၸႂ်။
 
+## Review the Transcription
+
+review-the-transcription = ၵူတ်ႇထတ်းဢၼ်ထွတ်ႇသဵင်ဝႆႉ
+
 ## Code-Switching
 
+code-switching = ၵၢၼ်လၢတ်ႈလေႃးလၢႆၽႃႇသႃႇၵႂၢမ်း
+adding-a-question = ၵၢၼ်ၽိူမ်ႉထႅမ်ၶေႃႈထၢမ်
+# Adding a Question
+code-switching-adding-question-subheader = ဢၼ်ႁဵတ်းႁႂ်ႈၶေႃႈထၢမ်လီၼၼ်ႉ ပဵၼ်သင်?
 code-switching-not-tag-interjections-example-2 = "ဢမ်ႇ"
