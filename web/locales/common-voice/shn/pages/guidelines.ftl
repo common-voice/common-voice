@@ -59,6 +59,9 @@ transcribe-the-audio-subheader-2-example-3-wrong = <wrong>ၽိတ်း</wrong
 tags-table-header-2 = တီႈပွင်ႇ
 tags-laugh = ၶူဝ်
 tags-unclear = ဢမ်ႇၸႅင်ႈလႅင်း
+tags-noise = သဵင်ဢူၼ်မေႃး
+tags-laugh-explanation = သဵင်ၶူဝ်
+tags-unclear-explanation = ၶေႃႈၵႂၢမ်း ဢမ်ႇၼၼ် ၶေႃႈၵႂၢမ်းဢၼ်သွၼ်ႉၵၼ် ဢၼ်ဢမ်ႇၸၢင်ႈပွင်ႇၸႂ်။
 
 ## Code-Switching
 
