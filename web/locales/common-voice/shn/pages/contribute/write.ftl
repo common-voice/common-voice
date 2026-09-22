@@ -125,6 +125,12 @@ rate-limit-message-seconds =
         [one] ၸဝ်ႈၵဝ်ႇသူင်ႇၶေႃႈၵႂၢမ်း ထိုင်ႁူဝ်ၼပ်ႉပွၵ်ႈဢၼ်မၵ်းၶၼ်ႈတႃႇၼႃႈလိၵ်ႈၼႆႉယဝ်ႉၶႃႈ။ ၶႅၼ်းတေႃႈပႂ်ႉထႅင်ႈ 1 သႅၵ်ႉၵၢၼ်ႉယဝ်ႉၸင်ႇသူင်ႇထႅင်ႈၶႃႈၼႃႈ၊ ယိၼ်းၸူမ်းၶွပ်ႈၸႂ် ၼိူဝ်လွင်ႈယိူၼ်ႉၵၼ်ႈၸဝ်ႈၵဝ်ႇၼႃႈ!
        *[other] ၸဝ်ႈၵဝ်ႇသူင်ႇၶေႃႈၵႂၢမ်း ထိုင်ႁူဝ်ၼပ်ႉပွၵ်ႈဢၼ်မၵ်းၶၼ်ႈတႃႇၼႃႈလိၵ်ႈၼႆႉယဝ်ႉၶႃႈ။ ၶႅၼ်းတေႃႈပႂ်ႉထႅင်ႈ { $retryLimit } သႅၵ်ႉၵၢၼ်ႉယဝ်ႉၸင်ႇသူင်ႇထႅင်ႈၶႃႈၼႃႈ၊ ယိၼ်းၸူမ်းၶွပ်ႈၸႂ် ၼိူဝ်လွင်ႈယိူၼ်ႉၵၼ်ႈၸဝ်ႈၵဝ်ႇၼႃႈ!
     }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] ၵဵပ်းႁွမ်ၶေႃႈၵႂၢမ်းလႆႈ { $uploadedSentences } ထႅဝ်
+       *[other] "ၵဵပ်းႁွမ်ၶေႃႈၵႂၢမ်းလႆႈ { $uploadedSentences } ထႅဝ် ၼႂ်းတီႈတင်းမူတ်း { $totalSentences }ထႅဝ်
+    }
 
 ## MENU ITEM ARIA LABELS
 
