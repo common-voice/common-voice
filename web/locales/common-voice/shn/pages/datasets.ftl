@@ -34,6 +34,10 @@ why-donate-datasets-page = Mozilla Common Voice ၼႆႉ ပဵၼ်ဝႆႉ 
 confirm-size = သူၸဝ်ႈႁၢင်ႈႁႅၼ်းယဝ်ႉတူဝ်ႈတႃႇတေလူတ်ႇလူင်း <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
+confirm-no-identify = <b>ၸဝ်ႈၵဝ်ႇ ၽွမ်ႉၸႂ်</b>ဝႃႈ တေဢမ်ႇၶတ်းၸႂ်မွၵ်ႇလၢတ်ႈၽူႈလၢတ်ႈၵႂၢမ်း ၼႂ်းၸုမ်ႇၶေႃႈမုၼ်း Common Voice ၼၼ်ႉ။
+confirm-join-mailing-list = ၸဝ်ႈၵဝ်ႇ ၶႂ်ႈၶဝ်ႈပႃးၼႂ်း သဵၼ်ႈမၢႆတိတ်းတေႃႇ (Mailing list) ၶွင် Common Voice ႁႃႉ?
+download-language = လူတ်ႇဢဝ်ၶေႃႈမူၼ်း
+validated-hours = ၸူဝ်ႈမူင်းလႆႈထတ်းထုၵ်ႇမႅၼ်ႈယဝ်ႉ
 data-download-yes = ၸႂ်ႈ
 data-download-deny = ဢမ်ႇ
 # Support old genders in older datasets
