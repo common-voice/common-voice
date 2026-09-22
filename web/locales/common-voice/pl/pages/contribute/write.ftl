@@ -28,7 +28,7 @@ contact-us = Skontaktuj się z nami
 add-sentence-success = Dodano 1 zdanie
 add-sentence-error = Błąd podczas dodawania zdania
 required-field = Proszę wypełnić to pole.
-sentence-domain-select-placeholder = Wybierz maksymalnie trzy domeny (opcjonalnie)
+sentence-domain-select-placeholder = Wybierz maksymalnie trzy dziedziny (opcjonalnie)
 # Sentence Domain dropdown option
 agriculture_food = Rolnictwo i żywność
 # Sentence Domain dropdown option
@@ -61,7 +61,9 @@ sentence-variant-select-multiple-variants = Język ogólny / różne warianty
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Prześlij <icon></icon> zdania z domeny publicznej
+sc-bulk-upload-instruction = Przeciągnij plik tutaj lub <uploadButton>kliknij, aby przesłać</uploadButton>
 sc-bulk-upload-instruction-drop = Przeciągnij plik tutaj, aby go przesłać
+bulk-upload-additional-information = Jeśli chcesz przekazać dodatkowe informacje na temat tego pliku, skontaktuj się z nami pod adresem <emailFragment>commonvoice@mozilla.com</emailFragment>
 try-upload-again = Spróbuj ponownie, przeciągając plik tutaj
 try-upload-again-md = Spróbuj przesłać ponownie
 select-file = Wybierz plik
@@ -80,6 +82,7 @@ too-many-files = Zbyt wiele plików
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = <icon></icon> Dodaj wiele zdań z domeny publicznej
+exceeds-small-batch-limit-error = Nie można przesłać więcej niż 1000 zdań
 small-batch-sentences-rule-2 = Dodaj jedno zdanie w każdym wierszu
 small-batch-sentences-rule-4 = Dodaj maksymalnie 1000 zdań
 small-batch-sentences-rule-5 = Wszystkie zdania muszą należeć do tej samej dziedziny
