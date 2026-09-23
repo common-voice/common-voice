@@ -91,4 +91,6 @@ code-switching-authentic-header = တွပ်ႇႁႂ်ႈပဵၼ်သၽ�
 code-switching-answer-dont-subheader = ယႃႇပေဝူၼ်ႉပူၼ်ႉတီႈ ဢမ်ႇၼၼ် မႄးထတ်းပူၼ်ႉတီႈ။
 code-switching-pronunciation-explanation-example-1 = လၢႆးဢွၵ်ႇသဵင်ဢင်းၵိတ်း /ˈkeɪ.bəl/
 code-switching-pronunciation-explanation-example-2 = လၢႆးဢွၵ်ႇသဵင်သပဵၼ်ႇ/ˈkable/
+# Be Careful with Lookalikes
+code-switching-lookalikes-header = ႁႂ်ႈမီးလွင်ႈၾၢင်ႉသတိ ၸိူဝ်းဢၼ်မီးႁၢင်ႈမိူၼ်ၵၼ်
 code-switching-not-tag-interjections-example-2 = "ဢမ်ႇ"

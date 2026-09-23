@@ -55,3 +55,9 @@ license-mixed = ၶူၼ်းၶဝ်းလေႃးၵၼ်
 # Support old genders in older datasets
 male = ၸၢႆး
 female = ယိင်း
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = လူတ်ႇဢဝ်ၸုမ်ႇၶေႃႈမုၼ်းသဵင်ႁဝ်းၶႃႈ
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = တူဝ်လိူၵ်ႈလူတ်ႇဢဝ် (Download options) တွၼ်ႈတႃႇၶဝ်ႈၸႂ်ႉတိုဝ်း ၶေႃႈမုၼ်း Common Voice"
+datasets-show-more = ၼႄၸုမ်ႇၶေႃႈမုၼ်းတင်းမူတ်း
+datasets-show-less = ၼႄၸုမ်ႇၶေႃႈမုၼ်းဢၼ်မႂ်ႇသုတ်း
