@@ -56,3 +56,10 @@ n-clips-pluralized = ၾၢႆႊလ်သဵင်                             
 help-share-goal = ၸွႆႈထႅမ်ႁဝ်းၶႃႈႁႃသဵင်ထႅင်ႈ  ပိုၼ်ၽႄယိူင်းမၢႆၸဝ်ႈၵဝ်ႇ။
 confirm-goal = ယိုၼ်ယၼ်ယိူင်းမၢႆ
 goal-interval-weekly = တေႃႇဝူင်ႈ
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = ပိုၼ်ၽႄ ယိူင်းမၢႆတေႃႇဝၼ်း တႃႇဢတ်း/ထတ်းသဵင် { $count } ၾၢႆႊလ် ၶွင်ၸဝ်ႈၵဝ်ႇ ပုၼ်ႈတႃႇ { $type }လႃႈ"
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = ပိုၼ်ၽႄ ယိူင်းမၢႆတေႃႇဝူင်ႈ တႃႇဢတ်း/ထတ်းသဵင် { $count } ၾၢႆႊလ် ၶွင်ၸဝ်ႈၵဝ်ႇ ပုၼ်ႈတႃႇ { $type }လႃႈ"
+share-goal-type-speak = ၵၢၼ်လၢတ်ႈ
+share-goal-type-listen = ၵၢၼ်ထွမ်ႇ
+share-goal-type-both = ၵၢၼ်လၢတ်ႈ လႄႈ ၵၢၼ်ထွမ်ႇ
