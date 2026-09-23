@@ -30,3 +30,7 @@ cs-tag-do-guideline-3 = ႁႂ်ႈမီးလွင်ႈၾၢင်ႉသ�
 cs-tag-do-not-guideline-1 = သႂ်ႇမၢႆထႅၵ်ႉပၼ် ၸိုဝ်ႈလၵ်းမၵ်းမၼ်ႈ (Proper names)၊ ၶေႃႈၵႂၢမ်းဢၼ်ပႃးလၢႆၽႃႇသႃႇလေႃးၵၼ် (Mixed words) ဢမ်ႇၼၼ် ၶေႃႈၵႂၢမ်းဢွၵ်ႇသဵင်တူၵ်းၸႂ်(Interjections)
 cs-tag-shortcuts-section-title = လွင်ႈၸႂ်ႉတိုဝ်း ပႅၼ်ႈလိၵ်ႈ (Keyboard)
 cs-tag-shortcuts-guideline-1 = <key>1</key>-<key>{ $numLanguages }</key>သႂ်ႇမၢႆထႅၵ်ႉ ၸွမ်းၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈ
+cs-tag-shortcuts-guideline-2 = <key>{ tag-page-shortcut-toogle-mouse-keyboard }</key> { toogle-mouse-keyboard }
+cs-tag-shortcuts-guideline-3 = <key>{ tag-page-shortcut-remove-tags }</key>{ remove-tags }
+cs-tag-shortcuts-guideline-4 = <key>{ tag-page-shortcut-select-all }</key>{ select-all }
+cs-tag-shortcuts-guideline-5 = <key>{ tag-page-shortcut-tag-undo }</key>{ undo }
