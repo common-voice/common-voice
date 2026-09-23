@@ -50,6 +50,7 @@ accept-privacy-and-terms = Rwy'n cytuno i <termsLink>Delerau</termsLink> a <Priv
 # Locales-Variants
 ms-MY = Bahasa Malay
 el-CY = Groeg Chypriad
+pt-BR = Portiwgaleg Brasil
 
 ## Language search component
 

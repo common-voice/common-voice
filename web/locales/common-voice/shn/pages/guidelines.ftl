@@ -101,3 +101,7 @@ code-switching-not-tag-proper-names-example-3 = မိၵ်ႈမၢႆၵု�
 code-switching-not-tag-interjections-example-2 = "ဢမ်ႇ"
 code-switching-not-tag-interjections-example-3 = "ၸႂ်ႈ"
 code-switching-not-tag-interjections-example-4 = "ဢိူဝ်ႈ"
+
+## Reporting Content
+
+reporting-content = ၵၢၼ်လၢႆးငၢၼ်း ၶေႃႈမုၼ်း
