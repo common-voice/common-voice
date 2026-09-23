@@ -25,5 +25,10 @@ show-ranking = ၼႄၸၼ်ႉထၢၼ်ႈၶွင်ၶႃႈ
 ## Custom Goals
 
 get-started-goals = တႄႇတမ်းဝၢင်းယိူင်းမၢႆ
+create-custom-goal = တမ်းဝၢင်းယိူင်းမၢႆဢၼ်မၵ်းၶၼ်ႈႁင်းၵူၺ်း
+goal-type = ၸဝ်ႈၵဝ်ႇၶႂ်ႈသၢင်ႈယိူင်းမၢႆၸိူင်ႉႁိုဝ်?
+both-speak-and-listen = တင်းသွင်
+both-speak-and-listen-long = တင်းသွင် (လၢတ်ႈလႄႈထွမ်ႇ)
+daily-goal = ယိူင်းမၢႆတေႃႇဝၼ်း?
 easy-difficulty = ငၢႆႈ
 difficult-difficulty = ယၢပ်ႇ
