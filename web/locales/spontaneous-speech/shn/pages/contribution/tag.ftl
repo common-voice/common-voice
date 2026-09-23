@@ -19,3 +19,11 @@ tag-page-shortcut-tag-undo = Ctrl / CMD + Z
 undo = ၶိုၼ်းႁဵတ်းလၢႆးၵဝ်ႇ
 tag-page-shortcut-select-all = A
 select-all = လိူၵ်ႈတင်းမူတ်း
+# Messages
+tag-success-toast-message = သူင်ႇမၢႆထႅၵ်ႉ ဢွင်ႇမၢၼ်ယဝ်ႉၶႃႈ
+tag-error-toast-message = ၵၢၼ်သူင်ႇမၢႆထႅၵ်ႉ ၽိတ်းပိူင်ႈ
+tag-empty-submit-error = ဢမ်ႇမီးၶေႃႈၵႂၢမ်း တႃႇသူင်ႇၶႃႈ။ ၶႅၼ်းတေႃႈသႂ်ႇမၢႆထႅၵ်ႉ တီႈလိၵ်ႈဢွၼ်တၢင်း
+# Code switching Guidelines
+cs-tag-do-guideline-1 = ႁႂ်ႈတႅမ်ႈၸွမ်းပၵ်းပိူင်လိၵ်ႈ ဢၼ်ထုၵ်ႇမႅၼ်ႈ
+cs-tag-do-guideline-2 = ႁႂ်ႈၸႂ်ႉသဵင်ဢွၵ်ႇ တႃႇမႃးၸွႆႈထတ်း
+cs-tag-do-guideline-3 = ႁႂ်ႈမီးလွင်ႈၾၢင်ႉသတိ ၸိူဝ်းဢၼ်မီးၶေႃႈၵႂၢမ်း/တူဝ်လိၵ်ႈႁၢင်ႈမိူၼ်ၵၼ်
