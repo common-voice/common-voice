@@ -46,6 +46,8 @@ accept-privacy-title = လၵ်းၼမ်းလွင်ႈသုၼ်ႇတ
 login-identity = ၸိုဝ်ႈမၢႆၾၢင်လွၵ်ႉၶဝ်ႈ
 login = လွၵ်ႉၶဝ်ႈ
 edit = မႄးထတ်း
+email-subscriptions = လွင်ႈႁပ်ႉၶၢဝ်ႇသၢၼ်တၢင်းဢီးမေးလ်
+download-profile = လူတ်ႇဢဝ် ၶေႃႈမုၼ်းတူဝ်ၵဝ်ႇ
 # Genders
 male_masculine = ၸၢႆး/ၽူႈၸၢႆး
 female_feminine = ယိင်း/ၽူႈယိင်း
