@@ -99,3 +99,5 @@ code-switching-not-tag-proper-names-example-1 = ၵူၼ်း: မႃႇရီ
 code-switching-not-tag-proper-names-example-2 = ဢွင်ႈတီႈ လွတ်ႉတ်သ်ဢႅၼ်ႇၵျႄႇလႅတ်ႉတ်သ်၊ ၾလူဝ်ႇရီႇၻႃႇ
 code-switching-not-tag-proper-names-example-3 = မိၵ်ႈမၢႆၵုၼ်ႇ / ၸုမ်းၵၢၼ်: တႃးၵႅတ်ႉတ်ႉ၊ ပိူဝ်ႇၵိူဝ်ႇၶိင်း
 code-switching-not-tag-interjections-example-2 = "ဢမ်ႇ"
+code-switching-not-tag-interjections-example-3 = "ၸႂ်ႈ"
+code-switching-not-tag-interjections-example-4 = "ဢိူဝ်ႈ"
