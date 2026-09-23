@@ -17,6 +17,7 @@ recorded-clips = ၾၢႆႊလ်သဵင် ဢၼ်ဢတ်းဝႆႉ
 validated-clips = ၾၢႆႊလ်သဵင် ဢၼ်ထတ်းယဝ်ႉ
 total-approved = ၵၢၼ်ယိုၼ်ယၼ်တဵမ်ထူၼ်ႈတင်းမူတ်း
 overall-accuracy = လွင်ႈထုၵ်ႇမႅၼ်ႈတဵမ်ထူၼ်ႈတင်းမူတ်း
+set-visibility = ပၵ်းတမ်းလွင်ႈႁၼ်လႆႈတူဝ်ၵဝ်ႇ
 
 ## Custom Goals
 
