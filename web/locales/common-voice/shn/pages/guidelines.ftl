@@ -93,4 +93,8 @@ code-switching-pronunciation-explanation-example-1 = လၢႆးဢွၵ်ႇ
 code-switching-pronunciation-explanation-example-2 = လၢႆးဢွၵ်ႇသဵင်သပဵၼ်ႇ/ˈkable/
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = ႁႂ်ႈမီးလွင်ႈၾၢင်ႉသတိ ၸိူဝ်းဢၼ်မီးႁၢင်ႈမိူၼ်ၵၼ်
+# When Not to Tag Words
+code-switching-not-tag-header = တွၼ်ႈဢၼ်ဢမ်ႇထုၵ်ႇလီသႂ်ႇမၢႆထႅၵ်ႉ ၶေႃႈၵႂၢမ်း
+code-switching-not-tag-proper-names-example-1 = ၵူၼ်း: မႃႇရီႇယႃႇ၊ ၵျွၼ်ႊ
+code-switching-not-tag-proper-names-example-2 = ဢွင်ႈတီႈ လွတ်ႉတ်သ်ဢႅၼ်ႇၵျႄႇလႅတ်ႉတ်သ်၊ ၾလူဝ်ႇရီႇၻႃႇ
 code-switching-not-tag-interjections-example-2 = "ဢမ်ႇ"
