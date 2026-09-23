@@ -6,6 +6,7 @@ demo-welcome-subheader = သူၼ်ၸႂ် တႃႇလဵပ်ႈႁဵၼ
 
 ## Demo Datasets
 
+demo-language-select-card-header = Common Voice ၼႆႉ ပဵၼ်ၶေႃႈမုၼ်းသဵင် ဢၼ်ၸႂ်ႉလႆႈ ၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈလၢႆၽႃႇသႃႇ ဢၼ်ယႂ်ႇသေပိူၼ်ႈ ၼႂ်းလုမ်ႈၾႃႉ။
 card-button-next = သိုပ်ႇၵႂႃႇ
 card-button-back = ႁူၼ်ၶိုၼ်း
 demo-language-select-label = ႁွင်ႉတူၺ်းၽႃႇသႃႇ
