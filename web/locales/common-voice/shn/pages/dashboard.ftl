@@ -11,6 +11,11 @@ stats = သဵၼ်ႈမၢႆ
 awards = သူးတင်းလၢႆ
 you = ၸဝ်ႈၵဝ်ႇ
 everyone = ၵူႈၵေႃႉ
+contribution-activity = လွင်ႈတူင်ႉၼိုင်ၵၢၼ်ၶဝ်ႈႁူမ်ႈၸွႆႈထႅမ်
+top-contributors = ၽူႈၸွႆႈထႅမ်ၼမ်သေပိူၼ်ႈ
+recorded-clips = ၾၢႆႊလ်သဵင် ဢၼ်ဢတ်းဝႆႉ
+validated-clips = ၾၢႆႊလ်သဵင် ဢၼ်ထတ်းယဝ်ႉ
+total-approved = ၵၢၼ်ယိုၼ်ယၼ်တဵမ်ထူၼ်ႈတင်းမူတ်း
 
 ## Custom Goals
 
