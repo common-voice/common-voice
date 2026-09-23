@@ -22,3 +22,7 @@ demo-account-card-body = တၢင်းၽၢႆႇၶႂႃၼႆႉ ႁဝ်
 demo-account-enter-email =
     .label = ထႅမ်သႂ်ႇဢီးမေးလ် တႃႇသူင်ႇလိင်ႉလူင်းသဵၼ်ႈမၢႆ။
 demo-account-sign-up = သူင်ႇလိင်ႉလူင်းသဵၼ်ႈမၢႆဝႆႉၶႃႈ
+
+## Demo Contribute
+
+demo-contribute-card-header = တူဝ်ႈတၼ်းတႃႇတေထႅမ်သႂ်ႇသဵင်လၢတ်ႈ ဢမ်ႇၼၼ် တႃႇၸွႆႈထွမ်ႇပၼ်ယဝ်ႉၶႃႈႁႃႉ?
