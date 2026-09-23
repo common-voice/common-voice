@@ -43,6 +43,9 @@ profile-explanation = ၸွမ်းတူၺ်းလွင်ႈၶိုပ�
 thanks-for-account = ယိၼ်းၸူမ်းၶွပ်ႈၸႂ်တီႈယိုၼ်ယၼ်ဢၶွင်ႉၸဝ်ႉၵဝ်ႇ ၵမ်းၼႆႉမႃးၵေႃႇသၢင်ႈပရူဝ်ႇၾၢႆႇတူဝ်ၵဝ်ႇ။
 why-demographic = ၵွပ်ႈသင်လႄႈမၼ်းလမ်ႇလွင်ႈ?
 accept-privacy-title = လၵ်းၼမ်းလွင်ႈသုၼ်ႇတူဝ်
+login-identity = ၸိုဝ်ႈမၢႆၾၢင်လွၵ်ႉၶဝ်ႈ
+login = လွၵ်ႉၶဝ်ႈ
+edit = မႄးထတ်း
 # Genders
 male_masculine = ၸၢႆး/ၽူႈၸၢႆး
 female_feminine = ယိင်း/ၽူႈယိင်း
