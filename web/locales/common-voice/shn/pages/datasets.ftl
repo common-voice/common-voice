@@ -42,6 +42,16 @@ recorded-hours = ၸူဝ်ႈမူင်းဢတ်းသဵင်
 whats-inside = ၼႂ်းၶေႃႈၸုမ်ႇမုၼ်း Common Voice ၼၼ်ႉ မီးသင်?
 data-download-yes = ၸႂ်ႈ
 data-download-deny = ဢမ်ႇ
+data-get-started = <speechBlogLink>တႄႇၸႂ်ႉတိုဝ်း ၵၢၼ်ႁူႉမႅၼ်ႈသဵင်လၢတ်ႈ</speechBlogLink>
+data-other-title = ၸုမ်ႇၶေႃႈမုၼ်းသဵင်တၢင်ႇၸိူဝ်း...
+data-other-goto = ၵႂႃႇတီႈ { $name }
+data-other-download = လူတ်ႇဢဝ်ၶေႃႈမုၼ်း
+data-bundle-button = လူတ်ႇဢဝ်ၸုမ်ႇၶေႃႈမုၼ်းပဵၼ်ပုၵ်ႉ
+data-bundle-description = ၶေႃႈမုၼ်း Common Voice ႁူမ်ႈတင်း ၸုမ်ႇၶေႃႈမုၼ်းသဵင်တၢင်ႇဢၼ် ဢၼ်မီးပႃႈၼိူဝ်ၼၼ်ႉ။
+release-version = ပိူင်ၽႅၵ်ႇ
+dataset-date = ဝၼ်းတီႈ
+license = ဝႂ်သုၼ်ႇသၢင်ႈ : <licenseLink>{ $license }</licenseLink>
+license-mixed = ၶူၼ်းၶဝ်းလေႃးၵၼ်
 # Support old genders in older datasets
 male = ၸၢႆး
 female = ယိင်း
