@@ -1,8 +1,11 @@
 ## Languages Overview
 
 language-section-launched = ပိုတ်ႇတူဝ်ယဝ်ႉ
+language-total-progress = ႁူမ်ႈတင်းမူတ်း
 language-search-input =
     .placeholder = သွၵ်ႈႁႃ
+language-speakers = ၽူႈမႃးၸွႆႈဢတ်းသဵင်
+language-validation-hours = ၸူဝ်ႈမူင်း
 contribute = ၸွႆႈထႅမ်
 get-involved-button = ၶဝ်ႈႁူမ်ႈပႃး
 get-involved-title = ၸွႆႈထႅမ်ပၼ်ၽႃႇသႃႇ { $lang }
