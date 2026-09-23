@@ -50,6 +50,7 @@ accept-privacy-and-terms = Eg godtek <termsLink>vilkåra</termsLink> og <privacy
 # Locales-Variants
 ms-MY = Bahasa malaysisk
 el-CY = Kypriotisk gresk
+pt-BR = Portugisisk (Brasil)
 
 ## Language search component
 
