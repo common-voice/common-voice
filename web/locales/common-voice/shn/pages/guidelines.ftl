@@ -97,4 +97,5 @@ code-switching-lookalikes-header = ႁႂ်ႈမီးလွင်ႈၾၢင
 code-switching-not-tag-header = တွၼ်ႈဢၼ်ဢမ်ႇထုၵ်ႇလီသႂ်ႇမၢႆထႅၵ်ႉ ၶေႃႈၵႂၢမ်း
 code-switching-not-tag-proper-names-example-1 = ၵူၼ်း: မႃႇရီႇယႃႇ၊ ၵျွၼ်ႊ
 code-switching-not-tag-proper-names-example-2 = ဢွင်ႈတီႈ လွတ်ႉတ်သ်ဢႅၼ်ႇၵျႄႇလႅတ်ႉတ်သ်၊ ၾလူဝ်ႇရီႇၻႃႇ
+code-switching-not-tag-proper-names-example-3 = မိၵ်ႈမၢႆၵုၼ်ႇ / ၸုမ်းၵၢၼ်: တႃးၵႅတ်ႉတ်ႉ၊ ပိူဝ်ႇၵိူဝ်ႇၶိင်း
 code-switching-not-tag-interjections-example-2 = "ဢမ်ႇ"
