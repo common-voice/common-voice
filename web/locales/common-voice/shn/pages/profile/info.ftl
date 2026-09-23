@@ -48,6 +48,8 @@ login = လွၵ်ႉၶဝ်ႈ
 edit = မႄးထတ်း
 email-subscriptions = လွင်ႈႁပ်ႉၶၢဝ်ႇသၢၼ်တၢင်းဢီးမေးလ်
 download-profile = လူတ်ႇဢဝ် ၶေႃႈမုၼ်းတူဝ်ၵဝ်ႇ
+off = ပိၵ်ႉႁပ်း
+on = ပိုတ်ႇၽုၺ်,
 # Genders
 male_masculine = ၸၢႆး/ၽူႈၸၢႆး
 female_feminine = ယိင်း/ၽူႈယိင်း

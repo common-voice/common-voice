@@ -2,6 +2,7 @@
 
 demo-get-started = မႃးႁဝ်းတႄႇၵႂႃႇ
 demo-welcome = ငိၼ်းလီႁပ်ႉတွၼ်ႈၶဝ်ႈ Common Voice
+demo-welcome-subheader = သူၼ်ၸႂ် တႃႇလဵပ်ႈႁဵၼ်းထႅင်ႈ လႄႈ တႃႇၸွႆႈထႅမ် ၶူင်းၵၢၼ်ယူႇႁႃႉ?
 
 ## Demo Datasets
 
