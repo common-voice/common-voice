@@ -27,3 +27,6 @@ tag-empty-submit-error = ဢမ်ႇမီးၶေႃႈၵႂၢမ်း တ
 cs-tag-do-guideline-1 = ႁႂ်ႈတႅမ်ႈၸွမ်းပၵ်းပိူင်လိၵ်ႈ ဢၼ်ထုၵ်ႇမႅၼ်ႈ
 cs-tag-do-guideline-2 = ႁႂ်ႈၸႂ်ႉသဵင်ဢွၵ်ႇ တႃႇမႃးၸွႆႈထတ်း
 cs-tag-do-guideline-3 = ႁႂ်ႈမီးလွင်ႈၾၢင်ႉသတိ ၸိူဝ်းဢၼ်မီးၶေႃႈၵႂၢမ်း/တူဝ်လိၵ်ႈႁၢင်ႈမိူၼ်ၵၼ်
+cs-tag-do-not-guideline-1 = သႂ်ႇမၢႆထႅၵ်ႉပၼ် ၸိုဝ်ႈလၵ်းမၵ်းမၼ်ႈ (Proper names)၊ ၶေႃႈၵႂၢမ်းဢၼ်ပႃးလၢႆၽႃႇသႃႇလေႃးၵၼ် (Mixed words) ဢမ်ႇၼၼ် ၶေႃႈၵႂၢမ်းဢွၵ်ႇသဵင်တူၵ်းၸႂ်(Interjections)
+cs-tag-shortcuts-section-title = လွင်ႈၸႂ်ႉတိုဝ်း ပႅၼ်ႈလိၵ်ႈ (Keyboard)
+cs-tag-shortcuts-guideline-1 = <key>1</key>-<key>{ $numLanguages }</key>သႂ်ႇမၢႆထႅၵ်ႉ ၸွမ်းၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈ
