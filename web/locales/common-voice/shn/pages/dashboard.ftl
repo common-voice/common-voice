@@ -63,3 +63,7 @@ share-n-weekly-contribution-goal = ပိုၼ်ၽႄ ယိူင်းမ�
 share-goal-type-speak = ၵၢၼ်လၢတ်ႈ
 share-goal-type-listen = ၵၢၼ်ထွမ်ႇ
 share-goal-type-both = ၵၢၼ်လၢတ်ႈ လႄႈ ၵၢၼ်ထွမ်ႇ
+# LINK will be replaced with the current URL
+goal-share-text = ၶႃႈႁဝ်းတိုၵ်ႉတၢမ်းဝၢင်းယိူင်းမၢႆသုၼ်ႇတူဝ် တႃႇၸွႆႈထႅမ်သူင်ႇသဵင်လၢတ်ႈ တီႈ #CommonVoice -- မႃးႁူမ်ႈၸွမ်းၵၼ် လႄႈ ၸွႆႈသွၼ်ပၼ် ႁႂ်ႈၶိူင်ႈၸၢၵ်ႈ (Machines) မေႃႁဵၼ်းႁူႉဝႃႈ ၵူၼ်းတႄႉတႄႉ ၶဝ်လၢတ်ႈၵႂၢမ်းၸိူင်ႉႁိုဝ်ၼႆ။ { $link }
+weekly-goal-created = လႆႈတၢမ်းဝၢင်းယိူင်းမၢႆတေႃႇဝူင်ႈ ၶွင်ၸဝ်ႈၵဝ်ႇ ယဝ်ႉတူဝ်ႈယဝ်ႉၶႃႈ။
+daily-goal-created = လႆႈတၢမ်းဝၢင်းယိူင်းမၢႆတေႃႇဝၼ်း ၶွင်ၸဝ်ႈၵဝ်ႇ ယဝ်ႉတူဝ်ႈယဝ်ႉၶႃႈ။
