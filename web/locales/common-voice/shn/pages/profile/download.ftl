@@ -19,3 +19,7 @@ download-requests-info = မိူဝ်ႈၸဝ်ႈၵဝ်ႇယွၼ်�
 download-request-button = လူတ်ႇလူင်း
 download-request-title = { $created }
 download-request-description = { $clipCount } ၾၢႆႊလ်သဵင်၊ သႅၼ်းၾၢႆႊလ်ၵဵပ်းႁွမ်တင်းမူတ်း{ $size } ဢႃႇယုတေသုတ်းသဵင်ႈ{ $expires }.
+download-request-archive-single = ၾၢႆႊလ် ZIP ဢၼ်လဵဝ် ဢၼ်ၶဝ်ႈပႃးဝႆႉ
+download-request-archive-multiple = လႆႈၸႅၵ်ႇဢွၵ်ႇပဵၼ် ၾၢႆႊလ် ZIP { $archiveCount } ၾၢႆႊလ် ဢၼ်ၶဝ်ႈပႃးဝႆႉ
+download-request-assembling-description = ၾၢႆႊလ်ၶွင်ၸဝ်ႈၵဝ်ႇတိုၵ်ႉယူႇၼႂ်းၵၢၼ်ၵဵပ်းႁွမ်တွမ်ယူႇၶႃႈ။ ၶႅၼ်းတေႃႈ ဝၢႆးမႃးၶိုၼ်းမႃးထတ်းတူၺ်းထႅင်ႈၶႃႈ။
+download-request-refresh-button = လူတ်ႇမႂ်ႇ
