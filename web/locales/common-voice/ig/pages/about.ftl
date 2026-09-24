@@ -142,3 +142,4 @@ about-playbook-how-project-governance-content-1 = Ọ bụ ọgbakọ ndị ọr
 about-playbook-how-project-governance-content-2 = Ọchịchị anyị gbadoro ụkwụ n'ìdé:
 about-playbook-how-project-governance-content-3 = Nzuzo, nchebe na ido anya.
 about-playbook-how-project-governance-content-4 = Nsonye n'ọgba ndị ọrụ na ime mkpebi.
+about-playbook-how-project-governance-content-5 = Uru na nkwanye ùgwù.
