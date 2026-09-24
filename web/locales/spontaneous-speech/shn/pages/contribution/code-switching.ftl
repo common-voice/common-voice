@@ -38,3 +38,4 @@ cs-tag-dataset-name = ၸုမ်ႇၶေႃႈမုၼ်း
 ## Guidelines
 
 learn-how-to-use = လဵပ်ႈႁဵၼ်းလၢႆးၸႂ်ႉၼႃႈလိၵ်ႈၼႆႉ
+read-full-guidelines-here = <guidanceLink>ဢၢၼ်ႇပိူင်ၶေႃႈၸီႉသင်ႇတဵမ်ထူၼ်ႈတီႈၼႆႈ</guidanceLink>
