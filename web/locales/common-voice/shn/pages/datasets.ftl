@@ -51,6 +51,7 @@ other-datasets = ၸုမ်ႇၶေႃႈမုၼ်းတၢင်ႇၸိ
 feedback-q = မီးၶေႃႈတုမ်ႉတွပ်ႇႁႃႉ?
 # This indicates that there is no data to display
 no-information = ဢမ်ႇမီးၶေႃႈမုၼ်းသင်
+resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ၼႆႉ ပဵၼ်  <docsLink>ၸုမ်ႇၶိူင်ႈမိုဝ်းဢူဝ်ႊၽႅၼ်းသူဝ်ႉၸ် </docsLink> တွၼ်ႈတႃႇၽူႈၶူၼ်ႉၶႂႃႉ ၸိူဝ်းဢၼ်တိုၵ်ႉၶူင်သၢင်ႈမူဝ်ႇၻေႇလ် (AI) တွၼ်ႈတႃႇၵၢၼ်ဢုပ်ႇလၢတ်ႈႁႂ်ႈၶိုၵ်ႉတွၼ်းသုတ်း ၼၼ်ႉၶႃႈယဝ်ႉ။
 data-download-yes = ၸႂ်ႈ
 data-download-deny = ဢမ်ႇ
 data-get-started = <speechBlogLink>တႄႇၸႂ်ႉတိုဝ်း ၵၢၼ်ႁူႉမႅၼ်ႈသဵင်လၢတ်ႈ</speechBlogLink>
