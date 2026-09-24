@@ -34,3 +34,5 @@ signup-terms = လူၺ်ႈၵၢၼ်ၼဵၵ်းတီႈ  “သူင
 signup-input-placeholder = ထႅမ်သႂ်ႇဢီးမေးလ်ၸဝ်ႈၵဝ်ႇ
 signup-button-value = သူင်ႇလိင်ႉၶ်ၸူးဢီးမေးလ်ၶႃႈႁဝ်း
 footer-text-privacy = <privacyLink>လွင်ႈၶေႃႈမုၼ်းသုၼ်ႇတူဝ်</privacyLink>
+footer-text-terms = <termsLink>ၶေႃႈမၢႆမီႈ</termsLink>
+footer-text-cookies = <cookiesLink>Cookies<cookiesLink>
