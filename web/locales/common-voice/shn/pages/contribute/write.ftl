@@ -76,12 +76,12 @@ bulk-upload-additional-information = သင်ဝႃႈမီးၶေႃႈမ�
 template-file-additional-information = သင်ဝႃႈၸဝ်ႈၵဝ်ႇၶႂ်ႈပၼ်ၶေႃႈမုၼ်းထႅင်ႈ ဢၼ်ဢမ်ႇပႃးဝႆႉၼႂ်းပိူင်ႁၢင်ႈ (Template) ၼၼ်ၼႆၸိုင်၊ ၶႅၼ်းတေႃႈၵပ်းသိုပ်ႇ <emailFragment>commonvoice@mozilla.com</emailFragment>
 try-upload-again = လၢၵ်ႈၾၢႆႇလ်ၸဝ်ႈၵဝ်ႇမႃးသႂ်ႇတီႈၼႆႈသေ ၸၢမ်းထႅင်ႈၵမ်းၼိုင်ႈၶႃႈ။
 try-upload-again-md = ၸၢမ်းသူင်ႇၶိုၼ်ႈထႅင်ႈၵမ်းၼိုင်ႈၶႃႈ
-select-file = လိူၵ်ႈၾၢႆႇ
-select-file-mobile = လိူၵ်ႈၾၢႆႇလ် တႃႇသူင်ႇၶိုၼ်ႈ
-accepted-files = ႁပ်ႉၾၢႆႇလ်မဵဝ်း .tsv ၵူၺ်း
-minimum-sentences = တၢင်းၼမ်တူၼ်ႈထႅဝ်ၶေႃႈၵႂၢမ်း ၼႂ်းၾၢႆႇလ် တီႈဢေႇသုတ်း 1000 ထႅဝ်။
-maximum-file-size = တၢင်းယႂ်ႇၾၢႆႇလ်သုင်သုတ်း: 25 MB
-what-needs-to-be-in-file = ၼႂ်းၾၢႆႇလ်ၶႃႈၼၼ်ႉ လူဝ်ႇမီးသင်?
+select-file = လိူၵ်ႈၾၢႆႊလ်
+select-file-mobile = လိူၵ်ႈၾၢႆႊလ် တႃႇသူင်ႇၶိုၼ်ႈ
+accepted-files = ႁပ်ႉၾၢႆႊလ်မဵဝ်း .tsv ၵူၺ်း
+minimum-sentences = တၢင်းၼမ်တူၼ်ႈထႅဝ်ၶေႃႈၵႂၢမ်း ၼႂ်းၾၢႆႊလ် တီႈဢေႇသုတ်း 1000 ထႅဝ်။
+maximum-file-size = တၢင်းယႂ်ႇၾၢႆႊလ်သုင်သုတ်း: 25 MB
+what-needs-to-be-in-file = ၼႂ်းၾၢႆႊလ်ၶႃႈၼၼ်ႉ လူဝ်ႇမီးသင်?
 what-needs-to-be-in-file-explanation = ၶႅၼ်းတေႃႈ ထတ်းတူၺ်းတီႈ <templateFileLink>ပိူင်မႄႈၾၢႆႇလ်  </templateFileLink>. ၶွင်ႁဝ်းၶႃႈ။ ၶေႃႈၵႂၢမ်းၸဝ်ႈၵဝ်ႇ တေလႆႈဢမ်ႇမီးၶေႃႈၵႅတ်ႇၵင်ႈသုၼ်ႇၸဝ်ႈၶွင် (ပဵၼ် CC0 ဢမ်ႇၼၼ်လႆႈႁပ်ႉၶႂၢင်ႉတီႈၽူႈသူင်ႇပဵၼ်ၽိုၼ်ငဝ်ႈလိၵ်ႈယဝ်ႉ) လႄႈ တေလႆႈၸႅင်ႈလႅင်း၊ တႅမ်ႈႁႂ်ႈထုၵ်ႇမႅၼ်ႈၸွမ်းပိူင်လိၵ်ႈ လႄႈ ဢၢၼ်ႇလႆႈငၢႆႈ။ ၶေႃႈၵႂၢမ်းဢၼ်သူင်ႇမႃး ၼိုင်ႈၶေႃႈ လူဝ်ႇၸႂ်ႉယၢမ်းဢၢၼ်ႇမၼ်းမွၵ်ႈ 10-15 မိၼိတ်ႉ လႄႈ ဢမ်ႇႁႂ်ႈမီးတူဝ်ၼပ်ႉ၊ ၸိုဝ်ႈတူဝ်ၵူၼ်း/တီႈယူႇ လႄႈ ၶိူင်ႈမၢႆၶိုၵ်ႉတွၼ်းၶႃႈ။
 upload-progress-text = တိုၵ်ႉသူင်ႇၶိုၼ်ႈယူႇ....
 sc-bulk-submit-confirm = ၶႃႈႁဝ်း ယိုၼ်ယၼ်ဝႃႈ ၶေႃႈၵႂၢမ်းၸိူဝ်းၼႆႉ  <wikipediaLink>ပဵၼ်သုၼ်ႇၵူၼ်းတင်းၼမ်</wikipediaLink>  လႄႈ ၶႃႈႁဝ်းမီးသုၼ်ႇသူင်ႇၶိုၼ်ႈလႆႈယူႇၶႃႈ။
@@ -90,10 +90,10 @@ bulk-upload-failed-toast = သူင်ႇၶိုၼ်ႈဢမ်ႇလႆ�
 bulk-submission-success-header = ဢၼ်မႃးၶဝ်ႈႁူမ်ႈၵမ်ႉထႅမ်သူင်ႇၶေႃႈၵႂၢမ်းပဵၼ်ၸုပ်ႈၶႃႈ!
 bulk-submission-success-subheader = ၸဝ်ႈၵဝ်ႇ တိုၵ်ႉၸွႆႈထႅမ်ပၼ် Common Voice ႁႂ်ႈထိုင်ယိူင်းမၢႆတၢင်းၼမ်ၶေႃႈၵႂၢမ်းၵူႈဝၼ်းဝၼ်းၶႃႈၼႃႈ။
 upload-more-btn-text = သူင်ႇၶိုၼ်ႈၶေႃႈၵႂၢမ်းထႅင်ႈလႆႈယူႇႁႃႉ?
-file-invalid-type = ၾၢႆႇလ် ဢမ်ႇထုၵ်ႇမႅၼ်ႈၸွမ်းပိူင်ၶႃႈ
-file-too-large = ၾၢႆႇၼႆႉယႂ်ႇႁႅင်းၼႃႇ
-file-too-small = ၾၢႆႇၼႆႉလဵၵ်ႉႁႅင်းၼႃႇ
-too-many-files = ၾၢႆႇၼမ်ပူၼ်ႉတီႈ
+file-invalid-type = ၾၢႆႊလ် ဢမ်ႇထုၵ်ႇမႅၼ်ႈၸွမ်းပိူင်ၶႃႈ
+file-too-large = ၾၢႆႊလ်ၼႆႉယႂ်ႇပူၼ်ႉတီႈၼႃႇ
+file-too-small = ၾၢႆႊလ်ၼႆႉလဵၵ်ႉပူၼ်ႉတီႈၼႃႇ
+too-many-files = ၾၢႆႊလ်ၼမ်ပူၼ်ႉတီႈၼႃႇ
 
 ## SMALL BATCH SUBMISSION
 
