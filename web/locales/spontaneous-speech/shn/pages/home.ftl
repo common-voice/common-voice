@@ -12,6 +12,18 @@ why-card-2-text = ၸွႆႈၵမ်ႉထႅမ်ပၼ် လွင်ႈ�
 why-card-3-text = လွင်ႈၵမ်ႉထႅမ်ဢၼ်လီလိူဝ် တွၼ်ႈတႃႇၽႃႇသႃႇဢၼ်မီးၶေႃႈၵႂၢမ်းႁူမ်ႈဢေႇ ဢမ်ႇၼၼ်<mark>ဢမ်ႇမီးၶေႃႈၵႂၢမ်းႁူမ်ႈ</mark> တႃႇၸႂ်ႉတိုဝ်း (တူဝ်ယၢင်ႇမၼ်း၊ ၽႃႇသႃႇတူင်ႇဝူင်း၊ လွင်ႈသဵင်လၢတ်ႈပိုၼ်ႉတီႈ ၊ ၽႃႇသႃႇဢၼ်ဢမ်ႇမီးလိၵ်ႈတႅမ်ႈမႃး ၼႂ်းပိုၼ်း တႄႇၵႂႃႇၸိူဝ်းၼႆႉ။)
 how-spontaneous-speech-works = ပိူင်သၢင်ႈသဵင်လၢတ်ႈ ဢၼ်ဢွၵ်ႇမႃးႁင်းၵူၺ်းၼၼ်ႉ မၼ်းႁဵတ်းၵၢၼ်ၸိူင်ႉႁိုဝ်?
 # text wrapped in <mark></mark> will have a blue background
-prompt-bubble-title = <mark>ၼႄႉၼမ်း</mark>
+prompt-bubble-title = <mark>သင်ႇ</mark>
+prompt-bubble-subtitle = ႁဝ်းၶႃႈတေၼႄပၼ် ၶေႃႈသင်ႇ ဢမ်ႇၼၼ် ၶေႃႈထၢမ်
+# text wrapped in <mark></mark> will have a blue background
+respond-bubble-title = <mark>တုမ်ႉတွပ်ႇ</mark>
+respond-bubble-subtitle = ၸဝ်ႈၵဝ်ႇတုမ်ႉတွပ်ႇ ဢမ်ႇၼၼ် တွပ်ႇၶိုၼ်း ၸွမ်းၼင်ႇသၽႃႇဝ ဢၼ်ၸဝ်ႈၵဝ်ႇႁဵတ်းလႆႈ
+# text wrapped in <mark></mark> will have a blue background
+transcribe-bubble-title = <mark>ထွတ်ႇသဵင်ပဵၼ်တူဝ်လိၵ်ႈ</mark>
+transcribe-bubble-subtitle = ၸဝ်ႈၵဝ်ႇ တႅမ်ႈၸွမ်းၼင်ႇဢၼ်လႆႈငိၼ်း ၼႂ်းၾၢႆႊလ်သဵင်
+# text wrapped in <mark></mark> will have a blue background
+check-bubble-title = <mark>ထတ်းတူၺ်း</mark>
+check-bubble-subtitle = ၸဝ်ႈၵဝ်ႇထတ်းတူၺ်းဝႃႈ ၶေႃႈၵႂၢမ်းဢၼ်ထွတ်ႇသဵင်ပဵၼ်တူဝ်လိၵ်ႈဝႆႉၼၼ်ႉ ထုၵ်ႇမႅၼ်ႈၸွမ်း ၾၢႆႊလ်သဵင်ယဝ်ႉႁႃႉ?
+# text wrapped in <mark></mark> will have a blue background
+data-bubble-title = <mark>ၶေႃႈမုၼ်း</mark>
 contact-us = ၵပ်းသိုပ်ႇႁဝ်းၶႃႈ
 signup-input-placeholder = ထႅမ်သႂ်ႇဢီးမေးလ်ၸဝ်ႈၵဝ်ႇ
