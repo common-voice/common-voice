@@ -12,6 +12,7 @@ partnerships-foundations-description =
 partnerships-governments-header = လူင်ပွင်ၸိုင်ႈ
 partnerships-governments-description = ႁဝ်းၶႃႈ မီးတၢင်းသိူဝ်းၸႂ် တႃႇတေၵမ်ႉထႅမ်ပၼ် လွင်ႈၶဝ်ႈပႃးႁူမ်ႈၸွႆႈ ၶွင်ၽၢႆႇလူင်ပွင်ၸိုင်ႈ ၼႂ်းတွၼ်ႈ ပၢႆးၸၢင်ႊ (Technology)၊ လွင်ႈၶူင်သၢင်ႈမႂ်ႇ (Innovation) လႄႈ သုၼ်ႇလႆႈသုၼ်ႇပဵၼ်ႇတႃႇၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈ (Language rights) ယဝ်ႉ။ သင်ၸိူဝ်ႉဝႃႈ ၸဝ်ႈၵဝ်ႇ မီးၽႅၼ်ၵၢၼ် တႃႇတႄႇႁဵတ်း ၶူင်းၵၢၼ်လူင် (Major project) ဢမ်ႇၼၼ် ၵၢၼ်တူင်ႉၼိုင်ႈလူင် (Campaign) သေဢၼ်ဢၼ်ၼႆၸိုင် ၸဝ်ႈၵဝ်ႇၸၢင်ႈ <emailFragment> ၵပ်းသိုပ်ႇမႃး</emailFragment>လႆႈယူႇၶႃႈ။
 partnerships-academia-header = ၸၼ်ႉၸွမ်၊ ပၢႆးပၺ်ႇၺႃႇ လႄႈ ၽူႈၶူၼ်ႉၶႂႃႉ
+partnerships-academia-description = လွင်ႈၶူင်ႊသၢင်ႈပၢႆးဝူၼ်ႉမႂ်ႇဢၼ်ပိုတ်ႇၵႂၢင်ႈ (Open Innovation) ၼၼ်ႉ ပဵၼ်ႁူဝ်ၸႂ်လူင် ၶွင်ၵၢၼ်ႁဵတ်းသၢင်ႈႁဝ်းၶႃႈယဝ်ႉ။  တွၼ်ႈတႃႇ လွင်ႈႁူမ်ႈမိုဝ်းၶူၼ်ႉၶႂႃႉ ၵဵပ်းၶေႃႈမုၼ်း ဢမ်ႇၼၼ် လွင်ႈတွင်ႈထၢမ်ၸိူဝ်းၼႆႉ  <emailFragment>ၵပ်းသိုပ်ႇမႃးလႆႈယူႇ </emailFragment>
 partnerships-small-business-header = ၵၢၼ်ပၢႆးမၢၵ်ႈမီးဢွၼ်ႇ၊ ႁူမ်ႈပႃးတင်းသတၢတ်ႉဢပ်ႉထႅၵ်ႉၶၼေႃႇလေႃႇၸီႇလႄႈ AI
 partnerships-corporates-header = ၶွမ်ႇပၼီႇလူင် လႄႈ ၶွမ်ႇပၼီႇၽလႅတ်ႉၾွမ်ႇ
 partnerships-our-partners = ၽူႈႁူမ်ႈၽၢၵ်ႈႁဝ်းၶႃႈ
