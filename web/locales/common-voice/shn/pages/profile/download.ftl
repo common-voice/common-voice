@@ -15,4 +15,7 @@ download-selected = လိူၵ်ႈဝႆႉယဝ်ႉ
 download-start = လူတ်ႇဢဝ် ၶေႃႈမုၼ်းပရူဝ်ႊၾၢႆႊလ် (Profile)
 download-request = ယွၼ်းၶေႃႈမုၼ်းၾၢႆႊလ်သဵင်
 download-requests = ယွၼ်းလူတ်ႇဢဝ် ၾၢႆႊလ်သဵင်မိူဝ်ႈဢွၼ်တၢင်း
+download-requests-info = မိူဝ်ႈၸဝ်ႈၵဝ်ႇယွၼ်းၾၢႆႊလ်သဵင်ဢၼ်ဢတ်းဝႆႉၶွင်တူဝ်ၵဝ်ႇၼၼ်ႉ ႁဝ်းၶႃႈ တေဢဝ်မႃးႁူမ်ႈၵၼ် ႁႂ်ႈပဵၼ် ZIP ၾၢႆႊလ်လဵဝ်ၵၼ် ဢမ်ႇၼၼ် လၢႆၾၢႆႊလ်ပၼ်ၶႃႈ။ ၼႆႉပဵၼ် ၶေႃႈယွၼ်း မိူဝ်ႈပူၼ်ႉမႃး -
 download-request-button = လူတ်ႇလူင်း
+download-request-title = { $created }
+download-request-description = { $clipCount } ၾၢႆႊလ်သဵင်၊ သႅၼ်းၾၢႆႊလ်ၵဵပ်းႁွမ်တင်းမူတ်း{ $size } ဢႃႇယုတေသုတ်းသဵင်ႈ{ $expires }.
