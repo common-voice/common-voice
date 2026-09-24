@@ -1,5 +1,6 @@
 # PARTNERSHIPS PAGE
 partnerships-header = လွင်ႈႁူမ်ႈမိုဝ်း
+partnerships-header-text = တႃႇတေႁဵတ်းႁႂ်ႈ Common Voice ပဵၼ်မႃးၼၼ်ႉ လူဝ်ႇလႆႈပိုင်ႈလွင်ႈႁူမ်ႈမိုဝ်းၼမ်တႄႉတႄႉၶႃႈဢေႃႈ ႁဝ်းၶႃႈဢမ်ႇႁဵတ်းလႆႈႁင်းၵူၺ်း၊  ၶႂ်ႈႁူမ်ႈႁဵတ်းၵၢၼ် ၸွမ်းႁဝ်းၶႃႈၼႄႇ? ႁဝ်းၶႃႈ မုင်ႈမွင်းၶႂ်ႈလႆႈငိၼ်း ၶေႃႈၵႂၢမ်းတီႈၸဝ်ႈၵဝ်ႇယူႇတႃႇသေႇၶႃႈ ဢေႃႈ ။
 partnerships-get-in-touch = ၵပ်းသိုပ်ႇ
 partnerships-become-a-partner = ႁူမ်ႈပဵၼ်ၽူႈႁူမ်ႈၽၢၵ်ႈ Common Voice
 partnerships-community-header = တူင်ႇဝူင်းၵူၼ်း၊ ၽူႈၶူင်သၢင်ႈ လႄႈ တူင်ႇဝူင်းၵူၼ်းမိူင်း
