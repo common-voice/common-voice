@@ -16,3 +16,5 @@ validate-page-skip-button-shortcut = S
 validation-guidelines-title = ၶေႃႈၸီႉသင်ႇ
 validation-guideline-1 = ႁၢမ်ႈယွၼ်း ၶေႃႈမုၼ်းသုၼ်ႇတူဝ် (မိူၼ်ၼင်ႇ ၸိုဝ်ႈ၊ ၶေႃႈမုၼ်းငိုၼ်းတွင်း)
 validation-guideline-2 = ႁၢမ်ႈၸႂ်ႉၶေႃႈၵႂၢမ်းဢၼ်ဢမ်ႇယဵၼ်ႇငႄႈ၊ ၶေႃႈၵႂၢမ်းဢၼ်လိူၵ်ႈၽၢႆႇ ဢမ်ႇၼၼ် ၶေႃႈထၢမ် ဢၼ်မီးလွင်ႈတိူဝ်ႉၸႂ်ငၢႆႈ (Sensitive)
+validation-guideline-3 = သၢင်းလၢင်းလီ လႄႈ လူဢၢၼ်ယဝ်ႉပွင်ႇၸႂ်ငၢႆႈတႃႇၵူၼ်းၵူႈၵေႃႉၶႃႈ။
+validation-guideline-4 = ၸၢင်ႈတွပ်ႇလႆႈ လူၺ်ႈၸႂ်ႉၶေႃႈၵႂၢမ်းဢမ်ႇလၢႆထႅဝ်
