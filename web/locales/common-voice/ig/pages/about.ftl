@@ -143,3 +143,10 @@ about-playbook-how-project-governance-content-2 = Ọchịchị anyị gbadoro �
 about-playbook-how-project-governance-content-3 = Nzuzo, nchebe na ido anya.
 about-playbook-how-project-governance-content-4 = Nsonye n'ọgba ndị ọrụ na ime mkpebi.
 about-playbook-how-project-governance-content-5 = Uru na nkwanye ùgwù.
+about-playbook-how-project-governance-content-6 = Inye nkọwa ka e siri mee ihe nye ibe ya.
+about-playbook-how-project-governance-content-7 = <gọvernanceLink>Gụkwuo maka etu e si achịkwa anyị</gọvernanceLink>
+
+## How is Common Voice funded
+
+about-playbook-how-funded = Kedu ka Common Voice si enweta ego?
+about-playbook-how-funded-content-1 = Common Voice bụ ọrụ nke Mozilla Foundation, US 501c3. Ugbu a, ego niile ọrụ a na-enweta sitere na <philantropicGrantLinkego> ego enyemaka ebere</philantropicGrantLink>, na onyinye sitere n'aka ndị mmadụ si n'ebe dị iche iche n'ụwa gburugburu.
