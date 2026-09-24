@@ -1,5 +1,6 @@
 ## Languages Overview
 
+language-section-in-progress = တိုၵ်ႉႁဵတ်းသၢင်ႈယူႇ
 language-section-launched = ပိုတ်ႇတူဝ်ယဝ်ႉ
 language-total-progress = ႁူမ်ႈတင်းမူတ်း
 language-search-input =
