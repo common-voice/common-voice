@@ -23,3 +23,7 @@ download-request-archive-single = ၾၢႆႊလ် ZIP ဢၼ်လဵဝ် �
 download-request-archive-multiple = လႆႈၸႅၵ်ႇဢွၵ်ႇပဵၼ် ၾၢႆႊလ် ZIP { $archiveCount } ၾၢႆႊလ် ဢၼ်ၶဝ်ႈပႃးဝႆႉ
 download-request-assembling-description = ၾၢႆႊလ်ၶွင်ၸဝ်ႈၵဝ်ႇတိုၵ်ႉယူႇၼႂ်းၵၢၼ်ၵဵပ်းႁွမ်တွမ်ယူႇၶႃႈ။ ၶႅၼ်းတေႃႈ ဝၢႆးမႃးၶိုၼ်းမႃးထတ်းတူၺ်းထႅင်ႈၶႃႈ။
 download-request-refresh-button = လူတ်ႇမႂ်ႇ
+download-request-modal-title = လိင်ႉၶ်လူတ်ႇဢဝ်
+download-request-modal-description = ၼႆႉပဵၼ်လိင့်ၶ် တႃႇလူတ်ႇၾၢႆႊလ်  ZIP ၸဝ်ႈၵဝ်ႇ။
+download-request-link-text = ၾၢႆႊလ် ZIP #{ $offset }  ၼႂ်း { $total } ၾၢႆႊလ်
+download-request-metadata-link = တူဝ်လိၵ်ႈ တူၼ်ႈထႅဝ်ၶေႃႈၵႂၢမ်း
