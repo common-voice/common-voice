@@ -1,0 +1,46 @@
+name: Build image and push to GHCR
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  packages: write
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Log in to GitHub Container Registry
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Build and push image
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          file: docker/Dockerfile
+          push: true
+          build-args: |
+            COMMIT=${{ github.sha }}
+          tags: |
+            ghcr.io/nafisaa11/common-voice:latest
+            ghcr.io/nafisaa11/common-voice:${{ github.sha }}
+          platforms: linux/amd64
+
+      - name: Trigger Dokploy Deployment
+        run: |
+          curl -X POST \
+            "${{ secrets.DOKPLOY_URL }}/api/application.deploy" \
+            -H "accept: application/json" \
+            -H "x-api-key: ${{ secrets.DOKPLOY_AUTH_TOKEN }}" \
+            -H "Content-Type: application/json" \
+            -d "{\"applicationId\": \"${{ secrets.DOKPLOY_APPLICATION_ID }}\"}"

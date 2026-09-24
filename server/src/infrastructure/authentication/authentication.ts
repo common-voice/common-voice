@@ -9,8 +9,11 @@ export const COMMON_VOICE_DOMAIN_MAP: Readonly<Record<Environment, string>> = {
   local: 'http://localhost:9000', // TODO: use SERVER_PORT
 }
 
-export const callbackURL = (env: Environment) =>
-  COMMON_VOICE_DOMAIN_MAP[env] + CALLBACK_URL
+export const callbackURL = (env: Environment) => {
+  const cvUrl = getConfig().CUSTOM_URL
+  const base = cvUrl ?? COMMON_VOICE_DOMAIN_MAP[env]
+  return base.replace(/\/$/, '') + CALLBACK_URL
+}
 
 export type CreateClientCredentialsResponse = {
   userId: string

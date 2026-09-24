@@ -69,6 +69,7 @@ export type CommonVoiceConfig = {
   EMAIL_USERNAME_FROM: string
   EMAIL_USERNAME_TO: string
   AUTH_SERVICE_URL: string
+  CUSTOM_URL: string
 }
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -140,6 +141,7 @@ const BASE_CONFIG: CommonVoiceConfig = {
   EMAIL_USERNAME_FROM: configEntry('CV_EMAIL_USERNAME_FROM', null),
   EMAIL_USERNAME_TO: configEntry('CV_EMAIL_USERNAME_TO', null),
   AUTH_SERVICE_URL: configEntry('CV_AUTH_SERVICE_URL', 'http://gha-auth:8000'),
+  CUSTOM_URL: configEntry('CV_CUSTOM_URL', undefined),
 }
 
 let injectedConfig: CommonVoiceConfig

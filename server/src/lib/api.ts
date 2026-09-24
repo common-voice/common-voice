@@ -846,12 +846,13 @@ export default class API {
 
     const sourceUrl = request.header('Referer')
     const env = getConfig().ENVIRONMENT
-    const listUrl =
-      env === 'prod'
-        ? 'https://abdri3ttkb.execute-api.us-east-2.amazonaws.com/api/newsletter/commonvoicemozillaorg'
-        : ['sandbox', 'stage'].includes(env)
-        ? 'https://kmq73rfvbh.execute-api.us-east-2.amazonaws.com/api/newsletter/commonvoicemozillaorg'
-        : ''
+    const listUrl = getConfig().CUSTOM_URL
+      ? ''
+      : env === 'prod'
+      ? 'https://abdri3ttkb.execute-api.us-east-2.amazonaws.com/api/newsletter/commonvoicemozillaorg'
+      : ['sandbox', 'stage'].includes(env)
+      ? 'https://kmq73rfvbh.execute-api.us-east-2.amazonaws.com/api/newsletter/commonvoicemozillaorg'
+      : ''
 
     if (listUrl === '') {
       console.error(
@@ -1250,9 +1251,11 @@ export default class API {
     } catch {
       // malformed or missing header — refererOrigin stays ''
     }
+    const custom = getConfig().CUSTOM_URL
     const allowedOrigins = [
-      'https://commonvoice.mozilla.org', // production
-      'https://commonvoice.allizom.org', // staging + sandbox
+      'https://commonvoice.mozilla.org',
+      'https://commonvoice.allizom.org',
+      ...(custom ? [new URL(custom).origin] : []),
     ]
     const isLegitimateOrigin =
       allowedOrigins.includes(refererOrigin) ||
