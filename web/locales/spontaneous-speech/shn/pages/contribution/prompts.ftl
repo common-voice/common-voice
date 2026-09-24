@@ -29,3 +29,6 @@ submit-all-button = သူင်ႇတင်းမူတ်း
 ## Explainer text (Respond to Prompt)
 
 learn-how-to-use-prompts = ႁဵၼ်းႁူႉလၢႆးၸႂ်ႉတိုဝ်းၼႃႈလိၵ်ႈၼႆႉ
+learn-how-to-use-prompts-explanation = တွပ်ႇပၼ်ၶေႃႈသင်ႇ ႁႂ်ႈပဵၼ်သၽႃႇဝလီသုတ်း ၼႂ်းၶေႃႈၵႂၢမ်း သွင်သၢမ်ၶေႃႈၼၼ်ႉၵူၺ်းၶႃႈ။ တေလႆႈမၼ်ႈၸႂ်ဝႃႈ ၶေႃႈၵႂၢမ်းလၢတ်ႈၶွင်ၸဝ်ႈၵဝ်ႇ မီးလွင်ႈၼပ်ႉယမ် လႄႈ ဢမ်ႇမီးၶေႃႈၵႂၢမ်းႁၢႆႉၸႃႉတိူဝ်ႉၸႂ်ၶႃႈၼႃႈ။
+learn-how-to-use-prompts-guidance = ၼဵၵ်း <guidanceLink>တီႈၼႆႈ </guidanceLink> တွၼ်ႈတႃႇႁဵၼ်းႁူႉ လၢႆးၸႂ်ႉတိုဝ်း ၼႃႈလိၵ်ႈၼႆႉ။
+learn-how-to-use-transcribe = ႁဵၼ်းႁူႉ လၢႆးထွတ်ႇသဵင်ပဵၼ်တူဝ်လိၵ်ႈ
