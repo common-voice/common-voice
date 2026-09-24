@@ -25,5 +25,8 @@ check-bubble-title = <mark>ထတ်းတူၺ်း</mark>
 check-bubble-subtitle = ၸဝ်ႈၵဝ်ႇထတ်းတူၺ်းဝႃႈ ၶေႃႈၵႂၢမ်းဢၼ်ထွတ်ႇသဵင်ပဵၼ်တူဝ်လိၵ်ႈဝႆႉၼၼ်ႉ ထုၵ်ႇမႅၼ်ႈၸွမ်း ၾၢႆႊလ်သဵင်ယဝ်ႉႁႃႉ?
 # text wrapped in <mark></mark> will have a blue background
 data-bubble-title = <mark>ၶေႃႈမုၼ်း</mark>
+data-bubble-subtitle = ႁဝ်းၶႃႈ တေပိုၼ်ၽႄၸုမ်ႇၶေႃႈမုၼ်းဢွၵ်ႇမႃးပဵၼ်ၶၢဝ်းၸွမ်းၼင်ႇၶၢဝ်းယၢမ်းမၵ်းမၼ်ႈဝႆႉ။
 contact-us = ၵပ်းသိုပ်ႇႁဝ်းၶႃႈ
+contact-us-title = သူၼ်ၸႂ်တႃႇၶဝ်ႈႁူမ်ႈၸွမ်း ၶူင်းၵၢၼ်ၼႆႉ ဢမ်ႇၼၼ် ႁူမ်ႈမိုဝ်းၵၼ်တင်းႁဝ်းၶႃႈႁႃႉ?
+contact-us-email = ဢီးမေးလ် - <emailFragment>commonvoice@mozilla.com</emailFragment>
 signup-input-placeholder = ထႅမ်သႂ်ႇဢီးမေးလ်ၸဝ်ႈၵဝ်ႇ
