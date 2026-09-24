@@ -141,3 +141,4 @@ about-playbook-how-project-governance = Kedu otu e si eme mkpebi ọrụ?
 about-playbook-how-project-governance-content-1 = Ọ bụ ọgbakọ ndị ọrụ na-achọ mgbanwe dị iche iche mere Mozilla Common Voice ka ọ dị irè, ndị ọkà sayensị asụsụ, ndị ọkà sayensị data, ndị ma anya agụmakwụkwọ na ndị mmepụta (injinịa) ngwaọrụ kọmputa si n'ụwa niile gbara gburugburu. Ọ bụ Mozilla Foundation na-ahụ maka ọrụ a.
 about-playbook-how-project-governance-content-2 = Ọchịchị anyị gbadoro ụkwụ n'ìdé:
 about-playbook-how-project-governance-content-3 = Nzuzo, nchebe na ido anya.
+about-playbook-how-project-governance-content-4 = Nsonye n'ọgba ndị ọrụ na ime mkpebi.
