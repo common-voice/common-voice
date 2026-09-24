@@ -14,3 +14,4 @@ validate-page-skip-button-shortcut = S
 ## Validation guidelines
 
 validation-guidelines-title = ၶေႃႈၸီႉသင်ႇ
+validation-guideline-1 = ႁၢမ်ႈယွၼ်း ၶေႃႈမုၼ်းသုၼ်ႇတူဝ် (မိူၼ်ၼင်ႇ ၸိုဝ်ႈ၊ ၶေႃႈမုၼ်းငိုၼ်းတွင်း)
