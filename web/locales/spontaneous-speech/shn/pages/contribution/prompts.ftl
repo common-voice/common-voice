@@ -17,3 +17,15 @@ error-platform-webview = ၵၢၼ်ဢတ်းသဵင် တေၸၢင်
 error-recording-too-short-seconds = ၵၢၼ်ဢတ်းသဵင် မၼ်းပွတ်းပူၼ်ႉၼႃႇၶႃႈ။ ၶၢဝ်းယၢမ်း ဢၼ်ဢေႇသုတ်းပဵၼ် { $minDurationSeconds } သႅၵ်ႉၵၢၼ်ႉၶႃႈ။
 error-recording-too-long-minutes = ၵၢၼ်ဢတ်းသဵင် မၼ်းယၢဝ်းပူၼ်ႉၼႃႇၶႃႈ။ ၶၢဝ်းယၢမ်း ဢၼ်ၼမ်သုတ်းပဵၼ် { $minDurationSeconds } သႅၵ်ႉၵၢၼ်ႉၶႃႈ။
 cannot-play-audio = ဢမ်ႇၸၢင်ႈလဵၼ်ႈ ၾၢႆႊလ်သဵင်လႆႈၶႃႈ၊ ၶႅၼ်းတေႃႈ ၸၢမ်းႁဵတ်းၶိုၼ်းတူၺ်းထႅင်ႈၶႃႈ။
+prompt-submitted-success = သူင်ႇၶေႃႈတွပ်ႇယဝ်ႉတူဝ်ႈလီငၢမ်းယဝ်ႉၶႃႈ။
+prompt-response-deleted-success = မွတ်ႇၶေႃႈတွပ်ႇယဝ်ႉတူဝ်ႈလီငၢမ်းယဝ်ႉၶႃႈ။
+# For the button to delete a response to a prompt
+delete = မွတ်ႇ
+# For the disabled button on a prompt that indicates a prompt is already submitted
+submitted = သူင်ႇ
+# For the button on the Respond to prompts page which can be used to submit all responses at once
+submit-all-button = သူင်ႇတင်းမူတ်း
+
+## Explainer text (Respond to Prompt)
+
+learn-how-to-use-prompts = ႁဵၼ်းႁူႉလၢႆးၸႂ်ႉတိုဝ်းၼႃႈလိၵ်ႈၼႆႉ
