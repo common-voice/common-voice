@@ -1,7 +1,7 @@
 ## Profile Download
 
 download-q = ၶႂ်ႈလူတ်ႇလူင်းၶေႃႈမုၼ်းၶွင်သူၸဝ်ႈ?
-download-info = လၢတ်ႈၼႄႁဝ်းၶႃႈဝႃႈ ၸဝ်ႈၵဝ်ႇ ၶႂ်ႈလူတ်းဢဝ်သင်
+download-info = လၢတ်ႈၼႄႁဝ်းၶႃႈဝႃႈ ၸဝ်ႈၵဝ်ႇ ၶႂ်ႈလူတ်ႇဢဝ်သင်
 download-profile-title = ပရူဝ်ႊၾၢႆႊလ်
 download-profile-info = ပႃးၸဵမ် ဢီးမေးလ်၊ ၸိုဝ်ႈၽူႈၸႂ်ႉတိုဝ်း (Username) လႄႈ ၶေႃႈမုၼ်းပၢႆးႁူဝ်ၵူၼ်းမိူင်း (Demographic info)၊ ၸၢင်ႈၶဝ်ႈၸႂ်ႉတိုဝ်းလႆႈၵမ်းလဵဝ်ယဝ်ႉၶႃႈ။
 download-profile-size = မီးဢမ်ႇလၢႆႇၿၢႆႉတ်ၵူၺ်း
@@ -27,3 +27,4 @@ download-request-modal-title = လိင်ႉၶ်လူတ်ႇဢဝ်
 download-request-modal-description = ၼႆႉပဵၼ်လိင့်ၶ် တႃႇလူတ်ႇၾၢႆႊလ်  ZIP ၸဝ်ႈၵဝ်ႇ။
 download-request-link-text = ၾၢႆႊလ် ZIP #{ $offset }  ၼႂ်း { $total } ၾၢႆႊလ်
 download-request-metadata-link = တူဝ်လိၵ်ႈ တူၼ်ႈထႅဝ်ၶေႃႈၵႂၢမ်း
+download-request-link-single = ၸဝ်ႈၵဝ်ႇ ယင်းၸၢင်ႈၵေႃႇပီႇ လႄႈ ဝၢင်း လိင်ႉၶ် URL ၵမ်းသိုဝ်ႈ ၶဝ်ႈၼႂ်းပရူဝ်ႇၵရႅမ်ႇၸတ်းၵၢၼ်လူတ်ႇ(Download manager) ဢၼ်ၸဝ်ႈၵဝ်ႇသူင်ၼၼ်ႉလႆႈယူႇၶႃႈ။ လိင်ႉၶ်ၸိူဝ်းၼႆႉတေမူတ်းဢႃႇယုၼႂ်း 12 ၸူဝ်ႈမူင်း ၵူၺ်းၵႃႈ ၸဝ်ႈၵဝ်ႇၸၢင်ႈၶိုၼ်းမႃးတီႈ ၼႃႈလိၵ်ႈၼႆႉသေသၢင်ႈလိင်ႉၶ်မႂ်ႇလႆႈၵူႈၶၢဝ်းၶႃႈယဝ်ႉ။
