@@ -6,6 +6,9 @@ language-section-launched = ပိုတ်ႇတူဝ်ယဝ်ႉ
 language-section-launched-description = "ပုၼ်ႈတႃႇ ၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈ ဢၼ်ပိုတ်ႇတူဝ်ၸႂ်ႉၵၢၼ်ယဝ်ႉၸိူဝ်းၼႆႉ ၼၼ်ႉ, ၼႃႈလိၵ်ႈဝႅပ်ႉသၢႆႉတ် <localizationGlossaryLink>လႆႈပိၼ်ႇၽႃႇသႃႇ လီငၢမ်းယဝ်ႉၶႃႈ၊ </localizationGlossaryLink>, ယဝ်ႉၵေႃႈ မီး<sentenceCollectionGlossaryLink>တူၼ်ႈထႅဝ်ၶေႃႈၵႂၢမ်း ဢၼ်ၵဵပ်းႁွမ်ဝႆႉယဝ်ႉ</sentenceCollectionGlossaryLink>ပုၼ်ႈတႃႇတေပိုတ်ႇႁႂ်ႈၶဝ်ႈမႃးၸွႆႈထႅမ်ၵၼ် ၼႂ်းလွင်ႈ<speakLink>ၵၢၼ်လၢတ်ႈ(ဢတ်းသဵင်)</speakLink>  လႄႈ <listenLink>ၵၢၼ်ထွမ်ႇ(ထတ်းသဵင်)</listenLink>  ၼၼ်ႉၶႃႈယဝ်ႉ။
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
 language-section-last-updated = ဢၢပ်ႇၻဵတ်ႉမႂ်ႇသုတ်း{ $lastUpdatedTimeStamp }
+language-communities = ၶႅၼ်းတေႃႈဝူၼ်ႉသွၼ်ႇတႃႇတေသႂ်ႇ သၢႆတၢင်းတူင်ႇဝူင်းၸဝ်ႈၵဝ်ႇ <communitiesLink>COMMUNITIES.md ၽိုၼ်လိၵ်ႈဢၼ်မီးတီႈၼိူဝ် GitHub </communitiesLink> ၼၼ်ႉသေၵမ်း။
+languages-show-more = တူၺ်းၶေႃႈမုၼ်းထႅင်ႈ
+languages-show-less = ၼႄဢေႇလူင်း
 language-total-progress = ႁူမ်ႈတင်းမူတ်း
 language-search-input =
     .placeholder = သွၵ်ႈႁႃ
