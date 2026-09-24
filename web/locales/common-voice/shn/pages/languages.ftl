@@ -1,6 +1,7 @@
 ## Languages Overview
 
 language-section-in-progress = တိုၵ်ႉႁဵတ်းသၢင်ႈယူႇ
+language-section-in-progress-new-description = ၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈၸိူဝ်းၼႆႉ ယၢမ်းလဵဝ်တိုၵ်ႉယူႇၼႂ်းၶၵ်းတွၼ်ႈၵၢၼ်ပူၵ်းပွင်ႁုၼ်ႈမုၼ်းၶွင်တူင်ႇဝူင်းၵူၼ်းယူႇၶႃႈ။ တိုၵ်ႉလူဝ်ႇႁဵတ်း <localizationGlossaryLink>ၵၢၼ်ပိၼ်ႇၽႃႇသႃႇၼႃႈလိၵ်ႈ ဝႅပ်ႉသၢႆႉတ်</localizationGlossaryLink> လႄႈ <sentenceCollectionGlossaryLink>ၵၢၼ်ၵဵပ်းႁွမ်တူၼ်ႈထႅဝ်ၶေႃႈၵႂၢမ်း</sentenceCollectionGlossaryLink> ယူႇၶႃႈ။
 language-section-launched = ပိုတ်ႇတူဝ်ယဝ်ႉ
 language-total-progress = ႁူမ်ႈတင်းမူတ်း
 language-search-input =
