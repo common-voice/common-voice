@@ -113,4 +113,5 @@ get-started = တႄႇႁဵတ်းၵၢၼ် <icon><icon>
 
 ## Action items section
 
+action-items-section-title = Common Voice ၼႆႉ ပဵၼ်ပလႅတ်ႉၾွမ်ႊ ဢၼ်ဢမ်ႇလႆႈသဵင်ႈငိုၼ်း၊ ဢၼ်ပိုတ်ႇၽုၺ်ႇ တႃႇႁဵတ်းဢွၵ်ႇၶေႃႈမုၼ်း ဢၼ်တူင်ႇဝူင်းၵူၼ်း ဢွၼ်ႁူဝ်။
 answer = ၶေႃႈတွပ်ႇ
