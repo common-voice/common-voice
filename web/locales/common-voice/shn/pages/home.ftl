@@ -88,6 +88,9 @@ spontaneous-speech = သဵင်လၢတ်ႈၵမ်းလဵဝ်ဢမ�
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = ၵၢၼ်ႁူမ်ႈမိုဝ်း, ၶၢဝ်ႇသၢၼ် လႄႈ လွင်ႈတၢင်း, တူင်ႇဝူင်းၵူၼ်း လႄႈ ၽႃႇသႃႇၵႂၢမ်းလၢတ်
+about-us-menu-item-tooltip = ႁဵၼ်းႁူႉ လွင်ႈၼႃႈၵၢၼ် လႄႈ ၸုမ်းႁဵတ်းၵၢၼ် ဢၼ်ယူႇၽၢႆႇလင် Common Voice
+partnerships-menu-item-tooltip = ၶူၼ်ႉႁႃ တူၺ်းး ၸုမ်းၸိူဝ်းၵမ်ႉထႅမ် Common Voice ၼႂ်းလုမ်ႈၾႃႉ။
+press-and-stories-menu-item-tooltip = ဢၢၼ်ႇလွင်ႈတၢင်း, ၶေႃႈမုၼ်းမႂ်ႇ, လႄႈ ၶၢဝ်ႇသၢၼ်ပိုၼ်ၽႄ ၶွင် Common Voice
 
 ## Action items section
 
