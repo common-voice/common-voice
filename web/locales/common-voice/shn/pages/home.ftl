@@ -107,6 +107,9 @@ community-and-languages-menu-item-aria-label = ၶူၼ်ႉႁႃ တူၺ�
 hero-title = ပၢႆးၸၢင်ႊ ဢၼ်လၢတ်ႈၽႃႇသႃႇၵႂၢမ်းၸဝ်ႈၵဝ်ႇ
 # Text wrapped in <bold></bold> will be shown in bold font
 hero-subtitle-1 = <bold>ၵွပ်ႈသင် AI ၼႆႉ ၵိုင်ႇလီႁဵတ်းၵၢၼ်ပၼ် ၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈ ၼႂ်းလုမ်ႈၾႃႉ ၵမ်ႈၽွင်ႈၵူၺ်း?</bold>
+hero-subtitle-2 = ၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈႁဝ်းၼႆႉ ပဵၼ်ပိုၼ်းႁဝ်း၊ တူင်ႇဝူင်းၵူၼ်းႁဝ်း၊ ၾိင်ႈငႄႈႁဝ်း၊ မႃးႁဝ်းၶႃႈ ႁဵတ်းဢွၵ်ႇ ၶေႃႈမုၼ်း ဢၼ်ႁဝ်းၶႃႈ ၶႂ်ႈႁၼ် ၼႂ်းလုမ်ႈၾႃႉၼၼ်ႉ။
+# icon is an arrow that points downwards
+get-started = တႄႇႁဵတ်းၵၢၼ် <icon><icon>
 
 ## Action items section
 
