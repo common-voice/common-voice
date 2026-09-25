@@ -54,7 +54,7 @@ jobs:
 
       - name: Authenticate with Docker Registry
         id: docker-login
-        uses: docker/login-action@v3
+        uses: docker/login-action@v4
         with:
           registry: us-docker.pkg.dev
           username: oauth2accesstoken
