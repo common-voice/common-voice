@@ -186,3 +186,5 @@ partner-section-subtitle-civil-society = <bold>တူင်ႇဝူင်းၵ
 partner-section-subtitle-philantropy = <bold>ၵၢၼ်ပရႁိတ</bold> - ၶဝ်ႈမႃးပဵၼ်ၽူႈၵမ်ႉထႅမ် (Sponsor) ၼႂ်းၵၢၼ်သၢင်ႈၸုမ်းၶေႃႈမုၼ်း၊ တႃႇတေပၼ်ႁႅင်း လွင်ႈၶူင်သၢင်ႈ လႄႈ လွင်ႈၶိုၼ်ႈယႂ်ႇ ၼႂ်းပိုၼ်ႉတီႈ။
 # icon is an arrow that points to the right
 get-in-touch-button = ၵပ်းသိုပ်ႇႁဝ်းၶႃႈ
+# Partners section
+our-partners-include = ၽူႈႁူမ်ႈမိုဝ်း ၶွင်ႁဝ်းၶႃႈ ပႃးဝႆႉ.
