@@ -137,3 +137,4 @@ find-us-on-matrix-content-v2 = Matrix ၼႆႉ ပဵၼ် ပရူဝ်ႇ�
 # label for button
 find-us-on-element-action-1 = Element
 find-us-on-matrix-action-2 = ၶိူင်ႈတိုဝ်းတၢင်ႇၸိူဝ်း
+ask-mozilla-share = ယွၼ်းႁႂ်ႈ Mozilla ၸွႆႈပိုၼ်ၽႄ ပၢင်မုင်ႈမၢႆၸဝ်ႈၵဝ်ႇ
