@@ -142,3 +142,7 @@ ask-mozilla-share-content = မီးပၢင်မုင်ႈမၢႆ ဢၼ
 # label for button
 ask-mozilla-share-action = ပိုၼ်ၽႄ ပၢင်မုင်ႈမၢႆၸဝ်ႈၵဝ်ႇ
 download-contribution-certificate = လူတ်ႇဢဝ်ဝႂ်ယွင်ႈယေႃးလွင်ႈၸွႆႈထႅမ်ၸဝ်ႈၵဝ်ႇ
+download-contribution-certificate-content = လူတ်ႇဢဝ် ဝႂ်ယုၵ်ႉယွင်ႈ တွၼ်ႈတႃႇပၢင်မုင်ႈမၢႆၸဝ်ႈၵဝ်ႇ ဢမ်ႇၼၼ် တွၼ်ႈတႃႇတူဝ်ၸဝ်ႈၵဝ်ႇ မိူဝ်ႈလႆႈၶဝ်ႈမႃးမီးသုၼ်ႇၸွႆႈထႅမ် ၼႂ်း Common Voice  — လွင်ႈတၢင်းၸိူဝ်းၼႆႉ တေဢမ်ႇၸၢင်ႈပဵၼ်လႆႈ သင်ဝႃႈဢမ်ႇပႃး ၸဝ်ႈၵဝ်ႇၶႃႈ!
+# label for button
+download-contribution-certificate-action = ႁပ်ႉဢဝ် ဝႂ်ယုၵ်ႉယွင်ႈ ၸဝ်ႈၵဝ်ႇ
+contribute-github = ၶဝ်ႈမႃးၸွႆႈထႅမ် ၼႂ်း GitHub
