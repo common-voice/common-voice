@@ -91,6 +91,13 @@ about-menu-tooltip = ၵၢၼ်ႁူမ်ႈမိုဝ်း, ၶၢဝ်
 about-us-menu-item-tooltip = ႁဵၼ်းႁူႉ လွင်ႈၼႃႈၵၢၼ် လႄႈ ၸုမ်းႁဵတ်းၵၢၼ် ဢၼ်ယူႇၽၢႆႇလင် Common Voice
 partnerships-menu-item-tooltip = ၶူၼ်ႉႁႃ တူၺ်းး ၸုမ်းၸိူဝ်းၵမ်ႉထႅမ် Common Voice ၼႂ်းလုမ်ႈၾႃႉ။
 press-and-stories-menu-item-tooltip = ဢၢၼ်ႇလွင်ႈတၢင်း, ၶေႃႈမုၼ်းမႂ်ႇ, လႄႈ ၶၢဝ်ႇသၢၼ်ပိုၼ်ၽႄ ၶွင် Common Voice
+community-and-languages-menu-item-tooltip = ၵပ်းသိုပ်ႇၸူးတူင်ႇဝူင်းႁဝ်းသေ တူၺ်းၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈဢၼ်ၵမ်ႉထႅမ်
+
+## MENU ITEM ARIA LABELS
+
+about-menu-aria-label = မေးၼူး တွၼ်ႈတႃႇတႃႇၶဝ်ႈတူၺ်း လွင်ႈႁူမ်ႈႁွမ်း၊ ၶၢဝ်ႇသၢၼ် လႄႈ လွင်ႈတၢင်း, တူင်ႇဝူင်းၵူၼ်းလႄႈ ၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈ။
+about-us-menu-aria-label = ၵဵဝ်ႇလူၺ်ႈ မေးၼူး တၢင်းလိူၵ်ႈ
+about-us-menu-item-aria-label = မေးၼူး တၢင်းလိူၵ်ႈ ၵဵဝ်ႇလူၺ်ႈႁဝ်း
 
 ## Action items section
 
