@@ -182,3 +182,7 @@ partner-section-title = ႁူမ်ႈမိုဝ်းႁဵတ်းၵၢ�
 partner-section-subtitle-tech-companies = <bold>ၶွမ်ႇပၼီႇပၢႆးၸၢင်ႊ</bold> - လူင်းတိုၼ်းၼႂ်းၵၢၼ်ၶူင်ႊသၢင်ႈ ၶေႃႈမုၼ်းပိုတ်ႇၽုၺ်ႇ တႃႇပိူင်သၢင်ႈ AI ဢၼ်ၸႂ်ႉၽႃႇသႃႇလၢႆၽႃႇသႃႇ ဢၼ်ႁိူဝ်ႈႁိူင်းၶိုၼ်ႈယႂ်ႇ။
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-civil-society = <bold>တူင်ႇဝူင်းၵူၼ်းမိူင်းလႄႈ ၽူႈၶူၼ်ႉၶႂႃႉ</bold> - သၢင်ႈဢွၵ်ႇ၊ ႁပ်ႉႁွင်းလႄႈ ပိုၼ်ၽႄပၼ် ၶေႃႈမုၼ်းဢၼ်မီးၽွၼ်းလီ လူၺ်ႈဢမ်ႇလႆႈသဵင်ႈငိုၼ်း။
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>ၵၢၼ်ပရႁိတ</bold> - ၶဝ်ႈမႃးပဵၼ်ၽူႈၵမ်ႉထႅမ် (Sponsor) ၼႂ်းၵၢၼ်သၢင်ႈၸုမ်းၶေႃႈမုၼ်း၊ တႃႇတေပၼ်ႁႅင်း လွင်ႈၶူင်သၢင်ႈ လႄႈ လွင်ႈၶိုၼ်ႈယႂ်ႇ ၼႂ်းပိုၼ်ႉတီႈ။
+# icon is an arrow that points to the right
+get-in-touch-button = ၵပ်းသိုပ်ႇႁဝ်းၶႃႈ
