@@ -131,3 +131,5 @@ community-section-title-202601 = ဢၼ်လႆႈႁပ်ႉႁႅင်း�
 join-discord-community = ၶဝ်ႈႁူမ်ႈတူင်ႇဝူင်း Discord
 # label for button
 join-discord-community-action = ၶဝ်ႈႁူမ်ႈၸွမ်းႁဝ်းၶႃႈ ၼႂ်း Discord
+join-discord-community-content = ၶဝ်ႈႁူမ်ႈဢုပ်ႇဢူဝ်း ၼႂ်းတူင်ႇဝူင်းၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈ၊ ထၢမ်ၶေႃႈထၢမ် လႄႈ ႁဵၼ်းႁူႉ လွင်ႈတၢင်းပၢင်မုင်ႈမၢႆလႄႈ လွင်ႈပၢင်ဢုပ်ႇဢူဝ်း ဢၼ်တေၸတ်းႁဵတ်း ၼႂ်းၶၢဝ်းၼႃႈ။
+find-us-on-matrix = ၶူၼ်ႉႁႃ ႁဝ်းၶႃႈတီႈ Matrix
