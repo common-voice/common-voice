@@ -81,6 +81,8 @@ review-questions = ၵူတ်ႇထတ်း ၶေႃႈထၢမ်
 transcribe-audio = ထွတ်ႇသဵင်ပဵၼ်တူဝ်လိၵ်ႈ
 press-and-stories = ၶၢဝ်ႇသၢၼ် လႄႈ လွင်ႈတၢင်း
 community-and-languages = တူင်ႇဝူင်းၵူၼ်းလႄႈ ၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈ
+about-us = ၵဵဝ်ႇလူၺ်ႈႁဝ်း
+scripted-speech = သဵင်လၢတ်ႈၸွမ်းတူဝ်လိၵ်ႈ
 
 ## Action items section
 
