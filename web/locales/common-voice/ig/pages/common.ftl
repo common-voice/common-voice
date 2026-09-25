@@ -4,6 +4,8 @@
 
 ## Languages
 
+aa = Afar
+aat = Arvanitika
 ab = Ásụ̀sụ́ Ábụ́kààzị̀
 ace = Ásụ̀sụ́ Ésíníìsì
 ady = Ásụ̀sụ́ Ádị́géyì

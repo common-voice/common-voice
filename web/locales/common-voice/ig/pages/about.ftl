@@ -151,3 +151,4 @@ about-playbook-how-project-governance-content-7 = <gọvernanceLink>Gụkwuo mak
 about-playbook-how-funded = Kedu ka Common Voice si enweta ego?
 about-playbook-how-funded-content-1 = Common Voice bụ ọrụ nke Mozilla Foundation, US 501c3. Ugbu a, ego niile ọrụ a na-enweta sitere na <philantropicGrantLinkego> ego enyemaka ebere</philantropicGrantLink>, na onyinye sitere n'aka ndị mmadụ si n'ebe dị iche iche n'ụwa gburugburu.
 about-playbook-how-funded-content-2 = Ọ na-eri ego nke ukwuu ịkpọbata na iweputa ntọala data mgbe ọ bụla, imewanye platfọọm ahụ na <africaMradiLink></africaMradiLink> ime ka emume ọgbakọ ndị ọrụ rụọ ọrụ.
+about-playbook-how-funded-content-3 = Ọ bụrụ na ọ ga-amasị gị ma ọ bụ ótù ọrụ gị ịtụnye ụtụ tinye n'ọrụ a, ị nwere ike mee <donateLink>nye</donateLink> ma ọ bụ kpọturu ndị ótù nrụkọrịta ọrụ anyị na </emailFragment>.
