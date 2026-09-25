@@ -98,6 +98,15 @@ community-and-languages-menu-item-tooltip = ၵပ်းသိုပ်ႇၸူ
 about-menu-aria-label = မေးၼူး တွၼ်ႈတႃႇတႃႇၶဝ်ႈတူၺ်း လွင်ႈႁူမ်ႈႁွမ်း၊ ၶၢဝ်ႇသၢၼ် လႄႈ လွင်ႈတၢင်း, တူင်ႇဝူင်းၵူၼ်းလႄႈ ၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈ။
 about-us-menu-aria-label = ၵဵဝ်ႇလူၺ်ႈ မေးၼူး တၢင်းလိူၵ်ႈ
 about-us-menu-item-aria-label = မေးၼူး တၢင်းလိူၵ်ႈ ၵဵဝ်ႇလူၺ်ႈႁဝ်း
+partnerships-menu-item-aria-label = ႁဵၼ်းႁူႉ လွင်ႈၵၢၼ်ႁူမ်ႈမိုဝ်းတင်း Common Voice
+press-and-stories-menu-item-aria-label = ၶဝ်ႈတူၺ်း ၶၢဝ်ႇသၢၼ်ပိုၼ်ၽႄ လႄႈ လွင်ႈတၢင်း ဢၼ်ၵဵဝ်ႇလူၺ်ႈ Common Voice
+community-and-languages-menu-item-aria-label = ၶူၼ်ႉႁႃ တူၺ်းတူင်ႇဝူင်းၵူၼ်းလႄႈ ၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈ ဢၼ် Common Voice ၵမ်ႉထႅမ်ပၼ်
+
+## Hero section
+
+hero-title = ပၢႆးၸၢင်ႊ ဢၼ်လၢတ်ႈၽႃႇသႃႇၵႂၢမ်းၸဝ်ႈၵဝ်ႇ
+# Text wrapped in <bold></bold> will be shown in bold font
+hero-subtitle-1 = <bold>ၵွပ်ႈသင် AI ၼႆႉ ၵိုင်ႇလီႁဵတ်းၵၢၼ်ပၼ် ၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈ ၼႂ်းလုမ်ႈၾႃႉ ၵမ်ႈၽွင်ႈၵူၺ်း?</bold>
 
 ## Action items section
 
