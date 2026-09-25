@@ -34,6 +34,11 @@ misreadings-explanation-7 = ၶတ်းၸႂ်ဢၢၼ်ႇၶေႃႈၵ�
 misreadings-example-1 = ႁဝ်းၶႃႈတေဢွၵ်ႇၵႂႃႇၵိၼ်ၵေႃႇၾီႇၶႃႈ။
 misreadings-example-2 = ႁဝ်းၶႃႈတိုၵ်ႉတေၵႂႃႇၵိၼ်ၵေႃႇၾီႇ
 misreadings-example-3 = ႁဝ်းၶႃႈတိုၵ်ႉတေၵႂႃႇၵိၼ်ၵေႃႇၾီႇ
+misreadings-example-4 = မႅင်းၽိုင်ႈလူင် မိၼ်လတ်းၵႂႃႇ ဝႆးဝႆး
+misreadings-tip-1 = [ၵိုင်ႇလီပဵၼ် “We are”]
+misreadings-tip-2 = [ဢမ်ႇမီး ‘a’ ၼႂ်းတူဝ်လိၵ်ႈငဝ်ႈတေႉမၼ်း]
+misreadings-tip-3 = [လွင်ႈတၢင်း ဢမ်ႇၵိုင်ႇလႅပ်ႈၵၼ်]
+background-noise-example-1 = တူဝ်သတ်းယၵ်းလူင် ၻႆၢႇၼူဝ်ႇသေႃး  ၼႂ်းပၢၼ်ထရၢႆႇဢႅတ်းသိတ်ႉ(Triassic period)။
 background-voices-tip-1 = ၸဝ်ႈၵဝ်ႇတေမႃးယူႇႁႃႉ?[တၢင်ႇၵေႃႉသိုပ်ႇမႃး]
 still-have-questions = ယင်းတိုၵ်ႉမီးၶေႃႈထၢမ်ယူႇႁႃႇ?
 
