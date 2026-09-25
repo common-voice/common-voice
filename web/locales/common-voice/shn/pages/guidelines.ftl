@@ -24,6 +24,8 @@ example = တူဝ်ယၢင်ႇ
 
 varying-pronunciations-example = သဵၼ်ႈတၢင်း ဢမ်ႇၸႅင်ႈလႅင်း
 varying-pronunciations-tip-1 = ၽႃႇသႃႇဢိင်းၵလဵတ်ႈ ၶၼေႇၻႃႇ ၸၢင်ႈဢွၵ်ႇသဵင် "route" မိူၼ်ၼင်ႇ "rowt"
+varying-pronunciations-tip-2 = ၽႃႇသႃႇဢိင်းၵလဵတ်ႈ ပရိတ်ႉတိတ်ႉသျ် ၸၢင်ႈဢွၵ်ႇသဵင် မိူၼ်ၼင်ႇ "root"]
+misreadings-explanation-2 = လွင်ႈၽိတ်းပိူင်ႈ ဢၼ်ၵႆႉပဵၼ်ၼမ် မီးၼင်ႇၼႆ-
 misreadings-example-1 = ႁဝ်းၶႃႈတေဢွၵ်ႇၵႂႃႇၵိၼ်ၵေႃႇၾီႇၶႃႈ။
 background-voices-tip-1 = ၸဝ်ႈၵဝ်ႇတေမႃးယူႇႁႃႉ?[တၢင်ႇၵေႃႉသိုပ်ႇမႃး]
 still-have-questions = ယင်းတိုၵ်ႉမီးၶေႃႈထၢမ်ယူႇႁႃႇ?
