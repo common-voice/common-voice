@@ -7,11 +7,17 @@
 aa = Afar
 aat = Arvanitika
 ab = Ásụ̀sụ́ Ábụ́kààzị̀
+abb = Bankon
+abq = Abaza
 ace = Ásụ̀sụ́ Ésíníìsì
 ady = Ásụ̀sụ́ Ádị́géyì
 af = Ásụ̀sụ́ Áfị́rị́káǹsị̀
+aii = Suret
+ajg = Adja
+aln = Gheg Albanian
 am = Ásụ̀sụ́ Ámáráị̀kị̀
 an = Ásụ̀sụ́ Àrágónìsì
+apc = Asụsụ Arabic nke Levantine
 ar = Ásụ̀sụ́ Àrábíkì
 arn = Ásụ̀sụ́ Màpụúdúńgùn
 as = Ásụ̀sụ́ Ásámíìsì
