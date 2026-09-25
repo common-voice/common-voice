@@ -83,6 +83,11 @@ press-and-stories = ၶၢဝ်ႇသၢၼ် လႄႈ လွင်ႈတၢ�
 community-and-languages = တူင်ႇဝူင်းၵူၼ်းလႄႈ ၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈ
 about-us = ၵဵဝ်ႇလူၺ်ႈႁဝ်း
 scripted-speech = သဵင်လၢတ်ႈၸွမ်းတူဝ်လိၵ်ႈ
+spontaneous-speech = သဵင်လၢတ်ႈၵမ်းလဵဝ်ဢမ်ႇႁၢင်ႈႁႅၼ်း
+
+## MENU ITEMS TOOLTIPS
+
+about-menu-tooltip = ၵၢၼ်ႁူမ်ႈမိုဝ်း, ၶၢဝ်ႇသၢၼ် လႄႈ လွင်ႈတၢင်း, တူင်ႇဝူင်းၵူၼ်း လႄႈ ၽႃႇသႃႇၵႂၢမ်းလၢတ်
 
 ## Action items section
 
