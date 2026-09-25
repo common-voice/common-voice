@@ -124,3 +124,10 @@ language-text-card-content = ၶူင်ႊသၢင်ႈ  ဢမ်ႇၼၼ�
 coming-soon = တေမႃးဝႆးဝႆးၼႆႉ
 add-text = ၽိူမ်ႉထႅၵ်ႉ
 answer = ၶေႃႈတွပ်ႇ
+
+## Community section
+
+community-section-title-202601 = ဢၼ်လႆႈႁပ်ႉႁႅင်းတီႈ တူင်ႇဝူင်းၵူၼ်းလုမ်ႈၾႃႉ၊ တွၼ်ႈတႃႇ တူင်ႇဝူင်းၵူၼ်းလုမ်ႈၾႃႉ — 290 ၽႃႇသႃႇလႄႈ တေၵိူတ်ႇမီးမႃးထႅင်ႈယူႇယဝ်ႉ!
+join-discord-community = ၶဝ်ႈႁူမ်ႈတူင်ႇဝူင်း Discord
+# label for button
+join-discord-community-action = ၶဝ်ႈႁူမ်ႈၸွမ်းႁဝ်းၶႃႈ ၼႂ်း Discord
