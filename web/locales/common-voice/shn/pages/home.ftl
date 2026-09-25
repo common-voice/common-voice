@@ -77,6 +77,10 @@ read-more-about = လူဢၢၼ်ႇထႅင်ႈၼႂ်းၼႃႈ Abou
 answer-questions = တွပ်ႇပၼ်ၶေႃႈထၢမ်
 review-transcriptions = ၵူတ်ႇထတ်း လွင်ႈထွတ်ႇသဵင်ပဵၼ်တူဝ်လိၵ်ႈ
 add-questions = ၽိူမ်ႉၶေႃႈထၢမ်
+review-questions = ၵူတ်ႇထတ်း ၶေႃႈထၢမ်
+transcribe-audio = ထွတ်ႇသဵင်ပဵၼ်တူဝ်လိၵ်ႈ
+press-and-stories = ၶၢဝ်ႇသၢၼ် လႄႈ လွင်ႈတၢင်း
+community-and-languages = တူင်ႇဝူင်းၵူၼ်းလႄႈ ၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈ
 
 ## Action items section
 
