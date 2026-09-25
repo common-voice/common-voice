@@ -159,3 +159,12 @@ download-press-pack = လူတ်ႇဢဝ် ၸုမ်ႇၶေႃႈမု
 ## Developers section
 
 developers-section-title-202608 = ၸုမ်ႇၶေႃႈမုၼ်းသဵင်လၢတ်ႈဢၼ်ပိုတ်ႇၽုၺ်ႇ ဢၼ်ၵူၼ်းတင်းၼမ် ၶဝ်ႈထိုင်လႆႈ ၼႂ်းၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈ 330+
+developers-section-subtitle-v2 = ၸုမ်ႇၶေႃႈမုၼ်း တွၼ်ႈတႃႇ ASR လႄႈ ၶေႃႈၵွင်ႉၵၢႆႇ NLP တၢင်ႇၸိူဝ်း — ဢၼ်ၶူင်ႊသၢင်ႈမႃး လူၺ်ႈၵၢၼ်ၶဝ်ႈႁူမ်ႈၸွႆႈထႅမ် ၶွင်တူင်ႇဝူင်းၵူၼ်း။
+# icon is an arrow that points to the right
+explore-datasets = ၶူၼ်ႉႁုတူၺ်းၸုမ်ႇၶေႃႈမုၼ်း
+
+## Get involved section
+
+get-involved-section-title = ၵမ်ႉထႅမ် ၸုမ်ႇၶေႃႈမုၼ်းဢၼ်ပိုတ်ႇၽုၺ်ႇ ဢၼ်တူင်ႇဝူင်းၵူၼ်းဢွၼ်ႁူဝ်
+read-sentences-link = လူဢၢၼ်ႇတူၼ်ႈထႅဝ်ၶေႃႈၵႂၢမ်း
+validate-readings-link = ၵူတ်ႇထတ်း လွင်ႈလူဢၢၼ်ႇ
