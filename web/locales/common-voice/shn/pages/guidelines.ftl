@@ -12,6 +12,8 @@ dont-subheader = ယႃႇပေႉႉ
 
 varying-pronunciations = လွင်ႈဢွၵ်ႇသဵင်ဢၼ်ပႅၵ်ႇပိူင်ႈ
 misreadings = လွင်ႈလူဢၢၼ်ႇၽိတ်း
+offensive-content = ​​ၶေႃႈၵႂၢမ်ဢးမ်ႇၵိုင်ႇလႅပ်ႈ
+background-noise = သဵင်သုၵ်ႉယုင်ႈၽၢႆႇၼွၵ်ႈ
 volume = ၸၼ်ႉသဵင်
 just-unsure = ဢမ်ႇမၼ်ႈၸႂ်ၵူၺ်းႁႃႉ?
 example = တူဝ်ယၢင်ႇ
