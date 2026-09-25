@@ -6,6 +6,16 @@ export type Accent = {
 
 export const ACCENTS: Accent[] = [
   {
+    locale_name: 'gya',
+    accent_name: 'Doforo',
+    accent_token: 'gya-doforo',
+  },
+  {
+    locale_name: 'gya',
+    accent_name: 'Meiganga',
+    accent_token: 'gya-meiganga',
+  },
+  {
     locale_name: 'fy-NL',
     accent_name: 'Klaaifrysk',
     accent_token: 'fy-clayfr',

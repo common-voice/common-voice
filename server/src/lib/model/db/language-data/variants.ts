@@ -5,7 +5,37 @@ export type Variant = {
 }
 
 export const VARIANTS: Variant[] = [
-    {
+  {
+    locale_name: 'gya',
+    variant_name: 'bódòè',
+    variant_token: 'gya-bodoe',
+  },
+  {
+    locale_name: 'gya',
+    variant_name: 'bòkpàn',
+    variant_token: 'gya-bokpan',
+  },
+  {
+    locale_name: 'gya',
+    variant_name: 'bònìna',
+    variant_token: 'gya-bonina',
+  },
+  {
+    locale_name: 'gya',
+    variant_name: 'bûgûi/bògùì',
+    variant_token: 'gya-bogui',
+  },
+  {
+    locale_name: 'gya',
+    variant_name: 'bôyá',
+    variant_token: 'gya-boyaa',
+  },
+  {
+    locale_name: 'gya',
+    variant_name: 'yààyùwèè',
+    variant_token: 'gya-yaayuwee',
+  },
+  {
     locale_name: 'apc',
     variant_name: 'اللبناني',
     variant_token: 'apc-LB',
