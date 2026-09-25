@@ -53,6 +53,8 @@ on = ပိုတ်ႇၽုၺ်,
 api-key-name-display-label = ၸိုဝ်ႈၶေႃႈမၼ်ႈၸႂ် API
 api-client-secret-display-label = သေႃးလႅပ်ႉ API Client
 api-client-id-display-label = မၢႆလပ်ႉ ID ၶွင် API Client
+api-key-modal-confirmation-header = ၸဝ်ႈၵဝ်ႇမၼ်ႈၸႂ်ယူႇႁႃႉ?
+cancel-api-key-confirmation-description = ၸဝ်ႈၵဝ်ႇ မၼ်ႈၸႂ်ယူႇႁႃႉ ဢၼ်ၶႂ်ႈယႃႉလူႉ ၵၢၼ်သၢင်ႈၶေႃႈမၼ်ႈၸႂ် API
 # Genders
 male_masculine = ၸၢႆး/ၽူႈၸၢႆး
 female_feminine = ယိင်း/ၽူႈယိင်း
