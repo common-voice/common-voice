@@ -168,3 +168,13 @@ explore-datasets = ၶူၼ်ႉႁုတူၺ်းၸုမ်ႇၶေႃ�
 get-involved-section-title = ၵမ်ႉထႅမ် ၸုမ်ႇၶေႃႈမုၼ်းဢၼ်ပိုတ်ႇၽုၺ်ႇ ဢၼ်တူင်ႇဝူင်းၵူၼ်းဢွၼ်ႁူဝ်
 read-sentences-link = လူဢၢၼ်ႇတူၼ်ႈထႅဝ်ၶေႃႈၵႂၢမ်း
 validate-readings-link = ၵူတ်ႇထတ်း လွင်ႈလူဢၢၼ်ႇ
+contribute-link = ၶဝ်ႈႁူမ်ႈၸွႆႈထႅမ် ႁူင်းတူဝ်လိၵ်ႈ
+answer-questions-link = တွပ်ႇ ၶေႃႈထၢမ်
+transcribe-answers-link = ထွတ်ႇသဵင်ၶေႃႈတွပ်ႇပဵၼ်တူဝ်လိၵ်ႈ
+review-transcriptions-link = ၵူတ်ႇထတ်း လွင်ႈထွတ်ႇသဵင်ပဵၼ်တူဝ်လိၵ်ႈ
+contribute-text-link = ႁူမ်ႈၸွႆႈထႅမ် တူဝ်လိၵ်ႈ
+press-and-stories-link = ၶၢဝ်ႇသၢၼ် လႄႈ လွင်ႈတၢင်း
+
+## Partner section
+
+partner-section-title = ႁူမ်ႈမိုဝ်းႁဵတ်းၵၢၼ် ၸွမ်းႁဝ်းၶႃႈ
