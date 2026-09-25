@@ -22,6 +22,8 @@ example = တူဝ်ယၢင်ႇ
 
 ## Voice collection sidebar content
 
+varying-pronunciations-example = သဵၼ်ႈတၢင်း ဢမ်ႇၸႅင်ႈလႅင်း
+varying-pronunciations-tip-1 = ၽႃႇသႃႇဢိင်းၵလဵတ်ႈ ၶၼေႇၻႃႇ ၸၢင်ႈဢွၵ်ႇသဵင် "route" မိူၼ်ၼင်ႇ "rowt"
 misreadings-example-1 = ႁဝ်းၶႃႈတေဢွၵ်ႇၵႂႃႇၵိၼ်ၵေႃႇၾီႇၶႃႈ။
 background-voices-tip-1 = ၸဝ်ႈၵဝ်ႇတေမႃးယူႇႁႃႉ?[တၢင်ႇၵေႃႉသိုပ်ႇမႃး]
 still-have-questions = ယင်းတိုၵ်ႉမီးၶေႃႈထၢမ်ယူႇႁႃႇ?
