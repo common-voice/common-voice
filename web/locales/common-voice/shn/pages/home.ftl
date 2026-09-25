@@ -138,3 +138,7 @@ find-us-on-matrix-content-v2 = Matrix ၼႆႉ ပဵၼ် ပရူဝ်ႇ�
 find-us-on-element-action-1 = Element
 find-us-on-matrix-action-2 = ၶိူင်ႈတိုဝ်းတၢင်ႇၸိူဝ်း
 ask-mozilla-share = ယွၼ်းႁႂ်ႈ Mozilla ၸွႆႈပိုၼ်ၽႄ ပၢင်မုင်ႈမၢႆၸဝ်ႈၵဝ်ႇ
+ask-mozilla-share-content = မီးပၢင်မုင်ႈမၢႆ ဢၼ်ပူၼ်ႉၵႂႃႇ ဢမ်ႇၼၼ် ဢၼ်တေမႃး? ၸႅၵ်ႇပၼ်ႁဝ်းၶႃႈလႄႈ ႁဝ်းၶႃႈတေပိုၼ်ၽၢဝ်ႇပၼ် တူင်ႇဝူင်းၵူၼ်းႁဝ်းၶႃႈ ဢမ်ႇၼၼ် တႅမ်ႈပဵၼ်ၿလွၵ်ႉၵဵဝ်ႇလူၺ်ႈလွင်ႈတၢင်းမၼ်းၶႃႈ။
+# label for button
+ask-mozilla-share-action = ပိုၼ်ၽႄ ပၢင်မုင်ႈမၢႆၸဝ်ႈၵဝ်ႇ
+download-contribution-certificate = လူတ်ႇဢဝ်ဝႂ်ယွင်ႈယေႃးလွင်ႈၸွႆႈထႅမ်ၸဝ်ႈၵဝ်ႇ
