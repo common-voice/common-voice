@@ -146,3 +146,10 @@ download-contribution-certificate-content = လူတ်ႇဢဝ် ဝႂ်�
 # label for button
 download-contribution-certificate-action = ႁပ်ႉဢဝ် ဝႂ်ယုၵ်ႉယွင်ႈ ၸဝ်ႈၵဝ်ႇ
 contribute-github = ၶဝ်ႈမႃးၸွႆႈထႅမ် ၼႂ်း GitHub
+contribute-github-content = ၶူင်းၵၢၼ်ဢၼ်ၼႆႉ သင်ဢမ်ႇမီးၵူၼ်းမိူၼ်ၸဝ်ႈၵဝ်ႇ တေဢမ်ႇပဵၼ်လႆႈ။ 🎉 တႃႇတေၶဝ်ႈႁူမ်ႈၸွမ်း Common Voice ၼႆႉ မီးလွၵ်းလၢႆးတင်းၼမ်- ၸဝ်ႈၵဝ်ႇ ဢမ်ႇလူဝ်ႇႁူႉပၢႆးတႅမ်ႈၶူတ်ႉ ၵေႃႈ ၸၢင်ႈၶဝ်ႈမႃးၸွႆႈထႅမ်လႆႈယူႇၶႃႈ!
+# label for button
+contribute-github-action = ၶဝ်ႈမႃးၸွႆႈထႅမ် ၼႂ်း GitHub
+
+## Featured section
+
+featured-section-title = လႆႈပိုၼ်ၽႄဢွၵ်ႇၶၢဝ်ႇၼႂ်း...
