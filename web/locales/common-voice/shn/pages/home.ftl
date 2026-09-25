@@ -153,3 +153,9 @@ contribute-github-action = ၶဝ်ႈမႃးၸွႆႈထႅမ် ၼႂ�
 ## Featured section
 
 featured-section-title = လႆႈပိုၼ်ၽႄဢွၵ်ႇၶၢဝ်ႇၼႂ်း...
+# icon is an arrow that points downwards
+download-press-pack = လူတ်ႇဢဝ် ၸုမ်ႇၶေႃႈမုၼ်းၶၢဝ်ႇသၢၼ်ၶွင်ႁဝ်း
+
+## Developers section
+
+developers-section-title-202608 = ၸုမ်ႇၶေႃႈမုၼ်းသဵင်လၢတ်ႈဢၼ်ပိုတ်ႇၽုၺ်ႇ ဢၼ်ၵူၼ်းတင်းၼမ် ၶဝ်ႈထိုင်လႆႈ ၼႂ်းၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈ 330+
