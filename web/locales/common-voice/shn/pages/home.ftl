@@ -133,3 +133,7 @@ join-discord-community = ၶဝ်ႈႁူမ်ႈတူင်ႇဝူင်�
 join-discord-community-action = ၶဝ်ႈႁူမ်ႈၸွမ်းႁဝ်းၶႃႈ ၼႂ်း Discord
 join-discord-community-content = ၶဝ်ႈႁူမ်ႈဢုပ်ႇဢူဝ်း ၼႂ်းတူင်ႇဝူင်းၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈ၊ ထၢမ်ၶေႃႈထၢမ် လႄႈ ႁဵၼ်းႁူႉ လွင်ႈတၢင်းပၢင်မုင်ႈမၢႆလႄႈ လွင်ႈပၢင်ဢုပ်ႇဢူဝ်း ဢၼ်တေၸတ်းႁဵတ်း ၼႂ်းၶၢဝ်းၼႃႈ။
 find-us-on-matrix = ၶူၼ်ႉႁႃ ႁဝ်းၶႃႈတီႈ Matrix
+find-us-on-matrix-content-v2 = Matrix ၼႆႉ ပဵၼ် ပရူဝ်ႇတူဝ်ႇၵူဝ်ႇ ဢၼ်ပိုတ်ႇၽုၺ်ႇ ဢၼ်မီးၼမ်ႉၼၵ်းမဝ် တႃႇ ဢၼ်ဢမ်ႇမီးငဝ်ႈၵုမ်းၵၢၼ်၊ လွင်ႈၵပ်းသိုပ်ႇ ဢၼ်ပဵၼ်ၶၢဝ်းယၢမ်းတႄႉတႄႉလႄႈ ပဵၼ်ၵလႅတ်ႉၾွမ်ႊ ဢုပ်ႇဢူဝ်းဢၼ်ပိုတ်ႇၽုၺ်ႇ ဢၼ် Mozilla လႆႈၸႂ်ၼၼ်ႉယဝ်ႉ။ ႁဝ်းၶႃႈ မီးဝႆႉ ၼႂ်းႁွင်ႈ ""common-voice:mozilla.org" ၶႃႈၼႃႈ။
+# label for button
+find-us-on-element-action-1 = Element
+find-us-on-matrix-action-2 = ၶိူင်ႈတိုဝ်းတၢင်ႇၸိူဝ်း
