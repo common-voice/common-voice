@@ -178,3 +178,5 @@ press-and-stories-link = ၶၢဝ်ႇသၢၼ် လႄႈ လွင်ႈ�
 ## Partner section
 
 partner-section-title = ႁူမ်ႈမိုဝ်းႁဵတ်းၵၢၼ် ၸွမ်းႁဝ်းၶႃႈ
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>ၶွမ်ႇပၼီႇပၢႆးၸၢင်ႊ</bold> - လူင်းတိုၼ်းၼႂ်းၵၢၼ်ၶူင်ႊသၢင်ႈ ၶေႃႈမုၼ်းပိုတ်ႇၽုၺ်ႇ တႃႇပိူင်သၢင်ႈ AI ဢၼ်ၸႂ်ႉၽႃႇသႃႇလၢႆၽႃႇသႃႇ ဢၼ်ႁိူဝ်ႈႁိူင်းၶိုၼ်ႈယႂ်ႇ။
