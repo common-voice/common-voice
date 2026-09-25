@@ -14,7 +14,9 @@ varying-pronunciations = လွင်ႈဢွၵ်ႇသဵင်ဢၼ်ပ�
 misreadings = လွင်ႈလူဢၢၼ်ႇၽိတ်း
 offensive-content = ​​ၶေႃႈၵႂၢမ်ဢးမ်ႇၵိုင်ႇလႅပ်ႈ
 background-noise = သဵင်သုၵ်ႉယုင်ႈၽၢႆႇၼွၵ်ႈ
+background-voices = သဵင်ၵူၼ်းဢုပ်ႇၵၼ်
 volume = ၸၼ်ႉသဵင်
+reader-effects = သဵင်ႁူဝ်ၸႂ်ၵူၼ်းဢၢၼ်ႇ
 just-unsure = ဢမ်ႇမၼ်ႈၸႂ်ၵူၺ်းႁႃႉ?
 example = တူဝ်ယၢင်ႇ
 
