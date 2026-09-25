@@ -30,7 +30,10 @@ misreadings-explanation-3 = ႁၢႆဝႆႉ 'A' ဢမ်ႇၼၼ် 'The' �
 misreadings-explanation-4 = ႁၢႆဝႆႉတူဝ် 's' တီႈသုတ်းၶေႃႈၵႂၢမ်း
 misreadings-explanation-5 = လွင်ႈလူဢၢၼ်ႇတူဝ်ယေႃႈ ဢၼ်ဢမ်ႇမီးဝႆႉတႄႉ မိူၼ်ၼင်ႇဢၢၼ်ႇ "We're" တႅၼ်းတီႈ "We are" ဢမ်ႇၼၼ် ပိၼ်ႈၶိုၼ်းၵၼ်။
 misreadings-explanation-6 = ႁၢႆဝႆႉသဵင်တူဝ်ၶေႃႈၵႂၢမ်းလိုၼ်းသုတ်း ယွၼ်ႉတတ်းသဵင်ဢတ်း ဝႆးပူၼ်ႉတီႈ။
+misreadings-explanation-7 = ၶတ်းၸႂ်ဢၢၼ်ႇၶေႃႈၵႂၢမ်းၶေႃႈလဵဝ် ၶိုၼ်းလၢႆပွၵ်ႈ။
 misreadings-example-1 = ႁဝ်းၶႃႈတေဢွၵ်ႇၵႂႃႇၵိၼ်ၵေႃႇၾီႇၶႃႈ။
+misreadings-example-2 = ႁဝ်းၶႃႈတိုၵ်ႉတေၵႂႃႇၵိၼ်ၵေႃႇၾီႇ
+misreadings-example-3 = ႁဝ်းၶႃႈတိုၵ်ႉတေၵႂႃႇၵိၼ်ၵေႃႇၾီႇ
 background-voices-tip-1 = ၸဝ်ႈၵဝ်ႇတေမႃးယူႇႁႃႉ?[တၢင်ႇၵေႃႉသိုပ်ႇမႃး]
 still-have-questions = ယင်းတိုၵ်ႉမီးၶေႃႈထၢမ်ယူႇႁႃႇ?
 
