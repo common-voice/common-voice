@@ -43,6 +43,7 @@ x-years-short =
     }
 help-make-dataset = ၸွႆႈႁဝ်းၶႃႈၵေႃႇသၢင်ႈၸုမ်ႇၶေႃႈမုၼ်း ဢၼ်မီးၼမ်ႉလီ လႄႈပိုတ်ႇၵႂၢင်ႈတေႃႇၵူၼ်းတင်းၼမ်
 sign-up-account = လူင်းသဵၼ်ႈၸိုဝ်ႈ တႃႇႁဵတ်းဢၶွင်ႉ
+email-subscription-title-v3 = လူင်းသဵၼ်ႈမၢႆ တႃႇႁပ်ႉၶေႃႈမုၼ်းမႂ်ႇ ၶွင် Common Voice လႄႈ Mozilla Foundation
 
 ## Account Benefits
 
@@ -74,6 +75,8 @@ read-more-about = လူဢၢၼ်ႇထႅင်ႈၼႂ်းၼႃႈ Abou
 ## NAV ITEMS
 
 answer-questions = တွပ်ႇပၼ်ၶေႃႈထၢမ်
+review-transcriptions = ၵူတ်ႇထတ်း လွင်ႈထွတ်ႇသဵင်ပဵၼ်တူဝ်လိၵ်ႈ
+add-questions = ၽိူမ်ႉၶေႃႈထၢမ်
 
 ## Action items section
 
