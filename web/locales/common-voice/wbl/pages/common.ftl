@@ -12,6 +12,7 @@ abq = Abaza
 ace = Saqofati guruh
 ady = Shumol-Maghribi Kakeshian Zik yoy Khalgisht
 af = Afriqahe Khalgisht
+aii = Yewẽr
 ajg = Adja
 aln = Gheg Alnaian
 am = Ethopian (Habashi)
