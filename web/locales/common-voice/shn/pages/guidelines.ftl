@@ -89,6 +89,10 @@ self-citation = ၵၢၼ်ဢၢင်ႈဢိင် ၶွင်တူဝ်
 self-citation-explanation = ၼႆႉပဵၼ်လၢႆးၵၢၼ်ဢၢင်ႈဢိင် တူဝ်ၸဝ်ႈၵဝ်ႇ (Self citation) သင်ဝႃႈ ၸဝ်ႈၵဝ်ႇ တႅမ်ႈသၢင်ႈၶေႃႈမုၼ်းလွင်ႈတၢင်း (Content) ၼၼ်ႉ ၶိုၼ်ႈမႃးလူၺ်ႈတူဝ်ၸဝ်ႈၵဝ်ႇၶႃႈယဝ်ႉ။
 adding-sentences-subheader-length = တၢင်းယၢဝ်း
 adding-sentences-subheader-length-explanation = တူၼ်ႈထႅဝ်ၶေႃႈၵႂၢမ်းၼၼ်ႉ ၵိုင်လီမီး ဢေႇလိူဝ် 15 ၶေႃႈ။
+adding-sentences-subheader-spelling-punctuation = ၵၢၼ်ၵပ်းလေႃးၶေႃႈၵႂၢမ်း လႄႈမၢႆၶၼ်ႇလိၵ်ႈ
+adding-sentences-subheader-spelling-punctuation-explanation = ၶေႃႈၵႂၢမ်းၼၼ်ႉတေလႆႈၵပ်းလေႃးႁႂ်ႈထုၵ်ႇမႅၼ်ႈ။
+adding-sentences-subheader-speakable = ဢၢၼ်ႇဢွၵ်ႇသဵင်လႆႈ
+adding-sentences-subheader-speakable-explanation = ၶေႃႈၵႂၢမ်းဢၼ်လီသေပိူၼ်ႈၼၼ်ႉ ပဵၼ်ၶေႃႈၵႂၢမ်းသၽႃႇဝ လႄႈ ပဵၼ်ၶေႃႈၵႂၢမ်း ဢၼ်ဢုပ်ႇဢူဝ်းၵၼ်လႆႈ — ႁႂ်ႈပိူၼ်ႈဢၢၼ်ႇလႆႈငၢႆႈငၢႆႈ။ လွင်ႈသဵင်လႅၵ်ႈလၢႆႈ လႄႈ ၶေႃႈၵႂၢမ်း ဢၼ်ပႅၵ်ႇပိူင်ႈၵၼ် ၼႂ်းၶေႃႈၵႂၢမ်းၼၼ်ႉ လမ်ႇလွင်ႈယူႇသေတႃႉ ႁဝ်းၶႃႈၵေႃႈ ၶတ်းၸႂ်ႁဵတ်းႁႂ်ႈ ၵၢၼ်ဢတ်းသဵင်ၶေႃႈၵႂၢမ်း ႁႂ်ႈပဵၼ်လွင်ႈလီသူၼ်ၸႂ်လႄႈ လွင်ႈမူၼ်ႈသိူဝ်း တႃႇတူင်ႇဝူင်း ၽူႈၸွႆႈထႅမ် ႁဝ်းၶႃႈ ၼင်ႇပွင်ပဵၼ်လႆႈၼၼ်ႉယူႇၶႃႈ။
 adding-sentences-subheader-numbers = တူဝ်ၼပ်ႉ
 
 ## Question collection ids
