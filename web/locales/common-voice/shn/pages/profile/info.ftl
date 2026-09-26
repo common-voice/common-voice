@@ -96,6 +96,11 @@ api-client-id-display-label = မၢႆလပ်ႉ ID ၶွင် API Client
 api-key-modal-confirmation-header = ၸဝ်ႈၵဝ်ႇမၼ်ႈၸႂ်ယူႇႁႃႉ?
 cancel-api-key-confirmation-description = ၸဝ်ႈၵဝ်ႇ မၼ်ႈၸႂ်ယူႇႁႃႉ ဢၼ်ၶႂ်ႈယႃႉလူႉ ၵၢၼ်သၢင်ႈၶေႃႈမၼ်ႈၸႂ် API
 delete-api-key-confirmation-description = ၸဝ်ႈၵဝ်ႇ မၼ်ႈၸႂ်ယူႇႁႃႉ ဢၼ်ၶႂ်ႈယႃႉလူႉ မွတ်ႇပႅတ်ႈ ၶေႃႈမုၼ်းယိုၼ်ႈယၼ် API <bold>{ $apiKeyName }</bold>? ၵၢၼ်ႁဵတ်းသၢင်ႈဢၼ်ၼႆႉ တေဢမ်ႇၸၢင်ႈၶိုၼ်းမႄးလႆႈ။
+create-api-key-error-toast-message = မီးလွင်ႈၽိတ်းပိူင်ႈ ၼႂ်းၵၢၼ်သၢင်ႈၶေႃႈမၼ်ႈၸႂ် API ၶႃႈ
+delete-api-key-error-toast-message = မီးလွင်ႈၽိတ်းပိူင်ႈ ၼႂ်းၵၢၼ်မွတ်ႇၶေႃႈမၼ်ႈၸႂ် API ၶႃႈ
+fetching-api-keys-error-toast-message = မီးလွင်ႈၽိတ်းပိူင်ႈ ၼႂ်းၵၢၼ်ၸၼ်ဢဝ်ၶေႃႈမၼ်ႈၸႂ် API ၶႃႈ
+copy-api-credential-success-toast-message = ၵွပ်ႇပီႇဢဝ် ယဝ်ႉတူဝ်ႈယဝ်ႉၶႃႈ
+copy-api-credential-error-toast-message = မီးလွင်ႈၽိတ်ႈပိူင်ႈ ၼႂ်းၵၢၼ်ၵွပ်ႇပီႇ
 # Genders
 male_masculine = ၸၢႆး/ၽူႈၸၢႆး
 female_feminine = ယိင်း/ၽူႈယိင်း
