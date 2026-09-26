@@ -51,6 +51,8 @@ background-noise-example-3 = တူဝ်သတ်းလူင် ၻႆၢႇ�
 background-noise-example-4 = [Crackle] တူဝ်သတ်းယၵ်ႉလူင် ၻႆၢႇၼူဝ်ႇသေႃး ၶွင် [crackle] -riassic ၶႃႈ။
 background-noise-tip-1 = [interrupted by background noise]
 background-noise-tip-2 = [Part of the text can’t be heard]
+background-voices-explanation = မီးသဵင်ပိုၼ်ႉလင်ဢိတ်းၼိုင်ႈၵေႃႈ ဢမ်ႇပဵၼ်သင် ၵူၺ်းၵႃႈ သင်ဝႃႈ လႆႈငိၼ်းတၢင်ႉၵေႃႉလၢတ်ႈၵႂၢမ်း ဢၼ်ပႅၵ်ႇပိူင်ႈၵၼ်ၼႆၸိုင် ထုၵ်ႇလီပၢႆႇပႅတ်ႈသဵင်ဢတ်းၼၼ်ႉယူႇ။ ၵမ်ႈၼမ်တႄႉ လွင်ႈၼႆႉၵႆႉမီး မိူဝ်ႈပိုတ်ႇတီႇဝီႇ (TV) ဝႆႉ ဢမ်ႇၼၼ် မိူဝ်ႈမီးၵူၼ်းတိုၵ်ႉလၢတ်ႈၵႂၢမ်းတေႃႇၵၼ် ဝႆႉတီႈႁိမ်းႁွမ်းၼၼ်ႉယဝ်ႉ။
+background-voices-example-1 = တူဝ်သတ်းလူင် ၻႆၢႇၼူဝ်ႇသေႃး (The giant dinosaurs) ၼႂ်းပၢၼ် Triassic ၶႃႈ။ [read by one voice]
 background-voices-tip-1 = ၸဝ်ႈၵဝ်ႇတေမႃးယူႇႁႃႉ?[တၢင်ႇၵေႃႉသိုပ်ႇမႃး]
 still-have-questions = ယင်းတိုၵ်ႉမီးၶေႃႈထၢမ်ယူႇႁႃႇ?
 
