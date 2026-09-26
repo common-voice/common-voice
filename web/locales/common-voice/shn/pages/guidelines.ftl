@@ -46,6 +46,11 @@ background-noise-explanation =
     ၸဝ်ႈၵဝ်ႇ လူဝ်ႇလႆႈငိၼ်းၸႅင်ႈလႅင်း ၵူႈၶေႃႈၵႂၢမ်း ဢၼ်မီးၼႂ်းသဵင်ဢတ်းၼၼ်ႉၶႃႈ။ ႁဝ်းၶႃႈ လူဝ်ႇႁႂ်ႈၶိူင်ႈၸၢၵ်ႈလဵပ်ႈႁဵၼ်း ဢႄးလ်-ၵူဝ်ႇ-ရီႇ-တိုမ်ႊ(Machine learning algorithms) ၸၢင်ႈၵုမ်းထိင်းၸတ်းၵၢၼ်လႆႈ 
     သဵင်ၽၢႆႇလင် ဢၼ်လၢႆလၢႆမဵဝ်းၼၼ်ႉသေဢမ်ႇၵႃး သဵင်ဢၼ်ႁႅင်း ဢမ်ႇၼၼ် သဵင်ၽၢႆႇလင်ၽဵင်းၵႂၢမ်းဢၼ်မီးသဵင်ဢၼ်ၼိမ်သဝ်းၼၼ်ႉၵေႃႈ တေၸၢင်ႊႁပ်ႉလႆႈ သင်ဝႃႈ ၶဝ်ဢမ်ႇႁႄႉႁၢမ်ႈ လွင်ႈလႆႈငိၼ်းၶေႃႈၵႂၢမ်းတင်းမူတ်းၼၼ်ႉ။ သင်ၸိူဝ်ႉဝႃႈ မီးသဵင်တႅၵ်ႇ “သဵင်ၶၢတ်ႇ (Crackles / Breaking up) ဢၼ်မႃးယႃံၵဝ်းႁဵတ်းႁႂ်ႈၸဝ်ႈၵဝ်ႇဢမ်ႇလႆႈငိၼ်းၶေႃႈၵႂၢမ်းၼႆ လူဝ်ႇလႆႈၼဵၵ်ႈပၢၵ်ႈ(Reject) သဵင်ဢတ်းၼၼ်ႉပႅတ်ႈ ၶႃႈၼႃႈ။
 background-noise-example-1 = တူဝ်သတ်းယၵ်းလူင် ၻႆၢႇၼူဝ်ႇသေႃး  ၼႂ်းပၢၼ်ထရၢႆႇဢႅတ်းသိတ်ႉ(Triassic period)။
+background-noise-example-2 = [Sneeze] တူဝ်သတ်းလူင် ၻႆၢႇၼူဝ်ႇသေႃး (The giant dinosaurs) [cough] ၼႂ်းပၢၼ် Triassic ၶႃႈ။
+background-noise-example-3 = တူဝ်သတ်းလူင် ၻႆၢႇၼူဝ်ႇသေႃး [cough] ၼႂ်းပၢၼ်Triassic ၶႃႈ။
+background-noise-example-4 = [Crackle] တူဝ်သတ်းယၵ်ႉလူင် ၻႆၢႇၼူဝ်ႇသေႃး ၶွင် [crackle] -riassic ၶႃႈ။
+background-noise-tip-1 = [interrupted by background noise]
+background-noise-tip-2 = [Part of the text can’t be heard]
 background-voices-tip-1 = ၸဝ်ႈၵဝ်ႇတေမႃးယူႇႁႃႉ?[တၢင်ႇၵေႃႉသိုပ်ႇမႃး]
 still-have-questions = ယင်းတိုၵ်ႉမီးၶေႃႈထၢမ်ယူႇႁႃႇ?
 
