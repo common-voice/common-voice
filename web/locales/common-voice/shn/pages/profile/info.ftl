@@ -80,6 +80,7 @@ api-credentials-use-case-3 = ၵၢၼ်ၸႅတ်ႈထတ်း လႄႈ �
 api-credentials-description-conclusion = မႃးႁူမ်ႈၸွမ်းႁဝ်းၶႃႈ တႃႇႁႂ်ႈပၢႆးၸၢင်ႊသဵင်လၢတ်ႈ ၶိုပ်ႈၼႃႈ ၶိုၼ်ႈယႂ်ႇလႄႈ ပၼ်ႁႅင်းၽူႈၸႂ်ႉတိုဝ်း ႁႂ်ႈမီးၼမ်လိူဝ်မႃး။
 create-api-key-button = သၢင်ႈၶေႃႈမုၼ်းယိုၼ်ယၼ်တူဝ် API
 your-api-keys = ၶေႃႈမုၼ်းယိုၼ်ယၼ် API ၶွင်ၸဝ်ႈၵဝ်ႇ
+no-api-keys-header = <bold>မိူဝ်ႈလဵဝ်ၼႆႉ ယင်းပႆႇမီး ၶေႃႈယိုၼ်ယၼ် API ဢၼ်ၵွင်ႉၵၢႆႇဝႆႉတင်းသဵၼ်ႈမၢႆဢၶွင်ႉတ်ၸဝ်ႈၵဝ်ႇၶႃႈ။</bold>
 api-key-name-display-label = ၸိုဝ်ႈၶေႃႈမၼ်ႈၸႂ် API
 api-client-secret-display-label = သေႃးလႅပ်ႉ API Client
 api-client-id-display-label = မၢႆလပ်ႉ ID ၶွင် API Client
