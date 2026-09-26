@@ -82,7 +82,13 @@ citing-sentences-subheader-websites-explanation = ၸဝ်ႈၵဝ်ႇ ၸ�
 citing-sentences-subheader-academic-reference = ၵၢၼ်ဢၢင်ႈဢိင် ပၢႆးပၺ်ႇၺႃႇ
 citing-sentences-subheader-academic-reference-explanation = ၸဝ်ႈၵဝ်ႇ ၸၢင်ႈၸႂ်ႉတိုဝ်း ႁၢင်ႈၾၢင်ၵၢၼ်ဢၢင်ႈဢိင် ပၢႆးပၺ်ႇၺႃႇလႆႈယူႇၶႃႈ, မိူၼ်ၼင်ႇ ႁၢင်ႈၾၢင် Harvard "Mozilla (2021) Common Voice. Available at https://commonvoice.mozilla.org/ (Accessed: 15th September 2021)""
 citing-sentences-subheader-offline-sources = တီႈမႃးၶေႃႈမုၼ်း ဢွတ်ႉၾ်လၢႆးၼ် (Offline Sources)
+citing-sentences-subheader-offline-sources-explanation = တွၼ်ႈတႃႇ လိၵ်ႈ ဢၼ်ပဵၼ် ၶွင်ၵူၼ်းတင်းၼမ် ဢၼ်ဢမ်ႇလႆႈ မီးၼိူဝ်ဢွၼ်ႊလၢႆႊၼၼ်ႉၸဝ်ႈၵဝ်ႇ ၸၢင်ႊၸႂ်ႉတိုဝ်း လၢႆးဢိင်ဢၢင်ႈ ပၢႆးပၺ်ႇၺႃႇ တူဝ်ယၢင်ႇမၼ်း မိူၼ်ၼင်ႇ လၢႆး Harvard "Jess (2021)My Public license poems” ၶႃႈ။
+citation =
+    .label = ၵၢၼ်ဢၢင်ႈဢိင်
+self-citation = ၵၢၼ်ဢၢင်ႈဢိင် ၶွင်တူဝ်ၵဝ်ႇ
+self-citation-explanation = ၼႆႉပဵၼ်လၢႆးၵၢၼ်ဢၢင်ႈဢိင် တူဝ်ၸဝ်ႈၵဝ်ႇ (Self citation) သင်ဝႃႈ ၸဝ်ႈၵဝ်ႇ တႅမ်ႈသၢင်ႈၶေႃႈမုၼ်းလွင်ႈတၢင်း (Content) ၼၼ်ႉ ၶိုၼ်ႈမႃးလူၺ်ႈတူဝ်ၸဝ်ႈၵဝ်ႇၶႃႈယဝ်ႉ။
 adding-sentences-subheader-length = တၢင်းယၢဝ်း
+adding-sentences-subheader-length-explanation = တူၼ်ႈထႅဝ်ၶေႃႈၵႂၢမ်းၼၼ်ႉ ၵိုင်လီမီး ဢေႇလိူဝ် 15 ၶေႃႈ။
 adding-sentences-subheader-numbers = တူဝ်ၼပ်ႉ
 
 ## Question collection ids
