@@ -70,6 +70,7 @@ sentence-domain = ၶွပ်ႇလႅၼ်ၶေႃႈၵႂၢမ်း
 
 ## Sentence collection sidebar content
 
+public-domain-explanation-1 = မီးတၢင်းလမ်ႇလွင်ႈယႂ်ႇတႄႉတႄႉၶႃႈ ဢၼ်ၶေႃႈၵႂၢမ်းတင်းသဵင်ႈတေလႆႈပဵၼ်<publicDomain>ၶူဝ်းၶွင်ၵူၼ်းတင်းလၢႆ </publicDomain> (<cc0>cc0</cc0>) ၵွပ်ႈဝႃႈ ၸုမ်ႇၶေႃႈမုၼ်း Common Voice ၼၼ်ႉ မီးၵၢၼ်ပိုၼ်ၽႄဝႆႉ ၽၢႆႇတႂ်ႈဝႂ်ၶႂၢင်ႉ cc0 ၶႃႈယဝ်ႉ။ ၸဝ်ႈၵဝ်ႇ လူဝ်ႇလႆႈလူတ်ႇၶိုၼ်ႈ ၶေႃႈၵႂၢမ်းဢၼ်မၼ်ႈၸႂ်တႄႉတႄႉၼၼ်ႉၵူၺ်း၊ လႄႈ လူဝ်ႇလႆႈမီးပႃးၵၢၼ်ဢၢင်ႈဢိင်တီႈမႃးဢၼ်ၵဵဝ်ႇၵပ်းၼၼ်ႉဝႆႉၵူႈပွၵ်ႈၶႃႈ။
 adding-sentences-subheader-length = တၢင်းယၢဝ်း
 adding-sentences-subheader-numbers = တူဝ်ၼပ်ႉ
 
