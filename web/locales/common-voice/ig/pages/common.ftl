@@ -392,25 +392,61 @@ tli = Tlingit
 tn = Setswana
 tob = Toba Qom
 tok = Toki Pona
+top = Papantla Totonac
 tr = Ásụ̀sụ́ Tọ́kíìhì
+trv = Seediq
+trw = Torwali
+ts = Xitsonga
 tt = Ásụ̀sụ́ Tàtáà
+ttj = Rutoro
+tui = Tupuri
+tum = Tumbuka
+tuq = Tudaga
+tvu = Tunen
 tw = Ásụ̀sụ́ Chúwì
 ty = Ásụ̀sụ́ Tàhíshị́ànụ̀
+tyv = Tuvan
 uby = Ásụ̀sụ́ Úbíìkì
+udl = Ouldémé
 udm = Ásụ̀sụ́ Údúmọ́ọ̀tụ̀
 ug = Ásụ̀sụ́ Wígọ̀
 uk = Ásụ̀sụ́ Yùkùréníànụ̀
+ukv = Kuku
 ur = Ásụ̀sụ́ Údú
+ush = Ushojo
+usp = Uspanteko
 uz = Ásụ̀sụ́ Úzúbéèkị̀
+var = Huarijio
+ve = Tshivenda
 vec = Ásụ̀sụ́ Vènị́shị́ànụ̀
 vi = Ásụ̀sụ́ Vị̀yétị̀nàmị́ìsì
+vls = Flemish Ọdịda Anyanwụ
+vmw = Emakhuwa
 vot = Ásụ̀sụ́ Vótíìkì
+wbl = Wakhi
+wep = Westphalian
+wes = Pidjin Cameroon
+wo = Wolof
+xdq = Kaitag
+xh = Xhosa
+xhe = Khetrani
+xka = Kalkoti
+xkl = Kenya
+xmf = Mingrelian
+xsm = Kasem
+yaq = Yaqui
+yav = Nuasue
+ydg = Yadgha
 yi = Ásụ̀sụ́ Yị́dị́ìshì
 yo = Ásụ̀sụ́ Yòròbá
 yue = Ásụ̀sụ́ Kàntóníìsì
+zgh = Tamazight
 zh-CN = Ásụ̀sụ́ Chàị̀níìsì (Cháị́nà)
 zh-HK = Ásụ̀sụ́ Chàị̀níìsì (Họ̀n̄kọ́n̄gụ̀)
 zh-TW = Ásụ̀sụ́ Chàị̀níìsì (Tàị̀wáànụ̀)
+zoc = Copainalá Zoque
+zu = Zulu
+zza = Zaza
 
 ## Layout
 
@@ -421,12 +457,14 @@ privacy = Ǹzúzó (Privacy)
 terms = Úsòrò ìwú
 cookies = Kúkì (cookies)
 faq = Ọ̀tụ́tụ́ ạ̀jụ̀jụ́ á nà-àjụ́kárị́
+documentation = Ndekọta
 content-license-text = Íhé ńdí dí n'òkpúrù <licenseLink>ákwụ́kwọ́ íkíkéré ńdị́ Creative Commons</licenseLink>
 share-title = Nyèré ányị́ áká chọ̀tá ńdị́ ọ́zọ́ gá-átụ́nyé ólú há!
 share-text = Nyé áká kụ̀zíéré ígwè-nwéré-àkọ́núchè ètù ńdị́ bụ́ ḿmádụ̀ n'ézíé sì èkwú ókwú síté n'ị́tụ́nyé òkè gị́ ná { $link }
 link-copied = Ị nwẹ́tágó ọ́wà-ńjìkọ́
 back-top = Lághàchí ázụ́ bídó n'élú
 logout = Pụ̀ọ́
+donate = Nye onyinye
 stayintouch = Ànyị́ níílé nà Mozilla nà-èwú òbòdò màkà ńkwàlíté ǹkà n'ụ́zụ́ gbásạ́rá ụ̀dà-ólú.  Ànyị́ chọ̀rọ̀ kà ànyị́ ná-àkpárị́tá kwà m̀gbè íjí ná-ènwétá ózí kà íhé sì àgà mà ụ́zọ̀ ọ́hụ́rụ́ níílé ńgwá ńchọ́chá sì ápụ̀tà nàkwàzị̀ ètù Í sì jìrí ńgwá  ńchọ́chá ńdí à àrụ́ ọ́rụ́.
 privacy-info = Ànyị́ nà-èkwé gị́ ńkwà íjí ányá írú àlà jìkwáá ózí gị́. Gụ̀kwúó ihe gbàsárá ǹké à n'ébé ányị́ dèrè yá <privacyLink> </privacyLink>
 return-to-cv = Lághàchí ázụ́ n'òtù Common Voice
@@ -439,9 +477,19 @@ email-opt-in-info-sub-with-challenge = Ná-ènwétà ózí íméèlụ̀ (email)
 email-opt-in-privacy-v2 = Ọ bụrụ na i kweta ka e zitere gi ozi íméèlụ̀ (email), ọ putara na i kwetago kà Mọ̀zị́là jìkwáá ózí ńdị́ à dị́kà é sị̀ dépụ̀tá yá n'ọ́wá ńchékwá ózí Mọ̀zị́là <privacyLink> Ámụ̀mà ńchékwá</privacyLink
 indicates-required = Ákàrà kpákpáǹdò (*) nà-ègósí ébé á chọ̀rọ̀ ka e dee ihe.
 not-available-abbreviation = N/A
+# Text shown on a button that can be clicked to copy text to the clipboard
+copy = Detuo
+# Text shown on a button that can be clicked to close a modal or panel
+close = Mèchíé
+# Text shown on a button that can be clicked to cancel an action
+cancel = Kagbuo
+# Text shown on a button that can be clicked to delete an item
+delete = Hichapụ
 
 ## Donate banner
 
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = <mark>Anyị chọrọ</mark><br/><mark>enyemaka gị!</mark>
 # Text wrapped in <strong></strong> will be rendered on bold font
 donate-banner-cta-explanation = Ọ na-eri ihe fọdụrụ obere ka o ruo nde dọla kwa àfọ̀ ịkpọbata ntọala data na imewanye platfọọm ahụ maka ọgbakọ ndị ọrụ asụsụ 100+ ndị chekwudoro n'ihe anyị na-eme. <strong>ọ bụrụ na i ji data ghe oghe, nke na-agụnye ihe niile kpọrọ ihe - nye onyinye taa!</strong>
 # Text wrapped in <mark></mark> will have a white background.
