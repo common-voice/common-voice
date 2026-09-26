@@ -89,11 +89,13 @@ create-api-key-description = ၼဵၵ်းပၼ်တီႈ “သၢင်�
 create-api-key-agreement = ႁဝ်းၶႃႈ ယွမ်းႁပ်ႉဝႃႈ တေဢမ်ႇၶတ်းၸႂ်ၸႅင်ႈၼႄတူဝ်ၶွင်ၽူႈလၢတ်ႈသဵင် ဢၼ်မီးၼႂ်းၸုမ်ႇၶေႃႈမုၼ်း Common Voice ၶႃႈ။
 generate-api-key-button = သၢင်ႈဢွၵ်ႇ ဝႂ်ယိုၼ်ယၼ်
 save-api-key-info = သိမ်းဝႆႉသေႃးၸဝ်ႈၵဝ်ႇ ႁႂ်ႈမၼ်ႈၵိုမ်းလွတ်ႈၽေး
+save-api-key-info-description = သိမ်းသေႃးၸဝ်ႈၵဝ်ႇ ႁႂ်ႈမၼ်ႈၵိုမ်းလွတ်ႈၽေး လႄႈငိူင်ႉဝႄႈၵၢၼ်ပိုၼ်ၽႄၼႂ်းၵႄႈ     ၵူၼ်းတင်းလၢႆၶႃႈ။ သေႃးလပ်ႉ(SECRET key) ၼႆႉ တေၸၢင်ႈၶဝ်ႈထိုင်လႆႈ ၼႂ်းယၢမ်းလဵဝ်ၼႆႉၵူၺ်း တေဢမ်ႇၼႄပၼ်ထႅင်ႈႈပွၵ်ႈၵမ်းသွင်ယဝ်ႉၶႃႈ။
 api-key-name-display-label = ၸိုဝ်ႈၶေႃႈမၼ်ႈၸႂ် API
 api-client-secret-display-label = သေႃးလႅပ်ႉ API Client
 api-client-id-display-label = မၢႆလပ်ႉ ID ၶွင် API Client
 api-key-modal-confirmation-header = ၸဝ်ႈၵဝ်ႇမၼ်ႈၸႂ်ယူႇႁႃႉ?
 cancel-api-key-confirmation-description = ၸဝ်ႈၵဝ်ႇ မၼ်ႈၸႂ်ယူႇႁႃႉ ဢၼ်ၶႂ်ႈယႃႉလူႉ ၵၢၼ်သၢင်ႈၶေႃႈမၼ်ႈၸႂ် API
+delete-api-key-confirmation-description = ၸဝ်ႈၵဝ်ႇ မၼ်ႈၸႂ်ယူႇႁႃႉ ဢၼ်ၶႂ်ႈယႃႉလူႉ မွတ်ႇပႅတ်ႈ ၶေႃႈမုၼ်းယိုၼ်ႈယၼ် API <bold>{ $apiKeyName }</bold>? ၵၢၼ်ႁဵတ်းသၢင်ႈဢၼ်ၼႆႉ တေဢမ်ႇၸၢင်ႈၶိုၼ်းမႄးလႆႈ။
 # Genders
 male_masculine = ၸၢႆး/ၽူႈၸၢႆး
 female_feminine = ယိင်း/ၽူႈယိင်း
