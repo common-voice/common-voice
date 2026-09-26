@@ -432,3 +432,10 @@ email-opt-in-info-sub-with-challenge = Ná-ènwétà ózí íméèlụ̀ (email)
 email-opt-in-privacy-v2 = Ọ bụrụ na i kweta ka e zitere gi ozi íméèlụ̀ (email), ọ putara na i kwetago kà Mọ̀zị́là jìkwáá ózí ńdị́ à dị́kà é sị̀ dépụ̀tá yá n'ọ́wá ńchékwá ózí Mọ̀zị́là <privacyLink> Ámụ̀mà ńchékwá</privacyLink
 indicates-required = Ákàrà kpákpáǹdò (*) nà-ègósí ébé á chọ̀rọ̀ ka e dee ihe.
 not-available-abbreviation = N/A
+
+## Donate banner
+
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = Ọ na-eri ihe fọdụrụ obere ka o ruo nde dọla kwa àfọ̀ ịkpọbata ntọala data na imewanye platfọọm ahụ maka ọgbakọ ndị ọrụ asụsụ 100+ ndị chekwudoro n'ihe anyị na-eme. <strong>ọ bụrụ na i ji data ghe oghe, nke na-agụnye ihe niile kpọrọ ihe - nye onyinye taa!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <markNaI> I ji CV</mark><br/><mark> eme nchọcha gị?</mark>
