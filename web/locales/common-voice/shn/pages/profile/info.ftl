@@ -101,6 +101,9 @@ delete-api-key-error-toast-message = မီးလွင်ႈၽိတ်းပ�
 fetching-api-keys-error-toast-message = မီးလွင်ႈၽိတ်းပိူင်ႈ ၼႂ်းၵၢၼ်ၸၼ်ဢဝ်ၶေႃႈမၼ်ႈၸႂ် API ၶႃႈ
 copy-api-credential-success-toast-message = ၵွပ်ႇပီႇဢဝ် ယဝ်ႉတူဝ်ႈယဝ်ႉၶႃႈ
 copy-api-credential-error-toast-message = မီးလွင်ႈၽိတ်ႈပိူင်ႈ ၼႂ်းၵၢၼ်ၵွပ်ႇပီႇ
+delete-api-key-success-toast-message = မွတ်ႇပႅတ်ႈ ၶေႃႈမၼ်ႈၸႂ် API ယဝ်ႉတူဝ်ႈလီငၢမ်းယဝ်ႉၶႃႈ
+add-api-key-name-error = ၽိူမ်ႉၸိုဝ်ႈၶေႃႈမၼ်ႈၸႂ် API
+max-api-keys-reached = သၢင်ႈပူၼ်ႉမၢႆၶၼ်ႈ ၶေႃႈမၼ်ႈၸႂ် API ဢၼ်မၵ်းၶၼ်ႈဝႆႉ ထိုင် 10
 # Genders
 male_masculine = ၸၢႆး/ၽူႈၸၢႆး
 female_feminine = ယိင်း/ၽူႈယိင်း
