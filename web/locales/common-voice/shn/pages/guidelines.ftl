@@ -79,6 +79,9 @@ public-domain-explanation-6 = ၵပ်းသိုပ်ႇၸူး ၸုမ�
 citing-sentences-explanation-1 = မီးလွင်ႈလမ်ႇလွင်တႄႉၶႃႈဢေႃႈ ဢၼ်လူဝ်ႇလႆႈပႃး ၵၢၼ်ဢၢင်ႈဢိင်တီႈမႃး၊ တွၼ်ႈတႃႇႁႂ်ႈႁဝ်းၶႃႈ ၸၢင်ႈၸႅတ်ႈထတ်းလႆႈဝႃႈ ၶေႃႈၵႂၢမ်းၸိူဝ်းၼၼ်ႉ ပဵၼ်ၶူဝ်းၶွင်ၶေႃႈမုၼ်းၵူၼ်းတင်းလၢႆ လႄႈ ဢမ်ႇတိတ်းၶေႃႈၵုမ်းၵႅတ်ႇသုၼ်ႇလႆႈသုၼ်ႇပဵၼ် (Copyright restriction) သင်ၼႆၶႃႈယဝ်ႉ။
 citing-sentences-subheader-websites = ဝႅပ်ႉသၢႆႉတ်
 citing-sentences-subheader-websites-explanation = ၸဝ်ႈၵဝ်ႇ ၸၢင်ႈထႅမ်သႂ်ႇပႃး ဝႅပ်ႉသၢႆႉတ်လႆႈယူႇၶႃႈ, မိူၼ်ၼင်ႇ "Common Voice - https://commonvoice.mozilla.org/"
+citing-sentences-subheader-academic-reference = ၵၢၼ်ဢၢင်ႈဢိင် ပၢႆးပၺ်ႇၺႃႇ
+citing-sentences-subheader-academic-reference-explanation = ၸဝ်ႈၵဝ်ႇ ၸၢင်ႈၸႂ်ႉတိုဝ်း ႁၢင်ႈၾၢင်ၵၢၼ်ဢၢင်ႈဢိင် ပၢႆးပၺ်ႇၺႃႇလႆႈယူႇၶႃႈ, မိူၼ်ၼင်ႇ ႁၢင်ႈၾၢင် Harvard "Mozilla (2021) Common Voice. Available at https://commonvoice.mozilla.org/ (Accessed: 15th September 2021)""
+citing-sentences-subheader-offline-sources = တီႈမႃးၶေႃႈမုၼ်း ဢွတ်ႉၾ်လၢႆးၼ် (Offline Sources)
 adding-sentences-subheader-length = တၢင်းယၢဝ်း
 adding-sentences-subheader-numbers = တူဝ်ၼပ်ႉ
 
