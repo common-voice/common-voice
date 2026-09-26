@@ -60,6 +60,14 @@ just-unsure-explanation = သင်ၸဝ်ႈၵဝ်ႇလႆႈထူပ်
 still-have-questions = ယင်းတိုၵ်ႉမီးၶေႃႈထၢမ်ယူႇႁႃႇ?
 contact-common-voice = ၵပ်းသိုပ်ႇၸုမ်းႁဵတ်းၵၢၼ် Common Voice
 
+## Sentence collection nav ids
+
+public-domain = လႅၼ်ၶႂၢင်ႇၵူၼ်းတင်းလၢႆ
+citing-sentences = ၵၢၼ်ဢၢင်ႈဢိင်တီႈမႃးတူၼ်ႇထႅဝ်ၶေႃႈၵႂၢမ်း
+adding-sentences = ၽိူမ်ႉတူၼ်ႈထႅဝ်ၶေႃႈၵႂၢမ်း
+reviewing-sentences = ၶိုၼ်းထတ်းသၢင်တူၼ်ႈထႅဝ်ၶေႃႈၵႂၢမ်း
+sentence-domain = ၶွပ်ႇလႅၼ်ၶေႃႈၵႂၢမ်း
+
 ## Sentence collection sidebar content
 
 adding-sentences-subheader-length = တၢင်းယၢဝ်း
