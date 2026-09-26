@@ -17,6 +17,7 @@ ajg = Adja
 aln = Gheg Alnaian
 am = Ethopian (Habashi)
 an = Aragon e Zik yoy Khalgisht
+apc = S̃hobos̃h, ti payghomẽn sẽtet
 ar = Arabi zik
 arn = Chilli et Argetina he Mapuche Qaumiyate Zik
 as = A'ssami Zik
