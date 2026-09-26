@@ -439,3 +439,4 @@ not-available-abbreviation = N/A
 donate-banner-cta-explanation = Ọ na-eri ihe fọdụrụ obere ka o ruo nde dọla kwa àfọ̀ ịkpọbata ntọala data na imewanye platfọọm ahụ maka ọgbakọ ndị ọrụ asụsụ 100+ ndị chekwudoro n'ihe anyị na-eme. <strong>ọ bụrụ na i ji data ghe oghe, nke na-agụnye ihe niile kpọrọ ihe - nye onyinye taa!</strong>
 # Text wrapped in <mark></mark> will have a white background.
 languages-donate-banner-cta = <markNaI> I ji CV</mark><br/><mark> eme nchọcha gị?</mark>
+languages-donate-banner-cta-explanation = Common Voice na-enweta ego site n'onyinye na ego efu maka nkwado! Ọ na-amasị anyị na ndị ọkà mmụta, ndị ọrụ inyeaka obodo na ndị nchọcha banyere ọrụ a na-ekwu maka ya, ịrụkọta ọrụ. Iji Common Voice mee ihe bụ na-efu, mana ịtụnye ụtụ na platfọọm na ego mkpọbata site n'atụmatụ ego efu maka nkwado, bara uru n'ezie.
