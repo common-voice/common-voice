@@ -226,6 +226,8 @@ code-switching-answer-bullet-4 = ဢမ်ႇမီးၶေႃႈတွပ်�
 code-switching-authentic-header = တွပ်ႇႁႂ်ႈပဵၼ်သၽႃႇဝ လႄႈ ႁႂ်ႈၸိုဝ်ႈၸႂ်ႈတေႉ။
 code-switching-authentic-speak = လၢတ်ႈၵႂႃႇမိူၼ်ၼင်ႇ တိုၵ်ႉလၢတ်ႈတေႃႇတင်းဢူၺ်းၵေႃႉ ဢမ်ႇၼၼ် ၵူၼ်းၼႂ်းႁိူၼ်း၊ သင်ဝႃႈ ၸဝ်ႈၵဝ်ႇမီးလွင်ႈလၢတ်ႈၵႂၢမ်းလေႃးၵၼ် ၼႂ်းၸၢတ်ႈပၢၼ်တႄႉၼႆၸိုင်၊ တီႈၼႆႈၵေႃႈ ႁဵတ်းမိူၼ်ၵဝ်ႇၶႃႈလႄႈ။ တူဝ်ယၢင်ႇ -
 code-switching-authentic-speak-example = ၵေႃႈ I told her ဢွၵ်ႇပၢႆႈၵႂႃႇဢမ်ႇလႆႈ၊ ၵေႃႉမၼ်းသမ်ႉဝႃႈ၊ ‘You better show up!’” (လၢတ်ႈတႆးလေႃးဢင်းၵိတ်း)
+code-switching-use-both-languages = <bold>ၸႂ်ႉတိုဝ်း တင်းသွင်ၽႃႇသႃႇလႆႈယူႇ သင်ဝႃႈမၼ်းပဵၼ်လၢႆးလၢတ်ႈ ဢၼ်ၸဝ်ႈၵဝ်ႇၸႂ်ႉတိုဝ်းယူႇၵူႈဝၼ်း </bold> ဢမ်ႇဝႃႈတေလႅၵ်ႈလၢႆႈၸႂ်ႉတိုဝ်း ၶေႃႈၵႂၢမ်းၶေႃႈသွင်ၶေႃႈၵူၺ်းၵေႃႈ မၼ်းမီးၽွၼ်းလီယူႇ။ တူဝ်ယၢင်ႇ -
+code-switching-use-both-languages-example = မၼ်းၼၢင်း ၸႂ်လမ်တႄႉတႄႉ เพราะว่า ၶႃႈဢမ်ႇၶိုၼ်းသိုပ်ႇၾူၼ်းႁႃမၼ်းၼၢင်း။
 # Don’t Overthink or Overedit
 code-switching-answer-dont-subheader = ယႃႇပေဝူၼ်ႉပူၼ်ႉတီႈ ဢမ်ႇၼၼ် မႄးထတ်းပူၼ်ႉတီႈ။
 code-switching-pronunciation-explanation-example-1 = လၢႆးဢွၵ်ႇသဵင်ဢင်းၵိတ်း /ˈkeɪ.bəl/
