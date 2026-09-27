@@ -154,8 +154,14 @@ answer-questions-tip-2 = လိူၵ်ႈဢွင်ႈတီႈ ဢၼ်မ
 answer-questions-tip-3b = ၶတ်းၸႂ်တွပ်ႇ ႁႂ်ႈယူႇၼႂ်းၶၢဝ်းယၢမ်း 15 တေႃႇ 30 သႅၵ်ႉၵၢၼ်ႉၶႃႈ။
 answer-questions-tip-4 = ငိူင်ႉဝႄႈ လွင်ႈလၢတ်ႈၵႂၢမ်းတႅၵ်ႇယၢႆႈၸင်းၵၼ်၊ ၵႂၢမ်းတိုၵ်းသူၼ်းႁႂ်ႈပဵၼ်လွင်ႈႁၢႆႉၸႃႉ  ဢမ်ႇၼၼ် ၵႂၢမ်းဢၼ်ဢမ်ႇယဵၼ်ႇငႄႈ
 answer-questions-tip-5 = လၢတ်ႈၵႂႃႇလူၺ်ႈသၽႃႇဝ မိူၼ်ၼင်ႇတိုၵ်ႉလၢတ်ႈၸႃတင်းဢူၺ်းၵေႃႉ - ၸႂ်ႉတိုဝ်းၵႂၢမ်းလၢတ်ႈ၊ ၵႂၢမ်းပိုၼ်ႉတီႈ လႄႈ သဵင်ဢွၵ်ႇတူဝ်ၵဝ်ႇတႄႉတႄႉ။
+answer-questions-tip-6 = ၵုမ်းထိင်းသဵင်လၢတ်ႈ ႁႂ်ႈမၼ်းမီးၼမ်ႉၼၵ်းပဵင်းၵၼ်တႃႇသေႇ - ဢမ်ႇလူဝ်ႇႁွင်ႉသဵင်လင် ဢမ်ႇၼၼ် ဢမ်ႇလူဝ်ႇႁဵတ်းသဵင်ႁွင်ႉၽဵင်းၵႂၢမ်း။
 # Transcribe the Audio
 transcribe-the-audio = ထွတ်ႇသဵင်ဢတ်း ႁႂ်ႈပဵၼ်တူဝ်လိၵ်ႈ
+transcribe-the-audio-subheader-1 = ၶေႃႈၸီႉသင်ႇၵူႈလွင်ႈလွင်ႈ
+transcribe-the-audio-subheader-2 = တူဝ်ၼပ်ႉ လႄႈ ၶေႃႈၵႂၢမ်းယေႃႈ
+transcribe-the-audio-subheader-3 = ထႅၵ်ႉၶိုၵ်ႉတွၼ်း
+transcribe-the-audio-subheader-4 = တွၼ်ႈၶေႃႈၵႂၢမ်း၊ ၵၢၼ်တႄႇလၢတ်ႈဢၼ်ၽိတ်းမႅၼ်ႈ၊ ၶေႃႈၵႂၢမ်းဢၼ်လၢတ်ႈသမ်ႉၶိုၼ်း
+transcribe-the-audio-subheader-5 = လွင်ႈၽိတ်းပိူင်တမ်းဝၢင်းလိၵ်ႈ လႄႈ ၶေႃႈၵႂၢမ်းဢၼ်လၢတ်ႈၵူႊဝၼ်း
 # text wrapped in correct will be shown as green text in the UI
 transcribe-the-audio-subheader-2-example-1-correct = <correct>ထုၵ်ၢမႅၼ်ႈ</correct> ၵႆၵၼ်တင်းတီႈၼႆႈ ပၢၵ်ႇလၵ်း
 # text wrapped in wrong will be shown as red text in the UI
