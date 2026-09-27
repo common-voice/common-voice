@@ -502,7 +502,7 @@ localization-select =
 ## MDC Announcement
 
 # Main text for MDC announcement. Text wrapped in <strong></strong> will be rendered with bold font
-announcement-mdc-text = <strong>Ntọala data Common Voice ọhụrụ</strong>adịla maka mbụdata site naanị na nwanne platfọọm anyị, Mozilla Data Collective. Sonye maka inwetanwu ntọala data zuru ụwa ọnụ nke karịrị 300, nke ndị wụlitere ha na ndị awụliteere ha bụ ọgbakọ ndị ọrụ anyị.
+announcement-mdc-text = <strong>Ntọala data Common Voice ọhụrụ</strong>adịla maka mbụdata site naanị na nwanne platfọọm anyị, Mozilla Data Collective. Sonye maka inwetanwu ntọala data zuru ụwa ọnụ nke karịrị 300, nke ndị wụlitere ha na ndị a wụliteere ha bụ ọgbakọ ndị ọrụ anyị.
 # Button text for MDC announcement
 announcement-mdc-button-text = Sonye Mozilla Data Collective
 # Aria text for button which opens MDC on a new page

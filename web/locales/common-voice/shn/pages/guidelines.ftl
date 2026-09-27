@@ -125,8 +125,11 @@ what-makes-a-good-question-tip = ၸဝ်ႈၵဝ်ႇ ထုၵ်ႇလီ�
 easy-to-understand = ပွင်ႇၸႂ်ငၢႆႈ
 easy-to-understand-explanation = လိူၵ်ႈၶေႃႈထၢမ် ဢၼ်ငၢႆႈငၢႆႈ ဢၼ်ၵူၼ်းၵူႈၵေႃႉပွင်ႇၸႂ်လႆႈငၢႆႈ၊ ဢမ်ႇဝႃႈတေပဵၼ်ၾိင်ႈငႄႈၾိင်ႈထုင်း ဢမ်ႇၼၼ် တၢင်းႁၼ်ထိုင် ၸိူင်ႉႁိုဝ်ၵေႃႈယဝ်ႉ။
 spelling-and-pronunciation = ၵၢၼ်ၵပ်းလေႃးၶေႃႈၵႂၢမ်း လႄႈမၢႆၶၼ်ႇလိၵ်ႈ
+spelling-and-pronunciation-explanation = ၸႂ်ႉတိုဝ်း လွင်ႈၵပ်းလေႃးၶေႃႈၵႂၢမ်းလႄႈ လၢႆးတႅမ်ႈလိၵ်ႈႁႂ်ႈထုၵ်ႇမႅၼ်ႈလီ။
 length = တၢင်းယၢဝ်း
+length-explanation = ၶေႃႈထၢမ်ၼၼ်ႉ ထုၵ်ႇလီပဵၼ်ဢၼ်ၸၢင်ႈတွပ်ႇလႆႈ လူၺ်ႈၶေႃႈၵႂၢမ်း 2-3 ထႅဝ်ၵူၺ်း။
 dont-add-subheader = ယႃႇပေသႂ်ႇ
+culturally-specific-questions = ၶေႃႈထၢမ် ဢၼ်ၵပ်းၵၢႆႇလူၺ်ႈ ၾိင်ႈငႄႈၾိင်ႈထုင်းဢၼ်လႂ် ဢၼ်ၼၼ်ႉ။
 process-steps = လၢႆးႁဵတ်းလၢႆးသၢင်ႈ / ၶၵ်ႉတွၼ်ႊ
 example-questions-subheader = တူဝ်ယၢင်ႇၶေႃႈထၢမ်
 
