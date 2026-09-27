@@ -225,6 +225,7 @@ code-switching-answer-bullet-3 = ၸႂ်ႉတိုဝ်းၶေႃႈၵ�
 code-switching-answer-bullet-4 = ဢမ်ႇမီးၶေႃႈတွပ်ႇဢၼ်“တဵမ်ထူၼ်ႈ”
 code-switching-authentic-header = တွပ်ႇႁႂ်ႈပဵၼ်သၽႃႇဝ လႄႈ ႁႂ်ႈၸိုဝ်ႈၸႂ်ႈတေႉ။
 code-switching-authentic-speak = လၢတ်ႈၵႂႃႇမိူၼ်ၼင်ႇ တိုၵ်ႉလၢတ်ႈတေႃႇတင်းဢူၺ်းၵေႃႉ ဢမ်ႇၼၼ် ၵူၼ်းၼႂ်းႁိူၼ်း၊ သင်ဝႃႈ ၸဝ်ႈၵဝ်ႇမီးလွင်ႈလၢတ်ႈၵႂၢမ်းလေႃးၵၼ် ၼႂ်းၸၢတ်ႈပၢၼ်တႄႉၼႆၸိုင်၊ တီႈၼႆႈၵေႃႈ ႁဵတ်းမိူၼ်ၵဝ်ႇၶႃႈလႄႈ။ တူဝ်ယၢင်ႇ -
+code-switching-authentic-speak-example = ၵေႃႈ I told her ဢွၵ်ႇပၢႆႈၵႂႃႇဢမ်ႇလႆႈ၊ ၵေႃႉမၼ်းသမ်ႉဝႃႈ၊ ‘You better show up!’” (လၢတ်ႈတႆးလေႃးဢင်းၵိတ်း)
 # Don’t Overthink or Overedit
 code-switching-answer-dont-subheader = ယႃႇပေဝူၼ်ႉပူၼ်ႉတီႈ ဢမ်ႇၼၼ် မႄးထတ်းပူၼ်ႉတီႈ။
 code-switching-pronunciation-explanation-example-1 = လၢႆးဢွၵ်ႇသဵင်ဢင်းၵိတ်း /ˈkeɪ.bəl/
