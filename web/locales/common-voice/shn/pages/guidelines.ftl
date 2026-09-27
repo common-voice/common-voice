@@ -201,6 +201,7 @@ code-switching-types-subheader = တေလႆႈထႅမ်ၶေႃႈထၢ�
 # What to Avoid
 code-switching-avoid-subheader = ထုၵ်ႇလီငိူင်ႉဝႄႈသင်?
 code-switching-avoid-intro = ၶေႃႈထၢမ် ဢၼ်ၸၢင်ႈတေ-
+code-switching-avoid-3 = ႁဵတ်းႁႂ်ႈၵူၼ်းမႅင်ႇၽႄ ၶေႃႈတွပ်ႇဢၼ်တိူဝ်ႉၸႂ်ငၢႆႈ ဢမ်ႇၼၼ် ဢၼ်ၸၢင်ႈတိုၵ်းသူၼ်းႁဵတ်းႁႂ်ႈ မီးလွင်ႈၸဵပ်းသႅပ်ႇၼႂ်းၸႂ်။
 code-switching-dont-header = ယႃႉပေႉႉႉ
 # Reviewing a Question
 code-switching-review-subheader = ထတ်းသၢင်ႈၶိုၼ်း ၶေႃႈထၢမ်
