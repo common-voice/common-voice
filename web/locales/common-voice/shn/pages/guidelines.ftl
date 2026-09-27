@@ -203,9 +203,18 @@ code-switching-avoid-subheader = ထုၵ်ႇလီငိူင်ႉဝႄ�
 code-switching-avoid-intro = ၶေႃႈထၢမ် ဢၼ်ၸၢင်ႈတေ-
 code-switching-avoid-3 = ႁဵတ်းႁႂ်ႈၵူၼ်းမႅင်ႇၽႄ ၶေႃႈတွပ်ႇဢၼ်တိူဝ်ႉၸႂ်ငၢႆႈ ဢမ်ႇၼၼ် ဢၼ်ၸၢင်ႈတိုၵ်းသူၼ်းႁဵတ်းႁႂ်ႈ မီးလွင်ႈၸဵပ်းသႅပ်ႇၼႂ်းၸႂ်။
 code-switching-dont-header = ယႃႉပေႉႉႉ
+code-switching-dont-1 = ဢမ်ႇလူဝ်ႇၸႂ်ႉတိုဝ်း ၶေႃႈၵႂၢမ်းဢၼ်ၶဝ်ႈပိူင်ပူၼ်ႉတီႈ။
 # Reviewing a Question
 code-switching-review-subheader = ထတ်းသၢင်ႈၶိုၼ်း ၶေႃႈထၢမ်
+code-switching-review-intro = ႁဵတ်းႁႂ်ႈမၼ်းမၼ်ႈၸႂ်ဝႃႈ ၶေႃႈထၢမ်ၼၼ်ႉ ၶဝ်ႈပိူင်တၢင်း ၼင်ႇၼႆ -
+code-switching-review-criterion-1 = ပဵၼ်ဢၼ်ႁူႉပွင်ႇငၢႆႈလႄႈတွပ်ႇၶိုၼ်းငၢႆႈ
+code-switching-review-criterion-2 = မီးလွင်ႈၵပ်းၵၢႆႇပဵၼ်ၵၢၼ်ၵူႈလွင်ႈလွင်ႈ
+code-switching-review-criterion-3 = ဢမ်ႇၸႂ်ႉတိုဝ်း ဢမ်ႇၼၼ် ဢမ်ႇတိုၵ်းသူၼ်းၶေႃႈၵႂၢမ်းဢၼ်မီးၽေး လႄႈ ဢမ်ႇယဵၼ်ႇငႄႈ။
 code-switching-review-does-not-header = လႄႈ <bold>ယႃႇပေ</bold> ႁႂ်ႈပႃး
+code-switching-review-offensive-content = ၶေႃႈမုၼ်း ဢၼ်ဢမ်ႇယဵၼ်ႇငႄႈ ဢမ်ႇၼၼ် ၶေႃႈမုၼ်း ဢၼ်မီးလွင်ႈတိူဝ်ႉၸႂ်ငၢႆႈ
+code-switching-answer-header = ၶေႃႈမုၼ်း ဢၼ်ဢမ်ႉယဵၼ်ႇငႄႈ ဢမ်ႇၼၼ် ၶေႃႈမုၼ်း ဢၼ်မီးလွင်ႈတိူဝ်ႉၸႂ်ငၢႆႈ။
+code-switching-review-no-1 = ၶေႃႈထၢမ် ဢၼ်ၸၢင်ႈတိုၵ်းသူၼ်း ႁႂ်ႈပၼ်ၶေႃႈမုၼ်း ဢၼ်ၸၢင်ႈၼႄၼႃႈတႃတူဝ်ၵူၼ်းလႆႈ။
+code-switching-review-no-2 = ၶေႃႈထၢမ် ဢၼ်ၸၢင်ႈတိုၵ်းသူၼ်း ႁႂ်ႈမီးလွင်ႈတႅၵ်ႇယၢႆႈၸင်းၵၼ် ဢမ်ႇၼၼ် တၢင်းႁၼ်ထိုင် ဢၼ်မီးလွင်ႈတၢင်းႁၼ်ထိုင် ဢၼ်ၸပ်းၽၢၵ်ႇ။
 # Answering a Question
 code-switching-answer-subheader = ၵၢၼ်တွပ်ႇၶေႃႈထၢမ်
 code-switching-answer-bullet-4 = ဢမ်ႇမီးၶေႃႈတွပ်ႇဢၼ်“တဵမ်ထူၼ်ႈ”
