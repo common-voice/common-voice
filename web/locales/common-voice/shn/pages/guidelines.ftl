@@ -137,7 +137,9 @@ process-steps-explanation = ၶေႃႈထၢမ် ဢၼ်တိုၵ်း
 offensive-content-sensitive-information = ၶေႃႈမုၼ်း ဢၼ်ဢမ်ႉယဵၼ်ႇငႄႈ ဢမ်ႇၼၼ် ၶေႃႈမုၼ်း ဢၼ်မီးလွင်ႈတိူဝ်ႉၸႂ်ငၢႆႈ။
 offensive-content-sensitive-information-explanation-explanation-1 = ၶေႃႈထၢမ် ဢၼ်ၸၢင်ႈတိုၵ်းသူၼ်း ႁႂ်ႈပၼ်ၶေႃႈမုၼ်း ဢၼ်ၸၢင်ႈၼႄၼႃႈတႃတူဝ်ၵူၼ်းလႆႈ။
 offensive-content-sensitive-information-explanation-explanation-2 = ၶေႃႈထၢမ် ဢၼ်ၸၢင်ႈတိုၵ်းသူၼ်း ႁႂ်ႈမီးလွင်ႈတႅၵ်ႇယၢႆႈၸင်းၵၼ် ဢမ်ႇၼၼ် တၢင်းႁၼ်ထိုင် ဢၼ်မီးလွင်ႈတၢင်းႁၼ်ထိုင် ဢၼ်ၸပ်းၽၢၵ်ႇ။
+offensive-content-sensitive-information-explanation-explanation-3 = ၶေႃႈထၢမ် ဢၼ်ၸၢင်ႈႁဵတ်းႁႂ်ႈၽူႈလႂ်ၽႂ်သေဢမ်ႇဝႃႈၸႅၵ်ႇၽႄလွင်ႈတိူဝ်ႉၸႂ်ငၢႆႈ၊ဢၼ်ၸၢင်ႈတိုၵ်းသူၼ်းပၼ်ႁႂ်ႈပဵၼ်လွင်ႈတုမ်ႉတွပ်ႇ။
 example-questions-subheader = တူဝ်ယၢင်ႇၶေႃႈထၢမ်
+example-questions-explanation-1 = ၸဝ်ႈၵဝ်ႇ ၸၢင်ႈၶဝ်ႈတူၺ် <examplePromptsLink>ၶေႃႈထၢမ်တူဝ်ယၢင်ႇ 120 ၶေႃႈ လႆႈဢၼ်မီးၼႂ်း ၽိုၼ်လိၵ်ႈၼႆႉ </examplePromptsLink>
 
 ## Spontaneous Speech sidebar content
 
