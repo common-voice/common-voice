@@ -507,3 +507,13 @@ announcement-mdc-text = <strong>Ntọala data Common Voice ọhụrụ</strong>a
 announcement-mdc-button-text = Sonye Mozilla Data Collective
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = Ọ na-emepe na taabụ ọhụrụ
+
+## Release Delay Announcement
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-delay = Ezigbo ọgbakọ ndị ọrụ, anyị na-arụ ọrụ ugbu a maka mwepụta ahụ. Anyị tụrụ anya na a ga-ewuputa ha na nkebi na nkebi n'ụbọchị na-abịa n'ihu na <mdcLink>Mozilla Data Collective </mdcLink>.
+
+## Release Announcement
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release = Ezigbo ọgbakọ ndị ọrụ, mwepụta ọhụrụ ahụ adịla ugbu a na <mdcLink> Mozilla Data Collective </mdcLink>. Sonye maka inweta ntọala data nke ụwa  niile 500+
