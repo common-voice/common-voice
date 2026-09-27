@@ -117,6 +117,10 @@ adding-questions = ၵၢၼ်ၽိူမ်ႉၶေႃႈထၢမ်
 ## Question collection sidebar content
 
 what-makes-a-good-question-subheader = ဢီႊသင်ႁဵတ်းႁႂ်ႈၶေႃႈထၢမ်ဢၼ်လီ?
+what-makes-a-good-question-explanation = ၶေႃႈထၢမ်လီ တွၼ်ႈတႃႇၸုမ်ႇၶေႃႈမုၼ်း ဢၼ်ၵူၼ်းတင်းၼမ်ၶဝ်ႈႁူမ်ႈၼၼ်ႉ ထုၵ်ႇလီမီးပိူင်တၢင်း ၼင်ႇၼႆ -
+what-makes-a-good-question-explanation-criteria-1 = ပဵၼ်ဢၼ်ႁူႉပွင်ႇငၢႆႈလႄႈတွပ်ႇၶိုၼ်းငၢႆႈ
+what-makes-a-good-question-explanation-criteria-2 = မီးလွင်ႈၵပ်းၵၢႆႇပဵၼ်ၵၢၼ်ၵူႈလွင်ႈလွင်ႈ
+what-makes-a-good-question-explanation-criteria-3 = ဢမ်ႇၸႂ်ႉတိုဝ်း ဢမ်ႇၼၼ် ဢမ်ႇတိုၵ်းသူၼ်းၶေႃႈၵႂၢမ်းဢၼ်မီးၽေး လႄႈ ဢမ်ႇယဵၼ်ႇငႄႈ။
 easy-to-understand = ပွင်ႇၸႂ်ငၢႆႈ
 length = တၢင်းယၢဝ်း
 dont-add-subheader = ယႃႇပေသႂ်ႇ
