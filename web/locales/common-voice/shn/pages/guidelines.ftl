@@ -237,6 +237,7 @@ code-switching-authentic-full-context = <bold>ၸႂ်ႉတိုဝ်း ၶ
 # Don’t Overthink or Overedit
 code-switching-answer-dont-subheader = ယႃႇပေဝူၼ်ႉပူၼ်ႉတီႈ ဢမ်ႇၼၼ် မႄးထတ်းပူၼ်ႉတီႈ။
 code-switching-answer-dont-correct-language = bold>“မႄးၵႄႈႁႂ်ႈထုၵ်ႇ” ၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈၸဝ်ႈၵဝ်ႇ။</bold> ဢၼ်ၼႆႉ ဢမ်ႇၸႂ်ႈလွင်ႈပၢင်တွပ်ႇလိၵ်ႈ၊ တီႈၼႆႈ လွင်ႈလၢတ်ႈႁႂ်ႈထုၵ်ႇမႅၼ်ပိူင်ၼၼ်ႉဢမ်ႇလမ်ႇလွင်ႈ၊ ၶေႃၾၵႂၢမ်းလၢတ်ႈပၼ်ပဵၼ်သၽႃႇဝ ပဵၼ်ဢၼ်လမ်ႇလွင်ႈလူင်ယဝ်ႉ။
+code-switching-answer-dont-avoid-switching = <bold>ငိူင်ႉဝႄႈ လွင်ႈလၢတ်ႈၵႂၢမ်းလေႃးၵၼ် သင်ဝႃႈၸဝ်ႈၵဝ်ႇတိုၼ်းလၢတ်ႈယူႇၵူႈဝၼ်း။ </bold> ၵၢၼ်လၢတ်ႈၵႂၢမ်းလေႃးၵၼ် ၼႂ်းၵၢင်ထႅဝ်လိၵ်ႈ၊ ၼႂ်းၵၢင်လွင်ႈဝူၼ်ႉ ဢမ်ႇၼၼ် ၸႂ်ႉၶေႃႈၵႂၢမ်းလေႃးၵၼ်ၶေႃႈလဵဝ်ၵူၺ်းၵေႃႈ တိုၼ်းႁဵတ်းလႆႈ ဢမ်ႇမီးပၼ်ႁႃသင်ၶႃႈ။
 code-switching-pronunciation-explanation-example-1 = လၢႆးဢွၵ်ႇသဵင်ဢင်းၵိတ်း /ˈkeɪ.bəl/
 code-switching-pronunciation-explanation-example-2 = လၢႆးဢွၵ်ႇသဵင်သပဵၼ်ႇ/ˈkable/
 # Be Careful with Lookalikes
