@@ -309,6 +309,7 @@ prq = Asheninka Perene
 ps = Ásụ̀sụ́ Pàshị̀ítò
 pt = Ásụ̀sụ́ Pọ́tùgị́ìsì
 pua = Ọdịda Anyanwụ Highland Purepecha
+pwn = Paiwan
 quc = Ásụ̀sụ́ Kị́yéèchị̀
 qug = Quichua Chimborazo Highland
 qup = Pastaza Quechua nke Ndịda
