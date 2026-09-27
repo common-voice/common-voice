@@ -516,4 +516,4 @@ announcement-release-delay = Ezigbo ọgbakọ ndị ọrụ, anyị na-arụ �
 ## Release Announcement
 
 # Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
-announcement-release = Ezigbo ọgbakọ ndị ọrụ, mwepụta ọhụrụ ahụ adịla ugbu a na <mdcLink> Mozilla Data Collective </mdcLink>. Sonye maka inweta ntọala data nke ụwa  niile 500+
+announcement-release = Ezigbo ọgbakọ ndị ọrụ, mwepụta ọhụrụ ahụ adịla ugbu a na <mdcLink> Mozilla Data Collective </mdcLink>. Sonye maka inweta ntọala data 500+ nke ụwa niile, e wụlitere site n'aka ọgbakọ ndị ọrụ, nye ọgbakọ ndị ọrụ.
