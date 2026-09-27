@@ -6,3 +6,5 @@ contact-form-name =
 contact-form-message =
     .label = Viesti
 contact-required = *pakollinen
+contact-form-success = Viestisi on lähetetty. Kiitos!
+contact-form-error = Jokin meni pieleen. Yritä uudelleen.
