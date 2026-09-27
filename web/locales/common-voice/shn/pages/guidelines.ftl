@@ -166,6 +166,8 @@ transcribe-the-audio-subheader-1-explanation = ၵမ်ႈၼမ်တႄႉ �
 transcribe-the-audio-subheader-1-explanation-example-1 = လွင်ႈတႅမ်ႈမၢႆဝႆႉ ၶေႃႈၵႂၢမ်းဢၼ်လၢတ်ႈတိတ်းၶမ်ႈ၊ ၼႂ်းၼၼ်ႉပႃးလွင်ႈထၢင်ႇထိူမ် လႄႈ လွင်ႈလၢတ်ႈသမ်ႉၶိုၼ်း။
 transcribe-the-audio-subheader-1-explanation-example-2 = လွင်ႈတႅမ်ႈမၢႆၼႄ သဵင်ယႃႉၵဝ်း မိူၼ်ၼင်ႇ သဵင်ဢႆ ဢမ်ႇၼၼ် သဵင်ၶူဝ်
 transcribe-the-audio-subheader-1-explanation-example-3 = လွင်ႈတႅမ်ႈမၢႆၼႄ သဵင်ယႃႉၵဝ်းဢၼ်လင်ႁႅင်း၊ မိူၼ်ၼင်ႇ သဵင်ၵူၼ်းလၢတ်ႈတေႃႇၵၼ်ပႃႈလင် ဢမ်ႇၼၼ် သဵင်ႁွၼ်းလူတ်ႉ။
+transcribe-the-audio-subheader-1-explanation-example-4 = လွင်ႈပႅၵ်ႇပိူင်ႈပိူင်တမ်းလိၵ်ႈလႄႈ ၶေႃႈၵႂၢမ်းသလႅင်း (Slang) ၼၼ်ႉ ထုၵ်ႇလီတႅမ်ႈမၢႆဝႆႉ တႅတ်ႈတႅတ်ႈတေႃးတေႃး ၼင်ႇဢၼ်လႆႈငိၼ်းၼၼ်ႉၶႃႈ။ ဢမ်ႇလူဝ်ႇမႄးႁႂ်ႈထုၵ်ႇမႅၼ်ႈ ဢမ်ႇၼၼ် ဢမ်ႇလူဝ်ႇမႄးထႅမ်  ၶေႃႈၵႂၢမ်းလၢတ်ႈပိူၼ်ႈၶႃႈ။
+transcribe-the-audio-subheader-2-explanation-1 = တူဝ်ၼပ်ႉ လႄႈၶိူင်ႈမၢႆၶိုၵ်ႉတွၼ်းၸိူဝ်းၼၼ်ႉ ထုၵ်ႇလီၵပ်းလေႃးဢွၵ်ႇပဵၼ်တူဝ်လိၵ်ႈၶေႃႈၵႂၢမ်း တႅၼ်းတၢင်ႇလွင်ႈၸႂ်ႉတိုဝ်းတူဝ်ၼပ်ႉ ဢမ်ႇၼၼ် ၶိူင်ႈမၢႆၶိုၵ်ႉတွၼ်းၶႃႈ။ တူဝ်ယၢင်ႇ -
 # text wrapped in correct will be shown as green text in the UI
 transcribe-the-audio-subheader-2-example-1-correct = <correct>ထုၵ်ၢမႅၼ်ႈ</correct> ၵႆၵၼ်တင်းတီႈၼႆႈ ပၢၵ်ႇလၵ်း
 # text wrapped in wrong will be shown as red text in the UI
