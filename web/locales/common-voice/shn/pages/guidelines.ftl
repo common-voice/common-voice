@@ -246,6 +246,7 @@ code-switching-transcribe-subheader = ၵၢၼ်ထွတ်ႇသဵင်ပ
 # Don’t Clean Up or Simplify the Language
 code-switching-cleanup-header = ဢမ်ႇလူဝ်ႇမႄးထႅမ် ဢမ်ႇၼၼ် ဢမ်ႇလူဝ်ႇႁဵတ်းႁႂ်ႈၶေႃႈၵႂၢမ်းငၢႆႈပူၼ်ႉတီႈ
 code-switching-cleanup-1 = ဢမ်ႇလူဝ်ႇပိၼ်ႇၽႃႇသႃႇ ဢမ်ႇၼၼ် ဢမ်ႇလူဝ်ႇလႅၵ်ႈလၢႆႈၶေႃႈၵႂၢမ်းမႂ်ႇ - တႅမ်ႈမၢႆဝႆႉ ၼင်ႇဢၼ်ၵူၼ်းလၢတ်ႈၼၼ်ႉ လၢတ်ႈဢွၵ်ႇမႃးတႄႉတႄႉ၊ ဢမ်ႇၸႂ်ႈတႅမ်ႈမၢႆၸွမ်း ၼင်ႇ "တီႈပွင်ႇ" ဢၼ်ၶဝ်ၶႂ်ႈလၢတ်ႈၼၼ်ႉၶႃႈ။
+code-switching-cleanup-2 = ဢမ်ႇလူဝ်ႇမႄးႁႂ်ႈထုၵ်ႇမႅၼ် ပိူင်တမ်းလိၵ်ႈ ဢမ်ႇၼၼ် လၢႆးဢွၵ်ႇသဵင် - ႁႂ်ႈသိမ်းဝႆႉ လၢႆးၸႂ်ႉတိုဝ်းဢၼ်ပဵၼ်သၽႃႇဝ တူဝ်ၵူၼ်းလၢတ်ႈၼၼ်ႉၶႃႈ။
 code-switching-tagging-error-2 = လွင်ႈပေႃႉတႅမ်ႈလိၵ်ႈၽိတ်း
 code-switching-tagging-error-3 = ၶေႃႈၵႂၢမ်း ဢၼ်တႅမ်ႈမၢႆဝႆႉ ၽိတ်းပိူင်လၢႆးတႅမ်ႈလိၵ်ႈ
 # Using Correct Orthography for Each Language
