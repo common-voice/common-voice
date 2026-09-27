@@ -163,6 +163,9 @@ transcribe-the-audio-subheader-3 = ထႅၵ်ႉၶိုၵ်ႉတွၼ်
 transcribe-the-audio-subheader-4 = တွၼ်ႈၶေႃႈၵႂၢမ်း၊ ၵၢၼ်တႄႇလၢတ်ႈဢၼ်ၽိတ်းမႅၼ်ႈ၊ ၶေႃႈၵႂၢမ်းဢၼ်လၢတ်ႈသမ်ႉၶိုၼ်း
 transcribe-the-audio-subheader-5 = လွင်ႈၽိတ်းပိူင်တမ်းဝၢင်းလိၵ်ႈ လႄႈ ၶေႃႈၵႂၢမ်းဢၼ်လၢတ်ႈၵူႊဝၼ်း
 transcribe-the-audio-subheader-1-explanation = ၵမ်ႈၼမ်တႄႉ ထုၵ်ႇလီတႅမ်ႈမၢႆဝႆႉ ၵူႈလွင်ႈလွင်ႈ ဢၼ်လႆႈငိၼ်း၊ ၼႂ်းၼၼ်ႉပႃး၊
+transcribe-the-audio-subheader-1-explanation-example-1 = လွင်ႈတႅမ်ႈမၢႆဝႆႉ ၶေႃႈၵႂၢမ်းဢၼ်လၢတ်ႈတိတ်းၶမ်ႈ၊ ၼႂ်းၼၼ်ႉပႃးလွင်ႈထၢင်ႇထိူမ် လႄႈ လွင်ႈလၢတ်ႈသမ်ႉၶိုၼ်း။
+transcribe-the-audio-subheader-1-explanation-example-2 = လွင်ႈတႅမ်ႈမၢႆၼႄ သဵင်ယႃႉၵဝ်း မိူၼ်ၼင်ႇ သဵင်ဢႆ ဢမ်ႇၼၼ် သဵင်ၶူဝ်
+transcribe-the-audio-subheader-1-explanation-example-3 = လွင်ႈတႅမ်ႈမၢႆၼႄ သဵင်ယႃႉၵဝ်းဢၼ်လင်ႁႅင်း၊ မိူၼ်ၼင်ႇ သဵင်ၵူၼ်းလၢတ်ႈတေႃႇၵၼ်ပႃႈလင် ဢမ်ႇၼၼ် သဵင်ႁွၼ်းလူတ်ႉ။
 # text wrapped in correct will be shown as green text in the UI
 transcribe-the-audio-subheader-2-example-1-correct = <correct>ထုၵ်ၢမႅၼ်ႈ</correct> ၵႆၵၼ်တင်းတီႈၼႆႈ ပၢၵ်ႇလၵ်း
 # text wrapped in wrong will be shown as red text in the UI
