@@ -241,6 +241,14 @@ code-switching-answer-dont-avoid-switching = <bold>ငိူင်ႉဝႄႈ �
 code-switching-answer-dont-formal-writing = <bold>Speak လၢတ်ႈ မိူၼ်ၼင်ႇ တိုၵ်ႉတႅမ်ႈလိၵ်ႈဢၼ်ႁႂ်ႈၶဝ်ႈပိူင်။</bold> ငိူင်ႉဝႄႈ ၶေႃႈတွပ်ႇဢၼ်ၶဝ်ႈပိူင်၊ ဢၼ်ပဵၼ်ပၢႆးပၺ်ႇၺႃႇပူၼ်ႉတီႈ၊ႁႂ်ႈလၢတ်ႈၸႃၵၼ် မိူၼ်ၼင်ႇ ၵႂၢမ်းဢုပ်ႇဢူဝ်းၵၼ်ၵူႈဝၼ်းၶႃႈ။
 code-switching-answer-dont-force-switch = <bold>တဵၵ်းပိၼ်ႇလၢႆႈၽႃႇသႃႇ သင်ဝႃႈမၼ်းဢမ်ႇပဵၼ်သၽႃႇဝ</bold> လူဝ်ႇလႆႈပိၼ်ႇလၢႆႈၽႃႇသႃႇ ၼႂ်းၶၢဝ်းယၢမ်းဢၼ်ၸဝ်ႈၵဝ်ႇ လၢတ်ႈၵႂၢမ်းပဵၼ်သၽႃႇဝ ၼႂ်းသၢႆငၢႆလွင်ႈတၢင်းၼၼ်ႉၵူၺ်းၶႃႈ။
 code-switching-answer-dont-translate-repeat = <bold>ပိၼ်ႇၽႃႇသႃႇ ဢမ်ႇၼၼ် လၢတ်ႈသမ်ႉၵူႈလွင်ႈလွင်ႈ၊</bold>လၢတ်ႈၵႂႃႇပွၵ်ႈလဵဝ်ၵူၺ်း၊ လၢႆးဢၼ်မၼ်းတေမႃး ၼႂ်းလွင်ႈဢုပ်ႇဢူဝ်းဢၼ်ပဵၼ်သၽႃႇဝၼၼ်ႉ၊ ၸဝ်ႈၵဝ်ႇ ဢမ်ႇလူဝ်ႇလၢတ်ႈ  ပိူင်ၽႅၵ်ႇ(version)ၶေႃႈတွပ်ႇ ၼႂ်းၽႃႇသႃႇၽႂ်မၼ်း။
+# Transcribing
+code-switching-transcribe-subheader = ၵၢၼ်ထွတ်ႇသဵင်ပဵၼ်တူဝ်လိၵ်ႈ
+# Don’t Clean Up or Simplify the Language
+code-switching-cleanup-header = ဢမ်ႇလူဝ်ႇမႄးထႅမ် ဢမ်ႇၼၼ် ဢမ်ႇလူဝ်ႇႁဵတ်းႁႂ်ႈၶေႃႈၵႂၢမ်းငၢႆႈပူၼ်ႉတီႈ
+code-switching-tagging-error-2 = လွင်ႈပေႃႉတႅမ်ႈလိၵ်ႈၽိတ်း
+code-switching-tagging-error-3 = ၶေႃႈၵႂၢမ်း ဢၼ်တႅမ်ႈမၢႆဝႆႉ ၽိတ်းပိူင်လၢႆးတႅမ်ႈလိၵ်ႈ
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = လွင်ႈၸႂ်ႉတိုဝ်း လၢႆးတႅမ်ႈလိၵ်ႈ ႁႂ်ႈထုၵ်ႇမႅၼ်ႈၸွမ်း ၵူႈၽႃႇသႃႇ
 code-switching-pronunciation-explanation-example-1 = လၢႆးဢွၵ်ႇသဵင်ဢင်းၵိတ်း /ˈkeɪ.bəl/
 code-switching-pronunciation-explanation-example-2 = လၢႆးဢွၵ်ႇသဵင်သပဵၼ်ႇ/ˈkable/
 # Be Careful with Lookalikes
