@@ -498,3 +498,12 @@ languages-donate-banner-cta = <markNaI> I ji CV</mark><br/><mark> eme nchọcha 
 languages-donate-banner-cta-explanation = Common Voice na-enweta ego site n'onyinye na ego efu maka nkwado! Ọ na-amasị anyị na ndị ọkà mmụta, ndị ọrụ inyeaka obodo na ndị nchọcha banyere ọrụ a na-ekwu maka ya, ịrụkọta ọrụ. Iji Common Voice mee ihe bụ na-efu, mana ịtụnye ụtụ na platfọọm na ego mkpọbata site n'atụmatụ ego efu maka nkwado, bara uru n'ezie.
 localization-select =
     .label = Họrọ asụsụ/ebe ntụgharị
+
+## MDC Announcement
+
+# Main text for MDC announcement. Text wrapped in <strong></strong> will be rendered with bold font
+announcement-mdc-text = <strong>Ntọala data Common Voice ọhụrụ</strong>adịla maka mbụdata site naanị na nwanne platfọọm anyị, Mozilla Data Collective. Sonye maka inwetanwu ntọala data zuru ụwa ọnụ nke karịrị 300, nke ndị wụlitere ha na ndị awụliteere ha bụ ọgbakọ ndị ọrụ anyị.
+# Button text for MDC announcement
+announcement-mdc-button-text = Sonye Mozilla Data Collective
+# Aria text for button which opens MDC on a new page
+announcement-mdc-button-aria-text = Ọ na-emepe na taabụ ọhụrụ
