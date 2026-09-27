@@ -228,6 +228,8 @@ code-switching-authentic-speak = လၢတ်ႈၵႂႃႇမိူၼ်ၼ�
 code-switching-authentic-speak-example = ၵေႃႈ I told her ဢွၵ်ႇပၢႆႈၵႂႃႇဢမ်ႇလႆႈ၊ ၵေႃႉမၼ်းသမ်ႉဝႃႈ၊ ‘You better show up!’” (လၢတ်ႈတႆးလေႃးဢင်းၵိတ်း)
 code-switching-use-both-languages = <bold>ၸႂ်ႉတိုဝ်း တင်းသွင်ၽႃႇသႃႇလႆႈယူႇ သင်ဝႃႈမၼ်းပဵၼ်လၢႆးလၢတ်ႈ ဢၼ်ၸဝ်ႈၵဝ်ႇၸႂ်ႉတိုဝ်းယူႇၵူႈဝၼ်း </bold> ဢမ်ႇဝႃႈတေလႅၵ်ႈလၢႆႈၸႂ်ႉတိုဝ်း ၶေႃႈၵႂၢမ်းၶေႃႈသွင်ၶေႃႈၵူၺ်းၵေႃႈ မၼ်းမီးၽွၼ်းလီယူႇ။ တူဝ်ယၢင်ႇ -
 code-switching-use-both-languages-example = မၼ်းၼၢင်း ၸႂ်လမ်တႄႉတႄႉ เพราะว่า ၶႃႈဢမ်ႇၶိုၼ်းသိုပ်ႇၾူၼ်းႁႃမၼ်းၼၢင်း။
+code-switching-authentic-direct-quotes = <bold>ပႃးတင်း ၶေႃႈၵႂၢမ်းလၢတ်ႈသိုဝ်ႈ ဢမ်ႇၼၼ် လွင်ႈဢုပ်ႇဢူဝ်းၵၼ် </bold>  လၢတ်ႈဢွၵ်ႇမႃး တႅတ်ႈတႅတ်ႈတေႃးတေႃး ၼင်ႇဢၼ်ပိူၼ်ႈလၢတ်ႈဝႆႉတႄႉၼၼ်ႉလႄႈ၊ ဢမ်ႇလူဝ်ႇမႄးထႅမ်ပဵၼ် ၶေႃႈၵႂၢမ်းဢၼ်ၸႅင်ႈလႅင်းလီ ဢမ်ႇၼၼ် ၶေႃႈၵႂၢမ်းဢၼ်ၶဝ်ႈပိူင်ၶႃႈ။ တူဝ်ယၢင်ႇ -
+code-switching-authentic-direct-quotes-example = မႄႈၶႃႈလၢတ်ႈဝႃႈ၊ ‘မႂ်းထၢင်ႇဝႃႈ ဢၼ်ၼႆႉပဵၼ်လွင်ႈလဵၼ်ႈႁႃႉ?’ ၼၼ်ႉၵေႃႈ ၶႃႈသမ်ႉဝႃႈ၊ ‘ဢေႃး ၸႂ်ယဵၼ်ယဵၼ်လႄႈ!
 # Don’t Overthink or Overedit
 code-switching-answer-dont-subheader = ယႃႇပေဝူၼ်ႉပူၼ်ႉတီႈ ဢမ်ႇၼၼ် မႄးထတ်းပူၼ်ႉတီႈ။
 code-switching-pronunciation-explanation-example-1 = လၢႆးဢွၵ်ႇသဵင်ဢင်းၵိတ်း /ˈkeɪ.bəl/
