@@ -140,11 +140,14 @@ offensive-content-sensitive-information-explanation-explanation-2 = ၶေႃႈ
 offensive-content-sensitive-information-explanation-explanation-3 = ၶေႃႈထၢမ် ဢၼ်ၸၢင်ႈႁဵတ်းႁႂ်ႈၽူႈလႂ်ၽႂ်သေဢမ်ႇဝႃႈၸႅၵ်ႇၽႄလွင်ႈတိူဝ်ႉၸႂ်ငၢႆႈ၊ဢၼ်ၸၢင်ႈတိုၵ်းသူၼ်းပၼ်ႁႂ်ႈပဵၼ်လွင်ႈတုမ်ႉတွပ်ႇ။
 example-questions-subheader = တူဝ်ယၢင်ႇၶေႃႈထၢမ်
 example-questions-explanation-1 = ၸဝ်ႈၵဝ်ႇ ၸၢင်ႈၶဝ်ႈတူၺ် <examplePromptsLink>ၶေႃႈထၢမ်တူဝ်ယၢင်ႇ 120 ၶေႃႈ လႆႈဢၼ်မီးၼႂ်း ၽိုၼ်လိၵ်ႈၼႆႉ </examplePromptsLink>
+example-questions-explanation-2 = သင်ဝႃႈ ၸဝ်ႈၵဝ်ႇ ၶႂ်ႈသူင်ႇၶေႃႈထၢမ်တင်းၼမ် တွၼ်ႈတႃႇဢဝ်ၶဝ်ႈၼႂ်းၸုမ်ႇၶေႃႈမုၼ်းၼႆၸိုင်၊  ၸဝ်ႈၵဝ်ႇ  <githubLink>ၸၢင်ႈၶဝ်ႈႁဵတ်းလႆႈ တီႈ GitHub ႁဝ်းၶႃႈ</githubLink> ဢမ်ႇၼၼ် သူင်ႇသဵၼ်ႈမၢႆၸဝ်ႈၵဝ်ႇ မႃးတီႈဢီးမဵလ်<emailFragment>commonvoice@mozilla.com.</emailFragment>
 
 ## Spontaneous Speech sidebar content
 
 # Answer Questions
 answer-questions = ၵၢၼ်တွပ်ႇၶေႃႈထၢမ်
+answer-questions-subheader = ၶေႃႈၸီႉသင်ႇၵူႈလွင်ႈလွင်ႈ
+answer-questions-explanation-1 = ဝူၼ်ႉၶႆႈၸႂ်ၵပ်းၵၢႆႇလူၺ်ႈၶေႃႈသင်ႇၼၼ်ႉ ၵမ်းၼိုင်ႈၵွၼ်ႇ၊ ဝူၼ်ႉတူၺ်းဝႃႈ ၸဝ်ႈၵဝ်ႇၶႂ်ႈလၢတ်ႈဢွၵ်ႇမႃးၸိူင်ႉႁိုဝ်၊ ဢမ်ႇလူဝ်ႇႁၢင်ႈႁႅၼ်းတႅမ်ႈဝႆႉပဵၼ်လိၵ်ႈၼမ်ပူၼ်ႉတီႈ။ ၼဵၵ်းတီႈႁၢင်ႈ ‘ဢတ်းသဵင်’ ၼၼ်ႉတႃႉ။ မိူဝ်ႈဢတ်းသဵင်ယဝ်ႉယဝ်ႉၼၼ်ႉ ၸဝ်ႈၵဝ်ႇ ၸၢင်ႈၶိုၼ်းထွမ်ႇသဵင်တူဝ်ၵဝ်ႇ၊ ဢတ်းထႅင်ႈပွၵ်ႈၼိုင်ႈ၊ မွတ်ႇပႅတ်ႈ ဢမ်ႇၼၼ် သူင်ႇပၼ်လႆႈယူႇၶႃႈ။
 # Transcribe the Audio
 transcribe-the-audio = ထွတ်ႇသဵင်ဢတ်း ႁႂ်ႈပဵၼ်တူဝ်လိၵ်ႈ
 # text wrapped in correct will be shown as green text in the UI
