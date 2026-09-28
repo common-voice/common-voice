@@ -340,9 +340,15 @@ code-switching-lookalikes-explanation-example-1 = “Footing” used to mean run
 code-switching-lookalikes-explanation-example-2 = “No problemo” used in English > tag as English
 # When Not to Tag Words
 code-switching-not-tag-header = တွၼ်ႈဢၼ်ဢမ်ႇထုၵ်ႇလီသႂ်ႇမၢႆထႅၵ်ႉ ၶေႃႈၵႂၢမ်း
+code-switching-not-tag-explanation = ၶေႃႈၵႂၢမ်းမၢင်ၶေႃႈၼႆႉ ဢမ်ႇထုၵ်ႇလီတႅမ်ႈမၢႆသႂ်ႇထႅၵ်ႉ ၶေႃႈၵႂၢမ်းမၢင်ၶေႃႈၼႆႉ <bold>ဢမ်ႇထုၵ်ႇလီတႅမ်ႈမၢႆသႂ်ႇထႅၵ်ႉ </bold>ပၼ်မၢႆႁွမ်းၸပ်းၽႃႇသႃႇၵႂၢမ်း၊ ဢမ်ႇဝႃႈမၼ်းတေပဵၼ် ၶေႃႈၵႂၢမ်းဢၼ်လေႃးၵၼ် ဢမ်ႇၼၼ် ၶေႃႈၵႂၢမ်းဢၼ်လႅၵ်ႈလၢႆႈၸႂ်ႉၵေႃႈယဝ်ႉ။ ၼႆႉပဵၼ်လၢႆးၵၢၼ်ၸတ်းၵၢၼ် တွၼ်ႈတႃႇတူဝ်ယၢင်ႇလၢႆလၢႆဢၼ်ၶႃႈ -
+code-switching-not-tag-proper-names = <bold>ၸိုဝ်ႈတၢႆတူဝ်</bold> ၸိုဝ်ႈၵူၼ်း၊ ၸိုဝ်ႈဢွင်ႈတီႈ လႄႈ ၸိုဝ်ႈၸုမ်းၸိူဝ်းၼႆႉ ဢမ်ႇထုၵ်ႇလီတႅမ်ႈမၢႆသႂ်ႇထႅၵ်ႉၶႃႈ။ တူဝ်ယၢင်ႇ -
 code-switching-not-tag-proper-names-example-1 = ၵူၼ်း: မႃႇရီႇယႃႇ၊ ၵျွၼ်ႊ
 code-switching-not-tag-proper-names-example-2 = ဢွင်ႈတီႈ လွတ်ႉတ်သ်ဢႅၼ်ႇၵျႄႇလႅတ်ႉတ်သ်၊ ၾလူဝ်ႇရီႇၻႃႇ
 code-switching-not-tag-proper-names-example-3 = မိၵ်ႈမၢႆၵုၼ်ႇ / ၸုမ်းၵၢၼ်: တႃးၵႅတ်ႉတ်ႉ၊ ပိူဝ်ႇၵိူဝ်ႇၶိင်း
+code-switching-not-tag-mixed-words =
+    <bold>ၶေႃႈၵႂၢမ်းဢၼ်လေႃးၵၼ် ဢမ်ႇၼၼ် ၶေႃႈၵႂၢမ်းဢၼ်လႅၵ်ႈလၢႆႈႁၢင်ႈၾၢင်ဝႆႉ</bold> 
+    ဢမ်ႇလူဝ်ႇတႅမ်ႈမၢႆသႂ်ႇထႅၵ်ႉ တီႈၶေႃႈၵႂၢမ်း ဢၼ်ပၼ်ႇလေႃးၵၼ်လၢႆၽႃႇသႃႇ ဢမ်ႇၼၼ် ၶေႃႈၵႂၢမ်းဢၼ်မီးလွင်ႈထႅမ်သႂ်ႇသဵင်ပႃႈလင် ဢၼ်မႃးတီႈထႅင်ႈၽႃႇသႃႇၼိုင်ႈၶႃႈ။ တူဝ်ယၢင်ႇ -
+code-switching-not-tag-mixed-words-example = Where a root is English but the suffix is Spanish: “parkear”, “printearlo”
 code-switching-not-tag-interjections-example-2 = "ဢမ်ႇ"
 code-switching-not-tag-interjections-example-3 = "ၸႂ်ႈ"
 code-switching-not-tag-interjections-example-4 = "ဢိူဝ်ႈ"
