@@ -9,7 +9,7 @@ clips-with-count-pluralized =
         [one] <bold>{ $count }</bold> ၶလိပ်ႉ
        *[other] <bold>{ $count }</bold> ၶလိပ်ႉ
     }
-goal-help-recording = သူၸဝ်ႈလႆႈၸွႆႈႁႂ်ႈ Common Voice ႁွတ်ႈၽႅဝ် <goalPercentage></goalPercentage> ၶွင်ယိူင်းမၢႆၵၢၼ်ဢတ်းသဵင် { $goalValue } ၵူႈဝၼ်းၶွင်ႁဝ်း!
+goal-help-recording = ၸဝ်ႈၵဝ်ႇ လႆႈၸွႆႈထႅမ်ပၼ် Common Voice ႁႂ်ႈထိုင်  <goalPercentage></goalPercentage> ယိူင်းမၢႆဢတ်းသဵင်ၶွင်ႁဝ်းၵူႈဝၼ်း  { $goalValue } ယဝ်ႉၶႃႈ!
 goal-help-validation = သူၸဝ်ႈလႆႈၸွႆႈႁႂ်ႈ Common Voice ႁွတ်ႈၽႅဝ် <goalPercentage></goalPercentage> ၶွင်ယိူင်းမၢႆၵၢၼ်ၵူတ်ႇထတ်း { $goalValue } ၵူႈဝၼ်းၶွင်ႁဝ်း!
 contribute-more =
     { $count ->
