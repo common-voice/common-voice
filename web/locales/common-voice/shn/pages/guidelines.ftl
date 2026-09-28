@@ -226,6 +226,10 @@ code-switching-adding-question-note = ၸဝ်ႈၵဝ်ႇ ထုၵ်ႇ�
 code-switching-types-subheader = တေလႆႈထႅမ်ၶေႃႈထၢမ်ၸိူင်ႉႁိုဝ်၊
 code-switching-use-bilingual-prompts-header = ၸႂ်ႉတိုဝ်း ၶေႃႈၵႂၢမ်းသင်ႇ၊တိုၵ်းသူၼ်း သွင်ၽႃႇသႃႇ
 code-switching-use-bilingual-prompts-explanation = ၸႂ်ႉတိုဝ်း ၶေႃႈၵႂၢမ်းတိုၵ်းသူၼ်း သွင်ၽႃႇသႃႇ ဢၼ်ပႃးတင်းသွင်ၽႃႇသႃႇ တီႈၼႂ်းၶေႃႈထၢမ်ၸဝ်ႈၵဝ်ႇ။ တူဝ်ယၢင်ႇ -
+code-switching-use-bilingual-prompts-explanation-example = “¿Qué te dijo tu mamá when you got home that day?”
+code-switching-ask-bilingual-contexts-header = ထၢမ်ၵပ်းၵၢႆႇလူၺ်ႈ တွၼ်ႈၵၢၼ်ၸႂ်ႉတိုဝ်းသွင်ၽႃႇသႃႇ
+code-switching-ask-bilingual-contexts-explanation = ၸႂ်ႉတိုဝ်း တွၼ်ႈၵၢၼ်ဢွင်ႈတီႈ ဢၼ်တိုၼ်းမီးလွင်ႈၸႂ်ႉတိုဝ်း တင်းသွင်ၽႃႇသႃႇၸွမ်းၵၼ်ပဵၼ်ပိူင်ၵဝ်ႇ (မိူၼ်ၼင်ႇ တီႈႁိူၼ်းယေး၊ တီႈႁူင်းႁဵၼ်း၊ ပၢင်ၸႃၵူၼ်းၼႂ်းၸုမ်းၵူၼ်း)။ တူဝ်ယၢင်ႇ -
+code-switching-ask-bilingual-contexts-explanation-example = “မိူဝ်ႈၸဝ်ႈၵဝ်ႇ လၢတ်ႈၸႃတင်းလုၵ်ႈပီႈလုၵ်ႈၼွင်ႉၼၼ်ႉ ၸဝ်ႈၵဝ်ႇမီးလွင်ႈလၢတ်ႈၵႂၢမ်းတႆး လေႃးၵၼ်တင်းၵႂၢမ်းထႆးယူႇႁႃႉၶႃႈ?”
 # What to Avoid
 code-switching-avoid-subheader = ထုၵ်ႇလီငိူင်ႉဝႄႈသင်?
 code-switching-avoid-intro = ၶေႃႈထၢမ် ဢၼ်ၸၢင်ႈတေ-
