@@ -118,7 +118,7 @@ about-playbook-how-record-content-5 = <accuracyLink>သိုပ်ႇတူၺ�
 
 about-playbook-how-grow-language = ႁဝ်းတေႁဵတ်းႁိုဝ်ႁဵတ်းႁႂ်ႈၽႃႇသႃႇၼိူဝ် Common Voice ၶိုၼ်ႈယႂ်ႇလႄႈမီးၼမ်ႉတွၼ်းလီ?
 about-playbook-how-grow-language-content-1 = ၵၢၼ်သၢင်ႈတိုဝ်ႉတၢင်း ႁႂ်ႈၵူၼ်းတင်းၼမ်တင်းလၢႆၶဝ်ႈမႃးႁူမ်ႈသၢင်ႈၸွမ်း Common Voice ၸွႆႈႁႂ်ႈမၼ်ႈၸႂ်လႆႈဝႃႈ ၸုမ်ႇၶေႃႈမုၼ်း ၸၢင်ႈယိုၼ်ႈၸူးထိုင်ၵူၼ်းတင်းၼမ်ၵႃႈၼင်ႇပဵၼ်လႆႈ။ ႁဝ်းၶႃႈၶူင်သၢင်ႈႁဵတ်းပၼ် ၶူဝ်းတိုၼ်းလႄႈပိူင်ၾၢင် ဢၼ်သူၸဝ်ႈၸၢင်ႈၸႂ်ႉလႆႈ!
-about-playbook-how-grow-language-content-2 = ပၢင်ပွႆး
+about-playbook-how-grow-language-content-2 = ပၢင်ပွႆး /ပၢင်ၵႅဝ်ႈ
 about-playbook-how-grow-language-content-3 = သူၸဝ်ႈၸၢင်ႈၸတ်းႁဵတ်းပၢင်ပွႆးတႃႇၸွႆႈပၼ်ၽူႈႁူမ်ႈသၢင်ႈ။ မၼ်းငၢႆႈလိူဝ်သူၸဝ်ႈဝူၼ်ႉၵွၼ်ႇ။ သူၸဝ်ႈၸၢင်ႈႁဵတ်းတၢင်းဢွၼ်ႊလၢႆႊ လူၺ်ႈၸႂ်ႉတိုဝ်းၶိူင်ႈမိုဝ်း videoconferencing၊ ဢမ်ႇၼၼ်ထူပ်းလူၺ်ႈသုၼ်ႇတူဝ် သင်ဝႃႈမၼ်းလွတ်ႈၽေး။ <eventTemplate>ၶဝ်ႈတူၺ်း ပိူင်ၾၢင်လႄႈၶိူဝ်းတိုၼ်း တႃႇၸတ်းႁဵတ်းပၢင်ပွႆး</eventTemplate>။
 about-playbook-how-grow-language-content-4 = သိုဝ်ႇၼႅင်ႈသၢၼ်
 about-playbook-how-grow-language-content-5 = သူၸဝ်ႈၸၢင်ႈၸႂ်ႉတိုဝ်းသိုဝ်ႇၼႅင်ႈသၢၼ်သေ ပိုၼ်ၽႄႈၶေႃႈၵႂၢမ်းဢွၵ်ႇၵႂႃႇလႆႈ။ ပိုၼ်ၽႄၽူတ်ႉသ် ဢၼ်သပ်းၸႅင်ႈၼႄဝႃႈ ၵွပ်ႈသင်လႄႈမၼ်းလမ်ႇလွင်ႈ၊ လႄႈၵပ်းသိုပ်ႇၵၼ်တင်းတၢင်ႇၵေႃႉၸိူဝ်းဢၼ်တိုၵ်ႉလၢတ်ႈလွင်ႈ လွင်ႈတၢင်း မိူၼ်ၼင်ႇ သုၼ်ႇလႆႈလွင်ႈၽႃႇသႃႇ၊ AI သဵင်၊ ဢမ်ႇၼၼ်လွင်ႈၸွမ်းပႃႈၸွမ်းၾၢႆႇၼႂ်းထႅၵ်ႉၶ်ၸိူဝ်းၼႆႉ။ လူတူၺ်းထႅင်ႈတီႈ <campaignLink>  ႁဵတ်းပၢင်တုၵ်းသူၼ်းၼႂ်းတူင်ႇဝူင်းၵူၼ်း၊ လႄႈလွၼ်ႉလိူင်ႈဢၼ်ၸၢင်ႈဢဝ်မႃးၸႂ်ႉၶိုၼ်းတႃႇသူၸဝ်ႈ</campaignLink>
@@ -138,7 +138,7 @@ about-playbook-how-validate-content-4 = ပေႃးဝႃႈၶလိပ်ႉ�
 
 about-playbook-how-access-dataset = တေၸၢင်ႈၶဝ်ႈထိုင်လႄႈၸႂ်ႉတိုဝ်းၶေႃႈမုၼ်းလႆႈၸိူင်ႉႁိုဝ်?
 about-playbook-how-access-dataset-content-1 = သူၸဝ်ႈၸၢင်ႈၵႂႃႇတီႈ <datasetsPage>ၼႃႈၸုမ်ႇၶေႃႈမုၼ်း</datasetsPage>၊ လိူၵ်ႈလုၼ်ႈလႄႈၽႃႇသႃႇဢၼ်ၶႂ်ႈလႆႈ၊ လႄႈလူတ်ႇဢဝ်ၸုမ်ႇၶေႃႈမုၼ်းလႆႈ! ၾၢႆႇလ်ၸိူဝ်းၼၼ်ႉတေမီး <metadataLink>ၶေႃႈမုၼ်းၵပ်းၵိုၵ်းဢၼ်ၵဵဝ်ႇၶွင်ႈ၊</metadataLink> မိူၼ်ၼင်ႇ ၶေႃႈမုၼ်းသဵၼ်ႈႁူဝ်ၼပ်ႉၵူၼ်းလႄႈၶေႃႈမုၼ်းတႃႇၸႅတ်ႈထွင်။ သူၸဝ်ႈတေလႆႈပၼ်မၢႆဢီးမေးလ်ဢွၼ်းတၢင်းတေလူတ်ႇဢဝ်ၸုမ်ႇၶေႃႈမုၼ်း။
-about-playbook-how-access-dataset-content-2 = ပေႃးဝႃႈသူၸဝ်ႈတိုၵ်ႉၸွမ်းႁႃၶိူင်ႈမိုဝ်းတႃႇတေၶူင်ႁဵတ်းဢွၵ်ႇမေႃႇတႄႇလ် ASR သူၸဝ်ႈၸၢင်ႈၵပ်းသိုပ်ႇၸွမ်းၵူၼ်းတၢင်ႇၵေႃႉလႆႈၼႂ်းတူင်ႇဝူင်း <discourseLink>တၢင်း Discourse</discourseLink>။
+about-playbook-how-access-dataset-content-2 = ပေႃးဝႃႈသူၸဝ်ႈတိုၵ်ႉၸွမ်းႁႃၶိူင်ႈမိုဝ်းတႃႇတေၶူင်ႊႁဵတ်းဢွၵ်ႇမေႃႇတႄႇလ် ASR သူၸဝ်ႈၸၢင်ႈၵပ်းသိုပ်ႇၸွမ်းၵူၼ်းတၢင်ႇၵေႃႉလႆႈၼႂ်းတူင်ႇဝူင်း <discourseLink>တၢင်း Discourse</discourseLink>။
 
 ## How are decisions made
 
@@ -146,7 +146,7 @@ about-playbook-how-project-governance = ႁဵတ်းႁိုဝ်တတ်�
 about-playbook-how-project-governance-content-1 = Mozilla Common Voice ပဵၼ်မႃးလႆႈလူၺ်ႈတူင်ႇဝူင်းၽူႈတူင်ႉၼိုင် ၽူႈလူင်ႉလႅၼ်ႇပၢႆးၽႃႇသႃႇ ၽူႈလူင်ႉလႅၼ်ႇပၢႆးသၢႆႊၶေႃႈမုၼ်း ၽူႈလူင်ႉလႅၼ်ႇပၢႆးပၺ်ၺႃႇ လႄႈ ၽူႈလူင်ႉလႅၼ်ႇပၢႆးၸၢင်ႊသွပ်ႉဝႄးၵူႈတီႈၵူႈတၢင်းတူဝ်ႈၵမ်ႇၽႃႇ။ ၶူင်းၵၢၼ်ၼႆႉ Mozilla Foundation လႆႈႁပ်ႉပုၼ်ႈၽွၼ်းတူၺ်းထိုင်ဝႆႉ။
 about-playbook-how-project-governance-content-2 = ၵၢၼ်ၽွင်းငမ်းႁဝ်းၶႃႈ လႆႈတင်ႈဝႆႉ ၼိူဝ်လၵ်းထမ်း ဢၼ်ဝႃႈ-
 about-playbook-how-project-governance-content-3 = လွင်ႈပဵၼ်သုၼ်ႇတူဝ်၊ လွင်ႈလွတ်ႈၽေး လႄႈ လွင်ႈႁူႉႁၼ်ၸႅင်ႈလႅင်း။
-about-playbook-how-project-governance-content-4 = ၵၢၼ်မီးသုၼ်ႇႁူမ်ႈတူင်ႇဝူင်း လႄႈ ၵၢၼ်တႅပ်းတတ်းသႅၼ်ႈၸႂ်။
+about-playbook-how-project-governance-content-4 = ၵၢၼ်မီးသုၼ်ႇႁူမ်ႈတူင်ႇဝူင်း လႄႈ ၵၢၼ်တႅပ်းတတ်းသဵၼ်ႈၸႂ်။
 about-playbook-how-project-governance-content-5 = လွင်ႈဝႆႉၵႃႈၶၼ်လႄႈ လွင်ႈႁပ်ႉႁွင်း။
 about-playbook-how-project-governance-content-6 = လွင်ႈဢဝ်ပုၼ်ႈၽွၼ်းၸွမ်းၵၼ်။
 about-playbook-how-project-governance-content-7 = <governanceLink>လူဢၢၼ်ႇတူၺ်း လွင်ႈႁဝ်းဢုပ်ႉပိူင်ႇၸိူင်ႉႁိုဝ်</governanceLink>
