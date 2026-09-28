@@ -319,8 +319,14 @@ code-switching-orthography-header = လွင်ႈၸႂ်ႉတိုဝ်�
 code-switching-orthography-explanation = တႅမ်ႈမၢႆတူဝ်လိၵ်ႈ ၵူႈၶေႃႈၵႂၢမ်း ႁႂ်ႈထုၵ်ႇမႅၼ်ႈၸွမ်း လၢႆးတႅမ်ႈမၢႆၽႃႇသႃႇ တီႈမၼ်းမႃးၼၼ်ႉ။ တူဝ်ယၢင်ႇ -
 code-switching-orthography-explanation-example-1 = သင်ဝႃႈ ၶေႃႈၵႂၢမ်းဝႃႈ “kitchen” ၼၼ်ႉ ဢွၵ်ႇသဵင်မိူၼ်ၼင်ႇ ၽႃႇသႃႇသပဵၼ်ႇၵေႃႈယဝ်ႉ၊ တိုၼ်းလူဝ်ႇလႆႈတႅမ်ႈမၢႆဝႆႉ ၼင်ႇပိူင်ၽႃႇသႃႇဢိင်းၵလဵတ်ႈၶႃႈ၊ ဢမ်ႇလူဝ်ႇတႅမ်ႈမၢႆပဵၼ် “quichen” ၶႃႈ။
 code-switching-orthography-explanation-example-2 = သင်ဝႃႈ ၶေႃႈၵႂၢမ်းဝႃႈ “quinceaños” ၼၼ်ႉ ဢွၵ်ႇသဵင်မိူၼ်ၼင်ႇ ၽႃႇသႃႇဢိင်းၵလဵတ်ႈၵေႃႈယဝ်ႉ၊ တိုၼ်းလူဝ်ႇလႆႈတႅမ်ႈမၢႆဝႆႉ ပႃးတူဝ်လိၵ်ႈ “ñ” ၶႃႈ။
+# Use Pronunciation to Help Determine the Language
+code-switching-pronunciation-header = ၸႂ်ႉတိုဝ်း လွင်ႈသႂ်ႇတူဝ်ၶၼ်ႈ တွၼ်ႈတႃႇၸွႆႈတႅပ်းတတ်း ၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈ
+code-switching-pronunciation-explanation = ၶေႃႈၵႂၢမ်းလၢႆလၢႆၶေႃႈ ၸၢင်ႈမီးႁၢင်ႈၾၢင်တူဝ်လိၵ်ႈမိူၼ်ၵၼ် တီႈၼႂ်းတင်းသွင်ၽႃႇသႃႇ၊ ၵူၺ်းၵႃႈ ၸၢင်ႈမီးလၢႆးဢွၵ်ႇသဵင်ပႅၵ်ႇပိူင်ႈၵၼ်ၶႃႈ။ ထွမ်ႇတူၺ်း လၢႆးဢွၵ်ႇသဵင်မၼ်း တွၼ်ႈတႃႇၸွႆႈလွင်ႈၵၢၼ်တႅမ်ႈႁႂ်ႈထုၵ်ႇမႅၼ်ႈၶႃႈ။ တူဝ်ယၢင်ႇ - cable, taco, actor, detective။
 code-switching-pronunciation-explanation-example-1 = လၢႆးဢွၵ်ႇသဵင်ဢင်းၵိတ်း /ˈkeɪ.bəl/
 code-switching-pronunciation-explanation-example-2 = လၢႆးဢွၵ်ႇသဵင်သပဵၼ်ႇ/ˈkable/
+# Tagging in a Single Token
+code-switching-single-token-header = ၵၢၼ်ထႅမ်သႂ်ႇၶိူင်ႈမၢႆထႅၵ်ႉ ၼႂ်းတူဝ်လိၵ်ႈတူဝ်လဵဝ်
+code-switching-single-token-explanation = ၶေႃႈၵႂၢမ်းတူဝ်လဵဝ် ဢၼ်မီးဢွင်ႈပဝ်ႇၶႅၼ်ႈဝႆႉၼၼ်ႉ ဢမ်ႇထုၵ်ႇလီမီး ထႅၵ်ႉတႅမ်ႈမၢႆၼႄ သွၼ်ႉၵၼ်လိူဝ်သေၼိုင်ႈဢၼ်ၶႃႈ။
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = ႁႂ်ႈမီးလွင်ႈၾၢင်ႉသတိ ၸိူဝ်းဢၼ်မီးႁၢင်ႈမိူၼ်ၵၼ်
 # When Not to Tag Words
