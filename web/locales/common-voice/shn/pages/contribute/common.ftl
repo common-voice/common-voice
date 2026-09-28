@@ -46,11 +46,11 @@ report-title = သူင်ႇလၢႆးငၢၼ်း
 report-ask = ၸဝ်ႈၵဝ်ႇထူပ်းၺႃးပၼ်ႁႃသင်တေႃႇၶေႃႈၵႂၢမ်းဢၼ်ၼႆႉယူႇႁႃႉ?
 report-offensive-language = ၽႃႇသႃႇဢၼ်ဢမ်ႇၵိုင်ႇလႅပ်ႈ
 report-offensive-language-detail = ၶေႃႈၵႂၢမ်းၼႆႉ မီးၵႂၢမ်းဢၼ်ဢမ်ႇၼပ်ႉယမ် ဢမ်ႇၼၼ် ၵႂၢမ်းလူလၢႆပႃးဝႆႉယူႇ
-report-grammar-or-spelling = မီးလွင်ႈၽိတ်းပိူင်ႁၢင်ႈလိၵ်ႈ / ၵပ်းလေႃးတူဝ်လိၵ်ႈၽိတ်း
-report-grammar-or-spelling-detail = ၶေႃႈၵႂၢမ်းၼႆႉ မီးလွင်ႈၽိတ်းပိူင်ႁၢင်ႈလိၵ်ႈ ဢမ်ႇၼၼ် ၵပ်းလေႃးတူဝ်လိၵ်ႈၽိတ်းဝႆႉယူႇ
+report-grammar-or-spelling = မီးလွင်ႈၽိတ်းပိူင်လိၵ်ႈ / ၵပ်းလေႃးတူဝ်လိၵ်ႈၽိတ်း
+report-grammar-or-spelling-detail = ၶေႃႈၵႂၢမ်းၼႆႉ မီးလွင်ႈၽိတ်းပိူင်လိၵ်ႈ ဢမ်ႇၼၼ် ၵပ်းလေႃးတူဝ်လိၵ်ႈၽိတ်းဝႆႉယူႇ
 report-different-language = တၢင်ႇၽႃႇသႃႇ
 report-different-language-detail = တႅမ်ႇဝႆႉပဵၼ်တၢင်ႇၽႃႇသႃႇ ဢၼ်ဢမ်ႇၸႂ်ႈၽႃႇသႃႇဢၼ်ၵဝ်ၶႃႈလၢတ်ႈ။
-report-difficult-pronounce = လၢတ်ႈသဵင်ဢွၵ်ႇယၢပ်ႇ
+report-difficult-pronounce = ဢွၵ်ႇသဵင်ယၢပ်ႇ
 report-difficult-pronounce-detail = မၼ်းပႃးၶေႃႈၵႂၢမ်း ဢမ်ႇၼၼ် တွၼ်ႈၵႂၢမ်း ဢၼ်ဢၢၼ်ႇယၢပ်ႇ ဢမ်ႇၼၼ် ဢွၵ်ႇသဵင်ယၢပ်ႇဝႆႉၶႃႈ။
 report-offensive-speech = ၵႂၢမ်းလၢတ်ႈဢမ်ႇၵိုင်ႇလႅပ်ႈ
 report-offensive-speech-detail = ၶႅပ်းသဵင်ၼႆႉ မီးၶေႃႈၵႂၢမ်းဢမ်ႇယဵၼ်ငႄႈ ဢမ်ႇၼၼ် ၶေႃႈၵႂၢမ်းလူလၢႆပႃးဝႆႉယူႇ။
@@ -95,11 +95,11 @@ shortcut-vote-no = n
 
 ## Validation criteria
 
-contribution-criteria-nav = ပိူင်တႅပ်းတတ်း
-contribution-criteria-link = ႁူႉပွင်ႇပိူင်တႅပ်းတတ်း ၵၢၼ်ၶဝ်ႈႁူမ်ႈၸွႆႈထႅမ်
-contribution-criteria-page-title = ပိူင်တႅပ်းတတ်း ၵၢၼ်ၶဝ်ႈႁူမ်ႈၸွႆႈထႅမ်
+contribution-criteria-nav = ထၢၼ်မၢႆလၵ်းၸဵင်
+contribution-criteria-link = ႁူႉပွင်ႇထၢၼ်မၢႆလၵ်းၸဵင် ၵၢၼ်ၶဝ်ႈႁူမ်ႈၸွႆႈထႅမ်
+contribution-criteria-page-title = ထၢၼ်မၢႆလၵ်းၸဵင် ၵၢၼ်ၶဝ်ႈႁူမ်ႈၸွႆႈထႅမ်
 contribution-criteria-page-description = ႁူႉပွင်ႇလွင်ႈတၢင်းဢၼ်လူဝ်ႇလႆႈထတ်း မိူဝ်ႈထွမ်ႇၶႅပ်းသဵင် လႄႈ ၸွႆႈႁဵတ်းႁႂ်ႈၵၢၼ်ဢတ်းသဵင်ၶွင်ၸဝ်ႈၵဝ်ႇမီးၼမ်ႉၵတ်ႉလီလိူဝ်တိူဝ်းမႃးပႃး!
-contribution-for-example = ပိူင်တႅၵ်ႈ
+contribution-for-example = တူဝ်ယၢင်ႇ
 contribution-misreadings-title = လူဢၢၼ်ႇၽိတ်း
 contribution-misreadings-description = မိူဝ်ႈထွမ်ႇၼၼ်ႉ လူဝ်ႇထတ်းပၼ်တႅတ်ႈတႅတ်ႈတေႃးတေႃးဝႃႈသဵင်ဢၼ်ဢတ်းဝႆႉၼၼ်ႉ မၼ်းမႅၼ်ႈၸိုဝ်ႈၸႂ်ၸွမ်း တူဝ်လိၵ်ႈဢၼ်တႅမ်ႈဝႆႉယူႇႁႃႉ၊ ပေႃးမီးလွင်ႈၽိတ်းပိူင်ႈဢိတ်းဢီႈၵူၺ်းၵေႃႈလူဝ်ႇလႆႈပၢၵ်ႈဢွၵ်ႇပႅတ်ႈ၊ <br/>လွင်ႈၽိတ်းပိူင်ႈ ဢၼ်ၺႃးၼမ်သုတ်းၼၼ်ႉ မီးၼင်ႇၼႆၶႃႈ -
 contribution-misreadings-description-extended-list-1 = မီးသဵင်တူၵ်းႁၢႆ ၸိူင်ႉၼင်ႇ <strong>'A' </strong> ဢမ်ႇၼၼ် <strong> 'The' </strong> ၼႂ်းတွၼ်ႈတႄႇႁူဝ်တီး ၵၢၼ်ဢတ်းသဵင်ၼၼ်ႉၶႃႈ။
