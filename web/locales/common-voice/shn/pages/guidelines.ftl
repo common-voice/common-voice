@@ -241,9 +241,11 @@ code-switching-cultural-topics-explanation = လွင်ႈတၢင်းၵ�
 code-switching-cultural-topics-explanation-example = ၸဝ်ႈၵဝ်ႇ တေလၢတ်ႈၼႄလွင်ႈ ပွႆးဝၼ်းတၢႆ (Día de los Muertos) ၼၼ်ႉ ၼႄပၼ် ၵူၼ်းၵေႃႉဢၼ်မေႃလၢတ်ႈ ၽႃႇသႃႇဢိင်းၵလဵတ်ႈၵူၺ်း ၸိူင်ႉႁိုဝ်ၶႃႈ?”
 code-switching-informal-scenarios-header = ၶူၼ်ႉႁႃ သၢႆငၢႆလွင်ႈတၢင်း ဢၼ်ပဵၼ်ၵၼ်ၵူႈဝၼ်း
 code-switching-informal-scenarios-explanation = ၵၢၼ်လၢတ်ႈၸႃတင်းဢူၺ်းၵေႃႉ ဢမ်ႇၼၼ် ၵၢၼ်သူင်ႇလိၵ်ႈၸူးၵၼ်ၼၼ်ႉ ၵမ်ႈၼမ်တႄႉ ၵႆႉပႃးလွင်ႈလၢတ်ႈၵႂၢမ်းလေႃးၵၼ် ဢၼ်ပဵၼ်သၽႃႇဝလိူဝ်ၶႃႈ။ တူဝ်ယၢင်ႇ -
+code-switching-informal-scenarios-explanation-example = ၵႂၢမ်းလၢတ်ႈလီၶႂ်ႈၶူဝ် ဢၼ်ဢူၺ်းၵေႃႉၸဝ်ႈၵဝ်ႇ ၵႆႉလၢတ်ႈလဵၼ်ႈၵၼ်တႃႇသေႇၼၼ်ႉ ပဵၼ်သင်ၶႃႈ — လႄႈ  ၶဝ်လၢတ်ႈဢွၵ်ႇမႃး ၸိူင်ႉႁိုဝ်ၶႃႈ?
 # What to Avoid
 code-switching-avoid-subheader = ထုၵ်ႇလီငိူင်ႉဝႄႈသင်?
 code-switching-avoid-intro = ၶေႃႈထၢမ် ဢၼ်ၸၢင်ႈတေ-
+code-switching-avoid-1 = လွင်ႈထၢမ်ႁႃ ၶေႃႈမုၼ်း ဢၼ်ၸၢင်ႈၼႄၼႃႈၾၢင်သုၼ်ႇတူဝ်
 code-switching-avoid-3 = ႁဵတ်းႁႂ်ႈၵူၼ်းမႅင်ႇၽႄ ၶေႃႈတွပ်ႇဢၼ်တိူဝ်ႉၸႂ်ငၢႆႈ ဢမ်ႇၼၼ် ဢၼ်ၸၢင်ႈတိုၵ်းသူၼ်းႁဵတ်းႁႂ်ႈ မီးလွင်ႈၸဵပ်းသႅပ်ႇၼႂ်းၸႂ်။
 code-switching-dont-header = ယႃႉပေႉႉႉ
 code-switching-dont-1 = ဢမ်ႇလူဝ်ႇၸႂ်ႉတိုဝ်း ၶေႃႈၵႂၢမ်းဢၼ်ၶဝ်ႈပိူင်ပူၼ်ႉတီႈ။
