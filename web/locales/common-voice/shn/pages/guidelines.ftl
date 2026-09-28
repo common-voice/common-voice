@@ -311,10 +311,14 @@ code-switching-cleanup-5 = ဝူၼ်ႉသွၼ်ႇဝႃႈ ၸဝ်ႈ�
 # Tagging
 code-switching-tagging-subheader = ၵၢၼ်ထႅမ်သႂ်ႇၶိူင်ႈမၢႆ Tagging
 code-switching-tagging-error-intro = သင်ဝႃႈ ၵၢၼ်ထွတ်ႇသဵင်ၼၼ်ႉ မီးလွင်ႈၽိတ်းပိူင်ႈၼႆၸိုင်၊ ၶႅၼ်းတေႃႈၸႂ်ႉတိုဝ်း ၼႃႈၵၢၼ်လၢတ်ႈၼႄ (Report) တွၼ်ႈတႃႇပၼ်ၾၢင်ႉ လွင်ႈၽိတ်းပိူင်ႈ ဢၼ်ၸၢင်ႊပဵၼ်မႃး ပႃးဝႆႉၼင်ႇၼႆ -
+code-switching-tagging-error-1 = လွင်ႈသႂ်ႇတူဝ်ၶၼ်ႈလိၵ်ႈ ဢမ်ႇၼၼ် တူဝ်လိၵ်ႈယႂ်ႇတူဝ်လိၵ်ႈလဵၵ်ႉ ၽိတ်းပိူင်ႈ။
 code-switching-tagging-error-2 = လွင်ႈပေႃႉတႅမ်ႈလိၵ်ႈၽိတ်း
 code-switching-tagging-error-3 = ၶေႃႈၵႂၢမ်း ဢၼ်တႅမ်ႈမၢႆဝႆႉ ၽိတ်းပိူင်လၢႆးတႅမ်ႈလိၵ်ႈ
 # Using Correct Orthography for Each Language
 code-switching-orthography-header = လွင်ႈၸႂ်ႉတိုဝ်း လၢႆးတႅမ်ႈလိၵ်ႈ ႁႂ်ႈထုၵ်ႇမႅၼ်ႈၸွမ်း ၵူႈၽႃႇသႃႇ
+code-switching-orthography-explanation = တႅမ်ႈမၢႆတူဝ်လိၵ်ႈ ၵူႈၶေႃႈၵႂၢမ်း ႁႂ်ႈထုၵ်ႇမႅၼ်ႈၸွမ်း လၢႆးတႅမ်ႈမၢႆၽႃႇသႃႇ တီႈမၼ်းမႃးၼၼ်ႉ။ တူဝ်ယၢင်ႇ -
+code-switching-orthography-explanation-example-1 = သင်ဝႃႈ ၶေႃႈၵႂၢမ်းဝႃႈ “kitchen” ၼၼ်ႉ ဢွၵ်ႇသဵင်မိူၼ်ၼင်ႇ ၽႃႇသႃႇသပဵၼ်ႇၵေႃႈယဝ်ႉ၊ တိုၼ်းလူဝ်ႇလႆႈတႅမ်ႈမၢႆဝႆႉ ၼင်ႇပိူင်ၽႃႇသႃႇဢိင်းၵလဵတ်ႈၶႃႈ၊ ဢမ်ႇလူဝ်ႇတႅမ်ႈမၢႆပဵၼ် “quichen” ၶႃႈ။
+code-switching-orthography-explanation-example-2 = သင်ဝႃႈ ၶေႃႈၵႂၢမ်းဝႃႈ “quinceaños” ၼၼ်ႉ ဢွၵ်ႇသဵင်မိူၼ်ၼင်ႇ ၽႃႇသႃႇဢိင်းၵလဵတ်ႈၵေႃႈယဝ်ႉ၊ တိုၼ်းလူဝ်ႇလႆႈတႅမ်ႈမၢႆဝႆႉ ပႃးတူဝ်လိၵ်ႈ “ñ” ၶႃႈ။
 code-switching-pronunciation-explanation-example-1 = လၢႆးဢွၵ်ႇသဵင်ဢင်းၵိတ်း /ˈkeɪ.bəl/
 code-switching-pronunciation-explanation-example-2 = လၢႆးဢွၵ်ႇသဵင်သပဵၼ်ႇ/ˈkable/
 # Be Careful with Lookalikes
