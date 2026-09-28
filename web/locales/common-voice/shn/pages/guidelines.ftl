@@ -236,6 +236,11 @@ code-switching-focus-emotional-explanation-example = လၢတ်ႈၼႄၶႃ
 code-switching-direct-quotes-header = ထၢမ်ႁႃ ၶေႃႈၵႂၢမ်းလၢတ်ႈသိုဝ်ႈ ဢမ်ႇၼၼ် ၵၢၼ်ႁဵတ်းၼႄၶိုၼ်းလွင်ႈပဵၼ်မႃး
 code-switching-direct-quotes-explanation = ပၼ်ႁႅင်းႁႂ်ႈၽူႈၶဝ်ႈႁူမ်ႈပႃးၶဝ် လၢတ်ႈဢွၵ်ႇမႃး ၼင်ႇပိူင်ဢၼ်လႆႈလၢတ်ႈဝႆႉ တႄႉတႄႉၼၼ်ႉၶႃႈ။ တူဝ်ယၢင်ႇ -
 code-switching-direct-quotes-explanation-example = မိူဝ်ႈၸဝ်ႈၵဝ်ႇႁူႉလွင်ႈတၢင်းၼၼ်ႉ, ၶေႃႈၵႂၢမ်းတႅတ်ႈထႅတ်ႈ ၶွင်ၸဝ်ႈၵဝ်ႇ ပဵၼ်ၸိူင်ႉႁိုဝ်ၶႃႈ?
+code-switching-cultural-topics-header = လိူၵ်ႈ ႁူဝ်ၶေႃႈဢၼ်မီးလွင်ႈတႅတ်ႈထႅတ်ႈ ဢၼ်ၵဵဝ်ႇၵပ်းၾိင်ႈထုင်ႉပိုၼ်ႉတီႈ။
+code-switching-cultural-topics-explanation = လွင်ႈတၢင်းၵိၼ်ယႅမ်ႉ၊ ၾိင်ႈငႄႈၾိင်ႈထုင်း၊ ဝၼ်းလိုဝ်ႈၵၢၼ်လႄႈ လွင်ႈပဵၼ်ၵႂႃႇၼႂ်းၼႃႈႁိူၼ်းၸိူဝ်းၼႆႉ ၵမ်ႈၼမ်တႄႉ ၵႆႉႁဵတ်းႁႂ်ႈမီးလွင်ႈလၢတ်ႈၵႂၢမ်းလေႃးၵၼ်ၶႃႈ။
+code-switching-cultural-topics-explanation-example = ၸဝ်ႈၵဝ်ႇ တေလၢတ်ႈၼႄလွင်ႈ ပွႆးဝၼ်းတၢႆ (Día de los Muertos) ၼၼ်ႉ ၼႄပၼ် ၵူၼ်းၵေႃႉဢၼ်မေႃလၢတ်ႈ ၽႃႇသႃႇဢိင်းၵလဵတ်ႈၵူၺ်း ၸိူင်ႉႁိုဝ်ၶႃႈ?”
+code-switching-informal-scenarios-header = ၶူၼ်ႉႁႃ သၢႆငၢႆလွင်ႈတၢင်း ဢၼ်ပဵၼ်ၵၼ်ၵူႈဝၼ်း
+code-switching-informal-scenarios-explanation = ၵၢၼ်လၢတ်ႈၸႃတင်းဢူၺ်းၵေႃႉ ဢမ်ႇၼၼ် ၵၢၼ်သူင်ႇလိၵ်ႈၸူးၵၼ်ၼၼ်ႉ ၵမ်ႈၼမ်တႄႉ ၵႆႉပႃးလွင်ႈလၢတ်ႈၵႂၢမ်းလေႃးၵၼ် ဢၼ်ပဵၼ်သၽႃႇဝလိူဝ်ၶႃႈ။ တူဝ်ယၢင်ႇ -
 # What to Avoid
 code-switching-avoid-subheader = ထုၵ်ႇလီငိူင်ႉဝႄႈသင်?
 code-switching-avoid-intro = ၶေႃႈထၢမ် ဢၼ်ၸၢင်ႈတေ-
