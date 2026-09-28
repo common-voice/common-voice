@@ -327,6 +327,12 @@ code-switching-pronunciation-explanation-example-2 = လၢႆးဢွၵ်ႇ
 # Tagging in a Single Token
 code-switching-single-token-header = ၵၢၼ်ထႅမ်သႂ်ႇၶိူင်ႈမၢႆထႅၵ်ႉ ၼႂ်းတူဝ်လိၵ်ႈတူဝ်လဵဝ်
 code-switching-single-token-explanation = ၶေႃႈၵႂၢမ်းတူဝ်လဵဝ် ဢၼ်မီးဢွင်ႈပဝ်ႇၶႅၼ်ႈဝႆႉၼၼ်ႉ ဢမ်ႇထုၵ်ႇလီမီး ထႅၵ်ႉတႅမ်ႈမၢႆၼႄ သွၼ်ႉၵၼ်လိူဝ်သေၼိုင်ႈဢၼ်ၶႃႈ။
+# Tag Punctuation Based on Nearby Language
+code-switching-punctuation-tagging-header = ထႅၵ်ႉလွင်ႈသႂ်ႇတူဝ်ၶၼ်ႈ ၸွမ်းၼင်ႇၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈဢၼ်မီးၼႂ်းၸမ်။
+code-switching-punctuation-tagging-explanation = တႅမ်ႈမၢႆသႂ်ႇထႅၵ်ႉ ၶိူင်ႈမၢႆၶၼ်ႈလိၵ်ႈ လူၺ်ႈၸႂ်ႉတိုဝ်း ၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈဢၼ်ၸမ်သုတ်း ၽၢႆႇသၢႆႉၶႃႈ။ တူဝ်ယၢင်ႇ -
+# text wrapped in purple and blue will be shown with a purple and blue background in the UI respectively
+code-switching-punctuation-tagging-explanation-example-1 = <purple>and the one time that</purple> Maria <purple>screamed at me was</purple> <blue>porque</blue> <purple>she was trying to to</purple> printear <blue>un</blue> <purple>order.</purple> (BangorTalk)
+code-switching-punctuation-tagging-explanation-example-2 = <purple>but</purple> <blue>tú los puedes comprar rojo, negro, azul</blue>, <purple>whatever.</purple> (BangorTalk)
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = ႁႂ်ႈမီးလွင်ႈၾၢင်ႉသတိ ၸိူဝ်းဢၼ်မီးႁၢင်ႈမိူၼ်ၵၼ်
 # When Not to Tag Words
