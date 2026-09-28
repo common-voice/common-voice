@@ -349,6 +349,8 @@ code-switching-not-tag-mixed-words =
     <bold>ၶေႃႈၵႂၢမ်းဢၼ်လေႃးၵၼ် ဢမ်ႇၼၼ် ၶေႃႈၵႂၢမ်းဢၼ်လႅၵ်ႈလၢႆႈႁၢင်ႈၾၢင်ဝႆႉ</bold> 
     ဢမ်ႇလူဝ်ႇတႅမ်ႈမၢႆသႂ်ႇထႅၵ်ႉ တီႈၶေႃႈၵႂၢမ်း ဢၼ်ပၼ်ႇလေႃးၵၼ်လၢႆၽႃႇသႃႇ ဢမ်ႇၼၼ် ၶေႃႈၵႂၢမ်းဢၼ်မီးလွင်ႈထႅမ်သႂ်ႇသဵင်ပႃႈလင် ဢၼ်မႃးတီႈထႅင်ႈၽႃႇသႃႇၼိုင်ႈၶႃႈ။ တူဝ်ယၢင်ႇ -
 code-switching-not-tag-mixed-words-example = Where a root is English but the suffix is Spanish: “parkear”, “printearlo”
+code-switching-not-tag-interjections = <bold>ၶေႃႈၵႂၢမ်းၸူၵ်းၸႂ်။</bold>  ၶေႃႈၵႂၢမ်းတူၵ်းၸႂ်လႄႈ ၶေႃႈၵႂၢမ်းလၢတ်ႈထႅမ်သႂ်ႇ (Fillers) ၼၼ်ႉ ဢမ်ႇဝႃႈတေပဵၼ်ၽႃႇသႃႇလႂ်ၵေႃႈယဝ်ႉတိုၼ်းလူဝ်ႇဝႆႉၼင်ႇပိူင်ၵဝ်ႇ  <bold>ဢမ်ႇသႂ်ႇထႅၵ်ႉၶႃႈ</bold> တူဝ်ယၢင်ႇ -
+code-switching-not-tag-interjections-example-1 = "Eh”
 code-switching-not-tag-interjections-example-2 = "ဢမ်ႇ"
 code-switching-not-tag-interjections-example-3 = "ၸႂ်ႈ"
 code-switching-not-tag-interjections-example-4 = "ဢိူဝ်ႈ"
@@ -356,3 +358,4 @@ code-switching-not-tag-interjections-example-4 = "ဢိူဝ်ႈ"
 ## Reporting Content
 
 reporting-content = ၵၢၼ်လၢႆးငၢၼ်း ၶေႃႈမုၼ်း
+reporting-content-subheader = ၶေႃႈၸီႉသင်ႇၵူႈလွင်ႈလွင်ႈ
