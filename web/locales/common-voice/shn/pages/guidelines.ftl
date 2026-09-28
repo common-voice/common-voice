@@ -168,7 +168,7 @@ transcribe-the-audio-subheader-1-explanation-example-2 = လွင်ႈတႅ�
 transcribe-the-audio-subheader-1-explanation-example-3 = လွင်ႈတႅမ်ႈမၢႆၼႄ သဵင်ယႃႉၵဝ်းဢၼ်လင်ႁႅင်း၊ မိူၼ်ၼင်ႇ သဵင်ၵူၼ်းလၢတ်ႈတေႃႇၵၼ်ပႃႈလင် ဢမ်ႇၼၼ် သဵင်ႁွၼ်းလူတ်ႉ။
 transcribe-the-audio-subheader-1-explanation-example-4 = လွင်ႈပႅၵ်ႇပိူင်ႈပိူင်တမ်းလိၵ်ႈလႄႈ ၶေႃႈၵႂၢမ်းသလႅင်း (Slang) ၼၼ်ႉ ထုၵ်ႇလီတႅမ်ႈမၢႆဝႆႉ တႅတ်ႈတႅတ်ႈတေႃးတေႃး ၼင်ႇဢၼ်လႆႈငိၼ်းၼၼ်ႉၶႃႈ။ ဢမ်ႇလူဝ်ႇမႄးႁႂ်ႈထုၵ်ႇမႅၼ်ႈ ဢမ်ႇၼၼ် ဢမ်ႇလူဝ်ႇမႄးထႅမ်  ၶေႃႈၵႂၢမ်းလၢတ်ႈပိူၼ်ႈၶႃႈ။
 transcribe-the-audio-subheader-2-explanation-1 = တူဝ်ၼပ်ႉ လႄႈၶိူင်ႈမၢႆၶိုၵ်ႉတွၼ်းၸိူဝ်းၼၼ်ႉ ထုၵ်ႇလီၵပ်းလေႃးဢွၵ်ႇပဵၼ်တူဝ်လိၵ်ႈၶေႃႈၵႂၢမ်း တႅၼ်းတၢင်ႇလွင်ႈၸႂ်ႉတိုဝ်းတူဝ်ၼပ်ႉ ဢမ်ႇၼၼ် ၶိူင်ႈမၢႆၶိုၵ်ႉတွၼ်းၶႃႈ။ တူဝ်ယၢင်ႇ -
-transcribe-the-audio-subheader-2-explanation-2 = ၶေႃႈၵႂၢမ်းယေႃႈၼၼ်ႉ ထုၵ်ႇလီတႅမ်ႈမၢႆဝႆႉ ၼင်ႇပိူင်ဢၼ်တႅမ်ႈၸႂ်ႉတိုဝ်းၵၼ် တီႈၼႂ်းၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈ၊ ႁႂ်ႈပိၼ်ႇၸွမ်းၼင်ႇပိူင်လိၵ်ႈတူဝ်လူင်တူဝ်ဢွၼ်ႇ ဢၼ်ပဵၼ်မၢႆမီႈမၼ်းၼၼ်ႉယဝ်ႉ။ ဢမ်ႇလူဝ်ႇတႅမ်ႈမၢႆဢွၵ်ႇပဵၼ် တူဝ်လိၵ်ႈသဵင်ဢွၵ်ႇမၼ်းၶႃႈ။ တူဝ်ယၢင်ႇ -
+transcribe-the-audio-subheader-2-explanation-2 = ၶေႃႈၵႂၢမ်းယေႃႈၼၼ်ႉ ထုၵ်ႇလီတႅမ်ႈမၢႆဝႆႉ ၼင်ႇပိူင်ဢၼ်တႅမ်ႈၸႂ်ႉတိုဝ်းၵၼ် တီႈၼႂ်းၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈ၊ ႁႂ်ႈပိၼ်ႇၸွမ်းၼင်ႇပိူင်လိၵ်ႈတူဝ်ယႂ်ႇတူဝ်လဵၵ်ႉ ဢၼ်ပဵၼ်မၢႆမီႈမၼ်းၼၼ်ႉယဝ်ႉ။ ဢမ်ႇလူဝ်ႇတႅမ်ႈမၢႆဢွၵ်ႇပဵၼ် တူဝ်လိၵ်ႈသဵင်ဢွၵ်ႇမၼ်းၶႃႈ။ တူဝ်ယၢင်ႇ -
 # text wrapped in correct will be shown as green text in the UI
 transcribe-the-audio-subheader-2-example-1-correct = <correct>ထုၵ်ၢမႅၼ်ႈ</correct> ၵႆၵၼ်တင်းတီႈၼႆႈ ပၢၵ်ႇလၵ်း
 # text wrapped in wrong will be shown as red text in the UI
@@ -224,7 +224,7 @@ code-switching-adding-question-criteria-3 = ဢမ်ႇၸႂ်ႉတိုဝ
 code-switching-adding-question-note = ၸဝ်ႈၵဝ်ႇ ထုၵ်ႇလီဝူၼ်ႉၶႆႈၸႂ်ပႃး ႁႂ်ႈမၼ်းမီးလွင်ႈၵပ်းၵၢႆႇတူဝ်ႈထိုင် တၢင်းႁၼ်ထိုင်  လႄႈ တွၼ်ႈၵၢၼ်ဢၼ်ပႅၵ်ႇပိူင်ႈၵၼ် တင်းၼမ်ၼၼ်ႉၶႃႈ။
 # What types of questions to add
 code-switching-types-subheader = တေလႆႈထႅမ်ၶေႃႈထၢမ်ၸိူင်ႉႁိုဝ်၊
-code-switching-use-bilingual-prompts-header = ၸႂ်ႉတိုဝ်း ၶေႃႈၵႂၢမ်းသင်ႇ၊တိုၵ်းသူၼ်း သွင်ၽႃႇသႃႇ
+code-switching-use-bilingual-prompts-header = ၸႂ်ႉတိုဝ်း ၶေႃႈၵႂၢမ်းသင်ႇ၊ၶေႃႈတိုၵ်းသူၼ်း သွင်ၽႃႇသႃႇ
 code-switching-use-bilingual-prompts-explanation = ၸႂ်ႉတိုဝ်း ၶေႃႈၵႂၢမ်းတိုၵ်းသူၼ်း သွင်ၽႃႇသႃႇ ဢၼ်ပႃးတင်းသွင်ၽႃႇသႃႇ တီႈၼႂ်းၶေႃႈထၢမ်ၸဝ်ႈၵဝ်ႇ။ တူဝ်ယၢင်ႇ -
 code-switching-use-bilingual-prompts-explanation-example = “¿Qué te dijo tu mamá when you got home that day?”
 code-switching-ask-bilingual-contexts-header = ထၢမ်ၵပ်းၵၢႆႇလူၺ်ႈ တွၼ်ႈၵၢၼ်ၸႂ်ႉတိုဝ်းသွင်ၽႃႇသႃႇ
@@ -239,7 +239,7 @@ code-switching-direct-quotes-explanation-example = မိူဝ်ႈၸဝ်�
 code-switching-cultural-topics-header = လိူၵ်ႈ ႁူဝ်ၶေႃႈဢၼ်မီးလွင်ႈတႅတ်ႈထႅတ်ႈ ဢၼ်ၵဵဝ်ႇၵပ်းၾိင်ႈထုင်ႉပိုၼ်ႉတီႈ။
 code-switching-cultural-topics-explanation = လွင်ႈတၢင်းၵိၼ်ယႅမ်ႉ၊ ၾိင်ႈငႄႈၾိင်ႈထုင်း၊ ဝၼ်းလိုဝ်ႈၵၢၼ်လႄႈ လွင်ႈပဵၼ်ၵႂႃႇၼႂ်းၼႃႈႁိူၼ်းၸိူဝ်းၼႆႉ ၵမ်ႈၼမ်တႄႉ ၵႆႉႁဵတ်းႁႂ်ႈမီးလွင်ႈလၢတ်ႈၵႂၢမ်းလေႃးၵၼ်ၶႃႈ။
 code-switching-cultural-topics-explanation-example = ၸဝ်ႈၵဝ်ႇ တေလၢတ်ႈၼႄလွင်ႈ ပွႆးဝၼ်းတၢႆ (Día de los Muertos) ၼၼ်ႉ ၼႄပၼ် ၵူၼ်းၵေႃႉဢၼ်မေႃလၢတ်ႈ ၽႃႇသႃႇဢိင်းၵလဵတ်ႈၵူၺ်း ၸိူင်ႉႁိုဝ်ၶႃႈ?”
-code-switching-informal-scenarios-header = ၶူၼ်ႉႁႃ သၢႆငၢႆလွင်ႈတၢင်း ဢၼ်ပဵၼ်ၵၼ်ၵူႈဝၼ်း
+code-switching-informal-scenarios-header = ၶူၼ်ႉႁႃ သၢႆငၢႆတွၼ်ႈၵၢၼ် ဢၼ်ဢမ်ႇၶဝ်ႈပိူင်ၵၢၼ်
 code-switching-informal-scenarios-explanation = ၵၢၼ်လၢတ်ႈၸႃတင်းဢူၺ်းၵေႃႉ ဢမ်ႇၼၼ် ၵၢၼ်သူင်ႇလိၵ်ႈၸူးၵၼ်ၼၼ်ႉ ၵမ်ႈၼမ်တႄႉ ၵႆႉပႃးလွင်ႈလၢတ်ႈၵႂၢမ်းလေႃးၵၼ် ဢၼ်ပဵၼ်သၽႃႇဝလိူဝ်ၶႃႈ။ တူဝ်ယၢင်ႇ -
 code-switching-informal-scenarios-explanation-example = ၵႂၢမ်းလၢတ်ႈလီၶႂ်ႈၶူဝ် ဢၼ်ဢူၺ်းၵေႃႉၸဝ်ႈၵဝ်ႇ ၵႆႉလၢတ်ႈလဵၼ်ႈၵၼ်တႃႇသေႇၼၼ်ႉ ပဵၼ်သင်ၶႃႈ — လႄႈ  ၶဝ်လၢတ်ႈဢွၵ်ႇမႃး ၸိူင်ႉႁိုဝ်ၶႃႈ?
 # What to Avoid
@@ -297,6 +297,7 @@ code-switching-capture-header = တႅမ်ႈမၢႆသဵင်လၢတ်
 code-switching-capture-explanation = ပိုတ်ႇတႅမ်ႈတူဝ်လိၵ်ႈ တင်းသွင်ၽႃႇသႃႇ ၸွမ်းၼင်ႇသၢႆငၢႆဢၼ်ၼႄဝႆႉ ဢမ်ႇၼၼ် ၸွမ်းၼင်ႇသဵင်ဢၼ်လႆႈထွမ်ႇငိၼ်းၶႃႈ။ ဢမ်ႇလူဝ်ႇၵႂႃႇ "ၵုမ်းမႄးပၼ်ႁႂ်ႈထုၵ်ႇ" ၼိူဝ်တူဝ်ၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈ ဢမ်ႇၼၼ် ပိၼ်ႇလႅၵ်ႈလၢႆႈမၼ်း ႁႂ်ႈပဵၼ်ၽႃႇသႃႇလဵဝ်ၵူၺ်းၶႃႈၼႃ။"
 # Include filler words and markers
 code-switching-filler-header = ပႃးတင်း ၶေႃႈၵႂၢမ်းဢၼ်လၢတ်ႈထႅမ်သႂ်ႇ လႄႈ ၶိူင်ႈမၢႆ
+code-switching-filler-explanation = ၶေႃႈၵႂၢမ်း မိူၼ်ၼင်ႇ “um,” “like,” “pues,” “you know,” လႄႈ “entonces” ၸိူဝ်းၼႆႉ တိုၼ်းမီးတီႈပွင်ႇၶႃႈ။ တူဝ်ယၢင်ႇ: “So, um, I told her like, ‘pues no sé, maybe later.’”
 # Don’t Clean Up or Simplify the Language
 code-switching-cleanup-header = ဢမ်ႇလူဝ်ႇမႄးထႅမ် ဢမ်ႇၼၼ် ဢမ်ႇလူဝ်ႇႁဵတ်းႁႂ်ႈၶေႃႈၵႂၢမ်းငၢႆႈပူၼ်ႉတီႈ
 code-switching-cleanup-1 = ဢမ်ႇလူဝ်ႇပိၼ်ႇၽႃႇသႃႇ ဢမ်ႇၼၼ် ဢမ်ႇလူဝ်ႇလႅၵ်ႈလၢႆႈၶေႃႈၵႂၢမ်းမႂ်ႇ - တႅမ်ႈမၢႆဝႆႉ ၼင်ႇဢၼ်ၵူၼ်းလၢတ်ႈၼၼ်ႉ လၢတ်ႈဢွၵ်ႇမႃးတႄႉတႄႉ၊ ဢမ်ႇၸႂ်ႈတႅမ်ႈမၢႆၸွမ်း ၼင်ႇ "တီႈပွင်ႇ" ဢၼ်ၶဝ်ၶႂ်ႈလၢတ်ႈၼၼ်ႉၶႃႈ။
