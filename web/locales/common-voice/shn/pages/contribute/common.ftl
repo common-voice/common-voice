@@ -1,7 +1,7 @@
 action-click = ၶလိၵ်ႉ
 action-tap = ထႅပ်ႉ
 contribute = ၸွႆႈထႅမ်
-review = ႁုပ်ႈတူၺ်းၶိုၼ်း
+review = ထတ်းသၢင်
 skip = ၶၢမ်ႈ
 shortcuts = တၢင်းလတ်း
 clips-with-count-pluralized =
