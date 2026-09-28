@@ -15,7 +15,7 @@ about-localization-subtitle = ၶေႃႈၵႂၢမ်းၼႂ်းဝႅ�
 about-sentence-collection-title = ၵၢၼ်ၵဵပ်းႁွမ်တူၼ်ႈထႅဝ်လိၵ်ႈ
 about-sentence-collection-subtitle = တူၼ်ႈထႅဝ်လိၵ်ႈ လႆႈၵဵပ်းႁွမ်တႃႇႁႂ်ႈၵူၼ်းဢၢၼ်ႇဢွၵ်ႇသဵင်။
 about-new-lang-title = ပိုတ်ႇၽုၺ်ႇၽႃႇသႃႇၵႂၢမ်းလၢတ်ႉမႂ်ႇ
-about-new-lang-subtitle = ႁဝ်းၶေႃႈပိုတ်ႇၽုၺ်ႇဝႅပ်ႉသၢႆႉ Common Voice ၼႂ်းၽႃႇသႃႇၼႆႉ။
+about-new-lang-subtitle = ႁဝ်းၶေႃႈပိုတ်ႇၽုၺ်ႇဝႅပ်ႉသၢႆႉတ်Common Voice ၼႂ်းၽႃႇသႃႇၼႆႉ။
 about-voice-contrib-title = ၸွႆႈထႅမ်ပၼ်သဵင်
 about-voice-contrib-subtitle = ၵူၼ်းတင်းလၢႆၶဝ်ႈမႃးလႄႈၸွႆႈထႅမ်ပၼ်သဵင်ၶွင်ၶဝ်။
 about-voice-validation-title = ၵၢၼ်ၵူတ်ႇထတ်းသဵင်
@@ -62,7 +62,7 @@ about-nav-playbook = လဵပ်ႈႁဵၼ်းၵၢၼ်မီးသု�
 ## Community Playbook Content
 ## What is a language
 
-about-playbook-what-is-language = ၽႃႇသႃႇၼႂ်း Common Voice ပဵၼ်သင်?
+about-playbook-what-is-language = ၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈၼႂ်း Common Voice ပဵၼ်သင်?
 about-playbook-what-is-language-content-1 = မီးယူႇလၢႆလွၵ်းလၢႆးတႃႇတေဝူၼ်ႉလွင်ႈၽႃႇသႃႇ။ တွၼ်ႈတႃႇယိူင်းဢၢၼ်းတႃႇမေႃႇတႄႇလ်ႁူႉတွင်းသဵင်၊ Common Voice ပၼ်တၢင်းႁၼ်ထိုင်ဝႃႈႁႂ်ႉပၵ်းၸႂ်ၼိူဝ် 'လွင်ႈပွင်ႇၸႂ်ၵၼ်'၊ ဢမ်ႇၼၼ် 'ၸွင်ႇၽူႈၸႂ်ႉတိုဝ်းၽႃႇသႃႇၼႆႉၵမ်ႈၼမ်ပွင်ႇၸႂ်ၵၼ်ယူႇ သင်ဝႃႈၶဝ်ၶတ်းၸႂ်တေပွင်ႇၸႂ်?'
 about-playbook-what-is-language-content-2 = ႁဝ်ၶႂ်ႈႁႂ်ႈမေႃႇတႄႇလ်သဵင်လၢတ်ႈ ပွင်ႇၸႂ်ၽူႈလၢတ်ႈၵႂၢမ်းတင်းၼမ်လႆႈလီၶိုၼ်ႈထႅင်ႈ။ တႃႇႁဵတ်းႁႂ်ႈလွင်ႈၼႆႉပဵၼ်မႃး၊ ၸုမ်ႇၶေႃႈမုၼ်းသဵင်ၼိုင်ႈဢၼ်တေလႆႈတၢင်တူဝ်တႃႇၵူၼ်းတင်းၼမ်။
 about-playbook-what-is-language-content-3 = ၽႃႇသႃႇမၢင်ၸိူဝ်း မီးလၢႆးၾိင်ႈဝၢင်းၵႂၢမ်း၊ ထွႆႈၵႂၢမ်း၊ လႄႈလၢႆးဢွၵ်ႇသဵင် ဢၼ်ပိူင်ႈၵၼ်တင်းၼမ်။ ၵွပ်ႈၸိူင်ႉၼၼ်လႄႈ၊ ႁဝ်းၶႃႈၸင်ႇလႆႈ <ctaLink>ပိုတ်ႇတူဝ် ‘Variants'</ctaLink> ၼႂ်းပီ 2022။ ဢၼ်ၼႆႉတေၸွႆႈႁႂ်ႈတူင်ႇဝူင်းၸႅၵ်ႇၽႄၽႃႇသႃႇၸဝ်ႈၵဝ်ႇလႆႈၼႂ်းၸုမ်းၶေႃႈမုၼ်းဢၼ်ယႂ်ႇမႃးၸိူဝ်းၼၼ်ႉ။
@@ -71,8 +71,8 @@ about-playbook-what-is-language-content-3 = ၽႃႇသႃႇမၢင်ၸိ
 
 about-playbook-how-add-language = တေႁဵတ်းႁိုဝ်ထႅမ်သႂ်ႇၽႃႇသႃႇထႅင်ႈ?
 about-playbook-how-add-language-content-1 =
-    ဢွၼ်တၢင်းသုတ်း၊ ထတ်းတူၺ်းဝႃႈ <languageLink>မီးၽႃႇသႃႇၶွင်သူၸဝ်ႈယဝ်ႉႁိုဝ်</languageLink>။
-    ပေႃးဢမ်ႇပႆႇမီး၊ သူၸဝ်ႈၸၢင်ႈ<languageRequestLink>ယွၼ်းထႅမ်ထႅင်ႈၽႃႇသႃႇသူၸဝ်ႈ</languageRequestLink>။
+    ဢွၼ်တၢင်းသုတ်း၊ ထတ်းတူၺ်းဝႃႈ <languageLink>မီးၽႃႇသႃႇၶွင်ၸဝ်ႈၵဝ်ႇယဝ်ႉႁိုဝ်</languageLink>။
+    ပေႃးဢမ်ႇပႆႇမီး၊ ၸဝ်ႈၵဝ်ႇၸၢင်ႈ<languageRequestLink>ယွၼ်းထႅမ်ထႅင်ႈၽႃႇသႃႇသူၸဝ်ႈ</languageRequestLink>။
     တေမီးယူႇသွင်ၶၵ်ႉတွၼ်ႈ ၵၢၼ်ပိၼ်ႇၽႃႇသႃႇဝႅပ်ႉသၢႆႉသ် လႄႈၵၢၼ်ၵဵပ်းႁွမ်တူၼ်ႈထႅဝ်လိၵ်ႈ
 about-playbook-how-add-language-translating-heading = ပိၼ်ႇၽႃႇသႃႇဝႅပ်ႉသၢႆႉတ်
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>တူၺ်းဝီႊတီႊဢူဝ်ႊ လွၵ်းလၢႆးၸႂ်ႉတိုဝ်း Pontoon။</translateVideoLink>
