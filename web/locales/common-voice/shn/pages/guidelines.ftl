@@ -230,6 +230,9 @@ code-switching-use-bilingual-prompts-explanation-example = “¿Qué te dijo tu 
 code-switching-ask-bilingual-contexts-header = ထၢမ်ၵပ်းၵၢႆႇလူၺ်ႈ တွၼ်ႈၵၢၼ်ၸႂ်ႉတိုဝ်းသွင်ၽႃႇသႃႇ
 code-switching-ask-bilingual-contexts-explanation = ၸႂ်ႉတိုဝ်း တွၼ်ႈၵၢၼ်ဢွင်ႈတီႈ ဢၼ်တိုၼ်းမီးလွင်ႈၸႂ်ႉတိုဝ်း တင်းသွင်ၽႃႇသႃႇၸွမ်းၵၼ်ပဵၼ်ပိူင်ၵဝ်ႇ (မိူၼ်ၼင်ႇ တီႈႁိူၼ်းယေး၊ တီႈႁူင်းႁဵၼ်း၊ ပၢင်ၸႃၵူၼ်းၼႂ်းၸုမ်းၵူၼ်း)။ တူဝ်ယၢင်ႇ -
 code-switching-ask-bilingual-contexts-explanation-example = “မိူဝ်ႈၸဝ်ႈၵဝ်ႇ လၢတ်ႈၸႃတင်းလုၵ်ႈပီႈလုၵ်ႈၼွင်ႉၼၼ်ႉ ၸဝ်ႈၵဝ်ႇမီးလွင်ႈလၢတ်ႈၵႂၢမ်းတႆး လေႃးၵၼ်တင်းၵႂၢမ်းထႆးယူႇႁႃႉၶႃႈ?”
+code-switching-focus-emotional-header = ပၵ်းၸႂ်သႂ်ႇ တီႈတွၼ်ႈၵၢၼ် ဢၼ်မီးလွင်ႈပဵၼ်ၸႂ်ၶုၺ်ႉထူပ်းႁႅင်း ဢမ်ႇၼၼ် တွၼ်ႈၵၢၼ်ဢၼ်မီးလွင်ႈၶဵင်ႇတႃႉသုင်
+code-switching-focus-emotional-explanation = ၵူၼ်းႁဝ်း ၵမ်ႈၼမ်တႄႉ ၵႆႉမီးၵၢၼ်ပိၼ်ႇလႅၵ်ႈၽႃႇသႃႇ  မိူဝ်ႈလၢတ်ႈၼႄလွင်ႈၸႂ်ၶုၺ်ႉထူပ်း ဢမ်ႇၼၼ် လွင်ႈႁိပ်ႈၼႅတ်ႈ။ တူဝ်ယၢင်ႇ -
+code-switching-focus-emotional-explanation-example = လၢတ်ႈၼႄၶႃႈလႄႈ ပေႃႈမႄႈၸဝ်ႈၵဝ်ႇ လၢတ်ႈဝႃႈၸိူင်ႉႁိုဝ် မိူဝ်ႈတွၼ်ႈၸဝ်ႈၵဝ်ႇၵႂႃႇလၢတ်ႈၼႄ ၶၢဝ်ႇလီလူင်ၼၼ်ႉ                ႁႂ်ႈလၢတ်ႈၼႄ တႅတ်ႈတႅတ်ႈတေႃးတေႃး ၼင်ႇဢၼ်ၶဝ်လၢတ်ႈဢွၵ်ႇမႃးတႄႉတႄႉၼၼ်ႉၶႃႈ။
 # What to Avoid
 code-switching-avoid-subheader = ထုၵ်ႇလီငိူင်ႉဝႄႈသင်?
 code-switching-avoid-intro = ၶေႃႈထၢမ် ဢၼ်ၸၢင်ႈတေ-
