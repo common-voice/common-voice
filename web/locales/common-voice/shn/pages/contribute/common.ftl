@@ -1,5 +1,5 @@
 action-click = ၶလိၵ်ႉ
-action-tap = ထႅပ်ႉ
+action-tap = တိူဝ်ႉ
 contribute = ၸွႆႈထႅမ်
 review = ထတ်းသၢင်
 skip = ၶၢမ်ႈ
@@ -147,4 +147,4 @@ contribution-reader-effects-description = ၵၢၼ်ဢတ်းသဵင်�
 contribution-just-unsure-title = ဢမ်ႇမၼ်ႈၸႂ်ၸွင်ႇၸႂ်ႈ?
 contribution-just-unsure-description = သင်ၸဝ်ႈၵဝ်ႇလႆႈထူပ်းၺႃး လွင်ႈဢၼ် ၼႂ်းပိူင်တႅပ်းတတ်းၸိူဝ်းၼႆႉ ဢမ်ႇပႃးၼႆၸိုင်ဢိင်ၼိူဝ် တၢင်းဝူၼ်ႉၸဝ်ႈၵဝ်ႇ ဢၼ်လီသုတ်းသေ ပၼ်သဵင်ၵၢင်ၸႂ်သေၵမ်း။သင်ဝႃႈ ဢမ်ႇၸၢင်ႈတႅပ်းတတ်းလႆႈၼႆ ၸႂ်ႉတိုဝ်း ၼဵၼ် skip သေ သိုပ်ႇၵႂႃႇတီႈ လွင်ႈမၢႆတွင်းထႅင်ႈဢၼ်ၼိုင်ႈလႆႈယူႇၶႃႈ။
 see-more = <chevron></chevron>သိုပ်ႇတူၺ်းထႅင်ႈ
-see-less = <chevron></chevron>တူၺ်းယွမ်းလူင်း
+see-less = <chevron></chevron>ၵဵပ်းသိမ်းဝႆႉ
