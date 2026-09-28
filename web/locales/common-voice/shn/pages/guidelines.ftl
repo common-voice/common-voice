@@ -335,6 +335,9 @@ code-switching-punctuation-tagging-explanation-example-1 = <purple>and the one t
 code-switching-punctuation-tagging-explanation-example-2 = <purple>but</purple> <blue>tú los puedes comprar rojo, negro, azul</blue>, <purple>whatever.</purple> (BangorTalk)
 # Be Careful with Lookalikes
 code-switching-lookalikes-header = ႁႂ်ႈမီးလွင်ႈၾၢင်ႉသတိ ၸိူဝ်းဢၼ်မီးႁၢင်ႈမိူၼ်ၵၼ်
+code-switching-lookalikes-explanation = ၶေႃႈၵႂၢမ်းမၢင်ၸိူဝ်း တေမိူၼ်ၽႃႇသႃႇဢၼ်ၼိုင်ႈသေတႃႉ၊ မၵူၺ်းၵႃႈ မီးၵၢၼ်ၸႂ်ႉတိုဝ်းဝႆႉ ၼႂ်းထႅင်ႈၽႃႇသႃႇၼိုင်ႈၶႃႈ။ ထႅၵ်ႉၸွမ်းၼင်ႇ တီႈပွင်ႇမၼ်းလႄႈ လၢႆးၵၢၼ်ၸႂ်ႉတိုဝ်းတႄႉမၼ်း၊ဢမ်ႇလူဝ်ႇတူၺ်းႁၢင်ႈၾၢင်တူဝ်လိၵ်ႈၶႃႈ။
+code-switching-lookalikes-explanation-example-1 = “Footing” used to mean running in Spanish > tag as Spanish
+code-switching-lookalikes-explanation-example-2 = “No problemo” used in English > tag as English
 # When Not to Tag Words
 code-switching-not-tag-header = တွၼ်ႈဢၼ်ဢမ်ႇထုၵ်ႇလီသႂ်ႇမၢႆထႅၵ်ႉ ၶေႃႈၵႂၢမ်း
 code-switching-not-tag-proper-names-example-1 = ၵူၼ်း: မႃႇရီႇယႃႇ၊ ၵျွၼ်ႊ
