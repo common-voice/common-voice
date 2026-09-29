@@ -95,9 +95,9 @@ shortcut-vote-no = n
 
 ## Validation criteria
 
-contribution-criteria-nav = ထၢၼ်မၢႆလၵ်းၸဵင်
-contribution-criteria-link = ႁူႉပွင်ႇထၢၼ်မၢႆလၵ်းၸဵင် ၵၢၼ်ၶဝ်ႈႁူမ်ႈၸွႆႈထႅမ်
-contribution-criteria-page-title = ထၢၼ်မၢႆလၵ်းၸဵင် ၵၢၼ်ၶဝ်ႈႁူမ်ႈၸွႆႈထႅမ်
+contribution-criteria-nav = ပိူင်တႅပ်းတတ်း
+contribution-criteria-link = ႁူႉပွင်ႇပိူင်တႅပ်းတတ်း ၵၢၼ်ၶဝ်ႈႁူမ်ႈၸွႆႈထႅမ်
+contribution-criteria-page-title = ပိူင်တႅပ်းတတ်း ၵၢၼ်ၶဝ်ႈႁူမ်ႈၸွႆႈထႅမ်
 contribution-criteria-page-description = ႁူႉပွင်ႇလွင်ႈတၢင်းဢၼ်လူဝ်ႇလႆႈထတ်း မိူဝ်ႈထွမ်ႇၶႅပ်းသဵင် လႄႈ ၸွႆႈႁဵတ်းႁႂ်ႈၵၢၼ်ဢတ်းသဵင်ၶွင်ၸဝ်ႈၵဝ်ႇမီးၼမ်ႉၵတ်ႉလီလိူဝ်တိူဝ်းမႃးပႃး!
 contribution-for-example = တူဝ်ယၢင်ႇ
 contribution-misreadings-title = လူဢၢၼ်ႇၽိတ်း
