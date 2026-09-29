@@ -75,10 +75,10 @@ shortcut-rerecord-toggle = [1-5]
 shortcut-rerecord-toggle-label = ဢတ်းၶလိပ်ႉမႂ်ႇ
 shortcut-discard-ongoing-recording = ESC
 shortcut-discard-ongoing-recording-label = ပႅတ်ႈဢၼ်တိုၵ်ႉဢတ်းဝႆႉယူႇ
-shortcut-submit = Return
+shortcut-submit = ပွၵ်ႈၶိုၼ်း
 shortcut-submit-label = သူင်ႇၶလိပ်ႉ
 request-language-text = ဢမ်ႇပႆႇႁၼ်ၽႃႇသႃႇၸဝ်ႈၵဝ်ႇၼိူဝ် Common Voice ၸွင်ႇၸႂ်ႈ?
-request-language-button = ယွၼ်းၽႃႇသႃႇ
+request-language-button = တုၵ်းယွၼ်းၽႃႇသႃႇ
 
 ## Listen Shortcuts
 

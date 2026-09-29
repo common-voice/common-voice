@@ -1,9 +1,9 @@
 ## REVIEW
 
 sc-review-lang-not-selected = ၸဝ်ႈၵဝ်ႇဢမ်ႇလႆႈလိူၵ်ႈၽႃႇသႃႇသင်ဝႆႉ။ ၶႅၼ်းတေႃႈၵႂႃႇတီႈ <profileLink> Profile </profileLink> ၸဝ်ႈၵဝ်ႇတႃႇလိူၵ်ႈၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈ။
-sc-review-title = ထတ်းတူၺ်းတူၼ်ႈထႅဝ်ၶေႃႈၵႂၢမ်း
+sc-review-title = ထတ်းတူၼ်ႈထႅဝ်ၶေႃႈၵႂၢမ်း
 sc-review-loading = တိုၵ်ႉလူတ်ႇၶေႃႈၵႂၢမ်းယူႇ...
-sc-review-select-language = ၶႅၼ်းတေႃႈလိူၵ်ႈၽႃႇသႃႇတွၼ်ႈတႃႇႁုပ်ႈတူၺ်းၶိုၼ်းတူၼ်ႈထႅဝ်။
+sc-review-select-language = ၶႅၼ်းတေႃႈလိူၵ်ႈၽႃႇသႃႇတွၼ်ႈတႃႇထတ်းၶိုၼ်းတူၼ်ႈထႅဝ်။
 sc-review-no-sentences = ဢမ်ႇမီးၶေႃႈၵႂၢမ်းတႃႇထတ်းသၢင်၊<addLink>ထႅမ်ၶေႃႈၵႂၢမ်းလႆႈထႅင်ႈယၢမ်းလဵဝ်။</addLink>
 sc-review-form-prompt =
     .message = ၶေႃႈၵႂၢမ်းဢၼ်ထတ်းသၢင်ယဝ်ႉ ယင်းပႆႇလႆႈသူင်ႇ၊ တေဢွၵ်ႇတႄႉယူႇႁႃႉ?
@@ -32,12 +32,12 @@ sc-review-form-reviewed-message =
        *[other] { $sentences } ၵူတ်ႇထတ်းၶေႃႈၵႂၢမ်းယဝ်ႉတူဝ်ႈယဝ်ႉၶႃႈႉ။
     }
 sc-review-form-review-failure = ဢမ်ႇၸၢင်ႈၵဵပ်းသိမ်းလွင်ႈၵူတ်ႇထတ်းလႆႈၶႃႈ။ ၶႅၼ်းတေႃႈ ၶိုၼ်းၶတ်းၸႂ်တူၺ်းထႅင်းဝၢႆးလင်ၶႃႈ။
-sc-review-link = ႁုပ်ႈတူၺ်းၶိုၼ်း
+sc-review-link = ၵူတ်ႇထတ်းၶိုၼ်း
 
 ## REVIEW CRITERIA
 
 sc-criteria-modal = ⓘ ၶေႃႈမၵ်းမၼ်ႈၵၢၼ်ထတ်း
-sc-criteria-title = ၶေႃႈမၵ်းမၼ်ႈၵၢၼ်ထတ်း
+sc-criteria-title = ပၵ်းပိူင်ၵၢၼ်ထတ်း
 sc-criteria-make-sure = ႁဵတ်းႁႂ်ႈမၼ်ႈၸႂ်ဝႃႈ ထႅဝ်လိၵ်ႈၶေႃႈၵႂၢမ်းထုၵ်ႇမႅၼ်ႈၸွမ်းတင်းပိူင်တႅၵ်ႈတႃႇတႅပ်းတတ်းပႃႈတႂ်ႈၼႆႉ။
 sc-criteria-item-1 = ၶေႃႈၵႂၢမ်းၼၼ်ႉတေလႆႈၵပ်းလေႃးႁႂ်ႈထုၵ်ႇမႅၼ်ႈ။
 sc-criteria-item-2 = ၶေႃႈၵႂၢမ်းၼၼ်ႉတေလႆႈထုၵ်ႇမႅၼ်ႈၸွမ်းပိူင်တမ်းဝၢင်းလိၵ်ႈ။
@@ -59,4 +59,4 @@ sc-redirect-page-title = ၸိူဝ်းႁဝ်းၶႃႈတိုၵ်�
 sc-redirect-page-subtitle-1 = ပိူင်ၵၢၼ်ၵဵပ်းႁွမ်ၶေႃႈၵႂၢမ်း (Sentence Collector) တိုၵ်ႉၶၢႆႉၵႂႃႇၸူးၼႃႈၵၢၼ်ပိူင်လူင် Common Voice ယဝ်ႉၶႃႈ။ ယၢမ်းလဵဝ်ၸဝ်ႈၵဝ်ႇၸၢင်ႈ <writeURL>တႅမ်ႈ </writeURL>ၶေႃႈၵႂၢမ်း ဢမ်ႇၼၼ် <reviewURL>ၵူတ်ႇထတ်း</reviewURL>      ၶေႃႈၵႂၢမ်းလဵဝ် ဢၼ်သူင်ႇမႃး တီႈ Common Voice လႆႈယဝ်ႉၶႃႈ။
 sc-redirect-page-subtitle-2 = သူင်ႇထၢမ်ၶေႃႈထၢမ်ၸူးႁဝ်းၶႃႈလႆႈ တီႈၼိူဝ်<matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> ဢမ်ႇၼၼ်<emailLink>ဢီးမေးလ် </emailLink>ၶႃႈ။
 # menu item
-review-sentences = ၶိုၼ်းထတ်းသၢင်ၶေႃႈၵႂၢမ်း
+review-sentences = ထတ်းတူၼ်ႈထႅဝ်ၶေႃႈၵႂၢမ်း
