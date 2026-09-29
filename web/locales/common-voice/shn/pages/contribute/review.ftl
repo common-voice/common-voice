@@ -1,7 +1,7 @@
 ## REVIEW
 
 sc-review-lang-not-selected = ၸဝ်ႈၵဝ်ႇဢမ်ႇလႆႈလိူၵ်ႈၽႃႇသႃႇသင်ဝႆႉ။ ၶႅၼ်းတေႃႈၵႂႃႇတီႈ <profileLink> Profile </profileLink> ၸဝ်ႈၵဝ်ႇတႃႇလိူၵ်ႈၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈ။
-sc-review-title = ႁုပ်ႈတူၺ်းၶိုၼ်းတူၼ်ႈထႅဝ်
+sc-review-title = ထတ်းတူၺ်းတူၼ်ႈထႅဝ်ၶေႃႈၵႂၢမ်း
 sc-review-loading = တိုၵ်ႉလူတ်ႇၶေႃႈၵႂၢမ်းယူႇ...
 sc-review-select-language = ၶႅၼ်းတေႃႈလိူၵ်ႈၽႃႇသႃႇတွၼ်ႈတႃႇႁုပ်ႈတူၺ်းၶိုၼ်းတူၼ်ႈထႅဝ်။
 sc-review-no-sentences = ဢမ်ႇမီးၶေႃႈၵႂၢမ်းတႃႇထတ်းသၢင်၊<addLink>ထႅမ်ၶေႃႈၵႂၢမ်းလႆႈထႅင်ႈယၢမ်းလဵဝ်။</addLink>
