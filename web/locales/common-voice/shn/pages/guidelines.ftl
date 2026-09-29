@@ -170,7 +170,7 @@ transcribe-the-audio-subheader-1-explanation-example-4 = လွင်ႈပႅ�
 transcribe-the-audio-subheader-2-explanation-1 = တူဝ်ၼပ်ႉ လႄႈၶိူင်ႈမၢႆၶိုၵ်ႉတွၼ်းၸိူဝ်းၼၼ်ႉ ထုၵ်ႇလီၵပ်းလေႃးဢွၵ်ႇပဵၼ်တူဝ်လိၵ်ႈၶေႃႈၵႂၢမ်း တႅၼ်းတၢင်ႇလွင်ႈၸႂ်ႉတိုဝ်းတူဝ်ၼပ်ႉ ဢမ်ႇၼၼ် ၶိူင်ႈမၢႆၶိုၵ်ႉတွၼ်းၶႃႈ။ တူဝ်ယၢင်ႇ -
 transcribe-the-audio-subheader-2-explanation-2 = ၶေႃႈၵႂၢမ်းယေႃႈၼၼ်ႉ ထုၵ်ႇလီတႅမ်ႈမၢႆဝႆႉ ၼင်ႇပိူင်ဢၼ်တႅမ်ႈၸႂ်ႉတိုဝ်းၵၼ် တီႈၼႂ်းၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈ၊ ႁႂ်ႈပိၼ်ႇၸွမ်းၼင်ႇပိူင်လိၵ်ႈတူဝ်ယႂ်ႇတူဝ်လဵၵ်ႉ ဢၼ်ပဵၼ်မၢႆမီႈမၼ်းၼၼ်ႉယဝ်ႉ။ ဢမ်ႇလူဝ်ႇတႅမ်ႈမၢႆဢွၵ်ႇပဵၼ် တူဝ်လိၵ်ႈသဵင်ဢွၵ်ႇမၼ်းၶႃႈ။ တူဝ်ယၢင်ႇ -
 # text wrapped in correct will be shown as green text in the UI
-transcribe-the-audio-subheader-2-example-1-correct = <correct>ထုၵ်ၢမႅၼ်ႈ</correct> ၵႆၵၼ်တင်းတီႈၼႆႈ ပၢၵ်ႇလၵ်း
+transcribe-the-audio-subheader-2-example-1-correct = <correct>ထုၵ်ႇမႅၼ်ႈ</correct> ၵႆၵၼ်တင်းတီႈၼႆႈ ပၢၵ်ႇလၵ်း
 # text wrapped in wrong will be shown as red text in the UI
 transcribe-the-audio-subheader-2-example-1-wrong = <wrong>ၽိတ်း</wrong>ၵႆၵၼ် 100 လၵ်းတင်းတီႈၼႆ [ၽိတ်းယွၼ်ႉဝႃႈမီးတူဝ်ၼပ်ႉ 100]
 # text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
