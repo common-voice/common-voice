@@ -20,5 +20,5 @@ male_masculine = ၸၢႆး/ၽူႈၸၢႆး
 female_feminine = ယိင်း/ၽူႈယိင်း
 intersex = လိင်ႇဢမ်ႇၸႅင်ႈလႅင်း
 transgender = ၵူၼ်းၶၢမ်ႈလိင်ႇ
-non-binary = ၽႃႇသႃႇလိူၵ်ႈတၢင်ႇ
+non-binary = ၵူၼ်းၼွၵ်ႈပၵ်းပိူင် ၸၢႆး/ယိင်း
 do_not_wish_to_say = ဢမ်ႇၶႂ်ႈမွၵ်ႇလၢတ်ႈ

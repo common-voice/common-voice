@@ -5,7 +5,7 @@ request-language-explanation-1 =
     ထတ်းတူၺ်းဝႃႈၽႃႇသႃႇၸဝ်ႈၵဝ်ႇၸွင်ႇမီးယူႇၼႂ်းသဵၼ်ႈမၢႆၼိူဝ် <languagesPageLink>ၼႃႈၽႃႇသႃႇ Common Voice</languagesPageLink>
     ပေႃးဝႃႈပႆႇမီးၼႆ၊ ထႅမ်ပၼ်ၾွမ်ႇၼႆႉယဝ်ႉႁဝ်းၶႃႈတေ <strong>သူင်ႇပၼ်ဢီးမေးလ်ငၢႆႈငၢႆႈ သပ်းလႅင်းၼႄဝႃႈတေႁဵတ်းႁိုဝ်ၸၢင်ႈတမ်းဝၢင်းၽႃႇသႃႇၶွင်ၸဝ်ႈၵဝ်ႇ</strong>။
 request-language-form-email =
-    .label = မၢႆဢီးမေးလ်ၸဝ်ႈၵဝ်ႇ
+    .label = တီႈယူႇဢီးမေးလ်ၸဝ်ႈၵဝ်ႇ
 request-language-form-info =
     .label = ၶေႃႈမုၼ်းၵဵဝ်ႇလူၺ်ႈၽႃႇသႃႇ
 request-language-form-info-explanation =
