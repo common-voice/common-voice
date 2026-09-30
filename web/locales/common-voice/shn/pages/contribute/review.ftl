@@ -22,7 +22,7 @@ sc-review-form-button-reject-shortcut = N
 sc-review-form-button-skip-shortcut = S
 sc-review-form-keyboard-usage-custom = ၸဝ်ႈၵဝ်ႇ ၸၢင်ႈၸႂ်ႉတိုဝ်း လၢႆးလတ်းလွၵ်းမိုဝ်းလႆႈယူႇၶႃႈ၊ ၼဵၵ်း { sc-review-form-button-approve-shortcut } တႃႇမၵ်းမၼ်ႈ၊ ၼဵၵ်း { sc-review-form-button-reject-shortcut } တႃႇပၢၵ်ႈပႅတ်ႈ၊ ၼဵၵ်း{ sc-review-form-button-skip-shortcut } တႃႇၶၢမ်ႈပူၼ်ႉ။
 sc-review-form-button-submit =
-    .submitText = ၵၢၼ်ၵူတ်ႇထတ်းယဝ်ႉတူဝ်လီငၢမ်းယဝ်ႉ။
+    .submitText = ၵၢၼ်ၵူတ်ႇထတ်းယဝ်ႉတူဝ်ယဝ်ႉ။
 # Variables:
 #   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =
@@ -36,7 +36,7 @@ sc-review-link = ၵူတ်ႇထတ်းၶိုၼ်း
 
 ## REVIEW CRITERIA
 
-sc-criteria-modal = ⓘ ၶေႃႈမၵ်းမၼ်ႈၵၢၼ်ထတ်း
+sc-criteria-modal = ပၵ်းပိူင်ၵၢၼ်ထတ်း
 sc-criteria-title = ပၵ်းပိူင်ၵၢၼ်ထတ်း
 sc-criteria-make-sure = ႁဵတ်းႁႂ်ႈမၼ်ႈၸႂ်ဝႃႈ ထႅဝ်လိၵ်ႈၶေႃႈၵႂၢမ်းထုၵ်ႇမႅၼ်ႈၸွမ်းတင်းပိူင်တႅၵ်ႈတႃႇတႅပ်းတတ်းပႃႈတႂ်ႈၼႆႉ။
 sc-criteria-item-1 = ၶေႃႈၵႂၢမ်းၼၼ်ႉတေလႆႈၵပ်းလေႃးႁႂ်ႈထုၵ်ႇမႅၼ်ႈ။
