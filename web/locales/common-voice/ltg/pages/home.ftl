@@ -98,6 +98,7 @@ community-and-languages-menu-item-tooltip = Pīsavīnoj myusu kūpīnai i izzyno
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = Izvēlne, lai datyktu sadaļom Partneri, Prese i Stuosti, Kūpīna i Volūdys
 partnerships-menu-item-aria-label = Izzynojit vaira par sadarbeibu ar Common Voice
 press-and-stories-menu-item-aria-label = Īsapazeistit ar presis relizem i stuostim, kas saisteiti ar Common Voice
 community-and-languages-menu-item-aria-label = Izpietit Common Voice atbaļsteitū kūpīnu i volūdys
