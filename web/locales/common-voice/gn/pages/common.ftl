@@ -198,6 +198,7 @@ kpv = Komi-Zyrian ñe’ẽ
 krc = Karachay-Balkar
 ks = Kashmiri
 ksf = Bafia
+kum = Kumyk
 kvx = Parkari Koli
 kw = Cornish ñe’ẽ
 kxp = Wadiyara Koli
