@@ -10,6 +10,7 @@ cs-locale-change-modal-subtitle = Itamā lopā ir nasaglobuotys izmainis. Ka puo
 
 ## Question Page Items
 
+cs-question-page-instruction = Dalīcit { $currentLocale } datu kūpai leidz 25 vaicuojumim <icon></icon>, lai cylvāki varātu iz tim atsaceit
 cs-question-dataset-name = Datu kūpa: { $datasetName }
 
 ## Validate Page Items

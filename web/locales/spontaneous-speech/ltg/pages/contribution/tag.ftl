@@ -19,6 +19,17 @@ tag-page-shortcut-tag-undo = Ctrl / CMD + Z
 undo = Atsaukt
 tag-page-shortcut-select-all = A
 select-all = Atlaseit vysu
+# Messages
+tag-success-toast-message = Birkys veiksmeigi īsnāgtys
+tag-error-toast-message = Īsnādzūt birkys, nūtykuse klaida
+tag-empty-submit-error = Nav īsnādzamuo teksta. Lyudzu, pyrmuok dalīcit birkys tekstam.
+# Code switching Guidelines
+cs-tag-do-guideline-1 = Lītojit ortografejis nūsacejumus
+cs-tag-do-guideline-2 = Lītojit izrunys nūsacejumus, lai paleidzātu
+cs-tag-do-guideline-3 = Esit viereigi ar vuordim, kas izaver leidzeigi
+cs-tag-do-not-guideline-1 = Atzeimejit eipašvuordus, salyktus vuordus voi izsaucīņus
+cs-tag-shortcuts-section-title = Tastaturys lītuošona
+cs-tag-shortcuts-guideline-1 = <key>1</key>-<key>{ $numLanguages }</key> Birka ar volūdu
 cs-tag-shortcuts-guideline-2 = <key>{ tag-page-shortcut-toogle-mouse-keyboard }</key> { toogle-mouse-keyboard }
 cs-tag-shortcuts-guideline-3 = <key>{ tag-page-shortcut-remove-tags }</key> { remove-tags }
 cs-tag-shortcuts-guideline-4 = <key>{ tag-page-shortcut-select-all }</key> { select-all }
