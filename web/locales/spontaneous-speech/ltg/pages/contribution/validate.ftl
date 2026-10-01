@@ -4,6 +4,9 @@ validate-page-instruction = Apstyprynuot <validateIcon></validateIcon>, voi itys
 dataset-label = Datu kūpa
 accept-vote-toast-message = Vaicuojums veiksmeigi pījimts
 reject-vote-toast-message = Vaicuojums veiksmeigi nūraideits
+validate-page-yes-button-shortcut = U
+validate-page-no-button-shortcut = N
+validate-page-skip-button-shortcut = I
 
 ## Validation guidelines
 
