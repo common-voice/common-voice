@@ -82,6 +82,7 @@ accepted-files = Atļautū failu tipi: tikai .tsv
 minimum-sentences = Minimalais teikumu skaits failā: 1000
 maximum-file-size = Maksimalais faila izmārs: 25 MB
 what-needs-to-be-in-file = Kam juobyut munā failā?
+what-needs-to-be-in-file-explanation = Lyudzu, apsaverit myusu <templateFileLink>šablona datni</templateFileLink>. Jiusu teikumim juobyut breivim nu autortīseibu (CC0 voi ar autora atļuovi lītuot juo dorbu), taipat tim juobyut skaidrim, gramatiski pareizim i vīgli īrunojamim. Teikumim juobyut taidim, lai tūs varātu īrunuot 10–15 sekuņdēs, tymūs nadreikst byut cipari, eipašvuordi i specialuos rokstu zeimis.
 upload-progress-text = Nūteik augšynluode...
 sc-bulk-submit-confirm = Es apstyprynoju, ka itī ir <wikipediaLink>publiskuo domena</wikipediaLink> teikumi, i maņ ir atļuove tūs augšynluodēt.
 bulk-upload-success-toast = Teikumi augšynluodāti
