@@ -154,6 +154,8 @@ download-press-pack = Zamynluodejit myusu presis materialus <icon></icon>
 
 ## Developers section
 
+developers-section-title-202608 = Publiski daīmamys atvārtuos runys datu kūpys vaira nakai 330+ volūduos
+developers-section-subtitle-v2 = Datu kūpys ASR i cytim NLP aizdavumim – sataiseitys ar kūpīnys spākim.
 # icon is an arrow that points to the right
 explore-datasets = Izpietejit datu kūpys <icon></icon>
 
@@ -164,7 +166,7 @@ read-sentences-link = Skaitit teikumus
 validate-readings-link = Apstyprynojat īrunuotū
 contribute-link = Papyldynojat tekstu korpusu
 answer-questions-link = Atbiļdit iz vaicuojumim
-transcribe-answers-link = Puorrakstit atbiļdis
+transcribe-answers-link = Puorrokstit atbiļdis
 review-transcriptions-link = Puorsaverit pīraksteitū
 contribute-text-link = Īsnēdzit tekstu
 press-and-stories-link = Prese i stuosti
