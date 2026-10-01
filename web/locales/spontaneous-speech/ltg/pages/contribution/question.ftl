@@ -4,6 +4,12 @@ question-page-instruction = Dalīcit vaicuojumu <icon></icon> { $currentLocale }
 add-question-textarea-placeholder = par pīmāru, "Kaidim mierkim jius grybātu lītuot jaunuos tehnologejis?"
 add-questions-terms-checkbox = * Es apstyprynoju, ka itys vaicuojums ir <publicDomainLink>bez autortīseibu</publicDomainLink> i maņ ir atļuove tū dalikt.
 question-dataset-language = Datu kūpa: { $datasetLanguage }
+add-question-success-toast-message =
+    { $totalQuestions ->
+        [zero] { $uploadedQuestions } nu 0 vaicuojumim dalykti
+        [one] { $uploadedQuestions } nu 1 vaicuojuma dalykti
+       *[other] { $uploadedQuestions } nu { $totalQuestions } vaicuojumim dalykti
+    }
 add-question-error-message = Augšynluode naizadeve, lyudzu, raugit vēļreiz.
 add-question-too-many-questions-error = Puorsnāgts 500 vaicuojumu limits. Samazynojat vaicuojumu skaitu i raugit vēļreiz.
 # Guidelines
