@@ -4,6 +4,9 @@ validate-page-instruction = Apstyprynuot <validateIcon></validateIcon>, voi itys
 dataset-label = Datu kūpa
 accept-vote-toast-message = Vaicuojums veiksmeigi pījimts
 reject-vote-toast-message = Vaicuojums veiksmeigi nūraideits
+add-vote-error-message = Bolsojūt par aizdavumu, nūtykuse klaida
+# Message which appears when there are no more resources on this page
+no-questions-continue-skipped-message = Itamā volūdā vaira nav vaicuojumu. Ka kaidu esit izlaids, varit turpynuot ar izlaistū saturu voi īt iz audio puorraksteišonys sadaļu i vāluok raudzeit otkon.
 validate-page-yes-button-shortcut = U
 validate-page-no-button-shortcut = N
 validate-page-skip-button-shortcut = I
