@@ -31,6 +31,7 @@ number-of-voices = Bolsu skaits
 splits = Statistika
 email-to-download = Īvodit sovu e-postu, lai zamynluodātu
 why-email = <b>Parkū e-posts?</b> Mums varbyut nuokūtnē byus juosazynoj ar jums par izmaiņom datu kūpā, tū dareisim ar e-posta paleidzeibu.
+why-donate-datasets-page = Mozilla Common Voice ir pasaulī daudzveideiguokuo valejuo runys datu kūpa, kas dabuota, īsaistūt sabīdreibu, i myusu darbeibu piļneibā nūdrūsynoj zīduojumi. Datu kūpu turiešona i platformys uzlobuošona vaira nikai 100 volūdu kūpīnom, kurys pasaļaun iz myusu dorbu, izmoksoj gondreiž miļjonu dolaru godā. Ka jums ir svareigi valeji i īkļaujūši dati – <b>zīdojit jau šudiņ!</b>
 confirm-size = Jius asat gotovs suokt zamynluodēt <b>{ $size }</b>
 size-gigabyte = GB
 size-megabyte = MB
