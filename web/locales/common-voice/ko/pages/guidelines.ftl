@@ -135,8 +135,10 @@ process-steps-explanation = 여러 단계를 나열해야 하는 질문입니다
 offensive-content-sensitive-information = 공격적인 내용 또는 민감한 정보
 offensive-content-sensitive-information-explanation-explanation-1 = 개인 식별 정보를 요구할 수 있는 질문
 offensive-content-sensitive-information-explanation-explanation-2 = 증오심 표현 또는 기타 편향되거나 공격적인 감정을 조장할 수 있는 질문
+example-questions-subheader = 질문 예제
 
 ## Spontaneous Speech sidebar content
 
 answer-questions-subheader = 일반 지침
 transcribe-the-audio-subheader-1 = 일반 지침
+tags-table-header-1 = 태그
