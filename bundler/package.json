@@ -29,7 +29,7 @@
     "bullmq": "^5.78.0",
     "commander": "^14.0.3",
     "config": "^4.4.1",
-    "csv-parse": "^6.2.1",
+    "csv-parse": "^7.0.0",
     "csv-stringify": "^6.7.0",
     "dotenv": "^17.4.2",
     "fp-ts": "^2.16.11",
