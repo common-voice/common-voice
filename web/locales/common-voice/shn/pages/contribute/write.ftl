@@ -59,7 +59,7 @@ media_entertainment = ၵၢၼ်သိုဝ်ႇၶၢဝ်ႇ လႄႈလ
 # Sentence Domain dropdown option
 nature_environment = သၽႃႇဝ လႄႈ သိင်ႇဝႅတ်ႉလွမ်ႉ
 # Sentence Domain dropdown option
-news_current_affairs = ၶၢဝ်ႇငၢဝ်း လႄႈ လွင်ႈတၢင်းမိူဝ်ႈလဵဝ်
+news_current_affairs = ၶၢဝ်ႇငၢဝ်း ႄႈလွင်ႈတၢင်းမိူဝ်ႈလဵဝ်
 # Sentence Domain dropdown option
 technology_robotics = ပၢႆးၸၢင်ႊ လႄႈ ပၢႆးႁၢင်ႈၸၢၵ်ႈ
 sentence-variant-select-label = ၶေႃႈၵႂၢမ်းဢၼ်လႅၵ်ႈလၢႆႈ
@@ -87,7 +87,7 @@ upload-progress-text = တိုၵ်ႉသူင်ႇၶိုၼ်ႈယူ
 sc-bulk-submit-confirm = ၶႃႈႁဝ်း ယိုၼ်ယၼ်ဝႃႈ ၶေႃႈၵႂၢမ်းၸိူဝ်းၼႆႉ  <wikipediaLink>ပဵၼ်သုၼ်ႇၵူၼ်းတင်းၼမ်</wikipediaLink>  လႄႈ ၶႃႈႁဝ်းမီးသုၼ်ႇသူင်ႇၶိုၼ်ႈလႆႈယူႇၶႃႈ။
 bulk-upload-success-toast = သူင်ႇၶိုၼ်ႈၶေႃႈၵႂၢမ်းပဵၼ်ၸုပ်ႈ ယဝ်ႉတူဝ်ႈလီငၢမ်းယဝ်ႉၶႃႈ
 bulk-upload-failed-toast = သူင်ႇၶိုၼ်ႈဢမ်ႇလႆႈၶႃႈ၊ၶႅၼ်းတေႃႈၸၢမ်းထႅင်ႈၵမ်းၼိုင်ႈၶႃႈ။
-bulk-submission-success-header = ဢၼ်မႃးၶဝ်ႈႁူမ်ႈၵမ်ႉထႅမ်သူင်ႇၶေႃႈၵႂၢမ်းပဵၼ်ၸုပ်ႈၶႃႈ!
+bulk-submission-success-header = ယိၼ်းၸူမ်းၶွပ်ႈၸႂ်ထိုင် ၽူႈၸွႆႈထႅမ်ဢၼ်သူင်ႇမႃးတင်းၼမ်
 bulk-submission-success-subheader = ၸဝ်ႈၵဝ်ႇ တိုၵ်ႉၸွႆႈထႅမ်ပၼ် Common Voice ႁႂ်ႈထိုင်ယိူင်းမၢႆတၢင်းၼမ်ၶေႃႈၵႂၢမ်းၵူႈဝၼ်းဝၼ်းၶႃႈၼႃႈ။
 upload-more-btn-text = သူင်ႇၶိုၼ်ႈၶေႃႈၵႂၢမ်းထႅင်ႈလႆႈယူႇႁႃႉ?
 file-invalid-type = ၾၢႆႊလ် ဢမ်ႇထုၵ်ႇမႅၼ်ႈၸွမ်းပိူင်ၶႃႈ
@@ -99,7 +99,7 @@ too-many-files = ၾၢႆႊလ်ၼမ်ပူၼ်ႉတီႈၼႃႇ
 
 # <icon></icon> will be replaced with an icon that represents writing a sentence
 small-batch-instruction = <icon></icon> ထႅမ်သႂ်ႇၶေႃႈၵႂၢမ်းဢၼ်ပဵၼ်သုၼ်ႇၵူၼ်းတင်းၼမ်။
-multiple-sentences-error = ၸဝ်ႈၵဝ်ႇ ဢမ်ႇၸၢင်ႈထႅမ်သႂ်ႇၶေႃႈၵႂၢမ်းလၢႆလၢႆထႅဝ် ၼႂ်းလွၵ်းတႃႇသူင်ႇၶေႃႈၵႂၢမ်းထႅဝ်လဵဝ်ၶႃႈ။
+multiple-sentences-error = ၸဝ်ႈၵဝ်ႇ ဢမ်ႇၸၢင်ႈထႅမ်သႂ်ႇၶေႃႈၵႂၢမ်းလၢႆထႅဝ် ၼႂ်းလွၵ်းတႃႇသူင်ႇၶေႃႈၵႂၢမ်းထႅဝ်လဵဝ်ၶႃႈ။
 exceeds-small-batch-limit-error = ဢမ်ႇၸၢင်ႈသူင်ႇၶေႃႈၵႂၢမ်းလႆႈလိူဝ် 1000 ထႅဝ်
 # $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
 rate-limit-toast-message-minutes =
