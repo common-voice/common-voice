@@ -1,6 +1,6 @@
 ## ABOUT US
 
-about-title = Kāpēc ir Common Voice?
+about-title = Kāpēc Common Voice?
 about-header-description-v2 =
     <p>Common Voice ir publiski pieejama balss datu kopa, ko veido brīvprātīgo balsis visā pasaulē. Cilvēki, kuri vēlas veidot programmas, kas strādā ar balsi, var izmantot datu kopu, lai apmācītu runas atpazīšana modeļus.</p>
     <p>Šobrīd lielākā daļa balss datu kopu pieder atsevišķiem uzņēmumiem, kas kavē inovācijas. Valodas ar mazu runātāju skaitu pasaulē balss datu kopās ir nepietiekami pārstāvētas. Tas nozīmē, ka tehnoloģijas, kas darbojas ar balsi šajās valodās nedarbojas vai strādā slikti. Mēs vēlamies to mainīt, mobilizējot cilvēkus visā pasaulē, lai viņi dalītos ar savu balsi un pārbaudītu ierakstītos teikumus.</p>
@@ -123,6 +123,7 @@ about-playbook-how-grow-language-content-4 = Sociālie mēdiji
 about-playbook-how-grow-language-content-5 = Varat izmantot sociālo mediju platformas, lai nosūtītu ziņojumu. Dalieties ar ziņām, kurās paskaidrots, kāpēc tas ir svarīgi, un sazinieties ar cilvēkiem, kas runā par tādām kā valodas tiesības, balss izmantošana mākslīgajos intelektos vai neobjektivitāte tehnoloģiju jomā. Skatiet vairāk padomu par <campaignLink>sociālās kampaņas vadīšanu, tostarp saturu, ko varat izmantot</campaignLink>.
 about-playbook-how-grow-language-content-6 = Partnerības un tīkli
 about-playbook-how-grow-language-content-7 = Atrodiet citus, kuriem tas rūp. Tās varētu būt universitātes, valodu skolas, interešu aizstāvības grupas vai datu zinātnes kopienas. Sazinieties un skaidri paskaidrojiet, kā viņi var palīdzēt un kāpēc. <outreachTemplates>Skatiet mūsu informatīvo e-pasta ziņojumu veidnes</outreachTemplates>.
+about-playbook-how-grow-language-content-8-v2 = <strong>Esi radošs!</strong> Tava valodas kopiena būs neatkārtojama, un šie ir tikai daži veidi, kā sākt. Lūgums apsvērt savus kopienas kanālu pievienošanu <communitiesLink>COMMUNITIES.md dokumentā GitHub</communitiesLink>.
 
 ## How to validate
 
