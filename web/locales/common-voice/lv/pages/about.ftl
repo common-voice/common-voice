@@ -44,9 +44,9 @@ about-clip-graveyard-text =
     Mēs vēlamies pateikties sekojošiem cilvēkiem un organizācijām par palīdzību projekta īstenošanā:
 about-get-involved = Iesaistieties
 about-get-involved-text-2 =
-    Vēlaties palīdzēt padarīt Common Voice vēl labāku?
-    Lieliski! Sazinieties ar mums pa e-pastu vai <discourseLink>Discourse</discourseLink>
-    forumu, ziņojiet par submit problēmām <githubLink>GitHub</githubLink>, vai pievienojieties <matrixLink>Matrix</matrixLink> kopienas tērzētavai.
+    Vēlies palīdzēt padarīt Common Voice vēl labāku?
+    Lieliski! Sazinies ar mums e-pastā vai <discourseLink>Discourse</discourseLink>
+    forumos, iesniedz vietnes nepilnības <githubLink>GitHub</githubLink>, vai pievienojies <matrixLink>[matrix]</matrixLink> kopienas tērzēšanai.
 about-stay-in-touch = Kā es varu sazināties?
 about-stay-in-touch-button = Pierakstīties
 about-stay-in-touch-text-1 = <emailFragment>Pieraksties</emailFragment> mūsu e-pasta jaunumiem, lai uzzinātu, kā vari piedalīties kampaņās, pasākumos un Common Voice kopprojektēšanas darbībās.

@@ -489,6 +489,20 @@ announcement-mdc-button-text = Pievienojieties Mozilla datu kolektīvam
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = Atveras jaunā cilnē
 
+## Release Delay Announcement
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-delay =
+    Dārgā kopiena!
+    Mēs pašlaik strādājam pie laidiena. Mēs paredzam, ka tas tiks pakāpeniski izlaists tuvākajās dienās <mdcLink>Mozilla Data Collective</mdcLink>.
+
+## Release Announcement
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release =
+    Dārgā kopiena!
+    Jaunais laidiens tagad ir pilnībā pieejams <mdcLink>Mozilla Data Collective</mdcLink>. Pievienojies, lai piekļūtu vairāk nekā 500 vispasaules datu kopām, ko kopiena izveidojusi kopienai.
+
 ## Downtime Announcements
 
 # Generic scheduled downtime for next Sunday early hours
