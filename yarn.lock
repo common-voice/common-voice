@@ -4085,10 +4085,10 @@
   dependencies:
     "@types/node" "*"
 
-"@types/mysql@2.15.27":
-  version "2.15.27"
-  resolved "https://registry.yarnpkg.com/@types/mysql/-/mysql-2.15.27.tgz#fb13b0e8614d39d42f40f381217ec3215915f1e9"
-  integrity sha512-YfWiV16IY0OeBfBCk8+hXKmdTKrKlwKN1MNKAPBu5JYxLwBEZl7QzeEpGnlZb3VMGJrrGmB84gXiH+ofs/TezA==
+"@types/mysql@2.15.28":
+  version "2.15.28"
+  resolved "https://registry.yarnpkg.com/@types/mysql/-/mysql-2.15.28.tgz#245580b39b6d98c3a07a6a528cc5590eecf7f2b2"
+  integrity sha512-NRNRbmYPZLXO/TIO8N/4b4jG9fS921Di5nsUCsU+tJDgQRhqoI5sBqKc25Wfj/FiJH6S+e3vILZXFwBrYVBqsg==
   dependencies:
     "@types/node" "*"
 
