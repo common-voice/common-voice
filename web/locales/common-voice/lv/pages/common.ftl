@@ -503,6 +503,13 @@ announcement-release =
     Dārgā kopiena!
     Jaunais laidiens tagad ir pilnībā pieejams <mdcLink>Mozilla Data Collective</mdcLink>. Pievienojies, lai piekļūtu vairāk nekā 500 vispasaules datu kopām, ko kopiena izveidojusi kopienai.
 
+## Release Commencing
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-commencing =
+    Dārgā kopiena!
+    Esam sasnieguši laidiena beigu datumu un apkopojam datu kopas. Jaunais laidiens pēc pāris dienām būs pieejams <mdcLink>Mozilla Data Collective</mdcLink>.
+
 ## Downtime Announcements
 
 # Generic scheduled downtime for next Sunday early hours
