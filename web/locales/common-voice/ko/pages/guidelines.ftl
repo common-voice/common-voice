@@ -145,6 +145,7 @@ example-questions-explanation-2 = 질문 목록을 업로드 하고 싶다면 <g
 # Answer Questions
 answer-questions = 질문 답하기
 answer-questions-subheader = 일반 지침
+answer-questions-tip-1 = 조용한 장소에서 녹음하세요
 transcribe-the-audio-subheader-1 = 일반 지침
 transcribe-the-audio-subheader-3 = 특수 태그
 tags-table-header-1 = 태그
