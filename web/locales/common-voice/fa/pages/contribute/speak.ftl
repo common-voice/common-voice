@@ -76,5 +76,5 @@ answer-questions-menu-item-tooltip = صدای خود را در پاسخ به س�
 ## MENU ITEM ARIA LABELS
 
 speak-contribute-menu-aria-label = فهرست گزینه‌های گفتن
-read-sentences-menu-item-aria-label = جملات ارسالی توسط جامعه را به زبان‌های مختلف بخوانید
-answer-questions-menu-item-aria-label = پرسش جدیدی را بفرستید تا جامعه آن‌ها را خوانده و به آن‌ها پاسخ دهند
+read-sentences-menu-item-aria-label = جملات ارسالی توسط اجتماع را به زبان‌های مختلف بخوانید
+answer-questions-menu-item-aria-label = پرسش جدیدی را بفرستید تا اجتماع آن‌ها را خوانده و به آن‌ها پاسخ دهند

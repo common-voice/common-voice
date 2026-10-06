@@ -26,5 +26,5 @@ review-transcriptions-menu-item-tooltip = رونویسی‌های ارسالی �
 ## MENU ITEM ARIA LABELS
 
 listen-contribute-menu-aria-label = فهرست گزینه‌های شنیدن
-validate-readings-menu-item-aria-label = خوانش‌های ارسالی از سوی اعضای جامعه را اعتبارسنجی کنید
+validate-readings-menu-item-aria-label = خوانش‌های ارسالی از سوی اعضای اجتماع را اعتبارسنجی کنید
 review-transcriptions-menu-item-aria-label = رونویسی جملات ضبط‌شده را از نظر دقت بررسی کنید
