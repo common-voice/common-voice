@@ -7,3 +7,4 @@ gravatar_not_found = Авкагъызыгъызгъа Gravatar табылмад�
 file_too_large = Сайлангъан сурат бекь уллу
 avatar-uploaded = Сурат салынды
 max-file-size = { $kb }kb уллусу
+remove-avatar = Суратны тайдырыгъыз
