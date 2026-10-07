@@ -12,6 +12,14 @@ record-no-mic-found = هیچ میکروفونی یافت نشد
 record-error-too-short = ضبط خیلی کوتاه بود.
 record-error-too-long = ضبط خیلی طولانی بود.
 record-error-too-quiet = صدا برای ضبط خیلی آرام بود.
+record-error-empty-recording = هیچ صدایی ضبط نشد. لطفاً میکروفون خود را بررسی کنید و دوباره امتحان کنید.
+record-error-unknown-format = تشخیص قالب صدا ممکن نشد. لطفاً از مرورگر دیگری استفاده کنید.
+record-error-uploaded-clip-corrupted =
+    به نظر می‌رسد صدای ضبط‌شدهٔ شما خراب است. این مشکل ممکن است به این دلایل پیش بیاید:
+    • مشکلات سازگاری مرورگر (از مرورگر دیگری استفاده کنید)
+    • مشکلات میکروفون یا راه‌انداز صدا
+    • قطع شدن شبکه/اینترنت هنگام ضبط
+    لطفاً دوباره ضبط کنید.
 record-cancel = لغو ضبط دوباره
 record-instruction = { $actionType }<recordIcon></recordIcon> سپس جمله را بلند بخوانید
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> وقتی انجام شد
