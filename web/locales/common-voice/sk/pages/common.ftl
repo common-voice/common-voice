@@ -285,6 +285,7 @@ nqo = NKo
 nr = IsiNdebele (juh)
 nso = Severné Sotho
 ny = Činjanja
+nyb = Nyagbo
 nyn = Runyankole
 nyu = nyungwe
 oc = Okcitánčina
