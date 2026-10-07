@@ -60,8 +60,8 @@ receiving-emails-info = شما در حال حاضر پست های الکترون
 not-receiving-emails-info = شما هم اکنون بر روی وضعیت <bold>دریافت نکردن</bold> نامه‌های الکترونیکی،‌ یادآوری هدف و وضعیت پیشرفت خود و همچنین خبرنامه ها از آواهای مشترک قرار دارید.
 n-clips-pluralized =
     { $count ->
-        [one] { $count } صدا
-       *[other] { $count } صدا
+        [one] { $count } قطعه
+       *[other] { $count } قطعه
     }
 help-share-goal = به ما کمک کنید صداهای بیشتری بیابیم، هدف‌تان را به اشتراک بگذارید
 confirm-goal = تایید هدف
