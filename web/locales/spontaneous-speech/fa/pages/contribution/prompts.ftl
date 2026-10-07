@@ -13,7 +13,7 @@ error-recording-too-long = ضبط بیش از حد طولانی است. حداک
 error-fetching-prompts = هنگام دریافت پرسش‌ها مشکلی پیش آمد. لطفاً بعداً دوباره امتحان کنید.
 error-uploading-response = هنگام بارگذاری پاسخ شما خطایی رخ داد
 error-empty-audio = ضبط ناموفق بود. به نظر می‌رسد پروندهٔ صوتی خالی است. لطفاً دوباره امتحان کنید.
-error-platform-webview = ممکن است ضبط در این مرورگر محدود پشتیبانی نشود. لطفاً از برنامهٔ کامل مرورگر استفاده کنید.
+error-platform-webview = ممکن است ضبط در این مرورگر محدود، پشتیبانی نشود. لطفاً از برنامهٔ کامل مرورگر استفاده کنید.
 error-recording-too-short-seconds = ضبط بیش از حد کوتاه است. حداقل مدت { $minDurationSeconds } ثانیه است.
 error-recording-too-long-minutes = ضبط بیش از حد طولانی است. حداکثر مدت { $maxDurationMinutes } دقیقه است.
 cannot-play-audio = پخش صدا ممکن نیست. لطفاً دوباره امتحان کنید.
@@ -29,11 +29,11 @@ submit-all-button = ارسال همه
 ## Explainer text (Respond to Prompt)
 
 learn-how-to-use-prompts = ببینید چطور از این صفحه استفاده کنید
-learn-how-to-use-prompts-explanation = کافی است در چند جمله و تا جایی که می‌توانید طبیعی به پرسش پاسخ دهید. مطمئن شوید زبانتان محترمانه و غیرتوهین‌آمیز است.
+learn-how-to-use-prompts-explanation = کافی است در چند جمله و تا جایی که می‌توانید طبیعی و روان به پرسش پاسخ دهید. مطمئن شوید زبانتان محترمانه و غیرتوهین‌آمیز باشد.
 learn-how-to-use-prompts-guidance = برای آشنایی با نحوهٔ استفاده از این صفحه <guidanceLink>اینجا</guidanceLink> کلیک کنید
 learn-how-to-use-transcribe = ببینید چطور رونویسی کنید
 learn-how-to-use-transcribe-explanation = دقیقاً همان چیزی را بنویسید که گوینده گفته، از جمله واژه‌های پرکننده مثل «اِم» یا «اِه».
 learn-how-to-use-transcribe-guidance = برای آشنایی با نحوهٔ استفاده از این صفحه <guidanceLink>اینجا</guidanceLink> کلیک کنید
 learn-how-to-use-check-transcript = ببینید چطور رونویسی را بررسی کنید
-learn-how-to-use-check-transcript-explanation = رونویسی باید همهٔ واژه‌ها و صداهای غیرواژگانی گفت‌وگو را که گوینده گفته، از جمله تکرارها، ثبت کند.
+learn-how-to-use-check-transcript-explanation = رونویسی باید همهٔ واژه‌ها و صداهای غیرواژگانی گفت‌وگو را که گوینده گفته، از جمله تکرارها، ضبط کند.
 learn-how-to-use-check-transcript-guidance = برای آشنایی با نحوهٔ استفاده از این صفحه <guidanceLink>اینجا</guidanceLink> کلیک کنید
