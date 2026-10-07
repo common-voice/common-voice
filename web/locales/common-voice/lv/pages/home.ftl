@@ -132,6 +132,7 @@ answer = Atbilde
 
 ## Community section
 
+community-section-title-202601 = Darbina vispasaules kopienas vispasaules kopienām — 290 valodas, un to skaits palielinās!
 join-discord-community = Pievienojieties Discord kopienai
 # label for button
 join-discord-community-action = Pievienoties Discord

@@ -503,6 +503,14 @@ announcement-release =
     Dārgā kopiena!
     Jaunais laidiens tagad ir pilnībā pieejams <mdcLink>Mozilla Data Collective</mdcLink>. Pievienojies, lai piekļūtu vairāk nekā 500 vispasaules datu kopām, ko kopiena izveidojusi kopienai.
 
+## Pre-Release Announcement (dates TBD)
+
+# Text wrapped in <cvDatasheetsLink></cvDatasheetsLink> will be rendered as an external link to the cv-datasheets GitHub repo
+announcement-pre-release =
+    Dārgā kopiena!
+    
+    Tuvojas laidiens. Lūgums pārbaudīt un transkribēt, kā arī apmeklēt <cvDatasheetsLink>cv-datasheets</cvDatasheetsLink>, lai atjauninātu savu datu lapu.
+
 ## Release Commencing
 
 # Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
