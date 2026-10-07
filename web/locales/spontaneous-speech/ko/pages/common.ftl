@@ -28,6 +28,7 @@ not-found-page-header = 찾을 수 없음
 accept-privacy-and-terms = Common Voice의 <termsLink>약관</termsLink> 및 <privacyLink>개인정보 보호정책</privacyLink>에 동의합니다.
 # Locales-Variants
 ms-MY = 바하사 말레이어
+pt-BR = 브라질 포르투갈어
 
 ## Language search component
 

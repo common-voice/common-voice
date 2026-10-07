@@ -135,6 +135,7 @@ contribute-github-content = Ten projekt nie byłby możliwy bez ludzi takich jak
 
 ## Featured section
 
+featured-section-title = Wyróżnione w…
 # icon is an arrow that points downwards
 download-press-pack = Pobierz nasz pakiet prasowy <icon></icon>
 
@@ -160,5 +161,7 @@ partner-section-subtitle-tech-companies = <bold>Firmy technologiczne</bold> – 
 partner-section-subtitle-civil-society = <bold>Społeczeństwo obywatelskie i badacze</bold> — twórz, hostuj i bezpłatnie udostępniaj wartościowe zbiory danych
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-philantropy = <bold>Filantropia</bold> – sponsoruj tworzenie zbiorów danych w celu wspierania lokalnych innowacji i rozwoju
+# icon is an arrow that points to the right
+get-in-touch-button = Napisz do nas <icon></icon>
 # Partners section
 our-partners-include = Naszymi partnerami są między innymi...

@@ -29,7 +29,7 @@ audio-format = Audio formāts
 dataset-splits = Dalījums (vecums un dzimums)
 number-of-voices = Balsu skaits
 splits = Statistika
-email-to-download = Ievadiet e-pastu, lai lejupielādētu
+email-to-download = Jāievada e-pasta adrese, lai lejupielādētu
 why-email = <b>Kāpēc e-pasts?</b> Mums, iespējams, nākotnē būs jāsazinās ar jums par izmaiņām datu kopā, to darīsim ar e-pasta palīdzību.
 why-donate-datasets-page = Mozilla Common Voice ir pasaulē daudzveidīgākā atklātās runas datu kopa, kas iegūta no pūļa, un mūsu darbību pilnībā nodrošina ziedojumi. Datu kopu uzturēšana un platformas uzlabošana vairāk nekā 100 valodu kopienām, kuras paļaujas uz mūsu darbu, izmaksā gandrīz miljonu dolāru gadā. Ja jums ir svarīgi atvērti, iekļaujoši dati - <b>ziedojiet jau šodien!</b>
 confirm-size = Jūs esat gatavs sākt lejupielādēt <b>{ $size }</b>
@@ -45,8 +45,8 @@ dataset-description-hours =
     Katrs datu kopas ieraksts sastāv no unikāla MP3 un atbilstoša teksta faila. Daudzās no <b>{ $total }</b> ierakstu stundām datu kopā ir arī demogrāfiskie metadati, piemēram, vecums, dzimums un akcents, kas var palīdzēt apmācīt runas atpazīšanas dzinēju precizitāti.
     
     Datu kopums pašlaik sastāv no <b>{ $valid }</b> pārbaudītām stundām <b>{ $languages }</b> valodās, bet mēs vienmēr pievienojam vairāk balsu un valodu. Apskatiet mūsu <languagesLink>valodu lapu</languagesLink>, lai pieprasītu valodu vai sāktu sniegt ieguldījumu.
-want-dataset-update = Vēlaties zināt, kad mēs izlaižam jaunu kopējās balss datu kopas versiju? Pierakstieties jaunumiem.
-subscribe = Pierakstīties
+want-dataset-update = Vēlies uzzināt, kad mēs izlaižan jaunu Common Voice datu kopas versiju? Abonē mūsu biļetenu!
+subscribe = Abonēt
 get-started-speech = Darba sākšana ar runas atpazīšanu
 other-datasets = Citas balss datu kopas
 feedback-q = Vai jums ir atsauksmes?

@@ -50,6 +50,7 @@ accept-privacy-and-terms = Sunt de acord cu <termsLink>Termenii</termsLink> și 
 # Locales-Variants
 ms-MY = Malaeză
 el-CY = Greacă cipriotă
+pt-BR = Portugheză braziliană
 
 ## Language search component
 

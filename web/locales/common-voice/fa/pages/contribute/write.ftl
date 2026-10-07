@@ -161,4 +161,5 @@ write-contribute-menu-aria-label = نوشتن فهرست گزینه‌ها
 add-sentences-menu-item-aria-label = جملات جدیدی بنویسید تا دیگران بخوانند
 review-sentences-menu-item-aria-label = جملاتی را که توسط دیگران فرستاده شده است را بازبینی کنید
 add-questions-menu-item-aria-label = پرسش‌هایی را برای دیگران بفرستید که بخوانند و به آن‌ها پاسخ دهند
+review-questions-menu-item-aria-label = بازبینی و رای‌گیری برای پرسش‌های جدید ارسال شده توسط اجتماع
 transcribe-audio-menu-item-aria-label = صداهای ضبط‌شده را به متن رونویسی کنید

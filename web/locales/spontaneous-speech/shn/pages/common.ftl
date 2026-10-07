@@ -3,7 +3,7 @@
 # Toast message that is displayed when an error occurs
 error = လွင်ႈၽိတ်းပိူင်ႈ
 action-click = ၼဵၵ်း
-action-tap = ထႅပ်ႉ
+action-tap = တိူဝ်ႉ
 # Label for language switcher
 platform-language = ၽႃႇသႃႇပိူင်သၢင်ႈ(Platform)
 platform-language-tooltip-text = လႅၵ်ႈလၢႆႈၶေႃႈၵႂၢမ်းၼိူဝ်ဝႅပ်ႉသၢႆႉတ်ၵူၺ်း

@@ -49,11 +49,18 @@
 
 ### Changes merged after current release
 
+- Add issue template to add additional SPS questions by [@moz-acfort](https://github.com/moz-acfort) in [#5489](https://github.com/common-voice/spontaneous-speech/pull/5489) (in v.1.160.1)
+
 #### Data Changes after current release
+
+- Welcome to new language Nyagbo (nyb)
 
 #### Spontaneous Speech Changes after current release
 
 ##### SS Data Changes after current release
+
+- Add Kikamba (kam) language and questions by [@moz-acfort](https://github.com/moz-acfort) in [#562](https://github.com/common-voice/spontaneous-speech/pull/562) (in v.1.160.1)
+- Add Northwest Gbaya (gya) language and questions by [@moz-acfort](https://github.com/moz-acfort) in [#561](https://github.com/common-voice/spontaneous-speech/pull/561) (in v.1.160.1)
 
 ---
 

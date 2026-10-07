@@ -138,3 +138,17 @@ about-playbook-how-access-dataset-content-2 = Ọ bụrụ na ị na-achọ ngwa
 ## How are decisions made
 
 about-playbook-how-project-governance = Kedu otu e si eme mkpebi ọrụ?
+about-playbook-how-project-governance-content-1 = Ọ bụ ọgbakọ ndị ọrụ na-achọ mgbanwe dị iche iche mere Mozilla Common Voice ka ọ dị irè, ndị ọkà sayensị asụsụ, ndị ọkà sayensị data, ndị ma anya agụmakwụkwọ na ndị mmepụta (injinịa) ngwaọrụ kọmputa si n'ụwa niile gbara gburugburu. Ọ bụ Mozilla Foundation na-ahụ maka ọrụ a.
+about-playbook-how-project-governance-content-2 = Ọchịchị anyị gbadoro ụkwụ n'ìdé:
+about-playbook-how-project-governance-content-3 = Nzuzo, nchebe na ido anya.
+about-playbook-how-project-governance-content-4 = Nsonye n'ọgba ndị ọrụ na ime mkpebi.
+about-playbook-how-project-governance-content-5 = Uru na nkwanye ùgwù.
+about-playbook-how-project-governance-content-6 = Inye nkọwa ka e siri mee ihe nye ibe ya.
+about-playbook-how-project-governance-content-7 = <gọvernanceLink>Gụkwuo maka etu e si achịkwa anyị</gọvernanceLink>
+
+## How is Common Voice funded
+
+about-playbook-how-funded = Kedu ka Common Voice si enweta ego?
+about-playbook-how-funded-content-1 = Common Voice bụ ọrụ nke Mozilla Foundation, US 501c3. Ugbu a, ego niile ọrụ a na-enweta sitere na <philantropicGrantLinkego> ego enyemaka ebere</philantropicGrantLink>, na onyinye sitere n'aka ndị mmadụ si n'ebe dị iche iche n'ụwa gburugburu.
+about-playbook-how-funded-content-2 = Ọ na-eri ego nke ukwuu ịkpọbata na iweputa ntọala data mgbe ọ bụla, imewanye platfọọm ahụ na <africaMradiLink></africaMradiLink> ime ka emume ọgbakọ ndị ọrụ rụọ ọrụ.
+about-playbook-how-funded-content-3 = Ọ bụrụ na ọ ga-amasị gị ma ọ bụ ótù ọrụ gị ịtụnye ụtụ tinye n'ọrụ a, ị nwere ike mee <donateLink>nye</donateLink> ma ọ bụ kpọturu ndị ótù nrụkọrịta ọrụ anyị na </emailFragment>.

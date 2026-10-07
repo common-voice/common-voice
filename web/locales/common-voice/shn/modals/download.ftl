@@ -6,4 +6,4 @@ download-form-email =
     .label = သႂ်ႇဢီးမေးလ်ၸဝ်ႈၵဝ်ႇ
     .value = ယိၼ်းၸူမ်းၶႃႈ၊ ႁဝ်းၶႃႈတေၵပ်းသိုပ်ႇမႃးၶႃႈ။
 download-back = ပွၵ်ႈၶိုၼ်းတီႈၸုမ်ႇၶေႃႈမုၼ်း Common Voice
-download-no = ဢမ်ႇ၊ ယိၼ်းၸူမ်းယဝ်ႉ
+download-no = ဢမ်ႇဢဝ်ၶႃႈ၊ ယိၼ်းၸူမ်းၶႃႈ။

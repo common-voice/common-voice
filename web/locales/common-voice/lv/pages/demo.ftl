@@ -20,7 +20,7 @@ demo-account = Konts
 demo-account-card-header = Lai veiktu ieguldījumu, nav nepieciešams konts, kaut gan tas ir noderīgs.
 demo-account-card-body = Labajā pusē mēs izklāstām priekšrocības un precizējam, kādu informāciju mēs publiskojam. Izmantojiet tālāk esošās saites, lai sāktu darbu ar Common Voice kontu savā ierīcē.
 demo-account-enter-email =
-    .label = Ievadiet e-pastu, lai nosūtītu reģistrācijas saiti
+    .label = Jāievada e-pasta adrese, lai nosūtītu reģistrēšanās saiti
 demo-account-sign-up = Nosūtiet reģistrācijas saiti
 
 ## Demo Contribute

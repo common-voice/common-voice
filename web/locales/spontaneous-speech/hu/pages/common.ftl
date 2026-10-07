@@ -50,6 +50,7 @@ accept-privacy-and-terms = Elfogadom a Common Voice <termsLink>Jogi feltételeit
 # Locales-Variants
 ms-MY = Maláj
 el-CY = Ciprióta görög
+pt-BR = Brazíliai portugál
 
 ## Language search component
 

@@ -82,6 +82,7 @@ accepted-files = Atļautū failu tipi: tikai .tsv
 minimum-sentences = Minimalais teikumu skaits failā: 1000
 maximum-file-size = Maksimalais faila izmārs: 25 MB
 what-needs-to-be-in-file = Kam juobyut munā failā?
+what-needs-to-be-in-file-explanation = Lyudzu, apsaverit myusu <templateFileLink>šablona datni</templateFileLink>. Jiusu teikumim juobyut breivim nu autortīseibu (CC0 voi ar autora atļuovi lītuot juo dorbu), taipat tim juobyut skaidrim, gramatiski pareizim i vīgli īrunojamim. Teikumim juobyut taidim, lai tūs varātu īrunuot 10–15 sekuņdēs, tymūs nadreikst byut cipari, eipašvuordi i specialuos rokstu zeimis.
 upload-progress-text = Nūteik augšynluode...
 sc-bulk-submit-confirm = Es apstyprynoju, ka itī ir <wikipediaLink>publiskuo domena</wikipediaLink> teikumi, i maņ ir atļuove tūs augšynluodēt.
 bulk-upload-success-toast = Teikumi augšynluodāti
@@ -100,6 +101,48 @@ too-many-files = Par daudzi failu
 small-batch-instruction = <icon></icon> Dalīcit vairuokus breivi daīmamus teikumus, kas nav aizsorguoti ar autortīseibom
 multiple-sentences-error = Vīnā reizē navar dalikt vairuokus teikumus
 exceeds-small-batch-limit-error = Navar īsnīgt vaira par 1000 teikumu
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [zero] Puorsnāgts datikšonys bīžuma īrūbežuojums. Piec { $retryLimit }  minutu juorauga vēļreiz.
+        [one] Puorsnāgts datikšonys bīžuma īrūbežuojums. Piec { $retryLimit }  minutu juorauga vēļreiz.
+       *[other] Puorsnāgts datikšonys bīžuma īrūbežuojums. Piec { $retryLimit }  minutu juorauga vēļreiz.
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [zero] Puorsnāgts datikšonys bīžuma īrūbežuojums. Piec { $retryLimit }  sekuņžu juorauga vēļreiz.
+        [one] Puorsnāgts datikšonys bīžuma īrūbežuojums. Piec { $retryLimit }  sekuņžu juorauga vēļreiz.
+       *[other] Puorsnāgts datikšonys bīžuma īrūbežuojums. Piec { $retryLimit }  sekuņžu juorauga vēļreiz.
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [zero] Ir sasnāgts ituos lopys īsniegšonys īrūbežuojums. Pyrma nuokamuo teikuma īsniegšonys, lyudzu, uzgaidit 1 minutu. Paļdis par pacīteibu!
+        [one] Ir sasnāgts ituos lopys īsniegšonys īrūbežuojums. Pyrma nuokamuo teikuma īsniegšonys, lyudzu, uzgaidit { $retryLimit } minutys. Paļdis par pacīteibu!
+       *[other] Ir sasnāgts ituos lopys īsniegšonys īrūbežuojums. Pyrma nuokamuo teikuma īsniegšonys, lyudzu, uzgaidit { $retryLimit } minutys. Paļdis par pacīteibu!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [zero] Ir sasnāgts ituos lopys īsniegšonys īrūbežuojums. Pyrma nuokamuo teikuma īsniegšonys, lyudzu, uzgaidit 1 sekuņdi. Paļdis par pacīteibu!
+        [one] Ir sasnāgts ituos lopys īsniegšonys īrūbežuojums. Pyrma nuokamuo teikuma īsniegšonys, lyudzu, uzgaidit { $retryLimit } sekuņdis. Paļdis par pacīteibu!
+       *[other] Ir sasnāgts ituos lopys īsniegšonys īrūbežuojums. Pyrma nuokamuo teikuma īsniegšonys, lyudzu, uzgaidit { $retryLimit } sekuņdis. Paļdis par pacīteibu!
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [zero] Savuokts { $uploadedSentences } nu 1 teikuma
+        [one] Savuokti { $uploadedSentences } nu { $totalSentences } teikumim
+       *[other] Savuokti { $uploadedSentences } nu { $totalSentences } teikumim
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [zero] Savuokti { $uploadedSentences } nu 1 teikuma. Nūklykstynojit <downloadLink>ite</downloadLink>, lai zamynluodātu nūraideitūs teikumus.
+        [one] Savuokti { $uploadedSentences } nu { $totalSentences } teikumim. Nūklykstynojit <downloadLink>ite</downloadLink>, lai zamynluodātu nūraideitūs teikumus.
+       *[other] Savuokti { $uploadedSentences } nu { $totalSentences } teikumim. Nūklykstynojit <downloadLink>ite</downloadLink>, lai zamynluodātu nūraideitūs teikumus.
+    }
 small-batch-sentences-rule-1 = Īvārojit vodlinejis sadaļā "Kaidus teikumus varu dalikt?"
 small-batch-sentences-rule-2 = Kotrā ryndā dalīcit vīnu teikumu
 small-batch-sentences-rule-3 = Atdolit teikumus, kas saraksteiti vīnā ryndā, vīnreiz nūmīdzūt "Enter"
