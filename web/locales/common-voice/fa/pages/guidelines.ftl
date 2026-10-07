@@ -184,11 +184,9 @@ code-switching-answer-bullet-3 = از واژه‌هایی استفاده کنی�
 code-switching-answer-bullet-4 = هیچ روش «بی‌نقصی» برای پاسخ دادن وجود ندارد
 code-switching-authentic-header = طبیعی و واقعی پاسخ دهید
 code-switching-authentic-speak = <bold>همان‌طور حرف بزنید که با دوستان یا خانواده حرف می‌زنید.</bold> اگر در زندگی واقعی زبان‌ها را با هم می‌آمیزید، اینجا هم همین کار را بکنید. مثال:
-code-switching-authentic-speak-example = “Pues I told her I couldn’t go, but she was like, ‘You better show up!’”
 code-switching-use-both-languages = <bold>اگر معمولاً همین‌طور حرف می‌زنید، از هر دو زبان استفاده کنید.</bold> حتی جابه‌جایی فقط یکی دو واژه هم مفید است. مثال:
 code-switching-use-both-languages-example = “She got really mad porque I didn’t call her back.”
 code-switching-authentic-direct-quotes = <bold>نقل‌قول مستقیم یا گفت‌وگو بیاورید.</bold> دقیقاً همان چیزی را بگویید که کسی گفته، نه نسخهٔ مرتب‌شده یا رسمی آن را. مثال:
-code-switching-authentic-direct-quotes-example = “Mi mamá dijo, ‘Tú crees que esto es un juego?’ and I was like, ‘Okay chill!’”
 code-switching-authentic-reflect = <bold>احساس، هویت و بافت را بازتاب دهید.</bold> جابه‌جایی میان زبان‌ها معمولاً وقتی رخ می‌دهد که مردم احساس، فوریت یا مفاهیم فرهنگی را بیان می‌کنند. هنگام پاسخ دادن به پرسش‌ها به این‌ها توجه کنید.
 code-switching-authentic-full-context = <bold>پاسخ‌های کامل و همراه با بافت بدهید.</bold> تا جایی که می‌توانید با جزئیات پاسخ دهید. در پاسخ‌هایتان داستان یا مثالی تعریف کنید.
 # Don’t Overthink or Overedit
