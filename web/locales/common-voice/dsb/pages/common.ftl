@@ -285,6 +285,7 @@ nqo = NKo
 nr = IsiNdebele (pódpołdnjowy)
 nso = Pódpołnocna sothošćina
 ny = Činjanźa
+nyb = Njagbo
 nyn = Nkorešćina
 nyu = Nyungwe
 oc = Okcitańšćina
