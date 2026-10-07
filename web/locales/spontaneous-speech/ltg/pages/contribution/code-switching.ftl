@@ -10,6 +10,7 @@ cs-locale-change-modal-subtitle = Itamā lopā ir nasaglobuotys izmainis. Ka puo
 
 ## Question Page Items
 
+cs-question-page-instruction = Dalīcit { $currentLocale } datu kūpai leidz 25 vaicuojumim <icon></icon>, lai cylvāki varātu iz tim atsaceit
 cs-question-dataset-name = Datu kūpa: { $datasetName }
 
 ## Validate Page Items
@@ -25,3 +26,11 @@ cs-tag-dataset-name = Datu kūpa [{ $datasetName }]
 
 learn-how-to-use = Izzynojit, kai lītuot itū lopu
 read-full-guidelines-here = <guidanceLink>Vysys vodlinejis skaitit ite</guidanceLink>
+
+## Answer Page Guidelines
+
+cs-learn-how-to-use-answer-explanation = Vīnkuorši, piec vareibys dabiskuok atsokit iz aizdavumu puors teikumūs. Ka tys ruodīs dabiski, drūsai mainit volūdys. Puorsalīcynojit, ka jiusu volūda ir cīņpylna i nav aizvainojūša.
+
+## Review Page Guidelines
+
+cs-learn-how-to-use-check-transcript-explanation = Transkripcejā juopasaruoda sevkuram īrokstā dzieržamajam vuordam i skaņai, īskaitūt atkuortuojumus.

@@ -1,7 +1,7 @@
 ## Question Page
 
 question-page-instruction = ထႅမ်သႂ်ႇၶေႃႈထၢမ် <icon></icon> ၼႂ်းၽႃႇသႃႇ { $currentLocale } တႃႇႁႂ်ႈၵူၼ်းၶဝ်ႈတွပ်ႇ
-add-question-textarea-placeholder = မိူၼ်ၼင်ႇ “သူၸဝ်ႈၶႂ်ႈၸႂ်ႉထႅၵ်ႉၶၼေႃႇလေႃႇၸီႇတႃႇႁဵတ်းသင်လၢႆလၢႆ?”
+add-question-textarea-placeholder = မိူၼ်ၼင်ႇ “ၸဝ်ႈၵဝ်ႇၶႂ်ႈၸႂ်ႉထႅၵ်ႉၶၼေႃႇလေႃႇၵျီႇတႃႇႁဵတ်းသင်လၢႆလၢႆ?”
 add-questions-terms-checkbox = * ၶႃႈယိုၼ်ယၼ်ဝႃႈ ၶေႃႈထၢမ်ဢၼ်ၼႆႉပဵၼ် <publicDomainLink>ၶွင်ၵူၼ်းတင်းၼမ်</publicDomainLink> လႄႈၶႃႈမီးၶႂၢင်ႉတႃႇတေလူတ်ႇၶိုၼ်ႈလႆႈ။
 question-dataset-language = ၸုမ်ႇၶေႃႈမုၼ်း - { $datasetLanguage }
 add-question-success-toast-message =

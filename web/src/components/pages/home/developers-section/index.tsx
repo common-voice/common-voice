@@ -15,10 +15,10 @@ export const DevelopersSection = () => {
       <div className="developers-section-container">
         <div className="content">
           <div className="text-container">
-            <Localized id="developers-section-title">
+            <Localized id="developers-section-title-202608">
               <h1 />
             </Localized>
-            <Localized id="developers-section-subtitle">
+            <Localized id="developers-section-subtitle-v2">
               <p />
             </Localized>
             <a

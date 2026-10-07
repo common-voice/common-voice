@@ -50,6 +50,7 @@ accept-privacy-and-terms = Es pīkreitu Common Voice <termsLink>nūsacejumim</te
 # Locales-Variants
 ms-MY = Bahasa Malay
 el-CY = Kiprys grīku
+pt-BR = Brazilejis portugalīšu
 
 ## Language search component
 

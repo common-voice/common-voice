@@ -1,5 +1,39 @@
 ## Prompts page
 
+record-player-header = ဢတ်းသဵင် ၶေႃႈတွပ်ႇၶွင်ၸဝ်ႈၵဝ်ႇ
 mic-access-error = သူၸဝ်ႈတေလႆႈပၼ်ၶႂၢင်ႉတႃႇၸႂ်ႉမႆႊၶရူဝ်ႊၾူၼ်ႊ။
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
 prompt-page-instruction = { $actionType }<micIcon></micIcon> လႄႈတွပ်ႇပၼ်ႁႂ်ႈပဵၼ်သၽႃႇဝတီႈသုတ်းၼင်ႇၵႃႈသူၸဝ်ႈတေပွင်ပဵၼ်လႆႈ။
+# Message which appears when there are no more resources on this page
+no-prompts-continue-skipped-message = ဢမ်ႇမီးၶေႃႈထၢမ်သင် တႃႇၽႃႇသႃႇၵႂၢမ်းလၢတ်ႈၼႆႉထႅင်ႈယဝ်ႉၶႃႈ။ သင်ၸိူဝ်ႉဝႃႈ ၸဝ်ႈၵဝ်ႇၶၢမ်ႈၶေႃႈလႂ်ၵႂႃႇၼႆၸိုင်ၸၢင်ႈသိုပ်ႇႁဵတ်းၸွမ်းၶေႃႈၼမ်းဢၼ်ၶၢမ်ႈပူၼ်ႉၵႂႃႇၼၼ်ႉလႆႈ ဢမ်ႇၼၼ် ၵႂႃႇတီႈ တီႈၵၢၼ်ထတ်းလွင်ႈထွတ်ႇသဵင် ေ ၶိုၼ်းၶတ်းၸႂ်တူၺ်းထႅင်ႈ ဝၢႆးလင်လႆႈယူႇၶႃႈ။
+error-skipping = မီးလွင်ႈၽိတ်းပိူင်ႈ မိူဝ်ႈၽွင်းၶၢမ်ႈပူၼ်ႉ ၶေႃႈသင်ႇၼႆႉ
+error-recording = မီးလွင်ႈၽိတ်းပိူင်ႈ မိူဝ်ႈၽွင်းတိုၵ်ႉဢတ်းသဵင်
+error-recording-too-short = ၵၢၼ်ဢတ်းသဵင် မၼ်းပွတ်းပူၼ်ႉၼႃႇၶႃႈ။ ၶၢဝ်းယၢမ်း ဢၼ်ဢေႇသုတ်းပဵၼ် { $minDurationSeconds } သႅၵ်ႉၵၢၼ်ႉၶႃႈ။
+error-recording-too-long = ၵၢၼ်ဢတ်းသဵင် မၼ်းယၢဝ်းပူၼ်ႉၼႃႇၶႃႈ။ ၶၢဝ်းယၢမ်း ဢၼ်ၼမ်သုတ်းပဵၼ် { $minDurationSeconds } သႅၵ်ႉၵၢၼ်ႉၶႃႈ။
+error-fetching-prompts = မီးလွင်ႈၽိတ်းပိူင်ႈသေလွင်ႈလွင်ႈ ၽွင်းမိူဝ်ႈၸၼ်ဢဝ်ၶေႃႈသင်ႇ၊  ၶႅၼ်းတေႃႈ ၸၢမ်းႁဵတ်းတူၺ်းထႅင်ႈဝၢႆးလင်ၶႃႈ။
+error-uploading-response = မီးလွင်ႈၽိတ်းပိူင်ႈသေလွင်ႈလွင်ႈ ၽွင်းမိူဝ်ႈသူင်ႇၶိုၼ်ႈ ၶေႃႈတွပ်ႇၸဝ်ႈၵဝ်ႇ
+error-empty-audio = ၵၢၼ်ဢတ်းသဵင် ဢမ်ႇဢွင်ႇမၢၼ်ၶႃႈ။ ၾၢႆႊလ်သဵင် မၼ်းမိူၼ်ဝႃႈပဵၼ်ၾၢႆႊလ်ပဝ်ႇဝႆႉၶႃႈ။ ၶႅၼ်းတေႃႈ ၸၢမ်းႁဵတ်းတူၺ်းထႅင်ႈၶႃႈ။
+error-platform-webview = ၵၢၼ်ဢတ်းသဵင် တေၸၢင်ႈဢမ်ႇၵမ်ႉထႅမ်ၼႂ်းပရၢဝ်ႇသိူဝ်ႇဢၼ်မီးလွင်ႈမၵ်းၶၼ်ႈဝႆႉၼႆႉၶႃႈ။ ၶႅၼ်းတေႃႈ ၸႂ်ႉတိုဝ်းပရၢဝ်ႇသိူဝ်ႇဢႅပ်ႉ ဢၼ်တဵမ်ထူၼ်ႈၶႃႈ။
+error-recording-too-short-seconds = ၵၢၼ်ဢတ်းသဵင် မၼ်းပွတ်းပူၼ်ႉၼႃႇၶႃႈ။ ၶၢဝ်းယၢမ်း ဢၼ်ဢေႇသုတ်းပဵၼ် { $minDurationSeconds } သႅၵ်ႉၵၢၼ်ႉၶႃႈ။
+error-recording-too-long-minutes = ၵၢၼ်ဢတ်းသဵင် မၼ်းယၢဝ်းပူၼ်ႉၼႃႇၶႃႈ။ ၶၢဝ်းယၢမ်း ဢၼ်ၼမ်သုတ်းပဵၼ် { $minDurationSeconds } သႅၵ်ႉၵၢၼ်ႉၶႃႈ။
+cannot-play-audio = ဢမ်ႇၸၢင်ႈလဵၼ်ႈ ၾၢႆႊလ်သဵင်လႆႈၶႃႈ၊ ၶႅၼ်းတေႃႈ ၸၢမ်းႁဵတ်းၶိုၼ်းတူၺ်းထႅင်ႈၶႃႈ။
+prompt-submitted-success = သူင်ႇၶေႃႈတွပ်ႇယဝ်ႉတူဝ်ႈလီငၢမ်းယဝ်ႉၶႃႈ။
+prompt-response-deleted-success = မွတ်ႇၶေႃႈတွပ်ႇယဝ်ႉတူဝ်ႈလီငၢမ်းယဝ်ႉၶႃႈ။
+# For the button to delete a response to a prompt
+delete = မွတ်ႇ
+# For the disabled button on a prompt that indicates a prompt is already submitted
+submitted = သူင်ႇ
+# For the button on the Respond to prompts page which can be used to submit all responses at once
+submit-all-button = သူင်ႇတင်းမူတ်း
+
+## Explainer text (Respond to Prompt)
+
+learn-how-to-use-prompts = ႁဵၼ်းႁူႉလၢႆးၸႂ်ႉတိုဝ်းၼႃႈလိၵ်ႈၼႆႉ
+learn-how-to-use-prompts-explanation = တွပ်ႇပၼ်ၶေႃႈသင်ႇ ႁႂ်ႈပဵၼ်သၽႃႇဝလီသုတ်း ၼႂ်းၶေႃႈၵႂၢမ်း သွင်သၢမ်ၶေႃႈၼၼ်ႉၵူၺ်းၶႃႈ။ တေလႆႈမၼ်ႈၸႂ်ဝႃႈ ၶေႃႈၵႂၢမ်းလၢတ်ႈၶွင်ၸဝ်ႈၵဝ်ႇ မီးလွင်ႈၼပ်ႉယမ် လႄႈ ဢမ်ႇမီးၶေႃႈၵႂၢမ်းႁၢႆႉၸႃႉတိူဝ်ႉၸႂ်ၶႃႈၼႃႈ။
+learn-how-to-use-prompts-guidance = ၼဵၵ်း <guidanceLink>တီႈၼႆႈ </guidanceLink> တွၼ်ႈတႃႇႁဵၼ်းႁူႉ လၢႆးၸႂ်ႉတိုဝ်း ၼႃႈလိၵ်ႈၼႆႉ။
+learn-how-to-use-transcribe = ႁဵၼ်းႁူႉ လၢႆးထွတ်ႇသဵင်ပဵၼ်တူဝ်လိၵ်ႈ
+learn-how-to-use-transcribe-explanation = တႅမ်ႈမၢႆဝႆႉ ႁႂ်ႈတႅတ်ႈထႅတ်ႈ ၸွမ်းၼင်ႇဢၼ်ၵူၼ်းၵေႃႉၼၼ်ႉ လၢတ်ႈဢွၵ်ႇမႃးၸွမ်းလွင်ႈဢၼ်ပဵၼ်တႄႉ၊ ဢိၵ်ႇပႃးတင်း ၶေႃႈၵႂၢမ်းၵဝ်းသဵင် (Placeholder words) မိူၼ်ၼင်ႇ 'um' ဢမ်ႇၼၼ် 'errr' ၸိူဝ်းၼႆႉၶႃႈ။
+learn-how-to-use-transcribe-guidance = ၼဵၵ်း <guidanceLink>တီႈၼႆႈ </guidanceLink> တွၼ်ႈတႃႇႁဵၼ်းႁူႉ လၢႆးၸႂ်ႉတိုဝ်း ၼႃႈလိၵ်ႈၼႆႉ။
+learn-how-to-use-check-transcript = ႁဵၼ်းႁူႉ လၢႆးၵူတ်ႇထတ်း ၵၢၼ်ထွတ်ႇသဵင်ပဵၼ်တူဝ်လိၵ်ႈ
+learn-how-to-use-check-transcript-explanation = ၵၢၼ်ထွတ်ႇသဵင်ပဵၼ်တူဝ်လိၵ်ႈၼၼ်ႉ ထုၵ်ႇလီတႅမ်ႈၵဵပ်း ၵူႈတူဝ်လိၵ်ႈ ဢမ်ႇၼၼ် သဵင်ဢၼ်ဢမ်ႇမီးတီႈပွင်ႇ  (non-lexical conversation) ဢၼ်ၵူၼ်းၵေႃႉၼၼ်ႉလၢတ်ႈဢွၵ်ႇမႃးၵူႊၶေႃႈ ၊ဢိၵ်ႇပႃး လွင်ႈၶိုၼ်းလၢတ်ႈသမ်ႉၵၼ်ၼၼ်ႉယဝ်ႉ။
+learn-how-to-use-check-transcript-guidance = ၼဵၵ်း <guidanceLink>တီႈၼႆႈ </guidanceLink> တွၼ်ႈတႃႇႁဵၼ်းႁူႉ လၢႆးၸႂ်ႉတိုဝ်း ၼႃႈလိၵ်ႈၼႆႉ။

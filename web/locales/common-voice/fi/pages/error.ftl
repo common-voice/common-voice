@@ -5,5 +5,7 @@ banner-error-slow-2 = Vastaanotamme paljon liikennettä ja tutkimme parhaillaan 
 banner-error-slow-link = Tilatietosivu
 error-something-went-wrong = Jokin meni pieleen
 error-title-404 = Sivua ei löytynyt
+error-title-500 = Jokin meni pieleen
 error-title-503 = Palvelussamme on suunnittelematon katko
+error-title-504 = Pyyntö aikakatkaistiin
 error-code = Virhe { $code }

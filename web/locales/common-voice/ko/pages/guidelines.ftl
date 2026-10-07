@@ -135,8 +135,23 @@ process-steps-explanation = 여러 단계를 나열해야 하는 질문입니다
 offensive-content-sensitive-information = 공격적인 내용 또는 민감한 정보
 offensive-content-sensitive-information-explanation-explanation-1 = 개인 식별 정보를 요구할 수 있는 질문
 offensive-content-sensitive-information-explanation-explanation-2 = 증오심 표현 또는 기타 편향되거나 공격적인 감정을 조장할 수 있는 질문
+offensive-content-sensitive-information-explanation-explanation-3 = 다른 사람이 민감한 내용을 공유하게 할 수 있는 질문으로 답변을 도용할 수 있음
+example-questions-subheader = 질문 예제
+example-questions-explanation-1 = <examplePromptsLink>이 시트에서 120개의 예제 프롬프트</examplePromptsLink>를 찾을 수 있습니다.
+example-questions-explanation-2 = 질문 목록을 업로드 하고 싶다면 <githubLink>GitHub</githubLink>를 통하거나 <emailFragment>commonvoice@mozilla.com</emailFragment>으로 메일을 보내주세요.
 
 ## Spontaneous Speech sidebar content
 
+# Answer Questions
+answer-questions = 질문 답하기
 answer-questions-subheader = 일반 지침
+answer-questions-tip-1 = 조용한 장소에서 녹음하세요
 transcribe-the-audio-subheader-1 = 일반 지침
+transcribe-the-audio-subheader-3 = 특수 태그
+tags-table-header-1 = 태그
+
+## Code-Switching
+
+# Answering a Question
+code-switching-answer-subheader = 질문에 답변하기
+code-switching-pronunciation-explanation-example-1 = 영어: /ˈkeɪ.bəl/

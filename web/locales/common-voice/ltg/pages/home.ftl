@@ -98,6 +98,9 @@ community-and-languages-menu-item-tooltip = Pīsavīnoj myusu kūpīnai i izzyno
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = Izvēlne, lai datyktu sadaļom Partneri, Prese i Stuosti, Kūpīna i Volūdys
+about-us-menu-aria-label = Īspiejis
+about-us-menu-item-aria-label = Par mums
 partnerships-menu-item-aria-label = Izzynojit vaira par sadarbeibu ar Common Voice
 press-and-stories-menu-item-aria-label = Īsapazeistit ar presis relizem i stuostim, kas saisteiti ar Common Voice
 community-and-languages-menu-item-aria-label = Izpietit Common Voice atbaļsteitū kūpīnu i volūdys
@@ -116,8 +119,11 @@ get-started = Suokt dorbu <icon><icon>
 action-items-section-title = Common Voice ir bezmoksys valeja pyrmkoda platforma kūpīnys vadeitai datu izveidei
 action-items-section-subtitle = Kotrys var saglobuot, atdzeivynuot i padareit lobuoku sovu volūdu, kūpeigojūt, veidojūt i puorbaudūt teksta i runys datu kūpys.
 scripted-card-header = Sagataveita runa
+scripted-card-content = Skaitit teikumus sovā volūdā i paleidzit veiduot leluokū kūpīnys radeitū runys datu kūpu pasaulī.
 spontaneous-card-header = Spontana runa
+spontaneous-card-content = Atsokit iz vaicuojumim, veidojūt dabiskys sarunvolūdys datu kūpu. Tei uzloboj runys atpazeišonys daudzpuseibu.
 language-text-card-header = Volūdys teksti
+language-text-card-content = Rodit datu vuokšonys vaicuojumus, teikumus tulkuošonai, nalelus volūdys modeļus i daudz kū cytu.
 coming-soon = Dreiži
 add-text = Dalikt tekstu
 answer = Atbiļde
@@ -130,6 +136,7 @@ join-discord-community = Pīsavīnuot Discord kūpīnai
 join-discord-community-action = Pīsavīnuot Discord
 join-discord-community-content = Pīsadolit volūdys kūpīnu diskusejuos, aizdūdit vaicuojumus i izzynojit par gaidomajim pasuokumim i prezentacejom.
 find-us-on-matrix = Meklej myus Matrix
+find-us-on-matrix-content-v2 = Matrix ir valejs, vīglys protokols decentralizātai reallaika saziņai i Mozilla īsokomuo valejūs diskuseju platforma. Mes atsarūnam "common-voice:mozilla.org" ustobā.
 # label for button
 find-us-on-element-action-1 = Elements
 find-us-on-matrix-action-2 = Cyti klienti
@@ -154,6 +161,8 @@ download-press-pack = Zamynluodejit myusu presis materialus <icon></icon>
 
 ## Developers section
 
+developers-section-title-202608 = Publiski daīmamys atvārtuos runys datu kūpys vaira nakai 330+ volūduos
+developers-section-subtitle-v2 = Datu kūpys ASR i cytim NLP aizdavumim – sataiseitys ar kūpīnys spākim.
 # icon is an arrow that points to the right
 explore-datasets = Izpietejit datu kūpys <icon></icon>
 
@@ -164,7 +173,7 @@ read-sentences-link = Skaitit teikumus
 validate-readings-link = Apstyprynojat īrunuotū
 contribute-link = Papyldynojat tekstu korpusu
 answer-questions-link = Atbiļdit iz vaicuojumim
-transcribe-answers-link = Puorrakstit atbiļdis
+transcribe-answers-link = Puorrokstit atbiļdis
 review-transcriptions-link = Puorsaverit pīraksteitū
 contribute-text-link = Īsnēdzit tekstu
 press-and-stories-link = Prese i stuosti

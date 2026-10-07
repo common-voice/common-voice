@@ -88,10 +88,10 @@ spontaneous-speech = گفتار فی‌البداهه
 
 ## MENU ITEMS TOOLTIPS
 
-about-menu-tooltip = شراکت‌ها، مطبوعات و داستان‌ها، جامعه و زبان‌ها
+about-menu-tooltip = شراکت‌ها، مطبوعات و داستان‌ها، اجتماع و زبان‌ها
 partnerships-menu-item-tooltip = سازمان‌های حامی آوای مشترک در سراسر جهان را بشناسید
 press-and-stories-menu-item-tooltip = داستان‌ها، به‌روزرسانی‌ها، و پوشش رسانه‌ای آوای مشترک را بخوانید
-community-and-languages-menu-item-tooltip = با جامعهٔ ما ارتباط گرفته و زبان‌های پشتیبانی‌شده را ببینید
+community-and-languages-menu-item-tooltip = با اجتماع ما ارتباط گرفته و زبان‌های پشتیبانی‌شده را ببینید
 
 ## MENU ITEM ARIA LABELS
 

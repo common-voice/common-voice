@@ -459,6 +459,16 @@ announcement-release = Sevgili topluluk üyeleri, yeni sürüm artık <mdcLink>M
 # Text wrapped in <cvDatasheetsLink></cvDatasheetsLink> will be rendered as an external link to the cv-datasheets GitHub repo
 announcement-pre-release = Sevgili topluluk, sürüm yayınlanma zamanı yaklaşıyor. Lütfen doğrulama ve transkripsiyon işlemlerini gerçekleştirin ve ayrıca <cvDatasheetsLink>cv-datasheets</cvDatasheetsLink> sayfasını ziyaret ederek veri sayfanızı güncelleyin.
 
+## Release Commencing
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-commencing = Değerli topluluğumuz, sürüm için belirlenen son tarihe ulaştık ve veri kümelerini paketliyoruz. Yeni sürüm birkaç gün içinde <mdcLink>Mozilla Data Collective</mdcLink> üzerinden kullanıma sunulacak.
+
+## Downtime Announcements
+
+# Generic scheduled downtime for next Sunday early hours
+announcement-scheduled-downtime = Değerli topluluğumuz, sistemlerimizi iyileştirmek için genellikle birkaç saat içinde tamamlanan kısa kesintiler planlıyoruz. Bir sonraki kesinti bu pazar günü erken saatlerde başlayacak. Bir sorunla karşılaşırsanız Matrix’te bize ulaşabilirsiniz.
+
 ## Common Language/Dataset Selector & SearchBox Related
 
 # Generic search box defaults
