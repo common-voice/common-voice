@@ -160,6 +160,9 @@ transcribe-the-audio-subheader-2 = Sayılar ve kısaltmalar
 transcribe-the-audio-subheader-3 = Özel etiketler
 transcribe-the-audio-subheader-4 = Kelime parçaları, yanlış başlangıçlar, tekrarlanan kelimeler
 transcribe-the-audio-subheader-5 = Dil bilgisi hataları ve günlük ifadeler
+transcribe-the-audio-subheader-1-explanation = Genel olarak, duyduğunuz her şeyi yazmalısınız. Bunlar:
+transcribe-the-audio-subheader-1-explanation-example-2 = Öksürme veya gülme gibi ses olaylarını etiketleme
+transcribe-the-audio-subheader-1-explanation-example-3 = Arka plandaki konuşmalar veya araba kornaları gibi önemli ses kirliliğini etiketleme
 transcribe-the-audio-subheader-1-explanation-example-4 = Dil kullanımındaki çeşitlilik ve argo olduğu gibi kaydedilmelidir. Kişilerin konuşmasını düzeltmeye çalışmayın.
 transcribe-the-audio-subheader-2-explanation-1 = Sayılar ve semboller harflerle açıkça yazılmalıdır. Rakam ve özel karakter kullanmaktan kaçının. Örnek:
 # text wrapped in correct will be shown as green text in the UI
