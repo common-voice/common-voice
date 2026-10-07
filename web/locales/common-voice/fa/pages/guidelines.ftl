@@ -140,8 +140,19 @@ example-questions-explanation-2 = اگر می‌خواهید مجموعه‌ای
 
 ## Spontaneous Speech sidebar content
 
+# Answer Questions
+answer-questions = به پرسش‌ها پاسخ دهید
+answer-questions-subheader = راهنمایی‌های عمومی
+transcribe-the-audio-subheader-1 = راهنمایی‌های عمومی
+transcribe-the-audio-subheader-3 = برچسب‌های ویژه
 tags-table-header-1 = برچسب
+tags-table-header-2 = معنی
 tags-noise = نویز
+
+## Review the Transcription
+
+review-the-transcription = بازبینی رونویسی‌ها
+review-the-transcription-subheader = راهنمایی‌های عمومی
 
 ## Code-Switching
 
