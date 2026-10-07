@@ -285,6 +285,7 @@ nqo = NKo
 nr = IsiNdebele (južny)
 nso = Sewjerna Sothošćina
 ny = Činjandźa
+nyb = Njagbo
 nyn = Nkorešćina
 nyu = Nyungwe
 oc = Okcitanšćina
