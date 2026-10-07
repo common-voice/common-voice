@@ -87,6 +87,15 @@ spontaneous-speech = WYPOWIEDŹ SPONTANICZNA
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = Współpraca, prasa i historie, społeczność i języki
+partnerships-menu-item-tooltip = Poznaj organizacje wspierające Common Voice na całym świecie
+press-and-stories-menu-item-tooltip = Przeczytaj artykuły, aktualności i relacje medialne na temat Common Voice
+community-and-languages-menu-item-tooltip = Dołącz do naszej społeczności i sprawdź dostępne języki
+
+## MENU ITEM ARIA LABELS
+
+about-menu-aria-label = Menu dostępu do sekcji Współpraca, Prasa i historie, Społeczność i języki
+press-and-stories-menu-item-aria-label = Przejdź do komunikatów prasowych i artykułów dotyczących Common Voice
+community-and-languages-menu-item-aria-label = Poznaj społeczność i języki obsługiwane przez Common Voice
 
 ## Hero section
 
