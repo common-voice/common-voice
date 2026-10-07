@@ -4,6 +4,7 @@ guidelines-header-subtitle = نحوه مشارکت و اعتبارسنجی جم�
 voice-collection = گردآوری صدا
 sentence-collection = گردآوری جمله
 question-collection = مجموعه سوالات
+dont-subheader = نکن
 
 ## Voice Collection nav ids
 
@@ -141,3 +142,131 @@ example-questions-explanation-2 = اگر می‌خواهید مجموعه‌ای
 
 tags-table-header-1 = برچسب
 tags-noise = نویز
+
+## Code-Switching
+
+code-switching-focus-emotional-explanation-example = «بگو وقتی خبر مهمت را به پدر و مادرت دادی چه گفتند؛ دقیقاً همان‌طور که گفتند.»
+code-switching-direct-quotes-header = نقل‌قول مستقیم یا بازسازی گفت‌وگو را بخواهید
+code-switching-direct-quotes-explanation = شرکت‌کنندگان را تشویق کنید چیزها را همان‌طور که واقعاً گفته شده بازگو کنند. مثال:
+code-switching-direct-quotes-explanation-example = «وقتی فهمیدی دقیقاً چه گفتی؟»
+code-switching-cultural-topics-header = موضوع‌های خاص فرهنگی انتخاب کنید
+code-switching-cultural-topics-explanation = غذا، آداب و رسوم، تعطیلات و روابط خانوادگی اغلب باعث جابه‌جایی میان زبان‌ها می‌شوند.
+code-switching-cultural-topics-explanation-example = «Día de los Muertos را چطور برای کسی توضیح می‌دهی که فقط انگلیسی حرف می‌زند؟»
+code-switching-informal-scenarios-header = موقعیت‌های غیررسمی را بررسی کنید
+code-switching-informal-scenarios-explanation = گفت‌وگو با دوستان یا پیام‌نویسی اغلب جابه‌جایی طبیعی‌تری میان زبان‌ها دارد. مثال:
+code-switching-informal-scenarios-explanation-example = «دوستانت همیشه چه شوخی‌ای می‌کنند و آن را چطور می‌گویند؟»
+# What to Avoid
+code-switching-avoid-subheader = از چه چیزهایی پرهیز کنید
+code-switching-avoid-intro = پرسش‌هایی که ممکن است:
+code-switching-avoid-1 = اطلاعات هویتی شخصی را طلب کنند
+code-switching-avoid-2 = سخنان نفرت‌آمیز یا دیدگاه‌های جانبدارانه یا توهین‌آمیز را طلب کنند
+code-switching-avoid-3 = باعث شوند کسی پاسخ‌های حساس یا آزارنده بدهد
+code-switching-dont-header = نکن
+code-switching-dont-1 = از زبان بیش از حد رسمی استفاده نکنید
+# Reviewing a Question
+code-switching-review-subheader = بازبینی یک پرسش
+code-switching-review-intro = مطمئن شوید پرسش این معیارها را دارد:
+code-switching-review-criterion-1 = به راحتی قابل فهم و پاسخ‌دادن باشد
+code-switching-review-criterion-2 = به طور کلی مرتبط باشد
+code-switching-review-criterion-3 = از زبان آسیب‌رسان یا توهین‌آمیز استفاده نکرده و چنین چیزی را هم درخواست نکند
+code-switching-review-does-not-header = و این موارد را <bold>ندارد</bold>:
+code-switching-review-offensive-content = <bold>محتوای توهین‌آمیز یا اطلاعات حساس</bold>
+code-switching-answer-header = محتوای توهین‌آمیز یا اطلاعات حساس
+code-switching-review-no-1 = پرسش‌هایی که ممکن است اطلاعات شخصی قابل شناسایی را درخواست کنند
+code-switching-review-no-2 = پرسش‌هایی که ممکن است باعث نفرت‌پراکنی یا ایجاد سایر احساسات مغرضانه یا توهین‌آمیز شوند
+code-switching-review-no-3 = پرسش‌های که ممکن است باعث شود کسی پاسخ‌های حساس و بالقوه تحریک‌آمیزی را به اشتراک بگذارد
+# Answering a Question
+code-switching-answer-subheader = پاسخ دادن به یک پرسش
+code-switching-answer-intro = هنگام پاسخ دادن به یک پرسش، هدف این است که طبیعی پاسخ دهید؛ درست مثل یک گفت‌وگوی واقعی. می‌خواهیم ثبت کنیم که زبان‌ها در گفتار روزمره واقعاً چطور با هم آمیخته می‌شوند.
+code-switching-answer-bullet-1 = به لحظه‌ها یا موقعیت‌های واقعی فکر کنید: شوخی‌ها، بحث‌ها، آداب و رسوم
+code-switching-answer-bullet-2 = تصور کنید دارید برای دوستی پیام می‌نویسید یا برای کسی داستانی تعریف می‌کنید
+code-switching-answer-bullet-3 = از واژه‌هایی استفاده کنید که واقعاً به کار می‌برید، حتی اگر قرضی یا آمیخته باشند
+code-switching-answer-bullet-4 = هیچ روش «بی‌نقصی» برای پاسخ دادن وجود ندارد
+code-switching-authentic-header = طبیعی و واقعی پاسخ دهید
+code-switching-authentic-speak = <bold>همان‌طور حرف بزنید که با دوستان یا خانواده حرف می‌زنید.</bold> اگر در زندگی واقعی زبان‌ها را با هم می‌آمیزید، اینجا هم همین کار را بکنید. مثال:
+code-switching-authentic-speak-example = “Pues I told her I couldn’t go, but she was like, ‘You better show up!’”
+code-switching-use-both-languages = <bold>اگر معمولاً همین‌طور حرف می‌زنید، از هر دو زبان استفاده کنید.</bold> حتی جابه‌جایی فقط یکی دو واژه هم مفید است. مثال:
+code-switching-use-both-languages-example = “She got really mad porque I didn’t call her back.”
+code-switching-authentic-direct-quotes = <bold>نقل‌قول مستقیم یا گفت‌وگو بیاورید.</bold> دقیقاً همان چیزی را بگویید که کسی گفته، نه نسخهٔ مرتب‌شده یا رسمی آن را. مثال:
+code-switching-authentic-direct-quotes-example = “Mi mamá dijo, ‘Tú crees que esto es un juego?’ and I was like, ‘Okay chill!’”
+code-switching-authentic-reflect = <bold>احساس، هویت و بافت را بازتاب دهید.</bold> جابه‌جایی میان زبان‌ها معمولاً وقتی رخ می‌دهد که مردم احساس، فوریت یا مفاهیم فرهنگی را بیان می‌کنند. هنگام پاسخ دادن به پرسش‌ها به این‌ها توجه کنید.
+code-switching-authentic-full-context = <bold>پاسخ‌های کامل و همراه با بافت بدهید.</bold> تا جایی که می‌توانید با جزئیات پاسخ دهید. در پاسخ‌هایتان داستان یا مثالی تعریف کنید.
+# Don’t Overthink or Overedit
+code-switching-answer-dont-subheader = بیش از حد فکر یا ویرایش نکنید
+code-switching-answer-dont-correct-language = <bold>زبانتان را «اصلاح» کنید.</bold> این یک آزمون نیست. شکل «درست» اینجا مهم نیست؛ زبان طبیعی مهم است.
+code-switching-answer-dont-avoid-switching = <bold>اگر معمولاً میان زبان‌ها جابه‌جا می‌شوید، از آن پرهیز کنید.</bold> جابه‌جایی وسط جمله، وسط فکر یا فقط برای یک واژه اشکالی ندارد.
+code-switching-answer-dont-formal-writing = <bold>طوری حرف بزنید که انگار رسمی می‌نویسید.</bold> از پاسخ‌های رسمی و دانشگاهی پرهیز کنید. محاوره‌ای حرف بزنید.
+code-switching-answer-dont-force-switch = <bold>اگر طبیعی نیست، به زور جابه‌جا شوید.</bold> فقط وقتی جابه‌جا شوید که در آن موقعیت به‌طور طبیعی همین‌طور حرف می‌زنید.
+code-switching-answer-dont-translate-repeat = <bold>همه‌چیز را ترجمه یا تکرار کنید.</bold> فقط یک بار بگویید، همان‌طور که در گفت‌وگو پیش می‌آید. لازم نیست پاسخ را به هر زبان جداگانه بگویید.
+# Transcribing
+code-switching-transcribe-subheader = رونویسی
+code-switching-transcribe-intro = هنگام رونویسی پاسخ‌هایی که جابه‌جایی میان زبان‌ها دارند، زبان گوینده را همان‌طور که گفته شده بنویسید؛ بدون اصلاح، ویرایش یا ساده‌سازی. این شامل همهٔ جابه‌جایی‌های میان زبان‌ها، گفتار غیررسمی و واژه‌های آمیخته می‌شود.
+code-switching-transcribe-do-1 = بخش‌های کوتاه را چند بار پخش کنید تا جابه‌جایی‌های ظریف را بشنوید
+code-switching-transcribe-do-2 = پس از هر جمله مکث کنید تا جابه‌جایی‌ها یا واژه‌های آمیخته را دوباره بررسی کنید
+# Capture Speech Exactly as Spoken
+code-switching-capture-header = گفتار را دقیقاً همان‌طور که گفته شده بنویسید
+code-switching-capture-explanation = هر دو زبان را همان‌طور که دیده یا شنیده می‌شوند رونویسی کنید. زبان را «درست» نکنید یا آن را به یک زبان تبدیل نکنید.
+# Include filler words and markers
+code-switching-filler-header = واژه‌های پرکننده و نشانه‌ها را هم بنویسید
+code-switching-filler-explanation = واژه‌هایی مثل «um»، «like»، «pues»، «you know» و «entonces» معنادارند. مثال: “So, um, I told her like, ‘pues no sé, maybe later.’”
+# Use standard spelling for each language
+code-switching-spelling-header = برای هر زبان از املای معیار استفاده کنید
+code-switching-spelling-explanation = سعی کنید واژه‌ها را با املای درست هر زبان بنویسید، مگر اینکه گوینده آشکارا آن‌ها را غیرمعیار تلفظ کند.
+# Don’t Clean Up or Simplify the Language
+code-switching-cleanup-header = زبان را مرتب یا ساده نکنید
+code-switching-cleanup-1 = ترجمه یا بازنویسی کنید؛ چیزی را بنویسید که گوینده گفته، نه آنچه «منظورش» بوده.
+code-switching-cleanup-2 = دستور زبان یا تلفظ را «اصلاح» کنید؛ کاربرد طبیعی گوینده را حفظ کنید.
+code-switching-cleanup-3 = از جابه‌جایی‌هایی که جزئی یا کوچک به نظر می‌رسند بگذرید؛ حتی واژه‌های قرضی هم مهم‌اند.
+code-switching-cleanup-4 = نشانه‌گذاری‌ای اضافه کنید که ممکن است معنا را تغییر دهد؛ روند طبیعی را حفظ کنید.
+code-switching-cleanup-5 = فرض کنید زبان همهٔ واژه‌ها را می‌دانید؛ بر اساس کاربرد برچسب بزنید.
+# Tagging
+code-switching-tagging-subheader = برچسب‌گذاری
+code-switching-tagging-error-intro = اگر رونویسی خطایی دارد، لطفاً با قابلیت گزارش آن را علامت بزنید. خطاهای احتمالی عبارت‌اند از:
+code-switching-tagging-error-1 = نشانه‌گذاری یا حروف بزرگ نادرست
+code-switching-tagging-error-2 = غلط‌های تایپی
+code-switching-tagging-error-3 = واژه‌هایی که با خط یا املای نادرست نوشته شده‌اند
+# Using Correct Orthography for Each Language
+code-switching-orthography-header = استفاده از املای درست برای هر زبان
+code-switching-orthography-explanation = هر واژه را طبق املای زبانی بنویسید که از آن آمده است. برای مثال:
+code-switching-orthography-explanation-example-1 = اگر واژهٔ «kitchen» با تلفظ اسپانیایی ادا شود، باید به املای انگلیسی نوشته شود، نه «quichen».
+code-switching-orthography-explanation-example-2 = اگر واژهٔ quinceaños با تلفظ انگلیسی ادا شود، آن را با ñ بنویسید.
+# Use Pronunciation to Help Determine the Language
+code-switching-pronunciation-header = برای تشخیص زبان از تلفظ کمک بگیرید
+code-switching-pronunciation-explanation = برخی واژه‌ها ممکن است در هر دو زبان یکسان به نظر برسند، اما تلفظ متفاوتی داشته باشند. برای برچسب‌گذاری درست به تلفظ گوش دهید. برای مثال: cable، taco، actor، detective.
+code-switching-pronunciation-explanation-example-1 = انگلیسی: /ˈkeɪ.bəl/
+code-switching-pronunciation-explanation-example-2 = اسپانیایی: /ˈkable/
+# Tagging in a Single Token
+code-switching-single-token-header = برچسب‌گذاری در یک نشانهٔ واحد
+code-switching-single-token-explanation = یک نشانهٔ واحد (جداشده با فاصله) باید بیش از یک بخش برچسب‌خورده داشته باشد.
+# Tag Punctuation Based on Nearby Language
+code-switching-punctuation-tagging-header = نشانه‌گذاری را بر اساس زبان مجاور برچسب بزنید
+code-switching-punctuation-tagging-explanation = نشانه‌گذاری را با زبان نزدیک‌ترین بخش در سمت چپ آن برچسب بزنید. مثال‌ها:
+# text wrapped in purple and blue will be shown with a purple and blue background in the UI respectively
+code-switching-punctuation-tagging-explanation-example-1 = <purple>and the one time that</purple> Maria <purple>screamed at me was</purple> <blue>porque</blue> <purple>she was trying to to</purple> printear <blue>un</blue> <purple>order.</purple> (BangorTalk)
+code-switching-punctuation-tagging-explanation-example-2 = <purple>but</purple> <blue>tú los puedes comprar rojo, negro, azul</blue>, <purple>whatever.</purple> (BangorTalk)
+# Be Careful with Lookalikes
+code-switching-lookalikes-header = مراقب واژه‌های شبیه به هم باشید
+code-switching-lookalikes-explanation = برخی واژه‌ها ممکن است به یک زبان شبیه باشند اما در زبان دیگر به کار روند. بر اساس معنا و کاربرد برچسب بزنید، نه ظاهر. مثال‌ها:
+code-switching-lookalikes-explanation-example-1 = «Footing» به معنای دویدن در اسپانیایی > برچسب اسپانیایی
+code-switching-lookalikes-explanation-example-2 = «No problemo» در انگلیسی > برچسب انگلیسی
+# When Not to Tag Words
+code-switching-not-tag-header = چه وقت واژه‌ها را برچسب نزنیم
+code-switching-not-tag-explanation = برخی واژه‌ها <bold>نباید</bold> برچسب زبان بخورند، حتی اگر آمیخته یا تطبیق‌یافته به نظر برسند. روش برخورد با چند نمونه:
+code-switching-not-tag-proper-names = <bold>نام‌های خاص.</bold> نام افراد، مکان‌ها و سازمان‌ها نباید برچسب بخورند. مثال‌ها:
+code-switching-not-tag-proper-names-example-1 = افراد: Maria، John
+code-switching-not-tag-proper-names-example-2 = مکان‌ها: Los Angeles، Florida
+code-switching-not-tag-proper-names-example-3 = برندها/سازمان‌ها: Target، Burger King
+code-switching-not-tag-mixed-words = <bold>واژه‌های آمیخته یا از نظر ساختواژی تطبیق‌یافته.</bold> واژه‌هایی را که زبان‌ها را با هم می‌آمیزند یا پسوندی از زبان دیگر گرفته‌اند برچسب نزنید. مثال‌ها:
+code-switching-not-tag-mixed-words-example = وقتی ریشه انگلیسی است اما پسوند اسپانیایی: «parkear»، «printearlo»
+code-switching-not-tag-interjections = <bold>صوت‌ها.</bold> صوت‌ها و واژه‌های پرکننده، به هر زبانی که باشند، باید <bold>بدون برچسب</bold> بمانند. مثال‌ها:
+code-switching-not-tag-interjections-example-1 = "Eh”
+code-switching-not-tag-interjections-example-2 = “No”
+code-switching-not-tag-interjections-example-3 = “Yeah”
+code-switching-not-tag-interjections-example-4 = “Er”
+
+## Reporting Content
+
+reporting-content = گزارش محتوا
+reporting-content-subheader = راهنمایی‌های عمومی
+reporting-content-explanation-1 = باید محتوایی را که توهین‌آمیز، زیان‌بار یا به هر شکلی نگران‌کننده است علامت بزنید. محتوا همچنین نباید هیچ اطلاعات هویتی شخصی مثل شماره تلفن یا نشانی داشته باشد. این محتوا تا زمانی که تیم Common Voice آن را بازبینی و بیشتر بررسی کند، از تجربهٔ شما حذف می‌شود.
+reporting-content-explanation-2 = برای گزارش محتوا، دکمهٔ «گزارش» را انتخاب کنید و یک یا همهٔ گزینه‌ها را برگزینید: محتوای توهین‌آمیز، زبان متفاوت، اطلاعات هویتی شخصی، سایر. سپس در کادر متن توضیح دهید چرا این محتوا را گزارش می‌کنید. در پایان با کلیک روی دکمهٔ «گزارش»، آن را ارسال کنید.
