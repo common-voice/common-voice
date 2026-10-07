@@ -285,6 +285,7 @@ nqo = NKo
 nr = Jižní ndebelština
 nso = Severní Sotho
 ny = Chinjanja
+nyb = Nyagbo
 nyn = Runyankole
 nyu = Nyungwe
 oc = Okcitánština
