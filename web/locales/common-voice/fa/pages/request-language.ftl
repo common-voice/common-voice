@@ -38,8 +38,21 @@ need-help-deciding-platform-explanation-1 = <strong>گفتار از پیش نو�
 need-help-deciding-platform-explanation-2 = <strong>گفتار خودجوش یا فی‌البداهه</strong> بخش جدیدی از آوای مشترک است که در آن می‌توانید به شیوهٔ طبیعی و محاوره‌ای‌تری به سوالات پاسخ دهید.
 need-help-deciding-platform-explanation-3 = اگر زبان خود را در هیچ یک از بخش‌های این سکو نمی‌بینید، هر دو را انتخاب کنید.
 request-language-search-bar = می‌توانید وارد کردن نام زبان خود را در اینجا آغاز کنید؛ اگر هنوز در آوای مشترک موجود نیست، قادر خواهید بود فرمی را با اطلاعات زبان خود تکمیل کنید.
+request-language-found-pontoon-not-launched =
+    زبان شما از قبل در فهرست زبان‌های آوای مشترک قرار دارد. 
+    شما می‌توانید با بومی‌سازی رابط کاربری سکو در <pontoonLink>اینجا</pontoonLink>، فرآیند راه‌اندازی 
+    این زبان را در <strong>گفتار نوشته‌شده</strong> تسهیل کنید. رابط کاربری باید تا ۶۰ درصد بومی‌سازی شود، 
+    یا در حالت جایگزین، می‌توانید صرفاً رشته‌های پایه‌ای را در مسیر ‘web/locales/en/pages/contribute/*.ftl’ به صورت ۱۰۰ درصد
+    بومی‌سازی کنید (پنج پرونده از این نوع وجود دارد) تا رابط کاربری به طور خودکار راه‌اندازی شود.
 request-language-found-cv-contribution =
     هورا! زبان شما از قبل در <strong>گفتار نوشتاری</strong> آوای مشترک به‌کار گرفته شده است.
     می‌توانید <homePageLink>اینجا</homePageLink> مشارکت کنید.
+request-language-found-cv-sentences-lack =
+    زبان شما از قبل در فهرست زبان‌های آوای مشترک قرار دارد. 
+    شما می‌توانید با ارائه جملات در <sentencesContributionLink>اینجا</sentencesContributionLink>، 
+    فرآیند راه‌اندازی این زبان را در <strong>گفتار نوشته‌شده</strong> تسهیل کنید.
+request-language-found-spontaneous-speech =
+    زبان شما از قبل در بخش <strong>گفتار نوشته‌شده</strong> آوای مشترک به‌کار گرفته شده است. 
+    برای مشارکت، <spontaneousSpeechLink>اینجا</spontaneousSpeechLink> کلیک کنید، فقط فراموش نکنید که پیش از شروع، زبان مشارکت یا مجموعه‌داده را تغییر دهید!
 request-language-already-available-scs = گفتار نوشتاری از قبل در دسترس است
 request-language-already-available-sps = گفتار فی‌البداهه از قبل در دسترس است
