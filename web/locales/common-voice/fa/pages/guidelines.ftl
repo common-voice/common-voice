@@ -201,9 +201,9 @@ code-switching-authentic-speak-example = «خب، بهش گفتم که نمی‌
 code-switching-use-both-languages = <bold>اگر معمولاً همین‌طور حرف می‌زنید، از هر دو زبان استفاده کنید.</bold> حتی جابه‌جایی فقط یکی دو واژه هم مفید است. مثال:
 code-switching-use-both-languages-example = «واقعاً عصبانی شد که چرا دوباره بهش زنگ نزدم.»
 code-switching-authentic-direct-quotes = <bold>نقل‌قول مستقیم یا گفت‌وگو بیاورید.</bold> دقیقاً همان چیزی را بگویید که کسی گفته، نه نگارش مرتب‌شده یا رسمی آن را. مثال:
-code-switching-authentic-direct-quotes-example = “Mi mamá dijo, ‘Tú crees que esto es un juego?’ and I was like, ‘Okay chill!’”
-code-switching-authentic-reflect = <bold>احساس، هویت و بافت را بازتاب دهید.</bold> جابه‌جایی میان زبان‌ها معمولاً وقتی رخ می‌دهد که مردم احساس، فوریت یا مفاهیم فرهنگی را بیان می‌کنند. هنگام پاسخ دادن به پرسش‌ها به این‌ها توجه کنید.
-code-switching-authentic-full-context = <bold>پاسخ‌های کامل و همراه با بافت بدهید.</bold> تا جایی که می‌توانید با جزئیات پاسخ دهید. در پاسخ‌هایتان داستان یا مثالی تعریف کنید.
+code-switching-authentic-direct-quotes-example = «مامانم گفت، 'فکر می‌کنی این یه بازیه؟' گفتم، 'آها باشه'»
+code-switching-authentic-reflect = <bold>احساس، هویت و بافت را بازتاب دهید.</bold> جابه‌جایی میان زبان‌ها معمولاً وقتی رخ می‌دهد که مردم ابراز احساس یا مفاهیم فرهنگی را بیان می‌کنند. هنگام پاسخ دادن به پرسش‌ها به این‌ها توجه کنید.
+code-switching-authentic-full-context = <bold>از پاسخ‌های کامل همراه با متن استفاده کنید.</bold> تا جایی که می‌توانید با جزئیات پاسخ دهید. در پاسخ‌هایتان داستان یا مثالی تعریف کنید.
 # Don’t Overthink or Overedit
 code-switching-answer-dont-subheader = بیش از حد فکر یا ویرایش نکنید
 code-switching-answer-dont-correct-language = <bold>زبانتان را «اصلاح» کنید.</bold> این یک آزمون نیست. شکل «درست» اینجا مهم نیست؛ زبان طبیعی مهم است.
