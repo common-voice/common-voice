@@ -3,7 +3,7 @@ action-tap = ضربه بزنید
 contribute = مشارکت
 review = بازبینی
 skip = رد کردن
-shortcuts = میانبرها
+shortcuts = میان‌برها
 clips-with-count-pluralized =
     { $count ->
         [one] <bold>{ $count }</bold> صدا
