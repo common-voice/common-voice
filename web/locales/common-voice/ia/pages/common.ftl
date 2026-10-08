@@ -285,6 +285,7 @@ nqo = NKo
 nr = IsiNdebele (sud)
 nso = sotho del nord
 ny = Chinyanja
+nyb = Nyangbo
 nyn = Nyankole
 nyu = Nyungwe
 oc = Occitano
