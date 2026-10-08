@@ -1,6 +1,6 @@
 ## Validate Page
 
-validate-page-instruction = Тергегъиз <validateIcon></validateIcon>, бу соравлар тюз кюйдегими?
+validate-page-instruction = Тергегъиз <validateIcon></validateIcon> бу соравлар тюз кюйдегими?
 dataset-label = Язувлар
 accept-vote-toast-message = Сорав алынды
 reject-vote-toast-message = Сорав тайдырылды
@@ -14,3 +14,7 @@ validate-page-skip-button-shortcut = S
 ## Validation guidelines
 
 validation-guidelines-title = Тюз кюй
+validation-guideline-1 = Сорамагъа бирёвни яшырылгъан затларын ярамай (атларын, агъчасын)
+validation-guideline-2 = Писс сёзлер, адамгъа тийегъен соравлар соромагъа ярамай
+validation-guideline-3 = Гьар кимге англамагъа тыныч
+validation-guideline-4 = Бир-эки сёзмен айтмагъа ярай
