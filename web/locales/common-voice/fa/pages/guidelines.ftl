@@ -4,6 +4,7 @@ guidelines-header-subtitle = نحوه مشارکت و اعتبارسنجی جم�
 voice-collection = گردآوری صدا
 sentence-collection = گردآوری جمله
 question-collection = مجموعه سوالات
+scripted-speech = گفتار نوشته‌شده
 dont-subheader = نکن
 
 ## Voice Collection nav ids

@@ -37,3 +37,9 @@ need-help-deciding-platform = برای تصمیم‌گیری در مورد ان�
 need-help-deciding-platform-explanation-1 = <strong>گفتار از پیش نوشته شده</strong> (که به طور سنتی آن را با نام آوای مشترک می‌شناسید) روشی است که در آن می‌توانید جملات را با صدای بلند به زبان خود بخوانید.
 need-help-deciding-platform-explanation-2 = <strong>گفتار خودجوش یا فی‌البداهه</strong> بخش جدیدی از آوای مشترک است که در آن می‌توانید به شیوهٔ طبیعی و محاوره‌ای‌تری به سوالات پاسخ دهید.
 need-help-deciding-platform-explanation-3 = اگر زبان خود را در هیچ یک از بخش‌های این سکو نمی‌بینید، هر دو را انتخاب کنید.
+request-language-search-bar = می‌توانید وارد کردن نام زبان خود را در اینجا آغاز کنید؛ اگر هنوز در آوای مشترک موجود نیست، قادر خواهید بود فرمی را با اطلاعات زبان خود تکمیل کنید.
+request-language-found-cv-contribution =
+    هورا! زبان شما از قبل در <strong>گفتار نوشتاری</strong> آوای مشترک به‌کار گرفته شده است.
+    می‌توانید <homePageLink>اینجا</homePageLink> مشارکت کنید.
+request-language-already-available-scs = گفتار نوشتاری از قبل در دسترس است
+request-language-already-available-sps = گفتار فی‌البداهه از قبل در دسترس است

@@ -104,6 +104,7 @@ hero-title = فناوری‌ای که به زبان شما صحبت می‌کن�
 
 ## Action items section
 
+scripted-card-header = گفتار نوشته‌شده
 language-text-card-header = متن زبان
 coming-soon = به زودی
 add-text = افزودن متن
