@@ -35,6 +35,8 @@ subscribe = Berlangganan
 get-started-speech = Memulai dengan Pengenalan Wicara
 other-datasets = Set Data Suara Lain
 feedback-q = Punya Saran?
+# This indicates that there is no data to display
+no-information = Tidak ada informasi
 data-other-librispeech-description = LibriSpeech adalah sebuah korpus berdurasi sekitar 1000 jam dengan pembacaan teks berbahasa Inggris dalam frekuensi 16Khz yang berasal dari pembacaan buku audio dari proyek LibriVox.
 data-other-ted-name = TED-LIUM Corpus
 data-other-ted-description = Korpus TED-LIUM dibangun dari perbincangan audio dan naskah salinannya yang tersedia di situs web TED.
@@ -48,6 +50,10 @@ ready-to-validate = Siap membantu validasi kalimat?
 more = Lainnya
 download = Unduh
 dataset-version = Versi
+sha256-checksum-copied = Checksum SHA256 Disalin!
+sha256-checksum-copied-error = Gagal menyalin Checksum SHA256
+clipboard-not-supported = Papan klip tidak didukung
+no-information-available = Tidak ada informasi tersedia
 # dataset metadata - age of contributor
 dataset-metadata-age = Usia
 dataset-donate-modal-heading = Tahukah Anda…
@@ -70,3 +76,6 @@ release-version = Versi
 dataset-date = Tanggal
 license = Lisensi: <licenseLink>{ $license }</licenseLink>
 license-mixed = Campuran
+# Support old genders in older datasets
+male = Pria
+female = Wanita
