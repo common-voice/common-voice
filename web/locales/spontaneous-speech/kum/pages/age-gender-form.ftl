@@ -3,5 +3,6 @@ age-gender-form-title = Эркин сёйлешивге кёмек этгенг�
 age-gender-form-subtile = Оьзюгъюзчюн айтсагъыз, бу авзатны гьар кимге тыныч этмеге кёмек этеджекзис
 add-information-button = Язув къошугъыз
 continue-speaking-button = Сёйлемеге гьетдикь
-age-select-label = Сизни яшыгъыз нече?
+age-select-label = Сизин йилыгъыз нече?
 select-your-age = Йылыгъызны салыгъыз
+gender-select-label = Сиз ким боласыз? Къыз яда яш?
