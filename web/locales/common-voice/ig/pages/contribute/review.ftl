@@ -14,6 +14,7 @@ sc-review-form-source = Ísí ḿmàlíté: { $sentenceSource }
 sc-review-form-button-reject = Jụ́
 sc-review-form-button-skip = Máfèé
 sc-review-form-button-approve = Kwàdó
+sc-review-form-keyboard-usage-custom = I nwekwara ike iji Shọtkọt Kịịbọọdu: { sc-review-form-button-approve-shortcut } ịnabata, { sc-review-form-button-reject-shortcut } ịjụ, { sc-review-form-button-skip-shortcut } iwụpụ
 sc-review-form-button-submit =
     .submitText = M̀echáá Nyòcháá
 sc-review-form-review-failure = È nwéghị́ íké ị́chēkwá ńyòchá . Bíkō nwàá ọ̀zọ́ m̀gbé ọ̀zọ́.
