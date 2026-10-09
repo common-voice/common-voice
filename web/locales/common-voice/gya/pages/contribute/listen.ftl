@@ -10,3 +10,9 @@ listen-loading-error = Ɛɛ kpá ó tí-gɛ́r wěn hʼɛ́nɛ́ mɛ zíí
 listen-abort-title = Kaɗi kɔ̀ɔ̧́ɗɔ̀ɔ́tom ko o-hokawi nde ?
 listen-abort-cancel = Nɛ́-siti tɛ nɛ kɔ̀ɔ̧́ɗɔ̀ɔ́tom
 listen-abort-confirm = Kaɗi kɔ̀ɔ̧́ɗɔ̀ɔ́tom
+# Menu item
+validate-readings = Kpɛ́ka tɔ́rá
+
+## MENU ITEM TOOLTIPS
+
+listen-contribute-menu-tooltip = Kpɛ́ká Tɔrá-mɔ, Zɔ́ká doŋ yɔ́rá-mɔ
