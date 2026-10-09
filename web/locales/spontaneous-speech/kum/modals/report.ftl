@@ -11,3 +11,11 @@ personally_identifiable_information-detail = Мында бирёвни яшыр�
 personally_identifiable_information-answer-detail = Бу ерде адамны яшырылгъан затларын сорайлар (адамны: атын, авкагъызын, турагъан ерин, кагъыз номерин яда сёйлешив санавун)
 report-other-comment =
     .placeholder = Язув
+# Label for textarea in report modal
+other = Башгъасы
+report-error = Арызны йиверегенде иш тюз гьетмеди
+# Label for Continue button in Report modal to indicate that the user wants to continue contributing after reporting
+continue = Гьетдикь
+# Header for report modal after successful reporting
+success = Болду
+report-success-message = Арз йиверилди
