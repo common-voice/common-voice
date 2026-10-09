@@ -18,3 +18,7 @@ thank-you-for-your-information = Язувларыгъызчун савболуг
 
 male_masculine = Яш
 female_feminine = Къыз
+intersex = Эки де кюю бар
+transgender = тюрлюсю
+non-binary = Эки де тюгюл
+do_not_wish_to_say = Айтмагъа сюймеймен
