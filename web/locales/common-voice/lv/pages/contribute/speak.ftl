@@ -14,6 +14,12 @@ record-error-too-long = Ieraksts bija pārāk garš.
 record-error-too-quiet = Ieraksts bija pārāk kluss.
 record-error-empty-recording = Ierakstā nav skaņas. Lūgums pārbaudīt savu mikrofonu un mēģināt vēlreiz.
 record-error-unknown-format = Nevarēja noteikt skaņas veidolu. Lūgums mēģināt izmantot citu pārlūku.
+record-error-uploaded-clip-corrupted =
+    Šķiet, ka audio ieraksts ir bojāts. Tas var notikt šādu iemeslu dēļ:
+    • sarežģījumi ar pārlūka saderību (jāmēģina izmantot citu pārlūku);
+    • mikrofona vai skaņas dziņa nebūšanas;
+    • tīkla savienojuma pārtraukumi ierakstīšanas laikā.
+    Lūgums mēģināt ierakstīšanu vēlreiz.
 record-cancel = Atcelt atkārtotu ierakstīšanu
 record-instruction = { $actionType }<recordIcon></recordIcon> pēc tam skaļi nolasi teikumu
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> kad viss gatavs

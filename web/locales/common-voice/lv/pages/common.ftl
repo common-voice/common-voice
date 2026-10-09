@@ -403,6 +403,7 @@ var = Huarijio
 ve = Tshivenda
 vec = Venēciešu
 vi = Vjetnamiešu
+vls = Rietumflāmu
 vmw = Emakhuwa
 vot = Votisku
 wbl = Wakhi
