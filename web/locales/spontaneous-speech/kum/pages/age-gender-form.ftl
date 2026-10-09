@@ -4,3 +4,4 @@ age-gender-form-subtile = Оьзюгъюзчюн айтсагъыз, бу авз
 add-information-button = Язув къошугъыз
 continue-speaking-button = Сёйлемеге гьетдикь
 age-select-label = Сизни яшыгъыз нече?
+select-your-age = Йылыгъызны салыгъыз
