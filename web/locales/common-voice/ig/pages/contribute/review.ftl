@@ -39,3 +39,8 @@ sc-criteria-item-3 = Áhị́rị́ókwū áhụ̀ gà-àbụ́rị́rị�
 sc-criteria-item-4 = Ọ́bụ́rụ́ nà áhị́rị́ókwū áhụ̀ dábàrà n'ùsòrò, pị̀á &quot;ákàrà Kwàdó&quot; n'áká ńrī.
 sc-criteria-item-5-2 = Ọ́ bụ́rụ́ nà áhị́rị́ókwū áhụ̀ émēzùghị̀ íhé ńdị́ à dị́ n'élū, pị̀á &quot;ákàrà jụ̀ọ́&quot; dí n'áká èkpè. Ọ́bụ́rụ́ nà ị̀mághị́ màkà áhị́rị́ókwú áhụ̀, ị́ nwèkwàrà íké ị́māfè yá wèé gáá nà ǹkè nà-ésòté.
 sc-criteria-item-6 = Ọ́bụ́rụ́ n'áhị́rị́ókwū àgwụ́lá ínyọ̀chà, bíkō nyèrè ányị́ áká ị́nākọ̀tà áhị́rị́ókwū ńdị́ ọ̀zọ́!
+# <icon></icon> will be replace with an icon that represents review
+sc-review-instruction = Lelee <icon></icon> nke a ọ̀ bụ ahịrịokwu ziri ezi n'asụsụ?
+sc-review-rules-title = Ahịrịokwu ahụ ò kwekọrọ na ntuziaka ndị a?
+sc-review-empty-state = E nweghị ahịrịokwu ọ bụla a ga-enyocha n'asụsụ a ugbu a.
+report-sc-different-language = Asụsụ dị iche
