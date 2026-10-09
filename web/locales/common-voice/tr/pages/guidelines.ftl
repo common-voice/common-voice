@@ -165,6 +165,7 @@ transcribe-the-audio-subheader-1-explanation-example-2 = Öksürme veya gülme g
 transcribe-the-audio-subheader-1-explanation-example-3 = Arka plandaki konuşmalar veya araba kornaları gibi önemli ses kirliliğini etiketleme
 transcribe-the-audio-subheader-1-explanation-example-4 = Dil kullanımındaki çeşitlilik ve argo olduğu gibi kaydedilmelidir. Kişilerin konuşmasını düzeltmeye çalışmayın.
 transcribe-the-audio-subheader-2-explanation-1 = Sayılar ve semboller harflerle açıkça yazılmalıdır. Rakam ve özel karakter kullanmaktan kaçının. Örnek:
+transcribe-the-audio-subheader-2-explanation-2 = Kısaltmalar dilde normal şekilde yazıldığı gibi, standart büyük-küçük harf kullanımı kurallarına göre yazılmalıdır. Fonetik olarak yazıya dönüştürülmemelidirler. Örnek:
 # text wrapped in correct will be shown as green text in the UI
 transcribe-the-audio-subheader-2-example-1-correct = <correct> Doğru</correct>: Buradan yüz kilometre uzakta
 # text wrapped in wrong will be shown as red text in the UI
