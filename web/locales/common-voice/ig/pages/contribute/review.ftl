@@ -17,6 +17,14 @@ sc-review-form-button-approve = Kwàdó
 sc-review-form-keyboard-usage-custom = I nwekwara ike iji Shọtkọt Kịịbọọdu: { sc-review-form-button-approve-shortcut } ịnabata, { sc-review-form-button-reject-shortcut } ịjụ, { sc-review-form-button-skip-shortcut } iwụpụ
 sc-review-form-button-submit =
     .submitText = M̀echáá Nyòcháá
+# Variables:
+#   $sentences (Number) - Number of sentences the user has reviewed in this session
+sc-review-form-reviewed-message =
+    { $sentences ->
+        [0] E nweghị ahịrịokwu a na-enyocha.
+        [one] e nyochaala otu ahịrịokwu. Daalụ!
+       *[other] e nyochaala ahịrịokwu { $sentences }. Daalụ!
+    }
 sc-review-form-review-failure = È nwéghị́ íké ị́chēkwá ńyòchá . Bíkō nwàá ọ̀zọ́ m̀gbé ọ̀zọ́.
 sc-review-link = Ńyọ̀chághárí
 
