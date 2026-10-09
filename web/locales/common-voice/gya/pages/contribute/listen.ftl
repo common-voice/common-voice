@@ -7,7 +7,7 @@ listen-last-time-instruction = <playIcon></playIcon>Sɔŋkur-aa
 listen-empty-state = Tom ʼí yɔ́ - ɛ́nɛ́ ɛ́k fara tom, kó ɛ́nɛ́ píí ɗoŋ mɔ déé pkáá.
 listen-empty-state-variants = Wár tɔ̀ɔ̧́ nú k'ɛ́nɛ́ a̧a̧ mŋa fara nɛ tɛ̀. Kʼɛ́nɛ́ kɔ̀ɔ̀, ɛ́nɛ́ nyɛ́ma mɛ kpai nú. Ɛ́nɛ́ tɛ zók yɔ́ra-mɔɔ nɛ nú kʼɛ́nɛ́.
 listen-loading-error = Ɛɛ kpá ó tí-gɛ́r wěn hʼɛ́nɛ́ mɛ zíí na. Ɛ́nɛ́ píí ɗoŋ tíkíɗí.
-listen-abort-title = Kaɗi kɔ̀ɔ̧́ɗɔ̀ɔ́tom ko o-hokawi nde ?
+listen-abort-title = Káɗá kpɛ́ká tí-gɛ́r?
 listen-abort-cancel = Nɛ́-siti tɛ nɛ kɔ̀ɔ̧́ɗɔ̀ɔ́tom
 listen-abort-confirm = Kaɗi kɔ̀ɔ̧́ɗɔ̀ɔ́tom
 # Menu item
