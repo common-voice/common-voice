@@ -27,3 +27,13 @@ cs-no-audio-continue-skipped-message = Бу язувларда гьали яза
 ## Review Page Items
 
 cs-no-transcriptions-continue-skipped = Бу тилде гьали тергейген сёзню кюю ёкъ. Сиз бирзатны оттугъуз буса, сиз боласыз къарамагъа отгъен сёзлерге, яда къарамагъа Языв кюйге, сонг къарап отгъан сёзлерге.
+
+## Tag Page Items
+
+cs-no-transcriptions-to-tag-continue-skipped = Бу язувларда гьали туттурагъан сёзню кюю ёкъ. Сиз бирзатны оттугъуз буса, сиз боласыз къарамагъа отгъен сёзлерге, яда къарамагъа Языв кюйге, сонг дагъы да бир керен къарамагъа.
+cs-tag-dataset-name = Язувлар: { $datasetName }
+
+## Guidelines
+
+learn-how-to-use = Нечик ишлемеге герек къарагъыз
+read-full-guidelines-here = <guidanceLink>Гьар тюз кюйлерин мында къарагъыз</guidanceLink>
