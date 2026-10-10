@@ -9,7 +9,7 @@ why-card-1-text = برای <mark>زمینه‌های گفتار طبیعی</mark
 # text wrapped with <mark></mark> will have a light red background
 why-card-2-text = پشتیبانی بهتر از واقعیت‌های زبانی مانند چندزبانه‌بودن و <mark>تعویض کد</mark>
 # text wrapped with <mark></mark> will have a light red background
-why-card-3-text = پشتیبانی بهتر از زبان‌هایی که پیکرهٔ متنی کمی دارند یا <mark>اصلاً پیکرهٔ متنی ندارند</mark> (مثلاً گونه‌های اجتماعی، گویش‌ها، زبان‌هایی که در طول تاریخ خط نداشته‌اند و غیره)
+why-card-3-text = پشتیبانی بهتر از زبان‌هایی که پیکرهٔ واژگانی کمی دارند یا <mark>اصلاً پیکرهٔ متنی ندارند</mark> (مثلاً گونه‌های اجتماعی، گویش‌ها، زبان‌هایی که در طول تاریخ خط نداشته‌اند و غیره)
 how-spontaneous-speech-works = چگونه گفتار خودجوش کار می‌کند
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>پرسش</mark>
