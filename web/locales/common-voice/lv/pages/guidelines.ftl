@@ -207,10 +207,10 @@ transcribe-the-audio-subheader-5-explanation-2 = Runātāji var lietot sarunvalo
 
 ## Review the Transcription
 
-review-the-transcription = Pārskatiet transkripciju
+review-the-transcription = Pārskatīt transkripciju
 review-the-transcription-subheader = Vispārīgi norādījumi
 review-the-transcription-explanation-1 = Kopumā mēs iesakām, lai persona, kas pārbauda transkripciju, nebūtu tā pati persona, kas veica oriģinālo transkripciju. Ir ļoti grūti pašam pārbaudīt savu darbu! Vairāku recenzēšanas līniju esamība var palīdzēt uzlabot kvalitātes nodrošināšanu un mazināt aizspriedumus un problēmas.
-review-the-transcription-explanation-2 = Lai pārbaudītu transkripcijas precizitāti, pārskatiet iepriekš minētās transkripcijas vadlīnijas. Varat veikt labojumus un iesniegt tos.
+review-the-transcription-explanation-2 = Pārskati augstāk esošās transkripcijas vadlīnijas, lai pārliecinātos, ka transkripcija ir pareiza. Ir iespējams veikt labojumus un iesniegt tos.
 review-the-transcription-explanation-3 = Atkal jūs varat atzīmēt saturu, kas ir aizskarošs, kaitīgs vai citādi satraucošs, un tas tiks noņemts no jūsu pieredzes, līdz Common Voice komanda to pārskatīs un veiks tālāku izmeklēšanu.
 
 ## Code-Switching

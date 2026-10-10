@@ -21,10 +21,10 @@ validate-readings-coming-soon = Apstiprināt ierunāto <small>(drīzumā)</small
 
 listen-contribute-menu-tooltip = Apstiprināt ierunāto, pārskatīt transkripcijas
 validate-readings-menu-item-tooltip = Apstiprināt lietotāju ierakstītos lasījumus savā valodā
-review-transcriptions-menu-item-tooltip = Pārskatiet lietotāju iesniegtās transkripcijas savā valodā
+review-transcriptions-menu-item-tooltip = Pārskatīt lietotāju iesniegtās transkripcijas savā valodā
 
 ## MENU ITEM ARIA LABELS
 
 listen-contribute-menu-aria-label = Klausīšanās iespēju izvēlne
 validate-readings-menu-item-aria-label = Apstiprināt kopienas dalībnieku iesniegtos lasījumus
-review-transcriptions-menu-item-aria-label = Pārskatiet ierakstīto teikumu transkripcijas, lai nodrošinātu precizitāti
+review-transcriptions-menu-item-aria-label = Pārskati ierakstīto teikumu transkripcijas, lai nodrošinātu pareizumu

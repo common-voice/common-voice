@@ -156,16 +156,16 @@ add-sentences = Pievienot teikumus
 
 write-contribute-menu-tooltip = Pievienot un pārskatīt teikumus, pievienot jautājumus, transkribēt skaņas ierakstus
 add-sentences-menu-item-tooltip = Pievienojiet teikumus savā valodā
-review-sentences-menu-item-tooltip = Pārskatiet teikumus savā valodā
+review-sentences-menu-item-tooltip = Pārskatīt teikumus
 add-questions-menu-item-tooltip = Pievienojiet jautājumus savā valodā
 review-questions-menu-item-tooltip = Pārskatīt jautājumus
-transcribe-audio-menu-item-tooltip = Pārrakstiet audio ierakstus savā valodā
+transcribe-audio-menu-item-tooltip = Transkribēt skaņas ierakstus
 
 ## MENU ITEM ARIA LABELS
 
 write-contribute-menu-aria-label = Rakstīšanas iespēju izvēlne
 add-sentences-menu-item-aria-label = Pievienojiet jaunus teikumus lasīšanai
-review-sentences-menu-item-aria-label = Pārskatiet citu dalībnieku iesniegtos teikumus
-add-questions-menu-item-aria-label = Iesniedziet jaunus jautājumus ielasīšanai un atbildēšanai
+review-sentences-menu-item-aria-label = Pārskati esošos kopienas iesniegtos esošos teikumus
+add-questions-menu-item-aria-label = Iesniedz jaunus jautājumus kopienai ielasīšanai un atbildēšanai
 review-questions-menu-item-aria-label = Pārskatīt un balsot par jauniem kopienas iesniegtiem jautājumiem
-transcribe-audio-menu-item-aria-label = Pārrakstiet audio ierakstus tekstā
+transcribe-audio-menu-item-aria-label = Transkribēt skaņas ierakstus tekstā

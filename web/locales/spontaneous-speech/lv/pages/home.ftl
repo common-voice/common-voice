@@ -19,7 +19,7 @@ respond-bubble-title = <mark>Atbilde</mark>
 respond-bubble-subtitle = Jāatbild tik dabiski, cik vien iespējams
 # text wrapped in <mark></mark> will have a blue background
 transcribe-bubble-title = <mark>Pārrakstīt</mark>
-transcribe-bubble-subtitle = Pārrakstiet ko dzirdat audio ierakstā
+transcribe-bubble-subtitle = Pieraksti to, ko dzirdi skaņas ierakstos
 # text wrapped in <mark></mark> will have a blue background
 check-bubble-title = <mark>Pārbaudīt</mark>
 check-bubble-subtitle = Pārbaudiet vai audio ierakstā dzirdamais ir pierakstīts pareizi

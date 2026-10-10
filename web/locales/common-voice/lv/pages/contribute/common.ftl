@@ -46,7 +46,7 @@ submit-form-action = Iesniegt
 ## Reporting
 
 report = Ziņot
-report-title = Iesniedziet ziņojumu
+report-title = Iesniegt ziņojumu
 report-ask = Kādas problēmas jums rodas ar šo teikumu?
 report-offensive-language = Aizvainojoša valoda
 report-offensive-language-detail = Teikuma valoda ir necienīga vai aizskaroša.

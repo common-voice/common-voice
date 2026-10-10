@@ -80,7 +80,7 @@ read-more-about = Lasiet vairāk mūsu lapā Par mums
 ## NAV ITEMS
 
 answer-questions = Atbildēt uz jautājumiem
-review-transcriptions = Pārskatiet transkripcijas
+review-transcriptions = Pārskatīt transkripcijas
 add-questions = Pievienojiet jautājumus <small>(drīzumā)</small>
 review-questions = Pārskatīt jautājumus
 transcribe-audio = Pārrakstīt audio
@@ -94,7 +94,7 @@ spontaneous-speech = SPONTĀNĀ RUNA
 
 about-menu-tooltip = Partnerības, prese un stāsti, kopiena un valodas
 about-us-menu-item-tooltip = Uzziniet par Common Voice misiju un komandu
-partnerships-menu-item-tooltip = Sadarbojieties ar mums
+partnerships-menu-item-tooltip = Izpēti apvienības, kas pasaulē atbalsta Common Voice
 press-and-stories-menu-item-tooltip = Lasi stāstus, atjauninājumus un mediju segumu par Common Voice
 community-and-languages-menu-item-tooltip = Atklājiet valodas, kopienas un kopīgo balsi
 
@@ -151,9 +151,9 @@ download-contribution-certificate-content = Lejupielādē sertifikātu saviem pa
 # label for button
 download-contribution-certificate-action = Saņemiet savu sertifikātu
 contribute-github = Līdzdarbojies GitHub
-contribute-github-content = Šis projekts nebūtu iespējams bez tādiem cilvēkiem kā jūs. 🎉 Ir daudz veidu, kā iesaistīties Common Voice — jums nav jāmāk programmēt, lai sniegtu ieguldījumu!
+contribute-github-content = Šis projekts nebūtu iespējams bez tādiem cilvēkiem kā Tu. 🎉 Ir daudz veidu, kā iesaistīties Common Voice — nav jāprot programmēt, lai sniegtu ieguldījumu!
 # label for button
-contribute-github-action = Līdzdarbojies GitHub
+contribute-github-action = Līdzdarboties GitHub
 
 ## Featured section
 
@@ -166,29 +166,29 @@ download-press-pack = Lejupielādēt mūsu preses pakotni <icon></icon>
 developers-section-title-202608 = Visiem pieejamas atvērtās runas datu kopas 330+ valodās
 developers-section-subtitle-v2 = Datu kopas ASR un citiem NLP kontekstiem – veidotas ar kopienas līdzdalību.
 # icon is an arrow that points to the right
-explore-datasets = Izpētiet datu kopas <icon></icon>
+explore-datasets = Izpētīt datu kopas <icon></icon>
 
 ## Get involved section
 
 get-involved-section-title = Atbalsti atvērtas, kopienas veidotas datu kopas
 read-sentences-link = Lasīt teikumus
 validate-readings-link = Apstiprināt ierunāto
-contribute-link = Papildiniet teksta korpusu
+contribute-link = Sniegt ieguldījumu teksta korpusā
 answer-questions-link = Atbildēt uz jautājumiem
 transcribe-answers-link = Transkribēt atbildes
-review-transcriptions-link = Pārskatiet pierakstīto
-contribute-text-link = Iesniedziet tekstu
+review-transcriptions-link = Pārskatīt transkripcijas
+contribute-text-link = Iesniegt tekstu
 press-and-stories-link = Prese un stāsti
 
 ## Partner section
 
-partner-section-title = Sadarbojieties ar mums
+partner-section-title = Sadarbojies ar mums
 # Text wrapped in <bold></bold> will be shown in bold font
-partner-section-subtitle-tech-companies = <bold>Tehnoloģiju uzņēmumi</bold> — ieguldiet atvērtu datu kopu izveidē plaukstošai daudzvalodu AI ekosistēmai
+partner-section-subtitle-tech-companies = <bold>Tehnoloģiju uzņēmumi</bold> — ieguldīšana atvērtu datu kopu izveidē plaukstošai daudzvalodu MI ekosistēmai
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-civil-society = <bold>Pilsoniskā sabiedrība un pētnieki</bold> — iedarbīgu datu kopu izveidošana, mitināšana un kopīgošana bez maksas
 # Text wrapped in <bold></bold> will be shown in bold font
-partner-section-subtitle-philantropy = <bold>Filantropi</bold> — sponsorējiet datu kopas izveidi, lai veicinātu lokālo inovāciju un attīstību
+partner-section-subtitle-philantropy = <bold>Filantropija</bold> — datu kopas izveides atbalstīšana ar naudas līdzekļiem, lai veicinātu vietēju attīstību un izstrādi
 # icon is an arrow that points to the right
 get-in-touch-button = Sazināties <icon></icon>
 # Partners section
