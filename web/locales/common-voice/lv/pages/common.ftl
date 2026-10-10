@@ -486,7 +486,7 @@ localization-select =
 # Main text for MDC announcement. Text wrapped in <strong></strong> will be rendered with bold font
 announcement-mdc-text = <strong>Jaunās Common Voice datu kopas</strong> tagad ir pieejamas lejupielādei tikai mūsu platformā Mozilla Data Collective. Pievienojieties, lai piekļūtu vairāk nekā 300 globālām datu kopām, ko izveidojusi kopiena un ko tā izveidojusi kopienas vajadzībām.
 # Button text for MDC announcement
-announcement-mdc-button-text = Pievienojieties Mozilla datu kolektīvam
+announcement-mdc-button-text = Pievienojies Mozilla Data Collective
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = Atveras jaunā cilnē
 

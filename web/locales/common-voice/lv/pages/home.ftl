@@ -133,33 +133,33 @@ answer = Atbildēt
 ## Community section
 
 community-section-title-202601 = Darbina vispasaules kopienas vispasaules kopienām — 290 valodas, un to skaits palielinās!
-join-discord-community = Pievienojieties Discord kopienai
+join-discord-community = Pievienojies Discord kopienai
 # label for button
 join-discord-community-action = Pievienoties Discord
-join-discord-community-content = Piedalieties valodu kopienas diskusijās, uzdodiet jautājumus un uzziniet par gaidāmajiem pasākumiem un prezentācijām.
-find-us-on-matrix = Atrodiet mūs Matrix
-find-us-on-matrix-content-v2 = Matrix ir atvērts, viegls protokols decentralizētai reāllaika saziņai un Mozilla iecienītākā atvērto diskusiju platforma. Mēs atrodamies telpā "common-voice:mozilla.org".
+join-discord-community-content = Piedalies valodu kopienas apspriedēs, uzdod jautājumus un uzzini par gaidāmajiem pasākumiem un uzstāšanos!
+find-us-on-matrix = Atrodi mūs [matrix]
+find-us-on-matrix-content-v2 = [matrix] ir atvērts, viegls protokols decentralizētai reāllaika saziņai un vēlamā Mozilla atvērto apspriežu platforma. Mēs esam atrodami istabā “common-voice:mozilla.org”.
 # label for button
 find-us-on-element-action-1 = Element
 find-us-on-matrix-action-2 = Citi klienti
-ask-mozilla-share = Lūdziet Mozilla pastāstīt citiem par jūsu notikumu
-ask-mozilla-share-content = Jums ir bijis vai būs kāds labs pasākums? Pastāstiet mums par to, un mēs par šo notikumu paziņosim citiem, kam tas varētu interesēt!
+ask-mozilla-share = Lūdz Mozilla kopīgot Tavius notikumus
+ask-mozilla-share-content = Ir kāds noticis vai gaidāms pasākums? Kopīgo to ar mums, un mēs paziņosim par to mūsu kopienai vai uzrakstīsim par to emuāru!
 # label for button
 ask-mozilla-share-action = Pastāstiet par savu notikumu
-download-contribution-certificate = Lejupielādējiet savu ieguldījumu sertifikātu
-download-contribution-certificate-content = Lejupielādējiet sertifikātu saviem notikumiem vai sev, ja esat piedalījies Common Voice — tas nebūtu iespējams bez jums!
+download-contribution-certificate = Lejupielādē savu ieguldījumu sertifikātu
+download-contribution-certificate-content = Lejupielādē sertifikātu saviem pasākumiem vai sev, ja piedalījies Common Voice — tas bez Tevis nebūtu iespējams!
 # label for button
 download-contribution-certificate-action = Saņemiet savu sertifikātu
-contribute-github = Atbalstiet vietnē GitHub
+contribute-github = Līdzdarbojies GitHub
 contribute-github-content = Šis projekts nebūtu iespējams bez tādiem cilvēkiem kā jūs. 🎉 Ir daudz veidu, kā iesaistīties Common Voice — jums nav jāmāk programmēt, lai sniegtu ieguldījumu!
 # label for button
-contribute-github-action = Atbalstiet vietnē GitHub
+contribute-github-action = Līdzdarbojies GitHub
 
 ## Featured section
 
 featured-section-title = Pieminēts...
 # icon is an arrow that points downwards
-download-press-pack = Lejupielādējiet mūsu preses pakotni <icon></icon>
+download-press-pack = Lejupielādēt mūsu preses pakotni <icon></icon>
 
 ## Developers section
 
@@ -170,7 +170,7 @@ explore-datasets = Izpētiet datu kopas <icon></icon>
 
 ## Get involved section
 
-get-involved-section-title = Atbalstiet atvērtas, kopienas veidotas datu kopas
+get-involved-section-title = Atbalsti atvērtas, kopienas veidotas datu kopas
 read-sentences-link = Lasīt teikumus
 validate-readings-link = Apstiprināt ierunāto
 contribute-link = Papildiniet teksta korpusu

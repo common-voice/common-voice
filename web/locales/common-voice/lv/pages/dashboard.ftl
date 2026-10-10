@@ -79,7 +79,7 @@ share-goal-type-speak = Runāšana
 share-goal-type-listen = Klausīšanās
 share-goal-type-both = Runāšana un klausīšanās
 # LINK will be replaced with the current URL
-goal-share-text = Es tikko izveidoju savu balss talkas mērķi #CommonVoice - pievienojieties man un palīdziet iekārtām iemācīt saprast latviešu valodu { $link }
+goal-share-text = Es tikko izveidoju savu balss talkas mērķi #CommonVoice — pievienojies man un palīdzi iekārtām iemācīt saprast { $link }
 weekly-goal-created = Jūsu nedēļas mērķis ir izveidots
 daily-goal-created = Jūsu ikdienas mērķis ir izveidots
 track-progress = Sekojiet progresam šeit statistikas lapā.
