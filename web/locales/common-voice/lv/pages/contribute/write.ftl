@@ -154,7 +154,7 @@ add-sentences = Pievienot teikumus
 
 ## MENU ITEM TOOLTIPS
 
-write-contribute-menu-tooltip = Pievienojiet un pārskatiet teikumus, pievienojiet jautājumus, pārrakstiet audio
+write-contribute-menu-tooltip = Pievienot un pārskatīt teikumus, pievienot jautājumus, transkribēt skaņas ierakstus
 add-sentences-menu-item-tooltip = Pievienojiet teikumus savā valodā
 review-sentences-menu-item-tooltip = Pārskatiet teikumus savā valodā
 add-questions-menu-item-tooltip = Pievienojiet jautājumus savā valodā

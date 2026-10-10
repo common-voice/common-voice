@@ -19,8 +19,8 @@ validate-readings-coming-soon = Apstiprināt ierunāto <small>(drīzumā)</small
 
 ## MENU ITEM TOOLTIPS
 
-listen-contribute-menu-tooltip = Pārbaudīt ierunāto, pārskatīt transkripcijas
-validate-readings-menu-item-tooltip = Pārbaudīt lietotāju ierakstītos lasījumus savā valodā
+listen-contribute-menu-tooltip = Apstiprināt ierunāto, pārskatīt transkripcijas
+validate-readings-menu-item-tooltip = Apstiprināt lietotāju ierakstītos lasījumus savā valodā
 review-transcriptions-menu-item-tooltip = Pārskatiet lietotāju iesniegtās transkripcijas savā valodā
 
 ## MENU ITEM ARIA LABELS

@@ -121,14 +121,14 @@ get-started = Sākt darbu <icon><icon>
 action-items-section-title = Common Voice ir bezmaksas atvērtā pirmkoda platforma kopienas vadītai datu izveidei
 action-items-section-subtitle = Ikviens var saglabāt, atdzīvināt un uzlabot savu valodu, kopīgojot, veidojot un pārbaudot teksta un runas datu kopas.
 scripted-card-header = Sagatavota runa
-scripted-card-content = Nolasiet teikumus savā valodā un palīdziet veidot plašāko kopienas radīto runas datu kopu pasaulē.
+scripted-card-content = Nolasi teikumus savā valodā un palīdzi veidot plašāko kopienas radīto runas datu kopu pasaulē!
 spontaneous-card-header = Spontāna runa
-spontaneous-card-content = Atbildiet uz jautājumiem, veidojot dabiskās sarunvalodas datu kopu. Tā uzlabo runas atpazīšanas daudzpusību.
+spontaneous-card-content = Atbildi uz vaicājumiem, lai izveidotu datu kopas dabiskiem sarunu kontekstiem. Teicami runātām valodām.
 language-text-card-header = Valodas teksti
 language-text-card-content = Veidojiet datu vākšanas jautājumus, teikumus tulkošanai, nelielus valodu modeļus un daudz ko citu.
 coming-soon = Drīzumā
 add-text = Pievienot tekstu
-answer = Atbilde
+answer = Atbildēt
 
 ## Community section
 
@@ -175,7 +175,7 @@ read-sentences-link = Lasīt teikumus
 validate-readings-link = Apstiprināt ierunāto
 contribute-link = Papildiniet teksta korpusu
 answer-questions-link = Atbildi uz jautājumiem
-transcribe-answers-link = Pārrakstiet atbildes
+transcribe-answers-link = Transkribēt atbildes
 review-transcriptions-link = Pārskatiet pierakstīto
 contribute-text-link = Iesniedziet tekstu
 press-and-stories-link = Prese un stāsti

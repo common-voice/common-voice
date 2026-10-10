@@ -40,7 +40,7 @@ read-full-guidelines-here = <guidanceLink>Izlasiet visas vadlīnijas šeit</guid
 
 ## Answer Page Guidelines
 
-cs-learn-how-to-use-answer-explanation = Atbildiet uz jautājumu pēc iespējas dabiskāk, droši mainiet valodas, ja tas šķiet dabiski. Pārliecinieties, ka jūsu valoda ir cieņpilna un neaizskaroša.
+cs-learn-how-to-use-answer-explanation = Jāatbild uz vaicājumu pēc iespējas dabiskāk, droši mainot valodas, ja tas šķiet dabiski. Jāpārliecinās, ka izmantotā valoda ir cieņpilna un neaizskaroša.
 
 ## Review Page Guidelines
 

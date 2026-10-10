@@ -3,7 +3,7 @@
 record-player-header = Ierakstīt atbildi
 mic-access-error = Jāatļauj piekļuve mikrofonam
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
-prompt-page-instruction = { $actionType } <micIcon></micIcon> un atbildiet runājot dabiski
+prompt-page-instruction = { $actionType } <micIcon></micIcon> un atbildēt tik dabiski, cik vien iespējams
 # Message which appears when there are no more resources on this page
 no-prompts-continue-skipped-message = Šajā valodā vairs nav jautājumu. Ja kādu izlaidi, vari turpināt ar izlaistu saturu vai doties uz skaņas transkripciju un vēlāk mēģināt vēlreiz.
 error-skipping = Izlaižot jautājumu notikusi kļūda
@@ -29,7 +29,7 @@ submit-all-button = Saglabāt visu
 ## Explainer text (Respond to Prompt)
 
 learn-how-to-use-prompts = Uzziniet, kā izmantot šo lapu
-learn-how-to-use-prompts-explanation = Pāris teikumos atbildiet uz jautājumu runājot dabiski. Pārliecinieties, ka jūsu atbilde ir cieņpilna un neaizskaroša.
+learn-how-to-use-prompts-explanation = Vienkārši jāatbild uz vaicājumu pāris teikumos tik dabiski, cik vien iespējams. Jāpārliecinās, ka izmantotā valoda ir cieņpilna un neaizskaroša.
 learn-how-to-use-prompts-guidance = Noklikšķiniet <guidanceLink>šeit</guidanceLink>, lai uzzinātu, kā izmantot šo lapu
 learn-how-to-use-transcribe = Uzziniet, kā veikt pārrakstīšanu
 learn-how-to-use-transcribe-explanation = Pierakstiet tieši to, kas dzirdams ierakstā, tostarp vietturus, piemēram, “um”, “āāā”, vai “ēēē”.
