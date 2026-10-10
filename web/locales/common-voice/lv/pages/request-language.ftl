@@ -41,3 +41,4 @@ need-help-deciding-platform = Nepieciešama palīdzība, lai izlemtu, kuru izvē
 need-help-deciding-platform-explanation-1 = <strong>Sagatavotā runa</strong> (tas ko mēs tradicionāli saprotam ar Common Voice) ir vieta, kur varat ielasīt teikumus savā valodā.
 need-help-deciding-platform-explanation-2 = <strong>Spontānā runa</strong> ir jauna Common Voice daļa, kurā varat atbildēt uz jautājumiem dabiskākā veidā, sarunvalodā.
 need-help-deciding-platform-explanation-3 = Ja nevienā platformas daļā neredzat savu valodu, atlasiet abus.
+request-language-search-bar = Šeit var sākt rakstīt savas valodas nosaukumu; ja tā vēl nav Common Voice, būs iespējams aizpildīt veidlapu ar savas valodas datiem.
