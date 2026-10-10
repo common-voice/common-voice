@@ -17,3 +17,13 @@ cs-question-dataset-name = Язувлар: { $datasetName }
 ## Validate Page Items
 
 cs-validate-page-instruction = Бу сорав тюз кюйде болгъанмы тергегъиз <validateIcon></validateIcon>
+cs-no-questions-continue-skipped = Бу язувларда гьали сорав ёкъ. Сиз бирзатны оттугъуз буса, сиз боласыз къарамагъа отгъен сёзлерге, яда къарамагъа Языв кюйге, сонг дагъы да бир керен къарамагъа.
+cs-add-vote-error-message = Соравны салагъанда иш тюз гьетмеди.
+
+## Transcribe Page Items
+
+cs-no-audio-continue-skipped-message = Бу язувларда гьали язагъан зат ёкъ. Сиз бирзатны оттугъуз буса, сиз боласыз къарамагъа отгъен сёзлерге, яда къарамагъа Тергев кюйге, сонг дагъы да бир керен къарап.
+
+## Review Page Items
+
+cs-no-transcriptions-continue-skipped = Бу тилде гьали тергейген сёзню кюю ёкъ. Сиз бирзатны оттугъуз буса, сиз боласыз къарамагъа отгъен сёзлерге, яда къарамагъа Языв кюйге, сонг къарап отгъан сёзлерге.
