@@ -285,6 +285,7 @@ nqo = NKo
 nr = IsiNdebele (South)
 nso = Sotho nke ugwu
 ny = Chinyanja
+nyb = Nyabo
 nyn = Ásụ̀sụ́ Nyàn̄kọ́lè
 nyu = Nyungwe
 oc = Ásụ̀sụ́ Ọ́kụ́sị́tànụ̀
