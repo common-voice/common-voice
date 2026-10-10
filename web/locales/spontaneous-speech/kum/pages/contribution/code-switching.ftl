@@ -37,3 +37,11 @@ cs-tag-dataset-name = Язувлар: { $datasetName }
 
 learn-how-to-use = Нечик ишлемеге герек къарагъыз
 read-full-guidelines-here = <guidanceLink>Гьар тюз кюйлерин мында къарагъыз</guidanceLink>
+
+## Answer Page Guidelines
+
+cs-learn-how-to-use-answer-explanation = Соравгъа оьзюгюз гьар кюйде йимик тап-таза айтыгъыз. Тюрлю-тюрлю сёзлермен айтмагъа тыныч буса — шолай да айтыгъыз. Тек писс сёзлер салмагъыз.
+
+## Review Page Guidelines
+
+cs-learn-how-to-use-check-transcript-explanation = Сёзню кююне адам айтгъан гьар сёзню салмагъа герек — экинчилей айтгъан сёзлени де, башгъа чыкъгъан тавушларни да.
