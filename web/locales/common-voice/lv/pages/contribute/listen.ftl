@@ -19,12 +19,12 @@ validate-readings-coming-soon = Apstiprināt ierunāto <small>(drīzumā)</small
 
 ## MENU ITEM TOOLTIPS
 
-listen-contribute-menu-tooltip = Apstipriniet ierunāto, pārskatiet transkripcijas
-validate-readings-menu-item-tooltip = Apstipriniet lietotāju ierunāto savā valodā
+listen-contribute-menu-tooltip = Pārbaudīt ierunāto, pārskatīt transkripcijas
+validate-readings-menu-item-tooltip = Pārbaudīt lietotāju ierakstītos lasījumus savā valodā
 review-transcriptions-menu-item-tooltip = Pārskatiet lietotāju iesniegtās transkripcijas savā valodā
 
 ## MENU ITEM ARIA LABELS
 
 listen-contribute-menu-aria-label = Klausīšanās iespēju izvēlne
-validate-readings-menu-item-aria-label = Apstipriniet kopienas dalībnieku iesniegtos lasījumus
+validate-readings-menu-item-aria-label = Apstiprināt kopienas dalībnieku iesniegtos lasījumus
 review-transcriptions-menu-item-aria-label = Pārskatiet ierakstīto teikumu transkripcijas, lai nodrošinātu precizitāti

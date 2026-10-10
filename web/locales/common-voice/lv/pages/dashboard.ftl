@@ -69,7 +69,7 @@ n-clips-pluralized =
        *[other] { $count } ierakstu
     }
 help-share-goal = Palīdziet mums atrast vairāk balsu, dalieties ar savu mērķi
-confirm-goal = Apstipriniet mērķi
+confirm-goal = Apstiprināt mērķi
 goal-interval-weekly = Reizi nedēļā
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = Dalieties ar savu { $count } ierakstu ikdienas mērķi { $type }

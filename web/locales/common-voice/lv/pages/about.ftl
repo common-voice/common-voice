@@ -5,7 +5,7 @@ about-header-description-v2 =
     <p>Common Voice ir publiski pieejama balss datu kopa, ko veido brīvprātīgo balsis visā pasaulē. Cilvēki, kuri vēlas veidot programmas, kas strādā ar balsi, var izmantot datu kopu, lai apmācītu runas atpazīšana modeļus.</p>
     <p>Šobrīd lielākā daļa balss datu kopu pieder atsevišķiem uzņēmumiem, kas kavē inovācijas. Valodas ar mazu runātāju skaitu pasaulē balss datu kopās ir nepietiekami pārstāvētas. Tas nozīmē, ka tehnoloģijas, kas darbojas ar balsi šajās valodās nedarbojas vai strādā slikti. Mēs vēlamies to mainīt, mobilizējot cilvēkus visā pasaulē, lai viņi dalītos ar savu balsi un pārbaudītu ierakstītos teikumus.</p>
 how-does-it-work-title-v2 = Kā darbojas Common Voice?
-how-does-it-work-text = Mēs piedāvājam atklātu un brīvi pieejamu datu kopu. Ierakstiet savu balsi, apstipriniet citu cilvēku ierakstus, uzlabojiet datu kopu visiem.
+how-does-it-work-text = Mēs piedāvājam atklātu un brīvi pieejamu datu kopu. Ieraksti savu balsi, apstiprini citu cilvēku ierakstus, padari datu kopu labāku visiem!
 
 ## How does it work section
 
@@ -92,7 +92,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 
 about-playbook-how-localize = Kā darbojas vietnes lokalizācija?
 about-playbook-how-localize-content-1 = Vietnes Common Voice tulkošana notiek <strong>Pontoon</strong> sistēmā.
-about-playbook-how-localize-content-2 = <pontoonAccountLink>Izveidojiet kontu</pontoonAccountLink>, ja jums tāda nav. Pēc tam izvēlieties valodu sadaļā <strong>Komanda jeb ‘Teams’</strong> un pēc tam izvēlieties projektu <pontoonCvLink>Common Voice</pontoonCvLink>. Tur būs tulkojamās datnes. Noklikšķiniet uz vienas, pēc tam tiks parādīti vārdi angļu valodā un lodziņš to tulkošanai.
+about-playbook-how-localize-content-2 = <pontoonAccountLink>Jāizveido konts</pontoonAccountLink>, ja tāda vēl nav. Pēc tam jāizvēlas valoda <strong>(‘Komanda’)</strong> un pēc tam jāizvēlas projekts <pontoonCvLink>Common Voice</pontoonCvLink>. Tur būs tulkojamās datnes. Jāklikšķina uz kādas, pēc tam tiks parādīti vārdi angļu valodā un lodziņš to tulkošanai.
 about-playbook-how-localize-content-3 = Tulkošana notiek no angļu valodas, taču varat skatīt <strong>Ieteikumus</strong> citās valodās. Noklikšķiniet uz ikonas <strong>Profils</strong>, pēc tam uz saites <strong>Iestatījumi</strong> un pievienojiet visas valodas, kurās runājat. Apakšējā labajā stūrī būs tulkojumu saraksts ar nosaukumu <strong>Locales</strong>. Common Voice vietnē tulkojumi parādīsies dienu vēlāk.
 about-playbook-how-localize-content-4 = Vietne ir gatava palaišanai, kad tā sasniedz 75% pabeigtību.
 about-playbook-how-localize-content-5 = Lai palīdzētu, skatiet mūsu video skaidrojumu

@@ -77,7 +77,7 @@ read-sentences-coming-soon = Lasiet teikumus <small>(drīzumā)</small>
 
 ## MENU ITEM TOOLTIPS
 
-speak-contribute-menu-tooltip = Lasiet teikumus, atbildiet uz jautājumiem
+speak-contribute-menu-tooltip = Lasīt teikumus, atbildēt uz jautājumiem
 read-sentences-menu-item-tooltip = Ierakstiet, kā lasāt teikumus savā valodā
 answer-questions-menu-item-tooltip = Ierakstiet, kā atbildat uz jautājumiem un vaicājumiem savā valodā
 
