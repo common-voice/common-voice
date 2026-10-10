@@ -33,7 +33,7 @@ sc-review-form-reviewed-message =
        *[other] Pārbaudīti { $sentences } teikumi
     }
 sc-review-form-review-failure = Izskatīšanu nevarēja saglabāt. Lūgums vēlāk mēģināt vēlreiz.
-sc-review-link = Pārbaudiet
+sc-review-link = Pārskatīt
 
 ## REVIEW CRITERIA
 
@@ -47,7 +47,7 @@ sc-criteria-item-4 = Ja teikums atbilst visiem kritērijiem, noklikšķiniet uz 
 sc-criteria-item-5-2 = Ja teikums neatbilst iepriekš minētajiem kritērijiem, noklikšķiniet uz &quot;Noraidīt&quot; pogas kreisajā pusē. Ja neesat pārliecināts par teikumu, varat to arī izlaist un pāriet uz nākamo.
 sc-criteria-item-6 = Ja vairs nav izskatāmu teikumu, lūgums palīdzēt mums ievākt vairāk teikumu.
 # <icon></icon> will be replace with an icon that represents review
-sc-review-instruction = Pārbaudiet <icon></icon> vai šis teikums ir pareizs?
+sc-review-instruction = Pārbaudi <icon></icon> vai šis teikums ir pareizs?
 sc-review-rules-title = Vai teikums atbilst vadlīnijām?
 sc-review-empty-state = Pašlaik šajā valodā nav teikumu, ko pārbaudīt.
 report-sc-different-language = Nepareiza valoda

@@ -38,7 +38,7 @@ respond-to-prompt = Atbildēt uz jautājumu
 respond-to-prompt-mobile = Atbildēt
 transcribe = Pārrakstīt
 check-transcriptions = Pārskatīt transkripcijas
-check-transcriptions-mobile = Pārbaudiet
+check-transcriptions-mobile = Pārskatīt
 tag = Birka
 
 ## Not Found Page

@@ -13,7 +13,7 @@ wall-of-text-second = Lielākā daļa datu, ko izmanto lielie uzņēmumi, nav pi
 show-wall-of-text = Lasīt vairāk
 help-us-title = Palīdziet pārbaudīt teikumus!
 help-us-explain = Nospiediet atskaņošanas pogu, klausieties un pārbaudiet, vai zemāk norādītais teikums ir izrunāts precīzi.
-no-clips-to-validate = Izskatās, ka šajā valodā nav audio ierakstu. Palīdziet mums, ierakstot dažus tagad.
+no-clips-to-validate = Izskatās, ka šajā valodā nav neviena skaņas ieraksta. Palīdzi mums ar dažu ierakstīšanu tagad!
 toggle-play-tooltip = Nospiediet { shortcut-play-toggle }, lai pārslēgtu atskaņošanas režīmu
 speak-paragraph = Lai mūsu valoda iekārtu laikmetā neizzustu, mums jāieraksta savas balsis; daži teiktu, ka tas ir arī jautri.
 speak-goal-text = Ieraksti ierakstīti
@@ -48,7 +48,7 @@ x-years-short =
     }
 help-make-dataset = Palīdziet izveidot kvalitatīvu, publiski pieejamu datu kopu
 sign-up-account = Reģistrē savu kontu
-email-subscription-title-v3 = Reģistrējieties Common Voice un Mozilla Foundation atjauninājumiem
+email-subscription-title-v3 = Abonēt Common Voice un Mozilla Foundation jaunumus
 
 ## Account Benefits
 

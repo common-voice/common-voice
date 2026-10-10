@@ -68,7 +68,7 @@ n-clips-pluralized =
         [one] { $count } ieraksti
        *[other] { $count } ierakstu
     }
-help-share-goal = Palīdziet mums atrast vairāk balsu, dalieties ar savu mērķi
+help-share-goal = Palīdzi mums atrast vairāk balsu, dalies ar savu mērķi
 confirm-goal = Apstiprināt mērķi
 goal-interval-weekly = Reizi nedēļā
 # $type is one of share-goal-type-*

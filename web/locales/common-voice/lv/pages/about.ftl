@@ -70,8 +70,8 @@ about-playbook-what-is-language-content-3 = Dažām valodām ir milzīgas gramat
 
 about-playbook-how-add-language = Kā pievienot valodu?
 about-playbook-how-add-language-content-1 =
-    Vispirms pārbaudiet, vai jūsu valoda <languageLink>jau pastāv</languageLink>.
-    Ja tās vēl nav, varat <languageRequestLink>jautāt par valodas pievienošanu</languageRequestLink>.
+    Vispirms jāpārbauda, vai Tava valoda <languageLink>jau pastāv</languageLink>.
+    Ja tās vēl nav, var <languageRequestLink>vaicāt par Tavas valodas pievienošanu</languageRequestLink>.
     Ir divi posmi. Vietnes tulkošana un teikumu apkopošana
 about-playbook-how-add-language-translating-heading = Vietnes tulkošana
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Skatiet mūsu ceļvedi par Pontoon lietošanu.</translateVideoLink>

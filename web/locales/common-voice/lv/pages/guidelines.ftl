@@ -71,7 +71,7 @@ sentence-domain = Teikuma joma
 public-domain-explanation-1 = Ir ļoti svarīgi, lai visi teikumi būtu <publicDomain>publiskais domēns</publicDomain> (<cc0>cc0</cc0>), jo Common Voice datu kopa tiek izlaista ar cc0 licenci. Augšupielādējiet teikumu tikai tad, ja esat pārliecināts par tā publiskumu, un vienmēr iekļaujiet atsauci uz avotu.
 public-domain-explanation-2 = Labākie teikumi noderīga runas atpazīšanas rīka izveidei ir sarunvaloda, mūsdienīga valoda. Dažas ierosinājumi, kas palīdzēs veidot teikumus, ir:
 public-domain-explanation-3 = Izveido mūsdienīgus sarunvalodas teikumus pati/s vai kopā ar draugiem vai valodas kopienu, piemēram, rīkojot “rakstīšanas maratonu”
-public-domain-explanation-4 = Sazinieties ar autoriem, dramaturgiem vai scenāristiem un jautājiet, vai viņi būtu gatavi nodot nelielu daļu no saviem darbiem publiskajā īpašumā. Teikumus var publicēt alfabētiskā secībā, lai tas netraucētu kādiem darba autora mērķiem.
+public-domain-explanation-4 = Sazinies ar autoriem, dramaturgiem vai scenāristiem un jautā, vai viņi būtu gatavi nodot nelielu daļu no saviem darbiem publiskajā īpašumā
 public-domain-explanation-5 = Meklējiet tekstu, uz kuru autortiesības vairs neattiecas, piemēram, vairums grāmatu, kas izdotas pirms 1920. gada, šobrīd ir brīvi pieejamas ikvienam.
 public-domain-explanation-6 = Sazinieties ar valdībām, pašvaldībām, bezpeļņas organizācijām vai plašsaziņas līdzekļu organizācijām, lai noskaidrotu, vai kāda daļa no to tīmekļa zinām, ziņojumiem, atskaitēm vai citam saturam varētu būt nodots sabiedrības lietošanā.
 citing-sentences-explanation-1 = Ir svarīgi iekļaut atsauces, lai mēs varētu pārbaudīt, vai teikumi ir publiski pieejami un netiek piemēroti kādi autortiesību ierobežojumi.
@@ -105,7 +105,7 @@ adding-sentences-subheader-offensive-content-explanation = Ja teikums ir aizskar
 reviewing-sentences-explanation-1 = Ja teikums atbilst iepriekš minētajiem kritērijiem, noklikšķiniet uz pogas "Jā".
 reviewing-sentences-explanation-2 = Ja teikums neatbilst iepriekš minētajiem kritērijiem, noklikšķiniet uz pogas "Nē".
 reviewing-sentences-explanation-3 = Ja neesat pārliecināts par teikumu, varat to izlaist un pāriet uz nākamo.
-reviewing-sentences-explanation-4 = Ja visi teikumi jau ir pārbaudīti, lūdzu, palīdziet mums savākt jaunus teikumus!
+reviewing-sentences-explanation-4 = Ja visi teikumi jau ir pārbaudīti, lūgums palīdzēt mums ievākt jaunus teikumus.
 domain-explanation = Joma attiecas uz teikuma saturu. Jūs varat izvēlēties vienu no:
 
 ## Question collection ids
@@ -229,7 +229,7 @@ code-switching-types-subheader = Kāda veida jautājumus pievienot?
 code-switching-use-bilingual-prompts-header = Izmantojiet divvalodu uzvednes
 code-switching-use-bilingual-prompts-explanation = Izmantojiet divvalodu uzdevumus, iekļaujot abas valodas savā jautājumā: Piemērs:
 code-switching-use-bilingual-prompts-explanation-example = “¿Qué te dijo tu mamá when you got home that day?”
-code-switching-ask-bilingual-contexts-header = Jautājiet par divvalodu kontekstiem
+code-switching-ask-bilingual-contexts-header = Vaicāt par divvalodu kontekstiem
 code-switching-ask-bilingual-contexts-explanation = Izmantojiet situācijas, kurās bieži tiek lietotas abas valodas (piemēram, mājās, skolā, kopienas pasākumos). Piemērs:
 code-switching-ask-bilingual-contexts-explanation-example = "Kad jūs runājat ar saviem brālēniem un māsīcām, vai jūs jaucat spāņu un angļu valodu?"
 code-switching-focus-emotional-header = Koncentrējieties uz emocionāliem vai svarīgiem brīžiem

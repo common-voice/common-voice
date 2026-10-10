@@ -25,9 +25,9 @@ speak-loading-error =
     Mēs nevarējām iegūt nevienu teikumu ierunāšanai.
     Lūgums nedaudz vēlāk mēģināt vēlreiz.
 record-button-label = Ierakstiet savu balsi
-share-title-new = <bold> Palīdziet mums </bold> atrast vairāk balsu
+share-title-new = <bold>Palīdzi mums</bold> atrast vairāk balsu
 keep-track-profile = Sekojiet līdzi progresam, izmantojot profilu
-login-to-get-started = Piesakieties vai reģistrējieties, lai sāktu
+login-to-get-started = Jāpiesakās vai jāreģistrējas, lai uzsāktu
 target-segment-first-card = Jūs sniedzat ieguldījumu mūsu pirmajā mērķa segmentā
 target-segment-generic-card = Jūs sniedzat ieguldījumu mērķa segmentā
 target-segment-first-banner = Palīdziet izveidot Common Voice pirmo mērķa segmentu { $locale } valodā
