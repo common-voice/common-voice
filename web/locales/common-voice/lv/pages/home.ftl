@@ -121,11 +121,11 @@ get-started = Sākt darbu <icon><icon>
 action-items-section-title = Common Voice ir bezmaksas atvērtā pirmkoda platforma kopienas vadītai datu izveidei
 action-items-section-subtitle = Ikviens var saglabāt, atdzīvināt un uzlabot savu valodu, kopīgojot, veidojot un pārbaudot teksta un runas datu kopas.
 scripted-card-header = Sagatavota runa
-scripted-card-content = Nolasi teikumus savā valodā un palīdzi veidot plašāko kopienas radīto runas datu kopu pasaulē!
+scripted-card-content = Teikumu skaļa nolasīšana savā valodā un palīdzēšana plašākās kopienas radīto runas datu kopas pasaulē radīšanā.
 spontaneous-card-header = Spontāna runa
-spontaneous-card-content = Atbildi uz vaicājumiem, lai izveidotu datu kopas dabiskiem sarunu kontekstiem. Teicami runātām valodām.
+spontaneous-card-content = Atbildēšana uz vaicājumiem datu kopu dabiskiem sarunu kontekstiem izveidošanai. Teicami runātām valodām.
 language-text-card-header = Valodas teksti
-language-text-card-content = Veidojiet datu vākšanas jautājumus, teikumus tulkošanai, nelielus valodu modeļus un daudz ko citu.
+language-text-card-content = Publisku vaicājumu, teikumus un tekstus tulkošanai, mazus valodu modeļus un daudz kā cita izveidošana vai kopīgošana.
 coming-soon = Drīzumā
 add-text = Pievienot tekstu
 answer = Atbildēt
@@ -174,7 +174,7 @@ get-involved-section-title = Atbalstiet atvērtas, kopienas veidotas datu kopas
 read-sentences-link = Lasīt teikumus
 validate-readings-link = Apstiprināt ierunāto
 contribute-link = Papildiniet teksta korpusu
-answer-questions-link = Atbildi uz jautājumiem
+answer-questions-link = Atbildēt uz jautājumiem
 transcribe-answers-link = Transkribēt atbildes
 review-transcriptions-link = Pārskatiet pierakstīto
 contribute-text-link = Iesniedziet tekstu
@@ -186,7 +186,7 @@ partner-section-title = Sadarbojieties ar mums
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-tech-companies = <bold>Tehnoloģiju uzņēmumi</bold> — ieguldiet atvērtu datu kopu izveidē plaukstošai daudzvalodu AI ekosistēmai
 # Text wrapped in <bold></bold> will be shown in bold font
-partner-section-subtitle-civil-society = <bold>Pilsoniskā sabiedrība un pētnieki</bold> — veidojiet, publicējiet un dalieties ar noderīgām datu kopām
+partner-section-subtitle-civil-society = <bold>Pilsoniskā sabiedrība un pētnieki</bold> — iedarbīgu datu kopu izveidošana, mitināšana un kopīgošana bez maksas
 # Text wrapped in <bold></bold> will be shown in bold font
 partner-section-subtitle-philantropy = <bold>Filantropi</bold> — sponsorējiet datu kopas izveidi, lai veicinātu lokālo inovāciju un attīstību
 # icon is an arrow that points to the right

@@ -25,7 +25,7 @@ show-ranking = Rādīt manu rangu
 ## Custom Goals
 
 get-started-goals = Sāciet ar mērķiem
-create-custom-goal = Izveidojiet pielāgotu mērķi
+create-custom-goal = Izveidot pielāgotu mērķi
 goal-type = Kādu mērķi vēlaties izveidot?
 both-speak-and-listen = Abi
 both-speak-and-listen-long = Abi (runāšanas un klausīšanās)
@@ -39,7 +39,7 @@ lose-goal-progress-warning = Pēc mērķa labošanas var zaudēt esošo virzību
 want-to-continue = Vai vēlaties turpināt?
 finish-editing = Vispirms pabeigt labošanu?
 lose-changes-warning = Ja aiziesiet tagad, jūs zaudēsit izmaiņas
-build-custom-goal = Izveidojiet pielāgotu mērķi
+build-custom-goal = Veidot pielāgotu mērķi
 help-reach-hours-pluralized =
     { $hours ->
         [zero] Palīdziet sasniegt { $hours } stundu { $language } valodā ar savu mērķi

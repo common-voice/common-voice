@@ -70,7 +70,7 @@ sentence-domain = Teikuma joma
 
 public-domain-explanation-1 = Ir ļoti svarīgi, lai visi teikumi būtu <publicDomain>publiskais domēns</publicDomain> (<cc0>cc0</cc0>), jo Common Voice datu kopa tiek izlaista ar cc0 licenci. Augšupielādējiet teikumu tikai tad, ja esat pārliecināts par tā publiskumu, un vienmēr iekļaujiet atsauci uz avotu.
 public-domain-explanation-2 = Labākie teikumi noderīga runas atpazīšanas rīka izveidei ir sarunvaloda, mūsdienīga valoda. Dažas ierosinājumi, kas palīdzēs veidot teikumus, ir:
-public-domain-explanation-3 = Izveidojiet mūsdienīgus sarunvalodas teikumus pats vai kopā ar draugiem vai valodu kopienu, piemēram, rīkojot “rakstīšanas maratonu”
+public-domain-explanation-3 = Izveido mūsdienīgus sarunvalodas teikumus pati/s vai kopā ar draugiem vai valodas kopienu, piemēram, rīkojot “rakstīšanas maratonu”
 public-domain-explanation-4 = Sazinieties ar autoriem, dramaturgiem vai scenāristiem un jautājiet, vai viņi būtu gatavi nodot nelielu daļu no saviem darbiem publiskajā īpašumā. Teikumus var publicēt alfabētiskā secībā, lai tas netraucētu kādiem darba autora mērķiem.
 public-domain-explanation-5 = Meklējiet tekstu, uz kuru autortiesības vairs neattiecas, piemēram, vairums grāmatu, kas izdotas pirms 1920. gada, šobrīd ir brīvi pieejamas ikvienam.
 public-domain-explanation-6 = Sazinieties ar valdībām, pašvaldībām, bezpeļņas organizācijām vai plašsaziņas līdzekļu organizācijām, lai noskaidrotu, vai kāda daļa no to tīmekļa zinām, ziņojumiem, atskaitēm vai citam saturam varētu būt nodots sabiedrības lietošanā.
@@ -263,7 +263,7 @@ code-switching-review-offensive-content = <bold>Aizskarošs saturs vai sensitīv
 code-switching-answer-header = Aizvainojošs saturs vai sensitīva informācija
 code-switching-review-no-1 = Jautājumi, kas varētu izvilināt personu identificējošu informāciju
 code-switching-review-no-2 = Jautājumi, kas var mudināt uz naida runu vai citiem aizspriedumiem vai aizvainojošiem uzskatiem
-code-switching-review-no-3 = Jautājumi, kas kādam varētu likt izpaust sensitīvu informāciju vai aizkaitinošu atbildi
+code-switching-review-no-3 = Jautājumi, kas kādam varētu likt izpaust jūtīgu informāciju vai izaicinošu atbildi
 # Answering a Question
 code-switching-answer-subheader = Uzdod uz jautājumu
 code-switching-answer-intro = Atbildot uz jautājumu, mērķis ir atbildēt dabiski — tāpat kā reālās dzīves sarunā. Mēs vēlamies aptvert, kā valodas faktiski sajaucas ikdienas runā.
