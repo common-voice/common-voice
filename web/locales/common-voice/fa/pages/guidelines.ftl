@@ -145,8 +145,24 @@ example-questions-explanation-2 = اگر می‌خواهید مجموعه‌ای
 # Answer Questions
 answer-questions = به پرسش‌ها پاسخ دهید
 answer-questions-subheader = راهنمایی‌های عمومی
+answer-questions-explanation-1 = کمی دربارهٔ پرسش فکر کنید و ببینید چه می‌خواهید بگویید، اما  زیاد درگیر متن‌تان نکنید. روی نقشک «ضبط» کلیک کنید. پس از ضبط می‌توانید صدایتان را بشنوید، دوباره ضبط کنید، آن را حذف کنید یا بفرستید.
+answer-questions-explanation-2 = یادتان باشد: اگر به لکنت افتادید، مکث کردید یا واژه‌ای را تکرار کردید، نگران نباشید. همهٔ این‌ها داده‌های مفیدی برای مهندسانی است که می‌خواهند ابزارهای تشخیص گفتار فراگیر و واقعی بسازند.
+answer-questions-tip-1 = در جایی نسبتاً آرام ضبط کنید
+answer-questions-tip-2 = جایی را انتخاب کنید که اتصال اینترنت خوبی دارد
+answer-questions-tip-3b = سعی کنید پاسختان بین ۱۵ تا ۳۰ ثانیه باشد
+answer-questions-tip-4 = از گفتار نفرت‌آمیز، تحریک‌کننده یا هر سخن توهین‌آمیز دیگری پرهیز کنید
+answer-questions-tip-5 = طبیعی حرف بزنید، همان‌طور که با یک دوست حرف می‌زنید؛ از گونهٔ زبانی، گویش و لهجهٔ واقعی خودتان استفاده کنید
+answer-questions-tip-6 = بلندی صدایتان را یکنواخت نگه دارید؛ فریاد نزنید و آواز نخوانید
+# Transcribe the Audio
+transcribe-the-audio = رونویسی صدا
 transcribe-the-audio-subheader-1 = راهنمایی‌های عمومی
+transcribe-the-audio-subheader-2 = اعداد و سرواژه‌ها
 transcribe-the-audio-subheader-3 = برچسب‌های ویژه
+transcribe-the-audio-subheader-4 = پاره‌واژه‌ها، شروع‌های ناتمام، واژه‌های تکراری
+transcribe-the-audio-subheader-5 = اشتباه‌های دستوری و اصطلاحات عامیانه
+transcribe-the-audio-subheader-1-explanation = به طور کلی، شما باید هر آنچه را که می‌شنوید بنویسید. این شامل موارد زیر می‌شود:
+transcribe-the-audio-subheader-1-explanation-example-1 = نوشتن ناهماهنگی‌های گفتاری، از جمله مکث‌ها و تکرارها
+transcribe-the-audio-subheader-1-explanation-example-2 = برچسب زدن به صداهایی مثل سرفه یا خنده
 tags-table-header-1 = برچسب
 tags-table-header-2 = معنی
 tags-noise = نویز
