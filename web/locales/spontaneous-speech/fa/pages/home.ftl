@@ -13,14 +13,21 @@ why-card-3-text = پشتیبانی بهتر از زبان‌هایی که پیک
 how-spontaneous-speech-works = چگونه گفتار خودجوش کار می‌کند
 # text wrapped in <mark></mark> will have a blue background
 prompt-bubble-title = <mark>پرسش</mark>
+prompt-bubble-subtitle = ما یک پرسش به شما نشان می‌دهیم
+# text wrapped in <mark></mark> will have a blue background
+respond-bubble-title = <mark>پاسخ</mark>
+respond-bubble-subtitle = تا جایی که می‌توانید طبیعی به آن پاسخ می‌دهید
 # text wrapped in <mark></mark> will have a blue background
 transcribe-bubble-title = <mark>رونویسی</mark>
+transcribe-bubble-subtitle = آنچه را در قطعه‌های صوتی می‌شنوید، می‌نویسید
 # text wrapped in <mark></mark> will have a blue background
 check-bubble-title = <mark>بررسی</mark>
 check-bubble-subtitle = بررسی می‌کنید که آیا رونویسی با صدا مطابقت دارد یا نه
 # text wrapped in <mark></mark> will have a blue background
 data-bubble-title = <mark>داده</mark>
+data-bubble-subtitle = مجموعه‌داده را به‌طور دوره‌ای منتشر می‌کنیم
 contact-us = تماس با ما
+contact-us-title = می‌خواهید در این پروژه مشارکت کنید یا با ما همکاری کنید؟
 contact-us-email = رایانامه: <emailFragment>commonvoice@mozilla.com</emailFragment>
 signup-form-title = آیا در گروه آزمایش بتا پروژه گفتار خودجوش آوای مشترک ما عضو هستید؟
 signup-terms = با کلیک بر روی «ارسال پیوند به رایانامه‌ام»، شما با شرایط ارائهٔ خدمات و سیاست حفظ محرمانگی ما موافقت می‌کنید و می‌پذیرید که Mozilla ممکن است اطلاعاتی درباره نحوه مشارکت در آزمایش بتای پروژه گفتار خودجوش آوای مشترک را برای شما رایانامه کند.
