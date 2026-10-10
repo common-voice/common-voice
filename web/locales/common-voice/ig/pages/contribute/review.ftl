@@ -14,6 +14,12 @@ sc-review-form-source = Ísí ḿmàlíté: { $sentenceSource }
 sc-review-form-button-reject = Jụ́
 sc-review-form-button-skip = Máfèé
 sc-review-form-button-approve = Kwàdó
+# Keyboard shortcut to use to approve a sentence (sc-review-form-button-approve)
+sc-review-form-button-approve-shortcut = Y
+# Keyboard shortcut to use to reject a sentence (sc-review-form-button-reject)
+sc-review-form-button-reject-shortcut = N
+# Keyboard shortcut to use to skip a sentence (sc-review-form-button-skip)
+sc-review-form-button-skip-shortcut = S
 sc-review-form-keyboard-usage-custom = I nwekwara ike iji Shọtkọt Kịịbọọdu: { sc-review-form-button-approve-shortcut } ịnabata, { sc-review-form-button-reject-shortcut } ịjụ, { sc-review-form-button-skip-shortcut } iwụpụ
 sc-review-form-button-submit =
     .submitText = M̀echáá Nyòcháá

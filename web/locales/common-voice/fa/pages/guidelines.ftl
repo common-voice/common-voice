@@ -163,9 +163,32 @@ transcribe-the-audio-subheader-5 = اشتباه‌های دستوری و اصط�
 transcribe-the-audio-subheader-1-explanation = به طور کلی، شما باید هر آنچه را که می‌شنوید بنویسید. این شامل موارد زیر می‌شود:
 transcribe-the-audio-subheader-1-explanation-example-1 = نوشتن ناهماهنگی‌های گفتاری، از جمله مکث‌ها و تکرارها
 transcribe-the-audio-subheader-1-explanation-example-2 = برچسب زدن به صداهایی مثل سرفه یا خنده
+transcribe-the-audio-subheader-1-explanation-example-3 = برچسب زدن آلودگی صوتی قابل‌توجه، مانند گفتگوی پس‌زمینه یا بوق خودروها
+transcribe-the-audio-subheader-1-explanation-example-4 = تفاوت‌های دستوری و زبان عامیانه باید دقیقاً همان‌طور که گفته شده‌اند ثبت شوند. گفتار افراد را اصلاح یا ویرایش نکنید.
+transcribe-the-audio-subheader-2-explanation-1 = اعداد و نمادها باید با حروف نوشته شوند، نه با رقم یا نویسه‌های ویژه. مثال:
+transcribe-the-audio-subheader-2-explanation-2 = سرواژه‌ها باید همان‌طور نوشته شوند که معمولاً در آن زبان نوشته می‌شوند و طبق قواعد معیار آن زبان. نباید آن‌ها را آوایی نوشت. مثال:
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <correct>درست</correct>: صد مایل با اینجا فاصله دارد
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <wrong>اشتباه</wrong>: ۱۰۰ مایل با اینجا فاصله دارد
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correct>درست</correct>: سال <underline>دو هزار و پانزده</underline> می‌بینمت
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>اشتباه</wrong>: سال <underline>۲۰۱۵</underline> می‌بینمت
+transcribe-the-audio-subheader-2-example-3-correct = <correct>درست</correct>: بیست درصد تخفیف داشت
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>اشتباه</wrong>: ۲۰٪ تخفیف داشت
+transcribe-the-audio-subheader-2-example-4-correct = <correct>درست</correct>: پنجشنبهٔ گذشته <underline>FBI</underline> آن‌ها را بازداشت کرد
+transcribe-the-audio-subheader-2-example-4-wrong = <wrong>اشتباه</wrong>: پنجشنبهٔ گذشته <underline>اِففف بییی آیییی</underline> آن‌ها را بازداشت کرد
+transcribe-the-audio-subheader-3-explanation = برچسب‌های ویژهٔ زیر باید برای نشانه‌گذاری ناهماهنگی‌های گفتاری، واژگان پرکننده‌ای و سایر انواع محتوای غیرکلامی (به زبان انگلیسی) استفاده شوند.
 tags-table-header-1 = برچسب
 tags-table-header-2 = معنی
+tags-laugh = خنده
+tags-unclear = نامفهوم
 tags-noise = نویز
+tags-laugh-explanation = صدای خنده.
+tags-disfluency-explanation =
+    واژه یا صدای پرکننده‌ای که گوینده تا تصمیم بگیرد چه بگوید به کار می‌برد.
+    در فارسی، برخی صداهای رایج مکث «اِم»، «اِه»، «خب» و مانند آن است.
 
 ## Review the Transcription
 
