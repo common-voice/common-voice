@@ -12,6 +12,8 @@ why-card-2-text = پشتیبانی بهتر از واقعیت‌های زبان�
 why-card-3-text = پشتیبانی بهتر از زبان‌هایی که پیکرهٔ متنی کمی دارند یا <mark>اصلاً پیکرهٔ متنی ندارند</mark> (مثلاً گونه‌های اجتماعی، گویش‌ها، زبان‌هایی که در طول تاریخ خط نداشته‌اند و غیره)
 how-spontaneous-speech-works = چگونه گفتار خودجوش کار می‌کند
 # text wrapped in <mark></mark> will have a blue background
+prompt-bubble-title = <mark>پرسش</mark>
+# text wrapped in <mark></mark> will have a blue background
 transcribe-bubble-title = <mark>رونویسی</mark>
 # text wrapped in <mark></mark> will have a blue background
 check-bubble-title = <mark>بررسی</mark>
