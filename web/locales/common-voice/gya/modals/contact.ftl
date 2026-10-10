@@ -7,3 +7,4 @@ contact-form-message =
     .label = Tom
 contact-required = ák
 contact-form-success = Ɛ́ɛ́ tómá tom kɛnɛ. Ósɔkɔ !
+contact-form-error = ŋma-mɔ nɛ nɔ nɛ déa na, ɛnɛ wé woyo.
