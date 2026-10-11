@@ -1,6 +1,7 @@
 action-click = Pị̀á
 action-tap = Kpàtụ́
 contribute = Tụ̀nyé òkè
+review = Nyòchàá
 skip = Máfèé
 shortcuts = Ụ́zọ̀ ḿpíó (Shortcuts)
 clips-with-count-pluralized =
