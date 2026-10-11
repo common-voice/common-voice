@@ -518,3 +518,13 @@ announcement-release-delay = Ezigbo ọgbakọ ndị ọrụ, anyị na-arụ �
 
 # Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
 announcement-release = Ezigbo ọgbakọ ndị ọrụ, mwepụta ọhụrụ ahụ adịla ugbu a na <mdcLink> Mozilla Data Collective </mdcLink>. Sonye maka inweta ntọala data 500+ nke ụwa niile, e wụlitere site n'aka ọgbakọ ndị ọrụ, nye ọgbakọ ndị ọrụ.
+
+## Pre-Release Announcement (dates TBD)
+
+# Text wrapped in <cvDatasheetsLink></cvDatasheetsLink> will be rendered as an external link to the cv-datasheets GitHub repo
+announcement-pre-release = Ezigbo ọgbakọ ndị ọrụ, oge mwepụta na-abịa nsọ. Biko gaa kwenabata ma detuo okwu, ma gakwaa na <cvDatasheetsLink>cv-datasheets</cvDatasheetsLink> imelite akwọkwụ data gị.
+
+## Release Commencing
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-commencing = Ezigbo ọgbakọ ndị ọrụ, anyị erutela n'ụbọchị njedebe nke mwepụta ahụ ma na-ejikọtakwa ntọala data ndị ahụ. Mwepụta ọhụrụ ga-adị na <mdcLink>Mozilla Data Collective </mdcLink> n'ime ụbọchị ole na ole.
