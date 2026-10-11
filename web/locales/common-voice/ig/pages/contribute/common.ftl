@@ -11,6 +11,7 @@ clips-with-count-pluralized =
     }
 goal-help-recording = Í nyérélá Common Voice áká írúté<goalPercentage></goalPercentage>ǹké ébmnúché ńdékọ́ ányị́{ $goalValue } kwà ụ́bọ̀chị̀!
 goal-help-validation = Í nyérélá Common Voice áká írúté<goalPercentage></goalPercentage> ǹké bụ́ èbùmnúchè ńkwàdó { $goalValue }ányị́ kwà ụ́bọ̀chị̀!
+contribute-more = Ị dị njikere imewanye { $count }?
 speak-empty-state = Áhị́rị́ókwú á gà-èdékọ́ n'ásụ̀sụ́ à àgwụ́sị́gó
 speak-empty-state-cta = Nye aka n'ahịrịokwu
 record-button-label = Kpọ̀nyé ólú ókwú gị́
