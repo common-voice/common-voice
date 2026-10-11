@@ -196,14 +196,29 @@ special-tags-example-2 =
     و بعد من [noise] رفتم تعطیلات.
     خب، [noise] [laugh] راستش دقیقاً تعطیلات نبود [laugh]
 transcribe-the-audio-subheader-4-explanation-1 = گفتار فی‌البداهه به‌طور طبیعی شروع‌های ناتمام دارد، یعنی فقط بخشی از یک واژه گفته می‌شود. در این موارد، لطفاً پاره‌واژه را تا جایی که می‌توانید رونویسی کنید و در انتهای آن خط تیره (-) بگذارید تا نشان دهد آغازی ناتمام است. مثال:
+transcribe-the-audio-subheader-4-explanation-1-example = اسمش <underline>جو- جونا-</underline> جاناتانه.
+transcribe-the-audio-subheader-4-explanation-2 = گاهی گوینده یک واژه یا پاره‌واژه را چند بار تکرار می‌کند. این هم باید رونویسی شود. مثال:
+transcribe-the-audio-subheader-4-explanation-2-example = و بعد رفتم <underline>تو تو تو اتا- تو</underline> اتاق خواب
+transcribe-the-audio-subheader-5-explanation-1 = گفتار فی‌البداهه به‌طور طبیعی اشتباه‌های دستوری دارد. این اشتباه‌ها نباید هنگام رونویسی اصلاح شوند. رونویسی باید دقیقاً همان محتوای گفته‌شده را بازتاب دهد.
+transcribe-the-audio-subheader-5-explanation-2 = گوینده ممکن است از اصطلاحات محاوره‌ای استفاده کند (مثلاً در فارسی «می‌خوام»، «نمی‌دونم» و مانند آن) که شاید از نظر رسمی درست به شمار نیایند. این‌ها باید همان‌طور که هستند رونویسی شوند و به شکل رسمی‌ترشان تغییر نکنند.
 
 ## Review the Transcription
 
 review-the-transcription = بازبینی رونویسی‌ها
 review-the-transcription-subheader = راهنمایی‌های عمومی
+review-the-transcription-explanation-1 = به‌طور کلی پیشنهاد می‌کنیم کسی که رونویسی را بررسی می‌کند، همان کسی نباشد که آن را رونویسی کرده است. بررسی کار خود بسیار دشوار است! چند مرحله بازبینی به تضمین کیفیت کمک می‌کند و سوگیری‌ها و مشکلات را کم می‌کند.
+review-the-transcription-explanation-2 = برای اطمینان از درستی رونویسی، راهنماهای رونویسی بالا را مرور کنید. می‌توانید آن را ویرایش کنید و بفرستید.
+review-the-transcription-explanation-3 = باز هم یادآوری می‌کنیم که می‌توانید محتوای توهین‌آمیز، آسیب‌رسان یا به هر شکلی نگران‌کننده را علامت بزنید؛ این محتوا تا زمانی که تیم آوای مشترک آن را بازبینی و بیشتر بررسی کند، از تجربهٔ شما حذف می‌شود.
 
 ## Code-Switching
 
+code-switching = جابه‌جایی زبانی
+adding-a-question = افزودن پرسش
+# Adding a Question
+code-switching-adding-question-subheader = پرسش خوب چه ویژگی‌هایی دارد؟
+code-switching-adding-question-explanation = یک پرسش خوب برای مجموعه‌داده‌های مشارکت عمومی باید:
+code-switching-adding-question-criteria-1 = فهمیدن و پاسخ دادن به آن آسان باشد
+code-switching-adding-question-criteria-2 = برای عموم مرتبط باشد
 code-switching-focus-emotional-explanation-example = «بگو وقتی خبر مهمت را به پدر و مادرت دادی چه گفتند؛ دقیقاً همان‌طور که گفتند.»
 code-switching-direct-quotes-header = نقل‌قول مستقیم یا بازسازی گفت‌وگو را بخواهید
 code-switching-direct-quotes-explanation = شرکت‌کنندگان را تشویق کنید چیزها را همان‌طور که واقعاً گفته شده بازگو کنند. مثال:
