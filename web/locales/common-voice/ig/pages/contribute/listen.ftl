@@ -25,4 +25,6 @@ review-transcriptions-menu-item-tooltip = Kwenabata ndetuokwu ojieme nyefere (su
 
 ## MENU ITEM ARIA LABELS
 
+listen-contribute-menu-aria-label = Gee ntị nhọrọ menu
+validate-readings-menu-item-aria-label = Kwenabata ihe ọgụgụ ndị otu ọgba ndị ọrụ nyefere
 review-transcriptions-menu-item-aria-label = Nyochaa ndetuokwu nke ahịrịokwu ndị e dekọrọ edekọ maka izi ezi

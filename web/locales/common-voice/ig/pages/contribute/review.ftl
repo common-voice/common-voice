@@ -51,3 +51,5 @@ sc-review-rules-title = Ahịrịokwu ahụ ò kwekọrọ na ntuziaka ndị a?
 sc-review-empty-state = E nweghị ahịrịokwu ọ bụla a ga-enyocha n'asụsụ a ugbu a.
 report-sc-different-language = Asụsụ dị iche
 report-sc-different-language-detail = E dere ya n'asụsụ dị iche na nke m na-enyocha.
+sentences-fetch-error = E nwere nsogbu n'iwepụta ahịrịokwu
+review-error = E nwere nsogbu n'inyocha ahịrịokwu a
