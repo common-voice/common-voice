@@ -9,6 +9,19 @@ listen-empty-state-variants = Ụdị asụsụ gị nwere ike o nweghịzi mkp�
 listen-loading-error =
     Anyị enweghị ike nwetara gị ụda mkpụrụ olu ọ bụla ige ntị. 
     Biko nwaa ọzọ ma emechaa.
+listen-abort-title = I mechaala nkwenabata mkpụrụ olu?
+listen-abort-cancel = Gaa n'ihu na-ekwenabata
+listen-abort-confirm = Kwenabatachaa
+# Menu item
+validate-readings = Kwenabata Ihe Ọgụgụ
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = Kwenabata Ihe Ọgụgụ <small>(Na-abịa n'oge na-adịghị anya) </small>
+
+## MENU ITEM TOOLTIPS
+
+listen-contribute-menu-tooltip = Kwenabata Ihe Ọgụgụ, Nyochaa Ndetuokwu
+validate-readings-menu-item-tooltip = Kwenabata ihe ọgụgụ ojieme dekọrọ n'asụsụ gị
+review-transcriptions-menu-item-tooltip = Kwenabata ndetuokwu ojieme nyefere (submit) n'asụsụ gị
 
 ## MENU ITEM ARIA LABELS
 
