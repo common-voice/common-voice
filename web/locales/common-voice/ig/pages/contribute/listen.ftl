@@ -5,6 +5,10 @@ listen-again-instruction = Í méélá ǹkè ọ́má!<playIcon></playIcon>Gè�
 listen-3rd-time-instruction = 2 àgáá, jìsíé íké!<playIcon></playIcon>
 listen-last-time-instruction = <playIcon></playIcon>Ǹké ìkpéàzụ́!
 listen-empty-state = E nwere ike ọ bụrụ na anyị enweghịzi mkpụrụ olu - bido peeji ahụ n'isi, ma ọ bụ nwaa ọzọ ma e mechaa.
+listen-empty-state-variants = Ụdị asụsụ gị nwere ike o nweghịzi mkpụrụ olu! Ọ bụrụ na ọ dị gị mma, i nwere ike gbanwee ntọala gị ịhụ ahịrịokwu ndị ọzọ dị n'asụsụ.
+listen-loading-error =
+    Anyị enweghị ike nwetara gị ụda mkpụrụ olu ọ bụla ige ntị. 
+    Biko nwaa ọzọ ma emechaa.
 
 ## MENU ITEM ARIA LABELS
 
