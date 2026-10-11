@@ -326,3 +326,5 @@ qwa = Qúechúa Córɔngó Ancàsh
 qws = Qúechúa Sihuas Ancàsh
 qxa = Qúechúa Chiquián
 qxp = Púnó Quechúa
+rn = kirúndí
+ruc = ruúlí
