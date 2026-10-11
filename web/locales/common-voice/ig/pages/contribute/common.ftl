@@ -136,6 +136,7 @@ contribution-background-noise-example-3-fixed-title = <strong>[Mkpọtụ]</stro
 contribution-background-voices-title = Ólú ná-ádá
 contribution-background-voices-description = Ḿkpọ́tụ́ ná-ádá dị̀ ḿmá mànà ányị́ áchọ́ghị́ ólú ókwú ńdị́ ọ́zọ́ nwéré íké ímé kà ńhàzí ígwè-nwéré-àkọ́núchè (machine learning algorithm) ghọ́tá íhé ná-ádị́ghị́ nà ǹké é dèrè édé. Ọ́bụ́rụ́ nà Ị́ wèrè íké ị́nụ́ ókwú dị́ íchè nà ńdị́ èdèrè èdé, jụ́ ị́nábàtà ḿkpọ́nyé áhụ̀. Ǹké à nà-èmékárị́ mà ọ̀bụ́rụ́ nà á gbànyèrè ígwé ònyònyò mà ọ̀ bụ̀ ná-ákpárị́tá ńkàtá n'ébé dị́ ǹsó.
 contribution-background-voices-description-extended = Ọ́bụ́rụ́ nà ḿkpọ́nyé gbábìé mà ọ̀ bụ̀ nwéé ḿkpọ́bìsí, jụ́ ị́nábàtà yá bèlụ́ sọ̀ mà à kà gà-àgụ́tánwú ǹkè é dị́ n'ụ̀dị́ edèrè èdé.
+contribution-background-voices-example-1-title = Óké dinosaur nke "Triassic" ahụ. <strong>[gụọ n'otu olu]</strong>
 contribution-background-voices-example-1-explanation = Ị̀ nà-àbị́á?<strong> [ónyé ọ́zọ́ kpọ̀tàrà]</strong>
 contribution-volume-title = Ógó ụ̀dà (volume)
 contribution-volume-description = Á gà-énwénátá ǹdị̀íchè ékéréchí n'ógó ụ̀dà n'ètítì ńdị́ ńgụ́pụ̀tá àbụ̀ọ́. Jụ́ ị́nábàtà yá mà ọ́bụ́rụ́ nà ọ́ nà-ádàsị́ íké ǹkè nà ọ́ nághị̀ èkwú ọ́fụ́má mà bụ̀ (ǹké káchá èmé), ọ́ bụ́rụ́ nà ọ́ ná-ádá  ǹkè nà Ị̀ gághị̀ àghọ́táchá íhé é kwùrù bèlú sọ̀ mà Ị̀ lèrè ányá nà ǹkè é dèrè édé.
