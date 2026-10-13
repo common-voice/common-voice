@@ -53,3 +53,6 @@ report-sc-different-language = Asụsụ dị iche
 report-sc-different-language-detail = E dere ya n'asụsụ dị iche na nke m na-enyocha.
 sentences-fetch-error = E nwere nsogbu n'iwepụta ahịrịokwu
 review-error = E nwere nsogbu n'inyocha ahịrịokwu a
+review-error-rate-limit-exceeded = Ị na-agba ọsọ ọsọ. Biko were obere oge nyochaa ahịrịokwu ahụ iji jide n'aka na o ziri ezi.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Anyị na-eme nnukwu mgbanwe
