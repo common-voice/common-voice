@@ -32,3 +32,5 @@ easy-difficulty = Yɛ́kɛ́ɗɛ́
 average-difficulty = Bénaŋ
 difficult-difficulty = Ŋgáyá
 pro-difficulty = Gba ŋgáyá
+want-to-continue = Ɛ́nɛ́ kɔ̧ɔ̧́ mɛ nɛ sítí?
+finish-editing = Kaɗí yɔrá-mɔ sɛ́?
