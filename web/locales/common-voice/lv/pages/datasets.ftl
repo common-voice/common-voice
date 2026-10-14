@@ -17,7 +17,7 @@ datasets-positioning-mdc =
     Šī lapa kalpo kā vēsturisks arhīvs ar iepriekšējām Mozilla Common Voice datu kopu versijām. Arhīva izlaidumi jāizmanto tikai īpašos pētniecības scenārijos, nevis apmācībām, lai respektētu to personu vēlmes, kuras ir pieprasījušas, lai viņu ieguldījums netiktu iekļauts.
 datasets-speech-bubble-content = Aizraujoši jaunumi! Spontāna runa ir ceļā! Sekojiet līdzi jaunumiem un noteikti pārbaudiet mūsu <discordLink>Discord</discordLink> jaunāko informāciju.
 language = Valoda
-download-dataset-header = Lejupielādējiet datu kopu
+download-dataset-header = Lejupielādēt datu kopu
 download-delta-explainer = Mēs esam veikuši dažas izmaiņas. Delta segmenti satur tikai jaunākos ierakstus kopš pēdējās izlaišanas. <deltaLink>Lasiet vairāk par šo darbu</deltaLink>.
 download-dataset-tag = Atlasiet vajadzīgo valodas datu kopu un izvēlieties versiju, kuru vēlaties lejupielādēt.
 # File size in gigabytes
@@ -82,9 +82,9 @@ dataset-donate-modal-heading = Vai zinājāt…
 donate-modal-explanation-1 = Datu kopu uzturēšana un platformas uzlabošana vairāk nekā 100 valodu kopienām, kuras paļaujas uz to, ko mēs darām, maksā gandrīz miljonu dolāru gadā?
 # Text in <bold></bold> will shown in bold
 donate-modal-explanation-2 = <bold>Ja jums ir svarīgi atvērti, iekļaujoši dati, ziedojiet jau šodien!</bold>
-data-download-singleword-title = Lejupielādējiet viena vārda mērķa segmentu
+data-download-singleword-title = Lejupielādēt viena vārda mērķa segmentu
 data-download-singleword-callout-v2 = Šis ir uz lietošanas gadījumu balstīts segments, kurā ir dati, kas nodrošina ierunātu ciparu atpazīšanu un jā/nē noteikšanu.
-data-download-button = Lejupielādējiet Common Voice datus
+data-download-button = Lejupielādēt Common Voice datus
 data-download-yes = Jā
 data-download-deny = Nē
 data-download-license = Licence: <licenseLink> CC-0 </licenseLink>
@@ -105,7 +105,7 @@ license-mixed = Jaukts
 male = Vīrietis
 female = Sieviete
 # MENU ITEM TOOLTIPS
-download-contribute-menu-tooltip = Lejupielādējiet mūsu balss datu kopas
+download-contribute-menu-tooltip = Lejupielādēt mūsu balss datu kopas
 # MENU ITEM ARIA LABELS
 download-contribute-menu-aria-label = Lejupielādes iespējas, lai piekļūtu Common Voice datiem
 datasets-show-more = Rādīt visas datu kopas

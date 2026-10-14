@@ -6,3 +6,4 @@ contact-form-name =
 contact-form-message =
     .label = Pesan
 contact-required = *wajib
+contact-form-success = Pesan Anda telah terkirim. Terima Kasih!

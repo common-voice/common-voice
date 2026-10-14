@@ -70,8 +70,8 @@ sentence-domain = Teikuma joma
 
 public-domain-explanation-1 = Ir ļoti svarīgi, lai visi teikumi būtu <publicDomain>publiskais domēns</publicDomain> (<cc0>cc0</cc0>), jo Common Voice datu kopa tiek izlaista ar cc0 licenci. Augšupielādējiet teikumu tikai tad, ja esat pārliecināts par tā publiskumu, un vienmēr iekļaujiet atsauci uz avotu.
 public-domain-explanation-2 = Labākie teikumi noderīga runas atpazīšanas rīka izveidei ir sarunvaloda, mūsdienīga valoda. Dažas ierosinājumi, kas palīdzēs veidot teikumus, ir:
-public-domain-explanation-3 = Izveidojiet mūsdienīgus sarunvalodas teikumus pats vai kopā ar draugiem vai valodu kopienu, piemēram, rīkojot “rakstīšanas maratonu”
-public-domain-explanation-4 = Sazinieties ar autoriem, dramaturgiem vai scenāristiem un jautājiet, vai viņi būtu gatavi nodot nelielu daļu no saviem darbiem publiskajā īpašumā. Teikumus var publicēt alfabētiskā secībā, lai tas netraucētu kādiem darba autora mērķiem.
+public-domain-explanation-3 = Izveido mūsdienīgus sarunvalodas teikumus pati/s vai kopā ar draugiem vai valodas kopienu, piemēram, rīkojot “rakstīšanas maratonu”
+public-domain-explanation-4 = Sazinies ar autoriem, dramaturgiem vai scenāristiem un jautā, vai viņi būtu gatavi nodot nelielu daļu no saviem darbiem publiskajā īpašumā
 public-domain-explanation-5 = Meklējiet tekstu, uz kuru autortiesības vairs neattiecas, piemēram, vairums grāmatu, kas izdotas pirms 1920. gada, šobrīd ir brīvi pieejamas ikvienam.
 public-domain-explanation-6 = Sazinieties ar valdībām, pašvaldībām, bezpeļņas organizācijām vai plašsaziņas līdzekļu organizācijām, lai noskaidrotu, vai kāda daļa no to tīmekļa zinām, ziņojumiem, atskaitēm vai citam saturam varētu būt nodots sabiedrības lietošanā.
 citing-sentences-explanation-1 = Ir svarīgi iekļaut atsauces, lai mēs varētu pārbaudīt, vai teikumi ir publiski pieejami un netiek piemēroti kādi autortiesību ierobežojumi.
@@ -105,7 +105,7 @@ adding-sentences-subheader-offensive-content-explanation = Ja teikums ir aizskar
 reviewing-sentences-explanation-1 = Ja teikums atbilst iepriekš minētajiem kritērijiem, noklikšķiniet uz pogas "Jā".
 reviewing-sentences-explanation-2 = Ja teikums neatbilst iepriekš minētajiem kritērijiem, noklikšķiniet uz pogas "Nē".
 reviewing-sentences-explanation-3 = Ja neesat pārliecināts par teikumu, varat to izlaist un pāriet uz nākamo.
-reviewing-sentences-explanation-4 = Ja visi teikumi jau ir pārbaudīti, lūdzu, palīdziet mums savākt jaunus teikumus!
+reviewing-sentences-explanation-4 = Ja visi teikumi jau ir pārbaudīti, lūgums palīdzēt mums ievākt jaunus teikumus.
 domain-explanation = Joma attiecas uz teikuma saturu. Jūs varat izvēlēties vienu no:
 
 ## Question collection ids
@@ -207,10 +207,10 @@ transcribe-the-audio-subheader-5-explanation-2 = Runātāji var lietot sarunvalo
 
 ## Review the Transcription
 
-review-the-transcription = Pārskatiet transkripciju
+review-the-transcription = Pārskatīt transkripciju
 review-the-transcription-subheader = Vispārīgi norādījumi
 review-the-transcription-explanation-1 = Kopumā mēs iesakām, lai persona, kas pārbauda transkripciju, nebūtu tā pati persona, kas veica oriģinālo transkripciju. Ir ļoti grūti pašam pārbaudīt savu darbu! Vairāku recenzēšanas līniju esamība var palīdzēt uzlabot kvalitātes nodrošināšanu un mazināt aizspriedumus un problēmas.
-review-the-transcription-explanation-2 = Lai pārbaudītu transkripcijas precizitāti, pārskatiet iepriekš minētās transkripcijas vadlīnijas. Varat veikt labojumus un iesniegt tos.
+review-the-transcription-explanation-2 = Pārskati augstāk esošās transkripcijas vadlīnijas, lai pārliecinātos, ka transkripcija ir pareiza. Ir iespējams veikt labojumus un iesniegt tos.
 review-the-transcription-explanation-3 = Atkal jūs varat atzīmēt saturu, kas ir aizskarošs, kaitīgs vai citādi satraucošs, un tas tiks noņemts no jūsu pieredzes, līdz Common Voice komanda to pārskatīs un veiks tālāku izmeklēšanu.
 
 ## Code-Switching
@@ -229,7 +229,7 @@ code-switching-types-subheader = Kāda veida jautājumus pievienot?
 code-switching-use-bilingual-prompts-header = Izmantojiet divvalodu uzvednes
 code-switching-use-bilingual-prompts-explanation = Izmantojiet divvalodu uzdevumus, iekļaujot abas valodas savā jautājumā: Piemērs:
 code-switching-use-bilingual-prompts-explanation-example = “¿Qué te dijo tu mamá when you got home that day?”
-code-switching-ask-bilingual-contexts-header = Jautājiet par divvalodu kontekstiem
+code-switching-ask-bilingual-contexts-header = Vaicāt par divvalodu kontekstiem
 code-switching-ask-bilingual-contexts-explanation = Izmantojiet situācijas, kurās bieži tiek lietotas abas valodas (piemēram, mājās, skolā, kopienas pasākumos). Piemērs:
 code-switching-ask-bilingual-contexts-explanation-example = "Kad jūs runājat ar saviem brālēniem un māsīcām, vai jūs jaucat spāņu un angļu valodu?"
 code-switching-focus-emotional-header = Koncentrējieties uz emocionāliem vai svarīgiem brīžiem
@@ -263,7 +263,7 @@ code-switching-review-offensive-content = <bold>Aizskarošs saturs vai sensitīv
 code-switching-answer-header = Aizvainojošs saturs vai sensitīva informācija
 code-switching-review-no-1 = Jautājumi, kas varētu izvilināt personu identificējošu informāciju
 code-switching-review-no-2 = Jautājumi, kas var mudināt uz naida runu vai citiem aizspriedumiem vai aizvainojošiem uzskatiem
-code-switching-review-no-3 = Jautājumi, kas kādam varētu likt izpaust sensitīvu informāciju vai aizkaitinošu atbildi
+code-switching-review-no-3 = Jautājumi, kas kādam varētu likt izpaust jūtīgu informāciju vai izaicinošu atbildi
 # Answering a Question
 code-switching-answer-subheader = Uzdod uz jautājumu
 code-switching-answer-intro = Atbildot uz jautājumu, mērķis ir atbildēt dabiski — tāpat kā reālās dzīves sarunā. Mēs vēlamies aptvert, kā valodas faktiski sajaucas ikdienas runā.
@@ -271,7 +271,7 @@ code-switching-answer-bullet-1 = Padomājiet par reālās dzīves mirkļiem vai 
 code-switching-answer-bullet-2 = Iedomājieties, ka rakstāt īsziņu draugam vai stāstāt kādam stāstu.
 code-switching-answer-bullet-3 = Izmantojiet vārdus, kurus jūs faktiski lietotu, pat ja tie ir aizgūti vai jaukti
 code-switching-answer-bullet-4 = Nav viena “ideāla” veida, kā atbildēt
-code-switching-authentic-header = Atbildiet dabiski un autentiski
+code-switching-authentic-header = Atbildi dabiski un nesamāksloti
 code-switching-authentic-speak = <bold>Runājiet tā, kā jūs runātu ar draugiem vai ģimeni.</bold> Ja reālajā dzīvē jaucat valodas, dariet to pašu šeit. Piemērs:
 code-switching-authentic-speak-example = "Es viņai teicu, ka nevaru iet, bet viņa atbildēja: "Labāk nāc!""
 code-switching-use-both-languages = <bold>Izmantojiet abas valodas, ja jūs to parasti tā teiktu.</bold> Pat tikai viena vai divu vārdu maiņa ir noderīga. Piemērs:

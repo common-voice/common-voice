@@ -16,7 +16,7 @@ cs-question-dataset-name = Datu kopa: { $datasetName }
 
 ## Validate Page Items
 
-cs-validate-page-instruction = Apstipriniet, ka <validateIcon></validateIcon> šis jautājums atbilst vadlīnijām.
+cs-validate-page-instruction = Apstiprināt <validateIcon></validateIcon>, ka šis jautājums atbilst vadlīnijām.
 cs-no-questions-continue-skipped = Šim datu kopumam vairs nav jautājumu. Ja esat kādu izlaidis, varat turpināt darbu ar izlaisto saturu vai pāriet uz audio transkripciju un mēģināt vēlreiz vēlāk.
 cs-add-vote-error-message = Balsojot par jautājumu, radās kļūda.
 
@@ -40,7 +40,7 @@ read-full-guidelines-here = <guidanceLink>Izlasiet visas vadlīnijas šeit</guid
 
 ## Answer Page Guidelines
 
-cs-learn-how-to-use-answer-explanation = Atbildiet uz jautājumu pēc iespējas dabiskāk, droši mainiet valodas, ja tas šķiet dabiski. Pārliecinieties, ka jūsu valoda ir cieņpilna un neaizskaroša.
+cs-learn-how-to-use-answer-explanation = Jāatbild uz vaicājumu pēc iespējas dabiskāk, droši mainot valodas, ja tas šķiet dabiski. Jāpārliecinās, ka izmantotā valoda ir cieņpilna un neaizskaroša.
 
 ## Review Page Guidelines
 

@@ -1,6 +1,6 @@
 # GUIDELINES PAGE
 guidelines-header = Směrnicy za sobuskutkowarjow
-guidelines-header-subtitle = Zrozumće, kak móžeće datowej sadźbje Common Voice sady a awdioklipy přinošować a kak móžeće je přepruwować
+guidelines-header-subtitle = Zrozumće, kak móžeće datowej sadźbje Common Voice sady a awdijoklipy přinošować a kak móžeće je přepruwować
 voice-collection = Zběrka hłosow
 sentence-collection = Zběrka sadow
 question-collection = Zběrka prašenjow

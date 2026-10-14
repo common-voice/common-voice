@@ -285,6 +285,7 @@ nqo = NKo
 nr = IsiNdebele (Súdlik)
 nso = Noard-Sotho
 ny = Chinyanja
+nyb = Nyagbo
 nyn = Nyankole
 nyu = Nyungwe
 oc = Okkitaansk

@@ -1,6 +1,7 @@
 action-click = Pị̀á
 action-tap = Kpàtụ́
 contribute = Tụ̀nyé òkè
+review = Nyòchàá
 skip = Máfèé
 shortcuts = Ụ́zọ̀ ḿpíó (Shortcuts)
 clips-with-count-pluralized =
@@ -10,8 +11,13 @@ clips-with-count-pluralized =
     }
 goal-help-recording = Í nyérélá Common Voice áká írúté<goalPercentage></goalPercentage>ǹké ébmnúché ńdékọ́ ányị́{ $goalValue } kwà ụ́bọ̀chị̀!
 goal-help-validation = Í nyérélá Common Voice áká írúté<goalPercentage></goalPercentage> ǹké bụ́ èbùmnúchè ńkwàdó { $goalValue }ányị́ kwà ụ́bọ̀chị̀!
+contribute-more = Ị dị njikere imewanye { $count }?
 speak-empty-state = Áhị́rị́ókwú á gà-èdékọ́ n'ásụ̀sụ́ à àgwụ́sị́gó
+no-sentences-for-variants = Ụdị asụsụ gị nwere ike o nweghịzi ahịrịokwu! Ọ bụrụ na ọ ga-adị gị mma, i nwere ike gbanwee ntọala gị iji hụ ahịrịokwu ndị ọzọ dị n'asụsụ gị.
 speak-empty-state-cta = Nye aka n'ahịrịokwu
+speak-loading-error =
+    Anyị enweghị ike nwetara gị ahịrịokwu ọ bụla ikwu. 
+    Biko nwaa ọzọ ma emechaa.
 record-button-label = Kpọ̀nyé ólú ókwú gị́
 share-title-new = <bold>Nyèré ányị́ aká </bold>chọ̀tákwúó ólú ókwú ndị ọzọ
 keep-track-profile = Jide profaịlụ gị́ ná-àmátá kà Í sì ágá n'íhú.
@@ -21,6 +27,15 @@ target-segment-generic-card = Ị́ nà-àtụ́nyé óké n'ótù ńgàlàbá �
 target-segment-first-banner = Nyé áká képụ̀tá ńgàlàbá èbùmnúché Common Voice ǹké ḿbụ́ nà{ $locale }
 target-segment-add-voice = Tìnyé ólū gị́
 target-segment-learn-more = Mụ̀tákwúó
+change-preferences = Gbanwee mmasị
+login-signup = Banye / Debanye aha
+vote-yes = Ee
+vote-no = Ḿbà
+datasets = Ntọala data
+languages = Ásụ̀sụ́
+about = Banyere
+partner = Onye Nrụkọ
+submit-form-action = Nyéfèé
 
 ## Reporting
 
@@ -114,9 +129,14 @@ contribution-varying-pronunciations-example-2-explanation = [‘Raised’ in Eng
 contribution-background-noise-title = Ḿkpọ́tụ́ ná-ádá
 contribution-background-noise-description = Ànyị́ chọ̀rọ̀ kà ńhàzí ígwé é jì émé ḿmụ̀tá nwéé íké íjíkwátá ḿkpọ́tụ́ ná-ádà, mà ọ̀bụ́làdị̀ ụ̀zụ́ ná-ádàsị́ íké kà é nwèrè íké ị́nábàtà mà ọ́bụ́rụ́ nà há égbóchìghì gị̀ ị́ghọ́tá íhé níílé dị́ n'èdèrèèdé. Ḿkpọ́tụ́ ná-ádá àlá àlà dị̀ ḿmá; mànà égwú ná-ádàsị́ íké ǹké nwéré íké ímé kà Ị́ ghàrá ị́nụ́ ḿkpụ́rụ́ókwú níílé ádị́ghị́ ḿmá.
 contribution-background-noise-description-extended = Ọ́bụ́rụ́ nà ḿkpọ́nyé gbábìé mà ọ̀ bụ̀ nwéé ḿkpọ́bìrísí, jụ́ ị́nábàtà yá bèlụ́ sọ̀ mà à kà gà-ánụ́ íhé níílé dị́ n'èdèrèèdé.
+contribution-background-noise-example-1-fixed-title = <strong>[Ize uzere]</strong> Óké dinosaur ahụ nke <strong>[ụkwara]</strong> "Triassic".
+contribution-background-noise-example-2-fixed-title = Óké dino <strong>[ụkwara] </strong> "Triassic" ahụ.
+contribution-background-noise-example-2-explanation = [A naghị anụ ụfọdụ ederede ahụ]
+contribution-background-noise-example-3-fixed-title = <strong>[Mkpọtụ]</strong> óké dinosaur nke <strong>[mkpọtụ] </strong> -riassic.
 contribution-background-voices-title = Ólú ná-ádá
 contribution-background-voices-description = Ḿkpọ́tụ́ ná-ádá dị̀ ḿmá mànà ányị́ áchọ́ghị́ ólú ókwú ńdị́ ọ́zọ́ nwéré íké ímé kà ńhàzí ígwè-nwéré-àkọ́núchè (machine learning algorithm) ghọ́tá íhé ná-ádị́ghị́ nà ǹké é dèrè édé. Ọ́bụ́rụ́ nà Ị́ wèrè íké ị́nụ́ ókwú dị́ íchè nà ńdị́ èdèrè èdé, jụ́ ị́nábàtà ḿkpọ́nyé áhụ̀. Ǹké à nà-èmékárị́ mà ọ̀bụ́rụ́ nà á gbànyèrè ígwé ònyònyò mà ọ̀ bụ̀ ná-ákpárị́tá ńkàtá n'ébé dị́ ǹsó.
 contribution-background-voices-description-extended = Ọ́bụ́rụ́ nà ḿkpọ́nyé gbábìé mà ọ̀ bụ̀ nwéé ḿkpọ́bìsí, jụ́ ị́nábàtà yá bèlụ́ sọ̀ mà à kà gà-àgụ́tánwú ǹkè é dị́ n'ụ̀dị́ edèrè èdé.
+contribution-background-voices-example-1-title = Óké dinosaur nke "Triassic" ahụ. <strong>[gụọ n'otu olu]</strong>
 contribution-background-voices-example-1-explanation = Ị̀ nà-àbị́á?<strong> [ónyé ọ́zọ́ kpọ̀tàrà]</strong>
 contribution-volume-title = Ógó ụ̀dà (volume)
 contribution-volume-description = Á gà-énwénátá ǹdị̀íchè ékéréchí n'ógó ụ̀dà n'ètítì ńdị́ ńgụ́pụ̀tá àbụ̀ọ́. Jụ́ ị́nábàtà yá mà ọ́bụ́rụ́ nà ọ́ nà-ádàsị́ íké ǹkè nà ọ́ nághị̀ èkwú ọ́fụ́má mà bụ̀ (ǹké káchá èmé), ọ́ bụ́rụ́ nà ọ́ ná-ádá  ǹkè nà Ị̀ gághị̀ àghọ́táchá íhé é kwùrù bèlú sọ̀ mà Ị̀ lèrè ányá nà ǹkè é dèrè édé.

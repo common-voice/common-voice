@@ -285,6 +285,7 @@ nqo = N’ko
 nr = Ndébélé du Sud
 nso = Sotho du Nord
 ny = Chewa
+nyb = Nyangbo
 nyn = Nkore
 nyu = Nyungwe
 oc = Occitan

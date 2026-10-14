@@ -285,6 +285,7 @@ nqo = NKo
 nr = Ndebele de sud
 nso = Sotho de Nord
 ny = Chinyanja
+nyb = Nyagbo
 nyn = Runyankole
 nyu = Nyungwe
 oc = Occitană

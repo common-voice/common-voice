@@ -7,3 +7,4 @@ contact-form-message =
     .label = Հաղորդագրություն
 contact-required = *պարտադիր է
 contact-form-success = Ձեր հաղորդագրությունն ուղարկված է։ Շնորհակալություն։
+contact-form-error = Ինչ-որ բան սխալ է գնացել։ Խնդրում ենք կրկին փորձել։

@@ -64,7 +64,7 @@ whats-public = Ce este public?
 email-not-public = Nu îți vom face publică adresa de e-mail.
 recordings-and-locale-public = Numărul de înregistrări și limbile în care vei contribui vor fi publice.
 username-optin-public = Poți alege să îți faci numele de utilizator public sau anonim.
-demographic-deidentified-clarity-2 = Datele demografice trimise opțional (de ex. vârsta, sexul, limba și accentul) nu vor fi făcute niciodată publice pe profilul tău și nu vor fi legate de contul tău în setul de date. Secvențele audio individuale vor fi asociate cu datele demografice în scopul unei analize mai precise - de exemplu, un cercetător ar putea dori să creeze un model de recunoaștere vocală specific unui anumit segment demografic.
+demographic-deidentified-clarity-2 = Datele demografice trimise opțional (de ex. vârsta, sexul, limba și accentul) nu vor fi făcute niciodată publice în profilul tău și nu vor fi asociate contului tău în setul de date. Secvențele audio individuale vor fi asociate cu datele demografice în scopul unei analize mai precise - de exemplu, un cercetător ar putea dori să creeze un model de recunoaștere vocală specific unui anumit segment demografic.
 username-email-not-demographic = Numele tău de utilizator și adresa de e-mail nu vor fi asociate cu datele publicate.
 
 ## Landing
