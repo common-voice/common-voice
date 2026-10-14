@@ -88,15 +88,15 @@ player-skip-forward-shortcut-name = Doprědka
 ## Transcription Player - Aria Labels
 
 # Play button accessibility/aria label
-player-play-button-aria-label = Awdio wothrać
+player-play-button-aria-label = Awdijo wothrać
 # Pause button accessibility/aria label
-player-pause-button-aria-label = Awdio zastajić
+player-pause-button-aria-label = Awdijo zastajić
 # Skip back button accessibility/aria label
 player-skip-backward-aria-label = Za 5 sekundow wróćo skočić
 # Skip forward button accessibility/aria label
 player-skip-forward-aria-label = Za 5 sekundow doprědka skočić
 # Audio playback progress slider accessibility/aria label
-player-progress-slider-aria-label = Postupowy suwak za wothrawanje awdio
+player-progress-slider-aria-label = Postupowy suwak za wothrawanje awdijo
 # Toggle speed and transcription mode menu button
 player-toggle-mode-menu-aria-label = Modusowy meni přepinać
 # Slower playback speed button accessibility/aria label

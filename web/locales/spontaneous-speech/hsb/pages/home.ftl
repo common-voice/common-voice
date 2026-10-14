@@ -22,7 +22,7 @@ transcribe-bubble-title = <mark>Transkribować</mark>
 transcribe-bubble-subtitle = Pisaće, štož w awdijowych klipach słyšiće
 # text wrapped in <mark></mark> will have a blue background
 check-bubble-title = <mark>Přepruwować</mark>
-check-bubble-subtitle = Přepruwujeće, hač transkripcija awdionatočenju wotpowěduje
+check-bubble-subtitle = Přepruwujeće, hač transkripcija awdijonatočenju wotpowěduje
 # text wrapped in <mark></mark> will have a blue background
 data-bubble-title = <mark>Daty</mark>
 data-bubble-subtitle = Wozjewjamy prawidłownje datowu sadźbu

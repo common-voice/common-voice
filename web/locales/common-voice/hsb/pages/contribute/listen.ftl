@@ -7,7 +7,7 @@ listen-last-time-instruction = <playIcon></playIcon> Poslednje!
 listen-empty-state = Klipy su nam wušli, kotrež so w tutej rěči přepruwuja...
 listen-empty-state-variants = Waša rěčna warianta snano klipy hižo nima! Jeli sće derje, móžeće swoje nastajenja změnić, zo byšće druhe sady w swojej rěči widźał.
 listen-loading-error =
-    Njemóžachmy awdioklipy za was za słuchanje wotwołać.
+    Njemóžachmy awdijoklipy za was za słuchanje wotwołać.
     Prošu spytajće pozdźišo hišće raz.
 listen-abort-title = Přepruwowanje klipow dokónčić?
 listen-abort-cancel = Z přepruwowanjom pokročować

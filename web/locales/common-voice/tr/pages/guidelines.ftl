@@ -146,6 +146,7 @@ example-questions-explanation-2 = Besleme için çok sayıda soru göndermek ist
 answer-questions = Soru yanıtlama
 answer-questions-subheader = Genel yönergeler
 answer-questions-explanation-1 = Yönerge üzerinde biraz düşünüp ne söylemek istediğinizi göz önünde bulundurun, ancak söyleyeceklerinizi fazla planlamayın. ‘Kayıt’ simgesine tıklayın. Kaydı tamamladıktan sonra dinleyebilir, yeniden kaydedebilir, silebilir veya gönderebilirsiniz.
+answer-questions-explanation-2 = Unutmayın: Kekelerseniz, duraklarsanız veya bir kelimeyi tekrarlarsanız endişelenmeyin. Bunlar kapsayıcı ve gerçek yaşam koşullarında çalışan konuşma tanıma araçları geliştiren mühendisler için değerli verilerdir.
 answer-questions-tip-1 = Olabildiğince sessiz bir yerde kayıt yapın
 answer-questions-tip-2 = İnternet bağlantısı iyi olan bir yer seçin
 answer-questions-tip-3b = Yanıtınızı 15-30 saniye arasında tutmaya çalışın
@@ -157,8 +158,14 @@ transcribe-the-audio = Ses kayıtlarını metne çevirme
 transcribe-the-audio-subheader-1 = Genel yönergeler
 transcribe-the-audio-subheader-2 = Sayılar ve kısaltmalar
 transcribe-the-audio-subheader-3 = Özel etiketler
+transcribe-the-audio-subheader-4 = Kelime parçaları, yanlış başlangıçlar, tekrarlanan kelimeler
+transcribe-the-audio-subheader-5 = Dil bilgisi hataları ve günlük ifadeler
+transcribe-the-audio-subheader-1-explanation = Genel olarak, duyduğunuz her şeyi yazmalısınız. Bunlar:
+transcribe-the-audio-subheader-1-explanation-example-2 = Öksürme veya gülme gibi ses olaylarını etiketleme
+transcribe-the-audio-subheader-1-explanation-example-3 = Arka plandaki konuşmalar veya araba kornaları gibi önemli ses kirliliğini etiketleme
 transcribe-the-audio-subheader-1-explanation-example-4 = Dil kullanımındaki çeşitlilik ve argo olduğu gibi kaydedilmelidir. Kişilerin konuşmasını düzeltmeye çalışmayın.
 transcribe-the-audio-subheader-2-explanation-1 = Sayılar ve semboller harflerle açıkça yazılmalıdır. Rakam ve özel karakter kullanmaktan kaçının. Örnek:
+transcribe-the-audio-subheader-2-explanation-2 = Kısaltmalar dilde normal şekilde yazıldığı gibi, standart büyük-küçük harf kullanımı kurallarına göre yazılmalıdır. Fonetik olarak yazıya dönüştürülmemelidirler. Örnek:
 # text wrapped in correct will be shown as green text in the UI
 transcribe-the-audio-subheader-2-example-1-correct = <correct> Doğru</correct>: Buradan yüz kilometre uzakta
 # text wrapped in wrong will be shown as red text in the UI

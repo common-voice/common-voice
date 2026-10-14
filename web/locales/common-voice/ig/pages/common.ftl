@@ -285,6 +285,7 @@ nqo = NKo
 nr = IsiNdebele (South)
 nso = Sotho nke ugwu
 ny = Chinyanja
+nyb = Nyabo
 nyn = Ásụ̀sụ́ Nyàn̄kọ́lè
 nyu = Nyungwe
 oc = Ásụ̀sụ́ Ọ́kụ́sị́tànụ̀
@@ -517,3 +518,32 @@ announcement-release-delay = Ezigbo ọgbakọ ndị ọrụ, anyị na-arụ �
 
 # Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
 announcement-release = Ezigbo ọgbakọ ndị ọrụ, mwepụta ọhụrụ ahụ adịla ugbu a na <mdcLink> Mozilla Data Collective </mdcLink>. Sonye maka inweta ntọala data 500+ nke ụwa niile, e wụlitere site n'aka ọgbakọ ndị ọrụ, nye ọgbakọ ndị ọrụ.
+
+## Pre-Release Announcement (dates TBD)
+
+# Text wrapped in <cvDatasheetsLink></cvDatasheetsLink> will be rendered as an external link to the cv-datasheets GitHub repo
+announcement-pre-release = Ezigbo ọgbakọ ndị ọrụ, oge mwepụta na-abịa nsọ. Biko gaa kwenabata ma detuo okwu, ma gakwaa na <cvDatasheetsLink>cv-datasheets</cvDatasheetsLink> imelite akwọkwụ data gị.
+
+## Release Commencing
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-commencing = Ezigbo ọgbakọ ndị ọrụ, anyị erutela n'ụbọchị njedebe nke mwepụta ahụ ma na-ejikọtakwa ntọala data ndị ahụ. Mwepụta ọhụrụ ga-adị na <mdcLink>Mozilla Data Collective </mdcLink> n'ime ụbọchị ole na ole.
+
+## Downtime Announcements
+
+# Generic scheduled downtime for next Sunday early hours
+announcement-scheduled-downtime = Ezigbo ọgbakọ ndị ọrụ, iji mee ka sistemụ anyị ka mma, anyị na-ahazi oge ezumike dị nta, nke a na-emecha n'ime awa ole na ole. Oge ezumike ọzọ ga-amalite n'isi ụtụtụ ụbọchị ụka a. Kpọtụrụ anyị na Matrix ma ọ bụrụ na ị hụ nsogbu.
+
+## Common Language/Dataset Selector & SearchBox Related
+
+# Generic search box defaults
+searchbox-default-label = Malite pịnye ihe iji chọọ ihe
+searchbox-default-placeholder = Chọọ...
+searchbox-default-aria-label = Chọọ
+dropdown-no-results = E nweghị ihe dabara adaba a hụrụ
+# Common Voice Dataset=Language search box
+dataset-searchbox-label = Na-agbanwe ma asụsụ ngosipụta ma nke ntọala data
+dataset-searchbox-placeholder = Chọọ asụsụ...
+dataset-searchbox-aria-label = Chọọ asụsụ
+dataset-search-no-results = E nweghị asụsụ dabara adaba a hụrụ
+request-new-language = Rịọta Asụsụ Ọhụrụ

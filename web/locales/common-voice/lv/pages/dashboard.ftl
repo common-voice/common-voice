@@ -25,7 +25,7 @@ show-ranking = Rādīt manu rangu
 ## Custom Goals
 
 get-started-goals = Sāciet ar mērķiem
-create-custom-goal = Izveidojiet pielāgotu mērķi
+create-custom-goal = Izveidot pielāgotu mērķi
 goal-type = Kādu mērķi vēlaties izveidot?
 both-speak-and-listen = Abi
 both-speak-and-listen-long = Abi (runāšanas un klausīšanās)
@@ -39,7 +39,7 @@ lose-goal-progress-warning = Pēc mērķa labošanas var zaudēt esošo virzību
 want-to-continue = Vai vēlaties turpināt?
 finish-editing = Vispirms pabeigt labošanu?
 lose-changes-warning = Ja aiziesiet tagad, jūs zaudēsit izmaiņas
-build-custom-goal = Izveidojiet pielāgotu mērķi
+build-custom-goal = Veidot pielāgotu mērķi
 help-reach-hours-pluralized =
     { $hours ->
         [zero] Palīdziet sasniegt { $hours } stundu { $language } valodā ar savu mērķi
@@ -68,8 +68,8 @@ n-clips-pluralized =
         [one] { $count } ieraksti
        *[other] { $count } ierakstu
     }
-help-share-goal = Palīdziet mums atrast vairāk balsu, dalieties ar savu mērķi
-confirm-goal = Apstipriniet mērķi
+help-share-goal = Palīdzi mums atrast vairāk balsu, dalies ar savu mērķi
+confirm-goal = Apstiprināt mērķi
 goal-interval-weekly = Reizi nedēļā
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = Dalieties ar savu { $count } ierakstu ikdienas mērķi { $type }
@@ -79,7 +79,7 @@ share-goal-type-speak = Runāšana
 share-goal-type-listen = Klausīšanās
 share-goal-type-both = Runāšana un klausīšanās
 # LINK will be replaced with the current URL
-goal-share-text = Es tikko izveidoju savu balss talkas mērķi #CommonVoice - pievienojieties man un palīdziet iekārtām iemācīt saprast latviešu valodu { $link }
+goal-share-text = Es tikko izveidoju savu balss talkas mērķi #CommonVoice — pievienojies man un palīdzi iekārtām iemācīt saprast { $link }
 weekly-goal-created = Jūsu nedēļas mērķis ir izveidots
 daily-goal-created = Jūsu ikdienas mērķis ir izveidots
 track-progress = Sekojiet progresam šeit statistikas lapā.

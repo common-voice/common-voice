@@ -13,7 +13,7 @@ wall-of-text-second = Lielākā daļa datu, ko izmanto lielie uzņēmumi, nav pi
 show-wall-of-text = Lasīt vairāk
 help-us-title = Palīdziet pārbaudīt teikumus!
 help-us-explain = Nospiediet atskaņošanas pogu, klausieties un pārbaudiet, vai zemāk norādītais teikums ir izrunāts precīzi.
-no-clips-to-validate = Izskatās, ka šajā valodā nav audio ierakstu. Palīdziet mums, ierakstot dažus tagad.
+no-clips-to-validate = Izskatās, ka šajā valodā nav neviena skaņas ieraksta. Palīdzi mums ar dažu ierakstīšanu tagad!
 toggle-play-tooltip = Nospiediet { shortcut-play-toggle }, lai pārslēgtu atskaņošanas režīmu
 speak-paragraph = Lai mūsu valoda iekārtu laikmetā neizzustu, mums jāieraksta savas balsis; daži teiktu, ka tas ir arī jautri.
 speak-goal-text = Ieraksti ierakstīti
@@ -48,7 +48,7 @@ x-years-short =
     }
 help-make-dataset = Palīdziet izveidot kvalitatīvu, publiski pieejamu datu kopu
 sign-up-account = Reģistrē savu kontu
-email-subscription-title-v3 = Reģistrējieties Common Voice un Mozilla Foundation atjauninājumiem
+email-subscription-title-v3 = Abonēt Common Voice un Mozilla Foundation jaunumus
 
 ## Account Benefits
 
@@ -80,7 +80,7 @@ read-more-about = Lasiet vairāk mūsu lapā Par mums
 ## NAV ITEMS
 
 answer-questions = Atbildēt uz jautājumiem
-review-transcriptions = Pārskatiet transkripcijas
+review-transcriptions = Pārskatīt transkripcijas
 add-questions = Pievienojiet jautājumus <small>(drīzumā)</small>
 review-questions = Pārskatīt jautājumus
 transcribe-audio = Pārrakstīt audio
@@ -94,7 +94,7 @@ spontaneous-speech = SPONTĀNĀ RUNA
 
 about-menu-tooltip = Partnerības, prese un stāsti, kopiena un valodas
 about-us-menu-item-tooltip = Uzziniet par Common Voice misiju un komandu
-partnerships-menu-item-tooltip = Sadarbojieties ar mums
+partnerships-menu-item-tooltip = Izpēti apvienības, kas pasaulē atbalsta Common Voice
 press-and-stories-menu-item-tooltip = Lasi stāstus, atjauninājumus un mediju segumu par Common Voice
 community-and-languages-menu-item-tooltip = Atklājiet valodas, kopienas un kopīgo balsi
 
@@ -121,73 +121,74 @@ get-started = Sākt darbu <icon><icon>
 action-items-section-title = Common Voice ir bezmaksas atvērtā pirmkoda platforma kopienas vadītai datu izveidei
 action-items-section-subtitle = Ikviens var saglabāt, atdzīvināt un uzlabot savu valodu, kopīgojot, veidojot un pārbaudot teksta un runas datu kopas.
 scripted-card-header = Sagatavota runa
-scripted-card-content = Nolasiet teikumus savā valodā un palīdziet veidot plašāko kopienas radīto runas datu kopu pasaulē.
+scripted-card-content = Teikumu skaļa nolasīšana savā valodā un palīdzēšana plašākās kopienas radīto runas datu kopas pasaulē radīšanā.
 spontaneous-card-header = Spontāna runa
-spontaneous-card-content = Atbildiet uz jautājumiem, veidojot dabiskās sarunvalodas datu kopu. Tā uzlabo runas atpazīšanas daudzpusību.
+spontaneous-card-content = Atbildēšana uz vaicājumiem datu kopu dabiskiem sarunu kontekstiem izveidošanai. Teicami runātām valodām.
 language-text-card-header = Valodas teksti
-language-text-card-content = Veidojiet datu vākšanas jautājumus, teikumus tulkošanai, nelielus valodu modeļus un daudz ko citu.
+language-text-card-content = Publisku vaicājumu, teikumus un tekstus tulkošanai, mazus valodu modeļus un daudz kā cita izveidošana vai kopīgošana.
 coming-soon = Drīzumā
 add-text = Pievienot tekstu
-answer = Atbilde
+answer = Atbildēt
 
 ## Community section
 
-join-discord-community = Pievienojieties Discord kopienai
+community-section-title-202601 = Darbina vispasaules kopienas vispasaules kopienām — 290 valodas, un to skaits palielinās!
+join-discord-community = Pievienojies Discord kopienai
 # label for button
 join-discord-community-action = Pievienoties Discord
-join-discord-community-content = Piedalieties valodu kopienas diskusijās, uzdodiet jautājumus un uzziniet par gaidāmajiem pasākumiem un prezentācijām.
-find-us-on-matrix = Atrodiet mūs Matrix
-find-us-on-matrix-content-v2 = Matrix ir atvērts, viegls protokols decentralizētai reāllaika saziņai un Mozilla iecienītākā atvērto diskusiju platforma. Mēs atrodamies telpā "common-voice:mozilla.org".
+join-discord-community-content = Piedalies valodu kopienas apspriedēs, uzdod jautājumus un uzzini par gaidāmajiem pasākumiem un uzstāšanos!
+find-us-on-matrix = Atrodi mūs [matrix]
+find-us-on-matrix-content-v2 = [matrix] ir atvērts, viegls protokols decentralizētai reāllaika saziņai un vēlamā Mozilla atvērto apspriežu platforma. Mēs esam atrodami istabā “common-voice:mozilla.org”.
 # label for button
 find-us-on-element-action-1 = Element
 find-us-on-matrix-action-2 = Citi klienti
-ask-mozilla-share = Lūdziet Mozilla pastāstīt citiem par jūsu notikumu
-ask-mozilla-share-content = Jums ir bijis vai būs kāds labs pasākums? Pastāstiet mums par to, un mēs par šo notikumu paziņosim citiem, kam tas varētu interesēt!
+ask-mozilla-share = Lūdz Mozilla kopīgot Tavius notikumus
+ask-mozilla-share-content = Ir kāds noticis vai gaidāms pasākums? Kopīgo to ar mums, un mēs paziņosim par to mūsu kopienai vai uzrakstīsim par to emuāru!
 # label for button
 ask-mozilla-share-action = Pastāstiet par savu notikumu
-download-contribution-certificate = Lejupielādējiet savu ieguldījumu sertifikātu
-download-contribution-certificate-content = Lejupielādējiet sertifikātu saviem notikumiem vai sev, ja esat piedalījies Common Voice — tas nebūtu iespējams bez jums!
+download-contribution-certificate = Lejupielādē savu ieguldījumu sertifikātu
+download-contribution-certificate-content = Lejupielādē sertifikātu saviem pasākumiem vai sev, ja piedalījies Common Voice — tas bez Tevis nebūtu iespējams!
 # label for button
 download-contribution-certificate-action = Saņemiet savu sertifikātu
-contribute-github = Atbalstiet vietnē GitHub
-contribute-github-content = Šis projekts nebūtu iespējams bez tādiem cilvēkiem kā jūs. 🎉 Ir daudz veidu, kā iesaistīties Common Voice — jums nav jāmāk programmēt, lai sniegtu ieguldījumu!
+contribute-github = Līdzdarbojies GitHub
+contribute-github-content = Šis projekts nebūtu iespējams bez tādiem cilvēkiem kā Tu. 🎉 Ir daudz veidu, kā iesaistīties Common Voice — nav jāprot programmēt, lai sniegtu ieguldījumu!
 # label for button
-contribute-github-action = Atbalstiet vietnē GitHub
+contribute-github-action = Līdzdarboties GitHub
 
 ## Featured section
 
 featured-section-title = Pieminēts...
 # icon is an arrow that points downwards
-download-press-pack = Lejupielādējiet mūsu preses pakotni <icon></icon>
+download-press-pack = Lejupielādēt mūsu preses pakotni <icon></icon>
 
 ## Developers section
 
 developers-section-title-202608 = Visiem pieejamas atvērtās runas datu kopas 330+ valodās
 developers-section-subtitle-v2 = Datu kopas ASR un citiem NLP kontekstiem – veidotas ar kopienas līdzdalību.
 # icon is an arrow that points to the right
-explore-datasets = Izpētiet datu kopas <icon></icon>
+explore-datasets = Izpētīt datu kopas <icon></icon>
 
 ## Get involved section
 
-get-involved-section-title = Atbalstiet atvērtas, kopienas veidotas datu kopas
+get-involved-section-title = Atbalsti atvērtas, kopienas veidotas datu kopas
 read-sentences-link = Lasīt teikumus
 validate-readings-link = Apstiprināt ierunāto
-contribute-link = Papildiniet teksta korpusu
-answer-questions-link = Atbildi uz jautājumiem
-transcribe-answers-link = Pārrakstiet atbildes
-review-transcriptions-link = Pārskatiet pierakstīto
-contribute-text-link = Iesniedziet tekstu
+contribute-link = Sniegt ieguldījumu teksta korpusā
+answer-questions-link = Atbildēt uz jautājumiem
+transcribe-answers-link = Transkribēt atbildes
+review-transcriptions-link = Pārskatīt transkripcijas
+contribute-text-link = Iesniegt tekstu
 press-and-stories-link = Prese un stāsti
 
 ## Partner section
 
-partner-section-title = Sadarbojieties ar mums
+partner-section-title = Sadarbojies ar mums
 # Text wrapped in <bold></bold> will be shown in bold font
-partner-section-subtitle-tech-companies = <bold>Tehnoloģiju uzņēmumi</bold> — ieguldiet atvērtu datu kopu izveidē plaukstošai daudzvalodu AI ekosistēmai
+partner-section-subtitle-tech-companies = <bold>Tehnoloģiju uzņēmumi</bold> — ieguldīšana atvērtu datu kopu izveidē plaukstošai daudzvalodu MI ekosistēmai
 # Text wrapped in <bold></bold> will be shown in bold font
-partner-section-subtitle-civil-society = <bold>Pilsoniskā sabiedrība un pētnieki</bold> — veidojiet, publicējiet un dalieties ar noderīgām datu kopām
+partner-section-subtitle-civil-society = <bold>Pilsoniskā sabiedrība un pētnieki</bold> — iedarbīgu datu kopu izveidošana, mitināšana un kopīgošana bez maksas
 # Text wrapped in <bold></bold> will be shown in bold font
-partner-section-subtitle-philantropy = <bold>Filantropi</bold> — sponsorējiet datu kopas izveidi, lai veicinātu lokālo inovāciju un attīstību
+partner-section-subtitle-philantropy = <bold>Filantropija</bold> — datu kopas izveides atbalstīšana ar naudas līdzekļiem, lai veicinātu vietēju attīstību un izstrādi
 # icon is an arrow that points to the right
 get-in-touch-button = Sazināties <icon></icon>
 # Partners section

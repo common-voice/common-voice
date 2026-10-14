@@ -6,6 +6,7 @@ language-section-launched = منتشر شده
 language-section-launched-description = برای این زبان‌ها، وبگاه <localizationGlossaryLink>محلی‌سازی</localizationGlossaryLink> با موفقیت راه‌اندازی شده است و به اندازه کافی <sentenceCollectionGlossaryLink>جملات گردآوری شده</sentenceCollectionGlossaryLink> دارد تا امکان مشارکت‌های مداوم در <speakLink>صحبت کردن</speakLink> و <listenLink>گوش دادن</listenLink> را فراهم کند.
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
 language-section-last-updated = آخرین به‌روزرسانی: { $lastUpdatedTimeStamp }
+language-communities = لطفاً کانال‌های اجتماع‌تان را به <communitiesLink>سند COMMUNITIES.md در گیت‌هاب</communitiesLink> اضافه کنید.
 languages-show-more = مشاهده بیشتر…
 languages-show-less = کم‌تر
 language-meter-in-progress = پیشرفت

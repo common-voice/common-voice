@@ -6,6 +6,7 @@ language-section-launched = Uzsākts
 language-section-launched-description = Šīm valodām vietne ir sekmīgi <localizationGlossaryLink>lokalizēta</localizationGlossaryLink>, un tajā ir pietiekami daudz <sentenceCollectionGlossaryLink>teikumu</sentenceCollectionGlossaryLink>, lai varētu turpināt <speakLink>runāt</speakLink> un <listenLink>klausīties</ listenLink>.
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
 language-section-last-updated = Pēdējo reizi atjaunināts: { $lastUpdatedTimeStamp }
+language-communities = Lūgums apsvērt iespēju pievienot savus kopienas kanālus <communitiesLink>COMMUNITIES.md dokumentam GitHub</communitiesLink>.
 languages-show-more = Rādīt vairāk
 languages-show-less = Rādīt mazāk
 language-meter-in-progress = Progress
