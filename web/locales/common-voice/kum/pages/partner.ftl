@@ -10,3 +10,5 @@ partnerships-foundations-description = Биз ишлейбиз тюп кююме
 partnerships-governments-header = Уллулар
 partnerships-governments-description = Биз бек сюебиз уллуларгъа ИТ-ишлерде кёмек этмеге, тилни сакъламагъа. Уллу иш башламагъа сюесиз буса, олай буса <emailFragment>бизге языгъыс.</emailFragment>
 partnerships-academia-header = Окъуйгъан ерлер, гьакъыллылер, излейгенлер
+partnerships-academia-description = Янгъы ачыкъ ишлер — бизин ишлени джаны. Излев ишлеге, язув джыйывгъа, соравлагъа <emailFragment>бизге языгъыз.</emailFragment>
+partnerships-small-business-header = Гиччи ишлер, янгъы ИТ, ЭЭ ишлер де
