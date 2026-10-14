@@ -13,3 +13,8 @@ partnerships-academia-header = Окъуйгъан ерлер, гьакъыллы
 partnerships-academia-description = Янгъы ачыкъ ишлер — бизин ишлени джаны. Излев ишлеге, язув джыйывгъа, соравлагъа <emailFragment>бизге языгъыз.</emailFragment>
 partnerships-small-business-header = Гиччи ишлер, янгъы ИТ, ЭЭ ишлер де
 partnerships-small-business-description = Оьзюгюзню герекли затларыгъызны, оьзюгюзню якъларыгъызны билдирмеге, язув джыйывны башламагъа <emailFragment>бизге языгъыз.</emailFragment>
+partnerships-corporates-header = Бек уллу ишлер, авзат ишлер де
+partnerships-corporates-description = Язувларны ювукъдан билимеге сюесизмсес, авзатны оьсмеге гюч салмагъа яда джыйылып ишлемеге сюесиз буса, <emailFragment>бизге языгъыз.</emailFragment>
+partnerships-our-partners = Бизин къурдашларыбыс
+# menu item
+partners = къурдашлар
