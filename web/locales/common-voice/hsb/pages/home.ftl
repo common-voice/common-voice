@@ -55,7 +55,7 @@ email-subscription-title-v3 = Registrujće so za aktualizacije Common Voice a za
 
 benefits = Lěpšiny
 rich-data = Podajće anonymne demografiske daty, zo byšće wužitk swojich zapodatych datow powyšił. Anonymizujemy wšě demografiske daty, prjedy hač je wozjewimy.
-improve-audio = Profilowe informacije awdiodaty polěpšeja, kotrež so při trenowanju dokładnosće rěčenskeho spóznaća wužiwaja.
+improve-audio = Profilowe informacije awdijodaty polěpšeja, kotrež so při trenowanju dokładnosće rěčenskeho spóznaća wužiwaja.
 keep-track = Wobchowajće swój postup a swoje měrjenske daty za wjacore rěče we wóčku.
 compare-progress = Hladajće, kak so swój postup z druhimi sobuskutkowajemi z cyłeho swěta přirunuje.
 view-goals = Přirunajće swój postup z wosobinskimi a projektowymi cilemi.
@@ -67,7 +67,7 @@ whats-public = Što je zjawne?
 email-not-public = Wašu e-mejlowu adresu njewozjewimy.
 recordings-and-locale-public = Ličba natočenjow a rěčow, ke kotrymž přinošujeće, budu zjawne.
 username-optin-public = Móžeće swoje wužiwarske mjeno wozjewić abo anonymizować.
-demographic-deidentified-clarity-2 = Opcionelnje zapodate demografiske daty (na př. staroba, splah, rěč a akcent) so we wašim profilu ženje njewozjewja a z wašim kontom w datowej sadźbje njezwjaza. Jednotliwe awdioklipy so z demografiskimi datami za dokładnišu analyzu zwjazaja - slědźer na přikład chce snano treningowy model na wěsty demografiski segment wusměrić.
+demographic-deidentified-clarity-2 = Opcionelnje zapodate demografiske daty (na př. staroba, splah, rěč a akcent) so we wašim profilu ženje njewozjewja a z wašim kontom w datowej sadźbje njezwjaza. Jednotliwe awdijoklipy so z demografiskimi datami za dokładnišu analyzu zwjazaja - slědźer na přikład chce snano treningowy model na wěsty demografiski segment wusměrić.
 username-email-not-demographic = Waše wužiwarske mjeno a e-mejlowa adresa so z wozjewjenymi datami njezwjazujetej.
 
 ## Landing
