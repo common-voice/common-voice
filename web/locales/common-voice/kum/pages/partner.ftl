@@ -7,4 +7,6 @@ partnerships-community-header = Адамлар, иш этегенлер, гьа�
 partnerships-community-description = Бу авзатны джаны — бизин адамлар. Олар гьар ерден джыйыла: тилни сакълайгъанлар да бар. Оьзюгюз нечик ишлемеге герегин мында къарагъыз: <about>бирзат учун</about> бетде, <community>Адамлар учун китапда</community>. Бизимнен къордаш ишлемеге бек сюесиз буса, олай буса <emailFragment>бизге языгъыс.</emailFragment>
 partnerships-foundations-header = Тюп кюй
 partnerships-foundations-description = Биз ишлейбиз тюп кююменлер, гьар кимнен, бизин джыйылагъан адамларман авзатны тап-таза ер этмеге. Ишлерибизни оьзюгюз мында къарагъыз <programmaticWork>этген ишлерге</programmaticWork> олай буса.
-partnerships-governments-header = Гьакимлер
+partnerships-governments-header = Уллулар
+partnerships-governments-description = Биз бек сюебиз уллуларгъа ИТ-ишлерде кёмек этмеге, тилни сакъламагъа. Уллу иш башламагъа сюесиз буса, олай буса <emailFragment>бизге языгъыс.</emailFragment>
+partnerships-academia-header = Окъуйгъан ерлер, гьакъыллылер, излейгенлер
