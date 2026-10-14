@@ -12,3 +12,4 @@ partnerships-governments-description = Биз бек сюебиз уллулар
 partnerships-academia-header = Окъуйгъан ерлер, гьакъыллылер, излейгенлер
 partnerships-academia-description = Янгъы ачыкъ ишлер — бизин ишлени джаны. Излев ишлеге, язув джыйывгъа, соравлагъа <emailFragment>бизге языгъыз.</emailFragment>
 partnerships-small-business-header = Гиччи ишлер, янгъы ИТ, ЭЭ ишлер де
+partnerships-small-business-description = Оьзюгюзню герекли затларыгъызны, оьзюгюзню якъларыгъызны билдирмеге, язув джыйывны башламагъа <emailFragment>бизге языгъыз.</emailFragment>
