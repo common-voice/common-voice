@@ -12,3 +12,19 @@ listen-loading-error =
 listen-abort-title = Тынгламагъа затларны тергевюн битдирмеге сюесизми?
 listen-abort-cancel = Тергемеге гьетдикь
 listen-abort-confirm = Тергевню битдиригъиз
+# Menu item
+validate-readings = Окъулгъанны тергевю
+# text wrapped in <small></small> will be shown in a smaller font size
+validate-readings-coming-soon = Окъулгъанны тергевю <small>(биразда)</small>
+
+## MENU ITEM TOOLTIPS
+
+listen-contribute-menu-tooltip = Окъулгъанны тергевю, сёзню кююлерин тергевю
+validate-readings-menu-item-tooltip = оьзюгюзню тилиггизде адамлар окъугъан затларны тергегъиз
+review-transcriptions-menu-item-tooltip = оьзюгюзню тилиггизде адамлар салгъан сёзню кююлерин тергегъиз
+
+## MENU ITEM ARIA LABELS
+
+listen-contribute-menu-aria-label = Тынгламагъа тюзлевлер
+validate-readings-menu-item-aria-label = Адамлар окъугъан затларны тергевю
+review-transcriptions-menu-item-aria-label = Айтылгъан сёзню кююлерин тюзюн тергевю
