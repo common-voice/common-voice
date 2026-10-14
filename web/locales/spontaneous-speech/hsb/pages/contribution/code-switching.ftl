@@ -30,7 +30,7 @@ cs-no-transcriptions-continue-skipped = Tuchwilu transkripcije za přepruwowanje
 
 ## Tag Page Items
 
-cs-no-transcriptions-to-tag-continue-skipped = Tuchwilu transkripcije za tutu datowu sadźbu njejsu, kotrež dyrbja znački dóstać. Jeli sće transkripcije přeskočił, móžeće z přeskočenym wobsahom pokročować abo awdio transkribować a pozdźišo znowa spytać.
+cs-no-transcriptions-to-tag-continue-skipped = Tuchwilu transkripcije za tutu datowu sadźbu njejsu, kotrež dyrbja znački dóstać. Jeli sće transkripcije přeskočił, móžeće z přeskočenym wobsahom pokročować abo awdijo transkribować a pozdźišo znowa spytać.
 cs-tag-dataset-name = Datowa sadźba: [{ $datasetName }]
 
 ## Guidelines
