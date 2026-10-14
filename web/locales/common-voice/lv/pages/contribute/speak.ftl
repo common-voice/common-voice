@@ -14,6 +14,12 @@ record-error-too-long = Ieraksts bija pārāk garš.
 record-error-too-quiet = Ieraksts bija pārāk kluss.
 record-error-empty-recording = Ierakstā nav skaņas. Lūgums pārbaudīt savu mikrofonu un mēģināt vēlreiz.
 record-error-unknown-format = Nevarēja noteikt skaņas veidolu. Lūgums mēģināt izmantot citu pārlūku.
+record-error-uploaded-clip-corrupted =
+    Šķiet, ka audio ieraksts ir bojāts. Tas var notikt šādu iemeslu dēļ:
+    • sarežģījumi ar pārlūka saderību (jāmēģina izmantot citu pārlūku);
+    • mikrofona vai skaņas dziņa nebūšanas;
+    • tīkla savienojuma pārtraukumi ierakstīšanas laikā.
+    Lūgums mēģināt ierakstīšanu vēlreiz.
 record-cancel = Atcelt atkārtotu ierakstīšanu
 record-instruction = { $actionType }<recordIcon></recordIcon> pēc tam skaļi nolasi teikumu
 record-stop-instruction = { $actionType } <stopIcon></stopIcon> kad viss gatavs
@@ -21,10 +27,10 @@ record-three-more-instruction = Palikuši vēl trīs!
 record-again-instruction = Lieliski! <recordIcon> </recordIcon> Ierakstiet savu nākamo ierakstu
 record-again-instruction2 = Turpinām, ierakstiet vēlreiz <recordIcon></recordIcon>
 record-last-instruction = <recordIcon> </recordIcon> Pēdējais!
-review-tooltip = Pārskatiet ierakstus un ierakstiet tos atkārtoti
+review-tooltip = Pārskati ierakstus un ierakstiet tos atkārtoti
 share-clip = Dalieties ar savu ierakstu
 share-common-voice = Pastāstiet citiem par Common Voice
-review-instruction = Ja nepieciešams, pārskatiet ierakstus un ierakstiet atkārtoti
+review-instruction = Pārskati un atkārtoti veic ierakstus, ja nepieciešams
 record-submit-tooltip = { $actionType } iesniedziet, kad viss gatavs
 clips-uploaded = Ieraksti saglabāti
 record-abort-title = Varbūt vispirms pabeidz ierakstu?
@@ -34,8 +40,8 @@ record-abort-continue = Pabeigt ierakstu
 record-abort-delete = Iziet un dzēst ierakstus
 review-aborted = Augšupielāde tiek pārtraukta. Vai vēlaties dzēst savus ierakstus?
 review-submit-title = Pārbaudīt un iesniegt
-review-submit-msg = Paldies par ierakstīšanu! <lineBreak> </lineBreak> Tagad pārbaudiet un iesniedziet savus audio ierakstus.
-review-recording = Pārbaudiet
+review-submit-msg = Paldies par ierakstīšanu! <lineBreak> </lineBreak> Tagad zemāk jāpārskata un jāiesniedz savi ieraksti.
+review-recording = Pārskatīt
 review-rerecord = Atkārtoti ierakstiet
 review-cancel = Atcelt iesniegšanu
 review-keep-recordings = Saglabāt ierakstus
@@ -71,7 +77,7 @@ read-sentences-coming-soon = Lasiet teikumus <small>(drīzumā)</small>
 
 ## MENU ITEM TOOLTIPS
 
-speak-contribute-menu-tooltip = Lasiet teikumus, atbildiet uz jautājumiem
+speak-contribute-menu-tooltip = Lasīt teikumus, atbildēt uz jautājumiem
 read-sentences-menu-item-tooltip = Ierakstiet, kā lasāt teikumus savā valodā
 answer-questions-menu-item-tooltip = Ierakstiet, kā atbildat uz jautājumiem un vaicājumiem savā valodā
 
@@ -79,4 +85,4 @@ answer-questions-menu-item-tooltip = Ierakstiet, kā atbildat uz jautājumiem un
 
 speak-contribute-menu-aria-label = Runāšanas iespēju izvēlne
 read-sentences-menu-item-aria-label = Lasiet kopienas iesniegtos teikumus dažādās valodās
-answer-questions-menu-item-aria-label = Iesniedziet jaunu jautājumu ielasīšanai un atbildēšanai
+answer-questions-menu-item-aria-label = Iesniedzi jaunu jautājumu kopienai ielasīšanai un atbildēšanai

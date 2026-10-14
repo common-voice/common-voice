@@ -285,6 +285,7 @@ nqo = 엔코어
 nr = IsiNdebele (South)
 nso = 북소토어
 ny = 체와어
+nyb = 냐그보어
 nyn = 엔코어어
 nyu = 늉웨어
 oc = 오크어

@@ -48,6 +48,7 @@ about-nav-playbook = Pelajari cara berpartisipasi
 ## Community Playbook Content
 ## What is a language
 
+about-playbook-what-is-language = Apa yang dimaksud dengan bahasa di Common Voice?
 about-playbook-what-is-language-content-1 = Ada banyak cara dalam memikirkan bahasa. Untuk keperluan model pengenalan ucapan, Common Voice menyarankan untuk fokus pada 'jelas bagi kedua pihak', atau 'dapatkah penutur bahasa ini saling memahami sebagian besarnya jika mereka mencoba?'
 about-playbook-what-is-language-content-2 = Kami ingin model ucapan menjadi lebih baik dalam memahami beragam pembicara. Untuk mencapai hal ini, set data suara harus mewakili banyak orang yang berbeda.
 about-playbook-what-is-language-content-3 = Sejumlah bahasa memiliki variasi yang sangat banyak dalam tata bahasa, kosa kata, dan pengucapan. Untuk alasan ini, kami <ctaLink>memperkenalkan 'Varian'</ctaLink> pada tahun 2022. Hal ini memberi cara bagi komunitas untuk membedakan bahasa mereka dalam set data yang lebih besar.

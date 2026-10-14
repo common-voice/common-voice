@@ -21,7 +21,7 @@ new-sentence-rule-5 = Bez cipariem, saīsinājumiem vai speciālajām rakstu zī
 new-sentence-rule-6 = Bez svešu valodu vārdiem vai burtiem
 new-sentence-rule-7 = Norādiet teikuma avotu
 new-sentence-rule-8 = Dabiski sarunvalodas teikumi (tiem jābūt viegli ierunājamiem)
-login-instruction-multiple-sentences = <loginLink>Pieslēdzieties</loginLink> vai <loginLink>reģistrējieties</loginLink>, lai pievienotu vairākus teikumus
+login-instruction-multiple-sentences = <loginLink>Jāpiesakās</loginLink> vai <loginLink>jāreģistrējas</loginLink>, lai pievienotu vairākus teikumus
 how-to-cite = Kā norādīt avotu?
 how-to-cite-explanation-bold = Jānorāda ar saiti vai pilnu darba nosaukumu.
 how-to-cite-explanation = Ja šie ir paša(s) vārdiem, tad vienkārši jāsaka <italicizedText>“Pašatsauce"</italicizedText>. Mums ir jāzina, kur atradi šo saturu, lai mēs varētu pārliecināties, ka tas pieejams publiski un uz to neattiecas nekādi autortiesību ierobežojumi. Vairāk informācijas par atsaucēm var apskatīt mūsu <guidelinesLink>vadlīniju lapā</guidelinesLink>.
@@ -29,7 +29,7 @@ guidelines = Vadlīnijas
 contact-us = Sazināties ar mums
 add-sentence-success = Savākts 1 teikums
 add-sentence-error = Kļūda pievienojot teikumu
-required-field = Lūdzu aizpildiet šo lauku.
+required-field = Lūgums aizpildīt šo lauku.
 single-sentence-submission = Viena teikuma pievienošana
 small-batch-sentence-submission = Vairāku teikumu pievienošana
 bulk-sentence-submission = Teikumu datnes pievienošana
@@ -154,18 +154,18 @@ add-sentences = Pievienot teikumus
 
 ## MENU ITEM TOOLTIPS
 
-write-contribute-menu-tooltip = Pievienojiet un pārskatiet teikumus, pievienojiet jautājumus, pārrakstiet audio
+write-contribute-menu-tooltip = Pievienot un pārskatīt teikumus, pievienot jautājumus, transkribēt skaņas ierakstus
 add-sentences-menu-item-tooltip = Pievienojiet teikumus savā valodā
-review-sentences-menu-item-tooltip = Pārskatiet teikumus savā valodā
+review-sentences-menu-item-tooltip = Pārskatīt teikumus
 add-questions-menu-item-tooltip = Pievienojiet jautājumus savā valodā
 review-questions-menu-item-tooltip = Pārskatīt jautājumus
-transcribe-audio-menu-item-tooltip = Pārrakstiet audio ierakstus savā valodā
+transcribe-audio-menu-item-tooltip = Transkribēt skaņas ierakstus
 
 ## MENU ITEM ARIA LABELS
 
 write-contribute-menu-aria-label = Rakstīšanas iespēju izvēlne
 add-sentences-menu-item-aria-label = Pievienojiet jaunus teikumus lasīšanai
-review-sentences-menu-item-aria-label = Pārskatiet citu dalībnieku iesniegtos teikumus
-add-questions-menu-item-aria-label = Iesniedziet jaunus jautājumus ielasīšanai un atbildēšanai
+review-sentences-menu-item-aria-label = Pārskati esošos kopienas iesniegtos esošos teikumus
+add-questions-menu-item-aria-label = Iesniedz jaunus jautājumus kopienai ielasīšanai un atbildēšanai
 review-questions-menu-item-aria-label = Pārskatīt un balsot par jauniem kopienas iesniegtiem jautājumiem
-transcribe-audio-menu-item-aria-label = Pārrakstiet audio ierakstus tekstā
+transcribe-audio-menu-item-aria-label = Transkribēt skaņas ierakstus tekstā

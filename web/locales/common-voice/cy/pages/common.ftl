@@ -285,6 +285,7 @@ nqo = NKo
 nr = IsiNdebele (Deheuol)
 nso = Sotho Gogleddol
 ny = Chinyanja
+nyb = Nyagbo
 nyn = Nyankole
 nyu = Nyungwe
 oc = Occitaneg

@@ -59,6 +59,7 @@
 
 ##### SS Data Changes after current release
 
+- Add Igbo (`ig`) questions by [@moz-acfort](https://github.com/moz-acfort) in [#563](https://github.com/common-voice/spontaneous-speech/pull/563) (in v1.160.2)
 - Add Kikamba (kam) language and questions by [@moz-acfort](https://github.com/moz-acfort) in [#562](https://github.com/common-voice/spontaneous-speech/pull/562) (in v.1.160.1)
 - Add Northwest Gbaya (gya) language and questions by [@moz-acfort](https://github.com/moz-acfort) in [#561](https://github.com/common-voice/spontaneous-speech/pull/561) (in v.1.160.1)
 

@@ -5,7 +5,7 @@ transcription-page-instruction = { $actionType } <playIcon></playIcon> Słuchaj�
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = Přepruwować
 # Message which appears when there are no more resources on this page
-no-transcriptions-continue-skipped-message = Tuchwilu transkripcije za přepruwowanje za tutu rěč njejsu. Jeli sće transkripcije přeskočił, móžeće z přeskočenym wobsahom pokročować abo awdio transkribować a pozdźišo znowa spytać.
+no-transcriptions-continue-skipped-message = Tuchwilu transkripcije za přepruwowanje za tutu rěč njejsu. Jeli sće transkripcije přeskočił, móžeće z přeskočenym wobsahom pokročować abo awdijo transkribować a pozdźišo znowa spytać.
 vote-transcript-success = Wo transkripciji wuspěšnje wothłosowany
 vote-transcript-error = Při wothłosowanju wo transkripciji je zmylk nastał
 transcript-edited-success = Transkripcija je so wuspěšnje wobdźěłała
