@@ -6,6 +6,7 @@ language-section-launched = Запущено
 language-section-launched-description = Для цих мов вебсайт успішно <localizationGlossaryLink>локалізовано</localizationGlossaryLink>, і зібрано достатньо <sentenceCollectionGlossaryLink>речень</sentenceCollectionGlossaryLink>, щоб почати збір <speakLink>озвучувань</speakLink> та <listenLink>перевірку записів</listenLink>.
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
 language-section-last-updated = Востаннє оновлено: { $lastUpdatedTimeStamp }
+language-communities = Розгляньте можливість додавання каналів вашої спільноти до документа <communitiesLink>COMMUNITIES.md на GitHub</communitiesLink>.
 languages-show-more = Більше мов
 languages-show-less = Згорнути
 language-meter-in-progress = Перебіг виконання

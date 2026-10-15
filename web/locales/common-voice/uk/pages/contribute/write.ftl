@@ -162,6 +162,7 @@ write-contribute-menu-tooltip = Додавайте й перевіряйте р�
 add-sentences-menu-item-tooltip = Додайте речення своєю мовою
 review-sentences-menu-item-tooltip = Перевіряйте речення своєю мовою
 add-questions-menu-item-tooltip = Додавайте запитання своєю мовою
+review-questions-menu-item-tooltip = Розглянути запитання
 transcribe-audio-menu-item-tooltip = Транскрибуйте аудіозаписи своєю мовою
 
 ## MENU ITEM ARIA LABELS
@@ -170,4 +171,5 @@ write-contribute-menu-aria-label = Меню налаштувань написа�
 add-sentences-menu-item-aria-label = Додавайте нові речення для прочитання спільноті
 review-sentences-menu-item-aria-label = Перевіряйте наявні речення, надані спільнотою
 add-questions-menu-item-aria-label = Надсилайте нові запитання для прочитання і відповіді спільнотою
+review-questions-menu-item-aria-label = Розгляньте та проголосуйте за нові запитання, надіслані спільнотою
 transcribe-audio-menu-item-aria-label = Транскрибувати аудіозаписи в текст
