@@ -93,15 +93,22 @@ add-questions = Додати запитання
 review-questions = Переглянути запитання
 transcribe-audio = Транскрибувати аудіо
 press-and-stories = Преса та історії
+community-and-languages = Спільнота та мови
+about-us = Про нас
+scripted-speech = ПІДГОТОВЛЕНЕ МОВЛЕННЯ
+spontaneous-speech = СПОНТАННЕ МОВЛЕННЯ
 
 ## MENU ITEMS TOOLTIPS
 
+about-menu-tooltip = Партнерство, преса та статті, спільнота та мови
+about-us-menu-item-tooltip = Дізнайтеся про місію та команду, що стоїть за Common Voice
 partnerships-menu-item-tooltip = Партнерство з нами
 press-and-stories-menu-item-tooltip = Відвідайте наш блог або напишіть про нас
 community-and-languages-menu-item-tooltip = Відкрийте для себе мови, спільноти та спільний голос
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = Меню доступу до розділів Партнерство, Преса та статті, Спільнота та Мови
 partnerships-menu-item-aria-label = Дізнайтеся про партнерство з Common Voice
 press-and-stories-menu-item-aria-label = Доступ до пресрелізів та історій, пов’язаних з Common Voice
 community-and-languages-menu-item-aria-label = Дізнайтеся про спільноту та мови, які підтримує Common Voice
@@ -119,3 +126,76 @@ get-started = Розпочати <icon><icon>
 
 action-items-section-title = Common Voice — це безплатна платформа з відкритим кодом для створення даних під керівництвом спільноти
 action-items-section-subtitle = Будь-хто може зберегти, відродити і піднести свою мову, ділячись, створюючи і куруючи набори текстових і мовних даних.
+scripted-card-header = Підготовлене мовлення
+scripted-card-content = Читайте речення вголос своєю мовою та долучайтеся до створення найрізноманітнішого у світі набору загальнодоступних мовленнєвих даних.
+spontaneous-card-header = Спонтанне мовлення
+spontaneous-card-content = Відповідайте на запити, щоб створювати набори даних для природного розмовного контексту. Ідеально підходить для усних мов.
+language-text-card-header = Мова тексту
+language-text-card-content = Створюйте або діліться суспільним надбанням, реченнями та текстами для перекладу, малими мовними моделями тощо.
+coming-soon = Незабаром
+add-text = Додати текст
+answer = Відповідь
+
+## Community section
+
+community-section-title-202601 = За підтримки глобальних спільнот, для глобальних спільнот — 290 мов і їхня кількість зростає!
+join-discord-community = Приєднуйтеся до спільноти Discord
+# label for button
+join-discord-community-action = Приєднуйтесь до нас на Discord
+join-discord-community-content = Беріть участь у дискусіях мовної спільноти, ставте запитання та дізнавайтеся про майбутні події та обговорення.
+find-us-on-matrix = Знайдіть нас на Matrix
+find-us-on-matrix-content-v2 = Matrix — це відкритий, легкий протокол для децентралізованого спілкування в режимі реального часу, а також улюблена платформа Mozilla для відкритих дискусій. Долучайтеся до нас у кімнаті "common-voice:mozilla.org".
+# label for button
+find-us-on-element-action-1 = Element
+find-us-on-matrix-action-2 = Інші клієнти
+ask-mozilla-share = Попросіть Mozilla поділитися вашими подіями
+ask-mozilla-share-content = Маєте минулу або майбутню подію? Розкажіть нам, і ми розповімо про неї в нашій спільноті або напишемо про неї в блозі!
+# label for button
+ask-mozilla-share-action = Розповісти про свою подію
+download-contribution-certificate = Завантажити свій сертифікат про внесок
+download-contribution-certificate-content = Завантажте сертифікат для своїх заходів або для себе, якщо ви зробили внесок до Common Voice — це було б неможливо без вас!
+# label for button
+download-contribution-certificate-action = Отримати свій сертифікат
+contribute-github = Зробити внесок на GitHub
+contribute-github-content = Цей проєкт був би неможливим без таких людей, як ви. 🎉 Є багато способів долучитися до Common Voice – вам не обов'язково вміти програмувати, щоб зробити свій внесок!
+# label for button
+contribute-github-action = Зробити внесок на GitHub
+
+## Featured section
+
+featured-section-title = Висвітлено в...
+# icon is an arrow that points downwards
+download-press-pack = Завантажити наш прес-пакет <icon></icon>
+
+## Developers section
+
+developers-section-title-202608 = Загальнодоступні набори відкритих мовленнєвих даних понад 330 мовами
+developers-section-subtitle-v2 = Набори даних для автоматичного розпізнавання мовлення (ASR) та інших контекстів обробки природної мови (NLP) – створені за участі спільноти.
+# icon is an arrow that points to the right
+explore-datasets = Переглянути набори даних <icon></icon>
+
+## Get involved section
+
+get-involved-section-title = Підтримати відкриті набори даних, керовані спільнотою
+read-sentences-link = Прочитати речення
+validate-readings-link = Затвердити прочитання
+contribute-link = Зробити внесок у набір тексту
+answer-questions-link = Відповісти на запитання
+transcribe-answers-link = Транскрибувати відповіді
+review-transcriptions-link = Перевірити транскрипції
+contribute-text-link = Додати текст
+press-and-stories-link = Преса та статті
+
+## Partner section
+
+partner-section-title = Партнерство з нами
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-tech-companies = <bold>Технологічні компанії</bold> – інвестуйте у створення відкритих наборів даних для багатомовної екосистеми ШІ, яка зростає
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-civil-society = <bold>Громадянське суспільство та дослідники</bold> - створюйте, розміщуйте та діліться ефективними наборами даних безплатно
+# Text wrapped in <bold></bold> will be shown in bold font
+partner-section-subtitle-philantropy = <bold>Благодійники</bold> - спонсоруйте створення набору даних для стимулювання місцевих інновацій та розвитку
+# icon is an arrow that points to the right
+get-in-touch-button = Зв'язатися з нами <icon></icon>
+# Partners section
+our-partners-include = Серед наших партнерів...
