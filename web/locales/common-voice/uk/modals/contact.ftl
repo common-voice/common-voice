@@ -1,6 +1,6 @@
 ## Contact Modal
 
-contact-title = Форма зв'язку
+contact-title = Форма для зв'язку
 contact-form-name =
     .label = Ім'я
 contact-form-message =
