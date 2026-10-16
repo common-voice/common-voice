@@ -3,6 +3,8 @@ speak-now = Говоріть
 speak-subtitle = Запишіть свій голос
 record-cta = Почати запис
 record-platform-not-supported = Шкода, але ваша платформа наразі не підтримується.
+record-platform-webview = Можливо, ви потрапили сюди, натиснувши посилання в застосунку соціальної мережі. Ви використовуєте вбудований в застосунок браузер, який не підтримує аудіозапис.
+record-platform-not-supported-webview = На мобільних пристроях ви можете робити внески за допомогою системного браузера…
 record-platform-not-supported-desktop = На настільних комп'ютерах, ви можете завантажити найновіший:
 record-platform-not-supported-ios-non-safari = На iOS, будь ласка, продовжте у Safari, щоб увімкнути запис…
 record-must-allow-microphone = Ви повинні дозволити доступ до мікрофону.
@@ -10,6 +12,15 @@ record-no-mic-found = Не знайдено мікрофон.
 record-error-too-short = Запис надто короткий.
 record-error-too-long = Запис надто довгий.
 record-error-too-quiet = Запис надто тихий.
+record-error-empty-recording = Аудіо не записано. Перевірте мікрофон і повторіть спробу.
+record-error-unknown-format = Не вдалося визначити аудіоформат. Спробуйте скористатися іншим браузером.
+record-error-uploaded-clip-corrupted =
+    Схоже, ваш аудіозапис пошкоджено. Можливі причини цього:
+    
+    • Проблеми сумісності браузера (спробуйте використати інший браузер)
+    • Проблеми з мікрофоном або аудіодрайвером
+    • Перебої в мережі під час запису
+    Будь ласка, спробуйте записати ще раз.
 record-cancel = Скасувати запис
 record-instruction = { $actionType }<recordIcon></recordIcon>, потім прочитайте речення вголос
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> коли готово

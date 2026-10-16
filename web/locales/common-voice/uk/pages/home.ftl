@@ -56,6 +56,7 @@ x-years-short =
     }
 help-make-dataset = Допоможіть нам створити високоякісний, публічно-відкритий набір даних
 sign-up-account = Зареєструвати обліковий запис
+email-subscription-title-v3 = Підпишіться на новини від Common Voice та Mozilla Foundation
 
 ## Account Benefits
 
@@ -86,6 +87,11 @@ read-more-about = Докладніше на сторінці Про нас
 
 ## NAV ITEMS
 
+answer-questions = Відповісти на запитання
+review-transcriptions = Переглянути транскрипції
+add-questions = Додати запитання
+review-questions = Переглянути запитання
+transcribe-audio = Транскрибувати аудіо
 press-and-stories = Преса та історії
 
 ## MENU ITEMS TOOLTIPS

@@ -8,6 +8,13 @@ datasets-positioning =
     Багатомовний набір даних Common Voice вже є найбільшим загальнодоступним набором голосів у своєму роді, але він не єдиний.
     
     Розглядайте цю сторінку опорним вузлом для інших відкритих голосових наборів даних, а зі зростанням Common Voice — домівкою для наших оновлень.
+# New/upcoming datasets page headline
+datasets-headline-mdc = Відтепер набори даних Mozilla Common Voice доступні винятково на Mozilla Data Collective.
+# New/upcoming datasets page headline text
+datasets-positioning-mdc =
+    Починаючи з версії Common Voice 23.0, всі набори даних Common Voice доступні для завантаження винятково через Mozilla Data Collective!
+    
+    Ця сторінка слугує історичним архівом для попередніх версій наборів даних Mozilla Common Voice. Архівні випуски слід використовувати лише в певних дослідницьких сценаріях, а не для навчання, щоб поважати побажання тих, хто попросив виключити їхні внески.
 datasets-speech-bubble-content = Приголомшлива новина! Довільне говоріння вже на підході! Слідкуйте за оновленнями та не забудьте переглянути наш <discordLink>Discord</discordLink>, щоб бути в курсі оновлень.
 language = Мова
 download-dataset-header = Завантажити набір даних
@@ -94,7 +101,12 @@ release-version = Версія
 dataset-date = Дата
 license = Ліцензія: <licenseLink>{ $license }</licenseLink>
 license-mixed = Змішана
+# Support old genders in older datasets
+male = Чоловіча
+female = Жіноча
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = Завантажте наші набори голосових даних
 # MENU ITEM ARIA LABELS
 download-contribute-menu-aria-label = Параметри завантаження для доступу до даних Common Voice
+datasets-show-more = Показати всі набори даних
+datasets-show-less = Показати найновіші набори даних
