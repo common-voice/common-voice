@@ -123,6 +123,7 @@ about-playbook-how-grow-language-content-4 = سماجی میڈیا
 about-playbook-how-grow-language-content-5 = تساں سنیہا پُڄاوݨ کیتے سوشل میڈیا پلیٹ فارم استعمال کر سڳدے او۔ اینجھاں پوسٹاں دی سانجھ کرو جیڑھیاں ݙسیندیاں ہن جو ایہ کیوں اہمیت رکھیندا ہے، تے زبان دے حقوق، آواز AI، یا ٹیک وِچ تعصب جیہیں مسائل دے بارے ڳالھ کرݨ والے ٻئے لوکاں نال رابطہ کرو۔ <campaignLink> سماجی مہم چلاوݨ دے بارے وِچ ودھیک مشورہ ݙیکھو، بشمول او مواد جیڑھا تساں دوبارہ استعمال کرسڳدے او </campaignLink>۔
 about-playbook-how-grow-language-content-6 = بھائیوالی تے نیٹ ورک
 about-playbook-how-grow-language-content-7 = ٻنہاں کوں ڳولو جیڑھے پرواہ کریندے ہن۔ ایہ یونیورسٹیاں، زبان دے سکول، وکالت گروپس یا ڈیٹا سائنس کمیونٹیز تھی سڳدیاں ہن، تائیں پُڄو تے واضح طور تے وضاحت کرو جو او کیویں مدد کر سڳدے ہن تے کیوں۔ <outreachTemplates> اساݙی ٹیمپلیٹ آوٹ ریچ ای میلز ݙیکھو </outreachTemplates>۔
+about-playbook-how-grow-language-content-8-v2 = <strong>تخلیقی بݨو!</strong> تہاݙی زبان دی برادری منفرد ہوسی، تے شروع کرݨ دے بس کجھ طریقے ایہ ہن۔ جے تہاکوں کوئی سوال ہووے تاں مہربانی کر کے <communitiesLink>GitHub تے ایں COMMUNITIES.md دستاویز دا جائزہ گھنو</communitiesLink>۔
 
 ## How to validate
 

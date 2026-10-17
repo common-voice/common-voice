@@ -3,6 +3,8 @@ speak-now = ہُݨ ٻولو
 speak-subtitle = آپݨی آواز دان کرو
 record-cta = رکارڈنگ شروع کرو
 record-platform-not-supported = ساکوں افسوس ہے، فی الحال تہاݙا پلیٹ فارم سہارا تھیا کائنی۔
+record-platform-webview = تُساں سوشل میڈیا ایپ وچ کہیں لنک تے کلک کر کے ایتھاں پُڄے ہووسو۔ تُساں این-ایپ براؤزر ورتیندے پئے ہوو، جیہڑا آڈیو ریکارڈنگ دی سہولت نئیں ݙیندا۔
+record-platform-not-supported-webview = موبائل ڈیوائسز تے تساں اپݨے سسٹم براؤزر کوں استعمال کرکے حصہ پا سڳدے ہو۔
 record-platform-not-supported-desktop = ڈیسک ٹاپ کمپیوٹر تے تساں ڈاؤن لوڈ کرݨ نال ونگار ݙے سڳڈے ہو۔۔۔
 record-platform-not-supported-ios-non-safari = آئی او ایس تے رکارڈنگ فعال رکھݨ کیتے سفاری نال حصہ پاؤ، تھورائت ہوساں۔۔۔
 record-must-allow-microphone = مائیکروفون دی رسائی دی تہاݙی اجازت ضروری ہے۔
@@ -10,6 +12,14 @@ record-no-mic-found = کوئی مائیکروفون کائنی لبھا۔
 record-error-too-short = ایہ رکاڈنگ ٻہوں چھوٹی ہائی۔
 record-error-too-long = ایہ رکاڈنگ ݙاڈھی لمبی ہائی۔
 record-error-too-quiet = ایہ رکاڈنگ ݙاڈھی چُپ ہائی۔
+record-error-empty-recording = کوئی آڈیو کیپچر نہیں تھئی۔ مہربانی کرکے اپݨا مائیکروفون چیک کرو تے دوبارہ کوشش کرو۔
+record-error-unknown-format = آڈیو فارمیٹ دا تعین نہیں تھی سڳیا۔ مہربانی کرکے مختلف براؤزر استعمال کرݨ دی کوشش کرو۔
+record-error-uploaded-clip-corrupted =
+    تہاݙی آڈیو ریکارڈنگ خراب تھی ڳئی لڳدی ہے۔ ایہ ایں وجہ توں تھی سڳدا ہے:
+    • براؤزر دی مطابقت دے مسئلے (مختلف براؤزر استعمال کرݨ دی کوشش کرو)
+    • مائیکروفون یا آڈیو ڈرائیور دے مسئلے
+    • ریکارڈنگ دے دوران نیٹ ورک وچ رکاوٹاں
+    مہربانی کرکے دوبارہ ریکارڈ کرݨ دی کوشش کرو۔
 record-cancel = ولدا رکارڈنگ منسوخ کرو
 record-instruction = { $actionType }<recordIcon></recordIcon> وت اُچی آواز نال جملہ پڑھو
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> جہڑے ویلے تھی ون٘ڄے
@@ -62,3 +72,17 @@ create-profile-button = پروفائل بݨاؤ
 img-alt-success-checkmark = کامیابی دا نشان
 # menu item
 read-sentences = جملے پڑھو
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = جملے پڑھو <small>(جلد آندا پئے)</small>
+
+## MENU ITEM TOOLTIPS
+
+speak-contribute-menu-tooltip = جملے پڑھو، سوالاں دے جواب ݙیو
+read-sentences-menu-item-tooltip = اپݨی زبان وچ جملے پڑھدے ہوئیں اپݨی آواز ریکارڈ کرو
+answer-questions-menu-item-tooltip = اپݨی زبان وچ سوالاں تے اشاریاں دا جواب ݙیندے ہوئیں اپݨی آواز ریکارڈ کرو
+
+## MENU ITEM ARIA LABELS
+
+speak-contribute-menu-aria-label = ٻولݨ دے آپشنز دا مینو
+read-sentences-menu-item-aria-label = مختلف زباناں وچ کمیونٹی ولوں جمع کرائے ڳئے جملے پڑھو
+answer-questions-menu-item-aria-label = کمیونٹی دے پڑھݨ تے جواب ݙیوݨ کیتے نواں سوال جمع کراؤ

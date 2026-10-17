@@ -8,6 +8,11 @@ datasets-positioning =
     کامن وائس دا کثیر زبانی ڈیٹا سیٹ پہلے کنوں ای آپݨی نوعیت دا سبھ توں وݙا عوامی طور تے دستیاب وائس ڈیٹا سیٹ ہے، لیکن ایہ کلھا کائنی۔
     
     ایں ورقے کوں ݙوجھے اوپن سورس وائس ڈیٹا سیٹس کیتے ہک حوالہ ڳڑھ دے طور تے ݙیکھو تے جیویں جو کامن وائس ودھدی پئی ہے، اساݙی ریلیز دیاں تازہ کاریاں کیتے ہک گھر ہے۔
+# New/upcoming datasets page headline
+datasets-headline-mdc = Mozilla Common Voice ڈیٹاسیٹس ہݨ صرف Mozilla Data Collective تے دستیاب ہن۔
+# New/upcoming datasets page headline text
+datasets-positioning-mdc = Common Voice 23.0 توں، سارے Common Voice ڈیٹاسیٹس صرف Mozilla Data Collective دے ذریعے ڈاؤن لوڈ کیتے ونڄ سڳدن! ایہ صفحہ Mozilla Common Voice ڈیٹاسیٹس دے پچھلے ورژنز دا تاریخی آرکائیو ہے۔ آرکائیو
+datasets-speech-bubble-content = خوشخبری! Spontaneous Speech آ رہی ہے! اپ ڈیٹس کیتے جڑے رہو تے تازہ ترین معلومات کیتے ساݙے <discordLink>Discord</discordLink> کوں ضرور ݙیکھو۔
 language = زبان
 download-dataset-header = ڈیٹاسیٹ ڈاؤن لوڈ کرو
 download-delta-explainer = اساں کجھ تبدیلیاں کیتیاں ہن۔ ڈیلٹا سیگمنٹس وِچ چھیکڑی ریلیز دے بعد کنوں حالیہ کلپس شامل ہن۔ <deltaLink> ایں کم دے بارے ودھیک پڑھو </deltaLink>۔
@@ -98,3 +103,9 @@ license-mixed = مکس تھئے
 # Support old genders in older datasets
 male = مرد
 female = تریمت
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = ساݙے آواز دے ڈیٹاسیٹس ڈاؤن لوڈ کرو
+# MENU ITEM ARIA LABELS
+download-contribute-menu-aria-label = Common Voice ڈیٹا تئیں رسائی کیتے ڈاؤن لوڈ دے آپشنز
+datasets-show-more = سارے ڈیٹاسیٹس ݙکھاؤ
+datasets-show-less = تازہ ترین ڈیٹاسیٹس ݙکھاؤ

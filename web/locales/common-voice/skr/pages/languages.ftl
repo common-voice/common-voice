@@ -6,6 +6,7 @@ language-section-launched = لان٘چ تھی ڳیاں
 language-section-launched-description = انہاں شروع تھیوݨ آلیاں زباناں کیتے ویب سائٹ کوں کامیابی نال <localizationGlossaryLink> مقامی </localizationGlossaryLink> کیتا ڳیا ہے ، تے وافر تعداد وچ <speakLink> ٻولݨ</speakLink> تے <listenLink>سُݨݨ</listenLink> دیاں ونگاراں کو جاری رکھݨ کیتے <sentenceCollectionGlossaryLink>جملے کٹھے</sentenceCollectionGlossaryLink>  کیتے ڳئے ہن۔
 # lastUpdatedTimeStamp is a timestamp that indicates when the language stats was last updated
 language-section-last-updated = چھیکڑی اپ ڈیٹ: { $lastUpdatedTimeStamp }
+language-communities = براہ کرم اپنے کمیونٹی چینلز <communitiesLink>گٹ ہب تے COMMUNITIES.md دستاویز</communitiesLink> وچ شامل کرݨ تے غور کرو
 languages-show-more = ٻیا ݙیکھو
 languages-show-less = گھٹ ݙیکھو
 language-meter-in-progress = پیش رفت
