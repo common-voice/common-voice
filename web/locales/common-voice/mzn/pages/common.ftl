@@ -524,6 +524,16 @@ announcement-release = عزیزِ همکار، تازگی کامل تنک داش
 # Text wrapped in <cvDatasheetsLink></cvDatasheetsLink> will be rendered as an external link to the cv-datasheets GitHub repo
 announcement-pre-release = همکار جان، تازه بسته ره در آماده کمبی. لطفاً تأییدیه‌ئون ره جمع هاکنین و <cvDatasheetsLink>سی‌وی-جدولون</cvDatasheetsLink> دله شه هاکردیِ آپدیت ره بَوینین.
 
+## Release Commencing
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-commencing = همکار عزیز، انتشار زمون در سر وونه و بسته ره خامبی تنک هاکنیم و ونه دیتاست ره <mdcLink>موزیلا دیتا کالکتیو</mdcLink> تا همین چند روزی بازار إنه.
+
+## Downtime Announcements
+
+# Generic scheduled downtime for next Sunday early hours
+announcement-scheduled-downtime = همکار عزیز، إما شه سیستمِ خار هاکردن وسه گال-به-گال پیش إنه که قطعی برنومه یلمی که معمولاً چند ساعتی کشنه. همین یک‌شمبه جه هم قطعی داریم. اگه مشکل ور بخردنی، ماتریکس دله أمجه تماس بیرین.
+
 ## Common Language/Dataset Selector & SearchBox Related
 
 # Generic search box defaults
