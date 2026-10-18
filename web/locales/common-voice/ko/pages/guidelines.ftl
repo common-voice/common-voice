@@ -179,7 +179,14 @@ transcribe-the-audio-subheader-2-example-3-correct = <right>맞음</right>: 이�
 transcribe-the-audio-subheader-2-example-3-wrong = <wrong>틀림</wrong>: 20%가 할인되었습니다
 transcribe-the-audio-subheader-2-example-4-correct = <right>맞음</right>: 지난주 목요일 <underline>FBI</underline>에 구속됨
 transcribe-the-audio-subheader-2-example-4-wrong = <wrong>틀림</wrong>: 지난 목요일 <underline>에프비아이</underline>에의해 구속됨
+transcribe-the-audio-subheader-3-explanation = 다음의 특수 태그는 (영어로) 유창하지 않고 거르기, 기타 비언어적 콘텐츠 유형을 표시하는 데 사용해야 합니다.
 tags-table-header-1 = 태그
+tags-table-header-2 = 의미
+tags-laugh = 웃음
+tags-disfluency = 말더듬
+tags-unclear = 불분명
+tags-noise = 소음
+tags-laugh-explanation = 웃음 소리.
 
 ## Code-Switching
 
