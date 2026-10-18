@@ -523,3 +523,17 @@ announcement-release = عزیزِ همکار، تازگی کامل تنک داش
 
 # Text wrapped in <cvDatasheetsLink></cvDatasheetsLink> will be rendered as an external link to the cv-datasheets GitHub repo
 announcement-pre-release = همکار جان، تازه بسته ره در آماده کمبی. لطفاً تأییدیه‌ئون ره جمع هاکنین و <cvDatasheetsLink>سی‌وی-جدولون</cvDatasheetsLink> دله شه هاکردیِ آپدیت ره بَوینین.
+
+## Common Language/Dataset Selector & SearchBox Related
+
+# Generic search box defaults
+searchbox-default-label = بنویشتن، چرخه‌تو وسه
+searchbox-default-placeholder = چرخه‌تو...
+searchbox-default-aria-label = چرخه‌تو
+dropdown-no-results = ونه واری پٮدا نیّه
+# Common Voice Dataset=Language search box
+dataset-searchbox-label = هم نمایش و هم دیتاستِ زوون ره عوض هاکردن
+dataset-searchbox-placeholder = چرخه‌تو اتا زوون وسه...
+dataset-searchbox-aria-label = چرخه‌تو اتا زوون‌سه
+dataset-search-no-results = اینتی‌چی زوون پٮدا نیّه
+request-new-language = اتا نو زوون وسّه بخاستی هدائن
