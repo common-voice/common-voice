@@ -374,3 +374,152 @@ st = جنوبی سوتهو
 su = سوندایی
 sv-SE = سوئدی
 sva = سوان
+sw = سواحلی
+swb = شیمائوره
+syr = آشوری
+szy = ساکیزایا
+ta = تامیلی
+tar = میونی تاراهومارا
+tay = آتایال
+te = تلوگو
+teg = تکه
+tg = تاجیکی
+th = تایلندی
+ti = تیگرینیایی
+tig = تیگره
+tiv = تیو
+tk = ترکمونی
+tl = تاگالوگ
+tli = تلینگیت
+tn = ستسوانا
+tob = توبا قوم
+tok = توکی پونا
+top = پاپانتلا توتوناک
+tr = تؤرکی
+trv = سدقی
+trw = توروالی
+ts = کسیتسونگا
+tt = تاتاری
+ttj = روتوری
+tui = توپوری
+tum = تومبوکا
+tuq = توداگا
+tvu = تونن
+tw = توی
+ty = تاهیتیایی
+tyv = تووان
+uby = اوبیخ
+udl = اولدمه
+udm = اودمورت
+ug = اویغوری
+uk = اوکراینی
+ukv = کوکو
+ur = اردو
+ush = اوشوجو
+usp = اوسپانتکو
+uz = اوزبکی
+var = هوئاریو
+ve = تشیوندا
+vec = ونتی
+vi = ویتنامی
+vls = غربی فلمیش
+vmw = اماخووا
+vot = ووتی
+wbl = واخی
+wep = وستفالیایی
+wes = کامرون پیجین
+wo = وولف
+xdq = کایتاگ
+xh = هوسا
+xhe = خترانی
+xka = کالکوتی
+xkl = کنیاهی
+xmf = مینگرلیانی
+xsm = کاسم
+yaq = یاقی
+yav = نوئاسوئه
+ydg = یادقی
+yi = ییدیش
+yo = یوروبا
+yue = کانتونی
+zgh = تامازیغ
+zh-CN = چینی (چین)
+zh-HK = چینی (هونگ‌کونگ)
+zh-TW = چینی (تایوان)
+zoc = کوپاینالا زوک
+zu = زولو
+zza = زازاکی
+
+## Layout
+
+profile = پرؤفایل
+help = کومِک
+contact = تماس
+privacy = خصوصی
+terms = شرایط
+cookies = حافظه
+faq = سؤال-جواب
+documentation = اسناد
+content-license-text = محتوا ره <licenseLink>کریتیو کامنز مجوز</licenseLink> په نشر دمبی
+share-title = أمه جامعه دله عضو بوین
+share-text = کؤمک کنده ماشین یاد بیره مردم چتی گپ زنّه، شه چمر ره { $link } إهدا هاکنین
+link-copied = لینک کؤپی بیّه
+back-top = به‌جور دَگِرِستِن
+logout = بریم در بوردِن
+donate = إهدا
+stayintouch = إما، موزیلا دله اتا جامعه ساجمبی که چمرِ تٮکنولوجی دور جمع وومبی. إما خامبی که آپدیت‌ئون و نو دیتائونِ منابع وسه در إرتٮباط بموندیم و خَوِر-دار بوئیم این دیتائون جه چتی إستٮفاده وونه.
+privacy-info = إما قول دمبی که شمه إطلاعات جه خار-خار مواظبت کمبی. أمه <privacyLink>خصوصی حریم</privacyLink> شرایط ره هارشین.
+return-to-cv = همباز چمری جه دگرستن
+email-input =
+    .label = ایمیل
+loading = لسی هادین...
+email-opt-in-info = مه ره اینتی ونه که ایمیل‌هایی بیرم که أهدافِ یاد بیاردن، مه پیشرفت و خَوِرونی که پروژه خوری هستنه ره دونم.
+email-opt-in-info-title = همباز چمری مِیلینگ لیست دله عضو بیّن
+email-opt-in-info-sub-with-challenge = ایمیل‌هایی بیتن که چالش‌ها، أهدافِ یاد بیاردن، آپدیتونِ پیشرفت و خورون خوری هستنه.
+email-opt-in-privacy-v2 = ایمیل‌هایِ هوجی‌ین جه گنّی که موزیلا این إطلاعات ره <privacyLink>خصوصی حریم</privacyLink> مقررات په بیره، عٮب نکنده.
+indicates-required = اونجه‌هان که إساره (*) بزه هسته، حکماً ونه پِر بوه.
+not-available-abbreviation = ن؟
+# Text shown on a button that can be clicked to copy text to the clipboard
+copy = کؤپی
+# Text shown on a button that can be clicked to close a modal or panel
+close = دَوِستن
+# Text shown on a button that can be clicked to cancel an action
+cancel = لغو
+# Text shown on a button that can be clicked to delete an item
+delete = حذف
+
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = <mark>شمه کؤمک</mark><br/><mark>ره لازم دارمی!</mark>
+# Text wrapped in <strong></strong> will be rendered on bold font
+donate-banner-cta-explanation = تقریباً یک میلیون دلار پول خانه که یک سال دیتاست جه برسیم و وه ره +۱۰۰ تا زوونی جامعه وسّه صحیح-سالم باقی داریم. <strong>اگه اینتی پروژه بقاء ره اهمیت دنّی، إسا کؤمک هاکنین!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>شه چرخه‌تو وسّه</mark><br/><mark>سی‌وی جه کؤمک گیرنی؟</mark>
+languages-donate-banner-cta-explanation = همباز چمری پول ره إنفاق و خیریه جه جمع کنّه! إما ره ونه که دانشگاهون، حرفه‌ای محققون و مدنی جوامع جه کایری هاکنیم. همباز چمریِ إستٮفاده مجانی هسته و ولی لازم دارنه آدمونی دوون که وه ره مالی کؤمک هاکنن و تن بئن.
+localization-select =
+    .label = زوون/محلی‌سازیِ هوجی‌ین
+
+## MDC Announcement
+
+# Main text for MDC announcement. Text wrapped in <strong></strong> will be rendered with bold font
+announcement-mdc-text = <strong>نو همباز چمری دیتاسِت</strong> إسا دسترس هسته که اختصاصاً وه ره موزیلا دیتا کالکتیو جه دانلود هاکنین. +300 جهونی دیتاست جه ملحق بوین که أمه جامعه بساتنه.
+# Button text for MDC announcement
+announcement-mdc-button-text = موزیلا دیتا کالکتیو ره ملحق بوین
+# Aria text for button which opens MDC on a new page
+announcement-mdc-button-aria-text = نو پنجره دله وا هاکردن
+
+## Release Delay Announcement
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-delay = عزیزِ همکار، إما تازگی تنک هاکردن سر کار کمبی. إنتظاری کشمبی که این چن‌روزی وه <mdcLink>موزیلا دیتا کالکتیو</mdcLink> دله تنک بوه.
+
+## Release Announcement
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release = عزیزِ همکار، تازگی کامل تنک داشتمی که <mdcLink>موزیلا دیتا کالکتیو</mdcLink> دله کــَته. ملحق بوین و +۵۰۰ جهونی دیتاست ره دسترسی پٮدا هاکنین که أمه جامعه بساتنه.
+
+## Pre-Release Announcement (dates TBD)
+
+# Text wrapped in <cvDatasheetsLink></cvDatasheetsLink> will be rendered as an external link to the cv-datasheets GitHub repo
+announcement-pre-release = همکار جان، تازه بسته ره در آماده کمبی. لطفاً تأییدیه‌ئون ره جمع هاکنین و <cvDatasheetsLink>سی‌وی-جدولون</cvDatasheetsLink> دله شه هاکردیِ آپدیت ره بَوینین.
