@@ -1,4 +1,4 @@
-speak = گپ بروئن
+speak = گپ بزوئن
 speak-now = إسا گپ بزن
 speak-subtitle = شه چمر ره إهدا هاکن
 record-cta = ضبط ره شروع هاکن
@@ -63,3 +63,26 @@ thanks-for-voice-toast-error = اتا خطا شمه اطلاعات برسنی‌
 first-cta-gender-select-default-option = اتا گزینه ره هوجی‌ین
 first-cta-gender-select-help-text =
     .label = شمه جنسیت چچی‌یه؟
+# SECOND POST SUBMISSION CTA
+second-cta-header-text = خنابدون که شه چمر ره اینگندی!
+second-cta-subtitle-text = اتا پرؤفایل جه تونی شه کردکار ره إدامه هادین و باقی کایرون جه ارتباط دارین.
+already-have-an-account = حلا اتا کاروری حساب دارنی؟ <login>دله بئین</login>
+create-profile-button = پرؤفایل بساتن
+# IMAGE TAGS
+img-alt-success-checkmark = موفقیتِ علامت
+# menu item
+read-sentences = جملات ره بخوندین
+# text wrapped in <small></small> will be shown in a smaller font size
+read-sentences-coming-soon = جملات ره بخوندین <small>(در إنه)</small>
+
+## MENU ITEM TOOLTIPS
+
+speak-contribute-menu-tooltip = جملات ره بخوندین، سؤالات ره جواب باوین
+read-sentences-menu-item-tooltip = شه چمر ره جملاتِ بخوندستن گدر ضبط هاکنین
+answer-questions-menu-item-tooltip = شه چمر ره وقتی سؤالات ره جواب دِنی، ضبط هاکنین
+
+## MENU ITEM ARIA LABELS
+
+speak-contribute-menu-aria-label = گپ بزوئنِ گزینه‌ئونِ منو
+read-sentences-menu-item-aria-label = جملاتی که کارورونِ جامعه زوون‌های مختلف جه راهی هاکردنه ره بخوندین
+answer-questions-menu-item-aria-label = اتا نو سؤال راهی هاکنین که جامعه اینان ره بخوندن و جواب هادن
