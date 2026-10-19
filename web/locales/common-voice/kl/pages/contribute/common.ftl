@@ -19,10 +19,22 @@ share-title-new = Immiussinnaasatsinnik allanik nassaarlutit <bold>ikiortigut</b
 login-to-get-started = Aallartinniarlutit iserit atuisutulluunniit nalunaarit
 target-segment-add-voice = Illit nipit ilanngutsiguk
 target-segment-learn-more = Allanik ilikkagaqarit
+change-preferences = Inissiissutit allanngortikkit
 login-signup = Iserfissaq / Atuisutut nalunaarfissaq
 vote-yes = Aap
 vote-no = Naamik
 languages = Oqaatsit
+about = Pillugu
+partner = Peqatigisaq
+submit-form-action = Nassiuguk
+
+## Reporting
+
+report = Nalunaarutiginnigit
+report-other-comment =
+    .placeholder = Oqaaseqaat
+success = Iluatsippoq
+continue = Ingerlaqqigit
 
 ## Listen Shortcuts
 
