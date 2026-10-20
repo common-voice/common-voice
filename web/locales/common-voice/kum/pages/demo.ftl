@@ -12,3 +12,9 @@ card-button-next = Сонгъ
 card-button-back = Артгъа
 demo-language-select-label = Тиллергъе къарамагъа
 demo-eofy-header = 2019 йылны учуннагъы чыгъув
+demo-eofy-sub_header = Язувларны таушлары алынмагъа гьазир
+demo-account = Оьзбет
+
+## Demo Account
+
+demo-account-card-header = Ишибизге кёмек этмеге оьзбетсыз ярай
