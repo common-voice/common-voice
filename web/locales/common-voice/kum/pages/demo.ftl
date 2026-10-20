@@ -8,3 +8,7 @@ demo-welcome-subheader = Кёп зат билимеге сюезизми, иши
 
 demo-language-select-card-header = Авзат — дюньяда бек уллу зат, барсине ачыкъ тюрлю тильны тавушларымнан.
 demo-language-select-card-body = 259-мигъ адамларчун, солейгъен 50 тиллерде, бу язувлармнан охутурула солейгъен авпайларны
+card-button-next = Сонгъ
+card-button-back = Артгъа
+demo-language-select-label = Тиллергъе къарамагъа
+demo-eofy-header = 2019 йылны учуннагъы чыгъув
