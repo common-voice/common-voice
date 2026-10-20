@@ -44,3 +44,34 @@ help-reach-hours-pluralized = اتا هدف شه وسه تعیین هاکنین 
 help-reach-hours-general-pluralized = شه وسه اتا هدف تعیین هاکنین که همبازی چمر ره کومِک هاکنین { $hours }  ساعت جه برسه
 set-a-goal = هدف تعیین هاکردن
 cant-decide = نتونّی تصمیم بیرین؟
+activity-needed-calculation-fixed = اگه ۱۰۰ نفر ات روزِنه ۱۰۰ جمله ضبط هاکنن، ۱۳ ساعت صدا تولید وونه. اگه  همینتی پیش بوره، کم‌تر از ۳ ماه،  ۱۰۰۰ ساعت جه رسنه.
+how-many-per-day = رَزِم بیّه! چنتا ضبط ات روز دله؟
+how-many-a-week = عالی هسته! چنتا ضبط اتا هفته دله؟
+which-goal-type = خانی شه چمر ره ضبط هاکنین یا بشنوئین؟ یا هر دِ؟
+receiving-emails-info = إسا شمه وسه ایمیل إنه که ونه دله شما ره یاد یارنه پیشرفت وضع چتی هسته و «همبازی چمرون»ِ تازه خورون چچی-چچی‌نه.
+not-receiving-emails-info = شمه وسه إسا ایمیل راهی <bold>نوونه</bold> که شه هدف ره یاد نکنین یا پیشرفت وضع ره باوه و «همبازی چمرون» خورون ره باوه.
+n-clips-pluralized = { $count } تا ضبط بئی
+help-share-goal = إما ره کومِک هاکنین صدائون ویشتری پٮدا هاکنیم و شه هدف ره تنک‌هشن (شِیر) هاکنین
+confirm-goal = هدفِ تأیید
+goal-interval-weekly = هفتگی
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = شه هدف که روزنه { $count } تا ضبط هسته ره { $type } تنک‌هشن هاکنین
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = شه هدف که هفتگی { $count } تا ضبط هسته ره { $type } تنک‌هشن هاکنین
+share-goal-type-speak = گپ بزوئن
+share-goal-type-listen = بشنوستن
+share-goal-type-both = بشنوستن و گپ بزوئن
+# LINK will be replaced with the current URL
+goal-share-text = من تازگی#CommonVoice دله شه هدف ره بساتمه که چتی روزی چنتا صدا ضبط هاکردن جه کومِک هاکنم إی‌آی مه زوون جه گپ بزنه. شما هم مه ره تن بئین { $link }
+weekly-goal-created = شمه هفتگی هدف بساته بیه
+daily-goal-created = شمه روزِنه هدف بساته بیه
+track-progress = پیشرفت ره اینجه و شه آمارِ ولگ دله په‌گیر بوئین.
+return-to-edit-goal = شه هدفِ تغییر وسه، هرگدر تونّی اینجه دگردین.
+share-goal = مه هدفِ تنک‌هشن (share) هاکردن
+
+## Goals
+
+streaks = یک‌بند
+days = روز
+recordings = ضبط
+validations = تأییدیه
