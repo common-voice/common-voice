@@ -48,8 +48,16 @@ continue-speaking-button = Na spas, axaftinê bidomîne
 create-profile-text = Tu dixwazî agahiyên xwe tomar bikî? <createProfile>Profîlekê çêbike</createProfile>
 thanks-for-voice-toast = Spas ji bo agahiyên te yên dengî
 thanks-for-voice-toast-error = Di şandina agahiyên te yên dengî de çewtiyek derket.
+first-cta-gender-select-help-text =
+    .label = Hûn zayenda xwe çawa pênase dikin?
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = Spas ji bo ku te bi dengê xwe beşdarî kir!
 second-cta-subtitle-text = Bi rêya çêkirina profîlê tu dikarî çalakiyên xwe bişopînî û bi civakaka beşdarên daneya dengî re têkiliyê ava bikî.
 already-have-an-account = Jixwe hesabekî te heye? <login>Têkeve</login>
 create-profile-button = Profîlekê çêbike
+# menu item
+read-sentences = Hevokan bixwîne
+
+## MENU ITEM TOOLTIPS
+
+speak-contribute-menu-tooltip = Hevokan bixwîne, pirsan bibersivîne

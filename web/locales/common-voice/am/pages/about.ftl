@@ -124,6 +124,7 @@ about-playbook-how-grow-language-content-4 = ማህበራዊ ሚዲያ
 about-playbook-how-grow-language-content-5 = መልእክቱን ለማውጣት የማህበራዊ ሚዲያ መድረኮችን መጠቀም ይችላሉ። ለምን እንደሚያስፈልግ የሚገልጹ ልጥፎችን ያጋሩ እና እንደ ቋንቋ መብቶች፣ የድምጽ አስተውሎቶች ወይም የቴክኖሎጂ አድሎአዊ ጉዳዮችን ከሌሎች ሰዎች ጋር ይገናኙ። እንደገና ሊጠቀሙበት የሚችሉትን ይዘት ጨምሮ <campaignLink>ማህበራዊ ዘመቻ ማካሄድ ላይ ተጨማሪ ምክር ይመልከቱ</campaignLink>።
 about-playbook-how-grow-language-content-6 = ሽርክናዎች እና አውታረ መረቦች
 about-playbook-how-grow-language-content-7 = የሚመለከታቸው ሌሎችን ያግኙ።  ዩኒቨርሲቲዎች፣ የቋንቋ ትምህርት ቤቶች፣ የጥብቅና ቡድኖች ወይም የውሂብ ሳይንስ ማህበረሰቦች ሊሆኑ ይችላሉ። እንዴት ሊረዱ እንደሚችሉ እና ለምን እንደሆነ ይድረሱ እና በግልፅ ያብራሩ። <outreachTemplates>የእኛን የአብነት ስምሪት ኢሜይሎች ይመልከቱ</outreachTemplates>።
+about-playbook-how-grow-language-content-8-v2 = <strong>ፈጠራ ይኑርዎት!</strong> የቋንቋ ማህበረሰብዎ ልዩ ይሆናል፣ እና እነዚህ ለመጀመር ጥቂት መንገዶች ናቸው። የማህበረሰብ ቻናሎችዎን በ GitHub ላይ ወደ <communitiesLink>COMMUNITIES.md ሰነድ ማከል ያስቡበት</communitiesLink>።
 
 ## How to validate
 

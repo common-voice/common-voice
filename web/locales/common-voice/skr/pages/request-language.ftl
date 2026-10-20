@@ -34,3 +34,17 @@ request-language-success-list-3 =
 request-language-error =
     اساکوں ایہوں جئی درخواست کائناں ملی ہوسی۔ سوہݨا، ساکوں سدھا
     <emailLink>{ $email }</emailLink> تے ای میل کرو تے اساں تہاݙے نال واپسی رابطہ کریسوں!
+request-for-scripted-speech-toggle = اسکرپٹڈ اسپیچ کیتے درخواست
+request-for-spontaneous-speech-toggle = اسپونٹینیس اسپیچ کیتے درخواست
+need-help-deciding-platform = چݨݨ وچ مدد چاہیدی ہے؟
+# text wrapped in <strong></strong> will be shown as bold
+need-help-deciding-platform-explanation-1 = <strong>اسکرپٹڈ اسپیچ</strong> (روایتی طور تے جیہڑا تساں کامن وائس دے ناں توں ڄاݨدے ہو) اوہ ہے جتھے تساں اپنی زبان وچ جملے بلند آواز نال پڑھ سڳدے ہو۔
+need-help-deciding-platform-explanation-2 = <strong>اسپونٹینیس اسپیچ</strong> کامن وائس دا ہک نواں حصہ ہے جتھے تساں سوالاں دا جواب ودھیک قدرتی، روزمرہ انداز وچ ݙے سڳدے ہو۔
+need-help-deciding-platform-explanation-3 = اگر تہاکوں اپنی زبان پلیٹ فارم دے کہیں وی حصے وچ نظر نہ آوے تاں ݙوہیں منتخب کرو۔
+request-language-search-bar = تساں ایتھے اپنی زبان دا ناں لکھݨا شروع کر سڳدے ہو؛ اگر ایہہ ہݨے کامن وائس تے نہیں ہے تاں تساں ہیٹھ ݙتے ڳئے بٹݨ کوں دبا کے ایندی درخواست کر سڳدے ہو۔
+request-language-found-pontoon-not-launched = تہاݙی زبان پہلے توں کامن وائس دیاں زباناں دی فہرست وچ ہے۔ تساں <strong>پونٹون</strong> تے پلیٹ فارم انٹرفیس کوں مقامی بݨا کے زبان دے اجراء وچ مدد کر سڳدے ہو <pontoonLink>ایتھے</pontoonLink>۔ انٹرفیس کوں 60% مقامی بݨاوݨ دی لوڑ ہے؛ متبادل طور تے تساں صرف بنیادی سٹرنگز کوں web/locales/en/pages/contribute/*.ftl وچ 100% مقامی بݨا سڳدے ہو (ایہجیاں پنج فائلاں ہن)، تے انٹرفیس خود بخود شروع کر ݙتا ویسی۔
+request-language-found-cv-contribution = مبارک! تہاݙی زبان پہلے توں کامن وائس <strong>اسکرپٹڈ اسپیچ</strong> تے لائیو ہے۔ تساں <homePageLink>ایتھے</homePageLink> حصہ پا سڳدے ہو۔
+request-language-found-cv-sentences-lack = تہاݙی زبان پہلے توں کامن وائس دیاں زباناں دی فہرست وچ ہے۔ تساں <strong>اسکرپٹڈ اسپیچ</strong> تے جملے <sentencesContributionLink>ایتھے</sentencesContributionLink> ݙے کے زبان دے اجراء وچ مدد کر سڳدے ہو۔
+request-language-found-spontaneous-speech = تہاݙی زبان پہلے توں کامن وائس <strong>اسپونٹینیس اسپیچ</strong> تے لائیو ہے۔ حصہ پاوݨ کیتے <spontaneousSpeechLink>ایتھے</spontaneousSpeechLink> کلک کرو: حصہ پاوݨ شروع کرݨ توں پہلے حصے/ڈیٹاسیٹ دی زبان تبدیل کرݨا نہ بھلو۔
+request-language-already-available-scs = اسکرپٹڈ اسپیچ پہلے توں دستیاب ہے
+request-language-already-available-sps = اسپونٹینیس اسپیچ پہلے توں دستیاب ہے

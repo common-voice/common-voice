@@ -145,10 +145,48 @@ example-questions-explanation-2 = 질문 목록을 업로드 하고 싶다면 <g
 # Answer Questions
 answer-questions = 질문 답하기
 answer-questions-subheader = 일반 지침
+answer-questions-explanation-1 = 주제에 대해 잠시 생각하고, 어떤 종류의 말을 하고 싶은지 생각하세요. 하지만 너무 정형화 하지는 마세요. ‘녹음’ 아이콘을 클릭하세요. 녹음이 끝나면 직접 듣고, 재 녹음하거나 삭제, 제출할 수 있습니다.
+answer-questions-explanation-2 = 기억하세요 - 더듬거나, 일시 중지하거나, 단어를 반복해도 걱정하지 마세요. 이 모두는 포용적이고 실제의 음성 인식 도구를 만드는 엔지니어에게 유용한 데이터입니다.
 answer-questions-tip-1 = 조용한 장소에서 녹음하세요
+answer-questions-tip-2 = 인터넷 연결이 좋은 곳을 선택하세요
+answer-questions-tip-3b = 15-30초 응답을 유지
+answer-questions-tip-4 = 증오, 선동 또는 기타 모욕적인 말은 피하세요
+answer-questions-tip-5 = 친구에게 하듯이 자연스럽게 말하세요 - 자신의 실제 변형, 방언 및 억양을 사용하세요.
+answer-questions-tip-6 = 볼륨을 일정하게 유지하세요 - 소리를 지르거나 노래하지 마세요
+# Transcribe the Audio
+transcribe-the-audio = 오디오 텍스트 변환
 transcribe-the-audio-subheader-1 = 일반 지침
+transcribe-the-audio-subheader-2 = 숫자와 약어
 transcribe-the-audio-subheader-3 = 특수 태그
+transcribe-the-audio-subheader-4 = 단어 단편, 잘못된 시작, 반복되는 단어
+transcribe-the-audio-subheader-5 = 문법 오류와 구어체
+transcribe-the-audio-subheader-1-explanation = 일반적으로 들은 내용을 모두 적어야 합니다. 여기에는 다음이 포함됩니다.
+transcribe-the-audio-subheader-1-explanation-example-1 = 주저함과 되풀이를 포함한 유행어 쓰기
+transcribe-the-audio-subheader-1-explanation-example-2 = 기침이나 웃음과 같은 소음 이벤트에 레이블 지정
+transcribe-the-audio-subheader-1-explanation-example-3 = 배경 소음이나 자동차 경적 소리와 같은 심각한 소음 공해 표시
+transcribe-the-audio-subheader-1-explanation-example-4 = 문법적 변형과 속어가 있을 때 정확히 그 자리에서 기록해야 합니다. 다른 사람의 말을 수정하지 마세요.
+transcribe-the-audio-subheader-2-explanation-1 = 숫자나 특수문자를 사용하기 보다는 숫자나 기호를 글자 그대로 철자로 표기합니다. 예:
+transcribe-the-audio-subheader-2-explanation-2 = 두문자어는 표준 대문자 사용 규칙에 따라 해당 언어로 쓰여지는 대로 작성해야 합니다. 소리 나는 대로 표기하지 않아야 합니다. 예:
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <right>맞음</right>: 여기서 백마일 떨어져 있습니다.
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <wrong>틀림</wrong>: 여기서 100마일 떨어져 있습니다
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correct>맞음</correct>: <underline>이천십오</underline>년에 봬요
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>틀림</wrong>: <underline>2015</underline>년에에 봬요
+transcribe-the-audio-subheader-2-example-3-correct = <right>맞음</right>: 이십퍼센트가 할인되었습니다
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>틀림</wrong>: 20%가 할인되었습니다
+transcribe-the-audio-subheader-2-example-4-correct = <right>맞음</right>: 지난주 목요일 <underline>FBI</underline>에 구속됨
+transcribe-the-audio-subheader-2-example-4-wrong = <wrong>틀림</wrong>: 지난 목요일 <underline>에프비아이</underline>에의해 구속됨
+transcribe-the-audio-subheader-3-explanation = 다음의 특수 태그는 (영어로) 유창하지 않고 거르기, 기타 비언어적 콘텐츠 유형을 표시하는 데 사용해야 합니다.
 tags-table-header-1 = 태그
+tags-table-header-2 = 의미
+tags-laugh = 웃음
+tags-disfluency = 말더듬
+tags-unclear = 불분명
+tags-noise = 소음
+tags-laugh-explanation = 웃음 소리.
 
 ## Code-Switching
 

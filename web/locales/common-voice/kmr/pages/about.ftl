@@ -1,6 +1,9 @@
 ## ABOUT US
 
 about-title = Çima Common Voice?
+about-header-description-v2 =
+    <p>Common Voice komek daneyên dengî ye ku ji hêla dengên beşdarên dilxwaz ên li çaraliyê cîhanê ve tê xebitandin. Kesên ku dixwazin sepanên dengî ava bikin dikarin vê komek daneyan bikar bînin da ku modelên fêrbûna makîneyê perwerde bikin.</p>
+    <p>Niha, piraniya komên daneyên dengî yên şîrketan in, ku ev yek rê li ber nûjeniyê digire. Komên daneyên dengî her wiha kêm temsîl dikin: kesên ku ne-îngilîzî-axêv in, kesên rengîn, kesên seqet, jin û kesên LGBTQIA+. Ev tê vê wateyê ku teknolojiya deng-çalak ji bo gelek zimanan qet naxebite, û li cihê ku ew dixebite, dibe ku ji bo her kesî bi heman rengî baş nexebite. Em dixwazin vê yekê bi seferberkirina mirovan li her derê ji bo parvekirina dengê xwe biguherînin.
 how-does-it-work-title-v2 = Common Voice çawa dixebite?
 how-does-it-work-text = Em komdaneyeke dengan ya çavkanî vekirî berhev dikin. Dengê xwe bibexşîne, klîbên dengî yên kesên din kontrol bike, komdaneyê ji bo her kesî çêtir bike.
 
@@ -57,6 +60,7 @@ about-nav-playbook = Beşdarî çawa tê kirin
 ## What is a language
 
 about-playbook-what-is-language = Zimanek li ser Common Voiceê çi ye?
+about-playbook-what-is-language-content-1 = Gelek rê hene ku meriv li ser ziman bifikire. Ji bo armancên modelên naskirina axaftinê, Common Voice pêşniyar dike ku meriv li ser 'têgihîştina hevbeş', an jî 'gelo axaftvanên vî zimanî dikarin bi piranî hevûdu fêm bikin ger hewl bidin?' bisekine.
 about-playbook-what-is-language-content-2 = Em dixwazin ku modelên axaftinê ji axaftina mirovên cuda cuda baştir fêm bike. Ji bo ev pêk were jî divê komdaneya dengî, dengê gelek mirovên cihêreng di xwe de bihewîne.
 about-playbook-what-is-language-content-3 = Hin ziman ji aliyê rêziman, bilêvkirin û varyantên peyvan ve xwedî cudabûneke mezin in. Ji ber vê yekê em di 2022yê de <ctaLink>‘Varyantan’ didin destpêkirin</ctaLink>. Ev taybetî rê dide civakan ku di nav komdaneyên mezin de ziman/zaravayên xwe ji hev cuda bikin.
 
@@ -85,6 +89,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 about-playbook-how-localize = Wergerandina malperê çawa tê kirin?
 about-playbook-how-localize-content-1 = Wergera malpera Common Voiceê li ser <strong>Pontoon</strong>ê tê kirin.
 about-playbook-how-localize-content-2 = Heke hesabê te tune be <pontoonAccountLink>Hesabekî çêbike</pontoonAccountLink>. Paşê, zimanê xwe <strong>(‘Tîm’)</strong> hilbijêre û piştre projeya <pontoonCvLink>Common Voice</pontoonCvLink>ê hilbijêre. Ew ê dosyeyên ji bo wergerê bêne nîşandan. Li yekê ji wan bitikîne, paşê ew ê nivîsên ingilîzî û kodikek ji bo wergerê were pêşberî te.
+about-playbook-how-localize-content-3 = Werger ji Îngilîzî ye, lê hûn dikarin <strong>Pêşniyaran</strong> bi zimanên din bibînin. Li ser îkona <strong>Profîl</strong> bikirtînin, dû re li ser lînka <strong>Mîhengan</strong> bikirtînin û her zimanê ku hûn dizanin lê zêde bikin. Li quncikê rastê yê jêrîn lîsteyek wergeran dê hebe ku jê re <strong>Herêmî</strong> tê gotin. Werger piştî rojekê li ser malperê têne xuyang kirin.
 about-playbook-how-localize-content-4 = Dema ku wergerandina malperê bigihîje 75% ew ê malper ji bo zimanê te berdest bibe.
 about-playbook-how-localize-content-5 = Li vîdeoya me ya ravekar temaşe bike
 
@@ -92,30 +97,41 @@ about-playbook-how-localize-content-5 = Li vîdeoya me ya ravekar temaşe bike
 
 about-playbook-how-add-sentences = Ez çawa dikarim hevokan tevlî bikim?
 about-playbook-how-add-sentences-content-1 = <strong>Berhevkara Hevokan</strong> karê berhevkirin û piştrastkirina hevokên anonîmî li xwe digire. Pêşî, divê tu <scAccountLink>hesabekî çê bikî</scAccountLink></scAccountLink>. Paşê, zimanê xwe tevlî <strong>Profîla xwe</strong> bike. Piştî van, tu yê bikaribî hevokan <strong>tevlî bikî</strong> yan jî hevokên ku berê hatine tevlîkirin <strong>kontrol bikî</strong>.
+about-playbook-how-add-sentences-content-2 = Ji bo ku hevok di Common Voice de cih bigirin, divê du kes wan binirxînin û qebûl bikin. Hûn rêbernameyan ji bo zimanê xwe <languageGuidelinesLink>li vir</languageGuidelinesLink> diafirînin. Hevok divê di <licenseLink>domainê giştî</licenseLink> de bin û ji 15 peyvan kurttir bin. Hûn dikarin ji xwediyê nivîsekê bixwazin ku wê bi karanîna pêvajoya me ya devjêberdanê bike <waiverLink>CC0, û ji me re bişînin li ser commonvoice@mozilla.com.
+about-playbook-how-add-sentences-content-3 = Tu dikarî <scraperLink>Derxistina hevokan</scraperLink> bikar bînî da ku ji hevokên kurt ên ji Wîkîpediya sûd werbigirî.
 
 ## How to record quality
 
 about-playbook-how-record-quality = Ez ê çawa dengekî bi kalîte tomar bikim?
+about-playbook-how-record-content-1 = Bi dengê xwe yê normal biaxive! Awayê axaftina te li vir tê qebûlkirin - em dixwazin devoka te wekî xwe be, û em dixwazin deng, şêwaz û întonasyona te ya asayî be.
 about-playbook-how-record-content-2 = Bila qelebalixiya paşxanê ne pir be, divê dengê te bi hêsanî were bihîstin.
 about-playbook-how-record-content-3 = Hevokê bi baldarî bixwîne; bêjeyan neguherîne, li bêjeyan zêde neke û wan kêm nexwîne.
+about-playbook-how-record-content-4 = Berî ku hûn dest bi axaftinê bikin,pê ewle bin ku platform tomar dike û tenê piştî ku hûn qedandin raweste.
+about-playbook-how-record-content-5 = Li ser pîvanên rastbûnê bêtir bibînin.
 
 ## How to grow language
 
 about-playbook-how-grow-language = Em çawa dikarin li ser Common Voiceê zimanekî bi awayekî baş pêşve bixin?
+about-playbook-how-grow-language-content-1 = Afirandina derfetan ji bo beşdarbûna cûrbecûr mirovan bo Common Voice piştrast dike ku daneya wê xizmetê ji bo gelek kesan dike.Me çavkanî û şablonên ku hûn dikarin bikar bînin afirandine!
 about-playbook-how-grow-language-content-2 = Çalakî
+about-playbook-how-grow-language-content-3 = Hûn dikarin çalakiyan birêve bibin da ku alîkariya mirovan bikin ku beşdar bibin. Ji ya ku hûn difikirin hêsantir e. Hûn dikarin vê yekê bi rêya amûrek vîdyokonferansê serhêl bikin, an jî heke ewle be bi şexsî bikin. Şablon û çavkaniyên me yên ji bo birêvebirina çalakiyan bibînin.
 about-playbook-how-grow-language-content-4 = Medyaya civakî
+about-playbook-how-grow-language-content-5 = Hûn dikarin platformên medyaya civakî bikar bînin da ku peyamê bigihînin xelkê. Postên ku rave dikin çima girîng e parve bikin, û bi kesên din re têkilî daynin ku li ser mijarên wekî mafên ziman, dengê AI, an jî alîgirî di teknolojiyê de diaxivin. Li ser <campaignLink>birêvebirina kampanyayek civakî, tevî naveroka ku hûn dikarin ji nû ve bikar bînin</campaignLink> bêtir şîretan bibînin.
 about-playbook-how-grow-language-content-6 = Tor û Hevkar
+about-playbook-how-grow-language-content-7 = Kesên din bibînin ku eleqedar dibin. Ew dikarin zanîngeh, dibistanên zimanan, komên parêzvaniyê an civakên zanistiya daneyan bin. Bi wan re têkilî daynin û bi zelalî rave bikin ka ew çawa dikarin alîkariyê bikin û çima. <outreachTemplates>E-nameyên me yên şablonê yên ragihandinê bibînin</outreachTemplates>.
 
 ## How to validate
 
 about-playbook-how-validate = Ez ê çawa bizanibim dengekî piştrast bikim an na?
 about-playbook-how-validate-content-1 = Heke tu dengan <strong>dibihîzî</strong> û <strong>wan fêm dikî</strong>, bi giştî ev bes e ji bo <strong>piştrastkirinê</strong>.
+about-playbook-how-validate-content-2 = Klîbên ku tê de 'aksenteke' axaftvan ji ya we cuda ye red nekin-ev ji bo ku naskirina deng ji bo her kesî çêtir bixebite girîng e.
 about-playbook-how-validate-content-4 = Heke dengek ji aliyê 2 kesan ve were redkirin, ew deng ew ê li bindaneyeke cuda ya komdaneyê were weşandin.
 
 ## How to access dataset
 
 about-playbook-how-access-dataset = Ez çawa dikarim bigihîjim komdaneyê û wê bi kar bînim.
 about-playbook-how-access-dataset-content-1 = Tu dikarî biçî <datasetsPage>Rûpela komdaneyan</datasetsPage> ziman û guhertoya ku tu dixwazî, hilbijêrî û wê daxînî! Dosye, <metadataLink>daneyên metayê yên têkildar</metadataLink> wekî agahiyên demokrafîk û daneyên piştrastkirinê di xwe de dihewîne. Ji bo daxistina komdaneyê divê tu navnîşaneke emaîlê bikevê.
+about-playbook-how-access-dataset-content-2 = Eger hûn li amûrên avakirina modelên ASR digerin, hûn dikarin bi kesên din ên di civakê de li ser Discourse</discourseLink> têkilî daynin.
 
 ## How are decisions made
 
@@ -127,3 +143,9 @@ about-playbook-how-project-governance-content-4 = Beşdarbûna civakê û biryar
 about-playbook-how-project-governance-content-5 = Nirx û nasîn
 about-playbook-how-project-governance-content-6 = Berpirsyariya hevpar.
 about-playbook-how-project-governance-content-7 = <governanceLink>Zêdetir bixwîne bê ka em çawa tên birêvebirin</governanceLink>
+
+## How is Common Voice funded
+
+about-playbook-how-funded = Common Voice çawa tê fînansekirin?
+about-playbook-how-funded-content-1 = Common Voice projeyek Weqfa Mozilla ye, US 501c3. Proje niha bi tevahî ji hêla <philantropicGrantLink>alîkariyên xêrxwaziyê</philantropicGrantLink> û bexşên ji mirovên li çaraliyê cîhanê ve tê fînanse kirin.
+about-playbook-how-funded-content-2 = Bi berdewamî hilanîn û weşandina daneyan, baştirkirina platformê û birêvebirina <africaMradiLink>bernameyên civakî</africaMradiLink> gelek pere lê diçe.

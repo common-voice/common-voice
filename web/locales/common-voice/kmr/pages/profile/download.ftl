@@ -6,6 +6,7 @@ download-profile-title = Profîl
 download-profile-size = Çendek bayt
 download-recordings-title = Tomar
 download-recordings-size = Bi piranî çendek megabayt
+download-recordings-unavailable = Ku daxwazek din di pêş de be hûn nikarin qeydên xwe daxwaz bikin
 download-size = Mezinahî
 download-selected = Hilbijartî
 download-start = Daneyên profîlê daxîne
