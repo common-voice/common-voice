@@ -15,7 +15,7 @@ how-spontaneous-speech-works = Kā darbojas spontānā runa
 prompt-bubble-title = <mark>Jautājums</mark>
 prompt-bubble-subtitle = Mēs parādīsim jums jautājumu
 # text wrapped in <mark></mark> will have a blue background
-respond-bubble-title = <mark>Atbilde</mark>
+respond-bubble-title = <mark>Atbildēt</mark>
 respond-bubble-subtitle = Jāatbild tik dabiski, cik vien iespējams
 # text wrapped in <mark></mark> will have a blue background
 transcribe-bubble-title = <mark>Pārrakstīt</mark>

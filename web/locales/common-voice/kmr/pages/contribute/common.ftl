@@ -25,6 +25,7 @@ target-segment-generic-card = Tu beşdariyê di beşa hedefekê de dikî.
 target-segment-first-banner = Ji bo zimanê { $locale } alî çêkirina segmenta hedef a pêşîn yê Common Voice-ê bike.
 target-segment-add-voice = Dengê xwe tevlî bike
 target-segment-learn-more = Zêdetir Bizane
+languages = Ziman
 
 ## Reporting
 

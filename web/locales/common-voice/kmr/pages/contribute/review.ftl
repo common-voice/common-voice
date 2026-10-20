@@ -44,4 +44,8 @@ sc-criteria-item-2 = Divê hevok ji aliyê rêzimanê ve rast be.
 sc-criteria-item-3 = Divê hevok ji bo xwendinê guncav be.
 sc-criteria-item-4 = Heke hevok li gorî van krîterên jêrîn be, li bişkoka &quot;Piştrast bike&quot; ya li hêla rastê bitikîne.
 sc-criteria-item-6 = Heke ji bo kontrolkirinê hevok biqedin, ji kerema xwe ji bo berhevkirina hevokên zêdetir, alî me bike!
+sc-review-empty-state = Niha ti hevokên ku bi vî zimanî werin nirxandin nîn in.
 report-sc-different-language = Zimanê cuda
+report-sc-different-language-detail = Ew ne bi zimanê ku ez dinirxînim bi yekî din hatiye nivîsandin.
+# SENTENCE-COLLECTOR-REDIRECT PAGE
+sc-redirect-page-title = Em hin guhertinên mezin dikin

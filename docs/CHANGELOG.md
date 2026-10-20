@@ -53,6 +53,7 @@
 
 #### Data Changes after current release
 
+- Add Igbo (`ig`) variants by [@moz-acfort](https://github.com/moz-acfort) in [#5542](https://github.com/common-voice/common-voice/pull/5542) (in v.1.160.3)
 - Welcome to new language Nyagbo (nyb)
 
 #### Spontaneous Speech Changes after current release

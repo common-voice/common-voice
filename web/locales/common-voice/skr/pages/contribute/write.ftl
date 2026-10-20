@@ -12,6 +12,7 @@ citation =
     .label = حوالہ ݙیوݨ
 sc-write-submit-confirm = میں تصدیق کرینداں جو ایہ جملہ <wikipediaLink> عوامی ڈومین</wikipediaLink> دے ہِن تے میکوں ایندے اپ لوڈ کرݨ دی اجازت ہے۔
 sc-review-write-title = میں کہڑے جملے شامل کر سڳداں؟
+sc-review-small-batch-title = متعدد جملے کیویں شامل کرو
 new-sentence-rule-1 = <noCopyright>کوئی حق نقل </noCopyright> پابندیاں کائنی (<cc0>cc-0</cc0>)
 new-sentence-rule-2 = 15 کنوں تھوڑے لفظ
 new-sentence-rule-3 = درست گرائمر ورتو
@@ -20,6 +21,7 @@ new-sentence-rule-5 = کوئی عدد یا خاص حروف کائنی
 new-sentence-rule-6 = کوئی پردیسی لفظ کائنی
 new-sentence-rule-7 = مناسب حوالہ شامل کرو
 new-sentence-rule-8 = مثالی قدرتی تے ڳالھ مہاڑ آلے (ایہ پڑھݨ کیتے سوکھے ہووݨے چاہیدن)
+login-instruction-multiple-sentences = متعدد جملے شامل کرݨ کیتے <loginLink>لاگ ان</loginLink> یا <loginLink>سائن اپ</loginLink> کرو۔
 how-to-cite = میں حوالہ کین٘ویں ݙیواں؟
 how-to-cite-explanation-bold = یوآرایل لنک یا کم دے پورے ناں نال حوالہ ݙیوو۔
 how-to-cite-explanation =
@@ -31,6 +33,7 @@ add-sentence-success = 1 جملہ کٹھا تھیا
 add-sentence-error = جملے شامل کرݨ وچ خرابی
 required-field = براہ مہربانی ایں خانے کوں پُر کرو۔
 single-sentence-submission = کلھا جملہ جمع کرواوݨ
+small-batch-sentence-submission = چھوٹے بیچ دے جملے دی جمع کرائی
 bulk-sentence-submission = ڈھڳ جملے جمع کرواوݨ
 single-sentence = کلھا جملہ
 small-batch-sentence = نکا بیچ
@@ -96,10 +99,69 @@ too-many-files = ٻہوں ساریاں فائلاں
 
 ## SMALL BATCH SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents writing a sentence
+small-batch-instruction = <icon></icon> متعدد پبلک ڈومین جملے شامل کرو
+multiple-sentences-error = تساں ہک جمع کرائی کیتے متعدد جملے شامل نہیں کر سڳدے۔
+exceeds-small-batch-limit-error = 1000 توں ودھ جملے جمع نہیں کرا سڳدے۔
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-toast-message-minutes =
+    { $retryLimit ->
+        [one] ریٹ لمٹ ودھ ڳئی ہے۔ 1 منٹ وچ دوبارہ کوشش کرو۔
+       *[other] ریٹ لمٹ ودھ ڳئی ہے۔ { $retryLimit } منٹ وچ دوبارہ کوشش کرو۔
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-toast-message-seconds =
+    { $retryLimit ->
+        [one] ریٹ لمٹ ودھ ڳئی ہے۔ 1 سیکنڈ وچ دوبارہ کوشش کرو۔
+       *[other] ریٹ لمٹ ودھ ڳئی ہے۔ { $retryLimit } سیکنڈ وچ دوبارہ کوشش کرو۔
+    }
+# $retryLimit represents the amount of time in minutes a user has to wait to retry an upload
+rate-limit-message-minutes =
+    { $retryLimit ->
+        [one] تساں ایں صفحے کیتے جمع کراوݨ دی حد تے پہنچ ڳئے ہو۔ مہربانی کرکے ٻیا جملہ جمع کراوݨ توں پہلے 1 منٹ انتظار کرو۔ تہاݙے صبر دا شکریہ!
+       *[other] تساں ایں صفحے کیتے جمع کراوݨ دی حد تے پہنچ ڳئے ہو۔ مہربانی کرکے ٻیا جملہ جمع کراوݨ توں پہلے { $retryLimit } منٹ انتظار کرو۔ تہاݙے صبر دا شکریہ!
+    }
+# $retryLimit represents the amount of time in seconds a user has to wait to retry an upload
+rate-limit-message-seconds =
+    { $retryLimit ->
+        [one] تساں ایں صفحے کیتے جمع کراوݨ دی حد تے پہنچ ڳئے ہو۔ مہربانی کرکے ٻیا جملہ جمع کراوݨ توں پہلے 1 سیکنڈ انتظار کرو۔ تہاݙے صبر دا شکریہ!
+       *[other] تساں ایں صفحے کیتے جمع کراوݨ دی حد تے پہنچ ڳئے ہو۔ مہربانی کرکے ٻیا جملہ جمع کراوݨ توں پہلے { $retryLimit } سیکنڈ انتظار کرو۔ تہاݙے صبر دا شکریہ!
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+add-small-batch-success =
+    { $totalSentences ->
+        [one] { $uploadedSentences } وچوں 1 جملہ جمع کیتا ڳیا
+       *[other] { $uploadedSentences } وچوں { $totalSentences } جملے جمع کیتے ڳئے
+    }
+# $uploadedSentences represents the number of sentences accepted from the small batch submission, $totalSentences represents the total number of sentences in the small batch submission
+small-batch-response-message =
+    { $totalSentences ->
+        [one] { $uploadedSentences } وچوں 1 جملہ جمع کیتا ڳیا۔ مسترد کیتے ڳئے جملے ڈاؤن لوڈ کرݨ کیتے <downloadLink>ایتھے</downloadLink> کلک کرو۔
+       *[other] { $uploadedSentences } وچوں { $totalSentences } جملے جمع کیتے ڳئے۔ مسترد کیتے ڳئے جملے ڈاؤن لوڈ کرݨ کیتے <downloadLink>ایتھے</downloadLink> کلک کرو۔
+    }
+small-batch-sentences-rule-1 = “میں کیہڑے جملے شامل کر سڳدا ہاں؟” توں رہنمائی گھنو
+small-batch-sentences-rule-2 = ہر لائن تے ہک جملہ شامل کرو
+small-batch-sentences-rule-3 = “Enter” یا “Return” ہک واری دبا کے جملیاں کوں ہک لائن وچ جدا کرو
+small-batch-sentences-rule-4 = 1,000 تئیں جملے شامل کرو
+small-batch-sentences-rule-5 = سارے جملیاں دا ڈومین ہک جیہاں ہووݨا چاہیدے
+small-batch-sentences-rule-6 = سارے جملیاں دا حوالہ ہک جیہاں ہووݨا چاہیدے
 # menu item
 add-sentences = جملے شامل کرو
 
 ## MENU ITEM TOOLTIPS
 
+write-contribute-menu-tooltip = جملے شامل تے جائزہ گھنو، سوال شامل کرو، آڈیو نقل کرو
 add-sentences-menu-item-tooltip = جملے شامل کرو
 review-sentences-menu-item-tooltip = جملیاں دا جائزہ گھنو
+add-questions-menu-item-tooltip = سوال شامل کرو
+review-questions-menu-item-tooltip = سوالیں دا جائزہ گھنو
+transcribe-audio-menu-item-tooltip = آڈیو ریکارڈنگز دی نقل کرو
+
+## MENU ITEM ARIA LABELS
+
+write-contribute-menu-aria-label = لکھݨ دے آپشنز دا مینیو
+add-sentences-menu-item-aria-label = برادری دے پڑھݨ کیتے نویں جملے شامل کرو
+review-sentences-menu-item-aria-label = برادری ولوں جمع کیتے ڳئے موجودہ جملیاں دا جائزہ گھنو
+add-questions-menu-item-aria-label = برادری دے پڑھݨ تے جواب ݙیوݨ کیتے نویں سوال جمع کرو
+review-questions-menu-item-aria-label = برادری ولوں جمع کیتے ڳئے نویں سوالیں دا جائزہ گھنو تے ووٹ ݙیو
+transcribe-audio-menu-item-aria-label = آڈیو ریکارڈنگز دی متن وچ نقل کرو

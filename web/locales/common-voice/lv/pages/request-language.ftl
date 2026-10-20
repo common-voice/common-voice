@@ -42,3 +42,25 @@ need-help-deciding-platform-explanation-1 = <strong>Sagatavotā runa</strong> (t
 need-help-deciding-platform-explanation-2 = <strong>Spontānā runa</strong> ir jauna Common Voice daļa, kurā varat atbildēt uz jautājumiem dabiskākā veidā, sarunvalodā.
 need-help-deciding-platform-explanation-3 = Ja nevienā platformas daļā neredzat savu valodu, atlasiet abus.
 request-language-search-bar = Šeit var sākt rakstīt savas valodas nosaukumu; ja tā vēl nav Common Voice, būs iespējams aizpildīt veidlapu ar savas valodas datiem.
+request-language-found-pontoon-not-launched =
+    Jūsu valoda jau ir iekļauta Common Voice valodu sarakstā.
+    
+    Valodas palaišanu pakalpojumā <strong>Scripted Speech</strong> varat atvieglot, lokalizējot
+    platformas saskarni <pontoonLink>šeit</pontoonLink>. Saskarnei ir jābūt lokalizētai 60% apmērā;
+    alternatīvi varat lokalizēt tikai pamata virknes failā “web/locales/en/pages/contribute/*.ftl” līdz 100%
+    
+    (ir pieci šādi faili), un saskarne tiks palaista automātiski.
+request-language-found-cv-contribution =
+    Urā! Jūsu valoda jau ir pieejama Common Voice <strong>Scripted Speech</strong> platformā.
+    Jūs varat sniegt savu ieguldījumu <homePageLink>šeit</homePageLink>.
+request-language-found-cv-sentences-lack =
+    Jūsu valoda jau ir iekļauta Common Voice valodu sarakstā.
+    
+    Jūs varat veicināt valodas ieviešanu pakalpojumā <strong>Scripted Speech</strong>,
+    pievienojot teikumus <sentencesContributionLink>šeit</sentencesContributionLink>.
+request-language-found-spontaneous-speech =
+    Jūsu valoda jau ir pieejama Common Voice <strong>SpontaneousSpeech</strong> platformā.
+    
+    Lai sniegtu savu ieguldījumu, noklikšķiniet <spontaneousSpeechLink>šeit</spontaneousSpeechLink>: neaizmirstiet nomainīt ieguldījuma/datu kopas valodu, pirms sākat sniegt savu ieguldījumu!
+request-language-already-available-scs = Scripted Speech jau ir pieejama
+request-language-already-available-sps = Spontāna runa jau ir pieejama

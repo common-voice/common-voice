@@ -52,6 +52,7 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = مقصد مقرر کرو
 cant-decide = بھلا فیصلہ نہوے کر سڳدے؟
+activity-needed-calculation-fixed = 100 لوک روزانہ 100 جملے ریکارڈ کرکے 13 گھنٹے آڈیو بݨا سڳدن۔ ایں کارکردگی کوں برقرار رکھدے ہوئیں، 1000 گھنٹے مہینیاں وچ پورے کیتے ونڄ سڳدن۔
 how-many-per-day = زبردست فی ݙین٘ہ کتی کلپ ہن؟
 how-many-a-week = زبردست! ہفتے وچ کتی کلپ ہن؟
 which-goal-type = بھلا تساں ٻولݨ، سُݨݨ چاہندے ہو یا ݙوہیں؟
