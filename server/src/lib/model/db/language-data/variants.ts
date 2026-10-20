@@ -6,6 +6,56 @@ export type Variant = {
 
 export const VARIANTS: Variant[] = [
   {
+    locale_name: 'ig',
+    variant_name: 'Igbo Etiti',
+    variant_token: 'ig-cntrl',
+  },
+  {
+    locale_name: 'ig',
+    variant_name: 'Igbo Izugbe',
+    variant_token: 'ig-stand',
+  },
+  {
+    locale_name: 'ig',
+    variant_name: 'Olu Owere',
+    variant_token: 'ig-owere',
+  },
+  {
+    locale_name: 'ig',
+    variant_name: 'Olu Abakaliki',
+    variant_token: 'ig-abaka',
+  },
+  {
+    locale_name: 'ig',
+    variant_name: 'Olu Ikwere',
+    variant_token: 'ig-ikwere',
+  },
+  {
+    locale_name: 'ig',
+    variant_name: 'Olu Ọnịcha',
+    variant_token: 'ig-onicha',
+  },
+  {
+    locale_name: 'ig',
+    variant_name: 'Olu Waawa',
+    variant_token: 'ig-waawa',
+  },
+  {
+    locale_name: 'ig',
+    variant_name: 'Olu Enuanị',
+    variant_token: 'ig-enuani',
+  },
+  {
+    locale_name: 'ig',
+    variant_name: 'Olu Ngwà',
+    variant_token: 'ig-olungwa',
+  },
+  {
+    locale_name: 'ig',
+    variant_name: 'Olu Nsụka',
+    variant_token: 'ig-nsuka',
+  },
+  {
     locale_name: 'gya',
     variant_name: 'bódòè',
     variant_token: 'gya-bodoe',
