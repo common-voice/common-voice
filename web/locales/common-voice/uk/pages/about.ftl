@@ -48,7 +48,7 @@ about-get-involved-text-2 =
 about-stay-in-touch = Як мені залишатися на зв’язку?
 about-stay-in-touch-button = Зареєструватись
 about-stay-in-touch-text-1 = <emailFragment>Приєднуйтеся</emailFragment> до нашого списку розсилки, щоб дізнатися, як ви можете брати участь у кампаніях, подіях та спільній розробці можливостей на Common Voice.
-about-stay-in-touch-text-2 = Ви можете познайомитися з іншими в мовних спільнотах Mozilla, приєднавшись до <discourseLink>Discourse</discourseLink> для актуальних розмов або до <matrixLink>Matrix</matrixLink> для отримання швидких порад.
+about-stay-in-touch-text-2 = Ви можете познайомитися з іншими учасниками мовних спільнот Mozilla, долучившись до <discordLink>Discord</discordLink> або <discourseLink>Discourse</discourseLink> для тематичних обговорень чи до <matrixLink>Matrix</matrixLink> для отримання швидких порад.
 about-nav-why-common-voice = Чому?
 about-nav-how-it-works = Як?
 about-nav-partners = Партнери
@@ -67,7 +67,10 @@ about-playbook-what-is-language-content-3 = Деякі мови мають зн�
 ## How do I add a language
 
 about-playbook-how-add-language = Як додати мову?
-about-playbook-how-add-language-content-1 = Спочатку перевірте, чи <languageLink>додано вже вашу мову</languageLink>. Якщо ні, вам потрібно <strong>перекласти сайт і зібрати речення</strong>.
+about-playbook-how-add-language-content-1 =
+    Спочатку перевірте, чи <languageLink>вашу мову вже додано</languageLink>.
+    Якщо ні, ви можете <languageRequestLink>подати запит на її додавання</languageRequestLink>.
+    Процес складається з двох етапів: перекладу сайту та збирання речень.
 about-playbook-how-add-language-translating-heading = Переклад сайту
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Перегляньте наш посібник про користування Pontoon.</translateVideoLink>
 about-playbook-how-add-language-translating-content-2 =
@@ -78,9 +81,9 @@ about-playbook-how-add-language-translating-content-2 =
 about-playbook-how-add-language-collecting-sentences-heading = Збір речень
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Перегляньте наш посібник про користування засобом збору речень</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-2 =
-    Ви можете <sentenceCollectorLinkAdd>додати невелику кількість речень</sentenceCollectorLinkAdd>,
-    або ви можете виконати <bulkImportDocsLink>масовий імпорт за допомогою Github</bulkImportDocsLink>.
-    Пам’ятайте, що пропозиції мають бути ліцензовані <licenseLink>CC0 (або загальнодоступними)</licenseLink>, або ви можете написати власні.
+    Ви можете <sentenceCollectorLinkAdd>додавати речення невеликими кількостями</sentenceCollectorLinkAdd> або
+    <bulkImportDocsLink>масово імпортувати їх через GitHub</bulkImportDocsLink>. Пам’ятайте, що речення мають
+    <licenseLink>поширюватися на умовах CC0 (або належати до суспільного надбання)</licenseLink>, або ви можете написати власні.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Докладніше про збір речень</sentenceCollectorFragment>.
 
 ## How does localization work
@@ -95,7 +98,7 @@ about-playbook-how-localize-content-5 = Перегляньте наше віде
 ## How to add sentences
 
 about-playbook-how-add-sentences = Як додати речення?
-about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> — це засіб для збору та перевірки речень, які є суспільним надбанням. Вам <scAccountLink>потрібно створити обліковий запис</scAccountLink>. Потім додайте свою мову до свого <strong>профілю</strong>. Ви можете <strong>Додати</strong> речення або <strong>Переглянути</strong> раніше додані речення.
+about-playbook-how-add-sentences-content-1 = Ви можете додавати речення на <writePageLink>сторінці Запису</writePageLink> або перевіряти їх на <reviewPageLink>сторінці Перевірки</reviewPageLink>.
 about-playbook-how-add-sentences-content-2 = Речення повинні бути переглянуті та прийняті двома людьми, щоб бути включеними до Common Voice. Ви створюєте рекомендації для своєї мови <languageGuidelinesLink>тут</languageGuidelinesLink>. Речення мають бути <licenseLink>суспільним надбанням</licenseLink> і коротшими за 15 слів. Ви можете попросити власника тексту зробити його <waiverLink>CC0, використовуючи нашу процедуру відмови</waiverLink>, і надіслати нам на commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Ви можете використовувати <scraperLink>видобувач речень</scraperLink>, щоб додавати короткі речення з Вікіпедії.
 
@@ -103,7 +106,7 @@ about-playbook-how-add-sentences-content-3 = Ви можете використ�
 
 about-playbook-how-record-quality = Як записати високоякісне озвучення?
 about-playbook-how-record-content-1 = Говоріть звичайним голосом! Те, як ви говорите, тут вітається — ми хочемо, щоб ваш акцент був таким, яким він є, і ми хочемо вашої звичайної гучності, стилю та інтонації.
-about-playbook-how-record-content-2 = Уникайте надмірного фонового шуму — він має бути ледь чутним.
+about-playbook-how-record-content-2 = Уникайте надмірного фонового шуму - ваш голос має бути добре чутним.
 about-playbook-how-record-content-3 = Уважно прочитайте речення — не пропускайте, не змінюйте і не додавайте слова.
 about-playbook-how-record-content-4 = Перш ніж почати говорити, переконайтеся, що платформа записує звук, і що запис припиняється лише після того, як ви завершите.
 about-playbook-how-record-content-5 = <accuracyLink>Докладніше про критерії точності.</accuracyLink>
