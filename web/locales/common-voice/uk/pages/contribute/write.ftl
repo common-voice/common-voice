@@ -66,7 +66,7 @@ news_current_affairs = Новини та поточні події
 technology_robotics = Технології та робототехніка
 sentence-variant-select-label = Варіант речення
 sentence-variant-select-placeholder = Виберіть варіант (необов'язково)
-sentence-variant-select-multiple-variants = Загальна мова / кілька варіантів
+sentence-variant-select-multiple-variants = Загальна мова / кілька різновидів
 
 ## BULK SUBMISSION
 
