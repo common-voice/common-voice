@@ -56,7 +56,7 @@ contact-common-voice = Зверніться до команди Common Voice
 
 ## Sentence collection nav ids
 
-public-domain = Публічний домен
+public-domain = Суспільне надбання
 citing-sentences = Цитування речень
 adding-sentences = Додавання речень
 reviewing-sentences = Розгляд речень
