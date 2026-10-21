@@ -381,6 +381,11 @@ announcement-mdc-button-text = 加入 Mozilla Data Collective
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = 新建标签页打开
 
+## Release Commencing
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-commencing = 亲爱的社区朋友们，发布截止日期已到，我们正在打包所有数据集。新版本将在几天内发布到<mdcLink>Mozilla Data Collective</mdcLink> 上以供使用。
+
 ## Common Language/Dataset Selector & SearchBox Related
 
 # Generic search box defaults

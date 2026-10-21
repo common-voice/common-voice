@@ -230,12 +230,14 @@ code-switching-informal-scenarios-header = 探索非正式场景
 code-switching-informal-scenarios-explanation = 在与朋友对话或发短信时切换会更自然。示例：
 # What to Avoid
 code-switching-avoid-subheader = 应避免什么
+code-switching-avoid-intro = 可能遇到的问题：
 code-switching-avoid-1 = 索取个人身份信息
 code-switching-avoid-2 = 引发仇恨言论或其他偏见或冒犯性情感
 code-switching-avoid-3 = 可能引导作出敏感回答，并可能由此引发不良后果
 code-switching-dont-1 = 不要使用过于正式的用语
 # Reviewing a Question
 code-switching-review-subheader = 审核问题
+code-switching-review-intro = 确保该问题符合以下标准：
 code-switching-review-criterion-1 = 易于理解，也易于回答
 code-switching-review-criterion-3 = 不能使用或引导使用伤害或冒犯性用语
 code-switching-review-does-not-header = 并且<bold>没有</bold>包括：
