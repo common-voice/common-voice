@@ -60,7 +60,7 @@ public-domain = Публічний домен
 citing-sentences = Цитування речень
 adding-sentences = Додавання речень
 reviewing-sentences = Розгляд речень
-sentence-domain = Належність речення
+sentence-domain = Тематика речення
 
 ## Sentence collection sidebar content
 
@@ -70,7 +70,7 @@ public-domain-explanation-3 = Створюйте сучасні розмовні
 public-domain-explanation-4 = Зв'яжіться з авторами, драматургами чи сценаристами та запитайте, чи готові вони поділитися невеликою частиною своїх творів для суспільного надбання
 public-domain-explanation-5 = Шукайте текст, на який більше не поширюється авторське право - наприклад, більшість книг, виданих до 1920 року
 public-domain-explanation-6 = Зв’яжіться з державними установами, неприбутковими або медійними організаціями та запитайте, чи готові вони передати частину своїх вебматеріалів, звітів або інших матеріалів до суспільного надбання.
-citing-sentences-explanation-1 = Важливо включати цитати, щоб ми могли перевірити, що речення є суспільним надбанням і до них не застосовуються обмеження авторських прав.
+citing-sentences-explanation-1 = Важливо включати посилання на джерело, щоб ми могли перевірити, що речення є суспільним надбанням і до них не застосовуються обмеження авторських прав.
 citing-sentences-subheader-websites = Вебсайти
 citing-sentences-subheader-websites-explanation = Ви можете включити вебсайт, наприклад «Common Voice — https://commonvoice.mozilla.org/»
 citing-sentences-subheader-academic-reference = Академічні посилання
@@ -82,7 +82,7 @@ citing-sentences-subheader-offline-sources-explanation =
     Для загальнодоступного тексту, що недоступний онлайн, ви можете використовувати академічний стиль посилання
     наприклад, гарвардський стиль «Jess (2021) My Public license poems»
 citation =
-    .label = Цитата
+    .label = Посилання на джерело
 self-citation = Самоцитування
 self-citation-explanation = Ось як указати себе як автора, якщо ви самостійно написали текст.
 adding-sentences-subheader-length = Довжина
