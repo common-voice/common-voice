@@ -26,7 +26,7 @@ new-sentence-rule-8 = Ідеально природне і розмовне (р�
 login-instruction-multiple-sentences = <loginLink>Увійдіть</loginLink> або <loginLink>зареєструйтеся</loginLink>, щоб додати кілька речень
 how-to-cite = Як цитувати?
 how-to-cite-explanation-bold = Цитата з URL-посиланням або повною назвою твору.
-how-to-cite-explanation = Якщо це ваші власні слова, просто вкажіть <italicizedText>“Самоцитування”</italicizedText>. Нам потрібно знати, де ви знайшли цей вміст, щоб ми могли перевірити, чи він є суспільним надбанням і на нього не поширюються жодні обмеження авторського права. Щоб дізнатися більше про цитування, перегляньте нашу <guidelinesLink>Сторінку настанов</guidelinesLink>.
+how-to-cite-explanation = Якщо це ваші власні слова, просто вкажіть <italicizedText>“Самоцитування”</italicizedText>. Нам потрібно знати, де ви знайшли цей вміст, щоб ми могли перевірити, чи він є суспільним надбанням і чи не поширюються на нього обмеження авторського права. Щоб дізнатися більше про цитування, перегляньте нашу <guidelinesLink>Сторінку настанов</guidelinesLink>.
 guidelines = Настанови
 contact-us = Зв'язатися з нами
 add-sentence-success = Зібрано 1 речення
@@ -152,7 +152,7 @@ small-batch-sentences-rule-2 = Додайте по одному реченню �
 small-batch-sentences-rule-3 = Розділяйте речення по одному на рядок, натискаючи один раз “Enter” або “Return”
 small-batch-sentences-rule-4 = Додавайте до 1000 речень
 small-batch-sentences-rule-5 = Усі речення повинні мати однаковий домен
-small-batch-sentences-rule-6 = Усі речення повинні мати однакове цитатування
+small-batch-sentences-rule-6 = Усі речення повинні мати однакове посилання на джерело
 # menu item
 add-sentences = Додати речення
 
