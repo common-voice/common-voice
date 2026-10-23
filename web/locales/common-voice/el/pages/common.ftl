@@ -522,7 +522,7 @@ announcement-release = Αγαπητή κοινότητα, η νέα έκδοση
 ## Pre-Release Announcement (dates TBD)
 
 # Text wrapped in <cvDatasheetsLink></cvDatasheetsLink> will be rendered as an external link to the cv-datasheets GitHub repo
-announcement-pre-release = Αγαπητή κοινότητα, ο χρόνος κυκλοφορίας πλησιάζει. Παρακαλούμε προχωρήστε στην επικύρωση και μεταγραφή και επισκεφθείτε επίσης τα <cvDatasheetsLink>cv-datasheets</cvDatasheetsLink> για να ενημερώσετε το φύλλο δεδομένων σας.
+announcement-pre-release = Αγαπητή κοινότητα, πλησιάζει η ώρα της κυκλοφορίας. Βοηθήστε με την επικύρωση και τη μεταγραφή και επισκεφθείτε τα <cvDatasheetsLink>cv-datasheets</cvDatasheetsLink> για να ενημερώσετε το φύλλο δεδομένων σας.
 
 ## Release Commencing
 
