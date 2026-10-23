@@ -21,7 +21,7 @@ validate-readings-coming-soon = ၵူတ်ႇထတ်းသဵင်ဢၢၼ
 
 listen-contribute-menu-tooltip = ၵူတ်ႇထတ်းၵၢၼ်ဢၢၼ်ႇ၊ လႄႈၵၢၼ်ထွတ်ႇသဵင်
 validate-readings-menu-item-tooltip = ၵူတ်ႇထတ်းသဵင်ဢၢၼ်ႇဢၼ်ၽူႈၸႂ်ႉတိုဝ်းဢတ်းဝႆႉၼႂ်းၽႃႇသႃႇသူၸဝ်ႈ
-review-transcriptions-menu-item-tooltip = ႁုပ်ႈတူၺ်းၵၢၼ်ထွတ်ႇသဵင်ဢၼ်ၽူႈၸႂ်ႉတိုဝ်းသူင်ႇမႃးဝႆႉၼႂ်းၽႃႇသႃႇသူၸဝ်ႈ
+review-transcriptions-menu-item-tooltip = ထတ်းတူၺ်းၵၢၼ်ထွတ်ႇသဵင်ဢၼ်ၽူႈၸႂ်ႉတိုဝ်းဢတ်းဝႆႉၼႂ်းၽႃႇသႃႇသူၸဝ်ႈ
 
 ## MENU ITEM ARIA LABELS
 
