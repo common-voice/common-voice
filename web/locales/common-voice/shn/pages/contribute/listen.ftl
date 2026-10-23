@@ -25,6 +25,6 @@ review-transcriptions-menu-item-tooltip = ထတ်းတူၺ်းၵၢၼ�
 
 ## MENU ITEM ARIA LABELS
 
-listen-contribute-menu-aria-label = မႅၼ်ႇၼူဝ်ႇတၢင်းလိူၵ်ႈၵၢၼ်ထွမ်ႇ
-validate-readings-menu-item-aria-label = ၵူတ်ႇထတ်းသဵင်ဢၢၼ်ႇဢၼ်တူင်ႇဝူင်းၽူႈၶဝ်ႈႁူမ်ႈသူင်ႇမႃးဝႆႉ
-review-transcriptions-menu-item-aria-label = ႁုပ်ႈတူၺ်းၶိုၼ်းၵၢၼ်ထွတ်ႇသဵင်တူၼ်ႈထႅဝ်ဢၼ်ဢတ်းဝႆႉႁႂ်ႈတႅတ်ႈတေႃး
+listen-contribute-menu-aria-label = မီႇၼူးတၢင်းလိူၵ်ႈၵၢၼ်ထွမ်ႇ
+validate-readings-menu-item-aria-label = ၵူတ်ႇထတ်းသဵင်ဢၢၼ်ႇဢၼ်ၽူႈၶဝ်ႈႁူမ်ႈတူင်ႇဝူင်းဢတ်းဝႆႉ
+review-transcriptions-menu-item-aria-label = ၶိုၼ်းထတ်းတူၺ်းၵၢၼ်ထွတ်ႇသဵင်တူၼ်ႈထႅဝ်ဢၼ်ဢတ်းဝႆႉႁႂ်ႈတႅတ်ႈတေႃး
