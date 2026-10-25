@@ -187,6 +187,9 @@ tags-disfluency = 말더듬
 tags-unclear = 불분명
 tags-noise = 소음
 tags-laugh-explanation = 웃음 소리.
+tags-disfluency-explanation =
+    말하는 사람이 할 말을 결정하는 동안 자리 표시자로 사용되는 채우기 단어나 소리입니다.
+    영어에서 "err", "um", "huh" 등은 주저하는 소리입니다.
 tags-unclear-explanation = 이해할 수 없는 단어 또는 단어들의 연속입니다.
 tags-noise-explanation =
     다른 유형의 소음, 예를 들어 화자가 기침을 하거나 목을 가다듬는 것과 같은 소리,
