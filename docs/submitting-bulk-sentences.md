@@ -2,10 +2,17 @@ All the sentences read by our contributors are sourced from copyright free sourc
 
 If you want to add a single sentence, or a series of less than 1000 sentences, you can do so via the [Sentence Collection](https://commonvoice.mozilla.org/write) page on the [Common Voice website](https://commonvoice.mozilla.org). To contribute a larger number of sentences (1000+) at once, you can use the Bulk Sentence upload option. _Remember, only files with more than 1000 sentences will be manually processed due to our small team size._
 
-Remember that for both single sentence and bulk sentence submissions, sentences must:
-- Be in the public domain, with a CC0 license
-- Be short, readable and take about 10-15 seconds to read
-- Avoid including numbers or special characters
+Remember that for both single sentence and bulk sentence submissions, sentences must follow the same rules shown on the [Sentence Collection](https://commonvoice.mozilla.org/write) page:
+- No [copyright](https://en.wikipedia.org/wiki/Public_domain) restrictions ([CC0](https://creativecommons.org/share-your-work/public-domain/cc0/))
+- Fewer than 15 words per sentence
+- Use correct grammar
+- Use correct spelling and punctuation
+- No numbers and special characters
+- No foreign letters
+- Include appropriate citation
+- Ideally natural and conversational (it should be easy to read the sentence)
+
+See the [Guidelines](https://commonvoice.mozilla.org/guidelines?tab=scripted-speech) page for more detail on each of these rules, including abbreviations and acronyms. Some languages have their own validation rules (for example a different word limit or allowed characters), which are explained in [`server/src/core/sentences/validation/VALIDATION.md`](../server/src/core/sentences/validation/VALIDATION.md).
 ## Formatting Your Bulk Sentences
 To upload bulk sentences, you'll need to have created a TSV file with your sentences. 
 
