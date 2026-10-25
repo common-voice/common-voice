@@ -71,6 +71,7 @@ variant-contribution-option-1 = 나의 언어에 속하는 모든 변형의 문�
 variant-contribution-option-2 = 나의 변형의 문장과 클립만 보기
 variant-contribution-warning-title = ⓘ 아직 변형 태그가 없는 문장과 클립도 있습니다!
 variant-contribution-warning-subtitle = 기여하는 데 문제가 있으면 언제든 해당 언어의 모든 콘텐츠를 다시 볼 수 있습니다.
+copy-api-credential-error-toast-message = 복사 오류
 # Genders
 male_masculine = 남성
 female_feminine = 여성

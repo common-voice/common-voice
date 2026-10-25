@@ -187,6 +187,14 @@ tags-disfluency = 말더듬
 tags-unclear = 불분명
 tags-noise = 소음
 tags-laugh-explanation = 웃음 소리.
+tags-unclear-explanation = 이해할 수 없는 단어 또는 단어들의 연속입니다.
+tags-noise-explanation =
+    다른 유형의 소음, 예를 들어 화자가 기침을 하거나 목을 가다듬는 것과 같은 소리,
+    자동차 경적, 무언가가 마이크를 두드리는 소리, 전화기 윙윙거리는 소리 등
+# Note: do not translate any tag, like [noise] or [laugh]
+special-tags-example-2 =
+    그리고 저는 [잡음] 여행을 떠났습니다.
+    뭐, [잡음] [웃음] 정확히는 공휴일은 아니었습니다. [기침]
 
 ## Code-Switching
 
