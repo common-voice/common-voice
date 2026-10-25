@@ -195,6 +195,12 @@ tags-noise-explanation =
 special-tags-example-2 =
     그리고 저는 [잡음] 여행을 떠났습니다.
     뭐, [잡음] [웃음] 정확히는 공휴일은 아니었습니다. [기침]
+transcribe-the-audio-subheader-4-explanation-1 = 자발적인 발화는 자연스럽게 완전한 단어의 조각 만 생성되는 잘못된 시작을 포함합니다. 이러한 경우, 단어 조각을 가능한 한 복사하고 단어의 끝에 하이픈 (-)을 첨부하여 단어가 잘못된 시작임을 나타냅니다. 예:
+transcribe-the-audio-subheader-4-explanation-1-example = 그의 이름은 <underline>조-조나-</underline> 조나단입니다.
+transcribe-the-audio-subheader-4-explanation-2 = 가끔 화자가 단어나 단어 조각을 여러 번 반복합니다. 이것 역시 번역해야 합니다. 예:
+transcribe-the-audio-subheader-4-explanation-2-example = 그리고 나는 <underline>그 그 그 침- 그</underline> 침실로 갔다.
+transcribe-the-audio-subheader-5-explanation-1 = 자발적인 음성은 자연스럽게 문법 실수를 포함합니다. 변환할 때 이것들이 고쳐져서는 안됩니다. 스크립트는 음성 내용을 정확히 반영해야 합니다.
+transcribe-the-audio-subheader-5-explanation-2 = 화자가 구어체(예: 영어에서 "gona", "coz" 등)를 사용하면 적절하지 않은 경우가 있습니다. 이는 있는 그대로 표기되어야 하며 보다 공식적인 것으로 바꾸지 않아야 한다.
 
 ## Code-Switching
 
