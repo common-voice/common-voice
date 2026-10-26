@@ -138,7 +138,7 @@ offensive-content-sensitive-information-explanation-explanation-2 = Jautājumi, 
 offensive-content-sensitive-information-explanation-explanation-3 = Jautājumi, kas kādam varētu likt izpaust jūtīgas, iespējami aizkaitinošas atbildes
 example-questions-subheader = Jautājumu piemēri
 example-questions-explanation-1 = Šajā lapā varat atrast <examplePromptsLink>120 jautājumu piemērus.</examplePromptsLink>
-example-questions-explanation-2 = Ja vēlaties pievienot lielāku jautājumu kopu, to var <githubLink>izdarīt mūsu GitHub</githubLink> vai sūtot epastu uz <emailFragment>commonvoice@mozilla.com.</emailFragment>
+example-questions-explanation-2 = Ja vēlies iesniegt lielāku jautājumu kopu, to var <githubLink>izdarīt mūsu GitHub</githubLink> vai sūtot e-pastā uz <emailFragment>commonvoice@mozilla.com.</emailFragment>
 
 ## Spontaneous Speech sidebar content
 
