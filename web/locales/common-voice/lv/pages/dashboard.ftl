@@ -58,7 +58,7 @@ activity-needed-calculation-fixed = 100 cilvēku, kas ieraksta 100 teikumu dien�
 how-many-per-day = Lieliski! Cik ierakstu dienā?
 how-many-a-week = Lieliski! Cik ierakstu nedēļā?
 which-goal-type = Vai vēlaties runāt, klausīties vai abus?
-receiving-emails-info = Es vēlos saņemt e-pasta ziņojumus, piemēram, mērķa atgādinājumus, progresa atjauninājumus un informatīvos biļetenus par šo projektu.
+receiving-emails-info = Es vēlos saņemt epasta ziņojumus, piemēram, mērķa atgādinājumus, progresa atjauninājumus un informatīvos biļetenus par šo projektu.
 not-receiving-emails-info =
     Pašlaik jums ir iestatīts <bold> NESAŅEMT </bold> e-pastus, piemēram, atgādinājumus par mērķiem, 
     progresa atjauninājumus un informatīvos izdevumus par Common Voice

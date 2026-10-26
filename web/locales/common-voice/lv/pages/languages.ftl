@@ -23,7 +23,7 @@ get-involved-button = Iesaisties
 get-involved-title = Sniedz ieguldījumu { $lang } valodā
 get-involved-text =
     Paldies par jūsu interesi piedalīties { $lang } valodā. Mēs cītīgi strādājam, lai ikviena valoda būtu gatava startam un regulāri
-    informējam komandas ar e-pasta palīdzību. Ja vēlaties piedalīties, lūdzu, norādiet savu e-pasta adresi zemāk.
+    informējam komandas ar epasta palīdzību. Ja vēlaties piedalīties, lūdzu, norādiet savu epasta adresi zemāk.
 get-involved-form-title = Pieraksties { $lang } valodas jaunumiem:
 get-involved-email =
     .label = E-pasts
