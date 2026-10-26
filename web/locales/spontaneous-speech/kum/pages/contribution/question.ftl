@@ -10,3 +10,4 @@ add-question-success-toast-message =
        *[other] { $uploadedQuestions } соравдан { $totalQuestions } сорав джийылды
     }
 add-question-error-message = салмагъа болунмады, дагъы да сонгъ къарагъыз
+add-question-too-many-questions-error = 25 бекь коп сорав, соравланы аз этигиз, сонгъ дагъыда къарагъыз.
