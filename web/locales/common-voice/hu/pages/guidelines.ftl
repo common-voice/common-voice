@@ -317,6 +317,9 @@ code-switching-orthography-explanation = Írjon minden szót annak a nyelvnek a 
 code-switching-orthography-explanation-example-2 = Ha a quinceaños szót úgy ejtik ki, ahogy angolul mondják, akkor írja ñ betűvel.
 # Use Pronunciation to Help Determine the Language
 code-switching-pronunciation-header = Használja a kiejtést a nyelv meghatározására
+# Tagging in a Single Token
+code-switching-single-token-header = Címkézés egyetlen tokenben
+code-switching-single-token-explanation = Egy szóközökkel elválasztott tokennek egynél több címkézett szakaszt kell tartalmaznia.
 # Tag Punctuation Based on Nearby Language
 code-switching-punctuation-tagging-header = Központozás címkézése közeli nyelv alapján
 code-switching-punctuation-tagging-explanation = A központozást címkézze a bal oldalhoz legközelebbi nyelvvel. Példák:
