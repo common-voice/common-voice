@@ -67,13 +67,13 @@ email-not-public = Mēs nepubliskosim jūsu e-pastu.
 recordings-and-locale-public = Ieguldīto ierakstu skaits un valodas būs publiski pieejamas.
 username-optin-public = Var izvēlēties, vai lietotājvārds ir redzams visiem vai turēts noslēpumā.
 demographic-deidentified-clarity-2 = Pēc izvēles iesniegtie demogrāfiskie dati (piemēram, vecums, dzimums, valoda un akcents) nekad netiks publiskoti jūsu profilā un netiks saistīti ar jūsu kontu datu kopā. Atsevišķi audio ieraksti tiks saistīti ar demogrāfiskajiem datiem, lai veiktu precīzāku analīzi, piemēram, pētnieks var vēlēties apmācību modeli atlasīt noteiktam demogrāfiskajam segmentam.
-username-email-not-demographic = Lietotājvārds un epasta adrese netiks piesaistīta publicētajiem datiem.
+username-email-not-demographic = Lietotājvārds un e-pasta adrese netiks piesaistīta publicētajiem datiem.
 
 ## Landing
 
 welcome-staff = Sveicināti { $company } darbinieki!
 help-contribute = Jūs varat palīdzēt veidot daudzveidīgu atvērtā pirmkoda datu kopu, izveidojot Common Voice profilu un ierakstot savu balsi.
-login-company = Pieteikties/reģistrēties ar { $company } epasta adresi
+login-company = Pieteikties/reģistrēties ar { $company } e-pasta adresi
 profile-not-required = Lai veiktu ieguldījumu, profilu veidot nevajag, bet tas var būt noderīgi ja jūs to izveidosiet
 read-more-about = Lasiet vairāk mūsu lapā Par mums
 

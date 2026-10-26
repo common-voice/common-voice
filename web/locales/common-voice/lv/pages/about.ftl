@@ -49,7 +49,7 @@ about-get-involved-text-2 =
     forumos, iesniedz vietnes nepilnības <githubLink>GitHub</githubLink>, vai pievienojies <matrixLink>[matrix]</matrixLink> kopienas tērzēšanai.
 about-stay-in-touch = Kā es varu sazināties?
 about-stay-in-touch-button = Pierakstīties
-about-stay-in-touch-text-1 = <emailFragment>Pieraksties</emailFragment> mūsu epasta jaunumiem, lai uzzinātu, kā vari piedalīties kampaņās, pasākumos un Common Voice kopprojektēšanas darbībās.
+about-stay-in-touch-text-1 = <emailFragment>Pieraksties</emailFragment> mūsu e-pasta jaunumiem, lai uzzinātu, kā vari piedalīties kampaņās, pasākumos un Common Voice kopprojektēšanas darbībās.
 about-stay-in-touch-text-2 = Jūs varat satikt citus Mozilla valodu kopienas dalībniekus, pievienojoties <discourseLink>Discourse</discourseLink> aktuālajām sarunām vai <matrixLink>Matrix</matrixLink>, lai saņemtu ātrus padomus.
 about-nav-why-common-voice = Kāpēc?
 about-nav-how-it-works = Kā?
@@ -136,7 +136,7 @@ about-playbook-how-validate-content-4 = Ja ierakstu noraida 2 cilvēki, tas tie
 ## How to access dataset
 
 about-playbook-how-access-dataset = Kā piekļūt un izmantot datu kopu?
-about-playbook-how-access-dataset-content-1 = Vari doties uz <datasetsPage>datu kopu lapu</datasetsPage>, atlasīt vajadzīgo versiju un valodu(as) un lejupielādēt to. Datnēm ir <metadataLink>saistīti metadati</metadataLink>, piemēram, demogrāfiskā informācija un pārbaudes dati. Būs jānorāda epasta adrese, lai lejupielādētu datu kopu.
+about-playbook-how-access-dataset-content-1 = Vari doties uz <datasetsPage>datu kopu lapu</datasetsPage>, atlasīt vajadzīgo versiju un valodu(as) un lejupielādēt to. Datnēm ir <metadataLink>saistīti metadati</metadataLink>, piemēram, demogrāfiskā informācija un pārbaudes dati. Būs jānorāda e-pasta adrese, lai lejupielādētu datu kopu.
 about-playbook-how-access-dataset-content-2 = Ja meklējat gatavus rīkus, kas izmanto šo datu kopu, varat sazināties ar kopienas dalībniekiem <discourseLink>Discourse sistēmā</discourseLink>.
 
 ## How are decisions made

@@ -457,7 +457,7 @@ loading = Ielāde...
 email-opt-in-info = Es vēlos saņemt epasta ziņojumus, piemēram, mērķa atgādinājumus, progresa atjauninājumus un informatīvos biļetenus par šo projektu.
 email-opt-in-info-title = Pievienoties Common Voice ziņojumiem e-pastā
 email-opt-in-info-sub-with-challenge = Saņemiet e-pastus par sacensībām vai pasākumiem, atgādinājumus par mērķiem, jaunumus un ziņas no Common Voice
-email-opt-in-privacy-v2 = Piekrītot saņemt epasta ziņojumus tiek apliecināts, ka Mozilla apstrādās tos tā, kā tas ir izskaidrots Mozilla <privacyLink>privātuma pamatnostādnēs<privacyLink>.
+email-opt-in-privacy-v2 = Piekrītot saņemt e-pasta ziņojumus tiek apliecināts, ka Mozilla apstrādās tos tā, kā tas ir izskaidrots Mozilla <privacyLink>privātuma pamatnostādnēs<privacyLink>.
 indicates-required = * Obligātie lauki
 not-available-abbreviation = N/A
 # Text shown on a button that can be clicked to copy text to the clipboard
