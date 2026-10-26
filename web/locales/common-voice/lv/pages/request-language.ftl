@@ -4,10 +4,10 @@ request-language-heading = Vaicāt par jaunu valodu
 request-language-explanation-1 =
     Pārbaudi, vai Tava valoda ir norādīta sarakstā
     <languagesPageLink>Common Voice valodu lapa</languagesPageLink>!
-    Ja nē, aizpildi šo veidlapu, un mēs <strong>nosūtīsim Tev ērtu e-pasta ziņojumu
+    Ja nē, aizpildi šo veidlapu, un mēs <strong>nosūtīsim Tev ērtu epasta ziņojumu
     ar skaidrojumu, kā panākt savas valodas iestatīšanu</strong>!
 request-language-form-email =
-    .label = Tava e-pasta adrese
+    .label = Tava epasta adrese
 request-language-form-info =
     .label = Informācija par valodu
 request-language-form-info-explanation =
