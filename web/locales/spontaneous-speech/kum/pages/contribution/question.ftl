@@ -9,3 +9,4 @@ add-question-success-toast-message =
         [one] { $uploadedQuestions } соравдан 1 сорав джийылды
        *[other] { $uploadedQuestions } соравдан { $totalQuestions } сорав джийылды
     }
+add-question-error-message = салмагъа болунмады, дагъы да сонгъ къарагъыз
