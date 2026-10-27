@@ -58,7 +58,7 @@ improve-audio = Profila informācija uzlabo audio ierakstu datus, ko izmanto run
 keep-track = Sekojiet līdzi savam progresam un datiem vairākās valodās.
 compare-progress = Skatiet, kā jūsu progress ir salīdzināms ar citiem ieguldītājiem visā pasaulē.
 view-goals = Skatiet savu progresu pret personiskajiem un projekta mērķiem.
-join-newsletter = Ja vēlaties, pievienojieties mūsu epasta adresātu sarakstam, lai saņemtu projekta jaunumus un informāciju par projektu.
+join-newsletter = Ja vēlies, pievienojies mūsu e-pasta sarakstam atjauninājumu un informācijas par projekta saņemšanai!
 
 ## What's public
 
