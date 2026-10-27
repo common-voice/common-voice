@@ -7,7 +7,7 @@ request-language-explanation-1 =
     Ja nē, aizpildi šo veidlapu, un mēs <strong>nosūtīsim Tev ērtu e-pasta ziņojumu
     ar skaidrojumu, kā panākt savas valodas iestatīšanu</strong>!
 request-language-form-email =
-    .label = Tava epasta adrese
+    .label = Tava e-pasta adrese
 request-language-form-info =
     .label = Informācija par valodu
 request-language-form-info-explanation =

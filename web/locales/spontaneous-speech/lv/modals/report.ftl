@@ -7,8 +7,8 @@ offensive_speech-detail = Saturā ir necienīga vai aizskaroša valoda.
 empty_or_unintelligible = Tukšs vai nesaprotams
 empty_or_unintelligible-detail = Saturs ir tukšs, bojāts, satur citu valodu utt.
 personally_identifiable_information = Personu identificējoša informācija
-personally_identifiable_information-detail = Šajā saturā ir ietverta ar personas identitāti saistīta personu identificējoša informācija, piemēram, vārds, epasta adrese, atrašanās vieta, identifikācijas numurs vai tālruņa numurs.
-personally_identifiable_information-answer-detail = Šajā jautājumā tiek vaicāta personu identificējoša informācija, piemēram, vārds, epasta adrese, atrašanās vieta, identifikācijas numurs vai tālruņa numurs.
+personally_identifiable_information-detail = Šajā saturā ir iekļauta ar cilvēka identitāti saistīta personu nosakoša informācija, piemēram, vārds, e-pasta adrese, atrašanās vieta, identificēšanas numurs vai tālruņa numurs.
+personally_identifiable_information-answer-detail = Šajā saturā tiek vaicāta ar cilvēka identitāti saistīta personu nosakoša informācija, piemēram, vārds, e-pasta adrese, atrašanās vieta, identificēšanas numurs vai tālruņa numurs.
 report-other-comment =
     .placeholder = Komentārs
 # Label for textarea in report modal
