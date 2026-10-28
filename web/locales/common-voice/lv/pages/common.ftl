@@ -246,6 +246,7 @@ ml = Malajaliešu
 mmc = Michoacán Mazahua
 mn = Mongoļu
 mni = Meetei Lon
+mnw = Mon
 mos = Mossi
 mqh = Tlazoyaltepec Mixtec
 mr = Marahthu
