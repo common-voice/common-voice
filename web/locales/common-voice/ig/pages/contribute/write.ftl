@@ -6,6 +6,8 @@ new-sentence-rule-5 = Enweghị ọnụọgụgụ na mkpụrụedemede pụrụ
 new-sentence-rule-6 = Enweghị mkpụrụ edemede mba ọzọ
 new-sentence-rule-7 = Tinye ntụaka kwesịrị ekwesị
 new-sentence-rule-8 = N'ụzọ kacha mma ịdị ka chi siri kee ya na n'usoro mkparịta ụka (ọ ga-adị mfe ịgụ ahịrịokwu ahụ)
+login-instruction-multiple-sentences = <loginLink>Banye</loginLink> ma ọ bụ <loginLink>debanye aha</loginLink> iji tinye ọtụtụ ahịrịokwu
+how-to-cite = Kedu ka m ga-esi tụje aka?
 
 ## BULK SUBMISSION
 
