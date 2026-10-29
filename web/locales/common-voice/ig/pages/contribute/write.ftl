@@ -5,6 +5,7 @@ new-sentence-rule-4 = Jiri nsupe na ntụpọ ziri ezi
 new-sentence-rule-5 = Enweghị ọnụọgụgụ na mkpụrụedemede pụrụ iche
 new-sentence-rule-6 = Enweghị mkpụrụ edemede mba ọzọ
 new-sentence-rule-7 = Tinye ntụaka kwesịrị ekwesị
+new-sentence-rule-8 = N'ụzọ kacha mma ịdị ka chi siri kee ya na n'usoro mkparịta ụka (ọ ga-adị mfe ịgụ ahịrịokwu ahụ)
 
 ## BULK SUBMISSION
 
