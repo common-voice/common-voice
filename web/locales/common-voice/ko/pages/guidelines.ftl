@@ -237,6 +237,11 @@ code-switching-focus-emotional-explanation = 사람들은 감정이나 긴박함
 code-switching-focus-emotional-explanation-example = “그 큰 뉴스를 말할 때 부모님이 뭐라고 말씀하셨는지 정확히 말해 주세요.”
 code-switching-direct-quotes-header = 직접적인 인용이나 재연 요청
 code-switching-direct-quotes-explanation = 참가자들에게 말이 실제로 어떻게 나왔는지를 다시 살펴보게 합니다. 예:
+code-switching-direct-quotes-explanation-example = “찾아내었을 때 정확히 어떤 말이 있었나요?”
+code-switching-cultural-topics-header = 특정 문화권 주제 선택하기
+code-switching-cultural-topics-explanation = 음식, 전통, 휴일 및 가족의 역동성 때문에 자주 코드전환이 일어납니다.
+code-switching-cultural-topics-explanation-example = “영어만 구사하는 사람에게 Dia de los Muertos는 어떤 의미인가요?”
+code-switching-informal-scenarios-header = 비공식 시나리오 살펴보기
 # Answering a Question
 code-switching-answer-subheader = 질문에 답변하기
 code-switching-pronunciation-explanation-example-1 = 영어: /ˈkeɪ.bəl/
