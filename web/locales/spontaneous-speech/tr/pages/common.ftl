@@ -50,6 +50,7 @@ accept-privacy-and-terms = Common Voice'un <termsLink>Koşullarını</termsLink>
 # Locales-Variants
 ms-MY = Bahasa Malay
 el-CY = Kıbrıs Rumcası
+pt-BR = Brezilya Portekizcesi
 
 ## Language search component
 
