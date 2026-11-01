@@ -6,7 +6,7 @@ respond = တွပ်ႇၶိုၼ်း
 check = ၵူတ်ႇထတ်း
 # Link to the Transcribe page in the navigation modal for mobile users
 transcribe = ထွတ်ႇသဵင်
-loading = တိုၵ်ႉၸၼ်…
+loading = တိုၵ်ႉၸၼ်(လူတ်ႇ)…
 login-signup = လွၵ်ႉၶဝ်ႈ / လူင်းသဵၼ်ႈၸိုဝ်ႈ
 login = လွၵ်ႉၶဝ်ႈ
 logout = လွၵ်ႉဢွၵ်ႇ
