@@ -97,6 +97,8 @@ player-skip-backward-aria-label = 5 saniye geri atla
 player-skip-forward-aria-label = 5 saniye ileri atla
 # Audio playback progress slider accessibility/aria label
 player-progress-slider-aria-label = Ses oynatma ilerleme kaydırıcısı
+# Toggle speed and transcription mode menu button
+player-toggle-mode-menu-aria-label = Mod menüsünü aç/kapat
 # Slower playback speed button accessibility/aria label
 player-speed-slow-aria-label = Daha yavaş oynatma hızı
 # Normal playback speed button accessibility/aria label
