@@ -59,6 +59,7 @@ services:
     build:
       context: .
       dockerfile: docker/Dockerfile
+      target: dev
     container_name: web
     user: '${UID:-1000}:${GID:-1000}'
     links:
