@@ -62,6 +62,7 @@ WORKDIR /code
 # Application source, build output, and installed dependencies
 COPY --from=builder --chown=app:app /code /code
 
+# Create directory for storing logs
 RUN mkdir -p /code/logs && chown app:app /code/logs
 
 USER app
