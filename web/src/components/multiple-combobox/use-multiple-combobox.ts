@@ -1,4 +1,5 @@
 import { useCallback, useMemo, useState } from 'react'
+import { useLocalization } from '@fluent/react'
 
 type UseMultipleComboBoxParams = {
   items: readonly string[]
@@ -9,6 +10,7 @@ export const useMultipleComboBox = ({
   items,
   selectedItems,
 }: UseMultipleComboBoxParams) => {
+  const { l10n } = useLocalization()
   const [inputValue, setInputValue] = useState('')
 
   const getFilteredItems = useCallback(
@@ -16,10 +18,13 @@ export const useMultipleComboBox = ({
       return items.filter(
         item =>
           !selectedItems.includes(item) &&
-          item.toLowerCase().startsWith(inputValue.toLowerCase())
+          l10n
+            .getString(item)
+            .toLowerCase()
+            .startsWith(inputValue.toLowerCase())
       )
     },
-    [items, selectedItems]
+    [items, selectedItems, l10n]
   )
 
   const multipleComboBoxItems = useMemo(
