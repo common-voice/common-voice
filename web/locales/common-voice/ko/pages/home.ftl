@@ -86,6 +86,7 @@ get-started = 시작하기<icon><icon>
 ## Action items section
 
 language-text-card-header = 언어 텍스트
+coming-soon = 곧 공개됩니다
 add-text = 텍스트 추가
 answer = 답변
 

@@ -244,4 +244,5 @@ code-switching-cultural-topics-explanation-example = “영어만 구사하는 �
 code-switching-informal-scenarios-header = 비공식 시나리오 살펴보기
 # Answering a Question
 code-switching-answer-subheader = 질문에 답변하기
+code-switching-answer-bullet-4 = “완벽한” 답변은 없습니다
 code-switching-pronunciation-explanation-example-1 = 영어: /ˈkeɪ.bəl/
