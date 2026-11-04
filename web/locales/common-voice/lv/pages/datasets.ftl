@@ -15,7 +15,7 @@ datasets-positioning-mdc =
     Sākot ar Common Voice 23.0 versiju, visas Common Voice datu kopas ir pieejami lejupielādei tikai no Mozilla Data Collective!
     
     Šī lapa kalpo kā vēsturisks arhīvs ar iepriekšējām Mozilla Common Voice datu kopu versijām. Arhīva izlaidumi jāizmanto tikai īpašos pētniecības scenārijos, nevis apmācībām, lai respektētu to personu vēlmes, kuras ir pieprasījušas, lai viņu ieguldījums netiktu iekļauts.
-datasets-speech-bubble-content = Aizraujoši jaunumi! Spontāna runa ir ceļā! Sekojiet līdzi jaunumiem un noteikti pārbaudiet mūsu <discordLink>Discord</discordLink> jaunāko informāciju.
+datasets-speech-bubble-content = Aizraujoši jaunumi! Spontāna runa ir ceļā! Seko līdzi jaunumiem un noteikti pārbaudi mūsu <discordLink>Discord</discordLink>, lai iegūtu jaunāko informāciju!
 language = Valoda
 download-dataset-header = Lejupielādēt datu kopu
 download-delta-explainer = Mēs esam veikuši dažas izmaiņas. Delta segmenti satur tikai jaunākos ierakstus kopš pēdējās izlaišanas. <deltaLink>Lasiet vairāk par šo darbu</deltaLink>.
