@@ -23,3 +23,8 @@ do-section-guideline-1 = Тюз куйде языгъыз
 do-section-guideline-2 = тынч соравларны сайлагъыз, турлю турлю халкь ангъласыннып
 do-section-guideline-3 = бир эки сёзмнен айтмагъа ярай болсуннуп этигъиз
 do-not-section-title = ярамай
+do-not-section-guideline-1 = Адамланы атларын, агъча язувларын яда олай затларны тилейлер.
+do-not-section-guideline-2 = яман созлер яда яман юрекгъе тиегъен созлер
+do-not-section-guideline-3 = Юрекгъе тиеген соравлар сорагъыз
+# Code switching Guidelines
+cs-do-section-guideline-1 = Эки тилдеги соравлар яда якъ
