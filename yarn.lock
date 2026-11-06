@@ -11314,9 +11314,9 @@ mkdirp@~1.0.4:
   resolved "https://registry.npmjs.org/mkdirp/-/mkdirp-1.0.4.tgz"
   integrity sha512-vVqVZQyf3WLx2Shd0qJ9xuvqgAyKPLAiqITEtqW0oIUjzo3PePDd6fW9iFz30ef7Ysp/oiWqbhszeGWW2T6Gzw==
 
-mnemonist@^0.38.1:
+mnemonist@^0.38.3:
   version "0.38.5"
-  resolved "https://registry.npmjs.org/mnemonist/-/mnemonist-0.38.5.tgz"
+  resolved "https://registry.yarnpkg.com/mnemonist/-/mnemonist-0.38.5.tgz#4adc7f4200491237fe0fa689ac0b86539685cade"
   integrity sha512-bZTFT5rrPKtPJxj8KSV0WkPyNxl72vQepqqVUAW2ARUpUSF2qXMB6jZj7hW5/k7C1rtpzqbD/IIbJwLXUjCHeg==
   dependencies:
     obliterator "^2.0.0"
@@ -15023,14 +15023,14 @@ table@^6.8.0:
     strip-ansi "^6.0.1"
 
 talisman@^1.1.4:
-  version "1.1.4"
-  resolved "https://registry.npmjs.org/talisman/-/talisman-1.1.4.tgz"
-  integrity sha512-XZ/vf5B2aW5A0c0CE6F6w/UgdBdD/0ClBgh/phpYSjV1CnQIFni3bKZ1z9ZXWHkGZRSpnbiWWMPx05DoxXBoFw==
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/talisman/-/talisman-1.1.5.tgz#6141c51a4a28ec8e2af2cecd4a6073007a113570"
+  integrity sha512-1sPZ9ehnCu0zJgSQ5/F/pWXbsw8CEc4IkOTjB/p87wiG/Tcuh9D47HB6xe28nfRbFENHHdXQmOAfUDGVmHtalw==
   dependencies:
     html-entities "^1.4.0"
-    lodash "^4.17.20"
+    lodash "^4.17.21"
     long "^4.0.0"
-    mnemonist "^0.38.1"
+    mnemonist "^0.38.3"
     obliterator "^1.6.1"
     pandemonium "^2.0.0"
 
