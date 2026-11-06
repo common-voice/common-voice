@@ -1,3 +1,6 @@
+speak = Kwùó ókwú
+speak-now = Kwùó ókwú ụ̀gbú à
+speak-subtitle = Tụnye ụtụ ólú gị́
 record-cta = Bìdó ḿkpọ́nyé
 record-platform-not-supported = Ọ́ dị̀ ḿwúté, à kwádòghị̀ íkpó gị́ kà ọ́ dị̀ úgbú à.
 record-platform-not-supported-desktop = Nà ńgwá desktop, Í nwèrè íké ị́tụ̀nyé ókè síté n'íbúdàtà...

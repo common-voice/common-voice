@@ -56,3 +56,7 @@ review-error = E nwere nsogbu n'inyocha ahịrịokwu a
 review-error-rate-limit-exceeded = Ị na-agba ọsọ ọsọ. Biko were obere oge nyochaa ahịrịokwu ahụ iji jide n'aka na o ziri ezi.
 # SENTENCE-COLLECTOR-REDIRECT PAGE
 sc-redirect-page-title = Anyị na-eme nnukwu mgbanwe
+sc-redirect-page-subtitle-1 = Nchịkọta Ahịrịokwu ahụ na-aga n'umi platfọọm Common Voice. Ugbu a, i nwere ike <writeURL>dee</writeURL>ahịrịokwu ma ọ bụ <reviewURL>nyochaa </reviewURL>otu ahịrịokwu e tinyere na Common Voice.
+sc-redirect-page-subtitle-2 = Jụọ anyị ajụjụ na <matrixLink>Matrix</matrixLink>, <discourseLink>Discourse</discourseLink> maọbụ <emailLink>ímèèlụ̀</emailLink>.
+# menu item
+review-sentences = Nyòcháá áhị́rị́ókwū
