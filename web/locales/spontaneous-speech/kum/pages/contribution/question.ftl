@@ -21,3 +21,5 @@ add-question-guidelines-title = низат сорап боламан?
 do-section-title = эт
 do-section-guideline-1 = Тюз куйде языгъыз
 do-section-guideline-2 = тынч соравларны сайлагъыз, турлю турлю халкь ангъласыннып
+do-section-guideline-3 = бир эки сёзмнен айтмагъа ярай болсуннуп этигъиз
+do-not-section-title = ярамай
