@@ -27,4 +27,8 @@ do-not-section-guideline-1 = Адамланы атларын, агъча язу�
 do-not-section-guideline-2 = яман созлер яда яман юрекгъе тиегъен созлер
 do-not-section-guideline-3 = Юрекгъе тиеген соравлар сорагъыз
 # Code switching Guidelines
-cs-do-section-guideline-1 = Эки тилдеги соравлар яда якъ
+cs-do-section-guideline-1 = Эки тилдеги соравлар яда якъ соравлар
+cs-do-section-guideline-2 = Ишгъе гирмейгъен
+cs-do-not-section-guideline-1 = Адамланы атларын, акъча язувларын тилемегъе яда юрекге тиеген созлер
+cs-do-not-section-guideline-2 = тилегъиз ичъсёзну алышдырмагъа яда тилегьиз тилигъизни куюне гочурсуннуп
+cs-do-not-section-guideline-3 = Китапдагъы йимик тилмен язмакъ
