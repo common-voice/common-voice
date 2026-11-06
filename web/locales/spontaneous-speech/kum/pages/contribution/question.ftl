@@ -11,3 +11,10 @@ add-question-success-toast-message =
     }
 add-question-error-message = салмагъа болунмады, дагъы да сонгъ къарагъыз
 add-question-too-many-questions-error = 25 бекь коп сорав, соравланы аз этигиз, сонгъ дагъыда къарагъыз.
+partial-questions-upload-message =
+    { $totalQuestions ->
+        [one] { $uploadedQuestions } соравдан 1 сорав джыйылды. Соравланы нечик къошмагъа ярай <guidelinesLink>щунна билимеге боласыс</guidelinesLink>
+       *[other] { $uploadedQuestions } соравдан { $totalQuestions } сорав джыйылды. Соравланы нечик къошмагъа ярай  <guidelinesLink>щунна билимеге боласыс</guidelinesLink>
+    }
+# Guidelines
+add-question-guidelines-title = низат сорап боламан?
