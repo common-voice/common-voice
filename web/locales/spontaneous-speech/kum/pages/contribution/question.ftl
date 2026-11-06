@@ -18,3 +18,6 @@ partial-questions-upload-message =
     }
 # Guidelines
 add-question-guidelines-title = низат сорап боламан?
+do-section-title = эт
+do-section-guideline-1 = Тюз куйде языгъыз
+do-section-guideline-2 = тынч соравларны сайлагъыз, турлю турлю халкь ангъласыннып
