@@ -43,13 +43,11 @@ need-help-deciding-platform-explanation-2 = <strong>Spontānā runa</strong> ir 
 need-help-deciding-platform-explanation-3 = Ja nevienā platformas daļā neredzat savu valodu, atlasiet abus.
 request-language-search-bar = Šeit var sākt rakstīt savas valodas nosaukumu; ja tā vēl nav Common Voice, būs iespējams aizpildīt veidlapu ar savas valodas datiem.
 request-language-found-pontoon-not-launched =
-    Jūsu valoda jau ir iekļauta Common Voice valodu sarakstā.
-    
-    Valodas palaišanu pakalpojumā <strong>Scripted Speech</strong> varat atvieglot, lokalizējot
-    platformas saskarni <pontoonLink>šeit</pontoonLink>. Saskarnei ir jābūt lokalizētai 60% apmērā;
-    alternatīvi varat lokalizēt tikai pamata virknes failā “web/locales/en/pages/contribute/*.ftl” līdz 100%
-    
-    (ir pieci šādi faili), un saskarne tiks palaista automātiski.
+    Tava valoda jau ir iekļauta Common Voice valodu sarakstā.
+    Valodas palaišanu <strong>Scripted Speech</strong> var atvieglot ar
+    platformas saskarnes lokalizēšanu <pontoonLink>šeit</pontoonLink>. Saskarnei ir jābūt lokalizētai 60% apmērā;
+    cita iespēja ir lokalizēt tikai pamata virknes “web/locales/en/pages/contribute/*.ftl” līdz 100%
+    (ir piecas šādas datnes), un saskarne tiks palaista automātiski.
 request-language-found-cv-contribution =
     Urā! Jūsu valoda jau ir pieejama Common Voice <strong>Scripted Speech</strong> platformā.
     Jūs varat sniegt savu ieguldījumu <homePageLink>šeit</homePageLink>.
