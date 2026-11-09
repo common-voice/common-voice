@@ -307,6 +307,7 @@ pl = Poalsk
 plk = Kohistani Shina
 pne = Westlik Penan
 prq = Asheninka Perene
+prs = Dari
 ps = Pashtu
 pt = Portugeesk
 pua = Purepecha fan de Westlike Heechlannen

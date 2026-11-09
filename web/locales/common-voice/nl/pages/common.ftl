@@ -307,6 +307,7 @@ pl = Pools
 plk = Kohistani Shina
 pne = Westelijk Penan
 prq = Asheninka Perene
+prs = Dari
 ps = Pashtu
 pt = Portugees
 pua = Purepecha van de Westelijke Hooglanden
