@@ -307,6 +307,7 @@ pl = Polnisch
 plk = Kohistani Shina
 pne = Westliches Penan
 prq = Ashéninka Perené
+prs = Dari
 ps = Paschtu
 pt = Portugiesisch
 pua = West-Hochland-Purepecha
