@@ -307,6 +307,7 @@ pl = Pólšćina
 plk = Kohistani Shina
 pne = Zapadny Penan
 prq = Asheninka Perene
+prs = Dari
 ps = Paštošćina, Pašto
 pt = Portugalšćina
 pua = Purepeča zapadneje wysočiny
