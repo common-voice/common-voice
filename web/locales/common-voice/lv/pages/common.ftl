@@ -307,6 +307,7 @@ pl = Poļu
 plk = Kohistani Shina
 pne = Western Penan
 prq = Asheninka Perene
+prs = Darē
 ps = Pashto
 pt = Portugāļu
 pua = Rietumu augstiene Purepecha
