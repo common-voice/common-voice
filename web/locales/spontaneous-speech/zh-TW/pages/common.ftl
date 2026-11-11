@@ -23,13 +23,23 @@ report-button = 回報
 skip-button = 略過
 submit-button = 送出
 contribute = 貢獻
+# Button text which appears when there are no more resources
+continue-with-skipped = 跳過並繼續
+
+## Common aria-labels
+
+keyboard-shortcuts-button-aria-label = 顯示鍵盤快速鍵
 
 ## Navbar
 
 question = 問題
+validate = 驗證
 respond-to-prompt = 回應提示
+respond-to-prompt-mobile = 回答
 transcribe = 轉錄
 check-transcriptions = 檢查轉錄內容
+check-transcriptions-mobile = 審核
+tag = 標籤
 
 ## Not Found Page
 
@@ -39,3 +49,63 @@ not-found-page-content = 找不到您尋找的頁面。
 accept-privacy-and-terms = 我同意 Common Voice 的<termsLink>使用條款</termsLink>與<privacyLink>隱私權公告</privacyLink>
 # Locales-Variants
 ms-MY = Bahasa Melayu 馬來語
+el-CY = 塞浦路斯希臘語
+pt-BR = 巴西葡萄牙語
+
+## Language search component
+
+language-search-placeholder = 搜尋語言…
+language-search-aria-label = 搜尋語言
+language-search-label = 修改只有資料集的貢獻語言
+language-search-no-results = 找不到語言
+
+## Transcription Player - Mode Buttons
+
+# Transcription Player - Automatic Mode
+transcription-mode-auto = 自動
+# Player - slower
+player-speed-slow = 慢速
+# Player - normal speed
+player-speed-normal = 正常
+# Player - faster
+player-speed-fast = 快速
+
+## Transcription Player Controls - Keyboard Shortcuts
+
+# Player control shortcut for play/pause: pressed with Ctrl/Cmd
+player-play-pause-shortcut = P
+player-play-pause-shortcut-key = Ctrl / Cmd + P
+player-play-pause-shortcut-name = 播放/暫停
+# Player control shortcut to go back 5 seconds: pressed with Ctrl/Cmd
+player-skip-backward-shortcut = 8
+player-skip-backward-shortcut-key = Ctrl / Cmd + 8
+player-skip-backward-shortcut-name = 後退
+# Player control shortcut to go forwards 5 seconds: pressed with Ctrl/Cmd
+player-skip-forward-shortcut = 9
+player-skip-forward-shortcut-key = Ctrl / Cmd + 9
+player-skip-forward-shortcut-name = 前進
+
+## Transcription Player - Aria Labels
+
+# Play button accessibility/aria label
+player-play-button-aria-label = 播放聲音
+# Pause button accessibility/aria label
+player-pause-button-aria-label = 暫停聲音
+# Skip back button accessibility/aria label
+player-skip-backward-aria-label = 跳過後退5秒
+# Skip forward button accessibility/aria label
+player-skip-forward-aria-label = 跳過前後5秒
+# Audio playback progress slider accessibility/aria label
+player-progress-slider-aria-label = 音訊播放進度滑桿
+# Toggle speed and transcription mode menu button
+player-toggle-mode-menu-aria-label = 切換模式選單
+# Slower playback speed button accessibility/aria label
+player-speed-slow-aria-label = 播放速度較慢
+# Normal playback speed button accessibility/aria label
+player-speed-normal-aria-label = 正常播放速度
+# Faster playback speed button accessibility/aria label
+player-speed-fast-aria-label = 播放速度較快
+# Auto transcription mode button accessibility/aria label
+transcription-mode-auto-aria-label = 切換自動逐字播放
+# Mode menu button accessibility/aria label
+transcription-mode-menu-aria-label = 切換轉錄模式選單
