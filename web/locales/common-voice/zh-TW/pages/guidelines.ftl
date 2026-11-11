@@ -3,6 +3,8 @@ guidelines-header = 貢獻指引
 guidelines-header-subtitle = 了解如何向 Common Voice 資料庫貢獻語音與協助驗證
 voice-collection = 收集語音
 sentence-collection = 收集句子
+question-collection = 收集問題
+dont-subheader = 不要
 
 ## Voice Collection nav ids
 
@@ -110,10 +112,20 @@ adding-questions = 加入問題
 
 ## Question collection sidebar content
 
+what-makes-a-good-question-subheader = 什麼是好問題？
+what-makes-a-good-question-explanation = 一個好的公眾參與資料集問題應該:
+what-makes-a-good-question-explanation-criteria-1 = 容易理解、容易回應
+what-makes-a-good-question-explanation-criteria-2 = 普遍來說有意義
+what-makes-a-good-question-explanation-criteria-3 = 不使用、也不勸誘中傷或冒犯的言語
+what-makes-a-good-question-tip = 您可能也會需要考慮跨越不同的語境與領域。
 easy-to-understand = 簡單易懂
+easy-to-understand-explanation = 選擇任何人都能明白的簡單問題，不論文化或是語境。
 spelling-and-pronunciation = 拼字與標點符號
 spelling-and-pronunciation-explanation = 使用正確的拼寫與符合文法。
 length = 長度
+length-explanation = 請確認問題能用幾句話就能回答。
 dont-add-subheader = 不要加入
 culturally-specific-questions = 文化相關問題
+process-steps = 程序 / 步驟
+offensive-content-sensitive-information = 冒犯的內容或敏感資訊
 example-questions-subheader = 問題範例

@@ -236,7 +236,10 @@ ps = 普什圖語
 pt = 葡萄牙語
 pua = Western Highland Purepecha 西部高地普雷佩查語
 quc = 基切語
+qup = Southern Pastaza Quechua 語
+qux = Quechua Yauyos 語
 quy = 克丘亞占卡語
+qva = Quechua Ambo-Pasco 語
 qvi = 吉楚瓦語
 qxp = Puno Quechua 語
 rif = Tarifit 里夫語
@@ -244,14 +247,18 @@ rm-sursilv = 羅曼蘇塞瓦語
 rm-vallader = 羅曼什瓦拉德語
 ro = 羅馬尼亞語
 ru = 俄語
+ruc = Ruuli 語
 rw = 盧安達語
 sah = 薩哈語
 sat = Santali（Ol Chiki 字）
 sc = 薩丁尼亞語
+scl = Shina 語
 scn = 西西里語
 sco = 蘇格蘭語
 sd = 辛德語（印度）
 sdh = 南庫德語
+sdo = 西連比達友語
+sei = Seri 語
 shi = 施盧赫語
 shn = Shan 撣語
 si = 僧加羅語
@@ -290,7 +297,9 @@ uby = 尤比克語
 udm = 烏德莫特語
 ug = 維吾爾語
 uk = 烏克蘭語
+ukv = Kuku 庫庫語
 ur = 烏爾都語
+ush = Ushojo 語
 uz = 烏茲別克語
 ve = 齊溫達語
 vec = 威尼斯語
@@ -301,6 +310,11 @@ wep = 西發里亞語
 wes = 喀麥隆皮欽語
 wo = 渥魯夫語
 xh = 科薩語（南非）
+xhe = Ketrani 語
+xka = Kalkoti 卡爾克提語
+xkl = 肯雅語
+xmf = Mingrelian 明格列爾語
+yaq = Yaqui 雅基語
 yi = 意第緒語
 yo = 約魯巴語（奈及利亞）
 yue = 粵語
@@ -308,6 +322,7 @@ zgh = 塔馬塞特語
 zh-CN = 華語（中國）
 zh-HK = 廣東話（香港）
 zh-TW = 華語（台灣）
+zoc = Copainalá Zoque 語
 zu = 祖魯語（南非）
 zza = 扎扎語
 
@@ -340,6 +355,14 @@ email-opt-in-info-sub-with-challenge = 訂閱諸如挑戰、目標提醒、進�
 email-opt-in-privacy-v2 = 若同意接收郵件，就代表您同意 Mozilla 依照<privacyLink>隱私權保護政策</privacyLink>當中描述的方式處理這些資訊。
 indicates-required = * 表示必填欄位
 not-available-abbreviation = 不適用
+# Text shown on a button that can be clicked to copy text to the clipboard
+copy = 複製
+# Text shown on a button that can be clicked to close a modal or panel
+close = 關閉
+# Text shown on a button that can be clicked to cancel an action
+cancel = 取消
+# Text shown on a button that can be clicked to delete an item
+delete = 刪除
 
 ## Donate banner
 
@@ -352,3 +375,20 @@ languages-donate-banner-cta = <mark>在您的研究中</mark><br/><mark>使用 C
 languages-donate-banner-cta-explanation = Common Voice 是由捐款和補助金資助！我們非常樂於與學術界、公民社會和產業研究人員合作。Common Voice 可免費使用，但如能通過補助金提案來為平台和托管費用做出貢獻，將會非常有幫助。
 localization-select =
     .label = 選擇語言 / 語系
+
+## MDC Announcement
+
+# Aria text for button which opens MDC on a new page
+announcement-mdc-button-aria-text = 在新分頁中開啟
+
+## Common Language/Dataset Selector & SearchBox Related
+
+# Generic search box defaults
+searchbox-default-label = 開始輸入以搜尋
+searchbox-default-placeholder = 搜尋...
+searchbox-default-aria-label = 搜尋
+dropdown-no-results = 找不到符合的結果
+dataset-searchbox-placeholder = 搜尋語言...
+dataset-searchbox-aria-label = 搜尋語言
+dataset-search-no-results = 找不到符合的語言
+request-new-language = 申請新增語言

@@ -73,19 +73,27 @@ read-more-about = 到我們的「關於」頁面了解更多資訊
 answer-questions = 回答問題 <small>(近期推出)</small>
 review-transcriptions = 審核轉錄 <small>即將推出</small>
 add-questions = 新增問題 <small>(近期推出)</small>
+review-questions = 審核問題
 transcribe-audio = 轉錄語音 <small>(近期推出)</small>
 press-and-stories = 媒體與故事
 community-and-languages = 社群與語言
+about-us = 關於我們
+scripted-speech = 轉錄錄音
+spontaneous-speech = 自發性演說
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = 合作夥伴、媒體與故事、社群與語言
+about-us-menu-item-tooltip = 了解 Common Voice 背後的使命與團隊
 partnerships-menu-item-tooltip = 成為夥伴
 press-and-stories-menu-item-tooltip = 前往我們的部落格或撰寫我們的故事
 community-and-languages-menu-item-tooltip = 探索語言、社群以及 Common Voice
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = 合作夥伴、媒體與故事、社群與語言的選單
+about-us-menu-aria-label = 關於選項選單
+about-us-menu-item-aria-label = 關於我們選項選單
 partnerships-menu-item-aria-label = 了解如何與 Common Voice 成為合作夥伴
 press-and-stories-menu-item-aria-label = 取得 Common Voice 的新聞稿與故事
 community-and-languages-menu-item-aria-label = 探索 Common Voice 支援的社群和語言
@@ -111,6 +119,7 @@ language-text-card-header = 語言文本
 language-text-card-content = 為翻譯、小型語言模型等應用，建立或分享公眾領域授權的問題、句子、及文本。
 coming-soon = 即將推出
 add-text = 添加文本
+answer = 回答
 
 ## Community section
 

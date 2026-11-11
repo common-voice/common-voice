@@ -48,7 +48,7 @@ not-found-page-content = 找不到您尋找的頁面。
 # Privacy and Terms checkbox
 accept-privacy-and-terms = 我同意 Common Voice 的<termsLink>使用條款</termsLink>與<privacyLink>隱私權公告</privacyLink>
 # Locales-Variants
-ms-MY = Bahasa Melayu 馬來語
+ms-MY = 馬來語
 el-CY = 塞浦路斯希臘語
 pt-BR = 巴西葡萄牙語
 
