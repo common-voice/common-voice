@@ -22,7 +22,7 @@ transcribe-bubble-title = <mark>Pārrakstīt</mark>
 transcribe-bubble-subtitle = Pieraksti to, ko dzirdi skaņas ierakstos
 # text wrapped in <mark></mark> will have a blue background
 check-bubble-title = <mark>Pārbaudīt</mark>
-check-bubble-subtitle = Pārbaudiet vai audio ierakstā dzirdamais ir pierakstīts pareizi
+check-bubble-subtitle = Tu pārbaudi, vai pierakstītais atbilst skaņas ierakstam
 # text wrapped in <mark></mark> will have a blue background
 data-bubble-title = <mark>Dati</mark>
 data-bubble-subtitle = Mēs laiku pa laikam publicējam savāktos datus

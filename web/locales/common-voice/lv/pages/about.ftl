@@ -48,7 +48,7 @@ about-get-involved-text-2 =
     Lieliski! Sazinies ar mums e-pastā vai <discourseLink>Discourse</discourseLink>
     forumos, iesniedz vietnes nepilnības <githubLink>GitHub</githubLink>, vai pievienojies <matrixLink>[matrix]</matrixLink> kopienas tērzēšanai.
 about-stay-in-touch = Kā es varu sazināties?
-about-stay-in-touch-button = Pierakstīties
+about-stay-in-touch-button = Reģistrēties
 about-stay-in-touch-text-1 = <emailFragment>Pieraksties</emailFragment> mūsu e-pasta jaunumiem, lai uzzinātu, kā vari piedalīties kampaņās, pasākumos un Common Voice kopprojektēšanas darbībās.
 about-stay-in-touch-text-2 = Jūs varat satikt citus Mozilla valodu kopienas dalībniekus, pievienojoties <discourseLink>Discourse</discourseLink> aktuālajām sarunām vai <matrixLink>Matrix</matrixLink>, lai saņemtu ātrus padomus.
 about-nav-why-common-voice = Kāpēc?
