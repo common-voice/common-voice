@@ -6,6 +6,7 @@ banner-error-slow-link = 狀態頁面
 error-something-went-wrong = 抱歉，有些東西不對勁
 error-clip-upload = 這個片段持續上傳失敗，要繼續重試嗎？
 error-clip-upload-server = 伺服器端處理這個片段時持續遇到失敗，請重新載入頁面，或稍後再試。
+error-clip-upload-too-large = 您的錄音檔案太大無法上傳。請試著錄下更短的片段。
 error-title-404 = 找不到您想要開啟的頁面
 error-content-404 = 也許從我們的<homepageLink>首頁</homepageLink>重新開始能幫到忙？若要詢問問題，可以加入<matrixLink>Matrix 社群聊天頻道</matrixLink>、關注 <githubLink>GitHub</githubLink> 上的網站問題回報，或到<discourseLink>我們的 Discourse 討論區</discourseLink>讓我們知道。
 error-title-429-no-time = 您的操作速度太快，請稍候再試。

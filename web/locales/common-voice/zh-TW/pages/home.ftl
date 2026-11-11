@@ -40,6 +40,7 @@ x-years-short =
     }
 help-make-dataset = 幫助我們打造高品質、可公開使用的資料集
 sign-up-account = 註冊帳號
+email-subscription-title-v3 = 訂閱 Common Voice 與 Mozilla Foundation 最新消息
 
 ## Account Benefits
 
@@ -128,6 +129,9 @@ join-discord-community = 加入 Discord 社群
 join-discord-community-action = 在 Discord 上加入我們
 join-discord-community-content = 參與語言社群的討論、詢問問題，並了解即將舉辦的活動與會談。
 find-us-on-matrix = 在 Matrix 上尋找我們
+# label for button
+find-us-on-element-action-1 = 元素
+find-us-on-matrix-action-2 = 其他客戶
 ask-mozilla-share = 通知 Mozilla 分享你的活動
 ask-mozilla-share-content = 舉辦了什麼活動，或者有計劃中的活動嗎？請告訴我們，我們會通知社群，或者寫篇部落格來與分享給大家！
 # label for button
