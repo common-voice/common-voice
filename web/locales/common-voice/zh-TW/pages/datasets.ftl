@@ -8,6 +8,14 @@ datasets-positioning =
     Common Voice 的多語言資料集已經成為最大的公開語音資料集，但不是唯一的一套。
     
     您可於此頁面找到其他的開放原始碼語音資料集。隨 Common Voice 持續成長，我們也會於此處張貼更新資訊。
+# New/upcoming datasets page headline
+datasets-headline-mdc = Mozilla 同聲計畫資料集如今都由 Mozilla 資料集合獨家釋出。
+# New/upcoming datasets page headline text
+datasets-positioning-mdc =
+    在同聲計畫 23.0 之後，所有同聲計畫資料集將透過 Mozilla 資料合集獨家釋出。
+    
+    此歷史頁面封存 Mozilla 同聲計畫資料集的過往版本，為尊重部分貢獻者希望移除過往所貢獻的資料，封存版本僅可作研究使用，不得用於訓練。
+datasets-speech-bubble-content = 令人興奮的消息！自發演講即將到來！請繼續關注更新，並務必查看我們的<discordLink>Discord</discordLink>以獲取最新資訊。
 language = 語言
 download-dataset-header = 下載資料集
 download-delta-explainer = 注意以下改變：差異片段現僅包含從上次發佈以來最新版的片段。<deltaLink>了解此項目的更多資訊</deltaLink>。
@@ -93,7 +101,12 @@ release-version = 版本
 dataset-date = 日期
 license = 授權條款: <licenseLink>{ $license }</licenseLink>
 license-mixed = 混和
+# Support old genders in older datasets
+male = 男性
+female = 女性
 # MENU ITEM TOOLTIPS
 download-contribute-menu-tooltip = 下載我們的語音資料集
 # MENU ITEM ARIA LABELS
 download-contribute-menu-aria-label = Common Voice 資料的下載選項
+datasets-show-more = 顯示所有資料集
+datasets-show-less = 顯示最新資料集

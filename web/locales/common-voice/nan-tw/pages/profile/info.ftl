@@ -51,6 +51,7 @@ login = 登入
 edit = 編輯
 email-subscriptions = 電子郵件訂閱
 download-profile = 下載我的資料
+api-credentials = API
 contribution-experience = 貢獻機會
 skip-submission-feedback = 跳過送出意見回饋
 skip-submission-description = 貢獻過程中，在點擊「送出」後將忽略意見回饋，直接進到下一組的五筆錄音或驗證。

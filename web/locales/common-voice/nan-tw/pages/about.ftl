@@ -111,6 +111,7 @@ about-playbook-how-grow-language-content-4 = 社群網路
 about-playbook-how-grow-language-content-5 = 您可以使用社群媒體平台來散播訊息，分享貼文說明這件事為什麼重要，並且與其他討論語言權、語音 AI、科技偏見等議題的人聯繫。可參考這裡有關<campaignLink>舉辦社群活動的更多建議，以及許多您可以重複使用的內容</campaignLink>。
 about-playbook-how-grow-language-content-6 = 成為夥伴與合作網路的一員
 about-playbook-how-grow-language-content-7 = 尋找其他關注此議題的人，可能是大學、語言學校、倡議團體、資料科學社群的成員。可以聯繫他們，並且向他們解釋為什麼、要如何參與。<outreachTemplates>請點擊此處參考我們的聯絡郵件範本</outreachTemplates>。
+about-playbook-how-grow-language-content-8-v2 = 攏來發揮創意！你的語言社群會係獨一無二的，這寡仔只係一箍仔開始的方法。請考慮將你的社群管道加入GitHub 上的 COMMUNITIES.md 文件。
 
 ## How to validate
 
