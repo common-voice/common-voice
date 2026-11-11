@@ -111,7 +111,7 @@ about-playbook-how-record-content-1 = Runājiet savā parastajā balsī! Jūsu r
 about-playbook-how-record-content-2 = Izvairies no pārāk liela fona trokšņa — Tevi jāvar viegli saklausīt.
 about-playbook-how-record-content-3 = Uzmanīgi izlasiet teikumus - neizlaidiet, nemainiet un nepievienojiet vārdus.
 about-playbook-how-record-content-4 = Jāpārliecinās, ka ieraksts ir sācies, pirms sāc runāt, un ierakstu apturi tikai tad, kad beidzi.
-about-playbook-how-record-content-5 = <accuracyLink>Skatiet vairāk par to kā pareizi ierakstīt.</accuracyLink>
+about-playbook-how-record-content-5 = <accuracyLink>Skatīt vairāk par pareizības prasībām.</accuracyLink>
 
 ## How to grow language
 
