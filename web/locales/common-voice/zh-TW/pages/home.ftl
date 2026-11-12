@@ -155,6 +155,8 @@ download-press-pack = 下載我們的宣傳資料 <icon></icon>
 
 ## Developers section
 
+developers-section-title-202608 = 公開可用超過330種語言的開放語音資料集
+developers-section-subtitle-v2 = 為自動語音辨識以及其他自然語言處理而生的資料集 - 經由社群催生的資料集。
 # icon is an arrow that points to the right
 explore-datasets = 瀏覽資料集 <icon></icon>
 
