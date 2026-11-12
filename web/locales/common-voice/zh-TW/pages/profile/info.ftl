@@ -86,6 +86,9 @@ fetching-api-keys-error-toast-message = 取得 API 憑證時發生錯誤
 copy-api-credential-success-toast-message = 已成功複製
 copy-api-credential-error-toast-message = 複製時發生錯誤
 delete-api-key-success-toast-message = 成功刪除 API 憑證
+add-api-key-name-error = 新增 API 憑證名稱
+max-api-keys-reached = 超過 API 憑證 10 筆的限制
+duplicate-api-key-name-error = API 金鑰名稱重複
 # Genders
 male_masculine = 男性
 female_feminine = 女性
