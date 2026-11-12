@@ -19,4 +19,9 @@ error-content-502 = 目前無法與伺服器建立穩定連線，請稍後再試
 error-title-503 = 發生了意外的停機時間
 error-content-503 = 網站將盡快恢復作業。請到我們的 <matrixLink>Matrix 社群聊天頻道</matrixLink>、<githubLink>GitHub</githubLink> 上的網站問題回報，或到 <discourseLink>Discourse 討論區</discourseLink>回報給我們，或取得最新資訊。
 error-title-504 = 要求逾時
+error-content-504 = 花太長時間連線了，這通常是暫時的情形，請稍後再試一次。需要尋求協助的話，請加入<matrixLink>Matrix社群聊天群組</matrixLink>，透過<githubLink>GitHub</githubLink>監控網站臭蟲，或是瀏覽<discourseLink>我們的 Discourse論壇</discourseLink>。
 error-code = 錯誤 { $code }
+# Warning message shown when none of the clips could be uploaded
+error-duplicate-clips-all = 無法上傳 { $total } 片段。以前已經上傳過。讓我們繼續下一組！
+# Warning message shown when only some of the clips could be uploaded (uploaded count will be <5)
+error-duplicate-clips-some = 我們上傳了您的 { $uploaded } 個片段 — 剩餘的片段已經上傳。讓我們繼續下一組！
