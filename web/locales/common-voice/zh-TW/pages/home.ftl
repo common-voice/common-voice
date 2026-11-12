@@ -124,11 +124,13 @@ answer = 回答
 
 ## Community section
 
+community-section-title-202601 = 由全球社群驅動，為了全球社群而估—超過290種語言並且持續成長！
 join-discord-community = 加入 Discord 社群
 # label for button
 join-discord-community-action = 在 Discord 上加入我們
 join-discord-community-content = 參與語言社群的討論、詢問問題，並了解即將舉辦的活動與會談。
 find-us-on-matrix = 在 Matrix 上尋找我們
+find-us-on-matrix-content-v2 = Matrix 是去中心化、即時通訊的開源、輕量級的通訊協議，為 Mozilla 偏好的開放討論園區。我們的房間是 "common-voice:mozilla.org"。
 # label for button
 find-us-on-element-action-1 = 元素
 find-us-on-matrix-action-2 = 其他客戶
