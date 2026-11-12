@@ -71,4 +71,4 @@ ENV GIT_COMMIT_SHA=${COMMIT}
 
 EXPOSE 9000
 
-CMD ["yarn", "--cwd", "server", "start:prod"]
+CMD ["node", "--trace-warnings", "server/js/main.js"]
