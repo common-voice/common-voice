@@ -86,6 +86,7 @@ dag = 達巴尼語
 dar = Dargwa 語
 dav = Kidaw'ida 語
 de = 德語
+din = 丁卡語
 dmk = Dawoodi 語
 dml = Dameli 語
 dru = 魯凱語
