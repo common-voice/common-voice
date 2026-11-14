@@ -93,7 +93,7 @@ spontaneous-speech = SPONTĀNĀ RUNA
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = Partnerības, prese un stāsti, kopiena un valodas
-about-us-menu-item-tooltip = Uzziniet par Common Voice misiju un komandu
+about-us-menu-item-tooltip = Uzzini par Common Voice mērķi un komandu
 partnerships-menu-item-tooltip = Izpēti apvienības, kas pasaulē atbalsta Common Voice
 press-and-stories-menu-item-tooltip = Lasi stāstus, atjauninājumus un mediju segumu par Common Voice
 community-and-languages-menu-item-tooltip = Atklājiet valodas, kopienas un kopīgo balsi
@@ -103,7 +103,7 @@ community-and-languages-menu-item-tooltip = Atklājiet valodas, kopienas un kop�
 about-menu-aria-label = Izvēlne, lai piekļūtu sadaļām Partnerības, Prese un stāsti, Kopiena un Valodas
 about-us-menu-aria-label = Par iespēju izvēlni
 about-us-menu-item-aria-label = Par mums izvēlne
-partnerships-menu-item-aria-label = Uzziniet par partnerattiecībām ar Common Voice
+partnerships-menu-item-aria-label = Uzzini par sadarbību ar Common Voice
 press-and-stories-menu-item-aria-label = Piekļūstiet preses relīzēm un stāstiem, kas saistīti ar Common Voice
 community-and-languages-menu-item-aria-label = Izpētiet Common Voice atbalstīto kopienu un valodas
 

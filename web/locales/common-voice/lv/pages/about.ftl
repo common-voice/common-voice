@@ -56,7 +56,7 @@ about-nav-how-it-works = Kā?
 about-nav-partners = Partneri
 about-nav-get-involved = Iesaistieties
 about-nav-how-it-works-2 = Kā darbojas Common Voice?
-about-nav-playbook = Uzziniet, kā piedalīties
+about-nav-playbook = Uzzini, kā piedalīties
 
 ## Community Playbook Content
 ## What is a language
@@ -152,7 +152,7 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Uzzināt vair�
 
 ## How is Common Voice funded
 
-about-playbook-how-funded = Kas finansē Common Voice?
+about-playbook-how-funded = Kas tiek iegūti Common Voice līdzekļi?
 about-playbook-how-funded-content-1 = Common Voice ir Mozilla Fonda projekts, ASV 501c3. Pašlaik projektu pilnībā finansē no <philantropicGrantLink>filantropiskām dotācijām</philantropicGrantLink> un cilvēku ziedojumiem visā pasaulē.
 about-playbook-how-funded-content-2 = Datu kopu uzturēšana, platformas attīstīšana un <africaMradiLink>kopienas programmu</africaMradiLink> atbalsts maksā daudz naudas.
 about-playbook-how-funded-content-3 = Ja Tu vai Tava apvienība vēlas līdzdarboties projektā, var veikt <donateLink>ziedojumu</donateLink> vai sazināties ar mūsu sadarbības komandu e-pastā: <emailFragment>commonvoice@mozilla.com</emailFragment>.
