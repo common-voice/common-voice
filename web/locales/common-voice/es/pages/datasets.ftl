@@ -39,6 +39,9 @@ subscribe = Suscribirse
 get-started-speech = Empieza hoy mismo con el Reconocimiento de voz
 other-datasets = Otras bases de datos de voces
 feedback-q = ¿Tienes algún comentario?
+# This indicates that there is no data to display
+no-information = Sin información
+community-playbook = Manual de la comunidad
 data-other-librispeech-description = LibriSpeech es un corpus de aproximadamente 1000 horas de inglés hablado a 16KHz derivado de lecturas de audiolibros del proyecto LibriVox.
 data-other-ted-name = Corpus de TED-LIUM
 data-other-ted-description = El corpus de TED-LIUM fue hecho de audios de charlas y de sus transcripciones disponibles en el sitio web de TED
@@ -55,7 +58,10 @@ dataset-version = Versión
 sha256-checksum-copied = ¡Suma de comprobación SHA256 copiada!
 sha256-checksum-copied-error = No se pudo copiar la suma de comprobación SHA256
 clipboard-not-supported = Portapapeles no compatible
+no-information-available = No hay información disponible
 dataset-metadata-sex = Género
+# dataset metadata - age of contributor
+dataset-metadata-age = Edad
 dataset-donate-modal-heading = Sabías que…
 data-download-singleword-title = Descarga el objetivo segmentado de una sola palabra
 data-download-button = Descargar datos de Common Voice
@@ -75,3 +81,6 @@ release-version = Versión
 dataset-date = Fecha
 license = Licencia: <licenseLink>{ $license }</licenseLink>
 license-mixed = Mixta
+# Support old genders in older datasets
+male = Hombre
+female = Mujer
