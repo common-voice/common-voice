@@ -84,3 +84,6 @@ license-mixed = Mixta
 # Support old genders in older datasets
 male = Hombre
 female = Mujer
+# MENU ITEM TOOLTIPS
+download-contribute-menu-tooltip = Descarga nuestros conjuntos de datos de voz
+datasets-show-more = Mostrar todos los conjuntos de datos
