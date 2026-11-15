@@ -71,9 +71,20 @@ variant-contribution-option-1 = 나의 언어에 속하는 모든 변형의 문�
 variant-contribution-option-2 = 나의 변형의 문장과 클립만 보기
 variant-contribution-warning-title = ⓘ 아직 변형 태그가 없는 문장과 클립도 있습니다!
 variant-contribution-warning-subtitle = 기여하는 데 문제가 있으면 언제든 해당 언어의 모든 콘텐츠를 다시 볼 수 있습니다.
+api-credentials-description = Common Voice API를 통해 전 세계 사용자가 기여한 음성 녹음 데이터셋에 접근하세요. 엔드포인트를 통해 고품질 음성 인식으로 애플리케이션을 향상하세요:
+api-credentials-use-case-1 = 오디오 샘플 제출
+api-credentials-use-case-2 = 데이터셋 가져오는 중
+api-credentials-use-case-3 = 음성 모델 분석과 개선하기
+api-credentials-description-conclusion = 음성 기술을 발전시키고 더 많은 사용자 기여를 할 수 있도록 참여하세요.
 create-api-key-button = API 자격 증명 만들기
 your-api-keys = API 자격 증명
 no-api-keys-header = <bold>현재 계정에 연결된 API 자격 증명이 없습니다.</bold>
+no-api-keys-description =
+    첫 번째 API 키를 만드려면 "API 자격 증명 만들기"를 클릭한 다음 이름을
+    지정하고 "개인 정보 생성"을 클릭하여 API 자격 증명과 고유한 API 자격 증명을 생성합니다. 그런 다음, 한 번 만 표시되기 떄문에
+    비밀 키를 바로 복사하세요.
+api-key-name-input =
+    .label = API 자격 증명 이름
 copy-api-credential-error-toast-message = 복사 오류
 # Genders
 male_masculine = 남성
