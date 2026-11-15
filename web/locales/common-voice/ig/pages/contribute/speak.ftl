@@ -3,6 +3,7 @@ speak-now = Kwùó ókwú ụ̀gbú à
 speak-subtitle = Tụnye ụtụ ólú gị́
 record-cta = Bìdó ḿkpọ́nyé
 record-platform-not-supported = Ọ́ dị̀ ḿwúté, à kwádòghị̀ íkpó gị́ kà ọ́ dị̀ úgbú à.
+record-platform-webview = O nwere ike ọ bụrụ na ị ruru ebe a site n'ịpị aka na njikọ ngwa soshul midịa. I na-eji braụza dị n'ime ngwa nke akwadoghi ndekọ odiyo.
 record-platform-not-supported-desktop = Nà ńgwá desktop, Í nwèrè íké ị́tụ̀nyé ókè síté n'íbúdàtà...
 record-platform-not-supported-ios-non-safari = Nà iOS Ị́ nwèrè íké jírí Safari gáá n'íhú síté n'ị́kpọ́nye ǹdékọ́ ólú...
 record-must-allow-microphone = Ị́ gà-kwérírí kà ígwè ókwū gí nwéé òhèrè
