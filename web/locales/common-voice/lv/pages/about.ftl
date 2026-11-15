@@ -117,7 +117,7 @@ about-playbook-how-record-content-5 = <accuracyLink>Skatīt vairāk par pareizī
 
 about-playbook-how-grow-language = Kā mēs varam attīstīt valodu pakalpojumā Common Voice?
 about-playbook-how-grow-language-content-1 = Radot iespējas dažādiem cilvēkiem sniegt ieguldījumu Common Voice, tiek nodrošināts, ka datu kopa apkalpo pēc iespējas vairāk cilvēku. Mēs esam izveidojuši resursus un veidnes, ko varat izmantot!
-about-playbook-how-grow-language-content-2 = Pasākumi
+about-playbook-how-grow-language-content-2 = Notikumi
 about-playbook-how-grow-language-content-3 = Varat rīkot pasākumus, lai mudinātu cilvēkus sniegt savu ieguldījumu. Tas ir vieglāk, nekā jūs domājat. Varat to izdarīt tiešsaistē, izmantojot videokonferenču rīku, vai personīgi, ja tas ir droši. <eventTemplate>Izpētiet mūsu veidnes un resursus, kas paredzēti pasākumu norisei</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Sociālie mēdiji
 about-playbook-how-grow-language-content-5 = Varat izmantot sociālo mediju platformas, lai nosūtītu ziņojumu. Dalieties ar ziņām, kurās paskaidrots, kāpēc tas ir svarīgi, un sazinieties ar cilvēkiem, kas runā par tādām kā valodas tiesības, balss izmantošana mākslīgajos intelektos vai neobjektivitāte tehnoloģiju jomā. Skatiet vairāk padomu par <campaignLink>sociālās kampaņas vadīšanu, tostarp saturu, ko varat izmantot</campaignLink>.
