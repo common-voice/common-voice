@@ -15,6 +15,26 @@ single-sentence-submission = Ntinye otu ahịrịokwu
 small-batch-sentence-submission = Ntinye ahịrịokwu n'obere nkeji ógbè
 bulk-sentence-submission = Ntinye ahịrịokwu na nnukwu ógbè
 single-sentence = Naanị otu
+small-batch-sentence = Obere ogbe
+bulk-sentence = Nnukwu ógbè
+sentence-domain-combobox-label = Ngalaba Ahịrịokwu
+sentence-domain-select-placeholder = Họrọ ngalaba ruru atọ (ma ọ masị gị)
+# Sentence Domain dropdown option
+agriculture_food = Ọrụ Ugbo na Nri
+# Sentence Domain dropdown option
+automotive_transport = Ụgbọala na Njem
+# Sentence Domain dropdown option
+finance = Ego
+# Sentence Domain dropdown option
+service_retail = Ọrụ na Ahịa
+# Sentence Domain dropdown option
+general = Izugbe
+# Sentence Domain dropdown option
+healthcare = Nlekọta ahụike
+# Sentence Domain dropdown option
+history_law_government = Akụkọ ihe mere eme, Iwu na Ọchịchị
+# Sentence Domain dropdown option
+language_fundamentals = Isi Ihe dị Mkpa Gbasara Asụsụ (ọmụmaatụ, Ọnụọgụgụ, Mkpụrụedemede, Ego)
 
 ## BULK SUBMISSION
 
