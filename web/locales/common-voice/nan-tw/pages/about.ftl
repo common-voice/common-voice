@@ -87,7 +87,7 @@ about-playbook-how-localize-content-5 = 請看我們的說明影片
 
 ## How to add sentences
 
-about-playbook-how-add-sentences = 要如何加入句子？
+about-playbook-how-add-sentences = 欲按怎加入句仔？
 about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> 是一套用來收集與驗證公眾領域語句的工具。您要先<scAccountLink>註冊帳號</scAccountLink>，然後將您使用的語言加到<strong>個人資料</strong>中，然後就可以<strong>新增</strong>句子或者<strong>審核</strong>先前新增的句子。
 about-playbook-how-add-sentences-content-2 = 每個句子都必須經過兩個人審核接受才會被加入 Common Voice。您可以<languageGuidelinesLink>在此</languageGuidelinesLink>建立您的語言的審核標準。句子的內容必須使用<licenseLink>公眾領域</licenseLink>授權條款，並且不超過 15 個字。您可以請文字內容的作者或著作權擁有者<waiverLink>以 CC0 條款拋棄著作權</waiverLink>，並且寄到 commonvoice@mozilla.com 給我們即可使用。
 about-playbook-how-add-sentences-content-3 = 您可以使用 <scraperLink>Sentence extractor</scraperLink> 來從維基百科收集短句。
