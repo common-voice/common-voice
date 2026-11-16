@@ -1,11 +1,11 @@
 ## ABOUT US
 
-about-title = 為何會有 Common Voice？
+about-title = 是按怎有仝聲計畫 Common Voice 咧？
 about-header-description-v2 =
     <p>Common Voice 是一套對全世界的社群事工貢獻，會當公開使用的語音資料集，想欲打造語音應用程式的人會當使用這个資料集來訓練機器學習模型。</p>
     <p>這馬大部分的語音資料集攏對扼殺創新的大企業所擁有。各種語音資料集無法度代表無啥代表的有色人種、身心障礙人士、查某人、佮LGBTQI+ 人士。這代表語音技術根本無法度用佇某麼語言，就算會當使用，嘛無一定對逐家都能有仝款好的效果。咱想欲透過動員世界各角落的人主動分享語音的方式，來扭轉這个現象。</p>
-how-does-it-work-title-v2 = Common Voice 的原理是啥？
-how-does-it-work-text = 咱集合眾人的力量，打造開放原始碼的語音資料集。歡迎捐出您的聲音、協助驗證錄音片段是毋是正確的，予資料集會當變較好。
+how-does-it-work-title-v2 = 仝聲計畫 Common Voice 的原理是啥物？
+how-does-it-work-text = 咱集合眾人的力量，打造開放原始碼的語音資料集。歡迎捐出您的聲音、協助驗證錄音片段是毋是正確的，予資料集會當變閣較好。
 
 ## How does it work section
 
@@ -13,7 +13,7 @@ about-language-req-subtitle = 某麼要求加入一種語言。
 about-localization-title = 網站在地化
 about-localization-subtitle = 到 Pontoon 完整翻譯該語言版本。
 about-sentence-collection-title = 收集句子
-about-sentence-collection-subtitle = 收集好會當予人錄音的語句。
+about-sentence-collection-subtitle = 收集好勢會當予人錄音的語句。
 about-new-lang-title = 發布新語言
 about-new-lang-subtitle = 咱會當予這个語言版本的 Common Voice 網站上線。
 about-voice-contrib-title = 貢獻語音
@@ -35,7 +35,7 @@ about-yes-votes = ≥ 2 張「正確」的票
 about-yes-votes-text = 必須經過兩位無仝的使用者確認過，片段才會進入 Common Voice 資料集。
 about-no-votes = ≥ 2 張「無正確」的票
 about-no-votes-text = 若是使用者投落無正確，片段就會轉到排隊。若是予退轉去第二改，片段就會予擲入去回收桶。
-about-dataset-new = Common Voice 資料集
+about-dataset-new = 仝聲計畫 Common Voice 資料集
 about-dataset-new-text = Common Voice 資料集包括數十萬筆語音樣本，會當幫贊開發者打造語音識別家私。
 about-clip-graveyard = 片段回收桶
 about-clip-graveyard-text = 回收桶中包括無法度進入 Common Voice 資料集的語音片段。佮資料集仝款，回收桶內容嘛有提供下載。
@@ -45,7 +45,7 @@ about-get-involved-text-2 =
     無問題！請寄 E-Mail 予咱，嘛會當到 <discourseLink>Discourse</discourseLink>
     討論區留話、透過 <githubLink>GitHub</githubLink> 回報網站問題、
     抑是加入咱的 <matrixLink>Matrix</matrixLink> 社群開講空間。
-about-stay-in-touch = 我欲如何佮恁保持聯絡？
+about-stay-in-touch = 我欲按怎佮恁保持聯絡？
 about-stay-in-touch-button = 注文
 about-stay-in-touch-text-1 = <emailFragment>訂閱</emailFragment>咱的電子批群組，瞭解會當參加佗一个活動、並且鬥陣參與 Common Voice 的功能設計。
 about-stay-in-touch-text-2 = 您會當加入 <discourseLink>Discourse</discourseLink> 來認捌 Mozilla 各各語言社群的成員並且進行對話，抑是加入 <matrixLink>Matrix</matrixLink> 來得著快速的建議。
@@ -83,7 +83,7 @@ about-playbook-how-localize-content-1 = Common Voice 網站的翻譯在 <strong>
 about-playbook-how-localize-content-2 = 若您還沒有的話，請先<pontoonAccountLink>註冊帳號</pontoonAccountLink>。然後選擇要加入的語言<strong>（「團隊」）</strong>，再選擇 <pontoonCvLink>Common Voice</pontoonCvLink> 專案。專案中就會有要翻譯的檔案。任選一個檔案，然後就會顯示每個字串的英文原文，以及輸入譯文的翻譯框。
 about-playbook-how-localize-content-3 = 原則上都是根據英文翻譯，但您可以參考其他語言的<strong>翻譯建議</strong>。可以點擊<strong>個人帳號大頭照</strong>圖示當中的<strong>Settings</strong>連結，加入您會使用的任何語言。點擊右下角的<strong>Locales</strong> 標籤會出現其他語系目前的翻譯內容供您參考。翻譯完成後的隔天我們就會將完成的譯文更新到網站上。
 about-playbook-how-localize-content-4 = 網站翻譯完成度達 75% 時，即可準備上線。
-about-playbook-how-localize-content-5 = 請看我們的說明影片
+about-playbook-how-localize-content-5 = 請看咱的說明影片
 
 ## How to add sentences
 
