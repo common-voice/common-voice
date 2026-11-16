@@ -51,6 +51,8 @@ sentence-variant-select-multiple-variants = Asụsụ izugbe / ọtụtụ ụd�
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Bugo ahịrịokwu <icon></icon> nke ngalaba ọha
+sc-bulk-upload-instruction = Dọrọ faịlụ gị ebe a ma ọ bụ<bugooButton>pịa aka iji bugote</buliteButton>
+sc-bulk-upload-instruction-drop = Debe faịlụ ebe a iji bugote
 try-upload-again-md = Nwàá ibugo ọzọ
 select-file = Họrọ Faịlụ
 select-file-mobile = Họrọ Faịlụ ị ga-ebugo
