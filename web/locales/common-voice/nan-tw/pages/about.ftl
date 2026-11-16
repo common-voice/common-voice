@@ -81,7 +81,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 about-playbook-how-localize = 愛按怎進行網站在地化？
 about-playbook-how-localize-content-1 = Common Voice 網站的翻譯佇 <strong>Pontoon</strong> 進行。
 about-playbook-how-localize-content-2 = 若是您猶未有口座，請先<pontoonAccountLink>注文口座</pontoonAccountLink>。然後選擇欲加入的語言<strong>（「團隊」）</strong>，閣來選擇 <pontoonCvLink>仝聲計畫 Common Voice</pontoonCvLink> 專案。專案中就會有愛翻譯的檔案。任選一个檔案，閣來就會顯示逐个字串的英文原文，猶閣有輸入譯文的翻譯箍仔。
-about-playbook-how-localize-content-3 = 原則上都是根據英文翻譯，但您可以參考其他語言的<strong>翻譯建議</strong>。可以點擊<strong>個人帳號大頭照</strong>圖示當中的<strong>Settings</strong>連結，加入您會使用的任何語言。點擊右下角的<strong>Locales</strong> 標籤會出現其他語系目前的翻譯內容供您參考。翻譯完成後的隔天我們就會將完成的譯文更新到網站上。
+about-playbook-how-localize-content-3 = 通常攏是根據英文來翻譯，毋過您會當參考其他語言的<strong>翻譯建議</strong>。會當揤一下<strong>個人口座的大頭照</strong>圖示當中的<strong>設定</strong>連結，加入您想欲使用的任何語言。揤一个正爿下跤的<strong>在地</strong> 標籤會出現其他語系目前的翻譯內容予恁做參考。翻譯完成了後的隔轉工咱會共完成的譯文更新到網站頂懸。
 about-playbook-how-localize-content-4 = 網站翻譯完成度達 75% 時，即可準備上線。
 about-playbook-how-localize-content-5 = 請看咱的說明影片
 
