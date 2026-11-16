@@ -73,14 +73,14 @@ about-playbook-how-add-language-translating-content-1 = <translateVideoLink>觀�
 about-playbook-how-add-language-translating-content-2 = 咱使用 Mozilla 一套叫作 <pontoonLink>Pontoon</pontoonLink> 的家私進行介面翻譯。Pontoon 已經支援濟濟語言，若是無您使用的語言，會當佇<pontoonRequestLink>請求新增</pontoonRequestLink>。新增語言了後，請<githubRepoLink>到 GitHub 請求加入新的語言</githubRepoLink>，Common Voice 才會當支援。<localizationFragment>若是需閣較濟有關網站介面翻譯的資訊，請揤這个所在</localizationFragment>。
 about-playbook-how-add-language-collecting-sentences-heading = 收集句子
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>觀看咱的 Sentence Collector 使用指南</sentenceCollectorVideo>。
-about-playbook-how-add-language-collecting-sentences-content-2 = 您可以<sentenceCollectorLinkAdd>加入少量的句子</sentenceCollectorLinkAdd>，或是直接<bulkImportDocsLink>透過 Github 大批匯入</bulkImportDocsLink>。請記住所有的句子都必須是 <licenseLink>CC0 或公開領域</licenseLink>作品，或是您自己撰寫的作品。
-about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>了解收集語句的更多資訊</sentenceCollectorFragment>。
+about-playbook-how-add-language-collecting-sentences-content-2 = 您會當<sentenceCollectorLinkAdd>加入少量的句仔</sentenceCollectorLinkAdd>，抑是直接<bulkImportDocsLink>透過 Github 大批匯入</bulkImportDocsLink>。請會記得所有的句仔攏必須是 <licenseLink>CC0 抑是公開領域</licenseLink>的作品，抑是您家己寫落來的作品。
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>了解收集語句的閣較濟資訊</sentenceCollectorFragment>。
 
 ## How does localization work
 
-about-playbook-how-localize = 如何進行網站在地化？
-about-playbook-how-localize-content-1 = Common Voice 網站的翻譯在 <strong>Pontoon</strong> 進行。
-about-playbook-how-localize-content-2 = 若您還沒有的話，請先<pontoonAccountLink>註冊帳號</pontoonAccountLink>。然後選擇要加入的語言<strong>（「團隊」）</strong>，再選擇 <pontoonCvLink>Common Voice</pontoonCvLink> 專案。專案中就會有要翻譯的檔案。任選一個檔案，然後就會顯示每個字串的英文原文，以及輸入譯文的翻譯框。
+about-playbook-how-localize = 愛按怎進行網站在地化？
+about-playbook-how-localize-content-1 = Common Voice 網站的翻譯佇 <strong>Pontoon</strong> 進行。
+about-playbook-how-localize-content-2 = 若是您猶未有口座，請先<pontoonAccountLink>注文口座</pontoonAccountLink>。然後選擇欲加入的語言<strong>（「團隊」）</strong>，閣來選擇 <pontoonCvLink>仝聲計畫 Common Voice</pontoonCvLink> 專案。專案中就會有愛翻譯的檔案。任選一个檔案，閣來就會顯示逐个字串的英文原文，猶閣有輸入譯文的翻譯箍仔。
 about-playbook-how-localize-content-3 = 原則上都是根據英文翻譯，但您可以參考其他語言的<strong>翻譯建議</strong>。可以點擊<strong>個人帳號大頭照</strong>圖示當中的<strong>Settings</strong>連結，加入您會使用的任何語言。點擊右下角的<strong>Locales</strong> 標籤會出現其他語系目前的翻譯內容供您參考。翻譯完成後的隔天我們就會將完成的譯文更新到網站上。
 about-playbook-how-localize-content-4 = 網站翻譯完成度達 75% 時，即可準備上線。
 about-playbook-how-localize-content-5 = 請看咱的說明影片
