@@ -35,9 +35,22 @@ healthcare = Nlekọta ahụike
 history_law_government = Akụkọ ihe mere eme, Iwu na Ọchịchị
 # Sentence Domain dropdown option
 language_fundamentals = Isi Ihe dị Mkpa Gbasara Asụsụ (ọmụmaatụ, Ọnụọgụgụ, Mkpụrụedemede, Ego)
+# Sentence Domain dropdown option
+media_entertainment = Mgbasa Ozi na Ịkpa Obi Ụtọ
+# Sentence Domain dropdown option
+nature_environment = Okike na Gburugburu Ebe Obibi
+# Sentence Domain dropdown option
+news_current_affairs = Akụkọ Ụwa na Ihe Ndị Na-eme Ugbu A
+# Sentence Domain dropdown option
+technology_robotics = Teknụzụ na Robọtik
+sentence-variant-select-label = Ụdị Ahịrịokwu
+sentence-variant-select-placeholder = Họrọ otu ụdị (ma ọ masị gị)
+sentence-variant-select-multiple-variants = Asụsụ izugbe / ọtụtụ ụdịdị dị iche iche
 
 ## BULK SUBMISSION
 
+# <icon></icon> will be replaced with an icon that represents upload
+sc-bulk-upload-header = Bugo ahịrịokwu <icon></icon> nke ngalaba ọha
 try-upload-again-md = Nwàá ibugo ọzọ
 select-file = Họrọ Faịlụ
 select-file-mobile = Họrọ Faịlụ ị ga-ebugo
