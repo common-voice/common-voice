@@ -8,6 +8,13 @@ new-sentence-rule-7 = Tinye ntụaka kwesịrị ekwesị
 new-sentence-rule-8 = N'ụzọ kacha mma ịdị ka chi siri kee ya na n'usoro mkparịta ụka (ọ ga-adị mfe ịgụ ahịrịokwu ahụ)
 login-instruction-multiple-sentences = <loginLink>Banye</loginLink> ma ọ bụ <loginLink>debanye aha</loginLink> iji tinye ọtụtụ ahịrịokwu
 how-to-cite = Kedu ka m ga-esi tụje aka?
+add-sentence-success = A chịkọtala otu ahịrịokwu
+add-sentence-error = Njehie n'itinye ahịrịokwu
+required-field = Biko dejupụta oghere a
+single-sentence-submission = Ntinye otu ahịrịokwu
+small-batch-sentence-submission = Ntinye ahịrịokwu n'obere nkeji ógbè
+bulk-sentence-submission = Ntinye ahịrịokwu na nnukwu ógbè
+single-sentence = Naanị otu
 
 ## BULK SUBMISSION
 
