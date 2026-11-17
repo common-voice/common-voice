@@ -89,16 +89,16 @@ about-playbook-how-localize-content-5 = 請看咱的說明影片
 
 about-playbook-how-add-sentences = 欲按怎加入句仔？
 about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> 是一套用來收集佮驗證公眾領域語句的家私。您愛先<scAccountLink>注文口座</scAccountLink>，閣來將您使用的語言加到<strong>個人資料</strong>當中，閣來就會當<strong>新增</strong>句仔抑是<strong>審核</strong>進前新增的句仔。
-about-playbook-how-add-sentences-content-2 = 每個句子都必須經過兩個人審核接受才會被加入 Common Voice。您可以<languageGuidelinesLink>在此</languageGuidelinesLink>建立您的語言的審核標準。句子的內容必須使用<licenseLink>公眾領域</licenseLink>授權條款，並且不超過 15 個字。您可以請文字內容的作者或著作權擁有者<waiverLink>以 CC0 條款拋棄著作權</waiverLink>，並且寄到 commonvoice@mozilla.com 給我們即可使用。
-about-playbook-how-add-sentences-content-3 = 您可以使用 <scraperLink>Sentence extractor</scraperLink> 來從維基百科收集短句。
+about-playbook-how-add-sentences-content-2 = 逐个句仔攏需要經過兩个人來審核接受了後才會予加入 Common Voice。您會當<languageGuidelinesLink>在此</languageGuidelinesLink>建立您的語言的審核標準。句仔的內容必須使用<licenseLink>公眾領域</licenseLink>授權條款，並且袂當超過 15 个字。您會當請文字內容的作者抑是著作權擁有者<waiverLink>以 CC0 條款拋棄著作權</waiverLink>，並且寄批到 commonvoice@mozilla.com 予咱就會當使用矣。
+about-playbook-how-add-sentences-content-3 = 你會當使用 <scraperLink>Sentence extractor</scraperLink> 來對維基百科收集短的落句。
 
 ## How to record quality
 
-about-playbook-how-record-quality = 要如何錄下高品質的語音片段？
-about-playbook-how-record-content-1 = 用最您最習慣的方式說話！不論您操哪種腔調，我們都希望您用最習慣的說話音量、方式、抑揚頓挫來錄音。
-about-playbook-how-record-content-2 = 避免太吵雜的背景噪音，應該要很容易就能聽到您的聲音。
-about-playbook-how-record-content-3 = 小心閱讀句子，別讀錯、改字或加減字。
-about-playbook-how-record-content-4 = 確定錄音開始了再說話，說完了再停止錄音。
+about-playbook-how-record-quality = 欲按怎共語音片段錄較高品質？
+about-playbook-how-record-content-1 = 使用你上習慣的方式來講話！不論你是講佗一个腔口，咱攏向望你使用上習慣的講話聲音大細、方式、壓升謄轉來錄音。
+about-playbook-how-record-content-2 = 避免傷吵的背景噪音，應該愛真簡單就會使聽著你的聲音。
+about-playbook-how-record-content-3 = 小心閱讀落句，莫讀毋著、改字抑是加減字。
+about-playbook-how-record-content-4 = 確定錄音開始了後閣來講話，講紲了後閣停止錄音。
 about-playbook-how-record-content-5 = <accuracyLink>看更多有關準確度的判斷標準。</accuracyLink>
 
 ## How to grow language
