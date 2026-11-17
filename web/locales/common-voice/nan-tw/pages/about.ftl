@@ -99,11 +99,11 @@ about-playbook-how-record-content-1 = 使用你上習慣的方式來講話！不
 about-playbook-how-record-content-2 = 避免傷吵的背景噪音，應該愛真簡單就會使聽著你的聲音。
 about-playbook-how-record-content-3 = 小心閱讀落句，莫讀毋著、改字抑是加減字。
 about-playbook-how-record-content-4 = 確定錄音開始了後閣來講話，講紲了後閣停止錄音。
-about-playbook-how-record-content-5 = <accuracyLink>看更多有關準確度的判斷標準。</accuracyLink>
+about-playbook-how-record-content-5 = <accuracyLink>看閣較濟有關準確度的判斷標準。</accuracyLink>
 
 ## How to grow language
 
-about-playbook-how-grow-language = 我們如何有效地在 Common Voice 發展一套語言？
+about-playbook-how-grow-language = 咱按怎有效果佇咧 Common Voice 發展一套語言？
 about-playbook-how-grow-language-content-1 = 讓廣泛的人們都有 Common Voice 的貢獻機會，能確保產出的資料集可被更多數人所用。我們已經預先建立了一些資源與範本供您使用！
 about-playbook-how-grow-language-content-2 = 活動
 about-playbook-how-grow-language-content-3 = 您可以辦活動，幫助人們參與貢獻。不論是透過線上的視訊會議舉辦，或是現場舉辦（安全的話），這件事絕對比您想得還容易。<eventTemplate>可點擊此處參考我們的活動範例與輔助資源</eventTemplate>。
