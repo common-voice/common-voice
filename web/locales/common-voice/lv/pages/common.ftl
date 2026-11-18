@@ -210,6 +210,7 @@ led = Lendu
 leu = Kara
 lg = Luganda
 lij = Ligūru
+lir = Kolokva
 lke = Kenyi
 lld = Ladin
 ln = Lingalas
