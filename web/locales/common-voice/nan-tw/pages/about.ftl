@@ -80,7 +80,7 @@ about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollec
 
 about-playbook-how-localize = 愛按怎進行網站在地化？
 about-playbook-how-localize-content-1 = 仝聲計畫 Common Voice 網站的翻譯佇 <strong>Pontoon</strong> 進行。
-about-playbook-how-localize-content-2 = 若是您猶未有口座，請先<pontoonAccountLink>注文口座</pontoonAccountLink>。然後選擇欲加入的語言<strong>（「團隊」）</strong>，閣來選擇 <pontoonCvLink>仝聲計畫 Common Voice</pontoonCvLink> 專案。專案中就會有愛翻譯的檔案。任選一个檔案，閣來就會顯示逐个字串的英文原文，猶閣有輸入譯文的翻譯箍仔。
+about-playbook-how-localize-content-2 = 若是您猶未有口座，請先<pontoonAccountLink>注文口座</pontoonAccountLink>。閣來選擇欲加入的語言<strong>（「團隊」）</strong>，閣來選擇 <pontoonCvLink>仝聲計畫 Common Voice</pontoonCvLink> 專案。專案中就會有愛翻譯的檔案。任選一个檔案，閣來就會顯示逐个字串的英文原文，猶閣有輸入譯文的翻譯箍仔。
 about-playbook-how-localize-content-3 = 通常攏是根據英文來翻譯，毋過您會當參考其他語言的<strong>翻譯建議</strong>。會當揤一下<strong>個人口座的大頭照</strong>圖示當中的<strong>設定</strong>連結，加入您想欲使用的任何語言。揤一个正爿下跤的<strong>在地</strong> 標籤會出現其他語系目前的翻譯內容予恁做參考。翻譯完成了後的隔轉工咱會共完成的譯文更新到網站頂懸。
 about-playbook-how-localize-content-4 = 網站翻譯的完成度到 75% 的時，才會當準備上線矣。
 about-playbook-how-localize-content-5 = 請看咱的說明影片
@@ -104,7 +104,7 @@ about-playbook-how-record-content-5 = <accuracyLink>看閣較濟有關準確度�
 ## How to grow language
 
 about-playbook-how-grow-language = 咱按怎有效果佇咧 Common Voice 發展一套語言？
-about-playbook-how-grow-language-content-1 = 讓廣泛的人們都有 Common Voice 的貢獻機會，能確保產出的資料集可被更多數人所用。我們已經預先建立了一些資源與範本供您使用！
+about-playbook-how-grow-language-content-1 = 予各樣的人攏會使佇咧 Common Voice 貢獻的機會，會當確保產出的資料集會當予閣較濟人來利用。咱已經預先建立一寡資源佮範本予您使用！
 about-playbook-how-grow-language-content-2 = 活動
 about-playbook-how-grow-language-content-3 = 您可以辦活動，幫助人們參與貢獻。不論是透過線上的視訊會議舉辦，或是現場舉辦（安全的話），這件事絕對比您想得還容易。<eventTemplate>可點擊此處參考我們的活動範例與輔助資源</eventTemplate>。
 about-playbook-how-grow-language-content-4 = 社群網路
