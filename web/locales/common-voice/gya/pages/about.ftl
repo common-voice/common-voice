@@ -1,6 +1,9 @@
 ## ABOUT US
 
 about-title = Common Voice wěn ge?
+about-header-description-v2 =
+    <p>Commɔn Voice nɛ fara moi ti-gɛr wen leŋ, nɛ tom sɔɔ gee nɛ dɔkaa bii zu nu leŋ de. O bii nɛ kɔ̧ mɛ de tom nɛ nɛ, nyɛma mɛ kai, mɛ yambi nu na wa kɔ̧ ha̧ o mɔɔ de tom kɔʼa̧.</p>
+    <p>Fara nɛ tɔ̧ wenʼi̧, dikin o ti-gɛr nɛ wen o gasa fara de tom ti-gɛr, ɓɛɛ haɗi nɛ tom nɛa siti wen o ti-gɛr bii nɛ tɔ̧ nu bu wii na, o tu̧ wii, o wii kum, o okoo in o LGBTQIA+. Moi usi he nɛ, o wii de tom ti-gɛr de tom wen dɔkaa nu na. O ŋma de nɛ dea na wen bii leŋ na. Ɛɛ kɔ̧ mɛ kpai mɔʼi, ɓɛɛ ɛɛ pii nɛ sara ha o bii zu nu leŋ, ɛnɛ tɛ ba ti-gɛr nɛ.</p>
 how-does-it-work-title-v2 = Common Voice déé tom héé ge?
 
 ## How does it work section

@@ -40,8 +40,8 @@
     "webpack": "5.104.1"
   },
   "devDependencies": {
-    "@babel/core": "7.29.6",
-    "@babel/preset-env": "7.28.5",
+    "@babel/core": "7.29.13",
+    "@babel/preset-env": "7.29.7",
     "@faker-js/faker": "8.4.1",
     "@peculiar/webcrypto": "1.5.0",
     "@testing-library/react": "12.1.5",
@@ -80,7 +80,7 @@
     "jest-svg-transformer": "1.0.0",
     "jest-transform-stub": "2.0.0",
     "mini-css-extract-plugin": "2.6.0",
-    "postcss": "8.5.23",
+    "postcss": "8.5.32",
     "postcss-color-mod-function": "3.0.3",
     "postcss-custom-media": "7.0.8",
     "postcss-import": "14.1.0",

@@ -138,7 +138,7 @@ offensive-content-sensitive-information-explanation-explanation-2 = Jautājumi, 
 offensive-content-sensitive-information-explanation-explanation-3 = Jautājumi, kas kādam varētu likt izpaust jūtīgas, iespējami aizkaitinošas atbildes
 example-questions-subheader = Jautājumu piemēri
 example-questions-explanation-1 = Šajā lapā varat atrast <examplePromptsLink>120 jautājumu piemērus.</examplePromptsLink>
-example-questions-explanation-2 = Ja vēlaties pievienot lielāku jautājumu kopu, to var <githubLink>izdarīt mūsu GitHub</githubLink> vai sūtot epastu uz <emailFragment>commonvoice@mozilla.com.</emailFragment>
+example-questions-explanation-2 = Ja vēlies iesniegt lielāku jautājumu kopu, to var <githubLink>izdarīt mūsu GitHub</githubLink> vai sūtot e-pastā uz <emailFragment>commonvoice@mozilla.com.</emailFragment>
 
 ## Spontaneous Speech sidebar content
 
@@ -160,7 +160,7 @@ transcribe-the-audio-subheader-2 = Skaitļi un saīsinājumi
 transcribe-the-audio-subheader-3 = Īpašas birkas
 transcribe-the-audio-subheader-4 = Vārdu segmenti, kļūdaini sākti vārdi, atkārtoti vārdi
 transcribe-the-audio-subheader-5 = Gramatiskās kļūdas un sarunvalodas vārdi
-transcribe-the-audio-subheader-1-explanation = Kopumā vajadzētu pierakstīt visu, ko dzirdi. Tas ietver:
+transcribe-the-audio-subheader-1-explanation = Kopumā vajadzētu pierakstīt visu, kas ir dzirdams. Tas ietver:
 transcribe-the-audio-subheader-1-explanation-example-1 = Sarežģītu vārdu, tostarp vilcināšanās un atkārtojumu, pierakstīšana
 transcribe-the-audio-subheader-1-explanation-example-2 = Trokšņu, piemēram, klepus vai smiešanās, marķēšana
 transcribe-the-audio-subheader-1-explanation-example-3 = Būtiska trokšņa piesārņojuma, piemēram, fona pļāpāšanas vai automašīnu signālu, marķēšana
@@ -209,7 +209,7 @@ transcribe-the-audio-subheader-5-explanation-2 = Runātāji var lietot sarunvalo
 
 review-the-transcription = Pārskatīt transkripciju
 review-the-transcription-subheader = Vispārīgi norādījumi
-review-the-transcription-explanation-1 = Kopumā mēs iesakām, lai persona, kas pārbauda transkripciju, nebūtu tā pati persona, kas veica oriģinālo transkripciju. Ir ļoti grūti pašam pārbaudīt savu darbu! Vairāku recenzēšanas līniju esamība var palīdzēt uzlabot kvalitātes nodrošināšanu un mazināt aizspriedumus un problēmas.
+review-the-transcription-explanation-1 = Kopumā mēs iesakām, ka cilvēks, kas pārbauda transkripciju, nebūtu tas pats cilvēks, kas veica sākotnējo pierakstīšanu. Ir ļoti grūti pašam pārbaudīt savu darbu. Vairāku izskatīšanas līniju esamība var palīdzēt uzlabot kvalitātes nodrošināšanu un mazināt aizspriedumus un nepilnības.
 review-the-transcription-explanation-2 = Pārskati augstāk esošās transkripcijas vadlīnijas, lai pārliecinātos, ka transkripcija ir pareiza. Ir iespējams veikt labojumus un iesniegt tos.
 review-the-transcription-explanation-3 = Atkal jūs varat atzīmēt saturu, kas ir aizskarošs, kaitīgs vai citādi satraucošs, un tas tiks noņemts no jūsu pieredzes, līdz Common Voice komanda to pārskatīs un veiks tālāku izmeklēšanu.
 

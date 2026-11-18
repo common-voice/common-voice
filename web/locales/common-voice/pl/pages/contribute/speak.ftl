@@ -42,6 +42,7 @@ why-donate = Dlaczego pytasz?
 add-information-button = Dodaj informacje
 continue-speaking-button = Nie, dziękuję. Kontynuuj mówienie.
 first-cta-gender-select-default-option = Wybierz opcję
+already-have-an-account = Masz już konto? <login>Zaloguj się</login>
 create-profile-button = Utwórz profil
 # menu item
 read-sentences = Przeczytaj zdania

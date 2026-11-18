@@ -307,6 +307,7 @@ pl = Polština
 plk = Kohistani Shina
 pne = Západní Penam
 prq = Asheninka Perene
+prs = Dari
 ps = Paštština
 pt = Portugalština
 pua = Western Highland Purepecha

@@ -12,7 +12,7 @@ wall-of-text-first = Balss ir dabiska, balss ir cilvēciska. Tieši tāpēc mēs
 wall-of-text-second = Lielākā daļa datu, ko izmanto lielie uzņēmumi, nav pieejami visiem cilvēkiem. Tas kavē inovāciju. Tāpēc mēs esam uzsākuši Common Voice - projektu, kas padarīs balss atpazīšanu pieejamu ikvienam.
 show-wall-of-text = Lasīt vairāk
 help-us-title = Palīdziet pārbaudīt teikumus!
-help-us-explain = Nospiediet atskaņošanas pogu, klausieties un pārbaudiet, vai zemāk norādītais teikums ir izrunāts precīzi.
+help-us-explain = Nospied atskaņošanas pogu, klausies un pārbaudi, vai zemāk norādītais teikums ir izrunāts pareizi!
 no-clips-to-validate = Izskatās, ka šajā valodā nav neviena skaņas ieraksta. Palīdzi mums ar dažu ierakstīšanu tagad!
 toggle-play-tooltip = Nospiediet { shortcut-play-toggle }, lai pārslēgtu atskaņošanas režīmu
 speak-paragraph = Lai mūsu valoda iekārtu laikmetā neizzustu, mums jāieraksta savas balsis; daži teiktu, ka tas ir arī jautri.
@@ -58,7 +58,7 @@ improve-audio = Profila informācija uzlabo audio ierakstu datus, ko izmanto run
 keep-track = Sekojiet līdzi savam progresam un datiem vairākās valodās.
 compare-progress = Skatiet, kā jūsu progress ir salīdzināms ar citiem ieguldītājiem visā pasaulē.
 view-goals = Skatiet savu progresu pret personiskajiem un projekta mērķiem.
-join-newsletter = Ja vēlaties, pievienojieties mūsu e-pasta adresātu sarakstam, lai saņemtu projekta jaunumus un informāciju par projektu.
+join-newsletter = Ja vēlies, pievienojies mūsu e-pasta sarakstam atjauninājumu un informācijas par projekta saņemšanai!
 
 ## What's public
 
@@ -93,7 +93,7 @@ spontaneous-speech = SPONTĀNĀ RUNA
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = Partnerības, prese un stāsti, kopiena un valodas
-about-us-menu-item-tooltip = Uzziniet par Common Voice misiju un komandu
+about-us-menu-item-tooltip = Uzzini par Common Voice mērķi un komandu
 partnerships-menu-item-tooltip = Izpēti apvienības, kas pasaulē atbalsta Common Voice
 press-and-stories-menu-item-tooltip = Lasi stāstus, atjauninājumus un mediju segumu par Common Voice
 community-and-languages-menu-item-tooltip = Atklājiet valodas, kopienas un kopīgo balsi
@@ -103,7 +103,7 @@ community-and-languages-menu-item-tooltip = Atklājiet valodas, kopienas un kop�
 about-menu-aria-label = Izvēlne, lai piekļūtu sadaļām Partnerības, Prese un stāsti, Kopiena un Valodas
 about-us-menu-aria-label = Par iespēju izvēlni
 about-us-menu-item-aria-label = Par mums izvēlne
-partnerships-menu-item-aria-label = Uzziniet par partnerattiecībām ar Common Voice
+partnerships-menu-item-aria-label = Uzzini par sadarbību ar Common Voice
 press-and-stories-menu-item-aria-label = Piekļūstiet preses relīzēm un stāstiem, kas saistīti ar Common Voice
 community-and-languages-menu-item-aria-label = Izpētiet Common Voice atbalstīto kopienu un valodas
 

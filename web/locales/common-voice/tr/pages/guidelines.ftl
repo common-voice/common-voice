@@ -174,6 +174,8 @@ transcribe-the-audio-subheader-2-example-1-wrong = <wrong>Yanlış</wrong>: Bura
 transcribe-the-audio-subheader-2-example-2-correct = <correct> Doğru</correct>: <underline>İki bin on beşte</underline> görüşürüz
 # text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
 transcribe-the-audio-subheader-2-example-2-wrong = <wrong>Yanlış</wrong>: <underline>2015’te</underline> görüşürüz
+transcribe-the-audio-subheader-2-example-3-correct = <correct>Doğru</correct>: Yüzde yirmi indirim vardı
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>Yanlış</wrong>: %20 indirim vardı
 tags-table-header-1 = Etiket
 tags-table-header-2 = Anlam
 tags-laugh = Gülme

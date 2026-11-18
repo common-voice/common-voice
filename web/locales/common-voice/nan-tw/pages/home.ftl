@@ -42,6 +42,7 @@ x-years-short =
     }
 help-make-dataset = 共咱鬥相工打造高品質、會當公開使用的資料集
 sign-up-account = 開新口座
+email-subscription-title-v3 = 注文來收著仝聲計畫佮 Mozilla 基金會的消息
 
 ## Account Benefits
 
@@ -93,6 +94,7 @@ community-and-languages-menu-item-tooltip = 探索語言、社群佮 Common Voic
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = 合作夥伴、媒體佮故事、社群佮語言的選單
 about-us-menu-aria-label = 關於選項選單
 about-us-menu-item-aria-label = 關於咱的選單
 partnerships-menu-item-aria-label = 了解如何佮 Common Voic變成夥伴
@@ -124,11 +126,16 @@ answer = 答案
 
 ## Community section
 
+community-section-title-202601 = 由全球社群騙動，為著全球社群 - 290 个語言佮𪜶的成長！
 join-discord-community = 加入 Discord 社群
 # label for button
 join-discord-community-action = 佇 Discord 加入咱的討論區
 join-discord-community-content = 加入語言社群討論、問問題，佮知影未來的活動佮演講。
 find-us-on-matrix = 咱的 Matrix
+find-us-on-matrix-content-v2 = Matrix 是開放、輕量予去中心化、即時的通訊協定，嘛是 Mozilla 較佮意的開放討論平台。咱佇 "common-voice:mozilla.org" 房間。
+# label for button
+find-us-on-element-action-1 = 元素
+find-us-on-matrix-action-2 = 其他客戶端
 ask-mozilla-share = 問 Mozilla 來分享你的活動
 ask-mozilla-share-content = 進前抑是欲辦活動無？佮咱分享，咱會當公告予社群的朋友知影，嘛會當寫部落格文章推捒！
 # label for button
@@ -152,6 +159,8 @@ download-press-pack = 下載咱的媒體包裹<icon></icon>
 
 ## Developers section
 
+developers-section-title-202608 = 公開予逐家用的，有 330+ 語言的開放講話內容資料集
+developers-section-subtitle-v2 = 會當用佇咧 ASR 佮其他 NLP 技術 - 用社群參與的方式來產生。
 # icon is an arrow that points to the right
 explore-datasets = 瀏覽資料集<icon></icon>
 

@@ -40,6 +40,7 @@ x-years-short =
     }
 help-make-dataset = 幫助我們打造高品質、可公開使用的資料集
 sign-up-account = 註冊帳號
+email-subscription-title-v3 = 訂閱 Common Voice 與 Mozilla Foundation 最新消息
 
 ## Account Benefits
 
@@ -73,19 +74,27 @@ read-more-about = 到我們的「關於」頁面了解更多資訊
 answer-questions = 回答問題 <small>(近期推出)</small>
 review-transcriptions = 審核轉錄 <small>即將推出</small>
 add-questions = 新增問題 <small>(近期推出)</small>
+review-questions = 審核問題
 transcribe-audio = 轉錄語音 <small>(近期推出)</small>
 press-and-stories = 媒體與故事
 community-and-languages = 社群與語言
+about-us = 關於我們
+scripted-speech = 轉錄錄音
+spontaneous-speech = 自發性演說
 
 ## MENU ITEMS TOOLTIPS
 
 about-menu-tooltip = 合作夥伴、媒體與故事、社群與語言
+about-us-menu-item-tooltip = 了解 Common Voice 背後的使命與團隊
 partnerships-menu-item-tooltip = 成為夥伴
 press-and-stories-menu-item-tooltip = 前往我們的部落格或撰寫我們的故事
 community-and-languages-menu-item-tooltip = 探索語言、社群以及 Common Voice
 
 ## MENU ITEM ARIA LABELS
 
+about-menu-aria-label = 合作夥伴、媒體與故事、社群與語言的選單
+about-us-menu-aria-label = 關於選項選單
+about-us-menu-item-aria-label = 關於我們選項選單
 partnerships-menu-item-aria-label = 了解如何與 Common Voice 成為合作夥伴
 press-and-stories-menu-item-aria-label = 取得 Common Voice 的新聞稿與故事
 community-and-languages-menu-item-aria-label = 探索 Common Voice 支援的社群和語言
@@ -111,14 +120,20 @@ language-text-card-header = 語言文本
 language-text-card-content = 為翻譯、小型語言模型等應用，建立或分享公眾領域授權的問題、句子、及文本。
 coming-soon = 即將推出
 add-text = 添加文本
+answer = 回答
 
 ## Community section
 
+community-section-title-202601 = 由全球社群驅動，為了全球社群而估—超過290種語言並且持續成長！
 join-discord-community = 加入 Discord 社群
 # label for button
 join-discord-community-action = 在 Discord 上加入我們
 join-discord-community-content = 參與語言社群的討論、詢問問題，並了解即將舉辦的活動與會談。
 find-us-on-matrix = 在 Matrix 上尋找我們
+find-us-on-matrix-content-v2 = Matrix 是去中心化、即時通訊的開源、輕量級的通訊協議，為 Mozilla 偏好的開放討論園區。我們的房間是 "common-voice:mozilla.org"。
+# label for button
+find-us-on-element-action-1 = 元素
+find-us-on-matrix-action-2 = 其他客戶
 ask-mozilla-share = 通知 Mozilla 分享你的活動
 ask-mozilla-share-content = 舉辦了什麼活動，或者有計劃中的活動嗎？請告訴我們，我們會通知社群，或者寫篇部落格來與分享給大家！
 # label for button
@@ -140,6 +155,8 @@ download-press-pack = 下載我們的宣傳資料 <icon></icon>
 
 ## Developers section
 
+developers-section-title-202608 = 公開可用超過330種語言的開放語音資料集
+developers-section-subtitle-v2 = 為自動語音辨識以及其他自然語言處理而生的資料集 - 經由社群催生的資料集。
 # icon is an arrow that points to the right
 explore-datasets = 瀏覽資料集 <icon></icon>
 

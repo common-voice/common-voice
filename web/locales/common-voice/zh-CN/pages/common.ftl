@@ -46,6 +46,7 @@ bnm = Batanga 语
 bnn = 布农语
 bo = 藏语
 br = 布列塔尼语
+brh = 布拉灰语
 bri = 莫普维语
 bs = 波斯尼亚语
 bsh = 卡提维里语
@@ -266,6 +267,7 @@ so = 索马里语
 sq = 阿尔巴尼亚语
 sr = 塞尔维亚语
 ss = 斯威士兰语
+ssi = 桑西语
 st = 南索托语
 su = 巽他语
 sv-SE = 瑞典语
@@ -378,6 +380,11 @@ announcement-mdc-text = <strong>新的 Common Voice 数据集</strong>现由我�
 announcement-mdc-button-text = 加入 Mozilla Data Collective
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = 新建标签页打开
+
+## Release Commencing
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-commencing = 亲爱的社区朋友们，发布截止日期已到，我们正在打包所有数据集。新版本将在几天内发布到<mdcLink>Mozilla Data Collective</mdcLink> 上以供使用。
 
 ## Common Language/Dataset Selector & SearchBox Related
 

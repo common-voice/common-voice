@@ -307,6 +307,7 @@ pl = Polonais
 plk = Shina du Kohistani
 pne = Punan occidental
 prq = Ashéninka perené
+prs = Dari
 ps = Pachto
 pt = Portugais
 pua = Purépecha des montagnes de l’Ouest

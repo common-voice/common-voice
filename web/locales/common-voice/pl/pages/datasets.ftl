@@ -60,11 +60,18 @@ ready-to-validate = Chcesz rozpocząć sprawdzanie zdań?
 more = Więcej
 download = Pobierz
 dataset-version = Wersja
+sha256-checksum-copied = Skopiowano sumę kontrolną SHA256!
+sha256-checksum-copied-error = Skopiowanie sumy kontrolnej SHA256 się nie powiodło
+clipboard-not-supported = Brak obsługi schowka
+no-information-available = Brak dostępnych informacji
 dataset-metadata-sex = Płeć
 # dataset metadata - age of contributor
 dataset-metadata-age = Wiek
 donate-modal-message = Trwa pobieranie zestawu danych!
 dataset-donate-modal-heading = Czy wiesz, że…
+donate-modal-explanation-1 = Czy wiesz, że utrzymanie zbiorów danych i rozwój platformy dla ponad 100 społeczności językowych, które korzystają z efektów naszej pracy, kosztuje niemal milion dolarów rocznie?
+# Text in <bold></bold> will shown in bold
+donate-modal-explanation-2 = <bold>Jeśli cenisz otwarte dane dostępne dla wszystkich – wesprzyj nas już dziś!</bold>
 data-download-singleword-title = Pobierz segment docelowy dla pojedynczego słowa
 data-download-singleword-callout-v2 = To segment przeznaczony do konkretnego użytku, zawierający dane wspomagające rozpoznawanie wymawianych cyfr i wykrywanie tak/nie.
 data-download-button = Pobierz dane Common Voice

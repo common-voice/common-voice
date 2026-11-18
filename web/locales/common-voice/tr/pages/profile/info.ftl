@@ -71,6 +71,7 @@ variant-contribution-option-1 = Dilimdeki tüm lehçelerin cümlelerini ve ses k
 variant-contribution-option-2 = Yalnızca benim lehçemdeki cümleleri ve ses kayıtlarını göster
 variant-contribution-warning-title = ⓘ Henüz bazı cümlelerde ve ses kayıtlarında lehçe etiketi yok!
 variant-contribution-warning-subtitle = Katkıda bulunurken sorun yaşıyorsanız dilinizdeki tüm içerikleri görme seçeneğine geri dönebilirsiniz.
+api-credentials-description = Common Voice API ile kullanıcıların katkıda bulunduğu ses kayıtlarından oluşan küresel bir veri kümesine erişebilirsiniz. Aşağıdaki amaçlara yönelik uç noktaları kullanarak uygulamalarınıza yüksek kaliteli konuşma tanıma özellikleri kazandırabilirsiniz:
 api-credentials-use-case-1 = Ses örnekleri gönderme
 api-credentials-use-case-2 = Veri kümelerini alma
 api-credentials-use-case-3 = Konuşma modellerini analiz etme ve iyileştirme

@@ -46,3 +46,9 @@ language-search-placeholder = 撨濟一个語言…
 language-search-aria-label = 撨濟一个語言
 language-search-label = 干焦改變資料集的貢獻語言
 language-search-no-results = 無揣著語言
+
+## Transcription Player Controls - Keyboard Shortcuts
+
+# Player control shortcut to go forwards 5 seconds: pressed with Ctrl/Cmd
+player-skip-forward-shortcut = 9
+player-skip-forward-shortcut-key = Ctrl / Cmd + 9

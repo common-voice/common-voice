@@ -307,6 +307,7 @@ pl = Poľština
 plk = Kohistiánska Šina
 pne = Západný Penan
 prq = Ašeninka Perene
+prs = Daríjčina
 ps = Paštčina
 pt = Portugalčina
 pua = Západná vysočina Purepecha
