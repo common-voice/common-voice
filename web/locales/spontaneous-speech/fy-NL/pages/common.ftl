@@ -9,7 +9,7 @@ platform-language = Platfoarmtaal:
 platform-language-tooltip-text = Wiziget allinnich websitetekst.
 # Label for contribution switcher on contribution pages, $language represents the current language the user is contributing to
 # Text wrapped in <strong></strong> will be shown in bold
-contribution-picker-label = Bydrage oan gegevensset foar { $language }
+contribution-picker-label = Bydrage oan gegevensset foar it { $language }
 contribution-picker-tooltip-text = Wiziget de taalgegevensset wêroan jo bydrage
 coming-soon = Mear talen folgje ynkoarten
 media-recorder-api-not-supported = De MediaRecorde-API wurdt net stipe yn jo browser.

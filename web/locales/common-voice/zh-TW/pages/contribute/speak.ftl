@@ -3,6 +3,8 @@ speak-now = 請說話
 speak-subtitle = 捐出你的聲音
 record-cta = 開始錄音
 record-platform-not-supported = 很抱歉，目前暫不支援您的平台。
+record-platform-webview = 您可能是點擊社群媒體應用程式中的連結來到這裡。目前使用的應用程式內部瀏覽器不支援錄音功能。
+record-platform-not-supported-webview = 在行動裝置上您可以使用系統瀏覽器進行貢獻…
 record-platform-not-supported-desktop = 在桌上型電腦，您可以下載最新版的:
 record-platform-not-supported-ios-non-safari = 在 iOS 平台，請繼續前往 Safari 開啟錄音功能…
 record-must-allow-microphone = 您必須允許使用麥克風。
@@ -10,6 +12,14 @@ record-no-mic-found = 找不到麥克風
 record-error-too-short = 錄音太短了。
 record-error-too-long = 錄音太長了。
 record-error-too-quiet = 錄音太小聲了。
+record-error-empty-recording = 未錄到任何音訊。請檢查麥克風後再試一次。
+record-error-unknown-format = 無法確定音訊格式。請試著使用不同的瀏覽器。
+record-error-uploaded-clip-corrupted =
+    您的錄音看來已毀損。發生這種情況的原因可能是:
+    • 瀏覽器相容性問題請嘗試使用其他瀏覽器
+    • 麥克風或音訊驅動程式問題
+    • 錄音過程中網路中斷
+    請再試一次。
 record-cancel = 取消重新錄音
 record-instruction = { $actionType } <recordIcon></recordIcon> 然後大聲說出句子
 record-stop-instruction = 完成後{ $actionType } <stopIcon></stopIcon>

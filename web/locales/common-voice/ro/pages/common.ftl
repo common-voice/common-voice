@@ -307,6 +307,7 @@ pl = Poloneză
 plk = Shina Kohistani
 pne = Penan occidentală
 prq = Așeninka Perene
+prs = Dari
 ps = Paștună
 pt = Portugheză
 pua = Purépecha din zonele înalte de vest

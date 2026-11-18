@@ -12,7 +12,7 @@ awards = Apbalvojumi
 you = Jūs
 everyone = Citi
 contribution-activity = Līdzdarbība
-top-contributors = Aktīvākie dalībnieki
+top-contributors = Čaklākie līdzdalībnieki
 recorded-clips = Ierakstītie ieraksti
 validated-clips = Pārbaudītie ieraksti
 total-approved = Kopā apstiprinātie
@@ -58,7 +58,9 @@ activity-needed-calculation-fixed = 100 cilvēku, kas ieraksta 100 teikumu dien�
 how-many-per-day = Lieliski! Cik ierakstu dienā?
 how-many-a-week = Lieliski! Cik ierakstu nedēļā?
 which-goal-type = Vai vēlaties runāt, klausīties vai abus?
-receiving-emails-info = Es vēlos saņemt e-pasta ziņojumus, piemēram, mērķa atgādinājumus, progresa atjauninājumus un informatīvos biļetenus par šo projektu.
+receiving-emails-info =
+    Pašreiz ir iestatīts saņemt e-pasta ziņojumus, piemēra, mērķa atgādinājumus,
+    virzības atjauninājumus un biļetenus par Common Voice
 not-receiving-emails-info =
     Pašlaik jums ir iestatīts <bold> NESAŅEMT </bold> e-pastus, piemēram, atgādinājumus par mērķiem, 
     progresa atjauninājumus un informatīvos izdevumus par Common Voice
@@ -84,7 +86,7 @@ weekly-goal-created = Jūsu nedēļas mērķis ir izveidots
 daily-goal-created = Jūsu ikdienas mērķis ir izveidots
 track-progress = Sekojiet progresam šeit statistikas lapā.
 return-to-edit-goal = Atgriezies šeit, lai jebkurā laikā labotu savu mērķi!
-share-goal = Dalies ar savu mērķi
+share-goal = Kopīgot manu mērķi
 
 ## Goals
 

@@ -12,6 +12,7 @@ abq = Abaza 阿巴札語
 ace = Acehnese 亞齊語
 ady = Adyghe (West Circassian) 西切爾克斯阿迪格語
 af = Afrikaans 南非荷蘭語
+aii = 亞述新亞拉姆語
 ajg = Adja 語
 aln = Gheg Albanian 蓋格阿爾巴尼亞語
 am = Amharic 阿姆哈拉語
@@ -53,6 +54,7 @@ brx = Bodo 語
 bs = Bosnian 波士尼亞語
 bsh = Kateviri 語
 bsk = Brushaski 布魯夏斯基語
+bsy = 沙巴比沙亞語
 btv = Bateri 語
 bum = Bulu 語
 bxk = Bukusu 語
@@ -66,6 +68,7 @@ cjk = Chokwe 紹奎語
 ckb = Central Kurdish 中庫德語
 cnh = Hakha Chin 語
 co = Corsican 科西嘉語
+cpx = 興化語
 cpy = Asheninka, South Ucayali 語
 crh = Crimean Tatar 克里米亞韃靼語
 cs = Czech 捷克語
@@ -180,6 +183,8 @@ knn = Konkani (Devanagari) 天城體孔卡尼語
 ko = Korean 韓語
 koo = Konzo 語
 kpv = Komi-Zyrian 科米語
+krc = 卡拉恰伊-巴爾卡爾語
+ks = 喀什米爾語
 ksf = Bafia 語
 kw = Cornish 康瓦爾語
 ky = Kyrgyz 吉爾吉斯語
@@ -214,6 +219,7 @@ mqh = Tlazoyaltepec Mixtec 語
 mr = Marathi 馬拉提語
 mrj = Hill Mari 山地馬里語
 ms = Malay 馬來語
+msi = 沙巴馬來語
 mt = Maltese 馬爾他語
 mxu = Mada 語
 my = Burmese 緬甸語
@@ -352,6 +358,12 @@ email-opt-in-info-sub-with-challenge = 來訂電子批，比論講挑戰、目�
 email-opt-in-privacy-v2 = 若欲收電子批，就表示你同意 Mozilla 照<privacyLink>隱私權保護政策</privacyLink>所說明的方式來處理遮的資訊。
 indicates-required = * 表示彼个欄位必須愛寫
 not-available-abbreviation = 無適用
+# Text shown on a button that can be clicked to copy text to the clipboard
+copy = 複製
+# Text shown on a button that can be clicked to cancel an action
+cancel = 取消
+# Text shown on a button that can be clicked to delete an item
+delete = 刣掉
 
 ## Donate banner
 
@@ -364,3 +376,19 @@ languages-donate-banner-cta = <mark>您的研究</mark><br/><mark>敢有使用 C
 languages-donate-banner-cta-explanation = Common Voice 是由捐款和補助金資助！咱非常歡迎佮學術界、公民社會佮產業研究人員合作。Common Voice 會當免費使用，毋過若是會當透過補助金提案來為平台佮托管費用做出貢獻，將會非常有幫助。
 localization-select =
     .label = 選擇語言 / 語系
+
+## MDC Announcement
+
+# Button text for MDC announcement
+announcement-mdc-button-text = 加入 Mozilla 資料集合
+# Aria text for button which opens MDC on a new page
+announcement-mdc-button-aria-text = 用新的頁籤來開
+
+## Common Language/Dataset Selector & SearchBox Related
+
+searchbox-default-placeholder = 撨揣...
+searchbox-default-aria-label = 撨揣
+dropdown-no-results = 無揣著
+dataset-searchbox-placeholder = 撨濟一个語言…
+dataset-searchbox-aria-label = 撨濟一个語言
+request-new-language = 要求新的語言

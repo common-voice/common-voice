@@ -307,6 +307,7 @@ pl = Ásụ̀sụ́ Pọ́líìshì
 plk = Kohistani Shina
 pne = Penan nke ọdịda anyanwụ
 prq = Asheninka Perene
+prs = Dari
 ps = Ásụ̀sụ́ Pàshị̀ítò
 pt = Ásụ̀sụ́ Pọ́tùgị́ìsì
 pua = Ọdịda Anyanwụ Highland Purepecha

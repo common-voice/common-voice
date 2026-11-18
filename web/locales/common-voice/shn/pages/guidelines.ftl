@@ -12,7 +12,7 @@ dont-subheader = ယႃႇပေႉႉ
 
 varying-pronunciations = လွင်ႈဢွၵ်ႇသဵင်ဢၼ်ပႅၵ်ႇပိူင်ႈ
 misreadings = လွင်ႈလူဢၢၼ်ႇၽိတ်း
-offensive-content = ​​ၶေႃႈၵႂၢမ်ဢးမ်ႇၵိုင်ႇလႅပ်ႈ
+offensive-content = လွင်ႈတၢင်းဢၼ်ဢမ်ႇၵိုင်ႇလႅပ်ႈ
 background-noise = သဵင်သုၵ်ႉယုင်ႈၽၢႆႇၼွၵ်ႈ
 background-voices = သဵင်ၵူၼ်းဢုပ်ႇၵၼ်
 volume = ၸၼ်ႉသဵင်

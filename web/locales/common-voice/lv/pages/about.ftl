@@ -48,7 +48,7 @@ about-get-involved-text-2 =
     Lieliski! Sazinies ar mums e-pastā vai <discourseLink>Discourse</discourseLink>
     forumos, iesniedz vietnes nepilnības <githubLink>GitHub</githubLink>, vai pievienojies <matrixLink>[matrix]</matrixLink> kopienas tērzēšanai.
 about-stay-in-touch = Kā es varu sazināties?
-about-stay-in-touch-button = Pierakstīties
+about-stay-in-touch-button = Reģistrēties
 about-stay-in-touch-text-1 = <emailFragment>Pieraksties</emailFragment> mūsu e-pasta jaunumiem, lai uzzinātu, kā vari piedalīties kampaņās, pasākumos un Common Voice kopprojektēšanas darbībās.
 about-stay-in-touch-text-2 = Jūs varat satikt citus Mozilla valodu kopienas dalībniekus, pievienojoties <discourseLink>Discourse</discourseLink> aktuālajām sarunām vai <matrixLink>Matrix</matrixLink>, lai saņemtu ātrus padomus.
 about-nav-why-common-voice = Kāpēc?
@@ -56,7 +56,7 @@ about-nav-how-it-works = Kā?
 about-nav-partners = Partneri
 about-nav-get-involved = Iesaistieties
 about-nav-how-it-works-2 = Kā darbojas Common Voice?
-about-nav-playbook = Uzziniet, kā piedalīties
+about-nav-playbook = Uzzini, kā piedalīties
 
 ## Community Playbook Content
 ## What is a language
@@ -111,18 +111,18 @@ about-playbook-how-record-content-1 = Runājiet savā parastajā balsī! Jūsu r
 about-playbook-how-record-content-2 = Izvairies no pārāk liela fona trokšņa — Tevi jāvar viegli saklausīt.
 about-playbook-how-record-content-3 = Uzmanīgi izlasiet teikumus - neizlaidiet, nemainiet un nepievienojiet vārdus.
 about-playbook-how-record-content-4 = Jāpārliecinās, ka ieraksts ir sācies, pirms sāc runāt, un ierakstu apturi tikai tad, kad beidzi.
-about-playbook-how-record-content-5 = <accuracyLink>Skatiet vairāk par to kā pareizi ierakstīt.</accuracyLink>
+about-playbook-how-record-content-5 = <accuracyLink>Skatīt vairāk par pareizības prasībām.</accuracyLink>
 
 ## How to grow language
 
 about-playbook-how-grow-language = Kā mēs varam attīstīt valodu pakalpojumā Common Voice?
 about-playbook-how-grow-language-content-1 = Radot iespējas dažādiem cilvēkiem sniegt ieguldījumu Common Voice, tiek nodrošināts, ka datu kopa apkalpo pēc iespējas vairāk cilvēku. Mēs esam izveidojuši resursus un veidnes, ko varat izmantot!
-about-playbook-how-grow-language-content-2 = Pasākumi
+about-playbook-how-grow-language-content-2 = Notikumi
 about-playbook-how-grow-language-content-3 = Varat rīkot pasākumus, lai mudinātu cilvēkus sniegt savu ieguldījumu. Tas ir vieglāk, nekā jūs domājat. Varat to izdarīt tiešsaistē, izmantojot videokonferenču rīku, vai personīgi, ja tas ir droši. <eventTemplate>Izpētiet mūsu veidnes un resursus, kas paredzēti pasākumu norisei</eventTemplate>.
 about-playbook-how-grow-language-content-4 = Sociālie mēdiji
 about-playbook-how-grow-language-content-5 = Varat izmantot sociālo mediju platformas, lai nosūtītu ziņojumu. Dalieties ar ziņām, kurās paskaidrots, kāpēc tas ir svarīgi, un sazinieties ar cilvēkiem, kas runā par tādām kā valodas tiesības, balss izmantošana mākslīgajos intelektos vai neobjektivitāte tehnoloģiju jomā. Skatiet vairāk padomu par <campaignLink>sociālās kampaņas vadīšanu, tostarp saturu, ko varat izmantot</campaignLink>.
 about-playbook-how-grow-language-content-6 = Partnerības un tīkli
-about-playbook-how-grow-language-content-7 = Atrodiet citus, kuriem tas rūp. Tās varētu būt universitātes, valodu skolas, interešu aizstāvības grupas vai datu zinātnes kopienas. Sazinieties un skaidri paskaidrojiet, kā viņi var palīdzēt un kāpēc. <outreachTemplates>Skatiet mūsu informatīvo e-pasta ziņojumu veidnes</outreachTemplates>.
+about-playbook-how-grow-language-content-7 = Atrodi citus, kuriem rūp! Tās varētu būt universitātes, valodu skolas, interešu aizstāvības kopas vai datu zinātnes kopienas. Sazinies un skaidri paskaidro, kā viņi var palīdzēt un kāpēc! <outreachTemplates>Apskatīt mūsu sazināšanās e-pasta ziņojumu veidnes</outreachTemplates>.
 about-playbook-how-grow-language-content-8-v2 = <strong>Esi radošs!</strong> Tava valodas kopiena būs neatkārtojama, un šie ir tikai daži veidi, kā sākt. Lūgums apsvērt savus kopienas kanālu pievienošanu <communitiesLink>COMMUNITIES.md dokumentā GitHub</communitiesLink>.
 
 ## How to validate
@@ -152,7 +152,7 @@ about-playbook-how-project-governance-content-7 = <governanceLink>Uzzināt vair�
 
 ## How is Common Voice funded
 
-about-playbook-how-funded = Kas finansē Common Voice?
+about-playbook-how-funded = Kas tiek iegūti Common Voice līdzekļi?
 about-playbook-how-funded-content-1 = Common Voice ir Mozilla Fonda projekts, ASV 501c3. Pašlaik projektu pilnībā finansē no <philantropicGrantLink>filantropiskām dotācijām</philantropicGrantLink> un cilvēku ziedojumiem visā pasaulē.
 about-playbook-how-funded-content-2 = Datu kopu uzturēšana, platformas attīstīšana un <africaMradiLink>kopienas programmu</africaMradiLink> atbalsts maksā daudz naudas.
-about-playbook-how-funded-content-3 = Ja jūs vai jūsu organizācija vēlaties piedalīties projektā, varat veikt <donateLink>ziedojumu</donateLink> vai sazināties ar mūsu partnerības komandu, rakstot uz e-pasta adresi <emailFragment>commonvoice@mozilla.com</emailFragment>.
+about-playbook-how-funded-content-3 = Ja Tu vai Tava apvienība vēlas līdzdarboties projektā, var veikt <donateLink>ziedojumu</donateLink> vai sazināties ar mūsu sadarbības komandu e-pastā: <emailFragment>commonvoice@mozilla.com</emailFragment>.

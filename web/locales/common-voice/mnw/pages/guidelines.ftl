@@ -135,6 +135,9 @@ process-steps-explanation = သၟာန် မနွံပၟိက် ကု�
 offensive-content-sensitive-information = လိက်ဟွံဂပ်ဝ်ယေန်သၞာၚ် ဟွံသေၚ်မ္ဂး ပရိုၚ်ပလီုအာရီု
 offensive-content-sensitive-information-explanation-explanation-1 = တင်သၟာန် မနွံကဵုအကာဲအရာ အာတ်မိက် တင်နၚ်ပရိုင်မတီကေတ်ပရူပရာ မၞိဟ်မွဲမွဲ ဂမၠိုၚ်
 offensive-content-sensitive-information-explanation-explanation-2 = တင်သၟာန် မနွံအကာဲအရာ ဆဝ်မ္ၚုဟ် လဟီုပျုတ်ဗ္ဒေက်၊ ဒစေၚ်မွဲလ္ပာ် ကေုာံ စိုတ်ဆန္ဒပလီုအာရီု ဂမၠိုင်
+offensive-content-sensitive-information-explanation-explanation-3 = တင်သၟာန် မဖန်ဗဒှ်ကဵု ညံင်ညးမွဲမွဲ ဒးဟီုပါ်ပရအ် အရာပၞုက်ဓလုက် ဟွံသေင်ရင် သွဟ်မလေပ်သ္ပကဵု ညံင်စိုတ်ဂွံဂိအာမာန်ဂမၠိုၚ်ရ။
+example-questions-subheader = ဥပမာ တင်သၟာန် ဂမၠိုင်
+example-questions-explanation-1 = မၞး ဂၠာဲရံင်ကေတ် <examplePromptsLink> ဥပမာ တင်သၟာန် ၁၂၀ ပ္ဍဲ လိက်စရင်ဏအ် မာန် ရ။</examplePromptsLink>
 
 ## Spontaneous Speech sidebar content
 

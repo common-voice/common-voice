@@ -1,11 +1,11 @@
 ## ABOUT US
 
-about-title = 為何會有 Common Voice？
+about-title = 是按怎有仝聲計畫 Common Voice 咧？
 about-header-description-v2 =
     <p>Common Voice 是一套對全世界的社群事工貢獻，會當公開使用的語音資料集，想欲打造語音應用程式的人會當使用這个資料集來訓練機器學習模型。</p>
     <p>這馬大部分的語音資料集攏對扼殺創新的大企業所擁有。各種語音資料集無法度代表無啥代表的有色人種、身心障礙人士、查某人、佮LGBTQI+ 人士。這代表語音技術根本無法度用佇某麼語言，就算會當使用，嘛無一定對逐家都能有仝款好的效果。咱想欲透過動員世界各角落的人主動分享語音的方式，來扭轉這个現象。</p>
-how-does-it-work-title-v2 = Common Voice 的原理是啥？
-how-does-it-work-text = 咱集合眾人的力量，打造開放原始碼的語音資料集。歡迎捐出您的聲音、協助驗證錄音片段是毋是正確的，予資料集會當變較好。
+how-does-it-work-title-v2 = 仝聲計畫 Common Voice 的原理是啥物？
+how-does-it-work-text = 咱集合眾人的力量，打造開放原始碼的語音資料集。歡迎捐出您的聲音、協助驗證錄音片段是毋是正確的，予資料集會當變閣較好。
 
 ## How does it work section
 
@@ -13,7 +13,7 @@ about-language-req-subtitle = 某麼要求加入一種語言。
 about-localization-title = 網站在地化
 about-localization-subtitle = 到 Pontoon 完整翻譯該語言版本。
 about-sentence-collection-title = 收集句子
-about-sentence-collection-subtitle = 收集好會當予人錄音的語句。
+about-sentence-collection-subtitle = 收集好勢會當予人錄音的語句。
 about-new-lang-title = 發布新語言
 about-new-lang-subtitle = 咱會當予這个語言版本的 Common Voice 網站上線。
 about-voice-contrib-title = 貢獻語音
@@ -35,7 +35,7 @@ about-yes-votes = ≥ 2 張「正確」的票
 about-yes-votes-text = 必須經過兩位無仝的使用者確認過，片段才會進入 Common Voice 資料集。
 about-no-votes = ≥ 2 張「無正確」的票
 about-no-votes-text = 若是使用者投落無正確，片段就會轉到排隊。若是予退轉去第二改，片段就會予擲入去回收桶。
-about-dataset-new = Common Voice 資料集
+about-dataset-new = 仝聲計畫 Common Voice 資料集
 about-dataset-new-text = Common Voice 資料集包括數十萬筆語音樣本，會當幫贊開發者打造語音識別家私。
 about-clip-graveyard = 片段回收桶
 about-clip-graveyard-text = 回收桶中包括無法度進入 Common Voice 資料集的語音片段。佮資料集仝款，回收桶內容嘛有提供下載。
@@ -45,7 +45,7 @@ about-get-involved-text-2 =
     無問題！請寄 E-Mail 予咱，嘛會當到 <discourseLink>Discourse</discourseLink>
     討論區留話、透過 <githubLink>GitHub</githubLink> 回報網站問題、
     抑是加入咱的 <matrixLink>Matrix</matrixLink> 社群開講空間。
-about-stay-in-touch = 我欲如何佮恁保持聯絡？
+about-stay-in-touch = 我欲按怎佮恁保持聯絡？
 about-stay-in-touch-button = 注文
 about-stay-in-touch-text-1 = <emailFragment>訂閱</emailFragment>咱的電子批群組，瞭解會當參加佗一个活動、並且鬥陣參與 Common Voice 的功能設計。
 about-stay-in-touch-text-2 = 您會當加入 <discourseLink>Discourse</discourseLink> 來認捌 Mozilla 各各語言社群的成員並且進行對話，抑是加入 <matrixLink>Matrix</matrixLink> 來得著快速的建議。
@@ -73,44 +73,45 @@ about-playbook-how-add-language-translating-content-1 = <translateVideoLink>觀�
 about-playbook-how-add-language-translating-content-2 = 咱使用 Mozilla 一套叫作 <pontoonLink>Pontoon</pontoonLink> 的家私進行介面翻譯。Pontoon 已經支援濟濟語言，若是無您使用的語言，會當佇<pontoonRequestLink>請求新增</pontoonRequestLink>。新增語言了後，請<githubRepoLink>到 GitHub 請求加入新的語言</githubRepoLink>，Common Voice 才會當支援。<localizationFragment>若是需閣較濟有關網站介面翻譯的資訊，請揤這个所在</localizationFragment>。
 about-playbook-how-add-language-collecting-sentences-heading = 收集句子
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>觀看咱的 Sentence Collector 使用指南</sentenceCollectorVideo>。
-about-playbook-how-add-language-collecting-sentences-content-2 = 您可以<sentenceCollectorLinkAdd>加入少量的句子</sentenceCollectorLinkAdd>，或是直接<bulkImportDocsLink>透過 Github 大批匯入</bulkImportDocsLink>。請記住所有的句子都必須是 <licenseLink>CC0 或公開領域</licenseLink>作品，或是您自己撰寫的作品。
-about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>了解收集語句的更多資訊</sentenceCollectorFragment>。
+about-playbook-how-add-language-collecting-sentences-content-2 = 您會當<sentenceCollectorLinkAdd>加入少量的句仔</sentenceCollectorLinkAdd>，抑是直接<bulkImportDocsLink>透過 Github 大批匯入</bulkImportDocsLink>。請會記得所有的句仔攏必須是 <licenseLink>CC0 抑是公開領域</licenseLink>的作品，抑是您家己寫落來的作品。
+about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>了解收集語句的閣較濟資訊</sentenceCollectorFragment>。
 
 ## How does localization work
 
-about-playbook-how-localize = 如何進行網站在地化？
-about-playbook-how-localize-content-1 = Common Voice 網站的翻譯在 <strong>Pontoon</strong> 進行。
-about-playbook-how-localize-content-2 = 若您還沒有的話，請先<pontoonAccountLink>註冊帳號</pontoonAccountLink>。然後選擇要加入的語言<strong>（「團隊」）</strong>，再選擇 <pontoonCvLink>Common Voice</pontoonCvLink> 專案。專案中就會有要翻譯的檔案。任選一個檔案，然後就會顯示每個字串的英文原文，以及輸入譯文的翻譯框。
-about-playbook-how-localize-content-3 = 原則上都是根據英文翻譯，但您可以參考其他語言的<strong>翻譯建議</strong>。可以點擊<strong>個人帳號大頭照</strong>圖示當中的<strong>Settings</strong>連結，加入您會使用的任何語言。點擊右下角的<strong>Locales</strong> 標籤會出現其他語系目前的翻譯內容供您參考。翻譯完成後的隔天我們就會將完成的譯文更新到網站上。
-about-playbook-how-localize-content-4 = 網站翻譯完成度達 75% 時，即可準備上線。
-about-playbook-how-localize-content-5 = 請看我們的說明影片
+about-playbook-how-localize = 愛按怎進行網站在地化？
+about-playbook-how-localize-content-1 = 仝聲計畫 Common Voice 網站的翻譯佇 <strong>Pontoon</strong> 進行。
+about-playbook-how-localize-content-2 = 若是您猶未有口座，請先<pontoonAccountLink>注文口座</pontoonAccountLink>。閣來選擇欲加入的語言<strong>（「團隊」）</strong>，閣來選擇 <pontoonCvLink>仝聲計畫 Common Voice</pontoonCvLink> 專案。專案中就會有愛翻譯的檔案。任選一个檔案，閣來就會顯示逐个字串的英文原文，猶閣有輸入譯文的翻譯箍仔。
+about-playbook-how-localize-content-3 = 通常攏是根據英文來翻譯，毋過您會當參考其他語言的<strong>翻譯建議</strong>。會當揤一下<strong>個人口座的大頭照</strong>圖示當中的<strong>設定</strong>連結，加入您想欲使用的任何語言。揤一个正爿下跤的<strong>在地</strong> 標籤會出現其他語系目前的翻譯內容予恁做參考。翻譯完成了後的隔轉工咱會共完成的譯文更新到網站頂懸。
+about-playbook-how-localize-content-4 = 網站翻譯的完成度到 75% 的時，才會當準備上線矣。
+about-playbook-how-localize-content-5 = 請看咱的說明影片
 
 ## How to add sentences
 
-about-playbook-how-add-sentences = 要如何加入句子？
-about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> 是一套用來收集與驗證公眾領域語句的工具。您要先<scAccountLink>註冊帳號</scAccountLink>，然後將您使用的語言加到<strong>個人資料</strong>中，然後就可以<strong>新增</strong>句子或者<strong>審核</strong>先前新增的句子。
-about-playbook-how-add-sentences-content-2 = 每個句子都必須經過兩個人審核接受才會被加入 Common Voice。您可以<languageGuidelinesLink>在此</languageGuidelinesLink>建立您的語言的審核標準。句子的內容必須使用<licenseLink>公眾領域</licenseLink>授權條款，並且不超過 15 個字。您可以請文字內容的作者或著作權擁有者<waiverLink>以 CC0 條款拋棄著作權</waiverLink>，並且寄到 commonvoice@mozilla.com 給我們即可使用。
-about-playbook-how-add-sentences-content-3 = 您可以使用 <scraperLink>Sentence extractor</scraperLink> 來從維基百科收集短句。
+about-playbook-how-add-sentences = 欲按怎加入句仔？
+about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> 是一套用來收集佮驗證公眾領域語句的家私。您愛先<scAccountLink>注文口座</scAccountLink>，閣來將您使用的語言加到<strong>個人資料</strong>當中，閣來就會當<strong>新增</strong>句仔抑是<strong>審核</strong>進前新增的句仔。
+about-playbook-how-add-sentences-content-2 = 逐个句仔攏需要經過兩个人來審核接受了後才會予加入 Common Voice。您會當<languageGuidelinesLink>在此</languageGuidelinesLink>建立您的語言的審核標準。句仔的內容必須使用<licenseLink>公眾領域</licenseLink>授權條款，並且袂當超過 15 个字。您會當請文字內容的作者抑是著作權擁有者<waiverLink>以 CC0 條款拋棄著作權</waiverLink>，並且寄批到 commonvoice@mozilla.com 予咱就會當使用矣。
+about-playbook-how-add-sentences-content-3 = 你會當使用 <scraperLink>Sentence extractor</scraperLink> 來對維基百科收集短的落句。
 
 ## How to record quality
 
-about-playbook-how-record-quality = 要如何錄下高品質的語音片段？
-about-playbook-how-record-content-1 = 用最您最習慣的方式說話！不論您操哪種腔調，我們都希望您用最習慣的說話音量、方式、抑揚頓挫來錄音。
-about-playbook-how-record-content-2 = 避免太吵雜的背景噪音，應該要很容易就能聽到您的聲音。
-about-playbook-how-record-content-3 = 小心閱讀句子，別讀錯、改字或加減字。
-about-playbook-how-record-content-4 = 確定錄音開始了再說話，說完了再停止錄音。
-about-playbook-how-record-content-5 = <accuracyLink>看更多有關準確度的判斷標準。</accuracyLink>
+about-playbook-how-record-quality = 欲按怎共語音片段錄較高品質？
+about-playbook-how-record-content-1 = 使用你上習慣的方式來講話！不論你是講佗一个腔口，咱攏向望你使用上習慣的講話聲音大細、方式、壓升謄轉來錄音。
+about-playbook-how-record-content-2 = 避免傷吵的背景噪音，應該愛真簡單就會使聽著你的聲音。
+about-playbook-how-record-content-3 = 小心閱讀落句，莫讀毋著、改字抑是加減字。
+about-playbook-how-record-content-4 = 確定錄音開始了後閣來講話，講紲了後閣停止錄音。
+about-playbook-how-record-content-5 = <accuracyLink>看閣較濟有關準確度的判斷標準。</accuracyLink>
 
 ## How to grow language
 
-about-playbook-how-grow-language = 我們如何有效地在 Common Voice 發展一套語言？
-about-playbook-how-grow-language-content-1 = 讓廣泛的人們都有 Common Voice 的貢獻機會，能確保產出的資料集可被更多數人所用。我們已經預先建立了一些資源與範本供您使用！
+about-playbook-how-grow-language = 咱按怎有效果佇咧 Common Voice 發展一套語言？
+about-playbook-how-grow-language-content-1 = 予各樣的人攏會使佇咧 Common Voice 貢獻的機會，會當確保產出的資料集會當予閣較濟人來利用。咱已經預先建立一寡資源佮範本予您使用！
 about-playbook-how-grow-language-content-2 = 活動
 about-playbook-how-grow-language-content-3 = 您可以辦活動，幫助人們參與貢獻。不論是透過線上的視訊會議舉辦，或是現場舉辦（安全的話），這件事絕對比您想得還容易。<eventTemplate>可點擊此處參考我們的活動範例與輔助資源</eventTemplate>。
 about-playbook-how-grow-language-content-4 = 社群網路
 about-playbook-how-grow-language-content-5 = 您可以使用社群媒體平台來散播訊息，分享貼文說明這件事為什麼重要，並且與其他討論語言權、語音 AI、科技偏見等議題的人聯繫。可參考這裡有關<campaignLink>舉辦社群活動的更多建議，以及許多您可以重複使用的內容</campaignLink>。
 about-playbook-how-grow-language-content-6 = 成為夥伴與合作網路的一員
 about-playbook-how-grow-language-content-7 = 尋找其他關注此議題的人，可能是大學、語言學校、倡議團體、資料科學社群的成員。可以聯繫他們，並且向他們解釋為什麼、要如何參與。<outreachTemplates>請點擊此處參考我們的聯絡郵件範本</outreachTemplates>。
+about-playbook-how-grow-language-content-8-v2 = 攏來發揮創意！你的語言社群會係獨一無二的，這寡仔只係一箍仔開始的方法。請考慮將你的社群管道加入GitHub 上的 COMMUNITIES.md 文件。
 
 ## How to validate
 

@@ -187,9 +187,62 @@ tags-disfluency = 말더듬
 tags-unclear = 불분명
 tags-noise = 소음
 tags-laugh-explanation = 웃음 소리.
+tags-disfluency-explanation =
+    말하는 사람이 할 말을 결정하는 동안 자리 표시자로 사용되는 채우기 단어나 소리입니다.
+    영어에서 "err", "um", "huh" 등은 주저하는 소리입니다.
+tags-unclear-explanation = 이해할 수 없는 단어 또는 단어들의 연속입니다.
+tags-noise-explanation =
+    다른 유형의 소음, 예를 들어 화자가 기침을 하거나 목을 가다듬는 것과 같은 소리,
+    자동차 경적, 무언가가 마이크를 두드리는 소리, 전화기 윙윙거리는 소리 등
+# Note: do not translate any tag, like [noise] or [laugh]
+special-tags-example-2 =
+    그리고 저는 [잡음] 여행을 떠났습니다.
+    뭐, [잡음] [웃음] 정확히는 공휴일은 아니었습니다. [기침]
+transcribe-the-audio-subheader-4-explanation-1 = 자발적인 발화는 자연스럽게 완전한 단어의 조각 만 생성되는 잘못된 시작을 포함합니다. 이러한 경우, 단어 조각을 가능한 한 복사하고 단어의 끝에 하이픈 (-)을 첨부하여 단어가 잘못된 시작임을 나타냅니다. 예:
+transcribe-the-audio-subheader-4-explanation-1-example = 그의 이름은 <underline>조-조나-</underline> 조나단입니다.
+transcribe-the-audio-subheader-4-explanation-2 = 가끔 화자가 단어나 단어 조각을 여러 번 반복합니다. 이것 역시 번역해야 합니다. 예:
+transcribe-the-audio-subheader-4-explanation-2-example = 그리고 나는 <underline>그 그 그 침- 그</underline> 침실로 갔다.
+transcribe-the-audio-subheader-5-explanation-1 = 자발적인 음성은 자연스럽게 문법 실수를 포함합니다. 변환할 때 이것들이 고쳐져서는 안됩니다. 스크립트는 음성 내용을 정확히 반영해야 합니다.
+transcribe-the-audio-subheader-5-explanation-2 = 화자가 구어체(예: 영어에서 "gona", "coz" 등)를 사용하면 적절하지 않은 경우가 있습니다. 이는 있는 그대로 표기되어야 하며 보다 공식적인 것으로 바꾸지 않아야 한다.
+
+## Review the Transcription
+
+review-the-transcription = 변환 검토
+review-the-transcription-subheader = 일반 지침
+review-the-transcription-explanation-1 = 보통 번역을 확인하는 사람은 원본을 쓴 사람과 동일하지 않아야 합니다. 자신의 일을 확인하는 것은 매우 어렵습니다! 여러 줄의 검토를 거치면 품질 보증을 보다 견고하게 만들고 편향과 문제를 완화하는 데 도움이 됩니다.
+review-the-transcription-explanation-2 = 변환이 정확한지 확인하기 위해서 위의 변환 가이드라인을 검토해 보세요. 편집한 내용을 제공하고 제출할 수 있습니다.
+review-the-transcription-explanation-3 = 다시 말하지만, 모욕적이거나 유해하거나 걱정스러운 콘텐츠를 신고할 수 있으며 Common Voice 팀이 검토하고 추가 조사를 할 때까지 사용 경험에서 제거됩니다.
 
 ## Code-Switching
 
+code-switching = 코드 교환
+adding-a-question = 질문 추가
+# Adding a Question
+code-switching-adding-question-subheader = 좋은 질문은 어떤 것인가요?
+code-switching-adding-question-explanation = 공공 참여 데이터 세트에 대한 좋은 질문은:
+code-switching-adding-question-criteria-1 = 이해하고 응답하기 쉬움
+code-switching-adding-question-criteria-2 = 일반적으로 관련있음
+code-switching-adding-question-criteria-3 = 유해하거나 모욕적인 언어를 사용하거나 요청하지 않음
+code-switching-adding-question-note = 다른 문맥과 분야에 걸쳐 있는 것도 고려할 수 있습니다.
+# What types of questions to add
+code-switching-types-subheader = 어떤 유형의 질문을 추가합니까?
+code-switching-use-bilingual-prompts-header = 이중 언어 프롬프트 사용하기
+code-switching-use-bilingual-prompts-explanation = 질문에 두 언어를 모두 포함하는 이중 언어 프롬프트를 사용하세요:
+code-switching-use-bilingual-prompts-explanation-example = “당신이 그 날 집에 돌아왔을 때 Qué te Dijo tu mamá는 무엇입니까?”
+code-switching-ask-bilingual-contexts-header = 이중 언어 컨텍스트에 대해 묻기
+code-switching-ask-bilingual-contexts-explanation = 두 언어가 모두 일반적으로 사용되는 상황(예: 집, 학교, 커뮤니티 이벤트)을 사용하세요. 예:
+code-switching-ask-bilingual-contexts-explanation-example = “사촌들과 이야기할 때 스페인어와 영어를 섞나요?”
+code-switching-focus-emotional-header = 감정적이거나 중요한 순간에 집중하세요
+code-switching-focus-emotional-explanation = 사람들은 감정이나 긴박함을 표현할 때 흔히 코드 스위치를 사용합니다. 예:
+code-switching-focus-emotional-explanation-example = “그 큰 뉴스를 말할 때 부모님이 뭐라고 말씀하셨는지 정확히 말해 주세요.”
+code-switching-direct-quotes-header = 직접적인 인용이나 재연 요청
+code-switching-direct-quotes-explanation = 참가자들에게 말이 실제로 어떻게 나왔는지를 다시 살펴보게 합니다. 예:
+code-switching-direct-quotes-explanation-example = “찾아내었을 때 정확히 어떤 말이 있었나요?”
+code-switching-cultural-topics-header = 특정 문화권 주제 선택하기
+code-switching-cultural-topics-explanation = 음식, 전통, 휴일 및 가족의 역동성 때문에 자주 코드전환이 일어납니다.
+code-switching-cultural-topics-explanation-example = “영어만 구사하는 사람에게 Dia de los Muertos는 어떤 의미인가요?”
+code-switching-informal-scenarios-header = 비공식 시나리오 살펴보기
 # Answering a Question
 code-switching-answer-subheader = 질문에 답변하기
+code-switching-answer-bullet-4 = “완벽한” 답변은 없습니다
 code-switching-pronunciation-explanation-example-1 = 영어: /ˈkeɪ.bəl/

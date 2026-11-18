@@ -15,7 +15,7 @@ datasets-positioning-mdc =
     Sākot ar Common Voice 23.0 versiju, visas Common Voice datu kopas ir pieejami lejupielādei tikai no Mozilla Data Collective!
     
     Šī lapa kalpo kā vēsturisks arhīvs ar iepriekšējām Mozilla Common Voice datu kopu versijām. Arhīva izlaidumi jāizmanto tikai īpašos pētniecības scenārijos, nevis apmācībām, lai respektētu to personu vēlmes, kuras ir pieprasījušas, lai viņu ieguldījums netiktu iekļauts.
-datasets-speech-bubble-content = Aizraujoši jaunumi! Spontāna runa ir ceļā! Sekojiet līdzi jaunumiem un noteikti pārbaudiet mūsu <discordLink>Discord</discordLink> jaunāko informāciju.
+datasets-speech-bubble-content = Aizraujoši jaunumi! Spontāna runa ir ceļā! Seko līdzi jaunumiem un noteikti pārbaudi mūsu <discordLink>Discord</discordLink>, lai iegūtu jaunāko informāciju!
 language = Valoda
 download-dataset-header = Lejupielādēt datu kopu
 download-delta-explainer = Mēs esam veikuši dažas izmaiņas. Delta segmenti satur tikai jaunākos ierakstus kopš pēdējās izlaišanas. <deltaLink>Lasiet vairāk par šo darbu</deltaLink>.
@@ -42,9 +42,9 @@ validated-hours = Pārbaudītās stundas
 recorded-hours = Ierakstītās stundas
 whats-inside = Kas atrodas Common Voice datu kopā?
 dataset-description-hours =
-    Katrs datu kopas ieraksts sastāv no unikāla MP3 un atbilstoša teksta faila. Daudzās no <b>{ $total }</b> ierakstu stundām datu kopā ir arī demogrāfiskie metadati, piemēram, vecums, dzimums un akcents, kas var palīdzēt apmācīt runas atpazīšanas dzinēju precizitāti.
+    Katrs datu kopas ieraksts sastāv no neatkārtojama MP3 un atbilstošas teksta datnes. Daudzās no <b>{ $total }</b> ierakstu stundām datu kopā ir arī demogrāfiskie metadati, piemēram, vecums, dzimums un akcents, kas var palīdzēt apmācīt runas atpazīšanas dzinēju pareizību.
     
-    Datu kopums pašlaik sastāv no <b>{ $valid }</b> pārbaudītām stundām <b>{ $languages }</b> valodās, bet mēs vienmēr pievienojam vairāk balsu un valodu. Apskatiet mūsu <languagesLink>valodu lapu</languagesLink>, lai pieprasītu valodu vai sāktu sniegt ieguldījumu.
+    Datu kopums pašlaik sastāv no <b>{ $valid }</b> pārbaudītām stundām <b>{ $languages }</b> valodās, bet mēs vienmēr pievienojam vairāk balsu un valodu. Apskati mūsu <languagesLink>valodu lapu</languagesLink>, lai pieprasītu valodu vai sāktu līdzdarboties!
 want-dataset-update = Vēlies uzzināt, kad mēs izlaižan jaunu Common Voice datu kopas versiju? Abonē mūsu biļetenu!
 subscribe = Abonēt
 get-started-speech = Darba sākšana ar runas atpazīšanu
@@ -54,7 +54,7 @@ feedback-q = Vai jums ir atsauksmes?
 no-information = Informācija nav pieejama
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ ir <docsLink>atvērtā koda rīkkopa</docsLink> pētniekiem, kas izstrādā jaunākos sarunvalodas mākslīgā intelekta modeļus.
 resource-deepspeech-info = Common Voice datu kopa papildina Mozilla atvērtā koda balss atpazīšanas dzinēju Deep Speech, ko var izmantot, lai izveidotu runas atpazīšanas programmas. Izlasiet mūsu <githubLink>Github pārskatu</githubLink> vai pievienojieties <discourseLink>DeepSpeech Discourse</discourseLink>, lai uzzinātu, kā sākt darbu.
-resource-coqui-info = <coquiLink>Coqui</coquiLink> veltīta atvērtās runas tehnoloģijas attīstībai. Viņu projekti ietver dziļās mācīšanās metodēs balstītus STT un TTS dzinējus.
+resource-coqui-info = <coquiLink>Coqui</coquiLink> veltīta atvērtās runas tehnoloģijas attīstībai. Viņu projekti ietver dziļajā mācīšanā balstītus STT un TTS dzinējus.
 community-playbook = Kopienas rokasgrāmata
 resource-playbook-info = <playbookLink>Atrodiet noderīgus norādījumus</playbookLink> par visu Common Voice ceļojumu, sākot no lokalizācijas līdz datu kopas lietošanai, kā arī par to, kā sazināties ar mūsu kopienu.
 data-other-librispeech-description = LibriSpeech ir aptuveni 1000 stundu 16Khz ar angļu valodas runu, kas iegūta no LibriVox projekta lasītajām audio grāmatām.

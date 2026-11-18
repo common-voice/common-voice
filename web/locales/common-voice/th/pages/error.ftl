@@ -10,6 +10,7 @@ error-clip-upload-too-large = ไฟล์บันทึกของคุณ�
 error-clip-upload-server-error = เกิดข้อผิดพลาดในการประมวลผลคลิปของคุณ โปรดโหลดหน้าใหม่หรือลองอีกครั้งในภายหลัง
 error-title-404 = เราไม่เจอหน้านั้น
 error-content-404 = <homepageLink>หน้าหลัก</homepageLink>อาจจะช่วยได้ ถ้าต้องการถามคำถาม สามารถเข้าร่วม<matrixLink>แชทชุมชนใน Matrix</matrixLink> ตรวจสอบปัญหาเว็บไซต์ใน <githubLink>GitHub</githubLink> หรือเยี่ยมชม<discourseLink>เว็บบอร์ด Discourse ของเรา</discourseLink>
+error-title-429-no-time = คุณทำเร็วเกินไป โปรดช้าลงสักนิดแล้วลองใหม่อีกครั้งในอีกสักครู่
 error-title-500 = ขออภัย มีบางอย่างผิดพลาด
 error-content-500 = เกิดข้อผิดพลาดที่ไม่คาดคิด โปรดลองอีกครั้งในภายหลัง ถ้าต้องการความช่วยเหลือ โปรดเข้าร่วม<matrixLink>แชทชุมชนใน Matrix</matrixLink> ตรวจสอบปัญหาเว็บไซต์ใน <githubLink>GitHub</githubLink> หรือเยี่ยมชม<discourseLink>เว็บบอร์ด Discourse ของเรา</discourseLink>
 error-title-502 = การเชื่อมต่อถูกขัดจังหวะ

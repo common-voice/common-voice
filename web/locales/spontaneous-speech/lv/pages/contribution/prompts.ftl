@@ -34,6 +34,6 @@ learn-how-to-use-prompts-guidance = Noklikšķiniet <guidanceLink>šeit</guidanc
 learn-how-to-use-transcribe = Uzziniet, kā veikt pārrakstīšanu
 learn-how-to-use-transcribe-explanation = Pierakstiet tieši to, kas dzirdams ierakstā, tostarp vietturus, piemēram, “um”, “āāā”, vai “ēēē”.
 learn-how-to-use-transcribe-guidance = Noklikšķiniet <guidanceLink>šeit</guidanceLink>, lai uzzinātu, kā izmantot šo lapu
-learn-how-to-use-check-transcript = Uzziniet, kā pārbaudīt pierakstīto
+learn-how-to-use-check-transcript = Uzzini, kā pārbaudīt pierakstīto
 learn-how-to-use-check-transcript-explanation = Pierakstā ir jābūt iekļautam katram ierakstā dzirdamajām vārdam un skaņai, ieskaitot atkārtojumus.
 learn-how-to-use-check-transcript-guidance = Noklikšķiniet <guidanceLink>šeit</guidanceLink>, lai uzzinātu, kā izmantot šo lapu

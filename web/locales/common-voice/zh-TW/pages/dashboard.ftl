@@ -50,6 +50,7 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = 設定目標
 cant-decide = 無法決定嗎？
+activity-needed-calculation-fixed = 100 個人每天錄 100 句話可以產生 13 小時的錄音。若保持此效能在三個月內即可達到 1000 小時。
 how-many-per-day = 好的，每天要貢獻幾個片段？
 how-many-a-week = 好的，每週要貢獻幾個片段？
 which-goal-type = 想要錄音、聆聽確認，還是兩者都要？

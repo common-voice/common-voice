@@ -307,6 +307,7 @@ pl = Polonese
 plk = Kohistani Shina
 pne = Penan occidental
 prq = Asheninka Perene
+prs = Dari
 ps = Pashto
 pt = Portugese
 pua = Purepecha del Highlands occidental

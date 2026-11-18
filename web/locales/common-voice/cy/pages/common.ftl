@@ -307,6 +307,7 @@ pl = Pwyleg
 plk = Kohistani Shina
 pne = Penan Gorllewinol
 prq = Asheninka Perene
+prs = Dari
 ps = Pashto
 pt = Portiwgaleg
 pua = Purepecha Ucheldir y Gorllewin

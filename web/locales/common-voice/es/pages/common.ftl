@@ -103,6 +103,7 @@ ko = Coreano
 kpv = Komi-Zyrian
 kw = Córnico
 ky = Kirguís
+lb = Luxemburgo
 lg = Luganda
 lij = Ligur
 ln = Lingala
@@ -230,6 +231,13 @@ email-opt-in-info-sub-with-challenge = Recibe correos con recordatorios de objet
 email-opt-in-privacy-v2 = Al aceptar recibir correos entendemos que das permiso a Mozilla para utilizar la información tal y como se explica en la <privacyLink>Política de Privacidad</privacyLink> de Mozilla.
 indicates-required = * Indica un campo obligatorio
 not-available-abbreviation = N/A
+# Text shown on a button that can be clicked to copy text to the clipboard
+copy = Copiar
+
+## Donate banner
+
+# Text wrapped in <mark></mark> will have a white background.
+donate-banner-cta = <mark>¡Necesitamos</mark><br/><mark>tu ayuda!</mark>
 
 ## Pre-Release Announcement (dates TBD)
 

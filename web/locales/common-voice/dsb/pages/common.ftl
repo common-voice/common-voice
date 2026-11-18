@@ -307,6 +307,7 @@ pl = Pólšćina
 plk = Kohistani Shina
 pne = Pódwjacorny Penan
 prq = Asheninka Perene
+prs = Dari
 ps = Paštošćina, Pašto
 pt = Portugišćina
 pua = Purepeča pódwjacorneje wusocyny

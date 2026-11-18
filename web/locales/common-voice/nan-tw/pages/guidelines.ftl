@@ -4,6 +4,9 @@ guidelines-header-subtitle = 了解如何幫贊 Common Voice 資料庫貢獻語�
 voice-collection = 收集語音
 sentence-collection = 語句集合
 question-collection = 問題集
+scripted-speech = 有記錄的講話內容
+spontaneous-speech = 家己的講話內容
+dont-subheader = 莫
 
 ## Voice Collection nav ids
 
@@ -137,3 +140,9 @@ offensive-content-sensitive-information-explanation-explanation-2 = 會當引發
 offensive-content-sensitive-information-explanation-explanation-3 = 有可能予人分享敏感、有可能引發反應的問題
 example-questions-subheader = 舉例的問題
 example-questions-explanation-1 = 你會當佇這个表單撨揣<examplePromptsLink>問答的例</examplePromptsLink>。
+
+## Spontaneous Speech sidebar content
+
+# Answer Questions
+answer-questions = 回答問題
+answer-questions-subheader = 一般指引

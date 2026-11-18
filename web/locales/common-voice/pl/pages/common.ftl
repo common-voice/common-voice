@@ -304,6 +304,8 @@ delete = Usuń
 donate-banner-cta = <mark>Potrzebujemy</mark><br/><mark>Twojej pomocy!</mark>
 # Text wrapped in <strong></strong> will be rendered on bold font
 donate-banner-cta-explanation = Roczny koszt przechowywania zestawów danych i ulepszania platformy dla ponad 100 społeczności językowych, które polegają na naszej działalności, wynosi prawie milion dolarów. <strong>Jeśli cenisz otwarte, inkluzywne dane – przekaż darowiznę już dziś!</strong>
+# Text wrapped in <mark></mark> will have a white background.
+languages-donate-banner-cta = <mark>Czy korzystasz z Common Voice</mark><br/><mark>w swoich badaniach?</mark>
 languages-donate-banner-cta-explanation = Common Voice jest finansowany z darowizn i grantów! Bardzo chętnie współpracujemy z naukowcami akademickimi, przedstawicielami społeczeństwa obywatelskiego oraz badaczami z branży. Korzystanie z Common Voice jest bezpłatne, ale wsparcie finansowe na pokrycie kosztów platformy i hostingu poprzez wnioski o dotacje jest dla nas bardzo pomocne.
 
 ## MDC Announcement

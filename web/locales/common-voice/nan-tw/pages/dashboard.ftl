@@ -50,6 +50,7 @@ help-reach-hours-general-pluralized =
     }
 set-a-goal = 設定目標
 cant-decide = 無法決定嗎？
+activity-needed-calculation-fixed = 1工若是100个人錄音100个句仔，就會使有13點鐘的錄音。繼續加油，3個月時間會當錄1000點鐘。
 how-many-per-day = 好的，每天要貢獻幾個片段？
 how-many-a-week = 好的，每週要貢獻幾個片段？
 which-goal-type = 想要錄音、聆聽確認，還是兩者都要？

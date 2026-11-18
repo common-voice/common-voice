@@ -1,13 +1,20 @@
 ## Datasets Page
 
 datasets-heading = 資料集
-datasets-headline = 我們想建立一套開放原始碼、多重語言的語音資料集，讓任何人都可以用來開發語音相關應用。
+datasets-headline = 咱想欲建立一套開放原始碼、濟語言的語音資料集，予任何人攏會當來開發語音相關的應用。
 datasets-positioning =
-    我們相信若有一組大型、可公開使用的語音資料集，可奠定以機器學習為基礎的語音技術的創新，與健康的商業競爭。
+    咱相信若是有一組大型、會當公開使用的語音資料集，會當奠定以機器學習為基礎的語音技術的創新，佮健康的商業競爭。
     
-    Common Voice 的多語言資料集已經成為最大的公開語音資料集，但不是唯一的一套。
+    Common Voice 的濟語言資料集已經成為上大的公開語音資料集，毋過毋是唯一的一套。
     
-    您可於此頁面找到其他的開放原始碼語音資料集。隨 Common Voice 持續成長，我們也會於此處張貼更新資訊。
+    您會當佇這个頁面揣著其他的開放原始碼語音資料集。隨 Common Voice 持續成長，咱會當佇這个所在張貼更新資訊。
+# New/upcoming datasets page headline
+datasets-headline-mdc = Mozilla 仝聲計畫資料集已經獨家佇 Mozilla 資料集合釋出矣。
+# New/upcoming datasets page headline text
+datasets-positioning-mdc =
+    仝聲計畫23.0了後，仝聲計畫資料集攏佇 Mozilla 資料集合獨家下載！
+    
+    這頁是歷史保存因素保留過去版本的 Mozilla 仝聲計畫的資料集。過去版本的資料集應當干焦佇特定研究場景使用，毋但予訓練，來尊重彼寡愛排除in貢獻的人。
 datasets-speech-bubble-content = 予人歡喜的消息！隨在講話咧欲推出矣！請鎖定咱的上新消息佮定定看咱<discordLink>Discord</discordLink>的上新消息。
 language = 語言
 download-dataset-header = 下載資料集
@@ -42,7 +49,7 @@ want-dataset-update = 想要在新的 Common Voice 資料集推出時收到通�
 subscribe = 訂閱
 get-started-speech = 語音辨識新手入門
 other-datasets = 其他語音資料集
-feedback-q = 有意見要回饋嗎？
+feedback-q = 敢有意見愛回饋？
 # This indicates that there is no data to display
 no-information = 無資訊
 resource-nemo-info = <githubLink>NVIDIA NeMo</githubLink>™ 是一套讓研究者開發最先進的 AI 對話模型的<docsLink>開放原始碼工具組</docsLink>。
@@ -71,10 +78,10 @@ dataset-metadata-sex = 性別
 # dataset metadata - age of contributor
 dataset-metadata-age = 年齡
 donate-modal-message = 正在下載您的資料集！
-dataset-donate-modal-heading = 您知道嗎…
-donate-modal-explanation-1 = 每年花費近百萬美元來提供資料集並改進平台，以支持依賴我們的一百多個語言的社群。
+dataset-donate-modal-heading = 您敢知影…
+donate-modal-explanation-1 = 逐年開倚近百萬美金來提供資料集來改進平台，會當來支持倚靠咱的一百偌个語言的社群。
 # Text in <bold></bold> will shown in bold
-donate-modal-explanation-2 = <bold>如果您也看重開放、富包容性的資料 - 快來捐款！</bold>
+donate-modal-explanation-2 = <bold>若是你看重開放、有包容性的資料 - 緊來捐款！</bold>
 data-download-singleword-title = 下載單字目標字串
 data-download-singleword-callout-v2 = 這是一個包含用來進行口述數字識別與是/否偵測的使用案例。
 data-download-button = 下載 Common Voice 資料
@@ -93,8 +100,13 @@ data-bundle-description = Common Voice 資料，以及上面列出的所有其�
 release-version = 版本
 dataset-date = 日期
 license = 授權條款: <licenseLink>{ $license }</licenseLink>
-license-mixed = 混和
+license-mixed = 濫的
+# Support old genders in older datasets
+male = 查埔
+female = 查某
 # MENU ITEM TOOLTIPS
-download-contribute-menu-tooltip = 下載我們的語音資料集
+download-contribute-menu-tooltip = 下載咱的語音資料集
 # MENU ITEM ARIA LABELS
 download-contribute-menu-aria-label = Common Voice 資料的下載選項
+datasets-show-more = 顯示所有的資料集
+datasets-show-less = 顯示上新的資料集

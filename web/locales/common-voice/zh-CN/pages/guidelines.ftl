@@ -230,12 +230,14 @@ code-switching-informal-scenarios-header = 探索非正式场景
 code-switching-informal-scenarios-explanation = 在与朋友对话或发短信时切换会更自然。示例：
 # What to Avoid
 code-switching-avoid-subheader = 应避免什么
+code-switching-avoid-intro = 可能遇到的问题：
 code-switching-avoid-1 = 索取个人身份信息
 code-switching-avoid-2 = 引发仇恨言论或其他偏见或冒犯性情感
 code-switching-avoid-3 = 可能引导作出敏感回答，并可能由此引发不良后果
 code-switching-dont-1 = 不要使用过于正式的用语
 # Reviewing a Question
 code-switching-review-subheader = 审核问题
+code-switching-review-intro = 确保该问题符合以下标准：
 code-switching-review-criterion-1 = 易于理解，也易于回答
 code-switching-review-criterion-3 = 不能使用或引导使用伤害或冒犯性用语
 code-switching-review-does-not-header = 并且<bold>没有</bold>包括：
@@ -251,6 +253,8 @@ code-switching-answer-bullet-3 = 使用您实际会使用的词语，即使是�
 code-switching-answer-bullet-4 = 没有“完美”的答案
 code-switching-authentic-header = 自然真实地回答
 code-switching-authentic-speak = <bold>说出您会如何与朋友和家人交流。</bold>如果您在现实生活中会混用不同语言，在这儿也这么干。例如：
+code-switching-use-both-languages = “如果这是你平常的表达方式，可以混合使用两种语言。” 哪怕只改变一两个词也很有用。例如：
+code-switching-authentic-reflect = <bold>反映情感、身份和背景。</bold>转变通常发生在人们表达情感、紧迫感或文化理念时。回答问题时融入这些。
 code-switching-tagging-error-intro = 如果转录文本中存在错误，请使用反馈功能进行标记。可能的错误包括：
 code-switching-tagging-error-1 = 标点符号不正确或大小写不正确
 code-switching-tagging-error-2 = 错别字

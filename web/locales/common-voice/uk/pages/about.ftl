@@ -2,8 +2,8 @@
 
 about-title = Чому Common Voice?
 about-header-description-v2 =
-    <p>Common Voice — це загальнодоступний набір голосових даних, створений на основі голосів волонтерів з усього світу. Люди, які хочуть створювати голосові застосунки, можуть використовувати набір даних для тренування моделей машинного навчання.</p>
-    <p>Наразі більшість наборів голосових даних належать компаніям, що придушує інновації. Набори голосових даних також надмірно представляють білих англомовних чоловіків. Це означає, що технологія з підтримкою голосу взагалі не працює для багатьох мов, а там, де вона працює, вона може працювати не однаково добре для всіх. Ми хочемо змінити це, мобілізуючи людей усюди, щоб вони поділилися своїм голосом.</p>
+    <p>Common Voice – це загальнодоступний набір голосових даних, створений завдяки голосам волонтерів з усього світу. Усі охочі розробляти застосунки з голосовими функціями можуть використовувати цей набір даних для навчання моделей машинного навчання.</p>
+    <p>Нині більшість наборів голосових даних належать компаніям, що стримує інновації. Крім того, у таких наборах недостатньо представлені люди, які не розмовляють англійською, люди з іншим кольором шкіри, люди з інвалідністю, жінки та представники ЛГБТКІА+ спільноти. Це означає, що технології з голосовими функціями взагалі не працюють для багатьох мов, а там, де вони працюють, можуть бути не однаково ефективними для всіх. Ми хочемо змінити це, заохочуючи людей з усього світу ділитися своїм голосом.</p>
 how-does-it-work-title-v2 = Як працює Common Voice?
 how-does-it-work-text = Ми створюємо громадський відкритий набір голосових даних. Додайте свій голос, перевіряйте правильність записів інших людей, зробіть набір даних кращим для всіх.
 
@@ -48,7 +48,7 @@ about-get-involved-text-2 =
 about-stay-in-touch = Як мені залишатися на зв’язку?
 about-stay-in-touch-button = Зареєструватись
 about-stay-in-touch-text-1 = <emailFragment>Приєднуйтеся</emailFragment> до нашого списку розсилки, щоб дізнатися, як ви можете брати участь у кампаніях, подіях та спільній розробці можливостей на Common Voice.
-about-stay-in-touch-text-2 = Ви можете познайомитися з іншими в мовних спільнотах Mozilla, приєднавшись до <discourseLink>Discourse</discourseLink> для актуальних розмов або до <matrixLink>Matrix</matrixLink> для отримання швидких порад.
+about-stay-in-touch-text-2 = Ви можете познайомитися з іншими учасниками мовних спільнот Mozilla, долучившись до <discordLink>Discord</discordLink> або <discourseLink>Discourse</discourseLink> для тематичних обговорень чи до <matrixLink>Matrix</matrixLink> для отримання швидких порад.
 about-nav-why-common-voice = Чому?
 about-nav-how-it-works = Як?
 about-nav-partners = Партнери
@@ -62,12 +62,15 @@ about-nav-playbook = Дізнайтеся, як взяти участь
 about-playbook-what-is-language = Що таке мова на Common Voice?
 about-playbook-what-is-language-content-1 = Існує багато способів пояснення мови. Для моделей розпізнавання мовлення Common Voice пропонує зосередитися на «взаємній зрозумілості», або «чи можуть носії цієї мови зрозуміти один одного, якщо спробують?»
 about-playbook-what-is-language-content-2 = Ми хочемо, щоб моделі мовлення краще розуміли різноманітне коло мовців. Для цього голосовий набір даних повинен представляти багато різних людей.
-about-playbook-what-is-language-content-3 = Деякі мови мають величезні варіації в граматиці, словниковому запасі та вимові. З цієї причини ми <ctaLink>впроваджуємо «Варіанти»</ctaLink> у 2022 році. Це дає спільнотам можливість розпізнавати свої мови за допомогою більшого набору даних.
+about-playbook-what-is-language-content-3 = Деякі мови мають значні розбіжності в граматиці, словниковому запасі та вимові. Саме тому у 2022 році ми <ctaLink>запроваджуємо «Різновиди»</ctaLink>. Це дає мовним спільнотам змогу розрізняти варіанти своїх мов у межах великого набору даних.
 
 ## How do I add a language
 
 about-playbook-how-add-language = Як додати мову?
-about-playbook-how-add-language-content-1 = Спочатку перевірте, чи <languageLink>додано вже вашу мову</languageLink>. Якщо ні, вам потрібно <strong>перекласти сайт і зібрати речення</strong>.
+about-playbook-how-add-language-content-1 =
+    Спочатку перевірте, чи <languageLink>вашу мову вже додано</languageLink>.
+    Якщо ні, ви можете <languageRequestLink>подати запит на її додавання</languageRequestLink>.
+    Процес складається з двох етапів: перекладу сайту та збирання речень.
 about-playbook-how-add-language-translating-heading = Переклад сайту
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>Перегляньте наш посібник про користування Pontoon.</translateVideoLink>
 about-playbook-how-add-language-translating-content-2 =
@@ -78,9 +81,9 @@ about-playbook-how-add-language-translating-content-2 =
 about-playbook-how-add-language-collecting-sentences-heading = Збір речень
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>Перегляньте наш посібник про користування засобом збору речень</sentenceCollectorVideo>.
 about-playbook-how-add-language-collecting-sentences-content-2 =
-    Ви можете <sentenceCollectorLinkAdd>додати невелику кількість речень</sentenceCollectorLinkAdd>,
-    або ви можете виконати <bulkImportDocsLink>масовий імпорт за допомогою Github</bulkImportDocsLink>.
-    Пам’ятайте, що пропозиції мають бути ліцензовані <licenseLink>CC0 (або загальнодоступними)</licenseLink>, або ви можете написати власні.
+    Ви можете <sentenceCollectorLinkAdd>додавати речення невеликими кількостями</sentenceCollectorLinkAdd> або
+    <bulkImportDocsLink>масово імпортувати їх через GitHub</bulkImportDocsLink>. Пам’ятайте, що речення мають
+    <licenseLink>поширюватися на умовах CC0 (або належати до суспільного надбання)</licenseLink>, або ви можете написати власні.
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>Докладніше про збір речень</sentenceCollectorFragment>.
 
 ## How does localization work
@@ -95,7 +98,7 @@ about-playbook-how-localize-content-5 = Перегляньте наше віде
 ## How to add sentences
 
 about-playbook-how-add-sentences = Як додати речення?
-about-playbook-how-add-sentences-content-1 = <strong>Sentence Collector</strong> — це засіб для збору та перевірки речень, які є суспільним надбанням. Вам <scAccountLink>потрібно створити обліковий запис</scAccountLink>. Потім додайте свою мову до свого <strong>профілю</strong>. Ви можете <strong>Додати</strong> речення або <strong>Переглянути</strong> раніше додані речення.
+about-playbook-how-add-sentences-content-1 = Ви можете додавати речення на <writePageLink>сторінці Запису</writePageLink> або перевіряти їх на <reviewPageLink>сторінці Перевірки</reviewPageLink>.
 about-playbook-how-add-sentences-content-2 = Речення повинні бути переглянуті та прийняті двома людьми, щоб бути включеними до Common Voice. Ви створюєте рекомендації для своєї мови <languageGuidelinesLink>тут</languageGuidelinesLink>. Речення мають бути <licenseLink>суспільним надбанням</licenseLink> і коротшими за 15 слів. Ви можете попросити власника тексту зробити його <waiverLink>CC0, використовуючи нашу процедуру відмови</waiverLink>, і надіслати нам на commonvoice@mozilla.com
 about-playbook-how-add-sentences-content-3 = Ви можете використовувати <scraperLink>видобувач речень</scraperLink>, щоб додавати короткі речення з Вікіпедії.
 
@@ -103,10 +106,10 @@ about-playbook-how-add-sentences-content-3 = Ви можете використ�
 
 about-playbook-how-record-quality = Як записати високоякісне озвучення?
 about-playbook-how-record-content-1 = Говоріть звичайним голосом! Те, як ви говорите, тут вітається — ми хочемо, щоб ваш акцент був таким, яким він є, і ми хочемо вашої звичайної гучності, стилю та інтонації.
-about-playbook-how-record-content-2 = Уникайте надмірного фонового шуму — він має бути ледь чутним.
+about-playbook-how-record-content-2 = Уникайте надмірного фонового шуму - ваш голос має бути добре чутним.
 about-playbook-how-record-content-3 = Уважно прочитайте речення — не пропускайте, не змінюйте і не додавайте слова.
 about-playbook-how-record-content-4 = Перш ніж почати говорити, переконайтеся, що платформа записує звук, і що запис припиняється лише після того, як ви завершите.
-about-playbook-how-record-content-5 = <accuracyLink>Докладніше про критерії точність.</accuracyLink>
+about-playbook-how-record-content-5 = <accuracyLink>Докладніше про критерії точності.</accuracyLink>
 
 ## How to grow language
 
@@ -117,7 +120,7 @@ about-playbook-how-grow-language-content-3 = Ви можете проводит�
 about-playbook-how-grow-language-content-4 = Суспільні медіа
 about-playbook-how-grow-language-content-5 = Ви можете використовувати платформи суспільних мереж, щоб розповсюдити повідомлення. Поділіться дописами, які пояснюють, чому це важливо, і зв’яжіться з іншими людьми, які обговорюють такі проблеми, як мовні права, голосовий ШІ або упередженість у технологіях. Перегляньте додаткові поради щодо <campaignLink>проведення громадської кампанії, включно з вмістом, який можна повторно використовувати</campaignLink>.
 about-playbook-how-grow-language-content-6 = Партнерство та мережі
-about-playbook-how-grow-language-content-7 = Знайдіть інших не байдужих. Це можуть бути університети, мовні курси, групи захисту або спільноти data science. Зв’яжіться і чітко поясніть, як вони можуть допомогти й навіщо. <outreachTemplates>Перегляньте наші шаблони електронних листів</outreachTemplates>.
+about-playbook-how-grow-language-content-7 = Знайдіть інших небайдужих. Це можуть бути університети, мовні курси, групи захисту або спільноти data science. Зв’яжіться і чітко поясніть, як вони можуть допомогти й навіщо. <outreachTemplates>Перегляньте наші шаблони електронних листів</outreachTemplates>.
 about-playbook-how-grow-language-content-8-v2 = <strong>Проявіть винахідливість!</strong> Ваша мовна спільнота буде унікальною, і це лише кілька способів розпочати. Будь ласка, додайте канал вашої спільноти до документа <communitiesLink>COMMUNITIES.md на GitHub</communitiesLink>.
 
 ## How to validate
