@@ -22,6 +22,9 @@ select-all = 選取所有
 # Messages
 tag-success-toast-message = 成功送出標籤
 tag-error-toast-message = 送出標籤失敗
+tag-empty-submit-error = 無文字會當送出，請先共一寡文字加添標籤。
+# Code switching Guidelines
+cs-tag-do-guideline-1 = 需用正確的書寫方式
 cs-tag-shortcuts-section-title = 齒盤使用
 cs-tag-shortcuts-guideline-1 = <key>1</key>-<key>{ $numLanguages }</key>有語言的標籤
 cs-tag-shortcuts-guideline-2 = <key>{ tag-page-shortcut-toogle-mouse-keyboard }</key> { toogle-mouse-keyboard }
