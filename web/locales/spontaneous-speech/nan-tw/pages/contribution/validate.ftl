@@ -1,5 +1,6 @@
 ## Validate Page
 
+validate-page-instruction = 驗證<validateIcon> </validateIcon>這个問題敢有符合指引？
 dataset-label = 資料集
 accept-vote-toast-message = 成功予接受的問題
 reject-vote-toast-message = 成功予拒絕的問題
