@@ -14,7 +14,12 @@ record-error-too-long = 錄音傷長矣。
 record-error-too-quiet = 錄音傷細聲矣。
 record-error-empty-recording = 無掠著錄音，請檢查你的麥克風閣來試看覓。
 record-error-unknown-format = 無法度決定音訊格式，請使用捌的瀏覽器閣試一改。
-record-error-uploaded-clip-corrupted = 你的錄音看起來歹去矣，可能的原因是：
+record-error-uploaded-clip-corrupted =
+    你的錄音看起來歹去矣，可能的原因是：
+    { "*" } 瀏覽器的相容性問題 (請使用別的瀏覽器)
+    { "*" } 麥克風抑是音訊驅動的問題
+    { "*" } 錄音的時的網路連線問題
+    請較晏的時閣試一改。
 record-cancel = 取消重新錄音
 record-instruction = { $actionType }<recordIcon></recordIcon>大聲共這句話讀出來！（羅馬字是參考用的爾）
 record-stop-instruction = 完成了後{ $actionType } <stopIcon></stopIcon>
