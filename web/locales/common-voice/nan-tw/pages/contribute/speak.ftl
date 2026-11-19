@@ -3,6 +3,8 @@ speak-now = 這馬就來講話
 speak-subtitle = 寄付你的聲音
 record-cta = 開始錄音
 record-platform-not-supported = 真失禮，這馬暫時無支援您的平台。
+record-platform-webview = 你敢講因為揤社里媒體的連結來到遮，這馬是無支援 app 內的瀏覽器來錄音。
+record-platform-not-supported-webview = 你會當用手機仔的系統瀏覽器來貢獻。
 record-platform-not-supported-desktop = 佇桌上型電腦，您會當下載上新版本的：
 record-platform-not-supported-ios-non-safari = 佇 iOS 平台，請繼續到 Safari 開啟錄音的功能…
 record-must-allow-microphone = 您必須允准使用麥克風。
@@ -12,6 +14,7 @@ record-error-too-long = 錄音傷長矣。
 record-error-too-quiet = 錄音傷細聲矣。
 record-error-empty-recording = 無掠著錄音，請檢查你的麥克風閣來試看覓。
 record-error-unknown-format = 無法度決定音訊格式，請使用捌的瀏覽器閣試一改。
+record-error-uploaded-clip-corrupted = 你的錄音看起來歹去矣，可能的原因是：
 record-cancel = 取消重新錄音
 record-instruction = { $actionType }<recordIcon></recordIcon>大聲共這句話讀出來！（羅馬字是參考用的爾）
 record-stop-instruction = 完成了後{ $actionType } <stopIcon></stopIcon>
@@ -70,11 +73,11 @@ read-sentences-coming-soon = 看落句 <small>(咧欲推出)</small>
 ## MENU ITEM TOOLTIPS
 
 speak-contribute-menu-tooltip = 讀落句，回答問題
-read-sentences-menu-item-tooltip = 使用你的語言錄下句子
+read-sentences-menu-item-tooltip = 使用你的語言錄下落句
 answer-questions-menu-item-tooltip = 使用你的語言錄下提示問題的回答
 
 ## MENU ITEM ARIA LABELS
 
 speak-contribute-menu-aria-label = 錄音選項選單
-read-sentences-menu-item-aria-label = 閱讀社群提交的各語言句子
-answer-questions-menu-item-aria-label = 提出新的問題予社群去閱讀與回應
+read-sentences-menu-item-aria-label = 閱讀社里提交的各語言句子
+answer-questions-menu-item-aria-label = 提出新的問題予社群去閱讀佮回應
