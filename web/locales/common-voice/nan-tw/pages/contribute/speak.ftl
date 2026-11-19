@@ -57,19 +57,19 @@ first-cta-gender-select-help-text =
     .label = 您會如何描述您的生理性別抑是認同？
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = 感謝您捐出錄音片段！
-second-cta-subtitle-text = 註冊帳號後，您可以追蹤您的貢獻紀錄，並連繫社群中的其他語音資料貢獻者。
+second-cta-subtitle-text = 你有口座了後，你會當追蹤你的貢獻紀錄，並連繫社里當中的其他語音資料事工。
 already-have-an-account = 你敢有口座？<login>請登入</login>
 create-profile-button = 新增口座
 # IMAGE TAGS
 img-alt-success-checkmark = 成功勾選
 # menu item
-read-sentences = 讀句子
+read-sentences = 讀落句
 # text wrapped in <small></small> will be shown in a smaller font size
-read-sentences-coming-soon = 看句 <small>(咧欲推出)</small>
+read-sentences-coming-soon = 看落句 <small>(咧欲推出)</small>
 
 ## MENU ITEM TOOLTIPS
 
-speak-contribute-menu-tooltip = 讀句子，回答問題
+speak-contribute-menu-tooltip = 讀落句，回答問題
 read-sentences-menu-item-tooltip = 使用你的語言錄下句子
 answer-questions-menu-item-tooltip = 使用你的語言錄下提示問題的回答
 
