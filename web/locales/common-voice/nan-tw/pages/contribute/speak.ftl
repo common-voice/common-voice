@@ -59,9 +59,9 @@ first-cta-gender-select-help-text =
 second-cta-header-text = 感謝您捐出錄音片段！
 second-cta-subtitle-text = 註冊帳號後，您可以追蹤您的貢獻紀錄，並連繫社群中的其他語音資料貢獻者。
 already-have-an-account = 你敢有口座？<login>請登入</login>
-create-profile-button = 註冊帳號
+create-profile-button = 新增口座
 # IMAGE TAGS
-img-alt-success-checkmark = 成功勾勾
+img-alt-success-checkmark = 成功勾選
 # menu item
 read-sentences = 讀句子
 # text wrapped in <small></small> will be shown in a smaller font size
