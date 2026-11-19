@@ -1,17 +1,19 @@
 ## Report Modal
 
 report-modal-title = 回報問題
-report-modal-subtitle = 這個內容有什麼問題？
+report-modal-subtitle = 這个內容有啥物問題？
 offensive_speech = 冒犯性內容
-offensive_speech-detail = 這段內容中有不尊重他人或冒犯性的語言。
-personally_identifiable_information = 可識別個人資訊
+offensive_speech-detail = 這段內容當中有無尊重他人抑是冒犯性的語言。
+empty_or_unintelligible = 空的抑是無法度辨識
+empty_or_unintelligible-detail = 內容是空的，歹去，有別的語言等等。
+personally_identifiable_information = 會當識別個人資訊
 personally_identifiable_information-detail = 此內容包含能識別使用者身分的資訊，例如姓名、E-Mail、地點、手機或身份證號碼。
 personally_identifiable_information-answer-detail = 這个內容是欲問使用者的身份資訊，比喻講名姓、E-Mail、所在、身分證字號抑是手機仔號碼。
 report-other-comment =
     .placeholder = 附註
 # Label for textarea in report modal
 other = 其他
-report-error = 傳送報告時發生錯誤
+report-error = 傳送報告的時發生錯誤
 # Label for Continue button in Report modal to indicate that the user wants to continue contributing after reporting
 continue = 繼續
 # Header for report modal after successful reporting
