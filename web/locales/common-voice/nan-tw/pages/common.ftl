@@ -192,6 +192,7 @@ lb = Luxembourgish 盧森堡語
 leu = Kara 卡拉語
 lg = Luganda 盧干達語
 lij = Ligurian 利古里亞語
+lir = 科洛誇語
 lke = Kenyi 語
 ln = Lingala 林格拉語
 lo = Lao 寮語
