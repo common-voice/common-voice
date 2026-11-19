@@ -51,14 +51,14 @@ add-information-button = 加添資訊
 continue-speaking-button = 不用了，我要繼續錄音
 create-profile-text = 想要儲存您的資訊嗎？<createProfile>請註冊帳號</createProfile>
 thanks-for-voice-toast = 感謝您提供您的語音資訊
-thanks-for-voice-toast-error = 送出您的語音資訊時發生錯誤
-first-cta-gender-select-default-option = 選擇其中一個選項
+thanks-for-voice-toast-error = 送出您的語音資訊的時發生錯誤
+first-cta-gender-select-default-option = 選擇其中一个選項
 first-cta-gender-select-help-text =
-    .label = 您會如何描述您的生理性別或認同？
+    .label = 您會如何描述您的生理性別抑是認同？
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = 感謝您捐出錄音片段！
 second-cta-subtitle-text = 註冊帳號後，您可以追蹤您的貢獻紀錄，並連繫社群中的其他語音資料貢獻者。
-already-have-an-account = 已經有帳號了嗎？<login>請登入</login>
+already-have-an-account = 你敢有口座？<login>請登入</login>
 create-profile-button = 註冊帳號
 # IMAGE TAGS
 img-alt-success-checkmark = 成功勾勾
