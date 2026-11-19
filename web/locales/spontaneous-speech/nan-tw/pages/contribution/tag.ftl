@@ -14,6 +14,14 @@ tag-page-shortcut-tag-language-5 = 5
 tag-page-shortcut-remove-tags = 9
 remove-tags = 移除標籤
 tag-page-shortcut-toogle-mouse-keyboard = 0
+toogle-mouse-keyboard = 開啟跳出畫面
+tag-page-shortcut-tag-undo = Ctrl / CMD + Z
+undo = 還原
+tag-page-shortcut-select-all = A
+select-all = 選取所有
+# Messages
+tag-success-toast-message = 成功送出標籤
+tag-error-toast-message = 送出標籤失敗
 cs-tag-shortcuts-section-title = 齒盤使用
 cs-tag-shortcuts-guideline-1 = <key>1</key>-<key>{ $numLanguages }</key>有語言的標籤
 cs-tag-shortcuts-guideline-2 = <key>{ tag-page-shortcut-toogle-mouse-keyboard }</key> { toogle-mouse-keyboard }
