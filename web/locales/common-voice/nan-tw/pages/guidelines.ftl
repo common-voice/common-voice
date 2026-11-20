@@ -68,10 +68,10 @@ sentence-domain = 語句領域
 
 ## Sentence collection sidebar content
 
-public-domain-explanation-1 = 因為 Common Voice 語音資料庫採取 <cc0>CC0授權</cc0> 的方式釋出，確保所有的句子都屬於 <publicDomain>公眾授權</publicDomain>（無版權限制）萬分重要。請務必指提交你確定無任何版權疑慮的句子，並且標示明確的出處。
-public-domain-explanation-2 = 要打造好用的語音識別引擎，最好的語句是現代口語。以下是一些能幫助您造句的好點子：
-public-domain-explanation-3 = 自己動手，或與朋友或語言社群一起創造現代、口語化句子（例如：舉辦「寫作馬拉松」）
-public-domain-explanation-4 = 聯絡作者、劇作家或電影編劇並詢問他們是否願意將部分作品貢獻給公眾領域
+public-domain-explanation-1 = 因為 Common Voice 語音資料庫採取 <cc0>CC0授權</cc0> 的方式釋出，確保所有的句子攏屬於 <publicDomain>公眾授權</publicDomain>（無版權限制）是萬分重要的。請一定愛指明提交的落句無任何版權疑慮，並且標示明確的來源。
+public-domain-explanation-2 = 愛打造好用的語音識別引擎，上好的語句是現代口語。以下是一寡會當幫贊你造句的撇步：
+public-domain-explanation-3 = 家己動手，抑是佮朋友抑是語言社里鬥陣創造現代、口語化的落句（比喻講：舉辦「寫作馬拉松」）
+public-domain-explanation-4 = 聯絡作者、劇作家抑是電影編劇並詢問𪜶是毋是願意共部分作品貢獻予公眾領域
 public-domain-explanation-5 = 尋找不再受著作權保護的文字（例如大多數在 1920 年之前出版的書籍）
 public-domain-explanation-6 = 聯絡政府、非營利組織或媒體以看看他們是否可以將任何網頁內容、報告或其他內容貢獻給公眾領域
 citing-sentences-explanation-1 = 正確引用內容是相當重要，這樣我們才可以確認句子是否皆屬於公眾領域並不受著作權限制。
