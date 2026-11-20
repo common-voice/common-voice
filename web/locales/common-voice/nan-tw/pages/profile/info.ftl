@@ -79,6 +79,12 @@ api-credentials-description-conclusion = 加入咱的先進音訊技術佮予閣
 create-api-key-button = 創建 API 憑證
 your-api-keys = 你的 API 憑證
 no-api-keys-header = <bold>這馬遮是無佮你口座有關聯的 API 憑證。</bold>
+no-api-keys-description =
+    欲創建你的第一个 API 鍵，揤「創建 API 憑證」，閣來名姓
+    你的 API 憑證佮揤「 生成憑證」生成的孤 API 憑證，閣來，即時複製祕密鍵，因為𪜶干焦出現一擺爾爾。
+api-key-name-input =
+    .label = API 憑證名姓
+create-api-key-header = <bold>要緊注意事項：API 憑證生成</bold>
 # Genders
 male_masculine = 男性
 female_feminine = 女性
