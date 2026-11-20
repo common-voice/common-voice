@@ -1,5 +1,20 @@
 **/node_modules
 bundler
+# Build output
+common/js/
+web/dist/
+server/js/
+
+# Local credentials
+config.json
+.env-local-docker
+
+# Local developer material
+.dev/
+.local/
+.vscode/
+_dev/
+
 # Ignore generated credentials from google-github-actions/auth
 gha-creds-*.json
 .git/
