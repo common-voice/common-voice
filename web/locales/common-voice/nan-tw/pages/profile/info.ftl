@@ -66,11 +66,11 @@ help-variants-explanation = 變體是一種語言的特定格式，像是居住�
 help-sex-or-gender-changes = 敢需要更改性別？
 help-sex-or-gender-changes-explanation = 咱提供閣較濟選項，予咱人來共阮講𪜶的生理性別抑是性別認同的時有閣較濟選擇。請以你覺得上自然的方式來自我描述。<learnMoreLink>了解咱對性別的看法。</learnMoreLink>
 variant-contribution-options-header = 變體貢獻選項
-variant-contribution-help = 某些語言或語言家族內的變體與腔調差異極大，如果你在嘗試某個特定的變體時遇到困難，你可以在此改變設定。
-variant-contribution-option-1 = 顯示我的語言當中的所有變體句子與片段
-variant-contribution-option-2 = 只顯示我的變體中的句子與片段
-variant-contribution-warning-title = ⓘ 並非所有句子與片段都有變體
-variant-contribution-warning-subtitle = 若你在貢獻時遇到問題，你可以隨時切換回去你使用的語言版本，以觀看所有內容。
+variant-contribution-help = 一寡語言抑是語言家族內底的變體佮腔口差異足大，若是你佇咧嘗試某個特定的變體的時拄著困難，你會當佇遮改變設定。
+variant-contribution-option-1 = 顯示我的語言當中的所有變體句子佮片段
+variant-contribution-option-2 = 干焦顯示我的變體當中的句子佮片段
+variant-contribution-warning-title = ⓘ 並非所有句子佮片段都有變體
+variant-contribution-warning-subtitle = 若是你佇咧貢獻的時拄著問題，你會當隨時切換轉去你使用的語言版本，來觀看所有的內容。
 # Genders
 male_masculine = 男性
 female_feminine = 女性
