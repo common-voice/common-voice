@@ -85,6 +85,10 @@ no-api-keys-description =
 api-key-name-input =
     .label = API 憑證名姓
 create-api-key-header = <bold>要緊注意事項：API 憑證生成</bold>
+create-api-key-description = 揤「 生成憑證」 會為你的口座產生孤憑證。毋過為著資安理由，祕密鍵干焦顯示<bold>一改</bold>爾爾。請你一定愛複製佮安全存落來。若是拍毋見，你愛生成新的鍵，因為無法度揣著矣。
+create-api-key-agreement = 我同意我袂識別仝聲計畫 Common Voice 資料集內底的講話的人。
+generate-api-key-button = 生成憑證
+save-api-key-info = <bold>安全存落來你的鍵</bold>
 # Genders
 male_masculine = 男性
 female_feminine = 女性
