@@ -151,8 +151,27 @@ tags-laugh = 笑聲
 tags-unclear = 無清楚
 tags-noise = 噪音
 
+## Review the Transcription
+
+review-the-transcription = 審核轉錄
+review-the-transcription-subheader = 一般指引
+
 ## Code-Switching
 
+adding-a-question = 新增問題
+# Adding a Question
+code-switching-adding-question-subheader = 啥物是好的問題？
+code-switching-adding-question-explanation = 對公共參與的資料集來講的好的問題應該是：
+code-switching-adding-question-criteria-1 = 愛簡單會當理解佮會當回應
+code-switching-adding-question-criteria-2 = 一般愛有相關性
+code-switching-adding-question-criteria-3 = 無咧使用、抑是強迫推銷、有傷害人，抑是予人感覺冒犯的語言
+code-switching-adding-question-note = 你嘛有可能想欲考慮迒無仝背景佮領域。
+# What types of questions to add
+code-switching-types-subheader = 啥物款的問題會當來加添？
+code-switching-use-bilingual-prompts-header = 使用雙語的問題
+code-switching-use-bilingual-prompts-explanation = 使用雙語的問題會當整合兩種語言的問題：比喻講：
+code-switching-use-bilingual-prompts-explanation-example = 「 你那天何時回家？」「你彼工當時轉來厝內？」
+code-switching-ask-bilingual-contexts-header = 詢問雙語的情境
 code-switching-dont-header = 莫
 code-switching-dont-1 = 莫使用相當正式的語言
 # Reviewing a Question
