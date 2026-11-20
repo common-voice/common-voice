@@ -23,9 +23,9 @@ example = 範例
 ## Voice collection sidebar content
 
 varying-pronunciations-explanation-1 = 咱歡迎不仝的腔口！若是你認為錄音者的發音怪怪的、抑是重音囥毋著所在的時，請務必謹慎決定是毋是欲拒絕一段錄音。世界上有真濟無仝的腔口，有一寡佇你的地區可能袂習慣。對佮你無仝腔口的貢獻者，嘛請你保持客氣。
-varying-pronunciations-explanation-2 = 反過來說，如果你覺得錄音者根本沒看過這個字，不知道正確發音，只是在有邊讀邊、無邊讀中間時，請拒絕這個錄音。如果你無法確定，請按跳過。
-varying-pronunciations-example = 周潤發跟鳳飛飛
-varying-pronunciations-tip-1 = (有一寡人可能會共「悾闇 (khong-am)」讀做「空安 (khong-an)」)，抑是「心內話 (sim-lāi-ōe)」讀做「新內話 (sin-lāi-ōe)」
+varying-pronunciations-explanation-2 = 顛倒來講，若是你感覺錄音者根本無看過這个字，毋知影正確的發音，干焦是有邊讀邊、無邊讀中間的時，請拒絕這個錄音。若是你無法度確定，請揤跳過。
+varying-pronunciations-example = 悾闇佮空安，心內話佮新內話
+varying-pronunciations-tip-1 = (有一寡人可能會共「悾闇 (khong-am)」讀做「khong-an」，抑是「心內話 (sim-lāi-ōe)」讀做「sin-lāi-ōe」
 varying-pronunciations-tip-2 = (有一寡人可能會共「狀況 (chōng-hóng)」發音做「狀孔 (chōng-khóng)」)，抑是「等待 (tán-thāi)」讀做「等代 (tán-tāi)」
 offensive-content-explanation = 句仔是透過社群管理程序來進行審查的，毋過這个程序並無完美。若是您看著抑是聽著的物件冒犯您，抑是予您無滿意的句仔（比喻講句仔違反咱的<participationGuidelines>社群參與準則</participationGuidelines>），請使用網站中的標記揤仔。您嘛會當寄批到 <emailFragment>commonvoice@mozilla.com</emailFragment> 來聯絡咱。
 misreadings-explanation-1 = 朗讀出所有文字十分重要。聆聽錄音片段時，請注意內容是否與文字內容完全一致，如有添字、漏字，則將其駁回。
