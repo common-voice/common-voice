@@ -50,6 +50,7 @@ accept-privacy-and-terms = Common Voice က <termsLink>စည်းကမ်း�
 # Locales-Variants
 ms-MY = ဘာဟာဆာ မလေးစကား
 el-CY = ဆိုက်ပရပ်စ် ဂရိစကား
+pt-BR = Brazilian Portuguese
 
 ## Language search component
 
