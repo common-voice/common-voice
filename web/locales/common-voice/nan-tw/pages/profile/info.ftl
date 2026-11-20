@@ -71,6 +71,14 @@ variant-contribution-option-1 = 顯示我的語言當中的所有變體句子佮
 variant-contribution-option-2 = 干焦顯示我的變體當中的句子佮片段
 variant-contribution-warning-title = ⓘ 並非所有句子佮片段都有變體
 variant-contribution-warning-subtitle = 若是你佇咧貢獻的時拄著問題，你會當隨時切換轉去你使用的語言版本，來觀看所有的內容。
+api-credentials-description = 透過 Common Voice API 連結通世界由使用者貢獻的語言錄音，使用高品質的講話識別端點：
+api-credentials-use-case-1 = 送出音信範例
+api-credentials-use-case-2 = 得著資料集
+api-credentials-use-case-3 = 分析佮改進講話模型
+api-credentials-description-conclusion = 加入咱的先進音訊技術佮予閣較濟使用者貢獻。
+create-api-key-button = 創建 API 憑證
+your-api-keys = 你的 API 憑證
+no-api-keys-header = <bold>這馬遮是無佮你口座有關聯的 API 憑證。</bold>
 # Genders
 male_masculine = 男性
 female_feminine = 女性
