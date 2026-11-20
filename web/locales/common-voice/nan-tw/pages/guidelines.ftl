@@ -72,13 +72,13 @@ public-domain-explanation-1 = 因為 Common Voice 語音資料庫採取 <cc0>CC0
 public-domain-explanation-2 = 愛打造好用的語音識別引擎，上好的語句是現代口語。以下是一寡會當幫贊你造句的撇步：
 public-domain-explanation-3 = 家己動手，抑是佮朋友抑是語言社里鬥陣創造現代、口語化的落句（比喻講：舉辦「寫作馬拉松」）
 public-domain-explanation-4 = 聯絡作者、劇作家抑是電影編劇並詢問𪜶是毋是願意共部分作品貢獻予公眾領域
-public-domain-explanation-5 = 尋找不再受著作權保護的文字（例如大多數在 1920 年之前出版的書籍）
-public-domain-explanation-6 = 聯絡政府、非營利組織或媒體以看看他們是否可以將任何網頁內容、報告或其他內容貢獻給公眾領域
-citing-sentences-explanation-1 = 正確引用內容是相當重要，這樣我們才可以確認句子是否皆屬於公眾領域並不受著作權限制。
+public-domain-explanation-5 = 搜揣無受著著作權保護的文字（比喻講大多數佇 1920 年進前出版的書）
+public-domain-explanation-6 = 聯絡政府、非營利組織抑是媒體來看覓𪜶是毋是會當共任何網頁內容、報告抑是其他內容貢獻予公眾領域
+citing-sentences-explanation-1 = 正確引用內容是真要緊的，按呢做咱才會當確認落句是毋是攏是屬於公眾領域並且無受著著作權限制。
 citing-sentences-subheader-websites = 網站
-citing-sentences-subheader-websites-explanation = 您可以包含網址，例如「Common Voice - https://commonvoice.mozilla.org/」
+citing-sentences-subheader-websites-explanation = 您會當包含網址，比如「Common Voice - https://commonvoice.mozilla.org/」
 citing-sentences-subheader-academic-reference = 學術參考資料
-citing-sentences-subheader-academic-reference-explanation = 您也可以使用學術參考文獻格式，例如哈佛格式「Mozilla (2021) Common Voice. Available at https://commonvoice.mozilla.org/ (Accessed: 15th September 2021)」
+citing-sentences-subheader-academic-reference-explanation = 您嘛會當使用學術參考文獻格式，比如哈佛格式「Mozilla (2021) Common Voice. Available at https://commonvoice.mozilla.org/ (Accessed: 15th September 2021)」
 citing-sentences-subheader-offline-sources = 離線來源
 citing-sentences-subheader-offline-sources-explanation = 若為沒有線上版本的公眾領域文字，也可以使用學術參考文獻格式。例如哈佛格式「Jess (2021) My Public license poems」
 citation =
@@ -146,3 +146,26 @@ example-questions-explanation-1 = 你會當佇這个表單撨揣<examplePromptsL
 # Answer Questions
 answer-questions = 回答問題
 answer-questions-subheader = 一般指引
+transcribe-the-audio-subheader-3 = 特殊標籤
+tags-laugh = 笑聲
+tags-unclear = 無清楚
+tags-noise = 噪音
+
+## Code-Switching
+
+code-switching-dont-header = 莫
+code-switching-dont-1 = 莫使用相當正式的語言
+# Reviewing a Question
+code-switching-review-subheader = 審核問題
+code-switching-review-intro = 確認問題符合標準：
+code-switching-review-criterion-1 = 愛簡單會當理解佮會當回應
+code-switching-review-criterion-2 = 一般愛有相關性
+code-switching-review-criterion-3 = 無咧使用、抑是強迫推銷、有傷害人，抑是予人感覺冒犯的語言
+code-switching-review-does-not-header = 閣來是<bold>無</bold>包括：
+code-switching-review-offensive-content = <bold>會予人感覺冒犯抑是敏感的資訊</bold>
+code-switching-answer-header = 會予人感覺冒犯抑是敏感的資訊
+code-switching-review-no-1 = 會侵犯個人會當識別資訊的問題
+code-switching-review-no-2 = 會當引發仇恨言論抑是其他有偏見抑是有攻擊性情緒的問題
+code-switching-review-no-3 = 有可能予人分享敏感、有可能引發反應的問題
+# Answering a Question
+code-switching-answer-subheader = 回答問題
