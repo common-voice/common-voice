@@ -14,7 +14,7 @@ varying-pronunciations = 無仝的發音
 misreadings = 誤讀
 offensive-content = 冒犯性內容
 background-noise = 背景噪音
-background-voices = 背景說話聲
+background-voices = 背景講話聲
 volume = 音量
 reader-effects = 聲音的表現
 just-unsure = 敢猶是無確定？
@@ -22,7 +22,7 @@ example = 範例
 
 ## Voice collection sidebar content
 
-varying-pronunciations-explanation-1 = 我們歡迎不同的腔調！當你認為錄音者發音錯誤、或重音放錯地方時，請務必謹慎決定是否要拒絕一段錄音。世界上有很多不同的腔調，有些在你的地區可能不太習慣。對跟你不同腔調的貢獻者，也請保持客氣。
+varying-pronunciations-explanation-1 = 咱歡迎不仝的腔口！若是你認為錄音者的發音怪怪的、抑是重音囥毋著所在的時，請務必謹慎決定是毋是欲拒絕一段錄音。世界上有真濟無仝的腔口，有一寡佇你的地區可能袂習慣。對佮你無仝腔口的貢獻者，嘛請你保持客氣。
 varying-pronunciations-explanation-2 = 反過來說，如果你覺得錄音者根本沒看過這個字，不知道正確發音，只是在有邊讀邊、無邊讀中間時，請拒絕這個錄音。如果你無法確定，請按跳過。
 varying-pronunciations-example = 周潤發跟鳳飛飛
 varying-pronunciations-tip-1 = (有一寡人可能會共「悾闇 (khong-am)」讀做「空安 (khong-an)」)，抑是「心內話 (sim-lāi-ōe)」讀做「新內話 (sin-lāi-ōe)」
