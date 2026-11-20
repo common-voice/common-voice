@@ -54,16 +54,16 @@ background-voices-example-1 = 三疊紀的大恐龍...你敢好？
 background-voices-tip-1 = [佇第一个人錄音時，背景傳來另外一个人的聲音]
 volume-explanation = 錄音者的聲音大小有自然的精差。音量傷懸會破音，抑是音量傷小聽袂（莫看書面文字就）出來唸啥物的時，請愛駁回。
 reader-effects-explanation = 大部分的錄音者是以日常講話的方式錄製。有時陣會聽著「無自然」的錄音，比喻講用喝的、氣音、抑是「戲劇性」的演出的時，你猶是會當接受。毋過請拒絕共落句唱出來，抑是電腦合成的聲音。
-just-unsure-explanation = 如果你遇到本指南中沒有涵蓋的狀況，還請自行盡力判斷。如果真的很難決定，直接按下「略過」到下一句去吧。
-still-have-questions = 還有疑問嗎？
-contact-common-voice = 聯絡 Common Voice 團隊
+just-unsure-explanation = 若是你拄著本指南當中無涵蓋的狀況，閣請你家己判斷。若是真正困難決定，直接揤落「略過」到下一个落句矣。
+still-have-questions = 猶閣有疑問無？
+contact-common-voice = 聯絡仝聲計畫 Common Voice 團隊
 
 ## Sentence collection nav ids
 
 public-domain = 公眾領域
-citing-sentences = 引用句子
-adding-sentences = 新增句子
-reviewing-sentences = 審核句子
+citing-sentences = 引用落句
+adding-sentences = 新增落句
+reviewing-sentences = 審核落句
 sentence-domain = 語句領域
 
 ## Sentence collection sidebar content
