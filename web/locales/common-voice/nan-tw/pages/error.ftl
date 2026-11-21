@@ -17,6 +17,7 @@ error-title-429-with-time =
        *[other] 你傷緊矣，請較慢一寡，等{ $retryAfter }秒閣試一改。
     }
 error-title-500 = 歹勢，有一屑仔物仔怪怪
+error-content-500 = 一个無預期的錯誤發生矣，請你小等一下閣試一改。若是欲幫贊，請加入<matrixLink>Matrix 社里開講</matrixLink>，透過<githubLink>GitHub</githubLink> 監視網站狀況，抑是檢視<discourseLink>咱的 Discourse 線頂論壇</discourseLink>。
 error-title-502 = 連線出問題矣
 error-content-502 = 這馬你無法度建立穩定的網路連線到服侍器，請你小等一下閣試一改。若是欲幫贊，請加入<matrixLink>Matrix 社里開講</matrixLink>，透過<githubLink>GitHub</githubLink> 監視網站狀況，抑是檢視<discourseLink>咱的 Discourse 線頂論壇</discourseLink>。
 error-title-503 = 咧發生意外的停機時間
