@@ -137,3 +137,4 @@ offensive-content-sensitive-information-explanation-explanation-1 = 可能會透
 offensive-content-sensitive-information-explanation-explanation-2 = 可能會造成仇恨言論或其他有偏見或冒犯性情緒的問題
 offensive-content-sensitive-information-explanation-explanation-3 = 可能會造成某人分享敏感內容或可能會觸發狀況的問題
 example-questions-subheader = 問題範例
+example-questions-explanation-1 = 您可以在此工作表找到 <examplePromptsLink>120 筆範例問題。</examplePromptsLink>
