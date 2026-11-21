@@ -4,6 +4,8 @@ guidelines-header-subtitle = 了解如何向 Common Voice 資料庫貢獻語音�
 voice-collection = 收集語音
 sentence-collection = 收集句子
 question-collection = 收集問題
+scripted-speech = 朗讀文本
+spontaneous-speech = 即興發言
 dont-subheader = 不要
 
 ## Voice Collection nav ids
