@@ -6,8 +6,16 @@ banner-error-slow-link = 狀態頁面
 error-something-went-wrong = 歹勢，有一屑仔物仔怪怪
 error-clip-upload = 上傳這段聲音失敗，欲繼續無？
 error-clip-upload-server = 上傳這段聲音到服侍器失敗，閣來上傳抑是等一下閣試一改。
+error-clip-upload-too-large = 你錄音的檔案傷大矣，請閣試一改較細的片斷。
+error-clip-upload-server-error = 服侍器處理你的片斷的時發生錯誤，請重新整理頁面抑是閣試一改。
 error-title-404 = 找不到您想要開啟的頁面
-error-content-404 = 也許從我們的<homepageLink>首頁</homepageLink>重新開始能幫到忙？若要詢問問題，可以加入<matrixLink>Matrix 社群聊天頻道</matrixLink>、關注 <githubLink>GitHub</githubLink> 上的網站問題回報，或到<discourseLink>我們的 Discourse 討論區</discourseLink>讓我們知道。
+error-content-404 = 嘛是對咱的<homepageLink>頭頁</homepageLink>重新開始會當幫贊？若是欲詢問問題，會當加入<matrixLink>Matrix 社里開講頻道</matrixLink>、關注 <githubLink>GitHub</githubLink> 頂懸的網站問題回報，抑是到<discourseLink>咱的 Discourse 討論區</discourseLink>予阮知影。
+error-title-429-no-time = 你傷緊矣，請較慢一寡，等一下閣試一改。
+error-title-429-with-time =
+    { $retryAfter ->
+        [one] 你傷緊矣，請較慢一寡，等{ $retryAfter }秒閣試一改。
+       *[other] 你傷緊矣，請較慢一寡，等{ $retryAfter }秒閣試一改。
+    }
 error-title-500 = 歹勢，有一屑仔物仔怪怪
 error-title-502 = 連線出問題矣
 error-title-503 = 發生了意外的停機時間
