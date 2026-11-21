@@ -104,9 +104,9 @@ adding-sentences-subheader-offensive-content = 冒犯性內容
 adding-sentences-subheader-offensive-content-explanation = <communityGuidelines><communityGuidelines><communityGuidelines>若是落句有冒犯性抑是予人掠狂，例如包含情色內容，抑是違反咱的<communityGuidelines>社里參與指南</communityGuidelines>，你就應該拒絕這个落句。你嘛會當透過 <emailFragment>commonvoice@mozilla.com</emailFragment> 來聯繫來來講分明問題。
 reviewing-sentences-explanation-1 = 若是落句符合上述的標準，請揤「通過」揤仔。
 reviewing-sentences-explanation-2 = 若是落句無符合上述標準，請揤「拒絕」揤仔。
-reviewing-sentences-explanation-3 = 如果您不確定句子是否符合上述標準，也可以略過，跳到下一句。
-reviewing-sentences-explanation-4 = 若您已經沒有句子可以審核了，請幫助我們收集更多句子！
-domain-explanation = 「領域」指的是語句的主旨。目前可以選擇下列領域：
+reviewing-sentences-explanation-3 = 若是里無確定落句是毋是符合上述的標準，嘛會當略過，跳到下一句。
+reviewing-sentences-explanation-4 = 若是你已經無落句會當審核，請幫贊咱來收集閣較濟落句！
+domain-explanation = 「領域」指的是語句的主旨。這馬會當選擇下列的領域：
 
 ## Question collection ids
 
@@ -140,6 +140,7 @@ offensive-content-sensitive-information-explanation-explanation-2 = 會當引發
 offensive-content-sensitive-information-explanation-explanation-3 = 有可能予人分享敏感、有可能引發反應的問題
 example-questions-subheader = 舉例的問題
 example-questions-explanation-1 = 你會當佇這个表單撨揣<examplePromptsLink>問答的例</examplePromptsLink>。
+example-questions-explanation-2 = 若是你欲送出大量的問題，你<githubLink>會當透過咱的 GitHub</githubLink> 抑是共清單寄到<emailFragment>commonvoice@mozilla.com</emailFragment>。
 
 ## Spontaneous Speech sidebar content
 
