@@ -30,3 +30,5 @@ error-duplicate-clips-all =
         [one] 咱無法度上傳你的錄音，進前捌上傳過矣。咱繼續進行！
        *[other] 咱無法度上傳{ $total }錄音，進前捌上傳過矣。咱繼續進行！
     }
+# Warning message shown when only some of the clips could be uploaded (uploaded count will be <5)
+error-duplicate-clips-some = 咱上傳{ $uploaded }你的錄音片段—偆的已經上傳完成矣。咱繼續進行！
