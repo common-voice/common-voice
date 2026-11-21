@@ -18,8 +18,11 @@ error-title-429-with-time =
     }
 error-title-500 = 歹勢，有一屑仔物仔怪怪
 error-title-502 = 連線出問題矣
-error-title-503 = 發生了意外的停機時間
-error-content-503 = 網站將盡快恢復作業。請到我們的 <matrixLink>Matrix 社群聊天頻道</matrixLink>、<githubLink>GitHub</githubLink> 上的網站問題回報，或到 <discourseLink>Discourse 討論區</discourseLink>回報給我們，或取得最新資訊。
+error-content-502 = 這馬你無法度建立穩定的網路連線到服侍器，請你小等一下閣試一改。若是欲幫贊，請加入<matrixLink>Matrix 社里開講</matrixLink>，透過<githubLink>GitHub</githubLink> 監視網站狀況，抑是檢視<discourseLink>咱的 Discourse 線頂論壇</discourseLink>。
+error-title-503 = 咧發生意外的停機時間
+error-content-503 = 網站欲盡量恢復作業。請到咱的 <matrixLink>Matrix 社里開講頻道</matrixLink>、<githubLink>GitHub</githubLink> 頂懸的網站問題回報，抑是到 <discourseLink>Discourse 討論區</discourseLink>回報予咱我們，抑是閱讀上新資訊。
+error-title-504 = 請求的時間無去矣
+error-content-504 = 請求的時間傷久矣，這通常是暫時的，請閣試一改。若是需要鬥腳手，請你加入<matrixLink>Matrix 社里開講</matrixLink>，透過<githubLink>GitHub</githubLink> 監視網站狀況，抑是檢視<discourseLink>咱的 Discourse 線頂論壇</discourseLink>。
 error-code = 錯誤 { $code }
 # Warning message shown when none of the clips could be uploaded
 error-duplicate-clips-all =
