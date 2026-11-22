@@ -210,6 +210,7 @@ led = Lendu
 leu = Kara
 lg = Lugandština
 lij = Ligurština
+lir = Kolokwa
 lke = Kenyi
 lld = Ladin
 ln = Lingalština
