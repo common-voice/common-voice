@@ -27,3 +27,4 @@ download-request-modal-title = тхӀейаккхаран хьажорш
 download-request-modal-description = Хьан ZIP-файлаш тӀейахаран хьажорш хӀорш ю
 download-request-link-text = Zip #{ $offset } цуьнах { $total }
 download-request-metadata-link = Аламан текст
+download-request-link-single = Хьан иштта а URL-хьажорш копи йан йиш ю, хьайн схьаэцарийн программехь дӀатоха йиш ю. 12 сахьт даьлча, уьш болхбеш ца хуьлу, амма хӀокху агӀоне муьлхачу хенахь а юха веана, керла хьажорш йан йиш ю.

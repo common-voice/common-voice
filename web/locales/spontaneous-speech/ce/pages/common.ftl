@@ -38,3 +38,16 @@ tag = Билгало
 ## Not Found Page
 
 not-found-page-header = ца карийна
+
+## Transcription Player - Aria Labels
+
+# Slower playback speed button accessibility/aria label
+player-speed-slow-aria-label = аудио лакхар меллашдаккхар
+# Normal playback speed button accessibility/aria label
+player-speed-normal-aria-label = аудио лакхар юкъара барамехь
+# Faster playback speed button accessibility/aria label
+player-speed-fast-aria-label = аудио лакхар чяхкадаккхар
+# Auto transcription mode button accessibility/aria label
+transcription-mode-auto-aria-label = йолайе йа сацайе дешнашца аудио лакхар
+# Mode menu button accessibility/aria label
+transcription-mode-menu-aria-label = Транскрипцин режиман меню дӀаелла йа дӀачӀагӀа
