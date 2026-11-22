@@ -23,6 +23,12 @@ report-button = Хаамбар
 skip-button = ТIехдалийта
 submit-button = Таллам бан дӀакхачо
 contribute = Дакъа лаца
+# Button text which appears when there are no more resources
+continue-with-skipped = тӀехдалитанчунтӀира ДӀадахьар
+
+## Common aria-labels
+
+keyboard-shortcuts-button-aria-label = гайта пиллигийн комбинаци
 
 ## Navbar
 
@@ -38,11 +44,27 @@ tag = Билгало
 ## Not Found Page
 
 not-found-page-header = ца карийна
+not-found-page-content = Ахь лоьхуш йолу агӀо ца карийна.
+# Privacy and Terms checkbox
+accept-privacy-and-terms = Со Common Voice-н <termsLink>Бехкамашца</termsLink> а, <privacyLink>Шен хаамаш къайлаха латторан хаамца</privacyLink> а реза ву.
+# Locales-Variants
+ms-MY = Малайзин мотт
+el-CY = грекойн мотт
+pt-BR = Бразилин португалхойн мотт
+
+## Language search component
+
+language-search-placeholder = Мотт лаха
+language-search-aria-label = Мотт лаха
 
 ## Transcription Player - Mode Buttons
 
+# Transcription Player - Automatic Mode
+transcription-mode-auto = Ша-ша
 # Player - slower
 player-speed-slow = меллаша
+# Player - normal speed
+player-speed-normal = гIехьа
 # Player - faster
 player-speed-fast = чехка
 
