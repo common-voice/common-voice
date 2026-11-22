@@ -102,11 +102,11 @@ adding-sentences-subheader-special-characters-explanation-1 = 必須使用原文
 adding-sentences-subheader-special-characters-explanation-2 = 各種語言可以在在地化時制定自己的驗證規則。如果沒有特別的驗證規則，則將會顯示英文版的規則給予貢獻者。
 adding-sentences-subheader-offensive-content = 冒犯性內容
 adding-sentences-subheader-offensive-content-explanation = 如果句子有冒犯性或讓人發怒，例如包含情色內容，或違反我們的<communityGuidelines>社群參與指南</communityGuidelines>，你就應該拒絕該句子。你也可以透過 <emailFragment>commonvoice@mozilla.com</emailFragment> 來聯繫我們以釐清問題。
-reviewing-sentences-explanation-1 = 若句子符合上述標準，請點擊「通過」按鈕。
-reviewing-sentences-explanation-2 = 若句子不符合上述標準，請點擊「拒絕」按鈕。
-reviewing-sentences-explanation-3 = 如果您不確定句子是否符合上述標準，也可以略過，跳到下一句。
+reviewing-sentences-explanation-1 = 若句子符合上述標準，請點一下「通過」按鈕。
+reviewing-sentences-explanation-2 = 若句子不符合上述標準，請點一下「拒絕」按鈕。
+reviewing-sentences-explanation-3 = 如果您不確定句子是否符合上述標準，也可以略過，並跳到下一句。
 reviewing-sentences-explanation-4 = 若您已經沒有句子可以審核了，請幫助我們收集更多句子！
-domain-explanation = 「領域」指的是語句的主旨。目前可以選擇下列領域：
+domain-explanation = 「領域」指的是語句的主題。目前可以選擇下列領域：
 
 ## Question collection ids
 
@@ -115,7 +115,7 @@ adding-questions = 加入問題
 ## Question collection sidebar content
 
 what-makes-a-good-question-subheader = 什麼是好問題？
-what-makes-a-good-question-explanation = 一個好的公眾參與資料集問題應該:
+what-makes-a-good-question-explanation = 一個好的公眾參與資料集問題應該是：
 what-makes-a-good-question-explanation-criteria-1 = 容易理解、容易回應
 what-makes-a-good-question-explanation-criteria-2 = 普遍來說有意義
 what-makes-a-good-question-explanation-criteria-3 = 不使用、也不勸誘中傷或冒犯的言語
@@ -127,11 +127,11 @@ spelling-and-pronunciation-explanation = 使用正確的拼寫與符合文法。
 length = 長度
 length-explanation = 請確認問題能用幾句話就能回答。
 dont-add-subheader = 不要加入
-culturally-specific-questions = 文化相關問題
-culturally-specific-questions-explanation = 問題在特定文化背景下具特殊性或對回應者有很多假設
+culturally-specific-questions = 特定文化背景的問題
+culturally-specific-questions-explanation = 在特定文化背景下，具備特殊性或是對回應者有很多假設性的問題
 length-avoid-explanation = 無法在 15 秒內（片段長度上限）輕鬆回答的問題
 process-steps = 程序 / 步驟
-process-steps-explanation = 需要別人列出幾個步驟的問題。  列出步驟提示使用者背出答案而不是更自然的回應。
+process-steps-explanation = 需要別人列出好幾個步驟的問題。  列出步驟提示使用者背誦答案而不是更自然的回應。
 offensive-content-sensitive-information = 冒犯的內容或敏感資訊
 offensive-content-sensitive-information-explanation-explanation-1 = 可能會透過網路向您提供可識別個人資訊的問題
 offensive-content-sensitive-information-explanation-explanation-2 = 可能會造成仇恨言論或其他有偏見或冒犯性情緒的問題
