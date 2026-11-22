@@ -56,6 +56,8 @@ pt-BR = Бразилин португалхойн мотт
 
 language-search-placeholder = Мотт лаха
 language-search-aria-label = Мотт лаха
+language-search-label = Даташка дакъа лацаран мотт бен ца хуьйцу.
+language-search-no-results = метнаш цакарийна
 
 ## Transcription Player - Mode Buttons
 

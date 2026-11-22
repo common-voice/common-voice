@@ -6,7 +6,16 @@ banner-error-slow-link = Хьолан агӀо
 error-something-went-wrong = Бехк ма билла, цхьа гӀалат даьлла
 error-clip-upload = ХӀара кийск чуцайолу, юха хьажа везий?
 error-clip-upload-server = хӀара кийск серверна чуялла ца ло. АгӀо карлаяккха я тӀаьхьа юха хьажа
+error-clip-upload-too-large = Хьан аудио файл чӀогӀа йоккха йу, цундела иза чу цайаккхало. Дехар ду, жимма йоца аудио йан хьажар.
+error-clip-upload-server-error = Хьан аудио кечъеш серверехь гӀалат даьлла. Дехар ду, агӀо карлаяккха я тӀаьхьо юха хьажа.
 error-title-404 = Тхуна и агӀо ца карийра
+error-content-404 = Тхан <homepageLink>коьрта агӀо</homepageLink> хьуна гӀо деш хир ю. Хаттар дан лаахь, <matrixLink>Matrix-н юкъараллин чатехь</matrixLink> дакъа лаца, сайтан гӀалаташ <githubLink>GitHub-ехь</githubLink> талла я <discourseLink>тхан Discourse-форумашка</discourseLink> гӀо.
+error-title-429-no-time = Хьо тӀех чехка ву. Дехар ду, сих цавалар, цхьа хан яьлча юха хьажа.
+error-title-429-with-time =
+    { $retryAfter ->
+        [one] Хьо тӀех чехка ву. Дехар ду, { $retryAfter } секунд яллалц собар де, тӀаккха юха хьажа.
+       *[other] Хьо тӀех чехка ву. Дехар ду, { $retryAfter } секунд яллалц собар де, тӀаккха юха хьажа.
+    }
 error-title-500 = Бехк ма билла, цхьа гӀалат даьлла
 error-content-500 = ЦӀаьххьана гӀалат даьлла.цхьа кӀеззиг хан яьлча юха хьажа. ГӀо эшахь, чу вало тхан<matrixLink>Matrix чате</matrixLink> сайтан тӀехь долчу гӀалаташна тергам бе<githubLink>GitHub-ехь</githubLink> .  я  вола тхан <discourseLink>Discourse форумашка</discourseLink>
 error-title-502 = ЗӀе хаьдда
