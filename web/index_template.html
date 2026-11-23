@@ -38,6 +38,13 @@
       href="https://commonvoice.mozilla.org/img/voice-touch-icon.png" />
 
     <!--
+      Google Consent Mode defaults: deny all storage until the visitor makes a
+      choice in the cookie consent banner. Must stay ABOVE Google Tag Manager
+      and gtag.js, and must not be async/defer, so it runs before they load.
+    -->
+    <script src="/dist/consent-defaults.js"></script>
+
+    <!--
       Note: this inline script is allowed through CSP using a hash.
       To change this, you must also modify the two hashes in server.ts - once
       for what's written here and once for what gets built for production

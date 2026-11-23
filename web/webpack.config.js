@@ -71,6 +71,8 @@ module.exports = (_env, argv) => {
         { from: 'releases', to: 'releases' },
         // copy the locales JSON files
         { from: '../locales', to: 'languages' },
+        // Google Consent Mode defaults, loaded before any Google tag
+        { from: 'consent/consent-defaults.js', to: 'consent-defaults.js' },
       ],
     }),
 
