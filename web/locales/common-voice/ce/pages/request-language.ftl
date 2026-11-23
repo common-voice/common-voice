@@ -1,5 +1,8 @@
 ## Request Language Pages
 
+request-language-heading = Керлачу мотт хьокъехь хатта
+request-language-form-email =
+    .label = Хьан электронни пошта
 request-for-scripted-speech-toggle = Йозанан ларца долчу къамелан дехар
 # text wrapped in <strong></strong> will be shown as bold
 need-help-deciding-platform-explanation-1 = <strong>Кечдина къамел</strong> (ламастехь Common Voice санна хьуна девзаш дерг) — кхузахь ахь хьайн маттахь аламаш тӀира дӀаебеша йиш ю
