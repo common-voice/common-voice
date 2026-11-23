@@ -36,3 +36,20 @@ average-difficulty = Йуккъера
 difficult-difficulty = Хала
 pro-difficulty = ТӀехдиканиг
 lose-goal-progress-warning = Хьан Ӏалашо нисъеш, хьуна хьалха хилла кхиамаш дӀадовла мега
+want-to-continue = Кхин дӀа а доьлхий вай?
+finish-editing = Дуьххьара нисдар чекхдаккхий?
+lose-changes-warning = ХӀинца араваьлча, хьан хийцамаш дӀабоьвр бу
+build-custom-goal = Шен Ӏалашо хӀотто
+help-reach-hours-pluralized =
+    { $hours ->
+        [one] Шен Ӏалашо хӀоттош, { $language } маттахь { $hours } сахьт кхочушдан гӀо де
+       *[other] Шен Ӏалашо хӀоттош, { $language } маттахь { $hours } сахьт кхочушдан гӀо де
+    }
+help-reach-hours-general-pluralized =
+    { $hours ->
+        [one] Шен Ӏалашо хӀоттош, цхьана маттахь { $hours } сахьт кхочушдан Common Voice-на гӀо де
+       *[other] Шен Ӏалашо хӀоттош, цхьана маттахь { $hours } сахьт кхочушдан Common Voice-на гӀо де
+    }
+set-a-goal = Ӏалашо хӀотто
+cant-decide = ХӀун харжа деза ца хаьий?
+activity-needed-calculation-fixed = 100 стага дийнахь 100 предложени дӀаязйаро 13 сахьт аудио кхолла мега. И хьал латтош, 1000 сахьтана тӀекхача 3 баттал кӀезиг хан оьшу.
