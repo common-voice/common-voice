@@ -68,6 +68,34 @@ confirm-goal = Ӏалашо тӀечӀагӀе
 goal-interval-weekly = ХӀора кӀиранах
 # $type is one of share-goal-type-*
 share-n-daily-contribution-goal = «{ $type }» хьаштана хьайн дийнахь { $count } клип йазйаран Ӏалашо дӀасаекъ
+# $type is one of share-goal-type-*
+share-n-weekly-contribution-goal = { $type } бахьанехь хьайн кӀиранан { $count } клипан Ӏалашо дӀасаекъа
 share-goal-type-speak = Алар
 share-goal-type-listen = ЛадогӀар
 share-goal-type-both = Алар а ЛадогӀар а
+# LINK will be replaced with the current URL
+goal-share-text = Ас керла шен Ӏалашо хӀоттийна #CommonVoice-на аз дӀадалархьама — схьакхета сох, адаман озаца муха дуьйцу машенашна Ӏамо гӀо де { $link })
+weekly-goal-created = Хьан кӀиранан Ӏалашо хӀоттийна
+daily-goal-created = Хьан денна Ӏалашо хӀоттийна
+track-progress = Кхузахь а, хьайн статистикин агӀонехь а кхиамех терго йе
+return-to-edit-goal = Хьайн Ӏалашо хийца мел лаьа , кхуза вола
+share-goal = Сан Ӏалашо дӀасаекъа
+
+## Goals
+
+streaks = Цхьа а сацар доцу денош
+days =
+    { $count ->
+        [one] Де
+       *[other] Динош
+    }
+recordings =
+    { $count ->
+        [one] яздар
+       *[other] яздарш
+    }
+validations =
+    { $count ->
+        [one] Бакъдар
+       *[other] Бакъдарш
+    }
