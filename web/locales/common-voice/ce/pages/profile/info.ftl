@@ -29,3 +29,6 @@ native-language =
 profile-form-add-accent = ерла шен акцент тӀетоха
 profile-form-submit-save = Ӏалашде
 profile-form-submit-saved = Ӏалашдина
+why-profile-title = Профиль хӀунда оьшу?
+dashboard = Дашборд
+avatar = Аватар
