@@ -53,3 +53,21 @@ help-reach-hours-general-pluralized =
 set-a-goal = Ӏалашо хӀотто
 cant-decide = ХӀун харжа деза ца хаьий?
 activity-needed-calculation-fixed = 100 стага дийнахь 100 предложени дӀаязйаро 13 сахьт аудио кхолла мега. И хьал латтош, 1000 сахьтана тӀекхача 3 баттал кӀезиг хан оьшу.
+how-many-per-day = Дийнахь маса клип?
+how-many-a-week = кӀирнах маса клип?
+which-goal-type = Ала, ладогӀа я ший а дан лаьий хьуна?
+receiving-emails-info = ХӀинца хьан эл. поштана кхачийта хӀоттийна ду: Ӏалашо дагайаийтар, кхиамийн хаамаш а, Common Voice-х лаьцна зорбанан/керла хаамаш а
+not-receiving-emails-info = : ХӀинца хьан эл. поштана кхачийта хӀоттийна ду ЦА дахийта: Ӏалашонийн дагалоцорш, сайна болу кхиамийн хаамаш а, Common Voice-х лаьцна керла хаамаш а
+n-clips-pluralized =
+    { $count ->
+        [one] клип
+       *[other] клипаш
+    }
+help-share-goal = Кхин а аьзнаш лаха тхуна гӀо де, шайн Ӏалашонах лаций дийца
+confirm-goal = Ӏалашо тӀечӀагӀе
+goal-interval-weekly = ХӀора кӀиранах
+# $type is one of share-goal-type-*
+share-n-daily-contribution-goal = «{ $type }» хьаштана хьайн дийнахь { $count } клип йазйаран Ӏалашо дӀасаекъ
+share-goal-type-speak = Алар
+share-goal-type-listen = ЛадогӀар
+share-goal-type-both = Алар а ЛадогӀар а
