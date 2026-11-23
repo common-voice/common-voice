@@ -25,3 +25,14 @@ show-ranking = Сан Меттиг гайта
 ## Custom Goals
 
 get-started-goals = Ӏалашонашца болх дӀаболабе
+create-custom-goal = Хьайн Ӏалашо хӀоттайе
+goal-type = ХӀун Ӏалашо хӀотто лаьа хьуна?
+both-speak-and-listen = Шинне а
+both-speak-and-listen-long = Шинне а (Дийца а, ладогӀа а)
+daily-goal = ХӀора дийнан Ӏалашо
+weekly-goal = ХӀора кӀиранан Ӏалашо
+easy-difficulty = Атта
+average-difficulty = Йуккъера
+difficult-difficulty = Хала
+pro-difficulty = ТӀехдиканиг
+lose-goal-progress-warning = Хьан Ӏалашо нисъеш, хьуна хьалха хилла кхиамаш дӀадовла мега
