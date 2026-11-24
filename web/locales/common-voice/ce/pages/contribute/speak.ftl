@@ -12,6 +12,8 @@ record-no-mic-found = Микрофон ца карийна.
 record-error-too-short = аудио-дIайаздар тӀех доца дара
 record-error-too-long = аудио-дIайаздар тӀех деха дара.
 record-error-too-quiet = аудио-дIайаздар тӀех тийна ду .
+record-error-empty-recording = хьа а аз дӀа ца диллира. Хьайн микрофон талла а таллий, юха а хьажа.
+record-error-unknown-format = Азан формат билгалъяккха ца ло. Кхин браузер лело хьажа
 record-error-uploaded-clip-corrupted =
     Хьан аудио дIайаздар  доьхначух тера ду. Иза хила тарло:
     • Браузерца йоьзна ампалш (кхечу браузерах пайдаэца хьажа)

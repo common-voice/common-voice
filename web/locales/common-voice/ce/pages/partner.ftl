@@ -13,6 +13,8 @@ partnerships-academia-header = Университеташ, академин бе
 partnerships-academia-description = Йиллина керла хӀуманаш кхоллар — иза оха дечу белхан бух бу. Талламан цхьаьнагӀуллакх, хаамаш гулбар я интервьюш дӀаяхьар бахьана долуш, <emailFragment>зӀене вала.</emailFragment>
 partnerships-small-business-header = Жима бизнес, цаьрца цхьаьна технологешца а, ИИ-ца
 partnerships-small-business-description = Тхо даима а лаьа хаамаш лелочаьргара церан хьашташ а, хьелаш а хаза — хаамаш гулбен платформехь цхьаьна болх барера дӀадоьлла хаамийн могашаллех лаьцна кӀорггера хаамаш баларе кхаччалц, <emailFragment>тхуна хьоьгара хабар хаза лаьа.</emailFragment>
+partnerships-corporates-header = Йаккхи йолу корпорацеш а, платформан компанеш а
+partnerships-corporates-description = Нагахь хьо хаамийн гуламаца кхин а алсамо къамел дан лууш велахь, план йина йолу платформин шоръярехь цхьаьна ахча дохка лаьий хьуна я цхьаьнагӀуллакхан аьттонаш лохуш велахь, <emailFragment>тхуна йоза язде.</emailFragment>
 partnerships-our-partners = Тхан Цхьаьнхой
 # menu item
 partners = Цхьаьнхой
