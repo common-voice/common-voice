@@ -138,3 +138,10 @@ offensive-content-sensitive-information-explanation-explanation-2 = 可能會造
 offensive-content-sensitive-information-explanation-explanation-3 = 可能會造成某人分享敏感內容或可能會觸發狀況的問題
 example-questions-subheader = 問題範例
 example-questions-explanation-1 = 您可以在此表格找到 <examplePromptsLink>120 筆範例問題。</examplePromptsLink>
+example-questions-explanation-2 = 如果你想提交一堆問題的話，你可以<githubLink>透過 GitHub</githubLink> 送出，或是將問是清單寄到<emailFragment>commonvoice@mozilla.com</emailFragment>。
+
+## Spontaneous Speech sidebar content
+
+# Answer Questions
+answer-questions = 回答問題
+answer-questions-subheader = 一般指南
