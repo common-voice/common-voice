@@ -19,7 +19,7 @@ datasets-speech-bubble-content = Aizraujoši jaunumi! Spontāna runa ir ceļā! 
 language = Valoda
 download-dataset-header = Lejupielādēt datu kopu
 download-delta-explainer = Mēs esam veikuši dažas izmaiņas. Delta segmenti satur tikai jaunākos ierakstus kopš pēdējās izlaišanas. <deltaLink>Lasiet vairāk par šo darbu</deltaLink>.
-download-dataset-tag = Atlasiet vajadzīgo valodas datu kopu un izvēlieties versiju, kuru vēlaties lejupielādēt.
+download-dataset-tag = Atlasi vajadzīgo valodas datu kopu un izvēlies versiju, kuru vēlies lejupielādēt!
 # File size in gigabytes
 size = Izmērs
 validated-hr-total = Pārbaudītas st. kopā
