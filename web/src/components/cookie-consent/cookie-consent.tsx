@@ -5,6 +5,8 @@ import {
   loadCookieControl,
 } from './load-cookie-control'
 
+import './cookie-consent.css'
+
 /**
  * Starts the Civic Cookie Control banner once the app has mounted.
  * Civic renders its own UI, so this component renders nothing.

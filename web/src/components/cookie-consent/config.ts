@@ -34,14 +34,69 @@ export type OptionalCookieCategory = {
   onRevoke: () => void
 }
 
+export type CookieControlBranding = {
+  fontFamily: string
+  fontColor: string
+  fontSizeTitle: string
+  fontSizeHeaders: string
+  fontSize: string
+  backgroundColor: string
+  acceptText: string
+  acceptBackground: string
+  rejectText: string
+  rejectBackground: string
+  toggleText: string
+  toggleBackground: string
+  toggleColor: string
+  removeAbout: boolean
+}
+
 export type CookieControlConfig = {
   apiKey: string
   product: string
   initialState: 'open' | 'closed' | 'notify' | 'top' | 'box'
   theme: 'light' | 'dark'
+  layout: 'slideout' | 'popup'
+  position: 'left' | 'right'
+  closeStyle: 'icon' | 'labelled' | 'button'
+  settingsStyle: 'button' | 'link'
+  notifyDismissButton: boolean
+  toggleType: 'slider' | 'checkbox'
   logConsent: boolean
+  branding: CookieControlBranding
+  accessibility: {
+    highlightFocus: boolean
+    outline: boolean
+    overlay: boolean
+  }
   necessaryCookies: string[]
   optionalCookies: OptionalCookieCategory[]
+}
+
+// Colours from the ICV-76 design (Figma "Cookie Control Banner on
+// commonvoice.mozilla.org"). Common Voice has no matching CSS variables yet.
+export const BANNER_COLORS = {
+  violet: '#4e00d4', // banner and panel background
+  gray0: '#ffffff', // text and toggle knob
+  gray1000: '#161616', // button background and toggle label
+  apricot: '#ff944a', // toggle track
+}
+
+export const BRANDING: CookieControlBranding = {
+  fontFamily: '"Mozilla Text", "Open Sans", sans-serif',
+  fontColor: BANNER_COLORS.gray0,
+  fontSizeTitle: '1.125rem', // 18px
+  fontSizeHeaders: '1rem', // 16px
+  fontSize: '1rem', // 16px
+  backgroundColor: BANNER_COLORS.violet,
+  acceptText: BANNER_COLORS.gray0,
+  acceptBackground: BANNER_COLORS.gray1000,
+  rejectText: BANNER_COLORS.gray0,
+  rejectBackground: BANNER_COLORS.gray1000,
+  toggleText: BANNER_COLORS.gray1000,
+  toggleBackground: BANNER_COLORS.apricot,
+  toggleColor: BANNER_COLORS.gray0,
+  removeAbout: false,
 }
 
 // gtag is defined by consent-defaults.js before any Google tag loads.
@@ -131,7 +186,21 @@ export function buildCookieControlConfig(apiKey: string): CookieControlConfig {
     // "notify" shows a bar at the bottom of the page until the visitor chooses.
     initialState: 'notify',
     theme: 'dark',
+    // Preference panel slides in from the right, as in the design.
+    layout: 'slideout',
+    position: 'right',
+    closeStyle: 'icon',
+    settingsStyle: 'link',
+    notifyDismissButton: true,
+    toggleType: 'slider',
     logConsent: true,
+    branding: BRANDING,
+    accessibility: {
+      highlightFocus: true,
+      outline: true,
+      // The page stays usable while the bar is open (no dark overlay).
+      overlay: false,
+    },
     necessaryCookies: NECESSARY_COOKIES,
     optionalCookies: buildOptionalCookies(),
   }

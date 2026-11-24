@@ -1,5 +1,7 @@
 import {
   ANALYTICS_COOKIES,
+  BANNER_COLORS,
+  BRANDING,
   buildCookieControlConfig,
   COOKIE_CONTROL_PRODUCT,
   MARKETING_COOKIES,
@@ -32,6 +34,14 @@ describe('buildCookieControlConfig', () => {
     expect(config.apiKey).toBe('test-key')
     expect(config.product).toBe(COOKIE_CONTROL_PRODUCT)
     expect(config.initialState).toBe('notify')
+  })
+
+  it('applies the Common Voice branding without a page overlay', () => {
+    const config = buildCookieControlConfig('test-key')
+
+    expect(config.branding).toBe(BRANDING)
+    expect(config.branding.backgroundColor).toBe(BANNER_COLORS.violet)
+    expect(config.accessibility.overlay).toBe(false)
   })
 
   it('keeps Common Voice cookies as necessary', () => {
