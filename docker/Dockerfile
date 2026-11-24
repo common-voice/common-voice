@@ -2,6 +2,8 @@ FROM node:18-bookworm
 
 ARG COMMIT="local-build"
 ARG TAG=""
+# Civic Cookie Control API key, baked into the web build (public value)
+ARG COOKIE_CONTROL_API_KEY=""
 ARG UID=10001
 ARG GID=10001
 
@@ -35,6 +37,7 @@ WORKDIR /code
 RUN mkdir /code/logs
 
 ENV GIT_COMMIT_SHA=${COMMIT}
+ENV CV_COOKIE_CONTROL_API_KEY=${COOKIE_CONTROL_API_KEY}
 
 # Install yarn dependencies
 RUN yarn

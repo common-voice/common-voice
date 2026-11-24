@@ -28,6 +28,8 @@ const SOURCES = {
     'ucarecdn.com',
     '*.paypalobjects.com',
     '*.paypal.com',
+    // Civic Cookie Control (cookie consent banner)
+    'https://*.civiccomputing.com',
   ],
   'media-src': [
     'data:',
@@ -60,6 +62,8 @@ const SOURCES = {
     '*.paypalobjects.com',
     'pay.google.com ',
     '*.src.mastercard.com',
+    // Civic Cookie Control (cookie consent banner)
+    'https://cc.cdn.civiccomputing.com',
   ],
   'font-src': [
     "'self'",
@@ -93,6 +97,8 @@ const SOURCES = {
     'https://www.google.com/pay',
     'https://google.com/pay',
     'pay.google.com',
+    // Civic Cookie Control: API key check, geolocation and consent logging
+    'https://*.civiccomputing.com',
   ],
   'frame-src': [
     '*.fundraiseup.com',
