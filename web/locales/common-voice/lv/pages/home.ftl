@@ -6,8 +6,8 @@ home-cta = Runā skaļi, veic ieguldījumu šeit!
 wall-of-text-start = Balss ir dabiska, balss ir cilvēciska. Tieši tāpēc mēs vēlamies izveidot balss atpazīšanas tehnoloģiju, kuru varētu lietot dažādās ierīcēs. Bet, lai radītu šādu balss tehnoloģiju, ir nepieciešams daudz balss ierakstu.
 wall-of-text-more-mobile = Lielākā daļa datu, ko izmanto lielie uzņēmumi, nav pieejami visiem cilvēkiem. Tas kavē inovāciju. Tāpēc esam uzsākuši Common Voice - projektu, kas padarīs balss atpazīšanu pieejamu ikvienam.
 wall-of-text-more-desktop =
-    Tagad jūs varat ierakstīt savu balsi, lai palīdzētu mums izveidot atvērtā pirmkoda balss datubāzi, ko var izmantot ikviens,
-    veidojot inovatīvas lietotnes ierīcēm un tīmeklim. Lasiet teikumu, lai palīdzētu mašīnām iemācīt, kā runā cilvēki. Pārbaudiet citu cilvēku ierakstus, lai uzlabotu datu kvalitāti. Tas ir tik vienkārši!
+    Tagad Tu vari ierakstīt savu balsi, lai palīdzētu mums izveidot atvērtā pirmkoda balss datubāzi, ko ikviens var izmantot,
+    lai veidotu jaunieveduma lietotnes ierīcēm un tīmeklim. Lasi teikumu, lai palīdzētu mašīnām iemācīt, kā cilvēki runā! Pārbaudi citu cilvēku ierakstus, lai uzlabotu datu kvalitāti! Tas ir tik vienkārši!
 wall-of-text-first = Balss ir dabiska, balss ir cilvēciska. Tieši tāpēc mēs vēlamies izveidot balss atpazīšanas tehnoloģiju, kuru varētu lietot dažādās ierīcēs. Bet, lai radītu šādu balss tehnoloģiju, ir nepieciešams daudz balss ierakstu.
 wall-of-text-second = Lielākā daļa datu, ko izmanto lielie uzņēmumi, nav pieejami visiem cilvēkiem. Tas kavē inovāciju. Tāpēc mēs esam uzsākuši Common Voice - projektu, kas padarīs balss atpazīšanu pieejamu ikvienam.
 show-wall-of-text = Lasīt vairāk

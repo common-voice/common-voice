@@ -1,7 +1,7 @@
 ## Check Transcriptions page
 
 # actionType will be Click (for desktop devices) or Tap (for mobile devices)
-transcription-page-instruction = { $actionType } <playIcon></playIcon> Klausieties audio ierakstu un pārbaudiet transkripciju. Vai tā atbilst? Ja nē, rediģējiet to, lai tā pilnībā atbilstu.
+transcription-page-instruction = { $actionType } <playIcon></playIcon> Klausies skaņas ierakstu un pārbaudi pierakstīto! Vai tas atbilst? Ja nē, labo to, lai tā pilnībā atbilstu!
 # Header of the textbox that contains a transcription of an audio
 check-editbox-header = Pārbaude
 # Message which appears when there are no more resources on this page
