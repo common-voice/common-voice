@@ -73,7 +73,7 @@ cjk = Чокве
 ckb = Юккхера Курдийн
 cnh = хIака чийнан
 co = Корсикан
-cpx = Х1енг ХIуан
+cpx = ХIенг ХIуан
 cpy = Ашенинка Къилбан Укаялан
 crh = Криман Татарийн
 cs = Чехийн
@@ -210,6 +210,7 @@ led = Ленду
 leu = Кара
 lg = Луганда
 lij = Лигуриан
+lir = колоква
 lke = Кени
 lld = Ладин
 ln = Лингала
@@ -514,6 +515,26 @@ announcement-mdc-button-aria-text = Керлачу юкъадилларехь с
 
 # Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
 announcement-release-delay = Хьоме юкъаралла, тхо хӀинца арахецар тӀехь болх беш ду. Тхо тешна ду, тӀедогӀучу деношкахь иза дакъошкахь дӀадолор ду аьлла <mdcLink>Mozilla Data Collective тӀехь.</mdcLink>
+
+## Release Announcement
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release = Хьоме юкъаралла, керла арахецар хӀинца дуьззина <mdcLink>Mozilla Data Collective тӀехь ду</mdcLink>. Юкъаралло ша а, юкъараллина лерина а кхоьллина 500 сов дуьненан хаамийн гуламаш чубахкийта дӀахьакхало.
+
+## Pre-Release Announcement (dates TBD)
+
+# Text wrapped in <cvDatasheetsLink></cvDatasheetsLink> will be rendered as an external link to the cv-datasheets GitHub repo
+announcement-pre-release = Хьоме юкъаралла, арахецаран хан тӀекхочуш ю. Дехар до, дӀахьолаш таллар а, йозане даккхар а, иштта шайн хаамийн кехат карладаккха <cvDatasheetsLink>cv-datasheets </cvDatasheetsLink>тӀе а гӀолаш.
+
+## Release Commencing
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-commencing = Хьоме юкъаралла, тхо арахецаран тӀаьххьарчу дийне кхечира а, хаамийн гуламаш цхьаьнатухуш ду. Керла арахецар цхьа масех де даьлча <mdcLink>Mozilla Data Collective</mdcLink> тӀехь карор ду.
+
+## Downtime Announcements
+
+# Generic scheduled downtime for next Sunday early hours
+announcement-scheduled-downtime = Хьоме юкъаралла, тхайн системаш тояран Ӏалашонца тхо йоца сацаран хенаш дӀахӀиттайо, уьш дукха хьолахь масех сахьтехь чекхйовлу. РогӀера сацаран хан кху кӀиранан кӀирандийнахь Ӏуьйранна хир ю. Нагахь шуна цхьа а бала тӀехӀоттахь, тхоьга Matrix чохь зӀене довла.
 
 ## Common Language/Dataset Selector & SearchBox Related
 
