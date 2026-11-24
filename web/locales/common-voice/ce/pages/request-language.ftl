@@ -28,4 +28,7 @@ need-help-deciding-platform-explanation-3 = Нагахь хьайн мотт п�
 request-language-search-bar = ХӀокхузахь хьайн меттан цӀе яздан доло йиш ю хьан; нагахь иза Common Voice-на тӀехь хӀинца а бацахь, хьайн меттан хаамашца кехат дуза аьтто хир бу хьан
 request-language-found-pontoon-not-launched = Хьан мотт хӀинцале а Common Voice меттанийн могӀарехь бу. Платформан интерфейс <pontoonLink>кхузахь</pontoonLink> гочъеш, ахь Кечдинчу къамелехь мотт схьабала гӀо дан йиш ю. Интерфейс 60% гочйина хила еза; йа ‘web/locales/en/pages/contribute/*.ftl’ чуьра коьрта могӀанаш 100% гочдан йиш ю (уьш пхи файл ю), тӀаккха интерфейс ша-шех схьаеллур ю.
 request-language-found-cv-contribution = Дека дойла! Хьайн мотт хьалххе Common Voice-н <strong>Йозанан къамелехь болх беш бу</strong>. Ахь <homePageLink>кхузахь</homePageLink> дакъа лаца йиш ю.
+request-language-found-cv-sentences-lack = Хьайн мотт хьалххе Common Voice-н <strong>меттанийн могӀамехь бу</strong>. Ахь аламаш <sentencesContributionLink>кхузахь</sentencesContributionLink> тӀетохарца Йозанан къамел  дӀадолорехь гӀо дан йиш ю.
+request-language-found-spontaneous-speech = Хьайн мотт хьалххе Common Voice-н <strong>Спонтанни къамелехь болх беш бу</strong>. Дакъа лаца <spontaneousSpeechLink>кхузахь тӀетаӀаде:</spontaneousSpeechLink> дакъа лаца доладале хьалха дакъа лацаран/хаамийн гуламан мотт хийца диц ма де!
 request-language-already-available-scs = Йозанан ларца къамел кийча ду
+request-language-already-available-sps = Спонтанни къамел хьалххе чудиллина ду
