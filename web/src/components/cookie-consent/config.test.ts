@@ -7,6 +7,10 @@ import {
   MARKETING_COOKIES,
   NECESSARY_COOKIES,
 } from './config'
+import { getCookieControlStrings } from './strings'
+
+// Each string is its Fluent id, so tests can see where text came from.
+const STRINGS = getCookieControlStrings({ getString: (id: string) => id })
 
 describe('buildCookieControlConfig', () => {
   const gtag = jest.fn()
@@ -21,15 +25,16 @@ describe('buildCookieControlConfig', () => {
   })
 
   const category = (name: string) => {
-    const found = buildCookieControlConfig('test-key').optionalCookies.find(
-      c => c.name === name
-    )
+    const found = buildCookieControlConfig(
+      'test-key',
+      STRINGS
+    ).optionalCookies.find(c => c.name === name)
     if (!found) throw new Error(`missing category ${name}`)
     return found
   }
 
   it('passes the API key and product through', () => {
-    const config = buildCookieControlConfig('test-key')
+    const config = buildCookieControlConfig('test-key', STRINGS)
 
     expect(config.apiKey).toBe('test-key')
     expect(config.product).toBe(COOKIE_CONTROL_PRODUCT)
@@ -37,15 +42,26 @@ describe('buildCookieControlConfig', () => {
   })
 
   it('applies the Common Voice branding without a page overlay', () => {
-    const config = buildCookieControlConfig('test-key')
+    const config = buildCookieControlConfig('test-key', STRINGS)
 
     expect(config.branding).toBe(BRANDING)
     expect(config.branding.backgroundColor).toBe(BANNER_COLORS.violet)
     expect(config.accessibility.overlay).toBe(false)
   })
 
+  it('uses the localized text for the banner and categories', () => {
+    const config = buildCookieControlConfig('test-key', STRINGS)
+
+    expect(config.text).toBe(STRINGS.text)
+    expect(category('analytics')).toMatchObject({
+      label: 'cookie-consent-analytics-label',
+      description: 'cookie-consent-analytics-description',
+    })
+    expect(category('marketing').label).toBe('cookie-consent-marketing-label')
+  })
+
   it('keeps Common Voice cookies as necessary', () => {
-    const config = buildCookieControlConfig('test-key')
+    const config = buildCookieControlConfig('test-key', STRINGS)
 
     expect(config.necessaryCookies).toBe(NECESSARY_COOKIES)
     expect(config.necessaryCookies).toEqual(
@@ -54,7 +70,7 @@ describe('buildCookieControlConfig', () => {
   })
 
   it('defines analytics and marketing categories', () => {
-    const config = buildCookieControlConfig('test-key')
+    const config = buildCookieControlConfig('test-key', STRINGS)
 
     expect(config.optionalCookies.map(c => c.name)).toEqual([
       'analytics',

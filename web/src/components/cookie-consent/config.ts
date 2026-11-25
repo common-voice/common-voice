@@ -34,6 +34,38 @@ export type OptionalCookieCategory = {
   onRevoke: () => void
 }
 
+// Civic's `text` keys that the banner shows. The values come from Fluent
+// (see strings.ts), so they follow the page language.
+export type CookieControlText = {
+  notifyTitle: string
+  notifyDescription: string
+  accept: string
+  reject: string
+  settings: string
+  title: string
+  intro: string
+  acceptSettings: string
+  rejectSettings: string
+  necessaryTitle: string
+  necessaryDescription: string
+  on: string
+  off: string
+  closeLabel: string
+  cornerButton: string
+  landmark: string
+}
+
+type CategoryText = {
+  label: string
+  description: string
+}
+
+export type CookieControlStrings = {
+  text: CookieControlText
+  analytics: CategoryText
+  marketing: CategoryText
+}
+
 export type CookieControlBranding = {
   fontFamily: string
   fontColor: string
@@ -64,6 +96,7 @@ export type CookieControlConfig = {
   toggleType: 'slider' | 'checkbox'
   logConsent: boolean
   branding: CookieControlBranding
+  text: CookieControlText
   accessibility: {
     highlightFocus: boolean
     outline: boolean
@@ -145,23 +178,20 @@ export const MARKETING_COOKIES = [
   '_gcl_*',
 ]
 
-// TODO: move label/description into Fluent (.ftl) so they are translated.
-export function buildOptionalCookies(): OptionalCookieCategory[] {
+export function buildOptionalCookies(
+  strings: CookieControlStrings
+): OptionalCookieCategory[] {
   return [
     {
       name: 'analytics',
-      label: 'Analytics cookies',
-      description:
-        'Analytics cookies help us improve Common Voice by collecting and reporting information on how you use it.',
+      ...strings.analytics,
       cookies: ANALYTICS_COOKIES,
       onAccept: () => updateGoogleConsent({ analytics_storage: 'granted' }),
       onRevoke: () => updateGoogleConsent({ analytics_storage: 'denied' }),
     },
     {
       name: 'marketing',
-      label: 'Marketing cookies',
-      description:
-        'Marketing cookies help us measure the effectiveness of our campaigns.',
+      ...strings.marketing,
       cookies: MARKETING_COOKIES,
       onAccept: () =>
         updateGoogleConsent({
@@ -179,7 +209,10 @@ export function buildOptionalCookies(): OptionalCookieCategory[] {
   ]
 }
 
-export function buildCookieControlConfig(apiKey: string): CookieControlConfig {
+export function buildCookieControlConfig(
+  apiKey: string,
+  strings: CookieControlStrings
+): CookieControlConfig {
   return {
     apiKey,
     product: COOKIE_CONTROL_PRODUCT,
@@ -195,6 +228,7 @@ export function buildCookieControlConfig(apiKey: string): CookieControlConfig {
     toggleType: 'slider',
     logConsent: true,
     branding: BRANDING,
+    text: strings.text,
     accessibility: {
       highlightFocus: true,
       outline: true,
@@ -202,6 +236,6 @@ export function buildCookieControlConfig(apiKey: string): CookieControlConfig {
       overlay: false,
     },
     necessaryCookies: NECESSARY_COOKIES,
-    optionalCookies: buildOptionalCookies(),
+    optionalCookies: buildOptionalCookies(strings),
   }
 }
