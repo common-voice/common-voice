@@ -31,3 +31,8 @@ cookie-consent-close = Close
 cookie-consent-corner-button = Set cookie preferences
 # Accessible name of the cookie banner region, read by screen readers
 cookie-consent-landmark = Cookie preferences
+
+## Footer
+
+# Button in the site footer that reopens the preference panel
+cookie-consent-footer-link = Cookie preferences

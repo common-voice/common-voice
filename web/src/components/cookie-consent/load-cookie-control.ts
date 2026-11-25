@@ -55,6 +55,11 @@ export function loadCookieControl(
   return true
 }
 
+/** Opens Civic's preference panel so the visitor can change their choice. */
+export function openCookieControl(): void {
+  window.CookieControl?.open?.()
+}
+
 /**
  * What Civic is showing right now. Civic removes the bar and the panel from
  * the page when they close.
