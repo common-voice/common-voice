@@ -3,6 +3,7 @@ import {
   getCookieControlApiKey,
   getVisibleState,
   loadCookieControl,
+  openCookieControl,
   updateCookieControlText,
 } from './load-cookie-control'
 import { getCookieControlStrings } from './strings'
@@ -113,6 +114,87 @@ describe('getVisibleState', () => {
 
     bar.remove()
     panel.remove()
+  })
+})
+
+describe('openCookieControl', () => {
+  let root: HTMLElement
+  let opener: HTMLButtonElement
+  let cornerButton: HTMLButtonElement
+
+  // Fake Civic: open() adds the panel; closing removes it and, like Civic,
+  // focuses the corner button.
+  const openPanel = () => {
+    const panel = document.createElement('div')
+    panel.id = 'ccc-content'
+    root.appendChild(panel)
+  }
+  const closePanel = () => {
+    document.getElementById('ccc-content')?.remove()
+    cornerButton.focus()
+  }
+  const nextTick = () => new Promise(resolve => setTimeout(resolve))
+
+  beforeEach(() => {
+    root = document.createElement('div')
+    root.id = 'ccc'
+    cornerButton = document.createElement('button')
+    root.appendChild(cornerButton)
+    opener = document.createElement('button')
+    document.body.append(root, opener)
+    window.CookieControl = { open: jest.fn(openPanel) }
+  })
+
+  afterEach(() => {
+    root.remove()
+    opener.remove()
+    delete window.CookieControl
+  })
+
+  it('returns focus to the button that opened the panel', async () => {
+    opener.focus()
+
+    openCookieControl()
+    await nextTick() // let the observer see the panel
+    closePanel()
+    await nextTick()
+    await nextTick()
+
+    expect(window.CookieControl.open).toHaveBeenCalledTimes(1)
+    expect(document.activeElement).toBe(opener)
+  })
+
+  it('leaves focus where the visitor moved it', async () => {
+    const pageInput = document.createElement('input')
+    document.body.appendChild(pageInput)
+    opener.focus()
+
+    openCookieControl()
+    await nextTick()
+    document.getElementById('ccc-content')?.remove()
+    pageInput.focus() // e.g. the visitor clicked into a form
+    await nextTick()
+    await nextTick()
+
+    expect(document.activeElement).toBe(pageInput)
+    pageInput.remove()
+  })
+
+  it('leaves focus alone while the panel is still open', async () => {
+    opener.focus()
+
+    openCookieControl()
+    await nextTick()
+    await nextTick()
+
+    expect(document.getElementById('ccc-content')).not.toBeNull()
+    expect(document.activeElement).toBe(opener)
+  })
+
+  it('does nothing before Civic has loaded', () => {
+    delete window.CookieControl
+
+    expect(() => openCookieControl()).not.toThrow()
   })
 })
 

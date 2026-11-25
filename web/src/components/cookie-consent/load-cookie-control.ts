@@ -55,9 +55,61 @@ export function loadCookieControl(
   return true
 }
 
-/** Opens Civic's preference panel so the visitor can change their choice. */
+/**
+ * Opens Civic's preference panel so the visitor can change their choice.
+ * When the panel closes, focus goes back to the element that opened it
+ * (for example the footer button), so keyboard and screen-reader users
+ * don't lose their place on the page.
+ */
 export function openCookieControl(): void {
-  window.CookieControl?.open?.()
+  if (typeof window.CookieControl?.open !== 'function') {
+    return
+  }
+
+  const opener = document.activeElement
+  window.CookieControl.open()
+
+  if (opener instanceof HTMLElement && opener !== document.body) {
+    returnFocusWhenPanelCloses(opener)
+  }
+}
+
+// Only one panel can be open, so only one opener is watched at a time.
+let panelObserver: MutationObserver | null = null
+
+function returnFocusWhenPanelCloses(opener: HTMLElement): void {
+  const root = document.getElementById('ccc')
+  if (!root || root.contains(opener)) {
+    return
+  }
+
+  panelObserver?.disconnect()
+
+  let panelSeen = Boolean(document.getElementById('ccc-content'))
+  const observer = new MutationObserver(() => {
+    if (document.getElementById('ccc-content')) {
+      panelSeen = true
+      return
+    }
+    if (!panelSeen) {
+      return
+    }
+
+    observer.disconnect()
+    panelObserver = null
+    // Civic moves focus to its corner button as the panel closes, so wait
+    // for that before moving it back.
+    setTimeout(() => {
+      const active = document.activeElement
+      // Leave focus alone if the visitor has already moved it to the page.
+      const focusIsCivics = active === document.body || root.contains(active)
+      if (opener.isConnected && focusIsCivics) {
+        opener.focus()
+      }
+    })
+  })
+  observer.observe(root, { childList: true, subtree: true })
+  panelObserver = observer
 }
 
 /**
