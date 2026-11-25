@@ -6,7 +6,7 @@ jobs:
   test-server:
     services:
       mysql:
-        image: mysql:5.7
+        image: mysql:8.0.31
         ports:
           - 3306:3306
         env:
@@ -17,7 +17,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [18.x]
+        node-version: [24.x]
     steps:
       - uses: actions/checkout@v4
       - name: Use Node.js ${{ matrix.node-version }}
