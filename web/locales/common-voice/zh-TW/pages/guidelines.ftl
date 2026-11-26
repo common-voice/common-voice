@@ -146,6 +146,12 @@ example-questions-explanation-2 = 如果你想提交一堆問題的話，你可�
 answer-questions = 回答問題
 answer-questions-subheader = 一般指南
 answer-questions-explanation-1 = 先花點時間思考問題，考慮要怎麼回應，但不用太制式。點一下「錄音」圖示，一旦錄音完成您可以自己聽一次，決正是重錄、刪除或是提交。
+answer-questions-explanation-2 = 記註 - 萬一結巴、停頓或是重覆字句也別擔心。這些資訊對於想要打造包容性、真實世界當中的語音辨識工具的工程師來說都是相當重要的資料。
+answer-questions-tip-1 = 請在相對安靜的場所錄音
+answer-questions-tip-2 = 請選擇網路連線良好的地方
+answer-questions-tip-3b = 嘗試在15--30秒之間回答完成
+answer-questions-tip-4 = 避免仇恨、煽動或是其他冒犯性的言論
+answer-questions-tip-5 = 請用與朋友交談，自然地方式 - 使用您的口音、腔調與習慣用詞
 answer-questions-tip-6 = 僺持音量一致 - 不要突然大叫或是唱歌
 # Transcribe the Audio
 transcribe-the-audio = 轉錄語音
@@ -159,3 +165,28 @@ transcribe-the-audio-subheader-1-explanation-example-1 = 寫下不流利的地�
 transcribe-the-audio-subheader-1-explanation-example-2 = 標示噪音事件例如咳嗽或大笑
 transcribe-the-audio-subheader-1-explanation-example-3 = 標示明顯的干擾噪音例如背景噪音或汽車喇叭
 transcribe-the-audio-subheader-1-explanation-example-4 = 應準確紀錄聽到的文法變體與俚語。不要更正或編輯他人的錄音內容。
+transcribe-the-audio-subheader-2-explanation-1 = 數字與符號需要轉為文字，而不應是數字或特殊符號。範例：
+transcribe-the-audio-subheader-2-explanation-2 = 首字母縮略詞應依照標準大小寫規則與該語言中通常使用的方式相同。不應該只依照語音轉錄。範例：
+# text wrapped in correct will be shown as green text in the UI
+transcribe-the-audio-subheader-2-example-1-correct = <correct>正確</correct>：從這裡還有100英哩的距離
+# text wrapped in wrong will be shown as red text in the UI
+transcribe-the-audio-subheader-2-example-1-wrong = <wrong>錯誤</wrong>離這裡還有100英哩
+tags-table-header-1 = 標籤
+tags-table-header-2 = 意思
+tags-laugh = 笑聲
+tags-disfluency = 不流暢語句
+tags-unclear = 聽不清楚
+tags-noise = 噪音
+tags-laugh-explanation = 笑聲。
+
+## Review the Transcription
+
+review-the-transcription = 審核轉錄文本
+review-the-transcription-subheader = 一般指南
+
+## Code-Switching
+
+adding-a-question = 加入問題
+# Adding a Question
+code-switching-adding-question-subheader = 什麼是好問題？
+code-switching-adding-question-explanation = 一個好的公眾參與資料集問題應該是：
