@@ -190,3 +190,29 @@ adding-a-question = 加入問題
 # Adding a Question
 code-switching-adding-question-subheader = 什麼是好問題？
 code-switching-adding-question-explanation = 一個好的公眾參與資料集問題應該是：
+code-switching-adding-question-criteria-1 = 容易理解、容易回應
+code-switching-adding-question-criteria-2 = 有普遍相關性
+code-switching-adding-question-criteria-3 = 不使用、也不暗指中傷或冒犯的言語
+code-switching-adding-question-note = 您可能也會需要考慮不同的語境與領域的狀況。
+# What types of questions to add
+code-switching-types-subheader = 要新增哪些類型的問題
+code-switching-use-bilingual-prompts-header = 使用雙語問題
+code-switching-use-bilingual-prompts-explanation = 問題當中包含兩種語言的雙語問題範例：
+code-switching-direct-quotes-header = 要求直接引述或重現原話情境
+code-switching-informal-scenarios-header = 探索非正式情境
+code-switching-dont-header = 不要這樣做
+code-switching-dont-1 = 不要使用太正式的語言
+# Reviewing a Question
+code-switching-review-subheader = 審核問題
+code-switching-review-intro = 請確認問題符合以下條件：
+code-switching-review-criterion-1 = 容易理解、容易回應
+code-switching-review-criterion-2 = 需要有一般相關性
+code-switching-review-criterion-3 = 不使用、也不暗指中傷或冒犯的言語
+code-switching-review-does-not-header = 並且 <bold>不</bold> 包含:
+code-switching-review-offensive-content = <bold>冒犯的內容或敏感資訊</bold>
+code-switching-answer-header = 冒犯的內容或敏感資訊
+code-switching-review-no-1 = 可能會透過網路向您提供個人隱私資訊的問題
+code-switching-review-no-2 = 可能會造成仇恨言論或其他有偏見或冒犯性情緒的問題
+code-switching-review-no-3 = 可能會造成某人分享敏感內容或可能會觸發狀況的問題
+# Answering a Question
+code-switching-answer-subheader = 回答問題
