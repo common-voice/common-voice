@@ -198,6 +198,7 @@ code-switching-adding-question-note = 您可能也會需要考慮不同的語境
 code-switching-types-subheader = 要新增哪些類型的問題
 code-switching-use-bilingual-prompts-header = 使用雙語問題
 code-switching-use-bilingual-prompts-explanation = 問題當中包含兩種語言的雙語問題範例：
+code-switching-use-bilingual-prompts-explanation-example = 「 你那天何時回家？」「你彼工當時轉來厝內？」
 code-switching-direct-quotes-header = 要求直接引述或重現原話情境
 code-switching-informal-scenarios-header = 探索非正式情境
 code-switching-dont-header = 不要這樣做
