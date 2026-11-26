@@ -222,3 +222,5 @@ code-switching-answer-bullet-2 = 想像您傳訊息給朋友，或向別人說�
 code-switching-answer-bullet-3 = 使用您實際會用到的詞彙，即便是借用外來語或是混用也一樣
 code-switching-answer-bullet-4 = 沒有「完美」的回覆
 code-switching-authentic-header = 自然、真實地回答
+code-switching-authentic-speak = <bold>就像平常和親友聊天一樣自然地說話。</bold>如果你在日常生活中會混用不同語言，在這裡也可以這麼做。範例：
+code-switching-authentic-speak-example = 「阿玉，我跟她說我沒辦法去，但她就回我：『你最好給我出現！』」
