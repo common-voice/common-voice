@@ -43,6 +43,11 @@
             [dir='rtl'] & {
                 transform: translate(-60%, 70px);
             }
+
+            /* On narrow screens the blurred card would show behind the overlay text */
+            @media (--xs-down) {
+                opacity: 0;
+            }
         }
     }
 
@@ -107,6 +112,11 @@
     z-index: var(--middle-z-index);
     overflow: auto;
     animation: slide-in-left var(--easing) var(--transition-duration-slow);
+
+    /* Use the full width, leaving room for the close button */
+    @media (--xs-down) {
+        padding-inline: 25px 60px;
+    }
 
     & .close-overlay {
         position: absolute;
