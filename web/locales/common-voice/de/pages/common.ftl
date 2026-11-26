@@ -204,6 +204,7 @@ kw = Cornish
 kxp = Koli, Wadiyara
 ky = Kirgisisch
 kzi = Kelabit
+la = Lateinisch
 laj = Lango
 lb = Luxemburgisch
 led = Lendu
