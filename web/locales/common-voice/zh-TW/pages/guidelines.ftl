@@ -216,3 +216,9 @@ code-switching-review-no-2 = 可能會造成仇恨言論或其他有偏見或冒
 code-switching-review-no-3 = 可能會造成某人分享敏感內容或可能會觸發狀況的問題
 # Answering a Question
 code-switching-answer-subheader = 回答問題
+code-switching-answer-intro = 我們的目標是要用自然的方式回應問題 - 就如同您在實際生活中對話一樣。我們想要了解不同語言在日常用語中是如何混用的。
+code-switching-answer-bullet-1 = 想想現實生活中的時刻或情境: 開玩笑、爭執、傳統
+code-switching-answer-bullet-2 = 想像您傳訊息給朋友，或向別人說故事
+code-switching-answer-bullet-3 = 使用您實際會用到的詞彙，即便是借用外來語或是混用也一樣
+code-switching-answer-bullet-4 = 沒有「完美」的回覆
+code-switching-authentic-header = 自然、真實地回答
