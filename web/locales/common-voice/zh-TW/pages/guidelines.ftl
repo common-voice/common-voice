@@ -51,7 +51,7 @@ background-noise-tip-1 = [被背景噪音打斷]
 background-noise-tip-2 = [聽不清楚某些字]
 background-voices-explanation = 可以接受一定程度的背景噪音，但如果您聽到錄音中有其他人在說話，則應駁回該錄音。這種情況常發生於身邊開著電視，或附近有人在交談。
 background-voices-example-1 = 三疊紀的大恐龍...你好了嗎？
-background-voices-tip-1 = [在第一個人錄音時，背景傳來另一個人的聲音]
+background-voices-tip-1 = 你要來嗎？[另一個人呼喚]
 volume-explanation = 錄音者的聲音大小會有自然差異。當音量太高以至於破音，或音量太小以至於（不看書面文字就）不知道在唸什麼時，請駁回。
 reader-effects-explanation = 大部分的錄音者是以日常說話的方式錄製。當偶而聽到「不自然」的錄音，例如用喊的、氣音、或者「戲劇性」的演出時，仍可以接受。但請拒絕把句子唱出來，或是電腦合成的聲音。
 just-unsure-explanation = 如果你遇到本指南中沒有涵蓋的狀況，還請自行盡力判斷。如果真的很難決定，直接按下「略過」到下一句去吧。
@@ -145,3 +145,14 @@ example-questions-explanation-2 = 如果你想提交一堆問題的話，你可�
 # Answer Questions
 answer-questions = 回答問題
 answer-questions-subheader = 一般指南
+# Transcribe the Audio
+transcribe-the-audio = 轉錄語音
+transcribe-the-audio-subheader-1 = 一般指南
+transcribe-the-audio-subheader-2 = 數字與首字母縮略語
+transcribe-the-audio-subheader-3 = 特殊標籤
+transcribe-the-audio-subheader-4 = 斷字、誤開頭、重複的字
+transcribe-the-audio-subheader-5 = 文法錯誤與俗語
+transcribe-the-audio-subheader-1-explanation = 一般來說您應該把聽到的所有內容寫下來。這包含 ：
+transcribe-the-audio-subheader-1-explanation-example-1 = 寫下不流利的地方，包含猶豫與重複的地方
+transcribe-the-audio-subheader-1-explanation-example-2 = 標示噪音事件例如咳嗽或大笑
+transcribe-the-audio-subheader-1-explanation-example-3 = 標示明顯的干擾噪音例如背景噪音或汽車喇叭
