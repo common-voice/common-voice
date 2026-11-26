@@ -145,6 +145,8 @@ example-questions-explanation-2 = 如果你想提交一堆問題的話，你可�
 # Answer Questions
 answer-questions = 回答問題
 answer-questions-subheader = 一般指南
+answer-questions-explanation-1 = 先花點時間思考問題，考慮要怎麼回應，但不用太制式。點一下「錄音」圖示，一旦錄音完成您可以自己聽一次，決正是重錄、刪除或是提交。
+answer-questions-tip-6 = 僺持音量一致 - 不要突然大叫或是唱歌
 # Transcribe the Audio
 transcribe-the-audio = 轉錄語音
 transcribe-the-audio-subheader-1 = 一般指南
@@ -156,3 +158,4 @@ transcribe-the-audio-subheader-1-explanation = 一般來說您應該把聽到的
 transcribe-the-audio-subheader-1-explanation-example-1 = 寫下不流利的地方，包含猶豫與重複的地方
 transcribe-the-audio-subheader-1-explanation-example-2 = 標示噪音事件例如咳嗽或大笑
 transcribe-the-audio-subheader-1-explanation-example-3 = 標示明顯的干擾噪音例如背景噪音或汽車喇叭
+transcribe-the-audio-subheader-1-explanation-example-4 = 應準確紀錄聽到的文法變體與俚語。不要更正或編輯他人的錄音內容。
