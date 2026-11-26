@@ -171,6 +171,14 @@ transcribe-the-audio-subheader-2-explanation-2 = 首字母縮略詞應依照標�
 transcribe-the-audio-subheader-2-example-1-correct = <correct>正確</correct>：從這裡還有100英哩的距離
 # text wrapped in wrong will be shown as red text in the UI
 transcribe-the-audio-subheader-2-example-1-wrong = <wrong>錯誤</wrong>離這裡還有100英哩
+# text wrapped in correct will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-correct = <correct>正確</correct>：<underline>二零一五年</underline>見
+# text wrapped in wrong will be shown as green text in the UI, text wrapped in underline will be underlined in the UI
+transcribe-the-audio-subheader-2-example-2-wrong = <wrong>錯誤</wrong>：<underline>2015<underline>見
+transcribe-the-audio-subheader-2-example-3-correct = <correct>正確</correct>：打了八折
+transcribe-the-audio-subheader-2-example-3-wrong = <wrong>錯誤</wrong>：打了8折
+transcribe-the-audio-subheader-2-example-4-correct = <correct>正確</correct>：上週四他們被<underline>FBI</underline>逮捕
+transcribe-the-audio-subheader-2-example-4-wrong = <wrong>錯誤</wrong>：上週四他們被<underline>eff bee eye</underline>逮捕
 tags-table-header-1 = 標籤
 tags-table-header-2 = 意思
 tags-laugh = 笑聲
@@ -186,6 +194,7 @@ review-the-transcription-subheader = 一般指南
 
 ## Code-Switching
 
+code-switching = 語言切換
 adding-a-question = 加入問題
 # Adding a Question
 code-switching-adding-question-subheader = 什麼是好問題？
@@ -199,6 +208,10 @@ code-switching-types-subheader = 要新增哪些類型的問題
 code-switching-use-bilingual-prompts-header = 使用雙語問題
 code-switching-use-bilingual-prompts-explanation = 問題當中包含兩種語言的雙語問題範例：
 code-switching-use-bilingual-prompts-explanation-example = 「 你那天何時回家？」「你彼工當時轉來厝內？」
+code-switching-ask-bilingual-contexts-header = 詢問雙語環境
+code-switching-ask-bilingual-contexts-explanation = 請使用兩種語言都可以同時使用的場合例如家庭、學校、社區活動。範例：
+code-switching-ask-bilingual-contexts-explanation-example = 「你們跟表哥姊妹說話時會說西班牙語跟英語嗎？」
+code-switching-focus-emotional-header = 專注於情感或重要時刻
 code-switching-direct-quotes-header = 要求直接引述或重現原話情境
 code-switching-informal-scenarios-header = 探索非正式情境
 code-switching-dont-header = 不要這樣做
