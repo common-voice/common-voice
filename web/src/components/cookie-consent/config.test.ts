@@ -4,7 +4,6 @@ import {
   BRANDING,
   buildCookieControlConfig,
   COOKIE_CONTROL_PRODUCT,
-  MARKETING_COOKIES,
   NECESSARY_COOKIES,
 } from './config'
 import { getCookieControlStrings } from './strings'
@@ -57,33 +56,36 @@ describe('buildCookieControlConfig', () => {
       label: 'cookie-consent-analytics-label',
       description: 'cookie-consent-analytics-description',
     })
-    expect(category('marketing').label).toBe('cookie-consent-marketing-label')
   })
 
-  it('keeps Common Voice cookies as necessary', () => {
+  it('keeps Common Voice and donation form cookies as necessary', () => {
     const config = buildCookieControlConfig('test-key', STRINGS)
 
     expect(config.necessaryCookies).toBe(NECESSARY_COOKIES)
     expect(config.necessaryCookies).toEqual(
-      expect.arrayContaining(['mcv_session', 'mcv_features'])
+      expect.arrayContaining([
+        'mcv_session',
+        'mcv_features',
+        '__stripe_mid',
+        'm',
+        'hmt_id',
+        '__cf_bm',
+        '__cflb',
+      ])
     )
   })
 
-  it('defines analytics and marketing categories', () => {
+  it('has an analytics category only', () => {
     const config = buildCookieControlConfig('test-key', STRINGS)
 
-    expect(config.optionalCookies.map(c => c.name)).toEqual([
-      'analytics',
-      'marketing',
-    ])
+    expect(config.optionalCookies.map(c => c.name)).toEqual(['analytics'])
     expect(category('analytics').cookies).toBe(ANALYTICS_COOKIES)
-    expect(category('marketing').cookies).toBe(MARKETING_COOKIES)
   })
 
   it('does not list a cookie as both necessary and optional', () => {
-    const optional = [...ANALYTICS_COOKIES, ...MARKETING_COOKIES]
-
-    expect(NECESSARY_COOKIES.filter(c => optional.includes(c))).toEqual([])
+    expect(
+      NECESSARY_COOKIES.filter(c => ANALYTICS_COOKIES.includes(c))
+    ).toEqual([])
   })
 
   it('grants and revokes analytics storage through Consent Mode', () => {
@@ -95,22 +97,6 @@ describe('buildCookieControlConfig', () => {
     category('analytics').onRevoke()
     expect(gtag).toHaveBeenLastCalledWith('consent', 'update', {
       analytics_storage: 'denied',
-    })
-  })
-
-  it('grants and revokes ad storage through Consent Mode', () => {
-    category('marketing').onAccept()
-    expect(gtag).toHaveBeenLastCalledWith('consent', 'update', {
-      ad_storage: 'granted',
-      ad_personalization: 'granted',
-      ad_user_data: 'granted',
-    })
-
-    category('marketing').onRevoke()
-    expect(gtag).toHaveBeenLastCalledWith('consent', 'update', {
-      ad_storage: 'denied',
-      ad_personalization: 'denied',
-      ad_user_data: 'denied',
     })
   })
 

@@ -31,9 +31,5 @@ export function getCookieControlStrings(
       label: t('analytics-label'),
       description: t('analytics-description'),
     },
-    marketing: {
-      label: t('marketing-label'),
-      description: t('marketing-description'),
-    },
   }
 }

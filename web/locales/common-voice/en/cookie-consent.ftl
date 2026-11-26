@@ -20,8 +20,6 @@ cookie-consent-necessary-title = Necessary Cookies
 cookie-consent-necessary-description = These cookies make the site work, for example remembering your language and keeping you signed in. They can’t be switched off.
 cookie-consent-analytics-label = Analytics Cookies
 cookie-consent-analytics-description = These cookies help us count visits and see how people move around the site, so we can improve it.
-cookie-consent-marketing-label = Marketing Cookies
-cookie-consent-marketing-description = These cookies help us measure how well our campaigns work.
 # Labels inside the on/off switch for each cookie category
 cookie-consent-toggle-on = On
 cookie-consent-toggle-off = Off

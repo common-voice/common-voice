@@ -18,12 +18,7 @@ export const COOKIE_CONTROL_PRODUCT = 'PRO_MULTISITE'
 
 type ConsentState = 'granted' | 'denied'
 
-type ConsentParams = Partial<
-  Record<
-    'ad_storage' | 'analytics_storage' | 'ad_personalization' | 'ad_user_data',
-    ConsentState
-  >
->
+type ConsentParams = Partial<Record<'analytics_storage', ConsentState>>
 
 export type OptionalCookieCategory = {
   name: string
@@ -63,7 +58,6 @@ type CategoryText = {
 export type CookieControlStrings = {
   text: CookieControlText
   analytics: CategoryText
-  marketing: CategoryText
 }
 
 export type CookieControlBranding = {
@@ -153,6 +147,14 @@ export const NECESSARY_COOKIES = [
   // Stripe, used by the Fundraise Up donation form
   '__stripe_mid',
   '__stripe_sid',
+  'm',
+  // hCaptcha and Cloudflare, which protect the donation form from bots
+  'hmt_id',
+  '__cf_bm',
+  '__cflb',
+  // Google's NID (set by Google Pay in the donation form) is left out on
+  // purpose: it isn't necessary, and as a google.com cookie Civic can't
+  // remove it. foundation.mozilla.org doesn't list it either.
 ]
 
 export const ANALYTICS_COOKIES = [
@@ -172,12 +174,8 @@ export const ANALYTICS_COOKIES = [
   'fundraiseup_stat',
 ]
 
-export const MARKETING_COOKIES = [
-  // Google Ads conversion linker, set through Google Tag Manager
-  '_gcl_au',
-  '_gcl_*',
-]
-
+// There is no marketing category: a Civic scan of the site found no
+// advertising cookies. Google's ad signals stay denied (consent-defaults.js).
 export function buildOptionalCookies(
   strings: CookieControlStrings
 ): OptionalCookieCategory[] {
@@ -188,23 +186,6 @@ export function buildOptionalCookies(
       cookies: ANALYTICS_COOKIES,
       onAccept: () => updateGoogleConsent({ analytics_storage: 'granted' }),
       onRevoke: () => updateGoogleConsent({ analytics_storage: 'denied' }),
-    },
-    {
-      name: 'marketing',
-      ...strings.marketing,
-      cookies: MARKETING_COOKIES,
-      onAccept: () =>
-        updateGoogleConsent({
-          ad_storage: 'granted',
-          ad_personalization: 'granted',
-          ad_user_data: 'granted',
-        }),
-      onRevoke: () =>
-        updateGoogleConsent({
-          ad_storage: 'denied',
-          ad_personalization: 'denied',
-          ad_user_data: 'denied',
-        }),
     },
   ]
 }
