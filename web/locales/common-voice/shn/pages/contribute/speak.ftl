@@ -3,7 +3,7 @@ speak-now = လၢတ်ႈလႆႈယဝ်ႉ
 speak-subtitle = လူႇတၢၼ်းသဵင်ၸဝ်ႈၵဝ်ႇ
 record-cta = တႄႇဢတ်းသဵင်
 record-platform-not-supported = ၶႂၢင်းပၼ်ဢိတ်းၼိုင်ႈၶႃႈ၊ ပိူင်ၵၢၼ် (Platform) ၸဝ်ႈၵဝ်ႇၼၼ်ႉ ယၢမ်းလဵဝ်ပႆႇၸၢင်ႈၸႂ်ႉတိုဝ်းလႆႈၶႃႈ။
-record-platform-webview = ၸဝ်ႈၵဝ်ႇ ၸၢင်ႈတေလုၵ်ႉတီႈ လိင်ႉၼႂ်းဢႅပ်ႉသူဝ်ႇသျႄႇမီႇတီႇယႃႇသေ ၶဝ်ႈမႃးတီႈၼႆႈၶႃႈ။ ယၢမ်းလဵဝ် ၸဝ်ႈၵဝ်ႇတိုၵ်ႉၸႂ်ႉဝႆႉ ပရၢဝ်ႇသႃႇၼႂ်းဢႅပ်ႉ (In-app browser) ဢၼ်ပႆႇၵမ်ႉထႅမ်ပၼ် ၵၢၼ်ဢတ်းသဵင်ၶႃႈ။
+record-platform-webview = ၸဝ်ႈၵဝ်ႇ ၸၢင်ႈတေလုၵ်ႉတီႈ လိင်ႉၼႂ်းဢႅပ်ႉသူဝ်ႇသျႄႇမီႇတီႇယႃႇသေ ၶဝ်ႈမႃးတီႈၼႆႈၶႃႈ။ ယၢမ်းလဵဝ် ၸဝ်ႈၵဝ်ႇတိုၵ်ႉၸႂ်ႉဝႆႉ ပရၢဝ်ႇသိူဝ်ႇရ်ၼႂ်းဢႅပ်ႉ (In-app browser) ဢၼ်ပႆႇၵမ်ႉထႅမ်ပၼ် ၵၢၼ်ဢတ်းသဵင်ၶႃႈ။
 record-platform-not-supported-webview = တီႈၼိူဝ်ၶိူင်ႈၾူၼ်းၼၼ်ႉ ၸဝ်ႈၵဝ်ႇၸၢင်ႈၸႂ်ႉပရၢဝ်ႇသိူဝ်ႇရ်ပိူင်ၵၢၼ် (System browser) သေ ၶဝ်ႈႁူမ်ႈၸွႆႈထႅမ်လႆႈယူႇၶႃႈ။
 record-platform-not-supported-desktop = တီႈၼိူဝ်ၶွမ်ႇပိဝ်ႇတႃႇ (Desktop) ၼၼ်ႉ ၸဝ်ႈၵဝ်ႇၸၢင်ႈၶဝ်ႈႁူမ်ႈၸွႆႈထႅမ် လူၺ်ႈၵၢၼ်လူတ်ႇလူင်း (Download) ဢဝ်လႆႈ   ယူႇၶႃႈ။
 record-platform-not-supported-ios-non-safari = ပုၼ်ႈတႃႇ iOS ၶႂ်ႈႁႂ်ႈၸႂ်ႉ Safari သေ သိုပ်ႇႁဵတ်းၵၢၼ် ၼင်ႇႁႂ်ႈပေႃးတေဢတ်းသဵင်လႆႈၶႃႈ။
@@ -21,7 +21,7 @@ record-error-uploaded-clip-corrupted =
     • သၢႆၼႅတ်ႉၶၢတ်ႇ ၽွင်းတိုၵ်ႉဢတ်းသဵင်ယူႇႉ
     ၶႅၼ်းတေႃႈ ၸၢမ်းဢတ်းတူၺ်းထႅင်ႈၵမ်းၼိုင်ႈၶႃႈ။
 record-cancel = ပၢႆႇပႅတ်ႈ ဢတ်းသဵင်မႂ်ႇ
-record-instruction = { $actionType }<recordIcon></recordIcon> ယဝ်ႉၵေႃႈ ဢၢၼ်ႇဢွၵ်ႇသဵင်ၶေႃႈၵႂၢမ်းႁႂ်ႈလင်လင်
+record-instruction = { $actionType }<recordIcon></recordIcon> ယဝ်ႉဢၢၼ်ႇဢွၵ်ႇသဵင်ၶေႃႈၵႂၢမ်းႁႂ်ႈလင်လင်
 record-stop-instruction = { $actionType }<stopIcon></stopIcon> မိူဝ်ႈယဝ်ႉတူဝ်ႈယဝ်ႉ
 record-three-more-instruction = လိူဝ်ထႅင်ႈ 3 ၶေႃႈၵူၺ်းၶႃႈ
 record-again-instruction = ၶႅမ်ႉတေႉၶႃႈ! <recordIcon></recordIcon> ဢတ်းသဵင်ၶလိပ်ႉသိုပ်ႇၵႂႃႇထႅင်ႈ
