@@ -40,6 +40,12 @@ describe('buildCookieControlConfig', () => {
     expect(config.initialState).toBe('notify')
   })
 
+  it('keeps the consent cookie off other mozilla.org sites', () => {
+    const config = buildCookieControlConfig('test-key', STRINGS)
+
+    expect(config.subDomains).toBe(false)
+  })
+
   it('applies the Common Voice branding without a page overlay', () => {
     const config = buildCookieControlConfig('test-key', STRINGS)
 

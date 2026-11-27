@@ -89,6 +89,7 @@ export type CookieControlConfig = {
   notifyDismissButton: boolean
   toggleType: 'slider' | 'checkbox'
   logConsent: boolean
+  subDomains: boolean
   branding: CookieControlBranding
   text: CookieControlText
   accessibility: {
@@ -208,6 +209,12 @@ export function buildCookieControlConfig(
     notifyDismissButton: true,
     toggleType: 'slider',
     logConsent: true,
+    // Keep the consent cookie on commonvoice.mozilla.org. Civic's default
+    // saves it on .mozilla.org, which would share it with
+    // foundation.mozilla.org (also on Civic, with its own "analytics"
+    // category), so a choice made there would apply here too.
+    // Spontaneous Speech is on the same host, so it still shares the cookie.
+    subDomains: false,
     branding: BRANDING,
     text: strings.text,
     accessibility: {
