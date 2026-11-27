@@ -8,6 +8,10 @@ clips-with-count-pluralized =
     { $count ->
        *[other] ကလစ်<bold>{ $count }</bold>ခု
     }
+goal-help-recording = ကျွန်ုပ်တို့ရဲ့ Common Voice { $goalValue } ရည်မှန်းချက်ရဲ့ <goalPercentage></goalPercentage> ကို ရောက်ရှိအောင်  ကို သင်ကူညီပေးခဲ့ပါတယ်။
+goal-help-validation = ကျွန်ုပ်တို့ရဲ့ Common Voice { $goalValue } ရည်မှန်းချက်ရဲ့ <goalPercentage></goalPercentage> ကို ရောက်ရှိအောင်  ကို သင်ကူညီပေးခဲ့ပါတယ်။
+contribute-more = နောက် { $count } ခု လုပ်ဖို့ အဆင်သင့်ဖြစ်ပြီလား။
+speak-empty-state = ဒီဘာသာစကားနဲ့ မှတ်တမ်းတင်ဖို့ စာကြောင်းတွေ ကုန်သွားပါပြီ...
 target-segment-learn-more = ပိုမို လေ့လာရန်
 
 ## Reporting
