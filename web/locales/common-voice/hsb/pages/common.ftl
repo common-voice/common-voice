@@ -211,6 +211,7 @@ laj = Lango
 lb = Luksemburgšćina
 led = Lendu
 leu = Kara
+lez = Lezgišćina
 lg = Luganda
 lij = Ligurišćina
 lir = Kolokwa
