@@ -51,6 +51,7 @@ accept-privacy-and-terms = Ich stimme den <termsLink>Bedingungen</termsLink> und
 ms-MY = Bahasa-Malaysisch
 el-CY = Zypriotisches Griechisch
 pt-BR = Portugiesisch (Brasilien)
+ts-MZ = Xichangana
 
 ## Language search component
 

@@ -51,6 +51,7 @@ accept-privacy-and-terms = Es piekrītu Common Voice <termsLink>noteikumiem</ter
 ms-MY = Bahasa Malay
 el-CY = Kipras grieķu
 pt-BR = Brazīlijas portugāļu
+ts-MZ = Ksičangana
 
 ## Language search component
 

@@ -51,6 +51,7 @@ accept-privacy-and-terms = ვეთანხმები Common Voice-ის <t
 ms-MY = ბაჰასა-მალაური
 el-CY = კვიპროსული ბერძნული
 pt-BR = ბრაზილიის პორტუგალიური
+ts-MZ = ჩანგანა
 
 ## Language search component
 

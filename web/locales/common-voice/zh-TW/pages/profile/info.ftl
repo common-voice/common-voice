@@ -74,6 +74,23 @@ variant-contribution-warning-subtitle = 若你在貢獻時遇到問題，你可�
 api-credentials-description = 透過 Common Voice API 存取使用者全球的錄音資料集。透過終端機透過高品質的語音識別加強您的應用程式:
 api-credentials-use-case-1 = 正在送出錄音樣本
 api-credentials-use-case-2 = 正在取得資料集
+api-credentials-use-case-3 = 分析與改善語音模型
+api-credentials-description-conclusion = 加入我們一同開發語音技術並讓更多使用者能貢獻。
+create-api-key-button = 建立 API 憑證
+your-api-keys = 您的 API 憑證
+no-api-keys-header = <bold>目前您的帳號並未與任何 API 憑證相關聯。</bold>
+no-api-keys-description =
+    要建立您的第一個 API 金鑰請點擊「建立 API 憑證」然後在
+    然後點擊「產生金鑰」來產生您的 API 憑證密碼。然後請立即復制私鑰因為只會
+    顯示一次。
+api-key-name-input =
+    .label = API 憑證名稱
+create-api-key-header = <bold>重要公告: 產生 API 憑證密碼</bold>
+create-api-key-description = 點擊「產生憑證資訊」會為您的建立獨一無二的憑證。為了安全上的考量私鑰<bold>只會顯示一次</bold>。請複製並小心儲存。若遺失了金鑰您將無法找回而必須產生新的金鑰。
+create-api-key-agreement = 我同意我不會嘗識識別Common Voice資料集當中的說話者。
+generate-api-key-button = 產生憑證
+save-api-key-info = <bold>小心儲存您的金鑰</bold>
+save-api-key-info-description = 小心儲存您的金鑰並且不要將金鑰暴露於公開的原始碼儲存庫中。這把私鑰只有現在能檢視，之後就不會再顯示了。
 api-key-name-display-label = API 帳號名稱
 api-client-secret-display-label = API 客戶端密鑰
 api-client-id-display-label = API 客戶端 ID

@@ -27,7 +27,7 @@ do-section-guideline-3 = Pārliecinieties, ka uz jautājumiem var atbildēt pār
 do-not-section-title = nedariet tā
 do-not-section-guideline-1 = Mudināt nodot personu identificējošu informāciju (piemēram vārdus vai finanšu datus)
 do-not-section-guideline-2 = Paudiet vai mudiniet paust aizspriedumus vai aizskarošus apgalvojumus
-do-not-section-guideline-3 = Uzdodiet sensitīvus jautājumus
+do-not-section-guideline-3 = Vaicāt jūtīgus jautājumus
 # Code switching Guidelines
 cs-do-section-guideline-1 = Izmantojiet divvalodu jautājumus vai kontekstu
 cs-do-section-guideline-2 = Izpētiet neformālus scenārijus, situācijas vai to atveidojumus

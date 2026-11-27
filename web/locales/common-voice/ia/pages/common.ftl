@@ -210,6 +210,7 @@ led = Lendu
 leu = Kara
 lg = Luganda
 lij = Ligure
+lir = Creolo liberian
 lke = Kenyi
 lld = Ladin
 ln = Lingala

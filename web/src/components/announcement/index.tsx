@@ -119,6 +119,31 @@ const ANNOUNCEMENTS: AnnouncementItem[] = [
     startDate: '2026-09-17T00:00:00Z',
     endDate: '2026-09-30T23:59:59Z',
   },
+  // Release announcements for 2026-12
+  {
+    id: 'release-pre-202612',
+    textKey: 'announcement-pre-release',
+    buttonTextKey: 'announcement-mdc-button-text',
+    buttonHref: URLS.MDC_ROOT,
+    startDate: '2026-11-27T00:00:00Z',
+    endDate: '2026-12-04T23:59:59Z',
+  },
+  {
+    id: 'release-commencing-202612',
+    textKey: 'announcement-release-commencing',
+    buttonTextKey: 'announcement-mdc-button-text',
+    buttonHref: URLS.MDC_ROOT,
+    startDate: '2026-12-05T00:00:00Z',
+    endDate: '2026-12-09T23:59:59Z',
+  },
+  {
+    id: 'release-202612',
+    textKey: 'announcement-release',
+    buttonTextKey: 'announcement-mdc-button-text',
+    buttonHref: URLS.MDC_DATASETS,
+    startDate: '2026-12-10T00:00:00Z',
+    endDate: '2026-12-23T23:59:59Z',
+  },
 ]
 
 const getDismissedIds = (): string[] => {

@@ -17,6 +17,7 @@ ajg = Аджа
 aln = Гег Албанийн
 am = Амхарийн
 an = Арагонизийн
+apc = Левантан Ӏаьрбийн мотт
 ar = Iарбойн
 arn = Мапудунгун
 as = Ассамесийн
@@ -37,11 +38,14 @@ be = Беларусийн
 beb = Бамвел
 bew = Бетави
 bfd = Бафут
+bfq = Бадага
 bft = Балти
 bg = Балгарийн
 bgp = Малхбузен Балочи
+bin = Эдо
 bkh = Бакоко
 bkm = Ком
+blk = Пао
 bm = Бамбара
 bn = Бенгалийн
 bnm = Батанга
@@ -69,7 +73,7 @@ cjk = Чокве
 ckb = Юккхера Курдийн
 cnh = хIака чийнан
 co = Корсикан
-cpx = Х1енг ХIуан
+cpx = ХIенг ХIуан
 cpy = Ашенинка Къилбан Укаялан
 crh = Криман Татарийн
 cs = Чехийн
@@ -90,6 +94,7 @@ dsb = Лахлужецан
 dua = Дуала
 dv = Малдиван
 dyu = Дюла
+dz = Дзонг-кэ мотт
 ebr = Эбри
 ee = Эве
 efk = Эфик
@@ -116,6 +121,7 @@ fuf = Гвинейн Пулар
 fy-NL = Фризийн
 ga-IE = Ирландийн
 gaa = Га
+gcf = Мартиникан креолийн мотт
 gej = Мина
 ggg = Гургула
 gid = Гуйдар
@@ -179,6 +185,7 @@ khw = Ховар
 ki = Кикуйу
 kjh = Хакас
 kk = Казахан
+kl = Калааллисут мотт
 kln = Каленжин
 kls = Калаша
 km = Хмер
@@ -191,6 +198,7 @@ kpv = Коми-зирйанан
 krc = Кхарачойн-Балг1арийн
 ks = Кашмирийн
 ksf = Бафиа
+kum = ГӀумкийн мотт
 kvx = Паркари Коли
 kw = Корниш
 kxp = Ведийара Коли
@@ -202,6 +210,7 @@ led = Ленду
 leu = Кара
 lg = Луганда
 lij = Лигуриан
+lir = колоква
 lke = Кени
 lld = Ладин
 ln = Лингала
@@ -238,6 +247,7 @@ ml = Малайалам
 mmc = Мичоакан Мазахуа
 mn = Манголийн
 mni = Митеи Лон
+mnw = Мон
 mos = Моси
 mqh = Тлазойалтепец Микстец
 mr = Маратхи
@@ -249,11 +259,13 @@ msi = Сабах Малай
 mt = Малтийзан
 mua = Мунданг
 mug = Мусгум
+mui = Муси
 mve = Марвари
 mvy = Индо Кохистанан
 mxu = Мада
 my = Бурмезе
 myv = Эрзйа
+mzn = Мазандаранийн
 nan-tw = Тайванан
 nb-NO = Новегийн Букмал
 ncx = Юккъера Пуэбла Нахуатл
@@ -274,6 +286,7 @@ nqo = НКо
 nr = Ндебеле Къилбан
 nso = Къилбседан Сото
 ny = Чинйанжа
+nyb = Нягбон
 nyn = Рунянкол
 nyu = Нуьнгве
 oc = Окитан
@@ -295,6 +308,7 @@ pl = Польшан
 plk = Кохистани Шина
 pne = Малхбузен Пенан
 prq = Ашенинка Перени
+prs = Дарийн
 ps = Пашто
 pt = Португалан
 pua = МАлхбузан Лекхалаттан Пурепача
@@ -319,6 +333,7 @@ qxt = Квуэчу Пасто Санта Ана де Тузи
 qxu = Квуэчу Ареквипа-ла Юнион
 qxw = Кечуа Жавжа Ванка
 rif = Тарифит
+rki = Ракхайн мотт
 rm-sursilv = Романш Сурсилван
 rm-vallader = Романш Валладар
 rn = Кирунди
@@ -342,6 +357,7 @@ sdh = Къилбан Курдийн
 sdo = Сериан Бидау
 seh = Сена
 sei = Сери
+sg = Санго
 shi = Ташлхийт
 shn = Шан
 si = Сингалийн
@@ -361,6 +377,7 @@ su = Сунданезийн
 sv-SE = Шведийн
 sva = Сван
 sw = Свахили
+swb = Шимаоре мотт
 syr = Сирийн
 szy = Саказайа
 ta = Тамил
@@ -372,6 +389,7 @@ tg = Таджийкийн
 th = Тайскийн
 ti = Тигринйа
 tig = Тигре
+tiv = тив
 tk = Туркменийн
 tl = Тагалог
 tli = Тлингит
@@ -400,11 +418,13 @@ uk = Украийнан
 ukv = Куку
 ur = Урду
 ush = Ушодже
+usp = Успантекон
 uz = Узбекийн
 var = Хуарижио
 ve = Тчивенда
 vec = Венетский
 vi = Ветнамийн
+vls = Малхбузе-фламандин мотт
 vmw = Эмахува
 vot = Вотик
 wbl = Вахи
@@ -463,6 +483,8 @@ indicates-required = Седанца(*) билгалйаьккхи меттиг �
 not-available-abbreviation = N/A
 # Text shown on a button that can be clicked to copy text to the clipboard
 copy = Эвсарт
+# Text shown on a button that can be clicked to close a modal or panel
+close = ДӀакъовла
 # Text shown on a button that can be clicked to cancel an action
 cancel = Юхадаккхар
 # Text shown on a button that can be clicked to delete an item
@@ -488,6 +510,31 @@ announcement-mdc-text = Керла Common Voice хаамийн гуларш хӀ
 announcement-mdc-button-text = ДIакхета Mozilla Data Collective-х
 # Aria text for button which opens MDC on a new page
 announcement-mdc-button-aria-text = Керлачу юкъадилларехь схьайоьллу .
+
+## Release Delay Announcement
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-delay = Хьоме юкъаралла, тхо хӀинца арахецар тӀехь болх беш ду. Тхо тешна ду, тӀедогӀучу деношкахь иза дакъошкахь дӀадолор ду аьлла <mdcLink>Mozilla Data Collective тӀехь.</mdcLink>
+
+## Release Announcement
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release = Хьоме юкъаралла, керла арахецар хӀинца дуьззина <mdcLink>Mozilla Data Collective тӀехь ду</mdcLink>. Юкъаралло ша а, юкъараллина лерина а кхоьллина 500 сов дуьненан хаамийн гуламаш чубахкийта дӀахьакхало.
+
+## Pre-Release Announcement (dates TBD)
+
+# Text wrapped in <cvDatasheetsLink></cvDatasheetsLink> will be rendered as an external link to the cv-datasheets GitHub repo
+announcement-pre-release = Хьоме юкъаралла, арахецаран хан тӀекхочуш ю. Дехар до, дӀахьолаш таллар а, йозане даккхар а, иштта шайн хаамийн кехат карладаккха <cvDatasheetsLink>cv-datasheets </cvDatasheetsLink>тӀе а гӀолаш.
+
+## Release Commencing
+
+# Text wrapped in <mdcLink></mdcLink> will be rendered as an external link to Mozilla Data Collective
+announcement-release-commencing = Хьоме юкъаралла, тхо арахецаран тӀаьххьарчу дийне кхечира а, хаамийн гуламаш цхьаьнатухуш ду. Керла арахецар цхьа масех де даьлча <mdcLink>Mozilla Data Collective</mdcLink> тӀехь карор ду.
+
+## Downtime Announcements
+
+# Generic scheduled downtime for next Sunday early hours
+announcement-scheduled-downtime = Хьоме юкъаралла, тхайн системаш тояран Ӏалашонца тхо йоца сацаран хенаш дӀахӀиттайо, уьш дукха хьолахь масех сахьтехь чекхйовлу. РогӀера сацаран хан кху кӀиранан кӀирандийнахь Ӏуьйранна хир ю. Нагахь шуна цхьа а бала тӀехӀоттахь, тхоьга Matrix чохь зӀене довла.
 
 ## Common Language/Dataset Selector & SearchBox Related
 
