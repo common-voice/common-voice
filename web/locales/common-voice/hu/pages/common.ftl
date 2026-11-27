@@ -109,6 +109,7 @@ kpv = Komi-zürjén
 ks = Kasmíri
 kw = Cornwalli
 ky = Kirgiz
+la = Latin
 lb = Luxemburgi
 lg = Luganda
 lij = Ligur
