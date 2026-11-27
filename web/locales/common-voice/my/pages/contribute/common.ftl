@@ -1,6 +1,7 @@
 action-click = နိုပ်
 action-tap = တို့ထိ
 contribute = ပါဝင်ကူညီခြင်း
+review = ပြန်လည်သုံးသပ်ချက်
 skip = ကျော်ရန်
 shortcuts = အလွယ်နည်းများ
 clips-with-count-pluralized =
