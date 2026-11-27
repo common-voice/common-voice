@@ -12,6 +12,11 @@ goal-help-recording = ကျွန်ုပ်တို့ရဲ့ Common Voice
 goal-help-validation = ကျွန်ုပ်တို့ရဲ့ Common Voice { $goalValue } ရည်မှန်းချက်ရဲ့ <goalPercentage></goalPercentage> ကို ရောက်ရှိအောင်  ကို သင်ကူညီပေးခဲ့ပါတယ်။
 contribute-more = နောက် { $count } ခု လုပ်ဖို့ အဆင်သင့်ဖြစ်ပြီလား။
 speak-empty-state = ဒီဘာသာစကားနဲ့ မှတ်တမ်းတင်ဖို့ စာကြောင်းတွေ ကုန်သွားပါပြီ...
+no-sentences-for-variants = သင့်ဘာသာစကားရဲ့ ဒေသစကားအတွက် စာကြောင်းတွေ ကုန်သွားပါပြီ။ အကယ်၍ သင် စိတ်ဝင်စားပါက သင့်ဘာသာစကားအတွင်းက တခြား ဒေသစကားများကို မြင်ရဖို့ သင့်ဆက်တင်များကို ပြောင်းလဲနိုင်ပါတယ်။
+speak-empty-state-cta = စာကြောင်းများ ထည့်ပါ
+speak-loading-error = သင်ပြောရန် စာကြောင်းများကို ကျွန်ုပ်တို့ ရှာမတွေ့ပါ။ နောက်မှ ထပ်မံကြိုးစားပါ။
+record-button-label = သင့်အသံကို အသံသွင်းပါ။
+share-title-new = အခြားအသံများ ရှာဖွေရန် <bold>ကျွန်ုပ်တို့ကို ကူညီပါ။</bold>
 target-segment-learn-more = ပိုမို လေ့လာရန်
 
 ## Reporting
