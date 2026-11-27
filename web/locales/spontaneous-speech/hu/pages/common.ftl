@@ -51,6 +51,7 @@ accept-privacy-and-terms = Elfogadom a Common Voice <termsLink>Jogi feltételeit
 ms-MY = Maláj
 el-CY = Ciprióta görög
 pt-BR = Brazíliai portugál
+ts-MZ = Conga (Mozambik)
 
 ## Language search component
 

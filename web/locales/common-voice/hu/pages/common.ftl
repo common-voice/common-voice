@@ -75,6 +75,7 @@ gu-IN = Gudzsaráti
 guc = Wayúunaiki
 gv = Manx
 ha = Hausza
+hch = Vicsol
 he = Héber
 hi = Hindi
 hil = Hiligaynon
