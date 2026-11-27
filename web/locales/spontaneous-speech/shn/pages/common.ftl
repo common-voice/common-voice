@@ -51,6 +51,7 @@ accept-privacy-and-terms = ၵဝ်ၶႃႈ ၽွမ်ႉၸႂ်ၸွမ�
 ms-MY = ၿႃႇႁႃႇသႃႇမလေး
 el-CY = သိပ်ႇပရီဢဵတ်ႉ ၵရိတ်ႉ
 pt-BR = ပရႃႇသီးလီးယႅၼ်း ပေႃႇတူႇၵီႇ
+ts-MZ = သျှီႇၶျၢၼ်ႇၵႃႇၼႃႇ
 
 ## Language search component
 

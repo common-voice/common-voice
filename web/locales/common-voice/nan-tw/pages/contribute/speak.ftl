@@ -2,14 +2,24 @@ speak = 講話
 speak-now = 這馬就來講話
 speak-subtitle = 寄付你的聲音
 record-cta = 開始錄音
-record-platform-not-supported = 真抱歉，這馬暫時無支援您的平台。
-record-platform-not-supported-desktop = 佇桌上型電腦，您可以下載上新版本的：
+record-platform-not-supported = 真失禮，這馬暫時無支援您的平台。
+record-platform-webview = 你敢講因為揤社里媒體的連結來到遮，這馬是無支援 app 內的瀏覽器來錄音。
+record-platform-not-supported-webview = 你會當用手機仔的系統瀏覽器來貢獻。
+record-platform-not-supported-desktop = 佇桌上型電腦，您會當下載上新版本的：
 record-platform-not-supported-ios-non-safari = 佇 iOS 平台，請繼續到 Safari 開啟錄音的功能…
 record-must-allow-microphone = 您必須允准使用麥克風。
 record-no-mic-found = 揣袂著麥克風
 record-error-too-short = 錄音傷短矣。
 record-error-too-long = 錄音傷長矣。
 record-error-too-quiet = 錄音傷細聲矣。
+record-error-empty-recording = 無掠著錄音，請檢查你的麥克風閣來試看覓。
+record-error-unknown-format = 無法度決定音訊格式，請使用捌的瀏覽器閣試一改。
+record-error-uploaded-clip-corrupted =
+    你的錄音看起來歹去矣，可能的原因是：
+    { "*" } 瀏覽器的相容性問題 (請使用別的瀏覽器)
+    { "*" } 麥克風抑是音訊驅動的問題
+    { "*" } 錄音的時的網路連線問題
+    請較晏的時閣試一改。
 record-cancel = 取消重新錄音
 record-instruction = { $actionType }<recordIcon></recordIcon>大聲共這句話讀出來！（羅馬字是參考用的爾）
 record-stop-instruction = 完成了後{ $actionType } <stopIcon></stopIcon>
@@ -45,34 +55,34 @@ first-cta-subtitle-text = 您方便分享您的說話方式的相關資訊嗎？
 why-donate = 是按怎欲問這个？
 why-donate-explanation-1 = 您不一定需要提供此資訊給我們。當我們發布資料集時，會將所有個人資訊以假名方式處理，確保您的姓名、電子郵件地址等資訊無法與年齡、性別等人口統計資訊相關聯。
 why-donate-explanation-2 = 為了讓技術適用於每個人，所收集的資料可幫助開發者打造出反映出各種各樣的人的技術。舉例來說若我們未包含特定腔調的說話者，那使用本資料的技術就無法適用於操該種口音的使用者。<learnMore>點此處了解為什麼這些後設資料很重要。</learnMore>
-add-information-button = 加入更多資訊
+add-information-button = 加添資訊
 continue-speaking-button = 不用了，我要繼續錄音
 create-profile-text = 想要儲存您的資訊嗎？<createProfile>請註冊帳號</createProfile>
 thanks-for-voice-toast = 感謝您提供您的語音資訊
-thanks-for-voice-toast-error = 送出您的語音資訊時發生錯誤
-first-cta-gender-select-default-option = 選擇其中一個選項
+thanks-for-voice-toast-error = 送出您的語音資訊的時發生錯誤
+first-cta-gender-select-default-option = 選擇其中一个選項
 first-cta-gender-select-help-text =
-    .label = 您會如何描述您的生理性別或認同？
+    .label = 您會如何描述您的生理性別抑是認同？
 # SECOND POST SUBMISSION CTA
 second-cta-header-text = 感謝您捐出錄音片段！
-second-cta-subtitle-text = 註冊帳號後，您可以追蹤您的貢獻紀錄，並連繫社群中的其他語音資料貢獻者。
-already-have-an-account = 已經有帳號了嗎？<login>請登入</login>
-create-profile-button = 註冊帳號
+second-cta-subtitle-text = 你有口座了後，你會當追蹤你的貢獻紀錄，並連繫社里當中的其他語音資料事工。
+already-have-an-account = 你敢有口座？<login>請登入</login>
+create-profile-button = 新增口座
 # IMAGE TAGS
-img-alt-success-checkmark = 成功勾勾
+img-alt-success-checkmark = 成功勾選
 # menu item
-read-sentences = 讀句子
+read-sentences = 讀落句
 # text wrapped in <small></small> will be shown in a smaller font size
-read-sentences-coming-soon = 看句 <small>(咧欲推出)</small>
+read-sentences-coming-soon = 看落句 <small>(咧欲推出)</small>
 
 ## MENU ITEM TOOLTIPS
 
-speak-contribute-menu-tooltip = 讀句子，回答問題
-read-sentences-menu-item-tooltip = 使用你的語言錄下句子
+speak-contribute-menu-tooltip = 讀落句，回答問題
+read-sentences-menu-item-tooltip = 使用你的語言錄下落句
 answer-questions-menu-item-tooltip = 使用你的語言錄下提示問題的回答
 
 ## MENU ITEM ARIA LABELS
 
 speak-contribute-menu-aria-label = 錄音選項選單
-read-sentences-menu-item-aria-label = 閱讀社群提交的各語言句子
-answer-questions-menu-item-aria-label = 提出新的問題予社群去閱讀與回應
+read-sentences-menu-item-aria-label = 閱讀社里提交的各語言句子
+answer-questions-menu-item-aria-label = 提出新的問題予社群去閱讀佮回應

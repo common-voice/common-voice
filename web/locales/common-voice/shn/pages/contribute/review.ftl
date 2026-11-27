@@ -22,7 +22,7 @@ sc-review-form-button-reject-shortcut = N
 sc-review-form-button-skip-shortcut = S
 sc-review-form-keyboard-usage-custom = ၸဝ်ႈၵဝ်ႇ ၸၢင်ႈၸႂ်ႉတိုဝ်း လၢႆးလတ်းလွၵ်းမိုဝ်းလႆႈယူႇၶႃႈ၊ ၼဵၵ်း { sc-review-form-button-approve-shortcut } တႃႇမၵ်းမၼ်ႈ၊ ၼဵၵ်း { sc-review-form-button-reject-shortcut } တႃႇပၢၵ်ႈပႅတ်ႈ၊ ၼဵၵ်း{ sc-review-form-button-skip-shortcut } တႃႇၶၢမ်ႈပူၼ်ႉ။
 sc-review-form-button-submit =
-    .submitText = ၵၢၼ်ၵူတ်ႇထတ်းယဝ်ႉတူဝ်ယဝ်ႉ။
+    .submitText = ၵၢၼ်ၵူတ်ႇထတ်းယဝ်ႉတူဝ်ႈယဝ်ႉ။
 # Variables:
 #   $sentences (Number) - Number of sentences the user has reviewed in this session
 sc-review-form-reviewed-message =

@@ -26,7 +26,7 @@ speak-loading-error =
     Lūgums nedaudz vēlāk mēģināt vēlreiz.
 record-button-label = Ierakstiet savu balsi
 share-title-new = <bold>Palīdzi mums</bold> atrast vairāk balsu
-keep-track-profile = Sekojiet līdzi progresam, izmantojot profilu
+keep-track-profile = Seko līdzi virzībai ar profilu
 login-to-get-started = Jāpiesakās vai jāreģistrējas, lai uzsāktu
 target-segment-first-card = Jūs sniedzat ieguldījumu mūsu pirmajā mērķa segmentā
 target-segment-generic-card = Jūs sniedzat ieguldījumu mērķa segmentā

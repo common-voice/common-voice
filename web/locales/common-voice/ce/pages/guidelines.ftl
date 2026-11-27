@@ -15,3 +15,4 @@ background-voices = ТӀехьара аьзнаш
 volume = ЧIогIалла
 reader-effects = Йешаран Эвсарш
 just-unsure = Тешна вац?
+example = Масал

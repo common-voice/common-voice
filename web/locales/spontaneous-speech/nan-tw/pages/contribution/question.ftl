@@ -26,3 +26,9 @@ do-not-section-title = 莫做
 do-not-section-guideline-1 = 徵求個人識別資料 (親像名姓抑是財務資訊)
 do-not-section-guideline-2 = 表達抑是徵求犯著抑是冒犯的想法
 do-not-section-guideline-3 = 問犯著的問題
+# Code switching Guidelines
+cs-do-section-guideline-1 = 使用雙語問題抑是內容
+cs-do-section-guideline-2 = 探索非正式的場景、狀況抑是重現
+cs-do-not-section-guideline-1 = 索取個人識別資訊（比喻講名姓抑是財務資訊）抑是有冒犯性的言論
+cs-do-not-section-guideline-2 = 問語言切換抑是要求翻譯
+cs-do-not-section-guideline-3 = 使用相當正式的語言

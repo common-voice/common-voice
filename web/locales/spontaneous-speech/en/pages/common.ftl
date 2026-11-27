@@ -52,6 +52,7 @@ accept-privacy-and-terms = I agree to Common Voice's <termsLink>Terms</termsLink
 ms-MY = Bahasa Malay
 el-CY = Cypriot Greek
 pt-BR = Brazilian Portuguese
+ts-MZ = Xichangana
 
 ## Language search component
 

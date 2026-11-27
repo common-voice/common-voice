@@ -71,7 +71,7 @@ about-playbook-how-add-language-content-1 = 頭起先請先確認您的語言是
 about-playbook-how-add-language-translating-heading = 翻譯這个網站
 about-playbook-how-add-language-translating-content-1 = <translateVideoLink>觀看 Pontoon 的使用教學。</translateVideoLink>
 about-playbook-how-add-language-translating-content-2 = 咱使用 Mozilla 一套叫作 <pontoonLink>Pontoon</pontoonLink> 的家私進行介面翻譯。Pontoon 已經支援濟濟語言，若是無您使用的語言，會當佇<pontoonRequestLink>請求新增</pontoonRequestLink>。新增語言了後，請<githubRepoLink>到 GitHub 請求加入新的語言</githubRepoLink>，Common Voice 才會當支援。<localizationFragment>若是需閣較濟有關網站介面翻譯的資訊，請揤這个所在</localizationFragment>。
-about-playbook-how-add-language-collecting-sentences-heading = 收集句子
+about-playbook-how-add-language-collecting-sentences-heading = 收集落句
 about-playbook-how-add-language-collecting-sentences-content-1 = <sentenceCollectorVideo>觀看咱的 Sentence Collector 使用指南</sentenceCollectorVideo>。
 about-playbook-how-add-language-collecting-sentences-content-2 = 您會當<sentenceCollectorLinkAdd>加入少量的句仔</sentenceCollectorLinkAdd>，抑是直接<bulkImportDocsLink>透過 Github 大批匯入</bulkImportDocsLink>。請會記得所有的句仔攏必須是 <licenseLink>CC0 抑是公開領域</licenseLink>的作品，抑是您家己寫落來的作品。
 about-playbook-how-add-language-collecting-sentences-content-3 = <sentenceCollectorFragment>了解收集語句的閣較濟資訊</sentenceCollectorFragment>。
@@ -94,7 +94,7 @@ about-playbook-how-add-sentences-content-3 = 你會當使用 <scraperLink>Senten
 
 ## How to record quality
 
-about-playbook-how-record-quality = 欲按怎共語音片段錄較高品質？
+about-playbook-how-record-quality = 欲按怎共語音片段錄較好的品質？
 about-playbook-how-record-content-1 = 使用你上習慣的方式來講話！不論你是講佗一个腔口，咱攏向望你使用上習慣的講話聲音大細、方式、壓升謄轉來錄音。
 about-playbook-how-record-content-2 = 避免傷吵的背景噪音，應該愛真簡單就會使聽著你的聲音。
 about-playbook-how-record-content-3 = 小心閱讀落句，莫讀毋著、改字抑是加減字。

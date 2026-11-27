@@ -51,6 +51,7 @@ accept-privacy-and-terms = 我同意 Common Voice 的<termsLink>使用條款</te
 ms-MY = 馬來語
 el-CY = 塞浦路斯希臘語
 pt-BR = 巴西葡萄牙語
+ts-MZ = 西卡幹納語
 
 ## Language search component
 

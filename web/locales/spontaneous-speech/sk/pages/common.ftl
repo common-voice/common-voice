@@ -51,6 +51,7 @@ accept-privacy-and-terms = Súhlasím s <termsLink>Podmienkami používania slu�
 ms-MY = Bahasa malajčina
 el-CY = Cyperská gréčtina
 pt-BR = Brazílska portugalčina
+ts-MZ = Xichangana
 
 ## Language search component
 

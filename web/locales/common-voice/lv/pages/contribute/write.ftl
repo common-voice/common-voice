@@ -143,7 +143,7 @@ small-batch-response-message =
         [one] Savākti { $uploadedSentences } no { $totalSentences } teikumiem. Noklikšķiniet <downloadLink>šeit</downloadLink>, lai lejupielādētu noraidītos teikumus.
        *[other] Savākti { $uploadedSentences } no { $totalSentences } teikumiem. Noklikšķiniet <downloadLink>šeit</downloadLink>, lai lejupielādētu noraidītos teikumus.
     }
-small-batch-sentences-rule-1 = Sekojiet norādījumus sadaļā “Kādus teikumus varu pievienot?”
+small-batch-sentences-rule-1 = Seko “Kādus teikumus varu pievienot?” vadlīnijām
 small-batch-sentences-rule-2 = Katrā rindā pievienojiet vienu teikumu
 small-batch-sentences-rule-3 = Atdaliet teikumus, kas sarakstīti vienā rindā, vienreiz nospiežot “Enter”.
 small-batch-sentences-rule-4 = Pievienojiet līdz 1000 teikumiem

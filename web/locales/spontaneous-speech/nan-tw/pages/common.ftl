@@ -39,6 +39,7 @@ not-found-page-content = 找不到您尋找的頁面。
 accept-privacy-and-terms = 我同意 Common Voice 的<termsLink>使用條款</termsLink>與<privacyLink>隱私權公告</privacyLink>
 # Locales-Variants
 ms-MY = Bahasa Melayu 馬來語
+ts-MZ = 昌加納語
 
 ## Language search component
 

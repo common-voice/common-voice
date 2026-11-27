@@ -2,6 +2,47 @@
 
 ## Current release
 
+### [v1.161.0 (2026-11-27)](https://github.com/common-voice/common-voice/releases/tag/release-v1.161.0)
+
+- Update announcements for 2026-12 release by [@moz-bozden](https://github.com/moz-bozden) in [#5580](https://github.com/common-voice/common-voice/pull/5580)
+- Infra: Upgrade SCS image to Node 24 on Debian 13 with a multi-stage build, test pull requests against MySQL 8.0.31 by [@robdivincenzo](https://github.com/robdivincenzo) in [#5558](https://github.com/common-voice/common-voice/pull/5558)
+- Fix: Developers section translation keys on the home page by [@moz-bozden](https://github.com/moz-bozden) in [#5524](https://github.com/common-voice/common-voice/pull/5524) (in v.1.160.1)
+- Add issue template to add additional SPS questions by [@moz-acfort](https://github.com/moz-acfort) in [#5489](https://github.com/common-voice/common-voice/pull/5489) (in v.1.160.1)
+
+#### Data Changes in v1.161.0
+
+- Welcome to new languages Southern Altai (`alt`), Ikposso (`kpo`), Latin (`la`), and Lezgi (`lez`)
+- Add Xitsonga (`ts`) variants by [@moz-acfort](https://github.com/moz-acfort) in [#5579](https://github.com/common-voice/common-voice/pull/5579)
+- Welcome to new languages Dari (`prs`) and Kolokwa (`lir`) (in v.1.160.4)
+- Add Igbo (`ig`) variants by [@moz-acfort](https://github.com/moz-acfort) in [#5542](https://github.com/common-voice/common-voice/pull/5542) (in v.1.160.3)
+- Add Northwest Gbaya (`gya`) variants and accents by [@moz-acfort](https://github.com/moz-acfort) in [#5522](https://github.com/common-voice/common-voice/pull/5522) (in v.1.160.1)
+- Welcome to new language Nyagbo (`nyb`) (in v.1.160.1)
+
+#### Spontaneous Speech v1.161.0
+
+- Update announcements for 2026-12 release by [@moz-bozden](https://github.com/moz-bozden) in [#567](https://github.com/common-voice/spontaneous-speech/pull/567)
+
+##### SS Data Changes in v1.161.0
+
+- Add Ukrainian (`uk`) [#564](https://github.com/common-voice/spontaneous-speech/pull/564), Xitsonga/Xichangana (`ts-MZ`) [#565](https://github.com/common-voice/spontaneous-speech/pull/565), Ikposso (`kpo`) [#566](https://github.com/common-voice/spontaneous-speech/pull/566) questions by [@moz-acfort](https://github.com/moz-acfort)
+- Add Igbo (`ig`) questions by [@moz-acfort](https://github.com/moz-acfort) in [#563](https://github.com/common-voice/spontaneous-speech/pull/563) (in v.1.160.2)
+- Add Kikamba (`kam`) language and questions by [@moz-acfort](https://github.com/moz-acfort) in [#562](https://github.com/common-voice/spontaneous-speech/pull/562) (in v.1.160.1)
+- Add Northwest Gbaya (`gya`) language and questions by [@moz-acfort](https://github.com/moz-acfort) in [#561](https://github.com/common-voice/spontaneous-speech/pull/561) (in v.1.160.1)
+
+---
+
+### Changes merged after current release
+
+#### Data Changes after current release
+
+#### Spontaneous Speech Changes after current release
+
+##### SS Data Changes after current release
+
+---
+
+## Past releases
+
 ### [v1.160.0 (2026-09-21)](https://github.com/common-voice/common-voice/releases/tag/release-v1.160.0)
 
 - Add Brazilian Portuguese (`pt-BR`) variant-dataset support to Pontoon and bundler by [@moz-acfort](https://github.com/moz-acfort) in [#5517](https://github.com/common-voice/common-voice/pull/5517)
@@ -25,7 +66,7 @@
 - Add Hausa (`ha`) variants [#5451](https://github.com/common-voice/common-voice/pull/5451) by [@moz-acfort](https://github.com/moz-acfort) (in v.1.159.5)
 - Add Musi (`mui`) variants [#5440](https://github.com/common-voice/common-voice/pull/5440), Kabyle (`kab`) variants [#5445](https://github.com/common-voice/common-voice/pull/5445), and Frisian (`fy`) accents [#5448](https://github.com/common-voice/common-voice/pull/5448) by [@moz-acfort](https://github.com/moz-acfort) (in v.1.159.4)
 - Welcome to new language: West Flemish (`vls`) (in v.1.159.4)
-- Welcome to new languages: Dzongkha (dz), Kalaallisut (kl), and Musi (mui) (in v.1.159.3)
+- Welcome to new languages: Dzongkha (`dz`), Kalaallisut (`kl`), and Musi (`mui`) (in v.1.159.3)
 - Added Ewe (`ee`) variants by [@moz-bozden](https://github.com/moz-bozden) in [#5421](https://github.com/common-voice/common-voice/pull/5421) (in v.1.159.1) and moved existing sentences to the new variant with a migration, by [@moz-bozden](https://github.com/moz-bozden) in [#5425](https://github.com/common-voice/common-voice/pull/5425) (in v.1.159.2)
 
 #### Spontaneous Speech v1.160.0
@@ -44,30 +85,6 @@
 - Fix problems in Corsican (`co`) questions by [@moz-acfort](https://github.com/moz-acfort) in [#551](https://github.com/common-voice/spontaneous-speech/pull/551) (in v.1.159.7)
 - Add Palauan (`pau`) and Sundanese (`su`) questions by [@moz-acfort](https://github.com/moz-acfort) in [#549](https://github.com/common-voice/spontaneous-speech/pull/549) and [#550](https://github.com/common-voice/spontaneous-speech/pull/550) (in v.1.159.6)
 - Add Bengali (`bn`) questions by [@moz-acfort](https://github.com/moz-acfort) in [#548](https://github.com/common-voice/spontaneous-speech/pull/548) (in v.1.159.3)
-
----
-
-### Changes merged after current release
-
-- Add issue template to add additional SPS questions by [@moz-acfort](https://github.com/moz-acfort) in [#5489](https://github.com/common-voice/spontaneous-speech/pull/5489) (in v.1.160.1)
-
-#### Data Changes after current release
-
-- Welcome to new languages Dari (prs) and Kolokwa (lir)
-- Add Igbo (`ig`) variants by [@moz-acfort](https://github.com/moz-acfort) in [#5542](https://github.com/common-voice/common-voice/pull/5542) (in v.1.160.3)
-- Welcome to new language Nyagbo (nyb)
-
-#### Spontaneous Speech Changes after current release
-
-##### SS Data Changes after current release
-
-- Add Igbo (`ig`) questions by [@moz-acfort](https://github.com/moz-acfort) in [#563](https://github.com/common-voice/spontaneous-speech/pull/563) (in v1.160.2)
-- Add Kikamba (kam) language and questions by [@moz-acfort](https://github.com/moz-acfort) in [#562](https://github.com/common-voice/spontaneous-speech/pull/562) (in v.1.160.1)
-- Add Northwest Gbaya (gya) language and questions by [@moz-acfort](https://github.com/moz-acfort) in [#561](https://github.com/common-voice/spontaneous-speech/pull/561) (in v.1.160.1)
-
----
-
-## Past releases
 
 ### [v1.159.0 (2026-06-01)](https://github.com/common-voice/common-voice/releases/tag/release-v1.159.0)
 

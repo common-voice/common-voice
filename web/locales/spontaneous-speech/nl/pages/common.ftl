@@ -51,6 +51,7 @@ accept-privacy-and-terms = Ik ga akkoord met de <termsLink>Voorwaarden</termsLin
 ms-MY = Bahasa-Maleis
 el-CY = Cypriotisch Grieks
 pt-BR = Braziliaans-Portugees
+ts-MZ = Xichangana
 
 ## Language search component
 

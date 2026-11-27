@@ -6,6 +6,16 @@ export type Variant = {
 
 export const VARIANTS: Variant[] = [
   {
+    locale_name: 'ts',
+    variant_name: 'Xitsonga',
+    variant_token: 'ts-ZA',
+  },
+  {
+    locale_name: 'ts',
+    variant_name: 'Xichangana',
+    variant_token: 'ts-MZ',
+  },
+  {
     locale_name: 'ig',
     variant_name: 'Igbo Etiti',
     variant_token: 'ig-cntrl',

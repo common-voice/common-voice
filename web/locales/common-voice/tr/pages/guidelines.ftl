@@ -161,6 +161,7 @@ transcribe-the-audio-subheader-3 = Özel etiketler
 transcribe-the-audio-subheader-4 = Kelime parçaları, yanlış başlangıçlar, tekrarlanan kelimeler
 transcribe-the-audio-subheader-5 = Dil bilgisi hataları ve günlük ifadeler
 transcribe-the-audio-subheader-1-explanation = Genel olarak, duyduğunuz her şeyi yazmalısınız. Bunlar:
+transcribe-the-audio-subheader-1-explanation-example-1 = Duraksama ve tekrarlar gibi akıcılık bozukluklarını yazıya dökme
 transcribe-the-audio-subheader-1-explanation-example-2 = Öksürme veya gülme gibi ses olaylarını etiketleme
 transcribe-the-audio-subheader-1-explanation-example-3 = Arka plandaki konuşmalar veya araba kornaları gibi önemli ses kirliliğini etiketleme
 transcribe-the-audio-subheader-1-explanation-example-4 = Dil kullanımındaki çeşitlilik ve argo olduğu gibi kaydedilmelidir. Kişilerin konuşmasını düzeltmeye çalışmayın.
@@ -215,9 +216,11 @@ code-switching-avoid-2 = Nefret söylemi, önyargılı veya saldırgan ifadeler 
 code-switching-dont-header = Bunları yapmayın
 # Reviewing a Question
 code-switching-review-subheader = Soru inceleme
+code-switching-review-intro = Sorunun ölçütlere uygun olduğundan emin olun:
 code-switching-review-criterion-1 = Anlaşılması ve yanıtlanması kolay olmalı
 code-switching-review-criterion-2 = Genel konularla ilgili olmalı
 code-switching-review-criterion-3 = Kötü veya saldırgan bir dil kullanmamalı ya da kullanmaya yönlendirmemeli
+code-switching-review-does-not-header = Ve soru aşağıdakileri <bold>İÇERMEMELİ</bold>:
 code-switching-review-offensive-content = <bold>Rahatsız edici içerik veya hassas bilgiler</bold>
 code-switching-answer-header = Rahatsız edici içerik veya hassas bilgiler
 code-switching-review-no-1 = Kişisel kimlik bilgilerini vermekle sonuçlanabilecek sorular
@@ -225,7 +228,9 @@ code-switching-review-no-2 = Nefret söylemi, önyargılı ya da saldırgan ifad
 code-switching-review-no-3 = Birisinin hassas, potansiyel olarak tetikleyici yanıtları paylaşmasına neden olabilecek sorular
 # Answering a Question
 code-switching-answer-subheader = Soru cevaplama
+code-switching-answer-bullet-1 = Gerçek hayattaki anları veya durumları düşünün: şakalar, tartışmalar, gelenekler
 code-switching-answer-bullet-2 = Arkadaşınızla mesajlaşıyormuş ya da birine hikâye anlatıyormuş gibi düşünün
+code-switching-answer-bullet-3 = Başka dillerden alınmış veya harmanlanmış olsalar bile günlük hayatta kullandığınız kelimeleri tercih edin
 code-switching-answer-bullet-4 = Hiçbir yanıtın “mükemmel” olması gerekmez
 code-switching-authentic-header = Doğal ve içten yanıt verin
 code-switching-authentic-speak = <bold>Arkadaşlarınızla veya ailenizle konuştuğunuz gibi konuşun.</bold> Günlük hayatta dilleri karıştırıyorsanız burada da öyle yapın. Örnek:
@@ -235,6 +240,8 @@ code-switching-transcribe-subheader = Metne çevirme
 code-switching-tagging-subheader = Etiketleme
 code-switching-tagging-error-1 = Yanlış noktalama veya büyük harf kullanımı
 code-switching-tagging-error-2 = Yazım hataları
+code-switching-tagging-error-3 = Yanlış imla kurallarıyla yazılmış kelimeler
+code-switching-orthography-explanation = Her kelimeyi ait olduğu dilin yazımına göre yazın. Örneğin:
 code-switching-not-tag-interjections-example-2 = “Hayır”
 
 ## Reporting Content

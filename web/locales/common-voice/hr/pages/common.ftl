@@ -147,6 +147,7 @@ ky = Kirgiski
 lb = Luksemburški
 lg = Lugandski
 lij = Ligurijski
+lir = Kolokwa
 ln = Lingala
 lo = Laoški
 lt = Litavski
