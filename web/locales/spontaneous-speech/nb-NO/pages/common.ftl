@@ -51,6 +51,7 @@ accept-privacy-and-terms = Jeg aksepterer <termsLink>Betingelsene</termsLink> og
 ms-MY = Bahasa malaysisk
 el-CY = Kypriotisk gresk
 pt-BR = Portugisisk (Brasil)
+ts-MZ = Xichangana
 
 ## Language search component
 
