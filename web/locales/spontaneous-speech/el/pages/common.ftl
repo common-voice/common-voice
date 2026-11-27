@@ -51,6 +51,7 @@ accept-privacy-and-terms = Αποδέχομαι τους <termsLink>Όρους</
 ms-MY = Μαλαϊκά
 el-CY = Ελληνικά (Κύπρος)
 pt-BR = Πορτογαλικά (Βραζιλία)
+ts-MZ = Τσάνγκανα
 
 ## Language search component
 
