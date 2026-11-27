@@ -17,6 +17,8 @@ speak-empty-state-cta = စာကြောင်းများ ထည့်ပ�
 speak-loading-error = သင်ပြောရန် စာကြောင်းများကို ကျွန်ုပ်တို့ ရှာမတွေ့ပါ။ နောက်မှ ထပ်မံကြိုးစားပါ။
 record-button-label = သင့်အသံကို အသံသွင်းပါ။
 share-title-new = အခြားအသံများ ရှာဖွေရန် <bold>ကျွန်ုပ်တို့ကို ကူညီပါ။</bold>
+keep-track-profile = ပရိုဖိုင်ဖန်တီးပြီး သင့်ပံ့ပိုးမှုနှင့် မှတ်တိုင်များကို မှတ်တမ်းတင်ပါ။
+login-to-get-started = စတင်ရန် loginဝင်ပါ သို့မဟုတ် အကောင့်ဖွင့်ပါ
 target-segment-learn-more = ပိုမို လေ့လာရန်
 
 ## Reporting
