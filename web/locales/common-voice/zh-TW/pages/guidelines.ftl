@@ -186,6 +186,17 @@ tags-disfluency = 不流暢語句
 tags-unclear = 聽不清楚
 tags-noise = 噪音
 tags-laugh-explanation = 笑聲。
+tags-disfluency-explanation =
+    在說話者決定要說什麼時用作預留位置的詞彙或發音。
+    華語中常見的猶豫音有「啊」、「嗯」、「噢」等。
+tags-unclear-explanation = 聽不懂的一個或多個字詞。
+tags-noise-explanation =
+    其他類型的噪音，像是說話者的咳嗽聲或是清喉嚨的聲音，
+    汽車喇吧、有東西打到麥克風的聲音，電話鈴聲等。
+# Note: do not translate any tag, like [noise] or [laugh]
+special-tags-example-2 =
+    然後我 [噪音] 就去放假了。
+    呃[吵雜聲] [笑] 不是真的放假啦[笑]
 
 ## Review the Transcription
 
