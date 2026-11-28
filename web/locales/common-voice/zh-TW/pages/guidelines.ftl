@@ -197,6 +197,9 @@ tags-noise-explanation =
 special-tags-example-2 =
     然後我 [噪音] 就去放假了。
     呃[吵雜聲] [笑] 不是真的放假啦[笑]
+transcribe-the-audio-subheader-4-explanation-1 = 即興發言自然地有產生整個文字片段的假開頭。這些片段請儘可能轉錄完整文字，，並且在每個字後面加上 (-) 來表示是假開頭，範例：
+transcribe-the-audio-subheader-4-explanation-1-example = 他的名字是<underline>建-建文</underline>，姓陳。
+transcribe-the-audio-subheader-4-explanation-2 = 有時說話者會重複同一個字或句子多次。這也應該要被轉錄。範例：
 
 ## Review the Transcription
 
