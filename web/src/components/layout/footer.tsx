@@ -10,6 +10,7 @@ import Logo from './logo'
 import SubscribeNewsletter from './subscribe-newsletter'
 import { ContactLink, GitHubLink } from '../shared/links'
 import { ExternalLinkIcon } from '../ui/icons'
+import CookiePreferencesButton from '../cookie-consent/cookie-preferences-button'
 
 import './footer.css'
 
@@ -64,6 +65,7 @@ const Footer = React.memo(() => {
                 rel="noopener noreferrer"
               />
             </Localized>
+            <CookiePreferencesButton className="left-aligned cookie-preferences" />
           </div>
           <div className="divider-vertical" />
           <div>

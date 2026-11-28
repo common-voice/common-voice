@@ -71,6 +71,8 @@ module.exports = (_env, argv) => {
         { from: 'releases', to: 'releases' },
         // copy the locales JSON files
         { from: '../locales', to: 'languages' },
+        // Google Consent Mode defaults, loaded before any Google tag
+        { from: 'consent/consent-defaults.js', to: 'consent-defaults.js' },
       ],
     }),
 
@@ -95,6 +97,10 @@ module.exports = (_env, argv) => {
 
     new webpack.DefinePlugin({
       'process.env.GIT_COMMIT_SHA': JSON.stringify(process.env.GIT_COMMIT_SHA),
+      // Civic Cookie Control API key; the cookie banner is disabled when empty
+      'process.env.COOKIE_CONTROL_API_KEY': JSON.stringify(
+        process.env.CV_COOKIE_CONTROL_API_KEY || ''
+      ),
     }),
   ]
 

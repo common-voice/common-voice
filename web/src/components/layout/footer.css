@@ -119,6 +119,12 @@ footer {
             margin-block-end: 16px;
         }
 
+        /* Follows the "Cookies" link, which has no bottom margin as the
+           last link in its column */
+        .cookie-preferences {
+            margin-block: 16px 0;
+        }
+
         & a {
             margin-block-end: 16px;
 

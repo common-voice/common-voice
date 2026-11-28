@@ -28,7 +28,7 @@ export function setCookie(
   const days = options.days ?? DEFAULT_COOKIE_OPTIONS.days
   const path = options.path ?? DEFAULT_COOKIE_OPTIONS.path
   const secure = options.secure ?? DEFAULT_COOKIE_OPTIONS.secure
-  const sameSite = options.sameSite ?? DEFAULT_COOKIE_OPTIONS.days
+  const sameSite = options.sameSite ?? DEFAULT_COOKIE_OPTIONS.sameSite
 
   let cookieString = `${encodeURIComponent(name)}=${encodeURIComponent(value)}`
 

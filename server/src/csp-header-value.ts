@@ -28,6 +28,8 @@ const SOURCES = {
     'ucarecdn.com',
     '*.paypalobjects.com',
     '*.paypal.com',
+    // Civic Cookie Control (cookie consent banner)
+    'https://*.civiccomputing.com',
   ],
   'media-src': [
     'data:',
@@ -38,8 +40,6 @@ const SOURCES = {
   ],
   'script-src': [
     "'self'",
-    "'sha256-fIDn5zeMOTMBReM1WNoqqk2MBYTlHZDfCh+vsl1KomQ='",
-    "'sha256-Hul+6x+TsK84TeEjS1fwBMfUYPvUBBsSivv6wIfKY9s='",
     "'sha256-f5PIEq+yjZ2s4dERSM1INxQKD+3sf+TKU2H7p8iijiI='",
     "'sha256-GzFSggTMJH0+aLj5HI3ZiCtxjVrlSWczZ/oHezdwRgE='",
     "'sha256-a4XKOKikGVsTOKjLwsaxxV5wpz/r2aiS5mjhlhYZ6A0='",
@@ -60,6 +60,8 @@ const SOURCES = {
     '*.paypalobjects.com',
     'pay.google.com ',
     '*.src.mastercard.com',
+    // Civic Cookie Control (cookie consent banner)
+    'https://cc.cdn.civiccomputing.com',
   ],
   'font-src': [
     "'self'",
@@ -93,6 +95,8 @@ const SOURCES = {
     'https://www.google.com/pay',
     'https://google.com/pay',
     'pay.google.com',
+    // Civic Cookie Control: API key check, geolocation and consent logging
+    'https://*.civiccomputing.com',
   ],
   'frame-src': [
     '*.fundraiseup.com',

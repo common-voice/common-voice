@@ -38,6 +38,7 @@ import { AB_TESTING_SPLIT_KEY, SPLIT_A, SPLIT_B } from '../constants'
 import { FeatureProvider } from '../contexts/feature-context'
 import lazyWithRetry from '../lazy-with-retry'
 import useSystemErrorHandler from './use-system-error-handler'
+import CookieConsent from './cookie-consent/cookie-consent'
 
 const ListenPage = lazyWithRetry(
   () => import('./pages/contribution/listen/listen')
@@ -249,6 +250,7 @@ let LocalizedPage: any = class extends React.Component<
 
     return (
       <>
+        <CookieConsent />
         <div
           className="upload-progress"
           style={

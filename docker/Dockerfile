@@ -42,6 +42,8 @@ FROM node:24.21.0-trixie-slim
 
 ARG COMMIT="local-build"
 ARG TAG=""
+# Civic Cookie Control API key, baked into the web build (public value)
+ARG COOKIE_CONTROL_API_KEY=""
 ARG UID=10001
 ARG GID=10001
 
@@ -68,6 +70,7 @@ RUN mkdir -p /code/logs && chown app:app /code/logs
 USER app
 
 ENV GIT_COMMIT_SHA=${COMMIT}
+ENV CV_COOKIE_CONTROL_API_KEY=${COOKIE_CONTROL_API_KEY}
 
 EXPOSE 9000
 

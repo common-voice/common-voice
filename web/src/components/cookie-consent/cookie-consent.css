@@ -1,0 +1,109 @@
+@import url('../media.css');
+
+/*
+ * Style overrides for Civic Cookie Control v9 (https://cookiecontrol.com/docs/v9/)
+ * to match the ICV-76 design. Colours and fonts are set through the `branding`
+ * config in config.ts; this file only covers what branding can't.
+ *
+ * Civic injects its own styles with high specificity, so most rules need
+ * !important. Based on foundation.mozilla.org's _cookie_control_override.scss.
+ */
+
+#ccc {
+  /* Civic's headings would otherwise pick up Common Voice's heading font. */
+  & h1,
+  & h2,
+  & h3 {
+    font-family: inherit !important;
+  }
+
+  /* Notification bar */
+  & #ccc-notify {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    padding: 24px 24px 32px !important;
+    box-shadow: 0 -2px 8px 0 rgba(0, 0, 0, 0.25);
+
+    /* On wide screens the bar is 800px wide, anchored bottom-right. */
+    @media (--xl-up) {
+      max-width: 800px !important;
+      left: unset !important;
+    }
+
+    & p {
+      font-size: 16px !important;
+      line-height: 24px !important;
+      opacity: 1 !important;
+    }
+  }
+
+  /* Logical (start/end) properties below keep the layout correct in
+     right-to-left locales such as Arabic. */
+  & .ccc-notify-text {
+    /* Leave room for the close icon in the top corner. */
+    margin: 0 !important;
+    margin-inline-end: 40px !important;
+    text-align: start !important;
+  }
+
+  & #ccc-notify-title {
+    margin-bottom: 8px !important;
+    font-size: 18px !important;
+    font-weight: 700 !important;
+    line-height: 27px !important;
+  }
+
+  & .ccc-notify-buttons {
+    position: static !important;
+    display: flex !important;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+    margin: 8px 0 0 !important;
+  }
+
+  /* Notification bar buttons. The preference panel reuses this class, so
+     scope it to the bar and keep Civic's 16px panel buttons. */
+  & #ccc-notify .ccc-notify-button {
+    margin: 0 !important;
+    border-radius: 0 !important;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    line-height: 18px !important;
+
+    &#ccc-notify-accept,
+    &#ccc-notify-reject {
+      padding: 16px 24px !important;
+    }
+
+    /* "Settings" link */
+    &.ccc-notify-link {
+      padding: 15px 12px !important;
+      text-decoration: underline !important;
+    }
+  }
+
+  & #ccc-notify-dismiss {
+    position: absolute !important;
+    top: 24px !important;
+    inset-inline-start: auto !important;
+    inset-inline-end: 24px !important;
+  }
+
+  /* Preference panel buttons: square corners, as in the design */
+  & #ccc-content .ccc-notify-button {
+    border-radius: 0 !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+    line-height: 24px !important;
+  }
+
+  /* Corner button: grey triangle with a white logo ("Subtle" in the design) */
+  & #ccc-icon #triangle path {
+    fill: #b6b6b6 !important;
+  }
+
+  & #ccc-icon #star path {
+    fill: #fff !important;
+  }
+}
