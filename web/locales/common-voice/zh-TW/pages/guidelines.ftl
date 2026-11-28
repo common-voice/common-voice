@@ -248,6 +248,7 @@ code-switching-avoid-subheader = 應避免的事項
 code-switching-avoid-intro = 這類型的問題：
 code-switching-avoid-1 = 詢問個人隱私資訊
 code-switching-avoid-2 = 仇恨言論或是其他有害、冒犯性言論
+code-switching-avoid-3 = 可能會造成某人分享敏感內容或可能會觸發狀況的問題
 code-switching-dont-header = 不要這樣做
 code-switching-dont-1 = 不要使用太正式的語言
 # Reviewing a Question
@@ -272,3 +273,6 @@ code-switching-answer-bullet-4 = 沒有「完美」的回覆
 code-switching-authentic-header = 自然、真實地回答
 code-switching-authentic-speak = <bold>就像平常和親友聊天一樣自然地說話。</bold>如果你在日常生活中會混用不同語言，在這裡也可以這麼做。範例：
 code-switching-authentic-speak-example = 「阿玉，我跟她說我沒辦法去，但她就回我：『你最好給我出現！』」
+code-switching-use-both-languages = <bold>如果您經常自然使用兩種語言，就依據您的習慣說話。</bold>就算只是切換一兩個字也很有用。範例：
+code-switching-use-both-languages-example = 「伊真生氣，因為我沒有回她電話。」
+code-switching-authentic-direct-quotes = <bold>包含直接的引言或對白。</bold>依照某人說話的內容原意說話，而不要簡化或符合文法的版本。範例：
