@@ -209,6 +209,8 @@ transcribe-the-audio-subheader-5-explanation-2 = 說話者可能會使用在文�
 review-the-transcription = 審核轉錄文本
 review-the-transcription-subheader = 一般指南
 review-the-transcription-explanation-1 = 一般來說，我們建議檢查轉錄內容的不是原始的說話者，因為您很難檢查自己說的話！有多道檢查步驟能讓品管更好，而且能避免偏見與問題。
+review-the-transcription-explanation-2 = 請參考上面的轉錄指南以確認您轉錄的內容準確無誤。您可以提供編輯內容並送出。
+review-the-transcription-explanation-3 = 再次強調一下，您可以標示冒犯性、有害或其他方面令人擔心的內容，這些內容只會從您的瀏覽範圍移除，直到 Common Voice 團隊能夠審查並進行進一步調查。
 
 ## Code-Switching
 
@@ -230,6 +232,7 @@ code-switching-ask-bilingual-contexts-header = 詢問雙語環境
 code-switching-ask-bilingual-contexts-explanation = 請使用兩種語言都可以同時使用的場合例如家庭、學校、社區活動。範例：
 code-switching-ask-bilingual-contexts-explanation-example = 「你們跟表哥姊妹說話時會說西班牙語跟英語嗎？」
 code-switching-focus-emotional-header = 專注於情感或重要時刻
+code-switching-focus-emotional-explanation = 人們通常會在表達情緒或是緊急狀態是切換語言，範例：
 code-switching-direct-quotes-header = 要求直接引述或重現原話情境
 code-switching-informal-scenarios-header = 探索非正式情境
 code-switching-dont-header = 不要這樣做
