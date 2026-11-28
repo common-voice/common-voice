@@ -238,7 +238,10 @@ code-switching-direct-quotes-header = 要求直接引述或重現原話情境
 code-switching-direct-quotes-explanation = 鼓勵參與者重現別人怎麼說。範例：
 code-switching-direct-quotes-explanation-example = 「你得知這件事時，原話是怎麼說的？」
 code-switching-cultural-topics-header = 選擇特定文化主題
+code-switching-cultural-topics-explanation = 飲食、傳統、節日以及家庭成員之間的互動常會切換語言。
+code-switching-cultural-topics-explanation-example = 「您會如何向只會說英語的人描述亡靈節？」
 code-switching-informal-scenarios-header = 探索非正式情境
+code-switching-informal-scenarios-explanation = 與朋友對話或是發簡訊時常會自然就語言切換。範例：
 code-switching-dont-header = 不要這樣做
 code-switching-dont-1 = 不要使用太正式的語言
 # Reviewing a Question
