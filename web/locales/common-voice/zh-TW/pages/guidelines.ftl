@@ -201,11 +201,14 @@ transcribe-the-audio-subheader-4-explanation-1 = 即興發言自然地有產生�
 transcribe-the-audio-subheader-4-explanation-1-example = 他的名字是<underline>建-建文</underline>，姓陳。
 transcribe-the-audio-subheader-4-explanation-2 = 有時說話者會重複同一個字或句子多次。這也應該要被轉錄。範例：
 transcribe-the-audio-subheader-4-explanation-2-example = 然後我就去了<underline>去了去了床-</underline>房間
+transcribe-the-audio-subheader-5-explanation-1 = 即興發言自然可能有文法錯誤，當在轉錄時不應該更正，轉錄內容需要反應說話者的實際內容。
+transcribe-the-audio-subheader-5-explanation-2 = 說話者可能會使用在文法上可能被視為不正確的俗語，在英語中可能有「gona」、「coz」等。請依據實際的說話內容來轉錄，不需要改寫成符合文化的內容。
 
 ## Review the Transcription
 
 review-the-transcription = 審核轉錄文本
 review-the-transcription-subheader = 一般指南
+review-the-transcription-explanation-1 = 一般來說，我們建議檢查轉錄內容的不是原始的說話者，因為您很難檢查自己說的話！有多道檢查步驟能讓品管更好，而且能避免偏見與問題。
 
 ## Code-Switching
 
