@@ -70,7 +70,7 @@ sentence-variant-select-multiple-variants = Общий язык / несколь
 
 # <icon></icon> will be replaced with an icon that represents upload
 sc-bulk-upload-header = Загрузите <icon></icon> общедоступные предложения
-sc-bulk-upload-instruction = Перетащите сюда свой файл или <uploadButton>нажмите, чтобы загрузить</uploadButton>
+sc-bulk-upload-instruction = Перетащите сюда свой файл или <uploadButton>нажмите, чтобы добавить</uploadButton>
 sc-bulk-upload-instruction-drop = Перетащите сюда файл, чтобы загрузить
 bulk-upload-additional-information = Если вы хотите предоставить дополнительную информацию об этом файле, пожалуйста, свяжитесь с нами по адресу <emailFragment>commonvoice@mozilla.com</emailFragment>
 template-file-additional-information = Если вы хотите предоставить дополнительную информацию об этом файле, который не включен в шаблон, пожалуйста, свяжитесь с нами по адресу <emailFragment>commonvoice@mozilla.com</emailFragment>
