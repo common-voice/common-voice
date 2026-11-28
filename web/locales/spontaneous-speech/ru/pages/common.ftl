@@ -51,6 +51,7 @@ accept-privacy-and-terms = Я согласен с <termsLink>Условиями<
 ms-MY = Бахаса Малай
 el-CY = Греческий кипрский
 pt-BR = Бразильский португальский
+ts-MZ = Шангаанский
 
 ## Language search component
 
