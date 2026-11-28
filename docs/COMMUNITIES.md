@@ -100,5 +100,7 @@ Many language communities are self organising and have their contact channels on
   - [X/Twitter](https://bit.ly/3jmq08a)
   - [Instagram](https://bit.ly/3G0RUAB)
   - [LinkedIn Page](https://bit.ly/3GeX6Rp)
+- Ukrainian (`uk`):
+  - [Telegram Bot](https://t.me/UkrBot_bot)
 - Wolof (`wo`):
   - [WhatsApp](https://chat.whatsapp.com/CqgmqagpljJA8F1TiNK203)
