@@ -242,6 +242,12 @@ code-switching-cultural-topics-explanation = 飲食、傳統、節日以及家�
 code-switching-cultural-topics-explanation-example = 「您會如何向只會說英語的人描述亡靈節？」
 code-switching-informal-scenarios-header = 探索非正式情境
 code-switching-informal-scenarios-explanation = 與朋友對話或是發簡訊時常會自然就語言切換。範例：
+code-switching-informal-scenarios-explanation-example = 「你的朋友們總是開什麼玩笑—他們怎麼說？」
+# What to Avoid
+code-switching-avoid-subheader = 應避免的事項
+code-switching-avoid-intro = 這類型的問題：
+code-switching-avoid-1 = 詢問個人隱私資訊
+code-switching-avoid-2 = 仇恨言論或是其他有害、冒犯性言論
 code-switching-dont-header = 不要這樣做
 code-switching-dont-1 = 不要使用太正式的語言
 # Reviewing a Question
